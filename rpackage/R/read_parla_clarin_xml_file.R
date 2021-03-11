@@ -16,7 +16,7 @@ read_parla_clarin_xml_file <- function(x, ...){
   checkmate::assert_file_exists(x)
   pc <- xml2::read_xml(x, ...)
   pc <- xml2::as_list(pc)
-  class(pc) <- "parla_clarin_xml"
+  class(pc) <- "parla_clarin_xml_list"
   pc
 }
 
