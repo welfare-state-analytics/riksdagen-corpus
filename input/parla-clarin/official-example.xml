@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../Schema/parla-clarin.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../Schema/parla-clarin.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="Parla-CLARIN-Exemplar" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Exemplar PPC to illustrate Parla-CLARIN encoding</title>
+            <!-- Persons responsible for creating a corpus, for example: -->
+            <!-- author of the corpus -->
+            <author ref="http://viaf.org/viaf/305936424">
+               <forename>Andrej</forename>
+               <surname>Pančur</surname>
+            </author>
+            <!-- editor of the corpus -->
+            <editor ref="https://orcid.org/0000-0002-1560-4099 http://viaf.org/viaf/15145066459666591823">
+               <forename>Tomaž</forename>
+               <surname>Erjavec</surname>
+            </editor>
+            <!-- other responsibilities in building the corpus -->
+            <respStmt>
+               <resp>TEI corpus encoding</resp>
+               <persName ref="http://viaf.org/viaf/305936424">Andrej Pančur</persName>
+               <persName ref="https://orcid.org/0000-0002-1560-4099 http://viaf.org/viaf/15145066459666591823">Tomaž Erjavec</persName>
+            </respStmt>
+            <funder>CLARIN ERIC</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>0.1</edition>
+         </editionStmt>
+         <extent>
+            <measure unit="texts" quantity="1">1 text</measure>
+            <measure unit="utterances" quantity="6">6 utterances</measure>
+         </extent>
+         <publicationStmt>
+            <authority>CLARIN ERIC</authority>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by/4.0/"/>
+               <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+            </availability>
+            <distributor>CLARIN Git repository</distributor>
+            <!-- date of corpus construction or publication -->
+            <date when="2019-09-04">September 4th, 2019</date>
+         </publicationStmt>
+         <!-- Source description for the whole corpus: -->
+         <sourceDesc>
+            <!-- Use a more or less structured bibliographic record in accordance with the guidelines in
+                      https://tei-c.org/release/doc/tei-p5-doc/en/html/HD.html#HD3
+                      Minimum requirements:
+                       - Use the <bibl> element with the following child elements:
+                           - mandatory <title> and 
+                           - optional <idno> and <date>  -->
+            <bibl>
+               <title type="main">Website of the National Assembly</title>
+               <title type="sub">Hansard</title>
+               <idno type="URI">https://www.dz-rs.si/wps/portal/Home/deloDZ/seje/sejeDrzavnegaZbora/PoDatumuSeje/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8zivT39gy2dDB0N3INMjAw8Db0tQ3x8fQwNvM30wwkpiAJKG-AAjgb6BbmhigCWEc4T/dz/d5/L2dBISEvZ0FBIS9nQSEh/</idno>
+               <date from="1990-05-08" to="2018-06-22"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <correction>
+               <p>No correction of source texts was performed.</p>
+            </correction>
+            <normalization>
+               <p>Only parts relevant to the example document were retained.</p>
+            </normalization>
+            <hyphenation>
+               <p>No end-of-line hyphens were present in the source.</p>
+            </hyphenation>
+            <quotation>
+               <p>Quotation marks have been left in the text and are not explicitly marked up.</p>
+            </quotation>
+            <segmentation>
+               <p>The texts are segmented into utterances (speeches) and segments (corresponding to paragraphs in the source transcription).</p>
+            </segmentation>
+         </editorialDecl>
+         <appInfo>
+           <application version="1.0" ident="web-scraper">
+             <label>WebScraper WWW spider</label>
+             <desc>Tool used to download source documents for this corpus.</desc>
+           </application>
+         </appInfo>
+         <classDecl>
+           <!-- One or more optional taxonomies, with which we further classify the content and structure of parliamentary debates -->
+            <taxonomy>
+               <desc>Types of speakers</desc>
+               <category xml:id="chair">
+                  <catDesc>
+                     <term>Chairperson</term>: chairman of a meeting. See also <term>The Speaker</term>: an MP who has been elected by other MPs to act as Chair during debates in the House of Commons.</catDesc>
+               </category>
+            </taxonomy>
+            <!-- Project-specific classification of the structure of parliamentary periods: -->
+            <taxonomy>
+               <category xml:id="parla.term">
+                  <catDesc><term>Legislative period</term>: term of the parliament between
+                     general elections.</catDesc>
+                  <category xml:id="parla.session">
+                     <catDesc><term>Legislative session</term>: the period of time in which
+                        a legislature is convened for purpose of lawmaking, usually being
+                        one of two or more smaller divisions of the entire time between two
+                        elections. A session is a meeting or series of connected meetings
+                        devoted to a single order of business, program, agenda, or announced
+                        purpose.</catDesc>
+                     <category xml:id="parla.meeting">
+                        <catDesc><term>Meeting</term>: Each meeting may be a
+                           separate session or part of a group of meetings constituting a
+                           session. The session/meeting may take one or more
+                           days.</catDesc>
+                        <category xml:id="parla.sitting">
+                           <catDesc><term>Sitting</term>: sitting day</catDesc>
+                        </category>
+                     </category>
+                  </category>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting>
+               <!-- Location (posible values: city, street, address) of parliamentary sessions -->
+               <name type="city">Ljubljana</name>
+               <!-- In which country the parliament is located: in attribute @key use ISO 3166 country code -->
+               <name type="country" key="SI">Slovenia</name>
+               <!-- Time range of the whole corpus of parliamentary debates -->
+               <date from="1991-05-05" to="2018-06-22"/>
+            </setting>
+         </settingDesc>
+         <particDesc>
+           <!-- List of speakers with their metadata -->
+           <listPerson>
+             
+              <!-- The opposition is defined as a group of persons -->
+              <personGrp xml:id="opposition.1" role="opposition" sex="mixed"/>
+              
+              <person xml:id="KucanMilan1941">
+                <persName>
+                  <surname>Kučan</surname>
+                  <forename>Milan</forename>
+                </persName>
+                <sex value="M">male</sex>
+                <birth when="1941-01-14">
+                  <placeName ref="http://www.geonames.org/3197229">Križevci</placeName>
+                </birth>
+                <idno type="wikimedia" xml:lang="sl">https://sl.wikipedia.org/wiki/Milan_Ku%C4%8Dan</idno>
+                <idno type="wikimedia" xml:lang="en">https://en.wikipedia.org/wiki/Milan_Ku%C4%8Dan</idno>
+                <idno type="viaf">https://viaf.org/viaf/68121580/</idno>
+              </person>
+              <person xml:id="JohnDoe1960">
+                <persName>
+                  <surname>John</surname>
+                  <forename>Doe</forename>
+                </persName>
+                <affiliation ref="#party.SDZ" from="1990-05-16" to="1991-05-08"/>
+                <affiliation ref="#party.DZ" from="1991-05-08"/>
+               </person>
+               <person xml:id="JohnsonBoris1964">
+                  <persName>
+                     <surname>Johnson</surname>
+                     <forename>Boris</forename>
+                  </persName>
+                  <sex value="M">male</sex>
+                  <birth when="1964-06-19">
+                     <placeName>New York City, U.S.</placeName>
+                  </birth>
+                  <idno type="wikimedia">https://en.wikipedia.org/wiki/Boris_Johnson</idno>
+               </person>
+               <person xml:id="CorbynJeremy1949">
+                  <persName>
+                     <surname>Corbyn</surname>
+                     <forename>Jeremy</forename>
+                     <forename>Bernard</forename>
+                  </persName>
+                  <sex value="M">male</sex>
+                  <birth when="1949-05-26">
+                     <placeName>Chippenham, England, United Kingdom</placeName>
+                  </birth>
+                  <idno type="wikimedia">https://en.wikipedia.org/wiki/Jeremy_Corbyn</idno>
+               </person>
+           </listPerson>
+           <!-- List of "organisations", i.e. political parties and other formally established groupings -->
+            <listOrg>
+               <org xml:id="DZ">
+                  <orgName xml:lang="sl">Državni zbor Republike Slovenije</orgName>
+                  <orgName xml:lang="en">National Assembly of the Republic of Slovenia</orgName>
+                  <event from="1991-11-11">
+                     <label xml:lang="en">existence</label>
+                  </event>
+               </org>
+               <org xml:id="party.SDZ" role="political_party"
+                  xml:lang="sl">
+                  <event from="1989-01-11" to="1991-10-13">
+                     <label xml:lang="en">existence</label>
+                  </event>
+                  <orgName full="yes">Slovenska demokratična zveza</orgName>
+                  <orgName full="yes" xml:lang="en">Slovenian Democratic Union</orgName>
+                  <orgName full="init">SDZ</orgName>
+                  <idno type="wikimedia">https://en.wikipedia.org/wiki/Slovenian_Democratic_Union</idno>
+               </org>
+               <org xml:id="party.DS" role="political_party">
+                  <orgName full="yes" from="1989-02-16"
+                     to="2003-09">Socialdemokratska stranka Slovenije</orgName>
+                  <orgName full="yes" xml:lang="en"
+                     from="1989-02-16" to="2003-09">Social Democratic Party of Slovenia</orgName>
+                  <orgName full="init" from="1989-02-16"
+                     to="2003-09">SDSS</orgName>
+                  <orgName full="yes" from="2003-09">Slovenska demokratska stranka</orgName>
+                  <orgName full="yes" xml:lang="en"
+                     from="2003-09">Slovenian Democratic Party</orgName>
+                  <orgName full="init" from="2003-09">SDS</orgName>
+                  <idno type="wikimedia">https://en.wikipedia.org/wiki/Slovenian_Democratic_Party</idno>
+               </org>
+               <listRelation>
+                  <relation name="successor" passive="#pp.SDZ" active="#pp.DS"/>
+               </listRelation>
+            </listOrg>
+         </particDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="sl">Slovenian</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <TEI xml:id="document.id" xml:lang="en">
+     <teiHeader>
+       <fileDesc>
+         <titleStmt>
+           <!-- There are no rules on how these titles should be written -->
+           <title>The parliament of the Republic of Slovenia</title>
+            <title>Continuation of the second session</title>
+           <title>30th January 2011</title>
+           <!-- All relevant information about the type of session/meeting/sitting (in accordance with the project specific taxonomy) is given in the meeting element:
+                - @n: ordinal number of the session/meeting/sitting
+                - @corresp: a link to an organization holding a meeting
+                - @ana: one or more links to taxonomy on the different types of parliamentary sessions
+           -->
+           <meeting n="2" corresp="#DZ" ana="#parla.meeting"/>
+         </titleStmt>
+         <!-- Publication statement same as in teiCorpus/teiHeader -->
+         <publicationStmt>
+           <authority>CLARIN ERIC</authority>
+           <availability>
+             <licence target="http://creativecommons.org/licenses/by/4.0/"/>
+             <p>This work is licensed under the <ref target="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</ref>.</p>
+           </availability>
+           <distributor>CLARIN Git repository</distributor>
+           <date when="2019-07-24">24. 7. 2019</date>
+         </publicationStmt>
+         <sourceDesc>
+           <bibl>
+             <title>Continuation of the second session</title>
+              <idno type="URI">https://www.dz-rs.si/wps/portal/Home/deloDZ/seje/evidenca?mandat=III&amp;type=sz&amp;uid=6A9C9127BB26C19AC12569E600561164</idno>
+              <date when="2001-01-30">30. 1. 2001</date>
+           </bibl>
+         </sourceDesc>
+       </fileDesc>
+       <profileDesc>
+         <settingDesc>
+           <setting>
+              <!-- Location (posible values: city, street, address) of parliamentary sessions -->
+              <name type="city">Ljubljana</name>
+              <!-- In which country the parliament is located: in attribute @key use ISO 3166 country code -->
+              <name type="country" key="SI">Slovenia</name>
+              <!-- Date of the parliamentary debate. An ana attribute may contain additional classifications -->
+             <date when="2011-06-10" ana="#parl.sitting">10th June 2011</date>
+           </setting>
+         </settingDesc>
+       </profileDesc>
+      </teiHeader>
+      <text>
+         <front>
+            <div type="preface">
+               <!-- text before speeches started -->
+               <head>THE PARLIAMENT OF THE REPUBLIC OF SLOVENIA</head>
+               <head>Continuation of the second session</head>
+               <docDate when="2011-01-30">30th January 2011</docDate>
+            </div>
+         </front>
+         <body>
+            <!-- metadata about voting -->
+            <listEvent>
+               <event xml:id="vote.1" type="voting" corresp="#agenda.1 #quorum.1 #vote.1.ayes #vote.1.noes">
+                  <desc>
+                     <measure type="quorum" quantity="76"/>
+                     <measure type="ayes" quantity="47"/>
+                     <measure type="noes" quantity="19"/>
+                     <time when="2011-01-30T15:49:50"/>
+                  </desc>
+               </event>
+               <event xml:id="recount.1" type="recount" corresp="#agenda.1 #recount.1.ayes">
+                  <desc>
+                     <measure type="ayes" quantity="48"/>
+                     <time when="2011-01-30T15:52:35"/>
+                  </desc>
+               </event>
+               <listRelation>
+                  <relation name="recount" active="#recount.1" passive="#vote.1"/>
+               </listRelation>
+            </listEvent>
+            <div>
+               <!-- An example of starting a new meeting and recorded time -->
+               <note type="time">The meeting opened at <time from="2011-01-30T10:03:00">10.03</time>.</note>
+               <note type="speaker">MILAN KUČAN:</note>
+               <u who="#KucanMilan1941" ana="#chair">
+                  <seg>Dear Members, Colleagues, ladies and gentlemen!</seg>
+                  <seg>I begin with the continuation of the second session of the National Assembly.</seg>
+                  <seg>How many members of the parliament are present?</seg>
+               </u>
+               <!-- example of quorum -->
+               <note type="quorum">Present <measure xml:id="quorum.1" quantity="76">76</measure>.</note>
+               <!-- example of new text division: discussing the agenda item -->
+               <div xml:id="agenda.1">
+                  <head>THIRD AMENDMENT</head>
+                  <!-- example of voting -->
+                  <note type="speaker">MILAN KUČAN:</note>
+                  <u who="#KucanMilan1941" ana="#chair">
+                     <seg>We will now vote on the Third Amendment.</seg>
+                     <seg>How are you going to vote?</seg>
+                  </u>
+                  <note type="speaker">John Doe:</note>
+                  <u who="#JohnDoe1960">
+                     <seg>Of course, I will vote in favor.</seg>
+                  </u>
+                  <incident>
+                     <desc>Applause.</desc>
+                  </incident>
+                  <note type="vote">For <measure xml:id="vote.1.ayes" type="ayes" quantity="47">47</measure>.
+                     Against <measure xml:id="vote.1.noes" type="noes" quantity="19">19</measure>.</note>
+                  <note type="speaker">MILAN KUČAN:</note>
+                  <u who="#KucanMilan1941" ana="#chair">
+                     <seg>There was an error voting. I ask you to repeat the vote.</seg>
+                  </u>
+                  <!-- example of recount of votes -->
+                  <note type="recount">For <measure xml:id="recount.1.ayes" type="ayes" quantity="48">48</measure>.</note>
+               </div>
+               <!-- new agenda (British example) -->
+               <div xml:id="agenda.2">
+                  <head>BREXIT</head>
+                  <!-- Interrupted utterances: Boris Johnson: I propose a no-deal Brexit. /Jeremy Corbyn: Traitor!/ Because England does not want any dealings with the European Union. -->
+                  <u who="#JohnsonBoris1964" xml:id="GB001.8.3" next="#GB001.8.5">
+                     <seg>I propose a no-deal Brexit.</seg>
+                  </u>
+                  <u who="#CorbynJeremy1949" xml:id="GB001.8.4">
+                     <seg>Traitor!</seg>
+                  </u>
+                  <u who="#JohnsonBoris1964" xml:id="GB001.8.5" prev="#GB001.8.3">
+                     <seg>Because England does not want any dealings with the European Union.</seg>
+                  </u>
+                  <!-- Incidents -->
+                  <vocal who="#opposition.1">
+                     <desc xml:lang="en">shouting</desc>
+                  </vocal>
+                  <kinesic who="#CorbynJeremy1949">
+                     <desc xml:lang="en">banging of the gavel</desc>
+                  </kinesic>
+                  <incident>
+                     <desc xml:lang="en">Army storms the parliament</desc>
+                  </incident>   
+               </div>
+            </div>
+         </body>
+         <back>
+            <!-- example of conclusions, annexes etc. -->
+            <div type="conclusions">
+               <note type="date">Date, <date when="2019-10-31">31st October, 2019</date></note>
+            </div>
+         </back>
+      </text>
+   </TEI>
+</teiCorpus>
