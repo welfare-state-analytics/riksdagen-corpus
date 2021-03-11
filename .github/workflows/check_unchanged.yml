@@ -1,0 +1,32 @@
+name: Files that aren't supposed to change have remained unchanged
+
+# Controls when the action will run. 
+on: [pull_request]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+          
+      - name: Changed Files Exporter
+        id: changedfiles
+        uses: futuratrepadeira/changed-files@v3.3.0
+        with:
+          repo-token: ${{ github.token }}
+      
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Check that files that aren't supposed to change remain unchanged
+        run: |
+          PYTHONPATH="$PYTHONPATH:." python test/unchanged.py ${{steps.changedfiles.outputs.files_updated}}
+          PYTHONPATH="$PYTHONPATH:." python test/unchanged.py ${{steps.changedfiles.outputs.files_deleted}}
