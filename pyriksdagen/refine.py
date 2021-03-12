@@ -27,17 +27,20 @@ def detect_mps(root, mp_db, pattern_db):
 
     for tag, elem in _iter(root):
         if tag == "u":
-            if "prev" in elem.attrib:
-                del elem.attrib["prev"]
-            if "next" in elem.attrib:
-                del elem.attrib["next"]
+            # Deleting and adding attributes changes their order;
+            # Mark as 'delete' instead and delete later
+            elem.set("prev", "delete")
+            elem.set("next", "delete")
             if current_speaker is not None:
                 elem.attrib["who"] = current_speaker
                 if prev is None:
                     prev = elem
                 else:
-                    elem.attrib["prev"] = prev.attrib["{http://www.w3.org/XML/1998/namespace}id"]
-                    prev.attrib["next"] = elem.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+                    new_prev = prev.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+                    new_next = elem.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+                    elem.set("prev", new_prev)
+                    prev.set("next", new_next)
+
             else:
                 elem.attrib["who"] = "unknown"
                 prev = None
@@ -46,6 +49,14 @@ def detect_mps(root, mp_db, pattern_db):
                 if type(elem.text) == str:
                     current_speaker = detect_mp(elem.text, mp_db)
                     prev = None
+
+    # Do two loops to preserve attribute order 
+    for tag, elem in _iter(root):
+        if tag == "u":
+            if elem.attrib.get("prev") == "delete":
+                del elem.attrib["prev"]
+            if elem.attrib.get("next") == "delete":
+                del elem.attrib["next"]
 
     return root
 
@@ -341,12 +352,13 @@ def update_hashes(root, protocol_id, manual=False):
 
             if not manual:
                 if elem_hash != "manual":
-                    elem.attrib[n] = elem_hash
+                    if elem.attrib.get(n) != elem_hash:
+                        elem.set(n, elem_hash)
             else:
                 print(elem.attrib)
                 print(elem.attrib[n], elem_hash)
                 if elem.attrib[n] != elem_hash:
-                    elem.attrib[n] = "manual"
+                    elem.set(n, "manual")
 
             if tag == "u":
                 for subelem in elem:
@@ -354,9 +366,9 @@ def update_hashes(root, protocol_id, manual=False):
 
                     if not manual:
                         if subelem_hash != "manual":
-                            subelem.attrib[n] = subelem_hash
+                            subelem.set(n, subelem_hash)
                     else:
-                        if subelem.attrib[n] != subelem_hash:
-                            subelem.attrib[n] = "manual"
+                        if subelem.attrib.get(n) != subelem_hash:
+                            subelem.set(n, "manual")
 
     return root

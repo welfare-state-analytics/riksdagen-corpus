@@ -114,6 +114,8 @@ def create_database(path):
         else:
             df["start"] = int(year_str)
             df["end"] = int(year_str)
+    else:
+        print(year_str)
     
     return df
 
@@ -134,6 +136,9 @@ def create_full_database(dirs):
 
     mp_db = mp_db[mp_db["name"].notnull()]
 
+    print(mp_db[mp_db["start"].isnull()])
+    mp_db.start = mp_db.start.astype(int)
+    mp_db.end = mp_db.end.astype(int)
     return mp_db
 
 def add_gender(mp_db, names):
@@ -166,8 +171,11 @@ def clean_names(mp_db):
         name = name.split(" i ")[0]
         if "[" in name:
             name = name.split("[")[0]
+        if "(er" in name:
+            name = name.split("(er")[0]
         if "ersatt av" in name:
             name = name.split("ersatt av:")[-1]
+        name = name.strip()
         assert name != "", "names can't be empty: " + row["name"]
         mp_db.loc[i, 'name'] = name
 
