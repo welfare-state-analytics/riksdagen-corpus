@@ -63,7 +63,7 @@ def _is_metadata_block(txt0):
     # TODO: replace with ML algorithm
     return float(len1) / float(len0) < 0.85 and len0 < 150
 
-def detect_mp(matched_txt, names_ids, last_name=True):
+def detect_mp(matched_txt, names_ids, also_last_name=True):
     """
     Match the introduced speaker in a text snippet
     """
@@ -79,21 +79,53 @@ def detect_mp(matched_txt, names_ids, last_name=True):
             if name in matched_txt:
                 person = identifier
 
-    # Only match last name if full name is not found
-    if last_name and person is None:
+    # Match 'Lastname, Firstname:'
+    if person == None:
         for name, identifier in names_ids:
-            last_name = " " + name.split()[-1]
-            
+            last_name = " " + name.split()[-1] + ","
             if last_name in matched_txt:
-                ix = matched_txt.index(last_name)
-                aftermatch = matched_txt[ix + len(last_name):]
-                aftermatch = aftermatch[:1]
-                if aftermatch in [" ", ":", ","]:
+                first_name = name.split()[0]
+                rest = matched_txt.split(last_name)[-1]
+                if first_name in rest:
                     person = identifier
 
-            elif last_name.upper() in matched_txt:
-                #print(matched_txt, last_name, last_name.upper())
-                person = identifier
+    # Only match last name if full name is not found
+    if also_last_name:
+        if person is None:
+            matched_txt_lower = matched_txt.lower()
+            for name, identifier in names_ids:
+                last_name = " " + name.split()[-1]
+                herr_name = "herr" + last_name.lower()
+                fru_name = "fru" + last_name.lower()
+
+                if herr_name in matched_txt_lower:
+                    ix = matched_txt_lower.index(herr_name)
+                    aftermatch = matched_txt_lower[ix + len(herr_name):]
+                    aftermatch = aftermatch[:1]
+                    if aftermatch in [" ", ":", ","]:
+                        person = identifier
+
+                if fru_name in matched_txt_lower:
+                    ix = matched_txt_lower.index(fru_name)
+                    aftermatch = matched_txt_lower[ix + len(fru_name):]
+                    aftermatch = aftermatch[:1]
+                    if aftermatch in [" ", ":", ","]:
+                        person = identifier
+
+        if person is None:
+            for name, identifier in names_ids:
+                last_name = " " + name.split()[-1]
+                
+                if last_name in matched_txt:
+                    ix = matched_txt.index(last_name)
+                    aftermatch = matched_txt[ix + len(last_name):]
+                    aftermatch = aftermatch[:1]
+                    if aftermatch in [" ", ":", ","]:
+                        person = identifier
+
+                elif last_name.upper() in matched_txt:
+                    #print(matched_txt, last_name, last_name.upper())
+                    person = identifier
 
     return person
 
