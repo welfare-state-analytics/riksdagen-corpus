@@ -145,7 +145,7 @@ def expression_dicts(pattern_db):
 
 def detect_introduction(paragraph, expressions, names_ids):
     for pattern_digest, exp in expressions.items():
-        for m in exp.finditer(paragraph):
+        for m in exp.finditer(paragraph.strip()):
             matched_txt = m.group()
             person = detect_mp(matched_txt, names_ids)
             segmentation = "speech_start"
@@ -153,6 +153,7 @@ def detect_introduction(paragraph, expressions, names_ids):
             "pattern": pattern_digest,
             "who": person,
             "segmentation": segmentation,
+            "txt": matched_txt,
             }
 
             return d

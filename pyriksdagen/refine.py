@@ -100,8 +100,17 @@ def find_introductions(root, pattern_db, names_ids):
                             u.attrib["who"] = "unknown"
 
                         seg.addnext(u)
-                        if seg.text[-1] != ":":
+                        matched_txt = introduction["txt"]
+                        ix = None
+                        if matched_txt[-1] != ":":
+                            ix = len(matched_txt) + seg.text.index(matched_txt)
+                        if ":" in matched_txt:
+                            ix = matched_txt.index(":")
+                            ix = ix + seg.text.index(matched_txt)
+                        elif seg.text[-1] != ":":
                             ix = seg.text.index(":")
+
+                        if ix is not None:
                             rest = seg.text[ix+1:]
                             seg.text = seg.text[:ix+1]
                             new_seg = etree.SubElement(u, "{http://www.tei-c.org/ns/1.0}seg")
