@@ -168,7 +168,13 @@ def clean_names(mp_db):
     print("Clean names...")
     for i, row in progressbar.progressbar(list(mp_db.iterrows())):
         name = row["name"]
-        name = name.split(" i ")[0]
+        split_i = name.split(" i ")
+        if name != split_i[0]:
+            name = split_i[0]
+            if len(split_i) > 1:
+                mp_db.loc[i, 'specifier'] = "i " + split_i[1]
+            else:
+                mp_db.loc[i, 'specifier'] = None
         if "[" in name:
             name = name.split("[")[0]
         if "(er" in name:
@@ -203,6 +209,7 @@ def replace_party_abbreviations(mp_db, party_db):
 def add_id(mp_db):
     print("Add id...")
     columns = mp_db.columns
+    columns = ["name", "party", "district", "chamber", "start", "end"]
     mp_db["id"] = None
     print("columns used for generation:", ", ".join(columns))
     for i, row in progressbar.progressbar(list(mp_db.iterrows())):

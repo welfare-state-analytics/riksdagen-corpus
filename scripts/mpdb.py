@@ -34,6 +34,11 @@ id_duplicates = mp_db.duplicated(subset=['id'])
 print(mp_db[id_duplicates == True])
 print(mp_db)
 
+columns = list(mp_db.columns)
+columns.pop(columns.index("specifier"))
+columns.append("specifier")
+mp_db = mp_db[columns]
+
 mp_db.to_csv("corpus/members_of_parliament.csv", index=False)
 
 nogender = mp_db[mp_db["gender"].isnull()]
