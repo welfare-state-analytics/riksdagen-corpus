@@ -47,7 +47,7 @@ def main(args):
                     pattern_db = pattern_db[(pattern_db["start"] <= year) & (pattern_db["end"] >= year)]
                     root = find_introductions(root,pattern_db,names_ids)
                     root = update_ids(root, protocol_id)
-                    root = detect_mps(root,names_ids,pattern_db)
+                    #root = detect_mps(root,names_ids,pattern_db)
                     root = format_texts(root)
                     root = update_hashes(root, protocol_id)
                     b = etree.tostring(root, pretty_print=True, encoding="utf-8", xml_declaration=True)

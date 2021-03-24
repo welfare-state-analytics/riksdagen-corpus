@@ -67,31 +67,31 @@ def detect_mp(matched_txt, names_ids, also_last_name=True):
     """
     Match the introduced speaker in a text snippet
     """
-    person = None
+    person = []
 
     # Prefer uppercase
     for name, identifier in names_ids:
         if name.upper() in matched_txt:
-            person = identifier
+            person.append(identifier)
 
-    if person == None:
+    if len(person) == 0:
         for name, identifier in names_ids:
             if name in matched_txt:
-                person = identifier
+                person.append(identifier)
 
     # Match 'Lastname, Firstname:'
-    if person == None:
+    if len(person) == 0:
         for name, identifier in names_ids:
             last_name = " " + name.split()[-1] + ","
             if last_name in matched_txt:
                 first_name = name.split()[0]
                 rest = matched_txt.split(last_name)[-1]
                 if first_name in rest:
-                    person = identifier
+                    person.append(identifier)
 
     # Only match last name if full name is not found
     if also_last_name:
-        if person is None:
+        if len(person) == 0:
             matched_txt_lower = matched_txt.lower()
             for name, identifier in names_ids:
                 last_name = " " + name.split()[-1]
@@ -103,16 +103,16 @@ def detect_mp(matched_txt, names_ids, also_last_name=True):
                     aftermatch = matched_txt_lower[ix + len(herr_name):]
                     aftermatch = aftermatch[:1]
                     if aftermatch in [" ", ":", ","]:
-                        person = identifier
+                        person.append(identifier)
 
                 if fru_name in matched_txt_lower:
                     ix = matched_txt_lower.index(fru_name)
                     aftermatch = matched_txt_lower[ix + len(fru_name):]
                     aftermatch = aftermatch[:1]
                     if aftermatch in [" ", ":", ","]:
-                        person = identifier
+                        person.append(identifier)
 
-        if person is None:
+        if len(person) == 0:
             for name, identifier in names_ids:
                 last_name = " " + name.split()[-1]
                 
@@ -121,13 +121,20 @@ def detect_mp(matched_txt, names_ids, also_last_name=True):
                     aftermatch = matched_txt[ix + len(last_name):]
                     aftermatch = aftermatch[:1]
                     if aftermatch in [" ", ":", ","]:
-                        person = identifier
+                        person.append(identifier)
 
                 elif last_name.upper() in matched_txt:
                     #print(matched_txt, last_name, last_name.upper())
-                    person = identifier
+                    person.append(identifier)
 
-    return person
+    if len(person) == 1:
+        return person[0]
+    else:
+        person_names = list(set(["_".join(m.split("_")[:-1]) for m in person]))
+        if len(person_names) == 1:
+            return person[-1]
+        else:
+            return None
 
 def expression_dicts(pattern_db):
     expressions = dict()
