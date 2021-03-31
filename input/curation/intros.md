@@ -91,6 +91,7 @@ missed twice.
 
 (Väinö)
 
+
 ### prot-1974--56 page 60
 
 ```
@@ -98,9 +99,6 @@ Fröken ANDERSSON (c) kort genmäle:
 ```
 
 missed. (fredrik)
-
-### Johan's work missing
-
 
 ## 1980s
 
@@ -122,3 +120,11 @@ Danielsson, Bertil (m) 70
 missed. (fredrik)
 
 ### Johan's work missing
+
+
+
+# Errors outside of the sample
+
+```
+SVEN ANDERSSON i Örebro (fp): Nr 60
+```
