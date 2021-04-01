@@ -54,7 +54,26 @@ Herr NILSSON, YNGVE, (h) erhöll på begäran ordet och anförde:
 missed. (Fredrik)
 
 
-### Johan's work missing
+### prot-1955--ak--7, page 19
+
+```xml
+<note n="4b3c6a00">
+Herr HJALMARSON (h) kort gen-
+</note>
+<u who="per_edvin_skold_2aa6d2" xml:id="i-0c14b79286137960-4" prev="i-0c14b79286137960-0" n="0c14b792">
+<seg n="0b823a82">
+  mäle: Herr talman! [...]
+```
+
+missed. (Johan)
+
+### prot-1956--ak--13, page 103
+
+```
+Fröken ELMÉN (fp):
+```
+
+missed. (johan)
 
 ## 1960s
 
