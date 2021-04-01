@@ -128,6 +128,15 @@ Anf. 66 Statsrådet LENA HJELM-WALLÉN:
 
 missed. (johan)
 
+### prot-198081--131, page 13
+
+
+```
+Anf. 6 Industriministern NILS ÅSLING:
+```
+
+missed (johan).
+
 
 # Errors outside of the sample
 
