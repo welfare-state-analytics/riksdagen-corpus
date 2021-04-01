@@ -119,8 +119,14 @@ Danielsson, Bertil (m) 70
 
 missed. (fredrik)
 
-### Johan's work missing
 
+### prot-198990--54, page 24
+
+```
+Anf. 66 Statsrådet LENA HJELM-WALLÉN:
+```
+
+missed. (johan)
 
 
 # Errors outside of the sample
