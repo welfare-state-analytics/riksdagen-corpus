@@ -114,6 +114,8 @@ def create_database(path):
         else:
             df["start"] = int(year_str)
             df["end"] = int(year_str)
+    else:
+        print(year_str)
     
     return df
 
@@ -134,6 +136,9 @@ def create_full_database(dirs):
 
     mp_db = mp_db[mp_db["name"].notnull()]
 
+    print(mp_db[mp_db["start"].isnull()])
+    mp_db.start = mp_db.start.astype(int)
+    mp_db.end = mp_db.end.astype(int)
     return mp_db
 
 def add_gender(mp_db, names):
@@ -163,11 +168,20 @@ def clean_names(mp_db):
     print("Clean names...")
     for i, row in progressbar.progressbar(list(mp_db.iterrows())):
         name = row["name"]
-        name = name.split(" i ")[0]
+        split_i = name.split(" i ")
+        if name != split_i[0]:
+            name = split_i[0]
+            if len(split_i) > 1:
+                mp_db.loc[i, 'specifier'] = "i " + split_i[1]
+            else:
+                mp_db.loc[i, 'specifier'] = None
         if "[" in name:
             name = name.split("[")[0]
+        if "(er" in name:
+            name = name.split("(er")[0]
         if "ersatt av" in name:
             name = name.split("ersatt av:")[-1]
+        name = name.strip()
         assert name != "", "names can't be empty: " + row["name"]
         mp_db.loc[i, 'name'] = name
 
@@ -195,6 +209,7 @@ def replace_party_abbreviations(mp_db, party_db):
 def add_id(mp_db):
     print("Add id...")
     columns = mp_db.columns
+    columns = ["name", "party", "district", "chamber", "start", "end"]
     mp_db["id"] = None
     print("columns used for generation:", ", ".join(columns))
     for i, row in progressbar.progressbar(list(mp_db.iterrows())):

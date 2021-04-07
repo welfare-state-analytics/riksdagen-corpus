@@ -63,39 +63,78 @@ def _is_metadata_block(txt0):
     # TODO: replace with ML algorithm
     return float(len1) / float(len0) < 0.85 and len0 < 150
 
-def detect_mp(matched_txt, names_ids, last_name=True):
+def detect_mp(matched_txt, names_ids, also_last_name=True):
     """
     Match the introduced speaker in a text snippet
     """
-    person = None
+    person = []
 
     # Prefer uppercase
     for name, identifier in names_ids:
         if name.upper() in matched_txt:
-            person = identifier
+            person.append(identifier)
 
-    if person == None:
+    if len(person) == 0:
         for name, identifier in names_ids:
             if name in matched_txt:
-                person = identifier
+                person.append(identifier)
+
+    # Match 'Lastname, Firstname:'
+    if len(person) == 0:
+        for name, identifier in names_ids:
+            last_name = " " + name.split()[-1] + ","
+            if last_name in matched_txt:
+                first_name = name.split()[0]
+                rest = matched_txt.split(last_name)[-1]
+                if first_name in rest:
+                    person.append(identifier)
 
     # Only match last name if full name is not found
-    if last_name and person is None:
-        for name, identifier in names_ids:
-            last_name = " " + name.split()[-1]
-            
-            if last_name in matched_txt:
-                ix = matched_txt.index(last_name)
-                aftermatch = matched_txt[ix + len(last_name):]
-                aftermatch = aftermatch[:1]
-                if aftermatch in [" ", ":", ","]:
-                    person = identifier
+    if also_last_name:
+        if len(person) == 0:
+            matched_txt_lower = matched_txt.lower()
+            for name, identifier in names_ids:
+                last_name = " " + name.split()[-1]
+                herr_name = "herr" + last_name.lower()
+                fru_name = "fru" + last_name.lower()
 
-            elif last_name.upper() in matched_txt:
-                #print(matched_txt, last_name, last_name.upper())
-                person = identifier
+                if herr_name in matched_txt_lower:
+                    ix = matched_txt_lower.index(herr_name)
+                    aftermatch = matched_txt_lower[ix + len(herr_name):]
+                    aftermatch = aftermatch[:1]
+                    if aftermatch in [" ", ":", ","]:
+                        person.append(identifier)
 
-    return person
+                if fru_name in matched_txt_lower:
+                    ix = matched_txt_lower.index(fru_name)
+                    aftermatch = matched_txt_lower[ix + len(fru_name):]
+                    aftermatch = aftermatch[:1]
+                    if aftermatch in [" ", ":", ","]:
+                        person.append(identifier)
+
+        if len(person) == 0:
+            for name, identifier in names_ids:
+                last_name = " " + name.split()[-1]
+                
+                if last_name in matched_txt:
+                    ix = matched_txt.index(last_name)
+                    aftermatch = matched_txt[ix + len(last_name):]
+                    aftermatch = aftermatch[:1]
+                    if aftermatch in [" ", ":", ","]:
+                        person.append(identifier)
+
+                elif last_name.upper() in matched_txt:
+                    #print(matched_txt, last_name, last_name.upper())
+                    person.append(identifier)
+
+    if len(person) == 1:
+        return person[0]
+    else:
+        person_names = list(set(["_".join(m.split("_")[:-1]) for m in person]))
+        if len(person_names) == 1:
+            return person[-1]
+        else:
+            return None
 
 def expression_dicts(pattern_db):
     expressions = dict()
@@ -113,7 +152,7 @@ def expression_dicts(pattern_db):
 
 def detect_introduction(paragraph, expressions, names_ids):
     for pattern_digest, exp in expressions.items():
-        for m in exp.finditer(paragraph):
+        for m in exp.finditer(paragraph.strip()):
             matched_txt = m.group()
             person = detect_mp(matched_txt, names_ids)
             segmentation = "speech_start"
@@ -121,6 +160,7 @@ def detect_introduction(paragraph, expressions, names_ids):
             "pattern": pattern_digest,
             "who": person,
             "segmentation": segmentation,
+            "txt": matched_txt,
             }
 
             return d
