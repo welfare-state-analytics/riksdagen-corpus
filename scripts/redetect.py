@@ -25,7 +25,7 @@ def main(args):
             metadata = infer_metadata(first_protocol_id)
             year = metadata["year"]
             if year >= start_year and year <= end_year:
-                for protocol_id in protocol_ids:
+                for protocol_id in progressbar.progressbar(protocol_ids):
                     metadata = infer_metadata(protocol_id)
                     filename = pc_folder + outfolder + protocol_id + ".xml"
                     root = etree.parse(filename, parser).getroot()
@@ -41,10 +41,11 @@ def main(args):
                     names = year_mp_db["name"]
                     ids = year_mp_db["id"]
                     names_ids = list(zip(names,ids))
+                    year_mp_db = year_mp_db[year_mp_db["specifier"].notnull()]
 
                     pattern_db = load_patterns()
                     pattern_db = pattern_db[(pattern_db["start"] <= year) & (pattern_db["end"] >= year)]
-                    root = detect_mps(root, names_ids, pattern_db)
+                    root = detect_mps(root, names_ids, pattern_db, mp_db=year_mp_db)
                     root = update_hashes(root, protocol_id)
                     b = etree.tostring(root, pretty_print=True, encoding="utf-8", xml_declaration=True)
 

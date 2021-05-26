@@ -27,7 +27,7 @@ def random_classifier(paragraph):
     return random.choice(alternatives)
 
 
-def detect_mps(root, mp_db, pattern_db):
+def detect_mps(root, names_ids, pattern_db, mp_db=None):
     """
     Re-detect MPs in a parla clarin protocol, based on the (updated)
     MP database.
@@ -57,7 +57,7 @@ def detect_mps(root, mp_db, pattern_db):
         elif tag == "note":
             if elem.attrib.get("type", None) == "speaker":
                 if type(elem.text) == str:
-                    current_speaker = detect_mp(elem.text, mp_db)
+                    current_speaker = detect_mp(elem.text, names_ids, mp_db=mp_db)
                     prev = None
 
     # Do two loops to preserve attribute order 
