@@ -102,12 +102,12 @@ def find_introductions(root, pattern_db, names_ids):
                         seg.addnext(u)
                         matched_txt = introduction["txt"]
                         ix = None
-                        if matched_txt[-1] != ":":
+                        if matched_txt[-1] != ":" and ":" in seg:
                             ix = len(matched_txt) + seg.text.index(matched_txt)
                         if ":" in matched_txt:
                             ix = matched_txt.index(":")
                             ix = ix + seg.text.index(matched_txt)
-                        elif seg.text[-1] != ":":
+                        elif seg.text[-1] != ":" and ":" in seg:
                             ix = seg.text.index(":")
 
                         if ix is not None:
