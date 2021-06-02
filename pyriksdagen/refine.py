@@ -136,11 +136,41 @@ def find_introductions(root, pattern_db, names_ids):
             parent.text = None
             #if not elem.attrib.get("type", None) == "speaker":
             if type(elem.text) == str:
+
                 introduction = detect_introduction(elem.text, expressions, names_ids)
-                    
+
                 if introduction is not None:
                     if not elem.attrib.get("type", None) == "speaker":
-                        pass#print("NEW note", elem.text)
+                        print("NEW note", elem.text)
+                        elem.attrib["type"] = "speaker"
+
+                        matched_txt = introduction["txt"]
+                        ix = None
+                        if matched_txt[-1] != ":" and ":" in elem.text:
+                            ix = len(matched_txt) + elem.text.index(matched_txt)
+                        if ":" in matched_txt:
+                            ix = matched_txt.index(":")
+                            ix = ix + elem.text.index(matched_txt)
+                        elif elem.text[-1] != ":" and ":" in elem:
+                            ix = elem.text.index(":")
+                        if ix is not None:
+                            rest = elem.text[ix+1:].strip()
+                            if len(rest) > 0:
+                                u = etree.Element("{http://www.tei-c.org/ns/1.0}u")
+                                #u.text = None
+                                if introduction["who"] is not None:
+                                    u.attrib["who"] = introduction["who"]
+                                else:
+                                    u.attrib["who"] = "unknown"
+
+                                elem.addnext(u)
+
+                                rest = elem.text[ix+1:]
+                                elem.text = elem.text[:ix+1]
+
+                                new_seg = etree.SubElement(u, "{http://www.tei-c.org/ns/1.0}seg")
+                                new_seg.text = rest
+
                     else:
                         pass#print("OLD", elem.text)
 
