@@ -232,6 +232,27 @@ def add_id(mp_db):
         mp_db.loc[i, 'id'] = name + "_" + digest[:6]
 
     return mp_db
+
+def add_municipality(mp_db, mun_db):
+    print("Add municipalicites from 'personregister'...")
+    def reorder_name(name):
+        s = name.split(",")
+        if len(s) == 1:
+            return name
+        else:
+            return s[1].strip() + " " + s[0].strip()
+    mun_db["name"] = mun_db["name"].apply(lambda n: reorder_name(n))
+    print(mun_db)
+    mun_db = mun_db[mun_db["municipality"].notnull()]
+    mun_db["municipality"] = mun_db["municipality"].apply(lambda x: "i " + x.strip())
+    mun_db = mun_db[["name", "municipality"]]
+    print(mun_db)
+
+    mp_db = pd.merge(mp_db, mun_db, on="name", how="left")
+    mp_db["specifier"] = mp_db["specifier"].fillna(mp_db["municipality"])
+    mp_db = mp_db.drop("municipality", axis=1)
+    return mp_db
+
 def detect_mp(introduction, metadata, mp_db):
     """
     Detect which member of parliament is mentioned in a given introduction.
