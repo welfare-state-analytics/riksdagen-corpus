@@ -6,9 +6,7 @@ def main(folder = "corpus/"):
     sample = pd.read_csv("sample.csv")
     print(sample.columns)
     def no_of_intros(row):
-        package_id = row["package_id"]
-        year = package_id.split("-")[1] + "/"
-        fpath = folder + year + package_id + ".xml"
+        fpath = row["path"]
         tree = etree.parse(fpath)
 
         page = row["pagenumber"]
@@ -35,7 +33,8 @@ def main(folder = "corpus/"):
         return speakers
 
     sample["speakers"] = sample.apply(lambda row: no_of_intros(row), axis=1)
-
+    sample["year"] = sample["path"].str.split("/").str[1]
+    sample["year"] = sample["year"].str[:4].astype(int)
     def decade(df, ind):
         year = df["year"].loc[ind]
         return (year // 10) * 10
