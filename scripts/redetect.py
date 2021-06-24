@@ -38,6 +38,10 @@ def main(args):
                     if str(year) not in protocol_id:
                         print(protocol_id, year)
                     year_mp_db = filter_db(mp_db, year=year)
+
+                    chamber = metadata.get("chamber", None)
+                    if chamber is not None:
+                        year_mp_db = year_mp_db[year_mp_db["chamber"] == chamber]
                     names = year_mp_db["name"]
                     ids = year_mp_db["id"]
                     names_ids = list(zip(names,ids))

@@ -56,11 +56,10 @@ def main(args):
                                 for match in matches:
                                     start = match.start()
                                     end = match.end()
-                                    if len(text_content) >= end and text_content[end] != ",":
-                                        matched_str = text_content[start:end]
+                                    matched_str = text_content[start:end]
 
-                                        area = matched_str.split()[-1]
-                                        areas.add(area)
+                                    area = matched_str.split()[-1]
+                                    areas.add(area)
 
                 for area in sorted(list(areas)):
                     print(f'{area}, {year}')
