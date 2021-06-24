@@ -253,12 +253,15 @@ def format_texts(root):
         if type(elem.text) == str:
             elem.text = format_paragraph(elem.text)
         elif tag == "u":
-            for seg in elem:
-                if type(seg.text) == str:
-                    seg.text = format_paragraph(seg.text, spaces=14)
-                else:
-                    seg.text = None
-            elem.text = None
+            if len(list(elem)) > 0:
+                for seg in elem:
+                    if type(seg.text) == str:
+                        seg.text = format_paragraph(seg.text, spaces=14)
+                    else:
+                        seg.text = None
+                elem.text = None
+            else:
+                elem.getparent().remove(elem)
         elif tag == "pb":
             if "{http://www.w3.org/XML/1998/namespace}url" in elem.attrib:
                 url = elem.attrib["{http://www.w3.org/XML/1998/namespace}url"]
