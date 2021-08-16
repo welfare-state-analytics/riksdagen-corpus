@@ -1,4 +1,4 @@
-# Swedish parliamentary proceedings - Riksdagens protokoll 1921-2021 v0.2.0
+# Swedish parliamentary proceedings - Riksdagens protokoll 1921-2021 v0.3.0
 
 _Westac Project, 2020-2021_
 
