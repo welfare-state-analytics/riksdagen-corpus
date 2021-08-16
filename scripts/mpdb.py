@@ -1,6 +1,6 @@
 import pandas as pd
 from pyriksdagen.mp import create_full_database
-from pyriksdagen.mp import add_gender, add_id, clean_names
+from pyriksdagen.mp import add_gender, add_id, clean_names, add_municipality
 from pyriksdagen.mp import replace_party_abbreviations
 
 dirs = ["input/mp/", "input/mp/fk/", "input/mp/ak/"]
@@ -29,6 +29,12 @@ print(mp_db)
 mp_db = add_id(mp_db)
 
 print(mp_db)
+
+mun_db = pd.read_csv("input/mp/metadata/personregister.csv")
+mp_db = add_municipality(mp_db, mun_db)
+
+print(mp_db)
+
 id_duplicates = mp_db.duplicated(subset=['id'])
 
 print(mp_db[id_duplicates == True])

@@ -27,7 +27,7 @@ def random_classifier(paragraph):
     return random.choice(alternatives)
 
 
-def detect_mps(root, mp_db, pattern_db):
+def detect_mps(root, names_ids, pattern_db, mp_db=None):
     """
     Re-detect MPs in a parla clarin protocol, based on the (updated)
     MP database.
@@ -57,7 +57,7 @@ def detect_mps(root, mp_db, pattern_db):
         elif tag == "note":
             if elem.attrib.get("type", None) == "speaker":
                 if type(elem.text) == str:
-                    current_speaker = detect_mp(elem.text, mp_db)
+                    current_speaker = detect_mp(elem.text, names_ids, mp_db=mp_db)
                     prev = None
 
     # Do two loops to preserve attribute order 
@@ -112,12 +112,12 @@ def find_introductions(root, pattern_db, names_ids):
                         seg.addnext(u)
                         matched_txt = introduction["txt"]
                         ix = None
-                        if matched_txt[-1] != ":":
+                        if matched_txt[-1] != ":" and ":" in seg:
                             ix = len(matched_txt) + seg.text.index(matched_txt)
                         if ":" in matched_txt:
                             ix = matched_txt.index(":")
                             ix = ix + seg.text.index(matched_txt)
-                        elif seg.text[-1] != ":":
+                        elif seg.text[-1] != ":" and ":" in seg:
                             ix = seg.text.index(":")
 
                         if ix is not None:
@@ -136,11 +136,41 @@ def find_introductions(root, pattern_db, names_ids):
             parent.text = None
             #if not elem.attrib.get("type", None) == "speaker":
             if type(elem.text) == str:
+
                 introduction = detect_introduction(elem.text, expressions, names_ids)
-                    
+
                 if introduction is not None:
                     if not elem.attrib.get("type", None) == "speaker":
-                        pass#print("NEW note", elem.text)
+                        print("NEW note", elem.text)
+                        elem.attrib["type"] = "speaker"
+
+                        matched_txt = introduction["txt"]
+                        ix = None
+                        if matched_txt[-1] != ":" and ":" in elem.text:
+                            ix = len(matched_txt) + elem.text.index(matched_txt)
+                        if ":" in matched_txt:
+                            ix = matched_txt.index(":")
+                            ix = ix + elem.text.index(matched_txt)
+                        elif elem.text[-1] != ":" and ":" in elem:
+                            ix = elem.text.index(":")
+                        if ix is not None:
+                            rest = elem.text[ix+1:].strip()
+                            if len(rest) > 0:
+                                u = etree.Element("{http://www.tei-c.org/ns/1.0}u")
+                                #u.text = None
+                                if introduction["who"] is not None:
+                                    u.attrib["who"] = introduction["who"]
+                                else:
+                                    u.attrib["who"] = "unknown"
+
+                                elem.addnext(u)
+
+                                rest = elem.text[ix+1:]
+                                elem.text = elem.text[:ix+1]
+
+                                new_seg = etree.SubElement(u, "{http://www.tei-c.org/ns/1.0}seg")
+                                new_seg.text = rest
+
                     else:
                         pass#print("OLD", elem.text)
 
@@ -223,12 +253,15 @@ def format_texts(root):
         if type(elem.text) == str:
             elem.text = format_paragraph(elem.text)
         elif tag == "u":
-            for seg in elem:
-                if type(seg.text) == str:
-                    seg.text = format_paragraph(seg.text, spaces=14)
-                else:
-                    seg.text = None
-            elem.text = None
+            if len(list(elem)) > 0:
+                for seg in elem:
+                    if type(seg.text) == str:
+                        seg.text = format_paragraph(seg.text, spaces=14)
+                    else:
+                        seg.text = None
+                elem.text = None
+            else:
+                elem.getparent().remove(elem)
         elif tag == "pb":
             if "{http://www.w3.org/XML/1998/namespace}url" in elem.attrib:
                 url = elem.attrib["{http://www.w3.org/XML/1998/namespace}url"]

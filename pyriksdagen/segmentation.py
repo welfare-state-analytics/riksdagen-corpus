@@ -63,23 +63,25 @@ def _is_metadata_block(txt0):
     # TODO: replace with ML algorithm
     return float(len1) / float(len0) < 0.85 and len0 < 150
 
-def detect_mp(matched_txt, names_ids, also_last_name=True):
+def detect_mp(matched_txt, names_ids, mp_db=None, also_last_name=True):
     """
     Match the introduced speaker in a text snippet
     """
     person = []
 
     # Prefer uppercase
+    # SVEN LINDGREN
     for name, identifier in names_ids:
         if name.upper() in matched_txt:
             person.append(identifier)
 
+    # Sven Lindgren
     if len(person) == 0:
         for name, identifier in names_ids:
             if name in matched_txt:
                 person.append(identifier)
 
-    # Match 'Lastname, Firstname:'
+    # Lindgren, Sven
     if len(person) == 0:
         for name, identifier in names_ids:
             last_name = " " + name.split()[-1] + ","
@@ -89,8 +91,18 @@ def detect_mp(matched_txt, names_ids, also_last_name=True):
                 if first_name in rest:
                     person.append(identifier)
 
-    # Only match last name if full name is not found
+    # TODO: herr Lindgren i Stockholm
+
+    if len(person) == 0 and mp_db is not None:
+        for _, row in mp_db.iterrows():
+            #print(row)
+            i_name = row["name"].split()[-1] + " " + row["specifier"]
+            #print(i_name)
+            if i_name.lower() in matched_txt.lower():
+                person.append(row["id"])
+
     if also_last_name:
+        # Herr Lindgren
         if len(person) == 0:
             matched_txt_lower = matched_txt.lower()
             for name, identifier in names_ids:
@@ -112,6 +124,7 @@ def detect_mp(matched_txt, names_ids, also_last_name=True):
                     if aftermatch in [" ", ":", ","]:
                         person.append(identifier)
 
+        # Lindgren
         if len(person) == 0:
             for name, identifier in names_ids:
                 last_name = " " + name.split()[-1]
