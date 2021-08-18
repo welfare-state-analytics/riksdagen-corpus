@@ -91,18 +91,37 @@ def detect_mp(matched_txt, names_ids, mp_db=None, also_last_name=True):
                 if first_name in rest:
                     person.append(identifier)
 
-    # TODO: herr Lindgren i Stockholm
+    # LINDGREN, SVEN
+    if len(person) == 0:
+        for name, identifier in names_ids:
+            last_name = " " + name.split()[-1] + ","
+            last_name = last_name.upper()
+            if last_name in matched_txt:
+                first_name = name.split()[0]
+                rest = matched_txt.split(last_name)[-1]
+                if first_name.upper() in rest.upper():
+                    person.append(identifier)
 
+    # Lindgren i Stockholm
     if len(person) == 0 and mp_db is not None:
         for _, row in mp_db.iterrows():
             #print(row)
             i_name = row["name"].split()[-1] + " " + row["specifier"]
-            #print(i_name)
             if i_name.lower() in matched_txt.lower():
                 person.append(row["id"])
 
     if also_last_name:
-        # Herr Lindgren
+        # LINDGREN
+        if len(person) == 0:
+            for name, identifier in names_ids:
+                name = name.split()[-1]
+                if " " + name.upper() + " " in matched_txt:
+                    person.append(identifier)
+                elif " " + name.upper() + ":" in matched_txt:
+                    person.append(identifier)
+
+
+        # Herr/Fru Lindgren
         if len(person) == 0:
             matched_txt_lower = matched_txt.lower()
             for name, identifier in names_ids:
