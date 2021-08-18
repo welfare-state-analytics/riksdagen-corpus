@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 import argparse
+
 def generate_sample(args):
     train = args.train
     head_len = args.head
@@ -49,7 +50,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Generate a random sample of pages in the parliamentary corpus.')
     parser.add_argument('--out', type=str, help="Outfile location" ,default="sample.csv")
     parser.add_argument('--cur', type=str, help="Split to curators" ,default=False)
-    parser.add_argument('--train', type=bool, default=True,
+    parser.add_argument('--train', type=bool, default=False,
         help="Whether to generate a train or a test set. Boolean.")
     parser.add_argument('--head', type=int, default=25, help="How many pages are sampled by decade")
     parser.add_argument('--skip', type=int, default=0, help="How many pages are skipped in the beginning")
