@@ -1,23 +1,33 @@
 from lxml import etree
 from pyriksdagen.segmentation import detect_mp, expression_dicts, detect_introduction, classify_paragraph
 from pyriksdagen.utils import element_hash
-import re
-import datetime
+import re, random, datetime
 
-def _iter(root):
-    for body in root.findall(".//{http://www.tei-c.org/ns/1.0}body"):
-        for div in body.findall("{http://www.tei-c.org/ns/1.0}div"):
+def _iter(root, ns="{http://www.tei-c.org/ns/1.0}"):
+    for body in root.findall(".//" + ns +"body"):
+        for div in body.findall(ns + "div"):
             for ix, elem in enumerate(div):
-                if elem.tag == "{http://www.tei-c.org/ns/1.0}u":
+                if elem.tag == ns + "u":
                     yield "u", elem
-                elif elem.tag == "{http://www.tei-c.org/ns/1.0}note":
+                elif elem.tag == ns + "note":
                     yield "note", elem
-                elif elem.tag == "{http://www.tei-c.org/ns/1.0}pb":
+                elif elem.tag == ns + "pb":
                     yield "pb", elem
+                elif elem.tag == ns + "seg":
+                    yield "seg", elem
+                elif elem.tag == "u":
+                    elem.tag = ns + "u"
+                    yield "u", elem
                 else:
+                    print(elem.tag)
                     yield None
 
-def detect_mps(root, mp_db, pattern_db):
+def random_classifier(paragraph):
+    alternatives = ["note", "u"]
+    return random.choice(alternatives)
+
+
+def detect_mps(root, names_ids, pattern_db, mp_db=None):
     """
     Re-detect MPs in a parla clarin protocol, based on the (updated)
     MP database.
@@ -27,25 +37,36 @@ def detect_mps(root, mp_db, pattern_db):
 
     for tag, elem in _iter(root):
         if tag == "u":
-            if "prev" in elem.attrib:
-                del elem.attrib["prev"]
-            if "next" in elem.attrib:
-                del elem.attrib["next"]
+            # Deleting and adding attributes changes their order;
+            # Mark as 'delete' instead and delete later
+            elem.set("prev", "delete")
+            elem.set("next", "delete")
             if current_speaker is not None:
                 elem.attrib["who"] = current_speaker
                 if prev is None:
                     prev = elem
                 else:
-                    elem.attrib["prev"] = prev.attrib["{http://www.w3.org/XML/1998/namespace}id"]
-                    prev.attrib["next"] = elem.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+                    new_prev = prev.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+                    new_next = elem.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+                    elem.set("prev", new_prev)
+                    prev.set("next", new_next)
+
             else:
                 elem.attrib["who"] = "unknown"
                 prev = None
         elif tag == "note":
             if elem.attrib.get("type", None) == "speaker":
                 if type(elem.text) == str:
-                    current_speaker = detect_mp(elem.text, mp_db)
+                    current_speaker = detect_mp(elem.text, names_ids, mp_db=mp_db)
                     prev = None
+
+    # Do two loops to preserve attribute order 
+    for tag, elem in _iter(root):
+        if tag == "u":
+            if elem.attrib.get("prev") == "delete":
+                del elem.attrib["prev"]
+            if elem.attrib.get("next") == "delete":
+                del elem.attrib["next"]
 
     return root
 
@@ -89,8 +110,17 @@ def find_introductions(root, pattern_db, names_ids):
                             u.attrib["who"] = "unknown"
 
                         seg.addnext(u)
-                        if seg.text[-1] != ":":
+                        matched_txt = introduction["txt"]
+                        ix = None
+                        if matched_txt[-1] != ":" and ":" in seg:
+                            ix = len(matched_txt) + seg.text.index(matched_txt)
+                        if ":" in matched_txt:
+                            ix = matched_txt.index(":")
+                            ix = ix + seg.text.index(matched_txt)
+                        elif seg.text[-1] != ":" and ":" in seg:
                             ix = seg.text.index(":")
+
+                        if ix is not None:
                             rest = seg.text[ix+1:]
                             seg.text = seg.text[:ix+1]
                             new_seg = etree.SubElement(u, "{http://www.tei-c.org/ns/1.0}seg")
@@ -106,66 +136,95 @@ def find_introductions(root, pattern_db, names_ids):
             parent.text = None
             #if not elem.attrib.get("type", None) == "speaker":
             if type(elem.text) == str:
+
                 introduction = detect_introduction(elem.text, expressions, names_ids)
-                    
+
                 if introduction is not None:
                     if not elem.attrib.get("type", None) == "speaker":
-                        pass#print("NEW note", elem.text)
+                        print("NEW note", elem.text)
+                        elem.attrib["type"] = "speaker"
+
+                        matched_txt = introduction["txt"]
+                        ix = None
+                        if matched_txt[-1] != ":" and ":" in elem.text:
+                            ix = len(matched_txt) + elem.text.index(matched_txt)
+                        if ":" in matched_txt:
+                            ix = matched_txt.index(":")
+                            ix = ix + elem.text.index(matched_txt)
+                        elif elem.text[-1] != ":" and ":" in elem:
+                            ix = elem.text.index(":")
+                        if ix is not None:
+                            rest = elem.text[ix+1:].strip()
+                            if len(rest) > 0:
+                                u = etree.Element("{http://www.tei-c.org/ns/1.0}u")
+                                #u.text = None
+                                if introduction["who"] is not None:
+                                    u.attrib["who"] = introduction["who"]
+                                else:
+                                    u.attrib["who"] = "unknown"
+
+                                elem.addnext(u)
+
+                                rest = elem.text[ix+1:]
+                                elem.text = elem.text[:ix+1]
+
+                                new_seg = etree.SubElement(u, "{http://www.tei-c.org/ns/1.0}seg")
+                                new_seg.text = rest
+
                     else:
                         pass#print("OLD", elem.text)
 
     return root
 
-def reclassify_paragrahps(root, classifier):
-    u = None
+def reclassify(root, classifier, tei="{http://www.tei-c.org/ns/1.0}"):
     prev_elem = None
     for ix, elem_tuple in enumerate(list(_iter(root))):
-
-        print("ix", ix)
         tag, elem = elem_tuple
-        if tag == "u":
-            u = elem
-            for seg in list(elem):
-                if seg.attrib["n"] is not "manual" and type(seg.text) == str:
-                    prediction = classify_paragraph(paragraph, classifier)
-                    # If the paragraph is predicted to be a <note>
-                    if prediction[0] > prediction[1]:
-                        seg.tag = "{http://www.tei-c.org/ns/1.0}note"
-                        if prev_elem is not None:
-                            prev_elem.addnext(seg)
-                        prev_elem = seg
-                        u = None
-                    # If the paragraph is predicted to be a <seg>
-                    else:
-                        if u is None:
-                            u = etree.Element("{http://www.tei-c.org/ns/1.0}u")
-                            prev_elem.addnext(u)
 
-                        u.append(seg)
-                        prev_elem = u
-                        
-        elif tag == "note":
-            if elem.attrib.get("type") not in ["speaker", "date"] and elem.attrib["n"] is not "manual":
-                if type(elem.text) == str:
-                    paragraph = elem.text
-                    prediction = classify_paragraph(paragraph, classifier)
-                    # If the paragraph is predicted to be a <note>
-                    if prediction[0] > prediction[1]:
-                        u = None
-                        prev_elem = elem
+        prev_elem = elem
+        if tag == "u":
+            for seg in elem:
+                paragraph = seg.text
+                c = classifier(paragraph)
+                if c != "u":
+                    print("Change u to note")
+                    prev_elem.addnext(seg)
+                    prev_elem = seg
+                    seg.tag = tei + c
+                elif prev_elem != elem:
+                    if prev_elem.tag == tei + "u":
+                        prev_elem.append(seg)
                     else:
-                        if u is None:
-                            u = etree.Element("{http://www.tei-c.org/ns/1.0}u")
-                            if prev_elem is not None:
-                                prev_elem.addnext(u)
-                            prev_elem = u
-                        elem.tag = "{http://www.tei-c.org/ns/1.0}seg"
-                        u.append(elem)
+                        new_elem = etree.Element(tei + "u")
+                        prev_elem.addnext(new_elem)
+                        prev_elem = new_elem
+                        prev_elem.append(seg)
+                else:
+                    pass
+
+        elif tag == "note":
+            paragraph = elem.text
+            c = classifier(paragraph)
+            if c != tag:                
+                if c == "u":
+                    elem.tag = tei + "seg"
+                    if prev_elem.tag == tei + "u":
+                        print("Change note to u")
+                    else:
+                        # Create new u node
+                        new_elem = etree.Element(tei + c)
+                        prev_elem.addnext(new_elem)
+                        prev_elem = new_elem
+
+                    prev_elem.append(elem)
+
                 else:
                     prev_elem = elem
+                    elem.tag = tei + c
             else:
                 prev_elem = elem
-
+        else:
+            prev_elem = elem
     return root
 
 
@@ -194,12 +253,15 @@ def format_texts(root):
         if type(elem.text) == str:
             elem.text = format_paragraph(elem.text)
         elif tag == "u":
-            for seg in elem:
-                if type(seg.text) == str:
-                    seg.text = format_paragraph(seg.text, spaces=14)
-                else:
-                    seg.text = None
-            elem.text = None
+            if len(list(elem)) > 0:
+                for seg in elem:
+                    if type(seg.text) == str:
+                        seg.text = format_paragraph(seg.text, spaces=14)
+                    else:
+                        seg.text = None
+                elem.text = None
+            else:
+                elem.getparent().remove(elem)
         elif tag == "pb":
             if "{http://www.w3.org/XML/1998/namespace}url" in elem.attrib:
                 url = elem.attrib["{http://www.w3.org/XML/1998/namespace}url"]
@@ -341,12 +403,13 @@ def update_hashes(root, protocol_id, manual=False):
 
             if not manual:
                 if elem_hash != "manual":
-                    elem.attrib[n] = elem_hash
+                    if elem.attrib.get(n) != elem_hash:
+                        elem.set(n, elem_hash)
             else:
                 print(elem.attrib)
                 print(elem.attrib[n], elem_hash)
                 if elem.attrib[n] != elem_hash:
-                    elem.attrib[n] = "manual"
+                    elem.set(n, "manual")
 
             if tag == "u":
                 for subelem in elem:
@@ -354,9 +417,9 @@ def update_hashes(root, protocol_id, manual=False):
 
                     if not manual:
                         if subelem_hash != "manual":
-                            subelem.attrib[n] = subelem_hash
+                            subelem.set(n, subelem_hash)
                     else:
-                        if subelem.attrib[n] != subelem_hash:
-                            subelem.attrib[n] = "manual"
+                        if subelem.attrib.get(n) != subelem_hash:
+                            subelem.set(n, "manual")
 
     return root

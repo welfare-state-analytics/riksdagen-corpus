@@ -63,39 +63,110 @@ def _is_metadata_block(txt0):
     # TODO: replace with ML algorithm
     return float(len1) / float(len0) < 0.85 and len0 < 150
 
-def detect_mp(matched_txt, names_ids, last_name=True):
+def detect_mp(matched_txt, names_ids, mp_db=None, also_last_name=True):
     """
     Match the introduced speaker in a text snippet
     """
-    person = None
+    person = []
 
     # Prefer uppercase
+    # SVEN LINDGREN
     for name, identifier in names_ids:
         if name.upper() in matched_txt:
-            person = identifier
+            person.append(identifier)
 
-    if person == None:
+    # Sven Lindgren
+    if len(person) == 0:
         for name, identifier in names_ids:
             if name in matched_txt:
-                person = identifier
+                person.append(identifier)
 
-    # Only match last name if full name is not found
-    if last_name and person is None:
+    # Lindgren, Sven
+    if len(person) == 0:
         for name, identifier in names_ids:
-            last_name = " " + name.split()[-1]
-            
+            last_name = " " + name.split()[-1] + ","
             if last_name in matched_txt:
-                ix = matched_txt.index(last_name)
-                aftermatch = matched_txt[ix + len(last_name):]
-                aftermatch = aftermatch[:1]
-                if aftermatch in [" ", ":", ","]:
-                    person = identifier
+                first_name = name.split()[0]
+                rest = matched_txt.split(last_name)[-1]
+                if first_name in rest:
+                    person.append(identifier)
 
-            elif last_name.upper() in matched_txt:
-                #print(matched_txt, last_name, last_name.upper())
-                person = identifier
+    # LINDGREN, SVEN
+    if len(person) == 0:
+        for name, identifier in names_ids:
+            last_name = " " + name.split()[-1] + ","
+            last_name = last_name.upper()
+            if last_name in matched_txt:
+                first_name = name.split()[0]
+                rest = matched_txt.split(last_name)[-1]
+                if first_name.upper() in rest.upper():
+                    person.append(identifier)
 
-    return person
+    # Lindgren i Stockholm
+    if len(person) == 0 and mp_db is not None:
+        for _, row in mp_db.iterrows():
+            #print(row)
+            i_name = row["name"].split()[-1] + " " + row["specifier"]
+            if i_name.lower() in matched_txt.lower():
+                person.append(row["id"])
+
+    if also_last_name:
+        # LINDGREN
+        if len(person) == 0:
+            for name, identifier in names_ids:
+                name = name.split()[-1]
+                if " " + name.upper() + " " in matched_txt:
+                    person.append(identifier)
+                elif " " + name.upper() + ":" in matched_txt:
+                    person.append(identifier)
+
+
+        # Herr/Fru Lindgren
+        if len(person) == 0:
+            matched_txt_lower = matched_txt.lower()
+            for name, identifier in names_ids:
+                last_name = " " + name.split()[-1]
+                herr_name = "herr" + last_name.lower()
+                fru_name = "fru" + last_name.lower()
+
+                if herr_name in matched_txt_lower:
+                    ix = matched_txt_lower.index(herr_name)
+                    aftermatch = matched_txt_lower[ix + len(herr_name):]
+                    aftermatch = aftermatch[:1]
+                    if aftermatch in [" ", ":", ","]:
+                        person.append(identifier)
+
+                if fru_name in matched_txt_lower:
+                    ix = matched_txt_lower.index(fru_name)
+                    aftermatch = matched_txt_lower[ix + len(fru_name):]
+                    aftermatch = aftermatch[:1]
+                    if aftermatch in [" ", ":", ","]:
+                        person.append(identifier)
+
+        # Lindgren
+        if len(person) == 0:
+            for name, identifier in names_ids:
+                last_name = " " + name.split()[-1]
+                
+                if last_name in matched_txt:
+                    ix = matched_txt.index(last_name)
+                    aftermatch = matched_txt[ix + len(last_name):]
+                    aftermatch = aftermatch[:1]
+                    if aftermatch in [" ", ":", ","]:
+                        person.append(identifier)
+
+                elif last_name.upper() in matched_txt:
+                    #print(matched_txt, last_name, last_name.upper())
+                    person.append(identifier)
+
+    if len(person) == 1:
+        return person[0]
+    else:
+        person_names = list(set(["_".join(m.split("_")[:-1]) for m in person]))
+        if len(person_names) == 1:
+            return person[-1]
+        else:
+            return None
 
 def expression_dicts(pattern_db):
     expressions = dict()
@@ -113,7 +184,7 @@ def expression_dicts(pattern_db):
 
 def detect_introduction(paragraph, expressions, names_ids):
     for pattern_digest, exp in expressions.items():
-        for m in exp.finditer(paragraph):
+        for m in exp.finditer(paragraph.strip()):
             matched_txt = m.group()
             person = detect_mp(matched_txt, names_ids)
             segmentation = "speech_start"
@@ -121,6 +192,7 @@ def detect_introduction(paragraph, expressions, names_ids):
             "pattern": pattern_digest,
             "who": person,
             "segmentation": segmentation,
+            "txt": matched_txt,
             }
 
             return d

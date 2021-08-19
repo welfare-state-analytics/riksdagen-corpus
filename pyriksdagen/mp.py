@@ -114,6 +114,8 @@ def create_database(path):
         else:
             df["start"] = int(year_str)
             df["end"] = int(year_str)
+    else:
+        print(year_str)
     
     return df
 
@@ -134,6 +136,9 @@ def create_full_database(dirs):
 
     mp_db = mp_db[mp_db["name"].notnull()]
 
+    print(mp_db[mp_db["start"].isnull()])
+    mp_db.start = mp_db.start.astype(int)
+    mp_db.end = mp_db.end.astype(int)
     return mp_db
 
 def add_gender(mp_db, names):
@@ -163,11 +168,20 @@ def clean_names(mp_db):
     print("Clean names...")
     for i, row in progressbar.progressbar(list(mp_db.iterrows())):
         name = row["name"]
-        name = name.split(" i ")[0]
+        split_i = name.split(" i ")
+        if name != split_i[0]:
+            name = split_i[0]
+            if len(split_i) > 1:
+                mp_db.loc[i, 'specifier'] = "i " + split_i[1]
+            else:
+                mp_db.loc[i, 'specifier'] = None
         if "[" in name:
             name = name.split("[")[0]
+        if "(er" in name:
+            name = name.split("(er")[0]
         if "ersatt av" in name:
             name = name.split("ersatt av:")[-1]
+        name = name.strip()
         assert name != "", "names can't be empty: " + row["name"]
         mp_db.loc[i, 'name'] = name
 
@@ -195,6 +209,7 @@ def replace_party_abbreviations(mp_db, party_db):
 def add_id(mp_db):
     print("Add id...")
     columns = mp_db.columns
+    columns = ["name", "party", "district", "chamber", "start", "end"]
     mp_db["id"] = None
     print("columns used for generation:", ", ".join(columns))
     for i, row in progressbar.progressbar(list(mp_db.iterrows())):
@@ -217,6 +232,77 @@ def add_id(mp_db):
         mp_db.loc[i, 'id'] = name + "_" + digest[:6]
 
     return mp_db
+
+def add_municipality(mp_db, mun_db):
+
+    original_columns = list(mp_db.columns)
+    print("Add municipalicites from 'personregister'...")
+    def reorder_name(name):
+        s = name.split(",")
+        if len(s) == 1:
+            return name
+        else:
+            newname = s[1].strip() + " " + s[0].strip()
+            return newname
+    mun_db["name"] = mun_db["name"].apply(lambda n: reorder_name(n))
+    mun_db = mun_db[mun_db["municipality"].notnull()]
+    mun_db["municipality"].apply(lambda x: "i " + x.strip())
+    mun_db["decade"] = mun_db["decade"].apply(lambda decade: (decade // 10 ) * 10)
+
+    outdfs = []
+    #mp_db["municipality"] = None
+
+    start_min = min(set(mp_db["start"]))
+    end_max = max(set(mp_db["end"]))
+
+    start_min = (start_min // 10) * 10
+    end_max = (end_max // 10 + 1) * 10
+    for decade in range(start_min, end_max, 10):
+        current_mun_db = mun_db[mun_db["decade"] == decade]
+        current_mpdb = mp_db[(mp_db["end"] >= decade) & (mp_db["start"] < decade + 10)]
+        if not current_mun_db.empty:
+            current_mun_db = current_mun_db[["name", "municipality"]]
+
+            mpdb_names = list(current_mpdb["name"])
+
+            def rname(name):
+                nameset = set(name.split())
+
+                namesplit = name.split()
+                for mpdb_name in mpdb_names:
+                    mpdbsplit = mpdb_name.split()
+                    samefirst = namesplit[0] == mpdbsplit[0]
+                    samelast = namesplit[-1] == mpdbsplit[-1]
+                    if samefirst and samelast and abs(len(namesplit) - len(mpdbsplit)) <= 1:
+                        return mpdb_name.strip()
+                return name.strip()
+
+
+            replacedname = rname("Carl Wilhelm Höglund")
+
+            print("Carl Wilhelm Höglund", "=>", replacedname, decade)
+            current_mun_db["name"] = current_mun_db["name"].apply(lambda n: rname(n))
+            merged = pd.merge(current_mpdb, current_mun_db, how="left", on="name")
+            merged.to_csv("merged_"+ str(decade) + ".csv", index = False)
+
+            newnames = set(current_mun_db["name"])
+            outdfs.append(merged)
+            print("Carl Wilhelm Oskar Höglund in newnames", "Carl Wilhelm Oskar Höglund" in newnames)
+        else:
+            outdfs.append(current_mpdb)
+
+
+    mp_db = pd.concat(outdfs)
+    print(mp_db)
+    mp_db["municipality"] = "i " + mp_db["municipality"].str.strip()
+    mp_db["specifier"] = mp_db["specifier"].fillna(mp_db["municipality"])
+    mp_db = mp_db.drop("municipality", axis=1)
+
+    mp_db = mp_db.groupby("id").first().reset_index()
+    mp_db = mp_db[original_columns]
+    mp_db = mp_db.sort_values(by=["start", "chamber", "name"], ignore_index=True)
+    return mp_db
+
 def detect_mp(introduction, metadata, mp_db):
     """
     Detect which member of parliament is mentioned in a given introduction.
