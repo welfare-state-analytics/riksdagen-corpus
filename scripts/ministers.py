@@ -19,8 +19,18 @@ def main():
     df["Namn"] = df["Namn"].fillna(df["Minister"])
     df["Namn"] = df["Namn"].fillna(df["Minister.1"])
 
+    df["Titel"] = df["Titel"].fillna(df["Befattning"])
+    df["Titel"] = df["Titel"].fillna(df["Ämbete"])
+
+    df["name"] = df["Namn"]
+    df["title"] = df["Titel"]
+    df["start"] = df["Tillträdde"]
+    df["end"] = df["Avgick"]
+
+    df = df[["name", "title", "start", "end"]]
+
     print(df)
-    df.to_csv("output.csv", index=False)
+    df.to_csv("corpus/ministers.csv", index=False)
     
 if __name__ == '__main__':
     main()
