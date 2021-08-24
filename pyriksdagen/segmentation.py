@@ -63,6 +63,23 @@ def _is_metadata_block(txt0):
     # TODO: replace with ML algorithm
     return float(len1) / float(len0) < 0.85 and len0 < 150
 
+def detect_minister(matched_txt, minister_db):
+    lower_txt = matched_txt.lower()
+
+    # Only match if minister is mentioned in intro
+    if "statsrådet" in lower_txt or "minister" in lower_txt:
+        dbrows = list(minister_db.iterrows())
+        ministers = []
+        # herr stadsrådet LINDGREN
+        for ix, row in dbrows:
+            lastname = row["name"].upper().split()[-1].strip()
+            #print(lastname)
+            if lastname in matched_txt:
+                ministers.append(row["id"])
+
+        if len(ministers) >= 1:
+            return ministers[0]
+
 def detect_mp(matched_txt, names_ids, mp_db=None, also_last_name=True):
     """
     Match the introduced speaker in a text snippet
@@ -182,11 +199,13 @@ def expression_dicts(pattern_db):
             manual[row["pattern"]] = row["segmentation"]
     return expressions, manual
 
-def detect_introduction(paragraph, expressions, names_ids):
+def detect_introduction(paragraph, expressions, names_ids, minister_db=None):
     for pattern_digest, exp in expressions.items():
         for m in exp.finditer(paragraph.strip()):
             matched_txt = m.group()
-            person = detect_mp(matched_txt, names_ids)
+            person = detect_minister(matched_txt, minister_db)
+            if person is None:
+                person = detect_mp(matched_txt, names_ids)
             segmentation = "speech_start"
             d = {
             "pattern": pattern_digest,

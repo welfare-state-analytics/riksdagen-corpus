@@ -1,5 +1,5 @@
 from lxml import etree
-from pyriksdagen.segmentation import detect_mp, expression_dicts, detect_introduction, classify_paragraph
+from pyriksdagen.segmentation import detect_mp, detect_minister, expression_dicts, detect_introduction, classify_paragraph
 from pyriksdagen.utils import element_hash
 import re, random, datetime
 
@@ -26,8 +26,7 @@ def random_classifier(paragraph):
     alternatives = ["note", "u"]
     return random.choice(alternatives)
 
-
-def detect_mps(root, names_ids, pattern_db, mp_db=None):
+def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None):
     """
     Re-detect MPs in a parla clarin protocol, based on the (updated)
     MP database.
@@ -57,7 +56,9 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None):
         elif tag == "note":
             if elem.attrib.get("type", None) == "speaker":
                 if type(elem.text) == str:
-                    current_speaker = detect_mp(elem.text, names_ids, mp_db=mp_db)
+                    current_speaker = detect_minister(elem.text, minister_db)
+                    if current_speaker is None:
+                        current_speaker = detect_mp(elem.text, names_ids, mp_db=mp_db)
                     prev = None
 
     # Do two loops to preserve attribute order 

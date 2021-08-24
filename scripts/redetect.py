@@ -4,6 +4,7 @@ from pyriksdagen.utils import infer_metadata
 from lxml import etree
 import pandas as pd
 import os, progressbar, argparse
+from datetime import datetime
 
 def main(args):
     start_year = args.start
@@ -13,6 +14,7 @@ def main(args):
     folders = os.listdir(pc_folder)
 
     mp_db = pd.read_csv(root + "corpus/members_of_parliament.csv")
+    minister_db = pd.read_csv(root + "corpus/ministers.csv", parse_dates=True)
 
     parser = etree.XMLParser(remove_blank_text=True)
     for outfolder in progressbar.progressbar(folders):
@@ -39,6 +41,14 @@ def main(args):
                         print(protocol_id, year)
                     year_mp_db = filter_db(mp_db, year=year)
 
+                    # TODO: fetch actual protocol date
+                    protocol_date = datetime(year - 1,6,15)
+                    dates = [datetime.strptime(elem.attrib.get("when"), "%Y-%m-%d") for elem in root.findall(".//{http://www.tei-c.org/ns/1.0}docDate")]
+                    start_date = min(dates)
+                    start_date = max(dates)
+                    #print(minister_db["start"])
+                    #year_ministers = minister_db[minister_db["start"] < start_date]
+
                     chamber = metadata.get("chamber", None)
                     if chamber is not None:
                         year_mp_db = year_mp_db[year_mp_db["chamber"] == chamber]
@@ -49,7 +59,7 @@ def main(args):
 
                     pattern_db = load_patterns()
                     pattern_db = pattern_db[(pattern_db["start"] <= year) & (pattern_db["end"] >= year)]
-                    root = detect_mps(root, names_ids, pattern_db, mp_db=year_mp_db)
+                    root = detect_mps(root, names_ids, pattern_db, mp_db=year_mp_db, minister_db=minister_db)
                     root = update_hashes(root, protocol_id)
                     b = etree.tostring(root, pretty_print=True, encoding="utf-8", xml_declaration=True)
 
