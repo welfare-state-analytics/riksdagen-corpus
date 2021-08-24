@@ -2,6 +2,7 @@ import pandas as pd
 from pathlib import Path
 import dateparser
 import datetime
+import unidecode
 
 def main():
     # Read in all data files
@@ -58,6 +59,16 @@ def main():
 
     df["start"] = df["start"].apply(lambda s: parse_date(s))
     df["end"] = df["end"].apply(lambda s: parse_date(s))
+
+    # Generate id
+    df["id"] = df["title"].apply(lambda x: unidecode.unidecode(x).lower())
+    df["id"] = df["id"].str[:12]
+    df["id"] = df["name"].apply(lambda x: unidecode.unidecode(x).lower()).str.strip() + " " + df["id"]
+    df["id"] = df["id"].str.replace("-", " ")
+    df["id"] = df["id"].str.replace(" ", "_")
+    df["id"] = df["id"].str.replace("__", "_")
+    df["id"] = df["id"].str.lower()
+    df["id"] = df["id"]
 
     # Print and write to file
     print(df)
