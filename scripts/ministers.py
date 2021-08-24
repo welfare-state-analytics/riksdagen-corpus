@@ -28,6 +28,19 @@ def main():
     df["end"] = df["Avgick"]
 
     df = df[["name", "title", "start", "end"]]
+    
+    ref_pattern = r'\[[a-zA-ZÀ-ÿ0-9 ]+\]'
+    df["end"] = df["end"].replace(ref_pattern, "", regex=True)
+    df["start"] = df["start"].replace(ref_pattern, "", regex=True)
+
+    bracket_pattern = r' ?\([a-zA-ZÀ-ÿ0-9\. ]+\)'
+    df["name"] = df["name"].replace(bracket_pattern, "", regex=True)
+
+    # Remove special characters
+    df["name"] = df["name"].replace(r'[^A-Za-zÀ-ÿ /-]+', "", regex=True)
+    df["title"] = df["title"].replace(r'[^A-Za-zÀ-ÿ /-]+', "", regex=True)
+    df["start"] = df["start"].replace(r'[^A-Za-zÀ-ÿ0-9 /-]+', "", regex=True)
+    df["end"] = df["end"].replace(r'[^A-Za-zÀ-ÿ0-9 /-]+', "", regex=True)
 
     print(df)
     df.to_csv("corpus/ministers.csv", index=False)
