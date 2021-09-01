@@ -67,15 +67,31 @@ def detect_minister(matched_txt, minister_db):
     lower_txt = matched_txt.lower()
 
     # Only match if minister is mentioned in intro
-    if "statsrådet" in lower_txt or "minister" in lower_txt:
+    if "statsråd" in lower_txt or "minister" in lower_txt:
+        if "Ramel" in matched_txt:
+            print(matched_txt)
         dbrows = list(minister_db.iterrows())
         ministers = []
-        # herr stadsrådet LINDGREN
+        # herr statsrådet LINDGREN
         for ix, row in dbrows:
             lastname = row["name"].upper().split()[-1].strip()
             #print(lastname)
             if lastname in matched_txt:
                 ministers.append(row["id"])
+
+        # statsrådet Lindgren
+        if len(ministers) == 0:
+            for ix, row in dbrows:
+                lastname = row["name"].split()[-1].strip()
+
+                # Preliminary check for performance reasons
+                if lastname in matched_txt:                
+                    # Check that the whole name exists as a word
+                    # So that 'Lind' won't be matched for 'Lindgren'
+                    matched_split = re.sub(r'[^A-Za-zÀ-ÿ /-]+', "", matched_txt)
+                    matched_split = matched_split.split()
+                    if lastname in matched_split:
+                        ministers.append(row["id"])
 
         if len(ministers) >= 1:
             return ministers[0]
