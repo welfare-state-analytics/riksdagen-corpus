@@ -49,7 +49,12 @@ class Test(unittest.TestCase):
             return found
 
         folder = "corpus/"
-        mp_db = pd.read_csv("corpus/members_of_parliament.csv")
+        mp_db = pd.read_csv("corpus/members_of_parliament.csv")[["id", "start", "end"]]
+        minister_db = pd.read_csv("corpus/ministers.csv")[["id", "start", "end"]]
+        minister_db["start"] = pd.DatetimeIndex(minister_db["start"]).year
+        minister_db["end"] = pd.DatetimeIndex(minister_db["end"]).year
+        mp_db = pd.concat([mp_db, minister_db])
+        print(mp_db)
         mp_ids = {}
 
         failed_protocols = []
