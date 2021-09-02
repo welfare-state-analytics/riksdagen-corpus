@@ -63,7 +63,7 @@ def _is_metadata_block(txt0):
     # TODO: replace with ML algorithm
     return float(len1) / float(len0) < 0.85 and len0 < 150
 
-def detect_minister(matched_txt, minister_db):
+def detect_minister(matched_txt, minister_db, date=None):
     lower_txt = matched_txt.lower()
 
     # Only match if minister is mentioned in intro
@@ -77,7 +77,13 @@ def detect_minister(matched_txt, minister_db):
             lastname = row["name"].upper().split()[-1].strip()
             #print(lastname)
             if lastname in matched_txt:
-                ministers.append(row["id"])
+                if date is None:
+                    ministers.append(row["id"])
+                elif date > row["start"] and date < row["end"]:
+                    ministers.append(row["id"])
+                else:
+                    print("lastname", lastname, date, row["start"])
+
 
         # statsrådet Lindgren
         if len(ministers) == 0:

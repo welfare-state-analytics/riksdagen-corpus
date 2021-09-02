@@ -72,7 +72,6 @@ def main(args):
                         print("Unreasonable date in:", protocol_id)
                         print(start_date)
                         print(end_date)
-
                         year_ministers = minister_db[minister_db.columns]
 
                     chamber = metadata.get("chamber", None)
@@ -85,7 +84,7 @@ def main(args):
 
                     pattern_db = load_patterns()
                     pattern_db = pattern_db[(pattern_db["start"] <= year) & (pattern_db["end"] >= year)]
-                    root = detect_mps(root, names_ids, pattern_db, mp_db=year_mp_db, minister_db=year_ministers)
+                    root = detect_mps(root, names_ids, pattern_db, mp_db=year_mp_db, minister_db=year_ministers, date=start_date)
                     root = update_hashes(root, protocol_id)
                     b = etree.tostring(root, pretty_print=True, encoding="utf-8", xml_declaration=True)
 
