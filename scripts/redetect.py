@@ -4,6 +4,7 @@ from pyriksdagen.utils import infer_metadata
 from lxml import etree
 import pandas as pd
 import os, progressbar, argparse
+from datetime import datetime
 
 def main(args):
     start_year = args.start
@@ -13,9 +14,12 @@ def main(args):
     folders = os.listdir(pc_folder)
 
     mp_db = pd.read_csv(root + "corpus/members_of_parliament.csv")
-
+    minister_db = pd.read_csv(root + "corpus/ministers.csv", parse_dates=True)
+    minister_db["start"] = pd.to_datetime(minister_db["start"], errors="coerce")
+    minister_db["end"] = pd.to_datetime(minister_db["end"], errors="coerce")
+    print(minister_db["start"])
     parser = etree.XMLParser(remove_blank_text=True)
-    for outfolder in progressbar.progressbar(folders):
+    for outfolder in progressbar.progressbar(sorted(folders)):
         if os.path.isdir(pc_folder + outfolder):
             outfolder = outfolder + "/"
             protocol_ids = os.listdir(pc_folder + outfolder)
@@ -39,6 +43,37 @@ def main(args):
                         print(protocol_id, year)
                     year_mp_db = filter_db(mp_db, year=year)
 
+                    # TODO: fetch actual protocol date
+                    protocol_date = datetime(year - 1,6,15)
+
+                    def parse_date(s):
+                        try:
+                            return datetime.strptime(s, "%Y-%m-%d")
+
+
+                        except ValueError:
+                            if len(s) == 4:
+                                if int(s) > 1689 and int(s) < 2261:
+                                    return datetime(int(s), 6, 15)
+                                else:
+                                    return None
+                            else:
+                                return None
+
+                    dates = [parse_date(elem.attrib.get("when")) for elem in root.findall(".//{http://www.tei-c.org/ns/1.0}docDate")]
+                    start_date = min(dates)
+                    end_date = max(dates)
+                    #print(minister_db["start"])
+                    #print(type(start_date))
+                    try:
+                        year_ministers = minister_db[minister_db["start"] < start_date]
+                        year_ministers = year_ministers[year_ministers["end"] > end_date]
+                    except pd.errors.OutOfBoundsDatetime:
+                        print("Unreasonable date in:", protocol_id)
+                        print(start_date)
+                        print(end_date)
+                        year_ministers = minister_db[minister_db.columns]
+
                     chamber = metadata.get("chamber", None)
                     if chamber is not None:
                         year_mp_db = year_mp_db[year_mp_db["chamber"] == chamber]
@@ -49,7 +84,7 @@ def main(args):
 
                     pattern_db = load_patterns()
                     pattern_db = pattern_db[(pattern_db["start"] <= year) & (pattern_db["end"] >= year)]
-                    root = detect_mps(root, names_ids, pattern_db, mp_db=year_mp_db)
+                    root = detect_mps(root, names_ids, pattern_db, mp_db=year_mp_db, minister_db=year_ministers, date=start_date)
                     root = update_hashes(root, protocol_id)
                     b = etree.tostring(root, pretty_print=True, encoding="utf-8", xml_declaration=True)
 

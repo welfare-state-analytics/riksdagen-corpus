@@ -32,6 +32,7 @@ class Test(unittest.TestCase):
                     ids = list(year_db["id"])
                     mp_ids[year] = ids
 
+            false_whos = []
             for body in root.findall(".//{http://www.tei-c.org/ns/1.0}body"):
                 for div in body.findall("{http://www.tei-c.org/ns/1.0}div"):
                     for ix, elem in enumerate(div):
@@ -45,11 +46,17 @@ class Test(unittest.TestCase):
 
                                 if not elem_found:
                                     found = False
+                                    false_whos.append(who)
 
-            return found
+            return found, false_whos
 
         folder = "corpus/"
-        mp_db = pd.read_csv("corpus/members_of_parliament.csv")
+        mp_db = pd.read_csv("corpus/members_of_parliament.csv")[["id", "start", "end"]]
+        minister_db = pd.read_csv("corpus/ministers.csv")[["id", "start", "end"]]
+        minister_db["start"] = pd.DatetimeIndex(minister_db["start"]).year
+        minister_db["end"] = pd.DatetimeIndex(minister_db["end"]).year
+        mp_db = pd.concat([mp_db, minister_db])
+        print(mp_db)
         mp_ids = {}
 
         failed_protocols = []
@@ -59,8 +66,10 @@ class Test(unittest.TestCase):
                 for protocol_id in os.listdir(folder + outfolder):
                     protocol_id = protocol_id.split(".")[0]
                     root = etree.parse(folder + outfolder + protocol_id + ".xml", parser).getroot()
-                    if not test_one_protocol(root, mp_ids, mp_db):
-                        failed_protocols.append(protocol_id)
+                    
+                    found, false_whos = test_one_protocol(root, mp_ids, mp_db)
+                    if not found:
+                        failed_protocols.append(protocol_id + " (" + false_whos[0] + ")")
 
         print("Protocols with inactive MPs tagged as speakers:", ", ".join(failed_protocols))
         self.assertEqual(len(failed_protocols) == 0, True)

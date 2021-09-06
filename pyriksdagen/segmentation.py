@@ -63,6 +63,45 @@ def _is_metadata_block(txt0):
     # TODO: replace with ML algorithm
     return float(len1) / float(len0) < 0.85 and len0 < 150
 
+def detect_minister(matched_txt, minister_db, date=None):
+    lower_txt = matched_txt.lower()
+
+    # Only match if minister is mentioned in intro
+    if "statsråd" in lower_txt or "minister" in lower_txt:
+        if "Ramel" in matched_txt:
+            print(matched_txt)
+        dbrows = list(minister_db.iterrows())
+        ministers = []
+        # herr statsrådet LINDGREN
+        for ix, row in dbrows:
+            lastname = row["name"].upper().split()[-1].strip()
+            #print(lastname)
+            if lastname in matched_txt:
+                if date is None:
+                    ministers.append(row["id"])
+                elif date > row["start"] and date < row["end"]:
+                    ministers.append(row["id"])
+                else:
+                    print("lastname", lastname, date, row["start"])
+
+
+        # statsrådet Lindgren
+        if len(ministers) == 0:
+            for ix, row in dbrows:
+                lastname = row["name"].split()[-1].strip()
+
+                # Preliminary check for performance reasons
+                if lastname in matched_txt:                
+                    # Check that the whole name exists as a word
+                    # So that 'Lind' won't be matched for 'Lindgren'
+                    matched_split = re.sub(r'[^A-Za-zÀ-ÿ /-]+', "", matched_txt)
+                    matched_split = matched_split.split()
+                    if lastname in matched_split:
+                        ministers.append(row["id"])
+
+        if len(ministers) >= 1:
+            return ministers[0]
+
 def detect_mp(matched_txt, names_ids, mp_db=None, also_last_name=True):
     """
     Match the introduced speaker in a text snippet
@@ -182,11 +221,13 @@ def expression_dicts(pattern_db):
             manual[row["pattern"]] = row["segmentation"]
     return expressions, manual
 
-def detect_introduction(paragraph, expressions, names_ids):
+def detect_introduction(paragraph, expressions, names_ids, minister_db=None):
     for pattern_digest, exp in expressions.items():
         for m in exp.finditer(paragraph.strip()):
             matched_txt = m.group()
-            person = detect_mp(matched_txt, names_ids)
+            person = detect_minister(matched_txt, minister_db)
+            if person is None:
+                person = detect_mp(matched_txt, names_ids)
             segmentation = "speech_start"
             d = {
             "pattern": pattern_digest,
