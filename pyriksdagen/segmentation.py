@@ -63,6 +63,46 @@ def _is_metadata_block(txt0):
     # TODO: replace with ML algorithm
     return float(len1) / float(len0) < 0.85 and len0 < 150
 
+def detect_speaker(matched_txt, minister_db, date=None):
+    """
+    Detect the speaker of the house
+    """
+    lower_txt = matched_txt.lower()
+
+    # Only match if minister is mentioned in intro
+    if "talman" in lower_txt:
+        dbrows = list(minister_db.iterrows())
+        talman = []
+        # herr TALMANNEN
+        for ix, row in dbrows:
+            lastname = row["name"].upper().split()[-1].strip()
+            #print(lastname)
+            if lastname in matched_txt:
+                if date is None:
+                    talman.append(row["id"])
+                elif date > row["start"] and date < row["end"]:
+                    talman.append(row["id"])
+                else:
+                    print("lastname", lastname, date, row["start"])
+
+        """
+        # herr Talmannen
+        if len(talman) == 0:
+            for ix, row in dbrows:
+                lastname = row["name"].split()[-1].strip()
+
+                # Preliminary check for performance reasons
+                if lastname in matched_txt:                
+                    # Check that the whole name exists as a word
+                    # So that 'Lind' won't be matched for 'Lindgren'
+                    matched_split = re.sub(r'[^A-Za-zÀ-ÿ /-]+', "", matched_txt)
+                    matched_split = matched_split.split()
+                    if lastname in matched_split:
+                        talman.append(row["id"])
+        """
+        if len(talman) >= 1:
+            return talman[0]
+
 def detect_minister(matched_txt, minister_db, date=None):
     lower_txt = matched_txt.lower()
 
