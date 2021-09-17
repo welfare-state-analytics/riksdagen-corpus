@@ -7,7 +7,7 @@ import re
 import seaborn as sns
 from matplotlib import pyplot as plt
 
-root = ""#"../"
+root = ""  # "../"
 pc_folder = root + "corpus/"
 folders = os.listdir(pc_folder)
 
@@ -18,7 +18,11 @@ for outfolder in progressbar.progressbar(folders):
     if os.path.isdir(pc_folder + outfolder):
         outfolder = outfolder + "/"
         protocol_ids = os.listdir(pc_folder + outfolder)
-        protocol_ids = [protocol_id.replace(".xml", "") for protocol_id in protocol_ids if protocol_id.split(".")[-1] == "xml"]
+        protocol_ids = [
+            protocol_id.replace(".xml", "")
+            for protocol_id in protocol_ids
+            if protocol_id.split(".")[-1] == "xml"
+        ]
 
         for protocol_id in protocol_ids:
             metadata = infer_metadata(protocol_id)
@@ -26,8 +30,11 @@ for outfolder in progressbar.progressbar(folders):
             root = etree.parse(filename, parser).getroot()
 
             year = metadata["year"]
-            #print(year, type(year))
-            years = [int(elem.attrib.get("when").split("-")[0]) for elem in root.findall(".//{http://www.tei-c.org/ns/1.0}docDate")]
+            # print(year, type(year))
+            years = [
+                int(elem.attrib.get("when").split("-")[0])
+                for elem in root.findall(".//{http://www.tei-c.org/ns/1.0}docDate")
+            ]
 
             if not year in years:
                 year = years[0]
@@ -42,7 +49,7 @@ for outfolder in progressbar.progressbar(folders):
                             d = word_freqs.get(year)
                             d[wd] = d.get(wd, 0) + 1
 
-#print(word_freqs)   
+# print(word_freqs)
 
 rows = []
 for year, d in word_freqs.items():
@@ -63,8 +70,6 @@ df.index = df["year"]
 
 df = df.drop("year", axis=1)
 sns.set_theme()
-sns.lineplot(
-    data=df
-    )
+sns.lineplot(data=df)
 
 plt.show()

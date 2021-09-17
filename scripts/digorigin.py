@@ -21,7 +21,7 @@ for folder in sorted(folders):
     files = sorted(os.listdir(folder))
 
     print(folder)
-    
+
     for fpath in progressbar.progressbar(files):
         html_path = folder + "/" + fpath
         xml_path = folder + "-xml/" + fpath.replace(".html", ".xml")
@@ -29,26 +29,28 @@ for folder in sorted(folders):
         if root is None:
             if os.path.exists(xml_path):
                 root = get_xml_blocks(xml_path, html_path)
-        
+
         if root is not None:
             protocol_id = root.attrib["id"]
             metadata = infer_metadata(protocol_id)
-            
-            root_str = etree.tostring(root, encoding="utf-8", pretty_print=True).decode("utf-8")
-            
+
+            root_str = etree.tostring(root, encoding="utf-8", pretty_print=True).decode(
+                "utf-8"
+            )
+
             if not os.path.exists(outfolder + protocol_id):
                 os.mkdir(outfolder + protocol_id)
-                
+
             f = open(outfolder + protocol_id + "/original.xml", "w")
             f.write(root_str)
             f.close()
-            
+
             row = [protocol_id, metadata["year"], None, metadata["number"]]
-            
+
             # Set pages to 1 if there is content
             if len("".join(root.itertext())) >= 10:
-                 row[2] = 1
-            
+                row[2] = 1
+
             rows.append(row)
 
 

@@ -1,7 +1,8 @@
 import pandas as pd
 from lxml import etree
 
-def main(samplepath, folder = "corpus/"):
+
+def main(samplepath, folder="corpus/"):
     TEI = "{http://www.tei-c.org/ns/1.0}"
     sample = pd.read_csv(samplepath)
     sample["path"] = "corpus/" + sample["package_id"].str.split("-").str[1] + "/"
@@ -21,7 +22,7 @@ def main(samplepath, folder = "corpus/"):
 
             for elem in div:
                 if elem.tag == TEI + "pb":
-                    #print(elem)
+                    # print(elem)
                     if elem.attrib.get("n") == str(page):
                         current_page = True
                     elif current_page == True:
@@ -39,21 +40,24 @@ def main(samplepath, folder = "corpus/"):
         return whos
 
     sample["unknowns"] = sample.apply(lambda row: no_of_intros(row), axis=1)
-    sample["knowns"] = sample.apply(lambda row: no_of_intros(row, unknown=False), axis=1)
+    sample["knowns"] = sample.apply(
+        lambda row: no_of_intros(row, unknown=False), axis=1
+    )
     sample["year"] = sample["path"].str.split("/").str[1]
     sample["year"] = sample["year"].str[:4].astype(int)
+
     def decade(df, ind):
         year = df["year"].loc[ind]
         return (year // 10) * 10
 
-
-    by_decade = sample.groupby(lambda x: decade(sample, x) )
+    by_decade = sample.groupby(lambda x: decade(sample, x))
     print(by_decade["unknowns"].sum())
     print(by_decade["knowns"].sum())
 
     full = sample[["unknowns", "knowns"]].sum()
     print(full)
-    #print("SPEAKERS:", sample.groupby("year")["unknowns"].sum())
+    # print("SPEAKERS:", sample.groupby("year")["unknowns"].sum())
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main("largesample.csv")

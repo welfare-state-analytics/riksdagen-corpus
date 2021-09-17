@@ -35,7 +35,7 @@ mp_db = add_municipality(mp_db, mun_db)
 
 print(mp_db)
 
-id_duplicates = mp_db.duplicated(subset=['id'])
+id_duplicates = mp_db.duplicated(subset=["id"])
 
 print(mp_db[id_duplicates == True])
 print(mp_db)
