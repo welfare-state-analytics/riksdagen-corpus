@@ -1,8 +1,10 @@
+from pyparlaclarin.refine import (
+    format_texts,
+)
 from pyriksdagen.db import filter_db, load_patterns
 from pyriksdagen.refine import (
     detect_mps,
     find_introductions,
-    format_texts,
     update_ids,
     update_hashes,
 )
@@ -20,6 +22,7 @@ def main(args):
     folders = os.listdir(pc_folder)
 
     mp_db = pd.read_csv(root + "corpus/members_of_parliament.csv")
+    minister_db = pd.read_csv(root + "corpus/ministers.csv", parse_dates=True)
 
     parser = etree.XMLParser(remove_blank_text=True)
     for outfolder in progressbar.progressbar(folders):
@@ -63,7 +66,7 @@ def main(args):
                     pattern_db = pattern_db[
                         (pattern_db["start"] <= year) & (pattern_db["end"] >= year)
                     ]
-                    root = find_introductions(root, pattern_db, names_ids)
+                    root = find_introductions(root, pattern_db, names_ids, minister_db=minister_db)
                     root = update_ids(root, protocol_id)
                     # root = detect_mps(root,names_ids,pattern_db)
                     root = format_texts(root)

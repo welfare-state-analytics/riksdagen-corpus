@@ -12,8 +12,10 @@ import pandas as pd
 import os, progressbar, argparse
 from datetime import datetime
 
-# Parse datetimes with special error handling
 def parse_date(s):
+    """
+    Parse datetimes with special error handling
+    """
     try:
         return datetime.strptime(s, "%Y-%m-%d")
 

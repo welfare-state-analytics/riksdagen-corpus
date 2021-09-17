@@ -1,5 +1,6 @@
+from pyparlaclarin.refine import reclassify, format_texts, random_classifier
+
 from pyriksdagen.db import filter_db, load_patterns
-from pyriksdagen.refine import reclassify, format_texts, random_classifier
 from pyriksdagen.utils import infer_metadata
 from lxml import etree
 import pandas as pd

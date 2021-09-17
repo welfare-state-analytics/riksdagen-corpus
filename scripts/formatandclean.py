@@ -1,8 +1,10 @@
+from pyparlaclarin.refine import (
+    format_texts,
+)
 from pyriksdagen.db import filter_db, load_patterns
 from pyriksdagen.refine import (
     detect_mps,
     find_introductions,
-    format_texts,
     update_ids,
     update_hashes,
 )
