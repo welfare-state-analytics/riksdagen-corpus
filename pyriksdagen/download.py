@@ -166,7 +166,7 @@ def dl_kb_blocks(package_id, archive):
     """
     Download protocol from betalab, convert it to the simple XML 'blocks' schema
     """
-    package = archive.get(protocol_id)
+    package = archive.get(package_id)
     root = etree.Element("protocol", id=package_id)
     for ix, fname in enumerate(fetch_files(package)):
         s = package.get_raw(fname).read()
@@ -302,81 +302,6 @@ def fetch_files(package, extension="xml"):
     filelist = sorted(filelist)
 
     return filelist
-
-
-def generate_sets(decade, interval=10, set_size=2, txt_dir=None):
-    """
-    Generate train and test sets to be annotated for curation and segmentation.
-    These test sets are saved in input/curation
-    """
-    # Read pages dataframe, filter relevant data and sort
-    total = 2 * set_size
-    pages = pd.read_csv("input/protocols/pages.csv")
-    pages_decade = pages[
-        (pages["year"] >= decade) & (pages["year"] < decade + interval)
-    ]
-    pages_decade = pages_decade.sort_values("ordinal")
-    pages_decade = pages_decade.head(n=total)
-    pages_decade = pages_decade.reset_index()
-
-    print(pages_decade)
-
-    # Create folder for the decennium
-    outfolder = "input/curation/" + str(decade) + "-" + str(decade + interval - 1) + "/"
-    _create_dirs(outfolder)
-
-    # Ask for credentials and establish connection
-    archive = login_to_archive()
-
-    for ix, row in pages_decade.iterrows():
-        package_id = row["package_id"]
-        pagenumber = row["pagenumber"]
-        print(ix, package_id, pagenumber)
-
-        # Create folder for either train or test set
-        folder = "train/"
-        if ix % 2 == 1:
-            folder = "test/"
-        folder = outfolder + folder
-        ix = ix // 2
-
-        path = folder + str(ix) + "/"
-        if not os.path.exists(path):
-            print("Create folder", path)
-            os.mkdir(path)
-
-        # Write info.yaml
-        info = open(path + "info.yaml", "w")
-        info.write("package_id: " + package_id + "\n")
-        info.write("pagenumber: " + str(pagenumber) + "\n")
-        info.close()
-
-        # Create empty original.txt and annotated.txt files
-        original = open(path + "original.txt", "w")
-        annotated = open(path + "annotated.txt", "w")
-        original.close()
-        annotated.close()
-
-        # Download jp2 file and save it to disk
-        package = archive.get(package_id)
-        jp2list = fetch_files(package, extension="jp2")
-        jp2numbers = [int(f.split(".")[-2].split("-")[-1]) for f in jp2list]
-
-        index = jp2numbers.index(pagenumber)
-        jp2file = jp2list[index]
-        imagedata = package.get_raw(jp2file).read()
-
-        jp2out = open(path + "image.jp2", "wb")
-        jp2out.write(imagedata)
-        jp2out.close()
-
-        if txt_dir is not None:
-            txt_filename = jp2file.split("-")[0] + ".txt"
-            txt = open(txt_dir + txt_filename).read()
-
-            txtout = open(path + txt_filename, "w")
-            txtout.write(txt)
-            txtout.close()
 
 
 def _get_seed(string):

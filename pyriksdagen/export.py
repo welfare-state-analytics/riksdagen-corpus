@@ -4,39 +4,11 @@ Parla Clarin generation
 import pandas as pd
 import progressbar, copy
 from lxml import etree
-from pyparlaclarin import pc_header
+from pyparlaclarin.create import pc_header, create_parlaclarin
 
 from .utils import infer_metadata
 from .download import get_blocks, fetch_files
-from .curation import apply_curations
-from .segmentation import apply_instances
 from .db import filter_db, year_iterator
-
-
-def create_parlaclarin(teis, metadata):
-    if type(teis) != list:
-        tei = teis
-        return create_parlaclarin([tei], metadata)
-
-    teiCorpus = etree.Element("teiCorpus", xmlns="http://www.tei-c.org/ns/1.0")
-    teiHeader = pc_header(metadata)
-    teiCorpus.append(teiHeader)
-
-    for tei in teis:
-        teiCorpus.append(tei)
-
-    teiCorpusTree = etree.ElementTree(teiCorpus)
-
-    for xml_element in teiCorpusTree.iter():
-        content = xml_element.xpath("normalize-space()")
-
-        if not content and len(xml_element.attrib) == 0:
-            xml_element.getparent().remove(xml_element)
-
-    s = etree.tostring(
-        teiCorpusTree, pretty_print=True, encoding="utf-8", xml_declaration=True
-    ).decode("utf-8")
-    return s
 
 
 def create_tei(root, metadata):
@@ -47,6 +19,7 @@ def create_tei(root, metadata):
         txts: a list of lists of strings, corresponds to content blocks and paragraphs, respectively.
         metadata: Metadata of the parliamentary session
     """
+    # TODO: Rewrite completely
     metadata = copy.deepcopy(metadata)
 
     tei = etree.Element("TEI")
@@ -106,7 +79,6 @@ def create_tei(root, metadata):
 
         content_txt = "\n".join(content_block.itertext())
         is_empty = content_txt == ""
-        cb_ix = content_block.attrib["id"]
         segmentation = content_block.attrib.get("segmentation", None)
         if segmentation == "metadata":
             if prev_u is None:
@@ -186,15 +158,9 @@ def create_tei(root, metadata):
                             u.attrib["prev"] = "cont"
                             seg = etree.SubElement(u, "seg")
                             seg.text = paragraph
-                            note.attrib[
-                                "{http://www.w3.org/XML/1998/namespace}id"
-                            ] = textblock.attrib.get("id", None)
                         else:
                             note = etree.SubElement(body_div, "note")
                             note.text = paragraph
-                            note.attrib[
-                                "{http://www.w3.org/XML/1998/namespace}id"
-                            ] = textblock.attrib.get("id", None)
     return tei
 
 
@@ -214,8 +180,6 @@ def gen_parlaclarin_corpus(
         pages = package["pages"]
         metadata = infer_metadata(protocol_id)
         protocol = get_blocks(protocol_id, archive)
-        protocol = apply_curations(protocol, curation_db)
-        protocol = apply_instances(protocol, instance_db)
         tei = create_tei(protocol, metadata)
         teis.append(tei)
 
@@ -254,8 +218,8 @@ def parlaclarin_workflow_individual(
 ):
     for corpus_year, package_ids, year_db in year_iterator(file_db):
         print("Generate corpus for year", corpus_year)
-        current_instances = pd.merge(segmentations, year_db, on=["protocol_id"])
-        current_curations = pd.merge(curations, year_db, on=["protocol_id"])
+        current_instances = None
+        current_curations = None
 
         corpus_metadata = dict(
             document_title="Riksdagens protocols " + str(corpus_year),

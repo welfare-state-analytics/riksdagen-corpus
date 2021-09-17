@@ -57,7 +57,7 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None):
     return root
 
 
-def find_introductions(root, pattern_db, names_ids):
+def find_introductions(root, pattern_db, names_ids, minister_db=None):
     """
     Find instances of curation patterns in all files in a folder.
 
@@ -79,7 +79,7 @@ def find_introductions(root, pattern_db, names_ids):
             u_parent.text = None
             for seg in list(elem):
                 if type(seg.text) == str:
-                    introduction = detect_introduction(seg.text, expressions, names_ids)
+                    introduction = detect_introduction(seg.text, expressions, names_ids, minister_db=minister_db)
                     if introduction is not None:
                         pass  # print("NEW", seg.text)
                         seg.tag = "{http://www.tei-c.org/ns/1.0}note"
@@ -125,7 +125,7 @@ def find_introductions(root, pattern_db, names_ids):
             # if not elem.attrib.get("type", None) == "speaker":
             if type(elem.text) == str:
 
-                introduction = detect_introduction(elem.text, expressions, names_ids)
+                introduction = detect_introduction(elem.text, expressions, names_ids, minister_db=minister_db)
 
                 if introduction is not None:
                     if not elem.attrib.get("type", None) == "speaker":
@@ -168,6 +168,9 @@ def find_introductions(root, pattern_db, names_ids):
 
 
 def detect_date(root, protocol_year):
+    """
+    Detect notes with dates in them. Update docDate metadata accordingly.
+    """
     month_numbers = dict(
         januari=1,
         februari=2,
@@ -258,6 +261,9 @@ def detect_date(root, protocol_year):
 
 
 def update_ids(root, protocol_id):
+    """
+    Update element id's
+    """
     ids = set()
     xml_id = "{http://www.w3.org/XML/1998/namespace}id"
     for tag, elem in elem_iter(root):
