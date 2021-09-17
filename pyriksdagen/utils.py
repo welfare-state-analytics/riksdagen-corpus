@@ -13,6 +13,25 @@ import pandas as pd
 import hashlib
 
 
+def elem_iter(root, ns="{http://www.tei-c.org/ns/1.0}"):
+    for body in root.findall(".//" + ns + "body"):
+        for div in body.findall(ns + "div"):
+            for ix, elem in enumerate(div):
+                if elem.tag == ns + "u":
+                    yield "u", elem
+                elif elem.tag == ns + "note":
+                    yield "note", elem
+                elif elem.tag == ns + "pb":
+                    yield "pb", elem
+                elif elem.tag == ns + "seg":
+                    yield "seg", elem
+                elif elem.tag == "u":
+                    elem.tag = ns + "u"
+                    yield "u", elem
+                else:
+                    print(elem.tag)
+                    yield None
+
 def infer_metadata(filename):
     metadata = dict()
     filename = filename.replace("-", "_")
