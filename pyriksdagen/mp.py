@@ -8,6 +8,7 @@ import progressbar
 import hashlib
 import unicodedata
 
+
 def create_database(path):
     extension = path.split(".")[-1]
 
@@ -21,34 +22,34 @@ def create_database(path):
         for column_name, null in nulls:
             if null:
                 del df[column_name]
-        
+
         new_columns = list(df.columns)
         for column_ix, column_name in enumerate(df.columns):
             if "." in column_name:
                 new_name = column_name.split(".")[0]
                 new_columns[column_ix] = new_name
-        
+
         df.columns = new_columns
-        
+
     elif extension == "txt":
         print("Read:", path)
         f = open(path)
         columns = ["Riksdagsledamot", "Parti", "Valkrets"]
-        
+
         rows = []
         lan = None
         for line in f:
             line = line.replace("\n", "")
             if len(line) > 2:
                 indented = line[:4] == "    "
-                
+
                 # Non-indented lines are titles, which correspond to 'län' / region
                 if not indented:
                     lan = line
                 else:
                     row = line.split(",")
                     row = [x.strip() for x in row]
-                    
+
                     datapoint = []
                     # Add name
                     name = row[0]
@@ -56,8 +57,8 @@ def create_database(path):
                     # Add party
                     possible_parties = [s for s in row if "f." not in s]
                     party = possible_parties[-1]
-                    party = re.sub(r'\(.*?\)', '', party)
-                    party = re.sub(r'\[.*?\]', '', party).strip()
+                    party = re.sub(r"\(.*?\)", "", party)
+                    party = re.sub(r"\[.*?\]", "", party).strip()
                     if len(party) < 4 or party.lower() != party:
                         datapoint.append(party)
                     else:
@@ -66,11 +67,11 @@ def create_database(path):
                     datapoint.append(lan)
                     rows.append(datapoint)
 
-        df = pd.DataFrame(rows, columns = columns)
+        df = pd.DataFrame(rows, columns=columns)
     else:
         print("File type not supported.", path)
         return None
-    
+
     # Harmonize column names
     new_columns = list(df.columns)
     for column_ix, column_name in enumerate(df.columns):
@@ -84,13 +85,13 @@ def create_database(path):
             new_columns[column_ix] = "district"
 
     df.columns = new_columns
-    
+
     # Drop unnecessary columns
     retain = ["name", "party", "district", "occupation"]
     for column_name in df.columns:
         if column_name not in retain:
             del df[column_name]
-    
+
     # Chamber
     chamber = "Enkammarriksdagen"
     potential_chamber = path.split("/")[-2]
@@ -99,7 +100,7 @@ def create_database(path):
     elif potential_chamber == "fk":
         chamber = "Första kammaren"
     df["chamber"] = chamber
-    
+
     # Year in office
     year_str = path.split("/")[-1].split(".")[0].replace("–­­", "-")
     if len(year_str) == 9:
@@ -116,8 +117,9 @@ def create_database(path):
             df["end"] = int(year_str)
     else:
         print(year_str)
-    
+
     return df
+
 
 def create_full_database(dirs):
     mp_dbs = []
@@ -128,10 +130,18 @@ def create_full_database(dirs):
             if mp_db is not None:
                 mp_dbs.append(mp_db)
     mp_db = pd.concat(mp_dbs)
-    
+
     mp_db = mp_db.sort_values(by=["start", "chamber", "name"], ignore_index=True)
 
-    columnsTitles = ['name' , 'party', 'district', 'chamber', 'start', 'end', 'occupation']
+    columnsTitles = [
+        "name",
+        "party",
+        "district",
+        "chamber",
+        "start",
+        "end",
+        "occupation",
+    ]
     mp_db = mp_db.reindex(columns=columnsTitles)
 
     mp_db = mp_db[mp_db["name"].notnull()]
@@ -140,6 +150,7 @@ def create_full_database(dirs):
     mp_db.start = mp_db.start.astype(int)
     mp_db.end = mp_db.end.astype(int)
     return mp_db
+
 
 def add_gender(mp_db, names):
     print("Add gender...")
@@ -160,9 +171,10 @@ def add_gender(mp_db, names):
         if "-" in first_name:
             first_name = first_name.split("-")[0]
         if first_name in name_to_gender:
-            mp_db.loc[i, 'gender'] = name_to_gender[first_name]
+            mp_db.loc[i, "gender"] = name_to_gender[first_name]
 
     return mp_db
+
 
 def clean_names(mp_db):
     print("Clean names...")
@@ -172,9 +184,9 @@ def clean_names(mp_db):
         if name != split_i[0]:
             name = split_i[0]
             if len(split_i) > 1:
-                mp_db.loc[i, 'specifier'] = "i " + split_i[1]
+                mp_db.loc[i, "specifier"] = "i " + split_i[1]
             else:
-                mp_db.loc[i, 'specifier'] = None
+                mp_db.loc[i, "specifier"] = None
         if "[" in name:
             name = name.split("[")[0]
         if "(er" in name:
@@ -183,9 +195,10 @@ def clean_names(mp_db):
             name = name.split("ersatt av:")[-1]
         name = name.strip()
         assert name != "", "names can't be empty: " + row["name"]
-        mp_db.loc[i, 'name'] = name
+        mp_db.loc[i, "name"] = name
 
     return mp_db
+
 
 def replace_party_abbreviations(mp_db, party_db):
     print("Replace party abbreviations...")
@@ -194,17 +207,17 @@ def replace_party_abbreviations(mp_db, party_db):
         party = row["party"]
         abbreviation = row["abbreviation"]
         party_dict[abbreviation] = party
-    
-    
+
     for i, row in progressbar.progressbar(list(mp_db.iterrows())):
         current_party = row["party"]
         if type(current_party) == str:
             # Check if 'party' attribute is in the list of abbreviations
             row_party = current_party.strip().lower()
             if row_party in party_dict:
-                mp_db.loc[i, 'party'] = party_dict[row_party]
-    
+                mp_db.loc[i, "party"] = party_dict[row_party]
+
     return mp_db
+
 
 def add_id(mp_db):
     print("Add id...")
@@ -229,14 +242,16 @@ def add_id(mp_db):
         pattern = "_".join(pattern).replace(" ", "_").lower()
 
         digest = hashlib.md5(pattern.encode("utf-8")).hexdigest()
-        mp_db.loc[i, 'id'] = name + "_" + digest[:6]
+        mp_db.loc[i, "id"] = name + "_" + digest[:6]
 
     return mp_db
+
 
 def add_municipality(mp_db, mun_db):
 
     original_columns = list(mp_db.columns)
     print("Add municipalicites from 'personregister'...")
+
     def reorder_name(name):
         s = name.split(",")
         if len(s) == 1:
@@ -244,13 +259,14 @@ def add_municipality(mp_db, mun_db):
         else:
             newname = s[1].strip() + " " + s[0].strip()
             return newname
+
     mun_db["name"] = mun_db["name"].apply(lambda n: reorder_name(n))
     mun_db = mun_db[mun_db["municipality"].notnull()]
     mun_db["municipality"].apply(lambda x: "i " + x.strip())
-    mun_db["decade"] = mun_db["decade"].apply(lambda decade: (decade // 10 ) * 10)
+    mun_db["decade"] = mun_db["decade"].apply(lambda decade: (decade // 10) * 10)
 
     outdfs = []
-    #mp_db["municipality"] = None
+    # mp_db["municipality"] = None
 
     start_min = min(set(mp_db["start"]))
     end_max = max(set(mp_db["end"]))
@@ -273,24 +289,29 @@ def add_municipality(mp_db, mun_db):
                     mpdbsplit = mpdb_name.split()
                     samefirst = namesplit[0] == mpdbsplit[0]
                     samelast = namesplit[-1] == mpdbsplit[-1]
-                    if samefirst and samelast and abs(len(namesplit) - len(mpdbsplit)) <= 1:
+                    if (
+                        samefirst
+                        and samelast
+                        and abs(len(namesplit) - len(mpdbsplit)) <= 1
+                    ):
                         return mpdb_name.strip()
                 return name.strip()
-
 
             replacedname = rname("Carl Wilhelm Höglund")
 
             print("Carl Wilhelm Höglund", "=>", replacedname, decade)
             current_mun_db["name"] = current_mun_db["name"].apply(lambda n: rname(n))
             merged = pd.merge(current_mpdb, current_mun_db, how="left", on="name")
-            merged.to_csv("merged_"+ str(decade) + ".csv", index = False)
+            merged.to_csv("merged_" + str(decade) + ".csv", index=False)
 
             newnames = set(current_mun_db["name"])
             outdfs.append(merged)
-            print("Carl Wilhelm Oskar Höglund in newnames", "Carl Wilhelm Oskar Höglund" in newnames)
+            print(
+                "Carl Wilhelm Oskar Höglund in newnames",
+                "Carl Wilhelm Oskar Höglund" in newnames,
+            )
         else:
             outdfs.append(current_mpdb)
-
 
     mp_db = pd.concat(outdfs)
     print(mp_db)
@@ -302,6 +323,7 @@ def add_municipality(mp_db, mun_db):
     mp_db = mp_db[original_columns]
     mp_db = mp_db.sort_values(by=["start", "chamber", "name"], ignore_index=True)
     return mp_db
+
 
 def detect_mp(introduction, metadata, mp_db):
     """
