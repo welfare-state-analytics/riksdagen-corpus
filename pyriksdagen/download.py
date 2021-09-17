@@ -5,7 +5,7 @@ import kblab
 import progressbar
 from PyPDF2 import PdfFileReader, PdfFileWriter
 from lxml import etree
-from pyriksdagen.utils import read_html
+from .utils import read_html
 
 
 class LazyArchive:

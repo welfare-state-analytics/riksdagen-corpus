@@ -1,13 +1,13 @@
 from lxml import etree
-from pyriksdagen.segmentation import (
+import re, random, datetime
+from pyparlaclarin.read import element_hash
+from .segmentation import (
     detect_mp,
     detect_minister,
     expression_dicts,
     detect_introduction,
     classify_paragraph,
 )
-from pyriksdagen.utils import element_hash
-import re, random, datetime
 
 
 def _iter(root, ns="{http://www.tei-c.org/ns/1.0}"):

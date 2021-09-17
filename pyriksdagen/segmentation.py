@@ -9,10 +9,10 @@ import progressbar
 from os import listdir
 from os.path import isfile, join
 from lxml import etree
-from pyriksdagen.mp import detect_mp
-from pyriksdagen.download import get_blocks, fetch_files
-from pyriksdagen.utils import infer_metadata
-from pyriksdagen.db import filter_db, year_iterator
+from .mp import detect_mp
+from .download import get_blocks, fetch_files
+from .utils import infer_metadata
+from .db import filter_db, year_iterator
 
 # Classify paragraph
 def classify_paragraph(paragraph, classifier, prior=np.log([0.8, 0.2])):

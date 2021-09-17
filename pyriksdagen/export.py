@@ -4,48 +4,13 @@ Parla Clarin generation
 import pandas as pd
 import progressbar, copy
 from lxml import etree
-from pyriksdagen.utils import infer_metadata
-from pyriksdagen.download import get_blocks, fetch_files
-from pyriksdagen.curation import apply_curations
-from pyriksdagen.segmentation import apply_instances
-from pyriksdagen.db import filter_db, year_iterator
+from pyparlaclarin import pc_header
 
-# Generate parla clarin header
-def _pc_header(metadata):
-    teiHeader = etree.Element("teiHeader")
-
-    # fileDesc
-    fileDesc = etree.SubElement(teiHeader, "fileDesc")
-
-    titleStmt = etree.SubElement(fileDesc, "titleStmt")
-    title = etree.SubElement(titleStmt, "title")
-    title.text = metadata.get("document_title", "N/A")
-
-    if "edition" in metadata:
-        editionStmt = etree.SubElement(fileDesc, "editionStmt")
-        edition = etree.SubElement(editionStmt, "edition")
-        edition.text = metadata.get("edition", "N/A")
-
-    extent = etree.SubElement(fileDesc, "extent")
-    publicationStmt = etree.SubElement(fileDesc, "publicationStmt")
-    authority = etree.SubElement(publicationStmt, "authority")
-    authority.text = metadata.get("authority", "N/A")
-
-    sourceDesc = etree.SubElement(fileDesc, "sourceDesc")
-    sourceBibl = etree.SubElement(sourceDesc, "bibl")
-    sourceTitle = etree.SubElement(sourceBibl, "title")
-    sourceTitle.text = metadata.get("document_title", "N/A")
-
-    # encodingDesc
-    encodingDesc = etree.SubElement(teiHeader, "encodingDesc")
-    editorialDecl = etree.SubElement(encodingDesc, "editorialDecl")
-    correction = etree.SubElement(editorialDecl, "correction")
-    correction_p = etree.SubElement(correction, "p")
-    correction_p.text = metadata.get(
-        "correction", "No correction of source texts was performed."
-    )
-
-    return teiHeader
+from .utils import infer_metadata
+from .download import get_blocks, fetch_files
+from .curation import apply_curations
+from .segmentation import apply_instances
+from .db import filter_db, year_iterator
 
 
 def create_parlaclarin(teis, metadata):
@@ -54,7 +19,7 @@ def create_parlaclarin(teis, metadata):
         return create_parlaclarin([tei], metadata)
 
     teiCorpus = etree.Element("teiCorpus", xmlns="http://www.tei-c.org/ns/1.0")
-    teiHeader = _pc_header(metadata)
+    teiHeader = pc_header(metadata)
     teiCorpus.append(teiHeader)
 
     for tei in teis:
@@ -89,7 +54,7 @@ def create_tei(root, metadata):
     metadata["document_title"] = (
         protocol_id.replace("_", " ").split("-")[0].replace("prot", "Protokoll")
     )
-    documentHeader = _pc_header(metadata)
+    documentHeader = pc_header(metadata)
     tei.append(documentHeader)
 
     text = etree.SubElement(tei, "text")

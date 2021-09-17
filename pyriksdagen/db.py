@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-from pyriksdagen.utils import infer_metadata
+from .utils import infer_metadata
 import progressbar
 
 
