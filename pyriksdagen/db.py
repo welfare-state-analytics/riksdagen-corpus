@@ -19,23 +19,6 @@ def year_iterator(file_db):
         yield corpus_year, package_ids, year_db
 
 
-def _db_location(protocol_id=None, year=None, phase="segmentation"):
-    if protocol_id is None and year is None:
-        return None
-
-    if protocol_id is not None:
-        metadata = infer_metadata(protocol_id)
-        year = metadata["year"]
-    year_str = str(year)
-    folder = "input/" + phase + "/instances/"
-    if not os.path.exists(folder):
-        os.mkdir(folder)
-    folder = folder + year_str + "/"
-    if not os.path.exists(folder):
-        os.mkdir(folder)
-    return folder
-
-
 def load_patterns(year=None, phase="segmentation"):
     """
     Load regex patterns from disk
