@@ -11,13 +11,43 @@ import sys, re, os
 from bs4 import BeautifulSoup
 import pandas as pd
 import hashlib
+from pathlib import Path
+
+
+def elem_iter(root, ns="{http://www.tei-c.org/ns/1.0}"):
+    """
+    Return an iterator of the elements (utterances, notes, segs, pbs) in a protocol body
+    """
+    for body in root.findall(".//" + ns + "body"):
+        for div in body.findall(ns + "div"):
+            for ix, elem in enumerate(div):
+                if elem.tag == ns + "u":
+                    yield "u", elem
+                elif elem.tag == ns + "note":
+                    yield "note", elem
+                elif elem.tag == ns + "pb":
+                    yield "pb", elem
+                elif elem.tag == ns + "seg":
+                    yield "seg", elem
+                elif elem.tag == "u":
+                    elem.tag = ns + "u"
+                    yield "u", elem
+                else:
+                    print(elem.tag)
+                    yield None
+
 
 def infer_metadata(filename):
+    """
+    Heuristically infer metadata from a protocol id or filename.
+
+    Returns a dict with keys "protocol", "chamber", "year", and "number"
+    """
     metadata = dict()
     filename = filename.replace("-", "_")
     metadata["protocol"] = filename.split("/")[-1].split(".")[0]
     split = filename.split("/")[-1].split("_")
-    
+
     # Year
     for s in split:
         s = s[:4]
@@ -32,58 +62,14 @@ def infer_metadata(filename):
         metadata["chamber"] = "Andra kammaren"
     elif "_fk_" in filename:
         metadata["chamber"] = "Första kammaren"
-    
+
     try:
         metadata["number"] = int(split[-1])
     except:
-        print("Number parsing unsuccesful", filename)
-        
+        pass  # print("Number parsing unsuccesful", filename)
+
     return metadata
 
-def element_hash(elem, protocol_id="", chars=16):
-    """
-    Calculate a deterministic hash for an XML element
-    """
-    # The hash seed consists of 
-    # 1. Element text without line breaks
-    elem_text = elem.text
-    if elem_text is None:
-        elem_text = ""
-    elem_text = elem_text.strip().replace("\n", " ")
-    elem_text = ' '.join(elem_text.split())
-    # 2. The element tag
-    elem_tag = elem.tag
-    # 3. The element attributes in alphabetical order,
-    # excluding the XML ID and XML n
-    xml_id = "{http://www.w3.org/XML/1998/namespace}id"
-    xml_n = "{http://www.w3.org/XML/1998/namespace}n"
-    n = "n"
-    excluded = [xml_id, xml_n, n, "prev", "next"]
-    elem_attrib = {key: value for key, value in elem.attrib.items() if key not in excluded}
-    elem_attrib = str(sorted(elem_attrib.items()))
-    seed = protocol_id + "\n" + elem_text + "\n" + elem_tag + "\n" + elem_attrib
-    encoded_seed = seed.encode("utf-8")
-    # Finally, the hash is calculated via MD5
-    digest = hashlib.md5(encoded_seed).hexdigest()
-    return digest[:chars]
-
-def _clean_html(raw_html):
-    # Clean the HTML code in the Riksdagen XML text format
-    raw_html = raw_html.replace("\n", " NEWLINE ")
-    cleanr = re.compile('<.*?>')
-    cleantext = re.sub(cleanr, '', raw_html)
-    cleantext = cleantext.replace(" NEWLINE ", "\n")
-    return cleantext
-
-def read_riksdagen_xml(path):
-    """
-    Read Riksdagen XML text format and return a tuple
-    consisting of an etree of , as well as the HTML
-    inside the text element
-    """
-    # TODO: implement
-
-    xml, cleaned_html
 
 def read_html(path):
     """
@@ -94,8 +80,12 @@ def read_html(path):
     f.close()
     pretty_html = soup.prettify()
     return etree.fromstring(pretty_html)
-    
+
+
 def validate_xml_schema(xml_path, schema_path):
+    """
+    Validate an XML file against a schema.
+    """
     xml_file = lxml.etree.parse(xml_path)
 
     schema = lxml.etree.XMLSchema(file=schema_path)
@@ -104,44 +94,21 @@ def validate_xml_schema(xml_path, schema_path):
     return is_valid
 
 
-def parlaclarin_to_md(tree):
+def protocol_iterators(corpus_root, start=None, end=None):
     """
-    Convert Parla-Clarin XML to markdown. Returns a string.
+    Returns an iterator of protocol paths in a corpus.
     """
-    return ""
+    folder = Path(corpus_root)
+    for protocol in sorted(folder.glob("**/*.xml")):
+        path = protocol.relative_to(".")
+        assert (start is None) == (
+            end is None
+        ), "Provide both start and end year or neither"
+        if start is not None and end is not None:
+            metadata = infer_metadata(protocol.name)
 
-def parlaclarin_to_txt(tree):
-    """
-    Convert Parla-Clarin XML to plain text. Returns a string.
-    """
-    segments = tree.findall('.//seg')
+            if start - 1 <= metadata["year"] and end + 1 >= metadata["year"]:
+                yield protocol.relative_to(".")
 
-    for segment in segments:
-        etree.strip_tags(segment, 'seg')
-        #print(type(segment))
-    #return 
-    segment_txts = [etree.tostring(segment, pretty_print=True, encoding="UTF-8").decode("utf-8") for segment in segments]
-    segment_txts = [txt.replace("<seg>", "").replace("</seg>", "") for txt in segment_txts]
-
-    print(segment_txts[0])
-    print(type(segment_txts[0]))
-
-    return "\n".join(segment_txts)
-
-def speeches_with_name(tree, name):
-    """
-    Convert Parla-Clarin XML to plain text. Returns a string.
-    """
-    us = tree.findall('.//u')
-
-    texts = []
-    for u in us:
-        if name.lower() in u.attrib['who'].lower():
-            text = etree.tostring(u, pretty_print=True, encoding="UTF-8").decode("utf-8")
-            texts.append(text)
-        #print(type(segment))
-    return texts
-
-if __name__ == '__main__':
-    validate_parla_clarin_example()
-    #update_test()
+        else:
+            yield protocol.relative_to(".")

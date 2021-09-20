@@ -1,11 +1,16 @@
+"""
+Run the classification into utterances and notes.
+"""
+from pyparlaclarin.refine import reclassify, format_texts, random_classifier
+
 from pyriksdagen.db import filter_db, load_patterns
-from pyriksdagen.refine import reclassify, format_texts, random_classifier
 from pyriksdagen.utils import infer_metadata
 from lxml import etree
 import pandas as pd
 import os, progressbar, sys
 
 parser = etree.XMLParser(remove_blank_text=True)
+
 
 def reclassify_protocol(folder, protocol_id):
     metadata = infer_metadata(protocol_id)
@@ -20,13 +25,16 @@ def reclassify_protocol(folder, protocol_id):
     f.write(b)
     f.close()
 
+
 def main(args):
     pc_folder = "corpus/"
     if len(args) >= 2:
         for filename in args[1:]:
             folder = "/".join(filename.split("/")[:-1]) + "/"
             protocol_id = filename.split("/")[-1].replace(".xml", "")
-            assert filename == folder + protocol_id + ".xml", folder + protocol_id + ".xml"
+            assert filename == folder + protocol_id + ".xml", (
+                folder + protocol_id + ".xml"
+            )
             reclassify_protocol(folder, protocol_id)
 
     else:
@@ -35,12 +43,16 @@ def main(args):
             if os.path.isdir(pc_folder + outfolder):
                 outfolder = outfolder + "/"
                 protocol_ids = os.listdir(pc_folder + outfolder)
-                protocol_ids = [protocol_id.replace(".xml", "") for protocol_id in protocol_ids if protocol_id.split(".")[-1] == "xml"]
+                protocol_ids = [
+                    protocol_id.replace(".xml", "")
+                    for protocol_id in protocol_ids
+                    if protocol_id.split(".")[-1] == "xml"
+                ]
 
                 for protocol_id in protocol_ids:
                     reclassify_protocol(pc_folder + outfolder, protocol_id)
-                
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     args = sys.argv
     main(args)

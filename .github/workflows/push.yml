@@ -25,6 +25,7 @@ jobs:
         pip install kblab-client
         pip install PyPDF2
         pip install progressbar2
+        pip install pyparlaclarin
     - name: Test with unittest
       run: |
         python -m unittest test.schemas

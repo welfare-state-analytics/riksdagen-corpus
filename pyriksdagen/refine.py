@@ -1,40 +1,26 @@
 from lxml import etree
-from pyriksdagen.segmentation import detect_mp, detect_minister, expression_dicts, detect_introduction, classify_paragraph
-from pyriksdagen.utils import element_hash
 import re, random, datetime
+from pyparlaclarin.read import element_hash
+from .utils import elem_iter
+from .segmentation import (
+    detect_mp,
+    detect_minister,
+    expression_dicts,
+    detect_introduction,
+    classify_paragraph,
+)
 
-def _iter(root, ns="{http://www.tei-c.org/ns/1.0}"):
-    for body in root.findall(".//" + ns +"body"):
-        for div in body.findall(ns + "div"):
-            for ix, elem in enumerate(div):
-                if elem.tag == ns + "u":
-                    yield "u", elem
-                elif elem.tag == ns + "note":
-                    yield "note", elem
-                elif elem.tag == ns + "pb":
-                    yield "pb", elem
-                elif elem.tag == ns + "seg":
-                    yield "seg", elem
-                elif elem.tag == "u":
-                    elem.tag = ns + "u"
-                    yield "u", elem
-                else:
-                    print(elem.tag)
-                    yield None
 
-def random_classifier(paragraph):
-    alternatives = ["note", "u"]
-    return random.choice(alternatives)
-
-def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None):
+def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, date=None):
     """
     Re-detect MPs in a parla clarin protocol, based on the (updated)
     MP database.
     """
+    xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     current_speaker = None
     prev = None
 
-    for tag, elem in _iter(root):
+    for tag, elem in elem_iter(root):
         if tag == "u":
             # Deleting and adding attributes changes their order;
             # Mark as 'delete' instead and delete later
@@ -45,8 +31,8 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None):
                 if prev is None:
                     prev = elem
                 else:
-                    new_prev = prev.attrib["{http://www.w3.org/XML/1998/namespace}id"]
-                    new_next = elem.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+                    new_prev = prev.attrib[xml_ns + "id"]
+                    new_next = elem.attrib[xml_ns + "id"]
                     elem.set("prev", new_prev)
                     prev.set("next", new_next)
 
@@ -56,13 +42,13 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None):
         elif tag == "note":
             if elem.attrib.get("type", None) == "speaker":
                 if type(elem.text) == str:
-                    current_speaker = detect_minister(elem.text, minister_db)
+                    current_speaker = detect_minister(elem.text, minister_db, date=date)
                     if current_speaker is None:
                         current_speaker = detect_mp(elem.text, names_ids, mp_db=mp_db)
                     prev = None
 
-    # Do two loops to preserve attribute order 
-    for tag, elem in _iter(root):
+    # Do two loops to preserve attribute order
+    for tag, elem in elem_iter(root):
         if tag == "u":
             if elem.attrib.get("prev") == "delete":
                 del elem.attrib["prev"]
@@ -71,7 +57,8 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None):
 
     return root
 
-def find_introductions(root, pattern_db, names_ids):
+
+def find_introductions(root, pattern_db, names_ids, minister_db=None):
     """
     Find instances of curation patterns in all files in a folder.
 
@@ -80,12 +67,12 @@ def find_introductions(root, pattern_db, names_ids):
         folder: Folder of files to be searched.
     """
 
-    #return root
+    # return root
     root.text = None
     current_speaker = None
     expressions, manual = expression_dicts(pattern_db)
 
-    for ix, elem_tuple in enumerate(list(_iter(root))):
+    for ix, elem_tuple in enumerate(list(elem_iter(root))):
         tag, elem = elem_tuple
         if tag == "u":
             u = None
@@ -93,9 +80,11 @@ def find_introductions(root, pattern_db, names_ids):
             u_parent.text = None
             for seg in list(elem):
                 if type(seg.text) == str:
-                    introduction = detect_introduction(seg.text, expressions, names_ids)
+                    introduction = detect_introduction(
+                        seg.text, expressions, names_ids, minister_db=minister_db
+                    )
                     if introduction is not None:
-                        pass#print("NEW", seg.text)
+                        pass  # print("NEW", seg.text)
                         seg.tag = "{http://www.tei-c.org/ns/1.0}note"
                         seg.attrib["type"] = "speaker"
                         if u is not None:
@@ -104,7 +93,7 @@ def find_introductions(root, pattern_db, names_ids):
                             elem.addnext(seg)
 
                         u = etree.Element("{http://www.tei-c.org/ns/1.0}u")
-                        #u.text = None
+                        # u.text = None
                         if introduction["who"] is not None:
                             u.attrib["who"] = introduction["who"]
                         else:
@@ -122,12 +111,13 @@ def find_introductions(root, pattern_db, names_ids):
                             ix = seg.text.index(":")
 
                         if ix is not None:
-                            rest = seg.text[ix+1:]
-                            seg.text = seg.text[:ix+1]
-                            new_seg = etree.SubElement(u, "{http://www.tei-c.org/ns/1.0}seg")
+                            rest = seg.text[ix + 1 :]
+                            seg.text = seg.text[: ix + 1]
+                            new_seg = etree.SubElement(
+                                u, "{http://www.tei-c.org/ns/1.0}seg"
+                            )
                             new_seg.text = rest
 
-                        
                     elif u is not None:
                         u.append(seg)
                         u.text = None
@@ -135,10 +125,12 @@ def find_introductions(root, pattern_db, names_ids):
         elif tag == "note":
             parent = elem.getparent()
             parent.text = None
-            #if not elem.attrib.get("type", None) == "speaker":
+            # if not elem.attrib.get("type", None) == "speaker":
             if type(elem.text) == str:
 
-                introduction = detect_introduction(elem.text, expressions, names_ids)
+                introduction = detect_introduction(
+                    elem.text, expressions, names_ids, minister_db=minister_db
+                )
 
                 if introduction is not None:
                     if not elem.attrib.get("type", None) == "speaker":
@@ -155,10 +147,10 @@ def find_introductions(root, pattern_db, names_ids):
                         elif elem.text[-1] != ":" and ":" in elem:
                             ix = elem.text.index(":")
                         if ix is not None:
-                            rest = elem.text[ix+1:].strip()
+                            rest = elem.text[ix + 1 :].strip()
                             if len(rest) > 0:
                                 u = etree.Element("{http://www.tei-c.org/ns/1.0}u")
-                                #u.text = None
+                                # u.text = None
                                 if introduction["who"] is not None:
                                     u.attrib["who"] = introduction["who"]
                                 else:
@@ -166,112 +158,24 @@ def find_introductions(root, pattern_db, names_ids):
 
                                 elem.addnext(u)
 
-                                rest = elem.text[ix+1:]
-                                elem.text = elem.text[:ix+1]
+                                rest = elem.text[ix + 1 :]
+                                elem.text = elem.text[: ix + 1]
 
-                                new_seg = etree.SubElement(u, "{http://www.tei-c.org/ns/1.0}seg")
+                                new_seg = etree.SubElement(
+                                    u, "{http://www.tei-c.org/ns/1.0}seg"
+                                )
                                 new_seg.text = rest
 
                     else:
-                        pass#print("OLD", elem.text)
+                        pass  # print("OLD", elem.text)
 
     return root
 
-def reclassify(root, classifier, tei="{http://www.tei-c.org/ns/1.0}"):
-    prev_elem = None
-    for ix, elem_tuple in enumerate(list(_iter(root))):
-        tag, elem = elem_tuple
-
-        prev_elem = elem
-        if tag == "u":
-            for seg in elem:
-                paragraph = seg.text
-                c = classifier(paragraph)
-                if c != "u":
-                    print("Change u to note")
-                    prev_elem.addnext(seg)
-                    prev_elem = seg
-                    seg.tag = tei + c
-                elif prev_elem != elem:
-                    if prev_elem.tag == tei + "u":
-                        prev_elem.append(seg)
-                    else:
-                        new_elem = etree.Element(tei + "u")
-                        prev_elem.addnext(new_elem)
-                        prev_elem = new_elem
-                        prev_elem.append(seg)
-                else:
-                    pass
-
-        elif tag == "note":
-            paragraph = elem.text
-            c = classifier(paragraph)
-            if c != tag:                
-                if c == "u":
-                    elem.tag = tei + "seg"
-                    if prev_elem.tag == tei + "u":
-                        print("Change note to u")
-                    else:
-                        # Create new u node
-                        new_elem = etree.Element(tei + c)
-                        prev_elem.addnext(new_elem)
-                        prev_elem = new_elem
-
-                    prev_elem.append(elem)
-
-                else:
-                    prev_elem = elem
-                    elem.tag = tei + c
-            else:
-                prev_elem = elem
-        else:
-            prev_elem = elem
-    return root
-
-
-def format_paragraph(paragraph, spaces = 12):
-    words = paragraph.replace("\n", "").strip().split()
-    s = "\n" + " " * spaces
-    row = ""
-
-    for word in words:
-        if len(row) > 60:
-            s += row.strip() + "\n" + " " * spaces
-            row = word
-        else:
-            row += " " + word
-
-    if len(row.strip()) > 0:
-        s += row.strip() + "\n" + " " * (spaces - 2)
-
-    if s.strip() == "":
-        return None
-    return s
-
-def format_texts(root):
-    for tag, elem in _iter(root):
-
-        if type(elem.text) == str:
-            elem.text = format_paragraph(elem.text)
-        elif tag == "u":
-            if len(list(elem)) > 0:
-                for seg in elem:
-                    if type(seg.text) == str:
-                        seg.text = format_paragraph(seg.text, spaces=14)
-                    else:
-                        seg.text = None
-                elem.text = None
-            else:
-                elem.getparent().remove(elem)
-        elif tag == "pb":
-            if "{http://www.w3.org/XML/1998/namespace}url" in elem.attrib:
-                url = elem.attrib["{http://www.w3.org/XML/1998/namespace}url"]
-                del elem.attrib["{http://www.w3.org/XML/1998/namespace}url"]
-                elem.attrib["facs"] = url
-
-    return root
 
 def detect_date(root, protocol_year):
+    """
+    Detect notes with dates in them. Update docDate metadata accordingly.
+    """
     month_numbers = dict(
         januari=1,
         februari=2,
@@ -285,12 +189,12 @@ def detect_date(root, protocol_year):
         oktober=10,
         november=11,
         december=12,
-        )
+    )
 
     dates = set()
     expression = "\\w{3,5}dagen den (\\d{1,2})\\.? (\\w{3,9}) (\\d{4})"
     expression2 = "\\w{3,5}dagen den (\\d{1,2})\\.? (\\w{3,9})"
-    for ix, elem_tuple in enumerate(list(_iter(root))):
+    for ix, elem_tuple in enumerate(list(elem_iter(root))):
         tag, elem = elem_tuple
         if tag == "note" and type(elem.text) == str and len(elem.text) < 50:
             matches = re.search(expression, elem.text)
@@ -328,20 +232,21 @@ def detect_date(root, protocol_year):
                         print("Whoopsie!")
 
     dates = sorted(list(dates))
-    for text in root.findall(".//{http://www.tei-c.org/ns/1.0}text"):
-        for front in text.findall("{http://www.tei-c.org/ns/1.0}front"):
+    tei_ns = "{http://www.tei-c.org/ns/1.0}"
+    for text in root.findall(".//" + tei_ns + "text"):
+        for front in text.findall(".//" + tei_ns + "front"):
 
             # Remove old docDates
-            for docDate in front.findall("{http://www.tei-c.org/ns/1.0}docDate"):
+            for docDate in front.findall(".//" + tei_ns + "docDate"):
                 docDate.getparent().remove(docDate)
-            for div in front.findall("{http://www.tei-c.org/ns/1.0}div"):
-                for docDate in div.findall("{http://www.tei-c.org/ns/1.0}docDate"):
+            for div in front.findall(".//" + tei_ns + "div"):
+                for docDate in div.findall(".//" + tei_ns + "docDate"):
                     docDate.getparent().remove(docDate)
-            
+
             if len(dates) > 0:
-                for div in front.findall("{http://www.tei-c.org/ns/1.0}div"):
+                for div in front.findall(".//" + tei_ns + "div"):
                     if div.attrib.get("type") == "preface":
-                        for docDate in div.findall("{http://www.tei-c.org/ns/1.0}docDate"):
+                        for docDate in div.findall(".//" + tei_ns + "docDate"):
                             docDate.getparent().remove(docDate)
                         for date in dates:
                             formatted = date.strftime("%Y-%m-%d")
@@ -349,7 +254,7 @@ def detect_date(root, protocol_year):
                             docDate.text = formatted
                             docDate.attrib["when"] = formatted
             else:
-                for div in front.findall("{http://www.tei-c.org/ns/1.0}div"):
+                for div in front.findall(".//" + tei_ns + "div"):
                     if div.attrib.get("type") == "preface":
                         formatted = str(protocol_year)
                         docDate = etree.SubElement(div, "docDate")
@@ -358,17 +263,21 @@ def detect_date(root, protocol_year):
 
     return root, dates
 
+
 def update_ids(root, protocol_id):
+    """
+    Update element id's
+    """
     ids = set()
     xml_id = "{http://www.w3.org/XML/1998/namespace}id"
-    for tag, elem in _iter(root):
+    for tag, elem in elem_iter(root):
         if tag == "u":
             if xml_id in elem.attrib:
                 ids.add(elem.attrib[xml_id])
         elif xml_id in elem.attrib:
             del elem.attrib[xml_id]
 
-    for tag, elem in _iter(root):
+    for tag, elem in elem_iter(root):
         if tag == "u":
             if xml_id not in elem.attrib:
                 updated_hash = element_hash(elem, protocol_id)
@@ -388,15 +297,16 @@ def update_ids(root, protocol_id):
 
     return root
 
+
 def update_hashes(root, protocol_id, manual=False):
     """
     Update XML element hashes to keep track which element has been manually modified
     """
-    xml_n = "{http://www.w3.org/XML/1998/namespace}n"
+    xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     n = "n"
-    for tag, elem in _iter(root):
+    for tag, elem in elem_iter(root):
         if xml_n in elem.attrib:
-            del elem.attrib[xml_n]
+            del elem.attrib[xml_ns + n]
 
         # Page beginnings <pb> use the n attribute for other purposes
         if tag != "pb":
@@ -414,7 +324,9 @@ def update_hashes(root, protocol_id, manual=False):
 
             if tag == "u":
                 for subelem in elem:
-                    subelem_hash = element_hash(subelem, protocol_id=protocol_id, chars=8)
+                    subelem_hash = element_hash(
+                        subelem, protocol_id=protocol_id, chars=8
+                    )
 
                     if not manual:
                         if subelem_hash != "manual":
