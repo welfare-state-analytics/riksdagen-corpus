@@ -36,56 +36,6 @@ def _db_location(protocol_id=None, year=None, phase="segmentation"):
     return folder
 
 
-def save_db(db, protocol_id=None, year=None, phase="segmentation"):
-    """
-    Save dataframe in predefined location based on what phase of the pipeline it represents.
-    """
-    folder = _db_location(protocol_id=protocol_id, year=year, phase=phase)
-    if protocol_id is None and year is None:
-        print("Save the whole db...")
-        for protocol_id in progressbar.progressbar(list(set(db["protocol_id"]))):
-            if type(protocol_id) == str:
-                current_db = db[db["protocol_id"] == protocol_id]
-                save_db(current_db, protocol_id=protocol_id, phase=phase)
-
-    elif protocol_id is not None:
-        db.to_csv(folder + protocol_id + ".csv", index=False)
-    else:
-        for protocol_id in list(set(list(db["protocol_id"]))):
-            current_db = db[db["protocol_id"] == protocol_id]
-            current_db.to_csv(folder + protocol_id + ".csv", index=False)
-
-
-def load_db(protocol_id=None, year=None, phase="segmentation"):
-    """
-    Load dataframe from predefined location based on what phase of the pipeline it represents.
-    """
-    folder = _db_location(protocol_id=protocol_id, year=year, phase=phase)
-    # Everything
-    if protocol_id is None and year is None:
-        folder = "input/" + phase + "/instances/"
-        dbs = []
-        print("Load all DBs...")
-        for year in progressbar.progressbar(os.listdir(folder)):
-            if os.path.isdir(folder + year):
-                year_db = load_db(protocol_id=None, year=int(year), phase=phase)
-                dbs.append(year_db)
-        return pd.concat(dbs)
-
-    # One year
-    elif year is not None:
-        dbs = []
-        for fname in os.listdir(folder):
-            if fname.split(".")[-1] == "csv":
-                dbs.append(pd.read_csv(folder + fname))
-        return pd.concat(dbs)
-
-    # One protocol
-    else:
-        if fname in os.listdir(folder):
-            return pd.read_csv(folder + protocol_id + ".csv")
-
-
 def load_patterns(year=None, phase="segmentation"):
     """
     Load regex patterns from disk
