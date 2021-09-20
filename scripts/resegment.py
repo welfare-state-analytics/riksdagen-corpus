@@ -1,3 +1,6 @@
+"""
+Find undetected introductions in the protocols
+"""
 from pyparlaclarin.refine import format_texts
 from pyriksdagen.db import filter_db, load_patterns
 from pyriksdagen.refine import (
@@ -66,7 +69,6 @@ def main(args):
                     ]
                     root = find_introductions(root, pattern_db, names_ids, minister_db=minister_db)
                     root = update_ids(root, protocol_id)
-                    # root = detect_mps(root,names_ids,pattern_db)
                     root = format_texts(root)
                     root = update_hashes(root, protocol_id)
                     b = etree.tostring(
