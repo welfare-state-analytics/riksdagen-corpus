@@ -1,3 +1,6 @@
+"""
+Format text lines to be under max line length, update hashes.
+"""
 from pyparlaclarin.refine import format_texts
 from pyriksdagen.db import filter_db, load_patterns
 from pyriksdagen.refine import (
@@ -12,6 +15,7 @@ import pandas as pd
 import os, progressbar, argparse
 
 
+# TODO: remove empty tags in this script
 def main(args):
     start_year = args.start
     end_year = args.end

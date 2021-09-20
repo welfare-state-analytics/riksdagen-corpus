@@ -1,3 +1,6 @@
+"""
+Concatenate split names of format "PERS- SON" into "PERSSON"
+"""
 from lxml import etree
 import pandas as pd
 import os, progressbar, re

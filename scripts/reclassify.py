@@ -1,3 +1,6 @@
+"""
+Run the classification into utterances and notes.
+"""
 from pyparlaclarin.refine import reclassify, format_texts, random_classifier
 
 from pyriksdagen.db import filter_db, load_patterns

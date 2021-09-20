@@ -1,5 +1,6 @@
 """
-Download alto XMLs from KB, convert them to parlaclarin 
+Download alto XMLs from KB, convert them to parlaclarin. Saves raw data
+on disk if you want to rerun the script. 
 """
 import pandas as pd
 import progressbar

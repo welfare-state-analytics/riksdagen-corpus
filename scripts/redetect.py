@@ -1,5 +1,5 @@
 """
-Connect introductions to the speaker in the metadata
+Connect introductions to the speaker in the metadata.
 """
 from lxml import etree
 import pandas as pd

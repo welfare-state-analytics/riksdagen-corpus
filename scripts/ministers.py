@@ -1,3 +1,7 @@
+"""
+Convert disorganized minister lists in input/ministers/ into
+a neat, structured dataframe.
+"""
 import pandas as pd
 from pathlib import Path
 import dateparser

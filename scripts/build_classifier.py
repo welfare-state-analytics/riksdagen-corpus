@@ -1,3 +1,10 @@
+"""
+Build a neural network to classify paragraphs into utterances and notes.
+Uses pre-trained word embeddings. A feedforward network is then trained
+to give each word the odds of that it belongs to each category. The odds
+are summed up and a prior is added for the classification of a full para-
+graph. 
+"""
 import os
 import fasttext
 import numpy as np

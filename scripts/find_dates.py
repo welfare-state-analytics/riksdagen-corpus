@@ -1,3 +1,7 @@
+"""
+Find the date notes in protocols between given start and end years,
+and include them as metadata.
+"""
 from pyriksdagen.db import filter_db, load_patterns
 from pyriksdagen.refine import detect_date
 from pyriksdagen.utils import infer_metadata

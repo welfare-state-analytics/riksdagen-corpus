@@ -1,3 +1,6 @@
+"""
+Update paragraph hashes.
+"""
 import sys
 from pyriksdagen.refine import update_hashes
 from lxml import etree

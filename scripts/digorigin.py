@@ -1,3 +1,6 @@
+"""
+Convert the digital original files (1990->) into parla-clarin
+"""
 import os
 from lxml import etree
 import progressbar

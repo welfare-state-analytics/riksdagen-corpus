@@ -1,3 +1,6 @@
+"""
+Generate pseudorandom sample of the _pages_ in the corpus.
+"""
 import pandas as pd
 import os
 import argparse

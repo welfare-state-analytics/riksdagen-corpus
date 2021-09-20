@@ -1,3 +1,7 @@
+"""
+Convert disorganized MP lists in input/mp/ into
+a neat, structured dataframe.
+"""
 import pandas as pd
 from pyriksdagen.mp import create_full_database
 from pyriksdagen.mp import add_gender, add_id, clean_names, add_municipality
