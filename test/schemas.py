@@ -5,7 +5,6 @@ from lxml import etree
 from pyriksdagen.utils import validate_xml_schema, infer_metadata
 from pyriksdagen.download import get_blocks
 from pyriksdagen.export import create_tei, create_parlaclarin
-from pyriksdagen.segmentation import find_instances, apply_instances
 from pyriksdagen.db import load_patterns
 
 class Test(unittest.TestCase):
@@ -27,13 +26,9 @@ class Test(unittest.TestCase):
         # Package argument can be None since the file is already saved on disk
         content_blocks = get_blocks(protocol_id, None)
         metadata = infer_metadata(fname.split(".")[0])
-
-        mp_db = pd.read_csv("corpus/members_of_parliament.csv")
-        segmentation_patterns = load_patterns(phase="segmentation")
-        segmentation_db = find_instances(protocol_id, None, segmentation_patterns, mp_db)
-        protocol = apply_instances(content_blocks, segmentation_db)
         tei = create_tei(protocol, metadata)
         parla_clarin_str = create_parlaclarin(tei, metadata)
+        print("pc str created..")
         
         parlaclarin_path = "input/parla-clarin/generated-example.xml"
         f = open(parlaclarin_path, "w")
