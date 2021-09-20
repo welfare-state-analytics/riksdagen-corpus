@@ -1,8 +1,13 @@
+"""
+Convert disorganized minister lists in input/ministers/ into
+a neat, structured dataframe.
+"""
 import pandas as pd
 from pathlib import Path
 import dateparser
 import datetime
 import unidecode
+
 
 def main():
     # Read in all data files
@@ -30,20 +35,20 @@ def main():
     df["end"] = df["Avgick"]
 
     df = df[["name", "title", "start", "end"]]
-    
+
     # Remove parenthesis
-    ref_pattern = r'\[[a-zA-ZÀ-ÿ0-9 ]+\]'
+    ref_pattern = r"\[[a-zA-ZÀ-ÿ0-9 ]+\]"
     df["end"] = df["end"].replace(ref_pattern, "", regex=True)
     df["start"] = df["start"].replace(ref_pattern, "", regex=True)
 
-    bracket_pattern = r' ?\([a-zA-ZÀ-ÿ0-9\. ]+\)'
+    bracket_pattern = r" ?\([a-zA-ZÀ-ÿ0-9\. ]+\)"
     df["name"] = df["name"].replace(bracket_pattern, "", regex=True)
 
     # Remove special characters
-    df["name"] = df["name"].replace(r'[^A-Za-zÀ-ÿ /-]+', "", regex=True)
-    df["title"] = df["title"].replace(r'[^A-Za-zÀ-ÿ /-]+', "", regex=True)
-    df["start"] = df["start"].replace(r'[^A-Za-zÀ-ÿ0-9 /-]+', "", regex=True)
-    df["end"] = df["end"].replace(r'[^A-Za-zÀ-ÿ0-9 /-]+', "", regex=True)
+    df["name"] = df["name"].replace(r"[^A-Za-zÀ-ÿ /-]+", "", regex=True)
+    df["title"] = df["title"].replace(r"[^A-Za-zÀ-ÿ /-]+", "", regex=True)
+    df["start"] = df["start"].replace(r"[^A-Za-zÀ-ÿ0-9 /-]+", "", regex=True)
+    df["end"] = df["end"].replace(r"[^A-Za-zÀ-ÿ0-9 /-]+", "", regex=True)
 
     # Convert dates to standard format
     def parse_date(s):
@@ -63,7 +68,11 @@ def main():
     # Generate id
     df["id"] = df["title"].apply(lambda x: unidecode.unidecode(x).lower())
     df["id"] = df["id"].str[:12]
-    df["id"] = df["name"].apply(lambda x: unidecode.unidecode(x).lower()).str.strip() + " " + df["id"]
+    df["id"] = (
+        df["name"].apply(lambda x: unidecode.unidecode(x).lower()).str.strip()
+        + " "
+        + df["id"]
+    )
     df["id"] = df["id"].str.replace("-", " ")
     df["id"] = df["id"].str.replace(" ", "_")
     df["id"] = df["id"].str.replace("__", "_")
@@ -73,6 +82,7 @@ def main():
     # Print and write to file
     print(df)
     df.to_csv("corpus/ministers.csv", index=False)
-    
-if __name__ == '__main__':
+
+
+if __name__ == "__main__":
     main()

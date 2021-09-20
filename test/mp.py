@@ -5,7 +5,6 @@ from lxml import etree
 from pyriksdagen.utils import validate_xml_schema, infer_metadata
 from pyriksdagen.download import get_blocks
 from pyriksdagen.export import create_tei, create_parlaclarin
-from pyriksdagen.segmentation import find_instances, apply_instances
 from pyriksdagen.db import load_patterns, filter_db
 import os
 import progressbar

@@ -1,6 +1,10 @@
+"""
+Generate pseudorandom sample of the _pages_ in the corpus.
+"""
 import pandas as pd
 import os
 import argparse
+
 
 def generate_sample(args):
     train = args.train
@@ -18,7 +22,7 @@ def generate_sample(args):
 
         decade_pages = pages[(pages["year"] >= decade) & (pages["year"] < decade_upper)]
         decade_pages = decade_pages.sort_values("ordinal")
-        tail = decade_pages.tail(len(decade_pages)-args.skip * 2)
+        tail = decade_pages.tail(len(decade_pages) - args.skip * 2)
         head = tail.head(head_len * 2)
         if train:
             head = head.iloc[::2, :]
@@ -29,7 +33,7 @@ def generate_sample(args):
 
         head["curator"] = head.index
         userlen = head_len // 5
-        head["curator"] = head["curator"].apply(lambda x: x // userlen) 
+        head["curator"] = head["curator"].apply(lambda x: x // userlen)
 
         dfs.append(head)
 
@@ -37,25 +41,45 @@ def generate_sample(args):
     df = df.reset_index(drop=True)
 
     df = df[["package_id", "year", "pagenumber", "curator"]]
-    #df["path"] = df["package_id"].str.replace("-", "_")
+    # df["path"] = df["package_id"].str.replace("-", "_")
     years = df["package_id"].astype(str).str.split("-").str[1]
-    df["path"] = "corpus/" + years + "/"+  df["package_id"] + ".xml"
+    df["path"] = "corpus/" + years + "/" + df["package_id"] + ".xml"
 
-    df["url"] = df["package_id"]  + ".xml"# + df["url"]
+    df["url"] = df["package_id"] + ".xml"  # + df["url"]
     years = df["package_id"].str.split("-").str[1] + "/"
-    df["url"] = "https://github.com/welfare-state-analytics/riksdagen-corpus/tree/mp/corpus/" + years + df["url"]
+    df["url"] = (
+        "https://github.com/welfare-state-analytics/riksdagen-corpus/tree/mp/corpus/"
+        + years
+        + df["url"]
+    )
     return df
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Generate a random sample of pages in the parliamentary corpus.')
-    parser.add_argument('--out', type=str, help="Outfile location" ,default="sample.csv")
-    parser.add_argument('--cur', type=str, help="Split to curators" ,default=False)
-    parser.add_argument('--train', type=bool, default=False,
-        help="Whether to generate a train or a test set. Boolean.")
-    parser.add_argument('--head', type=int, default=25, help="How many pages are sampled by decade")
-    parser.add_argument('--skip', type=int, default=0, help="How many pages are skipped in the beginning")
-    parser.add_argument('--start', type=int, default=1920, help="Start decade")
-    parser.add_argument('--end', type=int, default=1930, help="End decade")
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description="Generate a random sample of pages in the parliamentary corpus."
+    )
+    parser.add_argument(
+        "--out", type=str, help="Outfile location", default="sample.csv"
+    )
+    parser.add_argument("--cur", type=str, help="Split to curators", default=False)
+    parser.add_argument(
+        "--train",
+        type=bool,
+        default=False,
+        help="Whether to generate a train or a test set. Boolean.",
+    )
+    parser.add_argument(
+        "--head", type=int, default=25, help="How many pages are sampled by decade"
+    )
+    parser.add_argument(
+        "--skip",
+        type=int,
+        default=0,
+        help="How many pages are skipped in the beginning",
+    )
+    parser.add_argument("--start", type=int, default=1920, help="Start decade")
+    parser.add_argument("--end", type=int, default=1930, help="End decade")
     args = parser.parse_args()
 
     df = generate_sample(args)

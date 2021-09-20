@@ -34,6 +34,7 @@ jobs:
           pip install bs4
           pip install pandas
           pip install progressbar2
+          pip install pyparlaclarin
 
       - name: Validate changed files
         run: |
