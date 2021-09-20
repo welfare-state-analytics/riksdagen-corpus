@@ -167,13 +167,13 @@ def create_tei(root, metadata):
 def gen_parlaclarin_corpus(
     protocol_db,
     archive,
-    instance_db,
-    curation_db=None,
     corpus_metadata=dict(),
     str_output=True,
 ):
+    """
+    Create a parla-clarin file out of all protocols that are provided.
+    """
     teis = []
-    # print("Pages in total", protocol_db["pages"].sum())
 
     for ix, package in list(protocol_db.iterrows()):
         protocol_id = package["protocol_id"]
@@ -188,44 +188,23 @@ def gen_parlaclarin_corpus(
     return corpus
 
 
-def parlaclarin_workflow(file_db, archive, curations=None, segmentations=None):
-    for corpus_year, package_ids, year_db in year_iterator(file_db):
-        print("Generate corpus for year", corpus_year)
-        current_instances = pd.merge(segmentations, year_db, on=["protocol_id"])
-        current_curations = pd.merge(curations, year_db, on=["protocol_id"])
-
-        corpus_metadata = dict(
-            document_title="Riksdagens protocols " + str(corpus_year),
-            authority="National Library of Sweden and the WESTAC project",
-            correction="Some data curation was done. It is documented in input/curation/instances",
-        )
-        parla_clarin_str = gen_parlaclarin_corpus(
-            year_db,
-            archive,
-            current_instances,
-            corpus_metadata=corpus_metadata,
-            curation_db=current_curations,
-        )
-
-        parlaclarin_path = "input/parla-clarin/" + "corpus" + str(corpus_year) + ".xml"
-        f = open(parlaclarin_path, "w")
-        f.write(parla_clarin_str)
-        f.close()
-
-
 def parlaclarin_workflow_individual(
-    file_db, archive, curations=None, segmentations=None
+    file_db, archive, corpus_metadata=dict()
 ):
+    """
+    Create per-protocol parlaclarin files of all files provided in file_db. 
+    """
     for corpus_year, package_ids, year_db in year_iterator(file_db):
         print("Generate corpus for year", corpus_year)
-        current_instances = None
-        current_curations = None
 
-        corpus_metadata = dict(
+        default_metadata = dict(
             document_title="Riksdagens protocols " + str(corpus_year),
             authority="National Library of Sweden and the WESTAC project",
             correction="Some data curation was done. It is documented in input/curation/instances",
         )
+        for key in default_metadata:
+            if key not in corpus_metadata:
+                corpus_metadata[key] = default_metadata[key]
 
         year_db = file_db[file_db["year"] == corpus_year]
         for ix, row in progressbar.progressbar(list(year_db.iterrows())):
@@ -234,9 +213,7 @@ def parlaclarin_workflow_individual(
             parla_clarin_str = gen_parlaclarin_corpus(
                 df,
                 archive,
-                current_instances,
                 corpus_metadata=corpus_metadata,
-                curation_db=current_curations,
             )
 
             yearstr = protocol_id[5:]

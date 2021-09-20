@@ -11,11 +11,12 @@ from .segmentation import (
 )
 
 
-def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None):
+def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, date=None):
     """
     Re-detect MPs in a parla clarin protocol, based on the (updated)
     MP database.
     """
+    xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     current_speaker = None
     prev = None
 
@@ -30,8 +31,8 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None):
                 if prev is None:
                     prev = elem
                 else:
-                    new_prev = prev.attrib["{http://www.w3.org/XML/1998/namespace}id"]
-                    new_next = elem.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+                    new_prev = prev.attrib[xml_ns + "id"]
+                    new_next = elem.attrib[xml_ns + "id"]
                     elem.set("prev", new_prev)
                     prev.set("next", new_next)
 
@@ -41,7 +42,7 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None):
         elif tag == "note":
             if elem.attrib.get("type", None) == "speaker":
                 if type(elem.text) == str:
-                    current_speaker = detect_minister(elem.text, minister_db)
+                    current_speaker = detect_minister(elem.text, minister_db, date=date)
                     if current_speaker is None:
                         current_speaker = detect_mp(elem.text, names_ids, mp_db=mp_db)
                     prev = None

@@ -11,7 +11,7 @@ import sys, re, os
 from bs4 import BeautifulSoup
 import pandas as pd
 import hashlib
-
+from pathlib import Path
 
 def elem_iter(root, ns="{http://www.tei-c.org/ns/1.0}"):
     for body in root.findall(".//" + ns + "body"):
@@ -56,7 +56,7 @@ def infer_metadata(filename):
     try:
         metadata["number"] = int(split[-1])
     except:
-        print("Number parsing unsuccesful", filename)
+        pass#print("Number parsing unsuccesful", filename)
 
     return metadata
 
@@ -79,3 +79,17 @@ def validate_xml_schema(xml_path, schema_path):
     is_valid = schema.validate(xml_file)
 
     return is_valid
+
+def protocol_iterators(corpus_root, start=None, end=None):
+    folder = Path(corpus_root)
+    for protocol in sorted(folder.glob('**/*.xml')):
+        path = protocol.relative_to(".")
+        assert (start is None) == (end is None), "Provide both start and end year or neither"
+        if start is not None and end is not None:
+            metadata = infer_metadata(protocol.name)
+
+            if start - 1 <= metadata["year"] and end + 1 >= metadata["year"]:
+                yield protocol.relative_to(".")
+
+        else:
+            yield protocol.relative_to(".")
