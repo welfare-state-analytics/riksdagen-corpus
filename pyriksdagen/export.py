@@ -188,11 +188,9 @@ def gen_parlaclarin_corpus(
     return corpus
 
 
-def parlaclarin_workflow_individual(
-    file_db, archive, corpus_metadata=dict()
-):
+def parlaclarin_workflow_individual(file_db, archive, corpus_metadata=dict()):
     """
-    Create per-protocol parlaclarin files of all files provided in file_db. 
+    Create per-protocol parlaclarin files of all files provided in file_db.
     """
     for corpus_year, package_ids, year_db in year_iterator(file_db):
         print("Generate corpus for year", corpus_year)

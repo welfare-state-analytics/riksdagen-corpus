@@ -13,6 +13,7 @@ import pandas as pd
 import hashlib
 from pathlib import Path
 
+
 def elem_iter(root, ns="{http://www.tei-c.org/ns/1.0}"):
     """
     Return an iterator of the elements (utterances, notes, segs, pbs) in a protocol body
@@ -34,6 +35,7 @@ def elem_iter(root, ns="{http://www.tei-c.org/ns/1.0}"):
                 else:
                     print(elem.tag)
                     yield None
+
 
 def infer_metadata(filename):
     """
@@ -64,7 +66,7 @@ def infer_metadata(filename):
     try:
         metadata["number"] = int(split[-1])
     except:
-        pass#print("Number parsing unsuccesful", filename)
+        pass  # print("Number parsing unsuccesful", filename)
 
     return metadata
 
@@ -91,14 +93,17 @@ def validate_xml_schema(xml_path, schema_path):
 
     return is_valid
 
+
 def protocol_iterators(corpus_root, start=None, end=None):
     """
     Returns an iterator of protocol paths in a corpus.
     """
     folder = Path(corpus_root)
-    for protocol in sorted(folder.glob('**/*.xml')):
+    for protocol in sorted(folder.glob("**/*.xml")):
         path = protocol.relative_to(".")
-        assert (start is None) == (end is None), "Provide both start and end year or neither"
+        assert (start is None) == (
+            end is None
+        ), "Provide both start and end year or neither"
         if start is not None and end is not None:
             metadata = infer_metadata(protocol.name)
 

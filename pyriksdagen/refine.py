@@ -80,7 +80,9 @@ def find_introductions(root, pattern_db, names_ids, minister_db=None):
             u_parent.text = None
             for seg in list(elem):
                 if type(seg.text) == str:
-                    introduction = detect_introduction(seg.text, expressions, names_ids, minister_db=minister_db)
+                    introduction = detect_introduction(
+                        seg.text, expressions, names_ids, minister_db=minister_db
+                    )
                     if introduction is not None:
                         pass  # print("NEW", seg.text)
                         seg.tag = "{http://www.tei-c.org/ns/1.0}note"
@@ -126,7 +128,9 @@ def find_introductions(root, pattern_db, names_ids, minister_db=None):
             # if not elem.attrib.get("type", None) == "speaker":
             if type(elem.text) == str:
 
-                introduction = detect_introduction(elem.text, expressions, names_ids, minister_db=minister_db)
+                introduction = detect_introduction(
+                    elem.text, expressions, names_ids, minister_db=minister_db
+                )
 
                 if introduction is not None:
                     if not elem.attrib.get("type", None) == "speaker":
