@@ -10,6 +10,9 @@ import unicodedata
 
 
 def create_database(path):
+    """
+    Create an initial version of the MP dataframe
+    """
     extension = path.split(".")[-1]
 
     if extension == "csv":
@@ -153,6 +156,9 @@ def create_full_database(dirs):
 
 
 def add_gender(mp_db, names):
+    """
+    Based to first names, add gender to an MP dataframe.
+    """
     print("Add gender...")
     mp_db["gender"] = None
 
@@ -177,6 +183,9 @@ def add_gender(mp_db, names):
 
 
 def clean_names(mp_db):
+    """
+    Remove artefacts from MP names and specifiers
+    """
     print("Clean names...")
     for i, row in progressbar.progressbar(list(mp_db.iterrows())):
         name = row["name"]
@@ -201,6 +210,9 @@ def clean_names(mp_db):
 
 
 def replace_party_abbreviations(mp_db, party_db):
+    """
+    Replace party abbreviations with standardized party names.
+    """
     print("Replace party abbreviations...")
     party_dict = dict()
     for _, row in party_db.iterrows():
@@ -220,6 +232,10 @@ def replace_party_abbreviations(mp_db, party_db):
 
 
 def add_id(mp_db):
+    """
+    Generate deterministic IDs for mps based on the "name", "party", "district",
+    "chamber", "start", and "end" columns of the dataframe.
+    """
     print("Add id...")
     columns = mp_db.columns
     columns = ["name", "party", "district", "chamber", "start", "end"]
@@ -248,7 +264,9 @@ def add_id(mp_db):
 
 
 def add_municipality(mp_db, mun_db):
-
+    """
+    Add home municipalities as specifiers for matched MPs from personregister
+    """
     original_columns = list(mp_db.columns)
     print("Add municipalicites from 'personregister'...")
 
@@ -323,23 +341,3 @@ def add_municipality(mp_db, mun_db):
     mp_db = mp_db[original_columns]
     mp_db = mp_db.sort_values(by=["start", "chamber", "name"], ignore_index=True)
     return mp_db
-
-
-def detect_mp(introduction, metadata, mp_db):
-    """
-    Detect which member of parliament is mentioned in a given introduction.
-
-    Params:
-        introuction: An introduction to a speech in the protocols. String.
-        metadata: Year and chamber of the parliamentary proceeding in question. Dict.
-        mp_db: MP database as a Pandas DataFrame.
-    """
-
-    year = metadata["year"]
-    mp_db = mp_db[(mp_db["start"] <= year) & (mp_db["end"] >= year)]
-
-    for ix, row in mp_db.iterrows():
-        name = row["name"]
-        last_name = " ".join(name.split()[1:])
-        if last_name in introduction:
-            return row

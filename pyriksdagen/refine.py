@@ -228,22 +228,21 @@ def detect_date(root, protocol_year):
                         print("Whoopsie!")
 
     dates = sorted(list(dates))
-    for text in root.findall(".//{http://www.tei-c.org/ns/1.0}text"):
-        for front in text.findall("{http://www.tei-c.org/ns/1.0}front"):
+    tei_ns = "{http://www.tei-c.org/ns/1.0}"
+    for text in root.findall(".//" + tei_ns + "text"):
+        for front in text.findall(".//" + tei_ns + "front"):
 
             # Remove old docDates
-            for docDate in front.findall("{http://www.tei-c.org/ns/1.0}docDate"):
+            for docDate in front.findall(".//" + tei_ns + "docDate"):
                 docDate.getparent().remove(docDate)
-            for div in front.findall("{http://www.tei-c.org/ns/1.0}div"):
-                for docDate in div.findall("{http://www.tei-c.org/ns/1.0}docDate"):
+            for div in front.findall(".//" + tei_ns + "div"):
+                for docDate in div.findall(".//" + tei_ns + "docDate"):
                     docDate.getparent().remove(docDate)
 
             if len(dates) > 0:
-                for div in front.findall("{http://www.tei-c.org/ns/1.0}div"):
+                for div in front.findall(".//" + tei_ns + "div"):
                     if div.attrib.get("type") == "preface":
-                        for docDate in div.findall(
-                            "{http://www.tei-c.org/ns/1.0}docDate"
-                        ):
+                        for docDate in div.findall(".//" + tei_ns + "docDate"):
                             docDate.getparent().remove(docDate)
                         for date in dates:
                             formatted = date.strftime("%Y-%m-%d")
@@ -251,7 +250,7 @@ def detect_date(root, protocol_year):
                             docDate.text = formatted
                             docDate.attrib["when"] = formatted
             else:
-                for div in front.findall("{http://www.tei-c.org/ns/1.0}div"):
+                for div in front.findall(".//" + tei_ns + "div"):
                     if div.attrib.get("type") == "preface":
                         formatted = str(protocol_year)
                         docDate = etree.SubElement(div, "docDate")
@@ -299,11 +298,11 @@ def update_hashes(root, protocol_id, manual=False):
     """
     Update XML element hashes to keep track which element has been manually modified
     """
-    xml_n = "{http://www.w3.org/XML/1998/namespace}n"
+    xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     n = "n"
     for tag, elem in elem_iter(root):
         if xml_n in elem.attrib:
-            del elem.attrib[xml_n]
+            del elem.attrib[xml_ns + n]
 
         # Page beginnings <pb> use the n attribute for other purposes
         if tag != "pb":

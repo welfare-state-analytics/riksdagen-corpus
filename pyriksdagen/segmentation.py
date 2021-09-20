@@ -66,6 +66,9 @@ def _is_metadata_block(txt0):
 
 
 def detect_minister(matched_txt, minister_db, date=None):
+    """
+    Detect a minister in a snippet of text. Returns a minister id (str) if found, otherwise None.
+    """
     lower_txt = matched_txt.lower()
 
     # Only match if minister is mentioned in intro
@@ -106,7 +109,9 @@ def detect_minister(matched_txt, minister_db, date=None):
 
 def detect_mp(matched_txt, names_ids, mp_db=None, also_last_name=True):
     """
-    Match the introduced speaker in a text snippet
+    Match an MP in a text snippet. Returns an MP id (str) if found, otherwise None.
+
+    If multiple people are matched, defaults to returning None.
     """
     person = []
 

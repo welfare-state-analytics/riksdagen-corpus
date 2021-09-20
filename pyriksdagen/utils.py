@@ -14,6 +14,9 @@ import hashlib
 from pathlib import Path
 
 def elem_iter(root, ns="{http://www.tei-c.org/ns/1.0}"):
+    """
+    Return an iterator of the elements (utterances, notes, segs, pbs) in a protocol body
+    """
     for body in root.findall(".//" + ns + "body"):
         for div in body.findall(ns + "div"):
             for ix, elem in enumerate(div):
@@ -33,6 +36,11 @@ def elem_iter(root, ns="{http://www.tei-c.org/ns/1.0}"):
                     yield None
 
 def infer_metadata(filename):
+    """
+    Heuristically infer metadata from a protocol id or filename.
+
+    Returns a dict with keys "protocol", "chamber", "year", and "number"
+    """
     metadata = dict()
     filename = filename.replace("-", "_")
     metadata["protocol"] = filename.split("/")[-1].split(".")[0]
@@ -73,6 +81,9 @@ def read_html(path):
 
 
 def validate_xml_schema(xml_path, schema_path):
+    """
+    Validate an XML file against a schema.
+    """
     xml_file = lxml.etree.parse(xml_path)
 
     schema = lxml.etree.XMLSchema(file=schema_path)
@@ -81,6 +92,9 @@ def validate_xml_schema(xml_path, schema_path):
     return is_valid
 
 def protocol_iterators(corpus_root, start=None, end=None):
+    """
+    Returns an iterator of protocol paths in a corpus.
+    """
     folder = Path(corpus_root)
     for protocol in sorted(folder.glob('**/*.xml')):
         path = protocol.relative_to(".")
