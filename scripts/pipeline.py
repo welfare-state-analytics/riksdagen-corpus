@@ -56,7 +56,7 @@ def main(args):
         protocol_path = str(protocol_path)
         metadata = infer_metadata(protocol_path)
         root = etree.parse(protocol_path, parser).getroot()
-        root, _ = detect_date(root, metadata["year"])
+        root, _ = detect_date(root, metadata)
         root = format_texts(root)
         root = update_hashes(root, metadata["protocol"])
         b = etree.tostring(

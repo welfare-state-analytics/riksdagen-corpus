@@ -14,10 +14,10 @@ from pyriksdagen.utils import infer_metadata, protocol_iterators
 
 def main(args):
     parser = etree.XMLParser(remove_blank_text=True)
-    for protocol_path in progressbar.progressbar(list(protocol_iterators("corpus/", start=args.start, end=args.start))):
+    for protocol_path in progressbar.progressbar(list(protocol_iterators("corpus/", start=args.start, end=args.end))):
         metadata = infer_metadata(protocol_path)
         root = etree.parse(protocol_path, parser)
-        root, dates = detect_date(root, metadata["year"])
+        root, dates = detect_date(root, metadata)
         b = etree.tostring(
             root, pretty_print=True, encoding="utf-8", xml_declaration=True
         )
