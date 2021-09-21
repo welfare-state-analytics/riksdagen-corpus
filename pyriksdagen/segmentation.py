@@ -9,7 +9,6 @@ import progressbar
 from os import listdir
 from os.path import isfile, join
 from lxml import etree
-from .mp import detect_mp
 from .download import get_blocks, fetch_files
 from .utils import infer_metadata
 from .db import filter_db, year_iterator
@@ -64,7 +63,7 @@ def _is_metadata_block(txt0):
     # TODO: replace with ML algorithm
     return float(len1) / float(len0) < 0.85 and len0 < 150
 
-def detect_speaker(matched_txt, minister_db, date=None):
+def detect_speaker(matched_txt, speaker_db, metadata=None):
     """
     Detect the speaker of the house
     """
@@ -72,37 +71,29 @@ def detect_speaker(matched_txt, minister_db, date=None):
 
     # Only match if minister is mentioned in intro
     if "talman" in lower_txt:
-        dbrows = list(minister_db.iterrows())
-        talman = []
-        # herr TALMANNEN
-        for ix, row in dbrows:
-            lastname = row["name"].upper().split()[-1].strip()
-            #print(lastname)
-            if lastname in matched_txt:
-                if date is None:
-                    talman.append(row["id"])
-                elif date > row["start"] and date < row["end"]:
-                    talman.append(row["id"])
-                else:
-                    print("lastname", lastname, date, row["start"])
+        if "herr talmannen" in lower_txt or "fru talmannen" in lower_txt:
+            speaker_db = speaker_db[speaker_db["titel"] == "talman"]
+        elif "förste vice talman" in lower_txt:
+            speaker_db = speaker_db[speaker_db["titel"] == "1_vice_talman"]
+        elif "andre vice" in lower_txt:
+            speaker_db = speaker_db[speaker_db["titel"] == "1_vice_talman"]
+        elif "tredje vice" in lower_txt:
+            speaker_db = speaker_db[speaker_db["titel"] == "1_vice_talman"]
+        else:
+            return None
 
-        """
-        # herr Talmannen
-        if len(talman) == 0:
-            for ix, row in dbrows:
-                lastname = row["name"].split()[-1].strip()
+        # Do this afterwards to reduce computational cost
+        speaker_db = speaker_db[speaker_db["start"] <= metadata["end_date"]]
+        print(speaker_db)
+        speaker_db = speaker_db[speaker_db["end"] >= metadata["start_date"]]
+        print(speaker_db)
+        speaker_db = speaker_db[speaker_db["chamber"] == metadata["chamber"]]
 
-                # Preliminary check for performance reasons
-                if lastname in matched_txt:                
-                    # Check that the whole name exists as a word
-                    # So that 'Lind' won't be matched for 'Lindgren'
-                    matched_split = re.sub(r'[^A-Za-zÀ-ÿ /-]+', "", matched_txt)
-                    matched_split = matched_split.split()
-                    if lastname in matched_split:
-                        talman.append(row["id"])
-        """
-        if len(talman) >= 1:
-            return talman[0]
+        print(speaker_db)
+        if len(speaker_db) == 1:
+            speaker_id = list(speaker_db["id"])[0]
+            print(lower_txt, speaker_id)
+            return speaker_id
 
 def detect_minister(matched_txt, minister_db, date=None):
     """
