@@ -50,11 +50,15 @@ def infer_metadata(filename):
 
     # Year
     for s in split:
-        s = s[:4]
-        if s.isdigit():
-            year = int(s)
+        yearstr = s[:4]
+        if yearstr.isdigit():
+            year = int(yearstr)
             if year > 1800 and year < 2100:
                 metadata["year"] = year
+
+                # Protocol ids of format 197879 have two years, eg. 1978 and 1979
+                if s[4:6].isdigit():
+                    metadata["secondary_year"] = year + 1
 
     # Chamber
     metadata["chamber"] = "Enkammarriksdagen"

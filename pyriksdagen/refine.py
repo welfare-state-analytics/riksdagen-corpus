@@ -177,16 +177,18 @@ def find_introductions(root, pattern_db, names_ids, minister_db=None):
     return root
 
 
-def detect_date(root, protocol_year):
+def detect_date(root, metadata):
     """
     Detect notes with dates in them. Update docDate metadata accordingly.
     """
 
     dates = set()
+    number_dates = set()
     expression = "\\w{3,5}dagen den (\\d{1,2})\\.? (\\w{3,9}) (\\d{4})"
     expression2 = "\\w{3,5}dagen den (\\d{1,2})\\.? (\\w{3,9})"
     expression3 = "(\\d{1,2})\\.? (\\w{3,9}) (\\d{4,4})"
-
+    protocol_year = metadata["year"]
+    protocol_years = {protocol_year, metadata.get("secondary_year", protocol_year)}
     yearless = set()
 
     for ix, elem_tuple in enumerate(list(elem_iter(root))):
@@ -201,13 +203,16 @@ def detect_date(root, protocol_year):
                 datestr = matches.group(1) + " " + matches.group(2) + " " + matches.group(3)
                 date = dateparser.parse(datestr, languages=["sv"])
                 if date is not None:
-                    dates.add(date)
+                    if date.year in protocol_years:
+                        number_dates.add(date)
 
+            # Dates with the year included, though unsure if protocol date
             elif matches3 is not None:
                 datestr = matches3.group()
                 date = dateparser.parse(datestr, languages=["sv"])
                 if date is not None:
-                    dates.add(date)
+                    if date.year in protocol_years:
+                        dates.add(date)
 
             # Dates without a year
             elif matches2 is not None:
@@ -215,6 +220,9 @@ def detect_date(root, protocol_year):
                 yearless.add(datestr)
 
     if len(dates) > 0:
+        protocol_year = list(dates)[0].year
+    elif len(number_dates) > 0:
+        dates = number_dates
         protocol_year = list(dates)[0].year
 
     for datestr in yearless:
