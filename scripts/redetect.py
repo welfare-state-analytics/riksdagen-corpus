@@ -47,7 +47,10 @@ def main(args):
     minister_db = pd.read_csv(root + "corpus/ministers.csv", parse_dates=True)
     minister_db["start"] = pd.to_datetime(minister_db["start"], errors="coerce")
     minister_db["end"] = pd.to_datetime(minister_db["end"], errors="coerce")
-    print(minister_db["start"])
+    talman_db = pd.read_csv(root + "corpus/talman.csv")
+    talman_db["start"] = pd.to_datetime(talman_db["start"], errors="coerce")
+    talman_db["end"] = pd.to_datetime(talman_db["end"], errors="coerce")
+
     parser = etree.XMLParser(remove_blank_text=True)
     for outfolder in progressbar.progressbar(sorted(folders)):
         if os.path.isdir(pc_folder + outfolder):
@@ -102,6 +105,10 @@ def main(args):
                     chamber = metadata.get("chamber", None)
                     if chamber is not None:
                         year_mp_db = year_mp_db[year_mp_db["chamber"] == chamber]
+
+                    metadata["start_date"] = start_date
+                    metadata["end_date"] = end_date
+
                     names = year_mp_db["name"]
                     ids = year_mp_db["id"]
                     names_ids = list(zip(names, ids))
@@ -117,7 +124,8 @@ def main(args):
                         pattern_db,
                         mp_db=year_mp_db,
                         minister_db=year_ministers,
-                        date=start_date,
+                        speaker_db=talman_db,
+                        metadata=metadata,
                     )
                     root = update_hashes(root, protocol_id)
                     b = etree.tostring(
