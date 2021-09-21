@@ -26,6 +26,8 @@ jobs:
         pip install PyPDF2
         pip install progressbar2
         pip install pyparlaclarin
+        pip install dateparser
+
     - name: Test with unittest
       run: |
         python -m unittest test.schemas
