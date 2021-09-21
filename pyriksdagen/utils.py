@@ -108,7 +108,7 @@ def protocol_iterators(corpus_root, start=None, end=None):
             metadata = infer_metadata(protocol.name)
 
             if start - 1 <= metadata["year"] and end + 1 >= metadata["year"]:
-                yield protocol.relative_to(".")
+                yield str(protocol.relative_to("."))
 
         else:
-            yield protocol.relative_to(".")
+            yield str(protocol.relative_to("."))
