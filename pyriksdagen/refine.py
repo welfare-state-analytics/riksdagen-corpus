@@ -1,17 +1,20 @@
 from lxml import etree
 import re, random, datetime
 from pyparlaclarin.read import element_hash
+import dateparser
+
 from .utils import elem_iter
 from .segmentation import (
     detect_mp,
     detect_minister,
+    detect_speaker,
     expression_dicts,
     detect_introduction,
     classify_paragraph,
 )
 
 
-def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, date=None):
+def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, speaker_db=None, metadata=None):
     """
     Re-detect MPs in a parla clarin protocol, based on the (updated)
     MP database.
@@ -42,9 +45,11 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, date=N
         elif tag == "note":
             if elem.attrib.get("type", None) == "speaker":
                 if type(elem.text) == str:
-                    current_speaker = detect_minister(elem.text, minister_db, date=date)
+                    current_speaker = detect_minister(elem.text, minister_db, date=metadata["start_date"])
                     if current_speaker is None:
                         current_speaker = detect_mp(elem.text, names_ids, mp_db=mp_db)
+                    if current_speaker is None:
+                        current_speaker = detect_speaker(elem.text, speaker_db, metadata=metadata)
                     prev = None
 
     # Do two loops to preserve attribute order
@@ -176,60 +181,46 @@ def detect_date(root, protocol_year):
     """
     Detect notes with dates in them. Update docDate metadata accordingly.
     """
-    month_numbers = dict(
-        januari=1,
-        februari=2,
-        mars=3,
-        april=4,
-        maj=5,
-        juni=6,
-        juli=7,
-        augusti=8,
-        september=9,
-        oktober=10,
-        november=11,
-        december=12,
-    )
 
     dates = set()
     expression = "\\w{3,5}dagen den (\\d{1,2})\\.? (\\w{3,9}) (\\d{4})"
     expression2 = "\\w{3,5}dagen den (\\d{1,2})\\.? (\\w{3,9})"
+    expression3 = "(\\d{1,2})\\.? (\\w{3,9}) (\\d{4,4})"
+
+    yearless = set()
+
     for ix, elem_tuple in enumerate(list(elem_iter(root))):
         tag, elem = elem_tuple
-        if tag == "note" and type(elem.text) == str and len(elem.text) < 50:
+        if tag == "note" and type(elem.text) == str and len(" ".join(elem.text.split()))  < 50:
             matches = re.search(expression, elem.text)
             matches2 = re.search(expression2, elem.text)
+            matches3 = re.search(expression3, elem.text)
+
+            # Dates with the year included, surely date
             if matches is not None:
-                day = int(matches.group(1).replace(".", ""))
-                month = matches.group(2).lower()
-                month = month_numbers.get(month)
-                year = int(matches.group(3))
+                datestr = matches.group(1) + " " + matches.group(2) + " " + matches.group(3)
+                date = dateparser.parse(datestr, languages=["sv"])
+                if date is not None:
+                    dates.add(date)
 
-                if month is None and year > 1800:
-                    print("Could not parse:", matches.group(0))
-                else:
-                    elem.attrib["type"] = "date"
-                    date = None
-                    try:
-                        date = datetime.datetime(year, month, day)
-                        dates.add(date)
-                    except ValueError:
-                        print("Whoopsie!")
+            elif matches3 is not None:
+                datestr = matches3.group()
+                date = dateparser.parse(datestr, languages=["sv"])
+                if date is not None:
+                    dates.add(date)
+
+            # Dates without a year
             elif matches2 is not None:
-                day = int(matches2.group(1).replace(".", ""))
-                month = matches2.group(2).lower()
-                month = month_numbers.get(month)
+                datestr = matches2.group(1) + " " + matches2.group(2)
+                yearless.add(datestr)
 
-                if month is None:
-                    print("Could not parse:", matches2.group(0))
-                else:
-                    date = None
-                    elem.attrib["type"] = "date"
-                    try:
-                        date = datetime.datetime(protocol_year, month, day)
-                        dates.add(date)
-                    except ValueError:
-                        print("Whoopsie!")
+    if len(dates) > 0:
+        protocol_year = list(dates)[0].year
+
+    for datestr in yearless:
+        date = dateparser.parse(datestr + " " + str(protocol_year), languages=["sv"])
+        if date is not None:
+            dates.add(date)
 
     dates = sorted(list(dates))
     tei_ns = "{http://www.tei-c.org/ns/1.0}"
@@ -305,7 +296,7 @@ def update_hashes(root, protocol_id, manual=False):
     xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     n = "n"
     for tag, elem in elem_iter(root):
-        if xml_n in elem.attrib:
+        if xml_ns + n in elem.attrib:
             del elem.attrib[xml_ns + n]
 
         # Page beginnings <pb> use the n attribute for other purposes
