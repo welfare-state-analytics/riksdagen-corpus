@@ -76,23 +76,20 @@ def detect_speaker(matched_txt, speaker_db, metadata=None):
         elif "förste vice talman" in lower_txt:
             speaker_db = speaker_db[speaker_db["titel"] == "1_vice_talman"]
         elif "andre vice" in lower_txt:
-            speaker_db = speaker_db[speaker_db["titel"] == "1_vice_talman"]
+            speaker_db = speaker_db[speaker_db["titel"] == "2_vice_talman"]
         elif "tredje vice" in lower_txt:
-            speaker_db = speaker_db[speaker_db["titel"] == "1_vice_talman"]
+            speaker_db = speaker_db[speaker_db["titel"] == "3_vice_talman"]
         else:
-            return None
+            speaker_db = speaker_db[speaker_db["titel"] == "talman"]
 
         # Do this afterwards to reduce computational cost
         speaker_db = speaker_db[speaker_db["start"] <= metadata["end_date"]]
-        print(speaker_db)
         speaker_db = speaker_db[speaker_db["end"] >= metadata["start_date"]]
-        print(speaker_db)
         speaker_db = speaker_db[speaker_db["chamber"] == metadata["chamber"]]
 
-        print(speaker_db)
+        #print(metadata)
         if len(speaker_db) == 1:
             speaker_id = list(speaker_db["id"])[0]
-            print(lower_txt, speaker_id)
             return speaker_id
 
 def detect_minister(matched_txt, minister_db, date=None):
