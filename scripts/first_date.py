@@ -1,3 +1,7 @@
+"""
+Scrapes protocols for first docDate tag
+OBS requires pyriksdagen locally
+"""
 from pyriksdagen.db import filter_db, load_patterns
 from pyriksdagen.refine import detect_date
 from pyriksdagen.utils import infer_metadata
@@ -7,11 +11,6 @@ import pandas as pd
 import os
 import progressbar
 import numpy as np
-
-"""
-Scrapes protocols for first docDate tag
-OBS requires pyriksdagen locally
-"""
 
 def first_date(root):
     for docDate in root.findall(".//{http://www.tei-c.org/ns/1.0}docDate"):
