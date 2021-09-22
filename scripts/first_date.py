@@ -40,11 +40,10 @@ for outfolder in folders:
                 root = etree.parse(filename, parser).getroot()
                 
                 date = first_date(root)
-                
                 data_list.append([date, filename])
 
 df = pd.DataFrame(data_list)
-df.columns = ['date', 'file']
-df.to_csv('riksdagen_opening_dates.csv', index=False)
+df.columns = ['start', 'file']
+df.to_csv('corpus/riksdagen_dates.csv', index=False)
 
 
