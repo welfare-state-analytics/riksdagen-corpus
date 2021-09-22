@@ -12,7 +12,7 @@ from pyparlaclarin.refine import (
 
 from pyriksdagen.download import LazyArchive
 from pyriksdagen.export import parlaclarin_workflow_individual
-from pyriksdagen.db import load_db, save_db, load_patterns
+from pyriksdagen.db import load_patterns
 from pyriksdagen.refine import (
     detect_mps,
     find_introductions,
@@ -68,7 +68,7 @@ def main(args):
         f.close()
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Process some integers.")
+    parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--start", type=int, default=1920)
     parser.add_argument("--end", type=int, default=2021)
     args = parser.parse_args()

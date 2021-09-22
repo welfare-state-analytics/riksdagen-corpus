@@ -57,7 +57,7 @@ def generate_sample(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Generate a random sample of pages in the parliamentary corpus."
+        description=__doc__
     )
     parser.add_argument(
         "--out", type=str, help="Outfile location", default="sample.csv"

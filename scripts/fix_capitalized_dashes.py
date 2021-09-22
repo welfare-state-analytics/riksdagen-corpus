@@ -4,11 +4,12 @@ Concatenate split names of format "PERS- SON" into "PERSSON"
 from lxml import etree
 import pandas as pd
 import os, progressbar, re
+import argparse
 from pyparlaclarin.read import paragraph_iterator
 from pyparlaclarin.refine import format_texts
 
 
-def main():
+def main(args):
     pattern = "([A-ZÅÄÖÉ]{2,10})(- )([A-ZÅÄÖÉ]{2,10})"
     e = re.compile(pattern)
     pc_folder = "corpus/"
@@ -42,4 +43,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    args = parser.parse_args()
+    main(args)

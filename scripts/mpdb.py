@@ -3,11 +3,12 @@ Convert disorganized MP lists in input/mp/ into
 a neat, structured dataframe.
 """
 import pandas as pd
+import argparse
 from pyriksdagen.mp import create_full_database
 from pyriksdagen.mp import add_gender, add_id, clean_names, add_municipality
 from pyriksdagen.mp import replace_party_abbreviations
 
-def main():
+def main(args):
     dirs = ["input/mp/", "input/mp/fk/", "input/mp/ak/"]
     mp_db = create_full_database(dirs)
     print(mp_db)
@@ -57,4 +58,6 @@ def main():
     nogender.to_csv("nogender.csv", index=False)
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    args = parser.parse_args()
+    main(args)
