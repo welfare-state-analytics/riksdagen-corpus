@@ -1,5 +1,5 @@
 """
-Format text lines to be under max line length, update hashes.
+Format text lines to be under max line length, remove empty tags, update hashes.
 """
 from pyparlaclarin.refine import format_texts
 from pyriksdagen.db import filter_db, load_patterns
@@ -70,7 +70,7 @@ def main(args):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Process some integers.")
+    parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--start", type=int, default=1920)
     parser.add_argument("--end", type=int, default=2021)
     args = parser.parse_args()

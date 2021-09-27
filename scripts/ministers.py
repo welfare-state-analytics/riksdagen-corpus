@@ -5,11 +5,12 @@ a neat, structured dataframe.
 import pandas as pd
 from pathlib import Path
 import dateparser
+import argparse
 import datetime
 import unidecode
 
 
-def main():
+def main(args):
     # Read in all data files
     ministers = Path(".") / "input" / "ministers"
     dfs = []
@@ -85,4 +86,6 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    args = parser.parse_args()
+    main(args)

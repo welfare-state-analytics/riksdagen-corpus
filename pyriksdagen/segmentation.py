@@ -9,7 +9,6 @@ import progressbar
 from os import listdir
 from os.path import isfile, join
 from lxml import etree
-from .mp import detect_mp
 from .download import get_blocks, fetch_files
 from .utils import infer_metadata
 from .db import filter_db, year_iterator
@@ -64,6 +63,34 @@ def _is_metadata_block(txt0):
     # TODO: replace with ML algorithm
     return float(len1) / float(len0) < 0.85 and len0 < 150
 
+def detect_speaker(matched_txt, speaker_db, metadata=None):
+    """
+    Detect the speaker of the house
+    """
+    lower_txt = matched_txt.lower()
+
+    # Only match if minister is mentioned in intro
+    if "talman" in lower_txt:
+        if "herr talmannen" in lower_txt or "fru talmannen" in lower_txt:
+            speaker_db = speaker_db[speaker_db["titel"] == "talman"]
+        elif "förste vice talman" in lower_txt:
+            speaker_db = speaker_db[speaker_db["titel"] == "1_vice_talman"]
+        elif "andre vice" in lower_txt:
+            speaker_db = speaker_db[speaker_db["titel"] == "2_vice_talman"]
+        elif "tredje vice" in lower_txt:
+            speaker_db = speaker_db[speaker_db["titel"] == "3_vice_talman"]
+        else:
+            speaker_db = speaker_db[speaker_db["titel"] == "talman"]
+
+        # Do this afterwards to reduce computational cost
+        speaker_db = speaker_db[speaker_db["start"] <= metadata["end_date"]]
+        speaker_db = speaker_db[speaker_db["end"] >= metadata["start_date"]]
+        speaker_db = speaker_db[speaker_db["chamber"] == metadata["chamber"]]
+
+        #print(metadata)
+        if len(speaker_db) == 1:
+            speaker_id = list(speaker_db["id"])[0]
+            return speaker_id
 
 def detect_minister(matched_txt, minister_db, date=None):
     """

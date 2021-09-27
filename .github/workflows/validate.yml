@@ -35,6 +35,7 @@ jobs:
           pip install pandas
           pip install progressbar2
           pip install pyparlaclarin
+          pip install dateparser
 
       - name: Validate changed files
         run: |

@@ -52,9 +52,16 @@ class Test(unittest.TestCase):
         folder = "corpus/"
         mp_db = pd.read_csv("corpus/members_of_parliament.csv")[["id", "start", "end"]]
         minister_db = pd.read_csv("corpus/ministers.csv")[["id", "start", "end"]]
+        talman_db = pd.read_csv("corpus/talman.csv")[["id", "start", "end"]]
         minister_db["start"] = pd.DatetimeIndex(minister_db["start"]).year
         minister_db["end"] = pd.DatetimeIndex(minister_db["end"]).year
-        mp_db = pd.concat([mp_db, minister_db])
+        talman_db = talman_db[talman_db["start"].notnull()]
+        talman_db = talman_db[talman_db["end"].notnull()]
+        talman_db["start"] = pd.to_datetime(talman_db["start"], errors="coerce")
+        talman_db["end"] = pd.to_datetime(talman_db["end"], errors="coerce")
+        talman_db["start"] = pd.DatetimeIndex(talman_db["start"]).year
+        talman_db["end"] = pd.DatetimeIndex(talman_db["end"]).year
+        mp_db = pd.concat([mp_db, minister_db, talman_db])
         print(mp_db)
         mp_ids = {}
 

@@ -12,7 +12,7 @@ from pyparlaclarin.refine import (
 
 from pyriksdagen.download import LazyArchive
 from pyriksdagen.export import parlaclarin_workflow_individual
-from pyriksdagen.db import load_db, save_db, load_patterns
+from pyriksdagen.db import load_patterns
 from pyriksdagen.refine import (
     detect_mps,
     find_introductions,
@@ -56,7 +56,7 @@ def main(args):
         protocol_path = str(protocol_path)
         metadata = infer_metadata(protocol_path)
         root = etree.parse(protocol_path, parser).getroot()
-        root, _ = detect_date(root, metadata["year"])
+        root, _ = detect_date(root, metadata)
         root = format_texts(root)
         root = update_hashes(root, metadata["protocol"])
         b = etree.tostring(
@@ -68,7 +68,7 @@ def main(args):
         f.close()
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Process some integers.")
+    parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--start", type=int, default=1920)
     parser.add_argument("--end", type=int, default=2021)
     args = parser.parse_args()
