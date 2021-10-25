@@ -57,8 +57,8 @@ def main(args):
                     if not year in years:
                         year = years[0]
 
-                    if str(year) not in protocol_id:
-                        print(protocol_id, year)
+                    #if str(year) not in protocol_id:
+                    #    print(protocol_id, year)
                     year_mp_db = filter_db(mp_db, year=year)
                     names = year_mp_db["name"]
                     ids = year_mp_db["id"]

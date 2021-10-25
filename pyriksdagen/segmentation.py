@@ -109,12 +109,17 @@ def detect_minister(matched_txt, minister_db, date=None):
             lastname = row["name"].upper().split()[-1].strip()
             # print(lastname)
             if lastname in matched_txt:
-                if date is None:
-                    ministers.append(row["id"])
-                elif date > row["start"] and date < row["end"]:
-                    ministers.append(row["id"])
-                else:
-                    print("lastname", lastname, date, row["start"])
+                # Check that the whole name exists as a word
+                # So that 'LIND' won't be matched for 'LINDGREN'
+                matched_split = re.sub(r"[^A-Za-zÀ-ÿ /-]+", "", matched_txt)
+                matched_split = matched_split.split()
+                if lastname in matched_split:
+                    if date is None:
+                        ministers.append(row["id"])
+                    elif date > row["start"] and date < row["end"]:
+                        ministers.append(row["id"])
+                    else:
+                        print("lastname", lastname, date, row["start"])
 
         # statsrådet Lindgren
         if len(ministers) == 0:
