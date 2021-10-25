@@ -45,7 +45,7 @@ if __name__ == '__main__':
     accuracy = main(args)
     rows = []
     for year, y_acc in accuracy.items():
-        row = [year, y_acc[True],  y_acc[False]]
+        row = [year, y_acc.get(True,0),  y_acc.get(False,0)]
         rows.append(row)
 
     df = pd.DataFrame(rows, columns=["year", "known", "unknown"])
