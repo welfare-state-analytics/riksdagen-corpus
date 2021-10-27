@@ -245,6 +245,8 @@ def detect_mp(matched_txt, names_ids, mp_db=None, also_last_name=True):
         else:
             return None
 
+def detect_mp_new(matched_txt, expressions):
+    pass
 
 def expression_dicts(pattern_db):
     expressions = dict()
