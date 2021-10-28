@@ -13,8 +13,8 @@ from pyparlaclarin.refine import (
 )
 
 from pyriksdagen.db import filter_db, load_patterns
-from pyriksdagen.refine import (
-    detect_mps_new
+from pyriksdagen.segmentation import (
+    detect_mp_new
 )
 from pyriksdagen.refine import (
     detect_mps,
@@ -22,7 +22,9 @@ from pyriksdagen.refine import (
     update_ids,
     update_hashes,
 )
-from pyriksdagen.utils import infer_metadata
+from pyriksdagen.utils import infer_metadata, protocol_iterators
+import numpy as np
+import re
 
 def parse_date(s):
     """
@@ -40,60 +42,56 @@ def parse_date(s):
         else:
             return None
 
-
 def main(args):
+    found = {}
     start_year = args.start
     end_year = args.end
-    root = ""  # "../"
-    pc_folder = root + "corpus/"
-    folders = os.listdir(pc_folder)
-    tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
+    tei_ns = "{http://www.tei-c.org/ns/1.0}"
+    patterns = pd.read_json("input/segmentation/detection.json", orient="records", lines=True)
+    expressions = []
+
+    for _, pattern in patterns.iterrows():
+        exp, t = pattern["pattern"], pattern["type"]
+        print(exp, t)
+        exp = re.compile(exp)
+        expressions.append((exp, t))
+
+        print(exp.findall("Herr GUSTAFSSON i Skellefteå (fp):"))
+        print(exp.match("Herr GUSTAFSSON i Skellefteå (fp):"))
+        print(exp)
 
     parser = etree.XMLParser(remove_blank_text=True)
-    for outfolder in progressbar.progressbar(sorted(folders)):
-        if os.path.isdir(pc_folder + outfolder):
-            outfolder = outfolder + "/"
-            protocol_ids = os.listdir(pc_folder + outfolder)
-            protocol_ids = [
-                protocol_id.replace(".xml", "")
-                for protocol_id in protocol_ids
-                if protocol_id.split(".")[-1] == "xml"
-            ]
+    for protocol in progressbar.progressbar(list(protocol_iterators("corpus/", start=args.start, end=args.end))):
+        metadata = infer_metadata(protocol)
+        protocol_id = metadata["protocol"]
+        root = etree.parse(protocol, parser).getroot()
 
-            first_protocol_id = protocol_ids[0]
-            metadata = infer_metadata(first_protocol_id)
-            year = metadata["year"]
-            if year >= start_year and year <= end_year:
-                for protocol_id in progressbar.progressbar(protocol_ids):
-                    metadata = infer_metadata(protocol_id)
-                    filename = pc_folder + outfolder + protocol_id + ".xml"
-                    root = etree.parse(filename, parser).getroot()
+        years = [
+            int(elem.attrib.get("when").split("-")[0])
+            for elem in root.findall(".//" + tei_ns + "docDate")
+        ]
 
-                    years = [
-                        int(elem.attrib.get("when").split("-")[0])
-                        for elem in root.findall(tei_ns + "docDate")
-                    ]
+        dates = [
+            parse_date(elem.attrib.get("when"))
+            for elem in root.findall(".//" + tei_ns + "docDate")
+        ]
+        start_date, end_date = min(dates), max(dates)
 
-                    if not year in years:
-                        year = years[0]
-
-                    if str(year) not in protocol_id:
-                        print(protocol_id, year)
-                    year_mp_db = filter_db(mp_db, year=year)
-
-                    dates = [
-                        parse_date(elem.attrib.get("when"))
-                        for elem in root.findall(tei_ns + "docDate")
-                    ]
-                    start_date, end_date = min(dates), max(dates)
-
-                    for elem in paragraph_iterator(root, output="lxml"):
-                        if elem.tag == tei_ns + "note":
-                            note = elem
-                            if note.attrib.get("type") == "speaker":
-                                note_text = note.text
-                                row = detect_mps_new(note_text, expressions)
-
+        for elem in paragraph_iterator(root, output="lxml"):
+            if elem.tag == tei_ns + "note":
+                note = elem
+                if note.attrib.get("type") == "speaker":
+                    note_text = note.text
+                    row = detect_mp_new(note_text, expressions)
+                    if len(row) >= 1:
+                        print(note_text.strip())
+                        print(row)
+                        print()
+                    if "name" in row:
+                        found["name"] = found.get("name", np.zeros(2)) + np.array([1,0])
+                    else:
+                        found["name"] = found.get("name", np.zeros(2)) + np.array([0,1])
+    print(found["name"])
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)

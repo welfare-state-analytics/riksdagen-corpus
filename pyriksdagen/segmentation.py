@@ -245,8 +245,27 @@ def detect_mp(matched_txt, names_ids, mp_db=None, also_last_name=True):
         else:
             return None
 
-def detect_mp_new(matched_txt, expressions):
-    pass
+def detect_mp_new(intro_text, expressions):
+    intro_text = intro_text.strip()
+    d = {}
+    for exp, t in expressions:
+        m = exp.search(intro_text)
+        if m is not None:
+            matched_text = m.group(0)
+            if t not in d:
+                d[t] = matched_text.strip()
+                intro_text = intro_text.replace(matched_text, " ")
+    if "name" in d:
+        if ", " in d["name"]:
+            s = d["name"].split(", ")
+            d["name"] = s[1] + " " + s[0]
+    if "gender" in d:
+        d["gender"] = d["gender"].lower()
+        if d["gender"] == "herr":
+            d["gender"] = "man"
+        if d["gender"] in ["fru", "fröken"]:
+            d["gender"] = "woman"
+    return d
 
 def expression_dicts(pattern_db):
     expressions = dict()

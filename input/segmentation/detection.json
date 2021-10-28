@@ -1,0 +1,14 @@
+{"pattern": "((F|f)ru|(H|h)err|(F|f)röken) ", "type": "gender"}
+{"pattern": "(S|s)tatsrådet ", "type": "other"}
+{"pattern": "[a-zåäöé]{1,15}ministern ", "type": "other"}
+{"pattern": "\\([a-zåäöéA-ZÅÄÖÉ]{1,3}\\)", "type": "party"}
+{"pattern": " i [A-ZÅÄÖÉ][a-zåäöé]{1,15}", "type": "specifier"}
+{"pattern": "[A-ZÅÄÖÉ][a-zåäöé]{1,15} ([A-ZÅÄÖÉ][a-zåäöé]{1,15} )?[A-ZÅÄÖÉ]{2,15}", "type": "name"}
+{"pattern": "[A-ZÅÄÖÉ]{2,15}( [A-ZÅÄÖÉ]{2,30})? [A-ZÅÄÖÉ]{2,30}", "type": "name"}
+{"pattern": "[A-ZÅÄÖÉ]{2,15}, [A-ZÅÄÖÉ ]{2,30}", "type": "name"}
+{"pattern": "[A-ZÅÄÖÉ]{2,15}, [A-ZÅÄÖÉ ]{2,30}", "type": "name"}
+{"pattern": "[A-ZÅÄÖÉ][a-zåäöé]{1,15}, [A-ZÅÄÖÉ][a-zåäöé]{1,15}([A-ZÅÄÖÉ][a-zåäöé]{1,15} )?", "type": "name"}
+{"pattern": " [A-ZÅÄÖÉ][a-zåäöé]{1,15} [A-ZÅÄÖÉ][a-zåäöé]{1,15}", "type": "name"}
+{"pattern": " [A-ZÅÄÖÉ]{2,15}", "type": "name"}
+{"pattern": " [A-ZÅÄÖÉ][a-zåäöé]{1,15}", "type": "name"}
+{"pattern": "^[A-ZÅÄÖÉ]{2,15}", "type": "name"}
