@@ -1,13 +1,11 @@
 """
 New version of matching algorithm with fuzzy matching implemented:
 TODO:
-	- Change party in df to party_abbrev
+	- Add handling of names better (middle names optional, etc.)
 	- Switch from filtering with chamber to matching with it (in case speaker is in "wrong" chamber)
 	- Implement talman and minister matching
-	- Improve date metadata
 	- Factor code into functions
-	- Differ between unknown and indistinguishable in results summary
-	- Protocols often have very few intros detected, look into potential bug
+	- Protocols often have very few intros detected, look into potential bug (may be correct)
 
 Notes from data exploration:
 	- Found name "Fr. Julin", Fr. stands for Fröken?
@@ -20,6 +18,7 @@ Notes from data exploration:
 			some other date could be to scrape "date" tags together with intros and give intros the latest "date" tag.
 			pretty good solution for now is probably to use docDate and substitute it for filename[:4] if it is missing or potentially contains conflicts
 	- Observed lots of Unknown for first couple of ~100 protocols, investigate why
+
 """
 import textdistance
 import numpy as np
@@ -38,11 +37,91 @@ def clean_names(names):
 	names = names.str.lower()
 	return names
 
+def match_intro(row, mop, fuzzy, matches):
+	"""
+	Matches and returns id for a single individual.
+	Args: row = single individual from dataframe with columns for detected values.
+				missing values are '' and name should be cleaned.
+		  mop = members of parliament filtered by year and chamber.
+		  fuzzy = distance object from textdistance package.
+		  matches = object for summarizing results
+	"""
+	name, gender, party_abbrev, specifier, other = row[["name","gender","party_abbrev","specifier","other"]]
+
+	# Matching algoritm:
+	if 'talman' in other.lower():
+		matches["talman"] += 1
+		return 'talman_id' # for debugging
+
+	elif 'statsråd' in other.lower() or 'minister' in other.lower():
+		matches["minister"] += 1
+		return 'minister_id'  # for debugging
+		
+	else:
+
+		# filter by gender
+		if gender != '':
+			mop = mop[mop["gender"] == gender]
+
+		# match by name
+		idx = [j for j,m in mop.iterrows() if name in m["name"]]
+
+		# if unique match, return mop id
+		if len(idx) == 1:
+			matches["name"] += 1
+			return mop.loc[idx,"id"]
+
+		# if no matches, perform fuzzy and proceed from there
+		if len(idx) == 0:
+			idx = [i for i,m in mop.iterrows() if fuzzy(name, m["name"]) == 1]
+			
+			# if unique match, return mop id
+			if len(mop) == 1:
+				matches["fuzzy"] += 1
+				return mop.loc[idx,"id"]
+
+			# if still no match, return unknown
+			elif len(mop) == 0:
+				matches["no_match"] += 1
+				return 'unknown'
+
+		# if multiple potential matches, filter by more variables
+		if len(idx) > 1:
+			mop = mop.loc[idx]
+
+			# match by specifier
+			mop_id = mop.loc[mop["specifier"] == specifier, "id"]
+			if len(mop_id) == 1:
+				matches["party_specifier"] += 1
+				return mop_id
+
+			# match by party
+			mop_id = mop.loc[mop["party_abbrev"] == party_abbrev, "id"]
+			if len(mop_id) == 1:
+				matches["party"] += 1
+				return mop_id
+
+			# match by party + specifier
+			mop_id = mop.loc[(mop["specifier"] == specifier) & (mop["party_abbrev"] == party_abbrev), "id"]
+			if len(mop_id) == 1:
+				matches["specifier"] += 1
+				return mop_id
+		
+		# If 2 entries for same individual overlap in mop
+		if len(mop) == 2:
+			mop.iloc[0,["name","gender","party_abbrev","specifier"]] ==\
+			mop.iloc[1,["name","gender","party_abbrev","specifier"]]
+			return mop.iloc[0,"id"]
+
+		# Still multiple candidate matches left
+		matches["indistinguishable"] += 1
+		return 'unknown'
+		
 fuzzy = textdistance.Levenshtein(external=False) 
 
 # Output object for summarizing results
-matches = pd.DataFrame(np.zeros((1,7)), dtype = int)
-matches.columns = ["name", "fuzzy", "no_match", "indistinguishable", "party_specifier", "party", "specifier"]
+matches = pd.DataFrame(np.zeros((1,9)), dtype = int)
+matches.columns = ["name", "fuzzy", "no_match", "indistinguishable", "party_specifier", "party", "specifier", "talman", "minister"]
 
 # Import patterns
 patterns = pd.read_json("input/segmentation/detection.json", orient="records", lines=True)
@@ -66,19 +145,20 @@ with open('corpus/party_mapping.json') as f:
 intros = pd.read_csv('output.csv').sort_values(by="protocol").reset_index()
 protocols = sorted(list(set(intros["protocol"])))
 
+# For testing
 import random
 random.shuffle(protocols)
 
+p = 0
 for protocol in progressbar(protocols):
 	df = intros[intros["protocol"] == protocol][:]
+	
 	year, chamber = df.iloc[0][["year", "chamber"]] # Weird hacky syntax
 	
 	# Filter mop on protocol level
-	#mop = members_of_parliament.query(f'{year} >= start-1 and {year} <= end+1') #Old version
-	mop = members_of_parliament.query(f'{year} >= start and {year} <= end') # skip buffer to avoid overlaps
+	mop = members_of_parliament.query(f'{year} >= start and {year} <= end') # skips buffer to avoid overlaps
 	mop = mop[mop["chamber"] == chamber]
 
-	# move this before for loop and fill "" --> nan to solve potential matching bug (as nan != nan)
 	results = list(map(lambda x: detect_mp_new(x, expressions), df["intro"]))
 	df["other"] = list(map(lambda x: x.get("other", ""), results))
 	df["gender"] = list(map(lambda x: x.get("gender", ""), results))
@@ -88,133 +168,11 @@ for protocol in progressbar(protocols):
 	df["name"] = list(map(lambda x: x.get("name", ""), results))
 	df["name"] = clean_names(df["name"])
 
-	for i,row in df.iterrows():
-		# fun starts here
-		name, gender, party_abbrev, specifier, other = row[["name","gender","party_abbrev","specifier","other"]]
-		
-		# Matching algoritm:
-		if other == 'talman':
-			pass # debug
-			# return match_talman()
+	for i,row in df.iterrows():		
+		x = match_intro(row, mop, fuzzy, matches)
+	
+	p += 1
+	if p % 500 == 0:
+		print(matches)
 
-		elif other == 'statsrådet':
-			pass # debug
-			# return match_minister()
-			
-		else:
-			# filter by gender
-			candidates = mop[mop["gender"] == gender]
-
-			# match by name
-			idx = [i for i,m in candidates.iterrows() if name in m["name"]]
-
-			# if unique match, return mop id
-			if len(idx) == 1:
-				matches["name"] += 1
-				# return candidates.loc[idx,"id"]
-
-			# if no matches, perform fuzzy and proceed from there
-			if len(idx) == 0:
-				idx = [i for i,m in candidates.iterrows() if fuzzy(name, m["name"]) == 1]
-				
-				# if unique match, return mop id
-				if len(candidates) == 1:
-					matches["fuzzy"] += 1
-					# return candidates.loc[idx,"id"]
-
-				# if still no match, return unknown
-				elif len(candidates) == 0:
-					matches["no_match"] += 1
-					# return 'Unknown'
-
-			# if multiple candidates, start filtering other variables
-			if len(idx) > 1:
-				candidates = candidates.loc[idx]
-
-				idx = np.where(candidates["specifier"] == specifier)[0]
-				if len(idx) == 1:
-					matches["specifier"] += 1
-					# return candidates.loc[idx,"id"]
-
-				idx = np.where(candidates["party_abbrev"] == party_abbrev)[0]
-				if len(idx) == 1:
-					matches["party"] += 1
-					print(party_abbrev)
-					# return candidates.loc[idx,"id"]
-
-				# Broken atm due to missing party_abbrev
-				idx = np.where((candidates["specifier"] == specifier) & (candidates["party_abbrev"] == party_abbrev))[0]
-				if len(idx) == 1:
-					matches["party_specifier"] += 1
-					
-						# return candidates.loc[idx,"id"]
-
-			# return 'Unknown'
-
-	#print(matches)
-
-
-
-## For prot in protocols:
-# Make it same format (can probably be written more nicely)
-# Unsure of how to use .get("x", "") on a list together with multiple keys
-
-
- # testing?
-
-# Filter mop on protocol level
-
-
-### fun(protocol, mop_filtered, ministers_filtered, talman_filtered, expressions) 
-### return mop id
-
-
-
-
-
-
-
-
-			# filter by party and specifier
-
-
-
-#for i,row in df.iterrows():
-#
-#	intro, chamber, year = row[["intro", "chamber", "year"]]
-#	# Check that year is within 1 year difference
-#
-#	results = detect_mp_new(row["intro"], expressions)
-#	name = results.get("name", "")
-#	print(results)
-#	print(chamber)
-#	print(year)
-#	
-#	#if len(name.split()) > 2: # Check to find strange names
-#	#	print(name)
-#
-#
-## Matching algorithm
-#
-#mop = {'name': ['Johan Larsson', 'Johan Larsson', 'Johan Larsson'],\
-#	   'parti':['(s)', '(s)', '(h)'], \
-#	   'gender':['man', 'man', 'man'], \
-#	   'specifier': [None, 'i Ronne', 'i Lönnbo'], \
-#	   'other': [None, None, None]
-#	   }
-#mop = pd.DataFrame(data = mop)  
-#
-#p1 = {'name': 'JOHAN LARSSON', 'parti':'(s)', \
-#		  'gender':'man', 'specifier': 'i Lönnbo'}
-#
-## Pseudocode:
-## fun input dictionary, mop_filtered
-## returns id
-#
-## Compute distance for full name
-## If other vraia
-#
-## Fuzzy
-#fuzzy = textdistance.Levenshtein(external=False)
-#distance = fuzzy('ab', 'a')
-#
+matches.to_csv('matches.csv', index=False)
