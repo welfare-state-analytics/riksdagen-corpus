@@ -8,7 +8,6 @@ TODO:
 	- Factor code into functions
 	- Differ between unknown and indistinguishable in results summary
 	- Protocols often have very few intros detected, look into potential bug
-	- OBS may have bug, matching if detected intro data and mop are missing for same variable
 
 Notes from data exploration:
 	- Found name "Fr. Julin", Fr. stands for Fröken?
@@ -25,6 +24,7 @@ Notes from data exploration:
 import textdistance
 import numpy as np
 import pandas as pd
+import json
 import re
 from progressbar import progressbar
 
@@ -57,11 +57,17 @@ for _, pattern in patterns.iterrows():
 members_of_parliament = pd.read_csv('corpus/members_of_parliament.csv')
 members_of_parliament["name"] = clean_names(members_of_parliament["name"])
 
+with open('corpus/party_mapping.json') as f:
+  party_map = json.load(f)
+
 # Sort by protocol id, not sure where we want the final outputs,
 # but at least iterate over protocols to filter mop more efficiently.
 # could sort by year,chamber,protocol to filter more efficiently
 intros = pd.read_csv('output.csv').sort_values(by="protocol").reset_index()
 protocols = sorted(list(set(intros["protocol"])))
+
+import random
+random.shuffle(protocols)
 
 for protocol in progressbar(protocols):
 	df = intros[intros["protocol"] == protocol][:]
@@ -77,14 +83,14 @@ for protocol in progressbar(protocols):
 	df["other"] = list(map(lambda x: x.get("other", ""), results))
 	df["gender"] = list(map(lambda x: x.get("gender", ""), results))
 	df["party"] = list(map(lambda x: x.get("party", ""), results))
+	df["party_abbrev"] = list(map(lambda x: party_map.get(x, ""), df["party"]))
 	df["specifier"] = list(map(lambda x: x.get("specifier", ""), results))
 	df["name"] = list(map(lambda x: x.get("name", ""), results))
 	df["name"] = clean_names(df["name"])
-	# Add party abbreviations mapping
-	
+
 	for i,row in df.iterrows():
 		# fun starts here
-		name, gender, party, specifier, other = row[["name","gender","party","specifier","other"]]
+		name, gender, party_abbrev, specifier, other = row[["name","gender","party_abbrev","specifier","other"]]
 		
 		# Matching algoritm:
 		if other == 'talman':
@@ -109,7 +115,7 @@ for protocol in progressbar(protocols):
 
 			# if no matches, perform fuzzy and proceed from there
 			if len(idx) == 0:
-				idx = [i for i,m in candidates.iterrows() if fuzzy(name,m["name"]) == 1]
+				idx = [i for i,m in candidates.iterrows() if fuzzy(name, m["name"]) == 1]
 				
 				# if unique match, return mop id
 				if len(candidates) == 1:
@@ -124,27 +130,28 @@ for protocol in progressbar(protocols):
 			# if multiple candidates, start filtering other variables
 			if len(idx) > 1:
 				candidates = candidates.loc[idx]
-				
-				# Broken atm due to missing party_abbrev
-				idx = np.where((candidates["specifier"] == specifier) & (candidates["party_abbrev"] == party))[0]
-				if len(idx) == 1:
-					matches["party_specifier"] += 1
-					# return candidates.loc[idx,"id"]
 
 				idx = np.where(candidates["specifier"] == specifier)[0]
 				if len(idx) == 1:
 					matches["specifier"] += 1
 					# return candidates.loc[idx,"id"]
 
-				# Broken atm due to missing party_abbrev
-				idx = np.where(candidates["party_abbrev"] == party)[0]
+				idx = np.where(candidates["party_abbrev"] == party_abbrev)[0]
 				if len(idx) == 1:
 					matches["party"] += 1
+					print(party_abbrev)
 					# return candidates.loc[idx,"id"]
 
+				# Broken atm due to missing party_abbrev
+				idx = np.where((candidates["specifier"] == specifier) & (candidates["party_abbrev"] == party_abbrev))[0]
+				if len(idx) == 1:
+					matches["party_specifier"] += 1
+					
+						# return candidates.loc[idx,"id"]
+
 			# return 'Unknown'
-		
-print(matches)
+
+	#print(matches)
 
 
 
@@ -165,7 +172,7 @@ print(matches)
 
 
 
-print(matches)	
+
 
 
 			# filter by party and specifier
