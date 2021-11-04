@@ -1,11 +1,5 @@
 """
-New version of matching algorithm with fuzzy matching implemented:
-TODO:
-	- Add handling of names better (middle names optional, etc.)
-	- Switch from filtering with chamber to matching with it (in case speaker is in "wrong" chamber)
-	- Implement talman and minister matching
-	- Factor code into functions
-	- Protocols often have very few intros detected, look into potential bug (may be correct)
+New version of matching algorithm with fuzzy matching implemented.
 
 Notes from data exploration:
 	- Found name "Fr. Julin", Fr. stands for Fröken?
@@ -26,6 +20,8 @@ import pandas as pd
 import json
 import re
 from progressbar import progressbar
+from itertools import combinations
+import random
 
 from pyriksdagen.segmentation import (
     detect_mp_new
@@ -37,142 +33,119 @@ def clean_names(names):
 	names = names.str.lower()
 	return names
 
-def match_intro(row, mop, fuzzy, matches):
+def match_mp(person, mp_db, variables, fuzzy):
 	"""
-	Matches and returns id for a single individual.
-	Args: row = single individual from dataframe with columns for detected values.
-				missing values are '' and name should be cleaned.
-		  mop = members of parliament filtered by year and chamber.
-		  fuzzy = distance object from textdistance package.
-		  matches = object for summarizing results
+	Pseudocode:
+	- input person (name cleaned and party_abbrev) and mp_db (name cleaned and chamber filtered)
+	- check if it is a talman/minister and use other matching function if true
+	- filter mp_db by gender if persons gender is available
+	- find matches of persons name in mp_db
+	- if no match, perform fuzzy matching of name
+	- if 2 matches, check if they are the same person with overlapping year variable
+	- if multiple, start matching with combinations of variables
+	- if there at any step is a match, return the persons mp_db id
+	
+	TODO:
+	Improve name matching (both input data and how to handle middle names, etc.)
+
 	"""
-	name, gender, party_abbrev, specifier, other = row[["name","gender","party_abbrev","specifier","other"]]
+	if 'talman' in person["other"].lower():
+		return (['talman_id', 'talman', person]) # for debugging
 
-	# Matching algoritm:
-	if 'talman' in other.lower():
-		matches["talman"] += 1
-		return 'talman_id' # for debugging
+	elif 'statsråd' in person["other"].lower() or 'minister' in person["other"].lower():
+		return (['minister_id', 'minister', person]) # for debugging)
 
-	elif 'statsråd' in other.lower() or 'minister' in other.lower():
-		matches["minister"] += 1
-		return 'minister_id'  # for debugging
-		
-	else:
+	if person["gender"] != '': # filter by gender if available
+		mp_db = mp_db[mp_db["gender"] == person["gender"]]
+	
+	# Filter and match by name
+	matched_mps = mp_db[mp_db["name"].str.contains(person["name"])]
+	if len(matched_mps) == 0: # fuzzy matching
+		indices = [i for i,name in enumerate(mp_db["name"]) if fuzzy(name, person["name"]) == 1]
+		matched_mps = mp_db.iloc[indices]
+	if len(matched_mps) == 0: return (['unknown', 'missing', person])
+	if len(matched_mps) == 1: return ([matched_mps.iloc[0]["id"], 'name', person])
+	if len(matched_mps) >= 2: mp_db = matched_mps
+	if len(matched_mps) == 2 and all(mp_db.iloc[0][variables[-1]] == mp_db.iloc[1][variables[-1]][-1]): 
+		return ([mp_db.iloc[0]["id"], 'heuristic', person]) # heuristic
+	
+	# Iterates over combinations of variables to find a unique match
+	for v in variables:
+		matched_mps = mp_db.iloc[np.where(mp_db[v] == person[v])[0]]
+		if len(matched_mps) == 1:
+			return ([matched_mps.iloc[0]["id"], f'{v}', person])
 
-		# filter by gender
-		if gender != '':
-			mop = mop[mop["gender"] == gender]
+	return (['unknown', 'multiple', person])
 
-		# match by name
-		idx = [j for j,m in mop.iterrows() if name in m["name"]]
-
-		# if unique match, return mop id
-		if len(idx) == 1:
-			matches["name"] += 1
-			return mop.loc[idx,"id"]
-
-		# if no matches, perform fuzzy and proceed from there
-		if len(idx) == 0:
-			idx = [i for i,m in mop.iterrows() if fuzzy(name, m["name"]) == 1]
-			
-			# if unique match, return mop id
-			if len(mop) == 1:
-				matches["fuzzy"] += 1
-				return mop.loc[idx,"id"]
-
-			# if still no match, return unknown
-			elif len(mop) == 0:
-				matches["no_match"] += 1
-				return 'unknown'
-
-		# if multiple potential matches, filter by more variables
-		if len(idx) > 1:
-			mop = mop.loc[idx]
-
-			# match by specifier
-			mop_id = mop.loc[mop["specifier"] == specifier, "id"]
-			if len(mop_id) == 1:
-				matches["party_specifier"] += 1
-				return mop_id
-
-			# match by party
-			mop_id = mop.loc[mop["party_abbrev"] == party_abbrev, "id"]
-			if len(mop_id) == 1:
-				matches["party"] += 1
-				return mop_id
-
-			# match by party + specifier
-			mop_id = mop.loc[(mop["specifier"] == specifier) & (mop["party_abbrev"] == party_abbrev), "id"]
-			if len(mop_id) == 1:
-				matches["specifier"] += 1
-				return mop_id
-		
-		# If 2 entries for same individual overlap in mop
-		if len(mop) == 2:
-			mop.iloc[0,["name","gender","party_abbrev","specifier"]] ==\
-			mop.iloc[1,["name","gender","party_abbrev","specifier"]]
-			return mop.iloc[0,"id"]
-
-		# Still multiple candidate matches left
-		matches["indistinguishable"] += 1
-		return 'unknown'
-		
-fuzzy = textdistance.Levenshtein(external=False) 
-
-# Output object for summarizing results
-matches = pd.DataFrame(np.zeros((1,9)), dtype = int)
-matches.columns = ["name", "fuzzy", "no_match", "indistinguishable", "party_specifier", "party", "specifier", "talman", "minister"]
+# Import mp_db
+mop = pd.read_csv('corpus/members_of_parliament.csv')
+mop["name"] = clean_names(mop["name"])
 
 # Import patterns
 patterns = pd.read_json("input/segmentation/detection.json", orient="records", lines=True)
 expressions = []
-
 for _, pattern in patterns.iterrows():
     exp, t = pattern["pattern"], pattern["type"]
     exp = re.compile(exp)
     expressions.append((exp, t))
 
-# Import data
-members_of_parliament = pd.read_csv('corpus/members_of_parliament.csv')
-members_of_parliament["name"] = clean_names(members_of_parliament["name"])
-
+# Import and clean detected intros
 with open('corpus/party_mapping.json') as f:
   party_map = json.load(f)
+data = pd.read_csv('output.csv').sort_values(by="protocol").reset_index()
+results = list(map(lambda x: detect_mp_new(x, expressions), data["intro"]))
+data["other"] = list(map(lambda x: x.get("other", ""), results))
+data["gender"] = list(map(lambda x: x.get("gender", ""), results))
+data["party"] = list(map(lambda x: x.get("party", ""), results))
+data["party_abbrev"] = list(map(lambda x: party_map.get(x, ""), data["party"]))
+data["specifier"] = list(map(lambda x: x.get("specifier", ""), results))
+data["name"] = list(map(lambda x: x.get("name", ""), results))
+data["name"] = clean_names(data["name"])
 
-# Sort by protocol id, not sure where we want the final outputs,
-# but at least iterate over protocols to filter mop more efficiently.
-# could sort by year,chamber,protocol to filter more efficiently
-intros = pd.read_csv('output.csv').sort_values(by="protocol").reset_index()
-protocols = sorted(list(set(intros["protocol"])))
+# Create objects to match by
+variables = ['party_abbrev', 'specifier', 'name']
+variables = sum([list(map(list, combinations(variables, i))) for i in range(len(variables) + 1)], [])[1:]
+fuzzy = textdistance.Levenshtein()
 
-# For testing
-import random
+# Shuffle protocols for debugging
+protocols = list(set(data["protocol"]))
+random.seed(15)
 random.shuffle(protocols)
 
+results = []
 p = 0
-for protocol in progressbar(protocols):
-	df = intros[intros["protocol"] == protocol][:]
-	
+
+for protocol in protocols:
+	df = data[data["protocol"] == protocol]
 	year, chamber = df.iloc[0][["year", "chamber"]] # Weird hacky syntax
+	mp_db = mop[(mop["start"] <= year) & (mop["end"] >= year)]
 	
-	# Filter mop on protocol level
-	mop = members_of_parliament.query(f'{year} >= start and {year} <= end') # skips buffer to avoid overlaps
-	mop = mop[mop["chamber"] == chamber]
+	if year < 1971:
+		mp_db_split = mp_db[mp_db["chamber"] == chamber]
+	else:
+		mp_db_split = mp_db
 
-	results = list(map(lambda x: detect_mp_new(x, expressions), df["intro"]))
-	df["other"] = list(map(lambda x: x.get("other", ""), results))
-	df["gender"] = list(map(lambda x: x.get("gender", ""), results))
-	df["party"] = list(map(lambda x: x.get("party", ""), results))
-	df["party_abbrev"] = list(map(lambda x: party_map.get(x, ""), df["party"]))
-	df["specifier"] = list(map(lambda x: x.get("specifier", ""), results))
-	df["name"] = list(map(lambda x: x.get("name", ""), results))
-	df["name"] = clean_names(df["name"])
+	for i,row in df.iterrows():
+		match, reason, person = match_mp(row, mp_db_split, variables, fuzzy)
 
-	for i,row in df.iterrows():		
-		x = match_intro(row, mop, fuzzy, matches)
-	
+		# if no match in bichameral era, check other chamber
+		if match == 'unknown' and year < 1971:
+			mp_db_split = mp_db[mp_db["chamber"] != chamber]
+			match, reason, person = match_mp(row, mp_db_split, variables, fuzzy)
+		results.append(match)
+
+		# Debugging output
+		print(f'intro: {df.loc[i, "intro"]}')
+		print(f'id: {match}, reason: {reason}')
+		print(f'name: {person["name"]}, gender: {person["gender"]}, party: {person["party"]} specifier: {person["specifier"]}, other: {person["other"]}')
+		print(f'protocol: {protocol}')
+		print('                      ')
+
 	p += 1
-	if p % 500 == 0:
-		print(matches)
+	if p == 100:
+		break
 
-matches.to_csv('matches.csv', index=False)
+results = np.array(results)
+print('________________________________')
+print(f'Acc upper bound: {sum(results == "unknown") / len(results)}')
+
