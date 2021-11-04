@@ -66,7 +66,7 @@ def match_mp(person, mp_db, variables, fuzzy):
 	if len(matched_mps) == 0: return (['unknown', 'missing', person])
 	if len(matched_mps) == 1: return ([matched_mps.iloc[0]["id"], 'name', person])
 	if len(matched_mps) >= 2: mp_db = matched_mps
-	if len(matched_mps) == 2 and all(mp_db.iloc[0][variables[-1]] == mp_db.iloc[1][variables[-1]][-1]): 
+	if len(matched_mps) == 2 and all(mp_db.iloc[0][variables[-1]] == mp_db.iloc[1][variables[-1]]): 
 		return ([mp_db.iloc[0]["id"], 'heuristic', person]) # heuristic
 	
 	# Iterates over combinations of variables to find a unique match
