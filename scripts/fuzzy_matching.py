@@ -72,6 +72,9 @@ def match_mp(person, mp_db, variables, fuzzy):
 	# Iterates over combinations of variables to find a unique match
 	for v in variables:
 		matched_mps = mp_db.iloc[np.where(mp_db[v] == person[v])[0]]
+		if len(matched_mps) == 2:
+			if all(matched_mps.iloc[0][variables[-1]] == matched_mps.iloc[1][variables[-1]]): 
+				return ([matched_mps.iloc[0]["id"], f'{v}', person])
 		if len(matched_mps) == 1:
 			return ([matched_mps.iloc[0]["id"], f'{v}', person])
 
@@ -113,6 +116,7 @@ random.seed(15)
 random.shuffle(protocols)
 
 results = []
+reasons = {}
 
 protocols = protocols[:100]
 
@@ -131,10 +135,10 @@ for protocol in progressbar(protocols):
 
 		# if no match in bichameral era, check other chamber
 		if match == 'unknown' and year < 1971:
-			mp_db_split = mp_db[mp_db["chamber"] != chamber]
-			match, reason, person = match_mp(row, mp_db_split, variables, fuzzy)
+			mp_db_rest = mp_db[mp_db["chamber"] != chamber]
+			match, reason, person = match_mp(row, mp_db_rest, variables, fuzzy)
 		results.append(match)
-
+		reasons[reason] = reasons.get(reason, 0) + 1
 		# Debugging output
 		print(f'intro: {df.loc[i, "intro"]}')
 		print(f'id: {match}, reason: {reason}')
@@ -145,4 +149,6 @@ for protocol in progressbar(protocols):
 results = np.array(results)
 print('________________________________')
 print(f'Acc upper bound: {1.0 - sum(results == "unknown") / len(results)}')
+for reason in reasons:
+	print(f'Reason "{reason}": {reasons[reason] / len(results)}')
 
