@@ -108,14 +108,15 @@ variables = sum([list(map(list, combinations(variables, i))) for i in range(len(
 fuzzy = textdistance.Levenshtein()
 
 # Shuffle protocols for debugging
-protocols = list(set(data["protocol"]))
+protocols = sorted(list(set(data["protocol"])))
 random.seed(15)
 random.shuffle(protocols)
 
 results = []
-p = 0
 
-for protocol in protocols:
+protocols = protocols[:100]
+
+for protocol in progressbar(protocols):
 	df = data[data["protocol"] == protocol]
 	year, chamber = df.iloc[0][["year", "chamber"]] # Weird hacky syntax
 	mp_db = mop[(mop["start"] <= year) & (mop["end"] >= year)]
@@ -141,11 +142,7 @@ for protocol in protocols:
 		print(f'protocol: {protocol}')
 		print('                      ')
 
-	p += 1
-	if p == 100:
-		break
-
 results = np.array(results)
 print('________________________________')
-print(f'Acc upper bound: {sum(results == "unknown") / len(results)}')
+print(f'Acc upper bound: {1.0 - sum(results == "unknown") / len(results)}')
 
