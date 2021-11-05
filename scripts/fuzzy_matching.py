@@ -33,52 +33,79 @@ def clean_names(names):
 	names = names.str.lower()
 	return names
 
-def match_mp(person, mp_db, variables, fuzzy):
+def in_name(name, mp_db):
+	matched_mps = mp_db[mp_db["name"].str.contains(name)]
+	return matched_mps
+
+def subnames_in_mpname(name, mp_db):
+	if len(subnames := name.split()) <= 1: return []
+	matched_mps = [mp_db.loc[i] for i,row in mp_db.iterrows() if all([n in row["name"] for n in subnames])]
+	return matched_mps
+
+# mop_subnames in person_name
+def mpsubnames_in_name(name, mp_db):
+	matched_mps = [mp_db.loc[i] for i,row in mp_db.iterrows() \
+	if all([n in name.split() for n in row["name"].split()])]
+	return matched_mps
+
+def firstname_lastname(name, mp_db):
+	if len(subnames := name.split()) <= 1: return []
+	matched_mps = [mp_db.loc[i] for i,row in mp_db.iterrows() \
+	if subnames[0] == row["name"].split()[0] and subnames[-1] == row["name"].split()[-1]]
+	return matched_mps
+
+def two_lastnames(name, mp_db):
+	if len(subnames := name.split()) <= 1: return []
+	matched_mps = [mp_db.loc[i] for i,row in mp_db.iterrows() \
+	if name.split()[-1] == row["name"].split()[-1] and name.split()[-2] == row["name"].split()[-2]]
+	return matched_mps
+
+# Broken
+def fuzzy_name(name, mp_db):
+	matched_mps = [mp_db.loc[i] for i,row in mp_db.iterrows() \
+	if textdistance.levenshtein.distance(row["name"],name)]
+	return matched_mps
+
+def match_mp(person, mp_db, variables, matching_funs):
 	"""
 	Pseudocode:
-	- input person (name cleaned and party_abbrev) and mp_db (name cleaned and chamber filtered)
+	- inputs:
+		- person with cleaned name and party_abbrev
+		- mp_db with cleaned name and filtered by chamber for efficiency
+		- variables list of lists with variable combinations to match by
+		- matching_funs list of functions to match/filter names by
 	- check if it is a talman/minister and use other matching function if true
 	- filter mp_db by gender if persons gender is available
-	- find matches of persons name in mp_db
-	- if no match, perform fuzzy matching of name
-	- if 2 matches, check if they are the same person with overlapping year variable
-	- if multiple, start matching with combinations of variables
+	- use matching_funs in combination with variables until a unique match is found
 	- if there at any step is a match, return the persons mp_db id
-	
-	TODO:
-	Improve name matching (both input data and how to handle middle names, etc.)
 
 	"""
 	if 'talman' in person["other"].lower():
-		return (['talman_id', 'talman', person]) # for debugging
+		return (['talman_id', 'talman', person, 'talman']) # for debugging
 
 	elif 'statsråd' in person["other"].lower() or 'minister' in person["other"].lower():
-		return (['minister_id', 'minister', person]) # for debugging)
+		return (['minister_id', 'minister', person, 'minister']) # for debugging)
 
 	if person["gender"] != '': # filter by gender if available
 		mp_db = mp_db[mp_db["gender"] == person["gender"]]
 	
-	# Filter and match by name
-	matched_mps = mp_db[mp_db["name"].str.contains(person["name"])]
-	if len(matched_mps) == 0: # fuzzy matching
-		indices = [i for i,name in enumerate(mp_db["name"]) if fuzzy(name, person["name"]) == 1]
-		matched_mps = mp_db.iloc[indices]
-	if len(matched_mps) == 0: return (['unknown', 'missing', person])
-	if len(matched_mps) == 1: return ([matched_mps.iloc[0]["id"], 'name', person])
-	if len(matched_mps) >= 2: mp_db = matched_mps
-	if len(matched_mps) == 2 and all(mp_db.iloc[0][variables[-1]] == mp_db.iloc[1][variables[-1]]): 
-		return ([mp_db.iloc[0]["id"], 'heuristic', person]) # heuristic
-	
-	# Iterates over combinations of variables to find a unique match
-	for v in variables:
-		matched_mps = mp_db.iloc[np.where(mp_db[v] == person[v])[0]]
-		if len(matched_mps) >= 2:
-			if len(matched_mps.drop_duplicates(variables[-1])) == 1: 
-				return ([matched_mps.iloc[0]["id"], f'{v} DUPL', person])
-		if len(matched_mps) == 1:
-			return ([matched_mps.iloc[0]["id"], f'{v}', person])
+	for fun in matching_funs:
+		matched_mps = fun(person["name"], mp_db)
+		if len(matched_mps) == 0:
+			continue # restart if no match was found
+		if len(matched_mps) == 1: 
+			return ([pd.DataFrame(matched_mps).iloc[0]["id"], 'name', person, str(fun)])
 
-	return (['unknown', 'multiple', person])
+		# Iterates over combinations of variables to find a unique match
+		for v in variables:
+			matched_mps = mp_db.iloc[np.where(mp_db[v] == person[v])[0]]
+			if len(matched_mps) >= 2:
+				if len(matched_mps.drop_duplicates(variables[-1])) == 1: 
+					return ([matched_mps.iloc[0]["id"], f'{v} DUPL', person, str(fun)])
+			if len(matched_mps) == 1:
+				return ([matched_mps.iloc[0]["id"], f'{v}', person, str(fun)])
+
+	return (['unknown', 'missing/multiple', person, 'missing/multiple'])
 
 # Import mp_db
 mop = pd.read_csv('corpus/members_of_parliament.csv')
@@ -108,7 +135,6 @@ data["name"] = clean_names(data["name"])
 # Create objects to match by
 variables = ['party_abbrev', 'specifier', 'name']
 variables = sum([list(map(list, combinations(variables, i))) for i in range(len(variables) + 1)], [])[1:]
-fuzzy = textdistance.Levenshtein()
 
 # Shuffle protocols for debugging
 protocols = sorted(list(set(data["protocol"])))
@@ -117,8 +143,12 @@ random.shuffle(protocols)
 
 results = []
 reasons = {}
+functions = {}
 
-#protocols = protocols[:100]
+matching_funs = [in_name, subnames_in_mpname, mpsubnames_in_name,
+				 firstname_lastname, two_lastnames, fuzzy_name]
+
+protocols = protocols[:50]
 
 for protocol in progressbar(protocols):
 	df = data[data["protocol"] == protocol]
@@ -131,26 +161,29 @@ for protocol in progressbar(protocols):
 		mp_db_split = mp_db
 
 	for i,row in df.iterrows():
-		match, reason, person = match_mp(row, mp_db_split, variables, fuzzy)
+		match, reason, person, fun = match_mp(row, mp_db_split, variables, matching_funs)
 
 		# if no match in bichameral era, check other chamber
 		if match == 'unknown' and year < 1971:
 			mp_db_rest = mp_db[mp_db["chamber"] != chamber]
-			match, reason, person = match_mp(row, mp_db_rest, variables, fuzzy)
+			match, reason, person, fun = match_mp(row, mp_db_rest, variables, matching_funs)
 		results.append(match)
 		reasons[reason] = reasons.get(reason, 0) + 1
+		functions[fun] = functions.get(fun, 0) + 1
 		# Debugging output
 		#print(f'intro: {df.loc[i, "intro"]}')
 		#print(f'id: {match}, reason: {reason}')
 		#print(f'name: {person["name"]}, gender: {person["gender"]}, party: {person["party"]} specifier: {person["specifier"]}, other: {person["other"]}')
 		#print(f'protocol: {protocol}')
 		#print('                      ')
-		break
-	
 
 results = np.array(results)
-print('________________________________')
+print('____________________________________')
 print(f'Acc upper bound: {1.0 - sum(results == "unknown") / len(results)}')
+print('____________________________________')
 for reason in reasons:
 	print(f'Reason "{reason}": {reasons[reason] / len(results)}')
+print('____________________________________')
+for fun in functions:
+	print(f'Function "{fun}": {functions[fun] / len(results)}')
 
