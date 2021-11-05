@@ -9,16 +9,12 @@ from pyriksdagen.segmentation import (
     detect_mp_new
 )
 from pyriksdagen.utils import protocol_iterators, infer_metadata
-from datetime import datetime
 
-def parse_year(s, default=None):
-    try:
-        return datetime.strptime(s, "%Y-%m-%d").year
-    except ValueError:
-        if len(s) == 4:
-            return int(s)
-        else:
-            return default
+def first_date(root):
+    for docDate in root.findall(".//{http://www.tei-c.org/ns/1.0}docDate"):
+        date_string = docDate.text
+        break
+    return date_string
 
 def main(args):
     data_list = []
@@ -35,11 +31,10 @@ def main(args):
         metadata = infer_metadata(protocol)
         root = etree.parse(protocol, parser).getroot()
 
-        years = [
-            parse_year(elem.text.strip(), default=metadata["year"])
-            for elem in root.findall(".//" + tei_ns + "docDate")
-        ]
-        metadata["year"] = max(years)
+        docDates = root.findall(".//{http://www.tei-c.org/ns/1.0}docDate")
+        docDate = docDates[0].text
+        year = docDate[:4]
+
         for elem in paragraph_iterator(root, output="lxml"):
             if elem.tag == tei_ns + "note":
                 note = elem
@@ -47,7 +42,7 @@ def main(args):
                     note_text = note.text.strip()
                     note_text = ' '.join(note_text.split())
 
-                    data_list.append([note_text, metadata["chamber"], metadata["year"], protocol])
+                    data_list.append([note_text, metadata["chamber"], year, protocol])
         
     df = pd.DataFrame(data_list)
     df.columns = ['intro', 'chamber', 'year', 'protocol']
