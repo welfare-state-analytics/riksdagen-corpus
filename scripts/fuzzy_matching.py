@@ -118,9 +118,9 @@ random.shuffle(protocols)
 results = []
 reasons = {}
 
-protocols = protocols[:100]
+#protocols = protocols[:100]
 
-for protocol in progressbar(protocols):
+for protocol in (protocols):
 	df = data[data["protocol"] == protocol]
 	year, chamber = df.iloc[0][["year", "chamber"]] # Weird hacky syntax
 	mp_db = mop[(mop["start"] <= year) & (mop["end"] >= year)]
@@ -140,11 +140,13 @@ for protocol in progressbar(protocols):
 		results.append(match)
 		reasons[reason] = reasons.get(reason, 0) + 1
 		# Debugging output
-		print(f'intro: {df.loc[i, "intro"]}')
-		print(f'id: {match}, reason: {reason}')
-		print(f'name: {person["name"]}, gender: {person["gender"]}, party: {person["party"]} specifier: {person["specifier"]}, other: {person["other"]}')
-		print(f'protocol: {protocol}')
-		print('                      ')
+		#print(f'intro: {df.loc[i, "intro"]}')
+		#print(f'id: {match}, reason: {reason}')
+		#print(f'name: {person["name"]}, gender: {person["gender"]}, party: {person["party"]} specifier: {person["specifier"]}, other: {person["other"]}')
+		#print(f'protocol: {protocol}')
+		#print('                      ')
+		break
+	
 
 results = np.array(results)
 print('________________________________')
