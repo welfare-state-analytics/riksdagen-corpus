@@ -72,9 +72,9 @@ def match_mp(person, mp_db, variables, fuzzy):
 	# Iterates over combinations of variables to find a unique match
 	for v in variables:
 		matched_mps = mp_db.iloc[np.where(mp_db[v] == person[v])[0]]
-		if len(matched_mps) == 2:
-			if all(matched_mps.iloc[0][variables[-1]] == matched_mps.iloc[1][variables[-1]]): 
-				return ([matched_mps.iloc[0]["id"], f'{v}', person])
+		if len(matched_mps) >= 2:
+			if len(matched_mps.drop_duplicates(variables[-1])) == 1: 
+				return ([matched_mps.iloc[0]["id"], f'{v} DUPL', person])
 		if len(matched_mps) == 1:
 			return ([matched_mps.iloc[0]["id"], f'{v}', person])
 
@@ -120,7 +120,7 @@ reasons = {}
 
 #protocols = protocols[:100]
 
-for protocol in (protocols):
+for protocol in progressbar(protocols):
 	df = data[data["protocol"] == protocol]
 	year, chamber = df.iloc[0][["year", "chamber"]] # Weird hacky syntax
 	mp_db = mop[(mop["start"] <= year) & (mop["end"] >= year)]
