@@ -9,6 +9,16 @@ from pyriksdagen.segmentation import (
     detect_mp_new
 )
 from pyriksdagen.utils import protocol_iterators, infer_metadata
+from datetime import datetime
+
+def parse_year(s, default=None):
+    try:
+        return datetime.strptime(s, "%Y-%m-%d").year
+    except ValueError:
+        if len(s) == 4:
+            return int(s)
+        else:
+            return default
 
 def main(args):
     data_list = []
@@ -25,6 +35,11 @@ def main(args):
         metadata = infer_metadata(protocol)
         root = etree.parse(protocol, parser).getroot()
 
+        years = [
+            parse_year(elem.text.strip(), default=metadata["year"])
+            for elem in root.findall(".//" + tei_ns + "docDate")
+        ]
+        metadata["year"] = max(years)
         for elem in paragraph_iterator(root, output="lxml"):
             if elem.tag == tei_ns + "note":
                 note = elem
