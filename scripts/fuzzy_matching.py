@@ -90,6 +90,8 @@ def match_mp(person, mp_db, variables, matching_funs):
 		matched_mps = fun(person["name"], mp_db)
 
 		if len(matched_mps) == 0:
+			if fun == matching_funs[-1]:
+				return (['unknown', 'missing', person, 'missing'])
 			continue # restart if no match was found
 		if len(matched_mps) == 1: 
 			return ([matched_mps.iloc[0]["id"], 'name', person, str(fun)])
@@ -103,7 +105,7 @@ def match_mp(person, mp_db, variables, matching_funs):
 			if len(matched_mps_new) == 1:
 				return ([matched_mps_new.iloc[0]["id"], f'{v}', person, str(fun)])
 
-	return (['unknown', 'missing/multiple', person, 'missing/multiple'])
+	return (['unknown', 'multiple', person, 'multiple'])
 
 # Import mp_db
 mop = pd.read_csv('corpus/members_of_parliament.csv')
@@ -168,12 +170,6 @@ for protocol in progressbar(protocols):
 		results.append(match)
 		reasons[reason] = reasons.get(reason, 0) + 1
 		functions[fun] = functions.get(fun, 0) + 1
-		# Debugging output
-		#print(f'intro: {df.loc[i, "intro"]}')
-		#print(f'id: {match}, reason: {reason}')
-		#print(f'name: {person["name"]}, gender: {person["gender"]}, party: {person["party"]} specifier: {person["specifier"]}, other: {person["other"]}')
-		#print(f'protocol: {protocol}')
-		#print('                      ')
 
 results = np.array(results)
 print('____________________________________')
