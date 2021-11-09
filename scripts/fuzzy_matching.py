@@ -97,13 +97,14 @@ def match_mp(person, mp_db, variables, matching_funs):
 			return ([pd.DataFrame(matched_mps).iloc[0]["id"], 'name', person, str(fun)])
 
 		# Iterates over combinations of variables to find a unique match
+		matched_mps = pd.DataFrame(matched_mps, columns=mp_db.columns)
 		for v in variables:
-			matched_mps = mp_db.iloc[np.where(mp_db[v] == person[v])[0]]
-			if len(matched_mps) >= 2:
-				if len(matched_mps.drop_duplicates(variables[-1])) == 1: 
-					return ([matched_mps.iloc[0]["id"], f'{v} DUPL', person, str(fun)])
-			if len(matched_mps) == 1:
-				return ([matched_mps.iloc[0]["id"], f'{v}', person, str(fun)])
+			matched_mps_new = matched_mps.iloc[np.where(matched_mps[v] == person[v])[0]]
+			if len(matched_mps_new) >= 2:
+				if len(matched_mps_new.drop_duplicates(variables[-1])) == 1: 
+					return ([matched_mps_new.iloc[0]["id"], f'{v} DUPL', person, str(fun)])
+			if len(matched_mps_new) == 1:
+				return ([matched_mps_new.iloc[0]["id"], f'{v}', person, str(fun)])
 
 	return (['unknown', 'missing/multiple', person, 'missing/multiple'])
 
