@@ -34,37 +34,34 @@ def clean_names(names):
 	return names
 
 def in_name(name, mp_db):
-	matched_mps = mp_db[mp_db["name"].str.contains(name)]
-	return matched_mps
+	return mp_db[mp_db["name"].str.contains(name)]
 
 def subnames_in_mpname(name, mp_db):
 	if len(subnames := name.split()) <= 1: return []
-	matched_mps = [mp_db.loc[i] for i,row in mp_db.iterrows() if all([n in row["name"] for n in subnames])]
-	return matched_mps
+	indices = [i for i,row in mp_db.iterrows() if all([n in row["name"] for n in subnames])]
+	return mp_db.loc[indices]
 
-# mop_subnames in person_name
 def mpsubnames_in_name(name, mp_db):
-	matched_mps = [mp_db.loc[i] for i,row in mp_db.iterrows() \
+	indices = [i for i,row in mp_db.iterrows() \
 	if all([n in name.split() for n in row["name"].split()])]
-	return matched_mps
+	return mp_db.loc[indices]
 
 def firstname_lastname(name, mp_db):
 	if len(subnames := name.split()) <= 1: return []
-	matched_mps = [mp_db.loc[i] for i,row in mp_db.iterrows() \
+	indices = [i for i,row in mp_db.iterrows() \
 	if subnames[0] == row["name"].split()[0] and subnames[-1] == row["name"].split()[-1]]
-	return matched_mps
+	return mp_db.loc[indices]
 
 def two_lastnames(name, mp_db):
 	if len(subnames := name.split()) <= 1: return []
-	matched_mps = [mp_db.loc[i] for i,row in mp_db.iterrows() \
+	indices = [i for i,row in mp_db.iterrows() \
 	if name.split()[-1] == row["name"].split()[-1] and name.split()[-2] == row["name"].split()[-2]]
-	return matched_mps
+	return mp_db.loc[indices]
 
-# Broken
 def fuzzy_name(name, mp_db):
-	matched_mps = [mp_db.loc[i] for i,row in mp_db.iterrows() \
+	indices = [i for i,row in mp_db.iterrows() \
 	if textdistance.levenshtein.distance(row["name"],name)]
-	return matched_mps
+	return mp_db.loc[indices]
 
 def match_mp(person, mp_db, variables, matching_funs):
 	"""
@@ -91,13 +88,13 @@ def match_mp(person, mp_db, variables, matching_funs):
 	
 	for fun in matching_funs:
 		matched_mps = fun(person["name"], mp_db)
+
 		if len(matched_mps) == 0:
 			continue # restart if no match was found
 		if len(matched_mps) == 1: 
-			return ([pd.DataFrame(matched_mps).iloc[0]["id"], 'name', person, str(fun)])
+			return ([matched_mps.iloc[0]["id"], 'name', person, str(fun)])
 
 		# Iterates over combinations of variables to find a unique match
-		matched_mps = pd.DataFrame(matched_mps, columns=mp_db.columns)
 		for v in variables:
 			matched_mps_new = matched_mps.iloc[np.where(matched_mps[v] == person[v])[0]]
 			if len(matched_mps_new) >= 2:
