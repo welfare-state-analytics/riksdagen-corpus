@@ -36,6 +36,11 @@ def clean_names(names):
 def in_name(name, mp_db):
 	return mp_db[mp_db["name"].str.contains(name)]
 
+def fuzzy_name(name, mp_db):
+	indices = [i for i,row in mp_db.iterrows() \
+	if textdistance.levenshtein.distance(row["name"],name)]
+	return mp_db.loc[indices]
+
 def subnames_in_mpname(name, mp_db):
 	if len(subnames := name.split()) <= 1: return []
 	indices = [i for i,row in mp_db.iterrows() if all([n in row["name"] for n in subnames])]
@@ -56,11 +61,6 @@ def two_lastnames(name, mp_db):
 	if len(subnames := name.split()) <= 1: return []
 	indices = [i for i,row in mp_db.iterrows() \
 	if name.split()[-1] == row["name"].split()[-1] and name.split()[-2] == row["name"].split()[-2]]
-	return mp_db.loc[indices]
-
-def fuzzy_name(name, mp_db):
-	indices = [i for i,row in mp_db.iterrows() \
-	if textdistance.levenshtein.distance(row["name"],name)]
 	return mp_db.loc[indices]
 
 def match_mp(person, mp_db, variables, matching_funs):
@@ -141,14 +141,11 @@ protocols = sorted(list(set(data["protocol"])))
 random.seed(15)
 random.shuffle(protocols)
 
-results = []
-reasons = {}
-functions = {}
+matching_funs = [in_name, fuzzy_name, subnames_in_mpname, mpsubnames_in_name,
+				 firstname_lastname, two_lastnames]
 
-matching_funs = [in_name, subnames_in_mpname, mpsubnames_in_name,
-				 firstname_lastname, two_lastnames, fuzzy_name]
-
-protocols = protocols[:50]
+#protocols = protocols[:50]
+output = []
 
 for protocol in progressbar(protocols):
 	df = data[data["protocol"] == protocol]
@@ -167,17 +164,21 @@ for protocol in progressbar(protocols):
 		if match == 'unknown' and year < 1971:
 			mp_db_rest = mp_db[mp_db["chamber"] != chamber]
 			match, reason, person, fun = match_mp(row, mp_db_rest, variables, matching_funs)
-		results.append(match)
-		reasons[reason] = reasons.get(reason, 0) + 1
-		functions[fun] = functions.get(fun, 0) + 1
 
-results = np.array(results)
+		output_data = list(row[["name", "gender", "party", "party_abbrev", "specifier", "other", "intro"]])
+		output_data.extend([match, reason, fun, year, chamber, protocol])
+		output.append(output_data)
+		
+output = pd.DataFrame(output, columns = ["name", "gender", "party", "party_abbrev", "specifier", "other", "intro",\
+										 "match", "reason", "fun", "year", "chamber", "protocol"])
+output.to_csv('matched-output.csv', index=False)
+
 print('____________________________________')
-print(f'Acc upper bound: {1.0 - sum(results == "unknown") / len(results)}')
+print(f'Acc upper bound: {1 - len(output[output["match"] == "unknown"]) / len(output)}%')
 print('____________________________________')
-for reason in reasons:
-	print(f'Reason "{reason}": {reasons[reason] / len(results)}')
+for reason in list(set(output["reason"])):
+	print(f'Reason {reason}: {len(output[output["reason"] == reason]) / len(output)}%')
 print('____________________________________')
-for fun in functions:
-	print(f'Function "{fun}": {functions[fun] / len(results)}')
+for fun in matching_funs:
+	print(f'Fun {fun}: {len(output[output["fun"] == str(fun)]) / len(output)}%')
 
