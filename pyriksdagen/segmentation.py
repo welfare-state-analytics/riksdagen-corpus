@@ -147,7 +147,7 @@ def detect_mp(intro_text, expressions=None, mp_db=None, party_map=None):
 
     If multiple people are matched, defaults to returning None.
     """
-    intro_dict = detect_mp_new(intro_text, expressions)
+    intro_dict = intro_to_dict(intro_text, expressions)
     intro_dict["party_abbrev"] = party_map.get(intro_dict.get("party", ""), "")
     variables = ['party_abbrev', 'specifier', 'name']
     variables = sum([list(map(list, combinations(variables, i))) for i in range(len(variables) + 1)], [])[1:]
@@ -161,7 +161,7 @@ def detect_mp(intro_text, expressions=None, mp_db=None, party_map=None):
         #print(mp_db)
     return match
 
-def detect_mp_new(intro_text, expressions):
+def intro_to_dict(intro_text, expressions):
     intro_text = intro_text.strip()
     d = {}
     for exp, t in expressions:

@@ -25,7 +25,7 @@ import random
 import argparse
 
 from pyriksdagen.segmentation import (
-    detect_mp_new
+    intro_to_dict
 )
 from pyriksdagen import match_mp
 
@@ -46,7 +46,7 @@ def main(args):
 	with open(args.party_map) as f:
 	  party_map = json.load(f)
 	data = pd.read_csv(args.intros).sort_values(by="protocol").reset_index()
-	results = list(map(lambda x: detect_mp_new(x, expressions), data["intro"]))
+	results = list(map(lambda x: intro_to_dict(x, expressions), data["intro"]))
 	data["other"] = list(map(lambda x: x.get("other", ""), results))
 	data["gender"] = list(map(lambda x: x.get("gender", ""), results))
 	data["party"] = list(map(lambda x: x.get("party", ""), results))
