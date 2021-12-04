@@ -1,5 +1,6 @@
 import numpy as np
 import textdistance
+import pandas as pd
 
 def clean_names(names):
 	names = names.str.replace('.','', regex=False) # A.C. Lindblad --> AC Lindblad
@@ -51,6 +52,18 @@ def match_mp(person, mp_db, variables, matching_funs):
 	- if there at any step is a match, return the persons mp_db id
 
 	"""
+	print(person.keys())
+	if isinstance(person, dict):
+		for key in ["other", "gender", "name", "party_abbrev", "specifier"]:
+			if key not in person:
+				person[key] = ""
+		for key in person:
+			person[key] = [person[key]]
+		person = pd.DataFrame.from_dict(person)
+
+		person = person.astype(str)
+		person = person.iloc[0]
+
 	if 'talman' in person["other"].lower():
 		return (['talman_id', 'talman', person, 'talman']) # for debugging
 
@@ -62,7 +75,6 @@ def match_mp(person, mp_db, variables, matching_funs):
 	
 	for fun in matching_funs:
 		matched_mps = fun(person["name"], mp_db)
-
 		if len(matched_mps) == 0:
 			if fun == matching_funs[-1]:
 				return (['unknown', 'missing', person, 'missing'])

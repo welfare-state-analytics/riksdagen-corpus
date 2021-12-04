@@ -3,6 +3,7 @@ Connect introductions to the speaker in the metadata.
 """
 from lxml import etree
 import pandas as pd
+import json
 import os, progressbar, argparse
 from datetime import datetime
 from pyparlaclarin.refine import (
@@ -42,6 +43,9 @@ def main(args):
     pc_folder = root + "corpus/"
     folders = os.listdir(pc_folder)
     tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
+
+    with open("corpus/party_mapping.json") as f:
+        party_map = json.load(f)
 
     mp_db = pd.read_csv(root + "corpus/members_of_parliament.csv")
     minister_db = pd.read_csv(root + "corpus/ministers.csv", parse_dates=True)
@@ -126,6 +130,7 @@ def main(args):
                         minister_db=year_ministers,
                         speaker_db=talman_db,
                         metadata=metadata,
+                        party_map=party_map,
                     )
                     root = update_hashes(root, protocol_id)
                     b = etree.tostring(
