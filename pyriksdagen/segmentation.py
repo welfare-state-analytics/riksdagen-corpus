@@ -155,10 +155,6 @@ def detect_mp(intro_text, expressions=None, mp_db=None, party_map=None):
                      firstname_lastname, two_lastnames]
 
     match, reason, person, fun = match_mp(intro_dict, mp_db, variables, matching_funs)
-    if match == "unknown":
-        print(intro_dict)
-        print("Reason", reason)
-        #print(mp_db)
     return match
 
 def intro_to_dict(intro_text, expressions):

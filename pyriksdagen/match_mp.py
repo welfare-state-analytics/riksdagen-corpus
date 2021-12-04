@@ -3,9 +3,14 @@ import textdistance
 import pandas as pd
 
 def clean_names(names):
-	names = names.str.replace('.','', regex=False) # A.C. Lindblad --> AC Lindblad
-	names = names.str.replace('-',' ', regex=False) # Carl-Eric Lindblad --> Carl Eric Lindblad
-	names = names.str.lower()
+	if type(names) == str:
+		names = names.replace('.','') # A.C. Lindblad --> AC Lindblad
+		names = names.replace('-',' ') # Carl-Eric Lindblad --> Carl Eric Lindblad
+		names = names.lower()
+	else:
+		names = names.str.replace('.','', regex=False) # A.C. Lindblad --> AC Lindblad
+		names = names.str.replace('-',' ', regex=False) # Carl-Eric Lindblad --> Carl Eric Lindblad
+		names = names.str.lower()
 	return names
 
 def in_name(name, mp_db):
@@ -52,8 +57,11 @@ def match_mp(person, mp_db, variables, matching_funs):
 	- if there at any step is a match, return the persons mp_db id
 
 	"""
-	print(person.keys())
+	senander = False
 	if isinstance(person, dict):
+		person["name"] = clean_names(person.get("name", ""))
+		if "senander" in person["name"]:
+			senander = False
 		for key in ["other", "gender", "name", "party_abbrev", "specifier"]:
 			if key not in person:
 				person[key] = ""
@@ -72,9 +80,12 @@ def match_mp(person, mp_db, variables, matching_funs):
 
 	if person["gender"] != '': # filter by gender if available
 		mp_db = mp_db[mp_db["gender"] == person["gender"]]
-	
+	#print(mp_db)
 	for fun in matching_funs:
 		matched_mps = fun(person["name"], mp_db)
+		if senander:
+			print(fun)
+			print(matched_mps)
 		if len(matched_mps) == 0:
 			if fun == matching_funs[-1]:
 				return (['unknown', 'missing', person, 'missing'])
@@ -85,6 +96,9 @@ def match_mp(person, mp_db, variables, matching_funs):
 		# Iterates over combinations of variables to find a unique match
 		for v in variables:
 			matched_mps_new = matched_mps.iloc[np.where(matched_mps[v] == person[v])[0]]
+			if senander:
+				print(matched_mps_new)
+
 			if len(matched_mps_new) >= 2:
 				if len(matched_mps_new.drop_duplicates(variables[-1])) == 1: 
 					return ([matched_mps_new.iloc[0]["id"], f'{v} DUPL', person, str(fun)])
