@@ -50,7 +50,7 @@ def main(args):
 
     mp_db = pd.read_csv(root + "corpus/members_of_parliament.csv")
     mp_db["name"] = clean_names(mp_db["name"])
-    sk_db = pd.read_csv(root + "../riksdagen-ocr/metadata/mps.csv")
+    sk_db = pd.read_csv(root + "corpus/members_of_parliament_sk.csv")
     sk_db["name"] = clean_names(sk_db["name"])
     minister_db = pd.read_csv(root + "corpus/ministers.csv", parse_dates=True)
     minister_db["start"] = pd.to_datetime(minister_db["start"], errors="coerce")
@@ -90,7 +90,7 @@ def main(args):
                     if str(year) not in protocol_id:
                         print(protocol_id, year)
                     year_mp_db = filter_db(mp_db, year=year)
-                    year_sk_db = sk_db.loc[sk_db["year"] == year]
+                    year_sk_db = sk_db[sk_db["year"] == year]
 
                     dates = [
                         parse_date(elem.attrib.get("when"))

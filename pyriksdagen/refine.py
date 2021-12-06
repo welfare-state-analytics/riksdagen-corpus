@@ -15,7 +15,7 @@ from .segmentation import (
 )
 
 
-def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, speaker_db=None, metadata=None, party_map=None):
+def detect_mps(root, names_ids, pattern_db, mp_db=None, sk_db=None, minister_db=None, speaker_db=None, metadata=None, party_map=None):
     """
     Re-detect MPs in a parla clarin protocol, based on the (updated)
     MP database.
@@ -30,6 +30,13 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, speake
     xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     current_speaker = None
     prev = None
+
+    # For bicameral era, prioritize MPs from the same chamber as the protocol
+    if "chamber" in metadata:
+        mp_db_secondary = mp_db[mp_db["chamber"] != metadata["chamber"]]
+        mp_db = mp_db[mp_db["chamber"] == metadata["chamber"]]
+    else:
+        mp_db_secondary = None
 
     for tag, elem in elem_iter(root):
         if tag == "u":
@@ -56,6 +63,8 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, speake
                     current_speaker = detect_minister(elem.text, minister_db, date=metadata["start_date"])
                     if current_speaker is None:
                         current_speaker = detect_mp(elem.text, expressions=mp_expressions, db=mp_db, party_map=party_map)
+                    if current_speaker is None and mp_db_secondary is not None:
+                        current_speaker = detect_mp(elem.text, expressions=mp_expressions, db=mp_db_secondary, party_map=party_map)
                     if current_speaker is None:
                         current_speaker = detect_mp(elem.text, expressions=mp_expressions, db=sk_db, party_map=party_map)
                     if current_speaker is None:

@@ -4,7 +4,7 @@ import pandas as pd
 
 def clean_names(names):
 	if type(names) == str:
-		names = names.replace(',','', regex=False) # Allard, Henry --> Allard Henry
+		names = names.replace(',','') # Allard, Henry --> Allard Henry
 		names = names.replace('.','') # A.C. Lindblad --> AC Lindblad
 		names = names.replace('-',' ') # Carl-Eric Lindblad --> Carl Eric Lindblad
 		names = names.lower()

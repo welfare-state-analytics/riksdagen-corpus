@@ -155,7 +155,9 @@ def detect_mp(intro_text, expressions=None, db=None, party_map=None):
     matching_funs = [in_name, fuzzy_name, subnames_in_mpname, mpsubnames_in_name,
                      firstname_lastname, two_lastnames]
 
-    match, reason, person, fun = match_mp(intro_dict, mp_db, variables, matching_funs)
+    match, reason, person, fun = match_mp(intro_dict, db, variables, matching_funs)
+    if match == "unknown":
+        return None
     return match
 
 def intro_to_dict(intro_text, expressions):
