@@ -104,6 +104,8 @@ def match_mp(person, db, variables, matching_funs):
 
 		# Iterates over combinations of variables to find a unique match
 		for v in variables:
+			if 'name' not in v:
+				continue
 			matched_mps_new = matched_mps.iloc[np.where(matched_mps[v] == person[v])[0]]
 			if senander:
 				print(matched_mps_new)
