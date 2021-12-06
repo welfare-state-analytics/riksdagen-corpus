@@ -55,7 +55,9 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, speake
                 if type(elem.text) == str:
                     current_speaker = detect_minister(elem.text, minister_db, date=metadata["start_date"])
                     if current_speaker is None:
-                        current_speaker = detect_mp(elem.text, expressions=mp_expressions, mp_db=mp_db, party_map=party_map)
+                        current_speaker = detect_mp(elem.text, expressions=mp_expressions, db=mp_db, party_map=party_map)
+                    if current_speaker is None:
+                        current_speaker = detect_mp(elem.text, expressions=mp_expressions, db=sk_db, party_map=party_map)
                     if current_speaker is None:
                         current_speaker = detect_speaker(elem.text, speaker_db, metadata=metadata)
                     prev = None
