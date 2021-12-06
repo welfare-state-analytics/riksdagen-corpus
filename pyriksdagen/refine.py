@@ -66,7 +66,7 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, sk_db=None, minister_db=
                     if current_speaker is None and mp_db_secondary is not None:
                         current_speaker = detect_mp(elem.text, expressions=mp_expressions, db=mp_db_secondary, party_map=party_map)
                     if current_speaker is None:
-                        current_speaker = detect_mp(elem.text, expressions=mp_expressions, db=sk_db, party_map=party_map)
+                        current_speaker = detect_mp(elem.text, expressions=mp_expressions, mp_db=sk_db, party_map=party_map)
                     if current_speaker is None:
                         current_speaker = detect_speaker(elem.text, speaker_db, metadata=metadata)
                     prev = None
