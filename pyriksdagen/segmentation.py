@@ -141,7 +141,7 @@ def detect_minister(matched_txt, minister_db, date=None):
             return ministers[0]
 
 
-def detect_mp(intro_text, expressions=None, db=None, party_map=None):
+def detect_mp(intro_text, expressions=None, mp_db=None, party_map=None):
     """
     Match an MP in a text snippet. Returns an MP id (str) if found, otherwise None.
 
@@ -150,7 +150,7 @@ def detect_mp(intro_text, expressions=None, db=None, party_map=None):
     intro_dict = intro_to_dict(intro_text, expressions)
     intro_dict["party_abbrev"] = party_map.get(intro_dict.get("party", ""), "")
     variables = ['party_abbrev', 'specifier', 'name']
-    variables = [v for v in variables if v in list(db.columns)] # removes missing variables
+    variables = [v for v in variables if v in list(mp_db.columns)] # removes missing variables
     variables = sum([list(map(list, combinations(variables, i))) for i in range(len(variables) + 1)], [])[1:]
     matching_funs = [in_name, fuzzy_name, subnames_in_mpname, mpsubnames_in_name,
                      firstname_lastname, two_lastnames]
