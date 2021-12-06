@@ -69,7 +69,7 @@ def match_mp(person, db, variables, matching_funs):
 	if isinstance(person, dict):
 		person["name"] = clean_names(person.get("name", ""))
 		if "senander" in person["name"]:
-			senander = False
+			senander = True
 		for key in ["other", "gender", "name", "party_abbrev", "specifier"]:
 			if key not in person:
 				person[key] = ""
