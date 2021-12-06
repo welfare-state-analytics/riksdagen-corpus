@@ -4,10 +4,12 @@ import pandas as pd
 
 def clean_names(names):
 	if type(names) == str:
+		names = names.replace(',','', regex=False) # Allard, Henry --> Allard Henry
 		names = names.replace('.','') # A.C. Lindblad --> AC Lindblad
 		names = names.replace('-',' ') # Carl-Eric Lindblad --> Carl Eric Lindblad
 		names = names.lower()
 	else:
+		names = names.str.replace(',','', regex=False) # Allard, Henry --> Allard Henry
 		names = names.str.replace('.','', regex=False) # A.C. Lindblad --> AC Lindblad
 		names = names.str.replace('-',' ', regex=False) # Carl-Eric Lindblad --> Carl Eric Lindblad
 		names = names.str.lower()
@@ -37,10 +39,16 @@ def firstname_lastname(name, mp_db):
 	if subnames[0] == row["name"].split()[0] and subnames[-1] == row["name"].split()[-1]]
 	return mp_db.loc[indices]
 
+def firstname_lastname_reversed(name, mp_db):
+	if len(subnames := name.split()) <= 1: return []
+	indices = [i for i,row in mp_db.iterrows() \
+	if subnames[0] == row["name"].split()[-1] and subnames[-1] == row["name"].split()[0]]
+	return mp_db.loc[indices]
+
 def two_lastnames(name, mp_db):
 	if len(subnames := name.split()) <= 1: return []
 	indices = [i for i,row in mp_db.iterrows() \
-	if name.split()[-1] == row["name"].split()[-1] and name.split()[-2] == row["name"].split()[-2]]
+	if name.split()[-1] == row["name"].split()[-1] and name.split()[-2] == row["name"].split()[1:]]
 	return mp_db.loc[indices]
 
 def match_mp(person, mp_db, variables, matching_funs):
@@ -78,7 +86,8 @@ def match_mp(person, mp_db, variables, matching_funs):
 	elif 'statsråd' in person["other"].lower() or 'minister' in person["other"].lower():
 		return (['minister_id', 'minister', person, 'minister']) # for debugging)
 
-	if person["gender"] != '': # filter by gender if available
+	# statskalender file currently lacks gender
+	if person["gender"] != '' and "gender" in list(mp_db.columns): # filter by gender if available
 		mp_db = mp_db[mp_db["gender"] == person["gender"]]
 	#print(mp_db)
 	for fun in matching_funs:

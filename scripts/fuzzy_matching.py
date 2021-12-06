@@ -57,7 +57,15 @@ def main(args):
 
 	# Create objects to match by
 	variables = ['party_abbrev', 'specifier', 'name']
-	variables = sum([list(map(list, combinations(variables, i))) for i in range(len(variables) + 1)], [])[1:]
+	mop_variables = sum([list(map(list, combinations(variables, i))) for i in range(len(variables) + 1)], [])[1:]
+
+	# Same procedure for statskalendern
+	sk = pd.read_csv(args.sk)
+	sk["name"] = match_mp.clean_names(sk["name"])
+	sk_variables = [v for v in variables if v in list(sk.columns)]
+	sk_maxyear = max(sk["year"])
+	# Fake ids for testing
+	sk["id"] = list(map(lambda x: str(x), list(range(len(sk)))))
 
 	# Shuffle protocols for debugging
 	protocols = sorted(list(set(data["protocol"])))
@@ -65,7 +73,7 @@ def main(args):
 	random.shuffle(protocols)
 
 	matching_funs = [match_mp.in_name, match_mp.fuzzy_name, match_mp.subnames_in_mpname, match_mp.mpsubnames_in_name,
-					 match_mp.firstname_lastname, match_mp.two_lastnames]
+					 match_mp.firstname_lastname, match_mp.two_lastnames, match_mp.firstname_lastname_reversed]
 
 	protocols = protocols[:int(args.n_protocols)]
 	output = []
@@ -81,17 +89,24 @@ def main(args):
 			mp_db_split = mp_db
 
 		for i,row in df.iterrows():
-			match, reason, person, fun = match_mp.match_mp(row, mp_db_split, variables, matching_funs)
+			match, reason, person, fun = match_mp.match_mp(row, mp_db_split, mop_variables, matching_funs)
 
 			# if no match in bichameral era, check other chamber
 			if match == 'unknown' and year < 1971:
 				mp_db_rest = mp_db[mp_db["chamber"] != chamber]
-				match, reason, person, fun = match_mp.match_mp(row, mp_db_rest, variables, matching_funs)
+				match, reason, person, fun = match_mp.match_mp(row, mp_db_rest, mop_variables, matching_funs)
+
+			if match == 'unknown' and year <= sk_maxyear:
+				sk_db = sk[sk["year"] == year]
+				match, reason, person, fun = match_mp.match_mp(row, sk_db, sk_variables, matching_funs)
+				if match != 'unknown':
+					reason += '_sk'
 
 			output_data = list(row[["name", "gender", "party", "party_abbrev", "specifier", "other", "intro"]])
 			output_data.extend([match, reason, fun, year, chamber, protocol])
 			output.append(output_data)
 			
+
 	output = pd.DataFrame(output, columns = ["name", "gender", "party", "party_abbrev", "specifier", "other", "intro",\
 											 "match", "reason", "fun", "year", "chamber", "protocol"])
 	output.to_csv('matched-output.csv', index=False)
@@ -111,6 +126,7 @@ if __name__ == '__main__':
 	parser.add_argument("--seed", type=str, default=123, help="Number of protocols")
 
 	parser.add_argument("--mop", type=str, default="corpus/members_of_parliament.csv", help="Path to mop")
+	parser.add_argument("--sk", type=str, default="../riksdagen-ocr/metadata/mps.csv", help="Path to statscalender")
 	parser.add_argument("--patterns", type=str, default="input/segmentation/detection.json", help="Path to patterns")
 	parser.add_argument("--party_map", type=str, default="corpus/party_mapping.json", help="Path to party_mapping")
 	parser.add_argument("--intros", type=str, default="output.csv", help="Path detected intros")
