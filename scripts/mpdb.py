@@ -8,7 +8,7 @@ from pyriksdagen.mp import create_full_database
 from pyriksdagen.mp import add_gender, add_id, clean_names, add_municipality
 from pyriksdagen.mp import replace_party_abbreviations
 
-def main(args):
+def text_source(args):
     dirs = ["input/mp/", "input/mp/fk/", "input/mp/ak/"]
     mp_db = create_full_database(dirs)
     print(mp_db)
@@ -57,7 +57,35 @@ def main(args):
     nogender = nogender[["name"]].drop_duplicates(["name"])
     nogender.to_csv("nogender.csv", index=False)
 
+def sk_source(args):
+    sk_db = pd.read_csv("corpus/members_of_parliament_sk.csv")
+
+    # Add gender based on name registry
+    names = pd.read_csv("input/mp/metadata/names.csv")
+    sk_db = add_gender(sk_db, names)
+
+    # Clean names
+    sk_db = clean_names(sk_db)
+
+    # TODO: add party
+    sk_db["party"] = None
+
+    # Add start and end year, for statskalender its just the year
+    # of the data source
+    sk_db["start"] = sk_db["year"]
+    sk_db["end"] = sk_db["year"]
+
+    # Add deterministic id
+    sk_db = add_id(sk_db)
+
+    # Save on disk
+    sk_db.to_csv("corpus/members_of_parliament_sk.csv", index=False)
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--datasource", type=str, choices=["text", "statskalender"])
     args = parser.parse_args()
-    main(args)
+    if args.datasource == "text":
+        text_source(args)
+    else:
+        sk_source(args)
