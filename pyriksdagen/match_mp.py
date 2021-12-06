@@ -15,54 +15,54 @@ def clean_names(names):
 		names = names.str.lower()
 	return names
 
-def in_name(name, mp_db):
-	return mp_db[mp_db["name"].str.contains(name)]
+def in_name(name, db):
+	return db[db["name"].str.contains(name)]
 
-def fuzzy_name(name, mp_db):
-	indices = [i for i,row in mp_db.iterrows() \
+def fuzzy_name(name, db):
+	indices = [i for i,row in db.iterrows() \
 	if textdistance.levenshtein.distance(row["name"],name)]
-	return mp_db.loc[indices]
+	return db.loc[indices]
 
-def subnames_in_mpname(name, mp_db):
+def subnames_in_mpname(name, db):
 	if len(subnames := name.split()) <= 1: return []
-	indices = [i for i,row in mp_db.iterrows() if all([n in row["name"] for n in subnames])]
-	return mp_db.loc[indices]
+	indices = [i for i,row in db.iterrows() if all([n in row["name"] for n in subnames])]
+	return db.loc[indices]
 
-def mpsubnames_in_name(name, mp_db):
-	indices = [i for i,row in mp_db.iterrows() \
+def mpsubnames_in_name(name, db):
+	indices = [i for i,row in db.iterrows() \
 	if all([n in name.split() for n in row["name"].split()])]
-	return mp_db.loc[indices]
+	return db.loc[indices]
 
-def firstname_lastname(name, mp_db):
+def firstname_lastname(name, db):
 	if len(subnames := name.split()) <= 1: return []
-	indices = [i for i,row in mp_db.iterrows() \
+	indices = [i for i,row in db.iterrows() \
 	if subnames[0] == row["name"].split()[0] and subnames[-1] == row["name"].split()[-1]]
-	return mp_db.loc[indices]
+	return db.loc[indices]
 
-def firstname_lastname_reversed(name, mp_db):
+def firstname_lastname_reversed(name, db):
 	if len(subnames := name.split()) <= 1: return []
-	indices = [i for i,row in mp_db.iterrows() \
+	indices = [i for i,row in db.iterrows() \
 	if subnames[0] == row["name"].split()[-1] and subnames[-1] == row["name"].split()[0]]
-	return mp_db.loc[indices]
+	return db.loc[indices]
 
-def two_lastnames(name, mp_db):
+def two_lastnames(name, db):
 	if len(subnames := name.split()) <= 1: return []
-	indices = [i for i,row in mp_db.iterrows() \
+	indices = [i for i,row in db.iterrows() \
 	if name.split()[-1] == row["name"].split()[-1] and name.split()[-2] == row["name"].split()[1:]]
-	return mp_db.loc[indices]
+	return db.loc[indices]
 
-def match_mp(person, mp_db, variables, matching_funs):
+def match_mp(person, db, variables, matching_funs):
 	"""
 	Pseudocode:
 	- inputs:
 		- person with cleaned name and party_abbrev
-		- mp_db with cleaned name and filtered by chamber for efficiency
+		- db with cleaned name and filtered by chamber for efficiency
 		- variables list of lists with variable combinations to match by
 		- matching_funs list of functions to match/filter names by
 	- check if it is a talman/minister and use other matching function if true
-	- filter mp_db by gender if persons gender is available
+	- filter db by gender if persons gender is available
 	- use matching_funs in combination with variables until a unique match is found
-	- if there at any step is a match, return the persons mp_db id
+	- if there at any step is a match, return the persons db id
 
 	"""
 	senander = False
@@ -87,11 +87,11 @@ def match_mp(person, mp_db, variables, matching_funs):
 		return (['minister_id', 'minister', person, 'minister']) # for debugging)
 
 	# statskalender file currently lacks gender
-	if person["gender"] != '' and "gender" in list(mp_db.columns): # filter by gender if available
-		mp_db = mp_db[mp_db["gender"] == person["gender"]]
-	#print(mp_db)
+	if person["gender"] != '' and "gender" in list(db.columns): # filter by gender if available
+		db = db[db["gender"] == person["gender"]]
+
 	for fun in matching_funs:
-		matched_mps = fun(person["name"], mp_db)
+		matched_mps = fun(person["name"], db)
 		if senander:
 			print(fun)
 			print(matched_mps)

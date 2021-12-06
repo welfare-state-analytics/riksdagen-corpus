@@ -15,7 +15,7 @@ from .segmentation import (
 )
 
 
-def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, speaker_db=None, metadata=None, party_map=None):
+def detect_mps(root, names_ids, pattern_db, mp_db=None, sk_db=None, minister_db=None, speaker_db=None, metadata=None, party_map=None):
     """
     Re-detect MPs in a parla clarin protocol, based on the (updated)
     MP database.
