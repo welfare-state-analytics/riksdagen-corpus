@@ -51,6 +51,9 @@ def two_lastnames(name, db):
 	if name.split()[-1] == row["name"].split()[-1] and name.split()[-2] == row["name"].split()[1:]]
 	return db.loc[indices]
 
+def lastname(name, db):
+	return db[db["name"].str.split().str[-1] == name]
+
 def match_mp(person, db, variables, matching_funs):
 	"""
 	Pseudocode:
@@ -68,7 +71,7 @@ def match_mp(person, db, variables, matching_funs):
 	senander = False
 	if isinstance(person, dict):
 		person["name"] = clean_names(person.get("name", ""))
-		if "senander" in person["name"]:
+		if "hall" in person["name"].split():
 			senander = True
 		for key in ["other", "gender", "name", "party_abbrev", "specifier"]:
 			if key not in person:
