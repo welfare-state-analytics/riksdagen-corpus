@@ -15,23 +15,36 @@ def clean_names(names):
 		names = names.str.lower()
 	return names
 
-def in_name(name, db):
-	return db[db["name"].str.contains(name)]
+#def in_name(name, db):
+#	return db[db["name"].str.contains(name)]
 
 def fuzzy_name(name, db):
 	indices = [i for i,row in db.iterrows() \
 	if textdistance.levenshtein.distance(row["name"],name)]
 	return db.loc[indices]
 
+# NEW functions to replace both in_name, subnames_in_mpname, and mpsubnames_in_name
 def subnames_in_mpname(name, db):
-	if len(subnames := name.split()) <= 1: return []
-	indices = [i for i,row in db.iterrows() if all([n in row["name"] for n in subnames])]
+	indices = [i for i,row in db.iterrows() if
+			   all(any(n == subname for n in row["name"].split())
+			   for subname in name.split())]
 	return db.loc[indices]
 
 def mpsubnames_in_name(name, db):
-	indices = [i for i,row in db.iterrows() \
-	if all([n in name.split() for n in row["name"].split()])]
+	indices = [i for i,row in db.iterrows() if
+			   all(any(n == subname for n in name.split())
+			   for subname in row["name"].split())]
 	return db.loc[indices]
+
+#def subnames_in_mpname(name, db):
+#	if len(subnames := name.split()) <= 1: return []
+#	indices = [i for i,row in db.iterrows() if all([n in row["name"] for n in subnames])]
+#	return db.loc[indices]
+#
+#def mpsubnames_in_name(name, db):
+#	indices = [i for i,row in db.iterrows() \
+#	if all([n in name.split() for n in row["name"].split()])]
+#	return db.loc[indices]
 
 def firstname_lastname(name, db):
 	if len(subnames := name.split()) <= 1: return []
