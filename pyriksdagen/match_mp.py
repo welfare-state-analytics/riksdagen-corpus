@@ -71,7 +71,7 @@ def match_mp(person, db, variables, matching_funs):
 	senander = False
 	if isinstance(person, dict):
 		person["name"] = clean_names(person.get("name", ""))
-		if "hall" in person["name"].split():
+		if "rosén" in person["name"].split():
 			senander = True
 		for key in ["other", "gender", "name", "party_abbrev", "specifier"]:
 			if key not in person:
@@ -96,8 +96,8 @@ def match_mp(person, db, variables, matching_funs):
 	for fun in matching_funs:
 		matched_mps = fun(person["name"], db)
 		if senander:
-			print(fun)
-			print(matched_mps)
+			pass
+
 		if len(matched_mps) == 0:
 			if fun == matching_funs[-1]:
 				return (['unknown', 'missing', person, 'missing'])
@@ -105,13 +105,15 @@ def match_mp(person, db, variables, matching_funs):
 		if len(matched_mps) == 1: 
 			return ([matched_mps.iloc[0]["id"], 'name', person, str(fun)])
 
+		if len(matched_mps) >= 2:
+			if len(matched_mps.drop_duplicates(variables[-1])) == 1: 
+				return ([matched_mps.iloc[0]["id"], 'DUPL', person, str(fun)])
+
 		# Iterates over combinations of variables to find a unique match
 		for v in variables:
 			if 'name' not in v:
 				continue
 			matched_mps_new = matched_mps.iloc[np.where(matched_mps[v] == person[v])[0]]
-			if senander:
-				print(matched_mps_new)
 
 			if len(matched_mps_new) >= 2:
 				if len(matched_mps_new.drop_duplicates(variables[-1])) == 1: 
