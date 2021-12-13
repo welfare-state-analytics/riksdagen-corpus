@@ -206,9 +206,7 @@ def detect_introduction(paragraph, expressions, names_ids, minister_db=None):
     for pattern_digest, exp in expressions.items():
         for m in exp.finditer(paragraph.strip()):
             matched_txt = m.group()
-            person = detect_minister(matched_txt, minister_db)
-            if person is None:
-                person = detect_mp(matched_txt, names_ids)
+            person = None
             segmentation = "speech_start"
             d = {
                 "pattern": pattern_digest,
