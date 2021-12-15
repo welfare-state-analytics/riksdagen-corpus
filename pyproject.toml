@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pyriksdagen"
+version = "0.2.0"
+description = "Access the Riksdagen corpus"
+authors = ["ninpnin <vainoyrjanainen@icloud.com>"]
+repository = "https://github.com/welfare-state-analytics/riksdagen-corpus"
+readme = "README.md"
+license = "MIT"
+packages = [
+    { include = "pyriksdagen", from = "" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+devtools = "^0.5.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

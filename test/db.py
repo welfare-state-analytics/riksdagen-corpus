@@ -24,21 +24,5 @@ class Test(unittest.TestCase):
             print(column, valid_ratio)
             self.assertGreaterEqual(valid_ratio, percentage)
 
-    def test_not_decreased(self):
-        mp_db = pd.read_csv("corpus/members_of_parliament.csv")
-        data = None
-        dpath = "test/mpstats.yml"
-        with open(dpath, 'r') as stream:
-            data = yaml.safe_load(stream)
-
-        data_out = {}
-        for column, number in data.items():
-            column_count = len(mp_db[mp_db[column].notnull()])
-            data_out[column] = column_count
-            self.assertGreaterEqual(column_count, number)
-
-        with open(dpath, 'w') as outfile:
-            yaml.dump(data_out, outfile, default_flow_style=False)
-
 if __name__ == '__main__':
     unittest.main()

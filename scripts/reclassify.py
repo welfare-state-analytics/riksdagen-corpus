@@ -1,50 +1,72 @@
+"""
+Run the classification into utterances and notes.
+"""
+from pyparlaclarin.refine import reclassify, format_texts, random_classifier
+
 from pyriksdagen.db import filter_db, load_patterns
-from pyriksdagen.refine import reclassify_paragrahps, format_texts
-from pyriksdagen.utils import infer_metadata
+from pyriksdagen.utils import infer_metadata, protocol_iterators
 from lxml import etree
 import pandas as pd
-import os, progressbar
+import os, progressbar, sys
+import argparse
+import numpy as np
 
-root = ""#"../"
-pc_folder = root + "corpus/"
-folders = os.listdir(pc_folder)
+def classify_paragraph(s, model, ft, dim, prior=np.log([0.8, 0.2])):
+    if s is None:
+        return "note"
+    words = s.split()
+    V = len(words)
+    x = np.zeros((V, dim))
 
-mp_db = pd.read_csv(root + "corpus/members_of_parliament.csv")
+    for ix, word in enumerate(words):
+        vec = ft.get_word_vector(word)
+        x[ix] = vec
 
-import tensorflow as tf
-import fasttext.util
+    pred = model.predict(x, batch_size=V)
+    biases = model.predict(np.zeros(x.shape), batch_size=V)
+    # print(pred)
+    prediction = np.sum(pred, axis=0) + prior
 
-model = tf.keras.models.load_model("input/segment-classifier")
+    if prediction[0] < prediction[1]:
+        #print("note", s.strip()[:100])
+        return "note"
+    else:
+        #print("u", s.strip()[:100])
+        return "u"
 
-# Load word vectors from disk or download with the fasttext module
-vector_path = 'cc.sv.300.bin'
-fasttext.util.download_model('sv', if_exists='ignore')
-ft = fasttext.load_model(vector_path)
+def get_neural_classifier(model, ft, dim):
+    return (lambda paragraph: classify_paragraph(paragraph, model, ft, dim))
 
-classifier = dict(
-    model=model,
-    ft=ft,
-    dim=ft.get_word_vector("hej").shape[0]
-)
+def main(args):
+    parser = etree.XMLParser(remove_blank_text=True)
 
-parser = etree.XMLParser(remove_blank_text=True)
-for outfolder in progressbar.progressbar(folders):
-    if os.path.isdir(pc_folder + outfolder):
-        outfolder = outfolder + "/"
-        protocol_ids = os.listdir(pc_folder + outfolder)
-        protocol_ids = [protocol_id.replace(".xml", "") for protocol_id in protocol_ids if protocol_id.split(".")[-1] == "xml"]
+    if False:
+        classifier = random_classifier
+    else:
+        # Do imports here because they take a loong time
+        from tensorflow import keras
+        import fasttext, fasttext.util
+        dim = 300
+        fasttext.util.download_model('sv', if_exists='ignore')
+        ft = fasttext.load_model("cc.sv." + str(dim) + ".bin")
+        model = keras.models.load_model('input/segment-classifier/')
+        classifier = get_neural_classifier(model, ft, dim)
 
-        for protocol_id in protocol_ids:
-            if "prot-1935" in protocol_id:
-                print(protocol_id)
-                metadata = infer_metadata(protocol_id)
-                filename = pc_folder + outfolder + protocol_id + ".xml"
-                root = etree.parse(filename, parser).getroot()
+    for protocol_path in progressbar.progressbar(list(protocol_iterators("corpus/", start=args.start, end=args.end))):
+        metadata = infer_metadata(protocol_path)
+        root = etree.parse(protocol_path, parser).getroot()
 
-                root = reclassify_paragrahps(root, classifier)
-                root = format_texts(root)
-                b = etree.tostring(root, pretty_print=True, encoding="utf-8", xml_declaration=True)
+        root = reclassify(root, classifier, exclude=["date", "speaker"])
+        root = format_texts(root)
+        b = etree.tostring(root, pretty_print=True, encoding="utf-8", xml_declaration=True)
 
-                f = open(filename, "wb")
-                f.write(b)
-                f.close()
+        f = open(protocol_path, "wb")
+        f.write(b)
+        f.close()
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--start", type=int, default=1920)
+    parser.add_argument("--end", type=int, default=2021)
+    args = parser.parse_args()
+    main(args)
