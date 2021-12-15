@@ -2,6 +2,7 @@ from lxml import etree
 import re, random, datetime
 from pyparlaclarin.read import element_hash
 import dateparser
+import pandas as pd
 
 from .utils import elem_iter
 from .segmentation import (
@@ -14,14 +15,28 @@ from .segmentation import (
 )
 
 
-def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, speaker_db=None, metadata=None):
+def detect_mps(root, names_ids, pattern_db, mp_db=None, sk_db=None, minister_db=None, speaker_db=None, metadata=None, party_map=None):
     """
     Re-detect MPs in a parla clarin protocol, based on the (updated)
     MP database.
     """
+    mp_patterns = pd.read_json("input/segmentation/detection.json", orient="records", lines=True)
+    mp_expressions = []
+    for _, pattern in mp_patterns.iterrows():
+        exp, t = pattern["pattern"], pattern["type"]
+        exp = re.compile(exp)
+        mp_expressions.append((exp, t))
+
     xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     current_speaker = None
     prev = None
+
+    # For bicameral era, prioritize MPs from the same chamber as the protocol
+    if "chamber" in metadata:
+        mp_db_secondary = mp_db[mp_db["chamber"] != metadata["chamber"]]
+        mp_db = mp_db[mp_db["chamber"] == metadata["chamber"]]
+    else:
+        mp_db_secondary = None
 
     for tag, elem in elem_iter(root):
         if tag == "u":
@@ -47,9 +62,15 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, speake
                 if type(elem.text) == str:
                     current_speaker = detect_minister(elem.text, minister_db, date=metadata["start_date"])
                     if current_speaker is None:
-                        current_speaker = detect_mp(elem.text, names_ids, mp_db=mp_db)
+                        current_speaker = detect_mp(elem.text, expressions=mp_expressions, db=mp_db, party_map=party_map)
+                    if current_speaker is None and mp_db_secondary is not None:
+                        current_speaker = detect_mp(elem.text, expressions=mp_expressions, db=mp_db_secondary, party_map=party_map)
                     if current_speaker is None:
+                        current_speaker = detect_mp(elem.text, expressions=mp_expressions, db=sk_db, party_map=party_map)
+                    if current_speaker is None or current_speaker == "talman_id":
                         current_speaker = detect_speaker(elem.text, speaker_db, metadata=metadata)
+                    if current_speaker == "minister_id":
+                        current_speaker = None
                     prev = None
 
     # Do two loops to preserve attribute order

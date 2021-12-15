@@ -3,6 +3,7 @@ Connect introductions to the speaker in the metadata.
 """
 from lxml import etree
 import pandas as pd
+import json
 import os, progressbar, argparse
 from datetime import datetime
 from pyparlaclarin.refine import (
@@ -17,6 +18,7 @@ from pyriksdagen.refine import (
     update_hashes,
 )
 from pyriksdagen.utils import infer_metadata
+from pyriksdagen.match_mp import clean_names
 
 def parse_date(s):
     """
@@ -43,7 +45,13 @@ def main(args):
     folders = os.listdir(pc_folder)
     tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
 
+    with open("corpus/party_mapping.json") as f:
+        party_map = json.load(f)
+
     mp_db = pd.read_csv(root + "corpus/members_of_parliament.csv")
+    mp_db["name"] = clean_names(mp_db["name"])
+    sk_db = pd.read_csv(root + "corpus/members_of_parliament_sk.csv")
+    sk_db["name"] = clean_names(sk_db["name"])
     minister_db = pd.read_csv(root + "corpus/ministers.csv", parse_dates=True)
     minister_db["start"] = pd.to_datetime(minister_db["start"], errors="coerce")
     minister_db["end"] = pd.to_datetime(minister_db["end"], errors="coerce")
@@ -78,10 +86,11 @@ def main(args):
 
                     if not year in years:
                         year = years[0]
-
+                    print("Year", year)
                     if str(year) not in protocol_id:
                         print(protocol_id, year)
                     year_mp_db = filter_db(mp_db, year=year)
+                    year_sk_db = sk_db[sk_db["year"] == year]
 
                     dates = [
                         parse_date(elem.attrib.get("when"))
@@ -102,30 +111,24 @@ def main(args):
                         print(end_date)
                         year_ministers = minister_db[minister_db.columns]
 
-                    chamber = metadata.get("chamber", None)
-                    if chamber is not None:
-                        year_mp_db = year_mp_db[year_mp_db["chamber"] == chamber]
-
                     metadata["start_date"] = start_date
                     metadata["end_date"] = end_date
-
-                    names = year_mp_db["name"]
-                    ids = year_mp_db["id"]
-                    names_ids = list(zip(names, ids))
-                    year_mp_db = year_mp_db[year_mp_db["specifier"].notnull()]
 
                     pattern_db = load_patterns()
                     pattern_db = pattern_db[
                         (pattern_db["start"] <= year) & (pattern_db["end"] >= year)
                     ]
+                    #print(year_mp_db)
                     root = detect_mps(
                         root,
-                        names_ids,
+                        None,
                         pattern_db,
                         mp_db=year_mp_db,
                         minister_db=year_ministers,
                         speaker_db=talman_db,
+                        sk_db=year_sk_db,
                         metadata=metadata,
+                        party_map=party_map,
                     )
                     root = update_hashes(root, protocol_id)
                     b = etree.tostring(

@@ -12,6 +12,8 @@ from lxml import etree
 from .download import get_blocks, fetch_files
 from .utils import infer_metadata
 from .db import filter_db, year_iterator
+from .match_mp import *
+from itertools import combinations
 
 # Classify paragraph
 def classify_paragraph(paragraph, classifier, prior=np.log([0.8, 0.2])):
@@ -109,12 +111,17 @@ def detect_minister(matched_txt, minister_db, date=None):
             lastname = row["name"].upper().split()[-1].strip()
             # print(lastname)
             if lastname in matched_txt:
-                if date is None:
-                    ministers.append(row["id"])
-                elif date > row["start"] and date < row["end"]:
-                    ministers.append(row["id"])
-                else:
-                    print("lastname", lastname, date, row["start"])
+                # Check that the whole name exists as a word
+                # So that 'LIND' won't be matched for 'LINDGREN'
+                matched_split = re.sub(r"[^A-Za-zÀ-ÿ /-]+", "", matched_txt)
+                matched_split = matched_split.split()
+                if lastname in matched_split:
+                    if date is None:
+                        ministers.append(row["id"])
+                    elif date > row["start"] and date < row["end"]:
+                        ministers.append(row["id"])
+                    else:
+                        print("lastname", lastname, date, row["start"])
 
         # statsrådet Lindgren
         if len(ministers) == 0:
@@ -134,112 +141,46 @@ def detect_minister(matched_txt, minister_db, date=None):
             return ministers[0]
 
 
-def detect_mp(matched_txt, names_ids, mp_db=None, also_last_name=True):
+def detect_mp(intro_text, expressions=None, db=None, party_map=None):
     """
     Match an MP in a text snippet. Returns an MP id (str) if found, otherwise None.
 
     If multiple people are matched, defaults to returning None.
     """
-    person = []
+    intro_dict = intro_to_dict(intro_text, expressions)
+    intro_dict["party_abbrev"] = party_map.get(intro_dict.get("party", ""), "")
+    variables = ['party_abbrev', 'specifier', 'name']
+    variables = [v for v in variables if v in list(db.columns)] # removes missing variables
+    variables = sum([list(map(list, combinations(variables, i))) for i in range(len(variables) + 1)], [])[1:]
+    matching_funs = [fuzzy_name, subnames_in_mpname, mpsubnames_in_name,
+                     firstname_lastname, two_lastnames, lastname]
 
-    # Prefer uppercase
-    # SVEN LINDGREN
-    for name, identifier in names_ids:
-        if name.upper() in matched_txt:
-            person.append(identifier)
+    match, reason, person, fun = match_mp(intro_dict, db, variables, matching_funs)
+    if match == "unknown":
+        return None
+    return match
 
-    # Sven Lindgren
-    if len(person) == 0:
-        for name, identifier in names_ids:
-            if name in matched_txt:
-                person.append(identifier)
-
-    # Lindgren, Sven
-    if len(person) == 0:
-        for name, identifier in names_ids:
-            last_name = " " + name.split()[-1] + ","
-            if last_name in matched_txt:
-                first_name = name.split()[0]
-                rest = matched_txt.split(last_name)[-1]
-                if first_name in rest:
-                    person.append(identifier)
-
-    # LINDGREN, SVEN
-    if len(person) == 0:
-        for name, identifier in names_ids:
-            last_name = " " + name.split()[-1] + ","
-            last_name = last_name.upper()
-            if last_name in matched_txt:
-                first_name = name.split()[0]
-                rest = matched_txt.split(last_name)[-1]
-                if first_name.upper() in rest.upper():
-                    person.append(identifier)
-
-    # Lindgren i Stockholm
-    if len(person) == 0 and mp_db is not None:
-        for _, row in mp_db.iterrows():
-            # print(row)
-            i_name = row["name"].split()[-1] + " " + row["specifier"]
-            if i_name.lower() in matched_txt.lower():
-                person.append(row["id"])
-
-    if also_last_name:
-        # LINDGREN
-        if len(person) == 0:
-            for name, identifier in names_ids:
-                name = name.split()[-1]
-                if " " + name.upper() + " " in matched_txt:
-                    person.append(identifier)
-                elif " " + name.upper() + ":" in matched_txt:
-                    person.append(identifier)
-
-        # Herr/Fru Lindgren
-        if len(person) == 0:
-            matched_txt_lower = matched_txt.lower()
-            for name, identifier in names_ids:
-                last_name = " " + name.split()[-1]
-                herr_name = "herr" + last_name.lower()
-                fru_name = "fru" + last_name.lower()
-
-                if herr_name in matched_txt_lower:
-                    ix = matched_txt_lower.index(herr_name)
-                    aftermatch = matched_txt_lower[ix + len(herr_name) :]
-                    aftermatch = aftermatch[:1]
-                    if aftermatch in [" ", ":", ","]:
-                        person.append(identifier)
-
-                if fru_name in matched_txt_lower:
-                    ix = matched_txt_lower.index(fru_name)
-                    aftermatch = matched_txt_lower[ix + len(fru_name) :]
-                    aftermatch = aftermatch[:1]
-                    if aftermatch in [" ", ":", ","]:
-                        person.append(identifier)
-
-        # Lindgren
-        if len(person) == 0:
-            for name, identifier in names_ids:
-                last_name = " " + name.split()[-1]
-
-                if last_name in matched_txt:
-                    ix = matched_txt.index(last_name)
-                    aftermatch = matched_txt[ix + len(last_name) :]
-                    aftermatch = aftermatch[:1]
-                    if aftermatch in [" ", ":", ","]:
-                        person.append(identifier)
-
-                elif last_name.upper() in matched_txt:
-                    # print(matched_txt, last_name, last_name.upper())
-                    person.append(identifier)
-
-    if len(person) == 1:
-        return person[0]
-    else:
-        person_names = list(set(["_".join(m.split("_")[:-1]) for m in person]))
-        if len(person_names) == 1:
-            return person[-1]
-        else:
-            return None
-
+def intro_to_dict(intro_text, expressions):
+    intro_text = intro_text.strip()
+    d = {}
+    for exp, t in expressions:
+        m = exp.search(intro_text)
+        if m is not None:
+            matched_text = m.group(0)
+            if t not in d:
+                d[t] = matched_text.strip()
+                intro_text = intro_text.replace(matched_text, " ")
+    if "name" in d:
+        if ", " in d["name"]:
+            s = d["name"].split(", ")
+            d["name"] = s[1] + " " + s[0]
+    if "gender" in d:
+        d["gender"] = d["gender"].lower()
+        if d["gender"] == "herr":
+            d["gender"] = "man"
+        if d["gender"] in ["fru", "fröken"]:
+            d["gender"] = "woman"
+    return d
 
 def expression_dicts(pattern_db):
     expressions = dict()
@@ -265,9 +206,7 @@ def detect_introduction(paragraph, expressions, names_ids, minister_db=None):
     for pattern_digest, exp in expressions.items():
         for m in exp.finditer(paragraph.strip()):
             matched_txt = m.group()
-            person = detect_minister(matched_txt, minister_db)
-            if person is None:
-                person = detect_mp(matched_txt, names_ids)
+            person = None
             segmentation = "speech_start"
             d = {
                 "pattern": pattern_digest,
