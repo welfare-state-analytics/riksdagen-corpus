@@ -1,16 +1,24 @@
-SELECT ?wiki_id ?wiki_idLabel ?partyLabel ?start ?end
-WHERE
-{
-    ?wiki_id p:P39 ?posheld; # With position held
+SELECT ?wiki_id ?wiki_idLabel ?partyLabel
+WHERE {
+  {
+    # Ministers
+    ?government wdt:P31 wd:Q930729.
+    ?wiki_id wdt:P31 wd:Q5;
              wdt:P102 ?party;
-             p:P102 ?pParty.
-
-    OPTIONAL { ?pParty pq:P580 ?start }.
-    OPTIONAL { ?pParty pq:P582 ?end }.
-  
-    # Position held is in one of the chambers
+             p:P39 ?pPosition.
+    ?pPosition pq:P5054 ?government.
+  } UNION {
+    # Members of parliament
+    ?wiki_id p:P39 ?posheld;
+             wdt:P102 ?party.
     VALUES ?chamber { wd:Q10655178 wd:Q33071890 wd:Q81531912 }
     ?posheld ps:P39 ?chamber 
-             
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "sv". }
+  } UNION {
+    # Talmän
+    ?wiki_id p:P39 ?posheld;
+             wdt:P102 ?party.
+    VALUES ?chamber { wd:Q1850749 wd:Q85679583 wd:Q85679895 }
+    ?posheld ps:P39 ?chamber.
+  }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],sv". }
 }

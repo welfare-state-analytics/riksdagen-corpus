@@ -57,7 +57,7 @@ def check_dates(df):
 			missing_end_ids.append(row["wiki_id"])
 			missing = 1
 		if missing == 1:
-			df.drop(i, inplace=True)
+			df.drop(i, inplace=True) # am I using this correctly?
 			drops += 1
 	df.reset_index(drop=True)
 	print(f'{drops} observations dropped due to missing start/end values.')
@@ -87,7 +87,7 @@ def individual():
 	assert len(df) == len(set(df["wiki_id"])), 'Data contains conflicting information'
 	df.to_csv('corpus/individual.csv', index=False)
 
-# Entry level
+# Observation level
 def observation():
 	"Observation level data"
 	with open('corpus/party_mapping.json', 'r') as f:
@@ -189,27 +189,33 @@ def government():
 	governments.to_csv('corpus/government.csv', index=False)
 
 def party():
-	"Query is broken in a very scary way"
+	'''
+	TODO: 1. Does not take dates into account at all
+		  2. Drops parties unless included in party_map.json
+		  3. Drops observations with multiple parties after 2.
+	'''
+	with open('corpus/party_mapping.json', 'r') as f:
+		party_map = json.load(f)
 	with open(os.path.join(path_queries, 'party.rq'), 'r') as f:
 		q = f.read()
 	party = query2df(q)
-#	party.to_csv('test.csv', index=False)
-#	party = pd.read_csv('test.csv')
 	party = clean_columns(party)
-	clean_dates(party, ['start', 'end'])
 
-	# Problem, connection between start and party missing and mixed up
-	p = party.loc[(party["start"] == '') & (party["end"] == '')]
-	print(check_unique(p))
-	x = party.loc[party["wiki_id"] == 'Q1040479'] # Example
-	print(x)
+	# Remove obscure parties (for now)
+	party = party.loc[party["party"].apply(lambda x: x in party_map)]
+	
+	# Drop non unique party affiliations
+	idx = check_unique(party)["party"]
+	party = party.loc[party["wiki_id"].apply(lambda x: x not in idx)]
+	party = party.drop_duplicates()
+	party = party.reset_index(drop=True)
+	party["party_abbrev"] = [party_map.get(p, '') for p in party["party"]]
+	party.to_csv('corpus/party.csv', index=False)
 
 def name():
 	with open(os.path.join(path_queries, 'name.rq'), 'r') as f:
 		q = f.read()
 	names = query2df(q)
-	#names.to_csv('test.csv', index=False)
-	#names = pd.read_csv('test.csv')
 	names = clean_columns(names)
 
 	d = {}
@@ -222,6 +228,22 @@ def name():
 	with open('corpus/names.json', 'w') as f:
 		json.dump(d, f, ensure_ascii=False, indent=4)
 
+def talman():
+	with open(os.path.join(path_queries, 'talman.rq'), 'r') as f:
+		q = f.read()
+	tm = query2df(q)
+	tm = clean_columns(tm)
+	clean_dates(tm, ['start', 'end'])
+	tm = tm.replace({'chamber':{'Sveriges riksdags talman':'Enkammarriksdagen',\
+		'första kammarens talman':'Första kammaren', 'andra kammarens talman':'Andra kammaren'}})
+	
+	individual = pd.read_csv('corpus/individual.csv')
+	if idx := list(set(tm["wiki_id"]) - set(individual["wiki_id"])):
+		print('Talmän missing from individual file:')
+		print(idx)
+	
+	tm.to_csv('corpus/talman.csv', index=False)
+
 sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
 path_queries = 'input/queries'
 
@@ -230,7 +252,6 @@ path_queries = 'input/queries'
 #twitter()
 #minister()
 #government()
-party() # broken
+#party()
 #name()
-### Party WIP
-
+#talman()
