@@ -1,0 +1,14 @@
+SELECT ?wiki_id ?wiki_idLabel ?genderLabel ?born ?dead ?twitter
+WHERE
+{
+    ?wiki_id p:P39 ?posheld; # With position held
+    OPTIONAL { ?wiki_id wdt:P21 ?gender }.
+    OPTIONAL { ?wiki_id wdt:P569 ?born }.
+    OPTIONAL { ?wiki_id wdt:P570 ?dead }.
+
+    # Position held is in one of the chambers
+    VALUES ?chamber { wd:Q10655178 wd:Q33071890 wd:Q81531912 }
+    ?posheld ps:P39 ?chamber 
+             
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "sv". }
+}

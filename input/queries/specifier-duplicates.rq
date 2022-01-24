@@ -1,0 +1,33 @@
+# Find specifiers used by multiple mps.
+SELECT DISTINCT ?nameUsedinSwedishPM1 
+(SAMPLE(?svWikipedia1) AS ?svWikipedia1) (SAMPLE(?svWikipedia2) AS ?svWikipedia2) 
+(SAMPLE(?person1) AS ?person1) 
+(SAMPLE(?person2) AS ?person2)
+WHERE {
+  ?person1 p:P2561 ?nameSwedishPMp1.
+  ?person2 p:P2561 ?nameSwedishPMp2.
+  {
+    ?nameSwedishPMp1 ps:P2561 ?nameUsedinSwedishPM1;
+      pq:P3831 wd:Q110382440.
+  }
+  {
+    ?nameSwedishPMp2 ps:P2561 ?nameUsedinSwedishPM2;
+      pq:P3831 wd:Q110382440.
+  }
+  FILTER((?nameUsedinSwedishPM1 = ?nameUsedinSwedishPM2) && (?person1 != ?person2) 
+        && (str(?person1) > str(?person2))
+        )
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "sv,en". }
+  OPTIONAL {
+    ?svWikipedia1 schema:about ?person1;
+      schema:inLanguage "sv";
+      schema:isPartOf <https://sv.wikipedia.org/>.
+  }
+  OPTIONAL {
+    ?svWikipedia2 schema:about ?person2;
+      schema:inLanguage "sv";
+      schema:isPartOf <https://sv.wikipedia.org/>.
+  }
+}
+GROUP BY ?nameUsedinSwedishPM1 ?person1 ?person1Label
+ORDER BY (?nameUsedinSwedishPM1)
