@@ -68,8 +68,6 @@ def individual():
 	with open(os.path.join(path_queries, 'individual.rq'), 'r') as f:
 		q = f.read()
 	df = query2df(q)
-#	df.to_csv('test.csv', index=False)
-#	df = pd.read_csv('test.csv')
 	df = clean_columns(df)
 	df = df.replace({'chamber':{'ledamot av Sveriges riksdag':'Enkammarriksdagen',\
 	'förstakammarledamot':'Första kammaren', 'andrakammarledamot':'Andra kammaren'}})
@@ -85,7 +83,7 @@ def individual():
 
 	df = df.drop_duplicates()
 	assert len(df) == len(set(df["wiki_id"])), 'Data contains conflicting information'
-	df.to_csv('corpus/individual.csv', index=False)
+	df.to_csv('corpus/wiki-data/individual.csv', index=False)
 
 # Observation level
 def observation():
@@ -95,8 +93,6 @@ def observation():
 	with open(os.path.join(path_queries, 'observation.rq'), 'r') as f:
 		q = f.read()
 	df = query2df(q)
-	#df.to_csv('test.csv', index=False)
-	#df = pd.read_csv('test.csv')
 	df = clean_columns(df)
 	df = df.replace({'chamber':{'ledamot av Sveriges riksdag':'Enkammarriksdagen',\
 	'förstakammarledamot':'Första kammaren', 'andrakammarledamot':'Andra kammaren'}})
@@ -114,7 +110,7 @@ def observation():
 		if missing > 0.05:
 			print(f'{missing}\t missing in {var}')
 
-	df.to_csv('corpus/observation.csv', index=False)
+	df.to_csv('corpus/wiki-data/observation.csv', index=False)
 
 def twitter():
 	"Creates few-many mapped dictionary of wiki_id-twitter(s)"
@@ -131,7 +127,7 @@ def twitter():
 		else:
 			d[key].append(value)
 
-	with open('corpus/twitter.json', 'w') as f:
+	with open('corpus/wiki-data/twitter.json', 'w') as f:
 		json.dump(d, f, ensure_ascii=False, indent=4)
 
 def minister():
@@ -144,13 +140,11 @@ def minister():
 	with open(os.path.join(path_queries, 'minister.rq'), 'r') as f:
 		q = f.read()
 	ministers = query2df(q)
-	#ministers.to_csv('test.csv', index=False)
-	#ministers = pd.read_csv('test.csv')
 	ministers = clean_columns(ministers)
 	clean_dates(ministers, ['start', 'end', 'born', 'dead'])
 
 	# Move individual level data to individual level file
-	individual = pd.read_csv('corpus/individual.csv')
+	individual = pd.read_csv('corpus/wiki-data/individual.csv')
 	x = ministers[individual.columns].drop_duplicates()
 	assert check_unique(x) == {}, "Conflicting data for ministers on individual level"
 	if idx := list(set(x["wiki_id"]) - set(individual["wiki_id"])):
@@ -175,7 +169,7 @@ def minister():
 			b.update({i:roles})
 		c.update({gov:cab})
 
-	with open('corpus/ministers.json', 'w') as f:
+	with open('corpus/wiki-data/ministers.json', 'w') as f:
 		json.dump(d, f, ensure_ascii=False, indent=4)
 
 def government():
@@ -186,7 +180,7 @@ def government():
 	governments.rename(columns={'government.value':'wiki_id.value'}, inplace=True)
 	governments = clean_columns(governments)
 	clean_dates(governments, ['start', 'end'])
-	governments.to_csv('corpus/government.csv', index=False)
+	governments.to_csv('corpus/wiki-data/government.csv', index=False)
 
 def party():
 	'''
@@ -210,7 +204,7 @@ def party():
 	party = party.drop_duplicates()
 	party = party.reset_index(drop=True)
 	party["party_abbrev"] = [party_map.get(p, '') for p in party["party"]]
-	party.to_csv('corpus/party.csv', index=False)
+	party.to_csv('corpus/wiki-data/party.csv', index=False)
 
 def name():
 	with open(os.path.join(path_queries, 'name.rq'), 'r') as f:
@@ -225,7 +219,7 @@ def name():
 		n = set(x["name_in_riksdagen"].tolist() + x["name"].tolist()) # drop duplicates
 		d[i] = [ni for ni in n if ' i ' in ni.lower()] # removes non specifier names
 
-	with open('corpus/names.json', 'w') as f:
+	with open('corpus/wiki-data/names.json', 'w') as f:
 		json.dump(d, f, ensure_ascii=False, indent=4)
 
 def talman():
@@ -237,12 +231,12 @@ def talman():
 	tm = tm.replace({'chamber':{'Sveriges riksdags talman':'Enkammarriksdagen',\
 		'första kammarens talman':'Första kammaren', 'andra kammarens talman':'Andra kammaren'}})
 	
-	individual = pd.read_csv('corpus/individual.csv')
+	individual = pd.read_csv('corpus/wiki-data/individual.csv')
 	if idx := list(set(tm["wiki_id"]) - set(individual["wiki_id"])):
 		print('Talmän missing from individual file:')
 		print(idx)
 	
-	tm.to_csv('corpus/talman.csv', index=False)
+	tm.to_csv('corpus/wiki-data/talman.csv', index=False)
 
 sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
 path_queries = 'input/queries'
