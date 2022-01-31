@@ -142,7 +142,7 @@ def minister():
 	ministers = query2df(q)
 	ministers = clean_columns(ministers)
 	clean_dates(ministers, ['start', 'end', 'born', 'dead'])
-
+	
 	# Move individual level data to individual level file
 	individual = pd.read_csv('corpus/wiki-data/individual.csv')
 	x = ministers[individual.columns].drop_duplicates()
@@ -153,24 +153,22 @@ def minister():
 		individual.to_csv('corpus/individual.csv', index=False)
 	dropcols = [var for var in individual.columns if var not in ['wiki_id', 'url', 'name']]
 	ministers = ministers.drop(dropcols, axis=1)
-
-	c = {}
+	
 	governments = set(ministers["government"])
+	data = []
 	for gov in governments:
-		cabinet = ministers.loc[ministers["government"] == gov]
-		idx = set(cabinet["wiki_id"])
-		b = {}
+		g = ministers.loc[ministers["government"] == gov]
+		idx = set(g["wiki_id"])
+		cabinet = []
 		for i in idx:
-			person = cabinet.loc[cabinet["wiki_id"] == i]
-			a = {}
+			person = g.loc[g["wiki_id"] == i]
+			position = []
 			for _, obs in person.iterrows():
-				role, start, end = list(obs[["role", "start", "end"]])
-				a.update({role:(start, end)})
-			b.update({i:roles})
-		c.update({gov:cab})
-
-	with open('corpus/wiki-data/ministers.json', 'w') as f:
-		json.dump(d, f, ensure_ascii=False, indent=4)
+				position.append(obs[["role", "start", "end"]].to_dict())
+			cabinet.append({'wiki_id':i, 'positions':position})
+		data.append({'government':gov, 'cabinet':cabinet})
+	with open('corpus/wiki-data/minister.json', 'w') as f:
+		json.dump(data, f, ensure_ascii=False, indent=2)
 
 def government():
 	"Government date mapping"
@@ -219,7 +217,7 @@ def name():
 		n = set(x["name_in_riksdagen"].tolist() + x["name"].tolist()) # drop duplicates
 		d[i] = [ni for ni in n if ' i ' in ni.lower()] # removes non specifier names
 
-	with open('corpus/wiki-data/names.json', 'w') as f:
+	with open('corpus/wiki-data/name.json', 'w') as f:
 		json.dump(d, f, ensure_ascii=False, indent=4)
 
 def talman():
@@ -244,7 +242,7 @@ path_queries = 'input/queries'
 #individual()
 #observation()
 #twitter()
-#minister()
+minister()
 #government()
 #party()
 #name()
