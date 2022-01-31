@@ -36,7 +36,6 @@ def parse_date(s):
         else:
             return None
 
-
 def main(args):
     start_year = args.start
     end_year = args.end
@@ -58,6 +57,41 @@ def main(args):
     talman_db = pd.read_csv(root + "corpus/talman.csv")
     talman_db["start"] = pd.to_datetime(talman_db["start"], errors="coerce")
     talman_db["end"] = pd.to_datetime(talman_db["end"], errors="coerce")
+
+    ### Preprocess observation level wiki dataset
+    observation = pd.read_csv('corpus/wiki-data/observation.csv')
+    individual = pd.read_csv('corpus/wiki-data/individual.csv')
+    party = pd.read_csv('corpus/wiki-data/party.csv')
+
+    # Impute missing party values with unique individual level values
+    idx = observation["party_abbrev"].isnull()
+    missing = observation.loc[idx]
+    missing = missing.reset_index().merge(party, on='wiki_id', how='left').set_index('index')
+    missing.rename(columns={'party_abbrev_y':'party_abbrev'}, inplace=True)
+    missing = missing.drop(["party_abbrev_x"], axis=1)
+    observation.loc[idx, "party_abbrev"] = missing["party_abbrev"]
+
+    # Remove 1. dots, 2. (text), 3. j:r, 4. specifier, 5. make lowercase
+    observation["name"] = observation["name"].str.replace('.', '', regex=False)
+    observation["name"] = observation["name"].str.replace(r" \((.+)\)", '', regex=True)
+    observation["name"] = observation["name"].str.replace(r" [a-zA-ZÀ-ÿ]:[a-zA-ZÀ-ÿ]", '', regex=True)
+    observation["name"] = observation["name"].str.replace(r"i [a-zA-ZÀ-ÿ]+", '', regex=True)
+    observation["name"] = observation["name"].str.lower()
+
+    # Add end date to observations currently in office
+    idx = observation["end"].isna()
+    if sum(idx) != 349: print(f'Warning: {sum(idx)} observations currently in office.')
+    observation.loc[idx, "end"] = '2022-12-31' 
+    observation["start"] = observation["start"].str[:4].astype(int)
+    observation["end"] = observation["end"].str[:4].astype(int)
+
+    # Add gender
+    observation = observation.reset_index().merge(individual[["wiki_id", "gender"]], on='wiki_id', how='left').set_index('index')
+    if len(set(observation["gender"])) != 2:
+        print('More than 2 genders or missing values.')
+
+    # Test, change id column name
+    observation["id"] = observation["wiki_id"]
 
     parser = etree.XMLParser(remove_blank_text=True)
     for outfolder in progressbar.progressbar(sorted(folders)):
@@ -123,6 +157,7 @@ def main(args):
                         root,
                         None,
                         pattern_db,
+                        wiki_db=observation,
                         mp_db=year_mp_db,
                         minister_db=year_ministers,
                         speaker_db=talman_db,
