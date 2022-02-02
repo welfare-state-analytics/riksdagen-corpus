@@ -36,12 +36,31 @@ def parse_date(s):
         else:
             return None
 
+def load_ministers(path):
+    '''Unpacks very nested minister.json file to a df.'''
+    with open('corpus/wiki-data/minister.json', 'r') as f:
+        minister = json.load(f)
+
+    data = []
+    for gov in minister:
+        g = gov["government"]
+        for member in gov["cabinet"]:
+            Q = member["wiki_id"]
+            n = member["name"]
+            for pos in member["positions"]:
+                r = pos["role"]
+                s = pos["start"]
+                e = pos["end"]
+                data.append([g, Q, n, r, s, e])
+    minister = pd.DataFrame(data, columns=["government", "wiki_id", "name", "role", "start", "end"])
+    return minister
+
 def main(args):
     start_year = args.start
     end_year = args.end
     root = ""  # "../"
     pc_folder = root + "corpus/"
-    folders = os.listdir(pc_folder)
+    folders = [f for f in os.listdir(pc_folder) if f.isnumeric()]
     tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
 
     with open("corpus/party_mapping.json") as f:
@@ -59,41 +78,59 @@ def main(args):
     talman_db["end"] = pd.to_datetime(talman_db["end"], errors="coerce")
 
     ### Preprocess observation level wiki dataset
-    observation = pd.read_csv('corpus/wiki-data/observation.csv')
+    wiki_db = pd.read_csv('corpus/wiki-data/observation.csv')
     individual = pd.read_csv('corpus/wiki-data/individual.csv')
     party = pd.read_csv('corpus/wiki-data/party.csv')
+    with open('corpus/wiki-data/name.json', 'r') as f:
+        name = json.load(f)
+
+    # Test replacing previous minister file
+    wiki_minister_db = load_ministers('corpus/wiki-data/minister.json')
+    wiki_minister_db["start"] = pd.to_datetime(wiki_minister_db["start"], errors="coerce")
+    wiki_minister_db["end"] = pd.to_datetime(wiki_minister_db["end"], errors="coerce")
+    wiki_minister_db["id"] = wiki_minister_db["wiki_id"]
 
     # Impute missing party values with unique individual level values
-    idx = observation["party_abbrev"].isnull()
-    missing = observation.loc[idx]
+    idx = wiki_db["party_abbrev"].isnull()
+    missing = wiki_db.loc[idx]
     missing = missing.reset_index().merge(party, on='wiki_id', how='left').set_index('index')
     missing.rename(columns={'party_abbrev_y':'party_abbrev'}, inplace=True)
     missing = missing.drop(["party_abbrev_x"], axis=1)
-    observation.loc[idx, "party_abbrev"] = missing["party_abbrev"]
+    wiki_db.loc[idx, "party_abbrev"] = missing["party_abbrev"]
 
     # Remove 1. dots, 2. (text), 3. j:r, 4. specifier, 5. make lowercase
-    observation["name"] = observation["name"].str.replace('.', '', regex=False)
-    observation["name"] = observation["name"].str.replace(r" \((.+)\)", '', regex=True)
-    observation["name"] = observation["name"].str.replace(r" [a-zA-ZÀ-ÿ]:[a-zA-ZÀ-ÿ]", '', regex=True)
-    observation["name"] = observation["name"].str.replace(r"i [a-zA-ZÀ-ÿ]+", '', regex=True)
-    observation["name"] = observation["name"].str.lower()
+    wiki_db["name"] = wiki_db["name"].str.replace('.', '', regex=False)
+    wiki_db["name"] = wiki_db["name"].str.replace(r" \((.+)\)", '', regex=True)
+    wiki_db["name"] = wiki_db["name"].str.replace(r" [a-zA-ZÀ-ÿ]:[a-zA-ZÀ-ÿ]", '', regex=True)
+    wiki_db["name"] = wiki_db["name"].str.replace(r"i [a-zA-ZÀ-ÿ]+", '', regex=True)
+    wiki_db["name"] = wiki_db["name"].str.lower()
 
-    # Add end date to observations currently in office
-    idx = observation["end"].isna()
+    # Add end date to wiki_dbs currently in office
+    idx = wiki_db["end"].isna()
     if sum(idx) != 349: print(f'Warning: {sum(idx)} observations currently in office.')
-    observation.loc[idx, "end"] = '2022-12-31' 
-    observation["start"] = observation["start"].str[:4].astype(int)
-    observation["end"] = observation["end"].str[:4].astype(int)
+    wiki_db.loc[idx, "end"] = '2022-12-31' 
+    wiki_db["start"] = wiki_db["start"].str[:4].astype(int)
+    wiki_db["end"] = wiki_db["end"].str[:4].astype(int)
 
     # Add gender
-    observation = observation.reset_index().merge(individual[["wiki_id", "gender"]], on='wiki_id', how='left').set_index('index')
-    if len(set(observation["gender"])) != 2:
+    wiki_db = wiki_db.reset_index().merge(individual[["wiki_id", "gender"]], on='wiki_id', how='left').set_index('index')
+    if len(set(wiki_db["gender"])) != 2:
         print('More than 2 genders or missing values.')
 
+    # Add specifier
+    wiki_db["specifier"] = pd.Series(str)
+    for key, values in name.items():
+        if key in wiki_db["wiki_id"].tolist():
+            for value in values:
+                if ' i ' in value:
+                    wiki_db.loc[wiki_db["wiki_id"] == key, "specifier"] = value.split(' i ')[-1]
+                    break
+
     # Test, change id column name
-    observation["id"] = observation["wiki_id"]
+    wiki_db["id"] = wiki_db["wiki_id"]
 
     parser = etree.XMLParser(remove_blank_text=True)
+
     for outfolder in progressbar.progressbar(sorted(folders)):
         if os.path.isdir(pc_folder + outfolder):
             outfolder = outfolder + "/"
@@ -125,7 +162,8 @@ def main(args):
                         print(protocol_id, year)
                     year_mp_db = filter_db(mp_db, year=year)
                     year_sk_db = sk_db[sk_db["year"] == year]
-
+                    year_obs_db = filter_db(wiki_db, year=year)
+                    
                     dates = [
                         parse_date(elem.attrib.get("when"))
                         for elem in root.findall(tei_ns + "docDate")
@@ -145,6 +183,18 @@ def main(args):
                         print(end_date)
                         year_ministers = minister_db[minister_db.columns]
 
+                    # Switch minister year filtering to be based on government periods
+                    try:
+                        year_wiki_minister = wiki_minister_db[wiki_minister_db["start"] < start_date]
+                        year_wiki_minister = year_wiki_minister[
+                            year_wiki_minister["end"] > end_date
+                        ]
+                    except pd.errors.OutOfBoundsDatetime:
+                        print("Unreasonable date in:", protocol_id)
+                        print(start_date)
+                        print(end_date)
+                        year_wiki_minister = wiki_minister_db[wiki_minister_db.columns]
+
                     metadata["start_date"] = start_date
                     metadata["end_date"] = end_date
 
@@ -157,9 +207,10 @@ def main(args):
                         root,
                         None,
                         pattern_db,
-                        wiki_db=observation,
+                        wiki_db=year_obs_db,
                         mp_db=year_mp_db,
                         minister_db=year_ministers,
+                        wiki_minister_db=year_wiki_minister,
                         speaker_db=talman_db,
                         sk_db=year_sk_db,
                         metadata=metadata,

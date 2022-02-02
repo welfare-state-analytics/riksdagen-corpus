@@ -15,7 +15,7 @@ from .segmentation import (
 )
 
 
-def detect_mps(root, names_ids, pattern_db, wiki_db=None, mp_db=None, sk_db=None, minister_db=None, speaker_db=None, metadata=None, party_map=None):
+def detect_mps(root, names_ids, pattern_db, wiki_db=None, mp_db=None, sk_db=None, minister_db=None, wiki_minister_db=None, speaker_db=None, metadata=None, party_map=None):
     """
     Re-detect MPs in a parla clarin protocol, based on the (updated)
     MP database.
@@ -60,7 +60,9 @@ def detect_mps(root, names_ids, pattern_db, wiki_db=None, mp_db=None, sk_db=None
         elif tag == "note":
             if elem.attrib.get("type", None) == "speaker":
                 if type(elem.text) == str:
-                    current_speaker = detect_minister(elem.text, minister_db, date=metadata["start_date"])
+                    current_speaker = detect_minister(elem.text, wiki_minister_db, date=metadata["start_date"])
+                    if current_speaker is None:
+                        current_speaker = detect_minister(elem.text, minister_db, date=metadata["start_date"])
                     if current_speaker is None:
                         current_speaker = detect_mp(elem.text, expressions=mp_expressions, db=wiki_db, party_map=party_map, wikidata=True)
                     if current_speaker is None:

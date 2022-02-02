@@ -142,7 +142,7 @@ def minister():
 	ministers = query2df(q)
 	ministers = clean_columns(ministers)
 	clean_dates(ministers, ['start', 'end', 'born', 'dead'])
-	
+
 	# Move individual level data to individual level file
 	individual = pd.read_csv('corpus/wiki-data/individual.csv')
 	x = ministers[individual.columns].drop_duplicates()
@@ -165,7 +165,8 @@ def minister():
 			position = []
 			for _, obs in person.iterrows():
 				position.append(obs[["role", "start", "end"]].to_dict())
-			cabinet.append({'wiki_id':i, 'positions':position})
+			name = person.iloc[0]["name"]
+			cabinet.append({'wiki_id':i, 'name':name, 'positions':position})
 		data.append({'government':gov, 'cabinet':cabinet})
 	with open('corpus/wiki-data/minister.json', 'w') as f:
 		json.dump(data, f, ensure_ascii=False, indent=2)
