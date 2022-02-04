@@ -141,7 +141,7 @@ def detect_minister(matched_txt, minister_db, date=None):
             return ministers[0]
 
 
-def detect_mp(intro_text, expressions=None, db=None, party_map=None):
+def detect_mp(intro_text, expressions=None, db=None, party_map=None, wikidata=False):
     """
     Match an MP in a text snippet. Returns an MP id (str) if found, otherwise None.
 
@@ -155,7 +155,7 @@ def detect_mp(intro_text, expressions=None, db=None, party_map=None):
     matching_funs = [fuzzy_name, subnames_in_mpname, mpsubnames_in_name,
                      firstname_lastname, two_lastnames, lastname]
 
-    match, reason, person, fun = match_mp(intro_dict, db, variables, matching_funs)
+    match, reason, person, fun = match_mp(intro_dict, db, variables, matching_funs, wikidata=wikidata)
     if match == "unknown":
         return None
     return match
