@@ -10,50 +10,15 @@ from pyparlaclarin.refine import (
     format_texts,
 )
 
-from pyriksdagen.db import filter_db, load_patterns
+from pyriksdagen.db import filter_db, load_patterns, load_ministers
 from pyriksdagen.refine import (
     detect_mps,
     find_introductions,
     update_ids,
     update_hashes,
 )
-from pyriksdagen.utils import infer_metadata
+from pyriksdagen.utils import infer_metadata, parse_date
 from pyriksdagen.match_mp import clean_names
-
-def parse_date(s):
-    """
-    Parse datetimes with special error handling
-    """
-    try:
-        return datetime.strptime(s, "%Y-%m-%d")
-
-    except ValueError:
-        if len(s) == 4:
-            if int(s) > 1689 and int(s) < 2261:
-                return datetime(int(s), 6, 15)
-            else:
-                return None
-        else:
-            return None
-
-def load_ministers(path):
-    '''Unpacks very nested minister.json file to a df.'''
-    with open('corpus/wiki-data/minister.json', 'r') as f:
-        minister = json.load(f)
-
-    data = []
-    for gov in minister:
-        g = gov["government"]
-        for member in gov["cabinet"]:
-            Q = member["wiki_id"]
-            n = member["name"]
-            for pos in member["positions"]:
-                r = pos["role"]
-                s = pos["start"]
-                e = pos["end"]
-                data.append([g, Q, n, r, s, e])
-    minister = pd.DataFrame(data, columns=["government", "wiki_id", "name", "role", "start", "end"])
-    return minister
 
 def main(args):
     start_year = args.start
