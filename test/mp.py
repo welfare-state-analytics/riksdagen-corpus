@@ -57,6 +57,7 @@ class Test(unittest.TestCase):
         wd_db["id"] = wikidata["wiki_id"]
         wd_db["start"] = pd.DatetimeIndex(pd.to_datetime(wd_db["start"], errors="coerce")).year
         wd_db["end"] = pd.DatetimeIndex(pd.to_datetime(wd_db["end"], errors="coerce")).year
+        wd_db = wd_db.fillna(2024)
 
         mp_db = pd.read_csv("corpus/members_of_parliament.csv")[["id", "start", "end"]]
         sk_db = pd.read_csv("corpus/members_of_parliament_sk.csv")[["id", "start", "end"]]
