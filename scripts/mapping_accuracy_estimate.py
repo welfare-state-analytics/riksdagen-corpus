@@ -28,11 +28,13 @@ def main(args):
                     if year not in accuracy:
                         accuracy[year] = {}
 
-
-                    if elem.attrib["who"] == "unknown":
-                        accuracy[year][False] = accuracy[year].get(False,0) + 1
+                    who = elem.attrib["who"]
+                    if who == "unknown":
+                        accuracy[year]["unknown"] = accuracy[year].get("unknown",0) + 1
+                    elif who[0] == "Q":
+                        accuracy[year]["wikidata"] = accuracy[year].get("wikidata",0) + 1
                     else:
-                        accuracy[year][True] = accuracy[year].get(True,0) + 1
+                        accuracy[year]["known"] = accuracy[year].get("known",0) + 1
 
     return accuracy
 
@@ -45,13 +47,15 @@ if __name__ == '__main__':
     accuracy = main(args)
     rows = []
     for year, y_acc in accuracy.items():
-        row = [year, y_acc.get(True,0),  y_acc.get(False,0)]
+        row = [year, y_acc.get("wikidata",0),  y_acc.get("known",0), y_acc.get("unknown",0)]
         rows.append(row)
 
-    df = pd.DataFrame(rows, columns=["year", "known", "unknown"])
+    df = pd.DataFrame(rows, columns=["year", "wikidata", "known", "unknown"])
 
-    df["accuracy upper bound"] = df["known"] / (df["known"] + df["unknown"])
+    df["accuracy upper bound"] = (df["wikidata"] + df["known"]) / (df["wikidata"] + df["known"] + df["unknown"])
+    df["wikidata upper bound"] = (df["wikidata"]) / (df["wikidata"] + df["known"] + df["unknown"])
     print(df)
 
-    print(df.mean())
+    print("Average:", df.mean())
+    #print("Weighted average:", df["known"].sum() / (df["known"] + df["unknown"]).sum())
     df.to_csv("accuracy_upper_bound.csv", index=False)

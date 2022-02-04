@@ -5,8 +5,8 @@ from lxml import etree
 from pyriksdagen.utils import validate_xml_schema, infer_metadata
 from pyriksdagen.download import get_blocks
 from pyriksdagen.export import create_tei, create_parlaclarin
-from pyriksdagen.db import load_patterns, filter_db
-import os
+from pyriksdagen.db import load_patterns, filter_db, load_ministers
+from pathlib import Path
 import progressbar
 
 class Test(unittest.TestCase):
@@ -50,6 +50,14 @@ class Test(unittest.TestCase):
             return found, false_whos
 
         folder = "corpus/"
+        wikidata = pd.read_csv("corpus/wiki-data/observation.csv")
+        wiki_minister_db = load_ministers('corpus/wiki-data/minister.json')
+        wikidata = pd.concat([wikidata, wiki_minister_db])
+        wd_db = wikidata[["start", "end"]]
+        wd_db["id"] = wikidata["wiki_id"]
+        wd_db["start"] = pd.DatetimeIndex(pd.to_datetime(wd_db["start"], errors="coerce")).year
+        wd_db["end"] = pd.DatetimeIndex(pd.to_datetime(wd_db["end"], errors="coerce")).year
+
         mp_db = pd.read_csv("corpus/members_of_parliament.csv")[["id", "start", "end"]]
         sk_db = pd.read_csv("corpus/members_of_parliament_sk.csv")[["id", "start", "end"]]
         minister_db = pd.read_csv("corpus/ministers.csv")[["id", "start", "end"]]
@@ -62,24 +70,22 @@ class Test(unittest.TestCase):
         talman_db["end"] = pd.to_datetime(talman_db["end"], errors="coerce")
         talman_db["start"] = pd.DatetimeIndex(talman_db["start"]).year
         talman_db["end"] = pd.DatetimeIndex(talman_db["end"]).year
-        mp_db = pd.concat([mp_db, minister_db, talman_db, sk_db])
+        mp_db = pd.concat([wd_db, mp_db, minister_db, talman_db, sk_db])
         print(mp_db)
         mp_ids = {}
 
         failed_protocols = []
-        for outfolder in progressbar.progressbar(os.listdir(folder)):
-            outfolder = outfolder + "/"
-            if os.path.isdir(folder + outfolder):
-                for protocol_id in os.listdir(folder + outfolder):
-                    protocol_id = protocol_id.split(".")[0]
-                    root = etree.parse(folder + outfolder + protocol_id + ".xml", parser).getroot()
-                    
-                    found, false_whos = test_one_protocol(root, mp_ids, mp_db)
-                    if not found:
-                        failed_protocols.append(protocol_id + " (" + false_whos[0] + ")")
+        for outfolder in progressbar.progressbar(list(Path(folder).glob("*/"))):
+            for protocol_path in outfolder.glob("*.xml"):
+                protocol_id = protocol_path.stem
+                path_str = str(protocol_path.resolve())
+                root = etree.parse(path_str, parser).getroot()
+                found, false_whos = test_one_protocol(root, mp_ids, mp_db)
+                if not found:
+                    failed_protocols.append(protocol_id + " (" + false_whos[0] + ")")
 
         print("Protocols with inactive MPs tagged as speakers:", ", ".join(failed_protocols))
-        self.assertEqual(len(failed_protocols) == 0, True)
+        self.assertEqual(len(failed_protocols), 0)
 
 
 

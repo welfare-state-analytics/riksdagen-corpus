@@ -1,5 +1,5 @@
 import pandas as pd
-import os
+import os, json
 from .utils import infer_metadata
 import progressbar
 
@@ -60,3 +60,22 @@ def filter_db(db, year=None, protocol_id=None):
 
     else:
         return db[db["protocol_id"] == protocol_id]
+
+def load_ministers(path='corpus/wiki-data/minister.json'):
+    '''Unpacks very nested minister.json file to a df.'''
+    with open(path, 'r') as f:
+        minister = json.load(f)
+
+    data = []
+    for gov in minister:
+        g = gov["government"]
+        for member in gov["cabinet"]:
+            Q = member["wiki_id"]
+            n = member["name"]
+            for pos in member["positions"]:
+                r = pos["role"]
+                s = pos["start"]
+                e = pos["end"]
+                data.append([g, Q, n, r, s, e])
+    minister = pd.DataFrame(data, columns=["government", "wiki_id", "name", "role", "start", "end"])
+    return minister

@@ -67,7 +67,7 @@ def two_lastnames(name, db):
 def lastname(name, db):
 	return db[db["name"].str.split().str[-1] == name]
 
-def match_mp(person, db, variables, matching_funs):
+def match_mp(person, db, variables, matching_funs, wikidata=False):
 	"""
 	Pseudocode:
 	- inputs:
@@ -108,6 +108,7 @@ def match_mp(person, db, variables, matching_funs):
 
 	for fun in matching_funs:
 		matched_mps = fun(person["name"], db)
+
 		if senander:
 			pass
 
@@ -119,7 +120,9 @@ def match_mp(person, db, variables, matching_funs):
 			return ([matched_mps.iloc[0]["id"], 'name', person, str(fun)])
 
 		if len(matched_mps) >= 2:
-			if len(matched_mps.drop_duplicates(variables[-1])) == 1: 
+			if wikidata == True and len(matched_mps.drop_duplicates(subset='id')) == 1:
+				return ([matched_mps.iloc[0]["id"], 'wiki', person, str(fun)])
+			elif len(matched_mps.drop_duplicates(variables[-1])) == 1: 
 				return ([matched_mps.iloc[0]["id"], 'DUPL', person, str(fun)])
 
 		# Iterates over combinations of variables to find a unique match
@@ -129,7 +132,9 @@ def match_mp(person, db, variables, matching_funs):
 			matched_mps_new = matched_mps.iloc[np.where(matched_mps[v] == person[v])[0]]
 
 			if len(matched_mps_new) >= 2:
-				if len(matched_mps_new.drop_duplicates(variables[-1])) == 1: 
+				if wikidata == True and len(matched_mps_new.drop_duplicates(subset='id')) == 1:
+					return ([matched_mps_new.iloc[0]["id"], f'{v} wiki', person, str(fun)])
+				elif len(matched_mps_new.drop_duplicates(variables[-1])) == 1: 
 					return ([matched_mps_new.iloc[0]["id"], f'{v} DUPL', person, str(fun)])
 			if len(matched_mps_new) == 1:
 				return ([matched_mps_new.iloc[0]["id"], f'{v}', person, str(fun)])

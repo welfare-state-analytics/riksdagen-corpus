@@ -12,7 +12,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import hashlib
 from pathlib import Path
-
+from datetime import datetime
 
 def elem_iter(root, ns="{http://www.tei-c.org/ns/1.0}"):
     """
@@ -116,3 +116,19 @@ def protocol_iterators(corpus_root, start=None, end=None):
 
         else:
             yield str(protocol.relative_to("."))
+
+def parse_date(s):
+    """
+    Parse datetimes with special error handling
+    """
+    try:
+        return datetime.strptime(s, "%Y-%m-%d")
+
+    except ValueError:
+        if len(s) == 4:
+            if int(s) > 1689 and int(s) < 2261:
+                return datetime(int(s), 6, 15)
+            else:
+                return None
+        else:
+            return None
