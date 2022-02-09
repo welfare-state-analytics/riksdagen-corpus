@@ -1,8 +1,9 @@
-SELECT DISTINCT ?wiki_id ?wiki_idLabel
+SELECT DISTINCT ?wiki_id ?wiki_idLabel ?wiki_idAltLabel
 WHERE
 {
-    ?wiki_id p:P39 ?posheld. # With position held
-  
+    ?wiki_id wdt:P31 wd:Q5;
+             p:P39 ?posheld. # With position held
+
     {
     # Position held is in one of the chambers
     VALUES ?chamber { wd:Q10655178 wd:Q33071890 wd:Q81531912 }
@@ -17,6 +18,6 @@ WHERE
     ?government wdt:P31 wd:Q930729.
     ?posheld pq:P5054 ?government. # Position held in government
     }
-  
+             
   SERVICE wikibase:label { bd:serviceParam wikibase:language "sv". }
 }

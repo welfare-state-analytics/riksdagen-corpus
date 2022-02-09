@@ -5,6 +5,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 import pandas as pd
 import os
 import time
+import re
 
 def query2df(query: str):
 	sparql.setQuery(query)	
@@ -47,5 +48,32 @@ for query in queries:
 	for col in date_cols:
 		df[col] = df[col].str.replace(r'T.+', '',  regex=True)
 
-	df.to_csv(os.path.join(path_wikidata, 'raw', query.replace('.rq', '.csv')), index=False)
+	if query != 'name_location.rq':
+		df.to_csv(os.path.join(path_wikidata, 'raw', query.replace('.rq', '.csv')), index=False)
+	
+	else:
+		# Make all names into rows
+		df["wiki_idAlt"] = df["wiki_idAlt"].apply(lambda x: x.split(',') if isinstance(x, str) else [])
+		df["name"] = df.apply(lambda x: [x["name"]] + x["wiki_idAlt"], axis=1)
+		df = df.drop("wiki_idAlt", axis=1)
+		df = df.set_index('wiki_id')["name"].apply(pd.Series).stack().reset_index(level=-1, drop=True).astype(str).reset_index()
+		wiki_id = df["wiki_id"]
+
+		# Separate locations from names
+		df = df[0].str.split(' [io] ', expand=True)
+		df = df.apply(lambda x: x.str.replace('och', '').str.strip())
+		df = df.rename(columns={0:'name'})
+		df["wiki_id"] = wiki_id
+		df["name"] = df["name"].str.replace(r'\(([^\)]+)\)', '', regex=True).str.strip()
+		name = df.drop_duplicates(subset=['wiki_id', 'name'])[['wiki_id', 'name']]
+		name.to_csv(os.path.join(path_wikidata, 'raw', 'name.csv'), index=False)
+		
+		location = []
+		for i, row in df.iterrows():
+			for j in range(len(df.columns)-2):
+				if row[j+1] != None:
+					location.append([row["wiki_id"], row[j+1]])
+		location = pd.DataFrame(location, columns=['wiki_id', 'location']).drop_duplicates()
+		location.to_csv(os.path.join(path_wikidata, 'raw', 'location.csv'), index=False)
+
 	print(f'Query {query} finished.')
