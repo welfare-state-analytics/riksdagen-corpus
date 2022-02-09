@@ -24,11 +24,10 @@ def try_query(query: str, max_tries=3):
 	raise
 
 sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
-path_wikidata = 'input/wikidata'
-queries = sorted([q for q in os.listdir(os.path.join(path_wikidata, 'queries')) if q.endswith('.rq')])
+queries = sorted([q for q in os.listdir(os.path.join('input', 'queries')) if q.endswith('.rq')])
 
 for query in queries:
-	with open(os.path.join(path_wikidata, 'queries', query), 'r') as f:
+	with open(os.path.join('input', 'queries', query), 'r') as f:
 		df = try_query(f.read())
 	
 	# Drop columns
@@ -49,7 +48,7 @@ for query in queries:
 		df[col] = df[col].str.replace(r'T.+', '',  regex=True)
 
 	if query != 'name_location.rq':
-		df.to_csv(os.path.join(path_wikidata, 'raw', query.replace('.rq', '.csv')), index=False)
+		df.to_csv(os.path.join('corpus', query.replace('.rq', '.csv')), index=False)
 	
 	else:
 		# Make all names into rows
@@ -75,17 +74,17 @@ for query in queries:
 		location = pd.DataFrame(location, columns=['wiki_id', 'location'])
 
 		# Extend both files with name_in_riksdagen list
-		alias = pd.read_csv(os.path.join(path_wikidata, 'raw', 'alias.csv'))
+		alias = pd.read_csv(os.path.join('corpus', 'alias.csv'))
 		idx = alias["alias"].str.split(' i ').apply(lambda x: len(x) == 2)
 		alias = alias.loc[idx].reset_index(drop=True)
 		wiki_id = alias["wiki_id"]
 		alias = alias["alias"].str.split(' i ', expand=True).rename(columns={0:'name', 1:'location'})
 		alias["wiki_id"] = wiki_id
 
-		name = name.append(alias[["wiki_id", "name"]]).drop_duplicates()
+		name = name[['wiki_id', 'name']].append(alias[["wiki_id", "name"]]).drop_duplicates()
 		location = location.append(location[["wiki_id", "location"]]).drop_duplicates()
-		name.to_csv(os.path.join(path_wikidata, 'raw', 'name.csv'), index=False, columns=['wiki_id', 'name'])
-		location.to_csv(os.path.join(path_wikidata, 'raw', 'location.csv'), index=False)
-		os.remove(os.path.join(path_wikidata, 'raw', 'alias.csv'))
+		name.to_csv(os.path.join('corpus', 'name.csv'), index=False)
+		location.to_csv(os.path.join('corpus', 'location.csv'), index=False)
+		os.remove(os.path.join('corpus', 'alias.csv'))
 
 	print(f'Query {query} finished.')

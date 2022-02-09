@@ -1,8 +1,0 @@
-SELECT ?governmentLabel ?start ?end
-WHERE
-{
-  ?government wdt:P31 wd:Q930729;
-              wdt:P571 ?start.
-  OPTIONAL{ ?government wdt:P576 ?end }.           
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "sv". }
-}
