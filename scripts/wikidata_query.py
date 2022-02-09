@@ -30,7 +30,7 @@ queries = sorted([q for q in os.listdir(os.path.join(path_wikidata, 'queries')) 
 for query in queries:
 	with open(os.path.join(path_wikidata, 'queries', query), 'r') as f:
 		df = try_query(f.read())
-
+	
 	# Drop columns
 	df = df[[c for c in df.columns if c.endswith('.value')]]
 	df.columns = df.columns.str.replace('.value', '', regex=False)
@@ -53,27 +53,39 @@ for query in queries:
 	
 	else:
 		# Make all names into rows
-		df["wiki_idAlt"] = df["wiki_idAlt"].apply(lambda x: x.split(',') if isinstance(x, str) else [])
-		df["name"] = df.apply(lambda x: [x["name"]] + x["wiki_idAlt"], axis=1)
-		df = df.drop("wiki_idAlt", axis=1)
-		df = df.set_index('wiki_id')["name"].apply(pd.Series).stack().reset_index(level=-1, drop=True).astype(str).reset_index()
-		wiki_id = df["wiki_id"]
+		name = df
+		name["wiki_idAlt"] = name["wiki_idAlt"].apply(lambda x: x.split(',') if isinstance(x, str) else [])
+		name["name"] = name.apply(lambda x: [x["name"]] + x["wiki_idAlt"], axis=1)
+		name = name.drop("wiki_idAlt", axis=1)
+		name = name.set_index('wiki_id')["name"].apply(pd.Series).stack().reset_index(level=-1, drop=True).astype(str).reset_index()
+		wiki_id = name["wiki_id"]
 
 		# Separate locations from names
-		df = df[0].str.split(' [io] ', expand=True)
-		df = df.apply(lambda x: x.str.replace('och', '').str.strip())
-		df = df.rename(columns={0:'name'})
-		df["wiki_id"] = wiki_id
-		df["name"] = df["name"].str.replace(r'\(([^\)]+)\)', '', regex=True).str.strip()
-		name = df.drop_duplicates(subset=['wiki_id', 'name'])[['wiki_id', 'name']]
-		name.to_csv(os.path.join(path_wikidata, 'raw', 'name.csv'), index=False)
-		
+		name = name[0].str.split(' [io] ', expand=True)
+		name = name.apply(lambda x: x.str.replace('och', '').str.strip())
+		name = name.rename(columns={0:'name'})
+		name["wiki_id"] = wiki_id
+		name["name"] = name["name"].str.replace(r'\(([^\)]+)\)', '', regex=True).str.strip()
+
 		location = []
-		for i, row in df.iterrows():
-			for j in range(len(df.columns)-2):
+		for i, row in name.iterrows():
+			for j in range(len(name.columns)-2):
 				if row[j+1] != None:
 					location.append([row["wiki_id"], row[j+1]])
-		location = pd.DataFrame(location, columns=['wiki_id', 'location']).drop_duplicates()
+		location = pd.DataFrame(location, columns=['wiki_id', 'location'])
+
+		# Extend both files with name_in_riksdagen list
+		alias = pd.read_csv(os.path.join(path_wikidata, 'raw', 'alias.csv'))
+		idx = alias["alias"].str.split(' i ').apply(lambda x: len(x) == 2)
+		alias = alias.loc[idx].reset_index(drop=True)
+		wiki_id = alias["wiki_id"]
+		alias = alias["alias"].str.split(' i ', expand=True).rename(columns={0:'name', 1:'location'})
+		alias["wiki_id"] = wiki_id
+
+		name = name.append(alias[["wiki_id", "name"]]).drop_duplicates()
+		location = location.append(location[["wiki_id", "location"]]).drop_duplicates()
+		name.to_csv(os.path.join(path_wikidata, 'raw', 'name.csv'), index=False, columns=['wiki_id', 'name'])
 		location.to_csv(os.path.join(path_wikidata, 'raw', 'location.csv'), index=False)
+		os.remove(os.path.join(path_wikidata, 'raw', 'alias.csv'))
 
 	print(f'Query {query} finished.')

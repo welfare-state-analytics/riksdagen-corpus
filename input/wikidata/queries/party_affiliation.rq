@@ -6,8 +6,9 @@ WHERE
              p:P39 ?posheld. # With position held
 
     ?partystatement ps:P102 ?party.
-    OPTIONAL { ?partystatement pq:P580 ?start. }
-    OPTIONAL { ?partystatement pq:P582 ?end. }
+    # 99% missing dates, skip for now
+    #OPTIONAL { ?partystatement pq:P580 ?start. }
+    #OPTIONAL { ?partystatement pq:P582 ?end. }
   
     {
     # Position held is in one of the chambers
