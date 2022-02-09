@@ -10,7 +10,7 @@ from pyparlaclarin.refine import (
     format_texts,
 )
 
-from pyriksdagen.db import filter_db, load_patterns, load_ministers
+from pyriksdagen.db import filter_db, load_patterns
 from pyriksdagen.refine import (
     detect_mps,
     find_introductions,
@@ -42,26 +42,21 @@ def main(args):
     talman_db["start"] = pd.to_datetime(talman_db["start"], errors="coerce")
     talman_db["end"] = pd.to_datetime(talman_db["end"], errors="coerce")
 
-    ### Preprocess observation level wiki dataset
-    wiki_db = pd.read_csv('corpus/wiki-data/observation.csv')
-    individual = pd.read_csv('corpus/wiki-data/individual.csv')
-    party = pd.read_csv('corpus/wiki-data/party.csv')
-    with open('corpus/wiki-data/name.json', 'r') as f:
-        name = json.load(f)
-
-    # Test replacing previous minister file
-    wiki_minister_db = load_ministers('corpus/wiki-data/minister.json')
+    ### Wikidata
+    # Ministers
+    wiki_minister_db = pd.read_csv('corpus/ministers_w.csv')
     wiki_minister_db["start"] = pd.to_datetime(wiki_minister_db["start"], errors="coerce")
     wiki_minister_db["end"] = pd.to_datetime(wiki_minister_db["end"], errors="coerce")
-    wiki_minister_db["id"] = wiki_minister_db["wiki_id"]
 
-    # Impute missing party values with unique individual level values
-    idx = wiki_db["party_abbrev"].isnull()
-    missing = wiki_db.loc[idx]
-    missing = missing.reset_index().merge(party, on='wiki_id', how='left').set_index('index')
-    missing.rename(columns={'party_abbrev_y':'party_abbrev'}, inplace=True)
-    missing = missing.drop(["party_abbrev_x"], axis=1)
-    wiki_db.loc[idx, "party_abbrev"] = missing["party_abbrev"]
+    # Speakers
+    wiki_speaker_db = pd.read_csv(root + "corpus/speakers_w.csv")
+    wiki_speaker_db["start"] = pd.to_datetime(wiki_speaker_db["start"], errors="coerce")
+    wiki_speaker_db["end"] = pd.to_datetime(wiki_speaker_db["end"], errors="coerce")
+
+    # Members
+    wiki_db = pd.read_csv('corpus/members_of_parliament_w.csv')
+    wiki_db["start"] = pd.to_datetime(wiki_db["start"], errors="coerce")
+    wiki_db["end"] = pd.to_datetime(wiki_db["end"], errors="coerce")
 
     # Remove 1. dots, 2. (text), 3. j:r, 4. specifier, 5. make lowercase
     wiki_db["name"] = wiki_db["name"].str.replace('.', '', regex=False)
@@ -70,29 +65,20 @@ def main(args):
     wiki_db["name"] = wiki_db["name"].str.replace(r"i [a-zA-ZÀ-ÿ]+", '', regex=True)
     wiki_db["name"] = wiki_db["name"].str.lower()
 
+    # Drop wiki_db entries with no startdate
+    wiki_db = wiki_db.loc[~wiki_db["start"].isna()].reset_index(drop=True)
+
     # Add end date to wiki_dbs currently in office
     idx = wiki_db["end"].isna()
-    if sum(idx) != 349: print(f'Warning: {sum(idx)} observations currently in office.')
+    idy = wiki_db["start"] > datetime.strptime('2014-01-01', '%Y-%m-%d')
+    idx = [i for i in idx if i in idy]
+    if len(set((wiki_db.loc[idx, "wiki_id"]))) != 349: print(f'Warning: {sum(idx)} observations currently in office.')
     wiki_db.loc[idx, "end"] = '2022-12-31' 
-    wiki_db["start"] = wiki_db["start"].str[:4].astype(int)
-    wiki_db["end"] = wiki_db["end"].str[:4].astype(int)
+    wiki_db = wiki_db.loc[~wiki_db["end"].isna()].reset_index(drop=True)
 
-    # Add gender
-    wiki_db = wiki_db.reset_index().merge(individual[["wiki_id", "gender"]], on='wiki_id', how='left').set_index('index')
-    if len(set(wiki_db["gender"])) != 2:
-        print('More than 2 genders or missing values.')
-
-    # Add specifier
-    wiki_db["specifier"] = pd.Series(str)
-    for key, values in name.items():
-        if key in wiki_db["wiki_id"].tolist():
-            for value in values:
-                if ' i ' in value:
-                    wiki_db.loc[wiki_db["wiki_id"] == key, "specifier"] = value.split(' i ')[-1]
-                    break
-
-    # Test, change id column name
-    wiki_db["id"] = wiki_db["wiki_id"]
+    # Could probably keep datetime format
+    wiki_db["start"] = pd.DatetimeIndex(wiki_db['start']).year.astype(int)
+    wiki_db["end"] = pd.DatetimeIndex(wiki_db['end']).year.astype(int)
 
     parser = etree.XMLParser(remove_blank_text=True)
 

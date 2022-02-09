@@ -31,7 +31,7 @@ def main(args):
                     who = elem.attrib["who"]
                     if who == "unknown":
                         accuracy[year]["unknown"] = accuracy[year].get("unknown",0) + 1
-                    elif who[0] == "Q":
+                    elif who[-1] == "w":
                         accuracy[year]["wikidata"] = accuracy[year].get("wikidata",0) + 1
                     else:
                         accuracy[year]["known"] = accuracy[year].get("known",0) + 1

@@ -43,7 +43,7 @@ def main(args):
                     note_text = ' '.join(note_text.split())
 
                     data_list.append([note_text, metadata["chamber"], year, protocol])
-        
+
     df = pd.DataFrame(data_list)
     df.columns = ['intro', 'chamber', 'year', 'protocol']
     df.to_csv('output.csv', index=False)
