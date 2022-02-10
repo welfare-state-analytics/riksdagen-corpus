@@ -29,7 +29,7 @@ queries = sorted([q for q in os.listdir(os.path.join('input', 'queries')) if q.e
 for query in queries:
 	with open(os.path.join('input', 'queries', query), 'r') as f:
 		df = try_query(f.read())
-	
+
 	# Drop columns
 	df = df[[c for c in df.columns if c.endswith('.value')]]
 	df.columns = df.columns.str.replace('.value', '', regex=False)
@@ -41,6 +41,9 @@ for query in queries:
 		pass
 	df = df.rename(columns={'wiki_idLabel':'name'}) # name.rq
 	df.columns = df.columns.str.replace('Label', '', regex=False)
+
+	if query == 'minister.rq':
+		df["role"] = df["role"].str.replace('Sveriges', '').str.strip()
 
 	# Format dates
 	date_cols = [c for c in df.columns if c in ['start', 'end', 'born', 'dead']]
@@ -88,3 +91,5 @@ for query in queries:
 		os.remove(os.path.join('corpus', 'alias.csv'))
 
 	print(f'Query {query} finished.')
+
+# change Sverige for ministers

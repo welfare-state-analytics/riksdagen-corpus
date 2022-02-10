@@ -15,7 +15,7 @@ member = pd.read_csv(os.path.join('corpus', 'member.csv'))
 minister = pd.read_csv(os.path.join('corpus', 'minister.csv'))
 name = pd.read_csv(os.path.join('corpus', 'name.csv'))
 party = pd.read_csv(os.path.join('corpus', 'party_affiliation.csv'))
-#prime_minister = pd.read_csv(os.path.join('corpus', 'prime_minister.csv'))
+prime_minister = pd.read_csv(os.path.join('corpus', 'prime_minister.csv'))
 speaker = pd.read_csv(os.path.join('corpus', 'speaker.csv'))
 
 # Drop parties never present in riksdagen
@@ -24,21 +24,30 @@ with open('corpus/party_mapping.json', 'r') as f:
 party["party_abbrev"] = party["party"].map(party_map)
 party = party.dropna().reset_index(drop=True)
 
+# Prime ministers
+prime_minister = prime_minister.merge(individual, on='wiki_id', how='left')
+prime_minister = prime_minister.merge(location, on='wiki_id', how='left')
+prime_minister = prime_minister.merge(name, on='wiki_id', how='left')
+
 # Ministers
+minister = minister.merge(individual, on='wiki_id', how='left')
+minister = minister.merge(location, on='wiki_id', how='left')
+minister = minister.merge(name, on='wiki_id', how='left')
+minister = minister.append(prime_minister) # add prime ministers
 minister["role"] = minister["role"].str.replace('Sveriges ', '')
-minister = minister.merge(individual, on=['wiki_id'])
-minister = minister.merge(location, on=['wiki_id'])
-minister = minister.merge(name, on=['wiki_id'])
 
 # Speakers
-speaker = speaker.merge(individual, on=['wiki_id'])
-speaker = speaker.merge(location, on=['wiki_id'])
-speaker = speaker.merge(name, on=['wiki_id'])
+speaker = speaker.merge(individual, on='wiki_id', how='left')
+speaker = speaker.merge(location, on='wiki_id', how='left')
+speaker = speaker.merge(name, on='wiki_id', how='left')
 
 # Members
-member = member.merge(individual, on=['wiki_id'])
-member = member.merge(location, on=['wiki_id'])
-member = member.merge(name, on=['wiki_id'])
+member = member.merge(individual, on='wiki_id', how='left')
+member = member.merge(location, on='wiki_id', how='left')
+member = member.merge(name, on='wiki_id', how='left')
+
+# Clean values
+member["role"] = member["role"].str.extract(r'([A-Za-zÀ-ÿ]*ledamot)')
 
 # Impute missing party values for members
 idx = member["party"].isnull()
@@ -57,3 +66,8 @@ member = member.loc[~member["start"].isna()].reset_index(drop=True)
 member = member.loc[~member["end"].isna()].reset_index(drop=True)
 member.loc[~member["start"].str.contains('http')].reset_index(drop=True)
 member.loc[~member["end"].str.contains('http')].reset_index(drop=True)
+
+# Save files used for matching
+member.to_csv('input/matching/member.csv', index=False)
+minister.to_csv('input/matching/minister.csv', index=False)
+speaker.to_csv('input/matching/speaker.csv', index=False)
