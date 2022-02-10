@@ -18,6 +18,13 @@ party = pd.read_csv(os.path.join('corpus', 'party_affiliation.csv'))
 prime_minister = pd.read_csv(os.path.join('corpus', 'prime_minister.csv'))
 speaker = pd.read_csv(os.path.join('corpus', 'speaker.csv'))
 
+# Drop 1 character names
+name["name"] = name["name"].apply(lambda x: ' '.join([i for i in x.split() if len(i) > 1]))
+name = name.loc[name["name"] != ''].reset_index(drop=True)
+
+# Map gender to english
+individual["gender"] = individual["gender"].map({'kvinna':'woman', 'man':'man'})
+
 # Drop parties never present in riksdagen
 with open('corpus/party_mapping.json', 'r') as f:
 	party_map = json.load(f)
@@ -40,6 +47,17 @@ minister["role"] = minister["role"].str.replace('Sveriges ', '')
 speaker = speaker.merge(individual, on='wiki_id', how='left')
 speaker = speaker.merge(location, on='wiki_id', how='left')
 speaker = speaker.merge(name, on='wiki_id', how='left')
+speaker["role"] = speaker["role"].map({
+	'Sveriges riksdags talman':'speaker',
+	'andra kammarens andre vice talman':'ak_2_vice_speaker',
+	'andra kammarens förste vice talman':'ak_1_vice_speaker',
+	'andra kammarens talman':'ak_speaker',
+	'andra kammarens vice talman':'ak_1_vice_speaker',
+	'andre vice talman i första kammaren':'fk_2_vice_speaker',
+	'första kammarens talman':'fk_speaker',
+	'första kammarens vice talman':'fk_1_vice_speaker',
+	'förste vice talman i första kammaren':'fk_1_vice_speaker'
+	})
 
 # Members
 member = member.merge(individual, on='wiki_id', how='left')

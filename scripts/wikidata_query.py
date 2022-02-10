@@ -84,6 +84,7 @@ for query in queries:
 		alias = alias["alias"].str.split(' i ', expand=True).rename(columns={0:'name', 1:'location'})
 		alias["wiki_id"] = wiki_id
 
+		name = name.loc[~name["name"].isna()]
 		name = name[['wiki_id', 'name']].append(alias[["wiki_id", "name"]]).drop_duplicates()
 		location = location.append(location[["wiki_id", "location"]]).drop_duplicates()
 		name.to_csv(os.path.join('corpus', 'name.csv'), index=False)

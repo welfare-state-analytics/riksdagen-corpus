@@ -12,10 +12,11 @@ from .segmentation import (
     expression_dicts,
     detect_introduction,
     classify_paragraph,
+    intro_to_dict,
 )
 
 
-def detect_mps(root, names_ids, pattern_db, wiki_db=None, mp_db=None, sk_db=None, minister_db=None, wiki_minister_db=None, speaker_db=None, metadata=None, party_map=None):
+def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, speaker_db=None, metadata=None, party_map=None):
     """
     Re-detect MPs in a parla clarin protocol, based on the (updated)
     MP database.
@@ -26,17 +27,24 @@ def detect_mps(root, names_ids, pattern_db, wiki_db=None, mp_db=None, sk_db=None
         exp, t = pattern["pattern"], pattern["type"]
         exp = re.compile(exp)
         mp_expressions.append((exp, t))
-
+    
     xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     current_speaker = None
     prev = None
+    mp_db_secondary = None
 
     # For bicameral era, prioritize MPs from the same chamber as the protocol
     if "chamber" in metadata:
         mp_db_secondary = mp_db[mp_db["chamber"] != metadata["chamber"]]
         mp_db = mp_db[mp_db["chamber"] == metadata["chamber"]]
-    else:
-        mp_db_secondary = None
+
+        # Filter speakers by chamber
+        if metadata["chamber"] == 'Första kammaren':
+            speaker_db = speaker_db[speaker_db["role"].str.contains('fk')]
+        elif metadata["chamber"] == 'Andra kammaren':
+            speaker_db = speaker_db[speaker_db["role"].str.contains('ak')]
+        elif metadata["chamber"] == 'Enkammarriksdagen':
+            speaker_db = speaker_db[~speaker_db["role"].str.contains('fk|ak')]
 
     for tag, elem in elem_iter(root):
         if tag == "u":
@@ -60,20 +68,24 @@ def detect_mps(root, names_ids, pattern_db, wiki_db=None, mp_db=None, sk_db=None
         elif tag == "note":
             if elem.attrib.get("type", None) == "speaker":
                 if type(elem.text) == str:
-                    current_speaker = detect_minister(elem.text, wiki_minister_db, date=metadata["start_date"])
-                    if current_speaker is None:
-                        current_speaker = detect_minister(elem.text, minister_db, date=metadata["start_date"])
-                    if current_speaker is None:
-                        current_speaker = detect_mp(elem.text, expressions=mp_expressions, db=wiki_db, party_map=party_map, wikidata=True)
-                    if current_speaker is None:
-                        current_speaker = detect_mp(elem.text, expressions=mp_expressions, db=mp_db, party_map=party_map)
-                    if current_speaker is None and mp_db_secondary is not None:
-                        current_speaker = detect_mp(elem.text, expressions=mp_expressions, db=mp_db_secondary, party_map=party_map)
-                    if current_speaker is None:
-                        current_speaker = detect_mp(elem.text, expressions=mp_expressions, db=sk_db, party_map=party_map)
-                    if current_speaker is None or current_speaker == "talman_id":
-                        current_speaker = detect_speaker(elem.text, speaker_db, metadata=metadata)
-                    if current_speaker == "minister_id":
+                    # 1. Parse introduction to dict
+                    # 2. Use appropriate function
+
+                    d = intro_to_dict(elem.text, mp_expressions)
+
+                    if 'other' in d:
+                        if 'statsråd' in d["other"] or 'minister' in d["other"]:
+                            current_speaker = detect_minister(elem.text, minister_db, d)
+                        elif 'talman' in d["other"].lower():
+                            current_speaker = detect_speaker(elem.text, speaker_db, metadata=metadata)
+
+                    elif current_speaker is None:
+                        current_speaker = detect_mp(d, expressions=mp_expressions, db=mp_db, party_map=party_map)
+                    
+                    elif current_speaker is None and mp_db_secondary is not None:
+                        current_speaker = detect_mp(d, expressions=mp_expressions, db=mp_db_secondary, party_map=party_map)
+                    
+                    else:
                         current_speaker = None
                     prev = None
 
