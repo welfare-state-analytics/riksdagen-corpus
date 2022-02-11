@@ -102,14 +102,22 @@ def detect_minister(matched_txt, minister_db, intro_dict):
         minister_db = minister_db[minister_db["gender"] == gender]
     
     # Match by role
-    role = re.search(r'([A-Za-zÀ-ÿ]+)(?:departementet)', lower_txt)
-    if role:
+    # Catch "utrikesdepartementet"
+    if role := re.search(r'([A-Za-zÀ-ÿ]+)(?:departementet)', lower_txt):
         r = role.group(0).replace('departementet', '')
         role_matches = minister_db[minister_db["role"].str.contains(r, regex=False)]
         if not role_matches.empty:
             if len(set(role_matches["id"])) == 1:
                 return role_matches["id"].iloc[0]
-    
+
+    # Catch "ministern för utrikes ärendena (...)"
+    elif role := re.search(r'(?:ministern för )([A-Za-zÀ-ÿ]+)', lower_txt):
+        r = role.group(0).split()[-1]
+        role_matches = minister_db[minister_db["role"].str.contains(r, regex=False)]
+        if not role_matches.empty:
+            if len(set(role_matches["id"])) == 1:
+                return role_matches["id"].iloc[0]
+
     # Match by name
     if 'name' in intro_dict:
         name = intro_dict["name"].lower()
@@ -122,23 +130,20 @@ def detect_minister(matched_txt, minister_db, intro_dict):
             if len(set(name_matches["id"])) > 1:
                 print(f'Non unique minister match found {set(name_matches["id"])}')
 
-def detect_mp(intro_dict, expressions=None, db=None, party_map=None):
+def detect_mp(intro_dict, db, party_map=None):
     """
     Match an MP in a text snippet. Returns an MP id (str) if found, otherwise None.
 
     If multiple people are matched, defaults to returning None.
     """
+
     intro_dict["party_abbrev"] = party_map.get(intro_dict.get("party", ""), "")
     variables = ['party_abbrev', 'specifier', 'name']
     variables = [v for v in variables if v in list(db.columns)] # removes missing variables
     variables = sum([list(map(list, combinations(variables, i))) for i in range(len(variables) + 1)], [])[1:]
-    matching_funs = [fuzzy_name, subnames_in_mpname, mpsubnames_in_name,
-                     firstname_lastname, two_lastnames, lastname]
+    matching_funs = [name_equals, names_in]
 
-    match = match_mp(intro_dict, db, variables, matching_funs)
-    if match == "unknown":
-        return None
-    return match
+    return match_mp(intro_dict, db, variables, matching_funs)
 
 def intro_to_dict(intro_text, expressions):
 
@@ -163,6 +168,10 @@ def intro_to_dict(intro_text, expressions):
             d["gender"] = "man"
         if d["gender"] in ["fru", "fröken"]:
             d["gender"] = "woman"
+
+    if "specifier" in d:
+        d["specifier"] = d["specifier"].replace("i ", "")
+
     return d
 
 def expression_dicts(pattern_db):

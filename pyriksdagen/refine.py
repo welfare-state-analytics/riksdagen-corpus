@@ -68,25 +68,22 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, speake
         elif tag == "note":
             if elem.attrib.get("type", None) == "speaker":
                 if type(elem.text) == str:
-                    # 1. Parse introduction to dict
-                    # 2. Use appropriate function
-
                     d = intro_to_dict(elem.text, mp_expressions)
-
                     if 'other' in d:
+                        # Match minister
                         if 'statsråd' in d["other"] or 'minister' in d["other"]:
                             current_speaker = detect_minister(elem.text, minister_db, d)
-                        elif 'talman' in d["other"].lower():
+                        
+                        elif current_speaker is None and 'talman' in d["other"].lower():
                             current_speaker = detect_speaker(elem.text, speaker_db, metadata=metadata)
 
-                    elif current_speaker is None:
-                        current_speaker = detect_mp(d, expressions=mp_expressions, db=mp_db, party_map=party_map)
+                    # Match mp if not minister/talman and a name is identified
+                    elif 'name' in d:
+                        current_speaker = detect_mp(d, db=mp_db, party_map=party_map)
+                        
+                        if current_speaker is None and mp_db_secondary is not None:
+                            current_speaker = detect_mp(d, db=mp_db_secondary, party_map=party_map)
                     
-                    elif current_speaker is None and mp_db_secondary is not None:
-                        current_speaker = detect_mp(d, expressions=mp_expressions, db=mp_db_secondary, party_map=party_map)
-                    
-                    else:
-                        current_speaker = None
                     prev = None
 
     # Do two loops to preserve attribute order

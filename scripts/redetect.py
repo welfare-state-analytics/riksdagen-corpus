@@ -95,11 +95,11 @@ def main(args):
                     ]
 
                     # What is this for?
-                    #if not year in years:
-                    #    year = years[0]
-                    #    print("Year", year)
-                    #if str(year) not in protocol_id:
-                    #    print(protocol_id, year)
+                    if not year in years:
+                        year = years[0]
+                        print("Year", year)
+                    if str(year) not in protocol_id:
+                        print(protocol_id, year)
                     
                     dates = [
                         parse_date(elem.attrib.get("when"))
@@ -137,14 +137,14 @@ def main(args):
                         metadata=metadata,
                         party_map=party_map,
                     )
-#                    root = update_hashes(root, protocol_id)
-#                    b = etree.tostring(
-#                        root, pretty_print=True, encoding="utf-8", xml_declaration=True
-#                    )
-#
-#                    f = open(filename, "wb")
-#                    f.write(b)
-#                    f.close()
+                    root = update_hashes(root, protocol_id)
+                    b = etree.tostring(
+                        root, pretty_print=True, encoding="utf-8", xml_declaration=True
+                    )
+
+                    f = open(filename, "wb")
+                    f.write(b)
+                    f.close()
 
 
 if __name__ == "__main__":
@@ -153,3 +153,26 @@ if __name__ == "__main__":
     parser.add_argument("--end", type=int, default=2021)
     args = parser.parse_args()
     main(args)
+
+# Minister conflicts
+# Specifier matches with "i Stockholm" -> "Stockholm"
+# Filenames:
+# Member --> member of parliament
+# individual --> person
+# name --> name_person
+# location --> name_location_specifier
+# Add column to name if primary name
+
+# Remove wikidata id from everywhere, have it only in persons.csv
+# Individual file contains all ids, and now they just happen to be identical
+
+# Combine ministers & prime minsiters
+
+# Move party to member.csv
+
+
+# Q5928394, Herr Källman:
+# Q5726007, Herr Fast:
+# Q6172142, Herr Selberg:
+# Q6232377, Herr Ward:
+# Q53294, Herr Lindman:
