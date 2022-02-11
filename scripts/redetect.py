@@ -20,11 +20,15 @@ from pyriksdagen.refine import (
 from pyriksdagen.utils import infer_metadata, parse_date
 from pyriksdagen.match_mp import clean_names
 
-# New filter db function
-def filter_db(db, start_date, end_date):
-    idx = (db["start"] <= start_date) & (db["end"] >= start_date)
-    idy = (db["start"] <= end_date) & (db["end"] >= end_date)
-    return db[idx+idy]
+def filter_db(db, date, *args):
+    '''Filters db with start-end dates containing at least 1 date'''
+    date = [date]
+    for d in args:
+        date.append(d)
+    indices = pd.Series([False]*len(db))
+    for d in date:
+        indices += (db["start"] <= d) & (db["end"] >= d)    
+    return db[indices]
 
 def main(args):
     start_year = args.start
@@ -46,6 +50,7 @@ def main(args):
     speaker_db["name"] = speaker_db["name"].apply(clean_names)
 
     # Datetime format
+    mp_db["end"] = mp_db["end"].str.replace('-01-01', '-12-31')
     mp_db[["start", "end"]] = mp_db[["start", "end"]].apply(pd.to_datetime, errors="coerce")
     minister_db[["start", "end"]] = minister_db[["start", "end"]].apply(pd.to_datetime, errors="coerce")
     speaker_db[["start", "end"]] = speaker_db[["start", "end"]].apply(pd.to_datetime, errors="coerce")
@@ -88,38 +93,22 @@ def main(args):
                     metadata = infer_metadata(protocol_id)
                     filename = pc_folder + outfolder + protocol_id + ".xml"
                     root = etree.parse(filename, parser).getroot()
-
-                    years = [
-                        int(elem.attrib.get("when").split("-")[0])
-                        for elem in root.findall(tei_ns + "docDate")
-                    ]
-
-                    # What is this for?
-                    if not year in years:
-                        year = years[0]
-                        print("Year", year)
-                    if str(year) not in protocol_id:
-                        print(protocol_id, year)
                     
                     dates = [
                         parse_date(elem.attrib.get("when"))
                         for elem in root.findall(tei_ns + "docDate")
                     ]
-                    start_date, end_date = min(dates), max(dates)
-
-                    # Convert start and end dates into datetimes
-                    # Fails for pre-1600s and post-2200s dates
-                    try:
-                        year_mp_db = filter_db(mp_db, start_date, end_date)
-                        year_minister_db = filter_db(minister_db, start_date, end_date)
-                        year_speaker_db = filter_db(speaker_db, start_date, end_date)
-
-                    except pd.errors.OutOfBoundsDatetime:
-                        print("Unreasonable date in:", protocol_id)
-                        print(start_date)
-                        print(end_date)
-
-                    metadata["start_date", "end_date"] = start_date, end_date
+                    
+                    # Dates from xml is wrong for digitized era
+                    if year < 1990: # potentially from 1992
+                        start_date, end_date = min(dates), max(dates)           
+                    else:
+                        start_date = datetime.strptime(f'{str(year)}-01-01', '%Y-%m-%d')
+                        end_date = datetime.strptime(f'{str(year)}-12-31', '%Y-%m-%d')
+                    
+                    year_mp_db = filter_db(mp_db, start_date, end_date)
+                    year_minister_db = filter_db(minister_db, start_date, end_date)
+                    year_speaker_db = filter_db(speaker_db, start_date, end_date)
 
                     # Introduction patterns
                     pattern_db = load_patterns()
@@ -153,26 +142,3 @@ if __name__ == "__main__":
     parser.add_argument("--end", type=int, default=2021)
     args = parser.parse_args()
     main(args)
-
-# Minister conflicts
-# Specifier matches with "i Stockholm" -> "Stockholm"
-# Filenames:
-# Member --> member of parliament
-# individual --> person
-# name --> name_person
-# location --> name_location_specifier
-# Add column to name if primary name
-
-# Remove wikidata id from everywhere, have it only in persons.csv
-# Individual file contains all ids, and now they just happen to be identical
-
-# Combine ministers & prime minsiters
-
-# Move party to member.csv
-
-
-# Q5928394, Herr Källman:
-# Q5726007, Herr Fast:
-# Q6172142, Herr Selberg:
-# Q6232377, Herr Ward:
-# Q53294, Herr Lindman:

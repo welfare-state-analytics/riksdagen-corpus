@@ -15,18 +15,18 @@ from .segmentation import (
     intro_to_dict,
 )
 
-
 def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, speaker_db=None, metadata=None, party_map=None):
     """
     Re-detect MPs in a parla clarin protocol, based on the (updated)
     MP database.
     """
     mp_patterns = pd.read_json("input/segmentation/detection.json", orient="records", lines=True)
+    mp_patterns = pd.read_csv("input/segmentation/detection.csv", sep=";")
+    
     mp_expressions = []
-    for _, pattern in mp_patterns.iterrows():
-        exp, t = pattern["pattern"], pattern["type"]
-        exp = re.compile(exp)
-        mp_expressions.append((exp, t))
+    for _, row in mp_patterns.iterrows():
+        exp, t = row[["pattern", "type"]]
+        mp_expressions.append((re.compile(exp), t))
     
     xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     current_speaker = None
@@ -69,20 +69,30 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, speake
             if elem.attrib.get("type", None) == "speaker":
                 if type(elem.text) == str:
                     d = intro_to_dict(elem.text, mp_expressions)
+
                     if 'other' in d:
                         # Match minister
                         if 'statsråd' in d["other"] or 'minister' in d["other"]:
                             current_speaker = detect_minister(elem.text, minister_db, d)
-                        
+                            
                         elif current_speaker is None and 'talman' in d["other"].lower():
                             current_speaker = detect_speaker(elem.text, speaker_db, metadata=metadata)
+
+                        else:
+                            current_speaker = None
 
                     # Match mp if not minister/talman and a name is identified
                     elif 'name' in d:
                         current_speaker = detect_mp(d, db=mp_db, party_map=party_map)
-                        
+
                         if current_speaker is None and mp_db_secondary is not None:
                             current_speaker = detect_mp(d, db=mp_db_secondary, party_map=party_map)
+                            
+                    else:
+                        #print(elem.text)
+                        #print(d)
+                        #print('\n')
+                        current_speaker = None
                     
                     prev = None
 

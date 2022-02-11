@@ -112,8 +112,8 @@ def read_html_blocks(fpath):
                 contentBlock = etree.SubElement(root, "contentBlock", ix=str(ix))
                 if pre.text is not None:
                     # contentBlock = etree.SubElement(contentBlock, "textBlock", ix=str(ix))
-                    tblocks = re.sub("([a-zåäö,])- ?\n ?([a-zåäö])", "\\1\\2", pre.text)
-                    tblocks = re.sub("([a-zåäö,]) ?\n ?([a-zåäö])", "\\1 \\2", tblocks)
+                    tblocks = re.sub("([a-zß-ÿ,])- ?\n ?([a-zß-ÿ])", "\\1\\2", pre.text)
+                    tblocks = re.sub("([a-zß-ÿ,]) ?\n ?([a-zß-ÿ])", "\\1 \\2", tblocks)
 
                     for tb_ix, tblock in enumerate(tblocks.split("\n")):
                         tblock = tblock.replace("\n", " ")
@@ -200,8 +200,8 @@ def dl_kb_blocks(package_id, archive):
 
                 tblock = " ".join(tblock)
                 # Remove line breaks when next line starts with a small letter
-                tblock = re.sub("([a-zåäö,]) ?\n ?([a-zåäö])", "\\1 \\2", tblock)
-                tblock = re.sub("([a-zåäö,])- ([a-zåäö])", "\\1\\2", tblock)
+                tblock = re.sub("([a-zß-ÿ,]) ?\n ?([a-zß-ÿ])", "\\1 \\2", tblock)
+                tblock = re.sub("([a-zß-ÿ,])- ([a-zß-ÿ])", "\\1\\2", tblock)
                 text_block_e = etree.SubElement(
                     content_block_e, "textBlock", ix=str(tb_ix)
                 )

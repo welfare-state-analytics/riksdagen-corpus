@@ -31,8 +31,6 @@ def main(args):
                     who = elem.attrib["who"]
                     if who == "unknown":
                         accuracy[year]["unknown"] = accuracy[year].get("unknown",0) + 1
-                    elif who[-1] == "w":
-                        accuracy[year]["wikidata"] = accuracy[year].get("wikidata",0) + 1
                     else:
                         accuracy[year]["known"] = accuracy[year].get("known",0) + 1
 
@@ -47,15 +45,13 @@ if __name__ == '__main__':
     accuracy = main(args)
     rows = []
     for year, y_acc in accuracy.items():
-        row = [year, y_acc.get("wikidata",0),  y_acc.get("known",0), y_acc.get("unknown",0)]
+        row = [year, y_acc.get("known",0), y_acc.get("unknown",0)]
         rows.append(row)
 
-    df = pd.DataFrame(rows, columns=["year", "wikidata", "known", "unknown"])
+    df = pd.DataFrame(rows, columns=["year", "known", "unknown"])
 
-    df["accuracy upper bound"] = (df["wikidata"] + df["known"]) / (df["wikidata"] + df["known"] + df["unknown"])
-    df["wikidata upper bound"] = (df["wikidata"]) / (df["wikidata"] + df["known"] + df["unknown"])
+    df["accuracy upper bound"] = df["known"] / (df["known"] + df["unknown"])
     print(df)
-
     print("Average:", df.mean())
     #print("Weighted average:", df["known"].sum() / (df["known"] + df["unknown"]).sum())
     df.to_csv("accuracy_upper_bound.csv", index=False)

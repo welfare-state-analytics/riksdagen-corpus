@@ -38,7 +38,7 @@ def classify_paragraph(paragraph, classifier, prior=np.log([0.8, 0.2])):
 
 
 def _is_metadata_block(txt0):
-    txt1 = re.sub("[^a-zA-ZåäöÅÄÖ ]+", "", txt0)
+    txt1 = re.sub("[^a-zA-Zß-ÿÀ-Þ ]+", "", txt0)
     len0 = len(txt0)
 
     # Empty blocks should not be classified as metadata
@@ -100,7 +100,17 @@ def detect_minister(matched_txt, minister_db, intro_dict):
     if 'gender' in intro_dict:
         gender = intro_dict["gender"]
         minister_db = minister_db[minister_db["gender"] == gender]
-    
+
+    # Match by name
+    if 'name' in intro_dict:
+        name = intro_dict["name"].lower()
+        # thage petterson
+        #print(minister_db)
+        name_matches = names_in(name, minister_db)
+        if not name_matches.empty:
+            if len(set(name_matches["id"])) == 1:
+                return name_matches["id"].iloc[0]
+
     # Match by role
     # Catch "utrikesdepartementet"
     if role := re.search(r'([A-Za-zÀ-ÿ]+)(?:departementet)', lower_txt):
@@ -118,17 +128,12 @@ def detect_minister(matched_txt, minister_db, intro_dict):
             if len(set(role_matches["id"])) == 1:
                 return role_matches["id"].iloc[0]
 
-    # Match by name
-    if 'name' in intro_dict:
-        name = intro_dict["name"].lower()
-        name_matches = minister_db[minister_db["name"].apply(lambda x: name in x.split())]
-        if not name_matches.empty:
-            if len(set(name_matches["id"])) == 1:
-                return name_matches["id"].iloc[0]
-
-            # Can add combining variables + more nuanced name matching but this should do it
-            if len(set(name_matches["id"])) > 1:
-                print(f'Non unique minister match found {set(name_matches["id"])}')
+    elif role := re.search(r'[A-Za-zÀ-ÿ]+minister', lower_txt):
+        r = role.group(0).replace('minister', '')
+        role_matches = minister_db[minister_db["role"].str.contains(r, regex=False)]
+        if not role_matches.empty:
+            if len(set(role_matches["id"])) == 1:
+                return role_matches["id"].iloc[0]
 
 def detect_mp(intro_dict, db, party_map=None):
     """
