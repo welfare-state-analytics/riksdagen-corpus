@@ -10,7 +10,7 @@ from pyparlaclarin.refine import format_texts
 
 
 def main(args):
-    pattern = "([A-ZÅÄÖÉ]{2,10})(- )([A-ZÅÄÖÉ]{2,10})"
+    pattern = "([A-ZÀ-Þ]{2,10})(- )([A-ZÀ-Þ]{2,10})"
     e = re.compile(pattern)
     pc_folder = "corpus/"
     folders = os.listdir(pc_folder)
