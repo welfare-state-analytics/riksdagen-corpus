@@ -1,4 +1,4 @@
-SELECT DISTINCT ?wiki_id ?genderLabel ?born ?dead
+SELECT DISTINCT ?wiki_id ?genderLabel ?born ?dead ?riksdagen_id ?riksdagen_guid
 WHERE
 {
     ?wiki_id wdt:P31 wd:Q5;
@@ -6,6 +6,8 @@ WHERE
     OPTIONAL { ?wiki_id wdt:P21 ?gender }.
     OPTIONAL { ?wiki_id wdt:P569 ?born }.
     OPTIONAL { ?wiki_id wdt:P570 ?dead }.
+    OPTIONAL { ?wiki_id wdt:P1214 ?riksdagen_id }.
+    OPTIONAL { ?wiki_id wdt:P8388 ?riksdagen_guid }.
 
     {
     # Position held is in one of the chambers
