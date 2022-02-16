@@ -1,7 +1,7 @@
-SELECT DISTINCT ?entity ?author ?titleLabel ?date ?subjectLabel ?url
+SELECT DISTINCT ?wiki_id ?author ?titleLabel ?date ?subjectLabel ?url
 WHERE
 {
-  ?entity wdt:P31/wdt:P279* wd:Q452237;wdt:P8433 [];
+  ?wiki_id wdt:P31/wdt:P279* wd:Q452237;wdt:P8433 [];
           wdt:P1476 ?title;
           wdt:P50 ?author;
           wdt:P577 ?date;
