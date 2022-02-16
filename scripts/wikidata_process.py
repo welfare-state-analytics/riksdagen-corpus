@@ -31,9 +31,6 @@ def main():
 	name["name"] = name["name"].apply(clean_names)
 	name = name.loc[name["name"] != ''].reset_index(drop=True)
 
-	# Map gender to english
-	person["gender"] = person["gender"].map({'kvinna':'woman', 'man':'man'})
-
 	### Create dbs for matching
 	# Minister
 	government[["start", "end"]] = government[["start", "end"]].apply(pd.to_datetime, errors="coerce")

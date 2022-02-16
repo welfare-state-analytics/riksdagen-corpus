@@ -43,6 +43,10 @@ def main(args):
 		df = df.rename(columns={'wiki_idLabel':'name'}) # name.rq
 		df.columns = df.columns.str.replace('Label', '', regex=False)
 
+		# Map values
+		if 'gender' in df.columns:
+			df["gender"] = df["gender"].map({'kvinna':'woman', 'man':'man'})
+
 		if query == 'minister.rq':
 			df["role"] = df["role"].str.replace('Sveriges', '').str.strip()
 
