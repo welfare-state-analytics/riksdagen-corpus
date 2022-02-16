@@ -34,48 +34,34 @@ def main(args):
     start_year = args.start
     end_year = args.end
     root = ""  # "../"
-    pc_folder = root + "corpus/"
+    pc_folder = root + "corpus/protocols/"
     folders = [f for f in os.listdir(pc_folder) if f.isnumeric()]
     tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
 
-    with open("corpus/party_mapping.json") as f:
-        party_map = json.load(f)
-    mp_db = pd.read_csv('input/matching/member.csv')
+    party_mapping = pd.read_csv('corpus/metadata/party_abbreviation.csv')
+    mp_db = pd.read_csv('input/matching/member_of_parliament.csv')
     minister_db = pd.read_csv('input/matching/minister.csv')
     speaker_db = pd.read_csv('input/matching/speaker.csv')
 
-    # Clean names
-    mp_db["name"] = mp_db["name"].apply(clean_names)
-    minister_db["name"] = minister_db["name"].apply(clean_names)
-    speaker_db["name"] = speaker_db["name"].apply(clean_names)
+    ### Temporary colname changes
+    mp_db["specifier"] = mp_db["location"]
+    mp_db = mp_db.rename(columns={'person_id':'id'})
+    minister_db = minister_db.rename(columns={'person_id':'id'})
+    speaker_db = speaker_db.rename(columns={'person_id':'id'})
 
     # Datetime format
     mp_db["end"] = mp_db["end"].str.replace('-01-01', '-12-31')
     mp_db[["start", "end"]] = mp_db[["start", "end"]].apply(pd.to_datetime, errors="coerce")
     minister_db[["start", "end"]] = minister_db[["start", "end"]].apply(pd.to_datetime, errors="coerce")
+    minister_db_secondary = minister_db.copy() # Additional version filtering by government
+    minister_db_secondary[["start", "end"]] = minister_db_secondary[["gov_start", "gov_end"]].apply(pd.to_datetime, errors="coerce")
     speaker_db[["start", "end"]] = speaker_db[["start", "end"]].apply(pd.to_datetime, errors="coerce")
 
-    # Map party_abbrev and chamber
-    mp_db["party_abbrev"] = mp_db["party"].map(party_map)
-    mp_db["chamber"] = mp_db["role"].map({'ledamot':'Enkammarriksdagen',
-                                             'förstakammarledamot':'Första kammaren',
-                                             'andrakammarledamot':'Andra kammaren'})
-
-    ### Temporary
-    # Use wiki_id for id for now
-    mp_db["id"] = mp_db["wiki_id"]
-    minister_db["id"] = minister_db["wiki_id"]
-    speaker_db["id"] = speaker_db["wiki_id"]
-    mp_db["specifier"] = mp_db["location"]
-
-    # Potentially use government for filtering ministers
-    #government = pd.read_csv('corpus/government.csv')
-    #government[["start", "end"]] = government[["start", "end"]].apply(pd.to_datetime, errors="coerce")
-    #government.loc[government["start"] == max(government["start"]), "end"] = datetime.strptime('2022-12-31', '%Y-%m-%d')
-
+    unknown_variables = ["gender", "party", "other"]
+    unknowns = []
     parser = etree.XMLParser(remove_blank_text=True)
-    
-    for outfolder in progressbar.progressbar(sorted(folders)):
+
+    for outfolder in sorted(folders):
         if os.path.isdir(pc_folder + outfolder):
             outfolder = outfolder + "/"
             protocol_ids = os.listdir(pc_folder + outfolder)
@@ -100,7 +86,7 @@ def main(args):
                     ]
                     
                     # Dates from xml is wrong for digitized era
-                    if year < 1990: # potentially from 1992
+                    if year < 1990:
                         start_date, end_date = min(dates), max(dates)           
                     else:
                         start_date = datetime.strptime(f'{str(year)}-01-01', '%Y-%m-%d')
@@ -108,6 +94,7 @@ def main(args):
                     
                     year_mp_db = filter_db(mp_db, start_date, end_date)
                     year_minister_db = filter_db(minister_db, start_date, end_date)
+                    gov_minister_db = filter_db(minister_db_secondary, start_date, end_date)
                     year_speaker_db = filter_db(speaker_db, start_date, end_date)
 
                     # Introduction patterns
@@ -116,16 +103,22 @@ def main(args):
                         (pattern_db["start"] <= year) & (pattern_db["end"] >= year)
                     ]
 
-                    root = detect_mps(
+                    root, unk = detect_mps(
                         root,
                         None,
                         pattern_db,
                         mp_db=year_mp_db,
                         minister_db=year_minister_db,
+                        minister_db_secondary=gov_minister_db,
                         speaker_db=year_speaker_db,
                         metadata=metadata,
-                        party_map=party_map,
+                        party_map=party_mapping,
+                        protocol_id=protocol_id,
+                        unknown_variables=unknown_variables,
                     )
+
+                    unknowns.extend(unk)
+    
                     root = update_hashes(root, protocol_id)
                     b = etree.tostring(
                         root, pretty_print=True, encoding="utf-8", xml_declaration=True
@@ -134,6 +127,8 @@ def main(args):
                     f = open(filename, "wb")
                     f.write(b)
                     f.close()
+    unknowns = pd.DataFrame(unknowns, columns=['protocol_id', 'hash']+unknown_variables).drop_duplicates()
+    unknowns.to_csv('input/matching/unknowns.csv', index=False)
 
 
 if __name__ == "__main__":
