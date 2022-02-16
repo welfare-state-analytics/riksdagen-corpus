@@ -25,6 +25,12 @@ def names_in(name, db):
 		len([n for n in names if n in x.split()]) == len(names))]
 	return matches
 
+def names_in_rev(name, db):
+	names = name.split()
+	matches = db[db["name"].apply(lambda x:
+		len([n for n in x.split() if n in names]) == len(x.split()))]
+	return matches
+
 def fuzzy_name(name, db):
 	d = textdistance.levenshtein
 	matches = db[db["name"].apply(lambda x: d(name, x) == 1)]
