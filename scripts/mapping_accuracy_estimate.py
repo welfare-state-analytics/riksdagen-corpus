@@ -54,4 +54,4 @@ if __name__ == '__main__':
     print(df)
     print("Average:", df.mean())
     #print("Weighted average:", df["known"].sum() / (df["known"] + df["unknown"]).sum())
-    df.to_csv("accuracy_upper_bound.csv", index=False)
+    df.to_csv("input/accuracy_upper_bound.csv", index=False)
