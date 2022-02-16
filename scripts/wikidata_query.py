@@ -29,7 +29,8 @@ def main(args):
 	for query in args.queries:
 		with open(os.path.join('input', 'queries', query), 'r') as f:
 			df = query2df(f.read())
-		
+		df.to_csv('test.csv', index=False)
+
 		# Drop columns
 		df = df[[c for c in df.columns if c.endswith('.value')]]
 		df.columns = df.columns.str.replace('.value', '', regex=False)
@@ -53,9 +54,16 @@ def main(args):
 		if 'riksdagen_id' in df.columns:
 			df['riksdagen_id'] = df['riksdagen_id'].astype(str)
 
+		# Sort values
+		if 'wiki_id' in df.columns:
+			df = df[['wiki_id'] + [col for col in df.columns if col != 'wiki_id']]
+			df = df.sort_values(by='wiki_id')
+
+		# Store currently unused data in input
 		if query in ['motion.rq', 'interpellation.rq']:
 			df.to_csv(f"input/metadata{query.replace('.rq', '.csv')}", index=False)
 
+		# Separate name_location_specifier to 2 files
 		elif query != 'name_location_specifier.rq':
 			df.to_csv(f"corpus/metadata/{query.replace('.rq', '.csv')}", index=False)	
 
