@@ -50,11 +50,8 @@ def main(args):
     speaker_db = speaker_db.rename(columns={'person_id':'id'})
 
     # Datetime format
-    mp_db["end"] = mp_db["end"].str.replace('-01-01', '-12-31')
     mp_db[["start", "end"]] = mp_db[["start", "end"]].apply(pd.to_datetime, errors="coerce")
     minister_db[["start", "end"]] = minister_db[["start", "end"]].apply(pd.to_datetime, errors="coerce")
-    minister_db_secondary = minister_db.copy() # Additional version filtering by government
-    minister_db_secondary[["start", "end"]] = minister_db_secondary[["gov_start", "gov_end"]].apply(pd.to_datetime, errors="coerce")
     speaker_db[["start", "end"]] = speaker_db[["start", "end"]].apply(pd.to_datetime, errors="coerce")
 
     unknown_variables = ["gender", "party", "other"]
@@ -94,7 +91,6 @@ def main(args):
                     
                     year_mp_db = filter_db(mp_db, start_date, end_date)
                     year_minister_db = filter_db(minister_db, start_date, end_date)
-                    gov_minister_db = filter_db(minister_db_secondary, start_date, end_date)
                     year_speaker_db = filter_db(speaker_db, start_date, end_date)
 
                     # Introduction patterns
@@ -109,7 +105,6 @@ def main(args):
                         pattern_db,
                         mp_db=year_mp_db,
                         minister_db=year_minister_db,
-                        minister_db_secondary=gov_minister_db,
                         speaker_db=year_speaker_db,
                         metadata=metadata,
                         party_map=party_mapping,
@@ -127,8 +122,10 @@ def main(args):
                     f = open(filename, "wb")
                     f.write(b)
                     f.close()
-    unknowns = pd.DataFrame(unknowns, columns=['protocol_id', 'hash']+unknown_variables).drop_duplicates()
-    unknowns.to_csv('input/matching/unknowns.csv', index=False)
+    unknowns = pd.DataFrame(unknowns, columns=['protocol_id', 'hash']+unknown_variables)
+    print('Proportion of metadata identified for unknowns:')
+    print((unknowns[["gender", "party", "other"]] != '').sum() / len(unknowns))
+    unknowns.drop_duplicates().to_csv('input/matching/unknowns.csv', index=False)
 
 
 if __name__ == "__main__":

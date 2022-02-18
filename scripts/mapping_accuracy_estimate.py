@@ -16,8 +16,9 @@ def get_date(root):
 
 
 def main(args):
-    parser = etree.XMLParser(remove_blank_text=True)
+    #unknowns = pd.read_csv('input/matching/unknowns.csv')
 
+    parser = etree.XMLParser(remove_blank_text=True)
     accuracy = {}
     for protocol in progressbar(list(protocol_iterators("corpus/", start=args.start, end=args.end))):
         root = etree.parse(protocol, parser).getroot()
@@ -31,8 +32,14 @@ def main(args):
                     who = elem.attrib["who"]
                     if who == "unknown":
                         accuracy[year]["unknown"] = accuracy[year].get("unknown",0) + 1
+
                     else:
                         accuracy[year]["known"] = accuracy[year].get("known",0) + 1
+
+                # Hashes are wrong?
+                #x = unknowns[unknowns["hash"] == elem.attrib.get("n")]
+                #if len(x) > 0:
+                #    print(x)
 
     return accuracy
 

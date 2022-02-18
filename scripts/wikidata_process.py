@@ -1,5 +1,5 @@
 '''
-Script for processing raw wikidata tables.
+Script for processing raw wikidata tables into files used for corpus speech matching.
 '''
 import numpy as np
 import pandas as pd
@@ -20,6 +20,11 @@ def main():
 	speaker = pd.read_csv('corpus/metadata/speaker.csv')
 	party_map = pd.read_csv('corpus/metadata/party_abbreviation.csv')
 
+	# Change end dates on year level to include whole year
+	member["end"] = member["end"].str.replace('-01-01', '-12-31')
+	minister["end"] = minister["end"].str.replace('-01-01', '-12-31')
+	speaker["end"] = speaker["end"].str.replace('-01-01', '-12-31')
+
 	### Process corpus data
 	# Drop parties never present in riksdagen
 	party_map = {row["party"]:row["abbreviation"] for _, row in party_map.iterrows()}
@@ -33,27 +38,20 @@ def main():
 
 	### Create dbs for matching
 	# Minister
-	government[["start", "end"]] = government[["start", "end"]].apply(pd.to_datetime, errors="coerce")
-	government.loc[government["start"] == max(government["start"]), "end"] = datetime.strptime('2022-12-31', '%Y-%m-%d')
-	government = government.rename(columns={'start':'gov_start', 'end':'gov_end'})
-
+	# Impute end dates for ministers currently in office
+	government.loc[government['start'] == max(government['start']), 'end'] = '2022-12-31'
+	start_d = dict(zip(government['government'], government['start']))
+	end_d = dict(zip(government['government'], government['end']))
+	idx = minister['start'].isna()
+	minister.loc[idx, 'start'] = minister.loc[idx, 'government'].map(start_d)
+	idx = minister['end'].isna()
+	minister.loc[idx, 'end'] = minister.loc[idx, 'government'].map(end_d)
 
 	# Ministers
 	minister = minister.merge(person, on='wiki_id', how='left')
-	minister = minister.merge(location_specifier, on='wiki_id', how='left')
-	minister = minister.merge(name, on='wiki_id', how='left')
-	
-	minister = minister.merge(government, on='government', how='left')
+	minister = minister.merge(location_specifier, on='wiki_id', how='left')	
+	minister = minister.merge(name[['wiki_id', 'name']], on='wiki_id', how='left')
 	minister["role"] = minister["role"].str.replace('Sveriges ', '')
-
-	# Impute end dates for ministers currently in office
-	idx = np.where(minister["gov_start"] == max(minister["gov_start"]))[0]
-	idy = minister["end"].isna()
-	idx = [i for i in idx if i in idy]
-	minister.loc[idx, "end"] = '2022-12-31'
-
-	# No idea why but name is missing here, debug later
-	minister.loc[minister["wiki_id"] == 'Q60971016'] = 'Gerhard Larsson'
 
 	# Speakers
 	speaker = speaker.merge(person, on='wiki_id', how='left')
@@ -75,11 +73,9 @@ def main():
 	member = member.merge(person, on='wiki_id', how='left')
 	member = member.merge(location_specifier, on='wiki_id', how='left')
 	member = member.merge(name, on='wiki_id', how='left')
-
-	# Clean values
 	member["role"] = member["role"].str.extract(r'([A-Za-zÀ-ÿ]*ledamot)')
 
-	# Impute missing party values for members (not used for others atm)
+	# Impute missing party values for members (not used for other files atm)
 	idx = member["party"].isnull()
 	missing = member.loc[idx]
 	missing = missing.merge(party, on='wiki_id', how='left')
