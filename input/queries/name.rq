@@ -1,7 +1,0 @@
-SELECT DISTINCT ?wiki_id ?wiki_idLabel ?name_in_riksdagen
-WHERE {
-  ?wiki_id p:P2561 ?nameSwedishMP.
-  ?nameSwedishMP ps:P2561 ?name_in_riksdagen;
-      pq:P3831 wd:Q110382440.
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "sv". }
-  }

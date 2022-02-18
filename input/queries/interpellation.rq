@@ -1,0 +1,12 @@
+SELECT DISTINCT ?wiki_id ?author ?titleLabel ?date ?subjectLabel ?url
+WHERE
+{
+  ?wiki_id wdt:P31/wdt:P279* wd:Q1505023;wdt:P8433 [];
+          wdt:P1476 ?title;
+          wdt:P50 ?author;
+          wdt:P577 ?date;
+          wdt:P921 ?subject;
+          wdt:P953 ?url.
+  
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "sv" } 
+}

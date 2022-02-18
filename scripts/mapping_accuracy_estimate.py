@@ -16,8 +16,9 @@ def get_date(root):
 
 
 def main(args):
-    parser = etree.XMLParser(remove_blank_text=True)
+    #unknowns = pd.read_csv('input/matching/unknowns.csv')
 
+    parser = etree.XMLParser(remove_blank_text=True)
     accuracy = {}
     for protocol in progressbar(list(protocol_iterators("corpus/", start=args.start, end=args.end))):
         root = etree.parse(protocol, parser).getroot()
@@ -31,10 +32,14 @@ def main(args):
                     who = elem.attrib["who"]
                     if who == "unknown":
                         accuracy[year]["unknown"] = accuracy[year].get("unknown",0) + 1
-                    elif who[0] == "Q":
-                        accuracy[year]["wikidata"] = accuracy[year].get("wikidata",0) + 1
+
                     else:
                         accuracy[year]["known"] = accuracy[year].get("known",0) + 1
+
+                # Hashes are wrong?
+                #x = unknowns[unknowns["hash"] == elem.attrib.get("n")]
+                #if len(x) > 0:
+                #    print(x)
 
     return accuracy
 
@@ -47,15 +52,13 @@ if __name__ == '__main__':
     accuracy = main(args)
     rows = []
     for year, y_acc in accuracy.items():
-        row = [year, y_acc.get("wikidata",0),  y_acc.get("known",0), y_acc.get("unknown",0)]
+        row = [year, y_acc.get("known",0), y_acc.get("unknown",0)]
         rows.append(row)
 
-    df = pd.DataFrame(rows, columns=["year", "wikidata", "known", "unknown"])
+    df = pd.DataFrame(rows, columns=["year", "known", "unknown"])
 
-    df["accuracy upper bound"] = (df["wikidata"] + df["known"]) / (df["wikidata"] + df["known"] + df["unknown"])
-    df["wikidata upper bound"] = (df["wikidata"]) / (df["wikidata"] + df["known"] + df["unknown"])
+    df["accuracy upper bound"] = df["known"] / (df["known"] + df["unknown"])
     print(df)
-
     print("Average:", df.mean())
     #print("Weighted average:", df["known"].sum() / (df["known"] + df["unknown"]).sum())
-    df.to_csv("accuracy_upper_bound.csv", index=False)
+    df.to_csv("input/accuracy_upper_bound.csv", index=False)

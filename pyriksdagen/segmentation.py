@@ -38,7 +38,7 @@ def classify_paragraph(paragraph, classifier, prior=np.log([0.8, 0.2])):
 
 
 def _is_metadata_block(txt0):
-    txt1 = re.sub("[^a-zA-ZåäöÅÄÖ ]+", "", txt0)
+    txt1 = re.sub("[^a-zA-Zß-ÿÀ-Þ ]+", "", txt0)
     len0 = len(txt0)
 
     # Empty blocks should not be classified as metadata
@@ -71,105 +71,98 @@ def detect_speaker(matched_txt, speaker_db, metadata=None):
     """
     lower_txt = matched_txt.lower()
 
-    # Only match if minister is mentioned in intro
-    if "talman" in lower_txt:
-        if "herr talmannen" in lower_txt or "fru talmannen" in lower_txt:
-            speaker_db = speaker_db[speaker_db["titel"] == "talman"]
-        elif "förste vice talman" in lower_txt:
-            speaker_db = speaker_db[speaker_db["titel"] == "1_vice_talman"]
-        elif "andre vice" in lower_txt:
-            speaker_db = speaker_db[speaker_db["titel"] == "2_vice_talman"]
-        elif "tredje vice" in lower_txt:
-            speaker_db = speaker_db[speaker_db["titel"] == "3_vice_talman"]
-        else:
-            speaker_db = speaker_db[speaker_db["titel"] == "talman"]
+    # Second vice speaker
+    if re.search('andre vice', lower_txt):
+        speaker_db = speaker_db[speaker_db["role"].str.contains('2_vice')]
+    
+    # Third vice speaker
+    elif re.search('tredje vice', lower_txt):
+        speaker_db = speaker_db[speaker_db["role"].str.contains('3_vice')]
 
-        # Do this afterwards to reduce computational cost
-        speaker_db = speaker_db[speaker_db["start"] <= metadata["end_date"]]
-        speaker_db = speaker_db[speaker_db["end"] >= metadata["start_date"]]
-        speaker_db = speaker_db[speaker_db["chamber"] == metadata["chamber"]]
+    # First vice speaker
+    elif re.search(r'(förste)?\svice', lower_txt):
+        speaker_db = speaker_db[speaker_db["role"].str.contains('1_vice')]
 
-        #print(metadata)
-        if len(speaker_db) == 1:
-            speaker_id = list(speaker_db["id"])[0]
-            return speaker_id
+    # Speaker
+    elif re.search(r'(herr|fru)?\s?talman', lower_txt):
+        speaker_db = speaker_db[speaker_db["role"].str.contains('speaker')]
 
-def detect_minister(matched_txt, minister_db, date=None):
+    if len(set(speaker_db["id"])) == 1:
+        return speaker_db["id"].iloc[0]
+
+def detect_minister(matched_txt, minister_db, intro_dict):
     """
     Detect a minister in a snippet of text. Returns a minister id (str) if found, otherwise None.
     """
     lower_txt = matched_txt.lower()
 
-    # Only match if minister is mentioned in intro
-    if "statsråd" in lower_txt or "minister" in lower_txt:
-        if "Ramel" in matched_txt:
-            print(matched_txt)
-        dbrows = list(minister_db.iterrows())
-        ministers = []
-        # herr statsrådet LINDGREN
-        for ix, row in dbrows:
-            lastname = row["name"].upper().split()[-1].strip()
-            # print(lastname)
-            if lastname in matched_txt:
-                # Check that the whole name exists as a word
-                # So that 'LIND' won't be matched for 'LINDGREN'
-                matched_split = re.sub(r"[^A-Za-zÀ-ÿ /-]+", "", matched_txt)
-                matched_split = matched_split.split()
-                if lastname in matched_split:
-                    if date is None:
-                        ministers.append(row["id"])
-                    elif date > row["start"] and date < row["end"]:
-                        ministers.append(row["id"])
-                    else:
-                        print("lastname", lastname, date, row["start"])
+    # Filter by gender
+    if 'gender' in intro_dict:
+        gender = intro_dict["gender"]
+        minister_db = minister_db[minister_db["gender"] == gender]
 
-        # statsrådet Lindgren
-        if len(ministers) == 0:
-            for ix, row in dbrows:
-                lastname = row["name"].split()[-1].strip()
+    # Match by name
+    if 'name' in intro_dict:
+        name = intro_dict["name"].lower()
+        # thage petterson
+        #print(minister_db)
+        name_matches = names_in(name, minister_db)
+        if not name_matches.empty:
+            if len(set(name_matches["id"])) == 1:
+                return name_matches["id"].iloc[0]
 
-                # Preliminary check for performance reasons
-                if lastname in matched_txt:
-                    # Check that the whole name exists as a word
-                    # So that 'Lind' won't be matched for 'Lindgren'
-                    matched_split = re.sub(r"[^A-Za-zÀ-ÿ /-]+", "", matched_txt)
-                    matched_split = matched_split.split()
-                    if lastname in matched_split:
-                        ministers.append(row["id"])
+    # Match by role
+    # Catch "utrikesdepartementet"
+    if role := re.search(r'([A-Za-zÀ-ÿ]+)(?:departementet)', lower_txt):
+        r = role.group(0).replace('departementet', '')
+        role_matches = minister_db[minister_db["role"].str.contains(r, regex=False)]
+        if not role_matches.empty:
+            if len(set(role_matches["id"])) == 1:
+                return role_matches["id"].iloc[0]
 
-        if len(ministers) >= 1:
-            return ministers[0]
+    # Catch "ministern för utrikes ärendena (...)"
+    elif role := re.search(r'(?:ministern för )([A-Za-zÀ-ÿ]+)', lower_txt):
+        r = role.group(0).split()[-1]
+        role_matches = minister_db[minister_db["role"].str.contains(r, regex=False)]
+        if not role_matches.empty:
+            if len(set(role_matches["id"])) == 1:
+                return role_matches["id"].iloc[0]
 
+    elif role := re.search(r'[A-Za-zÀ-ÿ]+minister', lower_txt):
+        r = role.group(0).replace('minister', '')
+        role_matches = minister_db[minister_db["role"].str.contains(r, regex=False)]
+        if not role_matches.empty:
+            if len(set(role_matches["id"])) == 1:
+                return role_matches["id"].iloc[0]
 
-def detect_mp(intro_text, expressions=None, db=None, party_map=None, wikidata=False):
+def detect_mp(intro_dict, db, party_map=None):
     """
     Match an MP in a text snippet. Returns an MP id (str) if found, otherwise None.
 
     If multiple people are matched, defaults to returning None.
     """
-    intro_dict = intro_to_dict(intro_text, expressions)
+
     intro_dict["party_abbrev"] = party_map.get(intro_dict.get("party", ""), "")
     variables = ['party_abbrev', 'specifier', 'name']
     variables = [v for v in variables if v in list(db.columns)] # removes missing variables
     variables = sum([list(map(list, combinations(variables, i))) for i in range(len(variables) + 1)], [])[1:]
-    matching_funs = [fuzzy_name, subnames_in_mpname, mpsubnames_in_name,
-                     firstname_lastname, two_lastnames, lastname]
+    matching_funs = [name_equals, names_in]
 
-    match, reason, person, fun = match_mp(intro_dict, db, variables, matching_funs, wikidata=wikidata)
-    if match == "unknown":
-        return None
-    return match
+    return match_mp(intro_dict, db, variables, matching_funs)
 
 def intro_to_dict(intro_text, expressions):
+
     intro_text = intro_text.strip()
     d = {}
     for exp, t in expressions:
         m = exp.search(intro_text)
         if m is not None:
             matched_text = m.group(0)
+
             if t not in d:
                 d[t] = matched_text.strip()
                 intro_text = intro_text.replace(matched_text, " ")
+
     if "name" in d:
         if ", " in d["name"]:
             s = d["name"].split(", ")
@@ -180,6 +173,10 @@ def intro_to_dict(intro_text, expressions):
             d["gender"] = "man"
         if d["gender"] in ["fru", "fröken"]:
             d["gender"] = "woman"
+
+    if "specifier" in d:
+        d["specifier"] = d["specifier"].replace("i ", "")
+
     return d
 
 def expression_dicts(pattern_db):
