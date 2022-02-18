@@ -39,13 +39,12 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
         mp_db_secondary = mp_db[mp_db["chamber"] != metadata["chamber"]]
         mp_db = mp_db[mp_db["chamber"] == metadata["chamber"]]
 
-        # Filter speakers by chamber
         if metadata["chamber"] == 'Första kammaren':
-            speaker_db = speaker_db[speaker_db["role"].str.contains('fk')]
+            speaker_db = speaker_db[speaker_db['role'].str[:2].isin(['fk'])]
         elif metadata["chamber"] == 'Andra kammaren':
-            speaker_db = speaker_db[speaker_db["role"].str.contains('ak')]
+            speaker_db = speaker_db[speaker_db['role'].str[:2].isin(['ak'])]
         elif metadata["chamber"] == 'Enkammarriksdagen':
-            speaker_db = speaker_db[~speaker_db["role"].str.contains('fk|ak')]
+            speaker_db = speaker_db[~speaker_db['role'].str[:2].isin(['ak', 'fk'])]
 
     for tag, elem in elem_iter(root):
         if tag == "u":

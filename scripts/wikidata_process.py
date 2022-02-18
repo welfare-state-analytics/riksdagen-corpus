@@ -54,6 +54,10 @@ def main():
 	minister["role"] = minister["role"].str.replace('Sveriges ', '')
 
 	# Speakers
+	idx = (speaker['start'] == max(speaker['start'])) & speaker['end'].isna()
+	if sum(idx) > 0:
+		speaker.loc[idx, 'end'] = speaker.loc[idx, 'end'] = '2022-12-31'
+
 	speaker = speaker.merge(person, on='wiki_id', how='left')
 	speaker = speaker.merge(location_specifier, on='wiki_id', how='left')
 	speaker = speaker.merge(name, on='wiki_id', how='left')
