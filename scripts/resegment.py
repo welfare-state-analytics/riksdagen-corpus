@@ -11,6 +11,8 @@ from pyriksdagen.refine import (
     update_hashes,
 )
 from pyriksdagen.utils import infer_metadata
+from pyriksdagen.utils import protocol_iterators
+
 from lxml import etree
 import pandas as pd
 import os, progressbar, argparse
@@ -23,54 +25,35 @@ def main(args):
     folders = os.listdir(pc_folder)
 
     parser = etree.XMLParser(remove_blank_text=True)
-    for outfolder in progressbar.progressbar(folders):
-        if os.path.isdir(pc_folder + outfolder):
-            outfolder = outfolder + "/"
-            protocol_ids = os.listdir(pc_folder + outfolder)
-            protocol_ids = [
-                protocol_id.replace(".xml", "")
-                for protocol_id in protocol_ids
-                if protocol_id.split(".")[-1] == "xml"
-            ]
+    for protocol in progressbar.progressbar(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end))):
+        metadata = infer_metadata(protocol)
+        protocol_id = protocol.split("/")[-1]
+        year = metadata["year"]
+        root = etree.parse(protocol, parser).getroot()
 
-            first_protocol_id = protocol_ids[0]
-            metadata = infer_metadata(first_protocol_id)
-            year = metadata["year"]
-            if year >= start_year and year <= end_year:
-                for protocol_id in protocol_ids:
-                    metadata = infer_metadata(protocol_id)
-                    filename = pc_folder + outfolder + protocol_id + ".xml"
-                    root = etree.parse(filename, parser).getroot()
+        years = [
+            int(elem.attrib.get("when").split("-")[0])
+            for elem in root.findall(
+                ".//{http://www.tei-c.org/ns/1.0}docDate"
+            )
+        ]
 
-                    # print(year, type(year))
-                    years = [
-                        int(elem.attrib.get("when").split("-")[0])
-                        for elem in root.findall(
-                            ".//{http://www.tei-c.org/ns/1.0}docDate"
-                        )
-                    ]
+        if not year in years:
+            year = years[0]
+        
+        pattern_db = load_patterns()
+        pattern_db = pattern_db[
+            (pattern_db["start"] <= year) & (pattern_db["end"] >= year)
+        ]
+        root = find_introductions(root, pattern_db, names_ids=None, minister_db=None)
+        root = format_texts(root)
+        b = etree.tostring(
+            root, pretty_print=True, encoding="utf-8", xml_declaration=True
+        )
 
-                    if not year in years:
-                        year = years[0]
-
-                    #if str(year) not in protocol_id:
-                    #    print(protocol_id, year)
-                    
-                    pattern_db = load_patterns()
-                    pattern_db = pattern_db[
-                        (pattern_db["start"] <= year) & (pattern_db["end"] >= year)
-                    ]
-                    root = find_introductions(root, pattern_db, names_ids=None, minister_db=None)
-                    root = update_ids(root, protocol_id)
-                    root = format_texts(root)
-                    root = update_hashes(root, protocol_id)
-                    b = etree.tostring(
-                        root, pretty_print=True, encoding="utf-8", xml_declaration=True
-                    )
-
-                    f = open(filename, "wb")
-                    f.write(b)
-                    f.close()
+        f = open(protocol, "wb")
+        f.write(b)
+        f.close()
 
 
 if __name__ == "__main__":
