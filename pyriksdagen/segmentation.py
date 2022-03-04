@@ -9,7 +9,6 @@ import progressbar
 from os import listdir
 from os.path import isfile, join
 from lxml import etree
-from .download import get_blocks, fetch_files
 from .utils import infer_metadata
 from .db import filter_db, year_iterator
 from .match_mp import *
