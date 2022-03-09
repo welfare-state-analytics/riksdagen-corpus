@@ -20,9 +20,6 @@ import os, progressbar, argparse
 def main(args):
     start_year = args.start
     end_year = args.end
-    root = ""  # "../"
-    pc_folder = root + "corpus/"
-    folders = os.listdir(pc_folder)
 
     parser = etree.XMLParser(remove_blank_text=True)
     for protocol in progressbar.progressbar(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end))):
@@ -46,6 +43,7 @@ def main(args):
             (pattern_db["start"] <= year) & (pattern_db["end"] >= year)
         ]
         root = find_introductions(root, pattern_db, names_ids=None, minister_db=None)
+        root = update_ids(root, protocol_id)
         root = format_texts(root)
         b = etree.tostring(
             root, pretty_print=True, encoding="utf-8", xml_declaration=True
