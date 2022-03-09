@@ -40,14 +40,17 @@ def load_patterns(year=None, phase="segmentation"):
         return patterns
 
 
-def filter_db(db, year=None, protocol_id=None):
+def filter_db(db, start_date=None, end_date=None, year=None, protocol_id=None):
     """
     Filter dataframe either based on year or protocol id
     """
     assert (
-        year is not None or protocol_id is not None
+        year is not None or protocol_id is not None or (start_date is not None and end_date is not None)
     ), "Provide either year or protocol id"
-    if year is not None:
+    if start_date is not None and end_date is not None:
+        filtered_db = db[(db["start"].dt.date <= end_date.date()) & (db["end"].dt.date >= start_date.date())]
+        return filtered_db
+    elif year is not None:
         if "start" in db.columns:
             filtered_db = db[db["start"] <= year]
             filtered_db = filtered_db[filtered_db["end"] >= year]
