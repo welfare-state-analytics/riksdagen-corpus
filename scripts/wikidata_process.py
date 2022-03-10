@@ -79,6 +79,9 @@ def main():
 	member = member.merge(name, on='wiki_id', how='left')
 	member["role"] = member["role"].str.extract(r'([A-Za-zÀ-ÿ]*ledamot)')
 
+	# Drop members with missing start date
+	member = member[member["start"].notna()].reset_index()
+
 	# Impute missing party values for members (not used for other files atm)
 	idx = member["party"].isnull()
 	missing = member.loc[idx]
@@ -87,16 +90,15 @@ def main():
 
 	# Impute end dates for members currently in office
 	idx = member["end"].isna()
-	idy = member["start"].str[:4] >= '2014'
-	idx = [i for i in idx if i in idy]
-	member.loc[idx, "end"] = '2022-12-31'
+	idy = member["start"].apply(lambda x: int(str(x)[:4]) >= 2014)
+	member.loc[idx*idy, "end"] = '2022-12-31'
 
 	# Drop missing dates
 	member = member.loc[~member["start"].isna()].reset_index(drop=True)
 	member = member.loc[~member["end"].isna()].reset_index(drop=True)
 	member.loc[~member["start"].str.contains('http')].reset_index(drop=True)
 	member.loc[~member["end"].str.contains('http')].reset_index(drop=True)
-
+	
 	# Map party_abbrev and chamber
 	member["party_abbrev"] = member["party"].map(party_map)
 	member["chamber"] = member["role"].map({'ledamot':'Enkammarriksdagen',
