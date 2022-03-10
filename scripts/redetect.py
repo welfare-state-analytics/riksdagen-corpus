@@ -83,11 +83,7 @@ def main(args):
                     ]
                     
                     # Dates from xml is wrong for digitized era
-                    if year < 1990:
-                        start_date, end_date = min(dates), max(dates)           
-                    else:
-                        start_date = datetime.strptime(f'{str(year)}-01-01', '%Y-%m-%d')
-                        end_date = datetime.strptime(f'{str(year)}-12-31', '%Y-%m-%d')
+                    start_date, end_date = min(dates), max(dates)           
                     
                     year_mp_db = filter_db(mp_db, start_date, end_date)
                     year_minister_db = filter_db(minister_db, start_date, end_date)
