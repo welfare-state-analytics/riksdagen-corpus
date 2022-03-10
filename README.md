@@ -1,4 +1,6 @@
-# Swedish parliamentary proceedings - Riksdagens protokoll 1920-2021 v0.4.0
+![example workflow](https://github.com/welfare-state-analytics/riksdagen-corpus/actions/workflows/push/badge.svg)
+
+# Swedish parliamentary proceedings - Riksdagens protokoll 1920-2021 v0.4.1
 
 _Westac Project, 2020-2021_
 
