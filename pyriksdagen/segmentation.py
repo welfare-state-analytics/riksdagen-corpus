@@ -225,7 +225,10 @@ def combine_intros(elem1, elem2, intro_expressions, other_expressions):
     combine = combine and intro is not None
     combine = combine and "Anf" not in elem2.text
     if combine:
-        elem2.text = elem1.text + " " + elem2.text
+        if elem1.text.strip()[-1] == "-":
+            elem2.text = elem1.text.strip()[:-1] + "-" + elem2.text.strip()
+        else:
+            elem2.text = elem1.text + " " + elem2.text
         elem1.text = ""
 
     return combine
