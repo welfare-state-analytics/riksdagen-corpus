@@ -1,4 +1,4 @@
-[![Build status](https://github.com/welfare-state-analytics/riksdagen-corpus/workflows/push/badge.svg)](https://github.com/rOpenGov/pxweb/actions)
+[![Build status](https://github.com/welfare-state-analytics/riksdagen-corpus/workflows/push/badge.svg)](https://github.com/welfare-state-analytics/riksdagen-corpus)
 
 
 # Swedish parliamentary proceedings - Riksdagens protokoll 1920-2021 v0.4.1
