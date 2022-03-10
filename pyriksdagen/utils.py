@@ -110,8 +110,9 @@ def protocol_iterators(corpus_root, start=None, end=None):
         ), "Provide both start and end year or neither"
         if start is not None and end is not None:
             metadata = infer_metadata(protocol.name)
-
-            if start - 1 <= metadata["year"] and end + 1 >= metadata["year"]:
+            year = metadata["year"]
+            secondary_year = metadata.get("secondary_year", year)
+            if start <= year and end >= secondary_year:
                 yield str(protocol.relative_to("."))
 
         else:

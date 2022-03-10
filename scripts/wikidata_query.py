@@ -30,7 +30,7 @@ def main(args):
 	for query in args.queries:
 		with open(os.path.join('input', 'queries', query), 'r') as f:
 			df = query2df(f.read())
-		
+
 		# Drop columns
 		df = df[[c for c in df.columns if c.endswith('.value')]]
 		df.columns = df.columns.str.replace('.value', '', regex=False)
@@ -76,14 +76,14 @@ def main(args):
 		else:
 			# Stack dfs on eachother with indicator of primary name
 			alias = pd.read_csv('corpus/metadata/alias.csv')
-			alias['name'] = alias['alias'] # trickery
-			df = df.append(alias)
-			df = pd.concat([
-				df[['wiki_id', 'name']].assign(primary_name=np.ones(len(df), dtype=bool)),
-				df[['wiki_id', 'alias']].assign(primary_name=np.zeros(len(df), dtype=bool)).rename(columns={'alias':'name'})
-				])
-			df = df.dropna(subset=['name']).reset_index(drop=True)
-
+			alias = alias[['wiki_id', 'alias']].rename(columns={'alias':'name'})		
+			primary_df = df[['wiki_id', 'name']]
+			secondary_df = df[['wiki_id', 'alias']].rename(columns={'alias':'name'})
+			primary_df['primary_name'] = True
+			secondary_df['primary_name'] = False
+			alias['primary_name'] = False
+			df = pd.concat([primary_df, secondary_df, alias]).dropna().drop_duplicates().reset_index(drop=True)
+			
 			# Split names and location specifiers
 			names = df['name'].str.split(' [io] ', expand=True)
 			loc_cols = [i for i in range(len(df.columns)-1)]
@@ -100,8 +100,8 @@ def main(args):
 			# Drop duplicates
 			name = 	df[['wiki_id', 'name', 'primary_name']].\
 					sort_values(by=['primary_name'], ascending=False).\
-					drop_duplicates(subset=['wiki_id', 'primary_name'])
-			
+					drop_duplicates(subset=['wiki_id', 'name', 'primary_name'])
+
 			loc =	pd.concat([df[['wiki_id', col]].rename(columns={col:'location'}) for col in loc_cols]).\
 					dropna().drop_duplicates()
 			

@@ -11,6 +11,7 @@
 {"type": "regex", "pattern": "(Fru|Herr|Fröken) [A-ZÀ-Þ, ]{0,35} \\([a-zA-Zß-ÿÀ-Þ ]{0,9}\\)[a-zA-Zß-ÿÀ-Þ ]{0,20}, [a-zA-Zß-ÿÀ-Þ ]{0,20}:", "start": 1950, "end": 1980}
 {"type": "regex", "pattern": "(Fru|Herr|Fröken) [A-ZÀ-Þ, ]{0,20} i [a-zA-Zß-ÿÀ-Þ ]{0,14} \\([a-zA-Zß-ÿÀ-Þ]{0,3}\\) ?[a-zA-Zß-ÿÀ-Þ ]{0,20}:", "start": 1950, "end": 1980}
 {"type": "regex", "pattern": "Anf.? [A-ZÀ-Þ0-9 ]{5,30}:", "start": 1990, "end": 2000}
+{"type": "regex", "pattern": "^([A-ZÀ-Þ\\-][a-zA-ZÀ-ÿ, ]{0,30} )?[A-ZÀ-Þ\\-]{3,20} [A-ZÀ-Þ\\-]{3,20}( \\([a-zA-Zß-ÿÀ-Þ]{0,4}\\))?:$", "start": 1970, "end": 2000}
 {"type": "regex", "pattern": "Anf.? [A-ZÀ-Þ0-9 ]{5,30} \\([a-zA-Zß-ÿÀ-Þ]{0,4}\\)$", "start": 1994, "end": 1997}
 {"type": "regex", "pattern": "Anf.? [A-ZÀ-Þ0-9 ]{5,30}( \\([a-zA-Zß-ÿÀ-Þ]{1,2}\\))$", "start": 1990, "end": 2000}
 {"type": "regex", "pattern": "Anf.? [A-ZÀ-Þ0-9 ]{5,30} \\([a-zA-Zß-ÿÀ-Þ]{0,4}\\) [a-zA-ZÀ-ÿ0-9., ]{0,40}:", "start": 1970, "end": 2020}
