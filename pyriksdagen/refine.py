@@ -5,6 +5,7 @@ import dateparser
 import pandas as pd
 
 from .utils import elem_iter
+from .db import load_expressions
 from .segmentation import (
     detect_mp,
     detect_minister,
@@ -20,11 +21,7 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
     Re-detect MPs in a parla clarin protocol, based on the (updated)
     MP database.
     """
-    mp_patterns = pd.read_csv("input/segmentation/detection.csv", sep=";")
-    mp_expressions = []
-    for _, row in mp_patterns.iterrows():
-        exp, t = row[["pattern", "type"]]
-        mp_expressions.append((re.compile(exp), t))
+    mp_expressions = load_expressions(phase="mp")
     
     xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     current_speaker = None
@@ -131,7 +128,7 @@ def find_introductions(root, pattern_db, names_ids, minister_db=None):
             for seg in list(elem):
                 if type(seg.text) == str:
                     introduction = detect_introduction(
-                        seg.text, expressions, names_ids, minister_db=minister_db
+                        seg.text, expressions
                     )
                     if introduction is not None:
                         pass  # print("NEW", seg.text)
@@ -179,7 +176,7 @@ def find_introductions(root, pattern_db, names_ids, minister_db=None):
             if type(elem.text) == str:
 
                 introduction = detect_introduction(
-                    elem.text, expressions, names_ids, minister_db=minister_db
+                    elem.text, expressions
                 )
 
                 if introduction is not None:
