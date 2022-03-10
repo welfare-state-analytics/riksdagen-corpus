@@ -69,7 +69,7 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
 
                     if 'other' in d:
                         # Match minister
-                        if 'statsråd' in d["other"] or 'minister' in d["other"]:
+                        if 'statsråd' in d["other"].lower() or 'minister' in d["other"].lower():
                             current_speaker = detect_minister(elem.text, minister_db, d)
                         
                         elif current_speaker is None and 'talman' in d["other"].lower():
