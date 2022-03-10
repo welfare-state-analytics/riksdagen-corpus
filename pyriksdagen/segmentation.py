@@ -182,18 +182,15 @@ def expression_dicts(pattern_db):
     expressions = dict()
     manual = dict()
     for _, row in pattern_db.iterrows():
-        if row["type"] == "regex":
-            pattern = row["pattern"]
-            exp = re.compile(pattern)
-            # Calculate digest for distringuishing patterns without ugly characters
-            pattern_digest = hashlib.md5(pattern.encode("utf-8")).hexdigest()[:16]
-            expressions[pattern_digest] = exp
-        elif row["type"] == "manual":
-            manual[row["pattern"]] = row["segmentation"]
+        pattern = row["pattern"]
+        exp = re.compile(pattern)
+        # Calculate digest for distringuishing patterns without ugly characters
+        pattern_digest = hashlib.md5(pattern.encode("utf-8")).hexdigest()[:16]
+        expressions[pattern_digest] = exp
     return expressions, manual
 
 
-def detect_introduction(paragraph, expressions, names_ids, minister_db=None):
+def detect_introduction(paragraph, expressions):
     """
     Detect whether the current paragraph contains an introduction of a speaker.
 
@@ -212,3 +209,23 @@ def detect_introduction(paragraph, expressions, names_ids, minister_db=None):
             }
 
             return d
+
+def combine_intros(elem1, elem2, intro_expressions, other_expressions):
+    """
+    Join intros that have been split as an artifact of the data processing.
+    """
+    if elem1.text is None or elem2.text is None:
+        return False
+    combine = False
+    for exp, _ in other_expressions:
+        for m in exp.finditer(elem1.text.strip()):
+            combine = True
+
+    intro = detect_introduction(elem2.text, intro_expressions)
+    combine = combine and intro is not None
+    combine = combine and "Anf" not in elem2.text
+    if combine:
+        elem2.text = elem1.text + " " + elem2.text
+        elem1.text = ""
+
+    return combine

@@ -1,5 +1,5 @@
 import pandas as pd
-import os, json
+import os, json, re, hashlib
 from .utils import infer_metadata
 import progressbar
 
@@ -82,3 +82,48 @@ def load_ministers(path='corpus/wiki-data/minister.json'):
                 data.append([g, Q, n, r, s, e])
     minister = pd.DataFrame(data, columns=["government", "wiki_id", "name", "role", "start", "end"])
     return minister
+
+def load_metadata():
+    party_mapping = pd.read_csv('corpus/metadata/party_abbreviation.csv')
+    mp_db = pd.read_csv('input/matching/member_of_parliament.csv')
+    minister_db = pd.read_csv('input/matching/minister.csv')
+    speaker_db = pd.read_csv('input/matching/speaker.csv')
+
+    ### Temporary colname changes
+    mp_db["specifier"] = mp_db["location"]
+    mp_db = mp_db.rename(columns={'person_id':'id'})
+    minister_db = minister_db.rename(columns={'person_id':'id'})
+    speaker_db = speaker_db.rename(columns={'person_id':'id'})
+
+    # Datetime format
+    mp_db[["start", "end"]] = mp_db[["start", "end"]].apply(pd.to_datetime, errors="coerce")
+    minister_db[["start", "end"]] = minister_db[["start", "end"]].apply(pd.to_datetime, errors="coerce")
+    speaker_db[["start", "end"]] = speaker_db[["start", "end"]].apply(pd.to_datetime, errors="coerce")
+
+    return party_mapping, mp_db, minister_db, speaker_db
+
+def load_expressions(phase="segmentation", year=None):
+    if phase == "segmentation":
+        patterns = load_patterns(year=year)
+        expressions = dict()
+        for _, row in patterns.iterrows():
+            pattern = row["pattern"]
+            exp = re.compile(pattern)
+            # Calculate digest for distringuishing patterns without ugly characters
+            pattern_digest = hashlib.md5(pattern.encode("utf-8")).hexdigest()[:16]
+            expressions[pattern_digest] = exp
+        return expressions
+    elif phase == "mp":
+        patterns = pd.read_csv("input/segmentation/detection.csv", sep=";")
+        expressions = []
+        for _, row in patterns.iterrows():
+            exp, t = row[["pattern", "type"]]
+            expressions.append((re.compile(exp), t))
+        return expressions
+    elif phase == "join_intros":
+        patterns = pd.read_csv("input/segmentation/join_intros.csv", sep=";")
+        expressions = []
+        for _, row in patterns.iterrows():
+            exp, t = row[["pattern", "type"]]
+            expressions.append((re.compile(exp), t))
+        return expressions
