@@ -5,8 +5,9 @@ from pyriksdagen.utils import protocol_iterators
 from lxml import etree
 import numpy as np
 import pandas as pd
-from progressbar import progressbar
+from tqdm import tqdm
 import argparse
+from multiprocessing import Pool
 
 def get_date(root):
     for docDate in root.findall(".//{http://www.tei-c.org/ns/1.0}docDate"):
@@ -15,50 +16,42 @@ def get_date(root):
     return date_string
 
 
+
+# Fix parallellization
+def accuracy(protocol):
+    root = etree.parse(protocol, parser).getroot()
+    year = int(get_date(root).split("-")[0])
+    known, unknown = 0, 0
+    for div in root.findall(".//{http://www.tei-c.org/ns/1.0}div"):
+        for elem in div:
+            if "who" in elem.attrib:
+                who = elem.attrib["who"]
+                if who == "unknown":
+                    unknown += 1
+                else:
+                    known += 1
+    return year, known, unknown
+
+parser = etree.XMLParser(remove_blank_text=True)
 def main(args):
-    #unknowns = pd.read_csv('input/matching/unknowns.csv')
-
-    parser = etree.XMLParser(remove_blank_text=True)
-    accuracy = {}
-    for protocol in progressbar(list(protocol_iterators("corpus/", start=args.start, end=args.end))):
-        root = etree.parse(protocol, parser).getroot()
-        year = int(get_date(root).split("-")[0])
-        for div in root.findall(".//{http://www.tei-c.org/ns/1.0}div"):
-            for elem in div:
-                if "who" in elem.attrib:
-                    if year not in accuracy:
-                        accuracy[year] = {}
-
-                    who = elem.attrib["who"]
-                    if who == "unknown":
-                        accuracy[year]["unknown"] = accuracy[year].get("unknown",0) + 1
-
-                    else:
-                        accuracy[year]["known"] = accuracy[year].get("known",0) + 1
-
-                # Hashes are wrong?
-                #x = unknowns[unknowns["hash"] == elem.attrib.get("n")]
-                #if len(x) > 0:
-                #    print(x)
-
-    return accuracy
+    protocols = list(protocol_iterators("corpus/", start=args.start, end=args.end))
+    years = sorted(set([int(p.split('/')[2][:4]) for p in protocols]))
+    df = pd.DataFrame(np.zeros((len(years), 2), dtype=int), index=years, columns=['known', 'unknown'])
+    pool = Pool()
+    for year, known, unknown in tqdm(pool.imap(accuracy, protocols), total=len(protocols)):
+        df.loc[year, 'known'] += known
+        df.loc[year, 'unknown'] += unknown
+    df['accuracy_upper_bound'] = df.div(df.sum(axis=1), axis=0)['known']
+    return df
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--start", type=int, default=1920)
     parser.add_argument("--end", type=int, default=2021)
     args = parser.parse_args()
+    df = main(args)
 
-    accuracy = main(args)
-    rows = []
-    for year, y_acc in accuracy.items():
-        row = [year, y_acc.get("known",0), y_acc.get("unknown",0)]
-        rows.append(row)
-
-    df = pd.DataFrame(rows, columns=["year", "known", "unknown"])
-
-    df["accuracy upper bound"] = df["known"] / (df["known"] + df["unknown"])
     print(df)
     print("Average:", df.mean())
-    #print("Weighted average:", df["known"].sum() / (df["known"] + df["unknown"]).sum())
-    df.to_csv("input/accuracy_upper_bound.csv", index=False)
+    print("Weighted average:", df["known"].sum() / (df["known"] + df["unknown"]).sum())
+    df.to_csv("input/accuracy_upper_bound.csv", index=False)#
