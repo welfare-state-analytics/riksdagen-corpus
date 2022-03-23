@@ -165,7 +165,9 @@ def intro_to_dict(intro_text, expressions):
     if "name" in d:
         if ", " in d["name"]:
             s = d["name"].split(", ")
-            d["name"] = s[1] + " " + s[0]
+            s = s[1] + " " + s[0]
+            s = s.replace('-', ' ')
+            d["name"] = s
     if "gender" in d:
         d["gender"] = d["gender"].lower()
         if d["gender"] == "herr":
