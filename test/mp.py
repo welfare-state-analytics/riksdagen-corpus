@@ -5,7 +5,7 @@ from lxml import etree
 from pyriksdagen.utils import validate_xml_schema, infer_metadata
 from pyriksdagen.download import get_blocks
 from pyriksdagen.export import create_tei, create_parlaclarin
-from pyriksdagen.db import load_patterns, filter_db, load_ministers
+from pyriksdagen.db import load_patterns, filter_db, load_ministers, load_metadata
 from pathlib import Path
 import progressbar
 
@@ -49,30 +49,36 @@ class Test(unittest.TestCase):
 
             return found, false_whos
 
-        folder = "corpus/"
-        wikidata = pd.read_csv("corpus/wiki-data/observation.csv")
-        wiki_minister_db = load_ministers('corpus/wiki-data/minister.json')
-        wikidata = pd.concat([wikidata, wiki_minister_db])
-        wd_db = wikidata[["start", "end"]]
-        wd_db["id"] = wikidata["wiki_id"]
-        wd_db["start"] = pd.DatetimeIndex(pd.to_datetime(wd_db["start"], errors="coerce")).year
-        wd_db["end"] = pd.DatetimeIndex(pd.to_datetime(wd_db["end"], errors="coerce")).year
-        wd_db = wd_db.fillna(2024)
+        # new
+        folder = "corpus/protocols"
+        _, mp_db, minister_db, speaker_db = load_metadata()
+        mp_db = pd.concat([mp_db, minister_db, speaker_db])
 
-        mp_db = pd.read_csv("corpus/members_of_parliament.csv")[["id", "start", "end"]]
-        sk_db = pd.read_csv("corpus/members_of_parliament_sk.csv")[["id", "start", "end"]]
-        minister_db = pd.read_csv("corpus/ministers.csv")[["id", "start", "end"]]
-        talman_db = pd.read_csv("corpus/talman.csv")[["id", "start", "end"]]
-        minister_db["start"] = pd.DatetimeIndex(minister_db["start"]).year
-        minister_db["end"] = pd.DatetimeIndex(minister_db["end"]).year
-        talman_db = talman_db[talman_db["start"].notnull()]
-        talman_db = talman_db[talman_db["end"].notnull()]
-        talman_db["start"] = pd.to_datetime(talman_db["start"], errors="coerce")
-        talman_db["end"] = pd.to_datetime(talman_db["end"], errors="coerce")
-        talman_db["start"] = pd.DatetimeIndex(talman_db["start"]).year
-        talman_db["end"] = pd.DatetimeIndex(talman_db["end"]).year
-        mp_db = pd.concat([wd_db, mp_db, minister_db, talman_db, sk_db])
-        print(mp_db)
+        # old
+        #folder = "corpus/"
+        #wikidata = pd.read_csv("corpus/wiki-data/observation.csv")
+        #wiki_minister_db = load_ministers('corpus/wiki-data/minister.json')
+        #wikidata = pd.concat([wikidata, wiki_minister_db])
+        #wd_db = wikidata[["start", "end"]]
+        #wd_db["id"] = wikidata["wiki_id"]
+        #wd_db["start"] = pd.DatetimeIndex(pd.to_datetime(wd_db["start"], errors="coerce")).year
+        #wd_db["end"] = pd.DatetimeIndex(pd.to_datetime(wd_db["end"], errors="coerce")).year
+        #wd_db = wd_db.fillna(2024)
+
+        #mp_db = pd.read_csv("corpus/members_of_parliament.csv")[["id", "start", "end"]]
+        #sk_db = pd.read_csv("corpus/members_of_parliament_sk.csv")[["id", "start", "end"]]
+        #minister_db = pd.read_csv("corpus/ministers.csv")[["id", "start", "end"]]
+        #talman_db = pd.read_csv("corpus/talman.csv")[["id", "start", "end"]]
+        #minister_db["start"] = pd.DatetimeIndex(minister_db["start"]).year
+        #minister_db["end"] = pd.DatetimeIndex(minister_db["end"]).year
+        #talman_db = talman_db[talman_db["start"].notnull()]
+        #talman_db = talman_db[talman_db["end"].notnull()]
+        #talman_db["start"] = pd.to_datetime(talman_db["start"], errors="coerce")
+        #talman_db["end"] = pd.to_datetime(talman_db["end"], errors="coerce")
+        #talman_db["start"] = pd.DatetimeIndex(talman_db["start"]).year
+        #talman_db["end"] = pd.DatetimeIndex(talman_db["end"]).year
+        #mp_db = pd.concat([wd_db, mp_db, minister_db, talman_db, sk_db])
+        #print(mp_db)
         mp_ids = {}
 
         failed_protocols = []
