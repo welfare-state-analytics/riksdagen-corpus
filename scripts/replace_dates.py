@@ -15,7 +15,7 @@ from pyriksdagen.utils import protocol_iterators
 
 from lxml import etree
 import pandas as pd
-import os, progressbar, argparse
+import os, progressbar, argparse, re
 
 def main(args):
     df = pd.read_csv(args.df)
@@ -40,7 +40,8 @@ def main(args):
         year_str = current_df.iloc[0]["date"]
         s = open(protocol, "r").read()
         
-        s = s.replace(f"<docDate when=\"{year}\">{year}</docDate>", f"<docDate when=\"{year_str}\">{year_str}</docDate>")
+        date_regex = "[0-9]{4,4}(\\-[0-9]{2,2}\\-[0-9]{2,2})"
+        s = re.sub(f"<docDate when=\"{date_regex}\">{date_regex}</docDate>", f"<docDate when=\"{year_str}\">{year_str}</docDate>", s)
 
         f = open(protocol, "wb")
         f.write(s.encode("utf-8"))
