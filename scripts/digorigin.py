@@ -7,33 +7,41 @@ import progressbar
 import pandas as pd
 import argparse
 
-from pyriksdagen.download import read_xml_blocks, read_xml_blocks
+from pyriksdagen.download import read_xml_blocks, read_html_blocks
 from pyriksdagen.utils import infer_metadata
 
-def main(args):
-    dataraw = "input/raw/"
-    outfolder = "input/protocols/"
-    folders = os.listdir(dataraw)
-    folders = [dataraw + folder for folder in folders if os.path.isdir(dataraw + folder)]
-    folders = [folder for folder in folders if "-xml" not in folder]
+import json
+import pandas as pd
+from pathlib import Path
+import progressbar
 
-    print(folders)
+def main(args):
+    outfolder = "input/raw/"
 
     columns = ["protocol_id", "year", "pages", "number"]
     rows = []
 
-    for folder in sorted(folders):
-        files = sorted(os.listdir(folder))
 
-        print(folder)
+    rows = []
+    json_files = Path(args.infolder).glob("*.json")
+    for fpath in progressbar.progressbar(list(json_files)):
+        with open(fpath, encoding='utf-8-sig') as f:
+            data = json.load(f)
 
-        for fpath in progressbar.progressbar(files):
-            html_path = folder + "/" + fpath
-            xml_path = folder + "-xml/" + fpath.replace(".html", ".xml")
-            root = get_html_blocks(html_path)
+        session = data["dokumentstatus"]["dokument"]["rm"]
+        pid = data["dokumentstatus"]["dokument"]["nummer"]
+        date = data["dokumentstatus"]["dokument"]["datum"]
+        html = data["dokumentstatus"]["dokument"]["html"]
+        year = int(date.split("-")[0])
+
+        if year >= args.start and year <= args.end:
+            #html_path = folder + "/" + fpath
+            #xml_path = folder + "-xml/" + fpath.replace(".html", ".xml")
+            root = read_html_blocks(html)
             if root is None:
+                continue
                 if os.path.exists(xml_path):
-                    root = get_xml_blocks(xml_path, html_path)
+                    root = read_xml_blocks(xml_path, html_path)
 
             if root is not None:
                 protocol_id = root.attrib["id"]
@@ -66,5 +74,8 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--start", type=int, default=1990)
+    parser.add_argument("--end", type=int, default=2021)
+    parser.add_argument("--infolder", type=str, required=True)
     args = parser.parse_args()
     main(args)

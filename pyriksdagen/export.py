@@ -216,7 +216,7 @@ def parlaclarin_workflow_individual(file_db, archive, corpus_metadata=dict()):
 
             yearstr = protocol_id[5:]
             yearstr = yearstr.split("-")[0]
-            parlaclarin_path = "corpus/" + yearstr + "/" + protocol_id + ".xml"
+            parlaclarin_path = "corpus/protocols/" + yearstr + "/" + protocol_id + ".xml"
             f = open(parlaclarin_path, "w")
             f.write(parla_clarin_str)
             f.close()

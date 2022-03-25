@@ -75,13 +75,11 @@ def infer_metadata(filename):
     return metadata
 
 
-def read_html(path):
+def clean_html(s):
     """
     Read a HTML file and turn it into valid XML
     """
-    f = open(path)
-    soup = BeautifulSoup(f)
-    f.close()
+    soup = BeautifulSoup(s)
     pretty_html = soup.prettify()
     return etree.fromstring(pretty_html)
 

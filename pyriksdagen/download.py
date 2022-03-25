@@ -5,7 +5,7 @@ import kblab
 import progressbar
 from PyPDF2 import PdfFileReader, PdfFileWriter
 from lxml import etree
-from .utils import read_html
+from .utils import clean_html
 
 
 class LazyArchive:
@@ -81,12 +81,12 @@ def read_xml_blocks(xmlpath, htmlpath):
     return root
 
 
-def read_html_blocks(fpath):
+def read_html_blocks(s):
     """
     Read a protocol with HTML structures between 1990-2013, and
     convert it to the simple XML 'blocks' schema
     """
-    tree = read_html(fpath)
+    tree = clean_html(s)
     id_class = "sidhuvud_beteckning"
 
     # Detect protocol id
