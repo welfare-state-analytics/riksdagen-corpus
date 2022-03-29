@@ -163,6 +163,38 @@ def create_tei(root, metadata):
                             note.text = paragraph
     return tei
 
+def dict_to_tei(data):
+    metadata = copy.deepcopy(data)
+
+    tei = etree.Element("TEI")
+    protocol_id = metadata["protocol_id"]
+    metadata["document_title"] = (
+        protocol_id.replace("_", " ").split("-")[0].replace("prot", "Protokoll")
+    )
+    documentHeader = pc_header(metadata)
+    tei.append(documentHeader)
+
+    text = etree.SubElement(tei, "text")
+    front = etree.SubElement(text, "front")
+    preface = etree.SubElement(front, "div", type="preface")
+    etree.SubElement(preface, "head").text = protocol_id.split(".")[0]
+    if "date" not in metadata:
+        year = metadata.get("year", 2020)
+        metadata["date"] = str(year) + "-01-01"
+
+    etree.SubElement(preface, "docDate", when=metadata["date"]).text = metadata.get(
+        "date", "2020-01-01"
+    )
+
+    body = etree.SubElement(text, "body")
+    body_div = etree.SubElement(body, "div")
+
+    for paragraph in data["paragraphs"]:
+        note = etree.SubElement(body_div, "note")
+        note.text = paragraph
+
+    return tei
+
 
 def gen_parlaclarin_corpus(
     protocol_db,
@@ -186,6 +218,32 @@ def gen_parlaclarin_corpus(
     corpus_metadata["edition"] = "0.1.0"
     corpus = create_parlaclarin(teis, corpus_metadata)
     return corpus
+
+def dict_to_parlaclarin(data):
+    """
+    Create per-protocol parlaclarin files of all files provided in file_db.
+    """
+    session = data["session"]
+    default_metadata = dict(
+        document_title=f"Riksdagens protocols {session}",
+        authority="National Library of Sweden and the WESTAC project",
+        correction="Some data curation was done. It is documented in input/curation/instances",
+        edition="0.4.2",
+    )
+    for key in default_metadata:
+        if key not in data:
+            data[key] = default_metadata[key]
+
+    protocol_id = data["protocol_id"]
+    yearstr = protocol_id[5:]
+    yearstr = yearstr.split("-")[0]
+    parlaclarin_path = f"corpus/protocols/{yearstr}/{protocol_id}.xml"
+
+    tei = dict_to_tei(data)
+    parla_clarin_str = create_parlaclarin(tei, data)
+    f = open(parlaclarin_path, "w")
+    f.write(parla_clarin_str)
+    f.close()
 
 
 def parlaclarin_workflow_individual(file_db, archive, corpus_metadata=dict()):
