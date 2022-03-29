@@ -7,7 +7,7 @@ import progressbar
 import pandas as pd
 import argparse
 
-from pyriksdagen.download import read_xml_blocks, read_html_blocks,oppna_data_to_dict
+from pyriksdagen.download import oppna_data_to_dict
 from pyriksdagen.export import dict_to_parlaclarin
 from pyriksdagen.utils import infer_metadata
 

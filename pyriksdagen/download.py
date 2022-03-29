@@ -50,7 +50,7 @@ def oppna_data_to_dict(input_dict):
     protocol_id = f"prot-{session}--{pid}"
 
     data["protocol_id"] = protocol_id
-    data["date"] = date
+    data["date"] = date.split(" ")[0]
     data["session"] = session
 
     # New HTML structure with div[@class='Section1']
