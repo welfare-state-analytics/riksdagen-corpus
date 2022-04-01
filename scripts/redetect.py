@@ -27,16 +27,18 @@ from itertools import product
 
 def main(args):
     protocols = sorted(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end))    )
-    metadata = [load_metadata()]
+    
     unknowns = []
 
-    if args.parallel == True:
+    if args.parallel == 1:
+        metadata = [load_metadata()]
         pool = Pool()
         for unk in tqdm(pool.imap(redetect_protocol, product(protocols, metadata)), total=len(protocols)):
             unknowns.extend(unk)
     else:
-        for protocol in protocols:
-            unk = redetect_protocol(protocol)
+        metadata = load_metadata()
+        for protocol in tqdm(protocols, total=len(protocols)):
+            unk = redetect_protocol([protocol, metadata])
             unknowns.extend(unk)
 
     unknowns = pd.DataFrame(unknowns, columns=['protocol_id', 'hash']+["gender", "party", "other"])
@@ -49,6 +51,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--start", type=int, default=1920)
     parser.add_argument("--end", type=int, default=2021)
-    parser.add_argument("--parallel", type=bool, default=True)
+    parser.add_argument("--parallel", type=int, default=1)
     args = parser.parse_args()
     main(args)
