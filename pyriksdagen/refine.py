@@ -114,21 +114,24 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
             # Mark as 'delete' instead and delete later
             elem.set("prev", "delete")
             elem.set("next", "delete")
+
+            # Link speeches with next and prev tags
+            if prev is not None:
+                new_prev = prev.attrib[xml_ns + "id"]
+                new_next = elem.attrib[xml_ns + "id"]
+                elem.set("prev", new_prev)
+                prev.set("next", new_next)
+
+            # Annotate current speech with speaker metadata
             if current_speaker is not None:
                 elem.attrib["who"] = current_speaker
-                if prev is None:
-                    prev = elem
-                else:
-                    new_prev = prev.attrib[xml_ns + "id"]
-                    new_next = elem.attrib[xml_ns + "id"]
-                    elem.set("prev", new_prev)
-                    prev.set("next", new_next)
-
             else:
                 elem.attrib["who"] = "unknown"
-                prev = None
+            prev = elem
         elif tag == "note":
             if elem.attrib.get("type", None) == "speaker":
+                # Reset previous part of speech upon a new introduction 
+                prev = None
                 if type(elem.text) == str:
                     d = intro_to_dict(elem.text, mp_expressions)
 
@@ -157,8 +160,6 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
                     if current_speaker is None:
                         unknowns.append([protocol_id, elem.attrib.get("n")] + [d.get(key, "") for key in unknown_variables])
                     
-                    prev = None
-
     # Do two loops to preserve attribute order
     for tag, elem in elem_iter(root):
         if tag == "u":
