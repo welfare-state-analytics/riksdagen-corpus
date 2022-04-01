@@ -26,13 +26,19 @@ from multiprocessing import Pool
 from itertools import product
 
 def main(args):
-    protocols = list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end))    
+    protocols = sorted(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end))    )
     metadata = [load_metadata()]
     unknowns = []
-    pool = Pool()
-    for unk in tqdm(pool.imap(redetect_protocol, product(protocols, metadata)), total=len(protocols)):
-        unknowns.extend(unk)
-        
+
+    if args.parallel == True:
+        pool = Pool()
+        for unk in tqdm(pool.imap(redetect_protocol, product(protocols, metadata)), total=len(protocols)):
+            unknowns.extend(unk)
+    else:
+        for protocol in protocols:
+            unk = redetect_protocol(protocol)
+            unknowns.extend(unk)
+
     unknowns = pd.DataFrame(unknowns, columns=['protocol_id', 'hash']+["gender", "party", "other"])
     print('Proportion of metadata identified for unknowns:')
     print((unknowns[["gender", "party", "other"]] != '').sum() / len(unknowns))
@@ -43,5 +49,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--start", type=int, default=1920)
     parser.add_argument("--end", type=int, default=2021)
+    parser.add_argument("--parallel", type=bool, default=True)
     args = parser.parse_args()
     main(args)
