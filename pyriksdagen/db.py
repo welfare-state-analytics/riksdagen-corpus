@@ -52,8 +52,8 @@ def filter_db(db, start_date=None, end_date=None, year=None, protocol_id=None):
         return filtered_db
     elif year is not None:
         if "start" in db.columns:
-            filtered_db = db[db["start"] <= year]
-            filtered_db = filtered_db[filtered_db["end"] >= year]
+            filtered_db = db[db["start"].dt.year <= year]
+            filtered_db = filtered_db[filtered_db["end"].dt.year >= year]
             return filtered_db
         elif "year" in db.columns:
             filtered_db = db[db["year"] == year]
