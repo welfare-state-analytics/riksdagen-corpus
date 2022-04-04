@@ -1,6 +1,11 @@
 import numpy as np
 import textdistance
 import pandas as pd
+import re
+
+def multiple_replace(dict: dict, text: str):
+	regex = re.compile("(%s)" % "|".join(map(re.escape, dict.keys())))
+	return regex.sub(lambda mo: dict[mo.string[mo.start():mo.end()]], text) 
 
 def clean_names(names):
 	if type(names) == str:
