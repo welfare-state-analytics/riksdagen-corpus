@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2005</title>
+        <title>Riksdagens protocols 200506</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2005</title>
+          <title>Riksdagens protocols 200506</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -58,40 +55,41 @@
       <front>
         <div type="preface">
           <head>prot-200506--144</head>
-          <docDate when="2005-06-17">2005-06-17</docDate>
+          <docDate when="2006-06-17">2006-06-17</docDate>
         </div>
       </front>
       <body>
         <div>
-          <note n="97226abd">
-            ﻿
-          </note>
-          <note n="ee15d3f2">
+          <note>
             Riksdagens protokoll
           </note>
-          <note n="d6168064">
-            2005/06:144
-          </note>
-          <note type="date" n="905833ed">
+          <u xml:id="i-0dbead95a5b5c49c-0" who="unknown">
+            <seg>
+              2005/06:144
+            </seg>
+          </u>
+          <note>
             Lördagen den 17 juni
           </note>
-          <note n="65fb550c">
+          <note>
             Kl. 09:00 - 11:42
           </note>
-          <note n="d799b419">
+          <note>
             1 § Information från regeringen om Europeiska rådets möte den
             15 och 16 juni
           </note>
-          <note type="speaker" n="555bb3d4">
+          <note type="speaker">
             Anf. 1 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-c223a068a5291495-0" n="2df218c9" next="i-8397f7d5de6a2b61-0">
-            <seg n="6027f3f6">
+          <u xml:id="i-0dbead95a5b5c49c-1" next="i-0dbead95a5b5c49c-27" who="Q53747">
+            <seg>
               Herr talman! God morgon, värderade ledamöter av denna kammare!
               Jag har kallats hit för att rapportera om EU:s just avhållna toppmöte.
               Det gör jag med glädje och med tillförsikt.
             </seg>
-            <seg n="d9d76a66">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-2" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               När jag rapporterade senast från ett EU-toppmöte sade jag att
               det vårtoppmötet inte skulle gå till historien som ett av EU:s
               mest dramatiska. Samma sak kan jag även säga om det toppmöte som
@@ -100,7 +98,9 @@
               EU-samarbete. Vi enades dessutom om principerna för hur vi ska
               gå vidare i viktiga frågor som EU:s fördrag och arbetsformer.
             </seg>
-            <seg n="6e41bc0d">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-3" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               Herr talman! Ett år har nu gått sedan folkomröstningarna i Frankrike
               och Nederländerna som innebar att ratifikationsprocessen kring
               EU:s nya fördrag gick in i en ny och mycket osäker fas. Under
@@ -108,7 +108,9 @@
               skiftat från fördraget som sådant till en bredare diskussion om
               EU:s betydelse och inriktning.
             </seg>
-            <seg n="cd02d7c2">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-4" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               I går enades EU:s stats- och regeringschefer om att gå vidare
               på båda dessa spår parallellt. För det första ska vi vidareutveckla
               det konkreta samarbetet med utgångspunkt i nu gällande fördrag
@@ -118,30 +120,40 @@
               levererar i form av viktiga beslut på en lång rad angelägna områden
               handel, tillväxt, miljö, kampen mot brottslighet, social trygghet.
             </seg>
-            <seg n="d1990da8">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-5" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               För det andra ska vi fortsätta diskussionen om EU:s fördrag.
               Här enades rådet om ett par hållpunkter.
             </seg>
-            <seg n="be84e3e9">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-6" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               Under första halvan av 2007 kommer EU:s ordförandeland Tyskland
               att rapportera om diskussionerna kring fördraget. Under tyskt
               ordförandeskap ska också en politisk deklaration antas med de
               mest centrala principerna och ambitionerna för EU:s framtid.
             </seg>
-            <seg n="2b38e630">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-7" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               Senast andra halvan av 2008 bör EU:s medlemsländer ha enats om
               hur reformeringen av fördraget ska se ut. Då bör det vara möjligt
               att se om det finns förutsättningar att anta det fördrag som nu
               ligger på bordet eller om det till exempel behövs en ny regeringskonferens
               alltså starta om med diskussioner.
             </seg>
-            <seg n="5424f408">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-8" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               Gårdagens överenskommelse är bra och konstruktiv. Den håller
               alla dörrar öppna. Hänsyn visas både de länder som har ratificerat
               fördraget och dem som i nuläget ännu inte har gjort det. Vi fortsätter
               diskussionen både om de institutionella frågorna och om sakpolitiken.
             </seg>
-            <seg n="e5db9a8b">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-9" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               Att det finns en utbredd vilja att på olika sätt stärka och reformera
               EU vittnar ett annat av EU-toppmötets beslut, att öka insynen
               i arbetet i EU:s ministerråd. Beslutet innebär att öppenheten
@@ -149,19 +161,25 @@
               med Europaparlamentet, men också andra möten och debatter kommer
               att öppnas.
             </seg>
-            <seg n="be353512">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-10" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               Från regeringens sida är vi tillfreds med det beslutet. Ökad
               öppenhet har länge varit en svensk profilfråga, och svensk ihärdighet
               är en inte oväsentlig faktor bakom gårdagens beslut.
             </seg>
-            <seg n="941d7801">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-11" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               Jag tror att öppenheten kan bidra både till EU:s legitimitet
               och till förståelse för EU:s arbetsformer. Inom ett år ska detta
               beslut ses över och värderas. Här finns många farhågor och också
               många förhoppningar. Vi tror på öppenheten, medan andra är rädda
               för att den kommer att missbrukas av lobbyister.
             </seg>
-            <seg n="045040a6">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-12" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               Herr talman! Jag vill peka på ytterligare en fråga av högsta
               prioritet för den svenska regeringen och, vilket jag med glädje
               kan säga, för Sveriges riksdag. Det är EU:s utvidgning. För att
@@ -174,7 +192,9 @@
               och öppna samhällen är intimt förknippade. Vi är trygga med en
               förändring och inser att öppenhet innebär möjligheter, inte hot.
             </seg>
-            <seg n="322b2784">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-13" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               Så ser det inte ut i alla delar av Europa. Vissa är oroliga för
               att EU:s utvidgning skapar mer problem än möjligheter. Därför
               är den diskussion om EU:s möjligheter att absorbera nya medlemsländer,
@@ -182,11 +202,15 @@
               i anslutning till detta som vi hade vid Europeiska rådet en viktig
               diskussion.
             </seg>
-            <seg n="d01aceaf">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-14" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               I mina ögon är det därför också viktigt att skilja mellan två
               ting.
             </seg>
-            <seg n="225ee30d">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-15" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               Det första är vad ett förhoppningsfullt ansökarland måste åstadkomma
               för att bli aktuellt som medlem. För detta har vi Köpenhamnskriterierna,
               som är tydliga och välformulerade, antagna så sent som 1993. Det
@@ -194,14 +218,18 @@
               som vi säkerställer att inget land blir medlem innan det är redo
               för detta.
             </seg>
-            <seg n="6bac99cd">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-16" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               En helt annan sak måste vara hur EU är rustat att ta in eller,
               som man säger, absorbera nya medlemmar. Det är en högst relevant
               fråga, men det är EU:s uppgift. Det är inget ett kandidatland
               kan påverka och därför inget som kan uppställas som ett krav för
               ett kandidatland. Så argumenterade jag vid toppmötet.
             </seg>
-            <seg n="e55d32af">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-17" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               Därför är jag också nöjd och stolt över att den formulering som
               i praktiken skulle ha etablerat EU:s så kallade absorptionskapacitet
               som ett nytt kriterium för medlemskap i slutändan ströks från
@@ -209,14 +237,18 @@
               Inte minst EU:s nya medlemsländer med färska erfarenheter från
               betydelsen av ett hägrande medlemskap stod vid vår sida.
             </seg>
-            <seg n="76b8a099">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-18" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               EU ska hålla dörrar öppna för nya medlemmar. Regelverket ska
               vara tydligt och gälla lika för alla. EU självt ska skapa förutsättningar,
               institutionella och andra, för nya medlemsstater. Däri ligger
               nyckeln till ett utvidgat EU och ett grannskap i demokrati och
               välfärd.
             </seg>
-            <seg n="d9e5e90a">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-19" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               Herr talman! Jag vill peka på ytterligare en av regeringens hjärtefrågor
               arbetet inom EU med hållbar utveckling. EU:s första strategi för
               hållbar utveckling antogs för fem år sedan under det svenska ordförandeskapets
@@ -225,7 +257,9 @@
               mer kan självklart göras inom EU, och för det verkar vi med all
               kraft vi kan uppbringa.
             </seg>
-            <seg n="7173bc80">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-20" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               Med den reviderade strategi som Europeiska rådet i går antog
               tas ett litet steg framåt. Strategin behandlar hållbara transporter,
               hushållning med naturresurser, hållbara produktions- och konsumtionsmönster,
@@ -236,7 +270,9 @@
               innebär att framsteg mäts och jämförs. Att på detta sätt öka uppmärksamheten
               kring hållbarhetsarbetet är av största vikt.
             </seg>
-            <seg n="59588969">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-21" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               Hållbara samhällen förutsätter framsteg på två andra områden
               som toppmötet också behandlade, energin och klimatet. Strategin
               för hållbar utveckling, kampen mot klimatförändringar och energifrågan
@@ -249,12 +285,16 @@
               i det sammanhanget är dialogen mellan Ryssland och ett EU som
               då måste tala med en tydlig röst.
             </seg>
-            <seg n="dcbb1ae5">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-22" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               På mitt förslag betonades också i slutsatserna vikten av att
               stora infrastrukturprojekt på energiområdet fullt ut beaktar miljöaspekten.
               Därigenom markeras ånyo länken mellan energi och en hållbar miljö.
             </seg>
-            <seg n="4126e01b">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-23" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               Herr talman! Jag vill också peka på ett par av de viktigaste
               utrikespolitiska frågorna. Toppmötet antog en skarp och tydlig
               deklaration om fredsprocessen i Mellanöstern. Våldet mot civila
@@ -264,23 +304,27 @@
               rådet välkomnade också det paketförslag om Iran som nyligen presenterades
               och uttryckte starkt stöd för en diplomatisk lösning.
             </seg>
-            <seg n="328c993e">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-24" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               Slutligen vill jag nämna att utvidgningen av euroområdet i går
               behandlades av stats- och regeringscheferna vid ett särskilt rådsmöte.
               Kommissionens förslag att Slovenien den 1 januari 2007 ska gå
               med i Eurorådet tillstyrktes. Det formella beslutet fattas av
               Ekofin i juli.
             </seg>
-            <seg n="a7c2870b">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-25" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               Detta var, herr talman, i korthet en sammanfattning av det toppmöte
               som jag just återvänt från. Jag svarar gärna på frågor.
             </seg>
           </u>
-          <note n="21558919">
+          <note>
             Anf. 2 GUNILLA CARLSSON i Tyresö (m):
           </note>
-          <u who="Q53747" xml:id="i-8397f7d5de6a2b61-0" n="2df218c9" prev="i-c223a068a5291495-0">
-            <seg n="5a6b5903">
+          <u xml:id="i-0dbead95a5b5c49c-26" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               Herr talman! Jag kan konstatera att Europeiska rådet nu i slutsatser
               för första gången skriver in unionens absorptionskapacitet i samband
               med att man diskuterar utvidgningsprocessen. Ordet kriterium finns
@@ -293,7 +337,9 @@
               250 miljoner, 500 miljoner eller 750 miljoner människor som jobbar
               tillsammans för att fatta gemensamma beslut i gemensamma angelägenheter.
             </seg>
-            <seg n="0ba717d2">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-27" prev="i-0dbead95a5b5c49c-1" who="Q53747">
+            <seg>
               Jag tycker också att det här är synnerligen olämpligt med tanke
               på den sköra process som vi i dag har i Europa. I vårt Europa
               måste vi uppmuntra att länderna på västra Balkan går vidare i
@@ -309,11 +355,11 @@
               ska kunna fortsätta.
             </seg>
           </u>
-          <note type="speaker" n="9516eb26">
+          <note type="speaker">
             Anf. 3 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-c223a068a5291495-1" n="2df218c9" next="i-8397f7d5de6a2b61-1">
-            <seg n="c511f741">
+          <u xml:id="i-0dbead95a5b5c49c-28" next="i-0dbead95a5b5c49c-32" who="Q53747">
+            <seg>
               Herr talman! Det finns en naivitet i ledamotens sätt att argumentera
               som jag tycker är lite skrämmande. Vi har gjort väldigt tydligt
               och klart att för ansökarländerna gäller kriterierna uttryckta
@@ -322,7 +368,9 @@
               av en utvidgning av EU inser naturligtvis att också den delen
               är viktig.
             </seg>
-            <seg n="f35914b7">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-29" prev="i-0dbead95a5b5c49c-28" who="Q53747">
+            <seg>
               Det är ingen lätt uppgift vi har framför oss att ta emot Turkiet
               som medlem i EU. Det vore fel att påstå det. Det är ett gigantiskt
               land med väldigt stora inbyggda problem och möjligheter som kommer
@@ -334,7 +382,9 @@
               land så att man lever upp till de krav som vi ställer på en unionsstat,
               är att i själva verket motverka utvidgningen.
             </seg>
-            <seg n="c34d8ea0">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-30" prev="i-0dbead95a5b5c49c-28" who="Q53747">
+            <seg>
               Jag är väldigt glad att vi fick bort detta som ett kriterium.
               Det är den principiella frågan. Men jag kommer aldrig någonsin
               att medverka till att låtsas som att det inte är några problem
@@ -348,11 +398,11 @@
               den står jag fullt och fast bakom.
             </seg>
           </u>
-          <note n="36d5228f">
+          <note>
             Anf. 4 GUNILLA CARLSSON i Tyresö (m):
           </note>
-          <u who="Q53747" xml:id="i-8397f7d5de6a2b61-1" n="2df218c9" prev="i-c223a068a5291495-1">
-            <seg n="bf46cf4f">
+          <u xml:id="i-0dbead95a5b5c49c-31" prev="i-0dbead95a5b5c49c-28" who="Q53747">
+            <seg>
               Herr talman! Man får gärna kalla mig naiv, men låt mig ställa
               en fråga om Turkiet. Vi måste ju för att unionen ska fungera kunna
               ha ett starkt skydd som gör att vi fattar beslut för demokrati
@@ -362,7 +412,9 @@
               är ju sådant som EU måste ägna sig åt i vart fall alldeles oavsett
               om Turkiet kan komma med eller inte.
             </seg>
-            <seg n="08637c63">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-32" prev="i-0dbead95a5b5c49c-28" who="Q53747">
+            <seg>
               Därför skulle jag vilja be statsministern att definiera vad han
               menar med absorptionskapacitet. Det är uppenbart att detta är
               nyckelordet för dem som inte vill att unionen ska byggas vidare.
@@ -373,11 +425,11 @@
               att det handlat om EU:s egna, interna reformprocesser.
             </seg>
           </u>
-          <note type="speaker" n="1c2ba8db">
+          <note type="speaker">
             Anf. 5 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-e8d8b38031bb970c-0" n="2df218c9">
-            <seg n="0f4b4c83">
+          <u xml:id="i-0dbead95a5b5c49c-33" next="i-0dbead95a5b5c49c-34" who="Q53747">
+            <seg>
               Herr talman! Det här är ingen ny text. Det här uttrycks elegant
               och kraftfullt i en slutsatstext från den 22 juni 1993 i Köpenhamn.
               Det här har varit de två sidorna av unionens utvidgningsprocess.
@@ -392,7 +444,9 @@
               och dessutom under mycket lång tid kommer att vara en huvudsaklig
               mottagare av unionens budgetmedel.
             </seg>
-            <seg n="425f9b04">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-34" prev="i-0dbead95a5b5c49c-33" who="Q53747">
+            <seg>
               Det är klart att det är en sak som kommer att fresta på. Det
               kommer inte att göra det i vårt land. Här är vi lyckliga. Här
               står vi samlade i utvidgningsfrågan. Men man behöver inte gå så
@@ -401,72 +455,86 @@
               här något som diskuterades.
             </seg>
           </u>
-          <note type="speaker" n="887ad38b">
+          <note type="speaker">
             Anf. 6 CARL B HAMILTON (fp):
           </note>
-          <u who="unknown" xml:id="i-1220b54e9ad68f8d-0" n="eb6833a2">
-            <seg n="3e9fe24e">
+          <u xml:id="i-0dbead95a5b5c49c-35" next="i-0dbead95a5b5c49c-39" who="Q5785982">
+            <seg>
               Herr talman! Tack, statsministern, för återrapporten. Den för
               EU-nämnden otvivelaktigt viktigaste frågan vid toppmötet var absorptionsfrågan
               och frågan om det skulle bli ett kriterium eller inte. På den
               punkten hade regeringen mandat och en ganska stark instruktion
               från EU-nämnden att få bort ordet kriterium.
             </seg>
-            <seg n="2d753707">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-36" prev="i-0dbead95a5b5c49c-35" who="Q5785982">
+            <seg>
               Det är en viktig framgång att ordet försvann och att det inte
               blev ett kriterium. Jag tackar statsministern och gratulerar till
               det, även om jag gärna hade velat se ytterligare text försvinna.
             </seg>
-            <seg n="7db287a5">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-37" prev="i-0dbead95a5b5c49c-35" who="Q5785982">
+            <seg>
               I dag är det lite av examensdag. Om vi ser tillbaka på den här
               mandatperioden har vi haft ett antal större EU-frågor, som konstitutionen,
               långtidsbudgeten, EMU och utvecklingen av EU:s alltmer gemensamma
               utrikespolitik som Sverige bejakar.
             </seg>
-            <seg n="bc637d1b">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-38" prev="i-0dbead95a5b5c49c-35" who="Q5785982">
+            <seg>
               I ingen av dessa stora frågor har regeringen haft stöd av stödpartierna
               utan har fått vända sig till alliansen. Flera av de frågor som
               jag nämnde kommer igen nästa mandatperiod.
             </seg>
-            <seg n="5bb64c6a">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-39" prev="i-0dbead95a5b5c49c-35" who="Q5785982">
+            <seg>
               Då är frågan när det gäller EU-politiken: Om olyckan är framme
               och majoritetsförhållandena skulle bli oförändrade, varifrån räknar
               regeringen med att få stöd för sin EU- och utrikespolitik? Finns
               det ett svar på den frågan?
             </seg>
           </u>
-          <note type="speaker" n="dc6ec0f6">
+          <note type="speaker">
             Anf. 7 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-e8d8b38031bb970c-1" n="2df218c9">
-            <seg n="9be8cfd8">
+          <u xml:id="i-0dbead95a5b5c49c-40" next="i-0dbead95a5b5c49c-43" who="Q53747">
+            <seg>
               Herr talman! Jag är glad över att Carl B Hamilton ger ett erkännande
               för den framgång vi hade vid toppmötet. Det är väl ett uttryck
               för den generositet och gemenskap vi har haft omkring EU-frågor
               brett i den svenska riksdagen.
             </seg>
-            <seg n="85f50135">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-41" prev="i-0dbead95a5b5c49c-40" who="Q53747">
+            <seg>
               Jag vet inte varför ett kommande val ska ändra detta. Det har
               jag svårt att förstå. Jag har svårt att förstå att de som är positiva
               till unionen och dess betydelse för vår framtid plötsligt skulle
               göra gemensam sak med dem som är negativa till den. Jag ser ingenting
               som ändras i det grundläggande.
             </seg>
-            <seg n="ef29f33b">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-42" prev="i-0dbead95a5b5c49c-40" who="Q53747">
+            <seg>
               Det är alldeles uppenbart att vi har haft en framgångsrik period
               vad gäller EU-arbetet, både 19982002 och 20022006. Jag tror att
               det fortsätter på samma sätt 20062010.
             </seg>
-            <seg n="54a23a65">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-43" prev="i-0dbead95a5b5c49c-40" who="Q53747">
+            <seg>
               Jag ser med tillförsikt fram emot att fortsätta att diskutera
               detta här i kammaren och i EU-nämnden.
             </seg>
           </u>
-          <note type="speaker" n="a88b45f5">
+          <note type="speaker">
             Anf. 8 CARL B HAMILTON (fp):
           </note>
-          <u who="unknown" xml:id="i-7e036599c6580c2a-0" n="eb6833a2">
-            <seg n="8f4150d9">
+          <u xml:id="i-0dbead95a5b5c49c-44" who="Q5785982">
+            <seg>
               Herr talman! Nej, herr statsminister. Det är två förändringar
               som sker nu. Den första är att Sverige kommer att vara ordförandeland
               i Europeiska unionen år 2009. Om olyckan är framme och vi har
@@ -477,11 +545,11 @@
               då Sverige ska leda EU ska också EU:s långtidsbudget reformeras.
             </seg>
           </u>
-          <note n="c0d2eff5" type="speaker">
+          <note type="speaker">
             Anf. 9 TALMANNEN:
           </note>
-          <u who="Q879773" xml:id="i-e60730084c63b5eb-0" n="eb6833a2">
-            <seg n="cbeaa64a">
+          <u xml:id="i-0dbead95a5b5c49c-45" who="unknown">
+            <seg>
               Var försiktig, Carl B Hamilton. De apostroferade från Miljöpartiet
               och Vänsterpartiet har ingen möjlighet att gå in i det här replikskiftet.
               Statsministern kan inte stå till svars för de ståndpunkterna och
@@ -489,16 +557,18 @@
               upplägget.
             </seg>
           </u>
-          <note type="speaker" n="6b653f2b">
+          <note type="speaker">
             Anf. 10 CARL B HAMILTON (fp):
           </note>
-          <u who="unknown" xml:id="i-1220b54e9ad68f8d-1" n="eb6833a2">
-            <seg n="317fe6e4">
+          <u xml:id="i-0dbead95a5b5c49c-46" next="i-0dbead95a5b5c49c-47" who="Q5785982">
+            <seg>
               Herr talman! Kan det viktiga reformarbetet med långtidsbudget
               verkligen ske i en regering med dessa tre partier, varav ett nyligen
               röstade nej till långtidsbudgeten?
             </seg>
-            <seg n="a21f65df">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-47" prev="i-0dbead95a5b5c49c-46" who="Q5785982">
+            <seg>
               Slutsatsen för min del är nu gäller det att vara försiktig att
               om två mindre partier skulle stödja det stora partiet och dessutom
               sitta i regeringen och få det inflytande som de kräver över EU
@@ -506,50 +576,60 @@
               i Europeiska unionen eller bådeoch.
             </seg>
           </u>
-          <note type="speaker" n="c2f1e110">
+          <note type="speaker">
             Anf. 11 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-e8d8b38031bb970c-2" n="2df218c9">
-            <seg n="7ca53694">
+          <u xml:id="i-0dbead95a5b5c49c-48" next="i-0dbead95a5b5c49c-52" who="Q53747">
+            <seg>
               Herr talman! Jag kan beskyllas för mycket, ibland med rätta,
               ibland orätt. En sak som jag definitivt inte kan smita ifrån är
               att jag har ett visst mått av erfarenhet när det gäller de här
               frågorna.
             </seg>
-            <seg n="15a70a81">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-49" prev="i-0dbead95a5b5c49c-48" who="Q53747">
+            <seg>
               Det är möjligt att Carl B Hamilton önskar att det ska bli på
               det där sättet eller hoppas att det ska bli en politisk kris.
               Jag vet att vi har hanterat de här situationerna förut.
             </seg>
-            <seg n="a1fd6589">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-50" prev="i-0dbead95a5b5c49c-48" who="Q53747">
+            <seg>
               Jag hade förmånen att leda EU 2001 i samma typ av parlamentariskt
               samarbete som jag kan se framför mig nu. Det gick alldeles utmärkt,
               inte minst därför att det var ett konstruktivt samarbete med den
               borgerliga oppositionen.
             </seg>
-            <seg n="b60eeec5">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-51" prev="i-0dbead95a5b5c49c-48" who="Q53747">
+            <seg>
               Vi har sett de här frågorna som frågor som har gått över blockgränserna.
               Det handlar ju om att hävda Sveriges intressen i en internationell
               gemenskap. Det handlar om att vara så tung och kraftfull som möjligt
               på den mest viktiga internationella scen vi har tillgång till.
               Det har skapat den här uppslutningen och sammanhållningen.
             </seg>
-            <seg n="3f87e83f">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-52" prev="i-0dbead95a5b5c49c-48" who="Q53747">
+            <seg>
               Jag tror på de goda krafterna också i fortsättningen, Carl B
               Hamilton.
             </seg>
           </u>
-          <note type="speaker" n="80d58b69">
+          <note type="speaker">
             Anf. 12 TOMMY WAIDELICH (s):
           </note>
-          <u who="Q3369160" xml:id="i-efe4b9bb4704b5ce-0" n="cdad23c4">
-            <seg n="ba71b9fc">
+          <u xml:id="i-0dbead95a5b5c49c-53" next="i-0dbead95a5b5c49c-57" who="Q3369160">
+            <seg>
               Herr talman! Jag vill också tacka för återrapporten och gratulera
               till framgångarna på toppmötet. Vi har fått EU-ledarna att återigen
               binda sig vid masten för fortsatt utvidgning. Det är bra. Det
               är Sverige som har gått i bräschen för det.
             </seg>
-            <seg n="a0d8d3db">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-54" prev="i-0dbead95a5b5c49c-53" who="Q3369160">
+            <seg>
               Några av oss i EU-nämnden var ganska oroliga när vi fick den
               första rapporten i går morse. Den visade att det bara var ett
               fåtal medlemsstater som aktivt hade stött den svenska linjen gentemot
@@ -557,13 +637,17 @@
               att få flertalet med sig på sin linje. För det förtjänar statsministern
               allt beröm.
             </seg>
-            <seg n="da881105">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-55" prev="i-0dbead95a5b5c49c-53" who="Q3369160">
+            <seg>
               Jag tillhör visserligen samma parti som statsministern, men man
               kan ju bara gå till morgontidningarna i dag och se den bild som
               målas upp av toppmötet som en framgång för Sverige och andra som
               har drivit på för en fortsatt utvidgning.
             </seg>
-            <seg n="fa29a128">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-56" prev="i-0dbead95a5b5c49c-53" who="Q3369160">
+            <seg>
               Den här mandatperioden har dominerats av utvidgningsfrågan. Det
               skulle vara intressant att höra hur statsministern bedömer den
               kommande mandatperioden. Statsministern har nämnt några frågor
@@ -571,17 +655,19 @@
               handlar om miljöfrågorna och klimatfrågorna. Vi vet att Vaxholmsfallet
               kommer upp inom kort.
             </seg>
-            <seg n="85be9714">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-57" prev="i-0dbead95a5b5c49c-53" who="Q3369160">
+            <seg>
               Vad är statsministerns bedömning? Kommer det under den kommande
               mandatperioden att vara fler stora frågor än dessa och den fortsatta
               utvidgningen?
             </seg>
           </u>
-          <note type="speaker" n="ab34a196">
+          <note type="speaker">
             Anf. 13 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-e8d8b38031bb970c-3" n="2df218c9">
-            <seg n="11471791">
+          <u xml:id="i-0dbead95a5b5c49c-58" next="i-0dbead95a5b5c49c-62" who="Q53747">
+            <seg>
               Herr talman! Jag förutsätter att också kommande mandatperiod
               på ett eller annat sätt kommer att domineras av utvidgningsdiskussionen.
               Vi ska komma ihåg att fördragsdiskussionen är intimt kopplad till
@@ -590,12 +676,16 @@
               inte längre. Därför hänger de sakerna ihop. Alla som vill ha en
               utvidgning av EU behöver ha ett nytt fördrag.
             </seg>
-            <seg n="8666e77a">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-59" prev="i-0dbead95a5b5c49c-58" who="Q53747">
+            <seg>
               Det finns de som säger att det inte finns ett sådant samband.
               Det kan naturligtvis gå ett tag till, men ganska snart är vi vid
               vägs ände. Utvidgningen finns där.
             </seg>
-            <seg n="b71265d8">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-60" prev="i-0dbead95a5b5c49c-58" who="Q53747">
+            <seg>
               Jag tror att det som kommer att växa i betydelse för Europeiska
               unionen är samarbetet kring klimatfrågorna. Vi har framför oss
               det som ska hända efter Kyoto, efter 2012. Där är EU alltmer enat.
@@ -604,7 +694,9 @@
               och starkaste uttrycken för detta i de internationella förhandlingar
               som ska drivas. Det är ohyggligt tydligt illustrerat i EU:s miljödimension.
             </seg>
-            <seg n="2e2d3fc9">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-61" prev="i-0dbead95a5b5c49c-58" who="Q53747">
+            <seg>
               Jag märker nu bland EU:s stats- och regeringschefer en svängning
               i attityden som är av det slaget att när vi diskuterar klimatmål
               och exempelvis förnybar energi finns inte bensin- och oljelobbyn
@@ -616,61 +708,73 @@
               är i början av den perioden. Också här kommer EU att spela en
               ledande roll.
             </seg>
-            <seg n="7b71e03d">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-62" prev="i-0dbead95a5b5c49c-58" who="Q53747">
+            <seg>
               Utvidgningen och klimatfrågorna tror jag kommer att stå i centrum.
             </seg>
           </u>
-          <note type="speaker" n="2d4e1c3a">
+          <note type="speaker">
             Anf. 14 TOMMY WAIDELICH (s):
           </note>
-          <u who="Q3369160" xml:id="i-efe4b9bb4704b5ce-1" n="cdad23c4">
-            <seg n="4c8db728">
+          <u xml:id="i-0dbead95a5b5c49c-63" next="i-0dbead95a5b5c49c-64" who="Q3369160">
+            <seg>
               Herr talman! Jag ser fram emot ett fortsatt gott samarbete kring
               de frågorna under den kommande mandatperioden.
             </seg>
-            <seg n="010cc29d">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-64" prev="i-0dbead95a5b5c49c-63" who="Q3369160">
+            <seg>
               Jag vill samtidigt passa på att å EU-nämndens vägnar tacka statsministern
               och regeringen för ett mycket gott samarbete under den här mandatperioden.
               Trevlig sommar!
             </seg>
           </u>
-          <note type="speaker" n="e3d424d8">
+          <note type="speaker">
             Anf. 15 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-e8d8b38031bb970c-4" n="2df218c9">
-            <seg n="ecb8495f">
+          <u xml:id="i-0dbead95a5b5c49c-65" who="Q53747">
+            <seg>
               Herr talman! Till sådant har jag inget annat att säga än att
               jag verkligen önskar detsamma.
             </seg>
           </u>
-          <note type="speaker" n="12b3664d">
+          <note type="speaker">
             Anf. 16 MATS ODELL (kd):
           </note>
-          <u who="Q571725" xml:id="i-1af00fe1a0141c80-0" n="8df3bf3b">
-            <seg n="8fa04401">
+          <u xml:id="i-0dbead95a5b5c49c-66" next="i-0dbead95a5b5c49c-70" who="Q571725">
+            <seg>
               Herr talman! Nu har vi talat en hel del om utvidgningen. Göran
               Persson snuddade vid kopplingen till grundfördraget. EU-parlamentets
               talman Joseph Borell sade att man inte kan bygga fler våningar
               på en byggnad utan att försäkra sig om att grunden håller.
             </seg>
-            <seg n="6424fda9">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-67" prev="i-0dbead95a5b5c49c-66" who="Q571725">
+            <seg>
               Tanken där är alla de nya länder som står i farstun och är på
               väg in i detta samarbete.
             </seg>
-            <seg n="efb36690">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-68" prev="i-0dbead95a5b5c49c-66" who="Q571725">
+            <seg>
               Det är ingen tvekan om att EU-samarbetet i vår världsdel är den
               starkaste demokratiskt omvandlande kraften för att stärka mänskliga
               rättigheter som vi känner i historien. Då är det naturligtvis
               väldigt viktigt att vi har en grund för detta som håller.
             </seg>
-            <seg n="0990657f">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-69" prev="i-0dbead95a5b5c49c-66" who="Q571725">
+            <seg>
               Göran Persson har ännu inte varit inne på slutsatserna runt fördragsförändringarna.
               Jag skulle vilja be statsministern att något utveckla hur han
               ser på den tredje perioden, reflexionsperioden. Risken är att
               vi får en tankepaus. Vilka är Göran Perssons ambitioner om den
               breda debatt som borde finnas i Sverige på detta område?
             </seg>
-            <seg n="8d76b784">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-70" prev="i-0dbead95a5b5c49c-66" who="Q571725">
+            <seg>
               Hittills har det varit mycket av en tankepaus. Det har varit
               alldeles för lite av debatt. Vi är kanske den mest utvidgningsvänliga
               nationen inom unionen, men motståndet mot fördraget är bland det
@@ -680,16 +784,18 @@
               är viktigt att bägge dessa ben finns med.
             </seg>
           </u>
-          <note type="speaker" n="197bbb3b">
+          <note type="speaker">
             Anf. 17 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-e8d8b38031bb970c-5" n="2df218c9">
-            <seg n="188bc3b7">
+          <u xml:id="i-0dbead95a5b5c49c-71" next="i-0dbead95a5b5c49c-74" who="Q53747">
+            <seg>
               Herr talman! Jag tror att jag alldeles nyss utvecklade hur jag
               ser på den saken ett intimt samband mellan fördrag och utvidgning.
               Och när det kommer till utvidgningen är vi alla överens.
             </seg>
-            <seg n="31434506">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-72" prev="i-0dbead95a5b5c49c-71" who="Q53747">
+            <seg>
               Sedan kan man naturligtvis se framför sig någonting som finns
               i europeiska högerkretsar, och då talar jag inte om de anständiga
               högerpartierna utan om de mer extrema. De drömmer ju ofta om en
@@ -699,7 +805,9 @@
               när hon sade att hon ville se en stor men svag union, där unionen
               då egentligen blir ett frihandelsområde.
             </seg>
-            <seg n="ed6e77bd">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-73" prev="i-0dbead95a5b5c49c-71" who="Q53747">
+            <seg>
               Visst går det att utvidga unionen utan att samtidigt ta fördragsförändringen.
               Men då får vi en annan typ av union. Då får vi en union som inte
               spelar någon roll i miljöfrågorna. Då får vi en union som inte
@@ -707,7 +815,9 @@
               inte kan vara med och påverka exempelvis internationella förhandlingar
               om handel och annat på ett kraftfullt sätt.
             </seg>
-            <seg n="86c41ce9">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-74" prev="i-0dbead95a5b5c49c-71" who="Q53747">
+            <seg>
               Det finns två spår. Jag är anhängare av det spår som innebär
               att vi ska ha en union som också kan agera kraftfullt politiskt
               i de sammanhang som vi blir överens om att den ska göra det, en
@@ -719,11 +829,11 @@
               så enkelt.
             </seg>
           </u>
-          <note type="speaker" n="69d401cc">
+          <note type="speaker">
             Anf. 18 MATS ODELL (kd):
           </note>
-          <u who="Q571725" xml:id="i-1af00fe1a0141c80-1" n="8df3bf3b">
-            <seg n="16c461e1">
+          <u xml:id="i-0dbead95a5b5c49c-75" next="i-0dbead95a5b5c49c-76" who="Q571725">
+            <seg>
               Herr talman! Det var intressant att höra statsministerns lovsång
               till de överstatliga delarna av EU-samarbetet. Annars brukar det
               vara de mera mellanstatliga dimensionerna som Göran Persson framhåller.
@@ -731,7 +841,9 @@
               detta fördrag så småningom. Hur ska vi få den svenska opinionen
               att inse detta?
             </seg>
-            <seg n="54f83d47">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-76" prev="i-0dbead95a5b5c49c-75" who="Q571725">
+            <seg>
               Vilka planer har Göran Persson för att se till att vi får en
               livaktig debatt som också visar att detta inte handlar om att
               skapa någon sorts europeisk superstat utan om att få ett fungerande
@@ -742,11 +854,11 @@
               och Holland var förra gången?
             </seg>
           </u>
-          <note type="speaker" n="f1e6d7f6">
+          <note type="speaker">
             Anf. 19 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-e8d8b38031bb970c-6" n="2df218c9">
-            <seg n="ab7fbb3d">
+          <u xml:id="i-0dbead95a5b5c49c-77" next="i-0dbead95a5b5c49c-79" who="Q53747">
+            <seg>
               Herr talman! Redan i slutet av Mats Odells inlägg ligger ju svaret
               på nästa fråga. Han sade: som Frankrike och Holland var förra
               gången. Det var inte förra gången, Mats Odell det är den här gången.
@@ -754,31 +866,37 @@
               två länder har sagt nej efter folkomröstningar med mycket tydliga
               utslag. Vi kan inte bara negligera det.
             </seg>
-            <seg n="f42561e4">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-78" prev="i-0dbead95a5b5c49c-77" who="Q53747">
+            <seg>
               Att vi i den här kammaren har blivit överens om att vi därför
               ska vänta med vår ratifikation tills vi har fått klarhet är en
               högst praktisk hållning som jag tycker att vi alla har anledning
               att stå bakom.
             </seg>
-            <seg n="d460d7bc">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-79" prev="i-0dbead95a5b5c49c-77" who="Q53747">
+            <seg>
               Sedan har jag ett ansvar för debatten. Men också så eminenta
               personligheter som Mats Odell kan väl ge ett bidrag. Och det är
               fritt fram att dra i gång den stora diskussionen inom Kristdemokraterna
               vad gäller EU och dess fördrag. Varsågod de väntar på dig, Mats.
             </seg>
           </u>
-          <note type="speaker" n="8e892770">
+          <note type="speaker">
             Anf. 20 CAMILLA SKÖLD JANSSON (v):
           </note>
-          <u who="Q4979216" xml:id="i-fddd1f663feb7829-0" n="b0ae346e">
-            <seg n="cc279cb8">
+          <u xml:id="i-0dbead95a5b5c49c-80" next="i-0dbead95a5b5c49c-83" who="Q4979216">
+            <seg>
               Herr talman! Det finns ju en hel del EU-skepticism bland folken
               i EU-medlemsländerna, också i Sverige. Det är en skepticism som
               bottnar i att EU-projektet till stor del saknar folklig förankring
               och att det är svårt, för att inte säga omöjligt ibland, för medborgarna
               att utkräva ett direkt ansvar för beslut som fattas i EU-systemen.
             </seg>
-            <seg n="194ace62">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-81" prev="i-0dbead95a5b5c49c-80" who="Q4979216">
+            <seg>
               Den utveckling som vi har sett har gått från att alltmer makt
               flyttas till Bryssel och att alltfler beslut ska fattas med majoritet.
               Därför var det intressant att lyssna på det tidigare replikskiftet
@@ -786,22 +904,26 @@
               majoritetsbeslut. Jag har också i medierna kunnat läsa att statsministern
               ser det som ett problem att fatta beslut med enhällighet.
             </seg>
-            <seg n="bb7f5da9">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-82" prev="i-0dbead95a5b5c49c-80" who="Q4979216">
+            <seg>
               Alternativet till enhällighet är, som sagt, majoritetsbeslut,
               det vill säga att man flyttar över makt till EU och att man ökar
               överstatligheten.
             </seg>
-            <seg n="1ed7daac">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-83" prev="i-0dbead95a5b5c49c-80" who="Q4979216">
+            <seg>
               Det går inte att tolka på något annat sätt än att statsministern
               nu förordar en utveckling som går alltmer i riktning mot en federation.
               Vilka slutsatser ska man annars dra av statsministerns ställningstagande?
             </seg>
           </u>
-          <note type="speaker" n="ac2df2c7">
+          <note type="speaker">
             Anf. 21 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-e8d8b38031bb970c-7" n="2df218c9">
-            <seg n="a2993ed3">
+          <u xml:id="i-0dbead95a5b5c49c-84" next="i-0dbead95a5b5c49c-86" who="Q53747">
+            <seg>
               Herr talman! Var jag står i den frågan har väl gjorts klart i
               hundratals debatter i den här kammaren. Jag är en stark motståndare
               till det federala, självklart. Jag är för det mellanstatliga.
@@ -815,13 +937,17 @@
               fram sina positioner och vi inte längre rår att hålla emot på
               en nationell nivå.
             </seg>
-            <seg n="acb6f111">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-85" prev="i-0dbead95a5b5c49c-84" who="Q53747">
+            <seg>
               Därför bör EU naturligtvis på vissa områden flytta fram sina
               positioner. Därför bör EU utvecklas där nationalstaten inte räcker
               till. Där den här församlingen inte längre förmår att balansera
               ett internationellt kapital bör EU flytta fram sina positioner.
             </seg>
-            <seg n="785bdd59">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-86" prev="i-0dbead95a5b5c49c-84" who="Q53747">
+            <seg>
               Jag tar hellre den diskussionen, och jag tar hellre de bekymmer
               som kan vara förknippade med detta än att jag ser en utveckling
               där människor upplever att de demokratiskt valda organen inte
@@ -830,22 +956,26 @@
               Där står jag.
             </seg>
           </u>
-          <note type="speaker" n="593f35ba">
+          <note type="speaker">
             Anf. 22 CAMILLA SKÖLD JANSSON (v):
           </note>
-          <u who="Q4979216" xml:id="i-fddd1f663feb7829-1" n="b0ae346e">
-            <seg n="9b5e4696">
+          <u xml:id="i-0dbead95a5b5c49c-87" next="i-0dbead95a5b5c49c-89" who="Q4979216">
+            <seg>
               Herr talman! Det är en mycket viktig diskussion som vi för just
               nu. Återigen bekräftar statsministern inriktningen mot mer av
               överstatlighet. Och mer av överstatlighet är ju lika med federation.
             </seg>
-            <seg n="8575a633">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-88" prev="i-0dbead95a5b5c49c-87" who="Q4979216">
+            <seg>
               Vi har ett vägval att göra, menar jag. Ska EU behålla sin legitimitet
               måste man renodla. Antingen går man i riktning mot mellanstatlighet,
               eller också går man tydligt i riktning mot överstatlighet. Av
               demokratihänsyn måste vi göra detta vägval.
             </seg>
-            <seg n="38f14b1d">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-89" prev="i-0dbead95a5b5c49c-87" who="Q4979216">
+            <seg>
               Det ställningstagande som statsministern nu gör är att han väldigt
               tydligt förordar alltmer överstatlighet. Det är också, som statsministern
               själv sade tidigare, en helt annan union som nu växer fram. Jag
@@ -858,25 +988,29 @@
               förankrad.
             </seg>
           </u>
-          <note type="speaker" n="a0ac915f">
+          <note type="speaker">
             Anf. 23 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-e8d8b38031bb970c-8" n="2df218c9">
-            <seg n="852b8f4a">
+          <u xml:id="i-0dbead95a5b5c49c-90" next="i-0dbead95a5b5c49c-92" who="Q53747">
+            <seg>
               Herr talman! Om detta råder ingen som helst tvekan eller delade
               meningar. Vi diskuterar ett fördrag som delvis är svar på den
               här frågan. Men vi står inför en utveckling, vilket vi måste se,
               där vi har att välja när det gäller exempelvis att balansera ett
               mer aggressivt internationellt kapital.
             </seg>
-            <seg n="3f461f15">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-91" prev="i-0dbead95a5b5c49c-90" who="Q53747">
+            <seg>
               Globaliseringen, vad är det för någonting? Ja, det är naturligtvis
               detta, Camilla Sköld Jansson, att alltfler av de arbetsplatser
               som finns i Sverige hotas i konkurrensens form av produktion i
               andra länder där man inte bedriver produktionen på ett sådant
               sätt att det lever upp till anständighetens krav.
             </seg>
-            <seg n="de3cb06c">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-92" prev="i-0dbead95a5b5c49c-90" who="Q53747">
+            <seg>
               Ska vi då luta oss tillbaka och säga att det där kan vi inte
               göra någonting åt, att det får vara och att vi får se oss som
               förlorare? Eller ska vi säga att vi tror på politiken, att vi
@@ -889,32 +1023,36 @@
               räcker till därför att jag tror på demokratin.
             </seg>
           </u>
-          <note type="speaker" n="5d7dc365">
+          <note type="speaker">
             Anf. 24 JAN ANDERSSON (c):
           </note>
-          <u who="Q5554833" xml:id="i-2c9989fcbb9c2903-0" n="fc3276b9">
-            <seg n="7c2ba245">
+          <u xml:id="i-0dbead95a5b5c49c-93" next="i-0dbead95a5b5c49c-95" who="Q5554833">
+            <seg>
               Herr talman! Även jag vill uppehålla mig vid frågan om absorptionsförmågan
               och fördraget därför att jag tycker att det är den tveklöst viktigaste
               frågan på det här toppmötet.
             </seg>
-            <seg n="ddae6199">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-94" prev="i-0dbead95a5b5c49c-93" who="Q5554833">
+            <seg>
               Ordet absorptionsförmåga är ett sällsynt dåligt ord för det här.
               Jag tycker att det antyder att de nya medlemsländerna inte har
               något att bidra med till unionens utveckling. Nu ströks ju detta
               som ett kriterium, vilket jag tycker är bra.
             </seg>
-            <seg n="527836a0">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-95" prev="i-0dbead95a5b5c49c-93" who="Q5554833">
+            <seg>
               Min fråga till statsministern blir därför, kopplad till konstitutionen:
               Finns det en risk att länder kommer att bromsa konstitutionen
               för att på det sättet få till en bromskloss för nya medlemsländer?
             </seg>
           </u>
-          <note type="speaker" n="324b5d2a">
+          <note type="speaker">
             Anf. 25 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-e8d8b38031bb970c-9" n="2df218c9">
-            <seg n="a1c2ff40">
+          <u xml:id="i-0dbead95a5b5c49c-96" next="i-0dbead95a5b5c49c-99" who="Q53747">
+            <seg>
               Herr talman! Det är ingen oberättigad fråga. Jag har inte sett
               någon, ska vi säga, tung företrädare för den opinionen i något
               land, möjligen med undantag av franska extremhögern, som har argumenterat
@@ -922,7 +1060,9 @@
               det gör det. Vi kan inte utesluta att vi kommer att få höra den
               typen av argument; det måste jag säga.
             </seg>
-            <seg n="70e303a3">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-97" prev="i-0dbead95a5b5c49c-96" who="Q53747">
+            <seg>
               Camilla Sköld Jansson sade förut att det finns en växande skepticism
               gentemot EU ute i Europa. Det är inte fel. Det är ju så. En opinion
               växer fram i många länder som är av det slaget att man tycker
@@ -931,14 +1071,18 @@
               folkomröstningen var just att man inte känner igen sin union.
               Det har gått för fort.
             </seg>
-            <seg n="7a59028b">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-98" prev="i-0dbead95a5b5c49c-96" who="Q53747">
+            <seg>
               Jag måste säga att jag har stor förståelse för det, därför att
               det är ett historiskt projekt som vi är inne i där stater i fred
               frivilligt sluter sig samman för att samarbeta utan det yttre
               tryck som krig och katastrof ofta varit och som tidigare har drivit
               fram den typen av processer.
             </seg>
-            <seg n="4ec8cb29">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-99" prev="i-0dbead95a5b5c49c-96" who="Q53747">
+            <seg>
               Att det ibland kommer till perioder då utvecklingen inte går
               så fort ska vi ha respekt för. Jag är oerhört orolig för den diskussion
               som kan utvecklas i Europa om vi hanterar Turkietfrågan på ett
@@ -954,42 +1098,52 @@
               tyvärr.
             </seg>
           </u>
-          <note type="speaker" n="8139edd8">
+          <note type="speaker">
             Anf. 26 GUSTAV FRIDOLIN (mp):
           </note>
-          <u who="Q2029325" xml:id="i-e0431dd94959b5e8-0" n="0d4d26fc">
-            <seg n="02d031f0">
+          <u xml:id="i-0dbead95a5b5c49c-100" next="i-0dbead95a5b5c49c-105" who="Q2029325">
+            <seg>
               Herr talman! Tack, statsministern, för den engagerade återrapporten
               och de engagerade frågesvaren! Vi är många i denna kammare som
               vill kämpa för demokratin och för en demokrati som kan stå som
               motmakt när det gäller det internationella kapitalet.
             </seg>
-            <seg n="83008367">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-101" prev="i-0dbead95a5b5c49c-100" who="Q2029325">
+            <seg>
               Jag tror att en sådan demokrati förutsätter både att den känsla
               av maktlöshet som finns bland många medborgare i Europa en känsla
               av att politikerna gör vad de vill oavsett vad vi säger åt dem
               och att man följer de regler som faktiskt är uppsatta är det centrala.
             </seg>
-            <seg n="34b5cfa6">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-102" prev="i-0dbead95a5b5c49c-100" who="Q2029325">
+            <seg>
               EU:s regler kan väl inte så ofta beskyllas för att vara stringenta
               och helt solklara. Men på en punkt är de det: Ska man anta ett
               nytt fördrag ska alla medlemsstater vara eniga om detta.
             </seg>
-            <seg n="eb999d59">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-103" prev="i-0dbead95a5b5c49c-100" who="Q2029325">
+            <seg>
               Två länder i Europa, Frankrike och Nederländerna, har sagt att
               det förslag till konstitution som lades fram inte var i deras
               tycke ett bra förslag. De ville ha någonting annat. De ville se
               ett Europa som gick en annan väg, kanske mot mer maktdecentralisering
               och mer av prioritet åt de sociala frågorna.
             </seg>
-            <seg n="e6646d9c">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-104" prev="i-0dbead95a5b5c49c-100" who="Q2029325">
+            <seg>
               Vad gör då EU? Jo, man inleder en reflexionsperiod. Av statsministerns
               återrapport här förstår jag att det konkreta på det här toppmötet
               var att reflexionsperioden det som beskrivs som en tankepaus,
               kanske till och med en paus i tanken ska fortsätta ytterligare
               en tid.
             </seg>
-            <seg n="cfcbf5fc">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-105" prev="i-0dbead95a5b5c49c-100" who="Q2029325">
+            <seg>
               Min självklara fråga är förstås varför . Varför utgår inte diskussionen
               från det mest basala? Har två länder sagt nej finns inte längre
               detta konstitutionsförslag, utan vi får faktiskt börja om från
@@ -997,15 +1151,17 @@
               om vilket Europa vi vill ha.
             </seg>
           </u>
-          <note type="speaker" n="95db9213">
+          <note type="speaker">
             Anf. 27 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-e8d8b38031bb970c-10" n="2df218c9">
-            <seg n="8ee2a2a9">
+          <u xml:id="i-0dbead95a5b5c49c-106" next="i-0dbead95a5b5c49c-107" who="Q53747">
+            <seg>
               Herr talman! Troligen därför att man inser att startar man den
               här processen en gång till blir resultatet oerhört svåröverskådligt.
             </seg>
-            <seg n="3a38ed08">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-107" prev="i-0dbead95a5b5c49c-106" who="Q53747">
+            <seg>
               De flesta av oss tycker att det är ett bra fördrag som är framförhandlat.
               Och de flesta inser, precis som Gustav Fridolin, att när Frankrike
               och Nederländerna nu sagt nej kommer det fördraget inte att kunna
@@ -1018,11 +1174,11 @@
               I avvaktan på klarhet i den frågan väntar vi med vår ratifikation.
             </seg>
           </u>
-          <note type="speaker" n="ecbf1e18">
+          <note type="speaker">
             Anf. 28 GUSTAV FRIDOLIN (mp):
           </note>
-          <u who="Q2029325" xml:id="i-e0431dd94959b5e8-1" n="0d4d26fc">
-            <seg n="f83a3c3d">
+          <u xml:id="i-0dbead95a5b5c49c-108" next="i-0dbead95a5b5c49c-110" who="Q2029325">
+            <seg>
               Herr talman! Tack för svaret, statsministern! De flesta av oss
               tycker att det är ett bra fördrag. Nej, de flesta av EU:s medborgare
               verkar i opinionsmätningar inte tycka att det är ett bra fördrag.
@@ -1030,14 +1186,18 @@
               möjligheten, att åka till det toppmöte som statsministern precis
               bevistat, tycker att det är ett bra förslag.
             </seg>
-            <seg n="0f8c04a2">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-109" prev="i-0dbead95a5b5c49c-108" who="Q2029325">
+            <seg>
               Här har vi själva problemet. EU:s medborgare vill gå i en annan
               riktning, åt ett annat håll, med mer decentralisering och mer
               involverande men också mer prioritet åt de frågor som statsministern
               har lyft fram klimatfrågorna och de sociala frågorna än vad EU:s
               ledare lyckades prestera i konstitutionsförslaget.
             </seg>
-            <seg n="f7245ad3">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-110" prev="i-0dbead95a5b5c49c-108" who="Q2029325">
+            <seg>
               Vad ska vi då göra? Ska vi försöka hoppas att fransmännen och
               nederländarna ändrar sig eller ångrar sig, under trycket från
               EU:s övriga medlemsstater, eller ska vi försöka involvera dem
@@ -1046,22 +1206,26 @@
               och svåröverskådligt?
             </seg>
           </u>
-          <note type="speaker" n="5c6871e1">
+          <note type="speaker">
             Anf. 29 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-e8d8b38031bb970c-11" n="2df218c9">
-            <seg n="58709b96">
+          <u xml:id="i-0dbead95a5b5c49c-111" next="i-0dbead95a5b5c49c-113" who="Q53747">
+            <seg>
               Herr talman! Det är varken skrämmande eller svåröverskådligt.
               Däremot är det väl så att vi är så långt gångna i den här processen
               att man innan man kastar bort de framgångarna ska se till att
               man verkligen tar sig en ordentlig funderare.
             </seg>
-            <seg n="32841e33">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-112" prev="i-0dbead95a5b5c49c-111" who="Q53747">
+            <seg>
               Kom ihåg att det är 15 stater som redan har ratificerat fördraget!
               Det är en majoritet av länderna som har gjort det. Det ska heller
               inte underskattas eller viftas bort.
             </seg>
-            <seg n="123060c8">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-113" prev="i-0dbead95a5b5c49c-111" who="Q53747">
+            <seg>
               Jag har sagt förut och säger igen att jag tror att det här blir
               det sista fördraget som EU kommer att kunna ta därför att snart
               är EU 40 eller kanske 45 medlemsstater en svåröverblickbar union
@@ -1073,24 +1237,28 @@
               det tror jag inte.
             </seg>
           </u>
-          <note type="speaker" n="c9b3b678">
+          <note type="speaker">
             Anf. 30 LARS LINDBLAD (m):
           </note>
-          <u who="Q5954253" xml:id="i-3ce0fb910957a0df-0" n="00d44f86">
-            <seg n="b9b75c05">
+          <u xml:id="i-0dbead95a5b5c49c-114" next="i-0dbead95a5b5c49c-116" who="Q5954253">
+            <seg>
               Herr talman! När jag reser runt i landet och träffar människor
               och diskuterar Europafrågor tas nästan varje gång just frågan
               om öppenheten i EU upp att många medborgare uppfattar EU som alltför
               slutet fortfarande. Jag uppfattar detta som en av de viktigaste
               utmaningarna för oss som är Europavänner.
             </seg>
-            <seg n="7da2dd75">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-115" prev="i-0dbead95a5b5c49c-114" who="Q5954253">
+            <seg>
               Jag uppfattar Europakommissionen som varken mer eller mindre
               öppen än Regeringskansliet. Europaparlamentet är faktiskt på många
               sätt öppnare än vår riksdag. Till exempel är utskottsmötena öppna
               för allmänheten, till skillnad från hur det är hos oss.
             </seg>
-            <seg n="f5e60b80">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-116" prev="i-0dbead95a5b5c49c-114" who="Q5954253">
+            <seg>
               Den institution som fortfarande är alltför sluten, uppfattar
               jag, är ministerrådet där regeringarna träffas. Därför är det
               bra att det nu tas steg för att öppna upp ministerrådet något.
@@ -1099,35 +1267,39 @@
               verkligen är nöjd med detta?
             </seg>
           </u>
-          <note type="speaker" n="326b83a9">
+          <note type="speaker">
             Anf. 31 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-e8d8b38031bb970c-12" n="2df218c9">
-            <seg n="da370be5">
+          <u xml:id="i-0dbead95a5b5c49c-117" who="Q53747">
+            <seg>
               Herr talman! Jag vill bara åberopa tusentals, tiotusentals, affischer,
               uppsatta över landet, som har gett till uttryck den grundhållning
               som jag och svensk socialdemokrati har: Stolta men aldrig nöjda.
               Det gäller också i detta sammanhang.
             </seg>
           </u>
-          <note type="speaker" n="e96d6cba">
+          <note type="speaker">
             Anf. 32 LARS LINDBLAD (m):
           </note>
-          <u who="Q5954253" xml:id="i-3ce0fb910957a0df-1" n="00d44f86">
-            <seg n="013ec60c">
+          <u xml:id="i-0dbead95a5b5c49c-118" next="i-0dbead95a5b5c49c-120" who="Q5954253">
+            <seg>
               Herr talman! Jag vill ställa en följdfråga. Det är bra att öppenheten
               blir större. Men om jag har förstått rådsslutsatserna rätt gäller
               den nya öppenheten bara de delar som handlar om medbeslutandeförfarandet,
               där Europaparlamentet har lika makt som ministerrådet.
             </seg>
-            <seg n="911b45cd">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-119" prev="i-0dbead95a5b5c49c-118" who="Q5954253">
+            <seg>
               Det utelämnar till exempel EU:s långtidsbudget, hela jordbrukspolitiken
               och utrikespolitiken från detta. Det är ansenliga delar av de
               beslut som fattas av EU. Eftersom det inte fattas beslut i Europaparlamentet
               i den utsträckningen kan man inte dra nytta av den öppenhet som
               finns i Europaparlamentet. Detta ser jag som ett problem.
             </seg>
-            <seg n="151d28e1">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-120" prev="i-0dbead95a5b5c49c-118" who="Q5954253">
+            <seg>
               Har jag uppfattat rådsslutsatserna rätt? Man kan i så fall uppfatta
               detta som en framgång, men inte som en så jättestor framgång.
               Om statsministern liksom jag vurmar för öppenhet, vilket jag tror
@@ -1136,39 +1308,45 @@
               oerhört viktig?
             </seg>
           </u>
-          <note type="speaker" n="e22aa047">
+          <note type="speaker">
             Anf. 33 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-e8d8b38031bb970c-13" n="2df218c9">
-            <seg n="16837219">
+          <u xml:id="i-0dbead95a5b5c49c-121" next="i-0dbead95a5b5c49c-124" who="Q53747">
+            <seg>
               Herr talman! Det jag tycker är viktigt och det vi har drivit
               från svensk sida är offentlighet för handlingar. En offentlighetsprincip
               som vi har i Sverige skulle kunna gälla också i unionen. Det vore
               inte så tokigt.
             </seg>
-            <seg n="2c8a5634">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-122" prev="i-0dbead95a5b5c49c-121" who="Q53747">
+            <seg>
               Om ett år ska vi gå igenom reformen som vi nu har beslutat och
               förhoppningsvis ta ett steg till. Det är inte alla som tycker
               att det är toppen. Det finns ett visst motstånd. Vi tror på reform.
               Vi tror att det också skulle skapa ökad klarhet och tydlighet.
             </seg>
-            <seg n="e0540885">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-123" prev="i-0dbead95a5b5c49c-121" who="Q53747">
+            <seg>
               Om vi ska göra en reformagenda för öppenheten inom EU finns det
               naturligtvis betydligt fler saker att syssla med än enbart hur
               sammanträdena redovisas. Men det är ett steg åt rätt håll.
             </seg>
-            <seg n="fccbae0d">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-124" prev="i-0dbead95a5b5c49c-121" who="Q53747">
+            <seg>
               Som alltid när någonting stort sker börjar det med ett försiktigt
               steg som inte är alltför långt. Men det är ett kliv, ett kliv
               som jag fick vara med om att ta. Över detta är jag stolt men inte
               nöjd.
             </seg>
           </u>
-          <note type="speaker" n="29dc1079">
+          <note type="speaker">
             Anf. 34 KARIN GRANBOM (fp):
           </note>
-          <u who="Q4950718" xml:id="i-e33d97d15e4a9c98-0" n="bb293568">
-            <seg n="a8653356">
+          <u xml:id="i-0dbead95a5b5c49c-125" next="i-0dbead95a5b5c49c-126" who="Q4950718">
+            <seg>
               Herr talman! Just nu pågår en stor tragedi ute på havet mellan
               Afrika och Europa. I dåliga båtar lämnar tusentals afrikaner sina
               länder för att få jobb och ett bättre liv i EU. Men många förliser
@@ -1177,7 +1355,9 @@
               EU-länder kräver att EU är mer aktivt med gemensamma lösningar
               på detta område.
             </seg>
-            <seg n="e5138aba">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-126" prev="i-0dbead95a5b5c49c-125" who="Q4950718">
+            <seg>
               Migrationsfrågan var uppe på toppmötet, och slutsatser antogs.
               Folkpartiet anser att EU bör utveckla sin gemensamma politik med
               syfte att komma till lösningar på både de kortsiktiga och de långsiktiga
@@ -1186,11 +1366,11 @@
               aktuella frågan gällande Spanien och Kanarieöarna?
             </seg>
           </u>
-          <note type="speaker" n="ce9b4000">
+          <note type="speaker">
             Anf. 35 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-e8d8b38031bb970c-14" n="2df218c9">
-            <seg n="d6581630">
+          <u xml:id="i-0dbead95a5b5c49c-127" next="i-0dbead95a5b5c49c-131" who="Q53747">
+            <seg>
               Herr talman! Detta var en av toppmötets kanske mest diskuterade
               frågor. Utrikesministrarna hade den vid sin överläggning. Den
               kan jag inte referera till. Stats- och regeringscheferna tog upp
@@ -1198,66 +1378,84 @@
               en diskussion om migration och integration. De är på sätt och
               vis förbundna med varandra.
             </seg>
-            <seg n="d0909ca7">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-128" prev="i-0dbead95a5b5c49c-127" who="Q53747">
+            <seg>
               Vad gäller den särskilt utsatta situation som just nu råder i
               Medelhavsområdet uttrycker vi solidaritet med de länderna. Vi
               mobiliserar också resurser inom unionens program för att stötta
               såväl Italien som Malta och Cypern och icke minst Spanien.
             </seg>
-            <seg n="67bb54fc">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-129" prev="i-0dbead95a5b5c49c-127" who="Q53747">
+            <seg>
               Vi kom också överens om att inleda en mer strukturerad politisk
               dialog med de afrikanska staterna om migrationsproblemet. Där
               kan stå som förebild den uppgörelse som Spanien och Marocko har
               träffat om ett samarbete i dessa frågor.
             </seg>
-            <seg n="1bae6d3b">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-130" prev="i-0dbead95a5b5c49c-127" who="Q53747">
+            <seg>
               Nu handlar det också om staterna som ligger söder om Sahara.
               Där använder många människor hela sin släkts besparingar under
               årtionden för att skicka någon av medlemmarna i familjen till
               Europa. De utnyttjas sedan skamlöst av smugglare och andra människohandlare.
             </seg>
-            <seg n="2f9b89c4">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-131" prev="i-0dbead95a5b5c49c-127" who="Q53747">
+            <seg>
               Frågan var stor. För Sveriges del är den viktig. Vi har än så
               länge valt den strategin att med ett mycket aktivt bistånd försöka
               att förbättra tillståndet i de länder som är utsatta för migrationstrycket
               i den meningen att man rör sig bort från de länderna.
             </seg>
           </u>
-          <note type="speaker" n="8f348dc2">
+          <note type="speaker">
             Anf. 36 HILLEVI LARSSON (s):
           </note>
-          <u who="Q3375042" xml:id="i-e06ebfdb76ec013d-0" n="24607f4c">
-            <seg n="37fd6a87">
+          <u xml:id="i-0dbead95a5b5c49c-132" next="i-0dbead95a5b5c49c-137" who="Q3375042">
+            <seg>
               Herr talman! Jag tycker att man kan se att toppmötet är en framgång
               på flera områden. Det är absolut ingen självklarhet att det skulle
               gå på det sättet.
             </seg>
-            <seg n="d1138480">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-133" prev="i-0dbead95a5b5c49c-132" who="Q3375042">
+            <seg>
               När det gäller utvidgningen finns det enighet i den här kammaren
               om att det är en mycket viktig fråga för EU:s framtid. Men trycket
               har varit hårt i en del EU-länder att inte gå med på att vidare
               steg tas för utvidgningen.
             </seg>
-            <seg n="0342764f">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-134" prev="i-0dbead95a5b5c49c-132" who="Q3375042">
+            <seg>
               Det är inte alla partier här som har haft med sina partikamrater
               i regeringsställning. Men tack och lov har vi som vill ha fortsatt
               möjlighet till utvidgning gått vinnande ur striden. Nu är det
               väldigt mycket kvar. Men det är ett viktigt steg.
             </seg>
-            <seg n="2929695c">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-135" prev="i-0dbead95a5b5c49c-132" who="Q3375042">
+            <seg>
               En annan sak som man inte ska glömma är de nationella parlamentens
               roll. Där har toppmötet öppnat för ett slags remissrunda där nationella
               parlament ges möjlighet att yttra sig över kommissionens förslag.
               Kommissionen lovar också att lyssna på synpunkterna.
             </seg>
-            <seg n="22115d5c">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-136" prev="i-0dbead95a5b5c49c-132" who="Q3375042">
+            <seg>
               Det tror jag är väldigt viktigt för närhetsprincipen. Det handlar
               om att inga frågor ska beslutas vare sig för högt eller för lågt.
               Det ska vara på rätt nivå. Det är viktigt för att involvera de
               nationella politikerna i EU-politiken och föra EU-frågorna närmare
               medborgarna.
             </seg>
-            <seg n="2e2bbdf0">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-137" prev="i-0dbead95a5b5c49c-132" who="Q3375042">
+            <seg>
               I läget efter toppmötet, som jag tror att man ändå kan beteckna
               som ett steg framåt, har vi en utveckling där vi nu ser att tillväxten
               och jobben kommer både i Europa och i Sverige. Kan man se att
@@ -1266,18 +1464,20 @@
               Är detta ett steg framåt för framtiden?
             </seg>
           </u>
-          <note type="speaker" n="cdb4e07d">
+          <note type="speaker">
             Anf. 37 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-e8d8b38031bb970c-15" n="2df218c9">
-            <seg n="aef42975">
+          <u xml:id="i-0dbead95a5b5c49c-138" next="i-0dbead95a5b5c49c-141" who="Q53747">
+            <seg>
               Herr talman! Det finns en växande optimism inom EU. Det hänger
               samman med det är jag helt övertygad om att det går lite bättre
               i de grundläggande frågorna i vissa stora medlemsstater. Vi har
               alla i Europa samma konjunktur. Vissa länder, som Sverige, växer
               kraftigt och har ökad sysselsättning, andra står nästan still.
             </seg>
-            <seg n="e2db9fb0">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-139" prev="i-0dbead95a5b5c49c-138" who="Q53747">
+            <seg>
               Vi vet själva från den tid vi hade stillastående i Sverige hur
               lätt det var att driva en politik som var optimistisk och framtidsinriktad
               och hur lätt det var att vara visionär. Nu har några av de stora
@@ -1285,14 +1485,18 @@
               en dämpande effekt på EU-diskussionen. Där har Hillevi Larsson
               alldeles rätt.
             </seg>
-            <seg n="52b41413">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-140" prev="i-0dbead95a5b5c49c-138" who="Q53747">
+            <seg>
               Öppenheten inkluderar också ett vettigt samarbete med parlamenten.
               Det kom vi överens om, även om en del stater, exempelvis starkt
               federala stater som Belgien, hade problem med en del av de skrivningar
               som fanns i det sammanhanget och fick det justerat i slutsatserna,
               så att man inte hamnar i ett nytt problem.
             </seg>
-            <seg n="0f026bf2">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-141" prev="i-0dbead95a5b5c49c-138" who="Q53747">
+            <seg>
               Alla länder är inte nationalstater av det slag som Sverige är
               med en sammanhållen struktur utan är byggda på ett annat sätt.
               Hur parlamenten där förhåller sig till varandra är en annan sak
@@ -1302,11 +1506,11 @@
               och påverkan från parlamentens sida.
             </seg>
           </u>
-          <note type="speaker" n="37cddc93">
+          <note type="speaker">
             Anf. 38 ULF HOLM (mp):
           </note>
-          <u who="Q520956" xml:id="i-48dcd3427fc49403-0" n="68c1b635">
-            <seg n="4104057b">
+          <u xml:id="i-0dbead95a5b5c49c-142" next="i-0dbead95a5b5c49c-144" who="Q520956">
+            <seg>
               Herr talman! Jag vill tacka statsministern för återrapporten.
               Framgång kan vara ett väldigt diffust ord. Jag skulle inte vilja
               beteckna EU-toppmötet som en större framgång. Det handlar framför
@@ -1315,14 +1519,18 @@
               sina omröstningar på Internet inom en månad därefter är det inte
               mycket till öppenhet i EU.
             </seg>
-            <seg n="5eaa12ce">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-143" prev="i-0dbead95a5b5c49c-142" who="Q520956">
+            <seg>
               Jag vill fråga statsministern om han lyfte upp frågan om att
               vi ska få dokument på respektive språk i god tid så att medborgarna
               kan läsa dokumenten för att sedan kunna debattera dem. Jag vill
               också fråga om han tog upp frågan om remissbehandling, som vi
               har för att slippa en del av lobbyisterna och så vidare.
             </seg>
-            <seg n="70c7cba4">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-144" prev="i-0dbead95a5b5c49c-142" who="Q520956">
+            <seg>
               Den andra saken är att klimat- och energifrågan stod högt på
               dagordningen. Det är alltid trevligt att vi diskuterar de frågorna.
               Men inte heller där är det någon framgång, utan där ska man göra
@@ -1332,11 +1540,11 @@
               så att vi kan nå framåt när det gäller att förändra klimatfrågorna?
             </seg>
           </u>
-          <note type="speaker" n="78b8cf2b">
+          <note type="speaker">
             Anf. 39 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-e8d8b38031bb970c-16" n="2df218c9">
-            <seg n="4eb0eedd">
+          <u xml:id="i-0dbead95a5b5c49c-145" next="i-0dbead95a5b5c49c-148" who="Q53747">
+            <seg>
               Herr talman! De konkreta målen i det avseendet finns inskrivna
               för unionen som helhet. De är radikala. Det är vad gäller elproduktionen
               en ökad produktion med hjälp av förnybara metoder. Det är inblandningen
@@ -1348,7 +1556,9 @@
               låg. Jag menar att i den typen av processer behöver unionen ha
               länder som går före.
             </seg>
-            <seg n="28fd90d1">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-146" prev="i-0dbead95a5b5c49c-145" who="Q53747">
+            <seg>
               Jag har respekt för länder som exempelvis Malta, som ju inte
               precis har någon skog att basera sin energiproduktion på och inte
               heller direkt är i det läget att man har några tillgängliga områden
@@ -1358,14 +1568,18 @@
               om detta, och man blir då fullt på det klara med en sak: Det varierar
               högst betydligt från land till land.
             </seg>
-            <seg n="ddeaf1ed">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-147" prev="i-0dbead95a5b5c49c-145" who="Q53747">
+            <seg>
               Vi tänker gå före. Vi tror på möjligheten att utveckla ett samhälle
               som blir fritt från oljeberoendet eller fossilbränslet. Det ligger
               inom räckhåll. Det blir inte lätt, men jag tror att det går. Det
               kommer att ta några år naturligtvis, och det kommer att ske med
               iakttagande av hänsyn till både arbetstillfällen och välfärd.
             </seg>
-            <seg n="af0714dc">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-148" prev="i-0dbead95a5b5c49c-145" who="Q53747">
+            <seg>
               Men i alla transformationsfaser, där man går från någonting gammalt
               till någonting nytt, finns det misstag som begås. Det finns också
               de som gör rätt saker först och som kommer att vara föregångare
@@ -1377,16 +1591,18 @@
               gå om några år.
             </seg>
           </u>
-          <note type="speaker" n="38eb88fa">
+          <note type="speaker">
             Anf. 40 ULF HOLM (mp):
           </note>
-          <u who="Q520956" xml:id="i-48dcd3427fc49403-1" n="68c1b635">
-            <seg n="48e8d3e0">
+          <u xml:id="i-0dbead95a5b5c49c-149" next="i-0dbead95a5b5c49c-150" who="Q520956">
+            <seg>
               Herr talman! Det viktigaste som statsministern sade här var att
               länder ska ha rätten att gå före. Jag är glad att statsministern
               lyfte fram det.
             </seg>
-            <seg n="597c6667">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-150" prev="i-0dbead95a5b5c49c-149" who="Q520956">
+            <seg>
               Men det innebär också, med tanke på den tidigare diskussionen
               här, att statsministern nu har blivit motståndare till EU-konstitutionen.
               Den EU-konstitutionen tar bort rätten för länder att gå före till
@@ -1396,11 +1612,11 @@
               EU-konstitutionen.
             </seg>
           </u>
-          <note type="speaker" n="78096327">
+          <note type="speaker">
             Anf. 41 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-e8d8b38031bb970c-17" n="2df218c9">
-            <seg n="722c8ebb">
+          <u xml:id="i-0dbead95a5b5c49c-151" who="Q53747">
+            <seg>
               Herr talman! Jag har inga svårigheter att sympatisera i sak med
               Ulf Holm. Jag tycker att det vore bra om vissa länder kunde gå
               före. Jag har inte gillat en del av det som har skett på miljöområdet.
@@ -1415,34 +1631,38 @@
               fördel, herr Holm.
             </seg>
           </u>
-          <note type="speaker" n="8c8b713d">
+          <note type="speaker">
             Anf. 42 AGNE HANSSON (c):
           </note>
-          <u who="Q4692974" xml:id="i-dd3972011c6a3c21-0" n="31fc30eb">
-            <seg n="991fa90c">
+          <u xml:id="i-0dbead95a5b5c49c-152" next="i-0dbead95a5b5c49c-154" who="Q4692974">
+            <seg>
               Herr talman! Mellanöstern har också diskuterats på toppmötet.
               EU är, och måste vara, en viktig aktör i sammanhanget och internationellt.
               Det här är en viktig fråga.
             </seg>
-            <seg n="e84dc741">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-153" prev="i-0dbead95a5b5c49c-152" who="Q4692974">
+            <seg>
               Jag börjar bli orolig för att EU:s strategi gentemot Mellanöstern
               och konflikten där går åt fel håll. Jag undrar om utfrysning och
               utsvältning möjligen är rätt väg. Om syftet skulle vara att bringa
               kollaps i den palestinska myndigheten så är ju förutsättningarna
               för en tvåstatslösning minst sagt minimala.
             </seg>
-            <seg n="4b6f539f">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-154" prev="i-0dbead95a5b5c49c-152" who="Q4692974">
+            <seg>
               Jag tycker att dialog och samtal är mer verkningsfulla sätt.
               Jag skulle vilja fråga statsministern i den delen hur vi ska komma
               framåt i Mellanöstern. Börjar man hitta en bättre strategi för
               en lösning än den som man nu är inne på?
             </seg>
           </u>
-          <note type="speaker" n="80e18db8">
+          <note type="speaker">
             Anf. 43 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-e8d8b38031bb970c-18" n="2df218c9">
-            <seg n="8ede8ce7">
+          <u xml:id="i-0dbead95a5b5c49c-155" next="i-0dbead95a5b5c49c-161" who="Q53747">
+            <seg>
               Herr talman! Mellanöstern har under de tio år som jag har deltagit
               i Europeiska rådet varit närvarande på ett eller annat sätt vid
               nästan varje toppmöte, antingen fysiskt med representanter eller
@@ -1450,19 +1670,25 @@
               Av och till har vi varit djupt pessimistiska. Just nu råder det
               senare stämningsläget.
             </seg>
-            <seg n="9fc03a56">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-156" prev="i-0dbead95a5b5c49c-155" who="Q53747">
+            <seg>
               Det är en farlig situation i Mellanöstern, inte minst i den palestinska
               delen. I den palestinska myndigheten råder kaos. I det palestinska
               interna politiska livet råder mycket starka motsättningar.
             </seg>
-            <seg n="bd8e4f20">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-157" prev="i-0dbead95a5b5c49c-155" who="Q53747">
+            <seg>
               Vi kommer inte att klara en tvåstatslösning i Mellanöstern utan
               en förhandling. Det finns inget annat än en politisk lösning som
               är möjligt. För att ha en förhandling som är framgångsrik måste
               det palestinska folket ha en trovärdig företrädare både internt,
               i det egna området, och externt, gentemot världen i övrigt.
             </seg>
-            <seg n="8c184c5a">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-158" prev="i-0dbead95a5b5c49c-155" who="Q53747">
+            <seg>
               Det som nu händer i form av en konflikt emellan olika fraktioner,
               Hamas och Fatah, är därför förödande för fredsprocessen och för
               det palestinska folket. Vi har ingen som helst anledning att minska
@@ -1471,7 +1697,9 @@
               ska ta avstånd från allt våld. Hamas måste komma till förhandlingsbordet.
               Det är självklart.
             </seg>
-            <seg n="c78297a5">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-159" prev="i-0dbead95a5b5c49c-155" who="Q53747">
+            <seg>
               Samtidigt med det jag har sagt vill jag säga att det palestinska
               folket lider. Deras vardag är i många fall ett rent helvete. Därför
               finns det all anledning att vara mycket aktiv när det gäller ett
@@ -1480,11 +1708,15 @@
               utgångspunkter för en fredslösning. Så ser diskussionen ut just
               nu.
             </seg>
-            <seg n="ac33e4bd">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-160" prev="i-0dbead95a5b5c49c-155" who="Q53747">
+            <seg>
               Jag är inte särskilt optimistisk om utvecklingen. Men erfarenheten
               lär mig att vi kommer att komma tillbaka till denna fråga.
             </seg>
-            <seg n="0e823464">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-161" prev="i-0dbead95a5b5c49c-155" who="Q53747">
+            <seg>
               Dessutom är det så, herr talman, att de internationella frågorna
               i unionen är av växande betydelse. Solanas insatser i Iran visar
               unionens kapacitet när unionen agerar tillsammans och gör det
@@ -1492,11 +1724,11 @@
               svaret på.
             </seg>
           </u>
-          <note type="speaker" n="5ce83717">
+          <note type="speaker">
             Anf. 44 AGNE HANSSON (c):
           </note>
-          <u who="Q4692974" xml:id="i-dd3972011c6a3c21-1" n="31fc30eb">
-            <seg n="3c0fe1a1">
+          <u xml:id="i-0dbead95a5b5c49c-162" who="Q4692974">
+            <seg>
               Herr talman! Jag tackar statsministern för svaret. Jag delar
               den uppfattningen. Om det så ska bli mina sista ord i denna kammare:
               Med den pondus och erfarenhet som statsministern besitter önskar
@@ -1504,98 +1736,118 @@
               på Mellanösternkonflikten framöver.
             </seg>
           </u>
-          <note type="speaker" n="7604b132">
+          <note type="speaker">
             Anf. 45 SVEN-ERIK SJÖSTRAND (v):
           </note>
-          <u who="Q6179083" xml:id="i-4eff501928d79d9a-0" n="04c71c0b">
-            <seg n="cbf20111">
+          <u xml:id="i-0dbead95a5b5c49c-163" next="i-0dbead95a5b5c49c-166" who="Q6179083">
+            <seg>
               Herr talman! Toppmötet har behandlat många viktiga frågor. Jag
               gör bedömningen att vissa frågor har gått i positiv riktning även
               för oss som är lite EU-kritiska. EU behöver mer öppenhet. Nu har
               det tagits ett steg åt rätt håll.
             </seg>
-            <seg n="83c7fc16">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-164" prev="i-0dbead95a5b5c49c-163" who="Q6179083">
+            <seg>
               När det gäller konstitutionen förutsätter jag att statsministern
               inte var passiv utan väldigt aktiv i debatten.
             </seg>
-            <seg n="8b556405">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-165" prev="i-0dbead95a5b5c49c-163" who="Q6179083">
+            <seg>
               Mina frågor till statsministern blir: Hur ska Sverige agera?
               Ska beslutet fattas i riksdagen eller kommer det att bli en folkomröstning,
               som vi i mitt parti säger? Hur ska knutarna lösas upp? Anser statsministern
               att till exempel Frankrike och Holland på nytt ska rösta om fördraget?
               Om inte, hur blir det i framtiden? Blir det ett nytt konvent?
             </seg>
-            <seg n="f3227b66">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-166" prev="i-0dbead95a5b5c49c-163" who="Q6179083">
+            <seg>
               Det här är viktiga frågor. Vi behöver en tydlighet här, inte
               minst inför valet.
             </seg>
           </u>
-          <note type="speaker" n="18da3c13">
+          <note type="speaker">
             Anf. 46 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-e8d8b38031bb970c-19" n="2df218c9">
-            <seg n="8ef4f127">
+          <u xml:id="i-0dbead95a5b5c49c-167" next="i-0dbead95a5b5c49c-171" who="Q53747">
+            <seg>
               Herr talman! Det är inga enkla frågor, och jag har försökt att
               svara på dem tidigare här under frågestunden. Jag ska upprepa
               än en gång att det fördrag vi nu har naturligtvis inte är perfekt.
               Vi skulle ha önskat att det bitvis hade sett annorlunda ut, men
               det är ett fördrag som i huvudsak möter de krav vi kan ställa.
             </seg>
-            <seg n="af5903b3">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-168" prev="i-0dbead95a5b5c49c-167" who="Q53747">
+            <seg>
               Det är ett fördrag som gör det möjligt att fatta politiska beslut
               också i en union som växer. Det är ett fördrag som gör det möjligt
               att påverka sin samtid.
             </seg>
-            <seg n="312bad50">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-169" prev="i-0dbead95a5b5c49c-167" who="Q53747">
+            <seg>
               Skulle det här fördraget falla, vilket definitivt inte kan uteslutas,
               startar en ny och mycket mödosam process, men då med en större
               grupp länder som ska ratificera. Jag tror definitivt inte att
               det blir enklare, och det kommer definitivt inte att skapa ett
               bättre fördrag.
             </seg>
-            <seg n="3104f37d">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-170" prev="i-0dbead95a5b5c49c-167" who="Q53747">
+            <seg>
               Hur Frankrike och Nederländerna hanterar sin situation kan jag
               naturligtvis ha många uppfattningar om men inget inflytande över.
               Därför avstår jag från att ge dem råd.
             </seg>
-            <seg n="e6c3e400">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-171" prev="i-0dbead95a5b5c49c-167" who="Q53747">
+            <seg>
               För Sveriges del är det naturliga att detta fördrag kommer att
               ratificeras i Sveriges riksdag.
             </seg>
           </u>
-          <note type="speaker" n="21702eff">
+          <note type="speaker">
             Anf. 47 HOLGER GUSTAFSSON (kd):
           </note>
-          <u who="Q5777750" xml:id="i-e73754f4335143eb-0" n="0406d24e">
-            <seg n="dc7e762c">
+          <u xml:id="i-0dbead95a5b5c49c-172" next="i-0dbead95a5b5c49c-175" who="Q5777750">
+            <seg>
               Herr talman! Jag vill ställa en fråga till statsministern om
               frihet, säkerhet och rättvisa. Rådet vill skärpa arbetet med gränskontroll,
               polissamarbete och informationssystem för att stoppa människohandel
               och kriminalitet över gränserna till Europa.
             </seg>
-            <seg n="e07fba5a">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-173" prev="i-0dbead95a5b5c49c-172" who="Q5777750">
+            <seg>
               Även om Sverige inte har särskilt långa direkta geografiska gränser
               till icke-EU-land, vet vi att Sverige i hög grad är utsatt för
               denna avskyvärda verksamhet. Det är naturligtvis nödvändigt att
               alla EU-länder skärper sin gränskontroll, oavsett hur gränserna
               ser ut.
             </seg>
-            <seg n="32b7e00c">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-174" prev="i-0dbead95a5b5c49c-172" who="Q5777750">
+            <seg>
               Vi kristdemokrater anser att regeringen hittills har gjort för
               lite för att ta itu med denna internationella brottslighet som
-              i dag når både Helsingfors och landsbygden.
+              i dag når både Stockholm och landsbygden.
             </seg>
-            <seg n="0e107a19">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-175" prev="i-0dbead95a5b5c49c-172" who="Q5777750">
+            <seg>
               Min fråga till statsministern är: Vad kommer detta rådsmötesbeslut
               att leda till på svensk mark i form av åtgärder för att stoppa
               en ökad import av brottslighet till Sverige?
             </seg>
           </u>
-          <note type="speaker" n="c4732b24">
+          <note type="speaker">
             Anf. 48 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-e8d8b38031bb970c-20" n="2df218c9">
-            <seg n="7a3c70e4">
+          <u xml:id="i-0dbead95a5b5c49c-176" next="i-0dbead95a5b5c49c-180" who="Q53747">
+            <seg>
               Herr talman! Det är viktiga frågor som Holger Gustafsson tar
               upp. Det var också frågor som diskuterades i samband med diskussionen
               om integration och migration, framför allt ur ett Medelhavsperspektiv.
@@ -1605,11 +1857,15 @@
               och andra hejdukar som icke drar sig för att handla med andra
               människors liv.
             </seg>
-            <seg n="28f18713">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-177" prev="i-0dbead95a5b5c49c-176" who="Q53747">
+            <seg>
               Det gäller att lösa den akuta situationen i Medelhavsområdet
               allra först.
             </seg>
-            <seg n="967ba96a">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-178" prev="i-0dbead95a5b5c49c-176" who="Q53747">
+            <seg>
               För oss, som ju är befriade från mycket av det akuta problemet,
               gäller det att se långsiktigt på hela Europas förmåga att utveckla
               en integrationspolitik. Vi måste se till att människor som kommer
@@ -1618,25 +1874,29 @@
               Samtidigt som integrationen bedrivs med kraft måste vi också med
               kraft, tillsammans med andra, bekämpa dessa människohandlare.
             </seg>
-            <seg n="04ef0157">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-179" prev="i-0dbead95a5b5c49c-176" who="Q53747">
+            <seg>
               De som är motståndare till prostitution och de som är motståndare
               till att man missbrukar och utnyttjar barn i olika sammanhang
               ska naturligtvis söka sig in i ett samarbete med andra länder
               där vi kraftfullt kan motarbeta detta. Det är också ett uttryck
               för dagens moderna Europaunion.
             </seg>
-            <seg n="1b9f2237">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-180" prev="i-0dbead95a5b5c49c-176" who="Q53747">
+            <seg>
               Vi för vår del vill undanröja många av de brister och felaktigheter
               som finns i dessa utsatta människors egna hemländer genom att
               ha världens mest omfattande bistånd. Över detta är jag stolt och
               i det närmaste, nej, ännu icke, nöjd.
             </seg>
           </u>
-          <note type="speaker" n="1a8adb31">
+          <note type="speaker">
             Anf. 49 HOLGER GUSTAFSSON (kd):
           </note>
-          <u who="Q5777750" xml:id="i-e73754f4335143eb-1" n="0406d24e">
-            <seg n="8f142916">
+          <u xml:id="i-0dbead95a5b5c49c-181" who="Q5777750">
+            <seg>
               Herr talman! Jag ska inte förlänga den här debatten. Jag tycker
               att det är ett viktigt besked, inte minst inför valrörelsen, att
               statsministern tar allvarligt på de här frågorna. Det är inte
@@ -1646,42 +1906,46 @@
               Därför är det viktigt att vi får ett klart besked från statsministern.
             </seg>
           </u>
-          <note type="speaker" n="c89ca85b">
+          <note type="speaker">
             Anf. 50 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-c223a068a5291495-2" n="2df218c9">
-            <seg n="05177f89">
+          <u xml:id="i-0dbead95a5b5c49c-182" who="Q53747">
+            <seg>
               Herr talman! Om detta har vi ingen delad mening.
             </seg>
           </u>
-          <note n="0d17d200" type="speaker">
+          <note type="speaker">
             Anf. 51 TALMANNEN:
           </note>
-          <u who="unknown" xml:id="i-8397f7d5de6a2b61-2" n="2df218c9">
-            <seg n="12477f00">
+          <u xml:id="i-0dbead95a5b5c49c-183" who="unknown">
+            <seg>
               Nu har alla de som har anmält sig och fått stöd av sina gruppers
               ledningar fått ordet. Nu finns det en talare till anmäld, och
               det är Gabriel Romanus. Han sitter på samma stol där han satt
               1969. Han vill gärna få säga någonting från den stolen.
             </seg>
           </u>
-          <note type="speaker" n="c24dff3b">
+          <note type="speaker">
             Anf. 52 GABRIEL ROMANUS (fp):
           </note>
-          <u who="Q724410" xml:id="i-ce7cb5130af7c9ea-0" n="5fdf22cd">
-            <seg n="161f2dc7">
+          <u xml:id="i-0dbead95a5b5c49c-184" next="i-0dbead95a5b5c49c-186" who="Q724410">
+            <seg>
               Herr talman! EU behöver bli mer socialliberalt och mindre marknadsliberalt
               råkapitalistiskt om det ska bli den motvikt mot det internationella
               kapitalet som statsministern önskade.
             </seg>
-            <seg n="31dfd6cd">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-185" prev="i-0dbead95a5b5c49c-184" who="Q724410">
+            <seg>
               Om uttrycket ursäktas vill jag säga: Med en drucken papegojas
               envishet skulle jag vilja påminna om att vi inte gick med i EU
               för att få ökade alkoholskador, men det har vi tyvärr fått. Alla
               vet ju att det beror på att vi inte har koll på den införsel av
               billig alkohol som kommer från andra länder.
             </seg>
-            <seg n="dc94c231">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-186" prev="i-0dbead95a5b5c49c-184" who="Q724410">
+            <seg>
               Jag skulle vilja fråga statsministern om han håller med om att
               detta, att få kontroll över införseln av billig alkohol, är en
               prioriterad fråga för Sverige. Jag har sett en del oroande tecken
@@ -1692,18 +1956,22 @@
               att det är så man får inflytande över frågor i EU.
             </seg>
           </u>
-          <note type="speaker" n="20b22ab0">
+          <note type="speaker">
             Anf. 53 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-c223a068a5291495-3" n="2df218c9" next="i-8397f7d5de6a2b61-3">
-            <seg n="02b38ba8">
+          <u xml:id="i-0dbead95a5b5c49c-187" next="i-0dbead95a5b5c49c-194" who="Q53747">
+            <seg>
               Herr talman! Jag vill säga tre saker.
             </seg>
-            <seg n="9167b8dc">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-188" prev="i-0dbead95a5b5c49c-187" who="Q53747">
+            <seg>
               För det första: Tack för den klara deklarationen om en viktig
               kamp mot kapitalismen! Det värmde.
             </seg>
-            <seg n="68f12f4c">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-189" prev="i-0dbead95a5b5c49c-187" who="Q53747">
+            <seg>
               För det andra: Det ska inte råda någon tvekan om att vi är djupt
               oroade över den utveckling vi ser på alkoholområdet. Införselreglerna
               är ett elände och bör vid lämpligt tillfälle, om ett sådant yppar
@@ -1711,12 +1979,16 @@
               i alla sammanhang i EU tillsammans med andra driva kampen mot
               alkoholen och alkoholskadorna.
             </seg>
-            <seg n="83291559">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-190" prev="i-0dbead95a5b5c49c-187" who="Q53747">
+            <seg>
               För det tredje: Jag satt icke i denna kammare 1969, jag stod
               icke i denna talarstol 1969 och ändå är det förunderligt vad hemtamt
               och nära det inlägg känns som Gabriel Romanus nyss gjorde om alkoholen.
             </seg>
-            <seg n="b81946de">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-191" prev="i-0dbead95a5b5c49c-187" who="Q53747">
+            <seg>
               Herr talman! Låt mig bara säga en sak innan jag lämnar er. Jag
               vet att ni ska votera fram till sen eftermiddag. Jag önskar kammarens
               ledamöter med talmannen i spetsen en skön sommar och mycket vila
@@ -1724,99 +1996,124 @@
               valrörelsen! Tack så mycket!
             </seg>
           </u>
-          <note n="44ce05f7">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="e7958c1b">
+          <note>
             2 § Meddelande om justering av protokoll
           </note>
-          <note n="80b8ddd9">
+          <note>
             Talmannen meddelade att justeringssammanträde skulle äga rum
             tisdagen den 27 juni kl. 11.00.
           </note>
-          <note n="072e6ef3">
+          <note>
             Meddelandet hade delats ut till kammarens ledamöter.
           </note>
-          <note n="8aa7ecf6">
+          <note>
             3 § Meddelande om riksmötet 2006/07
           </note>
-          <note n="757f6f65">
+          <note>
             Talmannen meddelade att riksmötet 2006/07 skulle inledas med
             upprop måndagen den 2 oktober kl. 11.00 . Öppnandet skulle äga
             rum tisdagen den 3 oktober kl. 14.00.
           </note>
-          <note n="072e6ef3">
+          <note>
             Meddelandet hade delats ut till kammarens ledamöter.
           </note>
-          <note n="7b63a4cb">
+          <note>
             4 § Meddelande om statistiska uppgifter om riksdagsarbetet
           </note>
-          <note n="1209928c">
+          <note>
             Talmannen meddelade att statistiska uppgifter om riksdagsarbetet
             hade delats ut till kammarens ledamöter.
           </note>
-          <note n="1116d198">
+          <note>
             Statistiken skulle fogas som bilaga till detta protokoll.
           </note>
-          <note n="d2854a87">
+          <note>
             5 § Anmälan om inkomna faktapromemorior om förslag från Europeiska
             kommissionen
           </note>
-          <note n="8920e5a2">
+          <note>
             Talmannen anmälde att följande faktapromemorior om förslag från
             Europeiska kommissionen inkommit och överlämnats till utskott:
           </note>
-          <note n="7f0d520f">
-            KOM(2006)154
-          </note>
-          <note n="d525e503">
+          <u xml:id="i-0dbead95a5b5c49c-192" prev="i-0dbead95a5b5c49c-187" who="Q53747">
+            <seg>
+              KOM(2006)154
+            </seg>
+          </u>
+          <note>
             6 § Beslut om ärenden som slutdebatterats den 15 juni
           </note>
-          <note n="bac475b7">
+          <note>
             Punkt 2
           </note>
-          <note n="ca1b9b28">
+          <note>
             Punkt 3
           </note>
-          <note n="845a537b">
+          <note>
             Punkt 4
           </note>
-          <note n="66e1384a">
+          <note>
             Övriga punkter
           </note>
-          <note n="bc23ebf1">
+          <note>
             7 § Beslut om ärenden som slutdebatterats den 16 juni
           </note>
-          <note n="d0afd942">
+          <note>
             Punkt 12
           </note>
-          <note n="dcb49e4b">
+          <note>
             Punkt 42
           </note>
-          <note n="66e1384a">
+          <note>
             Övriga punkter
           </note>
-          <note n="c84414dc">
+          <note>
             Punkt 1
           </note>
-          <note n="550a0d8c">
+          <note>
             Punkterna 27
           </note>
-          <u who="Q53747" xml:id="i-8397f7d5de6a2b61-3" n="2df218c9" prev="i-c223a068a5291495-3">
-            <seg n="e7fb5cdb">
-              Återförvisningsyrkande
-            </seg>
-            <seg n="03b1aa3f">
+          <note>
+            Återförvisningsyrkande
+          </note>
+          <u xml:id="i-0dbead95a5b5c49c-193" prev="i-0dbead95a5b5c49c-187" who="Q53747">
+            <seg>
               minst en tredjedel
             </seg>
-            <seg n="31ee34ff">
+          </u>
+          <note>
+            Ajournering
+          </note>
+          <note>
+            Kammaren beslutade kl. 10.35 på förslag av tredje vice talmannen
+            att ajournera förhandlingarna till kl. 10.55 då avslutning skulle
+            äga rum.
+          </note>
+          <u xml:id="i-0dbead95a5b5c49c-194" prev="i-0dbead95a5b5c49c-187" who="Q53747">
+            <seg>
               Återupptagna förhandlingar
             </seg>
-            <seg n="4611c0cf">
+          </u>
+          <note>
+            Förhandlingarna återupptogs kl. 10.55.
+          </note>
+          <note>
+            8 § Avslutning
+          </note>
+          <note type="speaker">
+            Anf. 54 TALMANNEN:
+          </note>
+          <u xml:id="i-0dbead95a5b5c49c-195" who="unknown">
+            <seg>
               Ärade ledamöter! Inte bara ett riksmöte utan en hel mandatperiod
               lider nu mot sitt slut. Och det är dags att summera.
             </seg>
-            <seg n="b603ff76">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-196" who="unknown">
+            <seg>
               Statistiken visar på fyra hektiska år. Regeringen och partierna
               i regeringsunderlaget har givetvis bidragit till en betydande
               del av ärendemängden. Under mandatperioden har det inkommit 724
@@ -1824,18 +2121,24 @@
               mandatperioden. Toppen nåddes i mars i år, vilket ledde till en
               mycket hög arbetsbelastning under senare delen av våren.
             </seg>
-            <seg n="6e05da63">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-197" who="unknown">
+            <seg>
               Riksdagens viktiga arbete med att kontrollera hur regeringen
               och myndigheterna sköter sitt arbete har också gått på högvarv.
               Hittills har ledamöterna ställt 2 135 interpellationer, vilket
               är 400 fler än förra mandatperioden. 6 982 skriftliga frågor har
               lämnats in, en ökning med ca 1 600.
             </seg>
-            <seg n="fc4d8067">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-198" who="unknown">
+            <seg>
               Vi har hållit 90 särskilt anordnade debatter, vilket är en fördubbling
               jämfört med förra mandatperioden.
             </seg>
-            <seg n="3b6810a9">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-199" who="unknown">
+            <seg>
               Vi har således haft ovanligt många plenitimmar i kammaren. Undersökningar
               tyder annars på att den enskilde riksdagsledamoten spenderar allt
               mindre tid i kammaren. En del av denna tid läggs säkert på utskottsarbetet,
@@ -1843,22 +2146,30 @@
               Dessutom ägnar vi mer tid åt direkta kontakter med medborgare
               och organisationer åt att driva opinion och att lyssna till opinionen.
             </seg>
-            <seg n="5536319a">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-200" who="unknown">
+            <seg>
               Formerna och villkoren för politiken förändras i takt med utvecklingen
               i samhället. Om vi bejakar förändringarna har vi större möjligheter
               att föra den dialog med väljarna som vi eftersträvar. Och en bra
               dialog stärker förtroendet.
             </seg>
-            <seg n="e2b7874b">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-201" who="unknown">
+            <seg>
               När jag tillträdde som talman uttryckte jag en förhoppning om
               att vi tillsammans skulle kunna fördjupa och vitalisera riksdagens
               arbete, främja insynen, öka öppenheten.
             </seg>
-            <seg n="4844bff9">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-202" who="unknown">
+            <seg>
               Jag vill rikta en varm uppskattning till er alla för ett konstruktivt
               samarbete om detta.
             </seg>
-            <seg n="58ad57f4">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-203" who="unknown">
+            <seg>
               När det gäller kammarens arbete har ambitionen varit tydligare
               och rappare debatter. Det är angeläget inte minst med tanke på
               att allmänheten alltmer följer arbetet i kammaren via tv och webben.
@@ -1868,13 +2179,17 @@
               en ny ram för vitalare debatter. Här kan erfarenheterna av dessa
               två sista veckor här i andrakammarsalen komma till nytta.
             </seg>
-            <seg n="0eb656f4">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-204" who="unknown">
+            <seg>
               Ambitionen har också varit att främja riksdagens roll och ställning.
               Det var en av utgångspunkterna för Riksdagskommitténs arbete,
               vars förslag nu till en del klubbats igenom av riksdagen. I vissa
               delar krävs att riksdagen ånyo fattar beslut i höst.
             </seg>
-            <seg n="4adb0634">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-205" who="unknown">
+            <seg>
               Bland annat genomför riksdagen nu den största förändringen av
               arbetsfördelningen mellan utskotten sedan enkammarriksdagen infördes.
               Riksdagen får ett civilutskott som ersätter bostads- och lagutskotten.
@@ -1883,7 +2198,9 @@
               medborgarna viktiga, vardagsnära frågor. Era kunskaper och erfarenheter
               är mycket värdefulla i uppbyggnaden av det nya utskottet.
             </seg>
-            <seg n="177237fd">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-206" who="unknown">
+            <seg>
               Riksdagen tar ytterligare steg för att förenkla motionshanteringen
               även om jag anser att vi behöver göra mer. Under mandatperioden
               har det väckts 16 517 motioner. Det är en ökning med ungefär 3
@@ -1891,7 +2208,9 @@
               hård arbetsbelastning, men det bestående avtrycket i riksdagens
               beslutsfattande är trots allt litet.
             </seg>
-            <seg n="54cc1832">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-207" who="unknown">
+            <seg>
               Vad gäller Europeiska unionen förändrar vi formerna för arbetet
               så att riksdagen kommer in tidigare och bredare i beslutsprocesserna.
               Målet är att öka den demokratiska insynen och bidra till att minska
@@ -1899,21 +2218,27 @@
               de nationella parlamenten i Europeiska unionen. Betoning ligger
               på kontakter mellan utskotten i gemensamma aktuella frågor.
             </seg>
-            <seg n="2bda87a5">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-208" who="unknown">
+            <seg>
               Vi har arbetat tillsammans för att stärka jämställdheten i riksdagen.
               Många kvinnliga ledamöter har upplevt att de inte kan utföra sitt
               förtroendeuppdrag på samma villkor som oss män. Riksdagsstyrelsens
               15 punkter för ökad jämställdhet är ett viktigt led i att komma
               till rätta med detta.
             </seg>
-            <seg n="879878f9">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-209" who="unknown">
+            <seg>
               Kära kolleger! Det har varit en dramatisk mandatperiod. Vårt
               land har upplevt flera svåra påfrestningar: mordet på utrikesminister
               Anna Lindh, tsunamikatastrofen och parallellt stormen Gudrun.
               Vi har upplevt chock och bestörtning. Riksdagen har stått inför
               och lyckats hantera stora utmaningar.
             </seg>
-            <seg n="d1bf3658">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-210" who="unknown">
+            <seg>
               Mordet på en av våra främsta och mest exponerade politiker ledde
               till en diskussion om politikers villkor i vårt öppna samhälle.
               Flera här i kammaren, liksom många förtroendevalda i kommuner
@@ -1921,7 +2246,9 @@
               är en mycket oroande utveckling, som också har tvingat oss att
               skärpa säkerheten i och kring vår riksdag.
             </seg>
-            <seg n="1c43d8fb">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-211" who="unknown">
+            <seg>
               För er som ställer upp till omval väntar nu en intensiv valrörelse.
               Vi möter väljarna i en tid av misstro för politiker och partier
               och ett vikande deltagande i den representativa demokratin. Det
@@ -1929,7 +2256,13 @@
               visserligen olika partier och ståndpunkter, men vi är alla bärare
               av den representativa demokratin.
             </seg>
-            <seg n="ba298fe2">
+          </u>
+          <note>
+            Ärade ledamöter! Ett rekordstort antal ledamöter 96 stycken!
+            lämnar nu riksdagen. 96!
+          </note>
+          <u xml:id="i-0dbead95a5b5c49c-212" who="unknown">
+            <seg>
               Flera av er har ställt era krafter till riksdagens och svenska
               folkets förfogande under mer än två decennier, andra under kortare
               tid. En del av er lämnar nu politiken helt och hållet, andra söker
@@ -1937,14 +2270,18 @@
               går i pension, andra återvänder till sitt gamla yrke och några
               sätter sig på skolbänken.
             </seg>
-            <seg n="450f5e52">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-213" who="unknown">
+            <seg>
               Tillsammans lämnar ni nu något som många anser är det finaste
               uppdrag man kan ha: förtroendeuppdraget som folkets representanter
               valda i fria och allmänna val. Tillsammans har ni bidragit med
               engagemang, kunskap och stora arbetsinsatser i demokratins tjänst
               och för vårt lands utveckling.
             </seg>
-            <seg n="0b857678">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-214" who="unknown">
+            <seg>
               Jag vill tacka er alla och önskar att det fanns tid att göra
               det med några personliga ord till var och en. Men eftersom jag
               vet att flyg och tåg väntar på att ta er hem till era hemorter
@@ -1952,30 +2289,98 @@
               endast räkna upp flertalet av er. Men det vore trevligt om ni
               ställer er upp när ni hör ert namn.
             </seg>
-            <seg n="3a34784d">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-215" who="unknown">
+            <seg>
               De ledamöter som nu lämnar riksdagen efter minst en valperiod
               får som minnesgåva en litografi av konstnären Göran Gidestam.
               Det är ett synbart tack för insatserna i riksdagen.
             </seg>
-            <seg n="f5b3dab4">
+          </u>
+          <note>
+            Tolv ledamöter har tillhört riksdagen innevarande mandatperiod:
+          </note>
+          <note>
+            Karin Thorborg, Gustav Fridolin, Axel Darvik, Marie Wahlgren,
+            Mona Jönsson, Olle Sandahl, Sermin Özürküt, Anders Wiklund, Carl-Axel
+            Roslund, Sören Wibe, Inger Nordlander och Anna Lindgren.
+          </note>
+          <note>
+            Christer Erlandson lämnar nu riksdagen efter många ersättarperioder.
+          </note>
+          <u xml:id="i-0dbead95a5b5c49c-216" who="unknown">
+            <seg>
               Sex ledamöter har suttit i riksdagen i mellan fem och sju år:
             </seg>
-            <seg n="db33353f">
-              Fyra ledamöter har tillhört riksdagen i mellan nio och elva år:
-            </seg>
-            <seg n="437e589c">
+          </u>
+          <note>
+            Lotta Hedström, Sven Brus, Anders Bengtsson, Carl-Erik Skårman,
+            Åsa Domeij och Claes Roxbergh.
+          </note>
+          <note>
+            18 ledamöter har tillhört riksdagen i ungefär åtta år:
+          </note>
+          <note>
+            Stefan Hagfeldt, Rolf Olsson, Lennart Kollmats, Johnny Gylling,
+            Lars Ångström, Sten Lundström, Berit Jóhannesson, Kjell-Erik Karlsson,
+            Göran Norlander, Runar Patriksson, Viviann Gerdin, Per-Olof Svensson,
+            Britt-Marie Lindkvist, Erling Wälivaara, Yvonne Ångström, Henrik
+            Westman, Lennart Gustavsson och Anita Sidén.
+          </note>
+          <note>
+            Fyra ledamöter har tillhört riksdagen i mellan nio och elva år:
+          </note>
+          <note>
+            Birgitta Ahlqvist, Cinnika Beiming, Kerstin Kristiansson Karlstedt
+            och Elizabeth Nyström.
+          </note>
+          <u xml:id="i-0dbead95a5b5c49c-217" who="unknown">
+            <seg>
               Så många som 30 ledamöter har tillhört riksdagen i ungefär tolv
               år:
             </seg>
-            <seg n="b5757272">
+          </u>
+          <note>
+            Pär Axel Sahlberg, Eva Arvidsson, Mariann Ytterberg, Annika Nilsson,
+            Yvonne Ruwaida, Ann-Marie Fagerström, Owe Hellberg, Ulla Wester,
+            Per Rosengren, Conny Öhman, Agneta Ringman, Paavo Vallius, Sonja
+            Fransson, Nils-Erik Söderqvist, Lennart Beijer, Barbro Hietala
+            Nordlund, Majléne Westerlund Panke, Lennart Klockare, Barbro Feltzing,
+            Nils-Göran Holmqvist, Ulla Hoffmann, Britt-Marie Danestig, Ola
+            Rask, Rigmor Stenmark, Lilian Virgin, Maud Ekendahl, Tomas Högström,
+            Kerstin Heinemann, Ingrid Burman och Mona Berglund Nilsson.
+          </note>
+          <note>
+            Nio ledamöter har tillhört riksdagen i mellan 13 och 15 år:
+          </note>
+          <note>
+            Nils Fredrik Aurelius, Rune Berglund, Per Erik Granström, Martin
+            Nilsson, Henrik S Järrel, Tuve Skånberg, Carin Lundberg, Birgitta
+            Carlsson och Patrik Norinder.
+          </note>
+          <note>
+            Fem ledamöter har tillhört riksdagen i ungefär 18 år:
+          </note>
+          <note>
+            Gabriel Romanus, Anita Jönsson, Lars Bäckström, Erling Bager
+            och Kjell Nordström.
+          </note>
+          <u xml:id="i-0dbead95a5b5c49c-218" who="unknown">
+            <seg>
               Elva ledamöter har tillhört riksdagen i mer än 20 år. Er vill
               jag tacka var och en med några personliga ord.
             </seg>
-            <seg n="5c24e988">
-              Fem av er kom in det dramatiska riksdagsåret 1985/86 som präglades
-              av mordet på Olof Palme och kärnkraftsolyckan i Tjernobyl.
-            </seg>
-            <seg n="0245097b">
+          </u>
+          <note>
+            Fem av er kom in det dramatiska riksdagsåret 1985/86 som präglades
+            av mordet på Olof Palme och kärnkraftsolyckan i Tjernobyl.
+          </note>
+          <note>
+            Marianne Carlström har bland annat varit vice ordförande i lagutskottet
+            samt ledamot i EU-nämnden och Nordiska rådets svenska delegation.
+          </note>
+          <u xml:id="i-0dbead95a5b5c49c-219" who="unknown">
+            <seg>
               Jämställdhet, boende, djurskydd och inte minst konsumentpolitik
               är frågor som har legat henne varmt om hjärtat. Det är därför
               inte förvånande att hon både inledde och avslutade sin tid i riksdagen
@@ -1985,22 +2390,26 @@
               hon tillsammans med jordbruksministern att alltför många kommuner
               skär ned på konsumentvägledningen.
             </seg>
-            <seg n="02669c2f">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-220" who="unknown">
+            <seg>
               Miljö- och biståndsfrågor har varit Berndt Ekholms hjärtefrågor
               i politiken. Han har varit pådrivande för en restriktiv alkoholpolitik
               och för en generösare flyktingpolitik inom EU.
             </seg>
-            <seg n="9c1de246">
-              Berndt Ekholm är en av dem som personifierar riksdagens internationalisering.
-              Han har tillhört utrikesutskottet sedan 1994. De senaste åren
-              har Berndt Ekholm varit ordförande för den interparlamentariska
-              unionens, IPU:s, svenska delegation, ordförande för Riksdagens
-              utrikespolitiska klubb och ordförande för det svenska nätverket
-              Globe Europe. En av hans sista stora insatser i riksdagen var
-              arbetet med betänkandet UU8, Vår relation till den muslimska världen
-              i EU:s grannskapsområde .
-            </seg>
-            <seg n="12c77420">
+          </u>
+          <note>
+            Berndt Ekholm är en av dem som personifierar riksdagens internationalisering.
+            Han har tillhört utrikesutskottet sedan 1994. De senaste åren
+            har Berndt Ekholm varit ordförande för den interparlamentariska
+            unionens, IPU:s, svenska delegation, ordförande för Riksdagens
+            utrikespolitiska klubb och ordförande för det svenska nätverket
+            Globe Europe. En av hans sista stora insatser i riksdagen var
+            arbetet med betänkandet UU8, Vår relation till den muslimska världen
+            i EU:s grannskapsområde .
+          </note>
+          <u xml:id="i-0dbead95a5b5c49c-221" who="unknown">
+            <seg>
               Även värmlänningen Jarl Lander kom in i riksdagen 1985, som statsrådsersättare
               för Roine Carlsson. Han har under denna långa tid varit trafikutskottet
               trogen, bland annat som dess ordförande, och har också huvudsakligen
@@ -2010,7 +2419,17 @@
               tagit ett stort ansvar som kvittningsman. Sist men inte minst
               är han precis som jag en stor järnvägs- och tågfantast!
             </seg>
-            <seg n="25c92072">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-222" who="unknown">
+            <seg>
+              Reynoldh Furustrand har varit ledamot i den socialdemokratiska
+              riksdagsgruppens arbetsutskott, mångårig ledamot i näringsutskottet
+              och ledamot i Nordiska rådet. Han har framför allt arbetat med
+              handelspolitik.
+            </seg>
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-223" who="unknown">
+            <seg>
               Vissa minns kanske Reynoldh Furustrand när han med sin slogan
               Hela Europa ska kunna säga Rääjjnååld drog ut på turné 1995 för
               att genom en intensiv personvalskampanj försöka komma in i Europaparlamentet.
@@ -2018,7 +2437,9 @@
               lärorika månader som EU-parlamentariker, en period som han själv
               säger har påverkat honom starkt.
             </seg>
-            <seg n="3c915dbe">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-224" who="unknown">
+            <seg>
               Arne Kjörnsberg är uppvuxen i vad han själv kallar ett vänsterhem,
               vilket har präglat hans politiska grundsyn. Hur man på bästa sätt
               ska använda den ekonomiska politiken för att uppnå större rättvisa
@@ -2027,13 +2448,17 @@
               inte har ett värde i sig! Det är bara ett medel för att kunna
               göra det man vill.
             </seg>
-            <seg n="d12bd709">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-225" who="unknown">
+            <seg>
               På mer än ett sätt har han gått i Gunnar Strängs fotspår. Liksom
               sin föregångare på Älvsborgslistan har han varit ordförande i
               både finans- och skatteutskottet och har även cyklat omkring i
               Sverige och bedrivit politiskt kampanjarbete.
             </seg>
-            <seg n="d83d7fa8">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-226" who="unknown">
+            <seg>
               Göran Magnusson kom in i riksdagen 1985 och har suttit i flera
               utskott under åren. Sedan 1998 har han varit vice ordförande i
               konstitutionsutskottet. Inte minst under de uppmärksammade tsunamiförhören
@@ -2042,19 +2467,25 @@
               ordval, men medarbetare kan berätta att han även har ett friskt
               humör och mycket temperament.
             </seg>
-            <seg n="7f822522">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-227" who="unknown">
+            <seg>
               Göran Magnusson har ett stort intresse för Europasamarbetet,
               dock med en klar förmåga att sätta gränser när han tycker att
               unionen tar för sig för mycket. Frågan om mänskliga rättigheter
               har också engagerat honom, och han har varit både ledamot och
               ordförande i Europarådets svenska delegation.
             </seg>
-            <seg n="6c886928">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-228" who="unknown">
+            <seg>
               Vi har två ledamöter som suttit i riksdagen i 24 år eller sju
               mandatperioder. Vi minns riksdagsåret 1982/83 bland annat för
               att riksdagen lämnade Sergels torg och flyttade åter till Helgeandsholmen.
             </seg>
-            <seg n="1cd78a12">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-229" who="unknown">
+            <seg>
               Havet, skärgården och båtlivet betyder mycket för blekingebon
               Christer Skoog. Det är därför helt följdriktigt att hans första
               motion handlade om prisregleringsavgifter på ål och lax och att
@@ -2062,13 +2493,17 @@
               i Östersjön. Christer är också djupt engagerad i hemorten Sölvesborgs
               kulturarv med anknytning till båtar.
             </seg>
-            <seg n="e6347333">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-230" who="unknown">
+            <seg>
               I riksdagen har Christer Skoog främst engagerat sig i frågor
               som gällt arbetsmarknad, regional tillväxt, Europa samt försvars-
               och säkerhetsfrågor. Han har suttit i flera utskott, senast som
               ledamot i arbetsmarknadsutskottet och suppleant i försvarsutskottet.
             </seg>
-            <seg n="1d595760">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-231" who="unknown">
+            <seg>
               Agne Hansson har själv beskrivit hur annorlunda det var i riksdagen
               1982 jämfört med i dag. Exempelvis fanns det ju ännu inte datorer
               exempelvis. Motionerna skrev han för hand med blyertspenna och
@@ -2076,13 +2511,25 @@
               Det var således inte särskilt populärt att ändra i en motion i
               efterhand på den tiden.
             </seg>
-            <seg n="ecccd8a8">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-232" who="unknown">
+            <seg>
+              Under sina år i riksdagen har Agne Hansson bland annat hunnit
+              med att vara gruppledare i Centerpartiets riksdagsgrupp, ledamot
+              i trafikutskottet, bostadsutskottet och lagutskottet. I de två
+              sistnämnda har han även varit ordförande.
+            </seg>
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-233" who="unknown">
+            <seg>
               De senaste åren har Agne Hansson suttit i utrikesutskottet. Han
               har varit särskilt pådrivande i internationella miljöfrågor, det
               nordiska samarbetet och frågor kring Östersjöns framtid. Mänskliga
               rättigheter och hiv/aids är andra frågor som har engagerat honom.
             </seg>
-            <seg n="651a02e3">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-234" who="unknown">
+            <seg>
               Vi har två ledamöter som har suttit i riksdagen i 27 år och som
               alltså kom in 1979. Riksdagsvalet det året resulterade i en borgerlig
               valseger med ett mandats övervikt. Thorbjörn Fälldin utsågs till
@@ -2090,25 +2537,29 @@
               Det var ett tufft arbetsår med många tunga frågor på dagordningen,
               till exempel folkomröstningen om kärnkraften.
             </seg>
-            <seg n="37da1374">
-              Anders G Högmark lockades till politiken av högerns ungdomsförbunds
-              klara Europaengagemang. Hans starka internationella intresse har
-              fortsatt, och han är nu sedan några år vice ordförande i Europarådets
-              svenska delegation.
-            </seg>
-            <seg n="5ca98349">
+          </u>
+          <note>
+            Anders G Högmark lockades till politiken av högerns ungdomsförbunds
+            klara Europaengagemang. Hans starka internationella intresse har
+            fortsatt, och han är nu sedan några år vice ordförande i Europarådets
+            svenska delegation.
+          </note>
+          <u xml:id="i-0dbead95a5b5c49c-235" who="unknown">
+            <seg>
               Men det är kanske framför allt inom arbetsmarknads- och regionalpolitiken
               som Anders G Högmark har varit drivande. Han har kommit och gått
               men alltid återvänt till arbetsmarknadsutskottet. Han har själv
               en bakgrund som småföretagskonsult i det entreprenörstäta Småland
               och känner därför väl till företagens villkor.
             </seg>
-            <seg n="88e25eb0">
-              I kammaren har Anders G Högmark varit en skicklig debattör och
-              utanför kammaren en uppskattad historieberättare, ofta med ett
-              hisnande bildspråk.
-            </seg>
-            <seg n="b74900a3">
+          </u>
+          <note>
+            I kammaren har Anders G Högmark varit en skicklig debattör och
+            utanför kammaren en uppskattad historieberättare, ofta med ett
+            hisnande bildspråk.
+          </note>
+          <u xml:id="i-0dbead95a5b5c49c-236" who="unknown">
+            <seg>
               Anita Johansson halkade enligt egen utsago in i riksdagen under
               den dramatiska valnatten 1979 med hjälp av några hundra röster:
               Jag var inne i riksdagen klockan två, ute halv tre, inne halv
@@ -2117,29 +2568,46 @@
               undersköterska, men placerades som en av få kvinnor i skatteutskottet
               och försvarsutskottet. Sedan blev det 20 år i skatteutskottet.
             </seg>
-            <seg n="bd13fa21">
-              Anita Johansson brinner också för det nordiska samarbetet. Hon
-              har varit verksam i Nordiska rådets svenska delegation sedan 1985
-              och är nu dess vice ordförande.
+          </u>
+          <note>
+            Anita Johansson brinner också för det nordiska samarbetet. Hon
+            har varit verksam i Nordiska rådets svenska delegation sedan 1985
+            och är nu dess vice ordförande.
+          </note>
+          <u xml:id="i-0dbead95a5b5c49c-237" who="unknown">
+            <seg>
+              Riksdagens ålderspresident Lennart Nilsson kom in i riksdagen
+              1976. Det är samma år som Thorbjörn Fälldin blev statsminister,
+              kommunal- och landstingslagarna ersattes av en enhetlig kommunallag
+              och vi fick en ny semesterlag som innebar att ledigheten förlängdes
+              från fyra till fem veckor.
             </seg>
-            <seg n="bb4737d0">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-238" who="unknown">
+            <seg>
               Lennart Nilsson har varit ledamot i flera utskott, framför allt
               i bostadsutskottet under 20 år där han även varit vice ordförande.
               Och just bostadsfrågorna har engagerat honom mycket. Han vill
               se en bostadspolitik där alla har råd med sitt boende, inte minst
               de unga. Sedan 2002 har Lennart Nilsson varit ledamot i justitieutskottet.
             </seg>
-            <seg n="ab13e7b8">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-239" who="unknown">
+            <seg>
               Nu när valrörelsen stundar kanske några ord från Lennart Nilsson
               som flitigt citerats kan komma väl till pass: Folk uppfattar vallöften
               som löften. Det är ett problem för oss.
             </seg>
-            <seg n="64f5a224">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-240" who="unknown">
+            <seg>
               Jag vill med blommor på hela riksdagens vägnar tacka Lennart
               för hans hängivna och långa tjänst för folkstyret och önska honom
               lycka till i framtiden.
             </seg>
-            <seg n="0b0e566f">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-241" who="unknown">
+            <seg>
               Kära ledamöter! Jag vill tacka de vice talmännen Per Westerberg,
               Kerstin Heinemann och Helena Höij för det utomordentligt goda
               samarbete och goda kamratskap vi har haft under hela mandatperioden.
@@ -2147,7 +2615,9 @@
               kvartett. Jag vill särskilt rikta några ord till Kerstin Heinemann
               som nu lämnar riksdagen efter tolv år.
             </seg>
-            <seg n="05152d1f">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-242" who="unknown">
+            <seg>
               Kerstin Heinemann har varit politiskt aktiv i över 40 år. I riksdagen
               har hon tillhört socialutskottet. Sjuk- och hälsovård, äldreomsorg
               och handikappfrågor är några av de områden som legat henne varmt
@@ -2158,23 +2628,31 @@
               Kerstin Heinemann är en riktig arbetsmyra som tagit många av de
               sena kvällspassen i kammaren.
             </seg>
-            <seg n="9694f0e3">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-243" who="unknown">
+            <seg>
               Låt mig få överlämna blommor med ett hjärtligt tack för dina
               insatser!
             </seg>
-            <seg n="3ca6d338">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-244" who="unknown">
+            <seg>
               Jag vill nu tacka kvittningsmännen. Det finns många psykologiskt
               svåra uppdrag i riksdagen, och ni har ett av dem. Den nuvarande
               partipolitiska situationen har inte gjort det lättare.
             </seg>
-            <seg n="ea07258b">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-245" who="unknown">
+            <seg>
               Flera komplicerade frågor har legat på riksdagsstyrelsens bord
               under mandatperioden, bland annat ersättningsfrågor och de nya
               säkerhetsreglerna. Ledamöterna har lagt ned ett stort arbete på
               att bidra till en effektiv ledning av riksdagsförvaltningen. Tack,
               riksdagsstyrelsen, för gott samarbete!
             </seg>
-            <seg n="56748271">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-246" who="unknown">
+            <seg>
               Tack också till gruppledarna, som engagerat och konstruktivt
               tagit sig an många problem och frågeställningar som har måst lösas,
               inte minst inom ramen för Riksdagskommitténs arbete. Samarbetet
@@ -2183,7 +2661,9 @@
               vill särskilt tacka Lars Bäckström, som nu lämnar riksdagen efter
               18 år.
             </seg>
-            <seg n="bcb8ae30">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-247" who="unknown">
+            <seg>
               Lars Bäckström har i kammaren gjort sig känd som en god och skicklig
               debattör, med ständigt nya underfundigheter på gång. Detta har
               han visat prov på också i gruppledarkretsen och i riksdagsstyrelsen,
@@ -2195,7 +2675,9 @@
               i riksdagens talarstol inledde han självfallet med ett citat,
               hämtat ur Internationalen: Vi under skatter digna ner.
             </seg>
-            <seg n="96093d06">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-248" who="unknown">
+            <seg>
               Jag vill också tacka ordförandekonferensen för alltmer utvecklade
               fruktbara diskussioner, engagemang och ett gott samarbetsklimat
               under mandatperioden. Här vill jag särskilt nämna de ordförande
@@ -2203,7 +2685,9 @@
               Lennart Kollmats, kulturutskottet, Ingrid Burman, socialutskottet
               och Claes Roxbergh, trafikutskottet.
             </seg>
-            <seg n="16fbfd02">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-249" who="unknown">
+            <seg>
               Slutligen, ärade kolleger, vill jag uttrycka min och ledamöternas
               stora uppskattning för vår kammarsekreterare, riksdagsdirektören
               Anders Forsberg och all personal i riksdagsförvaltningen på kammarkansliet,
@@ -2214,109 +2698,11 @@
               underlätta för oss ledamöter i det dagliga arbetet!
             </seg>
           </u>
-          <note n="767f8832">
-            Ajournering
-          </note>
-          <note n="d94a58bd">
-            Kammaren beslutade kl. 10.35 på förslag av tredje vice talmannen
-            att ajournera förhandlingarna till kl. 10.55 då avslutning skulle
-            äga rum.
-          </note>
-          <note n="2310ecd1">
-            Förhandlingarna återupptogs kl. 10.55.
-          </note>
-          <note n="f4c633c0">
-            8 § Avslutning
-          </note>
-          <note n="7549b3fc" type="speaker">
-            Anf. 54 TALMANNEN:
-          </note>
-          <note n="3d2886e3">
-            Ärade ledamöter! Ett rekordstort antal ledamöter 96 stycken!
-            lämnar nu riksdagen. 96!
-          </note>
-          <note n="ad8c07e3">
-            Tolv ledamöter har tillhört riksdagen innevarande mandatperiod:
-          </note>
-          <note n="cc333e44">
-            Karin Thorborg, Gustav Fridolin, Axel Darvik, Marie Wahlgren,
-            Mona Jönsson, Olle Sandahl, Sermin Özürküt, Anders Wiklund, Carl-Axel
-            Roslund, Sören Wibe, Inger Nordlander och Anna Lindgren.
-          </note>
-          <note n="6d34e5b1">
-            Christer Erlandson lämnar nu riksdagen efter många ersättarperioder.
-          </note>
-          <note n="23d88f35">
-            Lotta Hedström, Sven Brus, Anders Bengtsson, Carl-Erik Skårman,
-            Åsa Domeij och Claes Roxbergh.
-          </note>
-          <note n="9bc95ae7">
-            18 ledamöter har tillhört riksdagen i ungefär åtta år:
-          </note>
-          <note n="71d48aad">
-            Stefan Hagfeldt, Rolf Olsson, Lennart Kollmats, Johnny Gylling,
-            Lars Ångström, Sten Lundström, Berit Jóhannesson, Kjell-Erik Karlsson,
-            Göran Norlander, Runar Patriksson, Viviann Gerdin, Per-Olof Svensson,
-            Britt-Marie Lindkvist, Erling Wälivaara, Yvonne Ångström, Henrik
-            Westman, Lennart Gustavsson och Anita Sidén.
-          </note>
-          <note n="0c3aa699">
-            Birgitta Ahlqvist, Cinnika Beiming, Kerstin Kristiansson Karlstedt
-            och Elizabeth Nyström.
-          </note>
-          <note n="6bae76cc">
-            Pär Axel Sahlberg, Eva Arvidsson, Mariann Ytterberg, Annika Nilsson,
-            Yvonne Ruwaida, Ann-Marie Fagerström, Owe Hellberg, Ulla Wester,
-            Per Rosengren, Conny Öhman, Agneta Ringman, Paavo Vallius, Sonja
-            Fransson, Nils-Erik Söderqvist, Lennart Beijer, Barbro Hietala
-            Nordlund, Majléne Westerlund Panke, Lennart Klockare, Barbro Feltzing,
-            Nils-Göran Holmqvist, Ulla Hoffmann, Britt-Marie Danestig, Ola
-            Rask, Rigmor Stenmark, Lilian Virgin, Maud Ekendahl, Tomas Högström,
-            Kerstin Heinemann, Ingrid Burman och Mona Berglund Nilsson.
-          </note>
-          <note n="c8f1083d">
-            Nio ledamöter har tillhört riksdagen i mellan 13 och 15 år:
-          </note>
-          <note n="5d90cd41">
-            Nils Fredrik Aurelius, Rune Berglund, Per Erik Granström, Martin
-            Nilsson, Henrik S Järrel, Tuve Skånberg, Carin Lundberg, Birgitta
-            Carlsson och Patrik Norinder.
-          </note>
-          <note n="5f68ce3b">
-            Fem ledamöter har tillhört riksdagen i ungefär 18 år:
-          </note>
-          <note n="2e1b4001">
-            Gabriel Romanus, Anita Jönsson, Lars Bäckström, Erling Bager
-            och Kjell Nordström.
-          </note>
-          <note n="bebf5d5f">
-            Marianne Carlström har bland annat varit vice ordförande i lagutskottet
-            samt ledamot i EU-nämnden och Nordiska rådets svenska delegation.
-          </note>
-          <note n="237f9a1f">
-            Reynoldh Furustrand har varit ledamot i den socialdemokratiska
-            riksdagsgruppens arbetsutskott, mångårig ledamot i näringsutskottet
-            och ledamot i Nordiska rådet. Han har framför allt arbetat med
-            handelspolitik.
-          </note>
-          <note n="4c5dcc44">
-            Under sina år i riksdagen har Agne Hansson bland annat hunnit
-            med att vara gruppledare i Centerpartiets riksdagsgrupp, ledamot
-            i trafikutskottet, bostadsutskottet och lagutskottet. I de två
-            sistnämnda har han även varit ordförande.
-          </note>
-          <note n="d8d3ebf4">
-            Riksdagens ålderspresident Lennart Nilsson kom in i riksdagen
-            1976. Det är samma år som Thorbjörn Fälldin blev statsminister,
-            kommunal- och landstingslagarna ersattes av en enhetlig kommunallag
-            och vi fick en ny semesterlag som innebar att ledigheten förlängdes
-            från fyra till fem veckor.
-          </note>
-          <note type="speaker" n="855e1c57">
+          <note type="speaker">
             Anf. 55 LENNART NILSSON (s):
           </note>
-          <u who="Q6011035" xml:id="i-93dd34821653798f-0" n="6d19e68e">
-            <seg n="958b04d7">
+          <u xml:id="i-0dbead95a5b5c49c-250" next="i-0dbead95a5b5c49c-263" who="Q6011035">
+            <seg>
               Herr talman! Jag har lärt mig i politiken att om man upprepar
               någonting tillräckligt länge blir det ofta en sanning. Jag tror,
               herr talman, att det citat som presenterades här som jag också
@@ -2324,13 +2710,17 @@
               Odenberg på Moderaternas kansli för att göra det extra kryddigt.
               Men i övrigt stämmer det naturligtvis att vallöften ska hållas.
             </seg>
-            <seg n="921d2acc">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-251" prev="i-0dbead95a5b5c49c-250" who="Q6011035">
+            <seg>
               Jag tänkte förut att det är tur att man under de här 30 åren
               aldrig har blivit minister. Det kändes precis som om man satt
               på ett KU-förhör när jag satt här framför podiet. Det är ganska
               skönt att inte ha varit anklagad under de här åren.
             </seg>
-            <seg n="c0678da0">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-252" prev="i-0dbead95a5b5c49c-250" who="Q6011035">
+            <seg>
               Kolleger, herr talman och alla fantastiska människor som arbetar
               här i riksdagen! Jag har lärt mig att vi är roade av statistik
               i den här kammaren. Om jag skulle få lika mycket tid för varje
@@ -2342,19 +2732,25 @@
               är alltså flera riksdagar under den här perioden. Jag har tjänat
               under sex statsministrar.
             </seg>
-            <seg n="dceeed5f">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-253" prev="i-0dbead95a5b5c49c-250" who="Q6011035">
+            <seg>
               Jag inser förstås att det är svårt att göra något slags sammanfattning
               av de här 30 åren, för det är ju inte säkert att alla begriper
               den. En del av er var inte ens födda när jag kom in i riksdagen.
               Andra gick i småskolan. Andra hade ingen tanke på att över huvud
               taget syssla med politik.
             </seg>
-            <seg n="0c1b5932">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-254" prev="i-0dbead95a5b5c49c-250" who="Q6011035">
+            <seg>
               Det är klart att jag inte minns alla dessa 1 295 kolleger. Det
               är ju så här i livet att det finns två sorters människor. Det
               finns de man glömmer och de man minns.
             </seg>
-            <seg n="7fdc1330">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-255" prev="i-0dbead95a5b5c49c-250" who="Q6011035">
+            <seg>
               Jag kommer ihåg en riksdagsman som sent en kväll när vi höll
               till vid Sergels torg begärde en replik. På den tiden höll vi
               ju på ganska sent på nätterna. Jag begrep inte vad det fanns för
@@ -2362,11 +2758,15 @@
               Förklaringen kom senare när jag frågade honom varför han begärde
               replik. Jo, det visade sig att han hade glömt sina tofflor i talarstolen.
             </seg>
-            <seg n="af02a7c4">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-256" prev="i-0dbead95a5b5c49c-250" who="Q6011035">
+            <seg>
               Herr talman! Kolleger! Som jag sade finns det två sorters människor.
               Det finns de man glömmer och de man minns.
             </seg>
-            <seg n="ce7f735f">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-257" prev="i-0dbead95a5b5c49c-250" who="Q6011035">
+            <seg>
               Man har ju lyssnat på många debatter under de här åren. Ibland
               kan det bli fel fast man menar att det ska bli rätt. Under något
               av de borgerliga regeringsåren var det en intensiv trafikpolitisk
@@ -2375,15 +2775,19 @@
               har inga visioner. Ni har ingen politik. Ni har inga ambitioner.
               Nej, det är precis tvärsom!
             </seg>
-            <seg n="79cda714">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-258" prev="i-0dbead95a5b5c49c-250" who="Q6011035">
+            <seg>
               Det finns två sorters människor. Det finns de man glömmer och
               de man minns.
             </seg>
-            <seg n="4a97fa5b">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-259" prev="i-0dbead95a5b5c49c-250" who="Q6011035">
+            <seg>
               Vi hade en minoritetsregering en gång i tiden under Ola Ullstens
               ledning. Då skulle man införa ett husläkarsystem. En dåvarande
               folkpartist som sedermera bytte parti var också en flitig skribent
-              och hade inför debatten i en av Helsingforss morgontidningar skrivit
+              och hade inför debatten i en av Stockholms morgontidningar skrivit
               en debattartikel där han beskrev utskottet som en enda stor hönsgård
               därför att det var så rörigt. Då gjorde en av de skickligaste
               talare som jag minns från denna riksdag, framlidne Nils Carlshamre
@@ -2392,29 +2796,37 @@
               att i varje hönsgård måste det finnas en ungtupp som gal högre
               än potensen tillåter.
             </seg>
-            <seg n="90a7bc0d">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-260" prev="i-0dbead95a5b5c49c-250" who="Q6011035">
+            <seg>
               Då kan ni räkna ut vem som vann den debatten.
             </seg>
-            <seg n="28550a43">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-261" prev="i-0dbead95a5b5c49c-250" who="Q6011035">
+            <seg>
               Kära kolleger och medarbetare! Vi är alla olika individer. En
               del pratar mycket, en del pratar länge, en del säger ingenting
               och andra säger mycket. Jag vet dock att vi behöver varandra,
               både i fred och i strid, för att få en levande debatt.
             </seg>
-            <seg n="95549af3">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-262" prev="i-0dbead95a5b5c49c-250" who="Q6011035">
+            <seg>
               Tage Danielsson, denne briljante man, har beskrivit detta på
               följande sätt:
             </seg>
-            <seg n="348f8b2c">
+          </u>
+          <u xml:id="i-0dbead95a5b5c49c-263" prev="i-0dbead95a5b5c49c-250" who="Q6011035">
+            <seg>
               En trevlig sommar, kära kolleger, önskar jag er alla talman,
               ledamöter och personal. Tack ska ni ha!
             </seg>
           </u>
-          <note type="speaker" n="391280d7">
+          <note type="speaker">
             Anf. 56 Förste vice talman PER WESTERBERG (m):
           </note>
-          <u who="unknown" xml:id="i-79c225164af60d09-0" n="452a029e">
-            <seg n="ae4ddb00">
+          <u xml:id="i-0dbead95a5b5c49c-264" who="unknown">
+            <seg>
               Herr talman! Jag ska bli mycket kortfattad. Jag vill tacka Björn
               som talman, människa och person för den gångna mandatperioden.
               Du har lett kammarens arbete på ett utomordentligt sätt, glammigt,
@@ -2422,35 +2834,37 @@
               förena sig med mig i ett stort tack för den gångna mandatperioden.
             </seg>
           </u>
-          <note n="3ab63dec">
+          <note>
             9 § Anmälan om skriftliga svar på frågor
           </note>
-          <note n="114ed36a">
+          <note>
             Anmäldes att skriftliga svar på följande frågor inkommit
           </note>
-          <note n="92f9a76a">
+          <note>
             den 16 juni
           </note>
-          <note n="2832227c">
+          <note>
             Anne-Marie Ekström
           </note>
-          <note n="cd0669ef">
+          <note>
             Ulla Hoffmann
           </note>
-          <note n="36299bdf">
+          <note>
             Marianne Carlström
           </note>
-          <note n="6808d93e">
+          <note>
             Svaren redovisas i bilaga som fogats till riksdagens snabbprotokoll
             tisdagen den 3 oktober.
           </note>
-          <note n="7817864d">
+          <note>
             10 § Kammaren åtskildes kl. 11.42.
           </note>
-          <note n="54544334">
-            Förhandlingarna leddes
-          </note>
-          <note n="48e71771">
+          <u xml:id="i-0dbead95a5b5c49c-265" who="unknown">
+            <seg>
+              Förhandlingarna leddes
+            </seg>
+          </u>
+          <note>
             /Eva-Lena Ekman
           </note>
         </div>

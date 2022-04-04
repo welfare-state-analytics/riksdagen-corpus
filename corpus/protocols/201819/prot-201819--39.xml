@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2018</title>
+        <title>Riksdagens protocols 201819</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2018</title>
+          <title>Riksdagens protocols 201819</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -63,33 +60,37 @@
       </front>
       <body>
         <div>
-          <note n="b494f9f4">
+          <note>
             § 1 Prövning av förslag till statsminister
           </note>
-          <note n="7ee25a2c" type="speaker">
+          <note type="speaker">
             Anf. 1 TALMANNEN:
           </note>
-          <note n="b24e5fd4">
+          <note>
             Riksdagen ska enligt 6 kap. 4 § andra stycket regeringsformen
             pröva ett förslag till ny statsminister inom fyra dagar. Förslaget
             ska enligt 11 kap. 3 § andra stycket riksdagsordningen bordläggas
             två gånger.
           </note>
-          <note n="e9e754c5">
-            Jag lämnade onsdagen den 16 janua ri förslaget att Stefan Löfven,
-            Socialdemokraterna, ska utses till statsminister. Stefan Löfven
-            har uppgett att han avser att bilda en regering som består av
-            företrädare för Socialdemokraterna och Miljöpartiet.
-          </note>
-          <note n="128fa44f">
-            Förslaget har nu bordlagts två gånger och ska prövas vid dagens
-            sammanträde.
-          </note>
-          <note type="speaker" n="365fbfc4">
+          <u xml:id="i-d6c2319fa02e1900-0" next="i-d6c2319fa02e1900-1" who="Q4755577">
+            <seg>
+              Jag lämnade onsdagen den 16 janua ri förslaget att Stefan Löfven,
+              Socialdemokraterna, ska utses till statsminister. Stefan Löfven
+              har uppgett att han avser att bilda en regering som består av
+              företrädare för Socialdemokraterna och Miljöpartiet.
+            </seg>
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-1" prev="i-d6c2319fa02e1900-0" who="Q4755577">
+            <seg>
+              Förslaget har nu bordlagts två gånger och ska prövas vid dagens
+              sammanträde.
+            </seg>
+          </u>
+          <note type="speaker">
             Anf. 2 ANDERS YGEMAN (S):
           </note>
-          <u who="Q3375050" xml:id="i-d827b790e8ec590e-0" n="943f4182">
-            <seg n="e4ae952f">
+          <u xml:id="i-d6c2319fa02e1900-2" next="i-d6c2319fa02e1900-7" who="Q3375050">
+            <seg>
               Herr talman! Det har nu gått fyra månader sedan valet. Det är
               en lång tid utan regering. Valresultatet innebär att inget av
               de traditionella blocken har en egen majoritet i riksdagen. Det
@@ -99,7 +100,9 @@
               Liberalerna och Miljöpartiet om ett budgetsamarbete och ett samarbete
               kring ett antal politiska frågor i riksdagen.
             </seg>
-            <seg n="888dc8d2">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-3" prev="i-d6c2319fa02e1900-2" who="Q3375050">
+            <seg>
               Det innebär att vi har en möjlighet att rösta fram en stabil
               och hand ­ lingskraftig regering. Det är en regering som kan ta
               ansvar för Sverige och föra Sverige framåt. I en tid när högerextrema
@@ -111,14 +114,18 @@
               ­ par förutsättningar att möta de utmaningar som Sverige står
               inför.
             </seg>
-            <seg n="e7d48384">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-4" prev="i-d6c2319fa02e1900-2" who="Q3375050">
+            <seg>
               Vi kommer att stärka resurserna till välfärden, vården, skolan
               och omsorgen. Pensionerna kommer att höjas, och den orättvisa
               pensionärsskatten avskaffas. Vi kommer att ta ett första steg
               mot att införa en familjevecka med tre lediga dagar för varje
               å r för att alla föräldrar ska få mer tid med sina barn.
             </seg>
-            <seg n="347c2222">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-5" prev="i-d6c2319fa02e1900-2" who="Q3375050">
+            <seg>
               Vi ska höja tempot i klimatomställningen för att Sverige ska
               klara målet att bli världens första fossilfria välfärdsland. Vi
               kommer att utveckla landsbygden, bygga ut kunskapslyften och stärka
@@ -126,26 +133,30 @@
               för att vidmakthålla viktiga rödgröna reformer som beslutades
               under den förra mandatperioden.
             </seg>
-            <seg n="4ee7c0d0">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-6" prev="i-d6c2319fa02e1900-2" who="Q3375050">
+            <seg>
               Det finns naturligtvis förslag i överenskommelsen som vi socialdemokrater
               inte själva hade genomfört om vi fått bestämma själva. Men i överenskommelsen
               finns också socialdemokratisk politik som nu får en bred förankring
               över blockgränsen och som därigenom kan förverkligas under mandatperioden.
             </seg>
-            <seg n="60ae0f4e">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-7" prev="i-d6c2319fa02e1900-2" who="Q3375050">
+            <seg>
               Det är dags att vårt land får en handlingskraftig regering. Därför
               kommer den socialdemokratiska riksdagsgruppen i dag att rösta
               ja till Stefan Löfven som Sveriges statsminister.
             </seg>
-            <seg n="4bd1a646">
-              (Applåder)
-            </seg>
           </u>
-          <note type="speaker" n="f81e9d5f">
+          <note>
+            (Applåder)
+          </note>
+          <note type="speaker">
             Anf. 3 JONAS SJÖSTEDT (V):
           </note>
-          <u who="Q2029704" xml:id="i-978da8dc27f4069e-0" n="68e49407">
-            <seg n="e3891f47">
+          <u xml:id="i-d6c2319fa02e1900-8" next="i-d6c2319fa02e1900-21" who="Q2029704">
+            <seg>
               Herr talman, ledamöter och åhörare! Inför riksdagsvalet 2018
               sa vi i Vänsterpartiet att vi vill se en regering utan borgerliga
               partier och att vi därför föredrar Stefan Löfven som statsminister.
@@ -153,7 +164,9 @@
               inte vill att Sverige ska styras av en blåbrun regering som ger
               inflytande åt ett rasistiskt parti.
             </seg>
-            <seg n="b48b57b1">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-9" prev="i-d6c2319fa02e1900-8" who="Q2029704">
+            <seg>
               I linje med det kommer Vänsterpartiet i dag att lägga ned rösterna
               i statsministeromröstningen, Stefan Löfven kan fortsätta som statsminister.
               Men vi gör det med ett misstroendelöfte. Om den nya regeringen
@@ -162,7 +175,9 @@
               agera för att fälla reger ­ ingen. Vänsterpartiet är vågmästare
               i kammaren, och den positionen tänker vi använda.
             </seg>
-            <seg n="deda072b">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-10" prev="i-d6c2319fa02e1900-8" who="Q2029704">
+            <seg>
               Genom att Stefan Löfven nu blir statsminister ser vi till att
               Sverige inte får en högerregering som hade blivit direkt beroende
               av Sverigedemokraterna. Det är det absolut troligaste resultatet
@@ -170,7 +185,9 @@
               om Löfven skulle falla i dag. Om alternativet hade varit ett nyval
               hade vi varit redo för det. Men så ser inte läget ut.
             </seg>
-            <seg n="1db4092a">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-11" prev="i-d6c2319fa02e1900-8" who="Q2029704">
+            <seg>
               Ett sådant blåbrunt styre hade inneburit en brutal kombination
               av Moderaternas iskalla klasspolitik och Sverigedemokraternas
               hets och rasism. Nu slipper Sverige styras av en sådan reaktionär
@@ -178,25 +195,33 @@
               Ebba Busch Thor och Jimmie Åkesson. I dag kan vi också formellt
               begrava det borgerliga alliansprojektet.
             </seg>
-            <seg n="beed9372">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-12" prev="i-d6c2319fa02e1900-8" who="Q2029704">
+            <seg>
               Vi har under de senaste dagarna pulvriserat de försök som fanns
               att helt utestänga Vänsterpartiet från inflytande. Centerpartiet
               och Liberalerna försökte, och de har misslyckats.
             </seg>
-            <seg n="e7cbb2cb">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-13" prev="i-d6c2319fa02e1900-8" who="Q2029704">
+            <seg>
               Vi har också kommit överens med Stefan Löfven om att han ska
               stå upp för de reformer som Vänsterpartiet drev igenom i samarbete
               med regeringen under förra mandatperioden. Det gäller både de
               som finns kvar i dag och de som försvann i budgeten från M och
               KD. Vänsterns avtryck för jämlikhet kommer att leva kvar.
             </seg>
-            <seg n="196441a7">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-14" prev="i-d6c2319fa02e1900-8" who="Q2029704">
+            <seg>
               Den nya regeringen är en regering med många högerförslag. Det
               är en politik för ojämlikhet som Sverige borde ha lämnat bakom
               sig. Men till skillnad från en moderatregering kommer det att
               vara en regering som går att påverka från vänster.
             </seg>
-            <seg n="5842c022">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-15" prev="i-d6c2319fa02e1900-8" who="Q2029704">
+            <seg>
               Det ger oss i Vänsterpartiet en viktig roll. Det kommer att vara
               vi som formulerar politiken för ett jämlikt Sverige, för feminism
               och för radikal klimatpolitik. Men vi kommer inte att göra det
@@ -206,7 +231,9 @@
               rikaste. Tillsammans ska vi förändra samhällsdebatten och sätta
               tryck för att pressa politiken åt ett bättre håll.
             </seg>
-            <seg n="4f400d0d">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-16" prev="i-d6c2319fa02e1900-8" who="Q2029704">
+            <seg>
               Den här regeringen kommer till genom en överenskommelse mellan
               Socialdemokraterna, Miljöpartiet, Liberalerna och Centerpartiet.
               Det är en förhandling som Vänsterpartiet inte har deltagit i och
@@ -215,53 +242,65 @@
               att bekämpa en politik som ökar ojämlikheten och försvagar löntagarnas
               ställning.
             </seg>
-            <seg n="4775415b">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-17" prev="i-d6c2319fa02e1900-8" who="Q2029704">
+            <seg>
               När vi kan göra upp med regeringen om att ta steg till vänster
               eller för en radikal klimatpolitik kommer vi att göra det. Men
               dess förslag kommer bara att få vårt stöd ifall de går åt rätt
               håll, och många gånger kommer den att behöva våra mandat för att
               få igenom politiken.
             </seg>
-            <seg n="9a0ae6bc">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-18" prev="i-d6c2319fa02e1900-8" who="Q2029704">
+            <seg>
               Herr talman! Många europeiska länder har gett upp inför rasistiska
               och fascistiska partier. Borgerliga partier har bjudit in dem
               till samarbete i den naiva tron att de går att kontrollera. Även
               här i Sverige gjorde delar av högern ett försök att påbörja resan
               i dag, men de har misslyckats.
             </seg>
-            <seg n="a45979fd">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-19" prev="i-d6c2319fa02e1900-8" who="Q2029704">
+            <seg>
               I Sverige 2019 kallas högerpartier för mittenpartier. Andra delar
               av högern suddar ut gränslinjen mot rasister. Socialdemokraterna
               bildar reger ­ ing. Men de gör det inte med sociald emokratisk
               politik.
             </seg>
-            <seg n="b2dba7ab">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-20" prev="i-d6c2319fa02e1900-8" who="Q2029704">
+            <seg>
               Det är en tid av enorma klassklyftor och akut hot mot vårt klimat.
               Det är en tid av allvar – en tid då Vänstern kommer att växa som
               det verkliga alternativet. Vi kommer att formulera politiken för
               ett jämlikt Sverige, och vi ser med tillförsikt fram mot nästa
               val, oavsett om det blir 2022 eller om det blir innan dess.
             </seg>
-            <seg n="f6a47ce7">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-21" prev="i-d6c2319fa02e1900-8" who="Q2029704">
+            <seg>
               Nu börjar en tid då Vänsterpartiets roll växer i svensk politik.
               Vi är redo.
             </seg>
-            <seg n="4bd1a646">
-              (Applåder)
-            </seg>
           </u>
-          <note type="speaker" n="9656c48d">
+          <note>
+            (Applåder)
+          </note>
+          <note type="speaker">
             Anf. 4 MARIA FERM (MP):
           </note>
-          <u who="Q4947860" xml:id="i-5346e1ec3b97a394-0" n="8ef6b262">
-            <seg n="e19fcaaf">
+          <u xml:id="i-d6c2319fa02e1900-22" next="i-d6c2319fa02e1900-30" who="Q4947860">
+            <seg>
               Herr talman! För 131 dagar sedan valde svenska folket sina företrädare
               i riksdagen. Valresultatet blev inte enkelt utan har lett till
               en höst med komplicerade diskussioner, ställningstaganden som
               har behövt omprövas och grundläggande demokratiska värderingar
               som har stått på spel.
             </seg>
-            <seg n="c5107728">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-23" prev="i-d6c2319fa02e1900-22" who="Q4947860">
+            <seg>
               Miljöpartiet har under hela denna tid arbetat konstruktivt för
               att hitta en lösning som prioriterar klimatet, jämställdheten
               och medmänskligheten och håller rasismen borta. Vi har arbetat
@@ -270,14 +309,18 @@
               att denna lösning utifrån valresultatet går att hitta i den politiska
               mitten.
             </seg>
-            <seg n="6d17ef3e">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-24" prev="i-d6c2319fa02e1900-22" who="Q4947860">
+            <seg>
               I december röstades Moderaternas och Kristdemokraternas budget
               igenom med stöd av Sverigedemokraterna. Den innebär en katastrofal
               slakt av miljöbudgeten – större än Donald Trumps internationellt
               starkt kritiserade förslag om neddragningar på USA:s motsvarighet
               till Naturvårdsverket.
             </seg>
-            <seg n="f1df4827">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-25" prev="i-d6c2319fa02e1900-22" who="Q4947860">
+            <seg>
               Efter flera månaders viktiga och svåra diskussioner har Miljöpartiet,
               Socialdemokraterna, Centerpartiet och Liberalerna enats om en
               överenskommelse som leder in Sverige på ett betydligt bättre spår.
@@ -286,13 +329,17 @@
               och att inte ge ett främlingsfientligt parti inflytande över varje
               viktigt politiskt beslut.
             </seg>
-            <seg n="8cad7fdd">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-26" prev="i-d6c2319fa02e1900-22" who="Q4947860">
+            <seg>
               Vi har enats om en kraftfull klimatpolitik med höghastighetståg,
               nattåg till Europa och förbud mot försäljning av fossilbilar 2030.
               Vi är överens om en historiskt stor grön skatteväxling på 15 miljarder.
               Vi kommer att förbjuda bottentrålning i skyddade områden.
             </seg>
-            <seg n="613cc746">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-27" prev="i-d6c2319fa02e1900-22" who="Q4947860">
+            <seg>
               Vi tar också viktiga steg för ett mer solidariskt och medmänskligt
               samhälle. Krigsflyktingar kommer att få återförenas med sina familjer.
               Barn kommer äntligen att få träffa sina föräldrar efter år av
@@ -302,7 +349,9 @@
               Vi stärker LSS. Vi värnar den öppna arbetskraftsinvandringen,
               och vi räddar Jämställdhetsmyndigheten.
             </seg>
-            <seg n="9b856be7">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-28" prev="i-d6c2319fa02e1900-22" who="Q4947860">
+            <seg>
               Alla reformer i överenskommelsen är inte Miljöpartiets. Olika
               partier har bidragit med och prioriterat olika delar. Vi har kommit
               överens just för att bidra till en bättre utveckling för Sverige.
@@ -310,7 +359,9 @@
               fram och där ett öppet samhälle försvaras. Alternativet skulle
               vara nattsvart.
             </seg>
-            <seg n="41250681">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-29" prev="i-d6c2319fa02e1900-22" who="Q4947860">
+            <seg>
               I land efter land kan vi se högerpopulistiska främlingsfientliga
               partier ges politiskt inflytande. Det förändrar hela samhället,
               och det förändrar demokratin. Den vägen går vi inte i Sverige;
@@ -320,30 +371,34 @@
               eller fattigdom hos ensamstående föräldrar. Ett rättvist samhälle
               är också en förutsättning för att hejda klimatförändringarna.
             </seg>
-            <seg n="923b2d18">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-30" prev="i-d6c2319fa02e1900-22" who="Q4947860">
+            <seg>
               Vi stöder Stefan Löfven som statsminister i dagens omröstning.
               Vi vill bilda regering tillsammans med Socialdemokraterna. Vi
               röstar ja för klimatets skull, vi röstar ja till medmänsklighet
               och vi röstar ja till öppenhet, demokrati och framtidstro.
             </seg>
-            <seg n="4bd1a646">
-              (Applåder)
-            </seg>
           </u>
-          <note n="b47a8524">
+          <note>
+            (Applåder)
+          </note>
+          <note>
             I detta anförande instämde Janine Alm Ericson och Jonas Eriksson
             (båda MP).
           </note>
-          <note type="speaker" n="e2f21c32">
+          <note type="speaker">
             Anf. 5 JAN BJÖRKLUND (L):
           </note>
-          <u who="Q911372" xml:id="i-c4d54720e0536b6f-0" n="e8fb1d64">
-            <seg n="ae1f078f">
+          <u xml:id="i-d6c2319fa02e1900-31" next="i-d6c2319fa02e1900-43" who="Q911372">
+            <seg>
               Herr talman! Det går inte att förstå diskussionen om regeringsbildningen
               i Sverige om man inte också ser den övergripande ideologiska debatten
               och vindkantringen i Europa just nu.
             </seg>
-            <seg n="3787d715">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-32" prev="i-d6c2319fa02e1900-31" who="Q911372">
+            <seg>
               Över hela västvärlden sveper en våg av högernationalism och högerpopulism.
               Donald Trump, Marine Le Pen, Orbán i Ungern och flera andra länder
               är exempel på detta liksom även brexit och viljan att krossa det
@@ -351,7 +406,9 @@
               sig mot omvärlden och inte bry sig så mycket om andra. Europavalet
               senare i vår blir nästa stora kraftmätning.
             </seg>
-            <seg n="9000c4fd">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-33" prev="i-d6c2319fa02e1900-31" who="Q911372">
+            <seg>
               De liberala idéerna har byggt mänsklighetens mest framgångsrika
               samhällen, som just vi här och nu i västvärlden råkar ha privilegiet
               att leva i. De präglas av individuell frihet, demokrati, tolerans,
@@ -362,7 +419,9 @@
               lett till Europas värsta tragedier. Sverigedemokraterna är en
               del av denna högernationalistiska våg.
             </seg>
-            <seg n="b27f5128">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-34" prev="i-d6c2319fa02e1900-31" who="Q911372">
+            <seg>
               Herr talman! Den regering som nu kommer att tillträda är inte
               Liberalernas önskeregering. Vi kampanjade för en borgerlig valseger
               och för en borgerlig regering, men Alliansen förlorade valet.
@@ -373,7 +432,9 @@
               om att välja mellan Moderaterna och Socialdemokraterna hade vi
               valt Moderaterna. Då hade vi i dag röstat på Ulf Kristersson.
             </seg>
-            <seg n="fc4a91af">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-35" prev="i-d6c2319fa02e1900-31" who="Q911372">
+            <seg>
               Men det här valet handlar om någonting m er. Problemet är att
               en M ‑ regering inte bara skulle behöva röstas fram av SD i dag
               – det hade vi kunnat leva med, och det är inte problemet. Vilka
@@ -386,7 +447,9 @@
               varje vecka skulle Sverigedemokraterna helt kunna dominera det
               po ­ litiska beslutsfattandet och den politiska debatten.
             </seg>
-            <seg n="eeae4057">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-36" prev="i-d6c2319fa02e1900-31" who="Q911372">
+            <seg>
               Detta var bakgrunden till den princip som Sveriges mest framgångsrika
               borgerliga statsminister, Fredrik Reinfeldt, formulerade. Han
               formulerade det så här: Om Alliansen är mindre än de rödgröna
@@ -395,7 +458,9 @@
               på Sverigedemokraterna. Han avvisade denna lösning, och jag delar
               Fredrik Reinfeldts uppfattning.
             </seg>
-            <seg n="aa5bf452">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-37" prev="i-d6c2319fa02e1900-31" who="Q911372">
+            <seg>
               Mittenkonstellationen, som nu har en överenskommelse, omfattar
               167 mandat i denna kammare. Ingen annan gruppering är större.
               Det är sant att om alla andra partier kommer överens om att fälla
@@ -406,7 +471,9 @@
               Det skiljer denna regering från en högerregering, som skulle ha
               92 mandat i kammaren och snabbt bli föremål för utpressning.
             </seg>
-            <seg n="2694c7a4">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-38" prev="i-d6c2319fa02e1900-31" who="Q911372">
+            <seg>
               Herr talman! Den senaste mandatperioden har vi haft Socialdemokrat
               ­ erna och Miljöpartiet i regeringen. Det har varit en regering
               som har vilat på Vänsterpartiets utpressning. De har dikterat
@@ -416,7 +483,9 @@
               Liberalerna och Centern som nu bygger regerings ­ underlaget.
               Det är vi som har ställt kraven i denna uppgörelse.
             </seg>
-            <seg n="e234ed3d">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-39" prev="i-d6c2319fa02e1900-31" who="Q911372">
+            <seg>
               Vi fyra som har ingått överenskommelsen har möjlighet att göra
               upp med andra partier i andra frågor, och det kommer vi att göra.
               I huvudsak är det en möjlighet för Liberalerna och Centern att
@@ -427,7 +496,9 @@
               minimeras de båd a ytterkantspartiernas inflyt ­ ande i denna
               kammare, och det har varit ett viktigt mål för oss liberaler.
             </seg>
-            <seg n="0595d8bc">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-40" prev="i-d6c2319fa02e1900-31" who="Q911372">
+            <seg>
               Herr talman! Dagens regeringsbildning hade inte heller kunnat
               ske utan en politisk överenskommelse med en omfattande liberal
               reform ­ agenda. Många har förvånats över att reformprogrammet
@@ -439,7 +510,9 @@
               vidare. Den ekonomiska politiken är mer borgerlig än den som alliansregeringen
               lyckades föra.
             </seg>
-            <seg n="d39a4708">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-41" prev="i-d6c2319fa02e1900-31" who="Q911372">
+            <seg>
               Reformprogrammen för ökad integration och bättre skola innehåller
               många viktiga förslag. Integrationen är i närtid den största utmaning
               vi har med alla nyanlända som har kommit hit . Exempel på förslag
@@ -448,7 +521,9 @@
               fritt fram för betyg i fyran i skolan, att ta fram underlag för
               att förstatliga skolan och lärarassistenter för att avlasta lärarna.
             </seg>
-            <seg n="9d372ef6">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-42" prev="i-d6c2319fa02e1900-31" who="Q911372">
+            <seg>
               Herr talman! Vi vet och vi förstår att vinden blåser åt det högernatio
               ­ nalistiska hållet i Europa och i Sverige. Jag vet att Liberalerna
               och jag själv tar risker med dagens ställningstagande. Det hade
@@ -457,22 +532,24 @@
               misstänksamma mot de rödgröna partierna men är samtidigt också
               starkt emot högerextremismen.
             </seg>
-            <seg n="890561b9">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-43" prev="i-d6c2319fa02e1900-31" who="Q911372">
+            <seg>
               Viktigare än kortsiktiga opinionsvindar är dock att ha blicken
               fäst längre fram. Det liberala partiet i Sverige skapades för
               över hundra år sedan. Syftet har alltid varit att stå upp för
               den liberala samhällsmodellen i med- och motvind. Det är det syftet
               som vägleder oss än i dag.
             </seg>
-            <seg n="4bd1a646">
-              (Applåder)
-            </seg>
           </u>
-          <note type="speaker" n="13507965">
+          <note>
+            (Applåder)
+          </note>
+          <note type="speaker">
             Anf. 6 JIMMIE ÅKESSON (SD):
           </note>
-          <u who="Q518776" xml:id="i-5a2bcab237d1d35a-0" n="418045d1">
-            <seg n="11144354">
+          <u xml:id="i-d6c2319fa02e1900-44" next="i-d6c2319fa02e1900-61" who="Q518776">
+            <seg>
               Herr talman! För lite drygt fyra månader sedan röstade svenska
               folket. Den 9 september hade vi val här i Sverige till bland annat
               riksdagen, den här församlingen. Då röstade man bort den rödgröna
@@ -481,7 +558,9 @@
               fick den 9 september att väljarna inte ville ha den regering man
               dragits med i fyra år.
             </seg>
-            <seg n="4c94459c">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-45" prev="i-d6c2319fa02e1900-44" who="Q518776">
+            <seg>
               Sedan har det följt fyra månader av regeringsbildning. Jag har
               förvisso inte varit med under alla de år som Sverige har varit
               en demokrati, men jag har varit med i politiken förhållandevis
@@ -493,7 +572,9 @@
               där med Stefan Löfven, Gustav Fridolin och Isabella Lövin i ytterligare
               fyra år. Det är en bisarr utveckling som jag inte såg komma.
             </seg>
-            <seg n="cf2843c3">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-46" prev="i-d6c2319fa02e1900-44" who="Q518776">
+            <seg>
               Själva skälet till att vi nu har hamnat där är inte politiskt
               i första hand eller ens för att en majoritet av ledamöterna i
               den här kammaren tycker att Stefan Löfven är den bästa statsministern
@@ -506,7 +587,9 @@
               är mitt parti, Sverigedemokraterna. Det här har varit den bärande
               delen i hela den process som har tagit lite drygt fyra månader.
             </seg>
-            <seg n="2e8d404f">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-47" prev="i-d6c2319fa02e1900-44" who="Q518776">
+            <seg>
               Hur slutar då detta, herr talman? Vi hörde Jonas Sjöstedt, företrädaren
               för ett av dessa partier som absolut inte skulle få något inflytande,
               här alldeles nyss. Den skrivning i uppgörelsen som man har mellan
@@ -515,11 +598,15 @@
               den. Ändå stod Liberalernas partiledare här alldeles nyss och
               hyllade den här uppgörelsen. Det är en absurd utveckling.
             </seg>
-            <seg n="ee348511">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-48" prev="i-d6c2319fa02e1900-44" who="Q518776">
+            <seg>
               Jag noterar också, herr talman, att den annars nästan alltid
               grönklädda centerledaren i dag, dagen till ära, är iklädd rött.
             </seg>
-            <seg n="52907cb3">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-49" prev="i-d6c2319fa02e1900-44" who="Q518776">
+            <seg>
               Den regering som vi nu sannolikt kommer att rösta fram är en
               regering som har misslyckats med precis allting som man skulle
               göra under de fyra år man hade på sig. Man misslyckades med det
@@ -529,7 +616,9 @@
               utvecklingen har gått i motsatt riktning. Vi har sjunkit i rankningen
               över arbetslösheten bland EU-länderna. Man har misslyckats kapitalt.
             </seg>
-            <seg n="77c0fb63">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-50" prev="i-d6c2319fa02e1900-44" who="Q518776">
+            <seg>
               Man har fullständigt misslyckats med skolan, det som Miljöpartiets
               språkrör skulle fixa på 100 dagar. Man har fördubblat vårdköerna.
               Man har stärkt integrationsproblemen och utanförskapet, inte bara
@@ -539,14 +628,18 @@
               förvärrade integrationsproblemen och utanförskapet, gängkriminaliteten
               och annat som följer med ansvarslös invandringspolitik.
             </seg>
-            <seg n="17722604">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-51" prev="i-d6c2319fa02e1900-44" who="Q518776">
+            <seg>
               Jag kan stå här, herr talman, och rada upp hur många misslyckanden
               som helst från den rödgröna regeringen bestående av Socialdemokraterna
               och Miljöpartiet, men allt tyder på att jag har fyra år på mig
               att fortsätta påtala de problemen, och då får jag ta varje chans
               att göra det.
             </seg>
-            <seg n="b88ed4bf">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-52" prev="i-d6c2319fa02e1900-44" who="Q518776">
+            <seg>
               Jag sa förra gången jag stod här i talarstolen att jag egentligen
               inte är förvånad över den här utvecklingen. För den här utvecklingen,
               att de liberala partierna i Sveriges riksdag drar åt vänster och
@@ -564,7 +657,9 @@
               är ett faktum. Men man kommer att tvingas göra det under den här
               mandatperioden. Det är en helt naturlig utveckling.
             </seg>
-            <seg n="6058f354">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-53" prev="i-d6c2319fa02e1900-44" who="Q518776">
+            <seg>
               När vi nu inte kunde få en konservativ regering på plats är min
               ambi ­ tion att vara del av en stark konservativ opposition mot
               den här vänsterli ­ berala regeringen som kommer att fortsätta
@@ -576,31 +671,41 @@
               ­ partiet och Socialdemokraterna misslyckades och förde en ansvarslös
               po ­ litik som skadade Sverige på riktigt och på djupet.
             </seg>
-            <seg n="2a55f442">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-54" prev="i-d6c2319fa02e1900-44" who="Q518776">
+            <seg>
               Nu återgår man till den politiken, som om man inte har förstått
               någonting. Det är också min gissning, herr talman, att man inte
               har förstått nå ­ gonting.
             </seg>
-            <seg n="c542eded">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-55" prev="i-d6c2319fa02e1900-44" who="Q518776">
+            <seg>
               Socialdemokraterna är ett utpräglat maktparti. Det är makten
               framför allt. Jag minns när jag och Stefan Löfven möttes i en
               partiledardebatt i tv för något år sedan. Jag påtalade att det
               bara är en av fem utländska våldtäktsmän som utvisas ur landet.
               Stefan Löfven bemötte det på två sätt.
             </seg>
-            <seg n="88474609">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-56" prev="i-d6c2319fa02e1900-44" who="Q518776">
+            <seg>
               Det ena sättet var att förneka det. Stefan Löfven sa att reglerna
               är så ­ dana att om man döms för våldtäkt och är utländsk medborgare
               utvisas man minsann. Ja, i ett fall av fem är det på det sättet.
             </seg>
-            <seg n="fef146c7">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-57" prev="i-d6c2319fa02e1900-44" who="Q518776">
+            <seg>
               Det andra sättet var att han använde argumentet att det är väldigt
               viktigt att vi inte får fler undantag från turordningsreglerna.
               Det skulle nämligen leda till att antalet våldtäkter skulle öka.
               Vad gör Stefan Löfven nu? Nu går han ju med på ytterligare undantag
               från turordningsreglerna.
             </seg>
-            <seg n="af4ed6af">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-58" prev="i-d6c2319fa02e1900-44" who="Q518776">
+            <seg>
               Stefan Löfvens mantra under hela valrörelsen och större delen
               av förra mandatperioden var att de hemska borgerliga högerkrafterna
               bara vill förstöra välfärdssamhället och sänka skatterna för de
@@ -608,11 +713,15 @@
               Värnskatten ska bort. Stefan Löfven sänker skatten för de allra
               rikaste.
             </seg>
-            <seg n="bf3703c4">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-59" prev="i-d6c2319fa02e1900-44" who="Q518776">
+            <seg>
               Makten framför allt. Jag är imponerad av hur Stefan Löfven lyckas
               behålla makten även om han inte för sin egen politik.
             </seg>
-            <seg n="67b3fccd">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-60" prev="i-d6c2319fa02e1900-44" who="Q518776">
+            <seg>
               Min ambition är att Sverigedemokraterna under de år som den här
               mandatperioden gäller ska bli en dominerande kraft i ett nytt
               konservativt block eller en ny konservativ konstellation i svensk
@@ -621,29 +730,33 @@
               möta den vänsterliberala extrema regeringen, förhoppningsvis tillsammans
               med de övriga konservativa högerkrafterna i den här kammaren.
             </seg>
-            <seg n="3bf2ccea">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-61" prev="i-d6c2319fa02e1900-44" who="Q518776">
+            <seg>
               Vi kommer att rösta nej i dag – om någon eventuellt trodde något
               annat. Det blir för tydlighetens skull röd knapp från Sverigedemokraterna.
               Det blir en stark offensiv oppositionsroll för oss i fyra år eller
               något färre år.
             </seg>
-            <seg n="4bd1a646">
-              (Applåder)
-            </seg>
           </u>
-          <note type="speaker" n="1fd0bd93">
+          <note>
+            (Applåder)
+          </note>
+          <note type="speaker">
             Anf. 7 ANNIE LÖÖF (C):
           </note>
-          <u who="Q439393" xml:id="i-49457c5eb576636d-0" n="0073268f">
-            <seg n="ec477c17">
+          <u xml:id="i-d6c2319fa02e1900-62" next="i-d6c2319fa02e1900-71" who="Q439393">
+            <seg>
               Herr talman! Denna ansvarstyngda dag valde Jimmie Åkesson att
               kommentera kvinnors klädsel. Låt mig påpeka att min kostym har
               samma färg som Jimmie Åkessons slips.
             </seg>
-            <seg n="4bd1a646">
-              (Applåder)
-            </seg>
-            <seg n="e86421cd">
+          </u>
+          <note>
+            (Applåder)
+          </note>
+          <u xml:id="i-d6c2319fa02e1900-63" prev="i-d6c2319fa02e1900-62" who="Q439393">
+            <seg>
               Valet 2018 var ett värderingsval. Centerpartiet gick till val
               på att försvara medmänsklighet, jämställdhet och tolerans. Vi
               lovade våra väljare att arbeta mot främlingsfientlighet, misstro
@@ -651,7 +764,9 @@
               för fler jobb och företag, levande landsbygd, bättre miljö, närmare
               vård och mer medmänsklighet.
             </seg>
-            <seg n="22c2ee1a">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-64" prev="i-d6c2319fa02e1900-62" who="Q439393">
+            <seg>
               Under fyra månaders tid har jag och Centerpartiet prövat många
               olika alternativ för att hitta en regeringslösning som bygger
               på de sex partier som finns mellan Vänsterpartiet och Sverigedemokraterna
@@ -659,7 +774,9 @@
               varit möjligt. Alldeles för många har varit alldeles för fastlåsta
               i sina positioner.
             </seg>
-            <seg n="67dbc0f3">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-65" prev="i-d6c2319fa02e1900-62" who="Q439393">
+            <seg>
               Det gjorde att vi slutligen stod inför två val. Det ena var en
               liten M ‑ KD ‑ regering som skulle kräva ett aktivt beroende av
               Sverigedemokra ­ terna i varje viktig votering. Ett främlingsfientligt
@@ -668,14 +785,18 @@
               av Centerpartiet och Liberalerna och därför få driva politik baserad
               på en liberal reformagenda.
             </seg>
-            <seg n="28031179">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-66" prev="i-d6c2319fa02e1900-62" who="Q439393">
+            <seg>
               Centerpartiet har då valt väg. Vi väljer att tolerera den regering
               som kan verka utan aktivt stöd av Sverigedemokraterna och där
               vi får stort genomslag för liberal politik. Den regering som vi
               i dag röstar om är inte vårt förstahandsalternativ. Men de parlamentariska
               förutsättningarna finns tyvärr inte för en ny alliansregering.
             </seg>
-            <seg n="c88dbd45">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-67" prev="i-d6c2319fa02e1900-62" who="Q439393">
+            <seg>
               Efter valet 2014 valde alla fyra allianspartier att trycka gult
               och släppa fram Stefan Löfven. Ett villkor som då ställdes upp
               från den samla de A l ­ liansen , med Moderaterna i spetsen, var
@@ -683,7 +804,9 @@
               av Vänsterpartiet. Detta var ett stort misstag som ledde till
               en kraftig vänstersväng av politiken.
             </seg>
-            <seg n="170129ff">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-68" prev="i-d6c2319fa02e1900-62" who="Q439393">
+            <seg>
               I dag är de parlamentariska förutsättningarna likartade. Alliansen
               förlorade valet och är mindre än de rödgröna. Det skulle därför
               krävas att Alliansen söker stöd från Sverigedemokraterna för att
@@ -694,7 +817,9 @@
               tidigare budgetsamarbetet. Sverige får därför en ny regering,
               baserad på en liberal reformagenda.
             </seg>
-            <seg n="fc4a2449">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-69" prev="i-d6c2319fa02e1900-62" who="Q439393">
+            <seg>
               Jag vill tacka Liberalerna, Socialdemokraterna och Miljöpartiet
               för konstruktiva samtal och stark kompromissvilja. Men detta är
               inte en fribiljett till makten för Socialdemokraterna. Januariavtalet
@@ -704,25 +829,29 @@
               ett liberalt oppositionsparti för att få igenom så mycket av vår
               politik som möjligt.
             </seg>
-            <seg n="099259f3">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-70" prev="i-d6c2319fa02e1900-62" who="Q439393">
+            <seg>
               Vårt ansvarstagande gör att Sverige kan gå från låsningar till
               lösningar. Vårt land behöver en regering. Väljarna har väntat
               tillräckligt länge.
             </seg>
-            <seg n="86fbff63">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-71" prev="i-d6c2319fa02e1900-62" who="Q439393">
+            <seg>
               Centerpartiet kommer i dagens statsministeromröstning om Stefan
               Löfven att avstå, det vill säga trycka gult. Vi är ett liberalt
               oppositionsparti som tar ansvar för Sverige.
             </seg>
-            <seg n="4bd1a646">
-              (Applåder)
-            </seg>
           </u>
-          <note type="speaker" n="4db9f548">
+          <note>
+            (Applåder)
+          </note>
+          <note type="speaker">
             Anf. 8 EBBA BUSCH THOR (KD):
           </note>
-          <u who="Q4941329" xml:id="i-3a51ad77cc77ceb4-0" n="991e85da">
-            <seg n="6b6913ba">
+          <u xml:id="i-d6c2319fa02e1900-72" next="i-d6c2319fa02e1900-83" who="Q4941329">
+            <seg>
               Herr talman! I valrörelsen var Kristdemokraterna en röst för
               ett nytt välfärdslöfte. Vi var en röst för alla dem som sällan
               får komma till tals: patienter, äldre, barnfamiljer och brottsoffer
@@ -730,35 +859,47 @@
               Det är vår prioritering, att vara en röst för dem som ingen röst
               har.
             </seg>
-            <seg n="49fd9351">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-73" prev="i-d6c2319fa02e1900-72" who="Q4941329">
+            <seg>
               Vi lovade att en röst på KD var en röst för ett regeringsskifte,
               just för att vi under Stefan Löfven har fått uppleva ett välfärdssvek.
               Under den rödgröna regeringen växte vårdköerna. Det byggdes för
               få äldreboenden, förskolorna fick inte nog med resurser för att
               minska barngrupperna och man skar i LSS.
             </seg>
-            <seg n="888b3769">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-74" prev="i-d6c2319fa02e1900-72" who="Q4941329">
+            <seg>
               Vi menade och menar att det behövs en annan politik och en annan
               regering, ett nytt ledarskap. Det behövs en regering som vågar
               prioritera och som kan vända den negativa utvecklingen i välfärden.
             </seg>
-            <seg n="3eb90c20">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-75" prev="i-d6c2319fa02e1900-72" who="Q4941329">
+            <seg>
               I den överenskommelse som Stefan Löfven nu ser ut att ha mäklat
               fram mellan i praktiken fem partier finns det många punkter. Men
               ingen kan påstå att den innehåller en vision för en välfärd som
               man kan lita på.
             </seg>
-            <seg n="0812ddd3">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-76" prev="i-d6c2319fa02e1900-72" who="Q4941329">
+            <seg>
               Vi kommer inte att göra om misstaget att släppa fram Stefan Löfven
               igen.
             </seg>
-            <seg n="dd64efa3">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-77" prev="i-d6c2319fa02e1900-72" who="Q4941329">
+            <seg>
               Jag är orolig för Sverige. Om en regering ska kunna föra ett
               land framåt behövs en tydlig idé om och en målbild av vad man
               vill uppnå så att alla drar åt samma håll. Vi ser nu i stället
               ut att få en regering som bildas på splittring och missämja.
             </seg>
-            <seg n="b3ddd268">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-78" prev="i-d6c2319fa02e1900-72" who="Q4941329">
+            <seg>
               I onsdags kväll kunde vi i SVT höra Jonas Sjöstedt lugnt meddela
               att han och Stefan Löfven hade en överenskommelse. Stefan Löfven
               ska inte bara ha garanterat att Vänsterns politik bevaras i statsbudgeten.
@@ -766,43 +907,53 @@
               i och med att Kristdemokraternas och Moderaternas budget vann
               kammarens stöd före jul.
             </seg>
-            <seg n="63942ad5">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-79" prev="i-d6c2319fa02e1900-72" who="Q4941329">
+            <seg>
               Bara några minuter senare kunde vi se Annie Lööf stå i samma
               studio och hävda att Vänsterpartiet har krokats av från budgetsamarbetet
               och att Vänsterpartiet inte ska få något inflytande över den politiska
               inriktningen de kommande åren.
             </seg>
-            <seg n="3841bf4b">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-80" prev="i-d6c2319fa02e1900-72" who="Q4941329">
+            <seg>
               Båda dessa påståenden kan inte vara sanna samtidigt. Någon är
               lurad , eller ock så försöker de lura alla andra.
             </seg>
-            <seg n="c35c9f27">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-81" prev="i-d6c2319fa02e1900-72" who="Q4941329">
+            <seg>
               Det är verkligen ett genuint privilegium att få lov att ställa
               sig i Sveriges riksdags talarstol. Vi gör det som folkvalda representanter.
               I dag är jag en representant och en röst för alla dem som i all
               enkelhet och med rätta undrar: Vad är sant? Det går inte att bilda
               en regering på en lögn.
             </seg>
-            <seg n="e9cf094e">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-82" prev="i-d6c2319fa02e1900-72" who="Q4941329">
+            <seg>
               Till alla er som misströstar i dag vill jag ändå säga: Gör inte
               det! Det kommer bättre dagar än denna. Ett styre som står i strid
               med sig själv t kan inte bestå. Fram till den dagen kommer vi
               att ge en röst åt dem som ingen röst har. Vi kommer att vara en
               röst för den borgerliga oppositionen.
             </seg>
-            <seg n="f812dc17">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-83" prev="i-d6c2319fa02e1900-72" who="Q4941329">
+            <seg>
               Herr talman! Jag meddelar härmed att Kristdemokraterna i dag
               kommer att rösta nej till Stefan Löfven.
             </seg>
-            <seg n="4bd1a646">
-              (Applåder)
-            </seg>
           </u>
-          <note type="speaker" n="3ba2d20b">
+          <note>
+            (Applåder)
+          </note>
+          <note type="speaker">
             Anf. 9 ULF KRISTERSSON (M):
           </note>
-          <u who="Q1780398" xml:id="i-aadf97af7b8d4b4b-0" n="42cfabec" next="i-e1ed5742ec02c6cf-0">
-            <seg n="1230bdf0">
+          <u xml:id="i-d6c2319fa02e1900-84" next="i-d6c2319fa02e1900-107" who="Q1780398">
+            <seg>
               Herr talman! Riksdagen ska i dag ta ställning till en statsminister
               som har sitt regeringsunderlag till vänster i svensk politik.
               Av de mandat som står bakom Stefan Löfvens nya regering kommer
@@ -813,7 +964,9 @@
               betydande prägel på regeringens politik. Allt annat vore märkligt.
               Det är ju därför man vill bilda regering.
             </seg>
-            <seg n="57bdee01">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-85" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
               Moderaternas riksdagsgrupp kommer att rösta nej till Stefan Löfven
               som statsminister. Den rödgröna regering som nu fortsätter har
               under de gångna fyra åren inte klarat av att ta tag i Sveriges
@@ -825,14 +978,18 @@
               saknar kraft att ta itu med de långsiktiga utmaningarna tillåts
               nu fortsätta regera. Det är, herr talman, ett historiskt misstag.
             </seg>
-            <seg n="ed924716">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-86" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
               Vi moderater var beredda att med Alliansens politik och på Alliansens
               villkor ta ansvar för en borgerlig regering med ett, två, tre
               eller alla fyra allianspartier. Det hade säkert inte varit en
               enkel resa, men den hade mycket bättre speglat valresultatet och
               riksdagen. Det hade framför allt varit mycket bättre för Sverige.
             </seg>
-            <seg n="5f190ab7">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-87" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
               Det regeringsunderlag som nu väljer statsminister förenas i grunden
               av en enda sak: en demokratiskt tvivelaktig vilja att stänga ute
               andra riksdagspartier från inflytande och att inte låta deras
@@ -840,7 +997,9 @@
               värderingar, men tillsammans har Vänsterpartiet och Sverigedemokraterna
               25 procent av väljarna bakom sig.
             </seg>
-            <seg n="c449225c">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-88" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
               Det är därför, herr talman, en ödets ironi att regeringen nu
               kan tillträda först när Vänsterpartiet till slut har övertygats
               om att få tillräckligt mycket inflytande för att släppa fram denna
@@ -849,18 +1008,24 @@
               Det är Sverigedemokraterna och Vänsterpartiet som har avgjort
               besluten, från ett nej till alliansregering till ett ja till vänsterregering.
             </seg>
-            <seg n="e5a74609">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-89" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
               Denna nya regering bildas för att dess stödpartier inte ville
               ta risken att lägga fram sin egen politik i riksdagen för prövning
               och få stöd för det. Fel parti skulle då rösta på rätt politik.
             </seg>
-            <seg n="3ee3ccca">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-90" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
               Men detta är fel. Det är att abdikera från sitt politiska ansvar
               mot väljarna. Det är att abdikera från sina egna politiska värderingar
               och att inte lita ens på sig själv, på sin egen övertygelse och
               på sin politiska integritet.
             </seg>
-            <seg n="3132d3e5">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-91" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
               Vi moderater gör inte så. Vi går till val på politiska förslag
               som vi själva tror på, baserade på våra egna, inte andras, politiska
               värderingar. Därefter gör vi också allt vi kan för att in i kaklet
@@ -870,7 +1035,9 @@
               på en regeringskonstellation som gör motståndet mot andra till
               sitt enda riktigt gemensamma politiska projekt.
             </seg>
-            <seg n="9c30f3cd">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-92" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
               Den nya januariöverenskommelsen är sluten i precis samma anda
               som den gamla decemberöverenskommelsen, med det viktiga tillägget
               att själ ­ va tolkningen av den nu sker i slutna rum och hemliga
@@ -880,7 +1047,9 @@
               bättre och mer övertygande kunnat bli verklighet med en borgerlig
               regering.
             </seg>
-            <seg n="a44f4dbb">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-93" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
               Reformer behöver naturligtvis noggranna förberedelser, utredningar
               och samarbeten, men framför allt måste reformer ledas av människor
               som tror på dem och på den politiska färdriktning som reformerna
@@ -891,7 +1060,9 @@
               Både politiken och själva regeringen hade i förväg, före valet,
               varit ärligt redovisad för väljarna.
             </seg>
-            <seg n="9f5a0182">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-94" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
               Sverige hade då fått en regering som stått upp för arbetslinjen
               och som prioriterat vår tids riktigt stora politiska uppgifter,
               såsom integrationsproblemen, gängbrottsligheten och försvaret
@@ -900,7 +1071,9 @@
               problem. Borgerlig politik trivs och drivs helt enkelt bäst i
               en borgerlig regering.
             </seg>
-            <seg n="e43fc273">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-95" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
               Centern och Liberalerna har nu i ett formellt avtal tvingat vänsterreger
               ­ ingen att acceptera reformer som dessa partier aldrig har velat
               genomföra. Att tillsätta en vänsterregering för att genomföra
@@ -909,13 +1082,17 @@
               exekutiva makten över försvars ‑ , utrikes- och säkerhetspolitiken,
               kriminalpolitiken och hela regeringens utnämnings ­ makt.
             </seg>
-            <seg n="b6bbb61b">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-96" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
               Det här blir resultatet av en ogenomtänkt politisk förhandling.
               Bara tiden kan utvisa vilken långsiktig kurs som den här regeringen
               kommer att slå in på och hur ofta baksätesförarna kommer att nå
               fram till själva ratten.
             </seg>
-            <seg n="9c896cda">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-97" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
               Herr talman! Stora politiska reformer måste alltid utredas. Men
               att utreda sådant man verkligen vill göra och att utreda sådant
               man motvilligt tvingas göra är två helt olika saker. Vi som har
@@ -927,7 +1104,9 @@
               av migrationsuppgörelsen från 2015 inte genomförda. Jag antar
               att de fortfarande utreds.
             </seg>
-            <seg n="a6fbe470">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-98" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
               Herr talman! Sverige har aldrig tidigare fått en regering som
               den här, en regering som inte förenas i ett gemensamt politiskt
               projekt eller en gemensam bild av Sveriges problem, än mindre
@@ -938,7 +1117,9 @@
               precis den saken: att de har olika värderingar och olika åsikter
               och just därför vill ha olika regeringar.
             </seg>
-            <seg n="8d7a194c">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-99" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
               Jag är för ett mått av pragmatism i politiken. Jag är för att
               skilja på sak och person och inte utmåla motståndaren som djävulen
               själv. Jag är för att respektera den som tycker annorlunda och
@@ -946,7 +1127,9 @@
               söka prestigelösa kompromisser där man faktiskt tycker nästan
               lika.
             </seg>
-            <seg n="d0c04703">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-100" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
               Det här är någonting helt annat. Det är hållningslöst och principlöst.
               Det tog inte mer än tre dagar innan Stefan Löfven hade börjat
               förhandla med Vänsterpartiet om tolkningen av sin överenskommelse.
@@ -954,7 +1137,9 @@
               nya regeringen. Det verkar inte heller den tillträdande regeringens
               stödpartier ha en aning om.
             </seg>
-            <seg n="e92f3ec5">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-101" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
               I SVT:s Aktuellt fick vi häromkvällen höra att Vänsterpartiet
               lovar att fälla regeringen om den genomför sina avtalade reformer
               och att Centern och Liberalerna fäller regeringen om den inte
@@ -965,7 +1150,9 @@
               denna regering i hopp om att få stabilitet – eller mer exakt:
               att till varje pris undvika ett extraval – kan komma att bli överraskade.
             </seg>
-            <seg n="51ca0060">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-102" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
               Herr talman! Sverige får nu en fortsatt vänsterregering. Den
               borgerliga idégemenskap med liberala, konservativa och kristdemokratiska
               idéer som egentligen fortfarande finns i den här riksdagen borde
@@ -976,7 +1163,9 @@
               får en långsam anpassning till demokratins realiteter. Men jag
               förstår att det här kan ta tid.
             </seg>
-            <seg n="380d26c4">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-103" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
               I dag spräcker Centern och Liberalerna Alliansen på nationell
               nivå. Det får naturligtvis stora konsekvenser. Men en dag kommer
               människor med gemensamma värderingar att samlas politiskt igen,
@@ -984,7 +1173,9 @@
               vill få någonting gjort brukar göra. Nu är inte den tiden. Men
               jag vet att den tiden kommer.
             </seg>
-            <seg n="a163f854">
+          </u>
+          <u xml:id="i-d6c2319fa02e1900-104" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
               Moderaterna går nu i opposition. Det blir vår roll att vara den
               samlande kraften för borgerligt sinnade människor i Sverige som
               också vill ha en borgerlig regering som tar tag i Sveriges stora
@@ -1000,169 +1191,181 @@
               riksdagsgruppen, herr talman, röstar alltså nej till att Stefan
               Löfven väljs till Sveriges statsminis ­ ter.
             </seg>
-            <seg n="4bd1a646">
-              (Applåder)
-            </seg>
           </u>
-          <note n="f57e06ea">
+          <note>
+            (Applåder)
+          </note>
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="f4a3adc6">
-            Talmannen erinrade om att förslaget till statsminister skulle
-            prövas genom omröstning.
-          </note>
-          <note n="89bcc4e1">
+          <u xml:id="i-d6c2319fa02e1900-105" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
+              Talmannen erinrade om att förslaget till statsminister skulle
+              prövas genom omröstning.
+            </seg>
+          </u>
+          <note>
             Följande voteringsproposition lästes upp och godkändes:
           </note>
-          <note n="bc73c05c">
+          <note>
             Rösta ja om du vill godkänna förslaget att utse Stefan Löfven
             till statsminister.
           </note>
-          <u who="Q1780398" xml:id="i-e1ed5742ec02c6cf-0" n="42cfabec" prev="i-aadf97af7b8d4b4b-0">
-            <seg n="bb7794a1">
+          <u xml:id="i-d6c2319fa02e1900-106" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
               Rösta nej om du vill förkasta förslaget.
             </seg>
-            <seg n="7edb82f0">
-              Om minst 175 av riksdagens ledamöter röstar nej har riksdagen
-              förkastat förslaget. I annat fall har det godkänts.
-            </seg>
-            <seg n="26c87dc6">
-              115 för godkännande
-            </seg>
-            <seg n="09d834c5">
+          </u>
+          <note>
+            Om minst 175 av riksdagens ledamöter röstar nej har riksdagen
+            förkastat förslaget. I annat fall har det godkänts.
+          </note>
+          <note>
+            Votering:
+          </note>
+          <note>
+            115 för godkännande
+          </note>
+          <note>
+            153 för avslag
+          </note>
+          <note>
+            77 avstod
+          </note>
+          <note>
+            4 frånvarande
+          </note>
+          <u xml:id="i-d6c2319fa02e1900-107" prev="i-d6c2319fa02e1900-84" who="Q1780398">
+            <seg>
               Mindre än hälften av riksdagens ledamöter hade röstat mot förslaget.
               Riks dagen hade alltså utsett Stefan Löfven till statsminister.
             </seg>
-            <seg n="45df06a5">
-              Ulrika Jörgensen (M) anmälde att hon avsett att rösta nej men
-              markerats som frånvarande.
-            </seg>
           </u>
-          <note type="speaker" n="49ef13ab">
+          <note>
+            Partivis fördelning av rösterna:
+          </note>
+          <note>
+            För godkännande: 99 S, 16 MP
+          </note>
+          <note>
+            För avslag: 69 M, 61 SD, 1 C, 22 KD
+          </note>
+          <note>
+            Avstod: 30 C, 27 V, 20 L
+          </note>
+          <note>
+            Frånvarande: 1 S, 1 M, 1 SD, 1 V
+          </note>
+          <note>
+            Ulrika Jörgensen (M) anmälde att hon avsett att rösta nej men
+            markerats som frånvarande.
+          </note>
+          <note type="speaker">
             Anf. 10 TALMANNEN:
           </note>
-          <u who="unknown" xml:id="i-e3b05cd9b66a6dbb-0" n="991e85da">
-            <seg n="0b458680">
+          <u xml:id="i-d6c2319fa02e1900-108" who="unknown">
+            <seg>
               Får jag be tillträdande statsminister Stefan Löfven att komma
               fram till talmanspodiet och hämta förordnandet.
             </seg>
-            <seg n="4bd1a646">
-              (Applåder)
-            </seg>
-            <seg n="36270c7e">
-              RiR 2019:1 Klimatklivet – stöd till lokala klimatinvesteringar
-            </seg>
-            <seg n="af2ce929">
-              EU-dokument
-            </seg>
-            <seg n="95544cf7">
-              Anf. 4 MARIA FERM (MP)
-            </seg>
-            <seg n="0eb7356c">
-              Anf. 10 TALMANNEN
-            </seg>
           </u>
-          <note n="7b900efd">
-            Votering:
+          <note>
+            (Applåder)
           </note>
-          <note n="522ce93d">
-            153 för avslag
-          </note>
-          <note n="3b5d44b7">
-            77 avstod
-          </note>
-          <note n="a6edea88">
-            4 frånvarande
-          </note>
-          <note n="1a6e53eb">
-            Partivis fördelning av rösterna:
-          </note>
-          <note n="1b9383b3">
-            För godkännande: 99 S, 16 MP
-          </note>
-          <note n="71e6fd4c">
-            För avslag: 69 M, 61 SD, 1 C, 22 KD
-          </note>
-          <note n="2e9e0420">
-            Avstod: 30 C, 27 V, 20 L
-          </note>
-          <note n="433bb67e">
-            Frånvarande: 1 S, 1 M, 1 SD, 1 V
-          </note>
-          <note n="31320d12">
+          <note>
             § 2 Anmälan om granskningsrapport
           </note>
-          <note n="eaf89f79">
+          <note>
             Talmannen anmälde att följande granskningsrapport hade kommit
             in från Riksrevisionen och överlämnats till miljö- och jordbruksutskottet
             :
           </note>
-          <note n="d3960738">
+          <u xml:id="i-d6c2319fa02e1900-109" who="unknown">
+            <seg>
+              RiR 2019:1 Klimatklivet – stöd till lokala klimatinvesteringar
+            </seg>
+          </u>
+          <note>
             § 3 Ärende för hänvisning till utskott
           </note>
-          <note n="6d905804">
+          <note>
             Följande dokument hänvisades till utskott:
           </note>
-          <note n="59121cec">
+          <u xml:id="i-d6c2319fa02e1900-110" who="unknown">
+            <seg>
+              EU-dokument
+            </seg>
+          </u>
+          <note>
             COM(2018) 772 till näringsutskottet
           </note>
-          <note n="9f13ba06">
+          <note>
             § 4 Kammaren åtskildes kl. 9.58 .
           </note>
-          <note n="089834d7">
+          <note>
             Sammanträdet leddes av talmannen .
           </note>
-          <note n="53738bff">
+          <note>
             Vid protokollet
           </note>
-          <note n="4ce8eec0">
+          <note>
             INGVAR MATTSON
           </note>
-          <note n="85085f15">
+          <note>
             /Olof Pilo
           </note>
-          <note n="3c58a10b">
+          <note>
             Innehållsförteckning
           </note>
-          <note n="b494f9f4">
+          <note>
             § 1 Prövning av förslag till statsminister
           </note>
-          <note n="97523775">
-            Anf. 1 TALMANNEN
-          </note>
-          <note n="59545e89">
+          <u xml:id="i-d6c2319fa02e1900-111" who="unknown">
+            <seg>
+              Anf. 1 TALMANNEN
+            </seg>
+          </u>
+          <note>
             Anf. 2 ANDERS YGEMAN (S)
           </note>
-          <note n="4a5302d0">
+          <note>
             Anf. 3 JONAS SJÖSTEDT (V)
           </note>
-          <note n="080f8a8a">
+          <note>
+            Anf. 4 MARIA FERM (MP)
+          </note>
+          <note>
             Anf. 5 JAN BJÖRKLUND (L)
           </note>
-          <note n="f1c6bb44">
+          <note>
             Anf. 6 JIMMIE ÅKESSON (SD)
           </note>
-          <note n="7a4451b1">
+          <note>
             Anf. 7 ANNIE LÖÖF (C)
           </note>
-          <note n="7a5d68f5">
+          <note>
             Anf. 8 EBBA BUSCH THOR (KD)
           </note>
-          <note n="b98c0d4b">
+          <note>
             Anf. 9 ULF KRISTERSSON (M)
           </note>
-          <note n="31320d12">
+          <note>
+            Anf. 10 TALMANNEN
+          </note>
+          <note>
             § 2 Anmälan om granskningsrapport
           </note>
-          <note n="d3960738">
+          <note>
             § 3 Ärende för hänvisning till utskott
           </note>
-          <note n="9496ebf9">
+          <note>
             § 4 Kammaren åtskildes kl. 9.58.
           </note>
-          <note n="e5aff585">
-            Tryck: Elanders Sverige AB, Vällingby 2019
-          </note>
+          <u xml:id="i-d6c2319fa02e1900-112" who="unknown">
+            <seg>
+              Tryck: Elanders Sverige AB, Vällingby 2019
+            </seg>
+          </u>
         </div>
       </body>
     </text>

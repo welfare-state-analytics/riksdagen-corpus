@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2002</title>
+        <title>Riksdagens protocols 200203</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2002</title>
+          <title>Riksdagens protocols 200203</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -63,52 +60,62 @@
       </front>
       <body>
         <div>
-          <note n="57235cac">
+          <note>
             14.00 - 15.00
           </note>
-          <note n="e74fbaa6">
+          <note>
             Det justerade protokollet beräknas utkomma om 3 veckor
           </note>
-          <note n="7be15a4e">
+          <note>
             ----------------------------------------------------------------------
           </note>
-          <note n="837b7db9">
+          <note>
             1 § Justering av protokoll
           </note>
-          <note n="f01b05fe">
+          <note>
             Justerades protokollet för den 15 november.
           </note>
-          <note n="07c4a3e4">
+          <note>
             2 § Svar på interpellation 2002/03:27 om långtidsarbetslösa invandrare
             och arbetsförmedlingens tjänster
           </note>
-          <note type="speaker" n="ed81c48c">
+          <note type="speaker">
             Anf. 1 Statsrådet HANS KARLSSON (s):
           </note>
-          <u who="Q5650283" xml:id="i-18b396dec752d5f9-0" n="dc7ab526" next="i-c4c05896ea8585d7-0">
-            <seg n="f861e8a1">
+          <u xml:id="i-dcf0e75efda09e70-0" next="i-dcf0e75efda09e70-26" who="Q5650283">
+            <seg>
               Fru talman! Ana Maria Narti har ställt tre frågor till mig rörande
               arbetsförmedlingens arbete i relation till invandrare. Sammanfattningsvis
               gäller frågorna:
             </seg>
-            <seg n="d79376a5">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-1" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               - om nyrekryteringar av oerfarna arbetsförmedlare kan rätta till
               misslyckanden i arbetsförmedlingens relation till arbetslösa invandrare,
             </seg>
-            <seg n="0f256f48">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-2" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               - om inte resursanvändningen inom arbetsmarknadspolitiken skulle
               vara effektivare om
             </seg>
-            <seg n="7daa90d9">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-3" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               "initiativrika och starkt motiverade grupper ur invandrarbefolkningen"
               fick chansen att utifrån egna behov söka nya vägar in i arbetslivet
               samt
             </seg>
-            <seg n="3463e81d">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-4" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               - om jag kan tänka mig utbildningssatsningar riktade mot arbetsförmedlingens
               personal med medverkan från akademiker med invandrarbakgrund.
             </seg>
-            <seg n="6737479c">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-5" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               Låt mig inledningsvis säga att situationen på arbetsmarknaden
               för invandrare har förbättrats påtagligt under den senaste femårsperioden,
               även om en viss avmattning skett det senaste året. Sysselsättningsgraden
@@ -121,23 +128,31 @@
               av arbetsförmedlingens arbete i relation till invandrare som Ana
               Maria Narti ger.
             </seg>
-            <seg n="bcc1ebef">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-6" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               Samtidigt är jag den förste att erkänna att mycket återstår att
               göra. Arbetslösheten är fortfarande betydligt högre och sysselsättningsgraden
               väsentligt lägre för många grupper av invandrare. Integrationen
               på arbetsmarknaden är därför en av de två alla andra överskuggande
               uppgifterna för regeringen under denna mandatperiod.
             </seg>
-            <seg n="0f7902ce">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-7" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               Så över till Ana Maria Nartis konkreta frågor.
             </seg>
-            <seg n="57b8b2e1">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-8" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               Svaret på den första är nej. Jag tror inte att nyrekryteringar
               av oerfarna arbetsförmedlare är någon lösning i sig. Jag har heller
               inte fattat något beslut med den innebörd Ana Maria Narti påstår
               i sin interpellation.
             </seg>
-            <seg n="00938524">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-9" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               Betydelsen av att arbetsförmedlingen ges resurser för att kunna
               erbjuda, bland andra invandrare utan eller med mycket begränsad
               erfarenhet av svenskt arbetsliv, intensifierad individuell service
@@ -152,21 +167,29 @@
               med utländsk bakgrund. Regeringen avser att utöka denna ram för
               2003.
             </seg>
-            <seg n="c2908a24">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-10" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               Vad gäller Ana Maria Nartis andra fråga har de senaste årens
               arbetsmarknadspolitik präglats av en strävan mot tydligare styrning
               och uppföljning och ett ökat fokus mot kärnuppgifterna. Detta
               har varit en nödvändighet mot bakgrund av mindre lyckade försök
               med en mer decentraliserad politik under 1990-
             </seg>
-            <seg n="6ae853ac">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-11" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               talet. Ordning och reda måste gälla även framöver.
             </seg>
-            <seg n="9089f432">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-12" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               Det är inte fler projekt som behövs. Den generella politiken
               - och inte säråtgärder - är trots allt viktigast.
             </seg>
-            <seg n="fd2350ef">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-13" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               En tydligare nationell arbetsmarknadspolitik står dock inte i
               motsats till fortsatta ansträngningar att anpassa insatserna till
               regionala och lokala förutsättningar eller, ännu mindre, till
@@ -174,11 +197,15 @@
               på att i den generella politiken än tydligare ta fasta på individens
               förutsättningar och behov. Detta arbete går vidare.
             </seg>
-            <seg n="7043a3a8">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-14" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               Samverkan är en av hörnstenarna inom aktivitetsgarantin. Sådan
               kan ske med en rad olika aktörer:
             </seg>
-            <seg n="a02deef0">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-15" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               Kommun, stat, parterna på arbetsmarknaden, företag och andra
               organisationer är alla tänkbara samverkanspartner om samarbetet
               bedöms kunna bidra till att de arbetssökande får arbete. Det finns
@@ -187,23 +214,29 @@
               nya metoder och förhållningssätt.
             </seg>
           </u>
-          <note n="755765ad">
-            Ana Maria Narti nämner i sin interpellation nya mål 3
-          </note>
-          <u who="Q5650283" xml:id="i-c4c05896ea8585d7-0" n="dc7ab526" prev="i-18b396dec752d5f9-0">
-            <seg n="561f3f42">
+          <u xml:id="i-dcf0e75efda09e70-16" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
+              Ana Maria Narti nämner i sin interpellation nya mål 3
+            </seg>
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-17" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               och gemenskapsinitiativet Equal. Till det kan läggas de lokala
               utvecklingsavtalen inom ramen för den nationella storstadspolitiken,
               vilka ska präglas av att de boende i berörda områden ska vara
               delaktiga i framtagandet av insatser.
             </seg>
-            <seg n="1010e3e2">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-18" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               Med detta sagt vill jag gärna hålla med om att samverkan är ett
               område som behöver utvecklas vidare inom Arbetsmarknadsverket.
               Som Ana Maria Narti vet har integrationsminister Mona Sahlin tidigare
               med
             </seg>
-            <seg n="034fac0e">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-19" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               AMS tagit upp bland annat samarbetet med invandrarorganisationer.
               AMS har i oktober i år fastställt en policy och handlingsplan
               för Arbetsmarknadsverkets mångfaldsarbete. I den anges bland annat
@@ -211,36 +244,48 @@
               ska förbättras. Som ett led i arbetet med detta ska respektive
               myndighet inom verket under
             </seg>
-            <seg n="8438c4cb">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-20" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               2003 kartlägga det samarbete som bedrivs med olika invandrarorganisationer.
             </seg>
-            <seg n="fb84d361">
-              Vad slutligen gäller frågan om utbildningsinsatser inom Arbetsmarknadsverket
-              har AMS sedan 2001
-            </seg>
-            <seg n="da149812">
+          </u>
+          <note>
+            Vad slutligen gäller frågan om utbildningsinsatser inom Arbetsmarknadsverket
+            har AMS sedan 2001
+          </note>
+          <u xml:id="i-dcf0e75efda09e70-21" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               haft en nära samverkan med Ombudsmannen mot etnisk diskriminering
               (DO). Denna har resulterat i en rad åtgärder, bland annat har
               AMS verksledning beslutat om en kvalitetssäkrad handlingsplan
               för myndighetens arbete med "mångfaldsfrågor". Vid samtliga länsarbetsnämnder
               finns i dag också särskilda
             </seg>
-            <seg n="8efad38e">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-22" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               "mångfaldsspecialister". AMS har vidare medverkat i
             </seg>
-            <seg n="aea88dc9">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-23" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               DO:s och Integrationsverkets arbete för att mäta kunskaperna
               om diskrimineringslagstiftningen i olika yrkesgrupper. Det kan
               noteras att kunskaperna bland
             </seg>
-            <seg n="588fb53a">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-24" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               Arbetsmarknadsverkets personal ökat mer än i andra undersökta
               yrkesgrupper.
             </seg>
-            <seg n="5b18934e">
-              Och slutligen: Som ett komplement till AMS
-            </seg>
-            <seg n="4bd1094a">
+          </u>
+          <note>
+            Och slutligen: Som ett komplement till AMS
+          </note>
+          <u xml:id="i-dcf0e75efda09e70-25" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               samverkan med DO uppdrog regeringen i januari i år åt AMS att
               vidta åtgärder för att motverka diskriminering i arbetsförmedlingarnas
               verksamhet. AMS ska bland annat analysera och bedöma riskerna
@@ -250,10 +295,12 @@
               samt om gällande regler på området, liksom om frågor om mångfald
               i arbetslivet.
             </seg>
-            <seg n="bc3d9afe">
-              AMS har i dagarna avrapporterat uppdraget.
-            </seg>
-            <seg n="cab87713">
+          </u>
+          <note>
+            AMS har i dagarna avrapporterat uppdraget.
+          </note>
+          <u xml:id="i-dcf0e75efda09e70-26" prev="i-dcf0e75efda09e70-0" who="Q5650283">
+            <seg>
               Självfallet kan jag tänka mig att personer med invandrarbakgrund,
               med egna erfarenheter av arbete i flerkulturella miljöer eller
               av diskriminering i arbetslivet, kan ha mycket att tillföra i
@@ -262,27 +309,33 @@
               sitt uppdrag.
             </seg>
           </u>
-          <note type="speaker" n="18d24178">
+          <note type="speaker">
             Anf. 2 ANA MARIA NARTI (fp):
           </note>
-          <u who="Q4750415" xml:id="i-6c8d6e71c5537672-0" n="b4664135">
-            <seg n="4a1b5c4b">
+          <u xml:id="i-dcf0e75efda09e70-27" next="i-dcf0e75efda09e70-35" who="Q4750415">
+            <seg>
               Fru talman! Låt mig börja med att välkomna det nya statsrådet
               till en dialog som jag vet kommer att fortsätta i minst fyra år
               framöver.
             </seg>
-            <seg n="09581fe8">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-28" prev="i-dcf0e75efda09e70-27" who="Q4750415">
+            <seg>
               Jag har personligen bakom mig nästan tio år av praktiskt arbete
               med långtidsarbetslösa invandrare.
             </seg>
-            <seg n="a1d7cda7">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-29" prev="i-dcf0e75efda09e70-27" who="Q4750415">
+            <seg>
               Detta arbete har inte tillkommit på uppdrag från något departement,
               landsting, kommun, arbetsförmedling eller dylikt, utan det är
               något som jag själv har tagit på mig därför att jag har en mycket
               lång erfarenhet av att skaffa mig egna uppdrag som frilans och
               svartskalle.
             </seg>
-            <seg n="fb788191">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-30" prev="i-dcf0e75efda09e70-27" who="Q4750415">
+            <seg>
               Under sammanlagt 29 år har jag skaffat mig jobb själv, inte därför
               att jag har velat det utan därför att de första tio åren, 1970
               - 1980, av sökande av en fast anställning har varit några av de
@@ -291,33 +344,43 @@
               mig och mina likar. Därför kommer den här diskussionen att fortsätta,
               och den kommer att fortsätta i en mycket skarp ton.
             </seg>
-            <seg n="0a5f26dd">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-31" prev="i-dcf0e75efda09e70-27" who="Q4750415">
+            <seg>
               Statsrådet är förvånad över den mörka bilden av situationen för
               arbetssökande invandrare som jag ger.
             </seg>
-            <seg n="41bdd6ab">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-32" prev="i-dcf0e75efda09e70-27" who="Q4750415">
+            <seg>
               Vad gör Integrationsverket i den stora debattartikeln från i
               går? Och hur ställer sig statsrådet till den oerhört kritiska
               rapport som har kommit från Riksdagens revisorer, och som i sin
               helhet visar att inriktningen på arbetsmarknadspolitiken, målen
               och delmålen mycket ofta motverkar sina syften?
             </seg>
-            <seg n="4cc5312e">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-33" prev="i-dcf0e75efda09e70-27" who="Q4750415">
+            <seg>
               Mörk bild? Har det skett en förbättring för invandrarna? Inte
               enligt Integrationsverket. Utvecklingen har bromsats. Skillnaden
               i sysselsättningsgrad mellan utrikes födda och födda i Sverige
               har inte minskat det senaste året. Sysselsättningsgraden för utrikes
               födda ligger på ca 60 %, att jämföra med
             </seg>
-            <seg n="ba09d742">
-              Sverigeföddas sysselsättningsgrad på närmare 77 %.
-            </seg>
-            <seg n="4ec79407">
+          </u>
+          <note>
+            Sverigeföddas sysselsättningsgrad på närmare 77 %.
+          </note>
+          <u xml:id="i-dcf0e75efda09e70-34" prev="i-dcf0e75efda09e70-27" who="Q4750415">
+            <seg>
               Åtgärder och projekt - nej, det är inte det som jag vill ha,
               absolut inte. Jag hoppas att vårt samarbete, om det blir ett samarbete,
               leder till en total förändring av modellen för arbetsmarknadspolitiken.
             </seg>
-            <seg n="1f41e7cb">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-35" prev="i-dcf0e75efda09e70-27" who="Q4750415">
+            <seg>
               Det finns ingenting tydligare i dag i svensk politik än att uppifrån
               kommande integration och delaktighet på kommando inte fungerar.
               Myndigheterna och de starka svenska organisationerna kan samverka
@@ -325,27 +388,33 @@
               ur denna samverkan kommer denna samverkan bara att fördjupa klyftorna.
             </seg>
           </u>
-          <note type="speaker" n="5d2013ed">
+          <note type="speaker">
             Anf. 3 Statsrådet HANS KARLSSON (s):
           </note>
-          <u who="Q5650283" xml:id="i-66552da5787ad66c-0" n="dc7ab526">
-            <seg n="400a3978">
+          <u xml:id="i-dcf0e75efda09e70-36" next="i-dcf0e75efda09e70-42" who="Q5650283">
+            <seg>
               Fru talman! Jag välkomnar att få möta en mycket kompetent meddebattör.
               Jag ser fram emot det. Det ska bli spännande. Det är viktigt att
               vi kan diskutera och ta intryck av varandras uppfattningar och
               eventuella förslag till förbättringar.
             </seg>
-            <seg n="dfb45aa3">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-37" prev="i-dcf0e75efda09e70-36" who="Q5650283">
+            <seg>
               Jag vill medge att den korta tid som jag haft för att överblicka
               frågorna gör att jag inte känner mig redo för denna skarpa debatt
               som Ana Maria förutskickar nu. Jag återkommer gärna till den,
               och jag ser fram emot den. Jag tror också att Ana Maria har överseende
               med det.
             </seg>
-            <seg n="2746c344">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-38" prev="i-dcf0e75efda09e70-36" who="Q5650283">
+            <seg>
               Jag vidhåller att det var en i överkant mörk bild.
             </seg>
-            <seg n="1aaf6d19">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-39" prev="i-dcf0e75efda09e70-36" who="Q5650283">
+            <seg>
               Jag inser att den positiva utveckling som vi har haft för utlandsfödda
               när det gäller att komma in på arbetsmarknaden har varit understödd
               av en gynnsammare arbetsmarknad under de senare åren. Nu viker
@@ -355,13 +424,17 @@
               in i arbete. Jag är beredd att diskutera medlen och metoderna
               för det.
             </seg>
-            <seg n="7698f2db">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-40" prev="i-dcf0e75efda09e70-36" who="Q5650283">
+            <seg>
               Jag ville med det initiativet visa att jag har ett oerhört starkt
               engagemang för och en mycket stark vilja att förbättra möjligheterna
               för utlandsfödda att få ett arbete, därför att det är förutsättningen
               för ett bra liv framöver.
             </seg>
-            <seg n="357e5252">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-41" prev="i-dcf0e75efda09e70-36" who="Q5650283">
+            <seg>
               Jag har inte några stora svårigheter att ta till mig kritiken
               från Riksdagens revisorer. Jag har haft två diskussioner med AMS
               ledning för att försöka förstå hur de ser på kritiken och i vad
@@ -370,7 +443,9 @@
               Jag har frågat vilka åtgärder de har vidtagit och avser att vidta
               med anledning av den kritiken och har fått rätt bra svar.
             </seg>
-            <seg n="3594cbaf">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-42" prev="i-dcf0e75efda09e70-36" who="Q5650283">
+            <seg>
               Jag känner mig rätt trygg med att AMS dels har fångat kritiken,
               dels har förslag till åtgärder på gång som jag tror också kommer
               att tillfredsställa Riksdagens revisorer framöver. Men jag ber
@@ -378,56 +453,66 @@
               som man behöver göra med anledning av Riksdagens revisorers kritik.
             </seg>
           </u>
-          <note type="speaker" n="a4738734">
+          <note type="speaker">
             Anf. 4 ANA MARIA NARTI (fp):
           </note>
-          <u who="Q4750415" xml:id="i-e8d549a7893dec4b-0" n="b4664135" next="i-f512b4d6756d8350-0">
-            <seg n="df6d2332">
+          <u xml:id="i-dcf0e75efda09e70-43" next="i-dcf0e75efda09e70-49" who="Q4750415">
+            <seg>
               Fru talman! Jag får be om förlåtelse för lite för mycket passion
               i mitt sätt att föra diskussionen, men det är resultatet av otroligt
               många svårigheter och oändligt många hinder.
             </seg>
-            <seg n="eba03122">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-44" prev="i-dcf0e75efda09e70-43" who="Q4750415">
+            <seg>
               Alltid när man kommer nedifrån med något initiativ från någon
               grupp invandrare och försöker samverka så får man ett slag på
               fingrarna. Det senaste exemplet som jag kan plocka fram är projektet
-              Simba i Helsingfors. Det är ett projekt skapat av afrikanska kvinnor
+              Simba i Stockholm. Det är ett projekt skapat av afrikanska kvinnor
               för sina medsystrar med låg utbildning. De har ett litet centrum
               på Södermalm. De har lyckats öppna arbetslivet för kvinnor som
               aldrig varit i närheten av det som kallas en normal arbetsdag
               i Sverige.
             </seg>
-            <seg n="097e0498">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-45" prev="i-dcf0e75efda09e70-43" who="Q4750415">
+            <seg>
               Nu vill man stänga Simba. Varför? Därför att man agerar på vanligt
               svenskt myndighetsvis. Stadsdelarna tycker att invånarna i olika
               stadsdelar ska sitta på plats inom gränsen för stadsdelen. Det
               är det viktigaste, inte resultatet av ett fantastiskt och ansvarsfullt
               arbete som kommer nedifrån.
             </seg>
-            <seg n="97a7e293">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-46" prev="i-dcf0e75efda09e70-43" who="Q4750415">
+            <seg>
               Länsarbetsnämnden kräver att Simba ska ha bättre resultat än
               Arbetsförmedlingen. Är detta ett normalt sätt att samverka? Eller
               är detta ett uttryck för fullständigt omyndigförklarande av initiativ
               och ansvar som kommer nedifrån?
             </seg>
           </u>
-          <note n="30549abc">
+          <note>
             Under den första perioden med mål 3-arbete hade
           </note>
-          <u who="Q4750415" xml:id="i-f512b4d6756d8350-0" n="b4664135" prev="i-e8d549a7893dec4b-0">
-            <seg n="124ce9ff">
+          <u xml:id="i-dcf0e75efda09e70-47" prev="i-dcf0e75efda09e70-43" who="Q4750415">
+            <seg>
               1 % av alla beviljade projekt initierats och blivit ledda av
               invandrare - 1 % av 1 800 projekt! Den andra perioden verkar bli
               ännu fattigare på sådana initiativ, därför att den offentliga
               sektorns samverkan har lett till att den offentliga sektorn äter
               upp EU:s bidrag som egentligen är avsedda att gå till de maktlösa.
             </seg>
-            <seg n="20904f2e">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-48" prev="i-dcf0e75efda09e70-43" who="Q4750415">
+            <seg>
               Den offentliga sektorn är inte maktlös. Den offentliga sektorn
               i Sverige är en av de mäktigaste av sådana sektorer i hela västvärlden.
               De maktlösa är de arbetslösa.
             </seg>
-            <seg n="284e2365">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-49" prev="i-dcf0e75efda09e70-43" who="Q4750415">
+            <seg>
               Någonstans måste det finnas arenor för egna initiativ och eget
               ansvarstagande. I dag är de arenorna krympande på grund av den
               här ordningen, samordningen, samverkan, som egentligen stryper
@@ -435,15 +520,17 @@
               för sina egna tankar, sina egna önskningar och sitt eget ansvarstagande.
             </seg>
           </u>
-          <note type="speaker" n="643af428">
+          <note type="speaker">
             Anf. 5 Statsrådet HANS KARLSSON (s):
           </note>
-          <u who="Q5650283" xml:id="i-66552da5787ad66c-1" n="dc7ab526">
-            <seg n="2429ec6c">
+          <u xml:id="i-dcf0e75efda09e70-50" next="i-dcf0e75efda09e70-57" who="Q5650283">
+            <seg>
               Fru talman! Jag är inte alldeles säker på att jag riktigt ser
               och förstår var vi skiljer oss åt mer precist.
             </seg>
-            <seg n="bc7e823d">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-51" prev="i-dcf0e75efda09e70-50" who="Q5650283">
+            <seg>
               Jag vill gärna återkomma till det. Låt mig få formulera något
               slags grundhållning som jag har så får vi se om det underlättar
               för mig att upptäcka var vi skiljer oss åt. Jag har inget emot
@@ -451,7 +538,9 @@
               princip. Det är säkert alldeles nödvändigt och utmärkt som komplement
               till arbetsmarknadspolitiken av mer övergripande natur.
             </seg>
-            <seg n="ffeec15c">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-52" prev="i-dcf0e75efda09e70-50" who="Q5650283">
+            <seg>
               När jag har sagt det vill jag också ha sagt att samtidigt måste
               jag ta ansvar för att medel för projektverksamhet kan hanteras
               inom de ramar som jag ansvarar för. Jag vill kort sagt ha kontroll
@@ -459,12 +548,16 @@
               konflikt. Hur mycket frihet för projekt och hur mycket ovanifrånstyrning
               måste man ha för att ha kontroll?
             </seg>
-            <seg n="7568d72c">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-53" prev="i-dcf0e75efda09e70-50" who="Q5650283">
+            <seg>
               Jag inser att det finns en konfliktyta där, eller ett dilemma.
               Det får man antagligen diskutera och bråka om och se om man kan
               hitta gemensamma slutsatser.
             </seg>
-            <seg n="258ac76e">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-54" prev="i-dcf0e75efda09e70-50" who="Q5650283">
+            <seg>
               Sedan har jag en annan grundläggande hållning som jag också vill
               redovisa. Jag delar uppfattningen att det är viktigt med egna,
               individuella initiativ. Ja, det är det. Samtidigt har jag den
@@ -474,7 +567,9 @@
               ytterligare dimension, försöka skapa förutsättningar för människor
               att använda sina individuella möjligheter.
             </seg>
-            <seg n="5cc1be0c">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-55" prev="i-dcf0e75efda09e70-50" who="Q5650283">
+            <seg>
               Sådana förutsättningar kan vara det som jag tog initiativ till
               som en viljeinriktning för en mer konkret politik när det gäller
               stöd till utlandsfödda. Det gällde att ha en personlig handläggare
@@ -483,24 +578,28 @@
               rätt och bli synliggjorda hos arbetsgivare som kan tänkas vara
               intresserade av att anställa. Det var den enkla kopplingen.
             </seg>
-            <seg n="d21f4690">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-56" prev="i-dcf0e75efda09e70-50" who="Q5650283">
+            <seg>
               Min - kalla det gärna ideologiska även om det låter storvulet
               - grundläggande politiska syn säger mig att vi också ska skapa
               förutsättningar, reella förutsättningar, med medel som vi gemensamt
               finansierar som en extraresurs för människor som behöver en sådan
               resurs för att kunna utnyttja sina möjligheter.
             </seg>
-            <seg n="a1989c20">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-57" prev="i-dcf0e75efda09e70-50" who="Q5650283">
+            <seg>
               Sedan, Ana Maria Narti, kan jag dessvärre inte ta en precis diskussion
               om det här projektet, Simba. Jag hoppas att Ana Maria kan ha överseende
               med det. Jag ber att få återkomma i de lite mer precisa delarna.
             </seg>
           </u>
-          <note type="speaker" n="1a34a5dd">
+          <note type="speaker">
             Anf. 6 ANA MARIA NARTI (fp):
           </note>
-          <u who="Q4750415" xml:id="i-6c8d6e71c5537672-1" n="b4664135">
-            <seg n="2cc286b4">
+          <u xml:id="i-dcf0e75efda09e70-58" next="i-dcf0e75efda09e70-62" who="Q4750415">
+            <seg>
               Fru talman! Tack, statsrådet! Egentligen är den här dialogen
               mycket välkommen. Man träffar mycket sällan i den här salen statsråd
               som är så öppna för en förutsättningslös dialog. Jag skulle nu
@@ -510,32 +609,40 @@
               och för sina medsystrar och medbröder - skulle kunna presentera
               sina erfarenheter nedifrån och upp.
             </seg>
-            <seg n="2376a168">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-59" prev="i-dcf0e75efda09e70-58" who="Q4750415">
+            <seg>
               Det är det som saknas i dag i integrationspolitiken i Sverige,
               alltså möjlighet att lägga fram egna förslag som grundar sig på
               de egna erfarenheterna. Det skulle vara mycket lätt för oss att
               göra det tillsammans.
             </seg>
-            <seg n="a133ad4b">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-60" prev="i-dcf0e75efda09e70-58" who="Q4750415">
+            <seg>
               Varför inte? Vi skulle ha ett mycket konkret mål: att hitta lösningar
               och undanröja hinder. Hindren ligger inte i illvilja. Hindren
               ligger inte i en ond inställning.
             </seg>
-            <seg n="4eee39c0">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-61" prev="i-dcf0e75efda09e70-58" who="Q4750415">
+            <seg>
               Hindren ligger i en stelbent struktur som har skleroserats och
               som står i vägen för skapandekraften.
             </seg>
-            <seg n="fce3d890">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-62" prev="i-dcf0e75efda09e70-58" who="Q4750415">
+            <seg>
               Det här skulle vi kunna göra tillsammans. Egentligen tror jag
               inte att integrationens problem i dag kan lösas utan samverkan
               över blockgränserna.
             </seg>
           </u>
-          <note type="speaker" n="7e674b0e">
+          <note type="speaker">
             Anf. 7 Statsrådet HANS KARLSSON (s):
           </note>
-          <u who="Q5650283" xml:id="i-18b396dec752d5f9-1" n="dc7ab526" next="i-c4c05896ea8585d7-1">
-            <seg n="8afe730b">
+          <u xml:id="i-dcf0e75efda09e70-63" next="i-dcf0e75efda09e70-68" who="Q5650283">
+            <seg>
               Fru talman! Jag blir glad av att Ana Maria Narti uppfattar mig
               som öppen. Jag vill nämligen försöka vara det. Det kanske är lättare
               när man är i början av ett sådant här uppdrag än senare. Jag vill,
@@ -543,19 +650,27 @@
               ute människor. Jag förstår att många vet, och att många har erfarenhet
               och kunskap om, vad det är.
             </seg>
-            <seg n="5d50c4ed">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-64" prev="i-dcf0e75efda09e70-63" who="Q5650283">
+            <seg>
               Ska jag ha ansvar för de här frågorna gör jag anspråk på att
               också själv förstå mer.
             </seg>
-            <seg n="a23a0794">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-65" prev="i-dcf0e75efda09e70-63" who="Q5650283">
+            <seg>
               Därför välkomnar jag en öppen dialog. Låt mig få fundera på om
               den ska ske i form av seminarium eller på annat sätt. Jag noterar
               den idén.
             </seg>
-            <seg n="b0da6cc8">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-66" prev="i-dcf0e75efda09e70-63" who="Q5650283">
+            <seg>
               Jag tycker inte, och jag uppfattar inte Ana Maria
             </seg>
-            <seg n="f8eecad4">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-67" prev="i-dcf0e75efda09e70-63" who="Q5650283">
+            <seg>
               Narti riktigt så heller, att det handlar om antingen ett underifrånperspektiv,
               som hon beskriver det, eller ett ovanifrånperspektiv. Det är naturligtvis
               så att det måste vara både och. Sedan har vi säkert olika uppfattningar
@@ -567,67 +682,77 @@
               av det i så mycket samförstånd som över huvud taget är möjligt.
             </seg>
           </u>
-          <note n="d151b687">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="0e5d86ed">
+          <note>
             Ajournering
           </note>
-          <note n="8eb4d039">
+          <note>
             Kammaren beslutade kl. 12.28 på förslag av tredje vice talmannen
             att ajournera förhandlingarna till kl. 14.00 då frågestunden skulle
             börja.
           </note>
-          <u who="Q5650283" xml:id="i-c4c05896ea8585d7-1" n="dc7ab526" prev="i-18b396dec752d5f9-1">
-            <seg n="cabd4f41">
+          <u xml:id="i-dcf0e75efda09e70-68" prev="i-dcf0e75efda09e70-63" who="Q5650283">
+            <seg>
               Återupptagna förhandlingar
             </seg>
-            <seg n="7c7e9551">
-              Näringsministern besvarar såväl allmänpolitiska frågor som frågor
-              inom sitt eget ansvarsområde. Frågor till övriga statsråd förutsätts
-              beröra deras ansvarsområden inom regeringen.
-            </seg>
-            <seg n="1ff61924">
-              Jag vill också påminna om att talartiden både för dem som frågar
-              och för dem som svarar är en minut.
-            </seg>
-            <seg n="8199c305">
-              Det är bra om vi håller det, för då är det fler som kan få möjlighet
-              att ställa frågor.
-            </seg>
-            <seg n="ac0291dd">
-              Straffskalor
-            </seg>
           </u>
-          <note n="58652ccf">
+          <note>
             Förhandlingarna återupptogs kl. 14.00.
           </note>
-          <note n="9852e58d">
+          <note>
             3 § Frågestund
           </note>
-          <note n="d92d630c" type="speaker">
+          <note type="speaker">
             Anf. 8 ANDRE VICE TALMANNEN:
           </note>
-          <note n="49c25598">
+          <note>
             Jag hälsar välkommen till frågestunden. Följande statsråd kommer
             att delta: näringsminister Leif Pagrotsky, justitieminister Thomas
             Bodström, jordbruksminister Ann-Christin Nykvist, statsrådet Gunnar
             Lund och statsrådet Morgan Johansson. Välkomna!
           </note>
-          <note type="speaker" n="615c6b39">
+          <u xml:id="i-dcf0e75efda09e70-69" who="unknown">
+            <seg>
+              Näringsministern besvarar såväl allmänpolitiska frågor som frågor
+              inom sitt eget ansvarsområde. Frågor till övriga statsråd förutsätts
+              beröra deras ansvarsområden inom regeringen.
+            </seg>
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-70" who="unknown">
+            <seg>
+              Jag vill också påminna om att talartiden både för dem som frågar
+              och för dem som svarar är en minut.
+            </seg>
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-71" who="unknown">
+            <seg>
+              Det är bra om vi håller det, för då är det fler som kan få möjlighet
+              att ställa frågor.
+            </seg>
+          </u>
+          <note>
+            Straffskalor
+          </note>
+          <note type="speaker">
             Anf. 9 CECILIA MAGNUSSON (m):
           </note>
-          <u who="Q4964936" xml:id="i-5e0c58b55decc79a-0" n="4a812f6c">
-            <seg n="2655c285">
+          <u xml:id="i-dcf0e75efda09e70-72" next="i-dcf0e75efda09e70-74" who="Q4964936">
+            <seg>
               Fru talman! I riksdagen stiftar vi lagar, och vi förväntar oss
               att människor rättar sig efter dem - även myndigheter. Min fråga
               är till justitieminister Thomas
             </seg>
-            <seg n="f934db2c">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-73" prev="i-dcf0e75efda09e70-72" who="Q4964936">
+            <seg>
               Bodström och gäller hur vi ska upprätthålla förtroendet för rättsväsendet
               hos medborgarna.
             </seg>
-            <seg n="c60ad8c2">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-74" prev="i-dcf0e75efda09e70-72" who="Q4964936">
+            <seg>
               Det gäller användningen av de straffskalor som vi fastställt
               här i riksdagen. För grov misshandel är straffskalan ett till
               tio år. Problemet är att domstolarna inte använder den straffskalan.
@@ -636,21 +761,23 @@
               åt detta?
             </seg>
           </u>
-          <note n="b2704ed4">
+          <note>
             Anf. 10 Justitieminister THOMAS BOD-
           </note>
-          <note type="speaker" n="f31696ef">
+          <note type="speaker">
             STRÖM (s):
           </note>
-          <u who="unknown" xml:id="i-9381cedb8148eddb-0" n="dc7ab526">
-            <seg n="e73b7dd9">
+          <u xml:id="i-dcf0e75efda09e70-75" who="unknown">
+            <seg>
               Fru talman! Det är alldeles riktigt, och vi är helt överens om
               den saken, att det är riksdagen som stiftar lagar. Jag tror också
               att vi är överens om att det är domstolar som sätter praxis och
               prejudikat. Om det blir prejudikat som inte är lämpliga kan naturligtvis
               riksdagen gripa in och lagstifta.
             </seg>
-            <seg n="6f30a231">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-76" who="unknown">
+            <seg>
               När det gäller intervaller, till exempel ett till tio år vid
               grov misshandel, kan man naturligtvis sänka från tio år eller
               höja från ett år. Men det finns också en annan metod, och det
@@ -659,7 +786,9 @@
               eller när det gäller några som är särskilt utsatta. Då har man
               närmast tänkt på barn.
             </seg>
-            <seg n="5e48f8f3">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-77" who="unknown">
+            <seg>
               Nu är detta en aktuell fråga, och vi ska inte gå in på den diskussionen.
               Men det kan ändå vara värt att veta att en fråga som har utretts
               i en parlamentarisk utredning och som just nu behandlas är om
@@ -667,14 +796,16 @@
               när det är fråga om misshandel av barn.
             </seg>
           </u>
-          <note type="speaker" n="21acce55">
+          <note type="speaker">
             Anf. 11 CECILIA MAGNUSSON (m):
           </note>
-          <u who="Q4964936" xml:id="i-5e0c58b55decc79a-1" n="4a812f6c">
-            <seg n="5e288a50">
+          <u xml:id="i-dcf0e75efda09e70-78" next="i-dcf0e75efda09e70-80" who="Q4964936">
+            <seg>
               Fru talman! Det är en synnerligen aktuell fråga;
             </seg>
-            <seg n="3442b7ab">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-79" prev="i-dcf0e75efda09e70-78" who="Q4964936">
+            <seg>
               det håller jag med om. Men det vi diskuterar nu är ju inte en
               engångsföreteelse, utan detta är någonting som pågår ständigt.
               År 2000 fälldes 636 personer för grov misshandel, men inte en
@@ -685,19 +816,21 @@
               om förslag så att vi faktiskt kan minska denna skillnad mellan
               lagstiftning och det man utdömer.
             </seg>
-            <seg n="c4f782f3">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-80" prev="i-dcf0e75efda09e70-78" who="Q4964936">
+            <seg>
               Jag skulle gärna vilja att justitieministern kunde ge mig och
               landets medborgare ett besked på den här punkten.
             </seg>
           </u>
-          <note n="45021ccc">
+          <note>
             Anf. 12 Justitieminister THOMAS BOD-
           </note>
-          <note type="speaker" n="f31696ef">
+          <note type="speaker">
             STRÖM (s):
           </note>
-          <u who="unknown" xml:id="i-9381cedb8148eddb-1" n="dc7ab526">
-            <seg n="00e7f3a4">
+          <u xml:id="i-dcf0e75efda09e70-81" who="unknown">
+            <seg>
               Fru talman! Detta utvecklas alltså genom praxis och prejudikat,
               vilket skett bland annat när det gäller grov misshandel av barn.
               Det skärptes 2000. Nu är detta synnerligen aktuellt, och det är
@@ -709,33 +842,39 @@
               en rad andra omständigheter som man kan införa för att höja praxis
               på det område där riksdagen vill att man ska höja praxisen.
             </seg>
-            <seg n="842c80af">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-82" who="unknown">
+            <seg>
               Sedan kan man naturligtvis sänka gränsen eller höja från ett
               till tio. Jag tycker inte att det är så lämpligt att sänka något
               straff nu, och egentligen inte heller att höja. Jag anser att
               det är viktigt att vi ger domstolen stor frihet att utöva praxis.
               Det är också det som är grundvalen för vårt rättssamhälle.
             </seg>
-            <seg n="a8a0a54a">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-83" who="unknown">
+            <seg>
               Men vi måste hela tiden arbeta med att se över olika delar av
               lagstiftningen så att man kan ha en skärpning på de områden där
               man så vill, och det är just det som vi arbetar med nu.
             </seg>
-            <seg n="18cb3795">
-              Sprutbytesprogrammet
-            </seg>
           </u>
-          <note type="speaker" n="7c46fa32">
+          <note>
+            Sprutbytesprogrammet
+          </note>
+          <note type="speaker">
             Anf. 13 ULF NILSSON (fp):
           </note>
-          <u who="Q6012166" xml:id="i-140db3815d5c84d0-0" n="95352cc5" next="i-b664208c7a62fb48-0">
-            <seg n="75c260b7">
+          <u xml:id="i-dcf0e75efda09e70-84" next="i-dcf0e75efda09e70-94" who="Q6012166">
+            <seg>
               Fru talman! Jag tänkte ställa en fråga till statsrådet
             </seg>
-            <seg n="1b7ceed8">
-              Morgan Johansson.
-            </seg>
-            <seg n="23b0c36f">
+          </u>
+          <note>
+            Morgan Johansson.
+          </note>
+          <u xml:id="i-dcf0e75efda09e70-85" prev="i-dcf0e75efda09e70-84" who="Q6012166">
+            <seg>
               I Malmö och Lund förekommer det en försöksverksamhet med utbyte
               av sprutor. Narkomaner får lämna in använda sprutor och växla
               till sig nya under strikta former. Huvudsyftet med verksamheten
@@ -743,10 +882,14 @@
               det har varit väldigt framgångsrikt. Verksamheten har dock också
               haft många sociala förtjänster.
             </seg>
-            <seg n="8cf31274">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-86" prev="i-dcf0e75efda09e70-84" who="Q6012166">
+            <seg>
               Bland annat har många lockats till frivillig avgiftning.
             </seg>
-            <seg n="94a184c6">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-87" prev="i-dcf0e75efda09e70-84" who="Q6012166">
+            <seg>
               Detta projekt har varit nedläggningshotat i många år. Det lever
               under mycket stor osäkerhet. Eftersom statsrådet är ansvarig för
               hälsa och narkotika skulle jag helt enkelt vilja höra hur han
@@ -754,56 +897,72 @@
               andra platser i landet.
             </seg>
           </u>
-          <note n="22e7dd87">
+          <note>
             Anf. 14 Statsrådet MORGAN JOHANS-
           </note>
-          <note n="3cdadb31">
-            SON (s):
-          </note>
-          <u who="Q6012166" xml:id="i-b664208c7a62fb48-0" n="95352cc5" prev="i-140db3815d5c84d0-0">
-            <seg n="9b7dc98e">
+          <u xml:id="i-dcf0e75efda09e70-88" prev="i-dcf0e75efda09e70-84" who="Q6012166">
+            <seg>
+              SON (s):
+            </seg>
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-89" prev="i-dcf0e75efda09e70-84" who="Q6012166">
+            <seg>
               Fru talman! Det är riktigt att jag har ansvar för narkotikapolitiken
               i regeringen från och med regeringsombildningen.
             </seg>
-            <seg n="0aa6a0d2">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-90" prev="i-dcf0e75efda09e70-84" who="Q6012166">
+            <seg>
               Stödet för den restriktiva narkotikapolitiken i Sverige är mycket
               sort. Det finns egentligen ingen legaliseringsdiskussion i Sverige,
               i motsats till en rad andra länder i Europa. En av våra stora
               utmaningar framöver är också att vinna stöd för vår restriktiva
               narkotikapolitik i det europeiska och nordiska perspektivet.
             </seg>
-            <seg n="52a58261">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-91" prev="i-dcf0e75efda09e70-84" who="Q6012166">
+            <seg>
               Man ska emellertid vara klar över att när vi säger att vi tar
               avstånd från narkotika så tar vi inte avstånd från narkomanerna.
               Det innebär bland annat att vår narkotikapolitik måste stå på
               tre ben: förebyggande arbete, bekämpning av brotten och missbrukarvård.
             </seg>
-            <seg n="6c24569c">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-92" prev="i-dcf0e75efda09e70-84" who="Q6012166">
+            <seg>
               Därför kommer regeringen att lyfta fram missbrukarvården generellt
               sett under den här mandatperioden.
             </seg>
-            <seg n="43c48886">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-93" prev="i-dcf0e75efda09e70-84" who="Q6012166">
+            <seg>
               När det gäller sprutbytesprogrammet i Malmö och
             </seg>
-            <seg n="e9fce54f">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-94" prev="i-dcf0e75efda09e70-84" who="Q6012166">
+            <seg>
               Lund görs nu en utvärdering av narkotikasamordnaren Björn Fries.
               Han lämnar rapport till mig i februari nästa år, och då tar jag
               ställning till framtiden för detta projekt.
             </seg>
           </u>
-          <note type="speaker" n="acf11943">
+          <note type="speaker">
             Anf. 15 ULF NILSSON (fp):
           </note>
-          <u who="Q6012166" xml:id="i-140db3815d5c84d0-1" n="95352cc5" next="i-b664208c7a62fb48-1">
-            <seg n="93d4a98c">
+          <u xml:id="i-dcf0e75efda09e70-95" next="i-dcf0e75efda09e70-103" who="Q6012166">
+            <seg>
               Fru talman! Jag noterar med glädje att Morgan
             </seg>
-            <seg n="c7273057">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-96" prev="i-dcf0e75efda09e70-95" who="Q6012166">
+            <seg>
               Johansson har samma inställning som jag har, nämligen att allt
               tal om att legalisera narkotika är oss främmande. Jag noterar
               också med glädje att Morgan
             </seg>
-            <seg n="8a66f713">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-97" prev="i-dcf0e75efda09e70-95" who="Q6012166">
+            <seg>
               Johansson har talat om att börja diskutera Christiania och den
               öppna försäljning som sker där. Den sprutbytesverksamhet som sker
               i Lund har dock ingenting med detta att göra, utan där är det
@@ -811,7 +970,9 @@
               är fast i ett missbruk, och detta hindrar att olyckan blir värre
               på grund av man sprider smutsiga sprutor.
             </seg>
-            <seg n="f834e87f">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-98" prev="i-dcf0e75efda09e70-95" who="Q6012166">
+            <seg>
               Jag tror att det är dags för regeringen att sätta ned foten nu.
               Det här har diskuterats så sent som i våras, och då visste vi
               inte om verksamheten skulle läggas ned eller inte. Om ett projekt
@@ -820,21 +981,25 @@
               verksamhet.
             </seg>
           </u>
-          <note n="a1de5b21">
+          <note>
             Anf. 16 Statsrådet MORGAN JOHANS-
           </note>
-          <note n="3cdadb31">
-            SON (s):
-          </note>
-          <u who="Q6012166" xml:id="i-b664208c7a62fb48-1" n="95352cc5" prev="i-140db3815d5c84d0-1">
-            <seg n="c9a34951">
+          <u xml:id="i-dcf0e75efda09e70-99" prev="i-dcf0e75efda09e70-95" who="Q6012166">
+            <seg>
+              SON (s):
+            </seg>
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-100" prev="i-dcf0e75efda09e70-95" who="Q6012166">
+            <seg>
               Fru talman! Det är riktigt att det är dags att sätta ned foten
               i den här frågan. Jag måste dock invänta det underlag jag ska
               få från narkotikasamordnaren innan jag gör det. Detta kommer som
               sagt att bli en fråga för mig och regeringen att diskutera under
               våren.
             </seg>
-            <seg n="3f29c784">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-101" prev="i-dcf0e75efda09e70-95" who="Q6012166">
+            <seg>
               Ulf Nilsson var inne på frågan om Christiania. Jag träffade i
               måndags mina norska, danska och övriga nordiska kolleger på ministerrådsmötet
               i Oslo och passade då på att framföra ett tack från Sverige för
@@ -843,24 +1008,30 @@
               tidigare, man stänger de haschklubbar som ju har funnits i Köpenhamn
               under några år och man drar langare och andra inför rätta.
             </seg>
-            <seg n="c32025a7">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-102" prev="i-dcf0e75efda09e70-95" who="Q6012166">
+            <seg>
               Jag tycker att det är en bra signal, framför allt för mig som
               känner situationen i södra Sverige så pass väl som jag gör, eftersom
               jag är därifrån.
             </seg>
-            <seg n="5dcf6fea">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-103" prev="i-dcf0e75efda09e70-95" who="Q6012166">
+            <seg>
               Saabvarslet
             </seg>
           </u>
-          <note type="speaker" n="b331ea06">
+          <note type="speaker">
             Anf. 17 ROSSANA DINAMARCA (v):
           </note>
-          <u who="Q4944866" xml:id="i-0a286caf8d2991a1-0" n="2cd8e4d6">
-            <seg n="984f12d1">
+          <u xml:id="i-dcf0e75efda09e70-104" next="i-dcf0e75efda09e70-110" who="Q4944866">
+            <seg>
               Fru talman! Jag vill ställa min fråga till näringsminister Leif
               Pagrotsky.
             </seg>
-            <seg n="0225f890">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-105" prev="i-dcf0e75efda09e70-104" who="Q4944866">
+            <seg>
               I fredags meddelades de Saabanställda i Trollhättan att ledningen
               kommer att behöva vidta kraftfulla och strukturella åtgärder.
               Saabledningen menar att det utan tvekan kommer att innebära ett
@@ -870,21 +1041,25 @@
               Lear Corporation meddelade i tisdags att hundra anställda kommer
               att varslas om uppsägning.
             </seg>
-            <seg n="2b3f0c69">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-106" prev="i-dcf0e75efda09e70-104" who="Q4944866">
+            <seg>
               Saabs framtid är beroende av kortsiktiga men också långsiktiga
               åtgärder som regeringen måste beakta och ta ställning till. I
               första hand vill jag veta hur regeringen kommer att hantera det
               här varslet.
             </seg>
           </u>
-          <note n="45886940">
+          <note>
             Anf. 18 Näringsminister LEIF PAGROT-
           </note>
-          <note type="speaker" n="75c3d104">
-            SKY (s):
-          </note>
-          <u who="unknown" xml:id="i-9381cedb8148eddb-2" n="dc7ab526">
-            <seg n="2d13e6c2">
+          <u xml:id="i-dcf0e75efda09e70-107" prev="i-dcf0e75efda09e70-104" who="Q4944866">
+            <seg>
+              SKY (s):
+            </seg>
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-108" prev="i-dcf0e75efda09e70-104" who="Q4944866">
+            <seg>
               Fru talman! Saab är en bilfabrik som just nu har stora lönsamhetsproblem,
               men detta är samtidigt kombinerat med en situation där man har
               ett utomordentligt kraftfullt utvecklingsprogram bakom sig, som
@@ -892,13 +1067,17 @@
               som man alltså har svåra lönsamhetsproblem så har man optimism
               och framtidstro.
             </seg>
-            <seg n="74881d0a">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-109" prev="i-dcf0e75efda09e70-104" who="Q4944866">
+            <seg>
               Företaget måste agera kraftfullt för att komma till rätta med
               lönsamhetsproblemen och kunna ta vara på de möjligheter som ett
               nytt toppmodernt modellprogram erbjuder. Det är en ovanlig kombination
               av omständigheter som företaget här möter.
             </seg>
-            <seg n="47443f54">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-110" prev="i-dcf0e75efda09e70-104" who="Q4944866">
+            <seg>
               Samhället måste ha hög beredskap för att möta detta. Vi har numera
               en arbetsmetod som innebär att vi har decentraliserat beslutsfattandet
               för att ha ett snabbare fotarbete och högre beredskap på lokal
@@ -907,16 +1086,18 @@
               att vi alla har tid att förbereda kraftfulla åtgärder.
             </seg>
           </u>
-          <note type="speaker" n="c744a8fb">
+          <note type="speaker">
             Anf. 19 ROSSANA DINAMARCA (v):
           </note>
-          <u who="Q4944866" xml:id="i-ce3df2c17511bc60-0" n="2cd8e4d6">
-            <seg n="0fd2f34f">
+          <u xml:id="i-dcf0e75efda09e70-111" next="i-dcf0e75efda09e70-119" who="Q4944866">
+            <seg>
               Fru talman! Jag tackar för svaret. Tiden är knapp här, så jag
               kommer säkert att ha anledning att fortsätta diskutera frågan
               med näringsministern.
             </seg>
-            <seg n="998eaeb4">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-112" prev="i-dcf0e75efda09e70-111" who="Q4944866">
+            <seg>
               Jag vill lyfta fram den långsiktiga aspekten på den här frågan,
               nämligen den som handlar om förutsättningarna för att ha kvar
               Saab. Då behövs inte bara bättre försäljning utan också en teknisk
@@ -926,85 +1107,105 @@
               på välutbildad personal. Där finns bland annat en väldigt tydlig
               koppling till Göteborg och Chalmers.
             </seg>
-            <seg n="00f6334e">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-113" prev="i-dcf0e75efda09e70-111" who="Q4944866">
+            <seg>
               Därför, men också ur transportsynpunkt, är det viktigt att vi
               får ett besked om att riksväg 45 och järnvägen byggs ut. Utan
               ett sådant besked är jag rädd att konsekvensen blir att arbetsmarknaden
               helt kommer att flyttas ifrån Trollhättan, och det kommer att
               påverka flera underleverantörer.
             </seg>
-            <seg n="c88595f5">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-114" prev="i-dcf0e75efda09e70-111" who="Q4944866">
+            <seg>
               Jag skulle vilja ta upp en sista sak. Det är säkert hundratusen
               människor som är beroende av bilfabriken, och det handlar inte
               bara om en lokal eller regional fråga.
             </seg>
-            <seg n="bf5858f8">
-              Anf. 20 Näringsminister LEIF PAGROT-
+          </u>
+          <note>
+            Anf. 20 Näringsminister LEIF PAGROT-
+          </note>
+          <u xml:id="i-dcf0e75efda09e70-115" prev="i-dcf0e75efda09e70-111" who="Q4944866">
+            <seg>
+              SKY (s):
             </seg>
           </u>
-          <note type="speaker" n="75c3d104">
-            SKY (s):
-          </note>
-          <u who="unknown" xml:id="i-9381cedb8148eddb-3" n="dc7ab526">
-            <seg n="22046d71">
+          <u xml:id="i-dcf0e75efda09e70-116" prev="i-dcf0e75efda09e70-111" who="Q4944866">
+            <seg>
               Fru talman! Det är självklart att den här situationen kräver
               kortsiktiga, omedelbara åtgärder riktade mot den akuta situationen.
               Där ska regin i första hand ligga lokalt och innebära mobilisering
               av de resurser som finns hos länsarbetsnämnd och arbetsförmedling,
               på utbildningsområdet och på många andra områden.
             </seg>
-            <seg n="3e6025db">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-117" prev="i-dcf0e75efda09e70-111" who="Q4944866">
+            <seg>
               Men det handlar också om att stärka bilindustrin och att stärka
               näringsklimatet i Trollhätteregionen generellt. Det handlar om
               utbildning. Det är en helt central fråga för mig att stärka förmågan
               att rekrytera kvalificerad arbetskraft till olika branscher, också
               sådan arbetskraft som bilindustrin kommer att behöva på lång sikt.
             </seg>
-            <seg n="212e179a">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-118" prev="i-dcf0e75efda09e70-111" who="Q4944866">
+            <seg>
               Kommunikationerna behöver också bli bättre -
             </seg>
-            <seg n="0761df54">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-119" prev="i-dcf0e75efda09e70-111" who="Q4944866">
+            <seg>
               därom är jag helt övertygad. Det här året är nästan slut, så
               jag hoppas att dimmorna kan skingras och beslut kan fattas om
               både väg och tåg i den här regionen under loppet av nästa år.
             </seg>
-            <seg n="fbc78675">
-              Statligt ägande
-            </seg>
           </u>
-          <note type="speaker" n="a187fef8">
+          <note>
+            Statligt ägande
+          </note>
+          <note type="speaker">
             Anf. 21 CLAES VÄSTERTEG (c):
           </note>
-          <u who="Q5125017" xml:id="i-68ad0cfcc96c4ee2-0" n="059fc56c">
-            <seg n="30ea73f9">
+          <u xml:id="i-dcf0e75efda09e70-120" next="i-dcf0e75efda09e70-127" who="Q5125017">
+            <seg>
               Fru talman! Även jag har en fråga till näringsminister Leif Pagrotsky.
             </seg>
-            <seg n="036cf8ea">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-121" prev="i-dcf0e75efda09e70-120" who="Q5125017">
+            <seg>
               Enligt en TT-intervju under gårdagen är inte näringsministern
               främmande för att öka det statliga ägandet i näringslivet. Det
               här är en syn som varken jag eller Centerpartiet delar, men nu
               är en minut en något för kort tid att utveckla en ideologisk diskussion
               kring detta.
             </seg>
-            <seg n="fe9948c8">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-122" prev="i-dcf0e75efda09e70-120" who="Q5125017">
+            <seg>
               Som både skattebetalare och riksdagsledamot skulle jag tycka
               att det kunde vara intressant om näringsministern kunde utveckla
               tankegångarna en smula.
             </seg>
-            <seg n="ff927976">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-123" prev="i-dcf0e75efda09e70-120" who="Q5125017">
+            <seg>
               Därför är min fråga: Vilka statliga företag är det som näringsministern
               kan tänka sig ska ge sig ut och öka sitt ägande, och i vilka sektorer
               kan näringsministern tänka sig att öka det statliga ägandet?
             </seg>
           </u>
-          <note n="6ccbac27">
+          <note>
             Anf. 22 Näringsminister LEIF PAGROT-
           </note>
-          <note type="speaker" n="75c3d104">
-            SKY (s):
-          </note>
-          <u who="unknown" xml:id="i-9381cedb8148eddb-4" n="dc7ab526">
-            <seg n="1b36e967">
+          <u xml:id="i-dcf0e75efda09e70-124" prev="i-dcf0e75efda09e70-120" who="Q5125017">
+            <seg>
+              SKY (s):
+            </seg>
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-125" prev="i-dcf0e75efda09e70-120" who="Q5125017">
+            <seg>
               Fru talman! Jag tycker att den här frågan har fel infallsvinkel.
               Det centrala för mig är inte ägarmatematiken. Det centrala för
               mig är att de företag som vi har ansvar för att äga kan utvecklas
@@ -1014,7 +1215,9 @@
               att det statliga ägandet minskar, om det är till fördel för företaget
               och för verksamheten. Ibland kan det också innebära motsatsen.
             </seg>
-            <seg n="352b9511">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-126" prev="i-dcf0e75efda09e70-120" who="Q5125017">
+            <seg>
               Jag kan berätta att just nu till exempel håller det av staten
               dominerade företaget Telia på att köpa ett finskt företag som
               heter Sonera. Det är ett exempel på att ett företag kan få växa
@@ -1026,23 +1229,27 @@
               i en stabil och onervös miljö - i alla fall är det så just nu
               - och det är en fördel som jag tycker att vi ska ta vara på.
             </seg>
-            <seg n="3db7ef78">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-127" prev="i-dcf0e75efda09e70-120" who="Q5125017">
+            <seg>
               Jag har ingen huvudambition att expandera den statliga företagsgruppen,
               men jag kommer inte att säga till de styrelser och verkställande
               ledningar som har offensiva planer att det är förbjudet bara för
               att de är statliga.
             </seg>
           </u>
-          <note type="speaker" n="5c8aa8a3">
+          <note type="speaker">
             Anf. 23 CLAES VÄSTERTEG (c):
           </note>
-          <u who="Q5125017" xml:id="i-68ad0cfcc96c4ee2-1" n="059fc56c">
-            <seg n="f587e034">
+          <u xml:id="i-dcf0e75efda09e70-128" next="i-dcf0e75efda09e70-136" who="Q5125017">
+            <seg>
               Fru talman! Jag tycker att det är positivt att näringsministern
               inte har som en huvudambition att öka det statliga ägandet. Jag
               skulle också gärna se lite mer tydlighet i den här frågan.
             </seg>
-            <seg n="d1b6858a">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-129" prev="i-dcf0e75efda09e70-128" who="Q5125017">
+            <seg>
               För mig är det oerhört viktigt - och det tycker näringsministern
               också - att vi har ett gott företagarklimat, och jag vill att
               detta företagarklimat ska fortsätta förbättras. Därför har vi
@@ -1051,7 +1258,9 @@
               verkar som om regeringen är på väg i en annan riktning, där man
               mer vill centralisera ägandet av det svenska näringslivet.
             </seg>
-            <seg n="56f25bb4">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-130" prev="i-dcf0e75efda09e70-128" who="Q5125017">
+            <seg>
               I tidigare nämnda TT-intervju hänvisade näringsministern också
               till att utbildning och forskning är viktigt för tillväxten, och
               där är jag och näringsministern helt överens. Vore det inte därför
@@ -1061,14 +1270,16 @@
               och som de så länge väntat på?
             </seg>
           </u>
-          <note n="39f2c66c">
+          <note>
             Anf. 24 Näringsminister LEIF PAGROT-
           </note>
-          <note type="speaker" n="75c3d104">
-            SKY (s):
-          </note>
-          <u who="unknown" xml:id="i-9381cedb8148eddb-5" n="dc7ab526">
-            <seg n="773cd7a2">
+          <u xml:id="i-dcf0e75efda09e70-131" prev="i-dcf0e75efda09e70-128" who="Q5125017">
+            <seg>
+              SKY (s):
+            </seg>
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-132" prev="i-dcf0e75efda09e70-128" who="Q5125017">
+            <seg>
               Fru talman! Jag är glad att Centern och Socialdemokraterna är
               överens om betydelsen av att satsa på forskning och högre utbildning.
               Vi har gemensamt byggt ut högre utbildning runtom i landet i hård
@@ -1076,18 +1287,24 @@
               att Centern har heder och ära av, och jag hoppas att den alliansen
               består.
             </seg>
-            <seg n="816aa2c4">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-133" prev="i-dcf0e75efda09e70-128" who="Q5125017">
+            <seg>
               Men beträffande den nu aktuella frågan förvånar det mig att vi
               är oeniga i frågan om att Telia får lov att köpa Sonera, och att
               jag borde lyfta på luren och ringa Telias styrelseordförande och
               säga att de pengarna i stället ska satsas på vård, skola och omsorg.
             </seg>
-            <seg n="8e1eeb74">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-134" prev="i-dcf0e75efda09e70-128" who="Q5125017">
+            <seg>
               Det var faktiskt en nyhet för mig, och jag hoppas att det var
               en tillfällig felsägning. Det speglar i alla fall inte en samsyn
               mellan Centern och regeringen på hur statliga företag ska skötas.
             </seg>
-            <seg n="564a573a">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-135" prev="i-dcf0e75efda09e70-128" who="Q5125017">
+            <seg>
               Statliga företag ska utvecklas. Deras särart och deras fördelar
               ska få komma till uttryck också om de till äventyrs skulle så
               att säga råka expandera och ta marknadsandelar. De ska ges chansen
@@ -1095,46 +1312,56 @@
               det ska företagsledningarna veta. Det ska inte vara ett handikapp
               att vara statligt ägd.
             </seg>
-            <seg n="ee89c860">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-136" prev="i-dcf0e75efda09e70-128" who="Q5125017">
+            <seg>
               Beskattningen av jordbruket
             </seg>
           </u>
-          <note type="speaker" n="06d1256d">
+          <note type="speaker">
             Anf. 25 KENNETH LANTZ (kd):
           </note>
-          <u who="Q5935536" xml:id="i-14e3a37f930c1930-0" n="ce8441a5">
-            <seg n="90731ce4">
+          <u xml:id="i-dcf0e75efda09e70-137" next="i-dcf0e75efda09e70-141" who="Q5935536">
+            <seg>
               Fru talman! Jag vill ställa en fråga till den nytillträdda jordbruksministern
               Ann-Christin Nykvist.
             </seg>
-            <seg n="f4aaad3d">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-138" prev="i-dcf0e75efda09e70-137" who="Q5935536">
+            <seg>
               Anser jordbruksministern att det är rimligt att svenska jordbrukare
               ska beskattas hårdare än kolleger på den europeiska kontinenten?
               Det jag framför allt tänker på är beskattningen av diesel, som
               är högre i Sverige än på kontinenten.
             </seg>
-            <seg n="c414f7a6">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-139" prev="i-dcf0e75efda09e70-137" who="Q5935536">
+            <seg>
               Från mitt västskånska hemmaperspektiv kan jag tydligt notera
               att kött- och mjölkproduktionen i Danmark ständigt ökar, medan
               den går en kräftgång i
             </seg>
-            <seg n="5af88383">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-140" prev="i-dcf0e75efda09e70-137" who="Q5935536">
+            <seg>
               Sverige.
             </seg>
-            <seg n="a11292ce">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-141" prev="i-dcf0e75efda09e70-137" who="Q5935536">
+            <seg>
               Vad kommer ministern att göra för att förbättra läget för de
               svenska jordbrukarna, så att de får samma villkor som jordbrukare
               i övriga Europa?
             </seg>
           </u>
-          <note n="e9381b91">
+          <note>
             Anf. 26 Jordbruksminister ANN-CHRISTIN
           </note>
-          <note type="speaker" n="80c55490">
+          <note type="speaker">
             NYKVIST (s):
           </note>
-          <u who="unknown" xml:id="i-9381cedb8148eddb-6" n="dc7ab526">
-            <seg n="5708c47b">
+          <u xml:id="i-dcf0e75efda09e70-142" who="unknown">
+            <seg>
               Fru talman! Det är viktigt att vi skapar en jordbrukspolitik
               som både är bra från konsumentsynpunkt och ger jordbruket konkurrenskraft.
               Man har under en tid pratat om jordbrukets ryggsäck, och regeringen
@@ -1142,16 +1369,22 @@
               den så kallade gödselmedelsskatten återförs till jordbruket. Där
               finns en överenskommelse mellan
             </seg>
-            <seg n="4fa2728c">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-143" who="unknown">
+            <seg>
               LRF och regeringen.
             </seg>
-            <seg n="4b371581">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-144" who="unknown">
+            <seg>
               Dieselskatten har varit föremål för utredning, och det finns
               ett utredningsförslag som bereds inom Regeringskansliet. De här
               är inga enkla frågor, och det finns ett antal olika infallsvinklar
               på just det förslaget.
             </seg>
-            <seg n="efeb0e52">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-145" who="unknown">
+            <seg>
               Givetvis är det angeläget att vi arbetar med goda förutsättningar
               för jordbruket. Jag menar att förändringar som är aktuella inom
               ramen för den europeiska jordbrukspolitiken givetvis också syftar
@@ -1159,18 +1392,20 @@
               blir ändrade.
             </seg>
           </u>
-          <note type="speaker" n="38b3f9da">
+          <note type="speaker">
             Anf. 27 KENNETH LANTZ (kd):
           </note>
-          <u who="Q5935536" xml:id="i-14e3a37f930c1930-1" n="ce8441a5">
-            <seg n="591efd6d">
+          <u xml:id="i-dcf0e75efda09e70-146" next="i-dcf0e75efda09e70-147" who="Q5935536">
+            <seg>
               Fru talman! Det är tankar i rätt riktning. Vi bör dock vara medvetna
               om att transporterandet av varor tvärsöver Europa ständigt också
               ökar. Dieselskatten drabbar även åkerinäringen negativt. Nu ska
               jag inte ta upp den frågan här, även om jag flera gånger har agerat
               till förmån för lägre skatt över huvud taget för åkerierna.
             </seg>
-            <seg n="8e7477be">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-147" prev="i-dcf0e75efda09e70-146" who="Q5935536">
+            <seg>
               Upplever inte jordbruksministern det som oroväckande att konkurrerande
               grannländer har en ständigt växande jordbruksproduktion, medan
               vi i stället drabbas av en kräftgång? Ska man inte försöka ekvilibrera
@@ -1179,87 +1414,107 @@
               gäller dieselskatten?
             </seg>
           </u>
-          <note n="8000cc86">
+          <note>
             Anf. 28 Jordbruksminister ANN-CHRISTIN
           </note>
-          <note type="speaker" n="80c55490">
+          <note type="speaker">
             NYKVIST (s):
           </note>
-          <u who="unknown" xml:id="i-066ce83e1ac62dd1-0" n="dc7ab526">
-            <seg n="b81e8871">
+          <u xml:id="i-dcf0e75efda09e70-148" who="unknown">
+            <seg>
               Fru talman! Jag vill inte ställa upp på beskrivningen att det
               är en kräftgång för svenskt jordbruk på alla plan. Det finns jordbruksföretag
               som har väldigt goda förutsättningar och också visar god lönsamhet.
             </seg>
-            <seg n="18715e35">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-149" who="unknown">
+            <seg>
               Det finns företag som har svårigheter, och där kan man diskutera
               åtgärder för att förbättra förutsättningarna.
             </seg>
-            <seg n="6caf79b2">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-150" who="unknown">
+            <seg>
               De åtgärder som vidtas för att lätta på den ryggsäck som jag
               tidigare nämnde - att återföra gödselmedelsskatten, att bereda
               frågan om dieselbeskattningen - är just åtgärder som ska bidra
               till att ge likvärdiga förutsättningar.
             </seg>
-            <seg n="c292bf46">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-151" who="unknown">
+            <seg>
               Vi har också konkurrensfördelar hos det svenska jordbruket genom
               att vi har ett jordbruk som är miljömedvetet och satsar på ekologisk
               produktion. Det är ett jordbruk där vi har höga krav på djurskydd
               och djurhållning. Jag menar att det ger goda konkurrensförutsättningar.
             </seg>
-            <seg n="6ba4d843">
-              Förbud mot import av katt- och hundskinn
-            </seg>
           </u>
-          <note n="6ad94ad9">
+          <note>
+            Förbud mot import av katt- och hundskinn
+          </note>
+          <note>
             Anf. 29 JAN EMANUEL JOHANS-
           </note>
-          <note n="3cdadb31">
-            SON (s):
-          </note>
-          <u who="unknown" xml:id="i-ed257922649dd9a5-0" n="dc7ab526">
-            <seg n="e2f5bf0d">
+          <u xml:id="i-dcf0e75efda09e70-152" who="unknown">
+            <seg>
+              SON (s):
+            </seg>
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-153" who="unknown">
+            <seg>
               Fru talman! Jag har en fråga till jordbruksminister
             </seg>
-            <seg n="8aebf848">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-154" who="unknown">
+            <seg>
               Ann-Christin Nykvist. Det gäller den dokumentärfilm som gick
               på TV för en tid sedan om hur man i Asien gjorde päls av katter
               och hundar. Det var bland det vidrigaste jag någonsin har sett
               på TV. Man fick se hur djuren utsätts för ett lidande som knappt
               går att i ord ge uttryck för.
             </seg>
-            <seg n="c366373f">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-155" who="unknown">
+            <seg>
               Danmark och USA har importförbud mot kattoch hundskinn. Det är
               ganska sällsynt att jag förordar
             </seg>
-            <seg n="e2b7149e">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-156" who="unknown">
+            <seg>
               USA som ett föregångsland, men i det här fallet gör jag det.
               Jag anser att vi borde följa Danmark och
             </seg>
-            <seg n="16c56d28">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-157" who="unknown">
+            <seg>
               USA och se till att få till stånd ett importförbud mot dessa
               produkter. Vi borde också jobba inom EU för att få ett importförbud
               i alla EU-länder.
             </seg>
-            <seg n="d8213f1d">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-158" who="unknown">
+            <seg>
               Min fråga till jordbruksministern är: Vad avser regeringen göra
               för att komma till rätta med denna upprörande hantering?
             </seg>
           </u>
-          <note n="0f52d046">
+          <note>
             Anf. 30 Jordbruksminister ANN-CHRISTIN
           </note>
-          <note type="speaker" n="80c55490">
+          <note type="speaker">
             NYKVIST (s):
           </note>
-          <u who="unknown" xml:id="i-066ce83e1ac62dd1-1" n="dc7ab526">
-            <seg n="56f6e2eb">
+          <u xml:id="i-dcf0e75efda09e70-159" who="unknown">
+            <seg>
               Fru talman! Jag håller med om att det är en upprörande och omoralisk
               hantering av sällskapsdjuren, av hundar och katter. Djurorganisationer
               har också reagerat. Tidningen Aftonbladet hade ett upprop, och
               närmare 200 000 läsare krävde ett importförbud.
             </seg>
-            <seg n="57b29b0b">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-160" who="unknown">
+            <seg>
               Jag avser att inom EU ta initiativ till ett importförbud. Jag
               har skrivit till den ansvarige kommissionären och anmält att jag
               kommer att ta upp frågan om ett importförbud vid nästa jordbruksministermöte
@@ -1267,96 +1522,114 @@
               beredd att pröva om vi kan införa nationellt förbud mot import
               och försäljning av den typen av produkter.
             </seg>
-            <seg n="a6a679d1">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-161" who="unknown">
+            <seg>
               Det är i dag mode att ha skinndetaljer, och det är mycket svårt
               för konsumenterna att avgöra vilken typ av skinn som använts.
               Det sägs att det finns en tämligen stor import till Sverige, och
               jag tycker därför att detta är en angelägen fråga.
             </seg>
           </u>
-          <note n="4b51e2c6">
+          <note>
             Anf. 31 JAN EMANUEL JOHANS-
           </note>
-          <note n="3cdadb31">
-            SON (s):
-          </note>
-          <u who="unknown" xml:id="i-ed257922649dd9a5-1" n="dc7ab526">
-            <seg n="1702972e">
+          <u xml:id="i-dcf0e75efda09e70-162" who="unknown">
+            <seg>
+              SON (s):
+            </seg>
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-163" who="unknown">
+            <seg>
               Fru talman! Det är oerhört glädjande att den socialdemokratiska
               regeringen kommer att gå i täten för att få till stånd ett importförbud,
               och att även jobba för detta inom EU.
             </seg>
-            <seg n="50475b99">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-164" who="unknown">
+            <seg>
               Vi bör också tänka på, när vi ser det lidande som dessa hundar
               och katter får genomgå för att bli päls, att det inte gör mindre
               ont på en mink, en gris eller vad det nu kan vara för djur.
             </seg>
           </u>
-          <note n="69bb6702">
+          <note>
             Anf. 32 Jordbruksminister ANN-CHRISTIN
           </note>
-          <note type="speaker" n="80c55490">
+          <note type="speaker">
             NYKVIST (s):
           </note>
-          <u who="unknown" xml:id="i-9381cedb8148eddb-7" n="dc7ab526">
-            <seg n="e7cd1554">
+          <u xml:id="i-dcf0e75efda09e70-165" who="unknown">
+            <seg>
               Fru talman! Jag anser att det är viktigt att vi har ett gott
               djurskydd och en god djurhållning även när det gäller andra djur.
             </seg>
-            <seg n="a74378ef">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-166" who="unknown">
+            <seg>
               Frågan om hund- och kattskinn är mycket angelägen att omgående
               ta itu med. Det handlar om importförbud och försäljningsförbud,
               men det finns också behov av att ge konsumenterna en tydlig information
               om det skinn som finns i de kläder de köper. Jag menar att även
               märkningsfrågan kan vara av intresse.
             </seg>
-            <seg n="58b36271">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-167" who="unknown">
+            <seg>
               Där kan både branschen och de ansvariga myndigheterna ta ett
               ansvar, och jag avser att aktualisera även dessa frågor.
             </seg>
-            <seg n="b7c0c7a2">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-168" who="unknown">
+            <seg>
               När det gäller andra djur, visst, vi ska ha en mycket god djurhållning
               och ett mycket gott djurskydd i Sverige. Det finns ett antal initiativ
               som är aktuella, bland annat när det gäller djurtransporter, höns
               och hönsburar, och också uppfödning av pälsdjur. En utredning
               arbetar just nu för att pröva om vi kan ändra på produktionsförutsättningarna.
             </seg>
-            <seg n="ac0291dd">
-              Straffskalor
-            </seg>
           </u>
-          <note type="speaker" n="af054d96">
+          <note>
+            Straffskalor
+          </note>
+          <note type="speaker">
             Anf. 33 CRISTINA HUSMARK PEHRSSON (m):
           </note>
-          <u who="Q445997" xml:id="i-b6d6c5ce4cd21e3c-0" n="8b3ac6e6">
-            <seg n="32c67f7c">
+          <u xml:id="i-dcf0e75efda09e70-169" next="i-dcf0e75efda09e70-172" who="Q445997">
+            <seg>
               Fru talman! Jag har en fråga till justitieministern.
             </seg>
-            <seg n="553163c0">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-170" prev="i-dcf0e75efda09e70-169" who="Q445997">
+            <seg>
               Jag tänker anknyta till den fråga som Cecilia Magnusson ställde,
               och det handlar om en höjning av straffskalorna vid grova våldsbrott
               mot barn och ungdomar.
             </seg>
-            <seg n="261ef60d">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-171" prev="i-dcf0e75efda09e70-169" who="Q445997">
+            <seg>
               Riksåklagaren har försökt höja rättspraxis genom att lyfta en
               fråga till Högsta domstolen, som emellertid bara fastställde hovrättens
               dom, alltså rätt långt ned på straffskalan.
             </seg>
-            <seg n="d44954a6">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-172" prev="i-dcf0e75efda09e70-169" who="Q445997">
+            <seg>
               I sitt svar till Cecilia Magnusson hänvisar justitieministern
               till en utredning som just nu bereds på departementet. Jag utgår
               från att det är utredningen om barnmisshandel. Propositionen är
               aviserad till i höst, och min fråga är: Kommer den innan jul?
             </seg>
           </u>
-          <note n="412ddf59">
+          <note>
             Anf. 34 Justitieminister THOMAS BOD-
           </note>
-          <note type="speaker" n="f31696ef">
+          <note type="speaker">
             STRÖM (s):
           </note>
-          <u who="unknown" xml:id="i-066ce83e1ac62dd1-2" n="dc7ab526">
-            <seg n="b4d91e7b">
+          <u xml:id="i-dcf0e75efda09e70-173" who="unknown">
+            <seg>
               Fru talman! När den propositionen kommer får du nog fråga statsrådet
               Morgan Johansson om, eftersom frågan bereds på Socialdepartementet.
               Den tar alltså upp flera olika saker, bland annat det som innebär
@@ -1365,52 +1638,62 @@
               särskild straffskärpningsgrund när det gäller misshandel av barn.
             </seg>
           </u>
-          <note n="3cd2ff3b">
+          <note>
             Anf. 35 CRISTINA HUSMARK PEHRS-
           </note>
-          <note n="22766f67">
+          <note>
             SON (m):
           </note>
-          <u who="unknown" xml:id="i-ed257922649dd9a5-2" n="dc7ab526">
-            <seg n="f100e65a">
+          <u xml:id="i-dcf0e75efda09e70-174" who="unknown">
+            <seg>
               Fru talman! Jag har en kort principiell fråga. Jag fortsätter
               att vända mig till justitieministern, även om det delvis är Morgan
               Johanssons fråga. Ni är ju så att säga två om saken.
             </seg>
-            <seg n="c6f14a35">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-175" who="unknown">
+            <seg>
               Också Barnombudsmannen tycker att vi ska ha en ökad straffskärpning
               när det gäller våldsbrott mot barn. I går kunde vi på TV se hur
               justitieministern var hos Rädda Barnen och blev utfrågad av ungdomarna.
             </seg>
-            <seg n="e45f5ef1">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-176" who="unknown">
+            <seg>
               De var inte nöjda med svaret. Därför tänkte jag ge justitieministern
               en ytterligare chans att svara på frågan: Anser justitieministern
               att vi ska ha en ökad straffskärpning när det gäller grova våldsbrott
               mot barn?
             </seg>
-            <seg n="602209a5">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-177" who="unknown">
+            <seg>
               Vi moderater har länge förespråkat detta, och jag hoppas att
               det kommer i svaret och sedan i utredningen.
             </seg>
           </u>
-          <note n="5ac33882">
+          <note>
             Anf. 36 Justitieminister THOMAS BOD-
           </note>
-          <note type="speaker" n="f31696ef">
+          <note type="speaker">
             STRÖM (s):
           </note>
-          <u who="unknown" xml:id="i-066ce83e1ac62dd1-3" n="dc7ab526">
-            <seg n="08cdc034">
+          <u xml:id="i-dcf0e75efda09e70-178" who="unknown">
+            <seg>
               Fru talman! Jag anser att man ska bedöma det som särskilt allvarligt.
               Det är också därför som det står i lagen i dag. Anledningen till
               att det är lite svårt att diskutera saken är att den just nu är
               under prövning.
             </seg>
-            <seg n="c871a90a">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-179" who="unknown">
+            <seg>
               Det kan vara svårt för många att inse att man inte som justitieminister
               kan gå in direkt på konkreta fall och recensera domar.
             </seg>
-            <seg n="f2608b93">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-180" who="unknown">
+            <seg>
               Om jag skulle göra det, eller kanske någon av riksdagsledamöterna
               här, har vi på sikt upphävt de självständiga domstolarna. Det
               kan vara så att man i vissa fall inte själv personligen delar
@@ -1419,37 +1702,47 @@
               anse att de är självständiga tills man kommer till en gräns där
               man kanske har en annan uppfattning.
             </seg>
-            <seg n="479e31b8">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-181" who="unknown">
+            <seg>
               Sammantaget kan jag säga att frågan nu bereds i
             </seg>
-            <seg n="a3467380">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-182" who="unknown">
+            <seg>
               Socialdepartementet. Som vi alla känner till är den i högsta
               grad aktuell. Riksåklagaren har sagt att man avser att få saken
               prövad. Den kommer att prövas inom kort. Låt oss sedan fortsätta
               diskussionen, men utan att lägga oss i det enskilda fallet.
             </seg>
-            <seg n="96f48e75">
-              Odling i balans
-            </seg>
           </u>
-          <note n="e6ded8a2" type="speaker">
+          <note>
+            Odling i balans
+          </note>
+          <note type="speaker">
             Anf. 37 ANITA BRODÉN (fp):
           </note>
-          <u who="Q4765508" xml:id="i-ed257922649dd9a5-3" n="dc7ab526">
-            <seg n="88cb789d">
+          <u xml:id="i-dcf0e75efda09e70-183" next="i-dcf0e75efda09e70-187" who="Q4765508">
+            <seg>
               Fru talman! Också jag har en fråga till jordbruksminister Ann-Christin
               Nykvist.
             </seg>
-            <seg n="fcf508d1">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-184" prev="i-dcf0e75efda09e70-183" who="Q4765508">
+            <seg>
               Sveriges jordbrukspolitik formas gemensamt i
             </seg>
-            <seg n="77ac4d36">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-185" prev="i-dcf0e75efda09e70-183" who="Q4765508">
+            <seg>
               EU. Givetvis är vår parlamentariska hållning och de signaler
               vi skickar till EU oerhört viktiga. Jag återkommer till frågan
               om halvtidsöversynen av jordbrukspolitiken vid ett senare tillfälle.
               I dag vill jag lyfta en annan fråga som berör andra signaler.
             </seg>
-            <seg n="3c74b56c">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-186" prev="i-dcf0e75efda09e70-183" who="Q4765508">
+            <seg>
               Det handlar om att ta vara på de goda jordbruksföretagarnas exempel.
               Svenskt Näringsliv kallar dessa typer för proaktiva. Det är när
               man integrerar hållbarhet med att man ligger steget före. Det
@@ -1457,7 +1750,9 @@
               finns bland annat 17 pilotgårdar som går under benämningen Odling
               i balans. De kan sägas vara proaktiva.
             </seg>
-            <seg n="81cbc611">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-187" prev="i-dcf0e75efda09e70-183" who="Q4765508">
+            <seg>
               Min fråga till jordbruksministern är: Känner jordbruksministern
               till dessa typer av proaktiva jordbruksföretag där man kombinerar
               ekonomi med ekologi? Är jordbruksministern beredd att följa upp
@@ -1465,91 +1760,115 @@
               lyfta frågan och ge de signalerna?
             </seg>
           </u>
-          <note n="ff218d83">
+          <note>
             Anf. 38 Jordbruksminister ANN-CHRISTIN
           </note>
-          <note type="speaker" n="80c55490">
+          <note type="speaker">
             NYKVIST (s):
           </note>
-          <u who="unknown" xml:id="i-066ce83e1ac62dd1-4" n="dc7ab526">
-            <seg n="152263da">
+          <u xml:id="i-dcf0e75efda09e70-188" who="unknown">
+            <seg>
               Fru talman! Jag är mycket färsk som jordbruksminister. Jag har
               varit det i en månad. Detta är min allra första frågestund. Det
               är alltså premiär.
             </seg>
-            <seg n="60cccb87">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-189" who="unknown">
+            <seg>
               Jag har hunnit informera mig om den ekologiska odlingen och vad
               vi gör för att stötta ekologisk odling. Det är en odling som är
               mindre miljöbelastande och där vi får ett antal positiva effekter.
             </seg>
-            <seg n="34bcd9e4">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-190" who="unknown">
+            <seg>
               Jag har också hunnit röra mig ute i landet och fått ett antal
               goda exempel på odling i balans. Jag känner inte till de 17 gårdarna.
               Det har jag inte informerat mig om. Men jag har en mycket positiv
               syn just på den typen av odling.
             </seg>
-            <seg n="88b88f2b">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-191" who="unknown">
+            <seg>
               Vi har vissa nationella mål för hur stor del av arealen som ska
               vara ekologiskt odlad när det gäller både spannmål och köttproduktion.
               Här har vi höjt ribban vartefter. Vi ger också ett visst ekonomiskt
               stöd.
             </seg>
-            <seg n="706ad7f7">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-192" who="unknown">
+            <seg>
               Detta är en del av jordbruket där vi borde ha konkurrensfördelar
               också i andra sammanhang och inte bara på den svenska marknaden.
             </seg>
           </u>
-          <note n="f1e5459c" type="speaker">
+          <note type="speaker">
             Anf. 39 ANITA BRODÉN (fp):
           </note>
-          <u who="Q4765508" xml:id="i-ed257922649dd9a5-4" n="dc7ab526">
-            <seg n="6f4f152f">
+          <u xml:id="i-dcf0e75efda09e70-193" next="i-dcf0e75efda09e70-197" who="Q4765508">
+            <seg>
               Fru talman! Det handlar inte enbart om de gårdar som odlas rent
               ekologiskt, om man har den benämningen. Det handlar även om konventionell
               odling sedd ur miljösynpunkt och med en hållbarhetstanke.
             </seg>
-            <seg n="062a56bb">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-194" prev="i-dcf0e75efda09e70-193" who="Q4765508">
+            <seg>
               Det är det viktiga.
             </seg>
-            <seg n="56bf8789">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-195" prev="i-dcf0e75efda09e70-193" who="Q4765508">
+            <seg>
               Vad man än har för utgångspunkt är hållbarhetstanken det grundläggande.
               Underifrånperspektivet är också viktigt. Man kombinerar kunskapen
               hos odlaren med den hos forskaren. Det är i näringen ihop med
               forskaren som kraften finns.
             </seg>
-            <seg n="afdff16b">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-196" prev="i-dcf0e75efda09e70-193" who="Q4765508">
+            <seg>
               Jag hoppas att jordbruksministern ämnar följa dessa pilotprojekt.
               Det finns ett antal sådana, både
             </seg>
-            <seg n="73c1bb93">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-197" prev="i-dcf0e75efda09e70-193" who="Q4765508">
+            <seg>
               Greppa näringen och Odling i balans, för att ge några exempel.
             </seg>
           </u>
-          <note n="38642238">
+          <note>
             Anf. 40 Jordbruksminister ANN-CHRISTIN
           </note>
-          <note type="speaker" n="80c55490">
+          <note type="speaker">
             NYKVIST (s):
           </note>
-          <u who="unknown" xml:id="i-9381cedb8148eddb-8" n="dc7ab526">
-            <seg n="d981e005">
+          <u xml:id="i-dcf0e75efda09e70-198" who="unknown">
+            <seg>
               Fru talman! Givetvis är jag beredd att följa de projekten. Jag
               har hunnit tala med LRF om projektet
             </seg>
-            <seg n="4c8a26e6">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-199" who="unknown">
+            <seg>
               Greppa näringen. Det kan också ha en stor betydelse för att minska
               användningen av bekämpningsmedel i jordbruket.
             </seg>
-            <seg n="df2078be">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-200" who="unknown">
+            <seg>
               Vi fick några larmrapporter för några veckor sedan där den frågan
               kom upp. Just inom ramen för
             </seg>
-            <seg n="da351ae8">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-201" who="unknown">
+            <seg>
               Greppa näringen kan vi också finna åtgärder och olika typer av
               informationsprojekt som hjälper oss att informera jordbrukaren
               om hur man kan jobba för att minska miljöbelastningen inom jordbruket.
             </seg>
-            <seg n="78a28d5c">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-202" who="unknown">
+            <seg>
               Givetvis är jag positiv till denna typ av produktion. När vi
               talar om ett uthålligt jordbruk och ett jordbruk i balans ligger
               vi väldigt nära den ekologiska odlingen. Detta är delar av jordbruket
@@ -1557,22 +1876,22 @@
               ser jag också att det svenska jordbruket där borde ha konkurrensfördelar.
             </seg>
           </u>
-          <note n="7b39a9a3">
+          <note>
             Europeisk åklagarmyndighet
           </note>
-          <note type="speaker" n="152fc814">
+          <note type="speaker">
             Anf. 41 ULRIK LINDGREN (kd):
           </note>
-          <u who="Q5956278" xml:id="i-6dfd6dfd5c07e685-0" n="f3b66db3" next="i-024854894fc1be61-0">
-            <seg n="6b9fa069">
+          <u xml:id="i-dcf0e75efda09e70-203" next="i-dcf0e75efda09e70-206" who="Q5956278">
+            <seg>
               Fru talman! Jag har en fråga till justitieminister
             </seg>
           </u>
-          <note n="9a02b4c9">
+          <note>
             Thomas Bodström.
           </note>
-          <u who="Q5956278" xml:id="i-024854894fc1be61-0" n="f3b66db3" prev="i-6dfd6dfd5c07e685-0">
-            <seg n="3e298b9b">
+          <u xml:id="i-dcf0e75efda09e70-204" prev="i-dcf0e75efda09e70-203" who="Q5956278">
+            <seg>
               För några veckor sedan, den 24 oktober, frågade jag minister
               Bodström varför regeringen gör motstånd mot inrättandet av en
               europeisk åklagarmyndighet för att bättre komma åt problemen med
@@ -1581,28 +1900,34 @@
               som är ett åklagarsamarbete för att bekämpa den gränsöverskridande
               och organiserade brottsligheten.
             </seg>
-            <seg n="499c8017">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-205" prev="i-dcf0e75efda09e70-203" who="Q5956278">
+            <seg>
               Det frågan gällde var emellertid inte den gränsöverskridande
               ekonomiska brottsligheten utan fusket med EU:s egna medel och
               varför den svenska regeringen gör motstånd mot bildadet av ett
               särskilt europeiskt åklagarämbete för att beivra svinnet av EU-
             </seg>
-            <seg n="ded994c8">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-206" prev="i-dcf0e75efda09e70-203" who="Q5956278">
+            <seg>
               medlen. Sålunda gör jag ett nytt försök i dag, så att vi kommer
               till rätt sak: Varför detta motstånd från den svenska regeringen?
             </seg>
           </u>
-          <note n="2ca674cb">
+          <note>
             Anf. 42 Justitieminister THOMAS BOD-
           </note>
-          <note type="speaker" n="f31696ef">
+          <note type="speaker">
             STRÖM (s):
           </note>
-          <u who="unknown" xml:id="i-066ce83e1ac62dd1-5" n="dc7ab526">
-            <seg n="19c5b0d5">
+          <u xml:id="i-dcf0e75efda09e70-207" who="unknown">
+            <seg>
               Fru talman! Jag tror att vi kan vara överens om att
             </seg>
-            <seg n="7cb881b2">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-208" who="unknown">
+            <seg>
               Sverige var ett av de drivande länderna för inrättandet av ett
               europeiskt åklagarsamarbete. Det gjordes under vårt ordförandeskap.
               Det finns också förslag som innebär att man ska inrätta andra
@@ -1610,11 +1935,13 @@
               att utveckla det åklagarsamarbete som finns.
             </seg>
           </u>
-          <note n="00bfdf8b">
-            Det provisoriska åklagarsamarbetet inleddes den 1
-          </note>
-          <u who="unknown" xml:id="i-ed257922649dd9a5-5" n="dc7ab526">
-            <seg n="3cb59323">
+          <u xml:id="i-dcf0e75efda09e70-209" who="unknown">
+            <seg>
+              Det provisoriska åklagarsamarbetet inleddes den 1
+            </seg>
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-210" who="unknown">
+            <seg>
               mars 2001. Nu håller man på att arbeta med att inrätta det mer
               permanenta åklagarsamarbetet i dess slutliga former. Det är vi
               positiva till. Sedan kan det möjligtvis finnas andra förslag med
@@ -1622,119 +1949,145 @@
               det inte ska finnas alltför många institut bredvid varandra.
             </seg>
           </u>
-          <note type="speaker" n="7acb0e03">
+          <note type="speaker">
             Anf. 43 ULRIK LINDGREN (kd):
           </note>
-          <u who="Q5956278" xml:id="i-6dfd6dfd5c07e685-1" n="f3b66db3" next="i-024854894fc1be61-1">
-            <seg n="d64afb49">
+          <u xml:id="i-dcf0e75efda09e70-211" next="i-dcf0e75efda09e70-217" who="Q5956278">
+            <seg>
               Fru talman! Det låter som en liten öppning från ministern för
               att den svenska regeringen kanske kommer att pröva saken framöver.
               Men som vi uppfattar det finns det ändå ett aktivt svenskt motstånd.
             </seg>
           </u>
-          <note n="8b286044">
+          <note>
             Den europeiska kommissionens experter, EU:s egen utrednings-
             och bedrägerimyndighet OLAF, samtliga svenska socialdemokratiska
             ledamöter i
           </note>
-          <u who="Q5956278" xml:id="i-024854894fc1be61-1" n="f3b66db3" prev="i-6dfd6dfd5c07e685-1">
-            <seg n="09764a01">
+          <u xml:id="i-dcf0e75efda09e70-212" prev="i-dcf0e75efda09e70-211" who="Q5956278">
+            <seg>
               Europaparlamentet vill alla ha detta. Men ändå finns detta svenska
               motstånd.
             </seg>
-            <seg n="2444096a">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-213" prev="i-dcf0e75efda09e70-211" who="Q5956278">
+            <seg>
               Det låter lite förvirrande. Det finns tydligen en öppning men
               ändå inte en villighet att bidra till detta.
             </seg>
-            <seg n="0da752a9">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-214" prev="i-dcf0e75efda09e70-211" who="Q5956278">
+            <seg>
               Det kan tyckas märkligt också med tanke på att EU:s revisionsrätt
               har pekat på att det kan röra sig om 40
             </seg>
-            <seg n="7c0c8d0a">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-215" prev="i-dcf0e75efda09e70-211" who="Q5956278">
+            <seg>
               miljarder per år.
             </seg>
-            <seg n="4d7e7650">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-216" prev="i-dcf0e75efda09e70-211" who="Q5956278">
+            <seg>
               Det är sådana svindlande belopp som skattebetalarna har anledning
               att vara bekymrade över. Varför försvinner de? Vad gör EU för
               att försöka ta hem någon del av denna ofantliga summa?
             </seg>
-            <seg n="64429b17">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-217" prev="i-dcf0e75efda09e70-211" who="Q5956278">
+            <seg>
               Jag är inte helt nöjd med svaret. Jag hoppas att regeringen kommer
               att vidta ytterligare åtgärder om detta.
             </seg>
           </u>
-          <note n="a597f8d6">
+          <note>
             Anf. 44 Justitieminister THOMAS BOD-
           </note>
-          <note type="speaker" n="f31696ef">
+          <note type="speaker">
             STRÖM (s):
           </note>
-          <u who="unknown" xml:id="i-9381cedb8148eddb-9" n="dc7ab526">
-            <seg n="2dfd1f5d">
+          <u xml:id="i-dcf0e75efda09e70-218" who="unknown">
+            <seg>
               Fru talman! Jag kan försäkra att Sverige även i fortsättningen,
               om vi får fortsätta att ha en socialdemokratisk regering, kommer
               att fortsätta att driva arbetet för ett utvecklat åklagarsamarbete.
               Vi kommer också att ta upp de problem som finns och även ekonomiska
               problem inom EU.
             </seg>
-            <seg n="b1e5dd2c">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-219" who="unknown">
+            <seg>
               Vi ska vara noggranna med att polis- och åklagarsamarbetet ska
               vara så effektivt som möjligt. Det har varit ett av de största
               problemen att arbetet inte har bedrivits effektivt.
             </seg>
-            <seg n="e361c9f4">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-220" who="unknown">
+            <seg>
               Vi är angelägna om att vi ska fortsätta att utveckla polis- och
               åklagarsamarbetet. Men vi ska också ha våra egna befogenheter
               i vårt eget land. Här är det svensk polis och åklagare som arbetar
               på svensk mark.
             </seg>
-            <seg n="e8ea1443">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-221" who="unknown">
+            <seg>
               Jag tror att vi är överens om att vi ska fortsätta att utveckla
               det internationella samarbetet inom EU och inom andra områden
               för att därigenom bättre kunna bekämpa den internationella brottsligheten
               i alla dess former.
             </seg>
-            <seg n="2b75de70">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-222" who="unknown">
+            <seg>
               Energiproduktion i jordbruket
             </seg>
           </u>
-          <note type="speaker" n="dd894012">
+          <note type="speaker">
             Anf. 45 ANNIKA QARLSSON (c):
           </note>
-          <u who="Q4769498" xml:id="i-064e18ae7755fa9e-0" n="ef60c0e5">
-            <seg n="5d78d85d">
+          <u xml:id="i-dcf0e75efda09e70-223" next="i-dcf0e75efda09e70-227" who="Q4769498">
+            <seg>
               Fru talman! Jag tänkte att jag skulle prata lite grann med Ann-Christin
               Nykvist. Hon har fått många frågor här i dag. Det är intressanta
               områden som du har blivit satt som minister för.
             </seg>
-            <seg n="0ac75660">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-224" prev="i-dcf0e75efda09e70-223" who="Q4769498">
+            <seg>
               Vi har i dag en inte så stor grupp som arbetar inom detta område.
               Den har krympt under de senaste hundra åren.
             </seg>
-            <seg n="13d650a1">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-225" prev="i-dcf0e75efda09e70-223" who="Q4769498">
+            <seg>
               Den här lilla kategorin människor som jobbar med jordbruk omsätter
               ju sedan sina produkter, så det finns väl inte någon i Sveriges
               land som inte sätter sig till bords och njuter av de produkter
               som de producerar.
             </seg>
-            <seg n="3e4b21e5">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-226" prev="i-dcf0e75efda09e70-223" who="Q4769498">
+            <seg>
               Förutom mat och råvaror finns det en stor potentiell utvecklingsmöjlighet
               på energiområdet för våra jordbrukare.
             </seg>
-            <seg n="ccaac773">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-227" prev="i-dcf0e75efda09e70-223" who="Q4769498">
+            <seg>
               Jag skulle vilja höra lite grann om dina tankar på hur vi ska
               arbeta för att ge jordbrukarna bra villkor för att kunna jobba
               även på det området.
             </seg>
           </u>
-          <note n="477ebdd3">
+          <note>
             Anf. 46 Jordbruksminister ANN-CHRISTIN
           </note>
-          <note type="speaker" n="80c55490">
+          <note type="speaker">
             NYKVIST (s):
           </note>
-          <u who="unknown" xml:id="i-9381cedb8148eddb-10" n="dc7ab526">
-            <seg n="3c948a07">
+          <u xml:id="i-dcf0e75efda09e70-228" who="unknown">
+            <seg>
               Fru talman! Det finns olika ingångar när det gäller annan produktion
               än mat för jordbruket. Det handlar också mycket om landsbygdsutveckling.
               Att producera energi är en sådan ingång - och att kunna producera
@@ -1743,7 +2096,9 @@
               programförklaring om hur jag ser på de enskilda möjligheterna
               att producera energi.
             </seg>
-            <seg n="d7cd59c1">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-229" who="unknown">
+            <seg>
               Jag har kommit i kontakt med ett problem som kan lösas genom
               att man producerar energi, nämligen det riskavfall som man får
               från jordbruksproduktionen. Där har vi ett problem i dag. Vi har
@@ -1754,15 +2109,17 @@
               att hantera det.
             </seg>
           </u>
-          <note type="speaker" n="167c4505">
+          <note type="speaker">
             Anf. 47 ANNIKA QARLSSON (c):
           </note>
-          <u who="Q4769498" xml:id="i-064e18ae7755fa9e-1" n="ef60c0e5">
-            <seg n="a61376fb">
+          <u xml:id="i-dcf0e75efda09e70-230" next="i-dcf0e75efda09e70-232" who="Q4769498">
+            <seg>
               Fru talman! Jag får bassning av Arne här för att jag säger du,
               och jag ber om ursäkt för det och tilltalar härmed jordbruksministern.
             </seg>
-            <seg n="4a3fd8ee">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-231" prev="i-dcf0e75efda09e70-230" who="Q4769498">
+            <seg>
               På detta stora och viktiga område handlar det om att Sverige
               som land måste gå in och göra stora satsningar. Vi kan inte kräva
               av enskilda producenter att de ska göra de stora satsningarna.
@@ -1773,73 +2130,91 @@
               och bra ekonomiska förutsättningar för att man ska våga göra de
               här satsningarna.
             </seg>
-            <seg n="c73ddeaa">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-232" prev="i-dcf0e75efda09e70-230" who="Q4769498">
+            <seg>
               Jag skulle gärna vilja att jordbruksministern ger ett löfte om
               att vi självfallet måste göra detta för att nå upp till de högt
               satta miljömålen, som vi måste sätta för att ha en långsiktigt
               hållbar utveckling i vårt land.
             </seg>
           </u>
-          <note n="b51f50e7">
+          <note>
             Anf. 48 Jordbruksminister ANN-CHRISTIN
           </note>
-          <note type="speaker" n="80c55490">
+          <note type="speaker">
             NYKVIST (s):
           </note>
-          <u who="unknown" xml:id="i-9381cedb8148eddb-11" n="dc7ab526">
-            <seg n="583e1ab7">
+          <u xml:id="i-dcf0e75efda09e70-233" who="unknown">
+            <seg>
               Fru talman! Det är givet att det är intressant att jobba för
               den långsiktigt hållbara utvecklingen. Jag är ju också konsumentminister,
               och i ett konsumentperspektiv är också energiförsörjningen och
               elförsörjningen otroligt viktiga för oss.
             </seg>
-            <seg n="1a84f44a">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-234" who="unknown">
+            <seg>
               Det där med att ge löften låter alltid så pompöst, men jag vill
               säga här att jag tycker att detta är en intressant och viktig
               fråga. Jag kommer att sätta mig in i den på djupet och se vad
               det finns för olika möjligheter, och jag kommer självfallet att
               göra det i positiv anda.
             </seg>
-            <seg n="f5267288">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-235" who="unknown">
+            <seg>
               Företagsklimatet
             </seg>
           </u>
-          <note type="speaker" n="620ca97a">
+          <note type="speaker">
             Anf. 49 RONNY OLANDER (s):
           </note>
-          <u who="Q6024368" xml:id="i-1007937654cba380-0" n="9dae996b">
-            <seg n="3a048a19">
+          <u xml:id="i-dcf0e75efda09e70-236" next="i-dcf0e75efda09e70-245" who="Q6024368">
+            <seg>
               Fru talman! Jag skulle vilja fråga näringsminister
             </seg>
-            <seg n="c936328e">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-237" prev="i-dcf0e75efda09e70-236" who="Q6024368">
+            <seg>
               Leif Pagrotsky om det goda företagsklimatet i Sverige. Det handlar
               om att ge företagen lika villkor att arbeta och konkurrera på.
             </seg>
-            <seg n="ebdd2de9">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-238" prev="i-dcf0e75efda09e70-236" who="Q6024368">
+            <seg>
               När man träffar företrädare för olika branscher -
             </seg>
-            <seg n="b1863533">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-239" prev="i-dcf0e75efda09e70-236" who="Q6024368">
+            <seg>
               det kan vara byggbranschen, städbranschen, handeln, frisörbranschen
               eller hotell- och restaurangbranschen
             </seg>
-            <seg n="4cd619e9">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-240" prev="i-dcf0e75efda09e70-236" who="Q6024368">
+            <seg>
               - så uttrycker de oftast en oro över att konkurrensen inte sker
               på lika villkor. Det är då kopplat till den ekonomiska brottsligheten.
               Företag jobbar helt utanför lagar och förordningar. I det goda
               företagsklimatet måste också ligga att alla har samma spelregler.
             </seg>
-            <seg n="a490e5ba">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-241" prev="i-dcf0e75efda09e70-236" who="Q6024368">
+            <seg>
               Hur ser regeringen på denna fråga?
             </seg>
-            <seg n="4e13a518">
-              Anf. 50 Näringsminister LEIF PAGROT-
+          </u>
+          <note>
+            Anf. 50 Näringsminister LEIF PAGROT-
+          </note>
+          <u xml:id="i-dcf0e75efda09e70-242" prev="i-dcf0e75efda09e70-236" who="Q6024368">
+            <seg>
+              SKY (s):
             </seg>
           </u>
-          <note type="speaker" n="75c3d104">
-            SKY (s):
-          </note>
-          <u who="unknown" xml:id="i-9381cedb8148eddb-12" n="dc7ab526">
-            <seg n="51cf0028">
+          <u xml:id="i-dcf0e75efda09e70-243" prev="i-dcf0e75efda09e70-236" who="Q6024368">
+            <seg>
               Fru talman! Jag håller med om det här synsättet fullt ut. Det
               är en viktig del i företagsklimatet att en näringsidkare kan räkna
               med att han eller hon kan konkurrera på lika villkor så att bästa
@@ -1848,7 +2223,9 @@
               att man måste bekämpa skattefusk, svartarbete och annat i en del
               branscher.
             </seg>
-            <seg n="2e8dd22f">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-244" prev="i-dcf0e75efda09e70-236" who="Q6024368">
+            <seg>
               Men det är precis lika viktigt att vi bekämpar kartellbrott och
               annan brottslighet som syftar till precis samma sak, nämligen
               att förstöra klimatet för hederliga och seriösa näringsidkare.
@@ -1856,18 +2233,20 @@
               förstöra för kunderna genom att de inte kan skaffa sig en bra
               konkurrenssituation för sina inköp.
             </seg>
-            <seg n="8713ae09">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-245" prev="i-dcf0e75efda09e70-236" who="Q6024368">
+            <seg>
               Från min utkikspost, som ju handlar just om företagsklimatet,
               tänker jag dra mitt strå till stacken när det gäller att stödja
               justitieministern och andra i deras hårda dagliga arbete för att
               bemästra de här problemen.
             </seg>
           </u>
-          <note type="speaker" n="9e3824bf">
+          <note type="speaker">
             Anf. 51 RONNY OLANDER (s):
           </note>
-          <u who="Q6024368" xml:id="i-1007937654cba380-1" n="9dae996b">
-            <seg n="c298d195">
+          <u xml:id="i-dcf0e75efda09e70-246" next="i-dcf0e75efda09e70-247" who="Q6024368">
+            <seg>
               Fru talman! Jag ställde frågan just till näringsministern därför
               att vi alltför sällan diskuterar de här frågorna i dagens massmediala
               debatt. Det dyker av och till upp olika frågeställningar - och
@@ -1879,21 +2258,23 @@
               att det är så pass mycket nu att det känns oerhört irriterande.
               Det blir svåra konkurrensnackdelar i och med detta.
             </seg>
-            <seg n="d2e7beed">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-247" prev="i-dcf0e75efda09e70-246" who="Q6024368">
+            <seg>
               Jag vill fråga näringsministern vilken tidsaspekt man har. Finns
               det inte anledning att fördjupat ta ytterligare krafttag inom
               regeringen? Jag vet att det pågår en del, men det kanske finns
               anledning att göra ytterligare.
             </seg>
           </u>
-          <note n="8a24e819">
+          <note>
             Anf. 52 Justitieminister THOMAS BOD-
           </note>
-          <note type="speaker" n="f31696ef">
+          <note type="speaker">
             STRÖM (s):
           </note>
-          <u who="unknown" xml:id="i-9381cedb8148eddb-13" n="dc7ab526">
-            <seg n="ef05eed0">
+          <u xml:id="i-dcf0e75efda09e70-248" who="unknown">
+            <seg>
               Fru talman! Det arbetas med flera olika förslag för att kunna
               förbättra kampen mot ekonomisk brottslighet. Dels arbetar vi med
               skärpning av aktiebolagslagen - formkraven - dels arbetar vi med
@@ -1908,54 +2289,64 @@
               att bedriva ett effektivt polisarbete som andra poliser på andra
               områden har.
             </seg>
-            <seg n="e3ad4073">
-              Förutsättningar för polis i glesbygd
-            </seg>
           </u>
-          <note type="speaker" n="88bdf67f">
+          <note>
+            Förutsättningar för polis i glesbygd
+          </note>
+          <note type="speaker">
             Anf. 53 LENNART GUSTAVSSON (v):
           </note>
-          <u who="Q5778392" xml:id="i-5489b824a209e4d5-0" n="ffd81447">
-            <seg n="64d88ab3">
+          <u xml:id="i-dcf0e75efda09e70-249" next="i-dcf0e75efda09e70-252" who="Q5778392">
+            <seg>
               Fru talman! Först vill jag säga välkommen till de nya statsråd
               som vi har här i dag, och sedan vänder jag mig till justitieminister
               Thomas Bodström. Jag ska fatta mig kort.
             </seg>
-            <seg n="d363d12f">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-250" prev="i-dcf0e75efda09e70-249" who="Q5778392">
+            <seg>
               Poliser i lands- och glesbygd arbetar många gånger över stora
               geografiska områden. Kanske gäller det speciellt Norrlands inland,
               som jag kommer ifrån.
             </seg>
-            <seg n="775a1a2b">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-251" prev="i-dcf0e75efda09e70-249" who="Q5778392">
+            <seg>
               Nya arbetsuppgifter kan ibland leda till svårigheter att leva
               upp till de krav som allmänheten och polisen själv har på sin
               verksamhet.
             </seg>
-            <seg n="e8526cb4">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-252" prev="i-dcf0e75efda09e70-249" who="Q5778392">
+            <seg>
               Därför vill jag veta hur justitieministern ser på förutsättningarna
               för att polisen i Norrlands inland ska kunna göra sitt jobb.
             </seg>
           </u>
-          <note n="470d869b">
+          <note>
             Anf. 54 Justitieminister THOMAS BOD-
           </note>
-          <note type="speaker" n="f31696ef">
+          <note type="speaker">
             STRÖM (s):
           </note>
-          <u who="unknown" xml:id="i-9381cedb8148eddb-14" n="dc7ab526">
-            <seg n="70f27b50">
+          <u xml:id="i-dcf0e75efda09e70-253" who="unknown">
+            <seg>
               Fru talman! Som jag tror att alla känner till ökas resurserna
               till polisen kraftigt. Vi kommer under den här mandatperioden
               att utbilda 4 000 nya poliser. Det är så mycket att till och med
               rikspolischefen säger att det inte går att höja mer, för då kommer
               kvaliteten att sjunka.
             </seg>
-            <seg n="b4a6ff60">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-254" who="unknown">
+            <seg>
               Men det räcker inte med att bara utbilda fler poliser. Man måste
               också se över vilka arbetsuppgifter de har. Som bekant är det
               ett sådant arbete som pågår nu.
             </seg>
-            <seg n="ba32f87e">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-255" who="unknown">
+            <seg>
               Polisen har i dag flera olika arbetsuppgifter som kanske borde
               ligga på andra. Det är allt från täckning av gruvhål, bortsprungna
               hundar, tillståndsärenden till hittegodsavdelningar och mycket
@@ -1964,11 +2355,11 @@
               verksamhet.
             </seg>
           </u>
-          <note type="speaker" n="3d390772">
+          <note type="speaker">
             Anf. 55 LENNART GUSTAVSSON (v):
           </note>
-          <u who="Q5778392" xml:id="i-5489b824a209e4d5-1" n="ffd81447">
-            <seg n="5473d4a6">
+          <u xml:id="i-dcf0e75efda09e70-256" next="i-dcf0e75efda09e70-257" who="Q5778392">
+            <seg>
               Fru talman! Det är riktigt att vi ska utbilda fler poliser; det
               är bra. Men en av de tillkommande arbetsuppgifterna - om jag är
               rätt informerad - är en arbetsuppgift som hänger samman med höjda
@@ -1979,33 +2370,41 @@
               avstånden, när polisen till sin nuvarande verksamhet ska föra
               en så pass tidskrävande uppgift som den som ska ske på flygplatserna.
             </seg>
-            <seg n="663da64d">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-257" prev="i-dcf0e75efda09e70-256" who="Q5778392">
+            <seg>
               Därför frågar jag justitieministern vad han har att säga till
               de poliser och den organisation som får utökade arbetsuppgifter
               i och med de höjda kraven på flygplatserna.
             </seg>
           </u>
-          <note n="37a443ad">
+          <note>
             Anf. 56 Justitieminister THOMAS BOD-
           </note>
-          <note type="speaker" n="f31696ef">
+          <note type="speaker">
             STRÖM (s):
           </note>
-          <u who="unknown" xml:id="i-9381cedb8148eddb-15" n="dc7ab526">
-            <seg n="a453f917">
+          <u xml:id="i-dcf0e75efda09e70-258" who="unknown">
+            <seg>
               Fru talman! Det är riktigt att polisen har fått ytterligare arbetsuppgifter
               på det sätt som beskrivs. Det är någonting som sker på grund av
               den förändrade tillvaron i världen. Vi har naturligtvis ett ansvar
               att skydda medborgarna från eventuella terroristdåd.
             </seg>
-            <seg n="71b4f71d">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-259" who="unknown">
+            <seg>
               Även om det inte finns något akut hot nu, kan vi inte vara garanterade
               - liksom inte heller något annat land
             </seg>
-            <seg n="8bfdcac3">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-260" who="unknown">
+            <seg>
               - att det inte kan uppstå en sådan situation i framtiden.
             </seg>
-            <seg n="efef3fea">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-261" who="unknown">
+            <seg>
               Vi är fullt medvetna om att polisen, genom de förändrade arbetsuppgifterna
               med bland annat flygplatserna, också kommer att få göra sådant
               arbete som man kanske inte har gjort tidigare. Det gäller att
@@ -2013,30 +2412,36 @@
               som vi försöker skapa bättre förutsättningar för polisen. Det
               är just det som pågår nu.
             </seg>
-            <seg n="d38c77dd">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-262" who="unknown">
+            <seg>
               Det innebär också att man ska se över förutsättningarna och vidta
               olika åtgärder när det gäller polisen i glesbygden i Norrlands
               inland.
             </seg>
-            <seg n="f354a364">
-              Kommunernas upplåning till statliga vägprojekt
-            </seg>
           </u>
-          <note type="speaker" n="1070855f">
+          <note>
+            Kommunernas upplåning till statliga vägprojekt
+          </note>
+          <note type="speaker">
             Anf. 57 CECILIA WIDEGREN (m):
           </note>
-          <u who="Q4990451" xml:id="i-7ca909f64289cdf7-0" n="c4ed5f85">
-            <seg n="b786efba">
+          <u xml:id="i-dcf0e75efda09e70-263" next="i-dcf0e75efda09e70-269" who="Q4990451">
+            <seg>
               Fru talman! Angelägna regionala vägprojekt har skjutits på en
               oviss framtid på grund av bristen på statliga resurser. Sedan
               mitten av 90-talet har vi 28
             </seg>
-            <seg n="2fff6e3e">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-264" prev="i-dcf0e75efda09e70-263" who="Q4990451">
+            <seg>
               förskotteringsobjekt som har godkänts runtom i landet. Det betyder
               att kommuner, regioner och landsting hittills har lånat upp 1,4
               miljarder kronor, trots att detta är ett statligt ansvar.
             </seg>
-            <seg n="4bf2a899">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-265" prev="i-dcf0e75efda09e70-263" who="Q4990451">
+            <seg>
               Anser näringsminister Leif Pagrotsky att det är god näringspolitik
               och ansvarsfullt av Sveriges regering att tvinga kommunerna att
               låna upp dessa resurser för att de här angelägna vägprojekten
@@ -2044,22 +2449,26 @@
               budget?
             </seg>
           </u>
-          <note n="ed70c177">
+          <note>
             Anf. 58 Näringsminister LEIF PAGROT-
           </note>
-          <note type="speaker" n="75c3d104">
-            SKY (s):
-          </note>
-          <u who="unknown" xml:id="i-9381cedb8148eddb-16" n="dc7ab526">
-            <seg n="78a2196e">
-              Fru talman! Trafik- och väginvesteringsfrågorna handläggs i regeringen
-              av statsrådet Ulrica Messing.
+          <u xml:id="i-dcf0e75efda09e70-266" prev="i-dcf0e75efda09e70-263" who="Q4990451">
+            <seg>
+              SKY (s):
             </seg>
-            <seg n="fce244e6">
+          </u>
+          <note>
+            Fru talman! Trafik- och väginvesteringsfrågorna handläggs i regeringen
+            av statsrådet Ulrica Messing.
+          </note>
+          <u xml:id="i-dcf0e75efda09e70-267" prev="i-dcf0e75efda09e70-263" who="Q4990451">
+            <seg>
               Vid nästa frågestund kommer hon att kunna svara på frågor om
               de enskilda projekt som diskuteras här.
             </seg>
-            <seg n="f38f4aa8">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-268" prev="i-dcf0e75efda09e70-263" who="Q4990451">
+            <seg>
               Låt mig bara säga att för mig som näringsminister är det naturligtvis
               av kolossal betydelse att vi har en infrastruktur av hög klass
               som erbjuder säkra och snabba transporter till låg kostnad så
@@ -2071,28 +2480,34 @@
               har medel i statens kassa för att använda till dessa angelägna
               ändamål.
             </seg>
-            <seg n="22989557">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-269" prev="i-dcf0e75efda09e70-263" who="Q4990451">
+            <seg>
               Jag tror att mycket av detta är högre prioriterat för näringslivet
               ur tillväxtsynpunkt än många av de extremt slösaktiga skattesänkningar
               som Cecilia Widegrens parti prioriterar högre än infrastrukturinvesteringar.
             </seg>
           </u>
-          <note type="speaker" n="be888ef7">
+          <note type="speaker">
             Anf. 59 CECILIA WIDEGREN (m):
           </note>
-          <u who="Q4990451" xml:id="i-c99f7f7944fa29a0-0" n="c4ed5f85">
-            <seg n="49895636">
+          <u xml:id="i-dcf0e75efda09e70-270" next="i-dcf0e75efda09e70-278" who="Q4990451">
+            <seg>
               Fru talman! Näringsministern står ju i dag också som ansvarig
               att svara på andra frågor än dem som rör hans eget ansvarsområde.
               Jag hoppas därför att vi kan ha den här diskussionen.
             </seg>
-            <seg n="ac66ba1c">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-271" prev="i-dcf0e75efda09e70-270" who="Q4990451">
+            <seg>
               Vi är båda överens om att för att få en tillväxt måste vi också
               har förutsättningar för det. Infrastrukturen är en av de saker
               som är oerhört viktiga för en god tillväxt. Ska man ha en god
               tillväxt måste man också våga satsa.
             </seg>
-            <seg n="f4b9e2c2">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-272" prev="i-dcf0e75efda09e70-270" who="Q4990451">
+            <seg>
               Är inte detta ett statligt ansvar som regeringen nu överlämnar
               till kommuner och andra? De resurser som man egentligen skulle
               ha till vård och omsorg för att mina barn ska få en god utbildning
@@ -2101,23 +2516,29 @@
               så att man klarar av de här vägprojekten i framtiden? Eller ser
               näringsministern hellre att kommunerna drar ned på vård och omsorg?
             </seg>
-            <seg n="e006fa00">
-              Anf. 60 Näringsminister LEIF PAGROT-
+          </u>
+          <note>
+            Anf. 60 Näringsminister LEIF PAGROT-
+          </note>
+          <u xml:id="i-dcf0e75efda09e70-273" prev="i-dcf0e75efda09e70-270" who="Q4990451">
+            <seg>
+              SKY (s):
             </seg>
           </u>
-          <note type="speaker" n="75c3d104">
-            SKY (s):
-          </note>
-          <u who="unknown" xml:id="i-9381cedb8148eddb-17" n="dc7ab526">
-            <seg n="b2fa5b83">
+          <u xml:id="i-dcf0e75efda09e70-274" prev="i-dcf0e75efda09e70-270" who="Q4990451">
+            <seg>
               Fru talman! Det är lite svårt att följa detta att vi drar ned
               på vård och omsorg för att slippa betala statliga vägbyggen. Jag
               vill påminna om att Cecilia
             </seg>
-            <seg n="19ea01ef">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-275" prev="i-dcf0e75efda09e70-270" who="Q4990451">
+            <seg>
               Widegren just har haft ansvar för ett landsting, Västra
             </seg>
-            <seg n="cad77256">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-276" prev="i-dcf0e75efda09e70-270" who="Q4990451">
+            <seg>
               Götalands läns landsting, som gick med så kolossala underskott
               att den borgerliga majoriteten sprack. Det lämnade vägen öppen
               för en ny, framtidsinriktad allians av mittenpartier och socialdemokrater.
@@ -2125,25 +2546,29 @@
               verkar så sökt att jag har lite svårt att hantera detta ur allmänpolitisk
               synpunkt.
             </seg>
-            <seg n="e12582ad">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-277" prev="i-dcf0e75efda09e70-270" who="Q4990451">
+            <seg>
               Min grundläggande inställning är att de flera hundra miljarder
               kronor som vi tillsammans med
             </seg>
-            <seg n="df21b9fc">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-278" prev="i-dcf0e75efda09e70-270" who="Q4990451">
+            <seg>
               Vänsterpartiet och Miljöpartiet har satt av för att gå på offensiven
               när det gäller infrastrukturen kommer att komma till god användning.
               Jag försäkrar att vi ska prioritera på ett sådant sätt att näringslivet
               får glädje av dessa pengar.
             </seg>
-            <seg n="135878af">
-              Privatimport av alkohol
-            </seg>
           </u>
-          <note type="speaker" n="c31725a9">
+          <note>
+            Privatimport av alkohol
+          </note>
+          <note type="speaker">
             Anf. 61 GABRIEL ROMANUS (fp):
           </note>
-          <u who="Q724410" xml:id="i-cd11f6fbd14e6bc7-0" n="4ac80f4f" next="i-f62a664663a721db-0">
-            <seg n="6d5b18d7">
+          <u xml:id="i-dcf0e75efda09e70-279" next="i-dcf0e75efda09e70-285" who="Q724410">
+            <seg>
               Fru talman! EU-kommissionären Frits Bolkestein, som ju inte precis
               är känd för något större socialt ansvar, vill att det ska bli
               tillåtet att privatimportera alkoholdrycker också när det inte
@@ -2155,20 +2580,24 @@
               stor risk att man kommer att undandra sig den beskattning av varorna
               som enligt EU:s rättsregler ska ske i konsumtionslandet.
             </seg>
-            <seg n="b432010e">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-280" prev="i-dcf0e75efda09e70-279" who="Q724410">
+            <seg>
               Jag skulle vilja fråga statsrådet Morgan Johansson om han är
               beredd att redogöra för regeringens ståndpunkt till Frits Bolkesteins
               propåer.
             </seg>
           </u>
-          <note n="4514229b">
+          <note>
             Anf. 62 Statsrådet MORGAN JOHANS-
           </note>
-          <note n="3cdadb31">
-            SON (s):
-          </note>
-          <u who="Q724410" xml:id="i-f62a664663a721db-0" n="4ac80f4f" prev="i-cd11f6fbd14e6bc7-0">
-            <seg n="471dbed6">
+          <u xml:id="i-dcf0e75efda09e70-281" prev="i-dcf0e75efda09e70-279" who="Q724410">
+            <seg>
+              SON (s):
+            </seg>
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-282" prev="i-dcf0e75efda09e70-279" who="Q724410">
+            <seg>
               Fru talman! Detta ger mig också tillfälle att säga något övrigt
               i alkoholfrågan. Vi har sett en oroande utveckling under de senaste
               åren med ett ökat drickande. Det är en ökning på 20 % sedan 1996.
@@ -2178,26 +2607,32 @@
               har till exempel kommit oroande signaler om att fler kvinnor dricker
               under graviditeten.
             </seg>
-            <seg n="aad831eb">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-283" prev="i-dcf0e75efda09e70-279" who="Q724410">
+            <seg>
               Detta är ett allvarligt ämne att arbeta med. Det underlättas
               inte av eventuella hot mot Systembolagets monopol. Det är vår
               uppfattning att den ordning som nu råder uppfyller kommissionens
               krav och även fördraget. Det brev som vi har fått från EU-
             </seg>
-            <seg n="007bdb48">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-284" prev="i-dcf0e75efda09e70-279" who="Q724410">
+            <seg>
               kommissionen analyseras nu i Regeringskansliet. Vi ska lämna
               ett svar på detta. Jag tror att det är den 25
             </seg>
-            <seg n="79530156">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-285" prev="i-dcf0e75efda09e70-279" who="Q724410">
+            <seg>
               december. Då kommer vi också att ge en lång redogörelse för hur
               vi ser på detta i detalj.
             </seg>
           </u>
-          <note type="speaker" n="3d6e38ae">
+          <note type="speaker">
             Anf. 63 GABRIEL ROMANUS (fp):
           </note>
-          <u who="Q724410" xml:id="i-cd11f6fbd14e6bc7-1" n="4ac80f4f" next="i-f62a664663a721db-1">
-            <seg n="6e62bbd9">
+          <u xml:id="i-dcf0e75efda09e70-286" next="i-dcf0e75efda09e70-295" who="Q724410">
+            <seg>
               Fru talman! Sverige kom överens med kommissionen om att vi skulle
               få behålla detaljhandelsmonopolet om vi avvecklade en del andra
               monopol. Kommissionen ville att Sverige skulle åta sig att sköta
@@ -2208,280 +2643,320 @@
               för kunder i Sverige att handla varorna utan att utsättas för
               kommersiellt tryck och marknadsföring.
             </seg>
-            <seg n="4c0e30c5">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-287" prev="i-dcf0e75efda09e70-286" who="Q724410">
+            <seg>
               Jag skulle vilja fråga om statsrådet delar den uppfattningen
               och om han delar min uppfattning att kommissionen i anslutning
               till medlemskapsförhandlingarna godkände den här ordningen och
               till och med krävde av Sverige att vi skulle lösa det på det här
               sättet och att detta också är godkänt i domen i Luxemburg 1997.
             </seg>
-            <seg n="98c23215">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-288" prev="i-dcf0e75efda09e70-286" who="Q724410">
+            <seg>
               Sedan ska jag kanske tillägga att det är oroande tecken som statsrådet
               nämner. Nu börjar vi få lokala uppgifter om att alkoholrelaterad
               dödlighet och sjuklighet ökar.
             </seg>
           </u>
-          <note n="05150794">
+          <note>
             Anf. 64 Statsrådet MORGAN JOHANS-
           </note>
-          <note n="3cdadb31">
-            SON (s):
-          </note>
-          <u who="Q724410" xml:id="i-f62a664663a721db-1" n="4ac80f4f" prev="i-cd11f6fbd14e6bc7-1">
-            <seg n="d11d3f71">
+          <u xml:id="i-dcf0e75efda09e70-289" prev="i-dcf0e75efda09e70-286" who="Q724410">
+            <seg>
+              SON (s):
+            </seg>
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-290" prev="i-dcf0e75efda09e70-286" who="Q724410">
+            <seg>
               Fru talman! Den dom som Gabriel Romanus hänvisar till är den
               så kallade Franzéndomen i frågan om man ska få lov till försäljning
               från ICA-affärer, Konsumaffärer och så vidare. Sverige fick i
               EG-
             </seg>
-            <seg n="54f76f19">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-291" prev="i-dcf0e75efda09e70-286" who="Q724410">
+            <seg>
               domstolen rätt att driva sin linje, det vill säga att
             </seg>
-            <seg n="42b639b5">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-292" prev="i-dcf0e75efda09e70-286" who="Q724410">
+            <seg>
               Systembolagets monopol kunde behållas.
             </seg>
-            <seg n="cde769fd">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-293" prev="i-dcf0e75efda09e70-286" who="Q724410">
+            <seg>
               Kommissionen hävdar i sitt brev att denna dom inte är tillämplig
               i den här situationen med en direktimport. Vi håller nu på att
               analysera denna fråga för att se hur vi ska svara på detta. I
               botten finns en skriftväxling mellan EG-kommissionen och den svenska
               regeringen från tiden före folkomröstningen.
             </seg>
-            <seg n="98ca3d5d">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-294" prev="i-dcf0e75efda09e70-286" who="Q724410">
+            <seg>
               Den bild som Gabriel Romanus ger av detta är sann, nämligen att
               EG-kommissionen pekar på att den ordningen att Systembolaget har
               hand om distributionen inte strider mot fördragen, utan det är
               en ordning som man har godkänt.
             </seg>
-            <seg n="b62fbb07">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-295" prev="i-dcf0e75efda09e70-286" who="Q724410">
+            <seg>
               Jag har sagt att vi för Sveriges del kommer att hålla vår del
               av överenskommelsen, och vi utgår från att EG-kommissionen håller
               sin del av den.
             </seg>
-            <seg n="0c2db9a1">
+          </u>
+          <note type="speaker">
+            Anf. 65 ANDRE VICE TALMANNEN:
+          </note>
+          <u xml:id="i-dcf0e75efda09e70-296" who="unknown">
+            <seg>
               Detta fick bli den sista frågan och det sista svaret.
             </seg>
-            <seg n="56b5a7e5">
+          </u>
+          <u xml:id="i-dcf0e75efda09e70-297" who="unknown">
+            <seg>
               Jag tackar kammarens ledamöter och regeringsföreträdarna för
               den här frågestunden.
             </seg>
-            <seg n="ecf279b0">
-              Ohälsan inom departement
-            </seg>
-            <seg n="35b187e3">
-              FN:s internationella konvention för skydd av migrantarbetare
-            </seg>
-            <seg n="e60c1c51">
-              FN:s konvention för migrantarbetare
-            </seg>
-            <seg n="3f69f181">
-              Bosse Ringholm
-            </seg>
-            <seg n="0e6a2ae9">
-              Djurskyddsmyndigheten
-            </seg>
-            <seg n="5ae1f7fa">
-              Ensidigt svenskt torskfiskestopp
-            </seg>
-            <seg n="848755ac">
-              Polisiär verksamhet i kommunerna
-            </seg>
-            <seg n="82cb41a2">
-              Skadestånd vid inbrott i bostad
-            </seg>
-            <seg n="54ba13e3">
-              Alternativ finansiering av vägbyggnation
-            </seg>
-            <seg n="01b193c5">
-              Minskning av antalet penningdepåer
-            </seg>
-            <seg n="4275d312">
-              Försvunna ensamma asylsökande barn
-            </seg>
-            <seg n="087282d8">
-              Sveriges och Sidas stöd till humanitär minröjning
-            </seg>
-            <seg n="6ae9cc7b">
-              Turkiets flyktingpolitik och UNHCR:s ställning
-            </seg>
-            <seg n="22cee847">
-              Massvälten i Etiopien
-            </seg>
-            <seg n="44c6dd0b">
-              Förhållanden för ensamma flyktingbarn
-            </seg>
           </u>
-          <note n="907b7294" type="speaker">
-            Anf. 65 ANDRE VICE TALMANNEN:
-          </note>
-          <note n="d10b4e42">
+          <note>
             4 § Bordläggning
           </note>
-          <note n="025ce709">
+          <note>
             Anmäldes och bordlades
           </note>
-          <note n="ab3323bc">
+          <note>
             Förslag
           </note>
-          <note n="6cd243f1">
+          <note>
             2002/03:RR4 Riksdagens revisorers förslag angående nationella
             mål i kommunernas äldreomsorg
           </note>
-          <note n="1113f62f">
+          <note>
             2002/03:RR8 Riksdagens revisorers förslag angående familjehemsvården
           </note>
-          <note n="1d3cbd9a">
+          <note>
             5 § Anmälan om interpellation
           </note>
-          <note n="f0910f67">
+          <note>
             Anmäldes att följande interpellation framställts
           </note>
-          <note n="bfe39387">
+          <note>
             den 21 november
           </note>
-          <note n="f3d912de">
-            2002/03:46 av Lars Ohly (v) till utrikesminister Anna
-          </note>
-          <note n="3ed127dc">
+          <u xml:id="i-dcf0e75efda09e70-298" who="unknown">
+            <seg>
+              2002/03:46 av Lars Ohly (v) till utrikesminister Anna
+            </seg>
+          </u>
+          <note>
             Lindh
           </note>
-          <note n="20b52519">
+          <note>
             Svenska medborgare med viss utländsk bakgrund
           </note>
-          <note n="2fc5c351">
+          <note>
             Interpellationen redovisas i bilaga som fogas till riksdagens
             snabbprotokoll tisdagen den 26 november.
           </note>
-          <note n="151f4b7b">
+          <note>
             6 § Anmälan om frågor för skriftliga svar
           </note>
-          <note n="5e643393">
-            Anmäldes att följande frågor för skriftliga svar framställts
-          </note>
-          <note n="bfe39387">
+          <u xml:id="i-dcf0e75efda09e70-299" who="unknown">
+            <seg>
+              Anmäldes att följande frågor för skriftliga svar framställts
+            </seg>
+          </u>
+          <note>
             den 21 november
           </note>
-          <note n="c65fdded">
+          <note>
             2002/03:160 av Mona Jönsson (mp) till statsminister
           </note>
-          <note n="47bd946c">
+          <note>
             Göran Persson
           </note>
-          <note n="c197e4e0">
+          <u xml:id="i-dcf0e75efda09e70-300" who="unknown">
+            <seg>
+              Ohälsan inom departement
+            </seg>
+          </u>
+          <note>
             2002/03:161 av Stefan Attefall (kd) till statsrådet Jan
           </note>
-          <note n="5d78cdac">
+          <note>
             O Karlsson
           </note>
-          <note n="7171dbab">
+          <note>
+            FN:s internationella konvention för skydd av migrantarbetare
+          </note>
+          <note>
             2002/03:162 av Erik Ullenhag (fp) till statsrådet Jan
           </note>
-          <note n="5d78cdac">
+          <note>
             O Karlsson
           </note>
-          <note n="edc307e5">
+          <note>
+            FN:s konvention för migrantarbetare
+          </note>
+          <note>
             2002/03:163 av Eva Arvidsson (s) till finansminister
           </note>
-          <note n="d29590b6">
+          <u xml:id="i-dcf0e75efda09e70-301" who="unknown">
+            <seg>
+              Bosse Ringholm
+            </seg>
+          </u>
+          <note>
             Skattelagstiftning gällande ideella stiftelser
           </note>
-          <note n="34e0bb4f">
+          <note>
             2002/03:164 av Mikael Oscarsson (kd) till jordbruksminister Ann-Christin
             Nykvist
           </note>
-          <note n="50edbcae">
+          <u xml:id="i-dcf0e75efda09e70-302" who="unknown">
+            <seg>
+              Djurskyddsmyndigheten
+            </seg>
+          </u>
+          <note>
             2002/03:165 av Lars Tysklind (fp) till jordbruksminister Ann-Christin
             Nykvist
           </note>
-          <note n="fb696f62">
+          <u xml:id="i-dcf0e75efda09e70-303" who="unknown">
+            <seg>
+              Ensidigt svenskt torskfiskestopp
+            </seg>
+          </u>
+          <note>
             2002/03:166 av Cecilia Widegren (m) till justitieminister Thomas
             Bodström
           </note>
-          <note n="f1fdc67d">
+          <note>
+            Polisiär verksamhet i kommunerna
+          </note>
+          <note>
             2002/03:167 av Maria Larsson (kd) till justitieminister Thomas
             Bodström
           </note>
-          <note n="ac6d16a4">
+          <note>
+            Skadestånd vid inbrott i bostad
+          </note>
+          <note>
             2002/03:168 av Ulf Sjösten (m) till statsrådet Ulrica
           </note>
-          <note n="ca4e91e0">
+          <note>
             Messing
           </note>
-          <note n="97840a30">
+          <note>
+            Alternativ finansiering av vägbyggnation
+          </note>
+          <note>
             2002/03:169 av Anders Sundström (s) till statsrådet
           </note>
-          <note n="c711be3d">
+          <note>
             Gunnar Lund
           </note>
-          <note n="f41a0a8e">
+          <note>
+            Minskning av antalet penningdepåer
+          </note>
+          <note>
             2002/03:170 av Lena Ek (c) till statsrådet Jan O
           </note>
-          <note n="1690a911">
+          <note>
             Karlsson
           </note>
-          <note n="3bcd2226">
+          <note>
+            Försvunna ensamma asylsökande barn
+          </note>
+          <note>
             Frågorna redovisas i bilaga som fogas till riksdagens snabbprotokoll
             tisdagen den 26 november.
           </note>
-          <note n="3d458894">
+          <note>
             7 § Anmälan om skriftliga svar på frågor
           </note>
-          <note n="d641c7ed">
+          <note>
             Anmäldes att skriftliga svar på följande frågor inkommit
           </note>
-          <note n="56984968">
+          <note>
             den 20 november
           </note>
-          <note n="2c5223be">
+          <note>
             2002/03:130 av Ingela Thalén (s) till finansminister
           </note>
-          <note n="6b12a145">
-            Bosse Ringholm
-          </note>
-          <note n="2eefeb98">
+          <u xml:id="i-dcf0e75efda09e70-304" who="unknown">
+            <seg>
+              Bosse Ringholm
+            </seg>
+          </u>
+          <note>
             Åtgärder mot utförsäljning av statlig mark
           </note>
-          <note n="bfe39387">
+          <note>
             den 21 november
           </note>
-          <note n="415d1480">
+          <note>
             2002/03:107 av Lars Ångström (mp) till statsrådet
           </note>
-          <note n="33cfecce">
+          <note>
             Jan O Karlsson
           </note>
-          <note n="48b2f80f">
+          <u xml:id="i-dcf0e75efda09e70-305" who="unknown">
+            <seg>
+              Sveriges och Sidas stöd till humanitär minröjning
+            </seg>
+          </u>
+          <note>
             2002/03:123 av Sermin Özürküt (v) till utrikesminister Anna Lindh
           </note>
-          <note n="aac2fa4b">
+          <u xml:id="i-dcf0e75efda09e70-306" who="unknown">
+            <seg>
+              Turkiets flyktingpolitik och UNHCR:s ställning
+            </seg>
+          </u>
+          <note>
             2002/03:125 av Lars Ohly (v) till statsrådet Jan O
           </note>
-          <note n="1690a911">
+          <note>
             Karlsson
           </note>
-          <note n="771dc9aa">
+          <note>
+            Massvälten i Etiopien
+          </note>
+          <note>
             2002/03:139 av Helene Petersson (s) till statsrådet
           </note>
-          <note n="33cfecce">
+          <note>
             Jan O Karlsson
           </note>
-          <note n="e35f42fe">
+          <note>
             Avvisning till Bosnien och Hercegovina
           </note>
-          <note n="7053311c">
+          <note>
             2002/03:141 av Eva Arvidsson (s) till statsrådet Jan O
           </note>
-          <note n="1690a911">
+          <note>
             Karlsson
           </note>
-          <note n="8363e07f">
+          <u xml:id="i-dcf0e75efda09e70-307" who="unknown">
+            <seg>
+              Förhållanden för ensamma flyktingbarn
+            </seg>
+          </u>
+          <note>
             Svaren redovisas i bilaga som fogas till riksdagens snabbprotokoll
             tisdagen den 26 november.
           </note>
-          <note n="c4e8e140">
+          <note>
             8 § Kammaren åtskildes kl. 15.00.
           </note>
-          <note n="c784d3eb">
+          <note>
             Förhandlingarna leddes av tredje vice talmannen från sammanträdets
             början till ajourneringen kl. 12.28 och av andre vice talmannen
             därefter till sammanträdets slut.

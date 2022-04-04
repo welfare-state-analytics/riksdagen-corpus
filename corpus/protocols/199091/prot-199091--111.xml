@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1990</title>
+        <title>Riksdagens protocols 199091</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1990</title>
+          <title>Riksdagens protocols 199091</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -63,35 +60,35 @@
       </front>
       <body>
         <div>
-          <note n="0a5f44d7">
+          <note>
             Meddelande om information från regeringen
           </note>
-          <note type="speaker" n="36e3b699">
+          <note type="speaker">
             Anf. 1 TREDJE VICE TALMANNEN:
           </note>
-          <note n="b0e76f76">
+          <note>
             Vid kammarens sammanträde torsdagen den 16
           </note>
-          <note n="6cf8056a">
+          <note>
             maj lämnar statsrådet Anita Gradin kl. 14.30
           </note>
-          <note n="0d7ff883">
+          <note>
             information om EES-förhandlingarna.
           </note>
-          <note n="3592a20c">
+          <note>
             1 § Justering av protokoll
           </note>
-          <note n="9be7fcd2">
+          <note>
             Justerades protokollet för den 7 maj.
           </note>
-          <note n="26421ca4">
+          <note>
             2 § Svar på fråga 1990/91:568 om gruppbostäder för psykiskt utvecklingsstörda
           </note>
-          <note type="speaker" n="333145b8">
+          <note type="speaker">
             Anf. 2 Statsrådet BENGT LINDQVIST (s):
           </note>
-          <u who="Q5957403" xml:id="i-75d387144d6c4049-0" n="8d1d568b">
-            <seg n="b8406f01">
+          <u xml:id="i-2eca2ed217ccf266-0" next="i-2eca2ed217ccf266-8" who="Q5957403">
+            <seg>
               Herr talman! Marianne Andersson i Vårgårda har frågat socialministern
               om hon delar socialstyrelsens uppfattning att ett boende i offentlig
               regi kan vara familjelikt för fem personer medan det i privat
@@ -99,20 +96,24 @@
               ge socialstyrelsen andra direktiv. Arbetet inom regeringen är
               så fördelat att det är jag som skall besvara frågan.
             </seg>
-            <seg n="bbb2fdfe">
-              Boende i gruppbostad är en av de särskilda omsorgerna enligt
-              lagen (1985:568) om särskilda omsorger om psykiskt utvecklingsstörda
-              m.fl. I den proposition som föregick lagen framhöll det dåvarande
-              statsrådet som önskvärt att bara ett fåtal personer bor i varje
-              gruppbostad. Antalet fyra angavs som ett riktmärke.
-            </seg>
-            <seg n="9003d898">
+          </u>
+          <note>
+            Boende i gruppbostad är en av de särskilda omsorgerna enligt
+            lagen (1985:568) om särskilda omsorger om psykiskt utvecklingsstörda
+            m.fl. I den proposition som föregick lagen framhöll det dåvarande
+            statsrådet som önskvärt att bara ett fåtal personer bor i varje
+            gruppbostad. Antalet fyra angavs som ett riktmärke.
+          </note>
+          <u xml:id="i-2eca2ed217ccf266-1" prev="i-2eca2ed217ccf266-0" who="Q5957403">
+            <seg>
               Enskilda personer, föreningar och andra får driva gruppbostad
               och viss annan omsorgsverksamhet om socialstyrelsen lämnar tillstånd
               till verksamheten. Socialstyrelsens beslut i fråga om sådant tillstånd
               får överklagas hos kammarrätten.
             </seg>
-            <seg n="ded2febd">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-2" prev="i-2eca2ed217ccf266-0" who="Q5957403">
+            <seg>
               Socialstyrelsen har inte befogenhet att godkänna omsorgsverksamhet
               som bedrivs av landsting eller kommuner. Två beslut av socialstyrelsen
               att avslå ansökningar från enskilda vårdgivare att anordna gruppbostad
@@ -120,44 +121,54 @@
               kammarrätten. Rätten lämnade besvären utan bifall. Kammarrättens
               domar är överklagade hos regeringsrätten, som har beviljat prövningstillstånd.
             </seg>
-            <seg n="714e0650">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-3" prev="i-2eca2ed217ccf266-0" who="Q5957403">
+            <seg>
               Enligt min uppfattning bör regeringsrättens beslut i denna fråga
               inte föregripas.
             </seg>
           </u>
-          <note n="5bf1b042">
+          <note>
             Anf. 3 MARIANNE ANDERSSON i Vårgårda
           </note>
-          <note type="speaker" n="fc6d7d1b">
+          <note>
             (c):
           </note>
-          <u who="unknown" xml:id="i-75ac938ae48657c4-1" n="8d1d568b">
-            <seg n="d956890c">
+          <u xml:id="i-2eca2ed217ccf266-4" prev="i-2eca2ed217ccf266-0" who="Q5957403">
+            <seg>
               Herr talman! Jag vill tacka statsrådet för svaret, även om jag
               inte kan påstå att jag är särskilt nöjd.
             </seg>
-            <seg n="7d2e7fa8">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-5" prev="i-2eca2ed217ccf266-0" who="Q5957403">
+            <seg>
               Jag ställde den här frågan med anledning av ett ärende i Älvsborgs
               län, där en privat institution är på väg att omvandlas till gruppboende.
               Nu kommer det hela att fördröjas, och på grund av den ekonomiska
               situation som landstinget befinner sig i blir det väldigt svårt
               att klara av detta inom önskvärd tid.
             </seg>
-            <seg n="54040b56">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-6" prev="i-2eca2ed217ccf266-0" who="Q5957403">
+            <seg>
               Jag vill hänvisa till skrivningen i regeringens proposition nr
               1984/85:176. Där säger man beträffande elevhem: ''Det av omsorgskommittén
               angivna antalet fyra KAN därvid tjäna som riktmärke. Det bör dock
               inte ses som ett absolut krav i samtliga fall. Liksom många av
               remissinstanserna anser jag att det måste finnas utrymme för flexibilitet.''
             </seg>
-            <seg n="3c03d77e">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-7" prev="i-2eca2ed217ccf266-0" who="Q5957403">
+            <seg>
               När det gäller den privata verksamheten säger man att en icke
               obetydlig del av de nuvarande omsorgerna formellt ges av privata
               huvudmän. Det gäller främst vårdhem. I praktiken utgör dessa en
               del av landstingens verksamhet, eftersom alla vårdplatser ställs
               till landstingens förfogande och utnyttjande.
             </seg>
-            <seg n="79642ab5">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-8" prev="i-2eca2ed217ccf266-0" who="Q5957403">
+            <seg>
               Detta gör att skillnaderna mellan vårdhem drivna i offentlig
               regi och privata vårdhem egentligen inte är stora men att hanteringen
               är olik. Det är ganska otillfredsställande att få svaret att socialstyrelsen
@@ -168,15 +179,17 @@
               svar från statsrådet hur man egentligen ser på detta.
             </seg>
           </u>
-          <note type="speaker" n="20b22e37">
+          <note type="speaker">
             Anf. 4 Statsrådet BENGT LINDQVIST (s):
           </note>
-          <u who="Q5957403" xml:id="i-75d387144d6c4049-1" n="8d1d568b">
-            <seg n="4da4315f">
+          <u xml:id="i-2eca2ed217ccf266-9" next="i-2eca2ed217ccf266-18" who="Q5957403">
+            <seg>
               Herr talman! Kanske jag först med några ord får beröra frågan
               om hur stor en gruppbostad bör vara.
             </seg>
-            <seg n="3af2b635">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-10" prev="i-2eca2ed217ccf266-9" who="Q5957403">
+            <seg>
               Det handlar här om människor med utvecklingsstörning som sitt
               handikapp. Tanken är ju att det genom ett litet format -- den
               lilla enhetens princip har man ofta talat om -- skall bli lättare
@@ -185,11 +198,15 @@
               på omkring fyra skulle vara lagom, dvs. ett tänkbart antal. Det
               är därför vi har använt oss av ett riktmärke på omkring fyra.
             </seg>
-            <seg n="d11aab32">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-11" prev="i-2eca2ed217ccf266-9" who="Q5957403">
+            <seg>
               I många landsting och kommuner har man gruppbostäder för fem
               personer. Detta antal är bara ett riktmärke, precis som Marianne
             </seg>
-            <seg n="5be5e9fc">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-12" prev="i-2eca2ed217ccf266-9" who="Q5957403">
+            <seg>
               Andersson säger. Skillnaden är att socialstyrelsen är den instans
               som gör bedömningen när det gäller enskilda gruppbostäder. Den
               ordningen kan man naturligtvis diskutera, men det är den ordning
@@ -198,7 +215,9 @@
               med precis det bakgrundsmaterial som också socialstyrelsen har
               haft. Därefter får vi se vad regeringsrätten säger.
             </seg>
-            <seg n="ad60358c">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-13" prev="i-2eca2ed217ccf266-9" who="Q5957403">
+            <seg>
               Jag vill understryka att just det lilla antalet är oerhört viktigt.
               Därmed tar jag inte ställning till om antalet skall vara fyra
               eller fem. Jag vill påpeka att om man väljer antalet fyra innebär
@@ -207,23 +226,27 @@
               ungdomar -- detta för att göra deras levnadsbetingelser desto
               bättre.
             </seg>
-            <seg n="050c29e5">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-14" prev="i-2eca2ed217ccf266-9" who="Q5957403">
+            <seg>
               Men ännu så länge har ingen strävat efter att bygga gruppbostäder
               för tre personer. Det har hela tiden varit ett tryck uppåt, dvs.
               att öka antalet ekonomiska skäl, vilket i och för sig är begripligt.
             </seg>
           </u>
-          <note n="be6946a7">
+          <note>
             Anf. 5 MARIANNE ANDERSSON i Vårgårda
           </note>
-          <note type="speaker" n="fc6d7d1b">
+          <note>
             (c):
           </note>
-          <u who="unknown" xml:id="i-75ac938ae48657c4-2" n="8d1d568b">
-            <seg n="9218d9dc">
+          <u xml:id="i-2eca2ed217ccf266-15" prev="i-2eca2ed217ccf266-9" who="Q5957403">
+            <seg>
               Herr talman! Vi är ganska överens om, Bengt
             </seg>
-            <seg n="5e4e72f0">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-16" prev="i-2eca2ed217ccf266-9" who="Q5957403">
+            <seg>
               Lindqvist och jag, att vi skall sträva efter ett så familjelikt
               boende som möjligt, men det är viktigt att vi tar hänsyn till
               sådana faktorer som vi inte kan komma ifrån. Dels måste vi ta
@@ -232,62 +255,74 @@
               anpassa sig till omständigheterna, som det också stod i propositionen
               som jag tidigare hänvisade till.
             </seg>
-            <seg n="1e417478">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-17" prev="i-2eca2ed217ccf266-9" who="Q5957403">
+            <seg>
               Jag tycker inte att man gör det. När det gäller att bygga i offentlig
               regi är det inte fråga om så strikta regler, utan då kan man bygga
               för fem, men bygger man i privat regi gäller antalet fyra. Jag
               finner detta synnerligen märkligt.
             </seg>
-            <seg n="ef0f89c2">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-18" prev="i-2eca2ed217ccf266-9" who="Q5957403">
+            <seg>
               Även om jag inte begär att statsrådet skall föregripa ett domstolsutslag,
               menar jag att man ändå kan ändra direktiven till en myndighet,
               och jag undrar om det inte är dags att göra så.
             </seg>
           </u>
-          <note type="speaker" n="00e7da02">
+          <note type="speaker">
             Anf. 6 Statsrådet BENGT LINDQVIST (s):
           </note>
-          <u who="Q5957403" xml:id="i-75d387144d6c4049-2" n="8d1d568b">
-            <seg n="24e996e4">
+          <u xml:id="i-2eca2ed217ccf266-19" next="i-2eca2ed217ccf266-24" who="Q5957403">
+            <seg>
               Herr talman! Socialstyrelsen och varje landsting gör bedömningen
               utifrån samma utgångspunkter.
             </seg>
-            <seg n="24593d99">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-20" prev="i-2eca2ed217ccf266-19" who="Q5957403">
+            <seg>
               Det finns ingenting annat än propositionens uttalande om fyra
               såsom riktmärke. Samma uttalande om flexibilitet gäller både för
               landstingens byggande av gruppbostäder och för socialstyrelsens
               bedömningar av enskilda gruppbostäder. Mot den bakgrunden skall
               de rättsliga instanserna pröva detta.
             </seg>
-            <seg n="f91133af">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-21" prev="i-2eca2ed217ccf266-19" who="Q5957403">
+            <seg>
               Till sist vill jag säga att hela frågan om omsorgslagen och dess
               framtid är i stöpsleven i och med att handikapputredningen överväger
               att lägga fram förslag om en lag, som ersätter och vidgar omsorgslagen
               så att den kommer att omfatta ett mycket större antal människor
               med funktionshinder.
             </seg>
-            <seg n="fc75401b">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-22" prev="i-2eca2ed217ccf266-19" who="Q5957403">
+            <seg>
               Det är i det sammanhanget, i behandlingen av den eventuellt nya
               lag som handikapputredningen föreslår, som vi får möjlighet att
               använda oss av de erfarenheter vi hittills har och se om det är
               någonting vi vill ändra på för framtiden.
             </seg>
           </u>
-          <note n="48aee726">
+          <note>
             Anf. 7 MARIANNE ANDERSSON i Vårgårda
           </note>
-          <note type="speaker" n="fc6d7d1b">
+          <note>
             (c):
           </note>
-          <u who="unknown" xml:id="i-75ac938ae48657c4-3" n="8d1d568b">
-            <seg n="b123720e">
+          <u xml:id="i-2eca2ed217ccf266-23" prev="i-2eca2ed217ccf266-19" who="Q5957403">
+            <seg>
               Herr talman! Detta låter väldigt bra. Jag hoppas att utredningen,
               med de beslut som följer, också leder till att man kan få större
               flexibilitet och möjlighet att fatta lokala beslut, dvs. anpassa
               verksamheten efter de handikappades förutsättningar. Det är naturligtvis
               det som är det viktiga.
             </seg>
-            <seg n="b0ea742f">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-24" prev="i-2eca2ed217ccf266-19" who="Q5957403">
+            <seg>
               Statsrådet säger också att socialstyrelsen och landstingen bedömer
               på samma grunder. Men uppenbarligen kommer man till ganska olika
               resultat. Det visar ändå att det finns oklarheter. Jag hoppas
@@ -297,22 +332,24 @@
               hela processen på grund av byråkratin och bristen på resurser.
             </seg>
           </u>
-          <note n="8e3d9822">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="32a7c63f">
+          <note>
             3 § Svar på fråga 1990/91:560 om praxis i asylärenden
           </note>
-          <note type="speaker" n="0255e4ef">
+          <note type="speaker">
             Anf. 8 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-ddaf8ca87c710884-0" n="8d1d568b">
-            <seg n="c45f8c3e">
+          <u xml:id="i-2eca2ed217ccf266-25" who="unknown">
+            <seg>
               Herr talman! Maria Leissner har frågat mig om man har för avsikt
               att återinföra den s.k. barnpraxis som innebär att barnfamiljer
               får stanna en viss tid i landet.
             </seg>
-            <seg n="fca5178f">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-26" who="unknown">
+            <seg>
               Av frågan att döma tycks Maria Leissner inte ha klart för sig
               vilken praxis som för närvarande råder beträffande barnfamiljer.
               En särskild schablonregel tillämpas nämligen fortfarande. Den
@@ -320,57 +357,69 @@
               handläggningstiden utan knuten till tidpunkten för invandrarverkets
               beslut.
             </seg>
-            <seg n="a1849d45">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-27" who="unknown">
+            <seg>
               En barnfamilj som efter det att ansökan om uppehållstillstånd
               givits in vistats i Sverige i över ett år utan att invandrarverket
               fattat beslut får således stanna, såvida inte särskilda skäl talar
               emot. Någon ändring av denna praxis övervägs inte.
             </seg>
           </u>
-          <note n="ca860534">
+          <note>
             Då Maria Leissner, som framställt frågan, anmält att hon var
             förhindrad att närvara vid sammanträdet, medgav tredje vice talmannen
             att
           </note>
-          <u who="unknown" xml:id="i-b800008e9f8e99f6-0" n="8d1d568b">
-            <seg n="03a40391">
-              Sigge Godin i stället fick delta i överläggningen.
-            </seg>
-          </u>
-          <note type="speaker" n="8b659463">
+          <note>
+            Sigge Godin i stället fick delta i överläggningen.
+          </note>
+          <note type="speaker">
             Anf. 9 SIGGE GODIN (fp):
           </note>
-          <u who="Q10667542" xml:id="i-1e289d8a8054d636-0" n="e8a36922">
-            <seg n="169bf419">
+          <u xml:id="i-2eca2ed217ccf266-28" next="i-2eca2ed217ccf266-34" who="Q10667542">
+            <seg>
               Herr talman! Jag ber att få tacka invandrarministern för svaret.
             </seg>
-            <seg n="53b5fb59">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-29" prev="i-2eca2ed217ccf266-28" who="Q10667542">
+            <seg>
               Sedan ett och halvt år upplevs att ''barnpraxisen''
             </seg>
-            <seg n="eae91dbe">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-30" prev="i-2eca2ed217ccf266-28" who="Q10667542">
+            <seg>
               upphört att gälla. Som det har sagts får den som har väntat mer
               än ett år på beslut stanna i Sverige.
             </seg>
-            <seg n="8f8c3a46">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-31" prev="i-2eca2ed217ccf266-28" who="Q10667542">
+            <seg>
               Skälet är att barnen hunnit rota sig i Sverige och att ju längre
               tiden går, desto inhumanare är det att utvisa. Men många barnfamiljer
               har ändå utvisats under upprörande omständigheter. Senast för
               några veckor sedan utvisades en grupp
             </seg>
-            <seg n="95649f40">
-              Bulgarienturkar från förläggningen i Ringhals.
-            </seg>
-            <seg n="fd09c07c">
+          </u>
+          <note>
+            Bulgarienturkar från förläggningen i Ringhals.
+          </note>
+          <u xml:id="i-2eca2ed217ccf266-32" prev="i-2eca2ed217ccf266-28" who="Q10667542">
+            <seg>
               Bland dem fanns en ung familj med en liten pojke på sex år som
               var astmasjuk och som troligen inte kunde få någon medicin i Bulgarien.
               Likaså hade en flicka som med sin familj väntade på utvisning
               glömt bort bulgariskan.
             </seg>
-            <seg n="8f355573">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-33" prev="i-2eca2ed217ccf266-28" who="Q10667542">
+            <seg>
               Med anledning av invandrarministerns svar skulle jag vilja fråga:
               Kan man tolka svaret så att den s.k.
             </seg>
-            <seg n="a20bc5c2">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-34" prev="i-2eca2ed217ccf266-28" who="Q10667542">
+            <seg>
               barnpraxisen i princip fortfarande gäller? Hur kommer det sig
               i så fall, med tanke på invandrarministerns svar, att den astmasjuke
               pojken och hans familj ändå utvisades? Vidare skulle jag vilja
@@ -379,11 +428,11 @@
               om följs?
             </seg>
           </u>
-          <note type="speaker" n="f4488386">
+          <note type="speaker">
             Anf. 10 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-e334e4f47e22af26-0" n="8d1d568b">
-            <seg n="d6280d89">
+          <u xml:id="i-2eca2ed217ccf266-35" who="unknown">
+            <seg>
               Herr talman! Det är mycket enkelt i de enskilda ärenden som kommer
               på mitt bord att se när familjen kom till Sverige och när den
               fick besked från invandrarverket. Det är alltså den schablonregeln
@@ -395,15 +444,17 @@
               långa väntetider. Är det så att en barnfamilj inte får beslut
               från första instans inom ett år, görs en s.k.
             </seg>
-            <seg n="9eb20ee7">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-36" who="unknown">
+            <seg>
               förenklad prövning.
             </seg>
           </u>
-          <note type="speaker" n="6c33e80d">
+          <note type="speaker">
             Anf. 11 SIGGE GODIN (fp):
           </note>
-          <u who="Q10667542" xml:id="i-1e289d8a8054d636-1" n="e8a36922">
-            <seg n="2bba156f">
+          <u xml:id="i-2eca2ed217ccf266-37" who="Q10667542">
+            <seg>
               Herr talman! Vi kan vara helt överens om att barnfamiljer skall
               prioriteras därför att det är viktigt att inte barnen tar mer
               skada än vad de redan lidit under sina svåra år. Trots det utvisas
@@ -413,17 +464,19 @@
               om familjer med sjuka barn.
             </seg>
           </u>
-          <note type="speaker" n="7c35cc94">
+          <note type="speaker">
             Anf. 12 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-e334e4f47e22af26-1" n="8d1d568b">
-            <seg n="112860a8">
+          <u xml:id="i-2eca2ed217ccf266-38" who="unknown">
+            <seg>
               Herr talman! Jag vet inte hur jag skall kunna förklara för Sigge
               Godin om han inte förstår. Det handlar sannolikt om att dessa
               familjer -- jag är ganska säker på att det helt enkelt är förklaringen
               --
             </seg>
-            <seg n="70ba139a">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-39" who="unknown">
+            <seg>
               också har utnyttjat den rätt som man har i varje ärende att överklaga
               till regeringen. Av den anledningen har det gått mer än ett år.
               Men de allra flesta barnfamiljer får besked från invandrarverket
@@ -432,16 +485,18 @@
               ta längre tid. Men invandrarverkets beslut ger i de allra flesta
               fall, kanske framför allt för gruppen
             </seg>
-            <seg n="61a1c57c">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-40" who="unknown">
+            <seg>
               Bulgarienturkar, en mycket god fingervisning om vad det slutgiltiga
               beslutet kommer att innebära, även om man överklagar.
             </seg>
           </u>
-          <note type="speaker" n="2193fb5b">
+          <note type="speaker">
             Anf. 13 SIGGE GODIN (fp):
           </note>
-          <u who="Q10667542" xml:id="i-1e289d8a8054d636-2" n="e8a36922">
-            <seg n="a9f33116">
+          <u xml:id="i-2eca2ed217ccf266-41" who="Q10667542">
+            <seg>
               Herr talman! Invandrarministern säger i svaret att bara när särskilda
               skäl talar emot skall man inte låta dem stanna. Det känns litet
               konstigt att stå här med ett antal referat om fall där familjer
@@ -450,11 +505,11 @@
               följs. Det stämmer dåligt. Vi kan väl aldrig bli överens.
             </seg>
           </u>
-          <note type="speaker" n="8aa2bcfe">
+          <note type="speaker">
             Anf. 14 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-e334e4f47e22af26-2" n="8d1d568b">
-            <seg n="0fd0a9a5">
+          <u xml:id="i-2eca2ed217ccf266-42" who="unknown">
+            <seg>
               Herr talman! Får jag göra ett försök till. Jag vet ingenting
               om de ärenden som Sigge Godin hänvisar till, och det har egentligen
               inte så mycket med det här ärendet att göra huruvida det handlar
@@ -463,11 +518,11 @@
               inom ett år om att de inte kan få asyl i Sverige.
             </seg>
           </u>
-          <note type="speaker" n="0f1ca6bc">
+          <note type="speaker">
             Anf. 15 SIGGE GODIN (fp):
           </note>
-          <u who="Q10667542" xml:id="i-1e289d8a8054d636-3" n="e8a36922">
-            <seg n="96623359">
+          <u xml:id="i-2eca2ed217ccf266-43" who="Q10667542">
+            <seg>
               Herr talman! Det är alldeles riktigt att språket inte har någon
               betydelse. Det är bara ett bevis på hur snabbt barnen kommer in
               i en ny miljö. Får jag ändå uttrycka det som så att jag hoppas
@@ -481,151 +536,173 @@
               viktiga.
             </seg>
           </u>
-          <note n="8e3d9822">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="18c3872a">
+          <note>
             4 § Svar på fråga 1990/91:566 om prissättningen på invandrarverkets
             praxissamling
           </note>
-          <note type="speaker" n="33f8f35e">
+          <note type="speaker">
             Anf. 16 Statsådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-ddaf8ca87c710884-1" n="8d1d568b">
-            <seg n="ad31b25e">
+          <u xml:id="i-2eca2ed217ccf266-44" who="unknown">
+            <seg>
               Herr talman! Berith Eriksson har frågat mig om regeringen avser
               att vidta åtgärder för att mindre bemedlade personer skall kunna
               komma i åtnjutande av invandrarverkets praxisredovisning
             </seg>
           </u>
-          <note n="4e164313">
+          <note>
             (praxissamling) angående asylärenden m.m. i enlighet med offentlighetsprincipen.
           </note>
-          <u who="unknown" xml:id="i-b800008e9f8e99f6-1" n="8d1d568b">
-            <seg n="389b3707">
+          <u xml:id="i-2eca2ed217ccf266-45" who="unknown">
+            <seg>
               Huvudprincipen är att offentliga myndigheter tar betalt för sina
               publikationer. Som exempel kan nämnas riksdagstryck, statens offentliga
               utredningar (SOU), svensk författningssamling
             </seg>
-            <seg n="5eca2dd3">
-              Invandrarverkets praxisredovisning omfattar för närvarande ett
-              sjuttiotal sidor i en A 4-pärm. Priset är 600 kr., vartill kommer
-              mervärdeskatt och portoavgift. Samlingen kommer fortlöpande att
-              kompletteras. Kompletteringarna under det första året ingår i
-              priset.
-            </seg>
-            <seg n="3c499339">
+          </u>
+          <note>
+            (SFS). Författningsmässigt regleras myndigheternas utgivning
+            av offentliga handlingar genom expeditionskungörelsen (KK 1964:618
+            om expeditionsavgift m.m.).
+          </note>
+          <note>
+            Invandrarverkets praxisredovisning omfattar för närvarande ett
+            sjuttiotal sidor i en A 4-pärm. Priset är 600 kr., vartill kommer
+            mervärdeskatt och portoavgift. Samlingen kommer fortlöpande att
+            kompletteras. Kompletteringarna under det första året ingår i
+            priset.
+          </note>
+          <u xml:id="i-2eca2ed217ccf266-46" who="unknown">
+            <seg>
               Invandrarverket avser att kostnadsfritt sända praxisredovisningen,
               således gratisexemplar, till vissa organisationer som bevakar
               flyktingars intressen, såsom UNHCR, Amnesty International och
               Rädda barnen samt även Advokatsamfundet.
             </seg>
-            <seg n="62b1ce0d">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-47" who="unknown">
+            <seg>
               Tack vare offentlighetsprincipen kan var och en som är intresserad
               av att ta del av invandrarverkets praxisredovisning göra det på
               offentliga bibliotek.
             </seg>
-            <seg n="d50e91bd">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-48" who="unknown">
+            <seg>
               Jag finner därför inget skäl till att vidta några åtgärder.
             </seg>
           </u>
-          <note n="ecd00a9a">
-            (SFS). Författningsmässigt regleras myndigheternas utgivning
-            av offentliga handlingar genom expeditionskungörelsen (KK 1964:618
-            om expeditionsavgift m.m.).
-          </note>
-          <note type="speaker" n="c0ede517">
+          <note type="speaker">
             Anf. 17 BERITH ERIKSSON (v):
           </note>
-          <u who="Q4946998" xml:id="i-32b8f2f7bc56c583-0" n="c60badc3">
-            <seg n="975ac6f5">
+          <u xml:id="i-2eca2ed217ccf266-49" next="i-2eca2ed217ccf266-52" who="Q4946998">
+            <seg>
               Herr talman! Jag får tacka Maj-Lis Lööw för svaret.
             </seg>
-            <seg n="3e777225">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-50" prev="i-2eca2ed217ccf266-49" who="Q4946998">
+            <seg>
               Denna pärm innehåller ett 70-tal sidor, varav ungefär 30 sidor
               utgör effektiv text. Pärmen kostar nästan 800 kr. Visserligen
               har det tagit väldigt många år att ta fram denna praxissamling,
               men såvitt jag förstår är inte priset satt efter tidsåtgången
               -- eller är det så? -- utan det måste ju handla om framställningskostnader.
             </seg>
-            <seg n="8a6d435b">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-51" prev="i-2eca2ed217ccf266-49" who="Q4946998">
+            <seg>
               Annat offentligt tryck som man vill ta del av kostar ungefär
               3 kr. per sida, vilket i det här fallet som rör sig om 70 sidor
               skulle innebära 210 kr.
             </seg>
-            <seg n="209bb32b">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-52" prev="i-2eca2ed217ccf266-49" who="Q4946998">
+            <seg>
               Jag vill fråga Maj-Lis Lööw: Anser invandrarministern att priset
               är rimligt, att det står i paritet med de kostnader som man tar
               ut för andra offentliga publikationer?
             </seg>
           </u>
-          <note type="speaker" n="2b7a9d65">
+          <note type="speaker">
             Anf. 18 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-e334e4f47e22af26-3" n="8d1d568b">
-            <seg n="359d44fe">
+          <u xml:id="i-2eca2ed217ccf266-53" who="unknown">
+            <seg>
               Herr talman! Frågan var inte så ställd från början.
             </seg>
-            <seg n="744fa5d9">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-54" who="unknown">
+            <seg>
               Därför har jag inte försökt ta reda på vad som ligger bakom denna
               prissättning. Men jag utgår ifrån att invandrarverket inte tar
               ut något oskäligt pris.
             </seg>
-            <seg n="56e81820">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-55" who="unknown">
+            <seg>
               Som jag sade i mitt svar handlar det ju inte bara om de första
               sidorna, utan denna samling kommer fortlöpande att kompletteras.
               Det första årets kompletteringar ingår i priset.
             </seg>
-            <seg n="98c43382">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-56" who="unknown">
+            <seg>
               Berith Eriksson frågade mig om jag, mot bakgrund av att hon ansåg
               att priset var för högt, var beredd att medverka till att denna
               samling görs tillgänglig för mindre bemedlade människor. Jag redovisade
               då de principer som gäller.
             </seg>
           </u>
-          <note type="speaker" n="8543e43a">
+          <note type="speaker">
             Anf. 19 BERITH ERIKSSON (v):
           </note>
-          <u who="Q4946998" xml:id="i-32b8f2f7bc56c583-1" n="c60badc3">
-            <seg n="6a9f1cbc">
+          <u xml:id="i-2eca2ed217ccf266-57" next="i-2eca2ed217ccf266-59" who="Q4946998">
+            <seg>
               Herr talman! Frågan handlade om priset, och då förutsatte jag
               att invandrarministern också skulle ta reda på varför priset är
               så högt.
             </seg>
-            <seg n="ff2ae293">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-58" prev="i-2eca2ed217ccf266-57" who="Q4946998">
+            <seg>
               Med hänsyn till erfarenheterna av hur lång tid det har tagit
               att ta fram den här delen av praxissamlingen, är det ju inte säkert
               att det hinner komma några kompletteringar under det första året.
             </seg>
-            <seg n="0d257087">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-59" prev="i-2eca2ed217ccf266-57" who="Q4946998">
+            <seg>
               Är invandrarministern då beredd att medverka till att de kompletteringar
               som kan komma i framtiden också ingår i grundpriset?
             </seg>
           </u>
-          <note n="8e3d9822">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="3e08662f">
+          <note>
             5 § Svar på fråga 1990/91:573 om visst utlämningsbesluts förenlighet
             med tortyrkonventionen
           </note>
-          <note type="speaker" n="5070c52a">
+          <note type="speaker">
             Anf. 20 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-ddaf8ca87c710884-2" n="8d1d568b">
-            <seg n="d91b8a7d">
+          <u xml:id="i-2eca2ed217ccf266-60" who="unknown">
+            <seg>
               Herr talman! Mot bakgrund av regeringens beslut i ett enskilt
               asylärende har Gullan Lindblad frågat mig varför regeringen fattar
               beslut som uppenbarligen står i strid med de åtaganden som har
               gjorts genom att man har ratificerat tortyrkonventionen.
             </seg>
           </u>
-          <note n="eee1396f">
+          <note>
             Genom Sveriges ratificering av 1984 års konvention mot tortyr
             lagfästes den praxis som tidigare gällt. 8
           </note>
-          <u who="unknown" xml:id="i-b800008e9f8e99f6-2" n="8d1d568b">
-            <seg n="c3db2da7">
+          <u xml:id="i-2eca2ed217ccf266-61" who="unknown">
+            <seg>
               kap. 1 § utlänningslagen (1989:529) innehåller ett generellt
               förbud mot verkställighet som kan medföra risk för dödsstraff,
               kroppsstraff eller tortyr. Det innebär, vid prövning av ett konkret
@@ -634,7 +711,9 @@
               Dessa verkställighetshinder skall också beaktas vid prövningen
               av vederbörandes rätt att få vistas i riket.
             </seg>
-            <seg n="7a2da6dd">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-62" who="unknown">
+            <seg>
               I ärenden där påståenden om tortyr finns med, men detta ändå
               inte leder till att asyl beviljas, kan det bero på skilda orsaker.
               Dels kan utgången av ärendet grundas på att man inte sätter tilltro
@@ -643,23 +722,29 @@
               att det inte finns grundad anledning att tro att personen i fråga
               riskerar att utsättas för ytterligare tortyr vid en hemkomst.
             </seg>
-            <seg n="d2f30176">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-63" who="unknown">
+            <seg>
               I vissa fall av den sistnämnda kategorin har uppehålls- och arbetstillstånd
               ändå beviljats. Det har då rört sig om väldokumenterad tortyr
               enligt
             </seg>
-            <seg n="4cd35491">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-64" who="unknown">
+            <seg>
               FNs tortyrkonvention.
             </seg>
           </u>
-          <note type="speaker" n="8ec9e08a">
+          <note type="speaker">
             Anf. 21 GULLAN LINDBLAD (m):
           </note>
-          <u who="Q4962481" xml:id="i-00ed37b3d1328b42-0" n="bb26f682">
-            <seg n="6df9347c">
+          <u xml:id="i-2eca2ed217ccf266-65" next="i-2eca2ed217ccf266-69" who="Q4962481">
+            <seg>
               Herr talman! Jag ber att få tacka statsrådet Lööw för svaret.
             </seg>
-            <seg n="211dadfa">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-66" prev="i-2eca2ed217ccf266-65" who="Q4962481">
+            <seg>
               Den 16 oktober ställde ett flertal kolleger liknande frågor till
               statsrådet Lööw, i anledning också då av vissa praktiska fall.
               Jag fick då samma, ganska kategoriska svar som jag nu har fått.
@@ -667,17 +752,23 @@
               en man avvisats, trots att tortyr finns bekräftad i ett rättsmedicinskt
               utlåtande.
             </seg>
-            <seg n="e18b1d15">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-67" prev="i-2eca2ed217ccf266-65" who="Q4962481">
+            <seg>
               Det framgår nu att regeringen uppenbarligen inte har satt tilltro
               till den här mannens uppgifter, eller att man bedömer det som
               att tortyren ligger så långt tillbaka i tiden att det för närvarande
               inte finns någon fara för mannens liv.
             </seg>
-            <seg n="784510df">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-68" prev="i-2eca2ed217ccf266-65" who="Q4962481">
+            <seg>
               Det juridiska ombudets uppgifter är dock motstridiga, nämligen
               att personen i fråga fruktar livshotande tortyr i hemlandet.
             </seg>
-            <seg n="044cc6e4">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-69" prev="i-2eca2ed217ccf266-65" who="Q4962481">
+            <seg>
               Vad skall jag, som en av lagstiftarna i denna församling, tro?
               Vem skall jag sätta tilltro till? Jag vill gärna tro att statsrådet
               Lööw har rätt, men jag är oroad och vill därför ställa en kompletterande
@@ -685,42 +776,50 @@
               års tortyrkonvention?
             </seg>
           </u>
-          <note type="speaker" n="df7a13fc">
+          <note type="speaker">
             Anf. 22 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-e334e4f47e22af26-4" n="8d1d568b">
-            <seg n="531ead75">
+          <u xml:id="i-2eca2ed217ccf266-70" who="unknown">
+            <seg>
               Herr talman! Jag tackar för Gullan Lindblads uttalande att hon
               gärna vill sätta tilltro till vad jag säger. Låt mig vända på
               saken: Vad finns det för anledning för mig, när jag prövar de
               enskilda ärendena, att inte pröva dem i enlighet med gällande
               lagstiftning? Självfallet går det till så.
             </seg>
-            <seg n="9d58fb4c">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-71" who="unknown">
+            <seg>
               Om vi nu har olika bedömningar i ett enskilt ärende, beror det
               uppenbarligen på att vi inte har gjort samma bedömning på grundval
               av det underlag som vi har haft att tillgå.
             </seg>
           </u>
-          <note type="speaker" n="847ed54d">
+          <note type="speaker">
             Anf. 23 GULLAN LINDBLAD (m):
           </note>
-          <u who="Q4962481" xml:id="i-00ed37b3d1328b42-1" n="bb26f682">
-            <seg n="d6a21cdd">
+          <u xml:id="i-2eca2ed217ccf266-72" next="i-2eca2ed217ccf266-75" who="Q4962481">
+            <seg>
               Herr talman! Detta gäller människors väl och ve och kanske deras
               möjligheter att överleva. Då bedömer jag det som väldigt viktigt
               att vi över partigränserna lever upp till de lagar och konventioner
               som vi tillsammans står bakom.
             </seg>
-            <seg n="a1e95fae">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-73" prev="i-2eca2ed217ccf266-72" who="Q4962481">
+            <seg>
               Här står uppgift mot uppgift. Jag har fått mina uppgifter från
               en trovärdig källa, från Amnesty
             </seg>
-            <seg n="b47e7d1a">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-74" prev="i-2eca2ed217ccf266-72" who="Q4962481">
+            <seg>
               International och från det juridiska ombudet, som anser att det
               har begåtts en orättfärdighet.
             </seg>
-            <seg n="d44c02f5">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-75" prev="i-2eca2ed217ccf266-72" who="Q4962481">
+            <seg>
               Jag vet att vi inte kan diskutera enskilda ärenden i sig. Men
               det är de enskilda ärendena som ger oss riksdagsledamöter upplysningar
               om hur lagar och konventioner tillämpas. Jag hoppas att det i
@@ -729,60 +828,66 @@
               att det är många som delar denna min uppfattning.
             </seg>
           </u>
-          <note n="8e3d9822">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="f04dbf14">
+          <note>
             6 § Svar på fråga 1990/91:574 om regeringens åtgärder med anledning
             av vissa asylärenden
           </note>
-          <note type="speaker" n="4a9b895d">
+          <note type="speaker">
             Anf. 24 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-ddaf8ca87c710884-3" n="8d1d568b">
-            <seg n="ff2cc96b">
+          <u xml:id="i-2eca2ed217ccf266-76" who="unknown">
+            <seg>
               Herr talman! Ragnhild Pohanka har frågat mig om jag tänker påverka
               utvisningsbesluten för bulgarienturkiska kvinnor som berättat
               om våldtäkter och misshandel, som utförts av polis i hemlandet.
             </seg>
           </u>
-          <note n="f0574013">
+          <note>
             Vid en interpellationsdebatt den 16 januari i år besvarade jag
             frågor i detta ämne av Maria
           </note>
-          <u who="unknown" xml:id="i-b800008e9f8e99f6-3" n="8d1d568b">
-            <seg n="d08cdfb6">
+          <u xml:id="i-2eca2ed217ccf266-77" who="unknown">
+            <seg>
               Leissner. Jag svarade då att det faktum att kvinnor har varit
               utsatta för sådana övergrepp självfallet kan leda till att man
               bedömer att det finns grund för att familjen skall få stanna i
               Sverige. Så har skett också när det gäller bulgarienturkiska familjer.
             </seg>
           </u>
-          <note type="speaker" n="40cb3c65">
+          <note type="speaker">
             Anf. 25 RAGNHILD POHANKA (mp):
           </note>
-          <u who="Q4973156" xml:id="i-90fbd42285d81943-0" n="e190a337">
-            <seg n="c843d9a7">
+          <u xml:id="i-2eca2ed217ccf266-78" next="i-2eca2ed217ccf266-82" who="Q4973156">
+            <seg>
               Herr talman! Jag får tacka för det knapphändiga svaret. Att dessa
               och liknande frågor kommer upp gång efter annan beror helt enkelt
               på att samma missförhållanden återupprepas. Man hör talas om att
               dessa kvinnor blir utvisade. Vi har i dag fått en fullvärdig flyktingdebatt.
               Jag förstår att det är arbetssamt att få ta emot så många frågor.
             </seg>
-            <seg n="b6da6400">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-79" prev="i-2eca2ed217ccf266-78" who="Q4973156">
+            <seg>
               Alla dessa frågor visar samtidigt att det finns ett stort missnöje
               bland svenskarna och bland politiska partier med den flyktingpolitik
               som bedrivs. I dag utvisas ungefär 60 % av de flyktingar som ansöker
               om asyl mot tidigare 20 %. Det är en väldig skillnad. Bedömningen
               har blivit strängare.
             </seg>
-            <seg n="f786fdd7">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-80" prev="i-2eca2ed217ccf266-78" who="Q4973156">
+            <seg>
               Tidigare har frågan om torterade män och kvinnor som fått utvisningsbeslut
               -- slutgiltiga beslut, fattade även av regeringen -- varit uppe.
               Det har rört sig om våldtagna kvinnor och barn som rotat sig.
               Detta är allvarligt.
             </seg>
-            <seg n="ff15edc9">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-81" prev="i-2eca2ed217ccf266-78" who="Q4973156">
+            <seg>
               När en kvinna i den här situationen möts av män, av poliser --
               det är hemlandets poliser som har misshandlat och våldtagit henne
               -- är det mycket förståeligt att hon inte vågar berätta detta
@@ -791,30 +896,36 @@
               att den innebär ett extra tillägg eller en upptrappning. Jag anser
               att detta är mycket allvarligt.
             </seg>
-            <seg n="5a3c04bb">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-82" prev="i-2eca2ed217ccf266-78" who="Q4973156">
+            <seg>
               Dessa kvinnor är dessutom muslimer och det har hänt att deras
               män har förskjutit dem på grund av att de har blivit våldtagna.
               Detta måste man ta stor hänsyn till när man prövar kvinnors flyktingskäl.
             </seg>
           </u>
-          <note type="speaker" n="b6b364f9">
+          <note type="speaker">
             Anf. 26 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-e334e4f47e22af26-5" n="8d1d568b">
-            <seg n="2059e1b2">
+          <u xml:id="i-2eca2ed217ccf266-83" who="unknown">
+            <seg>
               Herr talman! Jag har full förståelse för att det är många frågor
               kring min verksamhet från olika riksdagsledamöter. Jag är beredd
               att stå här i denna talarstol och svara på dessa frågor. Men frågorna
               blir ju ännu fler när samma frågor upprepas vecka efter vecka.
             </seg>
-            <seg n="b8437a95">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-84" who="unknown">
+            <seg>
               Det här är ett omdiskuterat problem som jag har ägnat stor uppmärksamhet
               åt i olika avseenden när det gäller de bulgarienturkiska kvinnorna.
               Jag har fått många brev och jag har debatterat mycket om detta
               problem. Frågan har tagits upp, inte bara under den här frågestunden
               utan även under tidigare frågestunder.
             </seg>
-            <seg n="61153dbf">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-85" who="unknown">
+            <seg>
               Jag har inte så mycket att tillägga till vad jag tidigare har
               sagt i detta ärende. Det är därför som svaret den här gången blev
               litet knapphändigt, men jag förutsätter att Ragnhild Pohanka har
@@ -822,11 +933,11 @@
               debatter, där jag har utvecklat min syn på saken.
             </seg>
           </u>
-          <note type="speaker" n="3ff4c81f">
+          <note type="speaker">
             Anf. 27 RAGNHILD POHANKA (mp):
           </note>
-          <u who="Q4973156" xml:id="i-90fbd42285d81943-1" n="e190a337">
-            <seg n="58e66683">
+          <u xml:id="i-2eca2ed217ccf266-86" next="i-2eca2ed217ccf266-87" who="Q4973156">
+            <seg>
               Herr talman! Jag har återigen tagit upp denna fråga, eftersom
               samma utvisningsskäl har upprepats, utvisningsskäl som jag, liksom
               dessa familjer, har väldigt svårt att acceptera. Jag förstår att
@@ -836,7 +947,9 @@
               gånger, vilket visar att utvisningsbeslutet var felaktigt. Jag
               kan inte bedöma om det förekommer ofta, men det har dock hänt.
             </seg>
-            <seg n="21e72b3d">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-87" prev="i-2eca2ed217ccf266-86" who="Q4973156">
+            <seg>
               Jag menar att man vid tveksamma fall hellre skall fria än fälla.
               Jag undrar om inte invandrarministern kan medverka till att man
               gör ytterligare undersökningar, tar ytterligare hänsyn och inte
@@ -844,11 +957,11 @@
               för hur skall dessa kvinnor kunna bevisa vad de utsatts för?
             </seg>
           </u>
-          <note type="speaker" n="f5597e0c">
+          <note type="speaker">
             Anf. 28 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-e334e4f47e22af26-6" n="8d1d568b">
-            <seg n="0d6fcb35">
+          <u xml:id="i-2eca2ed217ccf266-88" who="unknown">
+            <seg>
               Herr talman! Om vi nu håller oss just till den här frågan, vill
               jag än en gång understryka det som jag sade i första svar, nämligen
               att de omständigheter, som Ragnhild Pohanka har tagit upp, också
@@ -858,11 +971,11 @@
               av den här typen vid bedömningen av vissa av dessa ärenden.
             </seg>
           </u>
-          <note type="speaker" n="bafdc8d9">
+          <note type="speaker">
             Anf. 29 RAGNHILD POHANKA (mp):
           </note>
-          <u who="Q4973156" xml:id="i-90fbd42285d81943-2" n="e190a337">
-            <seg n="030e624f">
+          <u xml:id="i-2eca2ed217ccf266-89" who="Q4973156">
+            <seg>
               Herr talman! Det är jag mycket glad över, och jag har skickat
               brev till invandrarministern och tackat för några av de utvisningsbeslut
               som inneburit bifall efter lång och ingående behandling av såväl
@@ -870,35 +983,41 @@
               bifall, även av humanitära och synnerliga skäl.
             </seg>
           </u>
-          <note n="8e3d9822">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="ea851e03">
+          <note>
             7 § Svar på fråga 1990/91:578 om upphävande av gällande inskränkningar
             i asylrätten
           </note>
-          <note type="speaker" n="02c22573">
+          <note type="speaker">
             Anf. 30 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <note n="a73e07aa">
+          <note>
             Herr talman! Mot bakgrund av regeringens beslut den 13 december
             1989 om viss inskränkning i möjligheterna att få asyl i Sverige
             har Hans Göran
           </note>
-          <u who="unknown" xml:id="i-b800008e9f8e99f6-4" n="8d1d568b">
-            <seg n="eb5001a9">
+          <u xml:id="i-2eca2ed217ccf266-90" who="unknown">
+            <seg>
               Franck frågat mig när regeringen är beredd att upphäva beslutet.
             </seg>
-            <seg n="8a61f8b2">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-91" who="unknown">
+            <seg>
               Regeringens beslut fattades på grund av den mycket stora tillströmningen
               av asylsökande, vilken hade skapat en mycket ansträngd situation
               för flyktingmottagandet. Under 1990 kom drygt
             </seg>
-            <seg n="0a13e278">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-92" who="unknown">
+            <seg>
               29 000 asylsökande till Sverige, dvs. ungefär lika många som
               år 1989.
             </seg>
-            <seg n="1d848952">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-93" who="unknown">
+            <seg>
               Under första kvartalet 1991 har 4 000 asylsökande kommit till
               Sverige. På grund av denna nedgång och de ansträngningar som regeringen
               och invandrarverket har gjort går utvecklingen i en stabiliserande
@@ -906,43 +1025,55 @@
               förläggningar, och även om väntetiderna har förkortats är de ännu
               inte acceptabla.
             </seg>
-            <seg n="66e89ff9">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-94" who="unknown">
+            <seg>
               Möjligheten att häva ''decemberbeslutet'' prövas självfallet
               fortlöpande.
             </seg>
           </u>
-          <note type="speaker" n="b4ba1648">
+          <note type="speaker">
             Anf. 31 HANS GÖRAN FRANCK (s):
           </note>
-          <u who="Q5739826" xml:id="i-d3eb13ad715b8b18-0" n="dc99af3e">
-            <seg n="12c35f5f">
+          <u xml:id="i-2eca2ed217ccf266-95" next="i-2eca2ed217ccf266-100" who="Q5739826">
+            <seg>
               Herr talman! Jag tackar invandrarministern för svaret.
             </seg>
-            <seg n="57fcdaa0">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-96" prev="i-2eca2ed217ccf266-95" who="Q5739826">
+            <seg>
               Maj-Lis Lööw sade att utvecklingen går i stabiliserande riktning,
               men utvecklingen är väl mer än stabil, eftersom om antalet asylsökande
               för
             </seg>
-            <seg n="2a432c14">
-              1991 skulle följa samma utveckling som den under första kvartalet,
-              skulle det innebära en halvering av antalet asylsökande i förhållande
-              till antalet 1990.
-            </seg>
-            <seg n="32dba1c3">
+          </u>
+          <note>
+            1991 skulle följa samma utveckling som den under första kvartalet,
+            skulle det innebära en halvering av antalet asylsökande i förhållande
+            till antalet 1990.
+          </note>
+          <u xml:id="i-2eca2ed217ccf266-97" prev="i-2eca2ed217ccf266-95" who="Q5739826">
+            <seg>
               Det förefaller nu som att tendensen är ganska entydig när det
               gäller asylinvandringen och invandringen över huvud taget. Statistiska
               centralbyrån gav nyligen ut ett material om detta.
             </seg>
-            <seg n="3af255fd">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-98" prev="i-2eca2ed217ccf266-95" who="Q5739826">
+            <seg>
               Där kan man utläsa att minskningen av invandringen till Sverige
               är mycket kraftig, 39 %.
             </seg>
-            <seg n="6c7f7181">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-99" prev="i-2eca2ed217ccf266-95" who="Q5739826">
+            <seg>
               Invandringsöverskottet har halverats. Detta är givetvis en tendens
               som är ganska stabil. Man måste alltid ha beredskap för oförutsedda
               händelser, men å andra sidan måste man ju ha en handlingslinje.
             </seg>
-            <seg n="ca778522">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-100" prev="i-2eca2ed217ccf266-95" who="Q5739826">
+            <seg>
               Invandrarministern har tidigare sagt att decemberbeslutet är
               tillfälligt. Beslutet har nu varit gällande i ett och ett halvt
               år. Det är inte särskilt bra att ett beslut av den här karaktären
@@ -952,11 +1083,11 @@
               mot detta, i stället för att man upprätthåller december beslutet.
             </seg>
           </u>
-          <note type="speaker" n="be20156d">
+          <note type="speaker">
             Anf. 32 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-ddaf8ca87c710884-5" n="8d1d568b">
-            <seg n="968b95c4">
+          <u xml:id="i-2eca2ed217ccf266-101" who="unknown">
+            <seg>
               Herr talman! Jag skulle naturligtvis kunna redovisa de åtgärder
               vi har vidtagit för att få ned antalet personer i flyktingförläggningar.
               Detta hänger ihop med att tiden för beslut om uppehållstillstånd
@@ -966,18 +1097,22 @@
               kommer att gå ned.
             </seg>
           </u>
-          <note n="eab0dca7">
-            Hans Göran Franck sade att om utvecklingen med
-          </note>
-          <u who="unknown" xml:id="i-b800008e9f8e99f6-5" n="8d1d568b">
-            <seg n="624b27ea">
+          <u xml:id="i-2eca2ed217ccf266-102" who="unknown">
+            <seg>
+              Hans Göran Franck sade att om utvecklingen med
+            </seg>
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-103" who="unknown">
+            <seg>
               4 000 asylsökande fortsätter, kommer antalet att bli mycket lågt
               för hela året. Det är riktigt. Det betyder att antalet människor
               på förläggningarna dramatiskt kan minskas och att de tillfälliga
               och ganska dåliga lösningarna på förläggningssidan kan upphöra.
               Väntetiderna kan då ytterligare minskas.
             </seg>
-            <seg n="47256649">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-104" who="unknown">
+            <seg>
               Jag vill ändå påminna om hur det var 1989. Första halvåret kom
               det 7 000 människor och andra halvåret kom 23 000 människor. Det
               är alltid en säsongsmässig nedgång just i början av året. Därför
@@ -985,18 +1120,20 @@
               verkligen är så påtaglig att decemberbeslutet kan hävas.
             </seg>
           </u>
-          <note type="speaker" n="78bbd1e2">
+          <note type="speaker">
             Anf. 33 HANS GÖRAN FRANCK (s):
           </note>
-          <u who="Q5739826" xml:id="i-d3eb13ad715b8b18-1" n="dc99af3e">
-            <seg n="7c36c617">
+          <u xml:id="i-2eca2ed217ccf266-105" next="i-2eca2ed217ccf266-106" who="Q5739826">
+            <seg>
               Herr talman! Maj-Lis Lööw borde åtminstone kunna säga att detta
               beslut inte skall upprätthållas längre än till sommaren. Det vore
               orimligt om ett beslut av den här typen skulle komma att gälla
               under en tid av två år, vilket ju kan bli konsekvensen av vad
               Maj-Lis Lööw sade.
             </seg>
-            <seg n="bb064c68">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-106" prev="i-2eca2ed217ccf266-105" who="Q5739826">
+            <seg>
               Detta beslut har bidragit till att ha skapat många oroliga situationer.
               Som riksdagsman har jag aldrig fått så många brev och klagomål
               som under den här tiden. Antalet utvisningsbeslut är mycket stort.
@@ -1004,32 +1141,36 @@
               skapar en situation som jag tycker är i det närmaste ohållbar.
             </seg>
           </u>
-          <note type="speaker" n="60d5b43b">
+          <note type="speaker">
             Anf. 34 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-e334e4f47e22af26-7" n="8d1d568b">
-            <seg n="2ba3a319">
+          <u xml:id="i-2eca2ed217ccf266-107" who="unknown">
+            <seg>
               Herr talman! Får jag bara påpeka för Hans Göran
             </seg>
-            <seg n="1fb02711">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-108" who="unknown">
+            <seg>
               Franck att antalet ärenden -- avvisningsbeslut eller inte, decemberbeslut
               eller inte -- hade ändå varit mycket stort sett mot bakgrunden
               att det sedan ett och ett halvt år tillbaka har kommit 60 000
             </seg>
-            <seg n="9a47a9bf">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-109" who="unknown">
+            <seg>
               asylsökande till Sverige. Det i sig betyder naturligtvis att
               det finns så många fler ärenden och så många fler anledningar
               att skriva brev både till
             </seg>
           </u>
-          <note n="0c3ecb9f">
+          <note>
             Hans Göran Franck och till invandrarministern.
           </note>
-          <note type="speaker" n="eb14af37">
+          <note type="speaker">
             Anf. 35 HANS GÖRAN FRANCK (s):
           </note>
-          <u who="Q5739826" xml:id="i-d3eb13ad715b8b18-2" n="dc99af3e">
-            <seg n="cf968481">
+          <u xml:id="i-2eca2ed217ccf266-110" who="Q5739826">
+            <seg>
               Herr talman! Jag kan nog hålla med Maj-Lis Lööw om att det kan
               finnas olika förklaringsgrunder. Men ändå blir Maj-Lis Lööw svaret
               skyldig på denna fråga. Och det har klart sagts att det är fråga
@@ -1037,15 +1178,17 @@
               få gälla?
             </seg>
           </u>
-          <note type="speaker" n="74f77bca">
+          <note type="speaker">
             Anf. 36 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-e334e4f47e22af26-8" n="8d1d568b">
-            <seg n="2c1ebf32">
+          <u xml:id="i-2eca2ed217ccf266-111" who="unknown">
+            <seg>
               Herr talman! Jag skall gärna tala om att det är ett tillfälligt
               beslut. Det har jag gjort många gånger.
             </seg>
-            <seg n="75222422">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-112" who="unknown">
+            <seg>
               Och varje gång presenterats det i massmedierna som en nyhet.
               Men det ligger i sakens natur. Det grundar sig ju inte på någon
               nyck från regeringen eller någon innovation från invandrarministern,
@@ -1054,22 +1197,26 @@
               det har hela tiden varit regeringens skyldighet att pröva hur
               länge detta beslut skall stå fast.
             </seg>
-            <seg n="a3cb586c">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-113" who="unknown">
+            <seg>
               Men jag har också försökt beskriva att det är ett par förutsättningar
               som jag ändå vill skall vara uppfyllda och att jag vet att det
               håller, nämligen att vi inte skall ha uppåt 30 000 människor på
               förläggningar i många tillfälliga lösningar.
             </seg>
-            <seg n="74f60ee6">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-114" who="unknown">
+            <seg>
               Dessutom är kritiken mot att vi fortfarande har för långa väntetider
               berättigad, trots att vi har pressat ned dem ganska ordentligt.
             </seg>
           </u>
-          <note type="speaker" n="71c5e692">
+          <note type="speaker">
             Anf. 37 HANS GÖRAN FRANCK (s):
           </note>
-          <u who="Q5739826" xml:id="i-d3eb13ad715b8b18-3" n="dc99af3e">
-            <seg n="fbe1694c">
+          <u xml:id="i-2eca2ed217ccf266-115" next="i-2eca2ed217ccf266-116" who="Q5739826">
+            <seg>
               Herr talman! Den siffra som Maj-Lis Lööw nämnde, 30 000, kan
               vem som helst hålla med om är hög. Men det viktigaste nu är att
               sätta in kraften och resurserna. Nu när flyktinginvandringen och
@@ -1078,38 +1225,46 @@
               okonventionella lösningar. Det är ju många krav som reses på detta.
               Jag tycker att man skulle ägna sig ännu mer åt detta.
             </seg>
-            <seg n="87c0d1fc">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-116" prev="i-2eca2ed217ccf266-115" who="Q5739826">
+            <seg>
               Slutligen tycker jag att ett nytt ställningstagande bör göras
               snart. Jag utgår från, vilket jag uppfattar att Maj-Lis Lööw på
               nytt i dag bekräftar, att det här beslutet inte skall vara varaktigt
               utan att det är tillfälligt.
             </seg>
           </u>
-          <note n="8e3d9822">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="54936619">
+          <note>
             8 § Svar på fråga 1990/91:586 om rätten till förtidspension i
             visst fall
           </note>
-          <note type="speaker" n="6102527a">
+          <note type="speaker">
             Anf. 38 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-ddaf8ca87c710884-6" n="8d1d568b">
-            <seg n="cd9c8b57">
+          <u xml:id="i-2eca2ed217ccf266-117" who="unknown">
+            <seg>
               Herr talman! Sten Andersson i Malmö har frågat justitieministern
               om hon är beredd att medverka till ändrad lagstiftning så att
               återbrytning av svenskt medborgarskap i vissa fall kan ske.
             </seg>
-            <seg n="5b661f8b">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-118" who="unknown">
+            <seg>
               Arbetet inom regeringen är så fördelat att det är jag som skall
               svara på frågan.
             </seg>
-            <seg n="edc81014">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-119" who="unknown">
+            <seg>
               Bakgrunden till frågan är uppgifter i pressen om en person som
               är svensk medborgare sedan 1979 och som begått allvarliga brott.
             </seg>
-            <seg n="b7930b32">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-120" who="unknown">
+            <seg>
               I regeringsformens andra kapitel, som handlar om de grundläggande
               fri- och rättigheterna, föreskrivs i 7 § andra stycket att ingen
               medborgare som är eller har varit bosatt i riket får berövas sitt
@@ -1124,31 +1279,42 @@
               senare.
             </seg>
           </u>
-          <note n="f6898191">
+          <note>
             Medborgarskapslagens (1950:382) bestämmelser om förlust av medborgarskap
             korresponderar med bestämmelsen i regeringsformen.
           </note>
-          <u who="unknown" xml:id="i-b800008e9f8e99f6-6" n="8d1d568b">
-            <seg n="dd25520f">
+          <u xml:id="i-2eca2ed217ccf266-121" who="unknown">
+            <seg>
               Under senare år har frågan om förlust av svenskt medborgarskap
               på grund av vandel och liknande varit upp i olika sammanhang.
               T.ex. påtalade terroristlagstiftningskommittén i sitt betänkande
             </seg>
-            <seg n="f2ab40b6">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-122" who="unknown">
+            <seg>
               (SOU 1989:104) Terroristlagstiftningen behovet av möjligheten
               till förlust av svenskt medborgarskap då medborgarskapet beviljats
               med falska uppgifter som grund (s. 15). Även socialförsäkringsutskottet
               har uppmärksammat denna fråga (1990/91:SfU3)
             </seg>
-            <seg n="58760a7e">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-123" who="unknown">
+            <seg>
               under detta riksdagsår i sitt betäkande Svenskt medborgarskap.
             </seg>
-            <seg n="7cf64130">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-124" who="unknown">
+            <seg>
               Jag delar terroristlagstiftningskommitténs och utskottets uppfattning
               att frågan är av sådan vikt att den bör utredas närmare. Det är
               min avsikt att inom kort lägga fram ett förslag med denna innebörd.
             </seg>
-            <seg n="a3529293">
+          </u>
+          <note>
+            Anf. 39 STEN ANDERSSON i Malmö (m):
+          </note>
+          <u xml:id="i-2eca2ed217ccf266-125" who="unknown">
+            <seg>
               Herr talman! Jag tackar för svaret. Låt mig först göra en kort
               bakgrundsbeskrivning. Detta handlar om en person som 1979 blev
               svensk medborgare och sedan dess under tolv år har sysslat med
@@ -1157,13 +1323,17 @@
               frigiven, svensk förtidspension, och han kommer att åka tillbaka
               till sitt gamla hemland.
             </seg>
-            <seg n="edbec134">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-126" who="unknown">
+            <seg>
               Jag förstår att det finns en hake i och med att det handlar om
               svenskt medborgarskap. Men detta är oerhört upprörande, och man
               får uppfattningen att brottslingar och kriminella belönas. Men
               jag förstår att det är svårt att ta ifrån någon ett medborgarskap.
             </seg>
-            <seg n="440c4cfe">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-127" who="unknown">
+            <seg>
               Jag är ändå nöjd med svaret, men jag skulle till sist vilja ställa
               en fråga till statsrådet. Hon säger att hon skall lägga fram ett
               förslag som går i en sådan riktning att det skall finnas större
@@ -1172,20 +1342,19 @@
               detta förslags ram.
             </seg>
           </u>
-          <note n="f4597eb4">
-            Anf. 39 STEN ANDERSSON i Malmö (m):
-          </note>
-          <note type="speaker" n="4644e05f">
+          <note type="speaker">
             Anf. 40 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-ddaf8ca87c710884-7" n="8d1d568b">
-            <seg n="447a9335">
+          <u xml:id="i-2eca2ed217ccf266-128" who="unknown">
+            <seg>
               Herr talman! Mitt förslag kommer i detta skede att bli att vi
               utreder denna fråga närmare, eftersom det inte är så enkelt som
               att säga att återbrytning skall ske under vissa omständigheter
               på grund av vandel.
             </seg>
-            <seg n="3ff4457d">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-129" who="unknown">
+            <seg>
               Vi måste också ta hänsyn till vad som händer om man berövar någon
               som inte har något annat medborgarskap hans eller hennes svenska
               medborgarskap och vilka konsekvenser det får om vederbörande riskerar
@@ -1194,88 +1363,104 @@
               i det fortsatta arbetet. Men jag förstår, som sagt, mycket väl
               bakgrunden till Sten Anderssons i
             </seg>
-            <seg n="53e85b1f">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-130" who="unknown">
+            <seg>
               Malmö fråga. Jag har påpekat att detta också har tagits upp i
               flera olika sammanhang, och jag tycker att vi skall se mycket
               seriöst på detta.
             </seg>
           </u>
-          <note n="4a20823b">
+          <note>
             Anf. 41 STEN ANDERSSON i Malmö (m):
           </note>
-          <u who="unknown" xml:id="i-b800008e9f8e99f6-7" n="8d1d568b">
-            <seg n="e948ef55">
+          <u xml:id="i-2eca2ed217ccf266-131" who="unknown">
+            <seg>
               Herr talman! För en gångs skull är jag, fru statsråd, fullt nöjd
               med svaret.
             </seg>
           </u>
-          <note n="8e3d9822">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="524717ac">
+          <note>
             9 § Svar på fråga 1990/91:590 om åtgärder för att hjälpa ensamma
             flyktingbarn
           </note>
-          <note type="speaker" n="102c8ab0">
+          <note type="speaker">
             Anf. 42 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-ddaf8ca87c710884-8" n="8d1d568b">
-            <seg n="0a12facf">
+          <u xml:id="i-2eca2ed217ccf266-132" who="unknown">
+            <seg>
               Herr talman! Marianne Andersson i Vårgårda har frågat mig vilka
               snara åtgärder regeringen ämnar vidta för att förbättra främst
               de ensamma flyktingbarnens situation i Sverige.
             </seg>
-            <seg n="f47761be">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-133" who="unknown">
+            <seg>
               Flyktingbarn är utsatta och sårbara. De har stort behov av stöd,
               tröst och omsorg. Det gäller särskilt de barn som kommer utan
               sina vårdnadshavare.
             </seg>
-            <seg n="6219bb47">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-134" who="unknown">
+            <seg>
               Ett omfattande arbete har därför lagts ned för att på olika sätt
               och på olika områden möta flyktingbarnens behov. Det gäller både
               myndigheter, kommuner och landsting samt frivilligorganisationer
               och andra folkrörelser. Jag syftar här på åtgärder och insatser
               både under den tid barnen vistas på utredningsslussar och -
             </seg>
-            <seg n="4369603c">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-135" who="unknown">
+            <seg>
               förläggningar och då de vistas i en kommun. Jag kan utan vidare
               påstå att Sverige i en internationell jämförelse ligger mycket
               väl till i detta avseende men att det finns all anledning att
               ytterligare uppmärksamma och förbättra flyktingbarnens förhållanden.
             </seg>
-            <seg n="6a460c9a">
-              Det var detta som var orsaken till att regeringen i december
-              1989 uppdrog åt socialstyrelsen att kartlägga utvecklingen av
-              det psykiska och fysiska hälsoläget hos flyktingbarn och flyktingungdomar
-              i
-            </seg>
-            <seg n="9a6f852d">
+          </u>
+          <note>
+            Det var detta som var orsaken till att regeringen i december
+            1989 uppdrog åt socialstyrelsen att kartlägga utvecklingen av
+            det psykiska och fysiska hälsoläget hos flyktingbarn och flyktingungdomar
+            i
+          </note>
+          <u xml:id="i-2eca2ed217ccf266-136" who="unknown">
+            <seg>
               Sverige. Uppdraget, som har genomförts genom tio delrapporter
               på olika områden, redovisades i sin helhet först i går, den 13
               maj. Vi måste nu i regeringskansliet ingående studera och överväga
               socialstyrelsens redovisning och förslag.
             </seg>
-            <seg n="0aeb61d4">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-137" who="unknown">
+            <seg>
               Jag kan försäkra Marianne Andersson att regeringen kommer att
               fortsätta att verka för att flyktingbarnens situation ytterligare
               förbättras.
             </seg>
           </u>
-          <note n="b9949cca">
+          <note>
             Anf. 43 MARIANNE ANDERSSON i
           </note>
-          <u who="unknown" xml:id="i-b800008e9f8e99f6-8" n="8d1d568b">
-            <seg n="af19c10f">
-              Vårgårda (c):
-            </seg>
-            <seg n="52ba30e1">
+          <note>
+            Vårgårda (c):
+          </note>
+          <u xml:id="i-2eca2ed217ccf266-138" who="unknown">
+            <seg>
               Herr talman! Jag vill tacka statsrådet för svaret.
             </seg>
-            <seg n="d8c28b4b">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-139" who="unknown">
+            <seg>
               Det låter ju bra att vi får löftet att regeringen skall verka
               för att flyktingbarnens situation förbättras.
             </seg>
-            <seg n="f499c249">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-140" who="unknown">
+            <seg>
               Jag hoppas att det sker och att det sker snabbt. Jag har inte
               haft tillfälle att ta del av socialstyrelsens rapport om flyktingar.
               Men jag skulle vilja ta upp några speciella frågor som har debatterats
@@ -1284,47 +1469,63 @@
               orsaken till att barnen kommer till Sverige får man aldrig glömma
               att de i första hand är barn och i andra hand är flyktingar.
             </seg>
-            <seg n="3dbbbec9">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-141" who="unknown">
+            <seg>
               Det har kommit rapporter om frihetsinskränkningar t.ex. på vissa
               förläggningar.
             </seg>
-            <seg n="1af66201">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-142" who="unknown">
+            <seg>
               Det rapporteras att barnen har förbjudits att ta emot besök och
               att ha telefonkontakt. Sådana åtgärder brukar annars förbehållas
               grova brottslingar. Vad tänker statsrådet göra åt den saken?
             </seg>
-            <seg n="54c6baac">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-143" who="unknown">
+            <seg>
               Antalet barn i förvar har ökat, men syftet med den nya lagen
               var ju att detta antal skulle nedbringas till ett minimum. Jag
               undrar om statsrådet är beredd att göra en översyn av just denna
               del som gäller flyktinglagstiftningen?
             </seg>
-            <seg n="59d8bc07">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-144" who="unknown">
+            <seg>
               En annan fråga gäller hälso- och sjukvården. I
             </seg>
-            <seg n="840e8abc">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-145" who="unknown">
+            <seg>
               barnkonventionen sägs att alla barn i ett land skall behandlas
               lika i fråga om hälso- och sjukvård. Men så är ingalunda fallet.
               Jag undrar vad statsrådet tänker göra åt det.
             </seg>
           </u>
-          <note type="speaker" n="f3b7549f">
+          <note type="speaker">
             Anf. 44 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-e334e4f47e22af26-9" n="8d1d568b">
-            <seg n="aa3d8f6b">
+          <u xml:id="i-2eca2ed217ccf266-146" who="unknown">
+            <seg>
               Herr talman! Det är utomordentligt svårt att på ett par minuter
               svara på alla dessa följdfrågor.
             </seg>
-            <seg n="a61a2929">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-147" who="unknown">
+            <seg>
               Jag har inte heller hunnit att läsa denna rapport.
             </seg>
-            <seg n="c17b73f0">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-148" who="unknown">
+            <seg>
               Men uppdraget till socialstyrelsen innebar ju att vi ville ha
               en samlad bild av situationen i dessa olika frågor. Inte minst
               den första frågan som Marianne
             </seg>
-            <seg n="591b2742">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-149" who="unknown">
+            <seg>
               Andersson i Vårgårda tar upp -- hur ansvarsfördelningen skall
               vara på olika myndigheter när barn utan vårdnadshavare kommer
               till den svenska gränsen, vem som har ansvaret för att de tas
@@ -1332,7 +1533,9 @@
               utomordentligt viktig fråga. Jag hoppas att socialstyrelsens rapport
               kan ge en vägledning om huvudmannaskapet i detta avseende.
             </seg>
-            <seg n="c741a17f">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-150" who="unknown">
+            <seg>
               Jag har ganska utförligt svarat på frågor här i kammaren om barn
               i förvar. Jag har redan haft en interpellationsdebatt i detta
               ärende mot bakgrund av att antalet barn i förvar visade sig stiga
@@ -1341,23 +1544,29 @@
               redovisade var att så många barnfamiljer hade kommit till Sverige.
               Det är framför allt den statistiska förklaringen till detta.
             </seg>
-            <seg n="40cdbf36">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-151" who="unknown">
+            <seg>
               Men jag vill säga att den överväldigande delen av de barnfamiljer
               som avvisas från landet avvisas utan att polisen tar till förvar.
             </seg>
-            <seg n="9745439b">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-152" who="unknown">
+            <seg>
               Hälsosituationen är utomordentligt viktig. Det som jag har hunnit
               höra i radion om socialstyrelsens rapport är att man tar upp väldigt
               mycket om flyktingbarnens hälsosituation. Och det är utomordentligt
               viktigt.
             </seg>
-            <seg n="47395ce5">
-              Anf. 45 MARIANNE ANDERSSON i
-            </seg>
-            <seg n="af19c10f">
-              Vårgårda (c):
-            </seg>
-            <seg n="0383485b">
+          </u>
+          <note>
+            Anf. 45 MARIANNE ANDERSSON i
+          </note>
+          <note>
+            Vårgårda (c):
+          </note>
+          <u xml:id="i-2eca2ed217ccf266-153" who="unknown">
+            <seg>
               Herr talman! Det är naturligtvis mycket viktigt att huvudmannaskapet
               och ansvaret för flyktingbarnen blir klarlagt snarast möjligt.
               Detta instämmer jag i. Men oavsett hur det blir med detta tas
@@ -1367,101 +1576,125 @@
               att åtgärda så att barnen tas emot på ett så vettigt sätt som
               möjligt. Jag tycker att man borde kunna ta itu med detta omedelbart.
             </seg>
-            <seg n="35e01ed4">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-154" who="unknown">
+            <seg>
               Det ökade antalet barn i förvar kan kanske bero på att fler barnfamiljer
               har kommit till Sverige, men avsikten var ju ändå att antalet
               barn i förvar skulle minimeras, men i stället har detta antal
               ökat. Det måste alltså finnas någon annan hake än bara statistiken.
             </seg>
           </u>
-          <note n="8e3d9822">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="1a2aa97d">
+          <note>
             10 § Svar på fråga 1990/91:598 om åtgärder med anledning av bedömningen
             av humanitära skäl i verkställighetsärenden
           </note>
-          <note type="speaker" n="a61b3c5e">
+          <note type="speaker">
             Anf. 46 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-e334e4f47e22af26-10" n="8d1d568b">
-            <seg n="4affef55">
+          <u xml:id="i-2eca2ed217ccf266-155" who="unknown">
+            <seg>
               Herr talman! Jan-Olof Ragnarsson har frågat mig om regeringen
               avser att vidta några åtgärder i det fall tidningsuppgifter om
               användande av
             </seg>
-            <seg n="d7d5ba7e">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-156" who="unknown">
+            <seg>
               ''kroppsviktstabeller'' hos invandrarverket vid bedömningen av
               humanitära skäl skulle visa sig korrekta och om det i så fall
               finns behov av vägledande regler för bedömningen av humanitära
               skäl.
             </seg>
-            <seg n="9c2d5363">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-157" who="unknown">
+            <seg>
               Bakgrunden till frågan är att det har förekommit uppgifter i
               pressen om att det finns en hemlig
             </seg>
-            <seg n="3080fcc1">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-158" who="unknown">
+            <seg>
               ''kroppsviktstabell'' vilken används för att bedöma huruvida
               det föreligger humanitära skäl att upphäva ett avvisningsbeslut
               när en asylsökande, före beslutets verkställande, lämnat in en
               ny ansökan till invandrarverket och i samband därmed hungerstrejkar.
             </seg>
-            <seg n="9df004c3">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-159" who="unknown">
+            <seg>
               Såvitt jag har erfarit förekommer inte hos invandrarverket någon
               tabell av detta slag. Jag finner inte skäl att vidta någon åtgärd.
             </seg>
           </u>
-          <note type="speaker" n="1d37e5db">
+          <note type="speaker">
             Anf. 47 JAN-OLOF RAGNARSSON (v):
           </note>
-          <u who="Q97971237" xml:id="i-75ac938ae48657c4-4" n="103bc508">
-            <seg n="6477a3d1">
+          <u xml:id="i-2eca2ed217ccf266-160" next="i-2eca2ed217ccf266-166" who="Q97971237">
+            <seg>
               Herr talman! Jag får tacka invandrarministern för svaret, men
               jag är inte riktigt nöjd med det.
             </seg>
-            <seg n="4f9e9c57">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-161" prev="i-2eca2ed217ccf266-160" who="Q97971237">
+            <seg>
               Jag ställer denna fråga med anledning av en tidningsuppgift i
               Göteborgsposten av en journalist som heter Mats Dahlström. Han
               har talat med två handläggare på invandrarverket. Dessa handläggare
               har sagt att det finns en inofficiell
             </seg>
-            <seg n="5f90d96e">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-162" prev="i-2eca2ed217ccf266-160" who="Q97971237">
+            <seg>
               ''kroppsviktstabell'' enligt vilken en asylsökande skall komma
               ned till en vikt på 40--44 kg för att det skall utgöra humanitära
               skäl.
             </seg>
-            <seg n="ef9ca591">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-163" prev="i-2eca2ed217ccf266-160" who="Q97971237">
+            <seg>
               Det finns alltså ingen officiell tabell men en inofficiell. Om
               invandrarministern får reda på att en sådan finns och att denna
               praxis tillämpas, är hon då beredd att vidta åtgärder så att dessa
               missförhållanden, vilket jag tycker att det är fråga om, rättas
               till?
             </seg>
-            <seg n="397968bf">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-164" prev="i-2eca2ed217ccf266-160" who="Q97971237">
+            <seg>
               Enligt denna tidningsartikel i Göteborgsposten har läkare uttalat
               att det är helt förkastligt att man utsätter människor för sådana
               lidanden.
             </seg>
-            <seg n="27c54861">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-165" prev="i-2eca2ed217ccf266-160" who="Q97971237">
+            <seg>
               Min fråga är följande. Om invandrarministern får reda på att
               det finns en sådan inofficiell
             </seg>
-            <seg n="ccfaad48">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-166" prev="i-2eca2ed217ccf266-160" who="Q97971237">
+            <seg>
               ''kroppsviktstabell'', är hon då beredd att vidta åtgärder?
             </seg>
           </u>
-          <note type="speaker" n="bab6c170">
+          <note type="speaker">
             Anf. 48 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-e334e4f47e22af26-11" n="8d1d568b">
-            <seg n="abd9cd00">
+          <u xml:id="i-2eca2ed217ccf266-167" who="unknown">
+            <seg>
               Herr talman! Det är många frågor som man skulle kunna ställa
               på temat om. Sedan jag fick den här frågan har jag läst tidningsartikeln
               och bett någon fråga invandrarverket. På invandrarverket säger
               man att det inte finns någon sådan tabell. Och det är vad jag
               kan säga här i kammaren.
             </seg>
-            <seg n="b91b9631">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-168" who="unknown">
+            <seg>
               Men låt mig säga att mitt budskap till invandrarverket under
               alla omständigheter är att man där vid bedömningen av de enskilda
               fall där det kan föreligga humanitära skäl skall följa de regler
@@ -1470,16 +1703,18 @@
               ärenden.
             </seg>
           </u>
-          <note type="speaker" n="8a4ab198">
+          <note type="speaker">
             Anf. 49 JAN-OLOF RAGNARSSON (v):
           </note>
-          <u who="Q97971237" xml:id="i-75ac938ae48657c4-5" n="103bc508">
-            <seg n="0da7899a">
+          <u xml:id="i-2eca2ed217ccf266-169" next="i-2eca2ed217ccf266-170" who="Q97971237">
+            <seg>
               Herr talman! Visst kan det finnas många om och men i denna fråga.
               Men enligt dessa två handläggare på invandrarverket finns det
               en sådan tabell.
             </seg>
-            <seg n="2accf96e">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-170" prev="i-2eca2ed217ccf266-169" who="Q97971237">
+            <seg>
               Invandrarministern och jag kan stå länge och tvista om detta
               -- jag säger att det finns en inofficiell tabell, och invandrarministern
               säger att det inte finns någon sådan tabell. Men beträffande sådana
@@ -1491,17 +1726,19 @@
               kommer någon form av förordning och någon vägledning från regeringen.
             </seg>
           </u>
-          <note type="speaker" n="7bccd1e1">
+          <note type="speaker">
             Anf. 50 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-e334e4f47e22af26-12" n="8d1d568b">
-            <seg n="60035377">
+          <u xml:id="i-2eca2ed217ccf266-171" who="unknown">
+            <seg>
               Herr talman! Herr Ragnarsson! Den vägledning som vi kan ge är
               ju den lagstiftning och praxis som gäller. Det är utomordentligt
               svårt att utfärda ett regelverk som täcker en massa om -- om invandrarverket
               gör si eller så.
             </seg>
-            <seg n="c94a83de">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-172" who="unknown">
+            <seg>
               Min personliga reflexion, som är ytterst lekmannamässig i detta
               ärende, är att det förefaller att vara ganska korkat att ha en
               sådan regel. Jag förstår inte hur en ''kroppsviktstabell'' skulle
@@ -1510,71 +1747,87 @@
               vara beroende av så många andra saker.
             </seg>
           </u>
-          <note type="speaker" n="080a56d0">
+          <note type="speaker">
             Anf. 51 JAN-OLOF RAGNARSSON (v):
           </note>
-          <u who="Q97971237" xml:id="i-75ac938ae48657c4-6" n="103bc508">
-            <seg n="69b7dbf4">
+          <u xml:id="i-2eca2ed217ccf266-173" who="Q97971237">
+            <seg>
               Herr talman! Som lekman på det här området anser också jag att
               det är korkat, om det finns en sådan tabell. Här är vi överens.
               Vi får väl återkomma, om tidningsuppgifterna är korrekta.
             </seg>
           </u>
-          <note n="8e3d9822">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="d601dad0">
+          <note>
             11 § Svar på frågorna 1990/91:595 och 599 om rättshjälpen i asylärenden
           </note>
-          <note type="speaker" n="f5cf964a">
+          <note type="speaker">
             Anf. 52 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-e334e4f47e22af26-13" n="8d1d568b">
-            <seg n="97bfd1aa">
+          <u xml:id="i-2eca2ed217ccf266-174" who="unknown">
+            <seg>
               Herr talman! Jan-Olof Ragnarsson har frågat mig om regeringen
               är beredd att vidta åtgärder för att de asylsökande i praktiken
               skall åtnjuta den rätt de har enligt rättshjälpslagen att föreslå
               det offentliga biträde som de önskar.
             </seg>
-            <seg n="5a4f1e1b">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-175" who="unknown">
+            <seg>
               Berith Eriksson har frågat mig om regeringen är beredd att vidta
               åtgärder för att de offentliga biträdena skall beredas möjlighet
               att medverka redan under polisutredningen i enlighet med reglerna
               i rättshjälpslagen.
             </seg>
-            <seg n="75b9917c">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-176" who="unknown">
+            <seg>
               Jag har valt att besvara frågorna i ett sammanhang.
             </seg>
-            <seg n="d7e087ce">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-177" who="unknown">
+            <seg>
               En asylsökande har rätt att föreslå en viss person som biträde
               i sitt ärende. Denna person förordnas sedan under förutsättning
               att hans anlitande inte skulle medföra ökade kostnader eller i
               övrigt särskilda skäl föranleder annat.
             </seg>
-            <seg n="694456a4">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-178" who="unknown">
+            <seg>
               I praktiken innebär detta att den asylsökande i regel tillfrågas
               om han har något förslag på en speciell person innan förordnande
               sker. Jag kan alltså inte se något skäl till att vidta några särskilda
               åtgärder med anledning av Jan-Olof Ragnarssons fråga. Låt mig
               dock tillägga följande.
             </seg>
-            <seg n="68a0470e">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-179" who="unknown">
+            <seg>
               Att uppdragen i utlänningsärenden inte längre är koncentrerade
               till en viss krets av jurister beror bl.a. på att biträden utanför
               storstäderna förordnas i större utsträckning än tidigare. Detta
               hänger samman med invandrarverkets decentralisering och den nya
               förläggningsorganisationen.
             </seg>
-            <seg n="6ca5cb19">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-180" who="unknown">
+            <seg>
               Geografiska aspekter har därför måst beaktas i allt fler fall
               än tidigare.
             </seg>
-            <seg n="c3004938">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-181" who="unknown">
+            <seg>
               Det skulle medföra avsevärt ökade kostnader att förordna ett
               biträde som har sin verksamhet belägen på en ort som ligger långt
               bort från den där den asylsökande vistas.
             </seg>
-            <seg n="b7bea92b">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-182" who="unknown">
+            <seg>
               Invandrarverket har dessutom ambitionen att sprida uppdragen
               till ett större antal jurister som anmält önskemål om att förordnas.
               Detta skapar en allsidigare belysning i ärendehanteringen och
@@ -1584,29 +1837,39 @@
               för ärendets utgång. Detta gäller såväl sådant som kan vara till
               fördel som sådant som kan vara till nackdel för den asylsökande.
             </seg>
-            <seg n="644d4c3f">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-183" who="unknown">
+            <seg>
               Nära förknippat med Jan-Olof Ragnarssons fråga är det som Berith
               Eriksson har tagit upp.
             </seg>
-            <seg n="695304c7">
-              En asylsökande har normalt rätt till biträde redan under polisutredningen
-              (prop. 1988/89:86 s. 135).
-            </seg>
-            <seg n="86769dfc">
+          </u>
+          <note>
+            En asylsökande har normalt rätt till biträde redan under polisutredningen
+            (prop. 1988/89:86 s. 135).
+          </note>
+          <u xml:id="i-2eca2ed217ccf266-184" who="unknown">
+            <seg>
               Det är emellertid nödvändigt att inledningsvis hålla ett förhör
               och bl.a. utröna den asylsökandes behov av biträde.
             </seg>
-            <seg n="9a9d6d6d">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-185" who="unknown">
+            <seg>
               Ett biträde bör t.ex. inte förordnas när det framstår som klart
               att utlänningen skall få stanna i Sverige.
             </seg>
-            <seg n="109b7414">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-186" who="unknown">
+            <seg>
               En sådan bedömning kan som regel göras först efter det att den
               s.k. grundutredningen hos polisen avslutats och utredningen har
               överlämnats till invandrarverket. En sådan utredning kan givetvis
               ta olika lång tid i anspråk.
             </seg>
-            <seg n="fa1f8ea7">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-187" who="unknown">
+            <seg>
               Det förekommer att de asylsökande uppger att de av rädsla inte
               velat nämna alla omständigheter av betydelse inför svensk polis.
               Det förekommer även problem med förståelse mellan tolken och den
@@ -1616,21 +1879,25 @@
               vägs givetvis in vid den samlade bedömningen av utlänningens behov
               av asyl.
             </seg>
-            <seg n="e9002500">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-188" who="unknown">
+            <seg>
               I detta sammanhang bör nämnas att invandrarverket i viss omfattning
               kommer att överta ansvaret för asylutredningar från polismyndigheterna.
               Man kan då också vänta sig snabbare beslut i fråga om offentligt
               biträde.
             </seg>
           </u>
-          <note type="speaker" n="f68e7e42">
+          <note type="speaker">
             Anf. 53 JAN-OLOF RAGNARSSON (v):
           </note>
-          <u who="Q97971237" xml:id="i-01e90c08daa210d1-0" n="103bc508" next="i-84d55f52ba8b1a8d-0">
-            <seg n="12c35f5f">
+          <u xml:id="i-2eca2ed217ccf266-189" next="i-2eca2ed217ccf266-196" who="Q97971237">
+            <seg>
               Herr talman! Jag tackar invandrarministern för svaret.
             </seg>
-            <seg n="296eb3c9">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-190" prev="i-2eca2ed217ccf266-189" who="Q97971237">
+            <seg>
               Anledningen till att jag ställde frågan var att det kommit kritik
               från flyktinggruppernas och asylkommittéernas riksråd, FARR, från
               diskrimineringsombudsmannen (DO) och från invandrarverkets egen
@@ -1638,49 +1905,61 @@
               rättssäkerheten har varit eftersatt efter den 1 juli
             </seg>
           </u>
-          <note n="e027ad55">
+          <note>
             1989, då invandrarverket från rättshjälpsnämnden tog över uppgiften
             att förordna offentligt biträde i utlänningsärenden.
           </note>
-          <u who="Q97971237" xml:id="i-84d55f52ba8b1a8d-0" n="103bc508" prev="i-01e90c08daa210d1-0">
-            <seg n="2a09cb4f">
+          <u xml:id="i-2eca2ed217ccf266-191" prev="i-2eca2ed217ccf266-189" who="Q97971237">
+            <seg>
               Invandrarministern sade att det här i praktiken innebär att en
               asylsökande i regel tillfrågas om han har något förslag om speciell
               person, innan förordnande sker. Enligt min mening är detta vad
               som i praktiken inte sker efter den 1 juli 1989.
             </seg>
-            <seg n="cf3b4c17">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-192" prev="i-2eca2ed217ccf266-189" who="Q97971237">
+            <seg>
+              Invandrarverket tillfrågar inte den asylsökande och tillämpar
+              inte de regler som gällde före den 1 juli
+            </seg>
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-193" prev="i-2eca2ed217ccf266-189" who="Q97971237">
+            <seg>
               1989. Detta var anledningen till att jag ställde frågan. De asylsökande
               bör alltså ha den här rätten.
             </seg>
-            <seg n="f3e19779">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-194" prev="i-2eca2ed217ccf266-189" who="Q97971237">
+            <seg>
               Hade vederbörande inte svarat inom tre dagar till rättshjälpsnämnden,
               utsåg rättshjälpsnämnden ett biträde. Men dessförinnan fanns det
               en möjlighet att lämna ett förslag. Min, diskrimineringsombudsmannens
               och FARRs kritik går ju ut på att de asylsökande i dag saknar
               den ifrågavarande rätten. Jag anser att svaret är felaktigt.
             </seg>
-            <seg n="02029d5b">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-195" prev="i-2eca2ed217ccf266-189" who="Q97971237">
+            <seg>
               När det gäller advokater som har en mängd ärenden vill jag nämna
               att det i dagens nummer av
             </seg>
-            <seg n="440983c8">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-196" prev="i-2eca2ed217ccf266-189" who="Q97971237">
+            <seg>
               Svenska Dagbladet finns en artikel, där det står att vissa advokater
               har 75 ärenden, medan andra har bara 10.
             </seg>
           </u>
-          <note n="a7047667">
-            Invandrarverket tillfrågar inte den asylsökande och tillämpar
-            inte de regler som gällde före den 1 juli
-          </note>
-          <note type="speaker" n="c827acc6">
+          <note type="speaker">
             Anf. 54 BERITH ERIKSSON (v):
           </note>
-          <u who="Q4946998" xml:id="i-32b8f2f7bc56c583-2" n="c60badc3">
-            <seg n="3752cda8">
+          <u xml:id="i-2eca2ed217ccf266-197" next="i-2eca2ed217ccf266-199" who="Q4946998">
+            <seg>
               Herr talman! Jag tackar Maj-Lis Lööw för svaret.
             </seg>
-            <seg n="cb6d4495">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-198" prev="i-2eca2ed217ccf266-197" who="Q4946998">
+            <seg>
               Att det inte förordnas ett biträde när det gäller grundutredningen
               kan vi förstå. Där gäller det ju att ta reda på om det är ett
               s.k. solklart fall. Men när det gäller den s.k. B-utredningen
@@ -1689,7 +1968,9 @@
               inte får ett offentligt biträde förrän det har blivit avslag på
               ansökan. Efter B-
             </seg>
-            <seg n="9238924f">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-199" prev="i-2eca2ed217ccf266-197" who="Q4946998">
+            <seg>
               utredningen kan ärendet bli liggande ett till ett och ett halvt
               år. När ett offentligt biträde har förordnats och det blir ytterligare
               klargöranden har detta i många av de fall som jag har tittat på
@@ -1700,16 +1981,18 @@
               redan i B-utredningen.
             </seg>
           </u>
-          <note type="speaker" n="ba9ffba6">
+          <note type="speaker">
             Anf. 55 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-e334e4f47e22af26-14" n="8d1d568b">
-            <seg n="af553adf">
+          <u xml:id="i-2eca2ed217ccf266-200" who="unknown">
+            <seg>
               Herr talman! Det är naturligtvis inte tillfredsställande att
               ett ärende blir liggande ett helt år. Förmodligen hänger detta
               samman med bl.a.
             </seg>
-            <seg n="99eabb0e">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-201" who="unknown">
+            <seg>
               mängden av ärenden och långa väntetider. Därför är det viktigt
               att komma till rätta med de problem som finns på det här området.
               Säkert beror det på hur snart ett ombud förordnas. Det är väl
@@ -1718,10 +2001,14 @@
               Det har varit svårt att både snabbt förordna ombud och se till
               att ombud och asylsökande kommer i kontakt med varandra.
             </seg>
-            <seg n="4ed9104f">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-202" who="unknown">
+            <seg>
               Delvis hänger det naturligtvis också samman med antalet ombud.
             </seg>
-            <seg n="c04e5118">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-203" who="unknown">
+            <seg>
               När Jan-Olof Ragnarsson pekar på att en del fortfarande har många
               ärenden, medan andra har få, vill jag säga att det naturligtvis
               är svårt att göra en total fördelning av ärendena. Som jag sade
@@ -1732,18 +2019,22 @@
               fortfarande finns många advokater som har många ärenden.
             </seg>
           </u>
-          <note type="speaker" n="cb8beb54">
+          <note type="speaker">
             Anf. 56 BERITH ERIKSSON (v):
           </note>
-          <u who="Q4946998" xml:id="i-32b8f2f7bc56c583-3" n="c60badc3">
-            <seg n="d10e4a0c">
+          <u xml:id="i-2eca2ed217ccf266-204" next="i-2eca2ed217ccf266-206" who="Q4946998">
+            <seg>
               Herr talman! Snabbt, ja i dagarna kom jag i kontakt med iranier
               som anlände hit i januari 1990.
             </seg>
-            <seg n="e4bd26d8">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-205" prev="i-2eca2ed217ccf266-204" who="Q4946998">
+            <seg>
               Deras ärende är ännu inte avgjort i första instans.
             </seg>
-            <seg n="753566ce">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-206" prev="i-2eca2ed217ccf266-204" who="Q4946998">
+            <seg>
               Jag frågade om de hade fått ett offentligt biträde och svaret
               blev nej. Därför är det ett stort glapp mellan ''snabbt'' och
               verkligheten. En polis lägger kanske den största vikten vid resvägen,
@@ -1753,17 +2044,19 @@
               att uppgifterna inte är trovärdiga. Vad anser invandrarministern?
             </seg>
           </u>
-          <note type="speaker" n="0d4bea82">
+          <note type="speaker">
             Anf. 57 JAN-OLOF RAGNARSSON (v):
           </note>
-          <u who="Q97971237" xml:id="i-75ac938ae48657c4-7" n="103bc508">
-            <seg n="c3167509">
+          <u xml:id="i-2eca2ed217ccf266-207" next="i-2eca2ed217ccf266-210" who="Q97971237">
+            <seg>
               Herr talman! Jag tror att det är viktigt att man försöker komma
               till rätta med problemet, och jag tycker att invandrarministern
               bör studera dagens artikel i Svenska Dagbladet beträffande antalet
               ärenden för vissa advokater.
             </seg>
-            <seg n="6f0d1e6e">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-208" prev="i-2eca2ed217ccf266-207" who="Q97971237">
+            <seg>
               Jag anser alltså att man bör återgå till de regler som innebär
               att rättshjälpsnämnden utser juridiska ombud för asylsökande.
               Studerar man propositionen som låg till grund för lagändringen
@@ -1775,45 +2068,59 @@
               att återgå till de gamla reglerna. Det rör sig inte om någonting
               revolutionärt utan bara om en annan tillämpning.
             </seg>
-            <seg n="d5c152ec">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-209" prev="i-2eca2ed217ccf266-207" who="Q97971237">
+            <seg>
               Invandrarverket skall alltså inte utse ombud.
             </seg>
           </u>
-          <note n="8e3d9822">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="8120f8d9">
+          <note>
             12 § Svar på fråga 1990/91:600 om säkerheten i
           </note>
-          <note n="2f527507">
-            Libanon för Arafattrogna palestinier
-          </note>
-          <note type="speaker" n="5c518e75">
+          <u xml:id="i-2eca2ed217ccf266-210" prev="i-2eca2ed217ccf266-207" who="Q97971237">
+            <seg>
+              Libanon för Arafattrogna palestinier
+            </seg>
+          </u>
+          <note type="speaker">
             Anf. 58 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-ddaf8ca87c710884-9" n="8d1d568b">
-            <seg n="5383c3e9">
+          <u xml:id="i-2eca2ed217ccf266-211" who="unknown">
+            <seg>
               Herr talman! Bertil Måbrink har frågat mig vilken bedömning regeringen
               gör av säkerheten för
             </seg>
-            <seg n="97217f2a">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-212" who="unknown">
+            <seg>
               Arafattrogna palestinier i Libanon samt om regeringen tar tillräcklig
               hänsyn till Sveriges åtaganden enligt FNs tortyrkonvention när
             </seg>
-            <seg n="ab5d7667">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-213" who="unknown">
+            <seg>
               Arafattrogna palestinier återsänds till Libanon.
             </seg>
-            <seg n="673874c4">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-214" who="unknown">
+            <seg>
               Bertil Måbrink har i sin fråga refererat delar av ett avvisningsärende
               där beslut har fattats av regeringen. Som Bertil Måbrink känner
               till är jag förhindrad att diskutera sakinnehållet i enskilda
               ärenden. Jag kan därför inte redogöra för vilka uppgifter som
               fanns i ärendet och som ledde till avvisningsbeslutet.
             </seg>
-            <seg n="020dc1b9">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-215" who="unknown">
+            <seg>
               Regeringen bevakar kontinuerligt händelserna i
             </seg>
-            <seg n="1974cae2">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-216" who="unknown">
+            <seg>
               Libanon. Bedömningen av säkerheten för de olika grupperna som
               finns där, inkl. Arafattrogna palestinier, görs mot bakgrund av
               den situation som råder för dagen. Situationen för Arafattrogna
@@ -1821,71 +2128,89 @@
               är en omständighet som vägs in vid bedömningen i det enskilda
               ärendet.
             </seg>
-            <seg n="bae72bfc">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-217" who="unknown">
+            <seg>
               Som svar på Bertil Måbrinks fråga angående regeringens hänsynstagande
               till FNs tortyrkonvention hänvisar jag till mitt svar på
             </seg>
           </u>
-          <note n="945b394d">
+          <note>
             Gullan Lindblads fråga på samma tema.
           </note>
-          <note n="24c8f5ce">
+          <note>
             Utlänningslagens bestämmelser om verkställighetshinder tillämpas
             såväl på
           </note>
-          <u who="unknown" xml:id="i-b800008e9f8e99f6-9" n="8d1d568b">
-            <seg n="0086a8c5">
+          <u xml:id="i-2eca2ed217ccf266-218" who="unknown">
+            <seg>
               Arafattrogna palestinier som på andra asylsökande. Det innebär
               att ingen avvisas om det finns grundad anledning att tro att personen
               skulle utsättas för tortyr. Jag anser därmed att regeringen tar
               hänsyn till landets åtaganden enligt FNs tortyrkonvention.
             </seg>
           </u>
-          <note type="speaker" n="8a777094">
+          <note type="speaker">
             Anf. 59 BERTIL MÅBRINK (v):
           </note>
-          <u who="Q6000064" xml:id="i-27b9144a4211d757-0" n="73f6dcac" next="i-aebcda4ef6d63fe4-0">
-            <seg n="12c35f5f">
+          <u xml:id="i-2eca2ed217ccf266-219" next="i-2eca2ed217ccf266-228" who="Q6000064">
+            <seg>
               Herr talman! Jag tackar invandrarministern för svaret.
             </seg>
-            <seg n="ba025f44">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-220" prev="i-2eca2ed217ccf266-219" who="Q6000064">
+            <seg>
               Anledningen till att jag ställde frågan var att flyktinggruppernas
               och asylkommittéernas riksråd hade gjort en sammanställning av
               invandrarministerns och regeringens handläggning av en mängd asylärenden.
               Här ingick det fall som jag refererade till. Jag respekterar att
               Maj-Lis
             </seg>
-            <seg n="2cb44b96">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-221" prev="i-2eca2ed217ccf266-219" who="Q6000064">
+            <seg>
               Lööw inte kan diskutera ett enskilt fall, men har ändå velat
               ta upp saken i frågan.
             </seg>
-            <seg n="fe0ccaf2">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-222" prev="i-2eca2ed217ccf266-219" who="Q6000064">
+            <seg>
               Nu är det här inte det enda fallet. Innan Maj-Lis
             </seg>
           </u>
-          <note n="c45360b7">
-            Lööw blev invandrarminister inträffade någonting liknande med
-            en palestinier som återvände till
-          </note>
-          <u who="Q6000064" xml:id="i-aebcda4ef6d63fe4-0" n="73f6dcac" prev="i-27b9144a4211d757-0">
-            <seg n="7def3390">
+          <u xml:id="i-2eca2ed217ccf266-223" prev="i-2eca2ed217ccf266-219" who="Q6000064">
+            <seg>
+              Lööw blev invandrarminister inträffade någonting liknande med
+              en palestinier som återvände till
+            </seg>
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-224" prev="i-2eca2ed217ccf266-219" who="Q6000064">
+            <seg>
               Libanon och som faktiskt torterades mycket svårt.
             </seg>
-            <seg n="75eff7f7">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-225" prev="i-2eca2ed217ccf266-219" who="Q6000064">
+            <seg>
               Finns det grundad anledning att tro att det finns risk för tortyr
               skall en person inte utvisas. ''Grundad anledning'' är egentligen
               en ganska mjuk formulering. Frågan är vem man skall lyssna på.
             </seg>
-            <seg n="e245385a">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-226" prev="i-2eca2ed217ccf266-219" who="Q6000064">
+            <seg>
               Vem är trovärdig när det gäller information? Det finns naturligtvis
               både för Maj-Lis Lööw och för mig många källor. För mig framstår
               Amnesty som en organisation som är trovärdig. Därför bör man ta
               mycket stor hänsyn till vad organisationen säger.
             </seg>
-            <seg n="18552d21">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-227" prev="i-2eca2ed217ccf266-219" who="Q6000064">
+            <seg>
               Jag vet inte vilken inställning Maj-Lis Lööw har till
             </seg>
-            <seg n="60762c98">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-228" prev="i-2eca2ed217ccf266-219" who="Q6000064">
+            <seg>
               Amnesty och dess rapporter och information om vad som händer
               i olika länder. Både i detta fall, liksom i tidigare fall, har
               Amnesty uttryckligen varnat för ett återsändande till t.ex. Libanon
@@ -1893,15 +2218,17 @@
               tortyr. Borde detta inte vara tillräckligt för att inte utvisa?
             </seg>
           </u>
-          <note type="speaker" n="e02193e6">
+          <note type="speaker">
             Anf. 60 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-e334e4f47e22af26-15" n="8d1d568b">
-            <seg n="872b66fa">
+          <u xml:id="i-2eca2ed217ccf266-229" who="unknown">
+            <seg>
               Herr talman! Amnestys rapporter ingår som underlag när vi följer
               situationen i många länder.
             </seg>
-            <seg n="9f2b902e">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-230" who="unknown">
+            <seg>
               Vidare har vi FNs konvention för mänskliga rättigheter, våra
               olika beskickningars rapportering, artiklar i tidningarna, det
               som man kan lära av de enskilda ärendena osv. Allt ger en samlad
@@ -1911,16 +2238,22 @@
               i Libanon och också information från utrikesdepartementet. Vi
               kan väl konstatera att situationen för de
             </seg>
-            <seg n="37d3dda9">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-231" who="unknown">
+            <seg>
               Arafattrogna i Libanon har blivit kärvare -- det råder väl inget
               tvivel om detta -- speciellt efter
             </seg>
-            <seg n="e235d15d">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-232" who="unknown">
+            <seg>
               Gulfkriget. Då får detta vägas in när vi bedömer det enskilda
               ärendet. Enbart det faktum -- och det gäller varje grupp -- att
               man tillhör den
             </seg>
-            <seg n="cc446f91">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-233" who="unknown">
+            <seg>
               Arafattrogna delen av PLO är generellt inte ett tillräckligt
               skäl för att få asyl. Här måste också göras en bedömning av de
               aktiviteter som åberopas och de inviduella risker som finns vid
@@ -1928,17 +2261,21 @@
               att det finns risk för tortyr blir det bifall.
             </seg>
           </u>
-          <note type="speaker" n="f25eb871">
+          <note type="speaker">
             Anf. 61 BERTIL MÅBRINK (v):
           </note>
-          <u who="Q6000064" xml:id="i-c52fe544acbf4281-0" n="73f6dcac">
-            <seg n="94abbe61">
+          <u xml:id="i-2eca2ed217ccf266-234" next="i-2eca2ed217ccf266-236" who="Q6000064">
+            <seg>
               Herr talman! Jag tackar Maj-Lis Lööw för konkretiseringen.
             </seg>
-            <seg n="92c855c2">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-235" prev="i-2eca2ed217ccf266-234" who="Q6000064">
+            <seg>
               Jag håller med Maj-Lis Lööw om att situationen i
             </seg>
-            <seg n="12858d13">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-236" prev="i-2eca2ed217ccf266-234" who="Q6000064">
+            <seg>
               Libanon har förändrats på så sätt att alla de här milisgrupperna
               och privata grupperna lägger ned sina vapen. Samtidigt finns ju
               Syrien kvar med sina trupper, sin säkerhetstjänst m.m. Situationen
@@ -1952,25 +2289,29 @@
               för detta.
             </seg>
           </u>
-          <note n="8e3d9822">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="2f82d36a">
+          <note>
             13 § Svar på fråga 1990/91:601 om utlänningslagen och FNs barnkonvention
           </note>
-          <note type="speaker" n="aabce275">
+          <note type="speaker">
             Anf. 62 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-e334e4f47e22af26-16" n="8d1d568b">
-            <seg n="90d2c9d9">
+          <u xml:id="i-2eca2ed217ccf266-237" who="unknown">
+            <seg>
               Herr talman! Berith Eriksson har frågat mig om regeringen avser
               vidta några åtgärder för att bringa praxis i utlänningsärenden
               i överensstämmelse med
             </seg>
-            <seg n="d9d2f1ed">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-238" who="unknown">
+            <seg>
               FNs barnkonvention.
             </seg>
-            <seg n="a3e4ac0f">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-239" who="unknown">
+            <seg>
               Enligt utlänningslagen skall i normalfallet ansökningar om uppehållstillstånd
               inte bifallas om utlänningen befinner sig i Sverige när ansökan
               görs eller prövas. Från denna regel finns det emellertid flera
@@ -1980,29 +2321,37 @@
               med utomlands, kan ansökan prövas trots att den sökande finns
               i Sverige.
             </seg>
-            <seg n="afd6f7c2">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-240" who="unknown">
+            <seg>
               Detta undantag syftar t.ex. just på fall då någon skall återförena
               sig med sin make eller maka.
             </seg>
-            <seg n="309cf915">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-241" who="unknown">
+            <seg>
               Personer som har permanent uppehållstillstånd och som är bosatta
               i Sverige anses vara stadigvarande bosatta här på det sätt som
               lagen avser och undantagsregeln kan tillämpas.
             </seg>
-            <seg n="76fa9582">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-242" who="unknown">
+            <seg>
               Artikel 9 i FNs barnkonvention handlar främst om ingripande av
               familjerättslig eller socialrättslig karaktär. Jag anser inte
               att praxis i anknytningsärenden strider mot FNs barnkonvention.
             </seg>
           </u>
-          <note type="speaker" n="c01492dc">
+          <note type="speaker">
             Anf. 63 BERITH ERIKSSON (v):
           </note>
-          <u who="Q4946998" xml:id="i-32b8f2f7bc56c583-4" n="c60badc3">
-            <seg n="3752cda8">
+          <u xml:id="i-2eca2ed217ccf266-243" next="i-2eca2ed217ccf266-246" who="Q4946998">
+            <seg>
               Herr talman! Jag tackar Maj-Lis Lööw för svaret.
             </seg>
-            <seg n="b661d44a">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-244" prev="i-2eca2ed217ccf266-243" who="Q4946998">
+            <seg>
               Jag vill ta upp ett av många fall, den ugandier som under sin
               asyltid i Sverige har gift sig och fått barn men som har fått
               avslag på sin asylansökan och beslut om utvisning. Om han åker
@@ -2012,56 +2361,68 @@
               alltså bli det, om man reser till andra sidan av jordklotet och
               söker därifrån.
             </seg>
-            <seg n="3ac252db">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-245" prev="i-2eca2ed217ccf266-243" who="Q4946998">
+            <seg>
               Statsrådet anförde vidare att jag inte skulle kunna hänvisa till
               artikel 9 i barnkonventionen. I den talas det om vad som är nödvändigt
               för barnets bästa, och i det här fallet kan det väl knappast vara
               fråga om vad som är bäst för barnet. Det är kanske fråga om invandrarverkets
               bästa, men knappast om barnets bästa.
             </seg>
-            <seg n="7ce6df8d">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-246" prev="i-2eca2ed217ccf266-243" who="Q4946998">
+            <seg>
               Invandrarministern säger att det finns flera undantagsregler
               och nämner i sitt svar en sådan regel. Kan man tänka sig att det
               här kan gå in under någon annan av dessa regler?
             </seg>
           </u>
-          <note type="speaker" n="bfad673f">
+          <note type="speaker">
             Anf. 64 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-e334e4f47e22af26-17" n="8d1d568b">
-            <seg n="43d0b975">
+          <u xml:id="i-2eca2ed217ccf266-247" who="unknown">
+            <seg>
               Herr talman! För det första vill jag invända mot insinuationen
               att det som är invandrarverkets bästa inte skulle kunna stå i
               överensstämmelse med barnens bästa. Jag är alldeles övertygad
               om att också invandrarverket har en stor förståelse för vad som
               är barnens bästa.
             </seg>
-            <seg n="f8c64fdc">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-248" who="unknown">
+            <seg>
               För det andra förstår jag inte riktigt den här frågan.
             </seg>
-            <seg n="c2411245">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-249" who="unknown">
+            <seg>
               Det är faktiskt så som jag har beskrivit det i mitt svar: För
               den som har hustru och barn med permanent uppehållstillstånd här
               -- alltså inte en asylsökande med hustru och barn -- finns det
               ett undantag från regeln att man normalt skall ha sitt uppehållstillstånd
               klart när man kommer in i
             </seg>
-            <seg n="c53fa216">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-250" who="unknown">
+            <seg>
               Sverige. Den personen kan alltså få sin ansökan prövad här i
               Sverige.
             </seg>
-            <seg n="98d2ab98">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-251" who="unknown">
+            <seg>
               Jag har många exempel på ärenden som kommer till mig för överprövning,
               där t.ex. en man som fått barn eller som sambor med någon som
               är gravid får stanna av det skälet, trots att han redan befinner
               sig här när ansökan görs.
             </seg>
           </u>
-          <note type="speaker" n="eab03211">
+          <note type="speaker">
             Anf. 65 BERITH ERIKSSON (v):
           </note>
-          <u who="Q4946998" xml:id="i-32b8f2f7bc56c583-5" n="c60badc3">
-            <seg n="a65b0644">
+          <u xml:id="i-2eca2ed217ccf266-252" next="i-2eca2ed217ccf266-253" who="Q4946998">
+            <seg>
               Herr talman! Det här är ju ett ärende som har varit föremål för
               överprövning, och hustrun har permanent uppehållstillstånd medan
               mannen inte har det. Han befinner sig här i landet, men det ansågs
@@ -2069,31 +2430,33 @@
               att få stanna i Sverige, utan han skall åka tillbaka till Uganda
               och söka därifrån. Det är anledningen till min fråga i dag.
             </seg>
-            <seg n="ea31dd8e">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-253" prev="i-2eca2ed217ccf266-252" who="Q4946998">
+            <seg>
               Vad är det för vits med att människor skall resa till andra sidan
               av jordklotet i ett sådant här solklart fall?
             </seg>
           </u>
-          <note type="speaker" n="5f86787e">
+          <note type="speaker">
             Anf. 66 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-e334e4f47e22af26-18" n="8d1d568b">
-            <seg n="be3b5088">
+          <u xml:id="i-2eca2ed217ccf266-254" who="unknown">
+            <seg>
               Herr talman! Det måste vara något speciellt med det här ärendet,
               och vi kan kanske reda ut det efteråt, om Berith Eriksson visar
               mig uppgifterna i fallet.
             </seg>
           </u>
-          <note n="8e3d9822">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="d73089e5">
+          <note>
             14 § Svar på fråga 1990/91:603 om muntlig handläggning i asylärenden
           </note>
-          <note type="speaker" n="355289b8">
+          <note type="speaker">
             Anf. 67 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <note n="d822bf81">
+          <note>
             Herr talman! Av 11 kap. 1 § utlänningslagen framgår att det skall
             ingå muntlig handläggning i ett asylärende vid statens invandrarverk,
             om det kan antas vara till fördel för utredningen eller i övrigt
@@ -2101,72 +2464,92 @@
             även annars företas på begäran av utlänningen, om inte sådan handläggning
             skulle sakna betydelse för att avgöra frågan om uppehållstillstånd.
           </note>
-          <u who="unknown" xml:id="i-b800008e9f8e99f6-10" n="8d1d568b">
-            <seg n="d8da0aa2">
+          <u xml:id="i-2eca2ed217ccf266-255" who="unknown">
+            <seg>
               Jan Strömdahl påtalar i sin fråga att invandrarverket praktiskt
               taget aldrig på eget initiativ ordnar muntlig handläggning samt
               så gott som undantagslöst avslår yrkanden från asylsökande om
               sådan handläggning. Jan
             </seg>
-            <seg n="8b1ed32a">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-256" who="unknown">
+            <seg>
               Strömdahl har frågat mig vilka åtgärder jag är beredd att vidta
               för att verket skall iaktta reglerna om muntlig handläggning.
             </seg>
-            <seg n="486ccc57">
+          </u>
+          <note>
+            I mars månad besvarade jag denna fråga i konstitutionsutskottet.
+            Samma fråga hade då ställts till mig av Jan Strömdahls partikamrat
+            Bo
+          </note>
+          <u xml:id="i-2eca2ed217ccf266-257" who="unknown">
+            <seg>
               Hammar. Mitt svar blir detsamma som då.
             </seg>
-            <seg n="aff52ce2">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-258" who="unknown">
+            <seg>
               Avsaknaden av muntlig handläggning innebär inte att utredningen
               i ett asylärende har några brister.
             </seg>
-            <seg n="dee9826b">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-259" who="unknown">
+            <seg>
               Om så skulle vara fallet kan ytterligare utredning göras genom
               det offentliga biträdet och genom kompletterande polisutredning.
               Endast i ett fåtal fall har regeringen haft anledning att återförvisa
               ett ärende till invandrarverket för ny behandling.
             </seg>
-            <seg n="4d53d11b">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-260" who="unknown">
+            <seg>
               Invandrarverket har för sin del förklarat att anledningen till
               att verket inte oftare tagit initiativ till muntlig handläggning
               hänger samman med den stora sökandeström som varit.
             </seg>
-            <seg n="81ed3b96">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-261" who="unknown">
+            <seg>
               Handläggningstiderna skulle förlängas avsevärt om muntlig handläggning
               skulle tillgodoses i alla fall där sådan begärs. Verket har förklarat
               att då verket har övertagit utredningsansvaret i asylärenden --
             </seg>
-            <seg n="29f3a1b1">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-262" who="unknown">
+            <seg>
               vilket planeras ske den 1 juli 1992 -- avser man att muntlig
               handläggning skall ske i mycket stor utsträckning, kanske t.o.m.
               regelmässigt i ärendena.
             </seg>
           </u>
-          <note n="9ce5a3c1">
-            I mars månad besvarade jag denna fråga i konstitutionsutskottet.
-            Samma fråga hade då ställts till mig av Jan Strömdahls partikamrat
-            Bo
-          </note>
-          <note type="speaker" n="4a170061">
+          <note type="speaker">
             Anf. 68 JAN STRÖMDAHL (v):
           </note>
-          <u who="Q21570566" xml:id="i-417ea6d77d544a5d-0" n="95b3fb90">
-            <seg n="33a4165a">
+          <u xml:id="i-2eca2ed217ccf266-263" next="i-2eca2ed217ccf266-266" who="Q21570566">
+            <seg>
               Herr talman! Jag tackar för svaret. Även om Bo
             </seg>
-            <seg n="5db19222">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-264" prev="i-2eca2ed217ccf266-263" who="Q21570566">
+            <seg>
               Hammar har ställt frågan en gång förut, menar jag att det kan
               finnas skäl att ställa den ytterligare en gång. Jag har nu fått
               höra från många håll att det är ett faktum att man i mycket få
               fall tillgodoser den asylsökandes begäran om en muntlig handläggning.
             </seg>
-            <seg n="5b739750">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-265" prev="i-2eca2ed217ccf266-263" who="Q21570566">
+            <seg>
               Syftet med den aktuella lagparagrafen, som är en specialparagraf
               med avseende på förvaltningslagen, var att ge den asylsökande
               en rätt till muntlig handläggning. Det skäl som då anfördes var
               att det skulle bli en snabbare och effektivare hantering och en
               bättre trovärdighet, både för invandrarverket och för den asylsökande.
             </seg>
-            <seg n="e4e979b8">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-266" prev="i-2eca2ed217ccf266-263" who="Q21570566">
+            <seg>
               Nu anförs som motivering till den praxis som tillämpats tidsskäl
               och brist på resurser på invandrarverket. Av sådana skäl åsidosätter
               man de asylsökandes lagliga rättigheter. Min fråga till invandrarministern
@@ -2175,29 +2558,37 @@
               tidsbesparande och bättre trovärdighet med en ökad muntlig hantering?
             </seg>
           </u>
-          <note type="speaker" n="c321d0c8">
+          <note type="speaker">
             Anf. 69 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-e334e4f47e22af26-19" n="8d1d568b">
-            <seg n="53513856">
+          <u xml:id="i-2eca2ed217ccf266-267" who="unknown">
+            <seg>
               Herr talman! Jag kan i och för sig förstå om de asylsökande kanske
               upplever att det hade blivit en bättre trovärdighet med en muntlig
               handläggning.
             </seg>
-            <seg n="6bd2b01d">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-268" who="unknown">
+            <seg>
               Jag tror att många asylsökande upplever att de inte har kunnat
               få framlägga sin sak helt och hållet med mindre än att de själva
               har fått träffa handläggaren.
             </seg>
-            <seg n="9580a074">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-269" who="unknown">
+            <seg>
               Jag förstår att det finns en sådan psykologisk effekt.
             </seg>
-            <seg n="660c6bed">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-270" who="unknown">
+            <seg>
               Jag vill ändå peka på att detta, som jag sade i mitt svar, inte
               får betyda att en avsaknad av muntlig handläggning innebär att
               vi åsidosätter rättssäkerheten.
             </seg>
-            <seg n="0cf054d3">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-271" who="unknown">
+            <seg>
               Jag redovisar vad invandrarverket har anfört som förklaring till
               att man inte mer har utnyttjat möjligheten till muntlig handläggning.
               Jag är säker på att man skulle ha gjort det, om man inte i den
@@ -2207,43 +2598,51 @@
               äventyrar möjligheten att få ned väntetiderna.
             </seg>
           </u>
-          <note type="speaker" n="0ddfe276">
+          <note type="speaker">
             Anf. 70 JAN STRÖMDAHL (v):
           </note>
-          <u who="Q21570566" xml:id="i-417ea6d77d544a5d-1" n="95b3fb90">
-            <seg n="defa2ce8">
+          <u xml:id="i-2eca2ed217ccf266-272" next="i-2eca2ed217ccf266-274" who="Q21570566">
+            <seg>
               Herr talman! Låt mig ytterligare motivera varför jag återigen
               ställde frågan genom att kort citera ur förarbetena till lagstiftningen.
               Det framhålls där:
             </seg>
-            <seg n="52b59954">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-273" prev="i-2eca2ed217ccf266-272" who="Q21570566">
+            <seg>
               ''Genom den koncentration som muntlig handläggning ger möjlighet
               till kan också den tidsutdräkt som en omfattande skriftväxling
               ofta medför undvikas. Invandrarverket har också i sitt remissvar
               påpekat att proceduren totalt sett kan bli snabbare och att tilltron
               till verkets beslut kan ökas.''
             </seg>
-            <seg n="11ad71ea">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-274" prev="i-2eca2ed217ccf266-272" who="Q21570566">
+            <seg>
               Jag vet inte om det var Maj-Lis Lööw som var invandrarminister
               när detta skrevs, men det var antingen den nuvarande eller den
               föregående invandrarministern som skrev det. Stämmer detta inte
               längre?
             </seg>
           </u>
-          <note type="speaker" n="af500ead">
+          <note type="speaker">
             Anf. 71 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-e334e4f47e22af26-20" n="8d1d568b">
-            <seg n="0df145ec">
+          <u xml:id="i-2eca2ed217ccf266-275" who="unknown">
+            <seg>
               Herr talman! Återigen: Jag tror att det mycket väl skulle kunna
               fungera så i en normalsituation eller i vad som i det närmaste
               är en normalsituation. Men förutom att vi bestämde oss för att
               pressa väntetiderna för de ärenden som fanns före hösten
             </seg>
-            <seg n="94a46d3c">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-276" who="unknown">
+            <seg>
               1989 har vi härtill lagt ytterligare 60 000 ärenden.
             </seg>
-            <seg n="99bb6d39">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-277" who="unknown">
+            <seg>
               Jag tror däremot inte i den situation som vi nu har haft, med
               asylsökande på ett stort antal förläggningar runt om i landet,
               att en muntlig handläggning hade kunnat bidra till att förkorta
@@ -2253,14 +2652,16 @@
               invandrarverket och av handläggningen av ärendena.
             </seg>
           </u>
-          <note type="speaker" n="5cbdbbf9">
+          <note type="speaker">
             Anf. 72 JAN STRÖMDAHL (v):
           </note>
-          <u who="Q21570566" xml:id="i-417ea6d77d544a5d-2" n="95b3fb90">
-            <seg n="7a1621b0">
+          <u xml:id="i-2eca2ed217ccf266-278" next="i-2eca2ed217ccf266-279" who="Q21570566">
+            <seg>
               Herr talman! Jag vill avslutningsvis ställa en fråga.
             </seg>
-            <seg n="0c992a6c">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-279" prev="i-2eca2ed217ccf266-278" who="Q21570566">
+            <seg>
               Vi har en lagregel som ger de asylsökande en grundläggande rättighet
               till muntlig handläggning, men man framhåller att den myndighet
               som sköter dessa frågor inte har tid och resurser. Min fråga till
@@ -2268,11 +2669,11 @@
               ändra organisationen och resurserna hos invandrarverket?
             </seg>
           </u>
-          <note type="speaker" n="b5c3f842">
+          <note type="speaker">
             Anf. 73 Statsrådet MAJ-LIS LÖÖW (s):
           </note>
-          <u who="unknown" xml:id="i-e334e4f47e22af26-21" n="8d1d568b">
-            <seg n="2357e75a">
+          <u xml:id="i-2eca2ed217ccf266-280" who="unknown">
+            <seg>
               Herr talman! Vi skall naturligtvis eftersträva en muntlig handläggning.
               Som jag sade kan jag förstå att många asylsökande önskar den möjligheten,
               och jag tycker att det är bra om vi kan komma i en situation där
@@ -2281,49 +2682,53 @@
               man inte har klarat en muntlig handläggning.
             </seg>
           </u>
-          <note type="speaker" n="f41f380f">
+          <note type="speaker">
             Anf. 74 JAN STRÖMDAHL (v):
           </note>
-          <u who="Q21570566" xml:id="i-8c45fbb426736ac0-0" n="95b3fb90" next="i-a07d7f1887954efe-0">
-            <seg n="bbf94dbc">
+          <u xml:id="i-2eca2ed217ccf266-281" next="i-2eca2ed217ccf266-294" who="Q21570566">
+            <seg>
               Herr talman! Jag kan inte påstå att rättssäkerheten har åsidosatts,
               men den grundläggande rättigheten att få muntlig handläggning
               om man så begär har eftersatts.
             </seg>
           </u>
-          <note n="8e3d9822">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="b3502b65">
+          <note>
             15 § Svar på fråga 1990/91:588 om mindre skadliga dieselbränslen
           </note>
-          <u who="Q21570566" xml:id="i-a07d7f1887954efe-0" n="95b3fb90" prev="i-8c45fbb426736ac0-0">
-            <seg n="0499ce0e">
-              Anf. 75 Miljöminister BIRGITTA DAHL
+          <note>
+            Anf. 75 Miljöminister BIRGITTA DAHL
+          </note>
+          <u xml:id="i-2eca2ed217ccf266-282" prev="i-2eca2ed217ccf266-281" who="Q21570566">
+            <seg>
+              (s):
             </seg>
           </u>
-          <note type="speaker" n="e4628876">
-            (s):
-          </note>
-          <u who="unknown" xml:id="i-75ac938ae48657c4-8" n="8d1d568b">
-            <seg n="175e4c94">
+          <u xml:id="i-2eca2ed217ccf266-283" prev="i-2eca2ed217ccf266-281" who="Q21570566">
+            <seg>
               Herr talman! Lennart Brunander har frågat mig vad regeringen
               avser att vidta för åtgärder för att snabbt få in miljövänliga
               bränslen som t.ex.
             </seg>
-            <seg n="422e30da">
-              vegetabilisk dieselolja.
-            </seg>
-            <seg n="dd4f95ed">
-              Under hösten 1990 antog riksdagen regeringens förslag om att
-              allmän energiskatt och koldioxidskatt skall tas ut för i princip
-              alla oljeprodukter baserade på mineralolja från januari
-            </seg>
-            <seg n="00f8d474">
+          </u>
+          <note>
+            vegetabilisk dieselolja.
+          </note>
+          <note>
+            Under hösten 1990 antog riksdagen regeringens förslag om att
+            allmän energiskatt och koldioxidskatt skall tas ut för i princip
+            alla oljeprodukter baserade på mineralolja från januari
+          </note>
+          <u xml:id="i-2eca2ed217ccf266-284" prev="i-2eca2ed217ccf266-281" who="Q21570566">
+            <seg>
               1992. Genom att oljor som är baserade på vegetabiliska fetter
               är undantagna stimuleras satsningar på dessa.
             </seg>
-            <seg n="6dd7645e">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-285" prev="i-2eca2ed217ccf266-281" who="Q21570566">
+            <seg>
               Sverige har också den 1 januari 1991 infört en miljöklassindelning
               av oljor. Klassindelningen syftar till en ökad användning av miljövänligare
               drivmedel. Miljöklassystemet för oljor har redan gett ett bra
@@ -2333,41 +2738,60 @@
               av riksdagen, föreslagit att miljöklassindelningen av dieseloljor
               ändras.
             </seg>
-            <seg n="6eab384c">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-286" prev="i-2eca2ed217ccf266-281" who="Q21570566">
+            <seg>
               Regeringens förslag innebär att gränsvärden införs för parametrarna
               polycykliska aromatiska kolväten, tändvillighet och densitet.
               De från utsläppssynpunkt viktigaste parametrarna är samtliga då
               omfattade av miljöklassindelningen.
             </seg>
-            <seg n="ccf71be7">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-287" prev="i-2eca2ed217ccf266-281" who="Q21570566">
+            <seg>
               Regeringen föreslår även att svavelkravet skärps.
             </seg>
-            <seg n="e2278b39">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-288" prev="i-2eca2ed217ccf266-281" who="Q21570566">
+            <seg>
               Skattedifferensen mellan de olika miljöklasserna föreslås vara
               så stor att den utgör en pådrivande faktor för de skattskyldiga
               bolagen att inrikta produktionen på bättre bränslen i tillräckliga
               kvantiteter. Ändringarna föreslås träda i kraft 1
             </seg>
-            <seg n="70c1292b">
+          </u>
+          <note>
+            januari 1992.
+          </note>
+          <u xml:id="i-2eca2ed217ccf266-289" prev="i-2eca2ed217ccf266-281" who="Q21570566">
+            <seg>
               Miljöklassindelningen av oljor kommer att innebära klara förbättringar
               vad gäller ärftliga effekter på människan.
             </seg>
-            <seg n="836b462c">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-290" prev="i-2eca2ed217ccf266-281" who="Q21570566">
+            <seg>
               Regeringen har i miljöpropositionen även lagt fram en rad förslag
               för att förbättra luften i våra tätorter genom skärpta krav på
               lätta och tunga fordon.
             </seg>
-            <seg n="a07b3cfd">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-291" prev="i-2eca2ed217ccf266-281" who="Q21570566">
+            <seg>
               Regeringens förslag till indelning av nya fordon i miljöklasser
               i kombination med ekonomiska styrmedel behandlas för närvarande
               av skatteutskottet. Genom ett sådant system kan introduktionen
               av bilar med allt bättre miljöegenskaper stödjas smidigt och effektivt.
             </seg>
-            <seg n="2d92913b">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-292" prev="i-2eca2ed217ccf266-281" who="Q21570566">
+            <seg>
               Miljöklasssystemet kommer att ge betydande positiva miljö- och
               hälsoeffekter.
             </seg>
-            <seg n="4b7a7602">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-293" prev="i-2eca2ed217ccf266-281" who="Q21570566">
+            <seg>
               Regeringen avser dessutom att ändra vägtrafikkungörelsen så att
               det blir möjligt för kommunerna att föreskriva att endast sådana
               tunga dieseldrivna bussar och lastbilar som möter särskilda hårda
@@ -2375,21 +2799,20 @@
               för nya fordon kan komma att bli ett viktigt stöd för kommunernas
               arbete för en bättre tätortsmiljö.
             </seg>
-            <seg n="1f46aff1">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-294" prev="i-2eca2ed217ccf266-281" who="Q21570566">
+            <seg>
               Genom dessa åtgärder stimuleras framtagandet av mindre skadliga
               dieselbränslen. Regeringen följer utvecklingen på marknaden och
               utesluter inte att miljöklassindelningen i framtiden kan behöva
               omprövas med hänsyn till miljöegenskaperna hos nya oljor.
             </seg>
           </u>
-          <note n="8a61e005">
-            januari 1992.
-          </note>
-          <note type="speaker" n="b5ead07d">
+          <note type="speaker">
             Anf. 76 LENNART BRUNANDER (c):
           </note>
-          <u who="Q5588228" xml:id="i-73850e8374139635-0" n="fa9011ab">
-            <seg n="4eaa7986">
+          <u xml:id="i-2eca2ed217ccf266-295" next="i-2eca2ed217ccf266-309" who="Q5588228">
+            <seg>
               Herr talman! Jag tackar för svaret. Det speglar ju en positiv
               syn på de här frågorna, och jag tror att det är nödvändigt att
               vi har det. Trafiken står ju för mycket stora utsläpp av miljöfarliga
@@ -2399,14 +2822,18 @@
               och ärftliga sjukdomar har sitt ursprung just i dessa avgaser
               och utsläpp.
             </seg>
-            <seg n="c461bbee">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-296" prev="i-2eca2ed217ccf266-295" who="Q5588228">
+            <seg>
               Det finns naturligtvis olika sätt att lösa detta problem, men
               det är inte bara i dessa sammanhang som utsläpp i trafiken är
               ett problem, utan det gäller också försurningen av våra skogar
               och egentligen av allt som växer i vårt land. Vi har också bekymmer
               med koldioxiden.
             </seg>
-            <seg n="7a078bc2">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-297" prev="i-2eca2ed217ccf266-295" who="Q5588228">
+            <seg>
               De först nämnda problemen kan vi i varje fall hjälpligt lösa
               genom att förbättra reningen av befintliga bränslen, men dieselbränslena
               är ett större bekymmer än andra bränslen, eftersom de är svårare
@@ -2415,10 +2842,14 @@
               att minska förbrukningen av de bränslen som vi har. Vi måste byta
               ut dem mot biobränslen, dvs.
             </seg>
-            <seg n="e6e56609">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-298" prev="i-2eca2ed217ccf266-295" who="Q5588228">
+            <seg>
               biobaserad energi av olika slag.
             </seg>
-            <seg n="803bb6b9">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-299" prev="i-2eca2ed217ccf266-295" who="Q5588228">
+            <seg>
               Nu säger miljöministern att den skatteomläggning som görs kommer
               att medföra att det blir mycket lättare att få fram de vegetabiliska
               oljorna. Jag undrar om ministern är villig att förstärka denna
@@ -2428,23 +2859,29 @@
               en beskattning enbart av de fossila bränslena, dvs. att den avskaffas
               för de miljövänliga bränslena.
             </seg>
-            <seg n="f3df071b">
-              Anf. 77 Miljöminister BIRGITTA DAHL
+          </u>
+          <note>
+            Anf. 77 Miljöminister BIRGITTA DAHL
+          </note>
+          <u xml:id="i-2eca2ed217ccf266-300" prev="i-2eca2ed217ccf266-295" who="Q5588228">
+            <seg>
+              (s):
             </seg>
           </u>
-          <note type="speaker" n="e4628876">
-            (s):
-          </note>
-          <u who="unknown" xml:id="i-75ac938ae48657c4-9" n="8d1d568b">
-            <seg n="ce085e4d">
+          <u xml:id="i-2eca2ed217ccf266-301" prev="i-2eca2ed217ccf266-295" who="Q5588228">
+            <seg>
               Herr talman! Först vill jag verkligen stryka under att jag tror
               att det finns en stor samsyn mellan
             </seg>
-            <seg n="1492a92a">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-302" prev="i-2eca2ed217ccf266-295" who="Q5588228">
+            <seg>
               Lennart Brunander och mig och regeringen när det gäller behovet
               av åtgärder på det här området.
             </seg>
-            <seg n="6effcc8c">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-303" prev="i-2eca2ed217ccf266-295" who="Q5588228">
+            <seg>
               Jag har i mitt svar redovisat för ett helt batteri av insatser,
               alltifrån ekonomiska styrmedel till krav på de oljor som används.
               Jag är övertygad om att vi kommer att få se en snabb utveckling
@@ -2452,7 +2889,9 @@
               resultat, t.ex. en förbättring av kvalitén, som redan är stor,
               på de oljor som finns.
             </seg>
-            <seg n="04ca7e2f">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-304" prev="i-2eca2ed217ccf266-295" who="Q5588228">
+            <seg>
               I morgon skall jag återigen besöka Göteborg för att se hur arbetet
               där fortskrider med att förbättra trafikmiljön i staden. Det kommer
               att vara en demonstration av det pågående arbetet med att introducera
@@ -2461,47 +2900,61 @@
               de olika stadsdelarna med hjälp av ett samarbete mellan staden
               och de stora varudistributionsföretagen.
             </seg>
-            <seg n="55aca71c">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-305" prev="i-2eca2ed217ccf266-295" who="Q5588228">
+            <seg>
               Projektet är utomordentligt intressant. Det går att minska den
               typen av tung trafik till kanske en tredjedel. I Stockholm har
               vi världens största projekt med etanolbussar.
             </seg>
-            <seg n="54fbd800">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-306" prev="i-2eca2ed217ccf266-295" who="Q5588228">
+            <seg>
               Vi ser nu en glädjande och positiv utveckling. Vi har ännu inte
               fullt ut kunnat dra nytta av miljöklassindelningen. Men kommunerna
               kommer att kunna användas sig av denna indelning för att bestämma
               att endast fordon som uppfyller kraven i den allra högsta klassen
               får trafikera innerstaden.
             </seg>
-            <seg n="7a117f1b">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-307" prev="i-2eca2ed217ccf266-295" who="Q5588228">
+            <seg>
               Det kommer att tvinga fram ett byte till fordon som använder
               helt andra bränslen än de som hittills har funnits.
             </seg>
-            <seg n="812b06e4">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-308" prev="i-2eca2ed217ccf266-295" who="Q5588228">
+            <seg>
               Det finns vidare en mycket intressant utveckling av vegetabilisk
               olja med produktion för närvarande i
             </seg>
-            <seg n="b9181057">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-309" prev="i-2eca2ed217ccf266-295" who="Q5588228">
+            <seg>
               Karlshamn. I dag är produktionen inriktad på arbetsredskap, men
               den kan säkerligen få en vidare användning.
             </seg>
           </u>
-          <note type="speaker" n="b7f075bb">
+          <note type="speaker">
             Anf. 78 LENNART BRUNANDER (c):
           </note>
-          <u who="Q5588228" xml:id="i-73850e8374139635-1" n="fa9011ab">
-            <seg n="01fdc007">
+          <u xml:id="i-2eca2ed217ccf266-310" next="i-2eca2ed217ccf266-320" who="Q5588228">
+            <seg>
               Herr talman! Jag tackar för de kompletterande svaren. Det är
               klart att satsningen på nya och bättre bilar och bussar och regler
               för användningen av dem är bra. Men det står inte i något motsatsförhållande
               till att också göra satsningar på att få fram nya bränslen. Det
               förstärker bara de förbättringar som de nya bilarna kan ge.
             </seg>
-            <seg n="d0e44b6b">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-311" prev="i-2eca2ed217ccf266-310" who="Q5588228">
+            <seg>
               När det gäller koldioxidutsläppen är det egentligen bara en övergång
               till biobaserade bränslen som ger resultat.
             </seg>
-            <seg n="32c60ff7">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-312" prev="i-2eca2ed217ccf266-310" who="Q5588228">
+            <seg>
               I Frankrike satsar man ganska hårt på detta. Där skall byggas
               en fabrik som utnyttjar rapsolja från motsvarande 400 000 hektar
               för att få fram ett nytt bränsle. Det bränslet skall användas
@@ -2509,41 +2962,55 @@
               skall ha samma egenskaper som dieselolja. En sådan introduktion
               sker också i Ungern.
             </seg>
-            <seg n="49d45910">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-313" prev="i-2eca2ed217ccf266-310" who="Q5588228">
+            <seg>
               Det vore nyttigt och bra om vi från svensk sida också kunde göra
               en sådan introduktion. Jag vill veta på vilket sätt ministern
               och regringen tänker få igång en sådan verksamhet.
             </seg>
-            <seg n="b8b476d5">
-              Anf. 79 Miljöminister BIRGITTA DAHL
+          </u>
+          <note>
+            Anf. 79 Miljöminister BIRGITTA DAHL
+          </note>
+          <u xml:id="i-2eca2ed217ccf266-314" prev="i-2eca2ed217ccf266-310" who="Q5588228">
+            <seg>
+              (s):
             </seg>
           </u>
-          <note type="speaker" n="e4628876">
-            (s):
-          </note>
-          <u who="unknown" xml:id="i-75ac938ae48657c4-10" n="8d1d568b">
-            <seg n="4417a491">
+          <u xml:id="i-2eca2ed217ccf266-315" prev="i-2eca2ed217ccf266-310" who="Q5588228">
+            <seg>
               Herr talman! I samband med jordbruksomställningen, energiomställningen
               och trafikomställningen -- som ju samordnas i tiden på ett lyckligt
               sätt -- satsas det nu stora resurser från samhällets sida på att
               stödja en sådan omställning.
             </seg>
-            <seg n="520d732e">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-316" prev="i-2eca2ed217ccf266-310" who="Q5588228">
+            <seg>
               Jag har kunnat se många glädjande exempel på hur man praktiskt
               kommer igång med arbetet. T.ex. i
             </seg>
-            <seg n="6c49ee56">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-317" prev="i-2eca2ed217ccf266-310" who="Q5588228">
+            <seg>
               Skaraborgs län, som inte är så långt från Lennart
             </seg>
-            <seg n="a51a747e">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-318" prev="i-2eca2ed217ccf266-310" who="Q5588228">
+            <seg>
               Brunanders hemtrakter, är det många bönder som deltar i projektet.
             </seg>
-            <seg n="77194526">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-319" prev="i-2eca2ed217ccf266-310" who="Q5588228">
+            <seg>
               Vi har också gått före när det gäller vegetabilisk olja. I Sverige
               är det i form av smörjolja i första steget, medan andra har valt
               i form av dieselolja.
             </seg>
-            <seg n="d94636b0">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-320" prev="i-2eca2ed217ccf266-310" who="Q5588228">
+            <seg>
               Det är inte en slump att vegetariska oljan har börjat användas
               i form av smörjolja i Sverige. Det har kommit fram som en viktig
               arbetsmiljöfråga av bl.a. skogsarbetarna. De har gjort en enastående
@@ -2551,18 +3018,20 @@
               utveckling på området.
             </seg>
           </u>
-          <note type="speaker" n="4688219f">
+          <note type="speaker">
             Anf. 80 LENNART BRUNANDER (c):
           </note>
-          <u who="Q5588228" xml:id="i-73850e8374139635-2" n="fa9011ab">
-            <seg n="cb2a2ff6">
+          <u xml:id="i-2eca2ed217ccf266-321" next="i-2eca2ed217ccf266-328" who="Q5588228">
+            <seg>
               Herr talman! Det är riktigt som miljöministern säger att omställningarna
               i olika sektorer kan vara till hjälp. Men de löser inte problemen.
               Vi måste ha någon eller några som vågar satsa ordentligt. Det
               är litet svårt att se att jordbruket, som är i en besvärlig omställningssituation,
               skulle kunna göra stora insatser.
             </seg>
-            <seg n="b1dc1f35">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-322" prev="i-2eca2ed217ccf266-321" who="Q5588228">
+            <seg>
               Vi har fått dra och slita i regeringen för att komma fram till
               ett beslut om att så småningom satsa på etanol. Jag hoppas att
               det inte skall ta lika lång tid att få regeringen med på noterna
@@ -2571,282 +3040,294 @@
               rapsen och andra vegetabiliska oljor i drivmedel. Det skulle ge
               en bättre miljö i
             </seg>
-            <seg n="3b18f679">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-323" prev="i-2eca2ed217ccf266-321" who="Q5588228">
+            <seg>
               Stockholm, andra städer och för hela landet.
             </seg>
-            <seg n="f8f822a6">
-              Anf. 81 Miljöminister BIRGITTA DAHL
+          </u>
+          <note>
+            Anf. 81 Miljöminister BIRGITTA DAHL
+          </note>
+          <u xml:id="i-2eca2ed217ccf266-324" prev="i-2eca2ed217ccf266-321" who="Q5588228">
+            <seg>
+              (s):
             </seg>
           </u>
-          <note type="speaker" n="e4628876">
-            (s):
-          </note>
-          <u who="unknown" xml:id="i-75ac938ae48657c4-11" n="8d1d568b">
-            <seg n="25819b51">
+          <u xml:id="i-2eca2ed217ccf266-325" prev="i-2eca2ed217ccf266-321" who="Q5588228">
+            <seg>
               Herr talman! Jag tycker inte att beskrivningen är korrekt om
               man försöker hävda, att här är inget fel när vi själva verket
               ser områden där utvecklingen verkligen har tagit fart under de
               senaste två åren.
             </seg>
-            <seg n="756504f7">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-326" prev="i-2eca2ed217ccf266-321" who="Q5588228">
+            <seg>
               Jag ser framför mig att det kommer att gå allt bättre. Jag är
               mycket hoppfull. Det tror jag egentligen att Lennart Brunander
               också är.
             </seg>
-            <seg n="072be52d">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-327" prev="i-2eca2ed217ccf266-321" who="Q5588228">
+            <seg>
               Jag kommer sent att glömma den uppvaktning jag fick i december
               för ett och ett halvt år sedan av
             </seg>
-            <seg n="1a89d653">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-328" prev="i-2eca2ed217ccf266-321" who="Q5588228">
+            <seg>
               LRF. Man tackade regeringen för den kraftiga bensinskattehöjningen.
               Det var äntligen ett verksamt medel för att göra etanolen konkurrenskraftig.
             </seg>
           </u>
-          <note type="speaker" n="214fb26e">
+          <note type="speaker">
             Anf. 82 LENNART BRUNANDER (c):
           </note>
-          <u who="Q5588228" xml:id="i-42703f0f6fe70dd8-0" n="fa9011ab" next="i-c3a52877433c27db-0">
-            <seg n="49dfc41f">
+          <u xml:id="i-2eca2ed217ccf266-329" next="i-2eca2ed217ccf266-331" who="Q5588228">
+            <seg>
               Herr talman! Tyvärr har LRF inte något att tacka regeringen för
               just nu. Det kan vi diskutera vid något annat tillfälle.
             </seg>
-            <seg n="eb6ebad2">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-330" prev="i-2eca2ed217ccf266-329" who="Q5588228">
+            <seg>
               Visst, jag är alltid optimist. Jag tror att detta kommer att
               gå bra. Jag hoppas att Birgitta Dahl och regeringen är med på
               tåget när det går.
             </seg>
           </u>
-          <note n="8e3d9822">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="78d9c050">
+          <note>
             16 § Hänvisning av ärenden till utskott
           </note>
-          <note n="d939909c">
+          <note>
             Föredrogs och hänvisades
           </note>
-          <note n="5a6ee91f">
+          <note>
             Motionerna
           </note>
-          <note n="ce0676a2">
+          <note>
             1990/91:Fi36--Fi66 till finansutskottet
           </note>
-          <note n="19efd73a">
+          <note>
             1990/91:So96--So104 till socialutskottet
           </note>
-          <note n="6c41bf72">
+          <note>
             1990/91:Ub191--Ub198 till utbildningsutskottet
           </note>
-          <note n="39c9ddcf">
+          <note>
             1990/91:So71--So95 till socialutskottet
           </note>
-          <note n="7bad371a">
+          <note>
             1990/91:Sf51--Sf55 till socialförsäkringsutskottet
           </note>
-          <note n="0a350f5a">
+          <note>
             1990/91:Bo76--Bo78 till bostadsutskottet
           </note>
-          <note n="b102929d">
+          <note>
             17 § Förnyad bordläggning
           </note>
-          <u who="Q5588228" xml:id="i-c3a52877433c27db-0" n="fa9011ab" prev="i-42703f0f6fe70dd8-0">
-            <seg n="1a29e936">
-              Föredrogs men bordlades åter
-            </seg>
-          </u>
-          <note n="c6d5aadf">
+          <note>
+            Föredrogs men bordlades åter
+          </note>
+          <note>
             Konstitutionsutskottets betänkanden
           </note>
-          <note n="e7ce7cb3">
+          <note>
             1990/91:KU32 och KU40
           </note>
-          <note n="e0637806">
+          <note>
             Finansutskottets betänkanden 1990/91:FiU23,
           </note>
-          <note n="5b506f91">
+          <note>
             FiU25, FiU27 och FiU28
           </note>
-          <note n="0dbddb3f">
+          <note>
             Skatteutskottets betänkande 1990/91:SkU35
           </note>
-          <note n="b653b87e">
+          <note>
             Lagutskottets betänkande 1990/91:LU31
           </note>
-          <note n="20f5e514">
+          <note>
             Utrikesutskottets betänkande 1990/91:UU7
           </note>
-          <note n="7457f8df">
+          <note>
             Kulturutskottets betänkande 1990/91:KrU29
           </note>
-          <note n="40a3654d">
+          <note>
             Jordbruksutskottets betänkande 1990/91:JoU27
           </note>
-          <note n="eb42a814">
+          <note>
             Näringsutskottets betänkanden 1990/91:NU32 och
           </note>
-          <note n="0fa963e4">
-            NU34
-          </note>
-          <note n="dc63a900">
+          <u xml:id="i-2eca2ed217ccf266-331" prev="i-2eca2ed217ccf266-329" who="Q5588228">
+            <seg>
+              NU34
+            </seg>
+          </u>
+          <note>
             Bostadsutskottets betänkande 1990/91:BoU16
           </note>
-          <note n="389b335b">
+          <note>
             18 § Bordläggning
           </note>
-          <note n="de4ea599">
+          <note>
             Anmäldes och bordlades
           </note>
-          <note n="5a6ee91f">
+          <note>
             Motionerna
           </note>
-          <note n="8d934130">
+          <note>
             med anledning av prop. 1990/91:183 Ändrad träfiberprövning
           </note>
-          <note n="f49ee9df">
+          <note>
             1990/91:N117 av Gunnar Thollander m.fl. (s)
           </note>
-          <note n="db0b4913">
+          <note>
             1990/91:N118 av Lars Norberg m.fl. (mp)
           </note>
-          <note n="f17e9e87">
+          <note>
             1990/91:N119 av Rolf L Nilson m.fl. (v)
           </note>
-          <note n="c9709d75">
+          <note>
             1990/91:N120 av Hadar Cars m.fl. (fp)
           </note>
-          <note n="1853f6e7">
+          <note>
             1990/91:N121 av Sten-Ove Sundström och Monica
           </note>
-          <note n="a2f82da0">
+          <note>
             Öhman (s)
           </note>
-          <note n="dbc2fe12">
+          <note>
             1990/91:N122 av Per Westerberg m.fl. (m)
           </note>
-          <note n="e497782c">
+          <note>
             1990/91:N123 av Per-Ola Eriksson m.fl. (c)
           </note>
-          <note n="de697e9b">
+          <note>
             med anledning av prop. 1990/91:184 Verksamheten i Studsvikskoncernen,
             m.m.
           </note>
-          <note n="389e2408">
+          <note>
             1990/91:N124 av Lars Norberg m.fl. (mp)
           </note>
-          <note n="b6c8a474">
+          <note>
             1990/91:N125 av Margit Gennser (m)
           </note>
-          <note n="5601d8a9">
+          <note>
             1990/91:N126 av Per-Ola Eriksson m.fl. (c)
           </note>
-          <note n="bb32fe4f">
+          <note>
             med anledning av prop. 1990/91:191 Vissa livsmedelspolitiska
             frågor
           </note>
-          <note n="174134d6">
+          <note>
             1990/91:Jo153 av Anita Persson (s)
           </note>
-          <note n="972dc8d5">
+          <note>
             1990/91:Jo154 av Hans Gustafsson (s)
           </note>
-          <note n="86fc43f0">
+          <note>
             1990/91:Jo155 av Karl-Gösta Svenson m.fl. (m)
           </note>
-          <note n="5abf2524">
+          <note>
             1990/91:Jo156 av Ingvar Eriksson (m)
           </note>
-          <note n="1d787907">
+          <note>
             1990/91:Jo157 av Sven Eric Lorentzon m.fl. (m)
           </note>
-          <note n="2045d14f">
+          <note>
             1990/91:Jo158 av Karl Erik Olsson m.fl. (c)
           </note>
-          <note n="7bca1453">
+          <note>
             1990/91:Jo159 av Sven-Olof Petersson och
           </note>
-          <note n="61d14b72">
+          <note>
             Marianne Jönsson (c)
           </note>
-          <note n="ed81f064">
+          <note>
             1990/91:Jo160 av Marianne Samuelsson (mp)
           </note>
-          <note n="6ec85e07">
+          <note>
             1990/91:Jo161 av Stina Gustavsson och Kersti
           </note>
-          <note n="c3f556bf">
+          <note>
             Johansson (c)
           </note>
-          <note n="d9ec1933">
+          <note>
             1990/91:Jo162 av Bengt Rosén m.fl. (c)
           </note>
-          <note n="f38c5ce2">
+          <note>
             1990/91:Jo163 av Lars Werner m.fl. (v)
           </note>
-          <note n="9cbf9103">
+          <note>
             Konstitutionsutskottets betänkande
           </note>
-          <note n="b7ed7ed3">
+          <note>
             1990/91:KU44 Sjukavdrag för riksdagens ledamöter samt statsråd,
             m.m.
           </note>
-          <note n="d70563d6">
+          <note>
             Jordbruksutskottets betänkande
           </note>
-          <note n="2dafe140">
+          <note>
             1990/91:JoU25 Näringspolitik för tillväxt
           </note>
-          <note n="17b93082">
+          <note>
             Arbetsmarknadsutskottets betänkande
           </note>
-          <note n="e046c7f0">
+          <note>
             1990/91:AU13 Regionalpolitiken
           </note>
-          <note n="dd630775">
+          <note>
             19 § Anmälan om frågor
           </note>
-          <note n="143784d4">
+          <note>
             Anmäldes att följande frågor framställts
           </note>
-          <note n="71b74c9f">
+          <note>
             den 10 maj
           </note>
-          <note type="speaker" n="f6c2f6d6">
-            1990/91:
+          <note type="speaker">
+            1990/91:604 av Birgitta Hambraeus (c) till kommunikationsministern
+            om fortsatt persontrafik på inlandsbanan:
           </note>
-          <note type="speaker" n="7f5e0161">
-            604 av Birgitta Hambraeus (c) till kommunikationsministern om
-            fortsatt persontrafik på inlandsbanan:
-          </note>
-          <u who="unknown" xml:id="i-547b16fa990ed8e9-0" n="6b008bad">
-            <seg n="0481d995">
+          <u xml:id="i-2eca2ed217ccf266-332" who="unknown">
+            <seg>
               Enligt uppgift vill banverket ha en signal från regeringen för
               att gå med på fortsatt persontrafik på inlandsbanan. Banverket
               äskade medel för underhåll också av inlandsbanan för budgetåret
             </seg>
-            <seg n="1d9d5c6f">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-333" who="unknown">
+            <seg>
               1991/92. Riksdagen har inte beslutat undanhålla detta.
             </seg>
-            <seg n="36ea18f7">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-334" who="unknown">
+            <seg>
               De direkta utgifterna för banverket att köra persontrafik vid
               sidan av godset i sommar, kan inte rimligen motivera höjda avgifter.
             </seg>
-            <seg n="548f167c">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-335" who="unknown">
+            <seg>
               Kommer regeringen att klargöra för banverket att de skall underlätta
               fortsatt persontrafik på inlandsbanan i sommar?
             </seg>
           </u>
-          <note n="7a650dce">
+          <note>
             den 13 maj
           </note>
-          <note type="speaker" n="f6c2f6d6">
-            1990/91:
-          </note>
-          <note type="speaker" n="ad2ce81f">
-            605 av Göthe Knutson (m) till justitieministern om rymningssäkra
+          <note type="speaker">
+            1990/91:605 av Göthe Knutson (m) till justitieministern om rymningssäkra
             fängelser:
           </note>
-          <u who="Q291648" xml:id="i-029607486b50d67d-0" n="3b7c573d">
-            <seg n="abbded17">
+          <u xml:id="i-2eca2ed217ccf266-336" next="i-2eca2ed217ccf266-338" who="Q291648">
+            <seg>
               Ioan Ursuts och hans palestinske kumpans skandalösa flykt från
               Kumlaanstalten ger anledning till en rad frågor och allvarlig
               kritik. När jag upprepade gånger i frågedebatter i riksdagen kritiserat
@@ -2856,84 +3337,98 @@
               gjort eftersom två av landets farligaste brottslingar nu på ett
               behändigt och väl planlagt sätt kunnat rymma från en säkerhetsavdelning?
             </seg>
-            <seg n="7b507f08">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-337" prev="i-2eca2ed217ccf266-336" who="Q291648">
+            <seg>
               Är det kanske regeringens uppfattning att internerna skall kunna
               rymma? Kriminalvårdens chef Björn Weibo har i TV gjort gällande
               att justitieminister Laila Freivlads delar hans uppfattning härvidlag!
             </seg>
-            <seg n="fac597bf">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-338" prev="i-2eca2ed217ccf266-336" who="Q291648">
+            <seg>
               Är det justitieministerns uppfattning att inte heller specialavdelningarna
               skall göras så rymningssäkra som möjligt är, dvs. att farliga
               brottslingar som rumänen Ursut skall ha möjlighet att rymma?
             </seg>
           </u>
-          <note type="speaker" n="f6c2f6d6">
-            1990/91:
+          <note type="speaker">
+            1990/91:606 av Bengt Harding Olson (fp) till försvarsministern
+            om skadeersättningen till värnpliktiga:
           </note>
-          <note type="speaker" n="9be244aa">
-            606 av Bengt Harding Olson (fp) till försvarsministern om skadeersättningen
-            till värnpliktiga:
-          </note>
-          <u who="Q5603378" xml:id="i-bf39b16e15eb8a30-0" n="fe46eaaa">
-            <seg n="9edff16f">
+          <u xml:id="i-2eca2ed217ccf266-339" next="i-2eca2ed217ccf266-343" who="Q5603378">
+            <seg>
               Under militärtjänstgöring skadas ibland värnpliktiga, mer eller
               mindre allvarligt. Så har skett under tidigare år och torde vara
               ofrånkomligt även i framtiden.
             </seg>
-            <seg n="7ab126f6">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-340" prev="i-2eca2ed217ccf266-339" who="Q5603378">
+            <seg>
               I dessa situationer har staten rimligen ett generöst skadeståndsansvar.
               De värnpliktsskadade har också successivt fått en förbättrad ersättningsrätt.
             </seg>
-            <seg n="de8899d4">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-341" prev="i-2eca2ed217ccf266-339" who="Q5603378">
+            <seg>
               Men kritiker påstår att gällande ersättningssystem är svåröverskådligt
               och otillfredsställande särskilt för skador under tidigare år.
             </seg>
-            <seg n="12bb26ab">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-342" prev="i-2eca2ed217ccf266-339" who="Q5603378">
+            <seg>
               Med anledning av ovanstående vill jag ställa följande fråga:
             </seg>
-            <seg n="2c4e3e07">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-343" prev="i-2eca2ed217ccf266-339" who="Q5603378">
+            <seg>
               Är statsrådet beredd att göra en översyn för att skapa ett tillfredsställande
               ersättningssystem för alla värnpliktsskadade?
             </seg>
           </u>
-          <note type="speaker" n="f6c2f6d6">
-            1990/91:
-          </note>
-          <note type="speaker" n="4ed9e235">
-            607 av Lars Norberg (mp) till industriministern om Saab-Scanias
+          <note type="speaker">
+            1990/91:607 av Lars Norberg (mp) till industriministern om Saab-Scanias
             koncernbidrag till Saab-Automobile:
           </note>
-          <u who="unknown" xml:id="i-348efcc1e7b468f7-0" n="8d1d568b">
-            <seg n="e08b245a">
+          <u xml:id="i-2eca2ed217ccf266-344" who="unknown">
+            <seg>
               Under det senaste årtiondet har regeringen gång efter annan visat
               sin speciella välvilja mot Saab-
             </seg>
-            <seg n="93cbff70">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-345" who="unknown">
+            <seg>
               Scania. Det började med att man gav ett villkorslån på 350 miljoner
               1980 för byggandet av plan SF 340.
             </seg>
-            <seg n="7093cf08">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-346" who="unknown">
+            <seg>
               Senare sålde staten en av Malmös värdefullaste tomter -- Kockumstomten
               -- till Saab-Scania till ett mycket lågt pris, vidare fick man
               tillägna sig
             </seg>
-            <seg n="eafd1e15">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-347" who="unknown">
+            <seg>
               Kockums förlustavdrag och använda miljarder i investeringsfonder
               för byggandet av en bilfabrik på
             </seg>
-            <seg n="9eb9d325">
-              Kockumstomten. Löftet var att man skulle öka sysselsättningen
-              i Malmö. 1989 föreslog regeringen, vilket riksdagen godkände,
-              ett villkorslån på 1 200
-            </seg>
-            <seg n="7b615bb6">
-              miljoner för byggandet av Saab 2000. I villkoren ingick bl.a.
-              byggandet av en bilmotorfabrik i
-            </seg>
-            <seg n="16fc8897">
-              Karlskrona med ca 400 anställda. Våren 1990
-            </seg>
-            <seg n="ffaaac1d">
+          </u>
+          <note>
+            Kockumstomten. Löftet var att man skulle öka sysselsättningen
+            i Malmö. 1989 föreslog regeringen, vilket riksdagen godkände,
+            ett villkorslån på 1 200
+          </note>
+          <note>
+            miljoner för byggandet av Saab 2000. I villkoren ingick bl.a.
+            byggandet av en bilmotorfabrik i
+          </note>
+          <note>
+            Karlskrona med ca 400 anställda. Våren 1990
+          </note>
+          <u xml:id="i-2eca2ed217ccf266-348" who="unknown">
+            <seg>
               föreslog regeringen ett särskilt bidrag till detta byggande på
               över 100 miljoner. Denna etablering blev aldrig av, och bidraget
               kommer förmodligen ej att utbetalas. Vi erfar nu att regeringen
@@ -2941,57 +3436,69 @@
               överföra koncernbidrag till Saab-Automobile trots att företaget
               endast till 50 % ägs av Saab-
             </seg>
-            <seg n="55a11e94">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-349" who="unknown">
+            <seg>
               Scania. Saab bygger lyxbilar med hög bensinförbrukning. Det finns
               enligt min uppfattning ingen anledning att uppmuntra detta.
             </seg>
-            <seg n="88a33494">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-350" who="unknown">
+            <seg>
               Finns det ingen gräns för regeringens givmildhet mot Saab?
             </seg>
           </u>
-          <note n="6c5b5b44">
+          <note>
             1990/91:608 av Lars Norberg (mp) till statsrådet
           </note>
-          <u who="unknown" xml:id="i-cb1b69ee0b9df7cb-0" n="8d1d568b">
-            <seg n="02bab77a">
-              Erik Åsbrink om skattepolitiken och miljön:
-            </seg>
-            <seg n="716d8c99">
+          <note>
+            Erik Åsbrink om skattepolitiken och miljön:
+          </note>
+          <u xml:id="i-2eca2ed217ccf266-351" who="unknown">
+            <seg>
               Syftemålet med vissa skatter är inte enbart fiskala utan avser
               också att påverka konsumtionen. De klassiska exemplen är alkohol-
               och tobaksskatterna. Att dessa skatter är väsentligt högre än
               andra konsumtionsskatter -- moms --
             </seg>
-            <seg n="2bdb55d6">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-352" who="unknown">
+            <seg>
               beror på syftet att hålla nere konsumtionen. På senare tid har
               utsläppsskatter använts i samma syfte. Det mest kraftfulla exemplet
               är koldioxidskatten.
             </seg>
-            <seg n="b9443393">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-353" who="unknown">
+            <seg>
               Nu finner man emellertid att annan skattepolitik motverkar syftet.
               1 mars 1990 infördes koldioxidskatt på bensin vilket otvivelaktigt
               i och för sig medverkat till minskad bensinförbrukning.
             </seg>
-            <seg n="adb720d1">
-              Emellertid infördes mervärdeskatt på koldioxid den 1 januri 1991.
-              I dag är situationen den att realpriset på bensin har fallit ca
-              10 % sedan i maj
-            </seg>
-            <seg n="64ccc93c">
+          </u>
+          <note>
+            Emellertid infördes mervärdeskatt på koldioxid den 1 januri 1991.
+            I dag är situationen den att realpriset på bensin har fallit ca
+            10 % sedan i maj
+          </note>
+          <u xml:id="i-2eca2ed217ccf266-354" who="unknown">
+            <seg>
               1990 under det att realpriset på kollektivresor har ökat med
               minst 10 %. Ingen förnekar att det ur miljö- och energisynpunkt
               borde ha varit önskvärt med omvända förhållanden.
             </seg>
-            <seg n="c84bdaea">
+          </u>
+          <u xml:id="i-2eca2ed217ccf266-355" who="unknown">
+            <seg>
               På vad sätt avser regeringen genom skattepolitiken visa sin miljövänlighet
               när det gäller trafiken? Det senaste årets utveckling tyder på
               ointresse för miljön.
             </seg>
           </u>
-          <note n="6afea773">
+          <note>
             20 § Kammaren åtskildes kl. 16.17.
           </note>
-          <note n="3ed861f8">
+          <note>
             Förhandlingarna leddes av tredje vice talmannen.
           </note>
         </div>

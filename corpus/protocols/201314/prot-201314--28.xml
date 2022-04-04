@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2013</title>
+        <title>Riksdagens protocols 201314</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2013</title>
+          <title>Riksdagens protocols 201314</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -63,67 +60,68 @@
       </front>
       <body>
         <div>
-          <note n="c1d611c7">
-            ﻿
-          </note>
-          <note n="52b98437">
+          <note>
             Riksdagens protokoll
           </note>
-          <note n="15c7cdbf">
+          <note>
             2013/14:28
           </note>
-          <note type="date" n="2aaf7e69">
+          <note>
             Fredagen den 15 november
           </note>
-          <note n="0bcf9ac6">
+          <note>
             Kl. 09:00 - 09:12
           </note>
-          <note n="8a687a71">
+          <note>
             1 § Anmälan om fördröjt svar på interpellation
           </note>
-          <note n="674ebc07">
+          <note>
             Följande skrivelse hade kommit in:
           </note>
-          <note n="f673b6d2">
+          <note>
             Interpellation 2013/14:116
           </note>
-          <note n="c71dac40">
-            Interpellation 2013/14:116 Postservicen i Helsingforss skärgård
+          <note>
+            Interpellation 2013/14:116 Postservicen i Stockholms skärgård
           </note>
-          <note n="a2aa9b76">
+          <note>
             Interpellationen kommer att besvaras fredagen den 29 november
             2013.
           </note>
-          <note n="520544bc">
-            Skälet till dröjsmålet är tidigare inbokade resor och arrangemang.
-          </note>
-          <note n="ab82485c">
+          <u xml:id="i-1e655f2f240d6130-0" who="unknown">
+            <seg>
+              Skälet till dröjsmålet är tidigare inbokade resor och arrangemang.
+            </seg>
+          </u>
+          <note>
             Fredrik Ahlén
           </note>
-          <note n="61878f91">
+          <note>
             2 § Ärenden för hänvisning till utskott
           </note>
-          <note n="4ccf29d0">
+          <note>
             Följande dokument hänvisades till utskott:
           </note>
-          <note n="1468c31c">
+          <note>
             den 8 januari 2014
           </note>
-          <note n="0956026d">
+          <note>
             3 § Svar på interpellation 2013/14:78 om bevarandet av Dialekt-
             och ortnamnsarkivet
           </note>
-          <note type="speaker" n="bfe5ba2c">
+          <note type="speaker">
             Anf. 1 Kultur- och idrottsminister LENA ADELSOHN LILJEROTH (M):
           </note>
-          <u who="Q297821" xml:id="i-3a0716674f11b949-0" n="6a564fef">
-            <seg n="f4930c3d">
+          <u xml:id="i-1e655f2f240d6130-1" next="i-1e655f2f240d6130-4" who="Q297821">
+            <seg>
               Herr talman! Tuve Skånberg har mot bakgrund av omorganisationen
               av Institutet för språk och folkminnen, Isof, frågat mig hur jag
               avser att säkerställa att Dialekt- och ortnamnsarkivet i Lund,
               Dal, inte läggs ned och att dess kompetens behålls i Lund.
             </seg>
-            <seg n="9de6e141">
+          </u>
+          <u xml:id="i-1e655f2f240d6130-2" prev="i-1e655f2f240d6130-1" who="Q297821">
+            <seg>
               Isof har under 2013 genomfört en översyn av verksamheten och
               ekonomin i syfte att åstadkomma en ändamålsenlig, flexibel och
               kostnadseffektiv organisation och verksamhetsstruktur. Översynen
@@ -134,13 +132,15 @@
               på alla avdelningar. Institutets resurser avses därför att samlas
               för att uppdraget fortsatt ska kunna fullgöras med hög kvalitet.
             </seg>
-            <seg n="36e1edaf">
-              Omorganisationen kommer att innebära att verksamheten koncentreras
-              till Göteborg, Helsingfors och Uppsala. Därmed läggs Dialekt-
-              och ortnamnsarkivet i Lund, Dal, och Dialekt-, ortnamns- och folkminnesarkivet
-              i Umeå, Daum, ned, och ansvaret för verksamheten omlokaliseras.
-            </seg>
-            <seg n="9c60a7e1">
+          </u>
+          <note>
+            Omorganisationen kommer att innebära att verksamheten koncentreras
+            till Göteborg, Stockholm och Uppsala. Därmed läggs Dialekt- och
+            ortnamnsarkivet i Lund, Dal, och Dialekt-, ortnamns- och folkminnesarkivet
+            i Umeå, Daum, ned, och ansvaret för verksamheten omlokaliseras.
+          </note>
+          <u xml:id="i-1e655f2f240d6130-3" prev="i-1e655f2f240d6130-1" who="Q297821">
+            <seg>
               De nuvarande samlingarna som finns i Umeå och i Lund behöver
               finna en ny hemvist, men något beslut om hur och var är ännu inte
               fattat. Frågan ska utredas vidare i dialog mellan myndigheten
@@ -151,7 +151,9 @@
               om den fysiska placeringen av samlingarna. Denna dialog kommer
               att fortsätta.
             </seg>
-            <seg n="152d988a">
+          </u>
+          <u xml:id="i-1e655f2f240d6130-4" prev="i-1e655f2f240d6130-1" who="Q297821">
+            <seg>
               Avslutningsvis vill jag påminna om att organisationen av verksamheten
               är en fråga som hanteras av myndigheten. Myndigheten har dock
               informerat om översynen och behoven av omorganisation, och det
@@ -159,11 +161,11 @@
               med omorganisationen.
             </seg>
           </u>
-          <note type="speaker" n="5060d087">
+          <note type="speaker">
             Anf. 2 TUVE SKÅNBERG (KD):
           </note>
-          <u who="Q4354054" xml:id="i-1b06b36d666b5c24-0" n="5d99486d">
-            <seg n="f0e7c3bc">
+          <u xml:id="i-1e655f2f240d6130-5" next="i-1e655f2f240d6130-12" who="Q4354054">
+            <seg>
               Herr talman! Jag vill tacka statsrådet för svaret. Jag vill också
               tacka för att jag fick förmånen att möta statsrådet så här i början
               av fredagen. Och jag får tacka er övriga för att ni har kommit.
@@ -171,26 +173,34 @@
               det mer långrandigt än vad som behövs. Men jag tackar så mycket
               för det utmärkta svaret.
             </seg>
-            <seg n="01e66e55">
+          </u>
+          <u xml:id="i-1e655f2f240d6130-6" prev="i-1e655f2f240d6130-5" who="Q4354054">
+            <seg>
               Inledningsvis vill jag naturligtvis betona att jag är fullt medveten
               om att besluten om Dialekt- och ortnamnsarkivet i Lund, Dal, fattas
               av myndigheten själv och inte av ministern eller någon annan.
               Jag vill naturligtvis inte locka kulturministern till att överpröva
               ett myndighetsbeslut. Det vore mig främmande som ledamot av konstitutionsutskottet.
             </seg>
-            <seg n="8d8c06bf">
+          </u>
+          <u xml:id="i-1e655f2f240d6130-7" prev="i-1e655f2f240d6130-5" who="Q4354054">
+            <seg>
               Men faktum är att beslutet att lägga ned Dal och Daum var mindre
               välbetänkt. Det kan jag som riksdagsledamot och också som forskare
               ha åsikter om. Det ber jag inte ministern att ha åsikter om.
             </seg>
-            <seg n="fdf5517e">
+          </u>
+          <u xml:id="i-1e655f2f240d6130-8" prev="i-1e655f2f240d6130-5" who="Q4354054">
+            <seg>
               Det viktiga är att kulturministern öppnar för en ny utveckling,
               en positiv utveckling. I stället för att flytta arkivet från Lund
               och näst intill lägga det i en malpåse i Göteborg och i praktiken
               avsluta arkivet – när man flyttar det innebär det en avslutning
               – pågår det nu en dialog med Lunds universitet, nämner kulturministern.
             </seg>
-            <seg n="4b5c7768">
+          </u>
+          <u xml:id="i-1e655f2f240d6130-9" prev="i-1e655f2f240d6130-5" who="Q4354054">
+            <seg>
               Jag har fått ta del av det brev som Lunds universitets dekanus,
               Lynn Åkesson, har skrivit både till kulturministern och till utbildningsministern.
               Och det är en väldigt god öppning. Det är ett väldigt gott innehåll
@@ -202,7 +212,9 @@
               fram att universiteten över huvud taget är de enskilt största
               intressenterna när det gäller arkivets verksamhet.
             </seg>
-            <seg n="0e3a38e9">
+          </u>
+          <u xml:id="i-1e655f2f240d6130-10" prev="i-1e655f2f240d6130-5" who="Q4354054">
+            <seg>
               Detta är en positiv utveckling, och jag är glad för att Lunds
               universitet är berett att ta sitt ansvar för att inte viktig forskning
               ska gå förlorad. Om nu inte Institutet för språk och folkminnen
@@ -212,7 +224,9 @@
               ligger måhända betydligt närmare forskning och universitetet än
               den kulturella sektorn.
             </seg>
-            <seg n="0853dcee">
+          </u>
+          <u xml:id="i-1e655f2f240d6130-11" prev="i-1e655f2f240d6130-5" who="Q4354054">
+            <seg>
               Låt mig bara kort få nämna vilka resurser som då skulle överföras
               till Lunds universitet. För det första har Dal en stor ämnesmässig
               styrka och ett förnämligt arkiv. För det andra passar det väl
@@ -220,30 +234,36 @@
               ett samarbete med folklivsarkivet, som sorterar under universitetet,
               och Dal är mycket produktivt.
             </seg>
-            <seg n="f847bf59">
+          </u>
+          <u xml:id="i-1e655f2f240d6130-12" prev="i-1e655f2f240d6130-5" who="Q4354054">
+            <seg>
               Det är fyra delar av serien Skånes ortnamn . Det är den populära
               Skånska dialektord . Det är en bok om blekingska dialektord. Och
               det är tre band av Skånes ortnamn , som kommer ut 2014. Det är
               vad som är aktuellt för ögonblicket.
             </seg>
           </u>
-          <note type="speaker" n="27aa7ae1">
+          <note type="speaker">
             Anf. 3 Kultur- och idrottsminister LENA ADELSOHN LILJEROTH (M):
           </note>
-          <u who="Q297821" xml:id="i-3a0716674f11b949-1" n="6a564fef">
-            <seg n="9120e433">
+          <u xml:id="i-1e655f2f240d6130-13" next="i-1e655f2f240d6130-16" who="Q297821">
+            <seg>
               Herr talman! Det är bra, tycker jag, att Tuve Skånberg erinrar
               om att han är ledamot i konstitutionsutskottet. Vi har båda god
               kunskap om regeringsformen och praxis, vad en minister ska, bör
               och kan göra.
             </seg>
-            <seg n="424ef015">
+          </u>
+          <u xml:id="i-1e655f2f240d6130-14" prev="i-1e655f2f240d6130-13" who="Q297821">
+            <seg>
               Att måna om och värna kulturarvet är, som Tuve Skånberg vet,
               en av alliansregeringens främsta prioriteringar. Det betyder att
               vi har gjort stora satsningar på arkiv och museer och på att utveckla
               digitaliseringen, så att det blir tillgängligt för många fler.
             </seg>
-            <seg n="03ca9c89">
+          </u>
+          <u xml:id="i-1e655f2f240d6130-15" prev="i-1e655f2f240d6130-13" who="Q297821">
+            <seg>
               Vi har också en armlängds avstånd, och vi har en praxis från
               vår sida att ha en god dialog med våra myndighetschefer. Det har
               vi med Ingrid Johansson Lind på Isof, och vi har stort förtroende
@@ -251,7 +271,9 @@
               minst när det gäller att utveckla det som handlar om de nationella
               språken och det immateriella kulturarvet.
             </seg>
-            <seg n="9d848570">
+          </u>
+          <u xml:id="i-1e655f2f240d6130-16" prev="i-1e655f2f240d6130-13" who="Q297821">
+            <seg>
               Det finns inget självändamål från Isofs sida med att flytta arkiven,
               men man har ett uppdrag att se till hela landet och att stärka
               regionerna. Från Isofs sida ser man att man behöver göra en omorganisation
@@ -263,15 +285,17 @@
               och det arbete som sker på Isof.
             </seg>
           </u>
-          <note type="speaker" n="5f738234">
+          <note type="speaker">
             Anf. 4 TUVE SKÅNBERG (KD):
           </note>
-          <u who="Q4354054" xml:id="i-1b06b36d666b5c24-1" n="5d99486d">
-            <seg n="1b216a83">
+          <u xml:id="i-1e655f2f240d6130-17" next="i-1e655f2f240d6130-21" who="Q4354054">
+            <seg>
               Herr talman! Jag tackar för statsrådets utveckling av svaret!
               Jag har heller ingen anledning att ifrågasätta generaldirektören.
             </seg>
-            <seg n="7fb22876">
+          </u>
+          <u xml:id="i-1e655f2f240d6130-18" prev="i-1e655f2f240d6130-17" who="Q4354054">
+            <seg>
               Den naturliga utvecklingen skulle redan tidigare, och framför
               allt nu, ha varit att Dal och Daum förs över till universiteten
               i deras närhet. Dessa arkiv skulle behöva avslutas i formell mening.
@@ -282,27 +306,33 @@
               och Köpenhamns universitet, som är de universitet som mest utnyttjar
               arkivet.
             </seg>
-            <seg n="c41fa21f">
+          </u>
+          <u xml:id="i-1e655f2f240d6130-19" prev="i-1e655f2f240d6130-17" who="Q4354054">
+            <seg>
               Brevet från Lunds universitet och det sätt som kulturministern
               reagerar på brevet innebär att flytten är den goda öppningen.
               Det är en naturlig och viktig utveckling. Statsrådet poängterar
               att ett ställningstagande i denna fråga ligger inom behörigheten
               för en utbildningsminister eller kulturminister.
             </seg>
-            <seg n="b08dbe1d">
+          </u>
+          <u xml:id="i-1e655f2f240d6130-20" prev="i-1e655f2f240d6130-17" who="Q4354054">
+            <seg>
               Men det krävs också en aktiv medverkan. Kulturministern både
               får, kan och bör aktivt medverka till bästa tänkbara lösning och
               att universiteten i Sydsverige och Danmark inte missgynnas.
             </seg>
-            <seg n="5b67eb0d">
+          </u>
+          <u xml:id="i-1e655f2f240d6130-21" prev="i-1e655f2f240d6130-17" who="Q4354054">
+            <seg>
               Herr talman! Kan vi räkna med det aktiva stödet?
             </seg>
           </u>
-          <note type="speaker" n="cc47982f">
+          <note type="speaker">
             Anf. 5 Kultur- och idrottsminister LENA ADELSOHN LILJEROTH (M):
           </note>
-          <u who="Q297821" xml:id="i-3a0716674f11b949-2" n="6a564fef">
-            <seg n="b07feec7">
+          <u xml:id="i-1e655f2f240d6130-22" next="i-1e655f2f240d6130-24" who="Q297821">
+            <seg>
               Herr talman! Som jag nämnde i mitt svar till Tuve Skånberg har
               vi en pågående dialog med Institutet för språk och folkminnen,
               som vi har med alla våra myndigheter. Jag vet att det har funnits
@@ -310,32 +340,36 @@
               också Tuve Skånberg här ta upp ett brev som har gått från rektor
               från Lunds universitet.
             </seg>
-            <seg n="de19c961">
+          </u>
+          <u xml:id="i-1e655f2f240d6130-23" prev="i-1e655f2f240d6130-22" who="Q297821">
+            <seg>
               Det pågår en dialog mellan de olika parterna i syfte att hitta
               så goda lösningar som möjligt för alla. Det arbetet följer vi
               naturligtvis, utan att för den skull lägga oss i hur Isof sedan
               väljer att organisera sin verksamhet.
             </seg>
-            <seg n="7acfd582">
+          </u>
+          <u xml:id="i-1e655f2f240d6130-24" prev="i-1e655f2f240d6130-22" who="Q297821">
+            <seg>
               Vi har fullt förtroende för institutets generaldirektör och ledning,
               men vi fortsätter naturligtvis att ha en dialog.
             </seg>
           </u>
-          <note type="speaker" n="bd2f9d10">
+          <note type="speaker">
             Anf. 6 TUVE SKÅNBERG (KD):
           </note>
-          <u who="Q4354054" xml:id="i-1b06b36d666b5c24-2" n="5d99486d">
-            <seg n="0787eedf">
+          <u xml:id="i-1e655f2f240d6130-25" next="i-1e655f2f240d6130-27" who="Q4354054">
+            <seg>
               Herr talman! Jag tackar för svaret!
             </seg>
           </u>
-          <note n="cda4cf96">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="111709e1">
+          <note>
             4 § Svar på interpellationerna 2013/14:71, 79 och 85
           </note>
-          <note n="35fae990">
+          <note>
             Andre vice talmannen meddelade att miljöminister Lena Ek på grund
             av sjukdom var förhindrad att vid dagens sammanträde besvara interpellationerna
             2013/14:71 av Katarina Köhler (S) om bisfenol A i dricksvatten,
@@ -343,97 +377,101 @@
             till andra EU-länder samt 2013/14:85 av Jens Holm (V) om klimattoppmötet
             COP 19/CMP 9 i Warszawa.
           </note>
-          <note n="eb49ade4">
+          <note>
             5 § Anmälan om interpellationer
           </note>
-          <note n="f14a80da">
+          <note>
             Följande interpellationer hade framställts:
           </note>
-          <note n="e0f874b2">
+          <note>
             den 14 november
           </note>
-          <note n="1caa0697">
+          <note>
             Marie Nordén
           </note>
-          <note n="21e12ea7">
+          <note>
             Agneta Karlsson
           </note>
-          <note n="e578755e">
+          <note>
             Jan-Olof Larsson
           </note>
-          <note n="41cef4d4">
+          <note>
             Johan Löfstrand
           </note>
-          <note n="41cef4d4">
+          <note>
             Johan Löfstrand
           </note>
-          <note n="1caa0697">
+          <note>
             Marie Nordén
           </note>
-          <note n="3adfeb8c">
+          <note>
             Interpellationerna redovisas i bilaga som fogats till riksdagens
             snabbprotokoll tisdagen den 19 november.
           </note>
-          <note n="d33ab91b">
+          <note>
             6 § Anmälan om frågor för skriftliga svar
           </note>
-          <note n="1b60bda1">
-            Följande frågor för skriftliga svar hade framställts:
-          </note>
-          <note n="e0f874b2">
+          <u xml:id="i-1e655f2f240d6130-26" prev="i-1e655f2f240d6130-25" who="Q4354054">
+            <seg>
+              Följande frågor för skriftliga svar hade framställts:
+            </seg>
+          </u>
+          <note>
             den 14 november
           </note>
-          <note n="e4963ca3">
+          <note>
             Jonas Eriksson
           </note>
-          <note n="beefa96b">
+          <note>
             Amineh Kakabaveh
           </note>
-          <note n="cd5c9fca">
+          <note>
             Kent Persson
           </note>
-          <note n="9a0bedf1">
+          <note>
             den 15 november
           </note>
-          <note n="7f30dbdf">
+          <note>
             Jonas Gunnarsson
           </note>
-          <note n="d56b2961">
+          <note>
             Frågorna redovisas i bilaga som fogats till riksdagens snabbprotokoll
             tisdagen den 19 november.
           </note>
-          <note n="36be2f3c">
+          <note>
             7 § Anmälan om skriftliga svar på frågor
           </note>
-          <note n="4cad9fe9">
-            Skriftliga svar på följande frågor hade kommit in:
-          </note>
-          <note n="e0f874b2">
+          <u xml:id="i-1e655f2f240d6130-27" prev="i-1e655f2f240d6130-25" who="Q4354054">
+            <seg>
+              Skriftliga svar på följande frågor hade kommit in:
+            </seg>
+          </u>
+          <note>
             den 14 november
           </note>
-          <note n="81c530c2">
+          <note>
             Carina Hägg
           </note>
-          <note n="d617ca7b">
+          <note>
             Hans Linde
           </note>
-          <note n="8fc979b0">
+          <note>
             Sven-Erik Bucht
           </note>
-          <note n="dcd1a484">
+          <note>
             Bodil Ceballos
           </note>
-          <note n="138cf0fb">
+          <note>
             Svaren redovisas i bilaga som fogats till riksdagens snabbprotokoll
             tisdagen den 19 november.
           </note>
-          <note n="706cc492">
+          <note>
             8 § Kammaren åtskildes kl. 9.12.
           </note>
-          <note n="43f7a939">
+          <note>
             Förhandlingarna leddes av andre vice talmannen.
           </note>
-          <note n="024b2829">
+          <note>
             /Eva-Lena Ekman
           </note>
         </div>

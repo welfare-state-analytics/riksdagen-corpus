@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2013</title>
+        <title>Riksdagens protocols 201314</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2013</title>
+          <title>Riksdagens protocols 201314</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -63,52 +60,55 @@
       </front>
       <body>
         <div>
-          <note n="f98e545a">
-            ﻿
-          </note>
-          <note n="2f52611e">
+          <note>
             Riksdagens protokoll
           </note>
-          <note n="f5b901e9">
+          <note>
             2013/14:9
           </note>
-          <note type="date" n="905470bb">
+          <note>
             Torsdagen den 3 oktober
           </note>
-          <note n="55266955">
+          <note>
             Kl. 14:00 - 15:01
           </note>
-          <note n="ca0551a5">
+          <note>
             1 § Frågestund
           </note>
-          <note n="93ca8bf8" type="speaker">
+          <note type="speaker">
             Anf. 1 ANDRE VICE TALMANNEN:
           </note>
-          <note n="a1ee52a4">
+          <note>
             Jag vill hälsa statsråden välkomna. Frågorna besvaras i dag av
             utbildningsminister Jan Björklund, statsrådet Maria Larsson, kultur-
             och idrottsminister Lena Adelsohn Liljeroth, statsrådet Erik Ullenhag
             och statsrådet Anna-Karin Hatt.
           </note>
-          <note n="dfd659dc">
-            En fråga ska vara av övergripande och allmänpolitiskt slag eller
-            avse ett ämne som faller inom statsrådens ansvarsområde och rör
-            dennes tjänsteutövning. Utbildningsminister Jan Björklund besvarar
-            såväl allmänpolitiska frågor som frågor inom sitt eget ansvarsområde.
-            Frågorna till övriga statsråd förutsätts beröra deras ansvarsområde
-            inom regeringen.
-          </note>
-          <note n="a44e02b7">
-            Antalet högskoleplatser
-          </note>
-          <note type="speaker" n="cd3c44e7">
+          <u xml:id="i-4855a22b5e77548d-0" who="unknown">
+            <seg>
+              En fråga ska vara av övergripande och allmänpolitiskt slag eller
+              avse ett ämne som faller inom statsrådens ansvarsområde och rör
+              dennes tjänsteutövning. Utbildningsminister Jan Björklund besvarar
+              såväl allmänpolitiska frågor som frågor inom sitt eget ansvarsområde.
+              Frågorna till övriga statsråd förutsätts beröra deras ansvarsområde
+              inom regeringen.
+            </seg>
+          </u>
+          <u xml:id="i-4855a22b5e77548d-1" who="unknown">
+            <seg>
+              Antalet högskoleplatser
+            </seg>
+          </u>
+          <note type="speaker">
             Anf. 2 IBRAHIM BAYLAN (S):
           </note>
-          <u who="Q3055916" xml:id="i-e388bce3d1498898-0" n="363fb07c">
-            <seg n="c3c5227b">
+          <u xml:id="i-4855a22b5e77548d-2" next="i-4855a22b5e77548d-5" who="Q3055916">
+            <seg>
               Herr talman! Min fråga är till utbildningsminister Jan Björklund.
             </seg>
-            <seg n="06f7656c">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-3" prev="i-4855a22b5e77548d-2" who="Q3055916">
+            <seg>
               I morse uppvaktades riksdagens utbildningsutskott av ett flertal
               representanter för Sveriges universitet och högskolor. Bakgrunden
               var ett brev där de uttrycker sin oro över att det blir allt färre
@@ -116,7 +116,9 @@
               rekord. Förra året minskade antalet nyantagna med 13 procent.
               I år fortsätter det att minska med ytterligare 2 procent.
             </seg>
-            <seg n="193318b2">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-4" prev="i-4855a22b5e77548d-2" who="Q3055916">
+            <seg>
               En av de rektorer som var på besök var Lunds universitets rektor
               Per Eriksson. I det brev han skrev, och som föranledde rektorerna
               att besöka riksdagens utbildningsutskott, framhåller han det obegripliga
@@ -124,24 +126,28 @@
               Följden blir att flera av dessa kvalificerade studenter nu hänvisas
               till arbetslöshet.
             </seg>
-            <seg n="89aa9016">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-5" prev="i-4855a22b5e77548d-2" who="Q3055916">
+            <seg>
               Min fråga till utbildningsministern är: Varför drar regeringen
               ned på antalet högskoleplatser när det är så hög ungdomsarbetslöshet
               och det är så många som vill studera i Sverige i dag?
             </seg>
           </u>
-          <note type="speaker" n="acf4dca8">
+          <note type="speaker">
             Anf. 3 Utbildningsminister JAN BJÖRKLUND (FP):
           </note>
-          <u who="Q911372" xml:id="i-a7f775e628f42660-0" n="511202ac">
-            <seg n="3f1f047a">
+          <u xml:id="i-4855a22b5e77548d-6" next="i-4855a22b5e77548d-7" who="Q911372">
+            <seg>
               Herr talman! Sverige har 430 000 studenter. Dagens generation
               ungdomar har utbildningsmöjligheter som ingen generation förut.
               Vi håller på att slå fullständiga utbildningsrekord. Av den årskull
               som i år fyller 19 år kommer 53 procent att beredas plats och
               möjlighet att gå på högskolan.
             </seg>
-            <seg n="98330b6d">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-7" prev="i-4855a22b5e77548d-6" who="Q911372">
+            <seg>
               Jag vet att Göran Persson en gång satte upp ett 50-procentsmål.
               Det var när Ibrahim Baylan satt i regeringen. Han nådde aldrig
               dit. I år når vi 53 procent. Om några få år når vi 63 procent.
@@ -149,16 +155,18 @@
               och lärlingsutbildningar. Alla kan inte bli akademiker.
             </seg>
           </u>
-          <note type="speaker" n="29a814df">
+          <note type="speaker">
             Anf. 4 IBRAHIM BAYLAN (S):
           </note>
-          <u who="Q3055916" xml:id="i-e388bce3d1498898-1" n="363fb07c">
-            <seg n="61df9b71">
+          <u xml:id="i-4855a22b5e77548d-8" next="i-4855a22b5e77548d-11" who="Q3055916">
+            <seg>
               Herr talman! Så brukar det låta från regeringen. De som finns
               därute – studenter, föräldrar, rektorer och universitetsanställda
               – ger inte riktigt den bilden.
             </seg>
-            <seg n="8f616203">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-9" prev="i-4855a22b5e77548d-8" who="Q3055916">
+            <seg>
               Jan Björklund dribblar med statistiken. Det är inte så att det
               bara är 19-åringar som söker till högskolan i vårt land. Medelåldern
               för de sökande ligger strax över 21 år. Andelen 19–24-åringar
@@ -166,7 +174,9 @@
               regeringen har gjort sjunker. År 2006 var det 43 per 100 platser.
               Nu är det nere på 37 per 100 platser. Förutsättningarna försämras.
             </seg>
-            <seg n="8ee9a4c8">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-10" prev="i-4855a22b5e77548d-8" who="Q3055916">
+            <seg>
               Jag fortsätter att referera rektorn för ett av landets största
               lärosäten. Han skriver så här: Andra länder, som bland andra Danmark,
               bygger ut den högre utbildningen för att kunna ta emot fler studenter.
@@ -175,70 +185,84 @@
               och framtidstro för vår unga generation, en för mig obegriplig
               politik.
             </seg>
-            <seg n="b9b64e82">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-11" prev="i-4855a22b5e77548d-8" who="Q3055916">
+            <seg>
               Socialdemokraterna delar den uppfattningen.
             </seg>
           </u>
-          <note type="speaker" n="b834b7d3">
+          <note type="speaker">
             Anf. 5 Utbildningsminister JAN BJÖRKLUND (FP):
           </note>
-          <u who="Q911372" xml:id="i-a7f775e628f42660-1" n="511202ac">
-            <seg n="0ae83e78">
+          <u xml:id="i-4855a22b5e77548d-12" next="i-4855a22b5e77548d-15" who="Q911372">
+            <seg>
               Herr talman! Rektorn för Lunds universitet har också varit på
               mig om detta. Han avviker inte från övriga 200 myndighetschefer
               i Sverige. De vill naturligtvis ha mer pengar till den egna myndigheten.
               Det är inget konstigt. Det vill alla myndighetschefer. Vi måste
               göra en avvägning av vad som är rimligt.
             </seg>
-            <seg n="7913cfe8">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-13" prev="i-4855a22b5e77548d-12" who="Q911372">
+            <seg>
               När man hänvisar till Danmark vill jag bara säga att Sverige
               har högre andel än Danmark som går till högre utbildning. Den
               prognos som nu finns är att vi kommer att ha skyhögt högre andel
               än Danmark om bara några år med de platser som regering och riksdag
               bestämt.
             </seg>
-            <seg n="68227f70">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-14" prev="i-4855a22b5e77548d-12" who="Q911372">
+            <seg>
               Det vi har behov av i Sverige är att bygga ut yrkesutbildningar
               och lärlingsutbildningar. Det är den typen av arbetskraft som
               industrin, näringslivet och arbetsmarknaden skriker efter. Det
               är inte så, Ibrahim Baylan, att Sverige skulle fungera om alla
               blir akademiker.
             </seg>
-            <seg n="c360164f">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-15" prev="i-4855a22b5e77548d-12" who="Q911372">
+            <seg>
               Skattesänkningar och resurser till skolan
             </seg>
           </u>
-          <note type="speaker" n="fbb58df1">
+          <note type="speaker">
             Anf. 6 JABAR AMIN (MP):
           </note>
-          <u who="Q5548875" xml:id="i-19af8b00aabbda15-0" n="2e379dcc">
-            <seg n="ea06f786">
+          <u xml:id="i-4855a22b5e77548d-16" next="i-4855a22b5e77548d-18" who="Q5548875">
+            <seg>
               Herr talman! Min fråga är till utbildningsministern.
             </seg>
-            <seg n="9b9ae621">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-17" prev="i-4855a22b5e77548d-16" who="Q5548875">
+            <seg>
               Av budgetpropositionen framgår att det finns ett reformutrymme,
               pengar att fördela till olika satsningar, på motsvarande ca 24
               miljarder kronor. Den borgerliga regeringen väljer att satsa 12–15
               miljarder på skattesänkningar och ca 2 ½ procent på skolan.
             </seg>
-            <seg n="10dd9079">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-18" prev="i-4855a22b5e77548d-16" who="Q5548875">
+            <seg>
               Min fråga till utbildningsministern är om han anser att det är
               rimligt att det satsas så lite på skolan när det satsas så stor
               andel på skattesänkningar. Är det inte bättre att satsa mer på
               skolan och mindre på skattesänkningar?
             </seg>
           </u>
-          <note type="speaker" n="f6ed8194">
+          <note type="speaker">
             Anf. 7 Utbildningsminister JAN BJÖRKLUND (FP):
           </note>
-          <u who="Q911372" xml:id="i-a7f775e628f42660-2" n="511202ac">
-            <seg n="673f0bf3">
+          <u xml:id="i-4855a22b5e77548d-19" next="i-4855a22b5e77548d-21" who="Q911372">
+            <seg>
               Herr talman! Under min tid som utbildningsminister har statens
               satsningar på skola och utbildning ökat med drygt 7 miljarder
               per år. Det är mer än under den tiden då Jabar Amins parti tillsammans
               med Ibrahim Baylans styrde Sverige.
             </seg>
-            <seg n="df45fa4e">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-20" prev="i-4855a22b5e77548d-19" who="Q911372">
+            <seg>
               Det är mycket substantiella ökningar. Det är ingenting jag skäms
               över. Det är större satsningar och större ökningar än på mycket
               lång tid som staten har gjort på skolan under dessa sju år som
@@ -246,46 +270,54 @@
               på skolan framöver, vilket vi också föreslår. Men vi satsar mycket
               på skolan i Sverige.
             </seg>
-            <seg n="ff30fa67">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-21" prev="i-4855a22b5e77548d-19" who="Q911372">
+            <seg>
               Om man ställer det i relation till skattesänkningen noterar jag
               att Jabar Amin är för denna skattesänkning så länge den genomförs
               efter den 1 januari.
             </seg>
           </u>
-          <note type="speaker" n="f8c8330f">
+          <note type="speaker">
             Anf. 8 JABAR AMIN (MP):
           </note>
-          <u who="Q5548875" xml:id="i-19af8b00aabbda15-1" n="2e379dcc">
-            <seg n="3754585b">
+          <u xml:id="i-4855a22b5e77548d-22" next="i-4855a22b5e77548d-23" who="Q5548875">
+            <seg>
               Herr talman! Nu bluffar ministern med siffror. Detta är regeringens
               eget papper. Där står att det nästa år satsas 600 miljoner på
               skolan av 24 miljarder. Det är 2 ½ procent.
             </seg>
-            <seg n="972768f9">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-23" prev="i-4855a22b5e77548d-22" who="Q5548875">
+            <seg>
               Min fråga är: Tycker ministern att 2 ½ procent är en rimlig satsning
               på skolan? Sedan ni kommit till makten har 70 000–80 000 elever
               lämnat grundskolan utan behörighet till gymnasiet. Är det inte
               bättre att satsa pengarna på de unga än att göra det på skattesänkningar?
             </seg>
           </u>
-          <note type="speaker" n="17d84f01">
+          <note type="speaker">
             Anf. 9 Utbildningsminister JAN BJÖRKLUND (FP):
           </note>
-          <u who="Q911372" xml:id="i-a7f775e628f42660-3" n="511202ac">
-            <seg n="24daee2d">
+          <u xml:id="i-4855a22b5e77548d-24" next="i-4855a22b5e77548d-27" who="Q911372">
+            <seg>
               Herr talman! Jag bluffar inte. Det är helt korrekta siffror.
               Staten har ökat sina anslag till skola och utbildning med mer
               än 7 miljarder per år sedan jag blev utbildningsminister. Det
               är en snabbare och större ökning än Sverige har gjort på mycket
               lång tid. Det är absolut inget att skämmas för.
             </seg>
-            <seg n="dbb9ed19">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-25" prev="i-4855a22b5e77548d-24" who="Q911372">
+            <seg>
               De ytterligare satsningar vi gör nästa år med förstelärarsatsning,
               som jag hoppas ska kunna gå igenom i bred enighet i riksdagen,
               är mycket viktiga för att lyfta läraryrkets status och ställning.
               Det kommer att behövas ännu mer satsningar på skolan i framtiden.
             </seg>
-            <seg n="6426bb49">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-26" prev="i-4855a22b5e77548d-24" who="Q911372">
+            <seg>
               Vi behöver också göra andra åtaganden, till exempel göra det
               mer lönsamt att arbeta så att vi får skatteinkomster att fördela.
               Jag noterar att Miljöpartiet har sagt att man är för regeringens
@@ -293,38 +325,46 @@
               det, när den väl är beslutad. Därmed kan den väl inte vara så
               katastrofal. Då hade ni väl upphävt den, antar jag.
             </seg>
-            <seg n="ead38199">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-27" prev="i-4855a22b5e77548d-24" who="Q911372">
+            <seg>
               Läsförståelsen hos unga
             </seg>
           </u>
-          <note type="speaker" n="b57d3af0">
+          <note type="speaker">
             Anf. 10 CECILIA MAGNUSSON (M):
           </note>
-          <u who="Q4964936" xml:id="i-d54428742fb499a0-0" n="72e54dee">
-            <seg n="23deb71c">
+          <u xml:id="i-4855a22b5e77548d-28" next="i-4855a22b5e77548d-31" who="Q4964936">
+            <seg>
               Herr talman! Utbildningsministern kan sätta sig nu. Mitt ämne
               är visserligen väldigt viktigt för utbildningsministern och rör
               läsförståelse.
             </seg>
-            <seg n="b09a35ab">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-29" prev="i-4855a22b5e77548d-28" who="Q4964936">
+            <seg>
               Vi som var på Bok- och biblioteksmässan förra helgen kan tro
               att Sverige har ett läsande folk. Så är det delvis. Men vi har
               en sjunkande läsförståelse, framför allt hos unga.
             </seg>
-            <seg n="98afeb2d">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-30" prev="i-4855a22b5e77548d-28" who="Q4964936">
+            <seg>
               Alla som arbetar i riksdagen vet att vi måste göra ytterligare
               saker för att förbättra och stimulera läsförståelsen.
             </seg>
-            <seg n="dcc89b6b">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-31" prev="i-4855a22b5e77548d-28" who="Q4964936">
+            <seg>
               Min fråga går till kulturministern. Vad gör regeringen för insatser
               för att öka läsförståelsen hos framför allt unga?
             </seg>
           </u>
-          <note type="speaker" n="0a56b4c3">
+          <note type="speaker">
             Anf. 11 Kultur- och idrottsminister LENA ADELSOHN LILJEROTH (M):
           </note>
-          <u who="Q297821" xml:id="i-a7f775e628f42660-4" n="cb277613">
-            <seg n="719db6c3">
+          <u xml:id="i-4855a22b5e77548d-32" next="i-4855a22b5e77548d-34" who="Q297821">
+            <seg>
               Herr talman! Jag är glad att få frågan, för det som var tydligt
               på Bok- och biblioteksmässan är att det finns ett allt större
               engagemang för de här frågorna. Precis som Cecilia Magnusson var
@@ -332,14 +372,18 @@
               och med ökat markant under de senaste 20 åren, och det kan vi
               glädja oss åt.
             </seg>
-            <seg n="40968f51">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-33" prev="i-4855a22b5e77548d-32" who="Q297821">
+            <seg>
               Problemet är de unga. Det finns flera orsaker till detta. Det
               handlar om brist på tid, och många har kanske inte heller insett
               att läsande är en färdighet. Bara för att eleverna har knäckt
               läskoden är det inte säkert att de därmed också förstår vad de
               läser. Detta har blivit uppenbart bland annat genom Litteraturutredningen.
             </seg>
-            <seg n="1ffbdff6">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-34" prev="i-4855a22b5e77548d-32" who="Q297821">
+            <seg>
               På bokmässan i Göteborg presenterade jag en proposition som kommer
               att lämnas till riksdagen och debatteras under hösten. I den föreslås
               – naturligtvis i samarbete med Utbildningsdepartementet – satsningar
@@ -348,11 +392,11 @@
               bibliotekslag.
             </seg>
           </u>
-          <note type="speaker" n="d0b626f9">
+          <note type="speaker">
             Anf. 12 CECILIA MAGNUSSON (M):
           </note>
-          <u who="Q4964936" xml:id="i-d54428742fb499a0-1" n="72e54dee">
-            <seg n="f38fa68b">
+          <u xml:id="i-4855a22b5e77548d-35" who="Q4964936">
+            <seg>
               Herr talman! Läsa för livet , som propositionen heter, tar upp
               många viktiga förslag. Jag tror att det är viktigt att vi får
               reda på vad de innehåller och vilka fler spelare – inte bara regering
@@ -360,11 +404,11 @@
               Det skulle vara intressant att höra.
             </seg>
           </u>
-          <note type="speaker" n="d9babb87">
+          <note type="speaker">
             Anf. 13 Kultur- och idrottsminister LENA ADELSOHN LILJEROTH (M):
           </note>
-          <u who="Q297821" xml:id="i-a7f775e628f42660-5" n="cb277613">
-            <seg n="1044b43e">
+          <u xml:id="i-4855a22b5e77548d-36" next="i-4855a22b5e77548d-37" who="Q297821">
+            <seg>
               Herr talman! Det blir en tuff utmaning att klara det på en minuts
               talartid. Biblioteken är avgörande. Vi föreslår bland annat att
               Kulturrådet får ett nationellt uppdrag att se till att de goda
@@ -373,7 +417,9 @@
               för att se hur läsandet kan bli en naturlig del också i träningen.
               Här finns många intressanta exempel utifrån som vi har lärt av.
             </seg>
-            <seg n="2356ee54">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-37" prev="i-4855a22b5e77548d-36" who="Q297821">
+            <seg>
               Skolan är viktig; visst är det så. Men den uppgift som vi alla
               kan ha som föräldrar, som grannar, som vuxna och som morföräldrar
               – att läsa högt för våra barn – är otroligt viktig. Skolan kan
@@ -385,31 +431,33 @@
               att barnen ska få ett språk och en fin stund tillsammans med sina
               föräldrar.
             </seg>
-            <seg n="947f6022">
-              Nollvision om vräkningar av barnfamiljer
-            </seg>
           </u>
-          <note type="speaker" n="5f5dd1b7">
+          <note>
+            Nollvision om vräkningar av barnfamiljer
+          </note>
+          <note type="speaker">
             Anf. 14 MARGARETA LARSSON (SD):
           </note>
-          <u who="Q4961125" xml:id="i-7b848c95cdb9e8a1-0" n="8c10cf1b">
-            <seg n="eb0c1e63">
+          <u xml:id="i-4855a22b5e77548d-38" next="i-4855a22b5e77548d-39" who="Q4961125">
+            <seg>
               Herr talman! Min fråga är ställd till Maria Larsson. Regeringen
               förklarade för några år sedan en nollvision när det gäller barnvräkningar.
               Trots detta sker barnvräkningar i oförminskad takt sedan några
               år tillbaka. Av kronofogdens statistik framgår att det huvudsakligen
               är ensamstående mödrar som vräks, och detta på grund av hyresskulder.
             </seg>
-            <seg n="878a2deb">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-39" prev="i-4855a22b5e77548d-38" who="Q4961125">
+            <seg>
               Min fråga till statsrådet är: Avser regeringen att vidta några
               åtgärder med anledning av sin nollvision, och när ska detta ske?
             </seg>
           </u>
-          <note type="speaker" n="c82c3198">
+          <note type="speaker">
             Anf. 15 Statsrådet MARIA LARSSON (KD):
           </note>
-          <u who="Q447542" xml:id="i-b090df5711d20494-0" n="8c10cf1b">
-            <seg n="5ca1a6d5">
+          <u xml:id="i-4855a22b5e77548d-40" next="i-4855a22b5e77548d-41" who="Q447542">
+            <seg>
               Herr talman! Jag tackar för frågan. Det är en angelägen fråga.
               Vi har vidtagit en rad åtgärder. Vi lade fram den första strategin
               mot hemlöshet på riksdagens bord redan 2007. Den är ett viktigt
@@ -419,7 +467,9 @@
               Det har inneburit att det har vidtagits en rad åtgärder av olika
               myndigheter och kommuner.
             </seg>
-            <seg n="c86acd30">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-41" prev="i-4855a22b5e77548d-40" who="Q447542">
+            <seg>
               Det har också inneburit att vi har tillsatt en hemlöshetssamordnare
               som nu far runt i de kommuner som fortfarande genomför barnvräkningar
               för att komma på samtalsnivå inte med socialnämnden utan med kommunstyrelsen.
@@ -428,23 +478,27 @@
               de goda förebyggande lösningarna.
             </seg>
           </u>
-          <note type="speaker" n="12743b3f">
+          <note type="speaker">
             Anf. 16 MARGARETA LARSSON (SD):
           </note>
-          <u who="Q4961125" xml:id="i-7b848c95cdb9e8a1-1" n="8c10cf1b">
-            <seg n="14ab0ba7">
+          <u xml:id="i-4855a22b5e77548d-42" next="i-4855a22b5e77548d-44" who="Q4961125">
+            <seg>
               Herr talman! Jag tackar för svaret. Jag skulle ändå vilja påminna
               statsrådet om att hon redan 2010 ansåg att det var nödvändigt
               att ändra socialtjänstlagen för att skydda de här barnen. Ändå
               har ingenting gjorts sedan dess.
             </seg>
-            <seg n="292b7817">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-43" prev="i-4855a22b5e77548d-42" who="Q4961125">
+            <seg>
               Statistiken är tillräcklig för att man ska kunna komma till beslut,
               tycker jag. Vi har haft intresseorganisationer, forskare och utredare
               som har lagt fram olika förslag, så det är tydligt att det är
               något fel på socialtjänstlagen. Den behöver ändras.
             </seg>
-            <seg n="88e09b28">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-44" prev="i-4855a22b5e77548d-42" who="Q4961125">
+            <seg>
               Jag tycker att innan man har en nollvision borde yrkesgrupper
               i första hand få veta vad det är de ska göra och vilka regler
               som gäller. Socialtjänsten måste naturligtvis också samarbeta
@@ -454,11 +508,11 @@
               har ägt rum.
             </seg>
           </u>
-          <note type="speaker" n="9ece5df8">
+          <note type="speaker">
             Anf. 17 Statsrådet MARIA LARSSON (KD):
           </note>
-          <u who="Q447542" xml:id="i-b090df5711d20494-1" n="8c10cf1b">
-            <seg n="12478cf5">
+          <u xml:id="i-4855a22b5e77548d-45" next="i-4855a22b5e77548d-48" who="Q447542">
+            <seg>
               Herr talman! Frågan har legat högt upp på regeringens prioriteringslista.
               Det är därför vi har börjat jobba aktivt med frågorna. Det har
               inte gjorts tidigare, och det har inte funnits någon strategi.
@@ -466,13 +520,17 @@
               Vi arbetar vidare med fler förslag. Det sker ett sådant arbete
               just nu på departementsnivå.
             </seg>
-            <seg n="e9fd2a8d">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-46" prev="i-4855a22b5e77548d-45" who="Q447542">
+            <seg>
               Glädjande är att hälften av Sveriges kommuner inte vräker barn.
               Det finns alltså sätt att arbeta på som inte nödvändiggör att
               barn vräks. Det är de här arbetssätten och metoderna som vi nu
               försöker sprida över Sverige med hjälp av bland annat vår hemlöshetssamordnare.
             </seg>
-            <seg n="95cb3696">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-47" prev="i-4855a22b5e77548d-45" who="Q447542">
+            <seg>
               Låt mig säga att vi ser en glädjande trend i att barnvräkningarna
               minskar också i en del kommuner där man har haft höga tal tidigare.
               Hemligheten är samarbete mellan berörda myndigheter och fastighetsägare.
@@ -481,25 +539,31 @@
               görs mycket, och mer kommer så småningom att komma på riksdagens
               bord.
             </seg>
-            <seg n="a3888bb8">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-48" prev="i-4855a22b5e77548d-45" who="Q447542">
+            <seg>
               Byggandet av fotbollsarenor i Qatar
             </seg>
           </u>
-          <note type="speaker" n="56492673">
+          <note type="speaker">
             Anf. 18 HANS LINDE (V):
           </note>
-          <u who="Q1581082" xml:id="i-ecdcf6082cd52109-0" n="18b8d569">
-            <seg n="611878d6">
+          <u xml:id="i-4855a22b5e77548d-49" next="i-4855a22b5e77548d-52" who="Q1581082">
+            <seg>
               Herr talman! Jag har en fråga till kultur- och idrottsminister
               Lena Adelsohn Liljeroth.
             </seg>
-            <seg n="36952344">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-50" prev="i-4855a22b5e77548d-49" who="Q1581082">
+            <seg>
               År 2022 kommer fotbolls-VM att arrangeras i Qatar. Vi får nu
               allt fler rapporter om att de gästarbetare som arbetar med att
               bygga arenorna där fotbollen ska spelas tvingas göra detta under
               omänskliga förhållanden.
             </seg>
-            <seg n="88d1b9ad">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-51" prev="i-4855a22b5e77548d-49" who="Q1581082">
+            <seg>
               Under de senaste två åren har fler än 70 nepaleser dött när man
               har byggt fotbollsarenor i Qatar. Många vittnar om slavliknande
               förhållanden med långa arbetsdagar, uteblivna löner, undernäring
@@ -510,23 +574,27 @@
               Vi har sett hur Storbritanniens premiärminister har krävt att
               Qatar förbättrar arbetsvillkoren på fotbollsarenorna.
             </seg>
-            <seg n="dd0f00ce">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-52" prev="i-4855a22b5e77548d-49" who="Q1581082">
+            <seg>
               Min fråga går till Sveriges idrottsminister: När kommer hon att
               kontakta sin kollega i Qatar och kräva att man nu förbättrar villkoren
               för dem som bygger fotbollsarenorna?
             </seg>
           </u>
-          <note type="speaker" n="aebc5935">
+          <note type="speaker">
             Anf. 19 Kultur- och idrottsminister LENA ADELSOHN LILJEROTH (M):
           </note>
-          <u who="Q297821" xml:id="i-a7f775e628f42660-6" n="cb277613">
-            <seg n="38a53f0b">
+          <u xml:id="i-4855a22b5e77548d-53" next="i-4855a22b5e77548d-55" who="Q297821">
+            <seg>
               Herr talman! Det var inte bara Hans Linde som blev upprörd när
               artikeln kom i tidningen med siffror över hur många som hade dött
               under närmast slavliknande förhållanden och under, vad jag förstår,
               omänsklig värme.
             </seg>
-            <seg n="c3c171fa">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-54" prev="i-4855a22b5e77548d-53" who="Q297821">
+            <seg>
               Det är kanske ingen nyhet att vi från Sverige egentligen inte
               har så mycket idrottsutbyte eller så många kontakter med Qatar.
               Jag får därför återkomma när det gäller just Qatar. Men jag kan
@@ -535,23 +603,27 @@
               också när det gällde de hot som homosexuella utsattes för i Ryssland
               under de senaste spelen – friidrotts-VM.
             </seg>
-            <seg n="71323523">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-55" prev="i-4855a22b5e77548d-53" who="Q297821">
+            <seg>
               Det som närmast står på tur är hockey-VM i Vitryssland. Vi är
               många som frågar oss hur det kunde komma sig att det internationella
               hockeyförbundet valde att ge spelen till Vitryssland.
             </seg>
           </u>
-          <note type="speaker" n="506d121d">
+          <note type="speaker">
             Anf. 20 HANS LINDE (V):
           </note>
-          <u who="Q1581082" xml:id="i-ecdcf6082cd52109-1" n="18b8d569">
-            <seg n="3e68ec6d">
+          <u xml:id="i-4855a22b5e77548d-56" next="i-4855a22b5e77548d-59" who="Q1581082">
+            <seg>
               Herr talman! Det är bra att idrottsministern upprörs över rapporterna.
               Men jag hade nog önskat lite mer klara besked. Jag kan inte tolka
               svaret på något annat sätt än att man inte planerar att lyfta
               dessa frågor från svensk sida – i alla fall inte i dagsläget.
             </seg>
-            <seg n="65d51470">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-57" prev="i-4855a22b5e77548d-56" who="Q1581082">
+            <seg>
               Detta beklagar jag, för det finns goda exempel att bygga på.
               Inför fotbolls-VM i Sydafrika fanns det liknande rapporter om
               svåra förhållanden när man byggde arenorna. Där valde omvärlden
@@ -562,65 +634,81 @@
               de mänskliga rättigheterna, och det förutsätter att omvärlden
               agerar och att man agerar nu.
             </seg>
-            <seg n="a68c5bc4">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-58" prev="i-4855a22b5e77548d-56" who="Q1581082">
+            <seg>
               Jag tycker att detta visar att frågor om mänskliga rättigheter
               och idrott inte kan skiljas åt. Jag tror att vi behöver ha en
               större diskussion om vilka länder som tillåts ordna de stora idrottsarrangemangen.
             </seg>
-            <seg n="35120da8">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-59" prev="i-4855a22b5e77548d-56" who="Q1581082">
+            <seg>
               Därför skulle jag också vilja fråga idrottsministern: Är idrottsministern
               beredd att ta en dialog med idrottsrörelsen för att skärpa kraven
               och villkoren när det kommer till mänskliga rättigheter och de
               stora idrottsarrangemangen?
             </seg>
           </u>
-          <note type="speaker" n="402d53df">
+          <note type="speaker">
             Anf. 21 Kultur- och idrottsminister LENA ADELSOHN LILJEROTH (M):
           </note>
-          <u who="Q297821" xml:id="i-a7f775e628f42660-7" n="cb277613">
-            <seg n="c9d95737">
+          <u xml:id="i-4855a22b5e77548d-60" next="i-4855a22b5e77548d-64" who="Q297821">
+            <seg>
               Herr talman! Jag kan lova så mycket att jag kommer att ta kontakt
               med utrikesministern för att diskutera om frågan har varit uppe.
               Hans Linde vet mycket väl att vi tycker att idrotten ska vara
               fri. Den ska alltså stå över politiken i den meningen att man
               inte ska utesluta vissa länder från början.
             </seg>
-            <seg n="823ba3a5">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-61" prev="i-4855a22b5e77548d-60" who="Q297821">
+            <seg>
               Jag var i Kina under de olympiska spelen 2008. Det var många
               som protesterade mot att Kina skulle kunna få spelen, inte minst
               för att det är ett totalitärt och odemokratiskt land.
             </seg>
-            <seg n="d587f78b">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-62" prev="i-4855a22b5e77548d-60" who="Q297821">
+            <seg>
               Jag hade många intressanta möten där, bland annat med min kollega
               kulturministern, just för att tala om möjligheterna och rättigheterna
               för till exempel journalister att röra sig fritt. Det var imponerande
               att se med vilken värme som idrottare från länder som är slutna,
               till exempel Nordkorea, välkomnades av de övriga.
             </seg>
-            <seg n="fe0d9ebc">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-63" prev="i-4855a22b5e77548d-60" who="Q297821">
+            <seg>
               Att stänga ute idrottsvärlden tror jag inte är en god idé. Däremot
               finns det absolut anledning att vara uppmärksam på sådant som
               nu skett i bland annat Qatar där människor har misshandlats så
               grovt. Om det är vi eniga.
             </seg>
-            <seg n="4cecf0d3">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-64" prev="i-4855a22b5e77548d-60" who="Q297821">
+            <seg>
               Rysslands militära övningsverksamhet
             </seg>
           </u>
-          <note type="speaker" n="4cf8a7ed">
+          <note type="speaker">
             Anf. 22 ALLAN WIDMAN (FP):
           </note>
-          <u who="Q4731041" xml:id="i-dd1cc5f8b9cd8e1b-0" n="3e5c49ff">
-            <seg n="90ea5c13">
+          <u xml:id="i-4855a22b5e77548d-65" next="i-4855a22b5e77548d-68" who="Q4731041">
+            <seg>
               Herr talman! Jag riktar min fråga till utbildningsministern,
               men den är av en allmänpolitisk karaktär.
             </seg>
-            <seg n="d5c548c0">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-66" prev="i-4855a22b5e77548d-65" who="Q4731041">
+            <seg>
               Ryssland satsar nu i relativa tal mer på sina militära förmågor
               än något annat land på jorden. På tre år har de gått från 2,9
               procent av bnp i försvarsanslag till 3,9 procent.
             </seg>
-            <seg n="eeb5f652">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-67" prev="i-4855a22b5e77548d-65" who="Q4731041">
+            <seg>
               Under det här året har vi kunnat konstatera en ökande rysk militär
               närvaro och övningsverksamhet i vårt närområde, under påskhelgen
               med medeltunga bombflygplan i en mycket aggressiv flygövning in
@@ -629,16 +717,18 @@
               de större övningarna i vårt närområde i vår tid, nämligen övningen
               Zapad.
             </seg>
-            <seg n="0eb95fa8">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-68" prev="i-4855a22b5e77548d-65" who="Q4731041">
+            <seg>
               Min fråga till utbildningsministern är: Vilka försvars- och säkerhetspolitiska
               slutsatser är regeringen beredd att dra av det inträffade?
             </seg>
           </u>
-          <note type="speaker" n="d3d1af5e">
+          <note type="speaker">
             Anf. 23 Utbildningsminister JAN BJÖRKLUND (FP):
           </note>
-          <u who="Q911372" xml:id="i-a7f775e628f42660-8" n="511202ac">
-            <seg n="ba7fade6">
+          <u xml:id="i-4855a22b5e77548d-69" next="i-4855a22b5e77548d-70" who="Q911372">
+            <seg>
               Herr talman! Den utveckling som Allan Widman beskriver när det
               gäller Ryssland är bekymmersam. Ryssland rustar på ett mycket
               offensivt och aggressivt sätt upp igen. De övar sina förband i
@@ -648,7 +738,9 @@
               med att den demokratiseringsprocess som var på gång efter murens
               fall måste sägas ha upphört.
             </seg>
-            <seg n="4bdb0fa6">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-70" prev="i-4855a22b5e77548d-69" who="Q911372">
+            <seg>
               En ofta aggressiv rysk utrikespolitisk ledning är bekymmersam,
               och jag menar att det behöver få konsekvenser för det försvarsbeslut
               som Sverige ska fatta 2015. Det bereds av alla partier tillsammans
@@ -656,24 +748,26 @@
               alltså få konsekvenser i 2015 års försvarsbeslut.
             </seg>
           </u>
-          <note type="speaker" n="b99d3080">
+          <note type="speaker">
             Anf. 24 ALLAN WIDMAN (FP):
           </note>
-          <u who="Q4731041" xml:id="i-dd1cc5f8b9cd8e1b-1" n="3e5c49ff">
-            <seg n="6a324626">
+          <u xml:id="i-4855a22b5e77548d-71" next="i-4855a22b5e77548d-72" who="Q4731041">
+            <seg>
               Herr talman! Det är uppenbart att utbildningsministern och jag
               delar den beskrivning av verkligheten som jag inledde med.
             </seg>
-            <seg n="618fefd0">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-72" prev="i-4855a22b5e77548d-71" who="Q4731041">
+            <seg>
               Jag är dock nyfiken på vilka mer konkreta slutsatser som dras,
               inte minst med tanke på det närliggande försvarsbeslutet 2015.
             </seg>
           </u>
-          <note type="speaker" n="0ab2eb69">
+          <note type="speaker">
             Anf. 25 Utbildningsminister JAN BJÖRKLUND (FP):
           </note>
-          <u who="Q911372" xml:id="i-a7f775e628f42660-9" n="511202ac">
-            <seg n="02669b5c">
+          <u xml:id="i-4855a22b5e77548d-73" next="i-4855a22b5e77548d-76" who="Q911372">
+            <seg>
               Herr talman! Efter Berlinmurens fall och demokratiseringsprocessen
               som påbörjades i Ryssland inriktades det svenska försvaret successivt
               i allt större utsträckning på att enbart fokusera på internationella
@@ -682,36 +776,46 @@
               Samtidigt drogs den nationella försvarsförmågan i Sverige ned.
               Det var också rätt att göra då.
             </seg>
-            <seg n="083a4093">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-74" prev="i-4855a22b5e77548d-73" who="Q911372">
+            <seg>
               Jag menar att den utveckling som de besluten byggde på har förändrats.
               Vi behöver återigen prioritera försvarsförmågan av Sverige framöver
               och se om vårt eget hus.
             </seg>
-            <seg n="b652f853">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-75" prev="i-4855a22b5e77548d-73" who="Q911372">
+            <seg>
               Exakt vilka slutsatser som ska dras av detta får vi återkomma
               till när Försvarsberedningen är färdig. Det är en diskussion som
               pågår i alla partier och i Försvarsberedningen, men min slutsats
               är klar. I Försvarsmaktens verksamhet behöver det vara ökat fokus
               på försvaret av Sverige i framtiden.
             </seg>
-            <seg n="4a47ba17">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-76" prev="i-4855a22b5e77548d-73" who="Q911372">
+            <seg>
               Elkostnaderna för svensk industri
             </seg>
           </u>
-          <note type="speaker" n="1f0fe185">
+          <note type="speaker">
             Anf. 26 BÖRJE VESTLUND (S):
           </note>
-          <u who="Q512590" xml:id="i-4d364700899e2542-0" n="ad1b440b">
-            <seg n="3f9a47bf">
+          <u xml:id="i-4855a22b5e77548d-77" next="i-4855a22b5e77548d-80" who="Q512590">
+            <seg>
               Herr talman! Min fråga går till it- och energiminister Anna-Karin
               Hatt.
             </seg>
-            <seg n="7f01a735">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-78" prev="i-4855a22b5e77548d-77" who="Q512590">
+            <seg>
               Vi är numera en del av EU:s inre marknad för energi. Det innebär
               bland annat att vi ska kunna handla energi med hela Europa. Riktigt
               vad det innebär har man kanske inte tagit fram regler för ännu.
             </seg>
-            <seg n="6d53b6a5">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-79" prev="i-4855a22b5e77548d-77" who="Q512590">
+            <seg>
               Det intressanta är dock att svensk industri har en konkurrensfördel,
               kanske framför många andra. Man har många konkurrensfördelar i
               form av att man har hög kompetens och hög teknisk utveckling och
@@ -719,17 +823,19 @@
               många andra delar av världen om, och det gäller en ganska billig
               energi.
             </seg>
-            <seg n="7c8be790">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-80" prev="i-4855a22b5e77548d-77" who="Q512590">
+            <seg>
               Min fråga till statsrådet Hatt är: Vad kommer att hända med priserna
               för industrin på denna marknad som vi egentligen inte riktigt
               vet åt vilket håll den går?
             </seg>
           </u>
-          <note type="speaker" n="2d09faef">
+          <note type="speaker">
             Anf. 27 Statsrådet ANNA-KARIN HATT (C):
           </note>
-          <u who="unknown" xml:id="i-a7f775e628f42660-10" n="8c10cf1b">
-            <seg n="c674823a">
+          <u xml:id="i-4855a22b5e77548d-81" who="unknown">
+            <seg>
               Herr talman! Det stämmer att för svensk industri och för svenska
               konsumenter är det otroligt viktigt att vi har ett konkurrenskraftigt
               elpris. Just därför är det tillfredsställande att vi i Sverige
@@ -738,7 +844,9 @@
               mer. Det gör att svenska hushåll behöver lägga en mindre andel
               på elkostnader än vad de annars skulle ha behövt göra.
             </seg>
-            <seg n="11033f14">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-82" who="unknown">
+            <seg>
               Regeringen värnar självklart detta. Just därför ser vi till att
               rekordinvestera i elnätet för att bygga bort flaskhalsar som kunde
               ha lett till prishöjningar. Just därför sker det nu rekordinvesteringar
@@ -751,22 +859,26 @@
               klara våra elbehov.
             </seg>
           </u>
-          <note type="speaker" n="f2449ac0">
+          <note type="speaker">
             Anf. 28 BÖRJE VESTLUND (S):
           </note>
-          <u who="Q512590" xml:id="i-4d364700899e2542-1" n="ad1b440b">
-            <seg n="b75a5dba">
+          <u xml:id="i-4855a22b5e77548d-83" next="i-4855a22b5e77548d-85" who="Q512590">
+            <seg>
               Herr talman! Mycket av det kan jag instämma i. Sedan ska man
               väl som opposition säga: för sent och för lite. Men det kanske
               är oväsentligt i det här sammanhanget.
             </seg>
-            <seg n="f7534552">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-84" prev="i-4855a22b5e77548d-83" who="Q512590">
+            <seg>
               Det som är intressant i sammanhanget är just farhågan, inte minst
               från industrin, över att vi ska exportera mer energi. Det är jättebra
               att vi ska exportera för vi vet med ganska god säkerhet att vi
               kommer att ha ett energiöverskott i framtiden.
             </seg>
-            <seg n="0871261e">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-85" prev="i-4855a22b5e77548d-83" who="Q512590">
+            <seg>
               Frågan är hur vi i framtiden även fortsättningsvis ska kunna
               ha den konkurrenskraftsfördel som vi har av det låga energipriset.
               Det man diskuterar – det vet statsrådet likaväl som jag – och
@@ -776,11 +888,11 @@
               för industrin, men naturligtvis också för hushållen?
             </seg>
           </u>
-          <note type="speaker" n="2e9d5c28">
+          <note type="speaker">
             Anf. 29 Statsrådet ANNA-KARIN HATT (C):
           </note>
-          <u who="unknown" xml:id="i-a7f775e628f42660-11" n="8c10cf1b">
-            <seg n="054018d9">
+          <u xml:id="i-4855a22b5e77548d-86" who="unknown">
+            <seg>
               Herr talman! Det bästa sättet att se till att svenska företag
               och svenska hushåll även framöver kan ha ett konkurrenskraftigt
               elpris och därmed kan konkurrera med omvärlden är att se till
@@ -788,13 +900,17 @@
               att vi har en produktionsförmåga som täcker våra behov men som
               också kan vara med och möta behov som finns i andra delar av Europa.
             </seg>
-            <seg n="1a239d81">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-87" who="unknown">
+            <seg>
               Det finns också en efterfrågan på detta. Norden är att betrakta
               som något av ett grönt batteri för Europa där andra länder framöver
               också kommer att ha behov av att kunna köpa grön förnybar energi
               från länder som har det att tillgå. Det har Sverige väldigt mycket.
             </seg>
-            <seg n="468ae17b">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-88" who="unknown">
+            <seg>
               Dessutom behöver vi se till att ha hög tillgänglighet i den elproduktion
               som vi redan har. Det gläder mig att kunna fastställa att Sverige
               häromveckan passerade det datum där vi kunde konstatera att vi
@@ -802,26 +918,32 @@
               att Alliansens energipolitik fungerar och att vi har en god försörjningstrygghet
               i Sverige.
             </seg>
-            <seg n="587a3faa">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-89" who="unknown">
+            <seg>
               Barnfattigdom
             </seg>
           </u>
-          <note type="speaker" n="59b83078">
+          <note type="speaker">
             Anf. 30 ROZA GÜCLÜ HEDIN (S):
           </note>
-          <u who="Q4951217" xml:id="i-6a89e7b378a6d6d1-0" n="52693ba5">
-            <seg n="a008ee41">
+          <u xml:id="i-4855a22b5e77548d-90" next="i-4855a22b5e77548d-92" who="Q4951217">
+            <seg>
               Herr talman! Jag vill rikta min fråga till barn- och äldreminister
               Maria Larsson.
             </seg>
-            <seg n="3bfda76f">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-91" prev="i-4855a22b5e77548d-90" who="Q4951217">
+            <seg>
               Inför varje vinter får jag en olustig känsla. Jag tänker på kylan
               och på alla barn som har för små kläder. Barnfattigdomsbegreppet
               har varit omdebatterat. Det finns en verklighet oavsett vad. Jag
               har sett den. Du har säkert sett den, och alla ni andra har också
               upplevt den.
             </seg>
-            <seg n="8bbd9908">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-92" prev="i-4855a22b5e77548d-90" who="Q4951217">
+            <seg>
               Många familjers ekonomiska situation är pressad. Det begränsar
               barnens liv och påverkar dem negativt. Jag tror att det krävs
               insatser för att motverka det här. Därför undrar jag vad Maria
@@ -830,19 +952,23 @@
               att hjälpa familjerna?
             </seg>
           </u>
-          <note type="speaker" n="aa61ce14">
+          <note type="speaker">
             Anf. 31 Statsrådet MARIA LARSSON (KD):
           </note>
-          <u who="Q447542" xml:id="i-b090df5711d20494-2" n="8c10cf1b">
-            <seg n="23ae19bd">
+          <u xml:id="i-4855a22b5e77548d-93" next="i-4855a22b5e77548d-96" who="Q447542">
+            <seg>
               Herr talman! Jag tackar för frågan.
             </seg>
-            <seg n="41bbdbc4">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-94" prev="i-4855a22b5e77548d-93" who="Q447542">
+            <seg>
               Barn i långvarig ekonomisk utsatthet är en angelägen fråga för
               regeringen, och med den frågan måste man jobba både långsiktigt
               och kortsiktigt.
             </seg>
-            <seg n="c9973984">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-95" prev="i-4855a22b5e77548d-93" who="Q447542">
+            <seg>
               Den bästa möjligheten för dessa barn att få varaktigt förbättrade
               ekonomiska förutsättningar är att deras föräldrar får jobb. Därför
               är jobblinjen viktig. Att skapa nya jobb är centralt för att minska
@@ -851,7 +977,9 @@
               bostadsbidraget, som är väldigt pricksäkert för familjer i ekonomisk
               utsatthet.
             </seg>
-            <seg n="e0ce5d99">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-96" prev="i-4855a22b5e77548d-93" who="Q447542">
+            <seg>
               Den allra senaste budgeten visar dessutom på en sak som jag tycker
               är väldigt angelägen och som handlar om de här barnen. De ska
               kunna utveckla sin talang och sina intressen med hjälp av en fritidscheck
@@ -859,22 +987,26 @@
               är en rättvisefråga.
             </seg>
           </u>
-          <note type="speaker" n="b78c67ec">
+          <note type="speaker">
             Anf. 32 ROZA GÜCLÜ HEDIN (S):
           </note>
-          <u who="Q4951217" xml:id="i-6a89e7b378a6d6d1-1" n="52693ba5">
-            <seg n="e89abe58">
+          <u xml:id="i-4855a22b5e77548d-97" next="i-4855a22b5e77548d-100" who="Q4951217">
+            <seg>
               Herr talman! Tack så mycket, Maria Larsson, för svaret! Den här
               frågan berör oerhört mycket, och jag är övertygad om att du inte
               heller vill att de här barnen ska frysa.
             </seg>
-            <seg n="cd84fbfa">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-98" prev="i-4855a22b5e77548d-97" who="Q4951217">
+            <seg>
               Du talar om insatser, men det är ett faktum att den politik som
               ni har fört de senaste sju åren inte har haft någon effekt. Jag
               är lite tveksam till att insatserna kommer att ha någon effekt
               om ni inte tar till mer.
             </seg>
-            <seg n="be7eaacf">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-99" prev="i-4855a22b5e77548d-97" who="Q4951217">
+            <seg>
               I sociala medier finns det forum som flödar över av familjer
               som vädjar om hjälp. Det finns något som heter Matkassen, där
               familjer ber om hjälp till mat för en vecka. De behöver hjälp
@@ -882,18 +1014,20 @@
               en liten julklapp. Jag tror tyvärr inte att era insatser kommer
               att hjälpa dem i nuläget.
             </seg>
-            <seg n="25d22f95">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-100" prev="i-4855a22b5e77548d-97" who="Q4951217">
+            <seg>
               Jag tycker att det är dags att ni börjar omvärdera er politik.
               Ni ska sänka skatterna med 16 miljarder. Ni har redan sänkt skatterna
               med flera miljarder. Är det inte dags att använda de pengarna
               till att ge våra barn en varm vinter och en värdig framtid i Sverige?
             </seg>
           </u>
-          <note type="speaker" n="1811dcc5">
+          <note type="speaker">
             Anf. 33 Statsrådet MARIA LARSSON (KD):
           </note>
-          <u who="Q447542" xml:id="i-b090df5711d20494-3" n="8c10cf1b">
-            <seg n="92d0209d">
+          <u xml:id="i-4855a22b5e77548d-101" next="i-4855a22b5e77548d-103" who="Q447542">
+            <seg>
               Herr talman! De skattesänkningar som har gjorts har haft effekt
               i form av att fler jobb har skapats. Därför minskar de absoluta
               talen när det gäller barnfattigdom. Det är positiva effekter av
@@ -901,7 +1035,9 @@
               men låt oss inte glömma att vi är det land som har nästan de minsta
               skillnaderna i världen i ekonomiskt avseende.
             </seg>
-            <seg n="c5e4a6ec">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-102" prev="i-4855a22b5e77548d-101" who="Q447542">
+            <seg>
               Det är naturligtvis angeläget att vi skapar ett samhälle som
               håller ihop, ett samhälle där alla upplever att det finns rättvisa.
               Det är också därför vi i det korta perspektivet, samtidigt som
@@ -909,45 +1045,51 @@
               på de allra svagaste hushållen. Där är bostadsbidraget det allra
               mest träffsäkra.
             </seg>
-            <seg n="0427ae7c">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-103" prev="i-4855a22b5e77548d-101" who="Q447542">
+            <seg>
               Vår politik har haft effekt. Den absoluta fattigdomen har minskat.
               Antalet barn i ekonomisk utsatthet har minskat. Det är sanningen,
               och det kan inte något parti se förbi – även om vi behöver göra
               mer.
             </seg>
-            <seg n="3b7bb56a">
-              En bonus–malus-modell för fordonsbeskattning
-            </seg>
           </u>
-          <note type="speaker" n="3f8a9f4e">
+          <note>
+            En bonus–malus-modell för fordonsbeskattning
+          </note>
+          <note type="speaker">
             Anf. 34 PER-INGVAR JOHNSSON (C):
           </note>
-          <u who="Q5889601" xml:id="i-298d6b723df84b6c-0" n="0aa2c13b">
-            <seg n="e3100567">
-              Herr talman! Enligt medierna föreslår Thomas B Johansson i utredningen
-              om en fossiloberoende fordonsflotta, den så kallade FFF-utredningen,
-              en bonus–malus-modell.
-            </seg>
-            <seg n="dbb6bbab">
+          <note>
+            Herr talman! Enligt medierna föreslår Thomas B Johansson i utredningen
+            om en fossiloberoende fordonsflotta, den så kallade FFF-utredningen,
+            en bonus–malus-modell.
+          </note>
+          <u xml:id="i-4855a22b5e77548d-104" next="i-4855a22b5e77548d-105" who="Q5889601">
+            <seg>
               Bonus–malus bör jag kanske förklara för dem som följer debatten.
               Det innebär i det här sammanhanget att fordon som förorenar ska
               betala och att fordon som inte förorenar ska belönas.
             </seg>
-            <seg n="1aa6ef8d">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-105" prev="i-4855a22b5e77548d-104" who="Q5889601">
+            <seg>
               Jag har förstått att frågeställningen aktualiserades igen av
               oppositionspartierna i de tre skuggbudgetar som lämnades till
               riksdagen. Vad tycker statsrådet om utredningsförslaget om införande
               av ett bonus–malus-system för fordonsbeskattning?
             </seg>
           </u>
-          <note type="speaker" n="62748b84">
+          <note type="speaker">
             Anf. 35 Statsrådet ANNA-KARIN HATT (C):
           </note>
-          <u who="unknown" xml:id="i-a7f775e628f42660-12" n="8c10cf1b">
-            <seg n="f1be2daf">
+          <u xml:id="i-4855a22b5e77548d-106" who="unknown">
+            <seg>
               Herr talman! Jag tackar för en viktig fråga.
             </seg>
-            <seg n="277ec9ba">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-107" who="unknown">
+            <seg>
               En tredjedel av Sveriges koldioxidutsläpp kommer från vår transportsektor.
               Det är klart att om vi ska kunna göra något åt det, om vi ska
               kunna nå den fossiloberoende fordonsflotta som regeringen har
@@ -959,31 +1101,35 @@
               miljöbilspremien, supermiljöbilspremien och slopad fordonsskatt
               för miljöbilar de första fem åren.
             </seg>
-            <seg n="b1d73f94">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-108" who="unknown">
+            <seg>
               Vi kommer att behöva göra mer för att ställa om till en fossiloberoende
               fordonsflotta till 2030. Jag ser fram emot att utredningen om
               den fossiloberoende fordonsflottan presenterar sina förslag, bland
               annat bonus–malus, för regeringen i december i år.
             </seg>
           </u>
-          <note type="speaker" n="cdf26394">
+          <note type="speaker">
             Anf. 36 PER-INGVAR JOHNSSON (C):
           </note>
-          <u who="Q5889601" xml:id="i-298d6b723df84b6c-1" n="0aa2c13b">
-            <seg n="9a1622be">
+          <u xml:id="i-4855a22b5e77548d-109" who="Q5889601">
+            <seg>
               Herr talman! Vilket tidsperspektiv kan det finnas för ett genomförande
               av ett bonus–malus-system?
             </seg>
           </u>
-          <note type="speaker" n="b593fe15">
+          <note type="speaker">
             Anf. 37 Statsrådet ANNA-KARIN HATT (C):
           </note>
-          <u who="unknown" xml:id="i-a7f775e628f42660-13" n="8c10cf1b">
-            <seg n="96bbe38f">
+          <u xml:id="i-4855a22b5e77548d-110" who="unknown">
+            <seg>
               Herr talman! Vi kommer att få utredningens samlade förslag i
               december. Jag förväntar mig att vi får en ganska diger lista.
             </seg>
-            <seg n="6370835e">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-111" who="unknown">
+            <seg>
               Att nå en fossiloberoende fordonsflotta till 2030 är en av de
               djärvaste visioner och mest tvingande omständigheter som regeringen
               har slagit fast. Vi kommer att behöva fortsätta arbeta med en
@@ -991,7 +1137,9 @@
               vi att behöva förstärka, och vi kan komma att behöva tillföra
               ytterligare.
             </seg>
-            <seg n="1a5cd7b0">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-112" who="unknown">
+            <seg>
               Centerpartiet har tidigare tagit ställning för idén om en bonus–malus-modell.
               Nu får vi se vad utredningen föreslår. Vi får också se vad remissinstanserna
               tycker om det förslaget och andra förslag från utredningen. Sedan
@@ -1002,21 +1150,23 @@
               el på våra vägar och i våra tunga och lätta transporter.
             </seg>
           </u>
-          <note n="7e46a64e">
+          <note>
             Femte jobbskatteavdraget och barns idrottsaktiviteter
           </note>
-          <note type="speaker" n="ab1a3c39">
+          <note type="speaker">
             Anf. 38 AGNETA GILLE (S):
           </note>
-          <u who="Q3375136" xml:id="i-c68f635c4bc3bc89-0" n="e3c49279">
-            <seg n="b8c2bec5">
+          <u xml:id="i-4855a22b5e77548d-113" next="i-4855a22b5e77548d-114" who="Q3375136">
+            <seg>
               Herr talman! Jag vill ställa min fråga till kultur- och idrottsministern
               För bara någon vecka sedan fick vi i kulturutskottet information
               från ministern om det femte jobbskatteavdraget. Det är ett exempel
               på en idrottssatsning för barn och unga, sade ministern, för det
               skulle bli pengar över till idrottsaktiviteter.
             </seg>
-            <seg n="cd7d91a2">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-114" prev="i-4855a22b5e77548d-113" who="Q3375136">
+            <seg>
               Min fråga till ministern är om det gäller alla barn. Jag är själv
               ideellt aktiv i Vaksala Sportklubb i Uppsala, och vi har väldigt
               många barn där som lever med föräldrar som inte har arbete eller
@@ -1026,15 +1176,17 @@
               har arbete och slår ut de övriga?
             </seg>
           </u>
-          <note type="speaker" n="b981b3f8">
+          <note type="speaker">
             Anf. 39 Kultur- och idrottsminister LENA ADELSOHN LILJEROTH (M):
           </note>
-          <u who="Q297821" xml:id="i-a7f775e628f42660-14" n="cb277613">
-            <seg n="1d2421f5">
+          <u xml:id="i-4855a22b5e77548d-115" next="i-4855a22b5e77548d-117" who="Q297821">
+            <seg>
               Herr talman! Det är riktigt att jag ser det femte jobbskatteavdraget
               också som en kulturreform. Jag ska förklara varför.
             </seg>
-            <seg n="637b84ee">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-116" prev="i-4855a22b5e77548d-115" who="Q297821">
+            <seg>
               Större delen av all kultur i Sverige – det gäller idrotten också,
               och jag kan samtidigt påpeka att såväl kulturanslagen som idrottsanslagen
               har ökat markant under den borgerliga regeringen – betalar vi
@@ -1044,24 +1196,28 @@
               ett barn som vill spela fotboll, en flicka som vill gå och simma
               eller rida eller någon som vill gå i kultur- eller musikskola.
             </seg>
-            <seg n="80dd4ae0">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-117" prev="i-4855a22b5e77548d-115" who="Q297821">
+            <seg>
               För de barn som har föräldrar som inte arbetar, som kanske är
               tillfälligt arbetslösa – Maria Larsson var också inne på det –
               föreslår regeringen en fritidscheck på 3 000 kronor om året som
               ska gå till barn i familjer där man har försörjningsstöd.
             </seg>
           </u>
-          <note type="speaker" n="99026bb9">
+          <note type="speaker">
             Anf. 40 AGNETA GILLE (S):
           </note>
-          <u who="Q3375136" xml:id="i-c68f635c4bc3bc89-1" n="e3c49279">
-            <seg n="f38d4cbc">
+          <u xml:id="i-4855a22b5e77548d-118" next="i-4855a22b5e77548d-120" who="Q3375136">
+            <seg>
               Herr talman! Då ska alltså jag, när jag jobbar i Vaksala Sportklubb,
               sitta och skriva intyg till barn som har föräldrar som är sjuka
               eller arbetslösa när de kommer med mössan i hand och frågar efter
               en fritidscheck? Jag tycker att det är en bild av Fattigsverige.
             </seg>
-            <seg n="eb529cad">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-119" prev="i-4855a22b5e77548d-118" who="Q3375136">
+            <seg>
               Vi socialdemokrater satsar 300 miljoner mer på idrotts- och friluftslivet.
               Vi ger nu nästan 2 miljarder till Riksidrottsförbundet, och Svenskt
               Friluftsliv får 50 miljoner. Det är för att vi vill att alla barn
@@ -1069,17 +1225,19 @@
               möjlighet till ett rikt idrotts- och friluftsliv och att alla
               ska få möjlighet att vara med på samma villkor.
             </seg>
-            <seg n="d90d3691">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-120" prev="i-4855a22b5e77548d-118" who="Q3375136">
+            <seg>
               Det är socialdemokratisk politik. Min fråga till ministern var
               hur er politik ser ut. Där ska vissa barn gå med mössan i hand
               och fråga efter en fritidscheck.
             </seg>
           </u>
-          <note type="speaker" n="1853a29d">
+          <note type="speaker">
             Anf. 41 Kultur- och idrottsminister LENA ADELSOHN LILJEROTH (M):
           </note>
-          <u who="Q297821" xml:id="i-a7f775e628f42660-15" n="cb277613">
-            <seg n="0a69a9fe">
+          <u xml:id="i-4855a22b5e77548d-121" next="i-4855a22b5e77548d-123" who="Q297821">
+            <seg>
               Herr talman! Här är det ingen som behöver gå med mössan i hand.
               Vi har under 2000-talet tredubblat stödet till idrottsrörelsen
               bland annat för att den ska kunna samarbeta mer med skolor och
@@ -1087,7 +1245,9 @@
               tar ut är också starkt subventionerade. Visst finns det en kostnad,
               men många idrotter är billiga.
             </seg>
-            <seg n="2e05f256">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-122" prev="i-4855a22b5e77548d-121" who="Q297821">
+            <seg>
               Just jobbskatteavdraget gör det möjligt för de allra flesta att
               satsa ännu mer på sin idrott. Men för att de barn som bor i familjer
               där det kanske inte finns vuxna som har arbete för tillfället
@@ -1097,19 +1257,23 @@
               tycker jag är viktigt, för alla barn har rätt till idrott. Vi
               är nog ett av de länder i världen där barnen idrottar allra mest.
             </seg>
-            <seg n="b1a028d8">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-123" prev="i-4855a22b5e77548d-121" who="Q297821">
+            <seg>
               Antalet högskoleplatser
             </seg>
           </u>
-          <note type="speaker" n="2f9afb01">
+          <note type="speaker">
             Anf. 42 THOMAS STRAND (S):
           </note>
-          <u who="Q6191909" xml:id="i-144345a04ca0f987-0" n="c1971b55">
-            <seg n="1eab9e1d">
+          <u xml:id="i-4855a22b5e77548d-124" next="i-4855a22b5e77548d-126" who="Q6191909">
+            <seg>
               Herr talman! Jag vill ställa en fråga till utbildningsminister
               Jan Björklund.
             </seg>
-            <seg n="8257841a">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-125" prev="i-4855a22b5e77548d-124" who="Q6191909">
+            <seg>
               Jag var också med i dag när utbildningsutskottet träffade Sveriges
               universitets- och högskoleförbund, SUHF. De samlar alla lärosäten
               i Sverige, inte bara Lund. Jag tycker att utbildningsministern
@@ -1117,7 +1281,9 @@
               sade tre saker: högskoleplatserna minskar, söktrycket ökar och
               andra länder springer ifrån oss.
             </seg>
-            <seg n="8a608d5d">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-126" prev="i-4855a22b5e77548d-124" who="Q6191909">
+            <seg>
               Vi har en hög arbetslöshet och en dramatiskt hög ungdomsarbetslöshet.
               Då är det en relief när SUHF säger: Vi kan ta emot fler studenter.
               Regeringen blundar och säger nej. Det blir inga fler platser,
@@ -1126,15 +1292,17 @@
               säga nej till fler platser på högskolan?
             </seg>
           </u>
-          <note type="speaker" n="427ada77">
+          <note type="speaker">
             Anf. 43 Utbildningsminister JAN BJÖRKLUND (FP):
           </note>
-          <u who="Q911372" xml:id="i-a7f775e628f42660-16" n="511202ac">
-            <seg n="349fa26b">
+          <u xml:id="i-4855a22b5e77548d-127" next="i-4855a22b5e77548d-129" who="Q911372">
+            <seg>
               Herr talman! Jag upplever att jag svarade på exakt samma fråga
               för 20 minuter sedan, men jag gör det gärna igen.
             </seg>
-            <seg n="96432f1c">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-128" prev="i-4855a22b5e77548d-127" who="Q911372">
+            <seg>
               Sverige har 430 000 studenter vid universiteten. Det finns ingen
               tidigare generation som har varit i närheten av den utbildningsnivån.
               I dag är det också så att av dem som fyller 19 i år kommer 53
@@ -1146,7 +1314,9 @@
               vi behöver satsa på nu i Sverige är att bygga ut yrkesutbildningar
               och lärlingsutbildningar.
             </seg>
-            <seg n="16cd1456">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-129" prev="i-4855a22b5e77548d-127" who="Q911372">
+            <seg>
               Jag är medveten om att myndighetschefer, rektorer för universitet
               och högskolor liksom alla andra gärna vill ha mer resurser för
               egen del, men vi har att göra en helhetsbedömning. Är det fler
@@ -1155,26 +1325,30 @@
               där det råder brist. Alla i samhället kan inte bli akademiker.
             </seg>
           </u>
-          <note type="speaker" n="cb7fac92">
+          <note type="speaker">
             Anf. 44 THOMAS STRAND (S):
           </note>
-          <u who="Q6191909" xml:id="i-144345a04ca0f987-1" n="c1971b55">
-            <seg n="510e25f5">
+          <u xml:id="i-4855a22b5e77548d-130" next="i-4855a22b5e77548d-132" who="Q6191909">
+            <seg>
               Herr talman! Det har ingen sagt heller. Vi behöver utbilda många
               människor, och det är viktigt.
             </seg>
-            <seg n="a68c24ea">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-131" prev="i-4855a22b5e77548d-130" who="Q6191909">
+            <seg>
               Nu är det så att utbildningsministern hänvisar till en demografisk
               prognos som har gjorts. Det finns ett bevingat uttryck som säger
               om statistik att det finns tre sorters lögn: lögn, förbannad lögn
               och statistik.
             </seg>
-            <seg n="14001278">
-              Lund gjorde samma simulering mellan 2009 och 2013. Enligt prognosen
-              skulle de få ett minskat söktryck. I själva verket ökade söktrycket
-              i Lund.
-            </seg>
-            <seg n="0c294db8">
+          </u>
+          <note>
+            Lund gjorde samma simulering mellan 2009 och 2013. Enligt prognosen
+            skulle de få ett minskat söktryck. I själva verket ökade söktrycket
+            i Lund.
+          </note>
+          <u xml:id="i-4855a22b5e77548d-132" prev="i-4855a22b5e77548d-130" who="Q6191909">
+            <seg>
               Vi talar om verkligheten. SUHF är röster från verkligheten, och
               de säger att det står människor och knackar på dörren. 100 000
               studenter vill studera och är behöriga att studera, men kom inte
@@ -1183,17 +1357,19 @@
               råd att satsa på några tusen fler platser på högskolan.
             </seg>
           </u>
-          <note type="speaker" n="ecb5d4de">
+          <note type="speaker">
             Anf. 45 Utbildningsminister JAN BJÖRKLUND (FP):
           </note>
-          <u who="Q911372" xml:id="i-a7f775e628f42660-17" n="511202ac">
-            <seg n="5a779441">
+          <u xml:id="i-4855a22b5e77548d-133" next="i-4855a22b5e77548d-135" who="Q911372">
+            <seg>
               Herr talman! Om Thomas Strand ska bygga ut med 100 000 räcker
               det inte. Då får han allt ta i med budgeten, det kan jag säga.
               Det är några tusen platser ni föreslår, och det är inte så stor
               skillnad mot de 430 000 studenter som redan går i högskolorna.
             </seg>
-            <seg n="26145965">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-134" prev="i-4855a22b5e77548d-133" who="Q911372">
+            <seg>
               Sanningen är den, Thomas Strand, att vi har en mycket hög nivå
               när det gäller akademisk utbildning i Sverige, och den kommer
               att fortsätta att stiga. Jag vet inte vad man annars ska bygga
@@ -1207,24 +1383,28 @@
               kommer att räcka. Om några år kommer det att vara tomma platser
               på mängder av ställen.
             </seg>
-            <seg n="e38727be">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-135" prev="i-4855a22b5e77548d-133" who="Q911372">
+            <seg>
               Det är yrkesutbildningar detta land behöver bygga ut. Alla kan
               inte bli akademiker. Jag förstår inte varför man i detta parti,
               som kallar sig arbetarparti, är så rädd för yrkesutbildning.
             </seg>
-            <seg n="88e51f71">
-              Svensk äldreomsorg
-            </seg>
           </u>
-          <note type="speaker" n="3cb398ee">
+          <note>
+            Svensk äldreomsorg
+          </note>
+          <note type="speaker">
             Anf. 46 STEFAN SVANSTRÖM (KD):
           </note>
-          <u who="Q6197506" xml:id="i-a7f775e628f42660-18" n="334ecc37">
-            <seg n="b073377f">
+          <u xml:id="i-4855a22b5e77548d-136" next="i-4855a22b5e77548d-138" who="Q6197506">
+            <seg>
               Herr talman! Jag vill ställa en fråga till statsrådet Maria Larsson
               i hennes egenskap av äldreminister.
             </seg>
-            <seg n="0eaaa803">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-137" prev="i-4855a22b5e77548d-136" who="Q6197506">
+            <seg>
               Den 1 oktober, i tisdags, firades FN:s internationella äldredag
               världen över. I samband med det presenterade organisationen Help
               Age International – ett paraplyorgan för hundra äldreorganisationer
@@ -1236,26 +1416,32 @@
               relativt knapp marginal ned till länder som Norge, Tyskland och
               Holland.
             </seg>
-            <seg n="16608bbc">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-138" prev="i-4855a22b5e77548d-136" who="Q6197506">
+            <seg>
               Vad avser statsrådet att göra för att säkerställa att Sverige
               även framdeles ska vara världens bästa land att åldras i?
             </seg>
           </u>
-          <note type="speaker" n="92604d65">
+          <note type="speaker">
             Anf. 47 Statsrådet MARIA LARSSON (KD):
           </note>
-          <u who="Q447542" xml:id="i-b090df5711d20494-4" n="8c10cf1b">
-            <seg n="7e887562">
+          <u xml:id="i-4855a22b5e77548d-139" next="i-4855a22b5e77548d-142" who="Q447542">
+            <seg>
               Herr talman! Tack för frågan!
             </seg>
-            <seg n="8b8aaba6">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-140" prev="i-4855a22b5e77548d-139" who="Q447542">
+            <seg>
               Det är naturligtvis väldigt glädjande när vi får internationella
               undersökningar som visar att Sverige ligger i toppklass när det
               gäller äldreomsorgen. Låt mig säga att det inte är den första
               undersökningen som säger det. EU kom med en likartad undersökning
               som jämförde EU-länder och som också placerade Sverige i topp.
             </seg>
-            <seg n="8f2ba2dd">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-141" prev="i-4855a22b5e77548d-139" who="Q447542">
+            <seg>
               Samtidigt är jag naturligtvis intresserad av hur de äldre själva
               ser på situationen. Jag kan konstatera att vi har haft en glädjande
               utveckling där allt fler äldre blir alltmer nöjda. 88 procent
@@ -1266,17 +1452,19 @@
               för de mest sjuka äldre. Det är ett stort pågående arbete just
               nu.
             </seg>
-            <seg n="d1f63956">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-142" prev="i-4855a22b5e77548d-139" who="Q447542">
+            <seg>
               Vi har ställt resurser till förfogande för att bygga fler äldreboenden,
               och vi har utvecklat öppna jämförelser för att veta vad det är
               som händer i äldreomsorgen.
             </seg>
           </u>
-          <note type="speaker" n="94d6f373">
+          <note type="speaker">
             Anf. 48 STEFAN SVANSTRÖM (KD):
           </note>
-          <u who="Q6197506" xml:id="i-a7f775e628f42660-19" n="334ecc37">
-            <seg n="b78706b6">
+          <u xml:id="i-4855a22b5e77548d-143" next="i-4855a22b5e77548d-144" who="Q6197506">
+            <seg>
               Herr talman! Det är glädjande att många fler är nöjda med vad
               vi gör. Undersökningen visar bland annat att vi har väldigt hög
               lägstanivå i alla jämförelsemått som tagits fram. Vi är femma
@@ -1284,7 +1472,9 @@
               det gäller miljö och social inkludering, vi är sjua när det gäller
               vård och hälsa, och vi är åtta när det gäller ekonomisk trygghet.
             </seg>
-            <seg n="38657e42">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-144" prev="i-4855a22b5e77548d-143" who="Q6197506">
+            <seg>
               Men det här gör oss inte blinda för bilden av att vi fortfarande
               har en del problem att jobba med. Vi läser medierna. Där finns
               en diskussion om hur vi kan förbättra den ekonomiska tryggheten
@@ -1296,11 +1486,11 @@
               att vi kan göra för att säkerställa att äldre får rätt medicinering?
             </seg>
           </u>
-          <note type="speaker" n="0ac11605">
+          <note type="speaker">
             Anf. 49 Statsrådet MARIA LARSSON (KD):
           </note>
-          <u who="Q447542" xml:id="i-0fcd30397c5d757d-0" n="8c10cf1b" next="i-feeb011b4617cdba-0">
-            <seg n="2839f50a">
+          <u xml:id="i-4855a22b5e77548d-145" next="i-4855a22b5e77548d-149" who="Q447542">
+            <seg>
               Herr talman! Äldres stora läkemedelskonsumtion är ett av de problemområden
               vi har identifierat. Det är ett av de områden där vi nu belönar
               kommuner och landsting som aktivt arbetar med att minska olämpliga
@@ -1308,7 +1498,9 @@
               för att leva ett gott liv, men det finns en olämplig medicinering
               som vi har specificerat.
             </seg>
-            <seg n="85875af9">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-146" prev="i-4855a22b5e77548d-145" who="Q447542">
+            <seg>
               Nu ser vi en positiv utveckling: Läkemedelsanvändningen minskar
               i alla landsting. Den har minskat från 11,8 till 9,8 procent på
               ett år. Det kan låta som en liten procentandelsförändring, men
@@ -1317,18 +1509,20 @@
               som innebär en stor inskränkning i äldres livskvalitet. Här sker
               mycket positivt. Det är en revolution på gång i äldreomsorgen.
             </seg>
-            <seg n="d6bbada4">
-              Resurser till läsfrämjande verksamhet
-            </seg>
           </u>
-          <note n="22fbae7a">
+          <note>
+            Resurser till läsfrämjande verksamhet
+          </note>
+          <note>
             Anf. 50 HELÉN PETTERSSON i Umeå (S):
           </note>
-          <u who="Q447542" xml:id="i-feeb011b4617cdba-0" n="8c10cf1b" prev="i-0fcd30397c5d757d-0">
-            <seg n="715a6016">
+          <u xml:id="i-4855a22b5e77548d-147" prev="i-4855a22b5e77548d-145" who="Q447542">
+            <seg>
               Herr talman! Min fråga går till kulturminister Adelsohn Liljeroth.
             </seg>
-            <seg n="447c3ca1">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-148" prev="i-4855a22b5e77548d-145" who="Q447542">
+            <seg>
               När regeringen härförleden presenterade sin satsning på 30 miljoner
               till läsfrämjande verksamhet lät det väldigt bra. Jag tror att
               vi alla är överens om att vi behöver satsa på läsfrämjande verksamhet.
@@ -1339,7 +1533,9 @@
               Därmed riskerar den så kallade satsningen de facto att resultera
               i mindre pengar för direkt verksamhet.
             </seg>
-            <seg n="e8130d17">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-149" prev="i-4855a22b5e77548d-145" who="Q447542">
+            <seg>
               Ministerns enda svar på den kritik som har förts fram är: Den
               är dum. Jag tänkte ge ministern möjlighet att utveckla vad som
               är dumt med att kritisera en påstådd satsning och säga att den
@@ -1347,17 +1543,19 @@
               får i dag.
             </seg>
           </u>
-          <note type="speaker" n="d15d4608">
+          <note type="speaker">
             Anf. 51 Kultur- och idrottsminister LENA ADELSOHN LILJEROTH (M):
           </note>
-          <u who="Q297821" xml:id="i-0b44fd2a597bb110-0" n="cb277613" next="i-34075f04b9fec234-0">
-            <seg n="3486ade0">
+          <u xml:id="i-4855a22b5e77548d-150" next="i-4855a22b5e77548d-154" who="Q297821">
+            <seg>
               Herr talman! Ibland klipps intervjuer lite hur som helst. Redan
               när vi inledde valrörelsen 2010 hade vi i valmanifestet att vi
               behövde en litteraturutredning för att se hur vi kunde stärka
               författarnas villkor och öka läsandet.
             </seg>
-            <seg n="d0c11367">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-151" prev="i-4855a22b5e77548d-150" who="Q297821">
+            <seg>
               Litteraturutredningen, som presenterades på bokmässan för ett
               år sedan, var också en bra bas som gav mycket ny kunskap om vad
               vi kan göra för att stärka läsandet. Ett av de förslag som kom
@@ -1367,24 +1565,28 @@
               Det räcker till mycket, men vi ska också veta att hela anslaget
               till folkbildningen ligger på mellan 3 och 4 miljarder kronor.
             </seg>
-            <seg n="06c7035d">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-152" prev="i-4855a22b5e77548d-150" who="Q297821">
+            <seg>
               Det här var ett sätt att se till att man också kunde få stöd
               till läsande bland äldre. Även om läsandet ligger högt bland äldre
               finns det grupper som fortfarande har svårt med läsandet.
             </seg>
           </u>
-          <note n="cee12818">
+          <note>
             Anf. 52 HELÉN PETTERSSON i Umeå (S):
           </note>
-          <u who="Q297821" xml:id="i-34075f04b9fec234-0" n="cb277613" prev="i-0b44fd2a597bb110-0">
-            <seg n="263fb307">
+          <u xml:id="i-4855a22b5e77548d-153" prev="i-4855a22b5e77548d-150" who="Q297821">
+            <seg>
               Herr talman! Jag är medveten om att det är en del av folkbildningsanslagen,
               men jag undrar om ministern är medveten om att det satsas mer
               på läsfrämjande åtgärder än de 30 miljonerna. Och kan hon inte
               se en fara i att en del av de verksamhetspengar som finns i dag
               kommer att ätas upp av administration, vilket känns mycket onödigt?
             </seg>
-            <seg n="ea029733">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-154" prev="i-4855a22b5e77548d-150" who="Q297821">
+            <seg>
               Sedan undrar jag hur ministern anser att det rimmar med det fria
               och frivilliga, som är den bas som folkbildningen lutar sig mot,
               att man börjar öronmärka anslagen till direkta åtgärder och verksamheter.
@@ -1394,16 +1596,18 @@
               Vi är väldigt många som är mycket oroliga för detta.
             </seg>
           </u>
-          <note type="speaker" n="a556d17e">
+          <note type="speaker">
             Anf. 53 Kultur- och idrottsminister LENA ADELSOHN LILJEROTH (M):
           </note>
-          <u who="Q297821" xml:id="i-a7f775e628f42660-20" n="cb277613">
-            <seg n="4c70d8ca">
+          <u xml:id="i-4855a22b5e77548d-155" next="i-4855a22b5e77548d-158" who="Q297821">
+            <seg>
               Herr talman! Vi har haft en borgerlig regering under lite drygt
               sju år. Vi är normalt sett inte mycket för öronmärkning. Det gäller
               på mitt område, kulturen, också. Där har vi minskat öronmärkningen.
             </seg>
-            <seg n="7d3d3e3e">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-156" prev="i-4855a22b5e77548d-155" who="Q297821">
+            <seg>
               Det här handlar om 30 miljoner, och jag vet att studieförbunden
               och folkbildningen jobbar med läsandet. Litteraturutredningen
               ansåg att detta var ett sätt, och det gör vi också i propositionen,
@@ -1413,7 +1617,9 @@
               verksamheter än exempelvis genom de här anslagen. Och det är viktigt
               nog.
             </seg>
-            <seg n="a84c4276">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-157" prev="i-4855a22b5e77548d-155" who="Q297821">
+            <seg>
               De pengar som går till folkbildningen är skattebetalarnas pengar.
               De kommer inte från ett tomt hål i universum. Det är medborgarnas
               inbetalade pengar. Jag tycker att det kan vara rimligt att riksdagen
@@ -1421,21 +1627,25 @@
               upp villkor för idrotten, som också är frivillig, och talar om
               vad vi vill att idrottens pengar ska gå till.
             </seg>
-            <seg n="b0f6e5ff">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-158" prev="i-4855a22b5e77548d-155" who="Q297821">
+            <seg>
               Hatbrott
             </seg>
           </u>
-          <note type="speaker" n="3c2a5dda">
+          <note type="speaker">
             Anf. 54 FINN BENGTSSON (M):
           </note>
-          <u who="Q5570168" xml:id="i-ea75fd6eb4745d54-0" n="bf93d9f9">
-            <seg n="667e061d">
+          <u xml:id="i-4855a22b5e77548d-159" next="i-4855a22b5e77548d-161" who="Q5570168">
+            <seg>
               Herr talman! Äntligen, statsrådet Erik Ullenhag! Brottsförebyggande
               rådet har i år rapporterat att det totala antalet polisanmälningar
               med identifierade hatbrottsmotiv minskat med 6 procent från 2008
               till 2012. Det är givetvis mycket glädjande.
             </seg>
-            <seg n="454e29e3">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-160" prev="i-4855a22b5e77548d-159" who="Q5570168">
+            <seg>
               Men om man studerar de aktuella siffrorna lite mer i detalj framskymtar
               något som är aningen oroväckande. Medan samhället, av antalet
               anmälda hatbrott att döma, tycks utvecklas positivt i riktning
@@ -1446,22 +1656,26 @@
               polisen, innehåller ett identifierat hatbrottsmotiv och bedöms
               enligt Brå ha främlingsfientliga eller rasistiska motiv.
             </seg>
-            <seg n="34a6afb3">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-161" prev="i-4855a22b5e77548d-159" who="Q5570168">
+            <seg>
               Främlingsfientligheten tar sig nya uttryck. Jag vet att statsrådet
               bland annat har jobbat på en vitbok för att kartlägga övergreppen
               mot romerna. Kan statsrådet nämna något kort om det här vitboksarbetet?
             </seg>
           </u>
-          <note type="speaker" n="dd83f227">
+          <note type="speaker">
             Anf. 55 Statsrådet ERIK ULLENHAG (FP):
           </note>
-          <u who="Q4588714" xml:id="i-a7f775e628f42660-21" n="8c10cf1b">
-            <seg n="7f1ed438">
+          <u xml:id="i-4855a22b5e77548d-162" next="i-4855a22b5e77548d-165" who="Q4588714">
+            <seg>
               Herr talman! Tack för frågan! Låt mig börja med hatbrottsstatistiken.
               Man ska vara lite försiktig när man drar slutsatser av hatbrottsstatistik,
               precis som frågeställaren säger.
             </seg>
-            <seg n="5a1f97f8">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-163" prev="i-4855a22b5e77548d-162" who="Q4588714">
+            <seg>
               Det vi kan se över tid är att antalet hatbrott när det gäller
               hbtq-personer och sexuell läggning har gått ned. Jag tror, och
               notera att jag säger tror, att det beror på en bättre attityd
@@ -1470,7 +1684,9 @@
               är det ett problem att anmälningsfrekvensen går ned eftersom det
               tyder på att man inte vågar anmäla.
             </seg>
-            <seg n="8f5cfe8f">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-164" prev="i-4855a22b5e77548d-162" who="Q4588714">
+            <seg>
               Den romska gruppen är den grupp som drabbas mest av främlingsfientlighet
               och diskriminering i det svenska samhället. Det är bakgrunden
               till att regeringen på ett antal punkter, bland annat med en vitbok
@@ -1478,23 +1694,27 @@
               försöker få fram kunskap om historien eftersom den spelar roll
               även i dag. Det är en av åtgärderna.
             </seg>
-            <seg n="caa02992">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-165" prev="i-4855a22b5e77548d-162" who="Q4588714">
+            <seg>
               Men vi gör också ganska omfattande insatser för romsk inkludering.
               Mycket av det arbetet skadades av den diskussion som har förts
               de senaste veckorna om registrering av romer. Det är klart att
               det skadar romernas förtroende för majoritetssamhället.
             </seg>
           </u>
-          <note type="speaker" n="95b47100">
+          <note type="speaker">
             Anf. 56 FINN BENGTSSON (M):
           </note>
-          <u who="Q5570168" xml:id="i-ea75fd6eb4745d54-1" n="bf93d9f9">
-            <seg n="6c2b417c">
+          <u xml:id="i-4855a22b5e77548d-166" next="i-4855a22b5e77548d-168" who="Q5570168">
+            <seg>
               Herr talman! Tack för svaret, statsrådet! Jag tycker att det
               är mycket förtjänstfullt att man gör den här kartläggningen av
               övergrepp mot den romska befolkningen under 1900-talet.
             </seg>
-            <seg n="791871b9">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-167" prev="i-4855a22b5e77548d-166" who="Q5570168">
+            <seg>
               När vi tittar på vår egen lagstiftning är det lite pinsamt att
               se att den så kallade lösdriverilagen fanns fram till 1965. Då
               ersattes den av ett annat lagrum som kallades för lagen om samhällsfarlig
@@ -1502,7 +1722,9 @@
               fram till 1982 när socialtjänstreformen äntligen tog bort den
               lagstiftningen.
             </seg>
-            <seg n="2a0650f3">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-168" prev="i-4855a22b5e77548d-166" who="Q5570168">
+            <seg>
               Det finns ju andra lagar som kanske anknyter till arbetet med
               vitboken, vad den nu kan leda fram till, som jag tror att det
               är mycket viktigt att man analyserar. Det är de lagar som vi har
@@ -1513,29 +1735,35 @@
               i den här typen av aktiviteter?
             </seg>
           </u>
-          <note type="speaker" n="ed2e2526">
+          <note type="speaker">
             Anf. 57 Statsrådet ERIK ULLENHAG (FP):
           </note>
-          <u who="Q4588714" xml:id="i-a7f775e628f42660-22" n="8c10cf1b">
-            <seg n="731b93be">
+          <u xml:id="i-4855a22b5e77548d-169" next="i-4855a22b5e77548d-173" who="Q4588714">
+            <seg>
               Herr talman! Jag noterar att jag fick ett nytt verktyg som statsråd.
               Jag kan filosofera. Det var inte dumt. Det borde man ägna sig
               mer åt.
             </seg>
-            <seg n="ef7f7907">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-170" prev="i-4855a22b5e77548d-169" who="Q4588714">
+            <seg>
               Det här är otroligt allvarliga frågor. Vi följer upp hetslagstiftningen
               hela tiden tillsammans med Beatrice Ask som ytterst har ansvar
               för frågan. Det handlar om att vi ska se till att hatbrotten tas
               på allvar, att polisen har kompetens för detta och att människor
               vågar anmäla. Vi följer detta mycket noggrant.
             </seg>
-            <seg n="5fced01d">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-171" prev="i-4855a22b5e77548d-169" who="Q4588714">
+            <seg>
               Min bedömning i dagsläget är dock att hetsbrottslagstiftningen
               som sådan är relativt heltäckande. Det förs en diskussion om hbtq-personer
               som vi kan titta på. Vi kan titta på lagstiftningen, men i grunden
               har vi en ganska bra lagstiftning på plats.
             </seg>
-            <seg n="b47867ab">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-172" prev="i-4855a22b5e77548d-169" who="Q4588714">
+            <seg>
               Låt mig säga något om den vitbok som regeringen tar fram. Vi
               har presenterat ett kapitel ur vitboken. Det rör registrering
               under 1900-talet. Det är rätt vidrig läsning. Under den första
@@ -1547,15 +1775,17 @@
               vara sådan att de flyttade någon annanstans. Vi har en historia
               att verkligen skämmas över på det här området.
             </seg>
-            <seg n="a2170b5b">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-173" prev="i-4855a22b5e77548d-169" who="Q4588714">
+            <seg>
               Resurser till vård, skola och omsorg
             </seg>
           </u>
-          <note type="speaker" n="033f632a">
+          <note type="speaker">
             Anf. 58 PIA NILSSON (S):
           </note>
-          <u who="Q3370093" xml:id="i-79e184fe471eb648-0" n="22ae363e">
-            <seg n="258459d4">
+          <u xml:id="i-4855a22b5e77548d-174" next="i-4855a22b5e77548d-175" who="Q3370093">
+            <seg>
               Herr talman! Min fråga går till vice statsminister Jan Björklund.
               Förra veckan målade Göran Hägglund upp en bild av verkligheten
               där han påstod att statens bidrag till vård, skola och omsorg
@@ -1565,7 +1795,9 @@
               till utan att resurserna i stort sett är desamma som när regeringen
               tillträdde för sju år sedan trots en betydande befolkningsökning.
             </seg>
-            <seg n="6f74aa83">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-175" prev="i-4855a22b5e77548d-174" who="Q3370093">
+            <seg>
               Därför vill jag fråga vice statsminister Jan Björklund om Göran
               Hägglunds bild också är regeringens samlade bild av verkligheten.
               Och om så är fallet: På vilket sätt borde svenska folket märka
@@ -1575,18 +1807,20 @@
               klara sina åtaganden?
             </seg>
           </u>
-          <note type="speaker" n="e0e6a701">
+          <note type="speaker">
             Anf. 59 Utbildningsminister JAN BJÖRKLUND (FP):
           </note>
-          <u who="Q911372" xml:id="i-0b44fd2a597bb110-1" n="511202ac">
-            <seg n="afd99d7a">
+          <u xml:id="i-4855a22b5e77548d-176" next="i-4855a22b5e77548d-178" who="Q911372">
+            <seg>
               Herr talman! Välfärden har förstärkts under de här åren. Det
               är ganska unikt i Europa därför att man i många länder måste skära
               ned på välfärden. Att den har förstärkts här beror i grunden på
               att vi har en välskött ekonomi och att en ansvarsfull ekonomisk
               politik har förts under de här åren.
             </seg>
-            <seg n="eed13282">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-177" prev="i-4855a22b5e77548d-176" who="Q911372">
+            <seg>
               Välfärd i meningen sjukvård, äldreomsorg, skola och utbildning
               har fått mer resurser under de här åren. Det är också därför som
               vi har en fortsatt hög standard i dessa sektorer. I utbildningssektorn,
@@ -1594,7 +1828,9 @@
               till exempel högre lärartäthet i dag än 2006 när det gäller behöriga
               lärare. Köerna i sjukvården har kortats.
             </seg>
-            <seg n="4f67adf9">
+          </u>
+          <u xml:id="i-4855a22b5e77548d-178" prev="i-4855a22b5e77548d-176" who="Q911372">
+            <seg>
               En lång rad reformer har genomförts trots mycket tuffa tider,
               och det är tack vare att vi har fört en ansvarsfull ekonomisk
               politik och haft en arbetslinje i grunden som statens ekonomiska
@@ -1602,175 +1838,181 @@
               ju har varit oppositionens alternativ.
             </seg>
           </u>
-          <note n="7fefa490" type="speaker">
+          <note type="speaker">
             Anf. 60 ANDRE VICE TALMANNEN:
           </note>
-          <u who="unknown" xml:id="i-34075f04b9fec234-1" n="511202ac">
-            <seg n="815c70dd">
+          <u xml:id="i-4855a22b5e77548d-179" who="unknown">
+            <seg>
               Det var sista frågan. Jag vill tacka de närvarande statsråden
               och riksdagsledamöterna för veckans frågestund.
             </seg>
-            <seg n="1be8abc6">
-              Skälet till dröjsmålet är tidigare inbokade resor och arrangemang.
-            </seg>
           </u>
-          <note n="24747812">
+          <note>
             2 § Justering av protokoll
           </note>
-          <note n="f6fc316c">
+          <note>
             Protokollet för den 27 september justerades.
           </note>
-          <note n="310cc7a6">
+          <note>
             3 § Avsägelse
           </note>
-          <note n="a0809243">
+          <note>
             Andre vice talmannen meddelade att Cristina Husmark Pehrsson
             (M) avsagt sig uppdraget som ledamot i Nordiska rådets svenska
             delegation.
           </note>
-          <note n="6ed88fae">
+          <note>
             Kammaren biföll denna avsägelse.
           </note>
-          <note n="955bb99c">
+          <note>
             4 § Anmälan om kompletteringsval
           </note>
-          <note n="3ef3d63e">
+          <note>
             Andre vice talmannen meddelade att Moderata samlingspartiets
             riksdagsgrupp på grund av uppkommen vakans anmält Hans Wallmark
             som ledamot i Nordiska rådets svenska delegation.
           </note>
-          <note n="78b3b593">
+          <note>
             Andre vice talmannen förklarade vald till
           </note>
-          <note n="b669487d">
+          <note>
             ledamot i Nordiska rådets svenska delegation
           </note>
-          <note n="4dbc78ef">
+          <note>
             5 § Anmälan om subsidiaritetsprövning
           </note>
-          <note n="e4da1cca">
+          <note>
             Andre vice talmannen anmälde att utdrag ur prot. 2013/14:1 för
             torsdagen den 26 september i ärende om subsidiaritetsprövning
             av EU-förslag inkommit från utrikesutskottet.
           </note>
-          <note n="77a70df6">
+          <note>
             6 § Anmälan om faktapromemoria
           </note>
-          <note n="0840ab74">
+          <note>
             Andre vice talmannen anmälde att följande faktapromemoria om
             förslag från Europeiska kommissionen inkommit och överlämnats
             till utskott:
           </note>
-          <note n="f59d98f2">
+          <note>
             KOM(2013) 611
           </note>
-          <note n="f9dad3c5">
+          <note>
             7 § Anmälan om fördröjt svar på interpellation
           </note>
-          <note n="5321dc9f">
+          <note>
             Följande skrivelse hade inkommit till riksdagen:
           </note>
-          <note n="ef282243">
+          <note>
             Interpellation 2013/14:21
           </note>
-          <note n="cd4aa611">
+          <note>
             Interpellation 2013/14:21 Krisen inom skogsindustrin
           </note>
-          <note n="3c55ee79">
+          <note>
             Interpellationen kommer att besvaras tisdagen den 12 november
             2013.
           </note>
-          <note n="18939d95">
+          <u xml:id="i-4855a22b5e77548d-180" who="unknown">
+            <seg>
+              Skälet till dröjsmålet är tidigare inbokade resor och arrangemang.
+            </seg>
+          </u>
+          <note>
             Fredrik Ahlén
           </note>
-          <note n="b7e663df">
+          <note>
             8 § Ärenden för hänvisning till utskott
           </note>
-          <note n="0fdf896b">
+          <note>
             Följande dokument hänvisades till utskott:
           </note>
-          <note n="21bf4aff">
+          <note>
             9 § Bordläggning
           </note>
-          <note n="004c2811">
+          <note>
             Följande dokument anmäldes och bordlades:
           </note>
-          <note n="35e3b4ad">
+          <note>
             10 § Anmälan om interpellationer
           </note>
-          <note n="2b8a714c">
+          <note>
             Följande interpellationer hade framställts:
           </note>
-          <note n="fe9aea5e">
+          <note>
             den 2 oktober
           </note>
-          <note n="5db89f57">
+          <note>
             Per Bolund
           </note>
-          <note n="8cb244a8">
+          <note>
             den 3 oktober
           </note>
-          <note n="bdec2d61">
+          <note>
             Veronica Palm
           </note>
-          <note n="b4460e23">
+          <note>
             Interpellationerna redovisas i bilaga som fogats till riksdagens
             snabbprotokoll tisdagen den 15 oktober.
           </note>
-          <note n="78f0e617">
+          <note>
             11 § Anmälan om frågor för skriftliga svar
           </note>
-          <note n="3c019eb4">
-            Följande frågor för skriftliga svar hade framställts:
-          </note>
-          <note n="fe9aea5e">
+          <u xml:id="i-4855a22b5e77548d-181" who="unknown">
+            <seg>
+              Följande frågor för skriftliga svar hade framställts:
+            </seg>
+          </u>
+          <note>
             den 2 oktober
           </note>
-          <note n="2821482c">
+          <note>
             Anna Wallén
           </note>
-          <note n="d426ff6f">
+          <note>
             Peter Hultqvist
           </note>
-          <note n="8cb244a8">
+          <note>
             den 3 oktober
           </note>
-          <note n="dccc877c">
+          <note>
             Lars Mejern Larsson
           </note>
-          <note n="4e8617c9">
+          <note>
             Jens Holm
           </note>
-          <note n="1c72ccd7">
+          <note>
             Frågorna redovisas i bilaga som fogats till riksdagens snabbprotokoll
             tisdagen den 15 oktober.
           </note>
-          <note n="0eb115bb">
+          <note>
             12 § Anmälan om skriftliga svar på frågor
           </note>
-          <note n="204141b1">
-            Skriftliga svar på följande frågor hade inkommit:
-          </note>
-          <note n="8cb244a8">
+          <u xml:id="i-4855a22b5e77548d-182" who="unknown">
+            <seg>
+              Skriftliga svar på följande frågor hade inkommit:
+            </seg>
+          </u>
+          <note>
             den 3 oktober
           </note>
-          <note n="d164b6f7">
+          <note>
             Markus Wiechel
           </note>
-          <note n="2b5ba116">
+          <note>
             Hannah Bergstedt
           </note>
-          <note n="565a8d38">
+          <note>
             Svaren redovisas i bilaga som fogats till riksdagens snabbprotokoll
             tisdagen den 15 oktober.
           </note>
-          <note n="0b351b19">
+          <note>
             13 § Kammaren åtskildes kl. 15.01.
           </note>
-          <note n="d8c2db7c">
+          <note>
             Förhandlingarna leddes av andre vice talmannen.
           </note>
-          <note n="6a9a7d18">
+          <note>
             /Eva-Lena Ekman
           </note>
         </div>

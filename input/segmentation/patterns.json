@@ -2,10 +2,10 @@
 {"type": "regex", "pattern": "^([A-ZÀ-ÿ][a-zA-ZÀ-ÿ, ]{0,30})?((F|f)ru|(H|h)err) [a-zA-ZÀ-ÿ, ]{0,30} i [A-ZÀ-Þ][a-zA-ZÀ-ÿ0-9]{1,20}:", "start": 1920, "end": 1947}
 {"type": "regex", "pattern": "^([A-ZÀ-ÿ][a-zA-ZÀ-ÿ, ]{0,30})?((F|f)ru|(H|h)err) [a-zA-ZÀ-ÿ, ]{0,30} i [A-ZÀ-Þ][a-zA-ZÀ-ÿ]{1,20}, [a-zA-ZÀ-ÿ ]{0,20}:", "start": 1920, "end": 1950}
 {"type": "regex", "pattern": "^([A-ZÀ-ÿ][a-zA-ZÀ-ÿ, ]{0,30})?((F|f)ru|(H|h)err) [a-zA-ZÀ-ÿ, ]{0,30} i [A-ZÀ-Þ][a-zA-ZÀ-ÿ]{1,20} \\([a-zA-Zß-ÿÀ-Þ]{0,3}\\)[a-zA-ZÀ-ÿ, ]{0,30}:", "start": 1940, "end": 1990}
-{"type": "regex", "pattern": "^([A-ZÀ-ÿ][a-zA-ZÀ-ÿ, ]{0,30})?((F|f)ru|(H|h)err) [A-ZÀ-ÿ0-9, ]{0,100} \\([a-zA-Zß-ÿÀ-Þ]{0,9}\\):", "start": 1950, "end": 2021}
+{"type": "regex", "pattern": "^([A-ZÀ-ÿ][a-zA-ZÀ-ÿ, ]{0,30})?((F|f)ru|(H|h)err) [A-ZÀ-ÿ0-9, ]{0,100} \\([a-zA-Zß-ÿÀ-Þ]{0,9}\\):", "start": 1950, "end": 2022}
 {"type": "regex", "pattern": "av [a-zA-ZÀ-ÿ0-9., ]{0,25} \\([a-zA-ZÀ-ÿ0-9., ]{0,9}\\) till [a-zA-Zß-ÿÀ-Þ0-9,\\- ]{0,130}:", "start": 1920, "end": 2000}
-{"type": "regex", "pattern": "[A-ZÀ-Þ0-9 ]{5,30} \\([a-zA-Zß-ÿÀ-Þ0-9., ]{0,9}\\):", "start": 1970, "end": 2020}
-{"type": "regex", "pattern": "[A-ZÀ-Þ0-9 ]{5,30} \\([a-zA-Zß-ÿÀ-Þ ]{0,9}\\) replik:", "start": 1970, "end": 2020}
+{"type": "regex", "pattern": "[A-ZÀ-Þ0-9 ]{5,30} \\([a-zA-Zß-ÿÀ-Þ0-9., ]{0,9}\\):", "start": 1970, "end": 2022}
+{"type": "regex", "pattern": "[A-ZÀ-Þ0-9 ]{5,30} \\([a-zA-Zß-ÿÀ-Þ ]{0,9}\\) replik:", "start": 1970, "end": 2022}
 {"type": "regex", "pattern": "(Fru|Herr|Fröken) [A-ZÀ-Þ, ]{0,35} \\([a-zA-Zß-ÿÀ-Þ ]{0,9}\\)[a-zA-Zß-ÿÀ-Þ ]{0,20}:", "start": 1950, "end": 1980}
 {"type": "regex", "pattern": "(Fru|Herr|Fröken) [A-ZÀ-Þ, ]{0,35} \\([a-zA-Zß-ÿÀ-Þ ]{0,9}\\) [a-zA-Zß-ÿÀ-Þ ]{0,25}:", "start": 1950, "end": 1980}
 {"type": "regex", "pattern": "(Fru|Herr|Fröken) [A-ZÀ-Þ, ]{0,35} \\([a-zA-Zß-ÿÀ-Þ ]{0,9}\\)[a-zA-Zß-ÿÀ-Þ ]{0,20}, [a-zA-Zß-ÿÀ-Þ ]{0,20}:", "start": 1950, "end": 1980}
@@ -14,10 +14,10 @@
 {"type": "regex", "pattern": "^([A-ZÀ-Þ\\-][a-zA-ZÀ-ÿ, ]{0,30} )?[A-ZÀ-Þ\\-]{3,20} [A-ZÀ-Þ\\-]{3,20}( \\([a-zA-Zß-ÿÀ-Þ]{0,4}\\))?:$", "start": 1970, "end": 2000}
 {"type": "regex", "pattern": "Anf.? [A-ZÀ-Þ0-9 ]{5,30} \\([a-zA-Zß-ÿÀ-Þ]{0,4}\\)$", "start": 1994, "end": 1997}
 {"type": "regex", "pattern": "Anf.? [A-ZÀ-Þ0-9 ]{5,30}( \\([a-zA-Zß-ÿÀ-Þ]{1,2}\\))$", "start": 1990, "end": 2000}
-{"type": "regex", "pattern": "Anf.? [A-ZÀ-Þ0-9 ]{5,30} \\([a-zA-Zß-ÿÀ-Þ]{0,4}\\) [a-zA-ZÀ-ÿ0-9., ]{0,40}:", "start": 1970, "end": 2020}
-{"type": "regex", "pattern": "Anf.? [a-zA-ZÀ-ÿ0-9, ]{0,40} [A-ZÀ-Þ0-9 ]{5,30}( i [a-zA-Zß-ÿÀ-Þ]{0,13})?(\\([a-zA-Zß-ÿÀ-Þ]{0,4}\\))? ?:", "start": 1970, "end": 2020}
+{"type": "regex", "pattern": "Anf.? [A-ZÀ-Þ0-9 ]{5,30} \\([a-zA-Zß-ÿÀ-Þ]{0,4}\\) [a-zA-ZÀ-ÿ0-9., ]{0,40}:", "start": 1970, "end": 2022}
+{"type": "regex", "pattern": "Anf.? [a-zA-ZÀ-ÿ0-9, ]{0,40} [A-ZÀ-Þ0-9 ]{5,30}( i [a-zA-Zß-ÿÀ-Þ]{0,13})?(\\([a-zA-Zß-ÿÀ-Þ]{0,4}\\))? ?:", "start": 1970, "end": 2022}
 {"type": "regex", "pattern": "^((F|f)ru|(H|h)err|(F|f)röken) [a-zA-ZÀ-ÿ0-9, ]{0,40}:", "start": 1920, "end": 1947}
 {"type": "regex", "pattern": "^((F|f)ru|(H|h)err|(F|f)röken) [A-ZÀ-Þ ]{0,40}:", "start": 1950, "end": 1970}
 {"type": "regex", "pattern": "^((F|f)ru|(H|h)err|(F|f)röken) [a-zA-ZÀ-ÿ0-9, ]{0,40} [A-ZÀ-Þ ]{5,20}:", "start": 1970, "end": 1985}
-{"type": "regex", "pattern": "(\\()?kort genmäle(\\))?:", "start": 1920, "end": 2020}
-{"type": "regex", "pattern": "statsrådet [A-ZÀ-Þ]{3,30}(,[a-zA-ZÀ-ÿ ]{5,25})?:", "start": 1920, "end": 2020}
+{"type": "regex", "pattern": "(\\()?kort genmäle(\\))?:", "start": 1920, "end": 2022}
+{"type": "regex", "pattern": "statsrådet [A-ZÀ-Þ]{3,30}(,[a-zA-ZÀ-ÿ ]{5,25})?:", "start": 1920, "end": 2022}

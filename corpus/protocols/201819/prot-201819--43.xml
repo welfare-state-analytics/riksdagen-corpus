@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2018</title>
+        <title>Riksdagens protocols 201819</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2018</title>
+          <title>Riksdagens protocols 201819</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -63,34 +60,38 @@
       </front>
       <body>
         <div>
-          <note n="4b6567bd">
+          <note>
             § 1 Frågestund
           </note>
-          <note n="55420d2c" type="speaker">
+          <note type="speaker">
             Anf. 1 FÖRSTE VICE TALMANNEN:
           </note>
-          <note n="3f6b3272">
+          <note>
             Jag vill hälsa statsråden välkomna. Frågor besvaras i dag av
             statsrådet Tomas Eneroth, justitie- och migrationsminister Morgan
             Johansson, statsrådet Ann Linde och utbildningsminister Anna Ekström.
           </note>
-          <note n="9a80355d">
+          <note>
             En fråga ska vara av övergripande och allmänpolitiskt slag eller
             avse ett ämne som faller inom statsrådets ansvarsområde och rör
             dennes tjänste ­ utövning. Statsrådet Tomas Eneroth besvarar såväl
             allmänpolitiska frågor som frågor inom sitt eget ansvarsområde.
           </note>
-          <note n="d312d851">
-            Den socialdemokratiska jobbpolitiken och arbetslöshetsmålet
-          </note>
-          <note type="speaker" n="c4b7ad9a">
+          <u xml:id="i-8753b306d031d54f-0" who="unknown">
+            <seg>
+              Den socialdemokratiska jobbpolitiken och arbetslöshetsmålet
+            </seg>
+          </u>
+          <note type="speaker">
             Anf. 2 SAILA QUICKLUND (M):
           </note>
-          <u who="Q4973765" xml:id="i-09c040d9d2bd8d55-0" n="275e3c0b">
-            <seg n="3f5821ef">
+          <u xml:id="i-8753b306d031d54f-1" next="i-8753b306d031d54f-4" who="Q4973765">
+            <seg>
               Fru talman! Jag har en allmänpolitisk fråga.
             </seg>
-            <seg n="ce34e481">
+          </u>
+          <u xml:id="i-8753b306d031d54f-2" prev="i-8753b306d031d54f-1" who="Q4973765">
+            <seg>
               År 2013 utlovade Stefan Löfven EU:s lägsta arbetslöshet. Då låg
               Sverige på tionde plats bland EU:s länder. Efter en mandatperiod
               med socialdemokratiskt styre är vi nu på nittonde plats, trots
@@ -100,25 +101,31 @@
               noterar också att arbetslöshetsmålet inte nämndes över huvud taget
               i regeringsförklaringen, vilket är häpnadsväckande.
             </seg>
-            <seg n="2adb8241">
+          </u>
+          <u xml:id="i-8753b306d031d54f-3" prev="i-8753b306d031d54f-1" who="Q4973765">
+            <seg>
               Det saknas även politik för fler jobb i den överenskommelse som
               nu ligger till grund för regeringspolitiken. I stället är det
               fokus på sänkta skatter för höginkomsttagare och på att människor
               ska jobba mindre.
             </seg>
-            <seg n="b62ca2dc">
+          </u>
+          <u xml:id="i-8753b306d031d54f-4" prev="i-8753b306d031d54f-1" who="Q4973765">
+            <seg>
               Min fråga är därför: Är det inte dags att erkänna att den socialdemokratiska
               jobbpolitiken, inklusive arbetslöshetsmålet, har misslyckats?
             </seg>
           </u>
-          <note type="speaker" n="960beb14">
+          <note type="speaker">
             Anf. 3 Statsrådet TOMAS ENEROTH (S):
           </note>
-          <u who="Q5711551" xml:id="i-3e6be7c9a629efdc-0" n="8e54a422">
-            <seg n="94ef9f8e">
+          <u xml:id="i-8753b306d031d54f-5" next="i-8753b306d031d54f-8" who="Q5711551">
+            <seg>
               Fru talman! Tack för frågan, Saila Quicklund!
             </seg>
-            <seg n="2be99e2f">
+          </u>
+          <u xml:id="i-8753b306d031d54f-6" prev="i-8753b306d031d54f-5" who="Q5711551">
+            <seg>
               Vi befinner oss i ett läge där vi har den högsta sysselsättningen
               någonsin i Sverige, där vi har halverat tiden för utomeuropeiskt
               födda att komma in på svensk arbetsmarknad och där den stora utmaningen
@@ -130,7 +137,9 @@
               har Sverige en särställning med sin höga sysselsättning, inte
               minst när det gäller förvärvsfrekvensen bland kvinnor.
             </seg>
-            <seg n="cb309254">
+          </u>
+          <u xml:id="i-8753b306d031d54f-7" prev="i-8753b306d031d54f-5" who="Q5711551">
+            <seg>
               Naturligtvis är det en utmaning att se till att alla som har
               kommit till Sverige under senare år ska få en chans att komma
               in på arbetsmarknaden, och där krävs det ytterligare insatser.
@@ -140,34 +149,38 @@
               eller om vissa branscher. Därför är satsning ­ ar på yrkeshögskola
               och liknande otroligt viktigt.
             </seg>
-            <seg n="ad292d56">
+          </u>
+          <u xml:id="i-8753b306d031d54f-8" prev="i-8753b306d031d54f-5" who="Q5711551">
+            <seg>
               Jag känner mig alltså trygg med den jobbpolitik som har förts,
               men den behöver naturligtvis vässas.
             </seg>
           </u>
-          <note type="speaker" n="0e7f27b7">
+          <note type="speaker">
             Anf. 4 SAILA QUICKLUND (M):
           </note>
-          <u who="Q4973765" xml:id="i-09c040d9d2bd8d55-1" n="275e3c0b">
-            <seg n="18e70541">
+          <u xml:id="i-8753b306d031d54f-9" next="i-8753b306d031d54f-10" who="Q4973765">
+            <seg>
               Fru talman! Regeringen stoltserar gärna med att sysselsättningsgraden
               är rekordhög i Sverige. Ja, det är den i många länder; det är
               ju högkonjunktur i Europa. Arbetsmarknadsministern skyllde dessutom
               så sent som i går regeringens misslyckande på den M- och KD-budget
               som nu har varit gällande i tre veckor. Notera: tre veckor!
             </seg>
-            <seg n="6746b1cb">
+          </u>
+          <u xml:id="i-8753b306d031d54f-10" prev="i-8753b306d031d54f-9" who="Q4973765">
+            <seg>
               Faktum är dock att vi har tappat placering efter placering med
               den socialdemokratiska regeringen, och min fråga är: Är det inte
               dags att faktiskt ta ansvar och erkänna regeringens misslyckande
               på det här området?
             </seg>
           </u>
-          <note type="speaker" n="67655030">
+          <note type="speaker">
             Anf. 5 Statsrådet TOMAS ENEROTH (S):
           </note>
-          <u who="Q5711551" xml:id="i-3e6be7c9a629efdc-1" n="8e54a422">
-            <seg n="d1cac967">
+          <u xml:id="i-8753b306d031d54f-11" next="i-8753b306d031d54f-13" who="Q5711551">
+            <seg>
               Fru talman! Vi tar ansvar. Vi tog ansvar under den förra mandatperio
               ­ den för att säkerställa att vi får den högsta sysselsättningen
               någonsin, och vi kommer nu att ta ansvar för att säkerställa att
@@ -178,24 +191,30 @@
               Det är så vi tillsammans med arbetsmarknadens parter och svenskt
               näringsliv hittar en möjlighet att få in ännu fler på arbetsmarknaden.
             </seg>
-            <seg n="4933e6f7">
+          </u>
+          <u xml:id="i-8753b306d031d54f-12" prev="i-8753b306d031d54f-11" who="Q5711551">
+            <seg>
               Jag känner mig alltså trygg i den utvecklingen – och jag noterar
               att det faktiskt kan tillföras mer resurser med en annan budget
               än den riksdagen har beslutat om.
             </seg>
-            <seg n="b48b56ea">
+          </u>
+          <u xml:id="i-8753b306d031d54f-13" prev="i-8753b306d031d54f-11" who="Q5711551">
+            <seg>
               Konsekvenserna av de nya reglerna för familjeåterförening
             </seg>
           </u>
-          <note type="speaker" n="326f9240">
+          <note type="speaker">
             Anf. 6 PAULA BIELER (SD):
           </note>
-          <u who="Q16162546" xml:id="i-8f9356cbf97864dc-0" n="30ef7303">
-            <seg n="0f4ec1ad">
+          <u xml:id="i-8753b306d031d54f-14" next="i-8753b306d031d54f-16" who="Q16162546">
+            <seg>
               Fru talman! Min fråga går till justitie- och migrationsminister
               Morgan Johansson.
             </seg>
-            <seg n="e81f882a">
+          </u>
+          <u xml:id="i-8753b306d031d54f-15" prev="i-8753b306d031d54f-14" who="Q16162546">
+            <seg>
               Jag hade äran att möta ministern även i morse, då vi diskuterade
               den familjeåterförening som har aviserats i januariöverenskommelsen.
               Jag no ­ terade i morse, och har noterat generellt i de diskussioner
@@ -206,18 +225,20 @@
               långa köer och brister i nästan hela vårt samhälls ­ system kan
               såklart diskuteras.
             </seg>
-            <seg n="637b6fc5">
+          </u>
+          <u xml:id="i-8753b306d031d54f-16" prev="i-8753b306d031d54f-14" who="Q16162546">
+            <seg>
               Jag undrar nu: Varför använder man siffran 8 000 när det gäller
               hur många som ska komma? Den baseras på en prognos som baserar
               sig på begränsade resurser – att man helt enkelt inte hinner fatta
               fler beslut än så.
             </seg>
           </u>
-          <note type="speaker" n="5865c429">
+          <note type="speaker">
             Anf. 7 Justitie- och migrationsminister MORGAN JOHANSSON (S):
           </note>
-          <u who="Q5887217" xml:id="i-402ade4f09bdcc62-0" n="91810ad0">
-            <seg n="d915ef26">
+          <u xml:id="i-8753b306d031d54f-17" next="i-8753b306d031d54f-18" who="Q5887217">
+            <seg>
               Fru talman! För det första menar jag att det inte finns anledning
               till något slags alarmism i den här frågan. Jag vet att det finns
               partier som gärna vill blåsa upp den. Jag var med om att ta Sverige
@@ -225,7 +246,9 @@
               i samma situation igen. Det kommer det här förslaget inte heller
               att innebära, även om man från en del partier försöker påstå det.
             </seg>
-            <seg n="c1b90d01">
+          </u>
+          <u xml:id="i-8753b306d031d54f-18" prev="i-8753b306d031d54f-17" who="Q5887217">
+            <seg>
               Detta handlar som sagt om en mycket begränsad grupp. Den bedömning
               vi har fått från Migrationsverket är att antalet som kommer genom
               familjeåterförening från den här gruppen kommer att öka med ungefär
@@ -236,11 +259,11 @@
               och viktig humanitär insats – som vi klarar av att göra.
             </seg>
           </u>
-          <note type="speaker" n="2f63faad">
+          <note type="speaker">
             Anf. 8 PAULA BIELER (SD):
           </note>
-          <u who="Q16162546" xml:id="i-8f9356cbf97864dc-1" n="30ef7303">
-            <seg n="632686b6">
+          <u xml:id="i-8753b306d031d54f-19" next="i-8753b306d031d54f-20" who="Q16162546">
+            <seg>
               Fru talman! Jag noterar att jag inte fick svar på min fråga,
               som rörde att siffran är baserad på att man har en begränsad budget.
               Det är mycket riktigt så att få kommer att få komma, eftersom
@@ -249,7 +272,9 @@
               gäller dem som kommer att söka asyl och vad gäller dem som kommer
               att ansöka om familjeåterförening.
             </seg>
-            <seg n="a3f06d79">
+          </u>
+          <u xml:id="i-8753b306d031d54f-20" prev="i-8753b306d031d54f-19" who="Q16162546">
+            <seg>
               I morse nämndes ock så id-kontrollerna kort, apropå alarmism.
               Vi har sett rapporter om att gränskontrollerna verkligen inte
               fungerar. Justitiedepartementet har svarat att man inte kan kommentera
@@ -257,11 +282,11 @@
               – inte förutsätta – att gränskontrollerna fungerar?
             </seg>
           </u>
-          <note type="speaker" n="af40645c">
+          <note type="speaker">
             Anf. 9 Justitie- och migrationsminister MORGAN JOHANSSON (S):
           </note>
-          <u who="Q5887217" xml:id="i-402ade4f09bdcc62-1" n="91810ad0">
-            <seg n="43b66734">
+          <u xml:id="i-8753b306d031d54f-21" next="i-8753b306d031d54f-23" who="Q5887217">
+            <seg>
               Fru talman! Vi ser ingen ökning av asylmottagningen i den delen.
               Det är snarare så att vi just nu har den lägsta a sylmottagningen
               i Sverige på 13 år, och det vi nu genomför kommer inte att innebära
@@ -269,25 +294,31 @@
               säger att detta inte kommer att innebära att vi är på väg in i
               någon ny flyktingkris.
             </seg>
-            <seg n="04c7312c">
+          </u>
+          <u xml:id="i-8753b306d031d54f-22" prev="i-8753b306d031d54f-21" who="Q5887217">
+            <seg>
               När det gäller gränskontrollerna har polisen nu dels mer pengar
               än någonsin att röra sig med, dels fler anställda än någonsin
               att röra sig med. Jag tycker att det är viktigt att resurserna
               fördelas på ett sådant sätt att man är beredd att stärka gränskontrollerna
               mer än vad man redan har gjort.
             </seg>
-            <seg n="1dca882d">
+          </u>
+          <u xml:id="i-8753b306d031d54f-23" prev="i-8753b306d031d54f-21" who="Q5887217">
+            <seg>
               Hot och trakasserier mot lantbrukare
             </seg>
           </u>
-          <note type="speaker" n="0e05844c">
+          <note type="speaker">
             Anf. 10 JONNY CATO HANSSON (C):
           </note>
-          <u who="Q19976447" xml:id="i-42db2230102b5f37-0" n="ff46701d">
-            <seg n="7e3cc8ca">
+          <u xml:id="i-8753b306d031d54f-24" next="i-8753b306d031d54f-27" who="Q19976447">
+            <seg>
               Fru talman! Jag har en fråga till justitieminister Morgan Johansson.
             </seg>
-            <seg n="426dcfa5">
+          </u>
+          <u xml:id="i-8753b306d031d54f-25" prev="i-8753b306d031d54f-24" who="Q19976447">
+            <seg>
               Det var med förtvivlan, ledsamhet och ren och skär ilska som
               jag i veckan tog del av Göteborgspostens granskning av hot och
               trakasserier mot våra lantbrukare. Granskningen visar på en rad
@@ -296,52 +327,64 @@
               utsättas för hot och trakasserier från extrema djurrättsaktivister
               är läget ytterst allvarligt.
             </seg>
-            <seg n="19234f51">
+          </u>
+          <u xml:id="i-8753b306d031d54f-26" prev="i-8753b306d031d54f-24" who="Q19976447">
+            <seg>
               Hot och våld i djurrättens namn är ett samhälls- och demokratiproblem,
               inte ett problem för enskilda företagare. Nu behövs konkreta åtgärder,
               som Centerpartiet efterfrågat.
             </seg>
-            <seg n="ba1bc126">
+          </u>
+          <u xml:id="i-8753b306d031d54f-27" prev="i-8753b306d031d54f-24" who="Q19976447">
+            <seg>
               Min fråga är om regeringen avser att vidta åtgärder för att komma
               till rätta med problemet. Och i så fall, vilka åtgärder?
             </seg>
           </u>
-          <note type="speaker" n="bf1e3ffb">
+          <note type="speaker">
             Anf. 11 Justitie- och migrationsminister MORGAN JOHANSSON (S):
           </note>
-          <u who="Q5887217" xml:id="i-402ade4f09bdcc62-2" n="91810ad0">
-            <seg n="ae17f529">
+          <u xml:id="i-8753b306d031d54f-28" next="i-8753b306d031d54f-31" who="Q5887217">
+            <seg>
               Fru talman! Jag tackar för frågan.
             </seg>
-            <seg n="15aab2cd">
+          </u>
+          <u xml:id="i-8753b306d031d54f-29" prev="i-8753b306d031d54f-28" who="Q5887217">
+            <seg>
               Jag hade förmånen att få sätta mig ned och träffa företrädare
               för Lantbrukarnas R iksförbund i samband med konferensen Folk
               och Försvar i Sälen för några veckor sedan. Huvudämnet var faktiskt
               de angrepp och trakasserier som lantbrukare råkar ut för – vi
               har sett en del uppmärksammade fall.
             </seg>
-            <seg n="1a457651">
+          </u>
+          <u xml:id="i-8753b306d031d54f-30" prev="i-8753b306d031d54f-28" who="Q5887217">
+            <seg>
               Vi har gjort en hel del. Vi har bland annat skärpt straffen för
               grovt olaga hot och skärpt synen på olaga hot. Vi har också sett
               till att vi sätter av ökade resurser till polisen på ett sådant
               sätt att de nu har mer pengar än någonsin. De är numera också
               uppe i över 20 000 poliser.
             </seg>
-            <seg n="ba9fe5bd">
+          </u>
+          <u xml:id="i-8753b306d031d54f-31" prev="i-8753b306d031d54f-28" who="Q5887217">
+            <seg>
               Det är viktigt för oss att markera att dessa resursförstärkningar
               måste komma hela landet till del och att de också måste kunna
               användas för att sätta in åtgärder mot denna typ av brottslighet.
             </seg>
           </u>
-          <note type="speaker" n="53ea92bc">
+          <note type="speaker">
             Anf. 12 JONNY CATO HANSSON (C):
           </note>
-          <u who="Q19976447" xml:id="i-42db2230102b5f37-1" n="ff46701d">
-            <seg n="2740859c">
+          <u xml:id="i-8753b306d031d54f-32" next="i-8753b306d031d54f-33" who="Q19976447">
+            <seg>
               Fru talman! Jag tackar för svaret, men det behövs fler konkreta
               åtgärder för att komma till rätta med problemet.
             </seg>
-            <seg n="c51f6caa">
+          </u>
+          <u xml:id="i-8753b306d031d54f-33" prev="i-8753b306d031d54f-32" who="Q19976447">
+            <seg>
               Centerpartiet har bland annat föreslagit att stoppa medel till
               våldsbejakande organisationer, att införa en särskild brottskod,
               att stärka skyddet för eftersöksjägare och att se över lagen om
@@ -349,11 +392,11 @@
               tänka sig att vidta?
             </seg>
           </u>
-          <note type="speaker" n="1d2171de">
+          <note type="speaker">
             Anf. 13 Justitie- och migrationsminister MORGAN JOHANSSON (S):
           </note>
-          <u who="Q5887217" xml:id="i-402ade4f09bdcc62-3" n="91810ad0">
-            <seg n="348785b8">
+          <u xml:id="i-8753b306d031d54f-34" next="i-8753b306d031d54f-36" who="Q5887217">
+            <seg>
               Fru talman! Jag är beredd att gå igenom alla de förslag som kan
               finnas i debatten för att se om vi kan göra någonting ytterligare
               i den här delen. Jag ser som sagt också väldigt allvarligt på
@@ -361,35 +404,45 @@
               ju kan innebära att enskilda råkar väldigt illa ut och kanske
               till slut inte kan fortsätta att bedriva sin verksamhet.
             </seg>
-            <seg n="af94ac4f">
+          </u>
+          <u xml:id="i-8753b306d031d54f-35" prev="i-8753b306d031d54f-34" who="Q5887217">
+            <seg>
               Jag är beredd att överväga ytterligare åtgärder, och självklart
               ska inga pengar gå till våldsbejakande organisationer – där tror
               jag att vi är helt överens.
             </seg>
-            <seg n="8f9560ae">
+          </u>
+          <u xml:id="i-8753b306d031d54f-36" prev="i-8753b306d031d54f-34" who="Q5887217">
+            <seg>
               Sjukförsäkringen
             </seg>
           </u>
-          <note type="speaker" n="469725c7">
+          <note type="speaker">
             Anf. 14 NOOSHI DADGOSTAR (V):
           </note>
-          <u who="Q18238235" xml:id="i-f2f5743bd28efbef-0" n="f162df84">
-            <seg n="93622c61">
+          <u xml:id="i-8753b306d031d54f-37" next="i-8753b306d031d54f-40" who="Q18238235">
+            <seg>
               Fru talman! Min fråga går till Tomas Eneroth.
             </seg>
-            <seg n="b35c48af">
+          </u>
+          <u xml:id="i-8753b306d031d54f-38" prev="i-8753b306d031d54f-37" who="Q18238235">
+            <seg>
               I regeringsförklaringen fick vi höra att sjukförsäkringen ska
               ge ekonomisk trygghet vid sjukdom. Jag undrar hur den nuvarande
               regeringen ska lösa den frågan.
             </seg>
-            <seg n="2cb67ccc">
+          </u>
+          <u xml:id="i-8753b306d031d54f-39" prev="i-8753b306d031d54f-37" who="Q18238235">
+            <seg>
               Människor känner sig i dag jagade och misstänkliggjorda när det
               gäller sjukförsäkringen. De blir ifrågasatta och kränkta av Försäkringskassan.
               Många har inte längre förtroende för sjukförsäkringen. En majoritet
               av metallarbetarna tror till exempel inte att de kan klara sin
               vardag om de skulle bli sjuka.
             </seg>
-            <seg n="49aa0a8e">
+          </u>
+          <u xml:id="i-8753b306d031d54f-40" prev="i-8753b306d031d54f-37" who="Q18238235">
+            <seg>
               Den borgerliga regeringen förstörde nästan sjukförsäkringen 2008
               och skapade regler som var så hårda att vi fick den hårdaste lagen
               i hela OECD. Problemet är att den nuvarande regeringen inte har
@@ -397,70 +450,86 @@
               Vad ska reger ­ ingen göra åt detta?
             </seg>
           </u>
-          <note type="speaker" n="202bb29d">
+          <note type="speaker">
             Anf. 15 Statsrådet TOMAS ENEROTH (S):
           </note>
-          <u who="Q5711551" xml:id="i-3e6be7c9a629efdc-2" n="8e54a422">
-            <seg n="91058564">
+          <u xml:id="i-8753b306d031d54f-41" next="i-8753b306d031d54f-46" who="Q5711551">
+            <seg>
               Fru talman! Jag tackar för frågan och för engagemanget.
             </seg>
-            <seg n="b28322ab">
+          </u>
+          <u xml:id="i-8753b306d031d54f-42" prev="i-8753b306d031d54f-41" who="Q5711551">
+            <seg>
               Under den förra mandatperioden gjordes många insatser för att
               utveck ­ la och förbättra arbetet när det gäller den ökade ohälsan,
               inte minst den ökade psykiska ohälsan. Arbetsmiljöarbetet förstärktes,
               och det gjordes goda insatser för att förstärka rätten till rehabilitering.
             </seg>
-            <seg n="6a24a0c0">
+          </u>
+          <u xml:id="i-8753b306d031d54f-43" prev="i-8753b306d031d54f-41" who="Q5711551">
+            <seg>
               Men det råder ingen tvekan om att det också finns brister, i
               och med att många känner att de inte fullt ut får det bemötande
               de vill ha.
             </seg>
-            <seg n="af04db87">
+          </u>
+          <u xml:id="i-8753b306d031d54f-44" prev="i-8753b306d031d54f-41" who="Q5711551">
+            <seg>
               Därför behöver vi utveckla sjukförsäkringen och säkerställa att
               man får en ökad möjlighet och rätt till rehabilitering samt att
               man får rätt till den ersättning man ska ha. Det innebär att vi
               både behöver utveckla regelverket i sjukförsäkringen och se över
               hur arbetsmarknaden kan fungera bättre.
             </seg>
-            <seg n="2b7d3780">
+          </u>
+          <u xml:id="i-8753b306d031d54f-45" prev="i-8753b306d031d54f-41" who="Q5711551">
+            <seg>
               Vi har, som jag nämnde tidigare, en hög sysselsättning. Detta
               leder till att grupper med svagare förankring kommer in på arbetsmarknaden.
               Då måste också arbetsmiljöarbetet förbättras så att inte fler
               slås ut.
             </seg>
-            <seg n="131be826">
+          </u>
+          <u xml:id="i-8753b306d031d54f-46" prev="i-8753b306d031d54f-41" who="Q5711551">
+            <seg>
               Här finns väldigt mycket mer att utveckla , och det kommer vi
               att ta tag i.
             </seg>
           </u>
-          <note type="speaker" n="3983d768">
+          <note type="speaker">
             Anf. 16 NOOSHI DADGOSTAR (V):
           </note>
-          <u who="Q18238235" xml:id="i-f2f5743bd28efbef-1" n="f162df84">
-            <seg n="e81fe5ea">
+          <u xml:id="i-8753b306d031d54f-47" next="i-8753b306d031d54f-49" who="Q18238235">
+            <seg>
               Fru talman! Kan jag få Tomas Eneroths ord på att det kommer att
               bli enklare att till exempel få sjukersättning och att reglerna
               kommer att bli humanare under denna mandatperiod?
             </seg>
-            <seg n="cda60355">
+          </u>
+          <u xml:id="i-8753b306d031d54f-48" prev="i-8753b306d031d54f-47" who="Q18238235">
+            <seg>
               Sedan Annika Strandhäll införde kravet på minskade sjuktal har
               avslagen tredubblats. Det är inte rimligt att vi har så hårda
               regler och att vi sticker ut i hela västvärlden med dessa hårda
               regler. Människor måste få sin sjukersättning när de blir sjuka.
             </seg>
-            <seg n="ca780bc7">
+          </u>
+          <u xml:id="i-8753b306d031d54f-49" prev="i-8753b306d031d54f-47" who="Q18238235">
+            <seg>
               Allvarligt sjuka kvinnor som har arbetat hela sitt liv får inte
               sjukersättning i dag. Vad svarar Tomas Eneroth på det?
             </seg>
           </u>
-          <note type="speaker" n="689661a5">
+          <note type="speaker">
             Anf. 17 Statsrådet TOMAS ENEROTH (S):
           </note>
-          <u who="Q5711551" xml:id="i-3e6be7c9a629efdc-3" n="8e54a422">
-            <seg n="b81b8533">
+          <u xml:id="i-8753b306d031d54f-50" next="i-8753b306d031d54f-53" who="Q5711551">
+            <seg>
               Fru talman! Det finns två delar i detta.
             </seg>
-            <seg n="e1541ed8">
+          </u>
+          <u xml:id="i-8753b306d031d54f-51" prev="i-8753b306d031d54f-50" who="Q5711551">
+            <seg>
               Först ska vi försöka få en utveckling i arbetslivet som gör att
               man inte drabbas av sjukdom. Vi ska försöka förbättra arbetsmiljön
               och få ett hållbart arbetsliv så att man inte drabbas av ohälsa,
@@ -468,25 +537,31 @@
               och stora möjligheter för parterna att med omställning och rehabiliteringsinsatser
               hjälpa personen i fråga.
             </seg>
-            <seg n="a658b9e7">
+          </u>
+          <u xml:id="i-8753b306d031d54f-52" prev="i-8753b306d031d54f-50" who="Q5711551">
+            <seg>
               När det sedan gäller ersättning ska man få rätt till sådan. Det
               är viktigt att den prövas på ett rättssäkert sätt. Där finns det
               brister som har uppmärksammats. Det måste säkerställas att Försäkringskassan
               får rätt underlag och att bedömningen görs på ett rättssäkert
               sätt. På det sättet får vi en trygg och långsiktigt hållbar sjukförsäkring.
             </seg>
-            <seg n="214027f5">
+          </u>
+          <u xml:id="i-8753b306d031d54f-53" prev="i-8753b306d031d54f-50" who="Q5711551">
+            <seg>
               Avsaknaden av en äldreminister
             </seg>
           </u>
-          <note type="speaker" n="957c2270">
+          <note type="speaker">
             Anf. 18 MICHAEL ANEFUR (KD):
           </note>
-          <u who="Q5556973" xml:id="i-f26755e9eec26e62-0" n="338fa2cd">
-            <seg n="3f74638a">
+          <u xml:id="i-8753b306d031d54f-54" next="i-8753b306d031d54f-57" who="Q5556973">
+            <seg>
               Fru talman! Jag vill ställa en fråga till statsrådet Eneroth.
             </seg>
-            <seg n="dd5857d1">
+          </u>
+          <u xml:id="i-8753b306d031d54f-55" prev="i-8753b306d031d54f-54" who="Q5556973">
+            <seg>
               Äldrefrågorna dominerade valrörelsen på oerhört många sätt. De
               äldre behövs längre i arbetslivet för välfärdens skull. Äldre
               behöver mer omsorg och sjukvård. Drygt 300 000 äldre har hemtjänst
@@ -496,23 +571,27 @@
               äldre, och antalet så kallade fattigpensionärer ökar och är alldeles
               för stort.
             </seg>
-            <seg n="640e19db">
+          </u>
+          <u xml:id="i-8753b306d031d54f-56" prev="i-8753b306d031d54f-54" who="Q5556973">
+            <seg>
               Inget av detta föranledde statsministern att tillsätta en äldreminister.
               Det är för mig helt obegripligt.
             </seg>
-            <seg n="173a5f49">
+          </u>
+          <u xml:id="i-8753b306d031d54f-57" prev="i-8753b306d031d54f-54" who="Q5556973">
+            <seg>
               Min fråga till statsrådet är vad statsrådet anser ligger bakom
               denna nedprioritering av de äldre.
             </seg>
           </u>
-          <note type="speaker" n="68e76b9d">
+          <note type="speaker">
             Anf. 19 Statsrådet TOMAS ENEROTH (S):
           </note>
-          <u who="Q5711551" xml:id="i-3e6be7c9a629efdc-4" n="8e54a422">
-            <seg n="2320a104">
-              Fru talman! Tack, Michael Anefur, för frågan och för engagemanget!
-            </seg>
-            <seg n="a8aafc02">
+          <note>
+            Fru talman! Tack, Michael Anefur, för frågan och för engagemanget!
+          </note>
+          <u xml:id="i-8753b306d031d54f-58" next="i-8753b306d031d54f-59" who="Q5711551">
+            <seg>
               Det ankommer inte på mig att ha synpunkter på hur regeringsbildning
               ­ en går till eller vilka statsrådsposter som finns. Däremot känner
               jag mig trygg i regeringens starka engagemang för de äldres livssituation,
@@ -522,34 +601,38 @@
               genom att höja statsbidragen till kommuner och regioner så att
               äldreomsorgen och sjukvården för äldre kan utvecklas.
             </seg>
-            <seg n="e48cd4d5">
+          </u>
+          <u xml:id="i-8753b306d031d54f-59" prev="i-8753b306d031d54f-58" who="Q5711551">
+            <seg>
               Det råder ingen tvekan om att vi har stora brister. Vi måste
               säkerställa att det finns resurser till en god äldreomsorg. Det
               gjordes under den förra mandatperioden, och arbetet för en trygg
               ålderdom kommer att fortsätta.
             </seg>
           </u>
-          <note type="speaker" n="4c22af67">
+          <note type="speaker">
             Anf. 20 MICHAEL ANEFUR (KD):
           </note>
-          <u who="Q5556973" xml:id="i-f26755e9eec26e62-1" n="338fa2cd">
-            <seg n="4c6b35d4">
+          <u xml:id="i-8753b306d031d54f-60" next="i-8753b306d031d54f-61" who="Q5556973">
+            <seg>
               Fru talman! Det är möjligt att statsrådet Eneroth inte har haft
               med den uteblivna tillsättningen av en äldreminister att göra,
               men detta är ändå en av de allra viktigaste frågorna. I den förra
               regeringen tillsattes en framtidsminister – det ansågs prioriterat,
               men en äldreminister anses inte prioriterat.
             </seg>
-            <seg n="1ba9e467">
+          </u>
+          <u xml:id="i-8753b306d031d54f-61" prev="i-8753b306d031d54f-60" who="Q5556973">
+            <seg>
               Återigen: Det är obegripligt. Men jag får ändå tacka statsrådet
               för svaret.
             </seg>
           </u>
-          <note type="speaker" n="57dfd1c2">
+          <note type="speaker">
             Anf. 21 Statsrådet TOMAS ENEROTH (S):
           </note>
-          <u who="Q5711551" xml:id="i-3e6be7c9a629efdc-5" n="8e54a422">
-            <seg n="ea0e75eb">
+          <u xml:id="i-8753b306d031d54f-62" next="i-8753b306d031d54f-64" who="Q5711551">
+            <seg>
               Fru talman! Återigen: Det viktiga är faktiskt vad man gör. I
               detta fall kan vi konstatera att det redan under den förra mandatperioden
               gjordes stora insatser för att säkra insatserna inom äldreomsorgen
@@ -558,73 +641,91 @@
               stöd för byggandet av bostäder till äldre. Det arbetet kommer
               naturligtvis till stor del att fortsätta.
             </seg>
-            <seg n="1840d3b8">
+          </u>
+          <u xml:id="i-8753b306d031d54f-63" prev="i-8753b306d031d54f-62" who="Q5711551">
+            <seg>
               Det viktiga är att vi på allvar ser till att vi klarar att få
               kompetent personal inom äldreomsorgen och att vi – inte minst
               tillsammans med det civila samhället – möter den utmaning som
               finns vad gäller allt fler ensamma äldre. Där har vi ett gemensamt
               engagemang, och jag ser fram emot att samarbeta kring detta.
             </seg>
-            <seg n="df45644d">
+          </u>
+          <u xml:id="i-8753b306d031d54f-64" prev="i-8753b306d031d54f-62" who="Q5711551">
+            <seg>
               Ett nationellt uppföljningssystem för hemmasittare
             </seg>
           </u>
-          <note type="speaker" n="7838ad3b">
+          <note type="speaker">
             Anf. 22 ROGER HADDAD (L):
           </note>
-          <u who="Q5781437" xml:id="i-3407307b065bb220-0" n="f87243be">
-            <seg n="6d9338c4">
+          <u xml:id="i-8753b306d031d54f-65" next="i-8753b306d031d54f-68" who="Q5781437">
+            <seg>
               Fru talman! Min fråga går till statsrådet Anna Ekström, som jag
               också vill gratulera till det nya uppdraget som utbildningsminister.
             </seg>
-            <seg n="f738c56d">
+          </u>
+          <u xml:id="i-8753b306d031d54f-66" prev="i-8753b306d031d54f-65" who="Q5781437">
+            <seg>
               Utbildningsutskottet kallade i dag på Liberalernas begäran till
               sig Specialpedagogiska skolmyndigheten för att ta upp det stora
               samhällsproblemet med så kallade hemmasittare, alltså ungdomar
               – elever – som på grund av bristande stöd på skolan väljer att
               inte gå i skolan utan av olika anledningar stannar kvar hemma.
             </seg>
-            <seg n="cefd25e8">
+          </u>
+          <u xml:id="i-8753b306d031d54f-67" prev="i-8753b306d031d54f-65" who="Q5781437">
+            <seg>
               Orsaken och bakgrunden varierar, men brister i stöd, avsaknad
               av anpassad undervisning, mobbning samt en stökig situation och
               arbetsmiljö även utanför klassrummet är några av orsakerna.
             </seg>
-            <seg n="649ac781">
+          </u>
+          <u xml:id="i-8753b306d031d54f-68" prev="i-8753b306d031d54f-65" who="Q5781437">
+            <seg>
               Det som framkom tydligt, fru talman, vid utskottets utfrågning
               i dag var att vi egentligen inte vet hur omfattande problemet
               är.
             </seg>
-            <seg n="5160d375">
-              Min fråga till regeringen är: Avser regeringen att ta initiativ
-              till ett na ­ tionellt uppföljningssystem kring hemmasittande
-              elever?
-            </seg>
           </u>
-          <note type="speaker" n="8ec7846c">
+          <note>
+            Min fråga till regeringen är: Avser regeringen att ta initiativ
+            till ett na ­ tionellt uppföljningssystem kring hemmasittande
+            elever?
+          </note>
+          <note type="speaker">
             Anf. 23 Utbildningsminister ANNA EKSTRÖM (S):
           </note>
-          <u who="Q4946204" xml:id="i-119ea671e0d6dd22-0" n="89fba834">
-            <seg n="1cd8ddb1">
+          <u xml:id="i-8753b306d031d54f-69" next="i-8753b306d031d54f-73" who="Q4946204">
+            <seg>
               Fru talman! Tack, Roger Haddad, både för gratulationen och för
               frågan! Det är en väldigt viktig fråga.
             </seg>
-            <seg n="6fa6e2e2">
+          </u>
+          <u xml:id="i-8753b306d031d54f-70" prev="i-8753b306d031d54f-69" who="Q4946204">
+            <seg>
               Att vara hemmasittare har ett starkt samband med att så småningom
               inte klara skolan. Det kan låta som ett självklart påpekande,
               men siffrorna talar ett mycket tydligt språk.
             </seg>
-            <seg n="e30e8c93">
+          </u>
+          <u xml:id="i-8753b306d031d54f-71" prev="i-8753b306d031d54f-69" who="Q4946204">
+            <seg>
               Vi vet alla hur viktigt det är att ha en fullständig gymnasieutbildning
               för att klara sig bra här i livet, för att kunna ta jobb, studera
               vidare och delta i samhällsdebatten etcetera. Sambandet mellan
               att vara hemmasittare och att inte klara detta är väldigt starkt,
               så det finns all anledning att verkligen ha fokus på det här problemet.
             </seg>
-            <seg n="0a05b979">
+          </u>
+          <u xml:id="i-8753b306d031d54f-72" prev="i-8753b306d031d54f-69" who="Q4946204">
+            <seg>
               Det finns gamla undersökningar och också förslag som ligger i
               utredningar som handlar om att säkerställa ett uppföljningsansvar.
             </seg>
-            <seg n="38322176">
+          </u>
+          <u xml:id="i-8753b306d031d54f-73" prev="i-8753b306d031d54f-69" who="Q4946204">
+            <seg>
               Jag kommer att återkomma så fort frågan är färdigberedd i Regeringskansliet.
               Jag kan också lova att jag kommer att ha ett tätt och nära samarbete
               med Roger Haddad och hans partivänner i den här frågan, eftersom
@@ -632,57 +733,67 @@
               fram tillsammans.
             </seg>
           </u>
-          <note type="speaker" n="7f67adcf">
+          <note type="speaker">
             Anf. 24 ROGER HADDAD (L):
           </note>
-          <u who="Q5781437" xml:id="i-3407307b065bb220-1" n="f87243be">
-            <seg n="0c187999">
+          <u xml:id="i-8753b306d031d54f-74" next="i-8753b306d031d54f-76" who="Q5781437">
+            <seg>
               Fru talman! Tack, statsrådet! Problemet med hemmasittare måste
               angripas på nationell nivå. Det hjälper inte med lokala stödinsatser.
               Vi har i januariavtalet med regeringen fått in skrivningar om
               att regelverket kring inkludering måste ses över, att vi behöver
               mindre undervisningsgrupper och fler resursskolor.
             </seg>
-            <seg n="16297d64">
+          </u>
+          <u xml:id="i-8753b306d031d54f-75" prev="i-8753b306d031d54f-74" who="Q5781437">
+            <seg>
               Som generaldirektören sa i dag handlar det ibland mer om placering
               än inkludering. Det är ett gigantiskt misslyckande att minst 5
               500 barn är utanför.
             </seg>
-            <seg n="a21441f4">
+          </u>
+          <u xml:id="i-8753b306d031d54f-76" prev="i-8753b306d031d54f-74" who="Q5781437">
+            <seg>
               När kommer den nationella statistiken, statsrådet?
             </seg>
           </u>
-          <note type="speaker" n="27455233">
+          <note type="speaker">
             Anf. 25 Utbildningsminister ANNA EKSTRÖM (S):
           </note>
-          <u who="Q4946204" xml:id="i-119ea671e0d6dd22-1" n="89fba834">
-            <seg n="5e58f373">
+          <u xml:id="i-8753b306d031d54f-77" next="i-8753b306d031d54f-79" who="Q4946204">
+            <seg>
               Fru talman! Det är alldeles riktigt, som generaldirektören för
               SPS sa vid hearingen, att det behövs mycket lokalt stöd. Min bedömning
               är också att det behövs mer nationellt stöd för att säkra att
               det finns möjligheter lokalt att ge det stöd som enskilda elever
               och grupper behöver.
             </seg>
-            <seg n="c4f56e8d">
+          </u>
+          <u xml:id="i-8753b306d031d54f-78" prev="i-8753b306d031d54f-77" who="Q4946204">
+            <seg>
               Jag kan i dag, tre dagar in i den nya ämbetsperioden, inte svara
               på den konkreta fråga som Roger Haddad ställer. Men jag kan försäkra
               Roger Haddad om att det här är en fråga som regeringen kommer
               att ta på mycket stort allvar och att vi också säkrar att vi har
               ett gott samarbete med riksdagen i frågan.
             </seg>
-            <seg n="3f6a3beb">
+          </u>
+          <u xml:id="i-8753b306d031d54f-79" prev="i-8753b306d031d54f-77" who="Q4946204">
+            <seg>
               EU-uppgörelsen om villkoren för yrkesförare
             </seg>
           </u>
-          <note type="speaker" n="f51e5287">
+          <note type="speaker">
             Anf. 26 DENIS BEGIC (S):
           </note>
-          <u who="Q71465386" xml:id="i-4e7a5eaed9227d4f-0" n="c223f32a">
-            <seg n="1186dfde">
+          <u xml:id="i-8753b306d031d54f-80" next="i-8753b306d031d54f-82" who="Q71465386">
+            <seg>
               Fru talman! Min fråga går till infrastrukturminister Tomas Eneroth.
               Först vill jag gratulera till det förnyade förtroendet.
             </seg>
-            <seg n="145d70a2">
+          </u>
+          <u xml:id="i-8753b306d031d54f-81" prev="i-8753b306d031d54f-80" who="Q71465386">
+            <seg>
               Förra regeringen gjorde väldigt mycket för att få ordning och
               reda på våra svenska vägar. Jag har varit uppvaktad av både åkerinäringen
               och facken, många gånger för att diskutera hur Sverige ska göra
@@ -690,7 +801,9 @@
               hur illa det har varit för de människor som har kört lastbilar
               på svenska vägar, ofta från länder i östra Europa.
             </seg>
-            <seg n="8d1bf172">
+          </u>
+          <u xml:id="i-8753b306d031d54f-82" prev="i-8753b306d031d54f-80" who="Q71465386">
+            <seg>
               Det har inte bara handlat om att få lika konkurrensvillkor, utan
               det har handlat om att dessa människor ska få bättre sociala villkor.
               Nu har vi en EU-uppgörelse på plats. Då blir min fråga till statsrådet:
@@ -698,14 +811,14 @@
               lagen efterföljas och kontrolleras?
             </seg>
           </u>
-          <note type="speaker" n="11fc8048">
+          <note type="speaker">
             Anf. 27 Statsrådet TOMAS ENEROTH (S):
           </note>
-          <u who="Q5711551" xml:id="i-3e6be7c9a629efdc-6" n="8e54a422">
-            <seg n="c58a4f0e">
-              Fru talman! Tack, Denis, för frågan och för gratulationen!
-            </seg>
-            <seg n="1851b5d1">
+          <note>
+            Fru talman! Tack, Denis, för frågan och för gratulationen!
+          </note>
+          <u xml:id="i-8753b306d031d54f-83" next="i-8753b306d031d54f-84" who="Q5711551">
+            <seg>
               Jag uppskattar verkligen engagemanget när det gäller ordning
               och reda på våra vägar. Det är en av regeringens och mina hjärtefrågor,
               eftersom vi inte stillatigande kan se på när lastbilschaufförer,
@@ -715,7 +828,9 @@
               med illojal konkurrens. Därför har vi gjort flera insatser för
               att förbättra villkoren.
             </seg>
-            <seg n="939eba81">
+          </u>
+          <u xml:id="i-8753b306d031d54f-84" prev="i-8753b306d031d54f-83" who="Q5711551">
+            <seg>
               Natten mellan den 3 och 4 december fick vi en historisk överenskommelse
               mellan EU:s ministrar om ett nytt mobilitetspaket. Det ska nu
               implementeras efter godkännande i parlamentet och trilogen. Då
@@ -726,32 +841,36 @@
               inom transportbranschen.
             </seg>
           </u>
-          <note type="speaker" n="bc93715e">
+          <note type="speaker">
             Anf. 28 DENIS BEGIC (S):
           </note>
-          <u who="Q71465386" xml:id="i-4e7a5eaed9227d4f-1" n="c223f32a">
-            <seg n="7bc40c18">
+          <u xml:id="i-8753b306d031d54f-85" next="i-8753b306d031d54f-86" who="Q71465386">
+            <seg>
               Fru talman! Jag tackar för svaret. Det känns jättebra att vi
               äntligen får nya regler på plats. Men hur ser statsrådet på framtiden?
               Är det fler åtgärder som vi skulle behöva för att stärka den svenska
               åkerinäringen men också sociala villkor för de arbetare som kör
               lastbilar?
             </seg>
-            <seg n="a978c6f4">
+          </u>
+          <u xml:id="i-8753b306d031d54f-86" prev="i-8753b306d031d54f-85" who="Q71465386">
+            <seg>
               Fru talman! Jag vill också säga att vi bör satsa på järnväg mellan
-              Helsingfors och Oslo.
+              Stockholm och Oslo.
             </seg>
           </u>
-          <note type="speaker" n="fcb1b82f">
+          <note type="speaker">
             Anf. 29 Statsrådet TOMAS ENEROTH (S):
           </note>
-          <u who="Q5711551" xml:id="i-3e6be7c9a629efdc-7" n="8e54a422">
-            <seg n="b2314098">
+          <u xml:id="i-8753b306d031d54f-87" next="i-8753b306d031d54f-89" who="Q5711551">
+            <seg>
               Fru talman! Jag tackar Denis Begic för tipset om järnväg. Det
               är många som har önskemål om det. Det kan jag förstå – det är
               viktigt – och vi gör stora järnvägssatsningar framöver.
             </seg>
-            <seg n="092b9bbc">
+          </u>
+          <u xml:id="i-8753b306d031d54f-88" prev="i-8753b306d031d54f-87" who="Q5711551">
+            <seg>
               Att vi har fått en överenskommelse på europeisk nivå är väldigt
               viktigt. Den ska implementeras. Den kommer att kunna säkerställa
               att vi inte får illojal lönekonkurrens utan sjysta villkor på
@@ -762,25 +881,31 @@
               ­ port. Det kommer att ge goda möjligheter till en bra åkerinäring
               framöver.
             </seg>
-            <seg n="9759d3f4">
+          </u>
+          <u xml:id="i-8753b306d031d54f-89" prev="i-8753b306d031d54f-87" who="Q5711551">
+            <seg>
               Tågens punktlighet
             </seg>
           </u>
-          <note type="speaker" n="1a83b875">
+          <note type="speaker">
             Anf. 30 EMMA BERGINGER (MP):
           </note>
-          <u who="Q57168687" xml:id="i-deef5d6a9b1ec83a-0" n="164f78ff">
-            <seg n="883577c3">
+          <u xml:id="i-8753b306d031d54f-90" next="i-8753b306d031d54f-93" who="Q57168687">
+            <seg>
               Fru talman! Min fråga går till statsrådet Tomas Eneroth.
             </seg>
-            <seg n="2fa72549">
+          </u>
+          <u xml:id="i-8753b306d031d54f-91" prev="i-8753b306d031d54f-90" who="Q57168687">
+            <seg>
               Nyligen presenterades statistik över punktligheten för tåg för
               år 2018. För persontågen var punktligheten, det vill säga andelen
               tåg som ankom till sin slutstation senast fem minuter efter tidtabell,
               87,8 procent. Punktligheten 2018 var därför sämre än de föregående
               fem åren, då punktlighe ­ ten låg på över 90 procent.
             </seg>
-            <seg n="e3726a7b">
+          </u>
+          <u xml:id="i-8753b306d031d54f-92" prev="i-8753b306d031d54f-90" who="Q57168687">
+            <seg>
               Många resenärer oroar sig för att tågen inte går i tid. Enligt
               en Sifo-undersökning har 27 procent av svenskarna någon gång valt
               bort tåget som färdmedel av rädsla för förseningar. Även om man
@@ -788,31 +913,37 @@
               faktiskt kom fram högst 15 mi ­ nuter för sent innebär tågförseningarna
               en stor olägenhet och osäkerhet för resenärerna.
             </seg>
-            <seg n="15f40954">
+          </u>
+          <u xml:id="i-8753b306d031d54f-93" prev="i-8753b306d031d54f-90" who="Q57168687">
+            <seg>
               Därför undrar jag vad ministern avser att göra för att komma
               till rätta med problemet med tågförseningar och att resenärer
               väljer bort tåget på grund av bristande punktlighet?
             </seg>
           </u>
-          <note type="speaker" n="c2379466">
+          <note type="speaker">
             Anf. 31 Statsrådet TOMAS ENEROTH (S):
           </note>
-          <note n="891aeb73">
+          <note>
             Fru talman! Tack, Emma Berginger, för frågan!
           </note>
-          <u who="Q5711551" xml:id="i-4eba3cd3f33bf861-0" n="8e54a422">
-            <seg n="5683b309">
+          <u xml:id="i-8753b306d031d54f-94" next="i-8753b306d031d54f-97" who="Q5711551">
+            <seg>
               Det är klart att det inte är acceptabelt med en utveckling mot
               minskad punktlighet i tågtrafiken.
             </seg>
-            <seg n="89e9d49d">
+          </u>
+          <u xml:id="i-8753b306d031d54f-95" prev="i-8753b306d031d54f-94" who="Q5711551">
+            <seg>
               Vi ska komma ihåg att det har skett en dramatisk ökning i tågresandet.
               Både svenska folket och svenska företag vill åka väldigt mycket
               mer tåg. Det har varit en dramatisk ökning de senaste 15 åren
               som inte har mötts av motsvarande satsningar på nyinvestering
               i järnväg eller på järnvägsunderhåll.
             </seg>
-            <seg n="23661201">
+          </u>
+          <u xml:id="i-8753b306d031d54f-96" prev="i-8753b306d031d54f-94" who="Q5711551">
+            <seg>
               Därför har vi presenterat en 700-miljarderssatsning på infrastruktur,
               den största järnvägssatsningen i modern tid, med stora insatser
               för att förbättra järnvägsunderhållet. Det innebär att punktligheten
@@ -822,17 +953,19 @@
               säkerställa att man i god tid får reda på när man har möjlighet
               att komma fram och vilka de alternativa resvägarna är.
             </seg>
-            <seg n="5dab4bf7">
+          </u>
+          <u xml:id="i-8753b306d031d54f-97" prev="i-8753b306d031d54f-94" who="Q5711551">
+            <seg>
               Det kommer att vara en tuff uppgift framöver med de stora investeringar
               som görs, men det som hägrar är en bättre punktlighet och ökat
               förtroende för järnvägstrafiken.
             </seg>
           </u>
-          <note type="speaker" n="8059e71f">
+          <note type="speaker">
             Anf. 32 EMMA BERGINGER (MP):
           </note>
-          <u who="Q57168687" xml:id="i-deef5d6a9b1ec83a-1" n="164f78ff">
-            <seg n="146bc3f6">
+          <u xml:id="i-8753b306d031d54f-98" who="Q57168687">
+            <seg>
               Fru talman! Jag ser oerhört positivt på a tt regeringen har avsatt
               de 700 miljarderna. Jag tycker också att det är väldigt positivt
               att det är en så pass stark efterfrågan på tågresor. Men det är
@@ -841,11 +974,11 @@
               ändå går i tid. Vid en jämförelse med flyget står tåget sig väl.
             </seg>
           </u>
-          <note type="speaker" n="c9d52433">
+          <note type="speaker">
             Anf. 33 Statsrådet TOMAS ENEROTH (S):
           </note>
-          <u who="Q5711551" xml:id="i-3e6be7c9a629efdc-8" n="8e54a422">
-            <seg n="c0e24055">
+          <u xml:id="i-8753b306d031d54f-99" next="i-8753b306d031d54f-100" who="Q5711551">
+            <seg>
               Fru talman! Det är alldeles sant. Jämfört med många andra trafikslag
               har tåget en hög tillförlitlighet. Men för dem som pendlar dagligen
               är det inte acceptabelt att drabbas av återkommande förseningar.
@@ -853,34 +986,40 @@
               Det kommer också att innebära att pendeltåg och godståg får bättre
               möjligheter att komma fram.
             </seg>
-            <seg n="15f6c2d9">
+          </u>
+          <u xml:id="i-8753b306d031d54f-100" prev="i-8753b306d031d54f-99" who="Q5711551">
+            <seg>
               Det blir stora satsningar på järnväg framöver, så det är en ljusning
               i sikte.
             </seg>
-            <seg n="87780aa9">
-              Åtgärder för att skydda lantbrukare mot djurrättsaktivisters
-              brott
-            </seg>
           </u>
-          <note type="speaker" n="6d8be373">
+          <note>
+            Åtgärder för att skydda lantbrukare mot djurrättsaktivisters
+            brott
+          </note>
+          <note type="speaker">
             Anf. 34 TOBIAS BILLSTRÖM (M):
           </note>
-          <u who="Q3112958" xml:id="i-57e420dad275e84e-0" n="c7c92f1c">
-            <seg n="6d244147">
+          <u xml:id="i-8753b306d031d54f-101" next="i-8753b306d031d54f-103" who="Q3112958">
+            <seg>
               Fru talman! De senaste dagarna har vi kunnat läsa i medierna
               om hur djurrättsaktivister hotar och trakasserar Sveriges lantbrukare
               och djur ­ ägare. Förra året visade LRF: s egen undersökning att
               hela fyra av tio lant ­ brukare utsatts för brott. D et är en
               skrämmande hög siffra.
             </seg>
-            <seg n="4ef172ff">
+          </u>
+          <u xml:id="i-8753b306d031d54f-102" prev="i-8753b306d031d54f-101" who="Q3112958">
+            <seg>
               Det är dags att ta h otet från djurrättsaktivisterna på allvar.
               Brotten begås inte sällan på gårdar där de drabbade bor med sina
               familjer , v ilket skapar en mycket stor otrygghet och utsatthet.
               Våra svenska lantbrukare måste få det rättsliga skydd som de har
               rätt till . A nnars sviker staten sin del av samhällskontraktet.
             </seg>
-            <seg n="2665c21f">
+          </u>
+          <u xml:id="i-8753b306d031d54f-103" prev="i-8753b306d031d54f-101" who="Q3112958">
+            <seg>
               Moderaterna har i flera år drivit på för att regeringen ska a
               gera i denna fråga , men problemen kvarstår. Min fråga till justitieminister
               Morgan Johansson är därför : Vilka åtgärder avser justitieministern
@@ -888,11 +1027,11 @@
               brott s om begås av djurrättsaktivister?
             </seg>
           </u>
-          <note type="speaker" n="b6b9c23f">
+          <note type="speaker">
             Anf. 35 Justitie- och migrationsminister MORGAN JOHANSSON (S):
           </note>
-          <u who="Q5887217" xml:id="i-402ade4f09bdcc62-4" n="91810ad0">
-            <seg n="3ba8bc46">
+          <u xml:id="i-8753b306d031d54f-104" next="i-8753b306d031d54f-106" who="Q5887217">
+            <seg>
               Fru talman! S om jag sa i ett tidigare frågesvar träffa de jag
               LRF, L antbrukarnas Riksförbund , i Sälen för ett par veckor sedan
               i samband med en konferens . D är gick vi igenom vilka eventuella
@@ -900,7 +1039,9 @@
               jag är den som vi genomför när det gäller att expandera polisen
               och avsätta stora resurser, som vi gör nu.
             </seg>
-            <seg n="0aa139c9">
+          </u>
+          <u xml:id="i-8753b306d031d54f-105" prev="i-8753b306d031d54f-104" who="Q5887217">
+            <seg>
               S vensk polis har fler anställda nu än vad man någonsin haft
               tidigare , och man har också mer resurser ä n man någonsin haft
               tidigare . Det är viktigt att markera att dessa resurser måste
@@ -908,7 +1049,9 @@
               gå till botten med de eventuella trakasserier och brott som begås
               mot exempelvis lantbrukare .
             </seg>
-            <seg n="a6b8e3ca">
+          </u>
+          <u xml:id="i-8753b306d031d54f-106" prev="i-8753b306d031d54f-104" who="Q5887217">
+            <seg>
               Jag är fast bestämd om att det ta är en typ av brottslighet som
               vi måste vara beredd a att prioritera och be kämpa. S om näringsidkare
               måste man kunna bedriva sin verksamhet i fred utan att behöva
@@ -917,14 +1060,16 @@
               kampen mot sådan kriminalitet.
             </seg>
           </u>
-          <note type="speaker" n="0ac12100">
+          <note type="speaker">
             Anf. 36 TOBIAS BILLSTRÖM (M):
           </note>
-          <u who="Q3112958" xml:id="i-57e420dad275e84e-1" n="c7c92f1c">
-            <seg n="8fd78644">
+          <u xml:id="i-8753b306d031d54f-107" next="i-8753b306d031d54f-109" who="Q3112958">
+            <seg>
               Fru talman! Jag noterar vad justitieministern säger.
             </seg>
-            <seg n="f4e2d765">
+          </u>
+          <u xml:id="i-8753b306d031d54f-108" prev="i-8753b306d031d54f-107" who="Q3112958">
+            <seg>
               För egen del tror jag att det är helt avgörande att titta på
               det straffrättsliga skyddet för de m som utsätts för hot och skadegörelse
               och annan typ av brott slighet av djurrättsaktivister men också
@@ -933,20 +1078,24 @@
               och som verkligen lyckas utreda b rot ten så att de ssa individer
               kan lagföras.
             </seg>
-            <seg n="c44fb75c">
+          </u>
+          <u xml:id="i-8753b306d031d54f-109" prev="i-8753b306d031d54f-107" who="Q3112958">
+            <seg>
               Frågan är: Kommer ministern att säkerställa att Sveriges lantbrukare
               och djurbönder får det skydd de behöver?
             </seg>
           </u>
-          <note type="speaker" n="f4e3b3da">
+          <note type="speaker">
             Anf. 37 Justitie- och migrationsminister MORGAN JOHANSSON (S):
           </note>
-          <u who="Q5887217" xml:id="i-402ade4f09bdcc62-5" n="91810ad0">
-            <seg n="596eaf35">
+          <u xml:id="i-8753b306d031d54f-110" next="i-8753b306d031d54f-112" who="Q5887217">
+            <seg>
               Fru talman! Vi kommer att föra en fortsatt dialog, inte minst
               med LRF, om vilka ytterligare åtgärder som kan vidtas.
             </seg>
-            <seg n="aeba46cb">
+          </u>
+          <u xml:id="i-8753b306d031d54f-111" prev="i-8753b306d031d54f-110" who="Q5887217">
+            <seg>
               Jag pekade tidigare på hur vi har skärpt straffen, bland annat
               för grovt olaga hot, och också skärpt synen på olaga hot. Vi har
               ökat möjligheterna till kameraövervakning så att man i efterhand
@@ -954,55 +1103,65 @@
               detta skulle vara fallet. Det finns säkert ytterligare åtgärder
               som vi kan vidta.
             </seg>
-            <seg n="3a092660">
+          </u>
+          <u xml:id="i-8753b306d031d54f-112" prev="i-8753b306d031d54f-110" who="Q5887217">
+            <seg>
               Jag är fast besluten att fortsätta dialogen och stärka kampen
               för detta.
             </seg>
-            <seg n="9ce23042">
-              Gemensamma nordiska insatser mot matchfixning
-            </seg>
           </u>
-          <note type="speaker" n="07b9984f">
+          <note>
+            Gemensamma nordiska insatser mot matchfixning
+          </note>
+          <note type="speaker">
             Anf. 38 ANGELIKA BENGTSSON (SD):
           </note>
-          <u who="Q18237639" xml:id="i-b51c9b492ac4391b-0" n="9118b0c9">
-            <seg n="2b4fa122">
+          <u xml:id="i-8753b306d031d54f-113" next="i-8753b306d031d54f-116" who="Q18237639">
+            <seg>
               Fru talman! Statsrådet Linde! Idrottsfrågor har länge varit ett
               område som inte har uppm ärksammats politiskt, vilket har efter
               frågat s från många håll .
             </seg>
-            <seg n="94d6ae53">
+          </u>
+          <u xml:id="i-8753b306d031d54f-114" prev="i-8753b306d031d54f-113" who="Q18237639">
+            <seg>
               Idrottsrörelsen lockar många barn till rörelse , vilket ger effekter
               på andra områden , inte minst inom utbildning och folkhälsa .
               I drottsrörelsen engagerar även många föräldrar med allt vad det
               innebär av att koka kaffe eller skjutsa barn till olika idrotter
               .
             </seg>
-            <seg n="bccbdf22">
+          </u>
+          <u xml:id="i-8753b306d031d54f-115" prev="i-8753b306d031d54f-113" who="Q18237639">
+            <seg>
               T yvärr har vi på sistone fått höra om problematiken kring matchfixning
               , och spelar e har även åtalats för de t t a. I Norden har vi
               sedan i höstas en överenskommelse mellan de nordiska idrottsförbunden
               om att personer som blivit åtalad e för matchfixning ett land
               inte kan spela i ett annat .
             </seg>
-            <seg n="3e524759">
+          </u>
+          <u xml:id="i-8753b306d031d54f-116" prev="i-8753b306d031d54f-113" who="Q18237639">
+            <seg>
               Vilka andra förslag finns på det ta område på de t nordiska planet
               ? Vill man att det ta ska bli l ag ? V ilka andra överenskommelse
               r kan vi förvänta oss på det nordiska planet inom detta område?
             </seg>
           </u>
-          <note type="speaker" n="87953ca6">
+          <note type="speaker">
             Anf. 39 Statsrådet ANN LINDE (S):
           </note>
-          <u who="Q18243775" xml:id="i-ebdea955d212b924-0" n="8e54a422">
-            <seg n="6cde68dd">
-              Fru talman! Tack för frågan, Angelika Bengtsson!
-            </seg>
-            <seg n="1ae5a498">
+          <note>
+            Fru talman! Tack för frågan, Angelika Bengtsson!
+          </note>
+          <u xml:id="i-8753b306d031d54f-117" next="i-8753b306d031d54f-119" who="Q18243775">
+            <seg>
               M atchfixning är ett stort problem som s amhället måste ta på
               s törsta allvar .
             </seg>
-            <seg n="74f70153">
+          </u>
+          <u xml:id="i-8753b306d031d54f-118" prev="i-8753b306d031d54f-117" who="Q18243775">
+            <seg>
               Tyvärr måste jag erkänna , precis som statsrådet Ekström, att
               jag tre dagar in i mitt nya ansvarsområde n ordiska frågor ännu
               inte har hunnit sätta mig in i just de nordiska frågor som gäller
@@ -1011,24 +1170,30 @@
               just de tta och även se vilka förslag som kommer så att vi kan
               hantera det.
             </seg>
-            <seg n="ae7061b4">
+          </u>
+          <u xml:id="i-8753b306d031d54f-119" prev="i-8753b306d031d54f-117" who="Q18243775">
+            <seg>
               J ag håller med ledamoten om att det är en viktig fråga som samhället
               behöver engagera sig i.
             </seg>
           </u>
-          <note type="speaker" n="44461f55">
+          <note type="speaker">
             Anf. 40 ANGELIKA BENGTSSON (SD):
           </note>
-          <u who="Q18237639" xml:id="i-b51c9b492ac4391b-1" n="9118b0c9">
-            <seg n="1e701e7d">
+          <u xml:id="i-8753b306d031d54f-120" next="i-8753b306d031d54f-122" who="Q18237639">
+            <seg>
               Fru talman! Tack, statsrådet!
             </seg>
-            <seg n="3f7e6a69">
+          </u>
+          <u xml:id="i-8753b306d031d54f-121" prev="i-8753b306d031d54f-120" who="Q18237639">
+            <seg>
               Jag ser fram emot det kommande arbetet på detta område, för det
               behövs verkligen. A llt förebyggande som man kan arbeta med är
               alltid bra .
             </seg>
-            <seg n="7a3b5f38">
+          </u>
+          <u xml:id="i-8753b306d031d54f-122" prev="i-8753b306d031d54f-120" who="Q18237639">
+            <seg>
               Sedan måste jag också fråga eller ge ett tips angående OS- frågan
               , som är högst aktuell: K ommer man att prata om att anordna ett
               nordiskt OS tillsammans , gemensamt ? O m inte är det ett tips
@@ -1036,36 +1201,40 @@
               ett gemensamt nordiskt OS.
             </seg>
           </u>
-          <note type="speaker" n="5dde2566">
+          <note type="speaker">
             Anf. 41 Statsrådet ANN LINDE (S):
           </note>
-          <u who="Q18243775" xml:id="i-ebdea955d212b924-1" n="8e54a422">
-            <seg n="6c1293f8">
+          <u xml:id="i-8753b306d031d54f-123" next="i-8753b306d031d54f-124" who="Q18243775">
+            <seg>
               Fru talman! Nu är jag verkligen ute på hal is, men jag vet att
-              Helsingfors söker vinter-OS. Jag tror inte att det i nuläget finns
+              Stockholm söker vinter-OS. Jag tror inte att det i nuläget finns
               några planer på att söka ett gemensamt nordiskt OS.
             </seg>
-            <seg n="8ede988f">
+          </u>
+          <u xml:id="i-8753b306d031d54f-124" prev="i-8753b306d031d54f-123" who="Q18243775">
+            <seg>
               Nu på måndag och tisdag ska jag till Helsingfors tillsammans
               med statsministern och ha överläggningar med nordiska ministrar
               och andra. Och varför inte – kanske är detta något som kan tas
               upp, om inte annat för att lätta upp stämningen?
             </seg>
-            <seg n="4d7f42c5">
-              (Applåder)
-            </seg>
-            <seg n="37507ef6">
-              Verktyg mot tvångsgifte
-            </seg>
           </u>
-          <note type="speaker" n="20d415cc">
+          <note>
+            (Applåder)
+          </note>
+          <note>
+            Verktyg mot tvångsgifte
+          </note>
+          <note type="speaker">
             Anf. 42 DÉSIRÉE PETHRUS (KD):
           </note>
-          <u who="Q4972645" xml:id="i-4ac00a5bce4ae90d-0" n="0b75411d">
-            <seg n="e2b2e6d3">
+          <u xml:id="i-8753b306d031d54f-125" next="i-8753b306d031d54f-128" who="Q4972645">
+            <seg>
               Fru talman! Jag vill ställa en fråga till statsrådet Morgan Johansson.
             </seg>
-            <seg n="8a0a6c4b">
+          </u>
+          <u xml:id="i-8753b306d031d54f-126" prev="i-8753b306d031d54f-125" who="Q4972645">
+            <seg>
               Den senaste veckan har det runtom i landet varit minnesstunder
               för Fadime, som hedersm ördades 2002 . E n viktig fråga i sammanhanget
               är tvångsgifte . Kristdemokraterna under flera år väckt motioner
@@ -1075,26 +1244,32 @@
               år sedan hade vi en inte rpellations debatt , och då fanns det
               inte med. I ngenting har hänt sedan de ss.
             </seg>
-            <seg n="14ee2b0c">
+          </u>
+          <u xml:id="i-8753b306d031d54f-127" prev="i-8753b306d031d54f-125" who="Q4972645">
+            <seg>
               Sedan finns det en fråga om en särskild skyddsorder , som också
               finns i England, där man inom 48 timmar måste kunna visa va r
               barnet befinner sig och uppvisa ba rnet . A nnars kan man häktas
               som förälder , om man inte talar om va r barnet befinner sig .
             </seg>
-            <seg n="fee699bf">
+          </u>
+          <u xml:id="i-8753b306d031d54f-128" prev="i-8753b306d031d54f-125" who="Q4972645">
+            <seg>
               Kan vi få en enhet mot tvångsgifte och en sådan särskild skyddsorder
               i Sverige?
             </seg>
           </u>
-          <note type="speaker" n="b0d32152">
+          <note type="speaker">
             Anf. 43 Justitie- och migrationsminister MORGAN JOHANSSON (S):
           </note>
-          <u who="Q5887217" xml:id="i-402ade4f09bdcc62-6" n="91810ad0">
-            <seg n="2b5e2a1f">
+          <u xml:id="i-8753b306d031d54f-129" next="i-8753b306d031d54f-131" who="Q5887217">
+            <seg>
               Fru talman! Jag ser verkligen fram emot att vi skulle kunna få
               det.
             </seg>
-            <seg n="600d78e9">
+          </u>
+          <u xml:id="i-8753b306d031d54f-130" prev="i-8753b306d031d54f-129" who="Q5887217">
+            <seg>
               Det är inte helt sant att det inte har hänt något sedan vi hade
               en inter ­ pellationsdebatt för några år sedan. Tvärtom har vi
               gett en särskild utre ­ dare, Mari Heidenborg , i uppdrag att
@@ -1106,47 +1281,57 @@
               för att ex ­ empelvis giftas bort. Det är förslag där det har
               lämnats ett betänkande som vi nu kommer att jobba vidare med.
             </seg>
-            <seg n="6e2779f8">
+          </u>
+          <u xml:id="i-8753b306d031d54f-131" prev="i-8753b306d031d54f-129" who="Q5887217">
+            <seg>
               Detta finns i januariavtalet mellan regeringspartierna och Centern
               och Liberalerna som en mycket viktig punkt. Detta är ett av de
               viktigaste och mest prioriterade områden som vi kommer att jobba
               med under denna mandatperiod.
             </seg>
           </u>
-          <note type="speaker" n="9151d1bd">
+          <note type="speaker">
             Anf. 44 DÉSIRÉE PETHRUS (KD):
           </note>
-          <u who="Q4972645" xml:id="i-4ac00a5bce4ae90d-1" n="0b75411d">
-            <seg n="de038d0d">
+          <u xml:id="i-8753b306d031d54f-132" next="i-8753b306d031d54f-135" who="Q4972645">
+            <seg>
               Fru talman! Tack för svaret!
             </seg>
-            <seg n="4cc9bf2e">
+          </u>
+          <u xml:id="i-8753b306d031d54f-133" prev="i-8753b306d031d54f-132" who="Q4972645">
+            <seg>
               D et är bra om v i kristdemokrater kan skjuta regeringen fram
               för oss i dessa frågor och att det nu börjar hända någonting .
             </seg>
-            <seg n="8e9f974a">
+          </u>
+          <u xml:id="i-8753b306d031d54f-134" prev="i-8753b306d031d54f-132" who="Q4972645">
+            <seg>
               R egeringen säger ofta att man vill göra mycket , men det brådskar
               ju. Frågan är vilka resurser man har av satt . Vi har till exempel
               i våra tidigare budget ar lagt 10 miljoner för att till exempel
               NOA ska kunna börja jobba konkret med de ssa frågor och sätta
               ihop ett myndighets samverkansarbete .
             </seg>
-            <seg n="c910f0b9">
+          </u>
+          <u xml:id="i-8753b306d031d54f-135" prev="i-8753b306d031d54f-132" who="Q4972645">
+            <seg>
               V i undrar : N är får vi se några resurser ? K ommer ni att avsätta
               medel till en sådan verksamhet och i så fall när?
             </seg>
           </u>
-          <note type="speaker" n="4c9f0bab">
+          <note type="speaker">
             Anf. 45 Justitie- och migrationsminister MORGAN JOHANSSON (S):
           </note>
-          <u who="Q5887217" xml:id="i-402ade4f09bdcc62-7" n="91810ad0">
-            <seg n="7910c000">
+          <u xml:id="i-8753b306d031d54f-136" next="i-8753b306d031d54f-138" who="Q5887217">
+            <seg>
               Fru talman! Detta ingår som sagt i januariavtalet mellan regeringspartierna
               och Centerpartiet och Liberalerna. Detta är en av våra mest prioriterade
               frågor och kommer att vara det också när vi diskuterar budget
               framöver.
             </seg>
-            <seg n="618e8897">
+          </u>
+          <u xml:id="i-8753b306d031d54f-137" prev="i-8753b306d031d54f-136" who="Q5887217">
+            <seg>
               Jag ser framför mig att vi kommer att kunna lägga fram förslag
               både om straffskärpningar när det gäller de som begår brott med
               hedersmotiv och om särskild brottsrubricering, som vi behöver
@@ -1155,24 +1340,30 @@
               mer pengar än någonsin redan nu. Ökade åtaganden innebär att man
               också behöver vara beredd att satsa mer pengar.
             </seg>
-            <seg n="a7969918">
+          </u>
+          <u xml:id="i-8753b306d031d54f-138" prev="i-8753b306d031d54f-136" who="Q5887217">
+            <seg>
               Regeringens uteblivna fördömande av Irans angrepp mot Israel
             </seg>
           </u>
-          <note type="speaker" n="6e003537">
+          <note type="speaker">
             Anf. 46 JOAR FORSSELL (L):
           </note>
-          <u who="Q26305112" xml:id="i-f35cbc93b61952a4-0" n="152111cf">
-            <seg n="bb1e4c97">
+          <u xml:id="i-8753b306d031d54f-139" next="i-8753b306d031d54f-141" who="Q26305112">
+            <seg>
               Fru talman! Min fråga riktar sig till statsrådet Tomas Eneroth.
             </seg>
-            <seg n="c73e08bb">
+          </u>
+          <u xml:id="i-8753b306d031d54f-140" prev="i-8753b306d031d54f-139" who="Q26305112">
+            <seg>
               Den senaste tiden har den islamistiska terrordiktaturen Iran
               trappat upp aggressionerna mot Mellanösterns enda demokrati Israel.
               Häromdagen utförde Iran ett angrepp, en attack, med godkännande
               från den syriska regimen mot en israelisk skidort.
             </seg>
-            <seg n="d4a349fb">
+          </u>
+          <u xml:id="i-8753b306d031d54f-141" prev="i-8753b306d031d54f-139" who="Q26305112">
+            <seg>
               Statsministern har lovat att se till att relationerna med Israel
               blir bättre. I 73-punktsprogrammet och i regeringsförklaringen
               talas det om att jobba för demokrati och mot extremism. Därför
@@ -1182,11 +1373,11 @@
               krig för att tillintetgöra Israel.
             </seg>
           </u>
-          <note type="speaker" n="612a0a77">
+          <note type="speaker">
             Anf. 47 Statsrådet TOMAS ENEROTH (S):
           </note>
-          <u who="Q5711551" xml:id="i-3e6be7c9a629efdc-9" n="8e54a422">
-            <seg n="71d278e5">
+          <u xml:id="i-8753b306d031d54f-142" next="i-8753b306d031d54f-143" who="Q5711551">
+            <seg>
               Fru talman! Jag tackar Joar Forssell för frågan. Det är naturligtvis
               en ytterst oroande utveckling som vi har sett under en längre
               tid mellan Iran och Israel. Jag noterade att Margot Wallström
@@ -1196,7 +1387,9 @@
               för diskussioner, inte minst inom ramen för säkerhetsrådsengagemanget
               som vi har haft från svensk sida.
             </seg>
-            <seg n="e6e4a7e7">
+          </u>
+          <u xml:id="i-8753b306d031d54f-143" prev="i-8753b306d031d54f-142" who="Q5711551">
+            <seg>
               Den nu aktuella händelseutvecklingen har jag i dag inga kommentarer
               till. Jag vet att detta är ett arbete där man både inom Europeiska
               unionen och inom FN är angelägna om att minska konfliktnivåerna.
@@ -1204,11 +1397,11 @@
               utrikesminister Wallström i denna del.
             </seg>
           </u>
-          <note type="speaker" n="43d0e67d">
+          <note type="speaker">
             Anf. 48 JOAR FORSSELL (L):
           </note>
-          <u who="Q26305112" xml:id="i-f35cbc93b61952a4-1" n="152111cf">
-            <seg n="c4cf6989">
+          <u xml:id="i-8753b306d031d54f-144" who="Q26305112">
+            <seg>
               Fru talman! Jag tackar statsrådet för detta. När en terrorregims
               högsta flygvapenchef säger att man förbereder sig på ett beslutsamt
               krig för att förgöra en demokrati är det mycket märkligt att en
@@ -1220,11 +1413,11 @@
               om attacker från Iran mot Mellanösterns enda demokrati?
             </seg>
           </u>
-          <note type="speaker" n="3e7cf276">
+          <note type="speaker">
             Anf. 49 Statsrådet TOMAS ENEROTH (S):
           </note>
-          <u who="Q5711551" xml:id="i-3e6be7c9a629efdc-10" n="8e54a422">
-            <seg n="90deb9e2">
+          <u xml:id="i-8753b306d031d54f-145" who="Q5711551">
+            <seg>
               Fru talman! Jag tackar Joar Forssell för detta. Ingen ska tveka
               om det engagemang som denna regering har för mänskliga rättigheter
               eller för att stå upp för demokratiers rättigheter. Jag tror snarare
@@ -1234,15 +1427,15 @@
               utrikesministern. Jag hoppas att Joar Forssell kan ha en bra dialog
               och få bra svar och ett bra engagemang från vår utrikesminister.
             </seg>
-            <seg n="b96ab916">
-              Konsekvenserna av USA:s sanktioner mot Kubal i Sundsvall
-            </seg>
           </u>
-          <note type="speaker" n="a60c3a22">
+          <note>
+            Konsekvenserna av USA:s sanktioner mot Kubal i Sundsvall
+          </note>
+          <note type="speaker">
             Anf. 50 ÅSA ERIKSSON (S):
           </note>
-          <u who="Q9393603" xml:id="i-0f31e4665aed0f95-0" n="1245c1b6">
-            <seg n="94e8a0c4">
+          <u xml:id="i-8753b306d031d54f-146" next="i-8753b306d031d54f-147" who="Q9393603">
+            <seg>
               Fru talman! Min fråga går till handelsminister Ann Linde. Handel
               är otroligt viktigt för Sverige. 1,4 miljoner svenskar kan gå
               till jobbet varje dag tack vare vår export. Vi har haft mycket
@@ -1251,18 +1444,20 @@
               ned hela sin verksamhet på grund av USA:s sanktionslista eftersom
               företaget har ett ryskt ägande.
             </seg>
-            <seg n="1e1a2990">
+          </u>
+          <u xml:id="i-8753b306d031d54f-147" prev="i-8753b306d031d54f-146" who="Q9393603">
+            <seg>
               Om jag har förstått saken rätt har saker och ting ordnat sig.
               Men jag skulle gärna vilja höra statsrådet berätta hur läget är
               och vilka åtgärder som den svenska regeringen har vidtagit för
               att rädda dessa nästan 500 arbetstillfällen i Sundsvall.
             </seg>
           </u>
-          <note type="speaker" n="32d07966">
+          <note type="speaker">
             Anf. 51 Statsrådet ANN LINDE (S):
           </note>
-          <u who="Q18243775" xml:id="i-ebdea955d212b924-2" n="8e54a422">
-            <seg n="9c8ec87d">
+          <u xml:id="i-8753b306d031d54f-148" next="i-8753b306d031d54f-150" who="Q18243775">
+            <seg>
               Fru talman! Jag tackar Åsa Eriksson för frågan. Detta är en oerhört
               viktig fråga. Den handlar om hur allt fler sanktioner får konsekvenser
               som inte är tänkta att drabba tredje man. Detta är sanktioner
@@ -1271,7 +1466,9 @@
               och totalt 2 000 anställda som berörs får det en konsekvens som
               inte var tänkt.
             </seg>
-            <seg n="581983fc">
+          </u>
+          <u xml:id="i-8753b306d031d54f-149" prev="i-8753b306d031d54f-148" who="Q18243775">
+            <seg>
               Så fort vi fick reda på detta skrev vi brev till den amerikanska
               administrationen. De svarade direkt att det inte var tänkt att
               det skulle drabba svenska hardworking workers, som de sa. Därefter
@@ -1280,29 +1477,33 @@
               på Kubal i Sundsvall. Man kanske kan hitta ett sätt att minska
               till exempel denna oligarks ägande i ägarbolaget.
             </seg>
-            <seg n="1bde4b53">
+          </u>
+          <u xml:id="i-8753b306d031d54f-150" prev="i-8753b306d031d54f-148" who="Q18243775">
+            <seg>
               Fru talman! Jag får fortsätta i mitt nästa inlägg.
             </seg>
           </u>
-          <note type="speaker" n="85d0ba67">
+          <note type="speaker">
             Anf. 52 ÅSA ERIKSSON (S):
           </note>
-          <u who="Q9393603" xml:id="i-0f31e4665aed0f95-1" n="1245c1b6">
-            <seg n="b2c5913c">
+          <u xml:id="i-8753b306d031d54f-151" who="Q9393603">
+            <seg>
               Fru talman! Vi har inte hört slutet än, men jag skulle gärna
               vilja veta hur läget är i dag och om det finns fler åtgärder än
               detta brev som reger ­ ingen har vidtagit. Och finns det andra
               sådana fall som vi behöver vara oroliga för i närtid?
             </seg>
           </u>
-          <note type="speaker" n="645f0551">
+          <note type="speaker">
             Anf. 53 Statsrådet ANN LINDE (S):
           </note>
-          <u who="Q18243775" xml:id="i-ebdea955d212b924-3" n="8e54a422">
-            <seg n="bb1df65d">
+          <u xml:id="i-8753b306d031d54f-152" next="i-8753b306d031d54f-153" who="Q18243775">
+            <seg>
               Fru talman! Jag tackar Åsa Eriksson för detta.
             </seg>
-            <seg n="2937e2a8">
+          </u>
+          <u xml:id="i-8753b306d031d54f-153" prev="i-8753b306d031d54f-152" who="Q18243775">
+            <seg>
               Det har gått bra – so far. Vi gjorde en hel rad insatser. Jag
               åkte till USA och talade med finansdepartementet och utrikesdepartementet.
               Magdalena Andersson talade med finansministern, Mikael Damberg
@@ -1311,26 +1512,30 @@
               sköter sig kan sanktioner återinföras igen. Detta är en mycket
               viktig fråga.
             </seg>
-            <seg n="93f25626">
-              Nordisk samordning vid EU:s etablering av myndigheter
-            </seg>
           </u>
-          <note type="speaker" n="95510702">
+          <note>
+            Nordisk samordning vid EU:s etablering av myndigheter
+          </note>
+          <note type="speaker">
             Anf. 54 HANS WALLMARK (M):
           </note>
-          <u who="Q5650816" xml:id="i-78730ec3c252633a-0" n="1048cb79">
-            <seg n="4b8ce645">
+          <u xml:id="i-8753b306d031d54f-154" next="i-8753b306d031d54f-157" who="Q5650816">
+            <seg>
               Fru talman! Statsrådet Ann Linde kunde ha stått kvar i talarstolen,
               för jag vänder mig till henne.
             </seg>
-            <seg n="1557899c">
+          </u>
+          <u xml:id="i-8753b306d031d54f-155" prev="i-8753b306d031d54f-154" who="Q5650816">
+            <seg>
               Låt mig först i närvaro av Ängelholmssonen Morgan Johansson hälsa
               Ann Linde välkommen i sin nya roll som handelsminister och ansvarig
               även för det nordiska samarbetet. Då är det gott att tala med
               en helsingborgare som ändå förstår lite grann av hur det ser ut
               i världen.
             </seg>
-            <seg n="15a1c0f8">
+          </u>
+          <u xml:id="i-8753b306d031d54f-156" prev="i-8753b306d031d54f-154" who="Q5650816">
+            <seg>
               Jag ska ta upp en fråga som en tid har varit inflammerad i det
               nordiska samarbetet och gällde placeringen av EU:s läkemedelsmyndighet
               EMA. Som av en händelse var statsrådet Ann Linde då som Europaminister
@@ -1342,44 +1547,50 @@
               varit till fördel och gagn också för Skåne, eftersom det finns
               en intimitet mellan Skåne och Danmark.
             </seg>
-            <seg n="f72d5047">
+          </u>
+          <u xml:id="i-8753b306d031d54f-157" prev="i-8753b306d031d54f-154" who="Q5650816">
+            <seg>
               Därför är min fråga till den nordiska samarbetsministern: Kommer
               man att försöka samordna denna typ av myndighetsetableringar bättre
               än vad som tidigare har skett?
             </seg>
           </u>
-          <note type="speaker" n="5869f219">
+          <note type="speaker">
             Anf. 55 Statsrådet ANN LINDE (S):
           </note>
-          <u who="Q18243775" xml:id="i-ebdea955d212b924-4" n="8e54a422">
-            <seg n="c120d55a">
+          <u xml:id="i-8753b306d031d54f-158" next="i-8753b306d031d54f-160" who="Q18243775">
+            <seg>
               Fru talman! Jag tackar Hans Wallmark för frågan, gratulationen
               och särskilt de fina orden om skåningar; det uppskattas.
             </seg>
-            <seg n="fe80fe8f">
+          </u>
+          <u xml:id="i-8753b306d031d54f-159" prev="i-8753b306d031d54f-158" who="Q18243775">
+            <seg>
               När EU:s läkemedelsmyndighet EMA skulle flyttas från Storbritannien
               till ett annat EU-land kom de nordiska länderna redan från början
               överens om, innan de hade påbörjat kampanjerna, att varje land
               skulle köra själv. De nordiska länderna skulle inte ha en gemensam
               nordisk kandidatur, utan varje land skulle köra själv.
             </seg>
-            <seg n="db21d007">
+          </u>
+          <u xml:id="i-8753b306d031d54f-160" prev="i-8753b306d031d54f-158" who="Q18243775">
+            <seg>
               Sedan försökte vi ha kampanjer så gott det gick, och vi hade
-              ett stort engagemang i Sverige – i Helsingfors och Uppsala som
-              var vårt förslag till var den skulle ligga. Tyvärr kom vi inte
-              fram. Vi kan konstatera att Danmark inte röstade på oss i den
-              första omgången. Men ingen vet hur vi röstade sedan, eftersom
-              vi valde att hålla det hemligt med anledning av utrikessekretess.
+              ett stort engagemang i Sverige – i Stockholm och Uppsala som var
+              vårt förslag till var den skulle ligga. Tyvärr kom vi inte fram.
+              Vi kan konstatera att Danmark inte röstade på oss i den första
+              omgången. Men ingen vet hur vi röstade sedan, eftersom vi valde
+              att hålla det hemligt med anledning av utrikessekretess.
             </seg>
           </u>
-          <note type="speaker" n="d788f449">
+          <note type="speaker">
             Anf. 56 HANS WALLMARK (M):
           </note>
-          <u who="Q5650816" xml:id="i-78730ec3c252633a-1" n="1048cb79">
-            <seg n="3d3bbed0">
+          <u xml:id="i-8753b306d031d54f-161" who="Q5650816">
+            <seg>
               Fru talman! Jag kan förstå att man vill köra själv, som statsrådet
-              säger, i den första omgången. Då fanns Helsingfors och Uppsala,
-              men då fanns även Köpenhamn. Men när Helsingfors och Uppsala försvann
+              säger, i den första omgången. Då fanns Stockholm och Uppsala,
+              men då fanns även Köpenhamn. Men när Stockholm och Uppsala försvann
               tycker jag att det skulle vara rätt naturligt och i grunden en
               instinkt hos oss nordbor att sluta upp bakom någon annan. I valet
               mellan Milano och Köpenhamn – i valet mellan att arbetstillfällen
@@ -1387,15 +1598,15 @@
               är valet mycket enkelt för mig. Jag hoppas att den nordiska samarbetsministern
               har en annan inställning än den tidigare Eu ­ ropaansvariga ministern.
             </seg>
-            <seg n="4d7f42c5">
-              (Applåder)
-            </seg>
           </u>
-          <note type="speaker" n="70e61316">
+          <note>
+            (Applåder)
+          </note>
+          <note type="speaker">
             Anf. 57 Statsrådet ANN LINDE (S):
           </note>
-          <u who="Q18243775" xml:id="i-ebdea955d212b924-5" n="8e54a422">
-            <seg n="3318f2a0">
+          <u xml:id="i-8753b306d031d54f-162" next="i-8753b306d031d54f-164" who="Q18243775">
+            <seg>
               Fru talman! Det är danskarna som har sagt att vi har röstat på
               Italien. Men de har ingen aning om vem vi röstade på och om vi
               röstade på dem. Det krävdes att sex extra länder röstade på Danmark
@@ -1403,45 +1614,55 @@
               vi inte röstade på dem, men även om vi hade lagt en röst till
               hade de inte kommit upp över huvud taget.
             </seg>
-            <seg n="7103ac48">
+          </u>
+          <u xml:id="i-8753b306d031d54f-163" prev="i-8753b306d031d54f-162" who="Q18243775">
+            <seg>
               Jag tycker att frågan är lite ansvarslöst hanterad när man säger
               att detta skulle ha berott på Sverige, för det är inte sant.
             </seg>
-            <seg n="a2d8e496">
+          </u>
+          <u xml:id="i-8753b306d031d54f-164" prev="i-8753b306d031d54f-162" who="Q18243775">
+            <seg>
               Eftergymnasial utbildning för särskoleelever
             </seg>
           </u>
-          <note type="speaker" n="12f2a937">
+          <note type="speaker">
             Anf. 58 SOLVEIG ZANDER (C):
           </note>
-          <u who="Q4990884" xml:id="i-675ff5d34db22cea-0" n="2a5c7d6b">
-            <seg n="93e43bbf">
+          <u xml:id="i-8753b306d031d54f-165" next="i-8753b306d031d54f-167" who="Q4990884">
+            <seg>
               Fru talman! Min fråga går till utbildningsministern. Den handlar
               om hur ministern tänker ta sig an och titta på den komvuxutredning
               som nu finns och som belyser att det ska finnas eftergymnasial
               utbildning för sär ­ skoleelever.
             </seg>
-            <seg n="549680a3">
+          </u>
+          <u xml:id="i-8753b306d031d54f-166" prev="i-8753b306d031d54f-165" who="Q4990884">
+            <seg>
               Detta är otroligt viktigt för den här gruppen. De behöver ha
               bra utbildningar för att kunna få ett bra arbete, för att kunna
               flytta hemifrån och för att kunna försörja sig själva och inte
               vara beroende av sina föräldrar, som många faktiskt är. Det handlar
               helt enkelt om att kunna klara av vuxenlivet på egen hand.
             </seg>
-            <seg n="a1057e0d">
+          </u>
+          <u xml:id="i-8753b306d031d54f-167" prev="i-8753b306d031d54f-165" who="Q4990884">
+            <seg>
               En fråga i sammanhanget kan vara: Finns det någon tanke om finansiering
               för utbildningssamordnaren? Hur tänker ministern ta sig an frågan?
             </seg>
           </u>
-          <note type="speaker" n="7132e4cc">
+          <note type="speaker">
             Anf. 59 Utbildningsminister ANNA EKSTRÖM (S):
           </note>
-          <u who="Q4946204" xml:id="i-119ea671e0d6dd22-2" n="89fba834">
-            <seg n="69631ee3">
+          <u xml:id="i-8753b306d031d54f-168" next="i-8753b306d031d54f-170" who="Q4946204">
+            <seg>
               Fru talman! Tack, Solveig Zander, för en fråga som är viktig
               på riktigt!
             </seg>
-            <seg n="0e060237">
+          </u>
+          <u xml:id="i-8753b306d031d54f-169" prev="i-8753b306d031d54f-168" who="Q4946204">
+            <seg>
               Ibland blir man som minister lite ledsen när man får tillkännagivanden
               från riksdagen. Men när jag var ganska ny som gymnasie- och kunskapslyftsminister
               fick jag ett tillkännagivande från riksdagen som verkligen värmde
@@ -1453,7 +1674,9 @@
               inte möjlighet att söka vidare till yrkeshögskola, folkhögskola
               eller högre utbildning.
             </seg>
-            <seg n="18dd5f60">
+          </u>
+          <u xml:id="i-8753b306d031d54f-170" prev="i-8753b306d031d54f-168" who="Q4946204">
+            <seg>
               Tillkännagivandet resulterade i att Komvuxutredningen fick tilläggsdirektiv
               som den nu har levererat efter. Förslagen som lämnades av utredningen
               är nu under beredning i Regeringskansliet, så jag kan inte säga
@@ -1461,16 +1684,18 @@
               frågan är väldig angelägen.
             </seg>
           </u>
-          <note type="speaker" n="097258fe">
+          <note type="speaker">
             Anf. 60 SOLVEIG ZANDER (C):
           </note>
-          <u who="Q4990884" xml:id="i-675ff5d34db22cea-1" n="2a5c7d6b">
-            <seg n="5f2c4c77">
+          <u xml:id="i-8753b306d031d54f-171" next="i-8753b306d031d54f-172" who="Q4990884">
+            <seg>
               Fru talman! Detta är väldigt viktigt – det är sant – och jag
               är stolt över att Per Lodenius driver frågorna. Han är otroligt
               bra på det.
             </seg>
-            <seg n="edb27e55">
+          </u>
+          <u xml:id="i-8753b306d031d54f-172" prev="i-8753b306d031d54f-171" who="Q4990884">
+            <seg>
               Man kan undra hur de personer som har de här intellektuella funktions
               ­ nedsättningarna ska kunna finansiera sina eftergymnasiala utbildningar.
               Det är en viktig del i utredningen som vi måste ta hänsyn till.
@@ -1479,36 +1704,42 @@
               att studera på lite längre tid.
             </seg>
           </u>
-          <note type="speaker" n="94b3489d">
+          <note type="speaker">
             Anf. 61 Utbildningsminister ANNA EKSTRÖM (S):
           </note>
-          <u who="Q4946204" xml:id="i-119ea671e0d6dd22-3" n="89fba834">
-            <seg n="74610f3c">
+          <u xml:id="i-8753b306d031d54f-173" next="i-8753b306d031d54f-176" who="Q4946204">
+            <seg>
               Fru talman! Detta är en fråga som vi kommer att fortsätta att
               följa från Regeringskansliets sida. Frågan om finansiering är
               förstås viktig, men minst lika viktig är själva frågan om att
               det nu kommer förslag som handlar om möjlighet till tillträde
               till högre utbildning.
             </seg>
-            <seg n="ea7fa9bb">
+          </u>
+          <u xml:id="i-8753b306d031d54f-174" prev="i-8753b306d031d54f-173" who="Q4946204">
+            <seg>
               På en arbetsmarknad där det blir allt viktigare och alltmer nödvändigt
               att det finns någon form av utbildning för att kunna ta de lediga
               jobb som finns – och de är många – är frågan verkligen angelägen.
             </seg>
-            <seg n="d360578b">
+          </u>
+          <u xml:id="i-8753b306d031d54f-175" prev="i-8753b306d031d54f-173" who="Q4946204">
+            <seg>
               Jag får tacka Solveig Zander för frågan och de nämnda riksdagsledamöterna
               för det engagemang som har lett fram till att vi står här och
               kan diskutera lösningar.
             </seg>
-            <seg n="2d4b5525">
+          </u>
+          <u xml:id="i-8753b306d031d54f-176" prev="i-8753b306d031d54f-173" who="Q4946204">
+            <seg>
               Sambandet mellan undantag från LAS och sexuellt våld
             </seg>
           </u>
-          <note type="speaker" n="92ece8d1">
+          <note type="speaker">
             Anf. 62 MAGNUS PERSSON (SD):
           </note>
-          <u who="Q18245020" xml:id="i-2d0faef2dcc87bed-0" n="7d76d319">
-            <seg n="957de2e6">
+          <u xml:id="i-8753b306d031d54f-177" next="i-8753b306d031d54f-179" who="Q18245020">
+            <seg>
               Fru talman! Min fråga går till statsrådet Tomas Eneroth. Under
               en debatt i valrörelsen mellan statsminister Löfven och Jimmie
               Åkesson hävdade statsministern att med Sverigedemokraternas förslag
@@ -1517,30 +1748,36 @@
               våldtäkter öka på våra arbetsplatser. Han sa också att Sverigedemokraterna
               var ett rent arbetarfientligt parti av just denna anledning.
             </seg>
-            <seg n="3988acad">
+          </u>
+          <u xml:id="i-8753b306d031d54f-178" prev="i-8753b306d031d54f-177" who="Q18245020">
+            <seg>
               Fru talman! Uttalandet fick stor publicitet. Många undrade helt
               enkelt hur regeringen tänkte när den kom fram till denna slutsats,
               då all expertis har kommit fram till helt andra anledningar till
               ökningen av det sexuella våldet.
             </seg>
-            <seg n="2b110939">
+          </u>
+          <u xml:id="i-8753b306d031d54f-179" prev="i-8753b306d031d54f-177" who="Q18245020">
+            <seg>
               Min fråga till statsrådet är: Är detta fortfarande regeringens
               ståndpunkt gällande ökningen av sexuellt våld när man nu ska förhandla
               med Centern och Liberalerna om att luckra upp arbetsrätten för
               svenska löntagare?
             </seg>
           </u>
-          <note type="speaker" n="85230c1f">
+          <note type="speaker">
             Anf. 63 Statsrådet TOMAS ENEROTH (S):
           </note>
-          <u who="Q5711551" xml:id="i-3e6be7c9a629efdc-11" n="8e54a422">
-            <seg n="ab82eed0">
+          <u xml:id="i-8753b306d031d54f-180" next="i-8753b306d031d54f-182" who="Q5711551">
+            <seg>
               Fru talman! Tack för frågan, Magnus Persson! Frågan om hur vi
               moderniserar arbetsrätten har diskuterats under lång tid. I Sverige
               har vi en ordning där vi så långt som möjligt eftersträvar en
               ordning där arbetsmarknadens parter är de som ska hantera förändringarna.
             </seg>
-            <seg n="e990c9a2">
+          </u>
+          <u xml:id="i-8753b306d031d54f-181" prev="i-8753b306d031d54f-180" who="Q5711551">
+            <seg>
               Hur påskyndar man då ett sådant arbete? Vi har inom ramen för
               den överenskommelse som ligger till grund för att vi nu har en
               regering på plats kommit överens om att vi tillsätter en utredning
@@ -1553,7 +1790,9 @@
               gemensamma lösningar. I så fall ska parternas förslag kunna bli
               ny lagstiftning.
             </seg>
-            <seg n="eec01f9a">
+          </u>
+          <u xml:id="i-8753b306d031d54f-182" prev="i-8753b306d031d54f-180" who="Q5711551">
+            <seg>
               Jag tror att detta är rätt ordning att arbeta med. Jag tror också
               att det är ett sätt som ökar förutsättningarna att hitta en bred
               överenskommelse, inte minst mellan parterna. Då får vi ordning
@@ -1561,21 +1800,21 @@
               är det vi eftersträvar.
             </seg>
           </u>
-          <note type="speaker" n="9e9620d6">
+          <note type="speaker">
             Anf. 64 MAGNUS PERSSON (SD):
           </note>
-          <u who="Q18245020" xml:id="i-2d0faef2dcc87bed-1" n="7d76d319">
-            <seg n="edc6ea49">
+          <u xml:id="i-8753b306d031d54f-183" who="Q18245020">
+            <seg>
               Fru talman! Anser regeringen fortfarande att det är arbetarfientlig
               politik att göra undantag i LAS, vilket regeringen drev hela valrörelsen
               i debatt efter debatt? Det räcker att svara ja eller nej på frågan.
             </seg>
           </u>
-          <note type="speaker" n="b3b924f2">
+          <note type="speaker">
             Anf. 65 Statsrådet TOMAS ENEROTH (S):
           </note>
-          <u who="Q5711551" xml:id="i-3e6be7c9a629efdc-12" n="8e54a422">
-            <seg n="1c3e56c1">
+          <u xml:id="i-8753b306d031d54f-184" next="i-8753b306d031d54f-185" who="Q5711551">
+            <seg>
               Fru talman! Vad Socialdemokraterna tycker och tänker i frågan
               om arbetsrätten tror jag är väl bekant. Det är också väl känt
               vad vi står upp för i regeringsställning för att säkerställa att
@@ -1583,7 +1822,9 @@
               kunna se till att parterna har möjlighet att komma överens och
               att annars gå fram med lagstiftning.
             </seg>
-            <seg n="a821ce51">
+          </u>
+          <u xml:id="i-8753b306d031d54f-185" prev="i-8753b306d031d54f-184" who="Q5711551">
+            <seg>
               Det är viktigt att vi nu tar tillfället i akt med det engagemang
               som finns både politiskt och mellan arbetsmarknadens parter och
               får den modernisering som skapar långsiktigt stabila villkor på
@@ -1592,20 +1833,22 @@
               med oklara regler för vad som gäller på arbetsmarknaden. Vi gagnas
               alla av detta.
             </seg>
-            <seg n="63451af8">
-              Kriminaliserande av deltagande i terroristorganisationer
-            </seg>
           </u>
-          <note type="speaker" n="fed3b435">
+          <note>
+            Kriminaliserande av deltagande i terroristorganisationer
+          </note>
+          <note type="speaker">
             Anf. 66 JOAKIM SANDELL (S):
           </note>
-          <u who="Q56706633" xml:id="i-c0a3c5d1d0520a4d-0" n="9b8852a0">
-            <seg n="1443c040">
+          <u xml:id="i-8753b306d031d54f-186" next="i-8753b306d031d54f-188" who="Q56706633">
+            <seg>
               Fru talman! Jag har en fråga till justitie- och migrationsminister
               Morgan Johansson, och jag inleder med att gratulera till det förnyade
               förtroendet som justitieminister.
             </seg>
-            <seg n="3fac8211">
+          </u>
+          <u xml:id="i-8753b306d031d54f-187" prev="i-8753b306d031d54f-186" who="Q56706633">
+            <seg>
               Jag noterade i regeringsförklaringen att regeringen har för avsikt
               att kriminalisera deltagande i terroristorganisationer. Under
               förra mandatperioden gav statsrådet justitierådet Stefan Johansson
@@ -1614,22 +1857,26 @@
               begränsad förmåga att begå terroristbrott eller annan särskilt
               allvarlig brottslighet.
             </seg>
-            <seg n="9f43f1f9">
+          </u>
+          <u xml:id="i-8753b306d031d54f-188" prev="i-8753b306d031d54f-186" who="Q56706633">
+            <seg>
               Frågan till statsrådet är: Hur ser tidsplanen ut för att vi ska
               kunna kriminalisera deltagande i terroristorganisationer?
             </seg>
           </u>
-          <note type="speaker" n="31303270">
+          <note type="speaker">
             Anf. 67 Justitie- och migrationsminister MORGAN JOHANSSON (S):
           </note>
-          <u who="Q5887217" xml:id="i-402ade4f09bdcc62-8" n="91810ad0">
-            <seg n="a95eef5e">
+          <u xml:id="i-8753b306d031d54f-189" next="i-8753b306d031d54f-191" who="Q5887217">
+            <seg>
               Fru talman! Jag är glad att kunna säga att tidsplanen ser bra
               ut. Det här kommer nog att vara en av de allra första propositioner
               som regeringen kommer att kunna lämna, i alla fall när det gäller
               att lagrådsremittera.
             </seg>
-            <seg n="d1df1828">
+          </u>
+          <u xml:id="i-8753b306d031d54f-190" prev="i-8753b306d031d54f-189" who="Q5887217">
+            <seg>
               Innehållet handlar, precis som Joakim Sandell säger, om att vi
               vill kriminalisera allt deltagande i och samröre med en terroristorganisation.
               Det är en efterlängtad lagstiftning, och vi är i praktiken färdiga
@@ -1639,36 +1886,40 @@
               i riksdagen, för det här är ett utflöde av den blocköverskridande
               överenskommelse som vi gjorde under förra mandatperioden.
             </seg>
-            <seg n="1b53ea50">
+          </u>
+          <u xml:id="i-8753b306d031d54f-191" prev="i-8753b306d031d54f-189" who="Q5887217">
+            <seg>
               Detta är en del i ett paket när det gäller antiterrorismlagstiftning.
               Det handlar om deltagandebrottet, om mer av signalspaning, om
               datalagring och om hemlig dataavläsning. Det kommer nu ett antal
               förslag som gör att vi kommer att kunna stärka kampen mot terrorism.
             </seg>
           </u>
-          <note type="speaker" n="b3f6b218">
+          <note type="speaker">
             Anf. 68 JOAKIM SANDELL (S):
           </note>
-          <u who="Q56706633" xml:id="i-c0a3c5d1d0520a4d-1" n="9b8852a0">
-            <seg n="03116269">
-              Fru talman! Tack, Morgan Johansson, för svaret!
-            </seg>
-            <seg n="6b2d7e38">
+          <note>
+            Fru talman! Tack, Morgan Johansson, för svaret!
+          </note>
+          <u xml:id="i-8753b306d031d54f-192" next="i-8753b306d031d54f-193" who="Q56706633">
+            <seg>
               Det är oerhört viktigt att vi kan få till en harmoniserad lagstiftning
               på det här området så att vi får en liknande lagstiftning som
               övriga EU-länder och våra grannländer. Men jag tänker också att
               vi måste säkerställa att polisen får verktyg att lagföra de här
               brottslingarna.
             </seg>
-            <seg n="f1e32442">
+          </u>
+          <u xml:id="i-8753b306d031d54f-193" prev="i-8753b306d031d54f-192" who="Q56706633">
+            <seg>
               Hur ser statsrådet på den frågan?
             </seg>
           </u>
-          <note type="speaker" n="5a78a9ac">
+          <note type="speaker">
             Anf. 69 Justitie- och migrationsminister MORGAN JOHANSSON (S):
           </note>
-          <u who="Q5887217" xml:id="i-402ade4f09bdcc62-9" n="91810ad0">
-            <seg n="64d2dffb">
+          <u xml:id="i-8753b306d031d54f-194" who="Q5887217">
+            <seg>
               Fru talman! Utöver en vidgning av själva det kriminaliserade
               området, som innebär att allt samröre med och deltagande i en
               terroristorganisation blir kriminaliserat, innebär detta också
@@ -1679,15 +1930,15 @@
               terroristnätverk som kan finnas. Också i den delen är det här
               alltså en väldigt viktig lagstiftning som vi nu går fram med.
             </seg>
-            <seg n="490edd34">
-              Förseningar i tågtrafiken
-            </seg>
           </u>
-          <note type="speaker" n="609615b5">
+          <note>
+            Förseningar i tågtrafiken
+          </note>
+          <note type="speaker">
             Anf. 70 SOFIA WESTERGREN (M):
           </note>
-          <u who="Q70592245" xml:id="i-c7743a75cca9016f-0" n="904e7770">
-            <seg n="6a95dea4">
+          <u xml:id="i-8753b306d031d54f-195" next="i-8753b306d031d54f-196" who="Q70592245">
+            <seg>
               Fru talman! Järnvägen utgör tillsammans med vårt vägnät själva
               ryggraden i det svenska transportsystemet. Varje dag är hundra
               tusentals människor och företag beroende av fungerande och effektiva
@@ -1696,20 +1947,24 @@
               oroande att förseningarna på järnvägen ökade kraftigt förra året.
               Det slår mot jobb och konkurrenskraft i hela Sverige.
             </seg>
-            <seg n="90df68c0">
+          </u>
+          <u xml:id="i-8753b306d031d54f-196" prev="i-8753b306d031d54f-195" who="Q70592245">
+            <seg>
               Min fråga till Tomas Eneroth blir följande: Varför har regeringen
               misslyckats med att få tågen att gå i tid?
             </seg>
           </u>
-          <note type="speaker" n="691348a1">
+          <note type="speaker">
             Anf. 71 Statsrådet TOMAS ENEROTH (S):
           </note>
-          <u who="Q5711551" xml:id="i-3e6be7c9a629efdc-13" n="8e54a422">
-            <seg n="02232c65">
+          <u xml:id="i-8753b306d031d54f-197" next="i-8753b306d031d54f-200" who="Q5711551">
+            <seg>
               Fru talman! Tack, Sofia Westergren, för engagemanget när det
               gäller punktligheten – det uppskattar jag verkligen!
             </seg>
-            <seg n="e53ca3ab">
+          </u>
+          <u xml:id="i-8753b306d031d54f-198" prev="i-8753b306d031d54f-197" who="Q5711551">
+            <seg>
               Det vi har lyckats med, om jag börjar där, är framför allt att
               under föregående mandatperiod och nu sanktionerat få möjlighet
               att göra 700 miljarder i investeringar i vår infrastruktur. Efter
@@ -1721,7 +1976,9 @@
               på operatörerna och Trafikverket att samordna bättre och framför
               allt informera resenärer.
             </seg>
-            <seg n="d411e05e">
+          </u>
+          <u xml:id="i-8753b306d031d54f-199" prev="i-8753b306d031d54f-197" who="Q5711551">
+            <seg>
               Mycket återstår att göra, men jag är väldigt stolt över att vi
               nu faktiskt har kunnat prioritera stora satsningar efter år av
               underinvesteringar, som det var tidigare. I den meningen tror
@@ -1729,18 +1986,22 @@
               se till att vi fortsatt kan utveckla järnvägstrafiken så att det
               blir fler sträckor i hela landet.
             </seg>
-            <seg n="5b899442">
+          </u>
+          <u xml:id="i-8753b306d031d54f-200" prev="i-8753b306d031d54f-197" who="Q5711551">
+            <seg>
               Initiativ för att förbättra trafiksäkerheten
             </seg>
           </u>
-          <note type="speaker" n="e75835f3">
+          <note type="speaker">
             Anf. 72 ELIN GUSTAFSSON (S):
           </note>
-          <u who="Q96323985" xml:id="i-c4f767a8bbfe4a35-0" n="67623b24">
-            <seg n="07a2b0b1">
+          <u xml:id="i-8753b306d031d54f-201" next="i-8753b306d031d54f-203" who="Q96323985">
+            <seg>
               Fru talman! Min fråga går till infrastrukturminister Tomas Eneroth.
             </seg>
-            <seg n="9ae3c873">
+          </u>
+          <u xml:id="i-8753b306d031d54f-202" prev="i-8753b306d031d54f-201" who="Q96323985">
+            <seg>
               Sverige har kommit långt och uppmärksammas ofta för sitt arbete
               med trafiksäkerhet. Inte minst uppmärksammas arbetet med nollvisionen.
               Beslutet om den var avgörande och viktigt när det togs för över
@@ -1753,21 +2014,23 @@
               omkomna viktiga. Jag tänker särskilt på nystarten för nollvi ­
               sionen.
             </seg>
-            <seg n="fc664fff">
+          </u>
+          <u xml:id="i-8753b306d031d54f-203" prev="i-8753b306d031d54f-201" who="Q96323985">
+            <seg>
               Jag skulle därför vilja fråga statsrådet hur han ser på nästa
               steg för att ytterligare stärka arbetet med nollvisionen utifrån
               den nystart som den socialdemokratiskt ledda regeringen inledde
               under den förra mandatperio ­ den.
             </seg>
           </u>
-          <note type="speaker" n="e29e1751">
+          <note type="speaker">
             Anf. 73 Statsrådet TOMAS ENEROTH (S):
           </note>
-          <u who="Q5711551" xml:id="i-3e6be7c9a629efdc-14" n="8e54a422">
-            <seg n="39887d06">
-              Fru talman! Tack, Elin Gustafsson, för frågan!
-            </seg>
-            <seg n="70ce09da">
+          <note>
+            Fru talman! Tack, Elin Gustafsson, för frågan!
+          </note>
+          <u xml:id="i-8753b306d031d54f-204" next="i-8753b306d031d54f-206" who="Q5711551">
+            <seg>
               Det är alldeles rätt att det är en oroande utveckling att vi
               under föregående år har haft en ökning av antalet dödade och skadade
               i trafiken – annars får man säga att vi har haft en positiv utveckling
@@ -1778,7 +2041,9 @@
               inte skadas och med att använda ny teknik och digitalisering för
               säkra trafikmiljöer.
             </seg>
-            <seg n="cf5931a7">
+          </u>
+          <u xml:id="i-8753b306d031d54f-205" prev="i-8753b306d031d54f-204" who="Q5711551">
+            <seg>
               År 2020 ska Sverige vara värd för FN:s stora trafiksäkerhetskonferens.
               Hela världen kommer till Sverige för att dra lärdom av de svenska
               erfarenheterna. Nu gäller det att implementera ny teknik – geofencing,
@@ -1787,18 +2052,22 @@
               väldigt mycket kvar att göra, men det är en mycket positiv utveckling
               vi kommer att se under kommande år när det gäller trafiksäkerhet.
             </seg>
-            <seg n="c8735732">
+          </u>
+          <u xml:id="i-8753b306d031d54f-206" prev="i-8753b306d031d54f-204" who="Q5711551">
+            <seg>
               Bostäder till gymnasieungdomar som sökt uppehållstillstånd
             </seg>
           </u>
-          <note type="speaker" n="6866dd84">
+          <note type="speaker">
             Anf. 74 LOTTA OLSSON (M):
           </note>
-          <u who="Q4971184" xml:id="i-bbf60f360a4b451c-0" n="61b3a788">
-            <seg n="ab175e7b">
+          <u xml:id="i-8753b306d031d54f-207" next="i-8753b306d031d54f-210" who="Q4971184">
+            <seg>
               Fru talman! Min fråga går till utbildningsminister Anna Ekström.
             </seg>
-            <seg n="954480eb">
+          </u>
+          <u xml:id="i-8753b306d031d54f-208" prev="i-8753b306d031d54f-207" who="Q4971184">
+            <seg>
               Nästan 12 000 ungdomar har sökt uppehållstillstånd efter att
               den nya gymnasielagen trädde i kraft den 1 juli 2018. Det var
               en lagstiftning som drevs fram av socialdemokrater, Miljöpartiet,
@@ -1806,7 +2075,9 @@
               fått bifall och 2 400 fått avslag. Många väntar fortfarande på
               besked om de ska få stanna eller inte.
             </seg>
-            <seg n="fde16d78">
+          </u>
+          <u xml:id="i-8753b306d031d54f-209" prev="i-8753b306d031d54f-207" who="Q4971184">
+            <seg>
               Gymnasielagen skulle ge ungdomar chansen att avsluta sin gymnasieutbildning.
               I landets kommuner har det dock rått en osäkerhet om vem som är
               ansvarig för bostäder för de här ungdomarna. I Nerikes Allehanda
@@ -1815,24 +2086,28 @@
               Han har ingen annanstans att bo. Han är en av flera som faktiskt
               inte har någon bostad.
             </seg>
-            <seg n="02320ce5">
+          </u>
+          <u xml:id="i-8753b306d031d54f-210" prev="i-8753b306d031d54f-207" who="Q4971184">
+            <seg>
               Vem, anser ministern, är ansvarig för att anordna bostäder åt
               de här ungdomarna? Och anser ministern att detta är en studiesituation
               som gör det möjligt att tillgodogöra sig sin gymnasieutbildning?
             </seg>
           </u>
-          <note type="speaker" n="508163b9">
+          <note type="speaker">
             Anf. 75 Utbildningsminister ANNA EKSTRÖM (S):
           </note>
-          <u who="Q4946204" xml:id="i-119ea671e0d6dd22-4" n="89fba834">
-            <seg n="7669870c">
+          <u xml:id="i-8753b306d031d54f-211" next="i-8753b306d031d54f-213" who="Q4946204">
+            <seg>
               Fru talman! Den gymnasieskola vi har i Sverige ska finnas för
               de elever som är här. En del av de elever som nu går i svensk
               gymnasieskola är elever som har kommit till Sverige som ensamkommande
               och som i somliga fall har en väldigt osäker situation när det
               gäller den egna framtiden.
             </seg>
-            <seg n="3825ff2c">
+          </u>
+          <u xml:id="i-8753b306d031d54f-212" prev="i-8753b306d031d54f-211" who="Q4946204">
+            <seg>
               Regeringen har säkerställt att det finns goda möjligheter att
               få särskilda bidrag för de gymnasieskolor som arbetar särskilt
               med de ungdomsgrupper som frågeställaren nämner i sin fråga. Men
@@ -1844,27 +2119,31 @@
               och många rektorer gör ett fantastiskt arbete för elever som befinner
               sig i en väldigt utsatt situation.
             </seg>
-            <seg n="3e22dd06">
+          </u>
+          <u xml:id="i-8753b306d031d54f-213" prev="i-8753b306d031d54f-211" who="Q4946204">
+            <seg>
               När det däremot gäller frågor om hur bostadspolitiken ska hanteras
               får jag faktiskt hänvisa dem vidare till en kollega i regeringen.
               Tack ändå för frågan!
             </seg>
-            <seg n="56cc9487">
-              Insatser för att motverka sexualbrott mot kvinnor
-            </seg>
           </u>
-          <note type="speaker" n="f93c36bd">
+          <note>
+            Insatser för att motverka sexualbrott mot kvinnor
+          </note>
+          <note type="speaker">
             Anf. 76 JOSEFIN MALMQVIST (M):
           </note>
-          <u who="Q42712344" xml:id="i-705575a42be1da77-0" n="96477f09">
-            <seg n="01c3bae3">
+          <u xml:id="i-8753b306d031d54f-214" next="i-8753b306d031d54f-216" who="Q42712344">
+            <seg>
               Fru talman! Mer än var tredje kvinna mellan 20 och 24 år uppger
               att hon har utsatts för sexualbrott det senaste året. Nästan en
               av tio uppger att hon har utsatts för våldtäkt eller försök till
               våldtäkt – på ett år. På fem år har unga kvinnors utsatthet för
               sexualbrott ökat med 370 procent.
             </seg>
-            <seg n="4ae5ccc1">
+          </u>
+          <u xml:id="i-8753b306d031d54f-215" prev="i-8753b306d031d54f-214" who="Q42712344">
+            <seg>
               Brottsförebyggande rådets trygghetsundersökning bygger på ett
               slumpmässigt urval, och någon metoo-effekt eller ökad anmälningsbenägenhet
               har inte kunnat uppmätas. Brå tror snarare att brottsligheten
@@ -1872,17 +2151,19 @@
               tio uppger att de har valt en annan väg eller ett annat färdsätt
               när de tagit sig hem för att inte utsättas för brott.
             </seg>
-            <seg n="698c6696">
+          </u>
+          <u xml:id="i-8753b306d031d54f-216" prev="i-8753b306d031d54f-214" who="Q42712344">
+            <seg>
               Min fråga går till justitieminister Morgan Johansson. När ska
               unga kvinnor våga gå hem själva på kvällen utan att behöva vara
               rädda för att utsättas för brott?
             </seg>
           </u>
-          <note type="speaker" n="74aa3ca9">
+          <note type="speaker">
             Anf. 77 Justitie- och migrationsminister MORGAN JOHANSSON (S):
           </note>
-          <u who="Q5887217" xml:id="i-fc68b7564ceed28e-0" n="91810ad0" next="i-28bb2b892027b085-0">
-            <seg n="79495a9b">
+          <u xml:id="i-8753b306d031d54f-217" next="i-8753b306d031d54f-222" who="Q5887217">
+            <seg>
               Fru talman! En av de stora reformer som vi genomförde under förra
               mandatperioden var en skärpning av synen på sexualbrotten. Vi
               har nu en samtyckeslagstiftning på plats, vi skärpte straffen
@@ -1891,7 +2172,9 @@
               samtyckeslagstiftningen i många, många år ända tills man till
               slut fick ge sig på den punkten, vilket ju var bra.
             </seg>
-            <seg n="b09a5fdd">
+          </u>
+          <u xml:id="i-8753b306d031d54f-218" prev="i-8753b306d031d54f-217" who="Q5887217">
+            <seg>
               Nu har vi den starkaste och hårdaste lagstiftningen när det gäller
               sexualbrott någonsin i Sverige. Vi har också sagt att polisen
               måste fortsätta att prioritera de här ärendena så att man ser
@@ -1899,23 +2182,29 @@
               månad för månad och ser att man gör på så sätt att antalet utredningar
               som görs faktiskt ökar.
             </seg>
-            <seg n="1ac98df6">
+          </u>
+          <u xml:id="i-8753b306d031d54f-219" prev="i-8753b306d031d54f-217" who="Q5887217">
+            <seg>
               Sedan tror jag att detta måste kombineras med mycket omfattande
               före ­ byggande insatser, och också där måste vi arbeta mycket
               mer intensivt än vad vi har gjort tidigare.
             </seg>
-            <seg n="3053545b">
+          </u>
+          <u xml:id="i-8753b306d031d54f-220" prev="i-8753b306d031d54f-217" who="Q5887217">
+            <seg>
               Utrikeshandelsministerns syn på det nordiska samarbetet
             </seg>
           </u>
-          <note n="5106328f">
+          <note>
             Anf. 78 JAMAL EL-HAJ (S):
           </note>
-          <u who="Q5887217" xml:id="i-28bb2b892027b085-0" n="91810ad0" prev="i-fc68b7564ceed28e-0">
-            <seg n="72b398ea">
+          <u xml:id="i-8753b306d031d54f-221" prev="i-8753b306d031d54f-217" who="Q5887217">
+            <seg>
               Fru talman! Min fråga går till utrikeshandelsminister Ann Linde.
             </seg>
-            <seg n="aef8924b">
+          </u>
+          <u xml:id="i-8753b306d031d54f-222" prev="i-8753b306d031d54f-217" who="Q5887217">
+            <seg>
               I måndags utsåg statsminister Stefan Löfven dig till utrikeshandelsminister
               och minister med ansvar för nordiska frågor på Utrikesdepartementet.
               Nu när du har fått ansvar för det nordiska samarbetet vill jag
@@ -1925,16 +2214,18 @@
               regioner?
             </seg>
           </u>
-          <note type="speaker" n="131f411a">
+          <note type="speaker">
             Anf. 79 Statsrådet ANN LINDE (S):
           </note>
-          <u who="Q18243775" xml:id="i-ebdea955d212b924-6" n="8e54a422">
-            <seg n="98cce3a7">
+          <u xml:id="i-8753b306d031d54f-223" next="i-8753b306d031d54f-226" who="Q18243775">
+            <seg>
               Fru talman! Jag vill tacka för frågan. Nordiska frågor är verkligen
               en prioritering. Jag tycker själv att det är otroligt kul och
               har jobbat med det i många år i partisammanhang.
             </seg>
-            <seg n="d01b8884">
+          </u>
+          <u xml:id="i-8753b306d031d54f-224" prev="i-8753b306d031d54f-223" who="Q18243775">
+            <seg>
               Det är framför allt inom tre områden som vi kan förstärka och
               prioritera det nordiska samarbetet. Det första gäller digitaliseringen,
               som handlar om just innovationer, som Jamal El-Haj tog upp. Vi
@@ -1943,25 +2234,29 @@
               det. Men vi har inte börjat se på hur det ska implementeras. Jag
               tror mycket på det.
             </seg>
-            <seg n="2cea31d8">
+          </u>
+          <u xml:id="i-8753b306d031d54f-225" prev="i-8753b306d031d54f-223" who="Q18243775">
+            <seg>
               Det andra är att fortsätta med gränshinderarbete. Människor uppskattar
               verkligen att utan problem kunna arbeta, studera och bosätta sig
               i de respektive nordiska länderna.
             </seg>
-            <seg n="f102f93a">
+          </u>
+          <u xml:id="i-8753b306d031d54f-226" prev="i-8753b306d031d54f-223" who="Q18243775">
+            <seg>
               Det tredje är samarbete med de baltis ka länderna, till exempel
               att e ‑ legitimationen ska fungera överallt i alla länderna. Det
               var tre exempel.
             </seg>
           </u>
-          <note n="81746454">
+          <note>
             Avskaffande av mängdrabatt vid upprepade sexualbrott
           </note>
-          <note type="speaker" n="e8dc4b98">
+          <note type="speaker">
             Anf. 80 LOUISE MEIJER (M):
           </note>
-          <u who="Q57168719" xml:id="i-7848a3ce02872d30-0" n="e27eb3f4">
-            <seg n="ecc599fa">
+          <u xml:id="i-8753b306d031d54f-227" next="i-8753b306d031d54f-230" who="Q57168719">
+            <seg>
               Fru talman! Förra året ökade antalet anmälda våldtäkter med 8
               procent. Under justitieminister Morgan Johanssons tid i regeringen
               har antalet anmälda våldtäkter ökat med 1 134 anmälningar, och
@@ -1969,28 +2264,34 @@
               siffra i statistiken finns ett offer, som allt som oftast är en
               kvinna.
             </seg>
-            <seg n="3cfbd6f7">
+          </u>
+          <u xml:id="i-8753b306d031d54f-228" prev="i-8753b306d031d54f-227" who="Q57168719">
+            <seg>
               När både anmälningarna och utsattheten ökar parallellt, dessutom
               under flera års tid, är risken stor att vi har att göra med en
               faktisk ökning av antalet sexualbrott. Det är tydligt att jämställdheten
               har gått åt fel håll under den feministiska regeringens ledning.
             </seg>
-            <seg n="366f314c">
+          </u>
+          <u xml:id="i-8753b306d031d54f-229" prev="i-8753b306d031d54f-227" who="Q57168719">
+            <seg>
               Ett sexuellt övergrepp är något av det värsta en människa kan
               utsättas för. Ett av Moderaternas jämställdhetsförslag är därför
               att slopa den orättvisa mängdrabatten för serievåldtäktsmän.
             </seg>
-            <seg n="7888a67e">
+          </u>
+          <u xml:id="i-8753b306d031d54f-230" prev="i-8753b306d031d54f-227" who="Q57168719">
+            <seg>
               Min fråga till den feministiska regeringens justitieminister
               är därför: Kommer han under kommande mandatperiod att förändra
               dagens mängd ­ rabatt?
             </seg>
           </u>
-          <note type="speaker" n="350a36ef">
+          <note type="speaker">
             Anf. 81 Justitie- och migrationsminister MORGAN JOHANSSON (S):
           </note>
-          <u who="Q5887217" xml:id="i-402ade4f09bdcc62-10" n="91810ad0">
-            <seg n="beb862d5">
+          <u xml:id="i-8753b306d031d54f-231" next="i-8753b306d031d54f-234" who="Q5887217">
+            <seg>
               Fru talman! Som jag sa i ett tidigare svar har vi sedan ett halvår
               tillbaka på plats den stramaste och hårdaste sexualbrottslagstiftning
               som Sverige någonsin har haft. Vi har samtyckeslagstiftning, skärpt
@@ -1999,33 +2300,41 @@
               anmäler brottet. Tidigare fick man inte det på samma sätt. Det
               har också stärkt brottsoffrets situation.
             </seg>
-            <seg n="d2b5747d">
+          </u>
+          <u xml:id="i-8753b306d031d54f-232" prev="i-8753b306d031d54f-231" who="Q5887217">
+            <seg>
               Dessvärre motarbetades just en samtyckeslagstiftning av Moderaterna
               under många år innan vi äntligen lyckades få den på plats. När
               jag nu följer hur domstolarna dömer kan jag se att denna redan
               har fått betydelse för hur man betraktar den här typen av brott
               i en skärpande riktning.
             </seg>
-            <seg n="4b9da641">
+          </u>
+          <u xml:id="i-8753b306d031d54f-233" prev="i-8753b306d031d54f-231" who="Q5887217">
+            <seg>
               Jag är beredd att gå vidare på lagstiftningssidan. I nästa skede
               kommer vi att se över straffen också för våldtäkter av normalgraden
               och skärpa minimistraffet också där, från två års fängelse till
               tre års fängelse. Det är en av de straffrättsliga förändringar
               som vi nu arbetar med.
             </seg>
-            <seg n="13361cdc">
+          </u>
+          <u xml:id="i-8753b306d031d54f-234" prev="i-8753b306d031d54f-231" who="Q5887217">
+            <seg>
               Utbildning i hela landet och läraryrkets attraktivitet
             </seg>
           </u>
-          <note type="speaker" n="bd2e32fd">
+          <note type="speaker">
             Anf. 82 GUNILLA SVANTORP (S):
           </note>
-          <u who="Q4981396" xml:id="i-8bd106f97683eb08-0" n="3f2b4d6c">
-            <seg n="0a4ad274">
+          <u xml:id="i-8753b306d031d54f-235" next="i-8753b306d031d54f-238" who="Q4981396">
+            <seg>
               Fru talman! Jag har en fråga till Anna Ekström. Jag vill också
               passa på att hälsa henne välkommen som utbildningsminister – grattis!
             </seg>
-            <seg n="ec35121e">
+          </u>
+          <u xml:id="i-8753b306d031d54f-236" prev="i-8753b306d031d54f-235" who="Q4981396">
+            <seg>
               I januariavtalet som ligger till grund för budgetsamarbetet kan
               man under punkt 14 läsa att möjligheterna till omställning ska
               förstärkas och att arbetsgivarens möjligheter att hitta arbetskraft
@@ -2034,42 +2343,52 @@
               omskola sig högre upp i åldrarna ska utökas samt att mer generösa
               villkor för detta ska möjliggöras inom studiemedelssystemet.
             </seg>
-            <seg n="66b912c4">
+          </u>
+          <u xml:id="i-8753b306d031d54f-237" prev="i-8753b306d031d54f-235" who="Q4981396">
+            <seg>
               Att ha möjligheten att lära nytt och att ställa om i riktning
               mot att få ett jobb, egen lön och därmed ökad frihet är kanske
               det viktigaste som finns i en människas liv. Men människor bor
               där de bor. Hur tänker ministern arbeta för att utbildning ska
               finnas i hela landet?
             </seg>
-            <seg n="d56906a2">
+          </u>
+          <u xml:id="i-8753b306d031d54f-238" prev="i-8753b306d031d54f-235" who="Q4981396">
+            <seg>
               För att lyckas med alla dessa utbildningsplatser krävs det lärare.
               Lärare är en bristvara. Många som utbildar sig till lärare väljer
               att jobba med andra saker. Hur tänker ministern se till att lärarna
               stannar kvar i jobbet?
             </seg>
           </u>
-          <note type="speaker" n="79d4b073">
+          <note type="speaker">
             Anf. 83 Utbildningsminister ANNA EKSTRÖM (S):
           </note>
-          <u who="Q4946204" xml:id="i-94256dd0a34165c7-0" n="89fba834" next="i-5229f40f36f3f89f-0">
-            <seg n="4bf371b5">
+          <u xml:id="i-8753b306d031d54f-239" next="i-8753b306d031d54f-273" who="Q4946204">
+            <seg>
               Fru talman! Frågan är nästan omöjlig att besvara på en kort minut.
               Men jag får börja med att tacka för välkomnandet och för frågan.
             </seg>
-            <seg n="22916efb">
+          </u>
+          <u xml:id="i-8753b306d031d54f-240" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               I 73-punktsprogrammet finns en satsning på ett fortsatt kunskapslyft.
               Det är välbehövligt. Det kan handla om satsningar på folkhögskolan,
               yr ­ kesvux och yrkeshögskolan, som numera kan finnas i hela landet,
               tack vare att den har byggts ut så kraftigt. Det handlar också
               om satsningar på studie ­ förbund och fler platser på högskolan.
             </seg>
-            <seg n="064e86fd">
+          </u>
+          <u xml:id="i-8753b306d031d54f-241" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               I sammanhanget vill jag även peka på den satsning som har gjorts
               på lärcentrum inom ramen för utbildningspolitiken men också inom
               ramen för att hela Sverige ska leva. Regeringen arbetar också
               med de förslag som har lämnats om en utredning av fjärr- och distansundervisning.
             </seg>
-            <seg n="d9fd7e84">
+          </u>
+          <u xml:id="i-8753b306d031d54f-242" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               Vi har även gjort stora satsningar för att stärka läraryrket.
               Jag hinner inte räkna upp dem alla. Jag kan bara konstatera att
               de måste mötas av ett gemensamt arbete över olika partigränser
@@ -2078,562 +2397,622 @@
               och lockelsen med läraryrket – Sveriges viktigaste yrke.
             </seg>
           </u>
-          <note n="79d652fa">
+          <note>
             Frågestunden var härmed avslutad.
           </note>
-          <note n="bcffb319">
+          <note>
             § 2 Anmälan om faktapromemoria
           </note>
-          <note n="e30ffb58">
+          <note>
             Förste vice talmannen anmälde att följande faktapromemoria om
             förslag från Europeiska kommissionen hade kommit in och överlämnats
             till utskott:
           </note>
-          <note n="329ba457">
+          <note>
             2018/19:FPM26 Åtgärdsplan mot desinformation JOIN(2018) 36 till
             konstitutionsutskottet
           </note>
-          <note n="68f9bc15">
+          <note>
             § 3 Anmälan om interpellationer
           </note>
-          <note n="b0620992">
+          <note>
             Följande interpellationer hade framställts:
           </note>
-          <note n="74e66e0d">
+          <note>
             den 23 januari
           </note>
-          <u who="Q4946204" xml:id="i-5229f40f36f3f89f-0" n="89fba834" prev="i-94256dd0a34165c7-0">
-            <seg n="1795b707">
+          <u xml:id="i-8753b306d031d54f-243" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               2018/19:1 Försvarsgarantier mellan Sverige och USA
             </seg>
-            <seg n="0d6fd116">
+          </u>
+          <note>
+            av Allan Widman (L)
+          </note>
+          <note>
+            till försvarsminister Peter Hultqvist (S)
+          </note>
+          <u xml:id="i-8753b306d031d54f-244" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               2018/19:2 Lärarbristen och andelen behöriga lärare
             </seg>
-            <seg n="47d73ba7">
-              2018/19:3 Andning och sondmatning som grundläggande behov
-            </seg>
-            <seg n="765e8681">
+          </u>
+          <note>
+            av Roger Haddad (L)
+          </note>
+          <note>
+            till utbildningsminister Anna Ekström (S)
+          </note>
+          <note>
+            2018/19:3 Andning och sondmatning som grundläggande behov
+          </note>
+          <note>
+            av Pia Steensland (KD)
+          </note>
+          <note>
+            till socialminister Lena Hallengren (S)
+          </note>
+          <u xml:id="i-8753b306d031d54f-245" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               2018/19:4 Utvecklingen i Venezuela
             </seg>
-            <seg n="c9f7da1f">
+          </u>
+          <note>
+            av Kerstin Lundgren (C)
+          </note>
+          <u xml:id="i-8753b306d031d54f-246" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               till utrikesminister Margot Wallström (S)
             </seg>
-            <seg n="96909b8f">
+          </u>
+          <note>
+            § 4 Anmälan om frågor för skriftliga svar
+          </note>
+          <u xml:id="i-8753b306d031d54f-247" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
+              Följande frågor för skriftliga svar hade framställts:
+            </seg>
+          </u>
+          <note>
+            den 23 januari
+          </note>
+          <u xml:id="i-8753b306d031d54f-248" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               2018/19:6 Adoptioner från Chile
             </seg>
-            <seg n="a896133b">
+          </u>
+          <note>
+            av Jon Thorbjörnson (V)
+          </note>
+          <note>
+            till socialminister Lena Hallengren (S)
+          </note>
+          <u xml:id="i-8753b306d031d54f-249" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               2018/19:7 Situationen för fängslade politiker i Turkiet
             </seg>
-            <seg n="c9f7da1f">
+          </u>
+          <note>
+            av Håkan Svenneling (V)
+          </note>
+          <u xml:id="i-8753b306d031d54f-250" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               till utrikesminister Margot Wallström (S)
             </seg>
-            <seg n="cb42169c">
+          </u>
+          <u xml:id="i-8753b306d031d54f-251" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               2018/19:8 Isbrytning till hamnar
             </seg>
-            <seg n="0291b410">
-              2018/19:9 Försäljning av statliga bolag och känslig teknik till
-              främmande makt
-            </seg>
-            <seg n="c9f7da1f">
+          </u>
+          <note>
+            av Lars Mejern Larsson (S)
+          </note>
+          <note>
+            till statsrådet Tomas Eneroth (S)
+          </note>
+          <note>
+            2018/19:9 Försäljning av statliga bolag och känslig teknik till
+            främmande makt
+          </note>
+          <note>
+            av Björn Söder (SD)
+          </note>
+          <note>
+            till näringsminister Ibrahim Baylan (S)
+          </note>
+          <note>
+            2018/19:10 Ratificering av CEPA
+          </note>
+          <note>
+            av Björn Söder (SD)
+          </note>
+          <u xml:id="i-8753b306d031d54f-252" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               till utrikesminister Margot Wallström (S)
             </seg>
-            <seg n="579bd417">
+          </u>
+          <u xml:id="i-8753b306d031d54f-253" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               2018/19:11 De nya reglerna för arbetsgivardeklaration
             </seg>
-            <seg n="257fe72a">
-              2018/19:12 Förenklade betalningsrutiner för broavgifter
-            </seg>
-            <seg n="d9386cab">
+          </u>
+          <note>
+            av Barbro Westerholm (L)
+          </note>
+          <note>
+            till finansminister Magdalena Andersson (S)
+          </note>
+          <note>
+            2018/19:12 Förenklade betalningsrutiner för broavgifter
+          </note>
+          <note>
+            av Johan Andersson (S)
+          </note>
+          <note>
+            till statsrådet Tomas Eneroth (S)
+          </note>
+          <u xml:id="i-8753b306d031d54f-254" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               2018/19:13 Hungerstrejk för mänskliga rättigheter i Turkiet
             </seg>
-            <seg n="c9f7da1f">
+          </u>
+          <note>
+            av Amineh Kakabaveh (V)
+          </note>
+          <u xml:id="i-8753b306d031d54f-255" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               till utrikesminister Margot Wallström (S)
             </seg>
-            <seg n="9671117e">
-              2018/19:14 Läkemedelsbokens framtid
+          </u>
+          <note>
+            2018/19:14 Läkemedelsbokens framtid
+          </note>
+          <note>
+            av Barbro Westerholm (L)
+          </note>
+          <note>
+            till socialminister Lena Hallengren (S)
+          </note>
+          <note>
+            2018/19:15 Godkännande av vapen
+          </note>
+          <note>
+            av Sten Bergheden (M)
+          </note>
+          <note>
+            till statsrådet Jennie Nilsson (S)
+          </note>
+          <note>
+            2018/19:16 Vargstammen
+          </note>
+          <note>
+            av Sten Bergheden (M)
+          </note>
+          <note>
+            till statsrådet Jennie Nilsson (S)
+          </note>
+          <note>
+            2018/19:17 Migrationsverkets bedömning av konvertiters skyddsskäl
+          </note>
+          <note>
+            av Christina Höj Larsen (V)
+          </note>
+          <note>
+            till justitie- och migrationsminister Morgan Johansson (S)
+          </note>
+          <u xml:id="i-8753b306d031d54f-256" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
+              2018/19:18 Tjänstemannaansvar
             </seg>
-            <seg n="e4e43d28">
-              2018/19:16 Vargstammen
-            </seg>
-            <seg n="32a532d5">
-              2018/19:19 Trafikmedicinska mottagningar
-            </seg>
-            <seg n="4a9b9fed">
+          </u>
+          <note>
+            av Sten Bergheden (M)
+          </note>
+          <note>
+            till justitie- och migrationsminister Morgan Johansson (S)
+          </note>
+          <note>
+            2018/19:19 Trafikmedicinska mottagningar
+          </note>
+          <note>
+            av Barbro Westerholm (L)
+          </note>
+          <note>
+            till socialminister Lena Hallengren (S)
+          </note>
+          <note>
+            § 5 Kammaren åtskildes kl. 15.17 .
+          </note>
+          <note>
+            Sammanträdet leddes av förste vice talmannen .
+          </note>
+          <note>
+            Vid protokollet
+          </note>
+          <note>
+            ANNALENA HANELL
+          </note>
+          <note>
+            /Olof Pilo
+          </note>
+          <note>
+            Innehållsförteckning
+          </note>
+          <note>
+            § 1 Frågestund
+          </note>
+          <note>
+            Anf. 1 FÖRSTE VICE TALMANNEN
+          </note>
+          <u xml:id="i-8753b306d031d54f-257" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               Den socialdemokratiska jobbpolitiken och arbetslöshetsmålet
             </seg>
-            <seg n="b48b56ea">
+          </u>
+          <note>
+            Anf. 2 SAILA QUICKLUND (M)
+          </note>
+          <note>
+            Anf. 3 Statsrådet TOMAS ENEROTH (S)
+          </note>
+          <note>
+            Anf. 4 SAILA QUICKLUND (M)
+          </note>
+          <note>
+            Anf. 5 Statsrådet TOMAS ENEROTH (S)
+          </note>
+          <u xml:id="i-8753b306d031d54f-258" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               Konsekvenserna av de nya reglerna för familjeåterförening
             </seg>
-            <seg n="1dca882d">
+          </u>
+          <note>
+            Anf. 6 PAULA BIELER (SD)
+          </note>
+          <note>
+            Anf. 7 Justitie- och migrationsminister MORGAN JOHANSSON (S)
+          </note>
+          <note>
+            Anf. 8 PAULA BIELER (SD)
+          </note>
+          <note>
+            Anf. 9 Justitie- och migrationsminister MORGAN JOHANSSON (S)
+          </note>
+          <u xml:id="i-8753b306d031d54f-259" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               Hot och trakasserier mot lantbrukare
             </seg>
-            <seg n="c68cde04">
-              Anf. 10 JONNY CATO HANSSON (C)
-            </seg>
-            <seg n="e954d49f">
-              Anf. 12 JONNY CATO HANSSON (C)
-            </seg>
-            <seg n="8f9560ae">
+          </u>
+          <note>
+            Anf. 10 JONNY CATO HANSSON (C)
+          </note>
+          <note>
+            Anf. 11 Justitie- och migrationsminister MORGAN JOHANSSON (S)
+          </note>
+          <note>
+            Anf. 12 JONNY CATO HANSSON (C)
+          </note>
+          <note>
+            Anf. 13 Justitie- och migrationsminister MORGAN JOHANSSON (S)
+          </note>
+          <u xml:id="i-8753b306d031d54f-260" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               Sjukförsäkringen
             </seg>
-            <seg n="214027f5">
+          </u>
+          <note>
+            Anf. 14 NOOSHI DADGOSTAR (V)
+          </note>
+          <note>
+            Anf. 15 Statsrådet TOMAS ENEROTH (S)
+          </note>
+          <note>
+            Anf. 16 NOOSHI DADGOSTAR (V)
+          </note>
+          <note>
+            Anf. 17 Statsrådet TOMAS ENEROTH (S)
+          </note>
+          <u xml:id="i-8753b306d031d54f-261" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               Avsaknaden av en äldreminister
             </seg>
-            <seg n="df45644d">
+          </u>
+          <note>
+            Anf. 18 MICHAEL ANEFUR (KD)
+          </note>
+          <note>
+            Anf. 19 Statsrådet TOMAS ENEROTH (S)
+          </note>
+          <note>
+            Anf. 20 MICHAEL ANEFUR (KD)
+          </note>
+          <note>
+            Anf. 21 Statsrådet TOMAS ENEROTH (S)
+          </note>
+          <u xml:id="i-8753b306d031d54f-262" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               Ett nationellt uppföljningssystem för hemmasittare
             </seg>
-            <seg n="3f6a3beb">
+          </u>
+          <note>
+            Anf. 22 ROGER HADDAD (L)
+          </note>
+          <note>
+            Anf. 23 Utbildningsminister ANNA EKSTRÖM (S)
+          </note>
+          <note>
+            Anf. 24 ROGER HADDAD (L)
+          </note>
+          <note>
+            Anf. 25 Utbildningsminister ANNA EKSTRÖM (S)
+          </note>
+          <u xml:id="i-8753b306d031d54f-263" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               EU-uppgörelsen om villkoren för yrkesförare
             </seg>
-            <seg n="9759d3f4">
+          </u>
+          <note>
+            Anf. 26 DENIS BEGIC (S)
+          </note>
+          <note>
+            Anf. 27 Statsrådet TOMAS ENEROTH (S)
+          </note>
+          <note>
+            Anf. 28 DENIS BEGIC (S)
+          </note>
+          <note>
+            Anf. 29 Statsrådet TOMAS ENEROTH (S)
+          </note>
+          <u xml:id="i-8753b306d031d54f-264" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               Tågens punktlighet
             </seg>
-            <seg n="72605c73">
-              Anf. 30 EMMA BERGINGER (MP)
-            </seg>
-            <seg n="87780aa9">
-              Åtgärder för att skydda lantbrukare mot djurrättsaktivisters
-              brott
-            </seg>
-            <seg n="7f1dfbca">
-              Anf. 34 TOBIAS BILLSTRÖM (M)
-            </seg>
-            <seg n="9ce23042">
-              Gemensamma nordiska insatser mot matchfixning
-            </seg>
-            <seg n="37507ef6">
-              Verktyg mot tvångsgifte
-            </seg>
-            <seg n="a7969918">
+          </u>
+          <note>
+            Anf. 30 EMMA BERGINGER (MP)
+          </note>
+          <note>
+            Anf. 31 Statsrådet TOMAS ENEROTH (S)
+          </note>
+          <note>
+            Anf. 32 EMMA BERGINGER (MP)
+          </note>
+          <note>
+            Anf. 33 Statsrådet TOMAS ENEROTH (S)
+          </note>
+          <note>
+            Åtgärder för att skydda lantbrukare mot djurrättsaktivisters
+            brott
+          </note>
+          <note>
+            Anf. 34 TOBIAS BILLSTRÖM (M)
+          </note>
+          <note>
+            Anf. 35 Justitie- och migrationsminister MORGAN JOHANSSON (S)
+          </note>
+          <note>
+            Anf. 36 TOBIAS BILLSTRÖM (M)
+          </note>
+          <note>
+            Anf. 37 Justitie- och migrationsminister MORGAN JOHANSSON (S)
+          </note>
+          <note>
+            Gemensamma nordiska insatser mot matchfixning
+          </note>
+          <note>
+            Anf. 38 ANGELIKA BENGTSSON (SD)
+          </note>
+          <note>
+            Anf. 39 Statsrådet ANN LINDE (S)
+          </note>
+          <note>
+            Anf. 40 ANGELIKA BENGTSSON (SD)
+          </note>
+          <note>
+            Anf. 41 Statsrådet ANN LINDE (S)
+          </note>
+          <note>
+            Verktyg mot tvångsgifte
+          </note>
+          <note>
+            Anf. 42 DÉSIRÉE PETHRUS (KD)
+          </note>
+          <note>
+            Anf. 43 Justitie- och migrationsminister MORGAN JOHANSSON (S)
+          </note>
+          <note>
+            Anf. 44 DÉSIRÉE PETHRUS (KD)
+          </note>
+          <note>
+            Anf. 45 Justitie- och migrationsminister MORGAN JOHANSSON (S)
+          </note>
+          <u xml:id="i-8753b306d031d54f-265" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               Regeringens uteblivna fördömande av Irans angrepp mot Israel
             </seg>
-            <seg n="b96ab916">
-              Konsekvenserna av USA:s sanktioner mot Kubal i Sundsvall
-            </seg>
-            <seg n="7992c723">
-              Anf. 50 ÅSA ERIKSSON (S)
-            </seg>
-            <seg n="93f25626">
-              Nordisk samordning vid EU:s etablering av myndigheter
-            </seg>
-            <seg n="3468f3a2">
-              Anf. 56 HANS WALLMARK (M)
-            </seg>
-            <seg n="a2d8e496">
+          </u>
+          <note>
+            Anf. 46 JOAR FORSSELL (L)
+          </note>
+          <note>
+            Anf. 47 Statsrådet TOMAS ENEROTH (S)
+          </note>
+          <note>
+            Anf. 48 JOAR FORSSELL (L)
+          </note>
+          <note>
+            Anf. 49 Statsrådet TOMAS ENEROTH (S)
+          </note>
+          <note>
+            Konsekvenserna av USA:s sanktioner mot Kubal i Sundsvall
+          </note>
+          <note>
+            Anf. 50 ÅSA ERIKSSON (S)
+          </note>
+          <note>
+            Anf. 51 Statsrådet ANN LINDE (S)
+          </note>
+          <note>
+            Anf. 52 ÅSA ERIKSSON (S)
+          </note>
+          <note>
+            Anf. 53 Statsrådet ANN LINDE (S)
+          </note>
+          <note>
+            Nordisk samordning vid EU:s etablering av myndigheter
+          </note>
+          <note>
+            Anf. 54 HANS WALLMARK (M)
+          </note>
+          <note>
+            Anf. 55 Statsrådet ANN LINDE (S)
+          </note>
+          <note>
+            Anf. 56 HANS WALLMARK (M)
+          </note>
+          <note>
+            Anf. 57 Statsrådet ANN LINDE (S)
+          </note>
+          <u xml:id="i-8753b306d031d54f-266" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               Eftergymnasial utbildning för särskoleelever
             </seg>
-            <seg n="2d4b5525">
+          </u>
+          <note>
+            Anf. 58 SOLVEIG ZANDER (C)
+          </note>
+          <note>
+            Anf. 59 Utbildningsminister ANNA EKSTRÖM (S)
+          </note>
+          <note>
+            Anf. 60 SOLVEIG ZANDER (C)
+          </note>
+          <note>
+            Anf. 61 Utbildningsminister ANNA EKSTRÖM (S)
+          </note>
+          <u xml:id="i-8753b306d031d54f-267" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               Sambandet mellan undantag från LAS och sexuellt våld
             </seg>
-            <seg n="071996f2">
-              Anf. 62 MAGNUS PERSSON (SD)
-            </seg>
-            <seg n="63451af8">
-              Kriminaliserande av deltagande i terroristorganisationer
-            </seg>
-            <seg n="490edd34">
-              Förseningar i tågtrafiken
-            </seg>
-            <seg n="e612049c">
+          </u>
+          <note>
+            Anf. 62 MAGNUS PERSSON (SD)
+          </note>
+          <note>
+            Anf. 63 Statsrådet TOMAS ENEROTH (S)
+          </note>
+          <note>
+            Anf. 64 MAGNUS PERSSON (SD)
+          </note>
+          <note>
+            Anf. 65 Statsrådet TOMAS ENEROTH (S)
+          </note>
+          <note>
+            Kriminaliserande av deltagande i terroristorganisationer
+          </note>
+          <note>
+            Anf. 66 JOAKIM SANDELL (S)
+          </note>
+          <note>
+            Anf. 67 Justitie- och migrationsminister MORGAN JOHANSSON (S)
+          </note>
+          <note>
+            Anf. 68 JOAKIM SANDELL (S)
+          </note>
+          <note>
+            Anf. 69 Justitie- och migrationsminister MORGAN JOHANSSON (S)
+          </note>
+          <note>
+            Förseningar i tågtrafiken
+          </note>
+          <u xml:id="i-8753b306d031d54f-268" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               Anf. 70 SOFIA WESTERGREN (M)
             </seg>
-            <seg n="5b899442">
+          </u>
+          <note>
+            Anf. 71 Statsrådet TOMAS ENEROTH (S)
+          </note>
+          <u xml:id="i-8753b306d031d54f-269" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               Initiativ för att förbättra trafiksäkerheten
             </seg>
-            <seg n="c8735732">
+          </u>
+          <note>
+            Anf. 72 ELIN GUSTAFSSON (S)
+          </note>
+          <note>
+            Anf. 73 Statsrådet TOMAS ENEROTH (S)
+          </note>
+          <u xml:id="i-8753b306d031d54f-270" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               Bostäder till gymnasieungdomar som sökt uppehållstillstånd
             </seg>
-            <seg n="ffa5e3fa">
-              Anf. 74 LOTTA OLSSON (M)
-            </seg>
-            <seg n="e7d76808">
-              Anf. 75 Utbildningsminister ANNA EKSTRÖM (S)
-            </seg>
-            <seg n="56cc9487">
-              Insatser för att motverka sexualbrott mot kvinnor
-            </seg>
-            <seg n="3053545b">
+          </u>
+          <note>
+            Anf. 74 LOTTA OLSSON (M)
+          </note>
+          <note>
+            Anf. 75 Utbildningsminister ANNA EKSTRÖM (S)
+          </note>
+          <note>
+            Insatser för att motverka sexualbrott mot kvinnor
+          </note>
+          <note>
+            Anf. 76 JOSEFIN MALMQVIST (M)
+          </note>
+          <note>
+            Anf. 77 Justitie- och migrationsminister MORGAN JOHANSSON (S)
+          </note>
+          <u xml:id="i-8753b306d031d54f-271" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               Utrikeshandelsministerns syn på det nordiska samarbetet
             </seg>
-            <seg n="cd4ce923">
-              Anf. 80 LOUISE MEIJER (M)
-            </seg>
-            <seg n="13361cdc">
+          </u>
+          <note>
+            Anf. 78 JAMAL EL-HAJ (S)
+          </note>
+          <note>
+            Anf. 79 Statsrådet ANN LINDE (S)
+          </note>
+          <note>
+            Avskaffande av mängdrabatt vid upprepade sexualbrott
+          </note>
+          <note>
+            Anf. 80 LOUISE MEIJER (M)
+          </note>
+          <note>
+            Anf. 81 Justitie- och migrationsminister MORGAN JOHANSSON (S)
+          </note>
+          <u xml:id="i-8753b306d031d54f-272" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
               Utbildning i hela landet och läraryrkets attraktivitet
             </seg>
           </u>
-          <note n="2b59670c">
-            av Allan Widman (L)
-          </note>
-          <note n="56dce625">
-            till försvarsminister Peter Hultqvist (S)
-          </note>
-          <note n="9e6c3374">
-            av Roger Haddad (L)
-          </note>
-          <note n="e3ed8866">
-            till utbildningsminister Anna Ekström (S)
-          </note>
-          <note n="05eb6643">
-            av Pia Steensland (KD)
-          </note>
-          <note n="6d4cfca0">
-            till socialminister Lena Hallengren (S)
-          </note>
-          <note n="d25943d7">
-            av Kerstin Lundgren (C)
-          </note>
-          <note n="e54131d3">
-            § 4 Anmälan om frågor för skriftliga svar
-          </note>
-          <note n="3444d577">
-            Följande frågor för skriftliga svar hade framställts:
-          </note>
-          <note n="74e66e0d">
-            den 23 januari
-          </note>
-          <note n="fbfa2271">
-            av Jon Thorbjörnson (V)
-          </note>
-          <note n="6d4cfca0">
-            till socialminister Lena Hallengren (S)
-          </note>
-          <note n="98e2b1e9">
-            av Håkan Svenneling (V)
-          </note>
-          <note n="a6a3e801">
-            av Lars Mejern Larsson (S)
-          </note>
-          <note n="d919fa94">
-            till statsrådet Tomas Eneroth (S)
-          </note>
-          <note n="d7ed75c1">
-            av Björn Söder (SD)
-          </note>
-          <note n="114e2b7e">
-            till näringsminister Ibrahim Baylan (S)
-          </note>
-          <note n="10c19249">
-            2018/19:10 Ratificering av CEPA
-          </note>
-          <note n="d7ed75c1">
-            av Björn Söder (SD)
-          </note>
-          <note n="7a4dc030">
-            av Barbro Westerholm (L)
-          </note>
-          <note n="be4824bc">
-            till finansminister Magdalena Andersson (S)
-          </note>
-          <note n="1ec01200">
-            av Johan Andersson (S)
-          </note>
-          <note n="d919fa94">
-            till statsrådet Tomas Eneroth (S)
-          </note>
-          <note n="e1174ee4">
-            av Amineh Kakabaveh (V)
-          </note>
-          <note n="7a4dc030">
-            av Barbro Westerholm (L)
-          </note>
-          <note n="6d4cfca0">
-            till socialminister Lena Hallengren (S)
-          </note>
-          <note n="c7379a1d">
-            2018/19:15 Godkännande av vapen
-          </note>
-          <note n="a481df6f">
-            av Sten Bergheden (M)
-          </note>
-          <note n="b3034b85">
-            till statsrådet Jennie Nilsson (S)
-          </note>
-          <note n="a481df6f">
-            av Sten Bergheden (M)
-          </note>
-          <note n="b3034b85">
-            till statsrådet Jennie Nilsson (S)
-          </note>
-          <note n="b090b4a5">
-            2018/19:17 Migrationsverkets bedömning av konvertiters skyddsskäl
-          </note>
-          <note n="0a7bffd2">
-            av Christina Höj Larsen (V)
-          </note>
-          <note n="1a717da7">
-            till justitie- och migrationsminister Morgan Johansson (S)
-          </note>
-          <note n="b47ea06f">
-            2018/19:18 Tjänstemannaansvar
-          </note>
-          <note n="a481df6f">
-            av Sten Bergheden (M)
-          </note>
-          <note n="1a717da7">
-            till justitie- och migrationsminister Morgan Johansson (S)
-          </note>
-          <note n="7a4dc030">
-            av Barbro Westerholm (L)
-          </note>
-          <note n="6d4cfca0">
-            till socialminister Lena Hallengren (S)
-          </note>
-          <note n="ae9978b6">
-            § 5 Kammaren åtskildes kl. 15.17 .
-          </note>
-          <note n="eda90495">
-            Sammanträdet leddes av förste vice talmannen .
-          </note>
-          <note n="b9ba0feb">
-            Vid protokollet
-          </note>
-          <note n="654c15a5">
-            ANNALENA HANELL
-          </note>
-          <note n="0ab4c33f">
-            /Olof Pilo
-          </note>
-          <note n="7cf3fe78">
-            Innehållsförteckning
-          </note>
-          <note n="4b6567bd">
-            § 1 Frågestund
-          </note>
-          <note n="9bdf57b1">
-            Anf. 1 FÖRSTE VICE TALMANNEN
-          </note>
-          <note n="88149d02">
-            Anf. 2 SAILA QUICKLUND (M)
-          </note>
-          <note n="6db24f06">
-            Anf. 3 Statsrådet TOMAS ENEROTH (S)
-          </note>
-          <note n="f44279dc">
-            Anf. 4 SAILA QUICKLUND (M)
-          </note>
-          <note n="7cdfb0ba">
-            Anf. 5 Statsrådet TOMAS ENEROTH (S)
-          </note>
-          <note n="5ad5d34a">
-            Anf. 6 PAULA BIELER (SD)
-          </note>
-          <note n="db4d48ed">
-            Anf. 7 Justitie- och migrationsminister MORGAN JOHANSSON (S)
-          </note>
-          <note n="af1ba637">
-            Anf. 8 PAULA BIELER (SD)
-          </note>
-          <note n="8d8969e1">
-            Anf. 9 Justitie- och migrationsminister MORGAN JOHANSSON (S)
-          </note>
-          <note n="32078082">
-            Anf. 11 Justitie- och migrationsminister MORGAN JOHANSSON (S)
-          </note>
-          <note n="f0579fac">
-            Anf. 13 Justitie- och migrationsminister MORGAN JOHANSSON (S)
-          </note>
-          <note n="54a3e741">
-            Anf. 14 NOOSHI DADGOSTAR (V)
-          </note>
-          <note n="2fb056cd">
-            Anf. 15 Statsrådet TOMAS ENEROTH (S)
-          </note>
-          <note n="c5b415dc">
-            Anf. 16 NOOSHI DADGOSTAR (V)
-          </note>
-          <note n="16710263">
-            Anf. 17 Statsrådet TOMAS ENEROTH (S)
-          </note>
-          <note n="5689046a">
-            Anf. 18 MICHAEL ANEFUR (KD)
-          </note>
-          <note n="1d3a5d14">
-            Anf. 19 Statsrådet TOMAS ENEROTH (S)
-          </note>
-          <note n="d778f2c7">
-            Anf. 20 MICHAEL ANEFUR (KD)
-          </note>
-          <note n="d77bef1e">
-            Anf. 21 Statsrådet TOMAS ENEROTH (S)
-          </note>
-          <note n="c404420a">
-            Anf. 22 ROGER HADDAD (L)
-          </note>
-          <note n="94dde631">
-            Anf. 23 Utbildningsminister ANNA EKSTRÖM (S)
-          </note>
-          <note n="0f5aa212">
-            Anf. 24 ROGER HADDAD (L)
-          </note>
-          <note n="a659c5b3">
-            Anf. 25 Utbildningsminister ANNA EKSTRÖM (S)
-          </note>
-          <note n="f3dd5ee9">
-            Anf. 26 DENIS BEGIC (S)
-          </note>
-          <note n="2d1f1eb8">
-            Anf. 27 Statsrådet TOMAS ENEROTH (S)
-          </note>
-          <note n="8818f99e">
-            Anf. 28 DENIS BEGIC (S)
-          </note>
-          <note n="4141986d">
-            Anf. 29 Statsrådet TOMAS ENEROTH (S)
-          </note>
-          <note n="da43706d">
-            Anf. 31 Statsrådet TOMAS ENEROTH (S)
-          </note>
-          <note n="59ec16bf">
-            Anf. 32 EMMA BERGINGER (MP)
-          </note>
-          <note n="6038a296">
-            Anf. 33 Statsrådet TOMAS ENEROTH (S)
-          </note>
-          <note n="51304408">
-            Anf. 35 Justitie- och migrationsminister MORGAN JOHANSSON (S)
-          </note>
-          <note n="b8671e19">
-            Anf. 36 TOBIAS BILLSTRÖM (M)
-          </note>
-          <note n="fda5b595">
-            Anf. 37 Justitie- och migrationsminister MORGAN JOHANSSON (S)
-          </note>
-          <note n="4ab81046">
-            Anf. 38 ANGELIKA BENGTSSON (SD)
-          </note>
-          <note n="5f52f76c">
-            Anf. 39 Statsrådet ANN LINDE (S)
-          </note>
-          <note n="4f26e14c">
-            Anf. 40 ANGELIKA BENGTSSON (SD)
-          </note>
-          <note n="fc4df578">
-            Anf. 41 Statsrådet ANN LINDE (S)
-          </note>
-          <note n="a390b593">
-            Anf. 42 DÉSIRÉE PETHRUS (KD)
-          </note>
-          <note n="591bd4a6">
-            Anf. 43 Justitie- och migrationsminister MORGAN JOHANSSON (S)
-          </note>
-          <note n="66d40c7a">
-            Anf. 44 DÉSIRÉE PETHRUS (KD)
-          </note>
-          <note n="e7867cc8">
-            Anf. 45 Justitie- och migrationsminister MORGAN JOHANSSON (S)
-          </note>
-          <note n="bc6eac71">
-            Anf. 46 JOAR FORSSELL (L)
-          </note>
-          <note n="30e0a06a">
-            Anf. 47 Statsrådet TOMAS ENEROTH (S)
-          </note>
-          <note n="513a54bb">
-            Anf. 48 JOAR FORSSELL (L)
-          </note>
-          <note n="d9cb5923">
-            Anf. 49 Statsrådet TOMAS ENEROTH (S)
-          </note>
-          <note n="b7f04d86">
-            Anf. 51 Statsrådet ANN LINDE (S)
-          </note>
-          <note n="69e295f4">
-            Anf. 52 ÅSA ERIKSSON (S)
-          </note>
-          <note n="c687c82e">
-            Anf. 53 Statsrådet ANN LINDE (S)
-          </note>
-          <note n="cdfe25c6">
-            Anf. 54 HANS WALLMARK (M)
-          </note>
-          <note n="a252284d">
-            Anf. 55 Statsrådet ANN LINDE (S)
-          </note>
-          <note n="ddda77dc">
-            Anf. 57 Statsrådet ANN LINDE (S)
-          </note>
-          <note n="638fd104">
-            Anf. 58 SOLVEIG ZANDER (C)
-          </note>
-          <note n="cd48d74b">
-            Anf. 59 Utbildningsminister ANNA EKSTRÖM (S)
-          </note>
-          <note n="b67e9a3a">
-            Anf. 60 SOLVEIG ZANDER (C)
-          </note>
-          <note n="ca08c81d">
-            Anf. 61 Utbildningsminister ANNA EKSTRÖM (S)
-          </note>
-          <note n="a1c64ce5">
-            Anf. 63 Statsrådet TOMAS ENEROTH (S)
-          </note>
-          <note n="13375107">
-            Anf. 64 MAGNUS PERSSON (SD)
-          </note>
-          <note n="86f004a7">
-            Anf. 65 Statsrådet TOMAS ENEROTH (S)
-          </note>
-          <note n="f913520b">
-            Anf. 66 JOAKIM SANDELL (S)
-          </note>
-          <note n="a7423e05">
-            Anf. 67 Justitie- och migrationsminister MORGAN JOHANSSON (S)
-          </note>
-          <note n="b0726d32">
-            Anf. 68 JOAKIM SANDELL (S)
-          </note>
-          <note n="b622aaca">
-            Anf. 69 Justitie- och migrationsminister MORGAN JOHANSSON (S)
-          </note>
-          <note n="f128da44">
-            Anf. 71 Statsrådet TOMAS ENEROTH (S)
-          </note>
-          <note n="1dd53066">
-            Anf. 72 ELIN GUSTAFSSON (S)
-          </note>
-          <note n="31d8f39d">
-            Anf. 73 Statsrådet TOMAS ENEROTH (S)
-          </note>
-          <note n="d41f6dfa">
-            Anf. 76 JOSEFIN MALMQVIST (M)
-          </note>
-          <note n="25072a87">
-            Anf. 77 Justitie- och migrationsminister MORGAN JOHANSSON (S)
-          </note>
-          <note n="3d027bdd">
-            Anf. 78 JAMAL EL-HAJ (S)
-          </note>
-          <note n="9fd45162">
-            Anf. 79 Statsrådet ANN LINDE (S)
-          </note>
-          <note n="81746454">
-            Avskaffande av mängdrabatt vid upprepade sexualbrott
-          </note>
-          <note n="e0684b38">
-            Anf. 81 Justitie- och migrationsminister MORGAN JOHANSSON (S)
-          </note>
-          <note n="b79bc403">
+          <note>
             Anf. 82 GUNILLA SVANTORP (S)
           </note>
-          <note n="24d0e7cd">
+          <note>
             Anf. 83 Utbildningsminister ANNA EKSTRÖM (S)
           </note>
-          <note n="bcffb319">
+          <note>
             § 2 Anmälan om faktapromemoria
           </note>
-          <note n="68f9bc15">
+          <note>
             § 3 Anmälan om interpellationer
           </note>
-          <note n="e54131d3">
+          <note>
             § 4 Anmälan om frågor för skriftliga svar
           </note>
-          <note n="dd3800cf">
+          <note>
             § 5 Kammaren åtskildes kl. 15.17.
           </note>
-          <note n="009e1dea">
-            Tryck: Elanders Sverige AB, Vällingby 2019
-          </note>
+          <u xml:id="i-8753b306d031d54f-273" prev="i-8753b306d031d54f-239" who="Q4946204">
+            <seg>
+              Tryck: Elanders Sverige AB, Vällingby 2019
+            </seg>
+          </u>
         </div>
       </body>
     </text>

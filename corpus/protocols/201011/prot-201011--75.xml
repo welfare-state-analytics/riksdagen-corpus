@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2010</title>
+        <title>Riksdagens protocols 201011</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2010</title>
+          <title>Riksdagens protocols 201011</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -58,53 +55,52 @@
       <front>
         <div type="preface">
           <head>prot-201011--75</head>
-          <docDate when="2010-03-18">2010-03-18</docDate>
+          <docDate when="2011-03-18">2011-03-18</docDate>
         </div>
       </front>
       <body>
         <div>
-          <note n="63fd9a36">
-            ﻿
-          </note>
-          <note n="5e6cd671">
+          <note>
             Riksdagens protokoll
           </note>
-          <note n="b762edf6">
+          <note>
             2010/11:75
           </note>
-          <note type="date" n="7bd6c765">
+          <note>
             Fredagen den 18 mars
           </note>
-          <note n="5363e273">
+          <note>
             Kl. 09:00 - 10:04
           </note>
-          <note n="b241d3e4">
+          <note>
             1 § Ledighet
           </note>
-          <note n="2d79f881">
+          <note>
             Talmannen meddelade att Ibrahim Baylan (S) ansökt om ledighet
             under tiden den 28 mars15 augusti.
           </note>
-          <note n="5739bfdf">
+          <note>
             Kammaren biföll denna ansökan.
           </note>
-          <note n="e3d1a205">
+          <note>
             Talmannen anmälde att Lars Lilja (S) skulle tjänstgöra som ersättare
             för Ibrahim Baylan.
           </note>
-          <note n="c49d2836">
+          <note>
             2 § Svar på interpellation 2010/11:256 om barnomsorg
           </note>
-          <note type="speaker" n="5acdb85f">
+          <note type="speaker">
             Anf. 1 Statsrådet NYAMKO SABUNI (FP):
           </note>
-          <u who="Q241851" xml:id="i-ccc8e12d7955c5f0-0" n="6cb4db30">
-            <seg n="d3f8a092">
+          <u xml:id="i-b36e50f8ade11edf-0" next="i-b36e50f8ade11edf-5" who="Q241851">
+            <seg>
               Herr talman! Josefin Brink har frågat mig om jag avser att ta
               initiativ till en lagstiftning om rätt till barnomsorg på kvällar,
               nätter och helger för alla barn.
             </seg>
-            <seg n="1e0beebc">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-1" prev="i-b36e50f8ade11edf-0" who="Q241851">
+            <seg>
               Utgångspunkten är att förskola, fritidshem och annan pedagogisk
               verksamhet ska erbjudas i den omfattning det behövs med hänsyn
               till föräldrarnas förvärvsarbete, studier eller familjens situation
@@ -113,7 +109,9 @@
               ca 3 800 barn plats i sådan verksamhet genom nattöppna förskolor,
               familjedaghem eller barnvårdare i det egna hemmet.
             </seg>
-            <seg n="7560afa0">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-2" prev="i-b36e50f8ade11edf-0" who="Q241851">
+            <seg>
               Som tidigare informerats här i kammaren ska föräldrar som har
               behov av omsorg utanför reguljär arbetstid få sitt behov prövat
               av kommunen. I den nya skollagen, som ska börja tillämpas den
@@ -122,7 +120,9 @@
               erbjuds, i den omfattning det behövs med hänsyn till föräldrarnas
               förvärvsarbete och familjens situation i övrigt.
             </seg>
-            <seg n="9b955329">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-3" prev="i-b36e50f8ade11edf-0" who="Q241851">
+            <seg>
               Att sträva efter innebär enligt lagen att en kommun inte utan
               vidare kan avstå från att tillhandahålla sådan omsorg. Ambitionen
               måste vara att tillhandahålla kommunalt finansierad omsorg även
@@ -135,13 +135,17 @@
               under så kallade obekväma tider. Men det innebär ingen rättighet
               att i enskilda fall få omsorg under obekväm arbetstid.
             </seg>
-            <seg n="4c1cb28f">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-4" prev="i-b36e50f8ade11edf-0" who="Q241851">
+            <seg>
               Kommunen bör för varje ansökan om plats göra en individuell bedömning
               och besluta därefter. Det ska även vara upp till kommunen att
               besluta i vilka former verksamheten ska bedrivas samt tidpunkten
               för när kvällsomsorgen tar vid efter dagtid.
             </seg>
-            <seg n="ee4f4e93">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-5" prev="i-b36e50f8ade11edf-0" who="Q241851">
+            <seg>
               Tillgången till förskola och annan pedagogisk verksamhet av hög
               kvalitet är en av grundförutsättningarna för att kvinnor och män
               ska kunna förena arbete eller studier med familjeliv. Jag är för
@@ -149,14 +153,16 @@
               utan vill först följa hur den nya skollagen kommer att tillämpas.
             </seg>
           </u>
-          <note type="speaker" n="e1d23a1a">
+          <note type="speaker">
             Anf. 2 JOSEFIN BRINK (V):
           </note>
-          <u who="Q517206" xml:id="i-13f12b285673d038-0" n="e8ea398d">
-            <seg n="b8d99d00">
+          <u xml:id="i-b36e50f8ade11edf-6" next="i-b36e50f8ade11edf-12" who="Q517206">
+            <seg>
               Herr talman! Tack, Nyamko Sabuni, för svaret på min interpellation!
             </seg>
-            <seg n="8a14974c">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-7" prev="i-b36e50f8ade11edf-6" who="Q517206">
+            <seg>
               Det var inte helt oväntat att Nyamko Sabuni inte är beredd att
               gå vidare med någon ny lagstiftning med tanke på att man precis,
               som sagt, antagit en ny skollag. Problemet är att ingen tror att
@@ -164,7 +170,9 @@
               till barnomsorg utanför kontorstid. Snarare har flera tolkat skrivningarna
               i lagstiftningen som lite svagare.
             </seg>
-            <seg n="255817e0">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-8" prev="i-b36e50f8ade11edf-6" who="Q517206">
+            <seg>
               Att kommuner inte erbjuder barnomsorg på obekväm arbetstid alls
               i den utsträckning som det finns behov av blir alltmer uppenbart.
               Att det egentligen inte heller finns någon möjlighet att pressa
@@ -174,7 +182,9 @@
               göra det. Den lagstyrda verksamheten kunde man inte skära ned
               på, men detta gick bra.
             </seg>
-            <seg n="c2d2b1d5">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-9" prev="i-b36e50f8ade11edf-6" who="Q517206">
+            <seg>
               Det är en väldigt stor grupp som har det här behovet i dag, och
               den är snabbt växande. Vänsterpartiet lät nyligen riksdagens utredningstjänst
               räkna lite på hur det ser ut. Det visade sig då att så många som
@@ -188,7 +198,9 @@
               att här finns det en diskrepans, därför att tillgången snarare
               har minskat än ökat under samma period.
             </seg>
-            <seg n="147347ec">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-10" prev="i-b36e50f8ade11edf-6" who="Q517206">
+            <seg>
               Anledningen till att detta är så viktigt jag tog ju min utgångspunkt
               i barnfattigdomen är att vi vet att de barn som är allra mest
               utsatta är de som har ensamstående föräldrar, oftast kvinnor.
@@ -198,7 +210,9 @@
               på annat än kontorstider kan det i praktiken bli helt omöjligt
               att ta ett heltidsjobb, och man fastnar då i en fattigdomsfälla.
             </seg>
-            <seg n="994e4f86">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-11" prev="i-b36e50f8ade11edf-6" who="Q517206">
+            <seg>
               Det är intressant att den 8 mars, på kvinnodagen, kom Kommunal
               med en undersökning som man hade gjort bland sina medlemmar som
               visar att så många som var tredje Kommunalmedlem, alltså de som
@@ -210,7 +224,9 @@
               eller människor som jobbar i andra serviceyrken hade man fått
               ungefär samma typ av besked.
             </seg>
-            <seg n="bcc2a11b">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-12" prev="i-b36e50f8ade11edf-6" who="Q517206">
+            <seg>
               I servicesektorn jobbar ungefär 70 procent regelbundet på obekväma
               arbetstider, och de allra flesta som jobbar i de här branscherna
               är kvinnor. Då menar jag att nu finns det mycket fakta som talar
@@ -223,11 +239,11 @@
               behövs, inte bara på kontorstid.
             </seg>
           </u>
-          <note type="speaker" n="3aae38cf">
+          <note type="speaker">
             Anf. 3 Statsrådet NYAMKO SABUNI (FP):
           </note>
-          <u who="Q241851" xml:id="i-ccc8e12d7955c5f0-1" n="6cb4db30">
-            <seg n="0927638a">
+          <u xml:id="i-b36e50f8ade11edf-13" next="i-b36e50f8ade11edf-18" who="Q241851">
+            <seg>
               Herr talman! Jag håller med om Josefin Brinks beskrivning att
               många människor jobbar på obekväma arbetstider. Jag håller inte
               med om att det finns en akut brist på förskola. Men jag håller
@@ -236,14 +252,18 @@
               få det. I så fall är det möjligt att vända sig till Skolinspektionen
               med sin begäran, om man anser att man har rätt att få detta.
             </seg>
-            <seg n="5b2a94eb">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-14" prev="i-b36e50f8ade11edf-13" who="Q241851">
+            <seg>
               Det handlar också om att göra prioriteringar. Vi prioriterar
               att se till att pengarna används till att förbättra den generella
               allmänna barnomsorgen, förskolan, som erbjuds på dagtid för de
               allra flesta barn, också för de barn vars föräldrar arbetar på
               obekväm arbetstid.
             </seg>
-            <seg n="b867cf5b">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-15" prev="i-b36e50f8ade11edf-13" who="Q241851">
+            <seg>
               Skulle vi säga att det per automatik ska finnas en skyldighet
               att ha förskoleverksamhet dygnet runt tror jag inte att vi skulle
               ha råd att ha en så pass bra förskola som vi har i dag. Det är
@@ -254,7 +274,9 @@
               När alla andra möjligheter har tömts bör man erbjudas barnomsorg
               på obekväm arbetstid.
             </seg>
-            <seg n="697d1050">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-16" prev="i-b36e50f8ade11edf-13" who="Q241851">
+            <seg>
               Skulle det vara så att man som enskild familj anser att det inte
               finns några andra möjligheter och man ändå inte får tillgång till
               barnomsorg för att kunna förvärvsarbeta, då vill jag gärna se
@@ -271,24 +293,28 @@
               för dem som absolut behöver det. Det är detta jag hoppas att den
               nya lagstiftningen ska leda till.
             </seg>
-            <seg n="4bdc441f">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-17" prev="i-b36e50f8ade11edf-13" who="Q241851">
+            <seg>
               Jag är redo att följa upp lagen. Lever inte kommunerna upp till
               sitt åtagande att efter enskilda bedömningar ge hjälp och stöd
               med barnomsorg till dem som behöver det är jag inte främmande
               för att se över lagen.
             </seg>
-            <seg n="5b711419">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-18" prev="i-b36e50f8ade11edf-13" who="Q241851">
+            <seg>
               Men lagen har ännu inte trätt i kraft. Låt oss följa upp den
               när den träder i kraft och använda oss av Skolinspektionen som
               kvalitetssäkrare. Skulle vi sedan se att kommunerna inte lever
               upp till sitt åtagande kan Josefin och jag debattera det i kammaren.
             </seg>
           </u>
-          <note type="speaker" n="d4e76c3b">
+          <note type="speaker">
             Anf. 4 JOSEFIN BRINK (V):
           </note>
-          <u who="Q517206" xml:id="i-13f12b285673d038-1" n="e8ea398d">
-            <seg n="0b0b7834">
+          <u xml:id="i-b36e50f8ade11edf-19" next="i-b36e50f8ade11edf-27" who="Q517206">
+            <seg>
               Herr talman! Att regeringen prioriterar bättre kvalitet i barnomsorgen
               ställer jag mig frågande till när man använder en massa resurser
               till att betala ut hemmafrubidrag och annat i stället för att
@@ -296,13 +322,17 @@
               minskat ganska kraftigt på senare år. Det har med andra ord gjorts
               stora nedskärningar över hela linjen på kvaliteten i förskolan.
             </seg>
-            <seg n="135a81aa">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-20" prev="i-b36e50f8ade11edf-19" who="Q517206">
+            <seg>
               Det är klart att det skulle kosta pengar att satsa på generell
               tillgång till barnomsorg på obekväm arbetstid. Frågan är dock
               om inte den kostnaden ganska snabbt skulle betalas igen genom
               att framför allt fler kvinnor skulle få möjlighet att jobba heltid.
             </seg>
-            <seg n="3743c274">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-21" prev="i-b36e50f8ade11edf-19" who="Q517206">
+            <seg>
               Att inte ha möjlighet att jobba heltid är och förblir ett av
               de största problemen på arbetsmarknaden för kvinnor. Är bristen
               på barnomsorg en av de saker som gör att kvinnor inte kan jobba
@@ -310,14 +340,18 @@
               att se över det och fundera över om det finns ett strukturellt
               problem med barnomsorgen.
             </seg>
-            <seg n="1748f6ab">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-22" prev="i-b36e50f8ade11edf-19" who="Q517206">
+            <seg>
               På 1970-talet var barnomsorgen den viktigaste fråga som kvinnorörelsen
               drev. Genom att bygga ut barnomsorgen kunde väsentligt fler kvinnor
               arbeta. Givetvis var det en initial kostnad, men som helhet och
               i förlängningen har inte bara kvinnorna utan hela samhället tjänat
               på det.
             </seg>
-            <seg n="76484694">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-23" prev="i-b36e50f8ade11edf-19" who="Q517206">
+            <seg>
               Med tanke på att arbetsmarknaden har förändrats så mycket sedan
               70-talet och att många fler småbarnsföräldrar jobbar utanför kontorstider
               har vi åter en situation där bristen på barnomsorg utgör ett hinder
@@ -326,7 +360,9 @@
               steg och tänka att detta är vår tids utbyggnad av förskolan. Det
               är så man borde se på frågan.
             </seg>
-            <seg n="a90b6997">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-24" prev="i-b36e50f8ade11edf-19" who="Q517206">
+            <seg>
               Nyamko Sabuni säger att enskilda personer har rätt att driva
               frågan upp till Skolverket. Men vi vet att det inte är så enkelt
               för en enskild person att driva sådana här ärenden. Många gånger
@@ -335,7 +371,9 @@
               med ens egna tider anpassar man sig, även om det skulle vara bättre
               om det var på ett annat sätt.
             </seg>
-            <seg n="b35b0f13">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-25" prev="i-b36e50f8ade11edf-19" who="Q517206">
+            <seg>
               Det visade sig i Kommunals undersökning att hela 67 procent av
               föräldrarna aldrig har fått frågan om vilka behov av öppettider
               i förskolan de har. Vi vet båda två att folk i allmänhet inte
@@ -345,7 +383,9 @@
               tala om att detta erbjudande finns, fråga vilka behov föräldrarna
               har och sedan möta dem.
             </seg>
-            <seg n="c3e28cd0">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-26" prev="i-b36e50f8ade11edf-19" who="Q517206">
+            <seg>
               Jag tror inte att någon föreslår att dagis ska vara öppet dygnet
               runt oavsett om det finns behov eller inte. Men stärker man lagstiftningen,
               tillför resurser och aktivt arbetar med att tala om för föräldrarna
@@ -353,7 +393,9 @@
               kvällar och så vidare skulle man skapa en helt annan situation
               än i dag och anpassa öppettiderna efter de behov som finns.
             </seg>
-            <seg n="4b210d3c">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-27" prev="i-b36e50f8ade11edf-19" who="Q517206">
+            <seg>
               Är man arbetssökande och inte kan ta ett jobb för att det inte
               finns tillgänglig barnomsorg hamnar man i fällan att man kan bli
               av med sin a-kasseersättning. Brist på barnomsorg är inte giltigt
@@ -362,11 +404,11 @@
               inte hamnar i den.
             </seg>
           </u>
-          <note type="speaker" n="23982a72">
+          <note type="speaker">
             Anf. 5 Statsrådet NYAMKO SABUNI (FP):
           </note>
-          <u who="Q241851" xml:id="i-ccc8e12d7955c5f0-2" n="6cb4db30">
-            <seg n="f506fcec">
+          <u xml:id="i-b36e50f8ade11edf-28" next="i-b36e50f8ade11edf-38" who="Q241851">
+            <seg>
               Herr talman! Josefin Brink och jag talar samma språk när hon
               nu säger att ingen förväntar sig att förskolan ska vara öppen
               dygnet runt men att det ska finnas hjälp för dem som behöver det.
@@ -376,7 +418,9 @@
               om att kommunen har skyldighet att ordna barnomsorg på obekväm
               arbetstid om det inte finns andra möjligheter.
             </seg>
-            <seg n="3cc4fcdc">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-29" prev="i-b36e50f8ade11edf-28" who="Q241851">
+            <seg>
               Låt oss ägna oss åt att informera medborgarna om de rättigheter
               som finns i stället för att stå här och debattera om förstärkning
               av lagen åt ena eller andra hållet. Oavsett hur stark lagstiftning
@@ -385,12 +429,16 @@
               hålla med Josefin om att det är just kunskap om de rättigheter
               man har som saknas.
             </seg>
-            <seg n="a2de9d43">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-30" prev="i-b36e50f8ade11edf-28" who="Q241851">
+            <seg>
               Alla som jobbar på obekväm arbetstid behöver inte per automatik
               offentlig barnomsorg, men för dem som behöver det ska det dock
               absolut finnas.
             </seg>
-            <seg n="2e42e3ad">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-31" prev="i-b36e50f8ade11edf-28" who="Q241851">
+            <seg>
               Det handlar hela tiden om att prioritera och se hur vi kan öka
               kvaliteten och tillgängligheten i vår förskola. Den har redan
               i dag god kvalitet och tillgänglighet, men allt bra kan göras
@@ -399,12 +447,16 @@
               till den konkreta verksamheten kommer att öka kvaliteten inom
               barnomsorgen ännu mer.
             </seg>
-            <seg n="9a2a478e">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-32" prev="i-b36e50f8ade11edf-28" who="Q241851">
+            <seg>
               Fokus i debatten om förskolans kvalitet ligger alltid på förskollärarna.
               De är jätteviktiga, och med den nya lagen kommer de att få ett
               ännu viktigare uppdrag.
             </seg>
-            <seg n="62c23d4c">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-33" prev="i-b36e50f8ade11edf-28" who="Q241851">
+            <seg>
               Kvaliteten i den svenska förskolan handlar givetvis om hela arbetslaget
               som finns i förskolan. Barnskötare och andra typer av pedagoger
               är också viktiga. Det behövs inte bara förskollärare utan olika
@@ -415,15 +467,21 @@
               dem som finns och inte bara fokusera på förskollärare, även om
               de har ett viktigt arbete.
             </seg>
-            <seg n="bf04c8e2">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-34" prev="i-b36e50f8ade11edf-28" who="Q241851">
+            <seg>
               Vi har ökat tillgängligheten. Rätt till förskola har man nu från
               det att man är tre år. Tidigare var det fyra år.
             </seg>
-            <seg n="6d062a03">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-35" prev="i-b36e50f8ade11edf-28" who="Q241851">
+            <seg>
               Vi vidtar alltså åtgärder, men hela tiden handlar det om att
               se var vi gör störst nytta och var det är mest akut.
             </seg>
-            <seg n="b6c4a46f">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-36" prev="i-b36e50f8ade11edf-28" who="Q241851">
+            <seg>
               Det finns en lagstiftning som ger enskilda rätt att ansöka om
               att få barnomsorg på obekväm arbetstid. Jag är dock inte beredd
               att ändra den så att det per automatik ska finnas öppna förskolor
@@ -432,25 +490,29 @@
               den allmänna barnomsorgen. Men för dem som inte kan lösa det ska
               kommunen självklart ställa upp och erbjuda barnomsorg.
             </seg>
-            <seg n="cdbe022d">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-37" prev="i-b36e50f8ade11edf-28" who="Q241851">
+            <seg>
               Jag håller med om att det är problematiskt när man söker arbete
               och måste tacka nej till jobb för att förskoleplats saknas. Det
               är bland annat därför vi har infört förskoleplatsgarantin. Kommunen
               har skyldighet att erbjuda förskola inom fyra månader. Den kommun
               som inte gör det kan föreläggas vite.
             </seg>
-            <seg n="55acf117">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-38" prev="i-b36e50f8ade11edf-28" who="Q241851">
+            <seg>
               Jag förstår att det trots allt kan uppstå problem i varje enskild
               situation, men lagstiftningen har förstärkts så att svenska föräldrar
               ska kunna känna sig säkra på att de har tillgång till förskola
               och trygga när de lämnar sina barn på förskolan.
             </seg>
           </u>
-          <note type="speaker" n="9d87b12a">
+          <note type="speaker">
             Anf. 6 JOSEFIN BRINK (V):
           </note>
-          <u who="Q517206" xml:id="i-13f12b285673d038-2" n="e8ea398d">
-            <seg n="aeedc3c4">
+          <u xml:id="i-b36e50f8ade11edf-39" next="i-b36e50f8ade11edf-43" who="Q517206">
+            <seg>
               Herr talman! Den lagstadgade rätten till barnomsorg på kontorstid
               innebär inte att alla kommuner ska ha ett obegränsat antal platser
               oavsett hur många barn det finns. Lagstiftningen är utformad så
@@ -458,7 +520,9 @@
               tider behoven finns. Det är här det glappar. I praktiken gäller
               bara barnomsorgsgarantin på vissa tider och inte på obekväm arbetstid.
             </seg>
-            <seg n="f6ff94de">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-40" prev="i-b36e50f8ade11edf-39" who="Q517206">
+            <seg>
               Det händer inte heller något med de kommuner som inte erbjuder
               barnomsorg på obekväm arbetstid trots att det finns behov. Det
               är det stora problemet. Det faktum att en massa kommuner valde
@@ -467,14 +531,18 @@
               på samma sätt som den barnomsorg som är på kontorstid. Därför
               anser jag att det behövs en förstärkning.
             </seg>
-            <seg n="5d9ad40b">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-41" prev="i-b36e50f8ade11edf-39" who="Q517206">
+            <seg>
               Det behövs naturligtvis en satsning och det behövs tydliga signaler
               om att man kommer att anställa mer personal i de här verksamheterna.
               Det är inte endast fråga om lagstiftning, utan det handlar om
               en stor satsning. Det kanske är där skon klämmer, att regeringen
               inte vill lägga några pengar på detta.
             </seg>
-            <seg n="44f0b99d">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-42" prev="i-b36e50f8ade11edf-39" who="Q517206">
+            <seg>
               Var tredje medlem i Kommunalarbetareförbundet, som är en stor
               och representativ organisation för förvärvsarbetande kvinnor,
               uppger att de inte kan jobba heltid på grund av att förskolan
@@ -484,15 +552,17 @@
               och försörja sig på samma villkor som män samtidigt som de är
               föräldrar.
             </seg>
-            <seg n="5161b549">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-43" prev="i-b36e50f8ade11edf-39" who="Q517206">
+            <seg>
               Vi återkommer säkert i den här frågan framöver.
             </seg>
           </u>
-          <note type="speaker" n="790e939b">
+          <note type="speaker">
             Anf. 7 Statsrådet NYAMKO SABUNI (FP):
           </note>
-          <u who="Q241851" xml:id="i-ccc8e12d7955c5f0-3" n="6cb4db30">
-            <seg n="9a644f16">
+          <u xml:id="i-b36e50f8ade11edf-44" next="i-b36e50f8ade11edf-47" who="Q241851">
+            <seg>
               Herr talman! Det skulle vara ett väldigt stort problem om var
               tredje medlem i Kommunal inte kan arbeta heltid bara för att det
               inte finns en lag som säger att det finns möjlighet att få förskola
@@ -501,7 +571,9 @@
               går eftersom det finns ett annat slags nätverk som kommunen tycker
               kan stödja familjens behov.
             </seg>
-            <seg n="db47134c">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-45" prev="i-b36e50f8ade11edf-44" who="Q241851">
+            <seg>
               Jag vet inte hur det är. Om man säger att var tredje person jobbar
               deltid eller att var tredje person jobbar på obekväm arbetstid
               och att det därför måste finnas en öppen förskola landar vi i
@@ -511,7 +583,9 @@
               har kommunen skyldighet att se till att barnet har rätt till barnomsorg
               på obekväm arbetstid.
             </seg>
-            <seg n="8ab40e32">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-46" prev="i-b36e50f8ade11edf-44" who="Q241851">
+            <seg>
               Jag tänker inte göra detta generellt. Jag vet att många barn
               har någon att ty sig till. För dem som inte har det måste vi garantera
               att det finns. I övrigt måste vi satsa på att den allmänna förskola
@@ -521,7 +595,9 @@
               att kunna upprätthålla den goda kvalitet och tillgänglighet som
               vi har i den svenska förskolan i dag.
             </seg>
-            <seg n="8efe43e8">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-47" prev="i-b36e50f8ade11edf-44" who="Q241851">
+            <seg>
               Som Josefin Brink påpekar ska vi följa lagen. Om det inte fungerar
               ordentligt får vi återkomma. Vi kan inte föra en debatt som om
               alla som arbetar på obekväm tid alltid måste ha tillgång till
@@ -531,18 +607,18 @@
               självklart följa upp det.
             </seg>
           </u>
-          <note n="e56784f7">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="f83fc068">
+          <note>
             3 § Svar på interpellation 2010/11:250 om sparbankers framtida
             konkurrenssituation
           </note>
-          <note type="speaker" n="ca724df2">
+          <note type="speaker">
             Anf. 8 Statsrådet PETER NORMAN (M):
           </note>
-          <u who="unknown" xml:id="i-ccc8e12d7955c5f0-4" n="6cb4db30">
-            <seg n="8fb9b308">
+          <u xml:id="i-b36e50f8ade11edf-48" next="i-b36e50f8ade11edf-58" who="Q3209237">
+            <seg>
               Herr talman! Ulla Andersson har frågat mig dels om jag avser
               att skapa ett regelsystem som tar hänsyn till lokala sparbankers
               särskilda förutsättningar och struktur och som samtidigt underlättar
@@ -550,12 +626,16 @@
               att vidta för att skapa en bättre bankservice för landsbygden
               och dess invånare.
             </seg>
-            <seg n="ef35e0be">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-49" prev="i-b36e50f8ade11edf-48" who="Q3209237">
+            <seg>
               Låt mig först av allt säga att jag delar Ulla Anderssons bild
               av de lokala sparbankerna som en viktig del av det finansiella
               systemet. Sparbankerna står för kontinuitet och lokal förankring.
             </seg>
-            <seg n="19dcfc33">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-50" prev="i-b36e50f8ade11edf-48" who="Q3209237">
+            <seg>
               Sparbankerna har, jämfört med andra banker, en annorlunda struktur
               som till stor del kan förklaras med utgångspunkt i de idéer som
               låg till grund för de första sparbanker som grundades i Sverige
@@ -565,14 +645,18 @@
               sköts. Detta lever kvar i vår nuvarande sparbankslag, som tydligt
               säger att sparbanker ska drivas utan vinstintresse.
             </seg>
-            <seg n="8c22c757">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-51" prev="i-b36e50f8ade11edf-48" who="Q3209237">
+            <seg>
               Sparbanker är alltså annorlunda, och det finns historiska orsaker
               till det. Modellen med fristående sparbanker har också visat sig
               vara mycket livskraftig. I dag verkar de fristående sparbankerna
               på en marknad där de konkurrerar med många olika aktörer. De har
               visat sig klara detta väl.
             </seg>
-            <seg n="a0ebc3b3">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-52" prev="i-b36e50f8ade11edf-48" who="Q3209237">
+            <seg>
               Ulla Andersson tar upp frågan om det behövs regler som tar särskild
               hänsyn till lokala sparbankers särskilda förutsättningar och samtidigt
               underlättar konkurrens på lika villkor. Det är en intressant men
@@ -583,7 +667,9 @@
               visat att nuvarande regler ställer för låga krav på kvaliteten
               och nivån på det kapital som bör finnas i en bank.
             </seg>
-            <seg n="431c8fe4">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-53" prev="i-b36e50f8ade11edf-48" who="Q3209237">
+            <seg>
               De kapitaltäckningsregler som finns i dag gäller såväl för de
               fristående sparbankerna som för andra, större, marknadsaktörer.
               Det finns ett värde i att samma regler gäller för alla och att
@@ -591,14 +677,18 @@
               banker som av en eller annan anledning inte fick allvarliga problem
               under den senaste krisen.
             </seg>
-            <seg n="50a1b1f5">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-54" prev="i-b36e50f8ade11edf-48" who="Q3209237">
+            <seg>
               Med detta sagt är det onekligen så att Basel 3 delvis är mycket
               komplext och utformat för stora internationella banker. Det kan
               i vissa delar finnas anledning att överväga en utformning av reglerna
               på ett proportionerligt sätt, anpassat till institutens storlek
               och verksamhet.
             </seg>
-            <seg n="6be09785">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-55" prev="i-b36e50f8ade11edf-48" who="Q3209237">
+            <seg>
               När det gäller frågan om egenkapitalbevis, som Ulla Andersson
               tar upp, är jag väl medveten om att det finns särskilda regler
               för detta i Norge. Det är inte helt okomplicerat att låta sparbanker
@@ -607,18 +697,24 @@
               Det är dock viktigt att denna fråga blir ordentligt analyserad
               och detta arbete pågår för närvarande på Finansdepartementet.
             </seg>
-            <seg n="f51acca9">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-56" prev="i-b36e50f8ade11edf-48" who="Q3209237">
+            <seg>
               När det gäller frågan om bankservice på landsbygden måste det,
               menar jag, vara upp till de olika bankerna att välja var de vill
               etablera sig. Jag tycker samtidigt att det här är värt att nämna
               det pågående arbete som regeringen bedriver på flera områden.
             </seg>
-            <seg n="282d45d6">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-57" prev="i-b36e50f8ade11edf-48" who="Q3209237">
+            <seg>
               Regeringen har nyligen bildat Inlandsinnovation AB, som bland
               annat har till syfte att förbättra förutsättningarna för lokala
               finansieringslösningar i norra Sveriges inland.
             </seg>
-            <seg n="ad57606d">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-58" prev="i-b36e50f8ade11edf-48" who="Q3209237">
+            <seg>
               Beträffande tillgången till grundläggande betaltjänster gör regeringen
               bedömningen att det finns behov av att stimulera framväxten av
               marknadsdrivna lösningar. Vidare arbetar för närvarande Post-
@@ -628,16 +724,18 @@
               tjänster löper ut.
             </seg>
           </u>
-          <note type="speaker" n="94455107">
+          <note type="speaker">
             Anf. 9 ULLA ANDERSSON (V):
           </note>
-          <u who="Q4935938" xml:id="i-fb2ddf0090173b8e-0" n="e7bd3130">
-            <seg n="59fae7bc">
+          <u xml:id="i-b36e50f8ade11edf-59" next="i-b36e50f8ade11edf-69" who="Q4935938">
+            <seg>
               Herr talman! Tack, statsrådet, för ett svar som piggade upp gårdagen
               en del. Det är alltid positivt när det finns en möjlighet att
               ens förslag kan bli verklighet.
             </seg>
-            <seg n="684fee55">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-60" prev="i-b36e50f8ade11edf-59" who="Q4935938">
+            <seg>
               Vänsterpartiet har under åren lagt fram en rad förslag för att
               främja landsbygdsutvecklingen. Vi är övertygade om att social
               och ekonomisk utveckling på landsbygden är avgörande för hela
@@ -647,7 +745,9 @@
               att vara stor brist på arbetskraft inom framför allt välfärdssektorn
               i framtiden i en hel del av landsbygdens kommuner.
             </seg>
-            <seg n="5dd1ef79">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-61" prev="i-b36e50f8ade11edf-59" who="Q4935938">
+            <seg>
               För Vänsterpartiet är utgångspunkten att staten ska ha ett huvudansvar
               för att se till att servicen på landsbygden fungerar. Staten ska
               styra sina myndigheter att ta det ansvaret. Vi ser tyvärr en utveckling
@@ -656,12 +756,16 @@
               och regionala krafter som finns på landsbygden. Det finns goda
               förutsättningar.
             </seg>
-            <seg n="abe6cd30">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-62" prev="i-b36e50f8ade11edf-59" who="Q4935938">
+            <seg>
               I min interpellation tar jag upp tre väsentliga frågor för landsbygdens
               utveckling. En handlar om landsbygdens utveckling i stort, två
               handlar om lokala sparbanker.
             </seg>
-            <seg n="59f22548">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-63" prev="i-b36e50f8ade11edf-59" who="Q4935938">
+            <seg>
               Att jag lyfter fram de lokala sparbankerna beror framför allt
               på att de har så stor betydelse för tillgången till kapital på
               landsbygden, för att stötta det lokala näringslivet och för de
@@ -671,18 +775,24 @@
               De ser vilka möjligheter som finns i bygden. Närhetsprincipen
               är alltså central för de lokala sparbankerna.
             </seg>
-            <seg n="254de226">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-64" prev="i-b36e50f8ade11edf-59" who="Q4935938">
+            <seg>
               Som Peter Norman säger känns det tryggt med en bank som inte
               har vinstintresset i fokus utan det är bygdens utveckling som
               är det centrala. Att överskottet dessutom går till bygdens utveckling
               är också mycket positivt.
             </seg>
-            <seg n="ddcf5802">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-65" prev="i-b36e50f8ade11edf-59" who="Q4935938">
+            <seg>
               Däremot vet vi att det är svårt för lokala sparbanker att få
               tillgång till nytt eget kapital. Det är därför som vi har lagt
               fram detta förslag om egenkapitalbevis.
             </seg>
-            <seg n="270806b0">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-66" prev="i-b36e50f8ade11edf-59" who="Q4935938">
+            <seg>
               Det är intressant att detta nu utreds i Finansdepartementet.
               Vi hade en debatt med den förra finansmarknadsministern för drygt
               ett år sedan. Då kände han inte ens till just egenkapitalbevis.
@@ -690,7 +800,9 @@
               förklarade vad det handlade om. Det resulterade i en utredning.
               Jag hade trott att den skulle komma fortare fram än vad som skett.
             </seg>
-            <seg n="2cae37e1">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-67" prev="i-b36e50f8ade11edf-59" who="Q4935938">
+            <seg>
               För den som inte riktigt vet vad egenkapitalbevis är kan man
               säga att de liknar aktier. Det är inte samma utdelningsmöjligheter
               för dem. Men skillnaden ligger framför allt i att aktieägarna
@@ -703,11 +815,15 @@
               växer men också vidga verksamheten, kanske till andra orter och
               andra kommuner.
             </seg>
-            <seg n="bf524a93">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-68" prev="i-b36e50f8ade11edf-59" who="Q4935938">
+            <seg>
               Nu hann jag inte ta upp Basel 3. Jag får återkomma till det i
               nästa anförande.
             </seg>
-            <seg n="a7ede6b1">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-69" prev="i-b36e50f8ade11edf-59" who="Q4935938">
+            <seg>
               Jag har i detta läge en fråga till Peter Norman. I början av
               året skulle denna utredning vara klar. Jag skulle vilja veta hur
               arbetet går när det gäller egenkapitalbevis, när han räknar med
@@ -717,17 +833,19 @@
               det har varit i Norge.
             </seg>
           </u>
-          <note type="speaker" n="a39d1f43">
+          <note type="speaker">
             Anf. 10 Statsrådet PETER NORMAN (M):
           </note>
-          <u who="unknown" xml:id="i-ccc8e12d7955c5f0-5" n="6cb4db30">
-            <seg n="8cd2e21e">
+          <u xml:id="i-b36e50f8ade11edf-70" next="i-b36e50f8ade11edf-73" who="Q3209237">
+            <seg>
               Herr talman! Jag vill först och främst tacka Ulla Andersson för
               interpellationen där hon tar upp en viktig fråga. Interpellationen
               är mycket bra formulerad, och det är alltid roligt att diskutera
               med Ulla Andersson som är mycket kompetent på detta område.
             </seg>
-            <seg n="4d436846">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-71" prev="i-b36e50f8ade11edf-70" who="Q3209237">
+            <seg>
               När det gäller kapitaltäckning rent allmänt pågår det ett stort
               arbete, som Ulla Andersson vet, i Basel angående kapitaltäckning.
               Det kommer att sluta med att man kommer att ha mer och bättre
@@ -738,13 +856,17 @@
               Tittar man på bankernas tillgångar i relation till bnp är Sverige
               nummer fyra i Europa. Vi har alltså ett mycket stort banksystem.
             </seg>
-            <seg n="bebe1d68">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-72" prev="i-b36e50f8ade11edf-70" who="Q3209237">
+            <seg>
               Några länder har gått före. Till exempel Schweiz och Israel har
               kraftigt ökat kapitaltäckningen i systemviktiga banker. Detta
               verkar inte ha hämmat bankernas tillväxt och inte heller bankernas
               aktiekursutveckling.
             </seg>
-            <seg n="ec85c3ff">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-73" prev="i-b36e50f8ade11edf-70" who="Q3209237">
+            <seg>
               Som vi tidigare har meddelat, både jag själv och finansministern,
               ser vi framför oss en situation där detta kommer att ske även
               i Sverige, det vill säga att systemviktiga banker kommer att ha
@@ -759,17 +881,19 @@
               sig fram än stora banker jämfört med hur det är i dag.
             </seg>
           </u>
-          <note type="speaker" n="ff78c71b">
+          <note type="speaker">
             Anf. 11 ULLA ANDERSSON (V):
           </note>
-          <u who="Q4935938" xml:id="i-fb2ddf0090173b8e-1" n="e7bd3130">
-            <seg n="d8b766bd">
+          <u xml:id="i-b36e50f8ade11edf-74" next="i-b36e50f8ade11edf-77" who="Q4935938">
+            <seg>
               Herr talman! Jag utgår från att Peter Norman återkommer till
               egenkapitalbevisen i sitt nästa inlägg så att vi får höra hur
               den utredningen fortgår, hur läget ser ut och vilka möjligheter
               som finns.
             </seg>
-            <seg n="8d00f766">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-75" prev="i-b36e50f8ade11edf-74" who="Q4935938">
+            <seg>
               Eftersom Peter Norman var inne på Basel 3 går jag också över
               till Basel 3, vilket jag inte hann med i mitt förra inlägg. Jag
               tycker att det är positivt att man höjer kapitaltäckningskraven,
@@ -782,7 +906,9 @@
               börda och det regelsystem som faktiskt följer i kölvattnet av
               denna finanskris.
             </seg>
-            <seg n="da35e90e">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-76" prev="i-b36e50f8ade11edf-74" who="Q4935938">
+            <seg>
               Vi från Vänsterpartiet tror att man skulle kunna göra mycket
               mer tillsammans i Norden. Vi har alla lokala banker i olika former.
               Jag tror att man skulle kunna samarbeta i Norden genom ett statligt
@@ -794,7 +920,9 @@
               man kunna underlätta för nya banketableringar runt om i landet.
               Men vi får se hur sådana tankar mottas.
             </seg>
-            <seg n="660f5cdb">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-77" prev="i-b36e50f8ade11edf-74" who="Q4935938">
+            <seg>
               I fråga om Basel 3 finns det ytterligare en komplexitet för sparbankerna
               eftersom de har sin clearingverksamhet i Swedbank. Då är frågan
               om detta kapital kommer att räknas in som kapital enligt Basel
@@ -807,22 +935,26 @@
               finansmarknadsministern säga någonting om.
             </seg>
           </u>
-          <note type="speaker" n="2f984e6d">
+          <note type="speaker">
             Anf. 12 Statsrådet PETER NORMAN (M):
           </note>
-          <u who="unknown" xml:id="i-ccc8e12d7955c5f0-6" n="6cb4db30">
-            <seg n="8bd99519">
+          <u xml:id="i-b36e50f8ade11edf-78" next="i-b36e50f8ade11edf-83" who="Q3209237">
+            <seg>
               Herr talman! Om vi går till utredningen är det min förhoppning
               att den kan vara klar första halvåret i år. Den har ett juridiskt
               fokus. Sedan måste vi göra en ekonomisk analys givet den utredningen.
               Men det är ungefär var vi befinner oss i tiden.
             </seg>
-            <seg n="1677594e">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-79" prev="i-b36e50f8ade11edf-78" who="Q3209237">
+            <seg>
               Frågan om de lokala sparbankernas clearingverksamhet i Swedbank
               eller inte kan jag inte svara på. Den måste jag få återkomma till.
               Jag kan inte den frågan tillräckligt väl.
             </seg>
-            <seg n="e2105ead">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-80" prev="i-b36e50f8ade11edf-78" who="Q3209237">
+            <seg>
               Låt mig säga något om egenkapitalbevisen. Det skulle kunna vara
               svårt att förena förbudet mot utdelning med utgivning av egenkapitalbevis.
               Jag inbillar mig att den som köper egenkapitalbevis skulle vilja
@@ -832,18 +964,24 @@
               och att de vill få del av bankens vinster genom fördelaktiga räntor,
               lägre avgifter och så vidare.
             </seg>
-            <seg n="ed3d8d73">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-81" prev="i-b36e50f8ade11edf-78" who="Q3209237">
+            <seg>
               I Norge har man avskaffat vinstutdelningsförbudet för sparbankerna.
               Detta innebär i så fall en ny typ av finansiellt kluster i finansiella
               företag, alltså sparbanker som får ge ut vinst till skillnad från
               andra sparbanker.
             </seg>
-            <seg n="6f242089">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-82" prev="i-b36e50f8ade11edf-78" who="Q3209237">
+            <seg>
               Rent allmänt tror jag att det kan vara farligt att öka andelen
               av olika typer av bankföretag i Sverige. Jag tror att det är bättre
               att man har mer likartade regler.
             </seg>
-            <seg n="eb657db1">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-83" prev="i-b36e50f8ade11edf-78" who="Q3209237">
+            <seg>
               Jag tycker, liksom Ulla Andersson, att sparbankerna har fyllt
               och fyller en mycket god funktion i Sverige. Men man måste också
               lyfta blicken utanför Norden. I till exempel Spanien är en stor
@@ -853,11 +991,11 @@
               hela världen.
             </seg>
           </u>
-          <note type="speaker" n="87ef8ae3">
+          <note type="speaker">
             Anf. 13 ULLA ANDERSSON (V):
           </note>
-          <u who="Q4935938" xml:id="i-fb2ddf0090173b8e-2" n="e7bd3130">
-            <seg n="320a15d7">
+          <u xml:id="i-b36e50f8ade11edf-84" next="i-b36e50f8ade11edf-88" who="Q4935938">
+            <seg>
               Herr talman! Nej, Peter Norman, det är sällan en rosenröd bild
               över hela världen, men man kan titta på sin egen omgivning och
               se att sparbankerna har klarat denna kris mycket bättre än de
@@ -865,14 +1003,18 @@
               sin egen utlåning genom inlåning i stort sett. Det är alltså nästan
               ingen risk alls för samhället.
             </seg>
-            <seg n="ec289d0a">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-85" prev="i-b36e50f8ade11edf-84" who="Q4935938">
+            <seg>
               Däremot kan nog både Peter Norman och jag konstatera att det
               finns bekymmer med tillgång till kapital på landsbygden för att
               starta företag, driva företag, bygga egna hem och så vidare. Då
               skulle jag tro att vi behöver se över vilka redskap vi faktiskt
               har till hands för att stötta en sådan utveckling.
             </seg>
-            <seg n="6d015e4b">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-86" prev="i-b36e50f8ade11edf-84" who="Q4935938">
+            <seg>
               Eftersom jag vill ha ökad bankkonkurrens jag tror att det är
               en bra väg tycker jag också att man måste se över vilka valfrihetsmöjligheter
               människor ska ha. Då kanske vi ska öppna för en ny form av sparbanker
@@ -884,14 +1026,18 @@
               inte är tillräckliga, och vi måste kanske se över nya verktyg.
               Då kan egenkapitalbevis vara ett sådant.
             </seg>
-            <seg n="e806df5e">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-87" prev="i-b36e50f8ade11edf-84" who="Q4935938">
+            <seg>
               Peter Norman brukar tala mycket om att man ska styra och reglera
               så att man inte hamnar i farliga situationer. Då kanske det är
               genom styrning och reglering som vi ska se till att skapa en ny
               form av sparbank som inte ska innebära någon risk för sådant som
               vi har sett hända i andra länder.
             </seg>
-            <seg n="9eaebdb6">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-88" prev="i-b36e50f8ade11edf-84" who="Q4935938">
+            <seg>
               Både Peter Norman och jag vet att sparbankerna redan i dag klarar
               Basel 3-reglerna om kapitaltäckning. Frågan är väl om Swedbanks
               clearingverksamhet ska räknas in, och den stora frågan är om de
@@ -899,20 +1045,22 @@
               det också en stor administrativ regelbörda i Basel 3 som jag tror
               att man måste se över för att underlätta för sparbanker framöver.
             </seg>
-            <seg n="d218fb7b">
-              Tack, återigen, för en positiv ingång!
-            </seg>
           </u>
-          <note type="speaker" n="d50d164c">
+          <note>
+            Tack, återigen, för en positiv ingång!
+          </note>
+          <note type="speaker">
             Anf. 14 Statsrådet PETER NORMAN (M):
           </note>
-          <u who="unknown" xml:id="i-ccc8e12d7955c5f0-7" n="6cb4db30">
-            <seg n="6ef1d410">
+          <u xml:id="i-b36e50f8ade11edf-89" next="i-b36e50f8ade11edf-93" who="Q3209237">
+            <seg>
               Herr talman! Jag håller med Ulla Andersson: Utgångspunkten ska
               tas i de behov som landsbygdens kunder har. Naturligtvis är det
               så.
             </seg>
-            <seg n="ba8aa105">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-90" prev="i-b36e50f8ade11edf-89" who="Q3209237">
+            <seg>
               Dock ska man ha klart för sig att finanskriser tenderar att återkomma
               i olika skepnad varje gång. Man kan alltså inte säga att sparbankerna
               är immuna för framtida kriser. En sådan diskussion har jag just
@@ -922,14 +1070,18 @@
               Rent allmänt tycker jag att lagar man ett gammalt lapptäcke är
               man inte försäkrad mot framtida finansiella kriser.
             </seg>
-            <seg n="710cdcd3">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-91" prev="i-b36e50f8ade11edf-89" who="Q3209237">
+            <seg>
               När det gäller tillgången till bankservice håller EU-kommissionen
               på och tittar på det. I den frågan är vi drivande. Jag vet inte
               när de kommer att vara klara, men detta är ett arbete som vi naturligtvis
               kommer att följa och som vi också är drivande i. Jag vill bara
               påpeka detta.
             </seg>
-            <seg n="10b49e53">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-92" prev="i-b36e50f8ade11edf-89" who="Q3209237">
+            <seg>
               Sedan vill jag säga någonting mer om Inlandsinnovation. Det är
               ett tämligen nytt statligt bolag, och syftet är att bedriva finansieringsverksamhet
               i framför allt norra Sveriges inland. Bolaget ska, direkt eller
@@ -938,7 +1090,9 @@
               pågår redan nu ett analysarbete om hur dessa tjänster ska behandlas
               på bästa sätt efter juni 2012.
             </seg>
-            <seg n="86808110">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-93" prev="i-b36e50f8ade11edf-89" who="Q3209237">
+            <seg>
               Slutsatsen är i alla fall att detta är intressanta frågor. Jag
               utesluter inte egenkapitalbevis. Jag ser vissa problem. Vi har
               en juridisk utredning som pågår och som jag hoppas blir klar första
@@ -947,23 +1101,25 @@
               när vi gör ekonomisk analys.
             </seg>
           </u>
-          <note n="e56784f7">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="a13c4eca">
+          <note>
             4 § Svar på interpellation 2010/11:253 om Försäkringskassans
             sparbeting
           </note>
-          <note type="speaker" n="0514fa29">
+          <note type="speaker">
             Anf. 15 Statsrådet ULF KRISTERSSON (M):
           </note>
-          <u who="unknown" xml:id="i-ccc8e12d7955c5f0-8" n="6cb4db30">
-            <seg n="0b4661b4">
+          <u xml:id="i-b36e50f8ade11edf-94" next="i-b36e50f8ade11edf-99" who="Q1780398">
+            <seg>
               Herr talman! Kent Persson har frågat mig om jag avser att vidta
               några åtgärder med anledning av Försäkringskassans nedskärningsplaner
               sett i ljuset av inriktningen i budgetpropositionen för 2011.
             </seg>
-            <seg n="f8167fa6">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-95" prev="i-b36e50f8ade11edf-94" who="Q1780398">
+            <seg>
               Det är viktigt att man som medborgare, oavsett var i landet man
               bor, har tillgång till olika typer av service. Utgångspunkten
               för statliga och kommunala myndigheters arbete ska vara en likvärdig
@@ -971,14 +1127,18 @@
               service ska ligga till grund för hur myndigheternas former för
               kontakter med medborgarna utvecklas.
             </seg>
-            <seg n="afc5797f">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-96" prev="i-b36e50f8ade11edf-94" who="Q1780398">
+            <seg>
               Det finns i dag olika kanaler för myndigheterna att möta medborgarna.
               Fysiska möten är ett sätt. Andra sätt är att erbjuda service via
               Internet eller telefoni. Statliga och kommunala myndigheter arbetar
               kontinuerligt med att utveckla formerna för kontakter med medborgarna,
               så även Försäkringskassan.
             </seg>
-            <seg n="7731942d">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-97" prev="i-b36e50f8ade11edf-94" who="Q1780398">
+            <seg>
               Regeringen har i propositionen Offentlig förvaltning för demokrati,
               delaktighet och tillväxt (prop. 2009/10:175) framhållit att myndigheterna
               är de som är bäst skickade att själva på det egna området bedöma
@@ -990,14 +1150,18 @@
               styrning. Regeringen arbetar i enlighet med de förvaltningspolitiska
               målen vidare med detta.
             </seg>
-            <seg n="961c2b91">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-98" prev="i-b36e50f8ade11edf-94" who="Q1780398">
+            <seg>
               I uppdraget till Försäkringskassan att ta fram en handlingsplan
               för sitt effektiviseringsarbete har regeringen angett att utgångspunkten
               är att Försäkringskassan ska välja de åtgärder som är förknippade
               med minst verksamhetsrisk, detta för att till exempel säkra kvalitet
               vid beslut inom sjukförsäkringen.
             </seg>
-            <seg n="6456cafe">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-99" prev="i-b36e50f8ade11edf-94" who="Q1780398">
+            <seg>
               Försäkringskassan konstaterar i handlingsplanen att det servicebehov
               som servicekontoren i dag tillgodoser kommer man nu att arbeta
               med att tillgodose genom andra kanaler. En ny kund- och kanalstrategi
@@ -1005,14 +1169,16 @@
               att följa detta arbete på nära håll.
             </seg>
           </u>
-          <note type="speaker" n="d38adfbc">
+          <note type="speaker">
             Anf. 16 KENT PERSSON (V):
           </note>
-          <u who="Q6043221" xml:id="i-5c3f8c4b337768dc-0" n="c650a2b9">
-            <seg n="78572300">
+          <u xml:id="i-b36e50f8ade11edf-100" next="i-b36e50f8ade11edf-107" who="Q6043221">
+            <seg>
               Herr talman! Tack så mycket för svaret, statsrådet!
             </seg>
-            <seg n="e330c598">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-101" prev="i-b36e50f8ade11edf-100" who="Q6043221">
+            <seg>
               Bakgrunden till min interpellation är det resultat som vi har
               sett av regeringens sparbeting på Försäkringskassan. Man lade
               i höstas fram ett beting på 300 miljoner kronor som skulle verkställas
@@ -1022,7 +1188,9 @@
               samtliga servicekontor i Sverige och även några lokala kontor.
               Därför har jag ställt den här interpellationen.
             </seg>
-            <seg n="dddebd15">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-102" prev="i-b36e50f8ade11edf-100" who="Q6043221">
+            <seg>
               Det är väldigt intressant att läsa vad som står i propositionen
               från i höstas. Jag ska citera lite grann ur den: Tillgänglighet
               till olika typer av service för kvinnor, män och företag är en
@@ -1033,34 +1201,44 @@
               samhällsservice, är därför viktiga för att skapa miljöer där det
               är attraktivt att bo och arbeta samt starta och driva företag.
             </seg>
-            <seg n="baee3078">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-103" prev="i-b36e50f8ade11edf-100" who="Q6043221">
+            <seg>
               Vidare skriver regeringen: För att uppnå en ökad samordning av
               service lokalt och regionalt krävs bl.a. att statliga myndigheter
               och statligt ägda bolag med uppgift att tillgodose särskilt formulerade
               och avgränsade samhällsintressen samverkar med varandra och med
               övriga aktörer.
             </seg>
-            <seg n="1fae63ab">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-104" prev="i-b36e50f8ade11edf-100" who="Q6043221">
+            <seg>
               Så har regeringen skrivit. Det är en väldigt bra skrivning för
               en politik som omfattar hela Sverige. Vänsterpartiet ställer upp
               på de delarna. Men när vi går från vad man skriver till praktik
               ser verkligheten helt annorlunda ut. Då räcker det inte med svaret
               att regeringen noga följer utvecklingen.
             </seg>
-            <seg n="710fc33d">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-105" prev="i-b36e50f8ade11edf-100" who="Q6043221">
+            <seg>
               Regeringen skriver att den som ska samordna och sköta verksamheten
               är myndigheterna. Men det är ju just genom sina regleringsbrev
               och direktiv som regeringen har möjlighet att verkställa den övergripande
               politik man har för samhällsutvecklingen i Sverige. Det här går
               stick i stäv med vartannat.
             </seg>
-            <seg n="f43d4e4a">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-106" prev="i-b36e50f8ade11edf-100" who="Q6043221">
+            <seg>
               Jag funderar väldigt mycket över hur man ska uppnå sina intentioner
               när man passivt sitter och tittar på de neddragningar som sker
               på myndigheterna. Det gäller inte bara Försäkringskassan; de har
               skett på Arbetsförmedlingen, på Skatteverket och också på tingsrätterna.
             </seg>
-            <seg n="4a6a8f92">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-107" prev="i-b36e50f8ade11edf-100" who="Q6043221">
+            <seg>
               Låt oss titta lite grann på servicekontorens betydelse. För Västmanland,
               som jag kommer ifrån, innebär detta att 200400 spontana besök
               per dag kommer att drabbas. Det är människor som har behov av
@@ -1075,11 +1253,11 @@
               en serviceorganisation som är till för människorna?
             </seg>
           </u>
-          <note type="speaker" n="b4794895">
+          <note type="speaker">
             Anf. 17 Statsrådet ULF KRISTERSSON (M):
           </note>
-          <u who="unknown" xml:id="i-ccc8e12d7955c5f0-9" n="6cb4db30">
-            <seg n="f7df4fbb">
+          <u xml:id="i-b36e50f8ade11edf-108" next="i-b36e50f8ade11edf-112" who="Q1780398">
+            <seg>
               Herr talman! Två viktiga punkter tycker jag att vi ska diskutera.
               Den första är att det, om vi ska vara lite noga här, inte är regeringens
               sparbeting till Försäkringskassan. Det är viktigt att hålla ordning
@@ -1089,7 +1267,9 @@
               utan om regeringens och ytterst riksdagens förväntan på att Försäkringskassan
               håller sin budget.
             </seg>
-            <seg n="c8aff092">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-109" prev="i-b36e50f8ade11edf-108" who="Q1780398">
+            <seg>
               Det är ingen bagatell i sammanhanget. Jag vågar påstå att alla
               myndigheter i Sverige tycker att de skulle kunna ha nytta av något
               större budget än vad de har. Det är helt rimligt. Lika rimligt
@@ -1104,7 +1284,9 @@
               hur man kommer till den budget som riksdagen har fastlagt. Detta
               är ingen oväsentlig detalj i sammanhanget.
             </seg>
-            <seg n="6424fe77">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-110" prev="i-b36e50f8ade11edf-108" who="Q1780398">
+            <seg>
               Så till själva substansen. Vi pratar om servicekontor, inte om
               att släcka ned Försäkringskassans närvaro i Sverige. Vi pratar
               inte om att förändra ett enda möte mellan en försäkrad och hans
@@ -1113,7 +1295,9 @@
               mötet mellan allmänheten och Försäkringskassan. Det är en process
               som ändå pågår. Ibland beskrivs den som extremt framgångsrik.
             </seg>
-            <seg n="9e91d32e">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-111" prev="i-b36e50f8ade11edf-108" who="Q1780398">
+            <seg>
               Skatteverkets relationer med enskilda skattebetalare har långsamt
               men tydligt förändrats mot mer av telefoni, mer av Internet och
               färre fysiska möten. På lång sikt är det en alldeles riktig utveckling.
@@ -1122,22 +1306,26 @@
               beslut om detaljer i organisationen. Det måste Försäkringskassan
               själv göra.
             </seg>
-            <seg n="c2ffdff2">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-112" prev="i-b36e50f8ade11edf-108" who="Q1780398">
+            <seg>
               Det finns många sätt att uppnå samma sak. Jag noterar att Försäkringskassan
               väljer den strategi som de tycker får minst negativa konsekvenser
               för de människor som är inne i och har en pågående relation med
               Försäkringskassan. Det tycker jag att de gör rätt i.
             </seg>
           </u>
-          <note type="speaker" n="6884e69a">
+          <note type="speaker">
             Anf. 18 KENT PERSSON (V):
           </note>
-          <u who="Q6043221" xml:id="i-5c3f8c4b337768dc-1" n="c650a2b9">
-            <seg n="381cf1bb">
+          <u xml:id="i-b36e50f8ade11edf-113" next="i-b36e50f8ade11edf-119" who="Q6043221">
+            <seg>
               Herr talman! Statsrådet kan kalla det vad som helst, men resultatet
               av det förslag Försäkringskassan har är sämre service.
             </seg>
-            <seg n="bdb35896">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-114" prev="i-b36e50f8ade11edf-113" who="Q6043221">
+            <seg>
               Man ska också komma ihåg att regeringen för ungefär två år sedan
               tillsatte en utredning med Lars Högdahl som just skulle se över
               samverkan mellan de statliga myndigheterna för att nå en större
@@ -1145,7 +1333,9 @@
               utredning ligger nu också på regeringens bord. Om jag minns rätt
               heter den Se människan .
             </seg>
-            <seg n="8c774171">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-115" prev="i-b36e50f8ade11edf-113" who="Q6043221">
+            <seg>
               Det är just vad det handlar om människors möjligheter att träffa
               en handläggare. Nu pratar jag om spontanbesöken, inte de ordinarie.
               Där finns nämligen de personliga kontakterna, där man beställer
@@ -1156,7 +1346,9 @@
               det är oerhört viktigt när man gör denna typ av förändringar att
               det sker på ett sådant sätt att inte servicen försämras.
             </seg>
-            <seg n="b5bd03a7">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-116" prev="i-b36e50f8ade11edf-113" who="Q6043221">
+            <seg>
               Tittar vi på servicekontoren och Försäkringskassan ser vi att
               de i dag samverkar med både Skatteverket och Pensionsmyndigheten
               och i vissa fall också med Arbetsförmedlingen. Det kan se lite
@@ -1167,13 +1359,17 @@
               förslag utan att diskutera med kommuner och övriga myndigheter,
               och den som har ansvaret är därmed länsstyrelsen.
             </seg>
-            <seg n="bd599787">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-117" prev="i-b36e50f8ade11edf-113" who="Q6043221">
+            <seg>
               Det är en regel att man kör och verkar utifrån sina egna intressen
               utan att ha det övergripande som regeringen så bra har beskrivit
               i budgetpropositionen från i höstas. Samverkan ska vara regel
               och inte undantag. Det är det som är poängen.
             </seg>
-            <seg n="3b35103a">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-118" prev="i-b36e50f8ade11edf-113" who="Q6043221">
+            <seg>
               När det nu gäller dessa servicekontor är det inte bara landsbygdskommuner
               som drabbas. De har redan drabbats; där finns inte så väldigt
               mycket statlig verksamhet kvar. Det här slår dock också i större
@@ -1181,7 +1377,9 @@
               någon stor stad direkt, men detta är ändå en utarmning som också
               drabbar de mindre kommuner som finns runt omkring.
             </seg>
-            <seg n="e0a00520">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-119" prev="i-b36e50f8ade11edf-113" who="Q6043221">
+            <seg>
               Statsrådet skriver: Vi ska noga följa utvecklingen. Hur ska jag
               tolka det? Om detta får effekter på servicen som inte är acceptabla
               för enskilda personer, kommer ni då att vidta åtgärder eller kommer
@@ -1189,22 +1387,26 @@
               verkställer sina planer?
             </seg>
           </u>
-          <note type="speaker" n="f9262c33">
+          <note type="speaker">
             Anf. 19 LENA OLSSON (V):
           </note>
-          <u who="Q4971169" xml:id="i-5b499313cbd2ac62-0" n="3f2eb133">
-            <seg n="f9cbd483">
+          <u xml:id="i-b36e50f8ade11edf-120" next="i-b36e50f8ade11edf-124" who="Q4971169">
+            <seg>
               Herr talman! Det är en intressant debatt, och det är en bra interpellation
               som Kent Persson från Vänsterpartiet har skrivit. Jag kan instämma
               i allt han säger. Vi har drivit denna fråga väldigt länge.
             </seg>
-            <seg n="6148508a">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-121" prev="i-b36e50f8ade11edf-120" who="Q4971169">
+            <seg>
               När det gäller vad detta kommer att få för konsekvenser nu när
               Försäkringskassan börjar dra sig ur på många ställen vet vi att
               det får konsekvenser för andra myndigheter och den samordnade
               servicen om Försäkringskassan försvinner från orten.
             </seg>
-            <seg n="5bb28fb7">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-122" prev="i-b36e50f8ade11edf-120" who="Q4971169">
+            <seg>
               Jag har haft många interpellationsdebatter med Mats Odell och
               Attefall om detta med samordnad service som Lars Högdahls utredning
               utmynnar i. Det ska finnas minst ett servicekontor i varje kommun
@@ -1213,7 +1415,9 @@
               upprätthålla detta. Det borde intressera, för det vi nu ser på
               landsbygden är att man drar sig därifrån.
             </seg>
-            <seg n="c7bbaa10">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-123" prev="i-b36e50f8ade11edf-120" who="Q4971169">
+            <seg>
               Står man för en arbetslinje borde detta förslag komma till stånd.
               Man har hållit på ganska länge och talat om att det är under beredning
               när det gäller utredningen. Men ett sätt för ministern skulle
@@ -1221,7 +1425,9 @@
               ska finnas med minst ett kontor i varje kommun. Är du beredd att
               ställa upp och göra det?
             </seg>
-            <seg n="f37ca9d4">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-124" prev="i-b36e50f8ade11edf-120" who="Q4971169">
+            <seg>
               Det är nämligen en grundläggande statlig service man har till
               sina medborgare. Om man i text skriver att alla medborgare i Sverige
               ska ha likvärdig service tycker jag att Försäkringskassan är central.
@@ -1230,15 +1436,17 @@
               Är ni beredda att göra detta?
             </seg>
           </u>
-          <note type="speaker" n="6ef93c6b">
+          <note type="speaker">
             Anf. 20 Statsrådet ULF KRISTERSSON (M):
           </note>
-          <u who="unknown" xml:id="i-ccc8e12d7955c5f0-10" n="6cb4db30">
-            <seg n="339675a0">
+          <u xml:id="i-b36e50f8ade11edf-125" next="i-b36e50f8ade11edf-129" who="Q1780398">
+            <seg>
               Herr talman! Svaret på denna fråga är: Nej, det är vi inte beredda
               att göra.
             </seg>
-            <seg n="5273b301">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-126" prev="i-b36e50f8ade11edf-125" who="Q1780398">
+            <seg>
               Statens legitima krav på samverkan mellan statliga myndigheter
               fritar självklart inte varje myndighet från dess eget ansvar att
               fullgöra sin uppgift inom sina av riksdagen angivna budgetramar.
@@ -1248,14 +1456,18 @@
               Jag har inte vid något tillfälle hört någon regering ha en annan
               uppfattning i denna fråga.
             </seg>
-            <seg n="95b473c0">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-127" prev="i-b36e50f8ade11edf-125" who="Q1780398">
+            <seg>
               Detta är inget förslag som vi har att ta ställning till. Det
               är Försäkringskassans eget beslut. Vi har inte sagt: Det gör ni
               rätt i. Vi har sagt: Ni ska se till att hålla er inom de budgetramar
               som finns, och ni ska göra det med så goda resultat som över huvud
               taget är möjliga.
             </seg>
-            <seg n="9de8e894">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-128" prev="i-b36e50f8ade11edf-125" who="Q1780398">
+            <seg>
               Försäkringskassan ska anpassa sig till den budget som gäller.
               De har ett uppdrag att beskriva detta i en handlingsplan, och
               den följs dessutom av såväl Inspektionen för socialförsäkringen
@@ -1266,7 +1478,9 @@
               påverkan för många människor och där den ekonomiska kontrollen
               är väldigt viktig.
             </seg>
-            <seg n="76d079f1">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-129" prev="i-b36e50f8ade11edf-125" who="Q1780398">
+            <seg>
               Slutligen är det nog så att tekniken för myndigheters möten med
               medborgare, kunder, försäkrade, skattebetalare, pensionärer det
               finns många olika kategorier kommer att variera och förändras
@@ -1275,22 +1489,26 @@
               specifika former för mötet med de människor de ska tjäna.
             </seg>
           </u>
-          <note type="speaker" n="f152463c">
+          <note type="speaker">
             Anf. 21 KENT PERSSON (V):
           </note>
-          <u who="Q6043221" xml:id="i-5c3f8c4b337768dc-2" n="c650a2b9">
-            <seg n="2d5dd26d">
+          <u xml:id="i-b36e50f8ade11edf-130" next="i-b36e50f8ade11edf-133" who="Q6043221">
+            <seg>
               Herr talman! Till Ulf Kristersson kan jag säga: Ja, tekniken
               kommer att förändras. Den har också förändrats över tid. Vi har
               sett att den har medfört en centralisering av statlig service
               och statliga myndigheters verksamhet till först regionkontor och
-              sedan i huvudsak Helsingfors. Det är den utveckling vi har sett.
+              sedan i huvudsak Stockholm. Det är den utveckling vi har sett.
             </seg>
-            <seg n="0044bb9f">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-131" prev="i-b36e50f8ade11edf-130" who="Q6043221">
+            <seg>
               Den borgerliga regeringen har vid åtskilliga tillfällen poängterat
               vikten av statlig närvaro i hela Sverige.
             </seg>
-            <seg n="0eafa5e8">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-132" prev="i-b36e50f8ade11edf-130" who="Q6043221">
+            <seg>
               Det ligger en utredning i dag på regeringens bord där man talar
               om behovet av statlig närvaro i samtliga kommuner. Det inkluderar
               Försäkringskassan. Det beslut som Försäkringskassan har tagit
@@ -1302,7 +1520,9 @@
               måste se till resultatet och se till den övriga delen av den politik
               som regeringen för.
             </seg>
-            <seg n="ee54f62f">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-133" prev="i-b36e50f8ade11edf-130" who="Q6043221">
+            <seg>
               Jag kan inte se hur det här rimmar och håller ihop med tanken
               att hela Sverige ska leva. Det ska finnas service att tillgå i
               samtliga kommuner. Teknik i all ära, men de personliga mötena
@@ -1311,41 +1531,47 @@
               Det är inte alla som har den förmågan eller den möjligheten.
             </seg>
           </u>
-          <note type="speaker" n="9615a776">
+          <note type="speaker">
             Anf. 22 LENA OLSSON (V):
           </note>
-          <u who="Q4971169" xml:id="i-5b499313cbd2ac62-1" n="3f2eb133">
-            <seg n="83af5293">
+          <u xml:id="i-b36e50f8ade11edf-134" next="i-b36e50f8ade11edf-136" who="Q4971169">
+            <seg>
               Herr talman! Jag ställde en fråga till ministern om han var beredd
               att ställa kravet på Försäkringskassan att de ska ingå i en så
               kallad samordnad service med andra och att det ska finnas minst
               ett servicekonto minst i varje kommun. Det sade ministern alldeles
               bestämt nej till.
             </seg>
-            <seg n="81e1287f">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-135" prev="i-b36e50f8ade11edf-134" who="Q4971169">
+            <seg>
               Då ställer jag ytterligare en fråga. Den utredning som ligger
               på regeringens bord och som, enligt vad man nu har sagt i ett
               och ett halvt år, är under beredning har i stort sett fallit.
               Den går nämligen ut på att Försäkringskassan ska ingå i alla dessa
               servicekontor, och man ska ha minst ett i varje kommun.
             </seg>
-            <seg n="e4feb576">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-136" prev="i-b36e50f8ade11edf-134" who="Q4971169">
+            <seg>
               Jag uppfattar svaret att det inte kommer att gå. Därmed har förslagen
               i utredningen fallit, för man har redan gett upp, man kan inte
               fixa det. Ska jag uppfatta det så?
             </seg>
           </u>
-          <note type="speaker" n="4ec2d39f">
+          <note type="speaker">
             Anf. 23 Statsrådet ULF KRISTERSSON (M):
           </note>
-          <u who="unknown" xml:id="i-105310b435274eb3-0" n="6cb4db30">
-            <seg n="9e83ffae">
+          <u xml:id="i-b36e50f8ade11edf-137" next="i-b36e50f8ade11edf-145" who="Q1780398">
+            <seg>
               Herr talman! Försäkringskassans uppdrag att samverka med andra
               myndigheter har inte förändrats. De har samma uppgift som alla
               andra att samverka med andra till medborgarnas fromma och fullgöra
               egen uppgift fullt ut. Det finns inga förändringar därvidlag.
             </seg>
-            <seg n="342dbc96">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-138" prev="i-b36e50f8ade11edf-137" who="Q1780398">
+            <seg>
               Jag tycker att Försäkringskassan under de senaste åren gjort
               två riktigt stora och viktiga saker. Det ena är att de har genomfört
               en helt unik omorganisering. Jag minns från den tid jag satt i
@@ -1353,14 +1579,18 @@
               I dag har vi en nationell försäkringskassa. Det är ett oerhört
               stort arbete som har genomförts.
             </seg>
-            <seg n="3445ea87">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-139" prev="i-b36e50f8ade11edf-137" who="Q1780398">
+            <seg>
               Det andra är den stora sjukförsäkringsreform som har genomförts
               på rätt kort tid. Försäkringskassan gör ett gott arbete med svåra
               uppgifter. Likväl kvarstår faktum att det är en lång resa kvar.
               Det är en lång resa kvar när det gäller service, förtroendekapital
               och ekonomisk styrning.
             </seg>
-            <seg n="65f0423b">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-140" prev="i-b36e50f8ade11edf-137" who="Q1780398">
+            <seg>
               Centralisering beskrivs ofta som något slags negativ utveckling.
               Jag är inte säker på att centralisering är det ord man ska använda.
               Man ska använda rätt kompetens på rätt ställe. Försäkringskassans
@@ -1368,97 +1598,105 @@
               som möter många människor i relativt enkla serviceuppgifter. Där
               finns en enorm teknisk potential, den ska tillvaratas.
             </seg>
-            <seg n="406d82db">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-141" prev="i-b36e50f8ade11edf-137" who="Q1780398">
+            <seg>
               Det andra är en mycket krävande, ibland socialt svår och komplicerad
               myndighetsutövning som kräver personliga möten och många samtal.
               Det är den del av Försäkringskassans allra mest kvalificerade
               uppgifter som inte enkelt kan teknologiseras. Den kvarstår oförändrad.
             </seg>
-            <seg n="29c70a6f">
+          </u>
+          <u xml:id="i-b36e50f8ade11edf-142" prev="i-b36e50f8ade11edf-137" who="Q1780398">
+            <seg>
               Personliga möten är fortfarande helt möjliga för Försäkringskassan.
               Dessa möten ska, inom ramen för Försäkringskassans professionella
               kompetens, utföras på rätt sätt, på ställen med rätt människor.
             </seg>
           </u>
-          <note n="e56784f7">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="c538f9ec">
+          <note>
             5 § Anmälan om inkommen faktapromemoria om förslag från Europeiska
             kommissionen
           </note>
-          <note n="6e26577f">
+          <note>
             Talmannen anmälde att följande faktapromemoria om förslag från
             Europeiska kommissionen inkommit och överlämnats till utskott:
           </note>
-          <u who="unknown" xml:id="i-b25d26cece9005d0-0" n="6cb4db30">
-            <seg n="8cedcea1">
-              KOM(2011)48
-            </seg>
-            <seg n="fdac78c9">
-              Luciano Astudillo
-            </seg>
-          </u>
-          <note n="9371a9c8">
+          <note>
+            KOM(2011)48
+          </note>
+          <note>
             6 § Hänvisning av ärenden till utskott
           </note>
-          <note n="aadc66b8">
+          <note>
             Föredrogs och hänvisades
           </note>
-          <note n="a3e7d307">
+          <note>
             7 § Anmälan om interpellationer
           </note>
-          <note n="42344af3">
+          <note>
             Anmäldes att följande interpellationer framställts
           </note>
-          <note n="018b6196">
+          <note>
             den 18 mars
           </note>
-          <note n="f855869f">
+          <note>
             Meeri Wasberg
           </note>
-          <note n="107631e9">
+          <note>
             Ylva Johansson
           </note>
-          <note n="c90d14c7">
+          <note>
             Kerstin Nilsson
           </note>
-          <note n="4f35a04b">
+          <note>
             Ann-Christin Ahlberg
           </note>
-          <note n="70913952">
+          <note>
             Christina Karlsson
           </note>
-          <note n="d58148d2">
+          <note>
             Interpellationerna redovisas i bilaga som fogats till riksdagens
             snabbprotokoll tisdagen den 29 mars.
           </note>
-          <note n="4c395516">
+          <note>
             8 § Anmälan om frågor för skriftliga svar
           </note>
-          <note n="70958c52">
-            Anmäldes att följande frågor för skriftliga svar framställts
-          </note>
-          <note n="018b6196">
+          <u xml:id="i-b36e50f8ade11edf-143" prev="i-b36e50f8ade11edf-137" who="Q1780398">
+            <seg>
+              Anmäldes att följande frågor för skriftliga svar framställts
+            </seg>
+          </u>
+          <note>
             den 18 mars
           </note>
-          <note n="0fc7d74c">
+          <note>
             Billy Gustafsson
           </note>
-          <note n="9e40301d">
+          <u xml:id="i-b36e50f8ade11edf-144" prev="i-b36e50f8ade11edf-137" who="Q1780398">
+            <seg>
+              Luciano Astudillo
+            </seg>
+          </u>
+          <note>
             Leif Pettersson
           </note>
-          <note n="24e7dcad">
+          <note>
             Frågorna redovisas i bilaga som fogats till riksdagens snabbprotokoll
             tisdagen den 29 mars.
           </note>
-          <note n="19567bce">
+          <note>
             9 § Kammaren åtskildes kl. 10.04.
           </note>
-          <note n="6f99f94a">
-            Förhandlingarna leddes av talmannen.
-          </note>
-          <note n="77adb028">
+          <u xml:id="i-b36e50f8ade11edf-145" prev="i-b36e50f8ade11edf-137" who="Q1780398">
+            <seg>
+              Förhandlingarna leddes av talmannen.
+            </seg>
+          </u>
+          <note>
             /Eva-Lena Ekman
           </note>
         </div>

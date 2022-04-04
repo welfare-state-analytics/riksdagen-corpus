@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2011</title>
+        <title>Riksdagens protocols 201112</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2011</title>
+          <title>Riksdagens protocols 201112</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -58,42 +55,41 @@
       <front>
         <div type="preface">
           <head>prot-201112--67</head>
-          <docDate when="2011-02-03">2011-02-03</docDate>
+          <docDate when="2012-02-03">2012-02-03</docDate>
         </div>
       </front>
       <body>
         <div>
-          <note n="a08ecf18">
-            ﻿
-          </note>
-          <note n="db550402">
+          <note>
             Riksdagens protokoll
           </note>
-          <note n="b4a03e8d">
+          <note>
             2011/12:67
           </note>
-          <note type="date" n="cb05c8c7">
+          <note>
             Fredagen den 3 februari
           </note>
-          <note n="98654187">
+          <note>
             Kl. 09:00 - 10:47
           </note>
-          <note n="e573a0d8">
+          <note>
             1 § Aktuell debatt: Förekomsten av riskkapitalbolag i den skattefinansierade
             välfärden
           </note>
-          <note type="speaker" n="1c9ea95d">
+          <note type="speaker">
             Anf. 1 JENNIE NILSSON (S):
           </note>
-          <u who="Q4563096" xml:id="i-d5b3b59186549694-0" n="63c5a467">
-            <seg n="cfc854aa">
+          <u xml:id="i-aaafd3914f4c1267-0" next="i-aaafd3914f4c1267-5" who="Q4563096">
+            <seg>
               Herr talman! Detta är en efterlängtad debatt men också en försenad
               debatt kanske till och med en medvetet försenad debatt. Vi begärde
               den i höstas under pågående vårdskandaler. Men om regeringen hade
               hoppats att stormen och därmed intresset för frågan nu skulle
               ha lagt sig hade man fel.
             </seg>
-            <seg n="d21c36d6">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-1" prev="i-aaafd3914f4c1267-0" who="Q4563096">
+            <seg>
               Herr talman! Den socialdemokratiska riksdagsgruppen har begärt
               en aktuell debatt om förekomsten av riskkapital i den skattefinansierade
               välfärden och möjligheten att föra över pengar till så kallade
@@ -102,14 +98,18 @@
               skatteplanering i syfte att minimera eller helt undvika att betala
               skatt.
             </seg>
-            <seg n="38ea082a">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-2" prev="i-aaafd3914f4c1267-0" who="Q4563096">
+            <seg>
               Vi gör det eftersom medborgarna har rätt att förvänta sig att
               deras inbetalda skattepengar går till att trygga och utveckla
               välfärden. Att delar av dessa skattemedel ska plockas ut ur verksamheten
               som aktieutdelning eller bli till vinster som plockas ut vid försäljningar
               är oacceptabelt.
             </seg>
-            <seg n="334c73c2">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-3" prev="i-aaafd3914f4c1267-0" who="Q4563096">
+            <seg>
               Det har också framkommit allvarlig kritik av främst vårdkvaliteten
               inom äldreomsorgen. Särskilt har företaget Carema Care uppmärksammats
               för allvarliga brister. Anhöriga och personal har i flera medier
@@ -118,7 +118,9 @@
               Ambea, där Carema Care ingår, ökat sin nettovinst kraftigt. Bonusar
               till chefer har också förekommit.
             </seg>
-            <seg n="1d8035a3">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-4" prev="i-aaafd3914f4c1267-0" who="Q4563096">
+            <seg>
               Avancerad skatteplanering gör att vinster dessutom inte ens beskattas
               i Sverige utan i skatteparadis i Engelska kanalen. Skattesystemets
               legitimitet bygger på att enskilda företag betalar skatt i förväntad
@@ -127,15 +129,17 @@
               går till det som de var avsedda för och hur vi tänker ta vårt
               ansvar för att trygga kvaliteten i vården, skolan och omsorgen.
             </seg>
-            <seg n="d01a42aa">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-5" prev="i-aaafd3914f4c1267-0" who="Q4563096">
+            <seg>
               Jag ser fram emot en konstruktiv debatt.
             </seg>
           </u>
-          <note type="speaker" n="259335d5">
+          <note type="speaker">
             Anf. 2 Finansminister ANDERS BORG (M):
           </note>
-          <u who="Q182050" xml:id="i-f8e8e17302b1f2b5-0" n="69f60dee">
-            <seg n="597dd1a0">
+          <u xml:id="i-aaafd3914f4c1267-6" next="i-aaafd3914f4c1267-20" who="Q182050">
+            <seg>
               Herr talman! Låt oss börja med att ta som utgångspunkt för debatten
               vad det är för samhälle vi vill ha i Sverige. Vi vill att det
               svenska samhället ska präglas av tillväxt, öppenhet, omställning
@@ -144,7 +148,9 @@
               att vi har en välfärdsstat. Det är viktigt att vi har en sammanhållning
               i vårt land som gör att vi inte bygger in klyftor och konflikter.
             </seg>
-            <seg n="601f5eef">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-7" prev="i-aaafd3914f4c1267-6" who="Q182050">
+            <seg>
               Här har Sverige lyckats bättre än praktiskt taget alla andra
               länder. När OECD strax före jul i sin rapport Divided We Stand
               Why Inequality Keeps Rising utvärderar skillnaderna landar man
@@ -152,7 +158,9 @@
               när man tar hänsyn till att vi också tillhandahåller välfärdstjänster
               till alla.
             </seg>
-            <seg n="097d83fd">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-8" prev="i-aaafd3914f4c1267-6" who="Q182050">
+            <seg>
               Sverige har den högsta sociala mobiliteten så som OECD mäter
               det. Utbildningsarvet spelar minst roll i Sverige. I omfattande
               statistik belägger man att de mest utsatta i det svenska samhället
@@ -160,7 +168,9 @@
               materiell fattigdom är mindre i Sverige och de nordiska länderna
               än i praktiskt taget alla andra länder.
             </seg>
-            <seg n="112d2cf5">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-9" prev="i-aaafd3914f4c1267-6" who="Q182050">
+            <seg>
               Varför är det på det sättet? Jo, därför att vi menar att välfärd
               är att alla människor kan forma sitt liv, att de har resurser
               att göra det och att de kan välja sin väg genom livet med hjälp
@@ -170,11 +180,15 @@
               behov. Det utjämnar skillnader i välfärd och underlättar för människor
               att forma sitt liv.
             </seg>
-            <seg n="96d226d3">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-10" prev="i-aaafd3914f4c1267-6" who="Q182050">
+            <seg>
               Det är så vi vill att det svenska välfärdssamhället ska vara.
               Det är den rollen vi vill att det ska spela.
             </seg>
-            <seg n="593f1947">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-11" prev="i-aaafd3914f4c1267-6" who="Q182050">
+            <seg>
               Det här är ett omfattande åtagande. Vi använder ungefär 50 procent
               av vår bnp till offentliga utgifter. Det är en av de högsta nivåerna
               bland alla länder. Den är ungefär lika hög som den var för ungefär
@@ -182,7 +196,9 @@
               i Sverige som jobbar i den offentliga sektorn. Det är den högsta
               nivån tillsammans med Norge och Danmark.
             </seg>
-            <seg n="0439e892">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-12" prev="i-aaafd3914f4c1267-6" who="Q182050">
+            <seg>
               De sociala utgifterna är i Sverige högre än i praktiskt taget
               alla andra länder. Det gäller när vi tittar på barnomsorg, det
               gäller när vi tittar på omsorg och långtidsvård, det gäller när
@@ -192,7 +208,9 @@
               men genomgående är Sverige ett land som lägger stora resurser
               på sammanhållning och på att skapa välfärd för alla.
             </seg>
-            <seg n="516e5859">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-13" prev="i-aaafd3914f4c1267-6" who="Q182050">
+            <seg>
               Det har också skett stora satsningar under de senaste åren. När
               man ser på tv får man ibland intrycket av att det pågår en brutal
               nedrustning av den svenska välfärdsstaten som nu ligger i spillror.
@@ -202,7 +220,9 @@
               för specialistvården också lite över 20 procent. Det har alltså
               skett en påtaglig resursökning i delar av den svenska välfärden.
             </seg>
-            <seg n="c7b2aeba">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-14" prev="i-aaafd3914f4c1267-6" who="Q182050">
+            <seg>
               Kvalitet, tillgänglighet och valfrihet det är det som i dag är
               den svenska välfärden. Det är det vi tror på, men när det gällde
               valfrihet och tillgänglighet var det tyvärr så att vi tidigare
@@ -211,12 +231,16 @@
               personal hade bara kommunala arbetsgivare eller landstinget att
               vända sig till.
             </seg>
-            <seg n="43024ad6">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-15" prev="i-aaafd3914f4c1267-6" who="Q182050">
+            <seg>
               Detta har valfrihetsreformerna ändrat på, och det är en stor
               förbättring av det svenska samhället. Det ökar människors makt
               och egna inflytande.
             </seg>
-            <seg n="c5d7deee">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-16" prev="i-aaafd3914f4c1267-6" who="Q182050">
+            <seg>
               Det finns nu alternativ, men huvuddelen av all verksamhet är
               offentlig. Mellan 75 procent för barnomsorgen och 95 procent av
               sjukhusvården är offentlig verksamhet. På praktiskt taget varje
@@ -227,7 +251,9 @@
               där all välfärd i Sverige produceras av privata företag. Så är
               det alltså inte.
             </seg>
-            <seg n="1c30f4aa">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-17" prev="i-aaafd3914f4c1267-6" who="Q182050">
+            <seg>
               Låt oss också ta skattefrågan. Skatter ska betalas. Vi kan ha
               låga skatter och bra näringslivsvillkor om man betalar sina skatter.
               Bra företag producerar bilar, elektroniksystem eller vård tillsammans
@@ -237,7 +263,9 @@
               sig inte genom konstiga konstruktioner att flytta skattebetalningarna
               till Caymanöarna eller till något annat skatteparadis.
             </seg>
-            <seg n="6e9d0661">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-18" prev="i-aaafd3914f4c1267-6" who="Q182050">
+            <seg>
               Det problem vi talar om uppkom på grund av att den socialdemokratiska
               regeringen för ett antal år sedan förändrade beskattningen av
               onoterade andelar. Den förändringen, menade man, var nödvändig
@@ -246,45 +274,55 @@
               i bolagen. Dem har vi stängt. Det skapade så småningom också möjligheten
               att bygga dessa externa räntesnurror. Dem håller vi på att stänga.
             </seg>
-            <seg n="5c8f62bb">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-19" prev="i-aaafd3914f4c1267-6" who="Q182050">
+            <seg>
               Girighet kan inte vara ledmotivet för företagande. Samhällsansvar
               för att bygga lönsamma företag som tillsammans med personal och
               kunder effektivt producerar det kunderna vill ha och betalar de
               skatter samhället efterfrågar är vad denna debatt handlar om.
             </seg>
-            <seg n="bd582ae0">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-20" prev="i-aaafd3914f4c1267-6" who="Q182050">
+            <seg>
               Vi tror på valfrihet. Vi tror på välfärd. Därför tror vi också
               på att man ska betala sina skatter. Möjligheterna till skattesmitning
               och undandragning av skatt ska stängas, och det är det denna regering
               arbetar för.
             </seg>
-            <seg n="393a669e">
-              (Applåder)
-            </seg>
           </u>
-          <note type="speaker" n="6360cc12">
+          <note>
+            (Applåder)
+          </note>
+          <note type="speaker">
             Anf. 3 JENNIE NILSSON (S):
           </note>
-          <u who="Q4563096" xml:id="i-d5b3b59186549694-1" n="63c5a467">
-            <seg n="b385d98d">
+          <u xml:id="i-aaafd3914f4c1267-21" next="i-aaafd3914f4c1267-36" who="Q4563096">
+            <seg>
               Herr talman! Ett samhälles civilisationsgrad avgörs av hur vi
               behandlar våra barn och våra gamla. Vi måste kunna känna oss trygga
               med att när ålderdomen oombedd kommer ska vi få en god omvårdnad
               av hög kvalitet utifrån våra behov.
             </seg>
-            <seg n="fdd9bc14">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-22" prev="i-aaafd3914f4c1267-21" who="Q4563096">
+            <seg>
               Vi socialdemokrater har inget emot vinst i betydelsen ett företagsekonomiskt
               överskott. Överskott behövs för att kunna investera och kunna
               utveckla.
             </seg>
-            <seg n="e9d5996f">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-23" prev="i-aaafd3914f4c1267-21" who="Q4563096">
+            <seg>
               Men i offentlig verksamhet, när vi sysslar med vård, skola och
               omsorg, borde det vara självklart att vinsten har en annan roll
               än när vi tillverkar bilar och datorer. Kommuner och landsting
               drivs inte för att ge andra överskott än just sådana som behövs
               för investeringar och utveckling av kvaliteten i verksamheten.
             </seg>
-            <seg n="e1a778c7">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-24" prev="i-aaafd3914f4c1267-21" who="Q4563096">
+            <seg>
               Det finns ett långsiktigt tänkande utifrån analyser av vilka
               behov som vård, skola och omsorg måste klara av, behov som individen
               har, men också behov som det gemensamma har utifrån hur Sverige
@@ -292,7 +330,9 @@
               kunna konkurrera. Inte minst därför måste fortsatta satsningar
               och ett fortsatt arbete ske för att utveckla välfärden.
             </seg>
-            <seg n="aa2fb34b">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-25" prev="i-aaafd3914f4c1267-21" who="Q4563096">
+            <seg>
               Vi har inte råd med att skattepengar som skulle kunna ge oss
               en ännu bättre vård och en ännu bättre omsorg i stället tickar
               ut som vinster. Tanken med mångfalden och valfriheten inom välfärden
@@ -301,7 +341,9 @@
               sammanslutningar av människor och personalkooperativ, stiftelser
               och idéburna entreprenörer som goda exempel.
             </seg>
-            <seg n="7687599b">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-26" prev="i-aaafd3914f4c1267-21" who="Q4563096">
+            <seg>
               Den stora frågan är dock vad de privata storkoncernerna tillför
               och, ännu mer, om riskkapitalbolag kan vara lämpliga ägare till
               skola, vård och omsorg. Ska inte riskkapital satsas i nya, osäkra
@@ -311,25 +353,33 @@
               det i skattefinansierad verksamhet? Är det lämpligt att skolor
               och äldreboenden ständigt byter ägare och huvudmän?
             </seg>
-            <seg n="34e5f4d8">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-27" prev="i-aaafd3914f4c1267-21" who="Q4563096">
+            <seg>
               Svenska folket tvingas nu se på när miljarder av deras skattepengar
               lämnar vården, skolan och omsorgen. Detta vill vi socialdemokrater
               göra någonting åt. Eftersom andra länder i Europa klarar av att
               ha valfrihet samtidigt som de har betydligt mer restriktiva regler
               kring hur skattemedel används borde detsamma kunna gälla i Sverige.
             </seg>
-            <seg n="53c398d5">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-28" prev="i-aaafd3914f4c1267-21" who="Q4563096">
+            <seg>
               Vårt förslag i höstens budgetmotion, som kom före vårdskandalerna,
               var att skyndsamt utreda en bättre ordning. En sådan utredning
               bör bland annat ta sin utgångspunkt i följande:
             </seg>
-            <seg n="98cb5733">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-29" prev="i-aaafd3914f4c1267-21" who="Q4563096">
+            <seg>
               Förvisso föreslog finansministern ändringar 2008, men hur har
               det varit med uppföljningen? Det var inte finansministern utan
               medierna som började sammanställa uppgifter om hur riskkapitalbolagen
               tricksade med internlånen.
             </seg>
-            <seg n="4721bf76">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-30" prev="i-aaafd3914f4c1267-21" who="Q4563096">
+            <seg>
               Eftersom medierna helt riktigt har identifierat de borgerliga
               partierna som drivande när det gäller att öka antalet privata
               aktörer blev också trycket på regeringen hårt när missförhållanden
@@ -339,31 +389,41 @@
               kommunal och privat äldreomsorg, samt att ta fram vägledning för
               upphandling, avtal och uppföljning.
             </seg>
-            <seg n="1628b9ca">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-31" prev="i-aaafd3914f4c1267-21" who="Q4563096">
+            <seg>
               Skatteverket fick i uppdrag att kartlägga och granska företag
               inom vård, skola och omsorg, särskilt med avseende på ränteavdrag.
             </seg>
-            <seg n="5e3a611a">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-32" prev="i-aaafd3914f4c1267-21" who="Q4563096">
+            <seg>
               Så långt allt väl, men sedan tycker jag att regeringen helt tappade
               bollen.
             </seg>
-            <seg n="35d5fbf9">
-              Regeringen avser att återkomma först under 2012 med förslag på
-              skärpningar kring ränteavdragen. Dessa kan eventuellt börja gälla
-              tidigast 2013.
-            </seg>
-            <seg n="e0bda274">
+          </u>
+          <note>
+            Regeringen avser att återkomma först under 2012 med förslag på
+            skärpningar kring ränteavdragen. Dessa kan eventuellt börja gälla
+            tidigast 2013.
+          </note>
+          <u xml:id="i-aaafd3914f4c1267-33" prev="i-aaafd3914f4c1267-21" who="Q4563096">
+            <seg>
               En utredning om meddelarfrihet i privat driven välfärd ska tillsättas,
               men först till sommaren 2012, vilket är helt obegripligt.
             </seg>
-            <seg n="2797b229">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-34" prev="i-aaafd3914f4c1267-21" who="Q4563096">
+            <seg>
               Ekonomi och politik handlar i dag alltmer om tid. Kapitalets
               allt större rörlighet och omsättningshastighet kräver snabba reaktioner.
               Regeringens förslag är inte tillräckliga för att komma åt vare
               sig kvalitetsproblem eller problemet med att skattemedel försvinner
               ur välfärden genom stora vinster.
             </seg>
-            <seg n="f855c5ae">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-35" prev="i-aaafd3914f4c1267-21" who="Q4563096">
+            <seg>
               En förändring av ränteavdragen löser heller inte problemet med
               att vinstmaximering på välfärdstjänster leder till besparingar
               på kvaliteten. Förändrade ränteavdrag innebär som bäst att välfärdsföretag
@@ -371,17 +431,19 @@
               betala skatt i Sverige. Även om så sker kvarstår problemet med
               att stora vinster som uppstår ur skattemedel försvinner ur välfärden.
             </seg>
-            <seg n="3799f301">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-36" prev="i-aaafd3914f4c1267-21" who="Q4563096">
+            <seg>
               Vi behöver börja diskutera ett ramverk för icke-offentliga aktörers
               verksamhet inom vård, skola och omsorg. Jag hoppas att det är
               det vi ska göra här i dag.
             </seg>
           </u>
-          <note type="speaker" n="7053c123">
+          <note type="speaker">
             Anf. 4 PER BOLUND (MP):
           </note>
-          <u who="unknown" xml:id="i-eca75bd0a47c06c2-0" n="30fe6464">
-            <seg n="9f03e135">
+          <u xml:id="i-aaafd3914f4c1267-37" next="i-aaafd3914f4c1267-50" who="Q5581337">
+            <seg>
               Herr talman! Det brukar sägas att ett samhälles värdighet hänger
               på hur bra det är på att ta hand om sina svagaste. Om det stämmer
               har Sverige stora problem. Vi har under det senaste året fått
@@ -392,7 +454,9 @@
               förs ut ur landet till riskkapitalbolag i skatteparadis. Det är
               fullständigt oacceptabelt.
             </seg>
-            <seg n="2fc5da81">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-38" prev="i-aaafd3914f4c1267-37" who="Q5581337">
+            <seg>
               För oss i Miljöpartiet handlar den här debatten i grunden om
               mänskliga rättigheter. Den handlar om rätten för varje individ
               att få vård och omsorg efter sina behov, om rätten för våra äldre
@@ -400,7 +464,9 @@
               om rätten för våra barn att få en utbildning som skapar en god
               grund för dem i vuxenlivet och i yrkeslivet.
             </seg>
-            <seg n="8915798f">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-39" prev="i-aaafd3914f4c1267-37" who="Q5581337">
+            <seg>
               Miljöpartiet är öppet för företagande inom välfärden. Det är
               för att vi vill ge möjligheter till alla de eldsjälar som har
               idéer och passion för att förbättra verksamheterna. Det kan vara
@@ -412,7 +478,9 @@
               deras visioner som vi i Miljöpartiet vill ge möjlighet att genom
               företagande driva verksamheter inom välfärden.
             </seg>
-            <seg n="7fc3a2c6">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-40" prev="i-aaafd3914f4c1267-37" who="Q5581337">
+            <seg>
               Tyvärr har vi kunnat se också exempel på hur den möjligheten
               missbrukas. Jag vill vara tydlig med att vår drivkraft aldrig
               har varit att bereda väg för dem som i första hand drivs av att
@@ -421,12 +489,16 @@
               att få människor att må bättre, att lära sig mer, att bli friskare,
               att utvecklas.
             </seg>
-            <seg n="76b71199">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-41" prev="i-aaafd3914f4c1267-37" who="Q5581337">
+            <seg>
               Samtidigt är det självklart viktigt inom välfärdssektorn att
               varje verksamhet har en trygg ekonomi som går runt, som skapar
               överskott som sedan kan investeras för att få ännu bättre verksamhet.
             </seg>
-            <seg n="806d0674">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-42" prev="i-aaafd3914f4c1267-37" who="Q5581337">
+            <seg>
               Verksamheter som drivs i företagsform behöver också ha möjligheten
               att använda överskott till vinstutdelning. Miljöpartiet vill inte
               ta bort den möjligheten. Däremot säger vi tydligt att vinstintresset
@@ -434,7 +506,9 @@
               låg bemanning eller ovärdig omvårdnad. Vinstkrav får aldrig vara
               en bakomliggande orsak till minskad lärartid i skolan.
             </seg>
-            <seg n="1b624408">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-43" prev="i-aaafd3914f4c1267-37" who="Q5581337">
+            <seg>
               För att komma åt detta vill vi att företag inom välfärdssektorn
               alltid tydligt ska redovisa hur man planerar att hantera sin vinst.
               Vi ser att det i de allra flesta fall går utmärkt att kombinera
@@ -447,7 +521,9 @@
               upp friskolekoncerner och i hög takt starta nya skolor ringer
               varningsklockorna.
             </seg>
-            <seg n="a34f90d0">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-44" prev="i-aaafd3914f4c1267-37" who="Q5581337">
+            <seg>
               Herr talman! Varningsklockorna borde ringa hos alla partier,
               men ändå framstår regeringen som handfallen. Moderaterna skrev
               i går på DN Debatt att de tillsätter en arbetsgrupp för att se
@@ -457,40 +533,52 @@
               kommit med politiska förslag som kan genomföras i praktiken. Tydligare
               än så blir inte skillnaden mellan ord och handling i politiken.
             </seg>
-            <seg n="12f85c87">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-45" prev="i-aaafd3914f4c1267-37" who="Q5581337">
+            <seg>
               Miljöpartiet har föreslagit att det i bolagsordningen för alla
               företag som verkar inom skolan ska skrivas in att det är utbildningen
               som är huvudsyftet för verksamheten. Det borde vara en självklarhet,
               men tyvärr visar alltför många exempel på att regelverket i dag
               inte räcker.
             </seg>
-            <seg n="8e9b3225">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-46" prev="i-aaafd3914f4c1267-37" who="Q5581337">
+            <seg>
               Vi säger också att skolföretag ska granskas med kunskapsuppdraget
               i fokus. Det gör att vi tycker att revisorer som granskar skolföretag
               ska kunna utbildning, de ska vara certifierade av Skolverket så
               att de vet hur skolverksamhet fungerar.
             </seg>
-            <seg n="66b577df">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-47" prev="i-aaafd3914f4c1267-37" who="Q5581337">
+            <seg>
               Vi anser också att det behövs en bättre kontroll när skolor byter
               ägare. Vi tycker att när ändringar i ägarförhållanden sker i skolor
               ska det alltid anmälas till Skolinspektionen. Att sälja en skola
               till någon som möjligen bjuder högst men som inte har förmåga
               att bedriva bra skolverksamhet ska inte vara möjligt.
             </seg>
-            <seg n="84a661fd">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-48" prev="i-aaafd3914f4c1267-37" who="Q5581337">
+            <seg>
               Inom omsorgen föreslår vi att kommunerna ska sätta upp tydliga
               miniminivåer för bemanning. På så sätt blir det tydligt för alla
               om vårdföretagen försöker kapa kostnader genom att skära ned på
               personal, ha mindre personaltäthet än andra verksamheter.
             </seg>
-            <seg n="33edfba0">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-49" prev="i-aaafd3914f4c1267-37" who="Q5581337">
+            <seg>
               Vi tycker också att det är dags att inrätta en statlig myndighet
               som granskar omsorgen och som kan slå larm när kvaliteten brister.
               Som äldre eller anhörig ska man alltid vara trygg med att det
               finns en god omsorg med hög kvalitet och med tillräckligt med
               personal.
             </seg>
-            <seg n="a11a5a22">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-50" prev="i-aaafd3914f4c1267-37" who="Q5581337">
+            <seg>
               Herr talman! Att regeringen inte har kommit längre än att tillsätta
               arbetsgrupper är beklämmande. Medan regeringen funderar är det
               de vårdbehövande och de svaga som hamnar i kläm. Jag har här i
@@ -503,11 +591,11 @@
               svagaste.
             </seg>
           </u>
-          <note type="speaker" n="b86646f3">
+          <note type="speaker">
             Anf. 5 ALLAN WIDMAN (FP):
           </note>
-          <u who="Q4731041" xml:id="i-237996475a9a4de5-0" n="8866d1d3">
-            <seg n="9c34b234">
+          <u xml:id="i-aaafd3914f4c1267-51" next="i-aaafd3914f4c1267-60" who="Q4731041">
+            <seg>
               Herr talman! Rubriken för denna debatt är en smula märklig. Den
               lyder: Förekomsten av riskkapitalbolag i den skattefinansierade
               välfärden. Rubriken är märklig på det sättet att det inte finns
@@ -518,7 +606,9 @@
               att någon riskerat ett kapital i en affärsverksamhet i syfte att
               nå högre avkastning.
             </seg>
-            <seg n="7e1c99ea">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-52" prev="i-aaafd3914f4c1267-51" who="Q4731041">
+            <seg>
               Även det andra ledet i rubriken vållar svårigheter i fråga om
               avgränsning. Leverantörerna till den skattefinansierade välfärden
               är i dag så många och diversifierade att knappast någon bransch
@@ -526,14 +616,18 @@
               dag beroende av privata leverantörer när det gäller varor och
               tjänster, och leverantörerna ersätts således med just skattepengar.
             </seg>
-            <seg n="40895430">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-53" prev="i-aaafd3914f4c1267-51" who="Q4731041">
+            <seg>
               Men mot bakgrund av vad som hittills sagts i debatten och höstens
               massmediala rapportering, antar jag att diskussionen ska snävas
               in till att gälla privat näringsverksamhet inom vård, omsorg och
               skola och särskilt, herr talman, när sådan verksamhet inneburit
               missförhållanden för enskilda människor.
             </seg>
-            <seg n="22ebfeb3">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-54" prev="i-aaafd3914f4c1267-51" who="Q4731041">
+            <seg>
               Låt mig redan nu slå fast att det finns strukturella skillnader
               mellan till exempel skolan och omsorgen om våra äldre. Tillstånd
               för och tillsyn av friskolorna handläggs av en för ändamålet inrättad
@@ -544,7 +638,9 @@
               vilket är detsamma som att lägga ned verksamheten. Enligt skollagen
               gäller numera också samma krav för alla skolor oberoende av huvudmannaskap.
             </seg>
-            <seg n="22b2d8ae">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-55" prev="i-aaafd3914f4c1267-51" who="Q4731041">
+            <seg>
               När det gäller äldreomsorgen överfördes tillsynen den 1 januari
               2010 till Socialstyrelsen. I samband därmed gavs utökade befogenheter
               att ingripa mot brister i kvalitet och säkerhet. En viktig skillnad,
@@ -555,14 +651,18 @@
               av Socialstyrelsen, åtminstone inte för den äldreomsorg som kommunerna
               handlar upp.
             </seg>
-            <seg n="03ec0496">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-56" prev="i-aaafd3914f4c1267-51" who="Q4731041">
+            <seg>
               Det är Folkpartiets uppfattning att en särskild statlig myndighet
               för tillsyn och tillståndsprövning bör skapas för äldreomsorgen.
               Det kommer, precis som skett på skolområdet, att leda till en
               mer effektiv och kvalitetsorienterad granskning av såväl enskilt
               som kommunalt bedriven omsorg.
             </seg>
-            <seg n="383fd8a8">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-57" prev="i-aaafd3914f4c1267-51" who="Q4731041">
+            <seg>
               Den helt avgörande skillnaden mellan skolan och främst äldreboenden
               är dock graden av valfrihet. Missnöjda elever och föräldrar kan
               närhelst välja att söka sig till en annan skola fristående eller
@@ -572,7 +672,9 @@
               sörjer också för att det ofta finns gott om alternativ att välja
               mellan.
             </seg>
-            <seg n="58521452">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-58" prev="i-aaafd3914f4c1267-51" who="Q4731041">
+            <seg>
               Herr talman! Dess värre är det bara fem av landets 290 kommuner
               som tillämpar lagen om valfrihet när det gäller äldreboenden.
               Fortfarande dominerar upphandlingarna helt. I praktiken blir följden
@@ -581,7 +683,9 @@
               vårdtagare eller omsorgstagare är missnöjd finns inga alternativ.
               Vad kan då en äldre och dennes anhöriga sätta emot?
             </seg>
-            <seg n="2fa222eb">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-59" prev="i-aaafd3914f4c1267-51" who="Q4731041">
+            <seg>
               Lagen om offentlig upphandling fungerar bra när prestationer
               kan mätas, räknas eller vägas. I fråga om tjänster av en nära
               och mänsklig karaktär blir kvalitet genast svårare att specificera.
@@ -590,7 +694,9 @@
               inte så förvånande att många av de skandaler vi bevittnat skett
               just inom boenden för vård och omsorg av äldre.
             </seg>
-            <seg n="a2ffbeb7">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-60" prev="i-aaafd3914f4c1267-51" who="Q4731041">
+            <seg>
               Herr talman! Våra äldre är värda samma valfrihet och samma makt
               över sin vardag som gäller för elever och föräldrar. I ett system
               där den enskilde bestämmer var samhällets subvention ska utnyttjas
@@ -601,11 +707,11 @@
               av det svenska näringslivet.
             </seg>
           </u>
-          <note type="speaker" n="e488eeaf">
+          <note type="speaker">
             Anf. 6 ANDERS W JONSSON (C):
           </note>
-          <u who="unknown" xml:id="i-d476364b82743db8-0" n="0bee9b04">
-            <seg n="5d5d1bc2">
+          <u xml:id="i-aaafd3914f4c1267-61" next="i-aaafd3914f4c1267-74" who="Q5891398">
+            <seg>
               Herr talman! Jag besökte förra året dialysavdelningen på Visby
               lasarett. En dialysavdelning är som ett andra hem för dem som
               på grund av sviktande njurfunktion måste få dialys, inte sällan
@@ -615,19 +721,25 @@
               på Visby lasarett är ett utmärkt exempel på en av Sveriges tiotusentals
               välfärdsinstitutioner.
             </seg>
-            <seg n="476060d0">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-62" prev="i-aaafd3914f4c1267-61" who="Q5891398">
+            <seg>
               Dialysavdelningen har tidigare drivits av Visby kommun som en
               del av sjukvårdsförvaltningen underställd sjukhusdirektören. På
               den tiden drevs avdelningen helt utan vinstkrav och ibland med
               till och med ett minusresultat.
             </seg>
-            <seg n="8e0b95ec">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-63" prev="i-aaafd3914f4c1267-61" who="Q5891398">
+            <seg>
               Sedan några år tillbaka har dialysen vid Visby lasarett tagits
               över av det privata, multinationella aktiebolaget Diaverum. Det
               innebar att 2011 gick 15 miljoner kronor av skattebetalarnas pengar
               direkt till det privata vinstdrivna Diaverum.
             </seg>
-            <seg n="38302416">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-64" prev="i-aaafd3914f4c1267-61" who="Q5891398">
+            <seg>
               Jag pratade med sjuksköterskor och frågade om det inte var bättre
               förr när pengarna stannade i vården och inte gick till aktieägare.
               Svaret blev nej: Det mesta har för oss blivit bättre, ja, kanske
@@ -639,19 +751,25 @@
               funderat på att jobba åt Diaverum i Chile, sade en av de yngre
               sjuksköterskorna.
             </seg>
-            <seg n="269784c3">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-65" prev="i-aaafd3914f4c1267-61" who="Q5891398">
+            <seg>
               I patientenkäter får Diaverums dialys på Gotland bättre betyg
               än snittet för annan öppenvård på ön. Den ligger dessutom högre
               än snittet för öppenvård i hela Sverige.
             </seg>
-            <seg n="9d5574e0">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-66" prev="i-aaafd3914f4c1267-61" who="Q5891398">
+            <seg>
               Diaverum har som utförare av njursjukvård bidragit till en väsentligt
               förbättrad läkarkontinuitet till en rimlig kostnad. Under förra
               året bidrog man dessutom till en kostnadseffektiv lösning för
               kommunen vad gäller utdelning av läkemedel. I jämförelse med dialysverksamhet
               i andra landsting ligger kostnaden per dialys lågt på Gotland.
             </seg>
-            <seg n="72545950">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-67" prev="i-aaafd3914f4c1267-61" who="Q5891398">
+            <seg>
               Det är företag som Diaverum som den här debatten i dag handlar
               om. Det finns partier här i kammaren som inte fäster vikt vid
               att njursjuka patienter är nöjdare i Visby än på andra ställen,
@@ -659,13 +777,17 @@
               mycket bättre med Diaverum än på den tiden dialysverksamheten
               sorterade under sjukhusdirektören.
             </seg>
-            <seg n="6bc3c1ec">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-68" prev="i-aaafd3914f4c1267-61" who="Q5891398">
+            <seg>
               Det är partier för vilka det faktum att stafettläkarna försvunnit
               utan att kostnaden ökat på intet sätt är avgörande och som inte
               heller är glada över att Gotlands kommun dessutom har en billigare
               dialys än de flesta andra landsting.
             </seg>
-            <seg n="6a154d73">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-69" prev="i-aaafd3914f4c1267-61" who="Q5891398">
+            <seg>
               Det är partier som är så upprörda över att det finns enheter
               som just Diaverum att de har begärt en extra riksdagsdebatt, och
               det av en anledning. Det faktum att dialysavdelningen vid Visby
@@ -675,7 +797,9 @@
               Bridgepoint som gör att dialysen i sin nuvarande skepnad måste
               bort från Visby lasarett.
             </seg>
-            <seg n="d2153781">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-70" prev="i-aaafd3914f4c1267-61" who="Q5891398">
+            <seg>
               För mig och Centerpartiet är det avgörande inte om ägaren är
               stiftelse eller kooperativ, om det är en kommunal förvaltning
               eller ett aktiebolag. För oss är det viktigare att patienter,
@@ -685,7 +809,9 @@
               som ger vinst än att den drivs av en kommunal förvaltning eller
               landstingsförvaltning som dessutom går back.
             </seg>
-            <seg n="ee9a8b24">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-71" prev="i-aaafd3914f4c1267-61" who="Q5891398">
+            <seg>
               Inte minst tydligt blir det här i äldreomsorgen. Äldreomsorgen
               är, precis som annan välfärdsverksamhet, en tjänst som ska hålla
               toppkvalitet, erbjuda valfrihet och trygghet. Gör man det får
@@ -693,36 +819,44 @@
               man åt kommunen bygger ett äldreboende, asfalterar en väg eller
               gör skolböcker.
             </seg>
-            <seg n="ea02b9e5">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-72" prev="i-aaafd3914f4c1267-61" who="Q5891398">
+            <seg>
               Den som tror att privata företag på sikt kan göra vinster genom
               att erbjuda vanvård och usel kvalitet kan aldrig ha varit kund
               hos ett privat tjänsteföretag. Inte minst det som har hänt Carema
-              på Koppargården i Helsingfors visar att vanvård och usel kvalitet
+              på Koppargården i Stockholm visar att vanvård och usel kvalitet
               inte är rätt väg för den som vill göra vinst.
             </seg>
-            <seg n="b6d99ecd">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-73" prev="i-aaafd3914f4c1267-61" who="Q5891398">
+            <seg>
               För oss i Centerpartiet kommer därför, i dag och i framtiden,
               människors omsorg alltid att vara viktigare än en diskussion om
               driftsformer. När andra ropar högt om att förbjuda vinst och valfrihet
               är vårt svar att det behövs mer av valfrihet, inte mindre, mer
               av självbestämmande, inte mindre.
             </seg>
-            <seg n="124a42ec">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-74" prev="i-aaafd3914f4c1267-61" who="Q5891398">
+            <seg>
               Herr talman! När andra vill stänga välfungerande privata enheter
               av en enda orsak, att de är just privata, svarar vi att det tvärtom
               behövs många, många, många fler kreativa entreprenörer i den svenska
               välfärden.
             </seg>
           </u>
-          <note type="speaker" n="764803e1">
+          <note type="speaker">
             Anf. 7 JOHNNY SKALIN (SD):
           </note>
-          <u who="Q6328008" xml:id="i-55637356b8d665a0-0" n="3710373d">
-            <seg n="b9631587">
+          <u xml:id="i-aaafd3914f4c1267-75" next="i-aaafd3914f4c1267-85" who="Q6328008">
+            <seg>
               Herr talman! Låt mig börja med att tacka Socialdemokraterna för
               att de har lyft upp denna så viktiga fråga till debatt.
             </seg>
-            <seg n="76ab7613">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-76" prev="i-aaafd3914f4c1267-75" who="Q6328008">
+            <seg>
               Frågan om konkurrensutsättning, med möjlighet att driva offentliga
               tjänster i privat regi, är förvisso på inget sätt en ny fråga.
               Tvärtom är det här en företeelse som nu har pågått i två decennier.
@@ -732,13 +866,17 @@
               och privata aktörer har tagit fart på nytt och att riskkapitalbolag
               i vissa fall missbrukat möjligheten till privat drift av välfärdstjänster.
             </seg>
-            <seg n="e5d8c3db">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-77" prev="i-aaafd3914f4c1267-75" who="Q6328008">
+            <seg>
               Låt oss i detta samtidigt konstatera att det i grunden finns
               flera goda idéströmningar vad gäller både för och emot i frågan
               om att låta privata alternativ bedriva en offentligt konkurrensutsatt
               finansierad välfärd.
             </seg>
-            <seg n="8cb4d915">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-78" prev="i-aaafd3914f4c1267-75" who="Q6328008">
+            <seg>
               Låt mig även klargöra att Sverigedemokraterna, till skillnad
               från andra partier i den här församlingen, inte på något sätt
               är knutna till något slags ideologisk låsning i frågan grundad
@@ -749,28 +887,36 @@
               får ut det mesta möjliga ur varje för den allmänt finansierade
               välfärden investerad skattekrona.
             </seg>
-            <seg n="1f87b795">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-79" prev="i-aaafd3914f4c1267-75" who="Q6328008">
+            <seg>
               Rent konkret innebär det förhållningssättet att vi principiellt
               ställer oss bakom både tanken och möjligheten att en privat utövare
               ska kunna utmana en offentlig utövare, förutsatt att den privata
               utövaren också kan förbättra verksamheten alternativt behålla
               kvaliteten till en för skattebetalarna lägre kostnad.
             </seg>
-            <seg n="06be1972">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-80" prev="i-aaafd3914f4c1267-75" who="Q6328008">
+            <seg>
               För att möjliggöra detta blir det då förstås också viktigt att
               vi tittar på varje enskild del av välfärden för att det även ska
               vara möjligt att allokera de verksamheter där alternativa utövare
               kan utföra ett bättre jobb än vad en offentlig utövare förmår
               att göra.
             </seg>
-            <seg n="834e9976">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-81" prev="i-aaafd3914f4c1267-75" who="Q6328008">
+            <seg>
               I många fall har det också fallit väl ut. Inte minst vet vi att
               en femtedel av den privat drivna välfärden utförs av icke-vinstdrivande
               verksamheter. Vi har till exempel äldreboendet Vigs Ängar i Köpingebro,
               som ägs av kommunen men vars verksamhet bedrivs utan vinstsyfte
               och utan uppdelning mellan medarbetare och boende.
             </seg>
-            <seg n="7d7c90cf">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-82" prev="i-aaafd3914f4c1267-75" who="Q6328008">
+            <seg>
               Dess värre kan vi konstatera att samtidigt som det finns goda
               exempel har möjligheten att utmana den offentliga verksamheten
               inte fallit väl ut i alla sammanhang. Det är därför viktigt att
@@ -782,7 +928,9 @@
               anställningsbara trots att de saknar de kvalifikationer som efterfrågas
               på arbetsmarknaden.
             </seg>
-            <seg n="37a004b8">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-83" prev="i-aaafd3914f4c1267-75" who="Q6328008">
+            <seg>
               På samma sätt måste det även anses vara oacceptabelt att riksdagen
               stiftar lagar och regelsystem som möjliggör en privat utövning
               av offentliga verksamheter med orimligt stora vinstuttag. Än mer
@@ -790,7 +938,9 @@
               sida öppnar för möjligheten att dessa vinstuttag även kan beskattas
               i skatteparadis. Sådana avarter får helt enkelt inte existera!
             </seg>
-            <seg n="78ba050e">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-84" prev="i-aaafd3914f4c1267-75" who="Q6328008">
+            <seg>
               Inte heller kan det rimligen anses att friskolereformen har fallit
               väl ut. Vi menar därför att det är dags att Sverige instiftar
               ett friskolesystem där det måste finnas ett påvisbart behov av
@@ -800,18 +950,20 @@
               måste skolsystemets resurser användas till att höja kvaliteten
               i skolorna och inte till att delas ut som vinst.
             </seg>
-            <seg n="95a62c2f">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-85" prev="i-aaafd3914f4c1267-75" who="Q6328008">
+            <seg>
               Sverigedemokraterna står beredda att agera för att korrigera
               de uppenbara brister som föreligger. Frågan är bara: Kan vi finna
               en majoritet för att vi konkret också ska kunna genomdriva de
               nödvändiga åtgärderna i riksdagen? Låt oss i så fall göra det!
             </seg>
           </u>
-          <note type="speaker" n="17a6a671">
+          <note type="speaker">
             Anf. 8 ULLA ANDERSSON (V):
           </note>
-          <u who="Q4935938" xml:id="i-89dc1ea56c6a89e5-0" n="fb40bf45">
-            <seg n="b81e0577">
+          <u xml:id="i-aaafd3914f4c1267-86" next="i-aaafd3914f4c1267-102" who="Q4935938">
+            <seg>
               Herr talman! Kissblöjor har blivit värda sin vikt i guld i den
               marknadsanpassade äldreomsorgen. Det är våra nära och kära, din
               och min mormor eller pappa, dem vi älskar, som faktiskt betalar
@@ -819,14 +971,18 @@
               sova på madrassen, svälta eller till och med få sina kroppsdelar
               amputerade.
             </seg>
-            <seg n="10ba1513">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-87" prev="i-aaafd3914f4c1267-86" who="Q4935938">
+            <seg>
               Det är en konsekvens av en tydlig ideologisk politik där höga
               vinster ska pressas ur en verksamhet med små resurser. Tar man
               in vinstdrivande bolag i välfärden vill de självklart ha en vinst,
               och den måste tas någonstans. Då blir både omsorgen om de äldre
               och de anställdas arbetsvillkor lidande.
             </seg>
-            <seg n="c9765cb1">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-88" prev="i-aaafd3914f4c1267-86" who="Q4935938">
+            <seg>
               Att det har blivit så här är helt och fullt ett politiskt ansvar.
               Såväl socialdemokrater som miljöpartister har ett ansvar för den
               uppkomna situationen, men framför allt har moderaterna ansvaret.
@@ -836,7 +992,9 @@
               år 2014 ska de kommuner som inte har privatiserat hemtjänsten
               tvingas till det. Snacka om valfrihet! Tvångsval!
             </seg>
-            <seg n="e7e0a7d1">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-89" prev="i-aaafd3914f4c1267-86" who="Q4935938">
+            <seg>
               Vinst varje gång! Vill du bli miljonär? Det är två av de rubriker
               som vi har sett i tidningen Dagens samhälle under det gångna året
               och som på ett tydligt sätt beskriver vad det handlar om i den
@@ -846,7 +1004,9 @@
               och inom handikappomsorgen är nästan hela verksamheten bedriven
               av riskkapitalister.
             </seg>
-            <seg n="8bbaed5b">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-90" prev="i-aaafd3914f4c1267-86" who="Q4935938">
+            <seg>
               Sverige har blivit en experimentverkstad för alla som vill göra
               vinst på vår välfärd. Inget annat nordiskt land tillåter det.
               Och det är klart att de är intresserade. Här finns stabila kassaflöden,
@@ -855,12 +1015,16 @@
               omsorg eller bo på ett särskilt boende, folk behöver utbildning,
               och vi till och med bryter benen.
             </seg>
-            <seg n="ef854014">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-91" prev="i-aaafd3914f4c1267-86" who="Q4935938">
+            <seg>
               En verksamhet där både konsumtion och produktion, det vill säga
               hela verksamheten och vinsten, betalas av någon annan, det vill
               säga skattebetalarna, är självklart rena mumman för en riskkapitalist.
             </seg>
-            <seg n="7459466b">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-92" prev="i-aaafd3914f4c1267-86" who="Q4935938">
+            <seg>
               Därför är numera kissblöjor värda sin vikt i guld. Men hur mycket
               väger egentligen en kissblöja? Väger den inte mer än slopad förmögenhetsskatt
               eller sänkt krogmoms? Det är rätt tydligt att i högerns Sverige
@@ -869,14 +1033,18 @@
               så hög avkastning på totalt kapital än vad näringslivet i stort
               har.
             </seg>
-            <seg n="083dae61">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-93" prev="i-aaafd3914f4c1267-86" who="Q4935938">
+            <seg>
               Vi hör ofta ministrar skälla på banker och elbolag för att de
               har så höga vinster och suger ut sina kunder. Men att utbildning
               har högre avkastning än finansverksamhet och att äldreomsorgen
               har hela 37 procents avkastning, vilket är tre gånger så hög avkastning
               som för el och värme, det pratar sällan ministrar om.
             </seg>
-            <seg n="d460fd2d">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-94" prev="i-aaafd3914f4c1267-86" who="Q4935938">
+            <seg>
               Så, Borg, du kan vara lugn! Visst är de lönsamma, företagen.
               Det gäller till exempel Baggium, som drivs av ett riskkapitalbolag
               och bedriver yrkesutbildning och gör en vinst på 159 000 kronor
@@ -885,13 +1053,17 @@
               våra barns utbildning och till omsorg om våra äldre anhöriga.
               Men de går i stället rakt ned i riskkapitalisternas fickor.
             </seg>
-            <seg n="1c052ad7">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-95" prev="i-aaafd3914f4c1267-86" who="Q4935938">
+            <seg>
               Då ska vi veta att de stora vinsterna inte görs under den tid
               då riskkapitalbolagen äger verksamheten utan vid själva försäljningen.
               Riskkapitalbolag är ju mycket kortsiktiga ägare. De brukar äga
               cirka fem år.
             </seg>
-            <seg n="76352303">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-96" prev="i-aaafd3914f4c1267-86" who="Q4935938">
+            <seg>
               Förra gången Carema såldes gav det en avkastning på 350 procent.
               När Attendo såldes, efter att den dåvarande ägaren hade ägt det
               ett år, gav det 440 procent. Tänk dig själv att få 44 kronor på
@@ -899,17 +1071,23 @@
               inte så mycket att möjligheterna eller så kallade aktieägarlån
               eller räntesnurror stängs. Det tycker inte ens Riskkapitalföreningen.
             </seg>
-            <seg n="21f7a323">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-97" prev="i-aaafd3914f4c1267-86" who="Q4935938">
+            <seg>
               Halleluja, vad manna det regnar från skyn! utropar riskkapitalisterna
               glatt. Lovade vare alla politiska partier utom Vänsterpartiet
               förstås!
             </seg>
-            <seg n="00100ff6">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-98" prev="i-aaafd3914f4c1267-86" who="Q4935938">
+            <seg>
               Herr talman! Teorin bakom privatiseringarna är att skapa besparingar
               som är större än de samordningsvinster som går förlorade när större
               offentliga verksamheter splittras upp på flera privata utförare.
             </seg>
-            <seg n="15fd59ea">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-99" prev="i-aaafd3914f4c1267-86" who="Q4935938">
+            <seg>
               Eftersom uppemot 90 procent av kostnaderna i de verksamheter
               som privatiseras består av löner, som alltså fortfarande bekostas
               av skattemedel, är det personalen som måste effektiviseras och
@@ -919,19 +1097,25 @@
               eller sänker lönerna. Det är därför en outbildad vikarie själv
               får ta hand om 14 äldre på ett boende ägt av Carema.
             </seg>
-            <seg n="a754201f">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-100" prev="i-aaafd3914f4c1267-86" who="Q4935938">
+            <seg>
               Därmed uppstår ett överskott. Men eftersom det inte är det privata
               företaget som har satsat några pengar alls utan allt är finansierat
               av skatter, består detta överskott av skattepengar som har avsatts
               till vård, skola och omsorg men som inte har använts till det.
             </seg>
-            <seg n="31434f80">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-101" prev="i-aaafd3914f4c1267-86" who="Q4935938">
+            <seg>
               8 miljarder kronor av våra skattepengar gick i fjol till vinst.
               De skulle ha gått till vård, skola och omsorg. De går i stället
               rakt ned i privata fickor. För 8 miljarder kunde vi ha fått 20
               000 fler sjuksköterskor, lärare eller undersköterskor.
             </seg>
-            <seg n="59bb451f">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-102" prev="i-aaafd3914f4c1267-86" who="Q4935938">
+            <seg>
               För oss är valet enkelt. Vi säger nej till vinstdrivande bolag
               i välfärden och ja till bättre kvalitet med fler anställda och
               en behovsstyrd, demokratisk välfärdsverksamhet. En god kvalitet
@@ -939,11 +1123,11 @@
               sin vikt i guld.
             </seg>
           </u>
-          <note type="speaker" n="4e555c74">
+          <note type="speaker">
             Anf. 9 ANDERS SELLSTRÖM (KD):
           </note>
-          <u who="Q6172463" xml:id="i-1cd688a19858b768-0" n="f0266b1a">
-            <seg n="c1f3e17e">
+          <u xml:id="i-aaafd3914f4c1267-103" next="i-aaafd3914f4c1267-118" who="Q6172463">
+            <seg>
               Herr talman! Vi ska i Sverige ha så hög kvalitet som det bara
               är möjligt i alla våra välfärdssektorer som det offentliga ansvarar
               för och som drivs med skattemedel. Det gäller främst äldreomsorgen,
@@ -951,14 +1135,18 @@
               den så kallade hårda sektorn hamna i skymundan när skattefinansierad
               verksamhet debatteras.
             </seg>
-            <seg n="a0818791">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-104" prev="i-aaafd3914f4c1267-103" who="Q6172463">
+            <seg>
               Ingen i vårt land ska behöva tvivla på att det oförtrutet arbetas
               vidare med att hela tiden hitta vägar som förbättrar och höjer
               kvaliteten inom dessa områden och att det omedelbart sätts in
               åtgärder för att ställa till rätta när det ibland går och har
               gått fel.
             </seg>
-            <seg n="ff846c0b">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-105" prev="i-aaafd3914f4c1267-103" who="Q6172463">
+            <seg>
               Vi får aldrig glömma att det i välfärdssektorerna arbetar oerhört
               många människor med ambitionen att varje dag, varje minut göra
               det bästa man kan utifrån de förutsättningar som ges. Glöm heller
@@ -967,7 +1155,9 @@
               på mänskligt tillkortakommande, ibland resultatet av felaktiga
               rutiner och bristfällig bemanning.
             </seg>
-            <seg n="655eebc9">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-106" prev="i-aaafd3914f4c1267-103" who="Q6172463">
+            <seg>
               Varför går det då fel på vissa ställen men fungerar riktigt bra
               på andra? Varför trivs en del förträffligt på äldreboenden som
               drivs med lägre kostnader än andra äldreboenden som får kritik
@@ -975,7 +1165,9 @@
               sig till friskolor i stället för de kommunala? Och varför tänker
               en del inte ens den tanken?
             </seg>
-            <seg n="54928d1d">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-107" prev="i-aaafd3914f4c1267-103" who="Q6172463">
+            <seg>
               Att kunna välja, att kunna jämföra att det i fler och fler kommuner
               ges den möjligheten är här för att stanna. Tro inget annat! Det
               gäller skolans område men också äldreomsorgen och sjukvården.
@@ -984,20 +1176,26 @@
               men även ur den anställdes perspektiv, eftersom det är positivt
               med alternativa arbetsgivare i en av hävd kvinnodominerad bransch.
             </seg>
-            <seg n="2eea5d1f">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-108" prev="i-aaafd3914f4c1267-103" who="Q6172463">
+            <seg>
               Men i vårt land Sverige ska det aldrig vara acceptabelt att sätta
               människovärdet åt sidan för att nå andra syften. Det ska med automatik
               göra ont i själen hos dem som medvetet åsidosätter eller medvetet
               graderar och relativiserar människovärdet i syfte att tjäna en
               krona extra eller två.
             </seg>
-            <seg n="a37cac51">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-109" prev="i-aaafd3914f4c1267-103" who="Q6172463">
+            <seg>
               I mötet mellan den enskilde med behov och den eller dem som har
               tagit på sig ansvaret att möta det behovet ska värdighet och respekt
               vara ledstjärnan. Det minimerar risken för att fel begås och att
               människor hamnar i kläm.
             </seg>
-            <seg n="773cd92a">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-110" prev="i-aaafd3914f4c1267-103" who="Q6172463">
+            <seg>
               I den kontexten debatterar vi i dag en av många utförare av välfärdstjänster
               i vårt land, nämligen riskkapitalbolagen. Vad är då ett riskkapitalbolag?
               Alltför ofta framställs det som något farligt och främmande, och
@@ -1005,40 +1203,52 @@
               sätt att det utsätter företag, anställda, kunder eller patienter
               för risk.
             </seg>
-            <seg n="0f454428">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-111" prev="i-aaafd3914f4c1267-103" who="Q6172463">
+            <seg>
               Men är det inte närmare sanningen att säga att det som riskeras
               är just kapitalet? Ett riskkapitalbolag riskerar sina egna pengar
               när de investerar i en ny verksamhet. Anledningen till att de
               tar risken är att de tror att de kan få verksamheten att fungera
               bättre och därmed höja värdet på verksamheten.
             </seg>
-            <seg n="e37d6524">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-112" prev="i-aaafd3914f4c1267-103" who="Q6172463">
+            <seg>
               Inom välfärdssektorn går det inte att höja värdet på en verksamhet
               genom att försämra kvaliteten. Den som tror att riskkapitalisterna
               bakom Carema har sett en god värdeutveckling på sin investering
               under det senaste halvåret får nog ta och läsa lite grundläggande
               ekonomisk teori.
             </seg>
-            <seg n="cb7e801d">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-113" prev="i-aaafd3914f4c1267-103" who="Q6172463">
+            <seg>
               Värdet på ett företag inom välfärdssektorn blir högre om kvaliteten
               är bra, servicen är god och verksamheten är effektiv. Dock är
               det viktigt att påpeka att bristande kvalitet aldrig kan vägas
               upp av effektivitet. Bristande kvalitet är aldrig en konkurrensfördel.
             </seg>
-            <seg n="2c0be721">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-114" prev="i-aaafd3914f4c1267-103" who="Q6172463">
+            <seg>
               Sedan finns det förstås baksidor när till exempel profithunger
               står i vägen och skymmer huvudsyftet med verksamheten. Det går
               inte att komma ifrån misstanken att kortsiktig lönsamhet i vissa
               fall har gått före långsiktig hållbarhet.
             </seg>
-            <seg n="24c34eee">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-115" prev="i-aaafd3914f4c1267-103" who="Q6172463">
+            <seg>
               Upplägg med räntesnurror, höga internräntor och ränteavdrag har
               gjort att svenska skattepengar har gått som obeskattad vinst till
               utländska bolag. Så får det självfallet inte gå till. Skatt ska
               så långt det är möjligt betalas i Sverige, och räntesnurrornas
               tid måste snart vara förbi.
             </seg>
-            <seg n="00ef0a77">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-116" prev="i-aaafd3914f4c1267-103" who="Q6172463">
+            <seg>
               Debatten visar hittills på två läger. I det ena är valfrihet
               och privata utförare roten till allt ont, och lösningen på alla
               problem är att sätta stopp för dessa utförare inom välfärdssektorn.
@@ -1052,13 +1262,17 @@
               absolut bästa verksamheterna inom äldreomsorgen i dag är idéburna,
               och det vore bra om de också blir fler.
             </seg>
-            <seg n="647d360f">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-117" prev="i-aaafd3914f4c1267-103" who="Q6172463">
+            <seg>
               Därför anser vi kristdemokrater att det bör inrättas en fond
               för att främja finansieringslösningar i non profit-verksamheter,
               så att organisationer och stiftelser ska kunna låna långsiktigt
               med goda villkor.
             </seg>
-            <seg n="3a8443f9">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-118" prev="i-aaafd3914f4c1267-103" who="Q6172463">
+            <seg>
               Till sist, oavsett affärsmodell eller huvudman, är kvaliteten
               det viktigaste inom välfärden. Kvalitetskontrollen måste därför
               skärpas, och Kristdemokraterna vill inrätta en separat tillsynsmyndighet
@@ -1068,31 +1282,37 @@
               håller måttet, oavsett huvudman eller affärsmodell.
             </seg>
           </u>
-          <note type="speaker" n="6c4908ba">
+          <note type="speaker">
             Anf. 10 Finansminister ANDERS BORG (M):
           </note>
-          <u who="Q182050" xml:id="i-f8e8e17302b1f2b5-1" n="69f60dee">
-            <seg n="176ed6e0">
+          <u xml:id="i-aaafd3914f4c1267-119" next="i-aaafd3914f4c1267-130" who="Q182050">
+            <seg>
               Herr talman! Det finns två bilder av den svenska verkligheten
               i den här debatten. I den ena bilden raseras nu välfärden: Vi
               är drivna av girighet, och drivna av girighet river Alliansen
               nu ned den svenska välfärden för att bygga upp kortsiktiga vinster
               i riskkapitalbolagen.
             </seg>
-            <seg n="f887e1a8">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-120" prev="i-aaafd3914f4c1267-119" who="Q182050">
+            <seg>
               Den andra, verkliga, beskrivningen av Sverige är att vi efter
               fem sex år av alliansstyre fortsatt är en välfärdsnation en nation
               där vi säkrar att vi inte har för stora skillnader och där vi
               investerar i god välfärd, bra sjukvård och bra utbildning för
               alla medborgare.
             </seg>
-            <seg n="56b85ccf">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-121" prev="i-aaafd3914f4c1267-119" who="Q182050">
+            <seg>
               Sedan är ingen av oss representant för en perfekt modell. En
               fungerande politisk rörelse ser alltid fel och brister och fortsätter
               reformera. Det är därför vi i Alliansen har en pragmatisk syn
               på hur välfärd och offentlig verksamhet ska drivas.
             </seg>
-            <seg n="215b863f">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-122" prev="i-aaafd3914f4c1267-119" who="Q182050">
+            <seg>
               För oss är det självklart att man kan förstärka kvalitetskontrollen.
               För oss är det självklart att man kan förstärka prövningar och
               kontrollmekanismer. För oss är det självklart att man kan behöva
@@ -1101,14 +1321,18 @@
               Det är så ett pragmatiskt politiskt alternativ förhåller sig till
               ett samhällsproblem.
             </seg>
-            <seg n="24e80998">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-123" prev="i-aaafd3914f4c1267-119" who="Q182050">
+            <seg>
               Precis som det i den offentliga vården, den offentliga skolan
               och den offentliga barnomsorgen kan finnas fel och brister det
               är detta som är den breda, stora verksamheten kan det göra det
               i den privata. Då ska vi arbeta för att förstärka kvaliteten och
               omsorgen.
             </seg>
-            <seg n="4afdfc88">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-124" prev="i-aaafd3914f4c1267-119" who="Q182050">
+            <seg>
               Låt oss också vara medvetna om hur Sverige ser ut. I stora delar
               av Sverige är valfrihet något nytt. I min egen hemby, Flodafors,
               ville kommunen lägga ned den enda skolan. Efter ett par år kom
@@ -1119,7 +1343,9 @@
               i Flodafors nu kan gå kvar i Flodafors skola. Det hade inte varit
               möjligt om kommunens nedläggningsvilja hade fått styra.
             </seg>
-            <seg n="f2543cd5">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-125" prev="i-aaafd3914f4c1267-119" who="Q182050">
+            <seg>
               Låt oss nu också granska Socialdemokraterna. De har begärt den
               här debatten. Vad är det de vill debattera? Man skulle kunna tro
               att det var Socialdemokraternas skarpa förslag som skulle rätta
@@ -1127,7 +1353,9 @@
               som tyder på att välfärden i Sverige ska raseras. Låt oss då granska
               förslagen.
             </seg>
-            <seg n="3010aa62">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-126" prev="i-aaafd3914f4c1267-119" who="Q182050">
+            <seg>
               Jag skulle till exempel kunna be skatteavdelningen att titta
               på de tre alternativ för att stänga räntesnurrorna som Socialdemokraterna
               har tagit fram. Det vore intressant, men det går inte! Det är
@@ -1140,12 +1368,16 @@
               Efter att vi stängde de interna räntesnurrorna har vi varje år
               gett Skatteverket i uppdrag att följa verksamheten.
             </seg>
-            <seg n="f3c2bfe6">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-127" prev="i-aaafd3914f4c1267-119" who="Q182050">
+            <seg>
               Så här kan inte ett fungerande regeringsalternativ agera. Ett
               fungerande regeringsalternativ säger: Här är ett samhällsproblem,
               och här är vårt förslag som löser problemet. Rösta på oss!
             </seg>
-            <seg n="292c79ec">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-128" prev="i-aaafd3914f4c1267-119" who="Q182050">
+            <seg>
               Socialdemokraterna kritiserar i högt tonläge men har inga förslag.
               Den pragmatism som vi uppvisar här saknas på den socialdemokratiska
               sidan, och jag måste ställa frågan: När är likformigheten tillräcklig?
@@ -1153,23 +1385,27 @@
               det 97, 99 eller 99,5 procent det ska vara för att det ska vara
               balanserat?
             </seg>
-            <seg n="1b80fd85">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-129" prev="i-aaafd3914f4c1267-119" who="Q182050">
+            <seg>
               Vi är pragmatiska. Vi vill skärpa kontrollen. Vi vill se en balans
               mellan kooperativ, aktiebolag och offentligt driven verksamhet.
               Vi tycker att kommunala skolor är fantastiska och viktiga. Det
               är en pragmatisk hållning. Det handlar om att förstärka kvaliteten
               och satsa på välfärden därför att vi tror på sammanhållning.
             </seg>
-            <seg n="9744f301">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-130" prev="i-aaafd3914f4c1267-119" who="Q182050">
+            <seg>
               Det likformighetsalternativ och den förslagslöshet som präglar
               Socialdemokraterna är inget som är regeringsdugligt.
             </seg>
           </u>
-          <note type="speaker" n="6c278435">
+          <note type="speaker">
             Anf. 11 JENNIE NILSSON (S):
           </note>
-          <u who="Q4563096" xml:id="i-d5b3b59186549694-2" n="63c5a467">
-            <seg n="3df5d562">
+          <u xml:id="i-aaafd3914f4c1267-131" next="i-aaafd3914f4c1267-143" who="Q4563096">
+            <seg>
               Herr talman! Jag vill börja med att upprepa min tidigare fråga,
               som är obesvarad av vår moderata finansminister och hans borgerliga
               underentreprenörer: Vad ska riskkapitalbolag tillföra vård, skola
@@ -1178,19 +1414,25 @@
               effektivt att låta gamla människor ha våta blöjor några timmar
               extra, men det är knappast människovärdigt.
             </seg>
-            <seg n="3235afc0">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-132" prev="i-aaafd3914f4c1267-131" who="Q4563096">
+            <seg>
               Den privata vården i Sverige domineras av fem stora koncerner
               som ägs av tre riskkapitalbolag. Två tredjedelar av friskolorna
               drivs i associationsform, som är vinstsyftande. Av de fyra största
               friskolekoncernerna i Sverige ägs tre av riskkapitalbolag.
             </seg>
-            <seg n="d704a8d6">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-133" prev="i-aaafd3914f4c1267-131" who="Q4563096">
+            <seg>
               Enligt SCB var avkastningen på totalt kapital för de offentligt
               finansierade företagen inom vård, skola och omsorg 15 procent
               2009, att jämföra med genomsnittet för alla företag, som låg på
               8 procent.
             </seg>
-            <seg n="98471295">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-134" prev="i-aaafd3914f4c1267-131" who="Q4563096">
+            <seg>
               Hur har då denna lönsamhet uppstått? Är det genom god arbetsorganisation
               och begåvat ledarskap? Om så hade varit fallet hade vi sannolikt
               haft en annan debatt här i dag. Nej, lönsamheten uppkommer främst
@@ -1199,12 +1441,16 @@
               Inom skolan har personalen lägre utbildningsnivå, och lokalytorna
               är mindre. Var ligger kvaliteten i detta?
             </seg>
-            <seg n="0f11abf5">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-135" prev="i-aaafd3914f4c1267-131" who="Q4563096">
+            <seg>
               De riktigt stora vinsterna görs vid försäljning, och de riskkapitalägda
               bolagen byter ägare ofta. Det är kanske inte så konstigt när vinsten
               på investerat kapital uppgår till svindlande summor.
             </seg>
-            <seg n="b9881519">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-136" prev="i-aaafd3914f4c1267-131" who="Q4563096">
+            <seg>
               Sverige utmärker sig också i en internationell jämförelse med
               att ha en mycket generös inställning till vinstsyftande företag
               inom skattefinansierad verksamhet. I Danmark, Norge och Finland
@@ -1212,25 +1458,33 @@
               aktieägare. I Nederländerna och Kanada gäller samma sak för såväl
               sjukvård som skola. Överskott ska återinvesteras i verksamheten.
             </seg>
-            <seg n="17d82b5d">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-137" prev="i-aaafd3914f4c1267-131" who="Q4563096">
+            <seg>
               Det är alltså både möjligt och önskvärt att begränsa vinstuttag.
               Det handlar om politisk vilja och handlingskraft.
             </seg>
-            <seg n="cc733f94">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-138" prev="i-aaafd3914f4c1267-131" who="Q4563096">
+            <seg>
               I Sverige har vi en regering som gör det omvända. Man har i fem
               års tid drivit en konsekvent politik för att privatisera så mycket
               som möjligt av äldreomsorgen. Det är vårdbolagets intressen som
               har stått i centrum, inte de äldres.
             </seg>
-            <seg n="e67b3c4d">
-              Denna politik har nu havererat. I Helsingfors är läget så katastrofalt
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-139" prev="i-aaafd3914f4c1267-131" who="Q4563096">
+            <seg>
+              Denna politik har nu havererat. I Stockholm är läget så katastrofalt
               att all upphandling stoppades i höstas. I det läget väljer regeringen
               att hota med att lagstifta om fri etablering för privata vårdbolag.
               För regeringen är tydligen Carema och andra privata vårdbolag
               ett föredöme när det gäller att sätta nivån för kvaliteten inom
               äldreomsorgen.
             </seg>
-            <seg n="c8c20794">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-140" prev="i-aaafd3914f4c1267-131" who="Q4563096">
+            <seg>
               När missförhållanden i det privata vårdbolaget Carema uppdagades
               pratade Maria Larsson om att de anställda skulle visa civilkurage,
               detta trots att hon med den moderatledda regeringen i ryggen under
@@ -1238,7 +1492,9 @@
               Under press utlovades nu en utredning. Den kunde och borde ha
               tillsatts för tre år sedan.
             </seg>
-            <seg n="722d4f10">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-141" prev="i-aaafd3914f4c1267-131" who="Q4563096">
+            <seg>
               Vi socialdemokrater menar att all äldreomsorg måste vara bra
               äldreomsorg. Kvalitetskontrollen kan inte utgöras av att de äldre
               ska rösta med fötterna och begära att få en annan hemtjänst eller
@@ -1246,7 +1502,9 @@
               om sjuka och sköra människor, för vilka kontinuitet och långsiktighet
               är en viktig del av tryggheten och omsorgen.
             </seg>
-            <seg n="2b58fac1">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-142" prev="i-aaafd3914f4c1267-131" who="Q4563096">
+            <seg>
               Finansministern står här i dag och pratar om ett antal förslag
               för att verka handlingskraftig och för att verka pragmatisk. Men
               hur tar han egentligen tag i grundfrågan? Översynen av skattelagstiftningen
@@ -1258,36 +1516,44 @@
               enligt regeringen, att stora summor lämnar verksamheten i stället
               för att bli till mer äldreomsorg och mer och bättre utbildning.
             </seg>
-            <seg n="c92f8544">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-143" prev="i-aaafd3914f4c1267-131" who="Q4563096">
+            <seg>
               Anders Borg! Det duger inte.
             </seg>
           </u>
-          <note type="speaker" n="0013b073">
+          <note type="speaker">
             Anf. 12 PER BOLUND (MP):
           </note>
-          <u who="unknown" xml:id="i-eca75bd0a47c06c2-1" n="30fe6464">
-            <seg n="2fd6b248">
+          <u xml:id="i-aaafd3914f4c1267-144" next="i-aaafd3914f4c1267-155" who="Q5581337">
+            <seg>
               Herr talman! Jag bekymras av den nöjdhet som präglar Anders Borgs
               inlägg i den här debatten. Anders Borg kritiserade Socialdemokraterna
               i högstämda ordalag. Men om man verkligen synar Anders Borgs egen
               regering visar det sig att det inte heller där finns förslag som
               faktiskt kommer åt de problem som vi ser omkring oss.
             </seg>
-            <seg n="d74187b5">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-145" prev="i-aaafd3914f4c1267-144" who="Q5581337">
+            <seg>
               Jag tycker inte att man kan vara så nöjd som Anders Borg är här
               i debatten när äldre binds fast i sängar på grund av att det inte
               finns personal, när liggsår brer ut sig i äldrevården och när
               antalet unga som går ut skolan utan fullständiga avgångsbetyg
               stiger. Det duger inte.
             </seg>
-            <seg n="13f59095">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-146" prev="i-aaafd3914f4c1267-144" who="Q5581337">
+            <seg>
               När vårdskandalerna i äldreomsorgen och skatteflykten inom riskkapitalbolag
               i skolverksamheten rapporterades i medierna i höstas lät finansministern
               mer bekymrad och upprörd. Det skulle tas krafttag. Det var oacceptabelt.
               Man använde kraftfulla begrepp. Men sanningen, Anders Borg, är
               att det inte har hänt särskilt mycket efter det.
             </seg>
-            <seg n="5639e265">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-147" prev="i-aaafd3914f4c1267-144" who="Q5581337">
+            <seg>
               Det är också så att det faktiskt inte var någon nyhet för regeringen.
               Redan 2008 kom Riksrevisionen med en rapport som heter Statens
               styrning av kvalitet i privat äldreomsorg det är fyra år sedan.
@@ -1298,24 +1564,32 @@
               Riksrevisionen fanns det en betydande risk för att missförhållanden
               inom privat bedriven äldreomsorg inte upptäcks.
             </seg>
-            <seg n="33d22316">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-148" prev="i-aaafd3914f4c1267-144" who="Q5581337">
+            <seg>
               Vad har hänt? Fyra år senare reagerar Moderaterna. På DN Debatt
               i går skrev man att det är dags att tillsätta en arbetsgrupp.
               Maken till långsamt uppvaknande får man väl leta efter.
             </seg>
-            <seg n="acbb5ea0">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-149" prev="i-aaafd3914f4c1267-144" who="Q5581337">
+            <seg>
               Samma år, 2008, fick Anders Borg också en rapport från Skatteverket
               där man identifierade ett antal skatteplaneringsförfaranden, som
               man kallar det, där vårdbolag förde vinster utomlands genom att
               göra skatteavdrag för ränteutgifter till riskkapitalbolag.
             </seg>
-            <seg n="61018953">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-150" prev="i-aaafd3914f4c1267-144" who="Q5581337">
+            <seg>
               Här har regeringen trevat sig fram utan att egentligen lyckas
               göra någonting åt problemen. När Skatteverket granskade 52 stora
               bolag visade det sig att bara 7 hade upphört med sådana räntesnurror.
               De andra hade fortsatt.
             </seg>
-            <seg n="b59faf6e">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-151" prev="i-aaafd3914f4c1267-144" who="Q5581337">
+            <seg>
               Nu utlovar Anders Borg en stopplagstiftning, som han kallar det,
               som ska sätta stopp för räntesnurror. Men det blir först år 2013,
               fem år efter att Skatteverket kom med sin varning. Fem år tog
@@ -1324,12 +1598,16 @@
               ger det stopp som det låter som. Förra gången man försökte lyckades
               man ju inte med det syftet.
             </seg>
-            <seg n="17446a66">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-152" prev="i-aaafd3914f4c1267-144" who="Q5581337">
+            <seg>
               Det är lätt att gripas av misstanken att regeringen de facto
               har prioriterat andra åtgärder och andra frågor sedan 2008, under
               de här fyra åren, till exempel jobbskatteavdrag.
             </seg>
-            <seg n="b19b2b7c">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-153" prev="i-aaafd3914f4c1267-144" who="Q5581337">
+            <seg>
               Miljöpartiet har gjort tvärtom. Vi har lyssnat på varningarna.
               Vi har jobbat hårt. Vi har levererat konkret politik för att möta
               de oacceptabla brister som vi ser inom äldreomsorgen och skolan.
@@ -1338,7 +1616,9 @@
               Vi har satsat på kommunerna för att ge dem resurser att öka satsningar
               på omsorg.
             </seg>
-            <seg n="7d5f2efc">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-154" prev="i-aaafd3914f4c1267-144" who="Q5581337">
+            <seg>
               Vi har föreslagit att man i fråga om skolor som drivs av aktiebolag
               ska skriva in att syftet ska vara att bedriva utbildningsverksamhet
               och ingenting annat. Vi anser också att skolpengen måste komma
@@ -1346,7 +1626,9 @@
               vid tillståndsgivning ska bedöma ägarnas långsiktiga intressen
               och de ekonomiska förutsättningarna för verksamheten.
             </seg>
-            <seg n="05e7d366">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-155" prev="i-aaafd3914f4c1267-144" who="Q5581337">
+            <seg>
               På punkt efter punkt har Miljöpartiet levererat förslag som kan
               genomföras nu och som kan ge stor effekt för att säkerställa kvaliteten
               i vård, omsorg och skola. Men från regeringen ser vi tyvärr fortfarande
@@ -1354,16 +1636,18 @@
               inte längre.
             </seg>
           </u>
-          <note type="speaker" n="7524ba87">
+          <note type="speaker">
             Anf. 13 ALLAN WIDMAN (FP):
           </note>
-          <u who="Q4731041" xml:id="i-237996475a9a4de5-1" n="8866d1d3">
-            <seg n="c1296226">
+          <u xml:id="i-aaafd3914f4c1267-156" next="i-aaafd3914f4c1267-166" who="Q4731041">
+            <seg>
               Herr talman! Det finns nu tillfälle, även om det inte ingår repliker
               i den här debattformen, att kommentera en del av de inlägg som
               har gjorts.
             </seg>
-            <seg n="c31a5ded">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-157" prev="i-aaafd3914f4c1267-156" who="Q4731041">
+            <seg>
               Jag konstaterar att Jennie Nilsson känner stor oro vad beträffar
               skattesmitning eller skatteplanering inom företag som arbetar
               i välfärden. Det är viktigt att understryka att det, oavsett vilka
@@ -1371,7 +1655,9 @@
               drabbar den svenska välfärden. Det är skattepengar som inte kommer
               den offentliga sektorn och välfärden till del.
             </seg>
-            <seg n="523f1e50">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-158" prev="i-aaafd3914f4c1267-156" who="Q4731041">
+            <seg>
               Per Bolund och Miljöpartiet har ett konkret förslag som innebär
               att man i bolagsordningar avseende friskolor i fortsättningen
               ska skriva in att just skolverksamhet är ett syfte med den verksamhet
@@ -1380,7 +1666,9 @@
               som ett bolag ska ägna sig åt. Därför är detta möjligen till någon
               del redan tillfredsställt.
             </seg>
-            <seg n="c36a6ba0">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-159" prev="i-aaafd3914f4c1267-156" who="Q4731041">
+            <seg>
               Däremot, herr talman, känner jag betydligt större sympati för
               Miljöpartiets förslag om att titta på den personliga bakgrunden
               för dem som ska driva till exempel företag inom äldreomsorg och
@@ -1389,17 +1677,23 @@
               bakgrund inom de här verksamheterna tror jag kan vara en lösning
               som man ska titta på.
             </seg>
-            <seg n="6b4db7c6">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-160" prev="i-aaafd3914f4c1267-156" who="Q4731041">
+            <seg>
               Johnny Skalin, Sverigedemokraterna, säger att han och hans parti
               inte har någon ideologisk låsning i de här frågorna.
             </seg>
-            <seg n="7367de2d">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-161" prev="i-aaafd3914f4c1267-156" who="Q4731041">
+            <seg>
               Herr talman! Jag måste avslöja att jag har en ideologisk låsning
               i de här frågorna. Jag menar att enskilda medborgare naturligtvis
               ska garanteras maximalt inflytande över de välfärdstjänster som
               de nyttjar.
             </seg>
-            <seg n="dd43d3e7">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-162" prev="i-aaafd3914f4c1267-156" who="Q4731041">
+            <seg>
               Ulla Andersson nämner en lång rad av exempel på missförhållanden
               i privat driven äldreomsorg. Jag kan konstatera att problemen
               inom äldreomsorgen inte verkar vara isolerade till den privata
@@ -1410,49 +1704,61 @@
               äldre nattetid. I Norrköping finns exempel på grova kränkningar
               mot boende.
             </seg>
-            <seg n="3996a9ba">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-163" prev="i-aaafd3914f4c1267-156" who="Q4731041">
+            <seg>
               Om nu lösningen är så enkel som Ulla Andersson påstår, att det
               bara handlar om att se till att det inte förekommer vinstdrivande
               verksamhet i de här sektorerna, undrar jag: Varför finns dessa
               missförhållanden i kommunerna?
             </seg>
-            <seg n="1d81a1a4">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-164" prev="i-aaafd3914f4c1267-156" who="Q4731041">
+            <seg>
               Herr talman! Jag tror att den huvudsakliga lösningen ligger i
               att vi även inom äldreomsorgen i fortsättningen inte i första
               hand ska konkurrera med pris utan med kvalitet. Och det finns
               kundvalssystem som kan stärka de enskilda på det viset.
             </seg>
-            <seg n="ff83936e">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-165" prev="i-aaafd3914f4c1267-156" who="Q4731041">
+            <seg>
               Ulla Andersson avslutar sitt anförande med att säga: Bort med
               vinsten i välfärden! Hon gör detta väl medveten om att ett sådant
               beslut skulle leda till att valfriheten för enskilda skulle upphöra.
             </seg>
-            <seg n="eeddd4c5">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-166" prev="i-aaafd3914f4c1267-156" who="Q4731041">
+            <seg>
               Herr talman! Det är min övertygelse att det inte finns någon
               annan enskild åtgärd som politiker i det här landet kan besluta
               om som skulle göra våra medborgare mer utsatta, mer utlämnade
               och mer maktlösa.
             </seg>
           </u>
-          <note type="speaker" n="e5645487">
+          <note type="speaker">
             Anf. 14 ANDERS W JONSSON (C):
           </note>
-          <u who="unknown" xml:id="i-d476364b82743db8-1" n="0bee9b04">
-            <seg n="24dc26bf">
+          <u xml:id="i-aaafd3914f4c1267-167" next="i-aaafd3914f4c1267-178" who="Q5891398">
+            <seg>
               Herr talman! Jennie Nilsson från socialdemokraterna ställde frågan:
               Vad tillför de privata företagen i välfärdssektorn? Den gemensamt
               finansierade välfärdssektorn står inför oerhört stora utmaningar
               inte bara i Sverige utan i hela OECD-området. För mig och Centerpartiet
               är det två saker som är viktiga.
             </seg>
-            <seg n="d4871513">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-168" prev="i-aaafd3914f4c1267-167" who="Q5891398">
+            <seg>
               För det första måste människor som behöver stöd och service från
               samhället, det må vara förskola, skola, sjukvård eller äldreomsorg,
               få mer att säga till om. Man ska kunna välja inte bara vad och
               hur utan också av vem. Helt avgörande är då att få fler aktörer,
               inte färre, att välja på.
             </seg>
-            <seg n="60b943dc">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-169" prev="i-aaafd3914f4c1267-167" who="Q5891398">
+            <seg>
               För det andra behövs fler entreprenörer inom hela välfärdssektorn
               entreprenörer, som likt Diaverum, kan hitta smarta lösningar i
               en ny tid. Konkurrensverket har nyligen konstaterat att sambandet
@@ -1460,68 +1766,88 @@
               starkt. Inget tyder på att det skulle vara annorlunda i andra
               sektorer.
             </seg>
-            <seg n="3e8fe09a">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-170" prev="i-aaafd3914f4c1267-167" who="Q5891398">
+            <seg>
               Med de utgångspunkterna behövs det privata företag och det behövs
               riskkapital i välfärden.
             </seg>
-            <seg n="e4e7efd8">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-171" prev="i-aaafd3914f4c1267-167" who="Q5891398">
+            <seg>
               Inom välfärdssektorn liksom inom andra sektorer är riskvilligt
               kapital helt avgörande för utvecklingen av nya små och medelstora
               företag, inte minst i uppstartsskedet. Det hävdas att riskkapital
               skulle leda till sämre kvalitet. Det är sannolikt tvärtom.
             </seg>
-            <seg n="cb6fb74f">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-172" prev="i-aaafd3914f4c1267-167" who="Q5891398">
+            <seg>
               Den senaste i raden av vårdskandaler skedde i ett av Caremas
               äldreboenden. Då det kom fram att Carema ägdes av ett riskkapitalbolag
               riktades ljuset av förklarliga skäl mot privata vårdföretag i
               allmänhet och de som ägs av riskkapitalbolag i synnerhet.
             </seg>
-            <seg n="c145d9b0">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-173" prev="i-aaafd3914f4c1267-167" who="Q5891398">
+            <seg>
               Konsekvenserna har med rätta blivit mycket svåra för Carema.
               Att företaget driver många äldreboenden med erkänt hög kvalitet
               glöms bort när vanvården vid Koppargården framträder i sin nakna
               skepnad.
             </seg>
-            <seg n="c14e932e">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-174" prev="i-aaafd3914f4c1267-167" who="Q5891398">
+            <seg>
               Resultatet har blivit att det inte finns ett privat företag aktivt
               inom äldreomsorgen som inte använt de senaste månaderna till att
               försäkra sig om att man lever upp till kvalitetskraven. Marknadsekonomin
               har fungerat.
             </seg>
-            <seg n="57133fc7">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-175" prev="i-aaafd3914f4c1267-167" who="Q5891398">
+            <seg>
               Det ska inte behövas vårdskandaler för att så ska ske. En tuff
               uppföljning från kommuner i kombination med att de äldre och deras
               anhöriga ges rätt att välja och att välja bort har samma effekt.
             </seg>
-            <seg n="7faaefdd">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-176" prev="i-aaafd3914f4c1267-167" who="Q5891398">
+            <seg>
               Den fråga man kan ställa sig är vad som har hänt efter alla vårdskandaler
               i de kommunala boendena. Alltför ofta har det inte hänt någonting.
               Rutinerna är oförändrade. Cheferna sitter kvar. Kommunledningarna
               sitter i orubbat bo.
             </seg>
-            <seg n="60c3aea0">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-177" prev="i-aaafd3914f4c1267-167" who="Q5891398">
+            <seg>
               Finns inga vinster, finns heller inga privata leverantörer. Finns
               det inga privata leverantörer minskar både kvalitet och kostnadseffektivitet
               i den offentliga sektorn, och framför allt minskar människors
               rätt att välja.
             </seg>
-            <seg n="a736c2e4">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-178" prev="i-aaafd3914f4c1267-167" who="Q5891398">
+            <seg>
               Den som på allvar är intresserad av att höja kvaliteten i vården
               och äldreomsorgen måste sluta klappjakten på de privata utförarna
               och i stället fokusera på kvalitet, uppföljning och den enskildes
               rätt att välja och att välja bort.
             </seg>
           </u>
-          <note type="speaker" n="9fe8b042">
+          <note type="speaker">
             Anf. 15 JOHNNY SKALIN (SD):
           </note>
-          <u who="Q6328008" xml:id="i-55637356b8d665a0-1" n="3710373d">
-            <seg n="110a4ad4">
+          <u xml:id="i-aaafd3914f4c1267-179" next="i-aaafd3914f4c1267-186" who="Q6328008">
+            <seg>
               Herr talman! Det har under debattens gång framkommit att det
               finns både goda och dåliga exempel på hur konkurrensutsättningen
               inom välfärden har fallit ut i realiteten.
             </seg>
-            <seg n="e0f2043e">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-180" prev="i-aaafd3914f4c1267-179" who="Q6328008">
+            <seg>
               Som jag själv nämnde inledningsvis utgörs till exempel inte en
               obetydande andel av den icke-offentligt utförda välfärdsverksamheten
               av mer eller mindre ideella utövare som saknar vinstintresse.
@@ -1531,7 +1857,9 @@
               samhällets sida inför en avsevärt större kontroll och noggrannhet
               vad gäller prövningar, tillståndsgivning och löpande verksamheter.
             </seg>
-            <seg n="53d0ebea">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-181" prev="i-aaafd3914f4c1267-179" who="Q6328008">
+            <seg>
               Som företrädare för riksdagens mest pragmatiska parti, direkt
               oknutet till intressegrupper och med det bästa för svenska folket
               som helhet för ögonen, kan jag tycka att det, inte minst från
@@ -1539,7 +1867,9 @@
               utövare, går att skönja något slags stolthet, tröghet eller prestige
               i dessa frågor.
             </seg>
-            <seg n="7a2a660d">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-182" prev="i-aaafd3914f4c1267-179" who="Q6328008">
+            <seg>
               Man väljer i praktiken att blunda för problemen samtidigt som
               man gärna lyfter upp de väl fungerande exemplen bara för att ta
               dessa till intäkt för att man har fattat de för samhället bäst
@@ -1547,7 +1877,9 @@
               avhållsamhet och tröghet från stora delar av den övriga oppositionens
               sida.
             </seg>
-            <seg n="8f7a6821">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-183" prev="i-aaafd3914f4c1267-179" who="Q6328008">
+            <seg>
               Hela frågan borde ju rimligen ha som utgångspunkt att om vi ska
               ha den ordningen att olika former av privata alternativ ska kunna
               vara utövare av välfärdstjänster måste det också följas upp att
@@ -1555,7 +1887,9 @@
               om så inte sker, åtgärdar bristerna och täpper till de luckor
               som möjliggör missbruk av en konkurrensutsatt välfärd.
             </seg>
-            <seg n="1aa329b6">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-184" prev="i-aaafd3914f4c1267-179" who="Q6328008">
+            <seg>
               I denna mening borde en heltäckande parlamentarisk utredning
               om konkurrensutsättning av offentligt finansierad välfärd vara
               det minsta man kan begära där man även utreder var förbud mot
@@ -1567,25 +1901,29 @@
               kan säkerställa att kvaliteten på ett mer tydligt sätt hamnar
               i fokus.
             </seg>
-            <seg n="f750ef8f">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-185" prev="i-aaafd3914f4c1267-179" who="Q6328008">
+            <seg>
               Jag är inte alls övertygad om att detta räcker men det är i alla
               fall ett steg mot att skapa ett bättre och mer välfungerande system
               för en konkurrensutsättning som syftar till att skapa ett mervärde
               för skattebetalarna. Någonstans måste man ju börja, så vad väntar
               vi på?
             </seg>
-            <seg n="a6246131">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-186" prev="i-aaafd3914f4c1267-179" who="Q6328008">
+            <seg>
               Till Allan Widman vill jag säga att vår ideologiska låsningsfrihet
               ligger i att vi vågar och kan ta tag i de problem som uppstår.
               Vi ser alltså resultatet, inte syftet, som den ledande indikatorn
               när det gäller hur vi driver politik.
             </seg>
           </u>
-          <note type="speaker" n="43e78501">
+          <note type="speaker">
             Anf. 16 ULLA ANDERSSON (V):
           </note>
-          <u who="Q4935938" xml:id="i-89dc1ea56c6a89e5-1" n="fb40bf45">
-            <seg n="a21a8f23">
+          <u xml:id="i-aaafd3914f4c1267-187" next="i-aaafd3914f4c1267-199" who="Q4935938">
+            <seg>
               Herr talman! Det är tydligt att Folkpartiet inte har förstått
               att den äldreomsorg vi har i Sverige i dag är alltför mager, att
               vi har en anorektisk organisation och att det självklart får oanade
@@ -1593,7 +1931,9 @@
               organisation. Folkpartiet väljer gärna att sänka skatter i stället
               för att ta hand om våra äldre.
             </seg>
-            <seg n="e1083df1">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-188" prev="i-aaafd3914f4c1267-187" who="Q4935938">
+            <seg>
               Varför vill andra partier privatisera vår behovsstyrda demokratiska
               välfärd? Svaret brukar vara att det leder till bättre kvalitet
               och effektivitet. Har de några belägg för det? Inte ens Studieförbundet
@@ -1607,7 +1947,9 @@
               var att privatiseringar handlar om ideologi och inget annat. Allt
               prat om bättre kvalitet och effektivitet är alltså bara humbug.
             </seg>
-            <seg n="9adcc645">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-189" prev="i-aaafd3914f4c1267-187" who="Q4935938">
+            <seg>
               Nu försöker samtliga partier två sina händer. Socialdemokrater
               och miljöpartister har ett ansvar. Framför allt har ju Moderaterna
               och regeringen som driver på den här utvecklingen väldigt hårt
@@ -1616,43 +1958,59 @@
               bjudande. Att Centerns Anders W Jonsson är helt förblindad av
               sin nyliberala ideologi är jag inte precis förvånad över.
             </seg>
-            <seg n="6b2ba9f8">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-190" prev="i-aaafd3914f4c1267-187" who="Q4935938">
+            <seg>
               Herr talman! För en tid sedan kunde man i en tidning läsa om
               Linnégården. När Carema tog över sade deras affärsområdesdirektör
               så här i en intervju:
             </seg>
-            <seg n="d6418574">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-191" prev="i-aaafd3914f4c1267-187" who="Q4935938">
+            <seg>
               Vi kommer också att satsa på att göra Linnégården till en av
               våra mönsterarbetsplatser, något som kommer till nytta för kunder
               och medarbetare.
             </seg>
-            <seg n="0e2b859b">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-192" prev="i-aaafd3914f4c1267-187" who="Q4935938">
+            <seg>
               Liknande ord hördes säkert från Koppargårdens verksamhetschef
               i Vällingby. Båda ägs av Carema.
             </seg>
-            <seg n="3059e513">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-193" prev="i-aaafd3914f4c1267-187" who="Q4935938">
+            <seg>
               Vackra ord och fagra löften visar sig vara rena bluffen. På Linnégården
               fick personalen tackbrev och till och med biobiljetter om de äldre
               blev sämre eftersom bolaget då tjänade extra pengar enligt det
-              kontrakt som de hade med det moderatstyrda Helsingfors.
+              kontrakt som de hade med det moderatstyrda Stockholm.
             </seg>
-            <seg n="d982e2a4">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-194" prev="i-aaafd3914f4c1267-187" who="Q4935938">
+            <seg>
               Tänk er själva att ha er mormor på ett boende där bolaget tjänar
               extra bra om hon blir sämre. På Koppargården svalt de gamla. Man
               tvingades amputera deras kroppsdelar på grund av vanvård, och
               de fick fel medicinering.
             </seg>
-            <seg n="c36f7fb2">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-195" prev="i-aaafd3914f4c1267-187" who="Q4935938">
+            <seg>
               Nyligen kunde vi läsa om ett annat Caremaboende där en outbildad
               vikarie ensam fick ta hand om 14 äldre, och därför bands en psykiskt
               sjuk man i sängen med sina lakan.
             </seg>
-            <seg n="7cde27be">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-196" prev="i-aaafd3914f4c1267-187" who="Q4935938">
+            <seg>
               Men vi vet också att privatdrivna skolor har färre utbildade
               lärare och mycket lägre lärartäthet och använder pengar som skulle
               gå till eleverna till reklam och vinster.
             </seg>
-            <seg n="a6dbcc7c">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-197" prev="i-aaafd3914f4c1267-187" who="Q4935938">
+            <seg>
               Vårdcentralerna duggar tätt i de finare stadsdelarna, medan de
               mest utsatta blir utan eller får slåss med näbbar och klor för
               att få behålla dem. Vi hör också om hur bonusar betalas ut till
@@ -1660,12 +2018,16 @@
               och övriga anställda sägs upp om de slår larm. Allt detta sker
               på grund av ideologisk övertygelse.
             </seg>
-            <seg n="1903be77">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-198" prev="i-aaafd3914f4c1267-187" who="Q4935938">
+            <seg>
               Då kommer äldreminister Maria Larsson med den helt geniala idén
               att det är de anställdas civilkurage som måste skärpas och frånsäger
               sig helt sitt eget politiska ansvar.
             </seg>
-            <seg n="3b2c9c43">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-199" prev="i-aaafd3914f4c1267-187" who="Q4935938">
+            <seg>
               Herr talman! 8 miljarder av dina, mina och allas våra skattepengar
               går till vinster i privata bolag, framför allt riskkapitalbolag,
               pengar som vi har betalat för att de ska gå till de sjukas vård,
@@ -1675,21 +2037,25 @@
               där att göra. Pengarna ska gå till det som de är avsedda för.
             </seg>
           </u>
-          <note type="speaker" n="608119a2">
+          <note type="speaker">
             Anf. 17 ANDERS SELLSTRÖM (KD):
           </note>
-          <u who="Q6172463" xml:id="i-1cd688a19858b768-1" n="f0266b1a">
-            <seg n="ad4e877e">
+          <u xml:id="i-aaafd3914f4c1267-200" next="i-aaafd3914f4c1267-208" who="Q6172463">
+            <seg>
               Herr talman! Vi har hört en hel del i denna debatt. För oss kristdemokrater
               står det klart att vi gärna vill se ett bredare utbud av fler
               utförare och gärna med betydligt fler inom non profit -verksamheten.
             </seg>
-            <seg n="aeaa34d1">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-201" prev="i-aaafd3914f4c1267-200" who="Q6172463">
+            <seg>
               LOV, lagen om valfrihet, passar alldeles utmärkt som en kvalitetsförstärkare,
               och den ger också rejäl valfrihet. Vi vill gärna se mer av kommuner
               som inför LOV i sina verksamheter.
             </seg>
-            <seg n="c3936d37">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-202" prev="i-aaafd3914f4c1267-200" who="Q6172463">
+            <seg>
               I Umeå, som jag kommer från, finns det i dag 14 utförare att
               välja mellan om man har behov av hemtjänst. Man kan få hemtjänst
               på sitt eget modersmål om man kommer från till exempel ett arabisktalande
@@ -1698,20 +2064,26 @@
               valfrihet. Och då konkurrerar man med kvalitet och inte med lägsta
               pris eftersom alla har samma betalning, även kommunen.
             </seg>
-            <seg n="217e633d">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-203" prev="i-aaafd3914f4c1267-200" who="Q6172463">
+            <seg>
               Vinst diskuteras. Var är vinst av godo, och var är vinst av ondo?
               Här hör vi tydligt att vinst på vissa ställen är bra. Men direkt
               när vi börjar diskutera välfärdssektorernas område anser en del
               att vinst är av ondo.
             </seg>
-            <seg n="f4f264dd">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-204" prev="i-aaafd3914f4c1267-200" who="Q6172463">
+            <seg>
               Dagens Samhälle har synat den offentliga marknaden. Jag satt
               och räknade igenom detta lite grann. I de 20 största bolagen som
               arbetar inom den offentliga marknaden är omsättningen 70 procent
               i den hårda sektorn och ungefär 30 procent inom vård, skola och
               omsorg.
             </seg>
-            <seg n="141c9d28">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-205" prev="i-aaafd3914f4c1267-200" who="Q6172463">
+            <seg>
               Skatt betalar vi för att få det som vi vill ha utfört i kommuner
               och landsting. Ett exempel ur denna lista är NCC. År 2011 redovisade
               NCC en vinst på i runda tal 1,3 miljarder kronor. Om siffrorna
@@ -1720,7 +2092,9 @@
               och pekfingret, innebära att de gör en vinst på i runda tal 400
               miljoner i den offentliga verksamheten i Sverige.
             </seg>
-            <seg n="f996ae68">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-206" prev="i-aaafd3914f4c1267-200" who="Q6172463">
+            <seg>
               Enligt Vänsterns retorik borde denna vinst återinvesteras i offentlig
               sektor. Den vinst som företaget gör när man bygger skolbyggnader
               eller andra byggnader, asfalterar vägar eller gör annat drar ju,
@@ -1732,7 +2106,9 @@
               kommunala byggbolag etcetera eftersom vi då skulle kunna få ut
               mer av pengarna? Det är en intressant del som man kan syna.
             </seg>
-            <seg n="c3a11566">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-207" prev="i-aaafd3914f4c1267-200" who="Q6172463">
+            <seg>
               Vi diskuterade snöröjningen i Umeå kommun i år. Kvaliteten på
               den kan man diskutera. Men självklart går de som utför snöröjningen
               inom kommunal verksamhet med vinst, och de måste gå med vinst.
@@ -1743,7 +2119,9 @@
               går du inte den vägen och höjer kvaliteten på snöröjningen genom
               att du ställer krav på att vinsten i denna verksamhet ska återinvesteras?
             </seg>
-            <seg n="204e3dcf">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-208" prev="i-aaafd3914f4c1267-200" who="Q6172463">
+            <seg>
               Men sanningen är väl att vi i kommuner och landsting inte ska
               upphandla någonting av företag som inte är solida och som inte
               levererar vinst för att kunna göra det jobb som vi vill få utfört.
@@ -1754,11 +2132,11 @@
               den mjuka sektorn.
             </seg>
           </u>
-          <note type="speaker" n="9c879b26">
+          <note type="speaker">
             Anf. 18 Finansminister ANDERS BORG (M):
           </note>
-          <u who="Q182050" xml:id="i-f8e8e17302b1f2b5-2" n="69f60dee">
-            <seg n="c43d5866">
+          <u xml:id="i-aaafd3914f4c1267-209" next="i-aaafd3914f4c1267-212" who="Q182050">
+            <seg>
               Herr talman! Det är dags att summera denna debatt. Det är alldeles
               tydligt att vi har två alternativ. Det ena är ett pragmatiskt
               alliansalternativ som tror på välfärden, som vill tillföra resurser,
@@ -1774,7 +2152,9 @@
               anställda och de hundratusentals elever och patienter som tar
               del av denna verksamhet. Läget är alltså katastrofalt.
             </seg>
-            <seg n="e2d4eaa4">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-210" prev="i-aaafd3914f4c1267-209" who="Q182050">
+            <seg>
               Då får man förvänta sig att det finns skarpa, genomtänkta, enkla
               och robusta förslag som kommer att genomföras. Ska Socialdemokraterna
               nu förbjuda riskkapitalbolag att vara verksamma i verksamheter
@@ -1784,7 +2164,9 @@
               särskild sorts aktiebolag? Eller är det alla aktiebolag som ska
               förbjudas?
             </seg>
-            <seg n="d9cd8a62">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-211" prev="i-aaafd3914f4c1267-209" who="Q182050">
+            <seg>
               Det är ingen politik som Socialdemokraterna har. Det är bara
               en kritik utan alternativ. Samma sak gäller på skattesidan. Vi
               har inte hört ett enda konstruktivt förslag från Socialdemokraterna
@@ -1793,36 +2175,44 @@
               snurrande. Det finns inte ett enda realistiskt förslag. Ett högt
               tonläge utan förslag tycks vara Socialdemokraternas alternativ.
             </seg>
-            <seg n="831632b9">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-212" prev="i-aaafd3914f4c1267-209" who="Q182050">
+            <seg>
               Mot detta står ett pragmatiskt vardagligt arbete i kommuner,
               landsting, regering och riksdag för att alltid förbättra och för
               att alltid underlätta för att det ska vara bra valfrihet kombinerad
               med hög kvalitet.
             </seg>
           </u>
-          <note type="speaker" n="d0a48199">
+          <note type="speaker">
             Anf. 19 JENNIE NILSSON (S):
           </note>
-          <u who="Q4563096" xml:id="i-d5b3b59186549694-3" n="63c5a467">
-            <seg n="19354f1e">
+          <u xml:id="i-aaafd3914f4c1267-213" next="i-aaafd3914f4c1267-221" who="Q4563096">
+            <seg>
               Herr talman! Vi socialdemokrater anklagas ibland för att vara
               dåliga på att vara i opposition. Det är säkert sant. Men jag tycker
               att det är ett betydligt allvarligare problem att vi har en regering
               som är dålig på att regera och som rent av är ovillig att regera.
             </seg>
-            <seg n="d421cba5">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-214" prev="i-aaafd3914f4c1267-213" who="Q4563096">
+            <seg>
               Anders Borg har under en dryg timmes debatt egentligen vägrat
               att över huvud taget ta ansvar för ett samhällsproblem. Ansvaret
               är alla andras.
             </seg>
-            <seg n="d5ab3c66">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-215" prev="i-aaafd3914f4c1267-213" who="Q4563096">
+            <seg>
               När han med högt tonläge jag vill påstå att ministern är den
               som använder det riktigt höga tonläget i debatten går i gång och
               skyller brister inom vården och omsorgen på exempelvis Socialdemokraterna
               skulle man möjligtvis kunna misstänka att det beror på ett sätt
               att försöka skyla över det egna ointresset.
             </seg>
-            <seg n="2fcbcb2b">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-216" prev="i-aaafd3914f4c1267-213" who="Q4563096">
+            <seg>
               Tittar man på vad denna pragmatiska regering, som Anders Borg
               försöker hänvisa till, faktiskt har gjort kan man konstatera att
               det egentligen handlar om att regeringen har gett ett uppdrag
@@ -1830,44 +2220,56 @@
               som Skatteverket har fått och som de inte behöver slutredovisa
               förrän i slutet av 2012 ingen brådska här inte.
             </seg>
-            <seg n="035c4d7f">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-217" prev="i-aaafd3914f4c1267-213" who="Q4563096">
+            <seg>
               Man ska utreda meddelarfriheten, något som redan finns för stora
               delar av verksamheten men inte för hela. Man behöver dock inte
               utreda än; det kan vänta till sommaren. Ingen brådska här inte.
             </seg>
-            <seg n="40c6cbd5">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-218" prev="i-aaafd3914f4c1267-213" who="Q4563096">
+            <seg>
               Man har tillsatt en moderatledd arbetsgrupp som ska börja analysera
               och titta på frågan. Man gör det med en retorik som ska låta socialdemokratisk.
               Men ingen brådska här inte den ska redovisa ett resultat i slutet
               av året.
             </seg>
-            <seg n="856a6d46">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-219" prev="i-aaafd3914f4c1267-213" who="Q4563096">
+            <seg>
               Det är beklämmande att ha en regering och en finansminister som
               är så ovillig att erkänna problem som finns i samhället att han
               när han blir kritiserad nästan går i spinn och lägger skulden
               på allt och alla andra.
             </seg>
-            <seg n="04f3a9d8">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-220" prev="i-aaafd3914f4c1267-213" who="Q4563096">
+            <seg>
               Jag har också noterat att det tydligen har börjat bli modernt
               att citera kända socialdemokratiska företrädare. Jag tänkte avsluta
               med ett citat. Olof Palme sade en gång: Politik är att vilja.
             </seg>
-            <seg n="bab1c244">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-221" prev="i-aaafd3914f4c1267-213" who="Q4563096">
+            <seg>
               Jag måste erkänna att jag fortfarande inte vet vad regeringen
               och Anders Borg vill i den här frågan.
             </seg>
           </u>
-          <note type="speaker" n="b34b69a3">
+          <note type="speaker">
             Anf. 20 PER BOLUND (MP):
           </note>
-          <u who="unknown" xml:id="i-eca75bd0a47c06c2-2" n="30fe6464">
-            <seg n="f9d8acbb">
+          <u xml:id="i-aaafd3914f4c1267-222" next="i-aaafd3914f4c1267-226" who="Q5581337">
+            <seg>
               Herr talman! Det jag framför allt slås av i denna debatt är den
               handfallenhet som präglar de flesta av de andra partierna. Det
               är många högtravande ord, men det är få väldigt få konkreta och
               genomförbara förslag.
             </seg>
-            <seg n="f632726e">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-223" prev="i-aaafd3914f4c1267-222" who="Q5581337">
+            <seg>
               Här måste jag säga att Miljöpartiet särskiljer sig. Vi tror inte
               på förföriska löften om att allt blir bättre bara kommunerna tar
               över all verksamhet i välfärden. Då slänger man ut barnet med
@@ -1876,7 +2278,9 @@
               begrava frågan i arbetsgrupper och hoppas på att stormen blåser
               över.
             </seg>
-            <seg n="627180e5">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-224" prev="i-aaafd3914f4c1267-222" who="Q5581337">
+            <seg>
               För oss och, tror jag, också för svenska folket är det oerhört
               viktigt att ord och handling hänger ihop. Det räcker inte med
               att bara prata. Man måste också komma med förslag som går att
@@ -1885,7 +2289,9 @@
               skulle förbättra kvaliteten och säkerställa att vi får bort de
               sämsta varianterna inom välfärden.
             </seg>
-            <seg n="7c43db66">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-225" prev="i-aaafd3914f4c1267-222" who="Q5581337">
+            <seg>
               Vi har levererat konkreta förslag som säkerställer att kvalitet
               alltid ska gå först i omsorgen och i skolan. Vi har föreslagit
               åtgärder för att resurserna som avsätts till skolan verkligen
@@ -1896,7 +2302,9 @@
               tillräckligt med personal i de kommunala och de privata äldreboendena,
               så att vi kan säkerställa kvaliteten.
             </seg>
-            <seg n="140cf83f">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-226" prev="i-aaafd3914f4c1267-222" who="Q5581337">
+            <seg>
               Från de andra partierna saknar vi dessa förslag. Vi saknar också
               respons på de förslag vi har lagt fram. Vi trodde att politik
               gick ut på att lägga fram förslag och bryta dem mot andras åsikter.
@@ -1907,18 +2315,20 @@
               eleverna. Det är inte acceptabelt.
             </seg>
           </u>
-          <note type="speaker" n="8aa60fe7">
+          <note type="speaker">
             Anf. 21 ALLAN WIDMAN (FP):
           </note>
-          <u who="Q4731041" xml:id="i-237996475a9a4de5-2" n="8866d1d3">
-            <seg n="537e8ea5">
+          <u xml:id="i-aaafd3914f4c1267-227" next="i-aaafd3914f4c1267-231" who="Q4731041">
+            <seg>
               Herr talman! Det har varit min avsikt att försöka medverka till
               att debatten om vinster i välfärden inte förenklas. Det är naturligtvis
               av det skälet att det är ett viktigt problem, alldeles oavsett
               vinst eller inte vinst, om vår välfärd inte fungerar och om det
               finns missförhållanden som drabbar enskilda.
             </seg>
-            <seg n="51cd4378">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-228" prev="i-aaafd3914f4c1267-227" who="Q4731041">
+            <seg>
               Därför har jag försökt bidra med att säga att det inte bara är
               riskkapitalbolag som behöver tyglas när vi funderar över lösningar
               som ska tillförsäkra kvalitet och inflytande för enskilda. All
@@ -1926,7 +2336,9 @@
               skattebetalarnas anslagna medel skiljer ut sig. Det är viktigt
               att erkänna det.
             </seg>
-            <seg n="9471c1cd">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-229" prev="i-aaafd3914f4c1267-227" who="Q4731041">
+            <seg>
               Det är också viktigt att förstå att offentlig sektor i dag, oavsett
               om den är kommunal, landstingskommunal eller statlig, stannar
               utan privata leverantörer. Jag tycker att Anders Sellström gjorde
@@ -1937,29 +2349,35 @@
               områdena. Vad gör vi med byggnadsindustrin? Vad gör vi med försvarsindustrin?
               Det är bara ett par exempel.
             </seg>
-            <seg n="cda6f2e2">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-230" prev="i-aaafd3914f4c1267-227" who="Q4731041">
+            <seg>
               Det är också viktigt att komma ihåg att det inte är tillräckligt
               med tillsyn och tillstånd. Våra äldre och deras anhöriga måste
               få möjlighet att värja sig mot missförhållanden. Detta kräver
               en reglerad etableringsfrihet i kombination med personlig valfrihet.
             </seg>
-            <seg n="a2356536">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-231" prev="i-aaafd3914f4c1267-227" who="Q4731041">
+            <seg>
               På en punkt vill jag ge Jennie Nilsson en eloge: Att lyfta fram
               problematiken i lex Sarah är viktigt. Både inom privat och inom
               kommunal verksamhet visar det sig att det när missförhållanden
               uppstår och de anmäls uppåt inte når huvudmännen.
             </seg>
           </u>
-          <note type="speaker" n="c0ecc57f">
+          <note type="speaker">
             Anf. 22 ANDERS W JONSSON (C):
           </note>
-          <u who="unknown" xml:id="i-d476364b82743db8-2" n="0bee9b04">
-            <seg n="37782cc9">
+          <u xml:id="i-aaafd3914f4c1267-232" next="i-aaafd3914f4c1267-236" who="Q5891398">
+            <seg>
               Herr talman! Jag vill tacka Socialdemokraterna för att de begärde
               debatten, för den har min själ varit klargörande. Den har varit
               klargörande därför att detta i grunden är en ideologisk fråga.
             </seg>
-            <seg n="cdebce34">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-233" prev="i-aaafd3914f4c1267-232" who="Q5891398">
+            <seg>
               Vänsterpartiet, som enligt sitt partiprogram gärna ser mycket
               mer av både statliga och kommunala företag, har kunnat berätta
               att man gärna ser att resan mot socialismen börjar med att de
@@ -1970,7 +2388,9 @@
               på det privata Ica utan gärna åkte några mil för att komma till
               Konsum.
             </seg>
-            <seg n="3c66f073">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-234" prev="i-aaafd3914f4c1267-232" who="Q5891398">
+            <seg>
               Debatten har också gett Socialdemokraterna, som under det senaste
               året på den enkla frågan hur man ser på privata företag i välfärden
               har levererat allehanda möjliga och omöjliga svar, chansen att
@@ -1978,35 +2398,41 @@
               man i dag är negativ till vinster i välfärden, men man saknar
               förslag om hur vi ska komma dit.
             </seg>
-            <seg n="f3c78763">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-235" prev="i-aaafd3914f4c1267-232" who="Q5891398">
+            <seg>
               För Centerpartiets del kan vårt budskap om riskkapital och vinster
               i äldreomsorgen och annan välfärd snarast sammanfattas i visdomsorden
               från en gammal kommunist, Deng Xiaoping: Det spelar ingen roll
               om katten är svart eller vit så länge den fångar möss.
             </seg>
-            <seg n="636eb3b3">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-236" prev="i-aaafd3914f4c1267-232" who="Q5891398">
+            <seg>
               Det spelar för Centerpartiet ingen roll om äldreboendet är kommunalt
               eller privat inte ens om det är ägt av ett privat riskkapitalbolag
               så länge det levererar omsorg om de äldre med värme och hög kvalitet
               och så länge kommunpolitikerna vågar ge de äldre och de anhöriga
               den självklara rätten att välja bort det som inte är bra.
             </seg>
-            <seg n="393a669e">
-              (Applåder)
-            </seg>
           </u>
-          <note type="speaker" n="b9381a32">
+          <note>
+            (Applåder)
+          </note>
+          <note type="speaker">
             Anf. 23 JOHNNY SKALIN (SD):
           </note>
-          <u who="Q6328008" xml:id="i-55637356b8d665a0-2" n="3710373d">
-            <seg n="16027a7d">
+          <u xml:id="i-aaafd3914f4c1267-237" next="i-aaafd3914f4c1267-239" who="Q6328008">
+            <seg>
               Herr talman! Det har på många sätt varit en intressant debatt
               att vara en del av. Ämnet vi har diskuterat berör oss alla på
               flera sätt, varför inte minst de beslut vi fattar kring hur vi
               förhåller oss till en konkurrensutsatt välfärd också får en avgörande
               betydelse för det samhälle vi utformar.
             </seg>
-            <seg n="2d5da1ae">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-238" prev="i-aaafd3914f4c1267-237" who="Q6328008">
+            <seg>
               När nu både Miljöpartiet och Socialdemokraterna närmar sig våra
               ställningstaganden, vilket har redogjorts för i medierna de senaste
               dagarna, finns det ingen anledning att vänta. Från Sverigedemokraternas
@@ -2015,18 +2441,20 @@
               övriga oppositionen till samtal kring dessa frågor. Finns bara
               viljan finns också kraften att ta tag i de problem vi har identifierat.
             </seg>
-            <seg n="791928b2">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-239" prev="i-aaafd3914f4c1267-237" who="Q6328008">
+            <seg>
               Avslutningsvis måste jag bara få lov att tacka alla er tusentals
               och åter tusentals kämpande välfärdsarbetare ute i landet. Alldeles
               oavsett om ni arbetar inom en privat eller en offentlig inrättning
               kan ert arbete inte värderas högt nog.
             </seg>
           </u>
-          <note type="speaker" n="9a94b6c9">
+          <note type="speaker">
             Anf. 24 ULLA ANDERSSON (V):
           </note>
-          <u who="Q4935938" xml:id="i-89dc1ea56c6a89e5-2" n="fb40bf45">
-            <seg n="fde06314">
+          <u xml:id="i-aaafd3914f4c1267-240" next="i-aaafd3914f4c1267-244" who="Q4935938">
+            <seg>
               Herr talman! För Kristdemokraterna är byggande av hus och snöröjning
               detsamma som omsorgen om våra äldre. Det säger en hel del om var
               det partiet har hamnat. Då är det också klart att det faktum att
@@ -2035,7 +2463,9 @@
               inom äldreomsorgen är tre gånger så hög som inom elbolagen är
               självklart då inget problem.
             </seg>
-            <seg n="4c749e3d">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-241" prev="i-aaafd3914f4c1267-240" who="Q4935938">
+            <seg>
               De enligt Borg så pragmatiska Moderaterna lovordar numer riskkapitalbolagen.
               Och, det är klart, han privatiserar ju av ideologiska skäl och
               har gjort Sverige till en experimentverkstad för vinstintresserade
@@ -2043,7 +2473,9 @@
               ur det perspektivet. Investera i välfärden! Den är totalt konjunkturokänslig,
               kunde man läsa där.
             </seg>
-            <seg n="fa7f0d65">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-242" prev="i-aaafd3914f4c1267-240" who="Q4935938">
+            <seg>
               Men, Anders Borg, varför är du så upprörd över bankernas stora
               vinster när vinsterna inom utbildning, vård och omsorg, där man
               gör vinster på våra skattepengar, är mångdubbelt så höga? 8 miljarder
@@ -2053,13 +2485,17 @@
               till att höja lönerna och skapa mer möjligheter till utbildning.
               Det skapar bättre kvalitet.
             </seg>
-            <seg n="7e0583ab">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-243" prev="i-aaafd3914f4c1267-240" who="Q4935938">
+            <seg>
               Sådant brukar inte Anders Borg förstå, men om man pratar om skattesänkningar
               brukar han lystra till. Om man omräknar vinsten i välfärden till
               en skattesänkning skulle det innebära 2 100 kronor för en arbetande
               normalinkomsttagare. Det säger en del om vad det här handlar om.
             </seg>
-            <seg n="b9590702">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-244" prev="i-aaafd3914f4c1267-240" who="Q4935938">
+            <seg>
               Jag tycker att den här debatten har varit klargörande, som de
               flesta här säger. Det är bara Vänsterpartiet som tydligt står
               upp för att vinstintressen inte har någonting i välfärden att
@@ -2068,18 +2504,20 @@
               lite stöd för er linje.
             </seg>
           </u>
-          <note type="speaker" n="1f5997b1">
+          <note type="speaker">
             Anf. 25 ANDERS SELLSTRÖM (KD):
           </note>
-          <u who="Q6172463" xml:id="i-1cd688a19858b768-2" n="f0266b1a">
-            <seg n="98046493">
+          <u xml:id="i-aaafd3914f4c1267-245" next="i-aaafd3914f4c1267-248" who="Q6172463">
+            <seg>
               Herr talman! Kristdemokraterna tror på att olika utförare inom
               offentlig verksamhet, hård som mjuk, är av godo. Det tillför betydligt
               mer av utveckling inom välfärdssektorn än det omvända. Men avarter,
               oavsett var de dyker upp, ska bort. De ska förebyggas så att de
               inte kommer tillbaka någonstans.
             </seg>
-            <seg n="b896e155">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-246" prev="i-aaafd3914f4c1267-245" who="Q6172463">
+            <seg>
               Per Bolund frågar vad regeringen gör. Ja, Kristdemokraterna föreslår
               en tillsynsmyndighet, en statlig myndighet med muskler som kan
               gå in och bötfälla där det inte fungerar eller till och med stänga
@@ -2090,13 +2528,17 @@
               hela tiden. Inget får ställas före människovärdet. Det ska alltid
               sättas i första rummet.
             </seg>
-            <seg n="462c3a37">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-247" prev="i-aaafd3914f4c1267-245" who="Q6172463">
+            <seg>
               Det andra förslaget, Per Bolund, som du efterlyser och som vi
               Kristdemokrater också har genomfört tillsammans med regeringen,
               är att det ska finnas en möjlighet i varje kommun att införa värdighetsgarantier.
               Den frågan har vi kristdemokrater drivit i många år.
             </seg>
-            <seg n="478a4df8">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-248" prev="i-aaafd3914f4c1267-245" who="Q6172463">
+            <seg>
               Här tror jag att det nu är dags för de kommuner som inte jobbar
               med det här att sätta till klutarna. En värdighetsgaranti som
               uttalat sätter fingret på vad en värdig vård och omsorg handlar
@@ -2106,11 +2548,11 @@
               eller använder sig av alternativa utförare.
             </seg>
           </u>
-          <note type="speaker" n="b6c94417">
+          <note type="speaker">
             Anf. 26 Finansminister ANDERS BORG (M):
           </note>
-          <u who="Q182050" xml:id="i-1688215afc1a85bb-0" n="69f60dee" next="i-36a44b1c46b83038-0">
-            <seg n="375069d1">
+          <u xml:id="i-aaafd3914f4c1267-249" next="i-aaafd3914f4c1267-255" who="Q182050">
+            <seg>
               Herr talman! Välfärdssamhället är en grund för den frihet och
               den möjlighet att välja och att utvecklas som vi erbjuder medborgarna
               i Sverige. Genom att man har skolan, sjukvården och äldreomsorgen,
@@ -2120,7 +2562,9 @@
               och likhet utan som öppnar för personals och företagares möjligheter
               att skapa dynamik i verksamheterna.
             </seg>
-            <seg n="b1e4a1db">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-250" prev="i-aaafd3914f4c1267-249" who="Q182050">
+            <seg>
               Lika självklart är det att alla företag i Sverige ska betala
               skatt. Den verksamhet man bedriver här och de vinster som upparbetas
               här, som delvis beror på att man har nytta av våra skolor, vår
@@ -2132,7 +2576,9 @@
               naturligtvis också grunden för bättre välfärd. Mer tillväxt ger
               mer skatteintäkter och större trygghet för människor.
             </seg>
-            <seg n="7251ecc0">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-251" prev="i-aaafd3914f4c1267-249" who="Q182050">
+            <seg>
               Det här är vårt alternativ. Vi säger inte att alla kommunala
               dagis är perfekta och vi säger inte att alla verksamheter inom
               äldreomsorgen som drivs av privata aktörer är bra, utan vi säger
@@ -2140,7 +2586,9 @@
               följa upp och här måste man utvärdera. Det är så som vi ser på
               det. Det är det pragmatiska förhållningssättet.
             </seg>
-            <seg n="ca48edcc">
+          </u>
+          <u xml:id="i-aaafd3914f4c1267-252" prev="i-aaafd3914f4c1267-249" who="Q182050">
+            <seg>
               Vi har inget ideologiskt motiv för att sälja ut verksamheter
               eller överföra dem i privat regi, utan bra verksamheter kan vara
               kommunala och de kan vara privata. De ska följas upp och de ska
@@ -2150,173 +2598,177 @@
               dag har sett.
             </seg>
           </u>
-          <note n="dc7c7ea2">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="7fe2a17f">
+          <note>
             2 § Fortsatt ledighet
           </note>
-          <note n="a0e8633d">
+          <note>
             Talmannen meddelade att Erik A Eriksson (C) ansökt om fortsatt
             ledighet under tiden den 5 februari4 mars.
           </note>
-          <note n="a91a5ba0">
+          <note>
             Kammaren biföll denna ansökan.
           </note>
-          <note n="c7519bef">
+          <note>
             Talmannen anmälde att Marie Wickberg (C) skulle fortsätta att
             tjänstgöra som ersättare för Erik A Eriksson.
           </note>
-          <note n="7860966f">
+          <note>
             3 § Anmälan om kompletteringsval till skatteutskottet och näringsutskottet
           </note>
-          <note n="d618ca03">
+          <note>
             Talmannen meddelade att Centerpartiets riksdagsgrupp anmält Marie
             Wickberg som suppleant i skatteutskottet och näringsutskottet
             under Erik A Erikssons ledighet.
           </note>
-          <note n="c8b9e4f7">
+          <note>
             Talmannen förklarade vald under tiden den 5 februari4 mars till
           </note>
-          <note n="4ab74ec1">
+          <note>
             suppleant i skatteutskottet
           </note>
-          <note n="be809ef3">
+          <note>
             suppleant i näringsutskottet
           </note>
-          <note n="98cd8aa7">
+          <note>
             4 § Meddelande om utrikespolitisk debatt
           </note>
-          <note n="e29990da">
+          <note>
             Talmannen meddelade att den utrikespolitiska debatten skulle
             äga rum onsdagen den 15 februari kl. 9.00.
           </note>
-          <note n="a16b5fca">
+          <note>
             5 § Anmälan om fördröjt svar på interpellation
           </note>
-          <note n="f7eec4d5">
+          <note>
             Till riksdagen hade inkommit följande skrivelse:
           </note>
-          <note n="13539a5d">
+          <note>
             Interpellation 2011/12:201
           </note>
-          <note n="da6ad18d">
+          <note>
             Interpellation 2011/12:201 Hjärtstopp
           </note>
-          <note n="b397a4c6">
+          <note>
             Interpellationen kommer att besvaras den 17 februari.
           </note>
-          <u who="Q182050" xml:id="i-36a44b1c46b83038-0" n="69f60dee" prev="i-1688215afc1a85bb-0">
-            <seg n="78e8da86">
+          <u xml:id="i-aaafd3914f4c1267-253" prev="i-aaafd3914f4c1267-249" who="Q182050">
+            <seg>
               Skälet till dröjsmålet är redan inbokade engagemang.
             </seg>
           </u>
-          <note n="8327a23c">
+          <note>
             Marianne Jenryd
           </note>
-          <note n="3c26d3cd">
+          <note>
             6 § Hänvisning av ärenden till utskott
           </note>
-          <note n="615cd762">
+          <note>
             Föredrogs och hänvisades
           </note>
-          <note n="046ff63f">
+          <note>
             7 § Anmälan om interpellationer
           </note>
-          <note n="c289fd23">
+          <note>
             Anmäldes att följande interpellationer framställts
           </note>
-          <note n="90b8afa8">
+          <note>
             den 3 februari
           </note>
-          <note n="db6a9aee">
+          <note>
             Jens Holm
           </note>
-          <note n="8c94b33a">
+          <note>
             Eva-Lena Jansson
           </note>
-          <note n="354126b4">
+          <note>
             Leif Pettersson
           </note>
-          <note n="192dc77c">
+          <note>
             Interpellationerna redovisas i bilaga som fogats till riksdagens
             snabbprotokoll tisdagen den 14 februari.
           </note>
-          <note n="11b01f07">
+          <note>
             8 § Anmälan om frågor för skriftliga svar
           </note>
-          <note n="c6c3ee15">
-            Anmäldes att följande frågor för skriftliga svar framställts
-          </note>
-          <note n="05c31efd">
+          <u xml:id="i-aaafd3914f4c1267-254" prev="i-aaafd3914f4c1267-249" who="Q182050">
+            <seg>
+              Anmäldes att följande frågor för skriftliga svar framställts
+            </seg>
+          </u>
+          <note>
             den 2 februari
           </note>
-          <note n="a8fbdad3">
+          <note>
             Hans Olsson
           </note>
-          <note n="41fdc4e0">
+          <note>
             Sven-Erik Bucht
           </note>
-          <note n="082528dc">
+          <note>
             Krister Örnfjäder
           </note>
-          <note n="db6a9aee">
+          <note>
             Jens Holm
           </note>
-          <note n="30c44a65">
+          <note>
             Caroline Helmersson Olsson
           </note>
-          <note n="90b8afa8">
+          <note>
             den 3 februari
           </note>
-          <note n="fa8d93cb">
+          <note>
             Åsa Lindestam
           </note>
-          <note n="c54015df">
+          <note>
             Siv Holma
           </note>
-          <note n="48601e13">
+          <note>
             Lena Olsson
           </note>
-          <note n="db6a9aee">
+          <note>
             Jens Holm
           </note>
-          <note n="c6b7927c">
+          <note>
             Frågorna redovisas i bilaga som fogats till riksdagens snabbprotokoll
             tisdagen den 14 februari.
           </note>
-          <note n="dfdd0205">
+          <note>
             9 § Anmälan om skriftliga svar på frågor
           </note>
-          <note n="33c154c9">
+          <note>
             Anmäldes att skriftliga svar på följande frågor inkommit
           </note>
-          <note n="05c31efd">
+          <note>
             den 2 februari
           </note>
-          <note n="23af20bf">
+          <note>
             Robert Halef
           </note>
-          <note n="f343955d">
+          <note>
             Tomas Nilsson
           </note>
-          <note n="90b8afa8">
+          <note>
             den 3 februari
           </note>
-          <note n="7fceae7c">
+          <note>
             Hans Linde
           </note>
-          <note n="2492a713">
+          <note>
             Svaren redovisas i bilaga som fogats till riksdagens snabbprotokoll
             tisdagen den 14 februari.
           </note>
-          <note n="c188c03c">
+          <note>
             10 § Kammaren åtskildes kl. 10.47.
           </note>
-          <note n="49c4643d">
-            Förhandlingarna leddes av talmannen.
-          </note>
-          <note n="599b01ac">
+          <u xml:id="i-aaafd3914f4c1267-255" prev="i-aaafd3914f4c1267-249" who="Q182050">
+            <seg>
+              Förhandlingarna leddes av talmannen.
+            </seg>
+          </u>
+          <note>
             /Eva-Lena Ekman
           </note>
         </div>

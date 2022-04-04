@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2003</title>
+        <title>Riksdagens protocols 200304</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2003</title>
+          <title>Riksdagens protocols 200304</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -58,56 +55,57 @@
       <front>
         <div type="preface">
           <head>prot-200304--73</head>
-          <docDate when="2003-02-20">2003-02-20</docDate>
+          <docDate when="2004-02-20">2004-02-20</docDate>
         </div>
       </front>
       <body>
         <div>
-          <note n="d6d9b461">
-            ﻿
-          </note>
-          <note n="0aec4a7b">
+          <note>
             Riksdagens protokoll
           </note>
-          <note n="60b80587">
-            2003/04:73
-          </note>
-          <note type="date" n="40fba68a">
+          <u xml:id="i-f7d294475e3ab9cb-0" who="unknown">
+            <seg>
+              2003/04:73
+            </seg>
+          </u>
+          <note>
             Fredagen den 20 februari
           </note>
-          <note n="729b809e">
+          <note>
             Kl. 09:00 - 09:44
           </note>
-          <note n="b8984b08">
+          <note>
             1 § Anmälan om fördröjt svar på interpellation
           </note>
-          <note n="01780b69">
+          <note>
             Till riksdagen hade inkommit följande skrivelse:
           </note>
-          <note n="6d6a6717">
+          <note>
             Interpellation 2003/04:296
           </note>
-          <note n="eefe2709">
+          <note>
             Interpellation 2003/04:296 av Birgitta Ohlsson (fp) om statsbesöket
             i sultanatet Brunei
           </note>
-          <note n="9056c6f5">
+          <note>
             Interpellationen kommer att besvaras tisdagen den 9 mars 2004.
           </note>
-          <note n="34ff3140">
-            Skälet till dröjsmålet är utlandsresor.
-          </note>
-          <note n="8b8a4ed8">
+          <u xml:id="i-f7d294475e3ab9cb-1" who="unknown">
+            <seg>
+              Skälet till dröjsmålet är utlandsresor.
+            </seg>
+          </u>
+          <note>
             Per Thöresson
           </note>
-          <note n="6fde4104">
+          <note>
             2 § Svar på interpellation 2003/04:264 om Vattenfall AB
           </note>
-          <note type="speaker" n="c5127e26">
+          <note type="speaker">
             Anf. 1 Näringsminister LEIF PAGROTSKY (s):
           </note>
-          <u who="Q3296958" xml:id="i-0041f67923fa28b4-0" n="50576795">
-            <seg n="8ba2e221">
+          <u xml:id="i-f7d294475e3ab9cb-2" next="i-f7d294475e3ab9cb-11" who="Q3296958">
+            <seg>
               Fru talman! Peter Eriksson har frågat om jag avser att utfärda
               nya ägardirektiv där Vattenfalls roll i den svenska energiomställningen
               specificeras och där tydliga miljömål sätts upp, om jag avser
@@ -116,7 +114,9 @@
               ett förhandsbesked om att utbyggnad i Stenungsund inte kommer
               att tillåtas.
             </seg>
-            <seg n="5800157d">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-3" prev="i-f7d294475e3ab9cb-2" who="Q3296958">
+            <seg>
               Låt mig börja med den sista frågan. Jag tänker inte föregå den
               prövning som miljödomstolen kommer att göra. Enligt Vattenfalls
               egen bedömning kommer dock investeringen i Stenungsund att medföra
@@ -126,28 +126,36 @@
               utsläppskällan ligger utanför Sverige minskar alltså inte den
               totala effekten.
             </seg>
-            <seg n="27461715">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-4" prev="i-f7d294475e3ab9cb-2" who="Q3296958">
+            <seg>
               Peter Eriksson frågade också om jag avser att ge nya instruktioner
               till Vattenfall om miljömål och arbetet med omställningen av energisystemet.
             </seg>
-            <seg n="43ce5713">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-5" prev="i-f7d294475e3ab9cb-2" who="Q3296958">
+            <seg>
               Låt mig återge det riksdagsbeslut som i dag utgör den högsta
               ägarens krav på företaget. Jag citerar ur näringsutskottets betänkande
               1996/97:NU12 En uthållig energiförsörjning :
             </seg>
-            <seg n="2d9e230a">
-              Utvecklingen av ny ekologisk elproduktionsteknik och investeringar
-              i el- och värmeproduktion från förnybara energislag bör vara framträdande
-              i Vattenfalls långsiktiga utvecklings- och investeringsplaner.
-            </seg>
-            <seg n="6c2802e5">
+          </u>
+          <note>
+            Utvecklingen av ny ekologisk elproduktionsteknik och investeringar
+            i el- och värmeproduktion från förnybara energislag bör vara framträdande
+            i Vattenfalls långsiktiga utvecklings- och investeringsplaner.
+          </note>
+          <u xml:id="i-f7d294475e3ab9cb-6" prev="i-f7d294475e3ab9cb-2" who="Q3296958">
+            <seg>
               Därtill slår utskottet fast följande: För ett företag som Vattenfall,
               som verkar på en konkurrensutsatt marknad och som har i huvuduppgift
               att på ett effektivt sätt producera och leverera el till sina
               kunder, är det emellertid viktigt att nu nämnda insatser görs
               inom ramen för kraven på affärsmässighet.
             </seg>
-            <seg n="8d21e5d7">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-7" prev="i-f7d294475e3ab9cb-2" who="Q3296958">
+            <seg>
               Vad gäller investeringar i förnybar energi i Sverige är Vattenfall
               utan tvekan främst. Sedan 1997 har Vattenfall genomfört och beslutat
               om investeringar på drygt 10 miljarder kronor. Under samma tidsperiod
@@ -155,7 +163,9 @@
               varav 370 miljoner kronor inom förnybar energi, främst vindkraft,
               solceller och biobränsle.
             </seg>
-            <seg n="0b420c95">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-8" prev="i-f7d294475e3ab9cb-2" who="Q3296958">
+            <seg>
               Det är min uppfattning att Vattenfall därigenom aktivt medverkar
               till en omställning av energisystemet och att man ligger i främsta
               ledet inom forskning och utveckling av ny teknik på energiområdet.
@@ -163,13 +173,17 @@
               Vattenfalls verksamhet utöver det som riksdagen redan har beslutat
               om.
             </seg>
-            <seg n="dc40372a">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-9" prev="i-f7d294475e3ab9cb-2" who="Q3296958">
+            <seg>
               Därefter till frågan om jag kommer att vidta några andra åtgärder
               med anledning av riksdagens kritik från i juni 2002. Sedan den
               tidpunkten har regeringen vidtagit en rad åtgärder för att ytterligare
               stärka styrningen av de statligt ägda bolagen.
             </seg>
-            <seg n="3a84ce36">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-10" prev="i-f7d294475e3ab9cb-2" who="Q3296958">
+            <seg>
               Förvaltningen har koncentrerats till en ägarenhet samtidigt som
               jag har fått ansvar för den övergripande ägarpolitiken för alla
               statliga bolag. Regeringen har nu tillgång till en samlad förvaltningsresurs
@@ -180,7 +194,9 @@
               har vi tagit för att ytterligare förbättra styrningen och förvaltningen
               av svenska folkets gemensamma egendom.
             </seg>
-            <seg n="49d5a57a">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-11" prev="i-f7d294475e3ab9cb-2" who="Q3296958">
+            <seg>
               Jag vill slutligen peka på vikten av att Vattenfall kan skapa
               trygga ekonomiska grundvalar som gör att bolaget också i framtiden
               kan vara ledande inom forskning, utveckling och kommersialisering
@@ -188,23 +204,25 @@
               omställningsarbetet.
             </seg>
           </u>
-          <note n="fe84a5c0">
+          <note>
             Då Peter Eriksson som framställt interpellationen anmält att
             han var förhindrad att närvara vid sammanträdet medgav tredje
             vice talmannen att Ingegerd Saarinen i stället fick delta i överläggningen.
           </note>
-          <note type="speaker" n="c25fe911">
+          <note type="speaker">
             Anf. 2 INGEGERD SAARINEN (mp):
           </note>
-          <u who="Q4976383" xml:id="i-189900e55d445992-0" n="68ed340f">
-            <seg n="fcb0cb0a">
+          <u xml:id="i-f7d294475e3ab9cb-12" next="i-f7d294475e3ab9cb-20" who="Q4976383">
+            <seg>
               Fru talman! Jag vill börja med att be om ursäkt för att Peter
               Eriksson inte kunde vara här, och så vill jag tacka för svaret.
               Men av svaret framgår inte om Leif Pagrotsky är beredd att styra
               Vattenfall mer aktivt vare sig i frågan om kraftverksplanerna
               i Stenungsund eller i övrigt.
             </seg>
-            <seg n="a4579b7a">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-13" prev="i-f7d294475e3ab9cb-12" who="Q4976383">
+            <seg>
               Vattenfall har hundrafaldigat sina koldioxidutsläpp sedan 1997,
               och bolaget är i färd med att öka dem ännu mer. De har ökat sitt
               kärnkraftsinnehav. De tänker också investera stort i kärnkraft
@@ -214,19 +232,25 @@
               kreditbetyg. Vad är det egentligen som krävs för att regeringen
               ska tycka att måttet är rågat?
             </seg>
-            <seg n="cd52ba9a">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-14" prev="i-f7d294475e3ab9cb-12" who="Q4976383">
+            <seg>
               Leif Pagrotsky behöver inte nödvändigtvis försvara allt som Vattenfall
               gör. Riksdagen prickade Björn Rosengren för bristande styrning,
               men ingenting tvingar Leif Pagrotsky att försvara Rosengrens passivitet.
             </seg>
-            <seg n="f5453987">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-15" prev="i-f7d294475e3ab9cb-12" who="Q4976383">
+            <seg>
               Det är positivt att rutinerna för styrning av de statliga företagen
               har förbättrats, men riksdagens kritik för bristande styrning
               av Vattenfall avsåg inte bara formerna utan också resultatet.
               Vattenfalls viktigaste ägardirektiv är 1997 års energipolitiska
               beslut, och det har Vattenfall inte följt.
             </seg>
-            <seg n="fc54f7c3">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-16" prev="i-f7d294475e3ab9cb-12" who="Q4976383">
+            <seg>
               Vattenfall har enligt Pagrotsky investerat 10 miljarder sedan
               1997, men han nämner inte hur stor del av detta som är förnybar
               energi och effektivisering och hur mycket som redan fanns i företag
@@ -235,19 +259,25 @@
               har använts för förnybar energi. 90 % har använts till annat än
               förnybar energi.
             </seg>
-            <seg n="43e708bd">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-17" prev="i-f7d294475e3ab9cb-12" who="Q4976383">
+            <seg>
               Under den senaste tiden har Vattenfall också lagt ned sin solvärmeforskning
               efter 20 år. Det borde betyda att den nuvarande FoU-insatsen är
               mindre än 10 % för förnybar energi. Betyder det att resten går
               till fossil- och kärnkraft? Och anser Leif Pagrotsky att det här
               är lagom proportioner?
             </seg>
-            <seg n="e2ad3c4a">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-18" prev="i-f7d294475e3ab9cb-12" who="Q4976383">
+            <seg>
               Vad gäller styrningen av Vattenfall vill jag också påpeka att
               Vattenfall Europe i Tyskland lobbar hårt mot den tyska tilldelningsplanen
               för utsläppsrätter, eftersom den hotar ekonomin i deras brunkolskraftverk.
             </seg>
-            <seg n="f8e77e9e">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-19" prev="i-f7d294475e3ab9cb-12" who="Q4976383">
+            <seg>
               Om Vattenfall misslyckas med att förändra den tyska tilldelningsplanen
               innebär det väl att deras tillgångar minskar i värde på grund
               av ett omotiverat risktagande. Kanske äventyras en stor del av
@@ -255,16 +285,18 @@
               visste vad de gjorde. Vattenfall borde kanske också ha vetat vad
               de gjorde när de köpte.
             </seg>
-            <seg n="1793c41d">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-20" prev="i-f7d294475e3ab9cb-12" who="Q4976383">
+            <seg>
               Anser Leif Pagrotsky att det är acceptabelt att ett statligt
               svenskt företag ägnar sig åt att motarbeta Tysklands klimatpolitik?
             </seg>
           </u>
-          <note type="speaker" n="18db3c40">
+          <note type="speaker">
             Anf. 3 Näringsminister LEIF PAGROTSKY (s):
           </note>
-          <u who="Q3296958" xml:id="i-0041f67923fa28b4-1" n="50576795">
-            <seg n="dfc856f9">
+          <u xml:id="i-f7d294475e3ab9cb-21" next="i-f7d294475e3ab9cb-26" who="Q3296958">
+            <seg>
               Fru talman! Ingegerd Saarinen påpekar mycket riktigt att jag
               inte behöver försvara allting som Vattenfall gör. Den kritik som
               KU:s majoritet av borgerliga partier plus Miljöpartiet riktade
@@ -274,7 +306,9 @@
               av ägarfunktionen som vi har genomfört. I det avseendet samtalar
               ju också våra partier regelbundet. Jag är glad för det.
             </seg>
-            <seg n="8f5681c3">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-22" prev="i-f7d294475e3ab9cb-21" who="Q3296958">
+            <seg>
               Jag delar den synen. Jag har ingen anledning att reflexmässigt
               och instinktivt försvara allt som sker. Det är väl inte obekant
               här i kammaren att vad gäller frågor om elavbrott och hur snabbt
@@ -282,7 +316,9 @@
               allt annat än beröm som jag brukar formulera när Vattenfall kommer
               på tal.
             </seg>
-            <seg n="38384873">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-23" prev="i-f7d294475e3ab9cb-21" who="Q3296958">
+            <seg>
               Det ska inte heller vara det motsatta, att det är min uppgift
               att i alla sammanhang stämma in i kören av kritiker när jag gör
               bedömningen att kritiken är orättvis. Jag uttrycker gärna att
@@ -293,7 +329,9 @@
               Det tycker jag att den är i det här fallet när det gäller Tyskland
               och när det gäller insatserna för förnybar energi.
             </seg>
-            <seg n="128b890e">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-24" prev="i-f7d294475e3ab9cb-21" who="Q3296958">
+            <seg>
               Riksdagen har formulerat krav på Vattenfall som innehåller både
               affärsmässighet, konkurrensneutralitet i förhållande till de privata
               eller statliga aktörer från andra länder som också finns på den
@@ -302,7 +340,9 @@
               dessa två mål som riksdagen har utformat. Jag tycker att de hanterar
               den avvägningen, som det ser ut nu, på ett ganska bra sätt.
             </seg>
-            <seg n="8c03a6fb">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-25" prev="i-f7d294475e3ab9cb-21" who="Q3296958">
+            <seg>
               Det är också min uppfattning att när nu vinsten från Vattenfalls
               tyska verksamhet, och också den polska verksamheten, börja komma
               ordentligt när omstrukturering av det gamla smutsiga tyska elsystemet
@@ -320,7 +360,9 @@
               uppgift än vad som gäller konkurrenterna. Den balansgången har
               riksdagen ålagt bolaget.
             </seg>
-            <seg n="5a004b6f">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-26" prev="i-f7d294475e3ab9cb-21" who="Q3296958">
+            <seg>
               I Tyskland har man tagit över ett gammalt östtyskt energisystem
               som man har köpt. Det var ett risktagande. Vi har inte facit över
               vad det kommer att bli. Än så länge verkar det att ha gått väldigt
@@ -331,11 +373,11 @@
               sina utsläpp.
             </seg>
           </u>
-          <note type="speaker" n="d2c0d2ae">
+          <note type="speaker">
             Anf. 4 INGEGERD SAARINEN (mp):
           </note>
-          <u who="Q4976383" xml:id="i-189900e55d445992-1" n="68ed340f">
-            <seg n="1c576ad7">
+          <u xml:id="i-f7d294475e3ab9cb-27" next="i-f7d294475e3ab9cb-32" who="Q4976383">
+            <seg>
               Fru talman! Jag skulle vilja ta upp en artikel som stod i förra
               veckan i Dagens Industri. Tysk mardröm för Vattenfall, står det.
               Det är presschefen för Vattenfall i Tyskland som talar om utsläppsrätterna
@@ -350,7 +392,9 @@
               och kräver att vi inte ska drabbas av några extra kostnader för
               utsläppsrätter.
             </seg>
-            <seg n="8b3342e5">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-28" prev="i-f7d294475e3ab9cb-27" who="Q4976383">
+            <seg>
               Det här kan väl bara tolkas som att Vattenfall bortsåg från de
               mycket väl förutsägbara konsekvenserna av Kyotoprotokollet och
               EU:s klimatpolitiska beslut när de köpte brunkolsverksamheten.
@@ -358,14 +402,18 @@
               största av utsläppskällorna. Vattenfall är en av Tysklands och
               Europas största utsläppare.
             </seg>
-            <seg n="5a37e279">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-29" prev="i-f7d294475e3ab9cb-27" who="Q4976383">
+            <seg>
               Det är inte heller bara fråga om ett kortsiktigt försvar för
               att få tid till omställning. Vid ett seminarium som Vattenfall
               anordnade i Bryssel den 4 februari, Is there a future for Coal?
               , framhåller de att det finns 1,7 miljarder ton brunkol att bryta
               i Tyskland.
             </seg>
-            <seg n="9d1540c0">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-30" prev="i-f7d294475e3ab9cb-27" who="Q4976383">
+            <seg>
               Förutom det kan Vattenfall ha haft ytterligare skäl för att köpa
               kärnkraft i Tyskland. Kärnkraftverket Brunsbüttel som ägs till
               67 % av Vattenfall är ett av sammanlagt fyra tyska kärnkraftverk
@@ -377,7 +425,9 @@
               kan användas för att investera i andra bolag eller i värdepapper
               och så vidare.
             </seg>
-            <seg n="0b2e0cff">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-31" prev="i-f7d294475e3ab9cb-27" who="Q4976383">
+            <seg>
               Vattenfall har alltså inflytande över dessa tyska kärnkraftsverks
               fonder. De kärnavfallsmedel som avsätts i Tyskland har Vattenfall
               lånat till verksamhet i koncernen. Vattenfall har med dessa lån
@@ -386,7 +436,9 @@
               i koncernen än om de skulle ha satt in pengarna på bank eller
               investerat i värdepapper.
             </seg>
-            <seg n="cf743146">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-32" prev="i-f7d294475e3ab9cb-27" who="Q4976383">
+            <seg>
               Vattenfalls skulder var mycket stora den 30 juni 2003. Det är
               siffror som är svåra att uttala. Vattenfalls skulder till sina
               kärnkraftsbolag i Tyskland ligger nu på 17 miljarder kronor. Det
@@ -398,11 +450,11 @@
               förstås ha påverkat ett investeringsbeslut.
             </seg>
           </u>
-          <note type="speaker" n="cf6fcd0f">
+          <note type="speaker">
             Anf. 5 Näringsminister LEIF PAGROTSKY (s):
           </note>
-          <u who="Q3296958" xml:id="i-0041f67923fa28b4-2" n="50576795">
-            <seg n="9e509ed1">
+          <u xml:id="i-f7d294475e3ab9cb-33" next="i-f7d294475e3ab9cb-38" who="Q3296958">
+            <seg>
               Fru talman! Jag beklagar att jag inte är tillräckligt insatt
               i den tyska balansräkningen för att reda ut huruvida det utgår
               ränta eller inte på de medel som man disponerar i enlighet med
@@ -411,7 +463,9 @@
               bör eller inte bör vara med och delta i debatten inför politiska
               beslut i de länder där man är verksam.
             </seg>
-            <seg n="7fde061d">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-34" prev="i-f7d294475e3ab9cb-33" who="Q3296958">
+            <seg>
               I Sverige är de statliga företagen medlemmar i de intresseorganisationer
               som finns i de branscher där de är verksamma. LKAB är med i Gruvindustriföreningen,
               Vin &amp; Sprit är med i Livsmedelsindustrierna och så vidare. Där
@@ -427,7 +481,9 @@
               det i Tyskland tycker jag inte är konstigare än att man gör det
               i Sverige, liksom andra statliga företag gör det i Sverige.
             </seg>
-            <seg n="5ffccef3">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-35" prev="i-f7d294475e3ab9cb-33" who="Q3296958">
+            <seg>
               I Tyskland har Vattenfall investerat kolossala belopp i att rena
               utsläppen från energiproduktionen. Tyskland har en smutsigare,
               mer koldioxidutsläppande energisektor än vad vi har i Sverige.
@@ -438,7 +494,9 @@
               sig av, och naturgas också. Förnybar energi har de inte så mycket
               av, även om de nu satsar mycket på vindkraft.
             </seg>
-            <seg n="f0828673">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-36" prev="i-f7d294475e3ab9cb-33" who="Q3296958">
+            <seg>
               Att Vattenfall nu är verksamt i Tyskland på de villkor, med de
               spelregler, det klimat och den geografi som råder i Tyskland tycker
               inte jag i sig är diskvalificerande. Att Vattenfall bara ska få
@@ -447,7 +505,9 @@
               Finland. Där finns stora statliga aktörer på plats som inte gör
               det möjligt för Vattenfall att investera.
             </seg>
-            <seg n="7d65029e">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-37" prev="i-f7d294475e3ab9cb-33" who="Q3296958">
+            <seg>
               Jag ska också berätta att jag träffade min tyske kollega Wolfgang
               Klement för ett par veckor sedan. Han ville å sin och sin regerings
               vägnar berömma mig och Sverige för att Vattenfall är, som han
@@ -457,7 +517,9 @@
               I ett land som är starkt beroende av den typen av energiproduktion
               var detta mycket viktigt för honom.
             </seg>
-            <seg n="4eeb8342">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-38" prev="i-f7d294475e3ab9cb-33" who="Q3296958">
+            <seg>
               Det tycker jag kan vara värt för oss att då och då påminna oss
               i stället för att använda som jag tycker vilseledande beskrivningar
               som att Vattenfall genom sina aktiviteter har hundrafaldigat utsläppen
@@ -466,11 +528,11 @@
               radikalt genom sina insatser i Tyskland.
             </seg>
           </u>
-          <note type="speaker" n="d7682f8c">
+          <note type="speaker">
             Anf. 6 INGEGERD SAARINEN (mp):
           </note>
-          <u who="Q4976383" xml:id="i-189900e55d445992-2" n="68ed340f">
-            <seg n="6f6771bb">
+          <u xml:id="i-f7d294475e3ab9cb-39" next="i-f7d294475e3ab9cb-42" who="Q4976383">
+            <seg>
               Fru talman! Det borde ändå bekymra Leif Pagrotsky att Vattenfall
               lobbar för att Tyskland ska tillåta sig fler utsläppsrätter för
               sin industri nu när vi kämpar för att få en energipolitik och
@@ -482,7 +544,9 @@
               ingen handel, och hela utsläppsförsöket kommer att gå i stå. Det
               är väldigt stora saker som står på spel miljömässigt sett.
             </seg>
-            <seg n="5431fd0f">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-40" prev="i-f7d294475e3ab9cb-39" who="Q4976383">
+            <seg>
               Sedan säger Leif Pagrotsky att han inte vill föregripa miljöprövningen
               av Stenungsund. Varför inte? Är det inte bättre att genast ge
               Vattenfall besked om ett nej än att låta företaget lägga ned mer
@@ -491,7 +555,9 @@
               som regering i den slutliga miljöprövningen. Det finns två vägar
               där.
             </seg>
-            <seg n="113eefac">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-41" prev="i-f7d294475e3ab9cb-39" who="Q4976383">
+            <seg>
               Argumentet att ett kraftverk i Stenungsund skulle konkurrera
               ut bränslen med sämre miljöegenskaper är förvånande. Vilka sämre
               kraftverk skulle det vara? Leif Pagrotsky kanske i så fall syftar
@@ -499,7 +565,9 @@
               Danmark har i alla fall gjort kraftiga insatser för att reducera
               sina utsläpp.
             </seg>
-            <seg n="d077025a">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-42" prev="i-f7d294475e3ab9cb-39" who="Q4976383">
+            <seg>
               Den senaste tiden har debattvågorna om bristande etik och moral
               gått höga. Framför allt är det Leif Pagrotsky som har anklagat
               andra för att ha brister. Men det finns viktiga etiska frågor
@@ -511,24 +579,28 @@
               av det får vi effekttoppar
             </seg>
           </u>
-          <note type="speaker" n="f05ffcff">
+          <note type="speaker">
             Anf. 7 Näringsminister LEIF PAGROTSKY (s):
           </note>
-          <u who="Q3296958" xml:id="i-0041f67923fa28b4-3" n="50576795">
-            <seg n="1d9e6d74">
+          <u xml:id="i-f7d294475e3ab9cb-43" next="i-f7d294475e3ab9cb-48" who="Q3296958">
+            <seg>
               Fru talman! Jag tycker inte att det hör till god ton att regeringen
               innan en rättsprocess, en normal prövning enligt de regler och
               riktlinjer som riksdagen har beslutat om, ens har inletts startar
               med att säga hur man tycker att det här ska sluta. Jag tänker
               för min del avstå från den typen av rekommendationer.
             </seg>
-            <seg n="390b8524">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-44" prev="i-f7d294475e3ab9cb-43" who="Q3296958">
+            <seg>
               Dessutom är det inte jag i regeringen som kommer att hantera
               ett sådant ärende i den mån det kommer in. Jag kommer som medlem
               av regeringen naturligtvis att delta, men det är Miljödepartementet
               som hanterar den typen av tillståndsärenden.
             </seg>
-            <seg n="a97abdf8">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-45" prev="i-f7d294475e3ab9cb-43" who="Q3296958">
+            <seg>
               Ingegerd Saarinen frågar mig hur det kan komma sig att en sådan
               här investering skulle kunna minska utsläppen. Vi har inte gjort
               prövningen ännu, och jag har inte gjort någon prövning. Jag valde
@@ -536,14 +608,18 @@
               det åtminstone blir hört, även om vi sedan får vänta med att ta
               ställning till hur mycket det ligger i det.
             </seg>
-            <seg n="8f321435">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-46" prev="i-f7d294475e3ab9cb-43" who="Q3296958">
+            <seg>
               Deras beskrivning är att i dag tas de restoljor som kommer från
               raffinaderiet Skanraff inte om hand på annat sätt än att de säljs
               till den som använder dem. Det är i dag fartyg som rör sig på
               internationellt vatten där det råder väldigt lite miljöregler.
               Där eldas de upp som bränsle och går ut och påverkar klimatet.
             </seg>
-            <seg n="630551be">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-47" prev="i-f7d294475e3ab9cb-43" who="Q3296958">
+            <seg>
               Om i stället samma restprodukter tas om hand i ett kraftverk
               i närheten av raffinaderiet Stenungsund ligger inte långt från
               Lysekil, som bekant och detta kraftverk har den bästa tillgängliga
@@ -551,30 +627,34 @@
               blir mindre utsläpp i luften och mindre effekt på klimatet än
               om samma restprodukter tas om hand helt orenade.
             </seg>
-            <seg n="375e3938">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-48" prev="i-f7d294475e3ab9cb-43" who="Q3296958">
+            <seg>
               Det kanske är något fel i det. Låt debatten och miljöprövningen
               visa om detta stämmer eller inte stämmer. Men klimateffekterna
               är globala, om utsläppen sker på havet eller på land bredvid vattnet
               i Stenungsund är ur miljösynpunkt i det sammanhanget likgiltigt.
             </seg>
           </u>
-          <note n="c8d2bef5">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="79f8560b">
+          <note>
             3 § Svar på interpellation 2003/04:268 om mångfald som tillväxtmotor
           </note>
-          <note type="speaker" n="b0059d5e">
+          <note type="speaker">
             Anf. 8 Näringsminister LEIF PAGROTSKY (s):
           </note>
-          <u who="Q3296958" xml:id="i-0041f67923fa28b4-4" n="50576795">
-            <seg n="bff1aa28">
+          <u xml:id="i-f7d294475e3ab9cb-49" next="i-f7d294475e3ab9cb-58" who="Q3296958">
+            <seg>
               Fru talman! Luciano Astudillo har frågat vilka åtgärder jag kan
               tänka mig för att stödja företagare med invandrarbakgrund och
               varför exportsäljarprogrammet som syftar till att utbilda personer
               begränsas enbart till den spansktalande marknaden.
             </seg>
-            <seg n="2ff26753">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-50" prev="i-f7d294475e3ab9cb-49" who="Q3296958">
+            <seg>
               Företag som drivs av personer med invandrarbakgrund är i dag
               en viktig del av den svenska ekonomin. De finns i hela landet
               och är representerade i ekonomins olika sektorer. Dessutom är
@@ -583,7 +663,9 @@
               20 % av de drygt 37 400 företag som bildades 2002 startades av
               personer med invandrarbakgrund.
             </seg>
-            <seg n="995ccae8">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-51" prev="i-f7d294475e3ab9cb-49" who="Q3296958">
+            <seg>
               Företagare som är födda utomlands upplever fler hinder för tillväxt
               i företagen jämfört med övriga grupper. Svårigheten att få tillgång
               till lån verkar vara särskilt problematiskt för denna grupp företagare.
@@ -595,14 +677,18 @@
               tillgången till finansiering då dessa branscher ofta vänder sig
               till en lokal marknad där konkurrensen ofta är hård.
             </seg>
-            <seg n="b4120e36">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-52" prev="i-f7d294475e3ab9cb-49" who="Q3296958">
+            <seg>
               Jag vill dock poängtera att heterogeniteten inom denna grupp
               är stor. Exempelvis är skillnaderna mellan företagare födda utomlands
               och andra generationens invandrarföretagare stora vad gäller andelen
               som driver verksamhet i kunskapsintensiva sektorer. Det finns
               även skillnader relaterade till ursprungsregion.
             </seg>
-            <seg n="0d88d8ff">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-53" prev="i-f7d294475e3ab9cb-49" who="Q3296958">
+            <seg>
               För att underlätta för invandrares företagande gör staten ett
               antal olika insatser. Regeringen har avsatt 34 miljoner kronor
               årligen under perioden 20022004 för att främja kvinnors och invandrares
@@ -616,7 +702,9 @@
               att fortsätta också efter 2004 när den nuvarande perioden löper
               ut.
             </seg>
-            <seg n="a12b3801">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-54" prev="i-f7d294475e3ab9cb-49" who="Q3296958">
+            <seg>
               Vad gäller de statliga finansieringsinsatserna har invandrarföretagare
               som startar företag en större andel starta-eget-bidrag än andra
               grupper. Vidare har den statliga lånefinansiären Almi direktiv
@@ -625,7 +713,9 @@
               Almi Företagspartner är 20 %, vilket motsvarar andelen invandrarföretagare
               i Sverige.
             </seg>
-            <seg n="e529809d">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-55" prev="i-f7d294475e3ab9cb-49" who="Q3296958">
+            <seg>
               För att göra det lättare för svenska företag att växa internationellt
               erbjuder Exportrådet företagen exportsäljare eller exportassistenter
               som med praktiskt arbete ska delta i företagets exportarbete och
@@ -633,7 +723,9 @@
               i företaget och tränas och utbildas av Exportrådet. Efter praktiktiden
               har företaget möjlighet att anställa säljaren eller assistenten.
             </seg>
-            <seg n="549e3164">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-56" prev="i-f7d294475e3ab9cb-49" who="Q3296958">
+            <seg>
               Deltagarna är registrerade som arbetssökande vid landets arbetsförmedlingar.
               Programmets utbildningsdel finansieras av länsarbetsnämnderna.
               Exportrådets affärsutvecklande insatser i företagen betalas av
@@ -644,13 +736,17 @@
               Sådana marknader har hittills varit Latinamerika, Östeuropa och
               Asien.
             </seg>
-            <seg n="6f3f6017">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-57" prev="i-f7d294475e3ab9cb-49" who="Q3296958">
+            <seg>
               Sedan starten 1993 har närmare 900 säljare och assistenter utbildats,
               varav 80 % har anställts av företaget efter praktikperioden. Programmet
               gäller för alla marknader, vilket innebär att det inte finns några
               begränsningar till enbart den spansktalande marknaden.
             </seg>
-            <seg n="966786c6">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-58" prev="i-f7d294475e3ab9cb-49" who="Q3296958">
+            <seg>
               Jag anser att invandrarföretagandet och kompetensen hos personer
               med erfarenhet av andra marknader utgör ett viktigt inslag i vår
               framtida tillväxt. Det finns anledning att ytterligare tillvarata
@@ -659,15 +755,17 @@
               invandrarföretagande och näringslivets internationalisering.
             </seg>
           </u>
-          <note type="speaker" n="c86b5998">
+          <note type="speaker">
             Anf. 9 LUCIANO ASTUDILLO (s):
           </note>
-          <u who="Q4355921" xml:id="i-0041f67923fa28b4-5" n="ea8335fc">
-            <seg n="5a24da66">
+          <u xml:id="i-f7d294475e3ab9cb-59" next="i-f7d294475e3ab9cb-67" who="Q4355921">
+            <seg>
               Fru talman! Jag vill börja med att tacka ministern för det positiva
               svaret.
             </seg>
-            <seg n="881b869f">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-60" prev="i-f7d294475e3ab9cb-59" who="Q4355921">
+            <seg>
               Den etniska, kulturella och språkliga mångfalden i Sverige kan,
               om den utnyttjas rätt, bli en viktig tillväxtfaktor. Om Sverige
               kan bli bättre på att ta till vara alla sina invånare inte minst
@@ -678,7 +776,9 @@
               på området. Så är det! Men problemen får inte överskugga mångfaldens
               många möjligheter språkrikedom, initiativrikedom och kreativitet.
             </seg>
-            <seg n="b67862ca">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-61" prev="i-f7d294475e3ab9cb-59" who="Q4355921">
+            <seg>
               Redan i dag görs flera strategiska satsningar från regeringens
               sida med ambitionen att bli bättre på att ta till vara mångfalden.
               Jag har berört två i min interpellation. Det är det årliga stödet
@@ -691,7 +791,9 @@
               I dag har Sverige ca 70 000 invandrarägda företag som sysselsätter
               250 000 personer.
             </seg>
-            <seg n="c130de42">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-62" prev="i-f7d294475e3ab9cb-59" who="Q4355921">
+            <seg>
               Precis som ministern berättade finns det vissa branscher där
               invandrade svenskar är överrepresenterade. Samtidigt är det andra
               saker som inte är lika kända. Till exempel finns hela 55 % av
@@ -701,12 +803,16 @@
               mer än 100 företag. I genomsnitt startas 40 % av företagen av
               kvinnor.
             </seg>
-            <seg n="85313617">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-63" prev="i-f7d294475e3ab9cb-59" who="Q4355921">
+            <seg>
               IFS gör nytta och bidrar till tillväxten. Det är därför glädjande
               att ministern i dag lovar att den tillfälliga satsningen som regeringen
               genomfört på IFS även kommer att fortsätta efter 2004.
             </seg>
-            <seg n="d189942b">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-64" prev="i-f7d294475e3ab9cb-59" who="Q4355921">
+            <seg>
               Fru talman! Den andra strategiska satsningen som regeringen genomfört
               i linje med det mer positiva synsätt jag efterfrågar är exportsäljarprogrammet.
               I en internationaliserad värld är språk och kulturkunskaper viktiga
@@ -715,7 +821,9 @@
               Det kommer att bli bättre på att sälja sig självt, och därmed
               kommer handeln att öka.
             </seg>
-            <seg n="0fec9d14">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-65" prev="i-f7d294475e3ab9cb-59" who="Q4355921">
+            <seg>
               Målet med utbildningen har varit att utbilda personer som kan
               hjälpa företag att komma ut på världsmarknaden. Tanken har varit
               att dra nytta av de kunskaper som personer har om länder i vilket
@@ -723,7 +831,9 @@
               att utbildningen inte begränsas till enbart den spansktalande
               marknaden, men det är bara positivt!
             </seg>
-            <seg n="196c6d3f">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-66" prev="i-f7d294475e3ab9cb-59" who="Q4355921">
+            <seg>
               Precis som ministern berättade i sitt svar har närmare 900 säljare
               och assistenter utbildats sedan 1993 då utbildningen startades.
               Det betyder strax över 90 personer per år. Att så många som 80
@@ -733,7 +843,9 @@
               70 % ska få anställning efter utbildningstiden. Det klarar denna
               insats oerhört bra. Det här borde ministern informera om.
             </seg>
-            <seg n="c23450db">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-67" prev="i-f7d294475e3ab9cb-59" who="Q4355921">
+            <seg>
               I ljuset av att exportsäljarprogrammet har varit så framgångsrikt
               och att Sverige är ett litet och exportberoende land vill jag
               fråga följande. Anser inte regeringen att mycket talar för att
@@ -741,11 +853,11 @@
               borde öka?
             </seg>
           </u>
-          <note type="speaker" n="b3a57f61">
+          <note type="speaker">
             Anf. 10 Näringsminister LEIF PAGROTSKY (s):
           </note>
-          <u who="Q3296958" xml:id="i-0041f67923fa28b4-6" n="50576795">
-            <seg n="5e250c6a">
+          <u xml:id="i-f7d294475e3ab9cb-68" next="i-f7d294475e3ab9cb-71" who="Q3296958">
+            <seg>
               Fru talman! Luciano Astudillo och jag har precis samma syn som
               startpunkt för vårt sätt att betrakta frågorna. Svenskt näringsliv
               är inte bra nog på att tillvarata de talanger, förmågor, kunskaper
@@ -768,7 +880,9 @@
               med spanska som modersmål eller med särskilt starka kunskaper
               i spanska. Programmet är bredare och mer tillgängligt än så.
             </seg>
-            <seg n="3f974d4f">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-69" prev="i-f7d294475e3ab9cb-68" who="Q3296958">
+            <seg>
               Åtgärder som har riktat sig till invandrare är normalt inte speciella
               åtgärder jämfört med andra åtgärder utan de är en del i den ordinarie
               arbetsmarknadspolitiken och utbildningspolitiken. I det här fallet
@@ -779,14 +893,18 @@
               inom ramen för de instrument som finns till förfogande som de
               tycker är värda att satsa på.
             </seg>
-            <seg n="55a2ba9e">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-70" prev="i-f7d294475e3ab9cb-68" who="Q3296958">
+            <seg>
               Exportsäljarprogrammet är en mycket ambitiös verksamhet som också
               har gett mycket bra resultat. Det innebär att det är ganska dyrt
               för länsarbetsnämnderna. De väljer ofta själva att använda sina
               medel till andra billigare instrument. De är fria att göra det
               valet.
             </seg>
-            <seg n="322219ef">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-71" prev="i-f7d294475e3ab9cb-68" who="Q3296958">
+            <seg>
               Kapaciteten ska inte vara begränsande för hur många som går igenom
               programmet. Om det finns fler kandidater och om det finns fler
               länsarbetsnämnder som vill satsa på den typen av utbildning för
@@ -797,16 +915,18 @@
               speciellt bra, så konkret i företagen.
             </seg>
           </u>
-          <note type="speaker" n="46df8aaa">
+          <note type="speaker">
             Anf. 11 LUCIANO ASTUDILLO (s):
           </note>
-          <u who="Q4355921" xml:id="i-0041f67923fa28b4-7" n="ea8335fc">
-            <seg n="11299b93">
+          <u xml:id="i-f7d294475e3ab9cb-72" next="i-f7d294475e3ab9cb-75" who="Q4355921">
+            <seg>
               Fru talman! Jag vill tacka ministern för svaret. Mångfalden ger
               många möjligheter, och vi får som sagt inte fastna i bara problembeskrivningen
               av segregationen och utanförskapet.
             </seg>
-            <seg n="6b825be9">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-73" prev="i-f7d294475e3ab9cb-72" who="Q4355921">
+            <seg>
               Jag kommer att ta med mig en del saker från det här samtalet.
               Det första är att IFS efter 2004 kommer att få stöd. Jag kommer
               också att försöka kommunicera ut att så många som 80 % av dem
@@ -814,7 +934,9 @@
               arbete i de företag där de praktiserat, vilket är en mycket hög
               siffra om man jämför med all annan arbetsmarknadspolitisk utbildning.
             </seg>
-            <seg n="1ac4e03a">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-74" prev="i-f7d294475e3ab9cb-72" who="Q4355921">
+            <seg>
               Vi måste bli bättre på att ta vara på den utbildning och de erfarenheter
               som människor har med sig när de kommer till Sverige. Vi måste
               vara mycket mer kreativa när det gäller att ta vara på människors
@@ -823,7 +945,9 @@
               värld är det en enorm resurs att kunna kommunicera med övriga
               världen på hela 150 olika språk.
             </seg>
-            <seg n="e4b0aa8b">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-75" prev="i-f7d294475e3ab9cb-72" who="Q4355921">
+            <seg>
               Jag ser också fram emot en ökad kontakt med näringslivet. Det
               gäller att verkligen uppmuntra och uppmana dem att ta vara på
               denna enorma resurs. Jag känner att där finns mycket att göra.
@@ -832,11 +956,11 @@
               utbildning och kunskap.
             </seg>
           </u>
-          <note type="speaker" n="c9796c38">
+          <note type="speaker">
             Anf. 12 Näringsminister LEIF PAGROTSKY (s):
           </note>
-          <u who="Q3296958" xml:id="i-d134d969dfefc2e1-0" n="50576795" next="i-c5e54d4c81c29f59-0">
-            <seg n="2373648d">
+          <u xml:id="i-f7d294475e3ab9cb-76" next="i-f7d294475e3ab9cb-81" who="Q3296958">
+            <seg>
               Fru talman! Jag vill ytterligare förstärka det som Luciano Astudillo
               säger genom att lyfta fram ett förhållande som inte är så väl
               känt. Två av de tre marknader där vår export växer allra snabbast
@@ -850,7 +974,9 @@
               en resurs som tillför tillväxt, jobb, kunder, marknader, efterfrågan
               och inte som ett problem som behöver lösas.
             </seg>
-            <seg n="54edef1e">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-77" prev="i-f7d294475e3ab9cb-76" who="Q3296958">
+            <seg>
               Mitt problem här har varit att vi i Sverige och i det svenska
               näringslivet inte varit tillräckligt bra på att dra nytta av den
               här resursen för egen del. Vi har hållit på att skjuta oss i fötterna
@@ -859,7 +985,9 @@
               tekniker och ekonomer som har kunnat spanska, arabiska eller andra
               språk.
             </seg>
-            <seg n="100b6954">
+          </u>
+          <u xml:id="i-f7d294475e3ab9cb-78" prev="i-f7d294475e3ab9cb-76" who="Q3296958">
+            <seg>
               En av hemligheterna med framgångarna för exportsäljarprogrammet
               är att det har vänt sig till människor som redan har en bra utbildning,
               men som med en marknadsförings- och försäljningspåbyggnad kan
@@ -870,48 +998,52 @@
               näringslivet än vad man gör som till exempel arbetslös eller tillfälliganställd.
             </seg>
           </u>
-          <note n="c8d2bef5">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="af9fd380">
+          <note>
             4 § Hänvisning av ärenden till utskott
           </note>
-          <note n="72fa1093">
+          <note>
             Föredrogs och hänvisades
           </note>
-          <note n="30fa227f">
+          <note>
             5 § Bordläggning
           </note>
-          <note n="15fd2cc9">
+          <note>
             Anmäldes och bordlades
           </note>
-          <note n="8feddb80">
+          <note>
             6 § Anmälan om fråga för skriftligt svar
           </note>
-          <u who="Q3296958" xml:id="i-c5e54d4c81c29f59-0" n="50576795" prev="i-d134d969dfefc2e1-0">
-            <seg n="eceb25ab">
+          <u xml:id="i-f7d294475e3ab9cb-79" prev="i-f7d294475e3ab9cb-76" who="Q3296958">
+            <seg>
               Anmäldes att följande fråga för skriftligt svar framställts
             </seg>
           </u>
-          <note n="45d365ba">
+          <note>
             den 20 februari
           </note>
-          <note n="b1180866">
-            Rigmor Stenmark
-          </note>
-          <note n="0f962cd5">
+          <u xml:id="i-f7d294475e3ab9cb-80" prev="i-f7d294475e3ab9cb-76" who="Q3296958">
+            <seg>
+              Rigmor Stenmark
+            </seg>
+          </u>
+          <note>
             Frågan redovisas i bilaga som fogats till riksdagens snabbprotokoll
             tisdagen den 2 mars.
           </note>
-          <note n="d11ef260">
+          <note>
             7 § Kammaren åtskildes kl. 9.44.
           </note>
-          <note n="3d39d156">
+          <note>
             Förhandlingarna leddes av tredje vice talmannen.
           </note>
-          <note n="a9866355">
-            /Monica Gustafson
-          </note>
+          <u xml:id="i-f7d294475e3ab9cb-81" prev="i-f7d294475e3ab9cb-76" who="Q3296958">
+            <seg>
+              /Monica Gustafson
+            </seg>
+          </u>
         </div>
       </body>
     </text>

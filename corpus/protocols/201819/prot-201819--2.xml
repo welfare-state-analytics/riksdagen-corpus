@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2018</title>
+        <title>Riksdagens protocols 201819</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2018</title>
+          <title>Riksdagens protocols 201819</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -63,54 +60,58 @@
       </front>
       <body>
         <div>
-          <note n="422dff93">
+          <note>
             § 1 Anmälan om ny riksdagsledamot
           </note>
-          <note n="c3661a46">
-            Följande berättelse hade kommit in från Valprövningsnämnden:
-          </note>
-          <note n="6d88e012">
+          <u xml:id="i-07c6269db9397d2d-0" who="unknown">
+            <seg>
+              Följande berättelse hade kommit in från Valprövningsnämnden:
+            </seg>
+          </u>
+          <note>
             Berättelse om granskning av bevis för riksdagsledamot
           </note>
-          <note n="65334bf2">
+          <note>
             Till Valprövningsnämnden har från Valmyndigheten inkommit bevis
             om att Désirée Pethrus (KD) utsetts till ny ledamot av riksdagen
             fr.o.m. den 24 september 2018 sedan Caroline Szyber (KD) avsagt
             sig uppdraget.
           </note>
-          <note n="ce9f18cc">
+          <note>
             Valprövningsnämnden har denna dag granskat beviset för den nya
             ledamoten och därvid funnit att det blivit utfärdat i enlighet
             med 14 kap. 28 § vallagen (2005:837).
           </note>
-          <note n="64c864a5">
-            Helsingfors den 24 september 2018
+          <note>
+            Stockholm den 24 september 2018
           </note>
-          <note n="6d54979d">
+          <note>
             Svante O. Johansson
           </note>
-          <note n="4e4ee960">
+          <note>
             ersättare för ordföranden /Mattias Andersson
           </note>
-          <note n="5aaa3de6">
-            sekreterare
-          </note>
-          <note n="d27f9d63">
+          <u xml:id="i-07c6269db9397d2d-1" who="unknown">
+            <seg>
+              sekreterare
+            </seg>
+          </u>
+          <note>
             § 2 Anmälan om ersättare
           </note>
-          <note n="72f3c932">
+          <note>
             T almannen anmälde att Christian Carlsson (KD) skulle tjänstgöra
             som ersättare för Désirée Pethrus (KD) under tiden för hennes
             ledighet den 24 september – 31 december .
           </note>
-          <note n="08f3c9fb">
+          <note>
             § 3 Statsministeromröstning
           </note>
-          <note type="speaker" n="d21eeb33">
+          <note type="speaker">
             Anf. 1 ULF KRISTERSSON (M):
           </note>
-          <u who="Q1780398" xml:id="i-99c27f6d56683252-0" n="f3c828cb">
-            <seg n="1afa613e">
+          <u xml:id="i-07c6269db9397d2d-2" next="i-07c6269db9397d2d-5" who="Q1780398">
+            <seg>
               Herr talman! I dag ska Sveriges riksdag för första gången genomföra
               den i regeringsformen stadgade obligatoriska statsministeromröstningen.
               Den är ett viktigt uttryck för vår demokrati och för riksdagens
@@ -120,13 +121,17 @@
               den obligatoriska statsministeromröstningen , och som bekräftades
               därefter när riksdagen antog den nya bestämmelsen.
             </seg>
-            <seg n="0dd6ee82">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-3" prev="i-07c6269db9397d2d-2" who="Q1780398">
+            <seg>
               Alliansen gav ett tydligt och gemensamt besked till svenska folket
               redan före riksdagsvalet: En röst på ett av våra fyra partier
               är en röst för en ny regering och därmed mot Stefan Löfven som
               statsminister. I dag gör vi efter valet det vi lovade före valet.
             </seg>
-            <seg n="7820b3b2">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-4" prev="i-07c6269db9397d2d-2" who="Q1780398">
+            <seg>
               Den obligatoriska statsministeromröstningen innebär också en
               omröstning huruvida den nyvalda riksdagen tolererar sittande regering.
               För Alliansen är det uppenbart att Sverige behöver en ny politisk
@@ -134,7 +139,9 @@
               är mindre än en tredjedel har väljarna markerat slutet för den
               sittande regeringen.
             </seg>
-            <seg n="1cc80cbe">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-5" prev="i-07c6269db9397d2d-2" who="Q1780398">
+            <seg>
               Alliansen tror på Sverige, och vi är övertygade om att även svåra
               problem kan lösas. Det har Sverige nämligen gjort förut. Men det
               kräver en ny regering som kan ta ut en ny kurs som både tar tag
@@ -142,19 +149,19 @@
               ödmjukt inför de parlamentariska realiteterna söker brett politiskt
               stöd för långsiktiga reformer som bygger på breda politiska överenskommelser.
             </seg>
-            <seg n="0e291455">
-              Moderaterna, Centerpartiet, Kristdemokraterna och Liberalerna
-              kommer därför att rösta nej till Stefan Löfven.
-            </seg>
-            <seg n="49fd445c">
-              (Applåder)
-            </seg>
           </u>
-          <note type="speaker" n="ef352b45">
+          <note>
+            Moderaterna, Centerpartiet, Kristdemokraterna och Liberalerna
+            kommer därför att rösta nej till Stefan Löfven.
+          </note>
+          <note>
+            (Applåder)
+          </note>
+          <note type="speaker">
             Anf. 2 ANDERS YGEMAN (S):
           </note>
-          <u who="Q3375050" xml:id="i-52593e8a2e2e8244-0" n="51d1d151" next="i-29cc3fbb10cc9095-0">
-            <seg n="e78e7961">
+          <u xml:id="i-07c6269db9397d2d-6" next="i-07c6269db9397d2d-12" who="Q3375050">
+            <seg>
               Herr talman! I valet blev Socialdemokraterna med bred marginal
               riksdagens största parti med 100 mandat i riksdagen. Tillsammans
               med Vänsterpartiet och Miljöpartiet samlar de rödgröna partierna
@@ -162,19 +169,25 @@
               är därmed desamma som före valet. Ingen av dessa två har egen
               majoritet, och Sverigedemokraterna ingår inte i något block.
             </seg>
-            <seg n="50a04967">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-7" prev="i-07c6269db9397d2d-6" who="Q3375050">
+            <seg>
               Det må vara lätt att fälla en statsminister. Det har dock de
               borgerliga partierna undvikit att göra under de fyra senaste åren,
               av en enda anledning: De har inte velat göra sig beroende av Sverigedemokraterna
               för att styra landet.
             </seg>
-            <seg n="882759dd">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-8" prev="i-07c6269db9397d2d-6" who="Q3375050">
+            <seg>
               Vi socialdemokrater föreslog en överenskommelse med de borgerliga
               partierna för att komma överens över blockgränsen inför talmansvalet.
               Vi har också tagit initiativ till samarbete över blockgränsen
               i regeringsfrågan, hittills utan resultat.
             </seg>
-            <seg n="16c5cba5">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-9" prev="i-07c6269db9397d2d-6" who="Q3375050">
+            <seg>
               Det är nu dags att lämna retoriken från valrörelsen bakom oss
               och hantera det faktum som är uppenbart: En statsminister från
               det näst största partiet och det minsta regeringsblocket kommer
@@ -184,7 +197,9 @@
               att välja bort samarbete med dem, och det bör varje anständigt
               demokratiskt parti göra.
             </seg>
-            <seg n="42d5fc51">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-10" prev="i-07c6269db9397d2d-6" who="Q3375050">
+            <seg>
               Stefan Löfven har som statsminister lett Sverige till en ekonomisk
               styrkeposition. Arbetslösheten har pressats ned, och sysselsättningsgraden
               är den högsta som någonsin har uppmätts i något EU-land. Underskott
@@ -192,7 +207,9 @@
               den lägsta sedan 70-talet. Inom vården, skolan och omsorgen har
               över 100 000 fler anställts.
             </seg>
-            <seg n="469bb22f">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-11" prev="i-07c6269db9397d2d-6" who="Q3375050">
+            <seg>
               Stefan Löfven har konsekvent argumenterat för mer samarbete i
               svensk politik. Under hans tid som statsminister har 26 blocköverskridande
               överenskommelser slutits mellan regeringen och olika partier i
@@ -203,7 +220,9 @@
               som prioriterar Sveriges utveckling och stärker sammanhållningen
               i hela landet.
             </seg>
-            <seg n="48dbbd5e">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-12" prev="i-07c6269db9397d2d-6" who="Q3375050">
+            <seg>
               Vi hoppas naturligtvis att statsministern vinner dagens omröstning,
               men även om han faller kommer förhållandena här i kammaren att
               vara desamma. Stefan Löfven är partiledare för det klart största
@@ -213,31 +232,31 @@
               även efter denna omröstning.
             </seg>
           </u>
-          <note n="c3386a69">
+          <note>
             Den socialdemokratiska riksdagsgruppen yrkar på att kammaren
             röstar ja till fortsatt förtroende för Stefan Löfven som statsminister.
           </note>
-          <u who="Q3375050" xml:id="i-29cc3fbb10cc9095-0" n="51d1d151" prev="i-52593e8a2e2e8244-0">
-            <seg n="49fd445c">
-              (Applåder)
-            </seg>
-          </u>
-          <note n="860419bc">
+          <note>
+            (Applåder)
+          </note>
+          <note>
             I detta anförande instämde Teres Lindberg, Lawen Redar och Anders
             Österberg (alla S).
           </note>
-          <note type="speaker" n="544c73ca">
+          <note type="speaker">
             Anf. 3 JIMMIE ÅKESSON (SD):
           </note>
-          <u who="Q518776" xml:id="i-3039c3e1dc81e16d-0" n="841f8e2b">
-            <seg n="01f5feb5">
+          <u xml:id="i-07c6269db9397d2d-13" next="i-07c6269db9397d2d-20" who="Q518776">
+            <seg>
               Herr talman! Ärade riksdagsledamöter! Valet är över, och valresultatet
               gav oss ett antal signaler. Den kanske allra tydligaste signalen
               av alla var att väljarna i vårt land vill ha en annan regering.
               Den regering som vi har i dag samlar knappt en tredjedel av väljarstödet,
               och det är inte tillräckligt för att regera landet.
             </seg>
-            <seg n="8c918a60">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-14" prev="i-07c6269db9397d2d-13" who="Q518776">
+            <seg>
               Vi har under den gångna mandatperioden gjort åtskilliga försök
               att avsätta statsminister Stefan Löfven och att fälla hans regering.
               Under alla dessa försök har den övriga oppositionen valt att sitta
@@ -245,13 +264,17 @@
               att vi nu äntligen efter fyra år ges denna möjlighet att rösta
               bort Stefan Löfven.
             </seg>
-            <seg n="900ee44b">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-15" prev="i-07c6269db9397d2d-13" who="Q518776">
+            <seg>
               Frågan är vad som händer sedan. Blir det ändå, trots detta, samma
               sak i ytterligare fyra år? Det vet vi inte. Jag avundas inte herr
               talman nen, som får uppdraget att försöka lotsa partierna och
               partiledarna igenom förhandlingarna som nu kommer att vidta.
             </seg>
-            <seg n="fd2d6a02">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-16" prev="i-07c6269db9397d2d-13" who="Q518776">
+            <seg>
               En sak är säker: Mer än 1 miljon väljare i Sverige röstade på
               Sverigedemokraterna. Det är riktigt att vi inte tillhör något
               block. Vi tillhör inte vänstern, och vi tillhör inte högern. Vi
@@ -261,7 +284,9 @@
               bevaka våra väljares intressen. Det är egentligen den lojalitet
               vi har gentemot våra väljare.
             </seg>
-            <seg n="929e940f">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-17" prev="i-07c6269db9397d2d-13" who="Q518776">
+            <seg>
               Vi har en pragmatisk utgångspunkt – jag vill betona det. Det
               har vi haft i åtta år i kammaren. Vi är beredda att samtala med
               alla, och vi är beredda att förhandla med alla. Vi är beredda
@@ -270,7 +295,9 @@
               som bygger på förhandling. Vi är beredda att bidra till ett stabilt
               styre av landet.
             </seg>
-            <seg n="c5aac634">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-18" prev="i-07c6269db9397d2d-13" who="Q518776">
+            <seg>
               Samtidigt vill jag vara tydlig med att vi inte kommer att sätta
               oss på läktaren och att vi inte kommer att sätta oss i knät på
               vare sig den ena eller den andra. Vi kommer att göra vårt yttersta
@@ -279,33 +306,39 @@
               fälla varje regering som inte ger oss ett rimligt inflytande i
               rimlig proportion till vårt väljarstöd. Det är min utgångspunkt.
             </seg>
-            <seg n="2106c030">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-19" prev="i-07c6269db9397d2d-13" who="Q518776">
+            <seg>
               Jag står här, jag är beredd att samtala och jag är beredd att
               förhandla.
             </seg>
-            <seg n="283626b4">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-20" prev="i-07c6269db9397d2d-13" who="Q518776">
+            <seg>
               Alldeles oavsett hur övriga i församlingen ställer sig till denna
               inbjudan tas ett viktigt steg nu, åtminstone vad gäller min grupp
               i riksdagen. Vi kommer att rösta nej till Stefan Löfven som statsminister.
             </seg>
-            <seg n="49fd445c">
-              (Applåder)
-            </seg>
           </u>
-          <note n="e8e935a1">
+          <note>
+            (Applåder)
+          </note>
+          <note>
             I detta anförande instämde Paula Bieler, Josef Fransson, David
             Lång, Adam Marttinen, Robert Stenkvist, Jimmy Ståhl och Markus
             Wiechel (alla SD).
           </note>
-          <note type="speaker" n="e0c96fbf">
+          <note type="speaker">
             Anf. 4 MIA SYDOW MÖLLEBY (V):
           </note>
-          <u who="Q4981668" xml:id="i-ae6399666e734716-0" n="25319f24">
-            <seg n="ade37193">
+          <u xml:id="i-07c6269db9397d2d-21" next="i-07c6269db9397d2d-24" who="Q4981668">
+            <seg>
               Herr talman! För Vänsterpartiet är detta enkelt. Det är, som
               det har sagts tidigare, mycket en fråga om matematik.
             </seg>
-            <seg n="dbceef62">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-22" prev="i-07c6269db9397d2d-21" who="Q4981668">
+            <seg>
               Sittande statsminister Stefan Löfven representerar det regeringsunderlag
               som har flest mandat i riksdagen. Vänsterpartiet ingår i Stefan
               Löfvens regeringsunderlag. Vi är beredda att sitta med i regeringen
@@ -315,11 +348,15 @@
               avgiftsfria mediciner och glasögon till barn. Varje steg som kan
               leda till ökad rättvisa är vi villiga att ta.
             </seg>
-            <seg n="392a3462">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-23" prev="i-07c6269db9397d2d-21" who="Q4981668">
+            <seg>
               Väljarna har sagt sitt, och även i årets val har det rödgröna
               regeringsunderlaget fått det största stödet.
             </seg>
-            <seg n="021bbad5">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-24" prev="i-07c6269db9397d2d-21" who="Q4981668">
+            <seg>
               Eftersom det är Stefan Löfven som har störst regeringsunderlag
               är det också han som har störst möjlighet att även fortsättningsvis
               få igenom sin budget. Nu är alltså flera partier här beredda att
@@ -327,23 +364,25 @@
               Vi anser att det är djupt oansvarigt. Vänsterpartiet kommer därför
               att rösta ja för att Stefan Löfven ska sitta kvar som statsminister.
             </seg>
-            <seg n="49fd445c">
-              (Applåder)
-            </seg>
           </u>
-          <note n="aacc6c19">
+          <note>
+            (Applåder)
+          </note>
+          <note>
             I detta anförande instämde Nooshi Dadgostar och Ali Esbati (båda
             V).
           </note>
-          <note type="speaker" n="a24520cc">
+          <note type="speaker">
             Anf. 5 MARIA FERM (MP):
           </note>
-          <u who="Q4947860" xml:id="i-953519eceea0c7c2-0" n="fb3208ec" next="i-ffb4aad538ad11f8-0">
-            <seg n="6cd146b0">
+          <u xml:id="i-07c6269db9397d2d-25" next="i-07c6269db9397d2d-32" who="Q4947860">
+            <seg>
               Herr talman! Nu ska vi alltså enligt regeringsformen pröva om
               riksdagen har förtroende för statsministern.
             </seg>
-            <seg n="ea6de79c">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-26" prev="i-07c6269db9397d2d-25" who="Q4947860">
+            <seg>
               Miljöpartiet har samarbetat i en rödgrön regering med Stefan
               Löfven som statsminister under fyra år. Ekonomin har stärkts,
               arbetslösheten har minskat och klimatinvesteringarna har förstärkts
@@ -351,11 +390,15 @@
               första fossilfria välfärdsnation. Vi har genomfört en kraftfull
               klimatpolitik, som är en start på en helt nödvändig grön omställning.
             </seg>
-            <seg n="c998d8d3">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-27" prev="i-07c6269db9397d2d-25" who="Q4947860">
+            <seg>
               Vi kommer inte att ge Sverigedemokraterna inflytande över politiken.
               Vi står för anständighet.
             </seg>
-            <seg n="fef31f4b">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-28" prev="i-07c6269db9397d2d-25" who="Q4947860">
+            <seg>
               Det är bra att denna prövning görs. Eftersom valresultatet gör
               det tydligt att nuvarande regeringsunderlag är det alternativ
               som har störst stöd hos svenska folket kommer Miljöpartiet att
@@ -363,7 +406,9 @@
               Löfven. Vi vill att den nuvarande regeringen fortsätter, gärna
               med ett breddat stöd hos andra partier.
             </seg>
-            <seg n="11ef0079">
+          </u>
+          <u xml:id="i-07c6269db9397d2d-29" prev="i-07c6269db9397d2d-25" who="Q4947860">
+            <seg>
               Ordet parlament kommer från det franska ordet för samtal. Nu
               måste vi börja prata med varandra på riktigt. Det är dags att
               ta gemensamt ansvar för att samtala om en regering över de förlegade
@@ -372,161 +417,165 @@
               valet. Miljöpartiet kommer därför att rösta ja till frågan om
               statsministern har stöd.
             </seg>
-            <seg n="49fd445c">
-              (Applåder)
-            </seg>
           </u>
-          <note n="aa3d8593">
+          <note>
+            (Applåder)
+          </note>
+          <note>
             I detta anförande instämde Jonas Eriksson, Annika Hirvonen Falk,
             Emma Hult, Rasmus Ling och Anna Sibinska (alla MP).
           </note>
-          <note n="e82c9c6f">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="3ee21043">
+          <note>
             Beslut
           </note>
-          <note n="dd3015ba">
+          <note>
             I 6 kap. 3 § regeringsformen föreskrevs att en nyvald riksdag
             senast två veckor efter det att den hade samlats skulle pröva
             frågan om statsministern hade tillräckligt stöd i riksdagen. Om
             mer än hälften av riksdagens ledamöter röstade nej skulle statsministern
             entledigas.
           </note>
-          <u who="Q4947860" xml:id="i-ffb4aad538ad11f8-0" n="fb3208ec" prev="i-953519eceea0c7c2-0">
-            <seg n="01384ede">
-              Beslutet skulle fattas genom omröstning.
-            </seg>
-            <seg n="fe03a97f">
-              Talmannen konstaterade att mer än hälften av riksdagens ledamöter
-              hade röstat nej och att statsministern därmed skulle entledigas.
-            </seg>
-            <seg n="65f78065">
-              EU-dokument
-            </seg>
-            <seg n="38ef2928">
-              Åttaveckorsfristen för att avge ett motiverat yttrande skulle
-              gå ut den 5 november .
-            </seg>
-            <seg n="b22ae9d6">
-              Anf. 5 MARIA FERM (MP)
-            </seg>
-          </u>
-          <note n="0f366f7c">
+          <note>
+            Beslutet skulle fattas genom omröstning.
+          </note>
+          <note>
             Votering:
           </note>
-          <note n="a0813f7f">
+          <note>
             142 ja
           </note>
-          <note n="3331d9ac">
+          <note>
             204 nej
           </note>
-          <note n="f752f44e">
+          <note>
             3 frånvarande
           </note>
-          <note n="d95cecdc">
+          <note>
+            Talmannen konstaterade att mer än hälften av riksdagens ledamöter
+            hade röstat nej och att statsministern därmed skulle entledigas.
+          </note>
+          <note>
             Partivis fördelning av rösterna:
           </note>
-          <note n="50ef86eb">
+          <note>
             För ja: 100 S, 27 V, 15 MP
           </note>
-          <note n="2eb0af01">
+          <note>
             För nej: 70 M, 62 SD, 30 C, 22 KD, 20 L
           </note>
-          <note n="c030f518">
+          <note>
             Frånvarande: 1 C, 1 V, 1 MP
           </note>
-          <note n="eef788e1">
+          <note>
             Leila Ali-Elmi (MP) anmälde att hon avsett att rösta ja men markerats
             som frånvarande.
           </note>
-          <note n="2f0204ce">
+          <note>
             § 4 Ärenden för hänvisning till utskott
           </note>
-          <note n="f56f270d">
+          <note>
             Följande dokument hänvisades till utskott:
           </note>
-          <note n="97cde405">
+          <note>
             Propositioner
           </note>
-          <note n="75da8003">
+          <note>
             2017/18:257 och 302 till justitieutskottet
           </note>
-          <note n="360f299c">
+          <note>
             2017/18:291, 292 och 301 till finansutskottet
           </note>
-          <note n="897a5ce6">
+          <note>
             2017/18:294, 295 och 296 till skatteutskottet
           </note>
-          <note n="0d96584a">
+          <note>
             2017/18:298 till utbildningsutskottet
           </note>
-          <note n="88975cb7">
+          <note>
             2017/18:299 till trafikutskottet
           </note>
-          <note n="95d70270">
+          <note>
             Skrivelser
           </note>
-          <note n="c4fdef33">
+          <note>
             2017/18:283 till försvarsutskottet
           </note>
-          <note n="c6d30356">
+          <note>
             2017/18:293, 297 och 300 till finansutskottet
           </note>
-          <note n="47285168">
+          <u xml:id="i-07c6269db9397d2d-30" prev="i-07c6269db9397d2d-25" who="Q4947860">
+            <seg>
+              EU-dokument
+            </seg>
+          </u>
+          <note>
             COM(2018) 614 till näringsutskottet
           </note>
-          <note n="5e4dd478">
+          <u xml:id="i-07c6269db9397d2d-31" prev="i-07c6269db9397d2d-25" who="Q4947860">
+            <seg>
+              Åttaveckorsfristen för att avge ett motiverat yttrande skulle
+              gå ut den 5 november .
+            </seg>
+          </u>
+          <note>
             § 5 Kammaren åtskildes kl. 9.47.
           </note>
-          <note n="c0b7a31d">
+          <note>
             Sammanträdet leddes av talmannen .
           </note>
-          <note n="f20b9f16">
+          <note>
             Vid protokollet
           </note>
-          <note n="8b21ec98">
+          <note>
             INGVAR MATTSON
           </note>
-          <note n="84ffc1c5">
+          <note>
             /Olof Pilo
           </note>
-          <note n="4cc3dc7c">
+          <note>
             Innehållsförteckning
           </note>
-          <note n="422dff93">
+          <note>
             § 1 Anmälan om ny riksdagsledamot
           </note>
-          <note n="d27f9d63">
+          <note>
             § 2 Anmälan om ersättare
           </note>
-          <note n="08f3c9fb">
+          <note>
             § 3 Statsministeromröstning
           </note>
-          <note n="fd0900d1">
+          <note>
             Anf. 1 ULF KRISTERSSON (M)
           </note>
-          <note n="064d2ba2">
+          <note>
             Anf. 2 ANDERS YGEMAN (S)
           </note>
-          <note n="0286cd9c">
+          <note>
             Anf. 3 JIMMIE ÅKESSON (SD)
           </note>
-          <note n="eab3714b">
+          <note>
             Anf. 4 MIA SYDOW MÖLLEBY (V)
           </note>
-          <note n="3ee21043">
+          <note>
+            Anf. 5 MARIA FERM (MP)
+          </note>
+          <note>
             Beslut
           </note>
-          <note n="2f0204ce">
+          <note>
             § 4 Ärenden för hänvisning till utskott
           </note>
-          <note n="5e4dd478">
+          <note>
             § 5 Kammaren åtskildes kl. 9.47.
           </note>
-          <note n="710d9fa0">
-            Tryck: Elanders Sverige AB, Vällingby 2018
-          </note>
+          <u xml:id="i-07c6269db9397d2d-32" prev="i-07c6269db9397d2d-25" who="Q4947860">
+            <seg>
+              Tryck: Elanders Sverige AB, Vällingby 2018
+            </seg>
+          </u>
         </div>
       </body>
     </text>

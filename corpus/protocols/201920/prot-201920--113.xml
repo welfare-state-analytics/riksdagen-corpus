@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2019</title>
+        <title>Riksdagens protocols 201920</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2019</title>
+          <title>Riksdagens protocols 201920</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -63,20 +60,22 @@
       </front>
       <body>
         <div>
-          <note n="2460eaaa">
+          <note>
             § 1 Återrapportering från informellt möte med EU:s stats- och
             regeringschefer
           </note>
-          <note type="speaker" n="925a09a9">
+          <note type="speaker">
             Anf. 1 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-b3f47a1b7c03003b-0" n="f3961c67">
-            <seg n="0571b18c">
+          <u xml:id="i-df5656da991934ba-0" next="i-df5656da991934ba-11" who="Q2740012">
+            <seg>
               Fru talman! I torsdags träffades vi åter i kretsen av EU:s stats-
               och regeringschefer över en videolänk för att diskutera hanteringen
               av coronakrisen.
             </seg>
-            <seg n="e85f52b1">
+          </u>
+          <u xml:id="i-df5656da991934ba-1" prev="i-df5656da991934ba-0" who="Q2740012">
+            <seg>
               Coronaepidemin har ju slagit till mot hela Europa. Några länder
               är värre utsatta än andra, men å andra sidan har vi inte sett
               slutet ännu. Våra ekonomier drabbas hårt, och prognoserna pekar
@@ -85,7 +84,9 @@
               och medicinsk utrustning på många håll, vilket har gjort det svårare
               att omfördela och bistå varandra.
             </seg>
-            <seg n="b9baf198">
+          </u>
+          <u xml:id="i-df5656da991934ba-2" prev="i-df5656da991934ba-0" who="Q2740012">
+            <seg>
               Fru talman! Ett välfungerande EU är avgörande för svensk ekonomi,
               för våra jobb och för vår välfärd. Med ett sammanhållet och handlingskraftigt
               EU kan vi bekämpa klimatförändringarna mer effektivt och vara
@@ -95,7 +96,9 @@
               EU ska förbereda oss för att, när situationen så medger, kunna
               återgå till normalt fungerande ekonomier.
             </seg>
-            <seg n="c7ced184">
+          </u>
+          <u xml:id="i-df5656da991934ba-3" prev="i-df5656da991934ba-0" who="Q2740012">
+            <seg>
               EU har redan vidtagit åtgärder för att stötta medlemsländerna
               ekonomiskt och för att få de ekonomiska hjulen att snurra igen.
               Finansminis ­ trarna kunde till exempel den 9 april enas om ett
@@ -104,13 +107,17 @@
               in, inte minst för att stötta de länder som drabbats värst. Det
               här är åtgärder som saknar motstycke.
             </seg>
-            <seg n="edacec00">
+          </u>
+          <u xml:id="i-df5656da991934ba-4" prev="i-df5656da991934ba-0" who="Q2740012">
+            <seg>
               Finansministrarna kom också överens om att arbeta vidare med
               en återhämtningsfond men ville här få ytterligare vägledning från
               stats- och regeringscheferna. Det var därför i huvudsak den frågan
               som avhandlades på vårt möte i torsdags.
             </seg>
-            <seg n="8275005d">
+          </u>
+          <u xml:id="i-df5656da991934ba-5" prev="i-df5656da991934ba-0" who="Q2740012">
+            <seg>
               Mötet föregicks av en livlig, i många delar offentlig, diskussion
               om just återhämtningsfonden. Vissa menar att grunden ska utgöras
               av en gemensam skuldsättning, där medlemsstaterna fullt ut garanterar
@@ -119,7 +126,9 @@
               starkt en sådan gemensam skuldsättning och vill att fonden baseras
               på lån och inte bidrag.
             </seg>
-            <seg n="662c87f1">
+          </u>
+          <u xml:id="i-df5656da991934ba-6" prev="i-df5656da991934ba-0" who="Q2740012">
+            <seg>
               Vid mötet antogs inte några gemensamma slutsatser, utan medlemsstaterna
               upprepade i stor utsträckning redan kända ståndpunkter. För att
               kom ­ ma vidare enades vi i stället om att kommissionen nu först
@@ -127,21 +136,27 @@
               geografiskt och sektorsvis, och därefter inom kort komma med ett
               konkret förslag.
             </seg>
-            <seg n="2e21fa89">
+          </u>
+          <u xml:id="i-df5656da991934ba-7" prev="i-df5656da991934ba-0" who="Q2740012">
+            <seg>
               Jag framförde tillsammans med våra likasinnade länder, alltså
               Danmark, Österrike och Nederländerna, de krav som vi ställer på
               den här fonden. Den ska vara begränsad i både tid och omfång,
               det ska vara lån och inte bidrag och den ska leva upp till högt
               ställda krav på effektivitet och återbetalning från låntagare.
             </seg>
-            <seg n="61e020c8">
+          </u>
+          <u xml:id="i-df5656da991934ba-8" prev="i-df5656da991934ba-0" who="Q2740012">
+            <seg>
               Jag och många andra betonade också vikten av att bygga vidare
               och respektera den inre marknaden. Det är den som är nyckeln för
               att våra ekonomier ska fungera. Inga räddningspaket eller fonder
               i världen kan ersätta att varor och tjänster kan flöda fritt i
               EU.
             </seg>
-            <seg n="daea32f2">
+          </u>
+          <u xml:id="i-df5656da991934ba-9" prev="i-df5656da991934ba-0" who="Q2740012">
+            <seg>
               Fru talman! Kommissionen kommer nu, som sagt, att ta fram ett
               för ­ slag som enligt uppgift ska presenteras den 6 maj. Samma
               dag ska också ett reviderat förslag till långtidsbudget presenteras.
@@ -154,7 +169,9 @@
               kommer att äga rum som planerat den 6 maj. Även det mötet blir
               via video ­ länk.
             </seg>
-            <seg n="bdcb0e0c">
+          </u>
+          <u xml:id="i-df5656da991934ba-10" prev="i-df5656da991934ba-0" who="Q2740012">
+            <seg>
               Fru talman! Det är viktigt att EU står enat i att hantera krisen
               och naturligtvis att hjälpa de värst drabbade länderna. Sverige
               ska fortsätta att göra sitt för att bidra till sammanhållningen
@@ -167,30 +184,38 @@
               var, helt avgörande för den svenska ekonomin, för jobben, för
               välfärden men också för säkerheten och klimatet.
             </seg>
-            <seg n="6947ff29">
+          </u>
+          <u xml:id="i-df5656da991934ba-11" prev="i-df5656da991934ba-0" who="Q2740012">
+            <seg>
               Med detta avslutar jag återrapporten från torsdagens möte.
             </seg>
           </u>
-          <note type="speaker" n="78d5bf10">
+          <note type="speaker">
             Anf. 2 JESSIKA ROSWALL (M):
           </note>
-          <u who="Q4984640" xml:id="i-a182d48739233252-0" n="7555a0e7">
-            <seg n="fe5713d0">
+          <u xml:id="i-df5656da991934ba-12" next="i-df5656da991934ba-18" who="Q4984640">
+            <seg>
               Fru talman! Tack, statsministern, för återrapporten!
             </seg>
-            <seg n="7af29e6f">
+          </u>
+          <u xml:id="i-df5656da991934ba-13" prev="i-df5656da991934ba-12" who="Q4984640">
+            <seg>
               Vi är ju fortfarande mitt uppe i pandemin och kan bara skönja
               vad krisen kommer att få för effekter. I första hand handlar det
               fortfarande om att stoppa spridningen såklart.
             </seg>
-            <seg n="7974b11d">
+          </u>
+          <u xml:id="i-df5656da991934ba-14" prev="i-df5656da991934ba-12" who="Q4984640">
+            <seg>
               Tyvärr har vi sett i den här krisen att många länder inte har
               reagerat så sunt som vi tycker att de borde göra. Tio länder inom
               EU har fortfarande handelshinder, och det är helt oacceptabelt.
               Vi har också sett en oroande utveckling i flera länder. Jag tänker
               på Ungern och Polen, som inte respekterar våra grundläggande värderingar.
             </seg>
-            <seg n="e7da7698">
+          </u>
+          <u xml:id="i-df5656da991934ba-15" prev="i-df5656da991934ba-12" who="Q4984640">
+            <seg>
               Det var inte för inte som jag, ordföranden i EU-nämnden, Åsa
               Westlund, och även förste vice ordföranden, Annika Qarlsson, på
               det öppna sammanträdet förra veckan använde ord som provocerande
@@ -200,7 +225,9 @@
               länder som tar tillfället i akt att inte respektera rättsstatens
               principer.
             </seg>
-            <seg n="d53ee7e8">
+          </u>
+          <u xml:id="i-df5656da991934ba-16" prev="i-df5656da991934ba-12" who="Q4984640">
+            <seg>
               Med detta sagt låter det ändå som att det här mötet förflöt ganska
               lugnt. Men låt oss vara ärliga med att de nästkommande mötena
               kanske inte kommer att vara lika lugna. Mycket av det som rapporterades
@@ -208,13 +235,17 @@
               att den kommer att ge effekt, men man kan ju vara orolig över
               att det inte blir så.
             </seg>
-            <seg n="2811291a">
+          </u>
+          <u xml:id="i-df5656da991934ba-17" prev="i-df5656da991934ba-12" who="Q4984640">
+            <seg>
               EU är viktigt för svensk ekonomi. Vi är beroende av EU och att
               det fungerar, och det är bra att vi har en gemensam plan. Men
               vi måste också påminna om att Sverige har sparat i ladorna för
               att klara sådana här kriser, och det har inte alla andra gjort.
             </seg>
-            <seg n="794975e7">
+          </u>
+          <u xml:id="i-df5656da991934ba-18" prev="i-df5656da991934ba-12" who="Q4984640">
+            <seg>
               Nu sa statsministern att det handlade om att ta ytterligare vägledning
               när han lyssnade runt på vad de andra statscheferna sa. Men jag
               undrar vad bedömningen är från Sverige. Kommer återhämtningsfonden
@@ -224,11 +255,11 @@
               kommer att innehålla?
             </seg>
           </u>
-          <note type="speaker" n="db06b158">
+          <note type="speaker">
             Anf. 3 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-b3f47a1b7c03003b-1" n="f3961c67">
-            <seg n="65ba19f4">
+          <u xml:id="i-df5656da991934ba-19" next="i-df5656da991934ba-23" who="Q2740012">
+            <seg>
               Fru talman! Jag delar först och främst uppfattningen att det
               vi alla jobbar med är hur man hindrar smittan så mycket som det
               någonsin går, men det får inte innebära de handelshinder som vi
@@ -237,26 +268,34 @@
               aktiva länderna för att ta bort införda handelshinder. Som nämndes
               är det ett tiotal som har handelshinder kvar.
             </seg>
-            <seg n="9cc5e2d3">
+          </u>
+          <u xml:id="i-df5656da991934ba-20" prev="i-df5656da991934ba-19" who="Q2740012">
+            <seg>
               Vi har lyckats bilateralt, inte minst vad gäller transporter
               från Tyskland och Frankrike men det är ju enstaka fall. Vi behöver
               göra mer för att se till att den inre marknaden fungerar. Som
               jag sa i återrapporten är det där tyngdpunkten ligger för vårt
               samarbete, inte på enstaka paket.
             </seg>
-            <seg n="98001780">
+          </u>
+          <u xml:id="i-df5656da991934ba-21" prev="i-df5656da991934ba-19" who="Q2740012">
+            <seg>
               Likaså vad gäller värderingarna stöder Sverige kommissionen fullt
               ut i de undersökningar som man gör och i de positioner som EU
               faktiskt ska stå för på riktigt. Det sätt på vilket länder agerar
               ibland måste påtalas, och det måste finnas en gräns.
             </seg>
-            <seg n="ee995f15">
+          </u>
+          <u xml:id="i-df5656da991934ba-22" prev="i-df5656da991934ba-19" who="Q2740012">
+            <seg>
               Det gäller också i diskussionen om den framtida långtidsbudgeten.
               Vi har från första början fört fram linjen att det också handlar
               om att stå upp för EU:s värderingar. Ska man ta emot stöd från
               EU får man lov att stå upp för våra värderingar.
             </seg>
-            <seg n="3e9902b9">
+          </u>
+          <u xml:id="i-df5656da991934ba-23" prev="i-df5656da991934ba-19" who="Q2740012">
+            <seg>
               Vad gäller återhämtningsfonden delar jag uppfattningen att det
               är nu det svåra börjar. Nu antogs inga slutsatser, men som jag
               sa i återrapporten är det många som menar att detta ska vara bidrag,
@@ -267,46 +306,54 @@
               drabba Sverige.
             </seg>
           </u>
-          <note type="speaker" n="a242a3bb">
+          <note type="speaker">
             Anf. 4 JESSIKA ROSWALL (M):
           </note>
-          <u who="Q4984640" xml:id="i-a182d48739233252-1" n="7555a0e7">
-            <seg n="cd806a42">
+          <u xml:id="i-df5656da991934ba-24" next="i-df5656da991934ba-27" who="Q4984640">
+            <seg>
               Fru talman! Tack, statsministern, för svaret!
             </seg>
-            <seg n="703e7bbb">
+          </u>
+          <u xml:id="i-df5656da991934ba-25" prev="i-df5656da991934ba-24" who="Q4984640">
+            <seg>
               Churchill sa ju: Never waste a good crisis. Låt oss hoppas att
               det kommer att bli det. Statsministern nämnde långtidsbudgeten,
               och jag hoppas att detta kommer att leda till en modern budget
               och förhoppningsvis också en djupare inre marknad – jag är kanske
               inte alltför hoppfull, men jag hoppas det.
             </seg>
-            <seg n="c3e533a7">
+          </u>
+          <u xml:id="i-df5656da991934ba-26" prev="i-df5656da991934ba-24" who="Q4984640">
+            <seg>
               Vid det öppna mötet förra veckan lyfte jag upp strategin att
               lyfta restriktionerna med anledning av covid-19, och det gjorde
               också statsminis ­ tern alldeles nyss. Jag tog också upp vikten
               av att vi har ett gemensamt uppdrag att samla data och öka antalet
               tester. Här är Sverige, som jag också sa då, sämst i Norden.
             </seg>
-            <seg n="ad5bf1e6">
+          </u>
+          <u xml:id="i-df5656da991934ba-27" prev="i-df5656da991934ba-24" who="Q4984640">
+            <seg>
               Nu sa statsministern att det fanns ett stöd för ”roadmappen”,
               men hur gick diskussionen? Och vad sa Sverige kring att vi också
               skulle ta vårt ansvar och öka antalet tester? Det behöver vi göra
               för att kunna släppa restriktionerna och ha en plan för det.
             </seg>
           </u>
-          <note type="speaker" n="b61f1b32">
+          <note type="speaker">
             Anf. 5 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-b3f47a1b7c03003b-2" n="f3961c67">
-            <seg n="661c0c71">
+          <u xml:id="i-df5656da991934ba-28" next="i-df5656da991934ba-29" who="Q2740012">
+            <seg>
               Fru talman! När det först gäller diskussionen om MFF driver vi
               på för att se till att vi får en modernare budget. Nu har vi dock
               ett helt nytt narrativ i och med krisen, och det blir nog en förnyad
               diskussion om det. Vi står dock fast vid precis den ordning vi
               har.
             </seg>
-            <seg n="3d0d2540">
+          </u>
+          <u xml:id="i-df5656da991934ba-29" prev="i-df5656da991934ba-28" who="Q2740012">
+            <seg>
               När det gäller att lyfta restriktionerna kring covid-19 tar ”roadmappen”
               fasta på bland annat det: Det ska utgå från det epidemiologiska
               perspektivet, och man ska göra det koordinerat. Det innebär också
@@ -317,17 +364,19 @@
               i en rejäl volym. Naturligtvis ska vi göra vår del.
             </seg>
           </u>
-          <note type="speaker" n="89dcf1ae">
+          <note type="speaker">
             Anf. 6 LUDVIG ASPLING (SD):
           </note>
-          <u who="Q71131688" xml:id="i-55c1dc386fb09b3e-0" n="a0047df8">
-            <seg n="12f7607d">
+          <u xml:id="i-df5656da991934ba-30" next="i-df5656da991934ba-35" who="Q71131688">
+            <seg>
               Fru talman! Under den här krisen har statsministern ofta, med
               all rätt, påpekat att andra medlemsstater inte följer unionens
               regler. Jag skulle vilja ställa en kort fråga om det ur ett lite
               bredare perspektiv.
             </seg>
-            <seg n="4c648392">
+          </u>
+          <u xml:id="i-df5656da991934ba-31" prev="i-df5656da991934ba-30" who="Q71131688">
+            <seg>
               Artikel 123 i fördraget, den så kallade no bailout-regeln, stadgar
               att unionen aldrig ska överta skuld från medlemsstaterna och artikel
               125 att Europeiska centralbanken inte ska köpa obligationer från
@@ -335,31 +384,39 @@
               strunta i dessa regler och lånade gemensamt upp tusentals miljarder
               kronor för att hjälpa bland annat Grekland.
             </seg>
-            <seg n="b2135098">
+          </u>
+          <u xml:id="i-df5656da991934ba-32" prev="i-df5656da991934ba-30" who="Q71131688">
+            <seg>
               Artikel 126 reglerar det som kallas excessive deficit procedure,
               vilket ska hindra att euroländerna får för stora underskott och
               statsskulder. Reglerna har aldrig använts mot något land, trots
               att ett antal stater strider mot dem systematiskt.
             </seg>
-            <seg n="85e2bc57">
-              Artikel 8 i Schengenkodexen stadgar att medlemsstaterna ska kontrollera
-              vilka som passerar den yttre gränsen och artikel 9 i Eurodacförordningen
-              att de ska ta fingeravtryck på asylsökande. Under migrationskrisen
-              2015 valde flera länder att strunta i detta.
-            </seg>
-            <seg n="29184c0a">
+          </u>
+          <note>
+            Artikel 8 i Schengenkodexen stadgar att medlemsstaterna ska kontrollera
+            vilka som passerar den yttre gränsen och artikel 9 i Eurodacförordningen
+            att de ska ta fingeravtryck på asylsökande. Under migrationskrisen
+            2015 valde flera länder att strunta i detta.
+          </note>
+          <u xml:id="i-df5656da991934ba-33" prev="i-df5656da991934ba-30" who="Q71131688">
+            <seg>
               Artikel 2 i procedurförordningen stadgar att medlemsstaterna
               måste låta asylsökande passera den yttre gränsen. När effekterna
               av denna uppen ­ bart helt vansinniga regel blev omöjliga att
               förneka gav unionen nyligen sitt tysta medgivande till Grekland
               att strunta i regeln.
             </seg>
-            <seg n="fbca29eb">
+          </u>
+          <u xml:id="i-df5656da991934ba-34" prev="i-df5656da991934ba-30" who="Q71131688">
+            <seg>
               Artikel 28 i fördraget stadgar den fria rörligheten för varor.
               Nyligen har dock ett antal länder valt att strunta i den eftersom
               man inte vill dela med sig av sjukvårdsutrustning.
             </seg>
-            <seg n="67607a43">
+          </u>
+          <u xml:id="i-df5656da991934ba-35" prev="i-df5656da991934ba-30" who="Q71131688">
+            <seg>
               Min fråga till statsministern är därför denna: Den rådande politiska
               kulturen inom EU är sådan att man ser regler som valfria. Detta
               är alltså ingenting nytt. Kulturen har byggts upp av de partier
@@ -369,15 +426,17 @@
               för att motverka denna kultur tidigare?
             </seg>
           </u>
-          <note type="speaker" n="8e183e95">
+          <note type="speaker">
             Anf. 7 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-b3f47a1b7c03003b-3" n="f3961c67">
-            <seg n="60dde6aa">
+          <u xml:id="i-df5656da991934ba-36" next="i-df5656da991934ba-40" who="Q2740012">
+            <seg>
               Fru talman! Nu var detta inte uppe till diskussion. Jag har en
               återrapport från det senaste mötet med EU:s regerings- och statschefer.
             </seg>
-            <seg n="a0686ff7">
+          </u>
+          <u xml:id="i-df5656da991934ba-37" prev="i-df5656da991934ba-36" who="Q2740012">
+            <seg>
               Vad gäller gemensam skuldsättning driver vi linjen att det inte
               ska vara någon gemensam skuldsättning. Det är fel incitament.
               Det är mot fördraget, menar vi. Det fråntar de nationella parlamenten
@@ -387,7 +446,9 @@
               flesta nu ser: Det blir ingen sådan mekanism. Motståndet är för
               stort.
             </seg>
-            <seg n="4a9805b5">
+          </u>
+          <u xml:id="i-df5656da991934ba-38" prev="i-df5656da991934ba-36" who="Q2740012">
+            <seg>
               Det diskussionen nog kommer att handla om nu är huruvida det
               ska vara lån eller bidrag från återhämtningsfonden. Där tror jag
               att den stora principiella diskussionen kommer att hamna, och
@@ -397,37 +458,45 @@
               stödja linjen att det i första hand är lån och inte bidrag vi
               ska ge från fonden och att de måste kunna komma alla till del.
             </seg>
-            <seg n="6c60abec">
+          </u>
+          <u xml:id="i-df5656da991934ba-39" prev="i-df5656da991934ba-36" who="Q2740012">
+            <seg>
               Men vi måste också se detta, som jag sa tidigare, inte bara som
               en fond som ska hjälpa andra. Om vi ser till att ha ett ekonomiskt
               stabilt EU kommer också Sverige väl ut ur det. Sverige skulle
               förlora enormt mycket på att ha ett instabilt EU där några länder
               kommer i rejäl kläm och får svårigheter.
             </seg>
-            <seg n="13279b90">
+          </u>
+          <u xml:id="i-df5656da991934ba-40" prev="i-df5656da991934ba-36" who="Q2740012">
+            <seg>
               Vi ska komma ihåg att ungefär 70 procent av vår export går till
               denna marknad. Vi är helt beroende av den. Detta är en blandning,
               en balans mellan hjälp och självhjälp, med de restriktioner som
               vi har satt upp. Det tänker vi fortsätta att driva.
             </seg>
           </u>
-          <note type="speaker" n="116ff148">
+          <note type="speaker">
             Anf. 8 LUDVIG ASPLING (SD):
           </note>
-          <u who="Q71131688" xml:id="i-55c1dc386fb09b3e-1" n="a0047df8">
-            <seg n="47ed3109">
+          <u xml:id="i-df5656da991934ba-41" next="i-df5656da991934ba-43" who="Q71131688">
+            <seg>
               Fru talman! Jag är helt enig om att gemensam skuldsättning strider
               mot fördraget. Det har dock inte stoppat unionen förut. Det var
               det som var poängen med mitt första inlägg.
             </seg>
-            <seg n="72fe2f29">
+          </u>
+          <u xml:id="i-df5656da991934ba-42" prev="i-df5656da991934ba-41" who="Q71131688">
+            <seg>
               Angående fonden har von der Leyen tydligen uttalat sig ungefär
               så här: Den ska bestå av en sund balans mellan bidrag och lån.
               Detta är någonting som vi tycker borde vara uteslutet. Om det
               ska bli några pengar ska det bli lån. Det ska handla om strikta
               villkor, och de ska betalas tillbaka vid någon tidpunkt.
             </seg>
-            <seg n="1eabdda2">
+          </u>
+          <u xml:id="i-df5656da991934ba-43" prev="i-df5656da991934ba-41" who="Q71131688">
+            <seg>
               Eftersom budgeten och fonden tydligen ska antas i ett sjok innebär
               väl det rimligtvis att statsministern borde ha vetorätt mot detta.
               Jag kan ha fel, men vi har ju inte fått all information. Kan statsministern
@@ -437,11 +506,11 @@
               och Spanien?
             </seg>
           </u>
-          <note type="speaker" n="44024d8a">
+          <note type="speaker">
             Anf. 9 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-b3f47a1b7c03003b-4" n="f3961c67">
-            <seg n="ede54201">
+          <u xml:id="i-df5656da991934ba-44" who="Q2740012">
+            <seg>
               Fru talman! Nu har vi gett kommissionen i uppdrag att först göra
               en inventering och en analys av vilka behov det finns, både sektoriellt
               och geografiskt, och vad det skulle motivera för förslag. Vi är
@@ -452,21 +521,25 @@
               och inte bidrag.
             </seg>
           </u>
-          <note type="speaker" n="f481cb1f">
+          <note type="speaker">
             Anf. 10 JONAS SJÖSTEDT (V):
           </note>
-          <u who="Q2029704" xml:id="i-6e249d7ffd142728-0" n="599e8b1b">
-            <seg n="128b2d23">
+          <u xml:id="i-df5656da991934ba-45" next="i-df5656da991934ba-51" who="Q2029704">
+            <seg>
               Fru talman! Tack, statsminister Löfven, för föredragningen!
             </seg>
-            <seg n="9d43fd2e">
+          </u>
+          <u xml:id="i-df5656da991934ba-46" prev="i-df5656da991934ba-45" who="Q2029704">
+            <seg>
               Den konflikt vi nu ser utspela sig i Europeiska rådet speglar
               den konflikt som funnits i eurogruppen innan den hamnade hos samtliga
               EU-länder. Den handlar i grunden om möjligheten att utfärda coronaobligationer
               eller ta upp gemensam skuldsättning. Den handlar också om möjligheten
               att ge direkta bidrag.
             </seg>
-            <seg n="8b5330fb">
+          </u>
+          <u xml:id="i-df5656da991934ba-47" prev="i-df5656da991934ba-45" who="Q2029704">
+            <seg>
               Jag och Vänsterpartiet menar att den diskussionen i första hand
               hör hemma bland euroländerna. Det är inte så konstigt om ett område
               med gemensam valuta och gemensam penningpolitik har en gemensam
@@ -474,7 +547,9 @@
               svenska folket har ju i folkomröstning valt att avstå från gemensam
               valuta. Där bör en tydlig gräns ta vid.
             </seg>
-            <seg n="0c24f7b9">
+          </u>
+          <u xml:id="i-df5656da991934ba-48" prev="i-df5656da991934ba-45" who="Q2029704">
+            <seg>
               Däremot tycker jag att EU kan göra mycket mer, och det kanske
               främsta instrumentet för det utöver budgeten är Europeiska investeringsbanken
               , som har mycket muskler och möjlighet att tidigarelägga projekt,
@@ -483,19 +558,25 @@
               Där tycker jag att Sverige ska vara aktivt och förespråka en mycket
               expansiv politik.
             </seg>
-            <seg n="d1c321a0">
+          </u>
+          <u xml:id="i-df5656da991934ba-49" prev="i-df5656da991934ba-45" who="Q2029704">
+            <seg>
               Möjligheterna att utvidga budgetens ramar är små. I stort sett
               alla medlemsländer, inte minst Sverige, kommer i framtiden att
               ha mindre pengar att skjuta till utöver det som ges i dag till
               EU.
             </seg>
-            <seg n="4bff9133">
+          </u>
+          <u xml:id="i-df5656da991934ba-50" prev="i-df5656da991934ba-45" who="Q2029704">
+            <seg>
               Jag tycker att det är viktigt att statsministern har en väldigt
               tydlig dialog med riksdagen innan man gör några som helst utfästelser,
               till exempel med den svenska statsbudgeten som grund, om att öka
               utgifterna inom ramen för olika program.
             </seg>
-            <seg n="caed405a">
+          </u>
+          <u xml:id="i-df5656da991934ba-51" prev="i-df5656da991934ba-45" who="Q2029704">
+            <seg>
               Min fråga gäller dock utvecklingen i Ungern. Samtidigt som corona
               ­ krisen har fördjupats har Orbán passat på att sno åt sig ännu
               mer makt i Ungern. I dag klassificeras Ungern enligt en del studier
@@ -504,18 +585,20 @@
               att landet på sikt måste lämna Europeiska unionen?
             </seg>
           </u>
-          <note type="speaker" n="70163c36">
+          <note type="speaker">
             Anf. 11 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-b3f47a1b7c03003b-5" n="f3961c67">
-            <seg n="9c114047">
+          <u xml:id="i-df5656da991934ba-52" next="i-df5656da991934ba-55" who="Q2740012">
+            <seg>
               Fru talman! Konflikten när det gäller skuldsättningen är i första
               hand i eurogruppen, så är det. Men den andra stora och principiella
               frågan kommer nu att gälla lån eller bidrag från återhämtningsfonden.
               Det är den som vi har att vänta, och därför är det svåra diskussioner
               kvar.
             </seg>
-            <seg n="001c8ea4">
+          </u>
+          <u xml:id="i-df5656da991934ba-53" prev="i-df5656da991934ba-52" who="Q2740012">
+            <seg>
               När det gäller EIB har vi med riksdagens godkännande sagt ja
               till att ingå i det paket som finansministrarna presenterade i
               den inkluderande eurogruppen, alltså inklusive dem som inte har
@@ -524,14 +607,18 @@
               vi med. Jag tycker att det är bra, för EIB har väldigt mycket
               att bidra med.
             </seg>
-            <seg n="5dd40783">
+          </u>
+          <u xml:id="i-df5656da991934ba-54" prev="i-df5656da991934ba-52" who="Q2740012">
+            <seg>
               Vad gäller budgeten står vi kvar vid samma uppfattning. Vi kan
               inte bara nu automatiskt öka den. Alla medlemsstater kommer att
               ha gigantiska åtaganden, och det visar sig också när man räknar
               ihop det att det är enorma summor för medlemsstaterna nu, och
               vi ska också sedan göra någonting tillsammans i EU.
             </seg>
-            <seg n="5f8fe79b">
+          </u>
+          <u xml:id="i-df5656da991934ba-55" prev="i-df5656da991934ba-52" who="Q2740012">
+            <seg>
               Som jag sa stöder vi helt och fullt kommissionen i arbetet när
               det gäller Ungern. Det gäller att stå upp för de värderingarna,
               och jag tänker inte spekulera i om ett land inte ska eller inte
@@ -540,20 +627,24 @@
               upp för reglerna. Längre än så vill jag inte gå i spekulationen.
             </seg>
           </u>
-          <note type="speaker" n="508be1e6">
+          <note type="speaker">
             Anf. 12 JONAS SJÖSTEDT (V):
           </note>
-          <u who="Q2029704" xml:id="i-6e249d7ffd142728-1" n="599e8b1b">
-            <seg n="cd806a42">
+          <u xml:id="i-df5656da991934ba-56" next="i-df5656da991934ba-59" who="Q2029704">
+            <seg>
               Fru talman! Tack, statsministern, för svaret!
             </seg>
-            <seg n="bc0a5e3f">
+          </u>
+          <u xml:id="i-df5656da991934ba-57" prev="i-df5656da991934ba-56" who="Q2029704">
+            <seg>
               Ja, det måste finnas en gräns för vad Ungern gör. Problemet är
               att Ungern hela tiden flyttar den gränsen i fel riktning och att
               EU hittills inte har valt att sätta hårt mot hårt med något större
               eftertryck.
             </seg>
-            <seg n="8a067d91">
+          </u>
+          <u xml:id="i-df5656da991934ba-58" prev="i-df5656da991934ba-56" who="Q2029704">
+            <seg>
               Det här påverkar oss på många sätt. Dels påverkar det hur EU
               fungerar, dels innebär det att ungerska ministrar sitter och stiftar
               lag som gäller i Sverige. De har rösträtt i ministerrådet och
@@ -564,23 +655,27 @@
               ett problem. Det är det man gör i EU:s ministerråd. Någonstans
               där går gränsen för när det inte går att dela beslutsmakt längre.
             </seg>
-            <seg n="b2a36eeb">
+          </u>
+          <u xml:id="i-df5656da991934ba-59" prev="i-df5656da991934ba-56" who="Q2029704">
+            <seg>
               Min fråga till statsministern är: Anser statsministern att Ungern
               är en demokrati?
             </seg>
           </u>
-          <note type="speaker" n="a76ccb62">
+          <note type="speaker">
             Anf. 13 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-b3f47a1b7c03003b-6" n="f3961c67">
-            <seg n="f326dc60">
+          <u xml:id="i-df5656da991934ba-60" next="i-df5656da991934ba-62" who="Q2740012">
+            <seg>
               Fru talman! När det gäller Ungern har vi varit väldigt tydliga
               med att i den kommande MFF:en finns möjlighet att dra gränsen.
               Om man ska ta emot stöd från det gemensamma EU får man faktiskt
               också leva upp till de värderingar som vi står för. Det är det
               som är gränsdragningen.
             </seg>
-            <seg n="356a3391">
+          </u>
+          <u xml:id="i-df5656da991934ba-61" prev="i-df5656da991934ba-60" who="Q2740012">
+            <seg>
               Att man sitter i ministerrådet innebär inte per automatik att
               alla länders respektive ministrar, enskilda ministrar, bestämmer
               över andra, utan det gör man när man fattar beslut tillsammans.
@@ -588,20 +683,24 @@
               ett bekymmer om länder verkar i en riktning som inte står upp
               för våra värderingar, så är det.
             </seg>
-            <seg n="52528c0f">
+          </u>
+          <u xml:id="i-df5656da991934ba-62" prev="i-df5656da991934ba-60" who="Q2740012">
+            <seg>
               Återigen: Jag tänker inte gå längre än så i min spekulation.
               Det måste dock finnas gränser för vad en nation kan göra om den
               ska vara med i en förening.
             </seg>
           </u>
-          <note type="speaker" n="d3e893f4">
+          <note type="speaker">
             Anf. 14 DÉSIRÉE PETHRUS (KD):
           </note>
-          <u who="Q4972645" xml:id="i-35c0426210b2e927-0" n="792ee16e">
-            <seg n="fe5713d0">
+          <u xml:id="i-df5656da991934ba-63" next="i-df5656da991934ba-66" who="Q4972645">
+            <seg>
               Fru talman! Tack, statsministern, för återrapporten!
             </seg>
-            <seg n="15ef76f8">
+          </u>
+          <u xml:id="i-df5656da991934ba-64" prev="i-df5656da991934ba-63" who="Q4972645">
+            <seg>
               På rådets möte fattades inga formella beslut, men ändå gav man
               EU ‑ kommissionen i uppdrag att återkomma kring den omdebatterade
               återhämtningsfonden. Den ska samordnas med långtidsbudgeten, och
@@ -612,7 +711,9 @@
               och att den ska leva upp till högt ställda krav på effektivitet
               och återbetalning. Den linjen stöder vi från Kristdemokraterna.
             </seg>
-            <seg n="f69ac391">
+          </u>
+          <u xml:id="i-df5656da991934ba-65" prev="i-df5656da991934ba-63" who="Q4972645">
+            <seg>
               På mycket kort tid har EU fattat beslut om flera olika paket
               som omfattar flera hundra miljarder euro. Det är naturligtvis
               viktigt att vi har bra kontrollsystem för det här. Vi är oroliga
@@ -620,7 +721,9 @@
               liknande ett a-kassesystem ska komma på EU-nivå. Jag hoppas att
               statsministern delar synen att det inte får permanentas.
             </seg>
-            <seg n="28ee774d">
+          </u>
+          <u xml:id="i-df5656da991934ba-66" prev="i-df5656da991934ba-63" who="Q4972645">
+            <seg>
               Min fråga till statsministern är vad han nu anser är viktigast
               för Sveriges del när det gäller återhämtningsfonden. Vad är Sveriges
               strategi för att hålla storleken på fonden nere? Precis som vi
@@ -630,11 +733,11 @@
               av de olika krispaketen?
             </seg>
           </u>
-          <note type="speaker" n="96b1b7ce">
+          <note type="speaker">
             Anf. 15 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-b3f47a1b7c03003b-7" n="f3961c67">
-            <seg n="43d4069a">
+          <u xml:id="i-df5656da991934ba-67" next="i-df5656da991934ba-70" who="Q2740012">
+            <seg>
               Fru talman! Det blev inget konkret beslut om just fonden. Vi
               tog ett beslut om att sjösätta finansministrarnas plan från tidigare
               i april – den om 540 miljarder euro. Det är helt korrekt att det
@@ -644,7 +747,9 @@
               gemensamma. Det är hiskeliga summor. Det är svårt att förstå hur
               mycket det är – det är väldigt många nollor.
             </seg>
-            <seg n="21e3fbec">
+          </u>
+          <u xml:id="i-df5656da991934ba-68" prev="i-df5656da991934ba-67" who="Q2740012">
+            <seg>
               Vad gäller återhämtningsfonden är vår utgångspunkt att den måste
               vara begränsad i omfång och också i tid. Vi har inte satt något
               exakt belopp. Alltifrån 500 miljarder euro till 1 500 miljarder
@@ -654,14 +759,18 @@
               men det är väldigt mycket gjort. Vi behöver göra mer, men man
               måste naturligtvis hålla igen.
             </seg>
-            <seg n="1a652df4">
+          </u>
+          <u xml:id="i-df5656da991934ba-69" prev="i-df5656da991934ba-67" who="Q2740012">
+            <seg>
               Det vi gör är att prata med så många som möjligt. Vi har en grupp,
               den nu kanske berömda F4-gruppen, the frugal four, men utöver
               det finns det också andra. Alla medlemsstater har ju sina egna
               åtaganden och sina egna ackord att göra. Vi talar naturligtvis
               med så många som möjligt.
             </seg>
-            <seg n="c2e6c498">
+          </u>
+          <u xml:id="i-df5656da991934ba-70" prev="i-df5656da991934ba-67" who="Q2740012">
+            <seg>
               Vad gäller kontroll måste det råda effektivitet, och det är därför
               vi uttrycker det som vi gör. Det som ska på plats måste vara korrekt,
               men det ska också användas på ett korrekt sätt och naturligtvis
@@ -669,36 +778,42 @@
               ta det därifrån och utveckla det vartefter.
             </seg>
           </u>
-          <note type="speaker" n="ce7b463a">
+          <note type="speaker">
             Anf. 16 DÉSIRÉE PETHRUS (KD):
           </note>
-          <u who="Q4972645" xml:id="i-35c0426210b2e927-1" n="792ee16e">
-            <seg n="cd806a42">
+          <u xml:id="i-df5656da991934ba-71" next="i-df5656da991934ba-74" who="Q4972645">
+            <seg>
               Fru talman! Tack, statsministern, för svaret!
             </seg>
-            <seg n="81c820da">
+          </u>
+          <u xml:id="i-df5656da991934ba-72" prev="i-df5656da991934ba-71" who="Q4972645">
+            <seg>
               Det vore intressant att höra lite om huruvida det är nya institutioner
               eller de vanliga institutionerna för kontrollfunktioner inom EU
               som ska användas. Det kanske vi kan återkomma till.
             </seg>
-            <seg n="6240d897">
+          </u>
+          <u xml:id="i-df5656da991934ba-73" prev="i-df5656da991934ba-71" who="Q4972645">
+            <seg>
               När det gäller långtidsbudgeten har vi ju varit överens om att
               den också har varit för omfattande. Samtidigt är det viktigt att
               den kanske görs annor ­ lunda. Man kanske behöver omprioritera
               i den. Det är ju rimligt.
             </seg>
-            <seg n="27c38ddb">
+          </u>
+          <u xml:id="i-df5656da991934ba-74" prev="i-df5656da991934ba-71" who="Q4972645">
+            <seg>
               När man nu säger att den ska revideras undrar jag på vilket sätt
               statsministern anser att långtidsbudgeten behöver förändras. Kommer
               statsministern att fortsätta verka för en budgetrestriktiv linje
               i enlighet med 1 procent av EU-ländernas bni?
             </seg>
           </u>
-          <note type="speaker" n="b08ef4d9">
+          <note type="speaker">
             Anf. 17 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-b3f47a1b7c03003b-8" n="f3961c67">
-            <seg n="8aeeac99">
+          <u xml:id="i-df5656da991934ba-75" next="i-df5656da991934ba-76" who="Q2740012">
+            <seg>
               Fru talman! När det gäller nya institutioner eller inte är ett
               av förslagen, det som kommissionen föreslår, att man ska hantera
               det via strukturer som redan finns, exempelvis för långtidsbudgeten.
@@ -708,7 +823,9 @@
               i att det enbart blir bidrag. Den balansen måste hållas. Vi vill
               hålla kvar vid att det ska vara lån och inte bidrag.
             </seg>
-            <seg n="a9b91167">
+          </u>
+          <u xml:id="i-df5656da991934ba-76" prev="i-df5656da991934ba-75" who="Q2740012">
+            <seg>
               I fråga om budgeten som sådan behöver vi titta på vilken omprioritering
               som behöver göras utifrån att vi de facto har ett nytt narrativ.
               Det har alla medlemsstater. En möjlig variant är att ha en som
@@ -717,14 +834,14 @@
               den situation vi faktiskt är i.
             </seg>
           </u>
-          <note type="speaker" n="9cd0cf6d">
+          <note type="speaker">
             Anf. 18 FREDRIK MALM (L):
           </note>
-          <u who="Q3675520" xml:id="i-0766548865bc0ff8-0" n="e2f17017">
-            <seg n="94118a1b">
-              Fru talman! Tack, statsministern, för återrapporteringen!
-            </seg>
-            <seg n="1df0cab1">
+          <note>
+            Fru talman! Tack, statsministern, för återrapporteringen!
+          </note>
+          <u xml:id="i-df5656da991934ba-77" next="i-df5656da991934ba-81" who="Q3675520">
+            <seg>
               Det kommer nya kriser hela tiden. Det har varit finansiella kriser,
               Grek ­ landskriser, bolånekriser och migrationskriser. Och nu
               har vi denna pan ­ demi. I Europeiska unionen innebär det att
@@ -732,7 +849,9 @@
               hantera den här krisen. Nya typer av mekanismer, institutioner
               och så vidare skapas.
             </seg>
-            <seg n="6cdef7d3">
+          </u>
+          <u xml:id="i-df5656da991934ba-78" prev="i-df5656da991934ba-77" who="Q3675520">
+            <seg>
               Man kan tänka sig att det är det som nu sker med denna fond.
               Då tycker jag som liberal och anhängare av marknadsekonomi att
               det är viktigt att länder som Sverige ska vara väldigt tydliga,
@@ -740,44 +859,54 @@
               med att en sådan fond ska vara tidsbestämd så att den inte blir
               flytande och lever kvar under lång tid.
             </seg>
-            <seg n="4243dde4">
+          </u>
+          <u xml:id="i-df5656da991934ba-79" prev="i-df5656da991934ba-77" who="Q3675520">
+            <seg>
               Fru talman! Det är också viktigt att man ser att det finns länder
               som kan använda pandemin för att genomföra drakoniska inskränkningar
               och ge regeringar och statschefer närmast diktatoriska befogenheter.
               Det har vi sett i Ungern.
             </seg>
-            <seg n="a19a4704">
+          </u>
+          <u xml:id="i-df5656da991934ba-80" prev="i-df5656da991934ba-77" who="Q3675520">
+            <seg>
               Frågan är om man kan få det finansierat från den här fonden.
               Det blir jättemärkligt om EU ska bygga upp en stor stödfond och
               om den sedan ska betala ut pengar till en medlemsstat som under
               skydd av det här håller på att utvecklas till diktatur. Jag skulle
               vilja få ett svar från statsministern på om det kan ske.
             </seg>
-            <seg n="75f65510">
+          </u>
+          <u xml:id="i-df5656da991934ba-81" prev="i-df5656da991934ba-77" who="Q3675520">
+            <seg>
               Liberalerna menar också att man måste vara tydlig med att de
               länder som har infört handelshinder nu måste ta bort dem. Det
               bör också villkoras mot att få ut betalningar framöver.
             </seg>
           </u>
-          <note type="speaker" n="54e5ec7e">
+          <note type="speaker">
             Anf. 19 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-b3f47a1b7c03003b-9" n="f3961c67">
-            <seg n="aaac56af">
+          <u xml:id="i-df5656da991934ba-82" next="i-df5656da991934ba-86" who="Q2740012">
+            <seg>
               Fru talman! Vad gäller kriser och eventuella regelbundna nya
               institu ­ tioner är kommissionens inriktning när det gäller återhämtningsfonden,
               recovery fund , att hanteringen ska ske inom ramen för befintliga
               struktur ­ er. Då kan vi också komma igång snabbare eftersom regelverk,
               mekanism ­ er och allt det redan finns på plats.
             </seg>
-            <seg n="b449a7d0">
+          </u>
+          <u xml:id="i-df5656da991934ba-83" prev="i-df5656da991934ba-82" who="Q2740012">
+            <seg>
               Som jag sa i förra inlägget måste vi dock, om man bara hanterar
               det inom budgeten, se upp så att tyngdpunkten inte hamnar på bidrag
               i stället för lån. Vår inriktning är, precis som Fredrik Malm
               säger, att det ska vara lån, tidsbestämt och begränsat på olika
               sätt.
             </seg>
-            <seg n="b4388d19">
+          </u>
+          <u xml:id="i-df5656da991934ba-84" prev="i-df5656da991934ba-82" who="Q2740012">
+            <seg>
               Vi ser också att det finns krafter som vill använda pandemin
               för att uppnå något annat än det som är i enlighet med EU:s värderingar.
               Det är klart att de här pengarna inte är till för det. Kommissionen
@@ -788,31 +917,39 @@
               i den här fonden. Det inbegriper att man inte bryter mot unionens
               värderingar.
             </seg>
-            <seg n="71882c83">
+          </u>
+          <u xml:id="i-df5656da991934ba-85" prev="i-df5656da991934ba-82" who="Q2740012">
+            <seg>
               Det närmare regelverket måste tas fram. Nu är det bara inventering.
               Därefter ska kommissionen komma med ett förslag. Då får vi hålla
               ögonen på detta, så att det blir en fond som faktiskt gör nytta.
             </seg>
-            <seg n="2d6f5b7d">
+          </u>
+          <u xml:id="i-df5656da991934ba-86" prev="i-df5656da991934ba-82" who="Q2740012">
+            <seg>
               Vi ska, återigen, komma ihåg att det är viktigt att EU fungerar
               ekonomiskt men också värderingsmässigt.
             </seg>
           </u>
-          <note type="speaker" n="e8c9df50">
+          <note type="speaker">
             Anf. 20 FREDRIK MALM (L):
           </note>
-          <u who="Q3675520" xml:id="i-0766548865bc0ff8-1" n="e2f17017">
-            <seg n="cd806a42">
+          <u xml:id="i-df5656da991934ba-87" next="i-df5656da991934ba-89" who="Q3675520">
+            <seg>
               Fru talman! Tack, statsministern, för svaret!
             </seg>
-            <seg n="0c61fb60">
+          </u>
+          <u xml:id="i-df5656da991934ba-88" prev="i-df5656da991934ba-87" who="Q3675520">
+            <seg>
               Frågan om till exempel Ungerns utveckling blir ännu mer delikat
               om återhämtningsfonden ska jackas in i de ordinarie strukturerna
               i EU. Risken är att man får längre perspektiv och att det inte
               bara är något kort för att hantera just den kris som vi befinner
               oss i nu.
             </seg>
-            <seg n="c4701e01">
+          </u>
+          <u xml:id="i-df5656da991934ba-89" prev="i-df5656da991934ba-87" who="Q3675520">
+            <seg>
               Om jag inte har fel har nu fler än var tredje medlemsstat infört
               begränsningar av den fria rörligheten i EU. Det är ju handelshinder.
               Ingen fond i världen kommer att kunna parera att handelsflödena
@@ -821,11 +958,11 @@
               frihandeln som de har gjort.
             </seg>
           </u>
-          <note type="speaker" n="db1e1bb4">
+          <note type="speaker">
             Anf. 21 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-b3f47a1b7c03003b-10" n="f3961c67">
-            <seg n="834c3c55">
+          <u xml:id="i-df5656da991934ba-90" next="i-df5656da991934ba-91" who="Q2740012">
+            <seg>
               Fru talman! Jag delar helt den uppfattningen. Jag tror också
               att jag sa i inledningen att inga fonder eller paket i världen
               kan väga upp för det som är kärnan här, att kunna ha fritt flöde
@@ -836,25 +973,31 @@
               om att det är tillfälliga lösningar. Vi ska tillbaka till att
               ha en inre marknad.
             </seg>
-            <seg n="96b50f4e">
+          </u>
+          <u xml:id="i-df5656da991934ba-91" prev="i-df5656da991934ba-90" who="Q2740012">
+            <seg>
               D et kan dock vara på det sättet att en del länder har lagliga
               restriktioner för sin export – det kan jag inte alltid gå i god
               för. Men det som inte fungerar och som inte är i enlighet med
               stadgar, lagar och regler måste bort.
             </seg>
           </u>
-          <note type="speaker" n="f5ea7e06">
+          <note type="speaker">
             Anf. 22 ÅSA WESTLUND (S):
           </note>
-          <u who="Q269859" xml:id="i-f15233d32ff618c3-0" n="6a7172ec">
-            <seg n="fe5713d0">
+          <u xml:id="i-df5656da991934ba-92" next="i-df5656da991934ba-97" who="Q269859">
+            <seg>
               Fru talman! Tack, statsministern, för återrapporten!
             </seg>
-            <seg n="e11a0efb">
+          </u>
+          <u xml:id="i-df5656da991934ba-93" prev="i-df5656da991934ba-92" who="Q269859">
+            <seg>
               Jag vill framför allt ge mitt stöd för den linje som statsministern
               före ­ träder. Det är ingen enkel balansgång vi ska gå här.
             </seg>
-            <seg n="97682742">
+          </u>
+          <u xml:id="i-df5656da991934ba-94" prev="i-df5656da991934ba-92" who="Q269859">
+            <seg>
               Det är viktigt för Sverige att värna det europeiska samarbetet,
               som är under hård press till följd av den här krisen. Det är viktigt
               för att värna det demokratiska inflytandet på vår kontinent. Det
@@ -862,7 +1005,9 @@
               är också viktigt för att vi tillsammans ska klara av de klimat-
               och miljöutmaningar som vi står inför.
             </seg>
-            <seg n="c3ff4002">
+          </u>
+          <u xml:id="i-df5656da991934ba-95" prev="i-df5656da991934ba-92" who="Q269859">
+            <seg>
               Samtidigt kan inte den stora lösningen vara att länder som Sverige,
               som har tagit ut en ganska hög skattesats från sina invånare,
               hanterat pengar varsamt och hushållat med dem nu ska skyffla i
@@ -871,7 +1016,9 @@
               farlig väg och på sikt också osolidariskt gentemot de löntagare
               som har bidragit till den svenska statskassan.
             </seg>
-            <seg n="3e89d461">
+          </u>
+          <u xml:id="i-df5656da991934ba-96" prev="i-df5656da991934ba-92" who="Q269859">
+            <seg>
               Därför är det, som statsministern säger, viktigt att fokusera
               på det vi kan göra tillsammans för att komma ur detta, alltså
               på det vi ska göra och inte bara hantera det som om det skulle
@@ -881,7 +1028,9 @@
               klara kommande kriser bättre framöver. Det handlar också om att
               ha gemensam beredskap och att samarbeta om ett vaccin.
             </seg>
-            <seg n="0dde0751">
+          </u>
+          <u xml:id="i-df5656da991934ba-97" prev="i-df5656da991934ba-92" who="Q269859">
+            <seg>
               Det handlar såklart även om att återhämtningsplanen inte ska
               syfta till att ta oss tillbaka utan till att stärka oss inför
               framtiden genom att ta ett språng när det gäller klimatomställningen
@@ -890,18 +1039,20 @@
               viktig roll.
             </seg>
           </u>
-          <note type="speaker" n="689e2297">
+          <note type="speaker">
             Anf. 23 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-b3f47a1b7c03003b-11" n="f3961c67">
-            <seg n="3b84b302">
+          <u xml:id="i-df5656da991934ba-98" next="i-df5656da991934ba-102" who="Q2740012">
+            <seg>
               Fru talman! Jag delar naturligtvis uppfattningen att samarbete
               är det viktiga. Det ekonomiska samarbetet är själva grunden. Sverige
               får ut otroligt mycket av detta samarbete. Men det som Åsa Westlund
               pekar på är också viktigt; det gäller demokrati, klimat och den
               typen av frågor.
             </seg>
-            <seg n="2d570642">
+          </u>
+          <u xml:id="i-df5656da991934ba-99" prev="i-df5656da991934ba-98" who="Q2740012">
+            <seg>
               Jag delar också uppfattningen att klimatfrågan måste vara i centrum.
               Jag är glad att Ursula von der Leyen är tydlig med att hålla i
               the Green Deal. Det har inte blivit mindre viktigt av att den
@@ -910,12 +1061,16 @@
               och framtidens välfärd ligger. Vi ska också kunna berätta för
               våra barn att vi förstod vad som hände. Det är rätt.
             </seg>
-            <seg n="faa1f7d8">
+          </u>
+          <u xml:id="i-df5656da991934ba-100" prev="i-df5656da991934ba-98" who="Q2740012">
+            <seg>
               Jag tycker att det är rätt att ha ansatsen att vi inte ska tillbaka
               till det som var, utan vi ska vidare och framåt. Det ska vara
               offensivt. Detta kommer även att vara bra för medborgarna i Sverige.
             </seg>
-            <seg n="e6dbf433">
+          </u>
+          <u xml:id="i-df5656da991934ba-101" prev="i-df5656da991934ba-98" who="Q2740012">
+            <seg>
               Det finns en diskussion om olika skattesatser och för den delen
               även olika pensionsåldrar. Några länder har betydligt färre människor
               som är ca 60 år och som är i arbete. Dessa skillnader är något
@@ -923,7 +1078,9 @@
               innebär inte per automatik att man ska få stöd från andra länder.
               Man har gjort sitt val.
             </seg>
-            <seg n="4b6ac2c4">
+          </u>
+          <u xml:id="i-df5656da991934ba-102" prev="i-df5656da991934ba-98" who="Q2740012">
+            <seg>
               Likafullt finns här en balansgång. Detta är heller inte digitalt,
               utan det skiljer sig åt även bland de sydliga länderna. Exempelvis
               var Portugal för första gången sedan demokratins införande på
@@ -934,11 +1091,11 @@
               länder och hur man ska ge stöd.
             </seg>
           </u>
-          <note type="speaker" n="640f8823">
+          <note type="speaker">
             Anf. 24 ÅSA WESTLUND (S):
           </note>
-          <u who="Q269859" xml:id="i-f15233d32ff618c3-1" n="6a7172ec">
-            <seg n="604aac4c">
+          <u xml:id="i-df5656da991934ba-103" next="i-df5656da991934ba-104" who="Q269859">
+            <seg>
               Fru talman! Tack, statsministern, för svaret! Det finns en viktig
               dimen ­ sion att ha med sig utöver det vi redan har varit inne
               på i dag. Det handlar om vad som händer om länderna i EU inte
@@ -951,26 +1108,32 @@
               nu tog tillfället i akt att stärka sina positioner? Detta är viktigt
               att ha med sig.
             </seg>
-            <seg n="332bd4eb">
+          </u>
+          <u xml:id="i-df5656da991934ba-104" prev="i-df5656da991934ba-103" who="Q269859">
+            <seg>
               Jag vill även understryka att Sverige måste fortsätta att stå
               upp för rättsstatens principer, också i Ungerns fall.
             </seg>
           </u>
-          <note type="speaker" n="04f00468">
+          <note type="speaker">
             Anf. 25 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-b3f47a1b7c03003b-12" n="f3961c67">
-            <seg n="608c716c">
+          <u xml:id="i-df5656da991934ba-105" next="i-df5656da991934ba-107" who="Q2740012">
+            <seg>
               Fru talman! Det sista kan jag direkt hålla med om. Rättsstatens
               principer måste gälla.
             </seg>
-            <seg n="b437f1a9">
+          </u>
+          <u xml:id="i-df5656da991934ba-106" prev="i-df5656da991934ba-105" who="Q2740012">
+            <seg>
               Det här var ett viktigt perspektiv: Vad händer om det inte fungerar
               och om det fallerar? Detta måste vi ta i beaktande. Men med det
               inte sagt att det är okej att man som medlemsstat kan bete sig
               hur man vill. Det är det inte.
             </seg>
-            <seg n="bcc02004">
+          </u>
+          <u xml:id="i-df5656da991934ba-107" prev="i-df5656da991934ba-105" who="Q2740012">
+            <seg>
               Det förhåller sig dock så att om vi inte har EU som plattform
               blir Sverige betydligt försvagat i den globala ekonomin. Det finns
               starka intressen som naturligtvis skulle vilja se ett rejält försvagat
@@ -982,18 +1145,20 @@
               även det.
             </seg>
           </u>
-          <note type="speaker" n="b701a161">
+          <note type="speaker">
             Anf. 26 AMANDA PALMSTIERNA (MP):
           </note>
-          <u who="Q71137237" xml:id="i-35c0426210b2e927-2" n="bf4b28de">
-            <seg n="c1fa6c5a">
+          <u xml:id="i-df5656da991934ba-108" next="i-df5656da991934ba-112" who="Q71137237">
+            <seg>
               Fru talman! Tack, statsministern, för redogörelsen! Vi lever
               fortfaran ­ de i osäkra tider. Coronapandemin fortsätter alltjämt,
               och vi vet inte när vändningen kommer. Arbetet med att begränsa
               smittspridningen fortsätter liksom också för att göra insatser
               för sjukvård, arbetstagare och företag.
             </seg>
-            <seg n="8050b892">
+          </u>
+          <u xml:id="i-df5656da991934ba-109" prev="i-df5656da991934ba-108" who="Q71137237">
+            <seg>
               Det är i detta läge viktigt att EU håller ihop och visar solidaritet.
               Det har inte fungerat prickfritt, men stora insatser har gjorts.
               Som statsminis ­ tern berättade har finansministrarna kommit överens
@@ -1004,7 +1169,9 @@
               der Leyen har sagt att det eventuellt blir i storleksordningen
               biljon.
             </seg>
-            <seg n="848fa337">
+          </u>
+          <u xml:id="i-df5656da991934ba-110" prev="i-df5656da991934ba-108" who="Q71137237">
+            <seg>
               Jag följa upp det jag tog upp i EU-nämnden före toppmötet. Jag
               underströk då att det är oerhört viktigt att återhämtningsfonder
               går till en green transition – en grön återuppbyggnad – till klimat
@@ -1012,7 +1179,9 @@
               på gator och torg. Men Greta Thunberg fortsätter alltjämt att
               leda klimatstrejken på distans och digitalt.
             </seg>
-            <seg n="5be3e558">
+          </u>
+          <u xml:id="i-df5656da991934ba-111" prev="i-df5656da991934ba-108" who="Q71137237">
+            <seg>
               Det är historiskt att man satsar så stora summor som finns i
               återhämtningsfonden. Vi har ett historiskt vägval att göra. Då
               kan vi inte köra i gamla hjulspår, något som även Åsa Westlund
@@ -1022,30 +1191,36 @@
               länderna går på samma linje. Men det har tidigare kommit oroväckande
               utspel.
             </seg>
-            <seg n="d32232e4">
+          </u>
+          <u xml:id="i-df5656da991934ba-112" prev="i-df5656da991934ba-108" who="Q71137237">
+            <seg>
               Jag vill därför ställa en fråga angående detta. Är medlemsstaterna
               tydligt överens om att redan nu trycka på för en inriktning mot
               klimat och grön återuppbyggnad?
             </seg>
           </u>
-          <note type="speaker" n="523c8fa7">
+          <note type="speaker">
             Anf. 27 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-b3f47a1b7c03003b-13" n="f3961c67">
-            <seg n="54df7076">
+          <u xml:id="i-df5656da991934ba-113" next="i-df5656da991934ba-116" who="Q2740012">
+            <seg>
               Fru talman! Jag delar uppfattningen om att solidariteten och
               samarbetet inte har fungerat hundraprocentigt. Men tack och lov
               har vi kunnat rätta till och korrigera saker. Det är fortfarande
               inte hundraprocentigt. Vi måste ligga på för att det ska bli det,
               eftersom det har så stor betydelse.
             </seg>
-            <seg n="084c4b54">
+          </u>
+          <u xml:id="i-df5656da991934ba-114" prev="i-df5656da991934ba-113" who="Q2740012">
+            <seg>
               Vad gäller återhämtningsfonden och även det totala har IMF tydligt
               sagt att det inte får vara för lite för sent. Det här måste komma
               in tidigt och vara tillräckligt. Jag tycker att de summor som
               jag har nämnt under återrapporteringen är rejäla.
             </seg>
-            <seg n="ec679a7b">
+          </u>
+          <u xml:id="i-df5656da991934ba-115" prev="i-df5656da991934ba-113" who="Q2740012">
+            <seg>
               Återigen delar jag uppfattningen om en green transition. Detta
               måste vara en kärna i detta. Den omställning som vi ska göra har
               vi framför oss. Den kommer att innebära också väldigt stora möjligheter.
@@ -1054,7 +1229,9 @@
               rätt och se till att vi får ned utsläppen rejält så att vi en
               vacker dag har nettonollutsläpp.
             </seg>
-            <seg n="2c8df0db">
+          </u>
+          <u xml:id="i-df5656da991934ba-116" prev="i-df5656da991934ba-113" who="Q2740012">
+            <seg>
               Fortfarande uttalar några medlemsstater tvivel om en green deal.
               De menar att vi i stället borde ta paus, av någon för mig outgrundlig
               anledning. Det finns inte tid för någon paus, och det behövs heller
@@ -1063,15 +1240,17 @@
               utan vi kommer nog att få nöta på här ett tag till.
             </seg>
           </u>
-          <note type="speaker" n="ee459bbd">
+          <note type="speaker">
             Anf. 28 AMANDA PALMSTIERNA (MP):
           </note>
-          <u who="Q71137237" xml:id="i-35c0426210b2e927-3" n="bf4b28de">
-            <seg n="0ad6fd7e">
+          <u xml:id="i-df5656da991934ba-117" next="i-df5656da991934ba-119" who="Q71137237">
+            <seg>
               Fru talman! Tack, statsministern, för att Sverige är en tydlig
               röst för den gröna omställningen i Europa!
             </seg>
-            <seg n="33c67e04">
+          </u>
+          <u xml:id="i-df5656da991934ba-118" prev="i-df5656da991934ba-117" who="Q71137237">
+            <seg>
               I mitt förra inlägg tog jag upp att det rör sig om stora summor
               för återhämtningsfonden. Länderna är inte överens om storleken
               eller vilka insatser det ska handla om, om det ska vara direkta
@@ -1080,7 +1259,9 @@
               fast vid sin restriktiva och ansvarsfulla hållning om att det
               ska vara lån före direkta bidrag och att pengarna används ansvarsfullt.
             </seg>
-            <seg n="de64c2fb">
+          </u>
+          <u xml:id="i-df5656da991934ba-119" prev="i-df5656da991934ba-117" who="Q71137237">
+            <seg>
               Det är också väldigt viktigt att ställa tydliga villkor för dessa
               pengar. Det måste finnas en transparent uppföljning av medlen
               med tydliga villkor. Det ska inte vara tomma pengar, utan riktiga
@@ -1089,16 +1270,18 @@
               länder som rundar demokratin i dessa svåra tider.
             </seg>
           </u>
-          <note type="speaker" n="e8de09c4">
+          <note type="speaker">
             Anf. 29 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-e66bf2b0171f1c6a-0" n="f3961c67" next="i-6af85ffefe3ce397-0">
-            <seg n="a4562a21">
+          <u xml:id="i-df5656da991934ba-120" next="i-df5656da991934ba-130" who="Q2740012">
+            <seg>
               Fru talman! Vi kommer att fortsätta att diskutera storleken på
               återhämtningsfonden. Som jag sa tidigare vad gällde lån eller
               bidrag menar vi att lån måste vara det rätta.
             </seg>
-            <seg n="4ebb8084">
+          </u>
+          <u xml:id="i-df5656da991934ba-121" prev="i-df5656da991934ba-120" who="Q2740012">
+            <seg>
               Kopplingen till MFF kan man se på lite olika sätt. Vi fyra menar
               att det är viktigt att man måste kunna hålla isär dem. De kan
               operera tillsammans, men man måste veta vad det ena och det andra
@@ -1108,363 +1291,379 @@
               hållas isär. De kan dock verka tillsammans på olika sätt. Detta
               är en av de frågor som måste diskuteras.
             </seg>
-            <seg n="5b756ae8">
+          </u>
+          <u xml:id="i-df5656da991934ba-122" prev="i-df5656da991934ba-120" who="Q2740012">
+            <seg>
               Kommissionen har i uppdrag att återkomma med en analys och ett
               förslag. Sedan får vi ta det vidare därifrån.
             </seg>
           </u>
-          <note n="75576a59">
+          <note>
             Återrapporteringen var härmed avslutad.
           </note>
-          <note n="c0623ed7">
+          <note>
             § 2 Ärenden för hänvisning till utskott
           </note>
-          <note n="dc6bc987">
+          <note>
             Följande dokument hänvisades till utskott:
           </note>
-          <note n="5cd0c615">
+          <note>
             Proposition
           </note>
-          <note n="a0b9a53d">
+          <note>
             2019/20:160 till miljö- och jordbruksutskottet
           </note>
-          <note n="784eb664">
+          <note>
             Motioner
           </note>
-          <note n="235c77f0">
+          <note>
             2019/20:3590, 3592, 3594 och 3598 till justitieutskottet
           </note>
-          <note n="a962f27a">
+          <note>
             2019/20:3591 och 3597 till arbetsmarknadsutskottet
           </note>
-          <note n="256dde18">
+          <note>
             § 3 Ärenden för bordläggning
           </note>
-          <note n="f4c55d3b">
+          <note>
             Följande dokument anmäldes och bordlades:
           </note>
-          <note n="384afa18">
+          <note>
             Finansutskottets betänkande
           </note>
-          <note n="8d6206c9">
+          <note>
             2019/20:FiU23 Riksbankens förvaltning 2019
           </note>
-          <note n="55abe6e9">
+          <note>
             Arbetsmarknadsutskottets betänkande
           </note>
-          <u who="Q2740012" xml:id="i-6af85ffefe3ce397-0" n="f3961c67" prev="i-e66bf2b0171f1c6a-0">
-            <seg n="235bc08f">
+          <u xml:id="i-df5656da991934ba-123" prev="i-df5656da991934ba-120" who="Q2740012">
+            <seg>
               2019/20:AU11 Riksrevisionens rapport om stöd till start av näringsverksamhet
               – långsiktiga effekter och Arbetsförmedlingens arbetssätt
             </seg>
-            <seg n="5d4a9afa">
-              2019/20:JuU29 Våldsbrott och brottsoffer
-            </seg>
-            <seg n="a38b45af">
-              2019/20:SfU20 Migration och asylpolitik
-            </seg>
-            <seg n="e3541094">
-              2019/20:SfU21 Anhöriginvandring
-            </seg>
-            <seg n="16029a70">
-              2019/20:SfU22 Arbetskraftsinvandring
-            </seg>
-            <seg n="e3f75527">
-              2019/20:KrU8 Civila samhället inklusive idrott och folkbildning
-            </seg>
-            <seg n="477a504b">
-              2019/20:KrU10 Kultur för alla
-            </seg>
-            <seg n="47da518a">
-              2019/20:KrU11 Frågor om film och public service
-            </seg>
-            <seg n="bf7e91d1">
-              2019/20: MJU18 Tillfällig åtgärd för att underlätta övergången
-              till sommarbensin
-            </seg>
-            <seg n="7832eb0b">
-              2019/20:395 Fiskestopp på Skånekusten
-            </seg>
-            <seg n="1a624519">
-              2019/20:1256 Situationen i Iran
-            </seg>
-            <seg n="db10a3c5">
-              2019/20:1257 Morfin i stället för syrgas
-            </seg>
-            <seg n="df4e0e1c">
-              2019/20:1258 Bredbandsutbyggnaden på landsbygden
-            </seg>
-            <seg n="91ff9d9a">
-              2019/20:1259 Buffertkrav för svenska företagare
-            </seg>
-            <seg n="78b6eee3">
-              2019/20:1260 Sänkt arbetsgivaravgift
-            </seg>
-            <seg n="90096b3b">
-              2019/20:1261 Arbetsgivares möjlighet att stödja företagare genom
-              tidiga julklappar
-            </seg>
-            <seg n="3baeef78">
-              Anf. 1 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="4bdaa671">
-              Anf. 3 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="bd5dc0b5">
-              Anf. 5 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="075c793c">
-              Anf. 7 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="8d364504">
-              Anf. 9 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="c064e191">
-              Anf. 10 JONAS SJÖSTEDT (V)
-            </seg>
-            <seg n="00033fee">
-              Anf. 11 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="43de38b4">
-              Anf. 12 JONAS SJÖSTEDT (V)
-            </seg>
-            <seg n="d5bd5e8d">
-              Anf. 15 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="89051ee0">
-              Anf. 19 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="e11a3b08">
-              Anf. 21 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="e2c9a1f2">
-              Anf. 23 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="3f339046">
-              Anf. 25 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="fa23c11a">
-              Anf. 27 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="d270ad37">
-              Anf. 29 Statsminister STEFAN LÖFVEN (S)
-            </seg>
           </u>
-          <note n="60dcfe22">
+          <note>
             Justitieutskottets betänkanden
           </note>
-          <note n="69755fd2">
+          <note>
             2019/20:JuU15 Stärkt sekretesskydd för hotade personer och snabbare
             handläggning av vissa hyrestvister
           </note>
-          <note n="09e4685a">
+          <note>
+            2019/20:JuU29 Våldsbrott och brottsoffer
+          </note>
+          <note>
             2019/20:JuU41 Inget grundavdrag vid bestämmande av brottsskadeersättning
           </note>
-          <note n="7aa81228">
+          <note>
             Socialutskottets betänkande
           </note>
-          <note n="766dedea">
+          <note>
             2019/20:SoU8 Stöd till personer med funktionsnedsättning
           </note>
-          <note n="5fa6c724">
+          <note>
             Socialförsäkringsutskottets betänkanden
           </note>
-          <note n="449f8fd2">
+          <note>
+            2019/20:SfU20 Migration och asylpolitik
+          </note>
+          <note>
+            2019/20:SfU21 Anhöriginvandring
+          </note>
+          <note>
+            2019/20:SfU22 Arbetskraftsinvandring
+          </note>
+          <note>
             Kulturutskottets betänkanden
           </note>
-          <note n="aedad656">
+          <note>
+            2019/20:KrU8 Civila samhället inklusive idrott och folkbildning
+          </note>
+          <u xml:id="i-df5656da991934ba-124" prev="i-df5656da991934ba-120" who="Q2740012">
+            <seg>
+              2019/20:KrU10 Kultur för alla
+            </seg>
+          </u>
+          <note>
+            2019/20:KrU11 Frågor om film och public service
+          </note>
+          <note>
             Ajournering
           </note>
-          <note n="c0812782">
+          <note>
             Kammaren beslutade kl. 15.19 på förslag av andre vice talmannen
             att ajournera sammanträdet till kl. 18.30.
           </note>
-          <note n="dcbadb21">
+          <note>
             Återupptaget sammanträde
           </note>
-          <note n="8b64ad7e">
+          <note>
             Sammanträdet återupptogs kl. 18.30.
           </note>
-          <note n="54432755">
+          <note>
             § 4 Bordläggning och beslut om förkortad motionstid
           </note>
-          <note n="f4c55d3b">
+          <note>
             Följande dokument anmäldes och bordlades:
           </note>
-          <note n="5cd0c615">
+          <note>
             Proposition
           </note>
-          <note n="7e597730">
+          <note>
             2019/20:158 Senarelagt införande av nationell läkemedelslista
             och bastjänstgöring för läkare
           </note>
-          <note n="eb9a0307">
+          <note>
             Kammaren biföll regeringens förslag att motionstiden för ovanstående
             proposition skulle förkortas till en dag.
           </note>
-          <note n="8e86909b">
+          <note>
             Miljö- och jordbruksutskottets betänkande
           </note>
-          <note n="b5e3b9d8">
+          <note>
+            2019/20: MJU18 Tillfällig åtgärd för att underlätta övergången
+            till sommarbensin
+          </note>
+          <note>
             § 5 Anmälan om interpellation
           </note>
-          <note n="78e894ab">
+          <note>
             Följande interpellation hade framställts:
           </note>
-          <note n="05e59bb7">
+          <note>
             den 27 april
           </note>
-          <note n="7599bbc8">
+          <note>
+            2019/20:395 Fiskestopp på Skånekusten
+          </note>
+          <note>
             av Magnus Oscarsson (KD)
           </note>
-          <note n="b1f83d27">
+          <note>
             till statsrådet Jennie Nilsson (S)
           </note>
-          <note n="cf2bb5ce">
+          <note>
             § 6 Anmälan om frågor för skriftliga svar
           </note>
-          <note n="35a8830a">
-            Följande frågor för skriftliga svar hade framställts:
-          </note>
-          <note n="05e59bb7">
+          <u xml:id="i-df5656da991934ba-125" prev="i-df5656da991934ba-120" who="Q2740012">
+            <seg>
+              Följande frågor för skriftliga svar hade framställts:
+            </seg>
+          </u>
+          <note>
             den 27 april
           </note>
-          <note n="db6cd096">
+          <u xml:id="i-df5656da991934ba-126" prev="i-df5656da991934ba-120" who="Q2740012">
+            <seg>
+              2019/20:1256 Situationen i Iran
+            </seg>
+          </u>
+          <note>
             av Alexandra Anstrell (M)
           </note>
-          <note n="85684e68">
+          <note>
             till utrikesminister Ann Linde (S)
           </note>
-          <note n="73d21cf4">
+          <note>
+            2019/20:1257 Morfin i stället för syrgas
+          </note>
+          <note>
             av Markus Wiechel (SD)
           </note>
-          <note n="707672ca">
+          <note>
             till socialminister Lena Hallengren (S)
           </note>
-          <note n="e235c6a9">
+          <note>
+            2019/20:1258 Bredbandsutbyggnaden på landsbygden
+          </note>
+          <note>
             av Johan Hultberg (M)
           </note>
-          <note n="df8b823b">
+          <note>
             till statsrådet Anders Ygeman (S)
           </note>
-          <note n="431eb7c4">
+          <note>
+            2019/20:1259 Buffertkrav för svenska företagare
+          </note>
+          <note>
             av Lars Beckman (M)
           </note>
-          <note n="4b09ab1d">
+          <note>
             till finansminister Magdalena Andersson (S)
           </note>
-          <note n="431eb7c4">
+          <note>
+            2019/20:1260 Sänkt arbetsgivaravgift
+          </note>
+          <note>
             av Lars Beckman (M)
           </note>
-          <note n="4b09ab1d">
+          <note>
             till finansminister Magdalena Andersson (S)
           </note>
-          <note n="431eb7c4">
+          <u xml:id="i-df5656da991934ba-127" prev="i-df5656da991934ba-120" who="Q2740012">
+            <seg>
+              2019/20:1261 Arbetsgivares möjlighet att stödja företagare genom
+              tidiga julklappar
+            </seg>
+          </u>
+          <note>
             av Lars Beckman (M)
           </note>
-          <note n="4b09ab1d">
+          <note>
             till finansminister Magdalena Andersson (S)
           </note>
-          <note n="34d2bc0f">
+          <note>
             2019/20:1262 Svenska myndigheters utvisningsbeslut
           </note>
-          <note n="a8ec780e">
+          <note>
             av Amineh Kakabaveh (-)
           </note>
-          <note n="2991e9de">
+          <note>
             till justitie- och migrationsminister Morgan Johansson (S)
           </note>
-          <note n="2a28e758">
+          <note>
             § 7 Kammaren åtskildes kl. 18.30.
           </note>
-          <note n="d83d3b14">
+          <note>
             Sammanträdet leddes av andre vice talmannen.
           </note>
-          <note n="4eab01fd">
+          <note>
             Vid protokollet
           </note>
-          <note n="b90a5c4c">
-            ANNA ASPEGREN
-          </note>
-          <note n="513d9c8d">
+          <u xml:id="i-df5656da991934ba-128" prev="i-df5656da991934ba-120" who="Q2740012">
+            <seg>
+              ANNA ASPEGREN
+            </seg>
+          </u>
+          <note>
             /Olof Pilo
           </note>
-          <note n="9b869a32">
+          <note>
             Innehållsförteckning
           </note>
-          <note n="2460eaaa">
+          <note>
             § 1 Återrapportering från informellt möte med EU:s stats- och
             regeringschefer
           </note>
-          <note n="6e9fcfbc">
+          <u xml:id="i-df5656da991934ba-129" prev="i-df5656da991934ba-120" who="Q2740012">
+            <seg>
+              Anf. 1 Statsminister STEFAN LÖFVEN (S)
+            </seg>
+          </u>
+          <note>
             Anf. 2 JESSIKA ROSWALL (M)
           </note>
-          <note n="7ebfcad0">
+          <note>
+            Anf. 3 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             Anf. 4 JESSIKA ROSWALL (M)
           </note>
-          <note n="31ed8eaa">
+          <note>
+            Anf. 5 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             Anf. 6 LUDVIG ASPLING (SD)
           </note>
-          <note n="5ed1e9e6">
+          <note>
+            Anf. 7 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             Anf. 8 LUDVIG ASPLING (SD)
           </note>
-          <note n="79974621">
+          <note>
+            Anf. 9 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
+            Anf. 10 JONAS SJÖSTEDT (V)
+          </note>
+          <note>
+            Anf. 11 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
+            Anf. 12 JONAS SJÖSTEDT (V)
+          </note>
+          <note>
             Anf. 13 Statsminister STEFAN LÖFVEN (S)
           </note>
-          <note n="e50e19e9">
+          <note>
             Anf. 14 DÉSIRÉE PETHRUS (KD)
           </note>
-          <note n="f5800fab">
+          <note>
+            Anf. 15 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             Anf. 16 DÉSIRÉE PETHRUS (KD)
           </note>
-          <note n="d9a0a6f7">
+          <note>
             Anf. 17 Statsminister STEFAN LÖFVEN (S)
           </note>
-          <note n="6ab37371">
+          <note>
             Anf. 18 FREDRIK MALM (L)
           </note>
-          <note n="6b14b181">
+          <note>
+            Anf. 19 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             Anf. 20 FREDRIK MALM (L)
           </note>
-          <note n="d442b3e3">
+          <note>
+            Anf. 21 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             Anf. 22 ÅSA WESTLUND (S)
           </note>
-          <note n="feb5d222">
+          <note>
+            Anf. 23 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             Anf. 24 ÅSA WESTLUND (S)
           </note>
-          <note n="e7d105b1">
+          <note>
+            Anf. 25 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             Anf. 26 AMANDA PALMSTIERNA (MP)
           </note>
-          <note n="ba5250ec">
+          <note>
+            Anf. 27 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             Anf. 28 AMANDA PALMSTIERNA (MP)
           </note>
-          <note n="c0623ed7">
+          <note>
+            Anf. 29 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             § 2 Ärenden för hänvisning till utskott
           </note>
-          <note n="256dde18">
+          <note>
             § 3 Ärenden för bordläggning
           </note>
-          <note n="aedad656">
+          <note>
             Ajournering
           </note>
-          <note n="dcbadb21">
+          <note>
             Återupptaget sammanträde
           </note>
-          <note n="54432755">
+          <note>
             § 4 Bordläggning och beslut om förkortad motionstid
           </note>
-          <note n="b5e3b9d8">
+          <note>
             § 5 Anmälan om interpellation
           </note>
-          <note n="cf2bb5ce">
+          <note>
             § 6 Anmälan om frågor för skriftliga svar
           </note>
-          <note n="2a28e758">
+          <note>
             § 7 Kammaren åtskildes kl. 18.30.
           </note>
-          <note n="a0267ee0">
-            Tryck: Elanders Sverige AB, Vällingby 2020
-          </note>
+          <u xml:id="i-df5656da991934ba-130" prev="i-df5656da991934ba-120" who="Q2740012">
+            <seg>
+              Tryck: Elanders Sverige AB, Vällingby 2020
+            </seg>
+          </u>
         </div>
       </body>
     </text>

@@ -1,11 +1,10 @@
 from lxml import etree
-import re, random, datetime
+import re, random
 from pyparlaclarin.read import element_hash
 import dateparser
 import pandas as pd
-
-from .utils import elem_iter
-from .db import load_expressions
+from .utils import elem_iter, infer_metadata, parse_date
+from .db import load_expressions, filter_db, load_patterns, load_metadata
 from .segmentation import (
     detect_mp,
     detect_minister,
@@ -15,6 +14,75 @@ from .segmentation import (
     classify_paragraph,
     intro_to_dict,
 )
+from .match_mp import multiple_replace
+from datetime import datetime
+from unidecode import unidecode
+
+def redetect_protocol(data):
+    tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
+    parser = etree.XMLParser(remove_blank_text=True)
+
+    protocol, metadata = data
+    party_mapping, mp_db, minister_db, speaker_db = metadata
+    
+
+    #party_mapping, mp_db, minister_db, speaker_db = load_metadata()
+
+    protocol_id = protocol.split("/")[-1]
+    metadata = infer_metadata(protocol)
+    root = etree.parse(protocol, parser).getroot()
+    
+    # Year from the folder name
+    year = metadata["year"]
+    # Take into account folders such as 198889
+    secondary_year = metadata.get("secondary_year", year)
+
+    dates = [
+        parse_date(elem.attrib.get("when"))
+        for elem in root.findall(tei_ns + "docDate")
+        if parse_date(elem.attrib.get("when")).year in [year, secondary_year]
+    ]
+    
+    # Dates from xml is wrong for digitized era        
+    if len(dates) > 0:
+        start_date, end_date = min(dates), max(dates)          
+
+    else:
+        start_date = datetime(year,1,1)
+        end_date = datetime(secondary_year,12,31)
+    
+    year_mp_db = filter_db(mp_db, start_date=start_date, end_date=end_date)
+    year_minister_db = filter_db(minister_db, start_date=start_date, end_date=end_date)
+    year_speaker_db = filter_db(speaker_db, start_date=start_date, end_date=end_date)
+    
+    # Introduction patterns
+    pattern_db = load_patterns()
+    pattern_db = pattern_db[
+        (pattern_db["start"] <= year) & (pattern_db["end"] >= year)
+    ]
+
+    root, unk = detect_mps(
+        root,
+        None,
+        pattern_db,
+        mp_db=year_mp_db,
+        minister_db=year_minister_db,
+        speaker_db=year_speaker_db,
+        metadata=metadata,
+        party_map=party_mapping,
+        protocol_id=protocol_id,
+        unknown_variables=["gender", "party", "other"],
+    )
+
+    b = etree.tostring(
+        root, pretty_print=True, encoding="utf-8", xml_declaration=True
+    )
+
+    f = open(protocol, "wb")
+    f.write(b)
+    f.close()
+    return unk
+
 
 def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minister_db_secondary=None, speaker_db=None, metadata=None, party_map=None, protocol_id=None, unknown_variables=None):
     """
@@ -23,6 +91,10 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
     """
     mp_expressions = load_expressions(phase="mp")
     
+    # For multiple replace function
+    latin_characters = [chr(c) for c in range(192,383+1)]
+    latin_characters = {c:unidecode(c) for c in latin_characters if c not in 'åäöÅÄÖ'}
+
     xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     current_speaker = None
     prev = None
@@ -31,6 +103,7 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
     # Extract information of unknown speakers
     unknowns = []
 
+    #print(metadata)
     # For bicameral era, prioritize MPs from the same chamber as the protocol
     if "chamber" in metadata:
         mp_db_secondary = mp_db[mp_db["chamber"] != metadata["chamber"]]
@@ -66,6 +139,8 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
             if elem.attrib.get("type", None) == "speaker":
                 if type(elem.text) == str:
                     d = intro_to_dict(elem.text, mp_expressions)
+                    if 'name' in d:
+                        d['name'] = multiple_replace(latin_characters, d['name'])
 
                     if 'other' in d:
                         # Match minister

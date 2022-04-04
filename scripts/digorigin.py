@@ -7,64 +7,41 @@ import progressbar
 import pandas as pd
 import argparse
 
-from pyriksdagen.download import read_xml_blocks, read_xml_blocks
+from pyriksdagen.download import oppna_data_to_dict
+from pyriksdagen.export import dict_to_parlaclarin
 from pyriksdagen.utils import infer_metadata
 
+import json
+import pandas as pd
+from pathlib import Path
+import progressbar
+
 def main(args):
-    dataraw = "input/raw/"
-    outfolder = "input/protocols/"
-    folders = os.listdir(dataraw)
-    folders = [dataraw + folder for folder in folders if os.path.isdir(dataraw + folder)]
-    folders = [folder for folder in folders if "-xml" not in folder]
+    json_files = []
+    for infolder in args.infolder:
+        json_files += list(Path(infolder).glob("*.json"))
+    for fpath in progressbar.progressbar(list(json_files)):
+        with open(fpath, encoding='utf-8-sig') as f:
+            data = json.load(f)
 
-    print(folders)
+        session = data["dokumentstatus"]["dokument"]["rm"]
+        pid = data["dokumentstatus"]["dokument"]["nummer"]
+        date = data["dokumentstatus"]["dokument"]["datum"]
+        html = data["dokumentstatus"]["dokument"]["html"]
+        year = int(date.split("-")[0])
 
-    columns = ["protocol_id", "year", "pages", "number"]
-    rows = []
+        if year >= args.start and year <= args.end:
+            data = oppna_data_to_dict(data)
+            data["edition"] = args.edition
 
-    for folder in sorted(folders):
-        files = sorted(os.listdir(folder))
-
-        print(folder)
-
-        for fpath in progressbar.progressbar(files):
-            html_path = folder + "/" + fpath
-            xml_path = folder + "-xml/" + fpath.replace(".html", ".xml")
-            root = get_html_blocks(html_path)
-            if root is None:
-                if os.path.exists(xml_path):
-                    root = get_xml_blocks(xml_path, html_path)
-
-            if root is not None:
-                protocol_id = root.attrib["id"]
-                metadata = infer_metadata(protocol_id)
-
-                root_str = etree.tostring(root, encoding="utf-8", pretty_print=True).decode(
-                    "utf-8"
-                )
-
-                if not os.path.exists(outfolder + protocol_id):
-                    os.mkdir(outfolder + protocol_id)
-
-                f = open(outfolder + protocol_id + "/original.xml", "w")
-                f.write(root_str)
-                f.close()
-
-                row = [protocol_id, metadata["year"], None, metadata["number"]]
-
-                # Set pages to 1 if there is content
-                if len("".join(root.itertext())) >= 10:
-                    row[2] = 1
-
-                rows.append(row)
-
-
-    protocol_db = pd.DataFrame(rows, columns=columns)
-    print(protocol_db)
-
-    protocol_db.to_csv("input/protocols/digital_originals.csv")
+            # Create parlaclarin and write to disk
+            dict_to_parlaclarin(data)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--start", type=int, default=1990)
+    parser.add_argument("--end", type=int, default=2022)
+    parser.add_argument("--edition", type=str, default="0.4.2")
+    parser.add_argument("--infolder", nargs='+', type=str, required=True)
     args = parser.parse_args()
     main(args)

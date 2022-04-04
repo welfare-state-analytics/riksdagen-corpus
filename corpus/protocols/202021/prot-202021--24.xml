@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2020</title>
+        <title>Riksdagens protocols 202021</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2020</title>
+          <title>Riksdagens protocols 202021</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -63,14 +60,14 @@
       </front>
       <body>
         <div>
-          <note n="b86c9e0e">
+          <note>
             § 1 Återrapportering från Europeiska rådets möte den 15–16 oktober
           </note>
-          <note type="speaker" n="db034800">
+          <note type="speaker">
             Anf. 1 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-1b4fda849154c940-0" n="e5475bfc">
-            <seg n="da6f10d3">
+          <u xml:id="i-ab5eb9fcc37eb535-0" next="i-ab5eb9fcc37eb535-10" who="Q2740012">
+            <seg>
               Fru talman! I förra veckan träffades alltså Europeiska rådet.
               Mötet in ­ leddes på torsdag eftermiddag med en kort information
               om förhandling ­ arna med Europaparlamentet vad gäller den fleråriga
@@ -80,14 +77,18 @@
               till Afrika, och vi antog också korta slutsatser om södra grannskapet,
               Belarus, Turkiet och nedskjutningen av flight MH17.
             </seg>
-            <seg n="920dff15">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-1" prev="i-ab5eb9fcc37eb535-0" who="Q2740012">
+            <seg>
               Fru talman! Under punkten om den fleråriga budgetramen var Europaparlamentets
               talman som brukligt på plats för att redovisa parlamentets inställning.
               De kollegor som tog till orda markerade tydligt att Europeiska
               rådets uppgörelse från i juli måste utgöra ramen för de fortsatta
               förhandlingarna. Även vikten av skyndsamma beslut betonades.
             </seg>
-            <seg n="5a7c07e9">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-2" prev="i-ab5eb9fcc37eb535-0" who="Q2740012">
+            <seg>
               Fru talman! Därefter följde en längre diskussion om klimatmålen.
               Ordförande Charles Michel förklarade att man efter diskussionen
               på detta möte skulle återkomma till frågan i december, med målet
@@ -102,7 +103,9 @@
               och vill inte se högre målsättningar på klimatområdet, så det
               kommer att bli en svår diskussion fram till nästa toppmöte.
             </seg>
-            <seg n="dd6d0e6e">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-3" prev="i-ab5eb9fcc37eb535-0" who="Q2740012">
+            <seg>
               Fru talman! Middagen ägnades åt förhandlingen med Storbritannien,
               som ju är inne i ett kritiskt skede. Det är svåra frågor att lösa
               ut; det handlar fortfarande om rättvisa konkurrensvillkor, inklusive
@@ -114,7 +117,9 @@
               här förhandlingsarbetet. Det är mycket viktigt för Sverige, för
               EU och för Storbritannien att vi når i mål med förhandlingen.
             </seg>
-            <seg n="f243f8f8">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-4" prev="i-ab5eb9fcc37eb535-0" who="Q2740012">
+            <seg>
               Fru talman! Vi diskuterade därefter läget vad gäller covid-19.
               Det var en allvarsam diskussion där flera regeringschefer vittnade
               om ett ökat antal smittade och en hårdare belastning på sjukvården.
@@ -125,7 +130,9 @@
               att den här krisen kommer att bli långvarig och att vi därför
               regelbundet kommer att återkomma till frågan.
             </seg>
-            <seg n="27829904">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-5" prev="i-ab5eb9fcc37eb535-0" who="Q2740012">
+            <seg>
               Fru talman! På fredagen diskuterades relationen mellan EU och
               Afrika, och jag underströk betydelsen av en mer sammanhållen relation
               – ett partnerskap som är baserat på ömsesidighet och gemensamma
@@ -133,46 +140,58 @@
               demokrati, jämställdhet, rättsstatens principer, miljö- och klimatmässig
               hållbarhet och inte minst investeringar.
             </seg>
-            <seg n="e397b104">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-6" prev="i-ab5eb9fcc37eb535-0" who="Q2740012">
+            <seg>
               En stor del av diskussionen kom att handla om begreppet ” gender
               equality ”. Jag och en stor majoritet av de övriga ville att begreppet
               skulle användas i slutsatstexterna, men två medlemsstater kunde
               inte acceptera det. Kompromissen blev därför att vi hänvisar till
               tidigare texter där begreppet ”gender equality” omnämns.
             </seg>
-            <seg n="cbf506ac">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-7" prev="i-ab5eb9fcc37eb535-0" who="Q2740012">
+            <seg>
               Fru talman! Slutligen noterade vi fyra utrikespolitiska frågor.
             </seg>
-            <seg n="eddc954b">
-              Först var det 25- årsjubileet av den så kallade Barcelonaprocessen
-              med det södra grannskapet, och det ska vi återkomma till i december.
-            </seg>
-            <seg n="b0c769f5">
+          </u>
+          <note>
+            Först var det 25- årsjubileet av den så kallade Barcelonaprocessen
+            med det södra grannskapet, och det ska vi återkomma till i december.
+          </note>
+          <u xml:id="i-ab5eb9fcc37eb535-8" prev="i-ab5eb9fcc37eb535-0" who="Q2740012">
+            <seg>
               Därefter fördömde vi åter regimens våld mot fredliga demonstranter
               i Belarus, och vi uttryckte även stöd till Litauen och Polen som
               har fått kalla hem diplomater från Belarus.
             </seg>
-            <seg n="14494c73">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-9" prev="i-ab5eb9fcc37eb535-0" who="Q2740012">
+            <seg>
               Även Turkiets provokativa agerande i östra Medelhavet fördömdes.
             </seg>
-            <seg n="f6128082">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-10" prev="i-ab5eb9fcc37eb535-0" who="Q2740012">
+            <seg>
               Allra sist uppmanade vi Ryssland att samarbeta med utredningen
               om nedskjutningen av flight MH17. Vi måste få veta sanningen,
               och de skyldiga måste ställas till svars.
             </seg>
           </u>
-          <note n="e656156f">
+          <note>
             Detta, fru talman, var återrapporteringen från Europeiska rådets
             möte.
           </note>
-          <note type="speaker" n="00ffe298">
+          <note type="speaker">
             Anf. 2 JESSICA ROSENCRANTZ (M):
           </note>
-          <u who="Q4975481" xml:id="i-93e7a19bbba8ffa3-0" n="84724849">
-            <seg n="646dc5bd">
+          <u xml:id="i-ab5eb9fcc37eb535-11" next="i-ab5eb9fcc37eb535-14" who="Q4975481">
+            <seg>
               Fru talman! Tack för återrapporten, statsministern!
             </seg>
-            <seg n="63f5fefc">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-12" prev="i-ab5eb9fcc37eb535-11" who="Q4975481">
+            <seg>
               Jag tänkta ägna lite uppmärksamhet åt klimatfrågan. För Moderaterna
               är det viktigt att EU visar ledarskap i klimatfrågan och agerar
               föredöme för andra länder. En viktig del är att få den europeiska
@@ -180,7 +199,9 @@
               EU blir klimatneutralt senast år 2050 – och så att målet för 2030
               också höjs betydligt.
             </seg>
-            <seg n="f2f8d01e">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-13" prev="i-ab5eb9fcc37eb535-11" who="Q4975481">
+            <seg>
               Stat s ministern bad i förra veckan om riksdagens stöd för regeringens
               linje att minska utsläppen i EU med minst 55 procent till 2030.
               Statsministern motiverade då regeringens linje med att den var
@@ -192,7 +213,9 @@
               några stycken som blev lite förvirrade över regeringens linje
               här.
             </seg>
-            <seg n="d44b6f69">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-14" prev="i-ab5eb9fcc37eb535-11" who="Q4975481">
+            <seg>
               Nu kan vi dock konstatera att överenskommelsen på Europeiska
               rådet blev minst 55 procent. Då undrar jag – för att kanske vara
               lite övertydlig – om statsministern står bakom rådsslutsatserna
@@ -201,15 +224,17 @@
               det realistiska att komma överens om mellan medlemsstaterna?
             </seg>
           </u>
-          <note type="speaker" n="1130f1e0">
+          <note type="speaker">
             Anf. 3 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-1b4fda849154c940-1" n="e5475bfc">
-            <seg n="3590d9d6">
+          <u xml:id="i-ab5eb9fcc37eb535-15" next="i-ab5eb9fcc37eb535-18" who="Q2740012">
+            <seg>
               Fru talman! Till att börja med har vi ingen överenskommelse om
               minst 55 procent än, utan det återkommer vi till i december.
             </seg>
-            <seg n="447257c5">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-16" prev="i-ab5eb9fcc37eb535-15" who="Q2740012">
+            <seg>
               Jag tycker att diskussionerna på Europeiska rådet visar att det
               finns en stor majoritet för att gå på minst 55 procent. Dock har
               vi fortfarande ett par tre medlemsstater som inte vill gå på 55,
@@ -220,29 +245,35 @@
               faktiskt omnämnt, liksom att det bör omfatta alla medlemsstater
               men samtidigt bygga på solidaritet och andra principer.
             </seg>
-            <seg n="d9a24c35">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-17" prev="i-ab5eb9fcc37eb535-15" who="Q2740012">
+            <seg>
               Detta andas alltså att det är i den riktningen vi ska gå, men
               jag vill inte på något sätt ta ut någonting i förskott. Det är
               nämligen några medlemsstater som absolut inte vill detta, så vi
               har ingen överenskommelse.
             </seg>
-            <seg n="b26c8b2e">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-18" prev="i-ab5eb9fcc37eb535-15" who="Q2740012">
+            <seg>
               Ja, jag bedömer att det är minst 55 som är det realistiska om
               man ska gå vidare.
             </seg>
           </u>
-          <note type="speaker" n="e566b381">
+          <note type="speaker">
             Anf. 4 JESSICA ROSENCRANTZ (M):
           </note>
-          <u who="Q4975481" xml:id="i-93e7a19bbba8ffa3-1" n="84724849">
-            <seg n="c5cd0555">
+          <u xml:id="i-ab5eb9fcc37eb535-19" next="i-ab5eb9fcc37eb535-20" who="Q4975481">
+            <seg>
               Fru talman! Då uppfattade jag alltså det statsministern framförde
               senast korrekt, det vill säga att statsministerns bedömning är
               att det realistiska är minst 55 procent. Då kan man bli något
               konfunderad över att andra delar av regeringen blandar in andra
               siffror i sammanhanget, nämligen 60 eller 65 procent.
             </seg>
-            <seg n="395898fc">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-20" prev="i-ab5eb9fcc37eb535-19" who="Q4975481">
+            <seg>
               Jag tolkar statsministern som att det troliga och rimliga är
               att förvänta sig en uppgörelse om minst 55 procent. Är regeringens
               linje inför mötet i december, då beslutet ska tas, att ställa
@@ -251,11 +282,11 @@
               spela in då?
             </seg>
           </u>
-          <note type="speaker" n="9efc49fc">
+          <note type="speaker">
             Anf. 5 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-1b4fda849154c940-2" n="e5475bfc">
-            <seg n="2142422f">
+          <u xml:id="i-ab5eb9fcc37eb535-21" who="Q2740012">
+            <seg>
               Fru talman! Det är just minst 55 procent. Minst 55 kan också
               vara mer än 55, men detta är för att få en samling kring ett mål
               som alla kan ställa upp på. Det är också så det uttrycks. Det
@@ -268,47 +299,57 @@
               till i december är minst 55 procent.
             </seg>
           </u>
-          <note type="speaker" n="3ac606bb">
+          <note type="speaker">
             Anf. 6 MARTIN KINNUNEN (SD):
           </note>
-          <u who="Q5910434" xml:id="i-ff9de3d0c0cb5d6b-0" n="ee92c536">
-            <seg n="1eaaa856">
+          <u xml:id="i-ab5eb9fcc37eb535-22" next="i-ab5eb9fcc37eb535-25" who="Q5910434">
+            <seg>
               Fru talman! Tack, statsministern, för återrapporten!
             </seg>
-            <seg n="f32ecca4">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-23" prev="i-ab5eb9fcc37eb535-22" who="Q5910434">
+            <seg>
               När det kommer till klimatpolitiken och regeringens linje har
               vi kunnat konstatera att det finns tre olika procentsiffror som
               regeringen står bakom: 55, 60 och 65. Men statsministern vill
               tydligen mest prata om 55 procent.
             </seg>
-            <seg n="f024a587">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-24" prev="i-ab5eb9fcc37eb535-22" who="Q5910434">
+            <seg>
               Samtidigt som vi talar om dessa procentsiffror kostar detta även
               peng ­ ar. EU-kommissionen har räknat på 50–55-målet och kommit
               fram till en kostnad på 0,39 procent av bruttonationalprodukten.
               Det motsvarar 1 300 miljarder euro.
             </seg>
-            <seg n="457a1d05">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-25" prev="i-ab5eb9fcc37eb535-22" who="Q5910434">
+            <seg>
               Regeringen för fram förslag om att höja ambitionen ytterligare.
               Hur mycket pengar tror regeringen att det skulle kosta om målet
               är 60 respektive 65 procent?
             </seg>
           </u>
-          <note type="speaker" n="b933bed6">
+          <note type="speaker">
             Anf. 7 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-1b4fda849154c940-3" n="e5475bfc">
-            <seg n="6538701e">
+          <u xml:id="i-ab5eb9fcc37eb535-26" next="i-ab5eb9fcc37eb535-30" who="Q2740012">
+            <seg>
               Fru talman! Jag får upprepa en gång till: Minst 55 procent kan
               vara mer än 55 procent. Det kan vi åtminstone vara eniga om. Man
               kan både ha minst 55 och själv stå för att det borde vara 60.
             </seg>
-            <seg n="0c5392f8">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-27" prev="i-ab5eb9fcc37eb535-26" who="Q2740012">
+            <seg>
               Får vi minst 55 procent skrivet kan man också arbeta för en högre
               målsättning efter det; den kan vara 60 eller 65. Jag tycker att
               vi ska hålla så hög ambition som möjligt, för det är bråttom med
               tanke på det vi ser när det gäller klimatförändringar.
             </seg>
-            <seg n="c38e992d">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-28" prev="i-ab5eb9fcc37eb535-26" who="Q2740012">
+            <seg>
               När det gäller pengar kan man göra olika kalkyler. Jag gör också
               en annan kalkyl, nämligen att man genom att ligga först i omställningen
               kommer att ha en stor konkurrensfördel. Jag har vid ett otal tillfällen
@@ -318,14 +359,18 @@
               vi utveckla elflygplan gäller samma sak där, liksom för den batteriproduktion
               som ska starta i Sverige.
             </seg>
-            <seg n="1779ee9f">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-29" prev="i-ab5eb9fcc37eb535-26" who="Q2740012">
+            <seg>
               Jag tror att vi nu är vid en tipping point där det går åt rätt
               håll och där allt fler ser möjligheten att göra en omställning
               som också innebär nya jobb och som innefattar den nya tekniken
               och den nya välfärden. Den finns i klimatomställningen; det är
               så vi ska se det.
             </seg>
-            <seg n="43198a8e">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-30" prev="i-ab5eb9fcc37eb535-26" who="Q2740012">
+            <seg>
               Sedan kommer det att finnas en omställning, och det är därför
               det i slutsatserna sägs att det bör göras analyser för varje medlemsstat.
               Det är olika utmaningar; det råder ingen tvekan om det. De som
@@ -336,42 +381,48 @@
               till i omställningen.
             </seg>
           </u>
-          <note type="speaker" n="e4df8bee">
+          <note type="speaker">
             Anf. 8 MARTIN KINNUNEN (SD):
           </note>
-          <u who="Q5910434" xml:id="i-ff9de3d0c0cb5d6b-1" n="ee92c536">
-            <seg n="ef637458">
+          <u xml:id="i-ab5eb9fcc37eb535-31" next="i-ab5eb9fcc37eb535-33" who="Q5910434">
+            <seg>
               Fru talman! Jag konstaterar att regeringen går fram med en förhoppning
               om 60 eller 65 procent, eller kanske ännu större ambitioner, utan
               att ha någon uppfattning om kostnaderna. Man har i stället förhoppningar.
               Man har tro. Man hoppas helt enkelt att det här kommer att gagna
               svensk och europeisk konkurrenskraft, och det hoppas jag också.
             </seg>
-            <seg n="8ff71324">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-32" prev="i-ab5eb9fcc37eb535-31" who="Q5910434">
+            <seg>
               Samtidigt tar ju kommissionen själv upp risker vad gäller koldioxidläckage,
               eller investeringsläckage som man oftare talar om i dag. I stället
               för att investeringarna sker i Europa sker de på andra marknader
               där kraven inte är lika stora. Det betyder att jobben flyttar
               till andra kontinenter.
             </seg>
-            <seg n="4e002abd">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-33" prev="i-ab5eb9fcc37eb535-31" who="Q5910434">
+            <seg>
               Hur ser statsministern att vi ska motarbeta detta? Har statsministern
               någon rädsla eller oro för att detta kan leda till att utsläppen
               globalt inte minskar?
             </seg>
           </u>
-          <note type="speaker" n="ba51dce7">
+          <note type="speaker">
             Anf. 9 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-1b4fda849154c940-4" n="e5475bfc">
-            <seg n="3147c11f">
+          <u xml:id="i-ab5eb9fcc37eb535-34" next="i-ab5eb9fcc37eb535-36" who="Q2740012">
+            <seg>
               Fru talman! Det vore naivt att bortse från att det finns en viss
               risk för så kallat läckage. Men det är också så att hela världen
               håller på att ställa om. Hela världen omfattas av Parisavtalet,
               förutom de länder som inte gått med i det eller som tänker dra
               sig ur det. Det gör att alla går i samma riktning.
             </seg>
-            <seg n="288e5ac7">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-35" prev="i-ab5eb9fcc37eb535-34" who="Q2740012">
+            <seg>
               Det är ju inte så att den omställning som görs i svensk stålproduktion
               förhindrar investeringar här i Sverige – snarare tvärtom, vill
               jag påstå. Det gäller att se till att vi från politikens håll
@@ -380,17 +431,19 @@
               människor att ställa om och vara med i denna omställning. Det
               kan handla om utbildning eller om andra saker.
             </seg>
-            <seg n="a07a71a2">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-36" prev="i-ab5eb9fcc37eb535-34" who="Q2740012">
+            <seg>
               Ett eventuellt läckage är anledningen till att det nu diskuteras
               en kostnad för länder som vill exportera till EU men som inte
               har samma klimatkrav. Så balanserar man också detta.
             </seg>
           </u>
-          <note type="speaker" n="8f376669">
+          <note type="speaker">
             Anf. 10 SOFIA NILSSON (C):
           </note>
-          <u who="Q60823070" xml:id="i-c7ac16b46f25d79a-0" n="840fc2b9">
-            <seg n="c977d9f8">
+          <u xml:id="i-ab5eb9fcc37eb535-37" next="i-ab5eb9fcc37eb535-41" who="Q60823070">
+            <seg>
               Fru talman! När smittspridningen nu återigen har börjat öka inom
               Europa och ett antal medlemsstater inför interna nedstängningar
               och kraftiga karantänsregler vill vi understryka vikten av att
@@ -399,7 +452,9 @@
               återhämtning att den inre marknaden och handeln fungerar som den
               gör i mer normala tider.
             </seg>
-            <seg n="dbe4f96d">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-38" prev="i-ab5eb9fcc37eb535-37" who="Q60823070">
+            <seg>
               Det är även nödvändigt för transporten av läkemedel och skyddsutrustning
               att de fria rörligheterna upprätthålls. Inom några månader ska
               vi förhoppningsvis börja transportera vaccin mot covid-19 över
@@ -409,12 +464,16 @@
               och därför är det lite oroväckande att tänka på vad som kan hända
               om lastbilar blir stående vid stängda gränser.
             </seg>
-            <seg n="c1e06204">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-39" prev="i-ab5eb9fcc37eb535-37" who="Q60823070">
+            <seg>
               Jag tror att det är helt centralt att EU drar lärdom av inledningen
               av pandemin och gör sitt yttersta för att säkerställa att de fria
               rörligheterna inte begränsas.
             </seg>
-            <seg n="3e377045">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-40" prev="i-ab5eb9fcc37eb535-37" who="Q60823070">
+            <seg>
               I den trafikslagsövergripande beredskapsplan för godstransporter
               under pandemier som diskuterades av EU:s transportministrar i
               slutet av september lade man stor vikt vid att värna den nationella
@@ -423,17 +482,19 @@
               är det minst lika viktigt att gränserna förblir öppna för transport
               av bland annat läkemedel och inte minst vaccin.
             </seg>
-            <seg n="58bd48d8">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-41" prev="i-ab5eb9fcc37eb535-37" who="Q60823070">
+            <seg>
               Därför är min fråga: Hur ser statsministern på riskerna för en
               upprepning av våren, och hur avser regeringen att verka inom EU
               för att de inre gränserna ska förbli öppna?
             </seg>
           </u>
-          <note type="speaker" n="1f55b5f2">
+          <note type="speaker">
             Anf. 11 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-1b4fda849154c940-5" n="e5475bfc">
-            <seg n="ff82cde3">
+          <u xml:id="i-ab5eb9fcc37eb535-42" next="i-ab5eb9fcc37eb535-45" who="Q2740012">
+            <seg>
               Fru talman! Sofia Nilsson pekar på ett mycket viktigt ämne. Det
               visade sig i våras att det inte fungerade som det var tänkt, och
               jag vill påstå att detta bidrog till att förvärra situationen.
@@ -442,7 +503,9 @@
               Vi har påpekat både bilateralt och i andra sammanhang att det
               inte kan fungera så, för då skadas den inre marknaden.
             </seg>
-            <seg n="cd743f99">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-43" prev="i-ab5eb9fcc37eb535-42" who="Q2740012">
+            <seg>
               Det är bland annat mot denna bakgrund som det nu finns en text
               i slutsatserna om att den övergripande samordningen är viktig.
               Det är viktigt att vi kan se ungefär samma situation och ha samma
@@ -452,14 +515,18 @@
               kan inte ha en bild och en annan medlemsstat ha en helt annan
               bild; då blir det kaos igen.
             </seg>
-            <seg n="6840ec8a">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-44" prev="i-ab5eb9fcc37eb535-42" who="Q2740012">
+            <seg>
               Samordningen är viktig, men ytterst är det nationella beslut
               som ska avgöra. Att verkligen få vaccinet distribuerat blir minst
               lika viktigt, för när det väl kommer måste distributionen ske
               så fort som det någonsin går så att människor kan få skydd mot
               den här sjukdomen. Då bör inte minst de här reglerna vara på plats.
             </seg>
-            <seg n="34ce4c0c">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-45" prev="i-ab5eb9fcc37eb535-42" who="Q2740012">
+            <seg>
               Det är fördragsbundet vad som är nationell kompetens respektive
               EU-gemensam kompetens. Det mesta av detta är ju nationell kompetens.
               Men det är viktigt att vi får en mycket bättre samordning av hanteringen
@@ -467,21 +534,25 @@
               både sjukvård och produktion och inte minst distribution av vaccin.
             </seg>
           </u>
-          <note type="speaker" n="e6e1c1bf">
+          <note type="speaker">
             Anf. 12 SOFIA NILSSON (C):
           </note>
-          <u who="Q60823070" xml:id="i-c7ac16b46f25d79a-1" n="840fc2b9">
-            <seg n="862f4fb3">
+          <u xml:id="i-ab5eb9fcc37eb535-46" next="i-ab5eb9fcc37eb535-48" who="Q60823070">
+            <seg>
               Fru talman! Tack för svaret, statsministern!
             </seg>
-            <seg n="068c1b07">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-47" prev="i-ab5eb9fcc37eb535-46" who="Q60823070">
+            <seg>
               När ett fungerande vaccin väl finns på plats och tillgängligt
               på marknaden är det viktigt att fördelningen av detta mellan EU:s
               medlemsstater fungerar på ett bra sätt. Där är Sverige en viktig
               del och verkligen en part i det här samarbetet, vilket känns tryggt
               på ett sätt.
             </seg>
-            <seg n="c2ab9f8e">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-48" prev="i-ab5eb9fcc37eb535-46" who="Q60823070">
+            <seg>
               Återigen funderar jag över just transporten och hur vi faktiskt
               ska kunna säkra den. Exemplet från i våras, då skyddskläder och
               visir som var avsedda för Sverige fastnade i Frankrike, är verkligen
@@ -491,11 +562,11 @@
               medlemsstater.
             </seg>
           </u>
-          <note type="speaker" n="5c204408">
+          <note type="speaker">
             Anf. 13 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-1b4fda849154c940-6" n="e5475bfc">
-            <seg n="b0d27f5b">
+          <u xml:id="i-ab5eb9fcc37eb535-49" next="i-ab5eb9fcc37eb535-51" who="Q2740012">
+            <seg>
               Fru talman! Det ska fördelas enligt en nyckel som gäller lika
               för alla. Det var därför vi redan i våras påpekade att vi inte
               kan ha ordningen att några länder ensidigt stänger gränser och
@@ -503,7 +574,9 @@
               andra avseenden. Det är som sagt inte mindre viktigt när det gäller
               vaccin.
             </seg>
-            <seg n="c5d7776e">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-50" prev="i-ab5eb9fcc37eb535-49" who="Q2740012">
+            <seg>
               Min uppfattning är nog att det finns en större samsyn kring att
               det som skedde i våras var ett problem för inre marknaden och
               något som vi bör undvika. Det är därför som Europeiska rådet nu
@@ -511,22 +584,24 @@
               , men också samordningen mellan medlemsstater, så att fördelningen
               av vaccin faktiskt fungerar.
             </seg>
-            <seg n="d971f084">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-51" prev="i-ab5eb9fcc37eb535-49" who="Q2740012">
+            <seg>
               Sedan finns det ytterligare ett perspektiv på vaccinet. Det är
               den globala fördelningen, som jag menar att EU ska engagera sig
               i för att se till att också fattigare länder som ligger en bit
               bort får sin del av vaccinet.
             </seg>
           </u>
-          <note type="speaker" n="e7dc53c7">
+          <note type="speaker">
             Anf. 14 JONAS SJÖSTEDT (V):
           </note>
-          <note n="59f8014b">
+          <note>
             Fru talman! Tack, statsministern, för redogörelsen från Europeiska
             rådet!
           </note>
-          <u who="Q2029704" xml:id="i-3544dd8c8b3421f6-0" n="bbe9d015">
-            <seg n="99745f2d">
+          <u xml:id="i-ab5eb9fcc37eb535-52" next="i-ab5eb9fcc37eb535-54" who="Q2029704">
+            <seg>
               Inför toppmötet fick statsministern ett mandat att hävda 55 procents
               utsläppsminskning till 2030. Senare samma dag gick vice statsministern
               ut och sa att Sveriges position var 60 procents med sikte på 65
@@ -536,7 +611,9 @@
               vilken ståndpunkt Sverige har i denna helt avgörande framtidsfråga.
               55 procent är för lite om vi ska klara klimatet.
             </seg>
-            <seg n="86895afa">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-53" prev="i-ab5eb9fcc37eb535-52" who="Q2029704">
+            <seg>
               Helgardering kan man göra på stryktipset med 1, X, 2. Då får
               man betala lite extra, och man har lättare att få fler rätt. Men
               i Europeiska rådet fungerar det inte med helgardering. Om Sverige
@@ -548,22 +625,26 @@
               mandat. Jag menar att här råder fortsatt stor oklarhet om vad
               som faktiskt är regeringens position.
             </seg>
-            <seg n="bb85db04">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-54" prev="i-ab5eb9fcc37eb535-52" who="Q2029704">
+            <seg>
               I det här fallet hejar jag på Isabella Lövin och den högre målsättningen.
               Jag undrar: När statsministern åker till Europeiska rådets möte
               i december, när detta ska avgöras, är då Sveriges position minst
               55 procent eller är det minst 60 procent med sikte på 65 procent?
             </seg>
           </u>
-          <note type="speaker" n="d9f409d8">
+          <note type="speaker">
             Anf. 15 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-1b4fda849154c940-7" n="e5475bfc">
-            <seg n="286c9713">
+          <u xml:id="i-ab5eb9fcc37eb535-55" next="i-ab5eb9fcc37eb535-58" who="Q2740012">
+            <seg>
               Fru talman! Med all respekt för Jonas Sjöstedt tror jag att jag
               har större erfarenhet av Europeiska rådet.
             </seg>
-            <seg n="e66fb1a0">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-56" prev="i-ab5eb9fcc37eb535-55" who="Q2740012">
+            <seg>
               Vi fick ett mandat om minst 55 procent. För mig är 55 procent
               och uppåt minst 55 procent. Det är detta mandat vi har. Det är
               det som kommissionen har föreslagit, och det är det som det relateras
@@ -575,7 +656,9 @@
               fram positionerna eller om vi ska ha en ännu tuffare inställning
               och säga: Vi slogs minsann för det här som vi vet var ännu svårare.
             </seg>
-            <seg n="8f109673">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-57" prev="i-ab5eb9fcc37eb535-55" who="Q2740012">
+            <seg>
               Det är klart att vi vill ha en högre ambition, men vi vet också
               att det finns länder som inte ens vill ha 55 procent. I slutsatserna
               nämns och refereras det till att målet ska omfatta alla stater
@@ -585,7 +668,9 @@
               i december. Det kommer inte att finnas något annat förslag än
               minst 55 procent.
             </seg>
-            <seg n="e9d60bb6">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-58" prev="i-ab5eb9fcc37eb535-55" who="Q2740012">
+            <seg>
               Om vi skulle komma dithän att målsättningen blir minst 55 procents
               utsläppsminskning har vi möjlighet att sedermera slåss för en
               högre målsättning. Minst 55 procent är rätt att slåss för nu.
@@ -593,11 +678,11 @@
               och det är det som jag hoppas blir beslutet också i december.
             </seg>
           </u>
-          <note type="speaker" n="63e867df">
+          <note type="speaker">
             Anf. 16 JONAS SJÖSTEDT (V):
           </note>
-          <u who="Q2029704" xml:id="i-68ab94410dbecc42-0" n="bbe9d015">
-            <seg n="f4df5a1c">
+          <u xml:id="i-ab5eb9fcc37eb535-59" next="i-ab5eb9fcc37eb535-61" who="Q2029704">
+            <seg>
               Fru talman! Det är alldeles korrekt att jag har noll erfarenhet
               av Europeiska rådet. Men jag har elva års erfarenhet av att förhandla
               klimatfrågor i EU-parlamentet och delta i FN:s stora klimatkonferenser.
@@ -605,12 +690,16 @@
               man som otydlig, så jag menar att regeringen här måste bestämma
               sig, helt enkelt.
             </seg>
-            <seg n="6fd1ed0b">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-60" prev="i-ab5eb9fcc37eb535-59" who="Q2029704">
+            <seg>
               Om jag förstår statsministern rätt tänker statsministern inte
               ta med sig vice statsministerns bud på minst 60 procent med sikte
               på 65 procent, utan man är nöjd med 55 procent.
             </seg>
-            <seg n="cda6d494">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-61" prev="i-ab5eb9fcc37eb535-59" who="Q2029704">
+            <seg>
               Jag skulle vilja uppmana statsministern att använda den majoritet
               som finns i riksdagen för att Sverige ska höja ambitionerna. Jag
               vet att det är svårt att få igenom det i förhandlingen. Jag har
@@ -620,41 +709,49 @@
               ståndpunkten av alla.
             </seg>
           </u>
-          <note type="speaker" n="0dac5b78">
+          <note type="speaker">
             Anf. 17 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-1b4fda849154c940-8" n="e5475bfc">
-            <seg n="a548b538">
+          <u xml:id="i-ab5eb9fcc37eb535-62" next="i-ab5eb9fcc37eb535-65" who="Q2740012">
+            <seg>
               Fru talman! Det är skillnad på Europaparlamentet och Europeiska
               rådet. I Europeiska rådet ska alla bli överens.
             </seg>
-            <seg n="9b757293">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-63" prev="i-ab5eb9fcc37eb535-62" who="Q2740012">
+            <seg>
               Om en person säger nej blir det inget. Om en person vid bordet
               säger att vi inte ska ha mer än 40 procent, då blir det 40 procent.
               Då får man välja vilken väg man ska ta, om man ska försöka gå
               på 55 procent, som just nu är det mest realistiska. Men det är
               ännu inte klart.
             </seg>
-            <seg n="9362f975">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-64" prev="i-ab5eb9fcc37eb535-62" who="Q2740012">
+            <seg>
               Vi kan ändå ha en högre målsättning och ge uttryck för den. Men
               någon gång måste man också som vänsterpartist sätta sig ned och
               tänka att det kanske är bättre att vara realistisk och försöka
               åstadkomma någonting än att bara leva efter sina egna drömmar.
             </seg>
-            <seg n="3eff067e">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-65" prev="i-ab5eb9fcc37eb535-62" who="Q2740012">
+            <seg>
               Vi har ju fått accepterat och tagit till Europeiska rådet en
               minskning med minst 55 procent. Sedan kan vi hjälpas åt att se
               till att höja ambitionen.
             </seg>
           </u>
-          <note type="speaker" n="9c926584">
+          <note type="speaker">
             Anf. 18 DÉSIRÉE PETHRUS (KD):
           </note>
-          <u who="Q4972645" xml:id="i-bf3593d585251b5c-0" n="6937e184">
-            <seg n="1eaaa856">
+          <u xml:id="i-ab5eb9fcc37eb535-66" next="i-ab5eb9fcc37eb535-71" who="Q4972645">
+            <seg>
               Fru talman! Tack, statsministern, för återrapporten!
             </seg>
-            <seg n="12801dcc">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-67" prev="i-ab5eb9fcc37eb535-66" who="Q4972645">
+            <seg>
               Jag tänker börja med relationen EU–Storbritannien och förhandlingarna
               som ju går väldigt trögt. Men statsministern har uttalat i medier
               att han tror att det finns en liten öppning för att kunna undvika
@@ -662,7 +759,9 @@
               det? Det är ju väldigt tydligt i slutsatserna att man ska förbereda
               sig för en hård brexit.
             </seg>
-            <seg n="3da1a74f">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-68" prev="i-ab5eb9fcc37eb535-66" who="Q4972645">
+            <seg>
               Sedan till en fråga som flera har tagit upp här, och det är ju
               klimatmålen. På mötet fattades inga beslut om siffror gällande
               utsläppsminskningar. Statsministern säger 55 procent och miljöministern
@@ -671,11 +770,15 @@
               kan falla tillbaka till 55 procent, för det har statsministern
               sagt, varför ska de då gå med på 60 och 65 procent?
             </seg>
-            <seg n="46c2f00b">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-69" prev="i-ab5eb9fcc37eb535-66" who="Q4972645">
+            <seg>
               Hur bedömer statsministern utfallet av decembermötet, där beslut
               ska fattas? Kan ni komma överens om ambitionerna?
             </seg>
-            <seg n="ec85f6c9">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-70" prev="i-ab5eb9fcc37eb535-66" who="Q4972645">
+            <seg>
               Jag har tidigare tagit upp att kommissionären Timmermans sagt
               att det finns forskning på att man klarar 55 procent. Vad säger
               forskningen är realistiskt, säger statsministern? Är det 55, 60
@@ -683,22 +786,26 @@
               ska vi veta vad forskningen säger att vi kan klara av? Detta är
               viktigt för att det inte bara ska bli ett sifferspel utan realistiskt.
             </seg>
-            <seg n="47b7c354">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-71" prev="i-ab5eb9fcc37eb535-66" who="Q4972645">
+            <seg>
               Inför toppmötet sa statsministern att han ville jobba för att
               detta skulle tas på både kollektiv och nationell nivå. I rådsslutsatserna
               står det dock enbart om kollektiv nivå. Hur ser statsministern
               på det?
             </seg>
           </u>
-          <note type="speaker" n="76b59169">
+          <note type="speaker">
             Anf. 19 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-1b4fda849154c940-9" n="e5475bfc">
-            <seg n="201b18e0">
+          <u xml:id="i-ab5eb9fcc37eb535-72" next="i-ab5eb9fcc37eb535-76" who="Q2740012">
+            <seg>
               Fru talman! Sverige har alltså tagit initiativ till en skrivning
               om att stödja kommissionens förslag på minst 55 procent.
             </seg>
-            <seg n="40c21332">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-73" prev="i-ab5eb9fcc37eb535-72" who="Q2740012">
+            <seg>
               Det finns ett gammalt talesätt som lyder: Om budskapet inte gått
               hem är det pastorns fel. Sverige har drivit minst 55 procent,
               och tolv länder är med på det. I Europeiska rådets diskussion
@@ -706,20 +813,26 @@
               och så länge det är så tänker vi fortsätta att driva minst 55
               procent. Det är viktigt.
             </seg>
-            <seg n="33aa6524">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-74" prev="i-ab5eb9fcc37eb535-72" who="Q2740012">
+            <seg>
               Sverige har tagit initiativ till detta, och det råder ingen tvekan
               om vad Sverige driver. Och när vi säger minst 55 procent finns
               ju möjlighet att gå högre ändå. Det finns alltså ingen motsättning.
               Minst 55 är 55 och däröver. Det är min tolkning av minst 55 –
               eller det är så vi har skrivit det, så det är det som gäller.
             </seg>
-            <seg n="00f60348">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-75" prev="i-ab5eb9fcc37eb535-72" who="Q2740012">
+            <seg>
               Vad gäller forskningen är det tydligt vad vi vill åt. För att
               kunna nå ett klimatneutralt EU 2050 vill vi tuffa till målet 2030,
               annars tror vi inte att vi når det. Då menar forskningen att det
               går för långt, så det är det som är det övergripande målet.
             </seg>
-            <seg n="f9293e70">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-76" prev="i-ab5eb9fcc37eb535-72" who="Q2740012">
+            <seg>
               Jag tycker att Désirée Pethrus inledning var bra: En liten öppning,
               var är den just nu? Lyssnade man i går såg man inte mycket till
               det. I slutsatserna har vi dock gett uttryck för att vi vill förhandla
@@ -728,22 +841,26 @@
               EU:s inriktning är att få detta i mål.
             </seg>
           </u>
-          <note type="speaker" n="0c053f96">
+          <note type="speaker">
             Anf. 20 DÉSIRÉE PETHRUS (KD):
           </note>
-          <u who="Q4972645" xml:id="i-bf3593d585251b5c-1" n="6937e184">
-            <seg n="d147c018">
+          <u xml:id="i-ab5eb9fcc37eb535-77" next="i-ab5eb9fcc37eb535-79" who="Q4972645">
+            <seg>
               Fru talman! Jag tackar statsministern för svaret, men jag blev
               inte klokare av det. Om vissa länder som vill hålla det på 40
               procent ser att statsministern säger 55 procent tror jag inte
               att man kommer att gå över den nivån. Precis som tidigare talare
               har sagt är dubbelmandat nog ingen bra strategi.
             </seg>
-            <seg n="760a168c">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-78" prev="i-ab5eb9fcc37eb535-77" who="Q4972645">
+            <seg>
               Jag fick inte svar på frågan om nationell kontra kollektiv nivå
               när det gäller klimatmålen.
             </seg>
-            <seg n="9673110c">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-79" prev="i-ab5eb9fcc37eb535-77" who="Q4972645">
+            <seg>
               När det gäller relationerna mellan EU och Afrika och skrivningarna
               om fred, säkerhet och så vidare står det att man ska stödja mänskliga
               rättigheter. Ordet demokrati finns dock inte med. Varför? Det
@@ -755,34 +872,38 @@
               med.
             </seg>
           </u>
-          <note type="speaker" n="4f1998c1">
+          <note type="speaker">
             Anf. 21 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-1b4fda849154c940-10" n="e5475bfc">
-            <seg n="3b8919fd">
+          <u xml:id="i-ab5eb9fcc37eb535-80" next="i-ab5eb9fcc37eb535-82" who="Q2740012">
+            <seg>
               Fru talman! Först till det jag glömde svara på. Det står beskrivet
               att alla medlemsstater kommer att delta i denna insats. Det står
               vidare, och det är balansgången: varvid nationella omständigheter
               och rättvise- och solidaritetshänsyn ska beaktas.
             </seg>
-            <seg n="074f51ed">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-81" prev="i-ab5eb9fcc37eb535-80" who="Q2740012">
+            <seg>
               Vi delar inte uppfattningen att det bara ska gälla på kollektivnivå.
               För att säkerställa att det faktiskt blir så måste alla uppfylla
               det. Länderna har dock uppenbart helt olika förutsättningar, till
               exempel det kolberoende Polen. Man har ett annat åtagande och
               ackord än Sverige har.
             </seg>
-            <seg n="4404df9d">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-82" prev="i-ab5eb9fcc37eb535-80" who="Q2740012">
+            <seg>
               När det gäller Afrika är det klart att demokrati är viktigt.
               Jag hinner inte läsa igenom det nu, men tveklöst är demokrati
               en grundpelare i ett samarbete.
             </seg>
           </u>
-          <note type="speaker" n="80fbf054">
+          <note type="speaker">
             Anf. 22 JOAR FORSSELL (L):
           </note>
-          <u who="Q26305112" xml:id="i-4641fd1a1a2a5ae1-0" n="8a3999eb">
-            <seg n="c0149882">
+          <u xml:id="i-ab5eb9fcc37eb535-83" next="i-ab5eb9fcc37eb535-85" who="Q26305112">
+            <seg>
               Fru talman! Jag ska också bidra till sifferbingon. Statsministern
               säger i sitt inlägg att Sverige vill se en minskning på minst
               55 procent. Det är jag glad för. Statsministern säger också att
@@ -792,7 +913,9 @@
               Jag är därför glad över att statsministern öppnar för ytterligare
               ambitionshöjningar.
             </seg>
-            <seg n="dc74a657">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-84" prev="i-ab5eb9fcc37eb535-83" who="Q26305112">
+            <seg>
               Det verkar förekomma lite frågetecken i kammaren om vad som är
               Sveriges position. Som jag har förstått det är den ganska tydlig.
               Vi vill ha en minskning på 60–65 procent men är i ett förhandlingsläge
@@ -803,7 +926,9 @@
               ambitioner på ett sätt man inte skulle göra om man bara förhöll
               sig till precis det man här och nu kan få igenom.
             </seg>
-            <seg n="18002a72">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-85" prev="i-ab5eb9fcc37eb535-83" who="Q26305112">
+            <seg>
               Det handlar såklart om vad man säger vid förhandlingsbordet,
               vilka officiella papper man lämnar in och så vidare. Men en förhandlingssitua
               ­ tion handlar ju också om vad de olika delegationerna säger sinsemellan
@@ -813,20 +938,24 @@
               procent om det skulle gå?
             </seg>
           </u>
-          <note type="speaker" n="72f681f1">
+          <note type="speaker">
             Anf. 23 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-1b4fda849154c940-11" n="e5475bfc">
-            <seg n="964dc6f0">
+          <u xml:id="i-ab5eb9fcc37eb535-86" next="i-ab5eb9fcc37eb535-90" who="Q2740012">
+            <seg>
               Fru talman! Det är riktigt som Jo ar Forssell påpekar att också
               andra länder säger ungefär som vi, till exempel Danmark.
             </seg>
-            <seg n="80cf8da4">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-87" prev="i-ab5eb9fcc37eb535-86" who="Q2740012">
+            <seg>
               I Bryssel råder det ingen tvekan om vad det vi säger betyder.
               Men här lyckas jag tydligen inte förklara, och det får jag ta
               på mig. Det handlar alltså om minst 55 procent.
             </seg>
-            <seg n="9c21b2cb">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-88" prev="i-ab5eb9fcc37eb535-86" who="Q2740012">
+            <seg>
               Inför ett möte i Europeiska rådet finns ett förslag till slutsatser,
               som EU-nämnden också får. Vi har drivit på för minst 55 procent,
               och nu står det med. Men vi vet att det kommer att bli tufft,
@@ -835,30 +964,38 @@
               det är något annat vi vill ha stöd för kommer hela processen att
               försvåras.
             </seg>
-            <seg n="932bf3a5">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-89" prev="i-ab5eb9fcc37eb535-86" who="Q2740012">
+            <seg>
               Vi kan ändå ge uttryck för att vi tycker att det borde vara högre.
               Men för att komma någonstans och kunna leverera något, som ändå
               är en substantiell förändring, är det detta som gäller.
             </seg>
-            <seg n="41707676">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-90" prev="i-ab5eb9fcc37eb535-86" who="Q2740012">
+            <seg>
               Jag tycker nog att det går att hålla båda dessa perspektiv i
               tanken.
             </seg>
           </u>
-          <note type="speaker" n="7662dea3">
+          <note type="speaker">
             Anf. 24 JOAR FORSSELL (L):
           </note>
-          <u who="Q26305112" xml:id="i-4641fd1a1a2a5ae1-1" n="8a3999eb">
-            <seg n="6ce55981">
+          <u xml:id="i-ab5eb9fcc37eb535-91" next="i-ab5eb9fcc37eb535-94" who="Q26305112">
+            <seg>
               Fru talman! Jag tackar statsministern för svaret.
             </seg>
-            <seg n="1dd461fb">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-92" prev="i-ab5eb9fcc37eb535-91" who="Q26305112">
+            <seg>
               Något annat som kommit upp i diskussionen är att minskningar
               på 55, 60, 65 eller för den delen 110 procent innebär kostnader.
               Det kräver investeringar i till exempel negativa utsläpp, något
               som Liberalerna har drivit på för i januariavtalskretsen.
             </seg>
-            <seg n="ceea09ed">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-93" prev="i-ab5eb9fcc37eb535-91" who="Q26305112">
+            <seg>
               Den stora kostnaden för klimatförändringarna är dock inte den
               som blir för att man måste fånga in koldioxid eller för att man
               måste ställa om ekonomin. Den stora kostnaden uppstår ju om vi
@@ -866,25 +1003,29 @@
               och faror som klimatkatastrofer över hela vår kontinent och hela
               vår värld innebär.
             </seg>
-            <seg n="f4a3881c">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-94" prev="i-ab5eb9fcc37eb535-91" who="Q26305112">
+            <seg>
               Hur ser statsministern och regeringen på denna avvägning? Har
               vi råd att inte höja klimatambitionerna? Jag och Liberalerna tror
               inte det. Kostna ­ den för att inte höja ambitionerna är högre
               än kostnaden för att ställa om till tuffa ambitioner.
             </seg>
           </u>
-          <note type="speaker" n="31749ed6">
+          <note type="speaker">
             Anf. 25 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-1b4fda849154c940-12" n="e5475bfc">
-            <seg n="57feb906">
+          <u xml:id="i-ab5eb9fcc37eb535-95" next="i-ab5eb9fcc37eb535-97" who="Q2740012">
+            <seg>
               Fru talman! Det uttrycket kanske jag borde ha använt själv i
               början, för det är precis så vi ser det. Det är en alternativkostnad.
               Det är där jag menar att vi är. Jag tror att vi är vid en tipping
               point där allt fler nu ser att det vore katastrofalt att inte
               göra det rätta nu.
             </seg>
-            <seg n="69e7a99d">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-96" prev="i-ab5eb9fcc37eb535-95" who="Q2740012">
+            <seg>
               Visst krävs investeringar i energisystem och ny teknik av allehanda
               slag. Det krävs utbildning. Det krävs en omställning – det är
               ingen tvekan om det. Det krävs också att man ger möjligheter till
@@ -896,18 +1037,22 @@
               emot barn och barnbarn och, för den delen, oss själva utan också
               gör något smart.
             </seg>
-            <seg n="a1149548">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-97" prev="i-ab5eb9fcc37eb535-95" who="Q2740012">
+            <seg>
               Det är här framtidens välfärd finns. Det är helt rätt perspektiv.
             </seg>
           </u>
-          <note type="speaker" n="7960691d">
+          <note type="speaker">
             Anf. 26 MARKUS SELIN (S):
           </note>
-          <u who="Q72922068" xml:id="i-bf3593d585251b5c-2" n="7d12b09f">
-            <seg n="36f5c335">
+          <u xml:id="i-ab5eb9fcc37eb535-98" next="i-ab5eb9fcc37eb535-102" who="Q72922068">
+            <seg>
               Fru talman! Tack, statsministern, för en tydlig återrapport!
             </seg>
-            <seg n="092008da">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-99" prev="i-ab5eb9fcc37eb535-98" who="Q72922068">
+            <seg>
               Inledningsvis vill jag tacka statsministern för bra svar på mina
               frågor i EU-nämnden i förra veckan, då vi hade ett öppet sammanträde.
               Då skildrades det som vi själva gör i svensk industri. Statsministern
@@ -915,12 +1060,16 @@
               för att få en offensiv hållning i klimatarbetet, gröna klimatfonder,
               utvecklingsbistånd och Sveriges roll som en stormakt i klimatomställningsarbetet.
             </seg>
-            <seg n="394a4f7d">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-100" prev="i-ab5eb9fcc37eb535-98" who="Q72922068">
+            <seg>
               Klimatarbetet handlar ytterst om liv och hälsa. Samtidigt fastnar
               vi ofta i procentsatser och koldioxidreduceringar. Jag tänkte
               i min tur lyfta blick ­ en något här och prata om kronor och ören.
             </seg>
-            <seg n="99fc7d2e">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-101" prev="i-ab5eb9fcc37eb535-98" who="Q72922068">
+            <seg>
               En aktiv klimatpolitik är också en politik för framtidens jobb,
               tillväxt och exportframgångar. En stor del av våra företag har
               fattat det här med klimatomställning, särskilt i ingenjörslandet
@@ -930,7 +1079,9 @@
               mer tillväxt, och fler jobb och mer tillväxt ger mer välfärd för
               oss alla.
             </seg>
-            <seg n="c20634ba">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-102" prev="i-ab5eb9fcc37eb535-98" who="Q72922068">
+            <seg>
               När det gäller statsministerns alla möten och samtal med europeiska
               motsvarigheter i allmänhet och i Europeiska rådet i förra veckan
               i synnerhet: I vilken grad ligger tyngdpunkten just på dessa frågor
@@ -938,16 +1089,18 @@
               delar andra länder Sveriges höga klimatambitioner?
             </seg>
           </u>
-          <note type="speaker" n="386cb3c8">
+          <note type="speaker">
             Anf. 27 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-1b4fda849154c940-13" n="e5475bfc">
-            <seg n="3fcbd573">
+          <u xml:id="i-ab5eb9fcc37eb535-103" next="i-ab5eb9fcc37eb535-106" who="Q2740012">
+            <seg>
               Fru talman! Jag börjar med framtidens jobb, för det är så vi
               ser det : H är ligger bland annat framtidens jobb, förutom att
               göra det rätta för klimat och miljö.
             </seg>
-            <seg n="9496b501">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-104" prev="i-ab5eb9fcc37eb535-103" who="Q2740012">
+            <seg>
               Nu har vi 25 handslag, tror jag, med olika sektorer i näringslivet
               som vill vara med och göra sitt för att rita vägen framåt. Det
               finns affärsmodeller som bygger på det ta . Om man går tio år
@@ -955,7 +1108,9 @@
               helt annat inställning. Det är här affärerna ligger. Det är en
               otrolig drivkraft i detta.
             </seg>
-            <seg n="c5d16990">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-105" prev="i-ab5eb9fcc37eb535-103" who="Q2740012">
+            <seg>
               Vilken tyngdpunkt ligger då ute i Europa och framför allt i Europeiska
               rådet? Ja, jag skulle säga att de flesta tänker åt det hållet.
               Sedan finns det en skala också där. Det finns de som är mer oroliga
@@ -968,7 +1123,9 @@
               riktning vi ska gå, för precis som Joar Forssell från Liberalerna
               sa här tidigare är alternativet mycket värre.
             </seg>
-            <seg n="6d481551">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-106" prev="i-ab5eb9fcc37eb535-103" who="Q2740012">
+            <seg>
               Vi har en tyngdpunkt på att det är en positiv utveckling som
               vi har framför oss, men mellan det och dem som är mest oroliga
               finns en hel skala. Nu gäller det att fortsätta, inte minst vad
@@ -979,14 +1136,16 @@
               allt fler kommer att bli säkra på att det är rätt väg att gå.
             </seg>
           </u>
-          <note type="speaker" n="b0d6d260">
+          <note type="speaker">
             Anf. 28 MARKUS SELIN (S):
           </note>
-          <u who="Q72922068" xml:id="i-bf3593d585251b5c-3" n="7d12b09f">
-            <seg n="82bfff52">
+          <u xml:id="i-ab5eb9fcc37eb535-107" next="i-ab5eb9fcc37eb535-108" who="Q72922068">
+            <seg>
               Fru talman! Tack, statsministern, för bra svar!
             </seg>
-            <seg n="4e0766c2">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-108" prev="i-ab5eb9fcc37eb535-107" who="Q72922068">
+            <seg>
               Sverige är ett relativt litet, öppet och exportberoende land
               i Europas ena hörn. Vi är ett ingenjörsland och vill vara ett
               föregångsland även på klimatomställningsfronten. Det bubblar i
@@ -999,11 +1158,11 @@
               transporter.
             </seg>
           </u>
-          <note type="speaker" n="67e7c7c5">
+          <note type="speaker">
             Anf. 29 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-1b4fda849154c940-14" n="e5475bfc">
-            <seg n="0a6b822c">
+          <u xml:id="i-ab5eb9fcc37eb535-109" next="i-ab5eb9fcc37eb535-110" who="Q2740012">
+            <seg>
               Fru talman! Det är detta positiva anslag vi måste ha. Vi inte
               bara måste ha det, utan vi ska ha det därför att det är viktigt
               ur klimat- och miljösynpunkt. Det är också det som leder framåt.
@@ -1013,26 +1172,32 @@
               Sedan ser vi till att det sätts upp delmål framåt i tiden för
               alla sektorer.
             </seg>
-            <seg n="f923c909">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-110" prev="i-ab5eb9fcc37eb535-109" who="Q2740012">
+            <seg>
               Med de senaste insatserna som kommer att göras ser vi att vi
               nu har en rejäl chans att nå målet inom transportsektorn, nämligen
               en minskning med 70 procent. Ju fler som ser detta, desto fler
               tror på att det inte bara är möjligt utan också riktigt bra.
             </seg>
           </u>
-          <note type="speaker" n="1df8f30f">
+          <note type="speaker">
             Anf. 30 MARIA GARDFJELL (MP):
           </note>
-          <u who="Q4949502" xml:id="i-f848b576539ebb6d-0" n="984bc2fb">
-            <seg n="b0fdaa7a">
+          <u xml:id="i-ab5eb9fcc37eb535-111" next="i-ab5eb9fcc37eb535-115" who="Q4949502">
+            <seg>
               Fru talman! Tack för redogörelsen!
             </seg>
-            <seg n="6ed7435b">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-112" prev="i-ab5eb9fcc37eb535-111" who="Q4949502">
+            <seg>
               EU måste vara ledande i den globala omställningen till klimatsmarta
               samhällen och genomförandet av Parisavtalet. I denna ledarroll
               ligger att driva på för att andra länder ska kunna höja sin ambitionsnivå.
             </seg>
-            <seg n="e86381af">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-113" prev="i-ab5eb9fcc37eb535-111" who="Q4949502">
+            <seg>
               Klimatomställningen kommer att kunna stimulera till en hållbar
               ekonomisk och social utveckling, bidra till hälsosammare livsmiljö
               och biologisk mångfald, generera arbetstillfällen, förbättra EU:s
@@ -1042,24 +1207,28 @@
               förslag om minst 55 procent kan bli ett golv. Det blir ett viktigt
               och framsynt nytänkande i klimatpolitiken som visar på den riktningen.
             </seg>
-            <seg n="e4a87799">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-114" prev="i-ab5eb9fcc37eb535-111" who="Q4949502">
+            <seg>
               Isabella Lövin sökte mandat i miljö- och jordbruksutskottet och
               EU-nämnden inför förhandlingarna i miljörådet om EU:s klimatlag.
               Det kan ­ ske var detta som gjorde att många ledamöter blev lite
               förvirrade. I miljörådet behöver ju inte alla vara eniga, utan
               där är det en majoritet som fattar beslut.
             </seg>
-            <seg n="c45f81f9">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-115" prev="i-ab5eb9fcc37eb535-111" who="Q4949502">
+            <seg>
               Jag vill fråga statsministern: Hur ser du på Sveriges möjlighet
               att samverka med likasinnade länder för högre klimatmål i EU?
               Och hur ska det gå att nå framgång på decembermötet?
             </seg>
           </u>
-          <note type="speaker" n="6414517e">
+          <note type="speaker">
             Anf. 31 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-1b4fda849154c940-15" n="e5475bfc">
-            <seg n="1a08c533">
+          <u xml:id="i-ab5eb9fcc37eb535-116" next="i-ab5eb9fcc37eb535-119" who="Q2740012">
+            <seg>
               Fru talman! Vi var elva när vi kom till mötet, och sedan kom
               det fram en tolfte och sa: Varför fick inte vi vara med? Jag sa
               att alla fick vara med och att det var öppet och bara att kliva
@@ -1071,12 +1240,16 @@
               annan form – att man är med på detta. Jag ser som sagt att de
               allra flesta vill stödja detta mål.
             </seg>
-            <seg n="9599fa84">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-117" prev="i-ab5eb9fcc37eb535-116" who="Q2740012">
+            <seg>
               Då är naturligtvis frågan hur vi gör med dem som inte ser detta
               nu, eller som kanske av olika orsaker inte ser att det är möjligt.
               Det är en nog så viktig fråga just för att det måste bli enhällighet.
             </seg>
-            <seg n="c026c016">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-118" prev="i-ab5eb9fcc37eb535-116" who="Q2740012">
+            <seg>
               Där pekar vi på, vilket vi också har gjort tidigare, de möjligheter
               som vi har i budget och på andra sätt att stötta den omställning
               som är nödvändig hos alla och som innebär längre kliv för några
@@ -1086,43 +1259,51 @@
               man denna bild, och då vet man också vad ackordet är och vilket
               stöd som kan komma att behövas.
             </seg>
-            <seg n="d2d20b9f">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-119" prev="i-ab5eb9fcc37eb535-116" who="Q2740012">
+            <seg>
               Jag tror att denna diskussion nu är nog så viktig för att vi
               ska kunna gå till ett ganska snabbt beslut i december.
             </seg>
           </u>
-          <note type="speaker" n="8a56da86">
+          <note type="speaker">
             Anf. 32 MARIA GARDFJELL (MP):
           </note>
-          <u who="Q4949502" xml:id="i-f848b576539ebb6d-1" n="984bc2fb">
-            <seg n="08e3cc50">
+          <u xml:id="i-ab5eb9fcc37eb535-120" next="i-ab5eb9fcc37eb535-122" who="Q4949502">
+            <seg>
               Fru talman! Perspektivet rättvis klimatomställning tror vi från
               Miljöpartiets sida är oerhört viktigt för att nå en bredare uppslutning
               bakom ett skärpt klimatmål i EU.
             </seg>
-            <seg n="a930c398">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-121" prev="i-ab5eb9fcc37eb535-120" who="Q4949502">
+            <seg>
               Omställningen till ett klimatneutralt och hållbart Europa måste
               påskyndas. Alla sektorer behöver involveras. Och detta behöver
               genomföras på ett samhällsekonomiskt effektivt och inkluderande
               sätt. Självklart måste man också nå långsiktigt hållbara offentliga
               finanser.
             </seg>
-            <seg n="f2e04185">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-122" prev="i-ab5eb9fcc37eb535-120" who="Q4949502">
+            <seg>
               Hur ser statsministern på det faktum att det också behövs ett
               jämställdhetsperspektiv och ett mer inkluderande perspektiv i
               klimatomställningen?
             </seg>
           </u>
-          <note type="speaker" n="e283e7ad">
+          <note type="speaker">
             Anf. 33 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-1b4fda849154c940-16" n="e5475bfc">
-            <seg n="73908448">
+          <u xml:id="i-ab5eb9fcc37eb535-123" next="i-ab5eb9fcc37eb535-124" who="Q2740012">
+            <seg>
               Fru talman! Jämställdhet är en grundpelare på alla politiska
               områden. Denna översyn och analys ska därför naturligtvis också
               göras.
             </seg>
-            <seg n="becbf974">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-124" prev="i-ab5eb9fcc37eb535-123" who="Q2740012">
+            <seg>
               Jag tycker att den stora styrkan ligger i ett inkluderande. Det
               gäller att få så många som möjligt att känna sig inkluderade och
               med på vagnen. Därför är det som vi nu gör i Sverige med de olika
@@ -1135,20 +1316,24 @@
               omställningen, desto snabbare kommer det att gå.
             </seg>
           </u>
-          <note type="speaker" n="f1eb3a3d">
+          <note type="speaker">
             Anf. 34 JESSIKA ROSWALL (M):
           </note>
-          <u who="Q4984640" xml:id="i-38dcb24e37c08a95-0" n="0e416aa2">
-            <seg n="8ddcbd5f">
+          <u xml:id="i-ab5eb9fcc37eb535-125" next="i-ab5eb9fcc37eb535-129" who="Q4984640">
+            <seg>
               Fru talman! Jag tackar statsministern för återrapporten.
             </seg>
-            <seg n="74c33728">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-126" prev="i-ab5eb9fcc37eb535-125" who="Q4984640">
+            <seg>
               Brexitförhandlingarna mellan EU och Storbritannien går nu in
               i en minst sagt kritisk fas. Det finns egentligen ingen tid kvar
               att spela på, efter ­ som det måste finnas ett avtal senast den
               31 december.
             </seg>
-            <seg n="626388a6">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-127" prev="i-ab5eb9fcc37eb535-125" who="Q4984640">
+            <seg>
               Att det blir ett avtal som möjliggör en så friktionsfri handel
               som möjligt över gränserna ligger i både EU:s och Storbritanniens
               intresse. Corona ­ pandemins enorma ekonomiska skadeverkningar
@@ -1159,7 +1344,9 @@
               för att nå en kompromiss. Något annat vore ett svek mot alla företag
               och anställda som riskerar att drabbas hårt.
             </seg>
-            <seg n="ab40d5af">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-128" prev="i-ab5eb9fcc37eb535-125" who="Q4984640">
+            <seg>
               Statsministern har många gånger berömt den övergripande enigheten
               i förhandlingarna i EU-27 och lyft fram att det är en styrka att
               vi är eniga i dessa förhandlingar. Det har också varit en ledstjärna
@@ -1172,7 +1359,9 @@
               ­ ters intressen. Men det vore inte rimligt om avtalet stjälps
               på grund av fisket.
             </seg>
-            <seg n="0200512b">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-129" prev="i-ab5eb9fcc37eb535-125" who="Q4984640">
+            <seg>
               Statsministern sa tidigare här i sin återrapport att det är ett
               stramt uttal ­ ande i slutsatserna. Jag undrar därför vad det
               betyder. Jag undrar också vad statsministern gör för att försöka
@@ -1180,18 +1369,20 @@
               ett avtal med Storbritannien.
             </seg>
           </u>
-          <note type="speaker" n="cb444598">
+          <note type="speaker">
             Anf. 35 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-1b4fda849154c940-17" n="e5475bfc">
-            <seg n="e01fb1b8">
+          <u xml:id="i-ab5eb9fcc37eb535-130" next="i-ab5eb9fcc37eb535-134" who="Q2740012">
+            <seg>
               Fru talman! Jag ska börja med det som sas i slutet av anförandet
               om att lösa upp knutar. Sverige är naturligtvis aktivt hela tiden.
               Men sedan måste förhandlingarna skötas via Michel Barnier och
               hans team. Vi har dock haft en långvarig bilateral kontakt med
               Storbritannien och med andra för att se vad som går att göra.
             </seg>
-            <seg n="b19b479e">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-131" prev="i-ab5eb9fcc37eb535-130" who="Q2740012">
+            <seg>
               Det som jag menade gällde inte minst efter reaktionerna från
               10 Downing Street och att man där bedömde att slutsatserna var
               för strama. Man kan alltid diskutera detta. Men det är ingen tvekan
@@ -1201,11 +1392,15 @@
               detta men även att Storbritannien också måste ändra sina positioner
               här.
             </seg>
-            <seg n="139e3eb6">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-132" prev="i-ab5eb9fcc37eb535-130" who="Q2740012">
+            <seg>
               Fisket är det område där det mig veterligen inte har hänt någonting
               och där det fortfarande är stand still.
             </seg>
-            <seg n="5f79efdc">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-133" prev="i-ab5eb9fcc37eb535-130" who="Q2740012">
+            <seg>
               Det är riktigt att det inte är de största sektorerna, men de
               är nog så viktiga. Man får ha respekt för det, även för svenskt
               vidkommande, men inte minst för de länder där hela fiskesektorn
@@ -1215,7 +1410,9 @@
               den fråga som Storbritannien håller närmast, och man vill lösa
               de andra först.
             </seg>
-            <seg n="66192faa">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-134" prev="i-ab5eb9fcc37eb535-130" who="Q2740012">
+            <seg>
               Vi alla behöver nog tillsammans fundera på hur man tar sig an
               fisket men också tvisteregleringen och level playing field, så
               att det blir ett avtal. Just nu ser det inte bra ut; det är bara
@@ -1223,44 +1420,52 @@
               möjligt.
             </seg>
           </u>
-          <note type="speaker" n="a1027dde">
+          <note type="speaker">
             Anf. 36 JESSIKA ROSWALL (M):
           </note>
-          <u who="Q4984640" xml:id="i-38dcb24e37c08a95-1" n="0e416aa2">
-            <seg n="6ce55981">
+          <u xml:id="i-ab5eb9fcc37eb535-135" next="i-ab5eb9fcc37eb535-139" who="Q4984640">
+            <seg>
               Fru talman! Jag tackar statsministern för svaret.
             </seg>
-            <seg n="cfccaf02">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-136" prev="i-ab5eb9fcc37eb535-135" who="Q4984640">
+            <seg>
               Jag håller med om att vi har stor respekt för alla de tre delar
               som lyfts fram – lika villkor, styrning och fiske. Men fisket
               är inte av lika stort intresse för alla i EU-27. Det var detta
               som var min poäng.
             </seg>
-            <seg n="79e6e6d7">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-137" prev="i-ab5eb9fcc37eb535-135" who="Q4984640">
+            <seg>
               Vi har varit överens i Sverige om Sveriges ståndpunkt, och vi
               har genomgående varit lojala med EU:s förhandlingslinje. Det har
               förmodligen inneburit att även Sverige har fått lov att lägga
               band på sig i vissa avseenden som vi tycker är viktiga i dessa
               förhandlingar.
             </seg>
-            <seg n="3e38897c">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-138" prev="i-ab5eb9fcc37eb535-135" who="Q4984640">
+            <seg>
               Nu har Frankrikes president Emmanuel Macron öppet lovat att han
               inte kommer att gå med på något avtal om det skulle innebära några
               förändringar jämfört med franska fiskebåtars tillgång till brittiskt
               vatten.
             </seg>
-            <seg n="8b07cad1">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-139" prev="i-ab5eb9fcc37eb535-135" who="Q4984640">
+            <seg>
               Då tycker jag, precis som statsministern, att det inte ser bra
               ut att det inte blir ett avtal. Vad får detta för konsekvenser?
               Är det rimligt att just fisket skulle kunna riskera att stjälpa
               ett avtal?
             </seg>
           </u>
-          <note type="speaker" n="9dcb37c1">
+          <note type="speaker">
             Anf. 37 Statsminister STEFAN LÖFVEN (S):
           </note>
-          <u who="Q2740012" xml:id="i-376e6b7c10e9dd89-0" n="e5475bfc" next="i-d3113961653fbc59-0">
-            <seg n="167bba9d">
+          <u xml:id="i-ab5eb9fcc37eb535-140" next="i-ab5eb9fcc37eb535-165" who="Q2740012">
+            <seg>
               Fru talman! Vi har här sagt: En för alla, alla för en. Alla länder
               har denna sammanhållning, och den har varit helt avgörande så
               här långt. Nu får vi se om det bär ända in i mål. Men hade vi
@@ -1271,7 +1476,9 @@
               på en annan fråga. Då blir det helt plötsligt en bilateral förhandling,
               och det vore olyckligt. Vi vill hålla ihop, och vi ska hålla ihop.
             </seg>
-            <seg n="daa955dc">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-141" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
               Sedan kan man fråga sig hur viktigt det är. Man får ha respekt
               för människors utkomster. Och om vissa länder är helt beroende
               av detta fiske och det inte finns något annat, då är det allvarligare
@@ -1280,48 +1487,48 @@
               man måste se de tre delarna tillsammans.
             </seg>
           </u>
-          <note n="d24ac391">
+          <note>
             Återrapporteringen var härmed avslutad.
           </note>
-          <note n="6529cd3c">
+          <note>
             § 2 Justering av protokoll
           </note>
-          <note n="e1916e3f">
+          <note>
             Protokollet för den 29 september justerades.
           </note>
-          <note n="ad62c1b9">
+          <note>
             § 3 Meddelande om frågestund
           </note>
-          <note n="a97a1c07">
+          <note>
             Tredje vice talmannen meddelade att frågestund skulle äga rum
             torsdagen den 22 oktober kl. 14.00.
           </note>
-          <note n="e7f41290">
+          <note>
             § 4 Meddelande om särskild debatt med anledning av kriminalvårdens
             stabsläge och kapacitet
           </note>
-          <note n="618a34cd">
+          <note>
             Tredje vice talmannen meddelade att på begäran av Sverigedemokraternas
             riksdagsgrupp skulle en särskild debatt med anledning av kriminalvårdens
             stabsläge och kapacitet anordnas tisdagen den 10 november kl.
             13.00.
           </note>
-          <note n="a4249f84">
+          <note>
             Från regeringen skulle justitie- och migrationsminister Morgan
             Johansson (S) delta.
           </note>
-          <note n="a6b5ad0b">
+          <note>
             Den inkomna skrivelsen hade följande lydelse:
           </note>
-          <note n="f9ecd2bf">
+          <note>
             Till talmannen
           </note>
-          <note n="15d3d54f">
+          <note>
             Begäran om särskild debatt med anledning av kriminalvårdens stabsläge
             och kapacitet
           </note>
-          <u who="Q2740012" xml:id="i-d3113961653fbc59-0" n="e5475bfc" prev="i-376e6b7c10e9dd89-0">
-            <seg n="6fc72210">
+          <u xml:id="i-ab5eb9fcc37eb535-142" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
               Kriminalvården har under längre tid varnat för att antalet intagna
               i häkten och anstalter kommer överstiga de platser myndigheten
               har tillgängliga. Generaldirektör Martin Holmgren redogjorde i
@@ -1330,13 +1537,17 @@
               prognoser ger dessutom stöd för att denna kris och nuvarande stabsläge
               kommer att fortsätta under överskådlig tid.
             </seg>
-            <seg n="526e1bc4">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-143" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
               Generaldirektören framför bland annat att myndighetens grunduppdrag
               utmanas kraftigt. Detta omfattar det återfallsförebyggande arbetet,
               att upprätthålla säkerheten, samt möjligheten att ta emot och
               inkapacitera misstänkta och dömda.
             </seg>
-            <seg n="b55f2792">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-144" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
               En länge bortprioriterad och underdimensionerad kriminalvård
               innebär att myndighetens verksamhet blir lidande. Myndigheten
               har även tidigare rekommenderat att senarelägga eller avstyrka
@@ -1348,7 +1559,9 @@
               är uppenbar finns anledning att debattera det akuta läge Kriminalvården
               befinner sig i och hur regeringen behöver agera framgent.
             </seg>
-            <seg n="0b954faf">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-145" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
               I syfte att läka den brist som trots redan vidtagna åtgärder
               kvarstår bör ytterligare aspekter debatteras. Detta rör bland
               annat hyrande av anstaltsplatser utomlands, att avveckla hyresförhållandet
@@ -1356,566 +1569,606 @@
               privata aktörer att bygga anstalter som Kriminalvården sedan får
               hyra.
             </seg>
-            <seg n="e9b4ce55">
+          </u>
+          <u xml:id="i-ab5eb9fcc37eb535-146" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
               Sverigedemokraterna begär därför en särskild debatt med anledning
               av kriminalvårdens stabsläge och kapacitet.
             </seg>
-            <seg n="db5f415a">
-              Helsingfors den 30 september 2020
-            </seg>
-            <seg n="024420a7">
-              Skälet till dröjsmålet är tidigare inbokade resor och arrangemang.
-            </seg>
-            <seg n="812a8b7c">
-              Helsingfors den 16 oktober 2020
-            </seg>
-            <seg n="91db9173">
-              När ingsdepartementet
-            </seg>
-            <seg n="fd8e6148">
-              Expeditionschef
-            </seg>
-            <seg n="b5bc2539">
-              2020/21:KU3 En moderniserad radio- och tv-lag
-            </seg>
-            <seg n="65457b39">
-              2020/21:KU4 Några sekretessfrågor på finansmarknadsområdet
-            </seg>
-            <seg n="ef16cb11">
-              2020/21:FiU9 Riksrevisorns årliga rapport 2020
-            </seg>
-            <seg n="65b9432c">
-              2020/21:FiU29 Några frågor om clearing av OTC-derivat och om
-              transaktioner för värdepappersfinansiering
-            </seg>
-            <seg n="e6eec707">
-              2020/21:FiU31 Medgivande för Riksbanken att ge kredit till IMF
-            </seg>
-            <seg n="25816a5d">
-              2020/21:AU3 Riksrevisionens rapport om effektiviteten i förmedlingsverksamheten
-            </seg>
-            <seg n="20eb1e30">
-              2020/21:AU4 ILO:s hundraårsdeklaration för framtidens arbetsliv
-            </seg>
-            <seg n="8e8643ac">
-              2020/21:NU8 Kommissionens vitbok om utländska subventioner på
-              den inre marknaden
-            </seg>
-            <seg n="2a74e9a6">
-              2020/21:SkU2 Riksrevisionens rapport om RUT-avdraget
-            </seg>
-            <seg n="185abaeb">
-              2020/21:SkU6 Skattereduktion för boende i vissa glest befolkade
-              områden – regional skattereduktion
-            </seg>
-            <seg n="2102bd7e">
-              2020/21:33 Avgifter vid återköp och flytt av fond- och depåförsäkringar
-            </seg>
-            <seg n="ee981b54">
-              2020/21:37 Skattereduktion för förvärvsinkomster och utvidgad
-              tidsgräns för expertskatt
-            </seg>
-            <seg n="b1a9f451">
-              med anledning av skr. 2020/21:7 Strategi för den arktiska regionen
-            </seg>
-            <seg n="2ca275db">
-              2020/21:64 Marockos brott mot mänskliga rättigheter i Västsahara
-            </seg>
-            <seg n="42d4b32b">
-              2020/21:65 Slutförvar för använt kärnbränsle
-            </seg>
-            <seg n="f72d07d5">
-              till miljö- och klimatminister Isabella Lövin (MP)
-            </seg>
-            <seg n="9802f578">
-              2020/21:66 Nedskräpning och brottslighet vid bärplockarläger
-            </seg>
-            <seg n="34e5fd0a">
-              2020/21:68 Den turkiska regimens expansiva utrikespolitik
-            </seg>
-            <seg n="d9d3c1d9">
-              2020/21:236 Höjd åldersgräns för vattenskoter
-            </seg>
-            <seg n="7c6bf03c">
-              2020/21:237 Skattebefriade elbussar
-            </seg>
-            <seg n="3ffa8498">
-              2020/21:238 Kemikalieskatten
-            </seg>
-            <seg n="1392cb8b">
-              2020/21:239 Valet i Chile
-            </seg>
-            <seg n="ee959a18">
-              2020/21:240 Skattebefrielse för grödebaserade biodrivmedel
-            </seg>
-            <seg n="632cac9c">
-              2020/21:243 Kommunernas hantering av barnärenden
-            </seg>
-            <seg n="597816bb">
-              2020/21:245 Säkerheten vid Sveriges Radio till följd av Twitter
-              ­ attacken
-            </seg>
-            <seg n="720ac741">
-              2020/21:246 En humanare bedömning för riskgrupper
-            </seg>
-            <seg n="bf7a87a9">
-              till statsrådet Ardalan Shekarabi (S)
-            </seg>
-            <seg n="2855eeac">
-              2020/21:247 Utebliven ersättning till riskgrupper
-            </seg>
-            <seg n="bf7a87a9">
-              till statsrådet Ardalan Shekarabi (S)
-            </seg>
-            <seg n="d029ddc0">
-              2020/21:248 Onödiga dödsfall bland äldre
-            </seg>
-            <seg n="15ce075f">
-              Anf. 1 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="f60e0447">
-              Anf. 3 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="f1fa632f">
-              Anf. 5 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="92c4ac57">
-              Anf. 7 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="aeab3c2d">
-              Anf. 9 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="9956ef00">
-              Anf. 10 SOFIA NILSSON (C)
-            </seg>
-            <seg n="ba66e3b1">
-              Anf. 11 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="b40805c7">
-              Anf. 15 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="64ecd462">
-              Anf. 19 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="7969010a">
-              Anf. 21 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="be0b07f3">
-              Anf. 23 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="89c6ae9f">
-              Anf. 25 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="e9cb0435">
-              Anf. 27 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="12cd4612">
-              Anf. 29 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="e1b42456">
-              Anf. 30 MARIA GARDFJELL (MP)
-            </seg>
-            <seg n="bd0bd7c4">
-              Anf. 32 MARIA GARDFJELL (MP)
-            </seg>
-            <seg n="0e0922bb">
-              Anf. 33 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="2f7d7ff0">
-              Anf. 35 Statsminister STEFAN LÖFVEN (S)
-            </seg>
-            <seg n="0b530312">
-              Anf. 37 Statsminister STEFAN LÖFVEN (S)
-            </seg>
           </u>
-          <note n="efba1a3f">
+          <note>
+            Stockholm den 30 september 2020
+          </note>
+          <note>
             Henrik Vinge
           </note>
-          <note n="d31a7bf2">
+          <note>
             Gruppledare Sverigedemokraterna
           </note>
-          <note n="fed161a7">
+          <note>
             § 5 Anmälan om fördröjt svar på interpellation
           </note>
-          <note n="529ec9a1">
+          <note>
             Följande skrivelse hade kommit in:
           </note>
-          <note n="a58c66ef">
+          <note>
             Interpellation 2020/21:56
           </note>
-          <note n="95884fde">
+          <note>
             Till riksdagen
           </note>
-          <note n="19593c46">
+          <note>
             Interpellation 2020/21:56 Infranord
           </note>
-          <note n="38231947">
+          <note>
             av Ali Esbati (V)
           </note>
-          <note n="0ebcb2b2">
+          <note>
             Interpellationen kommer att besvaras fredagen den 6 november
             2020.
           </note>
-          <note n="226ca878">
+          <u xml:id="i-ab5eb9fcc37eb535-147" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
+              Skälet till dröjsmålet är tidigare inbokade resor och arrangemang.
+            </seg>
+          </u>
+          <note>
+            Stockholm den 16 oktober 2020
+          </note>
+          <u xml:id="i-ab5eb9fcc37eb535-148" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
+              När ingsdepartementet
+            </seg>
+          </u>
+          <note>
             Ibrahim Baylan (S)
           </note>
-          <note n="97a32973">
+          <note>
             Enligt uppdrag
           </note>
-          <note n="9250ad77">
+          <note>
             Annica Sandberg
           </note>
-          <note n="ffac2b37">
+          <note>
+            Expeditionschef
+          </note>
+          <note>
             § 6 Ärende för hänvisning till utskott
           </note>
-          <note n="de5d9d5d">
+          <note>
             Följande dokument hänvisades till utskott:
           </note>
-          <note n="546d29e5">
+          <note>
             Framställning
           </note>
-          <note n="dba2844b">
+          <note>
             2020/21:RS2 till konstitutionsutskottet
           </note>
-          <note n="c47ee3b7">
+          <note>
             § 7 Ärenden för bordläggning
           </note>
-          <note n="dcbf2131">
+          <note>
             Följande dokument anmäldes och bordlades:
           </note>
-          <note n="a2bc2de1">
+          <note>
             Konstitutionsutskottets betänkanden
           </note>
-          <note n="6060d251">
+          <note>
+            2020/21:KU3 En moderniserad radio- och tv-lag
+          </note>
+          <note>
+            2020/21:KU4 Några sekretessfrågor på finansmarknadsområdet
+          </note>
+          <note>
             Finansutskottets betänkanden
           </note>
-          <note n="19c12b97">
+          <u xml:id="i-ab5eb9fcc37eb535-149" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
+              2020/21:FiU9 Riksrevisorns årliga rapport 2020
+            </seg>
+          </u>
+          <note>
             2020/21:FiU12 Tillfällig ändring i Första–Fjärde AP-fondens placeringsregler
             med anledning av covid ‑ 19
           </note>
-          <note n="a07e00e0">
+          <note>
+            2020/21:FiU29 Några frågor om clearing av OTC-derivat och om
+            transaktioner för värdepappersfinansiering
+          </note>
+          <u xml:id="i-ab5eb9fcc37eb535-150" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
+              2020/21:FiU31 Medgivande för Riksbanken att ge kredit till IMF
+            </seg>
+          </u>
+          <note>
             Försvarsutskottets betänkande
           </note>
-          <note n="087ec6ec">
-            2020/21:FöU3 En effektivare kommunal räddningstjänst
-          </note>
-          <note n="8b2debed">
+          <u xml:id="i-ab5eb9fcc37eb535-151" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
+              2020/21:FöU3 En effektivare kommunal räddningstjänst
+            </seg>
+          </u>
+          <note>
             Arbetsmarknadsutskottets betänkanden
           </note>
-          <note n="4e090c3b">
+          <note>
+            2020/21:AU3 Riksrevisionens rapport om effektiviteten i förmedlingsverksamheten
+          </note>
+          <u xml:id="i-ab5eb9fcc37eb535-152" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
+              2020/21:AU4 ILO:s hundraårsdeklaration för framtidens arbetsliv
+            </seg>
+          </u>
+          <note>
             Näringsutskottets utlåtande
           </note>
-          <note n="98c3b142">
+          <u xml:id="i-ab5eb9fcc37eb535-153" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
+              2020/21:NU8 Kommissionens vitbok om utländska subventioner på
+              den inre marknaden
+            </seg>
+          </u>
+          <note>
             Skatteutskottets betänkanden
           </note>
-          <note n="a42bf9ff">
+          <note>
             2020/21:SkU4 Delegationsbestämmelser för Skatterättsnämnden och
             Forskarskattenämnden och några ändringar i fråga om informationsutbyte
             på skatteområdet
           </note>
-          <note n="d46c7c1e">
+          <note>
+            2020/21:SkU2 Riksrevisionens rapport om RUT-avdraget
+          </note>
+          <u xml:id="i-ab5eb9fcc37eb535-154" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
+              2020/21:SkU6 Skattereduktion för boende i vissa glest befolkade
+              områden – regional skattereduktion
+            </seg>
+          </u>
+          <note>
             § 8 Bordläggning
           </note>
-          <note n="dcbf2131">
+          <note>
             Följande dokument anmäldes och bordlades:
           </note>
-          <note n="f8bca9ba">
+          <note>
             Propositioner
           </note>
-          <note n="a6ef57e5">
+          <note>
+            2020/21:33 Avgifter vid återköp och flytt av fond- och depåförsäkringar
+          </note>
+          <note>
             2020/21:35 Regelbundna överväganden av vårdnadsöverflyttning
             och särskilda lämplighetskrav för offentliga biträden
           </note>
-          <note n="a890557d">
+          <note>
             2020/21:36 Ändringar i regelverket om kapitaltäckning
           </note>
-          <note n="c7196ce3">
+          <note>
+            2020/21:37 Skattereduktion för förvärvsinkomster och utvidgad
+            tidsgräns för expertskatt
+          </note>
+          <note>
             Motioner
           </note>
-          <note n="81f4bdea">
+          <note>
+            med anledning av skr. 2020/21:7 Strategi för den arktiska regionen
+          </note>
+          <note>
             2020/21:3720 av Håkan Svenneling m.fl. (V)
           </note>
-          <note n="0f4fb4ca">
+          <note>
             2020/21:3722 av Hans Wallmark m.fl. (M)
           </note>
-          <note n="e21f8840">
+          <note>
             2020/21:3728 av Björn Söder m.fl. (SD)
           </note>
-          <note n="4d65a3f5">
+          <note>
             2020/21:3731 av Kerstin Lundgren m.fl. (C)
           </note>
-          <note n="e7a73300">
+          <note>
             med anledning av skr. 2020/21:10 Riksrevisionens rapport om flerbarnstillägget
             i barnbidraget
           </note>
-          <note n="e8015cc0">
+          <note>
             2020/21:3723 av Linda Lindberg och Julia Kronlid (båda SD)
           </note>
-          <note n="b2eda9e4">
+          <note>
             2020/21:3732 av Martina Johansson och Solveig Zander (båda C)
           </note>
-          <note n="91d44282">
+          <note>
             § 9 Anmälan om interpellationer
           </note>
-          <note n="64aebb98">
+          <note>
             Följande interpellationer hade framställts:
           </note>
-          <note n="5434837d">
+          <note>
             den 16 oktober
           </note>
-          <note n="72e4acb9">
-            2020/21:63 Ett centralt skuldregister
-          </note>
-          <note n="9fda1923">
+          <u xml:id="i-ab5eb9fcc37eb535-155" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
+              2020/21:63 Ett centralt skuldregister
+            </seg>
+          </u>
+          <note>
             av Angelica Lundberg (SD)
           </note>
-          <note n="54fb23c0">
+          <note>
             till statsrådet Per Bolund (MP)
           </note>
-          <note n="37a39705">
+          <note>
             den 19 oktober
           </note>
-          <note n="61e932ff">
+          <note>
+            2020/21:64 Marockos brott mot mänskliga rättigheter i Västsahara
+          </note>
+          <note>
             av Lotta Johnsson Fornarve (V)
           </note>
-          <note n="80bafe4c">
+          <note>
             till utrikesminister Ann Linde (S)
           </note>
-          <note n="bb5a40c2">
+          <u xml:id="i-ab5eb9fcc37eb535-156" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
+              2020/21:65 Slutförvar för använt kärnbränsle
+            </seg>
+          </u>
+          <note>
             av Mattias Bäckström Johansson (SD)
           </note>
-          <note n="476f98dc">
+          <u xml:id="i-ab5eb9fcc37eb535-157" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
+              till miljö- och klimatminister Isabella Lövin (MP)
+            </seg>
+          </u>
+          <note>
+            2020/21:66 Nedskräpning och brottslighet vid bärplockarläger
+          </note>
+          <note>
             av Lars Beckman (M)
           </note>
-          <note n="21870886">
+          <note>
             till justitie- och migrationsminister Morgan Johansson (S)
           </note>
-          <note n="c6053758">
+          <note>
             2020/21:67 Stöd till ungdomsorganisationer
           </note>
-          <note n="288c3ee5">
+          <note>
             av Vasiliki Tsouplaki (V)
           </note>
-          <note n="bed9e5d9">
+          <note>
             till kultur- och demokratiminister Amanda Lind (MP)
           </note>
-          <note n="ea834303">
+          <u xml:id="i-ab5eb9fcc37eb535-158" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
+              2020/21:68 Den turkiska regimens expansiva utrikespolitik
+            </seg>
+          </u>
+          <note>
             av Amineh Kakabaveh (-)
           </note>
-          <note n="80bafe4c">
+          <note>
             till utrikesminister Ann Linde (S)
           </note>
-          <note n="5fa1c9e4">
+          <note>
             § 10 Anmälan om frågor för skriftliga svar
           </note>
-          <note n="e93449ef">
-            Följande frågor för skriftliga svar hade framställts:
-          </note>
-          <note n="5434837d">
+          <u xml:id="i-ab5eb9fcc37eb535-159" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
+              Följande frågor för skriftliga svar hade framställts:
+            </seg>
+          </u>
+          <note>
             den 16 oktober
           </note>
-          <note n="602603a1">
+          <note>
             2020/21:235 Åtgärder mot matchfixning
           </note>
-          <note n="456c4961">
+          <note>
             av Angelika Bengtsson (SD)
           </note>
-          <note n="bcad6d40">
+          <note>
             till statsrådet Ardalan Shekarabi (S)
           </note>
-          <note n="37a39705">
+          <note>
             den 19 oktober
           </note>
-          <note n="fc3f9be5">
+          <note>
+            2020/21:236 Höjd åldersgräns för vattenskoter
+          </note>
+          <note>
             av Jens Holm (V)
           </note>
-          <note n="47c4f11a">
+          <note>
             till infrastrukturminister Tomas Eneroth (S)
           </note>
-          <note n="fc3f9be5">
+          <u xml:id="i-ab5eb9fcc37eb535-160" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
+              2020/21:237 Skattebefriade elbussar
+            </seg>
+          </u>
+          <note>
             av Jens Holm (V)
           </note>
-          <note n="3fdd6302">
+          <note>
             till finansminister Magdalena Andersson (S)
           </note>
-          <note n="bb5a40c2">
+          <note>
+            2020/21:238 Kemikalieskatten
+          </note>
+          <note>
             av Mattias Bäckström Johansson (SD)
           </note>
-          <note n="3fdd6302">
+          <note>
             till finansminister Magdalena Andersson (S)
           </note>
-          <note n="0dd8226e">
+          <u xml:id="i-ab5eb9fcc37eb535-161" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
+              2020/21:239 Valet i Chile
+            </seg>
+          </u>
+          <note>
             av Lorena Delgado Varas (V)
           </note>
-          <note n="80bafe4c">
+          <note>
             till utrikesminister Ann Linde (S)
           </note>
-          <note n="29a968c3">
+          <note>
+            2020/21:240 Skattebefrielse för grödebaserade biodrivmedel
+          </note>
+          <note>
             av Kjell-Arne Ottosson (KD)
           </note>
-          <note n="3fdd6302">
+          <note>
             till finansminister Magdalena Andersson (S)
           </note>
-          <note n="e625cec4">
+          <note>
             2020/21:241 Kontroll och inspektion av skyddsrum
           </note>
-          <note n="476f98dc">
+          <note>
             av Lars Beckman (M)
           </note>
-          <note n="26cc8a56">
+          <note>
             till statsrådet Mikael Damberg (S)
           </note>
-          <note n="2cf05b5a">
+          <note>
             2020/21:242 Konsumentskyddet vid kirurgiska skönhetsbehandlingar
           </note>
-          <note n="9fda1923">
+          <note>
             av Angelica Lundberg (SD)
           </note>
-          <note n="712e5f8e">
+          <note>
             till statsrådet Lena Micko (S)
           </note>
-          <note n="f0fd0c35">
+          <note>
+            2020/21:243 Kommunernas hantering av barnärenden
+          </note>
+          <note>
             av Mikael Eskilandersson (SD)
           </note>
-          <note n="baabe664">
+          <note>
             till socialminister Lena Hallengren (S)
           </note>
-          <note n="f8c546ef">
+          <note>
             2020/21:244 Folkrättsbrott mot Armenien och Republiken Artsach
           </note>
-          <note n="79d3b049">
+          <note>
             av Markus Wiechel (SD)
           </note>
-          <note n="80bafe4c">
+          <note>
             till utrikesminister Ann Linde (S)
           </note>
-          <note n="456c4961">
+          <note>
+            2020/21:245 Säkerheten vid Sveriges Radio till följd av Twitter
+            ­ attacken
+          </note>
+          <note>
             av Angelika Bengtsson (SD)
           </note>
-          <note n="bed9e5d9">
+          <note>
             till kultur- och demokratiminister Amanda Lind (MP)
           </note>
-          <note n="96dbefc4">
+          <note>
+            2020/21:246 En humanare bedömning för riskgrupper
+          </note>
+          <note>
             av Julia Kronlid (SD)
           </note>
-          <note n="96dbefc4">
+          <note>
+            till statsrådet Ardalan Shekarabi (S)
+          </note>
+          <note>
+            2020/21:247 Utebliven ersättning till riskgrupper
+          </note>
+          <note>
             av Julia Kronlid (SD)
           </note>
-          <note n="75b71923">
+          <note>
+            till statsrådet Ardalan Shekarabi (S)
+          </note>
+          <u xml:id="i-ab5eb9fcc37eb535-162" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
+              2020/21:248 Onödiga dödsfall bland äldre
+            </seg>
+          </u>
+          <note>
             av Ann-Christine From Utterstedt (SD)
           </note>
-          <note n="baabe664">
+          <note>
             till socialminister Lena Hallengren (S)
           </note>
-          <note n="d96e11a6">
+          <note>
             § 11 Kammaren åtskildes kl. 14.00.
           </note>
-          <note n="002c77e6">
+          <note>
             Sammanträdet leddes av tredje vice talmannen.
           </note>
-          <note n="12614144">
+          <note>
             Vid protokollet
           </note>
-          <note n="02d1f311">
-            ANNA ASPEGREN
-          </note>
-          <note n="855ff37e">
+          <u xml:id="i-ab5eb9fcc37eb535-163" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
+              ANNA ASPEGREN
+            </seg>
+          </u>
+          <note>
             / Olof Pilo
           </note>
-          <note n="895ef89c">
+          <note>
             Innehållsförteckning
           </note>
-          <note n="b86c9e0e">
+          <note>
             § 1 Återrapportering från Europeiska rådets möte den 15–16 oktober
           </note>
-          <note n="b2252262">
+          <u xml:id="i-ab5eb9fcc37eb535-164" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
+              Anf. 1 Statsminister STEFAN LÖFVEN (S)
+            </seg>
+          </u>
+          <note>
             Anf. 2 JESSICA ROSENCRANTZ (M)
           </note>
-          <note n="a1f1d70c">
+          <note>
+            Anf. 3 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             Anf. 4 JESSICA ROSENCRANTZ (M)
           </note>
-          <note n="2e046eca">
+          <note>
+            Anf. 5 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             Anf. 6 MARTIN KINNUNEN (SD)
           </note>
-          <note n="f900d559">
+          <note>
+            Anf. 7 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             Anf. 8 MARTIN KINNUNEN (SD)
           </note>
-          <note n="0b290d74">
+          <note>
+            Anf. 9 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
+            Anf. 10 SOFIA NILSSON (C)
+          </note>
+          <note>
+            Anf. 11 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             Anf. 12 SOFIA NILSSON (C)
           </note>
-          <note n="47cb9d3b">
+          <note>
             Anf. 13 Statsminister STEFAN LÖFVEN (S)
           </note>
-          <note n="bc86cc52">
+          <note>
             Anf. 14 JONAS SJÖSTEDT (V)
           </note>
-          <note n="d1199c47">
+          <note>
+            Anf. 15 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             Anf. 16 JONAS SJÖSTEDT (V)
           </note>
-          <note n="c79ad6ff">
+          <note>
             Anf. 17 Statsminister STEFAN LÖFVEN (S)
           </note>
-          <note n="e81f936e">
+          <note>
             Anf. 18 DÉSIRÉE PETHRUS (KD)
           </note>
-          <note n="a1f1f7ec">
+          <note>
+            Anf. 19 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             Anf. 20 DÉSIRÉE PETHRUS (KD)
           </note>
-          <note n="966abe6b">
+          <note>
+            Anf. 21 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             Anf. 22 JOAR FORSSELL (L)
           </note>
-          <note n="213cea18">
+          <note>
+            Anf. 23 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             Anf. 24 JOAR FORSSELL (L)
           </note>
-          <note n="2ea458eb">
+          <note>
+            Anf. 25 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             Anf. 26 MARKUS SELIN (S)
           </note>
-          <note n="ca29709e">
+          <note>
+            Anf. 27 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             Anf. 28 MARKUS SELIN (S)
           </note>
-          <note n="0286d199">
+          <note>
+            Anf. 29 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
+            Anf. 30 MARIA GARDFJELL (MP)
+          </note>
+          <note>
             Anf. 31 Statsminister STEFAN LÖFVEN (S)
           </note>
-          <note n="7be2b3fe">
+          <note>
+            Anf. 32 MARIA GARDFJELL (MP)
+          </note>
+          <note>
+            Anf. 33 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             Anf. 34 JESSIKA ROSWALL (M)
           </note>
-          <note n="ba8cb7cd">
+          <note>
+            Anf. 35 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             Anf. 36 JESSIKA ROSWALL (M)
           </note>
-          <note n="6529cd3c">
+          <note>
+            Anf. 37 Statsminister STEFAN LÖFVEN (S)
+          </note>
+          <note>
             § 2 Justering av protokoll
           </note>
-          <note n="ad62c1b9">
+          <note>
             § 3 Meddelande om frågestund
           </note>
-          <note n="e7f41290">
+          <note>
             § 4 Meddelande om särskild debatt med anledning av kriminalvårdens
             stabsläge och kapacitet
           </note>
-          <note n="fed161a7">
+          <note>
             § 5 Anmälan om fördröjt svar på interpellation
           </note>
-          <note n="ffac2b37">
+          <note>
             § 6 Ärende för hänvisning till utskott
           </note>
-          <note n="c47ee3b7">
+          <note>
             § 7 Ärenden för bordläggning
           </note>
-          <note n="d46c7c1e">
+          <note>
             § 8 Bordläggning
           </note>
-          <note n="91d44282">
+          <note>
             § 9 Anmälan om interpellationer
           </note>
-          <note n="5fa1c9e4">
+          <note>
             § 10 Anmälan om frågor för skriftliga svar
           </note>
-          <note n="d96e11a6">
+          <note>
             § 11 Kammaren åtskildes kl. 14.00.
           </note>
-          <note n="f56f14da">
-            Tryck: Elanders Sverige AB, Vällingby 2020
-          </note>
+          <u xml:id="i-ab5eb9fcc37eb535-165" prev="i-ab5eb9fcc37eb535-140" who="Q2740012">
+            <seg>
+              Tryck: Elanders Sverige AB, Vällingby 2020
+            </seg>
+          </u>
         </div>
       </body>
     </text>

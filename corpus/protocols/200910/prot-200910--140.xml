@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2009</title>
+        <title>Riksdagens protocols 200910</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2009</title>
+          <title>Riksdagens protocols 200910</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -58,42 +55,43 @@
       <front>
         <div type="preface">
           <head>prot-200910--140</head>
-          <docDate when="2009-06-18">2009-06-18</docDate>
+          <docDate when="2010-06-18">2010-06-18</docDate>
         </div>
       </front>
       <body>
         <div>
-          <note n="8e99bc88">
-            ﻿
-          </note>
-          <note n="34b9abd6">
+          <note>
             Riksdagens protokoll
           </note>
-          <note n="645d0b29">
-            2009/10:140
-          </note>
-          <note type="date" n="067c90ca">
+          <u xml:id="i-c52107b06b9ef305-0" who="unknown">
+            <seg>
+              2009/10:140
+            </seg>
+          </u>
+          <note>
             Fredagen den 18 juni
           </note>
-          <note n="912ed2cd">
+          <note>
             Kl. 09:00 - 11:39
           </note>
-          <note n="25d2cf4f">
+          <note>
             1 § Svar på interpellation 2009/10:439 om prioritering av brott
             mot arbetsmiljölagen
           </note>
-          <note type="speaker" n="f0b8c468">
+          <note type="speaker">
             Anf. 1 Justitieminister BEATRICE ASK (m):
           </note>
-          <u who="Q297850" xml:id="i-d2e36a0a959be3dc-0" n="cdc75efe">
-            <seg n="fb66ca2e">
+          <u xml:id="i-c52107b06b9ef305-1" next="i-c52107b06b9ef305-6" who="Q297850">
+            <seg>
               Herr talman! Eva-Lena Jansson har frågat om jag avser att vidta
               åtgärder för att ge polis och åklagare nödvändiga resurser för
               att utreda misstänkta arbetsmiljöbrott inom rimlig tid. Hon undrar
               också om jag är beredd att ta initiativ till att förlänga preskriptionstiden
               för arbetsmiljöbrott.
             </seg>
-            <seg n="9162af80">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-2" prev="i-c52107b06b9ef305-1" who="Q297850">
+            <seg>
               Eva-Lena Jansson ställer frågan mot bakgrund av ett enskilt fall
               där hon menar att ett grovt brott mot arbetsmiljölagen inte har
               fått någon rättslig prövning. Jag instämmer inte i beskrivningen
@@ -102,14 +100,18 @@
               är det dock av största vikt att vi får en bättre brottsutredande
               verksamhet så att fler brott klaras upp.
             </seg>
-            <seg n="6fad2d2a">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-3" prev="i-c52107b06b9ef305-1" who="Q297850">
+            <seg>
               Ärendetillströmningen i rättskedjan har de senaste åren varit
               stor och förväntas fortsätta att öka. För att myndigheterna ska
               kunna leva upp till kraven på en snabb och effektiv handläggning
               har regeringen dels tillfört rättsväsendets myndigheter betydande
               resurstillskott, dels sett över effektiviteten inom hela rättsväsendet.
             </seg>
-            <seg n="3c063878">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-4" prev="i-c52107b06b9ef305-1" who="Q297850">
+            <seg>
               Riksdag och regering har under mandatperioden tillfört Polisen
               och Åklagarmyndigheten sammanlagt 2,6 miljarder kronor i varaktig
               anslagsökning. Därutöver har myndigheterna tillförts över 1 miljard
@@ -119,7 +121,9 @@
               ska leda till en förbättrad verksamhet när det gäller utredning
               och lagföring av brott, däribland arbetsmiljöbrott.
             </seg>
-            <seg n="714b0546">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-5" prev="i-c52107b06b9ef305-1" who="Q297850">
+            <seg>
               Regeringen har ställt krav på polisen och Åklagarmyndigheten
               att handläggningstiderna ska kortas och utredningsresultatet förbättras.
               För att förbättra hanteringen av arbetsmiljöbrott inrättade Åklagarmyndigheten
@@ -128,7 +132,9 @@
               för de poliser, åklagare och arbetsmiljöinspektörer som arbetar
               med att utreda misstänkta arbetsmiljöbrott.
             </seg>
-            <seg n="3e8c036a">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-6" prev="i-c52107b06b9ef305-1" who="Q297850">
+            <seg>
               Reglerna om preskription motiveras framför allt av rättspolitiska,
               humanitära och praktiska skäl. Utgångspunkten är att preskriptionstidens
               längd ska stå i relation till brottets svårhet. Det system för
@@ -138,11 +144,11 @@
               arbetsmiljöbrott.
             </seg>
           </u>
-          <note type="speaker" n="48ca3de6">
+          <note type="speaker">
             Anf. 2 EVA-LENA JANSSON (s):
           </note>
-          <u who="Q3374622" xml:id="i-c4427f1d110f0379-0" n="f1f4fa9f">
-            <seg n="974b0322">
+          <u xml:id="i-c52107b06b9ef305-7" next="i-c52107b06b9ef305-17" who="Q3374622">
+            <seg>
               Herr talman! Tack, Beatrice Ask, för svaret! Jag vill börja med
               att korrigera justitieministern som citerade en del ur min interpellation.
               Det är rätt att jag har skrivit att ett grovt brott mot arbetsmiljölagen
@@ -152,36 +158,48 @@
               utredningen eftersom utredningen inte blev klar innan preskriptionstiden
               gick ut.
             </seg>
-            <seg n="1021b6f7">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-8" prev="i-c52107b06b9ef305-7" who="Q3374622">
+            <seg>
               Fallet handlar alltså om ett hotellbygge i Örebro, där det våren
               2008 konstaterades att det hade begåtts brott mot arbetsmiljölagen.
               Byggnadsarbetare hade utsatts för allvarlig asbestexponering.
               Det ledde till en polisanmälan från Svenska byggnadsarbetareförbundet.
               Arbetsmiljöverket beslutade om ett vite om 50 000 kronor för arbetsgivaren.
             </seg>
-            <seg n="af43cb3f">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-9" prev="i-c52107b06b9ef305-7" who="Q3374622">
+            <seg>
               Det gjordes en polisanmälan om framkallande av fara samt grov
               fara för framtida allvarlig sjukdom. Det här är ett mycket allvarligt
               brott. Då blir det märkligt att frågan inte utreds.
             </seg>
-            <seg n="cff3d713">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-10" prev="i-c52107b06b9ef305-7" who="Q3374622">
+            <seg>
               Jag tog upp frågan vid två interpellationstillfällen. Den 18
               november hade det gått nio månader sedan arbetet stoppades och
               polisanmälan hade gjorts. Uppenbarligen fanns det inte resurser
               hos polisen i Örebro för att göra en ordentlig utredning. Det
               är därför jag ställt frågorna kring detta.
             </seg>
-            <seg n="58bbef45">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-11" prev="i-c52107b06b9ef305-7" who="Q3374622">
+            <seg>
               Det pågår tyvärr en försinkning av arbetsmiljöarbetet i Sverige.
               Vi vet att det begås många allvarliga brott.
             </seg>
-            <seg n="b2ae7af5">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-12" prev="i-c52107b06b9ef305-7" who="Q3374622">
+            <seg>
               I Vallåkra blev en man påkörd av en truck för fyra år sedan.
               Polisen kom till arbetsplatsen ett år efter det att olyckan hade
               skett. Hade han blivit påkörd utanför grindarna för företaget
               hade naturligtvis polisen varit där omedelbart.
             </seg>
-            <seg n="8e68c2a1">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-13" prev="i-c52107b06b9ef305-7" who="Q3374622">
+            <seg>
               Sådant här kan hända när det gäller arbetsmiljöbrott, vilket
               jag tycker är ytterst allvarligt. Därför har jag ställt frågan
               om justitieministern är beredd att vidta åtgärder för att polis
@@ -190,40 +208,50 @@
               tidsgränser. Man har uppenbarligen inte tillräckliga resurser
               om man inte klarar av att utreda ett brott på två år.
             </seg>
-            <seg n="a58c13c5">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-14" prev="i-c52107b06b9ef305-7" who="Q3374622">
+            <seg>
               Byggnads bedömde det här som ett av de allvarligare brotten det
               var ju fråga om asbest. Det var därför jag frågade om att förlänga
               preskriptionstiden.
             </seg>
-            <seg n="82ad6047">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-15" prev="i-c52107b06b9ef305-7" who="Q3374622">
+            <seg>
               Att döma av det svar jag fått verkar åtminstone justitieministern
               nöjd med det arbete polis och åklagare gör när det gäller arbetsmiljöbrott.
               Jag är i alla fall inte nöjd.
             </seg>
-            <seg n="a7a09cfc">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-16" prev="i-c52107b06b9ef305-7" who="Q3374622">
+            <seg>
               Därför är min fråga till Beatrice Ask: Är du utifrån det du har
               sett nöjd med det som sker när det gäller brott mot arbetsmiljön?
               Tycker du att arbetsgivarna uppmärksammas när brott begås såsom
               de borde uppmärksammas från polis och åklagare? Tycker justitieministern
               att de utredningar som görs är bra ur rättssynpunkt?
             </seg>
-            <seg n="79dfc99f">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-17" prev="i-c52107b06b9ef305-7" who="Q3374622">
+            <seg>
               Herr talman! Jag hoppas att jag får svar från justitieministern
               på de här frågorna.
             </seg>
           </u>
-          <note type="speaker" n="683b2943">
+          <note type="speaker">
             Anf. 3 Justitieminister BEATRICE ASK (m):
           </note>
-          <u who="Q297850" xml:id="i-a5a119e7d3b823d0-0" n="cdc75efe" next="i-9f0411890ac6870b-0">
-            <seg n="70fa7a96">
+          <u xml:id="i-c52107b06b9ef305-18" next="i-c52107b06b9ef305-28" who="Q297850">
+            <seg>
               Herr talman! Nöjd ska man aldrig vara. Däremot konstaterar jag
               att en förbättrad utbildning och den nya riksenheten för den här
               typen av ärenden har inneburit att antalet lagföringar har fördubblats
               i arbetsmiljömål. Det tycker jag är bra. Mellan 2008 och 2009
               fördubblades lagföringen, och det är helt nödvändigt.
             </seg>
-            <seg n="583ea911">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-19" prev="i-c52107b06b9ef305-18" who="Q297850">
+            <seg>
               När det gäller det ärende som diskuteras beskriver jag lite grann
               hur det går till. Min beskrivning är korrekt. Det har skett en
               rättslig prövning. Det var två anmälningar om brott som kom in
@@ -231,38 +259,46 @@
               anmälde brott mot arbetsmiljölagen, och fackförbundet Byggnads
               anmälde brott i form av framkallande av fara för annan.
             </seg>
-            <seg n="07e57af3">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-20" prev="i-c52107b06b9ef305-18" who="Q297850">
+            <seg>
               Polis och åklagare utredde ärendet. I utredningen konstaterades
               att företaget hade brutit mot Arbetsmiljöverkets föreskrifter
               om asbest. Därmed förelåg brott mot arbetsmiljölagen. Åklagaren
               bedömde däremot inte att någon i företaget hade gjort sig skyldig
               till framkallande av fara för någon annan. Det här är en prövning.
             </seg>
-            <seg n="64153050">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-21" prev="i-c52107b06b9ef305-18" who="Q297850">
+            <seg>
               Parallellt med utredningen pågick ett ärende hos dåvarande länsrätt
               i Örebro om sanktionsavgift mot företaget beträffande ett annat
               brott mot Arbetsmiljöverkets föreskrifter. Länsrätten kom fram
               till att sanktionsavgift skulle utdömas.
             </seg>
           </u>
-          <note n="0fc396c2">
+          <note>
             Åklagaren, som hade inväntat länsrättens beslut, gjorde då bedömningen
             att det skulle innebära dubbelbestraffning att även bötesfälla
             arbetsgivaren, nu för den senare gärningen. Av det skälet beslutar
             man om åtalsunderlåtelse enligt bestämmelserna i 20 kap. 7 § punkt
             1 i rättegångsbalken.
           </note>
-          <u who="Q297850" xml:id="i-9f0411890ac6870b-0" n="cdc75efe" prev="i-a5a119e7d3b823d0-0">
-            <seg n="408aabea">
+          <u xml:id="i-c52107b06b9ef305-22" prev="i-c52107b06b9ef305-18" who="Q297850">
+            <seg>
               Åklagarens beslut att inte väcka åtal resulterade i att Byggnads
               begärde en överprövning av beslutet. Det var överprövningen som
               inte fullföljdes eftersom preskriptionstiden två år som gäller
               för brott mot arbetsmiljölagen hade löpt ut.
             </seg>
-            <seg n="d2a2c798">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-23" prev="i-c52107b06b9ef305-18" who="Q297850">
+            <seg>
               Den här frågan har alltså prövats.
             </seg>
-            <seg n="ed65cbf9">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-24" prev="i-c52107b06b9ef305-18" who="Q297850">
+            <seg>
               Jag tycker att det är viktigt att vi får den här typen av ärenden
               prövade. Det är därför som man har genomfört en ganska omfattande
               utbildning av personal i rättsväsendet och säkrat en riksenhet
@@ -270,24 +306,32 @@
               operativ enhet med kompetens som är särskilt inriktad på detta.
               Det har snabbt lett till en fördubbling av antalet lagföringar.
             </seg>
-            <seg n="6c107de1">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-25" prev="i-c52107b06b9ef305-18" who="Q297850">
+            <seg>
               Jag är inte nöjd med det, jag är inte nöjd förrän vi hanterar
               varje ärende. Men jag konstaterar att mer har blivit gjort på
               det här området än tidigare, och det är absolut nödvändigt.
             </seg>
-            <seg n="0340f151">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-26" prev="i-c52107b06b9ef305-18" who="Q297850">
+            <seg>
               Jag kräver att med de stora resursökningar som vi har gjort till
               polis, åklagare och andra ska vi också få mer resultat i rättsväsendet,
               och det här är ett sådant resultat.
             </seg>
-            <seg n="cfb36985">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-27" prev="i-c52107b06b9ef305-18" who="Q297850">
+            <seg>
               Jag kommer noga att följa de här ärendena och hur specialistenheten
               arbetar med frågorna, därför att det är viktigt att man följer
               reglerna i arbetsmiljölagen. Sedan är de här brotten, precis som
               en del andra, ofta svårutredda, men det är inte så att man kan
               säga att det inte finns resurser.
             </seg>
-            <seg n="49d347a4">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-28" prev="i-c52107b06b9ef305-18" who="Q297850">
+            <seg>
               Vad gäller polisen i Örebro har också de under de här åren fått
               rätt ansenliga resursökningar. Jag vet att det inte räcker till
               allting överallt. Men vi kan inte, när vi har tillfört polisen
@@ -299,11 +343,11 @@
               skälet till att man lägger dem åt sidan.
             </seg>
           </u>
-          <note type="speaker" n="6e7a4f33">
+          <note type="speaker">
             Anf. 4 EVA-LENA JANSSON (s):
           </note>
-          <u who="Q3374622" xml:id="i-c4427f1d110f0379-1" n="f1f4fa9f">
-            <seg n="8d86088a">
+          <u xml:id="i-c52107b06b9ef305-29" next="i-c52107b06b9ef305-33" who="Q3374622">
+            <seg>
               Herr talman! Det känns bra att få ett svar från justitieministern
               som visar att man prioriterar just arbetsmiljöbrott, för min upplevelse
               under de senaste två åren är att man inte har prioriterat dem
@@ -312,7 +356,9 @@
               exempel en arbetsplats på en gång, medan det kan ta väldigt lång
               tid att utreda en olycka som sker inne på en arbetsplats.
             </seg>
-            <seg n="a4786cb8">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-30" prev="i-c52107b06b9ef305-29" who="Q3374622">
+            <seg>
               Just när det gäller det fall som jag nu pekade på försökte jag
               vara tydlig med att det inte hade prövats rättsligt när jag tog
               upp det tidigare, men fallet lades ned. Det kändes som en dubbelbestraffning.
@@ -322,7 +368,9 @@
               och även rån gissar jag att man döms för båda brotten, så det
               är konstigt att det inte skedde i det här fallet.
             </seg>
-            <seg n="bc5429c7">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-31" prev="i-c52107b06b9ef305-29" who="Q3374622">
+            <seg>
               När det gäller preskriptionstiden skriver justitieministern att
               hon inte har för avsikt att ta några initiativ för att förändra
               preskriptionstiden för arbetsmiljöbrott. Jag tycker i alla fall
@@ -330,29 +378,35 @@
               av brott mot arbetsmiljölagar på dem som har skadats, men kanske
               inte på en gång om man har utsatts för just asbestexponering.
             </seg>
-            <seg n="9ac9db28">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-32" prev="i-c52107b06b9ef305-29" who="Q3374622">
+            <seg>
               Många av arbetarna som fanns på arbetsplatsen är inte medborgare
               i Sverige, utan de kom från Polen, Slovenien och andra länder.
               Möjligheten för dem att få sin sak prövad blir mycket svårare
               eftersom de inte fick den tidigt prövad och de redan har lämnat
               landet. Därav min fråga om att förlänga preskriptionstiden.
             </seg>
-            <seg n="382a22b0">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-33" prev="i-c52107b06b9ef305-29" who="Q3374622">
+            <seg>
               Herr talman! Jag skulle vilja höra om justitieministern inser
               problemet med att arbetsmiljöbrott kan visa sig få effekter lång
               tid efter att brottet begicks och att det därmed skulle finnas
               ett behov av att förlänga preskriptionstiden.
             </seg>
           </u>
-          <note type="speaker" n="85d638f4">
+          <note type="speaker">
             Anf. 5 Justitieminister BEATRICE ASK (m):
           </note>
-          <u who="Q297850" xml:id="i-d2e36a0a959be3dc-1" n="cdc75efe">
-            <seg n="ab326434">
+          <u xml:id="i-c52107b06b9ef305-34" next="i-c52107b06b9ef305-41" who="Q297850">
+            <seg>
               Herr talman! Först ska jag reda ut det här med väntetiden. Vi
               ska korta handläggningstiderna.
             </seg>
-            <seg n="9ddee3ad">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-35" prev="i-c52107b06b9ef305-34" who="Q297850">
+            <seg>
               I det här fallet var det två ärenden som anmäldes och ett ärende
               som prövades. Det pågick parallella prövningar. Då är det ofta
               så att man inväntar till exempel dåvarande länsrättens beslut
@@ -360,7 +414,9 @@
               rimligt att man gör på det sättet. Frågan har alltså hanterats
               helt riktigt.
             </seg>
-            <seg n="18ccda7c">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-36" prev="i-c52107b06b9ef305-34" who="Q297850">
+            <seg>
               När det gäller preskriptionstiden är det nog inte jag som behöver
               förstå så mycket mer än riksdagen, som har varit väldigt klok
               här. För den här typen av brott är det skilda straffskalor för
@@ -371,7 +427,9 @@
               till annans död och för brott som kan vålla kroppsskada eller
               sjukdom.
             </seg>
-            <seg n="8b6214e5">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-37" prev="i-c52107b06b9ef305-34" who="Q297850">
+            <seg>
               Det speglar att riksdagen, när vi beslutade om de här reglerna,
               ändå hade insikten om exempelvis asbestskador. Det är ju sådant
               som inte dyker upp dag ett. Det är skillnad på att ramla ned från
@@ -380,14 +438,18 @@
               Jag tycker att det är klokt, för det kan verkligen ta tid innan
               man ser effekterna.
             </seg>
-            <seg n="4e324ab9">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-38" prev="i-c52107b06b9ef305-34" who="Q297850">
+            <seg>
               Jag har inte för avsikt att ändra preskriptionstiderna nu. Vi
               gjorde ju alldeles nyligen en genomlysning av dem och bestämde
               oss för att ta bort preskriptionstiderna för bland annat mord,
               vilket var rimligt. Men i det här fallet tycker jag att det är
               en ganska väl avvägd tid.
             </seg>
-            <seg n="c502d908">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-39" prev="i-c52107b06b9ef305-34" who="Q297850">
+            <seg>
               Det är snarare så att vi måste se till att brotten verkligen
               utreds och lagförs i rätt tid. Där sätter regeringen väldigt mycket
               press och har gjort så sedan november förra året, då vi gav bland
@@ -401,7 +463,9 @@
               väldigt allvarliga brott, för att man ska känna trygghet i sitt
               arbete tycker jag är väldigt viktigt.
             </seg>
-            <seg n="531dacad">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-40" prev="i-c52107b06b9ef305-34" who="Q297850">
+            <seg>
               Låt mig bara säga att jag har varit väldigt berörd av artiklarna
               om vuxenmobbning på arbetsplatserna. Det är väldigt sällan som
               vi lyfter fram det. Men det är ju inte bara fysiska skador man
@@ -412,7 +476,9 @@
               på arbetet leder det också till sjukdomar och problem som många
               får dras med under lång tid.
             </seg>
-            <seg n="ea33cc7f">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-41" prev="i-c52107b06b9ef305-34" who="Q297850">
+            <seg>
               Vi arbetar med detta, och vi kommer att följa de här reglerna
               ordentligt. Vi har inte fått någon fällande dom som avser arbetsmiljöbrott
               genom mobbning. Men jag har ögonen öppna, för jag tycker att vi
@@ -422,11 +488,11 @@
               ska leda framåt.
             </seg>
           </u>
-          <note type="speaker" n="b5cde40a">
+          <note type="speaker">
             Anf. 6 EVA-LENA JANSSON (s):
           </note>
-          <u who="Q3374622" xml:id="i-c4427f1d110f0379-2" n="f1f4fa9f">
-            <seg n="28ac9c32">
+          <u xml:id="i-c52107b06b9ef305-42" next="i-c52107b06b9ef305-44" who="Q3374622">
+            <seg>
               Herr talman! Justitieministern hänvisar återigen till specialmyndigheten
               nere i Malmö och säger samtidigt att det är viktigt att brott
               utreds likadant i hela Sverige. Frågan är hur man då säkerställer
@@ -435,7 +501,9 @@
               Karlstad, Västerås eller var man nu befinner sig om man inte får
               tillgång till de här speciella kompetenserna.
             </seg>
-            <seg n="4ed18ad2">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-43" prev="i-c52107b06b9ef305-42" who="Q3374622">
+            <seg>
               När det gäller arbetsmiljöbrott och exempelvis frågan om vuxenmobbning,
               som justitieministern tar upp, kan jag konstatera att regeringen
               har valt att minska anslaget till Arbetsmiljöverket, vilket har
@@ -452,30 +520,36 @@
               i arbetslivet och i skolan och även inom politiken, vilket jag
               har sett några tydliga exempel på.
             </seg>
-            <seg n="952140d6">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-44" prev="i-c52107b06b9ef305-42" who="Q3374622">
+            <seg>
               Herr talman! Jag hoppas att justitieministern och jag åtminstone
               är överens om vikten av att höja prioriteringen av brott mot arbetsmiljölagen
               men också att Arbetsmiljöverket får ordentliga anslag.
             </seg>
           </u>
-          <note type="speaker" n="003f6721">
+          <note type="speaker">
             Anf. 7 Justitieminister BEATRICE ASK (m):
           </note>
-          <u who="Q297850" xml:id="i-d2e36a0a959be3dc-2" n="cdc75efe">
-            <seg n="948dfb42">
+          <u xml:id="i-c52107b06b9ef305-45" next="i-c52107b06b9ef305-49" who="Q297850">
+            <seg>
               Herr talman! Låt mig först säga att jag är väldigt glad att Eva-Lena
               Jansson har ställt den här interpellationen, och vi har debatterat
               de här frågorna tidigare. Jag tycker att interpellanten sätter
               ljuset på någonting som är viktigt.
             </seg>
-            <seg n="3cfcf2f1">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-46" prev="i-c52107b06b9ef305-45" who="Q297850">
+            <seg>
               Riksenheten i Malmö har ganska tydliga uppgifter. Dels handlar
               det om att försöka åstadkomma en enhetlig rättstillämpning, så
               att vi får riktlinjer för till exempel företagsbot och annat,
               dels handlar det om att följa upp och utveckla. Det är en utvecklingsenhet
               som ska arbeta visavi hela landet. Jag tror att det är bra.
             </seg>
-            <seg n="c475dc67">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-47" prev="i-c52107b06b9ef305-45" who="Q297850">
+            <seg>
               Man kan naturligtvis säga att vi har sparat på Arbetsmiljöverket
               som arbetar med många viktiga frågor. Det finns en lång debatt
               att ta om det. Det är helt korrekt, men mitt ansvar är att se
@@ -487,13 +561,17 @@
               Arbetsmiljöverket har tagit fram tillsammans ger bättre förutsättningar
               att utreda och lagföra arbetsmiljöbrott, och det är väsentligt.
             </seg>
-            <seg n="cd5586c1">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-48" prev="i-c52107b06b9ef305-45" who="Q297850">
+            <seg>
               Jag kan se att den här enheten som satte i gång sitt arbete för
               lite drygt ett år sedan faktiskt har sett till att vi har fått
               en fördubbling av lagföringarna. Det är bra. Det är absolut inte
               på en nivå som vi kan vara helt nöjda med, men det är viktigt.
             </seg>
-            <seg n="d25fa943">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-49" prev="i-c52107b06b9ef305-45" who="Q297850">
+            <seg>
               Det finns mycket mer att göra åt arbetsmiljöfrågorna. Att de
               är komplexa och, som jag nämnde tidigare, svårutredda är vi nog
               helt överens om. Desto bättre är det att de rättsliga myndigheterna
@@ -501,24 +579,26 @@
               de fått till att beivra den här typen av allvarliga brott.
             </seg>
           </u>
-          <note n="a2b34168">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="63fb7682">
+          <note>
             2 § Svar på interpellationerna 2009/10:359, 385, 420, 446 och
             455 om en långsam och ständigt pågående etnisk rensning
           </note>
-          <note type="speaker" n="1c978231">
+          <note type="speaker">
             Anf. 8 Utrikesminister CARL BILDT (m):
           </note>
-          <u who="Q52922" xml:id="i-d2e36a0a959be3dc-3" n="6f19ca4b">
-            <seg n="a8c2e185">
+          <u xml:id="i-c52107b06b9ef305-50" next="i-c52107b06b9ef305-59" who="Q52922">
+            <seg>
               Herr talman! Amineh Kakabaveh, Peter Hultqvist, Thomas Strand,
               Monica Green och Peter Rådberg har alla ställt frågor som rör
               situationen i de palestinska områdena och den israelisk-palestinska
               konflikten. Jag väljer att besvara interpellationerna i ett sammanhang.
             </seg>
-            <seg n="357740b6">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-51" prev="i-c52107b06b9ef305-50" who="Q52922">
+            <seg>
               Mot bakgrund av den allvarliga händelsen utanför Gazas kust vill
               jag inledningsvis påminna om att Sverige fördömt israeliskt våldsanvändande
               på internationellt vatten i samband med bordningen av den humanitära
@@ -527,7 +607,9 @@
               trovärdig och transparent utredning i enlighet med FN:s säkerhetsråds
               uttalande. Jag beklagar djupt de dödsfall som inträffat.
             </seg>
-            <seg n="204c9cc3">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-52" prev="i-c52107b06b9ef305-50" who="Q52922">
+            <seg>
               Denna tragedi understryker behovet av en hållbar lösning för
               civilbefolkningen som under lång tid levt med svåra umbäranden.
               I de slutsatser om Mellanöstern som antogs i december 2009 under
@@ -538,7 +620,9 @@
               bistånd, handelsvaror och personer. Befolkningen i Gaza ska inte
               bara överleva utan bör också få möjlighet att leva och utvecklas.
             </seg>
-            <seg n="6706c212">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-53" prev="i-c52107b06b9ef305-50" who="Q52922">
+            <seg>
               Sverige och Europeiska unionen stöder de ansträngningar som den
               amerikanska administrationen gör för att återuppta fredsförhandlingarna.
               Rådsslutsatserna från december gav EU en fast grund och en tydlig
@@ -549,7 +633,9 @@
               för två stater. EU har också uttryckt beredskap att bidra konkret
               till genomförandet av ett fredsavtal.
             </seg>
-            <seg n="f4050355">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-54" prev="i-c52107b06b9ef305-50" who="Q52922">
+            <seg>
               EU har upprepade gånger, inte minst under det svenska ordförandeskapet,
               framfört att bosättningar, separationsbarriären där den är byggd
               på ockuperad mark, förstöring av bostäder och vräkningar är olagliga
@@ -559,14 +645,18 @@
               av bosättningar, med vissa undantag, fram till september 2010.
               Min förhoppning är att detta stopp ska respekteras och förlängas.
             </seg>
-            <seg n="765aea11">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-55" prev="i-c52107b06b9ef305-50" who="Q52922">
+            <seg>
               Som Monica Green konstaterar har den internationella domstolen
               i Haag fastställt att separationsbarriären där den är byggd på
               ockuperad mark, inklusive i och runt östra Jerusalem, strider
               mot internationell rätt. Detta uttrycks också i de rådsslutsatser
               jag nämnt.
             </seg>
-            <seg n="0854bf9f">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-56" prev="i-c52107b06b9ef305-50" who="Q52922">
+            <seg>
               Reglerna för handel mellan EU och Israel styrs bland annat av
               associeringsavtalet från 1995 som innebär att israeliska produkter
               åtnjuter tullförmåner. EU har sedan avtalets undertecknande varit
@@ -575,7 +665,9 @@
               ges inte tullförmåner för produkter som har sitt ursprung i bosättningar
               på ockuperad mark.
             </seg>
-            <seg n="a5812ed9">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-57" prev="i-c52107b06b9ef305-50" who="Q52922">
+            <seg>
               Det finns gemensamma EU-regler om varors ursprung och märkning
               som säger att informationen till konsumenterna inte får vara felaktig
               eller vilseledande. I fråga om svenska företags eventuella verksamhet
@@ -584,7 +676,9 @@
               utifrån det klara folkrättsliga läget. Det bör ligga i företagens
               intresse att agera med stor försiktighet i sådana miljöer.
             </seg>
-            <seg n="1efc4314">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-58" prev="i-c52107b06b9ef305-50" who="Q52922">
+            <seg>
               Herr talman! Sverige och Europeiska unionen har ett stort bistånd
               till palestinierna. Förra året uppgick det svenska biståndet till
               över 800 miljoner kronor. En stor del går till palestinskt statsbyggande.
@@ -593,22 +687,24 @@
               Sverige till att förutsättningarna ska finnas på plats för en
               permanent lösning av den israelisk-palestinska konflikten.
             </seg>
-            <seg n="f4b60886">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-59" prev="i-c52107b06b9ef305-50" who="Q52922">
+            <seg>
               Sverige sätter stort värde på de goda förbindelserna med den
-              palestinska generaldelegationen i Helsingfors, och Utrikesdepartementet
+              palestinska generaldelegationen i Stockholm, och Utrikesdepartementet
               ser över olika sätt att underlätta delegationens verksamhet.
             </seg>
           </u>
-          <note n="1925a221">
+          <note>
             Då Peter Rådberg, som framställt en av interpellationerna, anmält
             att han var förhindrad att närvara vid sammanträdet medgav förste
             vice talmannen att Mehmet Kaplan i stället fick delta i överläggningen.
           </note>
-          <note type="speaker" n="9f2436b1">
+          <note type="speaker">
             Anf. 9 AMINEH KAKABAVEH (v):
           </note>
-          <u who="Q3675519" xml:id="i-9b963a596e96942b-0" n="3600fce3">
-            <seg n="b88e8ef6">
+          <u xml:id="i-c52107b06b9ef305-60" next="i-c52107b06b9ef305-66" who="Q3675519">
+            <seg>
               Herr talman! Jag tackar utrikesminister Carl Bildt för svaret.
               Det gläder mig att utrikesministern så skarpt fördömer Israels
               övergrepp mot fredsaktivister ombord på Ship to Gaza. Det är inte
@@ -617,19 +713,25 @@
               kan man knappast längre låta bli att se hela konflikten i ett
               större historiskt perspektiv.
             </seg>
-            <seg n="48a0b638">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-61" prev="i-c52107b06b9ef305-60" who="Q3675519">
+            <seg>
               Israel har begått övergrepp mot palestinierna i decennier. Det
               måste finnas ett syfte med alla dessa övergrepp, för annars handlar
               man inte så konsekvent när det gäller att bryta mot folkrätten
               och mänskliga rättigheter.
             </seg>
-            <seg n="2645b285">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-62" prev="i-c52107b06b9ef305-60" who="Q3675519">
+            <seg>
               I min interpellation ser jag fördrivningen av palestinierna från
               deras hemland som en långsam och långsiktig etnisk resning som
               fortsätter och pågår dagligen just nu i Sheikh Jarrah i östra
               Jerusalem.
             </seg>
-            <seg n="7a70651a">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-63" prev="i-c52107b06b9ef305-60" who="Q3675519">
+            <seg>
               Jag besökte själv Sheikh Jarrah under en studieresa i april.
               Sheikh Jarrah är en del av det ockuperade östra Jerusalem och
               skyddas av Genèvekonventionen, det vill säga Israel får inte ändra
@@ -639,7 +741,9 @@
               Jerusalem. Östra Jerusalem är särskilt känsligt, särskilt området
               kring gamla staden.
             </seg>
-            <seg n="b1a47d9f">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-64" prev="i-c52107b06b9ef305-60" who="Q3675519">
+            <seg>
               Herr talman! Det som gör Sheikh Jarrah unikt är att Israels domstol
               tilldömt israelerna rätten till land som andra judiska familjer
               ägde före 1948 och samtidigt förvägrar palestinierna rätten till
@@ -653,7 +757,9 @@
               i Sheikh Jarrah bedömt som ett fall av rasism och fördrivning
               av det palestinska folket.
             </seg>
-            <seg n="f9369d3f">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-65" prev="i-c52107b06b9ef305-60" who="Q3675519">
+            <seg>
               De som stöder den etniska rensningen i Sheikh Jarrah vill gärna
               skifta fokus till rättsprocessen. De påpekar att de palestinska
               familjernas israeliska advokat 1982, utan familjernas kännedom
@@ -662,7 +768,9 @@
               hyresgäster, det vill säga att hyreskontrakten inte kan sägas
               upp.
             </seg>
-            <seg n="07d29332">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-66" prev="i-c52107b06b9ef305-60" who="Q3675519">
+            <seg>
               Herr talman! Även Åsa Linderborg, journalist och författare,
               nämner i sina debattinlägg uttryckligen den etniska rensning som
               i decennier har pågått i Palestina. Man kan inte se det som något
@@ -672,15 +780,17 @@
               sin kritik är något helt annat.
             </seg>
           </u>
-          <note type="speaker" n="ca52d876">
+          <note type="speaker">
             Anf. 10 PETER HULTQVIST (s):
           </note>
-          <u who="Q3370162" xml:id="i-663ad2af88cee8ea-0" n="300b180f">
-            <seg n="43c0bad9">
+          <u xml:id="i-c52107b06b9ef305-67" next="i-c52107b06b9ef305-74" who="Q3370162">
+            <seg>
               Herr talman! Tack för svaret, utrikesministern! En känsla av
               sorgsenhet präglar mitt stämningsläge när jag står här i dag.
             </seg>
-            <seg n="273587b1">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-68" prev="i-c52107b06b9ef305-67" who="Q3370162">
+            <seg>
               Murbygget fortsätter. Trots tal om frysning när det gäller bosättningar
               kan vi se att man planerar nya omfattande bosättningar i östra
               Jerusalem. Vägar stängs för palestinierna. Varje dag regleras
@@ -688,7 +798,9 @@
               bosättare försöker hela tiden expandera och i strid med internationell
               rätt tillskansa sig mark på Västbanken.
             </seg>
-            <seg n="3da44edd">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-69" prev="i-c52107b06b9ef305-67" who="Q3370162">
+            <seg>
               I grunden fortsätter isoleringen av Gaza även om det nu talas
               om lättnad. Den militära räden i samband med Ship to Gaza visar
               den israeliska aggressionen. Man drar sig inte ens för att i strid
@@ -696,7 +808,9 @@
               Dödsfallen i samband med detta är en tragedi. Kraven på en opartisk
               utredning från FN:s säkerhetsråd är självklart helt motiverad.
             </seg>
-            <seg n="9fc4a5ff">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-70" prev="i-c52107b06b9ef305-67" who="Q3370162">
+            <seg>
               Kommer konflikten att få ett slut? Är ett fredsavtal inom räckhåll?
               Blir det en tvåstatslösning? Sedan sexdagarskriget 1967 har israeliska
               bosättningar varje år expanderat på ockuperad mark. Det har byggts
@@ -705,14 +819,18 @@
               blivit mindre och mindre. Möjligheten undermineras systematiskt
               från den israeliska sidan.
             </seg>
-            <seg n="7ae6dd10">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-71" prev="i-c52107b06b9ef305-67" who="Q3370162">
+            <seg>
               Nya bosättningar, förstörelse av hus, nedmejning av tusenåriga
               olivlundar, uppbyggnad av det israeliska vägnätet på ockuperad
               mark, inringning av palestinska städer, försök att splittra det
               palestinska samhället och den hårda vardagliga kontrollen av palestinier
               försvårar starkt det palestinska statsbygget.
             </seg>
-            <seg n="be8cc7ee">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-72" prev="i-c52107b06b9ef305-67" who="Q3370162">
+            <seg>
               Att ibland tala om fred, och även delta i förhandlingar samtidigt
               som man i praktiken tillåter fortsatt expansion av byggen på ockuperad
               mark ger ett minst sagt kluvet intryck när man bedömer israeliska
@@ -723,14 +841,18 @@
               tillfälligt hopp. Olika israeliska regeringar skakar snabbt av
               sig kritiken och man går vidare som om ingenting har hänt.
             </seg>
-            <seg n="7829269c">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-73" prev="i-c52107b06b9ef305-67" who="Q3370162">
+            <seg>
               Agerandet i förhållande till FN och det internationella samfundet
               är minst sagt arrogant och utmanande. Oavsett ord, förhandlingsförsök,
               diplomati och initiativ från EU och USA är resultatet att den
               israeliska expansionspolitiken i grunden fortsätter. Det är mycket
               allvarligt.
             </seg>
-            <seg n="6f1976dd">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-74" prev="i-c52107b06b9ef305-67" who="Q3370162">
+            <seg>
               Nu har vi räden mot Ship to Gaza. Man måste fråga om vi från
               omvärlden har möjlighet att på ett konstruktivt sätt hårdna mot
               Israel. Vi har ju associeringsavtalet. År 2005 suspenderade man
@@ -741,11 +863,11 @@
               en väg att strypa detta och göra något också i praktisk handling?
             </seg>
           </u>
-          <note type="speaker" n="f15758ef">
+          <note type="speaker">
             Anf. 11 THOMAS STRAND (s):
           </note>
-          <u who="Q6191909" xml:id="i-e3502d5d33aa13b0-0" n="68368dcf">
-            <seg n="2bf59c8b">
+          <u xml:id="i-c52107b06b9ef305-75" next="i-c52107b06b9ef305-80" who="Q6191909">
+            <seg>
               Herr talman! Jag vill också tacka utrikesministern för svaret
               på interpellationerna. I dag har vi en viktig debatt här i kammaren
               om konflikten mellan Israel och Palestina. Vi har haft liknande
@@ -755,7 +877,9 @@
               att hålla hoppet vid liv om att det ska finnas en fredlig lösning,
               även om det ser dystert ut just nu.
             </seg>
-            <seg n="7494503e">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-76" prev="i-c52107b06b9ef305-75" who="Q6191909">
+            <seg>
               Israels absurda agerande mot fartygskonvojen Ship to Gaza har
               fått många människor i många länder att reagera med besvikelse
               och bestörtning. Det verkar som om denna händelse har fått något
@@ -765,7 +889,9 @@
               om Israel har lyssnat på opinionen. Man meddelar att man ska lätta
               på blockaden. Vi får se om det är mer än tomma ord.
             </seg>
-            <seg n="b3ea190b">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-77" prev="i-c52107b06b9ef305-75" who="Q6191909">
+            <seg>
               Väldigt många har också påmints om Israels ockupation av Västbanken,
               Israels ständiga nonchalerande av olika FN-resolutioner och världssamfundets
               uppmaningar till fred och försoning. Det är enskilda människor
@@ -773,14 +899,18 @@
               en mobilisering som vi inte har sett tidigare. Det är hoppingivande.
               Det börjar påminna om kampen mot apartheidregimen i Sydafrika.
             </seg>
-            <seg n="10d1fad7">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-78" prev="i-c52107b06b9ef305-75" who="Q6191909">
+            <seg>
               Många människor frågar vad man kan göra för att protestera och
               påverka. Vad kan jag göra som individ? Vad kan Sverige göra? Vad
               kan Sverige göra i EU? Jag tror att även utrikesministern märker
               den här mobiliseringen. Budskapet är tydligt: Omvärlden måste
               sätta en hårdare press på Israel.
             </seg>
-            <seg n="e282aa13">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-79" prev="i-c52107b06b9ef305-75" who="Q6191909">
+            <seg>
               Min interpellation om ursprungsmärkning av bosättarprodukter
               fokuserar på ett sätt att sätta ökad press på Israel. Tyvärr fungerar
               inte systemet med ursprungsmärkning som det var tänkt. Alltför
@@ -801,16 +931,18 @@
               bosättare på ockuperad mark? Jag skulle vilja att utrikesministern
               svarar på den frågan.
             </seg>
-            <seg n="a1ba42fd">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-80" prev="i-c52107b06b9ef305-75" who="Q6191909">
+            <seg>
               Utrikesministern konstaterar att bosättarprodukter inte ska säljas
               tullfritt. Men anser utrikesministern att det fungerar i praktiken?
             </seg>
           </u>
-          <note type="speaker" n="d90e99e5">
+          <note type="speaker">
             Anf. 12 MONICA GREEN (s):
           </note>
-          <u who="Q3358763" xml:id="i-cf365d17191cf69f-0" n="7a680cd1">
-            <seg n="a9908703">
+          <u xml:id="i-c52107b06b9ef305-81" next="i-c52107b06b9ef305-87" who="Q3358763">
+            <seg>
               Herr talman! Vi är många som debatterar här i dag. Det visar
               på vikten och engagemanget. Precis som Thomas Strand sade har
               vi haft dessa debatter tidigare eftersom det är så oerhört viktigt
@@ -818,7 +950,9 @@
               av mänskliga rättigheter som Israel genomför varje dag mot palestinier
               och andra.
             </seg>
-            <seg n="3482dafd">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-82" prev="i-c52107b06b9ef305-81" who="Q3358763">
+            <seg>
               Carl Bildt brukar vara ganska tydlig med att han håller med oss
               om att det som Israel har gjort är fel. Man har byggt en mur rakt
               igenom det palestinska samhället. Man har byggt muren på ett sätt
@@ -827,12 +961,16 @@
               tomater och annat som får stå hela dagar och bara ruttna för att
               de inte kommer igenom denna checkpoint.
             </seg>
-            <seg n="5da86b65">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-83" prev="i-c52107b06b9ef305-81" who="Q3358763">
+            <seg>
               Carl Bildt brukar hålla med om att detta är fel och att muren
               har byggts på ett olagligt sätt. Det har också den internationella
               domstolen i Haag slagit fast.
             </seg>
-            <seg n="52a4c4bc">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-84" prev="i-c52107b06b9ef305-81" who="Q3358763">
+            <seg>
               Men vad gör vi mer? Ska världen stå och titta på och bara acceptera
               att Israel varje dag bryter mot de mänskliga rättigheterna eftersom
               det är det man gör när man förhindrar människor på detta sätt
@@ -843,7 +981,9 @@
               20, 30 eller 40 år. Plötsligt blir de vräkta och ska bo på gatan
               så att israeler ska kunna flytta in i deras hem.
             </seg>
-            <seg n="f131cad7">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-85" prev="i-c52107b06b9ef305-81" who="Q3358763">
+            <seg>
               Detta är inte acceptabelt. Det har slagits fast av FN, av EU
               och av olika domstolar, bland annat den i Haag. Men vad gör vi
               mer? Vi måste sätta kraft bakom orden. Det verkar som om israelerna
@@ -856,7 +996,9 @@
               flyttar palestinier. Och hela världen står och tittar på och bryr
               sig inte om att Israel inte följer de rättelser som de får.
             </seg>
-            <seg n="d2cfc8f1">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-86" prev="i-c52107b06b9ef305-81" who="Q3358763">
+            <seg>
               Därför måste vi gå från ord till handling. Carl Bildt måste se
               till att vi gör mer och säger ifrån. Det kan handla om att vi
               tar hem människor, att vi ser över associeringsavtalet och sätter
@@ -867,26 +1009,32 @@
               i FN och i Europeiska unionen så att det någon gång blir ett slut
               på detta.
             </seg>
-            <seg n="b524bc5d">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-87" prev="i-c52107b06b9ef305-81" who="Q3358763">
+            <seg>
               Man måste återgå till 1967 års gränser och se till att det blir
               en tvåstatslösning. Människor som nu bor där måste flytta på sig.
             </seg>
           </u>
-          <note type="speaker" n="60d66eb4">
+          <note type="speaker">
             Anf. 13 MEHMET KAPLAN (mp):
           </note>
-          <u who="Q4822657" xml:id="i-05e62fd8c6690852-0" n="88f1f000">
-            <seg n="b9ed6406">
+          <u xml:id="i-c52107b06b9ef305-88" next="i-c52107b06b9ef305-94" who="Q4822657">
+            <seg>
               Herr talman! Jag tackar utrikesminister Carl Bildt för svaret.
               Eftersom min kollega Peter Rådberg inte hade möjlighet att delta
               i denna debatt får jag göra det i stället.
             </seg>
-            <seg n="41ea7807">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-89" prev="i-c52107b06b9ef305-88" who="Q4822657">
+            <seg>
               Det finns två ingångar här. Den ena handlar om hur vi ser på
               bosättningarna på Västbanken och i östra Jerusalem. Detta har
               Carl Bildt också svarat på.
             </seg>
-            <seg n="8dfdf3c8">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-90" prev="i-c52107b06b9ef305-88" who="Q4822657">
+            <seg>
               Om man tittar på den konflikt som nu är inne på sitt åttonde
               decennium undrar man om båda sidorna inte snart har tröttnat.
               Det är uppenbart så att den palestinska sidan är övertrött. Även
@@ -899,7 +1047,9 @@
               att man vid ett flertal tillfällen har sagt att man ska stoppa
               nybyggnationer på ockuperad mark gång på gång överträder detta.
             </seg>
-            <seg n="51f29a26">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-91" prev="i-c52107b06b9ef305-88" who="Q4822657">
+            <seg>
               I mars månad deklarerade Israel återigen att man avser att bygga
               bosättningar, eller så kallade bosättningar. Detta nyspråk har
               funnit en plats även i vårt medvetande. Detta är egentligen ockupanter,
@@ -908,7 +1058,9 @@
               Västbanken. Detta beslut togs trots att man tidigare hade sagt
               att man inte skulle göra det.
             </seg>
-            <seg n="eade6b34">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-92" prev="i-c52107b06b9ef305-88" who="Q4822657">
+            <seg>
               Detta är sorgligt, och i ljuset av de senaste händelserna verkar
               det som om Israel i princip struntar i vad andra länder tycker.
               Det kan man naturligtvis inte göra i längden. Senast i går gick
@@ -918,14 +1070,18 @@
               Internationella Röda Kors-kommittén som i måndags tydligt deklarerade
               att denna blockad är illegal.
             </seg>
-            <seg n="46d480c3">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-93" prev="i-c52107b06b9ef305-88" who="Q4822657">
+            <seg>
               Jag vet att Carl Bildt jobbar på. Jag vet inte om han får med
               sig sina kolleger i de olika EU-länderna. Carl Bildt sade i den
               aktuella debatt som vi hade i förra veckan att det är svårt för
               Sverige som enskilt land att gå före eftersom vi då blir isolerade
               när vi försöker få fram resultat.
             </seg>
-            <seg n="9d4d94c8">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-94" prev="i-c52107b06b9ef305-88" who="Q4822657">
+            <seg>
               Men i en viktig fråga kan Sverige faktiskt göra någonting. Där
               behöver vi inte vänta på EU. Det handlar om produkter. Jag läste
               mycket intresserat de andra interpellationerna. Framför allt Thomas
@@ -938,28 +1094,34 @@
               debatt. Då svarade du att vi har slutat köpa försvarsmateriel.
             </seg>
           </u>
-          <note type="speaker" n="1a0e9ea7">
+          <note type="speaker">
             Anf. 14 TORBJÖRN BJÖRLUND (v):
           </note>
-          <u who="Q5578151" xml:id="i-1d4c7d6d6f5db017-0" n="ec4624c5">
-            <seg n="016bf34c">
+          <u xml:id="i-c52107b06b9ef305-95" next="i-c52107b06b9ef305-105" who="Q5578151">
+            <seg>
               Herr talman! Jag skrev också en interpellation. Men den lämnades
               in lite för sent och tas därför inte upp. Jag har i stället skrivit
               ett par frågor. De har utrikesministern svarat på. Det svar som
               lästes upp här är ungefär detsamma som svaren på mina frågor.
             </seg>
-            <seg n="70898e88">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-96" prev="i-c52107b06b9ef305-95" who="Q5578151">
+            <seg>
               Mina frågor gick ut på att jag ville veta vad Sverige gör för
               att situationen i Gaza ska förbättras och för att en palestinsk
               stat ska bildas och vad Sverige gör i EU för att EU ska agera.
             </seg>
-            <seg n="bc004ea2">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-97" prev="i-c52107b06b9ef305-95" who="Q5578151">
+            <seg>
               Dessa frågor är som vanligt centrala för att det ska bli ett
               resultat av den politik som förs mot Israel och för att ockupationen
               ska hävas och att palestinierna ska få en egen stat och därmed
               också få möjlighet att bygga en stat med olika medel.
             </seg>
-            <seg n="fa210045">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-98" prev="i-c52107b06b9ef305-95" who="Q5578151">
+            <seg>
               När man läser svaren ser man att det som vanligt är många vackra
               ord. Det finns många saker som utrikesministern brukar uttala
               om detta. Han brukar fördöma saker. Det konstateras att den fortsatta
@@ -971,21 +1133,27 @@
               är ställer krav på att palestinierna ska lösa konflikten. Det
               är fullständigt otänkbart.
             </seg>
-            <seg n="9302973f">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-99" prev="i-c52107b06b9ef305-95" who="Q5578151">
+            <seg>
               Tittar man på det som har hänt under den senaste tiden när det
               gäller Ship to Gaza och hur situationen i Gaza ser ut, ser man
               att det helt enkelt är en humanitär katastrof, och så har det
               varit under rätt många år. Den har varit föremål för debatt i
               denna kammare många gånger.
             </seg>
-            <seg n="2aa12d4c">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-100" prev="i-c52107b06b9ef305-95" who="Q5578151">
+            <seg>
               Då är frågan: När ska man göra någonting i stället för att bara
               prata, alltså sätta tyngd bakom orden? Varför kan man inte prata
               om att handelsavtalet mellan EU och Israel ska frysas eller till
               exempel dras tillbaka? Eller varför bojkottar man inte Israel
               för att sätta en press på landet? Det kan vara olika sanktioner.
             </seg>
-            <seg n="c09b4c9f">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-101" prev="i-c52107b06b9ef305-95" who="Q5578151">
+            <seg>
               Vi har en svensk militärimport från Israel, en vapenimport som
               enligt tidningen Flamman en utmärkt tidskrift har uppgått till
               200 miljoner under 2000-talet. För 200 miljoner har vi köpt vapen
@@ -994,7 +1162,9 @@
               man av det? Det gynnar ju faktiskt den israeliska staten i den
               kamp som förs.
             </seg>
-            <seg n="376fd86c">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-102" prev="i-c52107b06b9ef305-95" who="Q5578151">
+            <seg>
               Jag var nere i Palestina, på Västbanken, några dagar och kom
               hem i söndags. Jag fick då återigen se jag har varit där några
               gånger hur situationen är på Västbanken. På vissa ställen kan
@@ -1004,7 +1174,9 @@
               och sett hur israeliska militärer alltid behandlar palestinier
               på samma sätt.
             </seg>
-            <seg n="71906395">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-103" prev="i-c52107b06b9ef305-95" who="Q5578151">
+            <seg>
               En ung palestinier kommer i sin bil. Det är trångt i Jerusalem
               och svårt att undvika att stöta emot saker. Han krockar med en
               israelisk militärjeep. Han kör fram några meter och kliver naturligtvis
@@ -1015,12 +1187,16 @@
               och då går en israelisk soldat fram och skjuter mannen rakt i
               huvudet.
             </seg>
-            <seg n="f30e206a">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-104" prev="i-c52107b06b9ef305-95" who="Q5578151">
+            <seg>
               Detta var en skildring, men sådana här saker sker nästan varje
               dag i Palestina. Sådant här hör man varje gång man kommer ned.
               Så är den palestinska vardagen.
             </seg>
-            <seg n="86f355d9">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-105" prev="i-c52107b06b9ef305-95" who="Q5578151">
+            <seg>
               Det krävs alltså mycket mer än ord. Det krävs handling för att
               på något sätt belysa detta. Jag tycker att Ship to Gaza-händelsen
               var en oerhört viktig händelse ur den aspekten, oavsett tragedin
@@ -1032,11 +1208,11 @@
               att ockupera Palestina.
             </seg>
           </u>
-          <note type="speaker" n="8302318f">
+          <note type="speaker">
             Anf. 15 Utrikesminister CARL BILDT (m):
           </note>
-          <u who="Q52922" xml:id="i-d2e36a0a959be3dc-4" n="6f19ca4b">
-            <seg n="eebc2328">
+          <u xml:id="i-c52107b06b9ef305-106" next="i-c52107b06b9ef305-114" who="Q52922">
+            <seg>
               Herr talman! Det är åtskilligt att svara på. Jag ska försöka,
               även om jag säkert kommer att misslyckas med att göra frågeställarna
               åtminstone i någon utsträckning rättvisa. Vi har ju diskuterat
@@ -1044,7 +1220,9 @@
               större oklarhet om grunddragen i svensk politik eller om grunddragen
               i vad vi tycker här i riksdagen.
             </seg>
-            <seg n="7bf44dd2">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-107" prev="i-c52107b06b9ef305-106" who="Q52922">
+            <seg>
               Jag börjar med Amineh Kakabaveh. När vi diskuterar det längre
               historiska perspektivet, vilket jag tror är både riktigt och nödvändigt
               att göra, ska vi också göra rättvisa åt det. Detta är en konflikt
@@ -1055,13 +1233,17 @@
               tre nejen från Khartum som blockerade varje möjlighet till en
               fredsprocess för decennier.
             </seg>
-            <seg n="a0c46458">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-108" prev="i-c52107b06b9ef305-106" who="Q52922">
+            <seg>
               Vi har nu en ny situation sedan ett antal år tillbaka genom det
               arabiska fredsinitiativ som ändrade nej-politiken från Khartum
               och i grunden säger fred mot territorier eller territorier mot
               fred.
             </seg>
-            <seg n="ad50fe8f">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-109" prev="i-c52107b06b9ef305-106" who="Q52922">
+            <seg>
               Även om det kanske är att överdriva lite tror jag att Mehmet
               Kaplan i grunden har rätt när han säger att det finns en trötthet
               på konflikt. Medan arabländerna tidigare vägrade att acceptera
@@ -1072,7 +1254,9 @@
               en förbättring av läget, även om det låter lite paradoxalt i den
               svåra situation som vi är i nu.
             </seg>
-            <seg n="6c0b071a">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-110" prev="i-c52107b06b9ef305-106" who="Q52922">
+            <seg>
               Det är i det läget vi ska manövrera med en diplomati som har
               både styrka, uthållighet och tålamod och som måste ha kommunikationskanaler
               med bägge parterna. Monica Green säger att vi måste gå från ord
@@ -1082,14 +1266,18 @@
               ta bort de möjligheter vi kanske trots allt har att medverka i
               en fredsprocess, och det är därför jag avvisar den linjen.
             </seg>
-            <seg n="5c7458f5">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-111" prev="i-c52107b06b9ef305-106" who="Q52922">
+            <seg>
               Peter Hultqvist tog tyvärr inte upp de trådar han hade i sin
               interpellation. Jag hade hoppats kunna säga något ännu lite mer
               positivt om en del av hans tankar än vad jag hade med i svaret.
               Jag hoppas att han återkommer till exempelvis frågan om den palestinska
               delegationens status.
             </seg>
-            <seg n="e47d2e45">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-112" prev="i-c52107b06b9ef305-106" who="Q52922">
+            <seg>
               Statsbyggandet är oerhört viktigt. Som antyddes av Torbjörn Björlund
               har vi gjort framsteg vad gäller statsbyggandet. Det är i dag
               en i vissa hänseenden bättre situation på Västbanken än vad som
@@ -1103,7 +1291,9 @@
               de ska också erkänna Israels rätt att existera. Det är också en
               förutsättning för fred.
             </seg>
-            <seg n="498c9990">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-113" prev="i-c52107b06b9ef305-106" who="Q52922">
+            <seg>
               Låt mig sedan bara kort ta upp produkter från ockuperade områden
               och huruvida ursprungsmärkningen fungerar. Det är svårt att bedöma,
               bland annat därför att jag tror att det är väldigt lite det handlar
@@ -1115,7 +1305,9 @@
               att vi ska titta på detta mycket uppmärksamt, men jag tror att
               den ekonomiska delen i detta är intill försvinnande liten.
             </seg>
-            <seg n="a452e0b0">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-114" prev="i-c52107b06b9ef305-106" who="Q52922">
+            <seg>
               Slutligen var det krigsmaterielimporten. Som jag sade i debatten
               härförleden har vi ingen pågående sådan. Förra året var det någon
               typ av container som blev slutlevererad, vad det nu var för någonting.
@@ -1124,11 +1316,11 @@
               i någon utsträckning föras på en tidigare regerings konto.
             </seg>
           </u>
-          <note type="speaker" n="742df939">
+          <note type="speaker">
             Anf. 16 AMINEH KAKABAVEH (v):
           </note>
-          <u who="Q3675519" xml:id="i-9b963a596e96942b-1" n="3600fce3">
-            <seg n="47580cab">
+          <u xml:id="i-c52107b06b9ef305-115" next="i-c52107b06b9ef305-120" who="Q3675519">
+            <seg>
               Herr talman! Tack, utrikesministern! Jag vet att det är väldigt
               svårt att på fyra minuter kunna svara på allas inlägg, men det
               viktigaste här är egentligen att vi alla vill att Sverige ska
@@ -1139,7 +1331,9 @@
               under vårt ordförandeskap? Varför var vi då inte så skarpa som
               vi är i dag? Då skulle någonting ha kunnat hända.
             </seg>
-            <seg n="f73ab281">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-116" prev="i-c52107b06b9ef305-115" who="Q3675519">
+            <seg>
               Vi talar om historien. Historien ger oss också perspektiv på
               hur vi går vidare. Jag nämnde det längre perspektivet när det
               gäller ägande. Hela rättssystemet i Israel är ju rasistiskt, och
@@ -1151,7 +1345,9 @@
               tänkte jag: Herregud, man skulle gripa in och säga åt dem att
               låta dessa små barn gå.
             </seg>
-            <seg n="7810c078">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-117" prev="i-c52107b06b9ef305-115" who="Q3675519">
+            <seg>
               Hur ska vi förebygga hat och våld? Hur ska vi göra så att dessa
               barn och ungdomar i lugn och ro kan utvecklas och ha ett liv precis
               som alla andra? Jag tror att det är det viktiga i det långa loppet
@@ -1161,7 +1357,9 @@
               i hela Mellanöstern är det väldigt jobbigt och väldigt farligt
               för många ungdomar.
             </seg>
-            <seg n="4300fecf">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-118" prev="i-c52107b06b9ef305-115" who="Q3675519">
+            <seg>
               Och det är de som är framtiden. Om vi i dag ska förebygga en
               framtid i osäkerhet och med rasistiskt förtryck måste de bli individer
               som tänker själva och har respekt för varandra. Men när det inte
@@ -1169,7 +1367,9 @@
               barnen bli fria människor, fria från fördomar? Det blir de inte
               nu.
             </seg>
-            <seg n="05b44005">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-119" prev="i-c52107b06b9ef305-115" who="Q3675519">
+            <seg>
               EU ska ju tala med egen röst men tassar här som katten kring
               het gröt. Ser man i ett historiskt perspektiv på vad som hänt
               under årtiondena måste man säga: Stopp, nu får det vara nog! Det
@@ -1177,7 +1377,9 @@
               ord, men jag saknar kraftfulla och konkreta åtgärder. För att
               situationen ska förbättras måste vi göra något i dag, nu.
             </seg>
-            <seg n="ac2de36c">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-120" prev="i-c52107b06b9ef305-115" who="Q3675519">
+            <seg>
               Det gäller också kvinnornas situation. I denna etniska rensning
               eller diskriminering är det ungdomar och kvinnor som får en mycket
               svår situation. Det är de som bär på och måste uppleva och återuppleva
@@ -1185,11 +1387,11 @@
               kamp, och det gäller naturligtvis också ungdomarna.
             </seg>
           </u>
-          <note type="speaker" n="794f5ab9">
+          <note type="speaker">
             Anf. 17 PETER HULTQVIST (s):
           </note>
-          <u who="Q3370162" xml:id="i-663ad2af88cee8ea-1" n="300b180f">
-            <seg n="132caf82">
+          <u xml:id="i-c52107b06b9ef305-121" next="i-c52107b06b9ef305-127" who="Q3370162">
+            <seg>
               Herr talman! Visst kan det vara så att det finns en långsiktig
               process där man i någon sorts allmän mening accepterar existensen
               av en palestinsk stat i det israeliska samhället. Trots detta
@@ -1200,7 +1402,9 @@
               och beter sig i praktiken på Västbanken, på marken på ett helt
               annat sätt. Jag vill också hävda att ockupationen har förgrovats.
             </seg>
-            <seg n="b79b76fb">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-122" prev="i-c52107b06b9ef305-121" who="Q3370162">
+            <seg>
               Det är alltså kluvet. Det är mycket kluvet. Det är en sak i ord
               och en sak i handling, och det är handlingen som måste bedömas.
               Det är detta som gör att kraven på att det kanske är dags att
@@ -1212,7 +1416,9 @@
               blindhet har vid flera tillfällen tillåtits vinna över fredens
               krafter, och jag anser att de i dag är försvagade.
             </seg>
-            <seg n="0dcd24ce">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-123" prev="i-c52107b06b9ef305-121" who="Q3370162">
+            <seg>
               Tyvärr riskerar den blodiga historia som finns i Mellanöstern
               att även i fortsättningen bli en historia om våld, blod, död och
               oförsonlighet. Efter räden med Ship to Gaza och efter den fortsatta
@@ -1221,7 +1427,9 @@
               för att tona ned omvärldens reaktioner, men den långsiktiga processen
               är att lägga Västbanken under sig i praktiken.
             </seg>
-            <seg n="3cd5e797">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-124" prev="i-c52107b06b9ef305-121" who="Q3370162">
+            <seg>
               Det är detta som leder till tanken att det kanske är dags att
               man inom EU försöker få till stånd ett samordnat agerande som
               också i någon form av praktik visar att vi inte accepterar detta.
@@ -1232,7 +1440,9 @@
               dagens debatt och även i den allmänna debatten. Någonstans måste
               det gå en gräns för hur man får bete sig.
             </seg>
-            <seg n="6a2f6ab2">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-125" prev="i-c52107b06b9ef305-121" who="Q3370162">
+            <seg>
               Jag vill också påminna om utrikesministern i Israel, Carl Bildts
               kollega. Han gick i stort sett till val på att de arabiska israeliska
               medborgarna medborgare i Israel skulle avkrävas någon sorts lojalitetsförklaring
@@ -1240,7 +1450,9 @@
               från allmändemokratisk synpunkt lämnar en del övrigt att önska
               när det gäller respekt för folkrätten.
             </seg>
-            <seg n="a8eccc27">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-126" prev="i-c52107b06b9ef305-121" who="Q3370162">
+            <seg>
               Sedan gäller det den palestinska delegationen. Palestinskt statsbyggande,
               palestinska institutioner och palestinska myndighetsfunktioner,
               där även deras utlandsrepresentation ingår, är oerhört viktigt.
@@ -1249,7 +1461,9 @@
               att vi måste ta ut steglängden och ge en diplomatisk status. Det
               finns i många andra länder, men det finns ännu inte i Sverige.
             </seg>
-            <seg n="18b56d0a">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-127" prev="i-c52107b06b9ef305-121" who="Q3370162">
+            <seg>
               Jag tycker att man från regeringens sida bör ta initiativ till
               detta. Bildt säger att man tittar på olika sätt att underlätta
               den palestinska representationens arbete. Jag har lite svårt att
@@ -1257,11 +1471,11 @@
               förklarade det.
             </seg>
           </u>
-          <note type="speaker" n="f9986251">
+          <note type="speaker">
             Anf. 18 THOMAS STRAND (s):
           </note>
-          <u who="Q6191909" xml:id="i-e3502d5d33aa13b0-1" n="68368dcf">
-            <seg n="ab1df716">
+          <u xml:id="i-c52107b06b9ef305-128" next="i-c52107b06b9ef305-133" who="Q6191909">
+            <seg>
               Herr talman! Jag delar utrikesministerns syn på denna konflikt
               och dess komplexitet. Det gäller att förstå dess vidd och bredd,
               för den är komplex. Det finns inget försvar för Hamas statskupp
@@ -1269,7 +1483,9 @@
               vi dock på Israel, som är den starka parten. Det är en demokratisk
               stat som vi har stora förväntningar och krav på.
             </seg>
-            <seg n="65c3e2b7">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-129" prev="i-c52107b06b9ef305-128" who="Q6191909">
+            <seg>
               Jag har fokuserat på de avtal som ingås mellan EU och Israel
               och huruvida dessa avtal fungerar i praktiken eller om det blir
               så att man ser mellan fingrarna när det gäller Israel. Enligt
@@ -1282,7 +1498,9 @@
               Maale Adumim, och därför har EU-domstolen slagit fast att man
               inte får sälja sådana varor tullfritt.
             </seg>
-            <seg n="069ee9fe">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-130" prev="i-c52107b06b9ef305-128" who="Q6191909">
+            <seg>
               I en färsk rapport från Palestinagrupperna i Sverige som jag
               har läst tar man också upp detta i relation till associeringsavtalet
               med Israel. Där bekräftas att det inte fungerar bra med ursprungsmärkningen.
@@ -1294,7 +1512,9 @@
               ursprungsmärkningen och uppmana hela EU att följa den. Detta är
               alltså ett starkt krav från flera håll.
             </seg>
-            <seg n="b9069bb2">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-131" prev="i-c52107b06b9ef305-128" who="Q6191909">
+            <seg>
               EU-domstolens nyligen fattade domslut är viktigt ur både ekonomisk
               och politisk betydelse. Jag tycker att det största värdet med
               systemet med ursprungsmärkning är att man markerar att bosättningarna
@@ -1302,7 +1522,9 @@
               för oss konsumenter att göra medvetna val. Dessutom sätter det
               en viss press på Israel.
             </seg>
-            <seg n="5219adb2">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-132" prev="i-c52107b06b9ef305-128" who="Q6191909">
+            <seg>
               Nu säger utrikesministern att detta är en ringa del, men jag
               ska ge en annan bild. Jag vet inte vad som är sant i detta, men
               det är ändå så att EU är Israels näst största exportområde. Enligt
@@ -1313,7 +1535,9 @@
               inte är så liten ändå, och det ger ett symbolvärde att just göra
               en markering.
             </seg>
-            <seg n="15368519">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-133" prev="i-c52107b06b9ef305-128" who="Q6191909">
+            <seg>
               EU-ländernas tullmyndigheter måste tillämpa en striktare syn
               på varor från bosättningar nu när associeringsavtalet ska tillämpas.
               Det är konsekvensen av EU-domstolens beslut. Därför frågar jag
@@ -1324,24 +1548,28 @@
               upp och efterleva EU-domstolens beslut?
             </seg>
           </u>
-          <note type="speaker" n="860ebc3b">
+          <note type="speaker">
             Anf. 19 MONICA GREEN (s):
           </note>
-          <u who="Q3358763" xml:id="i-cf365d17191cf69f-1" n="7a680cd1">
-            <seg n="bea22e33">
+          <u xml:id="i-c52107b06b9ef305-134" next="i-c52107b06b9ef305-140" who="Q3358763">
+            <seg>
               Herr talman! Vad gör man med de stater som vägrar följa konventioner
               och utlåtanden som FN och EU har antagit? Vad tänker Carl Bildt
               göra mer? Carl Bildt brukar säga att vi gör en skur av uttalanden.
               Men om inte det hjälper? Vi måste sätta kraft bakom orden.
             </seg>
-            <seg n="daa5e7c9">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-135" prev="i-c52107b06b9ef305-134" who="Q3358763">
+            <seg>
               Jag är glad att Amineh tog upp barnens situation, eftersom det
               är så viktigt hurdana barns uppväxtvillkor blir. Det är betydelsefullt
               för hur palestinier och israeler ska kunna leva sida vid sida
               i framtiden att barn får bra uppväxtvillkor, att de accepterar
               varandra och att de kan leva i harmoni med varandra.
             </seg>
-            <seg n="0cc751f8">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-136" prev="i-c52107b06b9ef305-134" who="Q3358763">
+            <seg>
               Jag har sett palestinska barn bli hånade och trakasserade på
               väg hem från skolan. Jag har sett hur ilskan växer hos dessa barn
               och hur det i sin tur leder till våld. Våld leder till mer våld.
@@ -1349,7 +1577,9 @@
               slut på det. Vi måste se till att barnen på båda sidor får bra
               uppväxtvillkor.
             </seg>
-            <seg n="62bc714f">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-137" prev="i-c52107b06b9ef305-134" who="Q3358763">
+            <seg>
               Israel måste riva den förbannade muren! De har byggt den på ett
               olagligt sätt. Den förhindrar människor att ta sig till sina arbeten.
               Den förhindrar kvinnor att komma till sjukhus när de ska föda
@@ -1360,7 +1590,9 @@
               på det och för att muren ska rivas? Det var det min interpellation
               handlade om: själva muren.
             </seg>
-            <seg n="cd377da8">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-138" prev="i-c52107b06b9ef305-134" who="Q3358763">
+            <seg>
               Men vi kan förstås prata om det i ett större sammanhang. Vi kan
               prata om barns uppväxtvillkor, om hur vi kan stödja fritidsverksamhet
               och lägerverksamhet och stödja uppväxtvillkoren för både israeliska
@@ -1372,7 +1604,9 @@
               stötta barn och se till att kvinnor får arbete, kan ta sig till
               sitt arbete och får den sjukvård de behöver.
             </seg>
-            <seg n="bb06efa6">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-139" prev="i-c52107b06b9ef305-134" who="Q3358763">
+            <seg>
               Eftersom arbetslösheten är så hög för palestinier får palestinier
               olovligen ta sig över den olagliga muren för att kunna bygga de
               olagliga ockupationsbostäderna. De ska bygga åt israeler som sedan
@@ -1386,16 +1620,18 @@
               och vi måste lägga kraft bakom orden. Det är dags nu. Det räcker
               nu, Carl Bildt!
             </seg>
-            <seg n="b209d3bc">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-140" prev="i-c52107b06b9ef305-134" who="Q3358763">
+            <seg>
               (FÖRSTE VICE TALMANNEN: Jag förstår att detta kan väcka känslor,
               men ber ändå om varsamhet med språkbruket.)
             </seg>
           </u>
-          <note type="speaker" n="1e536e53">
+          <note type="speaker">
             Anf. 20 MEHMET KAPLAN (mp):
           </note>
-          <u who="Q4822657" xml:id="i-05e62fd8c6690852-1" n="88f1f000">
-            <seg n="3a11fa14">
+          <u xml:id="i-c52107b06b9ef305-141" next="i-c52107b06b9ef305-145" who="Q4822657">
+            <seg>
               Herr talman! Jag tackar Carl Bildt. Visst väcker det känslor,
               och visst är det så att det här av och till leder till att man
               nästan tappar hoppet, här i en trygg och fredlig del av världen
@@ -1404,7 +1640,9 @@
               börjat tappa hoppet, verkligen har börjat tappa tilltron till
               omvärlden.
             </seg>
-            <seg n="e8f2dfe2">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-142" prev="i-c52107b06b9ef305-141" who="Q4822657">
+            <seg>
               De vet att vi vet. De ser att vi ser. När den globala nyhetsförmedlingen
               kommer in i deras vardagsrum, förvisso sönderbombat, handlar det
               ändå i grunden om vad vi lyckas förmedla till de människorna,
@@ -1412,7 +1650,9 @@
               vardag. Jag har själv också varit där och vet att utrikesministern
               har varit i områdena.
             </seg>
-            <seg n="3aa169e6">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-143" prev="i-c52107b06b9ef305-141" who="Q4822657">
+            <seg>
               Skolbarn, tredje generationens nya människor som lever på ockuperat
               område, tvingas varje morgon igenom tillfälliga checkpoints på
               ockuperat område. De tvingas visa upp skolväskan, dessa sju-åtta-nioåringar,
@@ -1424,7 +1664,9 @@
               där militären för tillfället tycker att det är lämpligt, en viktig
               del i det systematiska övergreppet.
             </seg>
-            <seg n="2e054310">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-144" prev="i-c52107b06b9ef305-141" who="Q4822657">
+            <seg>
               När jag tittar på interpellationerna blir jag inte förvånad över
               själva inriktningen. Det jag blir förvånad över är att vi återigen
               står här i slutet av en mandatperiod där denna fråga har diskuterats.
@@ -1433,7 +1675,9 @@
               Är det inte så att tiden håller på att rinna ut? Är det inte så
               att vi har ett väldigt stort problem?
             </seg>
-            <seg n="71b8a965">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-145" prev="i-c52107b06b9ef305-141" who="Q4822657">
+            <seg>
               Jag hör interpellanterna och mina riksdagskolleger ta upp fakta.
               Hänvisningen till Der Spiegel om att nästan en tredjedel av Israels
               export består av varor producerade på ockuperad mark var någonting
@@ -1446,21 +1690,25 @@
               göra någonting åt?
             </seg>
           </u>
-          <note type="speaker" n="72985987">
+          <note type="speaker">
             Anf. 21 TORBJÖRN BJÖRLUND (v):
           </note>
-          <u who="Q5578151" xml:id="i-1d4c7d6d6f5db017-1" n="ec4624c5">
-            <seg n="e849e766">
+          <u xml:id="i-c52107b06b9ef305-146" next="i-c52107b06b9ef305-152" who="Q5578151">
+            <seg>
               Herr talman! Vi står här och säger samma saker, tycker jag. Det
               är upprepningar gällande situationen i Israel och Palestina.
             </seg>
-            <seg n="ab24ffc1">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-147" prev="i-c52107b06b9ef305-146" who="Q5578151">
+            <seg>
               Jag hör svaret från utrikesministern när det gäller sanktioner
               och varför man inte helt enkelt kan isolera Israel på något sätt.
               Det har hänt förut i världshistorien att det har gjorts, kanske
               inte alltid med framgång, men många gånger med framgång.
             </seg>
-            <seg n="929be5fb">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-148" prev="i-c52107b06b9ef305-146" who="Q5578151">
+            <seg>
               Resonerar man olika när det gäller olika stater? Vad är det för
               skillnad mellan olika terroriststater, som Nordkorea är, som vissa
               tycker att Kuba är och som vissa faktiskt tycker att Israel är?
@@ -1468,14 +1716,18 @@
               sätt? Varför ser man inte till att stater som terroriserar andra
               folk utsätts för sanktioner?
             </seg>
-            <seg n="d0ecc0ba">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-149" prev="i-c52107b06b9ef305-146" who="Q5578151">
+            <seg>
               Det handlar om Israels sätt att agera. Vi pratar om Västbanken.
               När jag har varit nere har Ramallah varit den plats där man kunnat
               vara och ha det något så när drägligt. I övrigt är det svårt.
               Framför allt runt muren är det oerhört svårt. Det finns väldigt
               få ställen där man kan vara utan att märka det här dagligen.
             </seg>
-            <seg n="c3e3815e">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-150" prev="i-c52107b06b9ef305-146" who="Q5578151">
+            <seg>
               Jag fick mig ännu ett exempel till livs när jag var där nere.
               I en israelisk domstol hade den israeliska staten dömts till att
               öppna en väg som var stängd för palestinier. Vad gör man då? Jo,
@@ -1484,13 +1736,17 @@
               åka ända bort till Ramallah och vända för att komma tillbaka till
               Jerusalem.
             </seg>
-            <seg n="207d8450">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-151" prev="i-c52107b06b9ef305-146" who="Q5578151">
+            <seg>
               Det är ytterligare ett exempel på trakasserier som den israeliska
               staten systematiskt genomför för att hela tiden påvisa för palestinierna
               att det är vi som bestämmer. Det kallar jag för terrorism statsterrorism.
               Det måste man på något sätt införa sanktioner mot.
             </seg>
-            <seg n="e6f089d1">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-152" prev="i-c52107b06b9ef305-146" who="Q5578151">
+            <seg>
               Det finns andra saker som man skulle kunna ta upp just när det
               gäller vapenimporten. Vi har inget embargo och inte några sanktioner
               mot vapenimporten heller till Israel än så länge. Det innebär
@@ -1498,11 +1754,11 @@
               bli tillfälle.
             </seg>
           </u>
-          <note type="speaker" n="9b8ed3b7">
+          <note type="speaker">
             Anf. 22 Utrikesminister CARL BILDT (m):
           </note>
-          <u who="Q52922" xml:id="i-d2e36a0a959be3dc-5" n="6f19ca4b">
-            <seg n="af58a4a6">
+          <u xml:id="i-c52107b06b9ef305-153" next="i-c52107b06b9ef305-162" who="Q52922">
+            <seg>
               Herr talman! Jag tycker att Mehmet Kaplan och andra vältaligt
               har beskrivit den dagliga förödmjukelse som ockupationspolitik
               självfallet är. Det kan ha lättats lite i vissa delar av Västbanken
@@ -1511,7 +1767,9 @@
               leder till stämningar som i grunden gör fredsarbetet svårare om
               vi ser det i det lite längre perspektivet.
             </seg>
-            <seg n="54bddf1b">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-154" prev="i-c52107b06b9ef305-153" who="Q52922">
+            <seg>
               Det är därför vi hela tiden säger och försöker säga till Israel
               att denna ockupationspolitik hotar Israel självt i det längre
               perspektivet. En tvåstatslösning är den lösning som ger Israel
@@ -1519,7 +1777,9 @@
               att rycka undan grunden för en tvåstatslösning om vi ser det i
               ett lite längre perspektiv.
             </seg>
-            <seg n="16ff2581">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-155" prev="i-c52107b06b9ef305-153" who="Q52922">
+            <seg>
               Jag tror att det finns en bred acceptans för det synsättet i
               Israel i dag. Men samtidigt har de så svårt att ta de konkreta
               stegen, delvis därför att Israel av historiska skäl som vi måste
@@ -1528,7 +1788,9 @@
               inte vår historia som formar dem. Det måste vi också vara medvetna
               om, och vi ska försöka göra vad vi kan.
             </seg>
-            <seg n="e2055da6">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-156" prev="i-c52107b06b9ef305-153" who="Q52922">
+            <seg>
               Jag ska göra några konkreta kommentarer. Peter Hultqvist frågar
               om den palestinska representationen. Jag är beredd att titta på
               det och se vad vi kan göra mer. Men jag säger det med reservationen
@@ -1542,7 +1804,9 @@
               skulle gärna se att så kunde bli fallet, och jag kan försäkra
               Peter Hultqvist och andra att vi arbetar med detta.
             </seg>
-            <seg n="8f9e32aa">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-157" prev="i-c52107b06b9ef305-153" who="Q52922">
+            <seg>
               Thomas Strand frågar om ursprungsmärkningen. Det är inget fel
               på bestämmelserna; de är där. Det är bara att tillämpa dem. Vi
               ska självfallet vara uppmärksamma på att de faktiskt tillämpas.
@@ -1552,7 +1816,9 @@
               Därför är det viktigt att de faktiskt efterlevs, men mig veterligt
               är det inget större fel på bestämmelserna.
             </seg>
-            <seg n="36a6810f">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-158" prev="i-c52107b06b9ef305-153" who="Q52922">
+            <seg>
               Jag kan förstå Monica Green i största allmänhet vi måste göra
               någonting och vi måste gå till handling. Men fredsarbete är tyvärr
               inte alltid sådant. Jag skulle önska att det var det och att vi
@@ -1562,7 +1828,9 @@
               disponerar vi inte alltid instrumenten att omedelbart ställa världen
               till rätta.
             </seg>
-            <seg n="6d8a2824">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-159" prev="i-c52107b06b9ef305-153" who="Q52922">
+            <seg>
               Vad kan vi då göra? Jag tycker att det finns tre linjer. Den
               första är ett tryck på eller ett aktivt arbete inom den europeiska
               unionen för att vi ska få en europeisk röst för fred som är stark
@@ -1572,7 +1840,9 @@
               den amerikanska politiken, framför allt av andra skäl, har förändrats
               i en riktning som vi uppfattar som konstruktiv. Det vill vi stödja.
             </seg>
-            <seg n="015b779d">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-160" prev="i-c52107b06b9ef305-153" who="Q52922">
+            <seg>
               Den andra linjen är hjälp till det palestinska statsbyggandet.
               Det är inte bara det att vi har satsat mer, utan man ska inte
               glömma att den europeiska unionen satsar mycket mer än hela den
@@ -1581,7 +1851,9 @@
               åtskilligt och skapat förutsättningarna för att en palestinsk
               stat ska kunna finnas som fungerande statsbildning inom en tvåårsram.
             </seg>
-            <seg n="379d1518">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-161" prev="i-c52107b06b9ef305-153" who="Q52922">
+            <seg>
               Den tredje linjen är stöd till fredsförhandlingar indirekta förhandlingar
               nu som vi hoppas ska leda till direkta förhandlingar. Inom ramen
               för det skulle jag vilja säga att vi måste ha en dialog med alla
@@ -1591,7 +1863,9 @@
               konkret förbereda de insatser som den europeiska unionen och Sverige
               kan göra i samband med en fredsuppgörelse konkret just nu.
             </seg>
-            <seg n="f3fd72cf">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-162" prev="i-c52107b06b9ef305-153" who="Q52922">
+            <seg>
               Vad kan vi göra i Gazafrågan? Det handlar inte bara om att hålla
               anföranden i Sveriges riksdag, som vi alla tycker om även en dag
               som denna, utan kanske också om närvaro på marken för att underlätta.
@@ -1600,17 +1874,19 @@
               är alldeles oacceptabel det tror jag att vi är eniga om.
             </seg>
           </u>
-          <note type="speaker" n="4ef1a7c1">
+          <note type="speaker">
             Anf. 23 AMINEH KAKABAVEH (v):
           </note>
-          <u who="Q3675519" xml:id="i-9b963a596e96942b-2" n="3600fce3">
-            <seg n="41c60fbf">
+          <u xml:id="i-c52107b06b9ef305-163" next="i-c52107b06b9ef305-166" who="Q3675519">
+            <seg>
               Herr talman! Tack, utrikesministern! Mycket av de konfiskeringar
               och den kontroll som sker av barn och oskyldiga människor görs
               i säkerhetssyfte. Men det får inte göra livet odrägligt för det
               palestinska folket. Det måste vi komma ihåg.
             </seg>
-            <seg n="64a75ac4">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-164" prev="i-c52107b06b9ef305-163" who="Q3675519">
+            <seg>
               Det gläder mig att utrikesministern vill ta ytterligare steg
               för att förbättra situationen. Visst kan vi göra det! Historien
               har visat att Sverige har haft en stark röst tillsammans med omvärlden
@@ -1622,7 +1898,9 @@
               människor som i så många decennier har upplevt detta våld och
               detta grymma förtryck. Därför ska vi sätta stopp för det.
             </seg>
-            <seg n="50a6137b">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-165" prev="i-c52107b06b9ef305-163" who="Q3675519">
+            <seg>
               Jag hoppas, utrikesminister Carl Bildt, att oavsett om han sitter
               vid makten eller icke ska vi tillsammans med alla göra det här
               igen. Det gäller alla, och hela Sverige, som gjorde detta under
@@ -1631,7 +1909,9 @@
               är min och många andras förväntningar, inte bara i Sverige utan
               också i omvärlden, mycket större nu.
             </seg>
-            <seg n="81516de8">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-166" prev="i-c52107b06b9ef305-163" who="Q3675519">
+            <seg>
               När jag själv var i Palestina fick jag i varenda träff med vartenda
               barn, varenda kvinna och varenda politiker höra: Amineh, vad kan
               Sverige göra för att stoppa Israel och bojkotta för att sätta
@@ -1639,27 +1919,33 @@
               Det får vi sätta stopp för här och nu.
             </seg>
           </u>
-          <note type="speaker" n="a06f3e18">
+          <note type="speaker">
             Anf. 24 PETER HULTQVIST (s):
           </note>
-          <u who="Q3370162" xml:id="i-663ad2af88cee8ea-2" n="300b180f">
-            <seg n="08ed5ff7">
+          <u xml:id="i-c52107b06b9ef305-167" next="i-c52107b06b9ef305-174" who="Q3370162">
+            <seg>
               Herr talman! Ockupationspolitiken hotar Israels självständighet,
               säger utrikesministern. Men samtidigt har man svårt att ta de
               konkreta stegen, och det beror på ett långt drivet säkerhetstänkande.
             </seg>
-            <seg n="6655d1fe">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-168" prev="i-c52107b06b9ef305-167" who="Q3370162">
+            <seg>
               Är det hela sanningen? Jag menar att bosättningarna byggs i en
               medveten strategi för att expandera, för att lägga ny mark under
               sig, för att skapa fakta på marken och för att skapa en annan
               situation.
             </seg>
-            <seg n="c3dc7237">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-169" prev="i-c52107b06b9ef305-167" who="Q3370162">
+            <seg>
               En halv miljon israeler är nu förflyttade till Västbanken. Detta
               är en strategi en politiskt förankrad strategi som inte bara handlar
               om säkerhet utan också om expansion.
             </seg>
-            <seg n="6924d338">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-170" prev="i-c52107b06b9ef305-167" who="Q3370162">
+            <seg>
               Jag tycker att ambitionen med en palestinsk statsbildning inom
               två år, som utrikesministern säger, är bra. Men man ska ha klart
               för sig att folkrättsbrott underminerar möjligheten successivt.
@@ -1668,33 +1954,41 @@
               motverkas processen. Vad blir kvar åt palestinierna att bygga
               en stat av?
             </seg>
-            <seg n="4c929a59">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-171" prev="i-c52107b06b9ef305-167" who="Q3370162">
+            <seg>
               Jag har tagit upp frågan om den diplomatiska statusen även tidigare.
               Anledningen till att jag tar upp den är att jag ser den i ett
               perspektiv med en palestinsk statsbildning och erkännande av palestinska
               myndighets- och statsfunktioner.
             </seg>
-            <seg n="8843f856">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-172" prev="i-c52107b06b9ef305-167" who="Q3370162">
+            <seg>
               Jag tycker att det är vällovligt att utrikesministern uttalar
               sig i positiv mening om en sådan process. Men hans svar här blir
               också lite luddigt i kanten när han hoppas på en dialog inom EU
               och att det skulle öppna möjligheter.
             </seg>
-            <seg n="30ddba8b">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-173" prev="i-c52107b06b9ef305-167" who="Q3370162">
+            <seg>
               Min uppfattning kvarstår. Vi bör vara beredda att titta på hur
               vi tar steget att ge den palestinska myndigheten diplomatisk status
               i Sverige.
             </seg>
-            <seg n="af8f7fdf">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-174" prev="i-c52107b06b9ef305-167" who="Q3370162">
+            <seg>
               EU kan sätta ett betydligt hårdare tryck på Israel när det gäller
               folkrättsbrotten. Man kan ta tag i den här frågan om associeringsavtalet.
             </seg>
           </u>
-          <note type="speaker" n="657117eb">
+          <note type="speaker">
             Anf. 25 THOMAS STRAND (s):
           </note>
-          <u who="Q6191909" xml:id="i-e3502d5d33aa13b0-2" n="68368dcf">
-            <seg n="0b6687ce">
+          <u xml:id="i-c52107b06b9ef305-175" next="i-c52107b06b9ef305-180" who="Q6191909">
+            <seg>
               Herr talman! Vi har avtal som säger att bosättarprodukter inte
               får säljas tullfritt i EU. Därom är vi eniga. Men frågan är om
               de här avtalen efterlevs. Jag tycker att så inte är fallet. Man
@@ -1703,26 +1997,34 @@
               även Gordon Browns uttalande för ett tag sedan bekräftar att detta
               inte är bra.
             </seg>
-            <seg n="82c40885">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-176" prev="i-c52107b06b9ef305-175" who="Q6191909">
+            <seg>
               Vi måste fundera på hur vi kan säkerställa att avtalen fungerar
               i praktiken och i verkligheten. Vad kan vi göra i EU? Vad kan
               Sverige göra genom sin tullmyndighet för att kontrollera att det
               här fungerar?
             </seg>
-            <seg n="d9b52320">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-177" prev="i-c52107b06b9ef305-175" who="Q6191909">
+            <seg>
               Enligt det associeringsavtal som finns mellan Israel och EU har
               Israel förbundit sig att respektera folkrätten och FN:s deklaration
               om mänskliga rättigheter. EU har också förbundit sig att kontrollera
               att så är fallet och att det här följs.
             </seg>
-            <seg n="6b5d09bf">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-178" prev="i-c52107b06b9ef305-175" who="Q6191909">
+            <seg>
               Om man tittar på hur det fungerar i praktiken menar jag att det
               är svårt att komma ifrån att Israel får en särbehandling. Det
               är ofta man ser mellan fingrarna. Israel kan begå ständiga brott
               mot folkrätten, och det händer inte så mycket fast det egentligen
               borde göra det.
             </seg>
-            <seg n="a6257d8d">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-179" prev="i-c52107b06b9ef305-175" who="Q6191909">
+            <seg>
               Frågan om ursprungsmärkning är en sådan fråga där jag tycker
               att man har sett mellan fingrarna alltför länge. Frågan om ursprungsmärkning
               är ett sätt att markera en politisk uppfattning och ett politiskt
@@ -1730,7 +2032,9 @@
               oss konsumenter att välja, och jag vill påstå att det sätter en
               viss ekonomisk press på Israel.
             </seg>
-            <seg n="4881622b">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-180" prev="i-c52107b06b9ef305-175" who="Q6191909">
+            <seg>
               Jag hoppas att utrikesministern efter den här debatten med kraft
               vill driva frågan om att se över ursprungsmärkningen och se till
               att den fungerar i praktiken så att den verkligen blir ett verkningsfullt
@@ -1738,16 +2042,18 @@
               Israel och Palestina.
             </seg>
           </u>
-          <note type="speaker" n="7dbc26d8">
+          <note type="speaker">
             Anf. 26 MONICA GREEN (s):
           </note>
-          <u who="Q3358763" xml:id="i-cf365d17191cf69f-2" n="7a680cd1">
-            <seg n="5309a0e5">
+          <u xml:id="i-c52107b06b9ef305-181" next="i-c52107b06b9ef305-184" who="Q3358763">
+            <seg>
               Herr talman! Tack för den här viktiga debatten! Det är oerhört
               viktigt att vi håller debatten vid liv och att vi är många som
               engagerar oss.
             </seg>
-            <seg n="c71c580f">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-182" prev="i-c52107b06b9ef305-181" who="Q3358763">
+            <seg>
               Ja, Carl Bildt, vi ska vara medvetna om Israels historia och
               det fruktansvärda brott som det judiska folket utsattes för. Vi
               ska självfallet vara medvetna om det och på alla sätt fördöma
@@ -1756,7 +2062,9 @@
               på ett fullständigt felaktigt sätt som aldrig kan accepteras får
               man ändå inte förtrycka någon annan.
             </seg>
-            <seg n="bbf65eea">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-183" prev="i-c52107b06b9ef305-181" who="Q3358763">
+            <seg>
               Israel har byggt en 720 kilometer lång mur i huvudsak på ockuperad
               mark. Det är en mur som förhindrar människor att leva sina liv.
               Den förhindrar människor att ta sig till sina arbeten, att ta
@@ -1766,7 +2074,9 @@
               är en åtskillnadspolitik som vi inte kan acceptera. Muren måste
               rivas. Den måste bort.
             </seg>
-            <seg n="8e7b515e">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-184" prev="i-c52107b06b9ef305-181" who="Q3358763">
+            <seg>
               Vi i Sverige måste tala om att detta är olagligt och att de inte
               får bygga en mur på det här sättet som sätter andra människors
               livsvillkor ur spel. Det måste Sverige, FN och EU tala om, och
@@ -1776,18 +2086,20 @@
               nu får bra uppväxtvillkor.
             </seg>
           </u>
-          <note type="speaker" n="6afa93cd">
+          <note type="speaker">
             Anf. 27 MEHMET KAPLAN (mp):
           </note>
-          <u who="Q4822657" xml:id="i-05e62fd8c6690852-2" n="88f1f000">
-            <seg n="aca97f36">
+          <u xml:id="i-c52107b06b9ef305-185" next="i-c52107b06b9ef305-188" who="Q4822657">
+            <seg>
               Herr talman! Efter att Ship to Gaza bildades för drygt ett år
               sedan har svenska folket samlat in pengar och medel. Varför gör
               människor detta? Det kan man fråga sig. Jag tror att ett av skälen
               är att man tycker att det som händer i Gaza och i Palestina i
               övrigt är orättvist.
             </seg>
-            <seg n="1324b066">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-186" prev="i-c52107b06b9ef305-185" who="Q4822657">
+            <seg>
               Dessa ockupationsbostäder som kallas för bosättningar kan vara
               ett sådant skäl. Ett annat kan vara att man anser att Israel på
               något sätt nästan har en egen gräddfil där man inte behöver ställas
@@ -1797,14 +2109,18 @@
               är, är det ändå så att vi ställer högre krav på demokratier, och
               det ska vi också göra.
             </seg>
-            <seg n="d414b656">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-187" prev="i-c52107b06b9ef305-185" who="Q4822657">
+            <seg>
               Sedan jag var med på båten i östra Medelhavet har det samlats
               in drygt 1 miljon kronor till Ship to Gaza. Idén är att försöka
               åka ned med ytterligare material. Vi tror att den illegala blockaden
               måste lyftas. Vi känner att det finns ett stöd från svenska folket
               för detta.
             </seg>
-            <seg n="2169cfc3">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-188" prev="i-c52107b06b9ef305-185" who="Q4822657">
+            <seg>
               Det är därför glädjande att Carl Bildt har agerat och hittills
               varit väldigt tydlig i frågan, men den här interpellationsdebattsrundan
               har åskådliggjort att det krävs mer än så. Jag hoppas och vill
@@ -1812,49 +2128,57 @@
               kraftfullare.
             </seg>
           </u>
-          <note type="speaker" n="37605a31">
+          <note type="speaker">
             Anf. 28 Utrikesminister CARL BILDT (m):
           </note>
-          <u who="Q52922" xml:id="i-d2e36a0a959be3dc-6" n="6f19ca4b">
-            <seg n="9310ea60">
+          <u xml:id="i-c52107b06b9ef305-189" next="i-c52107b06b9ef305-192" who="Q52922">
+            <seg>
               Herr talman! Jag tror faktiskt inte att jag har så mycket att
               tillägga. Vi har ibland lite olika utgångspunkter när det gäller
               hur man ska agera i de olika detaljfrågorna. Så ska det också
               vara. Det är också förutsättningen för att vi ska få någorlunda
               liv i denna debatt.
             </seg>
-            <seg n="c936e56e">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-190" prev="i-c52107b06b9ef305-189" who="Q52922">
+            <seg>
               Men det råder ingen tvekan om vad vi strävar efter att uppnå
               från svensk och europeisk sida när det gäller en fredslösning
               i Mellanöstern. Och på den punkten råder inte heller några meningsmotsättningar.
             </seg>
-            <seg n="38c22913">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-191" prev="i-c52107b06b9ef305-189" who="Q52922">
+            <seg>
               Vi strävar alla efter en så aktiv svensk roll som möjligt, framför
               allt inom den europeiska unionen men också genom andra kanaler
               som Förenta nationerna, i en fredsuppgörelse baserad på folkrättens
               grund.
             </seg>
-            <seg n="92348b03">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-192" prev="i-c52107b06b9ef305-189" who="Q52922">
+            <seg>
               Jag tackar för debatten.
             </seg>
           </u>
-          <note n="a2b34168">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="dc2bbc22">
+          <note>
             3 § Svar på interpellation 2009/10:394 om Bosnien och Hercegovina
             och EU
           </note>
-          <note type="speaker" n="a5d0dcca">
+          <note type="speaker">
             Anf. 29 Utrikesminister CARL BILDT (m):
           </note>
-          <u who="Q52922" xml:id="i-d2e36a0a959be3dc-7" n="6f19ca4b">
-            <seg n="1b932cda">
+          <u xml:id="i-c52107b06b9ef305-193" next="i-c52107b06b9ef305-199" who="Q52922">
+            <seg>
               Herr talman! Jasenko Omanovic har frågat mig vilka åtgärder jag
               avser att vidta i ministerrådet för att underlätta Bosnien och
               Hercegovinas närmande till Europeiska unionen.
             </seg>
-            <seg n="1d20ea7b">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-194" prev="i-c52107b06b9ef305-193" who="Q52922">
+            <seg>
               Regeringen är en stark förespråkare för unionens utvidgning.
               Utvidgningen är unionens främsta instrument för att sprida säkerhet,
               stabilitet, demokrati och välstånd i Europa. Regeringen har varit
@@ -1862,7 +2186,9 @@
               med Bosnien inom den särskilda närmandeprocess som EU har för
               regionen, den så kallade stabiliserings- och associeringsprocessen.
             </seg>
-            <seg n="0a0c5ab0">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-195" prev="i-c52107b06b9ef305-193" who="Q52922">
+            <seg>
               Under det svenska ordförandeskapet lanserade EU, tillsammans
               med USA, ett politiskt initiativ på hög nivå som syftade till
               att underlätta och effektivisera Bosniens EU-närmande. I första
@@ -1875,7 +2201,9 @@
               aktuell i ljuset av Lissabonfördraget och upprättandet av EU:s
               nya utrikestjänst.
             </seg>
-            <seg n="bb37deed">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-196" prev="i-c52107b06b9ef305-193" who="Q52922">
+            <seg>
               Ett mer övergripande syfte med EU:s och USA:s gemensamma initiativ
               som jag själv ledde var att uppmuntra det bosniska ledarskapet
               att genomföra en första omgång författningsreformer. EU-närmandet
@@ -1883,7 +2211,9 @@
               den statliga nivån effektiviserades samt att författningen ändrades
               i enlighet med Europakonventionen om mänskliga rättigheter.
             </seg>
-            <seg n="5f7a6509">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-197" prev="i-c52107b06b9ef305-193" who="Q52922">
+            <seg>
               EU verkar fortsatt för att Bosniens EU-närmande ska underlättas
               och tar löpande upp dessa frågor med regeringen i Bosnien. Regeringen
               driver att EU inom kort bör fastställa hur en förstärkt EU-närvaro
@@ -1896,13 +2226,17 @@
               är ett första steg inför mer omfattande reformer nödvändiga för
               en fördjupad EU-integration.
             </seg>
-            <seg n="b1922e71">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-198" prev="i-c52107b06b9ef305-193" who="Q52922">
+            <seg>
               Kommissionen har även rekommenderat rådet att ge Bosnien viseringsfrihet
               mot EU från och med årsskiftet förutsatt att de skyndsamt uppfyller
               några utestående villkor. Detta är en framgång för regionen som
               främjar kontakterna mellan olika folkgrupper.
             </seg>
-            <seg n="58f1ba09">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-199" prev="i-c52107b06b9ef305-193" who="Q52922">
+            <seg>
               Regeringen anser det vara av största vikt att EU-närmandets fördelar
               kommer den bosniska befolkningen till del, och jag verkar aktivt
               för detta i ministerrådet. Det främsta ansvaret och initiativet
@@ -1915,17 +2249,19 @@
               innebär för alla de länder som önskar bli medlemmar.
             </seg>
           </u>
-          <note type="speaker" n="a5afb9a9">
+          <note type="speaker">
             Anf. 30 JASENKO OMANOVIC (s):
           </note>
-          <u who="unknown" xml:id="i-d2e36a0a959be3dc-8" n="cba46dc6">
-            <seg n="5ecbcf6b">
+          <u xml:id="i-c52107b06b9ef305-200" who="Q6028336" next="i-c52107b06b9ef305-204">
+            <seg>
               Herr talman! Jag tackar ministern för svaret. Det är intressant
               att vi nu går från debatten om palestinier till debatten om bosnier
               och från Mellanösterns Jerusalem till, kanske man skulle kunna
               säga, det europeiska Jerusalem.
             </seg>
-            <seg n="66d2a12a">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-201" who="Q6028336" prev="i-c52107b06b9ef305-200">
+            <seg>
               Om man tittar historiskt på det som hände under 90-talet och
               försöker beskriva bakgrunden till det hela får man gå långt tillbaka.
               Tiden räcker inte för att här gå igenom alla krig på Balkan. Om
@@ -1936,7 +2272,9 @@
               enighet som hade behövts för att forna Jugoslavien skulle ha blivit
               hjälpt av EU. De fick absolut ingen hjälp.
             </seg>
-            <seg n="5b8fb546">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-202" who="Q6028336" prev="i-c52107b06b9ef305-200">
+            <seg>
               I dag är EU mycket mer enat och har till och med en valuta, så
               intressena är helt annorlunda från EU-sidan. Men Bosniens problem
               kvarstår. För att få slut på den blodiga historien i Bosnien skrev
@@ -1949,14 +2287,18 @@
               staten Bosnien och Hercegovina, och domstolen har kommit fram
               till att författningen inte håller ur mänskliga-rättigheter-perspektivet.
             </seg>
-            <seg n="6aafa165">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-203" who="Q6028336" prev="i-c52107b06b9ef305-200">
+            <seg>
               Man har alltså problem när det gäller författningen i Bosnien.
               Den blir inte hjälpt av att man enbart avskaffar den höga representanten
               och inför EU:s närvaro i högre grad. Jag tycker att man måste
               ha en lite klarare vision om vad det är man vill och vilken målsättning
               man har för EU:s närvaro i Bosnien.
             </seg>
-            <seg n="129be1ac">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-204" who="Q6028336" prev="i-c52107b06b9ef305-200">
+            <seg>
               Vi är några riksdagsledamöter som har besökt Bosnien och Hercegovina.
               Vi träffade en del representanter från parlamentet, regeringen,
               talmännen och en del andra organisationer, till exempel Världsbanken.
@@ -1965,11 +2307,11 @@
               än i dag.
             </seg>
           </u>
-          <note type="speaker" n="e97a4af6">
+          <note type="speaker">
             Anf. 31 Utrikesminister CARL BILDT (m):
           </note>
-          <u who="Q52922" xml:id="i-d2e36a0a959be3dc-9" n="6f19ca4b">
-            <seg n="f4b8863f">
+          <u xml:id="i-c52107b06b9ef305-205" next="i-c52107b06b9ef305-212" who="Q52922">
+            <seg>
               Herr talman! Jag tror inte att vi ska fördjupa oss alltför mycket
               i historien, för man förvillar sig lätt. Men jag tror att det
               är en viktig observation som Jasenko Omanovic gör vad gäller utbrotten
@@ -1983,7 +2325,9 @@
               men det bosniska kriget mellan 1992 och 1995 var självfallet det
               allra värsta av dessa.
             </seg>
-            <seg n="e00d3f34">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-206" prev="i-c52107b06b9ef305-205" who="Q52922">
+            <seg>
               När det gäller Daytonavtalet 1995 är vi inne i en långsiktig
               statskonsoliderings- och integrationsprocess där det är oerhört
               viktigt, tycker jag, att Bosnien får möjlighet att gå i takt med
@@ -1994,7 +2338,9 @@
               Men för att Bosnien inte ska hamna på efterkälken krävs det att
               Bosniens politiker själva fattar beslut.
             </seg>
-            <seg n="dbecf884">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-207" prev="i-c52107b06b9ef305-205" who="Q52922">
+            <seg>
               Det kan vara nog så besvärligt ibland att komma över de motsättningar
               som ett krig skapar. Men det är 15 år sedan kriget tog slut, och
               ibland blir jag bekymrad. Jag var där häromveckan och läste tidningarna
@@ -2005,7 +2351,9 @@
               underlättar inte den konstruktiva attityd mellan olika bosniska
               partier som är en förutsättning för EU-närmandet.
             </seg>
-            <seg n="41a620df">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-208" prev="i-c52107b06b9ef305-205" who="Q52922">
+            <seg>
               Vad vi försöker göra är att säga det var därför vi, ett stort
               antal utrikesministrar, var i Sarajevo för tio dagar sedan att
               det är väldigt viktigt att Bosnien också kommer med. Det är bra
@@ -2014,7 +2362,9 @@
               Skopje och Aten också men Bosnien får inte bli ett svart hål på
               Balkan igen.
             </seg>
-            <seg n="fed92378">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-209" prev="i-c52107b06b9ef305-205" who="Q52922">
+            <seg>
               För att detta ska undvikas krävs det att Bosniens politiker sätter
               sig ned och kommer överens. Ibland försöker vi hjälpa dem lite
               grann och lägga förslag på bordet. Jasenko Omanovic nämnde frågan
@@ -2025,7 +2375,9 @@
               och skräp, om jag ska vara ärlig, att de inte har lyckats enas
               i alla fall om dem.
             </seg>
-            <seg n="24ac9a37">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-210" prev="i-c52107b06b9ef305-205" who="Q52922">
+            <seg>
               Sedan har vi också sagt till dem: Kan ni inte också enas om en
               paragraf i författningen som är relativt enkel och som gör det
               möjligt för er att förhandla om EU-medlemskapet? I samband med
@@ -2038,7 +2390,9 @@
               finns. Då drar vi hela regionen integration, försoning och ekonomisk
               utveckling i riktning mot Europa.
             </seg>
-            <seg n="9a53b3e8">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-211" prev="i-c52107b06b9ef305-205" who="Q52922">
+            <seg>
               Nu står Bosnien inför bland annat ett parlamentsval i början
               av oktober. Jag hoppas som sagt att man kan skruva ned den nationalistiska
               retoriken. Det gäller förvisso även i andra länder att man talar
@@ -2050,17 +2404,19 @@
               som Bosnien borde ha fått för länge sedan men som bromsats av
               den bosniska oenigheten.
             </seg>
-            <seg n="89382e1f">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-212" prev="i-c52107b06b9ef305-205" who="Q52922">
+            <seg>
               Jag kan försäkra Jasenko Omanovic att Sverige kommer att fortsätta
               att spela en aktiv roll för att försöka hjälpa Bosnien, men i
               grunden måste Bosnien hjälpa sig självt.
             </seg>
           </u>
-          <note type="speaker" n="8bc3da0a">
+          <note type="speaker">
             Anf. 32 JASENKO OMANOVIC (s):
           </note>
-          <u who="unknown" xml:id="i-d2e36a0a959be3dc-10" n="cba46dc6">
-            <seg n="8061d000">
+          <u xml:id="i-c52107b06b9ef305-213" who="Q6028336" next="i-c52107b06b9ef305-217">
+            <seg>
               Herr talman! Jag kan hålla med om att det inte är någon annan
               som kan göra jobbet åt Bosnien än Bosnien självt, men man kan
               underlätta för landet genom att ta bort en del hinder på vägen.
@@ -2069,7 +2425,9 @@
               att glömma, särskilt inte med tanke på hur våldsamt kriget var.
               Därför blir frågan hur Europeiska unionen kan underlätta det hela.
             </seg>
-            <seg n="5993c66a">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-214" who="Q6028336" prev="i-c52107b06b9ef305-213">
+            <seg>
               Ett sätt i underlättandet vore att använda sig av Kroatien och
               Serbien. Inställningen från Zagreb och Belgrad till Bosnien borde
               kunna leda till att få ned de nationalistiska tongångarna i Bosnien.
@@ -2080,7 +2438,9 @@
               Serbiens sida försöker visa att nationalism inte är en väg för
               Bosnien utan att man måste kunna sätta sig vid bordet och förhandla.
             </seg>
-            <seg n="cb7601bd">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-215" who="Q6028336" prev="i-c52107b06b9ef305-213">
+            <seg>
               Jag förstår att det behöver göras en del mindre ändringar i författningen,
               men för folket, för fyra miljoner bosnier, står det mellan hopp
               och förtvivlan. Det handlar om möjligheten att vara med i Europeiska
@@ -2091,14 +2451,18 @@
               avbröt matchen. Sådana uttryck används i Bosnien, vilket är mycket,
               mycket beklagligt. Förmodligen dyker de upp även i valrörelsen.
             </seg>
-            <seg n="49e9d782">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-216" who="Q6028336" prev="i-c52107b06b9ef305-213">
+            <seg>
               Det är därför viktigt med visioner. Jag träffade en 28-årig journalist
               i Sarajevo som sade till mig: Vilka signaler skickar EU till mig
               och alla andra unga? Är det att vi ska ha kraft att leda Bosnien
               framåt i rätt riktning, att vi måste engagera oss? De signalerna
               når inte ut till oss, ifall Europa skickar dem.
             </seg>
-            <seg n="67b5930b">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-217" who="Q6028336" prev="i-c52107b06b9ef305-213">
+            <seg>
               Det finns ett initiativ från de socialdemokratiska partierna
               i Europa som handlar om 2014. Man vill att västra Balkan då ska
               vara inkluderat i EU. År 2014 är det hundra år sedan skottet i
@@ -2109,19 +2473,23 @@
               bra.
             </seg>
           </u>
-          <note type="speaker" n="d0a591e6">
+          <note type="speaker">
             Anf. 33 Utrikesminister CARL BILDT (m):
           </note>
-          <u who="Q52922" xml:id="i-d2e36a0a959be3dc-11" n="6f19ca4b">
-            <seg n="a7e46926">
+          <u xml:id="i-c52107b06b9ef305-218" next="i-c52107b06b9ef305-226" who="Q52922">
+            <seg>
               Herr talman! Ja, det skulle vara väldigt bra.
             </seg>
-            <seg n="8af4b15e">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-219" prev="i-c52107b06b9ef305-218" who="Q52922">
+            <seg>
               När det gäller 2014 och den visionen tror jag att jag till och
               med skrev om detta i den bok jag skrev om Bosnien. Så kommer det
               dess värre inte att bli, och det av två skäl.
             </seg>
-            <seg n="d45fc2b2">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-220" prev="i-c52107b06b9ef305-218" who="Q52922">
+            <seg>
               Det första är att jag tyvärr uppfattar att entusiasmen för en
               utvidgning av Europeiska unionen håller på att mattas. Från svensk
               sida motarbetar vi det så mycket vi kan. Jag tillhör dem som argumenterar
@@ -2133,7 +2501,9 @@
               gäller inte bara Bosnien, men Bosnien är ett exempel. Det är den
               ena faktorn.
             </seg>
-            <seg n="e16eef03">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-221" prev="i-c52107b06b9ef305-218" who="Q52922">
+            <seg>
               Den andra faktorn är att det på olika kanter lekts lite för mycket
               med nationalism i den bosniska politiska debatten också delvis
               genom att säga att det kan väl det internationella samfundet,
@@ -2141,7 +2511,9 @@
               och göra de ganska svåra kompromisser som ett nationsbyggande
               efter ett krig innebär.
             </seg>
-            <seg n="24e61f30">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-222" prev="i-c52107b06b9ef305-218" who="Q52922">
+            <seg>
               Jag tillhör definitivt inte dem som säger att man ska glömma
               det som inträffade under kriget, och oavsett hur mycket jag sade
               det skulle det ändå aldrig inträffa, och bör inte inträffa. Man
@@ -2150,7 +2522,9 @@
               hjälpa till. Det handlar om hela regionen, och i det sammanhanget
               spelar Kroatien och Serbien en viktig roll.
             </seg>
-            <seg n="b946ac62">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-223" prev="i-c52107b06b9ef305-218" who="Q52922">
+            <seg>
               Jag tycker att den regionala bilden nu är bättre än den varit
               på mycket länge. För några veckor sedan träffades presidenterna
               från Kroatien och Serbien samt ordföranden i presidentrådet i
@@ -2165,7 +2539,9 @@
               för fem år sedan. Att den typen av försoningshandlingar nu drivs
               av Zagreb och av Belgrad är självfallet mycket positivt.
             </seg>
-            <seg n="87a2dcea">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-224" prev="i-c52107b06b9ef305-218" who="Q52922">
+            <seg>
               Nu är det val i Bosnien. Det är väl bra det, vi är för demokrati,
               men framför allt medierna oroar mig. Jag är nu mer oroad av det
               nationalistiska tonfallet i medierna i Bosnien än jag skulle ha
@@ -2173,14 +2549,18 @@
               agitation, oavsett vilka det gäller, som är ansvarslös, och att
               det finns förutsättningar att gå vidare efter valet.
             </seg>
-            <seg n="036e3e27">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-225" prev="i-c52107b06b9ef305-218" who="Q52922">
+            <seg>
               Det finns de som talar om risken för nya krig. Jag tillhör inte
               dem, bland annat av det skälet att om det är något krig leder
               till, och Bosnien har gått igenom ett krig, så är det att människorna
               är alldeles övertygade om att de inte vill vara med om det igen.
               Krig har Bosnien upplevt. Det återkommer inte i denna generation.
             </seg>
-            <seg n="512de702">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-226" prev="i-c52107b06b9ef305-218" who="Q52922">
+            <seg>
               Det innebär emellertid inte att man inte måste ta sig över hinder
               för att genomföra den försoningsprocess som är en förutsättning
               för Bosnien och kärnan i hela den europeiska integrationen. Den
@@ -2193,11 +2573,11 @@
               framåt.
             </seg>
           </u>
-          <note type="speaker" n="92324cba">
+          <note type="speaker">
             Anf. 34 JASENKO OMANOVIC (s):
           </note>
-          <u who="unknown" xml:id="i-d2e36a0a959be3dc-12" n="cba46dc6">
-            <seg n="ab30d99b">
+          <u xml:id="i-c52107b06b9ef305-227" who="Q6028336" next="i-c52107b06b9ef305-230">
+            <seg>
               Herr talman! Som ministern sade är det val i Bosnien. EU har
               nu möjlighet att visa sin beslutsamhet och stödja de demokratiska
               krafterna i valet i Bosnien. EU har möjlighet att visa att vägen
@@ -2205,40 +2585,50 @@
               att ett EU-medlemskap inte är någon omöjlighet. Det är sådana
               signaler man kan ge. Man kan börja med det.
             </seg>
-            <seg n="ca358ea0">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-228" who="Q6028336" prev="i-c52107b06b9ef305-227">
+            <seg>
               Det skulle vara intressant att höra ministern kommentera det
               faktum att Bosnien nu är det enda land i det forna Jugoslavien
               vars medborgare fortfarande har visumkrav när de ska besöka EU.
               Hur går det arbetet? Finns det några länder, och i så fall vilka,
               som bromsar det? Det vore intressant att höra.
             </seg>
-            <seg n="56d217f6">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-229" who="Q6028336" prev="i-c52107b06b9ef305-227">
+            <seg>
               Jag vill tro på idén om 2014, om inte som EU- medlem, det kanske
               är för optimistiskt, så åtminstone som ett land som kommit en
               bra bit på väg mot EU-medlemskap, ett land som gjort stora framsteg.
             </seg>
-            <seg n="d9e4e7ca">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-230" who="Q6028336" prev="i-c52107b06b9ef305-227">
+            <seg>
               Därför är det viktigt att visa att Europeiska unionen har ambitionen
               och att Sverige ska vara i spetsen. Många medborgare i Bosnien-Hercegovina
               ser Sverige som ett vänland, som ett land som har kämpat för Bosnien-Hercegovinas
               sak.
             </seg>
           </u>
-          <note type="speaker" n="674dbffc">
+          <note type="speaker">
             Anf. 35 Utrikesminister CARL BILDT (m):
           </note>
-          <u who="Q52922" xml:id="i-d2e36a0a959be3dc-13" n="6f19ca4b">
-            <seg n="cc01328c">
+          <u xml:id="i-c52107b06b9ef305-231" next="i-c52107b06b9ef305-235" who="Q52922">
+            <seg>
               Herr talman! Så är det. Jag tror att vi är väldigt eniga.
             </seg>
-            <seg n="27e8f13f">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-232" prev="i-c52107b06b9ef305-231" who="Q52922">
+            <seg>
               Jag tror inte att regionen är medlem i EU 2014, men låt oss gemensamt
               se till att hela regionen, Kroatien undantaget, år 2014 är väl
               inne i processen mot medlemskap och att Bosnien är med i detta
               och inte halkar efter. Jag tror att det är oerhört viktigt att
               så är fallet.
             </seg>
-            <seg n="b0ba072c">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-233" prev="i-c52107b06b9ef305-231" who="Q52922">
+            <seg>
               Avskaffande av viseringskravet är en viktig del av detta. Det
               är Bosnien och Albanien som återstår. Kommissionen gav Cecilia
               Malmström en rätt positiv värdering av möjligheterna härförleden,
@@ -2247,7 +2637,9 @@
               och därefter Europaparlamentet kan ta ett beslut omedelbart efter
               sommaren, så att detta också blir verklighet.
             </seg>
-            <seg n="81f43656">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-234" prev="i-c52107b06b9ef305-231" who="Q52922">
+            <seg>
               Jag kan också försäkra att Sverige inte bara är den ledande bilaterala
               hjälpgivaren till Bosnien i olika sammanhang. Sida har gjort skillnad
               i Bosnien på ett sätt som man inte kan säga om särskilt många
@@ -2262,23 +2654,25 @@
               för dessa länder och i det europeiska närområdet för oss själva
               också.
             </seg>
-            <seg n="e714f8fa">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-235" prev="i-c52107b06b9ef305-231" who="Q52922">
+            <seg>
               Jasenko Omanovic kan vara alldeles övertygad om att vi över partigränserna
               i Sveriges riksdag kommer att fortsätta arbeta med full kraft
               för detta under de kommande åren.
             </seg>
           </u>
-          <note n="a2b34168">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="195d17e0">
+          <note>
             4 § Svar på interpellation 2009/10:450 om situationen i Vitryssland
           </note>
-          <note type="speaker" n="10da7fa6">
+          <note type="speaker">
             Anf. 36 Utrikesminister CARL BILDT (m):
           </note>
-          <u who="Q52922" xml:id="i-d2e36a0a959be3dc-14" n="6f19ca4b">
-            <seg n="7d426caa">
+          <u xml:id="i-c52107b06b9ef305-236" next="i-c52107b06b9ef305-241" who="Q52922">
+            <seg>
               Herr talman! Kenneth G Forslund har frågat mig vilken min allmänna
               bedömning av situationen och utvecklingen i Vitryssland är, om
               jag i Sveriges eller EU:s kontakter med Vitryssland har riktat
@@ -2288,7 +2682,9 @@
               det finns för mig att agera för att Sverige eller EU ska stimulera
               att demokratiserande steg tas inför det kommande presidentvalet.
             </seg>
-            <seg n="3720a04d">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-237" prev="i-c52107b06b9ef305-236" who="Q52922">
+            <seg>
               Det är min bedömning att utvecklingen i Vitryssland för närvarande
               går åt fel håll. Efter en period av vissa framsteg har de senaste
               månaderna präglats av hårdare behandling av oliktänkande i Vitryssland,
@@ -2298,7 +2694,9 @@
               fortsätter att utdöma och verkställa dödsstraff. Jag känner oro
               inför denna utveckling.
             </seg>
-            <seg n="ef3b4a22">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-238" prev="i-c52107b06b9ef305-236" who="Q52922">
+            <seg>
               EU:s höga representant för utrikes frågor och säkerhetspolitik
               har vid flera tillfällen påtalat den bristande vitryska respekten
               för grundläggande fri- och rättigheter samt understrukit att en
@@ -2309,12 +2707,16 @@
               Detta är en mycket viktig del i Sveriges och EU:s löpande dialog
               med Vitryssland.
             </seg>
-            <seg n="b01a202b">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-239" prev="i-c52107b06b9ef305-236" who="Q52922">
+            <seg>
               EU har särskilt uppmärksammat de nya vitryska bestämmelserna
               om användandet av Internet och bland annat uppmanat vitryska regeringen
               att samarbeta med OSSE:s representant för mediefrihet.
             </seg>
-            <seg n="060fda8e">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-240" prev="i-c52107b06b9ef305-236" who="Q52922">
+            <seg>
               Inför presidentvalet i Vitryssland är det angeläget att fortsatt
               stödja de demokratiska krafterna i landet och verka för att internationella
               observatörer bereds möjlighet att övervaka genomförandet av valet
@@ -2327,23 +2729,27 @@
               nivåer för att skapa breda kontaktytor och öka förutsättningarna
               för utveckling i demokratisk riktning.
             </seg>
-            <seg n="e16406b1">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-241" prev="i-c52107b06b9ef305-236" who="Q52922">
+            <seg>
               Regeringen följer utvecklingen i Vitryssland nära och verkar
               för att EU även fortsättningsvis agerar kraftfullt för att påverka
               den vitryska ledningen i demokratisk riktning.
             </seg>
           </u>
-          <note type="speaker" n="78f49607">
+          <note type="speaker">
             Anf. 37 KENNETH G FORSLUND (s):
           </note>
-          <u who="unknown" xml:id="i-46b2b6ebeaf97952-0" n="cba46dc6">
-            <seg n="85bbe29a">
+          <u xml:id="i-c52107b06b9ef305-242" next="i-c52107b06b9ef305-248" who="Q3373169">
+            <seg>
               Herr talman! Till att börja med vill jag tacka utrikesministern
               för svaret. I allt väsentligt har vi nog samma uppfattningar om
               situationen i Vitryssland och om behovet av förändringar och demokratisering
               där.
             </seg>
-            <seg n="07e1e7c7">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-243" prev="i-c52107b06b9ef305-242" who="Q3373169">
+            <seg>
               En av anledningarna till att jag framställde den här interpellationen
               är att vi lever i en värld som präglas av det som ibland kallas
               CNN-effekten att någon dramatisk händelse tilldrar sig alla mediers
@@ -2356,7 +2762,9 @@
               oppositionella när omvärldens ljus har varit riktat någon annanstans,
               mot någon annan kris- eller konflikthärd.
             </seg>
-            <seg n="f98bdc71">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-244" prev="i-c52107b06b9ef305-242" who="Q3373169">
+            <seg>
               Även om vi har ganska liknande uppfattning tycker jag därför
               att det är viktigt att hålla den här frågan aktuell och levande.
               Vitryssland är ett europeiskt land. Det är den sista diktaturen
@@ -2370,13 +2778,17 @@
               två steg bakåt. Det är en ständig källa till oro och besvikelse
               och naturligtvis också frustration.
             </seg>
-            <seg n="0f8e7e2c">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-245" prev="i-c52107b06b9ef305-242" who="Q3373169">
+            <seg>
               Nu står vi inför ett val i Vitryssland. Då kommer naturligtvis
               omvärldens uppmärksamhet på Vitryssland att öka, men det innebär
               också det ser vi redan nu att förtryckets grepp hårdnar om oppositionen
               och om de små försök till fria medier som finns.
             </seg>
-            <seg n="c5e96682">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-246" prev="i-c52107b06b9ef305-242" who="Q3373169">
+            <seg>
               Därför är det så viktigt att uppmärksamma situationen för Internetanvändande
               och informationsspridningen på Internet. De är en liten del av
               oppositionens möjligheter att arbeta och sprida information. När
@@ -2386,14 +2798,18 @@
               som av regimen anses misshaglig är det naturligtvis djupt oroande
               och beklagligt.
             </seg>
-            <seg n="16c4b656">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-247" prev="i-c52107b06b9ef305-242" who="Q3373169">
+            <seg>
               Därför är det bra och viktigt med det arbete som sker inom EU.
               Där har man också pekat på den väg som utrikesministern tar upp
               i sitt svar, om att man ska granska sin egen medielagstiftning
               i förhållande till hur vi gör i resten av Europa. Det är bra,
               och det är viktigt att det arbetet fortsätter.
             </seg>
-            <seg n="6f88c45e">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-248" prev="i-c52107b06b9ef305-242" who="Q3373169">
+            <seg>
               Det finns dock saker som jag saknar i utrikesministerns svar.
               Det handlar exempelvis om arbetet i det Östliga partnerskapet
               och möjligheterna till parlamentariskt samarbete eller utbyte.
@@ -2402,11 +2818,11 @@
               någon idé om hur det skulle kunna gå till?
             </seg>
           </u>
-          <note type="speaker" n="0e05269c">
+          <note type="speaker">
             Anf. 38 Utrikesminister CARL BILDT (m):
           </note>
-          <u who="Q52922" xml:id="i-d2e36a0a959be3dc-15" n="6f19ca4b">
-            <seg n="0cadd1a2">
+          <u xml:id="i-c52107b06b9ef305-249" next="i-c52107b06b9ef305-257" who="Q52922">
+            <seg>
               Herr talman! Låt mig börja med att lite bortsett från det rutinartade
               tacka Kenneth G Forslund för interpellationen, för den har gett
               mig en möjlighet att ta upp dessa frågor. När jag för bara någon
@@ -2418,7 +2834,9 @@
               opinionen i den svenska riksdagen tycker om utvecklingen. Han
               noterade detta, så jag tackar för denna möjlighet.
             </seg>
-            <seg n="fa2d2601">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-250" prev="i-c52107b06b9ef305-249" who="Q52922">
+            <seg>
               Vi går nu in i ett läge där presidentvalet i Vitryssland kommer
               att börja dominera det politiska skedet. Jag tror att det är rätt
               som Kenneth Forslund säger, att en del av de åtstramningar som
@@ -2426,7 +2844,9 @@
               presidentvalet och den lilla osäkerhet som ett presidentval trots
               allt kommer att medföra.
             </seg>
-            <seg n="d6994bf7">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-251" prev="i-c52107b06b9ef305-249" who="Q52922">
+            <seg>
               Jag kan försäkra er om att vi kommer att följa varje del i utvecklingen
               mot detta presidentval med allra största uppmärksamhet. Det är
               inte bara Sverige. Det är också några andra länder. Jag skulle
@@ -2435,7 +2855,9 @@
               gäller att följa detta och se vad vi kan göra för att påverka
               utvecklingen.
             </seg>
-            <seg n="a34ea7ef">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-252" prev="i-c52107b06b9ef305-249" who="Q52922">
+            <seg>
               Vi har mycket tydligt fäst uppmärksamheten på inskränkningarna
               i Internet i den nya lagstiftningen. Sverige har tillsammans med
               Förenta staterna, framför allt, tagit den internationella ledningen
@@ -2444,7 +2866,9 @@
               är ett av de missförhållanden och de övertramp som vi har riktat
               det internationella strålkastarljuset mot.
             </seg>
-            <seg n="9ff534ea">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-253" prev="i-c52107b06b9ef305-249" who="Q52922">
+            <seg>
               Det är också viktigt att vi från den svenska riksdagen, alla
               politiska partier, med de respektive kontakter som jag vet att
               vi har i Vitryssland utnyttjar perioden fram till presidentvalet
@@ -2452,7 +2876,9 @@
               finns i detta Vitryssland. Vi måste se till att på olika sätt
               stärka deras möjligheter.
             </seg>
-            <seg n="161a55bc">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-254" prev="i-c52107b06b9ef305-249" who="Q52922">
+            <seg>
               Kenneth Forslund ställer en konkret fråga till mig som jag inte
               är alldeles säker på att jag för ögonblicket har det fullständiga
               svaret på. Det gäller de parlamentariska kontakterna inom ramen
@@ -2461,31 +2887,37 @@
               för där kan finnas krafter som kanske i ett längre perspektiv
               kan spela en något mer konstruktiv roll än vad de gör i dag.
             </seg>
-            <seg n="c9cace73">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-255" prev="i-c52107b06b9ef305-249" who="Q52922">
+            <seg>
               Här är lite av motsättningar mellan olika lösningar i fråga om
               hur man ska göra detta. Å ena sidan är det Europaparlamentet som
               vill spela en aktiv roll. Å andra sidan är det de 27 nationella
               parlamenten. Och det handlar om hur man ska ta med olika oberoende
               företrädare.
             </seg>
-            <seg n="b3e14e92">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-256" prev="i-c52107b06b9ef305-249" who="Q52922">
+            <seg>
               När jag var i beröring med frågan senast, för tre fyra veckor
               sedan, hade man inte nått någon överenskommelse mellan företrädare
               för de nationella parlamenten i de 27 staterna och Europaparlamentet
               om hur man skulle hantera den parlamentariska delen.
             </seg>
-            <seg n="cb12d884">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-257" prev="i-c52107b06b9ef305-249" who="Q52922">
+            <seg>
               Här vill vi från regeringssidan inte diktera någon lösning, utan
               jag ber att få hänvisa, för närmare information, till utrikesutskottets
               ordförande respektive vice ordförande som förmodligen vet mer
               än jag om just denna fråga.
             </seg>
           </u>
-          <note type="speaker" n="1990184c">
+          <note type="speaker">
             Anf. 39 KENNETH G FORSLUND (s):
           </note>
-          <u who="unknown" xml:id="i-46b2b6ebeaf97952-1" n="cba46dc6">
-            <seg n="23bd57e9">
+          <u xml:id="i-c52107b06b9ef305-258" next="i-c52107b06b9ef305-263" who="Q3373169">
+            <seg>
               Herr talman! Jag får tacka för den kompletterande upplysningen
               och svaret om den interparlamentariska dialogen. Det är bra att
               vi har en utrikesminister som är öppen för och ser behovet av
@@ -2493,7 +2925,9 @@
               vara ett kärt ämne i sådana här internationella sammanhang att
               diskutera länge innan det väl kommer på plats.
             </seg>
-            <seg n="8056e640">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-259" prev="i-c52107b06b9ef305-258" who="Q3373169">
+            <seg>
               Sedan finns det en annan dimension av detta. Och det är det har
               jag egen erfarenhet av svårigheten att över huvud taget få träffa
               de här parlamentarikerna i Vitryssland, av den enkla anledningen
@@ -2501,7 +2935,9 @@
               bli av som av olika skäl inte har blivit av. De har bokats av
               och bokats om och sedan bokats av igen och så vidare.
             </seg>
-            <seg n="35646f76">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-260" prev="i-c52107b06b9ef305-258" who="Q3373169">
+            <seg>
               Men jag tror att det är viktigt att vi ändå försöker att skapa
               de här kontaktytorna. Det blir nämligen en alternativ väg för
               information in i systemet. Sedan är det sannolikt en ganska blandad
@@ -2511,13 +2947,17 @@
               vara en del av lösningen i framtiden när det gäller att demokratisera
               Vitryssland.
             </seg>
-            <seg n="612d1c0f">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-261" prev="i-c52107b06b9ef305-258" who="Q3373169">
+            <seg>
               Givetvis måste var och en ställas till svars för sina handlingar,
               men vi ska inte heller utesluta att några av de här parlamentarikerna
               faktiskt kan finnas med i framtiden i ett demokratiskt Vitryssland
               och spela en viktig roll för att driva demokratiseringen framåt.
             </seg>
-            <seg n="238ee548">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-262" prev="i-c52107b06b9ef305-258" who="Q3373169">
+            <seg>
               Informationsfriheten och Internetfriheten ja, vi är överens om
               att det är oerhört väsentligt. Jag har en tanke. När man nu stänger
               möjligheter kanske ett av bidragen, som Sverige kan ge, kan vara
@@ -2531,23 +2971,27 @@
               och annat som gör att omvärlden kan ta del av det som faktiskt
               händer i Vitryssland.
             </seg>
-            <seg n="30618b47">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-263" prev="i-c52107b06b9ef305-258" who="Q3373169">
+            <seg>
               Har utrikesministern någon idé om hur Sverige skulle kunna bidra
               till en sådan, så att säga, säkring av informationsmöjligheterna?
               Det kan faktiskt rent av vara så att Sverige gör någonting redan
               i dag som har undgått mig det ska jag ärligt säga.
             </seg>
           </u>
-          <note type="speaker" n="b9e44e0f">
+          <note type="speaker">
             Anf. 40 Utrikesminister CARL BILDT (m):
           </note>
-          <u who="Q52922" xml:id="i-d2e36a0a959be3dc-16" n="6f19ca4b">
-            <seg n="47ea6979">
+          <u xml:id="i-c52107b06b9ef305-264" next="i-c52107b06b9ef305-272" who="Q52922">
+            <seg>
               Herr talman! Låt mig i denna del säga en sak: Erfarenheten från
               när man försöker begränsa Internet är väl, tack och lov, att det
               inte är alldeles lätt att göra det.
             </seg>
-            <seg n="93a5baf8">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-265" prev="i-c52107b06b9ef305-264" who="Q52922">
+            <seg>
               Jag vet att den möjlighet som Kenneth G Forslund antyder utnyttjas,
               det vill säga att information kan finnas på servrar som finns
               i andra länder. Det är kanske inte den svenska statens omedelbara
@@ -2556,38 +3000,50 @@
               ett av fallen förekommer sådan här verksamhet som då dessa står
               för.
             </seg>
-            <seg n="2bbf7558">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-266" prev="i-c52107b06b9ef305-264" who="Q52922">
+            <seg>
               Vi ger ett rätt brett stöd till olika typer av vitryska aktiviteter,
               och jag utgår från att denna typ av informationsförsörjning är
               ett naturligt och relativt billigt inslag i den typen av verksamhet.
               Jag kan nämna att det inte bara gäller Sverige, utan det finns
               också andra länder som är engagerade i detta.
             </seg>
-            <seg n="7c8cb868">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-267" prev="i-c52107b06b9ef305-264" who="Q52922">
+            <seg>
               Vi har också ett brett stöd när det gäller olika möjligheter
               att ge utbildning till unga människor från Vitryssland som av
               olika skäl förnekats rätten till en rimlig utbildning i sitt eget
               land.
             </seg>
-            <seg n="c53fbe26">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-268" prev="i-c52107b06b9ef305-264" who="Q52922">
+            <seg>
               Jag hoppas, som jag sade tidigare, att svenska parlamentariker,
               svenska politiska partier och svenska politiska partiers närstående
               politiska stiftelser ska utnyttja alla de möjligheter som finns
               när det gäller att bredda kontakten med Vitryssland.
             </seg>
-            <seg n="734d73fb">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-269" prev="i-c52107b06b9ef305-264" who="Q52922">
+            <seg>
               Jag delar Kenneth G Forslunds allmänna inställning, att breda
               kontaktytor in i olika delar av det vitryska samhället är betydelsefulla
               för att vi ska få ett bättre informationsunderlag men också för
               att vi ska kunna knyta kontakter och framföra de budskap som vi
               har med den bredd som kanske inte annars skulle vara möjlig.
             </seg>
-            <seg n="875b183a">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-270" prev="i-c52107b06b9ef305-264" who="Q52922">
+            <seg>
               Med detta tror jag att man kan säga att vi har en bred parlamentarisk
               uppbackning i Sverige, i riksdagen, men också europeiskt för att
               försöka verka för en förändring.
             </seg>
-            <seg n="79b5dcbd">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-271" prev="i-c52107b06b9ef305-264" who="Q52922">
+            <seg>
               Låt mig bara lägga till, även om det inte riktigt hör till frågan,
               att det möjligtvis är en upptrappning på gång av gaskonflikten
               mellan Ryssland och Vitryssland. Vi har ett spänt skede. President
@@ -2595,18 +3051,20 @@
               av leveranserna om inte Vitryssland från och med relativt nära
               i tiden liggande datum accepterar en icke oväsentligt höjd prisnivå.
             </seg>
-            <seg n="44cf4219">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-272" prev="i-c52107b06b9ef305-264" who="Q52922">
+            <seg>
               Det här ska ses i relation till andra konflikter som pågår inom
               det vida området. Det gäller inte minst den roll som Vitryssland
               nu har kommit att spela i krisen i Kirgizistan, som är någonting
               som upptar rätt mycket av vår uppmärksamhet just nu.
             </seg>
           </u>
-          <note type="speaker" n="9d352dad">
+          <note type="speaker">
             Anf. 41 KENNETH G FORSLUND (s):
           </note>
-          <u who="unknown" xml:id="i-46b2b6ebeaf97952-2" n="cba46dc6">
-            <seg n="28a767da">
+          <u xml:id="i-c52107b06b9ef305-273" next="i-c52107b06b9ef305-276" who="Q3373169">
+            <seg>
               Herr talman! Utrikesministern pekar på det ganska omfattande
               utbyte som sker och på de möjligheter som ges för studenter och
               ungdomar att komma till Sverige för att få utbildning. Det är
@@ -2615,7 +3073,9 @@
               lands demokratisering, att ha just den här typen av ungdoms- och
               studentutbyten.
             </seg>
-            <seg n="776f47ef">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-274" prev="i-c52107b06b9ef305-273" who="Q3373169">
+            <seg>
               Jag kan egentligen bara komplettera med att nämna ytterligare
               en sak som sker, förutom studentutbyten och ungdomsutbyten i allmänhet
               och de partipolitiska samarbetena i respektive parti och inne
@@ -2628,7 +3088,9 @@
               som förhoppningsvis rentav kan bli livslånga och säkerligen också
               bidra till en positiv utveckling långsiktigt.
             </seg>
-            <seg n="6e64161d">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-275" prev="i-c52107b06b9ef305-273" who="Q3373169">
+            <seg>
               Jag vill till slut bara uttrycka min uppskattning och konstatera
               att det är bra att vi delar ambitionen när det gäller hur vi vill
               se utvecklingen i Vitryssland i framtiden. Jag är inställd på
@@ -2638,15 +3100,17 @@
               systemet. Men historien visar ändå från andra delar av världen
               att det till slut kommer att gå.
             </seg>
-            <seg n="5fa9a0b0">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-276" prev="i-c52107b06b9ef305-273" who="Q3373169">
+            <seg>
               Avslutningsvis vill jag tacka utrikesministern för hans svar.
             </seg>
           </u>
-          <note type="speaker" n="b35e14cf">
+          <note type="speaker">
             Anf. 42 Utrikesminister CARL BILDT (m):
           </note>
-          <u who="Q52922" xml:id="i-d2e36a0a959be3dc-17" n="6f19ca4b">
-            <seg n="0533e7f6">
+          <u xml:id="i-c52107b06b9ef305-277" next="i-c52107b06b9ef305-278" who="Q52922">
+            <seg>
               Herr talman! Låt mig bara för protokollet och för fullständighetens
               skull jag tror att Kenneth G Forslund är väl medveten om detta
               säga att vi har ett rätt omfattande utvecklingssamarbete med Vitryssland.
@@ -2657,7 +3121,9 @@
               i den långsiktiga strävan att bredda kontaktytorna och förbereda
               en övergång till en rimligare samhällsutveckling.
             </seg>
-            <seg n="a4f6d263">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-278" prev="i-c52107b06b9ef305-277" who="Q52922">
+            <seg>
               Vi arbetar nu med fortsättningen av detta, och preliminärt kan
               jag säga att vi planerar för en icke oväsentlig höjning av volymen
               för de samlade svenska insatserna för att åstadkomma detta, ett
@@ -2665,30 +3131,34 @@
               för 90 miljoner kronor.
             </seg>
           </u>
-          <note n="a2b34168">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="08457a52">
+          <note>
             5 § Svar på interpellation 2009/10:465 om Sveriges agerande i
             fråga om nedrustning och icke-spridning
           </note>
-          <note type="speaker" n="98def381">
+          <note type="speaker">
             Anf. 43 Utrikesminister CARL BILDT (m):
           </note>
-          <u who="Q52922" xml:id="i-d2e36a0a959be3dc-18" n="6f19ca4b">
-            <seg n="e10f1857">
+          <u xml:id="i-c52107b06b9ef305-279" next="i-c52107b06b9ef305-290" who="Q52922">
+            <seg>
               Herr talman! Urban Ahlin har frågat mig vilka initiativ jag avser
               att driva som kan göra Sverige till en internationell kraft för
               nedrustning och icke-spridning.
             </seg>
-            <seg n="628bc6ab">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-280" prev="i-c52107b06b9ef305-279" who="Q52922">
+            <seg>
               Det torde vara de flesta väl bekant att vi under de senaste åren
               från svensk sida spelat en både framträdande och internationellt
               uppskattad roll i olika viktiga nedrustningsfrågor. Inte minst
               gäller detta de viktiga frågorna om de steg som kan tas mot en
               värld utan kärnvapen.
             </seg>
-            <seg n="dd46e0ef">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-281" prev="i-c52107b06b9ef305-279" who="Q52922">
+            <seg>
               Interpellanten har själv uppmärksammat att jag var den ende utrikesminister
               som inbjöds när den globala koalitionen Global Zero nyligen höll
               sitt viktiga möte i Paris. Detta var självfallet ett erkännande
@@ -2698,32 +3168,42 @@
               Washington nyligen. Såväl statsminister Reinfeldt som jag själv
               deltog för att understryka den vikt vi fäster vid frågan.
             </seg>
-            <seg n="48e67b0c">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-282" prev="i-c52107b06b9ef305-279" who="Q52922">
+            <seg>
               Jag tillhörde också de utrikesministrar som deltog i öppnandet
               av översynskonferensen för icke-spridningsavtalet i New York nyligen.
               Jag utgår från att det jag där sade är bekant och ser ingen anledning
               att upprepa det här.
             </seg>
-            <seg n="5feee972">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-283" prev="i-c52107b06b9ef305-279" who="Q52922">
+            <seg>
               Sverige spelade en aktiv roll för att möjliggöra att denna också
               resulterade i en överenskommelse, och arbetet med att se till
               att denna också förverkligas kommer att bli viktigt för oss under
               de kommande åren.
             </seg>
-            <seg n="52c3c99d">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-284" prev="i-c52107b06b9ef305-279" who="Q52922">
+            <seg>
               Speciell uppmärksamhet har vårt initiativ tillsammans med Polen
               om icke-strategiska så kallade taktiska kärnvapen fått. Det är
               nog ingen överdrift att säga att detta tillhör de allra mest uppmärksammade
               initiativen på detta område under de senaste åren. Även detta
               arbete kommer vi alldeles självklart att föra vidare.
             </seg>
-            <seg n="0d859e8c">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-285" prev="i-c52107b06b9ef305-279" who="Q52922">
+            <seg>
               Vi har i detta sammanhang också ett mer omedelbart eget intresse
               av att antalet kärnvapen i vår del av Europa fortsätter att reduceras.
               Ömsesidiga åtgärder av USA och Ryssland torde vara en förutsättning
               för att detta kan ske.
             </seg>
-            <seg n="2e3a72b4">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-286" prev="i-c52107b06b9ef305-279" who="Q52922">
+            <seg>
               Låt mig i det sammanhanget säga att jag är övertygad om att ensidiga
               krav enbart på USA att dra tillbaka militära baser från andra
               länder skulle riskera Sveriges trovärdighet och därmed också våra
@@ -2731,63 +3211,81 @@
               kärnvapen. De utmaningar vi står inför på dessa områden är många,
               och jag har mer utförligt berört dem i olika anföranden.
             </seg>
-            <seg n="36f140f0">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-287" prev="i-c52107b06b9ef305-279" who="Q52922">
+            <seg>
               Låt mig nämna Nordkorea, som har lämnat NPT-fördraget och genomfört
               två nukleära prov, liksom Iran, som ju inte lever upp till de
               internationella krav som ställts av främst FN:s säkerhetsråd.
               I det sammanhanget kommer vi också att ha anledning att ägna kraft
               åt frågan om kärnvapenfrihet i hela Mellanöstern.
             </seg>
-            <seg n="c6e54602">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-288" prev="i-c52107b06b9ef305-279" who="Q52922">
+            <seg>
               Viktigt blir också att fortsätta vårt arbete för en multilateralisering
               av kärnbränslecykeln. Nya initiativ kommer att förberedas på detta
               område.
             </seg>
-            <seg n="7fad21e3">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-289" prev="i-c52107b06b9ef305-279" who="Q52922">
+            <seg>
               Låt mig också nämna att vi självfallet kommer att ha anledning
               att ägna uppmärksamhet åt frågor om konventionell rustningskontroll
               i Europa. Jag ser framför mig att dessa frågor kommer att bli
               viktiga under de närmaste åren.
             </seg>
-            <seg n="253dfb6c">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-290" prev="i-c52107b06b9ef305-279" who="Q52922">
+            <seg>
               Att man lyssnar till Sveriges röst i dessa sammanhang har sin
               grund i att vår politik uppfattas som kompetent och kunnig, saklig
               och balanserad samt väl förankrad i en säkerhetspolitisk syn som
               är ansvarsfull och realistisk.
             </seg>
           </u>
-          <note type="speaker" n="29fca507">
+          <note type="speaker">
             Anf. 44 URBAN AHLIN (s):
           </note>
-          <u who="Q3369220" xml:id="i-76bfb1f5bfa2214b-0" n="a4b48f75">
-            <seg n="c7c071ac">
+          <u xml:id="i-c52107b06b9ef305-291" next="i-c52107b06b9ef305-301" who="Q3369220">
+            <seg>
               Herr talman! Jag ber att få tacka utrikesministern för svaret
               på min interpellation. Ibland är det faktiskt riktigt roligt att
               läsa de interpellationssvar som Carl Bildt har skrivit. Man får
               läsa dem ordentligt för att förstå vad de betyder.
             </seg>
-            <seg n="a0f772c9">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-292" prev="i-c52107b06b9ef305-291" who="Q3369220">
+            <seg>
               Till exempel: Det torde vara de flesta väl bekant att vi under
               de senaste åren från svensk sida spelat en framträdande roll i
               viktiga nedrustningsfrågor.
             </seg>
-            <seg n="05a4b5e7">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-293" prev="i-c52107b06b9ef305-291" who="Q3369220">
+            <seg>
               Jag tycker att det är lite talande att utrikesministern inte
               säger under mandatperioden eller under min tid som utrikesminister.
               Här handlar det om vi under de senaste åren.
             </seg>
-            <seg n="b50d005d">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-294" prev="i-c52107b06b9ef305-291" who="Q3369220">
+            <seg>
               Det är naturligtvis korrekt. Jan Eliasson har spelat en framträdande
               roll. Anna Lindh gjorde fantastiska insatser. Sverige blev känt
               genom den Blixkommission som lade fram ett antal förslag på hur
               vi skulle kunna åstadkomma nedrustning.
             </seg>
-            <seg n="15038b65">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-295" prev="i-c52107b06b9ef305-291" who="Q3369220">
+            <seg>
               Kritiken handlar ju om att den svenska regeringen har tystnat
               under den här mandatperioden. Det hade varit spännande att se
               vad som har åstadkommits under den här mandatperioden.
             </seg>
-            <seg n="ca3f3632">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-296" prev="i-c52107b06b9ef305-291" who="Q3369220">
+            <seg>
               Längre ned i svaret ser man att det står att Urban Ahlin har
               själv uppmärksammat att jag var den ende utrikesminister som inbjöds
               när den globala koalitionen Global Zero hade möte. Jag har uppmärksammat
@@ -2801,13 +3299,17 @@
               den svenska regeringen upp på Global Zeros viktiga målsättning?
               Du var ju själv där och tyckte att det var ett erkännande.
             </seg>
-            <seg n="373081a0">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-297" prev="i-c52107b06b9ef305-291" who="Q3369220">
+            <seg>
               Sedan tycker jag att det blir riktigt roligt när man vet sanningen.
               Såväl statsminister Reinfeldt som jag själv deltog för att understryka
               den vikt vi fäster vid frågan. Det var när ni deltog i Nuclear
               Security Summit som president Obama hade inbjudit till.
             </seg>
-            <seg n="19771428">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-298" prev="i-c52107b06b9ef305-291" who="Q3369220">
+            <seg>
               Vi har ju en del gemensamma vänner i Washington du och jag, Carl.
               Jag talade med en av organisatörerna av det här mötet. Hon var
               ganska irriterad över att Sverige hade meddelat att Fredrik Reinfeldt
@@ -2819,7 +3321,9 @@
               har tid att vara med hela tiden när vår president har det behöver
               han inte komma på middagen heller.
             </seg>
-            <seg n="0e00a43b">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-299" prev="i-c52107b06b9ef305-291" who="Q3369220">
+            <seg>
               Det vore lite kul att få reda på sanningen om detta, eftersom
               jag är ganska övertygad om att den person jag har talat med är
               mycket trustworthy, som de skulle säga over there. Men det är
@@ -2827,7 +3331,9 @@
               vid frågan. Jag vågar nog påstå att Reinfeldt tyckte att det var
               kul att vara där och gå på en middag.
             </seg>
-            <seg n="3f7ae084">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-300" prev="i-c52107b06b9ef305-291" who="Q3369220">
+            <seg>
               Vad sade ni sedan på Security Summit? Samma gemensamma vän i
               Washington var förvånad över att den svenska regeringen bara upprepade
               sådant som tidigare socialdemokratiska regeringar hade gjort för
@@ -2837,17 +3343,19 @@
               gjort, varav en del program dessutom har avslutats av den här
               regeringen.
             </seg>
-            <seg n="f62a4d80">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-301" prev="i-c52107b06b9ef305-291" who="Q3369220">
+            <seg>
               Det är kul när man läser interpellationssvaren från Carl Bildt.
               Man måste verkligen läsa noga för att se vad orden egentligen
               betyder. I nästa inlägg kommer jag att tala om klustervapen.
             </seg>
           </u>
-          <note type="speaker" n="cfe562aa">
+          <note type="speaker">
             Anf. 45 Utrikesminister CARL BILDT (m):
           </note>
-          <u who="Q52922" xml:id="i-d2e36a0a959be3dc-19" n="6f19ca4b">
-            <seg n="e9620c2e">
+          <u xml:id="i-c52107b06b9ef305-302" next="i-c52107b06b9ef305-305" who="Q52922">
+            <seg>
               Herr talman! Urban Ahlin ägnade huvuddelen av sitt anförande
               åt några rykten från Washington. Låt mig säga att detta förefaller
               att vara rappakalja som saknar varje grund och som jag inte tycker
@@ -2860,14 +3368,18 @@
               ned till nivåer som det rödgröna samarbetet borde förskonas från.
               Detta sagt som en första kommentar.
             </seg>
-            <seg n="b7d59b9f">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-303" prev="i-c52107b06b9ef305-302" who="Q52922">
+            <seg>
               Det är sant att vi på mötet i Washington talade till exempel
               om det polsk-svenska initiativet om taktiska kärnvapen. Det är
               nog det initiativ på nedrustningsområdet som jag anser har gjort
               mest från olika länders sida, som har haft starkast resonans i
               den internationella debatten under det senaste året.
             </seg>
-            <seg n="73227ca5">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-304" prev="i-c52107b06b9ef305-302" who="Q52922">
+            <seg>
               Det är alldeles riktigt att det fanns sådant som har funnits
               med tidigare. Urban Ahlin nämner det svenska arbetet för säkerheten
               i kärnkraftverk i de östra delarna av Europa. Om det vet jag åtskilligt
@@ -2876,16 +3388,18 @@
               olika socialdemokratiska regeringar. Det var bra. I vissa delar
               har arbetet avslutats, och i andra delar fortsätter vi.
             </seg>
-            <seg n="a36418b7">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-305" prev="i-c52107b06b9ef305-302" who="Q52922">
+            <seg>
               Jag skulle önska att diskussionen om dessa frågor kunde föras
               på en något högre nivå.
             </seg>
           </u>
-          <note type="speaker" n="ec400231">
+          <note type="speaker">
             Anf. 46 URBAN AHLIN (s):
           </note>
-          <u who="Q3369220" xml:id="i-76bfb1f5bfa2214b-1" n="a4b48f75">
-            <seg n="bc5f4ca7">
+          <u xml:id="i-c52107b06b9ef305-306" next="i-c52107b06b9ef305-312" who="Q3369220">
+            <seg>
               Herr talman! Det var tydligt att jag trampade på en öm tå för
               utrikesministern. Jag bara hänvisade till interpellationssvaret
               där Carl Bildt ägnar sig åt självskryt över hur han tycker att
@@ -2896,7 +3410,9 @@
               har funnits så stora och goda förutsättningar för Sverige att
               fortsätta att vara en ledande nedrustningsnation.
             </seg>
-            <seg n="e224ca26">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-307" prev="i-c52107b06b9ef305-306" who="Q3369220">
+            <seg>
               Låt mig återkomma till det område jag är extra nyfiken på, nämligen
               den klustervapenkonvention som nu har ratificerats och trätt i
               kraft. Det är naturligtvis inte tack vare den här regeringens
@@ -2904,7 +3420,9 @@
               förlöjliga det norska initiativet om en klustervapenkonvention,
               det vill säga något som skulle förbjuda klustervapen.
             </seg>
-            <seg n="f3e8ef4e">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-308" prev="i-c52107b06b9ef305-306" who="Q3369220">
+            <seg>
               Sverige tillhör inte de länder som ännu har ratificerat denna
               konvention. Lyckligtvis finns det tillräckligt många länder i
               världen som är lite snabbare och därmed har ratificerat konventionen
@@ -2915,20 +3433,24 @@
               Om man är så långsam och inte inser att man behöver vara ledande
               i arbetet får man väl ägna sig åt självskryt.
             </seg>
-            <seg n="7e51b027">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-309" prev="i-c52107b06b9ef305-306" who="Q3369220">
+            <seg>
               Det är intressant att Carl Bildt även i detta interpellationssvar
               inte nämner ett ord om Blixkommissionen. Carl Bildt har tagit
               för vana att inte ens i ord eller i text nämna Blixkommissionen.
               Det verkar som att Utrikesdepartementet inte ens har plats för
               Blixkommissionens böcker eftersom Utrikesdepartementet ringer
-              runt till olika organisationer i Helsingfors och undrar om det
-              finns någon som har plats för böckerna, Weapons of Terror , så
-              att de kan placeras någon annanstans eftersom de inte längre har
-              tid att ha dem. Det är väl ungefär det intresset som Carl Bildt
-              har visat för Hans Blix arbete i kommissionen. Det är konstigt
-              eftersom Blixkommissionen bestod av ledande företrädare på nedrustningsområdet.
+              runt till olika organisationer i Stockholm och undrar om det finns
+              någon som har plats för böckerna, Weapons of Terror , så att de
+              kan placeras någon annanstans eftersom de inte längre har tid
+              att ha dem. Det är väl ungefär det intresset som Carl Bildt har
+              visat för Hans Blix arbete i kommissionen. Det är konstigt eftersom
+              Blixkommissionen bestod av ledande företrädare på nedrustningsområdet.
             </seg>
-            <seg n="e4ba5d2b">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-310" prev="i-c52107b06b9ef305-306" who="Q3369220">
+            <seg>
               Det är mycket möjligt att det här är rappakalja. Jag får väl
               tala med en av de kvinnliga organisatörerna av Nuclear Security
               Summit. Det är intressant att jag får den bilden av andra personer
@@ -2936,12 +3458,16 @@
               påtalade stämmer. Ni har avslutat en del program för höganrikat
               uran och andra områden.
             </seg>
-            <seg n="deb199c6">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-311" prev="i-c52107b06b9ef305-306" who="Q3369220">
+            <seg>
               Vad var skälet till att du skrev under Global Zero? Var det i
               din personliga kapacitet? Vad har den svenska regeringen för hållning
               här?
             </seg>
-            <seg n="d6552ca5">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-312" prev="i-c52107b06b9ef305-306" who="Q3369220">
+            <seg>
               Sedan var det frågan om klustervapen. Vad är det som är så svårt
               i Sverige, när det är så lätt i Spanien, att inleda arbetet med
               destruktionen? Varför kan inte vi ratificera konventionen, som
@@ -2949,11 +3475,11 @@
               en liten vilja att vara ledande i nedrustningsarbetet.
             </seg>
           </u>
-          <note type="speaker" n="df70f7f1">
+          <note type="speaker">
             Anf. 47 Utrikesminister CARL BILDT (m):
           </note>
-          <u who="Q52922" xml:id="i-d2e36a0a959be3dc-20" n="6f19ca4b">
-            <seg n="ba58a5a0">
+          <u xml:id="i-c52107b06b9ef305-313" next="i-c52107b06b9ef305-316" who="Q52922">
+            <seg>
               Herr talman! Jag ska i frågan om vad som inträffade i Washington
               omedelbart se till att vi tar kontakt via amerikanska ambassaden
               med amerikanska utrikesdepartementet för att få reda på vilken
@@ -2962,13 +3488,17 @@
               tillhör inte vanligheten i sådana sammanhang att man ägnar sig
               åt sådant.
             </seg>
-            <seg n="19195c77">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-314" prev="i-c52107b06b9ef305-313" who="Q52922">
+            <seg>
               Men allmän ryktesspridning och allmänna insinuationer är tydligen
               det som Urban Ahlin finner vara mest fruktbärande som oppositionspolitiker.
               Jag har alltid ansett att det är lite billigt och småaktigt och
               säger mer om avsändaren än om mottagaren.
             </seg>
-            <seg n="f8afc2a1">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-315" prev="i-c52107b06b9ef305-313" who="Q52922">
+            <seg>
               Blixkommissionen lade fram, om jag inte missminner mig, ett hundratal
               olika förslag. Jag tror inte, och det tror inte Blixkommissionen
               heller, att det är något man antar som en paketlösning. Det är
@@ -2979,7 +3509,9 @@
               olika kommissioner, och deras olika förslag arbetar vi aktivt
               med.
             </seg>
-            <seg n="2a1b6fa6">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-316" prev="i-c52107b06b9ef305-313" who="Q52922">
+            <seg>
               Sedan har vi den eviga frågan om ratificeringen av konventionen
               mot klusterbomber. I den frågan har jag svarat på flera interpellationer
               och enkla frågor. Vad som är skillnaden mellan Sverige och Spanien
@@ -3000,11 +3532,11 @@
               åren 2000 och 2006.
             </seg>
           </u>
-          <note type="speaker" n="3a99595d">
+          <note type="speaker">
             Anf. 48 URBAN AHLIN (s):
           </note>
-          <u who="Q3369220" xml:id="i-76bfb1f5bfa2214b-2" n="a4b48f75">
-            <seg n="9d60d55c">
+          <u xml:id="i-c52107b06b9ef305-317" next="i-c52107b06b9ef305-322" who="Q3369220">
+            <seg>
               Herr talman! Skillnaden mellan Spanien och Sverige kanske är
               att Sverige är en rättsstat och Spanien inte är en rättsstat.
               Det lät i alla fall så på Carl Bildts inlägg. Jag må nog säga
@@ -3022,14 +3554,18 @@
               efter sig för att få den ratificerad. För mig ger detta en klar
               bild av att den här regeringen är ointresserad av nedrustningsfrågor.
             </seg>
-            <seg n="309d6f58">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-318" prev="i-c52107b06b9ef305-317" who="Q3369220">
+            <seg>
               Jag är glad över att du tar upp en del av det sextiotalet rekommendationer
               som Blixkommissionen lade fram i sin rapport. Det är alltid något.
               Jag delar naturligtvis uppfattningen att det inte var ett paket
               utan ett antal enskilda detaljer som kan användas för att driva
               utvecklingen framåt.
             </seg>
-            <seg n="3d458167">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-319" prev="i-c52107b06b9ef305-317" who="Q3369220">
+            <seg>
               Jag vill också ge utrikesministern stöd i en mycket viktig fråga
               som han tar upp, nämligen att vi måste ägna uppmärksamhet åt den
               konventionella rustningskontrollen i Europa. Där önskar jag att
@@ -3038,81 +3574,87 @@
               att få stor betydelse för hur frågorna kommer att hanteras på
               den europeiska kontinenten.
             </seg>
-            <seg n="f3855292">
+          </u>
+          <u xml:id="i-c52107b06b9ef305-320" prev="i-c52107b06b9ef305-317" who="Q3369220">
+            <seg>
               Herr talman! Jag vill till utrikesministern och andra rikta ett
               tack för en god debatt. Trevlig sommar, så ses vi i valrörelsen!
             </seg>
           </u>
-          <note n="a2b34168">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="38fae062">
+          <note>
             6 § Hänvisning av ärenden till utskott
           </note>
-          <note n="4bb38630">
+          <note>
             Föredrogs och hänvisades
           </note>
-          <note n="b0cf3156">
+          <note>
             7 § Anmälan om inkommen faktapromemoria om förslag från Europeiska
             kommissionen
           </note>
-          <note n="c6e9d8aa">
+          <note>
             Talmannen anmälde att följande faktapromemoria om förslag från
             Europeiska kommissionen inkommit och överlämnats till utskott:
           </note>
-          <note n="83dbac69">
+          <note>
             8 § Förnyad bordläggning
           </note>
-          <note n="fd70ef85">
+          <note>
             Föredrogs och bordlades åter
           </note>
-          <note n="15ffd4a7">
+          <note>
             9 § Bordläggning
           </note>
-          <note n="42c5d2c7">
+          <note>
             Anmäldes och bordlades
           </note>
-          <note n="482c1ffe">
+          <note>
             10 § Anmälan om frågor för skriftliga svar
           </note>
-          <note n="de6d82b6">
-            Anmäldes att följande frågor för skriftliga svar framställts
-          </note>
-          <note n="326febab">
+          <u xml:id="i-c52107b06b9ef305-321" prev="i-c52107b06b9ef305-317" who="Q3369220">
+            <seg>
+              Anmäldes att följande frågor för skriftliga svar framställts
+            </seg>
+          </u>
+          <note>
             den 18 juni
           </note>
-          <note n="cd454376">
+          <note>
             LiseLotte Olsson
           </note>
-          <note n="162249d0">
+          <note>
             Sven-Erik Österberg
           </note>
-          <note n="d350a64a">
+          <note>
             Per Åsling
           </note>
-          <note n="70dfbb15">
+          <note>
             Sinikka Bohlin
           </note>
-          <note n="4145f506">
+          <note>
             Karin Svensson Smith
           </note>
-          <note n="6b02a061">
+          <note>
             Christer Engelhardt
           </note>
-          <note n="2c7320d2">
+          <note>
             Per Bolund
           </note>
-          <note n="ab643c55">
+          <note>
             Frågorna redovisas i bilaga som fogats till riksdagens snabbprotokoll
             tisdagen den 22 juni.
           </note>
-          <note n="db27bc8a">
+          <note>
             11 § Kammaren åtskildes kl. 11.39.
           </note>
-          <note n="24e16120">
-            Förhandlingarna leddes
-          </note>
-          <note n="d1bdf5b9">
+          <u xml:id="i-c52107b06b9ef305-322" prev="i-c52107b06b9ef305-317" who="Q3369220">
+            <seg>
+              Förhandlingarna leddes
+            </seg>
+          </u>
+          <note>
             /Eva-Lena Ekman
           </note>
         </div>
