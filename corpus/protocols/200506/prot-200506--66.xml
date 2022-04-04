@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2005</title>
+        <title>Riksdagens protocols 200506</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2005</title>
+          <title>Riksdagens protocols 200506</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -63,39 +60,40 @@
       </front>
       <body>
         <div>
-          <note n="4fc70d86">
-            ﻿
-          </note>
-          <note n="5dfc47b4">
+          <note>
             Riksdagens protokoll
           </note>
-          <note n="f284e57a">
-            2005/06:66
-          </note>
-          <note type="date" n="8d6d0e29">
+          <u xml:id="i-18ac23bb06725206-0" who="unknown">
+            <seg>
+              2005/06:66
+            </seg>
+          </u>
+          <note>
             Torsdagen den 2 februari
           </note>
-          <note n="c02e86f8">
+          <note>
             Kl. 14:00 - 14:49
           </note>
-          <note n="60a6e31b">
+          <note>
             1 § Statsministerns frågestund
           </note>
-          <note n="c5690678" type="speaker">
+          <note type="speaker">
             Anf. 1 TREDJE VICE TALMANNEN:
           </note>
-          <note n="3da116de">
-            Vi ska ägna de närmaste 45 minuterna åt statsministerns frågestund
-            och hälsar statsministern välkommen.
-          </note>
-          <note n="97b2931d">
+          <u xml:id="i-18ac23bb06725206-1" who="unknown">
+            <seg>
+              Vi ska ägna de närmaste 45 minuterna åt statsministerns frågestund
+              och hälsar statsministern välkommen.
+            </seg>
+          </u>
+          <note>
             Djurtransporter
           </note>
-          <note type="speaker" n="0b205b52">
+          <note type="speaker">
             Anf. 2 MARIA WETTERSTRAND (mp):
           </note>
-          <u who="unknown" xml:id="i-bb3c504080f9c73e-0" n="a473d497">
-            <seg n="f7b9dcbb">
+          <u xml:id="i-18ac23bb06725206-2" next="i-18ac23bb06725206-4" who="Q444747">
+            <seg>
               Fru talman! Vi har sett i tv hur tiotusentals djur kor, får,
               grisar och kycklingar dör eller skadas allvarligt i transporter
               i Sverige. Det är faktiskt över 60 djur om dagen, i ett land som
@@ -103,7 +101,9 @@
               om stress och värme eller frakturer som gör att djuren dör eller
               måste avlivas. Det är ett plågsamt öde de går till mötes.
             </seg>
-            <seg n="57c6e83d">
+          </u>
+          <u xml:id="i-18ac23bb06725206-3" prev="i-18ac23bb06725206-2" who="Q444747">
+            <seg>
               Är statsministern beredd att förbättra tillsynen av transporterna,
               till exempel genom fler oanmälda kontroller, genom att se till
               att det finns ett lagkrav på att transportörerna är utbildade,
@@ -112,18 +112,20 @@
               och se till att polis och åklagare får resurser att prioritera
               de här ärendena högre än man gör i dag?
             </seg>
-            <seg n="af705a0b">
+          </u>
+          <u xml:id="i-18ac23bb06725206-4" prev="i-18ac23bb06725206-2" who="Q444747">
+            <seg>
               Från Miljöpartiets sida har vi lagt fram många förslag i den
               riktningen. En del har vi fått gehör för. Men det tycks som om
               vi måste göra mer för att djur ska behandlas som levande varelser
               och inte som vilka handelsvaror som helst.
             </seg>
           </u>
-          <note type="speaker" n="3f29fab2">
+          <note type="speaker">
             Anf. 3 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-ff9b31690c763acc-0" n="c506db2d">
-            <seg n="41714fbd">
+          <u xml:id="i-18ac23bb06725206-5" next="i-18ac23bb06725206-6" who="Q53747">
+            <seg>
               Fru talman! Det är viktiga frågor som Maria Wetterstrand tar
               upp. Man kan få intrycket att vi har en djurhälsa och en hantering
               av djur i Sverige som är undermålig. Jag vänder mig mot den beskrivningen.
@@ -131,7 +133,9 @@
               Vi har inte minst mycket engagerade jordbrukare vars arbete med
               de egna djuren präglas av stor respekt.
             </seg>
-            <seg n="fad82308">
+          </u>
+          <u xml:id="i-18ac23bb06725206-6" prev="i-18ac23bb06725206-5" who="Q53747">
+            <seg>
               Självklart kan det bli ännu bättre. Jag vill dock säga att ska
               man förbättra ytterligare, ta ett steg framåt, måste också den
               näring som föder upp djur och som förser livsmedelsindustrin med
@@ -141,11 +145,11 @@
               i Europa och världen på detta område.
             </seg>
           </u>
-          <note type="speaker" n="9c802f6d">
+          <note type="speaker">
             Anf. 4 MARIA WETTERSTRAND (mp):
           </note>
-          <u who="unknown" xml:id="i-bb3c504080f9c73e-1" n="a473d497">
-            <seg n="69c1832b">
+          <u xml:id="i-18ac23bb06725206-7" next="i-18ac23bb06725206-9" who="Q444747">
+            <seg>
               Fru talman! Vi är naturligtvis stolta över att vi har lyckats
               jobba fram en kraftig djurskyddslagstiftning, där Miljöpartiet
               hela tiden har varit en av de starkast pådrivande krafterna. Men
@@ -153,7 +157,9 @@
               här fallet. Det är egentligen inte så att lagkraven är för svaga,
               utom att man möjligen skulle behöva korta transporttiderna något.
             </seg>
-            <seg n="3e9e38e3">
+          </u>
+          <u xml:id="i-18ac23bb06725206-8" prev="i-18ac23bb06725206-7" who="Q444747">
+            <seg>
               Sedan skulle man behöva kunna slakta djuren närmare den plats
               de kommer ifrån, så att man slapp ha den här typen av väldigt
               långa transporter. Jag tror inte att det här är någonting som
@@ -161,38 +167,44 @@
               ska behandlas med respekt även när de går till slakt. Det är jag
               fullständigt övertygad om.
             </seg>
-            <seg n="4924764c">
+          </u>
+          <u xml:id="i-18ac23bb06725206-9" prev="i-18ac23bb06725206-7" who="Q444747">
+            <seg>
               Jag får väl tolka statsministerns svar som att han ändå är beredd
               att göra någonting i den här riktningen.
             </seg>
           </u>
-          <note type="speaker" n="e2e7928c">
+          <note type="speaker">
             Anf. 5 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-ff9b31690c763acc-1" n="c506db2d">
-            <seg n="2094f720">
+          <u xml:id="i-18ac23bb06725206-10" next="i-18ac23bb06725206-12" who="Q53747">
+            <seg>
               Fru talman! Jag är naturligtvis beredd att fortsätta diskutera
               en ytterligare förbättring av djurtillsynen och djurhälsan. Men
               jag vill göra det tillsammans med näringen. Det är dessutom en
               hårt pressad näring lönsamhetsmässigt. Det ska vi vara på det
               klara med.
             </seg>
-            <seg n="a8dd186a">
+          </u>
+          <u xml:id="i-18ac23bb06725206-11" prev="i-18ac23bb06725206-10" who="Q53747">
+            <seg>
               Jag tror inte att det finns en motsättning mellan god djurhälsa
               och god lönsamhet. Tvärtom tror jag att det är mycket lönsamt.
               Men strukturen på våra slakterier och våra transportavstånd kan
               vara sådana frågor som också har en ekonomisk sida som inte ska
               glömmas bort i sammanhanget.
             </seg>
-            <seg n="ae61ca8b">
+          </u>
+          <u xml:id="i-18ac23bb06725206-12" prev="i-18ac23bb06725206-10" who="Q53747">
+            <seg>
               Fastighetsskatten
             </seg>
           </u>
-          <note type="speaker" n="446e8277">
+          <note type="speaker">
             Anf. 6 FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-68b2d5d46a8f3519-0" n="9d784409">
-            <seg n="955cc8e1">
+          <u xml:id="i-18ac23bb06725206-13" next="i-18ac23bb06725206-14" who="Q52920">
+            <seg>
               Fru talman! Göran Persson gav ett tydligt besked under debatten
               i går: inga sänkta skatter under nästkommande mandatperiod. Därför
               var det intressant att läsa om Pär Nuder i Svenska Dagbladet i
@@ -202,18 +214,20 @@
               kunna bo kvar och att få lämna sitt hus. Det är ofta äldre som
               har sparat och amorterat ett helt liv.
             </seg>
-            <seg n="08668de4">
+          </u>
+          <u xml:id="i-18ac23bb06725206-14" prev="i-18ac23bb06725206-13" who="Q52920">
+            <seg>
               Därför är det viktigt att veta om de borgerliga partierna, den
               borgerliga alliansen, kan få stöd från socialdemokratin när det
               gäller lättnader med fastighetsskatten. Vad är det som gäller,
               Persson eller Nuder?
             </seg>
           </u>
-          <note type="speaker" n="bc7efca1">
+          <note type="speaker">
             Anf. 7 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-ff9b31690c763acc-2" n="c506db2d">
-            <seg n="45997d8f">
+          <u xml:id="i-18ac23bb06725206-15" next="i-18ac23bb06725206-17" who="Q53747">
+            <seg>
               Fru talman! Vi har aldrig dolt att vi kan tänka oss översyn av
               olika typer av skatter. Det gör vi ständigt, därför att vi vill
               ha ett skattesystem som fungerar och som är trovärdigt. Fastighetsskatten
@@ -221,34 +235,42 @@
               inget som helst intresse av att den till följd av kraftigt stigande
               fastighetspriser drar i väg.
             </seg>
-            <seg n="e3d113fe">
+          </u>
+          <u xml:id="i-18ac23bb06725206-16" prev="i-18ac23bb06725206-15" who="Q53747">
+            <seg>
               Den diskussionen och att göra den typen av justeringar är någonting
               helt annat än där Fredrik Reinfeldt befinner sig, med jättelika
               skattesänkningar i storleksordningen 250 miljarder kronor. Det
               är ambitionen. Det är där som avgrunden går i svensk politik.
             </seg>
-            <seg n="c006615b">
+          </u>
+          <u xml:id="i-18ac23bb06725206-17" prev="i-18ac23bb06725206-15" who="Q53747">
+            <seg>
               Vi är nu överens om att behålla fastighetsskatten. Jag tycker
               att det är bra att den borgerliga alliansen har sagt det så tydligt.
               Därför ska vi också se till att den fungerar och är relevant.
               I det reformarbetet vill vi säkert delta.
             </seg>
           </u>
-          <note type="speaker" n="b2cf2c4a">
+          <note type="speaker">
             Anf. 8 FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-68b2d5d46a8f3519-1" n="9d784409">
-            <seg n="ed301bb5">
+          <u xml:id="i-18ac23bb06725206-18" next="i-18ac23bb06725206-20" who="Q52920">
+            <seg>
               Fru talman! Det verkar som om de skattesänkningar vi verkligen
               föreslår inte räcker. Det måste på något sätt till en demonsiffra
               för att Socialdemokraterna ska visa upp glada miner.
             </seg>
-            <seg n="88462a60">
+          </u>
+          <u xml:id="i-18ac23bb06725206-19" prev="i-18ac23bb06725206-18" who="Q52920">
+            <seg>
               Nu var frågan huruvida det fanns en öppning för att sänka fastighetsskatten.
               Då noterade jag ord som översyn och att skatten skulle fungera.
               Det var skattebyråkraten som talade.
             </seg>
-            <seg n="fe0664c4">
+          </u>
+          <u xml:id="i-18ac23bb06725206-20" prev="i-18ac23bb06725206-18" who="Q52920">
+            <seg>
               Det är väl det besked som äldre och villaägare får från Göran
               Persson: Tolka nu inte Pär Nuder som att någon funderar på att
               sänka någon skatt. Det är Göran Perssons besked som gäller. Nästa
@@ -256,18 +278,20 @@
               av skattebyråkratiska skäl.
             </seg>
           </u>
-          <note type="speaker" n="0e07d9cc">
+          <note type="speaker">
             Anf. 9 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-ff9b31690c763acc-3" n="c506db2d">
-            <seg n="3c2c3094">
+          <u xml:id="i-18ac23bb06725206-21" next="i-18ac23bb06725206-24" who="Q53747">
+            <seg>
               Fru talman! Jag trodde att Fredrik Reinfeldt skulle låta sig
               provoceras lite. Jag pekar ändå på den verkligt stora förflyttning
               som Fredrik Reinfeldt har gjort i skattefrågan, nämligen att man
               ska behålla fastighetsskatten. Det är tydligen beskedet nu från
               den borgerliga alliansen.
             </seg>
-            <seg n="bf17a46d">
+          </u>
+          <u xml:id="i-18ac23bb06725206-22" prev="i-18ac23bb06725206-21" who="Q53747">
+            <seg>
               Vi har aldrig låtsats som om man kan ta bort fastighetsskatten.
               Däremot har vi ett intresse av att den ska fungera. Vi har ingen
               ambition eller någon vilja att människor med låga inkomster ska
@@ -275,22 +299,26 @@
               som ser till att folk med låga inkomster klarar fastighetsskatten.
               Behöver den förbättras ytterligare gör vi det.
             </seg>
-            <seg n="945344c2">
+          </u>
+          <u xml:id="i-18ac23bb06725206-23" prev="i-18ac23bb06725206-21" who="Q53747">
+            <seg>
               Vi kan nu konstatera att Moderaterna, Folkpartiet och andra borgerliga
               partier tycks vara med på att vi ska ha en fastighetsskatt också
               i framtiden. Det är bra. Men i ett annat inlägg, vid ett annat
               tillfälle, fördjupa dig gärna i den moderata visionen om 250 miljarder
               i skattesänkningar!
             </seg>
-            <seg n="6f2b930a">
+          </u>
+          <u xml:id="i-18ac23bb06725206-24" prev="i-18ac23bb06725206-21" who="Q53747">
+            <seg>
               Klassklyftor i skolan
             </seg>
           </u>
-          <note type="speaker" n="c1bd9994">
+          <note type="speaker">
             Anf. 10 LARS LEIJONBORG (fp):
           </note>
-          <u who="Q946818" xml:id="i-844b9a00f0b796c9-0" n="fff5077f">
-            <seg n="855f67c0">
+          <u xml:id="i-18ac23bb06725206-25" next="i-18ac23bb06725206-28" who="Q946818">
+            <seg>
               Fru talman! Det kommer rapporter om att klassklyftorna ökar i
               den svenska skolan. Förra veckan var det Skolverket, i morse var
               det Rädda Barnen. Det kan tyckas förvånande för en del, för skolministrarna
@@ -298,29 +326,35 @@
               förslag har allihop, Ylva Johansson, Ingegerd Wärnersson, Östros
               och Baylan, sagt samma sak: Vi ska inte ha en sorteringsskola.
             </seg>
-            <seg n="1cfc9913">
+          </u>
+          <u xml:id="i-18ac23bb06725206-26" prev="i-18ac23bb06725206-25" who="Q946818">
+            <seg>
               Men nu kommer vi allt längre och längre in i en sorteringsskola.
               De åtgärder som skulle vara verksamma får Socialdemokraterna allt
               svårare att genomföra. Ni gick till er partikongress och ville
               ha klartecken för en mer kunskapsinriktad skola med nationella
               prov i årskurs 3 men fick nej.
             </seg>
-            <seg n="3f472a98">
+          </u>
+          <u xml:id="i-18ac23bb06725206-27" prev="i-18ac23bb06725206-25" who="Q946818">
+            <seg>
               Ni har inte lyckats få igenom en ny skollag, som skulle kunna
               vara ett instrument för att få mer arbetsro i skolan. Antalet
               obehöriga ökar.
             </seg>
-            <seg n="7634d615">
+          </u>
+          <u xml:id="i-18ac23bb06725206-28" prev="i-18ac23bb06725206-25" who="Q946818">
+            <seg>
               Vad tänker ni göra mot detta? Har ni över huvud taget någon idé,
               eller ska det halvår som återstår tills vi kan få en ny regering
               vara en förlorad period?
             </seg>
           </u>
-          <note type="speaker" n="75d1897b">
+          <note type="speaker">
             Anf. 11 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-ff9b31690c763acc-4" n="c506db2d">
-            <seg n="2bc4cf84">
+          <u xml:id="i-18ac23bb06725206-29" next="i-18ac23bb06725206-30" who="Q53747">
+            <seg>
               Fru talman! Vi har tydligt sagt vad vi tror är det viktiga med
               skolan och skolpolitiken. Vi vill ha fler lärare i skolan. Vi
               vill ha fler vuxna i skolan. Vi har hela tiden vänt oss mot Folkpartiets
@@ -328,7 +362,9 @@
               upp. Men att ha hårdare tag som en bärande idé för en skolpolitik
               har vi aldrig trott på. Det är mycket svårare än så. Det är sammansatt.
             </seg>
-            <seg n="22b2b098">
+          </u>
+          <u xml:id="i-18ac23bb06725206-30" prev="i-18ac23bb06725206-29" who="Q53747">
+            <seg>
               Det är hundratusentals grabbar och tjejer som kommer till skolan
               varje dag. De ser olika ut. De måste bli sedda som de individer
               de är. Det är naturligtvis fråga om krav på kunskaper. Det är
@@ -338,17 +374,19 @@
               Det är där Folkpartiet har hamnat.
             </seg>
           </u>
-          <note type="speaker" n="d7b8d641">
+          <note type="speaker">
             Anf. 12 LARS LEIJONBORG (fp):
           </note>
-          <u who="Q946818" xml:id="i-844b9a00f0b796c9-1" n="fff5077f">
-            <seg n="6a879e0d">
+          <u xml:id="i-18ac23bb06725206-31" next="i-18ac23bb06725206-33" who="Q946818">
+            <seg>
               Fru talman! Applådera inte! Det är bara floskler. Hör ni inte
               det? Det kommer hundratusentals killar och tjejer till skolan
               varje dag, säger Göran Persson. Ja, men de blir färre därför att
               skolket ökar.
             </seg>
-            <seg n="96383057">
+          </u>
+          <u xml:id="i-18ac23bb06725206-32" prev="i-18ac23bb06725206-31" who="Q946818">
+            <seg>
               Det är den verkligheten vi måste se. Varje pojke och flicka ska
               bli sedd, säger Göran Persson. Ja, men undersökningarna visar
               att de inte blir sedda. Tiotusentals skulle behöva stöd. Utsatta
@@ -358,17 +396,19 @@
               har blivit gjort. Ordningssituationen försämras. Kunskapssituationen
               försämras. Vår regeringschef har bara floskler att komma med.
             </seg>
-            <seg n="b4bc1470">
+          </u>
+          <u xml:id="i-18ac23bb06725206-33" prev="i-18ac23bb06725206-31" who="Q946818">
+            <seg>
               Nu är det drygt ett halvår kvar tills vi kan få en ny regering.
               Uppenbarligen kommer det att bli en period utan reformer i den
               svenska skolan.
             </seg>
           </u>
-          <note type="speaker" n="b2a6783f">
+          <note type="speaker">
             Anf. 13 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-ff9b31690c763acc-5" n="c506db2d">
-            <seg n="7b894e5d">
+          <u xml:id="i-18ac23bb06725206-34" next="i-18ac23bb06725206-37" who="Q53747">
+            <seg>
               Fru talman! Lars Leijonborg är en av de märkligaste politiker
               jag har träffat. Han står och talar om floskler. Vad är det vi
               har gjort under de gångna åren? Det är 15 000 nya lärare i skolan.
@@ -376,7 +416,9 @@
               som vi har klarat tack vare att vi har ordnat med en bättre ekonomi.
               Ni har varit motståndare till detta.
             </seg>
-            <seg n="aaf2d93c">
+          </u>
+          <u xml:id="i-18ac23bb06725206-35" prev="i-18ac23bb06725206-34" who="Q53747">
+            <seg>
               För min del är det alldeles uppenbart att det är svårt att undervisa
               barn och ungdomar, Lars Leijonborg. Det kräver att man ser hela
               människan. Det kräver att det finns många lärare i skolan. Det
@@ -386,54 +428,66 @@
               typer av prov. De ska också till, men de är bara en del av det
               hela.
             </seg>
-            <seg n="550b09e7">
+          </u>
+          <u xml:id="i-18ac23bb06725206-36" prev="i-18ac23bb06725206-34" who="Q53747">
+            <seg>
               Svensk skola är på många sätt bra. Den ska bli ännu bättre men
               inte inom den väg som Folkpartiet anvisar. Det är inte en väg
               som är i överensstämmelse med de behov den svenska skolan har.
             </seg>
-            <seg n="5926861d">
+          </u>
+          <u xml:id="i-18ac23bb06725206-37" prev="i-18ac23bb06725206-34" who="Q53747">
+            <seg>
               Sysselsättningen
             </seg>
           </u>
-          <note type="speaker" n="62149822">
+          <note type="speaker">
             Anf. 14 GÖRAN HÄGGLUND (kd):
           </note>
-          <u who="Q918261" xml:id="i-dd98403690d27bd8-0" n="920a3f72">
-            <seg n="a06891cd">
+          <u xml:id="i-18ac23bb06725206-38" next="i-18ac23bb06725206-42" who="Q918261">
+            <seg>
               Fru talman! Jag kan inte låta bli att först säga ett ord om fastighetsskatten.
               Fastighetsskatten är en skatt som borde avskaffas omedelbart.
               Men det var inte det jag tänkte fråga om.
             </seg>
-            <seg n="8160b587">
+          </u>
+          <u xml:id="i-18ac23bb06725206-39" prev="i-18ac23bb06725206-38" who="Q918261">
+            <seg>
               Med anledning av gårdagens radiodebatt är det många som undrar
               om detta var allt. Var det Göran Perssons besked när han sade
               att det går bra för Sverige samtidigt som flera hundratusen svenskar
               står vid sidan om arbetsmarknaden? En uppgång i ekonomin ger självklart
               en del nya jobb åtminstone tillfälligt.
             </seg>
-            <seg n="a80ddbcf">
+          </u>
+          <u xml:id="i-18ac23bb06725206-40" prev="i-18ac23bb06725206-38" who="Q918261">
+            <seg>
               Men sedan? Krävs inga förändringar i vårt land för att få till
               stånd fler nya företag? Det är inga nya satsningar från regeringens
               sida. Är plusjobb det enda regeringen har att komma med? I så
               fall är det ynkligt.
             </seg>
-            <seg n="7b2e085d">
+          </u>
+          <u xml:id="i-18ac23bb06725206-41" prev="i-18ac23bb06725206-38" who="Q918261">
+            <seg>
               Lena Askling om Persson inte lyssnar på mig skriver i Aftonbladet
               i dag att debatten borde ha handlat mer om de nya jobb som är
               nödvändiga för att skatteinkomsterna ska räcka till anständiga
               välfärdssystem och hur de jobben ska skapas. Men hur går det om
               två år när konjunkturen faller?
             </seg>
-            <seg n="56f5a9f5">
+          </u>
+          <u xml:id="i-18ac23bb06725206-42" prev="i-18ac23bb06725206-38" who="Q918261">
+            <seg>
               Vilka svar har regeringen att ge? Svaren kan inte gärna vara
               att allt är bra och att vi ska lita på konjunkturen.
             </seg>
           </u>
-          <note type="speaker" n="6340e52d">
+          <note type="speaker">
             Anf. 15 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-ff9b31690c763acc-6" n="c506db2d">
-            <seg n="9aa58670">
+          <u xml:id="i-18ac23bb06725206-43" next="i-18ac23bb06725206-46" who="Q53747">
+            <seg>
               Fru talman! Vi har ingen annan konjunktur i Sverige än vad som
               finns i Europa i övrigt. Varför går det bättre för Sverige? Varför
               växer jobben till snabbare här än i andra länder? Det kan du väl
@@ -442,16 +496,22 @@
               sysselsättning och utveckling på ett bättre sätt än vad andra
               lyckas med när de utsätts för växlande konjunkturer.
             </seg>
-            <seg n="70b5929f">
+          </u>
+          <u xml:id="i-18ac23bb06725206-44" prev="i-18ac23bb06725206-43" who="Q53747">
+            <seg>
               Vi har högre sysselsättning, vi har lägre arbetslöshet och vi
               har samma konjunktur.
             </seg>
-            <seg n="7f2dfddd">
+          </u>
+          <u xml:id="i-18ac23bb06725206-45" prev="i-18ac23bb06725206-43" who="Q53747">
+            <seg>
               En förklaring till detta är att vi har ordning på vår ekonomi
               i Sverige. Vi har låga räntor. Vi har låg inflation. Vi har en
               skattepolitik som fungerar.
             </seg>
-            <seg n="9e3a6f37">
+          </u>
+          <u xml:id="i-18ac23bb06725206-46" prev="i-18ac23bb06725206-43" who="Q53747">
+            <seg>
               Nu är du nummer två i talarstolen från oppositionen. Redan där
               rasar ert ekonomisk-politiska alternativ ihop. Du vill inte ha
               en fastighetsskatt. Företrädaren Reinfeldt vill reformera den.
@@ -460,22 +520,26 @@
               tomhänta ni står.
             </seg>
           </u>
-          <note type="speaker" n="dcf8f369">
+          <note type="speaker">
             Anf. 16 GÖRAN HÄGGLUND (kd):
           </note>
-          <u who="Q918261" xml:id="i-dd98403690d27bd8-1" n="920a3f72">
-            <seg n="921ba570">
+          <u xml:id="i-18ac23bb06725206-47" next="i-18ac23bb06725206-50" who="Q918261">
+            <seg>
               Fru talman! Jag ber statsministern att läsa de förslag som finns.
               Han ska finna att vårt förslag när det gäller avskaffande av fastighetsskatten
               är finansierat till sista kronan.
             </seg>
-            <seg n="7f332d5f">
+          </u>
+          <u xml:id="i-18ac23bb06725206-48" prev="i-18ac23bb06725206-47" who="Q918261">
+            <seg>
               Mina frågor gällde de nya jobben. Hur ska det bli nya arbetsgivare
               i vårt land? Beskedet är fortfarande att allt är bra. Vi behöver
               inte ändra på någonting. Konjunkturen kommer att lösa detta åt
               oss.
             </seg>
-            <seg n="006500e0">
+          </u>
+          <u xml:id="i-18ac23bb06725206-49" prev="i-18ac23bb06725206-47" who="Q918261">
+            <seg>
               TCO säger att det behövs 30 000 nya jobb per år netto. Det är
               vad Sverige lyckas med under de allra bästa åren. Det här duger
               inte. Det behövs en ny politik där fler människor vågar ta steget
@@ -487,22 +551,26 @@
               kan tänkas. Detta skulle vara det klokaste! Vad säger du om alla
               andra förslag som regeringen driver?
             </seg>
-            <seg n="9670daf5">
+          </u>
+          <u xml:id="i-18ac23bb06725206-50" prev="i-18ac23bb06725206-47" who="Q918261">
+            <seg>
               Lägg i stället fram förslag som gör att man känner framtidstro,
               att man ser hoppet, att man vågar anställa och att man vågar starta
               företag. Det är en sådan förändrad politik Sverige behöver.
             </seg>
           </u>
-          <note type="speaker" n="b9395d29">
+          <note type="speaker">
             Anf. 17 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-ff9b31690c763acc-7" n="c506db2d">
-            <seg n="df22b0b1">
+          <u xml:id="i-18ac23bb06725206-51" next="i-18ac23bb06725206-54" who="Q53747">
+            <seg>
               Fru talman! Sjuktalen faller kraftigt. Häromdagen kunde jag redovisa
               hur företagen tjänar på att sjuktalen faller. Den reform vi har
               genomfört går i den riktning vi avsåg. Det är väl bra?
             </seg>
-            <seg n="d27b080a">
+          </u>
+          <u xml:id="i-18ac23bb06725206-52" prev="i-18ac23bb06725206-51" who="Q53747">
+            <seg>
               Vi kan också se hur Sverige klarar sig bättre än andra länder
               därför att vi satsar mer på utbildning än vad de gör. Vi satsar
               mer på forskning än vad de gör. Vi är ett land som är mer jämställt,
@@ -512,53 +580,65 @@
               som satsar på ett handslag, försvarar kollektivavtal och försvarar
               den svenska modellen.
             </seg>
-            <seg n="b8c06442">
+          </u>
+          <u xml:id="i-18ac23bb06725206-53" prev="i-18ac23bb06725206-51" who="Q53747">
+            <seg>
               Allt detta är ni i mer eller mindre stor utsträckning frågande
               inför. Jag blir återigen, fru talman, mycket förvånad när man
               börjar en debatt, som Göran Hägglund gör, med att direkt demonstrera
               att man inte är överens om fundamenten i den ekonomiska politiken.
             </seg>
-            <seg n="3990d8b1">
+          </u>
+          <u xml:id="i-18ac23bb06725206-54" prev="i-18ac23bb06725206-51" who="Q53747">
+            <seg>
               Sysselsättningen bland unga
             </seg>
           </u>
-          <note type="speaker" n="839bfa6f">
+          <note type="speaker">
             Anf. 18 MAUD OLOFSSON (c):
           </note>
-          <u who="Q253640" xml:id="i-96ffb62bf22c6cd8-0" n="d35deea9">
-            <seg n="1d741dfc">
+          <u xml:id="i-18ac23bb06725206-55" next="i-18ac23bb06725206-59" who="Q253640">
+            <seg>
               Fru talman! Svensk skola är bra, säger statsministern. Var femte
               elev går ur gymnasieskolan utan godkända betyg, och statsministern
               tycker att svensk skola är bra.
             </seg>
-            <seg n="58e6331d">
+          </u>
+          <u xml:id="i-18ac23bb06725206-56" prev="i-18ac23bb06725206-55" who="Q253640">
+            <seg>
               Det är många ungdomar som funderar i dag. Många mammor och pappor,
               farfäder och mormödrar, funderar: Vad ska det bli av våra ungdomar?
               Vad ska de göra?
             </seg>
-            <seg n="10432ce7">
+          </u>
+          <u xml:id="i-18ac23bb06725206-57" prev="i-18ac23bb06725206-55" who="Q253640">
+            <seg>
               11 % av ungdomarna mellan 16 och 24 år står i dag utanför arbetsmarknaden.
               Många ungdomar i dag studerar därför att de inte har annat att
               göra. Många funderar: Behövs inte jag i det svenska samhället?
             </seg>
-            <seg n="165d601d">
+          </u>
+          <u xml:id="i-18ac23bb06725206-58" prev="i-18ac23bb06725206-55" who="Q253640">
+            <seg>
               Som vuxen tycker jag att en av de viktigaste sakerna vi har att
               göra är att ge framtidstro och drömmar åt våra barn och ungdomar.
               Men vi ger dem inte den framtidstron i dag. Vi ställer dem utanför
               som förtidspensionerade eller som arbetslösa.
             </seg>
-            <seg n="3e8b23db">
+          </u>
+          <u xml:id="i-18ac23bb06725206-59" prev="i-18ac23bb06725206-55" who="Q253640">
+            <seg>
               Regeringen är tomhänt på löften och politik på området. Vad är
               ert program, statsministern, för att dessa ungdomar ska behövas
               i vårt samhälle, få permanenta jobb, komma in på arbetsmarknaden
               och visa upp sig? Vad är ert besked och era löften till de grupperna?
             </seg>
           </u>
-          <note type="speaker" n="b6b60b0e">
+          <note type="speaker">
             Anf. 19 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-ff9b31690c763acc-8" n="c506db2d">
-            <seg n="8d55c229">
+          <u xml:id="i-18ac23bb06725206-60" next="i-18ac23bb06725206-62" who="Q53747">
+            <seg>
               Fru talman! En lång rad insatser; alltifrån praktikplatser, över
               till olika typer av stöd till småföretagare som anställer sin
               första, över till olika typer av stimulanser till dem som anställer
@@ -571,75 +651,93 @@
               och att satsa på en god yrkesutbildning är att förbereda sig för
               en framtida arbetsmarknad.
             </seg>
-            <seg n="12b50494">
+          </u>
+          <u xml:id="i-18ac23bb06725206-61" prev="i-18ac23bb06725206-60" who="Q53747">
+            <seg>
               Om Maud Olofsson hade lyssnat ordentligt skulle hon ha hört att
               jag sade att allting inte är bra i den svenska skolan. Men det
               finns mycket som är gott och mycket som är bra. Jag är stolt över
               vad man presterar.
             </seg>
-            <seg n="8e9b290d">
+          </u>
+          <u xml:id="i-18ac23bb06725206-62" prev="i-18ac23bb06725206-60" who="Q53747">
+            <seg>
               Dessutom ska Maud Olofsson komma ihåg att väldigt mycket av den
               skola vi har nu har vi utformat tillsammans i Socialdemokraterna
               och Centern.
             </seg>
           </u>
-          <note type="speaker" n="2c9b7e1f">
+          <note type="speaker">
             Anf. 20 MAUD OLOFSSON (c):
           </note>
-          <u who="Q253640" xml:id="i-96ffb62bf22c6cd8-1" n="d35deea9">
-            <seg n="66cec581">
+          <u xml:id="i-18ac23bb06725206-63" next="i-18ac23bb06725206-68" who="Q253640">
+            <seg>
               Fru talman! Jag lyssnade mycket noga på vad statsministern sade.
               Statsministern sade uttryckligen: Svensk skola är bra. Det var
               med anledning av den fråga som Lars Leijonborg ställde. Men svensk
               skola kan inte vara bra om en femtedel av våra gymnasieungdomar
               går ut skolan utan godkända betyg.
             </seg>
-            <seg n="b8064cc7">
+          </u>
+          <u xml:id="i-18ac23bb06725206-64" prev="i-18ac23bb06725206-63" who="Q253640">
+            <seg>
               Statsministern har själv gått i skolan, kommer från arbetarklassen
               och vet vad det betyder med god utbildning. Men vi kan inte leverera
               det i dag. Vi har en gymnasieskola som sorterar bort många praktiskt
               lagda ungdomar därför att skolan är utformad som den är.
             </seg>
-            <seg n="406e6578">
+          </u>
+          <u xml:id="i-18ac23bb06725206-65" prev="i-18ac23bb06725206-63" who="Q253640">
+            <seg>
               Jag håller med om att vi har varit överens om det här. Men jag
               drar slutsatser av det här misslyckandet, och det gör inte statsministern.
             </seg>
-            <seg n="918484cd">
+          </u>
+          <u xml:id="i-18ac23bb06725206-66" prev="i-18ac23bb06725206-63" who="Q253640">
+            <seg>
               Vi slår i dag ut många ungdomar som är praktiskt lagda, som vill
               ha lärlingsutbildning och som vill ha yrkesutbildning därför att
               det ger dem en möjlighet att komma in på svensk arbetsmarknad.
               11 % av dem som är mellan 16 och 24 år står utanför. Många ungdomar
               blir i dag förtidspensionerade och ställs utanför arbetsmarknaden.
             </seg>
-            <seg n="82fe874e">
+          </u>
+          <u xml:id="i-18ac23bb06725206-67" prev="i-18ac23bb06725206-63" who="Q253640">
+            <seg>
               Statsministern tycker att det här är bra. Jag tycker att det
               är anmärkningsvärt.
             </seg>
-            <seg n="276a659e">
+          </u>
+          <u xml:id="i-18ac23bb06725206-68" prev="i-18ac23bb06725206-63" who="Q253640">
+            <seg>
               Men det kan också vara skäl för många föräldrar och många ungdomar
               att lyssna på vad statsministern säger. Han tycker att det här
               är bra, och han är nöjd. Det är väl ett viktigt besked inför årets
               val, att här finns ingenting mer att önska från Socialdemokraterna.
             </seg>
           </u>
-          <note type="speaker" n="dcc270c8">
+          <note type="speaker">
             Anf. 21 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-ff9b31690c763acc-9" n="c506db2d">
-            <seg n="d2415b09">
+          <u xml:id="i-18ac23bb06725206-69" next="i-18ac23bb06725206-73" who="Q53747">
+            <seg>
               Fru talman! På en punkt ger jag Maud Olofsson rätt. Jag har själv
               gjort en klassresa vad gäller utbildning. Jag kommer från en miljö
               där ingen tidigare ens hade någonting annat än sexårig folkskola.
               Jag har själv fått läsa vid högskolan. Jag är stolt över den samhällsförändringen.
             </seg>
-            <seg n="9037a03b">
+          </u>
+          <u xml:id="i-18ac23bb06725206-70" prev="i-18ac23bb06725206-69" who="Q53747">
+            <seg>
               Jag kan se nu, när vi har fått bygga ut högskolan vid små lärosäten,
               att det har resulterat i en stark social satsning. Vi är väl det
               enda land i världen där invandrarungdomar i samma utsträckning
               som de som är födda i landet går vidare till högre utbildning,
               tack vare högskoleutbyggnaden.
             </seg>
-            <seg n="ba3373e6">
+          </u>
+          <u xml:id="i-18ac23bb06725206-71" prev="i-18ac23bb06725206-69" who="Q53747">
+            <seg>
               Plötsligt börjar det här ifrågasättas av Centerpartiet, som säger
               att det finns en motsättning mellan detta och satsningen på yrkesutbildningarna.
               Det är fel. Vi ska orka satsa på yrkesutbildningen också. Jag
@@ -647,7 +745,9 @@
               håller uppe de höga ambitionerna att fortsätta att låta högskolan
               växa därför att ungdomskullarna växer.
             </seg>
-            <seg n="5a9e0a2f">
+          </u>
+          <u xml:id="i-18ac23bb06725206-72" prev="i-18ac23bb06725206-69" who="Q53747">
+            <seg>
               För vår del är det viktigt att säga att god utbildning i grundskolan
               och bra gymnasieskolor är självklarheter det ska vi hela tiden
               sträva mot. Men vi ska aldrig någonsin ta problem i dessa verksamheter
@@ -655,56 +755,68 @@
               största klassutjämnare som har varit i modern tid är satsningen
               på högskoleutbyggnaden. Den var vi överens om.
             </seg>
-            <seg n="2453fa17">
+          </u>
+          <u xml:id="i-18ac23bb06725206-73" prev="i-18ac23bb06725206-69" who="Q53747">
+            <seg>
               Polisens och militärens befogenheter
             </seg>
           </u>
-          <note type="speaker" n="fe7d67ea">
+          <note type="speaker">
             Anf. 22 ALICE ÅSTRÖM (v):
           </note>
-          <u who="Q4354173" xml:id="i-fb70f17772aa36b5-0" n="c6753697">
-            <seg n="e3811ba3">
+          <u xml:id="i-18ac23bb06725206-74" next="i-18ac23bb06725206-78" who="Q4354173">
+            <seg>
               Fru talman! Statsministern, och även andra, talar ofta om att
               Vänsterpartiet bör lära sig av historien. Men frågan är om inte
               andra och även Socialdemokraterna borde tänka lite mer på ämnet:
               Har man lärt sig någonting av historien?
             </seg>
-            <seg n="e1974e9e">
+          </u>
+          <u xml:id="i-18ac23bb06725206-75" prev="i-18ac23bb06725206-74" who="Q4354173">
+            <seg>
               Jag skulle kunna tala om övervakning, kontroll av medborgarna,
               angiverisystem. Jag skulle kunna prata om många lagförslag som
               inskränker den personliga integriteten och ökar statens kontroll
               av medborgarna. Men jag ska koncentrera mig på frågan om polisens
               och militärens skilda roller.
             </seg>
-            <seg n="e48d3779">
+          </u>
+          <u xml:id="i-18ac23bb06725206-76" prev="i-18ac23bb06725206-74" who="Q4354173">
+            <seg>
               I Ådalen 1931 använde militären våld mot civila, och efter den
               upprörande händelsen fastlade vi en princip: Det är endast polis
               som ska få använda våld mot civila i fredstid, och militär ska
               bara få användas i krigstid.
             </seg>
-            <seg n="1120228d">
+          </u>
+          <u xml:id="i-18ac23bb06725206-77" prev="i-18ac23bb06725206-74" who="Q4354173">
+            <seg>
               Nu föreslår regeringen att denna ordning ska luckras upp. Redan
               i dag kan polisen ta hjälp av militär, av militär materiel och
               personal vid behov. Men nu vill regeringen att militären även
               ska få använda våld mot civila i vissa situationer.
             </seg>
-            <seg n="c09ae315">
+          </u>
+          <u xml:id="i-18ac23bb06725206-78" prev="i-18ac23bb06725206-74" who="Q4354173">
+            <seg>
               Tycker inte statsministern att principen om polisens och militärens
               skilda uppgifter är en god princip? Tycker inte statsministern
               att det fortfarande finns någonting att lära av händelsen i Ådalen
               1931?
             </seg>
           </u>
-          <note type="speaker" n="6a84ee51">
+          <note type="speaker">
             Anf. 23 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-ff9b31690c763acc-10" n="c506db2d">
-            <seg n="91c85f73">
+          <u xml:id="i-18ac23bb06725206-79" next="i-18ac23bb06725206-82" who="Q53747">
+            <seg>
               Fru talman! Jo, det gör det. Den lagrådsremiss vi går med i dag
               som handlar om de här sakerna gör mycket klart att militär inte
               får användas i Sverige i sådana sammanhang.
             </seg>
-            <seg n="5e26fdf2">
+          </u>
+          <u xml:id="i-18ac23bb06725206-80" prev="i-18ac23bb06725206-79" who="Q53747">
+            <seg>
               Däremot ser Sverige, eller kanske framför allt världen, annorlunda
               ut i dag än 1931. Vi har fått nya hot. I dag går vi inte runt
               och fruktar någon storskalig invasion av ett annat lands militär.
@@ -715,21 +827,25 @@
               i ett sådant läge? Vi har nog den möjligheten redan nu, skulle
               jag tro, med den nödvärnsrätt som finns.
             </seg>
-            <seg n="db49f886">
+          </u>
+          <u xml:id="i-18ac23bb06725206-81" prev="i-18ac23bb06725206-79" who="Q53747">
+            <seg>
               För att klara ut det här regelverket, dra gränslinjerna tydligt,
               se till att det är under polisens befäl och att de som agerar
               i dessa sammanhang har polismans befogenheter går vi med lagrådremissen.
             </seg>
-            <seg n="e88e6e07">
+          </u>
+          <u xml:id="i-18ac23bb06725206-82" prev="i-18ac23bb06725206-79" who="Q53747">
+            <seg>
               Vi lever i en ny tid. Vi vägleds i regelverket av erfarenheterna
               från 1931. Det kan jag försäkra Alice Åström.
             </seg>
           </u>
-          <note type="speaker" n="8952629c">
+          <note type="speaker">
             Anf. 24 ALICE ÅSTRÖM (v):
           </note>
-          <u who="Q4354173" xml:id="i-fb70f17772aa36b5-1" n="c6753697">
-            <seg n="95570f04">
+          <u xml:id="i-18ac23bb06725206-83" next="i-18ac23bb06725206-84" who="Q4354173">
+            <seg>
               Fru talman! Statsministern sade att vi lever i en ny tid, att
               hoten ser annorlunda ut och att terrorism är ett av de områden
               där hoten finns. Men ser inte statsministern faran? Där tycker
@@ -741,7 +857,9 @@
               som inte är acceptabla och som kränker de mänskliga rättigheterna.
               Ser inte statsministern en risk?
             </seg>
-            <seg n="d5bde04e">
+          </u>
+          <u xml:id="i-18ac23bb06725206-84" prev="i-18ac23bb06725206-83" who="Q4354173">
+            <seg>
               När nu till och med Sverige, som så noga betonat kampen mot terrorism
               och inte kriget mot terrorism, öppnar upp för att kunna använda
               militär i kampen mot terrorism har vi slagit in på en väg där
@@ -749,17 +867,19 @@
               och hoten snarare än minskar dem?
             </seg>
           </u>
-          <note type="speaker" n="bec916f3">
+          <note type="speaker">
             Anf. 25 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-ff9b31690c763acc-11" n="c506db2d">
-            <seg n="e979dddf">
+          <u xml:id="i-18ac23bb06725206-85" next="i-18ac23bb06725206-88" who="Q53747">
+            <seg>
               Fru talman! Det här är ingen enkel diskussion, och vi har naturligtvis
               berett det mycket noga. Det är viktigt för oss att vi har tydliga
               regelverk och inte bara lutar oss mot något slags allmän nödvärnsrätt
               som kan tillgripas i sådana här lägen.
             </seg>
-            <seg n="5cf8d3a1">
+          </u>
+          <u xml:id="i-18ac23bb06725206-86" prev="i-18ac23bb06725206-85" who="Q53747">
+            <seg>
               Parallellerna med USA är naturligtvis helt oegentliga. Men det
               är klart att det vi gör nu sker i skuggan av en världsutveckling
               där amerikanerna är ohyggligt stora. Tidigare hade militären en
@@ -767,7 +887,9 @@
               läge då Sovjetunionen i vår närhet hade motsvarande avgörande
               betydelse för hur vi tänkte, för att skydda oss, Alice Åström.
             </seg>
-            <seg n="ad561b43">
+          </u>
+          <u xml:id="i-18ac23bb06725206-87" prev="i-18ac23bb06725206-85" who="Q53747">
+            <seg>
               Det är en regerings uppgift att se till att det svenska folket
               skyddas i händelse av en storskalig terroristattack, precis som
               det en gång i tiden var svenska regeringens uppgift att se till
@@ -776,23 +898,29 @@
               och då måste vi ha en organisation som kan hantera detta. Men
               det är polisens ansvar, inte militärens.
             </seg>
-            <seg n="9cd170d4">
+          </u>
+          <u xml:id="i-18ac23bb06725206-88" prev="i-18ac23bb06725206-85" who="Q53747">
+            <seg>
               Energitorv
             </seg>
           </u>
-          <note type="speaker" n="70af9989">
+          <note type="speaker">
             Anf. 26 HÅKAN LARSSON (c):
           </note>
-          <u who="Q5937692" xml:id="i-15382df7b606eb36-0" n="c1d50249">
-            <seg n="3d086279">
+          <u xml:id="i-18ac23bb06725206-89" next="i-18ac23bb06725206-92" who="Q5937692">
+            <seg>
               Fru talman! Jag tänkte ta upp energitorvens framtid.
             </seg>
-            <seg n="72cd9f85">
+          </u>
+          <u xml:id="i-18ac23bb06725206-90" prev="i-18ac23bb06725206-89" who="Q5937692">
+            <seg>
               För två år sedan betecknades torven som en förnybar energikälla
               och tilldelades därför gröna elcertifikat. Det var väldigt positivt.
               Torvproduktionen ökade och bidrog till energiomställningen.
             </seg>
-            <seg n="3e235cf5">
+          </u>
+          <u xml:id="i-18ac23bb06725206-91" prev="i-18ac23bb06725206-89" who="Q5937692">
+            <seg>
               Förra året klassificerades emellertid samma torv som en fossil
               energikälla och tvingades in i handeln med utsläppsrätter. Det
               är en ohållbar dubbelbeteckning. Det var ett hårt slag mot hela
@@ -801,7 +929,9 @@
               torvbranschens framtid. Energitorven riskerar därför att slås
               ut ur energisystemet inom några år om ingenting görs.
             </seg>
-            <seg n="51077dbb">
+          </u>
+          <u xml:id="i-18ac23bb06725206-92" prev="i-18ac23bb06725206-89" who="Q5937692">
+            <seg>
               Jag vill fråga statsministern: Vad tänker du göra för att hindra
               att en bransch slås ut som sysselsätter hundratals personer i
               glesbygdskommuner i Härjedalen och Hälsingland? Det är en bransch
@@ -809,18 +939,18 @@
               betyder mycket ekonomiskt, sysselsättningsmässigt och miljömässigt.
             </seg>
           </u>
-          <note type="speaker" n="8c29f624">
+          <note type="speaker">
             Anf. 27 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-ff9b31690c763acc-12" n="c506db2d">
-            <seg n="a5ed6f84">
+          <u xml:id="i-18ac23bb06725206-93" who="Q53747">
+            <seg>
               Fru talman! Torven är en av de saker som vi diskuterar i den
               så kallade oljekommissionen. Torven har motsägelsefulla egenskaper.
               Det är alldeles uppenbart. I internationella sammanhang är det
               klassat som fossilt. Det måste vi förstå. Vi är varma anhängare
               av att begränsa utsläppen. Det har Centerpartiet också varit.
               Man kan säga som Håkan Larsson att det här skadar sysselsättningen
-              i glesbygd. Det är uppenbart att torv inte bryts i Helsingfors.
+              i glesbygd. Det är uppenbart att torv inte bryts i Stockholm.
               Det är på andra ställen i Sverige, och det har en sysselsättningseffekt.
               Men hela den satsning jag och regeringen står bakom har inriktningen
               att ersätta importerat fossilt bränsle med inhemskt producerat.
@@ -830,15 +960,15 @@
               Men jag nekar inte till att torvproduktionen är i ett besvärligt
               läge.
             </seg>
-            <seg n="01ed7e2d">
-              Rysk-svensk militärövning
-            </seg>
           </u>
-          <note type="speaker" n="ab77d3e8">
+          <note>
+            Rysk-svensk militärövning
+          </note>
+          <note type="speaker">
             Anf. 28 ANA MARIA NARTI (fp):
           </note>
-          <u who="Q4750415" xml:id="i-aae34721be64a33b-0" n="dbde32f8">
-            <seg n="7283077b">
+          <u xml:id="i-18ac23bb06725206-94" who="Q4750415">
+            <seg>
               Fru talman! De senaste dagarna har vi hört talas om en rysk-svensk
               militärövning och om en hög militär ledare från Ryssland som är
               misstänkt för krigsbrott. Denna militära ledare kunde inte på
@@ -846,11 +976,11 @@
               i Sverige. Jag skulle vilja att statsministern kommenterar detta.
             </seg>
           </u>
-          <note type="speaker" n="03df7e26">
+          <note type="speaker">
             Anf. 29 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-ff9b31690c763acc-13" n="c506db2d">
-            <seg n="530fcc66">
+          <u xml:id="i-18ac23bb06725206-95" who="Q53747">
+            <seg>
               Fru talman! Den person som har diskuterats och i vilken utsträckning
               han har begått något brott har jag ingen som helst anledning att
               värdera. Det är upp till polisen att göra. Om vederbörande omfattas
@@ -863,14 +993,14 @@
               agera. Det är inte regeringens sak.
             </seg>
           </u>
-          <note n="a13c1673">
+          <note>
             Lokalisering av Vattenfalls administration
           </note>
-          <note type="speaker" n="8d50b5ce">
+          <note type="speaker">
             Anf. 30 ERLING WÄLIVAARA (kd):
           </note>
-          <u who="Q4605902" xml:id="i-594391f4b8797a6f-0" n="0e951b8b">
-            <seg n="ec5f6656">
+          <u xml:id="i-18ac23bb06725206-96" next="i-18ac23bb06725206-97" who="Q4605902">
+            <seg>
               Fru talman! Statsministern har väldigt ofta sagt: Hela landet
               ska leva. Jag har ingen som helst anledning att betvivla statsministerns
               goda vilja att hela landet verkligen ska leva. Nu har helstatliga
@@ -878,7 +1008,9 @@
               Det är ett beslut som innebär att Norrbottenskommunen Jokkmokk
               går miste om ca 90 jobb.
             </seg>
-            <seg n="18af3d05">
+          </u>
+          <u xml:id="i-18ac23bb06725206-97" prev="i-18ac23bb06725206-96" who="Q4605902">
+            <seg>
               Min fråga till statsministern blir: Vilket ansvar har helstatliga
               Vattenfall för att hela landet ska leva, och vilket ansvar vilar
               på regeringen att ett helstatligt bolag inte förvärrar situationen
@@ -886,11 +1018,11 @@
               10 %?
             </seg>
           </u>
-          <note type="speaker" n="884c64c1">
+          <note type="speaker">
             Anf. 31 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-ff9b31690c763acc-14" n="c506db2d">
-            <seg n="e7548cfb">
+          <u xml:id="i-18ac23bb06725206-98" who="Q53747">
+            <seg>
               Fru talman! Dessa företag ska ta den typen av hänsyn i rimlig
               grad. Om vi upplever att de missköter sig grovt har vi naturligtvis
               möjligheten att kommunicera med bolagets styrelse, och så får
@@ -903,22 +1035,22 @@
               oss mot detta.
             </seg>
           </u>
-          <note type="speaker" n="f627f7af">
+          <note type="speaker">
             Anf. 32 ERLING WÄLIVAARA (kd):
           </note>
-          <u who="Q4605902" xml:id="i-594391f4b8797a6f-1" n="0e951b8b">
-            <seg n="bcfdfdf2">
+          <u xml:id="i-18ac23bb06725206-99" who="Q4605902">
+            <seg>
               Fru talman! Jag vill upplysa statsministern om att han har totalt
               fel. På Kristdemokraternas försäljningslista har vi inte ens andats
               om att LKAB skulle säljas ut. LKAB och Vattenfall är två företag
               som ska behållas i statlig ägo.
             </seg>
           </u>
-          <note type="speaker" n="78b7d408">
+          <note type="speaker">
             Anf. 33 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-ff9b31690c763acc-15" n="c506db2d">
-            <seg n="1efa821c">
+          <u xml:id="i-18ac23bb06725206-100" next="i-18ac23bb06725206-101" who="Q53747">
+            <seg>
               Fru talman! Det är väldigt bra att Erling Wälivaara är så här
               tydlig. Men det vore också bra om hans partiledning följde upp
               det hela. Då vore det bra om det som sägs stämmer med vad som
@@ -931,18 +1063,20 @@
               en del andra statliga företag dessutom. De äger vi tillsammans.
               Låt oss inte lämna ut detta till krämarnas marknad!
             </seg>
-            <seg n="644fe33a">
-              (Applåder)
-            </seg>
-            <seg n="5b34d387">
+          </u>
+          <note>
+            (Applåder)
+          </note>
+          <u xml:id="i-18ac23bb06725206-101" prev="i-18ac23bb06725206-100" who="Q53747">
+            <seg>
               Löften om skattesänkningar
             </seg>
           </u>
-          <note type="speaker" n="71815186">
+          <note type="speaker">
             Anf. 34 CATHARINA BRÅKENHIELM (s):
           </note>
-          <u who="Q3363818" xml:id="i-8774ab2a9ab781e8-0" n="524225ce">
-            <seg n="360443d9">
+          <u xml:id="i-18ac23bb06725206-102" who="Q3363818">
+            <seg>
               Fru talman! Jag har med spänning lyssnat på radiodebatten som
               var i går mellan statsministern och Fredrik Reinfeldt. När man
               kom in på området skatter uppstod det en del frågetecken för mig
@@ -953,11 +1087,11 @@
               kommer de här uppgifterna?
             </seg>
           </u>
-          <note type="speaker" n="170dee08">
+          <note type="speaker">
             Anf. 35 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-b82d6740e71b8869-0" n="c506db2d">
-            <seg n="a553de48">
+          <u xml:id="i-18ac23bb06725206-103" next="i-18ac23bb06725206-104" who="Q53747">
+            <seg>
               Fru talman! Som av en händelse har jag ett citat som ligger framför
               mig. I en tidning som heter Svenskar i världen som kom ut våren
               2005 säger Fredrik Reinfeldt att han vill ha ned det totala skattetrycket
@@ -965,7 +1099,9 @@
               i EU som ligger på dryga 40 %. Jag tycker inte att Sverige ska
               ligga högre än genomsnittet i Europa, säger Fredrik Reinfeldt.
             </seg>
-            <seg n="085541eb">
+          </u>
+          <u xml:id="i-18ac23bb06725206-104" prev="i-18ac23bb06725206-103" who="Q53747">
+            <seg>
               Genomsnittsambitionen kan vara ett mål för någon att sträva mot.
               Maud Olofsson har sagt samma sak i tidningen Sunt förnuft, Mats
               Odell har sagt samma sak på ett skatteseminarium som Timbro har
@@ -976,37 +1112,43 @@
               se till så att det avslöjas.
             </seg>
           </u>
-          <note n="b4a309c4" type="speaker">
+          <note type="speaker">
             Anf. 36 TREDJE VICE TALMANNEN:
           </note>
-          <u who="unknown" xml:id="i-156e363ac2e2e06f-0" n="c506db2d">
-            <seg n="1e89d745">
+          <u xml:id="i-18ac23bb06725206-105" who="unknown">
+            <seg>
               Eftersom statsministern och Catharina Bråkenhielm går in på Moderaternas
               politik ger jag Henrik von Sydow möjlighet att både ställa en
               fråga och kommentera detta inlägg.
             </seg>
-            <seg n="bdc58fec">
+          </u>
+          <u xml:id="i-18ac23bb06725206-106" who="unknown">
+            <seg>
               Den svenska utnämningspolitiken
             </seg>
           </u>
-          <note type="speaker" n="747aa8dd">
+          <note type="speaker">
             Anf. 37 HENRIK VON SYDOW (m):
           </note>
-          <u who="Q5716610" xml:id="i-22fd433b103d4a46-0" n="707e7ccf">
-            <seg n="88e576d1">
+          <u xml:id="i-18ac23bb06725206-107" next="i-18ac23bb06725206-110" who="Q5716610">
+            <seg>
               Fru talman! Det är mycket märkligt att en socialdemokratisk riksdagsledamot
               ställer frågor om Moderaternas politik till statsminister Göran
               Persson. Det är en mycket märklig ordning här i den kammare som
               ska vara riksdagens kontrollmakt gentemot regeringen och statsministern.
             </seg>
-            <seg n="84ec42b7">
+          </u>
+          <u xml:id="i-18ac23bb06725206-108" prev="i-18ac23bb06725206-107" who="Q5716610">
+            <seg>
               Jag har just en fråga som handlar om riksdagens kontrollmakt.
               Det handlar om regeringens utnämningar av generaldirektörer, ambassadörer
               och högre statliga tjänstemän som det länge har riktats kritik
               mot från borgerligheten. Systemet är för slutet, det är svårt
               att granska, och det är ett hemlighetsmakeri kring detta.
             </seg>
-            <seg n="368576ba">
+          </u>
+          <u xml:id="i-18ac23bb06725206-109" prev="i-18ac23bb06725206-107" who="Q5716610">
+            <seg>
               Statsministern har i tio års tid försökt att vifta bort den borgerliga
               kritiken mot utnämningspolitiken. Nu har den internationella organisationen
               Transparency International som jobbar för att bekämpa mutor och
@@ -1016,21 +1158,25 @@
               korruption. Det handlar om missbruk av statliga tjänster för att
               gynna sådana som gynnar en själv eller gynnar ens parti.
             </seg>
-            <seg n="a6a5fe14">
+          </u>
+          <u xml:id="i-18ac23bb06725206-110" prev="i-18ac23bb06725206-107" who="Q5716610">
+            <seg>
               Som riksdagsledamot tycker jag att det är graverande det är genant
               när en internationell organisation som jobbar mot mutor beskriver
               den svenska utnämningspolitiken som korrupt. Vad tycker statsministern?
             </seg>
           </u>
-          <note type="speaker" n="d396858c">
+          <note type="speaker">
             Anf. 38 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-ff9b31690c763acc-16" n="c506db2d">
-            <seg n="7ab890c3">
+          <u xml:id="i-18ac23bb06725206-111" next="i-18ac23bb06725206-115" who="Q53747">
+            <seg>
               Fru talman! Först noterar jag att Henrik von Sydow inte dementerar
               de moderata skatteambitionerna. Tack för det!
             </seg>
-            <seg n="9308ad69">
+          </u>
+          <u xml:id="i-18ac23bb06725206-112" prev="i-18ac23bb06725206-111" who="Q53747">
+            <seg>
               När det sedan gäller den andra diskussionen är den felaktig,
               lögnaktig och missvisande. Vi har förtjänst och skicklighet som
               grund för utnämning av statliga toppbefattningar. Personen som
@@ -1038,7 +1184,9 @@
               staten, och jag förutsätter att han inte har fått sin utnämning
               på några andra grunder än förtjänst och skicklighet.
             </seg>
-            <seg n="02d2eb79">
+          </u>
+          <u xml:id="i-18ac23bb06725206-113" prev="i-18ac23bb06725206-111" who="Q53747">
+            <seg>
               Av och till utnämner vi en och annan person med en politisk bakgrund.
               De har alla, med något undantag, gjort utomordentliga ledarinsatser
               i den svenska staten. En del har varit socialdemokrater. En del
@@ -1047,7 +1195,9 @@
               kristdemokrat, någon kanske också vänsterpartist. Så ser det ut.
               Dock är det förtjänst och skicklighet som gäller.
             </seg>
-            <seg n="75857095">
+          </u>
+          <u xml:id="i-18ac23bb06725206-114" prev="i-18ac23bb06725206-111" who="Q53747">
+            <seg>
               Vi begår ett enormt misstag om vi tror att vi ska stänga den
               rekryteringsvägen. Vi begår också ett enormt misstag om vi tror
               att den statliga chefsrekryteringen skulle gå till på något annat
@@ -1057,15 +1207,17 @@
               personer man vill ha till de jobben söker inte på annonser. Självklart
               är det på samma sätt i staten. Det är ett problem vi måste se.
             </seg>
-            <seg n="780d4f91">
+          </u>
+          <u xml:id="i-18ac23bb06725206-115" prev="i-18ac23bb06725206-111" who="Q53747">
+            <seg>
               Infrastrukturen i Norrlands inland
             </seg>
           </u>
-          <note type="speaker" n="6b8350f7">
+          <note type="speaker">
             Anf. 39 LENNART GUSTAVSSON (v):
           </note>
-          <u who="Q5778392" xml:id="i-a6ab8f62980e435c-0" n="6f1b3349">
-            <seg n="9dfb5f0c">
+          <u xml:id="i-18ac23bb06725206-116" next="i-18ac23bb06725206-118" who="Q5778392">
+            <seg>
               Fru talman! Jag ska vara positiv. Det som var kallt och ute i
               går är varmt och inne i dag. Det jag tänker på är den basindustri
               som är kopplad till våra gruvor. Jag vet själv hur debatten gick
@@ -1073,33 +1225,41 @@
               är envis. Vi ser nu en gruvboom som skapar förutsättning för tillväxt
               och inte minst framtidstro i många regioner i Norrlands inland.
             </seg>
-            <seg n="8f09de5a">
+          </u>
+          <u xml:id="i-18ac23bb06725206-117" prev="i-18ac23bb06725206-116" who="Q5778392">
+            <seg>
               Det offentliga kan på olika sätt bidra och samverka till att
               skapa den för välfärden så viktiga tillväxten. Branschsamtalen
               är ett bra exempel på en strategi som handlar om hur Sverige ska
               ligga i framkant när det gäller högteknologi samt forskning och
               utveckling.
             </seg>
-            <seg n="a8cd8cef">
+          </u>
+          <u xml:id="i-18ac23bb06725206-118" prev="i-18ac23bb06725206-116" who="Q5778392">
+            <seg>
               Infrastruktur i olika former är också viktigt. Min fråga till
               statsministern rör två väldigt konkreta saker som är viktiga för
               att i detta fall tillgången på malm och mineral ska kunna bli
               en än större motor för utveckling på ganska utsatta orter.
             </seg>
           </u>
-          <note type="speaker" n="5ad7cd80">
+          <note type="speaker">
             Anf. 40 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-ff9b31690c763acc-17" n="c506db2d">
-            <seg n="17aeed2f">
+          <u xml:id="i-18ac23bb06725206-119" next="i-18ac23bb06725206-123" who="Q53747">
+            <seg>
               Fru talman! Jag visste att det skulle sluta någonstans.
             </seg>
-            <seg n="cb728ad0">
+          </u>
+          <u xml:id="i-18ac23bb06725206-120" prev="i-18ac23bb06725206-119" who="Q53747">
+            <seg>
               Jag är lika glad som Lennart Gustavsson över den goda utveckling
               vi har i basindustrin i Norrlands inland, även om vi inte ska
               underskatta den press som skogsindustrin är utsatt för.
             </seg>
-            <seg n="e48682f2">
+          </u>
+          <u xml:id="i-18ac23bb06725206-121" prev="i-18ac23bb06725206-119" who="Q53747">
+            <seg>
               Någonting jag är glad för är att jag under mina tio år som statsminister
               aldrig har behövt åka till Kiruna med ett krisbudskap. Detta har
               varit ett företag som tagit sig igenom en del dåliga år men också
@@ -1108,7 +1268,9 @@
               och Kiruna, men också i Haparanda med en annan typ av expansion,
               liksom i Luleå, Piteå och även Kalix. Visst är jag glad för det.
             </seg>
-            <seg n="4db7a36a">
+          </u>
+          <u xml:id="i-18ac23bb06725206-122" prev="i-18ac23bb06725206-119" who="Q53747">
+            <seg>
               Sverige är ett glest befolkat land. Vi har enorma krav på vägbyggen.
               Vi har stora och rättmätiga krav på bredband och telekomtäckning.
               Där jobbar vi på så mycket vi över huvud taget orkar med de resurser
@@ -1116,22 +1278,26 @@
               att möta en kammare som på denna punkt är nöjd och det är väl
               bra det, fru talman.
             </seg>
-            <seg n="f074117b">
+          </u>
+          <u xml:id="i-18ac23bb06725206-123" prev="i-18ac23bb06725206-119" who="Q53747">
+            <seg>
               Hets mot minoriteter
             </seg>
           </u>
-          <note type="speaker" n="3974b1c4">
+          <note type="speaker">
             Anf. 41 YVONNE RUWAIDA (mp):
           </note>
-          <u who="Q4975999" xml:id="i-a631ece0fef62db1-0" n="b295949a">
-            <seg n="22a69176">
+          <u xml:id="i-18ac23bb06725206-124" next="i-18ac23bb06725206-128" who="Q4975999">
+            <seg>
               Fru talman! Statsministern! Vi ser i dag en oroande trend när
               det gäller förekomsten av hets mot minoriteter. Det verkar som
               om hetsen har ökat. Muhammedbilderna är bara toppen av ett isberg.
               Men det verkar också som om toleransen för att hets förekommer
               ökar.
             </seg>
-            <seg n="42a6d080">
+          </u>
+          <u xml:id="i-18ac23bb06725206-125" prev="i-18ac23bb06725206-124" who="Q4975999">
+            <seg>
               Det är naturligtvis oacceptabelt att muslimer avbildas på samma
               sätt som i den antisemitiska tradition där judar framställs på
               ett negativt och kränkande sätt. Det strider också mot vår egen
@@ -1139,27 +1305,33 @@
               utsätts för hets och en debatt där man inte är lika tydlig som
               förr om att hets mot folkgrupp inte är acceptabel.
             </seg>
-            <seg n="4aed2c6b">
+          </u>
+          <u xml:id="i-18ac23bb06725206-126" prev="i-18ac23bb06725206-124" who="Q4975999">
+            <seg>
               En anledning till att ribban har höjts är Högsta domstolens beslut
               när det gäller Åke Green där man sade att Åke Greens uttalande
               var hets mot folkgrupp enligt vår lagstiftning men där man spekulerade
               i att ett fällande skulle strida mot Europakonventionen.
             </seg>
-            <seg n="7898207f">
+          </u>
+          <u xml:id="i-18ac23bb06725206-127" prev="i-18ac23bb06725206-124" who="Q4975999">
+            <seg>
               Hur avser statsministern att agera för att se till att vi försvarar
               de minoriteter vi har och att kränkande hets inte ska förekomma?
             </seg>
-            <seg n="926ea214">
+          </u>
+          <u xml:id="i-18ac23bb06725206-128" prev="i-18ac23bb06725206-124" who="Q4975999">
+            <seg>
               Jag vill också fråga, med anledning av Muhammedbilderna, hur
               vi avser att agera för att se till att muslimer i vårt samhälle
               får en bättre situation.
             </seg>
           </u>
-          <note type="speaker" n="7b4985ff">
+          <note type="speaker">
             Anf. 42 Statsminister GÖRAN PERSSON (s):
           </note>
-          <u who="Q53747" xml:id="i-b82d6740e71b8869-1" n="c506db2d">
-            <seg n="d8a41bbb">
+          <u xml:id="i-18ac23bb06725206-129" next="i-18ac23bb06725206-130" who="Q53747">
+            <seg>
               Fru talman! Det är många frågor att besvara. Det är ett brett
               register som Yvonne Ruwaida tar upp. Jag är glad att hon börjar
               med islamofobi och antisemitism. Detta är levande inslag i våra
@@ -1168,7 +1340,9 @@
               på många sätt, men om tystnaden breder ut sig vet vi bara en sak:
               Då frodas denna typ av dumheter och människoförakt.
             </seg>
-            <seg n="d9eb4ff2">
+          </u>
+          <u xml:id="i-18ac23bb06725206-130" prev="i-18ac23bb06725206-129" who="Q53747">
+            <seg>
               Vi ska se upp. Så fort vi sänker garden, så fort vi tror att
               detta är vunnet, är antisemitism, islamofobi och attacker mot
               homosexuella direkt där. Jag tror inte att det finns något annat
@@ -1179,169 +1353,181 @@
               värld.
             </seg>
           </u>
-          <note n="28d3ecee" type="speaker">
+          <note type="speaker">
             Anf. 43 TREDJE VICE TALMANNEN:
           </note>
-          <u who="unknown" xml:id="i-156e363ac2e2e06f-1" n="c506db2d">
-            <seg n="444575e7">
+          <u xml:id="i-18ac23bb06725206-131" who="unknown">
+            <seg>
               Det fick avsluta den här frågestunden. Vi tackar statsministern
               och deltagande ledamöter.
             </seg>
-            <seg n="aabba0d5">
-              Skälet till dröjsmålet är sedan tidigare inbokade engagemang.
-            </seg>
-            <seg n="30df57fa">
-              Skälet till dröjsmålet är tjänsteresa.
-            </seg>
-            <seg n="aabba0d5">
+          </u>
+          <note>
+            2 § Justering av protokoll
+          </note>
+          <note>
+            Justerades protokollet för den 27 januari.
+          </note>
+          <note>
+            3 § Anmälan om fördröjda svar på interpellationer
+          </note>
+          <note>
+            Till riksdagen hade inkommit följande skrivelser:
+          </note>
+          <note>
+            Interpellation 2005/06:206
+          </note>
+          <note>
+            Interpellation 2005/06:206 av Kenneth Johansson (c)
+          </note>
+          <note>
+            Interpellationen kommer att besvaras tisdag den 7 mars 2006.
+          </note>
+          <u xml:id="i-18ac23bb06725206-132" who="unknown">
+            <seg>
               Skälet till dröjsmålet är sedan tidigare inbokade engagemang.
             </seg>
           </u>
-          <note n="4deeda22">
-            2 § Justering av protokoll
-          </note>
-          <note n="17fec823">
-            Justerades protokollet för den 27 januari.
-          </note>
-          <note n="945687b5">
-            3 § Anmälan om fördröjda svar på interpellationer
-          </note>
-          <note n="cf2f1179">
-            Till riksdagen hade inkommit följande skrivelser:
-          </note>
-          <note n="8d8a1b21">
-            Interpellation 2005/06:206
-          </note>
-          <note n="06c1ccc2">
-            Interpellation 2005/06:206 av Kenneth Johansson (c)
-          </note>
-          <note n="e797ccf4">
-            Interpellationen kommer att besvaras tisdag den 7 mars 2006.
-          </note>
-          <note n="88970d03">
+          <note>
             Erna Zelmin
           </note>
-          <note n="bb576072">
+          <note>
             Interpellation 2005/06:209
           </note>
-          <note n="c537acd0">
+          <note>
             Interpellation 2005/06:209 av Jörgen Johansson (c)
           </note>
-          <note n="1c81c3a8">
+          <note>
             Interpellationen kommer att besvaras tisdagen den 7 februari
             2006.
           </note>
-          <note n="b8218cf2">
+          <u xml:id="i-18ac23bb06725206-133" who="unknown">
+            <seg>
+              Skälet till dröjsmålet är tjänsteresa.
+            </seg>
+          </u>
+          <note>
             Fredrik Ahlén
           </note>
-          <note n="91c1ad10">
+          <note>
             Interpellation 2005/06:223
           </note>
-          <note n="50306a66">
+          <note>
             Interpellation 2005/06:223 av Tuve Skånberg (kd)
           </note>
-          <note n="f3a8fbf4">
+          <note>
             Interpellationen kommer att besvaras fredagen den 17 februari
             2006.
           </note>
-          <note n="88970d03">
+          <u xml:id="i-18ac23bb06725206-134" who="unknown">
+            <seg>
+              Skälet till dröjsmålet är sedan tidigare inbokade engagemang.
+            </seg>
+          </u>
+          <note>
             Erna Zelmin
           </note>
-          <note n="2d67191a">
+          <note>
             4 § Bordläggning
           </note>
-          <note n="c7727c23">
+          <note>
             Anmäldes och bordlades
           </note>
-          <note n="897e1a80">
+          <note>
             5 § Anmälan om interpellationer
           </note>
-          <note n="b58b2441">
+          <note>
             Anmäldes att följande interpellationer framställts
           </note>
-          <note n="5a4043ec">
+          <note>
             den 1 februari
           </note>
-          <note n="2a774938">
+          <note>
             Axel Darvik
           </note>
-          <note n="084371a4">
+          <note>
             Anne-Marie Ekström
           </note>
-          <note n="ddcb93b3">
+          <note>
             den 2 februari
           </note>
-          <note n="c5087a3f">
+          <note>
             Nina Lundström
           </note>
-          <note n="53a47c64">
+          <note>
             Göran Lindblad
           </note>
-          <note n="ecfa3a77">
+          <note>
             Interpellationerna redovisas i bilaga som fogats till riksdagens
             snabbprotokoll tisdagen den 7 februari.
           </note>
-          <note n="8a0e4675">
+          <note>
             6 § Anmälan om frågor för skriftliga svar
           </note>
-          <note n="546c866b">
-            Anmäldes att följande frågor för skriftliga svar framställts
-          </note>
-          <note n="ddcb93b3">
+          <u xml:id="i-18ac23bb06725206-135" who="unknown">
+            <seg>
+              Anmäldes att följande frågor för skriftliga svar framställts
+            </seg>
+          </u>
+          <note>
             den 2 februari
           </note>
-          <note n="3ff61884">
+          <note>
             Mia Franzén
           </note>
-          <note n="3ff61884">
+          <note>
             Mia Franzén
           </note>
-          <note n="6fb11f8c">
+          <note>
             Dan Kihlström
           </note>
-          <note n="d13033aa">
+          <note>
             Solveig Hellquist
           </note>
-          <note n="0b2f25c2">
+          <note>
             Carina Adolfsson Elgestam
           </note>
-          <note n="263b3d62">
+          <note>
             Helene Petersson
           </note>
-          <note n="77f516e1">
-            Sten Tolgfors
-          </note>
-          <note n="d68403f9">
+          <u xml:id="i-18ac23bb06725206-136" who="unknown">
+            <seg>
+              Sten Tolgfors
+            </seg>
+          </u>
+          <note>
             Gunnar Nordmark
           </note>
-          <note n="79a27cfa">
+          <note>
             Krister Hammarbergh
           </note>
-          <note n="d4a9e690">
+          <note>
             Lars Gustafsson
           </note>
-          <note n="2d819611">
+          <note>
             Sven Gunnar Persson
           </note>
-          <note n="5e192ffc">
+          <note>
             Karin Thorborg
           </note>
-          <note n="eff3f94b">
+          <note>
             Birgitta Ohlsson
           </note>
-          <note n="6f1b28db">
+          <note>
             Frågorna redovisas i bilaga som fogats till riksdagens snabbprotokoll
             tisdagen den 7 februari.
           </note>
-          <note n="58731b50">
+          <note>
             7 § Kammaren åtskildes kl. 14.49.
           </note>
-          <note n="d09a0956">
+          <note>
             Förhandlingarna leddes av tredje vice talmannen.
           </note>
-          <note n="3c0e7967">
-            /Monica Gustafson
-          </note>
+          <u xml:id="i-18ac23bb06725206-137" who="unknown">
+            <seg>
+              /Monica Gustafson
+            </seg>
+          </u>
         </div>
       </body>
     </text>

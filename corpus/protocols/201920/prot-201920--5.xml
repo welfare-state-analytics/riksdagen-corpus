@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2019</title>
+        <title>Riksdagens protocols 201920</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2019</title>
+          <title>Riksdagens protocols 201920</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -63,58 +60,66 @@
       </front>
       <body>
         <div>
-          <note n="a5d48b9a">
+          <note>
             § 1 Meddelande om frågestund
           </note>
-          <note n="d3959bd9">
+          <note>
             Förste vice talmannen meddelade att frågestund skulle äga rum
             torsdagen den 19 september kl. 14.00 .
           </note>
-          <note n="2aeebffb">
+          <note>
             § 2 Anmälan om subsidiaritetsprövning
           </note>
-          <note n="4ff94b5b">
+          <note>
             Förste vice talmannen anmälde att utdrag ur prot. 2019/20:1 för
             torsdagen den 12 september i ärende om subsidiaritetsprövning
             av EU-förslag hade kommit in från utbildningsutskottet.
           </note>
-          <note n="ff96aad4">
+          <note>
             § 3 Ärende för hänvisning till utskott
           </note>
-          <note n="e2ad01e8">
+          <note>
             Följande dokument hänvisades till utskott:
           </note>
-          <note n="feb9a5a6">
-            EU-dokument
-          </note>
-          <note n="9b8878a7">
+          <u xml:id="i-b286276d01c3b855-0" who="unknown">
+            <seg>
+              EU-dokument
+            </seg>
+          </u>
+          <note>
             COM(2019) 620 till arbetsmarknadsutskottet
           </note>
-          <note n="4ce346a2">
-            Åttaveckorsfristen för att avge ett motiverat yttrande skulle
-            gå ut den 7 november .
-          </note>
-          <note n="c90cb4fd">
+          <u xml:id="i-b286276d01c3b855-1" who="unknown">
+            <seg>
+              Åttaveckorsfristen för att avge ett motiverat yttrande skulle
+              gå ut den 7 november .
+            </seg>
+          </u>
+          <note>
             § 4 Svar på interpellation 2018/19:311 om ändamålsenligt materiel
             för kvinnor i försvaret
           </note>
-          <note type="speaker" n="c78c9f0a">
+          <note type="speaker">
             Anf. 1 Försvarsminister PETER HULTQVIST (S):
           </note>
-          <u who="Q3370162" xml:id="i-6c1709a01ef61b73-0" n="1fc9d409">
-            <seg n="2d087ba5">
+          <u xml:id="i-b286276d01c3b855-2" next="i-b286276d01c3b855-6" who="Q3370162">
+            <seg>
               Fru talman! Alexandra Anstrell har frågat mig varför inte kvinnliga
               soldaters klädbehov tillgodoses, som bland annat godkända ändamålsenliga
               underkläder, och vilka åtgärder jag och regeringen vidtar för
               att se till att även kvinnliga soldater får tillgång till godkänd
               och ändamålsenlig utrustning.
             </seg>
-            <seg n="a11fe790">
+          </u>
+          <u xml:id="i-b286276d01c3b855-3" prev="i-b286276d01c3b855-2" who="Q3370162">
+            <seg>
               Alexandra Anstrell har vidare frågat mig hur jag och regeringen,
               utöver den helt grundläggande frågan om möjligheter till ändamålsenlig
               materiel, ämnar arbeta för att öka jämställdheten inom försvaret.
             </seg>
-            <seg n="34323cb8">
+          </u>
+          <u xml:id="i-b286276d01c3b855-4" prev="i-b286276d01c3b855-2" who="Q3370162">
+            <seg>
               Den könsneutrala värnplikten som aktiverades under 2017 medger
               en möjlighet till en ökning av andelen kvinnor i Försvarsmakten.
               Det är i sin tur en förutsättning för ökad jämställdhet i försvaret.
@@ -122,49 +127,63 @@
               männen att vara framgångsrika i sin uppgift och ha tillgång till
               säker och ändamålsenlig materiel.
             </seg>
-            <seg n="185d04da">
+          </u>
+          <u xml:id="i-b286276d01c3b855-5" prev="i-b286276d01c3b855-2" who="Q3370162">
+            <seg>
               Regeringen har gett Försvarsmakten ett tydligt uppdrag att öka
               jämställdheten inom myndigheten och att vidta åtgärder för att
               öka antalet kvinnor på alla nivåer i organisationen. Jag konstaterar
               att Försvarsmakten bedriver ett målinriktat och strukturerat arbete
               för att öka jämställdheten inom myndigheten.
             </seg>
-            <seg n="e51bf30d">
+          </u>
+          <u xml:id="i-b286276d01c3b855-6" prev="i-b286276d01c3b855-2" who="Q3370162">
+            <seg>
               Det är Försvarsmaktens uppgift att tillse att all personal har
               ändamålsenlig materiel. Jag vet att det har skett mycket som är
               positivt, och jag kommer att fortsätta att följa frågan.
             </seg>
           </u>
-          <note type="speaker" n="ab9cc219">
+          <note type="speaker">
             Anf. 2 ALEXANDRA ANSTRELL (M):
           </note>
-          <u who="Q30035697" xml:id="i-632a2de361e404dd-0" n="fd4e0dd1">
-            <seg n="2fa21695">
+          <u xml:id="i-b286276d01c3b855-7" next="i-b286276d01c3b855-17" who="Q30035697">
+            <seg>
               Fru talman! Tack, försvarsministern, för svaret!
             </seg>
-            <seg n="25736e20">
+          </u>
+          <u xml:id="i-b286276d01c3b855-8" prev="i-b286276d01c3b855-7" who="Q30035697">
+            <seg>
               Jag måste ändå få börja med att säga att bara för att Sverige
               har en könsneutral värnplikt betyder det inte att Försvarsmakten
               per automatik är jämställd.
             </seg>
-            <seg n="25cce106">
+          </u>
+          <u xml:id="i-b286276d01c3b855-9" prev="i-b286276d01c3b855-7" who="Q30035697">
+            <seg>
               Att det inte finns bra kläder till kvinnor inom Försvarsmakten
               är ju inte på något sätt en ny fråga, har jag förstått. Jag har
               till och med fått höra att kläder till kvinnor inom Försvarsmakten
               varit ett problem sedan 1980. Då var jag sex år.
             </seg>
-            <seg n="372ee4c3">
+          </u>
+          <u xml:id="i-b286276d01c3b855-10" prev="i-b286276d01c3b855-7" who="Q30035697">
+            <seg>
               Fru talman! Detta är ett utdraget problem, och egentligen kan
               jag inte förstå varför det är ett problem. Jag tänker att i resten
               av samhället är det ganska enkelt att hitta kläder till både män
               och kvinnor.
             </seg>
-            <seg n="1acf921a">
+          </u>
+          <u xml:id="i-b286276d01c3b855-11" prev="i-b286276d01c3b855-7" who="Q30035697">
+            <seg>
               Jag har ändå förstått, och fått det berättat för mig från många
               olika håll, att man har talat om en framkomlig väg länge, men
               på sina håll har problemet viftats bort som en petitess.
             </seg>
-            <seg n="95e4fd07">
+          </u>
+          <u xml:id="i-b286276d01c3b855-12" prev="i-b286276d01c3b855-7" who="Q30035697">
+            <seg>
               Vid något förband skrevs en rapport som skickades vidare till
               FMV, där de slutligen fick ett svar som uppfattades som negligerande
               och förminskande. Formuleringar i svaret antyder till exempel
@@ -175,18 +194,24 @@
               storlekar. Vilken effekt just den rapporten haft för kvinnorna
               på det förbandet vet vi inte, men de har inte märkt något i verksamheten.
             </seg>
-            <seg n="715e982d">
+          </u>
+          <u xml:id="i-b286276d01c3b855-13" prev="i-b286276d01c3b855-7" who="Q30035697">
+            <seg>
               Fru talman! Jag har under mitt korta år i försvarsutskottet mött
               människor på olika positioner inom Försvarsmakten och pratat om
               frågan om en uniform anpassad även till kvinnor. Samlat kan jag
               säga att de är frustrerade och känner sig ifrågasatta.
             </seg>
-            <seg n="79c3e439">
+          </u>
+          <u xml:id="i-b286276d01c3b855-14" prev="i-b286276d01c3b855-7" who="Q30035697">
+            <seg>
               Det finns till synes enkla åtgärder som kan vidtas och marginella
               investeringar som kan göras relativt Försvarsmaktens budget, men
               ändå går det inte att lösa problemet – efter 30 år.
             </seg>
-            <seg n="aaa024b2">
+          </u>
+          <u xml:id="i-b286276d01c3b855-15" prev="i-b286276d01c3b855-7" who="Q30035697">
+            <seg>
               Fru talman! När jag under sommaren fick möjlighet att besöka
               vår insats i Mali fick jag reda på att den enda godkända bh som
               fanns tillgänglig var tillverkad i merinoull. Det tänker jag är
@@ -196,7 +221,9 @@
               behöver den vara så tajt att man behöver en påkläderska för att
               kunna dra den över huvudet.
             </seg>
-            <seg n="4428591f">
+          </u>
+          <u xml:id="i-b286276d01c3b855-16" prev="i-b286276d01c3b855-7" who="Q30035697">
+            <seg>
               Under olika besök runt om i Sverige har jag frågat hur det står
               till med frågan om uniformer. Problemet är att kvinnor upplever
               irritation och fysiska skador från kängor i fel storlek, fel passform
@@ -204,7 +231,9 @@
               trosor och så vidare. Utrustningen ställer till besvär och är
               en säkerhetsrisk i vardagen.
             </seg>
-            <seg n="4cbae370">
+          </u>
+          <u xml:id="i-b286276d01c3b855-17" prev="i-b286276d01c3b855-7" who="Q30035697">
+            <seg>
               Ibland skriver kvinnor en rapport och lämnar in, men tilltron
               till att en förändring ska ske är liten. I vissa fall har kvinnor
               f ått materiel omsydd , men det kräver i hög grad att individer
@@ -217,36 +246,44 @@
               att försvara vårt land?
             </seg>
           </u>
-          <note type="speaker" n="704c5d3d">
+          <note type="speaker">
             Anf. 3 Försvarsminister PETER HULTQVIST (S):
           </note>
-          <u who="Q3370162" xml:id="i-3fdfb4a609cc7726-0" n="1fc9d409" next="i-6943d3855c694a81-0">
-            <seg n="bc255d66">
+          <u xml:id="i-b286276d01c3b855-18" next="i-b286276d01c3b855-25" who="Q3370162">
+            <seg>
               Fru talman! Jag vill först markera att återinförandet av den
               allmänna värnplikten efter att den borgerliga majoriteten med
               tre rösters marginal avskaffade den – gjorde den vilande – en
               gång i tiden är en sak som bidrar till att skapa en plattform
               för ökad jämställdhet och för att få fler kvinnor i försvaret.
             </seg>
-            <seg n="a49e901b">
+          </u>
+          <u xml:id="i-b286276d01c3b855-19" prev="i-b286276d01c3b855-18" who="Q3370162">
+            <seg>
               I snitt handlar det om att det är 15,5 procent som är kvinnor
               som går in i grundutbildning med värnplikt jämfört med tidigare
               12 procent.
             </seg>
-            <seg n="ffdd5bae">
+          </u>
+          <u xml:id="i-b286276d01c3b855-20" prev="i-b286276d01c3b855-18" who="Q3370162">
+            <seg>
               I dag finns en artikel i Sydöstran om marinens värnpliktskull
               på 235 personer i Karlskrona. Vi kan notera att ungefär 20 procent
               är kvinnor. Värnplikten skapar möjligheter för fler kvinnor i
               Försvarsmakten.
             </seg>
-            <seg n="e64e9937">
+          </u>
+          <u xml:id="i-b286276d01c3b855-21" prev="i-b286276d01c3b855-18" who="Q3370162">
+            <seg>
               Jag vill också påminna om Försvarsmaktens handlingsplan för jämställdhetsintegrering
               2015 – 2018. Där finns styr- och uppföljningsmekanismer, utbildning,
               åtgärder av den fysiska arbetsmiljön och försvarsmaterielens användbarhet.
               Handlingsplanen är en viktig del i myndighetsdialogen från departementets
               sida med Försvarsmakten, så frågorna är inte bortglömda.
             </seg>
-            <seg n="4f4b0355">
+          </u>
+          <u xml:id="i-b286276d01c3b855-22" prev="i-b286276d01c3b855-18" who="Q3370162">
+            <seg>
               I fråga om konkreta leveranser kan jag nämna aktuella volymer
               i augusti 2019 när det gäller personlig utrustning för kvinnor.
               I fråga om träningskläder med kit som omfattar byxa, jacka, shorts,
@@ -258,7 +295,9 @@
               enligt uppgift, upphandlats i tiotusental exemplar, och det finns
               gott om dem i förbandsförråden.
             </seg>
-            <seg n="e8afe0cf">
+          </u>
+          <u xml:id="i-b286276d01c3b855-23" prev="i-b286276d01c3b855-18" who="Q3370162">
+            <seg>
               För merinoull råder det, till skillnad mot syntetiska material,
               bättre flamsäkerhet och i övrigt bättre egenskaper ur skydds-
               och hygiensynpunkt. Den produkt som har köpts in heter Icebreaker
@@ -270,58 +309,70 @@
               bli föremål för anskaffning 2020.
             </seg>
           </u>
-          <note n="f45c98f3">
+          <note>
             Tester är planerade i alla fyra länder för Nordic Combat Uniform,
             och i Sverige är det utvalda organisationsenheter : I 19, Lv 6,
             Amf 1, F 17, Trängregementet och K 3.
           </note>
-          <u who="Q3370162" xml:id="i-6943d3855c694a81-0" n="1fc9d409" prev="i-3fdfb4a609cc7726-0">
-            <seg n="b699860d">
+          <u xml:id="i-b286276d01c3b855-24" prev="i-b286276d01c3b855-18" who="Q3370162">
+            <seg>
               Jag håller inte med om att det här är en fråga som Försvarsmakten
               inte arbetar med. Jag instämmer i att det finns en hel del övrigt
               att göra, men jag ser att man förs öker göra saker och komma någon
               vart. Från departementets sida kommer vi att följa den utvecklingen.
             </seg>
-            <seg n="a6d1325a">
+          </u>
+          <u xml:id="i-b286276d01c3b855-25" prev="i-b286276d01c3b855-18" who="Q3370162">
+            <seg>
               Jag vill också understryka att det är Försvarsmaktens uppgift
               att förse personalen med ändamålsenlig materiel, uniformsklädsel
               och personlig utrustning. Det ansvaret är alltså ytterst ett myndighetsansvar.
               Men vi har tydliga direktiv om detta från departementets sida.
             </seg>
           </u>
-          <note type="speaker" n="8fdfff6e">
+          <note type="speaker">
             Anf. 4 ALEXANDRA ANSTRELL (M):
           </note>
-          <u who="Q30035697" xml:id="i-632a2de361e404dd-1" n="fd4e0dd1">
-            <seg n="2ed4563d">
+          <u xml:id="i-b286276d01c3b855-26" next="i-b286276d01c3b855-33" who="Q30035697">
+            <seg>
               Fru talman! Planer i all ära, men blir det inte något av dem
               är de inte mycket att ha.
             </seg>
-            <seg n="c9b98f61">
+          </u>
+          <u xml:id="i-b286276d01c3b855-27" prev="i-b286276d01c3b855-26" who="Q30035697">
+            <seg>
               En del saker är säkert svårare att få till än andra. Jag förstår
               det. Men vi har ju lyckats landa på månen – för ganska länge sedan.
               Ändå har vi i Sverige 2019 kroppsskydd med sidoplattor och bröstplattor
               som inte passar på en kvinna om hon har höfter och bröst. De flesta
               kvinnor har ju det.
             </seg>
-            <seg n="6315787b">
+          </u>
+          <u xml:id="i-b286276d01c3b855-28" prev="i-b286276d01c3b855-26" who="Q30035697">
+            <seg>
               Sidoplattorna skaver på höfterna och bröstplattorna är inte formade
               efter bröst, vilket gör att det är svårt att bära dem. Förmågan
               att andas, köra fordon, röra sig och verka minskar, vilket innebär
               att stridsdugligheten reduceras.
             </seg>
-            <seg n="5548df4f">
+          </u>
+          <u xml:id="i-b286276d01c3b855-29" prev="i-b286276d01c3b855-26" who="Q30035697">
+            <seg>
               FOI:s rapport Karriärhinder för militära kvinnor berättar om
               hur militära kvinnor möter andra barriärer för sina karriärer
               än män. H är är materielfrågan en punkt. Materiel för kvinnor
               behöver prioriteras baserat på faktisk problematik. Det handlar
               alltså inte om gnäll på utseende utan om hälso- och säkerhetsrisker.
             </seg>
-            <seg n="e646138a">
+          </u>
+          <u xml:id="i-b286276d01c3b855-30" prev="i-b286276d01c3b855-26" who="Q30035697">
+            <seg>
               Nödvändiga åtgärder behöver vidtas för att förhindra att anställda
               och pliktade kvinnor utsätts för dessa risker.
             </seg>
-            <seg n="3200e0bc">
+          </u>
+          <u xml:id="i-b286276d01c3b855-31" prev="i-b286276d01c3b855-26" who="Q30035697">
+            <seg>
               Fru talman! Om den feministiska regeringen saknar kunskap om
               förekommande materielrelaterade hälso- och säkerhetsrisker för
               kvinnor kan jag berätta att det finns massor av kloka, icke gnälliga
@@ -329,13 +380,17 @@
               sig av sina erfarenheter – gratis. Annars kan man ju tillsätta
               en utredning.
             </seg>
-            <seg n="38c17f30">
+          </u>
+          <u xml:id="i-b286276d01c3b855-32" prev="i-b286276d01c3b855-26" who="Q30035697">
+            <seg>
               Fru talman! I min interpellation har jag ställt ett antal frågor,
               men jag upplever att jag fått få svar. Varför, efter så många
               år av problem, tillgodoses inte kvinnliga soldaters behov av bland
               annat godkända ändamålsenliga underkläder?
             </seg>
-            <seg n="534159ab">
+          </u>
+          <u xml:id="i-b286276d01c3b855-33" prev="i-b286276d01c3b855-26" who="Q30035697">
+            <seg>
               Försvarsministern hänvisar till Försvarsmakten, fru talman. Ett
               klargörande för åhörarna vi har här inne och säkert även på tv:
               Försvarsmakten leds av en överbefälhavare som i sin tur sorterar
@@ -345,28 +400,34 @@
               alltså vara försvarsministern.
             </seg>
           </u>
-          <note type="speaker" n="b1d3a5e2">
+          <note type="speaker">
             Anf. 5 Försvarsminister PETER HULTQVIST (S):
           </note>
-          <u who="Q3370162" xml:id="i-6c1709a01ef61b73-1" n="1fc9d409">
-            <seg n="5b961ef0">
+          <u xml:id="i-b286276d01c3b855-34" next="i-b286276d01c3b855-42" who="Q3370162">
+            <seg>
               Fru talman! Jag har aldrig talat om några gnälliga synpunkter
               eller några irrelevanta synpunkter, så den delen av debatten tycker
               jag att vi omedelbart kan ta bort.
             </seg>
-            <seg n="9afa7f38">
+          </u>
+          <u xml:id="i-b286276d01c3b855-35" prev="i-b286276d01c3b855-34" who="Q3370162">
+            <seg>
               Jag tycker också att insinuationen att detta inte tas på allvar
               kan tas bort, i alla fall när det gäller regeringen och den politiska
               sidan. Som jag sagt har vi i myndighetsdialogen varit tydliga
               om de här sakerna.
             </seg>
-            <seg n="d4656d9d">
+          </u>
+          <u xml:id="i-b286276d01c3b855-36" prev="i-b286276d01c3b855-34" who="Q3370162">
+            <seg>
               Det ligger också en försvarsmaktshandlingsplan för jämställdhetsintegrering,
               där det här arbetet pågår hela tiden. Jag har talat med ÖB om
               sådana här frågor vid flera tillfällen, och det jag möter är respekt
               för dessa frågor.
             </seg>
-            <seg n="2b0e6e0a">
+          </u>
+          <u xml:id="i-b286276d01c3b855-37" prev="i-b286276d01c3b855-34" who="Q3370162">
+            <seg>
               Sedan kan man alltid diskutera vad som är realitet och inte.
               Jag räknade upp här, rätt så preciserat, träningskläder, trosor
               i boxermodell, långkalsonger för kvinnor, bh för militärt bruk,
@@ -377,19 +438,25 @@
               det hela. De synpunkter och den kritik som funnits har man väl
               försökt ta till sig inom Försvarsmakten.
             </seg>
-            <seg n="6a9c3d99">
+          </u>
+          <u xml:id="i-b286276d01c3b855-38" prev="i-b286276d01c3b855-34" who="Q3370162">
+            <seg>
               Jag tycker också att det är bra att vi nu, genom att vi återinförde
               den allmänna värnplikten, kan se en ökad andel kvinnor som kommer
               in i F örsvarsmakten och att man steg för steg kan öka andelen
               kvinnor som tjänstgör i värnpliktsorganisationen men också så
               småningom som officerare.
             </seg>
-            <seg n="9dec5bef">
+          </u>
+          <u xml:id="i-b286276d01c3b855-39" prev="i-b286276d01c3b855-34" who="Q3370162">
+            <seg>
               Det har alltså gjorts en hel del, men det är inte så att vi kan
               vara nöjda och tycka att allting är till fyllest. Vi ska naturligtvis
               gå vidare i detta.
             </seg>
-            <seg n="030fad59">
+          </u>
+          <u xml:id="i-b286276d01c3b855-40" prev="i-b286276d01c3b855-34" who="Q3370162">
+            <seg>
               Andra saker man behöver ta i beaktande är att vi från svensk
               sida har jobbat länge med FN:s resolution 1325 om kvinnor, fred
               och säkerhet. Vi har också ansvar för ett nordiskt centrum för
@@ -397,7 +464,9 @@
               och internationellt utbildar i den typen av frågor och har fått
               mycket gott renommé i olika sammanhang.
             </seg>
-            <seg n="4dbf3b4b">
+          </u>
+          <u xml:id="i-b286276d01c3b855-41" prev="i-b286276d01c3b855-34" who="Q3370162">
+            <seg>
               Jag ser det som viktigt att också när man ska effektivisera den
               operativa förmågan i förbanden väga in genderperspektivet och
               integrera jämställdheten i tänkandet. Det är viktigt att r ekrytera
@@ -406,7 +475,9 @@
               en gång drev igenom att den skulle vara vilande – som ett oerhört
               väsentligt instrument.
             </seg>
-            <seg n="b32456cd">
+          </u>
+          <u xml:id="i-b286276d01c3b855-42" prev="i-b286276d01c3b855-34" who="Q3370162">
+            <seg>
               Ur mitt perspektiv sett jobbar Försvarsmakten med frågan, men
               vi har en del övrigt som behöver verkställas och göras. Vi är
               inte på något sätt klara än, men processen är igång. Det har skett
@@ -414,11 +485,11 @@
               fortsätta.
             </seg>
           </u>
-          <note type="speaker" n="69c456d3">
+          <note type="speaker">
             Anf. 6 ALEXANDRA ANSTRELL (M):
           </note>
-          <u who="Q30035697" xml:id="i-632a2de361e404dd-2" n="fd4e0dd1">
-            <seg n="1da4d8de">
+          <u xml:id="i-b286276d01c3b855-43" next="i-b286276d01c3b855-47" who="Q30035697">
+            <seg>
               Fru talman! En kvinna inom Försvarsmakten i dag har sagt: Att
               en kvinna kan strida i sin befattning med alla dessa brister är
               ett mirakel. Att inte ha skyddsutrustning anpassad för att passa
@@ -426,14 +497,18 @@
               att strunta i kroppsskyddet, vilket innebär en högre risk – i
               värsta fall med dödlig utgång.
             </seg>
-            <seg n="4703474c">
+          </u>
+          <u xml:id="i-b286276d01c3b855-44" prev="i-b286276d01c3b855-43" who="Q30035697">
+            <seg>
               En annan kvinna har sagt: Om man menar allvar med att man vill
               ha fler tjejer i Försvarsmakten måste man ta fram materiel som
               gör att vi kan prestera på lika villkor. Det måste bli tydligt
               att kvinnor är lika välkomna som män. I dag signalerar materielen
               dessvärre något annat.
             </seg>
-            <seg n="24ecfaa1">
+          </u>
+          <u xml:id="i-b286276d01c3b855-45" prev="i-b286276d01c3b855-43" who="Q30035697">
+            <seg>
               Jag citerar en tredje: Att det i dag, 2019, fortfarande saknas
               utrustning så att den svenska soldaten och sjömannen ska kunna
               utföra sitt värv – att försvara vår nation och dess invånare –
@@ -442,13 +517,17 @@
               sig att svårare och mer komplexa saker än trosor ska fungera för
               en kvinna i Försvarsmakten?
             </seg>
-            <seg n="02028673">
+          </u>
+          <u xml:id="i-b286276d01c3b855-46" prev="i-b286276d01c3b855-43" who="Q30035697">
+            <seg>
               Fru talman! Jämställdhetsarbetet inom Försvarsmakten är viktigt,
               men om det inte blir på riktigt är det ju inte viktigt. Grundläggande
               är möjl igheten till bra, ändamålsenlig materiel, till exempel
               kläder och skor, som passar olikheter – och även när man är gravid.
             </seg>
-            <seg n="10a48959">
+          </u>
+          <u xml:id="i-b286276d01c3b855-47" prev="i-b286276d01c3b855-43" who="Q30035697">
+            <seg>
               Flera andra hinder för ökad jämställdhet nämns i FOI:s rapport
               Karriärhinder för militära kvinnor . Det finns helt enkelt en
               hel del kvar att göra. Då tycker jag, fru talman, att en regering
@@ -458,24 +537,28 @@
               Det är inget annat än dåligt ledarskap.
             </seg>
           </u>
-          <note type="speaker" n="d7498dbf">
+          <note type="speaker">
             Anf. 7 Försvarsminister PETER HULTQVIST (S):
           </note>
-          <u who="Q3370162" xml:id="i-6c1709a01ef61b73-2" n="1fc9d409">
-            <seg n="61688b79">
+          <u xml:id="i-b286276d01c3b855-48" next="i-b286276d01c3b855-51" who="Q3370162">
+            <seg>
               Fru talman! Jag har inte bara hänvisat till allmän värnplikt,
               utan jag har här redogjort för ett antal övriga åtgärder. Men
               jag ser allmän värnplikt som ett viktigt instrument i sammanhanget.
               Det kanske man från er kant inte har något intresse av att beskriva,
               men jag tycker att det är viktigt och ser att det har reell effekt.
             </seg>
-            <seg n="8ed58c50">
+          </u>
+          <u xml:id="i-b286276d01c3b855-49" prev="i-b286276d01c3b855-48" who="Q3370162">
+            <seg>
               Jag har inte heller sagt att det är problemfritt när det gäller
               materiel och sådana saker. Men jag har här redovisat att man har
               gjort en del. Du nämnde gravidskjortor. Jag har sagt två gånger
               att gravidskjortor är någonting som man har beställt – 420 exemplar.
             </seg>
-            <seg n="6030ab7a">
+          </u>
+          <u xml:id="i-b286276d01c3b855-50" prev="i-b286276d01c3b855-48" who="Q3370162">
+            <seg>
               Bortse inte från det som görs, och måla inte upp bilden att ingenting
               händer! Det händer saker i positiv riktning, men det är inte tillräckligt.
               Jag tycker inte att man tjänar särskilt mycket på att bara ge
@@ -487,7 +570,9 @@
               inget som kommer att vara löst med omedelbar verkan vid någon
               specifik tidpunkt.
             </seg>
-            <seg n="894cb48f">
+          </u>
+          <u xml:id="i-b286276d01c3b855-51" prev="i-b286276d01c3b855-48" who="Q3370162">
+            <seg>
               Det handlar också om attityder och beteenden i vardagen. På en
               arbetsplats med många människor kan attityder leva kvar länge,
               särskilt om det finns traditioner i sammanhanget. Men jag uppfattar
@@ -496,17 +581,17 @@
               dem räkning för, och det hoppas jag att man gör också i riksdagen.
             </seg>
           </u>
-          <note n="5f9d8ea1">
+          <note>
             Interpellationsdebatten var härmed avslutad.
           </note>
-          <note n="88b17fcc">
+          <note>
             § 5 Svar på interpellation 2018/19:316 om Kostnadsutjämningsutredningen
           </note>
-          <note type="speaker" n="52b591a2">
+          <note type="speaker">
             Anf. 8 Statsrådet ARDALAN SHEKARABI (S):
           </note>
-          <u who="Q4787806" xml:id="i-47fc23ddca55b432-0" n="9f7549cc">
-            <seg n="8ac7d16c">
+          <u xml:id="i-b286276d01c3b855-52" next="i-b286276d01c3b855-58" who="Q4787806">
+            <seg>
               Fru talman! Mikael Damsgaard har frågat mig vilka åtgärder jag
               avser att vidta för att en kommande förändring av regionernas
               kostnadsutjämning bättre ska ta hänsyn till risken för ohälsa
@@ -514,7 +599,9 @@
               de kommuner och regioner som drabbas negativt av förslaget till
               ny kostnadsutjämning.
             </seg>
-            <seg n="2661ac52">
+          </u>
+          <u xml:id="i-b286276d01c3b855-53" prev="i-b286276d01c3b855-52" who="Q4787806">
+            <seg>
               Det är snart tio år sedan systemet för kostnadsutjämning för
               kommuner och landsting sågs över senast. Flera av de uppgifter
               och beräkningar som ligger till grund för kostnadsutjämningen
@@ -523,7 +610,9 @@
               och ändringarna syftar till att systemet i högre grad ska beakta
               strukturella skillnader mellan kommuner och mellan landsting.
             </seg>
-            <seg n="dd2ee1b0">
+          </u>
+          <u xml:id="i-b286276d01c3b855-54" prev="i-b286276d01c3b855-52" who="Q4787806">
+            <seg>
               När det gäller delmodellen för hälso- och sjukvård inom kostnadsutjämningen
               för landstingen föreslår utredningen vissa förändringar och en
               förenkling. De flesta remissinstanser som yttrat sig om förslaget
@@ -533,20 +622,26 @@
               Andra ändringar föreslås också, till exempel uppdateringar av
               kompensationen för merkostnader för vård i glesbygd.
             </seg>
-            <seg n="e72c7b7f">
+          </u>
+          <u xml:id="i-b286276d01c3b855-55" prev="i-b286276d01c3b855-52" who="Q4787806">
+            <seg>
               Bedömningen är att de ändringar som föreslås kommer att leda
               till att större hänsyn tas till strukturella faktorer som påverkar
               vårdbehov och vårdkostnader, däribland skillnader i ohälsa, men
               även till andra faktorer såsom gleshet. Detta kommer att skapa
               mer likvärdiga förutsättningar för landets kommuner och landsting.
             </seg>
-            <seg n="38425671">
+          </u>
+          <u xml:id="i-b286276d01c3b855-56" prev="i-b286276d01c3b855-52" who="Q4787806">
+            <seg>
               Regeringen anser att det är angeläget att ett uppdaterat system
               kan träda i kraft 2020. Ändringarna i kostnadsutjämningen kommer
               att innebära välbehövliga tillskott för många kommuner och landsting.
               Samtidigt innebär ändringarna negativa effekter för andra.
             </seg>
-            <seg n="699dd8fb">
+          </u>
+          <u xml:id="i-b286276d01c3b855-57" prev="i-b286276d01c3b855-52" who="Q4787806">
+            <seg>
               För att de kommuner och landsting som påverkas negativt av förändringarna
               ska få möjlighet att ställa om och anpassa sig föreslås så kallade
               införandebidrag, som gör att effekterna av ändringarna slår igenom
@@ -554,7 +649,9 @@
               också införandeperioden jämfört med utredningens förslag så att
               det finns mer tid till omställning.
             </seg>
-            <seg n="5980f1a3">
+          </u>
+          <u xml:id="i-b286276d01c3b855-58" prev="i-b286276d01c3b855-52" who="Q4787806">
+            <seg>
               De uppdateringar och ändringar av kostnadsutjämningen som föreslås
               är en viktig åtgärd för att skapa goda och likvärdiga ekonomiska
               förutsättningar för kommuner och landsting. Samtidigt verkar regeringen
@@ -562,21 +659,25 @@
               förstärkning ­ ar av statsbidragen.
             </seg>
           </u>
-          <note type="speaker" n="5c8ad871">
+          <note type="speaker">
             Anf. 9 MIKAEL DAMSGAARD (M):
           </note>
-          <u who="Q70407251" xml:id="i-df60bc8ac281873a-0" n="e4d0e794">
-            <seg n="ae9bdbcc">
+          <u xml:id="i-b286276d01c3b855-59" next="i-b286276d01c3b855-66" who="Q70407251">
+            <seg>
               Fru talman! Till att börja med vill jag tacka civilministern
               för svaret.
             </seg>
-            <seg n="b8ae0e4a">
+          </u>
+          <u xml:id="i-b286276d01c3b855-60" prev="i-b286276d01c3b855-59" who="Q70407251">
+            <seg>
               Kostnadsutjämningen fyller en viktig funktion för att utjämna
               strukturella skillnader mellan landets kommuner och regioner.
               Men för att utjämningssystemen ska upplevas vara legitima är det
               viktigt att de är transparenta och att träffsäkerheten är god.
             </seg>
-            <seg n="63c79964">
+          </u>
+          <u xml:id="i-b286276d01c3b855-61" prev="i-b286276d01c3b855-59" who="Q70407251">
+            <seg>
               Kostnadsutjämningsutredningen föreslår i sitt slutbetänkande
               förändringar som, om förslaget genomförs, innebär stora förändringar
               för kommuner och regioner runt om i Sverige. Jag har ställt denna
@@ -584,7 +685,9 @@
               nytt kostnadsutjämningssystem, som med kort framförhållning ska
               träda i kraft redan nästa år.
             </seg>
-            <seg n="48c3fc18">
+          </u>
+          <u xml:id="i-b286276d01c3b855-62" prev="i-b286276d01c3b855-59" who="Q70407251">
+            <seg>
               I mitt hemlän Västmanland är utbildningsnivån lägre och ohälsotalen
               högre än för riket i genomsnitt. Dessutom är det bara fyra län
               i riket där arbetslösheten är högre än i Västmanland. Trots detta
@@ -593,7 +696,9 @@
               1 000 kronor per invånare och år om förslaget genomförs. Det motsvarar
               kostnaden för i storleksordning ­ en 400 – 500 lärare i Västmanland.
             </seg>
-            <seg n="578eddbb">
+          </u>
+          <u xml:id="i-b286276d01c3b855-63" prev="i-b286276d01c3b855-59" who="Q70407251">
+            <seg>
               De stora förlorarna är Västerås stad, men också R egion Västmanland.
               Region Västmanland förlorar genom de förändringar som utredningen
               föreslår 801 kronor per invånare. Det är faktiskt mer än någon
@@ -602,19 +707,25 @@
               befintliga sparbeting behöver spara ytterligare 214 miljoner kronor
               på grund av förändringarna av kostnadsutjämningen.
             </seg>
-            <seg n="6a188004">
+          </u>
+          <u xml:id="i-b286276d01c3b855-64" prev="i-b286276d01c3b855-59" who="Q70407251">
+            <seg>
               Inom landstingsvärlden är indexet CNI, care n eed i ndex, väl
               etablerat och används för att mäta risk för ohälsa i befolkningen.
               CNI används också för att fördela resurser till familjeläkarmottagningar
               och vårdcentraler i många regioner i landet.
             </seg>
-            <seg n="7d749406">
+          </u>
+          <u xml:id="i-b286276d01c3b855-65" prev="i-b286276d01c3b855-59" who="Q70407251">
+            <seg>
               Enligt detta index är risken för ohälsa bland befolkningen näst
               störst i Västmanland av landets samtliga regioner. Trots detta
               blir Region Västmanland nettobetalare i kostnadsutjämningen och
               den största förloraren till följd av föreslagna förändringar.
             </seg>
-            <seg n="93cb858a">
+          </u>
+          <u xml:id="i-b286276d01c3b855-66" prev="i-b286276d01c3b855-59" who="Q70407251">
+            <seg>
               Jag vill därför fråga statsrådet på vilka grunder regeringen
               menar att utredningens förslag till beräkning av befolkningens
               vårdbehov bättre svarar mot behoven i regionerna än det index
@@ -622,14 +733,16 @@
               i befolkningen.
             </seg>
           </u>
-          <note type="speaker" n="cbb76ad2">
+          <note type="speaker">
             Anf. 10 Statsrådet ARDALAN SHEKARABI (S):
           </note>
-          <u who="Q4787806" xml:id="i-47fc23ddca55b432-1" n="9f7549cc">
-            <seg n="6ee5cd28">
+          <u xml:id="i-b286276d01c3b855-67" next="i-b286276d01c3b855-74" who="Q4787806">
+            <seg>
               Fru talman! Tack, Mikael Damsgaard, för denna viktiga fråga!
             </seg>
-            <seg n="4bf2bb66">
+          </u>
+          <u xml:id="i-b286276d01c3b855-68" prev="i-b286276d01c3b855-67" who="Q4787806">
+            <seg>
               Regeringen har beslutat att gå vidare med utredningens förslag
               därför att vi, liksom en tydlig majoritet av remissinstanserna,
               ser behovet av förstärkt och uppdaterad utjämning för att hålla
@@ -637,7 +750,9 @@
               välfärd, sjukvård, äldreomsorg och skola av hög kvalitet, oavsett
               var i landet de bor.
             </seg>
-            <seg n="d130a57d">
+          </u>
+          <u xml:id="i-b286276d01c3b855-69" prev="i-b286276d01c3b855-67" who="Q4787806">
+            <seg>
               Inom ramen för den kommunala självstyrelsen är det kommunerna
               och regionerna som driver sjukvården och de övriga välfärdstjänsterna.
               Om vi ska kunna uppnå denna likvärdighet krävs en aktiv utjämning
@@ -645,14 +760,18 @@
               får dela med sig till de kommuner och regioner som av strukturella
               skäl har en mindre gynnsam struktur och högre kostnader.
             </seg>
-            <seg n="92a760b2">
+          </u>
+          <u xml:id="i-b286276d01c3b855-70" prev="i-b286276d01c3b855-67" who="Q4787806">
+            <seg>
               En av anledningarna till att vi väljer att gå vidare med detta
               förslag och också förstärker en del av de slutsatser som utredningen
               drog är att vi måste ta bort de faktorer som går att påverka.
               Detta system ska bygga på faktorer som inte går att påverka för
               kommuner och regioner – strukturerna i en befolkning.
             </seg>
-            <seg n="e6774a1e">
+          </u>
+          <u xml:id="i-b286276d01c3b855-71" prev="i-b286276d01c3b855-67" who="Q4787806">
+            <seg>
               Det är bekymmersamt att utjämningssystemet i dagens läge inte
               tillräckligt beaktar gleshetsfaktorn. Det är dyrare att bedriva
               sjukvård i Jämtland Härjedalen, med de geografiska förutsättningar
@@ -662,7 +781,9 @@
               Norrbotten eller andra delar av landet där vi har en stark glesbygdsstruktur.
               Därför har vi valt att gå vidare med detta.
             </seg>
-            <seg n="311d1b6b">
+          </u>
+          <u xml:id="i-b286276d01c3b855-72" prev="i-b286276d01c3b855-67" who="Q4787806">
+            <seg>
               Med detta sagt har Mikael Damsgaard dock rätt. Västmanland är
               en viktig del av vårt land. Medborgarna i Västmanland har samma
               rätt till likvärdig sjukvård som de i resten av Sverige. Därför
@@ -671,25 +792,29 @@
               måste också ske i takt med att vi ökar de generella och riktade
               statsbidragen till Region Västmanland.
             </seg>
-            <seg n="884cb0ab">
+          </u>
+          <u xml:id="i-b286276d01c3b855-73" prev="i-b286276d01c3b855-67" who="Q4787806">
+            <seg>
               Därför valde vi att förändra och justera utredningens förslag
               så att vi sänker taket för förändring, från 300 kronor till 250
               kronor per kommun och invånare, så att införandeperioden blir
               längre och Region Västmanland får bättre förutsättningar att ställa
               om och att koordinera detta med växande intäkter från statsbidragen.
             </seg>
-            <seg n="3c042832">
+          </u>
+          <u xml:id="i-b286276d01c3b855-74" prev="i-b286276d01c3b855-67" who="Q4787806">
+            <seg>
               Det är helt rätt som Mikael Damsgaard säger: Detta måste vi beakta
               – och det har beaktats. Självklart kommer detta att genomföras
               på ett sätt som innebär att även Region Västmanland får goda förutsättningar
               att bedriva en sjukvårdsverksamhet av mycket hög kvalitet.
             </seg>
           </u>
-          <note type="speaker" n="73a28e9d">
+          <note type="speaker">
             Anf. 11 MIKAEL DAMSGAARD (M):
           </note>
-          <u who="Q70407251" xml:id="i-df60bc8ac281873a-1" n="e4d0e794">
-            <seg n="debc54bf">
+          <u xml:id="i-b286276d01c3b855-75" next="i-b286276d01c3b855-80" who="Q70407251">
+            <seg>
               Fru talman! Civilministern säger att förslaget på ett bättre
               sätt än i dag ska ta hänsyn till de merkostnader som uppstår på
               grund av gles befolkning. Men i lagrådsremissen framgår det emellertid
@@ -700,14 +825,18 @@
               annat pekar SKL på att ingen empirisk analys har gjorts av hur
               fördyrande gleshet är.
             </seg>
-            <seg n="ebd5bf5d">
+          </u>
+          <u xml:id="i-b286276d01c3b855-76" prev="i-b286276d01c3b855-75" who="Q70407251">
+            <seg>
               Vad gäller min fråga om kompensation för de kommuner och regioner
               som drabbas negativt av förändringen konstaterar jag av statsrådets
               svar att en kompensation sker under en införandeperiod, men därefter
               får de regioner som förlorar på detta själva stå för den fulla
               kostnaden.
             </seg>
-            <seg n="13110168">
+          </u>
+          <u xml:id="i-b286276d01c3b855-77" prev="i-b286276d01c3b855-75" who="Q70407251">
+            <seg>
               Många regioner och kommuner, stora som små, har en ansträngd
               ekonomisk situation som i hög grad beror på en misslyckad migrations-
               och integrationspolitik i kombination med demografiska utmaningar.
@@ -715,7 +844,9 @@
               blir allt svårare, och ansvaret för att skapa trygghet på gator
               och torg har alltmer överlämnats till kommunerna.
             </seg>
-            <seg n="2c4b70aa">
+          </u>
+          <u xml:id="i-b286276d01c3b855-78" prev="i-b286276d01c3b855-75" who="Q70407251">
+            <seg>
               Regeringen vill nu forcera införandet av ett nytt förslag för
               att möta regioners och kommuners ansträngda situation i stället
               för att på allvar ta ansvar för de problem som finns i många kommuner
@@ -724,7 +855,9 @@
               i sitt remissvar att förändringarna tidigast kan genomföras 2021
               om myndigheten ska hinna kvalitetssäkra beräkningarna.
             </seg>
-            <seg n="5e7fc49a">
+          </u>
+          <u xml:id="i-b286276d01c3b855-79" prev="i-b286276d01c3b855-75" who="Q70407251">
+            <seg>
               En förutsättning för att kommuner och regioner ska kunna ta sitt
               ansvar för välfärden är att planeringsförutsättningarna är förutsägbara.
               Lagrådsremissen innehåller inga beräkningar av hur förslaget slår
@@ -732,23 +865,27 @@
               således kommuners och regioners förutsättningar att ta ansvar
               för sitt uppdrag.
             </seg>
-            <seg n="102a9672">
+          </u>
+          <u xml:id="i-b286276d01c3b855-80" prev="i-b286276d01c3b855-75" who="Q70407251">
+            <seg>
               Mot denna bakgrund vill jag därför fråga när ett definitivt besked
               kommer om hur förslaget slår mot enskilda kommuner och regioner.
             </seg>
           </u>
-          <note type="speaker" n="081be8c5">
+          <note type="speaker">
             Anf. 12 Statsrådet ARDALAN SHEKARABI (S):
           </note>
-          <u who="Q4787806" xml:id="i-47fc23ddca55b432-2" n="9f7549cc">
-            <seg n="5cec4c02">
+          <u xml:id="i-b286276d01c3b855-81" next="i-b286276d01c3b855-90" who="Q4787806">
+            <seg>
               Fru talman! Jag är övertygad om att det är viktigt att hålla
               sig till sanningen i debatter som denna och inte använda överord.
               Man får inte dras med i rådande trend i sociala medier där saker
               och ting överdrivs. ”Forcering” är ett väldigt starkt ord med
               tanke på att vi följer utredningens förslag.
             </seg>
-            <seg n="ed1b518c">
+          </u>
+          <u xml:id="i-b286276d01c3b855-82" prev="i-b286276d01c3b855-81" who="Q4787806">
+            <seg>
               Utredningen tillsattes av regeringen och hade en parlamentarisk
               förankring i och med en parlamentarisk referensgrupp i vilken
               även Moderata samlingspartiet hade en representant. Under utredaren
@@ -758,17 +895,23 @@
               och lägger på riksdagens bord snart fram ett förslag som helt
               enkelt följer utredningens tidsplan och förslag.
             </seg>
-            <seg n="1ebbb057">
+          </u>
+          <u xml:id="i-b286276d01c3b855-83" prev="i-b286276d01c3b855-81" who="Q4787806">
+            <seg>
               Det är så vi jobbar i svensk förvaltning, och det är så det ska
               vara i svensk förvaltning. Det handlar inte om någon forcering.
             </seg>
-            <seg n="ebe83ebc">
+          </u>
+          <u xml:id="i-b286276d01c3b855-84" prev="i-b286276d01c3b855-81" who="Q4787806">
+            <seg>
               Forcering är det när riksdagen fattar beslut om att dra ned budgeten
               för Arbetsförmedlingen med några veckors varsel. Det handlar inte
               om forcering när man följer en parlamentarisk process för hur
               man hanterar lagförslag i vårt land.
             </seg>
-            <seg n="115be62b">
+          </u>
+          <u xml:id="i-b286276d01c3b855-85" prev="i-b286276d01c3b855-81" who="Q4787806">
+            <seg>
               Varför håller vi oss då till utredningens tidsplan? Jo, av den
               enkla anledningen att läget i svensk glesbygd är akut. Vi har
               länge talat om de strukturella förändringarna vad gäller urbaniseringens
@@ -777,7 +920,9 @@
               med dessa utmaningar. Nu finns de här utmaningarna på Gotland
               och i fler glesbygdsregioner.
             </seg>
-            <seg n="74ecdee7">
+          </u>
+          <u xml:id="i-b286276d01c3b855-86" prev="i-b286276d01c3b855-81" who="Q4787806">
+            <seg>
               Då kan regeringen antingen sitta och titta på och acceptera att
               de regio ­ nala klyftorna ökar, att klyftorna mellan land och
               stad ökar och att Sverige går den väg som många andra västeuropeiska
@@ -786,7 +931,9 @@
               att vi beaktar gleshet mycket mer när vi för ­ delar resurser
               i vårt land.
             </seg>
-            <seg n="6077b6ab">
+          </u>
+          <u xml:id="i-b286276d01c3b855-87" prev="i-b286276d01c3b855-81" who="Q4787806">
+            <seg>
               Utifrån de förutsättningar som glesbygdsregionerna har i dag
               är det inte möjligt att erbjuda medborgarna en likvärdig sjukvård.
               Det är nämligen otroligt mycket dyrare att bedriva sjukvård i
@@ -796,7 +943,9 @@
               remissomgång, en lagrådsbehandling och nu en möjlighet för riksdagen
               att titta på frågan.
             </seg>
-            <seg n="08477e43">
+          </u>
+          <u xml:id="i-b286276d01c3b855-88" prev="i-b286276d01c3b855-81" who="Q4787806">
+            <seg>
               Fru talman! Jag vill understryka en sak. Vi i regeringen ser
               ett stort behov av att kompensera alla kommuner och landsting
               för de växande utgifter som den demografiska utvecklingen innebär.
@@ -806,7 +955,9 @@
               inom sjukvårdens områden. Vi kommer ock ­ så att öka de generella
               statsbidragen.
             </seg>
-            <seg n="a553a4a0">
+          </u>
+          <u xml:id="i-b286276d01c3b855-89" prev="i-b286276d01c3b855-81" who="Q4787806">
+            <seg>
               Välfärd kostar nämligen. Välfärd måste få kosta. Denna regering
               kommer aldrig att svika välfärden. Välfärden kommer först för
               vår del. Vi skulle aldrig, fru talman, förändra de modeller som
@@ -814,17 +965,19 @@
               att samtidigt öka statsbidragen så att kommuner och landsting
               de facto får mer resurser att spendera på välfärden.
             </seg>
-            <seg n="91d652fe">
+          </u>
+          <u xml:id="i-b286276d01c3b855-90" prev="i-b286276d01c3b855-81" who="Q4787806">
+            <seg>
               Jag kan garantera Mikael Damsgaard att det kommer att bli en
               kompensation till alla kommuner, inklusive Region Västmanland
               och Västmanlands kommuner.
             </seg>
           </u>
-          <note type="speaker" n="1c00f687">
+          <note type="speaker">
             Anf. 13 MIKAEL DAMSGAARD (M):
           </note>
-          <u who="Q70407251" xml:id="i-df60bc8ac281873a-2" n="e4d0e794">
-            <seg n="0d7b1f10">
+          <u xml:id="i-b286276d01c3b855-91" next="i-b286276d01c3b855-95" who="Q70407251">
+            <seg>
               Fru talman! Jag ställde den här interpellationen med anledning
               av att västmanlänningarna blir några av de största förlorarna
               genom det nya förslaget om kostnadsutjämning. Detta sker trots
@@ -833,13 +986,17 @@
               inom landstingssektorn för att mäta risk för ohälsa har Västmanland
               näst störst risk i hela landet för ohälsa .
             </seg>
-            <seg n="b5a8aecc">
+          </u>
+          <u xml:id="i-b286276d01c3b855-92" prev="i-b286276d01c3b855-91" who="Q70407251">
+            <seg>
               Jag tror att vi är överens om att en väl fungerande kostnadsutjämning
               är viktig för att skapa mer lika förutsättningar över hela landet.
               Förändringar av kostnadsutjämningssystemet kan emellertid inte
               kompensera för misslyckanden inom andra politikområden.
             </seg>
-            <seg n="dc98939a">
+          </u>
+          <u xml:id="i-b286276d01c3b855-93" prev="i-b286276d01c3b855-91" who="Q70407251">
+            <seg>
               Det är också viktigt att ett utjämningssystem även om det inte
               gillas av alla ändå tolereras och upplevs vara legitimt av hela
               sektorn. Här har det liggande förslaget flera brister, som jag
@@ -847,21 +1004,25 @@
               man forcerar fram förändringen. Detta riskerar på sikt hela utjämningssystemets
               legitimitet.
             </seg>
-            <seg n="776574cf">
+          </u>
+          <u xml:id="i-b286276d01c3b855-94" prev="i-b286276d01c3b855-91" who="Q70407251">
+            <seg>
               Här hade det varit att föredra att viktiga frågetecken som har
               lyfts fram av remissinstanser reddes ut och att kommuner och regioner
               gavs möjlighet till en bättre framförhållning i sin planering.
             </seg>
-            <seg n="4ec2218c">
+          </u>
+          <u xml:id="i-b286276d01c3b855-95" prev="i-b286276d01c3b855-91" who="Q70407251">
+            <seg>
               Jag vill avslutningsvis tacka civilministern för en bra och intressant
               diskussion om kostnadsutjämningen. Fortsättning följer.
             </seg>
           </u>
-          <note type="speaker" n="c8caebbf">
+          <note type="speaker">
             Anf. 14 Statsrådet ARDALAN SHEKARABI (S):
           </note>
-          <u who="Q4787806" xml:id="i-5540d022114b51e9-0" n="9f7549cc" next="i-afc0b2f974f1eaf2-0">
-            <seg n="686ccadb">
+          <u xml:id="i-b286276d01c3b855-96" next="i-b286276d01c3b855-120" who="Q4787806">
+            <seg>
               Fru talman! Ett stort tack till Mikael Damsgaard för engagemanget
               i de frågor som rör kommunal sektor och för denna debatt. Ju fler
               riksdagsledamöter som är engagerade i den kommunala sektorns verklighet
@@ -870,7 +1031,9 @@
               ska få en likvärdig välfärd i hela landet. Vi behöver mer av dessa
               debatter här i kammaren.
             </seg>
-            <seg n="c47d7c87">
+          </u>
+          <u xml:id="i-b286276d01c3b855-97" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
               Alla är vinnare på detta. Alla i Sverige, alla kommuner och alla
               regio ­ ner, är vinnare på en uppdaterad och förstärkt utjämning.
               Sverige är ett land som ska hålla ihop. En av Sveriges absolut
@@ -881,7 +1044,9 @@
               Detta har skett med anledning av den demografiska utvecklingen
               och att vi har en mycket stark urbanisering.
             </seg>
-            <seg n="cdd7444c">
+          </u>
+          <u xml:id="i-b286276d01c3b855-98" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
               Från statens sida krävs nu väldigt aktiva åtgärder för att hålla
               ihop Sverige och för att minska de regionala klyftorna. Utjämningen
               är en del av detta, men det kommer inte att räcka. Det vill jag
@@ -892,7 +1057,9 @@
               utveckling som vi har sett i andra delar av västvärlden där klyftorna
               växer regionalt.
             </seg>
-            <seg n="bd289eb2">
+          </u>
+          <u xml:id="i-b286276d01c3b855-99" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
               I Sverige kan vi hålla ihop samhället. Vi har förutsättningarna
               för det, om vi hjälps åt och sätter likvärdigheten först och om
               vi går tillbaka till det som fastslås i grundlagen och andra lagar,
@@ -903,412 +1070,452 @@
               i samhället.
             </seg>
           </u>
-          <note n="5f9d8ea1">
+          <note>
             Interpellationsdebatten var härmed avslutad.
           </note>
-          <note n="7cf92c33">
+          <note>
             § 6 Bordläggning
           </note>
-          <note n="55482430">
+          <note>
             Följande dokument anmäldes och bordlades:
           </note>
-          <note n="b2dc6b99">
+          <note>
             Proposition
           </note>
-          <note n="13105662">
+          <note>
             2019/20:7 Behandling av personuppgifter vid hantering av oredlighet
             i forskning
           </note>
-          <note n="b66965a3">
+          <note>
             Skrivelse
           </note>
-          <note n="e9537c98">
+          <note>
             2019/20:4 Riksrevisionens rapport om bostadsbidrag och trångboddhet
           </note>
-          <u who="Q4787806" xml:id="i-afc0b2f974f1eaf2-0" n="9f7549cc" prev="i-5540d022114b51e9-0">
-            <seg n="5f177972">
+          <u xml:id="i-b286276d01c3b855-100" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
               EU-dokument
             </seg>
-            <seg n="c59cfe44">
-              2019/20:1 Ökade arbetsplatsrelaterade olyckor bland elektriker
-            </seg>
-            <seg n="a18334bc">
-              2019/20:2 Könsdiskriminering i Iran
-            </seg>
-            <seg n="6104a3cd">
-              2019/20:4 Fängslade strejkande arbetare i Iran
-            </seg>
-            <seg n="de223a81">
-              2019/20:5 Körkort för tunga fordon
-            </seg>
-            <seg n="88ea5286">
-              2019/20:7 Värnande av mänskliga rättigheter för Kinas medborgare
-            </seg>
-            <seg n="615c2a3c">
-              2019/20:8 Jaktsabotage
-            </seg>
-            <seg n="6ad5b4a9">
-              2019/20:10 Massiv elmarknadshubb som medför säkerhetsrisker
-            </seg>
-            <seg n="aa274836">
-              2019/20:11 Gifttunnor i Östersjön
-            </seg>
-            <seg n="4117fed0">
-              till miljö- och klimatminister Isabella Lövin (MP)
-            </seg>
-            <seg n="27c55abd">
-              2019/20:13 Ökad arbetslöshet
-            </seg>
-            <seg n="dd7c808a">
-              2019/20:14 Bilbränder
-            </seg>
-            <seg n="a86710f4">
-              2019/20:15 Förmånsbeskattning av fyrhjulingar för Sveriges bönder
-              och skogslantbrukare
-            </seg>
-            <seg n="4a1090a3">
-              2019/20:16 Spridning av granbarkborre från statlig skogsmark
-            </seg>
-            <seg n="3be4c8eb">
-              2019/20:17 Elsparkcyklar
-            </seg>
-            <seg n="4d3ca67e">
-              2019/20:18 Straffskatt på husbilar
-            </seg>
-            <seg n="33cae528">
-              2019/20:19 Arbetsförmedlingens omställningsarbete
-            </seg>
-            <seg n="845e2695">
-              2019/20:20 Dumpade gifttunnor
-            </seg>
-            <seg n="4117fed0">
-              till miljö- och klimatminister Isabella Lövin (MP)
-            </seg>
-            <seg n="e5f29ccf">
-              2019/20:21 Kemikalieskattens effektivitet
-            </seg>
-            <seg n="4117fed0">
-              till miljö- och klimatminister Isabella Lövin (MP)
-            </seg>
-            <seg n="6985d29d">
-              2018/19:920 Regeringens agerande mot Kina
-            </seg>
-            <seg n="434e4362">
-              av Magdalena Schröder (M)
-            </seg>
-            <seg n="ea4b83f3">
-              till utrikesminister Margot Wallström (S)
-            </seg>
-            <seg n="1245043a">
-              2018/19:921 Konflikten i Kashmir
-            </seg>
-            <seg n="ea4b83f3">
-              till utrikesminister Margot Wallström (S)
-            </seg>
-            <seg n="99ef5274">
-              2018/19:932 Besiktningskrav på restaurangbåtar och pråmar
-            </seg>
-            <seg n="f210619d">
-              2018/19:936 Lärdomar från Danmark kring WLTP-metoden
-            </seg>
-            <seg n="1a1870e6">
-              2018/19:937 Beskattning av husbilar
-            </seg>
-            <seg n="0a940c58">
-              2018/19:938 Åtgärder mot brottligheten på landsbygden
-            </seg>
           </u>
-          <note n="9f16f18b">
+          <note>
             COM(2019) 461 Förslag till rådets förordning om åtgärder för
             genomförande och finansiering av unionens allmänna budget under
             2020 i samband med Förenade kungarikets utträde ur unionen
           </note>
-          <note n="3330abbf">
+          <note>
             § 7 Anmälan om interpellationer
           </note>
-          <note n="b9fb00f9">
+          <note>
             Följande interpellationer hade framställts:
           </note>
-          <note n="ed4bca22">
+          <note>
             den 13 september
           </note>
-          <note n="69336d1d">
+          <u xml:id="i-b286276d01c3b855-101" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
+              2019/20:1 Ökade arbetsplatsrelaterade olyckor bland elektriker
+            </seg>
+          </u>
+          <note>
             av Saila Quicklund (M)
           </note>
-          <note n="cdf8b811">
+          <note>
             till statsrådet Anders Ygeman (S)
           </note>
-          <note n="c054e370">
+          <u xml:id="i-b286276d01c3b855-102" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
+              2019/20:2 Könsdiskriminering i Iran
+            </seg>
+          </u>
+          <note>
             av Amineh Kakabaveh (-)
           </note>
-          <note n="bd24e789">
+          <note>
             till utrikesminister Ann Linde (S)
           </note>
-          <note n="5187579a">
+          <note>
             2019/20:3 Stöd till IS-terrorister
           </note>
-          <note n="fb3e5917">
+          <note>
             av Henrik Vinge (SD)
           </note>
-          <note n="9fd8e88c">
+          <note>
             till socialminister Lena Hallengren (S)
           </note>
-          <note n="cc6b18d1">
+          <note>
             den 16 september
           </note>
-          <note n="c054e370">
+          <u xml:id="i-b286276d01c3b855-103" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
+              2019/20:4 Fängslade strejkande arbetare i Iran
+            </seg>
+          </u>
+          <note>
             av Amineh Kakabaveh (-)
           </note>
-          <note n="bd24e789">
+          <note>
             till utrikesminister Ann Linde (S)
           </note>
-          <note n="573bbc72">
+          <u xml:id="i-b286276d01c3b855-104" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
+              2019/20:5 Körkort för tunga fordon
+            </seg>
+          </u>
+          <note>
             av Alexandra Anstrell (M)
           </note>
-          <note n="fa2b8ad6">
+          <note>
             till infrastrukturminister Tomas Eneroth (S)
           </note>
-          <note n="10ec5b97">
+          <note>
             § 8 Anmälan om frågor för skriftliga svar
           </note>
-          <note n="238150a7">
-            Följande frågor för skriftliga svar hade framställts:
-          </note>
-          <note n="ed4bca22">
+          <u xml:id="i-b286276d01c3b855-105" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
+              Följande frågor för skriftliga svar hade framställts:
+            </seg>
+          </u>
+          <note>
             den 13 september
           </note>
-          <note n="f37c4cd7">
+          <note>
             2019/20:6 Tjänstemannaansvar
           </note>
-          <note n="b61627fd">
+          <note>
             av Ida Drougge (M)
           </note>
-          <note n="d5ba314b">
+          <note>
             till justitie- och migrationsminister Morgan Johansson (S)
           </note>
-          <note n="09d37631">
+          <u xml:id="i-b286276d01c3b855-106" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
+              2019/20:7 Värnande av mänskliga rättigheter för Kinas medborgare
+            </seg>
+          </u>
+          <note>
             av Ann-Sofie Alm (M)
           </note>
-          <note n="bd24e789">
+          <note>
             till utrikesminister Ann Linde (S)
           </note>
-          <note n="265fd15e">
+          <note>
+            2019/20:8 Jaktsabotage
+          </note>
+          <note>
             av Fredrik Lindahl (SD)
           </note>
-          <note n="d5ba314b">
+          <note>
             till justitie- och migrationsminister Morgan Johansson (S)
           </note>
-          <note n="7f38847f">
+          <note>
             2019/20:9 Beredskapskrav
           </note>
-          <note n="6c5a7856">
+          <note>
             av Lars Mejern Larsson (S)
           </note>
-          <note n="3b547b84">
+          <note>
             till statsrådet Jennie Nilsson (S)
           </note>
-          <note n="368948b5">
+          <u xml:id="i-b286276d01c3b855-107" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
+              2019/20:10 Massiv elmarknadshubb som medför säkerhetsrisker
+            </seg>
+          </u>
+          <note>
             av Arman Teimouri (L)
           </note>
-          <note n="cdf8b811">
+          <note>
             till statsrådet Anders Ygeman (S)
           </note>
-          <note n="19e61744">
+          <note>
+            2019/20:11 Gifttunnor i Östersjön
+          </note>
+          <note>
             av Jörgen Berglund (M)
           </note>
-          <note n="4d4f7aaf">
+          <u xml:id="i-b286276d01c3b855-108" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
+              till miljö- och klimatminister Isabella Lövin (MP)
+            </seg>
+          </u>
+          <note>
             2019/20:12 Utvecklingstid
           </note>
-          <note n="8a3641b3">
+          <note>
             av Lars Beckman (M)
           </note>
-          <note n="c2963578">
+          <note>
             till arbetsmarknadsminister Eva Nordmark (S)
           </note>
-          <note n="cc6b18d1">
+          <note>
             den 16 september
           </note>
-          <note n="8a3641b3">
+          <u xml:id="i-b286276d01c3b855-109" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
+              2019/20:13 Ökad arbetslöshet
+            </seg>
+          </u>
+          <note>
             av Lars Beckman (M)
           </note>
-          <note n="c2963578">
+          <note>
             till arbetsmarknadsminister Eva Nordmark (S)
           </note>
-          <note n="8a3641b3">
+          <note>
+            2019/20:14 Bilbränder
+          </note>
+          <note>
             av Lars Beckman (M)
           </note>
-          <note n="d5ba314b">
+          <note>
             till justitie- och migrationsminister Morgan Johansson (S)
           </note>
-          <note n="8a3641b3">
+          <note>
+            2019/20:15 Förmånsbeskattning av fyrhjulingar för Sveriges bönder
+            och skogslantbrukare
+          </note>
+          <note>
             av Lars Beckman (M)
           </note>
-          <note n="75596208">
+          <note>
             till finansminister Magdalena Andersson (S)
           </note>
-          <note n="f64dfab7">
+          <note>
+            2019/20:16 Spridning av granbarkborre från statlig skogsmark
+          </note>
+          <note>
             av Magnus Oscarsson (KD)
           </note>
-          <note n="3b547b84">
+          <note>
             till statsrådet Jennie Nilsson (S)
           </note>
-          <note n="8a3641b3">
+          <note>
+            2019/20:17 Elsparkcyklar
+          </note>
+          <note>
             av Lars Beckman (M)
           </note>
-          <note n="fa2b8ad6">
+          <note>
             till infrastrukturminister Tomas Eneroth (S)
           </note>
-          <note n="8a3641b3">
+          <note>
+            2019/20:18 Straffskatt på husbilar
+          </note>
+          <note>
             av Lars Beckman (M)
           </note>
-          <note n="fa2b8ad6">
+          <note>
             till infrastrukturminister Tomas Eneroth (S)
           </note>
-          <note n="8a3641b3">
+          <note>
+            2019/20:19 Arbetsförmedlingens omställningsarbete
+          </note>
+          <note>
             av Lars Beckman (M)
           </note>
-          <note n="c2963578">
+          <note>
             till arbetsmarknadsminister Eva Nordmark (S)
           </note>
-          <note n="8a3641b3">
+          <note>
+            2019/20:20 Dumpade gifttunnor
+          </note>
+          <note>
             av Lars Beckman (M)
           </note>
-          <note n="df633cee">
+          <u xml:id="i-b286276d01c3b855-110" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
+              till miljö- och klimatminister Isabella Lövin (MP)
+            </seg>
+          </u>
+          <u xml:id="i-b286276d01c3b855-111" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
+              2019/20:21 Kemikalieskattens effektivitet
+            </seg>
+          </u>
+          <note>
             av Mattias Bäckström Johansson (SD)
           </note>
-          <note n="490f1070">
+          <u xml:id="i-b286276d01c3b855-112" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
+              till miljö- och klimatminister Isabella Lövin (MP)
+            </seg>
+          </u>
+          <note>
             § 9 Anmälan om skriftliga svar på frågor
           </note>
-          <note n="e51c6019">
-            Skriftliga svar på följande frågor hade kommit in:
-          </note>
-          <note n="ed4bca22">
+          <u xml:id="i-b286276d01c3b855-113" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
+              Skriftliga svar på följande frågor hade kommit in:
+            </seg>
+          </u>
+          <note>
             den 13 september
           </note>
-          <note n="82286e88">
+          <u xml:id="i-b286276d01c3b855-114" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
+              2018/19:920 Regeringens agerande mot Kina
+            </seg>
+          </u>
+          <note>
+            av Magdalena Schröder (M)
+          </note>
+          <u xml:id="i-b286276d01c3b855-115" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
+              till utrikesminister Margot Wallström (S)
+            </seg>
+          </u>
+          <note>
+            2018/19:921 Konflikten i Kashmir
+          </note>
+          <note>
             av Serkan Köse (S)
           </note>
-          <note n="6c5a7856">
+          <u xml:id="i-b286276d01c3b855-116" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
+              till utrikesminister Margot Wallström (S)
+            </seg>
+          </u>
+          <u xml:id="i-b286276d01c3b855-117" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
+              2018/19:932 Besiktningskrav på restaurangbåtar och pråmar
+            </seg>
+          </u>
+          <note>
             av Lars Mejern Larsson (S)
           </note>
-          <note n="fa2b8ad6">
+          <note>
             till infrastrukturminister Tomas Eneroth (S)
           </note>
-          <note n="cc6b18d1">
+          <note>
             den 16 september
           </note>
-          <note n="8a3641b3">
+          <u xml:id="i-b286276d01c3b855-118" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
+              2018/19:936 Lärdomar från Danmark kring WLTP-metoden
+            </seg>
+          </u>
+          <note>
             av Lars Beckman (M)
           </note>
-          <note n="fa2b8ad6">
+          <note>
             till infrastrukturminister Tomas Eneroth (S)
           </note>
-          <note n="9b3d035a">
+          <note>
+            2018/19:937 Beskattning av husbilar
+          </note>
+          <note>
             av Thomas Morell (SD)
           </note>
-          <note n="75596208">
+          <note>
             till finansminister Magdalena Andersson (S)
           </note>
-          <note n="5bce1380">
+          <note>
+            2018/19:938 Åtgärder mot brottligheten på landsbygden
+          </note>
+          <note>
             av Kristina Yngwe (C)
           </note>
-          <note n="d5ba314b">
+          <note>
             till justitie- och migrationsminister Morgan Johansson (S)
           </note>
-          <note n="c79ce64b">
+          <note>
             § 10 Kammaren åtskildes kl. 13.40 .
           </note>
-          <note n="3c254ad2">
+          <note>
             Sammanträdet leddes av förste vice talmannen .
           </note>
-          <note n="614de756">
+          <note>
             Vid protokollet
           </note>
-          <note n="a75ab8f5">
-            ANNA ASPEGREN
-          </note>
-          <note n="d02c43ef">
+          <u xml:id="i-b286276d01c3b855-119" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
+              ANNA ASPEGREN
+            </seg>
+          </u>
+          <note>
             / Olof Pilo
           </note>
-          <note n="c89249d6">
+          <note>
             Innehållsförteckning
           </note>
-          <note n="a5d48b9a">
+          <note>
             § 1 Meddelande om frågestund
           </note>
-          <note n="2aeebffb">
+          <note>
             § 2 Anmälan om subsidiaritetsprövning
           </note>
-          <note n="ff96aad4">
+          <note>
             § 3 Ärende för hänvisning till utskott
           </note>
-          <note n="c90cb4fd">
+          <note>
             § 4 Svar på interpellation 2018/19:311 om ändamålsenligt materiel
             för kvinnor i försvaret
           </note>
-          <note n="1f8ad4c2">
+          <note>
             Anf. 1 Försvarsminister PETER HULTQVIST (S)
           </note>
-          <note n="08299d31">
+          <note>
             Anf. 2 ALEXANDRA ANSTRELL (M)
           </note>
-          <note n="cf39596c">
+          <note>
             Anf. 3 Försvarsminister PETER HULTQVIST (S)
           </note>
-          <note n="7bc99f48">
+          <note>
             Anf. 4 ALEXANDRA ANSTRELL (M)
           </note>
-          <note n="e95a3901">
+          <note>
             Anf. 5 Försvarsminister PETER HULTQVIST (S)
           </note>
-          <note n="815071e1">
+          <note>
             Anf. 6 ALEXANDRA ANSTRELL (M)
           </note>
-          <note n="0c17bf2e">
+          <note>
             Anf. 7 Försvarsminister PETER HULTQVIST (S)
           </note>
-          <note n="88b17fcc">
+          <note>
             § 5 Svar på interpellation 2018/19:316 om Kostnadsutjämningsutredningen
           </note>
-          <note n="76072376">
+          <note>
             Anf. 8 Statsrådet ARDALAN SHEKARABI (S)
           </note>
-          <note n="3ac38f98">
+          <note>
             Anf. 9 MIKAEL DAMSGAARD (M)
           </note>
-          <note n="15a570d1">
+          <note>
             Anf. 10 Statsrådet ARDALAN SHEKARABI (S)
           </note>
-          <note n="226f639f">
+          <note>
             Anf. 11 MIKAEL DAMSGAARD (M)
           </note>
-          <note n="6cfda69b">
+          <note>
             Anf. 12 Statsrådet ARDALAN SHEKARABI (S)
           </note>
-          <note n="4b1dc155">
+          <note>
             Anf. 13 MIKAEL DAMSGAARD (M)
           </note>
-          <note n="a919fc28">
+          <note>
             Anf. 14 Statsrådet ARDALAN SHEKARABI (S)
           </note>
-          <note n="7cf92c33">
+          <note>
             § 6 Bordläggning
           </note>
-          <note n="3330abbf">
+          <note>
             § 7 Anmälan om interpellationer
           </note>
-          <note n="10ec5b97">
+          <note>
             § 8 Anmälan om frågor för skriftliga svar
           </note>
-          <note n="490f1070">
+          <note>
             § 9 Anmälan om skriftliga svar på frågor
           </note>
-          <note n="8263993a">
+          <note>
             § 10 Kammaren åtskildes kl. 13.40.
           </note>
-          <note n="0c96e22a">
-            Tryck: Elanders Sverige AB, Vällingby 2019
-          </note>
+          <u xml:id="i-b286276d01c3b855-120" prev="i-b286276d01c3b855-96" who="Q4787806">
+            <seg>
+              Tryck: Elanders Sverige AB, Vällingby 2019
+            </seg>
+          </u>
         </div>
       </body>
     </text>

@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2012</title>
+        <title>Riksdagens protocols 201213</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2012</title>
+          <title>Riksdagens protocols 201213</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -63,135 +60,160 @@
       </front>
       <body>
         <div>
-          <note n="6180b6c5">
-            ﻿
-          </note>
-          <note n="95d9da76">
+          <note>
             Riksdagens protokoll
           </note>
-          <note n="256f714a">
+          <note>
             2012/13:1
           </note>
-          <note type="date" n="42168330">
+          <note>
             Tisdagen den 18 september
           </note>
-          <note n="43624048">
+          <note>
             Kl. 11:00 - 11:43
           </note>
-          <note n="33a771bc">
+          <note>
             1 § Parentation
           </note>
-          <note n="edd377bd" type="speaker">
+          <note type="speaker">
             Anf. 1 TALMANNEN:
           </note>
-          <note n="c37d619d">
-            Ärade riksdagsledamöter! Jag vill hälsa er välkomna till dagen
-            då det nya riksdagsåret formellt börjar. Men i år är det annorlunda
-            då denna dag har ett starkt drag av sorg över sig.
-          </note>
-          <note n="3c5c1542">
-            I mitten av augusti nåddes vi av två tragiska besked att ledamöterna
-            Johnny Munkhammar och Carina Moberg hade avlidit, båda efter en
-            tids sjukdom. Några veckor senare fick vi ytterligare ett dödsbud
-            att ledamoten William Petzäll hade gått bort.
-          </note>
-          <note n="fd507773">
-            I dag står deras platser i kammaren tomma och påminner oss om
-            att tre människor har ryckts bort alldeles för tidigt. Vi är många
-            här i dag som känner sorg och saknad över att plötsligt ha förlorat
-            tre kamrater och kolleger.
-          </note>
-          <note n="eb24572a">
-            Ärade ledamöter! Den 13 augusti fick vi veta att Johnny Munkhammar
-            hade lämnat oss. Våra tankar går i denna stund till Johnnys anhöriga
-            och närmaste, hans hustru Linda och deras två mycket små döttrar.
-          </note>
-          <note n="e91d0694">
+          <u xml:id="i-4d2f5b8a48532553-0" next="i-4d2f5b8a48532553-34" who="Q1375199">
+            <seg>
+              Ärade riksdagsledamöter! Jag vill hälsa er välkomna till dagen
+              då det nya riksdagsåret formellt börjar. Men i år är det annorlunda
+              då denna dag har ett starkt drag av sorg över sig.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-1" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              I mitten av augusti nåddes vi av två tragiska besked att ledamöterna
+              Johnny Munkhammar och Carina Moberg hade avlidit, båda efter en
+              tids sjukdom. Några veckor senare fick vi ytterligare ett dödsbud
+              att ledamoten William Petzäll hade gått bort.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-2" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              I dag står deras platser i kammaren tomma och påminner oss om
+              att tre människor har ryckts bort alldeles för tidigt. Vi är många
+              här i dag som känner sorg och saknad över att plötsligt ha förlorat
+              tre kamrater och kolleger.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-3" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Ärade ledamöter! Den 13 augusti fick vi veta att Johnny Munkhammar
+              hade lämnat oss. Våra tankar går i denna stund till Johnnys anhöriga
+              och närmaste, hans hustru Linda och deras två mycket små döttrar.
+            </seg>
+          </u>
+          <note>
             Johnny Munkhammar föddes den 24 september 1974 och var hemmahörande
             i Österskär. Han utbildade sig till statsvetare och nationalekonom
             vid Uppsala universitet och verkade länge som debattör, författare
             och opinionsbildare innan han 2008 blev medlem i Moderaterna och
             kom in i riksdagen 2010.
           </note>
-          <note n="976c25c1">
+          <note>
             Under nuvarande mandatperiod var Johnny suppleant och verksam
             i skatteutskottet där han för Moderaternas del ansvarade för frågor
             som rörde europeiska skattefrågor och sociala skattereformer såsom
             nystartszoner. Han var även ordförande för skatteutskottets utvärderingsgrupp.
           </note>
-          <note n="e468937b">
-            Johnnys engagemang för att förändra Sverige började tidigt. Att
-            han var en varm anhängare av frihetliga idéer gjorde honom, redan
-            innan han blev riksdagsledamot, till en väl etablerad debattör
-            och författare. Få som följt svensk politisk debatt under 2000-talet
-            har kunnat undgå att lägga märke till Johnny.
-          </note>
-          <note n="d7edce44">
-            Hans målsättning var att bygga ett bättre Sverige, och hans vision
-            var att skapa ett samhälle där alla fullt ut har möjligheten att
-            utveckla sitt liv oavsett bakgrund och härkomst. Frågor som social
-            rörlighet, välfärd och ekonomisk frihet blev därför centrala frågor
-            för Johnny att arbeta med.
-          </note>
-          <note n="7c956de0">
-            Johnny beskrev sig själv som en principfast pragmatiker, och
-            han ville som riksdagsledamot kombinera en stark idépolitisk övertygelse
-            med välgrundade och konkreta reformförslag. Det var något han
-            lyckades väl med, inte minst i utvecklingsarbetet med Moderaternas
-            ekonomiska politik.
-          </note>
-          <note n="df41ae23">
-            För Johnny var det internationella perspektivet alltid närvarande,
-            och han var en stor Europavän. Öppenheten och samarbetet mellan
-            länder var centralt för honom. Hans idéer och reformengagemang
-            gjorde därför inte enbart avtryck i Sverige utan väckte även internationellt
-            intresse. Under sin tid som riksdagsledamot reste han bland annat
-            till ett flertal länder, som USA och Sydkorea, för att debattera
-            för och inspirera till fler reformer.
-          </note>
-          <note n="654d401f">
-            Med ett brinnande engagemang, nyfikenhet och breda sakkunskaper
-            vann han respekt och vänner i breda läger och över partigränser.
-            Hans debattlust var stor, och han deltog med iver i kammarens
-            debatter, alltid övertygad om det goda argumentets betydelse och
-            vikten av sakliga och intensiva debatter.
-          </note>
-          <note n="a6a1cd71">
-            Men lika skarp som Johnny var i talarstolen, lika varm var han
-            som människa. Han sågs ofta skratta med sina motståndare efter
-            en tuff debatt. Skrattet och omtanken låg aldrig långt borta.
-          </note>
-          <note n="d5daf8d6">
-            Johnny var en fighter. När han fick det ödesdigra beskedet om
-            sin sjukdom valde han att tackla det på samma sätt som han antog
-            andra utmaningar i livet: med energi, kämpaglöd och optimism.
-            Även under hans envisa kamp mot den svåra sjukdomen en kamp som
-            vi andra kunde följa på Facebook höll han humöret och energin
-            uppe. Han var verksam in i det absolut sista och en inspiration
-            för oss alla. Även i den svåra tid när de egna krafterna avtog
-            var han den som gav energi och kraft till sin omgivning.
-          </note>
-          <note n="ec570e30">
-            Ständigt aktiv. Ständigt verksam. Johnny hann med mycket under
-            sina nästan 38 år i livet. Han var författare, pr-konsult, ledarskribent,
-            tankesmed, företagare och riksdagsman. Titlarna, uppdraget och
-            arbetsgivare kunde variera, men hans fokus och arbete var ändå
-            desamma. Han var en liberal folkbildare med outtröttlig energi
-            och ständig framtidstro.
-          </note>
-          <note n="9fff0231">
-            Johnny Munkhammar var en mycket uppskattad kollega och vän och
-            inte minst en stolt familjefar. Han lämnar ett mycket stort tomrum
-            efter sig.
-          </note>
-          <note n="a5b422ec">
-            Ärade ledamöter! Våra tankar går också i denna stund till Carina
-            Mobergs anhöriga och närmaste hennes make Johnny och deras små
-            barn. Den 15 augusti nåddes vi av det dystra beskedet att en stark
-            politisk kraft, en driven person som gick in för sitt demokratiska
-            uppdrag med både mod och pliktkänsla, gått ur tiden.
-          </note>
-          <note n="ea9f551a">
+          <u xml:id="i-4d2f5b8a48532553-4" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Johnnys engagemang för att förändra Sverige började tidigt. Att
+              han var en varm anhängare av frihetliga idéer gjorde honom, redan
+              innan han blev riksdagsledamot, till en väl etablerad debattör
+              och författare. Få som följt svensk politisk debatt under 2000-talet
+              har kunnat undgå att lägga märke till Johnny.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-5" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Hans målsättning var att bygga ett bättre Sverige, och hans vision
+              var att skapa ett samhälle där alla fullt ut har möjligheten att
+              utveckla sitt liv oavsett bakgrund och härkomst. Frågor som social
+              rörlighet, välfärd och ekonomisk frihet blev därför centrala frågor
+              för Johnny att arbeta med.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-6" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Johnny beskrev sig själv som en principfast pragmatiker, och
+              han ville som riksdagsledamot kombinera en stark idépolitisk övertygelse
+              med välgrundade och konkreta reformförslag. Det var något han
+              lyckades väl med, inte minst i utvecklingsarbetet med Moderaternas
+              ekonomiska politik.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-7" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              För Johnny var det internationella perspektivet alltid närvarande,
+              och han var en stor Europavän. Öppenheten och samarbetet mellan
+              länder var centralt för honom. Hans idéer och reformengagemang
+              gjorde därför inte enbart avtryck i Sverige utan väckte även internationellt
+              intresse. Under sin tid som riksdagsledamot reste han bland annat
+              till ett flertal länder, som USA och Sydkorea, för att debattera
+              för och inspirera till fler reformer.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-8" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Med ett brinnande engagemang, nyfikenhet och breda sakkunskaper
+              vann han respekt och vänner i breda läger och över partigränser.
+              Hans debattlust var stor, och han deltog med iver i kammarens
+              debatter, alltid övertygad om det goda argumentets betydelse och
+              vikten av sakliga och intensiva debatter.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-9" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Men lika skarp som Johnny var i talarstolen, lika varm var han
+              som människa. Han sågs ofta skratta med sina motståndare efter
+              en tuff debatt. Skrattet och omtanken låg aldrig långt borta.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-10" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Johnny var en fighter. När han fick det ödesdigra beskedet om
+              sin sjukdom valde han att tackla det på samma sätt som han antog
+              andra utmaningar i livet: med energi, kämpaglöd och optimism.
+              Även under hans envisa kamp mot den svåra sjukdomen en kamp som
+              vi andra kunde följa på Facebook höll han humöret och energin
+              uppe. Han var verksam in i det absolut sista och en inspiration
+              för oss alla. Även i den svåra tid när de egna krafterna avtog
+              var han den som gav energi och kraft till sin omgivning.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-11" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Ständigt aktiv. Ständigt verksam. Johnny hann med mycket under
+              sina nästan 38 år i livet. Han var författare, pr-konsult, ledarskribent,
+              tankesmed, företagare och riksdagsman. Titlarna, uppdraget och
+              arbetsgivare kunde variera, men hans fokus och arbete var ändå
+              desamma. Han var en liberal folkbildare med outtröttlig energi
+              och ständig framtidstro.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-12" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Johnny Munkhammar var en mycket uppskattad kollega och vän och
+              inte minst en stolt familjefar. Han lämnar ett mycket stort tomrum
+              efter sig.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-13" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Ärade ledamöter! Våra tankar går också i denna stund till Carina
+              Mobergs anhöriga och närmaste hennes make Johnny och deras små
+              barn. Den 15 augusti nåddes vi av det dystra beskedet att en stark
+              politisk kraft, en driven person som gick in för sitt demokratiska
+              uppdrag med både mod och pliktkänsla, gått ur tiden.
+            </seg>
+          </u>
+          <note>
             Carina Moberg föddes den 17 april 1966 och var hemmahörande i
             Huddinge kommun. Hon utbildade sig till sjukgymnast och engagerade
             sig politiskt. Hon började sin politiska karriär i SSU i början
@@ -200,81 +222,101 @@
             skatteutskottet samt EU-nämnden. Hon var också Socialdemokraternas
             gruppledare under perioden 20112012.
           </note>
-          <note n="e8ce4f5c">
+          <note>
             Carina var en mycket erfaren riksdagsledamot. Under sina 18 år
             i riksdagen hade hon många tunga uppdrag, till exempel som ordförande
             i civilutskottet och som vice ordförande i trafikutskottet.
           </note>
-          <note n="3efa666b">
-            Men det var kanske i rollen som gruppledare som vi fick se Carina
-            blomma ut. Som gruppledare representerade hon sitt parti i samrådsfrågor
-            kring ledningen av riksdagens arbete. I den här för riksdagen
-            utomordentligt arbetstyngda och centrala rollen var Carina alltid
-            aktiv och engagerad. Hon fick hantera såväl komplicerade frågor
-            som frågor av mer praktisk art. För mig som talman är samarbetet
-            med gruppledarna mycket betydelsefullt. Kontakterna och samarbetet
-            med Carina i den här rollen satte jag stort värde på.
-          </note>
-          <note n="f34ca942">
-            Carina var en person som verkligen stod upp för de värden hon
-            trodde på. Hon var rak, ärlig och kunnig. Bakom hennes ofta strikta
-            och professionella yta bultade ett mycket stort hjärta. Det är
-            många som har fått uppleva det. Carinas tid med oss i riksdagen
-            blev som sagt nästan 18 år. Många av de brev som kommit in till
-            oss visar att hon var uppskattad och omtyckt både inom sitt parti
-            Socialdemokraterna och över partigränserna av sina kolleger här
-            i kammaren. Ord som återkommer hela tiden är integritet och värme.
-          </note>
-          <note n="178c3fa6">
-            Hon engagerade sig tidigt i bostadsfrågor och drev dem som ledamot
-            och sedan som ordförande i civilutskottet. Hon brann för upprustningen
-            av miljonprogrammen och arbetade med många organisationer som
-            utvecklade områdena och stred för utbildning och arbete.
-          </note>
-          <note n="2e9912cc">
-            Många av oss som jobbat med Carina lyfter också fram att hon
-            aldrig tog något för givet. Hon var tacksam för varje tjänst och
-            varje del i arbetet. Carina lade stor vikt vid att aldrig tappa
-            kontakten med livet utanför riksdagens väggar. Hon personifierade
-            det fina med svensk demokrati jordnära stod hon mitt i vardagen
-            samtidigt som hon axlade rollen att fatta svåra politiska beslut.
-          </note>
-          <note n="e10a9bd7">
-            Vi vet också att med samma passion som hon tog sig an politiken,
-            försvarade hon tiden med sina barn. Hon skjutsade dem till skolan
-            varje morgon för att få träffa och tala med dem och var otroligt
-            engagerad i deras liv och intressen.
-          </note>
-          <note n="e5b5a892">
-            Carina engagerade sig också personligen i grannars och bekantas
-            levnadsöden och levde efter tydliga principer om medmänsklighet
-            och solidaritet. Hon var den som stod längst på torget och delade
-            flygblad, den som gav sig ut för att möta människor både i med-
-            och motgång.
-          </note>
-          <note n="8016c30f">
-            Vi kommer ihåg Carina som en social och ambitiös kollega, en
-            oerhört hjälpsam person som vi nu tackar och hyllar för hennes
-            insatser i riksdagen och samhället. När en kollega går ur tiden
-            påminns vi alla om livets förgänglighet. Sorgen drabbar oss. Carina
-            Moberg kunde se det goda i människor, och hon tog verkligen vara
-            på livet det är unika och beundransvärda förmågor.
-          </note>
-          <note n="53012dcc">
-            Vi har förlorat en uppskattad kollega, en stor värme, och en
-            respekterad och älskad vän, mamma och hustru.
-          </note>
-          <note n="25549caf">
-            Ärade riksdagsledamöter! Våra tankar går även till William Petzälls
-            anhöriga och närmaste, hans mamma Annika och hans pappa Hans och
-            deras närstående.
-          </note>
-          <note n="462bfa9a">
-            William Petzäll, en talangfull och engagerad politiker, lämnade
-            oss plötsligt den 1 september. När en ung människa dör är sorgen
-            oövervinnerlig.
-          </note>
-          <note n="87891731">
+          <u xml:id="i-4d2f5b8a48532553-14" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Men det var kanske i rollen som gruppledare som vi fick se Carina
+              blomma ut. Som gruppledare representerade hon sitt parti i samrådsfrågor
+              kring ledningen av riksdagens arbete. I den här för riksdagen
+              utomordentligt arbetstyngda och centrala rollen var Carina alltid
+              aktiv och engagerad. Hon fick hantera såväl komplicerade frågor
+              som frågor av mer praktisk art. För mig som talman är samarbetet
+              med gruppledarna mycket betydelsefullt. Kontakterna och samarbetet
+              med Carina i den här rollen satte jag stort värde på.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-15" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Carina var en person som verkligen stod upp för de värden hon
+              trodde på. Hon var rak, ärlig och kunnig. Bakom hennes ofta strikta
+              och professionella yta bultade ett mycket stort hjärta. Det är
+              många som har fått uppleva det. Carinas tid med oss i riksdagen
+              blev som sagt nästan 18 år. Många av de brev som kommit in till
+              oss visar att hon var uppskattad och omtyckt både inom sitt parti
+              Socialdemokraterna och över partigränserna av sina kolleger här
+              i kammaren. Ord som återkommer hela tiden är integritet och värme.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-16" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Hon engagerade sig tidigt i bostadsfrågor och drev dem som ledamot
+              och sedan som ordförande i civilutskottet. Hon brann för upprustningen
+              av miljonprogrammen och arbetade med många organisationer som
+              utvecklade områdena och stred för utbildning och arbete.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-17" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Många av oss som jobbat med Carina lyfter också fram att hon
+              aldrig tog något för givet. Hon var tacksam för varje tjänst och
+              varje del i arbetet. Carina lade stor vikt vid att aldrig tappa
+              kontakten med livet utanför riksdagens väggar. Hon personifierade
+              det fina med svensk demokrati jordnära stod hon mitt i vardagen
+              samtidigt som hon axlade rollen att fatta svåra politiska beslut.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-18" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Vi vet också att med samma passion som hon tog sig an politiken,
+              försvarade hon tiden med sina barn. Hon skjutsade dem till skolan
+              varje morgon för att få träffa och tala med dem och var otroligt
+              engagerad i deras liv och intressen.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-19" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Carina engagerade sig också personligen i grannars och bekantas
+              levnadsöden och levde efter tydliga principer om medmänsklighet
+              och solidaritet. Hon var den som stod längst på torget och delade
+              flygblad, den som gav sig ut för att möta människor både i med-
+              och motgång.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-20" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Vi kommer ihåg Carina som en social och ambitiös kollega, en
+              oerhört hjälpsam person som vi nu tackar och hyllar för hennes
+              insatser i riksdagen och samhället. När en kollega går ur tiden
+              påminns vi alla om livets förgänglighet. Sorgen drabbar oss. Carina
+              Moberg kunde se det goda i människor, och hon tog verkligen vara
+              på livet det är unika och beundransvärda förmågor.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-21" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Vi har förlorat en uppskattad kollega, en stor värme, och en
+              respekterad och älskad vän, mamma och hustru.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-22" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Ärade riksdagsledamöter! Våra tankar går även till William Petzälls
+              anhöriga och närmaste, hans mamma Annika och hans pappa Hans och
+              deras närstående.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-23" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              William Petzäll, en talangfull och engagerad politiker, lämnade
+              oss plötsligt den 1 september. När en ung människa dör är sorgen
+              oövervinnerlig.
+            </seg>
+          </u>
+          <note>
             William Petzäll föddes den 26 augusti 1988 och var hemmahörande
             i Borås kommun. William började sin politiska bana tidigt i livet.
             Nyss fyllda 18 år drev han på egen hand ett kampanjarbete för
@@ -283,260 +325,290 @@
             killen som invid de övriga partiernas valstugor på Stora torget
             i Borås ställde upp sitt bord med flygblad, skrifter och kaffe.
           </note>
-          <note n="d6d75efd">
+          <note>
             År 2010 kom William in i riksdagen där han blev ersättare i flera
             utskott.
           </note>
-          <note n="0c2f1865">
-            William var en politisk naturbegåvning, en person med stark karisma
-            och politisk vilja. Helt utan hjälp eller träning hade han en
-            retorisk förmåga som få, och han hade en oerhört stark inre drivkraft
-            att göra skillnad och att våga lyfta frågor som andra gärna tystar.
-            Hans debattglädje, engagemang och verbala förmåga syntes inte
-            minst här i kammaren.
-          </note>
-          <note n="6b6858dc">
-            William var ung, bara 22 år, när han kom in i riksdagen, men
-            han tog för sig i politiken och gillade att utmana. Denna djärvhet
-            visade han redan tidigt i livet. När han som liten grabb började
-            i en judoklubb valde han att ta sig an den största killen i träningslokalen.
-            När han åkte skidor var det bara de svarta backarna som gällde.
-          </note>
-          <note n="fa66c9a6">
-            I september 2011 gick William och Sverigedemokraterna skilda
-            vägar, men han valde att stanna kvar i riksdagen. Ambitionen var
-            att använda sin riksdagsplats som en plattform för att driva frågor
-            kring beroendevård. I sina anföranden och under debatterna i kammaren
-            resonerade William ofta kring den undergång och förstörelse som
-            missbruk kan leda till. Och han gjorde det med en skoningslös
-            skärpa. Han satte ord på vad det innebär att vara beroende och
-            berättade om de mörka sidorna hos en missbrukare. Han återkom
-            ofta till att han talade av egen erfarenhet, och han tog upp den
-            totala utsatthet en missbrukare upplever.
-          </note>
-          <note n="c3ac18a5">
-            William valde att vara öppen med sitt missbruk. Det är inget
-            lätt val för en ung riksdagsledamot som ständigt är påpassad.
-            Det är en mörk sida som många nog helst inte vill ska nå offentlighetens
-            ljus. Men William hade mod och integritet att spela med öppna
-            kort. Och så här efter hans bortgång kan man konstatera att den
-            debatt som han initierade nu har nått långt utanför riksdagens
-            kammare.
-          </note>
-          <note n="04854eeb">
-            Samtidigt som William brottades med sig själv och sitt inre var
-            han mån om att inte göra sin omgivning besviken. Han kämpade och
-            höll god min och uppträdde självsäkert utåt. Samtidigt som han
-            kämpade med sig själv månade han om sina medmänniskor, inte minst
-            sin mamma.
-          </note>
-          <note n="0ba65382">
-            Många minns William som en kille med stort hjärta och stark inlevelse.
-            En bra mentor och kompis som uppmuntrade både ledamöter och kanslipersonal
-            till att se möjligheter och växa i sina roller. En person med
-            mycket humor och som gärna bjöd på sig själv. En kille som alltid
-            hade ett leende på läpparna och ett särskilt sinne för det roliga
-            i livet.
-          </note>
-          <note n="e1c1a6f3">
-            William kämpade för att bli kvitt sitt missbruk. Det var en kamp
-            som han tyvärr inte vann. I september nåddes vi alltså av beskedet
-            att en samhällsengagerad ung mans liv slocknat.
-          </note>
-          <note n="0e7c493f">
-            William Petzäll brände sitt ljus i båda ändar och rycktes bort
-            alldeles, alldeles för tidigt. Han blev bara 24 år.
-          </note>
-          <note n="1e4b54d3">
-            Vi har förlorat en politisk talang, en uppskattad vän, en djupt
-            älskad son och ett kärt barnbarn.
-          </note>
-          <note n="52473203">
-            Vi hedrar nu Johnny Munkhammar, Carina Moberg och William Petzäll
-            med en tyst minut.
-          </note>
-          <note n="546e1859">
+          <u xml:id="i-4d2f5b8a48532553-24" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              William var en politisk naturbegåvning, en person med stark karisma
+              och politisk vilja. Helt utan hjälp eller träning hade han en
+              retorisk förmåga som få, och han hade en oerhört stark inre drivkraft
+              att göra skillnad och att våga lyfta frågor som andra gärna tystar.
+              Hans debattglädje, engagemang och verbala förmåga syntes inte
+              minst här i kammaren.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-25" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              William var ung, bara 22 år, när han kom in i riksdagen, men
+              han tog för sig i politiken och gillade att utmana. Denna djärvhet
+              visade han redan tidigt i livet. När han som liten grabb började
+              i en judoklubb valde han att ta sig an den största killen i träningslokalen.
+              När han åkte skidor var det bara de svarta backarna som gällde.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-26" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              I september 2011 gick William och Sverigedemokraterna skilda
+              vägar, men han valde att stanna kvar i riksdagen. Ambitionen var
+              att använda sin riksdagsplats som en plattform för att driva frågor
+              kring beroendevård. I sina anföranden och under debatterna i kammaren
+              resonerade William ofta kring den undergång och förstörelse som
+              missbruk kan leda till. Och han gjorde det med en skoningslös
+              skärpa. Han satte ord på vad det innebär att vara beroende och
+              berättade om de mörka sidorna hos en missbrukare. Han återkom
+              ofta till att han talade av egen erfarenhet, och han tog upp den
+              totala utsatthet en missbrukare upplever.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-27" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              William valde att vara öppen med sitt missbruk. Det är inget
+              lätt val för en ung riksdagsledamot som ständigt är påpassad.
+              Det är en mörk sida som många nog helst inte vill ska nå offentlighetens
+              ljus. Men William hade mod och integritet att spela med öppna
+              kort. Och så här efter hans bortgång kan man konstatera att den
+              debatt som han initierade nu har nått långt utanför riksdagens
+              kammare.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-28" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Samtidigt som William brottades med sig själv och sitt inre var
+              han mån om att inte göra sin omgivning besviken. Han kämpade och
+              höll god min och uppträdde självsäkert utåt. Samtidigt som han
+              kämpade med sig själv månade han om sina medmänniskor, inte minst
+              sin mamma.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-29" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Många minns William som en kille med stort hjärta och stark inlevelse.
+              En bra mentor och kompis som uppmuntrade både ledamöter och kanslipersonal
+              till att se möjligheter och växa i sina roller. En person med
+              mycket humor och som gärna bjöd på sig själv. En kille som alltid
+              hade ett leende på läpparna och ett särskilt sinne för det roliga
+              i livet.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-30" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              William kämpade för att bli kvitt sitt missbruk. Det var en kamp
+              som han tyvärr inte vann. I september nåddes vi alltså av beskedet
+              att en samhällsengagerad ung mans liv slocknat.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-31" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              William Petzäll brände sitt ljus i båda ändar och rycktes bort
+              alldeles, alldeles för tidigt. Han blev bara 24 år.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-32" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Vi har förlorat en politisk talang, en uppskattad vän, en djupt
+              älskad son och ett kärt barnbarn.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-33" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Vi hedrar nu Johnny Munkhammar, Carina Moberg och William Petzäll
+              med en tyst minut.
+            </seg>
+          </u>
+          <note>
             Ajournering
           </note>
-          <note n="16357aa3">
+          <note>
             Kammaren beslutade kl. 11.18 på förslag av talmannen att ajournera
             sammanträdet till kl. 11.30.
           </note>
-          <note n="8735aabc">
-            Återupptagna förhandlingar
-          </note>
-          <note n="70047200">
+          <u xml:id="i-4d2f5b8a48532553-34" prev="i-4d2f5b8a48532553-0" who="Q1375199">
+            <seg>
+              Återupptagna förhandlingar
+            </seg>
+          </u>
+          <note>
             Sammanträdet återupptogs kl. 11.30.
           </note>
-          <note n="f8f61f3a">
+          <note>
             Meddelande om tillgänglighet till riksdagens debatter
           </note>
-          <note n="d3b99b41" type="speaker">
+          <note type="speaker">
             Anf. 2 TALMANNEN:
           </note>
-          <note n="a4f79665">
-            Innan vi börjar med uppropet vill jag passa på att berätta om
-            en nyhet i riksdagen.
-          </note>
-          <note n="36250435">
-            Nytt för det här riksmötet är att ni kommer att kunna följa alla
-            riksdagens debatter direkt i era mobiler och senare under hösten
-            pekplattor. Och det kommer självklart allmänheten också att kunna
-            göra. Redan nu sitter kanske någon på tåget och tittar på oss
-            via riksdagen.se i sin mobil. Det här blir ett ytterligare steg
-            för en ökad öppenhet och tillgänglighet av riksdagens arbete och
-            beslut.
-          </note>
-          <note n="3a4efb59">
+          <u xml:id="i-4d2f5b8a48532553-35" who="unknown">
+            <seg>
+              Innan vi börjar med uppropet vill jag passa på att berätta om
+              en nyhet i riksdagen.
+            </seg>
+          </u>
+          <u xml:id="i-4d2f5b8a48532553-36" who="unknown">
+            <seg>
+              Nytt för det här riksmötet är att ni kommer att kunna följa alla
+              riksdagens debatter direkt i era mobiler och senare under hösten
+              pekplattor. Och det kommer självklart allmänheten också att kunna
+              göra. Redan nu sitter kanske någon på tåget och tittar på oss
+              via riksdagen.se i sin mobil. Det här blir ett ytterligare steg
+              för en ökad öppenhet och tillgänglighet av riksdagens arbete och
+              beslut.
+            </seg>
+          </u>
+          <note>
             2 § Ledigheter från dagens sammanträde
           </note>
-          <note n="e62f84e7">
+          <note>
             Talmannen anmälde att följande ledamöter beviljats ledighet från
             dagens sammanträde:
           </note>
-          <note n="3cc5faa0">
+          <note>
             Jan R Andersson (M), Leif Pagrotsky (S) och Johan Pehrson (FP).
           </note>
-          <note n="1cedae81">
+          <note>
             3 § Upprop
           </note>
-          <note n="e4258e6f">
+          <note>
             Företogs upprop av kammarens ledamöter.
           </note>
-          <note n="f866f973">
+          <note>
             Kammaren hade denna dag följande sammansättning:
           </note>
-          <note n="cba133d0">
+          <note>
             4 § Avsägelser
           </note>
-          <note n="7215ca85">
+          <note>
             Talmannen meddelade att Liselott Hagberg (FP) anhållit om entledigande
             från uppdragen som ledamot av riksdagen och som tredje vice talman
             från och med den 1 oktober 2012.
           </note>
-          <note n="ad6cd334">
+          <note>
             Kammaren biföll denna anhållan.
           </note>
-          <note n="617e42f5">
+          <note>
             Talmannen meddelade att Sven-Erik Österberg (S) anhållit om entledigande
             från uppdraget som ledamot av riksdagen från och med den 1 oktober
             2012.
           </note>
-          <note n="ad6cd334">
+          <note>
             Kammaren biföll denna anhållan.
           </note>
-          <note n="61c4500d">
+          <note>
             5 § Meddelande om val av tredje vice talman
           </note>
-          <note n="02942e69">
+          <note>
             Talmannen meddelade att val av tredje vice talman skulle äga
             rum onsdagen den 19 september efter voteringen kl. 16.00 .
           </note>
-          <note n="e353e849">
+          <note>
             6 § Anmälan om inkomna faktapromemorior om förslag från Europeiska
             kommissionen
           </note>
-          <note n="89ed2f80">
+          <note>
             Talmannen anmälde att följande faktapromemorior om förslag från
             Europeiska kommissionen inkommit och överlämnats till utskott:
           </note>
-          <note n="64d72edb">
+          <note>
             KOM(2012) 430
           </note>
-          <note n="a9bf675f">
+          <note>
             KOM(2012) 351
           </note>
-          <note n="2f1dce29">
+          <note>
             7 § Hänvisning av ärenden till utskott
           </note>
-          <note n="7b435e7f">
+          <note>
             Föredrogs och hänvisades
           </note>
-          <note n="dbfcd9e1">
+          <note>
             den 8 november
           </note>
-          <note n="0ec3f70b">
+          <note>
             8 § Förnyad bordläggning
           </note>
-          <note n="bb727ba7">
+          <note>
             Föredrogs och bordlades åter
           </note>
-          <note n="ece55dd0">
+          <note>
             9 § Bordläggning
           </note>
-          <note n="2edb8ee4">
+          <note>
             Anmäldes och bordlades
           </note>
-          <note n="555d93bc">
+          <note>
             10 § Anmälan om frågor för skriftliga svar
           </note>
-          <note n="c1f86e1c">
-            Anmäldes att följande frågor för skriftliga svar framställts
-          </note>
-          <note n="f7a3cade">
+          <u xml:id="i-4d2f5b8a48532553-37" who="unknown">
+            <seg>
+              Anmäldes att följande frågor för skriftliga svar framställts
+            </seg>
+          </u>
+          <note>
             den 14 september
           </note>
-          <note n="fe29ba21">
+          <note>
             Anders Karlsson
           </note>
-          <note n="2efc92ae">
+          <note>
             Peter Hultqvist
           </note>
-          <note n="bda55971">
+          <note>
             den 17 september
           </note>
-          <note n="e54fba1e">
+          <note>
             Christina Höj Larsen
           </note>
-          <note n="e1605bc2">
+          <note>
             Frågorna 2011/12:770 och 771 redovisas i bilaga som fogats till
             detta protokoll.
           </note>
-          <note n="c5e92a10">
+          <note>
             Fråga 2011/12:772 redovisas i bilaga som fogats till riksdagens
             snabbprotokoll tisdagen den 2 oktober.
           </note>
-          <note n="5157a9c7">
+          <note>
             11 § Anmälan om skriftliga svar på frågor
           </note>
-          <note n="34037241">
+          <note>
             Anmäldes att skriftliga svar på följande frågor inkommit
           </note>
-          <note n="f7a3cade">
+          <note>
             den 14 september
           </note>
-          <note n="fd9773e8">
+          <note>
             Carina Hägg
           </note>
-          <note n="bda55971">
+          <note>
             den 17 september
           </note>
-          <note n="9ec4951c">
+          <note>
             Jens Holm
           </note>
-          <note n="d0daa5fc">
+          <note>
             Lars Mejern Larsson
           </note>
-          <note n="600d9a96">
+          <note>
             den 18 september
           </note>
-          <note n="fe29ba21">
+          <note>
             Anders Karlsson
           </note>
-          <note n="c474f55f">
+          <note>
             Catharina Bråkenhielm
           </note>
-          <note n="cfa5fa5f">
+          <note>
             Svaren redovisas i bilaga som fogats till riksdagens snabbprotokoll
             tisdagen den 2 oktober.
           </note>
-          <note n="89c2b8bb">
+          <note>
             12 § Kammaren åtskildes kl. 11.43.
           </note>
-          <note n="37546cc3">
-            Förhandlingarna leddes av talmannen.
-          </note>
-          <note n="44b7d22c">
+          <u xml:id="i-4d2f5b8a48532553-38" who="unknown">
+            <seg>
+              Förhandlingarna leddes av talmannen.
+            </seg>
+          </u>
+          <note>
             /Eva-Lena Ekman
           </note>
         </div>

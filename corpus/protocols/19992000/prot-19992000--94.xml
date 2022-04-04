@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1999</title>
+        <title>Riksdagens protocols 19992000</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1999</title>
+          <title>Riksdagens protocols 19992000</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -63,34 +60,36 @@
       </front>
       <body>
         <div>
-          <note n="39a46bf4">
+          <note>
             Det justerade protokollet beräknas utkomma om 3 veckor
           </note>
-          <note n="9bfcaa70">
+          <note>
             --------------------------------------------------------------------
           </note>
-          <note n="2aab2fc0">
+          <note>
             1 § Meddelande om debatt med anledning av vårpropositionen
           </note>
-          <note n="b620fa66">
+          <note>
             Förste vice talmannen meddelade att debattreglerna för debatten
             med anledning av vårpropositionen torsdagen den 13 april kl. 9.00
             delats ut till kammarens ledamöter.
           </note>
-          <note n="388b00e2">
+          <note>
             2 § Svar på interpellation 1999/2000:313 om konkurrensneutralitet
             för veterinärer
           </note>
-          <note type="speaker" n="831463bf">
+          <note type="speaker">
             Anf. 1 Jordbruksminister MARGARETA WINBERG (s):
           </note>
-          <u who="Q3430022" xml:id="i-8558f887e007dbc8-0" n="6eb8c7a5">
-            <seg n="06249682">
+          <u xml:id="i-6952af79d5f61fb4-0" next="i-6952af79d5f61fb4-4" who="Q3430022">
+            <seg>
               Herr talman! Christel Anderberg har frågat mig vilka åtgärder
               jag ämnar vidta för att åstadkomma konkurrensneutralitet mellan
               statliga och privata veterinärer.
             </seg>
-            <seg n="0f6fccfe">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-1" prev="i-6952af79d5f61fb4-0" who="Q3430022">
+            <seg>
               Distriktsveterinärorganisationen har som huvudsyfte att tillgodose
               behovet av sjuk- och hälsovård hos djur inom animalieproduktionen
               och hos hästar som används inom jord- och skogsbruket. En viktig
@@ -107,7 +106,9 @@
               de privata klinikerna utan att i samarbete med dessa kunna erbjuda
               djurägarna all tänkbar service.
             </seg>
-            <seg n="2668ff96">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-2" prev="i-6952af79d5f61fb4-0" who="Q3430022">
+            <seg>
               Konkurrensrådet har i ett yttrande nyligen gjort bedömningen
               att privatpraktiserande och statsanställda veterinärer inte konkurrerar
               på lika villkor. Jag har informerats om att många av de frågor
@@ -115,7 +116,9 @@
               Statens jordbruksverk, som är ansvarig myndighet för distriktsveterinärorganisationen.
               I september 1999
             </seg>
-            <seg n="075b2134">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-3" prev="i-6952af79d5f61fb4-0" who="Q3430022">
+            <seg>
               tillsatte Jordbruksverket en arbetsgrupp bestående av representanter
               från Veterinärförbundet, LRF, länsveterinärerna och Jordbruksverket.
               Gruppen sammanträder regelbundet med ambitionen att nå ett ökat
@@ -128,7 +131,9 @@
               till avlägset boende djurägare hoppas arbetsgruppen nå en gemensam
               ståndpunkt under år 2000.
             </seg>
-            <seg n="cd27e342">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-4" prev="i-6952af79d5f61fb4-0" who="Q3430022">
+            <seg>
               Jag tycker att det är positivt att Jordbruksverket har tagit
               initiativ till en arbetsgrupp där parterna kan diskutera och behandla
               gemensamma frågeställningar, och jag förlitar mig på att man där
@@ -138,30 +143,38 @@
               mellan statliga och privata veterinärer.
             </seg>
           </u>
-          <note type="speaker" n="5f50075d">
+          <note type="speaker">
             Anf. 2 CHRISTEL ANDERBERG (m):
           </note>
-          <u who="Q4935587" xml:id="i-205ce25fc4269eb0-0" n="3edd8927">
-            <seg n="837b89ba">
+          <u xml:id="i-6952af79d5f61fb4-5" next="i-6952af79d5f61fb4-17" who="Q4935587">
+            <seg>
               Herr talman! Jag ber att få tacka statsrådet Winberg för svaret.
               Statsrådet säger att avsikten naturligtvis inte är att distriktsveterinärorganisationen
               ska konkurrera ut de privata klinikerna utan att i samarbete med
               dessa kunna erbjuda djurägarna all tänkbar service. Det är teorin.
             </seg>
-            <seg n="146137d6">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-6" prev="i-6952af79d5f61fb4-5" who="Q4935587">
+            <seg>
               Men låt mig då ge några ögonblicksbilder ur den för privata veterinärer
               mycket bistra verkligheten.
             </seg>
-            <seg n="8585355b">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-7" prev="i-6952af79d5f61fb4-5" who="Q4935587">
+            <seg>
               Jag ska ta ett exempel från Gotland. Där utövar
             </seg>
-            <seg n="d1d1aa8e">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-8" prev="i-6952af79d5f61fb4-5" who="Q4935587">
+            <seg>
               Jordbruksverket en stenhård konkurrens och ska under innevarande
               år etablera en statlig station och anställa fler veterinärer mitt
               på Gotland, precis där de privatpraktiserande veterinärerna är
               verksamma.
             </seg>
-            <seg n="ce36bd4d">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-9" prev="i-6952af79d5f61fb4-5" who="Q4935587">
+            <seg>
               De statliga veterinärerna har just haft öppet hus med kraftigt
               dumpade priser på kastrering och vaccinering av katter, priser
               som en privatpraktiker aldrig skulle kunna komma i närheten av.
@@ -169,15 +182,21 @@
               var att staten bjöd på gratis årlig vaccination av en katt så
               länge den levde.
             </seg>
-            <seg n="d50b4d0a">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-10" prev="i-6952af79d5f61fb4-5" who="Q4935587">
+            <seg>
               En veterinär på Gotland säger: Det är ju mina skattepengar som
               jag har arbetat ihop som staten skickar ned till grannveterinären
               för att slå ihjäl min verksamhet. Det är ju sjukt.
             </seg>
-            <seg n="ccc8650c">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-11" prev="i-6952af79d5f61fb4-5" who="Q4935587">
+            <seg>
               Även i Kristianstad jäser det bland veterinärerna.
             </seg>
-            <seg n="53170b64">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-12" prev="i-6952af79d5f61fb4-5" who="Q4935587">
+            <seg>
               Där bedriver staten också en mycket offensiv verksamhet. Där
               säger en veterinär: Man läser sex-sju år och vidareutbildar sig.
               Sedan lånar man pengar och öppnar eget. Och när företaget väl
@@ -185,25 +204,35 @@
               en. De hyr in häst-, hund- och kattspecialister. De köper in lokaler,
               utrustning och annonserar om billig hundmat etc.
             </seg>
-            <seg n="c90ad5d7">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-13" prev="i-6952af79d5f61fb4-5" who="Q4935587">
+            <seg>
               för att dra kunder. De dumpar priserna, och till slut lyckas
               de knäcka den privatpraktiserande veterinären.
             </seg>
-            <seg n="4354f46e">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-14" prev="i-6952af79d5f61fb4-5" who="Q4935587">
+            <seg>
               Så ser det ut i verkligheten, statsrådet.
             </seg>
-            <seg n="96500f4d">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-15" prev="i-6952af79d5f61fb4-5" who="Q4935587">
+            <seg>
               Mot den här bakgrunden måste man naturligtvis fråga sig om Jordbruksverket
               verkligen är rätt instans att bringa ordning i konkurrensfrågorna.
               Statliga verk har inte precis gjort sig kända för att godvilligt
               se inskränkningar i sina revir.
             </seg>
-            <seg n="8f190025">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-16" prev="i-6952af79d5f61fb4-5" who="Q4935587">
+            <seg>
               Jag har också erfarit att diskussionerna i den arbetsgrupp som
               statsrådet nämnde har gått i stå. Veterinärerna upplever att det
               pratas och att det lovas.
             </seg>
-            <seg n="9b17e0b4">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-17" prev="i-6952af79d5f61fb4-5" who="Q4935587">
+            <seg>
               Men när det kommer till handling så gör verket precis tvärtom,
               en uppfattning som nyss nämnda exempel visar att veterinärerna
               kan ha visst fog för. Därför undrar jag nu om statsrådet Winberg
@@ -211,18 +240,22 @@
               vidta åtgärder så att Konkurrensrådets råd och synpunkter efterkoms.
             </seg>
           </u>
-          <note type="speaker" n="831463bf">
+          <note type="speaker">
             Anf. 3 Jordbruksminister MARGARETA WINBERG (s):
           </note>
-          <u who="Q3430022" xml:id="i-8558f887e007dbc8-1" n="6eb8c7a5">
-            <seg n="34981b62">
+          <u xml:id="i-6952af79d5f61fb4-18" next="i-6952af79d5f61fb4-22" who="Q3430022">
+            <seg>
               Herr talman! Det var två ögonblicksbilder från
             </seg>
-            <seg n="804e64ac">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-19" prev="i-6952af79d5f61fb4-18" who="Q3430022">
+            <seg>
               Gotland och Kristianstad. Och det är säkert på sina ställen på
               det sätt som Christel Anderberg säger.
             </seg>
-            <seg n="eb9f1006">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-20" prev="i-6952af79d5f61fb4-18" who="Q3430022">
+            <seg>
               Samtidigt ska vi komma ihåg att det troligen är väldigt svårt
               att skapa en organisation som täcker de områden där de privata
               veterinärerna inte vill vara, t.ex. alla Norrlandslänen. Där är
@@ -234,7 +267,9 @@
               områden där marknaden finns. Men där marknaden inte finns måste
               vi ju tillgodose att vi har ett heltäckande system.
             </seg>
-            <seg n="0b3bb066">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-21" prev="i-6952af79d5f61fb4-18" who="Q3430022">
+            <seg>
               Avgifterna kommer att höjas. Det har förutskickats att de statliga
               avgifterna från distriktsveterinärerna kommer att höjas. Men mot
               bakgrund av det beslut som vi fattade 1995 och som hade sina orsaker,
@@ -251,22 +286,26 @@
               på det här viset kan lösa ett problem som är uppenbart, och det
               har också uppmärksammats av
             </seg>
-            <seg n="de7896f6">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-22" prev="i-6952af79d5f61fb4-18" who="Q3430022">
+            <seg>
               Jordbruksverket.
             </seg>
           </u>
-          <note type="speaker" n="f751536d">
+          <note type="speaker">
             Anf. 4 CHRISTEL ANDERBERG (m):
           </note>
-          <u who="Q4935587" xml:id="i-205ce25fc4269eb0-1" n="3edd8927">
-            <seg n="30b79bef">
+          <u xml:id="i-6952af79d5f61fb4-23" next="i-6952af79d5f61fb4-31" who="Q4935587">
+            <seg>
               Fru talman! Det är riktigt att det finns glesbygdsområden där
               staten förmodligen måste ta ett ansvar för att det bedrivs veterinärvård
               av hög kvalitet. Men staten ska inte gå in i områden där det finns
               privata veterinärer, småföretagare, som sköter den här verksamheten
               minst lika bra.
             </seg>
-            <seg n="c0b1bc40">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-24" prev="i-6952af79d5f61fb4-23" who="Q4935587">
+            <seg>
               Konkurrensrådet har i sin undersökning sett att det finns områden
               i södra Sverige där det är gott om privatpraktiserande veterinärer
               och där distriktsveterinärorganisationen har schemalagt 30-40
@@ -275,12 +314,16 @@
               Tvärtom talar det för att man borde ha åtgärdat problemen för
               länge sedan.
             </seg>
-            <seg n="de8d2243">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-25" prev="i-6952af79d5f61fb4-23" who="Q4935587">
+            <seg>
               Konkurrensrådet efterlyser också åtgärder från statsmakternas
               sida. Rådet säger att om Jordbruksverket och Veterinärförbundet
               inte kommer överens -
             </seg>
-            <seg n="24ec8e75">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-26" prev="i-6952af79d5f61fb4-23" who="Q4935587">
+            <seg>
               mycket tyder på att de inte gör det - måste statsmakterna närmare
               precisera vad de statliga anslagen ska användas till, varvid utgångspunkten
               måste vara att skattemedel får användas enbart för att täcka de
@@ -288,17 +331,23 @@
               att täcka sådana kostnader som privata veterinärer måste finansiera
               med kundintäkter.
             </seg>
-            <seg n="4cd63d05">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-27" prev="i-6952af79d5f61fb4-23" who="Q4935587">
+            <seg>
               När det gäller bidrag till avlägset boende djurägare säger Konkurrensrådet:
               Ett steg i riktning mot ökad konkurrensneutralitet skulle vara
               att närmare utreda möjligheterna att låta detta bidrag utgå, oberoende
               av om veterinärinsatsen görs av en statlig eller en privat veterinär.
             </seg>
-            <seg n="0bcb1b9e">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-28" prev="i-6952af79d5f61fb4-23" who="Q4935587">
+            <seg>
               Enligt rådet bör regeringen ta initiativ till att en sådan översyn
               sker.
             </seg>
-            <seg n="108fb531">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-29" prev="i-6952af79d5f61fb4-23" who="Q4935587">
+            <seg>
               Vidare säger Konkurrensrådet att de problem i konkurrenshänseende
               som uppkommer av att Jordbruksverket kombinerar myndighetsutövning
               och försäljningen av konkurrensutsatta veterinärtjänster inte
@@ -307,23 +356,29 @@
               Jordbruksverket. Även detta torde kräva åtgärder från regeringens
               sida.
             </seg>
-            <seg n="22268b3a">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-30" prev="i-6952af79d5f61fb4-23" who="Q4935587">
+            <seg>
               Herr talman! Det är inte bara Konkurrensrådet som förväntar sig
               kraftfulla åtgärder från jordbruksministerns sida nu, utan det
               gör också vi moderater -
             </seg>
-            <seg n="4d859cef">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-31" prev="i-6952af79d5f61fb4-23" who="Q4935587">
+            <seg>
               för att inte tala om Sveriges ca 800 privatpraktiserande veterinärer!
             </seg>
           </u>
-          <note type="speaker" n="831463bf">
+          <note type="speaker">
             Anf. 5 Jordbruksminister MARGARETA WINBERG (s):
           </note>
-          <u who="Q3430022" xml:id="i-8558f887e007dbc8-2" n="6eb8c7a5">
-            <seg n="27ea39f7">
+          <u xml:id="i-6952af79d5f61fb4-32" next="i-6952af79d5f61fb4-39" who="Q3430022">
+            <seg>
               Herr talman! Jo, det sista förstår jag mycket väl.
             </seg>
-            <seg n="791f0682">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-33" prev="i-6952af79d5f61fb4-32" who="Q3430022">
+            <seg>
               Ni moderater har väl aldrig varit särskilt stora anhängare av
               att ha ett statligt system. Men nu är det ju så att vi, inte minst
               av djurskyddsskäl, måste tillgodose djurens omvårdnad på det här
@@ -332,12 +387,16 @@
               sig förstå, för det är bekvämt och bra. Men vem ska då ta hand
               om djuren om de blir sjuka på natten?
             </seg>
-            <seg n="fe1ae30c">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-34" prev="i-6952af79d5f61fb4-32" who="Q3430022">
+            <seg>
               Vidare finns det en del privata veterinärer som inte vill ta
               hand om stora djur, t.ex. hästar. Då måste vi också kunna lösa
               den frågan.
             </seg>
-            <seg n="6fa3d3d1">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-35" prev="i-6952af79d5f61fb4-32" who="Q3430022">
+            <seg>
               Sedan till frågan om inte också de privata ska få ta del av statens
               pengar. Detta hör till det som arbetsgruppen tittar på. Det statliga
               anslaget för innevarande år uppgår till drygt 75 miljoner. Fördelningen
@@ -345,11 +404,15 @@
               landets norra delar där det alltså inte finns samma intresse därför
               att marknaden inte är så stor.
             </seg>
-            <seg n="f924c836">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-36" prev="i-6952af79d5f61fb4-32" who="Q3430022">
+            <seg>
               Det är inte så djurtätt. Det finns inte samma intresse för privata
               kliniker och annat.
             </seg>
-            <seg n="8e04b5a2">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-37" prev="i-6952af79d5f61fb4-32" who="Q3430022">
+            <seg>
               Om man tog bort distriktsveterinärernas möjligheter att behandla
               även sällskapsdjur och sporthästar skulle man behöva höja detta
               anslag betydligt. Principen för fördelningen av anslaget för de
@@ -357,16 +420,20 @@
               hänsyn till antalet anställda veterinärer vid stationen och genomsnittligt
               reseavstånd vid förrättningar avseende lantbrukets djur.
             </seg>
-            <seg n="6064a539">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-38" prev="i-6952af79d5f61fb4-32" who="Q3430022">
+            <seg>
               Den här fördelningsprincipen betyder att anslaget per station
               i absoluta belopp är störst för stationer i glesbygdsområden.
               De som erhåller de mesta pengarna är Jämtlands, Västernorrlands,
               Västerbottens och
             </seg>
-            <seg n="35864059">
-              Norrbottens län.
-            </seg>
-            <seg n="1f6cbe70">
+          </u>
+          <note>
+            Norrbottens län.
+          </note>
+          <u xml:id="i-6952af79d5f61fb4-39" prev="i-6952af79d5f61fb4-32" who="Q3430022">
+            <seg>
               Låt oss avvakta. Nu när Jordbruksverket självt har tagit initiativ
               till denna grupp, när de olika intressenterna sitter i gruppen
               och när det - såvitt jag förstår och har fått mig berättat - är
@@ -376,16 +443,18 @@
               eller inte! Jag är övertygad om att de klarar det.
             </seg>
           </u>
-          <note type="speaker" n="277aedf1">
+          <note type="speaker">
             Anf. 6 CHRISTEL ANDERBERG (m):
           </note>
-          <u who="Q4935587" xml:id="i-205ce25fc4269eb0-2" n="3edd8927">
-            <seg n="f2a3b3b6">
+          <u xml:id="i-6952af79d5f61fb4-40" next="i-6952af79d5f61fb4-46" who="Q4935587">
+            <seg>
               Herr talman! Vad gäller samtalsklimatet i arbetsgruppen skulle
               jag vilja råda ministern att inte bara lyssna på ena parten, Jordbruksverket,
               utan också på motparten, Veterinärförbundet och dess medlemmar.
             </seg>
-            <seg n="1198882a">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-41" prev="i-6952af79d5f61fb4-40" who="Q4935587">
+            <seg>
               När det gäller jourtjänstgöring skulle jag vilja ta ett exempel
               från min egen gamla verksamhet. När man lade om reglerna så att
               häktningsförhandlingar skulle ske även under helger och annan
@@ -393,38 +462,48 @@
               att privata advokater arrangerade ett heltäckande, väl fungerande
               joursystem. Det skulle man mycket väl kunna göra också inom veterinärområdet.
             </seg>
-            <seg n="c6217235">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-42" prev="i-6952af79d5f61fb4-40" who="Q4935587">
+            <seg>
               Även om inte alla veterinärer är förtjusta över att behöva ingå
               i jourverksamhet skulle, är jag säker på, tillräckligt många ta
               den nackdelen om de i stället vinner att slippa bli utkonkurrerade
               av distriktsveterinärer som konkurrerar med hjälp av statliga
               subventioner.
             </seg>
-            <seg n="d3a04a1e">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-43" prev="i-6952af79d5f61fb4-40" who="Q4935587">
+            <seg>
               Det är alldeles riktigt att vi moderater gärna vill se den statliga
               verksamheten begränsad men samtidigt vill vi se staten stark på
               de områden där den behövs.
             </seg>
-            <seg n="1dbda9d5">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-44" prev="i-6952af79d5f61fb4-40" who="Q4935587">
+            <seg>
               Det behövs förmodligen statliga veterinärer på många områden
               i vårt land men där de inte behövs ska de dra sig tillbaka - alternativt
               tillämpa sådana taxor att privata och statliga veterinärer konkurrerar
               på samma villkor.
             </seg>
-            <seg n="3836ef81">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-45" prev="i-6952af79d5f61fb4-40" who="Q4935587">
+            <seg>
               Jag skulle önska att ministern ville ta till sig detta och även
               överlägga med sina regeringskolleger på
             </seg>
-            <seg n="1892c3cf">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-46" prev="i-6952af79d5f61fb4-40" who="Q4935587">
+            <seg>
               Näringsdepartementet. Ytterst är det här en principiellt ganska
               stor fråga om villkoren för privata småföretagare. Tack!
             </seg>
           </u>
-          <note type="speaker" n="831463bf">
+          <note type="speaker">
             Anf. 7 Jordbruksminister MARGARETA WINBERG (s):
           </note>
-          <u who="Q3430022" xml:id="i-44e0f4375d62c434-0" n="6eb8c7a5" next="i-0292a7e1ccbdcb7e-0">
-            <seg n="37a0f56c">
+          <u xml:id="i-6952af79d5f61fb4-47" next="i-6952af79d5f61fb4-57" who="Q3430022">
+            <seg>
               Herr talman! Beträffande samtalsklimatet vill jag säga att självklart
               lyssnar vi också på de andra. Vi pratar inte bara med Jordbruksverket,
               utan vi kan prata också med privata företagare och det gör vi.
@@ -438,12 +517,16 @@
               och få lugn och ro både fram till dess och förhoppningsvis också
               efter det.
             </seg>
-            <seg n="f9d95bdd">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-48" prev="i-6952af79d5f61fb4-47" who="Q3430022">
+            <seg>
               Christel Anderberg säger att veterinärerna ska ingå i ett slags
               jourverksamhet. Det är ju det som vi tidigare har försökt med
               men det har inte fungerat.
             </seg>
-            <seg n="a39c494f">
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-49" prev="i-6952af79d5f61fb4-47" who="Q3430022">
+            <seg>
               Man kan inte tvinga privata veterinärer att göra det här. Det
               är så att en del inte vill, och det kan jag förstå. Det är bra,
               skönt, att bara behöva arbeta på dagtid om man klarar sig med
@@ -451,197 +534,211 @@
               måste ta ett ansvar för djurskyddet också kl. 2 på natten.
             </seg>
           </u>
-          <note n="bb900694">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="a46cc169">
+          <note>
             3 § Hänvisning av ärenden till utskott
           </note>
-          <note n="d51f1c49">
+          <note>
             Föredrogs och hänvisades
           </note>
-          <note n="a6ff5c70">
+          <note>
             Proposition
           </note>
-          <note n="14b9a596">
+          <note>
             1999/2000:96 justitieutskottet
           </note>
-          <note n="bf395149">
+          <note>
             Motioner
           </note>
-          <note n="f5aacae2">
+          <note>
             1999/2000:Ju24 till justitieutskottet
           </note>
-          <note n="d03a5f4a">
+          <note>
             1999/2000:T11-T15 till trafikutskottet
           </note>
-          <note n="a1afca1b">
+          <note>
             1999/2000:So24-So46 till socialutskottet
           </note>
-          <note n="86ff6332">
+          <note>
             1999/2000:Ju25 till justitieutskottet
           </note>
-          <note n="186cfdf3">
+          <note>
             1999/2000:L18 till lagutskottet
           </note>
-          <note n="58f47e27">
+          <note>
             4 § Bordläggning
           </note>
-          <note n="010db81a">
+          <note>
             Anmäldes och bordlades
           </note>
-          <note n="3124762c">
+          <note>
             Finansutskottets betänkanden
           </note>
-          <u who="Q3430022" xml:id="i-0292a7e1ccbdcb7e-0" n="6eb8c7a5" prev="i-44e0f4375d62c434-0">
-            <seg n="75d657e7">
-              1999/2000:FiU19 AP-fonden i det reformerade pensionssystemet
-            </seg>
-            <seg n="37df44af">
-              1999/2000:FiU24 Statliga kreditgarantier
-            </seg>
-            <seg n="7c5e7279">
-              1999/2000:KU15 Kommersiell lokalradio och andra mediefrågor
-            </seg>
-            <seg n="7eb07a62">
-              Folkomröstningsinstitutet
-            </seg>
-            <seg n="1c61ab1b">
-              1999/2000:800 av Inga Berggren (m) till statsrådet
-            </seg>
-            <seg n="1118f9e5">
-              Europeiskt icke-diskriminerande medborgarskap
-            </seg>
-            <seg n="c5f81d4a">
-              Adoptioner
-            </seg>
-            <seg n="f02d1914">
-              Nätbolag med bristande rapportering
-            </seg>
-          </u>
-          <note n="7a5de351">
+          <note>
+            1999/2000:FiU19 AP-fonden i det reformerade pensionssystemet
+          </note>
+          <note>
             1999/2000:FiU18 Ansvaret för fastställande av diskontot m.m.
           </note>
-          <note n="c4a63f7a">
+          <note>
+            1999/2000:FiU24 Statliga kreditgarantier
+          </note>
+          <note>
             Bostadsutskottets betänkande
           </note>
-          <note n="26b52a4c">
+          <note>
             1999/2000:BoU08 Registrering av fastighetsrättsliga förhållanden,
             m.m.
           </note>
-          <note n="74f2dbe5">
+          <note>
             Konstitutionsutskottets betänkanden
           </note>
-          <note n="5a0527f4">
+          <note>
+            1999/2000:KU15 Kommersiell lokalradio och andra mediefrågor
+          </note>
+          <note>
             1999/2000:KU18 Helgdagar, ordnar och flaggor
           </note>
-          <note n="32816c67">
+          <note>
             1999/2000:KU21 Fråga om medgivande enligt 4 kap.
           </note>
-          <note n="568dbc8c">
+          <note>
             8 § första stycket regeringsformen att väcka åtal mot riksdagsledamot
           </note>
-          <note n="df211873">
+          <note>
             Justitieutskottets betänkande
           </note>
-          <note n="20cc315f">
+          <note>
             1999/2000:JuU14 Ändringar i rättshjälpslagen
           </note>
-          <note n="57e4b5f2">
+          <note>
             Socialförsäkringsutskottets betänkande
           </note>
-          <note n="25d0f671">
+          <note>
             1999/2000:SfU10 Integrationspolitik
           </note>
-          <note n="3aafe27f">
+          <note>
             Trafikutskottets betänkande
           </note>
-          <note n="55c7b043">
-            1999/2000:TU08 Ökad konkurrens på mobiltelemarknaden
-          </note>
-          <note n="cba448a4">
+          <u xml:id="i-6952af79d5f61fb4-50" prev="i-6952af79d5f61fb4-47" who="Q3430022">
+            <seg>
+              1999/2000:TU08 Ökad konkurrens på mobiltelemarknaden
+            </seg>
+          </u>
+          <note>
             5 § Anmälan om interpellationer
           </note>
-          <note n="cd0c792a">
+          <note>
             Anmäldes att följande interpellationer framställts
           </note>
-          <note n="715686de">
+          <note>
             den 7 april
           </note>
-          <note n="03a28944">
+          <note>
             1999/2000:342 av Margareta Viklund (kd) till statsrådet Britta
             Lejon
           </note>
-          <note n="9780a8d9">
+          <u xml:id="i-6952af79d5f61fb4-51" prev="i-6952af79d5f61fb4-47" who="Q3430022">
+            <seg>
+              Folkomröstningsinstitutet
+            </seg>
+          </u>
+          <note>
             1999/2000:343 av Margareta Viklund (kd) till utrikesminister
             Anna Lindh
           </note>
-          <note n="f88167be">
-            Kosovoalbanska fångar i Serbien
-          </note>
-          <note n="0602e2b8">
+          <u xml:id="i-6952af79d5f61fb4-52" prev="i-6952af79d5f61fb4-47" who="Q3430022">
+            <seg>
+              Kosovoalbanska fångar i Serbien
+            </seg>
+          </u>
+          <note>
             Interpellationerna redovisas i bilaga som fogas till riksdagens
             snabbprotokoll tisdagen den 11 april.
           </note>
-          <note n="0a65ad17">
+          <note>
             6 § Anmälan om frågor för skriftliga svar
           </note>
-          <note n="fc3d7ca1">
-            Anmäldes att följande frågor för skriftliga svar framställts
-          </note>
-          <note n="f6ce54f4">
+          <u xml:id="i-6952af79d5f61fb4-53" prev="i-6952af79d5f61fb4-47" who="Q3430022">
+            <seg>
+              Anmäldes att följande frågor för skriftliga svar framställts
+            </seg>
+          </u>
+          <note>
             den 6 april
           </note>
-          <note n="75f43f3a">
+          <note>
+            1999/2000:800 av Inga Berggren (m) till statsrådet
+          </note>
+          <note>
             Lars-Erik Lövdén
           </note>
-          <note n="583fc1e3">
+          <note>
             Ägarlägenheter
           </note>
-          <note n="ebf30c80">
+          <note>
             1999/2000:801 av Nikos Papadopoulos (s) till statsrådet Maj-Inger
             Klingvall
           </note>
-          <note n="cc20739e">
+          <note>
+            Europeiskt icke-diskriminerande medborgarskap
+          </note>
+          <note>
             1999/2000:802 av Owe Hellberg (v) till statsrådet
           </note>
-          <note n="4d817f33">
-            Ingela Thalén
-          </note>
-          <note n="287339d4">
+          <u xml:id="i-6952af79d5f61fb4-54" prev="i-6952af79d5f61fb4-47" who="Q3430022">
+            <seg>
+              Ingela Thalén
+            </seg>
+          </u>
+          <u xml:id="i-6952af79d5f61fb4-55" prev="i-6952af79d5f61fb4-47" who="Q3430022">
+            <seg>
+              Adoptioner
+            </seg>
+          </u>
+          <note>
             1999/2000:803 av Lars Ångström (mp) till näringsminister Björn
             Rosengren
           </note>
-          <note n="503187eb">
+          <note>
+            Nätbolag med bristande rapportering
+          </note>
+          <note>
             Frågorna redovisas i bilaga som fogas till riksdagens snabbprotokoll
             tisdagen den 11 april.
           </note>
-          <note n="570f06ba">
+          <note>
             7 § Anmälan om skriftligt svar på fråga
           </note>
-          <note n="1cfaff01">
-            Anmäldes att skriftligt svar på följande fråga inkommit
-          </note>
-          <note n="f6ce54f4">
+          <u xml:id="i-6952af79d5f61fb4-56" prev="i-6952af79d5f61fb4-47" who="Q3430022">
+            <seg>
+              Anmäldes att skriftligt svar på följande fråga inkommit
+            </seg>
+          </u>
+          <note>
             den 6 april
           </note>
-          <note n="5845b7e2">
+          <note>
             1999/2000:779 av Sten Tolgfors (m) till statsminister
           </note>
-          <note n="9f174973">
+          <note>
             Göran Persson
           </note>
-          <note n="ea102da9">
-            Östersjömiljarden
-          </note>
-          <note n="e2bf2378">
+          <u xml:id="i-6952af79d5f61fb4-57" prev="i-6952af79d5f61fb4-47" who="Q3430022">
+            <seg>
+              Östersjömiljarden
+            </seg>
+          </u>
+          <note>
             Svaret redovisas i bilaga som fogas till riksdagens snabbprotokoll
             tisdagen den 11 april.
           </note>
-          <note n="d76f4a51">
+          <note>
             8 § Kammaren åtskildes kl. 9.20.
           </note>
-          <note n="aa99eed5">
+          <note>
             Förhandlingarna leddes av förste vice talmannen.
           </note>
         </div>

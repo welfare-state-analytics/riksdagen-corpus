@@ -5,7 +5,7 @@ import kblab
 import progressbar
 from PyPDF2 import PdfFileReader, PdfFileWriter
 from lxml import etree
-from .utils import read_html
+from .utils import clean_html
 
 
 class LazyArchive:
@@ -31,136 +31,72 @@ def _login_to_archive():
     return kblab.Archive("https://betalab.kb.se", auth=(username, password))
 
 
-def read_xml_blocks(xmlpath, htmlpath):
+def oppna_data_to_dict(input_dict):
     """
     Load protocols with the new XML / HTML structure (from 2013 onwards)
-    and convert it to the simple XML 'blocks' schema.
+    and convert it to a python dict with contents.
     """
-    xml_tree = etree.fromstring(open(xmlpath).read())
-    html_tree = read_html(htmlpath)
+    data = {}
+    data["paragraphs"] = []
 
-    year = xml_tree.xpath(".//rm")[0].text
-    protocol_number = xml_tree.xpath(".//nummer")[0].text
-    protocol_id = "prot-" + year.replace("/", "") + "--" + protocol_number
+    # Metadata
+    session = input_dict["dokumentstatus"]["dokument"]["rm"]
+    session = session.replace("/", "")
+    pid = input_dict["dokumentstatus"]["dokument"]["nummer"]
+    date = input_dict["dokumentstatus"]["dokument"]["datum"]
+    html = input_dict["dokumentstatus"]["dokument"]["html"]
+    html_tree = clean_html(html)
+    year = int(date.split("-")[0])
+    protocol_id = f"prot-{session}--{pid}"
 
-    html_tree = html_tree.xpath(".//div[@class='Section1']")[0]
-    root = etree.Element("protocol", id=protocol_id)
+    data["protocol_id"] = protocol_id
+    data["date"] = date.split(" ")[0]
+    data["session"] = session
 
-    cb_ix = 0
-    tb_ix = 0
-    contentBlock = etree.SubElement(root, "contentBlock", ix=str(cb_ix), page="0")
-    for elem in html_tree:
-        if elem.tag in ["p", "h1", "h2"]:
-            elemtext = "".join(elem.itertext())
+    # New HTML structure with div[@class='Section1']
+    section1 = html_tree.xpath(".//div[@class='Section1']")
+    for elements in section1:
+        for elem in elements:
+            if elem.tag in ["p", "h1", "h2"]:
+                elemtext = "".join(elem.itertext())
+                linebreak = elemtext.strip() == "" and "\n" in elemtext
+                if linebreak:
+                    pass
+                else:
+                    paragraph = elemtext.strip()
+                    paragraph = paragraph.replace("\n", " ")
+                    paragraph = re.sub("\\s+", " ", paragraph)
+                    data["paragraphs"].append(paragraph)
 
-            linebreak = elemtext.strip() == "" and "\n" in elemtext
-            if linebreak:
-                tb_ix = 0
-                cb_ix += 1
-                contentBlock = etree.SubElement(
-                    root, "contentBlock", ix=str(cb_ix), page="0"
-                )
-            else:
-                textBlock = etree.SubElement(contentBlock, "textBlock", ix=str(tb_ix))
-                tblock = elemtext.strip()
-                tblock = tblock.replace("\n", " ")
-                tblock = re.sub("\\s+", " ", tblock)
-                textBlock.text = tblock
-                tb_ix += 1
+    if len(data["paragraphs"]) == 0:
+        tree = html_tree
 
-    for xml_element in root.iter():
-        content = xml_element.xpath("normalize-space()")
-        if not content:
-            parent = xml_element.getparent()
-            if parent is not None:
-                parent.remove(xml_element)
-
-    for content_block in root.findall(".//contentBlock"):
-        content_block.attrib["page"] = "0"
-
-    return root
-
-
-def read_html_blocks(fpath):
-    """
-    Read a protocol with HTML structures between 1990-2013, and
-    convert it to the simple XML 'blocks' schema
-    """
-    tree = read_html(fpath)
-    id_class = "sidhuvud_beteckning"
-
-    # Detect protocol id
-    desc = None
-    for div in tree.findall(".//div"):
-        if "class" in div.attrib:
-            classes = div.attrib["class"].split()
-            if id_class in classes:
-                desc = div.text
-
-    root = None
-    if desc is not None:
-        desc = re.sub("[^0-9:\\-]+", "", desc)
-        desc = desc.replace(":", "--")
-        desc = "prot-" + desc
-
-        root = etree.Element("protocol", id=desc)
-
-        # HTML structure with text formatted in <pre> blocks, roughly 1990-2003
+        # Old data structure 1990-2003
         pres = tree.findall(".//pre")
         if len(pres) > 0:
-            for ix, pre in enumerate(pres):
-                contentBlock = etree.SubElement(root, "contentBlock", ix=str(ix))
+            for pre in pres:
                 if pre.text is not None:
-                    # contentBlock = etree.SubElement(contentBlock, "textBlock", ix=str(ix))
                     tblocks = re.sub("([a-zß-ÿ,])- ?\n ?([a-zß-ÿ])", "\\1\\2", pre.text)
                     tblocks = re.sub("([a-zß-ÿ,]) ?\n ?([a-zß-ÿ])", "\\1 \\2", tblocks)
-
-                    for tb_ix, tblock in enumerate(tblocks.split("\n")):
-                        tblock = tblock.replace("\n", " ")
-                        tblock = tblock.replace("\n", " ")
-                        textBlock = etree.SubElement(
-                            contentBlock, "textBlock", ix=str(tb_ix)
-                        )
-                        textBlock.text = tblock
+                    for paragraph in tblocks.split("\n"):
+                        paragraph = paragraph.replace("\n", " ")
+                        paragraph = paragraph.replace("\n", " ")
+                        data["paragraphs"].append(paragraph)
 
         # Standard HTML structure, roughly 2003-2013
         elif len(tree.xpath("//div[@class='indrag']")) > 0:
-
             tree = tree.xpath("//body")[0]
-
-            cb_ix = 0
-            tb_ix = 0
-            contentBlock = etree.SubElement(root, "contentBlock", ix=str(cb_ix))
             for elem in tree:
-
                 elemtext = "".join(elem.itertext())
-
                 linebreak = elemtext.strip() == "" and "\n" in elemtext
                 if elem.tag == "br" or linebreak:
-                    tb_ix = 0
-                    cb_ix += 1
-                    contentBlock = etree.SubElement(root, "contentBlock", ix=str(cb_ix))
+                    pass
                 else:
-                    textBlock = etree.SubElement(
-                        contentBlock, "textBlock", ix=str(tb_ix)
-                    )
-                    tblock = elemtext.strip()
-                    tblock = tblock.replace("\n", " ")
-                    tblock = re.sub("\\s+", " ", tblock)
-                    textBlock.text = tblock
-                    tb_ix += 1
-
-            for xml_element in root.iter():
-                content = xml_element.xpath("normalize-space()")
-                if not content:
-                    xml_element.getparent().remove(xml_element)
-
-    if root is not None:
-        for content_block in root.findall(".//contentBlock"):
-            content_block.attrib["page"] = "0"
-
-    return root
-
+                    paragraph = elemtext.strip()
+                    paragraph = paragraph.replace("\n", " ")
+                    paragraph = re.sub("\\s+", " ", paragraph)
+                    data["paragraphs"].append(paragraph)
+    return data
 
 def dl_kb_blocks(package_id, archive):
     """

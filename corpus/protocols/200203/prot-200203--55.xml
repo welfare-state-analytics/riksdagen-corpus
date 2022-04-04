@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2002</title>
+        <title>Riksdagens protocols 200203</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2002</title>
+          <title>Riksdagens protocols 200203</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -63,59 +60,65 @@
       </front>
       <body>
         <div>
-          <note n="06643acb">
+          <note>
             Det justerade protokollet beräknas utkomma om 3 veckor
           </note>
-          <note n="7751ff63">
+          <note>
             -----------------------------------------------------------------------
           </note>
-          <note n="d3a69231">
+          <note>
             1 § Justering av protokoll
           </note>
-          <note n="0193d60c">
+          <note>
             Justerades protokollen för den 4 och 5 februari.
           </note>
-          <note n="e0adedee">
+          <note>
             2 § Meddelande om frågestund
           </note>
-          <note n="83631bb0">
+          <note>
             Talmannen meddelade att vid frågestunden torsdagen den 13 februari
             kl. 14.00 skulle följande statsråd närvara:
           </note>
-          <note n="62ae85cd">
+          <note>
             Kulturminister Marita Ulvskog, statsrådet Mona
           </note>
-          <note n="1df6f7c4">
+          <note>
             Sahlin, socialminister Lars Engqvist, statsrådet Ulrica
           </note>
-          <note n="7001d138">
+          <note>
             Messing och miljöminister Lena Sommestad.
           </note>
-          <note n="f2a4ae66">
+          <note>
             3 § Svar på interpellation 2002/03:134 om ohälsan bland elever
           </note>
-          <note type="speaker" n="cb4d5f58">
+          <note type="speaker">
             Anf. 1 Utbildningsminister THOMAS ÖSTROS (s):
           </note>
-          <u who="Q3297193" xml:id="i-7d3fbc95c5383d76-0" n="2d760347">
-            <seg n="c98e17e5">
+          <u xml:id="i-d6430e81c8eaee11-0" next="i-d6430e81c8eaee11-14" who="Q3297193">
+            <seg>
               Herr talman! Kenneth Johansson har frågat vilka åtgärder jag
               avser att vidta för att stärka skolhälsovården, vilka åtgärder
               jag avser att vidta för att komma till rätta med mobbningen i
               skolan samt vilka åtgärder jag avser att vidta för att den fysiska
               aktiviteten i skolan säkerställs.
             </seg>
-            <seg n="928050c9">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-1" prev="i-d6430e81c8eaee11-0" who="Q3297193">
+            <seg>
               Kunskapsmålen betonas tydligt i skolans uppdrag, men skolan har
               även till uppgift att utveckla elevens alla möjligheter till ett
               rikt liv och ge förutsättningar för en god fysisk och psykisk
               hälsa. Sambandet mellan elevers lärande och hälsa har regeringen
               nyligen lyft fram i propositionen Hälsa, lärande och trygghet
             </seg>
-            <seg n="6492da70">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-2" prev="i-d6430e81c8eaee11-0" who="Q3297193">
+            <seg>
               (2001/02:14).
             </seg>
-            <seg n="2a693b1b">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-3" prev="i-d6430e81c8eaee11-0" who="Q3297193">
+            <seg>
               Statens skolverk har sedan 2002 ett uppdrag att föra ut regeringens
               syn på elevhälsa som beskrivs i propositionen. För närvarande
               finns elva regionala resurspersoner för att stödja denna utveckling.
@@ -123,7 +126,9 @@
               vilka insatser som kan vidtas för att stärka den alkoholskade-
               och narkotikaförebyggande verksamheten i skolan.
             </seg>
-            <seg n="298a0bdd">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-4" prev="i-d6430e81c8eaee11-0" who="Q3297193">
+            <seg>
               Ett särskilt statsbidrag riktat till skolsektorn har inrättats
               för att öka personaltätheten i skola och fritidshem. Förstärkningen
               förväntas få stor betydelse för de elever som behöver stöd för
@@ -132,21 +137,29 @@
               per år är nådd. Totalt beräknas ca 15 000 nya lärare och andra
               specialister kunna anställas. Enligt
             </seg>
-            <seg n="aaf5c7f9">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-5" prev="i-d6430e81c8eaee11-0" who="Q3297193">
+            <seg>
               Skolverkets uppföljningar har medlen i många fall använts för
               att öka antalet anställningar inom elevhälsan.
             </seg>
-            <seg n="591f261d">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-6" prev="i-d6430e81c8eaee11-0" who="Q3297193">
+            <seg>
               Under den senaste femårsperioden har arbetet med att motverka
               kränkande behandling varit ett prioriterat område för regeringen.
               Lagstiftningen har skärpts för att betona rektors och personalens
               ansvar.
             </seg>
-            <seg n="559fa723">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-7" prev="i-d6430e81c8eaee11-0" who="Q3297193">
+            <seg>
               Alla skolor ska ha handlingsplaner. Skolverket har gjort uppföljning
               och tillsyn inom området.
             </seg>
-            <seg n="b4194728">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-8" prev="i-d6430e81c8eaee11-0" who="Q3297193">
+            <seg>
               Skolverket har just nu ett uppdrag att kartlägga vilka handlingsprogram
               mot kränkande behandling som visat sig ge dokumenterade effekter.
               Uppdraget ska redovisas senast den 1 december 2003. En större
@@ -154,7 +167,9 @@
               arbetsmiljö i skolan. En översyn av arbetsmiljölagen ur ett elevperspektiv
               kommer därför att inledas inom Näringsdepartementet.
             </seg>
-            <seg n="2a43f9e1">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-9" prev="i-d6430e81c8eaee11-0" who="Q3297193">
+            <seg>
               Skolverket har nyligen redovisat ett uppdrag att kartlägga förekomsten
               av rasism, etnisk diskriminering, sexuella trakasserier, homofobi
               och könsrelaterad mobbning. Skolverkets slutsatser är bland annat
@@ -162,14 +177,18 @@
               behandling ger resultat i form av ökad trygghet och trivsel samt
               färre kränkningar.
             </seg>
-            <seg n="1baa8cc7">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-10" prev="i-d6430e81c8eaee11-0" who="Q3297193">
+            <seg>
               Utbildningsdepartementets kampanj mot mobbning, Tillsammans,
               har precis avslutats. En utvärdering visar att kampanjen nått
               ut till 65 % av skolorna i landet. En majoritet av dem som fått
               del av insatserna är nöjda, och många elever upplever att det
               skett en positiv förändring på skolan.
             </seg>
-            <seg n="935de729">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-11" prev="i-d6430e81c8eaee11-0" who="Q3297193">
+            <seg>
               Skolverket har i sin redovisning från den systematiska tillsyn
               de utfört beträffande kränkande behandling konstaterat att skolorna
               tar arbetet inom området på allvar och på olika sätt försöker
@@ -178,7 +197,9 @@
               eller visat att arbetet med att rätta till de påtalade bristerna
               pågår.
             </seg>
-            <seg n="d25a53f8">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-12" prev="i-d6430e81c8eaee11-0" who="Q3297193">
+            <seg>
               Skolverket har i dag inga befogenheter att rikta sanktioner mot
               kommuner eller skolor. Kommunen kan dock bli skadeståndsskyldig
               för skador till följd av till exempel mobbning. Skollagskommittén
@@ -187,7 +208,9 @@
               föreslås få rätt att meddela förelägganden som kan förenas med
               vite. Förslaget ska remissbehandlas under våren.
             </seg>
-            <seg n="828602ec">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-13" prev="i-d6430e81c8eaee11-0" who="Q3297193">
+            <seg>
               Regeringen ser allvarligt på problemen med att barn och unga
               rör på sig allt mindre och att vällevnadsrelaterade sjukdomar
               och besvär går allt längre ned i åldrarna. Vi avser därför att
@@ -196,25 +219,29 @@
               kommer att få i uppdrag att nära följa hur skolorna arbetar med
               att förverkliga detta nya mål.
             </seg>
-            <seg n="5b709139">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-14" prev="i-d6430e81c8eaee11-0" who="Q3297193">
+            <seg>
               Dessutom har regeringen för avsikt att inrätta ett nationellt
               resurscentrum för idrott och hälsa vid Örebro universitet. Centrumets
               främsta uppgift ska vara att stödja skolor i deras arbete med
               att utveckla barns och ungas attityder till fysisk aktivitet.
             </seg>
           </u>
-          <note type="speaker" n="da49b559">
+          <note type="speaker">
             Anf. 2 KENNETH JOHANSSON (c):
           </note>
-          <u who="Q5886752" xml:id="i-f6d3d9014a0a437d-0" n="4d3a68fc">
-            <seg n="a93035a5">
+          <u xml:id="i-d6430e81c8eaee11-15" next="i-d6430e81c8eaee11-25" who="Q5886752">
+            <seg>
               Herr talman! Inget, absolut inget, gör så ont och känns så fel
               som när barn och ungdomar far illa, när de känner vilsenhet, otrygghet
               och stress, när de går till skolan efter ytterligare en natt med
               dålig sömn, rödgråtna och med en klump i magen av rädsla och oro
               att bli utsatta för fortsatt mobbning, eller kanske sexuella trakasserier.
             </seg>
-            <seg n="0eb7793d">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-16" prev="i-d6430e81c8eaee11-15" who="Q5886752">
+            <seg>
               BRIS får alltfler samtal om problem. Rapporter från Barnombudsmannen
               redovisar att hälsotillståndet hos flickor och pojkar i skolan
               har försämrats markant de senaste tio åren. Nio av tio tillfrågade
@@ -222,14 +249,18 @@
               psykiska ohälsan har ökat. Det rör sig om depressioner, ätstörningar,
               övervikt och ångesttillstånd.
             </seg>
-            <seg n="a54a9e09">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-17" prev="i-d6430e81c8eaee11-15" who="Q5886752">
+            <seg>
               Så kan vi inte ha det. Vi måste göra något åt situationen, i
               första hand förebygga så att inte problemen uppstår. Om det ändå
               inträffar att elever mår dåligt eller blir utsatta måste snabba
               åtgärder sättas in. Resurser måste finnas och regelverk och handlingsplaner
               fungera.
             </seg>
-            <seg n="b85329a0">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-18" prev="i-d6430e81c8eaee11-15" who="Q5886752">
+            <seg>
               Jag är inte skolpolitiker. Men, trots ministerns svar, är mitt
               intryck av skoldebatten att den är ganska kunskapsfixerad och
               att betydelsen av att eleverna mår bra och har hälsan inte riktigt
@@ -242,27 +273,37 @@
               ärligt talat, stryka på foten i besparingstiderna, vilket var
               olyckligt. Det måste vi ändra på. Det ger
             </seg>
-            <seg n="5ad88cce">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-19" prev="i-d6430e81c8eaee11-15" who="Q5886752">
+            <seg>
               Centerpartiets politik möjligheter till.
             </seg>
-            <seg n="d8c705ae">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-20" prev="i-d6430e81c8eaee11-15" who="Q5886752">
+            <seg>
               Jag har inte så mycket att invända mot ministerns svar när det
               gäller skolhälsovården. Vi är ganska överens om att det behövs
               förstärkningar. Det förutsätter - och det önskar jag också få
               bekräftat av ministern - att Skolverket framöver kontinuerligt
               kommer att följa frågan.
             </seg>
-            <seg n="ce1e2b62">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-21" prev="i-d6430e81c8eaee11-15" who="Q5886752">
+            <seg>
               När det gäller mobbningen redovisar ministern en rad åtgärder.
               Det är åtgärder som jag till största delen tycker är bra. Men
               det räcker ju inte när man ser att uppåt 130 000 barn och ungdomar,
               enligt en del beräkningar, är utsatta för någon form av mobbning.
             </seg>
-            <seg n="29a032ea">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-22" prev="i-d6430e81c8eaee11-15" who="Q5886752">
+            <seg>
               Det är en förskräcklig situation, fullständig oacceptabel. Jag
               har några följdfrågor till ministern.
             </seg>
-            <seg n="f33f7bb2">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-23" prev="i-d6430e81c8eaee11-15" who="Q5886752">
+            <seg>
               Jag har tagit del av det utredningsförslag som ligger. Men anser
               ministern att Skolverket ska ges sanktionsmöjligheter? När kommer
               i så fall ett skarpt förslag från regeringen? Anser ministern
@@ -272,23 +313,27 @@
               skador till följd av mobbning. Det framgick av ministerns svar.
               Men hur ofta har det inträffat, och vem är det som har bevisbördan?
             </seg>
-            <seg n="27758fc4">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-24" prev="i-d6430e81c8eaee11-15" who="Q5886752">
+            <seg>
               För mig är detta en oklarhet. Från Centerpartiets sida vill vi
               att man ser över detta så att det blir mer verkningsfullt med
               en skadeståndsmöjlighet.
             </seg>
-            <seg n="ecfffa52">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-25" prev="i-d6430e81c8eaee11-15" who="Q5886752">
+            <seg>
               Slutligen, herr talman, undrar jag om en möjlighet till fler
               idrottslektioner på schemat är något som diskuteras och om ministern
               kan ha en viss förståelse för att det skulle kunna vara verkningsfullare
               än de idéer som hittills har presenterats.
             </seg>
           </u>
-          <note type="speaker" n="cb4d5f58">
+          <note type="speaker">
             Anf. 3 Utbildningsminister THOMAS ÖSTROS (s):
           </note>
-          <u who="Q3297193" xml:id="i-7d3fbc95c5383d76-1" n="2d760347">
-            <seg n="2ba5628f">
+          <u xml:id="i-d6430e81c8eaee11-26" next="i-d6430e81c8eaee11-37" who="Q3297193">
+            <seg>
               Herr talman! Det är väldigt viktiga frågeställningar som Kenneth
               Johansson tar upp. På min begränsade tid, som redan har börjat
               löpa, kommer jag inte att kunna gå in på djupet på var och en
@@ -303,7 +348,9 @@
               Detta är tre mycket stora områden som vart och ett förtjänar en
               djupare debatt.
             </seg>
-            <seg n="d9cf4bdf">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-27" prev="i-d6430e81c8eaee11-26" who="Q3297193">
+            <seg>
               Låt mig börja med att säga till Kenneth Johansson att jag inte
               tror att problemet är en kunskapsfixering i skolan. Jag tror att
               de här synsätten är nödvändiga båda två och befruktar varandra.
@@ -315,16 +362,22 @@
               människor som behandlar varandra väl och som lär sig grundläggande
               värderingar i skolan.
             </seg>
-            <seg n="e16c5952">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-28" prev="i-d6430e81c8eaee11-26" who="Q3297193">
+            <seg>
               Det är riktigt som Kenneth Johansson säger:
             </seg>
-            <seg n="926cd84d">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-29" prev="i-d6430e81c8eaee11-26" who="Q3297193">
+            <seg>
               Elevvården har fått stryka på foten. Den utsattes i många kommuner
               för ganska tuffa besparingar under saneringsåren. Jag tror att
               det har smärtat både Kenneth Johansson och mig mycket att se detta,
               men det är sådant som en ekonomisk kris ställer till i ett land.
             </seg>
-            <seg n="c65c5e23">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-30" prev="i-d6430e81c8eaee11-26" who="Q3297193">
+            <seg>
               Då är det desto mer glädjande att se att när nu resurserna till
               skolan åter ökar - mycket tack vare att regering och riksdag har
               tagit fram ett extra statligt stöd till kommunerna riktat mot
@@ -332,7 +385,9 @@
               lärare och andra specialister i skolan - har vi också fått en
               vändning när det gäller elevhälsan.
             </seg>
-            <seg n="b7a2bd65">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-31" prev="i-d6430e81c8eaee11-26" who="Q3297193">
+            <seg>
               En inte så liten andel av den nya personal som nu anställs -
               och de är tusentals - är skolkuratorer, skolsköterskor och den
               typen av personalgrupper som är så oerhört viktiga för elevhälsan,
@@ -341,18 +396,24 @@
               resurs ska öronmärkas till skolan. Många områden behöver nya resurser,
               men skolan är av största vikt.
             </seg>
-            <seg n="3990a9b3">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-32" prev="i-d6430e81c8eaee11-26" who="Q3297193">
+            <seg>
               Därför har vi öronmärkt de här pengarna, 5 miljarder, som möjliggör
               anställning av 15 000 personer.
             </seg>
-            <seg n="5d6c1d61">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-33" prev="i-d6430e81c8eaee11-26" who="Q3297193">
+            <seg>
               Trots Kenneth Johanssons engagemang är jag besviken över att
               behöva notera att Centern inte ställer upp på att pengar ska riktas
               direkt till skolan. Jag hoppas att ni överväger det framöver.
               Jag tror att skolan behöver det, inte minst för möjligheterna
               att stärka elevhälsan.
             </seg>
-            <seg n="873e0200">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-34" prev="i-d6430e81c8eaee11-26" who="Q3297193">
+            <seg>
               När det gäller kränkande behandling i skolan är det naturligtvis
               ingen fråga där någon av oss kan säga att vi är nöjda med dagens
               läge. Så länge det finns ett enda barn eller en enda ung person
@@ -361,34 +422,42 @@
               stärka det arbetet genom att gå mot mer av den typ av handlingsplaner
               som visar sig fungera i realiteten.
             </seg>
-            <seg n="3fc30e80">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-35" prev="i-d6430e81c8eaee11-26" who="Q3297193">
+            <seg>
               Därför har vi gett Skolverket i uppdrag att ta fram kunskap kring
               detta: När nu varje skola har ett förebyggande arbete och ett
               handlingsprogram mot kränkande behandling, vad kan vi nu se har
               fungerat väl och mindre väl? Verket ska också ge mer handfasta
               riktlinjer och råd till skolorna om hur man bör arbeta.
             </seg>
-            <seg n="f84ce62c">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-36" prev="i-d6430e81c8eaee11-26" who="Q3297193">
+            <seg>
               Detta uppdrag till Skolverket är ett strategiskt viktigt uppdrag,
               eftersom det också ger grunden för att ta ytterligare steg.
             </seg>
-            <seg n="e4c900fc">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-37" prev="i-d6430e81c8eaee11-26" who="Q3297193">
+            <seg>
               Nu är min talartid ute. Det återstår mycket att säga om flera
               av frågorna, men jag får återkomma.
             </seg>
           </u>
-          <note type="speaker" n="320dfced">
+          <note type="speaker">
             Anf. 4 KENNETH JOHANSSON (c):
           </note>
-          <u who="Q5886752" xml:id="i-f6d3d9014a0a437d-1" n="4d3a68fc">
-            <seg n="29cd11d0">
+          <u xml:id="i-d6430e81c8eaee11-38" next="i-d6430e81c8eaee11-48" who="Q5886752">
+            <seg>
               Herr talman! Jag delar det allra mesta som utbildningsministern
               framför. Det handlar både om kunskapsinhämtande och om att se
               till helheten och hälsan. Mitt intryck är som sagt att det i dag
               är för starkt fokus på den ena delen. Jag hoppas att det kan bli
               mer balans här.
             </seg>
-            <seg n="e3916159">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-39" prev="i-d6430e81c8eaee11-38" who="Q5886752">
+            <seg>
               När det sedan gäller resurser har vi olika synsätt på hur dessa
               ska fördelas. Jag har fullt förtroende för förtroendevalda om
               de har tillgång till resurser och om inte det statliga kommer
@@ -397,7 +466,9 @@
               nu. Men Centerpartiet tilldelar kommunerna mer i resurser än vad
               regeringen gör. Sedan fördelar vi det på olika sätt.
             </seg>
-            <seg n="9ce81386">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-40" prev="i-d6430e81c8eaee11-38" who="Q5886752">
+            <seg>
               Vidare tycker jag att en rätt dimensionerad skolhälsovård med
               hög kompetens är oerhört viktig att få till stånd. Jag utgår ifrån
               att det också kommer att bli fallet, att vi kan tilldela mer resurser,
@@ -407,35 +478,49 @@
               exempel på ett arbete som behöver ses över. Vi behöver uppvärdera
               både dem och annan personal inom elevvården.
             </seg>
-            <seg n="760d1c0a">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-41" prev="i-d6430e81c8eaee11-38" who="Q5886752">
+            <seg>
               När det sedan gäller mobbningen handlar det om resurser och förebyggande
               insatser. Jag ställde några frågor som jag kanske kan få svar
               på i nästa inlägg.
             </seg>
-            <seg n="9d76870d">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-42" prev="i-d6430e81c8eaee11-38" who="Q5886752">
+            <seg>
               Jag frågade: Bör Skolverket enligt ministerns uppfattning ges
               sanktionsmöjligheter? Vi från Centerpartiet tycker det. Utredningen
               säger det. Men vad är regeringens uppfattning?
             </seg>
-            <seg n="ce6ccdec">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-43" prev="i-d6430e81c8eaee11-38" who="Q5886752">
+            <seg>
               Vi tycker också att det kan vara befogat att förstärka lärares
               sanktionsmöjligheter i form av enskild undervisning och omplacering
               i extraordinära fall.
             </seg>
-            <seg n="4041fd51">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-44" prev="i-d6430e81c8eaee11-38" who="Q5886752">
+            <seg>
               Hur ser ministern på det?
             </seg>
-            <seg n="5570a1d5">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-45" prev="i-d6430e81c8eaee11-38" who="Q5886752">
+            <seg>
               Sedan har vi tagit upp detta med skadeståndet.
             </seg>
-            <seg n="83fa490a">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-46" prev="i-d6430e81c8eaee11-38" who="Q5886752">
+            <seg>
               Centerpartiet vill utreda om en skolhuvudman som inte tar itu
               med mobbningen också ska bli tvungen att ersätta eleven ekonomiskt
               via skadestånd. I ministerns svar står det "kan", men det är luddigt.
               Mig veterligen har detta hittills inte använts, men rätta mig
               gärna om jag har fel i den delen.
             </seg>
-            <seg n="ebdb9d4c">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-47" prev="i-d6430e81c8eaee11-38" who="Q5886752">
+            <seg>
               När det slutligen gäller den fysiska aktiviteten i skolan har
               vi från Centerpartiet under flera år påtalat, tillsammans med
               andra, betydelsen av idrott och hälsa i skolan. Vi vet att förebyggande
@@ -447,17 +532,19 @@
               aktiviteter och ett bättre hälsoläge. Då är min fråga: Hur ska
               det se ut?
             </seg>
-            <seg n="4f508315">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-48" prev="i-d6430e81c8eaee11-38" who="Q5886752">
+            <seg>
               Vore det inte bättre om man fick in mer av idrott och hälsa direkt
               på skolschemat? Finns det inte annars en risk för att det som
               nu presenteras i slutänden inte leder fram till önskat resultat?
             </seg>
           </u>
-          <note type="speaker" n="cb4d5f58">
+          <note type="speaker">
             Anf. 5 Utbildningsminister THOMAS ÖSTROS (s):
           </note>
-          <u who="Q3297193" xml:id="i-7d3fbc95c5383d76-2" n="2d760347">
-            <seg n="45c3a9c7">
+          <u xml:id="i-d6430e81c8eaee11-49" next="i-d6430e81c8eaee11-60" who="Q3297193">
+            <seg>
               Herr talman! Låt mig uppehålla mig en del vid den viktiga diskussionen
               om hur vi skärper agerandet när det gäller att stoppa kränkande
               behandling i skolan. En viktig grund för detta är de förslag vi
@@ -473,55 +560,71 @@
               praktiska tillämpningen och hur skolorna reagerar på den typen
               av lösning. Det är bra att göra det tydligare.
             </seg>
-            <seg n="6cb3ee41">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-50" prev="i-d6430e81c8eaee11-49" who="Q3297193">
+            <seg>
               Sedan en kort tid tillbaka har varje skola i dag en skyldighet
               att upprätta en handlingsplan där rektor ansvarar för att det
               faktiskt finns en konkret idé om hur man ska jobba både förebyggande
               och ingripa när någon behandlas kränkande.
             </seg>
-            <seg n="f275b7d2">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-51" prev="i-d6430e81c8eaee11-49" who="Q3297193">
+            <seg>
               Det här är ett utvecklingsarbete. En del skolor gör det bra,
               andra gör det inte bra. Också här kommer en ny skollag att kunna
               skärpa det ansvaret, men vi kan också använda oss av Skolverkets
               arbete för att se vilka metoder som fungerar och vilka som inte
               fungerar.
             </seg>
-            <seg n="9b5989bd">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-52" prev="i-d6430e81c8eaee11-49" who="Q3297193">
+            <seg>
               I Norge använder man i stor utsträckning metoder som är forskningsbaserade;
               man har tittat på vilka metoder som har fungerat. Jag tycker att
               vi ska gå åt det hållet, men kanske inte så renodlat som Norge.
             </seg>
-            <seg n="2d2d1885">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-53" prev="i-d6430e81c8eaee11-49" who="Q3297193">
+            <seg>
               Där har man valt en modell, och jag tvivlar på att just en modell
               alltid är den som fungerar.
             </seg>
-            <seg n="6d954cec">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-54" prev="i-d6430e81c8eaee11-49" who="Q3297193">
+            <seg>
               I Skollagskommitténs arbete kommer också frågan om sanktioner
               mot kommuner fram. Man konstaterar att det är sällan eller aldrig
               som en kommun har brutit mot lagen i ett tillsynsärende som Skolverket
               har utfört. Man ifrågasätter till viss del att det behövs, men
               man föreslår ändå att det tillkommer en sanktionsmöjlighet.
             </seg>
-            <seg n="a9af0622">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-55" prev="i-d6430e81c8eaee11-49" who="Q3297193">
+            <seg>
               Det är ett intressant förslag som jag har en försiktigt positiv
               inställning till. En av anledningarna är att vi har sett att man
               i kommunerna har börjat använda möjligheten att bryta mot lagen
               som ett politiskt instrument. Det är någonting nytt för svensk
-              politisk tradition. Det har funnits en del kommuner i Helsingforssområdet,
+              politisk tradition. Det har funnits en del kommuner i Stockholmsområdet,
               ledda av nyliberala ledningar, som har sett det som ett slags
               politisk idé att genom att bryta mot skollagen eller andra lagar
               - budgetlagen är ett populärt exempel - få mycket uppmärksamhet
               och genomslag i medierna, och så händer kanske någonting positivt
               av det. Det är ett slags nyliberalismens
             </seg>
-            <seg n="e0a06735">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-56" prev="i-d6430e81c8eaee11-49" who="Q3297193">
+            <seg>
               AFA i utomparlamentariska aktioner. Det är en väldigt dålig metod
               att bedriva politik. Därmed finns det skäl att fundera kring sanktionsmöjligheter,
               om man nu börjar uppfatta lagstiftningen som ett slags bollplank
               att bryta mot för att skapa uppmärksamhet även från politiskt,
               vanligtvis, ansvarsfulla grupper.
             </seg>
-            <seg n="abfb62c2">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-57" prev="i-d6430e81c8eaee11-49" who="Q3297193">
+            <seg>
               Skadestånd döms ut av domstolar. När vi skärper ansvaret för
               skolledningar att agera och ha genomtänkta planer innebär det
               också att skadeståndsgrunden skärps. En domstol kan då bedöma
@@ -529,14 +632,20 @@
               mig veterligt, inget domstolsavgörande, men det bör ha skapats
               en skärpning i möjligheten att få skadestånd.
             </seg>
-            <seg n="36c342bd">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-58" prev="i-d6430e81c8eaee11-49" who="Q3297193">
+            <seg>
               Sist kommer jag till frågan om idrott i skolan. Jag har fem sekunder
               kvar, och jag får återkomma i nästa replik.
             </seg>
-            <seg n="2510db9a">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-59" prev="i-d6430e81c8eaee11-49" who="Q3297193">
+            <seg>
               Jag tror inte att det bara handlar om idrottstimmar.
             </seg>
-            <seg n="5fcfc0d1">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-60" prev="i-d6430e81c8eaee11-49" who="Q3297193">
+            <seg>
               Undersökningar visar, och idrottsrörelsen pekar själv på dem,
               att många elever inte tar del av idrottstimmarna. Det är kanske
               många gånger de eleverna som bäst behöver röra på sig. Det visar
@@ -544,11 +653,11 @@
               just idrottstimmarna i skolan.
             </seg>
           </u>
-          <note type="speaker" n="a86d7706">
+          <note type="speaker">
             Anf. 6 KENNETH JOHANSSON (c):
           </note>
-          <u who="Q5886752" xml:id="i-f6d3d9014a0a437d-2" n="4d3a68fc">
-            <seg n="49184bb9">
+          <u xml:id="i-d6430e81c8eaee11-61" next="i-d6430e81c8eaee11-66" who="Q5886752">
+            <seg>
               Herr talman! Jag får tacka för diskussionen. Anledningen till
               att jag ställde interpellationen till skolministern var ju att
               lyfta fram hälsofrågorna i skolan tydligare - mot bakgrund av
@@ -561,39 +670,49 @@
               Elevernas möjligheter till fysiska aktiviteter i skolan behöver
               förbättras.
             </seg>
-            <seg n="c2b7c5c8">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-62" prev="i-d6430e81c8eaee11-61" who="Q5886752">
+            <seg>
               Av de svar jag har fått från ministern framgår det att det finns
               en samsyn vad gäller att det behövs förstärkningar i skolhälsovården.
               Vi kommer att bidra med den kraft vi har.
             </seg>
-            <seg n="8ab5a6d6">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-63" prev="i-d6430e81c8eaee11-61" who="Q5886752">
+            <seg>
               Mobbning är ett oerhört komplext problem som kräver en mångfald
               av insatser. Det är inte minst stöd till föräldrar. Det är stöd-
               och kunskapsutveckling för personal. Det handlar om lagstiftning,
               regler och ett verkningsfullt handlande från skolledningens sida.
             </seg>
-            <seg n="5dbcda85">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-64" prev="i-d6430e81c8eaee11-61" who="Q5886752">
+            <seg>
               Jag är övertygad om att det här krävs ytterligare åtgärder. Jag
               hör att en del saker är på gång, och jag har redovisat en del
               ytterligare synpunkter som vi i Centerpartiet driver. Arbetet
               får inte misslyckas. Här krävs en nollvision.
             </seg>
-            <seg n="f24e1c33">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-65" prev="i-d6430e81c8eaee11-61" who="Q5886752">
+            <seg>
               Slutligen kommer vi till frågan om idrott och hälsa. Låt oss
               se på möjligheten att där finns verkningsfulla modeller. Jag tror
               att det är fråga om både-och.
             </seg>
-            <seg n="47a86f76">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-66" prev="i-d6430e81c8eaee11-61" who="Q5886752">
+            <seg>
               Det handlar om att både få in mer idrott på schemat men att också
               utnyttja kontakter med föreningsliv och andra i skolarbetet. Då
               tror jag att vi kan få en hälsosammare skola.
             </seg>
           </u>
-          <note type="speaker" n="cb4d5f58">
+          <note type="speaker">
             Anf. 7 Utbildningsminister THOMAS ÖSTROS (s):
           </note>
-          <u who="Q3297193" xml:id="i-7d3fbc95c5383d76-3" n="2d760347">
-            <seg n="017c2e35">
+          <u xml:id="i-d6430e81c8eaee11-67" next="i-d6430e81c8eaee11-68" who="Q3297193">
+            <seg>
               Herr talman! Jag noterar också att det finns en bred samsyn mellan
               Kenneth Johansson och Centerpartiet och Socialdemokraterna i de
               viktiga skolfrågorna. Här har vi en möjlighet till fortsatta diskussioner
@@ -605,29 +724,33 @@
               - också blir mer aktiv i skolan och bidrar till att skapa modellerna
               för daglig fysisk aktivitet i skolan.
             </seg>
-            <seg n="92491164">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-68" prev="i-d6430e81c8eaee11-67" who="Q3297193">
+            <seg>
               Det finns jättefina exempel. Bunkefloskolan är ett sådant exempel.
               På flera håll i landet har man redan börjat arbeta på detta sätt.
               Jag ser fram emot ett samarbete med Centerpartiet på det området.
             </seg>
           </u>
-          <note n="eeffde28">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="e2e0fb2d">
+          <note>
             4 § Svar på interpellation 2002/03:155 om universitetsstatus
           </note>
-          <note type="speaker" n="cb4d5f58">
+          <note type="speaker">
             Anf. 8 Utbildningsminister THOMAS ÖSTROS (s):
           </note>
-          <u who="Q3297193" xml:id="i-fddd9bce51be18db-0" n="2d760347" next="i-1ec58d97267e6664-0">
-            <seg n="6a171350">
+          <u xml:id="i-d6430e81c8eaee11-69" next="i-d6430e81c8eaee11-83" who="Q3297193">
+            <seg>
               Herr talman! Per Bill har frågat mig vilka åtgärder jag avser
               att vidta för att säkerställa att högskolor nått upp till de uppsatta
               kvalitetsmålen innan de får sin universitetsstatus och för att
               säkerställa universitetsbegreppets trovärdighet.
             </seg>
-            <seg n="a3cce069">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-70" prev="i-d6430e81c8eaee11-69" who="Q3297193">
+            <seg>
               Sverige har i dag ett högskolelandskap med ett flertal universitet
               med examensrätt i forskarutbildningen inom samtliga vetenskapsområden
               och några högskolor som tilldelats vetenskapsområde, det vill
@@ -638,25 +761,33 @@
               högskolelandskap är ett uttryck för regeringens strävan att skapa
               minst en stark högskola i varje län.
             </seg>
-            <seg n="7c64f040">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-71" prev="i-d6430e81c8eaee11-69" who="Q3297193">
+            <seg>
               Givetvis måste en mycket noggrann kvalitetsbedömning göras inför
               ett beslut om att ge en högskola universitetsstatus eller vetenskapsområde.
               Därför begärs ett yttrande från Högskoleverket innan beslut fattas.
             </seg>
-            <seg n="66fb52b5">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-72" prev="i-d6430e81c8eaee11-69" who="Q3297193">
+            <seg>
               När Högskoleverket ska göra sin prövning av en högskolas förutsättningar
               att erhålla vetenskapsområde tillsätter verket en bedömargrupp
               som gör en kvalitetsbedömning. På grundval av bedömargruppens
               rapport fattar sedan Högskoleverkets styrelse sitt beslut om yttrande.
             </seg>
-            <seg n="2f19311a">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-73" prev="i-d6430e81c8eaee11-69" who="Q3297193">
+            <seg>
               Högskoleverkets yttrande ligger sedan till grund för det beslut
               regeringen sedan fattar, antingen detta avser vetenskapsområde
               eller universitetsstatus. Det är också denna procedur som säkerställer
               att högskolor uppfyller högt ställda kvalitetskrav innan de får
               sitt vetenskapsområde eller sin universitetsstatus.
             </seg>
-            <seg n="cc7dcabb">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-74" prev="i-d6430e81c8eaee11-69" who="Q3297193">
+            <seg>
               Jag vill i detta sammanhang samtidigt påpeka att det svenska
               systemet för kvalitetsutvärdering av den högre utbildningen, som
               trädde i kraft 2001, anses vara ett av de mest ambitiösa i Europa.
@@ -664,33 +795,55 @@
               alla lärosäten, ämnen och program och som en sista åtgärd kan
               återkalla ett examenstillstånd.
             </seg>
-            <seg n="2a4751e8">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-75" prev="i-d6430e81c8eaee11-69" who="Q3297193">
+            <seg>
               Högskoleverket ska även regelbundet kvalitetsgranska forskarutbildningen.
             </seg>
-            <seg n="c6877a71">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-76" prev="i-d6430e81c8eaee11-69" who="Q3297193">
+            <seg>
               Vad gäller det nu aktuella lärosätet, Mitthögskolan, vågar jag
               påstå att få lärosäten i Sverige har genomgått så omfattande kvalitetsutvärderingar
               som
             </seg>
-            <seg n="c9d7bc9e">
-              Mitthögskolan. Beslutet att tilldela Mitthögskolan universitetsstatus
-              har föregåtts av en ingående bedömningsprocess.
-            </seg>
           </u>
-          <note n="86bf4346">
+          <note>
+            Mitthögskolan. Beslutet att tilldela Mitthögskolan universitetsstatus
+            har föregåtts av en ingående bedömningsprocess.
+          </note>
+          <note>
             Mitthögskolan ansökte 1997 om att få benämnas universitet år
             2000. Regeringen förklarade 1998 att
           </note>
-          <u who="Q3297193" xml:id="i-1ec58d97267e6664-0" n="2d760347" prev="i-fddd9bce51be18db-0">
-            <seg n="6467610f">
-              Mitthögskolan skulle ges förutsättningar att utvecklas till universitet.
-              Mitthögskolans anslag till forskning och forskarutbildning har
-              därefter under perioden
-            </seg>
-            <seg n="4ae85c7b">
-              2000-2003 höjts med 47 miljoner kronor.
-            </seg>
-            <seg n="a8fb3de4">
+          <note>
+            Mitthögskolan skulle ges förutsättningar att utvecklas till universitet.
+            Mitthögskolans anslag till forskning och forskarutbildning har
+            därefter under perioden
+          </note>
+          <note>
+            2000-2003 höjts med 47 miljoner kronor.
+          </note>
+          <note>
+            Mitthögskolan inkom i januari 2000 med en komplettering till
+            den tidigare inlämnade ansökan om att få bli universitet. Regeringen
+            beslutade i oktober
+          </note>
+          <note>
+            2000 att från den 1 januari 2001 tilldela Mitthögskolan naturvetenskapligt
+            vetenskapsområde, eftersom högskolans naturvetenskapliga forskning
+            av Högskoleverket bedömdes uppfylla högt ställda kvalitetskrav.
+          </note>
+          <note>
+            Mitthögskolan återkom i januari 2002 med en ansökan om humanistisk-samhällsvetenskapligt
+            vetenskapsområde och prövning av benämningen universitet. Ansökan
+            om vetenskapsområde remitterades till
+          </note>
+          <note>
+            Högskoleverket för yttrande.
+          </note>
+          <u xml:id="i-d6430e81c8eaee11-77" prev="i-d6430e81c8eaee11-69" who="Q3297193">
+            <seg>
               I sitt beslut om att Mitthögskolan ska få universitetsstatus
               från den 1 januari 2005 har regeringen tagit fasta på Högskoleverkets
               bedömning att de humanistisk-samhällsvetenskapliga forskningsmiljöerna
@@ -698,13 +851,17 @@
               att de två år som återstår innan Mitthögskolan blir universitet
               kommer att utnyttjas till detta.
             </seg>
-            <seg n="c3989822">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-78" prev="i-d6430e81c8eaee11-69" who="Q3297193">
+            <seg>
               Regeringen anser också, liksom Högskoleverket, att Mitthögskolan
               bör vidareutveckla sin forskning och forskarutbildning inom det
               humanistisksamhällsvetenskapliga området på det sätt som Högskoleverket
               har efterfrågat.
             </seg>
-            <seg n="2fb0df6e">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-79" prev="i-d6430e81c8eaee11-69" who="Q3297193">
+            <seg>
               Regeringen anser dock, mot bakgrund av den ambitiösa utveckling
               av forskning och forskarutbildning som Mitthögskolan har uppvisat
               sedan den första prövningen gjordes 1998, liksom det goda interna
@@ -712,66 +869,62 @@
               visat, att Mitthögskolan själv är mogen att ansvara för utvecklingen
               av sin forskningsoch forskarutbildningsmiljö.
             </seg>
-            <seg n="4c00ea98">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-80" prev="i-d6430e81c8eaee11-69" who="Q3297193">
+            <seg>
               Mitthögskolans ledning har också förklarat sig beredd att omedelbart
               vidta åtgärder inom det humanistisk-samhällsvetenskapliga vetenskapsområdet
               för att stärka i första hand de forskarutbildningsmiljöer som
               enligt Högskoleverkets bedömargrupp är starkast.
             </seg>
-            <seg n="792cce9a">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-81" prev="i-d6430e81c8eaee11-69" who="Q3297193">
+            <seg>
               Högskoleverkets kvalitetsgranskningar borgar för att regeringsbeslut
               om universitetsstatus och vetenskapsområde baseras på högt ställda
               kvalitetskrav.
             </seg>
-            <seg n="12805aaf">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-82" prev="i-d6430e81c8eaee11-69" who="Q3297193">
+            <seg>
               Som jag sade tidigare har Sverige ett synnerligen ambitiöst kvalitetsutvärderingssystem,
               som vi självklart ska värna om för att säkerställa att universitetsbegreppet
               behåller sin trovärdighet.
             </seg>
-            <seg n="8171026e">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-83" prev="i-d6430e81c8eaee11-69" who="Q3297193">
+            <seg>
               Allt detta borde vara väl känt för Per Bill. Jag misstänker därför
               att Per Bills interpellation snarare bottnar i Moderaternas motstånd
               mot att bygga ut högskolan i hela landet.
             </seg>
           </u>
-          <note n="50ee880f">
-            Mitthögskolan inkom i januari 2000 med en komplettering till
-            den tidigare inlämnade ansökan om att få bli universitet. Regeringen
-            beslutade i oktober
-          </note>
-          <note n="b5741d0e">
-            2000 att från den 1 januari 2001 tilldela Mitthögskolan naturvetenskapligt
-            vetenskapsområde, eftersom högskolans naturvetenskapliga forskning
-            av Högskoleverket bedömdes uppfylla högt ställda kvalitetskrav.
-          </note>
-          <note n="48b7b060">
-            Mitthögskolan återkom i januari 2002 med en ansökan om humanistisk-samhällsvetenskapligt
-            vetenskapsområde och prövning av benämningen universitet. Ansökan
-            om vetenskapsområde remitterades till
-          </note>
-          <note n="6e55139a">
-            Högskoleverket för yttrande.
-          </note>
-          <note type="speaker" n="15ea8d1f">
+          <note type="speaker">
             Anf. 9 PER BILL (m):
           </note>
-          <u who="Q5575977" xml:id="i-4f3f982a83fee00a-0" n="ee8e1367">
-            <seg n="2a050a07">
+          <u xml:id="i-d6430e81c8eaee11-84" next="i-d6430e81c8eaee11-96" who="Q5575977">
+            <seg>
               Herr talman! Jag får börja med att tacka för ett långt och snabbt
               svar.
             </seg>
-            <seg n="fccee588">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-85" prev="i-d6430e81c8eaee11-84" who="Q5575977">
+            <seg>
               Det är ett svar som egentligen inte motsäger min verklighetsbeskrivning,
               som handlar om duktiga, ambitiösa högskolor som inte riktigt når
               upp till den ribba som är upplagd när det gäller kvalitetskrav
               och där det sedan kommer in politiska värderingar.
             </seg>
-            <seg n="8c08db2a">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-86" prev="i-d6430e81c8eaee11-84" who="Q5575977">
+            <seg>
               Jag tackar också, herr talman, för den lilla insinuationen på
               slutet som dels ger mig möjlighet att tala om hur det verkligen
               ser ut, dels ger mig rätten till några kryddiga motinsinuationer.
             </seg>
-            <seg n="b77b6943">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-87" prev="i-d6430e81c8eaee11-84" who="Q5575977">
+            <seg>
               Herr talman! Jag har absolut ingenting emot nya högskolor. Tvärtom
               har jag flera gånger i debatter med utbildningsministern berättat
               att min syn är att det här är bra också för de stora universiteten
@@ -781,33 +934,47 @@
               att läsa någonting, utan vill man kan man göra det relativt nära.
               Det är bra.
             </seg>
-            <seg n="8cca9a3b">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-88" prev="i-d6430e81c8eaee11-84" who="Q5575977">
+            <seg>
               Jag har heller ingenting emot Mitthögskolan.
             </seg>
-            <seg n="55c5fa70">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-89" prev="i-d6430e81c8eaee11-84" who="Q5575977">
+            <seg>
               Tvärtom skulle jag kunna stå långt fram i ledet för att välkomna
               Mitthögskolan den dag som Högskoleverket ger klartecken att de
               har klarat alla kvalitetskrav.
             </seg>
-            <seg n="528802aa">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-90" prev="i-d6430e81c8eaee11-84" who="Q5575977">
+            <seg>
               Det som oroar mig när det gäller det här är att vi har sett dels
               en urholkning av grundutbildningen, dels en urholkning av forskningsanslagen
               och dels en politisering av både högskole- och forskningspolitiken.
             </seg>
-            <seg n="58830008">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-91" prev="i-d6430e81c8eaee11-84" who="Q5575977">
+            <seg>
               Vad vi nu ser är en politisering som egentligen innebär att Socialdemokraterna
               skapar ett tvåvägssystem för högskolor som vill bli universitet.
               Det ena spåret, som jag skulle vilja var det enda spåret, handlar
               om att man jobbar hårt med sin kvalitet och att
             </seg>
-            <seg n="cec39a44">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-92" prev="i-d6430e81c8eaee11-84" who="Q5575977">
+            <seg>
               Högskoleverket och deras professionella granskare ska säga till
               när man har uppnått kvalitetsmålen.
             </seg>
-            <seg n="ef5b2777">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-93" prev="i-d6430e81c8eaee11-84" who="Q5575977">
+            <seg>
               Därmed kommer utnämningen från regeringen.
             </seg>
-            <seg n="9f34fbc7">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-94" prev="i-d6430e81c8eaee11-84" who="Q5575977">
+            <seg>
               Men nu har det vid flera tillfällen synts ett annat spår i snön,
               ett spår som handlar om att man går mycket långt på kvalitetsnivån
               men att man sedan kan samla ihop lobbyister, LO och lokala sossepolitiker
@@ -816,10 +983,14 @@
               att helt plötsligt blir politiska kontakter viktigare än det sista
               mödosamma kvalitetsarbetet.
             </seg>
-            <seg n="d81809f7">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-95" prev="i-d6430e81c8eaee11-84" who="Q5575977">
+            <seg>
               Det här riskerar att universitetsbegreppet tappar kvalitetsvärde.
             </seg>
-            <seg n="52b05023">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-96" prev="i-d6430e81c8eaee11-84" who="Q5575977">
+            <seg>
               Ser inte utbildningsministern någon risk i den här smitvägen
               för att bli universitet, som vi har sett flera prov på de senaste
               fem åren? Eller är det kanske så illa att det här egentligen är
@@ -831,70 +1002,99 @@
               den sista kvalgränsen. Är det verkligen så illa?
             </seg>
           </u>
-          <note n="8b04471e" type="speaker">
+          <note type="speaker">
             Anf. 10 BIRGITTA SELLÉN (c):
           </note>
-          <u who="Q4916299" xml:id="i-476d6e011e41fb70-0" n="ee8e1367">
-            <seg n="24ecd330">
+          <u xml:id="i-d6430e81c8eaee11-97" next="i-d6430e81c8eaee11-112" who="Q4916299">
+            <seg>
               Herr talman! Tack, utbildningsministern och regeringen, för att
               vi i vårt län och Mitthögskolan äntligen har nått målet. Jag är
               alltså inte så negativ som Per
             </seg>
-            <seg n="4cdf2bd6">
+          </u>
+          <note>
+            Bill.
+          </note>
+          <u xml:id="i-d6430e81c8eaee11-98" prev="i-d6430e81c8eaee11-97" who="Q4916299">
+            <seg>
               Jag har kämpat under många år och vet att kvalitetsbedömningen
               har gjorts i många olika omgångar.
             </seg>
-            <seg n="5821467d">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-99" prev="i-d6430e81c8eaee11-97" who="Q4916299">
+            <seg>
               Vi har också från vårt håll i Centerpartiet stött det här i våra
               motioner och avsatt extrapengar till forskning och så vidare.
               Mitthögskolans bedömningsprocess har varit ingående. Precis som
               ministern säger har få lärosäten i Sverige genomgått så omfattande
               kvalitetsvärderingar som Mitthögskolan.
             </seg>
-            <seg n="cb7e5f26">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-100" prev="i-d6430e81c8eaee11-97" who="Q4916299">
+            <seg>
               Mitthögskolan har ansökt i flera år och fått vänta och vänta.
               Jag tror att det är bra, för ett tag växte
             </seg>
-            <seg n="87e8eab8">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-101" prev="i-d6430e81c8eaee11-97" who="Q4916299">
+            <seg>
               Mitthögskolan så att det var kvantitet i stället för kvalitet.
               Nu börjar vi som bor nära se kvaliteten. De uppfyller de uppsatta
               kriterierna för att få bli ett universitet och få universitetsstatus.
               Den 1 januari 2005
             </seg>
-            <seg n="f3108fd1">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-102" prev="i-d6430e81c8eaee11-97" who="Q4916299">
+            <seg>
               var ett glädjebesked - jag hoppade högt av glädje när jag läste
               meddelandet häromveckan.
             </seg>
-            <seg n="18aa94f8">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-103" prev="i-d6430e81c8eaee11-97" who="Q4916299">
+            <seg>
               Jag har en liten fundering vad gäller pengarna.
             </seg>
-            <seg n="6f118dce">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-104" prev="i-d6430e81c8eaee11-97" who="Q4916299">
+            <seg>
               Visserligen har det tillförts pengar, 47 miljoner, från
             </seg>
-            <seg n="ebf68b3f">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-105" prev="i-d6430e81c8eaee11-97" who="Q4916299">
+            <seg>
               2000 till 2003. Men när Örebro, Jönköping och Karlstad fick universitetsstatus
               såg vi att det inte följde med pengar. De har fått skylten men
               inte resurserna.
             </seg>
-            <seg n="9e5fb5bd">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-106" prev="i-d6430e81c8eaee11-97" who="Q4916299">
+            <seg>
               Hur ser det ut med det i framtiden? Kan vi hoppas på att få mer
               resurser till Mittuniversitetet, eller vad det nu kommer att heta?
             </seg>
-            <seg n="23ae4590">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-107" prev="i-d6430e81c8eaee11-97" who="Q4916299">
+            <seg>
               Jag skulle vilja ställa en fråga till Per Bill varför han är
               så orolig för att universitetsbegreppet ska få sämre trovärdighet.
               Jag blev mycket illa berörd av skrivningen i interpellationen:
               "Nu ger regeringen
             </seg>
-            <seg n="acb43890">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-108" prev="i-d6430e81c8eaee11-97" who="Q4916299">
+            <seg>
               Mitthögskolan löfte om titeln universitet utan att högskolan
               nått upp till de uppsatta kvalitetsmålen.
             </seg>
-            <seg n="c21c9c1e">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-109" prev="i-d6430e81c8eaee11-97" who="Q4916299">
+            <seg>
               Det är som att lova en nyinskriven läkarstudent sin legitimation,
               oavsett vilka kurser han går eller klarar."
             </seg>
-            <seg n="47dd5103">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-110" prev="i-d6430e81c8eaee11-97" who="Q4916299">
+            <seg>
               Jag tyckte att det var ett väldigt anmärkningsvärt uttalande.
               Det fick mig att tro att Per Bill inte känner till de kvaliteter
               som finns på Mitthögskolan. Visserligen säger Per Bill i sitt
@@ -904,11 +1104,15 @@
               med moderat stämpel har varit negativa till att Mitthögskolan
               ska få bli universitet.
             </seg>
-            <seg n="9f719aec">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-111" prev="i-d6430e81c8eaee11-97" who="Q4916299">
+            <seg>
               Jag ser det så att det här är en högskola som verkligen ligger
               i tiden.
             </seg>
-            <seg n="9f381ffc">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-112" prev="i-d6430e81c8eaee11-97" who="Q4916299">
+            <seg>
               Andra universitet och högskolor har under årens lopp kritiserat
               distansutbildningen, som är specifik för Mitthögskolan, medan
               vi har sett det som att det verkligen ligger i tiden. Den teknik
@@ -918,17 +1122,16 @@
               framtiden.
             </seg>
           </u>
-          <note n="e5533b94">
-            Bill.
-          </note>
-          <note type="speaker" n="27de6326">
+          <note type="speaker">
             Anf. 11 ULF NILSSON (fp):
           </note>
-          <note n="d36de327">
-            Herr talman! Debatten om begreppet universitet i
-          </note>
-          <u who="Q6012166" xml:id="i-265407116811547a-0" n="03f1c931">
-            <seg n="5aca1fcc">
+          <u xml:id="i-d6430e81c8eaee11-113" next="i-d6430e81c8eaee11-122" who="Q6012166">
+            <seg>
+              Herr talman! Debatten om begreppet universitet i
+            </seg>
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-114" prev="i-d6430e81c8eaee11-113" who="Q6012166">
+            <seg>
               Sverige är ofta väldigt laddad, och vi vet alla att det ligger
               en väldig status i universitetsbegreppet. Vi ser hur högskolor
               på olika håll i landet och hur politiker i region och kommun kämpar.
@@ -936,7 +1139,9 @@
               till regeringen kämpar för att just deras högskola ska bli universitet
               och få universitetsstatus.
             </seg>
-            <seg n="86af272f">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-115" prev="i-d6430e81c8eaee11-113" who="Q6012166">
+            <seg>
               För mig har definitionen på ett universitet, fram till för några
               år sedan, varit att det är någonting med bredd och djup. Det har
               flera vetenskapsområden och examinationsrätt när det gäller forskare,
@@ -945,28 +1150,38 @@
               jag har insett att det har skett en glidning utan att någon egentligen
               har talat om vad den nya definitionen på ett universitet innebär.
             </seg>
-            <seg n="41aaec5f">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-116" prev="i-d6430e81c8eaee11-113" who="Q6012166">
+            <seg>
               I dag kan ju regeringen mycket väl tänka sig att diskutera universitetsstatus
               om man har något eller några ämnen man forskar i och har examinationsrätt.
             </seg>
-            <seg n="4a84f323">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-117" prev="i-d6430e81c8eaee11-113" who="Q6012166">
+            <seg>
               Med tanke på laddningen i begreppet borde det finnas något slags
               konsekvens i bedömningen och vissa lättbegripliga principer, så
               att det inte blir vad regeringen i det enskilda fallet tycker
               är lämpligt.
             </seg>
-            <seg n="f1a97c9c">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-118" prev="i-d6430e81c8eaee11-113" who="Q6012166">
+            <seg>
               Jag har väldigt svårt att se en riktig konsekvens i behandlingen.
               Jag vet att man i Jönköping ansökte om vetenskapsområde, som Högskoleverket
               tillstyrkte 2001; det ligger fortfarande hos regeringen.
             </seg>
-            <seg n="06ef82f1">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-119" prev="i-d6430e81c8eaee11-113" who="Q6012166">
+            <seg>
               Jag vet att Malmö högskola och Södertörns högskola ansökte om
               universitetsstatus för ett år sedan, och det har ännu inte lämnats
               till Högskoleverket. Mitthögskolan får däremot löfte om att bli
               universitet mot
             </seg>
-            <seg n="9e9f2fe4">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-120" prev="i-d6430e81c8eaee11-113" who="Q6012166">
+            <seg>
               Högskoleverkets rekommendation. Det är klart att det då är lätt
               att få intryck av att det handlar mer om politiska och taktiska
               beslut än om beslut som är grundade på kvalitetsbedömningar. Därför
@@ -975,7 +1190,9 @@
               universitet? Räcker det med en begränsad forskarutbildning i ett
               ämne? Behövs det en bredd?
             </seg>
-            <seg n="7dc392be">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-121" prev="i-d6430e81c8eaee11-113" who="Q6012166">
+            <seg>
               Jag menar att konsekvens är det bästa. Kanske ska vi lämna den
               gamla definitionen helt och bara säga att alla högskolor som bedriver
               någon form av godkänd forskning ska kallas universitet. Det finns
@@ -985,28 +1202,34 @@
               för många av våra lokala politiker och för många av våra forskare
               och universitets- och högskoleanställda.
             </seg>
-            <seg n="4dd1c31e">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-122" prev="i-d6430e81c8eaee11-113" who="Q6012166">
+            <seg>
               Min enkla fråga är alltså: Vad menar utbildningsministern är
               definitionen på en högskola som ska ha rätt att benämna sig universitet?
             </seg>
           </u>
-          <note type="speaker" n="cb4d5f58">
+          <note type="speaker">
             Anf. 12 Utbildningsminister THOMAS ÖSTROS (s):
           </note>
-          <u who="Q3297193" xml:id="i-7d3fbc95c5383d76-4" n="2d760347">
-            <seg n="36072e44">
+          <u xml:id="i-d6430e81c8eaee11-123" next="i-d6430e81c8eaee11-136" who="Q3297193">
+            <seg>
               Herr talman! Är det något som regeringen har varit väldigt tydlig
               med - ibland har vi faktiskt varit i konflikt med flera borgerliga
               partier - så är det hur viktigt det är med kvalitetsgranskningar
               i högskolan.
             </seg>
-            <seg n="9df5ead6">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-124" prev="i-d6430e81c8eaee11-123" who="Q3297193">
+            <seg>
               Det handlar om hur viktigt det är att vi stärker Högskoleverkets
               ställning, så att man verkligen gör omfattande regelbundna, inte
               ad hoc-mässiga utan systematiska, kvalitetsutvärderingar av det
               svenska högskoleväsendet.
             </seg>
-            <seg n="67847a5f">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-125" prev="i-d6430e81c8eaee11-123" who="Q3297193">
+            <seg>
               På den här punkten har inte minst Per Bill backat efter hand.
               Han har uttryckt sin respekt för att Högskoleverket i dag, efter
               regeringens initiativ, faktiskt fungerar precis på ett sådant
@@ -1014,7 +1237,9 @@
               som med hjälp av forskare gör bedömningar av den vetenskapliga
               kvaliteten.
             </seg>
-            <seg n="cabbc280">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-126" prev="i-d6430e81c8eaee11-123" who="Q3297193">
+            <seg>
               Det andra, minst lika viktiga, är att beslutsfattare respekterar
               de här bedömningarna. Också där har vi varit mycket tydliga från
               regeringen. I takt med att vi har byggt upp den här kvalitetsgranskningen
@@ -1028,11 +1253,15 @@
               kommer att utsättas för en kvalitetsgranskning av forskare, lärare
               och studenter både i grundutbildning och i forskarutbildning.
             </seg>
-            <seg n="d9878228">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-127" prev="i-d6430e81c8eaee11-123" who="Q3297193">
+            <seg>
               Det finns ett slags missförstånd i diskussionen om att regeringen
               inte följer Högskoleverkets beslut.
             </seg>
-            <seg n="9eab441d">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-128" prev="i-d6430e81c8eaee11-123" who="Q3297193">
+            <seg>
               Högskoleverket var mycket tydligt med att det är tid som krävs
               för att man ska nå kvalitetskraven och att man ska följa bedömargruppens
               rekommendationer om att koncentrera insatserna mera till ett antal
@@ -1040,34 +1269,46 @@
               med ett pressmeddelande samtidigt som regeringen fattade beslutet
               som rubricerades: "Det är ett klokt beslut". Högskoleverket skriver:
             </seg>
-            <seg n="dfa9f038">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-129" prev="i-d6430e81c8eaee11-123" who="Q3297193">
+            <seg>
               "Beslutet följer det förslag som Högskoleverkets styrelse överlämnade
               till regeringen i december förra året. Regeringen har tagit fasta
               på bedömningen att det behövs ytterligare ett par år för att utveckla
               och förstärka forskningsmiljön inom det humanistisksamhällsvetenskapliga
               vetenskapsområdet."
             </seg>
-            <seg n="3aaf27a2">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-130" prev="i-d6430e81c8eaee11-123" who="Q3297193">
+            <seg>
               Högskoleverket skriver vidare:
             </seg>
-            <seg n="9c0296fd">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-131" prev="i-d6430e81c8eaee11-123" who="Q3297193">
+            <seg>
               "Högskolverket anser också att en ny prövning av det aktuella
               vetenskapsområdet inte är värd det omfattande arbete en sådan
               prövning innebär. Däremot kommer Högskoleverket att fortsätta
               att granska kvaliteten på Mitthögskolans grund- och forskarutbildning
               inom ramen för de ordinarie kvalitetsutvärderingarna."
             </seg>
-            <seg n="be83bf1c">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-132" prev="i-d6430e81c8eaee11-123" who="Q3297193">
+            <seg>
               Ni ifrågasätter väl inte att Högskoleverket är en stark och oberoende
               myndighet. Regeringen följer naturligtvis mycket noggrant och
               tar till sig vad Högskoleverket har att säga.
             </seg>
-            <seg n="d32647d2">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-133" prev="i-d6430e81c8eaee11-123" who="Q3297193">
+            <seg>
               Det är en intressant spricka som kommer fram, som har varit så
               tydlig hela tiden. Centern är intresserad av att driva en högskoleutveckling
               som gör att fler studenter får chansen att läsa vid högskolorna.
             </seg>
-            <seg n="97325aca">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-134" prev="i-d6430e81c8eaee11-123" who="Q3297193">
+            <seg>
               Det gäller också fler forskarstuderande, som Sverige behöver.
               Vi behöver fler som har disputerat, som kan bli lärare i högskolan,
               som kan jobba i näringslivet och i offentlig sektor. Det behövs
@@ -1077,12 +1318,16 @@
               har valt att samverka med de övriga borgerliga partierna. Per
               Bill och kanske också Ulf
             </seg>
-            <seg n="fe1d8eb1">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-135" prev="i-d6430e81c8eaee11-123" who="Q3297193">
+            <seg>
               Nilsson, fast jag vet inte säkert, är som ett släpankare som
               efterhand accepterar besluten och säger: De var inte så dumma.
               Det var nog bra med lite mer konkurrens.
             </seg>
-            <seg n="60f716c2">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-136" prev="i-d6430e81c8eaee11-123" who="Q3297193">
+            <seg>
               Precis så tycker jag. Det ska vara starka aktörer som konkurrerar
               med varandra. Alla ska inte bli universitet. Det lönar sig att
               jobba hårt med att specialisera sig, bli allt bättre inom de områden
@@ -1097,39 +1342,49 @@
               mycket starka högskolor.
             </seg>
           </u>
-          <note type="speaker" n="1554a32e">
+          <note type="speaker">
             Anf. 13 PER BILL (m):
           </note>
-          <u who="Q5575977" xml:id="i-4f3f982a83fee00a-1" n="ee8e1367" next="i-476d6e011e41fb70-1">
-            <seg n="0915e248">
+          <u xml:id="i-d6430e81c8eaee11-137" next="i-d6430e81c8eaee11-150" who="Q5575977">
+            <seg>
               Herr talman! Utbildningsministern är erkänt skicklig på att med
               flit misstolka sina meddebattörer, eller motdebattörer. Jag har
               försökt att vara tydlig med att det, som jag ser det, handlar
               om principer.
             </seg>
-            <seg n="e016f742">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-138" prev="i-d6430e81c8eaee11-137" who="Q5575977">
+            <seg>
               Det handlar inte om huruvida man älskar en högskola jättemycket
               eller mycket eller någonting annat, utan det handlar om att vi
               ska ha konsekvens, precis som
             </seg>
-            <seg n="a7460f99">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-139" prev="i-d6430e81c8eaee11-137" who="Q5575977">
+            <seg>
               Ulf Nilsson var inne på. Vi måste hitta konsekventa regler som
               gäller alla.
             </seg>
-            <seg n="0a53e8b0">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-140" prev="i-d6430e81c8eaee11-137" who="Q5575977">
+            <seg>
               Vid flera tillfällen har en högskola nästan nått hela vägen.
               Sedan har det kommit politiska skäl - jag vet inte hur lömska
               de är - eller så är Socialdemokraterna bättre än myndigheterna
               på att bedöma huruvida man verkligen har nått upp till det som
               krävs.
             </seg>
-            <seg n="43dc6b63">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-141" prev="i-d6430e81c8eaee11-137" who="Q5575977">
+            <seg>
               Jag noterade att utbildningsministern i svaret förutsätter att
               man har nått upp till de här kvalitetsnivåerna 2005. Det är ändå
               en rätt skicklig prognos. Varför säger man inte 2006 eller 2007
               eller 2004?
             </seg>
-            <seg n="9f8b510b">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-142" prev="i-d6430e81c8eaee11-137" who="Q5575977">
+            <seg>
               Jag tror inte att det är bra att det finns två vägar att gå den
               sista biten, där den ena innebär att man kanske måste göra ännu
               ett varv med Högskoleverkets duktiga granskare. De är inte alls
@@ -1137,7 +1392,9 @@
               är som duktiga konsulter och hjälper till i kvalitetsutvecklingsarbetet.
               Det här är oerhört viktigt.
             </seg>
-            <seg n="2e0cba78">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-143" prev="i-d6430e81c8eaee11-137" who="Q5575977">
+            <seg>
               När man läser pressmeddelandet från Högskoleverket tycker jag
               att det också ger vatten på min kvarn, nämligen att det för Mitthögskolans
               egen skull hade varit bra om man just hade fått fortsätta det
@@ -1146,49 +1403,66 @@
               lyckades få Högskoleverket att inte vara direkt missnöjt och LO
               att vara mycket nöjt.
             </seg>
-            <seg n="a4d1d2d9">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-144" prev="i-d6430e81c8eaee11-137" who="Q5575977">
+            <seg>
               Det återger jag från en socialdemokratisk tidning. De borde väl
               känna igen en skicklig kompromiss när de ser en.
             </seg>
           </u>
-          <note n="ba350e50">
+          <note>
             Vad händer nu med Mälardalens högskola, Malmö högskola, Södertörns
             högskola och Blekinge
           </note>
-          <u who="Q5575977" xml:id="i-476d6e011e41fb70-1" n="ee8e1367" prev="i-4f3f982a83fee00a-1">
-            <seg n="ac77dc8e">
+          <u xml:id="i-d6430e81c8eaee11-145" prev="i-d6430e81c8eaee11-137" who="Q5575977">
+            <seg>
               Tekniska Högskola? Flertalet av dem är mycket bra, skulle jag
               vilja säga, högtstående kvalitet. De besök man gör där själv är
               ju inte alls tillräckliga för att tala om huruvida de har nått
               alla kraven. Men jag skulle bli glad om de nådde sina kvalitetsmål.
             </seg>
-            <seg n="2596f2f3">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-146" prev="i-d6430e81c8eaee11-137" who="Q5575977">
+            <seg>
               Men då blir frågan: Ska de fortsätta att satsa stenhårt bara
               på kvalitetsspåret eller ska de också försöka se om det finns
               några lokala LO-föreningar i Malmö,
             </seg>
-            <seg n="6a977555">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-147" prev="i-d6430e81c8eaee11-137" who="Q5575977">
+            <seg>
               Eskilstuna med flera som de ska alliera sig med? Ska de se till
               att kunna gå både kvalitetsspåret och politikerspåret? Är det
               verkligen så vi ska ha det?
             </seg>
-            <seg n="4df354ea">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-148" prev="i-d6430e81c8eaee11-137" who="Q5575977">
+            <seg>
               Om man vill kan man också tänka sig att få konsistens i det hela
               genom att sänka ribban lite grann och säga att Högskoleverket
               i framtiden ska komma fram till att nu är det dags för den politiska
               processen, det vill säga nu är det fråga om politiska avgöranden.
             </seg>
-            <seg n="63628e9f">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-149" prev="i-d6430e81c8eaee11-137" who="Q5575977">
+            <seg>
               Man har nått så långt i kvalitetsarbetet att det nu blir en politisk
               fråga.
             </seg>
-            <seg n="a9bf2788">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-150" prev="i-d6430e81c8eaee11-137" who="Q5575977">
+            <seg>
               Herr talman! Jag hoppas verkligen att vi inte är på väg åt det
               hållet, det vill säga att vi sänker kvalitetsribban oavsett om
               det gäller Malmö eller Mälardalens högskola och säger: Skaffa
               er bra kontakter! Jag hoppas att vi håller fast vid hårda krav.
             </seg>
-            <seg n="79daa152">
+          </u>
+          <note type="speaker">
+            Anf. 14 BIRGITTA SELLÉN (c):
+          </note>
+          <u xml:id="i-d6430e81c8eaee11-151" next="i-d6430e81c8eaee11-155" who="Q4916299">
+            <seg>
               Herr talman! För oss i länen, Jämtlands och Västernorrlands län,
               växer framtidstron. Avfolkningslän som vi är är det mycket positivt
               med den ökade status som ett universitet ger. Självklart anser
@@ -1196,7 +1470,9 @@
               ska bli universitet utan det är kvaliteten som är det viktiga,
               att man klarar av allt som hör till det.
             </seg>
-            <seg n="3a6de665">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-152" prev="i-d6430e81c8eaee11-151" who="Q4916299">
+            <seg>
               Ingen, kan jag säga - förutom vissa moderater på riksnivå - är
               negativ till det här beslutet. Vad gäller lokala politiker är
               det alltså inte bara socialdemokrater som är positiva utan alla
@@ -1205,7 +1481,9 @@
               jobba ibland, att det inte bara är fråga om deras röstfiske nu
               utan faktiskt alla partiers röstfiske, om vi ska prata om sådant.
             </seg>
-            <seg n="b2cdef9a">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-153" prev="i-d6430e81c8eaee11-151" who="Q4916299">
+            <seg>
               Det är bra att bågen har fått spännas under väntetiden. Det är
               bra för kvaliteten. Att Högskoleverket har insett att det här
               är ett klokt beslut av regeringen tycker jag visar att man var
@@ -1213,11 +1491,15 @@
               tid kvar tills högskolan blir universitet. Under den tiden kan
               man ju leva upp till kraven utan att sänka ribban, som Per
             </seg>
-            <seg n="ef8291ef">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-154" prev="i-d6430e81c8eaee11-151" who="Q4916299">
+            <seg>
               Bill befarar. Jag tror inte att vi behöver se några sådana negativa
               effekter över huvud taget i framtiden.
             </seg>
-            <seg n="6b4bed5c">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-155" prev="i-d6430e81c8eaee11-151" who="Q4916299">
+            <seg>
               Till utbildningsministern kan jag säga att Centerpartiet hela
               tiden har kämpat för kvalitet. Därav har följt att vi har skurit
               ned på antalet platser, som ministern var inne på. Men jag fick
@@ -1225,14 +1507,11 @@
               mer pengar?
             </seg>
           </u>
-          <note n="0f1eb98a" type="speaker">
-            Anf. 14 BIRGITTA SELLÉN (c):
-          </note>
-          <note type="speaker" n="6efe2959">
+          <note type="speaker">
             Anf. 15 ULF NILSSON (fp):
           </note>
-          <u who="Q6012166" xml:id="i-13e722e38a32af93-0" n="03f1c931">
-            <seg n="0ae7b66c">
+          <u xml:id="i-d6430e81c8eaee11-156" next="i-d6430e81c8eaee11-158" who="Q6012166">
+            <seg>
               Herr talman! Jag ställde i förra inlägget frågan till utbildningsministern
               vad han menar att begreppet universitet innebär. Så länge en definition
               saknas blir det i första hand ett statusbegrepp, någonting som
@@ -1240,30 +1519,36 @@
               kontakter. Dessutom blir det orättvist mot dem som inte får detta
               statustyngda begrepp till sitt namn.
             </seg>
-            <seg n="0156f029">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-157" prev="i-d6430e81c8eaee11-156" who="Q6012166">
+            <seg>
               Vad är det då som krävs för att få kalla sig universitet och
               vad anser utbildningsministern att det ska krävas i framtiden?
               Räcker det med forskarutbildning på en liten del av ett vetenskapsområde?
               Finns det något krav på bredd? Finns det krav på flera vetenskapsområden,
               och så vidare?
             </seg>
-            <seg n="0550b76f">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-158" prev="i-d6430e81c8eaee11-156" who="Q6012166">
+            <seg>
               De här frågorna svarade inte utbildningsministern alls på när
               jag ställde frågan. Kanske han själv inte har något svar på frågan.
               Men om han har det skulle jag vara tacksam att få höra det.
             </seg>
           </u>
-          <note type="speaker" n="cb4d5f58">
+          <note type="speaker">
             Anf. 16 Utbildningsminister THOMAS ÖSTROS (s):
           </note>
-          <u who="Q3297193" xml:id="i-fddd9bce51be18db-1" n="2d760347" next="i-1ec58d97267e6664-1">
-            <seg n="80d4010d">
+          <u xml:id="i-d6430e81c8eaee11-159" next="i-d6430e81c8eaee11-172" who="Q3297193">
+            <seg>
               Herr talman! Det ska bli ett nöje att den här gången börja med
               Ulf Nilssons fråga, eftersom jag av respekt för huvudinterpellanten
               valde att framför allt diskutera Per Bills frågeställningar i
               första repliken.
             </seg>
-            <seg n="af438800">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-160" prev="i-d6430e81c8eaee11-159" who="Q3297193">
+            <seg>
               Det förvånar mig att Ulf Nilsson inte känner till att riksdagen
               själv har tagit ställning till kriterierna för universitetsbegreppet
               i Sverige. I budgetpropositionen från 1997 utvecklar regeringen
@@ -1278,37 +1563,45 @@
               och uppfyller kravet att självständigt inrätta professurer och
               utfärda doktorsexamen.
             </seg>
-            <seg n="050a269c">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-161" prev="i-d6430e81c8eaee11-159" who="Q3297193">
+            <seg>
               Läs bedömargruppens rapport sedan, Ulf Nilsson, så ser du att
               ur detta hämtar de sin praxis för att göra sina bedömningar. Ur
               detta har Högskoleverket utvecklat sin praxis. Läs också Högskoleverkets
               reaktion på regeringens beslut. De noterar att regeringen har
               lyssnat och följt Högskoleverkets rekommendation.
             </seg>
-            <seg n="c68d2fcb">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-162" prev="i-d6430e81c8eaee11-159" who="Q3297193">
+            <seg>
               Det här är en sak som jag personligen också är mycket engagerad
               i, att få respekt för kvalitetsutvärderingarna och respekt för
               den myndighet som ska vara spindeln i nätet när det gäller att
               stärka kvaliteten i svensk utbildning och forskning.
             </seg>
-            <seg n="e08f093a">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-163" prev="i-d6430e81c8eaee11-159" who="Q3297193">
+            <seg>
               Sänka ribban, säger Per Bill. Jag skulle snarare vilja säga tvärtom.
               Den process Mitthögskolan har gått igenom är snarare att vi har
               höjt ribban, om man ska uttala sig om hur ribbans läge har förändrats.
               Man ligger vida över den status som Karlstad, Örebro och
             </seg>
           </u>
-          <note n="2ad2400a">
+          <note>
             Växjö hade 1998.
           </note>
-          <u who="Q3297193" xml:id="i-1ec58d97267e6664-1" n="2d760347" prev="i-fddd9bce51be18db-1">
-            <seg n="c962c343">
+          <u xml:id="i-d6430e81c8eaee11-164" prev="i-d6430e81c8eaee11-159" who="Q3297193">
+            <seg>
               Det var också mycket medvetet från regeringens sida att visa
               att det är en lång och mödosam väg för att bli universitet. Man
               kommer hela tiden att åtföljas av mycket kvalificerade granskningar.
               Precis som Per
             </seg>
-            <seg n="66f8793f">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-165" prev="i-d6430e81c8eaee11-159" who="Q3297193">
+            <seg>
               Bill säger är det inte granskningar med uppgift att bara slå
               på näsan utan det är de som ger möjligheten för lärosätet att
               utvecklas. Där har Mitthögskolan sin styrka. Man har lyssnat på
@@ -1321,10 +1614,14 @@
               det som behövs för att kunna ta ytterligare ett steg i sin utveckling.
               Det var också vad bedömargruppen sade.
             </seg>
-            <seg n="50aaa0ef">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-166" prev="i-d6430e81c8eaee11-159" who="Q3297193">
+            <seg>
               Det behövs ytterligare tid.
             </seg>
-            <seg n="567c2c57">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-167" prev="i-d6430e81c8eaee11-159" who="Q3297193">
+            <seg>
               Det är klart att i fråga om kvalitet kan det aldrig finnas en
               politisk vinkling. Kvalitet är en sak för expertisen, forskarna,
               lärarna att bedöma. Men gå inte så långt Per Bill att du säger
@@ -1332,15 +1629,21 @@
               uppstår och växer. Det är jag stolt över att säga att det har
               den.
             </seg>
-            <seg n="6e1f1a7c">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-168" prev="i-d6430e81c8eaee11-159" who="Q3297193">
+            <seg>
               Det krävs starka politiska beslut och starka politiker för att
               bygga upp goda högskolor. Så var det när
             </seg>
-            <seg n="a4c7276a">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-169" prev="i-d6430e81c8eaee11-159" who="Q3297193">
+            <seg>
               Lunds universitet en gång inrättades. Så var det när vart och
               ett av våra övriga universitet inrättades.
             </seg>
-            <seg n="b2123ae5">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-170" prev="i-d6430e81c8eaee11-159" who="Q3297193">
+            <seg>
               Väldigt få universitet i svensk historia har genomgått en så
               här mödosam och omfattande kvalitetsutvärderingsprocess. Det har
               varit politik, inte i form av en demokratiskt folkvald riksdag
@@ -1348,32 +1651,40 @@
               Vi har nu skapat en kvalitetsbedömning i Sverige för att ta ytterligare
               steg som jag tror är mycket respektingivande också i högskolevärlden.
             </seg>
-            <seg n="dae89e23">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-171" prev="i-d6430e81c8eaee11-159" who="Q3297193">
+            <seg>
               Det är riktigt, det har Mitthögskolans väg också visat, att det
               är en lång och mödosam process. Men det lönar sig att fatta beslut
               som också höjer kvaliteten. Därmed har de nu också möjligheten
               att bli universitet.
             </seg>
-            <seg n="393d3352">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-172" prev="i-d6430e81c8eaee11-159" who="Q3297193">
+            <seg>
               Resurser gick till de tre nya efter att de fick beslutet. Nu
               har Mitthögskolan till stor del fått resurser före. Man kommer
               också att få ytterligare resurser när man blir universitet. Det
               får vi återkomma till.
             </seg>
           </u>
-          <note type="speaker" n="a4f44330">
+          <note type="speaker">
             Anf. 17 PER BILL (m):
           </note>
-          <u who="Q5575977" xml:id="i-4f3f982a83fee00a-2" n="ee8e1367" next="i-476d6e011e41fb70-2">
-            <seg n="e9be72c7">
+          <u xml:id="i-d6430e81c8eaee11-173" next="i-d6430e81c8eaee11-179" who="Q5575977">
+            <seg>
               Herr talman! Den stora skillnaden ligger egentligen i den enkla
               lilla frasen att ministern "förutsätter"
             </seg>
-            <seg n="68dd8236">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-174" prev="i-d6430e81c8eaee11-173" who="Q5575977">
+            <seg>
               att de har nått upp 2005. Jag hade velat se något annat. Varför
               inte ge dem - som ett politiskt beslut -
             </seg>
-            <seg n="0aa90741">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-175" prev="i-d6430e81c8eaee11-173" who="Q5575977">
+            <seg>
               ytterligare lite extra resurser eftersom de är så väldigt nära?
               Om sedan Högskoleverket hade sagt att de klarat alla krav 2005,
               då hade man utsett dem till universitet, inte en minut senare.
@@ -1381,7 +1692,9 @@
               vet? Det handlar om sättet att utnämna, inte om vilken högskola
               som blir utnämnd eller inte.
             </seg>
-            <seg n="a92eac23">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-176" prev="i-d6430e81c8eaee11-173" who="Q5575977">
+            <seg>
               Jag fick inget svar på hur Mälardalen, Malmö och de andra ska
               göra. Hur ska de tolka detta? Betyder det här svaret att de inte
               har en chans före 2005 utan att det var Mitthögskolan som så att
@@ -1389,32 +1702,36 @@
               Jag tror att väldigt många på Mälardalens högskola,
             </seg>
           </u>
-          <note n="debb309c">
+          <note>
             Malmö högskola, Södertörns högskola, Blekinge
           </note>
-          <u who="Q5575977" xml:id="i-476d6e011e41fb70-2" n="ee8e1367" prev="i-4f3f982a83fee00a-2">
-            <seg n="072cd81e">
+          <u xml:id="i-d6430e81c8eaee11-177" prev="i-d6430e81c8eaee11-173" who="Q5575977">
+            <seg>
               Tekniska Högskola och så vidare faktiskt är intresserade av att
               veta om det är någon typ av förändring som vi ser här när man
               inte i förväg behöver klara
             </seg>
-            <seg n="75bd561f">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-178" prev="i-d6430e81c8eaee11-173" who="Q5575977">
+            <seg>
               Högskoleverkets samtliga krav. Är det så att man ska klara 95
               % av dem, 98 % av dem? Finns det någon förändring i de kriterier
               som jag trodde att vi förut var överens om?
             </seg>
-            <seg n="cf818da3">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-179" prev="i-d6430e81c8eaee11-173" who="Q5575977">
+            <seg>
               Jag var faktiskt glad för att utbildningsministern inte åkte
               runt i valrörelsen, såsom Carl Tham åkte runt i den förra valrörelsen,
               och lovade ut högskolestatus. Det är åtminstone något positivt,
               att den här typen av politiska kompromisser nu kommer efteråt.
             </seg>
           </u>
-          <note type="speaker" n="cb4d5f58">
+          <note type="speaker">
             Anf. 18 Utbildningsminister THOMAS ÖSTROS (s):
           </note>
-          <u who="Q3297193" xml:id="i-fddd9bce51be18db-2" n="2d760347">
-            <seg n="eb7fe5ec">
+          <u xml:id="i-d6430e81c8eaee11-180" next="i-d6430e81c8eaee11-192" who="Q3297193">
+            <seg>
               Herr talman! Moderaterna har verkligen haft problem med sin högskolepolitik
               under hela 90-talet och även de här första åren på 2000-talet.
               Hur ställer man sig egentligen till att det också uppstår starka
@@ -1423,14 +1740,18 @@
               blir en framgång. Då rättar man naturligtvis in sig och säger
               att det här var ju ingen dum idé.
             </seg>
-            <seg n="08bf6f5d">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-181" prev="i-d6430e81c8eaee11-180" who="Q3297193">
+            <seg>
               Vi har väldigt goda exempel runtom i landet på hur högskolor
               har vuxit sig starka, specialiserade högskolor inriktade på olika
               områden där de har haft mycket god kompetens. Inom de områdena
               har de också kunnat konkurrera med de breda, gamla, traditionella
               universiteten.
             </seg>
-            <seg n="e03d9288">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-182" prev="i-d6430e81c8eaee11-180" who="Q3297193">
+            <seg>
               Vi ska inte bygga upp universitet som liknar Uppsala och Lund
               igen. De är nationella klenoder som vi måste värna och satsa mycket
               resurser på. De spelar en stor roll med sin bredd. De nya universiteten,
@@ -1439,47 +1760,57 @@
               skarpt inom de områden där de koncentrerar sina insatser. Där
               ska de konkurrera med de allra bästa.
             </seg>
-            <seg n="943c74f9">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-183" prev="i-d6430e81c8eaee11-180" who="Q3297193">
+            <seg>
               På så vis skapar vi ett högskolelandskap som både erbjuder den
               klassiska bredden i ett gammalt universitet och nya universitet,
               specialiserade inom olika områden, väl bevandrade också internationellt,
               som bidrar till svensk forsknings utveckling.
             </seg>
-            <seg n="ab3cdad9">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-184" prev="i-d6430e81c8eaee11-180" who="Q3297193">
+            <seg>
               I grunden ligger att vi behöver fler som läser på högskolan.
               Vi behöver fler som går en forskarutbildning. Vi behöver också
               högskolans kraft för att hela landet ska kunna leva. Moderaterna
               är benhårda motståndare både till att fler får plugga och till
               att hela landet får tillgång till högre utbildning.
             </seg>
-            <seg n="fad65be2">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-185" prev="i-d6430e81c8eaee11-180" who="Q3297193">
+            <seg>
               Det är intressant att se att klyftan är stor inom det borgerliga
               blocket i en så strategisk fråga för Sverige.
             </seg>
-            <seg n="6b744368">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-186" prev="i-d6430e81c8eaee11-180" who="Q3297193">
+            <seg>
               Det tror jag ger utrymme för att fortsätta diskutera högskolepolitik
               i lite nya konstellationer.
             </seg>
           </u>
-          <note n="eeffde28">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="7a9cd2fe">
+          <note>
             5 § Svar på interpellation 2002/03:144 om validering
           </note>
-          <note n="e1521851">
+          <note>
             Anf. 19 Statsrådet LENA HALLEN-
           </note>
-          <note type="speaker" n="d12c3dae">
+          <note>
             GREN (s):
           </note>
-          <u who="unknown" xml:id="i-67b75f63686c6457-0" n="2d760347">
-            <seg n="cf5d6d25">
+          <u xml:id="i-d6430e81c8eaee11-187" prev="i-d6430e81c8eaee11-180" who="Q3297193">
+            <seg>
               Herr talman! Torsten Lindström har frågat mig om vilka initiativ
               jag avser att vidta för att dels ta vara på människors befintliga
               kunskaper, dels öka inslagen av validering i kunskapssystemet.
             </seg>
-            <seg n="81246241">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-188" prev="i-d6430e81c8eaee11-180" who="Q3297193">
+            <seg>
               Jag vill först säga att jag delar Torsten Lindströms uppfattning
               att det är viktigt för såväl den enskilde som samhället i sin
               helhet att vi tar tillvara människors kunskaper, oavsett hur de
@@ -1488,7 +1819,9 @@
               kompetens snabbare. Inte minst för personer med utländsk yrkesutbildning
               eller arbetslivserfarenhet kan validering ha en stor betydelse.
             </seg>
-            <seg n="e1a77784">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-189" prev="i-d6430e81c8eaee11-180" who="Q3297193">
+            <seg>
               Validering är en process som syftar till att kartlägga och dokumentera
               de faktiska kunskaper och den kompetens en individ tillägnat sig.
               Validering och valideringsliknande verksamheter har länge förekommit
@@ -1497,38 +1830,44 @@
               värdera människors yrkeskunskaper, till exempel med olika branschcertifikat
               och beskrivningar som underlag.
             </seg>
-            <seg n="ebd95807">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-190" prev="i-d6430e81c8eaee11-180" who="Q3297193">
+            <seg>
               Vilka kompetens- eller kunskapskrav som är relevanta att ställa
               inom olika yrken måste avgöras av företrädarna för yrkesområdet
               och branschen ifråga.
             </seg>
-            <seg n="eee11bf9">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-191" prev="i-d6430e81c8eaee11-180" who="Q3297193">
+            <seg>
               Inom varje individualiserad, pedagogisk verksamhet ska validering
               vara ett självklart inslag. Inte minst inom vuxenpedagogiken har
               detta förhållningssätt traditionellt lyfts fram.
             </seg>
-            <seg n="8277e37d">
-              Validering av vuxnas kunskap och kompetens har varit föremål
-              för utredning, och försök med validering har pågått och pågår
-              i ett antal kommuner. Utredningen Validering av vuxnas kunskap
-              och kompetens (SOU2001:78) överlämnade sitt slutbetänkande till
-              regeringen i oktober 2001 varvid Skolverket övertog samordningsansvaret
-              för pågående försöksverksamhet. En slutrapport lämnades i december
-            </seg>
-            <seg n="49747fff">
+          </u>
+          <note>
+            Validering av vuxnas kunskap och kompetens har varit föremål
+            för utredning, och försök med validering har pågått och pågår
+            i ett antal kommuner. Utredningen Validering av vuxnas kunskap
+            och kompetens (SOU2001:78) överlämnade sitt slutbetänkande till
+            regeringen i oktober 2001 varvid Skolverket övertog samordningsansvaret
+            för pågående försöksverksamhet. En slutrapport lämnades i december
+          </note>
+          <note>
+            2002.
+          </note>
+          <u xml:id="i-d6430e81c8eaee11-192" prev="i-d6430e81c8eaee11-180" who="Q3297193">
+            <seg>
               Regeringen avser att inom kort presentera sina ställningstaganden
               i fråga om validering. Jag vill därför återkomma med en närmare
               redogörelse vid ett senare tillfälle.
             </seg>
           </u>
-          <note n="83ccab23">
-            2002.
-          </note>
-          <note type="speaker" n="91a35ef6">
+          <note type="speaker">
             Anf. 20 TORSTEN LINDSTRÖM (kd):
           </note>
-          <u who="Q5958869" xml:id="i-984ef7ec313e74d6-0" n="243b5802">
-            <seg n="87bd497c">
+          <u xml:id="i-d6430e81c8eaee11-193" next="i-d6430e81c8eaee11-201" who="Q5958869">
+            <seg>
               Herr talman! Jag vill inledningsvis tacka statsrådet för svaret
               på min interpellation. Det är ju positivt att statsrådet och jag
               är överens om det viktiga i att valideringen utvecklas och fungerar.
@@ -1536,7 +1875,9 @@
               och inte heller visar den handlingskraft som jag skulle vilja
               se.
             </seg>
-            <seg n="9bcfc84f">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-194" prev="i-d6430e81c8eaee11-193" who="Q5958869">
+            <seg>
               I dag, herr talman, pågår ett resursslöseri både mänskligt och
               ekonomiskt eftersom människors kompetens inte tas till vara i
               samhället och på arbetsmarknaden. Det handlar om flera olika problem,
@@ -1549,7 +1890,9 @@
               lön som de borde förtjäna. Det handlar om personer som arbetat
               inom hantverksyrken men som inte har papper på vad de kan.
             </seg>
-            <seg n="5f8a7136">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-195" prev="i-d6430e81c8eaee11-193" who="Q5958869">
+            <seg>
               Det handlar också delvis om ett annat problem, nämligen om de
               invandrade akademiker och yrkesskickliga personer som möter en
               rad hinder på sin väg in på den svenska arbetsmarknaden. Jag vill
@@ -1559,12 +1902,16 @@
               upp till kunskapskrav i till exempel engelska, engelska som kanske
               inte alltid -
             </seg>
-            <seg n="d3a4bc35">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-196" prev="i-d6430e81c8eaee11-193" who="Q5958869">
+            <seg>
               eller snarare ganska sällan - används i den praktiska yrkesverkligheten.
               Det hindrar kvalificerade, erfarna och yrkeskunniga personer att
               komma in på arbetsmarknaden. Det har vi inte råd med.
             </seg>
-            <seg n="8a85527f">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-197" prev="i-d6430e81c8eaee11-193" who="Q5958869">
+            <seg>
               Herr talman! Vi kristdemokrater menar att Sverige behöver ta
               vara på och hjälpa, inte stjälpa, dessa yrkesmänniskor både av
               mänskliga skäl och av rent strategiska skäl. Sverige behöver bli
@@ -1572,7 +1919,9 @@
               när vi redan har en brist, och kommer att få en än större brist,
               inom flera yrken, till exempel just vård- och hantverksyrken.
             </seg>
-            <seg n="f8332a49">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-198" prev="i-d6430e81c8eaee11-193" who="Q5958869">
+            <seg>
               Därför vill vi utveckla valideringen som en metod. Regeringen
               har också, som statsrådet säger, på sitt bord fått förslag om
               att utveckla valideringen som ett instrument. Vi ser hur vården
@@ -1582,7 +1931,9 @@
               uppger att bristen på kunskap, eller snarare på personer med rätt
               kunskap, är ett direkt hinder för företagets utveckling.
             </seg>
-            <seg n="afd915e7">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-199" prev="i-d6430e81c8eaee11-193" who="Q5958869">
+            <seg>
               Eftersom det i första hand är de små företagen som har potential
               att i framtiden skapa utrymme för välfärden är detta alarmerande.
               När småföretagen, främst inom traditionellt praktiska sektorer
@@ -1591,29 +1942,35 @@
               att vidta kraftfulla åtgärder. Det finns också andra sektorer
               där det behövs insatser för att klara försörjningen av yrkeskunniga.
             </seg>
-            <seg n="d81fde07">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-200" prev="i-d6430e81c8eaee11-193" who="Q5958869">
+            <seg>
               Herr talman! Validering är en metod för att lösa en del av dessa
               resursbrister. Regeringens passivitet i detta - att vänta i åratal
               med verkliga förslag medan människor står utanför arbetsmarknaden
               - inger oro.
             </seg>
-            <seg n="a6f439ad">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-201" prev="i-d6430e81c8eaee11-193" who="Q5958869">
+            <seg>
               Hur tänker egentligen regeringen? Jag vill låta statsrådet få
               en chans att berätta för oss hur regeringen tänker i de här frågorna
               och vilka åtgärder regeringen tänker vidta.
             </seg>
           </u>
-          <note type="speaker" n="b36b55d9">
+          <note type="speaker">
             Anf. 21 AXEL DARVIK (fp):
           </note>
-          <u who="Q4830255" xml:id="i-a1c7af9f5d7d444d-0" n="58af7b73">
-            <seg n="1eef2dcc">
+          <u xml:id="i-d6430e81c8eaee11-202" next="i-d6430e81c8eaee11-219" who="Q4830255">
+            <seg>
               Herr talman! I dag har Sverige en stor begåvningsreserv bland
               framför allt utländska akademiker och andra kunniga med utländsk
               bakgrund som inte får utöva sitt yrke i Sverige. Detta är ett
               stort resursslöseri som naturligtvis är en stor brist för Sverige.
             </seg>
-            <seg n="991d78e5">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-203" prev="i-d6430e81c8eaee11-202" who="Q4830255">
+            <seg>
               Ibland brukar man som ett lite löjeväckande argument säga att
               Sverige har de mest utbildade taxiförarna i Europa. Ibland är
               det inte ens så bra. Många av dessa akademiker har inte ens ett
@@ -1625,7 +1982,9 @@
               med att det kan vara svårt att få ett banklån eller en lägenhet
               om man har ett konstigt namn.
             </seg>
-            <seg n="5a0f0127">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-204" prev="i-d6430e81c8eaee11-202" who="Q4830255">
+            <seg>
               Ett annat problem är svenska för invandrare, sfiundervisningen,
               som har misslyckats kapitalt med sin uppgift. I den senaste undersökningen
               kan man läsa att 52 % av dem som har börjat med sfi har avbrutit
@@ -1634,7 +1993,9 @@
               för att man ska klara av att bli integrerad i samhället och ha
               möjlighet att få ett arbete och göra en yrkeskarriär.
             </seg>
-            <seg n="e4a987fd">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-205" prev="i-d6430e81c8eaee11-202" who="Q4830255">
+            <seg>
               Många gånger präglas såväl sfi-undervisningen som valideringen
               av dålig hänsyn till individuella erfarenheter, vilket i sig är
               förnedrande för den som har dessa kunskaper och erfarenheter.
@@ -1642,7 +2003,9 @@
               och universitet, för att just åstadkomma en bredd och en större
               individualisering av sfi-undervisningen.
             </seg>
-            <seg n="72ecfaa0">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-206" prev="i-d6430e81c8eaee11-202" who="Q4830255">
+            <seg>
               Valideringen tar i dag alldeles för lång tid att genomföra eftersom
               man måste skicka efter papper från universitetet i till exempel
               Teheran eller liknande. Det kan vara en stor och svår uppgift
@@ -1653,7 +2016,9 @@
               huruvida man har de kunskaper som efterfrågas. Detta kan göras
               genom prov och inlämningsuppgifter med mera.
             </seg>
-            <seg n="20056a00">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-207" prev="i-d6430e81c8eaee11-202" who="Q4830255">
+            <seg>
               När man drar samman dessa olika delar av situationen för våra
               nyanlända invånare ser man att det finns flera tecken på en systematisk
               diskriminering som drabbar den enskilde obönhörligt. Därtill har
@@ -1663,19 +2028,21 @@
               för Sveriges invandrare.
             </seg>
           </u>
-          <note n="cf5df22f">
+          <note>
             Anf. 22 Statsrådet LENA HALLEN-
           </note>
-          <note type="speaker" n="d12c3dae">
+          <note>
             GREN (s):
           </note>
-          <u who="unknown" xml:id="i-67b75f63686c6457-1" n="2d760347">
-            <seg n="7223b98e">
+          <u xml:id="i-d6430e81c8eaee11-208" prev="i-d6430e81c8eaee11-202" who="Q4830255">
+            <seg>
               Herr talman! Detta blir en diskussion om många fler saker än
               bara validering. Jag börjar med lite av det som Axel Darvik talade
               om.
             </seg>
-            <seg n="8774d573">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-209" prev="i-d6430e81c8eaee11-202" who="Q4830255">
+            <seg>
               Utländska akademiker är en mycket viktig grupp i samhället som
               vi naturligtvis ska ta till vara, men när vi talar om validering
               känns det viktigt att påpeka att validering är något som alla
@@ -1685,21 +2052,29 @@
               och har ett behov av att under den tid de är i yrke få sina kunskaper
               mer formellt beskrivna på papper.
             </seg>
-            <seg n="e3cd992d">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-210" prev="i-d6430e81c8eaee11-202" who="Q4830255">
+            <seg>
               Vilka krav som sedan ska ställas på olika utbildningar tycker
               jag inte är en fråga för Sveriges riksdag.
             </seg>
-            <seg n="53b50283">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-211" prev="i-d6430e81c8eaee11-202" who="Q4830255">
+            <seg>
               Det är snarare en fråga för branscher och myndigheter.
             </seg>
-            <seg n="1b53febd">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-212" prev="i-d6430e81c8eaee11-202" who="Q4830255">
+            <seg>
               För att anknyta till de tankar Torsten Lindström utvecklade när
               det gäller sjukvården och undersköterskor: Det måste väl ändå
               vara en fråga för Socialstyrelsen att komma fram till vilka krav
               som är rimliga och realistiska att ställa på den kår som arbetar
               inom sjukvården.
             </seg>
-            <seg n="5e2da74d">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-213" prev="i-d6430e81c8eaee11-202" who="Q4830255">
+            <seg>
               När det gäller sfi vill jag bara väldigt kort säga att det finns
               en utredning som ser över detta. Det är inte något som vare sig
               regeringen eller jag själv blundar för. Men att tala om språktest
@@ -1707,13 +2082,17 @@
               och helhjärtat engagemang för alla människors möjlighet att delta
               i det svenska samhället.
             </seg>
-            <seg n="2a070ebf">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-214" prev="i-d6430e81c8eaee11-202" who="Q4830255">
+            <seg>
               Jag tycker att det är viktigt att vi talar om att det är alla
               vuxna människors möjlighet att ta del av validering. Det har varit
               en försöksverksamhet som har pågått i ett antal kommuner. Under
               Kunskapslyftet vet vi att det har pågått ungefär 400 valideringsprocesser.
             </seg>
-            <seg n="86346ff0">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-215" prev="i-d6430e81c8eaee11-202" who="Q4830255">
+            <seg>
               Problemet är att vi i dag inte vet om det finns en likvärdighet
               eller rättssäkerhet för den enskilde. Vi kan inte veta om man
               det intyg man får om man blir validerad i till exempel Uppsala
@@ -1721,13 +2100,17 @@
               är just detta som vi avser att se över. Det kräver statens engagemang
               att vi ska ha en nationell likvärdighet.
             </seg>
-            <seg n="b92b0292">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-216" prev="i-d6430e81c8eaee11-202" who="Q4830255">
+            <seg>
               Validering av dokumentationen måste ha en legitimitet, och det
               är där staten kommer in. Ibland kan det gälla människor som kommer
               till Sverige och saknar merithandlingar eller referenser. Det
               kan vara ett sätt att snabbare komma in i arbete eller studier.
             </seg>
-            <seg n="b43badf2">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-217" prev="i-d6430e81c8eaee11-202" who="Q4830255">
+            <seg>
               Det kan vara mycket värdefullt för alla att få sin reella kompetens
               tydliggjord. Med propositionen Den öppna högskolan har också högskoleförordningen
               förändrats. Från och med i sommar ska det också tas hänsyn till
@@ -1736,23 +2119,27 @@
               arbetslivets parter. Då kan den vinna tilltro och fylla ett reellt
               behov.
             </seg>
-            <seg n="089ffdcf">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-218" prev="i-d6430e81c8eaee11-202" who="Q4830255">
+            <seg>
               Validering handlar om att man bedömer, värderar och erkänner
               kunskap och kompetens som den enskilde har skaffat sig på olika
               ställen, i olika sammanhang under livet. Det är en väldigt viktig
               fråga.
             </seg>
-            <seg n="e4caea5c">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-219" prev="i-d6430e81c8eaee11-202" who="Q4830255">
+            <seg>
               Jag vill återupprepa det jag sade Torsten Lindström i interpellationssvaret:
               Jag har för avsikt att återkomma snart med ställningstagande i
               de här frågorna.
             </seg>
           </u>
-          <note type="speaker" n="63b99d60">
+          <note type="speaker">
             Anf. 23 TORSTEN LINDSTRÖM (kd):
           </note>
-          <u who="Q5958869" xml:id="i-984ef7ec313e74d6-1" n="243b5802">
-            <seg n="20e65564">
+          <u xml:id="i-d6430e81c8eaee11-220" next="i-d6430e81c8eaee11-229" who="Q5958869">
+            <seg>
               Herr talman! I förra veckan fick jag ett brev från en före detta
               student till mig. Den här studenten kommer från ett annat europeiskt
               land och har det därigenom ändå ganska lätt för sig i den svenska
@@ -1763,39 +2150,53 @@
               skulle bevisa att de hade kunskaper och gå svenska gymnasiekurser
               för att få svensk högskolebehörighet
             </seg>
-            <seg n="b56eb573">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-221" prev="i-d6430e81c8eaee11-220" who="Q5958869">
+            <seg>
               - svenska gymnasiekurser som de sannolikt redan klarat av med
               råge i sitt hemland.
             </seg>
-            <seg n="e893bdb8">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-222" prev="i-d6430e81c8eaee11-220" who="Q5958869">
+            <seg>
               Detta exempel visar på att det i dag finns ett resursslöseri.
               Sverige tar inte människors kompetens till vara. Vi låter chanserna
               att ta till vara kompetensen bli försuttna. Det är inte bra.
             </seg>
-            <seg n="69808c36">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-223" prev="i-d6430e81c8eaee11-220" who="Q5958869">
+            <seg>
               Jag tror heller inte, herr talman, att den här studenten eller
               hans kamrater skulle bli särskilt glad eller lättad över att höra
               statsrådets svar här i dag. Statsrådet talar nämligen fortfarande
               väldigt allmänt och vällovligt om behovet av validering, men jag
               saknar fortfarande de konkreta åtgärderna.
             </seg>
-            <seg n="83a3ed25">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-224" prev="i-d6430e81c8eaee11-220" who="Q5958869">
+            <seg>
               Om vi tar sjuksköterskefallet som exempel är det klart att det
               ska avgöras av dem som kan det. Men när jag diskuterade detta
               med utbildningsministern före jul sade han att det var statsrådet
               Hallengren som skulle komma med initiativen. Då frågar jag återigen:
             </seg>
-            <seg n="f6e15507">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-225" prev="i-d6430e81c8eaee11-220" who="Q5958869">
+            <seg>
               Var är dessa initiativ? Vad ska statsrådet göra för att häva
               den passivitet som i dag präglar denna sektor?
             </seg>
-            <seg n="8f9a687d">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-226" prev="i-d6430e81c8eaee11-220" who="Q5958869">
+            <seg>
               Herr talman! Vi kristdemokrater har en lång rad förslag utöver
               detta med validering. När det gäller valideringen är vi överens
               med statsrådet om betydelsen av att ha en jämlik validering. Men
               vi saknar också de konkreta förslagen. Det är dem vi söker efter.
             </seg>
-            <seg n="ce706fc4">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-227" prev="i-d6430e81c8eaee11-220" who="Q5958869">
+            <seg>
               Den jämlika valideringen som är likvärdig över hela landet måste
               helt enkelt komma till stånd. Utöver det har vi en rad andra förslag.
               Vi vill till exempel införa yrkeshögskolor för att uppgradera
@@ -1804,11 +2205,15 @@
               också det för att bemöta småföretagens behov som är stora. 135
               000 småföretag behöver i dag rekrytera medarbetare med yrkeskompetens.
             </seg>
-            <seg n="36453107">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-228" prev="i-d6430e81c8eaee11-220" who="Q5958869">
+            <seg>
               Det skulle säkert kunna underlättas om dessa förslag om validering
               kom till stånd.
             </seg>
-            <seg n="b338f89d">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-229" prev="i-d6430e81c8eaee11-220" who="Q5958869">
+            <seg>
               Det finns också en lång rad andra förslag som förtjänar att ses
               över. Men trots detta saknar jag statsrådets konkreta svar. Jag
               är medveten om att statsrådet är ganska ny på sin post, och jag
@@ -1818,18 +2223,20 @@
               Sverige?
             </seg>
           </u>
-          <note type="speaker" n="90a2e9f2">
+          <note type="speaker">
             Anf. 24 AXEL DARVIK (fp):
           </note>
-          <u who="Q4830255" xml:id="i-a1c7af9f5d7d444d-1" n="58af7b73">
-            <seg n="fe6882b2">
+          <u xml:id="i-d6430e81c8eaee11-230" next="i-d6430e81c8eaee11-236" who="Q4830255">
+            <seg>
               Herr talman! I Sverige har vi examina i våra utbildningar. Och
               det viktiga med valideringen är många gånger att man just ska
               få ett bevis på att man har samma kunskaper som motsvaras av en
               viss examen. Det kan gälla till exempel en civilingenjörsexamen,
               en läkarexamen eller en sjuksköterskeexamen.
             </seg>
-            <seg n="c86cb43c">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-231" prev="i-d6430e81c8eaee11-230" who="Q4830255">
+            <seg>
               Men vad anser statsrådet om att detta kanske skulle kunna förenklas
               genom att man får lov att testa sina kunskaper vid en högskola
               för att se om man har de kunskaper som krävs och inte behöver
@@ -1843,7 +2250,9 @@
               och känna sig som en del av samhället? Det gör att man blir åsidosatt
               på ett mycket tråkigt sätt.
             </seg>
-            <seg n="46d18102">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-232" prev="i-d6430e81c8eaee11-230" who="Q4830255">
+            <seg>
               Debatten om sfi och validering och om hur utanförskapet ska hävas
               har pågått väldigt länge. Det är beklagligt att Socialdemokraterna
               ännu inte har lyckats få fram några konkreta förslag för hur man
@@ -1852,14 +2261,14 @@
               har för förslag om man saknar egna idéer att lyfta fram till riksdagen.
             </seg>
           </u>
-          <note n="5852ee1e">
+          <note>
             Anf. 25 Statsrådet LENA HALLEN-
           </note>
-          <note type="speaker" n="d12c3dae">
+          <note>
             GREN (s):
           </note>
-          <u who="unknown" xml:id="i-67b75f63686c6457-2" n="2d760347">
-            <seg n="4a51e375">
+          <u xml:id="i-d6430e81c8eaee11-233" prev="i-d6430e81c8eaee11-230" who="Q4830255">
+            <seg>
               Herr talman! Jag ska se i vilken ände jag ska börja. Jag tycker
               att det är oerhört viktigt att vi alla inte talar bara om människor
               med utländsk bakgrund när vi talar om validering därför att det
@@ -1870,14 +2279,18 @@
               som vi har en utredning som ser över, och vi kommer att återkomma
               i höst med förslag från utredningen.
             </seg>
-            <seg n="64fcf23f">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-234" prev="i-d6430e81c8eaee11-230" who="Q4830255">
+            <seg>
               Axel Darvik gav mig ett tips att titta på Folkpartiets förslag.
               Det vore trevligt om vi fick höra en hel radda av förslag här
               i kammaren förutom just förslaget om språktest som väl är det
               som har etsat sig fast på näthinnan hos de flesta av oss när det
               gäller Folkpartiets alla förslag.
             </seg>
-            <seg n="6fb782aa">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-235" prev="i-d6430e81c8eaee11-230" who="Q4830255">
+            <seg>
               Jag vill inte ge mig så mycket in på försöksverksamhet och högskolan
               därför att dels handlar interpellationen inte så mycket om det,
               dels är det inte mina ansvarsområden. Men det pågår försöksverksamhet
@@ -1885,7 +2298,9 @@
               i den nya högskoleförordningen under sommaren hoppas jag naturligtvis
               väldigt mycket på.
             </seg>
-            <seg n="37ec7c74">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-236" prev="i-d6430e81c8eaee11-230" who="Q4830255">
+            <seg>
               Det hade varit väldigt roligt för dem som i dag sitter i kammaren
               om regeringen hade valt att vid detta tillfälle presentera sina
               ståndpunkter och komma med förslag när det gäller validering.
@@ -1900,11 +2315,11 @@
               de kristdemokrater som vi har.
             </seg>
           </u>
-          <note type="speaker" n="c49d479b">
+          <note type="speaker">
             Anf. 26 TORSTEN LINDSTRÖM (kd):
           </note>
-          <u who="Q5958869" xml:id="i-7038ebf60ba1e3d1-0" n="243b5802">
-            <seg n="2e212013">
+          <u xml:id="i-d6430e81c8eaee11-237" next="i-d6430e81c8eaee11-257" who="Q5958869">
+            <seg>
               Herr talman! Jag vill tacka statsrådet för den här debatten.
               Jag tycker att det är ett positivt engagemang som statsrådet visar
               för dessa frågor, och jag ser fram emot fortsatta diskussioner
@@ -1914,7 +2329,9 @@
               också många andra exempel som visar hur mångfasetterad valideringsfrågan
               är.
             </seg>
-            <seg n="eabd185c">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-238" prev="i-d6430e81c8eaee11-237" who="Q5958869">
+            <seg>
               Det är också positivt att statsrådet kommer med sina förslag,
               och det är ju bra. Men det är trots allt ändå så att statsrådet
               är ansvarig för den gamla regeringspolitiken som har fört Sverige
@@ -1926,28 +2343,32 @@
               av validering på ett strategiskt och bra sätt så att vi ska kunna
               avhjälpa bristen på arbetskraft. Det behövs reella förslag.
             </seg>
-            <seg n="153c27d8">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-239" prev="i-d6430e81c8eaee11-237" who="Q5958869">
+            <seg>
               Vi kristdemokrater vill se en kontinuerlig, bra och fungerande
               struktur för valideringen. Det ska vara möjligt för alla att få
               sina kunskaper ordentligt bedömda oavsett hur man har förvärvat
               dem. Människors lärande är nämligen mångfasetterat, och just därför
               behöver också strukturen vara mångfasetterad.
             </seg>
-            <seg n="6e062a09">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-240" prev="i-d6430e81c8eaee11-237" who="Q5958869">
+            <seg>
               Just därför behöver vi en ny struktur och inte denna gammaldags
               och enahanda synen som lett till passivitet och utanförskap i
               det Sverige som Socialdemokraterna styrt under de senaste åtta
               åren.
             </seg>
           </u>
-          <note n="340b3db8">
+          <note>
             Anf. 27 Statsrådet LENA HALLEN-
           </note>
-          <note type="speaker" n="d12c3dae">
+          <note>
             GREN (s):
           </note>
-          <u who="unknown" xml:id="i-67b75f63686c6457-3" n="2d760347">
-            <seg n="ec560915">
+          <u xml:id="i-d6430e81c8eaee11-241" prev="i-d6430e81c8eaee11-237" who="Q5958869">
+            <seg>
               Herr talman! Det är väldigt bra att Torsten Lindström och jag
               delar uppfattning när det gäller vilka som omfattas av validering.
               Jag tror att vi avslutningsvis kan slå fast att det handlar om
@@ -1956,7 +2377,9 @@
               anpassad till individen. Då handlar det om en vardaglig och enkel
               validering för den enskilde.
             </seg>
-            <seg n="5cc24237">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-242" prev="i-d6430e81c8eaee11-237" who="Q5958869">
+            <seg>
               När det handlar om människors lärande är jag väldigt stolt över
               allt det arbete som har utförts under den förra regeringen. Kunskapslyftet
               är väl ett alldeles ypperligt exempel på hur man stöttar människors
@@ -1967,82 +2390,124 @@
               Den ska legitimeras och omfatta alla.
             </seg>
           </u>
-          <note type="speaker" n="d12c3dae">
+          <note>
+            Överläggningen var härmed avslutad.
+          </note>
+          <note>
+            6 § Svar på interpellation 2002/03:145 om brist på personal i
+            förskolan
+          </note>
+          <note>
+            Anf. 28 Statsrådet LENA HALLEN-
+          </note>
+          <note>
             GREN (s):
           </note>
-          <u who="unknown" xml:id="i-67b75f63686c6457-4" n="2d760347">
-            <seg n="48fcc085">
+          <u xml:id="i-d6430e81c8eaee11-243" prev="i-d6430e81c8eaee11-237" who="Q5958869">
+            <seg>
               Herr talman! Gunilla Tjernberg har frågat mig vad jag avser att
               göra för att möjliggöra rekryteringen av utbildad personal till
               förskola, fritidshem och förskoleklass.
             </seg>
-            <seg n="bc839237">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-244" prev="i-d6430e81c8eaee11-237" who="Q5958869">
+            <seg>
               Jag vill först säga att jag som ansvarig minister vill göra kvalitetsfrågorna
               inom förskolan till ett av mina viktigaste områden för reformer
               och utvecklingsarbete under den kommande mandatperioden.
             </seg>
-            <seg n="f420fcf9">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-245" prev="i-d6430e81c8eaee11-237" who="Q5958869">
+            <seg>
               Med anledning av de reformer som genomförts samt den kommande
               satsningen på personalförstärkningar i förskolan kommer det att
               finnas ett stort behov av att anställa mer personal i förskolan.
               För mig är kvalitet dels högskoleutbildade förskollärare, dels
               kompetenta barnskötare.
             </seg>
-            <seg n="4d44dd66">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-246" prev="i-d6430e81c8eaee11-237" who="Q5958869">
+            <seg>
               I samband med att maxtaxan infördes och avgifterna sänktes avsatte
               regeringen, utöver kompensation för reformens genomförande, 500
               miljoner kronor per år för att säkra kvaliteten i förskolan. Kommunerna
               rekvirerar dessa medel årligen från Statens skolverk.
             </seg>
-            <seg n="47d6bd9d">
-              85 % av dessa satsningar har gått till personalförstärkningar.
-              Därmed har personalen i förskolan ökat med 1 150 förskollärare,
-              125 fritidspedagoger och
-            </seg>
-            <seg n="d3c341a5">
+          </u>
+          <note>
+            85 % av dessa satsningar har gått till personalförstärkningar.
+            Därmed har personalen i förskolan ökat med 1 150 förskollärare,
+            125 fritidspedagoger och
+          </note>
+          <note>
+            375 barnskötare under det första året med maxtaxan.
+          </note>
+          <u xml:id="i-d6430e81c8eaee11-247" prev="i-d6430e81c8eaee11-237" who="Q5958869">
+            <seg>
               En av regeringens viktigaste satsningar när det gäller förskolan
               är nu att uppfylla vallöftet om ett statligt bidrag till kommunerna
               för att kunna anställa
             </seg>
-            <seg n="50673ea9">
+          </u>
+          <note>
+            6 000 förskollärare, barnskötare och annan personal i förskolan.
+          </note>
+          <u xml:id="i-d6430e81c8eaee11-248" prev="i-d6430e81c8eaee11-237" who="Q5958869">
+            <seg>
               Prognosen visade på ett överskott av förskollärare
             </seg>
-            <seg n="c26f283f">
-              Nedskärningen av utbildningsplatserna för förskollärare under
-              mitten av 1990-talet skedde utifrån de förutsättningar som då
-              var kända. Inför hösten 1997
-            </seg>
-            <seg n="7d3def8f">
+          </u>
+          <note>
+            1991, och då minskades antalet utbildningsplatser på de barn-
+            och ungdomspedagogiska utbildningarna.
+          </note>
+          <note>
+            Nedskärningen av utbildningsplatserna för förskollärare under
+            mitten av 1990-talet skedde utifrån de förutsättningar som då
+            var kända. Inför hösten 1997
+          </note>
+          <u xml:id="i-d6430e81c8eaee11-249" prev="i-d6430e81c8eaee11-237" who="Q5958869">
+            <seg>
               bestämde regeringen att högskolorna inte längre skulle minska
               på förskollärarutbildningen. Regeringen gjorde därefter i 2002
               års budgetproposition bedömningen att efterfrågan på förskollärare
               förväntades öka.
             </seg>
-            <seg n="97020eea">
-              "För lärarexamen med inriktning mot tidigare år skall särskilt
-              behovet av lärare i förskola och förskoleklass beaktas." Detta
-              upprepades i regleringsbrevet för år
-            </seg>
-            <seg n="f4524b19">
-              2003. Kravet på att återrapportering av antalet lärarexamina
-              eller motsvarande äldre examina med inriktning mot förskola och
-              förskoleklass ska redovisas har tillkommit i detta regleringsbrev.
-            </seg>
-            <seg n="6c6cfaa3">
+          </u>
+          <note>
+            I regleringsbrev för 2002 till samtliga universitet och högskolor
+            med lärarutbildning uttrycks följande:
+          </note>
+          <note>
+            "För lärarexamen med inriktning mot tidigare år skall särskilt
+            behovet av lärare i förskola och förskoleklass beaktas." Detta
+            upprepades i regleringsbrevet för år
+          </note>
+          <note>
+            2003. Kravet på att återrapportering av antalet lärarexamina
+            eller motsvarande äldre examina med inriktning mot förskola och
+            förskoleklass ska redovisas har tillkommit i detta regleringsbrev.
+          </note>
+          <u xml:id="i-d6430e81c8eaee11-250" prev="i-d6430e81c8eaee11-237" who="Q5958869">
+            <seg>
               I 2003 år budgetproposition uttrycks att de tidigare fastställda
               examinationsmålen står fast eftersom kommunerna i allt högre grad
               efterfrågar personal med högskoleutbildning i förskolan. Regeringen
               kommer noga att följa måluppfyllelsen med inriktning mot tidigare
               år inklusive förskolan.
             </seg>
-            <seg n="7fd27dbf">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-251" prev="i-d6430e81c8eaee11-237" who="Q5958869">
+            <seg>
               Det är glädjande att konstatera att antalet sökande till lärarutbildningarna
               har ökat kraftigt under senare år. Detta gäller främst inom de
               inriktningar som vänder sig till dem som avser att arbeta inom
               förskola eller förskoleklass, fritidshem och grundskolans tidigare
               år.
             </seg>
-            <seg n="74eb9218">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-252" prev="i-d6430e81c8eaee11-237" who="Q5958869">
+            <seg>
               Den förnyade lärarutbildningen är bred och mer flexibel än vad
               som var fallet med de tidigare lärarutbildningsprogrammen. Detta
               innebär en stor frihet för de blivande lärarna att välja inriktning
@@ -2050,20 +2515,26 @@
               att kommunernas behov av att kunna anställa välutbildad personal
               bör tillgodoses.
             </seg>
-            <seg n="5188f503">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-253" prev="i-d6430e81c8eaee11-237" who="Q5958869">
+            <seg>
               Ledning, lärare och studievägledare på lärarutbildningarna har
               enligt min mening ett viktigt ansvar och stora möjligheter att
               uppmuntra och stödja studenterna så att de väljer inriktning och
               specialisering mot arbete i förskola, förskoleklass och fritidshem.
             </seg>
-            <seg n="cc155e55">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-254" prev="i-d6430e81c8eaee11-237" who="Q5958869">
+            <seg>
               Det är min förhoppning att den förnyade lärarutbildningen och
               de satsningar på förskolan som regeringen gör kommer att öka intresset
               för att utbilda sig till lärare i förskolan. Om det visar sig
               att alltför få studenter väljer en inriktning mot arbete i förskolan
               avser regeringen att återkomma med eventuella åtgärder.
             </seg>
-            <seg n="68f3fd64">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-255" prev="i-d6430e81c8eaee11-237" who="Q5958869">
+            <seg>
               Kommunerna har också ett ansvar för att erbjuda goda anställningsvillkor
               så att de kan rekrytera och behålla den personal som de behöver
               i förskolan. Det är också viktigt att all personal i förskolan
@@ -2072,82 +2543,78 @@
               att vidareutbilda och höja kompetensen hos barnskötarna liksom
               hos andra personalkategorier.
             </seg>
-            <seg n="275c6b60">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-256" prev="i-d6430e81c8eaee11-237" who="Q5958869">
+            <seg>
               Inom Utbildningsdepartementet pågår för närvarande ett arbete
               med att hitta lösningar på personalsituationen i förskolan på
               både kort och lång sikt.
             </seg>
-            <seg n="c70ca498">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-257" prev="i-d6430e81c8eaee11-237" who="Q5958869">
+            <seg>
               Jag avser att återkomma till riksdagen i dessa frågor och välkomnar
               företrädare för alla riksdagspartier att delta i den viktiga diskussionen
               om kvalitet och personalbehov i förskolan.
             </seg>
           </u>
-          <note n="eeffde28">
-            Överläggningen var härmed avslutad.
-          </note>
-          <note n="36248bf3">
-            6 § Svar på interpellation 2002/03:145 om brist på personal i
-            förskolan
-          </note>
-          <note n="39180368">
-            Anf. 28 Statsrådet LENA HALLEN-
-          </note>
-          <note n="569af125">
-            375 barnskötare under det första året med maxtaxan.
-          </note>
-          <note n="01564dbd">
-            6 000 förskollärare, barnskötare och annan personal i förskolan.
-          </note>
-          <note n="69017507">
-            1991, och då minskades antalet utbildningsplatser på de barn-
-            och ungdomspedagogiska utbildningarna.
-          </note>
-          <note n="e6b4047f">
-            I regleringsbrev för 2002 till samtliga universitet och högskolor
-            med lärarutbildning uttrycks följande:
-          </note>
-          <note type="speaker" n="2492843b">
+          <note type="speaker">
             Anf. 29 GUNILLA TJERNBERG (kd):
           </note>
-          <u who="Q4982955" xml:id="i-f7ed3a6d92ad5920-0" n="38701bf0">
-            <seg n="e3763979">
+          <u xml:id="i-d6430e81c8eaee11-258" next="i-d6430e81c8eaee11-286" who="Q4982955">
+            <seg>
               Herr talman! Jag får börja med att tacka statsrådet
             </seg>
-            <seg n="0a9a671d">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-259" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               Lena Hallengren för svaret. Ett långt svar har jag fått.
             </seg>
-            <seg n="30d16080">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-260" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               Det är bra, för då har vi en del att utgå från.
             </seg>
-            <seg n="34f4b08a">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-261" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               Jag skulle, herr talman, vilja påminna om att det inte är första
               gången sedan jag år 1998 blev riksdagsledamot som jag här i riksdagen
               diskuterar frågor som rör förskolan och verksamheten kring denna.
             </seg>
-            <seg n="2964ae9f">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-262" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               Däremot har debatten under denna ändå relativt korta tid förts
               med tre olika ansvariga ministrar - dagens debatt inräknad. Detta
               faktum kan i sig vara en utmaning men naturligtvis är det även
               problematiskt. Man börjar hela tiden om.
             </seg>
-            <seg n="1e37119e">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-263" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               Bakomliggande orsak till min interpellation i dag är den stora
               brist på utbildad personal som i dag råder inom förskolan. I statsrådets
               svar fanns det mycket att bita i och att diskutera utifrån men
               en sak saknar jag.
             </seg>
-            <seg n="25905fc0">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-264" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               Det fanns nämligen inte mycket av oro i svaret.
             </seg>
-            <seg n="6e71770f">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-265" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               Hur ser det ut i barngrupperna i dag vad gäller personaltätheten?
               Jag tycker att vi i dagens debatt också ska göra ett litet avstamp
               i hur det ser ut. Hur många vuxna finns det runt varje barn? Vi
               kan också vända på frågan: Hur många barn finns det runt en vuxen
               som en vuxen ska ta hand om och ta ansvar för?
             </seg>
-            <seg n="2e0eb5d2">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-266" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               I min interpellation pekar jag på några faktiska saker, till
               exempel på att antalet utexaminerade förskollärare har halverats
               under en tioårsperiod. Det finns oroväckande signaler trots det
@@ -2157,11 +2624,15 @@
               dag vet är hela första året i utbildningen gemensamt. Sedan kan
               man välja inriktning.
             </seg>
-            <seg n="24fb25d3">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-267" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               Skolverkets statistik visar att rekryteringsbehovet vad gäller
               förskollärare är 16 000 tjänster för åren
             </seg>
-            <seg n="9a644cc3">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-268" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               2001-2005. Märk väl att däri ingår ingen ökad personaltäthet!
               Bara vad gäller förskolan beräknas behovet av förskollärare till
               12 000. Till detta rekryteringsbehov ska dessutom läggas den personalförstärkning
@@ -2170,33 +2641,45 @@
               att vi får det - om hur det ser ut med planeringen av de tjänsterna.
               Man väntar mycket på dessa nu.
             </seg>
-            <seg n="fb1adfef">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-269" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               Skolverket konstaterar att det kommer att bli omöjligt att uppfylla
               regeringens mål att andelen anställda med pedagogisk högskoleutbildning
               inom förskolan ska öka. Detta sade Skolverket redan innan regeringen
               gick ut och lovade 6 000 nya tjänster till förskolan, vilket är
               en ännu orimligare målsättning.
             </seg>
-            <seg n="a25a3bde">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-270" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               Jag kan konstatera att vi är flera som är bekymrade.
             </seg>
-            <seg n="09e0a96b">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-271" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               På en punkt håller jag med statsrådet, nämligen att vi i dag
               diskuterar både högskoleutbildade förskollärare och barnskötare.
               Men jag vill också ta med fritidspedagogerna, så att vi har med
               hela spektrumet av viktiga personalgrupper.
             </seg>
-            <seg n="3ad0b8f5">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-272" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               Herr talman! Vad svarar då statsrådet mig?
             </seg>
-            <seg n="c5553496">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-273" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               En sak skulle jag vilja peka på redan i detta inlägg. Statsrådet
               pekar på det antal nyanställningar som kommunerna har valt att
               göra, alltså personalförstärkningar. Där redovisar statsrådet
               hur det ser ut vad gäller förskollärare, barnskötare och också
               fritidspedagoger sedan maxtaxan och den allmänna förskolan infördes.
             </seg>
-            <seg n="e035918f">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-274" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               Men vad gör då statsrådet? Jo, hon undantar ett viktigt faktum,
               nämligen hur mycket barngrupperna har ökat. Det sägs ingenting
               om hur verkligheten ser ut, utan antalet vuxna som tillkommit
@@ -2205,18 +2688,20 @@
               med här. Då hade vi fått se helheten och också behovet av fler
               vuxna för varje barn inom förskolan.
             </seg>
-            <seg n="2215b214">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-275" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               Jag återkommer till detta i nästa inlägg.
             </seg>
           </u>
-          <note n="50f174cf">
+          <note>
             Anf. 30 Statsrådet LENA HALLEN-
           </note>
-          <note type="speaker" n="d12c3dae">
+          <note>
             GREN (s):
           </note>
-          <u who="unknown" xml:id="i-67b75f63686c6457-5" n="2d760347">
-            <seg n="b83f4da3">
+          <u xml:id="i-d6430e81c8eaee11-276" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               Herr talman! Jag kan börja med att säga att jag inte har lagt
               ut orden så oerhört mycket när det gäller just barngrupper och
               personaltäthet. Interpellationen handlar faktiskt inte i huvudsak
@@ -2224,31 +2709,43 @@
               det hade då funnits ännu mer för Gunilla Tjernberg och mig att
               debattera här i kammaren.
             </seg>
-            <seg n="21ea4bfb">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-277" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               Sedan skulle jag vilja säga något om Skolverkets statistik, som
               kan verka väldigt häpnadsväckande när man lyssnar på Gunilla Tjernbergs
               beskrivning - att det är närmast omöjligt att öka andelen högskoleutbildad
               personal. Jag tycker att man ska betona orden
             </seg>
-            <seg n="cbf98af7">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-278" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               "öka andelen" därför att det är det som är Skolverkets utgångspunkt.
             </seg>
-            <seg n="7c9bc89a">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-279" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               SCB och Skolverket har gjort prognoser förut. Jag tycker att
               det är viktigt att tänka på vad statistik och prognoser betyder,
               nämligen att utifrån vissa givna antaganden försöka förutse, i
               det här fallet, behovet av förskollärare.
             </seg>
-            <seg n="dd4aeed5">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-280" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               Vad för antaganden har det då varit fråga om för
             </seg>
-            <seg n="a495df40">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-281" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               Skolverket haft? Jo, man utgår från att andelen förskollärare
               ska öka ganska kraftigt. Då ökar självfallet behovet av alltfler
               förskollärare. Man utgår också från en ganska stor nativitetsökning,
               vilket inte heller är helt okontroversiellt.
             </seg>
-            <seg n="39b00279">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-282" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               I stället för att prata en massa siffror och statistik vill jag
               bara säga att det lite grann beror på vilka antaganden man har.
               Naturligtvis har vi ett ökat behov genom den satsning på ökad
@@ -2256,12 +2753,16 @@
               Det handlar om 6 000 fler förskollärare, barnskötare och andra
               vuxna. Så det handlar inte enbart om förskollärare.
             </seg>
-            <seg n="771587d5">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-283" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               Det vore ändå intressant att höra Gunilla Tjernberg här utveckla
               Kristdemokraternas politik för förskola. De har ju sagt nej till
               samtliga reformer:
             </seg>
-            <seg n="2b1d161a">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-284" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               maxtaxan, den allmänna förskolan, rätten för barn till föräldralediga
               och arbetslösa att ta del av förskolans verksamhet. Man röstade
               också emot den läroplan för förskolan som skulle inrättas, som
@@ -2269,22 +2770,26 @@
               att förskolan ska arbeta efter och som är det viktigaste styrdokument
               som förskollärarna har att arbeta efter.
             </seg>
-            <seg n="beaafb91">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-285" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               Det står i interpellationen att pengar till mer personal kommer
               successivt i den takt ekonomin tillåter.
             </seg>
-            <seg n="9809d648">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-286" prev="i-d6430e81c8eaee11-258" who="Q4982955">
+            <seg>
               Det menar man inte låter som en högt prioriterad fråga. Det är
               riktigt att vi har en ekonomi att ta ställning till, men inte
               ens när ekonomin tillåter det finns det i Kristdemokraternas politik
               ett förslag på ökad personal i förskolan.
             </seg>
           </u>
-          <note type="speaker" n="438dd415">
+          <note type="speaker">
             Anf. 31 GUNILLA TJERNBERG (kd):
           </note>
-          <u who="Q4982955" xml:id="i-f7ed3a6d92ad5920-1" n="38701bf0">
-            <seg n="a7f0e387">
+          <u xml:id="i-d6430e81c8eaee11-287" next="i-d6430e81c8eaee11-307" who="Q4982955">
+            <seg>
               Herr talman! Det var en mycket intressant vändning som statsrådet
               valde att göra. Jag ska med glädje diskutera Kristdemokraternas
               politik för barnomsorg, förskola, rätten för föräldrarna att välja
@@ -2292,7 +2797,9 @@
               att vi fick ha en sådan diskussion. Jag ska bara kort säga någonting
               om det; jag har en rad frågor som jag tänker ställa till statsrådet.
             </seg>
-            <seg n="743741bf">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-288" prev="i-d6430e81c8eaee11-287" who="Q4982955">
+            <seg>
               Kristdemokraterna sade nej till den allmänna förskolan på grund
               av det sätt som regeringen hade valt att utforma den på. Vi vill
               att familjedaghemmen ska omfattas av denna reform. Förra skolministern
@@ -2304,7 +2811,9 @@
               borde ha för det arbete som många dagbarnvårdare i dag gör ute
               i våra svenska kommuner.
             </seg>
-            <seg n="7d149f69">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-289" prev="i-d6430e81c8eaee11-287" who="Q4982955">
+            <seg>
               Det var anledningen till Kristdemokraternas ställningstagande
               till den allmänna förskolan. Vi sade nej till det sätt varpå man
               hade utformat reformen från socialdemokratiskt håll. Vi vill ha
@@ -2313,18 +2822,24 @@
               Där har jag fått stöd av Socialdemokraterna, och det är jag glad
               för. Detta om detta.
             </seg>
-            <seg n="10f6aaf7">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-290" prev="i-d6430e81c8eaee11-287" who="Q4982955">
+            <seg>
               Vad gäller maxtaxan vill vi i stället ha ett barnomsorgskonto
               som gör att föräldrarna på ett helt annat sätt kan styra över
               sin barnomsorgsform än vad de kan i dag. Vi tycker att det är
               föräldrarna som ska välja, inte vi i politiker här i riksdagen,
               inte statsråden, inte statsministern.
             </seg>
-            <seg n="c2385ad2">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-291" prev="i-d6430e81c8eaee11-287" who="Q4982955">
+            <seg>
               Vad säger statsrådet i svaret till mig? Jo, hon redovisar att
               regeringen i budgetpropositionen 2002
             </seg>
-            <seg n="e5eaa899">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-292" prev="i-d6430e81c8eaee11-287" who="Q4982955">
+            <seg>
               insåg att efterfrågan på förskollärare skulle öka, först då.
               1998 hade vi en debatt i riksdagen där företrädare för flera partier,
               inklusive mig, visade på konsekvenserna av maxtaxan och också
@@ -2335,14 +2850,20 @@
               med personaltätheten, statsrådet. Vi måste ta med detta. Det handlar
               även om barngrupperna när man pratar om barntäthet.
             </seg>
-            <seg n="86c9d6b1">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-293" prev="i-d6430e81c8eaee11-287" who="Q4982955">
+            <seg>
               Herr talman! Jag tycker att det var sent påkommet
             </seg>
-            <seg n="a7beb3b5">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-294" prev="i-d6430e81c8eaee11-287" who="Q4982955">
+            <seg>
               2002. Reformen kom 1998, men först 2002 insåg regeringen att
               man måste öka antalet förskollärarplatser inom högskolan.
             </seg>
-            <seg n="00be6bf4">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-295" prev="i-d6430e81c8eaee11-287" who="Q4982955">
+            <seg>
               Statsrådet hänvisar till en förhoppning. Det är att fler ska
               välja att arbeta inom förskolan. Men på grund av de satsningar
               som regeringen säger sig göra inom området förskolan - man tar
@@ -2355,23 +2876,25 @@
               inte räcker till. Det är därför det behövs mer personal ute i
               förskolorna. Vi behöver fler vuxna per barn.
             </seg>
-            <seg n="10b66bf9">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-296" prev="i-d6430e81c8eaee11-287" who="Q4982955">
+            <seg>
               Min fråga till statsrådet är fortfarande: På vilket sätt tänker
               statsrådet se till att vi har mer personal ute i förskolorna?
               När kommer det som aviserats i löften
             </seg>
-            <seg n="3a72a9ff">
-              - 6 000 fler personal till förskolan - att synas i verkligheten?
-            </seg>
           </u>
-          <note n="96398c08">
+          <note>
+            - 6 000 fler personal till förskolan - att synas i verkligheten?
+          </note>
+          <note>
             Anf. 32 Statsrådet LENA HALLEN-
           </note>
-          <note type="speaker" n="d12c3dae">
+          <note>
             GREN (s):
           </note>
-          <u who="unknown" xml:id="i-67b75f63686c6457-6" n="2d760347">
-            <seg n="0abd80de">
+          <u xml:id="i-d6430e81c8eaee11-297" prev="i-d6430e81c8eaee11-287" who="Q4982955">
+            <seg>
               Herr talman! Det är många olika frågor som Gunilla Tjernberg
               tar upp i en och samma replik. Nu vet vi argumenten till att man
               röstade nej den allmänna förskolan. Det var det socialdemokratiska
@@ -2383,14 +2906,18 @@
               perspektiv att det ska finnas ett pedagogiskt måldokument, nämligen
               en läroplan, för personalen i sträva efter i förskolans verksamhet.
             </seg>
-            <seg n="7bd7b635">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-298" prev="i-d6430e81c8eaee11-287" who="Q4982955">
+            <seg>
               Det är också intressant att få veta om det är familjedaghemmen
               som kraftigt ska öka eller om vi ska satsa på mer personal och
               en utbyggd förskola eller om det är så att det bästa är att mammorna
               stannar hemma med sina barn. Det gäller att veta på vilken fot
               man ska stå om man ska göra kraftiga förändringar och reformer.
             </seg>
-            <seg n="9bb10084">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-299" prev="i-d6430e81c8eaee11-287" who="Q4982955">
+            <seg>
               Det är också viktigt att vi säger tydligt att vi ännu inte kan
               se vad det är för resultat som maxtaxan har givit. Däremot har
               Skolverket i uppdrag att granska maxtaxans effekter. Skolverket
@@ -2398,7 +2925,9 @@
               att resonera utifrån statistik och fakta som man har kommit fram
               till i det sammanhanget.
             </seg>
-            <seg n="7fadc8a5">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-300" prev="i-d6430e81c8eaee11-287" who="Q4982955">
+            <seg>
               Familjedaghemmen har minskat i antal under ett antal år när föräldrarna
               har haft en möjlighet att välja förskola, vilket många har gjort.
               Jag tillhör dem som tycker att familjedaghemmen är en väldigt
@@ -2409,34 +2938,51 @@
               Det är det som avgör om det är en allmän förskola, inte om det
               är ett familjedaghem eller någon annan fysisk form.
             </seg>
-            <seg n="4931bf4c">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-301" prev="i-d6430e81c8eaee11-287" who="Q4982955">
+            <seg>
               Interpellationen handlar ju i huvudsak handlar om prognoserna
               - har vi tillräckligt med personal eller inte? Det är naturligtvis
               väldigt lätt att vara efterklok.
             </seg>
-            <seg n="c086259f">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-302" prev="i-d6430e81c8eaee11-287" who="Q4982955">
+            <seg>
+              Jag skulle vilja citera budgetpropositionen från 1992
+            </seg>
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-303" prev="i-d6430e81c8eaee11-287" who="Q4982955">
+            <seg>
               där man säger: Arbetsmarknadens behov av nyexaminerade förskollärare
               och fritidspedagoger kommer att minska under hela återstoden av
               1990-talet. SCB
             </seg>
-            <seg n="e2089deb">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-304" prev="i-d6430e81c8eaee11-287" who="Q4982955">
+            <seg>
               har uttryckt läget så drastiskt att även om dessa utbildningar
               skulle upphöra helt skulle det från 1995
             </seg>
-            <seg n="41327042">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-305" prev="i-d6430e81c8eaee11-287" who="Q4982955">
+            <seg>
               fram till år 2015 finnas betydligt fler utbildade förskollärare
               än vad som behövs inom barnomsorgen.
             </seg>
-            <seg n="8f408dfc">
-              Enligt SCB:s beräkningar skulle övertaligheten vid denna tidpunkt
-              vara åtminstone 25 000.
-            </seg>
-            <seg n="8558e79a">
+          </u>
+          <note>
+            Enligt SCB:s beräkningar skulle övertaligheten vid denna tidpunkt
+            vara åtminstone 25 000.
+          </note>
+          <u xml:id="i-d6430e81c8eaee11-306" prev="i-d6430e81c8eaee11-287" who="Q4982955">
+            <seg>
               Med den här statistiken i bakhuvudet fattade man då vissa beslut
               som jag önskar hade sett annorlunda ut i dag när vi ser vilken
               verklighet vi har att förhålla oss till.
             </seg>
-            <seg n="268e7203">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-307" prev="i-d6430e81c8eaee11-287" who="Q4982955">
+            <seg>
               Vi kommer att få ökade behov av personal i förskolan därför att
               den socialdemokratiska regeringen har för avsikt att öka personaltätheten
               och minska barngrupperna. Därför kommer det under mandatperioden
@@ -2447,39 +2993,46 @@
               på de personalproblem som finns.
             </seg>
           </u>
-          <note n="e36eeeb5">
-            Jag skulle vilja citera budgetpropositionen från 1992
-          </note>
-          <note type="speaker" n="44d8090a">
+          <note type="speaker">
             Anf. 33 GUNILLA TJERNBERG (kd):
           </note>
-          <u who="Q4982955" xml:id="i-f7ed3a6d92ad5920-2" n="38701bf0">
-            <seg n="52e42d2d">
+          <u xml:id="i-d6430e81c8eaee11-308" next="i-d6430e81c8eaee11-327" who="Q4982955">
+            <seg>
               Herr talman! Jag tror att vi är valda politiker och partiföreträdare
               i riksdagen för att ha lösningar på olika problem. Kristdemokraterna
               kommer självklart att arbeta med den frågan.
             </seg>
-            <seg n="6ef1b3e9">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-309" prev="i-d6430e81c8eaee11-308" who="Q4982955">
+            <seg>
               Statsrådet säger att jag tar upp olika saker. Naturligtvis, när
               jag nu får fyra olika frågor från statsrådet.
             </seg>
-            <seg n="23f51fcc">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-310" prev="i-d6430e81c8eaee11-308" who="Q4982955">
+            <seg>
               Jag tycker att det är intressant att statsrådet vill veta vad
               Kristdemokraterna tycker i olika frågor. Det är positivt. Jag
               hade en ambition att svara på ett par av dem. Det var anledningen
               till att det var något olika delar i min förra replik. Jag tog
               statsrådets frågor på allvar.
             </seg>
-            <seg n="0db72e3d">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-311" prev="i-d6430e81c8eaee11-308" who="Q4982955">
+            <seg>
               Statsrådets uppfattning är att familjedaghemmen inte kan ingå
               i den allmänna förskolans verksamhet.
             </seg>
-            <seg n="26215b2a">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-312" prev="i-d6430e81c8eaee11-308" who="Q4982955">
+            <seg>
               Det var intressant. Statsrådet hänvisade till lokaler och pedagogisk
               kompetens. Min tanke var att det handlade om kvalitet. Barn behöver
               en god kvalitet.
             </seg>
-            <seg n="14145c89">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-313" prev="i-d6430e81c8eaee11-308" who="Q4982955">
+            <seg>
               Vad är en god kvalitet? Jag tror att vi är överens om att det
               innebär trygghet, tid med barnen och att barnen känner tillit.
               Syftet med olika reformer måste ändå vara att erbjuda barnen arenor
@@ -2488,15 +3041,21 @@
               Det måste inte vara en speciell samlingslokal för att dessa krav
               ska kunna uppfyllas. Jag vill tydligt deklarera
             </seg>
-            <seg n="4d576cfb">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-314" prev="i-d6430e81c8eaee11-308" who="Q4982955">
+            <seg>
               Kristdemokraternas ställningstagande i den delen. Det handlar
               om kvaliteten.
             </seg>
-            <seg n="e4d27ed2">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-315" prev="i-d6430e81c8eaee11-308" who="Q4982955">
+            <seg>
               Barn behöver i dag fler vuxna omkring sig, inte färre. Regeringens
               så kallade satsningar på barnen -
             </seg>
-            <seg n="173e407f">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-316" prev="i-d6430e81c8eaee11-308" who="Q4982955">
+            <seg>
               maxtaxa och allmän förskola - har i verkligheten inneburit en
               klar kvalitetssänkning. Alltfler barn vistas tillsammans och har
               allt mindre tid tillsammans med vuxna. Rädda Barnen och Barnombudsmannen
@@ -2506,14 +3065,14 @@
               som minskar barns möjligheter att vara tillsammans med vuxna.
             </seg>
           </u>
-          <note n="6710a17e">
+          <note>
             Anf. 34 Statsrådet LENA HALLEN-
           </note>
-          <note type="speaker" n="d12c3dae">
+          <note>
             GREN (s):
           </note>
-          <u who="unknown" xml:id="i-67b75f63686c6457-7" n="2d760347">
-            <seg n="13118c76">
+          <u xml:id="i-d6430e81c8eaee11-317" prev="i-d6430e81c8eaee11-308" who="Q4982955">
+            <seg>
               Herr talman! Jag har höga ambitioner med förskolan. Jag vill
               att det ska vara en högkvalitativ verksamhet för barnen, inte
               enbart en omsorg utan en omsorg med pedagogisk verksamhet. Då
@@ -2521,7 +3080,9 @@
               måste också vara sådana att det är möjligt att bedriva en bra
               verksamhet.
             </seg>
-            <seg n="b1a68b7c">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-318" prev="i-d6430e81c8eaee11-308" who="Q4982955">
+            <seg>
               En kort återkoppling till det som Gunilla Tjernberg sade om allmän
               förskola: Det finns vissa kriterier som riksdagen har beslutat
               om som måste uppfyllas för att det ska vara en allmän förskola.
@@ -2529,7 +3090,9 @@
               personal. Barngrupperna och lokalerna måste vara anpassade så
               att det går att bedriva en bra verksamhet.
             </seg>
-            <seg n="1a09b9a9">
+          </u>
+          <u xml:id="i-d6430e81c8eaee11-319" prev="i-d6430e81c8eaee11-308" who="Q4982955">
+            <seg>
               En god arbetsmiljö är väldigt viktig när man rekrytera människor
               som ska arbeta i förskolan, oavsett om det är förskollärare eller
               inte. Den politiska målsättningen är att förbättra kvaliteten
@@ -2537,188 +3100,204 @@
               ett förslag om resursförstärkning, och jag ser också fram emot
               att få ett stort och kraftigt stöd för det förslaget.
             </seg>
-            <seg n="941c1a20">
-              Nationella insatsstyrkan
-            </seg>
-            <seg n="a1e4d91d">
-              Alkoholreklam i tidningar
-            </seg>
-            <seg n="179296a9">
-              Modersmålsundervisningen
-            </seg>
-            <seg n="34642849">
-              Anhöriginvandring
-            </seg>
-            <seg n="04c53685">
-              Oroligheterna i Kongo-Brazzaville
-            </seg>
-            <seg n="776ecb84">
-              Vinterkräksjukan
-            </seg>
-            <seg n="389013c2">
-              Vården i livets slutskede
-            </seg>
-            <seg n="a552cf08">
-              Studier i kombination med deltidssjukskrivning
-            </seg>
-            <seg n="b948f9ec">
-              Polisen
-            </seg>
-            <seg n="04f3badb">
-              Kurderna i irakiska Kurdistan
-            </seg>
           </u>
-          <note n="eeffde28">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="a77ccec8">
+          <note>
             7 § Hänvisning av ärenden till utskott
           </note>
-          <note n="b65247aa">
+          <note>
             Föredrogs och hänvisades
           </note>
-          <note n="f2bbac5d">
+          <note>
             Motioner
           </note>
-          <note n="c6634b6c">
+          <note>
             2002/03:Bo6-Bo8 till bostadsutskottet
           </note>
-          <note n="ef2a1215">
+          <note>
             2002/03:N5-N8 till näringsutskottet
           </note>
-          <note n="bf1e1376">
+          <note>
             2002/03:So35 till socialutskottet
           </note>
-          <note n="a0ffb720">
+          <note>
             8 § Bordläggning
           </note>
-          <note n="5e31a95d">
+          <note>
             Anmäldes och bordlades
           </note>
-          <note n="91b0d674">
+          <note>
             Motioner med anledning av förs. 2002/03:RR9 Riksdagens revisorers
             förslag angående Med tvång och god vilja - vad gör Statens institutionsstyrelse?
           </note>
-          <note n="476c25c2">
+          <note>
             2002/03:So36 av Annika Qarlsson (c)
           </note>
-          <note n="637c97d6">
+          <note>
             2002/03:So37 av Ingrid Burman m.fl. (v)
           </note>
-          <note n="a7e63737">
+          <note>
             2002/03:So38 av Kerstin Heinemann m.fl. (fp)
           </note>
-          <note n="f99d0d2f">
+          <note>
             9 § Anmälan om interpellationer
           </note>
-          <note n="556da7b9">
+          <note>
             Anmäldes att följande interpellationer framställts
           </note>
-          <note n="a81f3b87">
+          <note>
             den 10 februari
           </note>
-          <note n="d913837b">
+          <note>
             2002/03:176 av Ragnwi Marcelind (kd) till justitieminister Thomas
             Bodström
           </note>
-          <note n="166f6b99">
+          <note>
+            Nationella insatsstyrkan
+          </note>
+          <note>
             2002/03:177 av Nils-Erik Söderqvist (s) till statsrådet
           </note>
-          <note n="ba38c1f8">
+          <note>
             Morgan Johansson
           </note>
-          <note n="03fdf7be">
+          <u xml:id="i-d6430e81c8eaee11-320" prev="i-d6430e81c8eaee11-308" who="Q4982955">
+            <seg>
+              Alkoholreklam i tidningar
+            </seg>
+          </u>
+          <note>
             Interpellationerna redovisas i bilaga som fogas till riksdagens
             snabbprotokoll tisdagen den 18 februari.
           </note>
-          <note n="cd2cfe07">
+          <note>
             10 § Anmälan om frågor för skriftliga svar
           </note>
-          <note n="fe7249a4">
-            Anmäldes att följande frågor för skriftliga svar framställts
-          </note>
-          <note n="a81f3b87">
+          <u xml:id="i-d6430e81c8eaee11-321" prev="i-d6430e81c8eaee11-308" who="Q4982955">
+            <seg>
+              Anmäldes att följande frågor för skriftliga svar framställts
+            </seg>
+          </u>
+          <note>
             den 10 februari
           </note>
-          <note n="e9ae5129">
+          <note>
             2002/03:496 av Luciano Astudillo (s) till statsrådet
           </note>
-          <note n="5265acd2">
+          <note>
             Lena Hallengren
           </note>
-          <note n="ca6949ab">
+          <note>
+            Modersmålsundervisningen
+          </note>
+          <note>
             2002/03:497 av Anne-Marie Ekström (fp) till statsrådet Jan O
             Karlsson
           </note>
-          <note n="b825efe9">
+          <u xml:id="i-d6430e81c8eaee11-322" prev="i-d6430e81c8eaee11-308" who="Q4982955">
+            <seg>
+              Anhöriginvandring
+            </seg>
+          </u>
+          <note>
             2002/03:498 av Martin Andreasson (fp) till justitieminister Thomas
             Bodström
           </note>
-          <note n="e88a6a4e">
+          <note>
             Könsneutrala äktenskap
           </note>
-          <note n="54c952ad">
+          <note>
             2002/03:499 av Helena Bargholtz (fp) till utrikesminister Anna
             Lindh
           </note>
-          <note n="c1e25bcb">
+          <note>
+            Oroligheterna i Kongo-Brazzaville
+          </note>
+          <note>
             2002/03:500 av Gabriel Romanus (fp) till socialminister Lars
             Engqvist
           </note>
-          <note n="7410eb6e">
+          <u xml:id="i-d6430e81c8eaee11-323" prev="i-d6430e81c8eaee11-308" who="Q4982955">
+            <seg>
+              Vinterkräksjukan
+            </seg>
+          </u>
+          <note>
             2002/03:501 av Kerstin Kristiansson Karlstedt (s) till utbildningsminister
             Thomas Östros
           </note>
-          <note n="e8388292">
+          <note>
             Intagning till läkarutbildning
           </note>
-          <note n="d358d1f2">
+          <note>
             2002/03:502 av Inger Nordlander (s) till socialminister Lars
             Engqvist
           </note>
-          <note n="939d75f9">
+          <note>
             Nationell äldreombudsman
           </note>
-          <note n="e075234b">
+          <note>
             2002/03:503 av Magdalena Andersson (m) till socialminister Lars
             Engqvist
           </note>
-          <note n="c5c91155">
+          <note>
             Sjuksköterskors arbetsförhållanden
           </note>
-          <note n="3faefc92">
+          <note>
             den 11 februari
           </note>
-          <note n="5b946c23">
+          <note>
             2002/03:504 av Chatrine Pålsson (kd) till socialminister Lars
             Engqvist
           </note>
-          <note n="e81c6bde">
+          <u xml:id="i-d6430e81c8eaee11-324" prev="i-d6430e81c8eaee11-308" who="Q4982955">
+            <seg>
+              Vården i livets slutskede
+            </seg>
+          </u>
+          <note>
             2002/03:505 av Maria Larsson (kd) till statsrådet
           </note>
-          <note n="ab4fe8ed">
+          <note>
             Hans Karlsson
           </note>
-          <note n="61b824b3">
+          <note>
+            Studier i kombination med deltidssjukskrivning
+          </note>
+          <note>
             2002/03:506 av Liselott Hagberg (fp) till justitieminister Thomas
             Bodström
           </note>
-          <note n="4b22f738">
+          <u xml:id="i-d6430e81c8eaee11-325" prev="i-d6430e81c8eaee11-308" who="Q4982955">
+            <seg>
+              Polisen
+            </seg>
+          </u>
+          <note>
             2002/03:507 av Maria Hassan (s) till utrikesminister
           </note>
-          <note n="4cc4ec8c">
+          <note>
             Anna Lindh
           </note>
-          <note n="0b580e47">
+          <u xml:id="i-d6430e81c8eaee11-326" prev="i-d6430e81c8eaee11-308" who="Q4982955">
+            <seg>
+              Kurderna i irakiska Kurdistan
+            </seg>
+          </u>
+          <note>
             Frågorna redovisas i bilaga som fogas till riksdagens snabbprotokoll
             tisdagen den 18 februari.
           </note>
-          <note n="8149e9d9">
+          <note>
             11 § Kammaren åtskildes kl. 15.53.
           </note>
-          <note n="ac98b2e6">
-            Förhandlingarna leddes av talmannen.
-          </note>
+          <u xml:id="i-d6430e81c8eaee11-327" prev="i-d6430e81c8eaee11-308" who="Q4982955">
+            <seg>
+              Förhandlingarna leddes av talmannen.
+            </seg>
+          </u>
         </div>
       </body>
     </text>

@@ -29,6 +29,6 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--start", type=int, default=1920)
-    parser.add_argument("--end", type=int, default=2021)
+    parser.add_argument("--end", type=int, default=2022)
     args = parser.parse_args()
     main(args)

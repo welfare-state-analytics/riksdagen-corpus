@@ -1,5 +1,5 @@
 from lxml import etree
-import re, random, datetime
+import re, random
 from pyparlaclarin.read import element_hash
 import dateparser
 import pandas as pd
@@ -14,6 +14,9 @@ from .segmentation import (
     classify_paragraph,
     intro_to_dict,
 )
+from .match_mp import multiple_replace
+from datetime import datetime
+from unidecode import unidecode
 
 def redetect_protocol(data):
     tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
@@ -57,7 +60,7 @@ def redetect_protocol(data):
     pattern_db = pattern_db[
         (pattern_db["start"] <= year) & (pattern_db["end"] >= year)
     ]
-    
+
     root, unk = detect_mps(
         root,
         None,
@@ -88,6 +91,10 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
     """
     mp_expressions = load_expressions(phase="mp")
     
+    # For multiple replace function
+    latin_characters = [chr(c) for c in range(192,383+1)]
+    latin_characters = {c:unidecode(c) for c in latin_characters if c not in 'åäöÅÄÖ'}
+
     xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     current_speaker = None
     prev = None
@@ -96,6 +103,7 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
     # Extract information of unknown speakers
     unknowns = []
 
+    #print(metadata)
     # For bicameral era, prioritize MPs from the same chamber as the protocol
     if "chamber" in metadata:
         mp_db_secondary = mp_db[mp_db["chamber"] != metadata["chamber"]]
@@ -131,6 +139,8 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
             if elem.attrib.get("type", None) == "speaker":
                 if type(elem.text) == str:
                     d = intro_to_dict(elem.text, mp_expressions)
+                    if 'name' in d:
+                        d['name'] = multiple_replace(latin_characters, d['name'])
 
                     if 'other' in d:
                         # Match minister

@@ -17,6 +17,7 @@ def get_date(root):
 
 # Fix parallellization
 def accuracy(protocol):
+    parser = etree.XMLParser(remove_blank_text=True)
     root = etree.parse(protocol, parser).getroot()
     year = int(get_date(root).split("-")[0])
     known, unknown = 0, 0
@@ -30,10 +31,10 @@ def accuracy(protocol):
                     known += 1
     return year, known, unknown
 
-parser = etree.XMLParser(remove_blank_text=True)
 def main(args):
     protocols = list(protocol_iterators("corpus/", start=args.start, end=args.end))
     years = sorted(set([int(p.split('/')[2][:4]) for p in protocols]))
+    years.append(max(years)+1)
     df = pd.DataFrame(np.zeros((len(years), 2), dtype=int), index=years, columns=['known', 'unknown'])
     pool = Pool()
     for year, known, unknown in tqdm(pool.imap(accuracy, protocols), total=len(protocols)):
@@ -45,7 +46,7 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--start", type=int, default=1920)
-    parser.add_argument("--end", type=int, default=2021)
+    parser.add_argument("--end", type=int, default=2022)
     args = parser.parse_args()
     df = main(args)
 

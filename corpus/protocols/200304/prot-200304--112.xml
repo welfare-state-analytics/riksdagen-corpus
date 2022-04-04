@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2003</title>
+        <title>Riksdagens protocols 200304</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2003</title>
+          <title>Riksdagens protocols 200304</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -63,62 +60,61 @@
       </front>
       <body>
         <div>
-          <note n="ea67f600">
-            ﻿
-          </note>
-          <note n="fa73aeb0">
+          <note>
             Riksdagens protokoll
           </note>
-          <note n="104e4a4a">
+          <note>
             2003/04:112
           </note>
-          <note type="date" n="f17d4c44">
+          <note>
             Måndagen den 10 maj
           </note>
-          <note n="102a11f2">
+          <note>
             Kl. 12:00 - 12:27
           </note>
-          <note n="3442fc54">
+          <note>
             1 § Justering av protokoll
           </note>
-          <note n="9e919160">
+          <note>
             Justerades protokollen för den 3 och 4 maj.
           </note>
-          <note n="a0cff711">
+          <note>
             2 § Meddelande om ändring i kammarens sammanträdesplan
           </note>
-          <note n="e1c4e2b2">
+          <note>
             Förste vice talmannen meddelade att voteringen onsdagen den 12
             maj kl. 9.00 skulle utgå. Voteringen kl. 16.00 skulle äga rum
             enligt tidigare planering.
           </note>
-          <note n="9e60d0a2">
+          <note>
             3 § Meddelande om frågestund
           </note>
-          <note n="fd9f420e">
+          <note>
             Förste vice talmannen meddelade att vid frågestunden torsdagen
             den 13 maj kl. 14.00 skulle följande statsråd närvara:
           </note>
-          <note n="9b6dbe2b">
+          <note>
             Statsrådet Pär Nuder, utrikesminister Laila Freivalds, utbildningsminister
             Thomas Östros, miljöminister Lena Sommestad och statsrådet Morgan
             Johansson.
           </note>
-          <note n="579e4665">
+          <note>
             4 § Svar på interpellation 2003/04:430 om Sveriges linje i Världsbanken
           </note>
-          <note type="speaker" n="724fde08">
+          <note type="speaker">
             Anf. 1 Statsrådet GUNNAR LUND (s):
           </note>
-          <u who="Q5619080" xml:id="i-fce429b4f53d62ab-0" n="6eb1ade4">
-            <seg n="6cf1c84d">
+          <u xml:id="i-42d00445696bf473-0" next="i-42d00445696bf473-10" who="Q5619080">
+            <seg>
               Herr talman! I en interpellation om Sveriges linje i Världsbanken
               ställer Lotta Nilsson Hedström en rad frågor med anknytning till
               några rapporter där delar av det civila samhället varit med och
               tagit fram rekommendationer för hur bland annat Världsbanken ska
               agera.
             </seg>
-            <seg n="aed0aef9">
+          </u>
+          <u xml:id="i-42d00445696bf473-1" prev="i-42d00445696bf473-0" who="Q5619080">
+            <seg>
               Världsbanken har under de senaste åren engagerat sig aktivt i
               dialog med det så kallade civila samhället, representerat genom
               olika organisationer från hela världen. Sverige har välkomnat
@@ -133,7 +129,9 @@
               avseenden tagit avstånd från den analys som görs och de policyrekommendationer
               som lämnas i de rapporter som nämns i interpellationen.
             </seg>
-            <seg n="3e912ef0">
+          </u>
+          <u xml:id="i-42d00445696bf473-2" prev="i-42d00445696bf473-0" who="Q5619080">
+            <seg>
               Världsbanken av i dag är en global institution som självfallet
               kan förbättras, men som i huvudsak fungerar effektivt och som
               utgör en viktig del av det globala multilaterala samarbetet. För
@@ -143,12 +141,16 @@
               haft något inflytande på vare sig formerna för projektet eller
               rapporternas innehåll.
             </seg>
-            <seg n="aa891e6e">
+          </u>
+          <u xml:id="i-42d00445696bf473-3" prev="i-42d00445696bf473-0" who="Q5619080">
+            <seg>
               Vi är angelägna om att ta del av olika synpunkter på bankens
               och fondens arbete, men detta betyder självklart inte att vi håller
               med om all kritik.
             </seg>
-            <seg n="34170e61">
+          </u>
+          <u xml:id="i-42d00445696bf473-4" prev="i-42d00445696bf473-0" who="Q5619080">
+            <seg>
               I interpellationen nämns tre studier: Structural Adjustment Participatory
               Review Initiative (SAPRI), World Commission on Dams (WCD) och
               Extractive Industries Review (EIR). Sverige har i de styrelsediskussioner
@@ -158,7 +160,9 @@
               Denna linje har vi drivit tillsammans med övriga nordiska länder
               och de baltiska länderna.
             </seg>
-            <seg n="c4451ef4">
+          </u>
+          <u xml:id="i-42d00445696bf473-5" prev="i-42d00445696bf473-0" who="Q5619080">
+            <seg>
               Vad gäller vår egen bedömning av de enskilda rapporterna kan
               jag först konstatera att SAPRI-rapporten lägger i det närmaste
               allt ansvar på IMF och Världsbanken för de misstag som begåtts
@@ -172,7 +176,9 @@
               i stället för exportorienterade strategier, ökad integration i
               världsekonomin och stabil makroekonomi.
             </seg>
-            <seg n="befb3122">
+          </u>
+          <u xml:id="i-42d00445696bf473-6" prev="i-42d00445696bf473-0" who="Q5619080">
+            <seg>
               Rapporten om fossila bränslen (EIR) är generellt kritisk till
               att över huvud taget använda sig av kolkraft och olja i utvecklingsländerna.
               I EIR-rapporten rekommenderas Världsbanken att helt sluta finansiera
@@ -188,7 +194,9 @@
               som gavs vid världstoppmötet om hållbar utveckling i Johannesburg
               för knappt två år sedan.
             </seg>
-            <seg n="47f70e58">
+          </u>
+          <u xml:id="i-42d00445696bf473-7" prev="i-42d00445696bf473-0" who="Q5619080">
+            <seg>
               Rapporten om vattenförsörjning och dammbyggen (WCD) lyfter i
               sin kritik fram problem med processerna för hur stora dammprojekt
               beslutas och ifrågasätter delvis de positiva effekter som dammar
@@ -206,7 +214,9 @@
               fram sina ståndpunkter till WCD-rapporten i institutionens vattenresursstrategi
               som antogs 2003.
             </seg>
-            <seg n="13671746">
+          </u>
+          <u xml:id="i-42d00445696bf473-8" prev="i-42d00445696bf473-0" who="Q5619080">
+            <seg>
               En annan god utgångspunkt för en sådan diskussion är rapporten
               från World Panel on Financing Water Infrastructure. I interpellationen
               ställs också frågan om jag gör en koppling mellan den senare rapporten
@@ -225,7 +235,9 @@
               tjänstemarknader, inte minst i u-länder, är adekvat reglerade
               nationellt.
             </seg>
-            <seg n="fc4e701a">
+          </u>
+          <u xml:id="i-42d00445696bf473-9" prev="i-42d00445696bf473-0" who="Q5619080">
+            <seg>
               De fattiga länderna behöver ekonomisk utveckling för att kunna
               bekämpa fattigdom. Som ett led i detta behöver dessa länder vår
               hjälp att på ett så miljövänligt och hållbart sätt som möjligt
@@ -238,7 +250,9 @@
               för att detta sker på ett så miljömässigt, socialt och ekonomiskt
               hållbart sätt som möjligt.
             </seg>
-            <seg n="573a2f54">
+          </u>
+          <u xml:id="i-42d00445696bf473-10" prev="i-42d00445696bf473-0" who="Q5619080">
+            <seg>
               Lotta Nilsson Hedström ställer också frågan hur jag avser att
               kommunicera med riksdagen inför ställningstaganden i dessa frågor
               när de aktualiseras. Regeringen har tagit en rad initiativ för
@@ -258,11 +272,11 @@
               stärka dialogen med riksdagen i dessa frågor.
             </seg>
           </u>
-          <note type="speaker" n="08b90c16">
+          <note type="speaker">
             Anf. 2 LOTTA N HEDSTRÖM (mp):
           </note>
-          <u who="Q517960" xml:id="i-8ef4cfc241c32ef5-0" n="9f6b3157">
-            <seg n="18ff6c44">
+          <u xml:id="i-42d00445696bf473-11" next="i-42d00445696bf473-15" who="Q517960">
+            <seg>
               Herr talman! Tack, statsrådet, för ett tämligen fylligt svar.
               Vad den här diskussionen handlar om för det är ju litet väl mycket
               initierat prat är möjligheten för Sverige att påverka de stora
@@ -273,7 +287,9 @@
               regeringen i allt väsentligt med Världsbanken om kritiken mot
               rapporterna och att man i princip inte beaktar dem.
             </seg>
-            <seg n="f37dfd4f">
+          </u>
+          <u xml:id="i-42d00445696bf473-12" prev="i-42d00445696bf473-11" who="Q517960">
+            <seg>
               Vi kan börja med den rapport som behandlar hur man har arbetat
               med att reformera ekonomierna i utvecklingsländerna under de gångna
               20 åren, den rapport som heter SAPRI, Structural Adjustment Participatory
@@ -284,12 +300,16 @@
               deltagande. Det gör också Gunnar Lund. I stället vill man ha en
               handelsliberal linje.
             </seg>
-            <seg n="78558abc">
+          </u>
+          <u xml:id="i-42d00445696bf473-13" prev="i-42d00445696bf473-11" who="Q517960">
+            <seg>
               I dag har man övergivit SAP, Structural Adjustment Program, och
               pratar i stället mycket om så kallade PRSP, Poverty Reduction
               Strategy Papers , som i allt väsentligt är en förlängning av SAP.
             </seg>
-            <seg n="5a5226d4">
+          </u>
+          <u xml:id="i-42d00445696bf473-14" prev="i-42d00445696bf473-11" who="Q517960">
+            <seg>
               Dessa PRSP måste nå ut till, ledas av och ta hänsyn just till
               lokalsamhällets representanter. Därför är min fråga till Gunnar
               Lund hur regeringen arbetar för att påverka Världsbanken och de
@@ -298,7 +318,9 @@
               PSIAS. Det finns nog ingen värld som är så full av förkortningar
               som den här.
             </seg>
-            <seg n="987a889e">
+          </u>
+          <u xml:id="i-42d00445696bf473-15" prev="i-42d00445696bf473-11" who="Q517960">
+            <seg>
               När det gäller miljökonsekvensanalyser har jag ett vackert citat
               från ett nätverk som arbetar med just Bretton Woods-institutionerna.
               Där sägs: PRSP från vitt skilda länder uppvisar en betydande uniform
@@ -311,11 +333,11 @@
               vad SAP var?
             </seg>
           </u>
-          <note type="speaker" n="cfe6f289">
+          <note type="speaker">
             Anf. 3 Statsrådet GUNNAR LUND (s):
           </note>
-          <u who="Q5619080" xml:id="i-fce429b4f53d62ab-1" n="6eb1ade4">
-            <seg n="2d47a7f5">
+          <u xml:id="i-42d00445696bf473-16" next="i-42d00445696bf473-20" who="Q5619080">
+            <seg>
               Herr talman! Till att börja med håller jag verkligen med Lotta
               N Hedström om att den värld vi nu talar om är lite speciell, vilket
               den inte borde vara. Bretton Woods-institutionerna, Valutafonden
@@ -325,7 +347,9 @@
               och så vidare är i sig bedrövligt, och jag tycker att vi gemensamt
               ska anstränga oss och vägra finna oss i den situationen.
             </seg>
-            <seg n="b88358ef">
+          </u>
+          <u xml:id="i-42d00445696bf473-17" prev="i-42d00445696bf473-16" who="Q5619080">
+            <seg>
               Jag var i mitt svar angelägen om att vara rätt utförlig och gå
               in i detalj även i fråga om de rapporter som Lotta N Hedström
               tar upp i sin interpellation just för att visa att vi från regeringens
@@ -334,7 +358,9 @@
               varierande kvalitet och värde för den politik som vi ska bidra
               med för att utforma Valutafonden och Världsbanken.
             </seg>
-            <seg n="5dc24c4f">
+          </u>
+          <u xml:id="i-42d00445696bf473-18" prev="i-42d00445696bf473-16" who="Q5619080">
+            <seg>
               Den första rapport som jag berörde, om strukturanpassning, kan
               svårligen betraktas som ett seriöst arbete. Jag noterade att den,
               för omkring två år sedan, fick en hel del uppmärksamhet i Sverige
@@ -346,7 +372,9 @@
               fick en något felaktig lansering i vår debatt, och DN:s övriga
               journalister tog så småningom också avstånd från den.
             </seg>
-            <seg n="39fbfafd">
+          </u>
+          <u xml:id="i-42d00445696bf473-19" prev="i-42d00445696bf473-16" who="Q5619080">
+            <seg>
               Andra av dessa rapporter är dock klart seriöst inriktade, och
               vi har konsekvent uppmanat i det här fallet styrelsen i Världsbanken
               där vi ju själva sitter som företrädande de nordiska och baltiska
@@ -358,7 +386,9 @@
               ratas. En fullgod sådan redovisning har vi ännu inte fått, men
               vi eftersträvar detta.
             </seg>
-            <seg n="5b8e8390">
+          </u>
+          <u xml:id="i-42d00445696bf473-20" prev="i-42d00445696bf473-16" who="Q5619080">
+            <seg>
               Låt mig slutligen säga att jag ingalunda tror att Världsbanken
               är någon perfekt institution. Den har, liksom de flesta regeringar
               och internationella organisationer, då och då klampat fel genom
@@ -371,18 +401,20 @@
               miljömässigt, socialt och ekonomiskt.
             </seg>
           </u>
-          <note type="speaker" n="5d30bae8">
+          <note type="speaker">
             Anf. 4 LOTTA N HEDSTRÖM (mp):
           </note>
-          <u who="Q517960" xml:id="i-8ef4cfc241c32ef5-1" n="9f6b3157">
-            <seg n="91b78c74">
+          <u xml:id="i-42d00445696bf473-21" next="i-42d00445696bf473-27" who="Q517960">
+            <seg>
               Herr talman! Vad gäller utvärderingen av SAP kan vi lämna den
               därhän eftersom rapporten ju bara var en ingång till diskussionen
               om framtida strategier. Jag antar att ministern återkommer till
               just hur man vill arbeta med Poverty Reduction Strategy Papers
               .
             </seg>
-            <seg n="41b9d26c">
+          </u>
+          <u xml:id="i-42d00445696bf473-22" prev="i-42d00445696bf473-21" who="Q517960">
+            <seg>
               Om du anser att de andra två rapporterna har lite större karat
               kan vi i stället titta på dem. EIR, som handlar om finansiering
               av fossila bränslen, är bekymmersam. Världsbanken har en egen,
@@ -393,14 +425,18 @@
               fattiga länder har man helt enkelt misslyckats med att lyfta bort
               fattigdomen.
             </seg>
-            <seg n="44d51abb">
+          </u>
+          <u xml:id="i-42d00445696bf473-23" prev="i-42d00445696bf473-21" who="Q517960">
+            <seg>
               Man har från Världsbankens sida inte kunnat hjälpa dessa fattiga
               länder att få tillbaka pengarna när man plockat ut olja och gas.
               Det här är det stora problemet. Hur ska Världsbanken se till att
               dessa fattiga länder, där det finns olja, gas och kol, dels får
               ett bättre resursutnyttjande för energi, dels får tillbaka pengarna?
             </seg>
-            <seg n="be6bbb23">
+          </u>
+          <u xml:id="i-42d00445696bf473-24" prev="i-42d00445696bf473-21" who="Q517960">
+            <seg>
               Så sent som för ett halvår sedan beviljade man till exempel 125
               miljoner dollar till gasledningen TbilisiBakuTjetjenien utan att
               göra någon miljökonsekvensanalys där. Det förekommer kraftiga
@@ -408,7 +444,9 @@
               Dagens och gårdagens rapporter om vad som hänt i Tjetjenien är
               förskräckande.
             </seg>
-            <seg n="a281f377">
+          </u>
+          <u xml:id="i-42d00445696bf473-25" prev="i-42d00445696bf473-21" who="Q517960">
+            <seg>
               Vi menar att det helt enkelt är fel att stödja ett stort projekt
               som en sådan gasledning. Vi skulle önska att den svenska regeringen
               gjorde mer genom att kritisera detta och säga att det inte är
@@ -417,7 +455,9 @@
               som är poängen måste göra hållbarhetsstrategier för förnybar energi.
               Besvara gärna detta beträffande EIR-rapporten.
             </seg>
-            <seg n="5572e6de">
+          </u>
+          <u xml:id="i-42d00445696bf473-26" prev="i-42d00445696bf473-21" who="Q517960">
+            <seg>
               Den andra rapporten, World Commission on Dams , är ju ett långvarigt,
               mångårigt, arbete där man arbetat mycket seriöst och tillsammans
               med lokala aktörer gjort en strategi just för hur man ska förankra
@@ -425,7 +465,9 @@
               gått med på den rapportens slutsatser, utan i svaret står det
               lite allmänt att man har beaktat detta.
             </seg>
-            <seg n="a005d4ab">
+          </u>
+          <u xml:id="i-42d00445696bf473-27" prev="i-42d00445696bf473-21" who="Q517960">
+            <seg>
               Jag vill ha ett rakt svar från dig. Varför anser den svenska
               regeringen fortfarande att megaprojekt och privatiseringar av
               vatten är bra, och varför kan ni inte hjälpa till att påverka
@@ -433,11 +475,11 @@
               och småskalig vattenförsörjning?
             </seg>
           </u>
-          <note type="speaker" n="c604d6cf">
+          <note type="speaker">
             Anf. 5 Statsrådet GUNNAR LUND (s):
           </note>
-          <u who="Q5619080" xml:id="i-fce429b4f53d62ab-2" n="6eb1ade4">
-            <seg n="02468b54">
+          <u xml:id="i-42d00445696bf473-28" next="i-42d00445696bf473-33" who="Q5619080">
+            <seg>
               Herr talman! När det gäller den rapport som behandlar fossila
               bränslen är det intressant att diskutera den för ett ögonblick.
               Det är ju inte så att det finns en automatisk länk mellan å ena
@@ -452,20 +494,26 @@
               och den tycks bäras upp av någon, åtminstone indirekt, övertygelse
               om att det bör förhindras.
             </seg>
-            <seg n="6f229bd7">
+          </u>
+          <u xml:id="i-42d00445696bf473-29" prev="i-42d00445696bf473-28" who="Q5619080">
+            <seg>
               Detta har med viss rätt väckt mycket starka reaktioner i en rad
               u-länder som befinner sig just i den situationen. De betraktar
               rapporten som ett mer eller mindre nykolonialistiskt sätt att
               behandla dessa länder och se på deras ekonomiska utveckling utifrån
               mer utvecklade länder.
             </seg>
-            <seg n="14d62985">
+          </u>
+          <u xml:id="i-42d00445696bf473-30" prev="i-42d00445696bf473-28" who="Q5619080">
+            <seg>
               Det går igen i några av rapporterna. Det är ett problem vi måste
               ta itu med. Vi kan inte insistera på en ordning i en lång rad
               u-länder som vi inte själva är beredda att leva upp till i i-länderna.
               Det är ytterst en fråga om jämlikhet och demokrati.
             </seg>
-            <seg n="9c5e5f3b">
+          </u>
+          <u xml:id="i-42d00445696bf473-31" prev="i-42d00445696bf473-28" who="Q5619080">
+            <seg>
               Jag tycker att det är positivt att Lotta Nilsson Hedström tar
               upp en diskussion om i det här fallet Världsbankens politik. Jag
               är ansvarig för det i regeringen. Jag märker tyvärr ett magert
@@ -476,7 +524,9 @@
               har inlett en ny tradition nu och är i en situation där fler engagerar
               sig i dessa frågor.
             </seg>
-            <seg n="e2e8afb0">
+          </u>
+          <u xml:id="i-42d00445696bf473-32" prev="i-42d00445696bf473-28" who="Q5619080">
+            <seg>
               Vi lever i en tid då vi framför allt måste se som en uppgift
               för svensk och europeisk del att skydda, värna och utveckla de
               viktiga institutionerna för multilateralt samarbete. Vad vi ser
@@ -489,30 +539,36 @@
               som särskilt kritikvärdiga eller förhatliga. Det intrycket kan
               man få i debatten, vilket är mycket olyckligt.
             </seg>
-            <seg n="d4090e25">
+          </u>
+          <u xml:id="i-42d00445696bf473-33" prev="i-42d00445696bf473-28" who="Q5619080">
+            <seg>
               Gemensamt kan dessa krafter komma att ingå en ohelig allians
               och underminera det väldigt viktiga multilaterala samarbete som
               vi traditionellt har stått upp för i Sverige.
             </seg>
           </u>
-          <note type="speaker" n="3f9918d8">
+          <note type="speaker">
             Anf. 6 LOTTA N HEDSTRÖM (mp):
           </note>
-          <u who="Q517960" xml:id="i-8ef4cfc241c32ef5-2" n="9f6b3157">
-            <seg n="e5e8b07e">
+          <u xml:id="i-42d00445696bf473-34" next="i-42d00445696bf473-38" who="Q517960">
+            <seg>
               Herr talman! Det är bra att vi kom in på den ideologiska diskussionen.
               De som kritiserar IMF och Världsbanken är i princip väldigt mycket
               för globalisering. Det är viktigt att förstå det. Men det är en
               globalisering på icke-nykolonialistiska premisser.
             </seg>
-            <seg n="9fcf8218">
+          </u>
+          <u xml:id="i-42d00445696bf473-35" prev="i-42d00445696bf473-34" who="Q517960">
+            <seg>
               Det handlar om delaktighet. Alla dessa tre rapporter har det
               gemensamt att man vill mer lyfta fram strategier för delaktighet
               hos Världsbanken och IMF och dessutom för sociala konsekvensanalyser
               och miljöanalyser. Där är inte Världsbanken tillräckligt bra.
               Det är vad kritiken går ut på.
             </seg>
-            <seg n="4f50c8f5">
+          </u>
+          <u xml:id="i-42d00445696bf473-36" prev="i-42d00445696bf473-34" who="Q517960">
+            <seg>
               Min roll som parlamentariker är att knuffa på dig och regeringen.
               Jag känner mig lite som pionjär i frågan. Det gör jag. Jag tror
               nog att det säkert blir bättre framöver. Det handlar om att vi
@@ -520,14 +576,18 @@
               baltisk-nordiska råd för att få en politik som i grunden gör upp
               med nykolonialismen även på de ekonomiska områdena.
             </seg>
-            <seg n="e3d5afd8">
+          </u>
+          <u xml:id="i-42d00445696bf473-37" prev="i-42d00445696bf473-34" who="Q517960">
+            <seg>
               Vad gäller det du sade om de fossila bränslena har vi en klimatsituation
               att ta hand om. Det blir en fälla för de fattiga länderna att
               de tvingas kvar i kol-olja-gas-beroende i stället för att det
               blir ett kraftfullt stöd för förnybara strategier och en överföring
               av tekniker. Det är vad vi vill åt.
             </seg>
-            <seg n="498f2d94">
+          </u>
+          <u xml:id="i-42d00445696bf473-38" prev="i-42d00445696bf473-34" who="Q517960">
+            <seg>
               Vad gäller kommunikationen med riksdagen håller någonting på
               att hända. Det är jag väldigt glad för, och det noteras väl. Mina
               små preciserade frågor om det är: Är regeringen beredd att redovisa
@@ -539,11 +599,11 @@
               för att man ska offentliggöra Världsbankens protokoll?
             </seg>
           </u>
-          <note type="speaker" n="2beae702">
+          <note type="speaker">
             Anf. 7 Statsrådet GUNNAR LUND (s):
           </note>
-          <u who="Q5619080" xml:id="i-efbbeea65acd9116-0" n="6eb1ade4" next="i-692a490a56a32df2-0">
-            <seg n="aa96485f">
+          <u xml:id="i-42d00445696bf473-39" next="i-42d00445696bf473-46" who="Q5619080">
+            <seg>
               Herr talman! Jag ser gärna att vi ägnar de frågorna mer uppmärksamhet
               här i riksdagen och i den allmänna debatten och vill gärna medverka
               till det. Jag är glad om vi kan göra gemensam sak för att se i
@@ -556,7 +616,9 @@
               måltavla för kritik. Det är alltför ofta fallet. Den här debatten
               är delvis ett symtom på detsamma.
             </seg>
-            <seg n="1f530b8b">
+          </u>
+          <u xml:id="i-42d00445696bf473-40" prev="i-42d00445696bf473-39" who="Q5619080">
+            <seg>
               Jag tror också att man ska vara väldigt försiktig på en annan
               punkt. Det gäller att inte gå i den fällan att man ägnar sig åt
               vad som nog med rätta av en del u-länder kan uppfattas som just
@@ -566,158 +628,168 @@
               och har unnat oss att göra. Vi kan inte förmena dem något som
               vi har unnat oss själva. Det menar jag måste vara en viktig utgångspunkt.
             </seg>
-            <seg n="079eb1c3">
+          </u>
+          <u xml:id="i-42d00445696bf473-41" prev="i-42d00445696bf473-39" who="Q5619080">
+            <seg>
               Sedan är det solklart att vi genomgående intar en klart granskande
               och kritisk hållning i institutionerna. Vi engagerar oss aktivt
               i det styrelsearbetet. Det tänker vi fortsätta att göra i framtiden.
             </seg>
           </u>
-          <note n="4036f466">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="e9f5f749">
+          <note>
             5 § Hänvisning av ärenden till utskott
           </note>
-          <note n="aed30bea">
+          <note>
             Föredrogs och hänvisades
           </note>
-          <note n="b1501b7f">
+          <note>
             6 § Bordläggning
           </note>
-          <note n="c8296e9d">
+          <note>
             Anmäldes och bordlades
           </note>
-          <note n="09210c9f">
+          <note>
             7 § Anmälan om interpellationer
           </note>
-          <note n="a4505011">
+          <note>
             Anmäldes att följande interpellationer framställts
           </note>
-          <note n="e8a47428">
+          <note>
             den 7 maj
           </note>
-          <note n="aa6e1048">
+          <note>
             Cecilia Magnusson
           </note>
-          <note n="af48383d">
+          <note>
             Yvonne Andersson
           </note>
-          <note n="bdd14503">
+          <note>
             Ragnwi Marcelind
           </note>
-          <note n="cc4d9ddd">
+          <note>
             Mia Franzén
           </note>
-          <note n="c8d81aa8">
+          <note>
             Anita Brodén
           </note>
-          <note n="7eea841d">
+          <note>
             Lennart Beijer
           </note>
-          <note n="abc5c07c">
+          <note>
             Interpellationerna redovisas i bilaga som fogats till riksdagens
             snabbprotokoll tisdagen den 18 maj.
           </note>
-          <note n="4ae7b9d7">
+          <note>
             8 § Anmälan om frågor för skriftliga svar
           </note>
-          <note n="4179e699">
-            Anmäldes att följande frågor för skriftliga svar framställts
-          </note>
-          <note n="e8a47428">
-            den 7 maj
-          </note>
-          <note n="4da5ff93">
-            Carina Hägg
-          </note>
-          <note n="3a0b7799">
-            Sven Bergström
-          </note>
-          <note n="1ca65e5c">
-            Christer Winbäck
-          </note>
-          <note n="868d9eac">
-            Allan Widman
-          </note>
-          <note n="19b9ace9">
-            Tina Acketoft
-          </note>
-          <note n="849ef155">
-            Siw Wittgren-Ahl
-          </note>
-          <note n="465b4cd0">
-            Cecilia Wikström
-          </note>
-          <note n="465b4cd0">
-            Cecilia Wikström
-          </note>
-          <note n="499efb17">
-            Alice Åström
-          </note>
-          <note n="499efb17">
-            Alice Åström
-          </note>
-          <note n="439a93c7">
-            Anne Marie Brodén
-          </note>
-          <note n="ee0589e2">
-            Birgitta Ahlqvist
-          </note>
-          <note n="abfd7a52">
-            Louise Malmström
-          </note>
-          <note n="6b795c94">
-            Maria Larsson
-          </note>
-          <note n="6b795c94">
-            Maria Larsson
-          </note>
-          <note n="59e223bc">
-            Erling Wälivaara
-          </note>
-          <note n="9d8a23a1">
-            Kenneth Lantz
-          </note>
-          <note n="9e552f6b">
-            Owe Hellberg
-          </note>
-          <note n="5079d987">
-            den 10 maj
-          </note>
-          <u who="Q5619080" xml:id="i-692a490a56a32df2-0" n="6eb1ade4" prev="i-efbbeea65acd9116-0">
-            <seg n="c105c309">
-              Torsten Lindström
+          <u xml:id="i-42d00445696bf473-42" prev="i-42d00445696bf473-39" who="Q5619080">
+            <seg>
+              Anmäldes att följande frågor för skriftliga svar framställts
             </seg>
           </u>
-          <note n="2b8555c6">
+          <note>
+            den 7 maj
+          </note>
+          <note>
+            Carina Hägg
+          </note>
+          <note>
+            Sven Bergström
+          </note>
+          <note>
+            Christer Winbäck
+          </note>
+          <note>
+            Allan Widman
+          </note>
+          <note>
+            Tina Acketoft
+          </note>
+          <note>
+            Siw Wittgren-Ahl
+          </note>
+          <note>
+            Cecilia Wikström
+          </note>
+          <note>
+            Cecilia Wikström
+          </note>
+          <u xml:id="i-42d00445696bf473-43" prev="i-42d00445696bf473-39" who="Q5619080">
+            <seg>
+              Alice Åström
+            </seg>
+          </u>
+          <u xml:id="i-42d00445696bf473-44" prev="i-42d00445696bf473-39" who="Q5619080">
+            <seg>
+              Alice Åström
+            </seg>
+          </u>
+          <note>
+            Anne Marie Brodén
+          </note>
+          <note>
+            Birgitta Ahlqvist
+          </note>
+          <u xml:id="i-42d00445696bf473-45" prev="i-42d00445696bf473-39" who="Q5619080">
+            <seg>
+              Louise Malmström
+            </seg>
+          </u>
+          <note>
+            Maria Larsson
+          </note>
+          <note>
+            Maria Larsson
+          </note>
+          <note>
+            Erling Wälivaara
+          </note>
+          <note>
+            Kenneth Lantz
+          </note>
+          <note>
+            Owe Hellberg
+          </note>
+          <note>
+            den 10 maj
+          </note>
+          <note>
+            Torsten Lindström
+          </note>
+          <note>
             Veronica Palm
           </note>
-          <note n="6bf5f904">
+          <note>
             Ronny Olander
           </note>
-          <note n="e1b3074d">
+          <note>
             Lars-Ivar Ericson
           </note>
-          <note n="a121481e">
+          <note>
             Lennart Fremling
           </note>
-          <note n="53180424">
+          <note>
             Frågorna 2003/04:11631180 redovisas i bilaga som fogats till
             riksdagens snabbprotokoll tisdagen den 11 maj.
           </note>
-          <note n="ccded43c">
+          <note>
             Frågorna 2003/04:11811185 redovisas i bilaga som fogats till
             riksdagens snabbprotokoll tisdagen den 18 maj.
           </note>
-          <note n="75453ad7">
+          <note>
             9 § Kammaren åtskildes kl. 12.27.
           </note>
-          <note n="16b70e48">
+          <note>
             Förhandlingarna leddes av förste vice talmannen.
           </note>
-          <note n="c2c56c9c">
-            /Monica Gustafson
-          </note>
+          <u xml:id="i-42d00445696bf473-46" prev="i-42d00445696bf473-39" who="Q5619080">
+            <seg>
+              /Monica Gustafson
+            </seg>
+          </u>
         </div>
       </body>
     </text>

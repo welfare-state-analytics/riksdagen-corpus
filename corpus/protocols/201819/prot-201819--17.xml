@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2018</title>
+        <title>Riksdagens protocols 201819</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2018</title>
+          <title>Riksdagens protocols 201819</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -63,25 +60,27 @@
       </front>
       <body>
         <div>
-          <note n="b7273093">
+          <note>
             § 1 Debatt med anledning av budgetpropositionens avlämnande
           </note>
-          <note n="726d3130">
+          <note>
             Finansministern överlämnade regeringens proposition 2018/19:1
             med förslag till statens budget för 2019, finansplan och skattefrågor.
           </note>
-          <note type="speaker" n="7409a909">
+          <note type="speaker">
             Anf. 1 Finansminister MAGDALENA ANDERSSON (S):
           </note>
-          <u who="Q4935873" xml:id="i-20cfafcb711692e7-0" n="8d0637a7">
-            <seg n="4e031ff0">
+          <u xml:id="i-42ffa84fb1231c55-0" next="i-42ffa84fb1231c55-20" who="Q4935873">
+            <seg>
               Fru talman! Det är inte en vanlig budgetdag i dag. Jag har inte
               gått den vanliga budgetpromenaden hit. Det beror på att fler än
               hälften av de nyvalda riksdagsledamöterna den 25 september röstade
               nej på frågan om huruvida statsministern hade tillräckligt stöd
               i riksdagen. Sedan dess styrs Sverige av en övergångsregering.
             </seg>
-            <seg n="c19f8b61">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-1" prev="i-42ffa84fb1231c55-0" who="Q4935873">
+            <seg>
               Efter ett val ska budgetpropositionen lämnas inom tre veckor
               efter att en ny regering har tillträtt, dock senast den 15 november.
               I dag är det den 15 november, och ingen ny regering har tillträtt.
@@ -89,7 +88,9 @@
               och presenterar budgeten. Detta är första gången i Sveriges historia
               som det händer.
             </seg>
-            <seg n="5dd93330">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-2" prev="i-42ffa84fb1231c55-0" who="Q4935873">
+            <seg>
               Vi presenterar i dag inte en rödgrön budgetproposition utan en
               över ­ gångsregerings budgetproposition – en avskalad budget utan
               ny partipol ­ itisk inriktning. Syftet är att den ska ge goda
@@ -98,29 +99,35 @@
               i den situation vi befinner oss i – en för svensk politik unik
               situation.
             </seg>
-            <seg n="358bdabd">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-3" prev="i-42ffa84fb1231c55-0" who="Q4935873">
+            <seg>
               I arbetet med denna budget har vi brutit ny mark givet att det
               här är första gången en övergångsregering lägger fram en budget.
               Vi har gjort vårt yttersta för att lägga grunden för en ny god
               praxis genom samtal med andra partier i riksdagen och, naturligtvis,
               genom att följa de bestämmelser som finns för budgetarbetet.
             </seg>
-            <seg n="325ffc03">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-4" prev="i-42ffa84fb1231c55-0" who="Q4935873">
+            <seg>
               Fru talman! Budgetpropositionen följer därför de allmänna bestämmelser
               som bland annat slår fast att den ska innehålla en finansplan,
               att reger ­ ingen ska redovisa hur överskottsmålet nås och att
               budgetpropositionen ska omfatta alla inkomster och utgifter samt
               andra betalningar som påverkar statens lånebehov.
             </seg>
-            <seg n="49e94c0c">
-              Regeringen har också beaktat den promemoria från Statsrådsberedningen
-              från 1990 som reviderades under den moderatledda regeringen 2014.
-              Där har vissa riktlinjer utfärdats för det praktiska arbetet under
-              en övergångsregeringsperiod. Konstitutionsutskottet har också
-              vid granskningar av övergångsregeringars befogenheter hänvisat
-              till dessa riktlinjer.
-            </seg>
-            <seg n="32609bd3">
+          </u>
+          <note>
+            Regeringen har också beaktat den promemoria från Statsrådsberedningen
+            från 1990 som reviderades under den moderatledda regeringen 2014.
+            Där har vissa riktlinjer utfärdats för det praktiska arbetet under
+            en övergångsregeringsperiod. Konstitutionsutskottet har också
+            vid granskningar av övergångsregeringars befogenheter hänvisat
+            till dessa riktlinjer.
+          </note>
+          <u xml:id="i-42ffa84fb1231c55-5" prev="i-42ffa84fb1231c55-0" who="Q4935873">
+            <seg>
               Enligt riktlinjerna kan vid ett mycket utdraget regeringsskifte
               en övergångsregering behöva lämna en budgetproposition och sannolikt
               även en proposition med förslag till ändringar i innevarande års
@@ -128,17 +135,23 @@
               vad som ovan anförts inte innehålla förslag med en tydlig partipolitisk
               inriktning .
             </seg>
-            <seg n="5f4c8d2d">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-6" prev="i-42ffa84fb1231c55-0" who="Q4935873">
+            <seg>
               Vidare följer av regeringsformen att den senaste beslutade budgeten
               ska fortsätta att gälla om riksdagen vid budgetårets början inte
               har beslutat om en ny budget för staten.
             </seg>
-            <seg n="9f87e6c9">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-7" prev="i-42ffa84fb1231c55-0" who="Q4935873">
+            <seg>
               Regeringen har mot denna bakgrund bedömt att budgetpropositionen
               för 2019 bör utformas med utgångspunkt i den beslutade budgeten
               för 2018.
             </seg>
-            <seg n="de506f06">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-8" prev="i-42ffa84fb1231c55-0" who="Q4935873">
+            <seg>
               Regeringen har utöver denna utgångspunkt formulerat sex principer
               för budgetarbetet som vi efter kontakter med företrädare för Moderaterna,
               Centerpartiet, Vänsterpartiet, Kristdemokraterna och Liberalerna
@@ -146,7 +159,9 @@
               kan finansieras eller där finansieringar redan har redovisats
               för riksdagen föreslår vi också sådana tillhörande finansieringar.
             </seg>
-            <seg n="c2775366">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-9" prev="i-42ffa84fb1231c55-0" who="Q4935873">
+            <seg>
               Fru talman! Att budgeten för 2019 utformas med utgångspunkt i
               den beslutade budgeten för 2018 gör att både planerade utgiftsökningar
               och anslagsminskningar för 2019 uteblir. Det betyder till exempel
@@ -156,10 +171,14 @@
               satsningar, till exempel bemanningssatsning i äldreomsorgen och
               upprustning av skollokaler, förlängs däremot.
             </seg>
-            <seg n="bd05e60a">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-10" prev="i-42ffa84fb1231c55-0" who="Q4935873">
+            <seg>
               Jag kommer nu att gå igenom de sex principer som formuleras.
             </seg>
-            <seg n="e4e91f9a">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-11" prev="i-42ffa84fb1231c55-0" who="Q4935873">
+            <seg>
               Den första principen innebär att anslag som används för förvaltnings-
               och investeringsändamål pris- och löneomräknas på vanligt sätt.
               De anslag som avser regelstyrda transfereringssystem justeras
@@ -172,7 +191,9 @@
               utifrån hur många barn som föds i Sverige. Det gäller också arbetslöshetsförsäkring,
               föräldraförsäkring, sjukförsäkring och annat.
             </seg>
-            <seg n="7161bc34">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-12" prev="i-42ffa84fb1231c55-0" who="Q4935873">
+            <seg>
               Den andra principen innebär att anslag justeras till följd av
               beslutade lagar, förordningar, internationella avtal, civilrättsligt
               bindande avtal eller EU:s rättsakter. Det handlar till exempel
@@ -183,21 +204,27 @@
               bemyndigande från riksdagen, och Skolverket har därför redan gett
               kommuner besked om hur stora bidrag de får nästa år.
             </seg>
-            <seg n="e16805eb">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-13" prev="i-42ffa84fb1231c55-0" who="Q4935873">
+            <seg>
               Det handlar också om helårseffekter av exempelvis barnbidraget,
               som höjdes i mars 2018 och där det därför bara fanns tiomånaders
               höjda anslag i förra årets budget. För 2019 behöver detta naturligtvis
               finnas för tolv månader. Det gäller även tillskott för ökade kostnader
               för läkemedelsförmå ­ nen, där staten är bunden att ersätta landstingen.
             </seg>
-            <seg n="22c82fa6">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-14" prev="i-42ffa84fb1231c55-0" who="Q4935873">
+            <seg>
               Den tredje principen innebär att anslag justeras om riksdagen
               beslutat om flytt av ändamål och verksamheter mellan utgiftsområden.
               Det handlar framför allt om servicekontoren, där verksamheten
               flyttas från Försäkringskassan, Skatteverket och Pensionsmyndigheten
               till Statens servicecenter. Medlen följer då också med.
             </seg>
-            <seg n="8ac204dc">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-15" prev="i-42ffa84fb1231c55-0" who="Q4935873">
+            <seg>
               Den fjärde principen innebär att anslag justeras om det krävs
               för att nödvändiga samhällsfunktioner ska kunna upprätthållas.
               Det är en princip som har tillämpats restriktivt, och det krävs
@@ -207,7 +234,9 @@
               annars eventuellt skulle behöva lägga ned stationer och säga upp
               personal. Det handlar också om resurser till försvarsmateriel.
             </seg>
-            <seg n="ce73bffb">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-16" prev="i-42ffa84fb1231c55-0" who="Q4935873">
+            <seg>
               Den femte principen går ut på att för att verksamhet som baseras
               på ett beställningsbemyndigande för kommande år ska ges förutsättningar
               att bedrivas i samma omfattning 2019–2021 justeras anslagsnivåerna
@@ -216,7 +245,9 @@
               kraftiga sänkningar av anslagen för en del områden för åren efter
               2019.
             </seg>
-            <seg n="8a2f9b63">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-17" prev="i-42ffa84fb1231c55-0" who="Q4935873">
+            <seg>
               Den sjätte principen behandlar förslag som är politiskt okontroversiella
               som inte kan genomföras under pågående budgetår. De inkluderas
               i de fall där det råder samsyn om förslagen. Det handlar om det
@@ -226,7 +257,9 @@
               från den 1 januari 2019. För detta finns ett mycket brett stöd
               i riksdagen.
             </seg>
-            <seg n="4246e1c8">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-18" prev="i-42ffa84fb1231c55-0" who="Q4935873">
+            <seg>
               Fru talman! Det är arbetsintensivt att ta fram en budgetproposition.
               Det är många långa dagar och även kvällar. Så har det varit också
               denna gång. Samtidigt är det för många av de inblandade, liksom
@@ -239,7 +272,9 @@
               viktigt att komma ihåg att det här är något som kan hanteras av
               en nytillträdd reger ­ ing under pågående budgetår.
             </seg>
-            <seg n="7baf5945">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-19" prev="i-42ffa84fb1231c55-0" who="Q4935873">
+            <seg>
               Regeringen har med detta arbetssätt och den avskalade budgetpropositionen
               strävat efter att skapa god praxis och att på ett ansvarsfullt
               sätt hantera denna unika situation samtidigt som vi ger en ny
@@ -249,21 +284,23 @@
               förändringar än vad som är vanligt. Den kommer knappast att gälla
               året ut.
             </seg>
-            <seg n="6fad153d">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-20" prev="i-42ffa84fb1231c55-0" who="Q4935873">
+            <seg>
               Avslutningsvis vill jag passa på att här i kammaren uttrycka
               min uppskattning för de samtal som regeringen har fört med de
               tidigare nämnda riksdagspartierna för att utforma en ny praxis
               i svensk politik. Det har varit konstruktiva samtal.
             </seg>
-            <seg n="1cb7a0d5">
-              (Applåder)
-            </seg>
           </u>
-          <note type="speaker" n="bc3334c2">
+          <note>
+            (Applåder)
+          </note>
+          <note type="speaker">
             Anf. 2 FREDRIK OLOVSSON (S):
           </note>
-          <u who="Q3373667" xml:id="i-0470d4448673965f-0" n="ad0be113">
-            <seg n="59ab8709">
+          <u xml:id="i-42ffa84fb1231c55-21" next="i-42ffa84fb1231c55-36" who="Q3373667">
+            <seg>
               Fru talman! För första gången i Sverige har en budget från en
               övergångsregering lagts på riksdagens bord. Det är alltså inte
               en rödgrön budget. Det är inte ett uttryck för den politik som
@@ -273,12 +310,16 @@
               ny regering goda möjligheter att sätta sin prägel på politiken
               framåt.
             </seg>
-            <seg n="602095d3">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-22" prev="i-42ffa84fb1231c55-21" who="Q3373667">
+            <seg>
               Det är i dag uppenbart att de borgerliga partierna som tillsammans
               med Sverigedemokraterna röstade bort den sittande regeringen inte
               hade någon plan för vad som skulle komma i stället.
             </seg>
-            <seg n="39705153">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-23" prev="i-42ffa84fb1231c55-21" who="Q3373667">
+            <seg>
               Fru talman! Jag vill säga någonting om resultatet av den politik
               som den rödgröna regeringen bedrev. I dag har över 300 000 fler
               människor ett arbete att gå till jämfört med när den regeringen
@@ -287,25 +328,33 @@
               Andelen personer som är beroende av bidrag har inte varit så låg
               sedan 1981.
             </seg>
-            <seg n="787fb7df">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-24" prev="i-42ffa84fb1231c55-21" who="Q3373667">
+            <seg>
               Kunskapslyftet med bland annat yrkesvux har byggts ut och omfattar
               fullt utbyggt 100 000 nya utbildningsplatser. 28 000 fler arbetar
               i skolan. Och förskolegrupperna är de minsta på 25 år.
             </seg>
-            <seg n="b2d1ae03">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-25" prev="i-42ffa84fb1231c55-21" who="Q3373667">
+            <seg>
               Efter en lång period av försvagade kunskapsresultat visar internatio
               ­ nella mätningar som PISA och Timss att kunskapsresultaten i
               Sverige stiger igen. Lärarlönelyftet har gett 67 000 lärare höjda
               löner med i snitt 2 600 kronor i månaden.
             </seg>
-            <seg n="c48a9d5b">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-26" prev="i-42ffa84fb1231c55-21" who="Q3373667">
+            <seg>
               Regeringen har höjt barnbidraget. Och steg har tagits för att
               helt avskaffa skatteklyftan mellan pensionärer och löntagare.
               Med den här produkten tas också ytterligare ett steg. Investeringar
               i det gemensamma samhällsbygget har minskat klyftorna och stärkt
               vår gemensamma ekonomi.
             </seg>
-            <seg n="a3546cda">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-27" prev="i-42ffa84fb1231c55-21" who="Q3373667">
+            <seg>
               Fru talman! Regeringen har samtidigt byggt nya skyddsvallar för
               sämre tider. Det underskott i de offentliga finanserna på 60 miljarder
               som fanns i början av förra mandatperioden har vänts till ett
@@ -314,7 +363,9 @@
               har amorterats ned för att i år vara på den lägsta nivån sedan
               1977.
             </seg>
-            <seg n="fdff7076">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-28" prev="i-42ffa84fb1231c55-21" who="Q3373667">
+            <seg>
               Att det nu finns ekonomiska muskler är viktigt. Framåt ser vi
               alla stora utmaningar. Det närmaste decenniet ökar antalet människor
               i Sverige som är över 80 år med 50 procent. Vi blir 300 000 fler
@@ -322,7 +373,9 @@
               fler som vi betraktar som äldre. Samtidigt blir det 200 000 fler
               barn i Sverige.
             </seg>
-            <seg n="3ad7f66a">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-29" prev="i-42ffa84fb1231c55-21" who="Q3373667">
+            <seg>
               Det är naturligtvis oerhört glädjande att vi lever längre och
               att många får lyckan att få barn. Men det kräver också resurser
               i många viktiga samhällsfunktioner. Sjukvården, skolan och omsorgen
@@ -330,17 +383,23 @@
               anställas i välfärden fram till 2026. Vi behöver bygga 700 nya
               äldreboenden och lika många förskolor.
             </seg>
-            <seg n="31c4f3e1">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-30" prev="i-42ffa84fb1231c55-21" who="Q3373667">
+            <seg>
               Oavsett var i Sverige man bor ska man känna sig säker på att
               polisen och hela rättsväsendet är rustat med anställda och verktyg
               för att bekämpa brotten. Polisen behöver än mer resurser. Brotten,
               våldet och vapnen ska bekämpas med hela den demokratiska rättsstatens
               fulla kraft.
             </seg>
-            <seg n="a4933018">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-31" prev="i-42ffa84fb1231c55-21" who="Q3373667">
+            <seg>
               Också Försvarsmakten behöver tillskott. Sverige ska vara tryggt.
             </seg>
-            <seg n="c59da832">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-32" prev="i-42ffa84fb1231c55-21" who="Q3373667">
+            <seg>
               Även om tiden fram till att man får det första jobbet har halverats
               behöver nyanlända komma snabbare i arbete. Det finns 120 000 lediga
               jobb i Sverige. Arbetsgivare vill ha någon som kan komma och jobba
@@ -349,43 +408,53 @@
               och språkplikt, validering och kompletterande utbildning, plikt
               och rätt, krav och möjligheter.
             </seg>
-            <seg n="9095bb73">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-33" prev="i-42ffa84fb1231c55-21" who="Q3373667">
+            <seg>
               Mer behöver alldeles uppenbart också göras för att bekämpa klimatförändringarna.
             </seg>
-            <seg n="394edd59">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-34" prev="i-42ffa84fb1231c55-21" who="Q3373667">
+            <seg>
               Klyftorna i vårt samhälle måste minska för att de inte ska slita
               isär Sverige.
             </seg>
-            <seg n="1c52e1fc">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-35" prev="i-42ffa84fb1231c55-21" who="Q3373667">
+            <seg>
               Det är i den här riktningen vi socialdemokrater ville – och vill
               – fortsätta arbeta. För 2019 hade regeringen aviserat fem ytterligare
               välfärdsmiljarder. Det innebar stora satsningar på klimat, polis,
               försvar och särskilda resurser till socioekonomiskt utsatta områden.
               Det är pengar och insatser som fortfarande behövs.
             </seg>
-            <seg n="dad66ff1">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-36" prev="i-42ffa84fb1231c55-21" who="Q3373667">
+            <seg>
               Inte minst efter gårdagens omröstning ser vi att det behövs en
               handlingskraftig regering som genom blocköverskridande samarbete
               kan ta itu med de problem vi ser. Om vi socialdemokrater får tillträda
               som regering vill vi så snart som möjligt lägga en ändringsbudget
               för att göra just det.
             </seg>
-            <seg n="1cb7a0d5">
-              (Applåder)
-            </seg>
           </u>
-          <note type="speaker" n="05262771">
+          <note>
+            (Applåder)
+          </note>
+          <note type="speaker">
             Anf. 3 OSCAR SJÖSTEDT (SD) replik:
           </note>
-          <u who="Q18617010" xml:id="i-a0dcc48bfca29ff7-0" n="8ba61b11">
-            <seg n="46f65420">
+          <u xml:id="i-42ffa84fb1231c55-37" next="i-42ffa84fb1231c55-40" who="Q18617010">
+            <seg>
               Fru ålderspresident! Den 20 juli 2016 trädde den så kallade tillfälliga
               asyllagen i kraft efter ett beslut här i kammaren. Det var en
               hyfsat desperat åtgärd från en likaledes desperat regering. Om
               man hade lyssnat på oss i ett tidigare skede hade man givetvis
               vidtagit de åtgärderna och mycket mer långt tidigare.
             </seg>
-            <seg n="eb51ae0e">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-38" prev="i-42ffa84fb1231c55-37" who="Q18617010">
+            <seg>
               Regeringen har, innan den blev en övergångsregering, visat ganska
               tydligt att den inte är kapabel att hantera migrationsfrågorna
               på ett seriöst eller kontrollerat sätt. Något senare lade man
@@ -395,22 +464,26 @@
               Lagen var så undermåligt och dåligt utformad att den inte ens
               kunde prövas i domstol i skarpt läge när den väl var på plats.
             </seg>
-            <seg n="f1b61165">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-39" prev="i-42ffa84fb1231c55-37" who="Q18617010">
+            <seg>
               Signalerna som regeringen skickade ut under föregående mandatperiod
               kan uppfattas som lätt spretiga, för att beskriva det milt.
             </seg>
-            <seg n="66930fa7">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-40" prev="i-42ffa84fb1231c55-37" who="Q18617010">
+            <seg>
               Min fråga är om Socialdemokraterna, givet det parlamentariska
               läget med en övergångsregering och så vidare, är beredda att antingen
               permanenta eller åtminstone förlänga den nu gällande tillfälliga
               lagen som annars mister sin verkan under nästkommande år.
             </seg>
           </u>
-          <note type="speaker" n="54993966">
+          <note type="speaker">
             Anf. 4 FREDRIK OLOVSSON (S) replik:
           </note>
-          <u who="Q3373667" xml:id="i-0470d4448673965f-1" n="ad0be113">
-            <seg n="ff156143">
+          <u xml:id="i-42ffa84fb1231c55-41" next="i-42ffa84fb1231c55-43" who="Q3373667">
+            <seg>
               Fru ålderspresident! Svaret på Oscar Sjöstedts fråga är att Sverige
               behöver en ny regering som kan återkomma till riksdagen och ta
               itu med många stora och viktiga frågor. En sådan fråga har vi,
@@ -420,32 +493,38 @@
               ser framför oss att en ny regering återkommer till riksdagen med
               en ekonomisk politik.
             </seg>
-            <seg n="7ea29821">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-42" prev="i-42ffa84fb1231c55-41" who="Q3373667">
+            <seg>
               På samma sätt gäller det väldigt många andra frågor, bland annat
               den som Oscar Sjöstedt tog upp. Det krävs en ny regering för att
               också den här frågan i förlängningen ska få sin lösning.
             </seg>
-            <seg n="bdb6b526">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-43" prev="i-42ffa84fb1231c55-41" who="Q3373667">
+            <seg>
               Sedan står vi socialdemokrater – precis som jag nu har redogjort
               för de viktigaste åtgärderna som vi gärna vill se i en ny ändringsbudget
               – också för en linje i den här frågan. Vi tycker att den migrationspolitik
               som vi nu har bör ligga fast. Det är svaret på Oscar Sjöstedts
               fråga.
             </seg>
-            <seg n="1cb7a0d5">
-              (Applåder)
-            </seg>
           </u>
-          <note type="speaker" n="9001b899">
+          <note>
+            (Applåder)
+          </note>
+          <note type="speaker">
             Anf. 5 OSCAR SJÖSTEDT (SD) replik:
           </note>
-          <u who="Q18617010" xml:id="i-a0dcc48bfca29ff7-1" n="8ba61b11">
-            <seg n="ac0decd8">
+          <u xml:id="i-42ffa84fb1231c55-44" next="i-42ffa84fb1231c55-45" who="Q18617010">
+            <seg>
               Fru ålderspresident! Tack för svaret! Jag tror att vi kan vara
               överens om att det är bra med en regering. För en gångs skull
               kan vi vara överens.
             </seg>
-            <seg n="dda89112">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-45" prev="i-42ffa84fb1231c55-44" who="Q18617010">
+            <seg>
               Riksdagen är ändå ett lagstiftande organ. I någon mening är det
               ju riksdagens fel att vi inte har någon regering , men vi kan
               ändå ta initiativ. Jag ställer frågan på det här sättet: Om det
@@ -455,11 +534,11 @@
               har blivit ett övergångsparti?
             </seg>
           </u>
-          <note type="speaker" n="599c89ac">
+          <note type="speaker">
             Anf. 6 FREDRIK OLOVSSON (S) replik:
           </note>
-          <u who="Q3373667" xml:id="i-0470d4448673965f-2" n="ad0be113">
-            <seg n="6bcc6b92">
+          <u xml:id="i-42ffa84fb1231c55-46" next="i-42ffa84fb1231c55-48" who="Q3373667">
+            <seg>
               Fru ålderspresident! Socialdemokraterna är ett ansvarsfullt parti
               som tycker att det är rimligt att i det här läget använda all
               kraft i det politiska systemet för att få en ny regering på plats.
@@ -469,7 +548,9 @@
               skäl att se till att det finns en regering som fullt ut kan styra
               riket.
             </seg>
-            <seg n="72851737">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-47" prev="i-42ffa84fb1231c55-46" who="Q3373667">
+            <seg>
               Det är klart att tillsammans med andra partier har Oscar Sjöstedt
               satt Sverige i den här situationen. Man har röstat bort en fungerande
               regering utan att ha en plan för vad som ska komma efter. Det
@@ -477,24 +558,28 @@
               har utgjort under mycket lång tid. Oscar Sjöstedt trivs ju i den
               situationen. Man riktigt ser att det är så det är.
             </seg>
-            <seg n="476568b3">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-48" prev="i-42ffa84fb1231c55-46" who="Q3373667">
+            <seg>
               Vi andra tycker att det vore bra för Sverige med mer av ordning
               och reda och med att se till att få en regering på plats.
             </seg>
-            <seg n="1cb7a0d5">
-              (Applåder)
-            </seg>
           </u>
-          <note type="speaker" n="a703fc2b">
+          <note>
+            (Applåder)
+          </note>
+          <note type="speaker">
             Anf. 7 ELISABETH SVANTESSON (M):
           </note>
-          <u who="Q4981393" xml:id="i-a56272d7bf99a28c-0" n="50b43c0a">
-            <seg n="392b04e2">
+          <u xml:id="i-42ffa84fb1231c55-49" next="i-42ffa84fb1231c55-75" who="Q4981393">
+            <seg>
               Fru ålderspresident! I dag är det 67 dagar sedan valdagen. Ett
               par veckor efter det avsattes Stefan Löfvens regering. I dag har
               övergångsregeringens budgetproposition lämnats till riksdagen.
             </seg>
-            <seg n="3da858ad">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-50" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               Jag vill först vända mig till finansminister Magdalena Andersson
               och understryka det som jag har sagt tidigare. Jag tycker att
               övergångsreger ­ ingen har hanterat situationen väl under dessa
@@ -502,7 +587,9 @@
               rimliga. Jag vill också skicka hälsningar till Finansdepartementet.
               Jag vet att det ligger mycket arbete bakom den här luntan.
             </seg>
-            <seg n="538fd8e2">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-51" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               Fru ålderspresident! Nu tar arbetet här i riksdagen vid. Och
               det gör det i ett läge där högkonjunkturen i den svenska ekonomin
               når sin topp i år och där bnp-tillväxten bromsar in nästa år.
@@ -514,19 +601,25 @@
               större statsskuld som följd. Det var några exempel på de orosmoment
               som kan få väldigt stora effekter för svensk ekonomi.
             </seg>
-            <seg n="fe27aaf8">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-52" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               Det är i det omvärldsläget, med övergångsregeringens budget som
               utgångspunkt, som vi i riksdagen kan se till att ta ansvar och
               bygga motståndskraft i den svenska ekonomin.
             </seg>
-            <seg n="d0f4634f">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-53" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               Vi har nu också möjlighet att ta ansvar för det som medborgarna
               förväntar sig att vi ska prioritera. Vi ska se till att lösa de
               mest akuta problemen som vi ser i samhället. Det är problem som
               vi moderater ofta pratade om i valrörelsen och som fortfarande
               består, och ibland har de förvärrats.
             </seg>
-            <seg n="089b4184">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-54" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               Den som bor i Sverige ska veta att när man behöver samhällets
               stöd som mest, då ska det fungera. Behöver man en plats på ett
               äldreboende ska det finnas en plats. Psykiatrin ska kunna möta
@@ -537,17 +630,23 @@
               måste återupprättas. För detta krävs resurser i en budget, men
               också reformer.
             </seg>
-            <seg n="82ef28b6">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-55" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               Under de fyra år som har gått har många av de akuta problemen
               tillåtits att växa. Men, fru ålderspresident, även de underliggande
               problemen i svensk ekonomi har blivit större. Jag vill ägna lite
               tid åt just detta.
             </seg>
-            <seg n="77943a0b">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-56" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               En viktig del av den ekonomiska politiken är tillväxt- och sysselsättningspolitiken,
               det vill säga det som ofta brukar kallas strukturpolitik.
             </seg>
-            <seg n="04037aa4">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-57" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               Nu lämnar vi en mandatperiod som jag skulle vilja beskriva som
               kliniskt fri från reformer på det området. Då kan man fråga: Vad
               spelar det för roll? Vad får det för konsekvenser? Jo, långsiktigt
@@ -555,7 +654,9 @@
               tålmodigt sätta fokus på ökad tillväxt och full sysselsättning.
               Annars kommer Sverige att få svårare att klara välfärdsåtagandet.
             </seg>
-            <seg n="69387987">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-58" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               Resultatet av den förda politiken under senaste år har vi nu
               sett. Förra veckan kom EU-kommissionens prognos som visar att
               Sverige under de kommande tre åren kommer att ha en lägre tillväxt
@@ -563,29 +664,39 @@
               att ta på allvar. Prognoser från IMF och andra institut ger en
               liknande bild.
             </seg>
-            <seg n="bb672d29">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-59" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               Tillväxten, och framför allt tillväxten per capita, är alltså
               svag trots en stark högkonjunktur. Det innebär att den riskerar
               att bli ännu svagare när konjunkturen vänder.
             </seg>
-            <seg n="a4f8a67f">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-60" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               Vad innebär sämre tillväxt? Jo, det innebär mindre utrymme för
               löneökningar och därmed sämre ekonomiska möjligheter för hushållen.
               Men det leder också till mindre resurser i välfärden än vad som
               annars hade varit fallet.
             </seg>
-            <seg n="06396ae3">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-61" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               Ett underliggande problem är tillväxten per capita. Det finns
               också ett underliggande problem på arbetsmarknaden. Vi har en
               hög arbetslöshet bland utrikes födda och hög långtidsarbetslöshet
               mitt i en högkonjunktur.
             </seg>
-            <seg n="3bce94b8">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-62" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               Fru ålderspresident! Ska Sverige klara det långsiktiga välfärdsåtagandet,
               klara utmaningen med den demografiska förändringen krävs reformer
               för starkare tillväxt och full sysselsättning.
             </seg>
-            <seg n="26da9f9d">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-63" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               Den förra regeringen har inte bara blundat för de underliggande
               problemen. Inte bara tillväxtreformer har uteblivit. Politiken
               har dessutom påverkat tillväxten i fel riktning. Sedan 2014 har
@@ -597,30 +708,42 @@
               bländas i en högkonjunktur och inte se de underliggande problemen,
               men orosmolnen har varit tydliga.
             </seg>
-            <seg n="bad36acc">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-64" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               Vad kan och bör göras, fru ålderspresident?
             </seg>
-            <seg n="5b8ab80c">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-65" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               Det behövs nu en ny ekonomisk reformagenda. Sverige har i många
               avseenden goda förutsättningar för ännu bättre tillväxt.
             </seg>
-            <seg n="dd3805af">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-66" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               Befolkningen är välutbildad och tar snabbt till sig ny teknik.
               Näringslivet är innovativt med omfattande forsknings- och utvecklingsverksamhet,
               och möjligheten till finansiering är god.
             </seg>
-            <seg n="29dee0c3">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-67" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               Men nästkommande år kommer det att krävas fler centrala reformer
               för att öka tillväxten. Jag vill nämna tre områden.
             </seg>
-            <seg n="4e0426df">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-68" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               För det första måste vi ha en skola, ett utbildningssystem, i
               världsklass. Att skolan är av högsta klass kommer att vara avgörande
               för att vi ska skapa ett starkt Sverige i framtiden. Men det är
               också det bästa sättet att se till att alla barn får samma möjligheter
               och får samma livschanser.
             </seg>
-            <seg n="3a72202a">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-69" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               För det andra behövs det en stor skattereform som uppmuntrar
               och belönar ansträngning bättre än i dag. Vi ska vara ett land
               som människor med höga kvalifikationer väljer att arbeta i och
@@ -629,14 +752,18 @@
               roll. Att marginalskatterna är de högsta i världen är inget som
               vi ska vara stolta över, tvärtom.
             </seg>
-            <seg n="3f435a13">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-70" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               För det tredje behövs det reformer för förbättrad matchning och
               kom ­ petensförsörjning. Vi har under de senaste åren pratat mycket
               om att det behövs fler jobb med lägre kvalifikationskrav, och
               det är rätt. Tillsammans med att det blir mer lönsamt att jobba
               är detta viktigt för att klara integra ­ tionen.
             </seg>
-            <seg n="450830c0">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-71" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               Vad Sverige verkligen behöver är dock fler jobb som har de högsta
               kvalifikationskraven i världen. På en arbetsmarknad där allt som
               kan digitaliseras också digitaliseras ökar kraven på människor
@@ -645,7 +772,9 @@
               är mer regel än undantag. Då måste företagen men också vi i det
               offentliga skapa bra vägar till omställning i arbetslivet.
             </seg>
-            <seg n="899cf2d7">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-72" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               Fru ålderspresident! Under åren som ligger framför oss behöver
               Sverige en ekonomisk reformagenda som stärker tillväxt och fokuserar
               på full sysselsättning för att på så sätt stärka välfärden. Det
@@ -654,7 +783,9 @@
               alla de akuta problem som vi ser här och nu. Det har riksdagens
               alla partier nu möjlighet att göra.
             </seg>
-            <seg n="708837c7">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-73" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               När vi senare lägger fram en budgetmotion kommer den att präglas
               av Alliansens reformagenda. Vi tänker ta steg för att svara på
               de stora reformbehov som Sverige har, ta tag i integrationsproblem,
@@ -663,32 +794,38 @@
               att se till att vi påbörjar en resa med en ekonomisk reformagenda
               för stärkt tillväxt så att vi kan klara framtidens åtaganden.
             </seg>
-            <seg n="c8836fc8">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-74" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               Jag ser fram emot att inom några veckor komma tillbaka och presentera
               våra förslag. Helst vill jag såklart göra det tillsammans med
               mina allianskollegor. Vi är det enda laget här i riksdagen som
               kom till valdagen med en gemensam reformagenda som kan göra skillnad
               i Sverige på riktigt.
             </seg>
-            <seg n="ccf84d86">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-75" prev="i-42ffa84fb1231c55-49" who="Q4981393">
+            <seg>
               De reformer som vi genomförde tillsammans 2006–2014 ledde just
               till ökad sysselsättning och ökad tillväxt. Nu krävs nya tag.
               Detta kommer vi att återkomma med.
             </seg>
-            <seg n="1cb7a0d5">
-              (Applåder)
-            </seg>
           </u>
-          <note type="speaker" n="34798282">
+          <note>
+            (Applåder)
+          </note>
+          <note type="speaker">
             Anf. 8 OSCAR SJÖSTEDT (SD):
           </note>
-          <u who="Q18617010" xml:id="i-a0dcc48bfca29ff7-2" n="8ba61b11">
-            <seg n="36c08be5">
+          <u xml:id="i-42ffa84fb1231c55-76" next="i-42ffa84fb1231c55-90" who="Q18617010">
+            <seg>
               Fru ålderspresident! Låt oss använda tillfället till att titta
               lite närmare på vilken situation fyra år av socialistisk ek onomisk
               politik har försatt oss i.
             </seg>
-            <seg n="62e25ed0">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-77" prev="i-42ffa84fb1231c55-76" who="Q18617010">
+            <seg>
               Det enskilt viktigaste och träffsäkraste måttet för att mäta
               utvecklingen av välståndet i ett land är tillväxt per capita,
               alltså bnp-utvecklingen i hela ekonomin dividerat med antalet
@@ -699,20 +836,26 @@
               ekonomisk politik som har förts av den numera avpolletterade finansministern
               i kombination med en fullständigt okontrollerad invandringspolitik.
             </seg>
-            <seg n="153e7550">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-78" prev="i-42ffa84fb1231c55-76" who="Q18617010">
+            <seg>
               Vad gäller arbetslösheten ligger Sverige numera på artonde plats
               i EU. Det är långt ifrån den mer hedrande tiondeplatsen som vi
               hade när reger ­ ingen sjösatte sitt mål och ännu längre ifrån
               målet i sig om lägst arbetslöshet i hela EU. Även här är förklaringen
               en misslyckad ekonomisk politik och en okontrollerad invandringspolitik.
             </seg>
-            <seg n="2d34bb3e">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-79" prev="i-42ffa84fb1231c55-76" who="Q18617010">
+            <seg>
               Man har en överdriven tilltro till skattesubventionerade låtsasjobb
               som inte leder någonvart. Frågan är om man egentligen har någon
               tilltro. Det handlar kanske snarare om att snygga till statistiken
               lite grann.
             </seg>
-            <seg n="63db1297">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-80" prev="i-42ffa84fb1231c55-76" who="Q18617010">
+            <seg>
               Etableringsuppdraget är ett komplett fiasko. Hela 93 procent
               av de inskrivna går inte vidare till ett riktigt jobb efter fullföljt
               uppdrag, trots att vi plöjer ned miljarder efter miljarder kronor
@@ -724,7 +867,9 @@
               i kostnad per enskilt nytt jobb. Det är en fullständigt misslyckad
               arbetsmarknadspolitik.
             </seg>
-            <seg n="380e2b5c">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-81" prev="i-42ffa84fb1231c55-76" who="Q18617010">
+            <seg>
               Det som bevisligen funkar – tydligaste exemplet är kanske RUT-avdraget
               – är man emot, och det har man försämrat. Det intressanta är inte
               bara att antalet jobb i ekonomin blir färre, utan det är, tycker
@@ -734,7 +879,9 @@
               Den sektor där kvinnor som företagare alltså är överrepresenterade
               är regeringen uttalad motståndare till.
             </seg>
-            <seg n="18ecd554">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-82" prev="i-42ffa84fb1231c55-76" who="Q18617010">
+            <seg>
               Än mer intressant är att av dessa kvinnliga företagare är nästan
               varannan, 49 procent, född i ett annat land. Regeringen driver
               alltså en politik mot kvinnligt företagande, mot ökad jämställdhet
@@ -742,7 +889,9 @@
               den privata välfärdssektorn, som regeringen helt vill avveckla.
               Inom vård- och omsorgsbranschen är 65 procent av företagarna kvinnor.
             </seg>
-            <seg n="ed4b43c4">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-83" prev="i-42ffa84fb1231c55-76" who="Q18617010">
+            <seg>
               Utöver att driva en direkt företagsfientlig politik har man också
               haft en företagsfientlig retorik. Man har insinuerat att företagare
               i första hand är presumtiva skattesmitare. Man har kallat företagarna
@@ -750,7 +899,9 @@
               beskattning av landets entreprenörer. Och man har velat höja företagarnas
               kostnader för sjuklön.
             </seg>
-            <seg n="7f0e30d6">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-84" prev="i-42ffa84fb1231c55-76" who="Q18617010">
+            <seg>
               Fru ålderspresident! Under innevarande mandatperiod kommer vi
               att behöva preppa Sverige för lågkonjunktur. Den kommer inte att
               bli helt smärtfri, men vi kan från politiskt håll göra den så
@@ -761,7 +912,9 @@
               att tvingas göra skattehöjningar om staten inte tar ansvar för
               den situation som staten orsakat från första början.
             </seg>
-            <seg n="0a8cddaf">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-85" prev="i-42ffa84fb1231c55-76" who="Q18617010">
+            <seg>
               Det här kommer att finnas med i den budgetmotion som vi kommer
               att presentera inom kort. Utöver det kommer vi att ha med skattelättnader
               för såväl löntagare som pensionärer. Om vi fick bestämma skulle
@@ -769,13 +922,17 @@
               av tjänst ska i stället innefatta såväl nuvarande arbete som tidigare
               utfört arbete.
             </seg>
-            <seg n="49790601">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-86" prev="i-42ffa84fb1231c55-76" who="Q18617010">
+            <seg>
               I våra preliminära fördelningspolitiska analyser framgår också
               klart och tydligt att alla inkomstgrupper och alla åldersgrupper
               blir vinnare med vår politik. De som är lite äldre och de som
               tjänar lite mindre blir dock de största vinnarna med vår budgetpolitik.
             </seg>
-            <seg n="ab1db75d">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-87" prev="i-42ffa84fb1231c55-76" who="Q18617010">
+            <seg>
               Vidare kommer vi att göra satsningar direkt på företagarna i
               stället för att ha dessa massiva subventioner och kostnader för
               en missriktad arbetsmarknads- och integrationspolitik. Sänkta
@@ -785,7 +942,9 @@
               Gör vi rätt satsningar på företagarna nu kan vi dämpa en alltför
               påtaglig uppgång i arbetslösheten sedan.
             </seg>
-            <seg n="2af3c448">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-88" prev="i-42ffa84fb1231c55-76" who="Q18617010">
+            <seg>
               Låt mig också säga några ord om det faktum att vi just nu behandlar
               en så kallad övergångsbudget från en övergångsregering. Skälet
               till detta är att det finns ett antal partier och i synnerhet
@@ -796,7 +955,9 @@
               det egna uppblåsta egot. Det är ungefär på en sådan mental nivå
               som delar av den här institutionen befinner sig just nu.
             </seg>
-            <seg n="55f1d520">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-89" prev="i-42ffa84fb1231c55-76" who="Q18617010">
+            <seg>
               Det är fråga om vuxna människor som inte klarar av att samtala
               med andra vuxna människor därför att de inte håller med varandra.
               Jag hörde av en lärare att den sortens beteende aldrig hade accepterats
@@ -804,7 +965,9 @@
               i 16 år, och jag kan lova er: Han bits inte. Han har i alla fall
               inte gjort det hittills.
             </seg>
-            <seg n="cba01a50">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-90" prev="i-42ffa84fb1231c55-76" who="Q18617010">
+            <seg>
               Slutligen vill jag uppmana de delar av den före detta Alliansen
               som fortfarande är intresserade av att syssla med politik i stället
               för symbolik att lägga en heltäckande budgetmotion här på riksdagens
@@ -821,15 +984,15 @@
               händelse att vårt eget budgetförslag faller. Vi kommer i alla
               händelser att lägga ett eget förslag på riksdagens bord inom kort.
             </seg>
-            <seg n="1cb7a0d5">
-              (Applåder)
-            </seg>
           </u>
-          <note type="speaker" n="19645e1b">
+          <note>
+            (Applåder)
+          </note>
+          <note type="speaker">
             Anf. 9 EMIL KÄLLSTRÖM (C):
           </note>
-          <u who="Q5928457" xml:id="i-64407ade71bb7e13-0" n="fc0afbb7">
-            <seg n="4f740b5d">
+          <u xml:id="i-42ffa84fb1231c55-91" next="i-42ffa84fb1231c55-102" who="Q5928457">
+            <seg>
               Fru ålderspresident! Det här är minst sagt en speciell budgetdebatt
               och en speciell politisk höst. Jag skulle vilja inleda med att
               säga några ord om den övergångsbudget som vi i dag har fått på
@@ -838,7 +1001,9 @@
               som i Finansdepartementet tar fram en övergångsbudget och att
               regeringsbildningen drar ut så pass långt på tiden.
             </seg>
-            <seg n="f01dc652">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-92" prev="i-42ffa84fb1231c55-91" who="Q5928457">
+            <seg>
               Basen för det här dokumentet och de principer som vi – ett flertal
               av riksdagens partier – har diskuterat handlar om att Sverige
               ska fungera. Människor som jobbar på myndigheter ska fortsätta
@@ -846,7 +1011,9 @@
               ska veta att de saker vi tar för givna fortsätter att fungera
               på det sätt vi är vana vid även efter årsskiftet.
             </seg>
-            <seg n="f717c96e">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-93" prev="i-42ffa84fb1231c55-91" who="Q5928457">
+            <seg>
               Jag tycker att det har varit mycket positivt och konstruktivt
               att samtala om hur en övergångsregering ska agera i detta nya
               läge. Huvudansvaret för denna konstruktiva anda ligger givetvis
@@ -856,7 +1023,9 @@
               vilja återkomma till. Det allra bästa vore om vi kunde nå bredast
               möjliga samsyn kring reformbehoven.
             </seg>
-            <seg n="c378666b">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-94" prev="i-42ffa84fb1231c55-91" who="Q5928457">
+            <seg>
               Jag vill poängtera att oavsett hur den parlamentariska behandlingen
               av denna övergångsbudget landar har vi i och med de principer
               som ligger till grund för övergångsbudgeten gjort någonting gott
@@ -864,7 +1033,9 @@
               i den mån vi kommer att få se sådana, kan se på den här processen
               för att se hur det är rimligt att agera i ett sådant läge.
             </seg>
-            <seg n="625e5b7f">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-95" prev="i-42ffa84fb1231c55-91" who="Q5928457">
+            <seg>
               Frågan är given: Hur agerar vi nu? Några partier har redan kommit
               med sina besked. Det är helt uppenbart att det är två storheter,
               två linjer, som helt eller delvis står emot varandra. Å ena sidan
@@ -874,16 +1045,22 @@
               sin egen politik och vara tydliga med vad man står för i ett läge
               där det är stort intresse för de politiska vägvalen.
             </seg>
-            <seg n="f2be4c5c">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-96" prev="i-42ffa84fb1231c55-91" who="Q5928457">
+            <seg>
               Centerpartiets besked är inte möjligt att ge i dag. Vi kan nog
               bara konstatera att fortsättning följer i frågan.
             </seg>
-            <seg n="c5076874">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-97" prev="i-42ffa84fb1231c55-91" who="Q5928457">
+            <seg>
               Det här är mandatperiodens första budgetdebatt. Låt oss därför
               ta chansen att slå fast vad vi måste ägna den här mandatperioden
               åt!
             </seg>
-            <seg n="ba458af4">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-98" prev="i-42ffa84fb1231c55-91" who="Q5928457">
+            <seg>
               Som tidigare nämnts av flera talare har Sverige stora reformbehov.
               Vi måste ta tag i saker som vi inte har gjort något åt på mycket
               lång tid. Det handlar om saker som inte minst jag själv nämnde
@@ -891,7 +1068,9 @@
               Centrala delar av det svenska samhällsbygget måste reformeras
               och moderniseras.
             </seg>
-            <seg n="b6878680">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-99" prev="i-42ffa84fb1231c55-91" who="Q5928457">
+            <seg>
               Vi har en bostadsmarknad som fungerar alldeles för dåligt. Vi
               har en arbetsmarknad som på toppen av en högkonjunktur inte riktigt
               levererar och där det finns stora risker för att obalanserna blir
@@ -909,7 +1088,9 @@
               Här har Sverige under lång tid underinvesterat. Vi måste bygga
               det nya Sverige.
             </seg>
-            <seg n="d082640c">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-100" prev="i-42ffa84fb1231c55-91" who="Q5928457">
+            <seg>
               Det som är gemensamt för ett flertal av de här utmaningarna och
               problemen är att det krävs liberala lösningar som bygger på flexibilitet
               och en förståelse för hur den moderna ekonomin fungerar. I ett
@@ -921,7 +1102,9 @@
               allra bäst om man är kvar hos samma arbetsgivare. Det här blir
               allt mindre rimligt, allt mindre modernt och ett allt större problem.
             </seg>
-            <seg n="918f2104">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-101" prev="i-42ffa84fb1231c55-91" who="Q5928457">
+            <seg>
               Jag och Centerpartiet hoppas att vi kan få på plats en effektiv
               regering som tar initiativ och knyter breda överenskommelser i
               Sveriges riksdag, så att vi möter de här problemen och gör någonting
@@ -934,7 +1117,9 @@
               ska krävas en kris av liknande magnitud för att vi i denna kammare
               ska samla oss för att göra det vi alla vet behöver göras.
             </seg>
-            <seg n="238f396a">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-102" prev="i-42ffa84fb1231c55-91" who="Q5928457">
+            <seg>
               Fru ålderspresident! Denna kammare har i höst två huvuduppgifter.
               Vi ska anta en budget som ser till att Sverige fortsätter att
               fungera och att landet och dess alla olika goda ting i form av
@@ -943,15 +1128,15 @@
               forma en effektiv regering. Sverige förtjänar att vi lyckas med
               båda dessa uppgifter.
             </seg>
-            <seg n="1cb7a0d5">
-              (Applåder)
-            </seg>
           </u>
-          <note type="speaker" n="acca0d8a">
+          <note>
+            (Applåder)
+          </note>
+          <note type="speaker">
             Anf. 10 ULLA ANDERSSON (V):
           </note>
-          <u who="Q4935938" xml:id="i-bb878f2e8018f73b-0" n="d771d91b">
-            <seg n="c69fa4ae">
+          <u xml:id="i-42ffa84fb1231c55-103" next="i-42ffa84fb1231c55-129" who="Q4935938">
+            <seg>
               Fru ålderspresident! Valresultatet blev 144–143 till de rödgröna.
               Trots det och trots att de inte hade någon ny regeringsbildare
               att tillsätta avsatte de borgerliga partierna med valets stora
@@ -964,13 +1149,17 @@
               i vårt avlånga land. Alliansen får nog numera ses som den före
               detta Alliansen.
             </seg>
-            <seg n="180f73a5">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-104" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Därför har vi också en övergångsbudget att hantera. Den är i
               väntan på att en ny regering tillträder som kan lämna de förslag
               till ändringar i statens budget som en sådan regering tycker är
               lämplig utifrån dess politiska inriktning.
             </seg>
-            <seg n="25500251">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-105" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Under den gångna mandatperioden har Vänsterpartiet i samarbete
               med regeringen sett till att mycket bra har blivit gjort. Antalet
               anställda i välfärden har ökat kraftigt, arbetslösheten har sjunkit
@@ -980,28 +1169,38 @@
               fram har gått i rätt riktning, och framför allt har kvinnor och
               människor med låga inkomster gynnats.
             </seg>
-            <seg n="743e9f80">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-106" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Avgiftsfri mammografi och cellprovsscreening syftar till ingen
               ska behöva missa en cancertumör eller cellförändringar för att
               plånboken är tunn.
             </seg>
-            <seg n="7bb00b4d">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-107" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Avgiftsfria lovaktiviteter för barn, gratis buss på sommarlovet
               för unga och sänkta avgifter för kulturskolan syftar till att
               möjliggöra att alla unga ska kunna delta, kunna mötas och få en
               rikare fritid.
             </seg>
-            <seg n="80bd2250">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-108" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Avgiftsfria mediciner för barn och gratis glasögon till barn
               och unga syftar till att ingen förälder ska behöva välja mellan
               att betala hyran eller hämta ut barnets medicin och att inget
               barn ska behöva vara utan de glasögon det behöver.
             </seg>
-            <seg n="7c922a7c">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-109" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Att tillföra 10 miljarder till vård, skola och omsorg handlar
               om att öka kvaliteten och öka tillgängligheten till välfärden.
             </seg>
-            <seg n="0d2af2aa">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-110" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Höjda ersättningsnivåer i sjukersättningen, höjda tak i sjukförsäkring
               ­ en och i a-kassan och höjda golv, höjda bostadstillägg, höjt
               underhållsstöd för ensamstående föräldrar och höjda flerbarnstillägg
@@ -1009,7 +1208,9 @@
               människors ekonomiska utsatthet, minska barnfattigdom och öka
               människors frihet.
             </seg>
-            <seg n="46ae5301">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-111" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               En del verkar vilja kalla en sådan politik extrem. Jag vill säga
               att den handlar om värdighet och rättvisa. Extremt är däremot
               att vilja sänka människors löner, införa marknadshyror, affäre
@@ -1021,28 +1222,36 @@
               obegränsade privata vinstuttag på skattemedel. Det vill jag säga
               är extremt.
             </seg>
-            <seg n="54fa4dbb">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-112" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Fru ålderspresident! Det Sverige behöver den kommande mandatperio
               ­ den är en politik för ekonomisk jämlikhet där människors vilja
               att bidra tas till vara. Det är en politik för sammanhållning,
               hopp och framtidstro. En sådan politik kan aldrig högern bidra
               till.
             </seg>
-            <seg n="dc4ccb84">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-113" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Sverige är det land där inkomstskillnaderna vuxit snabbast under
               flera decennier. Inkomstskillnaderna eskalerade under den borgerliga
               reger ­ ingen. Men vi vet, och de allra flesta vet i dag, att
               det inte är bra för vare sig samhällsutvecklingen eller den ekonomiska
               tillväxten med kraftigt växande inkomstklyftor utan snarare tvärtom.
             </seg>
-            <seg n="33bb0147">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-114" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Trots det har Sverige det minst omfördelande skattesystemet bland
               EU:s 15 kärnländer och den skevaste förmögenhetsfördelningen ihop
               med USA och Brasilien. Faktum är att om vi fortsätter att öka
               inkomstskillnaderna i den takt vi har gjort under de senaste decennierna
               kommer vi att ha gått förbi USA någon gång under 2030-talet.
             </seg>
-            <seg n="90853abc">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-115" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Ojämlikheten märks i vår vardag. Vi bor inte i samma bostadsområden
               längre, och våra barn går inte tillsammans i skolan. Några av
               oss blir sjukare än andra och lever kortare tid. Barnfattigdomen
@@ -1050,7 +1259,9 @@
               fler utlandssemestrar, för att inte tala om den äldrefattigdom
               som breder ut sig.
             </seg>
-            <seg n="0b952c63">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-116" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Privata skattefinansierade bolag tillåts sko sig på vår gemensamma
               välfärd. Undersköterskor, fastighetsskötare, städerskor, taxichaufförer
               och kassörskor har inte makten att styra över sina arbeten. De
@@ -1058,7 +1269,9 @@
               behöver det eller göra ärenden på arbetstid, och de hinner inte
               ens träna.
             </seg>
-            <seg n="b33d3fd6">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-117" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Arbetet sliter på kroppar och hälsa. Många vet inte ens om de
               har jobb nästa vecka eller nästa månad. Det påverkar självklart
               ekonomiska förhållanden som var man kan bo, hur många sjukdagar
@@ -1068,7 +1281,9 @@
               till och med hur länge man kommer att leva. Klass har nämligen
               betydelse för de liv vi själva och våra barn tillåts leva.
             </seg>
-            <seg n="3b7c15b7">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-118" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Vänsterpartiets uppgift är att bedriva en politik som utjämnar
               klasskillnader och livsförutsättningar. Vi vill inte ha ett skattesystem
               som är riggat för de rikaste utan för vanligt folk. Vi vill ha
@@ -1076,7 +1291,9 @@
               Vi tycker i stället att vi ska ändra på de politiska beslut som
               ökat ojämlikheten och underfinansierat välfärden.
             </seg>
-            <seg n="430ada7f">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-119" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Förutom en skattepolitik som omfördelar från höginkomsttagare
               till låginkomsttagare behövs självklart ekonomiska förstärkningar
               i välfärden. Det behövs förbättrade arbetsvillkor och höjda löner
@@ -1085,17 +1302,23 @@
               med fullständiga betyg och att vuxna som behöver ställa om ska
               få möjligheten till en utbildning som kan ge jobb och goda framtidsmöjligheter.
             </seg>
-            <seg n="705919c2">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-120" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Tryggheten på arbetsmarknaden måste öka, och makten och inflytandet
               över arbetet måste vara hos dem som utför arbetet. Bostadsbristen
               måste byggas bort med hyresrätter till rimliga hyror.
             </seg>
-            <seg n="28bfd346">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-121" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Självklart ska de som behöver assistans ha assistans, och vi
               ska ha en sjukförsäkring som det går att lita på. Människor som
               har kommit till vårt land ska kunna få ta hit sina familjer.
             </seg>
-            <seg n="46624a9f">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-122" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Vi behöver minska utsläppen här hemma och internationellt. Vi
               behöver göra allt vad vi kan och använda alla våra verktyg vi
               har för att minska dem. Det kräver solidariska lösningar och handlingar.
@@ -1103,31 +1326,41 @@
               resurser på det sätt vi gör. Vi kan inte ta oss den makten på
               bekostnad av våra barn och barnbarn.
             </seg>
-            <seg n="28b7e541">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-123" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               En övergångsbudget löser självklart inte detta. Det är den inte
               heller avsedd att göra. Den finns här för att vi har den situation
               vi har. Den är inte vad vi önskar oss. Den är inte vad någon önskar
               sig. Den är just en övergångsbudget vars praxis nu ska prövas.
             </seg>
-            <seg n="5eae2199">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-124" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Trots att Moderaternas statsministerkandidat blev bortröstad
               i går och de inte har någon ny statsminister eller ny regering
               att tillsätta har Moderaterna meddelat att de avser att motionera
               på övergångsbudgeten.
             </seg>
-            <seg n="f6c2d9a3">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-125" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Det vore minst sagt märkligt. Har man precis förlorat en statsministeromröstning
               med väldigt stora siffror behöver man nog inse att man i det läget
               inte ska driva igenom sin ekonomiska politik för att på så sätt
               få makten att ändå styra.
             </seg>
-            <seg n="cf3940b1">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-126" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Vi i Vänsterpartiet förväntar oss en ansvarsfull och ordnad process
               med övergångsbudgeten, att den bör passera genom riksdagen som
               det var tänkt när lagstiftningen antogs och som de principer den
               är byggd på avser att säkerställa.
             </seg>
-            <seg n="bfa60194">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-127" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Detta är en tid när klimatförändringar hotar allas vår framtid
               och kräver solidariska handlingar och lösningar. Det är en tid
               när de allra flesta insett att ständigt växande inkomstskillnader
@@ -1135,7 +1368,9 @@
               och ekonomiska tillväxt. Det är en tid när fascismen och rasismen
               flyttar fram sina positioner.
             </seg>
-            <seg n="70bd4fe0">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-128" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Då borde ingen blunda för forskningen om klimatförändringarna,
               ojämlikheten och de krafter som utnyttjar det vakuum som uppstått
               och vill förklara maktförändringar och den förändrade maktbalansen
@@ -1143,18 +1378,20 @@
               sociala relationer. Då borde ingen göra sig beroende av ett högerextremt
               parti för att få igenom sin regering eller sin ekonomiska politik.
             </seg>
-            <seg n="df7f6f0b">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-129" prev="i-42ffa84fb1231c55-103" who="Q4935938">
+            <seg>
               Tids nog, när en ny regering kommit på plats, får den lägga fram
               sin budget. Vi alla får på olika sätt hantera det som opposition,
               regering, förhandlare eller som samtalspart. Det är en rimlig
               och ansvarsfull ordning.
             </seg>
           </u>
-          <note type="speaker" n="a7785a11">
+          <note type="speaker">
             Anf. 11 JAKOB FORSSMED (KD):
           </note>
-          <u who="Q5737841" xml:id="i-defc3b4d346808fe-0" n="c2c83951">
-            <seg n="637479ea">
+          <u xml:id="i-42ffa84fb1231c55-130" next="i-42ffa84fb1231c55-152" who="Q5737841">
+            <seg>
               Fru ålderspresident! Vi har en utdragen regeringsbildning i ett
               svårt och vanskligt läge. Övergångsregeringen har därför framlagt
               en budgetproposition i enlighet med vårt konstitutionella ramverk,
@@ -1163,7 +1400,9 @@
               som inte liknar någon av alla dem jag har varit med om. Det innebär
               inte att den är oviktig – tvärtom.
             </seg>
-            <seg n="27ef53a7">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-131" prev="i-42ffa84fb1231c55-130" who="Q5737841">
+            <seg>
               Jag vill först tacka för det arbete som övergångsregeringen och
               dess tjänstemän har gjort med budgetpropositionen. Det mödosamma
               arbetet med prognoser och att omräkna anslag enligt gällande riktlinjer
@@ -1175,7 +1414,9 @@
               ett rimligt sätt. Det finns således inte något skäl att rikta
               kritik mot övergångsregeringen – tvärtom.
             </seg>
-            <seg n="87992e6d">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-132" prev="i-42ffa84fb1231c55-130" who="Q5737841">
+            <seg>
               Men att principerna är rimliga och arbetet rent budgettekniskt
               är habilt innebär förstås inte att allt innehåll är bra. Den politik
               som i valet fick en minskad uppslutning och vars främste företrädare
@@ -1183,7 +1424,9 @@
               Prolongeringarna innebär att tidigare års otillräckliga, onödiga
               eller direkt olämpliga rödgröna förslag nu förlängs.
             </seg>
-            <seg n="af321f41">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-133" prev="i-42ffa84fb1231c55-130" who="Q5737841">
+            <seg>
               Övergångsbudgeten för också med sig att oförmågan att göra nödvändiga
               reformer konserveras för ytterligare tid. Detta är förstås inte
               övergångsregeringens förskyllan utan en konsekvens av förra mandatperiodens
@@ -1192,7 +1435,9 @@
               till en ny regering med en ny inriktning av politiken, ser vi
               ännu inte.
             </seg>
-            <seg n="3867be0e">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-134" prev="i-42ffa84fb1231c55-130" who="Q5737841">
+            <seg>
               Samtidigt har verklighetens samhällsproblem tyvärr inte kunnat
               placeras i samma vänteläge som regeringsbildandet. I några fall
               har problemen förvärrats. Det går att se det som att det är en
@@ -1203,7 +1448,9 @@
               som äger finansmakten, det vill säga Sveriges medborgares rätt
               att genom sina representanter sig själva beskatta.
             </seg>
-            <seg n="4f067141">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-135" prev="i-42ffa84fb1231c55-130" who="Q5737841">
+            <seg>
               Jag och Kristdemokraterna menar att de trängande reformbehoven
               gör att riksdagen nu bör söka gripa möjligheten att agera, även
               i avsaknad av en ny regering. Därför menar jag att Alliansen i
@@ -1214,19 +1461,25 @@
               göra vad vi kan för att få goda reformer och rätt resurser på
               plats så snart det är möjligt.
             </seg>
-            <seg n="55ac40b1">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-136" prev="i-42ffa84fb1231c55-130" who="Q5737841">
+            <seg>
               Fru ålderspresident! Reformer och en ny politik för Sverige kan
               inte vara en uppgift för en övergångsregering. Men det bör vara
               en uppgift för riksdagen i avsaknad av en regering som gör detta.
             </seg>
-            <seg n="2a17d96c">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-137" prev="i-42ffa84fb1231c55-130" who="Q5737841">
+            <seg>
               Därför bör Alliansen i första hand lägga en gemensam budgetmotion.
               Men även om det läggs flera olika budgetmotioner finns möjligheten
               till en gemensam reservation i finansutskottet, där förändringar
               görs i övergångsbudgeten baserat på reformer från Alliansens reformagenda.
               Den gemensamma politiska grunden i Alliansen saknas nämligen inte.
             </seg>
-            <seg n="346a6773">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-138" prev="i-42ffa84fb1231c55-130" who="Q5737841">
+            <seg>
               Under alla omständigheter bör det eftersträvas att få alliansreformer
               på plats redan nu. När sjukvårdsköerna växer och ojämlikheten
               inom vården ökar behövs både mer resurser och strukturreformer.
@@ -1234,20 +1487,26 @@
               kompetensförsörjningsbehov och strukturella problem kring vårdens
               organisation.
             </seg>
-            <seg n="94c410bd">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-139" prev="i-42ffa84fb1231c55-130" who="Q5737841">
+            <seg>
               När vi nu ser tecken på en konjunkturavmattning blir det särskilt
               angeläget att genomföra strukturellt riktiga reformer på arbetsmarknaden
               så att inte det utanförskap som följer i spåren av arbetsmarknadens
               kraftiga tudelning fördjupas. Det behövs också reformer så att
               kompetensbehov hos näringsliv och offentlig sektor kan mötas.
             </seg>
-            <seg n="5c3cf528">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-140" prev="i-42ffa84fb1231c55-130" who="Q5737841">
+            <seg>
               När vi ser en dysfunktionell bostadsmarknad som hämmar kompetensförsörjning,
               integration, jobb och tillväxt måste kloka och långsiktiga spelregler
               komma på plats så snart som möjligt. Det är inte minst angeläget
               när vi ser ett vikande byggande.
             </seg>
-            <seg n="f1d2ea60">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-141" prev="i-42ffa84fb1231c55-130" who="Q5737841">
+            <seg>
               När äldre lider av ofrivillig ensamhet och isolering för att
               de inte anses sjuka nog att få en äldreboendeplats, när de som
               har rätt till en plats ändå inte får en och när fyra av tio kommuner
@@ -1255,20 +1514,28 @@
               två eller fem års sikt behövs strukturella grepp och resurser
               till både trygghetsboenden och särskilda boenden.
             </seg>
-            <seg n="b1e69744">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-142" prev="i-42ffa84fb1231c55-130" who="Q5737841">
+            <seg>
               När skolan brister behövs reformer för kunskap så som tidigare
               betyg, mer kunskap och mer undervisningstid.
             </seg>
-            <seg n="a5ade8c0">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-143" prev="i-42ffa84fb1231c55-130" who="Q5737841">
+            <seg>
               När klimatutsläppen inte minskar i den takt som krävs måste vi
               agera.
             </seg>
-            <seg n="96d4a2c8">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-144" prev="i-42ffa84fb1231c55-130" who="Q5737841">
+            <seg>
               När det kan vara avgörande för tryggheten i vilket bostadsområde
               du bor behövs fler poliser med bättre villkor så snart det över
               huvud taget är möjligt.
             </seg>
-            <seg n="2276f99b">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-145" prev="i-42ffa84fb1231c55-130" who="Q5737841">
+            <seg>
               Jag vill också lyfta fram en annan utmaning s ås om en ny regering
               behöver ta på allvar. Det handlar om det faktum att över 1 miljon
               svenskar säger sig sakna en nära vän och att allt fler begravningar
@@ -1279,14 +1546,18 @@
               det bär med sig samhällsekonomiska kostnader och genomföra reformer
               för att möta detta.
             </seg>
-            <seg n="d07d4430">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-146" prev="i-42ffa84fb1231c55-130" who="Q5737841">
+            <seg>
               Många reformer i Kristdemokraternas och Alliansens reformagenda
               kommer att ta tid att genomföra. En del behöver omfattande beredning.
               Mycket är dock gemensamt förberett, och en del kan påbörjas redan
               nu. Jag menar att vi bör ta den chansen h är i riksdagen för att
               tackla dessa utmaningar.
             </seg>
-            <seg n="32c1342a">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-147" prev="i-42ffa84fb1231c55-130" who="Q5737841">
+            <seg>
               Fru ålderspresident! Avslutningsvis vill jag säga att jag har
               varit en del av Alliansen under en lång tid. Från Högfors 2004
               till hösten 2014 är det nog rimligt att säga att jag i stort sett
@@ -1296,7 +1567,9 @@
               har varit som bäst när den har fått transformera goda värden in
               i praktiska reformer i närkamp med samhällsproblem.
             </seg>
-            <seg n="925bc208">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-148" prev="i-42ffa84fb1231c55-130" who="Q5737841">
+            <seg>
               Det handlar om arbete, öppenhet, idealitet och gemenskap. Det
               handlar om ökad valfrihet och ekonomisk frihet för enskilda och
               familjer. Det handlar om en insikt om att företag inte är fiender
@@ -1308,7 +1581,9 @@
               heller hålla någon tillbaka. Vi har utmejslat konkreta reformer
               för att främja allt detta.
             </seg>
-            <seg n="c208df8e">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-149" prev="i-42ffa84fb1231c55-130" who="Q5737841">
+            <seg>
               Jag har också sett dynamiken i samarbetet och hur alla fyra partier
               – Moderaterna, Centerpartiet, Kristdemokraterna och Liberalerna
               – har bidragit och än i dag bidrar med reformförslag. Jag har
@@ -1316,13 +1591,17 @@
               partiernas förslag bättre. Förbättringen har naturligtvis i första
               hand gällt de andras förslag men i något enstaka fall också Kristdemokraternas.
             </seg>
-            <seg n="052041af">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-150" prev="i-42ffa84fb1231c55-130" who="Q5737841">
+            <seg>
               Om denna reformkraft och dynamik går förlorad och Alliansen upphör
               att vara reformkraften i svensk politik stärks andra centrum i
               politiken som på olika sätt och långt ifrån varandra står för
               andra saker.
             </seg>
-            <seg n="07cf1e0b">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-151" prev="i-42ffa84fb1231c55-130" who="Q5737841">
+            <seg>
               Det finns skäl att lyssna noga på vilka det är som önskar att
               Alliansen spricker. En del säger att det är nya tider nu och att
               Alliansen inte kan bidra i dessa. Det är inte min uppfattning
@@ -1332,7 +1611,9 @@
               med ett regeringsprogram som med utgångspunkt i goda värderingar
               genomför reformer som Sverige nu behöver.
             </seg>
-            <seg n="651b7f7b">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-152" prev="i-42ffa84fb1231c55-130" who="Q5737841">
+            <seg>
               De första reformerna ur den gedigna reformagenda som Alliansen
               gick till val på kan och bör enligt min uppfattning läggas fram
               redan under denna budgetprocess för att prövas av kammaren. Jag
@@ -1340,23 +1621,25 @@
               socialism. Förutsättningarna för detta är störst med Kristdemokraternas
               och Alliansens politik.
             </seg>
-            <seg n="1cb7a0d5">
-              (Applåder)
-            </seg>
           </u>
-          <note n="b04ca30c">
+          <note>
+            (Applåder)
+          </note>
+          <note>
             I detta anförande instämde Andreas Carlson (KD).
           </note>
-          <note type="speaker" n="36c99694">
+          <note type="speaker">
             Anf. 12 MATS PERSSON (L):
           </note>
-          <u who="Q6043377" xml:id="i-6e62010e44908d6f-0" n="d9ecc69a">
-            <seg n="cb64f9b3">
+          <u xml:id="i-42ffa84fb1231c55-153" next="i-42ffa84fb1231c55-169" who="Q6043377">
+            <seg>
               Fru talman och ärade ledamöter! I min hemstad Lund kom det för
               några veckor sedan en nyhet om att medicinbolaget Baxter lägger
               ned sin verksamhet och flyttar den till Italien.
             </seg>
-            <seg n="766b6531">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-154" prev="i-42ffa84fb1231c55-153" who="Q6043377">
+            <seg>
               I den här kammaren och i den debatt vi alla är en del av målas
               det ibland upp att Sverige är en traktor som bara mal på. Det
               råder en högkonjunktur som gör att vi har en känsla av att Sverige
@@ -1369,7 +1652,9 @@
               jobba med att vara bättre än sina internationella konkurrenter
               för att jobben ska finnas kvar här i Sverige.
             </seg>
-            <seg n="d07ff5f9">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-155" prev="i-42ffa84fb1231c55-153" who="Q6043377">
+            <seg>
               Fru talman! Samma utgångspunkt bör vi som politiker och Sverige
               AB ha. Sverige är ett land med en liten och öppen ekonomi i norra
               Europas utkanter, som inte konkurrerar med Portugal, Italien eller
@@ -1377,7 +1662,9 @@
               Sverige måste vara bättre än dessa länder för att företag ska
               vilja förlägga produktion och verksamhet hit.
             </seg>
-            <seg n="2a0246f2">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-156" prev="i-42ffa84fb1231c55-153" who="Q6043377">
+            <seg>
               Sverige kan inte vara sämre eller ha sämre ekonomiska villkor
               än våra konkurrentländer. Tvärtom måste det finnas bättre villkor
               än i andra länder. Vi måste ha något att locka med för att internationella
@@ -1386,7 +1673,9 @@
               och ett kallt klimat. Vi måste ha andra saker att locka med för
               att företag ska vilja förlägga sin produktion hit.
             </seg>
-            <seg n="126cf92a">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-157" prev="i-42ffa84fb1231c55-153" who="Q6043377">
+            <seg>
               När vi nu de senaste åren har sett att ett antal internationella
               företag som tidigare har varit svenska nu inte längre är svenska
               företag ringer varningsklockorna tydligt; när vi står still springer
@@ -1394,7 +1683,9 @@
               mer. Då tappar vi välstånd, konkurrenskraft och framför allt jobb,
               vilket gör vårt land fattigare.
             </seg>
-            <seg n="3a26df0c">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-158" prev="i-42ffa84fb1231c55-153" who="Q6043377">
+            <seg>
               Fru talman! Många människor känner att politiken inte levererar.
               Många människor som tittar på tv funderar över de 10 miljonerna
               som den där politikern berättar om ska lösa något ena dagen och
@@ -1402,7 +1693,9 @@
               ingen roll. På det stora hela fungerar inte grundläggande funktioner
               i vårt samhälle.
             </seg>
-            <seg n="69f16063">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-159" prev="i-42ffa84fb1231c55-153" who="Q6043377">
+            <seg>
               Var sjätte ung människa lämnar grundskolan utan att vara behörig
               till gymnasiet. Människor lever på bidrag år efter år. Människor
               fastnar i att leva på försörjningsstöd, inte i en månad eller
@@ -1411,7 +1704,9 @@
               växer, och människor känner att de inte kommer till i sjukvården,
               vilket politikerna minsann borde kunna lösa.
             </seg>
-            <seg n="e642dfc3">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-160" prev="i-42ffa84fb1231c55-153" who="Q6043377">
+            <seg>
               Effekten blir att förtroendet för välfärden, för samhällskontraktet
               och för oss i politiken får sig en rejäl törn. Vi ska ta det på
               allra största allvar. Oavsett vilken regering som tillträder måste
@@ -1420,7 +1715,9 @@
               sig av oss, utan de förväntar sig rejäla grundläggande reformer
               som förändrar och förbättrar viktiga funktioner i vårt samhälle.
             </seg>
-            <seg n="e10daa14">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-161" prev="i-42ffa84fb1231c55-153" who="Q6043377">
+            <seg>
               Fru talman! Ett tydligt exempel är välfärden. Om vi frågar en
               lärare eller sjuksköterska präglas deras beskrivning av en arbetsdag
               av frustration och stress över att inte få lägga sin arbetstid
@@ -1433,7 +1730,9 @@
               för lång tid byggt upp en struktur som maler sönder i stället
               för att skapa glädje och drivkraft på jobbet.
             </seg>
-            <seg n="4b1998ac">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-162" prev="i-42ffa84fb1231c55-153" who="Q6043377">
+            <seg>
               Det handlar om att låta proffsen vara proffs, och det handlar
               om att göra upp med den jantelagsmentalitet som finns, och har
               funnits, att ingen är för fin för att göra vissa arbetsuppgifter.
@@ -1443,14 +1742,18 @@
               kan använda sin tid till det han eller hon är utbildad till, nämligen
               att vårda patienter.
             </seg>
-            <seg n="b14c8c2d">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-163" prev="i-42ffa84fb1231c55-153" who="Q6043377">
+            <seg>
               Läraren ska inte gå ut i korridoren för att leta efter elever
               som är försenade till lektionen. Läraren ska inte vara rastvakt.
               Det kan andra människor göra så att läraren får tid att utbilda
               våra elever och utveckla undervisningen. Proffsen måste få vara
               proffs.
             </seg>
-            <seg n="1056e51d">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-164" prev="i-42ffa84fb1231c55-153" who="Q6043377">
+            <seg>
               Fru talman! Liberalerna slåss för en kunskapsskola. Vi gör det
               därför att vi vet vad motsatsen är, nämligen ett samhälle som
               slits itu. När skolan inte levererar ser vi framväxten av en ny
@@ -1462,7 +1765,9 @@
               där människor inte tror att de själva kan påverka sin livssituation.
               Det är ett farligt samhälle.
             </seg>
-            <seg n="2acb5280">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-165" prev="i-42ffa84fb1231c55-153" who="Q6043377">
+            <seg>
               Fru talman! Sverige ligger nu på 18:e plats i EU:s arbetslöshetsstatistik.
               Målet var att Sverige skulle ligga etta, men vi ligger på 18:e
               plats. Siffran i sig är inte intressant, utan det allvarliga är
@@ -1470,7 +1775,9 @@
               sig själva och står inte på egna ben, utan de blir beroende av
               att vara försörjda av samhället.
             </seg>
-            <seg n="e91652a5">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-166" prev="i-42ffa84fb1231c55-153" who="Q6043377">
+            <seg>
               När sysslolösheten sprider ut sig och riskerar att gå i arv i
               generationer, där människor inte har framtidstro, skapar vi ett
               tudelat samhälle där vissa har och andra inte har. Det s kapar
@@ -1489,7 +1796,9 @@
               inte ska finnas enkla jobb – det är dåligt. Det har den tidigare
               regeringen sagt nej till. Priset är ett fördjupat bidragsberoende.
             </seg>
-            <seg n="5fdfcba6">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-167" prev="i-42ffa84fb1231c55-153" who="Q6043377">
+            <seg>
               Fru talman! Jag är liberal, inte socialist. Det betyder att rättvisa
               för mig inte är att alla har lika mycket. Rättvisa för mig är
               att alla har samma förutsättningar i livet. Men människor kommer
@@ -1499,7 +1808,9 @@
               Rättvisa är inte att alla har lika mycket, utan rättvisa är att
               alla har samma chans i livet.
             </seg>
-            <seg n="d86ce9b9">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-168" prev="i-42ffa84fb1231c55-153" who="Q6043377">
+            <seg>
               Därför är det konstigt att vi lever i ett samhälle där utbildning
               ses som något dåligt. Sverige är det land i västvärlden som beskattar
               utbildning allra högst. Var tredje heltidsarbetande svensk i vårt
@@ -1508,7 +1819,9 @@
               här i Sverige. Effekten av detta blir att utbildning inte lönar
               sig. Den inriktningen måste brytas.
             </seg>
-            <seg n="a3daadf0">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-169" prev="i-42ffa84fb1231c55-153" who="Q6043377">
+            <seg>
               Fru talman! Sverige är ett land som de kommande åren har stora
               samhällsproblem att ta itu med. I detta läge känner människor
               att politiken inte levererar. Politiken tar inte tag i viktiga,
@@ -1522,28 +1835,32 @@
               Det är så vi bygger ett bättre samhälle, och det är med de reformerna
               Liberalerna vill bygga Sverige starkare.
             </seg>
-            <seg n="1cb7a0d5">
-              (Applåder)
-            </seg>
           </u>
-          <note type="speaker" n="8f710f51">
+          <note>
+            (Applåder)
+          </note>
+          <note type="speaker">
             Anf. 13 JANINE ALM ERICSON (MP):
           </note>
-          <u who="Q18238692" xml:id="i-aaf523e64e44c316-0" n="53d2c8ef" next="i-90745325cd056a36-0">
-            <seg n="8cd9e06d">
+          <u xml:id="i-42ffa84fb1231c55-170" next="i-42ffa84fb1231c55-183" who="Q18238692">
+            <seg>
               Fru talman! Sverige är i ett nytt, hittills oprövat läge, och
               det är viktigt att vi alla tar ansvar i den situation vi nu befinner
               oss i. Därför har övergångsregeringen haft samtal med de borgerliga
               partierna och Vänsterpartiet om principerna för den budget som
               vi presenterade i dag.
             </seg>
-            <seg n="c3348278">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-171" prev="i-42ffa84fb1231c55-170" who="Q18238692">
+            <seg>
               Resultatet är det som nu läggs på kammarens bord. Det är inte
               vår önskebudget. Det är ett dokument som säkerställer att statens
               verksamheter ska kunna fungera tills en ny regering är på plats
               och är fri att presentera sin egen ekonomiska politik.
             </seg>
-            <seg n="f04fab44">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-172" prev="i-42ffa84fb1231c55-170" who="Q18238692">
+            <seg>
               Det vi bör fokusera på är att få en ny regering. Så länge riksdagen
               inte beslutat om en sådan är det heller inte rimligt att riksdagen
               binder upp den med en redan fastställd ekonomisk politik. Men
@@ -1551,7 +1868,9 @@
               del av den ekonomiska politik Miljöpartiet vill att en ny regering
               ska föra.
             </seg>
-            <seg n="903329c4">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-173" prev="i-42ffa84fb1231c55-170" who="Q18238692">
+            <seg>
               Fru talman! Läget för planeten är mycket oroande. Dagligen får
               vi rapporter om tillstånd som inte förbättras utan tvärtom försämras.
               Vi måste nu jobba ännu hårdare för att bygga ett bättre samhälle
@@ -1563,7 +1882,9 @@
               att växa upp och leva fria liv på en frisk planet med ett rikt
               växt ‑ och djurliv.
             </seg>
-            <seg n="b6985eda">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-174" prev="i-42ffa84fb1231c55-170" who="Q18238692">
+            <seg>
               Men klimatförändringarna är här och nu. Isarna smälter, och torkan
               breder ut sig. Det har jag sagt många gånger förut i den här kammaren.
               Larmrapporterna är många, men länge var de uppenbara problemen
@@ -1572,21 +1893,27 @@
               uppenbara och påtagliga för allt fler, och behovet av att ställa
               om för att få ned utsläppen blir allt större.
             </seg>
-            <seg n="3a18f70e">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-175" prev="i-42ffa84fb1231c55-170" who="Q18238692">
+            <seg>
               Fru talman! I våra barnbarns framtida Sverige körs inga bilar
               på bensin eller andra fossila drivmedel. Vi har tåg som går i
               tid och som rullar snabbt fram på höghastighetsbanor. Regeringen
               sjösatte förra mandatperioden flera viktiga reformer för att minska
               utsläppen från transportsektorn, men mer måste göras.
             </seg>
-            <seg n="595546ec">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-176" prev="i-42ffa84fb1231c55-170" who="Q18238692">
+            <seg>
               I våra barnbarns framtida Sverige äter vi klimatsmart och ekologisk
               mat – mat som är bra för såväl människa som planet. Självklart
               ska det offentliga ta ansvar genom att bara köpa in mat som producerats
               på sådana villkor som gäller i Sverige men också genom att främja
               klimatsmart och ekologisk konsumtion med politiska styrmedel.
             </seg>
-            <seg n="176904f4">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-177" prev="i-42ffa84fb1231c55-170" who="Q18238692">
+            <seg>
               Fru talman! I våra barnbarns framtida Sverige slipper vi oroa
               oss för döende havsbottnar och sjuka korallrev. För att vi ska
               nå dit måste spridningen av plast, gifter och skadliga ämnen till
@@ -1596,7 +1923,9 @@
               ryggradsdjur i världen minskat med 60 procent på 40 år! Nu krävs
               snabba politiska åtgärder.
             </seg>
-            <seg n="3dc819f3">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-178" prev="i-42ffa84fb1231c55-170" who="Q18238692">
+            <seg>
               Fru talman! I våra barnbarns framtida Sverige tar vi hand om
               varandra lika mycket som vi tar hand om vår planet. Vi måste förändra
               det ekonomiska systemet i grunden och skapa en cirkulär ekonomi.
@@ -1604,7 +1933,9 @@
               mer och jobbar mindre, och vi gör så att det blir dyrare att göra
               sådant som är dåligt för miljön än det som är bra.
             </seg>
-            <seg n="469336c0">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-179" prev="i-42ffa84fb1231c55-170" who="Q18238692">
+            <seg>
               Samtidigt som vi måste lösa de stora framtidsfrågorna för planeten
               måste vi också ha en politik för här och nu. Det är för många
               barn som inte mår bra och lider av psykisk ohälsa. Det måste förebyggas
@@ -1613,7 +1944,9 @@
               lyckas och utveckla sina talanger. Vi har genomfört stora satsningar
               på skolan under den gångna mandatperioden, men mer behöver göras.
             </seg>
-            <seg n="a0ee1b92">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-180" prev="i-42ffa84fb1231c55-170" who="Q18238692">
+            <seg>
               Sverige spelar en viktig roll för en öppen och fredlig värld.
               I en tid där högerextrema och odemokratiska krafter växer fram
               är det viktigare än någonsin att vi står upp för demokrati, mänskliga
@@ -1621,231 +1954,235 @@
               med en human flyktingpolitik som värnar asylrätten och ger familjer
               rätt och möjlighet att återförenas.
             </seg>
-            <seg n="c974b34c">
+          </u>
+          <u xml:id="i-42ffa84fb1231c55-181" prev="i-42ffa84fb1231c55-170" who="Q18238692">
+            <seg>
               När andra länder förnekat klimathotet har Sverige visat ledarskap.
               Vi vill att Sverige ska vara en föregångare och påtryckare i det
               globala miljöarbetet, och den uppgiften är viktigare än någonsin.
             </seg>
-            <seg n="1cb7a0d5">
-              (Applåder)
-            </seg>
           </u>
-          <note n="8be19173">
+          <note>
+            (Applåder)
+          </note>
+          <note>
             I detta anförande instämde Jonas Eriksson (MP).
           </note>
-          <note n="ec7c1aab">
+          <note>
             Debatten med anledning av budgetpropositionens avlämnande var
             härmed avslutad.
           </note>
-          <note n="7346cf65">
+          <note>
             Budgetpropositionen bordlades.
           </note>
-          <note n="8d4c4632">
+          <note>
             § 2 Anmälan om kompletteringsval
           </note>
-          <note n="1929f4ca">
+          <note>
             Förste vice talmannen meddelade att Moderaternas riksdagsgrupp
             anmält Magdalena Schröder som suppleant i utrikesutskottet .
           </note>
-          <note n="d6787482">
+          <note>
             Förste vice talmannen förklarade vald till
           </note>
-          <note n="ee8bd10e">
+          <note>
             suppleant i utrikesutskottet
           </note>
-          <u who="Q18238692" xml:id="i-90745325cd056a36-0" n="53d2c8ef" prev="i-aaf523e64e44c316-0">
-            <seg n="633b224d">
-              Magdalena Schröder (M)
-            </seg>
-            <seg n="2c0b78e4">
-              2018/19:3 Vård för personer med missbruk och psykisk sjukdom
-            </seg>
-            <seg n="1b9ce859">
-              Anf. 3 OSCAR SJÖSTEDT (SD) replik
-            </seg>
-            <seg n="57cafa51">
-              Anf. 5 OSCAR SJÖSTEDT (SD) replik
-            </seg>
-            <seg n="079229a9">
-              Anf. 10 ULLA ANDERSSON (V)
-            </seg>
-            <seg n="9652f449">
-              Anf. 12 MATS PERSSON (L)
-            </seg>
-          </u>
-          <note n="0d530209">
+          <note>
+            Magdalena Schröder (M)
+          </note>
+          <note>
             § 3 Utökning av antalet suppleanter
           </note>
-          <note n="a606612e">
+          <note>
             Valberedningen hade, enligt ett till kammaren inkommet protokollsutdrag,
             tillstyrkt att antalet suppleanter i EU-nämnden skulle utökas
             från 67 till 72.
           </note>
-          <note n="d3d20a82">
+          <note>
             Kammaren medgav denna utökning.
           </note>
-          <note n="53cba891">
+          <note>
             § 4 Val av extra suppleanter
           </note>
-          <note n="c56ddbb2">
+          <note>
             Val av extra suppleanter företogs.
           </note>
-          <note n="41bfc70b">
+          <note>
             Kammaren valde i enlighet med valberedningens förslag till
           </note>
-          <note n="f1c44962">
+          <note>
             suppleanter i EU-nämnden
           </note>
-          <note n="4057d5de">
+          <note>
             Barbro Westerholm (L)
           </note>
-          <note n="792df694">
+          <note>
             Gulan Avci (L)
           </note>
-          <note n="2fc19d09">
+          <note>
             Mats Persson (L)
           </note>
-          <note n="e27a3c96">
+          <note>
             Johan Pehrson (L)
           </note>
-          <note n="dd4a14ce">
+          <note>
             Arman Teimouri (L)
           </note>
-          <note n="db050f6b">
+          <note>
             Lina Nordquist (L)
           </note>
-          <note n="e1c91e84">
+          <note>
             Helena Gellerman (L)
           </note>
-          <note n="4a6f8e4e">
+          <note>
             § 5 Ärenden för hänvisning till utskott
           </note>
-          <note n="37743e7f">
+          <note>
             Följande dokument hänvisades till utskott:
           </note>
-          <note n="a745bfde">
+          <note>
             Skrivelse
           </note>
-          <note n="ed01acd0">
+          <note>
             2018/19:14 till socialförsäkringsutskottet
           </note>
-          <note n="452096f8">
+          <note>
             Redogörelse
           </note>
-          <note n="fb41d739">
+          <note>
             2018/19:JO1 till konstitutionsutskottet
           </note>
-          <note n="faa7d619">
+          <note>
             § 6 Bordläggning
           </note>
-          <note n="1a390e0f">
+          <note>
             Följande dokument anmäldes och bordlades:
           </note>
-          <note n="36d503d8">
+          <note>
             Proposition
           </note>
-          <note n="506f3518">
+          <note>
             2018/19:2 Höständringsbudget för 2018
           </note>
-          <note n="184fccfb">
+          <note>
             § 7 Anmälan om uteblivet svar på skriftlig fråga
           </note>
-          <note n="9f12670a">
+          <note>
             Förste vice talmannen anmälde att följande fråga för skriftligt
             svar hade framställts och inte skulle besvaras:
           </note>
-          <note n="375b6fba">
+          <note>
             den 14 november
           </note>
-          <note n="d2bda379">
+          <note>
+            2018/19:3 Vård för personer med missbruk och psykisk sjukdom
+          </note>
+          <note>
             av Jonas Eriksson (MP)
           </note>
-          <note n="58575961">
+          <note>
             till socialminister Annika Strandhäll (S)
           </note>
-          <note n="4d7164fe">
+          <note>
             § 8 Kammaren åtskildes kl. 14.26 .
           </note>
-          <note n="685b52a0">
+          <note>
             Sammanträdet leddes
           </note>
-          <note n="b1011ff6">
+          <note>
             av förste vice talmannen från dess början till och med § 1 anf.
             2 (delvis) ,
           </note>
-          <note n="14da6d90">
+          <note>
             av ålderspresidenten därefter till och med § 1 anf. 11 (delvis)
             och
           </note>
-          <note n="b7f27f2e">
+          <note>
             av förste vice talmannen därefter till dess slut.
           </note>
-          <note n="845e4229">
+          <note>
             Vid protokollet
           </note>
-          <note n="a2701c9a">
+          <note>
             INGVAR MATTSON
           </note>
-          <note n="49889c47">
+          <note>
             /Olof Pilo
           </note>
-          <note n="ee9e9a0d">
+          <note>
             Innehållsförteckning
           </note>
-          <note n="b7273093">
+          <note>
             § 1 Debatt med anledning av budgetpropositionens avlämnande
           </note>
-          <note n="031a1d97">
-            Anf. 1 Finansminister MAGDALENA ANDERSSON (S)
-          </note>
-          <note n="bdfe805f">
+          <u xml:id="i-42ffa84fb1231c55-182" prev="i-42ffa84fb1231c55-170" who="Q18238692">
+            <seg>
+              Anf. 1 Finansminister MAGDALENA ANDERSSON (S)
+            </seg>
+          </u>
+          <note>
             Anf. 2 FREDRIK OLOVSSON (S)
           </note>
-          <note n="1e46b08e">
+          <note>
+            Anf. 3 OSCAR SJÖSTEDT (SD) replik
+          </note>
+          <note>
             Anf. 4 FREDRIK OLOVSSON (S) replik
           </note>
-          <note n="7d7daade">
+          <note>
+            Anf. 5 OSCAR SJÖSTEDT (SD) replik
+          </note>
+          <note>
             Anf. 6 FREDRIK OLOVSSON (S) replik
           </note>
-          <note n="7561eb7e">
+          <note>
             Anf. 7 ELISABETH SVANTESSON (M)
           </note>
-          <note n="83c82537">
+          <note>
             Anf. 8 OSCAR SJÖSTEDT (SD)
           </note>
-          <note n="b88c9bdc">
+          <note>
             Anf. 9 EMIL KÄLLSTRÖM (C)
           </note>
-          <note n="35e4bdf1">
+          <note>
+            Anf. 10 ULLA ANDERSSON (V)
+          </note>
+          <note>
             Anf. 11 JAKOB FORSSMED (KD)
           </note>
-          <note n="75b086ac">
+          <note>
+            Anf. 12 MATS PERSSON (L)
+          </note>
+          <note>
             Anf. 13 JANINE ALM ERICSON (MP)
           </note>
-          <note n="8d4c4632">
+          <note>
             § 2 Anmälan om kompletteringsval
           </note>
-          <note n="0d530209">
+          <note>
             § 3 Utökning av antalet suppleanter
           </note>
-          <note n="53cba891">
+          <note>
             § 4 Val av extra suppleanter
           </note>
-          <note n="4a6f8e4e">
+          <note>
             § 5 Ärenden för hänvisning till utskott
           </note>
-          <note n="faa7d619">
+          <note>
             § 6 Bordläggning
           </note>
-          <note n="184fccfb">
+          <note>
             § 7 Anmälan om uteblivet svar på skriftlig fråga
           </note>
-          <note n="39b12c87">
+          <note>
             § 8 Kammaren åtskildes kl. 14.26.
           </note>
-          <note n="b2ff4009">
-            Tryck: Elanders Sverige AB, Vällingby 2018
-          </note>
+          <u xml:id="i-42ffa84fb1231c55-183" prev="i-42ffa84fb1231c55-170" who="Q18238692">
+            <seg>
+              Tryck: Elanders Sverige AB, Vällingby 2018
+            </seg>
+          </u>
         </div>
       </body>
     </text>

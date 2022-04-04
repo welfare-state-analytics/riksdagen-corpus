@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2011</title>
+        <title>Riksdagens protocols 201112</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2011</title>
+          <title>Riksdagens protocols 201112</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -63,61 +60,60 @@
       </front>
       <body>
         <div>
-          <note n="c7e44777">
-            ﻿
-          </note>
-          <note n="26cef859">
+          <note>
             Riksdagens protokoll
           </note>
-          <note n="69a16f47">
+          <note>
             2011/12:59
           </note>
-          <note type="date" n="1daeee97">
+          <note>
             Fredagen den 20 januari
           </note>
-          <note n="afec45f7">
+          <note>
             Kl. 09:00 - 09:44
           </note>
-          <note n="94ac3a69">
+          <note>
             1 § Anmälan om inkomna protokollsutdrag från utskott
           </note>
-          <note n="68e7dea5">
+          <note>
             Förste vice talmannen anmälde att utdrag ur prot. 2011/12:13
             för torsdagen den 19 januari i ärende om subsidiaritetsprövning
             av EU-förslag inkommit från civilutskottet.
           </note>
-          <note n="62823dae">
+          <note>
             2 § Anmälan om inkomna faktapromemorior om förslag från Europeiska
             kommissionen
           </note>
-          <note n="99cb4522">
+          <note>
             Förste vice talmannen anmälde att följande faktapromemorior om
             förslag från Europeiska kommissionen inkommit och överlämnats
             till utskott:
           </note>
-          <note n="fdaa3fc9">
+          <note>
             KOM(2011)880
           </note>
-          <note n="f4227be5">
-            KOM(2011)890
-          </note>
-          <note n="80d777e4">
+          <u xml:id="i-0c610aa38b271380-0" who="unknown">
+            <seg>
+              KOM(2011)890
+            </seg>
+          </u>
+          <note>
             3 § Hänvisning av ärende till utskott
           </note>
-          <note n="62a4ebde">
+          <note>
             Föredrogs och hänvisades
           </note>
-          <note n="9a3a0a53">
+          <note>
             den 15 mars
           </note>
-          <note n="1483f995">
+          <note>
             4 § Svar på interpellation 2011/12:173 om förslaget till ny djurskyddslag
           </note>
-          <note type="speaker" n="ec36a169">
+          <note type="speaker">
             Anf. 1 Landsbygdsminister ESKIL ERLANDSSON (C):
           </note>
-          <u who="Q3058054" xml:id="i-ccce35d3899b6b0f-0" n="7883f5a0">
-            <seg n="f092a26d">
+          <u xml:id="i-0c610aa38b271380-1" next="i-0c610aa38b271380-5" who="Q3058054">
+            <seg>
               Fru talman! Jens Holm har frågat mig om jag anser att förslaget
               till en ny definition av djurförsök innebär en förstärkning av
               djurskyddet och, om inte, hur jag ställer mig till Djurskyddsutredningens
@@ -129,7 +125,9 @@
               för att klara det merarbete som Djurskyddsutredningens förslag
               innebär.
             </seg>
-            <seg n="d2b74571">
+          </u>
+          <u xml:id="i-0c610aa38b271380-2" prev="i-0c610aa38b271380-1" who="Q3058054">
+            <seg>
               Regeringens tillsättande av Djurskyddsutredningen innebar den
               mest omfattande översynen av djurskyddslagstiftningen på över
               20 år. Utredningen har arbetat med sitt uppdrag i över två års
@@ -137,14 +135,18 @@
               som är mycket omfångsrikt och som innehåller förslag till genomgripande
               ändringar på området.
             </seg>
-            <seg n="c21bf513">
+          </u>
+          <u xml:id="i-0c610aa38b271380-3" prev="i-0c610aa38b271380-1" who="Q3058054">
+            <seg>
               Som Jens Holm kanske vet innehåller regeringsformen ett krav
               på att regeringsärenden ska beredas. När det gäller förslag till
               lagändringar uppfylls det kravet genom en remittering till de
               myndigheter, organisationer och andra som kan bli berörda av ändringarna
               för att få in deras synpunkter.
             </seg>
-            <seg n="43fcbb00">
+          </u>
+          <u xml:id="i-0c610aa38b271380-4" prev="i-0c610aa38b271380-1" who="Q3058054">
+            <seg>
               Utredningens förslag kommer inom kort att skickas ut på remiss,
               och jag väntar med stort intresse på att få ta del av remissinstansernas
               synpunkter. Nästa steg blir att noggrant överväga och analysera
@@ -152,7 +154,9 @@
               kan jag i dag inte ge Jens Holm några klara besked om hur regeringen
               kommer att gå vidare med utredningens förslag.
             </seg>
-            <seg n="f8d32101">
+          </u>
+          <u xml:id="i-0c610aa38b271380-5" prev="i-0c610aa38b271380-1" who="Q3058054">
+            <seg>
               Frågor om djurskydd är viktiga och angelägna för mig och för
               regeringen, och de behöver diskuteras. Jag vill gärna debattera
               djurskyddsfrågorna här i riksdagen och i andra forum med Jens
@@ -160,11 +164,11 @@
               gärna vid ett tillfälle när jag har möjlighet att ge besked.
             </seg>
           </u>
-          <note type="speaker" n="3e08c19d">
+          <note type="speaker">
             Anf. 2 JENS HOLM (V):
           </note>
-          <u who="Q946708" xml:id="i-9f5359136a02eaa0-0" n="b2173fa2">
-            <seg n="45add4b4">
+          <u xml:id="i-0c610aa38b271380-6" next="i-0c610aa38b271380-13" who="Q946708">
+            <seg>
               Fru talman! Jag tackar Eskil Erlandsson för svaret. Jag instämmer
               i att det är en omfattande och gedigen utredning om den nya djurskyddslagen
               som vi debatterar i dag. Arbetet har pågått i nästan två år, och
@@ -172,20 +176,26 @@
               är anhängare av att djuren ska ha det bra i Sverige välkomnar
               detta gedigna arbete.
             </seg>
-            <seg n="ca1ec9e3">
+          </u>
+          <u xml:id="i-0c610aa38b271380-7" prev="i-0c610aa38b271380-6" who="Q946708">
+            <seg>
               Utgångspunkten för utredningen är bra, nämligen att vi i Sverige
               ska behålla minst samma djurskyddsnivå som i dag. Det får alltså
               inte bli några försämringar för djuren till följd av den nya djurskyddslagen.
               Det känns hoppfullt.
             </seg>
-            <seg n="c3b78dbb">
+          </u>
+          <u xml:id="i-0c610aa38b271380-8" prev="i-0c610aa38b271380-6" who="Q946708">
+            <seg>
               Det är mot denna bakgrund jag har ställt interpellationen. Jag
               har full respekt för att landsbygdsministern vill gå den sedvanliga
               vägen och skicka ut det på remiss och invänta remissinstansernas
               synpunkter. Efter att ha läst utredningsresultatet vill jag dock
               redan nu flagga för några saker som är viktiga att ta upp.
             </seg>
-            <seg n="0d1c7209">
+          </u>
+          <u xml:id="i-0c610aa38b271380-9" prev="i-0c610aa38b271380-6" who="Q946708">
+            <seg>
               Det är bra att utredningen föreslår att uppbindande av djur inte
               ska vara tillåtet i Sverige. Det känns dock som ett tillkortakommande
               att man inte presenterar något datum för när detta ska träda i
@@ -195,28 +205,36 @@
               konkret förbud. Annars tycker jag att det är ett svek mot de hundratusentals
               mjölkkorna i Sverige.
             </seg>
-            <seg n="b2f93769">
+          </u>
+          <u xml:id="i-0c610aa38b271380-10" prev="i-0c610aa38b271380-6" who="Q946708">
+            <seg>
               Det hade också varit bra att ha kvar Djurskyddsmyndigheten i
               Sverige när det nu blir så många uppdrag för Jordbruksverket att
               driva igenom alla föreskrifter och förändringar som utredningen
               föreslår. Ett minimikrav borde vara att anslå mer pengar till
               Jordbruksverket för detta arbete.
             </seg>
-            <seg n="721224ee">
+          </u>
+          <u xml:id="i-0c610aa38b271380-11" prev="i-0c610aa38b271380-6" who="Q946708">
+            <seg>
               Mycket illavarslande i utredningen är att man föreslår en anpassning
               av definitionen av djurförsök till EU. Gör vi om vår svenska definition
               så att den blir likadan som EU-definitionen kommer det att innebära
               att ungefär 500 000 djur inte kommer att omfattas av etisk prövning
               i framtiden.
             </seg>
-            <seg n="c7bf4752">
+          </u>
+          <u xml:id="i-0c610aa38b271380-12" prev="i-0c610aa38b271380-6" who="Q946708">
+            <seg>
               Vad är då etisk prövning? Jo, vill man göra ett djurförsök i
               Sverige måste man ansöka om tillstånd från en djurförsöksetisk
               nämnd. Det finns sju djurförsöksetiska nämnder i Sverige. De godkänner
               eller avslår och kan också presentera konkreta förändringar av
               hur djurförsöket ska utföras.
             </seg>
-            <seg n="f7d08ec8">
+          </u>
+          <u xml:id="i-0c610aa38b271380-13" prev="i-0c610aa38b271380-6" who="Q946708">
+            <seg>
               Om man i Sverige vill föda upp djur för att använda deras organ
               eller vävnader anses det vara ett djurförsök. På EU-nivå är det
               inte ett djurförsök. Det handlar om 140 000 djur varje år som
@@ -227,11 +245,11 @@
               Här vill jag ha ett klart besked av landsbygdsministern.
             </seg>
           </u>
-          <note type="speaker" n="ea1649bc">
+          <note type="speaker">
             Anf. 3 Landsbygdsminister ESKIL ERLANDSSON (C):
           </note>
-          <u who="Q3058054" xml:id="i-ccce35d3899b6b0f-1" n="7883f5a0">
-            <seg n="ea410f0e">
+          <u xml:id="i-0c610aa38b271380-14" next="i-0c610aa38b271380-15" who="Q3058054">
+            <seg>
               Fru talman! Som jag nämnde i mitt inledande svar är denna synnerligen
               omfattande utredning föremål för övervägande om utsändande på
               remiss. I samband med att en utredning går ut på remiss brukar
@@ -240,24 +258,28 @@
               som är av vikt och värde för en enskild människa eller en organisation
               som har ett speciellt intresse.
             </seg>
-            <seg n="cca6923d">
+          </u>
+          <u xml:id="i-0c610aa38b271380-15" prev="i-0c610aa38b271380-14" who="Q3058054">
+            <seg>
               Jag välkomnar att denna typ av inspel och den typ av inspel som
               Jens Holm gör kommer in till mig och departementet i samband med
               att vi skickar ut denna utredning på remiss, vilket alltså görs
               inom en relativ närtid.
             </seg>
           </u>
-          <note type="speaker" n="6ea7984b">
+          <note type="speaker">
             Anf. 4 JENS HOLM (V):
           </note>
-          <u who="Q946708" xml:id="i-9f5359136a02eaa0-1" n="b2173fa2">
-            <seg n="e184b3af">
+          <u xml:id="i-0c610aa38b271380-16" next="i-0c610aa38b271380-23" who="Q946708">
+            <seg>
               Fru talman! Eskil Erlandsson säger i sitt interpellationssvar
               att han gärna vill debattera djurskydd med mig. Jag tycker inte
               att du gör det nu, Eskil Erlandsson. Jag tycker att du duckar
               för några oerhört viktiga frågor för djuren i framtiden.
             </seg>
-            <seg n="3e969a32">
+          </u>
+          <u xml:id="i-0c610aa38b271380-17" prev="i-0c610aa38b271380-16" who="Q946708">
+            <seg>
               Såvitt jag vet förbereder ni på departementet redan nu en EU-anpassning
               av den svenska definitionen av djurförsök. Vid en föredragning
               i december i fjol på Vetenskapsrådet presenterade representanter
@@ -269,14 +291,18 @@
               att den svenska definitionen av djurförsök ska anpassas till EU:s.
               Då har ni ju redan bestämt er.
             </seg>
-            <seg n="dcfd69bc">
+          </u>
+          <u xml:id="i-0c610aa38b271380-18" prev="i-0c610aa38b271380-16" who="Q946708">
+            <seg>
               Är det på det viset handlar det om 500 000 djur i Sverige som
               inte kommer att omfattas av etisk prövning. Det kommer alltså
               inte att göras någon granskning i de sju djurförsöksetiska nämnderna
               runt om i Sverige där man nagelfar ansökningar om djurförsök och
               där man kan stoppa plågsamma djurförsök.
             </seg>
-            <seg n="52087674">
+          </u>
+          <u xml:id="i-0c610aa38b271380-19" prev="i-0c610aa38b271380-16" who="Q946708">
+            <seg>
               Låt mig ta ett konkret exempel på vad det kan handla om. I Sverige
               föder man upp tuppar för att ta deras tuppkammar, mala ned dem
               och pressa fram en syra som kallas hyaluronsyra. Denna syra används
@@ -291,13 +317,17 @@
               säger den djurförsöksetiska nämnden att man ska göra en ny prövning
               av uppfödningen av dessa tuppar.
             </seg>
-            <seg n="8daccb1e">
+          </u>
+          <u xml:id="i-0c610aa38b271380-20" prev="i-0c610aa38b271380-16" who="Q946708">
+            <seg>
               Ifall du får igenom din EU-definition, Eskil, kommer det inte
               att göras någon prövning. Då kastar man ut tiotusentals tuppar
               till ett stort djurplågeri utan att vi har minsta chans att stoppa
               det.
             </seg>
-            <seg n="851af3a9">
+          </u>
+          <u xml:id="i-0c610aa38b271380-21" prev="i-0c610aa38b271380-16" who="Q946708">
+            <seg>
               En annan viktig uppgift för de djurförsöksetiska nämnderna är
               att se till att man verkligen lever upp till de tre r:en att begränsa,
               ersätta och förfina djurförsöken. När nämnderna bedömer en ansökning
@@ -308,22 +338,26 @@
               djur som utsätts för djurförsök och så att själva försöket blir
               mindre plågsamt.
             </seg>
-            <seg n="e91c856a">
+          </u>
+          <u xml:id="i-0c610aa38b271380-22" prev="i-0c610aa38b271380-16" who="Q946708">
+            <seg>
               Om EU-definitionen går igenom har vi varje år 500 000 djur i
               Sverige som inte kommer att få den här bedömningen av begränsning,
               ersättning och förfining av djurförsök.
             </seg>
-            <seg n="9838529c">
+          </u>
+          <u xml:id="i-0c610aa38b271380-23" prev="i-0c610aa38b271380-16" who="Q946708">
+            <seg>
               Nu vill jag ha ett klart besked: Det som sades i december på
               Vetenskapsrådet om att ni ska EU-anpassa den svenska definitionen,
               gäller det eller gäller det inte, Eskil?
             </seg>
           </u>
-          <note type="speaker" n="575244ba">
+          <note type="speaker">
             Anf. 5 Landsbygdsminister ESKIL ERLANDSSON (C):
           </note>
-          <u who="Q3058054" xml:id="i-ccce35d3899b6b0f-2" n="7883f5a0">
-            <seg n="b5415742">
+          <u xml:id="i-0c610aa38b271380-24" next="i-0c610aa38b271380-25" who="Q3058054">
+            <seg>
               Fru talman! Den fråga som framställs omfattas enligt min uppfattning
               inte av den interpellation som är föremål för debatt i dag. Men
               jag vill ändå säga att i den departementsskrivelse som är utarbetad
@@ -335,7 +369,9 @@
               ställning, eftersom vi nyligen har fått in remissvaren, till vilken
               definition vi ska använda.
             </seg>
-            <seg n="c6e2892f">
+          </u>
+          <u xml:id="i-0c610aa38b271380-25" prev="i-0c610aa38b271380-24" who="Q3058054">
+            <seg>
               Det stämmer dock som Jens Holm säger: Den nuvarande definitionen
               i EU:s djurförsöksdirektiv omfattar inte djur som avlivas för
               att man ska använda deras organ eller vävnader. En viktig skillnad
@@ -347,11 +383,11 @@
               tycker jag faktiskt är bra, Jens Holm.
             </seg>
           </u>
-          <note type="speaker" n="a73643c0">
+          <note type="speaker">
             Anf. 6 JENS HOLM (V):
           </note>
-          <u who="Q946708" xml:id="i-9f5359136a02eaa0-2" n="b2173fa2">
-            <seg n="9fdaa7a4">
+          <u xml:id="i-0c610aa38b271380-26" next="i-0c610aa38b271380-28" who="Q946708">
+            <seg>
               Fru talman! Jag tycker självklart också att det är bra, Eskil
               Erlandsson, att man när någon håller djur för att i framtiden
               göra djurförsök på dem har krav för hur djuren ska hållas. Men
@@ -359,14 +395,18 @@
               för Sverige. Det är inte alla länder som har en etisk prövning
               innan man gör djurförsök.
             </seg>
-            <seg n="ecd2134e">
+          </u>
+          <u xml:id="i-0c610aa38b271380-27" prev="i-0c610aa38b271380-26" who="Q946708">
+            <seg>
               I det uppdrag som ni har gett till utredaren står det att djurskyddsnivån
               i Sverige inte ska försämras. Det är ett grundkriterium. Om ni
               EU-harmoniserar definitionen av djurförsök handlar det om 500
               000 djur som inte kommer att omfattas av etisk prövning och därmed
               får ett sämre skydd i framtiden.
             </seg>
-            <seg n="4a28c13f">
+          </u>
+          <u xml:id="i-0c610aa38b271380-28" prev="i-0c610aa38b271380-26" who="Q946708">
+            <seg>
               Det här, Eskil Erlandsson, är ett medskick från mig och Vänsterpartiet:
               EU-harmonisera inte definitionen av djurförsök! Se till att vi
               bibehåller den etiska prövningen för alla djur som utsätts för
@@ -374,18 +414,20 @@
               deras organ och vävnader!
             </seg>
           </u>
-          <note type="speaker" n="6e66fc02">
+          <note type="speaker">
             Anf. 7 Landsbygdsminister ESKIL ERLANDSSON (C):
           </note>
-          <u who="Q3058054" xml:id="i-ccce35d3899b6b0f-3" n="7883f5a0">
-            <seg n="ded67fe3">
+          <u xml:id="i-0c610aa38b271380-29" next="i-0c610aa38b271380-30" who="Q3058054">
+            <seg>
               Fru talman! Låt mig inledningsvis i mitt slutanförande i denna
               debatt tacka för interpellationen. Jag intresserar mig otroligt
               mycket för den här typen av frågor. Jag tycker att de är viktiga.
               De är viktiga för människor som håller djur, men de är självklart
               mest viktiga för de djur som hålls i människors hem och hägn.
             </seg>
-            <seg n="d45ee7de">
+          </u>
+          <u xml:id="i-0c610aa38b271380-30" prev="i-0c610aa38b271380-29" who="Q3058054">
+            <seg>
               Så till den fråga som nu är föremål för diskussion, nämligen
               försöksdjuren. Jag upprepar vad jag sade: I den departementsskrivelse
               som är utarbetad på departementet föreslås ingen ändring. Däremot
@@ -397,24 +439,26 @@
               det varit allmänt känt. Men jag noterar Jens Holms inställning
               i den här frågeställningen.
             </seg>
-            <seg n="aa912759">
-              Tack, fru talman, för den här debatten!
-            </seg>
           </u>
-          <note n="c62af309">
+          <note>
+            Tack, fru talman, för den här debatten!
+          </note>
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="3061c02f">
+          <note>
             5 § Svar på interpellation 2011/12:188 om försäljning av Bilprovningen
           </note>
-          <note type="speaker" n="c5b1dac9">
+          <note type="speaker">
             Anf. 8 Statsrådet PETER NORMAN (M):
           </note>
-          <u who="Q3209237" xml:id="i-ccce35d3899b6b0f-4" n="0578a974">
-            <seg n="da4c117a">
+          <u xml:id="i-0c610aa38b271380-31" next="i-0c610aa38b271380-34" who="Q3209237">
+            <seg>
               Fru talman! Leif Pettersson har frågat mig
             </seg>
-            <seg n="9222d185">
+          </u>
+          <u xml:id="i-0c610aa38b271380-32" prev="i-0c610aa38b271380-31" who="Q3209237">
+            <seg>
               Själva syftet med att konkurrensutsätta fordonsbesiktningen är
               att skapa en väl fungerande marknad med effektiv konkurrens som
               ger valfrihet och möjlighet för kunderna att påverka serviceutbudet,
@@ -425,7 +469,9 @@
               av personbil varierar mellan de olika aktörerna just beroende
               av serviceutbudet såsom till exempel drop-in-service.
             </seg>
-            <seg n="581eb8fc">
+          </u>
+          <u xml:id="i-0c610aa38b271380-33" prev="i-0c610aa38b271380-31" who="Q3209237">
+            <seg>
               Vad gäller risken för privata monopol har grupperingen av stationer
               för försäljning så långt möjligt avpassats så att den skapar konkurrens
               på såväl nationell och regional som lokal nivå. Bilprovningens
@@ -437,7 +483,9 @@
               kommer i denna egenskap att verka för att Bilprovningen genom
               ett ansvarsfullt agerande behåller sina kunders förtroende.
             </seg>
-            <seg n="074e54e8">
+          </u>
+          <u xml:id="i-0c610aa38b271380-34" prev="i-0c610aa38b271380-31" who="Q3209237">
+            <seg>
               Den försäljningsmetod som kommer att tillämpas är en öppen auktion.
               Det säkerställer att de intressenter på marknaden som betalar
               bäst får köpa bolaget. Vi ska inte heller glömma att det vid sidan
@@ -446,15 +494,17 @@
               Viktigt att notera är att försäljningen sköts av bolaget självt.
             </seg>
           </u>
-          <note type="speaker" n="dff5ddea">
+          <note type="speaker">
             Anf. 9 LEIF PETTERSSON (S):
           </note>
-          <u who="Q3373346" xml:id="i-81c8853d2321baaa-0" n="b9817ead">
-            <seg n="dc2e89ce">
+          <u xml:id="i-0c610aa38b271380-35" next="i-0c610aa38b271380-44" who="Q3373346">
+            <seg>
               Fru talman! Jag tackar naturligtvis för svaret, även om det varken
               gör mig lugnare eller klokare.
             </seg>
-            <seg n="e5f09286">
+          </u>
+          <u xml:id="i-0c610aa38b271380-36" prev="i-0c610aa38b271380-35" who="Q3373346">
+            <seg>
               Under den förra mandatperioden kom det helt plötsligt propåer
               från regeringen att Bilprovningen skulle avregleras, och man skulle
               släppa in privata aktörer inom denna verksamhet. Trots ett massivt
@@ -463,7 +513,9 @@
               få sitt fordon besiktigat. Exemplen från liknande experiment i
               vår närhet, nämligen Finland, förskräckte.
             </seg>
-            <seg n="15ea1b1f">
+          </u>
+          <u xml:id="i-0c610aa38b271380-37" prev="i-0c610aa38b271380-35" who="Q3373346">
+            <seg>
               Beslutet var dock redan fattat när förslaget gick ut denna ideologiskt
               motiverade privatisering skulle genomföras. Men vad hände? Döm
               om regeringens förskräckelse när det visade sig att i stort sett
@@ -474,7 +526,9 @@
               var alltså ett mycket bra betyg åt den verksamhet som redan fanns
               i stort sett i varje kommun i Sverige.
             </seg>
-            <seg n="bdf87e17">
+          </u>
+          <u xml:id="i-0c610aa38b271380-38" prev="i-0c610aa38b271380-35" who="Q3373346">
+            <seg>
               Fru talman! Vad gör regeringen då? Man kunde ju tycka att den
               borde ta det till intäkt för att det är en bra verksamhet till
               gagn för medborgarna som bedrivs av AB Svensk Bilprovning men
@@ -482,7 +536,9 @@
               ideologiska grunder sälja ut två tredjedelar av stationsnätet.
               För mig är detta inget mindre än en skandal.
             </seg>
-            <seg n="8923b418">
+          </u>
+          <u xml:id="i-0c610aa38b271380-39" prev="i-0c610aa38b271380-35" who="Q3373346">
+            <seg>
               Det man nu kommer att skapa är privata monopol på många orter
               runt om i Sverige. Det kommer inte att finnas någon annan än den
               privata bilbesiktningen att gå till. Enligt AB Svensk Bilprovnings
@@ -494,7 +550,9 @@
               ledarsida och den brukar inte direkt protestera mot privatiseringar
               anser att detta inte bör genomföras.
             </seg>
-            <seg n="df9d7ba3">
+          </u>
+          <u xml:id="i-0c610aa38b271380-40" prev="i-0c610aa38b271380-35" who="Q3373346">
+            <seg>
               Vi kan också se vad som har hänt i Finland efter att privatiseringen
               varit i drift några år. Priset på en vanlig besiktning utanför
               storstadsregionerna har ökat från 22 till 83 euro nästan 400 procent.
@@ -503,23 +561,29 @@
               som tagit fram dessa siffror. Det är dessutom så att priset har
               ökat mer på orter utanför storstadsområdena än i Helsingfors.
             </seg>
-            <seg n="b8e4ad7c">
+          </u>
+          <u xml:id="i-0c610aa38b271380-41" prev="i-0c610aa38b271380-35" who="Q3373346">
+            <seg>
               I Danmark hade man klokheten att införa ett pristak, så där har
               priset inte ökat lika dramatiskt som i Finland. Priset har dock
               nästan fördubblats efter privatiseringen. Något pristak planeras
               mig veterligen inte i Sverige.
             </seg>
-            <seg n="0667d140">
+          </u>
+          <u xml:id="i-0c610aa38b271380-42" prev="i-0c610aa38b271380-35" who="Q3373346">
+            <seg>
               Det har heller inte varit så att ministerns partikamrater alltid
               har tagit ut marknadsmässiga priser vid utförsäljningar. Vi har
-              många exempel bland annat i Helsingforssregionen. I detta fall
-              förutsätter jag att revisorer eller andra med insikt om det verkliga
-              värdet för de stationer som ska säljas får medverka vid värderingen
-              av stationerna. Risken är ju uppenbar att det pris som sätts blir
+              många exempel bland annat i Stockholmsregionen. I detta fall förutsätter
+              jag att revisorer eller andra med insikt om det verkliga värdet
+              för de stationer som ska säljas får medverka vid värderingen av
+              stationerna. Risken är ju uppenbar att det pris som sätts blir
               för lågt bara för att attrahera marknaden, och en auktion är knappast
               en garanti för någonting annat än att lägsta pris vinner.
             </seg>
-            <seg n="a2eb4d3a">
+          </u>
+          <u xml:id="i-0c610aa38b271380-43" prev="i-0c610aa38b271380-35" who="Q3373346">
+            <seg>
               Jag tycker alltså inte om förslaget att sälja ut, men om man
               nu ska sälja får det inte ske till underpris. Dessutom finns det
               risk att den som köper besiktningsstationer kanske på sikt tycker
@@ -527,34 +591,40 @@
               stationer. Detta kan innebära att fordonsägare kan få långa avstånd
               till besiktningsstationen.
             </seg>
-            <seg n="0f4488d7">
+          </u>
+          <u xml:id="i-0c610aa38b271380-44" prev="i-0c610aa38b271380-35" who="Q3373346">
+            <seg>
               Peter Norman, är det verkligen lämpligt att lägga över en så
               viktig funktion som kontroll av fordons trafikduglighet och avgasrening
               på privata aktörer?
             </seg>
           </u>
-          <note type="speaker" n="2e1bd0fa">
+          <note type="speaker">
             Anf. 10 JENS HOLM (V):
           </note>
-          <u who="Q946708" xml:id="i-9f5359136a02eaa0-3" n="b2173fa2">
-            <seg n="74eaaf6b">
+          <u xml:id="i-0c610aa38b271380-45" next="i-0c610aa38b271380-49" who="Q946708">
+            <seg>
               Fru talman! Jag vill tacka Leif Pettersson för en väldigt viktig
               interpellation. Jag tycker att den lyfter fram frågan varför man
               ska sälja ut statliga företag över huvud taget, och det tycker
               jag är en fråga som den här regeringen alltför sällan behöver
               svara på.
             </seg>
-            <seg n="a0cad648">
+          </u>
+          <u xml:id="i-0c610aa38b271380-46" prev="i-0c610aa38b271380-45" who="Q946708">
+            <seg>
               Jag kan ha viss förståelse ifall det är verksamheter som fungerar
               illa eller om man tycker att det är helt felaktigt med ett stort
               statligt monopol. I detta fall talar vi dock om Bilprovningen.
               Vi talar om en verksamhet som fungerar alldeles exemplariskt.
-              Jag blir kallad en gång per år av Bilprovningen i Helsingfors.
-              Det kostar mig 300 kronor att få min bil besiktigad. Det finns
-              gott om tider, och det är lätt att ändra tid jag ringer eller
-              ändrar på internet.
+              Jag blir kallad en gång per år av Bilprovningen i Stockholm. Det
+              kostar mig 300 kronor att få min bil besiktigad. Det finns gott
+              om tider, och det är lätt att ändra tid jag ringer eller ändrar
+              på internet.
             </seg>
-            <seg n="09ed3181">
+          </u>
+          <u xml:id="i-0c610aa38b271380-47" prev="i-0c610aa38b271380-45" who="Q946708">
+            <seg>
               Detta är en otroligt viktig verksamhet; det tror jag att vi alla
               är överens om. Det är en säkerhetsfråga, och det är god service
               för alla bilägare i Sverige. Det är också en miljöfråga Bilprovningen
@@ -563,7 +633,9 @@
               Europa. De aktörer som är involverade i detta säger att de också
               är väldigt nöjda.
             </seg>
-            <seg n="a6321358">
+          </u>
+          <u xml:id="i-0c610aa38b271380-48" prev="i-0c610aa38b271380-45" who="Q946708">
+            <seg>
               Jag vill alltså fråga Peter Norman: Varför ska ni privatisera
               Bilprovningen? Vad är mervärdet för svenska folket när ni säljer
               ut denna verksamhet? Vi ser av annan erfarenhet vi har av privatiserad
@@ -573,18 +645,20 @@
               kanalen som slutar som ägare. De har ett enda mål, och det är
               maximal vinst inte att leverera bästa tänkbara service.
             </seg>
-            <seg n="155f6c9d">
+          </u>
+          <u xml:id="i-0c610aa38b271380-49" prev="i-0c610aa38b271380-45" who="Q946708">
+            <seg>
               Också utifrån exemplet Finland, där priserna har gått upp otroligt
               mycket och på vissa ställen fyrdubblats, vill jag fråga: Vad är
               poängen med att privatisera? Vad kommer svenska folket att vinna
               på detta?
             </seg>
           </u>
-          <note type="speaker" n="3f67ddbc">
+          <note type="speaker">
             Anf. 11 Statsrådet PETER NORMAN (M):
           </note>
-          <u who="Q3209237" xml:id="i-ccce35d3899b6b0f-5" n="0578a974">
-            <seg n="518e9283">
+          <u xml:id="i-0c610aa38b271380-50" next="i-0c610aa38b271380-57" who="Q3209237">
+            <seg>
               Fru talman! Jag vill tacka Leif Pettersson för interpellationen
               och också Jens Holm för sant engagemang i frågan. Bilprovningen
               är en institution som väldigt många svenskar har en relation till,
@@ -593,7 +667,9 @@
               utförsäljningen allmänt, alltså det som både Leif Pettersson och
               Jens Holm har tagit upp.
             </seg>
-            <seg n="92443476">
+          </u>
+          <u xml:id="i-0c610aa38b271380-51" prev="i-0c610aa38b271380-50" who="Q3209237">
+            <seg>
               Det finns ingen ideologisk överbyggnad i utförsäljningarna. Det
               finns bara det vi tycker är viktigt, nämligen att bejaka allmänintresset.
               Tittar man på statens företagsgrupp ser man att den i dag består
@@ -603,7 +679,9 @@
               Det är alltså den i särklass största företagsgruppen i Sverige
               som är i statlig ägo.
             </seg>
-            <seg n="c1d73895">
+          </u>
+          <u xml:id="i-0c610aa38b271380-52" prev="i-0c610aa38b271380-50" who="Q3209237">
+            <seg>
               Så är det nu, och så kommer det att vara under överskådlig tid
               trots att vi har haft fem år med denna regering. Det är fakta.
               Det finns alltså inte något slags ideologi som säger att vi ska
@@ -611,7 +689,9 @@
               är ett fantastiskt bolag. Jag har redan varit där ett antal gånger
               under min tid som ansvarig minister för detta bolag.
             </seg>
-            <seg n="110053c6">
+          </u>
+          <u xml:id="i-0c610aa38b271380-53" prev="i-0c610aa38b271380-50" who="Q3209237">
+            <seg>
               Vad gäller Bilprovningen är det min bestämda uppfattning att
               Bilprovningen när vi började diskutera en privatisering av den
               för ett antal år sedan plötsligt blev mer serviceinriktad. Det
@@ -620,7 +700,9 @@
               alltså ofta ett tryck på monopol, såväl privata som statliga,
               för att få dem mer serviceinriktade.
             </seg>
-            <seg n="2137399d">
+          </u>
+          <u xml:id="i-0c610aa38b271380-54" prev="i-0c610aa38b271380-50" who="Q3209237">
+            <seg>
               Jag är rädd för att det om vi skulle ta tillbaka detta tryck
               finns en risk att Bilprovningen faller tillbaka till de gamla
               hjulspår man en gång var i. Jag håller med Leif Pettersson och
@@ -629,7 +711,9 @@
               politiker att vi förväntar oss en privatisering av Bilprovningen.
               Det är alldeles utmärkt.
             </seg>
-            <seg n="a7dd8c54">
+          </u>
+          <u xml:id="i-0c610aa38b271380-55" prev="i-0c610aa38b271380-50" who="Q3209237">
+            <seg>
               Jag håller också med om att exemplet Finland förskräcker. Det
               är inget bra exempel. Det man har gjort i Finland är att man krävde
               av aktörerna att de när de hade fordonsbesiktning av personbilar
@@ -638,32 +722,40 @@
               i Finland. Vi har inget sådant krav i Sverige, utan vi ska ha
               en mer rimlig ordning som inte kräver dramatiskt ökade investeringskostnader.
             </seg>
-            <seg n="6b763546">
+          </u>
+          <u xml:id="i-0c610aa38b271380-56" prev="i-0c610aa38b271380-50" who="Q3209237">
+            <seg>
               Om jag uppfattade Leif Pettersson rätt jag hoppas att jag hörde
               fel sade han att en auktion innebär att lägsta pris vinner. Så
               är det inte. Bara så att vi är överens; det är högsta pris som
               vinner.
             </seg>
-            <seg n="024867d3">
+          </u>
+          <u xml:id="i-0c610aa38b271380-57" prev="i-0c610aa38b271380-50" who="Q3209237">
+            <seg>
               Förhoppningsvis kan vi i alla fall i den delen försäkra oss om
               att det pris vi får ska bli så högt som möjligt.
             </seg>
           </u>
-          <note type="speaker" n="d36a7814">
+          <note type="speaker">
             Anf. 12 LEIF PETTERSSON (S):
           </note>
-          <u who="Q3373346" xml:id="i-81c8853d2321baaa-1" n="b9817ead">
-            <seg n="3d99de9a">
+          <u xml:id="i-0c610aa38b271380-58" next="i-0c610aa38b271380-67" who="Q3373346">
+            <seg>
               Fru talman! Jag beklagar felsägningen. Naturligtvis vinner inte
               lägsta pris på en auktion det vore konstigt i så fall.
             </seg>
-            <seg n="4a5ed47f">
+          </u>
+          <u xml:id="i-0c610aa38b271380-59" prev="i-0c610aa38b271380-58" who="Q3373346">
+            <seg>
               Man kan fråga sig, Peter Norman, vem som egentligen ska sköta
               besiktningen av de tunga fordonen. Är det AB Svensk Bilprovning
               som ska ta alla dessa kostnader? Varför ska inte privata aktörer
               tvingas ha hela marknaden?
             </seg>
-            <seg n="bac52cf2">
+          </u>
+          <u xml:id="i-0c610aa38b271380-60" prev="i-0c610aa38b271380-58" who="Q3373346">
+            <seg>
               Jag ser en rad problem som en utförsäljning är förknippad med.
               Ett är de riskkapitalbolag som i dag finns etablerade på marknaden.
               Vi ser vad som händer inom sjukvård och äldreomsorg, vilket också
@@ -673,7 +765,9 @@
               i Sverige till överränta, och sedan plockar man ut pengarna den
               vägen. Ska Svensk Bilprovning gå samma väg?
             </seg>
-            <seg n="1c292c93">
+          </u>
+          <u xml:id="i-0c610aa38b271380-61" prev="i-0c610aa38b271380-58" who="Q3373346">
+            <seg>
               I Finland i dag är 80 procent av marknaden kontrollerad av riskkapitalbolag
               som kan marknaden och som säkerligen kommer att vilja vara med
               också i Sverige. Ett exempel på vad som har skett är att ett bolag
@@ -681,14 +775,18 @@
               sålde verksamheten med 3 miljarder i vinst. Är det detta som väntar
               oss, Peter Norman?
             </seg>
-            <seg n="ffae1401">
+          </u>
+          <u xml:id="i-0c610aa38b271380-62" prev="i-0c610aa38b271380-58" who="Q3373346">
+            <seg>
               Man kan säga att detta är ett dåligt beslut. Det är inte till
               gagn för medborgarna, det är inte till gagn för fordonsägarna
               och det är inte till gagn för några andra än de riskkapitalister
               som ser möjligheten att tjäna pengar. Detta är därför ett dåligt
               underbyggt beslut.
             </seg>
-            <seg n="4ff29280">
+          </u>
+          <u xml:id="i-0c610aa38b271380-63" prev="i-0c610aa38b271380-58" who="Q3373346">
+            <seg>
               Vilka garantier finns för att kostnaderna för den enskilde inte
               drar i väg? Det finns inga. Vilka garantier finns för att inte
               Carema eller något annat riskkapitalbolag köper in sig i branschen
@@ -698,7 +796,9 @@
               uppfattning inte bygger på annat än ideologisk övertygelse att
               privat är bättre än statligt.
             </seg>
-            <seg n="09cef08e">
+          </u>
+          <u xml:id="i-0c610aa38b271380-64" prev="i-0c610aa38b271380-58" who="Q3373346">
+            <seg>
               Man kan fråga sig hur länge en köpare som har köpt en station
               måste behålla den. Det är ett annat problem i sammanhanget. Kan
               en eventuell köpare som upptäcker att den station han har köpt
@@ -706,14 +806,18 @@
               annan verksamhet? Risken att detta sker är stor, kanske speciellt
               i landsbygds- och glesbygdsperspektiv.
             </seg>
-            <seg n="88376a6f">
+          </u>
+          <u xml:id="i-0c610aa38b271380-65" prev="i-0c610aa38b271380-58" who="Q3373346">
+            <seg>
               Vi vet att priserna kommer att öka mer utanför storstadsområdena.
               Risken är dessutom stor att dessa platser blir helt utan besiktning
               på grund av att det inte är lönsamt, helt enkelt. Följden blir
               att bilägaren får åka långa sträckor för att få till stånd den
               tvingande myndighetsåtgärd som en bilbesiktning är.
             </seg>
-            <seg n="97fbb83f">
+          </u>
+          <u xml:id="i-0c610aa38b271380-66" prev="i-0c610aa38b271380-58" who="Q3373346">
+            <seg>
               Man kan dessutom fråga sig hur det kan bli dyrare när konkurrensen
               ökar. Det borde egentligen vara tvärtom. Men det är ett fenomen
               som vi har sett vid utförsäljningen av apoteken, bland annat:
@@ -723,7 +827,9 @@
               har gjort ett så bra jobb att det egentligen inte går att konkurrera
               med den bilprovning vi har i dag.
             </seg>
-            <seg n="8c6f795a">
+          </u>
+          <u xml:id="i-0c610aa38b271380-67" prev="i-0c610aa38b271380-58" who="Q3373346">
+            <seg>
               Därmed anser jag att utförsäljningen är ideologisk motiverad.
               Allt detta andra som man har åstadkommit och som Peter Norman
               tog upp hade man kunnat åstadkomma genom att vara en mer aktiv
@@ -732,17 +838,19 @@
               annat. Men man hade alltså kunnat åstadkomma detta på annat sätt.
             </seg>
           </u>
-          <note type="speaker" n="44219348">
+          <note type="speaker">
             Anf. 13 JENS HOLM (V):
           </note>
-          <u who="Q946708" xml:id="i-9f5359136a02eaa0-4" n="b2173fa2">
-            <seg n="0cdd095d">
+          <u xml:id="i-0c610aa38b271380-68" next="i-0c610aa38b271380-71" who="Q946708">
+            <seg>
               Fru talman! Peter Norman tillstår att Bilprovningen fungerar
               bra i Sverige och att det finska privatiseringsexemplet, det närmaste
               exempel vi har, avskräcker. Man skulle önska att regeringen då
               tänkte till en extra gång.
             </seg>
-            <seg n="123ac18d">
+          </u>
+          <u xml:id="i-0c610aa38b271380-69" prev="i-0c610aa38b271380-68" who="Q946708">
+            <seg>
               Peter Norman säger också att det behövs ett tryck för att statlig
               verksamhet ska fungera bra. Jag kan hålla med om det. Men precis
               som Leif Pettersson tog upp finns det former för staten att utöva
@@ -750,7 +858,9 @@
               Man är aktiv i styrelsen. Man ger konkreta uppdrag. Det finns
               mängder av exempel på hur ett bra aktivt ägande ska fungera.
             </seg>
-            <seg n="e704a649">
+          </u>
+          <u xml:id="i-0c610aa38b271380-70" prev="i-0c610aa38b271380-68" who="Q946708">
+            <seg>
               Jag vill fråga Peter Norman om några konkreta saker som jag inte
               riktigt tycker att vi har fått svar på. Om du säger att detta
               inte är en ideologiskt motiverad utförsäljning undrar jag vad
@@ -762,7 +872,9 @@
               är jättebra att priset fortfarande är 300 kronor som jag tror
               att det kostar. Kan ni garantera detta?
             </seg>
-            <seg n="80962a0d">
+          </u>
+          <u xml:id="i-0c610aa38b271380-71" prev="i-0c610aa38b271380-68" who="Q946708">
+            <seg>
               Sist men inte minst handlar det om det som Leif Pettersson tar
               upp att verksamheten inte ska sluta i händerna på riskkapitalister
               som i exemplen på nästan all annan privatisering som ni har sysslat
@@ -770,35 +882,41 @@
               denna verksamhet hamnar på öarna i Engelska kanalen?
             </seg>
           </u>
-          <note type="speaker" n="c5643845">
+          <note type="speaker">
             Anf. 14 Statsrådet PETER NORMAN (M):
           </note>
-          <u who="Q3209237" xml:id="i-ccce35d3899b6b0f-6" n="0578a974">
-            <seg n="ebe6b0e1">
+          <u xml:id="i-0c610aa38b271380-72" next="i-0c610aa38b271380-78" who="Q3209237">
+            <seg>
               Fru talman! Det var några blandade saker. Jag ska försöka svara
               på frågorna så gott jag kan.
             </seg>
-            <seg n="2e29646f">
-              Låt oss börja med myndighetsutövningen. 1995 avskaffades besiktningsmonopolet
-              i Sverige, och Statens Anläggningsprovning ändrade namn till SAQ
-              Kontroll AB. Detta bolag avyttrades av staten 1999 till Det Norske
-              Veritas. Det handlade om obligatoriska besiktningar av bland annat
-              ventilationskontroll, hissar, elektroniska portar och rulltrappor.
-              Detta skedde alltså under den socialdemokratiska regeringens tid.
-            </seg>
-            <seg n="19ad3714">
+          </u>
+          <note>
+            Låt oss börja med myndighetsutövningen. 1995 avskaffades besiktningsmonopolet
+            i Sverige, och Statens Anläggningsprovning ändrade namn till SAQ
+            Kontroll AB. Detta bolag avyttrades av staten 1999 till Det Norske
+            Veritas. Det handlade om obligatoriska besiktningar av bland annat
+            ventilationskontroll, hissar, elektroniska portar och rulltrappor.
+            Detta skedde alltså under den socialdemokratiska regeringens tid.
+          </note>
+          <u xml:id="i-0c610aa38b271380-73" prev="i-0c610aa38b271380-72" who="Q3209237">
+            <seg>
               Dessutom finns det andra exempel på framgångsrikt överförande
               av myndighetsuppgifter till privata aktörer: telefoni, sedeltryckning,
               handtryck av värdepapper och så vidare. Detta är alltså ingen
               främmande fågel i den meningen.
             </seg>
-            <seg n="28a202ec">
+          </u>
+          <u xml:id="i-0c610aa38b271380-74" prev="i-0c610aa38b271380-72" who="Q3209237">
+            <seg>
               Vi återkommer till Finland. Finland är ett avskräckande exempel.
               Därför gör vi inte som man gör i Finland. Man ska inte kräva att
               det även ska ske besiktning för tunga fordon. Då kommer kostnaderna
               att öka, och då kommer också investeringsviljan att minska.
             </seg>
-            <seg n="a04826aa">
+          </u>
+          <u xml:id="i-0c610aa38b271380-75" prev="i-0c610aa38b271380-72" who="Q3209237">
+            <seg>
               När det gäller riskkapitalisterna håller jag förstås med om den
               verklighetsbeskrivning som både Jens Holm och Leif Pettersson
               gör. Detta åtgärdar vi dels genom arbetet i den företagsbeskattningsutredning
@@ -808,7 +926,9 @@
               i Sverige inte beskattas här utan hamnar på kanalöarna. Här är
               vi säkert helt överens.
             </seg>
-            <seg n="2db49330">
+          </u>
+          <u xml:id="i-0c610aa38b271380-76" prev="i-0c610aa38b271380-72" who="Q3209237">
+            <seg>
               Jens Holm frågar mig hur missnöjet ser ut. Det är en mycket berättigad
               fråga. Här är det möjligt att vi har olika uppfattningar. Jag
               tror att det är svårt för ett monopol, oavsett om det är statligt
@@ -827,12 +947,16 @@
               att glida tillbaka i gamla hjulspår. Det är där jag tycker att
               man kan kanalisera det som man skulle kunna kalla för missnöje.
             </seg>
-            <seg n="aee7953e">
+          </u>
+          <u xml:id="i-0c610aa38b271380-77" prev="i-0c610aa38b271380-72" who="Q3209237">
+            <seg>
               Jens Holm talar om 300 kronor. Han vet lika väl som jag att vi
               aldrig kan garantera sådana saker. Det kan bli inflation och vad
               som helst, och saker kan hända. Man kan inte garantera detta.
             </seg>
-            <seg n="c266f855">
+          </u>
+          <u xml:id="i-0c610aa38b271380-78" prev="i-0c610aa38b271380-72" who="Q3209237">
+            <seg>
               Jag tycker att konkurrens är ett vidare begrepp än vad Leif Pettersson
               säger, det vill säga att konkurrens ska leda till lägre priser.
               Det leder ibland till lägre priser, men ibland leder det också
@@ -841,11 +965,11 @@
               fråga som är mer komplex och som handlar om mer än enbart konkurrens.
             </seg>
           </u>
-          <note type="speaker" n="79f628ea">
+          <note type="speaker">
             Anf. 15 LEIF PETTERSSON (S):
           </note>
-          <u who="Q3373346" xml:id="i-81c8853d2321baaa-2" n="b9817ead">
-            <seg n="8c3540b9">
+          <u xml:id="i-0c610aa38b271380-79" next="i-0c610aa38b271380-81" who="Q3373346">
+            <seg>
               Fru talman! Återigen: Vem ska då besiktiga de tunga fordonen?
               Ska Svensk Bilprovning tvingas göra det? Ska inte marknaden kunna
               besiktiga allt? Man undantar en ur trafiksäkerhetssynpunkt mycket
@@ -857,7 +981,9 @@
               sådant, speciellt när det gäller tunga fordon, om bilprovningen
               privatiseras? Jag förstår inte riktigt logiken här.
             </seg>
-            <seg n="90182a3a">
+          </u>
+          <u xml:id="i-0c610aa38b271380-80" prev="i-0c610aa38b271380-79" who="Q3373346">
+            <seg>
               Peter Norman säger att monopolet inte är tillräckligt flexibelt.
               Jag vill använda ett exempel som Peter Norman själv tog upp i
               sitt anförande, nämligen LKAB. De har till och med nästan monopol
@@ -867,7 +993,9 @@
               järnmalmsverksamhet i Sverige. Sedan kan det ju komma ytterligare
               bolag på det området också.
             </seg>
-            <seg n="7f6da0c7">
+          </u>
+          <u xml:id="i-0c610aa38b271380-81" prev="i-0c610aa38b271380-79" who="Q3373346">
+            <seg>
               Jag undrar också hur man ska kunna få fram en vettig besiktningsstatistik
               i fortsättningen. Ska de privata aktörerna tvingas in i något
               system eller kommer man att släppa det fritt? Det är viktigt,
@@ -876,11 +1004,11 @@
               ska det gå till i fortsättningen, Peter Norman?
             </seg>
           </u>
-          <note type="speaker" n="541b9a1f">
+          <note type="speaker">
             Anf. 16 Statsrådet PETER NORMAN (M):
           </note>
-          <u who="Q3209237" xml:id="i-ccce35d3899b6b0f-7" n="0578a974">
-            <seg n="b6c829dd">
+          <u xml:id="i-0c610aa38b271380-82" next="i-0c610aa38b271380-86" who="Q3209237">
+            <seg>
               Fru talman! Staten kommer att fortsätta att vara en dominerande
               ägare i den gruppering av stationer som kommer att ha täckning
               i hela landet. Därmed säkerställer staten att det finns en aktör
@@ -889,7 +1017,9 @@
               utrymme för fler än en besiktningsstation. Det finns i dagsläget
               17 sådana stationer bland dem som Bilprovningen planerar att sälja.
             </seg>
-            <seg n="2dd228a1">
+          </u>
+          <u xml:id="i-0c610aa38b271380-83" prev="i-0c610aa38b271380-82" who="Q3209237">
+            <seg>
               Om det visar sig att en aktör försöker utnyttja en sådan situation
               genom att kraftigt höja priset kan kunderna välja att i samband
               med arbete eller andra privata ärenden åka till en annan besiktningsstation
@@ -901,13 +1031,17 @@
               i hela Sverige i alla fall, vilket jag hoppas är ett svar på Leif
               Petterssons fråga.
             </seg>
-            <seg n="46c21523">
+          </u>
+          <u xml:id="i-0c610aa38b271380-84" prev="i-0c610aa38b271380-82" who="Q3209237">
+            <seg>
               Precis som när den socialdemokratiska regeringen sålde ut SAQ
               till Veritas kommer man att ställa krav på de här privata bolagen
               att förse Svensk Bilprovning med statistik så den kommer att vara
               i orubbat bo.
             </seg>
-            <seg n="934fa418">
+          </u>
+          <u xml:id="i-0c610aa38b271380-85" prev="i-0c610aa38b271380-82" who="Q3209237">
+            <seg>
               Till sist vill jag säga någonting om konkurrensen i allmänhet.
               Här är det möjligt att vi skiljer oss åt. Jag tror att konkurrens
               är bra inte bara för kunderna som i bästa fall kan åtnjuta ett
@@ -920,38 +1054,40 @@
               arbetsplatsen utöver de fördelar som konkurrensen ger i allmänhet.
             </seg>
           </u>
-          <note n="c62af309">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="21503a81">
+          <note>
             6 § Bordläggning
           </note>
-          <note n="c582785c">
+          <note>
             Anmäldes och bordlades
           </note>
-          <note n="e0d56ee8">
+          <note>
             7 § Anmälan om interpellation
           </note>
-          <note n="f90abd31">
+          <note>
             Anmäldes att följande interpellation framställts
           </note>
-          <note n="d94a2fec">
+          <note>
             den 20 januari
           </note>
-          <note n="04273e97">
-            Katarina Köhler
-          </note>
-          <note n="99217905">
+          <u xml:id="i-0c610aa38b271380-86" prev="i-0c610aa38b271380-82" who="Q3209237">
+            <seg>
+              Katarina Köhler
+            </seg>
+          </u>
+          <note>
             Interpellationen redovisas i bilaga som fogats till riksdagens
             snabbprotokoll tisdagen den 24 januari.
           </note>
-          <note n="ac48b36d">
+          <note>
             8 § Kammaren åtskildes kl. 9.44.
           </note>
-          <note n="0c02d7e7">
+          <note>
             Förhandlingarna leddes av förste vice talmannen.
           </note>
-          <note n="068ef757">
+          <note>
             /Eva-Lena Ekman
           </note>
         </div>

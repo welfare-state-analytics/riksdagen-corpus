@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2009</title>
+        <title>Riksdagens protocols 200910</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2009</title>
+          <title>Riksdagens protocols 200910</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -63,42 +60,41 @@
       </front>
       <body>
         <div>
-          <note n="980fb7d7">
-            ﻿
-          </note>
-          <note n="affed87d">
+          <note>
             Riksdagens protokoll
           </note>
-          <note n="fb43cc80">
-            2009/10:17
-          </note>
-          <note type="date" n="8699dee9">
+          <u xml:id="i-dc7d14bee44f5b33-0" who="unknown">
+            <seg>
+              2009/10:17
+            </seg>
+          </u>
+          <note>
             Tisdagen den 20 oktober
           </note>
-          <note n="6d486c94">
+          <note>
             Kl. 14:30 - 18:30
           </note>
-          <note n="34b9677d">
+          <note>
             1 § Justering av protokoll
           </note>
-          <note n="38f3716c">
+          <note>
             Justerades protokollet för den 14 oktober.
           </note>
-          <note n="89f15240">
+          <note>
             2 § Meddelande om val
           </note>
-          <note n="11005e1c">
+          <note>
             Förste vice talmannen meddelade att val av ställföreträdande
             justitieombudsman skulle äga rum onsdagen den 21 oktober .
           </note>
-          <note n="55df261d">
+          <note>
             3 § Svar på interpellation 2009/10:22 om Apoteket och ägardirektiv
           </note>
-          <note type="speaker" n="c05a82cc">
+          <note type="speaker">
             Anf. 1 Socialminister GÖRAN HÄGGLUND (kd):
           </note>
-          <u who="Q918261" xml:id="i-e61fa9bd2df0dceb-0" n="be8cebe0">
-            <seg n="6aa58355">
+          <u xml:id="i-dc7d14bee44f5b33-1" next="i-dc7d14bee44f5b33-8" who="Q918261">
+            <seg>
               Herr talman! Eva-Lena Jansson har frågat mig om jag avser att
               vidta några särskilda åtgärder för att den nya styrelsen för Apoteket
               AB inte ska tvingas bryta mot aktiebolagslagen. Hon har vidare
@@ -108,7 +104,9 @@
               ska kunna vara ett välskött bolag som bidrar med inkomster till
               statskassan och därmed till välfärden.
             </seg>
-            <seg n="c5bfbb75">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-2" prev="i-dc7d14bee44f5b33-1" who="Q918261">
+            <seg>
               Omregleringen av apoteksmarknaden har utformats med utgångspunkt
               från dem som regleringen ska gynna, det vill säga konsumenterna,
               och inte med utgångspunkt från de gamla eller nya aktörerna. Som
@@ -118,7 +116,9 @@
               konkurrens höjer produktionseffektiviteten och verkar därmed prissänkande
               samtidigt som konsumenternas valmöjligheter ökar.
             </seg>
-            <seg n="ccd81e54">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-3" prev="i-dc7d14bee44f5b33-1" who="Q918261">
+            <seg>
               Apoteksreformen har utformats så att erfarenheterna som vunnits
               i tidigare regelreformeringar tillvaratas. En viktig sådan erfarenhet
               är behovet av att särskilt hantera den före detta monopolisten.
@@ -131,7 +131,9 @@
               apotek, så att goda etableringsförutsättningar för nya aktörer
               åstadkoms.
             </seg>
-            <seg n="e0212ec5">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-4" prev="i-dc7d14bee44f5b33-1" who="Q918261">
+            <seg>
               Ett av medlen för att uppnå målen med reformen är att det ska
               skapas förutsättningar för en väl fungerande konkurrens där såväl
               små som stora aktörer kan etablera sig och verka. Om Apoteket
@@ -144,7 +146,9 @@
               av ökad tillgänglighet, bättre service och utökat tjänsteutbud,
               som är en målsättning med reformen.
             </seg>
-            <seg n="7f115f0c">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-5" prev="i-dc7d14bee44f5b33-1" who="Q918261">
+            <seg>
               Regeringen konstaterade i propositionen Omreglering av apoteksmarknaden
               att det under en övergångsperiod efter en reformering kan finnas
               skäl att ställa särskilda krav på den före detta monopolistens
@@ -156,7 +160,9 @@
               uppställt i ägarinstruktioner till Apoteket AB skulle kunna innebära
               att läkemedelsförsörjningen riskeras.
             </seg>
-            <seg n="c173507f">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-6" prev="i-dc7d14bee44f5b33-1" who="Q918261">
+            <seg>
               Det är nödvändigt att göra en avvägning mellan den före detta
               monopolistens kommersiella lönsamhet och omsorgen om nya aktörers
               möjligheter att etablera sig på marknaden för att det ska kunna
@@ -167,13 +173,17 @@
               utformas och genomförs på ett sätt som tar utgångspunkt i konsumenternas
               och skattebetalarnas perspektiv.
             </seg>
-            <seg n="2ecd6f15">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-7" prev="i-dc7d14bee44f5b33-1" who="Q918261">
+            <seg>
               Ett bolags styrelse är enligt aktiebolagslagen underordnad bolagsstämman
               där ägaren utövar sitt inflytande. Styrelsen är skyldig att följa
               de direktiv som bolagets ägare ger. Det bör också nämnas att ansvaret
               för en koncerns ekonomiska situation ligger hos moderbolaget.
             </seg>
-            <seg n="e634652a">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-8" prev="i-dc7d14bee44f5b33-1" who="Q918261">
+            <seg>
               Apoteket AB ska kvarstå som en central aktör i statlig ägo på
               den konkurrensutsatta apoteksmarknaden och ska ges förutsättningar
               att agera utifrån samma villkor som de nya aktörerna på den konkurrensutsatta
@@ -182,11 +192,11 @@
               den statliga styrningen av bolaget kommer att ha detta som utgångspunkt.
             </seg>
           </u>
-          <note type="speaker" n="59d00508">
+          <note type="speaker">
             Anf. 2 EVA-LENA JANSSON (s):
           </note>
-          <u who="Q3374622" xml:id="i-ddae443c41856e77-0" n="4409e4bb">
-            <seg n="5d8779ac">
+          <u xml:id="i-dc7d14bee44f5b33-9" next="i-dc7d14bee44f5b33-16" who="Q3374622">
+            <seg>
               Herr talman! Tack, socialminister Göran Hägglund, för svaret!
               Den 18 september i år fattades beslut om nya ägardirektiv för
               Apoteket AB. Det var direktiv som den dåvarande styrelsen vägrade
@@ -198,13 +208,17 @@
               att ta hänsyn till de negativa konsekvenser detta får för värdet
               på Apoteket AB, säger Båtelson.
             </seg>
-            <seg n="4eddef2c">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-10" prev="i-dc7d14bee44f5b33-9" who="Q3374622">
+            <seg>
               Vidare anser Båtelson att Apoteket med de nya ägarinstruktionerna
               inte blir en konkurrensmässig aktör på den svenska marknaden och
               varnar för att läkemedelsförsörjningen hotas. Därav mina frågor
               till Göran Hägglund.
             </seg>
-            <seg n="751279f1">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-11" prev="i-dc7d14bee44f5b33-9" who="Q3374622">
+            <seg>
               Tidigare har jag som ledamot ställt en skriftlig fråga till Göran
               Hägglund för att försöka få ut de här så kallade ägardirektiven,
               riktlinjerna eller vad man nu väljer att kalla dem. I svaret på
@@ -218,7 +232,9 @@
               Hägglund inte vill tala om för oss i riksdagen vilka de här restriktionerna
               är. Man undrar vad det är som är så hemligt.
             </seg>
-            <seg n="c516a9ac">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-12" prev="i-dc7d14bee44f5b33-9" who="Q3374622">
+            <seg>
               Göran Hägglund hänvisar i sitt svar om ägarinstruktionen till
               lydnadsplikten när det gäller bolagsstämman. I aktiebolagslagen
               står det: Styrelsen får inte verkställa anvisningar som strider
@@ -227,7 +243,9 @@
               nackdel för bolaget. Det var precis vad styrelsen i Apoteket gjorde
               och konstaterade att detta inte var bra.
             </seg>
-            <seg n="5c0191dd">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-13" prev="i-dc7d14bee44f5b33-9" who="Q3374622">
+            <seg>
               Med anledning av de frågor som jag har ställt tidigare och de
               svar jag har fått av Göran Hägglund blir mina frågor till statsrådet:
               Vet Göran Hägglund vilka restriktioner som Apoteket Omstrukturering
@@ -236,12 +254,16 @@
               eller känner han inte till dem? Finns det någon som kan granska
               ägarinstruktionerna till Apoteket AB?
             </seg>
-            <seg n="5ef0a927">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-14" prev="i-dc7d14bee44f5b33-9" who="Q3374622">
+            <seg>
               Vi har en fristående riksrevision som naturligtvis kan välja
               att granska vad de vill, men jag hoppas att de, om de väljer att
               granska den här affären, också får tillgång till de här handlingarna.
             </seg>
-            <seg n="009cda23">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-15" prev="i-dc7d14bee44f5b33-9" who="Q3374622">
+            <seg>
               Vad är anledningen till att vi i riksdagen inte får ta del av
               de här instruktionerna för Apoteket AB? Vad är argumenten för
               att hemlighålla hela processen för riksdagen som ändå har fattat
@@ -251,16 +273,18 @@
               folket. Därmed är det också av vikt att vi kontrollerar att allting
               går rätt till.
             </seg>
-            <seg n="6af562a6">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-16" prev="i-dc7d14bee44f5b33-9" who="Q3374622">
+            <seg>
               Herr talman! Jag önskar få svar från statsrådet på de frågor
               som jag har ställt.
             </seg>
           </u>
-          <note type="speaker" n="4a7370fe">
+          <note type="speaker">
             Anf. 3 BRITTA RÅDSTRÖM (s):
           </note>
-          <u who="Q4971571" xml:id="i-0ae7798b4f8846bb-0" n="e00b2251">
-            <seg n="c12ab0f7">
+          <u xml:id="i-dc7d14bee44f5b33-17" next="i-dc7d14bee44f5b33-20" who="Q4971571">
+            <seg>
               Herr talman! Jag tycker att Eva-Lena Jansson har skrivit en mycket
               viktig interpellation. Nu kommer jag inte att beröra ägardirektiven
               utan i stället gå in allmänt på detta med Apoteket, för Apoteket
@@ -269,7 +293,9 @@
               och våren. Man sammanför Apoteket med annan statlig service som
               försvinner en efter en, inte minst i glesbygd.
             </seg>
-            <seg n="da9f0b87">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-18" prev="i-dc7d14bee44f5b33-17" who="Q4971571">
+            <seg>
               Vad händer till exempel i Sorsele eller i Storuman om apoteket
               säljs? Vem vill köpa det? Vem gör sig pengar på det, där? Gynnar
               det konsumenterna, som ministern sade? Knappast. Hur, i sådana
@@ -281,24 +307,28 @@
               inte om att det inte kommer att bli bättre? Det viktiga för regeringen
               är privatiseringen i sig.
             </seg>
-            <seg n="fa1daa51">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-19" prev="i-dc7d14bee44f5b33-17" who="Q4971571">
+            <seg>
               Hela försäljningen har gått över styr, det ser vi i och med att
               styrelsen avsattes. Är det inte dags att stoppa den? vill jag
               fråga ministern. Stoppa försäljningen och se över det här en gång
               till!
             </seg>
-            <seg n="06222606">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-20" prev="i-dc7d14bee44f5b33-17" who="Q4971571">
+            <seg>
               Vad händer med ett eventuellt samarbete med Ica? Vilken anledning
               finns för att regeringen över huvud taget vill sälja ut Apoteket
               annat än privatiseringen i sig? Finns det någon rimlig anledning
               annars?
             </seg>
           </u>
-          <note type="speaker" n="eaf9cfc7">
+          <note type="speaker">
             Anf. 4 FINN BENGTSSON (m):
           </note>
-          <u who="Q5570168" xml:id="i-24d698929b8e101a-0" n="266e193f">
-            <seg n="faa9ad9d">
+          <u xml:id="i-dc7d14bee44f5b33-21" next="i-dc7d14bee44f5b33-24" who="Q5570168">
+            <seg>
               Herr talman! Det här är verkligen en intressant ideologisk diskussion.
               Låt mig först tacka socialministern för ett klokt avvägt svar,
               som jag bedömer det. Låt mig sedan göra en demokratisk reflexion.
@@ -311,7 +341,9 @@
               där man saknar monopolsituationen. Det var alltså ett vallöfte
               som i princip skulle infrias.
             </seg>
-            <seg n="e99075d6">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-22" prev="i-dc7d14bee44f5b33-21" who="Q5570168">
+            <seg>
               När det gäller interpellantens frågor och dagens situation är
               det lustigt att notera att även under den nyss avgångna styrelseordförandens
               tid men framför allt under den tidigare styrelseordförandens tid
@@ -321,7 +353,9 @@
               har blivit ytterligare försämrad med det bibehållna monopolet.
               Det fanns alltså all anledning att reagera.
             </seg>
-            <seg n="ff1e36db">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-23" prev="i-dc7d14bee44f5b33-21" who="Q5570168">
+            <seg>
               Det är nu en gång så att monopol i grunden är en osund konstruktion
               för en marknad som fungerar fritt och öppet och gagnar kunderna
               precis som anges i socialministerns svar. Det tråkiga är att den
@@ -344,7 +378,9 @@
               något väljarna tydligt hade att ta ställning till inför valet
               2006 och förkastade.
             </seg>
-            <seg n="7ca03266">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-24" prev="i-dc7d14bee44f5b33-21" who="Q5570168">
+            <seg>
               Därför blir interpellantens meddebattörers ord från Socialdemokraterna
               ganska tomma när de nu presenterar en återgång till ett system
               som, vilket jag återigen vill förutskicka, inte ger en tillgänglighet
@@ -356,15 +392,15 @@
               tagit beslut i den här kammaren om ska genomföras.
             </seg>
           </u>
-          <note n="8de68f6d">
+          <note>
             I detta anförande instämde Hans Rothenberg och Cecilie Tenfjord-Toftby
             (båda m).
           </note>
-          <note type="speaker" n="420a531d">
+          <note type="speaker">
             Anf. 5 LENNART AXELSSON (s):
           </note>
-          <u who="Q5563036" xml:id="i-8cfb4b64856bbb17-0" n="7041db86">
-            <seg n="c9dc7a28">
+          <u xml:id="i-dc7d14bee44f5b33-25" next="i-dc7d14bee44f5b33-32" who="Q5563036">
+            <seg>
               Herr talman! Vi socialdemokrater tillsammans med Vänsterpartiet
               och Miljöpartiet har tydligt deklarerat att vi inte tycker att
               det är någon god idé att slå sönder ett väl fungerande system
@@ -372,7 +408,9 @@
               den. Om man kallar det för socialism eller inte överlåter jag
               till den tidigare talaren här.
             </seg>
-            <seg n="ee882d4c">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-26" prev="i-dc7d14bee44f5b33-25" who="Q5563036">
+            <seg>
               Faktum är att vi faktiskt har ett system som innebär att vi i
               förhållande till många andra länder betalar väldigt lite för att
               få ut vår medicin. Skälet till det är att vi har just ett apoteksmonopol
@@ -380,7 +418,9 @@
               som skattebetalare och även som kunder betalar lite för det vi
               behöver.
             </seg>
-            <seg n="affc6138">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-27" prev="i-dc7d14bee44f5b33-25" who="Q5563036">
+            <seg>
               Men det vi debatterar nu är alltså ytterligare en del av det
               här sättet att slå sönder det nuvarande apoteksmonopolet. Vi skattebetalare
               vet fortfarande inte var notan kommer att stanna för hela den
@@ -394,14 +434,18 @@
               man skulle kunna använda till att anställa ungefär 2 000 undersköterskor
               i vården i stället.
             </seg>
-            <seg n="cf7bbd08">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-28" prev="i-dc7d14bee44f5b33-25" who="Q5563036">
+            <seg>
               Det är alltså redan tidigare fattade beslut som har fått de här
               konsekvenserna, och jag är helt övertygad om att mina kamrater
               i sjukvården mycket hellre skulle vilja ha ytterligare en arbetskamrat
               vid sin sida som kan ge det stöd som gamla och sjuka behöver än
               att lägga det i fickorna på internationella läkemedelsgrossister.
             </seg>
-            <seg n="da36565f">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-29" prev="i-dc7d14bee44f5b33-25" who="Q5563036">
+            <seg>
               Nästa steg, som vi debatterar i dag, innebär också en ökad kostnad
               för skattebetalarna. Eva-Lena Jansson redogjorde på ett förtjänstfullt
               sätt för vad den tidigare styrelsen menade fanns för risker med
@@ -410,44 +454,54 @@
               innebär en stor värdeförstöring i Apoteket AB, och det är inte
               till gagn för skattebetalarna.
             </seg>
-            <seg n="740386af">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-30" prev="i-dc7d14bee44f5b33-25" who="Q5563036">
+            <seg>
               Inlåsningseffekter kommer nog att drabba företaget långt framöver,
               och Apoteket AB med dess över 10 000 anställda omsatte förra året
               drygt 40 miljarder kronor, så det är väldigt stora pengar som
               vi nu leker med.
             </seg>
-            <seg n="6b2a6bc1">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-31" prev="i-dc7d14bee44f5b33-25" who="Q5563036">
+            <seg>
               I grunden tycker jag, precis som Britta Rådström var inne på,
               att det här inte är något annat än en ideologisk lekstuga som
               man håller på med från regeringens sida. Jag beklagar verkligen
               att man tvingar så många anställda att befinna sig i ovisshet
               om vad som kommer att hända framöver.
             </seg>
-            <seg n="df111bc7">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-32" prev="i-dc7d14bee44f5b33-25" who="Q5563036">
+            <seg>
               Jag läste i Nerikes Allehanda en debattartikel från Farmaciförbundet
               om att utförsäljningen bör stoppas eftersom mycket är oklart om
               villkoren för apoteken. De är representanter för alla medlemmar
               som nu är oroliga för vad som kommer att hända framöver.
             </seg>
           </u>
-          <note type="speaker" n="5bf3b5f9">
+          <note type="speaker">
             Anf. 6 RONNY OLANDER (s):
           </note>
-          <u who="Q6024368" xml:id="i-4849743379be7b29-0" n="130ecf9d">
-            <seg n="74094a35">
+          <u xml:id="i-dc7d14bee44f5b33-33" next="i-dc7d14bee44f5b33-42" who="Q6024368">
+            <seg>
               Herr talman! Den debatt som nu pågår är oerhört viktig. Är det
               på det viset, socialministern, att det är en ideologisk fråga
               om privatisering, utförsäljning och avreglering som nu pågår i
               vårt land och har gjort det under rätt så lång tid?
             </seg>
-            <seg n="a0dc4858">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-34" prev="i-dc7d14bee44f5b33-33" who="Q6024368">
+            <seg>
               Det som är viktigt att fundera kring är den låga läkemedelsanvändning
               som finns i Sverige bland Sveriges befolkning. Om man gör en jämförelse
               med i EU och i Europa är det en betydligt större användning av
               läkemedel. Det gäller just den tillgänglighet som den borgerliga
               regeringen eftersträvar att man ska ha.
             </seg>
-            <seg n="b24dbe9b">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-35" prev="i-dc7d14bee44f5b33-33" who="Q6024368">
+            <seg>
               Likadant gäller det vinstkrav och ökning av det. Man kan sälja
               ut filialerna i Apoteksbolaget och sälja dem i stora sjok. De
               som kommer att anmäla intresse är naturligtvis läkemedelsgrossister
@@ -455,105 +509,135 @@
               mer läkemedel och så vidare. Det är väl inte det som i Sverige
               ska känneteckna det som vi känner en stor stolthet över?
             </seg>
-            <seg n="eb27a5bb">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-36" prev="i-dc7d14bee44f5b33-33" who="Q6024368">
+            <seg>
               Den fråga man måste ställa sig är: Är det någon i Sverige boende
               person som inte har fått läkemedel i tid? Det är så ni har argumenterat
               med lättillgängligheten, att bryta upp monopol och den typen av
               resonemang. Vilket är nästa monopol som ska brytas upp?
             </seg>
-            <seg n="1f347dfa">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-37" prev="i-dc7d14bee44f5b33-33" who="Q6024368">
+            <seg>
               Jag fick i går i min brevlåda något som kanske talar om hur framtiden
               ska bli. Det var från ett bensinbolag som nu inför vintern erbjöd
               vinterdäck, motorolja och batteriladdare. De skrev: Sedan kan
               du få receptfria läkemedel på din bensinstation.
             </seg>
-            <seg n="389ff995">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-38" prev="i-dc7d14bee44f5b33-33" who="Q6024368">
+            <seg>
               Är det så det är tänkt? Om det är så det är tänkt gäller min
               nästa fråga vad som händer när man ska sälja receptfria läkemedel
               på en bensinstation, i en matvaruaffär eller var det nu kommer
               att ske.
             </seg>
-            <seg n="444ad95c">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-39" prev="i-dc7d14bee44f5b33-33" who="Q6024368">
+            <seg>
               Vilken kontroll, erfarenhet, kunskap finns där på plats? Bensinstationer
               är oftast öppna från tidig morgon till sen kväll. Det kanske till
               och med är dygnet-runt-försäljning. Är det tänkt att man bland
               allt detta ska kunna få receptfria läkemedel?
             </seg>
-            <seg n="8c1b01e2">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-40" prev="i-dc7d14bee44f5b33-33" who="Q6024368">
+            <seg>
               Som exempel finns det receptfria läkemedel som den mycket kunniga
               personal som finns inne på apoteken bestämt avråder från: Du ska
               inte använda det läkemedlet tillsammans med ett annat läkemedel,
               för det påverkar din kropp negativt. Det blir njurar och lever
               som blir attackerade fastän medlen är receptfria.
             </seg>
-            <seg n="a2cbaacb">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-41" prev="i-dc7d14bee44f5b33-33" who="Q6024368">
+            <seg>
               Farmaceututbildningar och liknande innebär utbildning under många
               år. Man kan nu kanske se mängden som behövs om det ska bemannas
               på olika ställen. Kan socialministern lugna Sveriges befolkning
               och alla oss som funderar med att det på varje plats kommer att
               finnas människor som är kunniga, kompetenta och så vidare?
             </seg>
-            <seg n="305e123d">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-42" prev="i-dc7d14bee44f5b33-33" who="Q6024368">
+            <seg>
               Det finns många sådana frågeställningar som man går och funderar
               på. Sedan är det väl ändå så, socialminister Göran Hägglund, att
               det bara är en ideologisk fråga att vi ska sälja ut så mycket
               vi kan?
             </seg>
           </u>
-          <note type="speaker" n="f5be9102">
+          <note type="speaker">
             Anf. 7 HANS ROTHENBERG (m):
           </note>
-          <u who="Q378195" xml:id="i-48fcd197a0b79aed-0" n="2c46ff9b">
-            <seg n="6e6c641b">
+          <u xml:id="i-dc7d14bee44f5b33-43" next="i-dc7d14bee44f5b33-53" who="Q378195">
+            <seg>
               Herr talman! Att stå i Sveriges riksdag är en förmån. Att stå
               i Sveriges riksdag och få diskutera frågor som rör ens övertygelse,
               det som handlar om ideologi, är en ytterlig förmån. Man blir lite
               förbryllad när man i debatten hör: Det här är ett ideologiskt
               argument. Det finns principer bakom varför man fattar beslut.
             </seg>
-            <seg n="0ffbaa23">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-44" prev="i-dc7d14bee44f5b33-43" who="Q378195">
+            <seg>
               Jag trodde faktiskt att det var därför vi var i Sveriges riksdag.
               Jag trodde att vi var här för att företräda de medborgare som
               har givit oss förtroendet. Det är i det här fallet förtroendet
               att genomföra en omreglering av Apoteket och det gamla apoteksmonopolet.
             </seg>
-            <seg n="dbadcb71">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-45" prev="i-dc7d14bee44f5b33-43" who="Q378195">
+            <seg>
               Som alltid kommer vi tillbaka till diskussionen huruvida ägarstrukturen
               i statliga verksamheter över huvud taget får förändras eller ej.
               Då kommer övertoner om att man är upprörd över utförsäljningar.
             </seg>
-            <seg n="4eec07f1">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-46" prev="i-dc7d14bee44f5b33-43" who="Q378195">
+            <seg>
               Vi har haft den diskussionen om andra bolag, till exempel om
               Vin &amp; Sprit. Det gav de svenska skattebetalarna och statskassan
               många miljarder mer tillbaka i värde än vad bolaget i det statliga
               ägandet självt kunde svara upp emot.
             </seg>
-            <seg n="7b8468da">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-47" prev="i-dc7d14bee44f5b33-43" who="Q378195">
+            <seg>
               Det handlar inte om utförsäljning utan om att öppna möjligheter.
               Det var intressant att höra de tidigare talarna. De har hela tiden
               radat upp argument här för att vårda bolaget och att krama det
               statliga Apoteksbolaget. Men de nämner inte patienterna och personalen.
             </seg>
-            <seg n="dcb2856c">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-48" prev="i-dc7d14bee44f5b33-43" who="Q378195">
+            <seg>
               Personalen har varit inlåst i ett system där man inte har kunnat
               starta sin egen verksamhet. De har varit låsta i de bojor som
               det innebär att inte kunna få vara entreprenör och kunna skapa
               en frihet, alternativ och möjligheter inom sin yrkesutövning.
             </seg>
-            <seg n="6e4a82e2">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-49" prev="i-dc7d14bee44f5b33-43" who="Q378195">
+            <seg>
               Det är nu möjligt. Det är till och med fler farmaceuter som har
               önskat att få starta egen verksamhet än det finns apotek i Sverige.
               Det handlar inte om att sälja ut, att slå patienter i bojor och
               skapa färre alternativ. Det är tvärtom.
             </seg>
-            <seg n="74f104cd">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-50" prev="i-dc7d14bee44f5b33-43" who="Q378195">
+            <seg>
               I dag finns det ett apotek i Sverige som tillhandahåller mediciner
               för dem som är sjuka efter kl. 22.00 på kvällen. Jag vet inte
-              om Apoteket C W Scheele som ligger i centrala Helsingfors är alternativet
+              om Apoteket C W Scheele som ligger i centrala Stockholm är alternativet
               för dem som bor i Sorsele att åka till på natten när vederbörande
               akut behöver medicin till sitt sjuka barn.
             </seg>
-            <seg n="ea22dbbf">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-51" prev="i-dc7d14bee44f5b33-43" who="Q378195">
+            <seg>
               Det handlar om tillgänglighet för patienter och att kunna ha
               ett varierat utbud på platser där det tidigare inte har varit
               möjligt. Att kunna köpa huvudvärkstabletter på en bensinstation
@@ -561,13 +645,17 @@
               färre CO2-utsläpp i de produkter som bensinmacken i så fall skulle
               sälja än vad det är i den bensin som puttrar ut ur avgasrören.
             </seg>
-            <seg n="009d5724">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-52" prev="i-dc7d14bee44f5b33-43" who="Q378195">
+            <seg>
               Personalen får möjlighet att skapa alternativ och tillhandahålla
               och skapa en kundnära kontakt med patienter runt om i landet.
               Vid apoteksreformen i Norge kunde vi konstatera att det blev fler
               apotek efter avregleringen.
             </seg>
-            <seg n="f4be81d5">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-53" prev="i-dc7d14bee44f5b33-43" who="Q378195">
+            <seg>
               Jag kommer tillbaka till de argument som florerade när vi hade
               debatten i våras. I dag är det Sverige som i några veckor till
               tillsammans med Nordkorea och Kuba fortfarande har kvar apoteksmonopolet.
@@ -575,33 +663,39 @@
               låsning.
             </seg>
           </u>
-          <note n="cd1f88a9">
+          <note>
             I detta anförande instämde Cecilie Tenfjord-Toftby (m).
           </note>
-          <note type="speaker" n="534b469e">
+          <note type="speaker">
             Anf. 8 Socialminister GÖRAN HÄGGLUND (kd):
           </note>
-          <u who="Q918261" xml:id="i-e61fa9bd2df0dceb-1" n="be8cebe0">
-            <seg n="8390d8b4">
+          <u xml:id="i-dc7d14bee44f5b33-54" next="i-dc7d14bee44f5b33-62" who="Q918261">
+            <seg>
               Herr talman! Tack för många inlägg! Det ger möjlighet att lägga
               en del saker till rätta. Det finns en del saker som vi kanske
               inte hade behövt diskutera om vi hade haft propositionen framför
               oss här i kammaren.
             </seg>
-            <seg n="40610a2f">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-55" prev="i-dc7d14bee44f5b33-54" who="Q918261">
+            <seg>
               Väldigt många av de argument som nu använts har diskuterats flera
               gånger tidigare. Det gäller till exempel glesbygdsargumenten.
               Det är en vanföreställning om man tror att det är så att apotek
               i glesbygd per definition är mindre lönsamma än andra. Då vet
               man inte riktigt vad man talar om.
             </seg>
-            <seg n="cc8900ce">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-56" prev="i-dc7d14bee44f5b33-54" who="Q918261">
+            <seg>
               Det är också så att hade man läst propositionen hade man känt
               till det regelverk som gäller för dem som kommer att driva apotek
               framöver i klustren och att de också kommer att ha en skyldighet
               att driva vidare de apotek som redan finns.
             </seg>
-            <seg n="ffbfea75">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-57" prev="i-dc7d14bee44f5b33-54" who="Q918261">
+            <seg>
               Hade man följt debatten hade man känt till att i Norge, som nämndes
               som exempel här tidigare, är det 15 kommuner som aldrig tidigare
               haft ett apotek som nu har fått ett efterlängtat apotek. Det gör
@@ -610,12 +704,16 @@
               att få tag i det som man behöver just då. Det är en oerhörd förbättring
               som inträffat.
             </seg>
-            <seg n="3287dfba">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-58" prev="i-dc7d14bee44f5b33-54" who="Q918261">
+            <seg>
               Är detta en ideologisk fråga, frågar Ronny Olander? Ja, självklart
               är det en ideologisk fråga. Men frågan är: Vad får denna ideologi
               för praktiska tillämpningar?
             </seg>
-            <seg n="cdaa19bc">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-59" prev="i-dc7d14bee44f5b33-54" who="Q918261">
+            <seg>
               Med er politik har vi en statlig ägare som äger alla de apotek
               som finns, och vi har problem när det gäller tillgängligheten
               i Sverige. Vi har lägre tillgänglighet än i alla andra jämförbara
@@ -623,7 +721,9 @@
               öppettider än man har i andra länder. Det är den praktiska följden
               av er politik.
             </seg>
-            <seg n="61c2141c">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-60" prev="i-dc7d14bee44f5b33-54" who="Q918261">
+            <seg>
               Vi föreslår en ny lösning som innebär att fler aktörer kommer
               in på marknaden. Jag har till och med fått riksdagen att besluta
               om detta. Fler aktörer kommer att kunna erbjuda sina produkter.
@@ -634,7 +734,9 @@
               Ronny Olander, och köpa nässprej till barnen är de förmodligen
               väldigt glada över detta.
             </seg>
-            <seg n="4ee8917e">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-61" prev="i-dc7d14bee44f5b33-54" who="Q918261">
+            <seg>
               Ska man fullfölja Ronny Olanders resonemang får man upphöra med
               alla de olika depåer som finns. Jag befinner mig till exempel
               på Öland på somrarna. I den lilla Icabutiken finns inte bara mjölk,
@@ -646,7 +748,9 @@
               har någonting särskilt emot att just bensinmackar skulle sälja
               det här. Det är möjligt. I så fall får han redogöra för detta.
             </seg>
-            <seg n="bc6192df">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-62" prev="i-dc7d14bee44f5b33-54" who="Q918261">
+            <seg>
               Finns det ett intresse av att kränga mer av receptbelagda läkemedel?
               är en annan fråga. Det här skulle vara stora bolags önskemål.
               Då vill jag bara påminna om att när det gäller receptbelagda läkemedel
@@ -657,25 +761,29 @@
               naturligtvis läkaretiken och det regelverk som gäller där.
             </seg>
           </u>
-          <note type="speaker" n="3dfad79c">
+          <note type="speaker">
             Anf. 9 EVA-LENA JANSSON (s):
           </note>
-          <u who="Q3374622" xml:id="i-ddae443c41856e77-1" n="4409e4bb">
-            <seg n="385f5099">
+          <u xml:id="i-dc7d14bee44f5b33-63" next="i-dc7d14bee44f5b33-68" who="Q3374622">
+            <seg>
               Herr talman! Det är fascinerande att statsrådet under de minuter
               han hade på sig inte svarade på interpellantens frågor med hänvisning
               till interpellationen som jag nyligen har ställt och fått några
               luddiga svar på. Jag tänker upprepa dem till Göran Hägglund, så
               att han får möjlighet att nedteckna dem och därmed svara på dem.
             </seg>
-            <seg n="4a76ab5a">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-64" prev="i-dc7d14bee44f5b33-63" who="Q3374622">
+            <seg>
               Det handlar om direktiv till Apoteket AB. Man hade kallat till
               en extrastämma som styrelsen inte kände till. När styrelsen fick
               kännedom om detta meddelade man att man inte tänkte ta del av
               direktiven, för man ansåg att det äventyrade Apoteket AB. Det
               ledde till att regeringen sparkade styrelsen.
             </seg>
-            <seg n="b872a8d6">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-65" prev="i-dc7d14bee44f5b33-63" who="Q3374622">
+            <seg>
               Jag har försökt få ut de här handlingarna. Jag har inte kunnat
               ta del av dem. Jag vet att även medier har försökt få tag på handlingarna
               men inte kunnat ta del av dem. Jag har ställt en skriftlig fråga
@@ -684,7 +792,9 @@
               det heller, utan en hänvisning till att de inte lyder under offentlighetsprincipen,
               vilket inte är svar på frågan.
             </seg>
-            <seg n="5ee46fbf">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-66" prev="i-dc7d14bee44f5b33-63" who="Q3374622">
+            <seg>
               Jag upprepar: Betyder det här svaret att Göran Hägglund vet vilka
               restriktioner som Apoteket Omstrukturering AB har uppställt i
               ägarinstruktionen till Apoteket AB? Är Göran Hägglund förhindrad
@@ -699,7 +809,9 @@
               sagt att man äventyrar hela bolagets framtid och att man äventyrar
               läkemedelsförsörjningen.
             </seg>
-            <seg n="e1251919">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-67" prev="i-dc7d14bee44f5b33-63" who="Q3374622">
+            <seg>
               Kan statsrådet här och nu garantera att Sverige inte riskerar
               läkemedelsförsörjningen genom den här förändringen? Kan statsrådet
               också här, med hänvisning till det svar vi har fått, garantera
@@ -710,16 +822,18 @@
               som i Norge, med ökade läkemedelskostnader för både det norska
               folket och den norska staten?
             </seg>
-            <seg n="090b4a33">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-68" prev="i-dc7d14bee44f5b33-63" who="Q3374622">
+            <seg>
               Herr talman! Jag hoppas att statsrådet har tid att svara på de
               frågor jag har med anledning av hans svar på interpellationen.
             </seg>
           </u>
-          <note type="speaker" n="1c30bd4c">
+          <note type="speaker">
             Anf. 10 BRITTA RÅDSTRÖM (s):
           </note>
-          <u who="Q4971571" xml:id="i-0ae7798b4f8846bb-1" n="e00b2251">
-            <seg n="ee628414">
+          <u xml:id="i-dc7d14bee44f5b33-69" next="i-dc7d14bee44f5b33-72" who="Q4971571">
+            <seg>
               Herr talman! Jag fick inte heller svar på en del av de frågor
               jag ställde. Det handlar om apoteken i glesbygden. Är ministern
               beredd att garantera särskilda åtgärder så att läkemedelsförsörjningen
@@ -727,33 +841,41 @@
               också om människor som bor utanför den kanske lilla tätorten och
               har tio till tolv mil till den för att besöka sitt apotek.
             </seg>
-            <seg n="218a5428">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-70" prev="i-dc7d14bee44f5b33-69" who="Q4971571">
+            <seg>
               En annan fråga är hur man garanterar läkemedelssäkerheten och
               kunskapen hos personalen om det släpps fritt. Om man jämför med
               andra länder där det är möjligt att gå in på apotek och köpa nästan
               vad som helst utan recept kan man fundera: Om det släpps helt
               fritt i Sverige också, hur garanteras detta?
             </seg>
-            <seg n="e82c21f5">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-71" prev="i-dc7d14bee44f5b33-69" who="Q4971571">
+            <seg>
               Vad jag menar är att det viktigaste för regeringen är: Sälj ut,
               sälj ut! Förutom det har det varit att sänka skatterna; det är
               bekant. Det är de två viktigaste frågorna.
             </seg>
-            <seg n="575dcae7">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-72" prev="i-dc7d14bee44f5b33-69" who="Q4971571">
+            <seg>
               Jag vill inte påstå att apoteken i glesbygden är lönsamma. Det
               har jag svårt att tro, eftersom det bor så lite folk där. Men
               de bör ändå garanteras försörjning av läkemedel.
             </seg>
           </u>
-          <note type="speaker" n="52fd2b62">
+          <note type="speaker">
             Anf. 11 FINN BENGTSSON (m):
           </note>
-          <u who="Q5570168" xml:id="i-24d698929b8e101a-1" n="266e193f">
-            <seg n="acc89bf1">
+          <u xml:id="i-dc7d14bee44f5b33-73" next="i-dc7d14bee44f5b33-76" who="Q5570168">
+            <seg>
               Herr talman! Det här är både en ideologisk debatt och en annan
               debatt som handlar om sakfrågor. Vi tar det ideologiska först.
             </seg>
-            <seg n="18234c2e">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-74" prev="i-dc7d14bee44f5b33-73" who="Q5570168">
+            <seg>
               Här har nu två debattörer, interpellanten och en till, varit
               uppe och krävt att socialministern ska garantera både det ena
               och det andra. Precis som det står i svaret handlar detta om en
@@ -770,7 +892,9 @@
               till urtiden. Det är pinsamt att höra detta när svenska folket
               har valt ett annat alternativ i ett öppet demokratiskt val.
             </seg>
-            <seg n="13b6f505">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-75" prev="i-dc7d14bee44f5b33-73" who="Q5570168">
+            <seg>
               I sakfrågan får vi höra ett fantastiskt resonemang av Ronny Olander,
               nämligen att den lägre tillgänglighet vi har i Sverige faktiskt
               är gynnsam. Den är så gynnsam att man egentligen slipper använda
@@ -779,7 +903,9 @@
               apotek och förbjuda läkemedel. Det är en väg som vi möjligtvis
               inte bör vandra.
             </seg>
-            <seg n="f0af35e3">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-76" prev="i-dc7d14bee44f5b33-73" who="Q5570168">
+            <seg>
               Ronny Olander ställer den omöjliga frågan om någon här i Sverige
               inte har fått läkemedel i tid. Det kan jag svara Olander på. Det
               har verkligen varit så. Problemet är att vi bara har ett enda
@@ -791,18 +917,20 @@
               vi nu kommer att få många fler av.
             </seg>
           </u>
-          <note type="speaker" n="f48dc332">
+          <note type="speaker">
             Anf. 12 LENNART AXELSSON (s):
           </note>
-          <u who="Q5563036" xml:id="i-8cfb4b64856bbb17-1" n="7041db86">
-            <seg n="dbb6ea4e">
+          <u xml:id="i-dc7d14bee44f5b33-77" next="i-dc7d14bee44f5b33-80" who="Q5563036">
+            <seg>
               Herr talman! Att man i och med att man vann valet fått mandat
               från svenska folket att göra detta kan säkert hävdas. Jag tror
               dock inte att jag hittat någon bland alla de människor jag träffat
               som tycker att detta är en jättebra idé. Hur starkt mandatet är
               kan man därför fundera över.
             </seg>
-            <seg n="462f32dd">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-78" prev="i-dc7d14bee44f5b33-77" who="Q5563036">
+            <seg>
               Att Hans Rothenberg inte vet hur partierna tagit ställning i
               delar av dessa frågor kan jag ha viss förståelse för, men att
               inte heller socialministern verkar veta det gör mig lite bekymrad.
@@ -810,7 +938,9 @@
               är receptbelagda blir det naturligtvis knepigt för dem som lyssnar
               att veta vad vi står för.
             </seg>
-            <seg n="19c139ec">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-79" prev="i-dc7d14bee44f5b33-77" who="Q5563036">
+            <seg>
               Vi har sagt att vi tycker att det är helt okej att öppna upp
               för att sälja läkemedel på Ica, Konsum och så vidare. De nässprejer
               och huvudvärkstabletter som utgjorde en ganska stor del av Göran
@@ -823,20 +953,24 @@
               alltid finnas farmaceuter tillgängliga på de ställen där sådana
               läkemedel säljs.
             </seg>
-            <seg n="8c10554c">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-80" prev="i-dc7d14bee44f5b33-77" who="Q5563036">
+            <seg>
               Det handlar alltså om den stora och viktiga delen av vår gemensamma
               hälso- och sjukvård, inte i första hand om huvudvärkstabletter.
             </seg>
           </u>
-          <note type="speaker" n="bcc43a8d">
+          <note type="speaker">
             Anf. 13 RONNY OLANDER (s):
           </note>
-          <u who="Q6024368" xml:id="i-4849743379be7b29-1" n="130ecf9d">
-            <seg n="61dee87c">
+          <u xml:id="i-dc7d14bee44f5b33-81" next="i-dc7d14bee44f5b33-86" who="Q6024368">
+            <seg>
               Herr talman! Det är intressant att så många meddebattörer tar
               upp dessa viktiga frågor.
             </seg>
-            <seg n="30554317">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-82" prev="i-dc7d14bee44f5b33-81" who="Q6024368">
+            <seg>
               Det jag sade om bensinstationer och annat var just utifrån en
               kontroll- och säkerhetsaspekt. Det är viktigt att veta vilka som
               jobbar på de olika ställena, även om det finns en lista; jag har
@@ -844,14 +978,18 @@
               det hela väldigt bra. Det jag pratade om gällde alltså någonting
               helt annat.
             </seg>
-            <seg n="5e9f787b">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-83" prev="i-dc7d14bee44f5b33-81" who="Q6024368">
+            <seg>
               Sedan måste det vara lite pinsamt för Göran Hägglund att ha sådana
               meddrabanter, även om jag förstår att han inte kan styra över
               det, som snackar om kommunistdiktaturer och det ena med det andra.
               Detta ska väl vara en saklig debatt om huruvida man ska säkerställa
               att det verkligen finns läkemedel för människorna ute i landet.
             </seg>
-            <seg n="ed0d6ef8">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-84" prev="i-dc7d14bee44f5b33-81" who="Q6024368">
+            <seg>
               Det jag sade om ett EU-perspektiv handlar om att ingen kommer
               hit och skapar stora kluster, tar över verksamheter, utan för
               att tjäna pengar. Det är inga välgörenhetsfirmor som kommer hit
@@ -860,13 +998,17 @@
               fall kommer hit. De borgerliga ledamöterna får hyfsa till debatten,
               för annars blir det, som jag sade, nästan pinsamt.
             </seg>
-            <seg n="ef6c8f71">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-85" prev="i-dc7d14bee44f5b33-81" who="Q6024368">
+            <seg>
               Jag frågade om inte socialministern tycker att Apoteksbolaget
               har fungerat, om det finns några svenskar som inte har fått läkemedel,
               även om man alltid kan hitta enstaka sådana fall. Vi är också
               beredda att göra detta för dem som behöver receptfria läkemedel.
             </seg>
-            <seg n="d8004629">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-86" prev="i-dc7d14bee44f5b33-81" who="Q6024368">
+            <seg>
               Som det sades är det här också en ideologisk fråga. Alliansen
               sålde ut Vin &amp; Sprit i Åhus. 50 miljarder fick man till statskassan.
               De pengarna är borta, det finns inte en krona kvar. I stället
@@ -877,18 +1019,20 @@
               klargörandet.
             </seg>
           </u>
-          <note type="speaker" n="b4b0b828">
+          <note type="speaker">
             Anf. 14 HANS ROTHENBERG (m):
           </note>
-          <u who="Q378195" xml:id="i-48fcd197a0b79aed-1" n="2c46ff9b">
-            <seg n="74afeef7">
+          <u xml:id="i-dc7d14bee44f5b33-87" next="i-dc7d14bee44f5b33-90" who="Q378195">
+            <seg>
               Herr talman! Vi är inne i en tid när debatten om att tillhandahålla
               vaccin mot svininfluensan är livlig. Hinner vaccinet komma i tid?
               Kommer man att i tid hinna vaccinera människor som behöver det?
               Ska vi få tillgång till vaccinet? Ska vi i Sverige få tillgång
               till mediciner som människor, medborgare, behöver?
             </seg>
-            <seg n="3fa8bfee">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-88" prev="i-dc7d14bee44f5b33-87" who="Q378195">
+            <seg>
               När svininfluensan kanske kommer i en andra våg och lägger stor
               belastning på såväl Apoteket AB som de fristående apotek som förhoppningsvis
               öppnar inom kort står vi i Sveriges riksdag och diskuterar huruvida
@@ -896,7 +1040,9 @@
               inte skapa möjligheter för människor som behöver få tillgång till
               detta.
             </seg>
-            <seg n="883e1098">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-89" prev="i-dc7d14bee44f5b33-87" who="Q378195">
+            <seg>
               Reformen om avreglering av apoteksmonopolet handlar dels om receptbelagda
               mediciner som ska säljas via apotek, dels om receptfria läkemedel
               som patienter, medborgare, ska ha tillgång till på andra platser
@@ -907,7 +1053,9 @@
               i butiker dygnet runt, flera dagar i veckan, när apoteket har
               stängt.
             </seg>
-            <seg n="3075307b">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-90" prev="i-dc7d14bee44f5b33-87" who="Q378195">
+            <seg>
               Jag har ännu inte hört någon från oppositionssidan tala om patientperspektivet
               och personalperspektivet. Lennart Axelsson har inte mött någon
               som applåderar reformen. Välkommen till verkligheten! Kom ut och
@@ -915,11 +1063,11 @@
               är en bra ideologi i detta sammanhang.
             </seg>
           </u>
-          <note type="speaker" n="000ed64b">
+          <note type="speaker">
             Anf. 15 CARINA ADOLFSSON ELGESTAM (s):
           </note>
-          <u who="Q3375840" xml:id="i-644148554fd1b2c8-0" n="01adcad3">
-            <seg n="dfd30cd5">
+          <u xml:id="i-dc7d14bee44f5b33-91" next="i-dc7d14bee44f5b33-97" who="Q3375840">
+            <seg>
               Herr talman! Apoteket och vem som ska äga det är en oerhört viktig
               fråga för svenska folket. Det hela är kanske inte så enkelt som
               flera av talarna på den borgerliga sidan framfört. Det handlar
@@ -927,7 +1075,9 @@
               kunna vara säker på att det finns en trygg försörjning för alla,
               oavsett var i landet man bor. Där någonstans måste man börja.
             </seg>
-            <seg n="4ea1f893">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-92" prev="i-dc7d14bee44f5b33-91" who="Q3375840">
+            <seg>
               Jag blir lite rädd när jag hör socialminister Göran Hägglund
               nästan lite grann raljera över barn som är täppta i näsan och
               att man då ska kunna åka till bensinmacken. Det är inte det som
@@ -938,7 +1088,9 @@
               det om de receptbelagda läkemedlen, om att kunna vara säker på
               att de är tillgängliga för oss medborgare.
             </seg>
-            <seg n="beb68e79">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-93" prev="i-dc7d14bee44f5b33-91" who="Q3375840">
+            <seg>
               I grund och botten handlar det inte, åtminstone inte för oss
               socialdemokrater, om farmaceuterna och deras vardag. Det är inte
               det allra viktigaste utan folket som bor ute i landet och tillgängligheten
@@ -950,7 +1102,9 @@
               bensinmackar som man i det här sammanhanget kan värna om försvinner
               i glesbygden, liksom en hel del annan försörjning.
             </seg>
-            <seg n="7d4f9302">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-94" prev="i-dc7d14bee44f5b33-91" who="Q3375840">
+            <seg>
               Hur är det, ministern, ska de privata apoteken agera under konkurrenslag
               och marknadskrafter? I så fall kan man fundera på hur marknaden
               ser ut och på möjligheten att få tillräckligt många kunder för
@@ -960,7 +1114,9 @@
               med. Också när man driver apotek i glesbygden är väl vinstintresset
               det övergripande målet.
             </seg>
-            <seg n="21ace66b">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-95" prev="i-dc7d14bee44f5b33-91" who="Q3375840">
+            <seg>
               Då är frågan: Finns det tillräckligt kundunderlag? Har man gjort
               en konsekvensanalys utifrån att man ute i glesbygden vet att det
               finns tillräckligt med underlag för att det kommer att bli fler
@@ -969,27 +1125,33 @@
               redogör för den för oss här i kammaren! Det skulle vara värdefullt
               att få ta del av den.
             </seg>
-            <seg n="9f83f22f">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-96" prev="i-dc7d14bee44f5b33-91" who="Q3375840">
+            <seg>
               Jag vet inte exakt hur det är i Norge. Men ligger verkligen alla
               de nya apotek som har startats i och med reformen i glesbygd?
               Eller är det snarare i småstäderna eller tätorterna runt omkring
               som man har startat de nya apoteksföretagen?
             </seg>
-            <seg n="d244d93e">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-97" prev="i-dc7d14bee44f5b33-91" who="Q3375840">
+            <seg>
               Till sist: Om det nu är problem med öppettiderna varför gör man
               då inte ett ägardirektiv och förändrar öppettiderna så att apoteken
               kanske kan ha öppet året runt? Är det inte det som är lösningen?
             </seg>
           </u>
-          <note type="speaker" n="95b5c291">
+          <note type="speaker">
             Anf. 16 Socialminister GÖRAN HÄGGLUND (kd):
           </note>
-          <u who="Q918261" xml:id="i-e61fa9bd2df0dceb-2" n="be8cebe0">
-            <seg n="1ca0ccd3">
+          <u xml:id="i-dc7d14bee44f5b33-98" next="i-dc7d14bee44f5b33-105" who="Q918261">
+            <seg>
               Herr talman! Det var många frågor. Jag ska försöka vara någorlunda
               strukturerad i svaren.
             </seg>
-            <seg n="2547a04c">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-99" prev="i-dc7d14bee44f5b33-98" who="Q918261">
+            <seg>
               Varför inte ge direktiv till Apoteket och säga åt dem att ha
               öppet några timmar till? Apoteket säger då: Det kan ni väl göra,
               men då får ni vara beredda att betala en del för det. Apoteket
@@ -1000,14 +1162,18 @@
               vi marknaden, får konkurrens och får nya företag som kommer in
               på marknaden. Nya apotek slår upp sina dörrar.
             </seg>
-            <seg n="74266099">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-100" prev="i-dc7d14bee44f5b33-98" who="Q918261">
+            <seg>
               Som jag sade tidigare är det 15 kommuner i Norge som tidigare
               aldrig har haft ett apotek. De ligger utspridda över hela landet.
               De har nu fått sitt första apotek. Det är naturligtvis ett otroligt
               framsteg för de människor som bor där att kunna gå till apoteket
               och få kvalificerad rådgivning.
             </seg>
-            <seg n="5d22d7e0">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-101" prev="i-dc7d14bee44f5b33-98" who="Q918261">
+            <seg>
               För den som till äventyrs skulle ha glömt bort vad vi har debatterat
               i kammaren många gånger tidigare och vad som har stått i propositionen
               när det gäller glesbygd kan jag berätta att nya apoteksaktörer
@@ -1016,7 +1182,9 @@
               kommer Apoteket AB att behålla sina ombud, och de är ju många
               som bekant.
             </seg>
-            <seg n="14642ca7">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-102" prev="i-dc7d14bee44f5b33-98" who="Q918261">
+            <seg>
               Utöver detta kan vi förvänta oss att vi får ytterligare apotek
               i form av bensinmackar, Icabutiker, Konsumbutiker eller vad det
               nu kan finnas för rörelser runt om i glesbygden som kommer att
@@ -1027,7 +1195,9 @@
               och tillgängligheten till läkemedel i glesbygd kommer att öka
               i och med de beslut som vi fattar.
             </seg>
-            <seg n="6a8a3fc6">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-103" prev="i-dc7d14bee44f5b33-98" who="Q918261">
+            <seg>
               När det gäller ägardirektiven skrivs det i själva interpellationen
               en del om direktiven från omstruktureringsbolaget till Apoteket
               AB. Det är rätt att Apoteket AB har fått sin frihet begränsad.
@@ -1038,7 +1208,9 @@
               har sitt ansvar. Nya aktörer kommer in och kommer också att ikläda
               sig ett ansvar.
             </seg>
-            <seg n="4254eb49">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-104" prev="i-dc7d14bee44f5b33-98" who="Q918261">
+            <seg>
               Britta Rådström ställer en fråga och jämför med andra länder
               där man kan gå in på ett apotek och köpa allt. Då glömmer man
               bort den svenska lagstiftning som ligger i grunden. Man kan inte
@@ -1047,7 +1219,9 @@
               ut på apotek vare sig de är statligt ägda eller drivs i annan
               form. Det är en del av poängen med det hela.
             </seg>
-            <seg n="4c7602b2">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-105" prev="i-dc7d14bee44f5b33-98" who="Q918261">
+            <seg>
               Vi hamnade i en situation där Apoteket AB:s styrelse ville utnyttja
               den möjlighet som nu finns till att expandera. Vi ville vara tydliga
               med att vi var inne i en period där man ska vara försiktig därför
@@ -1059,30 +1233,36 @@
               AB är en fortsatt stark kraft på marknaden.
             </seg>
           </u>
-          <note type="speaker" n="b114098a">
+          <note type="speaker">
             Anf. 17 EVA-LENA JANSSON (s):
           </note>
-          <u who="Q3374622" xml:id="i-ddae443c41856e77-2" n="4409e4bb">
-            <seg n="2497c906">
+          <u xml:id="i-dc7d14bee44f5b33-106" next="i-dc7d14bee44f5b33-111" who="Q3374622">
+            <seg>
               Herr talman! Jag ska göra ett tillägg till den garanti som regeringen
               gav när det gäller apoteken. Den garantin kommer de nya apoteken
               att vara ansvariga för bara under tre års tid. Efter tre år får
               de göra precis som de vill. Då kan man lägga ned alla nya apotek
               som har uppstått i glesbygden, om det nu skulle vara så.
             </seg>
-            <seg n="3b8bdaee">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-107" prev="i-dc7d14bee44f5b33-106" who="Q3374622">
+            <seg>
               Man kan sänka lönsamhetskraven på Apoteket AB om man vill ha
               fler apotek och ökad tillgänglighet. Man har alla möjligheter
               i världen att ändra ägardirektiven, precis som Carina Adolfsson
               Elgestam sade.
             </seg>
-            <seg n="9bfa211a">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-108" prev="i-dc7d14bee44f5b33-106" who="Q3374622">
+            <seg>
               Jag kommer tillbaka till frågorna, herr talman. Jag kanske är
               lite tjatig i debatten, men den har ju handlat om de ägarinstruktioner
               som Apoteket Omstrukturering AB har gett till Apoteket och som
               jag som riksdagsledamot inte kan ta del av.
             </seg>
-            <seg n="017acde9">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-109" prev="i-dc7d14bee44f5b33-106" who="Q3374622">
+            <seg>
               Jag har frågat om detta betyder att statsrådet Göran Hägglund
               vet vilka restriktioner som Apoteket Omstrukturering AB har ställt
               upp i ägarinstruktioner till Apoteket AB. Är Göran Hägglund förhindrad
@@ -1092,14 +1272,18 @@
               av ägarinstruktionerna för att kunna se om allting har gått rätt
               till?
             </seg>
-            <seg n="8703aa01">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-110" prev="i-dc7d14bee44f5b33-106" who="Q3374622">
+            <seg>
               Vad är anledningen till att vi i riksdagen och medierna förvägras
               att se instruktionerna till Apoteket AB? Jag kan förstå att medierna
               inte kan ta del av allting, men vi riksdagsledamöter kan ta del
               av information som sedan sekretessbeläggs. Hägglund har hittills
               inte velat tala om varför han inte vill göra så.
             </seg>
-            <seg n="f4801fd3">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-111" prev="i-dc7d14bee44f5b33-106" who="Q3374622">
+            <seg>
               Vilka är argumenten för att hemlighålla instruktionerna till
               Apoteket AB? Skulle det, precis som Per Båtelson sade, visa att
               hela verksamheten och läkemedelsförsörjningen hotas? Det är allvarliga
@@ -1110,18 +1294,20 @@
               kunnat svara på varför vi inte får ta del av ägarinstruktionerna.
             </seg>
           </u>
-          <note type="speaker" n="da8c8cbf">
+          <note type="speaker">
             Anf. 18 CARINA ADOLFSSON ELGESTAM (s):
           </note>
-          <u who="Q3375840" xml:id="i-644148554fd1b2c8-1" n="01adcad3">
-            <seg n="6a9d35f6">
+          <u xml:id="i-dc7d14bee44f5b33-112" next="i-dc7d14bee44f5b33-116" who="Q3375840">
+            <seg>
               Herr talman! Det är inte utan att man blir lite förvånad när
               man hör Sveriges socialminister säga så här angående kostnaderna
               för längre öppettider på apoteken: Bekymret, och anledningen till
               att man inte gör förändringar i ägardirektivet, är att det skulle
               bli för dyrt, för då måste vi betala för det.
             </seg>
-            <seg n="63915d8e">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-113" prev="i-dc7d14bee44f5b33-112" who="Q3375840">
+            <seg>
               Jag blir lite förvånad. Om man nu ska driva ett apotek, är farmaceut
               och har kostat på sig en bra utbildning ska man då ha lägre inkomst
               när man är privat företagare och driver ett apotek? Är det detta
@@ -1130,7 +1316,9 @@
               regi eller privat. Jag antar att vi ska följa avtal om löner och
               annat på marknaden.
             </seg>
-            <seg n="a91fb594">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-114" prev="i-dc7d14bee44f5b33-112" who="Q3375840">
+            <seg>
               Ministern svarade inte på frågan. Är det så att apoteken även
               i glesbygden ska lyda under konkurrenslag och under det som är
               kopplat till marknadskrafterna? Jag tar för givet att det är så
@@ -1139,13 +1327,17 @@
               säger att det inte går att lägga ned apotek. Om de inte går med
               vinst ska det ändå inte kunna gå att lägga ned dem.
             </seg>
-            <seg n="4358b6ab">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-115" prev="i-dc7d14bee44f5b33-112" who="Q3375840">
+            <seg>
               Men vad ska då hända om man är företagare och äger ett apotek
               som inte går med vinst? Ska samhället gå in och ta över, eller
               ska det komma någon annan? Det måste väl ändå bygga på lönsamhet?
               Det är det här som blir så konstigt.
             </seg>
-            <seg n="9993e884">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-116" prev="i-dc7d14bee44f5b33-112" who="Q3375840">
+            <seg>
               Utifrån de besked som ministern ger här i kammaren i dag i de
               olika frågor som vi har ställt är jag ännu mer orolig inför framtiden,
               framför allt när det gäller glesbygden. För städerna, där marknaden
@@ -1154,25 +1346,31 @@
               Det måste vara en rättighet för alla.
             </seg>
           </u>
-          <note type="speaker" n="2500319d">
+          <note type="speaker">
             Anf. 19 Socialminister GÖRAN HÄGGLUND (kd):
           </note>
-          <u who="Q918261" xml:id="i-e61fa9bd2df0dceb-3" n="be8cebe0">
-            <seg n="bda769d1">
+          <u xml:id="i-dc7d14bee44f5b33-117" next="i-dc7d14bee44f5b33-123" who="Q918261">
+            <seg>
               Herr talman! Den process som apoteksmarknaden genomgår måste
               ske med stor försiktighet. Därför tar vi steg för steg för att
               säkerställa att vi klarar bland annat frågor som rör läkemedelsförsörjningen.
             </seg>
-            <seg n="8326dc5c">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-118" prev="i-dc7d14bee44f5b33-117" who="Q918261">
+            <seg>
               Det här finns reglerat genom en mängd olika beslut som handlar
               om att läkemedelsförsörjningen ska vara säker, ändamålsenlig och
               hållbar, på både kort och lång sikt.
             </seg>
-            <seg n="ce58a815">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-119" prev="i-dc7d14bee44f5b33-117" who="Q918261">
+            <seg>
               Allt det här framgår av propositionen och har beslutats i vederbörlig
               ordning av Sveriges riksdag.
             </seg>
-            <seg n="be515391">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-120" prev="i-dc7d14bee44f5b33-117" who="Q918261">
+            <seg>
               När det gäller frågan om det här är en ideologisk fråga återkommer
               jag till att vi som tror att marknaden är bättre på att distribuera
               saker och ting självklart tror att det här är en bra lösning.
@@ -1180,43 +1378,51 @@
               Därför talar vi inte om en avreglering, utan detta är en omreglering
               som gör att fler aktörer kan komma in och vara verksamma.
             </seg>
-            <seg n="5f796a24">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-121" prev="i-dc7d14bee44f5b33-117" who="Q918261">
+            <seg>
               Detta gör att vi kommer att få konkurrens på det här området.
               Det här kommer att innebära att vi får en högre servicenivå, att
               vi får längre öppettider och att vi får fler apotek i Sverige.
             </seg>
-            <seg n="03673357">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-122" prev="i-dc7d14bee44f5b33-117" who="Q918261">
+            <seg>
               Vi har säkerställt, genom en lång rad beslut, att vi kommer att
               kunna säkra tillgången på apotek också på glesbygden. Där kan
               man vara orolig, men vi kan säkra att det där kommer att finnas
               åtminstone lika många apotek som det finns i dag. Men jag tror
               att det kommer till fler.
             </seg>
-            <seg n="a1a3a635">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-123" prev="i-dc7d14bee44f5b33-117" who="Q918261">
+            <seg>
               När det gäller dokumentationen omkring den process som vi nu
               är igenom kommer naturligtvis riksdagen tids nog att få den. Just
               nu befinner vi oss i ett känsligt läge med en budgivning. Allting
               kommer naturligtvis att redovisas sedermera.
             </seg>
           </u>
-          <note n="3a8f3273">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="cd0fad48">
+          <note>
             4 § Svar på interpellation 2009/10:20 om rätten till barnomsorg
             på obekväm arbetstid
           </note>
-          <note type="speaker" n="744623f9">
+          <note type="speaker">
             Anf. 20 Utbildningsminister JAN BJÖRKLUND (fp):
           </note>
-          <u who="Q911372" xml:id="i-c3bcd3bebffd216d-0" n="31ecf511" next="i-6c0434a49f086738-0">
-            <seg n="5ddd3c6e">
+          <u xml:id="i-dc7d14bee44f5b33-124" next="i-dc7d14bee44f5b33-126" who="Q911372">
+            <seg>
               Herr talman! Peter Hultqvist har frågat mig vilka åtgärder jag
               avser att vidta för att med hänvisning till förslaget till ny
               skollag skapa större klarhet kring föräldrars rätt till barnomsorg
               på obekväm arbetstid.
             </seg>
-            <seg n="2fb7fb85">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-125" prev="i-dc7d14bee44f5b33-124" who="Q911372">
+            <seg>
               I dagens skollag, den som gäller nu, framgår att förskoleverksamhet
               ska tillhandahållas i den omfattning det behövs med hänsyn till
               föräldrarnas förvärvsarbete eller studier eller barnets eget behov.
@@ -1226,15 +1432,15 @@
               önskvärt att så sker.
             </seg>
           </u>
-          <note n="5ffce977">
+          <note>
             Motsvarande bestämmelse finns i förslaget till ny skollag som
             för närvarande bereds inom Regeringskansliet. I kap. 23, som rör
             annan pedagogisk verksamhet, som det heter, framgår av 5 § att
             kommunen ska sträva efter att erbjuda omsorg under så kallad obekväm
             arbetstid.
           </note>
-          <u who="Q911372" xml:id="i-6c0434a49f086738-0" n="31ecf511" prev="i-c3bcd3bebffd216d-0">
-            <seg n="373b14aa">
+          <u xml:id="i-dc7d14bee44f5b33-126" prev="i-dc7d14bee44f5b33-124" who="Q911372">
+            <seg>
               Utgångspunkten för det här förslaget är, som jag har svarat Peter
               Hultqvist i en tidigare interpellation i samma fråga, att det
               är önskvärt att föräldrar med så kallade obekväma arbetstider
@@ -1242,91 +1448,121 @@
               av kommunen i varje individuellt fall.
             </seg>
           </u>
-          <note type="speaker" n="44a12500">
+          <note type="speaker">
             Anf. 21 PETER HULTQVIST (s):
           </note>
-          <note n="87511aa9">
+          <note>
             Herr talman! Tack för svaret! I förslaget till ny skollag markeras
             under rubriken Erbjudande av förskola följande:
           </note>
-          <u who="Q3370162" xml:id="i-d9f6a7add78d0aa8-0" n="13388a1b">
-            <seg n="e89a5923">
+          <u xml:id="i-dc7d14bee44f5b33-127" next="i-dc7d14bee44f5b33-143" who="Q3370162">
+            <seg>
               Förskola behöver dock inte erbjudas under kvällar, nätter, veckoslut
               eller i samband med större helger.
             </seg>
-            <seg n="7711c15a">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-128" prev="i-dc7d14bee44f5b33-127" who="Q3370162">
+            <seg>
               Det här är en markering om att kommunerna inte behöver erbjuda
               förskola. Någon sådan markering finns inte i 1985 års skollag.
             </seg>
-            <seg n="9c3826d2">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-129" prev="i-dc7d14bee44f5b33-127" who="Q3370162">
+            <seg>
               När det gäller omsorg är förslaget uttryckt som en strävan att
               kommunerna ska erbjuda detta på så kallad obekväm tid. Det innebär
               enligt förslaget att det inte ska vara möjligt att avskaffa tillgången
               till kommunalt finansierad omsorg för barn vars föräldrar förvärvsarbetar
               under obekväm arbetstid.
             </seg>
-            <seg n="e5242405">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-130" prev="i-dc7d14bee44f5b33-127" who="Q3370162">
+            <seg>
               Samtidigt markeras följande:
             </seg>
-            <seg n="af059356">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-131" prev="i-dc7d14bee44f5b33-127" who="Q3370162">
+            <seg>
               Å andra sidan innebär det ingen rättighet att i enskilda fall
               få omsorg under obekväm tid. Föräldrars ansvar för att hitta lösningar
               när det gäller barnets behov kvarstår.
             </seg>
-            <seg n="a6b59e14">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-132" prev="i-dc7d14bee44f5b33-127" who="Q3370162">
+            <seg>
               Slutligen konstateras: Förslaget innebär därför inte några utökade
               ekonomiska krav på kommunerna.
             </seg>
-            <seg n="39b457cc">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-133" prev="i-dc7d14bee44f5b33-127" who="Q3370162">
+            <seg>
               Lagförslaget skapar alltså ingen större klarhet om vad som egentligen
               gäller.
             </seg>
-            <seg n="24f622d8">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-134" prev="i-dc7d14bee44f5b33-127" who="Q3370162">
+            <seg>
               Handeln, järnverk, gruvor, IT-sektorn, tjänsteföretag och posten
               är bara några exempel på olika branscher och arbetsplatser där
               man har obekväma arbetstider.
             </seg>
-            <seg n="2dc471cc">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-135" prev="i-dc7d14bee44f5b33-127" who="Q3370162">
+            <seg>
               Hur är det med arbetslinjen, ministern? Ska inte människor ha
               möjlighet att utföra sitt arbete? Ska man inte underlätta för
               dem som arbetar skift när det gäller att lösa barnens omsorgsbehov?
               Hur ska det så kallade livspusslet gå ihop?
             </seg>
-            <seg n="e0dd9e53">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-136" prev="i-dc7d14bee44f5b33-127" who="Q3370162">
+            <seg>
               Det här svaret är allmänt och till intet förpliktande. Det flyttar
               inte fram positionerna. Det förändrar egentligen ingenting i förhållande
               till hur det ser ut i dag.
             </seg>
-            <seg n="65f9604b">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-137" prev="i-dc7d14bee44f5b33-127" who="Q3370162">
+            <seg>
               Jag ställer den här interpellationen. I och med att man tar upp
               det här i den nya skollagen finns det ju all anledning att debattera
               den här frågan igen.
             </seg>
-            <seg n="0a8f9505">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-138" prev="i-dc7d14bee44f5b33-127" who="Q3370162">
+            <seg>
               Vi kommer från socialdemokratiskt håll, när den här lagen ska
               hanteras i riksdagen, att kräva en skärpning av lagstiftningen
               på den här punkten. De som arbetar på obekväm tid ska ha rätt
               till en trygg och fungerande omsorg för sina barn. Det är vår
               uppfattning.
             </seg>
-            <seg n="f89d6223">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-139" prev="i-dc7d14bee44f5b33-127" who="Q3370162">
+            <seg>
               Vi markerar vikten av att det sker genom att i vår alternativa
               budget nu anslå 100 miljoner kronor för ändamålet. Det är en början
               från vår sida i en fråga som vi anser måste lösas.
             </seg>
-            <seg n="5d07986c">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-140" prev="i-dc7d14bee44f5b33-127" who="Q3370162">
+            <seg>
               För oss är behovet viktigast, barnens och föräldrarnas behov
               av en trygg och fungerande omsorg. Det är viktigare än att hänvisa
               till kommunallagen.
             </seg>
-            <seg n="1b2d8bd7">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-141" prev="i-dc7d14bee44f5b33-127" who="Q3370162">
+            <seg>
               Att svara föräldrar som för sitt arbete och uppehälle är i behov
               av omsorg på obekväm tid vi kan inte göra någonting åt det här,
               för det strider mot det kommunala självstyret tycker jag inte
               riktigt håller när man konfronteras med verkligheten i de här
               frågorna.
             </seg>
-            <seg n="d51f0197">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-142" prev="i-dc7d14bee44f5b33-127" who="Q3370162">
+            <seg>
               Nej, avsätt en del statliga medel! Samarbeta med kommunerna om
               det här! Skärp texten i förslaget till ny skollag! Då skulle någonting
               kunna börja hända. Men med de här skrivningarna, med de här förslagen,
@@ -1334,28 +1570,34 @@
               en enda millimeter. Man förändrar ingen verklighet över huvud
               taget.
             </seg>
-            <seg n="e5c0dad3">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-143" prev="i-dc7d14bee44f5b33-127" who="Q3370162">
+            <seg>
               Mina frågor är egentligen: Varför är ministern inte beredd att
               göra skillnad? Varför är ministern inte beredd att flytta fram
               positionerna? Varför är ministern inte beredd att göra någonting
               över huvud taget när det gäller den här frågan?
             </seg>
           </u>
-          <note type="speaker" n="8e736dcb">
+          <note type="speaker">
             Anf. 22 CARINA ADOLFSSON ELGESTAM (s):
           </note>
-          <u who="Q3375840" xml:id="i-644148554fd1b2c8-2" n="01adcad3">
-            <seg n="1e1cc810">
+          <u xml:id="i-dc7d14bee44f5b33-144" next="i-dc7d14bee44f5b33-154" who="Q3375840">
+            <seg>
               Herr talman! Precis som Peter Hultqvist före mig var inne på
               är det fler och fler som arbetar på oregelbundna arbetstider.
               Jag tänker delge ministern ett exempel.
             </seg>
-            <seg n="982574d2">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-145" prev="i-dc7d14bee44f5b33-144" who="Q3375840">
+            <seg>
               Det är måndag, och snart ska Elin och Albin till dagis. Just
               den här dagen är det lite problem i familjen, för det är lite
               knepigt att lösa det här med barnomsorgen.
             </seg>
-            <seg n="9adc7ae0">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-146" prev="i-dc7d14bee44f5b33-144" who="Q3375840">
+            <seg>
               Pappan i familjen jobbar dagtid men kommer inte hem förrän kl.
               19. Mamman jobbar kvällsskift inom vården. Det handlar om att
               få familjelivet att gå ihop mellan kl. 18 och 19 på kvällen. Vid
@@ -1363,24 +1605,32 @@
               ska få barnomsorg. Detta får man alltså lösa med hjälp av goda
               vänner, släkt och anhöriga.
             </seg>
-            <seg n="28857b1d">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-147" prev="i-dc7d14bee44f5b33-144" who="Q3375840">
+            <seg>
               Det kan inte vara acceptabelt i dagens samhälle med tanke på
               hur arbetslivet har förändrats och med tanke på arbetslinjen.
               Och det är ju det vi vill. Vi vill väl att människor ska komma
               ut i arbete och ha möjlighet till arbete.
             </seg>
-            <seg n="9e1bad87">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-148" prev="i-dc7d14bee44f5b33-144" who="Q3375840">
+            <seg>
               I dag vet vi att det finns framför allt kvinnor som kommer i
               kläm. Arbetslösa som söker arbete och får ett jobb inom ett yrke
               där det ingår kvällsarbete och nattarbete får kanske ingen barnomsorg
               eftersom det inte är så många kommuner som tillhandahåller det.
             </seg>
-            <seg n="96045ed3">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-149" prev="i-dc7d14bee44f5b33-144" who="Q3375840">
+            <seg>
               Det finns kommuner som tillhandahåller barnomsorg på obekväm
               arbetstid, men i och med att det inte är ett krav eller en rättighetslagstiftning
               är det inte alla kommuner som tillhandahåller det.
             </seg>
-            <seg n="00ff2971">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-150" prev="i-dc7d14bee44f5b33-144" who="Q3375840">
+            <seg>
               Då kan kontentan bli, vilket ett flertal tyvärr vittnar om, att
               man inte kan söka ett visst arbete. Det finns också de som är
               anställda på arbetsplatser där arbetsledningen eller företaget
@@ -1390,7 +1640,9 @@
               bli att man blir tvingad att säga upp sig för att man inte klarar
               barnomsorgen.
             </seg>
-            <seg n="64dd70d3">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-151" prev="i-dc7d14bee44f5b33-144" who="Q3375840">
+            <seg>
               Alla har inte i dag nära och anhöriga som kan ställa upp och
               hjälpa till när man behöver lösa detta. I ett modernt Sverige
               där vi tycker att jobben är viktiga borde rättigheten till barnomsorg
@@ -1398,19 +1650,25 @@
               fram till kl. 6 på morgonen, vara samma rätt som att få barnomsorg
               på dagtid.
             </seg>
-            <seg n="8c997b66">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-152" prev="i-dc7d14bee44f5b33-144" who="Q3375840">
+            <seg>
               I svaret sägs att det är önskvärt och eftersträvansvärt. Det
               hjälper inte Ellens och Albins föräldrar när de funderar på hur
               de ska få livet att gå ihop.
             </seg>
-            <seg n="d354a0af">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-153" prev="i-dc7d14bee44f5b33-144" who="Q3375840">
+            <seg>
               Det känns väldigt märkligt med det svar som Peter Hultqvist har
               fått. Man är inte från regeringens sida beredd att ta det här
               steget. När man ändå ser över skollagen och ändå håller på att
               göra förändringar vore det bättre att gå till att det blir en
               rättighetslagstiftning.
             </seg>
-            <seg n="b1e14b40">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-154" prev="i-dc7d14bee44f5b33-144" who="Q3375840">
+            <seg>
               Det är en fråga som vi s-kvinnor driver på. Vi tycker att detta
               är viktigt. Vi är oerhört glada över att Socialdemokraterna är
               beredda att ta ett steg i rätt riktning i den här frågan till
@@ -1418,11 +1676,11 @@
               och eftersträvansvärt.
             </seg>
           </u>
-          <note type="speaker" n="40d1c093">
+          <note type="speaker">
             Anf. 23 Utbildningsminister JAN BJÖRKLUND (fp):
           </note>
-          <u who="Q911372" xml:id="i-24d698929b8e101a-2" n="31ecf511">
-            <seg n="37bb36ea">
+          <u xml:id="i-dc7d14bee44f5b33-155" next="i-dc7d14bee44f5b33-164" who="Q911372">
+            <seg>
               Herr talman! Det är oerhört vilken kritik jag får för denna regel.
               Sanningen är att det är exakt samma regel som denna regering föreslår
               som den gamla socialdemokratiska regeringen har haft sedan 1985
@@ -1430,7 +1688,9 @@
               exakt samma regel som den som vi nu föreslår. Men nu är ni kritiska
               i opposition. Varför ändrade ni inte regeln när ni satt i regering?
             </seg>
-            <seg n="d4c67f5d">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-156" prev="i-dc7d14bee44f5b33-155" who="Q911372">
+            <seg>
               Jag vet varför ni inte ändrade den. Utöver allt det ni säger
               finns det en liten detalj som ni inte nämnde. Ska man införa en
               rätt på det ni säger kostar det en halv miljard kronor om året.
@@ -1439,7 +1699,9 @@
               dag kostar uppåt en halv miljard, mellan 400 och 500 miljoner
               om året.
             </seg>
-            <seg n="5ff98a8c">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-157" prev="i-dc7d14bee44f5b33-155" who="Q911372">
+            <seg>
               Den detaljen glömde ni att nämna. I det budgetförslag som Socialdemokraterna
               har lämnat till riksdagen för nästa år är det bara 20 procent
               av den summan som är täckt. Det ni står och säger saknar täckning
@@ -1447,19 +1709,25 @@
               för att inte alla barn får vara på nattis, men i ert eget partis
               budgetförslag finns det inga sådana förslag, inte tillnärmelsevis.
             </seg>
-            <seg n="dad98945">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-158" prev="i-dc7d14bee44f5b33-155" who="Q911372">
+            <seg>
               Ni kan stå och säga hur mycket som helst att ni ska lägga förslag
               i riksdagen om nya paragrafer. Det kan ni väl göra, men pengarna
               måste på bordet. Det kostar pengar om man ska ha förskollärare
               anställda på natten.
             </seg>
-            <seg n="bb50361b">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-159" prev="i-dc7d14bee44f5b33-155" who="Q911372">
+            <seg>
               Peter Hultqvist gör en stor sak av att det står att förskola
               inte ska tillhandahållas på natten. Då måste vi reda ut begreppen
               lite. Det vi diskuterar måste väl ändå vara barnomsorg på natten,
               inte förskola, den läroplansstyrda verksamheten med undervisning.
             </seg>
-            <seg n="3b92892f">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-160" prev="i-dc7d14bee44f5b33-155" who="Q911372">
+            <seg>
               Nattetid handlar det om att barnen i allt väsentligt ska sova
               med någon vuxen närvarande. Det är väl inte den läroplansstyrda
               verksamheten vi talar om då. Så fungerar inte läroplanen i mitt
@@ -1468,14 +1736,18 @@
               ska erbjudas, men det är klart att det är barnomsorg vi talar
               om nu, att man ska ha tillsyn för barnen.
             </seg>
-            <seg n="cc53ba2b">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-161" prev="i-dc7d14bee44f5b33-155" who="Q911372">
+            <seg>
               Då är regeln den som den gamla regeringen hade och som vi föreslår.
               Vi förstärker det något i skrivningarna. Man ska ha rätt till
               en individuell prövning, men det finns ingen rätt att till sist
               få nattis om kommunen prövar det och säger nej. Man kan inte gå
               till domstol efteråt.
             </seg>
-            <seg n="909a7f74">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-162" prev="i-dc7d14bee44f5b33-155" who="Q911372">
+            <seg>
               I det exempel som Carina Adolfsson Elgestam tar upp skulle inte
               ens med den mest långtgående rättighetslagstiftning Ellens och
               Albins föräldrar få rätt till nattis. Om man är ett gift par och,
@@ -1484,7 +1756,9 @@
               miljard kommunen att säga till den familjen att hon faktiskt får
               be sin arbetsgivare att flytta arbetstiden till dagtid.
             </seg>
-            <seg n="0c77d212">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-163" prev="i-dc7d14bee44f5b33-155" who="Q911372">
+            <seg>
               Ska man tillgodose Carina Adolfsson Elgestams exempel med rätt
               till nattis talar vi om många miljarder i kostnad. Det är inte
               som med allmän förskola att alla har rätt till det. Man skulle
@@ -1495,30 +1769,36 @@
               få rätt till det. Men även då kostar det en halv miljard om året,
               och ni avsätter 100 miljoner i er budget.
             </seg>
-            <seg n="ef382039">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-164" prev="i-dc7d14bee44f5b33-155" who="Q911372">
+            <seg>
               Er kritik mot mig skulle vara lite mer trovärdig om det fanns
               en tillstymmelse till förslag i ert eget partis budget som tillgodoser
               det ni säger med den höga retoriken.
             </seg>
           </u>
-          <note type="speaker" n="2d313e21">
+          <note type="speaker">
             Anf. 24 PETER HULTQVIST (s):
           </note>
-          <u who="Q3370162" xml:id="i-3b9576c56b36cffd-0" n="13388a1b">
-            <seg n="c8aacf22">
+          <u xml:id="i-dc7d14bee44f5b33-165" next="i-dc7d14bee44f5b33-178" who="Q3370162">
+            <seg>
               Herr talman! Om ministern försökte lyssna i stället för att göra
               retoriska knep vore det mycket enklare. Jag bara nämner vad man
               skriver om förskolan i det här förslaget till lagstiftning som
               inte står i 1985 års skollag. Jag frågar mig varför det är så
               viktigt att markera just det.
             </seg>
-            <seg n="93b76744">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-166" prev="i-dc7d14bee44f5b33-165" who="Q3370162">
+            <seg>
               Debatten handlar om omsorg. Det är det vi diskuterar. Andan i
               så mycket av det ni skriver är att det inte ska göras något åt
               den här frågan. Det finns ingen vilja, bara hinder, problem och
               undanflykter. Det är det intryck som ministern ger här.
             </seg>
-            <seg n="5d384fa7">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-167" prev="i-dc7d14bee44f5b33-165" who="Q3370162">
+            <seg>
               Den paragraf som ni har skrivit innebär egentligen ingenting
               som flyttar fram någon position. Oavsett om vi har haft socialdemokratisk
               regering eller hade borgerlig regering i början på 90-talet går
@@ -1527,12 +1807,16 @@
               bli moget att lösa den här frågan nu definitivt, oavsett vilka
               regeringar vi har haft tidigare.
             </seg>
-            <seg n="4ce307f1">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-168" prev="i-dc7d14bee44f5b33-165" who="Q3370162">
+            <seg>
               Det argument som du lyfter fram om varför s-regeringen inte gjorde
               någonting håller inte heller. Det är bara en undanflykt för att
               du inte vill ta det här ansvaret i dag.
             </seg>
-            <seg n="0612311e">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-169" prev="i-dc7d14bee44f5b33-165" who="Q3370162">
+            <seg>
               När det gäller pengarna finns det nog ingen i den här kammaren
               som med exakthet kan reda ut hur mycket det här kostar. Om viljan
               fanns att lösa det här satte man sig ned med kommunerna och diskuterade
@@ -1540,18 +1824,24 @@
               kan till och med titta på en blandfinansiering med kommunala och
               statliga medel. Man kan se på olika former.
             </seg>
-            <seg n="bf303dec">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-170" prev="i-dc7d14bee44f5b33-165" who="Q3370162">
+            <seg>
               Det vi gör till skillnad mot er är att vi nu i vår alternativbudget
               markerar ett första steg med 100 miljoner. Vi har i alla fall
               100 miljoner. Du har 0 kronor. Du har 0 kronor till detta. Det
               visar väl om något att du inte vill, att ni inte är intresserade
               och att ni försöker hitta hinder i stället för möjligheter.
             </seg>
-            <seg n="05c1aa24">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-171" prev="i-dc7d14bee44f5b33-165" who="Q3370162">
+            <seg>
               Vi är beredda att ta steg och försöka ta tag i den här frågan.
               Vi anser att tiden definitivt är mogen.
             </seg>
-            <seg n="29024124">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-172" prev="i-dc7d14bee44f5b33-165" who="Q3370162">
+            <seg>
               En lagstiftning där man å ena sidan pekar på skyldigheten för
               kommunen och å den andra sidan understryker att det inte finns
               någon rättighet till plats på obekväm tid blir för en allmänhet
@@ -1560,17 +1850,23 @@
               och börjar leta i lagtexter och annat för att se vad de har för
               rättigheter.
             </seg>
-            <seg n="842c1caf">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-173" prev="i-dc7d14bee44f5b33-165" who="Q3370162">
+            <seg>
               Då söker man vägledning. Det här blir någon sorts moment 22.
               Man kommer fram till att man har rätt fast man inte har rätt.
               Det är den typ av lagstiftning vi producerar år 2009. Sedan får
               det vara hur det vill med vilka regeringar som har suttit tidigare.
             </seg>
-            <seg n="7380ace9">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-174" prev="i-dc7d14bee44f5b33-165" who="Q3370162">
+            <seg>
               Vi är självständiga människor i någon sorts utveckling, kan man
               hoppas. Då är det dags att ta det här steget nu, ministern.
             </seg>
-            <seg n="6d4362f7">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-175" prev="i-dc7d14bee44f5b33-165" who="Q3370162">
+            <seg>
               Man för bort ansvaret från kommunen till föräldern i de här förarbetena.
               Man markerar att man ska titta på förälderns egna möjligheter
               att ordna omsorgen för sina barn. Det är oerhört viktigt att det
@@ -1578,45 +1874,57 @@
               de här fallen: På vilket sätt kan jag fixa det här på ett eget
               sätt? Det är det många får göra i dag.
             </seg>
-            <seg n="6dacb16b">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-176" prev="i-dc7d14bee44f5b33-165" who="Q3370162">
+            <seg>
               Just den typen av markeringar visar att det inte finns vilja
               i botten på det som ni skriver. Det är undanflykter som är grejen.
             </seg>
-            <seg n="6aefc8b5">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-177" prev="i-dc7d14bee44f5b33-165" who="Q3370162">
+            <seg>
               Ni borde kanske ta lite intryck av den här debatten. I stället
               för att använda retorik där ni försöker slå tillbaka på olika
               sätt och hänvisa till gammal lagstiftning och regeringar som har
               avgått bör ni titta på hur nuläget ser ut.
             </seg>
-            <seg n="e0513a3e">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-178" prev="i-dc7d14bee44f5b33-165" who="Q3370162">
+            <seg>
               Bör detta lösas i ett modernt samhälle eller bör det inte? Jag
               anser att det bör lösas. Vad anser ministern?
             </seg>
           </u>
-          <note type="speaker" n="1bd00234">
+          <note type="speaker">
             Anf. 25 CARINA ADOLFSSON ELGESTAM (s):
           </note>
-          <u who="Q3375840" xml:id="i-644148554fd1b2c8-3" n="01adcad3">
-            <seg n="08f90fb3">
+          <u xml:id="i-dc7d14bee44f5b33-179" next="i-dc7d14bee44f5b33-184" who="Q3375840">
+            <seg>
               Herr talman! Det är inte utan att man blir lite mörkrädd när
               man lyssnar på ministern som har ansvar för skolan och förskolan.
               Jag tänker på den syn han har på familjen och framför allt på
               kvinnan och på jämställdheten.
             </seg>
-            <seg n="e9b18e57">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-180" prev="i-dc7d14bee44f5b33-179" who="Q3375840">
+            <seg>
               Till Ellens och Albins föräldrar är hälsningen att oavsett om
               det skulle införas en rättighetslagstiftning om nattis så skulle
               de inte få någon omsorg ändå. Men det just den här familjen i
               Vislanda skulle behöva är barnomsorg lite senare på kvällen. Just
               den här familjen är inte i behov av nattis.
             </seg>
-            <seg n="44a6d6b8">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-181" prev="i-dc7d14bee44f5b33-179" who="Q3375840">
+            <seg>
               Oavsett det säger ministern att då ska hon be sin arbetsgivare
               att få ändra sin arbetstid till dagtid. Jag vet inte vad ministern
               har för erfarenhet av att samtala med sin arbetsgivare om att
               förändra sin arbetstid. Det är inte alltid det allra enklaste.
             </seg>
-            <seg n="a2c11051">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-182" prev="i-dc7d14bee44f5b33-179" who="Q3375840">
+            <seg>
               Det som jag också tycker är allvarligt är att ministern på något
               sätt försöker spela bort korten i den här frågan genom att gå
               tillbaka och säga att vi gjorde ingenting. Men det är inte riktigt
@@ -1626,22 +1934,26 @@
               ökat, delvis för att fler jobbar på kvällar men också för att
               fler jobbar på nätterna som en följd av hur arbetslivet har förändrats.
             </seg>
-            <seg n="58933ac2">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-183" prev="i-dc7d14bee44f5b33-179" who="Q3375840">
+            <seg>
               Därför hade vi tagit några kliv åt det här hållet, men det var
               ingenting som den här borgerliga regeringen var intresserad av.
               Därför tog man inte tag i och fortsatte med detta. Det ministern
               säger är alltså inte riktigt sant.
             </seg>
-            <seg n="1176caf2">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-184" prev="i-dc7d14bee44f5b33-179" who="Q3375840">
+            <seg>
               Att sedan säga att man har rätt till en individuell prövning
               men därmed inte rätt till omsorg då har man ju inte kommit någonstans.
             </seg>
           </u>
-          <note type="speaker" n="39370d0f">
+          <note type="speaker">
             Anf. 26 Utbildningsminister JAN BJÖRKLUND (fp):
           </note>
-          <u who="Q911372" xml:id="i-24d698929b8e101a-3" n="31ecf511">
-            <seg n="bbd59f63">
+          <u xml:id="i-dc7d14bee44f5b33-185" next="i-dc7d14bee44f5b33-188" who="Q911372">
+            <seg>
               Herr talman! Det är sådana otroliga anklagelser mot mig och regeringen.
               Det skulle vara lite trovärdigare om ni hade anslagit pengar till
               det ni står och kräver, men ni har ju inte det. 500 miljoner kostar
@@ -1656,7 +1968,9 @@
               att lösa omsorgen på kvällar och nätter som en rättighet till
               sist skulle finnas. Det är det man diskuterar.
             </seg>
-            <seg n="c5f28f4a">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-186" prev="i-dc7d14bee44f5b33-185" who="Q911372">
+            <seg>
               Det är klart att i det exempel som Adolfsson Elgestam tar upp
               kommer kommunens utbildnings- eller socialnämnd, vilka det nu
               är som prövar det, att säga att det där får ni fixa. Ska man införa
@@ -1664,7 +1978,9 @@
               det, då talar vi om många miljarder och inte de ynka 100 miljoner
               ni har föreslagit i er budget.
             </seg>
-            <seg n="26aef710">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-187" prev="i-dc7d14bee44f5b33-185" who="Q911372">
+            <seg>
               Peter Hultqvist säger att det inte finns någon seriös beräkning.
               Det håller jag inte med om. Den finns i Skollagsutredningen .
               Där gjordes en mycket omfattande beräkning av kostnaden för att
@@ -1678,7 +1994,9 @@
               att få skicka med pengar. Det är innebörden i finansieringsprincipen,
               och det tror jag att Peter Hultqvist känner till.
             </seg>
-            <seg n="47154548">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-188" prev="i-dc7d14bee44f5b33-185" who="Q911372">
+            <seg>
               Den dag ni lägger upp 500 miljoner här på bordet och säger att
               ni vill införa en rätt, då bugar jag mig. Då är ni trovärdiga.
               Men när ni ropar om rättigheter och skäller på mig utan att ha
@@ -1686,11 +2004,11 @@
               ingenting värt.
             </seg>
           </u>
-          <note type="speaker" n="95831c28">
+          <note type="speaker">
             Anf. 27 PETER HULTQVIST (s):
           </note>
-          <u who="Q3370162" xml:id="i-3b9576c56b36cffd-1" n="13388a1b">
-            <seg n="ebdc67e5">
+          <u xml:id="i-dc7d14bee44f5b33-189" next="i-dc7d14bee44f5b33-194" who="Q3370162">
+            <seg>
               Herr talman! I stället för att ha någon sorts funderingar om
               framtiden och om hur man ska lösa ett problem anser ministern
               att det är budgetfrågan som är avgörande. Det är den naturligtvis,
@@ -1700,7 +2018,9 @@
               eller har han slentrianmässigt bara tänkt att ja, vi skriver så
               här så händer det ingenting och då kostar det inga pengar?
             </seg>
-            <seg n="94ff7c0f">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-190" prev="i-dc7d14bee44f5b33-189" who="Q3370162">
+            <seg>
               Vi har i alla fall ansträngt oss och plockat fram 100 miljoner
               som en start. Sedan kan man konstruera bidrag till hur det ska
               läggas upp om man har en allvarlig vilja. Det kan man göra på
@@ -1708,25 +2028,33 @@
               och kommunerna innan man lägger fram ett sådant förslag, och det
               vet ministern också.
             </seg>
-            <seg n="2b5a31df">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-191" prev="i-dc7d14bee44f5b33-189" who="Q3370162">
+            <seg>
               Men grundfrågan är faktiskt om man vill eller inte vill, och
               den enda slutsats jag kan dra är att ministern inte vill. Jan
               Björklund vill inte gå vidare med det här.
             </seg>
-            <seg n="ef31d1df">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-192" prev="i-dc7d14bee44f5b33-189" who="Q3370162">
+            <seg>
               Det belopp ministern talar om, jag vet inte om det var 350 eller
               380 eller 500 miljoner är det jättepengar det? Är det sådana oerhörda
               och oöverstigliga belopp att det inte skulle gå att lösa om viljan
               fanns? Vi har börjat; vi har 100 miljoner. Om det inte räcker
               får vi väl titta på det framöver och se hur vi går vidare.
             </seg>
-            <seg n="5674f619">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-193" prev="i-dc7d14bee44f5b33-189" who="Q3370162">
+            <seg>
               Men nu är det ni som sitter med regeringsmakten, och frågan är:
               Vill du eller vill du inte, Jan Björklund? Hittills kan jag inte
               tolka det som att det finns någon enda tillstymmelse till vilja
               att göra någonting åt det här problemet.
             </seg>
-            <seg n="09904a54">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-194" prev="i-dc7d14bee44f5b33-189" who="Q3370162">
+            <seg>
               Arbetslinjen som ni vurmar för gäller tydligen inte här. Att
               investera dessa pengar för att underlätta för näringslivet att
               få arbetskraft är alltså inte värt det över huvud taget. Har ministern
@@ -1735,11 +2063,11 @@
               ge besked på den punkten i sitt slutinlägg.
             </seg>
           </u>
-          <note type="speaker" n="a4257ba6">
+          <note type="speaker">
             Anf. 28 Utbildningsminister JAN BJÖRKLUND (fp):
           </note>
-          <u who="Q911372" xml:id="i-c3bcd3bebffd216d-1" n="31ecf511" next="i-6c0434a49f086738-1">
-            <seg n="dcc931cd">
+          <u xml:id="i-dc7d14bee44f5b33-195" next="i-dc7d14bee44f5b33-198" who="Q911372">
+            <seg>
               Herr talman! Jag konstaterar att de 100 miljoner som Socialdemokraterna
               föreslår tar man genom att avskaffa den barnomsorgspeng som vi
               har infört. Det är den finansiering man har. Men barnomsorgspengen
@@ -1749,52 +2077,56 @@
               miljoner. Ska Carina Adolfsson Elgestams exempel tillgodoses med
               nattis, då är det flera miljarder vi talar om.
             </seg>
-            <seg n="29b9ab94">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-196" prev="i-dc7d14bee44f5b33-195" who="Q911372">
+            <seg>
               Det är lätt att stå här och veva stort. Vi föreslår till riksdagen
               den bestämmelse som har gällt under tolv år av socialdemokratiskt
               regeringsinnehav, och den dag ni kommer med en check på en halv
               miljard tycker jag att ert alternativ är trovärdigt.
             </seg>
-            <seg n="105383cf">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-197" prev="i-dc7d14bee44f5b33-195" who="Q911372">
+            <seg>
               Jag tycker, till sist, att kommuner ska försöka fixa detta. Det
-              är därför vi skriver så här. Jag var borgarråd i Helsingfors i
-              tolv år, bland annat skolborgarråd. Vi ansträngde oss till det
-              yttersta för att fixa detta. Det kunde vara personal som jobbade
-              på Operan och som uppenbart inte kunde flytta sin arbetstid från
-              kvällen till andra tider. Vi ansträngde oss, och jag hoppas att
-              de flesta kommuner gör det. Väldigt många gör det, men ska vi
-              införa denna skyldighet kostar det till sist en halv miljard,
-              och jag konstaterar att inget parti i denna riksdag har något
-              budgetalternativ där de pengarna finns föreslagna.
+              är därför vi skriver så här. Jag var borgarråd i Stockholm i tolv
+              år, bland annat skolborgarråd. Vi ansträngde oss till det yttersta
+              för att fixa detta. Det kunde vara personal som jobbade på Operan
+              och som uppenbart inte kunde flytta sin arbetstid från kvällen
+              till andra tider. Vi ansträngde oss, och jag hoppas att de flesta
+              kommuner gör det. Väldigt många gör det, men ska vi införa denna
+              skyldighet kostar det till sist en halv miljard, och jag konstaterar
+              att inget parti i denna riksdag har något budgetalternativ där
+              de pengarna finns föreslagna.
             </seg>
           </u>
-          <note n="3a8f3273">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="1d50277f">
+          <note>
             Ajournering
           </note>
-          <note n="be7ce083">
+          <note>
             Kammaren beslutade kl. 15.58 på förslag av förste vice talmannen
             att ajournera förhandlingarna till kl. 18.00.
           </note>
-          <u who="Q911372" xml:id="i-6c0434a49f086738-1" n="31ecf511" prev="i-c3bcd3bebffd216d-1">
-            <seg n="a91bb4d1">
+          <u xml:id="i-dc7d14bee44f5b33-198" prev="i-dc7d14bee44f5b33-195" who="Q911372">
+            <seg>
               Återupptagna förhandlingar
             </seg>
           </u>
-          <note n="d26fcd73">
+          <note>
             Förhandlingarna återupptogs kl. 18.00.
           </note>
-          <note n="46aeb622">
+          <note>
             5 § Svar på interpellation 2009/10:25 om översyn av mediekoncentrationen
             i Sverige
           </note>
-          <note type="speaker" n="19820dba">
+          <note type="speaker">
             Anf. 29 Kulturminister LENA ADELSOHN LILJEROTH (m):
           </note>
-          <u who="Q297821" xml:id="i-c3bcd3bebffd216d-2" n="8c92581f">
-            <seg n="0564214d">
+          <u xml:id="i-dc7d14bee44f5b33-199" next="i-dc7d14bee44f5b33-212" who="Q297821">
+            <seg>
               Herr talman! Helene Petersson i Stockaryd har frågat mig om jag
               avser att ta något initiativ med anledning av riksdagens krav
               på översyn av mediekoncentrationen i Sverige eller om jag anser
@@ -1804,15 +2136,17 @@
               beräknas vara avslutat och hur jag avser att det ska återrapporteras
               till riksdagen.
             </seg>
-            <seg n="3bad2275">
-              I budgetpropositionen för 2010 anges, vilket Helene Petersson
-              konstaterar i sin interpellation, att regeringen inte finner skäl
-              att initiera ytterligare insatser med anledning av riksdagens
-              tillkännagivande om behovet av en översyn av mediekoncentrationen
-              i Sverige. Riksdagens tillkännagivande får anses uppfyllt genom
-              den redovisning som lämnas i propositionen.
-            </seg>
-            <seg n="ac6f7e25">
+          </u>
+          <note>
+            I budgetpropositionen för 2010 anges, vilket Helene Petersson
+            konstaterar i sin interpellation, att regeringen inte finner skäl
+            att initiera ytterligare insatser med anledning av riksdagens
+            tillkännagivande om behovet av en översyn av mediekoncentrationen
+            i Sverige. Riksdagens tillkännagivande får anses uppfyllt genom
+            den redovisning som lämnas i propositionen.
+          </note>
+          <u xml:id="i-dc7d14bee44f5b33-200" prev="i-dc7d14bee44f5b33-199" who="Q297821">
+            <seg>
               De huvudsakliga skälen för regeringens ställningstagande är att
               frågan om ägarkoncentration bör ses i ett vidare perspektiv som
               innebär att fria och självständiga medier är en förutsättning
@@ -1822,7 +2156,9 @@
               att etablera sig inom olika medier respektive ta del av medieutbudet
               och att ägandet endast är en faktor för att upprätthålla mediemångfalden.
             </seg>
-            <seg n="e15b318a">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-201" prev="i-dc7d14bee44f5b33-199" who="Q297821">
+            <seg>
               Det pågår ett fortlöpande arbete som sammantaget bidrar till
               att uppfylla de mediepolitiska målen om bland annat yttrandefrihet,
               mångfald samt massmediernas oberoende och tillgänglighet. Det
@@ -1833,16 +2169,22 @@
               i juni 2009. I övrigt pågår arbete inom de nämnda områdena och
               redovisning kommer senare.
             </seg>
-            <seg n="e4510067">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-202" prev="i-dc7d14bee44f5b33-199" who="Q297821">
+            <seg>
               Mot denna bakgrund är jag alltså inte beredd att ta några ytterligare
               initiativ med anledning av det nämnda tillkännagivandet. Jag är
               däremot självklart beredd att föra en fortsatt diskussion kring
               mediemångfald och ägarkoncentration.
             </seg>
-            <seg n="cce7f17c">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-203" prev="i-dc7d14bee44f5b33-199" who="Q297821">
+            <seg>
               Anf. 30 HELENE PETERSSON i Stockaryd (s):
             </seg>
-            <seg n="13dbdd6e">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-204" prev="i-dc7d14bee44f5b33-199" who="Q297821">
+            <seg>
               Herr talman! Tack, kulturministern, för svaret! Jag är självklart
               inte nöjd. Det tror jag att kulturministern förstår av min interpellation.
               Jag tror också att kulturministern har anat att jag inte skulle
@@ -1851,14 +2193,18 @@
               ett och ett halvt år på sig. Det händer mer och mer på medieområdet
               att vi ser att ägarkoncentrationen bara går åt ett håll.
             </seg>
-            <seg n="08cfecfb">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-205" prev="i-dc7d14bee44f5b33-199" who="Q297821">
+            <seg>
               I dag har konstitutionsutskottet på sitt bord haft en annan översyn
               som regeringen har initierat. Den har resulterat i en rapport
               som sedan har remissbehandlats. Den handlar om budgetlagen. Den
               hanteringen hade jag kunnat tänka mig att man skulle ha kunnat
               komma med från regeringens sida i detta fall, men ingenting.
             </seg>
-            <seg n="b98ade20">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-206" prev="i-dc7d14bee44f5b33-199" who="Q297821">
+            <seg>
               I budgetpropositionen hänvisar regeringen till två rapporter.
               Det är ju två rapporter som faktiskt är återkommande, åtminstone
               Radio- och tv-verkets om medieutvecklingen. Det är en årlig rapport
@@ -1867,14 +2213,18 @@
               Nordicom är Göteborgs universitet. De lämnar ju också återkommande
               så kallade medienotiser, som detta är.
             </seg>
-            <seg n="98d15567">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-207" prev="i-dc7d14bee44f5b33-199" who="Q297821">
+            <seg>
               Det är bra rapporter. Jag har läst dem båda två. Det finns mycket
               att hämta där. Men det är klart att jag också kan känna att hade
               kulturministern tagit de här rapporterna på allvar hade man kanske
               från regeringens sida velat se djupare på vilka konsekvenser ägarkoncentrationen
               kan få.
             </seg>
-            <seg n="4f840a7d">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-208" prev="i-dc7d14bee44f5b33-199" who="Q297821">
+            <seg>
               Nordicom skriver faktiskt i sin rapport om medieutvecklingen
               att en ökad grad av avreglering, privatisering, ägarkoncentration,
               konkurrens och kommersialisering bidrar till omstrukturering av
@@ -1883,18 +2233,24 @@
               i samhället. Jag tycker att man ganska tydligt säger att vi behöver
               en ökad kunskap.
             </seg>
-            <seg n="c9bd8c7d">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-209" prev="i-dc7d14bee44f5b33-199" who="Q297821">
+            <seg>
               Jag är, som jag också har sagt till kulturministern flera gånger,
               inte helt säker på att jag vill ha en ägarkoncentrationslag eller
               en medieägarlag som den heter i Norge. Men jag ser alltså ett
               jättestort behov av att man gör en djupare analys av detta.
             </seg>
-            <seg n="39b3606c">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-210" prev="i-dc7d14bee44f5b33-199" who="Q297821">
+            <seg>
               Rapporterna är faktiskt också skrivna av samma författare, därför
               är de ganska likartade. Jag tycker att regeringen även har snävat
               in sin kunskap när man lyfter fram just de här två rapporterna.
             </seg>
-            <seg n="5a9833a3">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-211" prev="i-dc7d14bee44f5b33-199" who="Q297821">
+            <seg>
               I budgetpropositionen tar man också upp teknikutvecklingen. Där
               skriver också Staffan Sundin att genom möjligheten att lansera
               nya nischkanaler, exempelvis med den digitala tekniken, har faktiskt
@@ -1902,49 +2258,61 @@
               de största, kunnat behålla eller till och med öka sina tittarandelar.
               De svarade 2008 för 55 procent av den totala tittartiden.
             </seg>
-            <seg n="17881935">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-212" prev="i-dc7d14bee44f5b33-199" who="Q297821">
+            <seg>
               Även om tekniken inbjuder till ökad mångfald har det faktiskt
               inneburit att det är de stora bolagen som har tagit även den marknadsandelen.
             </seg>
           </u>
-          <note n="fe3cc8a9" type="speaker">
+          <note type="speaker">
             Anf. 31 GUNNAR ANDRÉN (fp):
           </note>
-          <u who="Q5556677" xml:id="i-6c0434a49f086738-2" n="8c92581f">
-            <seg n="37edfc2e">
+          <u xml:id="i-dc7d14bee44f5b33-213" next="i-dc7d14bee44f5b33-221" who="Q5556677">
+            <seg>
               Herr talman! Jag tycker att det är en viktig fråga som Helene
               Petersson i Stockaryd väcker i interpellationen om översyn av
               mediekoncentrationen i Sverige. Jag tycker dock att det är ett
               ännu bättre svar, nämligen att statsrådet säger att vi måste sätta
               punkt för just den här diskussionen.
             </seg>
-            <seg n="268c29f8">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-214" prev="i-dc7d14bee44f5b33-213" who="Q5556677">
+            <seg>
               Frågan är, herr talman, vad det är för mediekoncentration vi
               har i Sverige. Jag är ganska gammal så jag var med två dagar efter
-              valet 1976 på restaurang Oxen, Ingenjörshuset i Helsingfors, när
+              valet 1976 på restaurang Oxen, Ingenjörshuset i Stockholm, när
               den nyblivne oppositionsledaren Olof Palme uttryckte sin oro för
               tystnadens konformism ett mycket känt begrepp på den tiden.
             </seg>
-            <seg n="cb2d942d">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-215" prev="i-dc7d14bee44f5b33-213" who="Q5556677">
+            <seg>
               Blev det så? Av olika anledningar blev det absolut inte på det
               sättet. Vi fick inte alls den mediekoncentration som han tänkte
               sig. Tvärtom fick vi, inte minst genom teknikens utveckling och
               införandet av lokalradio, närradio och så vidare, en väldig spridning
               av dem som kunde ta del av olika nyheter.
             </seg>
-            <seg n="b30bc50d">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-216" prev="i-dc7d14bee44f5b33-213" who="Q5556677">
+            <seg>
               Numera, om vi flyttar ytterligare 2530 år i tiden, kan vi konstatera
               att det nästan inte finns några begränsningar om man själv vill
               göra sig en blogg. Man blir sin egen opinionsbildare.
             </seg>
-            <seg n="09ed801b">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-217" prev="i-dc7d14bee44f5b33-213" who="Q5556677">
+            <seg>
               Samtidigt har naturligtvis Helene Petersson i Stockaryd rätt
               i ett avseende, nämligen att de stora mediehusen, som de nu heter
               förut var det tidningar har anpassat sig i väldigt hög grad och
               anammat de olika nya metoderna och medlen genom att använda sina
               kunskaper, framför allt när det gäller nyhetsförmedling.
             </seg>
-            <seg n="7fdcd9f2">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-218" prev="i-dc7d14bee44f5b33-213" who="Q5556677">
+            <seg>
               Nyheter är alltid gratis, men god journalistik kostar. Det är
               den avgörande skillnaden. Vem ska betala den goda journalistiken?
               Jag tycker att man i dagens läge egentligen borde vända på själva
@@ -1953,8 +2321,10 @@
               i stora delar av Sverige? Väldigt många kommuner saknar i dagens
               läge ordentlig bevakning av vad som händer i kommunerna.
             </seg>
-            <seg n="cf369b53">
-              I storstadsområden som Helsingfors är det sällan stora tidningar,
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-219" prev="i-dc7d14bee44f5b33-213" who="Q5556677">
+            <seg>
+              I storstadsområden som Stockholm är det sällan stora tidningar,
               Svenska Dagbladet, Dagens Nyheter, Aftonbladet och Expressen,
               bevakar någonting om vad som händer i de stora kommunerna, till
               exempel Huddinge och Botkyrka. Men i Helene Peterssons område
@@ -1962,7 +2332,9 @@
               en alldeles utmärkt bevakning i skriftlig form om man vill prenumerera
               på tidningarna i de befolkningsmässigt mycket mindre områdena.
             </seg>
-            <seg n="ad734f42">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-220" prev="i-dc7d14bee44f5b33-213" who="Q5556677">
+            <seg>
               Jag vill ställa en fråga till statsrådet Adelsohn Liljeroth:
               Funderar ni någonting på vad man kan göra för att bryta den medieskugga
               som finns på många håll i vårt land? Det finns människor som säkert
@@ -1970,21 +2342,23 @@
               faktiskt inte får detta på grund av att marknadskrafterna är omvända
               på dessa platser, det vill säga det finns inte underlag för den
               typen av journalistik. I storstadsområdena finns ganska goda exempel
-              på detta i fråga om de största kommunerna Helsingfors, Göteborg
+              på detta i fråga om de största kommunerna Stockholm, Göteborg
               och Malmö.
             </seg>
-            <seg n="240801d3">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-221" prev="i-dc7d14bee44f5b33-213" who="Q5556677">
+            <seg>
               Se bara på Partille i Göteborg. Hur vet man vad som händer i
               Partille en ganska stor kommun? Det måste nästan vara så att stadshuset
               om det har ett sådant brinner ned för att Göteborgs-Posten ska
               rapportera någonting från Partille.
             </seg>
           </u>
-          <note type="speaker" n="061f3d62">
+          <note type="speaker">
             Anf. 32 Kulturminister LENA ADELSOHN LILJEROTH (m):
           </note>
-          <u who="Q297821" xml:id="i-c3bcd3bebffd216d-3" n="8c92581f" next="i-6c0434a49f086738-3">
-            <seg n="2f667012">
+          <u xml:id="i-dc7d14bee44f5b33-222" next="i-dc7d14bee44f5b33-234" who="Q297821">
+            <seg>
               Herr talman! Helene Petersson säger sig inte vara nöjd. Det får
               står för Helene Petersson själv. Nu fanns en önskan från Helene
               Petersson i den motion som godkändes av riksdagen om att man ska
@@ -1993,14 +2367,18 @@
               som äger vad, hur stor andelen är och hur stor omsättningen är.
               Det gör att systemet är tydligt, och det tycker vi är bra.
             </seg>
-            <seg n="d9ecd112">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-223" prev="i-dc7d14bee44f5b33-222" who="Q297821">
+            <seg>
               Jag kan gärna ge såväl Gunnar Andrén som Helene Petersson rätt
               i att det finns risk för medieskugga eller att vissa medier kan
               bli dominanta inom sina områden. Vi har haft en intensiv diskussion
               när det gäller filmområdet och biograferna. Det finns snudd på
               ett monopol för en aktör och där andra kan ha det lite tufft.
             </seg>
-            <seg n="052fb28b">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-224" prev="i-dc7d14bee44f5b33-222" who="Q297821">
+            <seg>
               Sedan är det frågan om vad man vill göra. Nu har jag förstått
               på Helene Petersson att hon inte efterlyser en lag likt den i
               Norge. Jag fann anledning att se på hur det ser ut i Norge i dag.
@@ -2010,7 +2388,9 @@
               aktörerna har i Sverige. I någon mening är mediekoncentrationen
               trots lagen ett större problem i Norge än vad den är i Sverige.
             </seg>
-            <seg n="4b07b5db">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-225" prev="i-dc7d14bee44f5b33-222" who="Q297821">
+            <seg>
               Jag ska försöka besvara såväl Gunnar Andréns som Helene Peterssons
               fråga om gratis nyheter. Det kan möjligen ses som ett bekymmer,
               men vi har trots allt en stark ställning för Sveriges Radio, Sveriges
@@ -2018,7 +2398,9 @@
               ny proposition får ett stärkt uppdrag när det gäller såväl utrikesbevakning,
               inrikesbevakning som inte minst kulturbevakning. Det är viktigt.
             </seg>
-            <seg n="5fbaa220">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-226" prev="i-dc7d14bee44f5b33-222" who="Q297821">
+            <seg>
               Jag kan också glädja mig åt att det händer oerhört mycket på
               medieområdet. Det är helt andra låga trösklar i dag för att informera
               sig och informera. Eftersom Helene Petersson nämnde den rapport,
@@ -2027,7 +2409,9 @@
               expansiva utveckling med allt fler mediekanaler på allt fler plattformar.
               Det är naturligtvis positivt.
             </seg>
-            <seg n="72f7896a">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-227" prev="i-dc7d14bee44f5b33-222" who="Q297821">
+            <seg>
               Även om vi naturligtvis ska ha ögonen på mediemarknaden det handlar
               om att värna yttrande- och tryckfriheten känner jag i dag inte
               den oro som Helene Petersson gör. Konkurrensen har i många avseenden
@@ -2037,11 +2421,11 @@
               är det också till gagn för såväl läsare som tittare.
             </seg>
           </u>
-          <note n="9f2dfc74">
+          <note>
             Anf. 33 HELENE PETERSSON i Stockaryd (s):
           </note>
-          <u who="Q297821" xml:id="i-6c0434a49f086738-3" n="8c92581f" prev="i-c3bcd3bebffd216d-3">
-            <seg n="7c7237b5">
+          <u xml:id="i-dc7d14bee44f5b33-228" prev="i-dc7d14bee44f5b33-222" who="Q297821">
+            <seg>
               Herr talman! Självklart ökar antalet kanaler på tv och för andra
               olika plattformar, men det är trots allt de stora koncernerna
               som vidgar sin verksamhet. Vi ser också att det inte bara är fråga
@@ -2051,19 +2435,25 @@
               går ut över kostsam journalistik, till exempel utlandsbevakning,
               recensioner och undersökande journalistik.
             </seg>
-            <seg n="53bcd964">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-229" prev="i-dc7d14bee44f5b33-222" who="Q297821">
+            <seg>
               Jag gläder mig åt att Sveriges Radio använder sina ökade tillgångar.
               Sveriges Radio har fått en uppräkning med 3 procent, och det används
               till kultur- och utrikeskorrespondenter. Men detta är inte en
               trend i många andra medier utan i stället dras detta tillbaka.
             </seg>
-            <seg n="71d9670c">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-230" prev="i-dc7d14bee44f5b33-222" who="Q297821">
+            <seg>
               Mediekoncernerna konkurrerar också med varandra om att bli störst.
               Men det finns också en trend att de lämnar vissa områden. De gör
               affärer med varandra, och de ser till att hålla sig på vissa geografiska
               områden. Vi kan fundera på om det är bra.
             </seg>
-            <seg n="8c0ff7de">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-231" prev="i-dc7d14bee44f5b33-222" who="Q297821">
+            <seg>
               Gunnar Andrén tog upp mitt eget område. Ja, jag har tillgång
               till en jättebra tidning, nämligen Smålands-Tidningen, men det
               finns endast en ägare i hela länet. Det finns ingen annan. Hur
@@ -2072,7 +2462,9 @@
               debattartiklar? Det märks att det är samma ägare. Det gör att
               den öppna debatten och det fria ordet begränsas och kan strypas.
             </seg>
-            <seg n="3c456fc5">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-232" prev="i-dc7d14bee44f5b33-222" who="Q297821">
+            <seg>
               Sedan var det frågan om dagspressens ekonomi. Jag håller med
               kulturministern om att det finns bra rapporter. Det är ett transparent
               system. Vi kan se och vi kan följa de olika medierna. Men varje
@@ -2080,7 +2472,9 @@
               det görs inga djupare konsekvensanalyser. Jag tycker att regeringen
               har ett ansvar för att göra dem.
             </seg>
-            <seg n="bd0cd419">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-233" prev="i-dc7d14bee44f5b33-222" who="Q297821">
+            <seg>
               Rapporten om dagspressens ekonomi kom efter att budgetpropositionen
               lades fram. Ni har kanske inte kunnat följa med. Där står att
               1997 hade de tolv största aktörerna 75 procent av marknaden. År
@@ -2090,7 +2484,9 @@
               har 93 procent av marknaden. Det är faktiskt de största som har
               den stora biten.
             </seg>
-            <seg n="e3a8e822">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-234" prev="i-dc7d14bee44f5b33-222" who="Q297821">
+            <seg>
               Kabel-tv-marknaden är också ett orosmoment. Där finns en stark
               aktör. Den aktören ligger i ett riskkapitalbolag. I den proposition
               som ni håller på att arbeta med om en ny radio- och tv-lag bör
@@ -2101,14 +2497,21 @@
               grupper som konsumenterna önskar. Det finns saker som är bra att
               göra i förberedelserna inför propositionen.
             </seg>
-            <seg n="e83a652c">
+          </u>
+          <note type="speaker">
+            Anf. 34 GUNNAR ANDRÉN (fp):
+          </note>
+          <u xml:id="i-dc7d14bee44f5b33-235" next="i-dc7d14bee44f5b33-238" who="Q5556677">
+            <seg>
               Herr talman! Jag tror att vi alla som är här i kammaren är överens
               om att god journalistik är någonting som vi behöver för att hålla
               oss välinformerade. Helene Petersson i Stockaryd och jag som båda
               har tillhört eller tillhör Fojo vet vilken betydelse det här har
               inte bara i Sverige utan i hela världen.
             </seg>
-            <seg n="fd7cf219">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-236" prev="i-dc7d14bee44f5b33-235" who="Q5556677">
+            <seg>
               Det som har hänt under de senaste åren är dock något mycket positivt
               i Sverige. Det är framför allt att man har kunnat distribuera
               debattartiklar på ett helt annat sätt än att vara utlämnad till
@@ -2118,7 +2521,9 @@
               refusera tiotusentals inlägg. Det var inte så roligt. Nu hittar
               de vägen ut på ett annat sätt än att bli publicerade.
             </seg>
-            <seg n="84da866a">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-237" prev="i-dc7d14bee44f5b33-235" who="Q5556677">
+            <seg>
               Det finns en annan sak som inte är så bra, och det är enligt
               mitt sätt att se att vi i vårt land fortfarande belastar annonser
               i de bästa tidningarna de samhällsbevakande tidningarna, dagstidningarna
@@ -2130,7 +2535,9 @@
               måste man säga. Att belägga just de tidningar som förser oss med
               den allra bästa journalistiken med detta måste vara mindre klokt.
             </seg>
-            <seg n="899fbd61">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-238" prev="i-dc7d14bee44f5b33-235" who="Q5556677">
+            <seg>
               Herr talman! För att återgå till frågan om ägarkoncentrationen
               måste man ändå i en sådan här debatt i riksdagen konstatera att
               ägandet i den meningen har blivit väldigt spritt. Förr i tiden
@@ -2140,39 +2547,44 @@
               land.
             </seg>
           </u>
-          <note n="ff5dab31" type="speaker">
-            Anf. 34 GUNNAR ANDRÉN (fp):
-          </note>
-          <note type="speaker" n="0d238b17">
+          <note type="speaker">
             Anf. 35 Kulturminister LENA ADELSOHN LILJEROTH (m):
           </note>
-          <u who="Q297821" xml:id="i-c3bcd3bebffd216d-4" n="8c92581f" next="i-6c0434a49f086738-4">
-            <seg n="97165db7">
+          <u xml:id="i-dc7d14bee44f5b33-239" next="i-dc7d14bee44f5b33-250" who="Q297821">
+            <seg>
               Herr talman! Jag hoppas att jag missförstod Helene Petersson
               när hon tog upp det där med att tjäna pengar som ett problem och
               ett hinder för kvalitet. Jag tror tvärtom att en mediekoncern
               eller ett medieföretag som tjänar pengar också har möjlighet att
               göra seriös journalistik, vilket är väldigt viktigt.
             </seg>
-            <seg n="6690215b">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-240" prev="i-dc7d14bee44f5b33-239" who="Q297821">
+            <seg>
               Om man ska se till hur det ser ut har vi inte överlämnat det
               åt marknaden, som jag uppfattade att Helene Petersson åtminstone
               tidigare talade om att hela mediebranschen är som på ett gungfly.
             </seg>
-            <seg n="da7e84df">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-241" prev="i-dc7d14bee44f5b33-239" who="Q297821">
+            <seg>
               Vi kan se på public service, som jag tidigare nämnde har en stark
               ställning. Vi har ett presstöd på runt 560 miljoner kronor. Vi
               har ett filmstöd. Vi har ett radio- och tv-verk som fördelar tillstånd,
               för i fjol 40 nationella och 14 lokala och regionala kanaler.
               Det är inte något som är satt enbart på en obskyr marknads villkor.
             </seg>
-            <seg n="79325229">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-242" prev="i-dc7d14bee44f5b33-239" who="Q297821">
+            <seg>
               Flera tidningar som har fått omfattande presstöd genom åren har
               trots detta inte klarat sig. Det är inte alltid bara en fråga
               om att det finns ekonomiska medel. Jag är den första att beklaga
               att flera tidningar inte har överlevt.
             </seg>
-            <seg n="6546b135">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-243" prev="i-dc7d14bee44f5b33-239" who="Q297821">
+            <seg>
               Om man säger, som Helene Petersson, att det finns ett hot mot
               det fria ordet tycker jag att man målar i väldigt svarta färger.
               Jag skulle snarare vilja säga att det fria ordet aldrig har varit
@@ -2182,12 +2594,16 @@
               debattredaktör tvingades refusera tusentals insändare, och i dag
               kan alla dessa röster nå ut.
             </seg>
-            <seg n="8cfb9785">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-244" prev="i-dc7d14bee44f5b33-239" who="Q297821">
+            <seg>
               Att vi sedan har ett antal starka aktörer kan man se som ett
               problem, men man kan också se det som en nödvändighet med den
               tekniska utveckling som i dag sker.
             </seg>
-            <seg n="1d02e47d">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-245" prev="i-dc7d14bee44f5b33-239" who="Q297821">
+            <seg>
               I Europa finns en lista på de 25 största mediehusen, och bland
               de tio första finns inget nordiskt medieföretag över huvud taget.
               Om vi talar om Norden är det egentligen bara nordiska medieföretag.
@@ -2198,18 +2614,20 @@
               en liten plutt men ytterst ett medelstort företag.
             </seg>
           </u>
-          <note n="5dc8f492">
+          <note>
             Anf. 36 HELENE PETERSSON i Stockaryd (s):
           </note>
-          <u who="Q297821" xml:id="i-6c0434a49f086738-4" n="8c92581f" prev="i-c3bcd3bebffd216d-4">
-            <seg n="053ce330">
+          <u xml:id="i-dc7d14bee44f5b33-246" prev="i-dc7d14bee44f5b33-239" who="Q297821">
+            <seg>
               Herr talman! Ja, visst finns det stora mediehus i övriga Europa.
               Det här har EU också uppmärksammat. Man har skrivit en rapport,
               som vi har haft en debatt om tidigare, om mediemångfalden i EU
               och hur man ska kunna stimulera den. Jag tänkte att jag skulle
               utnyttja mitt sista inlägg till detta.
             </seg>
-            <seg n="931024f9">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-247" prev="i-dc7d14bee44f5b33-239" who="Q297821">
+            <seg>
               I dag har Sverige ordförandeskapet inom EU, och kulturministern
               har ett visst ansvar för och möjlighet att plocka upp dessa frågor.
               När vi hade rapporten uppe här i riksdagen gällde det bland annat
@@ -2219,19 +2637,25 @@
               håller sig inom landets gränser utan arbetar tvärs över gränserna.
               Det kan vara på gott, och det kan vara på ont.
             </seg>
-            <seg n="01447d74">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-248" prev="i-dc7d14bee44f5b33-239" who="Q297821">
+            <seg>
               I min interpellation om medie- och ägarkoncentration har jag
               sett till den svenska marknaden. Att de bolagen ger sig över gränserna
               eller att norska bolag ger sig in i Sverige är kanske en del av
               frågan, men nu gäller det koncentrationen i Sverige, som är ganska
               stor.
             </seg>
-            <seg n="61f46114">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-249" prev="i-dc7d14bee44f5b33-239" who="Q297821">
+            <seg>
               Min fråga är alltså: Pågår det i dag ett arbete som har rullat
               vidare på EU-nivå när det gäller mediemångfalden? Det fanns ju
               ett uppdrag att ta fram kriterierna.
             </seg>
-            <seg n="410505ef">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-250" prev="i-dc7d14bee44f5b33-239" who="Q297821">
+            <seg>
               Jag är jätteglad att vi har en stark public service. Det finns
               lite funderingar när det gäller förutsättningarna, och det är
               den korta avtalsperioden, ekonomin och avgifterna. Man fick en
@@ -2240,16 +2664,18 @@
               Det får vi fortsätta att diskutera någon annan gång.
             </seg>
           </u>
-          <note type="speaker" n="3081d12b">
+          <note type="speaker">
             Anf. 37 Kulturminister LENA ADELSOHN LILJEROTH (m):
           </note>
-          <u who="Q297821" xml:id="i-c3bcd3bebffd216d-5" n="8c92581f" next="i-6c0434a49f086738-5">
-            <seg n="8d5dff95">
+          <u xml:id="i-dc7d14bee44f5b33-251" next="i-dc7d14bee44f5b33-258" who="Q297821">
+            <seg>
               Herr talman! Inom public service är man mycket glad över uppräkningen
               med 3 procent. Vi är också väldigt glada över att vi inte behöver
               höja tv-licensen, vilket i sin tur gläder tv-tittare och radiolyssnare.
             </seg>
-            <seg n="2c4c1fc1">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-252" prev="i-dc7d14bee44f5b33-251" who="Q297821">
+            <seg>
               Helene Petersson tog upp frågan var det här nu ligger i EU-sammanhang.
               Det finns ett initiativ från parlamentets sida som också har beaktats
               av kommissionen, som har tagit fram en rapport. Det är ett arbete
@@ -2260,7 +2686,9 @@
               kan användas. Men det är fortfarande någonting vi väntar på från
               kommissionens sida.
             </seg>
-            <seg n="6c343ef9">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-253" prev="i-dc7d14bee44f5b33-251" who="Q297821">
+            <seg>
               Vi kommer förmodligen att få en rapport vid vårt ministermöte
               i slutet av november, men frågan lär inte komma upp som ett ärende
               då. Däremot kommer vi att ha flera anledningar att diskutera Europeana,
@@ -2270,7 +2698,9 @@
               är ett gott initiativ men som också blir en stor aktör på marknaden.
               Då kan det vara viktigt att vi värnar de europeiska intressena.
             </seg>
-            <seg n="b54f18b9">
+          </u>
+          <u xml:id="i-dc7d14bee44f5b33-254" prev="i-dc7d14bee44f5b33-251" who="Q297821">
+            <seg>
               Avslutningsvis vill jag tacka för diskussionen men konstatera
               att jag i dag inte ser de risker som Helene Petersson ser när
               det handlar om mediekoncentrationen i Sverige. I någon mening
@@ -2278,138 +2708,144 @@
               skäl att hålla ögonen på utvecklingen framöver.
             </seg>
           </u>
-          <note n="3a8f3273">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="bfda47ae">
+          <note>
             6 § Anmälan om inkomna uppteckningar från EU-nämndssammanträde
           </note>
-          <note n="58118341">
+          <note>
             Talmannen anmälde att uppteckningar från EU-nämndens sammanträde
             fredagen den 2 oktober inkommit.
           </note>
-          <note n="1389da89">
+          <note>
             7 § Anmälan om inkommen faktapromemoria om förslag från Europeiska
             kommissionen
           </note>
-          <note n="189a918d">
+          <note>
             Talmannen anmälde att följande faktapromemoria om förslag från
             Europeiska kommissionen inkommit och överlämnats till utskott:
           </note>
-          <u who="Q297821" xml:id="i-6c0434a49f086738-5" n="8c92581f" prev="i-c3bcd3bebffd216d-5">
-            <seg n="c7c90a39">
-              KOM(2009)475
-            </seg>
-            <seg n="d470f0db">
-              Luciano Astudillo
-            </seg>
-          </u>
-          <note n="a2f68608">
+          <note>
+            KOM(2009)475
+          </note>
+          <note>
             8 § Förnyad bordläggning
           </note>
-          <note n="652201e6">
+          <note>
             Föredrogs och bordlades åter
           </note>
-          <note n="228424b3">
+          <note>
             9 § Bordläggning
           </note>
-          <note n="3835890d">
+          <note>
             Anmäldes och bordlades
           </note>
-          <note n="6664f900">
+          <note>
             10 § Anmälan om interpellationer
           </note>
-          <note n="8a3fe502">
+          <note>
             Anmäldes att följande interpellationer framställts
           </note>
-          <note n="7d8d8c12">
+          <note>
             den 20 oktober
           </note>
-          <note n="b34c05c0">
+          <note>
             Jacob Johnson
           </note>
-          <note n="481a8e59">
+          <note>
             Monica Green
           </note>
-          <note n="818968a0">
+          <note>
             Hans Olsson
           </note>
-          <note n="0ac4aad6">
+          <note>
             Interpellationerna redovisas i bilaga som fogats till riksdagens
             snabbprotokoll tisdagen den 3 november.
           </note>
-          <note n="009e52b1">
+          <note>
             11 § Anmälan om frågor för skriftliga svar
           </note>
-          <note n="4a358a1e">
-            Anmäldes att följande frågor för skriftliga svar framställts
-          </note>
-          <note n="7d8d8c12">
+          <u xml:id="i-dc7d14bee44f5b33-255" prev="i-dc7d14bee44f5b33-251" who="Q297821">
+            <seg>
+              Anmäldes att följande frågor för skriftliga svar framställts
+            </seg>
+          </u>
+          <note>
             den 20 oktober
           </note>
-          <note n="741dc51d">
+          <note>
             Elisebeht Markström
           </note>
-          <note n="4f18f9a2">
+          <note>
             Börje Vestlund
           </note>
-          <note n="5a965b1a">
+          <u xml:id="i-dc7d14bee44f5b33-256" prev="i-dc7d14bee44f5b33-251" who="Q297821">
+            <seg>
+              Luciano Astudillo
+            </seg>
+          </u>
+          <note>
             Ronny Olander
           </note>
-          <note n="5a965b1a">
+          <note>
             Ronny Olander
           </note>
-          <note n="5a965b1a">
+          <note>
             Ronny Olander
           </note>
-          <note n="8d9ac940">
+          <note>
             Carina Moberg
           </note>
-          <note n="d6e162e5">
+          <note>
             Carina Hägg
           </note>
-          <note n="0233032e">
+          <note>
             Ameer Sachet
           </note>
-          <note n="0233032e">
+          <note>
             Ameer Sachet
           </note>
-          <note n="0233032e">
+          <note>
             Ameer Sachet
           </note>
-          <note n="018b32de">
+          <note>
             Raimo Pärssinen
           </note>
-          <note n="018b32de">
+          <note>
             Raimo Pärssinen
           </note>
-          <note n="32763f45">
+          <note>
             Frågorna redovisas i bilaga som fogats till riksdagens snabbprotokoll
             tisdagen den 3 november.
           </note>
-          <note n="b2e8f9e2">
+          <note>
             12 § Anmälan om skriftligt svar på fråga
           </note>
-          <note n="fc855c03">
-            Anmäldes att skriftligt svar på följande fråga inkommit
-          </note>
-          <note n="7d8d8c12">
+          <u xml:id="i-dc7d14bee44f5b33-257" prev="i-dc7d14bee44f5b33-251" who="Q297821">
+            <seg>
+              Anmäldes att skriftligt svar på följande fråga inkommit
+            </seg>
+          </u>
+          <note>
             den 20 oktober
           </note>
-          <note n="02d6743b">
+          <note>
             Krister Örnfjäder
           </note>
-          <note n="9a2c7ffc">
+          <note>
             Svaret redovisas i bilaga som fogats till riksdagens snabbprotokoll
             tisdagen den 3 november.
           </note>
-          <note n="106c3711">
+          <note>
             13 § Kammaren åtskildes kl. 18.30.
           </note>
-          <note n="966bf2d4">
-            Förhandlingarna leddes
-          </note>
-          <note n="8a2f4392">
+          <u xml:id="i-dc7d14bee44f5b33-258" prev="i-dc7d14bee44f5b33-251" who="Q297821">
+            <seg>
+              Förhandlingarna leddes
+            </seg>
+          </u>
+          <note>
             /Eva-Lena Ekman
           </note>
         </div>

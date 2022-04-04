@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2009</title>
+        <title>Riksdagens protocols 200910</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2009</title>
+          <title>Riksdagens protocols 200910</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -63,58 +60,65 @@
       </front>
       <body>
         <div>
-          <note n="f9cc887e">
-            ﻿
-          </note>
-          <note n="d800dbf2">
+          <note>
             Riksdagens protokoll
           </note>
-          <note n="91c11f84">
-            2009/10:93
-          </note>
-          <note type="date" n="fe67d025">
+          <u xml:id="i-8cc804a5ce51c73d-0" who="unknown">
+            <seg>
+              2009/10:93
+            </seg>
+          </u>
+          <note>
             Tisdagen den 23 mars
           </note>
-          <note n="46f00041">
+          <note>
             Kl. 13:00 - 18:01
           </note>
-          <note n="7f3462b9">
+          <note>
             1 § Justering av protokoll
           </note>
-          <note n="7427a9c2">
+          <note>
             Justerades protokollet för den 17 mars.
           </note>
-          <note n="1db14ff2">
+          <note>
             2 § Svar på interpellation 2009/10:220 om korrekta uppgifter
             om arbetslösheten
           </note>
-          <note type="speaker" n="09453ccd">
+          <note type="speaker">
             Anf. 1 Finansminister ANDERS BORG (m):
           </note>
-          <u who="Q182050" xml:id="i-9d91523850b34940-0" n="f3006765">
-            <seg n="0c60ddb1">
+          <u xml:id="i-8cc804a5ce51c73d-1" next="i-8cc804a5ce51c73d-6" who="Q182050">
+            <seg>
               Fru talman! Monica Green har frågat statsministern hur statsministern
               ska säkra och kontrollera att regeringens uppgifter om arbetslösheten
               är korrekta.
             </seg>
-            <seg n="ff03e7c4">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-2" prev="i-8cc804a5ce51c73d-1" who="Q182050">
+            <seg>
               Arbetet inom regeringen är så fördelat att det är jag som ska
               svara på interpellationen.
             </seg>
-            <seg n="100dad29">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-3" prev="i-8cc804a5ce51c73d-1" who="Q182050">
+            <seg>
               Målet med regeringens sysselsättningspolitik är att varaktigt
               få fler i arbete främst genom ett minskat utanförskap. Därför
               har politiken framför allt inriktats mot att minska såväl sjukfrånvaron
               som arbetslösheten samt att öka arbetskraftsdeltagandet.
             </seg>
-            <seg n="ce5a21c8">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-4" prev="i-8cc804a5ce51c73d-1" who="Q182050">
+            <seg>
               En olycklig jämförelse mellan två sysselsättningsserier där den
               ena mätte sysselsättningen i åldersgruppen 1664 år och den andra
               i åldersgruppen 1574 år gjorde att Fredrik Reinfeldt gav felaktiga
               uppgifter om sysselsättningen. Vi kommer naturligtvis att skärpa
               kvalitetssäkringen så att sådana misstag inte upprepas i framtiden.
             </seg>
-            <seg n="124a02a0">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-5" prev="i-8cc804a5ce51c73d-1" who="Q182050">
+            <seg>
               Sedan dess har Statistiska centralbyrån publicerat sysselsättningsstatistik
               för hela året 2009. Helårssiffrorna visar att trots den allvarliga
               krisen har sysselsättningen ökat med ungefär 70 000 personer mellan
@@ -124,7 +128,9 @@
               sysselsättningen under denna allvarliga lågkonjunktur inte falla
               under 2006 års nivå.
             </seg>
-            <seg n="5f650bd0">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-6" prev="i-8cc804a5ce51c73d-1" who="Q182050">
+            <seg>
               Regeringens politik har bidragit till att Sverige ser ut att
               klara krisen bättre än väntat och bättre än många andra länder.
               Tack vare en ansvarsfull finanspolitik under krisen där arbetslinjen
@@ -132,11 +138,11 @@
               bra sysselsättningsutveckling som de flesta andra länder.
             </seg>
           </u>
-          <note type="speaker" n="49c3e650">
+          <note type="speaker">
             Anf. 2 MONICA GREEN (s):
           </note>
-          <u who="Q3358763" xml:id="i-689a8356045384b0-0" n="72b4d7cd">
-            <seg n="b0733cf5">
+          <u xml:id="i-8cc804a5ce51c73d-7" next="i-8cc804a5ce51c73d-12" who="Q3358763">
+            <seg>
               Fru talman! Tänk så fel det kunde bli! Statsministern satt i
               tv och sade att 100 000 fler har fått arbete och att det gått
               bra under mandatperioden, trots att det blivit precis tvärtom.
@@ -149,7 +155,9 @@
               man alltså är så förblindad av att politiken har fungerat att
               man inte ser det totala misstaget med de 100 000 färre arbetslösa.
             </seg>
-            <seg n="5926d0f2">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-8" prev="i-8cc804a5ce51c73d-7" who="Q3358763">
+            <seg>
               Det har faktiskt blivit fler arbetslösa, och fler är i utanförskap.
               Det är 70 000 fler i utanförskap i dag än 2006 när den borgerliga
               regeringen tog över 70 000 fler om man räknar på Moderaternas
@@ -158,7 +166,9 @@
               att det nog inte är riktigt så många och att man nu har andra
               siffror. Nu vill man räkna på ett annat sätt.
             </seg>
-            <seg n="686ed893">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-9" prev="i-8cc804a5ce51c73d-7" who="Q3358763">
+            <seg>
               Det är tragiskt att det blir fel. Det var positivt och bra att
               Anders Borg omedelbart gick ut och talade om att det var fel,
               att han tog på sig misstaget. Det är dock tragiskt att Anders
@@ -166,7 +176,9 @@
               trodde på siffrorna. Dessutom hakade Göran Hägglund i debatten
               på när det gällde den felaktiga siffran 100 000.
             </seg>
-            <seg n="79c9c09b">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-10" prev="i-8cc804a5ce51c73d-7" who="Q3358763">
+            <seg>
               Nu säger Anders Borg att det var en olycklig jämförelse och att
               man ska skärpa sig i framtiden. Det är bra, men det hjälper inte
               människorna av kött och blod, människorna där ute i verkligheten,
@@ -180,7 +192,9 @@
               inte arbetslösheten. Ni bekämpar de arbetslösa och straffar dem.
               Så kan man inte ha det i en bra stat.
             </seg>
-            <seg n="97887c30">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-11" prev="i-8cc804a5ce51c73d-7" who="Q3358763">
+            <seg>
               Vi ska försöka se till att alla kommer med i framtiden. Därför
               behövs det investeringar för jobb, även gröna jobb, och utbildning,
               investeringar i flerfamiljshus och i infrastruktur och en bred
@@ -190,24 +204,28 @@
               i budgeten när Anders Borg fick ta över. Det är det som har gjort
               att Sverige hittills klarat sig relativt bra i denna kris.
             </seg>
-            <seg n="73528e20">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-12" prev="i-8cc804a5ce51c73d-7" who="Q3358763">
+            <seg>
               Nu måste vi se framåt. Man måste lära sig av sina misstag. Människor
               har lidit svårt av den borgerliga klasspolitiken, och skillnaderna
               ökar dag för dag på grund av den politik som den borgerliga regeringen
               bedriver. Det är inte bra.
             </seg>
           </u>
-          <note type="speaker" n="defa17c1">
+          <note type="speaker">
             Anf. 3 RAIMO PÄRSSINEN (s):
           </note>
-          <u who="Q3358814" xml:id="i-f504551ff028e08e-0" n="6ca4ca49">
-            <seg n="0d799ec1">
+          <u xml:id="i-8cc804a5ce51c73d-13" next="i-8cc804a5ce51c73d-17" who="Q3358814">
+            <seg>
               Fru talman! Jag tänkte ställa några frågor till finansministern,
               som hävdar att Sverige klarat krisen bättre än andra länder där
               arbetslinjen har hävdats. Därför måste vi reda ut vad Anders Borg
               egentligen menar med arbetslinjen.
             </seg>
-            <seg n="5e0478c7">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-14" prev="i-8cc804a5ce51c73d-13" who="Q3358814">
+            <seg>
               Låt mig försöka exemplifiera med en kvinna i Hofors. Hon heter
               Monika och håller på att bli blind. Nu tvingas hon ut av Arbetsförmedlingen
               för att söka jobb. Är det Anders Borgs arbetslinje? Eller handlar
@@ -219,7 +237,9 @@
               den skatteskillnaden? Är det detta som ingår i Anders Borgs och
               regeringens arbetslinje? Jag får inte riktigt grepp om det hela.
             </seg>
-            <seg n="6b0a3b21">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-15" prev="i-8cc804a5ce51c73d-13" who="Q3358814">
+            <seg>
               Anders Borg talar vitt och brett om arbete och bidrag och har
               på så vis lagt sig under täcket och sagt att det är regeringens
               arbetslinje. Arbete går före bidrag, ja, så är det, men när man
@@ -228,7 +248,9 @@
               ta bussen till Gävle och åk och jobba! då undrar jag om det är
               en viktig del i regeringens arbetslinje.
             </seg>
-            <seg n="3cfabe4e">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-16" prev="i-8cc804a5ce51c73d-13" who="Q3358814">
+            <seg>
               Nu ser vi det motsatta hända i 90 procent av landets kommuner,
               nämligen att antalet människor som är tvungna att söka försörjningsstöd,
               socialbidrag, ökar. Det är precis motsatsen mot arbetslinjen.
@@ -237,17 +259,19 @@
               Monica Greens interpellation kan tydliggöra vad som egentligen
               är regeringens arbetslinje.
             </seg>
-            <seg n="8f33ca2e">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-17" prev="i-8cc804a5ce51c73d-13" who="Q3358814">
+            <seg>
               (ANDRE VICE TALMANNEN: Jag vill påminna om att interpellationen
               handlar om korrekta uppgifter om arbetslösheten. Det var inte
               mycket om försäkringar och så vidare som ingick i den frågan.)
             </seg>
           </u>
-          <note type="speaker" n="960c1d8a">
+          <note type="speaker">
             Anf. 4 Finansminister ANDERS BORG (m):
           </note>
-          <u who="Q182050" xml:id="i-67b65f90be85c0f8-0" n="f3006765" next="i-38c4d0b4843e7f6f-0">
-            <seg n="10eeebf1">
+          <u xml:id="i-8cc804a5ce51c73d-18" next="i-8cc804a5ce51c73d-23" who="Q182050">
+            <seg>
               Fru talman! Grunden för Monica Greens fråga är vad vi har för
               sysselsättningsutveckling. Det här går tillbaka till att den här
               regeringen har en politik för full sysselsättning. Det är det
@@ -257,7 +281,7 @@
               att man kan försörja sig genom eget arbete.
             </seg>
           </u>
-          <note n="85124b66">
+          <note>
             Låt oss då titta på statistiken. I februari 2006 var 4 316 000
             personer mellan 15 och 74 år sysselsatta. I februari 2010 var
             4 451 000 personer mellan 15 och 74 år sysselsatta. Det är alltså
@@ -268,12 +292,14 @@
             74 år, den internationellt godkända statistiken, är det en ökning
             på ungefär 135 000 personer i sysselsättning.
           </note>
-          <u who="Q182050" xml:id="i-38c4d0b4843e7f6f-0" n="f3006765" prev="i-67b65f90be85c0f8-0">
-            <seg n="7d7cbf15">
+          <u xml:id="i-8cc804a5ce51c73d-19" prev="i-8cc804a5ce51c73d-18" who="Q182050">
+            <seg>
               Det här är naturligtvis en intressant notering att göra, givet
               att vi har gått igenom den värsta krisen sedan depressionen.
             </seg>
-            <seg n="1e28c5f1">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-20" prev="i-8cc804a5ce51c73d-18" who="Q182050">
+            <seg>
               Vi fick i dag ESV:s prognos. De räknar med att vi har ett överskott
               på nästan 2 procent av bnp under 2013 och att det sedan stiger
               upp till nästan 3 procent lite längre fram. De räknar utifrån
@@ -292,13 +318,17 @@
               vi hade före krisen. Sedan ska vi naturligtvis arbeta vidare mot
               full sysselsättning. Vi är ju aldrig nöjda.
             </seg>
-            <seg n="71633280">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-21" prev="i-8cc804a5ce51c73d-18" who="Q182050">
+            <seg>
               Det socialdemokratiska alternativet är att höja skatten för löntagare,
               höja a-kassan, återställa sjukförsäkringen och dramatiskt höja
               beskattningen på företag genom att ta bort nedsatta ungdomsarbetsgivaravgifter
               och återställa förmögenhetsskatten.
             </seg>
-            <seg n="1f23d584">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-22" prev="i-8cc804a5ce51c73d-18" who="Q182050">
+            <seg>
               Det här väcker ett par frågor. Kommer nu jobben? är den stora
               frågan. Har ESV rätt? Kommer jobben? Får vi 125 000 i sysselsättning
               de kommande åren? Det kan vi inte veta. Men vad vi kan vara helt
@@ -307,7 +337,9 @@
               företagare och väsentligt svagare efterfrågan i ekonomin därför
               att vi höjer skatten för vanliga människor.
             </seg>
-            <seg n="0afa5375">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-23" prev="i-8cc804a5ce51c73d-18" who="Q182050">
+            <seg>
               Nästa fråga är naturligtvis hur mycket arbetslösheten kan minska.
               Kan vi se 9, 8, 7 eller 6 som prognos de kommande åren? Arbetslösheten
               kan minska mycket mindre om man höjer skatten för vanliga löntagare
@@ -319,11 +351,11 @@
               sig fast på en väsentligt hög nivå.
             </seg>
           </u>
-          <note type="speaker" n="0d0d2e1b">
+          <note type="speaker">
             Anf. 5 MONICA GREEN (s):
           </note>
-          <u who="Q3358763" xml:id="i-689a8356045384b0-1" n="72b4d7cd">
-            <seg n="fbc2e0d9">
+          <u xml:id="i-8cc804a5ce51c73d-24" next="i-8cc804a5ce51c73d-32" who="Q3358763">
+            <seg>
               Fru talman! Anders Borg återkommer till att det ska vara lönsamt
               att arbeta, att det ska vara incitament, att man ska vara fattig
               om man är arbetslös annars hittar man inget arbete. Det är en
@@ -331,7 +363,9 @@
               fuskar bara för att man ska ha en trygghet under tiden man är
               arbetslös. Det är en cynisk människosyn.
             </seg>
-            <seg n="bb113c3f">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-25" prev="i-8cc804a5ce51c73d-24" who="Q3358763">
+            <seg>
               Hur är det med sysselsättningsgraden, Anders Borg? Det är alltid
               den vi har diskuterat tidigare, men nu vill inte Anders Borg diskutera
               sysselsättningsgraden längre. Antalet människor som kan gå ut
@@ -341,18 +375,24 @@
               skulle minska. Jag drar mig till minnes att Anders Borg hade helt
               andra målsättningar när det gäller sysselsättningsgraden.
             </seg>
-            <seg n="51962d41">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-26" prev="i-8cc804a5ce51c73d-24" who="Q3358763">
+            <seg>
               Den borgerliga regeringen som var i opposition påstod att de
               skulle fixa jobben. Man sade att man har en arbetslinje. Det har
               blivit precis tvärtom. Människor har blivit arbetslösa. Fler och
               fler skakas nu av arbetslöshetskrisen.
             </seg>
-            <seg n="e6614c76">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-27" prev="i-8cc804a5ce51c73d-24" who="Q3358763">
+            <seg>
               Jag var på Arbetsförmedlingen i Skövde i går. På ett år, från
               februari 2009 till nu, har långtidsarbetslösheten bland unga ökat
               med 400 procent. Det kallar jag inte arbetslinje, Anders Borg.
             </seg>
-            <seg n="64490304">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-28" prev="i-8cc804a5ce51c73d-24" who="Q3358763">
+            <seg>
               Vi ska göra det billigare att anställa de arbetslösa ungdomarna
               när vi får tillbaka regeringsmakten till hösten. Vi ska göra det
               enklare för småföretag, och vi ska se till att människor får en
@@ -362,7 +402,9 @@
               nog ett jobb. Det måste faktiskt finnas arbete att söka, Anders
               Borg.
             </seg>
-            <seg n="7274e063">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-29" prev="i-8cc804a5ce51c73d-24" who="Q3358763">
+            <seg>
               Jag kommer tillbaka till Anders Borgs tricksande igen. Anders
               Borg påstår att antalet i utanförskap har gått åt rätt håll. Men
               det har blivit 70 000 personer fler under mandatperioden. Det
@@ -375,7 +417,9 @@
               Det är inte trovärdigt, Anders Borg. Vi ska tillbaka till full
               sysselsättning.
             </seg>
-            <seg n="57d29235">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-30" prev="i-8cc804a5ce51c73d-24" who="Q3358763">
+            <seg>
               Jag vet hur det var. Under 2006, det senaste året vi styrde,
               tillkom 153 000 nya jobb. Under ert första år vid regeringsmakten
               tillkom 80 000 nya jobb. Det är också ganska bra, men det är inte
@@ -383,34 +427,42 @@
               tillkom endast 8 000 nya jobb, och sedan vet vi hur det gick med
               varselvågen.
             </seg>
-            <seg n="904e7912">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-31" prev="i-8cc804a5ce51c73d-24" who="Q3358763">
+            <seg>
               Man ska kunna regera ett land även i dåliga tider. Man borde
               tala om för väljarna i en valrörelse att vallöftena gäller bara
               om det är vackert väder, bara om det är högkonjunktur, annars
               kommer man inte att klara landet.
             </seg>
-            <seg n="27da88d6">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-32" prev="i-8cc804a5ce51c73d-24" who="Q3358763">
+            <seg>
               Ni borde ha varit ärligare i valrörelsen, Anders Borg.
             </seg>
           </u>
-          <note type="speaker" n="070c33bd">
+          <note type="speaker">
             Anf. 6 RAIMO PÄRSSINEN (s):
           </note>
-          <u who="Q3358814" xml:id="i-f504551ff028e08e-1" n="6ca4ca49">
-            <seg n="62d7ff50">
+          <u xml:id="i-8cc804a5ce51c73d-33" next="i-8cc804a5ce51c73d-37" who="Q3358814">
+            <seg>
               Fru talman! Skillnaden mellan Anders Borg och socialdemokrater
               är att Anders Borg gör prognoser, lägger ut teorier, medan vi
               tittar på vad som händer. Vi tittar nu på vad som har hänt under
               mandatperioden. Vi kan mäta ett antal olika indikatorer.
             </seg>
-            <seg n="3a2df144">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-34" prev="i-8cc804a5ce51c73d-33" who="Q3358814">
+            <seg>
               Anders Borg är nöjd. Han säger att Sverige har klarat sig bäst.
               Sverige kommer bäst ur krisen. Han kommenterar då inte att det
               finns 118 000 fler arbetslösa. Det är finanskrisen. Anders Borg
               har naturligtvis inget ansvar där, säger han själv, eftersom Sverige
               har klarat sig bäst.
             </seg>
-            <seg n="4b216b90">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-35" prev="i-8cc804a5ce51c73d-33" who="Q3358814">
+            <seg>
               Låt oss göra en utvärdering av hur det har gått. Hur gick det
               med jobben? Låt oss titta på mitt hemlän Gävleborg. Där finns
               det nästan 5 000 arbetslösa ungdomar sammanlagt över 18 000. Titta
@@ -422,23 +474,27 @@
               ingenstans att bo, har tappat mycket när det gäller ekonomi och
               så vidare.
             </seg>
-            <seg n="ee0c6d55">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-36" prev="i-8cc804a5ce51c73d-33" who="Q3358814">
+            <seg>
               Titta på verkligheten, Anders Borg! Stå inte här och lämna teorier
               om hur det eventuellt skulle kunna bli i Anders Borgs värld om
               Socialdemokraterna vinner valet. Låt oss utvärdera Anders Borg
               och vad han har åstadkommit. Jag är helt överens med massvis med
               andra människor i det här landet: Det går åt fel håll.
             </seg>
-            <seg n="fc499ae5">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-37" prev="i-8cc804a5ce51c73d-33" who="Q3358814">
+            <seg>
               Tyvärr jag hoppas verkligen inte att Anders Borg är nöjd med
               situationen i landet, för bättre går det minsann att göra.
             </seg>
           </u>
-          <note type="speaker" n="3eef8dc9">
+          <note type="speaker">
             Anf. 7 Finansminister ANDERS BORG (m):
           </note>
-          <u who="Q182050" xml:id="i-9d91523850b34940-1" n="f3006765">
-            <seg n="b00e4c8f">
+          <u xml:id="i-8cc804a5ce51c73d-38" next="i-8cc804a5ce51c73d-48" who="Q182050">
+            <seg>
               Fru talman! Jag kan försäkra Raimo Pärssinen att jag inte är
               nöjd. Jag är djupt oroad för att det finns en sannolikhet för
               att vi skulle gå tillbaka till den politik som Socialdemokraterna
@@ -446,7 +502,9 @@
               och Amsåtgärder, i stället för en jobbpolitik som leder till fler
               människor i sysselsättning.
             </seg>
-            <seg n="ce35b203">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-39" prev="i-8cc804a5ce51c73d-38" who="Q182050">
+            <seg>
               Raimo Pärssinen säger att vi ska utvärdera vad som har hänt,
               inte prognoserna. Låt oss då igen konstatera att från februari
               2006 till februari 2010 har sysselsättningen ökat bland dem som
@@ -454,13 +512,17 @@
               februari 2010 är det en ökning bland dem som är 1574 år det internationellt
               vedertagna sättet att mäta sysselsättningen med 134 000.
             </seg>
-            <seg n="8aa1f155">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-40" prev="i-8cc804a5ce51c73d-38" who="Q182050">
+            <seg>
               Det är vad som har hänt. Trots att vi har gått igenom ett depressionsliknande
               förlopp i världsekonomin, trots att vi haft den värsta krisen
               sedan 30-talet, har vi alltså haft en ökning av sysselsättningen
               från början av 2006 till början av 2010.
             </seg>
-            <seg n="99e1a130">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-41" prev="i-8cc804a5ce51c73d-38" who="Q182050">
+            <seg>
               Det är naturligtvis intressant att Ekonomistyrningsverket räknar
               med att vi har ett överskott på 1 procent 2012, 2 procent 2013
               och nästan 3 procent 2014. När andra länder ska höja skatten och
@@ -469,26 +531,34 @@
               vi har en sysselsättningsökning under de här åren på i storleksordningen
               125 000 om arbetslösheten går från 9 till 8 till 7 till 6 procent.
             </seg>
-            <seg n="4bc85a66">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-42" prev="i-8cc804a5ce51c73d-38" who="Q182050">
+            <seg>
               Det är naturligtvis väldigt glädjande om en sådan utveckling
               skulle komma på plats. Full sysselsättning är kärnan i vår politik
               med vad det innebär av trygghet, välfärd och möjligheter till
               självbestämmande för människor. Det är grunden för politiken.
             </seg>
-            <seg n="00cce336">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-43" prev="i-8cc804a5ce51c73d-38" who="Q182050">
+            <seg>
               Varför är jag djupt oroad? Ja, ta fram den socialdemokratiska
               motionen. Den är väldig tydlig: Försämra jobbavdraget, använd
               14 miljarder till att förstärka a-kassan, återställ sjukförsäkringen,
               bygg ut traditionell Amspolitik, höj skatten för unga, försämra
               förutsättningarna för företagande.
             </seg>
-            <seg n="54d9b572">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-44" prev="i-8cc804a5ce51c73d-38" who="Q182050">
+            <seg>
               Om man genomför det är det att rulla tillbaka arbetslinjen. Man
               gör det mer lönsamt att inte arbeta, mindre lönsamt att arbeta
               och väsentligt dyrare att anställa. Det är kärnan i den socialdemokratiska
               politiken.
             </seg>
-            <seg n="b375fb35">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-45" prev="i-8cc804a5ce51c73d-38" who="Q182050">
+            <seg>
               Vad skulle det betyda? Ja, låt oss konstatera att det skulle
               betyda att risken ökar för att jobben inte kommer. Gör man det
               dyrare att anställa ökar risken för att jobben inte kommer. Det
@@ -499,7 +569,9 @@
               6 procent utan stannar någonstans på vägen och att vi i stället
               får inflation och löneökningar. Det är precis det som oroar mig.
             </seg>
-            <seg n="afcc4d29">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-46" prev="i-8cc804a5ce51c73d-38" who="Q182050">
+            <seg>
               Det allvarligaste hotet mot full sysselsättning utgör en socialdemokratisk
               valseger i höstens val. Det skulle innebära att vi började gå
               tillbaka från arbetslinjen. Och det är arbetslinjen som har gjort
@@ -508,11 +580,15 @@
               och en sysselsättning och arbetade timmar som har utvecklats väsentligt
               bättre än vad vi trodde.
             </seg>
-            <seg n="e4ee2c39">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-47" prev="i-8cc804a5ce51c73d-38" who="Q182050">
+            <seg>
               Prognoser tror du inte på, Raimo Pärssinen, utan vi ska utvärdera
               vad som händer.
             </seg>
-            <seg n="495259b8">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-48" prev="i-8cc804a5ce51c73d-38" who="Q182050">
+            <seg>
               Från februari 2006 till februari 2010 är det plus 75 000 och
               plus 134 000 i sysselsättningsökning. Det är naturligtvis inte
               tillräckligt. Full sysselsättning förutsätter att vi får lägga
@@ -522,11 +598,11 @@
               offentliga finanser och en politik för full sysselsättning.
             </seg>
           </u>
-          <note type="speaker" n="69bb31ad">
+          <note type="speaker">
             Anf. 8 MONICA GREEN (s):
           </note>
-          <u who="Q3358763" xml:id="i-689a8356045384b0-2" n="72b4d7cd">
-            <seg n="6903cd67">
+          <u xml:id="i-8cc804a5ce51c73d-49" next="i-8cc804a5ce51c73d-53" who="Q3358763">
+            <seg>
               Fru talman! Man undrar ju om Anders Borg själv tror på det han
               står och säger just nu. Man undrar ju om alltihop bara är retorik
               och tricksande med siffror, om Anders Borg nu försöker dra en
@@ -535,7 +611,9 @@
               byggde upp i det här landet, som gjorde att Sverige både stod
               starkt i de kriser vi har haft tidigare och har haft så bra sysselsättningsmål.
             </seg>
-            <seg n="cedb9dff">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-50" prev="i-8cc804a5ce51c73d-49" who="Q3358763">
+            <seg>
               Sysselsättningsgraden är det som vi får räkna, för man får räkna
               alla människor som kommer ut på arbetsmarknaden, Anders Borg.
               Även ekonomer som Anders Borg får räkna med det när det kommer
@@ -543,7 +621,9 @@
               har minskat under er tid vid regeringsmakten. Det är Socialdemokraterna
               som har sett till att vi har haft en jobblinje.
             </seg>
-            <seg n="079fc359">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-51" prev="i-8cc804a5ce51c73d-49" who="Q3358763">
+            <seg>
               Ni bedriver en linje med ökade klyftor. Er politik går ut på
               att det ska trissas fram låglönejobb. Ert eget finanspolitiska
               råd säger att ni inte är tydliga nog med det. Er politik går ut
@@ -551,14 +631,18 @@
               Vår politik går ut på aktiva arbetsmarknadsåtgärder. Det kallar
               Anders Borg nu Amstrams, eller hur han uttryckte det.
             </seg>
-            <seg n="fd3a1281">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-52" prev="i-8cc804a5ce51c73d-49" who="Q3358763">
+            <seg>
               Ja, vi säger att människor ska vara trygga och ha en ekonomisk
               trygghet när man är arbetslös. Det står vi för. Vi menar att trygga
               människor vågar. Och vi vet att det är det som har varit framgångsrikt
               genom tiderna. Det är det som har gjort att vi har hållit ihop
               klyftorna och sett till att människor får bra löner.
             </seg>
-            <seg n="2b6e8d49">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-53" prev="i-8cc804a5ce51c73d-49" who="Q3358763">
+            <seg>
               Socialbidragen ökar i varenda kommun, Anders Borg. Arbetslösheten
               ökar. Och arbetslösheten bland välfärdsarbetarna ökar också, eftersom
               kommunerna nu måste dra ned. 25 000 människor har redan fått lämna
@@ -567,46 +651,58 @@
               Borg.
             </seg>
           </u>
-          <note type="speaker" n="63b5be9f">
+          <note type="speaker">
             Anf. 9 Finansminister ANDERS BORG (m):
           </note>
-          <u who="Q182050" xml:id="i-9d91523850b34940-2" n="f3006765">
-            <seg n="40d2f4a7">
+          <u xml:id="i-8cc804a5ce51c73d-54" next="i-8cc804a5ce51c73d-61" who="Q182050">
+            <seg>
               Fru talman! Full sysselsättning är grunden för såväl frihet som
               rättvisa och välfärd. Full sysselsättning, att alla som vill och
               kan arbeta är på arbetsmarknaden och arbetar, är kärnan i den
               politik regeringen bedriver.
             </seg>
-            <seg n="b11b96d9">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-55" prev="i-8cc804a5ce51c73d-54" who="Q182050">
+            <seg>
               Vi ska naturligtvis utvärdera resultaten. Vi går igenom den värsta
               krisen sedan depressionen, den värsta krisen sedan 30-talet, den
               värsta kris världsekonomin har upplevt. Det är vad vi nu befinner
               oss mitt i.
             </seg>
-            <seg n="d84da543">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-56" prev="i-8cc804a5ce51c73d-54" who="Q182050">
+            <seg>
               Trots det kan man konstatera att när vi nu fick arbetskraftsundersökningen
               för februari ligger sysselsättningen för dem som är 1574 år 134
               000 högre än i februari 2006, och om vi tar dem som är 1664 år
               ligger den 75 000 högre under den värsta kris vi har upplevt sedan
               depressionen.
             </seg>
-            <seg n="1c6c7271">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-57" prev="i-8cc804a5ce51c73d-54" who="Q182050">
+            <seg>
               ESV:s prognos har väldiga fördelar, för den är pedagogisk: 1,
               2 och 3 det är så vi får det finansiella sparandet från 2012,
               2013 och 2014. 1, 2 och 3 procent så mycket stiger överskottet
               under de år vi ser framför oss. Arbetslösheten faller med 9, 8,
               7 och 6 procent under de år vi har framför oss.
             </seg>
-            <seg n="332328d7">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-58" prev="i-8cc804a5ce51c73d-54" who="Q182050">
+            <seg>
               Det är relativt bra prognoser, enkla att komma ihåg. Vad belyser
               de? Jo, de belyser att vi har ordning i svensk ekonomi. De belyser
               att vi kan räkna med att sysselsättningen fortsätter att stiga
               efter krisen.
             </seg>
-            <seg n="bc7c8f72">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-59" prev="i-8cc804a5ce51c73d-54" who="Q182050">
+            <seg>
               Vad är hotet mot det? Hotet mot det är att rulla tillbaka arbetslinjen.
             </seg>
-            <seg n="8d50d8b0">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-60" prev="i-8cc804a5ce51c73d-54" who="Q182050">
+            <seg>
               Vad är det man föreslår här? Det är en kraftig försämring av
               jobbskatteavdrag och en kraftig höjning av a-kassan. Det är en
               del. Det gör det mindre lönsamt att arbeta. Sedan ska man höja
@@ -614,7 +710,9 @@
               ta tillbaka en lång rad andra skatter på företagssidan. Det gör
               det mindre lönsamt att anställa.
             </seg>
-            <seg n="697930ac">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-61" prev="i-8cc804a5ce51c73d-54" who="Q182050">
+            <seg>
               Kombinationen av de här åtgärderna skulle öka risken för att
               det dröjer innan jobben kommer. Kombinationen av de här åtgärderna
               skulle öka risken för att svensk ekonomi kör in i flaskhalsar
@@ -624,17 +722,17 @@
               höstens val.
             </seg>
           </u>
-          <note n="4cb26bcf">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="1dc59e4f">
+          <note>
             3 § Svar på interpellation 2009/10:250 om beskattning av föreningar
           </note>
-          <note type="speaker" n="3d766daa">
+          <note type="speaker">
             Anf. 10 Finansminister ANDERS BORG (m):
           </note>
-          <u who="Q182050" xml:id="i-9d91523850b34940-3" n="f3006765">
-            <seg n="af4f4a21">
+          <u xml:id="i-8cc804a5ce51c73d-62" next="i-8cc804a5ce51c73d-64" who="Q182050">
+            <seg>
               Fru talman! Marie Engström har frågat mig vilka åtgärder jag
               kommer att vidta med anledning av två utredningsförslag som nyligen
               presenterats som berör beskattning av föreningar. Marie Engström
@@ -642,18 +740,20 @@
               skapa trygga och förutsägbara regler för att skapa stabila förutsättningar
               för föreningslivet.
             </seg>
-            <seg n="b09a4464">
-              Betänkandet på inkomstskattens område och rapporten på mervärdesskatteområdet
-              som presenterades förra året berör båda den ideella sektorn. Stiftelse-
-              och föreningsskatteutredningens betänkande Moderniserade skatteregler
-              för ideell sektor har nyligen remissbehandlats och det har kommit
-              in drygt 140 remissvar. Utredningsförslaget och remissvaren bereds
-              för närvarande inom Regeringskansliet. Vidare remissbehandlas
-              för närvarande rapporten Mervärdesskatt för den ideella sektorn,
-              m.m., och svar ska ha inkommit till departementet senast den 31
-              mars 2010.
-            </seg>
-            <seg n="2ce974c5">
+          </u>
+          <note>
+            Betänkandet på inkomstskattens område och rapporten på mervärdesskatteområdet
+            som presenterades förra året berör båda den ideella sektorn. Stiftelse-
+            och föreningsskatteutredningens betänkande Moderniserade skatteregler
+            för ideell sektor har nyligen remissbehandlats och det har kommit
+            in drygt 140 remissvar. Utredningsförslaget och remissvaren bereds
+            för närvarande inom Regeringskansliet. Vidare remissbehandlas
+            för närvarande rapporten Mervärdesskatt för den ideella sektorn,
+            m.m., och svar ska ha inkommit till departementet senast den 31
+            mars 2010.
+          </note>
+          <u xml:id="i-8cc804a5ce51c73d-63" prev="i-8cc804a5ce51c73d-62" who="Q182050">
+            <seg>
               Rapporten om ytterligare anpassningar av mervärdesskattereglerna
               till EU:s mervärdesskattedirektiv avseende ideella föreningar
               med flera syftar till att bemöta den kritik som EU-kommissionen
@@ -666,7 +766,9 @@
               för hela eller delar av den i dag undantagna allmännyttiga ideella
               verksamheten.
             </seg>
-            <seg n="287e71c6">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-64" prev="i-8cc804a5ce51c73d-62" who="Q182050">
+            <seg>
               Innan de nämnda beredningarna är avslutade kan jag inte uttala
               mig närmare om vilka åtgärder som ska vidtas, men det är min ambition
               att skapa goda förutsättningar, ekonomiskt och administrativt,
@@ -674,22 +776,26 @@
               demokratin.
             </seg>
           </u>
-          <note type="speaker" n="8116e935">
+          <note type="speaker">
             Anf. 11 MARIE ENGSTRÖM (v):
           </note>
-          <u who="Q4946821" xml:id="i-af703764098a8aac-0" n="8ba3f36a">
-            <seg n="e17791ff">
+          <u xml:id="i-8cc804a5ce51c73d-65" next="i-8cc804a5ce51c73d-72" who="Q4946821">
+            <seg>
               Fru talman! De båda utredningar som jag hänvisar till i min interpellation
               har väckt en del diskussioner och uppmärksamhet, och den här debatten
               i kammaren väcker uppenbarligen också intresse.
             </seg>
-            <seg n="00d4e05d">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-66" prev="i-8cc804a5ce51c73d-65" who="Q4946821">
+            <seg>
               Detta handlar dels om en mervärdesskatteutredning, dels om en
               utredning om inkomstskatt på ideell verksamhet. Det är många som
               befarar att det skulle få betydelse för ideella föreningars ekonomi.
               Till exempel har man i idrottsrörelsen känt en stor oro.
             </seg>
-            <seg n="14331290">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-67" prev="i-8cc804a5ce51c73d-65" who="Q4946821">
+            <seg>
               När det gäller den första utredningen, som handlade om att modernisera
               skatteregler, står det i direktiven att man ska komma med förslag
               till ett modernt, ändamålsenligt system med enkla och likformiga
@@ -697,7 +803,9 @@
               att det är bra att man försöker se över skattesystemet utifrån
               detta.
             </seg>
-            <seg n="99f88091">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-68" prev="i-8cc804a5ce51c73d-65" who="Q4946821">
+            <seg>
               Det som har blivit väldigt omdebatterat är det som kallas finansieringsfrågan.
               Man föreslår att begreppet hävd tas bort. I stället talar man
               om inkomster som ska ha en naturlig anknytning till föreningens
@@ -705,7 +813,9 @@
               vara inkomster från lotterier, bingo, olika typer av försäljningar
               eller basarer som föreningarna har.
             </seg>
-            <seg n="eaeab7d1">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-69" prev="i-8cc804a5ce51c73d-65" who="Q4946821">
+            <seg>
               Utredningen säger att denna typ av inkomster får vara skattefria
               så länge de inte motsvarar mer än 25 procent av föreningens totala
               inkomster. Det har väckt en hel del oro. I sin remiss på förslaget
@@ -716,7 +826,9 @@
               att en sådan klubb med ett sådant här förslag skulle få en högre
               skatt.
             </seg>
-            <seg n="d76d5fd2">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-70" prev="i-8cc804a5ce51c73d-65" who="Q4946821">
+            <seg>
               Det finns en del särskilda yttranden med anledning av utredningen
               som också tar upp de problem som kan uppstå, och det finns också
               några som påpekar att det finns en inbyggd problematik i detta.
@@ -724,14 +836,18 @@
               gentemot andra företag som jobbar på mer affärsmässiga grunder.
               Det får man inte glömma i den här debatten.
             </seg>
-            <seg n="a4d3db7b">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-71" prev="i-8cc804a5ce51c73d-65" who="Q4946821">
+            <seg>
               När det gäller momsfrågan handlar det om en anpassning till EG-rätten.
               Här pratar man om att momsbelägga olika typer av försäljning,
               men man kommer också med ett nytt förslag om att lägga moms på
               uthyrning av lokaler, som också får betydelse för den här typen
               av verksamhet.
             </seg>
-            <seg n="f960788b">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-72" prev="i-8cc804a5ce51c73d-65" who="Q4946821">
+            <seg>
               Jag tycker att Anders Borg visar en väldigt fin ambition i svaret
               på min interpellation, nämligen att skapa goda förutsättningar
               ekonomiskt och administrativt för den ideella sektorn, för det
@@ -741,11 +857,11 @@
               förutsättningar för den ideella sektorn?
             </seg>
           </u>
-          <note type="speaker" n="c21635ef">
+          <note type="speaker">
             Anf. 12 LARS WEGENDAL (s):
           </note>
-          <u who="Q6234203" xml:id="i-a3a8a2dc93ec747d-0" n="a1f2dd50">
-            <seg n="98ebfc44">
+          <u xml:id="i-8cc804a5ce51c73d-73" next="i-8cc804a5ce51c73d-79" who="Q6234203">
+            <seg>
               Fru talman! Först vill jag naturligtvis tacka Marie Engström
               för att hon har skrivit den här interpellationen. Det är en interpellation
               som berör alla folkrörelser, ideella föreningar och idéburna organisationer.
@@ -757,14 +873,18 @@
               för att svaret ska kunna passera alla de nålsögon som finns i
               samordningskansliet.
             </seg>
-            <seg n="0b026da6">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-74" prev="i-8cc804a5ce51c73d-73" who="Q6234203">
+            <seg>
               Men jag hade väntat mig ett svar som var mer talande från hjärtat
               och sade mer om vad finansministern och regeringen vill i denna
               fråga. Jag hade nästan väntat mig att finansministern för en gångs
               skull, höll jag på att säga skulle uttrycka mer från hjärtat vad
               regeringen vill för denna stora breda massa av medborgare.
             </seg>
-            <seg n="12ef7d0f">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-75" prev="i-8cc804a5ce51c73d-73" who="Q6234203">
+            <seg>
               Jag är fullt medveten om att tidsschemat ser olika ut för de
               olika utredningarna och deras remissbehandling, men jag tror att
               det är viktigt att regeringen den nuvarande eller den nya efter
@@ -776,7 +896,9 @@
               för sina verksamheter. Dessutom vill vi säkert också att de ska
               ha en så förutsägbar självfinansieringsgrad som möjligt.
             </seg>
-            <seg n="83715444">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-76" prev="i-8cc804a5ce51c73d-73" who="Q6234203">
+            <seg>
               Fru talman! Jag tror aldrig att jag har varit med om en liknande
               storm kring några utredningsförslag som de här har åstadkommit
               i Folkrörelsesverige. Jag har full förståelse för detta. När man
@@ -786,13 +908,17 @@
               medlemsavgifter, och dessutom kommer livet för föreningskassörerna
               mer att likna helvetet än himmelriket i framtiden.
             </seg>
-            <seg n="d4f9bb23">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-77" prev="i-8cc804a5ce51c73d-73" who="Q6234203">
+            <seg>
               Jag har konstaterat att de här frågorna inte finns med i propositionslistan.
               Min enkla fråga till finansministern är: Kommer det något om dessa
               frågor i den stundande ekonomiska vårpropositionen som kan vara
               vägledande för hur regeringen ser på de här frågorna?
             </seg>
-            <seg n="3e99d1f1">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-78" prev="i-8cc804a5ce51c73d-73" who="Q6234203">
+            <seg>
               Min andra fråga handlar om synen i södra Europa på allmännyttigt
               ideellt arbete i den tappning vi har här uppe i norra Europa.
               Min erfarenhet som jag har från relationer med både politiker
@@ -801,23 +927,27 @@
               Därför är det inte heller konstigt att de krav som kommissionen
               nu riktar mot Sverige känns främmande och orättvisa.
             </seg>
-            <seg n="e115fcea">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-79" prev="i-8cc804a5ce51c73d-73" who="Q6234203">
+            <seg>
               Hur ser finansministern på detta? Är finansministern beredd att
               kanske folkbilda Europas övriga finansministrar?
             </seg>
           </u>
-          <note type="speaker" n="2af5207b">
+          <note type="speaker">
             Anf. 13 JÖRGEN JOHANSSON (c):
           </note>
-          <u who="Q5886707" xml:id="i-d454561230e50ee2-0" n="917475c4">
-            <seg n="8ffbd435">
+          <u xml:id="i-8cc804a5ce51c73d-80" next="i-8cc804a5ce51c73d-86" who="Q5886707">
+            <seg>
               Fru talman! Jag delar den oro som finns inom föreningsrörelsen
               i den här frågan och den oro som också interpellanten ger uttryck
               för. Jag uppfattar dessutom frågan som en parallell till den fråga
               som vi hade uppe för fyra år sedan om hotet att momsbelägga uthyrning
               av kommunala idrottslokaler.
             </seg>
-            <seg n="84c36046">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-81" prev="i-8cc804a5ce51c73d-80" who="Q5886707">
+            <seg>
               Då, för fyra år sedan, tog jag ett utskottsinitiativ. Syftet
               var att Skatteverket inte skulle införa den här momsen. I de debatter
               som följde i frågan kunde jag konstatera att alla partier var
@@ -827,14 +957,18 @@
               skulle ha drabbat idrottsrörelsen med i storleksordningen 500
               miljoner kronor.
             </seg>
-            <seg n="823c04a0">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-82" prev="i-8cc804a5ce51c73d-80" who="Q5886707">
+            <seg>
               Fru talman! Den fråga som nu är aktuell handlar egentligen om
               två frågor, nämligen moderniserade skatteregler och mervärdesskatt
               för den ideella sektorn. Delar av det här förslaget har tagits
               fram för att anpassa svensk lag till EU-rätten. Det gäller framför
               allt mervärdesskattedirektivet.
             </seg>
-            <seg n="d1800466">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-83" prev="i-8cc804a5ce51c73d-80" who="Q5886707">
+            <seg>
               Om det nu måste bli någon förändring jag tycker att man starkt
               ska ifrågasätta det i den fortsatta hanteringen är det ändå positivt
               att finansministern redan nu betonar att regeringen har som utgångspunkt
@@ -842,7 +976,9 @@
               förändring. Det är en viktig notering i finansministerns svar,
               tycker jag.
             </seg>
-            <seg n="0587c5c6">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-84" prev="i-8cc804a5ce51c73d-80" who="Q5886707">
+            <seg>
               Nu är det trots allt så att problemet egentligen består av två
               delar, nämligen den ekonomiska och den förtroendemannamässiga.
               Frågan är vilken som väger tyngst. Jag har själv varit valberedningsordförande
@@ -850,14 +986,18 @@
               folk. Och en förändring av regelverket innebär att det kommer
               att bli än svårare att rekrytera förtroendevalda till föreningen.
             </seg>
-            <seg n="e360413f">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-85" prev="i-8cc804a5ce51c73d-80" who="Q5886707">
+            <seg>
               Precis som finansministern framhåller är den ideella sektorn
               en viktig hörnsten i den svenska folkrörelsetraditionen. Det är
               alltså viktigt att vi som beslutsfattare skapar regelverk som
               vanliga människor kan hantera. Dessutom blir risken att privatpersoner
               blir ekonomiskt ansvariga för föreningens verksamhet än mer uppenbar.
             </seg>
-            <seg n="ab6904c1">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-86" prev="i-8cc804a5ce51c73d-80" who="Q5886707">
+            <seg>
               Det regelverk som skapas kring eventuella förändringar måste
               alltså utformas så att det får en bred folklig förankring. Jag
               vill därför uppmana finansministern att i den fortsatta beredningen
@@ -867,40 +1007,50 @@
               i alla dess former.
             </seg>
           </u>
-          <note type="speaker" n="e36926be">
+          <note type="speaker">
             Anf. 14 ÅKE SANDSTRÖM (c):
           </note>
-          <u who="Q6093424" xml:id="i-9d91523850b34940-4" n="bf18d369">
-            <seg n="1716ceed">
+          <u xml:id="i-8cc804a5ce51c73d-87" next="i-8cc804a5ce51c73d-93" who="Q6093424">
+            <seg>
               Fru talman! Det är intressant att konstatera vilken bred och
               värdefull uppslutning vi har kring den här interpellationen, som
               jag tackar för. Jag tackar även för svaret.
             </seg>
-            <seg n="61ee9ba4">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-88" prev="i-8cc804a5ce51c73d-87" who="Q6093424">
+            <seg>
               Jag har för min del förståelse för att man kanske inte kan ge
               så konkreta svar, med hänsyn till att remisstiden när det gäller
               en av utredningarna inte har gått ut.
             </seg>
-            <seg n="62b1a2e4">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-89" prev="i-8cc804a5ce51c73d-87" who="Q6093424">
+            <seg>
               Fru talman! Jag delar också slutklämmen i svaret, att den ideella
               sektorn är en viktig hörnsten i den svenska demokratin. Jag vill
               lägga till att den är utomordentligt viktig även för den svenska
               folkhälsan.
             </seg>
-            <seg n="65552848">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-90" prev="i-8cc804a5ce51c73d-87" who="Q6093424">
+            <seg>
               För aktiva i den ideella sektorn det gäller idrottsrörelsen,
               folkbildningen med mera är de här två utredningarna mycket oroande.
               Det har väl belysts av talare före mig. Det är inte ytterligare
               administrativa pålagor som vi behöver i föreningslivet tvärtom.
               Det är svårt nog att skaffa ledare ändå.
             </seg>
-            <seg n="d0c1f803">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-91" prev="i-8cc804a5ce51c73d-87" who="Q6093424">
+            <seg>
               Men jag förstår, om man ser på den här frågan, att man tar hänsyn
               till den enormt stora spännvidd vi har mellan stora föreningar
               med bolagsbildningar och en mängd små föreningar utan resurser
               för administrativt jobb och liknande.
             </seg>
-            <seg n="158ea5a5">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-92" prev="i-8cc804a5ce51c73d-87" who="Q6093424">
+            <seg>
               Jag har tittat lite närmare på frågan om momsbeläggningen och
               har för övrigt också en motion i den frågan. Jag tar som ett exempel
               en förening, en framgångsrik damfotbollsklubb som inte är obekant
@@ -909,7 +1059,9 @@
               möjlighet att lyfta utgående moms på eventuella intäkter. Det
               här är inte rimligt.
             </seg>
-            <seg n="e5181758">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-93" prev="i-8cc804a5ce51c73d-87" who="Q6093424">
+            <seg>
               Därför, fru talman, utgår jag från att de här två utredningarna
               stannar vid just två utredningar. Det är många utredningar som
               beställs och verkställs av regering och riksdag. Vi kan inte äventyra
@@ -918,11 +1070,11 @@
               vår synvinkel.
             </seg>
           </u>
-          <note type="speaker" n="7949f132">
+          <note type="speaker">
             Anf. 15 TORBJÖRN BJÖRLUND (v):
           </note>
-          <u who="Q5578151" xml:id="i-6eaf4adab4b979d8-0" n="4f8c3d67">
-            <seg n="42b54748">
+          <u xml:id="i-8cc804a5ce51c73d-94" next="i-8cc804a5ce51c73d-106" who="Q5578151">
+            <seg>
               Fru talman! Det här är en interpellation som är väldigt intressant
               för många av oss. Det kan man se, eftersom många har satt upp
               sig på talarlistan. Många av oss är berörda av den ideella sektorn,
@@ -930,7 +1082,9 @@
               Idrottsrörelsen är den största delen av den här ideella föreningsrörelsen.
               Det gör naturligtvis att många berörs av det här.
             </seg>
-            <seg n="24ec94ba">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-95" prev="i-8cc804a5ce51c73d-94" who="Q5578151">
+            <seg>
               När man läser finansministerns svar kan man känna viss oro. Man
               pratar om ambitioner, och man pratar om andra saker. Det är väldigt
               vackra ord. Men det handlar om att komma upp till bevis. Det ska
@@ -938,7 +1092,9 @@
               sida, framför allt från finansministerns sida, när det gäller
               att klara ut den här situationen.
             </seg>
-            <seg n="d38d6d34">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-96" prev="i-8cc804a5ce51c73d-94" who="Q5578151">
+            <seg>
               Vi vet, som sagt, att det här är en väldigt stor fråga för hela
               den ideella sektorn, framför allt idrottsrörelsen. Om man pratar
               idrott handlar det kanske om att vi inte har någon homogen idrottsrörelse.
@@ -947,18 +1103,24 @@
               är det ideellt arbetande människor i den här rörelsen som hanterar
               det här.
             </seg>
-            <seg n="05584fd9">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-97" prev="i-8cc804a5ce51c73d-94" who="Q5578151">
+            <seg>
               Då handlar det alltså om två frågor. Det handlar om ekonomin,
               vad det kommer att kosta för idrottsrörelsen. Det andra är kanske
               ännu svårare: Hur hanterar man de här förutsättningarna för en
               vanlig föreningskassör?
             </seg>
-            <seg n="d897723f">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-98" prev="i-8cc804a5ce51c73d-94" who="Q5578151">
+            <seg>
               Vi har i dag en situation där den svenska idrottsmodellen eller
               den nordiska idrottsmodellen i sådana fall är hotad av de här
               EU-direktiven.
             </seg>
-            <seg n="f15c1f5a">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-99" prev="i-8cc804a5ce51c73d-94" who="Q5578151">
+            <seg>
               Det vore tacksamt om vi på något sätt, någon gång, kunde få se
               att man tog strid mot EU. Det här är ett utmärkt tillfälle att
               göra det, att visa vad vi står för, att vi är annorlunda i det
@@ -966,7 +1128,9 @@
               är i andra länder och att det är vi som ska bestämma över vår
               egen idrottsrörelse och våra ideella föreningar.
             </seg>
-            <seg n="f4bc87e1">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-100" prev="i-8cc804a5ce51c73d-94" who="Q5578151">
+            <seg>
               Just den här utvecklingen när det gäller EU, att EU många gånger
               försöker styra och påverka, att det finns regelverk som vi måste
               följa och så vidare, skapar också ett starkt motstånd mot EU.
@@ -974,7 +1138,9 @@
               för jag tycker att EU är en hybrid som vi så småningom ska lämna,
               men det är min synpunkt.
             </seg>
-            <seg n="d9ea9aeb">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-101" prev="i-8cc804a5ce51c73d-94" who="Q5578151">
+            <seg>
               Just den här förändringen, som skulle kunna komma, av verksamheten,
               som då blir styrd av ekonomi och byråkrati, kan faktiskt leda
               till en större kommersialisering av idrotten. Den ideella verksamheten
@@ -982,54 +1148,68 @@
               i stället, för då kan man hantera den här situationen på ett sådant
               sätt att man klarar ut det här.
             </seg>
-            <seg n="97e1d207">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-102" prev="i-8cc804a5ce51c73d-94" who="Q5578151">
+            <seg>
               Just den här biten tycker jag att man ska ta hänsyn till. Man
               kan också titta på de undersökningar som har gjorts där idrotten
               själv har tittat på vad som händer om man genomför de här förändringarna.
             </seg>
-            <seg n="66e5383b">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-103" prev="i-8cc804a5ce51c73d-94" who="Q5578151">
+            <seg>
               Det kommer att bli många människor som inte går in i idrotten.
               Det var någon som var uppe här förut och sade att det är jättesvårt
               att rekrytera människor till ideell verksamhet, för det här är
               svårt att hantera. Dessa människor är inga proffs.
             </seg>
-            <seg n="295a9e43">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-104" prev="i-8cc804a5ce51c73d-94" who="Q5578151">
+            <seg>
               Byråkratin är kanske egentligen den stora frågan i det här, hur
               man ska hantera den biten. Därför tycker jag att finansministern
               verkligen ska lyssna på dem som har varit ute i den här debatten,
               framför allt Riksidrottsförbundet, som är i gång med det här och
               varnar för vad som kan hända.
             </seg>
-            <seg n="c556e382">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-105" prev="i-8cc804a5ce51c73d-94" who="Q5578151">
+            <seg>
               I svaret från finansministern talas det om en helhetsbedömning.
               Det är oroväckande. För ska man som helhet klara ekonomin kan
               det innebära att man får stora föreningar som klarar sig och små
               föreningar som slås ut. Det är en oerhört oroväckande utveckling
               om man tittar på den svenska idrottsmodellen.
             </seg>
-            <seg n="a9620c62">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-106" prev="i-8cc804a5ce51c73d-94" who="Q5578151">
+            <seg>
               Jag tycker alltså att det är bra att man tar upp detta. Och,
               som någon sade förut, det ska bli intressant att se om det kommer
               någonting även i budgetdebatten när det gäller vårpropositionen
               så småningom.
             </seg>
           </u>
-          <note type="speaker" n="802ce3db">
+          <note type="speaker">
             Anf. 16 SVEN BERGSTRÖM (c):
           </note>
-          <u who="Q5573582" xml:id="i-40597ded4b5722b8-0" n="349beb72">
-            <seg n="87de26c9">
+          <u xml:id="i-8cc804a5ce51c73d-107" next="i-8cc804a5ce51c73d-118" who="Q5573582">
+            <seg>
               Fru talman! Uppslutningen i debatten här i dag visar att det
               finns ett starkt engagemang för de här frågorna i Sveriges riksdag.
               Det är en stark manifestation för den ideella sektorn i allmänhet
               och för idrottsrörelsen i synnerhet.
             </seg>
-            <seg n="96ff37e0">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-108" prev="i-8cc804a5ce51c73d-107" who="Q5573582">
+            <seg>
               Vi vet också att idrottsrörelsen har ögonen på oss i dag. Vi
               gästas bland annat av Riksidrottsstyrelsens ordförande Karin Mattsson
               Weijber och Birgitta Ljung på åhörarläktaren. Välkomna hit!
             </seg>
-            <seg n="3cfd34be">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-109" prev="i-8cc804a5ce51c73d-107" who="Q5573582">
+            <seg>
               Många av oss riksdagsledamöter är engagerade i idrottsrörelsen
               och angelägna om att vi ska ha bra villkor för idrottsrörelsen.
               Jag är övertygad om att också Anders Borg delar den uppfattningen
@@ -1039,7 +1219,9 @@
               ekonomiskt på en eventuellt nödvändig mervärdesskatteplikt för
               hela eller delar av den undantagna allmännyttiga ideella verksamheten.
             </seg>
-            <seg n="7b95a0c4">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-110" prev="i-8cc804a5ce51c73d-107" who="Q5573582">
+            <seg>
               Orden i sin helhet kan möjligen vara en anledning till oro när
               det gäller just idrottsrörelsen. Den är en av våra allra största
               och viktigaste folkrörelser med tiotusentals aktiviteter varje
@@ -1050,14 +1232,18 @@
               det blir i berörda kommuner och lag kring de stora traditionella
               idrottshändelserna i vårt land.
             </seg>
-            <seg n="e37b9832">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-111" prev="i-8cc804a5ce51c73d-107" who="Q5573582">
+            <seg>
               Jag var på Orienteringsförbundets förbundsmöte i Sollentuna i
               helgen där vi hade samlat 80 ombud från hela landet för att diskutera
               vår framtid inom Orienteringsförbundet. Många kom fram och ville
               tala om just de här frågorna. Det finns en oro ute i landet för
               vad det här betyder, kanske främst momsförslaget.
             </seg>
-            <seg n="30091318">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-112" prev="i-8cc804a5ce51c73d-107" who="Q5573582">
+            <seg>
               Det är nog ingen tvekan om att när det gäller behovet av att
               modernisera skattereglerna för idrottsrörelsen finns det enighet
               också från Riksidrottsstyrelsens och Riksidrottsförbundets sida.
@@ -1065,18 +1251,24 @@
               det här. Han betonade just att det finns ett behov av att modernisera
               skattereglerna för idrotten.
             </seg>
-            <seg n="2081003b">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-113" prev="i-8cc804a5ce51c73d-107" who="Q5573582">
+            <seg>
               Det fanns också en utredning som kom 2006 från Idrottsskattekommittén
               som jag tyckte hade många bra förslag som man hade kunnat ta vara
               på. Nu har vi ytterligare en utredning att ta hänsyn till.
             </seg>
-            <seg n="96148545">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-114" prev="i-8cc804a5ce51c73d-107" who="Q5573582">
+            <seg>
               Jag utgår från att det inte kommer något förslag före valet.
               Men vi kan samla oss, gärna kring ett förslag över blockgränserna
               som har förutsägbarhet och långsiktighet. Det behöver och förtjänar
               idrotten verkligen.
             </seg>
-            <seg n="5e57b643">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-115" prev="i-8cc804a5ce51c73d-107" who="Q5573582">
+            <seg>
               Jag ser fram emot att finansministern utvecklar sina tankar om
               hur vi ska skapa just långsiktighet och förutsägbarhet i de här
               förslagen, gärna också några tankar om hur vi ska undvika att
@@ -1085,18 +1277,24 @@
               andra revisionsfirmor för att klara den ekonomiska hanteringen.
               Det är ingen bra modell.
             </seg>
-            <seg n="da9bc29c">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-116" prev="i-8cc804a5ce51c73d-107" who="Q5573582">
+            <seg>
               Det finns ett oerhört ideellt engagemang på alla poster i idrottsrörelsen.
               Det ska vi ta vara på. Jag är orolig för att om det här implementeras
               kommer det att leda till urholkning, fördyrade kostnader och ökad
               administration.
             </seg>
-            <seg n="227326f8">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-117" prev="i-8cc804a5ce51c73d-107" who="Q5573582">
+            <seg>
               Om jag har förstått det rätt har Finland också fått påpekanden
               från EU-kommissionen om att de måste se över det här. Där gör
               man sig ingen brådska. Man håller på den finska traditionen.
             </seg>
-            <seg n="e3bfd532">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-118" prev="i-8cc804a5ce51c73d-107" who="Q5573582">
+            <seg>
               Jag tycker att vi i Sverige kan vara lite tuffare och värna den
               svenska idrottsrörelsen när vi ser över reglerna. Att se över
               reglerna har jag absolut inget emot, i synnerhet inte skattereglerna
@@ -1105,81 +1303,99 @@
               betydelse för samhället i största allmänhet!
             </seg>
           </u>
-          <note type="speaker" n="7fbd4f85">
+          <note type="speaker">
             Anf. 17 HANS OLSSON (s):
           </note>
-          <u who="Q2438833" xml:id="i-b70004267efb2b2c-0" n="50a3fb26">
-            <seg n="55e3907f">
+          <u xml:id="i-8cc804a5ce51c73d-119" next="i-8cc804a5ce51c73d-127" who="Q2438833">
+            <seg>
               Fru talman! Svenskt föreningsliv är mycket mer än regler. Svenskt
               föreningsliv består för mig i att tillbringa många helger i idrottshallar
               och titta på de egna barnen när de spelar innebandy eller fotboll.
               Det innebär för mig också att åka runt på våren till dragiga kalla
               grusplaner och se grabbarna och tjejerna spela fotboll.
             </seg>
-            <seg n="c8edae06">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-120" prev="i-8cc804a5ce51c73d-119" who="Q2438833">
+            <seg>
               Föreningsliv innebär för mig att ta en och annan smäll som förälder
               när töserna förlorar med 180 i fotboll och försöka snacka med
               dem på vägen hem. Det är bara att bita ihop.
             </seg>
-            <seg n="8c5e073a">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-121" prev="i-8cc804a5ce51c73d-119" who="Q2438833">
+            <seg>
               Ibland är svenskt föreningsliv för mig att de vinner. Ibland
               gör lillgrabben mål. Då klappar fadershjärtat. Svenskt föreningsliv
               är oerhört mycket mer än de här reglerna.
             </seg>
-            <seg n="5323df1d">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-122" prev="i-8cc804a5ce51c73d-119" who="Q2438833">
+            <seg>
               Svenskt föreningsliv är också för mig när Agneta och andra kommer
               till det uppställda bordet som finns i gympahallen när det är
               fotbollscup. Där ska vi koka korv, och där ska vi sälja grejer.
               Det är ingen riktig ordning på vad saker och ting kostar. Men
               korven brukar vara populär. Det är härligt att få provsmaka den.
             </seg>
-            <seg n="9e20670d">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-123" prev="i-8cc804a5ce51c73d-119" who="Q2438833">
+            <seg>
               Det är svenskt föreningsliv. Det är väldigt många människor som
               är inblandade. Jag tror, finansministern, att när du nu står där
               och inte får skäll av en socialdemokrat måste det vara en fantastisk
               upplevelse som ytterligare bevisar hur betydelsefullt svenskt
               föreningsliv är.
             </seg>
-            <seg n="34a4bfab">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-124" prev="i-8cc804a5ce51c73d-119" who="Q2438833">
+            <seg>
               Jag är ganska övertygad om det fina med EU, att vi tillsammans
               samarbetar om de stora sakerna, men vi slåss för våra egna nationella
               särdrag. Den ideella sektorn är ett svenskt särdrag.
             </seg>
-            <seg n="8dbb92ad">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-125" prev="i-8cc804a5ce51c73d-119" who="Q2438833">
+            <seg>
               Jag vet att finansministern är en skaplig förhandlare det får
               jag nog säga om det är något som finansministern bedömer vara
               viktigt. Jag vet att när det så kallade lågmomsförsöket blev aktuellt
               för Sveriges del med sänkta momssatser på cykelreparationer och
               sådana saker hade Sverige framgång.
             </seg>
-            <seg n="f675c7d0">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-126" prev="i-8cc804a5ce51c73d-119" who="Q2438833">
+            <seg>
               Även i den förhandlingen var det en speciell svensk framgång.
               Det blev lägre moms på ljudböcker i den förhandlingen, för det
               var svenskt avvikande.
             </seg>
-            <seg n="e9d0ac4a">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-127" prev="i-8cc804a5ce51c73d-119" who="Q2438833">
+            <seg>
               Därför tror jag att vi nu ska kunna förena oss. Finansministern
               ska känna vinden i ryggen av den samlade riksdagen på resan ned
               till Bryssel och tala om att vi är annorlunda i Sverige. Det är
               vi stolta över. Han ska tala om att han har fått riksdagens samlade
               förtroende, även från socialdemokrater, att driva den här frågan.
             </seg>
-            <seg n="5d8c942b">
-              (Applåder)
-            </seg>
           </u>
-          <note n="fbf0a696" type="speaker">
+          <note>
+            (Applåder)
+          </note>
+          <note type="speaker">
             Anf. 18 GUNNAR ANDRÉN (fp):
           </note>
-          <u who="Q5556677" xml:id="i-4a52de61f782672b-0" n="50a3fb26">
-            <seg n="4870329d">
+          <u xml:id="i-8cc804a5ce51c73d-128" next="i-8cc804a5ce51c73d-135" who="Q5556677">
+            <seg>
               Fru talman! Jag tror att man ska se applåden från finansministern
               och ledamöterna som ett bevis för att den oro som finns i den
               här interpellationen i huvudsak är obefogad. Jag tror att det
               finns en stor uppslutning kring att vi inte ska belägga ideell
               verksamhet med mer än absolut nödvändiga skatter.
             </seg>
-            <seg n="2025a35f">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-129" prev="i-8cc804a5ce51c73d-128" who="Q5556677">
+            <seg>
               Fru talman! Det är föga nytt under solen, även om den har gått
               i moln just i dag. Det här är den tredje finansministern som jag
               debatterar idrottsskattefrågor med. När det gällde herr Ringholm
@@ -1189,18 +1405,24 @@
               Karlstad strax intill. Slutligen var det den klubb som både Hasse
               Olsson och jag tillhör, nämligen Rydboholms Sportklubb.
             </seg>
-            <seg n="f8ff0169">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-130" prev="i-8cc804a5ce51c73d-128" who="Q5556677">
+            <seg>
               Jag tror att det är väldigt intressant hur man ser på Rydboholms
               Sportklubb söder om Borås. Det är en ganska stor verksamhet, men
               det är bara ideell verksamhet. Den sysselsätter många hundra ungdomar.
               Jag har varit med i 3040 år lika många kilo ungefär därifrån.
             </seg>
-            <seg n="b71a4d48">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-131" prev="i-8cc804a5ce51c73d-128" who="Q5556677">
+            <seg>
               När man tar del av det här är det väldigt intressant. Det är
               också viktigt att skilja på kommersiell verksamhet och ideell
               verksamhet. Det är grundförutsättningen.
             </seg>
-            <seg n="4681f7e3">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-132" prev="i-8cc804a5ce51c73d-128" who="Q5556677">
+            <seg>
               Det är skillnad på den ideella verksamhet som bedrivs av till
               exempel Röda Korset det är ingen idrottsorganisation i Gnosjö,
               Malmköping eller Dorotea och som Rydboholms Sportklubb, IFK Österåker,
@@ -1212,7 +1434,9 @@
               ha mer skatt på. På den verksamheten ska det vara så lite skatt
               som möjligt.
             </seg>
-            <seg n="50fdcd86">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-133" prev="i-8cc804a5ce51c73d-128" who="Q5556677">
+            <seg>
               Då kommer jag till den fråga som kommer ur dessa diskussioner,
               nämligen att den svenska lagstiftningen är subjektsinriktad. Den
               pekar alltså ut vissa subjekt ideella föreningar som generellt
@@ -1227,28 +1451,34 @@
               till sportevenemang och utbildning av ledare, vilket inte minst
               är en mycket viktig sak för framtiden.
             </seg>
-            <seg n="cf39edcf">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-134" prev="i-8cc804a5ce51c73d-128" who="Q5556677">
+            <seg>
               Allt detta uppfattas som ideellt, och där menar jag att det är
               noga att se till att det inte kommer någon mer skattebelastning.
               Det finns en viss risk, om vi inte skulle kunna göra det motstånd
               som jag utgår från att regeringen kan göra, att man med EU:s direktiv
               skulle kunna påstå att det här utgör transaktioner som är skattesubjekt.
             </seg>
-            <seg n="26c22493">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-135" prev="i-8cc804a5ce51c73d-128" who="Q5556677">
+            <seg>
               Att ingen av de saker jag räknade upp ska skattebeläggas tror
               jag är det besked som den svenska idrottsrörelsen skulle behöva
               i dag.
             </seg>
           </u>
-          <note type="speaker" n="c7b16022">
+          <note type="speaker">
             Anf. 19 Finansminister ANDERS BORG (m):
           </note>
-          <u who="Q182050" xml:id="i-9d91523850b34940-5" n="f3006765">
-            <seg n="7932f483">
+          <u xml:id="i-8cc804a5ce51c73d-136" next="i-8cc804a5ce51c73d-145" who="Q182050">
+            <seg>
               Fru talman! Jag vill tacka Marie Engström och mina meddebattörer
               för den här debatten, inte minst Hans Olsson för det vänliga inlägget.
             </seg>
-            <seg n="e3ef83f7">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-137" prev="i-8cc804a5ce51c73d-136" who="Q182050">
+            <seg>
               Jag tror att en viktig utgångspunkt i det här måste vara det
               som är gemensamt för oss i Sverige. Vi vill ha en stark idrottsrörelse,
               ett starkt föreningsliv och levande folkrörelser. Det är så vi
@@ -1256,7 +1486,9 @@
               i hela Sverige. Det är en del av möjligheten att ge förutsättningar
               för ett bra liv för medborgarna.
             </seg>
-            <seg n="26b8013e">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-138" prev="i-8cc804a5ce51c73d-136" who="Q182050">
+            <seg>
               Vad ska vi ha för utgångspunkt i den här diskussionen? Det måste
               naturligtvis vara att vi inte på något allvarligt sätt ska förändra
               intäkter, kostnader eller medlemsvillkor för folkrörelserna, idrottsrörelserna
@@ -1266,7 +1498,9 @@
               på den ideella sektorn. Det finns inget vettigt skäl i världen
               att försämra förutsättningarna för de här viktiga verksamheterna.
             </seg>
-            <seg n="85c65ea8">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-139" prev="i-8cc804a5ce51c73d-136" who="Q182050">
+            <seg>
               Vad är det vi måste göra? De två utredningarna föreslår en lång
               rad olika saker. Man tar upp frågan om hyresmoms, ett krångligt
               och besvärligt regelverk. Det är i sig inte kopplat till mervärdesskattedirektivet,
@@ -1283,18 +1517,24 @@
               jag väldigt svårt att se varför vi skulle se förändringar som
               på något sätt stör eller besvärar verksamheten.
             </seg>
-            <seg n="f7dd09e0">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-140" prev="i-8cc804a5ce51c73d-136" who="Q182050">
+            <seg>
               Finansieringsfrågan är mer besvärlig. Den är kopplad till utredningen
               om den ideella sektorn. Där är det möjligt att vi måste göra någonting.
               Det är möjligt också att vi kan stå kvar vid de gamla begreppen
               kring hävdvunna intäktskällor på finansieringssidan.
             </seg>
-            <seg n="4c908dd4">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-141" prev="i-8cc804a5ce51c73d-136" who="Q182050">
+            <seg>
               Där vi definitivt har starkare skäl att överväga vad vi måste
               göra är kring momsreglerna med anledning av momsskattedirektivet.
               Vad ska vi ta för utgångspunkter för arbetet?
             </seg>
-            <seg n="755ce8ca">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-142" prev="i-8cc804a5ce51c73d-136" who="Q182050">
+            <seg>
               Detta måste ske i en dialog med de berörda, det vill säga med
               idrottsrörelsen, folkrörelserna och föreningslivet. Remisstiden
               för denna utredning går ut om några dagar. Därefter har vi remissomgången
@@ -1302,7 +1542,9 @@
               oss ned med de berörda parterna och diskuterar igenom vad av detta
               som kan genomföras och hur det kan genomföras.
             </seg>
-            <seg n="cd5baacf">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-143" prev="i-8cc804a5ce51c73d-136" who="Q182050">
+            <seg>
               Utredningar är nu sådana att de ska hålla sig där de är, så man
               har alltså arbetat med att kompensera för detta inom momsreglerna.
               Det är naturligtvis inte nödvändigt. Om det är någonting som måste
@@ -1313,13 +1555,17 @@
               för att kompensera föreningslivet för mycket större kostnader
               som de får på ett annat område. Det är inte en logisk kompensation.
             </seg>
-            <seg n="559cdef1">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-144" prev="i-8cc804a5ce51c73d-136" who="Q182050">
+            <seg>
               Utgångspunkten för den här debatten måste vara att idrottsrörelser,
               föreningsliv och folkrörelser är centrala för Sverige. Vi har
               ingen som helst anledning att höja skattebelastningen på den här
               sektorn. Vi har ingen anledning att krångla till livet heller.
             </seg>
-            <seg n="4067ed9b">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-145" prev="i-8cc804a5ce51c73d-136" who="Q182050">
+            <seg>
               Vad vi måste göra är att se hur vi ska förhålla oss till mervärdesskattedirektivet.
               Det ska vi göra på det sätt vi kan men då i en bra dialog med
               såväl folkrörelser som föreningsliv i allmänhet och i synnerhet
@@ -1327,22 +1573,26 @@
               in till en sådan dialog. Det är inget att krångla med.
             </seg>
           </u>
-          <note type="speaker" n="c2d6a9fa">
+          <note type="speaker">
             Anf. 20 MARIE ENGSTRÖM (v):
           </note>
-          <u who="Q4946821" xml:id="i-af703764098a8aac-1" n="8ba3f36a">
-            <seg n="3b68b71d">
+          <u xml:id="i-8cc804a5ce51c73d-146" next="i-8cc804a5ce51c73d-154" who="Q4946821">
+            <seg>
               Fru talman! För att knyta an till det sista som finansministern
               sade, att bjuda in till dialog, är det kanske ändå ett välkommet
               besked och en bit på väg i den här frågan.
             </seg>
-            <seg n="ba725902">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-147" prev="i-8cc804a5ce51c73d-146" who="Q4946821">
+            <seg>
               Jag och Anders Borg brukar inte vara speciellt överens i skattefrågor
               när vi debatterar andra saker, men om vi i dag kan enas om att
               inte hårdbeskatta knattefotboll eller ridklubbar har vi kanske
               kommit en bit på väg i varje fall.
             </seg>
-            <seg n="b563bd37">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-148" prev="i-8cc804a5ce51c73d-146" who="Q4946821">
+            <seg>
               Alla är uppe och vittnar om att man har någon typ av anknytning
               till föreningslivet, ofta till idrotten. Jag har också varit vad
               man kan kalla en idrottsmamma som har kört ungar till fotbollsträningar
@@ -1350,7 +1600,9 @@
               sett på många roliga idrottstävlingar. Det har gett väldigt mycket.
               Som någon sade berör detta verkligen alla.
             </seg>
-            <seg n="ce0b5a1d">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-149" prev="i-8cc804a5ce51c73d-146" who="Q4946821">
+            <seg>
               Det är bra att Anders Borg i sitt svar här nu försöker gå in
               och faktiskt svara på hur vi gör med till exempel finansieringsfrågan.
               Jag tror att det är det förslaget som har upprört allra mest,
@@ -1358,7 +1610,9 @@
               och finansierat sin verksamhet med helt plötsligt ska bli föremål
               för beskattning. Det tror jag har upprört väldigt många.
             </seg>
-            <seg n="2e088330">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-150" prev="i-8cc804a5ce51c73d-146" who="Q4946821">
+            <seg>
               Någon nämnde den tidigare Idrottsskattekommittén. De lade fram
               ett förslag som mer gick ut på att om man har riktig kommersiell,
               stadigvarande näringsverksamhet ska den naturligtvis beskattas,
@@ -1369,7 +1623,9 @@
               och vad som är verksamhet för att få in inkomster till den ideella
               föreningen.
             </seg>
-            <seg n="af1cbe8f">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-151" prev="i-8cc804a5ce51c73d-146" who="Q4946821">
+            <seg>
               Momsfrågan rör även den flera olika delar, till exempel vad vi
               måste göra för att ha överensstämmelse med EU-rätten. Det handlar
               om att ta ut moms vid försäljning. Någonstans i det material vi
@@ -1379,33 +1635,41 @@
               någonting man kan förhandla om? Det har nämligen betydelse för
               nivån på de intäkter som föreningen i så fall kan få.
             </seg>
-            <seg n="74602854">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-152" prev="i-8cc804a5ce51c73d-146" who="Q4946821">
+            <seg>
               När det gäller moms på lokaler förstod jag på Anders Borg att
               om detta inte är positivt för de ideella föreningarna så skulle
               det vara någonting som regeringen egentligen inte skulle behöva
               gå vidare med.
             </seg>
-            <seg n="1aaaf197">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-153" prev="i-8cc804a5ce51c73d-146" who="Q4946821">
+            <seg>
               Den sista delen i detta är krånglet. Att vara föreningskassör
               i dag handlar faktiskt om att kunna en hel del om skattelagstiftningen,
               att många gånger kanske vara orolig för att man inte gör rätt
               och att hela tiden ha pressen på sig att man måste göra rätt och
               inte göra några misstag.
             </seg>
-            <seg n="bb544d77">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-154" prev="i-8cc804a5ce51c73d-146" who="Q4946821">
+            <seg>
               Jag tackar än en gång alla som deltar i debatten och verkligen
               sätter tryck på dessa frågor.
             </seg>
           </u>
-          <note type="speaker" n="c03ee6b6">
+          <note type="speaker">
             Anf. 21 LARS WEGENDAL (s):
           </note>
-          <u who="Q6234203" xml:id="i-a3a8a2dc93ec747d-1" n="a1f2dd50">
-            <seg n="cc8f10af">
+          <u xml:id="i-8cc804a5ce51c73d-155" next="i-8cc804a5ce51c73d-161" who="Q6234203">
+            <seg>
               Fru talman! När vi hade en klok socialdemokratisk regering utredde
               vi idrottens skatteregler, precis som Sven Bergström nämnde.
             </seg>
-            <seg n="3b650a87">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-156" prev="i-8cc804a5ce51c73d-155" who="Q6234203">
+            <seg>
               Inom parentes kan jag ändå säga att den utredningen delvis var
               parlamentarisk, och Moderaterna hade sin företrädare. Även idrottsrörelsen
               var fullvärdigt deltagande i den utredningen till skillnad från
@@ -1413,31 +1677,41 @@
               ett enigt förslag som alla delar inom idrotten ställde sig bakom,
               och de gör det fortfarande när det gäller den utredningen.
             </seg>
-            <seg n="1cd7d9f0">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-157" prev="i-8cc804a5ce51c73d-155" who="Q6234203">
+            <seg>
               Tyvärr blev det sedan ett regeringsskifte, och den nya regeringen
               lade bara in delar av denna skatteutredning i den nya utredningen.
               Resten lade man på is eller grävde ned på en bakgård, eller hur
               man nu ska uttrycka det.
             </seg>
-            <seg n="5854b59e">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-158" prev="i-8cc804a5ce51c73d-155" who="Q6234203">
+            <seg>
               Jag tror att det ändå är bra att ha med sig denna beskrivning
               i denna diskussion med tanke på allt det som här sägs om enighet.
               Det är inte full enighet i alla delar.
             </seg>
-            <seg n="1d974d78">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-159" prev="i-8cc804a5ce51c73d-155" who="Q6234203">
+            <seg>
               Riksdagen behandlade i förrförra veckan, tror jag att det var,
               några motioner som tar upp just momsfrågan och anpassningen till
               EU-rätten. Man säger att de kommande sammanvägda förslagen inte
               bör innebära en försämring för den ideella sektorn som helhet.
             </seg>
-            <seg n="83b009bd">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-160" prev="i-8cc804a5ce51c73d-155" who="Q6234203">
+            <seg>
               Det låter bra. Men jag tror att det är viktigare än så när regeringen
               sedan ska lägga fram sina förslag. Dessa ideella organisationer
               ser nämligen så enormt olika ut. Jag tror att man måste göra denna
               analys extremt finmaskig så att man verkligen kan undvika eller
               kompensera de negativa konsekvenser som uppstår inom denna sektor.
             </seg>
-            <seg n="ddfb66a6">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-161" prev="i-8cc804a5ce51c73d-155" who="Q6234203">
+            <seg>
               Min uppmaning till finansministern är: Ska man göra förändringar
               som kommer att förändra ekonomin i dessa ideella föreningar måste
               man se på samhällets stöd som helhet. Inom denna sektor utförs
@@ -1445,11 +1719,11 @@
               för det svenska samhället om kraften går ur denna sektor.
             </seg>
           </u>
-          <note type="speaker" n="c81b3f77">
+          <note type="speaker">
             Anf. 22 TORBJÖRN BJÖRLUND (v):
           </note>
-          <u who="Q5578151" xml:id="i-6eaf4adab4b979d8-1" n="4f8c3d67">
-            <seg n="dbb65a1a">
+          <u xml:id="i-8cc804a5ce51c73d-162" next="i-8cc804a5ce51c73d-167" who="Q5578151">
+            <seg>
               Fru talman! Jag har ett lite intressant påpekande. Denna interpellation
               är ställd av en kvinna, men det är nästan bara män som deltar
               i debatten. Jag satt och pratade med min partikamrat Marie Engström
@@ -1457,7 +1731,9 @@
               när det gäller hur detta fungerar. Jag hoppas att det blir fler
               kvinnor framöver.
             </seg>
-            <seg n="c4dfde16">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-163" prev="i-8cc804a5ce51c73d-162" who="Q5578151">
+            <seg>
               Jag vill säga något om symboliken i att man i statsbudgeten faktiskt
               har gjort en förändring när det gäller pengar till idrotten. Man
               har flyttat pengar så att de går från statsbudgeten i stället
@@ -1465,25 +1741,33 @@
               man stöder idrotten på en mer fast grund och en bättre grund än
               tidigare.
             </seg>
-            <seg n="38595db2">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-164" prev="i-8cc804a5ce51c73d-162" who="Q5578151">
+            <seg>
               Om man inte gör något åt denna problematik kommer det att bli
               problem när det gäller trovärdigheten för vilken regering som
               helst när det gäller dessa saker.
             </seg>
-            <seg n="1a49204b">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-165" prev="i-8cc804a5ce51c73d-162" who="Q5578151">
+            <seg>
               Jag tycker att man ska ta till sig att det finns ett stort stöd
               för denna verksamhet hos medborgarna. Jag tror inte att detta
               blir en så stor valfråga. Men den kan finnas med i debatten under
               hösten.
             </seg>
-            <seg n="c9d4d7ed">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-166" prev="i-8cc804a5ce51c73d-162" who="Q5578151">
+            <seg>
               Det finns en inarbetad kultur. Det finns hävdvunnet hur man ska
               kunna hantera ekonomin inom det ideella föreningslivet, framför
               allt inom idrotten. Det gäller därför att lyssna. Finansministern
               var inne på att vi ska lyssna på idrottsrörelsen. Jag hoppas verkligen
               att man gör det.
             </seg>
-            <seg n="2058c897">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-167" prev="i-8cc804a5ce51c73d-162" who="Q5578151">
+            <seg>
               Men jag hoppas också att man vågar ta striden och att man inte
               ställer sig vid sidan om grusplanen i kylan och tittar på utan
               att man går in i matchen och tar detta med EU. Det handlar faktiskt
@@ -1496,11 +1780,11 @@
               fajt.
             </seg>
           </u>
-          <note type="speaker" n="e847ae92">
+          <note type="speaker">
             Anf. 23 SVEN BERGSTRÖM (c):
           </note>
-          <u who="Q5573582" xml:id="i-bc55377ffb1919ac-0" n="349beb72">
-            <seg n="b5f3c120">
+          <u xml:id="i-8cc804a5ce51c73d-168" next="i-8cc804a5ce51c73d-171" who="Q5573582">
+            <seg>
               Fru talman! Det var välkommet att Anders Borg var betydligt tydligare
               i sitt andra inlägg än i det första när han läste upp det skrivna
               mer formella svaret. Det är tillfredsställande att vi förefaller
@@ -1508,7 +1792,9 @@
               om att det är angeläget att se till att skapa stabilitet, förutsägbarhet
               och långsiktighet i reglerna för idrotten.
             </seg>
-            <seg n="95356850">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-169" prev="i-8cc804a5ce51c73d-168" who="Q5573582">
+            <seg>
               Jag nämnde Idrottsskattekommittén som kom med sitt betänkande
               2006. Jag tyckte att det fanns mycket där som vi har kunnat gå
               vidare med ytterligare. Jag vill lyfta fram det idrottskonto som
@@ -1521,14 +1807,18 @@
               vore välkommet om vi i Sverige kunde bli lite bättre på att ta
               till vara just detta.
             </seg>
-            <seg n="8a1c69a6">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-170" prev="i-8cc804a5ce51c73d-168" who="Q5573582">
+            <seg>
               Finansministern betonar att han inte vill kullkasta förutsättningarna.
               Han betonar en dialog med de berörda. Det är bra. Det är särskilt
               välkommet att också Hans Olsson är så tydlig med vikten av att
               vi faktiskt försöker anstränga oss att skapa enighet över blockgränserna
               i denna fråga.
             </seg>
-            <seg n="fadf25b2">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-171" prev="i-8cc804a5ce51c73d-168" who="Q5573582">
+            <seg>
               När det gäller Handslaget, som vi hade fram till 2006, och Idrottslyftet,
               som kom senare och som var ett betydande ekonomiskt tillskott
               till idrottsrörelsen, var det ändå en stor enighet. Jag hoppas
@@ -1540,16 +1830,18 @@
               med idrott och motion. Det är ett stort samhällsintresse.
             </seg>
           </u>
-          <note n="a0c7ed19" type="speaker">
+          <note type="speaker">
             Anf. 24 GUNNAR ANDRÉN (fp):
           </note>
-          <u who="Q5556677" xml:id="i-388bb5007c41c0d4-0" n="349beb72">
-            <seg n="aeac3034">
+          <u xml:id="i-8cc804a5ce51c73d-172" next="i-8cc804a5ce51c73d-175" who="Q5556677">
+            <seg>
               Fru talman! Mitt intryck är att den svenska idrottsrörelsen kan
               vara helt lugn efter detta när det gäller att det inte blir någon
               ytterligare skattebelastning. Det tycker jag är det allra viktigaste.
             </seg>
-            <seg n="e3f6dee2">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-173" prev="i-8cc804a5ce51c73d-172" who="Q5556677">
+            <seg>
               Likväl tror jag att man måste ha klart för sig att detta inte
               är någon riktigt ny fråga. Den har sitt ursprung i att kommissionen
               i juni 2008 inledde ett fördragsbrottsförfarande mot Sverige.
@@ -1557,7 +1849,9 @@
               den tidigare idrottsskatteutredningen ta hänsyn till eftersom
               den avslutades 2006. Det är det nya som har tillkommit.
             </seg>
-            <seg n="0035bb3e">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-174" prev="i-8cc804a5ce51c73d-172" who="Q5556677">
+            <seg>
               Enligt min mening är det, som jag sade i mitt första inlägg,
               just de olika mervärdesskattesystemen som krockar med varandra
               på denna punkt. Den svenska lagstiftningen är subjektsinriktad
@@ -1572,17 +1866,19 @@
               till sportevenemang och utbildning av ledare, vilket är mycket
               viktigt att det inte blir momsbelagt.
             </seg>
-            <seg n="5e486648">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-175" prev="i-8cc804a5ce51c73d-172" who="Q5556677">
+            <seg>
               Om vi så småningom skulle kunna få full enighet om detta, vilket
               jag utgår från, skulle det vara en mycket god sak för den svenska
               ideella sektorn att få detta klart för sig.
             </seg>
           </u>
-          <note type="speaker" n="78ff2080">
+          <note type="speaker">
             Anf. 25 Finansminister ANDERS BORG (m):
           </note>
-          <u who="Q182050" xml:id="i-9d91523850b34940-6" n="f3006765">
-            <seg n="fe9185ae">
+          <u xml:id="i-8cc804a5ce51c73d-176" next="i-8cc804a5ce51c73d-182" who="Q182050">
+            <seg>
               Fru talman! Utgångspunkten för denna debatt om Marie Engströms
               interpellation och alla inlägg som har gjorts är den vikt som
               vi fäster vid ett aktivt föreningsliv, en folkrörelse och en idrottsrörelse
@@ -1592,7 +1888,9 @@
               försämra skatteregler eller öka skattebelastningen på idrottsrörelsen.
               Det finns ingen poäng med det.
             </seg>
-            <seg n="5672f83b">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-177" prev="i-8cc804a5ce51c73d-176" who="Q182050">
+            <seg>
               Grundproblemet som vi här har att hantera är, precis som Gunnar
               Andrén påpekat, det överträdelseärende där vi riskerar att kommissionen
               drar Sverige inför EU-domstolen. Det är inte den bästa av situationer,
@@ -1602,13 +1900,17 @@
               då blir vet vi inte. Det vore djupt besvärligt så vi måste hantera
               det här på ett bra sätt.
             </seg>
-            <seg n="d1a4790d">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-178" prev="i-8cc804a5ce51c73d-176" who="Q182050">
+            <seg>
               Vad ska vi då göra? Ja, som jag sagt är hyresmomsreglerna en
               fråga som delvis är skild den har sambehandlats i utredningen
               men är alltså delvis skild därför att det är en fråga om att vi
               har ett komplicerat regelverk för hur vi momsbelägger hyror.
             </seg>
-            <seg n="7d62cc6b">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-179" prev="i-8cc804a5ce51c73d-176" who="Q182050">
+            <seg>
               Den andra delen är finansieringsfrågan, denna också delvis skild.
               Det som är direkt kopplat till EU-överträdelsen är mervärdesreglerna
               för den ideella sektorn. Jag tycker att Lars Wegendal formulerade
@@ -1618,13 +1920,17 @@
               göra eftersom den har att titta på detta inom ramen för momsregler.
               Det är utredningens uppdrag och det uppdrag som den har slutfört.
             </seg>
-            <seg n="7f3d687c">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-180" prev="i-8cc804a5ce51c73d-176" who="Q182050">
+            <seg>
               Vi måste alltså titta på samhällets stöd som helhet och därmed
               säkra att vi uppnår det vi vill. Det vi vill är naturligtvis att
               vi har bra och väl fungerande villkor för idrotts- och folkrörelserna.
               Det måste vara utgångspunkten för arbetet.
             </seg>
-            <seg n="b99af0d5">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-181" prev="i-8cc804a5ce51c73d-176" who="Q182050">
+            <seg>
               Jag tycker också att det är självklart att vi ska kunna göra
               detta i en dialog med dem som är berörda. När vi har fått in alla
               remissvar får vi självfallet sammanställa och bereda dessa och
@@ -1635,7 +1941,9 @@
               för att prata igenom detta och hitta något som så långt det är
               möjligt erbjuder bra villkor för hanteringen av frågan.
             </seg>
-            <seg n="3472c3b8">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-182" prev="i-8cc804a5ce51c73d-176" who="Q182050">
+            <seg>
               Utgångspunkten måste naturligtvis vara att vi förbättrar, inte
               försämrar det är ju inte det som är utgångspunkten för folkrörelserna.
               Vi har, som sagt, inget behov av att höja skatter för vare sig
@@ -1644,11 +1952,11 @@
               minsta möjliga krångel och besvär.
             </seg>
           </u>
-          <note type="speaker" n="87fbf1e6">
+          <note type="speaker">
             Anf. 26 MARIE ENGSTRÖM (v):
           </note>
-          <u who="Q4946821" xml:id="i-af703764098a8aac-2" n="8ba3f36a">
-            <seg n="2d1d7723">
+          <u xml:id="i-8cc804a5ce51c73d-183" next="i-8cc804a5ce51c73d-186" who="Q4946821">
+            <seg>
               Fru talman! Nu har många här sagt väldigt många vackra ord om
               ideell verksamhet, och vi är mycket överens över blockgränsen
               om att inte hårdbeskatta den verksamheten. Men det är också mycket
@@ -1657,7 +1965,9 @@
               stanna vid att vi och kanske också finansministern står här och
               säger saker utan det också ger resultat.
             </seg>
-            <seg n="c4f746e1">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-184" prev="i-8cc804a5ce51c73d-183" who="Q4946821">
+            <seg>
               Vad jag tror att ideell verksamhet i vårt land behöver är dels
               att få tid för att i lugn och ro jobba med långsiktiga förutsättningar,
               dels veta att staten inte börjar rådda i systemen och plockar
@@ -1665,7 +1975,9 @@
               Jag tror att de inom ideell verksamhet, som det är i dag, har
               tillräckligt många regler att ta hänsyn till.
             </seg>
-            <seg n="6a970b41">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-185" prev="i-8cc804a5ce51c73d-183" who="Q4946821">
+            <seg>
               Jag har full förståelse för att vi måste göra någonting i momsfrågan
               och har helt klart för mig att EU-rätten sätter press på oss där.
               Jag ställde förut en fråga till Anders Borg just om nivån på den
@@ -1673,25 +1985,29 @@
               har ju också betydelse för föreningarnas verksamhet om vi kan
               få en låg moms på försäljningen.
             </seg>
-            <seg n="c404f25a">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-186" prev="i-8cc804a5ce51c73d-183" who="Q4946821">
+            <seg>
               Vi i oppositionen kommer naturligtvis att hela tiden bevaka frågan.
               Vi tycker att det är så viktigt med ideell verksamhet och med
               klara och tydliga regler för den verksamheten. Vi får se vad regeringen
               kommer med. Upp till bevis nu, Anders Borg!
             </seg>
           </u>
-          <note type="speaker" n="8637fbcb">
+          <note type="speaker">
             Anf. 27 Finansminister ANDERS BORG (m):
           </note>
-          <u who="Q182050" xml:id="i-9d91523850b34940-7" n="f3006765">
-            <seg n="e3538f27">
+          <u xml:id="i-8cc804a5ce51c73d-187" next="i-8cc804a5ce51c73d-191" who="Q182050">
+            <seg>
               Fru talman! Låt oss återigen framhålla betydelsen av att vi har
               en mycket bred enighet i de här frågorna. Utgångspunkten är att
               vi vill ha ett aktivt föreningsliv och att vi vill ha folkrörelser
               som fungerar. Det är positivt och bra för Sverige att medborgarna
               kan engagera sig i olika delar av den ideella sektorn.
             </seg>
-            <seg n="3ac1cd53">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-188" prev="i-8cc804a5ce51c73d-187" who="Q182050">
+            <seg>
               Det vi i grunden har att hantera är en situation där EU-kommissionen
               har rest frågetecken kring delar av våra mervärdesskatteregler.
               Där är det naturligtvis viktigt att vi skickar signalen att vi
@@ -1699,13 +2015,17 @@
               vi inte till slut landar i en situation där överträdelsen landar
               i skadestånd och besvär.
             </seg>
-            <seg n="3672ba21">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-189" prev="i-8cc804a5ce51c73d-187" who="Q182050">
+            <seg>
               Alldeles tydligt är att samhällets samlade stöd till den här
               verksamheten ska vara sådant att vi kan göra nödvändiga regeländringar
               utan att kullkasta eller krångla till tillvaron för alla våra
               föreningar. I stället ska detta kunna skötas på ett bra sätt.
             </seg>
-            <seg n="d784af80">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-190" prev="i-8cc804a5ce51c73d-187" who="Q182050">
+            <seg>
               Tidsförloppet för detta är att vi ännu inte har fått in alla
               remissvar det blir om några dagar. Därefter måste det hela givetvis
               sammanställas och arbetas igenom. Sedan måste vi ha en dialog
@@ -1713,7 +2033,9 @@
               vårpropositionen till Sveriges riksdag; det är inte ett tänkbart
               tidsförlopp, utan detta kommer att ta sin tid.
             </seg>
-            <seg n="eeb21690">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-191" prev="i-8cc804a5ce51c73d-187" who="Q182050">
+            <seg>
               Jag tror att Jörgen Johansson här uttryckte att vi skulle låta
               kvarnarna mala i mycket god och lång tid. Så är det naturligtvis.
               Det här arbetet kan inte genomföras så att det kommer tillbaka
@@ -1727,17 +2049,17 @@
               folkrörelser.
             </seg>
           </u>
-          <note n="4cb26bcf">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="a0f4fd6d">
+          <note>
             4 § Svar på interpellation 2009/10:279 om skatt på trafikförsäkringspremie
           </note>
-          <note type="speaker" n="cb604f34">
+          <note type="speaker">
             Anf. 28 Finansminister ANDERS BORG (m):
           </note>
-          <u who="Q182050" xml:id="i-9d91523850b34940-8" n="f3006765">
-            <seg n="a5dbacac">
+          <u xml:id="i-8cc804a5ce51c73d-192" next="i-8cc804a5ce51c73d-196" who="Q182050">
+            <seg>
               Fru talman! Raimo Pärssinen har frågat mig vilka förändringar
               jag avser att vidta beträffande skatten på trafikförsäkringspremier.
               Vidare har Raimo Pärssinen frågat om jag avser att bättre bereda
@@ -1745,7 +2067,9 @@
               än vad som enligt Raimo Pärssinens uppfattning gjordes inför tillsättandet
               av Trafikförsäkringsutredningen.
             </seg>
-            <seg n="a750b2ae">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-193" prev="i-8cc804a5ce51c73d-192" who="Q182050">
+            <seg>
               Trafikförsäkringsutredningen tillsattes för att regeringen dels
               ville undersöka möjligheten att låta trafiken bära större delen
               av sina egna kostnader, dels önskade utreda hur en sådan överföring
@@ -1757,19 +2081,25 @@
               att trafikförsäkringspremien vid en överföring skulle stiga med
               drygt 70 procent.
             </seg>
-            <seg n="648e7517">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-194" prev="i-8cc804a5ce51c73d-192" who="Q182050">
+            <seg>
               Regeringen har mot bakgrund av den beräknade kostnadshöjningen
               för trafikförsäkringen bedömt att det inte är rimligt att genomföra
               utredningens förslag.
             </seg>
-            <seg n="f699cdf0">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-195" prev="i-8cc804a5ce51c73d-192" who="Q182050">
+            <seg>
               Jag planerar inte någon förändring av skatten för närvarande.
               Det finns andra mer angelägna skattesänkningar. Genom skatten
               på trafikförsäkringspremier kan man också säga att det sker en
               form av medfinansiering av samhällets kostnader för befintliga
               trafikskadade, vilket är rimligt.
             </seg>
-            <seg n="0005fb0c">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-196" prev="i-8cc804a5ce51c73d-192" who="Q182050">
+            <seg>
               Nu till den andra frågan. Jag är också av uppfattningen att skatteförändringar
               ska föregås av noggranna överväganden. Detta är också fallet.
               Utredningar spelar en viktig roll i detta sammanhang. Att en regering
@@ -1780,14 +2110,16 @@
               kostnader som trafikskador ger upphov till.
             </seg>
           </u>
-          <note type="speaker" n="4dd3b2e5">
+          <note type="speaker">
             Anf. 29 RAIMO PÄRSSINEN (s):
           </note>
-          <u who="Q3358814" xml:id="i-f504551ff028e08e-2" n="6ca4ca49">
-            <seg n="c4aba6f3">
+          <u xml:id="i-8cc804a5ce51c73d-197" next="i-8cc804a5ce51c73d-205" who="Q3358814">
+            <seg>
               Fru talman! Jag tackar finansministern för svaret.
             </seg>
-            <seg n="e8dcbff1">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-198" prev="i-8cc804a5ce51c73d-197" who="Q3358814">
+            <seg>
               För att gå tillbaka till tiden före valet 2006 lovade ni i de
               borgerliga partierna att låta trafikanterna stå för kostnaderna
               för sjukvård, rehabilitering med mera vid trafikolyckor. På så
@@ -1795,12 +2127,16 @@
               som ni kunde använda till skattesänkningar. Så var det då. Betalningen
               skulle alla fordonsägare stå för.
             </seg>
-            <seg n="9356e95b">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-199" prev="i-8cc804a5ce51c73d-197" who="Q3358814">
+            <seg>
               Om jag inte missminner mig var kritiken massiv från alla håll
               och kanter från Svenskt Näringsliv, transportörer, motororganisationer
               och så vidare.
             </seg>
-            <seg n="9aefc1e7">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-200" prev="i-8cc804a5ce51c73d-197" who="Q3358814">
+            <seg>
               Syftet var dock att plocka ut en sak ur den generella försäkringen.
               Jag kommer ihåg de frågor vi ställde då, Anders Borg. Om trafikanterna
               måste betala och bära sina kostnader vid olyckor, vilken blir
@@ -1808,7 +2144,9 @@
               Är det rökare, de som lider av fetma, älgjägare eller cyklister?
               Vi kommer ihåg den debatten.
             </seg>
-            <seg n="e0ffa6fe">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-201" prev="i-8cc804a5ce51c73d-197" who="Q3358814">
+            <seg>
               Anders Borg och regeringen sade först att regeringen behövde
               bygga upp resurser som ska användas till tidigare trafikskador
               som har inträffat eller trafikskador som inträffar under en övergångstid,
@@ -1820,14 +2158,18 @@
               annorlunda i det här fallet var att man först höjde skatten och
               sedan tillsatte en utredning.
             </seg>
-            <seg n="59421f38">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-202" prev="i-8cc804a5ce51c73d-197" who="Q3358814">
+            <seg>
               Utredningen redovisades den 11 januari i år, och det visade sig
               att premien skulle stiga med 70 procent. I ett normalt prisläge
               skulle alltså en årspremie på 2 000 kronor efter den tänkta reformen
               bli hela 3 400 kronor. Då fick man kalla fötter från regeringens
               sida och lade detta åt sidan.
             </seg>
-            <seg n="c410902a">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-203" prev="i-8cc804a5ce51c73d-197" who="Q3358814">
+            <seg>
               Det grundläggande målet för trafikförsäkringspremien och det
               nya systemet var att trafikolyckorna skulle bli färre och mindre
               kostsamma. Debatten om på vilket vis man kunde härleda detta till
@@ -1839,7 +2181,9 @@
               implementera det helt nya systemet och plocka ur trafikskadade
               ur den generella försäkringen. De ska få bära sina egna kostnader.
             </seg>
-            <seg n="978a8a2b">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-204" prev="i-8cc804a5ce51c73d-197" who="Q3358814">
+            <seg>
               Vägverket svarade lite lakoniskt på detta och sade att skatt
               på trafikförsäkringen inte ökar engagemanget för trafiksäkerhetsfrågor.
               Nu är vi dock återigen i det läge att dessa pengar betalas in
@@ -1849,7 +2193,9 @@
               låta som en sportkommentator blir min enkla fråga: Hur tänkte
               han då?
             </seg>
-            <seg n="8d433d1e">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-205" prev="i-8cc804a5ce51c73d-197" who="Q3358814">
+            <seg>
               Hur tänkte finansministern? Det är medfinansiering, samtidigt
               som man har genomfört stora skattesänkningar på andra områden.
               Han skriver sedan själv att det finns andra, mer viktiga, skattesänkningar
@@ -1858,18 +2204,20 @@
               eller?
             </seg>
           </u>
-          <note type="speaker" n="38326316">
+          <note type="speaker">
             Anf. 30 Finansminister ANDERS BORG (m):
           </note>
-          <u who="Q182050" xml:id="i-9d91523850b34940-9" n="f3006765">
-            <seg n="fa4e3c78">
+          <u xml:id="i-8cc804a5ce51c73d-206" next="i-8cc804a5ce51c73d-215" who="Q182050">
+            <seg>
               Fru talman! Jag kan försäkra Raimo Pärssinen om att det inte
               är något jag skäms över, att ta in pengar till statskassan. Ska
               vi ha en bra välfärd i Sverige, ett sparande som inte ser ut som
               Greklands, ordning i Sverige och möjlighet att erbjuda människor
               trygghet är det självklart att vi behöver ta in pengar till statskassan.
             </seg>
-            <seg n="57309993">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-207" prev="i-8cc804a5ce51c73d-206" who="Q182050">
+            <seg>
               Jag är moderat och inte förälskad i alla skatter, man jag tänker
               inte stå här som finansminister och skämmas för att jag gör mitt
               jobb. Mitt jobb är att se till att vi får in pengar nog för att
@@ -1880,7 +2228,9 @@
               med att Raimo Pärssinen och jag är överens om att vi bör ta in
               en del pengar till statskassan.
             </seg>
-            <seg n="83c9bb81">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-208" prev="i-8cc804a5ce51c73d-206" who="Q182050">
+            <seg>
               Låt oss ta denna fråga. Vi har stora samhällskostnader för trafikskador.
               Det har vi haft under lång tid, och det finns skäl att pröva olika
               lösningar för detta. En idé var den förändrade försäkringen. Det
@@ -1889,21 +2239,27 @@
               samhällets totala kostnader för dessa olyckor. Det var bra och
               rimliga utgångspunkter.
             </seg>
-            <seg n="d82c71ab">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-209" prev="i-8cc804a5ce51c73d-206" who="Q182050">
+            <seg>
               Tyvärr har utredningen visat att det skulle leda till helt ohemula
               höjningar av trafikförsäkringspremien. Vad gör man då? Man har
               haft goda föresatser, och man har utrett det, men det visar sig
               att det inte går att genomföra på ett bra sätt. Ja, då lägger
               man utredningen till handlingarna. Då har den fyllt sin funktion.
             </seg>
-            <seg n="5e6078a4">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-210" prev="i-8cc804a5ce51c73d-206" who="Q182050">
+            <seg>
               Varför har vi en skatt på detta? Utredningen har visat det. Den
               har gett en god grund till varför vi ska ha en belastning här.
               Vi har kostnader på i storleksordningen 23 miljarder utöver det
               som i dag finansieras på detta sätt. Det tycker jag är fullt rimligt,
               följaktligen.
             </seg>
-            <seg n="17788489">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-211" prev="i-8cc804a5ce51c73d-206" who="Q182050">
+            <seg>
               För att gå tillbaka till detta med skatter: Det kan inte vara
               så att Raimo Pärssinens utgångspunkt är att han är djupt bekymrad
               över alla skatter som drabbar trafik, transporter och bilar. Jag
@@ -1913,16 +2269,22 @@
               för en medelstor åkare. Jag har alltså ett vagt minne av att Miljöpartiet
               argumenterar för 2223 miljarder i skattehöjningar.
             </seg>
-            <seg n="e70f9380">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-212" prev="i-8cc804a5ce51c73d-206" who="Q182050">
+            <seg>
               Jag ska inte hålla Raimo Pärssinen ansvarig för Miljöpartiets
               politik. Jag föreställer mig att han som socialdemokrat kommer
               att göra sitt yttersta för att hålla emot dessa 2 kronor och kilometerskatten,
               men icke desto mindre.
             </seg>
-            <seg n="d9c6fbdc">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-213" prev="i-8cc804a5ce51c73d-206" who="Q182050">
+            <seg>
               Vad är slutsatsen av detta?
             </seg>
-            <seg n="f62cb9ac">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-214" prev="i-8cc804a5ce51c73d-206" who="Q182050">
+            <seg>
               Jag har väldigt svårt att se vad bekymret med en särskild skatt
               på trafikförsäkringspremien är. Jag kan förstå om trafikförsäkringsbolagen
               tycker att det är ett bekymmer, men även Raimo Pärssinen måste
@@ -1930,24 +2292,28 @@
               är höjda utgifter eller sänkta skatter alltid ska försöka uppnå
               så mycket positiv effekt på välfärd och sysselsättning som möjligt.
             </seg>
-            <seg n="6260bb78">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-215" prev="i-8cc804a5ce51c73d-206" who="Q182050">
+            <seg>
               Jag har svårt att se att denna skatt ställer till med några bekymmer.
               Den motsvarar relativt väl de extra kostnader som trafikskadorna
               ger, och då är det rimligt att vi tar ut en sådan skatt.
             </seg>
           </u>
-          <note type="speaker" n="efca1ab8">
+          <note type="speaker">
             Anf. 31 RAIMO PÄRSSINEN (s):
           </note>
-          <u who="Q3358814" xml:id="i-f504551ff028e08e-3" n="6ca4ca49">
-            <seg n="7588ef8e">
+          <u xml:id="i-8cc804a5ce51c73d-216" next="i-8cc804a5ce51c73d-222" who="Q3358814">
+            <seg>
               Fru talman! Jag får replikera med att säga att jag har vaga minnen
               av att statsministern gick ut med annonser och sade att Sverige
               ska bli ett skatteparadis. Om ni inte har hört det har jag också
               en fundering kring att statsministern har sagt att skattekvoten
               vid 45 års ålder ska ned till 45 procent i Sverige.
             </seg>
-            <seg n="6a8a9196">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-217" prev="i-8cc804a5ce51c73d-216" who="Q3358814">
+            <seg>
               Det är trevligt att debattera med Anders Borg, i alla fall just
               nu. Men jag får säga att syftet, som Anders Borg själv skrev,
               när man lade på den extra skatten var att den skulle användas
@@ -1958,7 +2324,9 @@
               ska användas till att finansiera andra skattesänkningar, och då
               blir det inte mer pengar till välfärden, Anders Borg.
             </seg>
-            <seg n="1d0d3d6f">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-218" prev="i-8cc804a5ce51c73d-216" who="Q3358814">
+            <seg>
               Den andra funderingen jag har är om ni nu har lagt denna idé
               på is. Har ni skrotat idén om att ni ska plocka ut en del av den
               generella försäkringen och säga att trafikskadade ska stå för
@@ -1966,7 +2334,9 @@
               den idén på is? Det är egentligen en grundfråga, kan man säga,
               i denna interpellation.
             </seg>
-            <seg n="f05cfb14">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-219" prev="i-8cc804a5ce51c73d-216" who="Q3358814">
+            <seg>
               Man kan stå och säga att vi tycker om skatter. Det gör vi, Anders
               Borg. Vi socialdemokrater har en idé om att bygga möjligheternas
               land, men det krävs gemensamma resurser för att göra det. Det
@@ -1976,7 +2346,9 @@
               tredje chans eftersom vi alla gemensamt tjänar på det. Det kräver
               stora resurser.
             </seg>
-            <seg n="63fea140">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-220" prev="i-8cc804a5ce51c73d-216" who="Q3358814">
+            <seg>
               Det kräver också stora resurser att få fler att jobba i välfärdsarbetet
               och ta hand om gamla mamma och se till att hon får en bra tillvaro.
               Det ger samtidigt jobb. Det kräver stora resurser att satsa på
@@ -1984,7 +2356,9 @@
               inte ta upp studiefinansiering? Det finns massvis med områden
               som kräver mycket skatt.
             </seg>
-            <seg n="d06426e2">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-221" prev="i-8cc804a5ce51c73d-216" who="Q3358814">
+            <seg>
               Det går inte att göra som Anders Borg säger, alltså att sänka
               skatterna med 100 miljarder och säga att man bygger välfärd. Så
               bygger man nämligen inte välfärd. Man bygger inte välfärd när
@@ -1993,7 +2367,9 @@
               skrev Anders Borg att denna skatt på trafikförsäkringspremien
               skulle användas för att finansiera andra skattesänkningar?
             </seg>
-            <seg n="ba592c19">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-222" prev="i-8cc804a5ce51c73d-216" who="Q3358814">
+            <seg>
               Inte var det väl så att Anders Borg skrev att de här pengarna,
               som skulle vara en övergångslösning, skulle användas till att
               förstärka förskola, äldreomsorg eller forskning, utan till att
@@ -2008,11 +2384,11 @@
               till skattesänkningar.
             </seg>
           </u>
-          <note type="speaker" n="d10b2ab6">
+          <note type="speaker">
             Anf. 32 Finansminister ANDERS BORG (m):
           </note>
-          <u who="Q182050" xml:id="i-9d91523850b34940-10" n="f3006765">
-            <seg n="c0deb9e3">
+          <u xml:id="i-8cc804a5ce51c73d-223" next="i-8cc804a5ce51c73d-231" who="Q182050">
+            <seg>
               Fru talman! Låt mig erinra om Ekonomistyrningsverkets prognos,
               den så kallade 1-2-3-prognosen 1 procent överskott 2012, 2 procent
               2013 och 3 procent 2014. Sverige tillhör inte de länder som lånar
@@ -2022,7 +2398,9 @@
               den förra regeringen tackas för. Vi har bättre ordning på offentliga
               finanser än de flesta.
             </seg>
-            <seg n="40c2414b">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-224" prev="i-8cc804a5ce51c73d-223" who="Q182050">
+            <seg>
               Beträffande skatteparadis vill jag göra tillägget att vad statsminister
               Fredrik Reinfeldt sade var att det skulle vara ett skatteparadis
               för dem som arbetar. Det tycker jag är en rätt viktig markering.
@@ -2030,7 +2408,9 @@
               allt och i synnerhet inte det man ofta förknippar med det ordet,
               utan det är paradis för dem som arbetar.
             </seg>
-            <seg n="b0586d28">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-225" prev="i-8cc804a5ce51c73d-223" who="Q182050">
+            <seg>
               Vad har vi gjort under mandatperioden med de resurser vi har
               tagit in? Ja, vi har satsat på välfärd, vi har haft läsa-räkna-skriva-satsningar,
               lärarlyft i skolan, vi har gjort specialsatsningar på äldreomsorg
@@ -2039,7 +2419,9 @@
               annat. Vi har alltså tillfört resurser till det som vi uppfattar
               som välfärdens kärna.
             </seg>
-            <seg n="165abe52">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-226" prev="i-8cc804a5ce51c73d-223" who="Q182050">
+            <seg>
               Ja, vi har sänkt skatter. Vi är väldigt pragmatiska. Vi kan tänka
               oss att sänka skatten på arbete som gör att fler får arbete och
               höja skatter eller avgifter på andra områden. En del skatter är
@@ -2050,7 +2432,9 @@
               finanser. Vi ska inte vara ett underskottsland även om vi i kristider
               naturligtvis ska föra en expansiv politik.
             </seg>
-            <seg n="e8fee489">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-227" prev="i-8cc804a5ce51c73d-223" who="Q182050">
+            <seg>
               Vad ska vi göra? Ska vi ta bort skatten på trafikförsäkringen?
               Enligt min uppfattning finns det inte några starka och övertygande
               skäl för att göra det. Vi har alltså en belastning av trafikskador
@@ -2058,14 +2442,18 @@
               miljarder och som rätt väl svarar mot försäkringspremien. Jag
               kan egentligen inte se något starkt skäl att ta bort den.
             </seg>
-            <seg n="001e8d82">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-228" prev="i-8cc804a5ce51c73d-223" who="Q182050">
+            <seg>
               Ska vi fullfölja utredningen? Nej, enligt min uppfattning finns
               det inte skäl att göra det. Det finns inte någon anledning att
               öka trafikförsäkringspremierna kraftigt. Det finns inte någon,
               som jag ser det, stark poäng för detta. Det ser jag inte som en
               bra väg framåt.
             </seg>
-            <seg n="83d4c5a0">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-229" prev="i-8cc804a5ce51c73d-223" who="Q182050">
+            <seg>
               Däremot är jag bekymrad över riskerna för att öka skattebelastningen
               på transportsektorn. Jag ska som sagt inte hålla Raimo Pärssinen
               ansvarig för det, men Miljöpartiet vill höja bensinskatten med
@@ -2075,7 +2463,9 @@
               om man ställer det mot det här potentiella skattehotet som ligger
               under ytan.
             </seg>
-            <seg n="ca60f5bd">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-230" prev="i-8cc804a5ce51c73d-223" who="Q182050">
+            <seg>
               Vad bör vi göra? Ja, vi har gjort en utredning och tittat på
               detta. Nu har vi en premie, och vi får in pengarna. Jag tycker
               som sagt att jag inte har anledning att be om ursäkt för skatter
@@ -2083,16 +2473,18 @@
               och bra trygghet, och då får vi vara beredda att betala en del
               skatter.
             </seg>
-            <seg n="80ebb393">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-231" prev="i-8cc804a5ce51c73d-223" who="Q182050">
+            <seg>
               Sedan ska vi alltid pröva om det finns skatter som vi behöver
               sänka.
             </seg>
           </u>
-          <note type="speaker" n="617dec43">
+          <note type="speaker">
             Anf. 33 RAIMO PÄRSSINEN (s):
           </note>
-          <u who="Q3358814" xml:id="i-f504551ff028e08e-4" n="6ca4ca49">
-            <seg n="5f13cf0b">
+          <u xml:id="i-8cc804a5ce51c73d-232" next="i-8cc804a5ce51c73d-235" who="Q3358814">
+            <seg>
               Fru talman! Jag ska börja med 1-2-3-prognosen. Jag kanske raljerade
               förra gången då jag sade att Anders Borg pratar om prognoser och
               teorier, medan vi studerar verkligheten. Vi hade en interpellationsdebatt
@@ -2104,13 +2496,17 @@
               sia, men det finns alltid en verklighet som kanske hinner i kapp
               en.
             </seg>
-            <seg n="95e88714">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-233" prev="i-8cc804a5ce51c73d-232" who="Q3358814">
+            <seg>
               Om vi ska bygga möjligheternas land, Anders Borg, måste vi försöka
               se till att det är jobben som går först. Det är jobben som genererar
               intäkter till staten och genererar pengar som gör att vi kan fortsätta
               att bygga upp en välfärd. Jobben kommer alltid först.
             </seg>
-            <seg n="57f00810">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-234" prev="i-8cc804a5ce51c73d-232" who="Q3358814">
+            <seg>
               Sedan må Anders Borg ställa hur många frågor han vill om Miljöpartiets
               politik till mig. Jag tänker inte ställa en fråga till Anders
               Borg om Kristdemokraternas politik. Det var ju socialministern
@@ -2120,7 +2516,9 @@
               ingenting annat och gav inga andra effekter heller. På bostadsmarknaden
               får den effekter men inte när det gäller tillväxt och jobb.
             </seg>
-            <seg n="e064b332">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-235" prev="i-8cc804a5ce51c73d-232" who="Q3358814">
+            <seg>
               Vad jag blir nyfiken på är vad ni planerar nu, finansministern,
               när det gäller skatterna. Vi har hört Centerpartiet lansera ett
               skattesänkarprogram på 28 miljarder. Folkpartiet pratar lite om
@@ -2128,22 +2526,26 @@
               mer åt pensionärerna. Vad planerar ni?
             </seg>
           </u>
-          <note type="speaker" n="9b4a48c4">
+          <note type="speaker">
             Anf. 34 Finansminister ANDERS BORG (m):
           </note>
-          <u who="Q182050" xml:id="i-67b65f90be85c0f8-1" n="f3006765" next="i-38c4d0b4843e7f6f-1">
-            <seg n="70af8021">
+          <u xml:id="i-8cc804a5ce51c73d-236" next="i-8cc804a5ce51c73d-244" who="Q182050">
+            <seg>
               Fru talman! Tack till Raimo Pärssinen som ger oss möjlighet att
               belysa frågan ur ett brett perspektiv. Det finns det alltid skäl
               att göra.
             </seg>
-            <seg n="c22e2e19">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-237" prev="i-8cc804a5ce51c73d-236" who="Q182050">
+            <seg>
               Jag delar naturligtvis Raimo Pärssinens uppfattning att utgångspunkten
               för skattepolitiken och utgiftspolitiken måste vara jobb och välfärd,
               det måste vara kärnan i det vi håller på med. Sedan kan vi ha
               olika uppfattningar om hur vi uppnår det, men det måste vara kärnan.
             </seg>
-            <seg n="84969ff8">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-238" prev="i-8cc804a5ce51c73d-236" who="Q182050">
+            <seg>
               Låt oss ta frågorna kring trafikskadeområdet. Skulle trafikskadorna
               bli färre av att vi tog bort avgiften? Det tror jag inte. Jag
               tror att den relativt väl svarar mot de extra kostnader som trafikskadorna
@@ -2154,7 +2556,9 @@
               men otroligt snabba racinghojar som ställer till en del olyckor
               inte minst bland unga grabbar.
             </seg>
-            <seg n="7ff38699">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-239" prev="i-8cc804a5ce51c73d-236" who="Q182050">
+            <seg>
               Skatten kan fylla en funktion i detta. Men det är inte trafikförsäkringsavgiften
               som är det enda viktiga. Vi måste titta på infrastrukturinvesteringar.
               Vi måste naturligtvis hålla tummen i ögat på dem som utvecklar
@@ -2162,10 +2566,14 @@
               för skador minskar. Vi måste alltid tillämpa gott omdöme när vi
               är ute i trafiken.
             </seg>
-            <seg n="919fbd33">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-240" prev="i-8cc804a5ce51c73d-236" who="Q182050">
+            <seg>
               Med ett samlat arbete ska vi kunna minska trafikskadorna.
             </seg>
-            <seg n="78dd4c44">
+          </u>
+          <u xml:id="i-8cc804a5ce51c73d-241" prev="i-8cc804a5ce51c73d-236" who="Q182050">
+            <seg>
               När det gäller Folkpartiet, Kristdemokraterna och Centern har
               jag inga bekymmer att svara för dem. Nu diskuterar vi trafiksektorn,
               och de 16 plus 6 miljarder som Miljöpartiet ändå funderar över
@@ -2173,47 +2581,47 @@
               Socialdemokraterna i de här frågorna.
             </seg>
           </u>
-          <note n="4cb26bcf">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="af54aa15">
+          <note>
             5 § Hänvisning av ärenden till utskott
           </note>
-          <note n="8a354958">
+          <note>
             Föredrogs och hänvisades
           </note>
-          <note n="afe06aaf">
+          <note>
             den 17 maj
           </note>
-          <note n="184b7a98">
+          <note>
             6 § Förnyad bordläggning
           </note>
-          <note n="25b0c7d0">
+          <note>
             Föredrogs och bordlades åter
           </note>
-          <note n="90d4f89f">
+          <note>
             Ajournering
           </note>
-          <note n="966dab8f">
+          <note>
             Kammaren beslutade kl. 14.49 på förslag av andre vice talmannen
             att ajournera förhandlingarna till kl. 18.00, då de för dagens
             bordläggning aviserade ärendena väntades föreligga.
           </note>
-          <u who="Q182050" xml:id="i-38c4d0b4843e7f6f-1" n="f3006765" prev="i-67b65f90be85c0f8-1">
-            <seg n="4179a00d">
+          <u xml:id="i-8cc804a5ce51c73d-242" prev="i-8cc804a5ce51c73d-236" who="Q182050">
+            <seg>
               Återupptagna förhandlingar
             </seg>
           </u>
-          <note n="111eed76">
+          <note>
             Förhandlingarna återupptogs kl. 18.00.
           </note>
-          <note n="d0b70a7d">
+          <note>
             7 § Bordläggning och beslut om förlängd motionstid
           </note>
-          <note n="9b5770a9">
+          <note>
             Anmäldes och bordlades
           </note>
-          <note n="704e4b91">
+          <note>
             Kammaren biföll talmannens förslag att motionstiden för prop.
             2009/10:148 Företagsutveckling statliga insatser för finansiering
             och rådgivning och prop. 2009/10:179 Förtydligande av uppdraget
@@ -2222,63 +2630,67 @@
             inkomstgarantier för konstnärer skulle förlängas till onsdagen
             den 7 april .
           </note>
-          <note n="9b5770a9">
+          <note>
             Anmäldes och bordlades
           </note>
-          <note n="f2324606">
+          <note>
             8 § Anmälan om interpellation
           </note>
-          <note n="561374bc">
+          <note>
             Anmäldes att följande interpellation framställts
           </note>
-          <note n="f26ebe60">
+          <note>
             den 23 mars
           </note>
-          <note n="f424b634">
+          <note>
             Marianne Berg
           </note>
-          <note n="19a53c97">
+          <note>
             Interpellationen redovisas i bilaga som fogats till riksdagens
             snabbprotokoll tisdagen den 6 april.
           </note>
-          <note n="bac26adb">
+          <note>
             9 § Anmälan om frågor för skriftliga svar
           </note>
-          <note n="db1dc18c">
-            Anmäldes att följande frågor för skriftliga svar framställts
-          </note>
-          <note n="f26ebe60">
+          <u xml:id="i-8cc804a5ce51c73d-243" prev="i-8cc804a5ce51c73d-236" who="Q182050">
+            <seg>
+              Anmäldes att följande frågor för skriftliga svar framställts
+            </seg>
+          </u>
+          <note>
             den 23 mars
           </note>
-          <note n="36f76d87">
+          <note>
             Lennart Sacrédeus
           </note>
-          <note n="0ec280e8">
+          <note>
             Egon Frid
           </note>
-          <note n="0ec280e8">
+          <note>
             Egon Frid
           </note>
-          <note n="f9538302">
+          <note>
             Jörgen Hellman
           </note>
-          <note n="1a5e1929">
+          <note>
             Peter Jonsson
           </note>
-          <note n="e05e5989">
-            Thomas Bodström
-          </note>
-          <note n="00f645a8">
+          <u xml:id="i-8cc804a5ce51c73d-244" prev="i-8cc804a5ce51c73d-236" who="Q182050">
+            <seg>
+              Thomas Bodström
+            </seg>
+          </u>
+          <note>
             Frågorna redovisas i bilaga som fogats till riksdagens snabbprotokoll
             tisdagen den 6 april.
           </note>
-          <note n="ae6a6694">
+          <note>
             10 § Kammaren åtskildes kl. 18.01.
           </note>
-          <note n="d46c0e12">
+          <note>
             Förhandlingarna leddes av andre vice talmannen.
           </note>
-          <note n="9b2105c5">
+          <note>
             /Eva-Lena Ekman
           </note>
         </div>

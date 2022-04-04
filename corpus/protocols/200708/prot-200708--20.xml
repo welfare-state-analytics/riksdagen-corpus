@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2007</title>
+        <title>Riksdagens protocols 200708</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2007</title>
+          <title>Riksdagens protocols 200708</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -63,62 +60,71 @@
       </front>
       <body>
         <div>
-          <note n="adb08058">
-            ﻿
-          </note>
-          <note n="dfc06b05">
+          <note>
             Riksdagens protokoll
           </note>
-          <note n="c4aa61b6">
-            2007/08:20
-          </note>
-          <note type="date" n="ed95945c">
+          <u xml:id="i-2cdc40520dfff9f7-0" who="unknown">
+            <seg>
+              2007/08:20
+            </seg>
+          </u>
+          <note>
             Torsdagen den 1 november
           </note>
-          <note n="6c8f16e7">
+          <note>
             Kl. 14:00 - 14:49
           </note>
-          <note n="e1738f9b">
+          <note>
             1 § Justering av protokoll
           </note>
-          <note n="bc01c87c">
+          <note>
             Justerades protokollet för den 26 oktober.
           </note>
-          <note n="1805b6f3">
+          <note>
             2 § Statsministerns frågestund
           </note>
-          <note n="63f40e61" type="speaker">
+          <note type="speaker">
             Anf. 1 FÖRSTE VICE TALMANNEN:
           </note>
-          <note n="0368a61f">
-            Vi går över till statsministerns frågestund. Jag vill börja med
-            att hälsa statsministern välkommen till kammaren.
-          </note>
-          <note n="ec6b200e">
-            Statsministerns ledarskap och krisberedskapen
-          </note>
-          <note type="speaker" n="10b035d2">
+          <u xml:id="i-2cdc40520dfff9f7-1" who="unknown">
+            <seg>
+              Vi går över till statsministerns frågestund. Jag vill börja med
+              att hälsa statsministern välkommen till kammaren.
+            </seg>
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-2" who="unknown">
+            <seg>
+              Statsministerns ledarskap och krisberedskapen
+            </seg>
+          </u>
+          <note type="speaker">
             Anf. 2 SVEN-ERIK ÖSTERBERG (s):
           </note>
-          <u who="Q3370194" xml:id="i-5e6492191f3f827c-0" n="3deb0108">
-            <seg n="22a7a140">
+          <u xml:id="i-2cdc40520dfff9f7-3" next="i-2cdc40520dfff9f7-6" who="Q3370194">
+            <seg>
               Herr talman! Med anledning av de turer som har varit den senaste
               veckan beträffande statsministerns närmaste medarbetare har jag
               tre raka frågor att ställa till statsministern.
             </seg>
-            <seg n="c7bccdf1">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-4" prev="i-2cdc40520dfff9f7-3" who="Q3370194">
+            <seg>
               För det första vill jag höra statsministern tydligt utveckla
               hur han ser på sitt eget omdöme i Schenströmaffären. Anser statsministern
               att han har hanterat händelserna den senaste veckan på det omdömesgilla
               sätt som man kan förvänta sig av en statsminister?
             </seg>
-            <seg n="627ad3a9">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-5" prev="i-2cdc40520dfff9f7-3" who="Q3370194">
+            <seg>
               För det andra undrar jag vad Schenströms avgång säger mer generellt
               om statsministerns ledarskap, hela dugligheten som ledare det
               första året som statsminister och inte minst förmågan att hålla
               ihop regering och regeringskansli såsom ankommer på en statsminister.
             </seg>
-            <seg n="0e3454ec">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-6" prev="i-2cdc40520dfff9f7-3" who="Q3370194">
+            <seg>
               För det tredje undrar jag om statsministern inser att den nya
               krisorganisation som statsministern själv presenterade den 4 oktober
               med fokus på statsministerns statssekreterares roll havererat
@@ -127,17 +133,19 @@
               långt?
             </seg>
           </u>
-          <note type="speaker" n="9162bc28">
+          <note type="speaker">
             Anf. 3 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-75a698d0dfe90715-0" n="26cbffc0">
-            <seg n="e6f43f5b">
+          <u xml:id="i-2cdc40520dfff9f7-7" next="i-2cdc40520dfff9f7-10" who="Q52920">
+            <seg>
               Herr talman! Det är i tider som denna som man väldigt ofta får
               höra att nu bör du släppa alla dina principer och överge alla
               dina vänner. Jag tror att det helt enkelt beror på vilken typ
               av virke du är av som människa.
             </seg>
-            <seg n="86d218d2">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-8" prev="i-2cdc40520dfff9f7-7" who="Q52920">
+            <seg>
               Jag vill göra klar min syn på ledarskap. Det handlar om att stå
               vid sidan av och stödja de människor som jag har jobbat med i
               många år. Det kan vara i mitt parti, det kan vara i regering och
@@ -146,7 +154,9 @@
               till dess jag vet något annat. Om det är en felaktig ledarskapsprincip
               är jag tydligen av fel virke.
             </seg>
-            <seg n="5465a99f">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-9" prev="i-2cdc40520dfff9f7-7" who="Q52920">
+            <seg>
               Men jag vill också säga att jag också har på mitt ansvar att
               agera när fakta bryter förtroende, när jag får uppgifter om att
               saker och ting inte har skötts på det sätt de ska eller när jag
@@ -154,22 +164,26 @@
               också i mitt ledarskap. Hur man bedömer det får andra återkomma
               till.
             </seg>
-            <seg n="64755eeb">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-10" prev="i-2cdc40520dfff9f7-7" who="Q52920">
+            <seg>
               Jag ska gärna återkomma till frågan om krishanteringen. Det finns
               anledning att notera att den inte har beskrivits korrekt de senaste
               dagarna.
             </seg>
           </u>
-          <note type="speaker" n="55bd9414">
+          <note type="speaker">
             Anf. 4 SVEN-ERIK ÖSTERBERG (s):
           </note>
-          <u who="Q3370194" xml:id="i-5e6492191f3f827c-1" n="3deb0108">
-            <seg n="e0577bd3">
+          <u xml:id="i-2cdc40520dfff9f7-11" next="i-2cdc40520dfff9f7-12" who="Q3370194">
+            <seg>
               Herr talman! Det förvånar mig att statsministern inte kan svara
               på frågan om krishanteringen. Det finns ett starkt tryck i den
               frågan. Jag vädjar igen om att få ett besked i den frågan.
             </seg>
-            <seg n="9759cab0">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-12" prev="i-2cdc40520dfff9f7-11" who="Q3370194">
+            <seg>
               Dessutom skulle jag vilja fråga: Var det så att statsministern
               hänvisade till rikets säkerhet för att inte lämna ut jourlistorna
               av det skälet att statsministern ville skydda en medarbetare som
@@ -177,11 +191,11 @@
               gör i tjänsten?
             </seg>
           </u>
-          <note type="speaker" n="9fd0f63e">
+          <note type="speaker">
             Anf. 5 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-75a698d0dfe90715-1" n="26cbffc0">
-            <seg n="23cd2687">
+          <u xml:id="i-2cdc40520dfff9f7-13" next="i-2cdc40520dfff9f7-16" who="Q52920">
+            <seg>
               Herr talman! De senaste dagarna har det funnits uppgifter om
               hur jour- och krisberedskap sköts i Regeringskansliet. Väldigt
               ofta har det blivit fel. En del har beskrivit den kris- och jourberedskap
@@ -189,29 +203,35 @@
               den nya organisation som är på väg fram under ledarskap av Christina
               Salomonsson redan skulle vara på plats. Inget av detta stämmer.
             </seg>
-            <seg n="b6fa119d">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-14" prev="i-2cdc40520dfff9f7-13" who="Q52920">
+            <seg>
               En återkommande uppgift verkar beskriva den uppfattningen att
               det finns en person allena som utgör hela jour- och beredskapssystemet.
               Det är felaktigt. Det finns ett opolitiskt jour- och beredskapssystem
               och det finns en politisk del på flera departement. Det är en
               grupp människor som tillsammans utgör Sveriges jour- och beredskapssystem.
             </seg>
-            <seg n="f9b77f0d">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-15" prev="i-2cdc40520dfff9f7-13" who="Q52920">
+            <seg>
               När riksdagen vill få fördjupad och ytterligare information om
               hur kris- och jourberedskap fungerar och hur den nya organisation
               som är på väg att sättas upp kommer att fungera är jag beredd
               att säkerställa att detta ska komma till stånd med relevant personal
               som beskriver detta.
             </seg>
-            <seg n="81973e25">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-16" prev="i-2cdc40520dfff9f7-13" who="Q52920">
+            <seg>
               Förtroendet för krisberedskapen
             </seg>
           </u>
-          <note type="speaker" n="f9903687">
+          <note type="speaker">
             Anf. 6 ALICE ÅSTRÖM (v):
           </note>
-          <u who="Q4354173" xml:id="i-396d0482037e2824-0" n="999df4bc">
-            <seg n="4589b04d">
+          <u xml:id="i-2cdc40520dfff9f7-17" next="i-2cdc40520dfff9f7-18" who="Q4354173">
+            <seg>
               Herr talman! Min fråga till statsministern handlar om statsministerns
               agerande under de senaste dagarna. Statsministern sade att det
               har funnits missuppfattningar när det gäller jourberedskapen,
@@ -224,7 +244,9 @@
               ett par dagar sedan. Det skulle dessutom inte avslöja några hemligheter
               alls.
             </seg>
-            <seg n="e1e1f866">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-18" prev="i-2cdc40520dfff9f7-17" who="Q4354173">
+            <seg>
               Statsministerns agerande har gjort att det finns en misstro hos
               människor om att det finns en fungerande krisberedskap. Hur tänker
               nu statsministern agera? Tänker statsministern lägga korten på
@@ -232,11 +254,11 @@
               återuppbygga förtroendet för krisberedskapen?
             </seg>
           </u>
-          <note type="speaker" n="a75aae78">
+          <note type="speaker">
             Anf. 7 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-75a698d0dfe90715-2" n="26cbffc0">
-            <seg n="65b2b3e4">
+          <u xml:id="i-2cdc40520dfff9f7-19" who="Q52920">
+            <seg>
               Herr talman! Vi tar mycket allvarligt på frågor om jour och beredskap.
               Jag kan därför inför Sveriges riksdag bekräfta att Ulrica Schenström
               ingick i den pool av personer i Regeringskansliet som hade jour
@@ -245,11 +267,11 @@
               sekretessen i denna del.
             </seg>
           </u>
-          <note type="speaker" n="a2046021">
+          <note type="speaker">
             Anf. 8 ALICE ÅSTRÖM (v):
           </note>
-          <u who="Q4354173" xml:id="i-396d0482037e2824-1" n="999df4bc">
-            <seg n="c1c87165">
+          <u xml:id="i-2cdc40520dfff9f7-20" who="Q4354173">
+            <seg>
               Herr talman! Statsministerns agerande de senaste dagarna, att
               inte svara på den frågan, har skapat en otrygghet och en osäkerhet
               hos den svenska befolkningen. Tyvärr har vi erfarenheter av två
@@ -260,11 +282,11 @@
               upp?
             </seg>
           </u>
-          <note type="speaker" n="ce1cd639">
+          <note type="speaker">
             Anf. 9 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-75a698d0dfe90715-3" n="26cbffc0">
-            <seg n="40cdec39">
+          <u xml:id="i-2cdc40520dfff9f7-21" next="i-2cdc40520dfff9f7-23" who="Q52920">
+            <seg>
               Herr talman! Ingenting har skett som har påverkat någon människa
               i Sverige. Det kanske kan finnas anledning att påminna om det.
               Det har spekulerats väldigt mycket, men ingenting har hänt. Nu
@@ -276,22 +298,26 @@
               och diskussioner i Sveriges riksdag om att krishanteringen har
               varit otillräcklig.
             </seg>
-            <seg n="d5fc4f7b">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-22" prev="i-2cdc40520dfff9f7-21" who="Q52920">
+            <seg>
               Jag har tagit mitt ansvar genom att nu arbeta för att få denna
               förändrade och förbättrade krishanteringsfunktion på plats. Regeringen
               har utsett dess kommande chef. Den är under införande. Därmed
               återupprättar vi också svenska folkets förtroende till den del
               det nu skulle vara svett i kanten.
             </seg>
-            <seg n="c27a033c">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-23" prev="i-2cdc40520dfff9f7-21" who="Q52920">
+            <seg>
               Krishanteringsförmågan
             </seg>
           </u>
-          <note type="speaker" n="412a308f">
+          <note type="speaker">
             Anf. 10 PETER ERIKSSON (mp):
           </note>
-          <u who="Q470630" xml:id="i-4e989363400c5201-0" n="7e84060d">
-            <seg n="e6538d2b">
+          <u xml:id="i-2cdc40520dfff9f7-24" who="Q470630">
+            <seg>
               Herr talman! Jag tycker att det här är en ganska tråkig historia.
               Det som har hänt skadar antagligen förtroendet för regeringen
               och för statsministern men också för den svenska krishanteringsförmågan
@@ -306,11 +332,11 @@
               i detta? Vad skulle ha hänt om det verkligen hade varit en kris?
             </seg>
           </u>
-          <note type="speaker" n="1cfcced4">
+          <note type="speaker">
             Anf. 11 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-75a698d0dfe90715-4" n="26cbffc0">
-            <seg n="1cb93859">
+          <u xml:id="i-2cdc40520dfff9f7-25" next="i-2cdc40520dfff9f7-26" who="Q52920">
+            <seg>
               Herr talman! Jag har kommit hit för att svara på frågor av en
               karaktär som ställs rakt och där jag kan svara, men ska ni be
               mig spekulera kanske vi får välja ett annat forum än statsministerns
@@ -319,22 +345,26 @@
               man inte heller hantera krishanteringsfrågor. Jag har ingen anledning
               att sända signaler av oro till svenska folket.
             </seg>
-            <seg n="7fdb3910">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-26" prev="i-2cdc40520dfff9f7-25" who="Q52920">
+            <seg>
               Krishanteringen ska fungera. Krishanteringen är under förändring.
               Vi är övertygade om att det system som snart kommer på plats innebär
               ytterligare en kvalitetsförbättring jämfört med det system vi
               har haft fram till nu.
             </seg>
           </u>
-          <note type="speaker" n="bde2cee6">
+          <note type="speaker">
             Anf. 12 PETER ERIKSSON (mp):
           </note>
-          <u who="Q470630" xml:id="i-4e989363400c5201-1" n="7e84060d">
-            <seg n="45941076">
+          <u xml:id="i-2cdc40520dfff9f7-27" next="i-2cdc40520dfff9f7-28" who="Q470630">
+            <seg>
               Herr talman! Den fråga som återstår handlar om regeringens åsikt
               om hanteringen av krisfrågorna.
             </seg>
-            <seg n="e44d087b">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-28" prev="i-2cdc40520dfff9f7-27" who="Q470630">
+            <seg>
               Är det inte dags att erkänna att det vore bättre att som övriga
               partier i riksdagen har velat, önskat och begärt under en ganska
               lång tid lägga över ansvaret på krishanteringsfrågorna på myndigheter
@@ -343,24 +373,28 @@
               ska ansvara för rikets krishantering?
             </seg>
           </u>
-          <note type="speaker" n="a0ba6d22">
+          <note type="speaker">
             Anf. 13 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-75a698d0dfe90715-5" n="26cbffc0">
-            <seg n="748f2f63">
+          <u xml:id="i-2cdc40520dfff9f7-29" next="i-2cdc40520dfff9f7-33" who="Q52920">
+            <seg>
               Herr talman! Detta är inte en korrekt beskrivning. Det kommer
               aldrig att vara fråga om att Regeringskansliet hanterar Sveriges
               hela krishantering. Sverige har valt att utifrån mångårig tradition
               låta självständiga myndigheter och ämbetsverk utföra beredskaps-
               och krishantering.
             </seg>
-            <seg n="ceeece46">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-30" prev="i-2cdc40520dfff9f7-29" who="Q52920">
+            <seg>
               Den som en vanlig, lugn dag har en uppgift ska ha samma uppgift
               den dag krisen kommer. Då är man bäst insatt och bäst förberedd
               för att utföra arbetet. Det är dessa självständiga myndigheter
               som i grunden är den svenska krishanteringen.
             </seg>
-            <seg n="5ebff6e4">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-31" prev="i-2cdc40520dfff9f7-29" who="Q52920">
+            <seg>
               Det vi har identifierat är att det också väldigt ofta finns en
               form av inre samordningsansvar i Regeringskansliet. Det är ett
               tryck på att statsminister och andra politiska makthavare rätt
@@ -368,22 +402,26 @@
               vad som har hänt och också har beredskap att agera för att kunna
               fatta politiska beslut.
             </seg>
-            <seg n="c7d511cf">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-32" prev="i-2cdc40520dfff9f7-29" who="Q52920">
+            <seg>
               Det är inte att leda krishanteringen. Det är att ta vår del av
               ansvaret. För detta håller vi på att inrätta en krishanteringsfunktion
               som avpolitiserar delar av krishanteringen jämfört med i dag eftersom
               det inrättas en tjänst för en opolitisk chefstjänsteman med en
               biträdande tjänsteman som högsta ansvariga.
             </seg>
-            <seg n="be332093">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-33" prev="i-2cdc40520dfff9f7-29" who="Q52920">
+            <seg>
               Internationellt samarbete i klimatfrågan
             </seg>
           </u>
-          <note type="speaker" n="3cf98f1a">
+          <note type="speaker">
             Anf. 14 ANNA KINBERG BATRA (m):
           </note>
-          <u who="Q4767161" xml:id="i-7d89990f5142d610-0" n="f9bcb842">
-            <seg n="33990f52">
+          <u xml:id="i-2cdc40520dfff9f7-34" next="i-2cdc40520dfff9f7-36" who="Q4767161">
+            <seg>
               Herr talman! Jag har med mig det senaste numret av tidningen
               Veckans Affärer som kom i dag. Jag tänkte ställa en sakpolitisk
               fråga med utgångspunkt från detta. Det är det så kallade gröna
@@ -392,7 +430,9 @@
               nu i helgen där han talade mycket om vikten av att samarbeta internationellt
               i klimatfrågan.
             </seg>
-            <seg n="edab71fa">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-35" prev="i-2cdc40520dfff9f7-34" who="Q4767161">
+            <seg>
               EU:s stats- och regeringschefer träffades häromveckan och kom
               då överens om det reformerade fördraget. Det frigör förhoppningsvis
               politisk kraft att gå vidare i just angelägna frågor som till
@@ -400,16 +440,18 @@
               hunnit börja förbereda det kommande toppmöte som är redan till
               lucia.
             </seg>
-            <seg n="19e52406">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-36" prev="i-2cdc40520dfff9f7-34" who="Q4767161">
+            <seg>
               Hur ska statsministern se till att det toppmötet blir så grönt
               som möjligt i och även utanför EU?
             </seg>
           </u>
-          <note type="speaker" n="14c56043">
+          <note type="speaker">
             Anf. 15 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-75a698d0dfe90715-6" n="26cbffc0">
-            <seg n="bfe4fcf5">
+          <u xml:id="i-2cdc40520dfff9f7-37" next="i-2cdc40520dfff9f7-38" who="Q52920">
+            <seg>
               Herr talman! Jag kan inte vara med i något internationellt sammanhang
               där klimatfrågan nu inte är helt central. Jag har under måndag
               och tisdag varit i Oslo under Nordiska rådets session och också
@@ -420,7 +462,9 @@
               2009 då toppmötet ska vara i Köpenhamn och då vi har svenskt ordförandeskap
               i Europeiska unionen.
             </seg>
-            <seg n="ee9c7106">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-38" prev="i-2cdc40520dfff9f7-37" who="Q52920">
+            <seg>
               Det är också min övertygelse att det av det skälet säkert finns
               anledning att återkomma till detta på decembertoppmötet även om
               nästa steg i EU:s diskussion handlar om bördefördelningsrapporten
@@ -430,27 +474,31 @@
               att inte äventyra förutsättningarna för förhandlingsstarten på
               Bali.
             </seg>
-            <seg n="902f1a6a">
-              Behovet av en civilkuragelag
-            </seg>
           </u>
-          <note type="speaker" n="5f94218b">
+          <note>
+            Behovet av en civilkuragelag
+          </note>
+          <note type="speaker">
             Anf. 16 STEFAN ATTEFALL (kd):
           </note>
-          <u who="Q966884" xml:id="i-c212a3c2a29b24f7-0" n="05e14f01">
-            <seg n="45b6547a">
+          <u xml:id="i-2cdc40520dfff9f7-39" next="i-2cdc40520dfff9f7-42" who="Q966884">
+            <seg>
               Herr talman! Jag vill ta upp frågan om våldet i vårt samhälle.
               Vi är många som oroas över våldsutvecklingen, och vi har också
               haft ett antal uppmärksammade fall under senare tid.
             </seg>
-            <seg n="6b58ebc6">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-40" prev="i-2cdc40520dfff9f7-39" who="Q966884">
+            <seg>
               Det pågår en diskussion bland brottsforskare huruvida detta har
               ökat eller inte, men vi har också samstämmiga uppgifter från dem
               som jobbar inom sjukvården där man ser ett ökat antal fall av
               våld och misshandel och också att de inkommande fallen handlar
               om allt grövre våld.
             </seg>
-            <seg n="439900c6">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-41" prev="i-2cdc40520dfff9f7-39" who="Q966884">
+            <seg>
               En del av problematiken tror vi kristdemokrater handlar om vårt
               eget personliga ansvar. Det handlar självklart om dem som är inblandade
               men också om dem som står runt omkring. Ett sätt att försöka förstärka
@@ -458,7 +506,9 @@
               om en civilkuragelag där vi efter förmåga ska vara skyldiga att
               ingripa.
             </seg>
-            <seg n="876d7b2d">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-42" prev="i-2cdc40520dfff9f7-39" who="Q966884">
+            <seg>
               Jag skulle vilja fråga statsministern dels hur han kommenterar
               våldsutvecklingen i vårt samhälle, dels om behovet av att införa
               en så kallad civilkuragelag och dess fördelar för att kunna öka
@@ -466,24 +516,28 @@
               och har en chans att stävja sådana här situationer.
             </seg>
           </u>
-          <note type="speaker" n="313283bd">
+          <note type="speaker">
             Anf. 17 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-75a698d0dfe90715-7" n="26cbffc0">
-            <seg n="8c3855f7">
+          <u xml:id="i-2cdc40520dfff9f7-43" next="i-2cdc40520dfff9f7-46" who="Q52920">
+            <seg>
               Herr talman! Få saker påverkar mänskligt liv så mycket som förekomsten
               av våld och också hur droger inverkar på detta. Det bryter ned
               människors tillit. Det inskränker människors frihet. Ett öppet
               samhälle som vårt kan inte förbli öppet om vi inte tydligt markerar
               och hittar vägar att komma till rätta med våldsanvändningen.
             </seg>
-            <seg n="b47f3f94">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-44" prev="i-2cdc40520dfff9f7-43" who="Q52920">
+            <seg>
               Jag förstår om många väcker frågor av en karaktär som att föräldrar
               går runt och funderar på om den framtid som våra barn ska möta.
               Är det oprovocerat våld? Är det upprepade sparkar mot huvudet?
               Är det flera mot en? Det finns stor anledning till oro.
             </seg>
-            <seg n="57056369">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-45" prev="i-2cdc40520dfff9f7-43" who="Q52920">
+            <seg>
               När det gäller den civilkuragelag som Kristdemokraterna har drivit
               kan jag både påpeka invändningen som har funnits, nämligen att
               det kanske är lite märkligt att lägga skuld på den som har varit
@@ -492,53 +546,65 @@
               en sådan lagstiftning, vilket jag tror att frågeställaren är medveten
               om.
             </seg>
-            <seg n="1ded8da2">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-46" prev="i-2cdc40520dfff9f7-43" who="Q52920">
+            <seg>
               Samarbetet mellan arbetsförmedlingen och Försäkringskassan
             </seg>
           </u>
-          <note type="speaker" n="b7169571">
+          <note type="speaker">
             Anf. 18 SOLVEIG ZANDER (c):
           </note>
-          <u who="Q4990884" xml:id="i-4b75850499224c3a-0" n="03ae28cb">
-            <seg n="44903254">
+          <u xml:id="i-2cdc40520dfff9f7-47" next="i-2cdc40520dfff9f7-50" who="Q4990884">
+            <seg>
               Herr talman! Jag vill ställa en fråga om samarbetet mellan arbetsförmedlingen
               och Försäkringskassan. Vi jobbar ju väldigt mycket inom alliansen
               och i riksdagen med att få ned sjukskrivningstalen och få färre
               som får sjuk- och aktivitetsersättning.
             </seg>
-            <seg n="d32f7378">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-48" prev="i-2cdc40520dfff9f7-47" who="Q4990884">
+            <seg>
               Nu ska vi också få en ny sjukskrivningsprocess och rehabiliteringsprocess,
               och det är oerhört viktigt i det sammanhanget att de två centrala
               myndigheterna arbetsförmedlingen och Försäkringskassan jobbar
               ihop.
             </seg>
-            <seg n="8ec4365e">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-49" prev="i-2cdc40520dfff9f7-47" who="Q4990884">
+            <seg>
               I mitt hemlän, Uppsala län, har jag studerat hur samarbetet fungerar.
               Det är inte unikt att det inte fungerar speciellt bra. Man har
               till och med problem att kunna vara i samma lokal, för Datainspektionen
               och sekretesslagstiftningen sätter käppar i hjulet.
             </seg>
-            <seg n="357925e9">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-50" prev="i-2cdc40520dfff9f7-47" who="Q4990884">
+            <seg>
               Jag undrar: Vad avser statsministern att göra åt detta så att
               samarbetet kan fungera?
             </seg>
           </u>
-          <note type="speaker" n="9be230f9">
+          <note type="speaker">
             Anf. 19 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-75a698d0dfe90715-8" n="26cbffc0">
-            <seg n="bc45442b">
+          <u xml:id="i-2cdc40520dfff9f7-51" next="i-2cdc40520dfff9f7-55" who="Q52920">
+            <seg>
               Herr talman! Låt mig först konstatera att för en regering som
               har sagt sig vilja bryta ned utanförskap och få människor att
               komma tillbaka till arbetsmarknaden från ofta långvarigt utanförskap
               är detta en mycket central fråga.
             </seg>
-            <seg n="3f4b9e70">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-52" prev="i-2cdc40520dfff9f7-51" who="Q52920">
+            <seg>
               Det handlar om att faktiskt gå från en myndighet till en annan.
               Det låter märkligt, men det bygger väldigt ofta på att dessa myndigheter
               kommunicerar med varandra.
             </seg>
-            <seg n="84b104a4">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-53" prev="i-2cdc40520dfff9f7-51" who="Q52920">
+            <seg>
               Jag har besökt åttatio arbetsförmedlingar i början av hösten
               och vid flera tillfällen har Försäkringskassan också varit närvarande.
               Vi har fört precis denna diskussion. Inte minst när det gäller
@@ -549,22 +615,26 @@
               olika former av stödsubventioner som kan finnas i arbetsförmedlingens
               verktygslåda.
             </seg>
-            <seg n="37e9e1ca">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-54" prev="i-2cdc40520dfff9f7-51" who="Q52920">
+            <seg>
               Om det möter olika typer av regelhinder bör vi naturligtvis titta
               på det. Vi har ju anslagit medel för att snarare förstärka den
               här typen av samverkan, och som sagt tror jag att det är en väldigt
               delad bild. Det påpekade också frågeställaren. På sina håll har
               de lärt sig att prata med varandra, och det ger en positiv effekt.
             </seg>
-            <seg n="c0c4b078">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-55" prev="i-2cdc40520dfff9f7-51" who="Q52920">
+            <seg>
               Nyckelpersonen i krisberedskapen
             </seg>
           </u>
-          <note type="speaker" n="da267f56">
+          <note type="speaker">
             Anf. 20 PETER HULTQVIST (s):
           </note>
-          <u who="Q3370162" xml:id="i-48c4c8fc9f10aa39-0" n="0554776f">
-            <seg n="ccf114cc">
+          <u xml:id="i-2cdc40520dfff9f7-56" next="i-2cdc40520dfff9f7-57" who="Q3370162">
+            <seg>
               Herr talman! Jag tycker att det var bra att vi fick ett besked
               om att Ulrica Schenström ingick som en av flera i den pool som
               hade ansvar för krisberedskapen. Men i mina ögon var hon faktiskt
@@ -572,7 +642,9 @@
               allvarligt när den viktigaste länken, själva navet, i krisberedskapen
               brister? Det är min ena fråga.
             </seg>
-            <seg n="8d058afc">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-57" prev="i-2cdc40520dfff9f7-56" who="Q3370162">
+            <seg>
               Min andra fråga är denna: I Ulrica Schenströms begäran om entledigande
               står det: Jag beklagar också att jag inte inledningsvis förmått
               att klarlägga det som förevarit till statsministern och allmänheten.
@@ -581,15 +653,17 @@
               svara ja eller nej på den frågan.
             </seg>
           </u>
-          <note type="speaker" n="9e30ce1f">
+          <note type="speaker">
             Anf. 21 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-75a698d0dfe90715-9" n="26cbffc0">
-            <seg n="98550e9a">
+          <u xml:id="i-2cdc40520dfff9f7-58" next="i-2cdc40520dfff9f7-62" who="Q52920">
+            <seg>
               Herr talman! Jag hoppas att Peter Hultqvist ursäktar om jag använder
               några fler ord.
             </seg>
-            <seg n="381d8ab6">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-59" prev="i-2cdc40520dfff9f7-58" who="Q52920">
+            <seg>
               Min uppfattning är att Ulrica Schenström gjorde klart för mig
               att hon hade varit på denna krog. Hon hade druckit vin. Jag fick
               information om att hon hade jourberedskap. Allt detta var onsdag
@@ -597,13 +671,17 @@
               fullgöra sina förpliktelser. Hon kunde alltså utföra de arbetsuppgifter
               hon hade.
             </seg>
-            <seg n="efb57b44">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-60" prev="i-2cdc40520dfff9f7-58" who="Q52920">
+            <seg>
               En mångårig medarbetare som har vunnit förtroende hos mig tror
               jag på när hon säger detta. Det tror jag på tills jag får andra
               fakta på bordet. Då menar jag inte anklagelser från politiska
               motståndare eller annat.
             </seg>
-            <seg n="6d193895">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-61" prev="i-2cdc40520dfff9f7-58" who="Q52920">
+            <seg>
               Det kommer först sedan, i går, besked om att det finns fakta
               som faktiskt bestrider den uppgiften. Då visade jag också att
               jag har ledarskapsförmåga nog att dra konsekvenserna av det. Det
@@ -611,45 +689,53 @@
               efter samtal med mig, eftersom hon därmed har förbrukat sitt förtroende
               som statssekreterare.
             </seg>
-            <seg n="24e821a6">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-62" prev="i-2cdc40520dfff9f7-58" who="Q52920">
+            <seg>
               Men jag vill gärna säga det, om en mångårig medarbetare, att
               det är en stor personlig tragedi för henne och också för mig.
             </seg>
-            <seg n="d7fd0557">
-              Fler platser i äldreboenden
-            </seg>
           </u>
-          <note type="speaker" n="741f92a7">
+          <note>
+            Fler platser i äldreboenden
+          </note>
+          <note type="speaker">
             Anf. 22 TOBIAS KRANTZ (fp):
           </note>
-          <u who="Q952026" xml:id="i-75a698d0dfe90715-10" n="2ddb985b">
-            <seg n="49f26e05">
+          <u xml:id="i-2cdc40520dfff9f7-63" next="i-2cdc40520dfff9f7-66" who="Q952026">
+            <seg>
               Herr talman! Jag tänkte överraska både statsministern och kammaren
               med att inte ställa en fråga om det som har varit i centrum för
               nyhetsflödet de senaste dagarna utan ställa en fråga som jag tror
               har större betydelse i vanliga människors vardag.
             </seg>
-            <seg n="30a39aad">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-64" prev="i-2cdc40520dfff9f7-63" who="Q952026">
+            <seg>
               Jag besökte i måndags äldreboendet Skogsborg i Bodafors utanför
               Nässjö. Det är ett äldreboende där de äldre trivs väldigt väl
               och där det finns en engagerad och kompetent personal.
             </seg>
-            <seg n="d18acfab">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-65" prev="i-2cdc40520dfff9f7-63" who="Q952026">
+            <seg>
               Det stora problemet är i dag att det är alltför få äldre som
               får möjlighet att komma in på äldreboenden. Under åren 20002006
               har ungefär 20 000 platser i särskilt boende i Sverige försvunnit.
             </seg>
-            <seg n="09c38e3e">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-66" prev="i-2cdc40520dfff9f7-63" who="Q952026">
+            <seg>
               Jag skulle vilja fråga statsministern vad regeringen tänker göra
               för att bryta den utvecklingen så att fler äldre får chansen att
               komma in på äldreboenden.
             </seg>
           </u>
-          <note type="speaker" n="acaaca7b">
+          <note type="speaker">
             Anf. 23 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-75a698d0dfe90715-11" n="26cbffc0">
-            <seg n="8a7a69e4">
+          <u xml:id="i-2cdc40520dfff9f7-67" next="i-2cdc40520dfff9f7-70" who="Q52920">
+            <seg>
               Herr talman! Regeringen har upplåtit ett särskilt stöd som har
               lett till att ansökningarna om att bygga fler äldreboendeplatser
               har ökat till drygt 2 000. Vi har också i vårt valmanifest en
@@ -660,52 +746,64 @@
               vill bo? Vi har dessutom ofta kunnandet att erbjuda möjligheten
               att bo kvar hemma med hemtjänst.
             </seg>
-            <seg n="89cd54c7">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-68" prev="i-2cdc40520dfff9f7-67" who="Q52920">
+            <seg>
               Jag kan avslöja att även jag besökte en äldreverksamhet i Östersund
               i går och träffade ett rehabteam som jobbade med förstärkt rehabilitering,
               även av äldre som hade drabbats av stroke, för att möjliggöra
               att återfå kroppsfunktioner för kunna förbli boende hemma.
             </seg>
-            <seg n="b020b6c0">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-69" prev="i-2cdc40520dfff9f7-67" who="Q52920">
+            <seg>
               Men jag tror också, precis som frågeställaren, att det för många
               också behövs mer möjligheter att nyttja alternativet ett serviceboende,
               ett boende som är än mer anpassat med ännu mer av service och
               stöd. Det är nu på väg.
             </seg>
-            <seg n="24ae334e">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-70" prev="i-2cdc40520dfff9f7-67" who="Q52920">
+            <seg>
               Insynen i kungahusets apanage
             </seg>
           </u>
-          <note type="speaker" n="e9d1be06">
+          <note type="speaker">
             Anf. 24 HILLEVI LARSSON (s):
           </note>
-          <u who="Q3375042" xml:id="i-836880e31e4c6379-0" n="ccb51ff2">
-            <seg n="fb743fdb">
+          <u xml:id="i-2cdc40520dfff9f7-71" next="i-2cdc40520dfff9f7-73" who="Q3375042">
+            <seg>
               Herr talman! Regeringen har ju nyligen föreslagit att apanaget
               ska höjas, detta trots att vi har väldigt dålig insyn i hur pengarna
               används i dag. Vi vet inte ens om hovet verkligen behöver mer
               pengar.
             </seg>
-            <seg n="7998174b">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-72" prev="i-2cdc40520dfff9f7-71" who="Q3375042">
+            <seg>
               Samtidigt har statsministern gjort ett uttalande som går ut på
               att ingen skattekrona är skyddad från insyn eller står över politisk
               granskning och att detta är nödvändigt för att vi ska kunna finansiera
               välfärden.
             </seg>
-            <seg n="aba80136">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-73" prev="i-2cdc40520dfff9f7-71" who="Q3375042">
+            <seg>
               Då är min fråga: När ska vi få insyn i hur kungahuset använder
               våra skattepengar?
             </seg>
           </u>
-          <note type="speaker" n="51a05cec">
+          <note type="speaker">
             Anf. 25 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-75a698d0dfe90715-12" n="26cbffc0">
-            <seg n="c283446d">
+          <u xml:id="i-2cdc40520dfff9f7-74" next="i-2cdc40520dfff9f7-76" who="Q52920">
+            <seg>
               Herr talman! Det finns särskilda former för hur hovets apanage
               används för att man ska kunna följa upp det.
             </seg>
-            <seg n="48d2b734">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-75" prev="i-2cdc40520dfff9f7-74" who="Q52920">
+            <seg>
               Jag vill påpeka att vi nu talar om Sveriges statschef som ska
               ha förutsättningar för att kunna fungera i sin roll här i Sverige
               och i de olika kapaciteter som vi, ofta med stort berömmande och
@@ -715,33 +813,39 @@
               mest för att marknadsföra och skapa en positiv bild av, en positiv
               förväntan på och ett stort kunnande om Sverige.
             </seg>
-            <seg n="411bce90">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-76" prev="i-2cdc40520dfff9f7-74" who="Q52920">
+            <seg>
               Jag menar att den typ av funktion som frågeställaren efterfrågar
               redan finns, och, mina vänner skattebetalare: Det är värt varje
               krona!
             </seg>
-            <seg n="fe33a351">
-              Regeringens deltagande i toppmötet mellan EU och Afrikanska unionen
-            </seg>
           </u>
-          <note type="speaker" n="8528e238">
+          <note>
+            Regeringens deltagande i toppmötet mellan EU och Afrikanska unionen
+          </note>
+          <note type="speaker">
             Anf. 26 URBAN AHLIN (s):
           </note>
-          <u who="Q3369220" xml:id="i-3516ff5d071639bd-0" n="1b758296">
-            <seg n="0c7cbf5e">
+          <u xml:id="i-2cdc40520dfff9f7-77" next="i-2cdc40520dfff9f7-80" who="Q3369220">
+            <seg>
               Herr talman! Det var intressant att höra statsministerns förklaring
               med anledning av frågan om han har blivit förd bakom ljuset av
               sin statssekreterare Schenström. Om jag uppfattade svaret rätt
               så var det så att du, Fredrik Reinfeldt, upplevde det som att
               du hade blivit förd bakom ljuset.
             </seg>
-            <seg n="fbe6331c">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-78" prev="i-2cdc40520dfff9f7-77" who="Q3369220">
+            <seg>
               Jag måste då säga att jag tycker att statsministern i inledningen
               av den här hanteringen ändå försökte föra allmänheten bakom ljuset
               genom det sätt på vilket han svarade på frågor som var rimliga
               att ställa.
             </seg>
-            <seg n="4b1eaf18">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-79" prev="i-2cdc40520dfff9f7-77" who="Q3369220">
+            <seg>
               Jag har en annan fråga, som jag tror också är rimlig att ställa.
               Birgitta Ohlsson, Folkpartiets utrikespolitiska talesman, har
               de senaste dagarna varit ute och kritiserat regeringen för att
@@ -752,28 +856,34 @@
               räkning. Folkpartiet säger alltså nej till att regeringen ska
               åka och träffa Mugabe på det här mötet.
             </seg>
-            <seg n="669bc784">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-80" prev="i-2cdc40520dfff9f7-77" who="Q3369220">
+            <seg>
               Min fråga till statsministern är helt enkelt: Leder du en regering,
               eller leder du en regering som består av fyra olika politiska
               partier? Det är väl så att vi fortfarande har ett kollektivt beslutsfattande,
               och är det inte så att Folkpartiets partiledare ingår i regeringen?
             </seg>
           </u>
-          <note type="speaker" n="41a63c23">
+          <note type="speaker">
             Anf. 27 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-75a698d0dfe90715-13" n="26cbffc0">
-            <seg n="0752dfdb">
+          <u xml:id="i-2cdc40520dfff9f7-81" next="i-2cdc40520dfff9f7-86" who="Q52920">
+            <seg>
               Herr talman! Jag leder en regering. I den regeringen ingår fyra
               partier.
             </seg>
-            <seg n="eada4a2c">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-82" prev="i-2cdc40520dfff9f7-81" who="Q52920">
+            <seg>
               Min uppfattning är detta har jag förankrat i EU-nämnden under
               en frågestund, bland annat med Urban Ahlin att vi inte ska låta
               en man få veto när det gäller huruvida två kontinenter ska kunna
               träffas.
             </seg>
-            <seg n="034f6ab1">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-83" prev="i-2cdc40520dfff9f7-81" who="Q52920">
+            <seg>
               Jag tycker att det är mycket angeläget att ett sådant möte kan
               komma till stånd. Vi har mycket att diskutera, till exempel utveckling,
               bistånd, handel, migration, rörlighet och mänskliga rättigheter.
@@ -781,7 +891,9 @@
               vi tycker att han i sin tur ska framföra att Robert Mugabe inte
               bör anses önskvärd på detta möte.
             </seg>
-            <seg n="1aed3104">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-84" prev="i-2cdc40520dfff9f7-81" who="Q52920">
+            <seg>
               Men jag har inte sagt att jag med det villkorar vår närvaro.
               Jag vill säkerställa att José Sócrates framför detta, och att,
               om det skulle vara så att Robert Mugabe kommer, det också följs
@@ -790,20 +902,24 @@
               vi inte ska ha 27 länder som fattar 27 beslut utan där vi ställer
               upp bakom ordförandeskapet för att markera att EU hänger samman.
             </seg>
-            <seg n="f9131961">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-85" prev="i-2cdc40520dfff9f7-81" who="Q52920">
+            <seg>
               Om det finns en annan uppfattning kan jag respektera det, men
               det är den linjen jag har företrätt, och den är den linjen som
               är regeringens.
             </seg>
-            <seg n="5a27558d">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-86" prev="i-2cdc40520dfff9f7-81" who="Q52920">
+            <seg>
               Pensionärernas del av välståndsökningen
             </seg>
           </u>
-          <note type="speaker" n="5f58d002">
+          <note type="speaker">
             Anf. 28 INGE GARSTEDT (m):
           </note>
-          <u who="Q3798648" xml:id="i-00d9bb5c35b1e78b-0" n="12270b87">
-            <seg n="38781271">
+          <u xml:id="i-2cdc40520dfff9f7-87" who="Q3798648">
+            <seg>
               Herr talman! Jag tänker också uppehålla mig vid de äldre. Jag
               har denna fråga till statsministern: När kan våra pensionärer
               få del av den tillväxt vi har i Sverige när det går så bra? Det
@@ -813,20 +929,24 @@
               vi har i Sverige.
             </seg>
           </u>
-          <note type="speaker" n="38589b7c">
+          <note type="speaker">
             Anf. 29 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-75a698d0dfe90715-14" n="26cbffc0">
-            <seg n="7d5625e0">
+          <u xml:id="i-2cdc40520dfff9f7-88" next="i-2cdc40520dfff9f7-92" who="Q52920">
+            <seg>
               Herr talman! Detta hör vi från många äldre som frågar: När är
               det vår tur?
             </seg>
-            <seg n="69e67637">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-89" prev="i-2cdc40520dfff9f7-88" who="Q52920">
+            <seg>
               Vi fick i går bekräftelse på en uppgift som vi har haft i våra
               prognoser, nämligen att nästa år kommer pensionerna att räknas
               upp med ungefär 4 000 kronor.
             </seg>
-            <seg n="a0e731b4">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-90" prev="i-2cdc40520dfff9f7-88" who="Q52920">
+            <seg>
               Det följer av den kraftiga sysselsättningsökning som Sverige
               nu kan dra nytta av. Det är ju så det hänger ihop. Vi som nu jobbar
               får förhoppningsvis tillräckligt med resurser för att kunna stå
@@ -834,7 +954,9 @@
               som har en koppling till tillväxt, kan växa och ge ökade pensioner
               till dem som inte längre arbetar.
             </seg>
-            <seg n="76699eda">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-91" prev="i-2cdc40520dfff9f7-88" who="Q52920">
+            <seg>
               Fler i arbete är den bästa politiken för att säkerställa att
               pensionerna växer. Fortsätter den utvecklingen visar våra prognoser
               att år 2009 är ökningen ännu starkare. Upp till 6 000 kronors
@@ -842,21 +964,25 @@
               naturligtvis handlar om prognoser. Nu är förbättringarna alltså
               på väg.
             </seg>
-            <seg n="7db24b6d">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-92" prev="i-2cdc40520dfff9f7-88" who="Q52920">
+            <seg>
               Den planerade gasledningen mellan Ryssland och Tyskland
             </seg>
           </u>
-          <note type="speaker" n="27178032">
+          <note type="speaker">
             Anf. 30 ULF HOLM (mp):
           </note>
-          <u who="Q520956" xml:id="i-83c94bbf26f043b1-0" n="fc3d436f">
-            <seg n="56032939">
+          <u xml:id="i-2cdc40520dfff9f7-93" next="i-2cdc40520dfff9f7-95" who="Q520956">
+            <seg>
               Herr talman! Min fråga gäller den planerade gasledningen. 120
               mil gasledning mellan Ryssland och Tyskland ska läggas på Östersjöns
               botten. Vi vet alla att det finns miljörisker med den, allvarliga
               sådana, och därför ska den miljökonsekvensbeskrivas.
             </seg>
-            <seg n="9ce409b2">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-94" prev="i-2cdc40520dfff9f7-93" who="Q520956">
+            <seg>
               Regeringen meddelade i går att man kräver av Nordstream och Gazprom
               att de ska ha en alternativ dragning av dessa ledningar, vilket
               jag naturligtvis tycker är bra. Men jag tycker att det initiativ
@@ -864,17 +990,19 @@
               med Polen är ännu bättre. De kräver nämligen att det även ska
               tas fram en beredning för att dra gasledningen över land.
             </seg>
-            <seg n="046857cf">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-95" prev="i-2cdc40520dfff9f7-93" who="Q520956">
+            <seg>
               Min fråga till statsministern är: Är regeringen beredd att ansluta
               sig till de baltiska ländernas krav på att en gasledning på land
               också ska utredas?
             </seg>
           </u>
-          <note type="speaker" n="4a4963cd">
+          <note type="speaker">
             Anf. 31 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-75a698d0dfe90715-15" n="26cbffc0">
-            <seg n="d972c477">
+          <u xml:id="i-2cdc40520dfff9f7-96" next="i-2cdc40520dfff9f7-98" who="Q52920">
+            <seg>
               Herr talman! Detta projekt har jag fått frågor om i riksdagens
               kammare många gånger. Det är ett i grunden kommersiellt projekt
               som, när det väl läggs fram, måste vägas mot internationell havsrättskommission
@@ -882,14 +1010,18 @@
               lagstiftning pröva det, inte minst ur miljöhänsyn. Hur det kommer
               att kunna användas är ännu för tidigt att säga.
             </seg>
-            <seg n="82d09b92">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-97" prev="i-2cdc40520dfff9f7-96" who="Q52920">
+            <seg>
               Vi har noterat att flera länder framställt önskemål till projektet
               om att pröva alternativa dragningar. Det kan handla om hur stora
               delar av gasröret är tänkt att läggas ut, men också om mindre
               delar i känsliga områden, som av olika skäl kan misstänkas bli
               särskilt påverkade.
             </seg>
-            <seg n="7e870854">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-98" prev="i-2cdc40520dfff9f7-96" who="Q52920">
+            <seg>
               Det är speciellt tydligt att just vi har ett intresse av det
               eftersom det är i vår ekonomiska intressezon som delar av denna
               dragning planeras. Jag tycker att andra får svara för sig och
@@ -898,14 +1030,14 @@
               vilket det alltså ännu inte gör.
             </seg>
           </u>
-          <note n="11a6787c">
+          <note>
             Elleveranserna i Haparanda och Övertorneå kommuner
           </note>
-          <note type="speaker" n="019ce412">
+          <note type="speaker">
             Anf. 32 HANNAH BERGSTEDT (s):
           </note>
-          <u who="Q4938643" xml:id="i-a291fd3cc77e6300-0" n="817d383f">
-            <seg n="49cf6647">
+          <u xml:id="i-2cdc40520dfff9f7-99" next="i-2cdc40520dfff9f7-101" who="Q4938643">
+            <seg>
               Herr talman! Det är vid det här laget väl känt att Övertorneå
               och Haparanda kommuner har stora problem med sina elleveranser
               på grund av oenighet med elleverantören, som efter ingånget avtal
@@ -915,7 +1047,9 @@
               20 minusgrader och det dessutom föreligger hot om att klippa strömmen
               till skola och äldreomsorg.
             </seg>
-            <seg n="98a95354">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-100" prev="i-2cdc40520dfff9f7-99" who="Q4938643">
+            <seg>
               Man har försökt lösa frågan bland annat genom tvångsförvaltning,
               och näringsministern har vid två tillfällen besökt Norrbotten.
               Men ingenting händer. Energimarknadsmyndigheten har utarbetat
@@ -923,16 +1057,18 @@
               kom redan under våren och ska vara remissbehandlat men är ännu
               inte inlämnat till riksdagen.
             </seg>
-            <seg n="9d924513">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-101" prev="i-2cdc40520dfff9f7-99" who="Q4938643">
+            <seg>
               Min fråga till statsministern är: När tänker regeringen lägga
               fram ett lagförslag som garanterar elleverans till viktiga samhällsfunktioner?
             </seg>
           </u>
-          <note type="speaker" n="d763d299">
+          <note type="speaker">
             Anf. 33 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-75a698d0dfe90715-16" n="26cbffc0">
-            <seg n="a2443b8d">
+          <u xml:id="i-2cdc40520dfff9f7-102" next="i-2cdc40520dfff9f7-104" who="Q52920">
+            <seg>
               Herr talman! Jag har i dag inget exakt besked att ge om det.
               Jag kan fuller väl sätta mig in i och förstå den situation som
               frågeställaren beskriver. På något sätt känns det som om man skulle
@@ -940,7 +1076,9 @@
               i Sverige det var mörkt, men det är givetvis allra mest påkallat
               där det är särskilt mörkt.
             </seg>
-            <seg n="8b6c1401">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-103" prev="i-2cdc40520dfff9f7-102" who="Q52920">
+            <seg>
               Det pågår, vilket frågeställaren påpekade, en rättsprövning av
               ärendet. Dessutom har Maud Olofsson försökt, så långt det varit
               möjligt, att påverka. Men vi inser att rättsprövningen först måste
@@ -948,22 +1086,26 @@
               de exakta möjligheterna att lägga fram den lagstiftning som efterfrågas.
               Det har jag i dag inte uppgifter om.
             </seg>
-            <seg n="32d3d104">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-104" prev="i-2cdc40520dfff9f7-102" who="Q52920">
+            <seg>
               Fastighetsskatten
             </seg>
           </u>
-          <note type="speaker" n="92208e71">
+          <note type="speaker">
             Anf. 34 LARS JOHANSSON (s):
           </note>
-          <u who="Q3373277" xml:id="i-0b00fbe2a7945b29-0" n="1b47695c">
-            <seg n="95d9fb4b">
+          <u xml:id="i-2cdc40520dfff9f7-105" next="i-2cdc40520dfff9f7-107" who="Q3373277">
+            <seg>
               Herr talman! För ett år sedan lovade moderatledaren Fredrik Reinfeldt
               att avskaffa fastighetsskatten om det blev en borgerlig valseger.
               Vidare lovade Fredrik Reinfeldt några veckor före valet att inte
               urholka uppskovsreglerna. Det skulle inte bli någon flyttskatt
               sade moderatledaren till Svenska Dagbladet.
             </seg>
-            <seg n="b2e388d5">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-106" prev="i-2cdc40520dfff9f7-105" who="Q3373277">
+            <seg>
               Nu när vi har facit över vad regeringen gjort med fastighetsskatten
               känner sig många människor lurade. Landets högsta jurist säger
               att det är fråga om en fastighetsskatt. Regeringens tal om att
@@ -972,16 +1114,18 @@
               det blir en flyttskatt på tiotusentals kronor. Dessutom gäller
               den retroaktivt, vilket inte minst drabbar många pensionärer.
             </seg>
-            <seg n="ed35fb38">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-107" prev="i-2cdc40520dfff9f7-105" who="Q3373277">
+            <seg>
               Hur ser statsministern på sitt svek mot de pensionärer, låginkomsttagare
               och glesbygdens folk som får höjd fastighetsskatt?
             </seg>
           </u>
-          <note type="speaker" n="e416ef85">
+          <note type="speaker">
             Anf. 35 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-75a698d0dfe90715-17" n="26cbffc0">
-            <seg n="0fe99536">
+          <u xml:id="i-2cdc40520dfff9f7-108" next="i-2cdc40520dfff9f7-109" who="Q52920">
+            <seg>
               Herr talman! Alliansen genomförde redan vid årsskiftet en betydande
               lättnad i uttag av fastighetsskatt. Det markerades att den kvarvarande
               delen skulle göras om till ett system baserat på en kommunal fastighetsavgift,
@@ -993,21 +1137,23 @@
               motiverat att använda ett snålt tilltaget reformutrymme till att
               gå ännu längre när det gäller lättnaden av fastighetsskatten.
             </seg>
-            <seg n="ab0eb9ee">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-109" prev="i-2cdc40520dfff9f7-108" who="Q52920">
+            <seg>
               Avgiften är nu presenterad i en modell som försöker göra just
               detta, finansiera och samtidigt säkerställa, med hjälp av den
               stora lättnad som skedde vid årsskiftet och som för de allra flesta
               ska innebära ett plus. Det har vi också åstadkommit med förslaget.
             </seg>
-            <seg n="38906ced">
-              Underhåll av vägar och järnvägar
-            </seg>
           </u>
-          <note type="speaker" n="7301029d">
+          <note>
+            Underhåll av vägar och järnvägar
+          </note>
+          <note type="speaker">
             Anf. 36 SVEN BERGSTRÖM (c):
           </note>
-          <u who="Q5573582" xml:id="i-2b20adb3926bbd58-0" n="178cdd41">
-            <seg n="4e5affb9">
+          <u xml:id="i-2cdc40520dfff9f7-110" next="i-2cdc40520dfff9f7-113" who="Q5573582">
+            <seg>
               Herr talman! Miljö- och klimatfrågorna blir allt viktigare i
               takt med att tunga vetenskapliga rapporter bekräftar att vi måste
               begränsa de klimatpåverkande utsläppen om vi vill ha ett drägligt
@@ -1015,14 +1161,18 @@
               i hög grad, och här finns många utmaningar när det gäller klok
               logistik, bränslesnåla fordon och nya bränslen.
             </seg>
-            <seg n="c4f22ef3">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-111" prev="i-2cdc40520dfff9f7-110" who="Q5573582">
+            <seg>
               Dock tyder allt på att vi också i framtiden måste ha bra vägar
               och järnvägar. Vi måste vårda det väg- och järnvägskapital som
               finns, och vi måste bygga bort ett antal flaskhalsar och våga
               satsa på strategiskt kloka och framtidsinriktade investeringar,
               inte minst på järnvägssidan.
             </seg>
-            <seg n="941f7b97">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-112" prev="i-2cdc40520dfff9f7-110" who="Q5573582">
+            <seg>
               Jag vill fråga statsministern om han delar min uppfattning att
               det kan vara klokt att nu, när statens finanser på olika sätt
               stärks, under kommande år fortsätta att, som sker i budgeten för
@@ -1030,23 +1180,27 @@
               skapa ekonomiskt utrymme för att vårda och utveckla det statliga
               kapital som våra vägar och järnvägar utgör.
             </seg>
-            <seg n="30fcaa51">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-113" prev="i-2cdc40520dfff9f7-110" who="Q5573582">
+            <seg>
               Vi har bara på vägområdet ett underhållsberg på 20 miljarder
               som ska klaras av. Är inte också detta en statsskuld som det är
               klokt och angeläget att betala av på?
             </seg>
           </u>
-          <note type="speaker" n="c19b0ad8">
+          <note type="speaker">
             Anf. 37 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-75a698d0dfe90715-18" n="26cbffc0">
-            <seg n="a9f8d1f3">
+          <u xml:id="i-2cdc40520dfff9f7-114" next="i-2cdc40520dfff9f7-117" who="Q52920">
+            <seg>
               Herr talman! Vi kunde enas om en mycket betydande infrastrukturinvestering
               i denna budget över 1,2 miljarder till enskilda vägar, järnvägar,
               väginvesteringar och underhåll. Det är angeläget, och många välkomnar
               det.
             </seg>
-            <seg n="1c4ea1ff">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-115" prev="i-2cdc40520dfff9f7-114" who="Q52920">
+            <seg>
               Hur vi i fortsättningen kommer att se på möjligheterna till infrastrukturinvesteringar,
               och vilken teknik man eventuellt kan diskutera, måste vi få återkomma
               till. Vi har fortsatt ett ansträngt kapacitetsläge i den svenska
@@ -1055,7 +1209,9 @@
               vi kommer att riskera att föra Sverige in i överhettning och ökad
               inflation.
             </seg>
-            <seg n="dab83787">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-116" prev="i-2cdc40520dfff9f7-114" who="Q52920">
+            <seg>
               Det är därför mycket angeläget att huvudsakligen stimulera fler
               till arbete och att ansvarsfullt finansiera de åtgärder som vi
               tar fram. All form av ansvarsfull finansiering sätter ofta i perspektiv
@@ -1063,20 +1219,24 @@
               ska utformas får vi därför återkomma till i förhandlingar inför
               kommande år.
             </seg>
-            <seg n="b3cc5117">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-117" prev="i-2cdc40520dfff9f7-114" who="Q52920">
+            <seg>
               Deltidsarbetslösheten
             </seg>
           </u>
-          <note type="speaker" n="2ebb700a">
+          <note type="speaker">
             Anf. 38 LAILA BJURLING (s):
           </note>
-          <u who="Q4939220" xml:id="i-48bcc26fb9be7cec-0" n="e954aaab">
-            <seg n="c6710269">
+          <u xml:id="i-2cdc40520dfff9f7-118" next="i-2cdc40520dfff9f7-119" who="Q4939220">
+            <seg>
               Herr talman! På Mynttorget har Kommunal i dag börjat sin manifestation
               mot regeringens orättvisa politik som drabbar Kommunals kvinnor
               på ett alldeles särskilt sätt.
             </seg>
-            <seg n="8b31cc83">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-119" prev="i-2cdc40520dfff9f7-118" who="Q4939220">
+            <seg>
               Statsministern har ju åkt runt i landet och besökt kommunala
               arbetsplatser, samtalat med och lyssnat på Kommunals kvinnor men
               tydligen inte hört deras bekymmer med deltidsarbetslösheten, det
@@ -1085,11 +1245,11 @@
               att deltidsstämplingen begränsas?
             </seg>
           </u>
-          <note type="speaker" n="398d5b86">
+          <note type="speaker">
             Anf. 39 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-75a698d0dfe90715-19" n="26cbffc0">
-            <seg n="292ea4b2">
+          <u xml:id="i-2cdc40520dfff9f7-120" next="i-2cdc40520dfff9f7-121" who="Q52920">
+            <seg>
               Herr talman! Det kommer säkert att bli mycket viktigt att följa
               den förändrade reformen, som innebär att man går ifrån ett system
               som var tänkt att vara en omställningsförsäkring men som i många
@@ -1101,29 +1261,33 @@
               ned i arbetstid till följd av den förändring som är på väg. Det
               besked jag givit är att det också är vårt syfte.
             </seg>
-            <seg n="27c09ad1">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-121" prev="i-2cdc40520dfff9f7-120" who="Q52920">
+            <seg>
               Det finns nästan ingenting som är så viktigt för jämställdheten
               som möjligheten att kunna gå upp till heltid och därmed få högre
               lön. Det i sin tur ger kvinnorna större möjligheter att kunna
               stå på egna ben. Det är bland annat det jag under mina resor talat
               om med många kvinnor i offentlig sektor.
             </seg>
-            <seg n="8968a1d8">
-              Försäljningen av Svenska Spel AB
-            </seg>
           </u>
-          <note type="speaker" n="05bd0aa2">
+          <note>
+            Försäljningen av Svenska Spel AB
+          </note>
+          <note type="speaker">
             Anf. 40 CHRISTER ENGELHARDT (s):
           </note>
-          <u who="Q3359406" xml:id="i-a26d1da5c40b0151-0" n="d106012a">
-            <seg n="66d9261d">
+          <u xml:id="i-2cdc40520dfff9f7-122" next="i-2cdc40520dfff9f7-124" who="Q3359406">
+            <seg>
               Herr talman! Med anledning av moderatstämmans beslut att sälja
               Svenska Spel kunde man i tisdagens Gotlands Tidningar läsa att
               spelbolaget Betway nu erbjuder att man kan få spela på när Svenska
               Spel ska säljas ut. Favoritåret är 2009, vilket ger 1,7 gånger
               pengarna.
             </seg>
-            <seg n="909c8b8f">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-123" prev="i-2cdc40520dfff9f7-122" who="Q3359406">
+            <seg>
               Som gotlänning känner jag stor oro över det beslut om moderatstämman
               fattat om att bland annat sälja Svenska Spel som har sitt huvudkontor
               på Gotland. Partistyrelsen hade visserligen ett motförslag som
@@ -1131,7 +1295,9 @@
               vad han kunde för att vädja till moderatstämman att ta ansvar
               då detta inte var några småfrågor.
             </seg>
-            <seg n="dcf5a06a">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-124" prev="i-2cdc40520dfff9f7-122" who="Q3359406">
+            <seg>
               På Gotland handlar det om flera hundra arbetstillfällen som skulle
               kunna äventyras om man fullföljer försäljningen av Svenska Spel.
               Skulle statsministern kunna säga någonting till gotlänningarna
@@ -1139,18 +1305,20 @@
               bli verklighet?
             </seg>
           </u>
-          <note type="speaker" n="0d34eaa3">
+          <note type="speaker">
             Anf. 41 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-75a698d0dfe90715-20" n="26cbffc0">
-            <seg n="aa0412bb">
+          <u xml:id="i-2cdc40520dfff9f7-125" next="i-2cdc40520dfff9f7-128" who="Q52920">
+            <seg>
               Herr talman! Få frågor förtjänar en sådan allvarsamhet och ett
               sådant behov att tänka igenom som spelmarknadsregler. Det är starka
               kommersiella drivkrafter och stor individuell påverkan. Det finns
               i dag i realiteten spelformer som inte har funnits förut där människor
               kan förbruka tiotusentals kronor inom loppet av bara några sekunder.
             </seg>
-            <seg n="23f09a86">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-126" prev="i-2cdc40520dfff9f7-125" who="Q52920">
+            <seg>
               Vi ser framför oss ett behov av en omreglering av denna spelmarknad.
               Den är ett påstått monopol som alla som vet något konstaterar
               inte stämmer med verkligheten. Det finns en miljö på Internet
@@ -1159,7 +1327,9 @@
               den tid vi lever i. Men man måste också ta hänsyn till idrottens
               finansiering och också annat och ge besked om Svenska Spel.
             </seg>
-            <seg n="e4085d98">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-127" prev="i-2cdc40520dfff9f7-125" who="Q52920">
+            <seg>
               Jag är mycket glad över detta enorma intresse och tilltro till
               moderatstämmans beslut att det snabbt ska bli det som följer i
               Sverige. Det är ett bra tips till alla som inte tror att det är
@@ -1167,15 +1337,17 @@
               och vi ska alla komma överens gemensamt. Någon överenskommelse
               om att sälja Svenska Spel finns inte.
             </seg>
-            <seg n="869e11da">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-128" prev="i-2cdc40520dfff9f7-125" who="Q52920">
+            <seg>
               Statsråds köp av svarta tjänster
             </seg>
           </u>
-          <note type="speaker" n="a3d3e9b3">
+          <note type="speaker">
             Anf. 42 EVA-LENA JANSSON (s):
           </note>
-          <u who="Q3374622" xml:id="i-fb8a4a6ec43d7a40-0" n="23eb48ce">
-            <seg n="844f705a">
+          <u xml:id="i-2cdc40520dfff9f7-129" next="i-2cdc40520dfff9f7-130" who="Q3374622">
+            <seg>
               Herr talman! Under sitt första år som statsminister har Fredrik
               Reinfeldt utsett fem statsråd som alla erkänt att de har begått
               olika typer av lagbrott. Tre av dessa statsråd har trots höga
@@ -1183,7 +1355,9 @@
               undanhållit vårt samhälle pengar till vår gemensamma välvärd.
               Ett av dessa statsråd har avgått och två är kvar i regeringen.
             </seg>
-            <seg n="97b47786">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-130" prev="i-2cdc40520dfff9f7-129" who="Q3374622">
+            <seg>
               Att politiker följer gällande lagar har stor betydelse för allmänhetens
               syn på skattebrott, därav min fråga till statsministern. Anser
               statsministern att det är viktigt att människor i allmänhet och
@@ -1191,43 +1365,51 @@
               därmed bidrar till vår gemensamma välfärd?
             </seg>
           </u>
-          <note type="speaker" n="ffd18609">
+          <note type="speaker">
             Anf. 43 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-b5156925dc25fe19-0" n="26cbffc0" next="i-5dc0c7acab0d9dc1-0">
-            <seg n="f235ddda">
+          <u xml:id="i-2cdc40520dfff9f7-131" next="i-2cdc40520dfff9f7-137" who="Q52920">
+            <seg>
               Herr talman! Ja, det tycker jag är viktigt. Det tycker jag gäller
               för alla i hela Sverige. Det kan sägas gälla ännu mer för dem
               av oss som uppbär vårt gemensamma förtroende. Det är ett självklart
               ja på den frågan.
             </seg>
-            <seg n="6cdbc7f5">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-132" prev="i-2cdc40520dfff9f7-131" who="Q52920">
+            <seg>
               I varje enskilt fall kommer det till en bedömning. När i tiden
               har det gjorts? Hur ska det vägas mot andra delar av hur man ska
               bedöma en människa? Min utgångspunkt är att människan är mycket
               kapabel men inte ofelbar, inte ens riksdagsledamöter.
             </seg>
-            <seg n="33998792">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-133" prev="i-2cdc40520dfff9f7-131" who="Q52920">
+            <seg>
               Det gör att man ibland landar i slutsatsen att man får väga de
               goda sidorna mot de tillkortakommanden som vi alla som människor
               ibland utgör exempel på.
             </seg>
-            <seg n="22d6c759">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-134" prev="i-2cdc40520dfff9f7-131" who="Q52920">
+            <seg>
               Stödet till En bok för alla
             </seg>
           </u>
-          <note n="d213186a">
+          <note>
             Anf. 44 GÖRAN PERSSON i Simrishamn (s):
           </note>
-          <u who="Q52920" xml:id="i-5dc0c7acab0d9dc1-0" n="26cbffc0" prev="i-b5156925dc25fe19-0">
-            <seg n="45a81e94">
+          <u xml:id="i-2cdc40520dfff9f7-135" prev="i-2cdc40520dfff9f7-131" who="Q52920">
+            <seg>
               Herr talman! Tiden börjar rinna ut för frågestunden. Det gör
               den också för det eminenta bokförlaget En bok för alla. Det är
               ett förlag som under snart 30 år har kunnat ge ut ett 40-tal böcker
               varje år. En del är böcker inom smala nischer. Bland annat håller
               man nu på att ta fram en bok för döva barn på teckenspråk.
             </seg>
-            <seg n="23f128e7">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-136" prev="i-2cdc40520dfff9f7-131" who="Q52920">
+            <seg>
               Förlaget har också sysslat med läsfrämjande åtgärder. Exempelvis
               har det tillsammans med LO tagit fram projektet Läs för mig pappa.
               Det riktar sig främst till LO-medlemmar och män som inte vanligtvis
@@ -1235,7 +1417,9 @@
               sökts upp och getts möjlighet att börja läsa själv men främst
               läsa för sina barn.
             </seg>
-            <seg n="1c57cf02">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-137" prev="i-2cdc40520dfff9f7-131" who="Q52920">
+            <seg>
               Nu föreslår regeringen att En bok för alla ska läggas ned, och
               man drar in 10 miljoner i stöd till förlaget. Min fråga är: Hur
               säkerställer statsministern, om nu detta förlag läggs ned, att
@@ -1243,47 +1427,55 @@
               litteraturens värld?
             </seg>
           </u>
-          <note type="speaker" n="7a9a80a1">
+          <note type="speaker">
             Anf. 45 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-75a698d0dfe90715-21" n="26cbffc0">
-            <seg n="66813e18">
+          <u xml:id="i-2cdc40520dfff9f7-138" next="i-2cdc40520dfff9f7-140" who="Q52920">
+            <seg>
               Herr talman! Läsandet är viktigt. Kulturen har fått större och
               växande anslag. Man har försökt utforma det på ett sätt som når
               fram till bredast möjliga grupper.
             </seg>
-            <seg n="3955d1ad">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-139" prev="i-2cdc40520dfff9f7-138" who="Q52920">
+            <seg>
               Om det i en enskild del finns kritik grundat i att man inte har
               ansett att ett anslag är särskilt motiverat ligger det säkert
               bakom det resonemang som frågeställaren för.
             </seg>
-            <seg n="15ed7906">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-140" prev="i-2cdc40520dfff9f7-138" who="Q52920">
+            <seg>
               Jag har inte så noggrant gått igenom detta enskilda projekt.
               Jag uppmuntrar till att frågan riktas till kulturministern som
               jag vet har fått svara på många frågor just i detta ärende.
             </seg>
           </u>
-          <note n="065ce4ff">
+          <note>
             Samarbete mellan svensk och finsk polis
           </note>
-          <note type="speaker" n="a8a23956">
+          <note type="speaker">
             Anf. 46 KRISTER HAMMARBERGH (m):
           </note>
-          <u who="Q5786666" xml:id="i-deb26c53f1d32172-0" n="1dde743d">
-            <seg n="7ecfdb98">
+          <u xml:id="i-2cdc40520dfff9f7-141" next="i-2cdc40520dfff9f7-143" who="Q5786666">
+            <seg>
               Herr talman och herr statsminister! För närvarande pågår förhandlingar
               inom Europeiska unionen angående det så kallade Prümfördraget
               och att införliva det i europeisk rätt. Förhandlingarna är snart
               slutförda. De innebär i praktiken att vi ska få bättre möjligheter
               till ett bättre samarbete mellan polisen i de olika medlemsländerna.
             </seg>
-            <seg n="1fd092f7">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-142" prev="i-2cdc40520dfff9f7-141" who="Q5786666">
+            <seg>
               Trots Socialdemokraternas interna motstånd i Sverige är förhandlingarna
               snart klara. Ett av de förslag som fallit bort under tiden är
               en regel om ingripande vid överhängande fara så att en utländsk
               polismakt ska kunna hjälpa till. Jag själv beklagar detta.
             </seg>
-            <seg n="ba5b935d">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-143" prev="i-2cdc40520dfff9f7-141" who="Q5786666">
+            <seg>
               I Tornedalen vid vår norra landsgräns är det glest befolkat och
               långa avstånd. Den svenska polisen kan ibland vara väldigt långt
               borta medan den finska polisen finns i närheten. Jag undrar hur
@@ -1292,283 +1484,305 @@
               resurser för att värna våra medborgare i de två olika länderna.
             </seg>
           </u>
-          <note type="speaker" n="6e001657">
+          <note type="speaker">
             Anf. 47 Statsminister FREDRIK REINFELDT (m):
           </note>
-          <u who="Q52920" xml:id="i-b5156925dc25fe19-1" n="26cbffc0">
-            <seg n="20df8357">
+          <u xml:id="i-2cdc40520dfff9f7-144" next="i-2cdc40520dfff9f7-148" who="Q52920">
+            <seg>
               Herr talman! Fördraget i sig är ett exempel på när en krets av
               EU-länder försöker att sluta en överenskommelse därför att man
               ofta har sett gränsöverskridande problem som man vill möta. Schengenavgränsningen
               är ett annat exempel på detta.
             </seg>
-            <seg n="a905b4e8">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-145" prev="i-2cdc40520dfff9f7-144" who="Q52920">
+            <seg>
               Det ska inte uteslutas att det alltid finns anledningar att föra
               diskussioner ifall det är sakligt motiverat. Men något initiativ
               av det slag som Krister Hammarbergh frågar om finns inte, och
               det har inte förts diskussioner kring detta.
             </seg>
-            <seg n="19f20fbd">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-146" prev="i-2cdc40520dfff9f7-144" who="Q52920">
+            <seg>
               Jag vill påpeka att en av grunderna för det nya fördraget är
               att förstärka möjligheterna att agera mot internationell brottslighet.
               Det görs utifrån insikten om att vi lever i en tid där väldigt
               mycket av hot och internationell tung kriminell verksamhet är
               just gränsöverskridande.
             </seg>
-            <seg n="71c4c23f">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-147" prev="i-2cdc40520dfff9f7-144" who="Q52920">
+            <seg>
               I en tid där vi rör på oss alltmer kan det vara motiverat med
               ett ökat utbyte och till och med diskutera befogenheter som är
               gränsöverskridande. Det är bland annat inom den ramen som det
               europeiska samarbetet nu utvecklas.
             </seg>
-            <seg n="fa0b9aa1">
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-148" prev="i-2cdc40520dfff9f7-144" who="Q52920">
+            <seg>
               När det gäller det enskilda initiativet kan jag inte säga annat
               än att det möjligen kan vara motiverat. Men svaret är att något
               initiativ inte finns för dagen.
             </seg>
           </u>
-          <note n="d0ecc424" type="speaker">
+          <note type="speaker">
             Anf. 48 FÖRSTE VICE TALMANNEN:
           </note>
-          <u who="unknown" xml:id="i-5dc0c7acab0d9dc1-1" n="26cbffc0">
-            <seg n="6eaaed9f">
+          <u xml:id="i-2cdc40520dfff9f7-149" who="unknown">
+            <seg>
               Vi säger tack till statsministern och övriga deltagare. Med detta
               är statsministerns frågestund slut för i dag.
             </seg>
-            <seg n="536904e1">
-              Skälet till dröjsmålet är arbetsanhopning.
-            </seg>
-            <seg n="41a9f50c">
-              KOM(2007)528, KOM(2007)529, KOM(2007)530, KOM(2007)531, KOM(2007)532
-            </seg>
-            <seg n="55d70210">
-              Luciano Astudillo
-            </seg>
-            <seg n="55d70210">
-              Luciano Astudillo
-            </seg>
-            <seg n="55d70210">
-              Luciano Astudillo
-            </seg>
-            <seg n="c3effef8">
-              Barbro Westerholm
-            </seg>
           </u>
-          <note n="1604a03f">
+          <note>
             3 § Meddelande om statistiska uppgifter för riksdagsarbetet
           </note>
-          <note n="bca373ce">
+          <note>
             Förste vice talmannen meddelade att statistiska uppgifter för
             riksdagsarbetet under riksmötet 2006/07 delats ut till kammarens
             ledamöter.
           </note>
-          <note n="6abdb54d">
+          <note>
             De statistiska uppgifterna redovisas i bilaga som fogats till
             detta protokoll.
           </note>
-          <note n="b292bef2">
+          <note>
             4 § Anmälan om fördröjda svar på interpellationer
           </note>
-          <note n="ab890e48">
+          <note>
             Till riksdagen hade inkommit följande skrivelser:
           </note>
-          <note n="587e11fe">
+          <note>
             Interpellation 2007/08:72
           </note>
-          <note n="08926161">
+          <note>
             Interpellation 2007/08:72 Samhällets krishanteringsförmåga
           </note>
-          <note n="d4060937">
+          <note>
             Interpellationen kommer att besvaras tisdagen den 13 november
             2007.
           </note>
-          <note n="ba67c46a">
+          <note>
             Skälet till dröjsmålet är förhinder att deltaga vid de svarstillfällen
             som finns före den 13 november 2007 på grund av annat engagemang.
           </note>
-          <note n="62a09326">
+          <note>
             Helena Lindberg
           </note>
-          <note n="b47a1c8d">
+          <note>
             Interpellation 2007/08:76
           </note>
-          <note n="1e997871">
+          <note>
             Interpellation 2007/08:76 Arbetslivsforskningen
           </note>
-          <note n="ac6599d7">
+          <note>
             Interpellationen kommer att besvaras fredagen den 16 november
             2007.
           </note>
-          <note n="c03723f8">
+          <u xml:id="i-2cdc40520dfff9f7-150" who="unknown">
+            <seg>
+              Skälet till dröjsmålet är arbetsanhopning.
+            </seg>
+          </u>
+          <note>
             Lars Leijonborg
           </note>
-          <note n="68537159">
+          <note>
             5 § Anmälan om inkommen faktapromemoria om förslag från Europeiska
             kommissionen
           </note>
-          <note n="efb7eac8">
+          <note>
             Förste vice talmannen anmälde att följande faktapromemoria om
             förslag från Europeiska kommissionen inkommit och överlämnats
             till utskott:
           </note>
-          <note n="90a0ad45">
+          <note>
+            KOM(2007)528, KOM(2007)529, KOM(2007)530, KOM(2007)531, KOM(2007)532
+          </note>
+          <note>
             6 § Beslut om motionsrätt på skrivelse
           </note>
-          <note n="28e22cc2">
+          <note>
             Kammaren biföll talmannens förslag att motioner fick väckas på
             denna skrivelse.
           </note>
-          <note n="72649930">
+          <note>
             7 § Hänvisning av ärende till utskott
           </note>
-          <note n="b686256e">
+          <note>
             Föredrogs och hänvisades
           </note>
-          <note n="d97d3808">
+          <note>
             8 § Bordläggning
           </note>
-          <note n="333701f7">
+          <note>
             Anmäldes och bordlades
           </note>
-          <note n="c47bf81e">
+          <note>
             9 § Anmälan om interpellationer
           </note>
-          <note n="bb7e061f">
+          <note>
             Anmäldes att följande interpellationer framställts
           </note>
-          <note n="82a20501">
+          <note>
             den 1 november
           </note>
-          <note n="02096f5b">
+          <u xml:id="i-2cdc40520dfff9f7-151" who="unknown">
+            <seg>
+              Luciano Astudillo
+            </seg>
+          </u>
+          <note>
             Ann-Christin Ahlberg
           </note>
-          <note n="0e948e21">
+          <note>
             Peter Jonsson
           </note>
-          <note n="03d43ddb">
+          <note>
             Sylvia Lindgren
           </note>
-          <note n="b04c86e8">
+          <note>
             Eva Sonidsson
           </note>
-          <note n="46cac77a">
+          <note>
             Hans Stenberg
           </note>
-          <note n="b84b8f4b">
+          <note>
             Interpellationerna redovisas i bilaga som fogats till riksdagens
             snabbprotokoll tisdagen den 13 november.
           </note>
-          <note n="3daa1a15">
+          <note>
             10 § Anmälan om frågor för skriftliga svar
           </note>
-          <note n="9ea8342a">
-            Anmäldes att följande frågor för skriftliga svar framställts
-          </note>
-          <note n="82a20501">
+          <u xml:id="i-2cdc40520dfff9f7-152" who="unknown">
+            <seg>
+              Anmäldes att följande frågor för skriftliga svar framställts
+            </seg>
+          </u>
+          <note>
             den 1 november
           </note>
-          <note n="afefb092">
+          <note>
             Jan R Andersson
           </note>
-          <note n="9aa14faf">
+          <note>
             Johan Löfstrand
           </note>
-          <note n="1a2aa26f">
+          <note>
             Anita Brodén
           </note>
-          <note n="f164fb34">
+          <note>
             Helena Leander
           </note>
-          <note n="c0fe4b0b">
+          <note>
             Birgitta Eriksson
           </note>
-          <note n="c0fe4b0b">
+          <note>
             Birgitta Eriksson
           </note>
-          <note n="19f23868">
+          <note>
             Lennart Sacrédeus
           </note>
-          <note n="9a9e7015">
+          <u xml:id="i-2cdc40520dfff9f7-153" who="unknown">
+            <seg>
+              Luciano Astudillo
+            </seg>
+          </u>
+          <u xml:id="i-2cdc40520dfff9f7-154" who="unknown">
+            <seg>
+              Luciano Astudillo
+            </seg>
+          </u>
+          <note>
             Gunnar Sandberg
           </note>
-          <note n="9a9e7015">
+          <note>
             Gunnar Sandberg
           </note>
-          <note n="224ca9d5">
+          <note>
             Carina Hägg
           </note>
-          <note n="224ca9d5">
+          <note>
             Carina Hägg
           </note>
-          <note n="224ca9d5">
+          <note>
             Carina Hägg
           </note>
-          <note n="c94d9a09">
-            Thomas Bodström
-          </note>
-          <note n="0977b1c5">
+          <u xml:id="i-2cdc40520dfff9f7-155" who="unknown">
+            <seg>
+              Thomas Bodström
+            </seg>
+          </u>
+          <note>
             Egon Frid
           </note>
-          <note n="0977b1c5">
+          <note>
             Egon Frid
           </note>
-          <note n="02096f5b">
+          <note>
             Ann-Christin Ahlberg
           </note>
-          <note n="9a9e7015">
+          <note>
             Gunnar Sandberg
           </note>
-          <note n="f2203e03">
+          <note>
             Frågorna redovisas i bilaga som fogats till riksdagens snabbprotokoll
             tisdagen den 13 november.
           </note>
-          <note n="42e0af95">
+          <note>
             11 § Anmälan om skriftliga svar på frågor
           </note>
-          <note n="71303ec6">
+          <note>
             Anmäldes att skriftliga svar på följande frågor inkommit
           </note>
-          <note n="82a20501">
+          <note>
             den 1 november
           </note>
-          <note n="0edbb47a">
+          <note>
             Ulla Andersson
           </note>
-          <note n="6302ba35">
+          <note>
             Lars-Ivar Ericson
           </note>
-          <note n="a5cdfaeb">
+          <note>
             Christina Oskarsson
           </note>
-          <note n="224ca9d5">
+          <note>
             Carina Hägg
           </note>
-          <note n="a5cdfaeb">
+          <note>
             Christina Oskarsson
           </note>
-          <note n="c0fe4b0b">
+          <note>
             Birgitta Eriksson
           </note>
-          <note n="fee4837e">
+          <note>
             Bodil Ceballos
           </note>
-          <note n="fdea101a">
+          <u xml:id="i-2cdc40520dfff9f7-156" who="unknown">
+            <seg>
+              Barbro Westerholm
+            </seg>
+          </u>
+          <note>
             Helene Petersson
           </note>
-          <note n="9d3307c7">
+          <note>
             Alf Eriksson
           </note>
-          <note n="18249153">
+          <note>
             Svaren redovisas i bilaga som fogats till riksdagens snabbprotokoll
             tisdagen den 13 november.
           </note>
-          <note n="904aeaa7">
+          <note>
             12 § Kammaren åtskildes kl. 14.49.
           </note>
-          <note n="71173e5b">
+          <note>
             Förhandlingarna leddes av förste vice talmannen.
           </note>
-          <note n="935d26df">
+          <note>
             /Eva-Lena Ekman
           </note>
         </div>

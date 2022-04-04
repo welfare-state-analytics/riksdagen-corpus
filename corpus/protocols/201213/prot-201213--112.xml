@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 2012</title>
+        <title>Riksdagens protocols 201213</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 2012</title>
+          <title>Riksdagens protocols 201213</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -63,35 +60,34 @@
       </front>
       <body>
         <div>
-          <note n="488cff63">
-            ﻿
-          </note>
-          <note n="3ba3f6eb">
+          <note>
             Riksdagens protokoll
           </note>
-          <note n="c6b0840b">
+          <note>
             2012/13:112
           </note>
-          <note type="date" n="f2a84b1b">
+          <note>
             Tisdagen den 28 maj
           </note>
-          <note n="eb270e3e">
+          <note>
             Kl. 13:00 - 18:15
           </note>
-          <note n="1d88eff7">
+          <note>
             1 § Återrapportering från Europeiska rådets möte
           </note>
-          <note type="speaker" n="d55613e0">
+          <note type="speaker">
             Anf. 1 Statsminister FREDRIK REINFELDT (M):
           </note>
-          <u who="Q52920" xml:id="i-0a258bd270f7e612-0" n="f4e0f234">
-            <seg n="a0dfcd16">
+          <u xml:id="i-188df04bf92484c9-0" next="i-188df04bf92484c9-16" who="Q52920">
+            <seg>
               Herr talman! Europeiska rådet möttes i onsdags i förra veckan
               för att under en halv dag diskutera två aktuella frågor som båda
               är viktiga för Europas ekonomiska utveckling, dels energifrågorna,
               dels skattefrågorna.
             </seg>
-            <seg n="54c343e9">
+          </u>
+          <u xml:id="i-188df04bf92484c9-1" prev="i-188df04bf92484c9-0" who="Q52920">
+            <seg>
               Skattefrågorna har fått stor uppmärksamhet i flera länder under
               de senaste månaderna då det har framkommit att både välkända individer
               och företag på olika sätt har vidtagit långtgående åtgärder för
@@ -100,7 +96,9 @@
               det i många fall inte räcker med europeiska lösningar utan det
               krävs globala regler för att skapa likvärdiga konkurrensvillkor.
             </seg>
-            <seg n="4ede2c4d">
+          </u>
+          <u xml:id="i-188df04bf92484c9-2" prev="i-188df04bf92484c9-0" who="Q52920">
+            <seg>
               Energifrågorna äger ständig relevans från många olika utgångspunkter.
               För många länder handlar det om försörjningstrygghet och vilja
               att diversifiera sina energikällor såväl som sina energileverantörer.
@@ -108,28 +106,34 @@
               priser för att säkra industrins konkurrenskraft och för att minska
               hushållens energinota.
             </seg>
-            <seg n="9ad0ed3f">
+          </u>
+          <u xml:id="i-188df04bf92484c9-3" prev="i-188df04bf92484c9-0" who="Q52920">
+            <seg>
               Långsiktigt är förmodligen den viktigaste frågan vilken inverkan
               på miljö och klimat som vår energikonsumtion har. Det handlar
               om att hitta de rätta incitamentsstrukturerna för att göra övergången
               till fossilfria energikällor både så snabb som möjligt och så
               smidig som möjligt.
             </seg>
-            <seg n="7d0f67ff">
+          </u>
+          <u xml:id="i-188df04bf92484c9-4" prev="i-188df04bf92484c9-0" who="Q52920">
+            <seg>
               Herr talman! Europeiska rådet enades vid mötet i förra veckan
               om ett antal åtgärder för att nå målsättningen om en fullbordad
               inre energimarknad till 2014 för att utveckla sammankopplingen
               mellan medlemsländernas el- och gasnät på ett sådant sätt att
               energiöar elimineras fram till 2015.
             </seg>
-            <seg n="4023e0db">
-              Bland dessa åtgärder återfinns genomförandet av det tredje energipaketet,
-              därtill hörande lagstiftning, till exempel direktivet om främjande
-              av förnybar energi och direktivet om säkra gasleveranser. Kommissionen
-              kommer att återkomma med en rapport om genomförandet av den inre
-              energimarknaden tidigt 2014.
-            </seg>
-            <seg n="9ef9c7d7">
+          </u>
+          <note>
+            Bland dessa åtgärder återfinns genomförandet av det tredje energipaketet,
+            därtill hörande lagstiftning, till exempel direktivet om främjande
+            av förnybar energi och direktivet om säkra gasleveranser. Kommissionen
+            kommer att återkomma med en rapport om genomförandet av den inre
+            energimarknaden tidigt 2014.
+          </note>
+          <u xml:id="i-188df04bf92484c9-5" prev="i-188df04bf92484c9-0" who="Q52920">
+            <seg>
               Europeiska rådet enades också om ytterligare åtgärder för att
               underlätta investeringar i energiinfrastruktur. Bland dessa åtgärder
               återfinns en revidering av statsstödsregler för att underlätta
@@ -141,7 +145,9 @@
               som har ett stort importberoende och endast en eller möjligen
               ett fåtal leverantörer.
             </seg>
-            <seg n="89902787">
+          </u>
+          <u xml:id="i-188df04bf92484c9-6" prev="i-188df04bf92484c9-0" who="Q52920">
+            <seg>
               Herr talman! Det är mycket positivt att skrivningen om ett nytt
               ramverk för klimat- och energipolitiken för 2030 kunde stärkas.
               Vi enades om att i mars 2014 återkomma till denna fråga för att
@@ -151,19 +157,25 @@
               kommissionen att lägga fram konkreta förslag som tar sin utgångspunkt
               i deras grönbok om energi- och klimatramverket.
             </seg>
-            <seg n="2eb1eded">
+          </u>
+          <u xml:id="i-188df04bf92484c9-7" prev="i-188df04bf92484c9-0" who="Q52920">
+            <seg>
               Slutligen diskuterades behovet i vissa länder av en diversifiering
               av energikällor samt vikten av att inhemska energikällor här syftar
               man huvudsakligen på den mycket omdiskuterade skiffergasen utvinns
               på ett säkert och hållbart sätt.
             </seg>
-            <seg n="4e5c0782">
+          </u>
+          <u xml:id="i-188df04bf92484c9-8" prev="i-188df04bf92484c9-0" who="Q52920">
+            <seg>
               Slutligen berördes också vikten av energieffektivitet och effekten
               av höga energipriser. Kommissionen kommer att utarbeta en särskild
               analys av de faktorer som påverkar priserna för europeiska hushåll
               och för företag före årets slut.
             </seg>
-            <seg n="d4bfb36f">
+          </u>
+          <u xml:id="i-188df04bf92484c9-9" prev="i-188df04bf92484c9-0" who="Q52920">
+            <seg>
               Herr talman! Sverige och flera likasinnade länder har drivit
               att energipolitiken inte kan frikopplas från klimatpolitiken.
               Ett nytt ramverk för 2030 behövs för att skapa en långsiktig klimatpolitik.
@@ -173,14 +185,18 @@
               i Europa. Det är därför glädjande att slutsatstexten innehåller
               en tidtabell för den fortsatta diskussionen på detta område.
             </seg>
-            <seg n="94a3a5d7">
+          </u>
+          <u xml:id="i-188df04bf92484c9-10" prev="i-188df04bf92484c9-0" who="Q52920">
+            <seg>
               Sverige stöder också fullbordandet av den inre marknaden till
               2014. Vi driver att denna marknad måste vara baserad på priser
               som även speglar koldioxidkostnaderna. Detta är en förutsättning
               för att klimat- och energimålen ska uppnås på ett kostnadseffektivt
               sätt.
             </seg>
-            <seg n="41caa915">
+          </u>
+          <u xml:id="i-188df04bf92484c9-11" prev="i-188df04bf92484c9-0" who="Q52920">
+            <seg>
               Herr talman! Den andra fråga som diskuterades vid toppmötet handlade
               om skatteflykt, skattebedrägerier och skatteundandragande. Det
               är frågor som vi från svensk sida genomgående har fäst mycket
@@ -193,7 +209,9 @@
               som finns är en förutsättning för social och politisk acceptans
               för den förda politiken.
             </seg>
-            <seg n="8d0c2330">
+          </u>
+          <u xml:id="i-188df04bf92484c9-12" prev="i-188df04bf92484c9-0" who="Q52920">
+            <seg>
               Vi kunde i förra veckan enas om att utöka det automatiska informationsutbytet
               vad gäller inkomster av kapital mellan länder både inom EU och
               internationellt. För att göra detta är det viktigt att länder
@@ -204,7 +222,9 @@
               för att länder som Luxemburg och Österrike slutgiltigt ska acceptera
               sparandedirektivet.
             </seg>
-            <seg n="25c019ad">
+          </u>
+          <u xml:id="i-188df04bf92484c9-13" prev="i-188df04bf92484c9-0" who="Q52920">
+            <seg>
               Vi enades också om att intensifiera arbetet för att motverka
               aggressiv skatteplanering och vinstöverföringar mellan länder
               och ytterligare åtgärder mot penningtvätt. Från svensk sida välkomnar
@@ -215,7 +235,9 @@
               Initiativet är viktigt eftersom det omfattar fler typer av kapitalinkomster
               än det sparandedirektiv som finns inom EU.
             </seg>
-            <seg n="a207c156">
+          </u>
+          <u xml:id="i-188df04bf92484c9-14" prev="i-188df04bf92484c9-0" who="Q52920">
+            <seg>
               Herr talman! Vi fattade också formellt beslut om att Europeiska
               kommissionen även i fortsättningen ska bestå av en medborgare
               från varje medlemsstat i stället för att som det fanns förslag
@@ -224,7 +246,9 @@
               negativa resultatet i folkomröstningen i Irland 2008 vad gäller
               Lissabonfördraget.
             </seg>
-            <seg n="258ed6b2">
+          </u>
+          <u xml:id="i-188df04bf92484c9-15" prev="i-188df04bf92484c9-0" who="Q52920">
+            <seg>
               Slutligen ägde en kort diskussion om Syrien rum. Storbritannien
               med stöd av Frankrike ville att Europeiska rådet skulle ge en
               signal om beredskap att lyfta på det vapenembargo som nu råder.
@@ -233,19 +257,23 @@
               kammaren redan vet kom detta att i stället behandlas under utrikesministrarnas
               möte i går.
             </seg>
-            <seg n="1b21afdb">
+          </u>
+          <u xml:id="i-188df04bf92484c9-16" prev="i-188df04bf92484c9-0" who="Q52920">
+            <seg>
               Herr talman! Jag är därmed redo att svara på kammarens frågor.
             </seg>
           </u>
-          <note type="speaker" n="5c97bbc3">
+          <note type="speaker">
             Anf. 2 MARIE GRANLUND (S):
           </note>
-          <u who="Q3373324" xml:id="i-ac4e86784521311c-0" n="01672606">
-            <seg n="8e085e37">
+          <u xml:id="i-188df04bf92484c9-17" next="i-188df04bf92484c9-22" who="Q3373324">
+            <seg>
               Herr talman! Jag vill tacka statsministern för återrapporten
               från Europeiska rådet.
             </seg>
-            <seg n="268bdf74">
+          </u>
+          <u xml:id="i-188df04bf92484c9-18" prev="i-188df04bf92484c9-17" who="Q3373324">
+            <seg>
               Även om det inte är så många skarpa förslag i de slutsatser som
               har kommit är det positivt att man kliver av krisstolen för några
               minuter och diskuterar viktiga frågor som klimat, miljö och energi,
@@ -253,12 +281,16 @@
               viktigt för tillväxten, och det har pratats på tok för lite om
               tillväxt och hur man får i gång Europa igen.
             </seg>
-            <seg n="a9940ddd">
+          </u>
+          <u xml:id="i-188df04bf92484c9-19" prev="i-188df04bf92484c9-17" who="Q3373324">
+            <seg>
               Vår utgångspunkt när vi pratar om energi är att vi vill se ett
               fossilfritt samhälle, ett samhälle utan utsläpp av växthusgaser
               och med hundra procent förnybar energi.
             </seg>
-            <seg n="527a24f3">
+          </u>
+          <u xml:id="i-188df04bf92484c9-20" prev="i-188df04bf92484c9-17" who="Q3373324">
+            <seg>
               När vi i EU-nämnden hade förberedelser inför toppmötet tog vi
               socialdemokrater upp att vi skulle vilja att statsministern drev
               på om nya, bindande mål för förnybar energi efter 2020. Det är
@@ -268,10 +300,14 @@
               överenskommelse på energiområdet som gav förutsättningar här i
               Sverige är det viktigt att få till stånd en sådan i EU.
             </seg>
-            <seg n="eb71d847">
+          </u>
+          <u xml:id="i-188df04bf92484c9-21" prev="i-188df04bf92484c9-17" who="Q3373324">
+            <seg>
               Min fråga är om statsministern tog upp någonting av detta.
             </seg>
-            <seg n="2375e76d">
+          </u>
+          <u xml:id="i-188df04bf92484c9-22" prev="i-188df04bf92484c9-17" who="Q3373324">
+            <seg>
               För ett par månader sedan stod statsministern här i talarstolen
               och ondgjorde sig över att en socialdemokratisk EU-parlamentariker
               hade röstat emot vad gällde långtidsbudgeten. Då är min fråga:
@@ -280,11 +316,11 @@
               synsättet att ekonomi är viktigt men inte klimat och miljö?
             </seg>
           </u>
-          <note type="speaker" n="55fc6a52">
+          <note type="speaker">
             Anf. 3 Statsminister FREDRIK REINFELDT (M):
           </note>
-          <u who="Q52920" xml:id="i-0a258bd270f7e612-1" n="f4e0f234">
-            <seg n="12f5f8a2">
+          <u xml:id="i-188df04bf92484c9-23" next="i-188df04bf92484c9-30" who="Q52920">
+            <seg>
               Herr talman! Jag tror inte att det finns någon runt om i världen
               som inte vill ha en situation där vi bara kan säga att vi önskar
               en fossilbränslefri värld utan klimatpåverkan. I Europa är nu
@@ -292,7 +328,9 @@
               att vi vill bli av med det måste onekligen svara på frågan: Hur
               ska det gå till?
             </seg>
-            <seg n="1494a600">
+          </u>
+          <u xml:id="i-188df04bf92484c9-24" prev="i-188df04bf92484c9-23" who="Q52920">
+            <seg>
               Det är lättare för länder som Sverige, som är det land som ligger
               längst fram när det gäller att ha förnybar energiandel och nu
               snart når 50 procent. Men vi ska notera att flera av de största
@@ -300,7 +338,9 @@
               siffror nere på 1 procent upp till 2 ½3 procent. Det är i ljuset
               av det vi ska förstå de diskussioner vi nu för.
             </seg>
-            <seg n="4aaae9bb">
+          </u>
+          <u xml:id="i-188df04bf92484c9-25" prev="i-188df04bf92484c9-23" who="Q52920">
+            <seg>
               Vi ska dessutom lägga till en sak. I USA sker nu en utveckling
               där man har funnit omfattande mängder skifferbaserad gas, vilket
               gör att man delvis skiftar om i sin fossila bränsleanvändning
@@ -311,7 +351,9 @@
               uppstår ett kolutbud till sjunkande priser, vilket nu påverkar
               också den europeiska marknaden.
             </seg>
-            <seg n="f4c75f31">
+          </u>
+          <u xml:id="i-188df04bf92484c9-26" prev="i-188df04bf92484c9-23" who="Q52920">
+            <seg>
               De facto är det som sker i delar av Europa i dag alltså att vi
               återvänder till ökad fossilbränsleanvändning. Detta sker också
               i ljuset av bland annat Tysklands beslut att avveckla hela sin
@@ -319,14 +361,18 @@
               om: Hur ska det här fossila bränslet forslas fram? Hur ska det
               nå fram till sina slutanvändare?
             </seg>
-            <seg n="87e2eaae">
+          </u>
+          <u xml:id="i-188df04bf92484c9-27" prev="i-188df04bf92484c9-23" who="Q52920">
+            <seg>
               I ljuset av det var jag och några andra drivande i att säga att
               den här situationen måste mötas med mer prismekanismer och mer
               marknadsbaserat tänkande, som rätt tar in också klimatpåverkan
               av ökad fossilbränsleanvändning. Det är, menar jag, det överskuggande
               problemet i stora delar av Europa.
             </seg>
-            <seg n="f30607ee">
+          </u>
+          <u xml:id="i-188df04bf92484c9-28" prev="i-188df04bf92484c9-23" who="Q52920">
+            <seg>
               I den delen har utsläppshandeln mycket liten påverkan, med de
               låga priser som nu råder. Regeringens uppfattning är att man visst
               kan medverka till att ta ned en del av de utsläppsrätter som tidigt
@@ -337,11 +383,15 @@
               dessutom lågkonjunkturens effekter och det faktum att delar av
               Europa befinner sig i recession.
             </seg>
-            <seg n="8a2d17ed">
+          </u>
+          <u xml:id="i-188df04bf92484c9-29" prev="i-188df04bf92484c9-23" who="Q52920">
+            <seg>
               Sveriges regering kommer att agera på det sätt som vi har enats
               kring, och det ska upp för ytterligare en behandling i Europaparlamentet.
             </seg>
-            <seg n="0486dcbb">
+          </u>
+          <u xml:id="i-188df04bf92484c9-30" prev="i-188df04bf92484c9-23" who="Q52920">
+            <seg>
               Det är så här diskussionen går i Europa. Sveriges röst är inte
               otydlig, men den är en av många röster i en verklighet som är
               ganska komplicerad. Och där är, som sagt, det överskuggande problemet
@@ -350,11 +400,11 @@
               bara om att använda fossila bränslen.
             </seg>
           </u>
-          <note type="speaker" n="9a82fc5d">
+          <note type="speaker">
             Anf. 4 MARIE GRANLUND (S):
           </note>
-          <u who="Q3373324" xml:id="i-ac4e86784521311c-1" n="01672606">
-            <seg n="28c2cf0e">
+          <u xml:id="i-188df04bf92484c9-31" who="Q3373324">
+            <seg>
               Herr talman! Jag får tacka för svaret från statsministern, även
               om jag inte är helt nöjd. Jag tycker att Sverige skulle göra sin
               röst hörd när det gäller klimat- och miljöfrågor på ett helt annat
@@ -369,11 +419,11 @@
               månader sedan här.
             </seg>
           </u>
-          <note type="speaker" n="d1454a2d">
+          <note type="speaker">
             Anf. 5 Statsminister FREDRIK REINFELDT (M):
           </note>
-          <u who="Q52920" xml:id="i-0a258bd270f7e612-2" n="f4e0f234">
-            <seg n="23e9e376">
+          <u xml:id="i-188df04bf92484c9-32" next="i-188df04bf92484c9-35" who="Q52920">
+            <seg>
               Herr talman! Vi har ju den ordningen i Sverige att vi har ingått
               en koalitionsregering där vi förutsätter att de partier som ingår
               i den koalitionsregeringen i mesta möjliga mån förmår sina riksdagsgrupper
@@ -384,19 +434,25 @@
               en annan person huruvida vi ska utöva lite större kontroll över
               hur vi röstar.
             </seg>
-            <seg n="28cf0d03">
+          </u>
+          <u xml:id="i-188df04bf92484c9-33" prev="i-188df04bf92484c9-32" who="Q52920">
+            <seg>
               En poäng är att vi aldrig har kommit överens om att detta ska
               gälla fullt ut i andra forum, att vi måste rösta på ett visst,
               specifikt sätt i Europaparlamentet, i landsting, i regioner eller
               i kommuner. Där har vi konstaterat att partier står var för sig.
               Ibland får det en inverkan, eftersom det finns ett medbeslutande.
             </seg>
-            <seg n="bba76a6f">
+          </u>
+          <u xml:id="i-188df04bf92484c9-34" prev="i-188df04bf92484c9-32" who="Q52920">
+            <seg>
               Jag tycker naturligtvis att det är värre när företrädare står
               här och framställer det som att man har en uppfattning och sedan
               röstar på precis konträrt sätt nere i Europaparlamentet.
             </seg>
-            <seg n="4e3c3811">
+          </u>
+          <u xml:id="i-188df04bf92484c9-35" prev="i-188df04bf92484c9-32" who="Q52920">
+            <seg>
               Jag har försökt redogöra för att här finns olika synsätt. Det
               finns de som hävdar att man inte ska gå in och ändra i ett system
               som kanske till och med har levererat precis vad som var tänkt,
@@ -408,14 +464,14 @@
               vi ett beslut.
             </seg>
           </u>
-          <note type="speaker" n="3608041f">
+          <note type="speaker">
             Anf. 6 NILS BROWN (M):
           </note>
-          <u who="unknown" xml:id="i-0a258bd270f7e612-3" n="da07e196">
-            <seg n="95de3183">
-              Herr talman! Tack, statsministern, för återrapporteringen!
-            </seg>
-            <seg n="4c9bfda3">
+          <note>
+            Herr talman! Tack, statsministern, för återrapporteringen!
+          </note>
+          <u xml:id="i-188df04bf92484c9-36" next="i-188df04bf92484c9-38" who="Q104215635">
+            <seg>
               Vid samrådet med EU-nämnden inför Europeiska rådet tog statsministern
               upp att koldioxidutsläppen i Europa ökar i stället för att minska.
               Att Sverige är bäst i klassen på miljöarbete ska vi vara stolta
@@ -424,31 +480,37 @@
               alla medlemsstater gör sin hemläxa för att nå klimatmålen, de
               som redan är uppsatta.
             </seg>
-            <seg n="6216027b">
+          </u>
+          <u xml:id="i-188df04bf92484c9-37" prev="i-188df04bf92484c9-36" who="Q104215635">
+            <seg>
               Glädjande är dock att det i slutsatserna på energiområdet finns
               flera skrivningar, som statsministern har varit inne på, för förnybar
               energi och vikten av att fasa ut subventioner på bland annat fossila
               bränslen, något som vi i Sverige redan har gjort.
             </seg>
-            <seg n="333418bd">
+          </u>
+          <u xml:id="i-188df04bf92484c9-38" prev="i-188df04bf92484c9-36" who="Q104215635">
+            <seg>
               Men vi vet alla här inne att fina ord också måste mötas av nationell
               handling. Därmed blir min fråga till statsministern om han bedömer
               att viljan till nationella beslut för att nå klimatmålen har ökat
               den senaste tiden eller om det är många som pekar på någon annan.
             </seg>
           </u>
-          <note type="speaker" n="3df456bd">
+          <note type="speaker">
             Anf. 7 Statsminister FREDRIK REINFELDT (M):
           </note>
-          <u who="Q52920" xml:id="i-0a258bd270f7e612-4" n="f4e0f234">
-            <seg n="4416ceb4">
+          <u xml:id="i-188df04bf92484c9-39" next="i-188df04bf92484c9-44" who="Q52920">
+            <seg>
               Herr talman! Jag vill understryka att jag beskriver en utveckling
               där jag ser en återgång till ökad fossilbränsleanvändning i Europa
               och hänvisar bland annat till Tysklands beslut att avveckla sin
               egen kärnkraft och de prismekanismer som verkar när USA utvinner
               väldigt mycket gas.
             </seg>
-            <seg n="91441cdf">
+          </u>
+          <u xml:id="i-188df04bf92484c9-40" prev="i-188df04bf92484c9-39" who="Q52920">
+            <seg>
               Jag är inte alldeles säker på att det ska översättas direkt till
               att EU avviker från sina egna målformuleringar. I den redovisning
               vi får ser det ut som att vi möjligen kommer att nå fram till
@@ -456,18 +518,24 @@
               av växthusgaser fördelad över hela EU och en ökning till 20 procent
               förnybar energiandel.
             </seg>
-            <seg n="74a51bd6">
+          </u>
+          <u xml:id="i-188df04bf92484c9-41" prev="i-188df04bf92484c9-39" who="Q52920">
+            <seg>
               Men senare tids signaler i recessionens och krisens Europa är
               att de som mer beskriver utmaningarna som att man behöver stöd
               för transportvägarna och infrastrukturen för att forsla fossilbränsle
               har vuxit i volym.
             </seg>
-            <seg n="d5aff8f7">
+          </u>
+          <u xml:id="i-188df04bf92484c9-42" prev="i-188df04bf92484c9-39" who="Q52920">
+            <seg>
               Det kan också ses i frånvaron av möjligheter att flytta fram
               diskussionen om hur ett ramverk ska se ut efter 2020, alltså till
               2030, och om vi ska gå vidare med att ytterligare höja våra målformuleringar.
             </seg>
-            <seg n="88789e6e">
+          </u>
+          <u xml:id="i-188df04bf92484c9-43" prev="i-188df04bf92484c9-39" who="Q52920">
+            <seg>
               Vi är väl medvetna om att Europeiska unionens mål om 20 procents
               reduktion är för lågt i förhållande till vår ambition att nå tvågradersmålet,
               men samtidigt är detta det enda exemplet i världen på en bördefördelad,
@@ -482,7 +550,9 @@
               tvågradersmål och andra typer av utmaningar med mindre än att
               de som i dag pekar på någon annan gör mer.
             </seg>
-            <seg n="4d51822b">
+          </u>
+          <u xml:id="i-188df04bf92484c9-44" prev="i-188df04bf92484c9-39" who="Q52920">
+            <seg>
               De viktigaste är USA och Kina, och därefter kommer alla snabbväxande
               ekonomier: Indien, Brasilien och ett land som vi har äran att
               ha besök från i dag, nämligen Indonesien. Vi måste också göra
@@ -491,11 +561,11 @@
               göra det.
             </seg>
           </u>
-          <note type="speaker" n="95e5e42e">
+          <note type="speaker">
             Anf. 8 NILS BROWN (M):
           </note>
-          <u who="unknown" xml:id="i-0a258bd270f7e612-5" n="da07e196">
-            <seg n="4b6b0a2d">
+          <u xml:id="i-188df04bf92484c9-45" who="Q104215635">
+            <seg>
               Herr talman! Tack, statsministern, för svaret! Du avslutade precis
               där jag tänkte fortsätta. Om Sverige inte kan vara ensam spelare
               och göra sin hemläxa i EU-samarbetet kan EU heller inte lösa den
@@ -507,24 +577,28 @@
               nå tvågradersmålet på sikt.
             </seg>
           </u>
-          <note type="speaker" n="8e3da5b6">
+          <note type="speaker">
             Anf. 9 Statsminister FREDRIK REINFELDT (M):
           </note>
-          <u who="Q52920" xml:id="i-0a258bd270f7e612-6" n="f4e0f234">
-            <seg n="a978e9ff">
+          <u xml:id="i-188df04bf92484c9-46" next="i-188df04bf92484c9-50" who="Q52920">
+            <seg>
               Herr talman! Vår tanke var att det legalt bindande avtal som
               vi har mellan 27 medlemsländer i EU skulle kunna stå modell för
               att binda åtminstone hela den utvecklade världen. Det är för övrigt
               så Kyotoprotokollet byggdes upp, alltså med åtaganden som skulle
               anses bindande.
             </seg>
-            <seg n="316b9f93">
+          </u>
+          <u xml:id="i-188df04bf92484c9-47" prev="i-188df04bf92484c9-46" who="Q52920">
+            <seg>
               Utvecklingen runt om i världen har dock gått i motsatt riktning.
               Vi bör notera att när vi nu förlänger Kyotoavtalet en andra period
               är det flera länder som kliver av. Japan och Kanada lämnar avtalet.
               Det är i hög grad i dag ett avtal bara för Europa.
             </seg>
-            <seg n="3da42e56">
+          </u>
+          <u xml:id="i-188df04bf92484c9-48" prev="i-188df04bf92484c9-46" who="Q52920">
+            <seg>
               Det har framkommit att många länder inte tänker underkasta sig
               ett legalt bindande ramverk. Det kan aldrig få stöd i USA:s kongress,
               har man beskrivit för oss, och man har sagt att det inte kommer
@@ -534,7 +608,9 @@
               men jag tror att det är en mer framkomlig väg. Det är den väg
               vi måste jobba efter.
             </seg>
-            <seg n="63c3349c">
+          </u>
+          <u xml:id="i-188df04bf92484c9-49" prev="i-188df04bf92484c9-46" who="Q52920">
+            <seg>
               Indonesien, vars president jag talade med nu på förmiddagen,
               har ett 26-procents reduktionsmål fram till 2020. Det är bra,
               men då ska man veta att Indonesien har väldigt stora utsläpp.
@@ -542,17 +618,19 @@
               väldigt mycket mer på målformuleringssidan, men jag tror att det
               är på den här vägen vi måste jobba fram det.
             </seg>
-            <seg n="ac907211">
+          </u>
+          <u xml:id="i-188df04bf92484c9-50" prev="i-188df04bf92484c9-46" who="Q52920">
+            <seg>
               Därför tycker jag att det viktiga vi gjorde var framskjutningen
               i texten, för nu ber vi kommissionen och Europeiska rådet att
               förbereda hur vi ska agera inför 2015, och det är ett steg framåt.
             </seg>
           </u>
-          <note type="speaker" n="cc16d39a">
+          <note type="speaker">
             Anf. 10 Andre vice talman ULF HOLM (MP):
           </note>
-          <u who="unknown" xml:id="i-df46cf69f5e6448c-0" n="cf28293b">
-            <seg n="656f0afe">
+          <u xml:id="i-188df04bf92484c9-51" who="unknown">
+            <seg>
               Herr talman! Tack, statsministern, för återrapporten från EU-toppmötet,
               som var ett mycket viktigt möte, dels för att det inte var någon
               panik med åtgärderna eller besluten, dels för att de var långsiktiga.
@@ -560,7 +638,9 @@
               med klimatfrågorna och dessutom med skattefrågorna, som är viktiga
               för att få in skatteinkomster till den gemensamma välfärden.
             </seg>
-            <seg n="6290b5d7">
+          </u>
+          <u xml:id="i-188df04bf92484c9-52" who="unknown">
+            <seg>
               Många av de punkter man diskuterade på toppmötet är inte särskilt
               revolutionerande och kommer inte att innebära särskilt mycket
               i praktiken. Den enda större nyheten är beslutet om att fasa ut
@@ -568,7 +648,9 @@
               Det är ett nytt beslut, men i övrigt rullar man på i gamla hjulspår,
               och besluten ska komma till nästa vår.
             </seg>
-            <seg n="b6e2f0ea">
+          </u>
+          <u xml:id="i-188df04bf92484c9-53" who="unknown">
+            <seg>
               Statsministern började med att berätta hur viktigt det är med
               klimat- och energifrågorna och ber sedan nästan om ursäkt och
               säger att det inte spelar någon roll vad Sverige gör eller att
@@ -579,7 +661,9 @@
               om att nå målet om 100 procent förnybart och om alla de frågor
               som måste få ett positivt beslut nästa vår.
             </seg>
-            <seg n="4a693efe">
+          </u>
+          <u xml:id="i-188df04bf92484c9-54" who="unknown">
+            <seg>
               Statsministern nämnde att han hade haft samtal med några likasinnade
               länder. Vilka är dessa? Kan man se till att få en arbetsgrupp,
               och hur ska man kunna bearbeta de länder som är emot den utveckling
@@ -587,7 +671,9 @@
               komma från förnybara energikällor? Nästa vår ska det tydligen
               fattas ett övergripande beslut.
             </seg>
-            <seg n="1cb83533">
+          </u>
+          <u xml:id="i-188df04bf92484c9-55" who="unknown">
+            <seg>
               Arbetet måste sättas i gång nu. I det arbetet anser jag att statsministern
               ska vara lite visionär och målinriktad och inte säga att allt
               är så svårt, för då kommer man ingenstans som statsminister. Fram
@@ -595,11 +681,11 @@
               också i Europa.
             </seg>
           </u>
-          <note type="speaker" n="deb72424">
+          <note type="speaker">
             Anf. 11 Statsminister FREDRIK REINFELDT (M):
           </note>
-          <u who="Q52920" xml:id="i-0a258bd270f7e612-7" n="f4e0f234">
-            <seg n="e8188978">
+          <u xml:id="i-188df04bf92484c9-56" next="i-188df04bf92484c9-60" who="Q52920">
+            <seg>
               Herr talman! Detta är en beskrivning av hur vi redan har arbetat
               under många år. Det är inte alls så att vi saknar visioner. Det
               finns till exempel fastslaget att 8095 procent av alla utsläpp
@@ -608,14 +694,18 @@
               2050. Jag vet inte hur många av den här kammarens ledamöter som
               tänker vara kvar 2050.
             </seg>
-            <seg n="cb472748">
+          </u>
+          <u xml:id="i-188df04bf92484c9-57" prev="i-188df04bf92484c9-56" who="Q52920">
+            <seg>
               Man säger: Säg något visionärt! Ja, det är faktiskt ingen konst:
               Vi vill inte ha några fossilbränslen alls. Vi vill inte ha några
               utsläpp. Vi vill inte ha någon klimatpåverkan. Det var visionärt.
               Men det är inte detta som är problemet, Ulf Holm. Problemet är
               att få detta att fungera i verkligheten stegen på vägen.
             </seg>
-            <seg n="4a88f05f">
+          </u>
+          <u xml:id="i-188df04bf92484c9-58" prev="i-188df04bf92484c9-56" who="Q52920">
+            <seg>
               Man kan inte säga till ett land som har gått från 1 procents
               förnybar energiandel till 2 ½ procent att det nu är dags att bli
               helt försörjda av förnybar energi och det helst inom ett par år,
@@ -625,14 +715,18 @@
               och sluta bry sig, för det blir uppenbart att de som talar inte
               förstår vad de pratar om.
             </seg>
-            <seg n="489e1b52">
+          </u>
+          <u xml:id="i-188df04bf92484c9-59" prev="i-188df04bf92484c9-56" who="Q52920">
+            <seg>
               Sverige är kraftigt pådrivande, men man säger att det är lätt
               för Sverige. Vi har snart 50 procent förnybar energi. Visst, säger
               de, men har ni sett hur ert land ser ut med all skog, alla vattendrag
               och alla goda vindförhållanden, så att man kraftigt kan bygga
               ut vindkraften? Alla länder ser inte likadana ut.
             </seg>
-            <seg n="f4debd88">
+          </u>
+          <u xml:id="i-188df04bf92484c9-60" prev="i-188df04bf92484c9-56" who="Q52920">
+            <seg>
               Jag ska gärna välkomna det fullkomliga stöd jag hoppas få från
               riksdagen när vi gör ungefär det vi nu gör. Låt oss då bygga kablar
               och integrera andra länder! Låt oss använda det faktum att vi
@@ -644,11 +738,11 @@
               att se.
             </seg>
           </u>
-          <note type="speaker" n="15dc399b">
+          <note type="speaker">
             Anf. 12 Andre vice talman ULF HOLM (MP):
           </note>
-          <u who="unknown" xml:id="i-df46cf69f5e6448c-1" n="cf28293b">
-            <seg n="c807fad9">
+          <u xml:id="i-188df04bf92484c9-61" who="unknown">
+            <seg>
               Herr talman! Tack, statsministern! Nu fick statsministern upp
               ångan riktigt, och det tycker jag är bra. Det här är viktiga frågor,
               och jag förstår mycket väl den utmaning som finns i många av EU:s
@@ -658,14 +752,18 @@
               än fördubblat andelen förnybar energi i de länderna, och man kan
               göra mer.
             </seg>
-            <seg n="b5464433">
+          </u>
+          <u xml:id="i-188df04bf92484c9-62" who="unknown">
+            <seg>
               Visst finns det olika förutsättningar mellan länderna. Sydeuropa
               har mycket solenergi. Spanien jobbar mycket med solpanelsfrågorna
               och solenergifrågorna. Där måste man få hjälp. Vi måste tillsammans
               jobba för att nå målet om 100 procent förnybart. Det arbetet måste
               till.
             </seg>
-            <seg n="d510d37f">
+          </u>
+          <u xml:id="i-188df04bf92484c9-63" who="unknown">
+            <seg>
               Jag skulle gärna sträcka ut en hand och säga att Miljöpartiet
               gärna hjälper statsministern i detta arbete, men frågan är: Tycker
               verkligen Moderaterna att miljöpolitiken är viktig, med tanke
@@ -674,11 +772,11 @@
               att Miljöpartiet röstar på samma sätt både i riksdagen och i EU-parlamentet.
             </seg>
           </u>
-          <note type="speaker" n="5e467ac9">
+          <note type="speaker">
             Anf. 13 Statsminister FREDRIK REINFELDT (M):
           </note>
-          <u who="Q52920" xml:id="i-11a869d429497667-0" n="f4e0f234">
-            <seg n="38ed4ad6">
+          <u xml:id="i-188df04bf92484c9-64" next="i-188df04bf92484c9-71" who="Q52920">
+            <seg>
               Herr talman! Frågan är vad som så att säga är huvudmålet. Är
               det att vi ska vara konstruktiva och åstadkomma något för klimatet,
               eller ska vi partipolitisera och misstänkliggöra varandra? Det
@@ -686,14 +784,18 @@
               Man upplever oss som tillhörande en krets av länder som är mycket
               pådrivande.
             </seg>
-            <seg n="67417ff6">
+          </u>
+          <u xml:id="i-188df04bf92484c9-65" prev="i-188df04bf92484c9-64" who="Q52920">
+            <seg>
               Jag har redovisat inför EU-nämnden om det som sker när vi bland
               annat ställer oss frågan: Kan vi växla upp ytterligare på medellång
               sikt? Det handlar om när jag upplever att det skulle spela roll,
               alltså 2030, då man måste börja ta ansvar för vilka beslut man
               också fattar.
             </seg>
-            <seg n="26561b3a">
+          </u>
+          <u xml:id="i-188df04bf92484c9-66" prev="i-188df04bf92484c9-64" who="Q52920">
+            <seg>
               Men då är det en växande grupp av länder som säger: Då vill vi
               att det ska vara frivilligt, och då vill vi inte ta på oss ytterligare
               åtaganden. Man återkommer till att energifrågan är något annat
@@ -701,12 +803,16 @@
               för fossila bränslen som man gärna tycker att någon annan ska
               betala.
             </seg>
-            <seg n="8db7a0be">
+          </u>
+          <u xml:id="i-188df04bf92484c9-67" prev="i-188df04bf92484c9-64" who="Q52920">
+            <seg>
               De är också folkvalda. De är också folkligt förankrade. De åker
               också tillbaka till sina parlament och förankrar hur diskussionerna
               har gått. Sedan möts en klubb av demokratier.
             </seg>
-            <seg n="35cff004">
+          </u>
+          <u xml:id="i-188df04bf92484c9-68" prev="i-188df04bf92484c9-64" who="Q52920">
+            <seg>
               Det är mycket tydligt var Sverige står. I den delen har jag många
               gånger sagt att vi bara fortsätter en svensk resa som inleddes
               av regeringar före min. Men vi har bidragit med att ytterligare
@@ -714,7 +820,9 @@
               som de såg ut. Vi har i de flesta fall dessutom växlat upp dem
               jämfört med hur de såg ut före 2006.
             </seg>
-            <seg n="94021347">
+          </u>
+          <u xml:id="i-188df04bf92484c9-69" prev="i-188df04bf92484c9-64" who="Q52920">
+            <seg>
               Det är inte där problemet sitter. Problemet sitter mycket mer
               i det jag försökte beskriva. Jag skulle vilja säga att just nu
               är problemet det faktum att fossilbränsleanvändning nu återkommer
@@ -722,66 +830,84 @@
               i flera hänseenden har flyttat fram positionerna, för det vill
               jag ändå säga att vi har gjort.
             </seg>
-            <seg n="678bd709">
+          </u>
+          <u xml:id="i-188df04bf92484c9-70" prev="i-188df04bf92484c9-64" who="Q52920">
+            <seg>
               Jag har sett en framflyttning av förnybart, av styrmedel och
               av reduktioner i Europa som jag snarare saknar i andra delar av
               världen.
             </seg>
-            <seg n="3e3e89eb">
+          </u>
+          <u xml:id="i-188df04bf92484c9-71" prev="i-188df04bf92484c9-64" who="Q52920">
+            <seg>
               Vi ska vara oroade just för den här närtida utvecklingen, för
               den är i fel riktning. Det tycker vi, tror jag, oavsett partifärg
               i denna riksdag.
             </seg>
           </u>
-          <note n="82e79818" type="speaker">
+          <note type="speaker">
             Anf. 14 GUNNAR ANDRÉN (FP):
           </note>
-          <u who="unknown" xml:id="i-6b330ab282961aed-0" n="f4e0f234">
-            <seg n="cb798576">
+          <u xml:id="i-188df04bf92484c9-72" next="i-188df04bf92484c9-79" who="Q5556677">
+            <seg>
               Herr talman! Även jag vill tacka statsministern för återrapporteringen.
             </seg>
-            <seg n="66291ae4">
+          </u>
+          <u xml:id="i-188df04bf92484c9-73" prev="i-188df04bf92484c9-72" who="Q5556677">
+            <seg>
               Jag vill fråga om och ha synpunkter på den fjärde delen, som
               var uppe, nämligen skattedelen. Jag tror för min del att det är
               viktigt att Europeiska unionen arbetar med detta, så att Europeiska
               unionens alla länder inte kan vara ett skatteparadis.
             </seg>
-            <seg n="92e5e361">
+          </u>
+          <u xml:id="i-188df04bf92484c9-74" prev="i-188df04bf92484c9-72" who="Q5556677">
+            <seg>
               Jag har förstått att två länder, Österrike och Luxemburg, har
               särkrav i det här avseendet.
             </seg>
-            <seg n="fb61f0f6">
+          </u>
+          <u xml:id="i-188df04bf92484c9-75" prev="i-188df04bf92484c9-72" who="Q5556677">
+            <seg>
               Min första fråga gäller hur statsministern bedömer detta. Vilka
               möjligheter finns det att gå vidare så att alla länder kommer
               att omfattas av detta?
             </seg>
-            <seg n="585c6305">
+          </u>
+          <u xml:id="i-188df04bf92484c9-76" prev="i-188df04bf92484c9-72" who="Q5556677">
+            <seg>
               Jag hörde i och för sig att Schweiz som står utanför är ett särproblem
               i närheten.
             </seg>
-            <seg n="dd16a132">
+          </u>
+          <u xml:id="i-188df04bf92484c9-77" prev="i-188df04bf92484c9-72" who="Q5556677">
+            <seg>
               Men i förra veckan antog riksdagen, just när statsministern var
               borta, tror jag, skatteavtal med Jamaica och Indien samt informationsavtal
               med Panama och Seychellerna. Det är dags att flytta hem pengarna
               från Seychellerna, med andra ord.
             </seg>
-            <seg n="28da392b">
+          </u>
+          <u xml:id="i-188df04bf92484c9-78" prev="i-188df04bf92484c9-72" who="Q5556677">
+            <seg>
               Jag tror att den geografiska spridningen på det här, som vi ser,
               visar vikten av att vi arbetar intensivt också med finansiella
               frågor utöver att vi behöver pengarna här hemma så att vi undviker
               att det kan bli skatteparadis långt borta.
             </seg>
-            <seg n="b9bfa8eb">
+          </u>
+          <u xml:id="i-188df04bf92484c9-79" prev="i-188df04bf92484c9-72" who="Q5556677">
+            <seg>
               Jag vill fråga statsministern hur han bedömer att vi kan gå vidare
               med detta, för det tror jag är en viktig fråga när det gäller
               att ha sammanhållning inte bara i Sverige utan också i hela Europa.
             </seg>
           </u>
-          <note type="speaker" n="ee200e65">
+          <note type="speaker">
             Anf. 15 Statsminister FREDRIK REINFELDT (M):
           </note>
-          <u who="Q52920" xml:id="i-11a869d429497667-1" n="f4e0f234">
-            <seg n="ba40e407">
+          <u xml:id="i-188df04bf92484c9-80" next="i-188df04bf92484c9-88" who="Q52920">
+            <seg>
               Herr talman! Utgångspunkten är att kapital är flyktigt. Det går
               att flytta över gränserna. Det är rent nödvändigt att det går
               att göra det. Annars skulle våra stora svenska industriföretag
@@ -791,24 +917,32 @@
               se hela den svenska industribasen och grunden för vår välfärdsfinansiering
               erodera. Det är alltså inte svaret.
             </seg>
-            <seg n="00fd0acc">
+          </u>
+          <u xml:id="i-188df04bf92484c9-81" prev="i-188df04bf92484c9-80" who="Q52920">
+            <seg>
               Vi har att leva med detta rörliga och flyktiga kapital. Då är
               det egentligen två saker vi diskuterar.
             </seg>
-            <seg n="3b7062f1">
+          </u>
+          <u xml:id="i-188df04bf92484c9-82" prev="i-188df04bf92484c9-80" who="Q52920">
+            <seg>
               Vi diskuterar de individer och företag som helst inte vill betala
               någon skatt alls. För detta har det funnits skatteparadis och
               öar dit man kunnat föra över pengar. Avsikten är att helt undgå
               beskattning.
             </seg>
-            <seg n="3083d2c8">
+          </u>
+          <u xml:id="i-188df04bf92484c9-83" prev="i-188df04bf92484c9-80" who="Q52920">
+            <seg>
               Här har tagits viktiga steg, närmast historiska, skulle jag vilja
               säga, för att bryta upp denna möjlighet att faktiskt undandra
               stort kapital från beskattning. Det bygger väldigt mycket på att
               automatisera, byta information och få länder att införa krav på
               olika former av beskattning.
             </seg>
-            <seg n="847f13c1">
+          </u>
+          <u xml:id="i-188df04bf92484c9-84" prev="i-188df04bf92484c9-80" who="Q52920">
+            <seg>
               Eftersom det är en global fråga kapital är flyktigt är det viktigt
               att ordförandeskapet i G8, alltså Storbritannien, också betonar
               detta i den globala familjen. Det kan inte bara bli Europa som
@@ -816,7 +950,9 @@
               i andra delar av världen. Och i förlängningen av det vi har diskuterat
               för vi nu diskussionerna på det sättet.
             </seg>
-            <seg n="8c3257fd">
+          </u>
+          <u xml:id="i-188df04bf92484c9-85" prev="i-188df04bf92484c9-80" who="Q52920">
+            <seg>
               Schweiz spelar roll, för det är ett av de länder i Europa som
               har den största finansiella industrin. Storbritannien, Schweiz
               och Sverige är ju tungviktarna när det gäller finansindustri i
@@ -825,7 +961,9 @@
               bli kvar som en ö med andra regler än vad som gäller för övriga
               Europa.
             </seg>
-            <seg n="35f59aae">
+          </u>
+          <u xml:id="i-188df04bf92484c9-86" prev="i-188df04bf92484c9-80" who="Q52920">
+            <seg>
               Det är väl känt att väldigt mycket av kapital, från både företag
               och individer, finns just i Schweiz. Alltså spelar det väldigt
               stor roll att också Schweiz blir en del av detta. Det är egentligen
@@ -834,11 +972,15 @@
               man måste säkerställa att det gäller att inte länder får bli kvar
               med helt andra villkor.
             </seg>
-            <seg n="407dd8ec">
+          </u>
+          <u xml:id="i-188df04bf92484c9-87" prev="i-188df04bf92484c9-80" who="Q52920">
+            <seg>
               Och det är ju vår avsikt att gå i den riktningen när det gäller
               Schweiz.
             </seg>
-            <seg n="acd99529">
+          </u>
+          <u xml:id="i-188df04bf92484c9-88" prev="i-188df04bf92484c9-80" who="Q52920">
+            <seg>
               Sedan finns det en annan aspekt av detta. Det handlar om dem
               som trots allt vill betala skatt. Då handlar det om att konkurrera
               om det kapitalet, och då har vi olika baser och olika skattesatser
@@ -847,11 +989,11 @@
               här första, framför allt, som vi har lärt oss att agera gentemot.
             </seg>
           </u>
-          <note n="5400e0b3" type="speaker">
+          <note type="speaker">
             Anf. 16 GUNNAR ANDRÉN (FP):
           </note>
-          <u who="unknown" xml:id="i-6b330ab282961aed-1" n="f4e0f234">
-            <seg n="a041a982">
+          <u xml:id="i-188df04bf92484c9-89" next="i-188df04bf92484c9-91" who="Q5556677">
+            <seg>
               Herr talman! Tack så mycket, statsministern! Detta med Schweiz
               är helt riktigt. Men även Luxemburg har samma karaktär med 22
               gånger större banksektor än hela bruttonationalprodukten. Det
@@ -860,30 +1002,36 @@
               beroende på att man har attraherat kapital som det egentligen
               inte har funnits någon verksamhet för.
             </seg>
-            <seg n="f10d4c5a">
+          </u>
+          <u xml:id="i-188df04bf92484c9-90" prev="i-188df04bf92484c9-89" who="Q5556677">
+            <seg>
               Jag tror för min del att det är viktigt att EU går före, om det
               går att använda det uttrycket, och ser till att det inte blir
               sådana här öar där man kan placera kapital, där de inte är ordentligt
               verksamma i tjänste- och varuproduktion.
             </seg>
-            <seg n="7a50a055">
+          </u>
+          <u xml:id="i-188df04bf92484c9-91" prev="i-188df04bf92484c9-89" who="Q5556677">
+            <seg>
               Jag skulle vilja ställa en fråga till statsministern med anledning
               av det som han säger om Schweiz. Jag inser också att detta är
               nyckelfrågan i Europa just nu. Vad finns det för möjligheter för
               Europeiska unionen att gemensamt agera i frågan om Schweiz?
             </seg>
           </u>
-          <note type="speaker" n="b7f4909c">
+          <note type="speaker">
             Anf. 17 Statsminister FREDRIK REINFELDT (M):
           </note>
-          <u who="Q52920" xml:id="i-0a258bd270f7e612-8" n="f4e0f234">
-            <seg n="83c3f294">
+          <u xml:id="i-188df04bf92484c9-92" next="i-188df04bf92484c9-98" who="Q52920">
+            <seg>
               Herr talman! Som är känt står Schweiz utanför EU, men det är
               ett land som i delar det har vi också sett när det gäller Norge
               och en del andra länder ändå väljer att följa väldigt mycket av
               regelverk som växer fram inom Europeiska unionen.
             </seg>
-            <seg n="b77bd3ec">
+          </u>
+          <u xml:id="i-188df04bf92484c9-93" prev="i-188df04bf92484c9-92" who="Q52920">
+            <seg>
               Schweiz betydelse är av den arten att detta också är helt centralt
               för G8 och den globala ansträngningen när det gäller hur vi ska
               nå fram kring detta. Det måste helt enkelt ske i dialog och samtal
@@ -891,25 +1039,33 @@
               återigen påpeka, gått i precis den riktningen, att det öppnar
               upp och att man också är med i automatisering kring informationsutlämning.
             </seg>
-            <seg n="c6b54403">
+          </u>
+          <u xml:id="i-188df04bf92484c9-94" prev="i-188df04bf92484c9-92" who="Q52920">
+            <seg>
               Jag delar helt uppfattningen att det inte bara är isolerat till
               Schweiz. Gunnar Andrén nämner två närtida exempel som vi också
               har att förhålla oss till, Luxemburg och Cypern.
             </seg>
-            <seg n="66f45a18">
+          </u>
+          <u xml:id="i-188df04bf92484c9-95" prev="i-188df04bf92484c9-92" who="Q52920">
+            <seg>
               Det är ett av skälen till att Europa nu diskuterar en gemensam
               banktillsyn, just för att säkerställa att vi blir bättre på att
               detektera problem som är relaterade till finansiell sektor och
               att vi hittar metoder för att gemensamt kunna agera.
             </seg>
-            <seg n="8487e6fa">
+          </u>
+          <u xml:id="i-188df04bf92484c9-96" prev="i-188df04bf92484c9-92" who="Q52920">
+            <seg>
               Vi kan titta i vår egen närhet, på det isländska exemplet. Det
               var också en ekonomi där bankomslutningen var flera gånger större
               än landets samlade bnp. Får man då problem i sin banksektor välter
               det hela staten. Det är klart att för detta måste vi ha metoder
               att skydda oss.
             </seg>
-            <seg n="3ddcfe76">
+          </u>
+          <u xml:id="i-188df04bf92484c9-97" prev="i-188df04bf92484c9-92" who="Q52920">
+            <seg>
               Det handlar om motståndskraft och vägar att hantera bankfallissemang,
               som alltså inte bara vi kan ställa krav på här i Sverige. Det
               spelar också roll för oss att andra länder har det antingen nationellt
@@ -917,34 +1073,40 @@
               Det är ju kärnan i vad bankunionen nu syftar till att komma fram
               till.
             </seg>
-            <seg n="74e44932">
+          </u>
+          <u xml:id="i-188df04bf92484c9-98" prev="i-188df04bf92484c9-92" who="Q52920">
+            <seg>
               Det är fler steg kvar att ta, men det är just för att möta det
               inbyggda problem som följer av att vissa länder har mycket stor
               exponering till finansiella marknader.
             </seg>
           </u>
-          <note type="speaker" n="b370d36d">
+          <note type="speaker">
             Anf. 18 FREDRICK FEDERLEY (C):
           </note>
-          <u who="Q513301" xml:id="i-826011620faa8bf3-0" n="5237e960">
-            <seg n="114f1273">
-              Herr talman! Tack, statsministern, för återrapporten!
-            </seg>
-            <seg n="b5075452">
+          <note>
+            Herr talman! Tack, statsministern, för återrapporten!
+          </note>
+          <u xml:id="i-188df04bf92484c9-99" next="i-188df04bf92484c9-105" who="Q513301">
+            <seg>
               Centerpartiet har, som bekant, i många årtionden varit väldigt
               engagerat i miljö- och energifrågorna. Centerpartiet har nu också
               miljöministerposten och har traditionellt haft den posten i borgerliga
               regeringar samt har ett djuplodande engagemang som går långt ut
               bland gräsrötterna i frågorna.
             </seg>
-            <seg n="5f24986d">
+          </u>
+          <u xml:id="i-188df04bf92484c9-100" prev="i-188df04bf92484c9-99" who="Q513301">
+            <seg>
               Därför är vi särskilt glada att de skrivningar som ligger kvar
               betonar hållbarheten i energifrågorna. Samtidigt finns en annan
               parameter i ungefär samma skrivningar som handlar om priset på
               den energi som produceras, för den enskilde konsumenten och i
               allra högsta grad också för industrin.
             </seg>
-            <seg n="2dc35fa9">
+          </u>
+          <u xml:id="i-188df04bf92484c9-101" prev="i-188df04bf92484c9-99" who="Q513301">
+            <seg>
               Jag ställde frågan inför detta möte om huruvida det skulle uppkomma
               en diskussion om de tullar man nu diskuterar att införa på solpaneler,
               från i detta fall Kina, som är billigare än de europeiskt producerade,
@@ -953,10 +1115,14 @@
               konsumenter kommer att ha råd att skapa sig en grön, egen elproduktion
               hemma på sitt eget tak.
             </seg>
-            <seg n="4753ce73">
+          </u>
+          <u xml:id="i-188df04bf92484c9-102" prev="i-188df04bf92484c9-99" who="Q513301">
+            <seg>
               Min första fråga är alltså om det uppstod någon sådan diskussion.
             </seg>
-            <seg n="f15cf68f">
+          </u>
+          <u xml:id="i-188df04bf92484c9-103" prev="i-188df04bf92484c9-99" who="Q513301">
+            <seg>
               Centerpartiet har också varit väldigt drivande i hela diskussionen
               om införandet av koldioxidskatter, vilket vi kan se har varit
               ett bra medel för att minska de svenska utsläppsnivåerna. I de
@@ -964,14 +1130,18 @@
               ingen i närheten av att ta ut så pass höga skatter som vi gör
               i Sverige.
             </seg>
-            <seg n="8b0c7b6f">
+          </u>
+          <u xml:id="i-188df04bf92484c9-104" prev="i-188df04bf92484c9-99" who="Q513301">
+            <seg>
               Vi tror för vår del att en kombination av handel med utsläppsrätter
               och tydliga koldioxidskatter som driver produktionen bort från
               sådant som tillför växthusgaser till sådant som är betydligt renare
               är en välkommen väg. Vi vill inte se att Europeiska unionen inför
               gemensamma koldioxidskatter.
             </seg>
-            <seg n="36a65f48">
+          </u>
+          <u xml:id="i-188df04bf92484c9-105" prev="i-188df04bf92484c9-99" who="Q513301">
+            <seg>
               Däremot finns det all anledning att i ett gemensamt forum som
               rådet diskutera hur man kan göra för att uppnå någon typ av konkurrensneutralitet
               i detta. Där är vår ingång att de andra länderna bör införa sådana
@@ -979,17 +1149,19 @@
               inte ska straffas ut på grund av att vi är bättre och miljövänligare.
             </seg>
           </u>
-          <note type="speaker" n="a85b3add">
+          <note type="speaker">
             Anf. 19 Statsminister FREDRIK REINFELDT (M):
           </note>
-          <u who="Q52920" xml:id="i-0a258bd270f7e612-9" n="f4e0f234">
-            <seg n="e2e2d825">
+          <u xml:id="i-188df04bf92484c9-106" next="i-188df04bf92484c9-112" who="Q52920">
+            <seg>
               Herr talman! Det är väl känt att industriell ekonomi väldigt
               ofta handlar om skalekonomi, alltså helt enkelt om att få fram
               produktion med så pass stor volym att det i sig blir prissänkande.
               Det har vi sett på väldigt många områden.
             </seg>
-            <seg n="dce7b82d">
+          </u>
+          <u xml:id="i-188df04bf92484c9-107" prev="i-188df04bf92484c9-106" who="Q52920">
+            <seg>
               Det som har skett här är att Kina, som, ska man minnas, fortfarande
               har en energibalans där strax under 70 procent av deras energianvändning
               är kolbaserad och därmed bidrar med gigantiska utsläpp till klimatpåverkan,
@@ -999,14 +1171,18 @@
               skalfördelar som den typen av produktion ger, och detta söker
               man sig nu in på europeiska marknader för att kunna exportera.
             </seg>
-            <seg n="7654cb26">
+          </u>
+          <u xml:id="i-188df04bf92484c9-108" prev="i-188df04bf92484c9-106" who="Q52920">
+            <seg>
               Det som då händer är att den lokala produktionen av solpaneler
               runt om i Europa helt plötsligt märker att det är svårt att priskonkurrera.
               Då blir det som alltid en diskussion om vi nu ska införa tullar
               för att, som det heter, skydda vår egen produktion, eller om vi
               på något annat sätt och i öppen konkurrens ska försöka lösa detta.
             </seg>
-            <seg n="3925e3b8">
+          </u>
+          <u xml:id="i-188df04bf92484c9-109" prev="i-188df04bf92484c9-106" who="Q52920">
+            <seg>
               Föga förvånande delas Europa i synen på detta. Vi har något större
               medlemsland som här liksom så ofta förut företräder en protektionistisk
               linje, medan vi tillhör den del av familjen som menar att frihandel
@@ -1016,7 +1192,9 @@
               till solenergi och använder det inhemskt för att trycka tillbaka
               sin kolanvändning.
             </seg>
-            <seg n="3ec39e56">
+          </u>
+          <u xml:id="i-188df04bf92484c9-110" prev="i-188df04bf92484c9-106" who="Q52920">
+            <seg>
               Vi hade ingen längre diskussion om detta på Europiska rådet,
               men i förarbetena inför detta är det mycket tydligt att vi här
               har en åsiktsskillnad som tenderar att återkomma, för nu ska vi
@@ -1026,7 +1204,9 @@
               upp även där. Sanningen är alltså att här finns en oenighet som
               vi inte har löst ut.
             </seg>
-            <seg n="eedac5ed">
+          </u>
+          <u xml:id="i-188df04bf92484c9-111" prev="i-188df04bf92484c9-106" who="Q52920">
+            <seg>
               När det gäller detta med CO2-skatt vill jag återkomma just till
               betydelsen av att jobba med prismekanismer som också återspeglar
               klimatpåverkan. Forskarna säger att det är det mest effektiva.
@@ -1037,7 +1217,9 @@
               till det som är mest populärt, och i värsta fall skattesubventionerar
               man till och med fossilbränsleanvändning.
             </seg>
-            <seg n="0d928f82">
+          </u>
+          <u xml:id="i-188df04bf92484c9-112" prev="i-188df04bf92484c9-106" who="Q52920">
+            <seg>
               Allt det där har vi i Europa. Men vi försöker med våra exempel
               att tala för CO2-skatter och olika styrmedel, och det har också
               under den tid jag har suttit som regeringschef varit fler länder
@@ -1047,11 +1229,11 @@
               rätt riktning, men mycket mer skulle behöva göras.
             </seg>
           </u>
-          <note type="speaker" n="bbb4f06a">
+          <note type="speaker">
             Anf. 20 FREDRICK FEDERLEY (C):
           </note>
-          <u who="Q513301" xml:id="i-826011620faa8bf3-1" n="5237e960">
-            <seg n="aa653347">
+          <u xml:id="i-188df04bf92484c9-113" next="i-188df04bf92484c9-115" who="Q513301">
+            <seg>
               Herr talman! Tack, statsministern, för ett tydligt svar vad gäller
               diskussionen om det som kan verka som en liten fråga om solpaneler
               men som egentligen är mycket större, vilket även statsministern
@@ -1060,7 +1242,9 @@
               kan man välja att se fördelarna också för inhemsk elproduktion
               och en omställning till ett grönare samhälle.
             </seg>
-            <seg n="57c67c9d">
+          </u>
+          <u xml:id="i-188df04bf92484c9-114" prev="i-188df04bf92484c9-113" who="Q513301">
+            <seg>
               Diskussionen kring skatter tenderar kanske att vara lite annorlunda
               i de nordiska länderna än i övriga Europa. Jag tror att vi i Sverige
               generellt, egentligen oavsett parti, har en lite större samsyn
@@ -1068,7 +1252,9 @@
               att uträtta som ett styrmedel, till exempel bort från fossila
               bränslen.
             </seg>
-            <seg n="3f202f5a">
+          </u>
+          <u xml:id="i-188df04bf92484c9-115" prev="i-188df04bf92484c9-113" who="Q513301">
+            <seg>
               Skulle det kunna vara en öppning i en diskussion att påtala det
               faktum att vi har klarat god ekonomi i jämförelse med andra länder
               och en betydligt bättre arbetslöshetsstatistik, även om det finns
@@ -1077,34 +1263,42 @@
               vi har högre CO2-skatter?
             </seg>
           </u>
-          <note type="speaker" n="84705e36">
+          <note type="speaker">
             Anf. 21 Statsminister FREDRIK REINFELDT (M):
           </note>
-          <u who="Q52920" xml:id="i-0a258bd270f7e612-10" n="f4e0f234">
-            <seg n="17f3d7c9">
+          <u xml:id="i-188df04bf92484c9-116" next="i-188df04bf92484c9-124" who="Q52920">
+            <seg>
               Herr talman! Det ärliga svaret är att jag upplever att det fanns
               mer av en politisk jordmån för detta några år tillbaka i tiden.
             </seg>
-            <seg n="0fc0ada7">
+          </u>
+          <u xml:id="i-188df04bf92484c9-117" prev="i-188df04bf92484c9-116" who="Q52920">
+            <seg>
               Det är egentligen inte så konstigt. Europa var väldigt pådrivande
               inför och på plats i Köpenhamn, eftersom vi har en klimatutmaning
               som vi måste ta på större allvar. Alla måste vara redo att ta
               sin del av både ledarskap och åtaganden och kan också sägas ha
               gjort det via de legalt bindande reduktionsmålen.
             </seg>
-            <seg n="f5c7f9a0">
+          </u>
+          <u xml:id="i-188df04bf92484c9-118" prev="i-188df04bf92484c9-116" who="Q52920">
+            <seg>
               Sedan kom finanskris och lågkonjunktur, och i stora delar av
               Europa är egentligen den enda efterfrågan som politiker stöter
               på: Se till att energipriserna är låga, för vi har inte råd!
             </seg>
-            <seg n="c55281c4">
+          </u>
+          <u xml:id="i-188df04bf92484c9-119" prev="i-188df04bf92484c9-116" who="Q52920">
+            <seg>
               Det är tyvärr väldigt ofta där det börjar. Jag ska kunna värma
               mitt hem, jag ska kunna använda energi, och blir räkningen för
               hög till följd av fattigdom och små ekonomiska marginaler upplever
               jag att jag inte klarar mig. Den reaktionen och det synsättet
               har vridit mycket av den här debatten.
             </seg>
-            <seg n="3e7f2a07">
+          </u>
+          <u xml:id="i-188df04bf92484c9-120" prev="i-188df04bf92484c9-116" who="Q52920">
+            <seg>
               Det syns också i slutsatstexten här att en utgångspunkt för att
               alla 27, snart 28, länderna ska kunna prata om det är att man
               säger att energifrågan måste kopplas till hur tillväxt och jobb
@@ -1112,7 +1306,9 @@
               i dag inte hur vi med prismekanismer får uthållighet i vår ekonomi,
               alltså tillväxt, och samtidigt minskad klimatpåverkan.
             </seg>
-            <seg n="6b25ed56">
+          </u>
+          <u xml:id="i-188df04bf92484c9-121" prev="i-188df04bf92484c9-116" who="Q52920">
+            <seg>
               Vi kommer att behöva återkomma till detta. Sverige vi är naturligtvis
               inte det enda landet är ett exempel på just detta: Vår ekonomi
               växer kraftigt, och samtidigt minskar vår utsläppspåverkan. Hur
@@ -1120,7 +1316,9 @@
               de olika former av styrmedel som forskare och andra påvisar att
               man ska använda och på högre nivåer än vad andra gör.
             </seg>
-            <seg n="65b382de">
+          </u>
+          <u xml:id="i-188df04bf92484c9-122" prev="i-188df04bf92484c9-116" who="Q52920">
+            <seg>
               Jag kommer därför absolut att ta mitt ansvar och säga detta.
               Vi har nu senast trott att vi skulle få en CO2-skatt i Frankrike,
               och jag tror att även Italien signalerade det. Men det kom inte
@@ -1128,12 +1326,16 @@
               av olika skäl, och detta är ändå länder som letar efter tillkommande
               finansieringsmöjligheter.
             </seg>
-            <seg n="7b0a3280">
+          </u>
+          <u xml:id="i-188df04bf92484c9-123" prev="i-188df04bf92484c9-116" who="Q52920">
+            <seg>
               Till sist: Det finns också en bakomliggande rörelse som säger
               att ja, vi bejakar allt det här om det blir EU-baserat, om det
               blir EU-styrda skatter som finansierar EU-systemet.
             </seg>
-            <seg n="a508f05e">
+          </u>
+          <u xml:id="i-188df04bf92484c9-124" prev="i-188df04bf92484c9-116" who="Q52920">
+            <seg>
               Problemet är ju, vilket också Fredrick Federley påpekade, att
               det inte är vår svenska position. Vi har inte det synsättet att
               vi vill ha ett överstatligt skatteuttag. Det försvårar ibland
@@ -1143,14 +1345,14 @@
               rak.
             </seg>
           </u>
-          <note type="speaker" n="7cbeb42e">
+          <note type="speaker">
             Anf. 22 JENS HOLM (V):
           </note>
-          <u who="Q946708" xml:id="i-e52ae081a8c80642-0" n="ea19daa1">
-            <seg n="fbda140a">
-              Herr talman! Tack för redogörelsen, Fredrik Reinfeldt!
-            </seg>
-            <seg n="c0937312">
+          <note>
+            Herr talman! Tack för redogörelsen, Fredrik Reinfeldt!
+          </note>
+          <u xml:id="i-188df04bf92484c9-125" next="i-188df04bf92484c9-129" who="Q946708">
+            <seg>
               Jag tror att en förutsättning för egentligen all utveckling är
               att man hela tiden vill prestera bättre. Jag tycker inte riktigt
               att den insikten finns hos den svenska regeringen när det gäller
@@ -1159,7 +1361,9 @@
               uttryckt i klimatmålet att vi ska minska våra utsläpp med 40 procent
               till 2020.
             </seg>
-            <seg n="3b550f0b">
+          </u>
+          <u xml:id="i-188df04bf92484c9-126" prev="i-188df04bf92484c9-125" who="Q946708">
+            <seg>
               Då ska man komma ihåg att en tredjedel av den utsläppsminskningen
               gör regeringen genom att köpa billiga utsläppskrediter i andra
               länder. Det här är ett förfarande som har kritiserats av miljörörelsen
@@ -1167,7 +1371,9 @@
               vilken klimatnytta man egentligen får genom uppköpen av dessa
               billiga utsläppsrätter.
             </seg>
-            <seg n="c22e8b3e">
+          </u>
+          <u xml:id="i-188df04bf92484c9-127" prev="i-188df04bf92484c9-125" who="Q946708">
+            <seg>
               Just nu förhandlar man inom EU om nya mål till 2050, att man
               ska minska utsläppen med 8095 procent. EU-kommissionen har lagt
               fram ett förslag om att allt det här ska göras inom EU:s gränser.
@@ -1177,7 +1383,9 @@
               hur stora uppköp man kan göra av billiga utsläppsrätter för att
               tillgodoräkna sig sitt nationella klimatmål.
             </seg>
-            <seg n="709fd482">
+          </u>
+          <u xml:id="i-188df04bf92484c9-128" prev="i-188df04bf92484c9-125" who="Q946708">
+            <seg>
               Min andra fråga rör utsläppshandelssystemet. Vi vet att det i
               praktiken inte fungerar. Det är i dag billigare att släppa ut
               ett ton koldioxid än att köpa en kaffe på stan. Inför toppmötet
@@ -1185,18 +1393,20 @@
               om vikten av att reformera utsläppshandelssystemet. Gjorde statsministern
               det?
             </seg>
-            <seg n="d0b17485">
+          </u>
+          <u xml:id="i-188df04bf92484c9-129" prev="i-188df04bf92484c9-125" who="Q946708">
+            <seg>
               Jag frågade också om statsministern var beredd att ta upp den
               här frågan med sina moderata kolleger i EU-parlamentet som sänkte
               ett progressivt förslag från EU-kommissionen i april. Har statsministern
               tagit upp den frågan med moderaterna i EU-parlamentet?
             </seg>
           </u>
-          <note type="speaker" n="48887701">
+          <note type="speaker">
             Anf. 23 Statsminister FREDRIK REINFELDT (M):
           </note>
-          <u who="Q52920" xml:id="i-0a258bd270f7e612-11" n="f4e0f234">
-            <seg n="bf154872">
+          <u xml:id="i-188df04bf92484c9-130" next="i-188df04bf92484c9-137" who="Q52920">
+            <seg>
               Herr talman! När det gäller den svenska klimatpolitiken har som
               sagt riksdagen fastställt att vi har ett reduktionsmål om 40 procent
               fram till 2020. Det är korrekt att en tredjedel av detta förutsätts
@@ -1205,7 +1415,9 @@
               inte vill något annat än att få resurser för att kunna göra klimatomställningar
               i sina respektive länder.
             </seg>
-            <seg n="40a332b7">
+          </u>
+          <u xml:id="i-188df04bf92484c9-131" prev="i-188df04bf92484c9-130" who="Q52920">
+            <seg>
               Det är bara att ställa frågan till världens väljare: Tror ni
               att det finns resurser till allt? Eller fråga svenska väljare:
               Är det så att allt ska gå till på marginalen allt dyrare insatser
@@ -1217,14 +1429,18 @@
               i Sverige, det är aldrig till stöd för det som kostar 5 öre i
               en fattig del av världen.
             </seg>
-            <seg n="848756ac">
+          </u>
+          <u xml:id="i-188df04bf92484c9-132" prev="i-188df04bf92484c9-130" who="Q52920">
+            <seg>
               Jag skulle inte bara vilja säga att jag stöder att den här typen
               av funktioner ska finnas, jag skulle vilja hävda att världen inte
               kommer att klara klimatutmaningen därför att det inte kommer att
               fungera resurseffektivt med mindre än att rikare delar av världen
               finns till stöd för klimatomställning i fattigare delar av världen.
             </seg>
-            <seg n="cf5d9fb0">
+          </u>
+          <u xml:id="i-188df04bf92484c9-133" prev="i-188df04bf92484c9-130" who="Q52920">
+            <seg>
               Jag vet precis vad deras alternativ är. Det har de berättat för
               mig: Vi har fattigdom, vi har sjukdom, vi har stora problem med
               att människor inte har egna hus och får mat för dagen. Tror ni
@@ -1233,7 +1449,9 @@
               till stöd för detta, annars kommer det inte att gå. Det tycker
               jag ska vara en bärande del av klimatpolitiken.
             </seg>
-            <seg n="16125882">
+          </u>
+          <u xml:id="i-188df04bf92484c9-134" prev="i-188df04bf92484c9-130" who="Q52920">
+            <seg>
               Det vore väldigt intressant om det någon gång redovisades vad
               rödgröna partier menar i sin kritik av att vi har ett 40-procentsmål
               med en tredjedel som går till internationella investeringar. Vad
@@ -1243,7 +1461,9 @@
               kanske ännu högre mål, och att allt ska vara inhemskt. Det går
               att räkna på detta.
             </seg>
-            <seg n="5a8bd651">
+          </u>
+          <u xml:id="i-188df04bf92484c9-135" prev="i-188df04bf92484c9-130" who="Q52920">
+            <seg>
               Ni har inte de här pengarna i er budget. De finns inte. Ska det
               vara någon ordning i politiken får man så att säga stå lite också
               för att man föreslår något som går att räkna på, och sedan får
@@ -1259,7 +1479,9 @@
               att minska klimatpåverkan. Jag tycker att vi ska gå vidare på
               den vägen.
             </seg>
-            <seg n="647c2d08">
+          </u>
+          <u xml:id="i-188df04bf92484c9-136" prev="i-188df04bf92484c9-130" who="Q52920">
+            <seg>
               När det gäller det som har skett i Europaparlamentet har jag
               tidigare svarat på den frågan. Jag vill också understryka att
               det inte var med i återrapporteringen från Europeiska rådet därför
@@ -1268,7 +1490,9 @@
               ställs har egentligen inte heller varit uppe, för det var inte
               i sig ett klimattoppmöte.
             </seg>
-            <seg n="3596edba">
+          </u>
+          <u xml:id="i-188df04bf92484c9-137" prev="i-188df04bf92484c9-130" who="Q52920">
+            <seg>
               Återigen, det är vi som för in klimatresonemang och begär att
               få en tidtabell. De andra anser att det har handlat om energi.
               De vill huvudsakligen diskutera hur vi ska transportera fossila
@@ -1280,25 +1504,29 @@
               flesta.
             </seg>
           </u>
-          <note type="speaker" n="4f1c51b6">
+          <note type="speaker">
             Anf. 24 JENS HOLM (V):
           </note>
-          <u who="Q946708" xml:id="i-e52ae081a8c80642-1" n="ea19daa1">
-            <seg n="9f2dde01">
+          <u xml:id="i-188df04bf92484c9-138" next="i-188df04bf92484c9-140" who="Q946708">
+            <seg>
               Herr talman! Jag tycker att det mycket väl faller inom ramen
               för det här EU-toppmötet att lyfta fram behovet av att reformera
               EU:s utsläppshandelssystem, eftersom man talar om behovet av en
               väl fungerande koldioxidmarknad. Jag tror att det är ett direktcitat.
               Det var också det som statsministern anförde tidigare.
             </seg>
-            <seg n="47cb5069">
+          </u>
+          <u xml:id="i-188df04bf92484c9-139" prev="i-188df04bf92484c9-138" who="Q946708">
+            <seg>
               Låt mig bara säga, Fredrik Reinfeldt, att vi i Vänsterpartiet
               har finansierat ett nytt additionellt klimatbistånd. Utvecklingsländerna
               vill inget hellre än att vi i den rika världen ska ta vårt historiska
               ansvar för våra utsläpp och att vi ska minska våra utsläpp så
               att de inte drabbas av våra utsläpp.
             </seg>
-            <seg n="9564b48f">
+          </u>
+          <u xml:id="i-188df04bf92484c9-140" prev="i-188df04bf92484c9-138" who="Q946708">
+            <seg>
               Därutöver ska vi hjälpa de länder som drabbas av våra utsläpp
               med att ställa om sina samhällen. Det gör vi med ett additionellt
               klimatbistånd, alltså med nya pengar. Jag kan berätta att vi har
@@ -1309,11 +1537,11 @@
               välfärden i Sverige. Det är vår politik.
             </seg>
           </u>
-          <note type="speaker" n="66d77e21">
+          <note type="speaker">
             Anf. 25 Statsminister FREDRIK REINFELDT (M):
           </note>
-          <u who="Q52920" xml:id="i-0a258bd270f7e612-12" n="f4e0f234">
-            <seg n="9ab30073">
+          <u xml:id="i-188df04bf92484c9-141" who="Q52920">
+            <seg>
               Herr talman! Det är alldeles utmärkt, men det är åtta partier
               i den här riksdagen. Ingen har mer än 30 procent. Ingenting av
               det du föreslog finns i Socialdemokraternas budget. Till slut
@@ -1330,11 +1558,11 @@
               höst kanske.
             </seg>
           </u>
-          <note type="speaker" n="f64929d6">
+          <note type="speaker">
             Anf. 26 ROBERT HALEF (KD):
           </note>
-          <u who="Q5783589" xml:id="i-514162895dae3f2e-0" n="1ee62e01">
-            <seg n="e9b91373">
+          <u xml:id="i-188df04bf92484c9-142" next="i-188df04bf92484c9-143" who="Q5783589">
+            <seg>
               Herr talman! Tack, statsministern, för redogörelsen! Under förra
               veckan kom Europeiska rådet fram till en del viktiga slutsatser
               för att stödja konkurrenskraft, sysselsättning och tillväxt i
@@ -1345,17 +1573,19 @@
               på EU-nivå och på global nivå kommer att prioriteras. Det är ett
               mycket välkommet initiativ från Europeiska rådet.
             </seg>
-            <seg n="ada4cd01">
+          </u>
+          <u xml:id="i-188df04bf92484c9-143" prev="i-188df04bf92484c9-142" who="Q5783589">
+            <seg>
               Herr talman! Min fråga till vår statsminister är: På vilket sätt
               kommer Europeiska unionen att verka för att främja automatiskt
               informationsutbyte som en ny internationell standard?
             </seg>
           </u>
-          <note type="speaker" n="7fc76f14">
+          <note type="speaker">
             Anf. 27 Statsminister FREDRIK REINFELDT (M):
           </note>
-          <u who="Q52920" xml:id="i-11a869d429497667-2" n="f4e0f234" next="i-6b330ab282961aed-2">
-            <seg n="7ad13bae">
+          <u xml:id="i-188df04bf92484c9-144" next="i-188df04bf92484c9-154" who="Q52920">
+            <seg>
               Herr talman! Det är vägen via att EU gör detta till att vi får
               G8, och därmed globala överenskommelser, att gå i samma riktning.
               Det brittiska ordförandeskapet har ju redogjort för att de också
@@ -1363,7 +1593,9 @@
               samma typ av överenskommelse också med de mest utvecklade och
               rikaste industriländerna.
             </seg>
-            <seg n="91bbefee">
+          </u>
+          <u xml:id="i-188df04bf92484c9-145" prev="i-188df04bf92484c9-144" who="Q52920">
+            <seg>
               Jag har ju sett att det faktiskt går i den riktningen, från en
               miljö några år tillbaka där man sade att det här aldrig kommer
               att vara möjligt, att alla vill ha slutna system och ingen vill
@@ -1371,195 +1603,215 @@
               känsla av: Varför ska vi hjälpa en del företag att begå rena brottsligheter
               genom att kunna dölja sina kapitalöverföringar?
             </seg>
-            <seg n="4ef9701b">
+          </u>
+          <u xml:id="i-188df04bf92484c9-146" prev="i-188df04bf92484c9-144" who="Q52920">
+            <seg>
               Jag hyser hopp om att vi ska kunna komma längre. David Cameron,
               som är ordförande i G8, redogjorde också för att det var hans
               ambition. Det är nästa naturliga steg som bygger på det vi nu
               gör inom EU.
             </seg>
           </u>
-          <note n="7d3cda02">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="6949bfe7">
+          <note>
             2 § Justering av protokoll
           </note>
-          <note n="4c9eff85">
+          <note>
             Justerades protokollen för den 21 och 22 maj.
           </note>
-          <note n="5100fcd1">
+          <note>
             3 § Meddelande om frågestund
           </note>
-          <note n="ab5ccd28">
+          <note>
             Tredje vice talmannen meddelade att vid frågestunden torsdagen
             den 30 maj kl. 14.00 skulle följande statsråd närvara:
           </note>
-          <note n="df139ed3">
+          <note>
             Landsbygdsminister Eskil Erlandsson (C), utrikesminister Carl
             Bildt (M), statsrådet Stefan Attefall (KD), statsrådet Anna-Karin
             Hatt (C) och försvarsminister Karin Enström (M).
           </note>
-          <note n="879759d2">
+          <note>
             4 § Meddelande om aktuell debatt om oroligheter i storstädernas
             förorter
           </note>
-          <note n="8d420494">
+          <note>
             Tredje vice talmannen meddelade att på begäran av Sverigedemokraternas
             riksdagsgrupp skulle en aktuell debatt om oroligheter i storstädernas
             förorter anordnas fredagen den 31 maj kl. 10.30 .
           </note>
-          <note n="24a5efb7">
+          <note>
             Från regeringen skulle justitieminister Beatrice Ask delta.
           </note>
-          <note n="91f8938a">
+          <note>
             Den inkomna skrivelsen hade följande lydelse:
           </note>
-          <u who="Q52920" xml:id="i-6b330ab282961aed-2" n="f4e0f234" prev="i-11a869d429497667-2">
-            <seg n="67855002">
-              Begäran om aktuell debatt med anledning av oroligheter i storstädernas
-              förorter
-            </seg>
-            <seg n="1a278b69">
-              De senaste dagarna har stadsdelen Husby i Helsingfors skakats
-              av kravaller. Detta är en företeelse som under senare år blivit
-              allt mer vanligt förekommande i våra storstäders utkanter. Flera
-              gånger per år har vi de senaste åren haft rena upploppssituationer
-              i stadsdelar i Helsingfors, Göteborg och Malmö. Situationerna
-              brukar se ganska lika ut med stenkastning mot polis och räddningstjänst,
+          <note>
+            Begäran om aktuell debatt med anledning av oroligheter i storstädernas
+            förorter
+          </note>
+          <u xml:id="i-188df04bf92484c9-147" prev="i-188df04bf92484c9-144" who="Q52920">
+            <seg>
+              De senaste dagarna har stadsdelen Husby i Stockholm skakats av
+              kravaller. Detta är en företeelse som under senare år blivit allt
+              mer vanligt förekommande i våra storstäders utkanter. Flera gånger
+              per år har vi de senaste åren haft rena upploppssituationer i
+              stadsdelar i Stockholm, Göteborg och Malmö. Situationerna brukar
+              se ganska lika ut med stenkastning mot polis och räddningstjänst,
               vandalisering av egendom och ett våld som även drabbar vanliga
               medborgare. Gemensamt för dessa händelser är att andelen gripna
               gärningsmän alltid är väldigt få.
             </seg>
-            <seg n="baad1827">
+          </u>
+          <u xml:id="i-188df04bf92484c9-148" prev="i-188df04bf92484c9-144" who="Q52920">
+            <seg>
               Sverigedemokraterna ser med stor oro på denna otrygga utveckling.
               Detta är inte enbart en fråga om brottsbekämpning utan detta är
               ett problem vars orsaker kan spåras i ett djupt splittrat samhälle.
               Med anledning av detta vill Sverigedemokraterna begära en aktuell
               debatt.
             </seg>
-            <seg n="2bcdc0a2">
-              Begäran om aktuell debatt i riksdagen om läget i den svenska
-              skolan
+          </u>
+          <note>
+            Björn Söder (SD)
+          </note>
+          <note>
+            5 § Meddelande om aktuell debatt om läget i den svenska skolan
+          </note>
+          <note>
+            Tredje vice talmannen meddelade att på begäran av Socialdemokraternas
+            riksdagsgrupp skulle en aktuell debatt om läget i den svenska
+            skolan anordnas onsdagen den 19 juni efter avslutningen .
+          </note>
+          <u xml:id="i-188df04bf92484c9-149" prev="i-188df04bf92484c9-144" who="Q52920">
+            <seg>
+              Från regeringen skulle utbildningsminister Jan Björklund delta.
             </seg>
-            <seg n="b566fe12">
+          </u>
+          <note>
+            Den inkomna skrivelsen hade följande lydelse:
+          </note>
+          <note>
+            Begäran om aktuell debatt i riksdagen om läget i den svenska
+            skolan
+          </note>
+          <u xml:id="i-188df04bf92484c9-150" prev="i-188df04bf92484c9-144" who="Q52920">
+            <seg>
               Skolverket presenterade den 2 maj en lägesbedömning för svensk
               skola. Det är mycket oroande läsning. Resultaten i skolan sjunker
               samtidigt som vi ser stora sociala klyftor i skolan. Skillnaderna
               mellan elevers skolresultat har ökat och det finns ett starkt
               samband mellan social bakgrund och hur elever lyckas i skolan.
             </seg>
-            <seg n="0e7e8927">
+          </u>
+          <u xml:id="i-188df04bf92484c9-151" prev="i-188df04bf92484c9-144" who="Q52920">
+            <seg>
               Skillnaderna mellan skolors genomsnittliga resultat har fördubblats
               de senaste 20 åren. Sverige utmärker sig i internationella jämförelser
               som ett land där både kunskapsresultat och likvärdighet har försämrats
               under 2000-talet.
             </seg>
-            <seg n="8170a958">
+          </u>
+          <u xml:id="i-188df04bf92484c9-152" prev="i-188df04bf92484c9-144" who="Q52920">
+            <seg>
               Skolverket framhåller att förbättra likvärdigheten, stärka läraryrket
               och ha en långsiktig skolpolitik är de tre viktigaste områdena
               för att höja resultaten och kvaliteten i den svenska skolan.
             </seg>
-            <seg n="6da45a21">
+          </u>
+          <u xml:id="i-188df04bf92484c9-153" prev="i-188df04bf92484c9-144" who="Q52920">
+            <seg>
               För att få till en positiv utveckling i skolan krävs en långsiktig
               överenskommelse om de grundläggande förutsättningarna för skolan.
               Med anledning av den mycket oroande utvecklingen i skolan begär
               Socialdemokraterna en aktuell debatt om läget i den svenska skolan.
             </seg>
-            <seg n="bdc39a84">
-              Skälet till dröjsmålet är sedan tidigare inbokade resor och engagemang.
-            </seg>
           </u>
-          <note n="87c6ec61">
-            Björn Söder (SD)
-          </note>
-          <note n="09e6c15e">
-            5 § Meddelande om aktuell debatt om läget i den svenska skolan
-          </note>
-          <note n="209f09ce">
-            Tredje vice talmannen meddelade att på begäran av Socialdemokraternas
-            riksdagsgrupp skulle en aktuell debatt om läget i den svenska
-            skolan anordnas onsdagen den 19 juni efter avslutningen .
-          </note>
-          <note n="e28b6ddf">
-            Från regeringen skulle utbildningsminister Jan Björklund delta.
-          </note>
-          <note n="91f8938a">
-            Den inkomna skrivelsen hade följande lydelse:
-          </note>
-          <note n="de60d2cc">
+          <note>
             Mikael Damberg
           </note>
-          <note n="e2611bcc">
+          <note>
             6 § Anmälan om uppteckningar vid EU-nämndens sammanträden
           </note>
-          <note n="24c4bb48">
+          <note>
             Tredje vice talmannen anmälde att uppteckningar från EU-nämndens
             sammanträde onsdagen den 8 maj inkommit.
           </note>
-          <note n="d35e3e1d">
+          <note>
             7 § Anmälan om inkomna faktapromemorior om förslag från Europeiska
             kommissionen
           </note>
-          <note n="d1e1db37">
+          <note>
             Tredje vice talmannen anmälde att följande faktapromemorior om
             förslag från Europeiska kommissionen inkommit och överlämnats
             till utskott:
           </note>
-          <note n="b8e85eea">
+          <note>
             8 § Anmälan om fördröjt svar på interpellation
           </note>
-          <note n="a1967fc8">
+          <note>
             Till riksdagen hade inkommit följande skrivelse:
           </note>
-          <note n="14543018">
+          <note>
             Interpellation 2012/13:419
           </note>
-          <note n="995c6769">
+          <note>
             Interpellation 2012/13:419 Glesbygdskommuners behov av rekrytering
             inom välfärdssektorn
           </note>
-          <note n="0487dc16">
+          <note>
             Interpellationen kommer att besvaras tisdagen den 11 juni 2013.
           </note>
-          <note n="8a6c02ef">
+          <u xml:id="i-188df04bf92484c9-154" prev="i-188df04bf92484c9-144" who="Q52920">
+            <seg>
+              Skälet till dröjsmålet är sedan tidigare inbokade resor och engagemang.
+            </seg>
+          </u>
+          <note>
             Jan Björklund
           </note>
-          <note n="666ab7fa">
+          <note>
             9 § Hänvisning av ärenden till utskott
           </note>
-          <note n="719803c4">
+          <note>
             Föredrogs och hänvisades
           </note>
-          <note n="08fcfc5c">
+          <note>
             den 17 juli
           </note>
-          <note n="4e7b276f">
+          <note>
             10 § Förnyad bordläggning
           </note>
-          <note n="9a94d0d8">
+          <note>
             Föredrogs och bordlades åter
           </note>
-          <note n="5d772c92">
+          <note>
             11 § Svar på interpellation 2012/13:416 om skatteutjämningssystemet
           </note>
-          <note type="speaker" n="6af51773">
+          <note type="speaker">
             Anf. 28 Statsrådet PETER NORMAN (M):
           </note>
-          <u who="Q3209237" xml:id="i-0a258bd270f7e612-13" n="cf28293b">
-            <seg n="b550a620">
+          <u xml:id="i-188df04bf92484c9-155" next="i-188df04bf92484c9-159" who="Q3209237">
+            <seg>
               Herr talman! Lars Johansson har frågat mig dels varför det, enligt
               honom, är så viktigt att med statliga bidrag gynna moderatstyrda
-              kommuner i Helsingforss län, dels om det inte är dags att tänka
+              kommuner i Stockholms län, dels om det inte är dags att tänka
               om och lägga fram förslag som kompenserar de kommuner som har
               låg skattekraft.
             </seg>
-            <seg n="a36f5cd7">
+          </u>
+          <u xml:id="i-188df04bf92484c9-156" prev="i-188df04bf92484c9-155" who="Q3209237">
+            <seg>
               Kommuner med låg skattekraft kompenseras redan i dag genom att
               95 procent av skillnaden mellan kommunens egen skattekraft och
               en garanterad nivå utjämnas. Detta gäller de kommuner som erhåller
               inkomstutjämningsbidrag och innebär en mycket långtgående utjämning.
             </seg>
-            <seg n="0255a2c6">
+          </u>
+          <u xml:id="i-188df04bf92484c9-157" prev="i-188df04bf92484c9-155" who="Q3209237">
+            <seg>
               För kommuner som betalar inkomstavgift tillämpades tidigare en
               lika långtgående utjämning, vilket innebar att även avgiften beräknades
               utifrån 95 procent av skillnaden mellan den egna och den garanterade
@@ -1571,7 +1823,9 @@
               procent. Som skäl angavs att inga negativa marginaleffekter därmed
               skulle uppstå.
             </seg>
-            <seg n="975be3fd">
+          </u>
+          <u xml:id="i-188df04bf92484c9-158" prev="i-188df04bf92484c9-155" who="Q3209237">
+            <seg>
               Avsikten med det förslag som remitterades i december 2012 är
               att sänka procentsatsen vid beräkning av inkomstutjämningsavgift
               från 85 till 60 procent. Det är i stort sett samma kommuner som
@@ -1581,7 +1835,9 @@
               kompenserar övriga kommuner som får lägre intäkter till följd
               av avgiftssänkningen.
             </seg>
-            <seg n="20502691">
+          </u>
+          <u xml:id="i-188df04bf92484c9-159" prev="i-188df04bf92484c9-155" who="Q3209237">
+            <seg>
               En proposition med förslag till ändringar i systemet för kommunalekonomisk
               utjämning har aviserats att lämnas till riksdagen i höst med förslag
               till förändringar från och med den 1 januari 2014. De förändringar
@@ -1590,14 +1846,16 @@
               strukturella kostnadsskillnader mellan kommunerna.
             </seg>
           </u>
-          <note type="speaker" n="6e929fb6">
+          <note type="speaker">
             Anf. 29 LARS JOHANSSON (S):
           </note>
-          <u who="Q3373277" xml:id="i-7ea720e9509b4106-0" n="b6075142">
-            <seg n="a0911fa7">
+          <u xml:id="i-188df04bf92484c9-160" next="i-188df04bf92484c9-167" who="Q3373277">
+            <seg>
               Herr talman! Jag tackar statsrådet för svaret på min interpellation.
             </seg>
-            <seg n="62dfe601">
+          </u>
+          <u xml:id="i-188df04bf92484c9-161" prev="i-188df04bf92484c9-160" who="Q3373277">
+            <seg>
               Jag noterar att statsrådet i svaret koncentrerar sig på inkomstutjämningsavgiften
               och att det är den man vill sänka. Jag interpellerade statsrådet
               för en månad sedan, och vi hade då en diskussion kring delvis
@@ -1606,7 +1864,9 @@
               i Sverige som har den lägsta skatten. Då påstod statsrådet att
               det var någonting SKL var helt eniga om.
             </seg>
-            <seg n="d0bf2533">
+          </u>
+          <u xml:id="i-188df04bf92484c9-162" prev="i-188df04bf92484c9-160" who="Q3373277">
+            <seg>
               Jag kollade upp det där och skrev precis vad som sades i den
               debatten. Jag kan konstatera att statsrådet inte var helt sanningsenlig
               SKL:s styrelse, där Socialdemokraterna, Vänstern och Miljöpartiet
@@ -1615,14 +1875,18 @@
               hade utrett såväl kostnadsutjämningen som inkomstutjämningen mellan
               landets olika kommuner och hade ett enigt förslag.
             </seg>
-            <seg n="c00f30cb">
+          </u>
+          <u xml:id="i-188df04bf92484c9-163" prev="i-188df04bf92484c9-160" who="Q3373277">
+            <seg>
               Den särskilda miljard som regeringen sedermera har lagt fram
               som förslag för att kompensera överkompensera, vill jag hävda
-              i första hand Helsingforsskommunerna leder till att det inte blir
+              i första hand Stockholmskommunerna leder till att det inte blir
               det utjämningssystem utredningen hade förordat och som en parlamentarisk
               utredning har varit överens om.
             </seg>
-            <seg n="3ef22a41">
+          </u>
+          <u xml:id="i-188df04bf92484c9-164" prev="i-188df04bf92484c9-160" who="Q3373277">
+            <seg>
               Jag kan också notera att SKL:s borgerliga majoritet i sitt remissvar,
               vid sidan om att Socialdemokraterna, Vänstern och Miljöpartiet
               ansåg att man över huvud taget inte skulle lägga dit en miljard,
@@ -1634,7 +1898,9 @@
               på den punkten hade alltså statsrådet fel vid den interpellationsdebatt
               vi hade.
             </seg>
-            <seg n="23a96df9">
+          </u>
+          <u xml:id="i-188df04bf92484c9-165" prev="i-188df04bf92484c9-160" who="Q3373277">
+            <seg>
               Därefter har det även kommit nya rapporter om att skatteutjämningen
               inte har lett till utjämning och skapat likvärdiga förutsättningar
               för landets olika kommuner, så som är avsikten. Den 14 maj kom
@@ -1642,15 +1908,19 @@
               i landet som har tappat befolkning sedan 50-talet och där man
               successivt har fått en allt svårare ekonomisk situation.
             </seg>
-            <seg n="246143d1">
+          </u>
+          <u xml:id="i-188df04bf92484c9-166" prev="i-188df04bf92484c9-160" who="Q3373277">
+            <seg>
               Även den parlamentariska utredaren Björn Sundström sade väldigt
-              tydligt i medierna den 14 maj att det finns en myt om att Helsingfors
+              tydligt i medierna den 14 maj att det finns en myt om att Stockholm
               skickar en massa pengar till gles- och landsbygdskommuner och
               att det inte stämmer. Vidare säger han att storstäder och förortskommuner
               i dag är överkompenserade och gles- och landsbygdskommuner kraftigt
               underkompenserade.
             </seg>
-            <seg n="3e0e92a1">
+          </u>
+          <u xml:id="i-188df04bf92484c9-167" prev="i-188df04bf92484c9-160" who="Q3373277">
+            <seg>
               Mot den här bakgrunden för statsrådet i sitt interpellationssvar
               ett resonemang om att det är riktigt att sänka inkomstutjämningsavgiften
               från 85 procent till 60 procent för de kommuner som är med och
@@ -1661,18 +1931,20 @@
               utredning som föreslog det, och där var man också överens.
             </seg>
           </u>
-          <note type="speaker" n="febaeeba">
+          <note type="speaker">
             Anf. 30 Statsrådet PETER NORMAN (M):
           </note>
-          <u who="Q3209237" xml:id="i-0a258bd270f7e612-14" n="cf28293b">
-            <seg n="659d2517">
+          <u xml:id="i-188df04bf92484c9-168" next="i-188df04bf92484c9-172" who="Q3209237">
+            <seg>
               Herr talman! Jag ska försöka svara lite mer utförligt på Lars
               Johanssons frågor. Jag ska också tacka för interpellationen, även
               om den är exakt likadan som den vi debatterade för några veckor
               sedan. Kärt barn har dock många namn, eller vad det heter, och
               jag pratar gärna om detta en gång till.
             </seg>
-            <seg n="bdd2df00">
+          </u>
+          <u xml:id="i-188df04bf92484c9-169" prev="i-188df04bf92484c9-168" who="Q3209237">
+            <seg>
               Vad gäller remissvar från SKL på departementets promemoria med
               förslag om förändring av inkomstutjämningen inleds det med följande:
               Sveriges Kommuner och Landsting (SKL) tillstyrker de förändringar
@@ -1681,7 +1953,9 @@
               av svaret att någon i styrelsen skulle ha reserverat sig mot beslutet
               i fråga.
             </seg>
-            <seg n="dc82a342">
+          </u>
+          <u xml:id="i-188df04bf92484c9-170" prev="i-188df04bf92484c9-168" who="Q3209237">
+            <seg>
               Däremot är det som Lars Johansson säger: Socialdemokraterna,
               Vänsterpartiet och Miljöpartiet har bifogat ett särskilt yttrande
               där de bland annat framför att regeringen borde ha avstått från
@@ -1690,7 +1964,9 @@
               allt inte är fallet måste jag förstås korrigera den bedömning
               jag gjorde tidigare.
             </seg>
-            <seg n="d0141ca3">
+          </u>
+          <u xml:id="i-188df04bf92484c9-171" prev="i-188df04bf92484c9-168" who="Q3209237">
+            <seg>
               Nästa sak jag vill säga är följande: När jag tittar på de motiveringar
               som föranledde att Socialdemokraterna sänkte marginaleffekterna
               för kommunerna två gånger under 2000-talets början ser jag att
@@ -1699,7 +1975,9 @@
               arbete av två holländska forskare. Det är uppenbart att Lars Johansson
               inte har läst detta eller tagit det till sig.
             </seg>
-            <seg n="f96d99a8">
+          </u>
+          <u xml:id="i-188df04bf92484c9-172" prev="i-188df04bf92484c9-168" who="Q3209237">
+            <seg>
               Jag tänkte be att få i protokollet antecknat att när interpellationsdebatten
               är slut ska jag överräcka, som en liten sommarläsning och present
               till Lars Johansson, en forskningsrapport där man gör en kartläggning
@@ -1707,58 +1985,68 @@
               effekterna är speciellt viktiga för de kommuner som har låg skattekraft.
             </seg>
           </u>
-          <note type="speaker" n="4de9393d">
+          <note type="speaker">
             Anf. 31 LARS JOHANSSON (S):
           </note>
-          <u who="Q3373277" xml:id="i-7ea720e9509b4106-1" n="b6075142">
-            <seg n="3911b32e">
+          <u xml:id="i-188df04bf92484c9-173" next="i-188df04bf92484c9-179" who="Q3373277">
+            <seg>
               Herr talman! Det var bra att statsrådet korrigerade sig. Det
               är viktigt att ta till sig helheten i SKL:s yttranden.
             </seg>
-            <seg n="bf8cd90a">
+          </u>
+          <u xml:id="i-188df04bf92484c9-174" prev="i-188df04bf92484c9-173" who="Q3373277">
+            <seg>
               Jag vill gå vidare. I förra debatten tyckte jag, och det tycker
               jag fortfarande, att det är väldigt upprörande att den kommun
-              i landet som har den lägsta kommunalskatten, Helsingforss stad,
+              i landet som har den lägsta kommunalskatten, Stockholms stad,
               29:43 inklusive landstingsskatten, kommer med det här förslaget
               från regeringen att få en halv miljard i årliga bidrag. Jag har
-              kontrollerat ekonomin i Helsingforss stad och kan konstatera att
+              kontrollerat ekonomin i Stockholms stad och kan konstatera att
               man föregående år hade ett överskott i staden på 3 miljarder.
               Tar man in resultatet för kommunkoncernen, alltså bolagssidan,
-              blir det över 4 ½ miljard i överskott i Helsingforss stad. Man
-              har i Helsingfors sedan 2006 sänkt skatten med 92 öre. Huvuddelen
-              ligger på kommunen och 1020 öre på landstinget under den här perioden.
+              blir det över 4 ½ miljard i överskott i Stockholms stad. Man har
+              i Stockholm sedan 2006 sänkt skatten med 92 öre. Huvuddelen ligger
+              på kommunen och 1020 öre på landstinget under den här perioden.
               Man har som ambition att fortsätta att sänka skatten.
             </seg>
-            <seg n="e571dc85">
+          </u>
+          <u xml:id="i-188df04bf92484c9-175" prev="i-188df04bf92484c9-173" who="Q3373277">
+            <seg>
               Jag har tittat på kommunens ekonomi i övrigt vad gäller inkomstutjämningsavgiften.
               För närvarande är den avgiften 1 500 000 kronor. Den kommer man
               att sänka med en halv miljard till 1 miljard. Kostnadsutjämning
-              får Helsingforss stad med över 1,3 miljarder. Kommunen kommer
-              alltså att gå plus trots att det är en kommun med stark ekonomi,
-              en kommun där tillväxten ökar varje år på grund av att väldigt
-              många människor vill bo i Helsingfors. Här finns goda förutsättningar
-              för jobb, och här finns också förutsättningar, om man har pengar,
-              att skaffa sig en bostad.
+              får Stockholms stad med över 1,3 miljarder. Kommunen kommer alltså
+              att gå plus trots att det är en kommun med stark ekonomi, en kommun
+              där tillväxten ökar varje år på grund av att väldigt många människor
+              vill bo i Stockholm. Här finns goda förutsättningar för jobb,
+              och här finns också förutsättningar, om man har pengar, att skaffa
+              sig en bostad.
             </seg>
-            <seg n="5467a662">
+          </u>
+          <u xml:id="i-188df04bf92484c9-176" prev="i-188df04bf92484c9-173" who="Q3373277">
+            <seg>
               Det som är intressant när man diskuterar kommunernas olika förutsättningar
               är att titta inte bara på det som har med inkomstutjämning och
               kostnadsutjämning att göra utan även på vad kommunerna har för
               övriga tillgångar. Hur ser marknaden ut för fastighetsvärden,
               markvärden och liknande? Där har tillväxtkommunerna en helt annan
               situation än landsbygdskommunerna. Det sker en kraftig tillväxt
-              i Helsingfors. Mellan 2011 och 2012 ökade värdena på inventarier,
+              i Stockholm. Mellan 2011 och 2012 ökade värdena på inventarier,
               mark och fastigheter med 9 miljarder, bara på ett år. Balansomslutningen
               blir allt större utan att politikerna behöver göra särskilt mycket
               därför att det är så en kraftig tillväxt.
             </seg>
-            <seg n="842acccb">
+          </u>
+          <u xml:id="i-188df04bf92484c9-177" prev="i-188df04bf92484c9-173" who="Q3373277">
+            <seg>
               Då faller argumenteringen kring att utjämningsavgifter på 1 ½
-              miljard skulle hindra tillväxten i Helsingfors på sin egen orimlighet.
+              miljard skulle hindra tillväxten i Stockholm på sin egen orimlighet.
               Det stämmer inte i verkligheten. Det är det som jag har som utgångspunkt
               för den här diskussionen. Det blir helt fel.
             </seg>
-            <seg n="56fed1a7">
+          </u>
+          <u xml:id="i-188df04bf92484c9-178" prev="i-188df04bf92484c9-173" who="Q3373277">
+            <seg>
               Här har det suttit en parlamentarisk utredning med representanter
               för samtliga partier. Man har sagt att det inte är tillväxthämmande,
               och man har tagit del av befintlig forskning på området. SKL säger
@@ -1768,23 +2056,26 @@
               är moderatstyrda, och dessa moderatstyrda kommuner har alltid
               kritiserat utjämningssystemet, för de vill inte vara solidariska.
             </seg>
-            <seg n="25376952">
+          </u>
+          <u xml:id="i-188df04bf92484c9-179" prev="i-188df04bf92484c9-173" who="Q3373277">
+            <seg>
               Det är det som är grundproblemet. Det är trist att se att regeringen
               har fallit i farstun på den punkten.
             </seg>
           </u>
-          <note type="speaker" n="bca35ad9">
+          <note type="speaker">
             Anf. 32 PETER PERSSON (S):
           </note>
-          <u who="Q6043655" xml:id="i-af9556e83b49ea0a-0" n="21bf8f41">
-            <seg n="d021b842">
-              Herr talman! Jag tror att Helsingfors behöver övriga delar av
-              landet, och övriga delar av landet behöver Helsingfors. De hör
-              ihop och hänger ihop, men det sker olika ekonomiska aktiviteter
-              på olika platser i landet. Tillväxten skapas överallt, olika slags
-              tillväxt.
+          <u xml:id="i-188df04bf92484c9-180" next="i-188df04bf92484c9-185" who="Q6043655">
+            <seg>
+              Herr talman! Jag tror att Stockholm behöver övriga delar av landet,
+              och övriga delar av landet behöver Stockholm. De hör ihop och
+              hänger ihop, men det sker olika ekonomiska aktiviteter på olika
+              platser i landet. Tillväxten skapas överallt, olika slags tillväxt.
             </seg>
-            <seg n="09545480">
+          </u>
+          <u xml:id="i-188df04bf92484c9-181" prev="i-188df04bf92484c9-180" who="Q6043655">
+            <seg>
               Låt mig berätta, herr talman, om förutsättningarna för fyra kommuner
               i mitt hemlän Jönköping Värnamo, Vaggeryd, Gnosjö och Gislaved
               som ligger i centrum för en bygd som präglas av entreprenörskap,
@@ -1794,7 +2085,9 @@
               tillväxten i vårt land i mycket hög grad, och det har en stor
               betydelse.
             </seg>
-            <seg n="f6960c03">
+          </u>
+          <u xml:id="i-188df04bf92484c9-182" prev="i-188df04bf92484c9-180" who="Q6043655">
+            <seg>
               Lönerna i den här regionen är inte särskilt höga. Det gör att
               medelskattekraften ligger under rikstalet. Vi kan ha en referenspunkt
               i de här kommunerna där flitiga människor idogt arbetar när vi
@@ -1805,7 +2098,9 @@
               därför att de anses som förlorare i ett system som vi brett anser
               skapar ökad rättvisa.
             </seg>
-            <seg n="147c9639">
+          </u>
+          <u xml:id="i-188df04bf92484c9-183" prev="i-188df04bf92484c9-180" who="Q6043655">
+            <seg>
               Jag kan berätta för statsrådet att Jönköpings läns kommuner har
               i medeltal en utdebitering på 21:65. De kommuner vi talar om har
               en medelutdebitering på 17:66. De har alltså 4 kronor under den
@@ -1817,7 +2112,9 @@
               län talar i dag om skattehöjningar för att kunna garantera den
               servicenivå som anses rimlig.
             </seg>
-            <seg n="6741f2c2">
+          </u>
+          <u xml:id="i-188df04bf92484c9-184" prev="i-188df04bf92484c9-180" who="Q6043655">
+            <seg>
               Jag har tittat på remissyttranden från bland annat de fyra nämnda
               kommunerna de är samstämmiga där de riktar en mycket hård kritik
               mot Normans kommande proposition och säger: Vi ställer oss mycket
@@ -1826,17 +2123,19 @@
               anser inte att inkomstutjämningen är tillväxthämmande för den
               enskilda kommunen.
             </seg>
-            <seg n="fed50b2f">
+          </u>
+          <u xml:id="i-188df04bf92484c9-185" prev="i-188df04bf92484c9-180" who="Q6043655">
+            <seg>
               Det är dina partivänner, Norman, som har skrivit det här i kommuner
               i det industriella hjärtat i Småland. Nu undrar jag: Har de fel
               i sina synpunkter?
             </seg>
           </u>
-          <note type="speaker" n="415d1116">
+          <note type="speaker">
             Anf. 33 Statsrådet PETER NORMAN (M):
           </note>
-          <u who="Q3209237" xml:id="i-0a258bd270f7e612-15" n="cf28293b">
-            <seg n="706fac05">
+          <u xml:id="i-188df04bf92484c9-186" next="i-188df04bf92484c9-192" who="Q3209237">
+            <seg>
               Herr talman! Den utredning som lämnade sitt förslag 2011 gjorde
               ett behjärtansvärt arbete. Man tydliggjorde att det har skett
               en del strukturella förändringar i Sverige. Exempelvis genom maxtaxan
@@ -1846,26 +2145,34 @@
               som utredningen kom fram till innebar en omfattande revidering
               av det system som då var gällande.
             </seg>
-            <seg n="7ed62a76">
+          </u>
+          <u xml:id="i-188df04bf92484c9-187" prev="i-188df04bf92484c9-186" who="Q3209237">
+            <seg>
               Detta förslag accepterar regeringen. Ibland undrar jag vad vi
               pratar om. Vi accepterar att de här skillnaderna finns, och vi
               accepterar att korrigera systemet i enlighet med utredningens
               förslag. Där är vi helt överens.
             </seg>
-            <seg n="4fa35168">
+          </u>
+          <u xml:id="i-188df04bf92484c9-188" prev="i-188df04bf92484c9-186" who="Q3209237">
+            <seg>
               Däremot har vi en annan uppfattning än vad utredningen och tydligen
               också Peter Persson har vad gäller ekonomiska incitament.
             </seg>
-            <seg n="b70e6c15">
-              Vad gäller Helsingforss situation, som den ser ut i dag, kan
-              jag bara dela Lars Johanssons uppfattning. Men vi ska inte ägna
-              oss åt någon kvartalskapitalism, utan de här systemen ska ju verka
+          </u>
+          <u xml:id="i-188df04bf92484c9-189" prev="i-188df04bf92484c9-186" who="Q3209237">
+            <seg>
+              Vad gäller Stockholms situation, som den ser ut i dag, kan jag
+              bara dela Lars Johanssons uppfattning. Men vi ska inte ägna oss
+              åt någon kvartalskapitalism, utan de här systemen ska ju verka
               under lång tid. Och varken jag eller Lars Johansson kan nog ställa
-              i utsikt att Helsingfors kommer att vara en tillväxtkommun under
+              i utsikt att Stockholm kommer att vara en tillväxtkommun under
               mycket lång tid. Vi får väl se. Det går nog säkert upp och ned
               där också.
             </seg>
-            <seg n="31833bf8">
+          </u>
+          <u xml:id="i-188df04bf92484c9-190" prev="i-188df04bf92484c9-186" who="Q3209237">
+            <seg>
               Vi har en annorlunda uppfattning vad gäller ekonomiska incitament,
               och jag tror att den är genomgående mellan våra politiska partier.
               Vi tror att det är viktigt med incitament för individen vad gäller
@@ -1876,12 +2183,16 @@
               gör de satsningar som annars skulle ha skett. Därför försöker
               vi sänka dem för kommunerna i fråga.
             </seg>
-            <seg n="688a4735">
+          </u>
+          <u xml:id="i-188df04bf92484c9-191" prev="i-188df04bf92484c9-186" who="Q3209237">
+            <seg>
               Låt mig bara säga att Kiruna kommun är en av de kommuner som
               skulle få pengar, och när jag kollade senast var den inte moderatledd
               i alla fall utan hade ett ganska stabilt socialdemokratiskt styre.
             </seg>
-            <seg n="f9113c05">
+          </u>
+          <u xml:id="i-188df04bf92484c9-192" prev="i-188df04bf92484c9-186" who="Q3209237">
+            <seg>
               Vad gäller Peter Perssons fundering kan jag bara säga att den
               slår lite sönder Lars Johanssons argument att moderatkommunerna
               är väldigt gynnade. Tydligen var det fyra exempel på att man inte
@@ -1890,31 +2201,34 @@
               för de flesta partier i Sveriges riksdag.
             </seg>
           </u>
-          <note type="speaker" n="17b38d05">
+          <note type="speaker">
             Anf. 34 LARS JOHANSSON (S):
           </note>
-          <u who="Q3373277" xml:id="i-7ea720e9509b4106-2" n="b6075142">
-            <seg n="b623dfcc">
+          <u xml:id="i-188df04bf92484c9-193" next="i-188df04bf92484c9-196" who="Q3373277">
+            <seg>
               Herr talman! De kommuner som Peter Norman talar om är inte några
               lågskattekommuner. Det är det som är skillnaden. Jag talar om
-              lågskattekommunerna i Helsingforssregionen som i huvudsak är moderatstyrda,
-              och framför allt Helsingforss stad där det handlar om en halv
-              miljard.
+              lågskattekommunerna i Stockholmsregionen som i huvudsak är moderatstyrda,
+              och framför allt Stockholms stad där det handlar om en halv miljard.
             </seg>
-            <seg n="4c64fe6f">
+          </u>
+          <u xml:id="i-188df04bf92484c9-194" prev="i-188df04bf92484c9-193" who="Q3373277">
+            <seg>
               Peter Norman säger att vi inte vet vad som händer framöver. Nej,
               det är klart att vi inte vet, men vi vet vad prognoserna säger.
-              Jag tog med mig dagens tidning från Helsingforss handelskammare
-              där man skriver att vi blir fler och fler i Helsingfors. Prognosen
+              Jag tog med mig dagens tidning från Stockholms handelskammare
+              där man skriver att vi blir fler och fler i Stockholm. Prognosen
               talar om att det kommer att bli en enorm tillväxt. Regeringen
-              medverkar ju i infrastrukturpaket i Helsingfors som bygger på
-              att det blir en fortsatt tillväxt, så allt talar för att det kommer
+              medverkar ju i infrastrukturpaket i Stockholm som bygger på att
+              det blir en fortsatt tillväxt, så allt talar för att det kommer
               att bli en fortsatt tillväxt. Trenden är den, och det är ingen
               ny trend. Den har funnits under lång tid.
             </seg>
-            <seg n="5150e208">
+          </u>
+          <u xml:id="i-188df04bf92484c9-195" prev="i-188df04bf92484c9-193" who="Q3373277">
+            <seg>
               Det är en kraftig tillväxt. Det är därför som detta att en hel
-              miljard kronor i extra bidrag till Helsingforsskommunerna skulle
+              miljard kronor i extra bidrag till Stockholmskommunerna skulle
               ha med tillväxt att göra klingar så falskt. Jag tror inte på det,
               tyvärr. Dessutom är inte miljarden finansierad. Jag trodde att
               man skulle lägga förslaget i tilläggsbudgeten i våras och tala
@@ -1926,29 +2240,33 @@
               för det systemet är låst det har också Peter Norman sagt, och
               det kommer man att bifalla utan man lägger till en miljard därutöver.
             </seg>
-            <seg n="155b34b4">
+          </u>
+          <u xml:id="i-188df04bf92484c9-196" prev="i-188df04bf92484c9-193" who="Q3373277">
+            <seg>
               Det är märkligt att regeringen är i stort sett ensam när det
               gäller det här. Det kan möjligen finnas lite forskningsunderlag,
               teoretisk sådan. Men de som sysslar med den praktiska politiken
               i kommunerna tror inte att detta har med tillväxten att göra.
               De tror att det är någon annan agenda. Som jag har tagit upp i
               min interpellation: Varför är det så viktigt att gynna moderatstyrda
-              kommuner i Helsingforss län med särskilda statliga bidrag? Jag
-              har inte fått svar på det. Tillväxtargumentet håller inte, inte
-              i sak.
+              kommuner i Stockholms län med särskilda statliga bidrag? Jag har
+              inte fått svar på det. Tillväxtargumentet håller inte, inte i
+              sak.
             </seg>
           </u>
-          <note type="speaker" n="0c8248f9">
+          <note type="speaker">
             Anf. 35 PETER PERSSON (S):
           </note>
-          <u who="Q6043655" xml:id="i-af9556e83b49ea0a-1" n="21bf8f41">
-            <seg n="6a2b87b4">
-              Herr talman! Liksom Lars Johansson gläds jag över att Helsingfors
+          <u xml:id="i-188df04bf92484c9-197" next="i-188df04bf92484c9-201" who="Q6043655">
+            <seg>
+              Herr talman! Liksom Lars Johansson gläds jag över att Stockholm
               utvecklas på ett positivt sätt. Det är bra för hela landet. Men
               vi vill att alla kommuner i vårt land ska ha likvärdiga förutsättningar
               att leva. Det handlar den här debatten om.
             </seg>
-            <seg n="d588d184">
+          </u>
+          <u xml:id="i-188df04bf92484c9-198" prev="i-188df04bf92484c9-197" who="Q6043655">
+            <seg>
               Jag tycker att Statskontorets remissyttrande slår sönder Peter
               Normans argumentation fullständigt. Man skriver: Vidare nämns
               att en hög skattekraft i en kommun inte behöver föranledas av
@@ -1959,46 +2277,56 @@
               finns inte någon hänvisning till ekonomisk forskning eller annat
               underlag som stöder bedömningen, och så vidare.
             </seg>
-            <seg n="9f6cf5ad">
+          </u>
+          <u xml:id="i-188df04bf92484c9-199" prev="i-188df04bf92484c9-197" who="Q6043655">
+            <seg>
               Jag skulle också vilja ha den där sommarläsningen, så får väl
               jag också göra en bedömning, om det finns mer än ett exemplar
               att tillgå.
             </seg>
-            <seg n="b7aae4a1">
+          </u>
+          <u xml:id="i-188df04bf92484c9-200" prev="i-188df04bf92484c9-197" who="Q6043655">
+            <seg>
               Det är uppenbart att det som Peter Norman drivs av här inte är
               fakta utan politiskt nit att hjälpa sina moderata partivänner
-              i några mycket välmående kommuner i Helsingforss län, tolv till
+              i några mycket välmående kommuner i Stockholms län, tolv till
               antalet, att inte behöva justera skatten för att ha lika standard
               som andra delar av landet. I detta nit är han beredd att fullständigt
               kasta bort uppfattningar och ståndpunkter från exempelvis kommunalråd
               i Gislaved eller Gnosjö i Småland. Röstetalet är inte så stort
               där. Det kan offras på rättvisans altare, och man tillgodoser
-              de mer högljudda och röststarka kommunerna i Helsingforss län.
+              de mer högljudda och röststarka kommunerna i Stockholms län.
             </seg>
-            <seg n="2cdbbda1">
+          </u>
+          <u xml:id="i-188df04bf92484c9-201" prev="i-188df04bf92484c9-197" who="Q6043655">
+            <seg>
               Jag tycker att det är djupt beklagligt att inte Norman kan ha
               samma ståndpunkt som jag och Lars Johansson: Hela landet ska ha
               lika förutsättningar.
             </seg>
           </u>
-          <note type="speaker" n="055960e0">
+          <note type="speaker">
             Anf. 36 Statsrådet PETER NORMAN (M):
           </note>
-          <u who="Q3209237" xml:id="i-11a869d429497667-3" n="cf28293b" next="i-6b330ab282961aed-3">
-            <seg n="a86be2ff">
+          <u xml:id="i-188df04bf92484c9-202" next="i-188df04bf92484c9-207" who="Q3209237">
+            <seg>
               Herr talman! Jag finner det lite märkligt att man ska bli skyldig
               svaret om en finansiering av ett förslag som inte ens har lagts
               fram till riksdagen. Jag kan lova Lars Johansson att när detta
               läggs fram till riksdagen kommer finansieringen att vara väldigt
               tydlig.
             </seg>
-            <seg n="daed49b9">
+          </u>
+          <u xml:id="i-188df04bf92484c9-203" prev="i-188df04bf92484c9-202" who="Q3209237">
+            <seg>
               Låt mig avsluta med att säga att syftet med hela utjämningssystemet
               är långsiktiga, likvärdiga och förutsägbara förutsättningar för
               alla kommuner. Jag tror att även Kiruna är betjänt av att få en
               sänkt marginaleffekt från 85 till 60 procent.
             </seg>
-            <seg n="bef8d393">
+          </u>
+          <u xml:id="i-188df04bf92484c9-204" prev="i-188df04bf92484c9-202" who="Q3209237">
+            <seg>
               Naturligtvis står det alla riksdagsledamöter och även Lars Johansson
               fritt att granska regeringen genom interpellationer. Men mot bakgrund
               av de upprepade interpellationer som företrädare för Socialdemokraterna
@@ -2007,60 +2335,66 @@
               utjämningen. Hur länge till ska kommunerna behöva sväva i ovisshet
               om Socialdemokraternas position i denna viktiga fråga?
             </seg>
-            <seg n="83f70d6d">
+          </u>
+          <u xml:id="i-188df04bf92484c9-205" prev="i-188df04bf92484c9-202" who="Q3209237">
+            <seg>
               Regeringens uppfattning är tydlig. Den redovisades i december.
               Vi kommer att lägga fram en proposition i början på hösten, och
               vi får se hur Socialdemokraterna kommer att agera i kammaren.
             </seg>
           </u>
-          <note n="7d3cda02">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="f115e06a">
+          <note>
             Ajournering
           </note>
-          <note n="4261cdae">
+          <note>
             Kammaren beslutade kl. 14.28 på förslag av tredje vice talmannen
             att ajournera förhandlingarna i väntan på att utbildningsminister
             Jan Björklund (FP) skulle infinna sig i kammaren för att lämna
             svar på interpellation 2012/13:424.
           </note>
-          <u who="Q3209237" xml:id="i-6b330ab282961aed-3" n="cf28293b" prev="i-11a869d429497667-3">
-            <seg n="777848fe">
-              Återupptagna förhandlingar
-            </seg>
-            <seg n="777848fe">
+          <u xml:id="i-188df04bf92484c9-206" prev="i-188df04bf92484c9-202" who="Q3209237">
+            <seg>
               Återupptagna förhandlingar
             </seg>
           </u>
-          <note n="a83119b4">
+          <note>
             Förhandlingarna återupptogs kl. 15.05.
           </note>
-          <note n="f115e06a">
+          <note>
             Ajournering
           </note>
-          <note n="c7695bcb">
+          <note>
             Då utbildningsminister Jan Björklund (FP) ännu inte hunnit infinna
             sig i kammaren beslutade kammaren på förslag av tredje vice talmannen
             att förlänga ajourneringen till kl. 15.20.
           </note>
-          <note n="2bcbe0f1">
+          <u xml:id="i-188df04bf92484c9-207" prev="i-188df04bf92484c9-202" who="Q3209237">
+            <seg>
+              Återupptagna förhandlingar
+            </seg>
+          </u>
+          <note>
             Förhandlingarna återupptogs kl. 15.20.
           </note>
-          <note n="9bf6498c">
+          <note>
             12 § Svar på interpellation 2012/13:424 om minskade anslag till
             Uppsala universitet
           </note>
-          <note type="speaker" n="e474e2dc">
+          <note type="speaker">
             Anf. 37 Utbildningsminister JAN BJÖRKLUND (FP):
           </note>
-          <u who="Q911372" xml:id="i-0a258bd270f7e612-16" n="5e7f58aa">
-            <seg n="8e69d5b5">
+          <u xml:id="i-188df04bf92484c9-208" next="i-188df04bf92484c9-212" who="Q911372">
+            <seg>
               Herr talman! Agneta Gille har frågat mig varför regeringen skär
               ned på anslagen till Uppsala universitet när söktrycket till universitetet
               är mycket stort samtidigt som ungdomsarbetslösheten är hög.
             </seg>
-            <seg n="d80a85c5">
+          </u>
+          <u xml:id="i-188df04bf92484c9-209" prev="i-188df04bf92484c9-208" who="Q911372">
+            <seg>
               Mellan 2006 och 2012 ökade antalet helårsstudenter vid Uppsala
               universitet med 2 500. De senaste åren har antalet helårsstudenter
               vid de svenska lärosätena varit högre än någonsin. År 2011 var
@@ -2068,14 +2402,18 @@
               kvar på en historiskt sett mycket hög nivå. Jämfört med 2006 var
               antalet helårsstudenter i Sverige ungefär 27 000 fler 2012.
             </seg>
-            <seg n="4ebbefc9">
+          </u>
+          <u xml:id="i-188df04bf92484c9-210" prev="i-188df04bf92484c9-208" who="Q911372">
+            <seg>
               Varje universitet och högskola ansvarar för att utbildning och
               forskning bedrivs med hög kvalitet och att de tillgängliga resurserna
               används effektivt. Det är även respektive universitets och högskolas
               sak att avgöra vilka utbildningar som ska erbjudas för att möta
               studenternas efterfrågan och arbetsmarknadens behov.
             </seg>
-            <seg n="98bde340">
+          </u>
+          <u xml:id="i-188df04bf92484c9-211" prev="i-188df04bf92484c9-208" who="Q911372">
+            <seg>
               Vad gäller frågan om resurser har regeringen genomfört ett antal
               angelägna förändringar för att öka kvaliteten i den högre utbildningen
               och för att möta behov på arbetsmarknaden. Bland annat har avgifter
@@ -2086,39 +2424,41 @@
               universitet och högskolor i form av åtgärder för att höja kvaliteten
               i utbildningen.
             </seg>
-            <seg n="c7f162bc">
-              För att fortsätta att möta den svaga konjunkturutvecklingen vidtas
-              en rad tillfälliga åtgärder inom arbetsmarknads- och utbildningspolitiken
-              på initiativ av regeringen. I den senaste budgetproposition föreslås
-              och beräknas universitet och högskolor tilldelas nya tillfälliga
-              platser under åren 20132015. I vårändringsbudgeten för 2013 föreslår
-              och beräknar regeringen också att antalet platser på ingenjörsutbildningar
-              och sjuksköterskeutbildningar ökas med 1 400 platser under 2013
-              och 2014.
-            </seg>
-            <seg n="daaf9762">
-              Uppsala universitet har fått ta del av satsningar genom medel
-              för såväl kvalitetshöjningar som tillfälliga platser samt läkarutbildning
-              och ingenjörsutbildning. Jämfört med lågkonjunkturens inledning
-              2009 har Uppsala universitet 2013 fått drygt 40 miljoner kronor
-              mer i anslag per år beräknat i fasta priser. Därutöver tog universitetet
-              del av en tillfällig satsning på högskoleplatser 20102011, vilket
-              innebar ett tillskott på 83 miljoner kronor per år. Enligt beräkningar
-              i budgetpropositionen för innevarande år har Uppsala universitet
-              även en stabil utveckling av takbeloppet de närmaste åren.
-            </seg>
-            <seg n="2d5f8c29">
+          </u>
+          <note>
+            För att fortsätta att möta den svaga konjunkturutvecklingen vidtas
+            en rad tillfälliga åtgärder inom arbetsmarknads- och utbildningspolitiken
+            på initiativ av regeringen. I den senaste budgetproposition föreslås
+            och beräknas universitet och högskolor tilldelas nya tillfälliga
+            platser under åren 20132015. I vårändringsbudgeten för 2013 föreslår
+            och beräknar regeringen också att antalet platser på ingenjörsutbildningar
+            och sjuksköterskeutbildningar ökas med 1 400 platser under 2013
+            och 2014.
+          </note>
+          <note>
+            Uppsala universitet har fått ta del av satsningar genom medel
+            för såväl kvalitetshöjningar som tillfälliga platser samt läkarutbildning
+            och ingenjörsutbildning. Jämfört med lågkonjunkturens inledning
+            2009 har Uppsala universitet 2013 fått drygt 40 miljoner kronor
+            mer i anslag per år beräknat i fasta priser. Därutöver tog universitetet
+            del av en tillfällig satsning på högskoleplatser 20102011, vilket
+            innebar ett tillskott på 83 miljoner kronor per år. Enligt beräkningar
+            i budgetpropositionen för innevarande år har Uppsala universitet
+            även en stabil utveckling av takbeloppet de närmaste åren.
+          </note>
+          <u xml:id="i-188df04bf92484c9-212" prev="i-188df04bf92484c9-208" who="Q911372">
+            <seg>
               För att möta framtidens utmaningar är det viktigt att såväl Uppsala
               universitet som övriga lärosäten planerar verksamheten så att
               det ges långsiktiga förutsättningar för en hög kvalitet som samtidigt
               möter studenternas efterfrågan och arbetsmarknadens behov.
             </seg>
           </u>
-          <note type="speaker" n="e8c7f86a">
+          <note type="speaker">
             Anf. 38 AGNETA GILLE (S):
           </note>
-          <u who="Q3375136" xml:id="i-cdff5ed866bd6632-0" n="eb62b598">
-            <seg n="ce661b8a">
+          <u xml:id="i-188df04bf92484c9-213" next="i-188df04bf92484c9-221" who="Q3375136">
+            <seg>
               Herr talman! Tack för svaret, utbildningsminister Björklund!
               Av svaret kan man utläsa att det är en nöjd minister som tycker
               att det görs stora satsningar. När jag tar del av andra siffror
@@ -2126,23 +2466,31 @@
               Ungdomsarbetslösheten är uppe i 25 procent. De unga är vår viktigaste
               grupp i samhället. De är framtiden. Av dem går 25 procent arbetslösa.
             </seg>
-            <seg n="4c57b08b">
+          </u>
+          <u xml:id="i-188df04bf92484c9-214" prev="i-188df04bf92484c9-213" who="Q3375136">
+            <seg>
               Det fanns vallöften från den borgerliga regeringen om att man
               skulle bekämpa arbetslösheten. En del av det är utbildningspolitik.
               Det skulle jag vilja informera ministern om.
             </seg>
-            <seg n="fd2352b0">
+          </u>
+          <u xml:id="i-188df04bf92484c9-215" prev="i-188df04bf92484c9-213" who="Q3375136">
+            <seg>
               I en välskriven artikel i Upsala Nya Tidning läser jag lite grann
               om unga arbetslösa som frågar: Vad är viktigare än vi? Jag kan
               också ta del av en mängd olika siffror i den artikeln.
             </seg>
-            <seg n="0680e9cd">
+          </u>
+          <u xml:id="i-188df04bf92484c9-216" prev="i-188df04bf92484c9-213" who="Q3375136">
+            <seg>
               Där kan vi se att mellan 2011 och 2012 minskade antalet platser
               på högskolor och universitet med 10 000. Då är antalet nere på
               samma nivå som för väldigt många år sedan. Det hänvisas här till
               att det är nere på samma nivå som 2000.
             </seg>
-            <seg n="a17ada66">
+          </u>
+          <u xml:id="i-188df04bf92484c9-217" prev="i-188df04bf92484c9-213" who="Q3375136">
+            <seg>
               Uppsala universitet har tvingats att minska sin utbildning med
               nästan 10 procent. Söktrycket är rekordstort. Man ser en ökning
               av antalet sökande, herr minister, med över 40 procent. Det är
@@ -2151,12 +2499,16 @@
               in på högskolor och universitet eftersom det inte finns tillräckligt
               med resurser.
             </seg>
-            <seg n="dc476143">
+          </u>
+          <u xml:id="i-188df04bf92484c9-218" prev="i-188df04bf92484c9-213" who="Q3375136">
+            <seg>
               I den här artikeln läser jag att rektorn på Uppsala universitet,
               Eva Åkesson, säger att detta är ett svek mot de unga eftersom
               det är så många som söker som inte får möjlighet att komma in.
             </seg>
-            <seg n="0737b4f3">
+          </u>
+          <u xml:id="i-188df04bf92484c9-219" prev="i-188df04bf92484c9-213" who="Q3375136">
+            <seg>
               Det brukar sägas att det går att utläsa ett lands konjunktur
               när man tittar på ansökningar och antagningar till högskolan.
               I sämre tider har statsmakten alltid utbildat fler och sett till
@@ -2165,25 +2517,29 @@
               bättre tider är det fler som jobbar och färre som söker sig till
               högskolan. Det stämmer inte längre, ministern. Det är precis tvärtom.
             </seg>
-            <seg n="52c9265c">
+          </u>
+          <u xml:id="i-188df04bf92484c9-220" prev="i-188df04bf92484c9-213" who="Q3375136">
+            <seg>
               Regeringen har sagt att det är finanskris, och det har varit
               så i nästan sju år. Regeringen skyller allting som har gått fel
               på finanskrisen. Varför har inte regeringen satsat på utbildning?
               Det är min fråga. Man har ju pekat på att arbetslösheten är så
               hög.
             </seg>
-            <seg n="9bba0456">
+          </u>
+          <u xml:id="i-188df04bf92484c9-221" prev="i-188df04bf92484c9-213" who="Q3375136">
+            <seg>
               Jag skulle vilja veta vad jag ska säga till universitetets rektor
               och till de unga arbetslösa i Uppsala som inte får någon möjlighet
               att utbilda sig. Vad är ministerns medskick till dem? Det skulle
               jag vilja veta.
             </seg>
           </u>
-          <note type="speaker" n="2670dc34">
+          <note type="speaker">
             Anf. 39 Utbildningsminister JAN BJÖRKLUND (FP):
           </note>
-          <u who="Q911372" xml:id="i-0a258bd270f7e612-17" n="5e7f58aa">
-            <seg n="8de57990">
+          <u xml:id="i-188df04bf92484c9-222" next="i-188df04bf92484c9-228" who="Q911372">
+            <seg>
               Herr talman! Jag delar uppfattningen att man ska satsa mer på
               utbildning i dåliga tider. Därför är det precis det vi gör, och
               därför är det intressant att jämföra med just 2006 när Agneta
@@ -2191,7 +2547,9 @@
               än vad det var 2006. Det är fler platser i Uppsala i dag. Dem
               har vi inrättat. Det gjorde inte den gamla regeringen.
             </seg>
-            <seg n="87f1c090">
+          </u>
+          <u xml:id="i-188df04bf92484c9-223" prev="i-188df04bf92484c9-222" who="Q911372">
+            <seg>
               Antalet studenter på svenska universitet och högskolor har aldrig
               varit så högt som under min tid som minister. Det har aldrig någonsin
               varit så många som har pluggat samtidigt. Det beror på finanskrisen
@@ -2202,7 +2560,9 @@
               antalet minskat något, men det är mycket marginellt. Och det är
               fortfarande många fler studenter än det var 2006.
             </seg>
-            <seg n="cf748f81">
+          </u>
+          <u xml:id="i-188df04bf92484c9-224" prev="i-188df04bf92484c9-222" who="Q911372">
+            <seg>
               Var får Agneta Gille det ifrån att vi skulle ha dragit ned under
               vår period eller att det skulle ha varit ännu fler för tio år
               sedan? Det är inte sant. Det är en ren bluff. Det har aldrig varit
@@ -2210,7 +2570,9 @@
               som utbildningsministrarna har hetat Östros, Pagrotsky och Carl
               Tham. Det är sanningen. Vi ska vara korrekta med siffrorna här.
             </seg>
-            <seg n="830a9d56">
+          </u>
+          <u xml:id="i-188df04bf92484c9-225" prev="i-188df04bf92484c9-222" who="Q911372">
+            <seg>
               Ungdomsarbetslösheten är ett stort problem. Man ska dock ha klart
               för sig att det inte är den här gruppen som blir arbetslösa, utan
               det är de som hoppar av gymnasieskolan. De är inte ens behöriga
@@ -2226,14 +2588,18 @@
               och andra typer av utbildningar för den gruppen av elever som
               är lösningen.
             </seg>
-            <seg n="de2894a3">
+          </u>
+          <u xml:id="i-188df04bf92484c9-226" prev="i-188df04bf92484c9-222" who="Q911372">
+            <seg>
               Bulken i ungdomsarbetslösheten är ungdomar som inte ens är behöriga
               till högskolan, så det är ingen lösning att bygga ut fler platser
               för dem, utan det är komvux och annat som behövs för dem. Staten
               satsar väsentligt mer på vuxenutbildning i dag än vad staten satsade
               2006 på grund av krisen.
             </seg>
-            <seg n="aa4519b6">
+          </u>
+          <u xml:id="i-188df04bf92484c9-227" prev="i-188df04bf92484c9-222" who="Q911372">
+            <seg>
               Herr talman! Det finns en annan aspekt av detta. Jag tar ofta
               den här typen av debatter med socialdemokratiska riksdagsledamöter,
               och jag kan säga att Agneta Gille är den första som argumenterar
@@ -2245,18 +2611,20 @@
               Hultqvist i Borlänge är ett exempel, som säger att vi ska ta pengar
               från Uppsala och Lund och sprida ut på de små högskolorna.
             </seg>
-            <seg n="bf485fef">
+          </u>
+          <u xml:id="i-188df04bf92484c9-228" prev="i-188df04bf92484c9-222" who="Q911372">
+            <seg>
               Det skulle vara intressant att höra vad Agneta Gille säger om
               den argumentationen. Vad de säger är att det är så det blir om
               Socialdemokraterna tar över. Jag skulle vilja höra Agneta Gilles
               kommentar till det.
             </seg>
           </u>
-          <note type="speaker" n="d8eb1559">
+          <note type="speaker">
             Anf. 40 AGNETA GILLE (S):
           </note>
-          <u who="Q3375136" xml:id="i-cdff5ed866bd6632-1" n="eb62b598">
-            <seg n="4b2f2871">
+          <u xml:id="i-188df04bf92484c9-229" next="i-188df04bf92484c9-237" who="Q3375136">
+            <seg>
               Herr talman! Jag läste lite grann på Uppsala universitets rektorsblogg,
               och där står det att det har varit en myndighetsdialog mellan
               rektorerna och Utbildningsdepartementet. De fick inga löften eller
@@ -2268,19 +2636,25 @@
               bara ett rekord i antalet ansökningar, utan det kommer också att
               bli ett rekord i antalet avslagna ansökningar.
             </seg>
-            <seg n="07091b25">
+          </u>
+          <u xml:id="i-188df04bf92484c9-230" prev="i-188df04bf92484c9-229" who="Q3375136">
+            <seg>
               Det är mycket beklämmande, ministern, att det är på detta sätt.
               Vi tycker från Socialdemokraternas sida att det är oerhört viktigt
               att satsa på högskola och högre utbildning.
             </seg>
-            <seg n="0396c406">
+          </u>
+          <u xml:id="i-188df04bf92484c9-231" prev="i-188df04bf92484c9-229" who="Q3375136">
+            <seg>
               Jag kan inte gå i svaromål för vad mina partikamrater har sagt,
               men vi har en satsning på de högre utbildningarna. Det är det
               som är det viktiga. Vi har haft med krav på 35 000 nya utbildningsplatser
               som skulle skapas. Det finns alltså hela tiden en vilja från vår
               sida att ta med detta.
             </seg>
-            <seg n="67c8e2ba">
+          </u>
+          <u xml:id="i-188df04bf92484c9-232" prev="i-188df04bf92484c9-229" who="Q3375136">
+            <seg>
               Jag vill nämna för ministern, gällande artikeln som jag talade
               om, att journalisten hade sökt ministern för att få en kommentar.
               Han lyckades inte med det, utan minister Björklund avböjde och
@@ -2294,41 +2668,51 @@
               gjorts, och nu får vi reda på här att de här utbildningspengarna
               bara har varit tillfälliga satsningar som har avslutats.
             </seg>
-            <seg n="d63b68e0">
+          </u>
+          <u xml:id="i-188df04bf92484c9-233" prev="i-188df04bf92484c9-229" who="Q3375136">
+            <seg>
               Först tog man bort 20 000 platser, och sedan tillförde man ett
               antal platser och sade: Hej och hå, vad vi satsar på utbildning
               och är duktiga på att ta fram detta! Men man glömde bort den stora
               neddragning som gjordes.
             </seg>
-            <seg n="4fec112c">
+          </u>
+          <u xml:id="i-188df04bf92484c9-234" prev="i-188df04bf92484c9-229" who="Q3375136">
+            <seg>
               Man måste också mäta det här i förhållande till befolkningsmängden.
               Det gör vi när det gäller arbetsmarknadssiffror och arbetade timmar,
               så varför inte också när det gäller utbildning?
             </seg>
-            <seg n="96093f99">
+          </u>
+          <u xml:id="i-188df04bf92484c9-235" prev="i-188df04bf92484c9-229" who="Q3375136">
+            <seg>
               Ni har satsat på över 100 miljarder i skattesänkningar. Är det
               viktigare för ministern att satsa på de här skattesänkningarna
               än att låta Sveriges unga få en utbildning så att Sverige laddar
               och gör sig redo för att återigen ta initiativet och få väldigt
               framgångsrika företag?
             </seg>
-            <seg n="e90c239b">
+          </u>
+          <u xml:id="i-188df04bf92484c9-236" prev="i-188df04bf92484c9-229" who="Q3375136">
+            <seg>
               Jag vill också, om ministern ursäktar, återge en kommentar på
               Twitter som jag smålog åt. Det stod så här: Om Jan Björklund skulle
               vara ledare för det svenska friidrottsförbundet skulle höjdhopparna
               bli tvungna att gå tillbaka till saxstilen.
             </seg>
-            <seg n="3e5fbbf6">
+          </u>
+          <u xml:id="i-188df04bf92484c9-237" prev="i-188df04bf92484c9-229" who="Q3375136">
+            <seg>
               Så vill inte de unga ha det i dag. Jag skulle vilja ha ett svar
               från minister Björklund. Vilket besked ska jag lämna till de unga
               i Uppsala?
             </seg>
           </u>
-          <note type="speaker" n="46c849ea">
+          <note type="speaker">
             Anf. 41 Utbildningsminister JAN BJÖRKLUND (FP):
           </note>
-          <u who="Q911372" xml:id="i-0a258bd270f7e612-18" n="5e7f58aa">
-            <seg n="855c42b5">
+          <u xml:id="i-188df04bf92484c9-238" next="i-188df04bf92484c9-246" who="Q911372">
+            <seg>
               Herr talman! Lägg siffran 2 500 på minnet. Det är 2 500 fler
               platser i Uppsala med mig som utbildningsminister än vad det var
               när Socialdemokraterna styrde. 2 500 platser. Eftersom inte alla
@@ -2336,7 +2720,9 @@
               fler studenter. Det är 27 000 fler platser på universitet och
               högskolor i dag än vad det var när Socialdemokraterna styrde.
             </seg>
-            <seg n="e8b3ce8b">
+          </u>
+          <u xml:id="i-188df04bf92484c9-239" prev="i-188df04bf92484c9-238" who="Q911372">
+            <seg>
               Sifferexercisen är svår att hänga med i med 10 000 eller 5 000
               platser fram och tillbaka, men när man räknar ihop allt är det
               27 000 fler platser vid universitet och högskolor i dag än när
@@ -2344,7 +2730,9 @@
               i svensk högskola som 2011 när jag var utbildningsminister, aldrig
               någonsin.
             </seg>
-            <seg n="b3211f0a">
+          </u>
+          <u xml:id="i-188df04bf92484c9-240" prev="i-188df04bf92484c9-238" who="Q911372">
+            <seg>
               Jag lovar att det finns 500 myndighetschefer i Sverige rektorer
               för högskolor och alla möjliga generaldirektörer som alla om de
               blir intervjuade i en tidning kommer att säga att de vill ha mer
@@ -2355,7 +2743,9 @@
               Så funkar det inte, och så funkade det inte med tidigare regeringar
               heller.
             </seg>
-            <seg n="c8601317">
+          </u>
+          <u xml:id="i-188df04bf92484c9-241" prev="i-188df04bf92484c9-238" who="Q911372">
+            <seg>
               Jag noterar en sak, och det är att Agneta Gille undviker frågan
               om hur vi ska fördela resurserna. Det är sant att många studenter
               söker till de stora universiteten i Uppsala och på andra orter.
@@ -2364,7 +2754,9 @@
               på regionala högskolor. Det är det system vi har, och det är tidigare
               regeringar som har valt det, nämligen socialdemokratiska sådana.
             </seg>
-            <seg n="e4ebc4f9">
+          </u>
+          <u xml:id="i-188df04bf92484c9-242" prev="i-188df04bf92484c9-238" who="Q911372">
+            <seg>
               Jag är beredd att göra så att vi tar in dem som söker till Uppsala
               universitet, men följden blir att man får lägga ned högskolorna
               runt omkring. Jag kan lova att det får Agneta Gille inte stöd
@@ -2373,7 +2765,9 @@
               vi ska satsa på de regionala högskolorna och aldrig på de stora
               universiteten. Där ska man skära ned.
             </seg>
-            <seg n="d76828fe">
+          </u>
+          <u xml:id="i-188df04bf92484c9-243" prev="i-188df04bf92484c9-238" who="Q911372">
+            <seg>
               De ord som till exempel Peter Persson och Peter Hultqvist använder
               i den här debatten om Uppsala universitet och Lunds universitet
               är otroligt nedlåtande. Det är så tongångarna är i ditt parti,
@@ -2384,20 +2778,26 @@
               är vi överens. Men det hjälper inte att du ensam tycker så om
               du inte har ditt parti med dig. Det är det som det handlar om.
             </seg>
-            <seg n="949bb62b">
+          </u>
+          <u xml:id="i-188df04bf92484c9-244" prev="i-188df04bf92484c9-238" who="Q911372">
+            <seg>
               Jag är medveten om att vi har ett jättestort söktryck i Uppsala,
               Lund och några ställen till. Skulle vi släppa in alla sökande
               där skulle flera av de små högskolorna knappt finnas. Det är sanningen.
               Låt oss diskutera den förändringen om det är det du vill och om
               du har ditt parti med dig.
             </seg>
-            <seg n="0de88bb0">
+          </u>
+          <u xml:id="i-188df04bf92484c9-245" prev="i-188df04bf92484c9-238" who="Q911372">
+            <seg>
               I stort sett kommer alla som söker till svensk högskola in. Alla
               kommer inte in på sina förstahandsval, för det är så systemet
               är konstruerat, men alla kommer in. Så kommer det att vara nu
               också.
             </seg>
-            <seg n="a2454e5c">
+          </u>
+          <u xml:id="i-188df04bf92484c9-246" prev="i-188df04bf92484c9-238" who="Q911372">
+            <seg>
               Sedan står vi inför en stor demografisk nedgång de kommande åren
               då ungdomskullarna sjunker dramatiskt. Det är därför som gymnasieskolor
               läggs ned i Sverige just nu. Om några år blir det många tomma
@@ -2408,11 +2808,11 @@
               gång jag tar upp frågan.
             </seg>
           </u>
-          <note type="speaker" n="7d0cf4cd">
+          <note type="speaker">
             Anf. 42 AGNETA GILLE (S):
           </note>
-          <u who="Q3375136" xml:id="i-cdff5ed866bd6632-2" n="eb62b598">
-            <seg n="15daffea">
+          <u xml:id="i-188df04bf92484c9-247" next="i-188df04bf92484c9-250" who="Q3375136">
+            <seg>
               Herr talman! Jag är väldigt angelägen om att totalen av antalet
               högskoleplatser blir högre. Det är totalen som är viktig. Jag
               är naturligtvis också angelägen om att vi har en fördelning över
@@ -2424,19 +2824,25 @@
               Söktrycket är en del av det. Att se till att vi får den spridningen
               över landet är viktigt.
             </seg>
-            <seg n="62b297c7">
+          </u>
+          <u xml:id="i-188df04bf92484c9-248" prev="i-188df04bf92484c9-247" who="Q3375136">
+            <seg>
               Det behövs fler utbildningsplatser i hela landet. Det behövs
               fler vid Uppsala universitet och säkert också vid Lunds universitet.
               Det behövs fler högskoleplatser och utbildningsmöjligheter. Det
               är kärnan i denna debatt.
             </seg>
-            <seg n="2790f071">
+          </u>
+          <u xml:id="i-188df04bf92484c9-249" prev="i-188df04bf92484c9-247" who="Q3375136">
+            <seg>
               Sedan har vi synen på utbildningen att vara så nöjd med att utbildningsresultaten
               sjunker. Det känns som om man går tillbaka i tiden. Det är föråldrat.
               Det är en signal från minister Björklunds sida till skolsystemet,
               till skolorna och utbildningen, som inte är bra.
             </seg>
-            <seg n="1a145567">
+          </u>
+          <u xml:id="i-188df04bf92484c9-250" prev="i-188df04bf92484c9-247" who="Q3375136">
+            <seg>
               Nej, vi behöver skärpa oss. Vi behöver se till att utbildningsnivåerna
               blir bättre, att antalet utbildningsplatser utökas, att det blir
               en satsning så att vi förbereder Sverige med kvalificerad yrkesutbildning
@@ -2445,11 +2851,11 @@
               att se en sådan tendens efter nästa val.
             </seg>
           </u>
-          <note type="speaker" n="e56bf48c">
+          <note type="speaker">
             Anf. 43 Utbildningsminister JAN BJÖRKLUND (FP):
           </note>
-          <u who="Q911372" xml:id="i-0a258bd270f7e612-19" n="5e7f58aa">
-            <seg n="671442c0">
+          <u xml:id="i-188df04bf92484c9-251" next="i-188df04bf92484c9-255" who="Q911372">
+            <seg>
               Herr talman! Jag är glad att Agneta Gille berömde sammanläggningen
               av Uppsala universitet och högskolan på Gotland. Hon skulle ha
               hört sina partikamrater när jag fattade det beslutet. Det var
@@ -2458,7 +2864,9 @@
               att det beslutet fattades, men det hade inte fattats med en rödgrön
               regering, det kan jag säga.
             </seg>
-            <seg n="37fff870">
+          </u>
+          <u xml:id="i-188df04bf92484c9-252" prev="i-188df04bf92484c9-251" who="Q911372">
+            <seg>
               Nu flög debatten i väg till andra frågor. Ja, utbildningsresultaten
               sjunker i svensk skola. Så är det. Därför lägger vi om hela den
               svenska utbildningspolitiken. Det blir nya läroplaner, nytt betygssystem,
@@ -2468,13 +2876,17 @@
               skapade problemen skulle fortsätta att föras. Det var ert alternativ,
               Agneta Gille.
             </seg>
-            <seg n="0ef8ef5c">
+          </u>
+          <u xml:id="i-188df04bf92484c9-253" prev="i-188df04bf92484c9-251" who="Q911372">
+            <seg>
               Vi lägger nu om politiken. Det blir högre krav för att bli lärare,
               högre krav i skolan, mer utvärdering och bedömning, fler speciallärare,
               alltså en lång rad förändringar. Vi gör det för att den gamla
               politiken hade totalhavererat. Det är sanningen.
             </seg>
-            <seg n="63ced573">
+          </u>
+          <u xml:id="i-188df04bf92484c9-254" prev="i-188df04bf92484c9-251" who="Q911372">
+            <seg>
               När det gäller högskolan kan man inte bara räkna antalet platser.
               Trots det, ska jag säga, har det aldrig varit så många platser
               i svensk högskola som under min tid som minister, aldrig någonsin
@@ -2487,23 +2899,25 @@
               ha akademisk kvalitet på våra högskolor. Det är bakgrunden till
               våra reformer.
             </seg>
-            <seg n="92909d82">
+          </u>
+          <u xml:id="i-188df04bf92484c9-255" prev="i-188df04bf92484c9-251" who="Q911372">
+            <seg>
               Uppsala har fler platser nu om vi enbart talar om Uppsala universitet
               än de hade när Agneta Gilles parti styrde. Det vet också rektor
               och skolledning där.
             </seg>
           </u>
-          <note n="7d3cda02">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="5b5e03ff">
+          <note>
             13 § Svar på interpellation 2012/13:411 om jämställdheten i näringslivet
           </note>
-          <note type="speaker" n="819ab6de">
+          <note type="speaker">
             Anf. 44 Statsrådet MARIA ARNHOLM (FP):
           </note>
-          <u who="unknown" xml:id="i-0a258bd270f7e612-20" n="cf28293b">
-            <seg n="15401ae3">
+          <u xml:id="i-188df04bf92484c9-256" next="i-188df04bf92484c9-261" who="Q3540867">
+            <seg>
               Herr talman! Patrik Björck har frågat mig om jag tänker ta initiativ
               till konkreta förslag på ökad jämställdhet i näringslivet på såväl
               nationell som europeisk nivå. Han har också frågat om jag tänker
@@ -2511,21 +2925,27 @@
               initiativ att öka jämställdheten i näringslivet bland annat genom
               kvotering till bolagsstyrelser.
             </seg>
-            <seg n="02564293">
+          </u>
+          <u xml:id="i-188df04bf92484c9-257" prev="i-188df04bf92484c9-256" who="Q3540867">
+            <seg>
               Regeringens och min uppfattning om lagstiftning för att åstadkomma
               en jämn könsfördelning i bolagsstyrelserna är väl känd. Det är
               ägarna, inte politikerna, som ska ha ansvar för att se till att
               styrelsen präglas av en mångfald och att den samlade kompetens
               som finns bland både kvinnor och män tas till vara.
             </seg>
-            <seg n="c47e1ab1">
+          </u>
+          <u xml:id="i-188df04bf92484c9-258" prev="i-188df04bf92484c9-256" who="Q3540867">
+            <seg>
               I de företag som staten äger har vi tagit detta ansvar, och vi
               har åstadkommit en jämn könsfördelning. Det bör också börsbolagen
               kunna göra, inte minst mot bakgrund av att de genom koden för
               bolagsstyrning ålagt sig själva att främja jämn könsfördelning
               i styrelserna.
             </seg>
-            <seg n="4b90c307">
+          </u>
+          <u xml:id="i-188df04bf92484c9-259" prev="i-188df04bf92484c9-256" who="Q3540867">
+            <seg>
               Vad gäller kommissionens direktivförslag anser regeringen inte
               att frågan om könsfördelning i bolagsstyrelser lämpar sig för
               lagstiftning på EU-nivå, en bedömning som för övrigt både riksdagen
@@ -2538,7 +2958,9 @@
               om minst 40 procent av vartdera könet får tillämpa dessa i stället
               för direktivets regler.
             </seg>
-            <seg n="66a71202">
+          </u>
+          <u xml:id="i-188df04bf92484c9-260" prev="i-188df04bf92484c9-256" who="Q3540867">
+            <seg>
               Jag för kontinuerliga samtal med företrädare för näringslivet
               för att diskutera vad näringslivet kan göra, och vad politiken
               kan bidra med. En central fråga är varför vissa företag lyckas
@@ -2546,18 +2968,20 @@
               könsfördelning i ledningen har bestämt sig på högsta ledningsnivå
               att utgå från kompetens, inte manligt kön.
             </seg>
-            <seg n="5ef91a94">
+          </u>
+          <u xml:id="i-188df04bf92484c9-261" prev="i-188df04bf92484c9-256" who="Q3540867">
+            <seg>
               Jag kommer att fortsätta dialogen med näringslivet och andra
               centrala aktörer för att diskutera strategier för hur synen på
               bemanningen av ledande positioner och av styrelser kan utvecklas,
               med en jämn könsfördelning som mål.
             </seg>
           </u>
-          <note type="speaker" n="d77a9db9">
+          <note type="speaker">
             Anf. 45 PATRIK BJÖRCK (S):
           </note>
-          <u who="Q5577436" xml:id="i-5f2650a8e406d938-0" n="805908d5">
-            <seg n="ca9985c5">
+          <u xml:id="i-188df04bf92484c9-262" next="i-188df04bf92484c9-266" who="Q5577436">
+            <seg>
               Herr talman! Tack så mycket, ministern, för svaret på interpellationen!
               Jag inledde min interpellation med att hänvisa till Norge. Norge
               har tagit över ledartröjan och blivit ett föregångsland i jämställdhet.
@@ -2567,7 +2991,9 @@
               regeringen skulle ha ställt sig bakom, stöttat och varit en del
               av.
             </seg>
-            <seg n="3ba761be">
+          </u>
+          <u xml:id="i-188df04bf92484c9-263" prev="i-188df04bf92484c9-262" who="Q5577436">
+            <seg>
               Från att tidigare, herr talman, ha varit ett föregångsland på
               jämställdhetsområdet har Sverige numera sällat sig till bakåtsträvarna.
               Sverige borde naturligtvis i stället ha stöttat de progressiva
@@ -2575,7 +3001,9 @@
               näringslivet. Det är grunden till interpellationen, alltså det
               sorgliga faktum att Sverige numera tillhör bakåtsträvarna i jämställdhetsarbetet.
             </seg>
-            <seg n="3f611be3">
+          </u>
+          <u xml:id="i-188df04bf92484c9-264" prev="i-188df04bf92484c9-262" who="Q5577436">
+            <seg>
               Det är dock sorgligare än så, herr talman. I sitt svar till mig
               säger ministern, och det står också i det skrivna svaret, att
               regeringens och min, det vill säga ministerns, uppfattning om
@@ -2587,7 +3015,9 @@
               inte alltid få igenom allt vad man vill. Jag har stor respekt
               för det.
             </seg>
-            <seg n="21c51dae">
+          </u>
+          <u xml:id="i-188df04bf92484c9-265" prev="i-188df04bf92484c9-262" who="Q5577436">
+            <seg>
               Det sorgliga i det här fallet är att det numera är Folkpartiet
               som är bromsklossen i jämställdhetsarbetet i regeringen. Det är
               någonting nytt. Om det varit så att ministern visat framåtanda
@@ -2599,7 +3029,9 @@
               som bromsar regeringen i frågorna om jämställdhet är naturligtvis
               smärtsam för alla oss som tycker att jämställdhet är viktigt.
             </seg>
-            <seg n="15917b54">
+          </u>
+          <u xml:id="i-188df04bf92484c9-266" prev="i-188df04bf92484c9-262" who="Q5577436">
+            <seg>
               Vi har alltså att hantera två stora besvikelser. Den ena besvikelsen
               i jämställdhetsarbetet är Sveriges position. Den andra besvikelsen
               i jämställdhetsarbetet är Folkpartiets position. Dessa förändringar
@@ -2612,11 +3044,11 @@
               oss.
             </seg>
           </u>
-          <note type="speaker" n="77d0a4a4">
+          <note type="speaker">
             Anf. 46 MARGARETA CEDERFELT (M):
           </note>
-          <u who="Q4942378" xml:id="i-0a258bd270f7e612-21" n="3f2930fb">
-            <seg n="05f16197">
+          <u xml:id="i-188df04bf92484c9-267" next="i-188df04bf92484c9-272" who="Q4942378">
+            <seg>
               Herr talman! Jag begärde ordet därför att frågan om könskvotering
               till bolagsstyrelser var uppe för subsidiaritetsprövning i civilutskottet
               före jul. Jag tror faktiskt att ärendet debatterades sista dagen
@@ -2625,19 +3057,25 @@
               och att vi i Sverige ser det som att det är ägarens ansvar hur
               styrelsen ska utses.
             </seg>
-            <seg n="61175fce">
+          </u>
+          <u xml:id="i-188df04bf92484c9-268" prev="i-188df04bf92484c9-267" who="Q4942378">
+            <seg>
               Jag tycker att detta är en viktig fråga som vi som svenskar ska
               ställa oss bakom, för det är viktigt att ha en stark och tydlig
               styrelse som har ett uppdrag från ägarna.
             </seg>
-            <seg n="c12826ed">
+          </u>
+          <u xml:id="i-188df04bf92484c9-269" prev="i-188df04bf92484c9-267" who="Q4942378">
+            <seg>
               Som jämställdhetsministern sade finns det en kod för bolagsstyrning
               som näringslivet självt har arbetat fram och också ska följa.
               Från politiskt håll har åtskilliga initiativ tagits av Näringsdepartementet.
               Jag tänker på mentorprogram, kvinnliga förebilder och så vidare.
               Det är viktigt att komma ihåg att detta arbete sker.
             </seg>
-            <seg n="35a08e75">
+          </u>
+          <u xml:id="i-188df04bf92484c9-270" prev="i-188df04bf92484c9-267" who="Q4942378">
+            <seg>
               Vad jag också vill lyfta fram är att det är väldigt lätt att
               fokusera på styrelsen när det handlar om jämställdhetsfrågor.
               Men kom ihåg att det också finns ledningsfunktioner i företagen!
@@ -2648,13 +3086,17 @@
               jag på alla dessa unga kvinnor och män som utbildar sig och ska
               kunna veta att det finns en karriär på lika villkor.
             </seg>
-            <seg n="87e9ad75">
+          </u>
+          <u xml:id="i-188df04bf92484c9-271" prev="i-188df04bf92484c9-267" who="Q4942378">
+            <seg>
               När Patrik Björck står och talar om att Alliansen är en bromskloss
               svarar jag med ett rakt nej. Det är vi inte. Samtliga fyra partier
               inom Alliansen står enade. Detta gjorde vi i civilutskottet, och
               det gör vi nu också.
             </seg>
-            <seg n="17b9d5fe">
+          </u>
+          <u xml:id="i-188df04bf92484c9-272" prev="i-188df04bf92484c9-267" who="Q4942378">
+            <seg>
               Jag skulle vilja slå tillbaka mot Socialdemokraterna. Vad gjorde
               ni egentligen under alla de år då ni befann er i majoritet, och
               vad gör ni nu? Ni talar om att kvinnors företagande inte ska räknas,
@@ -2670,11 +3112,11 @@
               näringslivet!
             </seg>
           </u>
-          <note type="speaker" n="92ea05dc">
+          <note type="speaker">
             Anf. 47 CHRISTER NYLANDER (FP):
           </note>
-          <u who="Q5109199" xml:id="i-811b4c2be4f4dbe7-0" n="d5619b18" next="i-bd065e9cd6767dd6-0">
-            <seg n="74d07ca9">
+          <u xml:id="i-188df04bf92484c9-273" next="i-188df04bf92484c9-278" who="Q5109199">
+            <seg>
               Herr talman! Jag begärde ordet när Patrik Björck sade att Sverige
               är ett bakåtsträvande land och att Folkpartiet numera är en bromskloss.
               Det är ett mycket konstigt ställningstagande som också visar på
@@ -2684,7 +3126,9 @@
               enda jämställdhetsfrågan. Det är utifrån den som Sverige och Folkpartiet
               ska mätas. Det blir väldigt märkligt.
             </seg>
-            <seg n="36c75e9a">
+          </u>
+          <u xml:id="i-188df04bf92484c9-274" prev="i-188df04bf92484c9-273" who="Q5109199">
+            <seg>
               Jag skulle vilja se ett Sverige som sjuder av framtidshopp, där
               unga tjejer och killar känner att det är ett land där de kan förverkliga
               sig själva och har stora chanser att nå sina livsmål, inte därför
@@ -2700,7 +3144,9 @@
               land som inte är fullt jämställt. Man ska identifiera de verkliga
               hindren i vardagen, inte leta efter symbolfrågor.
             </seg>
-            <seg n="e9c9d166">
+          </u>
+          <u xml:id="i-188df04bf92484c9-275" prev="i-188df04bf92484c9-273" who="Q5109199">
+            <seg>
               Herr talman! I själva verket tror jag att fokuset på enskilda
               symbolfrågor, när vi väljer att identifiera några enstaka saker,
               ibland kommer att innebära att jämställdhetsarbetet försvåras.
@@ -2714,7 +3160,9 @@
               om tjejer och killar i det här landet ska ha lika möjlighet att
               forma sina egna liv.
             </seg>
-            <seg n="47a202ff">
+          </u>
+          <u xml:id="i-188df04bf92484c9-276" prev="i-188df04bf92484c9-273" who="Q5109199">
+            <seg>
               Jag roade mig tidigare med att kolla vilka interpellationer Patrik
               Björck ställt i jämställdhetsfrågan under detta riksmöte. 100
               procent av dessa två handlar om kvotering till bolagsstyrelser.
@@ -2724,7 +3172,9 @@
               se de verkliga strukturer som innebär att tjejer och killar i
               det här landet inte har samma chans.
             </seg>
-            <seg n="7f5a4013">
+          </u>
+          <u xml:id="i-188df04bf92484c9-277" prev="i-188df04bf92484c9-273" who="Q5109199">
+            <seg>
               Herr talman! Ansvarigt statsråd tog tidigare upp att hon diskuterar
               rätt mycket med arbetsmarknadens parter och näringslivet om andra
               verkningsfulla saker som kan göras. Jag tycker att det vore väldigt
@@ -2733,37 +3183,39 @@
               statsrådet också använde någon sekund till att prata om sådant.
             </seg>
           </u>
-          <note n="f115e06a">
+          <note>
             Ajournering
           </note>
-          <note n="d6324d72">
+          <note>
             Kammaren beslutade kl. 15.57 på förslag av tredje vice talmannen
             att ajournera förhandlingarna till kl. 18.00.
           </note>
-          <u who="Q5109199" xml:id="i-bd065e9cd6767dd6-0" n="d5619b18" prev="i-811b4c2be4f4dbe7-0">
-            <seg n="777848fe">
+          <u xml:id="i-188df04bf92484c9-278" prev="i-188df04bf92484c9-273" who="Q5109199">
+            <seg>
               Återupptagna förhandlingar
             </seg>
           </u>
-          <note n="0fd01791">
+          <note>
             Förhandlingarna återupptogs kl. 18.00.
           </note>
-          <note n="f1e03d6c">
+          <note>
             13 § (forts.) Svar på interpellation 2012/13:411 om jämställdheten
             i näringslivet
           </note>
-          <note type="speaker" n="a2b803a3">
+          <note type="speaker">
             Anf. 48 Statsrådet MARIA ARNHOLM (FP):
           </note>
-          <u who="unknown" xml:id="i-0a258bd270f7e612-22" n="cf28293b">
-            <seg n="e50c6934">
+          <u xml:id="i-188df04bf92484c9-279" next="i-188df04bf92484c9-283" who="Q3540867">
+            <seg>
               Herr talman! Låt mig börja det här inlägget med att trösta Patrik
               Björck och försöka gjuta lita olja på hans besvikelsevågor: Sverige
               är i sanning fortfarande ett föregångsland när det gäller jämställdhetsarbete.
               I fyra av fem internationella undersökningar hamnar Sverige på
               första plats.
             </seg>
-            <seg n="78ccd13b">
+          </u>
+          <u xml:id="i-188df04bf92484c9-280" prev="i-188df04bf92484c9-279" who="Q3540867">
+            <seg>
               I mars i år hade jag förmånen att leda en delegation av svenska
               delegater som på CSW, kvinnokonferensen i New York, bidrog till
               att finna konsensus kring ett radikalt och bra manifest för utvecklingen
@@ -2775,7 +3227,9 @@
               väcker också stor upprymdhet och glädje i hela världens kvinnorörelser
               att vi i Sverige och Norden tar det initiativet.
             </seg>
-            <seg n="8cb88fff">
+          </u>
+          <u xml:id="i-188df04bf92484c9-281" prev="i-188df04bf92484c9-279" who="Q3540867">
+            <seg>
               I förra veckan var jag inbjuden till Polen för att berätta hur
               vi håller en hög nativitet genom en jämställdhets- och familjepolitik
               som verkligen är föregångare i världen. Jag är också ansvarig
@@ -2783,7 +3237,9 @@
               när det gäller att jobba med genuspedagoger och när det gäller
               att erbjuda kvinnor och män möjlighet att förvärvsarbeta.
             </seg>
-            <seg n="29646f52">
+          </u>
+          <u xml:id="i-188df04bf92484c9-282" prev="i-188df04bf92484c9-279" who="Q3540867">
+            <seg>
               När det så gäller representationen av kvinnor i maktens styrelserum
               har vi i de statligt ägda bolagen numera 49 procent i styrelserna,
               och 43 procent av vd:arna i våra bolag är kvinnor. Vi har också
@@ -2795,7 +3251,9 @@
               andra vägar, att föra diskussion och följa allt det som händer
               på det här området inom den privata sektorn, och det gör jag också.
             </seg>
-            <seg n="84f185a5">
+          </u>
+          <u xml:id="i-188df04bf92484c9-283" prev="i-188df04bf92484c9-279" who="Q3540867">
+            <seg>
               Jag accepterar dock inte Patrik Björcks världsbild att den enda
               och allena avgörande frågan för om man är en mörkblå kolsvart
               bakåtsträvare eller framåtsyftande politiker handlar om huruvida
@@ -2805,18 +3263,20 @@
               säga att jag är jämställdhetsminister i ett land som är en föregångare.
             </seg>
           </u>
-          <note type="speaker" n="e914562b">
+          <note type="speaker">
             Anf. 49 PATRIK BJÖRCK (S):
           </note>
-          <u who="Q5577436" xml:id="i-5f2650a8e406d938-1" n="805908d5">
-            <seg n="ee4d6757">
+          <u xml:id="i-188df04bf92484c9-284" next="i-188df04bf92484c9-290" who="Q5577436">
+            <seg>
               Herr talman! Det är sant; vi är fortfarande ett land som i internationell
               jämförelse sticker ut. Jag förstår att jämställdhetsministern
               i till exempel FN-sammanhang kan så att säga göra fördel jämställdhetsfrågorna.
               Jag vill inte ta ifrån jämställdhetsministern det, och jag ska
               vara ärlig och säga att jag förstår det.
             </seg>
-            <seg n="7be99366">
+          </u>
+          <u xml:id="i-188df04bf92484c9-285" prev="i-188df04bf92484c9-284" who="Q5577436">
+            <seg>
               Jag ställer dock mycket högre krav. Det är ungefär som när finansministern
               säger att svensk arbetslöshet är bra jämfört med Greklands. Då
               ställer jag mycket högre krav. Jag jämför såklart inte Sveriges
@@ -2826,7 +3286,9 @@
               hade naturligtvis inte varit så stor om Folkpartiet inte hade
               haft en så stolt historia. Det är alltså bakgrunden.
             </seg>
-            <seg n="c7cb75cf">
+          </u>
+          <u xml:id="i-188df04bf92484c9-286" prev="i-188df04bf92484c9-284" who="Q5577436">
+            <seg>
               Svenska Dagbladet hade för några veckor sedan en artikel om kvotering.
               Där stod det: Norge blev 2005 först i världen med detta när man
               införde regler om minst 40 procent kvinnor i bolagsstyrelserna.
@@ -2836,7 +3298,9 @@
               som sker går mycket sakta. Mellan 2010 och 2012 ökade andelen
               kvinnor i svenska bolagsstyrelser med endast 1,9 procentenheter.
             </seg>
-            <seg n="2f3d31cd">
+          </u>
+          <u xml:id="i-188df04bf92484c9-287" prev="i-188df04bf92484c9-284" who="Q5577436">
+            <seg>
               Sedan står det något intressant, herr talman. Det är ändå så
               när man ska jämföra sig att det är spännande att se om det är
               vi som är annorlunda som vill ta till lagstiftning eller om det
@@ -2847,7 +3311,9 @@
               att ta in fler kvinnor i styrelserna. Ett lagförslag inom EU är
               också på gång även om det mött motstånd.
             </seg>
-            <seg n="5cbe7714">
+          </u>
+          <u xml:id="i-188df04bf92484c9-288" prev="i-188df04bf92484c9-284" who="Q5577436">
+            <seg>
               I den kontexten, herr talman, blir det inte så väldigt extremt,
               märkvärdigt eller en revolutionär metod att lagstifta. Det verkar
               i stället vara ganska mainstream och så att säga normaliteten
@@ -2858,7 +3324,9 @@
               dock de andra beredda att göra någonting, men det är ju inte jämställdhetsministern.
               Det är det som är så anmärkningsvärt.
             </seg>
-            <seg n="f99cba52">
+          </u>
+          <u xml:id="i-188df04bf92484c9-289" prev="i-188df04bf92484c9-284" who="Q5577436">
+            <seg>
               Jag skulle tycka att det normala hade varit att Sverige gick
               före även i denna fråga. I många frågor ligger vi, precis som
               jämställdhetsministern är inne på, i framkant långt i framkant.
@@ -2868,7 +3336,9 @@
               en topposition håller vi på att tappa, och dessutom tappar vi
               initiativet.
             </seg>
-            <seg n="e3810c65">
+          </u>
+          <u xml:id="i-188df04bf92484c9-290" prev="i-188df04bf92484c9-284" who="Q5577436">
+            <seg>
               Vi borde naturligtvis, jämsides med Norge, ha gått i täten för
               jämställdhet även i näringslivet och inte som det nu är liksom
               sträva emot och gå emot EU-arbetet. Vi är inte de som går först.
@@ -2882,38 +3352,48 @@
               lite, om jag ska vara precis.
             </seg>
           </u>
-          <note type="speaker" n="a76ff62e">
+          <note type="speaker">
             Anf. 50 Statsrådet MARIA ARNHOLM (FP):
           </note>
-          <u who="unknown" xml:id="i-0a258bd270f7e612-23" n="cf28293b">
-            <seg n="c6184a9e">
+          <u xml:id="i-188df04bf92484c9-291" next="i-188df04bf92484c9-297" who="Q3540867">
+            <seg>
               Herr talman! Precis som Patrik Björck säger är det många som
               engagerar sig och jobbar för att öka andelen kvinnor och öka mångfalden
               i maktens rum. De finns rikligt företrädda i svenskt näringsliv,
               och det finns mycket intressant att lära sig av och följa där.
             </seg>
-            <seg n="6843350c">
+          </u>
+          <u xml:id="i-188df04bf92484c9-292" prev="i-188df04bf92484c9-291" who="Q3540867">
+            <seg>
               Battle of the numbers är ett initiativ där tio stora bolag med
               sina ledningar i spetsen nu jobbar under ett år för att öka jämställdheten
               i sina företag.
             </seg>
-            <seg n="7d860dfb">
+          </u>
+          <u xml:id="i-188df04bf92484c9-293" prev="i-188df04bf92484c9-291" who="Q3540867">
+            <seg>
               Det finns något som heter Styrelsebalans, som i helsidesannonser
               i Dagens Industri berättar att deras uppgift och det de jobbar
               med är att rekrytera och förmedla kvinnliga styrelseledamöter.
             </seg>
-            <seg n="e8ac8d31">
+          </u>
+          <u xml:id="i-188df04bf92484c9-294" prev="i-188df04bf92484c9-291" who="Q3540867">
+            <seg>
               Vi har Rättviseförmedlingen, den civilsamhällesorganisation eller
               gräsrotsrörelse där 41 000 personer samarbetar för att hjälpa
               till att sprida kompetens också från andra än heterosexuella,
               vita män.
             </seg>
-            <seg n="aa65e1f5">
+          </u>
+          <u xml:id="i-188df04bf92484c9-295" prev="i-188df04bf92484c9-291" who="Q3540867">
+            <seg>
               Vi har stiftelsen Allbright, som varje år gör rapporteringar,
               följer upp och finns överallt där jag rör mig. De diskuterar och
               debatterar de här frågorna.
             </seg>
-            <seg n="a5ee2e71">
+          </u>
+          <u xml:id="i-188df04bf92484c9-296" prev="i-188df04bf92484c9-291" who="Q3540867">
+            <seg>
               Varje vecka besöker jag företag som Scan, 3M, H &amp; M och Volvo
               Lastvagnar där det pågår ett intensivt och hårt arbete, ibland
               med kvotering som självvald arbetsmetod. Jag tycker att kvotering
@@ -2929,7 +3409,9 @@
               där man vid vartenda problem, varenda sak man vill ändra på, varenda
               misshällighet i samhället ska stifta en lag.
             </seg>
-            <seg n="afd93d82">
+          </u>
+          <u xml:id="i-188df04bf92484c9-297" prev="i-188df04bf92484c9-291" who="Q3540867">
+            <seg>
               Jag ser med otålighet och ilska på att det inte går tillräckligt
               fort. Jag vill fortsätta med att i dialog och samtal tillsammans
               med de parter i näringsliv och fack som jobbar med de här frågorna
@@ -2939,37 +3421,45 @@
               inte alltid göra som andra gör.
             </seg>
           </u>
-          <note type="speaker" n="a14c81f2">
+          <note type="speaker">
             Anf. 51 PATRIK BJÖRCK (S):
           </note>
-          <u who="Q5577436" xml:id="i-5f2650a8e406d938-2" n="805908d5">
-            <seg n="4fda4dc7">
+          <u xml:id="i-188df04bf92484c9-298" next="i-188df04bf92484c9-303" who="Q5577436">
+            <seg>
               Herr talman! Min uppmaning till jämställdhetsministern var inte
               att göra som andra gör utan att vara före andra, gå i spetsen,
               inte vara längst bak och vänta in det som händer. Det är bättre
               att ta initiativet. Det uppmanar jag jämställdhetsministern till.
             </seg>
-            <seg n="37016975">
+          </u>
+          <u xml:id="i-188df04bf92484c9-299" prev="i-188df04bf92484c9-298" who="Q5577436">
+            <seg>
               Jag är tvungen att citera ur en annan tidning, där en kvinna,
               Heli Heino Medin, skriver om kvotering. Hon har annonserat i Dagens
               Industri: Kvinna Ledig för styrelseuppdrag. (Eftersom det verkar
               vara svårt att hitta kvinnor till detta ) Erfarenhet av att bygga
               upp och driva eget företag. Erfarenhet av styrelsearbete mm.
             </seg>
-            <seg n="f509bcc8">
+          </u>
+          <u xml:id="i-188df04bf92484c9-300" prev="i-188df04bf92484c9-298" who="Q5577436">
+            <seg>
               Hon har alltså annonserat att hon är villig att ställa upp eftersom
               man säger att det inte finns kompetenta kvinnor. Hon resonerar
               en kvinna med företagsbakgrund som jobbar inom designbranschen
               och skriver:
             </seg>
-            <seg n="2d6defbe">
+          </u>
+          <u xml:id="i-188df04bf92484c9-301" prev="i-188df04bf92484c9-298" who="Q5577436">
+            <seg>
               Förut var jag optimist och tänkte att världen går väl framåt.
               Men nu har jag ändrat mig. Det går alldeles för sakta, och vi
               som lever nu vill se någon ändring i vår livstid. Män väljer män
               och det behövs kvotering för att något ska hända, säger Heli Heino
               Medin som i en annons i Dagens Industri anmäler sig till bolagsstyrelseuppdrag.
             </seg>
-            <seg n="045f9550">
+          </u>
+          <u xml:id="i-188df04bf92484c9-302" prev="i-188df04bf92484c9-298" who="Q5577436">
+            <seg>
               Det är just detta det handlar om. Det handlar inte om att vi
               alltid ska lagstifta om allting när som helst hur som helst i
               första rummet. Det handlar om att man når en gräns någonstans
@@ -2977,7 +3467,9 @@
               under sin livstid, eller åtminstone under sina barns livstid,
               och kan mäta förändringarna och se att det rör sig framåt.
             </seg>
-            <seg n="beb8f952">
+          </u>
+          <u xml:id="i-188df04bf92484c9-303" prev="i-188df04bf92484c9-298" who="Q5577436">
+            <seg>
               Jag har förstått och hört här att det tydligen bara är finansministern
               i regeringen som kämpar för kvotering i bolagsstyrelserna, och
               Folkpartiets jämställdhetsminister är mot. Men jag hoppas och
@@ -2985,18 +3477,20 @@
               om detta och kan flytta frågan framåt.
             </seg>
           </u>
-          <note type="speaker" n="5d992c20">
+          <note type="speaker">
             Anf. 52 Statsrådet MARIA ARNHOLM (FP):
           </note>
-          <u who="unknown" xml:id="i-0a258bd270f7e612-24" n="cf28293b">
-            <seg n="9a763bbd">
+          <u xml:id="i-188df04bf92484c9-304" next="i-188df04bf92484c9-307" who="Q3540867">
+            <seg>
               Herr talman! Anders Borg har suttit i regeringen i snart sju
               år. Han driver inte den här frågan, men han har i sju år i ansvarig
               ställning som ansvarig minister år ut och år in sett att ingenting
               händer. Han har tappat tålamodet och han sade: Nu får det väl
               vara dags för kvotering.
             </seg>
-            <seg n="982a076e">
+          </u>
+          <u xml:id="i-188df04bf92484c9-305" prev="i-188df04bf92484c9-304" who="Q3540867">
+            <seg>
               Jag tycker att han som finansminister har stått ut länge. Han
               har stått ut i sju år. Jag är inte säker på att mitt tålamod kommer
               att vara så länge. Men jag fortsätter att vara optimist. Jag tycker
@@ -3009,109 +3503,113 @@
               tar slut. Tack för debatten!
             </seg>
           </u>
-          <note n="7d3cda02">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="98600e25">
+          <note>
             14 § Bordläggning
           </note>
-          <note n="004d56c9">
+          <note>
             Anmäldes och bordlades
           </note>
-          <note n="0eb3ff6a">
+          <note>
             15 § Anmälan om interpellationer
           </note>
-          <note n="da154e36">
+          <note>
             Anmäldes att följande interpellationer framställts
           </note>
-          <note n="9346b4e7">
+          <note>
             den 27 maj
           </note>
-          <note n="e4d25396">
+          <note>
             Carl B Hamilton
           </note>
-          <note n="cf35efed">
+          <note>
             Jens Holm
           </note>
-          <note n="1e23bba2">
+          <note>
             den 28 maj
           </note>
-          <note n="c7dfd03a">
+          <note>
             Peter Persson
           </note>
-          <note n="65df1837">
+          <note>
             Ingela Nylund Watz
           </note>
-          <note n="efbff689">
+          <note>
             Amineh Kakabaveh
           </note>
-          <note n="7174a1b0">
+          <note>
             Interpellationerna redovisas i bilaga som fogats till riksdagens
             snabbprotokoll tisdagen den 4 juni.
           </note>
-          <note n="4ad47d5e">
+          <note>
             16 § Anmälan om frågor för skriftliga svar
           </note>
-          <note n="78d332fc">
-            Anmäldes att följande frågor för skriftliga svar framställts
-          </note>
-          <note n="9346b4e7">
+          <u xml:id="i-188df04bf92484c9-306" prev="i-188df04bf92484c9-304" who="Q3540867">
+            <seg>
+              Anmäldes att följande frågor för skriftliga svar framställts
+            </seg>
+          </u>
+          <note>
             den 27 maj
           </note>
-          <note n="0af973e1">
+          <note>
             Meeri Wasberg
           </note>
-          <note n="eb20a60c">
+          <note>
             Jan-Olof Larsson
           </note>
-          <note n="eb20a60c">
+          <note>
             Jan-Olof Larsson
           </note>
-          <note n="1e23bba2">
+          <note>
             den 28 maj
           </note>
-          <note n="5f30052b">
+          <note>
             Lars Johansson
           </note>
-          <note n="aa6d2380">
+          <note>
             Frågorna redovisas i bilaga som fogats till riksdagens snabbprotokoll
             tisdagen den 4 juni.
           </note>
-          <note n="7deaab36">
+          <note>
             17 § Anmälan om skriftliga svar på frågor
           </note>
-          <note n="ee7e51b9">
+          <note>
             Anmäldes att skriftliga svar på följande frågor inkommit
           </note>
-          <note n="590ca987">
+          <note>
             den 24 maj
           </note>
-          <note n="6e2131e3">
+          <note>
             Anders Karlsson
           </note>
-          <note n="9346b4e7">
+          <note>
             den 27 maj
           </note>
-          <note n="d8da07b4">
+          <note>
             Hans Linde
           </note>
-          <note n="d1833a38">
+          <note>
             Gunnar Andrén
           </note>
-          <note n="5d41061d">
+          <note>
             Christina Oskarsson
           </note>
-          <note n="5c1dd1f3">
+          <note>
             Svaren redovisas i bilaga som fogats till riksdagens snabbprotokoll
             tisdagen den 4 juni.
           </note>
-          <note n="7507f72d">
+          <note>
             18 § Kammaren åtskildes kl. 18.15.
           </note>
-          <note n="c3e8dd48">
-            Förhandlingarna leddes
-          </note>
-          <note n="b4708f12">
+          <u xml:id="i-188df04bf92484c9-307" prev="i-188df04bf92484c9-304" who="Q3540867">
+            <seg>
+              Förhandlingarna leddes
+            </seg>
+          </u>
+          <note>
             /Eva-Lena Ekman
           </note>
         </div>

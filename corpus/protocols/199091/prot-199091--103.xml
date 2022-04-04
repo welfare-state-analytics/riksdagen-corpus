@@ -3,27 +3,24 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1990</title>
+        <title>Riksdagens protocols 199091</title>
       </titleStmt>
       <editionStmt>
-        <edition>0.3.0</edition>
+        <edition>0.4.2</edition>
       </editionStmt>
       <publicationStmt>
-        <authority>Westac Project, 2020-2021</authority>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-        </availability>
+        <authority>National Library of Sweden and the WESTAC project</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1990</title>
+          <title>Riksdagens protocols 199091</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -34,11 +31,11 @@
         <titleStmt>
           <title>Protokoll</title>
         </titleStmt>
+        <editionStmt>
+          <edition>0.4.2</edition>
+        </editionStmt>
         <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
+          <authority>National Library of Sweden and the WESTAC project</authority>
         </publicationStmt>
         <sourceDesc>
           <bibl>
@@ -49,7 +46,7 @@
       <encodingDesc>
         <editorialDecl>
           <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
+            <p>Some data curation was done. It is documented in input/curation/instances</p>
           </correction>
         </editorialDecl>
       </encodingDesc>
@@ -63,96 +60,120 @@
       </front>
       <body>
         <div>
-          <note n="a962979c">
+          <note>
             1 § Svar på interpellation 1990/91:171 om
           </note>
-          <note n="03ed3be6">
+          <note>
             Tobaksbolagets produkter som marknadsförs utomlands, m.m.
           </note>
-          <note type="speaker" n="bc9fe784">
+          <note type="speaker">
             Anf. 1 Industriminister RUNE MOLIN (s):
           </note>
-          <u who="Q5991125" xml:id="i-3ed4a2b4aef1a176-0" n="c62146c5" next="i-290f27cfd4fa0c69-0">
-            <seg n="eeac02cb">
+          <u xml:id="i-7982df50b3210dda-0" next="i-7982df50b3210dda-20" who="Q5991125">
+            <seg>
               Herr talman! Barbro Westerholm har ställt följande frågor till
               socialminister Ingela Thalén beträffande Tobaksbolagets produkter:
             </seg>
-            <seg n="1f88ab32">
+          </u>
+          <u xml:id="i-7982df50b3210dda-1" prev="i-7982df50b3210dda-0" who="Q5991125">
+            <seg>
               1. Vilka kvalitetskrav ställs på de tobaksprodukter som den svenska,
               statsdominerade tobakskoncernen marknadsför utomlands? Är kraven
               lägre än för motsvarande produkter i
             </seg>
-            <seg n="b7ed662d">
+          </u>
+          <u xml:id="i-7982df50b3210dda-2" prev="i-7982df50b3210dda-0" who="Q5991125">
+            <seg>
               Sverige?
             </seg>
-            <seg n="a78f9c78">
-              2. Vilka normer tillämpar den svenska tobakskoncernen i sin marknadsföring
-              utomlands?
-            </seg>
-            <seg n="8f8c151c">
+          </u>
+          <note>
+            2. Vilka normer tillämpar den svenska tobakskoncernen i sin marknadsföring
+            utomlands?
+          </note>
+          <u xml:id="i-7982df50b3210dda-3" prev="i-7982df50b3210dda-0" who="Q5991125">
+            <seg>
               Har Procordias tobaksföretag några egna restriktioner för reklam
               som tillämpas i länder där inhemska reklamregler är för få eller
               obefintliga?
             </seg>
           </u>
-          <note n="09ac4324">
+          <note>
             3. Pågår eller förbereds några svenska åtgärder --
           </note>
-          <u who="Q5991125" xml:id="i-290f27cfd4fa0c69-0" n="c62146c5" prev="i-3ed4a2b4aef1a176-0">
-            <seg n="77cf4a70">
+          <u xml:id="i-7982df50b3210dda-4" prev="i-7982df50b3210dda-0" who="Q5991125">
+            <seg>
               från statens eller statligt dominerade företags sida --
             </seg>
-            <seg n="06eee45e">
+          </u>
+          <u xml:id="i-7982df50b3210dda-5" prev="i-7982df50b3210dda-0" who="Q5991125">
+            <seg>
               för att stoppa ett framtida snusförbud inom EG?
             </seg>
-            <seg n="233738a6">
+          </u>
+          <u xml:id="i-7982df50b3210dda-6" prev="i-7982df50b3210dda-0" who="Q5991125">
+            <seg>
               Bedriver Procordias tobaksföretag någon lobbyverksamhet gentemot
               EG? Planerar regeringen några initiativ, t.ex. att begära nationellt
               undantag för Sverige från ett eventuellt
             </seg>
-            <seg n="2d92bc2a">
+          </u>
+          <u xml:id="i-7982df50b3210dda-7" prev="i-7982df50b3210dda-0" who="Q5991125">
+            <seg>
               EG-förbud mot snus? Hur bereds i så fall sådana initiativ? Tillfrågar
               man t.ex. livsmedelsverket, socialstyrelsen eller konsumentverket
               i sådana frågor?
             </seg>
-            <seg n="fdc97293">
+          </u>
+          <u xml:id="i-7982df50b3210dda-8" prev="i-7982df50b3210dda-0" who="Q5991125">
+            <seg>
               Arbetet inom regeringen är så fördelat att det är jag som skall
               svara på interpellationen.
             </seg>
-            <seg n="7b283bb6">
+          </u>
+          <u xml:id="i-7982df50b3210dda-9" prev="i-7982df50b3210dda-0" who="Q5991125">
+            <seg>
               Regeringen avser inte att medverka till att ett snusförbud införs
               i Sverige, varken genom EES-
             </seg>
-            <seg n="96b22e34">
-              avtal eller i perspektivet av ett framtida svenskt medlemskap
-              i EG.
-            </seg>
-            <seg n="5ec2185d">
+          </u>
+          <note>
+            avtal eller i perspektivet av ett framtida svenskt medlemskap
+            i EG.
+          </note>
+          <u xml:id="i-7982df50b3210dda-10" prev="i-7982df50b3210dda-0" who="Q5991125">
+            <seg>
               Enligt vad jag erfarit från Procordia är det riktigt att tobaksverksamheten
               inom numera Procordia
             </seg>
-            <seg n="9df1e952">
+          </u>
+          <u xml:id="i-7982df50b3210dda-11" prev="i-7982df50b3210dda-0" who="Q5991125">
+            <seg>
               United Brands har expanderat utomlands under senare år. Det har
               nästan uteslutande skett genom företagsförvärv och under de senaste
               åren med koncentration på cigarr- och cigarillmarknaden.
             </seg>
-            <seg n="6eadc866">
-              I mitten av 1980-talet förvärvade Svenska Tobaks
-            </seg>
-            <seg n="4d0f326e">
-              AB det amerikanska tobaksföretaget Pinkerton
-            </seg>
-            <seg n="6c66eecf">
+          </u>
+          <note>
+            I mitten av 1980-talet förvärvade Svenska Tobaks
+          </note>
+          <note>
+            AB det amerikanska tobaksföretaget Pinkerton
+          </note>
+          <u xml:id="i-7982df50b3210dda-12" prev="i-7982df50b3210dda-0" who="Q5991125">
+            <seg>
               Tobacco i Richmond, som är verksamt inom den s.k. rökfria tobakssektorn.
               Någon satsning utomlands på svenskt snus tillverkat i Sverige
               har inte skett med undantag för en mycket blygsam försäljning
               i Tyskland samt en testlansering av ett svensktillverkat snus
               i USA.
             </seg>
-            <seg n="1814ce49">
-              Procordias amerikanska dotterbolag Pinkerton
-            </seg>
-            <seg n="bc56993a">
+          </u>
+          <note>
+            Procordias amerikanska dotterbolag Pinkerton
+          </note>
+          <u xml:id="i-7982df50b3210dda-13" prev="i-7982df50b3210dda-0" who="Q5991125">
+            <seg>
               Tobacco lanserade i fjol ett snusmärke, som enligt en artikel
               i en engelsk medicinsk tidskrift innehåller höga halter av s.k.
               nitrosaminer. Det är troligen denna artikel Barbro Westerholm
@@ -161,24 +182,32 @@
               av utomstående laboratorier -- oberoende av varandra helt andra
               siffror för nitrosaminnivåerna.
             </seg>
-            <seg n="f16b52d7">
+          </u>
+          <u xml:id="i-7982df50b3210dda-14" prev="i-7982df50b3210dda-0" who="Q5991125">
+            <seg>
               Dessa senare siffror ligger enligt Procordia helt inom det intervall
               som gäller för marknaden i övrigt.
             </seg>
-            <seg n="0c6358cd">
+          </u>
+          <u xml:id="i-7982df50b3210dda-15" prev="i-7982df50b3210dda-0" who="Q5991125">
+            <seg>
               EG-kommissionen har föreslagit att ''fuktigt snus för användning
               i munnen'' skall förbjudas inom
             </seg>
-            <seg n="f06b533a">
+          </u>
+          <u xml:id="i-7982df50b3210dda-16" prev="i-7982df50b3210dda-0" who="Q5991125">
+            <seg>
               EG. Enligt Procordias uppfattning tyder denna definition på att
               det svenska snuset skulle förbjudas medan alla andra förekommande
               snustyper skulle vara tillåtna även i fortsättningen. Givetvis
               har
             </seg>
-            <seg n="0e3e7316">
-              Procordia United Brands och dess dotterbolag
-            </seg>
-            <seg n="7e4a8c89">
+          </u>
+          <note>
+            Procordia United Brands och dess dotterbolag
+          </note>
+          <u xml:id="i-7982df50b3210dda-17" prev="i-7982df50b3210dda-0" who="Q5991125">
+            <seg>
               Svenska Tobaks AB och Gotia Tobak AB uppfattat detta som en orättfärdig
               diskriminering av den egna produkten. Som en konsekvens av detta
               vidtar de berörda företagen de åtgärder de anser nödvändiga och
@@ -188,27 +217,33 @@
               agerade skulle detta vara ett åsidosättande av deras skyldighet
               mot anställda och ägare.
             </seg>
-            <seg n="48544176">
+          </u>
+          <u xml:id="i-7982df50b3210dda-18" prev="i-7982df50b3210dda-0" who="Q5991125">
+            <seg>
               Som svar på Barbro Westerholms första fråga vill jag först konstatera
               att svensktillverkade tobaksprodukter säljs i mycket liten omfattning
               utomlands. Enligt Procordia råder självfallet samma höga kvalitetskrav
               oavsett var de säljs.
             </seg>
-            <seg n="9f915263">
-              Den marknadsföring som sker utomlands genom svenska företag eller
-              dotterbolag som är verksamma utomlands sker enligt Procordia i
-              överensstämmelse med den lagstiftning och de regler som gäller
-              för varje enskild marknad. Svensk lag och svenska regler gäller
-              för reklam i Sverige. I
-            </seg>
-            <seg n="ec94b54c">
+          </u>
+          <note>
+            Den marknadsföring som sker utomlands genom svenska företag eller
+            dotterbolag som är verksamma utomlands sker enligt Procordia i
+            överensstämmelse med den lagstiftning och de regler som gäller
+            för varje enskild marknad. Svensk lag och svenska regler gäller
+            för reklam i Sverige. I
+          </note>
+          <u xml:id="i-7982df50b3210dda-19" prev="i-7982df50b3210dda-0" who="Q5991125">
+            <seg>
               den mån svensk lagstiftning är strängare än lagstiftning i andra
               länder, vore det enligt min mening av bl.a. konkurrensskäl helt
               orimligt om svenska eller svenskägda företag skulle tillämpa de
               svenska reglerna medan konkurrerande företag arbetar efter andra
               regler.
             </seg>
-            <seg n="8cc1a6e8">
+          </u>
+          <u xml:id="i-7982df50b3210dda-20" prev="i-7982df50b3210dda-0" who="Q5991125">
+            <seg>
               EG-kommissionens förslag, som det ser ut i dag, riktas enbart
               på en tobaksprodukt vilken inte produceras inom EG. Det snus och
               den tuggtobak eller röktobak som tillverkas inom EG drabbas inte
@@ -219,22 +254,24 @@
               Däremot finns det inte stöd för att vidta åtgärder som godtyckligt
               drabbar en tobaksprodukt men inte andra.
             </seg>
-            <seg n="a404d04b">
-              Regeringen avser också att vid lämpligt tillfälle och i lämpligt
-              forum ta upp med EG den diskriminering svenska tobaksprodukter
-              skulle utsättas för om direktivförslaget antas. Frågan bereds
-              på sedvanligt sätt inom regeringskansliet. Bl.a. tas kontakt med
-              de berörda verken i den utsträckning som erfordras.
-            </seg>
           </u>
-          <note type="speaker" n="900f2fe7">
+          <note>
+            Regeringen avser också att vid lämpligt tillfälle och i lämpligt
+            forum ta upp med EG den diskriminering svenska tobaksprodukter
+            skulle utsättas för om direktivförslaget antas. Frågan bereds
+            på sedvanligt sätt inom regeringskansliet. Bl.a. tas kontakt med
+            de berörda verken i den utsträckning som erfordras.
+          </note>
+          <note type="speaker">
             Anf. 2 BARBRO WESTERHOLM (fp):
           </note>
-          <u who="Q4859755" xml:id="i-e659f30d6f5357b1-0" n="b695f025" next="i-e1c866c93757d7a5-0">
-            <seg n="7be05547">
+          <u xml:id="i-7982df50b3210dda-21" next="i-7982df50b3210dda-36" who="Q4859755">
+            <seg>
               Herr talman! Jag får tacka industriministern för svaret.
             </seg>
-            <seg n="7ed53202">
+          </u>
+          <u xml:id="i-7982df50b3210dda-22" prev="i-7982df50b3210dda-21" who="Q4859755">
+            <seg>
               En utgångspunkt för de här olika debatterna som jag för är kunskapen
               om tobakens vanebildande effekter. Nikotinet i tobak hör ju till
               de mest vanebildande ämnen som finns, i klass med centralstimulantia
@@ -242,21 +279,27 @@
               och lugnande medel. Det är därför som jag arbetar med det här
               problemet. Jag är ju läkare i botten.
             </seg>
-            <seg n="94e550c4">
+          </u>
+          <u xml:id="i-7982df50b3210dda-23" prev="i-7982df50b3210dda-21" who="Q4859755">
+            <seg>
               Uppgiften att förebygga ohälsa är oerhört angelägen.
             </seg>
-            <seg n="f2f0bcfb">
-              Bruket av snus ökar i Sverige. År 1989 var det ungefär 21 % av
-              männen och 2 % av kvinnorna som snusade. Inom en tvåårsperiod
-              ökade det här bruket med 10 % -- framför allt bland pojkar och
-              yngre män.
-            </seg>
-            <seg n="2aa70d6d">
+          </u>
+          <note>
+            Bruket av snus ökar i Sverige. År 1989 var det ungefär 21 % av
+            männen och 2 % av kvinnorna som snusade. Inom en tvåårsperiod
+            ökade det här bruket med 10 % -- framför allt bland pojkar och
+            yngre män.
+          </note>
+          <u xml:id="i-7982df50b3210dda-24" prev="i-7982df50b3210dda-21" who="Q4859755">
+            <seg>
               Tobaksbruk i den här formen är på intet vis oskadligt. Högt blodtryck,
               blodplättar som klibbar ihop sig och bildar proppar, och försämrad
               cirkulation i fingrar hör till de allvarligaste komplikationerna.
             </seg>
-            <seg n="09b3c697">
+          </u>
+          <u xml:id="i-7982df50b3210dda-25" prev="i-7982df50b3210dda-21" who="Q4859755">
+            <seg>
               Industriministern säger i sitt svar, som jag nu vill kommentera,
               att det inte har gjorts någon satsning utomlands på svenskt snus,
               tillverkat i Sverige, och att man har en blygsam försäljning.
@@ -269,7 +312,9 @@
               har ställt sig bakom -- att tobaksbruket rent allmänt, och bruket
               av snus i synnerhet, inte skall öka i världen utan tvärtom minska.
             </seg>
-            <seg n="3c439a34">
+          </u>
+          <u xml:id="i-7982df50b3210dda-26" prev="i-7982df50b3210dda-21" who="Q4859755">
+            <seg>
               Jag tycker att det hälsopolitiska inslaget i svaret från industriministern
               var litet tunt. Det var ju med tanke på hälsoeffekterna jag ursprungligen
               ställde den här interpellationen till socialministern. Jag trodde
@@ -277,7 +322,9 @@
               oroad av vad snuset ställer till med i hans egna led som inkörsport
               till nikotinberoende, med cigarettrökning som följd.
             </seg>
-            <seg n="511f43cb">
+          </u>
+          <u xml:id="i-7982df50b3210dda-27" prev="i-7982df50b3210dda-21" who="Q4859755">
+            <seg>
               Tobaksbruket har ju blivit ''a blue collar problem'', som professor
               Montana sade i går på en presskonferens där man belyste effekterna
               av hälsoundersökning när det gäller lungcancer. Han sade att det
@@ -285,19 +332,25 @@
               sjukdom, när 85 % av de här fallen kunde förebyggas och man skulle
               få bättre effekt av sina insatser på det sättet.
             </seg>
-            <seg n="b5c75ae8">
+          </u>
+          <u xml:id="i-7982df50b3210dda-28" prev="i-7982df50b3210dda-21" who="Q4859755">
+            <seg>
               Det är bra att nitrosaminhalterna i Pinkertons snus nu är inom
               godkänt intervall. Det gäller här en av de mest cancerframkallande
               substanser vi känner.
             </seg>
-            <seg n="8c6d5792">
+          </u>
+          <u xml:id="i-7982df50b3210dda-29" prev="i-7982df50b3210dda-21" who="Q4859755">
+            <seg>
               Jag har förståelse för EGs inställning att inte ta in ytterligare
               en produkt på marknaden, det här fuktiga snuset. Jag är övertygad
               om, genom det jag läser om arbetet mot tobaksbruk i EG, att man
               är på väg att arbeta bort andra produkter också. Då vill man inte
               ytterligare ha en att kämpa mot.
             </seg>
-            <seg n="c334d348">
+          </u>
+          <u xml:id="i-7982df50b3210dda-30" prev="i-7982df50b3210dda-21" who="Q4859755">
+            <seg>
               Hela det svar jag har fått har en näringspolitisk inriktning.
               Här gäller bara industripolitiska överväganden. Att 800 000 människor
               om året dör i Europa på grund av tobaksbruk tycks vara mindre
@@ -308,7 +361,9 @@
               hur vi i Sverige agerar i världshälsoorganisationen när det gäller
               insatser mot tobaksbruket.
             </seg>
-            <seg n="882c1cf3">
+          </u>
+          <u xml:id="i-7982df50b3210dda-31" prev="i-7982df50b3210dda-21" who="Q4859755">
+            <seg>
               Dessa tankar kommer också igen i den folkhälsoproposition som
               regeringen lade fram så sent som i måndags. Här visar man en stor
               oro för tobakens ohälsoframkallande effekter. Man lyfter också
@@ -316,12 +371,16 @@
               är sämst för de lågutbildade. Det är ju den grupp där de som använder
               tobak främst finns.
             </seg>
-            <seg n="e1784405">
+          </u>
+          <u xml:id="i-7982df50b3210dda-32" prev="i-7982df50b3210dda-21" who="Q4859755">
+            <seg>
               Från tobakspolitisk synpunkt tycker jag, som läget nu är hos
               oss med ett utbrett och etablerat snusande, att vi måste acceptera
               att vi hos EG
             </seg>
-            <seg n="40fec99c">
+          </u>
+          <u xml:id="i-7982df50b3210dda-33" prev="i-7982df50b3210dda-21" who="Q4859755">
+            <seg>
               begär ett nationellt undantag för att få behålla snuset inom
               Sverige. Under tiden måste vi arbeta med information och försöka
               att få människor att sluta resp. inte börja med detta bruk. Men
@@ -329,194 +388,213 @@
               skall ha en trovärdighet internationellt. Jag hade hoppats att
               ett halvstatligt bolag kände det här ansvaret.
             </seg>
-            <seg n="0932f353">
+          </u>
+          <u xml:id="i-7982df50b3210dda-34" prev="i-7982df50b3210dda-21" who="Q4859755">
+            <seg>
               Jag vill bara göra ett litet tillägg. Det hör egentligen inte
               till den här frågan. Vi kanske skall diskutera det en annan gång.
               Men vad händer med asbest?
             </seg>
-            <seg n="2624dee0">
+          </u>
+          <u xml:id="i-7982df50b3210dda-35" prev="i-7982df50b3210dda-21" who="Q4859755">
+            <seg>
               Det finns nog länder som tycker att vårt asbestförbud är en importrestriktion.
             </seg>
           </u>
-          <note n="5593ce53">
+          <note>
             Överläggningen var härmed avslutad.
           </note>
-          <note n="b4fc17ab">
+          <note>
             2 § Hänvisning av ärenden till utskott
           </note>
-          <note n="dec78f6a">
+          <note>
             Föredrogs och hänvisades
           </note>
-          <note n="365cfd98">
+          <note>
             Propositionerna
           </note>
-          <note n="df673c72">
+          <note>
             1990/91:181 till socialförsäkringsutskottet
           </note>
-          <note n="76b5ac77">
+          <note>
             1990/91:185 till skatteutskottet
           </note>
-          <note n="b1f555a5">
+          <note>
             Motionerna
           </note>
-          <note n="ca184af3">
+          <note>
             1990/91:Fö22--Fö25 till försvarsutskottet
           </note>
-          <note n="679afe99">
+          <note>
             Ajournering
           </note>
-          <note n="ea313954">
+          <note>
             Kammaren beslöt kl. 9.13 på förslag av talmannen att ajournera
             förhandlingarna till kl. 10.00, då de till dagens bordläggning
             aviserade utskottsbetänkandena väntades föreligga.
           </note>
-          <u who="Q4859755" xml:id="i-e1c866c93757d7a5-0" n="b695f025" prev="i-e659f30d6f5357b1-0">
-            <seg n="7f8e5895">
+          <u xml:id="i-7982df50b3210dda-36" prev="i-7982df50b3210dda-21" who="Q4859755">
+            <seg>
               Återupptagna förhandlingar
             </seg>
           </u>
-          <note n="7c1b4280">
+          <note>
             Förhandlingarna återupptogs kl. 10.00.
           </note>
-          <note n="4a8bc0c8">
+          <note>
             3 § Bordläggning
           </note>
-          <note n="1d729e1d">
+          <note>
             Anmäldes och bordlades
           </note>
-          <note n="365cfd98">
+          <note>
             Propositionerna
           </note>
-          <note n="597b6d97">
+          <note>
             1990/91:183 Ändrad träfiberprövning
           </note>
-          <note n="bfcd3660">
+          <note>
             1990/91:184 Verksamheten i Studsvikskoncernen, m.m.
           </note>
-          <note n="4528d46c">
+          <note>
             1990/91:191 Vissa livsmedelspolitiska frågor
           </note>
-          <note n="f675d801">
+          <note>
             Skatteutskottets betänkande
           </note>
-          <note n="1f8b15ca">
+          <note>
             1990/91:SkU27 Ändring i kupongskattelagen
           </note>
-          <note n="7a5da9f8">
+          <note>
             Justitieutskottets betänkanden
           </note>
-          <note n="4e161644">
+          <note>
             1990/91:JuU26 Bostadsdomstolen och hyresnämnderna
           </note>
-          <note n="3d8b2bfd">
+          <note>
             1990/91:JuU27 Anslag till rättshjälp m.m.
           </note>
-          <note n="f39ae72e">
+          <note>
             Lagutskottets betänkanden
           </note>
-          <note n="f66d1576">
+          <note>
             1990/91:LU26 Kompetenskrav för fastighetsmäklare m.fl.
           </note>
-          <note n="6d6b2e60">
+          <note>
             1990/91:LU28 Ändringar i namnlagen m.m.
           </note>
-          <note n="d805c795">
+          <note>
             1990/91:LU33 Kontobaserat penningmarknadssystem.
           </note>
-          <note n="065e30df">
+          <note>
             Utrikesutskottets betänkanden
           </note>
-          <note n="e5bf345c">
+          <note>
             1990/91:UU15 Internationellt utvecklingssamarbete
           </note>
-          <note n="aa0b105f">
+          <note>
             1990/91:UU16 Samarbete med Baltikum, Centraloch Östeuropa
           </note>
-          <note n="b6f2583d">
+          <note>
             1990/91:UU20 Tilläggsbudget II till statsbudgeten för budgetåret
             1990/91 (finansdepartementet)
           </note>
-          <note n="701b75ea">
+          <note>
             1990/91:UU22 Insatser för kurdiska flyktingar
           </note>
-          <note n="2808a11d">
+          <note>
             Socialförsäkringsutskottets betänkande
           </note>
-          <note n="90993ea8">
+          <note>
             1990/91:SfU15 Huvudmannaskapet för sjukreseadministrationen m.m.
           </note>
-          <note n="f3d9ce16">
+          <note>
             Näringsutskottets betänkanden
           </note>
-          <note n="4f9702d2">
+          <note>
             1990/91:NU36 Handel med Baltikum samt Centraloch Östeuropa
           </note>
-          <note n="85d384a8">
+          <note>
             1990/91:NU45 Styrelserepresentation för samhället i vissa stiftelser
           </note>
-          <note n="f5ee477a">
+          <note>
             4 § Anmälan om interpellationer
           </note>
-          <note n="9a7fddd9">
+          <note>
             Anmäldes att följande interpellationer framställts
           </note>
-          <note n="64c88c2f">
+          <note>
             den 25 april
           </note>
-          <note type="speaker" n="b3a9b60c">
-            1990/91:
-          </note>
-          <note type="speaker" n="d553c424">
-            188 av Karin Israelsson (c) till socialministern om åtgärder
+          <note type="speaker">
+            1990/91:188 av Karin Israelsson (c) till socialministern om åtgärder
             mot hembränning:
           </note>
-          <u who="Q4982419" xml:id="i-07ccbee6ccfef10f-0" n="b61669cb">
-            <seg n="d5e13dd1">
+          <u xml:id="i-7982df50b3210dda-37" next="i-7982df50b3210dda-56" who="Q4982419">
+            <seg>
               Det är djupt oroande att hembränningen fortsätter att öka. Följden
               blir en omfattande konsumtion inte bara för dem som bränner hemma
               utan även för ungdomar som lätt får tillgång till alkoholen.
             </seg>
-            <seg n="fef337a4">
+          </u>
+          <u xml:id="i-7982df50b3210dda-38" prev="i-7982df50b3210dda-37" who="Q4982419">
+            <seg>
               Med en ökad hembränning följer ofta en ökad langning.
             </seg>
-            <seg n="8353dac8">
+          </u>
+          <u xml:id="i-7982df50b3210dda-39" prev="i-7982df50b3210dda-37" who="Q4982419">
+            <seg>
               Lönnbränningen sker i relativt stor skala. Illegala spritfabriker
               är ingen ovanlig företeelse. Denna försäljning sker till restauranger,
               klubbar eller enskilda. Inte sällan är bruk eller missbruk av
               narkotika med i bilden.
             </seg>
-            <seg n="969b47be">
+          </u>
+          <u xml:id="i-7982df50b3210dda-40" prev="i-7982df50b3210dda-37" who="Q4982419">
+            <seg>
               Hembränningen är inte ett problem av privat natur.
             </seg>
-            <seg n="6e0a45d7">
+          </u>
+          <u xml:id="i-7982df50b3210dda-41" prev="i-7982df50b3210dda-37" who="Q4982419">
+            <seg>
               Det är inte var mans rätt att bränna hemma. Bruket av alkohol
               skapar social utslagning, förnedring, sjukdom och kriminalitet.
               Hembränningen är ett sätt att bidra till dessa förhållanden, ovärdiga
               ett välfärdssamhälle. En restriktiv alkoholpolitik är en grundförutsättning
               för att åstadkomma en begränsning av alkoholskadorna.
             </seg>
-            <seg n="b7dff09b">
+          </u>
+          <u xml:id="i-7982df50b3210dda-42" prev="i-7982df50b3210dda-37" who="Q4982419">
+            <seg>
               Rikspolisstyrelsen kan i sin statistik över brott som rubriceras
               som olovlig sprittillverkning konstatera att hembränningen och
               lönnbränningen tenderar att öka i omfattning. Mörkertalet är givetvis
               stort.
             </seg>
-            <seg n="a66d8f24">
+          </u>
+          <u xml:id="i-7982df50b3210dda-43" prev="i-7982df50b3210dda-37" who="Q4982419">
+            <seg>
               Traditionellt har hembränning ansetts vara en landsortsföreteelse.
               Med dagens sofistikerade destillationsutrustningar är de dock
               även vanlig i städer.
             </seg>
-            <seg n="21825efa">
+          </u>
+          <u xml:id="i-7982df50b3210dda-44" prev="i-7982df50b3210dda-37" who="Q4982419">
+            <seg>
               De som bränner är sällan missbrukare, utan tvärtom ofta människor
               med god social ställning.
             </seg>
-            <seg n="7a2dfce8">
+          </u>
+          <u xml:id="i-7982df50b3210dda-45" prev="i-7982df50b3210dda-37" who="Q4982419">
+            <seg>
               Deras motiv är vinsten. Att de sedan tjänar på andra människors
               svagheter tycks inte vara något problem. Inte heller att de som
               köper ofta är aningslösa ungdomar. Den låga upptäcktsrisken bidrar
               till en fortsatt verksamhet.
             </seg>
-            <seg n="6e24f413">
+          </u>
+          <u xml:id="i-7982df50b3210dda-46" prev="i-7982df50b3210dda-37" who="Q4982419">
+            <seg>
               Hittills har samhällets insatser för att få bukt med hembränningen
               varit otillräckliga. Poliserna har inte -- trots att de ofta har
               kunskap om förhållandena -- möjlighet att ingripa. Bristande resurser
@@ -526,189 +604,233 @@
               verksamheten är förkastlig och bör stävjas. Många tycker att det
               inte är något brott att koka hemma -- men däremot att sälja vidare.
             </seg>
-            <seg n="3e88fe65">
+          </u>
+          <u xml:id="i-7982df50b3210dda-47" prev="i-7982df50b3210dda-37" who="Q4982419">
+            <seg>
               Straffen för hembränning är tämligen låga. En
             </seg>
-            <seg n="0ff7e99f">
+          </u>
+          <u xml:id="i-7982df50b3210dda-48" prev="i-7982df50b3210dda-37" who="Q4982419">
+            <seg>
               ''husbehovsbrännare'' får i allmänhet dagsböter.
             </seg>
-            <seg n="024eec88">
+          </u>
+          <u xml:id="i-7982df50b3210dda-49" prev="i-7982df50b3210dda-37" who="Q4982419">
+            <seg>
               Vid lönnbränning är det vanligt med fängelse i 1--2
             </seg>
-            <seg n="ce32e754">
+          </u>
+          <u xml:id="i-7982df50b3210dda-50" prev="i-7982df50b3210dda-37" who="Q4982419">
+            <seg>
               månader.
             </seg>
-            <seg n="814ef3ee">
-              Socialutskottet har senanst hösten 1989 behandlat motioner, bl.a.
-              från centerpartiet om åtgärder mot hembränning. Utskottet förklarade
-              sig se allvarligt på hembränning och utgick från att frågan om
-              skärpta regler för hanteringen av aktivt kol övervägdes. Riksdagen
-              beslöt i enlighet med utskottet. Till dags dato har inget hänt.
-            </seg>
-            <seg n="be4dac1c">
+          </u>
+          <note>
+            Socialutskottet har senanst hösten 1989 behandlat motioner, bl.a.
+            från centerpartiet om åtgärder mot hembränning. Utskottet förklarade
+            sig se allvarligt på hembränning och utgick från att frågan om
+            skärpta regler för hanteringen av aktivt kol övervägdes. Riksdagen
+            beslöt i enlighet med utskottet. Till dags dato har inget hänt.
+          </note>
+          <u xml:id="i-7982df50b3210dda-51" prev="i-7982df50b3210dda-37" who="Q4982419">
+            <seg>
               Hembränningen tillåts fortfarande förekomma i allt större skala.
             </seg>
-            <seg n="044f50ae">
+          </u>
+          <u xml:id="i-7982df50b3210dda-52" prev="i-7982df50b3210dda-37" who="Q4982419">
+            <seg>
               Regeringen har i sin nyligen presenterade folkhälsoproposition
               inte föreslagit några konkreta åtgärder mot hembränning. Det finns
               därför all anledning att här åter uppmärksamma problematiken med
               hembränning.
             </seg>
-            <seg n="42695bbf">
+          </u>
+          <u xml:id="i-7982df50b3210dda-53" prev="i-7982df50b3210dda-37" who="Q4982419">
+            <seg>
               För att komma till rätta med hembränningen krävs åtgärder av
               olika slag:
             </seg>
-            <seg n="b08ec34c">
-              * Informationsinsatserna mot hembränning och langning måste öka
-              för att få till stånd en attitydförändring.
-            </seg>
-            <seg n="21c4e871">
-              * Polisen måste ges ökade resurser för att kunna göra tillslag.
-            </seg>
-            <seg n="deb606e2">
-              * Polisen måste ägna problematiken uppmärksamhet i samarbete
-              med de nykterhetsvårdande sociala myndigheterna.
-            </seg>
-            <seg n="57807ae6">
+          </u>
+          <note>
+            * Informationsinsatserna mot hembränning och langning måste öka
+            för att få till stånd en attitydförändring.
+          </note>
+          <note>
+            * Polisen måste ges ökade resurser för att kunna göra tillslag.
+          </note>
+          <note>
+            * Polisen måste ägna problematiken uppmärksamhet i samarbete
+            med de nykterhetsvårdande sociala myndigheterna.
+          </note>
+          <u xml:id="i-7982df50b3210dda-54" prev="i-7982df50b3210dda-37" who="Q4982419">
+            <seg>
               * Uppfattningen att den illegala alkoholhanteringen utgör en
               allvarlig form av brottslighet måste komma tydligare till uttryck
               i lagstiftning och tillämpning.
             </seg>
-            <seg n="279f3af5">
-              * Försäljningen av aktivt kol måste licensbeläggas.
-            </seg>
-            <seg n="ac67f2d2">
+          </u>
+          <note>
+            * Försäljningen av aktivt kol måste licensbeläggas.
+          </note>
+          <u xml:id="i-7982df50b3210dda-55" prev="i-7982df50b3210dda-37" who="Q4982419">
+            <seg>
               Med hänvisning till ovanstående vill jag ställa följande fråga
               till socialministern:
             </seg>
-            <seg n="d3629df5">
+          </u>
+          <u xml:id="i-7982df50b3210dda-56" prev="i-7982df50b3210dda-37" who="Q4982419">
+            <seg>
               Vilka snara åtgärder ämnar regeringen vidta för att få bukt med
               hembränningen?
             </seg>
           </u>
-          <note type="speaker" n="b3a9b60c">
-            1990/91:
+          <note type="speaker">
+            1990/91:189 av Alf Wennerfors (m) till justitieministern om giltig
+            förklaring av vissa ogiltiga vigslar:
           </note>
-          <note type="speaker" n="d5edbfe1">
-            189 av Alf Wennerfors (m) till justitieministern om giltig förklaring
-            av vissa ogiltiga vigslar:
-          </note>
-          <note n="f58f3e53">
+          <note>
             Den blomsterprydda Seglorakyrkan var fylld till sista plats av
             anhöriga, vänner, sångare, musiker som tillsammans med vigselförrättaren
             gjorde vigseln den 9 september 1989 till en livsavgörande händelse
             och ett oförglömligt minne för brudparet.
           </note>
-          <u who="Q291648" xml:id="i-dab39f6a2a36fbba-0" n="84fc849d">
-            <seg n="01026265">
+          <u xml:id="i-7982df50b3210dda-57" next="i-7982df50b3210dda-65" who="Q291648">
+            <seg>
               Det heliga löftet framför altaret upplevdes som evigt.
             </seg>
-            <seg n="4fc21c33">
+          </u>
+          <u xml:id="i-7982df50b3210dda-58" prev="i-7982df50b3210dda-57" who="Q291648">
+            <seg>
               I dag har folkets statliga byråkrati ogiltigförklarat vigseln
               och äktenskapet. De unga är chockade.
             </seg>
-            <seg n="a759a078">
-              Ovan nämnda vigsel jämte ett tjugotal andra har med retroaktiv
-              verkan blivit ogiltiga. Rättsligt är de nu ogifta, vilket kan
-              få betydelse för rätten att ärva, rätten till bodelning och det
-              rättsliga förhållandet till eventuella barn.
-            </seg>
-            <seg n="c73281bf">
+          </u>
+          <note>
+            Pingstförsamlingarnas vigselnämnd beslöt den 8
+          </note>
+          <note>
+            december 1989 att fråntaga vigselförrättaren hans rätt att vara
+            vigselförrättare fr.o.m. den 1 juli 1989.
+          </note>
+          <note>
+            Detta meddelades i skrivelse till länsstyrelsen. Den
+          </note>
+          <note>
+            19 april 1989 beslöt länsstyrelsen att lämna skrivelsen och framställningen
+            utan åtgärd. Detta beslut överklagades till regeringen.
+          </note>
+          <note>
+            Den 19 februari 1991 meddelade justitiedepartementet att ovan
+            nämnda vigselförrättare jämte ytterligare tre andra pastorer i
+            Södermalmskyrkan mist sin vigselrätt från den 1
+          </note>
+          <note>
+            juli 1989.
+          </note>
+          <note>
+            Ovan nämnda vigsel jämte ett tjugotal andra har med retroaktiv
+            verkan blivit ogiltiga. Rättsligt är de nu ogifta, vilket kan
+            få betydelse för rätten att ärva, rätten till bodelning och det
+            rättsliga förhållandet till eventuella barn.
+          </note>
+          <u xml:id="i-7982df50b3210dda-59" prev="i-7982df50b3210dda-57" who="Q291648">
+            <seg>
               Vad skall nu de unga paren göra? Arrangera bröllop på nytt och
               gifta sig för andra gången? Vilka skall stå för kostnaderna? Justitiedepartementet?
             </seg>
-            <seg n="e790ee11">
+          </u>
+          <u xml:id="i-7982df50b3210dda-60" prev="i-7982df50b3210dda-57" who="Q291648">
+            <seg>
               Tålmodiga föräldrar? Eller skall man utnyttja möjligheten att
               finna sig i den märkliga byråkratins irrgångar och ansöka hos
               regeringen att de tidigare
             </seg>
-            <seg n="e340a424">
+          </u>
+          <u xml:id="i-7982df50b3210dda-61" prev="i-7982df50b3210dda-57" who="Q291648">
+            <seg>
+              ''ogiltiga'' vigslarna förklaras giltiga enligt äktenskapsbalken,
+              då synnerliga skäl föreligger?
+            </seg>
+          </u>
+          <u xml:id="i-7982df50b3210dda-62" prev="i-7982df50b3210dda-57" who="Q291648">
+            <seg>
               Man kan förstå att det inträffade förvånar alla inblandade. Hur
               är det ställt med kompetensen och förnuftet i byråkratin och den
               statliga förvaltningsapparaten, undrar man. Att fatta beslut som
               drabbar ''tredje man'' med restroaktiv verkan på ett så uppseendeväckande
               omänskligt sätt är betänkligt och oroande.
             </seg>
-            <seg n="b2e46428">
+          </u>
+          <u xml:id="i-7982df50b3210dda-63" prev="i-7982df50b3210dda-57" who="Q291648">
+            <seg>
               Mot bakgrund av det ovan anförda vill jag ställa följande frågor
               till justitieministern.
             </seg>
-            <seg n="875c61da">
+          </u>
+          <u xml:id="i-7982df50b3210dda-64" prev="i-7982df50b3210dda-57" who="Q291648">
+            <seg>
               Hur ser justitieministern på handläggningen av detta ärende?
             </seg>
-            <seg n="cd09b4bd">
+          </u>
+          <u xml:id="i-7982df50b3210dda-65" prev="i-7982df50b3210dda-57" who="Q291648">
+            <seg>
               På vilket sätt kommer justitieministern att agera för att de
               berörda vigslarna så snabbt som möjligt och utan besvär för de
               unga paren blir giltigförklarade?
             </seg>
           </u>
-          <note n="3a39121e">
-            Pingstförsamlingarnas vigselnämnd beslöt den 8
+          <note type="speaker">
+            1990/91:190 av Ulla Orring (fp) till kommunikationsministern
+            om järnvägskommunikationerna i övre Norrland:
           </note>
-          <note n="6c60756b">
-            december 1989 att fråntaga vigselförrättaren hans rätt att vara
-            vigselförrättare fr.o.m. den 1 juli 1989.
-          </note>
-          <note n="d50ccb25">
-            Detta meddelades i skrivelse till länsstyrelsen. Den
-          </note>
-          <note n="613b24ff">
-            19 april 1989 beslöt länsstyrelsen att lämna skrivelsen och framställningen
-            utan åtgärd. Detta beslut överklagades till regeringen.
-          </note>
-          <note n="d02148eb">
-            Den 19 februari 1991 meddelade justitiedepartementet att ovan
-            nämnda vigselförrättare jämte ytterligare tre andra pastorer i
-            Södermalmskyrkan mist sin vigselrätt från den 1
-          </note>
-          <note n="cff1aee5">
-            juli 1989.
-          </note>
-          <note n="81bdf006">
-            ''ogiltiga'' vigslarna förklaras giltiga enligt äktenskapsbalken,
-            då synnerliga skäl föreligger?
-          </note>
-          <note type="speaker" n="b3a9b60c">
-            1990/91:
-          </note>
-          <note type="speaker" n="3ab7a304">
-            190 av Ulla Orring (fp) till kommunikationsministern om järnvägskommunikationerna
-            i övre Norrland:
-          </note>
-          <u who="unknown" xml:id="i-c2effedba7b98385-0" n="e000df72">
-            <seg n="c6ed6d60">
+          <u xml:id="i-7982df50b3210dda-66" who="unknown">
+            <seg>
               De offentliga investeringarna inom kommunikationsväsendet som
               vägnät och järnväg har haft en negativ utveckling under 1980-talet.
             </seg>
-            <seg n="3e115a49">
+          </u>
+          <u xml:id="i-7982df50b3210dda-67" who="unknown">
+            <seg>
               Och detta har varit särskilt märkbart i
             </seg>
-            <seg n="9d51c94b">
+          </u>
+          <u xml:id="i-7982df50b3210dda-68" who="unknown">
+            <seg>
               Västerbotten. Behovet av offentliga investeringar under det kommande
               90-talet och fram till år 2000
             </seg>
-            <seg n="247a406f">
+          </u>
+          <u xml:id="i-7982df50b3210dda-69" who="unknown">
+            <seg>
               framstår därför som ett oundvikligt måste. En regions utveckling
               avgörs sannolikt i framtiden mer än någonsin av de förutsättningar
               som samhället lyckas ge regionen genom satsning på infrastruktur.
             </seg>
-            <seg n="1c9d3564">
+          </u>
+          <u xml:id="i-7982df50b3210dda-70" who="unknown">
+            <seg>
               Att satsa på infrastrukturen och därmed på kommunikationerna
               gör sig därför alltmer gällande och blir alltmer väsentligt för
               att kunna utveckla
             </seg>
-            <seg n="2e1a9b4f">
+          </u>
+          <u xml:id="i-7982df50b3210dda-71" who="unknown">
+            <seg>
               Norrland och Norrlands inland. Det handlar framför allt om regionen
               norr om Sundsvall. Av vissa rapporter om trafikens framtida utveckling
               framgår att:
             </seg>
-            <seg n="91eee78a">
+          </u>
+          <u xml:id="i-7982df50b3210dda-72" who="unknown">
+            <seg>
               Under 90-talet och fram till sekelskiftet kommer persontrafiken
               inom landet att öka med 20 %. Det innebär en årlig ökning på ca
               1,9 % per år och som motsvarar den årliga tillväxten som varit
               under 80-
             </seg>
-            <seg n="46e46b6a">
+          </u>
+          <u xml:id="i-7982df50b3210dda-73" who="unknown">
+            <seg>
               talet. Det är rimligt att anta att denna trafikökning till en
               del kommer att ske med järnväg. Några större satsningar på järnvägsnätet
               -- förutom nödvändigt banunderhåll som tidigare starkt eftersatts
@@ -717,24 +839,30 @@
               generellt skall utformas, vilket också trafikutskottet yttrat.
               Denna brist framträder uppenbart vad gäller norra Norrland.
             </seg>
-            <seg n="ba45cfaf">
-              Nu inriktar sig banverkets planering i huvudsak på satsning av
-              järnväg i Syd- och Mellansverige och upp till Sundsvall, snabbtågsanpassning
-              på södra stambanan, ostkustbanan, kapacitetsförbättringar på västkustbanan
-              och utbyggnad i Mälardalen.
-            </seg>
-            <seg n="44833d62">
-              Utbyggnad och underhåll av järnvägen i norra
-            </seg>
-            <seg n="95159553">
+          </u>
+          <note>
+            Nu inriktar sig banverkets planering i huvudsak på satsning av
+            järnväg i Syd- och Mellansverige och upp till Sundsvall, snabbtågsanpassning
+            på södra stambanan, ostkustbanan, kapacitetsförbättringar på västkustbanan
+            och utbyggnad i Mälardalen.
+          </note>
+          <note>
+            Utbyggnad och underhåll av järnvägen i norra
+          </note>
+          <u xml:id="i-7982df50b3210dda-74" who="unknown">
+            <seg>
               Norrland har kraftigt eftersatts under det senaste årtiondet.
             </seg>
-            <seg n="e66f2790">
+          </u>
+          <u xml:id="i-7982df50b3210dda-75" who="unknown">
+            <seg>
               Men norrlänningarna ställer samma anspråk som landet i övrigt
               på persontrafiken på järnväg, dvs. att den skall kunna erbjuda
               snabba, frekventa och tillförlitliga förbindelser.
             </seg>
-            <seg n="e9ea24a8">
+          </u>
+          <u xml:id="i-7982df50b3210dda-76" who="unknown">
+            <seg>
               På godstransportområdet behövs också minskade transporttider,
               skräddarsydda transportlösningar, förbättrad punktlighet och ökad
               effektivitet. Detta i sin tur kan innebära ökade möjligheter för
@@ -745,48 +873,62 @@
               speciellt inlandet. Men förutsättningarna är ett fungerande kommunikationsnät.
               Vi måste göra
             </seg>
-            <seg n="7968eef8">
+          </u>
+          <u xml:id="i-7982df50b3210dda-77" who="unknown">
+            <seg>
               Sverige rundare.
             </seg>
-            <seg n="d67f50a0">
+          </u>
+          <u xml:id="i-7982df50b3210dda-78" who="unknown">
+            <seg>
               Den socialdemokratiska regeringens intentioner pekar åt motsatt
               håll.
             </seg>
-            <seg n="16dbccd0">
-              -- Nej till mobilisering -- ja till avveckling av både person-
-              och godstransporter på järnväg.
-            </seg>
-            <seg n="53a14b19">
-              -- Nedläggning av persontrafiken på inlandsbanan.
-            </seg>
-            <seg n="7450daec">
-              -- Tvärbanornas framtida upprustning i
-            </seg>
-            <seg n="249f4365">
+          </u>
+          <note>
+            -- Nej till mobilisering -- ja till avveckling av både person-
+            och godstransporter på järnväg.
+          </note>
+          <note>
+            -- Nedläggning av persontrafiken på inlandsbanan.
+          </note>
+          <note>
+            -- Tvärbanornas framtida upprustning i
+          </note>
+          <u xml:id="i-7982df50b3210dda-79" who="unknown">
+            <seg>
               Västerbotten skjuts framåt i tiden och konsekvensen blir att
               bl.a. skogsbolagen måste börja planera för vägtransporter.
             </seg>
           </u>
-          <note n="feb97dc2">
+          <note>
             -- Nej till Bottniabanan.
           </note>
-          <u who="unknown" xml:id="i-c3c5a1f925c82e28-0" n="e000df72">
-            <seg n="111d4fc8">
+          <u xml:id="i-7982df50b3210dda-80" who="unknown">
+            <seg>
               Folkpartiet liberalerna förordar en kraftig satsning på infrastrukturen,
               vilket vi framfört med anledning av regeringens proposition 1990/91:87.
             </seg>
-            <seg n="1098379c">
+          </u>
+          <u xml:id="i-7982df50b3210dda-81" who="unknown">
+            <seg>
               När det gäller drift, underhåll och investeringar i järnvägar
               och vägar är det vår bedömning att investeringarna kommer att
               uppgå till ca 140
             </seg>
-            <seg n="f43c50d7">
+          </u>
+          <u xml:id="i-7982df50b3210dda-82" who="unknown">
+            <seg>
               miljarder under en tioårsperiod. Vilka alternativ erbjuder regeringen?
             </seg>
-            <seg n="9b326c5a">
+          </u>
+          <u xml:id="i-7982df50b3210dda-83" who="unknown">
+            <seg>
               Med hänvisning till det anförda vill jag fråga kommunikationsministern:
             </seg>
-            <seg n="69cd4ebc">
+          </u>
+          <u xml:id="i-7982df50b3210dda-84" who="unknown">
+            <seg>
               1. För Västerbottens del har behovet av upprustning av tvärbanan
               Storuman--Hällnäs bedömts som synnerligen angelägen upprustning
               som måste påbörjas 1992/93 för att etappvis fullföljas under 90-talet.
@@ -796,82 +938,93 @@
               kommunikationsministern beredd att anslå särskilda medel för en
               upprustning av tvärbanan
             </seg>
-            <seg n="5fcbbe24">
-              Storuman--Hällnäs?
-            </seg>
-            <seg n="d20420e9">
+          </u>
+          <note>
+            Storuman--Hällnäs?
+          </note>
+          <u xml:id="i-7982df50b3210dda-85" who="unknown">
+            <seg>
               2. Länsstyrelsen i Västerbotten har tagit initiativ för att undersöka
               möjligheterna till fortsatt persontrafik på inlandsbanan under
               sommaren. Är kommunikationsministern beredd att aktivt stödja
               ett sådant projekt?
             </seg>
-            <seg n="57a3a0cc">
-              3. För övre Norrlands kustland saknas i dag järnväg som alternativ.
-              En utbyggd Bottniabana via
-            </seg>
-            <seg n="3b9042bf">
+          </u>
+          <note>
+            3. För övre Norrlands kustland saknas i dag järnväg som alternativ.
+            En utbyggd Bottniabana via
+          </note>
+          <note>
+            Sundsvall och norrut över Umeå, Skellefteå och till
+          </note>
+          <u xml:id="i-7982df50b3210dda-86" who="unknown">
+            <seg>
               Luleå skulle effektivt sammanbinda kustorterna och bidra till
               en breddad arbetsmarknad. Snabba kommunikationer mellan kustorterna
               skulle också få positiva effekter för den högre utbildningen.
             </seg>
-            <seg n="6fb4c0bd">
+          </u>
+          <u xml:id="i-7982df50b3210dda-87" who="unknown">
+            <seg>
               Även kraven på en ökad godshantering skulle tillgodoses. Inte
               minst miljöskäl talar för förbättrade kommunikationer på järnväg.
               Ämnar kommunikationsministern ta några initiativ för en projektering
               av Bottniabanan?
             </seg>
-            <seg n="83a13f3e">
+          </u>
+          <u xml:id="i-7982df50b3210dda-88" who="unknown">
+            <seg>
               4. På vilket sätt avser kommunikationsministern ta ansvar för
               de ca 90 SJ-anställda som drabbas av en nedläggning av inlandsbanan?
             </seg>
-            <seg n="4cc7c2ed">
-              y1 &gt; c15,3,9,11.5 &gt; 1990/91:560 av Maria Leissner (fp) till statsrådet
-            </seg>
-            <seg n="4b1e3623">
+          </u>
+          <note>
+            y1 &gt; c15,3,9,11.5 &gt; 5 § Anmälan om frågor
+          </note>
+          <note>
+            ehy1 &gt; c15,1,9,11.5 &gt; Anmäldes att följande frågor framställts
+          </note>
+          <note>
+            y1 &gt; c15,1,9,11.5 &gt; den 25 april
+          </note>
+          <note>
+            y1 &gt; c15,3,9,11.5 &gt; 1990/91:560 av Maria Leissner (fp) till statsrådet
+          </note>
+          <note>
+            Maj-Lis Lööw om praxis i asylärenden:
+          </note>
+          <note>
+            Den 24 april utvisades en grupp bulgarienturkar från förläggningen
+            i Ringhals tillbaka till
+          </note>
+          <u xml:id="i-7982df50b3210dda-89" who="unknown">
+            <seg>
               Bulgarien. De har varit i Sverige i flera år, vilket medfört
               bl.a. att en tolvårig flicka har tappat sitt hemspråk. En sexårig
               astmasjuk pojke, också bland de utvisade, kommer inte att kunna
               få någon medicin mot astman när han återvänder.
             </seg>
-            <seg n="f7ed84d4">
+          </u>
+          <u xml:id="i-7982df50b3210dda-90" who="unknown">
+            <seg>
               Mot denna bakgrund, och med tanke på att antalet asylsökande
               nu kraftigt sjunkit jämfört med när regeringen beslutade upphöra
               med den särskilda barnpraxisen, vill jag fråga invandrarministern
               om hon har för avsikt att återinföra denna s.k.
             </seg>
-            <seg n="5edbcdc6">
+          </u>
+          <u xml:id="i-7982df50b3210dda-91" who="unknown">
+            <seg>
               barnpraxis, dvs. låta barnfamiljer stanna efter att viss tid
               har förflutit.
             </seg>
           </u>
-          <note n="67bbf22a">
-            Sundsvall och norrut över Umeå, Skellefteå och till
+          <note type="speaker">
+            y1 &gt; c15,3,9,11.5 &gt; 1990/91:561 av Görel Thurdin (c) till industriministern
+            om skogsindustrins virkestransporter:
           </note>
-          <note n="578159ed">
-            y1 &gt; c15,3,9,11.5 &gt; 5 § Anmälan om frågor
-          </note>
-          <note n="2048971f">
-            ehy1 &gt; c15,1,9,11.5 &gt; Anmäldes att följande frågor framställts
-          </note>
-          <note n="204f502c">
-            y1 &gt; c15,1,9,11.5 &gt; den 25 april
-          </note>
-          <note n="51c8c431">
-            Maj-Lis Lööw om praxis i asylärenden:
-          </note>
-          <note n="01665a21">
-            Den 24 april utvisades en grupp bulgarienturkar från förläggningen
-            i Ringhals tillbaka till
-          </note>
-          <note type="speaker" n="1909ce79">
-            y1 &gt; c15,3,9,11.5 &gt; 1990/91:
-          </note>
-          <note type="speaker" n="cb0399a4">
-            561 av Görel Thurdin (c) till industriministern om skogsindustrins
-            virkestransporter:
-          </note>
-          <u who="unknown" xml:id="i-e3b1efb87855b469-0" n="b61669cb">
-            <seg n="984a5773">
+          <u xml:id="i-7982df50b3210dda-92" who="unknown">
+            <seg>
               Under många år har bristen på medel till underhåll av våra vägar
               varit påfallande stor. När regeringen aviserade en tillväxtproposition
               med satsningar i infrastruktur för tillväxtens skull förväntade
@@ -879,28 +1032,29 @@
               skulle anvisas. Därav blev intet. Nu kan vi läsa att det blivit
               tvärstopp för virkestransporter. 30--50 % av vägarna stängs av.
             </seg>
-            <seg n="75ac12db">
+          </u>
+          <u xml:id="i-7982df50b3210dda-93" who="unknown">
+            <seg>
               Åkare kommer att permitteras och massafabrikena får köpa dyrare
               importvirke med en sämre handelsbalans som följd. Tillväxten i
               en av våra viktigaste industrier är hotad.
             </seg>
-            <seg n="9b6a681f">
+          </u>
+          <u xml:id="i-7982df50b3210dda-94" who="unknown">
+            <seg>
               Vad ämnar regeringen vidta för åtgärder för att tillväxten i
               landets viktiga skogsindustri inte ska hotas genom avstängda vägar?
             </seg>
           </u>
-          <note type="speaker" n="b3a9b60c">
-            1990/91:
+          <note type="speaker">
+            1990/91:562 av Per Gahrton (mp) till utrikesministern om uttalanden
+            om gemensam försvarspolitik i EG:
           </note>
-          <note type="speaker" n="4fc2d566">
-            562 av Per Gahrton (mp) till utrikesministern om uttalanden om
-            gemensam försvarspolitik i EG:
-          </note>
-          <note n="3a85f26c">
+          <note>
             Den 18 april 1991 uttalar kabinettssekreterare
           </note>
-          <u who="unknown" xml:id="i-29ee4e221f9edb46-0" n="b61669cb">
-            <seg n="3283f596">
+          <u xml:id="i-7982df50b3210dda-95" who="unknown">
+            <seg>
               Pierre Schori i DN att EG ''på lång sikt kan omvandlas till en
               försvarsallians'' och att det ''inte i dag går att säga om Sverige
               skall motsätta sig eller stödja detta''. Den 25 april uttalar
@@ -909,76 +1063,97 @@
               kan vålla problem för den baltiska frigörelseprocessen. Hur skall
               dessa yttranden tolkas? Vad är utrikesministerns kommentar?
             </seg>
-            <seg n="06d8f30b">
+          </u>
+          <u xml:id="i-7982df50b3210dda-96" who="unknown">
+            <seg>
               Jag vill fråga utrikesministern: Vilket av Pierre
             </seg>
-            <seg n="5545934f">
+          </u>
+          <u xml:id="i-7982df50b3210dda-97" who="unknown">
+            <seg>
               Schoris uttalanden, om något, uttrycker regeringens ståndpunkt?
             </seg>
-            <seg n="bddea085">
-              Sverige vid medlemskap i EG:
-            </seg>
-            <seg n="058ace65">
+          </u>
+          <note>
+            1990/91:563 av Per Gahrton (mp) till arbetsmarknadsministern
+            om arbetslösheten i
+          </note>
+          <note>
+            Sverige vid medlemskap i EG:
+          </note>
+          <u xml:id="i-7982df50b3210dda-98" who="unknown">
+            <seg>
               Regeringen brukar hävda att ett argument för EG-
             </seg>
-            <seg n="8d92a44a">
+          </u>
+          <u xml:id="i-7982df50b3210dda-99" who="unknown">
+            <seg>
               medlemskap är att arbetslösheten därigenom skall hållas nere.
               Faktum är att arbetslösheten i
             </seg>
-            <seg n="586ea9cc">
-              Danmark fyrdubblats sedan landet blev EG-
-            </seg>
-            <seg n="aeebd1f5">
+          </u>
+          <note>
+            Danmark fyrdubblats sedan landet blev EG-
+          </note>
+          <u xml:id="i-7982df50b3210dda-100" who="unknown">
+            <seg>
               medlem. Faktum är också att EGs genomsnittliga arbetslöshet stadigt
               ligger kring 9 %, vilket är 4--
             </seg>
-            <seg n="a5f46473">
+          </u>
+          <u xml:id="i-7982df50b3210dda-101" who="unknown">
+            <seg>
               5 gånger så mycket som normalarbetslösheten i
             </seg>
-            <seg n="8d02c054">
+          </u>
+          <u xml:id="i-7982df50b3210dda-102" who="unknown">
+            <seg>
               Sverige. Faktum är slutligen att en fransk expert vid Industriförbundets
               årsmöte nyligen hävdade att ''arbetslösheten i Sverige kan bli
               så hög som sex, sju eller åtta procent under andra halvan av nittiotalet,
               detta eftersom arbetskraften inom EG
             </seg>
-            <seg n="8b5068ba">
+          </u>
+          <u xml:id="i-7982df50b3210dda-103" who="unknown">
+            <seg>
               kommer att söka sig till de regioner där det finns arbete'' (SvD
               24/4 -91).
             </seg>
-            <seg n="9e1eaafe">
+          </u>
+          <u xml:id="i-7982df50b3210dda-104" who="unknown">
+            <seg>
               Mot denna bakgrund vill jag fråga arbetsmarknadsministern:
             </seg>
-            <seg n="ebdfba84">
+          </u>
+          <u xml:id="i-7982df50b3210dda-105" who="unknown">
+            <seg>
               Vad finns det för sakskäl att tro att Sverige genom
             </seg>
-            <seg n="30335d83">
+          </u>
+          <u xml:id="i-7982df50b3210dda-106" who="unknown">
+            <seg>
               EG skulle få minskad arbetslöshet, när danska erfarenheter och
               prognoser av EG-experter tvärtom tyder på att EG-effekten på svensk
               arbetsmarknad blir en stark ökning av arbetslösheten?
             </seg>
           </u>
-          <note n="b176ae28">
-            1990/91:563 av Per Gahrton (mp) till arbetsmarknadsministern
-            om arbetslösheten i
+          <note type="speaker">
+            y1 &gt; c15,3,9,11.5 &gt; 1990/91:564 av Per Gahrton (mp) till utrikesministern
+            om spaningsarbetet i utredningen om mordet på Olof Palme:
           </note>
-          <note type="speaker" n="1909ce79">
-            y1 &gt; c15,3,9,11.5 &gt; 1990/91:
-          </note>
-          <note type="speaker" n="48fce4a9">
-            564 av Per Gahrton (mp) till utrikesministern om spaningsarbetet
-            i utredningen om mordet på Olof Palme:
-          </note>
-          <note n="8fef6f88">
+          <note>
             I en artikel i Dagens Nyheter den 20 april 1991
           </note>
-          <u who="unknown" xml:id="i-29ee4e221f9edb46-1" n="b61669cb">
-            <seg n="93e8bc52">
+          <u xml:id="i-7982df50b3210dda-107" who="unknown">
+            <seg>
               anger journalisten Olle Alsén att
             </seg>
-            <seg n="b5dca8a5">
-              Palmeutredningens ansvarige spaningsledare,
-            </seg>
-            <seg n="57d810df">
+          </u>
+          <note>
+            Palmeutredningens ansvarige spaningsledare,
+          </note>
+          <u xml:id="i-7982df50b3210dda-108" who="unknown">
+            <seg>
               Hans Ölvebro, avfärdat ett visst tips med hänvisning till att
               den person som avsågs ''enligt uppgift från UD'' skulle ha suttit
               i fängelse i Afrika när Olof Pame mördades. Men när Olle Alsén,
@@ -988,67 +1163,77 @@
               att uppgiften framförts från UD till spaningsledningen muntligt.
               Mot bakgrund av ovanstående vill jag fråga utrikesministern:
             </seg>
-            <seg n="e8283068">
+          </u>
+          <u xml:id="i-7982df50b3210dda-109" who="unknown">
+            <seg>
               Kan utrikesministern klargöra om ifall UD över huvud taget lämnat
               något besked till spaningsledningen i det aktuella fallet och
               i så fall hur och vid vilken tidpunkt och på vilket sakunderlag
               uppgiften i så fall var baserad?
             </seg>
-            <seg n="dfbceb50">
-              y1 &gt; c15,3,9,11.5 &gt; 1990/91:565 av Maria Leissner (fp) till statsrådet
-            </seg>
-            <seg n="09945d60">
-              Världsbankslån till Ecuadors oljeindustri:
-            </seg>
-            <seg n="c7775480">
+          </u>
+          <note>
+            y1 &gt; c15,3,9,11.5 &gt; 1990/91:565 av Maria Leissner (fp) till statsrådet
+          </note>
+          <note>
+            Lena Hjelm-Wallén om miljöhänsyn vid
+          </note>
+          <note>
+            Världsbankslån till Ecuadors oljeindustri:
+          </note>
+          <u xml:id="i-7982df50b3210dda-110" who="unknown">
+            <seg>
               Indianerna i Ecuador har i ett upprop vädjat om hjälp inför oljebolagens
               hot om exploatering av deras territorium. Världsbanken förbereder
               nu ett lån till Ecuadors oljeindustri, som kan komma att förvärra
               indianernas situation och hota miljön i
             </seg>
-            <seg n="b2523faf">
+          </u>
+          <u xml:id="i-7982df50b3210dda-111" who="unknown">
+            <seg>
               Amazonas genom att regnskogen skövlas.
             </seg>
-            <seg n="f94be9c8">
+          </u>
+          <u xml:id="i-7982df50b3210dda-112" who="unknown">
+            <seg>
               Jag vill därför fråga biståndsministern om regeringen är beredd
               att verka för att
             </seg>
-            <seg n="e9c38f44">
+          </u>
+          <u xml:id="i-7982df50b3210dda-113" who="unknown">
+            <seg>
               Världsbanken tar hänsyn till miljön i samband med sin långivning.
             </seg>
-            <seg n="91a1e957">
-              y1 &gt; c15,3,9,11.5 &gt; 1990/91:566 av Berith Eriksson (v) till statsrådet
-            </seg>
-            <seg n="29f70386">
-              Avser invandrarministern att vidta några åtgärder för att även
-              mindre bemedlade personer skall kunna komma i åtnjutande av offentlighetsprincipen?
-            </seg>
           </u>
-          <note n="2f845002">
-            Lena Hjelm-Wallén om miljöhänsyn vid
+          <note>
+            y1 &gt; c15,3,9,11.5 &gt; 1990/91:566 av Berith Eriksson (v) till statsrådet
           </note>
-          <note n="27f94eb8">
+          <note>
             Maj-Lis Lööw om prissättningen på invandrarverkets praxissamling:
           </note>
-          <note n="7d509759">
+          <note>
             I maj 1984, för över 6 år sedan, beslutade riksdagen om att invandrarverket
             skulle sammanställa en praxissamling över verkets behandling av
             asylärenden.
           </note>
-          <note n="629bb25d">
+          <note>
             Nu har den publicerats och omfattar ca 30 A 4
           </note>
-          <note n="4559cd0e">
+          <note>
             sidor effektiv text. Pris: 794 kr. inkl. moms.
           </note>
-          <note type="speaker" n="1909ce79">
-            y1 &gt; c15,3,9,11.5 &gt; 1990/91:
+          <u xml:id="i-7982df50b3210dda-114" who="unknown">
+            <seg>
+              Avser invandrarministern att vidta några åtgärder för att även
+              mindre bemedlade personer skall kunna komma i åtnjutande av offentlighetsprincipen?
+            </seg>
+          </u>
+          <note type="speaker">
+            y1 &gt; c15,3,9,11.5 &gt; 1990/91:567 av Alf Wennerfors (m) till socialministern
+            om alkoholpolitiken:
           </note>
-          <note type="speaker" n="76c7835a">
-            567 av Alf Wennerfors (m) till socialministern om alkoholpolitiken:
-          </note>
-          <u who="Q4982419" xml:id="i-c3fff59094600b5e-1" n="b61669cb">
-            <seg n="04cecf06">
+          <u xml:id="i-7982df50b3210dda-115" next="i-7982df50b3210dda-122" who="Q4982419">
+            <seg>
               Ett mål i alkoholpolitiken är att minska den totala konsumtionen.
               Ett annat mål är att styra över konsumtionen av starka drycker
               till konsumtion av svaga drycker. Som ett led i denna strävan
@@ -1058,56 +1243,70 @@
               mycket tillfredsställande. Men försäljningen är liten och har
               minskat.
             </seg>
-            <seg n="19228c48">
-              Under 1990 såldes 92 miljoner liter lättvin, vilket är en minskning
-              med 1 %. Under samma år såldes drygt 200 000 liter lågalkoholviner
-              vilket i jämförelse med 1989 är en minskning med drygt
-            </seg>
-            <seg n="2cb0532e">
+          </u>
+          <note>
+            Under 1990 såldes 92 miljoner liter lättvin, vilket är en minskning
+            med 1 %. Under samma år såldes drygt 200 000 liter lågalkoholviner
+            vilket i jämförelse med 1989 är en minskning med drygt
+          </note>
+          <u xml:id="i-7982df50b3210dda-116" prev="i-7982df50b3210dda-115" who="Q4982419">
+            <seg>
               50 %. Detta är beklagligt men vad kan man annat vänta när det
               är förbjudet att informera konsumenterna via annonser.
             </seg>
-            <seg n="7737efcf">
+          </u>
+          <u xml:id="i-7982df50b3210dda-117" prev="i-7982df50b3210dda-115" who="Q4982419">
+            <seg>
               Mot denna bakgrund vill jag ställa följande fråga till socialministern:
             </seg>
-            <seg n="6370620e">
+          </u>
+          <u xml:id="i-7982df50b3210dda-118" prev="i-7982df50b3210dda-115" who="Q4982419">
+            <seg>
               Om socialministern accepterar principen att styra över alkoholkonsumtionen
               till svagare drycker, hur skall detta enligt statsrådet ske praktiskt
               och informationstekniskt?
             </seg>
-            <seg n="4009aacb">
-              y1 &gt; c15,3,9,11.5 &gt; 1990/91:568 av Marianne Andersson i Vårgårda
-            </seg>
-            <seg n="78ac5d00">
-              (c) till socialministern om gruppbostäder för psykiskt utvecklingsstörda:
-            </seg>
-            <seg n="25e48b8b">
+          </u>
+          <note>
+            y1 &gt; c15,3,9,11.5 &gt; 1990/91:568 av Marianne Andersson i Vårgårda
+          </note>
+          <note>
+            (c) till socialministern om gruppbostäder för psykiskt utvecklingsstörda:
+          </note>
+          <u xml:id="i-7982df50b3210dda-119" prev="i-7982df50b3210dda-115" who="Q4982419">
+            <seg>
               Utbyggnaden av gruppbostäder för psykiskt utvecklingsstörda är
               angelägen. Enligt riksdagens beslut ställer ett sådant boende
               särskilda krav på bostadsstandarden men man säger också att det
               måste finnas utrymme för l okala bedömningar så att utbyggnaden
               inte motverkas av statliga bestämmelser.
             </seg>
-            <seg n="4ac59eed">
+          </u>
+          <u xml:id="i-7982df50b3210dda-120" prev="i-7982df50b3210dda-115" who="Q4982419">
+            <seg>
               Erfarenhet från Älvsborgs län visar att detta utrymme inte finns
               i praktiken. Privata och offentliga vårdnadsgivare behandlas olika.
               Ett gruppboende anordnat av en privat vårdnadsgivare får av socialstyrelsen
               endast tillstånd för fyra boende medan det är möjligt att ha fem
               boende i en liknande bostad anordnad av landstinget.
             </seg>
-            <seg n="e98c6fea">
+          </u>
+          <u xml:id="i-7982df50b3210dda-121" prev="i-7982df50b3210dda-115" who="Q4982419">
+            <seg>
               Delar socialministern socialstyrelsens uppfattning att ett boende
               i offentlig regi kan vara familjelikt för fem personer medan det
               i privat regi inte går att vara fler än fyra, eller ämnar regeringen
               ge socialstyrelsen andra direktiv?
             </seg>
           </u>
-          <note n="e6173fea">
+          <note>
             y1 &gt; c15,3,9,11.5 &gt; 6 § Kammaren åtskildes kl. 10.01.
           </note>
-          <note n="528f8fd6">
-            Förhandlingarna leddes av talmannen.
-          </note>
+          <u xml:id="i-7982df50b3210dda-122" prev="i-7982df50b3210dda-115" who="Q4982419">
+            <seg>
+              Förhandlingarna leddes av talmannen.
+            </seg>
+          </u>
         </div>
       </body>
     </text>
