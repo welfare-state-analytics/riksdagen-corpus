@@ -1,8 +1,13 @@
-SELECT DISTINCT ?wiki_id ?partyLabel
+SELECT DISTINCT ?wiki_id ?partyLabel ?start ?end
 WHERE
 {    
     ?wiki_id wdt:P31 wd:Q5;
-             wdt:P102 ?party.
+             p:P102 ?pParty.
+    ?pParty ps:P102 ?party.
+
+    OPTIONAL { ?pParty pq:P580 ?end. }
+    OPTIONAL { ?pParty pq:P582 ?start. }
+    
     {
     # Members of parliament
     VALUES ?chamber { wd:Q10655178 wd:Q33071890 wd:Q81531912 }
@@ -25,6 +30,7 @@ WHERE
     ?government wdt:P31 wd:Q930729.
     ?posheld pq:P5054 ?government.
     }
+
   
   SERVICE wikibase:label { bd:serviceParam wikibase:language "sv". }
 }
