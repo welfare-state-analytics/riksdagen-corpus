@@ -26,10 +26,28 @@ def try_query(query: str, max_tries=3):
 			time.sleep(3)
 	raise ValueError('Query timeout/forbidden.')
 
+def convert_date_precision(date, precision):
+	# Decade
+	if int(precision) == 8:
+		return str(int(date[:4]) // 10 * 10)
+	# Year
+	if int(precision) == 9:
+		return date[:4]
+	# Month
+	if int(precision) == 10:
+		return date[:7]
+	# Day
+	if int(precision) == 11:
+		return date[:10]
+
 def main(args):
 	for query in args.queries:
 		with open(os.path.join('input', 'queries', query), 'r') as f:
 			df = query2df(f.read())
+
+		# Do not need to pull these everytime
+		if query in ['interpellation.rq', 'motion.rq']:
+			continue
 
 		# Drop columns
 		df = df[[c for c in df.columns if c.endswith('.value')]]
@@ -57,12 +75,21 @@ def main(args):
 		for col in date_cols:
 			df[col] = df[col].str.replace(r'T.+', '',  regex=True)
 
+		# Fix date precision
+		if query == 'party_affiliation.rq':
+			df.loc[df['start'].notna(), 'start'] = df[df['start'].notna()].apply(lambda x: convert_date_precision(x['start'], x['startPrecision']), axis=1)
+			df.loc[df['end'].notna(), 'end'] = df[df['end'].notna()].apply(lambda x: convert_date_precision(x['end'], x['endPrecision']), axis=1)
+			df = df[[c for c in df.columns if 'Precision' not in c]]
+
 		if 'riksdagen_id' in df.columns:
 			df['riksdagen_id'] = df['riksdagen_id'].astype(str)
 
 		# Sort values
 		if 'wiki_id' in df.columns:
-			df = df[['wiki_id'] + sorted([col for col in df.columns if col != 'wiki_id'])]
+			first_cols = ['wiki_id', 'start', 'end']
+			other_cols = sorted([c for c in df.columns if c not in first_cols])
+			df = df[first_cols+other_cols]
+
 		df = df.sort_values(by=list(df.columns))
 
 		# Store currently unused data in input
