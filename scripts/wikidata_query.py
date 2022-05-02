@@ -42,12 +42,13 @@ def convert_date_precision(date, precision):
 
 def main(args):
 	for query in args.queries:
-		with open(os.path.join('input', 'queries', query), 'r') as f:
-			df = query2df(f.read())
-
 		# Do not need to pull these everytime
 		if query in ['interpellation.rq', 'motion.rq']:
 			continue
+		print(f'Query {query} start.')
+
+		with open(os.path.join('input', 'queries', query), 'r') as f:
+			df = query2df(f.read())
 
 		# Drop columns
 		df = df[[c for c in df.columns if c.endswith('.value')]]
@@ -75,18 +76,12 @@ def main(args):
 		for col in date_cols:
 			df[col] = df[col].str.replace(r'T.+', '',  regex=True)
 
-		# Fix date precision
-		if query == 'party_affiliation.rq':
-			df.loc[df['start'].notna(), 'start'] = df[df['start'].notna()].apply(lambda x: convert_date_precision(x['start'], x['startPrecision']), axis=1)
-			df.loc[df['end'].notna(), 'end'] = df[df['end'].notna()].apply(lambda x: convert_date_precision(x['end'], x['endPrecision']), axis=1)
-			df = df[[c for c in df.columns if 'Precision' not in c]]
-
 		if 'riksdagen_id' in df.columns:
 			df['riksdagen_id'] = df['riksdagen_id'].astype(str)
 
 		# Sort values
 		if 'wiki_id' in df.columns:
-			first_cols = ['wiki_id', 'start', 'end']
+			first_cols = [c for c in df.columns if c in ['wiki_id', 'start', 'end']]
 			other_cols = sorted([c for c in df.columns if c not in first_cols])
 			df = df[first_cols+other_cols]
 
@@ -96,9 +91,16 @@ def main(args):
 		if query in ['motion.rq', 'interpellation.rq']:
 			df.to_csv(f"input/metadata/{query.replace('.rq', '.csv')}", index=False)
 
+		# Fix party date precision
+		elif query == 'party_affiliation.rq':
+			df.loc[df['start'].notna(), 'start'] = df[df['start'].notna()].apply(lambda x: convert_date_precision(x['start'], x['startPrecision']), axis=1)
+			df.loc[df['end'].notna(), 'end'] = df[df['end'].notna()].apply(lambda x: convert_date_precision(x['end'], x['endPrecision']), axis=1)
+			df = df[['wiki_id', 'party', 'start', 'end']]
+			df.to_csv(f"corpus/metadata/{query.replace('.rq', '.csv')}", index=False)
+
 		# Separate name_location_specifier to 2 files
 		elif query != 'name_location_specifier.rq':
-			df.to_csv(f"corpus/metadata/{query.replace('.rq', '.csv')}", index=False)	
+			df.to_csv(f"corpus/metadata/{query.replace('.rq', '.csv')}", index=False)		
 
 		else:
 			# Stack dfs on eachother with indicator of primary name
@@ -140,8 +142,6 @@ def main(args):
 			name.to_csv('corpus/metadata/name.csv', index=False)
 			loc.to_csv('corpus/metadata/location_specifier.csv', index=False)
 			os.remove('corpus/metadata/alias.csv')
-
-		print(f'Query {query} finished.')
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
