@@ -2,7 +2,7 @@
 [![Unit tests](https://github.com/welfare-state-analytics/riksdagen-corpus/actions/workflows/push.yml/badge.svg)](https://github.com/welfare-state-analytics/riksdagen-corpus/actions/workflows/push.yml)
 [![Validate Parla-Clarin XML](https://github.com/welfare-state-analytics/riksdagen-corpus/actions/workflows/validate.yml/badge.svg)](https://github.com/welfare-state-analytics/riksdagen-corpus/actions/workflows/validate.yml)
 
-# Swedish parliamentary proceedings - Riksdagens protokoll 1920-2021 v0.4.2
+# Swedish parliamentary proceedings - Riksdagens protokoll 1920-2021 v0.4.3
 
 _Westac Project, 2020-2021_
 
@@ -15,7 +15,7 @@ The full data set consists of multiple parts:
 
 ## Basic use
 
-A full dataset is available under [this download link](https://github.com/welfare-state-analytics/riksdagen-corpus/releases/download/v0.4.0/corpus.zip). It has the following structure
+A full dataset is available under [this download link](https://github.com/welfare-state-analytics/riksdagen-corpus/releases/download/v0.4.3/corpus.zip). It has the following structure
 
 - Annual protocol files in the ```corpus/protocols/``` folder
 - Structured metadata on MPs, speakers, ministers, and governments in the ```corpus/metadata/``` folder
