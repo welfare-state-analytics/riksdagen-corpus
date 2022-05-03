@@ -1,8 +1,13 @@
 SELECT ?governmentLabel ?start ?end
 WHERE
 {
-  ?government wdt:P31 wd:Q930729;
-              wdt:P571 ?start.
+  {
+  ?government wdt:P31 wd:Q930729.
+  } UNION {
+  ?government wdt:P31 wd:Q640506.
+  ?government wdt:P17 wd:Q34.
+  }
+  ?government wdt:P571 ?start.
   OPTIONAL{ ?government wdt:P576 ?end }.           
   SERVICE wikibase:label { bd:serviceParam wikibase:language "sv". }
 }

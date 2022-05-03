@@ -1,8 +1,12 @@
-SELECT DISTINCT ?wiki_id ?partyLabel
+SELECT DISTINCT ?wiki_id ?partyLabel ?start ?end ?startPrecision ?endPrecision
 WHERE
 {    
     ?wiki_id wdt:P31 wd:Q5;
-             wdt:P102 ?party.
+             p:P102 ?pParty.
+    ?pParty ps:P102 ?party.
+    OPTIONAL { ?pParty pqv:P580 [wikibase:timePrecision ?startPrecision; wikibase:timeValue ?start ] }
+    OPTIONAL { ?pParty pqv:P582 [wikibase:timePrecision ?endPrecision; wikibase:timeValue ?end ] }
+
     {
     # Members of parliament
     VALUES ?chamber { wd:Q10655178 wd:Q33071890 wd:Q81531912 }
@@ -15,7 +19,12 @@ WHERE
     ?posheld ps:P39 ?role.
     } UNION {
     # Ministers 1
-    VALUES ?government { wd:Q3046743 wd:Q4570153 wd:Q4570314 wd:Q4570330 wd:Q4570354 wd:Q4570378 wd:Q4570967 wd:Q4907240 wd:Q4907653 wd:Q4957676 wd:Q5217837 wd:Q5306179 wd:Q5306186 wd:Q5306190 wd:Q5306200 wd:Q10650416 wd:Q10650420 wd:Q10650424 wd:Q10650438 wd:Q10650456 wd:Q18176361 wd:Q60736270 wd:Q107443672 wd:Q109705067 } 
+      {
+    ?government wdt:P31 wd:Q930729.
+    } UNION {
+    ?government wdt:P31 wd:Q640506.
+    ?government wdt:P17 wd:Q34.
+    }
     ?government p:P527 ?pMinister.
     ?pMinister ps:P527 ?wiki_id
     } UNION {
@@ -25,6 +34,5 @@ WHERE
     ?government wdt:P31 wd:Q930729.
     ?posheld pq:P5054 ?government.
     }
-  
   SERVICE wikibase:label { bd:serviceParam wikibase:language "sv". }
 }

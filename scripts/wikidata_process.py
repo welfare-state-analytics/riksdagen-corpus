@@ -8,6 +8,39 @@ from pyriksdagen.mp import add_id
 from pyriksdagen.match_mp import clean_names
 import unicodedata
 from datetime import datetime
+import calendar
+
+def impute_date_precision(date, start=True):
+	if not date:
+		return ''
+
+	date = date.split('-')
+	if len(date) == 1 and start:
+		return '-'.join([date[0], '01', '01'])
+
+	if len(date) == 2 and start:
+		return '-'.join([date[0], date[1], '01'])
+	
+	if len(date) == 1 and not start:
+		return '-'.join([date[0], '01', '31'])
+
+	if len(date) == 2 and not start:
+		day = calendar.monthrange(int(date[0]), int(date[1]))[1]
+		return '-'.join([date[0], date[1], str(day)])
+
+	if len(date) == 3:
+		return '-'.join(date)
+
+
+def check_date_overlap(start1, end1, start2, end2):
+	latest_start = max(start1, start2)
+	earliest_end = min(end1, end2)
+	delta = (earliest_end - latest_start).days + 1
+	overlap = max(0, delta)
+	if overlap > 0:
+		return True
+	else:
+		return False
 
 def main():
 	government = pd.read_csv('corpus/metadata/government.csv')
@@ -27,9 +60,14 @@ def main():
 
 	### Process corpus data
 	# Drop parties never present in riksdagen
-	party_map = {row["party"]:row["abbreviation"] for _, row in party_map.iterrows()}
-	party["party_abbrev"] = party["party"].map(party_map)
-	party = party.dropna().reset_index(drop=True)
+	party = party[~party['start'].fillna('').str.contains('http')]
+	party = party[~party['end'].fillna('').str.contains('http')]
+	party = party.reset_index(drop=True)
+	
+	#party_map = {row["party"]:row["abbreviation"] for _, row in party_map.iterrows()}
+	#party["party_abbrev"] = party["party"].map(party_map)
+	#party = party.dropna().reset_index(drop=True)
+
 
 	# Name
 	name["name"] = name["name"].str.replace('"','')
@@ -52,6 +90,7 @@ def main():
 	minister = minister.merge(location_specifier, on='wiki_id', how='left')	
 	minister = minister.merge(name[['wiki_id', 'name']], on='wiki_id', how='left')
 	minister["role"] = minister["role"].str.replace('Sveriges ', '')
+	minister = minister[minister['name'].notna()].reset_index(drop=True)
 
 	# Speakers
 	idx = (speaker['start'] == max(speaker['start'])) & speaker['end'].isna()
@@ -80,27 +119,58 @@ def main():
 	member["role"] = member["role"].str.extract(r'([A-Za-zÀ-ÿ]*ledamot)')
 
 	# Drop members with missing start date
-	member = member[member["start"].notna()].reset_index()
-
-	# Impute missing party values for members (not used for other files atm)
-	idx = member["party"].isnull()
-	missing = member.loc[idx]
-	missing = missing.merge(party, on='wiki_id', how='left')
-	member.loc[idx, "party"] = missing["party_y"]
+	member = member.loc[~member["start"].isna()].reset_index(drop=True)
+	member = member[~member['start'].fillna('').str.contains('http')]
+	member = member[~member['end'].fillna('').str.contains('http')]
 
 	# Impute end dates for members currently in office
 	idx = member["end"].isna()
-	idy = member["start"].apply(lambda x: int(str(x)[:4]) >= 2014)
+	idy = member["start"].fillna('').apply(lambda x: int(str(x)[:4]) >= 2014)
 	member.loc[idx*idy, "end"] = '2022-12-31'
 
-	# Drop missing dates
-	member = member.loc[~member["start"].isna()].reset_index(drop=True)
+	# Drop members withm missing end date after imputation
 	member = member.loc[~member["end"].isna()].reset_index(drop=True)
-	member.loc[~member["start"].str.contains('http')].reset_index(drop=True)
-	member.loc[~member["end"].str.contains('http')].reset_index(drop=True)
+
 	
+	# Impute missing party values for members (not used for other files atm)
+	# Drop parties that are not unique AND that lack BOTH start and end date
+	party['start'] = party['start'].fillna('')
+	party['end'] = party['end'].fillna('')
+	party['start'] = party['start'].apply(impute_date_precision, start=True)
+	party['end'] = party['end'].apply(impute_date_precision, start=False)
+	party['start'] = pd.to_datetime(party['start'], format='%Y-%m-%d')
+	party['end'] = pd.to_datetime(party['end'], format='%Y-%m-%d')
+	member['start'] = pd.to_datetime(member['start'], format='%Y-%m-%d')
+	member['end'] = pd.to_datetime(member['end'], format='%Y-%m-%d')
+	
+	data = []
+	for i, row in member[member['party'].isnull()].iterrows():	
+		parties = party[party['wiki_id'] == row['wiki_id']]
+		
+		if len(parties) == 0:
+			continue
+
+		if len(set(parties['party'])) == 1:
+			member.loc[i,'party'] = parties['party'].iloc[0]
+			
+		if len(set(parties['party'])) >= 2:
+			for j, sow in parties.iterrows():
+				res = check_date_overlap(row['start'], sow['start'], row['end'], sow['end'])
+				m = row.copy()
+				m['party'] = sow['party']
+				data.append(m)
+				#member = pd.concat([member, m])
+	data = pd.DataFrame(data, columns=member.columns)
+	member = pd.concat([member, data]).reset_index(drop=True)
+	
+#	idx = member["party"].isnull()
+#	missing = member.loc[idx]
+#	missing = missing.merge(party, on='wiki_id', how='left')
+#	member.loc[idx, "party"] = missing["party_y"]
+
 	# Map party_abbrev and chamber
-	member["party_abbrev"] = member["party"].map(party_map)
+	party_map = {row['party']:row['abbreviation'] for _, row in party_map.iterrows()}
+	member["party_abbrev"] = member["party"].fillna('').map(party_map)
 	member["chamber"] = member["role"].map({'ledamot':'Enkammarriksdagen',
 	                                         'förstakammarledamot':'Första kammaren',
 	                                         'andrakammarledamot':'Andra kammaren'})

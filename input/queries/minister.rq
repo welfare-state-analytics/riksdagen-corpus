@@ -13,7 +13,13 @@ WHERE {
            p:P39 ?posheld.
 
   # Position held in government
+  {
   ?government wdt:P31 wd:Q930729.
+  } UNION {
+  ?government wdt:P31 wd:Q640506.
+  ?government wdt:P17 wd:Q34.
+  }
+    
   ?posheld pq:P5054 ?government; # Position held in a government
            ps:P39 ?role.
   OPTIONAL { ?posheld pq:P580 ?start. }

@@ -26,8 +26,27 @@ def try_query(query: str, max_tries=3):
 			time.sleep(3)
 	raise ValueError('Query timeout/forbidden.')
 
+def convert_date_precision(date, precision):
+	# Decade
+	if int(precision) == 8:
+		return str(int(date[:4]) // 10 * 10)
+	# Year
+	if int(precision) == 9:
+		return date[:4]
+	# Month
+	if int(precision) == 10:
+		return date[:7]
+	# Day
+	if int(precision) == 11:
+		return date[:10]
+
 def main(args):
 	for query in args.queries:
+		# Do not need to pull these everytime
+		if query in ['interpellation.rq', 'motion.rq']:
+			continue
+		print(f'Query {query} start.')
+
 		with open(os.path.join('input', 'queries', query), 'r') as f:
 			df = query2df(f.read())
 
@@ -62,16 +81,26 @@ def main(args):
 
 		# Sort values
 		if 'wiki_id' in df.columns:
-			df = df[['wiki_id'] + sorted([col for col in df.columns if col != 'wiki_id'])]
+			first_cols = [c for c in df.columns if c in ['wiki_id', 'start', 'end']]
+			other_cols = sorted([c for c in df.columns if c not in first_cols])
+			df = df[first_cols+other_cols]
+
 		df = df.sort_values(by=list(df.columns))
 
 		# Store currently unused data in input
 		if query in ['motion.rq', 'interpellation.rq']:
 			df.to_csv(f"input/metadata/{query.replace('.rq', '.csv')}", index=False)
 
+		# Fix party date precision
+		elif query == 'party_affiliation.rq':
+			df.loc[df['start'].notna(), 'start'] = df[df['start'].notna()].apply(lambda x: convert_date_precision(x['start'], x['startPrecision']), axis=1)
+			df.loc[df['end'].notna(), 'end'] = df[df['end'].notna()].apply(lambda x: convert_date_precision(x['end'], x['endPrecision']), axis=1)
+			df = df[['wiki_id', 'party', 'start', 'end']]
+			df.to_csv(f"corpus/metadata/{query.replace('.rq', '.csv')}", index=False)
+
 		# Separate name_location_specifier to 2 files
 		elif query != 'name_location_specifier.rq':
-			df.to_csv(f"corpus/metadata/{query.replace('.rq', '.csv')}", index=False)	
+			df.to_csv(f"corpus/metadata/{query.replace('.rq', '.csv')}", index=False)		
 
 		else:
 			# Stack dfs on eachother with indicator of primary name
@@ -113,8 +142,6 @@ def main(args):
 			name.to_csv('corpus/metadata/name.csv', index=False)
 			loc.to_csv('corpus/metadata/location_specifier.csv', index=False)
 			os.remove('corpus/metadata/alias.csv')
-
-		print(f'Query {query} finished.')
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)

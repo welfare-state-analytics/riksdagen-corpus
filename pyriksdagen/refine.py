@@ -25,9 +25,6 @@ def redetect_protocol(data):
     protocol, metadata = data
     party_mapping, mp_db, minister_db, speaker_db = metadata
     
-
-    #party_mapping, mp_db, minister_db, speaker_db = load_metadata()
-
     protocol_id = protocol.split("/")[-1]
     metadata = infer_metadata(protocol)
     root = etree.parse(protocol, parser).getroot()
@@ -138,6 +135,7 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
         elif tag == "note":
             if elem.attrib.get("type", None) == "speaker":
                 if type(elem.text) == str:
+
                     d = intro_to_dict(elem.text, mp_expressions)
                     if 'name' in d:
                         d['name'] = multiple_replace(latin_characters, d['name'])
@@ -165,7 +163,7 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
                         current_speaker = None
 
                     if current_speaker is None:
-                        unknowns.append([protocol_id, elem.attrib.get("n")] + [d.get(key, "") for key in unknown_variables])
+                        unknowns.append([protocol_id, elem.attrib.get(f'{xml_ns}id')] + [d.get(key, "") for key in unknown_variables])
                     
                     prev = None
 
