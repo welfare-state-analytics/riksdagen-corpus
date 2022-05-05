@@ -2,6 +2,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import argparse
 from cycler import cycler
+import re
+
+exp = "v([0-9]+)([.])([0-9]+)([.])([0-9]+)(b|rc)?([0-9]+)?"
+exp = re.compile(exp)
 
 
 def update_plot(version):
@@ -36,7 +40,6 @@ def update_plot(version):
 	ax.set_ylabel('Accuracy')
 	return f, ax
 
-
 def main(args):
 	f, ax = update_plot(args.version)
 	plt.savefig('input/accuracy/version_plot.png')
@@ -44,10 +47,13 @@ def main(args):
 	plt.close()
 
 
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("-v", "--version", type=str)
     args = parser.parse_args()
-    main(args)
-
+    if exp.search(args.version) is None:
+    	print(f"{args.version} is not a valid version number. Exiting")
+        exit()
+    else:
+        args.version = exp.search(args.version).group(0)
+        main(args)

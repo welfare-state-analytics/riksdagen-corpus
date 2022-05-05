@@ -2,7 +2,7 @@ name: Generate plot
 
 on:
   release:
-    types: [edited]
+    types: [published]
 
 jobs:
   build:
@@ -14,6 +14,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      with:
+        persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
+        fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.    - name: Set up Python ${{ matrix.python-version }}
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
@@ -29,9 +32,22 @@ jobs:
         pip install progressbar2
         pip install pyparlaclarin
         pip install dateparser
+        pip install cycler
+        pip install tqdm
 
-    - name: Test with unittest
+    - name: Estimate current accuracy and generate a new plot
       run: |
         PYTHONPATH="$PYTHONPATH:." python scripts/mapping_accuracy_estimate.py
-        PYTHONPATH="$PYTHONPATH:." python scripts/accuracy-version-plot.py -v v0.4.3
-
+        PYTHONPATH="$PYTHONPATH:." python scripts/accuracy-version-plot.py -v ${{ github.ref }}
+    - name: Commit files
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add input/accuracy/difference.csv
+        git add input/accuracy/version_plot.png
+        git commit -m "docs: generate a new accuracy plot"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: main
