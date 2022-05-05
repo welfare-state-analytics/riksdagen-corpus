@@ -40,14 +40,16 @@ def update_plot(version):
 def main(args):
 	f, ax = update_plot(args.version)
 	plt.savefig('input/accuracy/version_plot.png')
-	plt.show()
-	plt.close()
-
+	if args.show:
+		plt.show()
+		plt.close()
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("-v", "--version", type=str)
+    parser.add_argument("-s", "--show", type=str, default="True")
     args = parser.parse_args()
+    args.show = False if args.show.lower()[:1] == "f" else True
     main(args)
 
