@@ -26,6 +26,9 @@ def update_plot(version):
     accuracy['version'] = version
     df = pd.concat([df, accuracy])
 
+    # Save new values
+    df.to_csv('input/accuracy/difference.csv', index=False)
+
     version = sorted(list(set(df['version'])), reverse=True)
     for v in version:
         dfv = df.loc[df['version'] == v]
