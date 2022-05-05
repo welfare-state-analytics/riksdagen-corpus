@@ -1,4 +1,4 @@
-SELECT ?governmentLabel ?start ?end
+SELECT ?governmentLabel ?start ?end ?startPrecision ?endPrecision
 WHERE
 {
   {
@@ -7,7 +7,7 @@ WHERE
   ?government wdt:P31 wd:Q640506.
   ?government wdt:P17 wd:Q34.
   }
-  ?government wdt:P571 ?start.
-  OPTIONAL{ ?government wdt:P576 ?end }.           
+  ?government p:P571/psv:P571 [ wikibase:timeValue ?start; wikibase:timePrecision ?startPrecision ]
+  OPTIONAL{ ?government p:P576/psv:P576 [ wikibase:timeValue ?end; wikibase:timePrecision ?endPrecision ] }.           
   SERVICE wikibase:label { bd:serviceParam wikibase:language "sv". }
 }
