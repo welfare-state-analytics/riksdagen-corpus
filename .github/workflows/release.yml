@@ -1,0 +1,37 @@
+name: Perform unit tests
+
+on:
+  release:
+    types: [edited]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install lxml
+        pip install bs4
+        pip install pandas
+        pip install kblab-client
+        pip install PyPDF2
+        pip install progressbar2
+        pip install pyparlaclarin
+        pip install dateparser
+
+    - name: Test with unittest
+      run: |
+        PYTHONPATH="$PYTHONPATH:." python scripts/mapping_accuracy_estimate.py
+        PYTHONPATH="$PYTHONPATH:." python scripts/accuracy-version-plot.py -v v0.4.3
+
