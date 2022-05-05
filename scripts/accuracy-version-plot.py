@@ -9,42 +9,42 @@ exp = re.compile(exp)
 
 
 def update_plot(version):
-	default_cycler = (cycler(color=['r', 'g', 'b', 'y']) +
-	                  cycler(linestyle=['-', '--', ':', '-.']))
-	plt.rc('axes', prop_cycle=default_cycler)
-	f, ax = plt.subplots()
+    default_cycler = (cycler(color=['r', 'g', 'b', 'y']) +
+                      cycler(linestyle=['-', '--', ':', '-.']))
+    plt.rc('axes', prop_cycle=default_cycler)
+    f, ax = plt.subplots()
 
-	df = pd.read_csv('input/accuracy/difference.csv')
+    df = pd.read_csv('input/accuracy/difference.csv')
 
-	# Overwrite current version
-	if len(df[df['version'] == version]) > 1:
-		df = df[df['version'] != version]
+    # Overwrite current version
+    if len(df[df['version'] == version]) > 1:
+        df = df[df['version'] != version]
 
-	# Add current version
-	accuracy = pd.read_csv('input/accuracy/upper_bound.csv')
-	accuracy = accuracy[['year', 'accuracy_upper_bound']].rename(columns={'accuracy_upper_bound':'accuracy'})
-	accuracy['version'] = version
-	df = pd.concat([df, accuracy])
+    # Add current version
+    accuracy = pd.read_csv('input/accuracy/upper_bound.csv')
+    accuracy = accuracy[['year', 'accuracy_upper_bound']].rename(columns={'accuracy_upper_bound':'accuracy'})
+    accuracy['version'] = version
+    df = pd.concat([df, accuracy])
 
-	version = sorted(list(set(df['version'])), reverse=True)
-	for v in version:
-		dfv = df.loc[df['version'] == v]
-		x = dfv['year'].tolist()
-		y = dfv['accuracy'].tolist()
-		x, y = zip(*sorted(zip(x,y),key=lambda x: x[0]))
-		plt.plot(x, y)
+    version = sorted(list(set(df['version'])), reverse=True)
+    for v in version:
+        dfv = df.loc[df['version'] == v]
+        x = dfv['year'].tolist()
+        y = dfv['accuracy'].tolist()
+        x, y = zip(*sorted(zip(x,y),key=lambda x: x[0]))
+        plt.plot(x, y)
 
-	plt.title('Estimated accuracy for identification of speech-maker')
-	plt.legend(version, loc ="upper left")
-	ax.set_xlabel('Year')
-	ax.set_ylabel('Accuracy')
-	return f, ax
+    plt.title('Estimated accuracy for identification of speech-maker')
+    plt.legend(version, loc ="upper left")
+    ax.set_xlabel('Year')
+    ax.set_ylabel('Accuracy')
+    return f, ax
 
 def main(args):
-	f, ax = update_plot(args.version)
-	plt.savefig('input/accuracy/version_plot.png')
-	plt.show()
-	plt.close()
+    f, ax = update_plot(args.version)
+    plt.savefig('input/accuracy/version_plot.png')
+    plt.show()
+    plt.close()
 
 
 if __name__ == "__main__":
@@ -52,7 +52,7 @@ if __name__ == "__main__":
     parser.add_argument("-v", "--version", type=str)
     args = parser.parse_args()
     if exp.search(args.version) is None:
-    	print(f"{args.version} is not a valid version number. Exiting")
+        print(f"{args.version} is not a valid version number. Exiting")
         exit()
     else:
         args.version = exp.search(args.version).group(0)
