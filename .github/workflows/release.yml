@@ -34,13 +34,11 @@ jobs:
         pip install dateparser
         pip install cycler
         pip install tqdm
-        pip install multiprocessing
 
     - name: Estimate current accuracy and generate a new plot
       run: |
         PYTHONPATH="$PYTHONPATH:." python scripts/mapping_accuracy_estimate.py
         PYTHONPATH="$PYTHONPATH:." python scripts/accuracy-version-plot.py -v ${{ github.ref }}
-        cat README.md
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
