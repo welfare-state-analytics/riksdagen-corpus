@@ -41,11 +41,11 @@ def update_plot(version):
     return f, ax
 
 def main(args):
-	f, ax = update_plot(args.version)
-	plt.savefig('input/accuracy/version_plot.png')
-	if args.show:
-		plt.show()
-		plt.close()
+    f, ax = update_plot(args.version)
+    plt.savefig('input/accuracy/version_plot.png')
+    if args.show:
+        plt.show()
+        plt.close()
 
 
 if __name__ == "__main__":
