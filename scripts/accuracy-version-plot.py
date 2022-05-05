@@ -10,14 +10,14 @@ def update_plot(version):
 	plt.rc('axes', prop_cycle=default_cycler)
 	f, ax = plt.subplots()
 
-	df = pd.read_csv('input/acc-diff.csv')
+	df = pd.read_csv('input/accuracy/difference.csv')
 
 	# Overwrite current version
 	if len(df[df['version'] == version]) > 1:
 		df = df[df['version'] != version]
 
 	# Add current version
-	accuracy = pd.read_csv('input/accuracy_upper_bound.csv')
+	accuracy = pd.read_csv('input/accuracy/upper_bound.csv')
 	accuracy = accuracy[['year', 'accuracy_upper_bound']].rename(columns={'accuracy_upper_bound':'accuracy'})
 	accuracy['version'] = version
 	df = pd.concat([df, accuracy])
@@ -39,8 +39,10 @@ def update_plot(version):
 
 def main(args):
 	f, ax = update_plot(args.version)
+	plt.savefig('input/accuracy/version_plot.png')
 	plt.show()
 	plt.close()
+
 
 
 if __name__ == "__main__":
