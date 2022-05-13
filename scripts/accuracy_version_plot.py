@@ -5,8 +5,8 @@ from cycler import cycler
 
 
 def update_plot(version):
-	default_cycler = (cycler(color=['r', 'g', 'b', 'y']) +
-	                  cycler(linestyle=['-', '--', ':', '-.']))
+	default_cycler = (cycler(color=plt.cm.tab10.colors) +
+	                  cycler(linestyle=['-', '--', '-.']*4)[:10])
 	plt.rc('axes', prop_cycle=default_cycler)
 	f, ax = plt.subplots()
 
@@ -28,7 +28,7 @@ def update_plot(version):
 		x = dfv['year'].tolist()
 		y = dfv['accuracy'].tolist()
 		x, y = zip(*sorted(zip(x,y),key=lambda x: x[0]))
-		plt.plot(x, y)
+		plt.plot(x, y, linewidth=2)
 
 	plt.title('Estimated accuracy for identification of speech-maker')
 	plt.legend(version, loc ="upper left")
