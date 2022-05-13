@@ -5,15 +5,19 @@ import os, argparse
 import time
 import re
 from importlib_resources import files
+from unidecode import unidecode
+from pyriksdagen.match_mp import multiple_replace
+from functools import partial
+import datetime
 
-def _get_query_string(query_name):
+def get_query_string(query_name):
 	try:
 		s = files('pyriksdagen.data.queries').joinpath(f'{query_name}.rq').read_text()
 	except FileNotFoundError:
 		print(f"File {query_name} not found")
 	return s
 
-def _convert_date_precision(date, precision):
+def reduce_date_precision(date, precision):
 	'''
 	Truncates date to accurate length given precision level
 	'''
@@ -38,7 +42,7 @@ def fix_dates(df):
 		if 'Precision' in c:
 			base_name = c.replace('Precision', '')
 			df.loc[df[base_name].notna(), base_name] =\
-			df.loc[df[base_name].notna()].apply(lambda x: _convert_date_precision(x[base_name], x[c]), axis=1)
+			df.loc[df[base_name].notna()].apply(lambda x: reduce_date_precision(x[base_name], x[c]), axis=1)
 			df = df.drop(c, axis=1)
 	return df
 
@@ -48,6 +52,8 @@ def clean_sparql_df(df, query_name):
 	# Clean columns
 	df = df.rename(columns={'wiki_idLabel.value':'name'}) # avoid duplicate colnames
 	df = df[[c for c in df.columns if c.endswith('.value') or c == 'name']]
+	
+
 	df.columns = df.columns.str.replace('.value', '', regex=False)
 	df.columns = df.columns.str.replace('Label', '', regex=False)
 	df = fix_dates(df) # use and drop date precision columns
@@ -56,14 +62,10 @@ def clean_sparql_df(df, query_name):
 	if 'wiki_id' in df.columns:
 		df['wiki_id'] = df['wiki_id'].str.split('/').str[-1]
 
-	if 'riksdagen_id' in df.columns:
-		df['riksdagen_id'] = df['riksdagen_id'].astype(str)
-
-	if 'gender' in df.columns:
-		df["gender"] = df["gender"].map({'kvinna':'woman', 'man':'man'})
-
-	if query_name == 'minister':
-		df["role"] = df["role"].str.replace('Sveriges', '').str.strip()
+	# Drop pseudo missing values of form "http://www.wikidata.org/.well-known..."
+	idx, idy = np.where(df.astype(str).applymap(lambda x: 'http' in x))
+	for x, y in zip(idx, idy):
+		df.loc[x][y] = ''
 
 	# Sort columns
 	first_cols = [c for c in ['wiki_id', 'start', 'end'] if c in df.columns]
@@ -76,7 +78,7 @@ def clean_sparql_df(df, query_name):
 	return df
 
 def query2df(query_name):
-	query = _get_query_string(query_name)
+	query = get_query_string(query_name)
 	sparql = SPARQLWrapper("https://query.wikidata.org/sparql", agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11")
 	sparql.setQuery(query)	
 	sparql.setReturnFormat(JSON)
