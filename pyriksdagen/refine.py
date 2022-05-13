@@ -18,11 +18,10 @@ from .match_mp import multiple_replace
 from datetime import datetime
 from unidecode import unidecode
 
-def redetect_protocol(data):
+def redetect_protocol(metadata, protocol):
     tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
     parser = etree.XMLParser(remove_blank_text=True)
 
-    protocol, metadata = data
     party_mapping, mp_db, minister_db, speaker_db = metadata
     
     protocol_id = protocol.split("/")[-1]
@@ -100,16 +99,21 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
     # Extract information of unknown speakers
     unknowns = []
 
+
     #print(metadata)
     # For bicameral era, prioritize MPs from the same chamber as the protocol
     if "chamber" in metadata:
-        mp_db_secondary = mp_db[mp_db["chamber"] != metadata["chamber"]]
-        mp_db = mp_db[mp_db["chamber"] == metadata["chamber"]]
+        
+        chamber = metadata['chamber'].lower().split()[0]
+        mp_db_secondary = mp_db[~mp_db['role'].str.contains(chamber)]
+        mp_db           = mp_db[mp_db['role'].str.contains(chamber)]
 
         if metadata["chamber"] == 'Första kammaren':
             speaker_db = speaker_db[speaker_db['role'].str[:2].isin(['fk'])]
+
         elif metadata["chamber"] == 'Andra kammaren':
             speaker_db = speaker_db[speaker_db['role'].str[:2].isin(['ak'])]
+            
         elif metadata["chamber"] == 'Enkammarriksdagen':
             speaker_db = speaker_db[~speaker_db['role'].str[:2].isin(['ak', 'fk'])]
 
@@ -135,16 +139,15 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
         elif tag == "note":
             if elem.attrib.get("type", None) == "speaker":
                 if type(elem.text) == str:
-
                     d = intro_to_dict(elem.text, mp_expressions)
                     if 'name' in d:
                         d['name'] = multiple_replace(latin_characters, d['name'])
-
+                        
                     if 'other' in d:
                         # Match minister
                         if 'statsråd' in d["other"].lower() or 'minister' in d["other"].lower():
                             current_speaker = detect_minister(elem.text, minister_db, d)
-                        
+
                         elif current_speaker is None and 'talman' in d["other"].lower():
                             current_speaker = detect_speaker(elem.text, speaker_db, metadata=metadata)
 
@@ -154,11 +157,11 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
                     # Match mp if not minister/talman and a name is identified
                     # if current_speaker is None and 'name' in d:
                     elif 'name' in d:
+
                         current_speaker = detect_mp(d, db=mp_db, party_map=party_map)
 
                         if current_speaker is None and mp_db_secondary is not None:
                             current_speaker = detect_mp(d, db=mp_db_secondary, party_map=party_map)
-                            
                     else:
                         current_speaker = None
 
