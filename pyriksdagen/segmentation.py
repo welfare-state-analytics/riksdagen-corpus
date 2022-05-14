@@ -65,7 +65,7 @@ def detect_speaker(matched_txt, speaker_db, metadata=None):
 
     # Second vice speaker
     if re.search('andre vice', lower_txt):
-        speaker_db = speaker_db[speaker_db["role"].str.contains('förste')]
+        speaker_db = speaker_db[speaker_db["role"].str.contains('andre')]
         
     # Third vice speaker
     elif re.search('tredje vice', lower_txt):
