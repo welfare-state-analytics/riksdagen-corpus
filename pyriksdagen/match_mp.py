@@ -1,10 +1,13 @@
 import numpy as np
 import pandas as pd
 import re
+from unidecode import unidecode
 
-def multiple_replace(dict: dict, text: str):
-	regex = re.compile("(%s)" % "|".join(map(re.escape, dict.keys())))
-	return regex.sub(lambda mo: dict[mo.string[mo.start():mo.end()]], text) 
+def multiple_replace(text, i_start=192, i_end=383):
+	d = [chr(c) for c in range(i_start, i_end+1)]
+	d = {c:unidecode(c) for c in d if c not in 'åäöÅÄÖ'}
+	regex = re.compile("(%s)" % "|".join(map(re.escape, d.keys())))
+	return regex.sub(lambda mo: d[mo.string[mo.start():mo.end()]], text) 
 
 def clean_names(names):
 	if type(names) == str:

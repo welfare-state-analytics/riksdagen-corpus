@@ -87,10 +87,6 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
     """
     mp_expressions = load_expressions(phase="mp")
     
-    # For multiple replace function
-    latin_characters = [chr(c) for c in range(192,383+1)]
-    latin_characters = {c:unidecode(c) for c in latin_characters if c not in 'åäöÅÄÖ'}
-
     xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     current_speaker = None
     prev = None
@@ -131,7 +127,7 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
                 if type(elem.text) == str:
                     d = intro_to_dict(elem.text, mp_expressions)
                     if 'name' in d:
-                        d['name'] = multiple_replace(latin_characters, d['name'])
+                        d['name'] = multiple_replace(d['name'])
                         
                     if 'other' in d:
                         # Match minister

@@ -118,11 +118,8 @@ def abbreviate_party(db, party):
 	return db
 
 def clean_name(db):
-	latin_characters = [chr(c) for c in range(192,383+1)]
-	latin_characters = {c:unidecode(c) for c in latin_characters if c not in 'åäöÅÄÖ'}
-	replace_fun = partial(multiple_replace, latin_characters)
 	db['name'] = db['name'].str.lower()
-	db['name'] = db['name'].astype(str).apply(replace_fun)
+	db['name'] = db['name'].astype(str).apply(multiple_replace)
 	db['name'] = db['name'].str.replace('-', ' ', regex=False)
 	db['name'] = db['name'].str.replace(r'[^a-zåäö\s\-]', '', regex=True)
 	return db
