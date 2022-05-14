@@ -1,9 +1,8 @@
 import pandas as pd
 import os, re
-import shutil, getpass
+import getpass
 import kblab
 import progressbar
-from PyPDF2 import PdfFileReader, PdfFileWriter
 from lxml import etree
 from .utils import clean_html
 

@@ -3,15 +3,8 @@ Implements the segmentation of the data into speeches and
 ultimately into the Parla-Clarin XML format.
 """
 import numpy as np
-import pandas as pd
-import re, hashlib, copy, os
-import progressbar
-from os import listdir
-from os.path import isfile, join
-from lxml import etree
-from .utils import infer_metadata
-from .db import filter_db, year_iterator
-from .match_mp import *
+import re, hashlib
+from .match_mp import match_mp, name_equals, names_in
 from itertools import combinations
 
 # Classify paragraph

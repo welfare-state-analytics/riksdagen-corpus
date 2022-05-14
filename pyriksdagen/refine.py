@@ -1,5 +1,5 @@
 from lxml import etree
-import re, random
+import re
 from pyparlaclarin.read import element_hash
 import dateparser
 import pandas as pd
@@ -11,12 +11,10 @@ from .segmentation import (
     detect_speaker,
     expression_dicts,
     detect_introduction,
-    classify_paragraph,
     intro_to_dict,
 )
 from .match_mp import multiple_replace
 from datetime import datetime
-from unidecode import unidecode
 
 def redetect_protocol(metadata, protocol):
     tei_ns = ".//{http://www.tei-c.org/ns/1.0}"

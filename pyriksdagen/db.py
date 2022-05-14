@@ -1,7 +1,5 @@
 import pandas as pd
 import os, json, re, hashlib
-from .utils import infer_metadata
-import progressbar
 
 
 def year_iterator(file_db):

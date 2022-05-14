@@ -1,12 +1,6 @@
-from SPARQLWrapper import SPARQLWrapper, JSON
-import numpy as np
 import pandas as pd
-import os, argparse
-import time
 import re
-from importlib_resources import files
-from unidecode import unidecode
-from pyriksdagen.match_mp import multiple_replace
+from .match_mp import multiple_replace
 from functools import partial
 import datetime
 
