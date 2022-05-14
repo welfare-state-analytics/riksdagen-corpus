@@ -1,30 +1,13 @@
 """
 Connect introductions to the speaker in the metadata.
 """
-from lxml import etree
 import pandas as pd
-import json, math
-import os, argparse
-from datetime import datetime
-from pyparlaclarin.refine import (
-    format_texts,
-)
-
-from pyriksdagen.db import filter_db, load_patterns, load_metadata
-from pyriksdagen.refine import (
-    redetect_protocol,
-    detect_mps,
-    find_introductions,
-    update_ids,
-    update_hashes,
-)
-from pyriksdagen.utils import infer_metadata, parse_date
+import argparse
+from pyriksdagen.db import load_metadata
+from pyriksdagen.refine import redetect_protocol
 from pyriksdagen.utils import protocol_iterators
-from pyriksdagen.match_mp import clean_names
 from tqdm import tqdm
 from multiprocessing import Pool
-from itertools import product
-from unidecode import unidecode
 from functools import partial
 
 def main(args):
