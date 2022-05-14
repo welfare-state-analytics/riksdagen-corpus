@@ -94,11 +94,10 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
     xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     current_speaker = None
     prev = None
-    mp_db_secondary = None
+    mp_db_secondary = pd.DataFrame()
 
     # Extract information of unknown speakers
     unknowns = []
-
 
     #print(metadata)
     # For bicameral era, prioritize MPs from the same chamber as the protocol
@@ -151,7 +150,7 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
 
                         current_speaker = detect_mp(d, db=mp_db, party_map=party_map)
 
-                        if current_speaker is None and mp_db_secondary is not None:
+                        if current_speaker is None and len(mp_db_secondary) > 0:
                             current_speaker = detect_mp(d, db=mp_db_secondary, party_map=party_map)
                     else:
                         current_speaker = None
