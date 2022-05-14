@@ -20,37 +20,34 @@ from pyriksdagen.refine import (
 )
 from pyriksdagen.utils import infer_metadata, parse_date
 from pyriksdagen.utils import protocol_iterators
-from pyriksdagen.match_mp import clean_names, multiple_replace
+from pyriksdagen.match_mp import clean_names
 from tqdm import tqdm
 from multiprocessing import Pool
 from itertools import product
 from unidecode import unidecode
+from functools import partial
 
 def main(args):
+    
+    party_mapping, *dfs  = load_metadata()
+    
+    for df in dfs:
+        df[["start", "end"]] = df[["start", "end"]].apply(pd.to_datetime, format='%Y-%m-%d')
+    metadata = [party_mapping] + dfs
+    
+    redetect_fun = partial(redetect_protocol, metadata)
     protocols = sorted(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end))    )    
     unknowns = []
-
-    # For multiple replace function
-    latin_characters = [chr(c) for c in range(192,383+1)]
-    latin_characters = {c:unidecode(c) for c in latin_characters if c not in 'åäöÅÄÖ'}
-
-    party_mapping, mp_db, minister_db, speaker_db = load_metadata()
-    mp_db['name'] = mp_db['name'].apply(lambda x: multiple_replace(latin_characters, x))
-    minister_db['name'] = minister_db['name'].apply(lambda x: multiple_replace(latin_characters, x))
-    speaker_db['name'] = speaker_db['name'].apply(lambda x: multiple_replace(latin_characters, x))
-
-    metadata = [party_mapping, mp_db, minister_db, speaker_db]
-
     if args.parallel == 1:
         pool = Pool()
-        for unk in tqdm(pool.imap(redetect_protocol, product(protocols, [metadata])), total=len(protocols)):
+        for unk in tqdm(pool.imap(redetect_fun, protocols), total=len(protocols)):
             unknowns.extend(unk)
     else:
         for protocol in tqdm(protocols, total=len(protocols)):
-            unk = redetect_protocol([protocol, metadata])
+            unk = redetect_fun(protocol)
             unknowns.extend(unk)
 
-    unknowns = pd.DataFrame(unknowns, columns=['protocol_id', 'hash']+["gender", "party", "other"])
+    unknowns = pd.DataFrame(unknowns, columns=['protocol_id', 'uuid']+["gender", "party", "other"])
     print('Proportion of metadata identified for unknowns:')
     print((unknowns[["gender", "party", "other"]] != '').sum() / len(unknowns))
     unknowns.drop_duplicates().to_csv('input/matching/unknowns.csv', index=False)
