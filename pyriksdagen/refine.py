@@ -103,19 +103,10 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
     #print(metadata)
     # For bicameral era, prioritize MPs from the same chamber as the protocol
     if "chamber" in metadata:
-        
-        chamber = metadata['chamber'].lower().split()[0]
-        mp_db_secondary = mp_db[~mp_db['role'].str.contains(chamber)]
-        mp_db           = mp_db[mp_db['role'].str.contains(chamber)]
-
-        if metadata["chamber"] == 'Första kammaren':
-            speaker_db = speaker_db[speaker_db['role'].str[:2].isin(['fk'])]
-
-        elif metadata["chamber"] == 'Andra kammaren':
-            speaker_db = speaker_db[speaker_db['role'].str[:2].isin(['ak'])]
-            
-        elif metadata["chamber"] == 'Enkammarriksdagen':
-            speaker_db = speaker_db[~speaker_db['role'].str[:2].isin(['ak', 'fk'])]
+        chamber = {'Första kammaren': 1, 'Andra kammaren':2}.get(metadata['chamber'], 0)
+        mp_db = mp_db[mp_db['chamber'] == chamber]
+        mp_db_secondary = mp_db[mp_db['chamber'] != chamber]
+        speaker_db = speaker_db[speaker_db['chamber'] == chamber]
 
     for tag, elem in elem_iter(root):
         if tag == "u":

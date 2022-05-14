@@ -1,7 +1,3 @@
-### DEBUGGING
-# 1. Checkout member/minister/speaker to see if its a data or algorithm
-
-
 from SPARQLWrapper import SPARQLWrapper, JSON
 import numpy as np
 import pandas as pd
@@ -131,6 +127,29 @@ def clean_name(db):
 	db['name'] = db['name'].str.replace(r'[^a-zåäö\s\-]', '', regex=True)
 	return db
 
+def infer_chamber(db):
+	def _infer_chamber(role):
+		d = {'första': 1, 'andra': 2}
+		match = re.search(r'([a-zåäö]+)\s*(?:kammar)', role)
+		return d[match.group(1)] if match else 0
+	db['chamber'] = db['role'].apply(_infer_chamber).astype(dtype=pd.Int8Dtype())
+	return db
+
+def format_member_role(db):
+	db['role'] = db['role'].str.extract(r'(ledamot)')
+	return db
+
+def format_minister_role(db):
+	db["role"] = db["role"].str.replace('Sveriges ', '').str.lower()
+	return db
+
+def format_speaker_role(db):
+	def _format_speaker_role(role):
+		match = re.search(r'(andre |förste |tredje )?(vice )?talman', role)
+		return match.group(0)
+	db['role'] = db['role'].apply(_format_speaker_role)
+	return db
+
 class Corpus(pd.DataFrame):
 	def __init__(self, *args, **kwargs):
 		super(Corpus, self).__init__(*args, **kwargs)
@@ -147,14 +166,19 @@ class Corpus(pd.DataFrame):
 
 	def add_mps(self):
 		df = self._load_metadata('member_of_parliament', source=True)
+		df = infer_chamber(df)
+		df = format_member_role(df)
 		return Corpus(pd.concat([self, df]))
 	        
 	def add_ministers(self):
 		df = self._load_metadata('minister', source=True)
+		df = format_minister_role(df)
 		return Corpus(pd.concat([self, df]))
 
 	def add_speakers(self):
 		df = self._load_metadata('speaker', source=True)
+		df = infer_chamber(df)
+		df = format_speaker_role(df)
 		return Corpus(pd.concat([self, df]))
 
 	def add_persons(self):
