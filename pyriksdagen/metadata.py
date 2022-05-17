@@ -22,15 +22,14 @@ def increase_date_precision(date, start=True):
 	if len(date) == 10:
 		return date
 
+
 def check_date_overlap(start1, end1, start2, end2):
 	latest_start = max(start1, start2)
 	earliest_end = min(end1, end2)
 	delta = (earliest_end - latest_start).days + 1
 	overlap = max(0, delta)
-	if overlap > 0:
-		return True
-	else:
-		return False
+	return True if overlap > 0 else False
+
 
 def impute_member_date(db, gov_db, from_gov='Regeringen Löfven I'):
 	gov_start = gov_db.loc[gov_db['government'] == from_gov, 'start'].iloc[0]
@@ -39,6 +38,7 @@ def impute_member_date(db, gov_db, from_gov='Regeringen Löfven I'):
 			(db['end'].isna())
 	db.loc[idx, 'end'] = gov_db['end'].max()
 	return db
+
 
 def impute_minister_date(db, gov_db):
 	def _impute_minister_date(minister, gov_db):
@@ -53,12 +53,14 @@ def impute_minister_date(db, gov_db):
 	db.loc[db['source'] == 'minister'].apply(partial(_impute_minister_date, gov_db=gov_db), axis=1)
 	return db
 
+
 def impute_speaker_date(db):
 	idx = 	(db['source'] == 'speaker') &\
 			(db['end'].isna()) &\
 			(db['role'].str.contains('kammare') == False)
 	db.loc[idx, 'end'] = db.loc[idx, 'start'] + datetime.timedelta(days = 365*4)
 	return db
+
 
 def impute_date(db):
 	db[["start", "end"]] = db[["start", "end"]].astype(str)
@@ -84,6 +86,7 @@ def impute_date(db):
 		db = impute_speaker_date(db)
 	return db
 
+
 def impute_party(db, party):
 	if 'party' not in db.columns:
 		db['party'] = pd.Series(dtype=str)
@@ -106,10 +109,12 @@ def impute_party(db, party):
 	db = pd.concat([db, pd.DataFrame(data)]).reset_index(drop=True)
 	return db
 
+
 def abbreviate_party(db, party):
 	party = {row['party']:row['abbreviation'] for _, row in party.iterrows()}
 	db["party_abbrev"] = db["party"].fillna('').map(party)
 	return db
+
 
 def clean_name(db):
 	db['name'] = db['name'].str.lower()
@@ -117,6 +122,7 @@ def clean_name(db):
 	db['name'] = db['name'].str.replace('-', ' ', regex=False)
 	db['name'] = db['name'].str.replace(r'[^a-zåäö\s\-]', '', regex=True)
 	return db
+
 
 def infer_chamber(db):
 	def _infer_chamber(role):
@@ -126,13 +132,16 @@ def infer_chamber(db):
 	db['chamber'] = db['role'].apply(_infer_chamber).astype(dtype=pd.Int8Dtype())
 	return db
 
+
 def format_member_role(db):
 	db['role'] = db['role'].str.extract(r'(ledamot)')
 	return db
 
+
 def format_minister_role(db):
 	db["role"] = db["role"].str.replace('Sveriges ', '').str.lower()
 	return db
+
 
 def format_speaker_role(db):
 	def _format_speaker_role(role):
@@ -140,6 +149,7 @@ def format_speaker_role(db):
 		return match.group(0)
 	db['role'] = db['role'].apply(_format_speaker_role)
 	return db
+
 
 class Corpus(pd.DataFrame):
 	def __init__(self, *args, **kwargs):
