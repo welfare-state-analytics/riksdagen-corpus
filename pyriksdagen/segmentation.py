@@ -3,15 +3,8 @@ Implements the segmentation of the data into speeches and
 ultimately into the Parla-Clarin XML format.
 """
 import numpy as np
-import pandas as pd
-import re, hashlib, copy, os
-import progressbar
-from os import listdir
-from os.path import isfile, join
-from lxml import etree
-from .utils import infer_metadata
-from .db import filter_db, year_iterator
-from .match_mp import *
+import re, hashlib
+from .match_mp import match_mp, name_equals, names_in, names_in_rev
 from itertools import combinations
 
 # Classify paragraph
@@ -72,19 +65,19 @@ def detect_speaker(matched_txt, speaker_db, metadata=None):
 
     # Second vice speaker
     if re.search('andre vice', lower_txt):
-        speaker_db = speaker_db[speaker_db["role"].str.contains('2_vice')]
-    
+        speaker_db = speaker_db[speaker_db["role"].str.contains('andre')]
+        
     # Third vice speaker
     elif re.search('tredje vice', lower_txt):
-        speaker_db = speaker_db[speaker_db["role"].str.contains('3_vice')]
+        speaker_db = speaker_db[speaker_db["role"].str.contains('tredje')]
 
     # First vice speaker
     elif re.search(r'(förste)?\svice', lower_txt):
-        speaker_db = speaker_db[speaker_db["role"].str.contains('1_vice')]
+        speaker_db = speaker_db[speaker_db["role"].str.contains('förste')]
 
     # Speaker
     elif re.search(r'(herr|fru)?\s?talman', lower_txt):
-        speaker_db = speaker_db[speaker_db["role"].str.contains('speaker')]
+        speaker_db = speaker_db[speaker_db["role"] == 'talman']
 
     if len(set(speaker_db["id"])) == 1:
         return speaker_db["id"].iloc[0]

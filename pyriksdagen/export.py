@@ -7,8 +7,8 @@ from lxml import etree
 from pyparlaclarin.create import pc_header, create_parlaclarin
 
 from .utils import infer_metadata
-from .download import get_blocks, fetch_files
-from .db import filter_db, year_iterator
+from .download import get_blocks
+from .db import year_iterator
 
 
 def create_tei(root, metadata):
