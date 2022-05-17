@@ -16,8 +16,6 @@ class Test(unittest.TestCase):
         parser = etree.XMLParser(remove_blank_text=True)
 
         def test_one_protocol(root, mp_ids, mp_db):
-            mp_doa = mp_db[['id', 'born', 'dead']].drop_duplicates().reset_index(drop=True)
-
             found = True
             years = []
             date = None
@@ -34,24 +32,14 @@ class Test(unittest.TestCase):
                     mp_ids[year] = ids
 
             false_whos = []
-            dead_whos = []
-            unborn_whos = []
+            whos = set()
             for body in root.findall(".//{http://www.tei-c.org/ns/1.0}body"):
                 for div in body.findall("{http://www.tei-c.org/ns/1.0}div"):
                     for ix, elem in enumerate(div):
                         if elem.tag == "{http://www.tei-c.org/ns/1.0}u":
                             who = elem.attrib.get("who", "unknown")
                             if who != "unknown":
-                                born, dead = mp_doa.loc[mp_doa['id'] == who, ['born', 'dead']].iloc[0]
-
-                                if not pd.isna(born):
-                                    if min(years) < int(born[:4]) + 15:
-                                        unborn_whos.append(who)
-
-                                if not pd.isna(dead):
-                                    if max(years) > int(dead[:4]):
-                                        dead_whos.append(who)
-
+                                whos.add(who)
                                 elem_found = False
                                 for year in years:
                                     if who in mp_ids[year]:
@@ -61,7 +49,22 @@ class Test(unittest.TestCase):
                                     found = False
                                     false_whos.append(who)
 
-            return found, false_whos, dead_whos, unborn_whos
+            # Check for dead or child speakers
+            dead_whos = []
+            child_whos = []
+            mp_doa = mp_db[['id', 'born', 'dead']].drop_duplicates().reset_index(drop=True)
+            mp_doa['born'] = mp_doa['born'].fillna('0000')
+            mp_doa['dead'] = mp_doa['dead'].fillna('9999')
+            for who in whos:
+                mp = mp_doa.loc[mp_doa['id'] == who]
+                born = min(mp['born'].apply(lambda x: int(x[:4])))
+                dead = max(mp['dead'].apply(lambda x: int(x[:4])))
+                if max(years) > dead:
+                    dead_whos.append(who)
+                if max(years) < born + 15:
+                    child_whos.append(who)
+            
+            return found, false_whos, dead_whos, child_whos
 
         # new
         folder = "corpus/protocols"
@@ -76,13 +79,13 @@ class Test(unittest.TestCase):
                 protocol_id = protocol_path.stem
                 path_str = str(protocol_path.resolve())
                 root = etree.parse(path_str, parser).getroot()
-                found, false_whos, dead_whos, unborn_whos = test_one_protocol(root, mp_ids, mp_db)
+                found, false_whos, dead_whos, child_whos = test_one_protocol(root, mp_ids, mp_db)
                 if not found:
                     failed_protocols.append(protocol_id + " (" + false_whos[0] + ")")
 
         print("Protocols with inactive MPs tagged as speakers:", ", ".join(failed_protocols))
         print("Dead MPs tagged as speakers:", ", ".join(dead_whos))
-        print("Children MPs tagged as speakers:", ", ".join(unborn_whos))
+        print("Children MPs tagged as speakers:", ", ".join(child_whos))
 
         self.assertEqual(len(failed_protocols), 0)
 
