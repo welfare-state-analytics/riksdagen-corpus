@@ -12,7 +12,7 @@ import argparse
 def remove_attribute(key, protocol):
 	parser = etree.XMLParser(remove_blank_text=True)
 	root = etree.parse(protocol, parser).getroot()
-	for tag, elem in elem_iter(root):
+	for elem in root.iter():
 		elem.attrib.pop(key, None)
 	b = etree.tostring(
 		root, pretty_print=True, encoding="utf-8", xml_declaration=True
