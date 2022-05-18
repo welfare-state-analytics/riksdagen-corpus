@@ -51,6 +51,7 @@ if __name__ == '__main__':
     df = main(args)
 
     print(df)
-    print("Average:", df.mean())
+    print("Average:", df['accuracy_upper_bound'].mean())
     print("Weighted average:", df["known"].sum() / (df["known"] + df["unknown"]).sum())
+    print("Minimum: {} ({})".format(*[getattr(df['accuracy_upper_bound'], f)() for f in ['min', 'idxmin']]))
     df.to_csv("input/accuracy/upper_bound.csv", index_label='year')

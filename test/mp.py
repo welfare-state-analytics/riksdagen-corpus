@@ -32,12 +32,14 @@ class Test(unittest.TestCase):
                     mp_ids[year] = ids
 
             false_whos = []
+            whos = set()
             for body in root.findall(".//{http://www.tei-c.org/ns/1.0}body"):
                 for div in body.findall("{http://www.tei-c.org/ns/1.0}div"):
                     for ix, elem in enumerate(div):
                         if elem.tag == "{http://www.tei-c.org/ns/1.0}u":
                             who = elem.attrib.get("who", "unknown")
                             if who != "unknown":
+                                whos.add(who)
                                 elem_found = False
                                 for year in years:
                                     if who in mp_ids[year]:
@@ -47,7 +49,22 @@ class Test(unittest.TestCase):
                                     found = False
                                     false_whos.append(who)
 
-            return found, false_whos
+            # Check for dead or child speakers
+            dead_whos = []
+            child_whos = []
+            mp_doa = mp_db[['id', 'born', 'dead']].drop_duplicates().reset_index(drop=True)
+            mp_doa['born'] = mp_doa['born'].fillna('0000')
+            mp_doa['dead'] = mp_doa['dead'].fillna('9999')
+            for who in whos:
+                mp = mp_doa.loc[mp_doa['id'] == who]
+                born = min(mp['born'].apply(lambda x: int(x[:4])))
+                dead = max(mp['dead'].apply(lambda x: int(x[:4])))
+                if max(years) > dead:
+                    dead_whos.append(who)
+                if max(years) < born + 15:
+                    child_whos.append(who)
+            
+            return found, false_whos, dead_whos, child_whos
 
         # new
         folder = "corpus/protocols"
@@ -62,11 +79,14 @@ class Test(unittest.TestCase):
                 protocol_id = protocol_path.stem
                 path_str = str(protocol_path.resolve())
                 root = etree.parse(path_str, parser).getroot()
-                found, false_whos = test_one_protocol(root, mp_ids, mp_db)
+                found, false_whos, dead_whos, child_whos = test_one_protocol(root, mp_ids, mp_db)
                 if not found:
                     failed_protocols.append(protocol_id + " (" + false_whos[0] + ")")
 
         print("Protocols with inactive MPs tagged as speakers:", ", ".join(failed_protocols))
+        print("Dead MPs tagged as speakers:", ", ".join(dead_whos))
+        print("Children MPs tagged as speakers:", ", ".join(child_whos))
+
         self.assertEqual(len(failed_protocols), 0)
 
 

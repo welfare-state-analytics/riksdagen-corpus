@@ -1,0 +1,40 @@
+SELECT DISTINCT ?wiki_id ?genderLabel ?born ?dead ?riksdagen_id ?riksdagen_guid ?bornPrecision ?deadPrecision
+WHERE
+{    
+    ?wiki_id wdt:P31 wd:Q5.
+    OPTIONAL { ?wiki_id wdt:P21 ?gender }.
+#    OPTIONAL { ?wiki_id wdt:P569 ?born }.
+    OPTIONAL { ?wiki_id p:P569/psv:P569 [wikibase:timePrecision ?bornPrecision; wikibase:timeValue ?born ] }.
+    OPTIONAL { ?wiki_id p:P570/psv:P570 [wikibase:timePrecision ?deadPrecision; wikibase:timeValue ?dead ] }.
+    OPTIONAL { ?wiki_id wdt:P1214 ?riksdagen_id }.
+    OPTIONAL { ?wiki_id wdt:P8388 ?riksdagen_guid }.
+    {
+    # Members of parliament
+    VALUES ?chamber { wd:Q10655178 wd:Q33071890 wd:Q81531912 }
+    ?wiki_id p:P39 ?posheld.
+    ?posheld ps:P39 ?chamber.
+    } UNION {
+    # Speakers
+    VALUES ?role { wd:Q1850749 wd:Q85679583 wd:Q85679895 wd:Q110785766 wd:Q110785785 wd:Q110811796 wd:Q110811805 wd:Q110812751 wd:Q110812759 }
+    ?wiki_id p:P39 ?posheld.
+    ?posheld ps:P39 ?role.
+    } UNION {
+    # Ministers 1
+    {
+    ?government wdt:P31 wd:Q930729.
+    } UNION {
+    ?government wdt:P31 wd:Q640506.
+    ?government wdt:P17 wd:Q34.
+    }
+    ?government p:P527 ?pMinister.
+    ?pMinister ps:P527 ?wiki_id
+    } UNION {
+    # Ministers 2
+    ?wiki_id wdt:P31 wd:Q5;
+             p:P39 ?posheld.
+    ?government wdt:P31 wd:Q930729.
+    ?posheld pq:P5054 ?government.
+    }
+  
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "sv". }
+}

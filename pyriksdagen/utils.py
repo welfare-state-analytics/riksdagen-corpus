@@ -6,11 +6,7 @@ Provides useful utilities for the other modules as well as for general use.
 
 import lxml
 from lxml import etree
-import xml.etree.ElementTree as et
-import sys, re, os
 from bs4 import BeautifulSoup
-import pandas as pd
-import hashlib
 from pathlib import Path
 from datetime import datetime
 

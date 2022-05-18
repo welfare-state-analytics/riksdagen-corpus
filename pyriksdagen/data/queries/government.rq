@@ -1,0 +1,13 @@
+SELECT ?governmentLabel ?start ?end ?startPrecision ?endPrecision
+WHERE
+{
+  {
+  ?government wdt:P31 wd:Q930729.
+  } UNION {
+  ?government wdt:P31 wd:Q640506.
+  ?government wdt:P17 wd:Q34.
+  }
+  ?government p:P571/psv:P571 [ wikibase:timeValue ?start; wikibase:timePrecision ?startPrecision ]
+  OPTIONAL{ ?government p:P576/psv:P576 [ wikibase:timeValue ?end; wikibase:timePrecision ?endPrecision ] }.           
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "sv". }
+}
