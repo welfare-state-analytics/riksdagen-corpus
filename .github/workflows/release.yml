@@ -31,6 +31,7 @@ jobs:
         pip install PyPDF2
         pip install progressbar2
         pip install pyparlaclarin
+        pip install matplotlib
         pip install dateparser
         pip install cycler
         pip install tqdm
@@ -38,7 +39,7 @@ jobs:
     - name: Estimate current accuracy and generate a new plot
       run: |
         PYTHONPATH="$PYTHONPATH:." python scripts/mapping_accuracy_estimate.py
-        PYTHONPATH="$PYTHONPATH:." python scripts/accuracy-version-plot.py -v ${{ github.ref }}
+        PYTHONPATH="$PYTHONPATH:." python scripts/accuracy_version_plot.py -v ${{ github.ref }}
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
