@@ -6,10 +6,12 @@ import torch
 from tqdm import tqdm
 from torch.utils.data import DataLoader
 import argparse
-from dataset import IntroDataset
+from pyriksdagen.dataset import IntroDataset
+from functools import partial
+import os
 
-def extract_elem(elem):
-	return elem.text, elem.get("{http://www.w3.org/XML/1998/namespace}id")
+def extract_elem(protocol, elem):
+	return elem.text, elem.get("{http://www.w3.org/XML/1998/namespace}id"), protocol
 
 def extract_note_seg(protocol):
     parser = etree.XMLParser(remove_blank_text=True)
@@ -17,37 +19,48 @@ def extract_note_seg(protocol):
     data = []
     for tag, elem in elem_iter(root):
         if tag == 'note':
-            data.append(extract_elem(elem))
+            data.append(extract_elem(protocol, elem))
         elif tag == 'u':
-            data.extend(list(map(extract_elem, elem)))
+            data.extend(list(map(partial(extract_elem, protocol), elem)))
     return data
 
-
-def main(args):
-    model = AutoModelForSequenceClassification.from_pretrained("jesperjmb/parlaBERT")
-    tokenizer = BertTokenizerFast.from_pretrained('KB/bert-base-swedish-cased')
-
-    # Get prediction data
-    protocols = sorted(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end)))
-    data = []
-    for protocol in protocols:
-        data.extend(extract_note_seg(protocol))
-    df = pd.DataFrame(data, columns=['text', 'id'])
-
-    df = df.loc[:500]
-
+def predict_intro(df):
+    model = AutoModelForSequenceClassification.from_pretrained("jesperjmb/parlaBERT").to('cuda')
     test_dataset = IntroDataset(df)
-    test_loader = DataLoader(test_dataset, batch_size=16)
+    test_loader = DataLoader(test_dataset, batch_size=64, num_workers=4)
 
     intros = []
     with torch.no_grad():
-        for texts, xml_ids in tqdm(test_loader, total=len(test_loader)):
-            output = model( input_ids=texts["input_ids"].squeeze(dim=1),
-                            token_type_ids=texts["token_type_ids"].squeeze(dim=1),
-                            attention_mask=texts["attention_mask"].squeeze(dim=1))
-            preds = torch.argmax(output[0], dim=1).numpy()
-            intros.extend([xml_id for xml_id, pred in zip(xml_ids, preds) if pred == 1])
-    print(intros)
+        for texts, xml_ids, file_path in tqdm(test_loader, total=len(test_loader)):
+            output = model( input_ids=texts["input_ids"].squeeze(dim=1).to('cuda'),
+                            token_type_ids=texts["token_type_ids"].squeeze(dim=1).to('cuda'),
+                            attention_mask=texts["attention_mask"].squeeze(dim=1).to('cuda'))
+
+            preds = torch.argmax(output[0], dim=1)
+            intros.extend([[file_path, xml_id] for file_path, xml_id, pred in zip(file_path, xml_ids, preds) if pred == 1])
+    return pd.DataFrame(intros, columns=['file_path', 'id'])
+
+def main(args):
+    # Create folder iterator for reasonably large batches
+    protocols = protocol_iterators("corpus/protocols/", start=args.start, end=args.end)
+    protocols = [os.path.split(p) for p in protocols]
+    protocol_df = pd.DataFrame(protocols, columns=['folder', 'file'])
+    protocol_df = protocol_df.sort_values(by=['folder', 'file'])
+    folders = sorted(set(protocol_df['folder']))
+
+    intros = []
+    for folder in folders:
+        files = protocol_df.loc[protocol_df['folder'] == folder, 'file'].tolist()
+        data = []
+        for file in tqdm(files, total=len(files)):
+            data.extend(extract_note_seg(os.path.join(folder, file)))
+        df = pd.DataFrame(data, columns=['text', 'id', 'file_path'])
+        df = predict_intro(df)
+        intros.append(df)
+
+    df = pd.concat(intros)
+    df.to_csv('input/segmentation/intros.csv', index=False)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
