@@ -1,12 +1,10 @@
-import numpy as np
 import pandas as pd
 from lxml import etree
-from transformers import AutoTokenizer, AutoModelForSequenceClassification, BertTokenizerFast
+from transformers import AutoModelForSequenceClassification, BertTokenizerFast
 from pyriksdagen.utils import protocol_iterators, elem_iter
 import torch
-import torch.nn as nn
 from tqdm import tqdm
-from torch.utils.data import TensorDataset, DataLoader
+from torch.utils.data import DataLoader
 import argparse
 from dataset import IntroDataset
 
