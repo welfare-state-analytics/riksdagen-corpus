@@ -38,9 +38,9 @@ def detect_intros(protocol, intro_df):
 	f.close()
 
 
-def main():
+def main(args):
+	protocols = sorted(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end))    )    
 	df = pd.read_csv('input/segmentation/intros.csv')
-	protocols = sorted(set(df['file_path']))
 	detect_fun = partial(detect_intros, intro_df=df)
 	with multiprocessing.Pool() as pool:
 		for _ in tqdm(pool.imap(detect_fun, protocols), total=len(protocols)):
@@ -48,4 +48,8 @@ def main():
 
 
 if __name__ == "__main__":
-	main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--start", type=int, default=1920)
+    parser.add_argument("--end", type=int, default=2022)
+    args = parser.parse_args()
+    main(args)
