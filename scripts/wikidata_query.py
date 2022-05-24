@@ -10,9 +10,10 @@ import pandas as pd
 import os, argparse
 import time
 import re
-from pyriksdagen.wikidata import *
+from pyriksdagen.wikidata import query2df, separate_name_location
 
-queries = sorted([q.replace('.rq', '') for q in os.listdir("scripts/pyriksdagen/data/queries")])
+# Change query path to be from module!
+queries = sorted([q.replace('.rq', '') for q in os.listdir("pyriksdagen/data/queries")])
 input_folders = ['name_location_specifier', 'alias']
 
 # Query for and store cleaned versions of metadata
@@ -35,7 +36,7 @@ for q in queries:
 		df["role"] = df["role"].str.extract(r'([A-Za-zÀ-ÿ]*ledamot)')
 
 	folder = 'corpus' if not q in input_folders else 'input'
-	df.to_csv(f'{folder}/metadata/{q}.csv', index=False)
+	#df.to_csv(f'{folder}/metadata/{q}.csv', index=False)
 
 	# Store files which need additional processing
 	if folder == 'input':
@@ -47,8 +48,8 @@ if d:
 		if key not in queries:
 			d['key'] = pd.read_csv(f'input/metadata/{key}.csv')
 	name, loc = separate_name_location(d['name_location_specifier'], d['alias'])
-	name.to_csv(f'corpus/metadata/name.csv', index=False)
-	loc.to_csv(f'corpus/metadata/location_specifier.csv', index=False)
+	#name.to_csv(f'corpus/metadata/name.csv', index=False)
+	#loc.to_csv(f'corpus/metadata/location_specifier.csv', index=False)
 
 #if __name__ == "__main__":
 #    parser = argparse.ArgumentParser(description=__doc__)
