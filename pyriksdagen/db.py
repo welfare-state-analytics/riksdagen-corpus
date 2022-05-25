@@ -119,7 +119,7 @@ def load_expressions(phase="segmentation", year=None):
             expressions.append((re.compile(exp), t))
         return expressions
     elif phase == "join_intros":
-        patterns = pd.read_csv("input/segmentation/join_intros.csv", sep=";")
+        patterns = pd.read_csv("input/segmentation/join_intro_pattern.csv", sep=";")
         expressions = []
         for _, row in patterns.iterrows():
             exp, t = row[["pattern", "type"]]
