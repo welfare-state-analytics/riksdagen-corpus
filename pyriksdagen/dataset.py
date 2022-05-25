@@ -47,7 +47,7 @@ class MergeDataset(torch.utils.data.Dataset):
                                     return_tensors="pt"
                                     )
 
-        return token_info, df_row['xml_id1'], df_row['xml_id2'], df_row['protocol']
+        return token_info, df_row['xml_id1'], df_row['xml_id2'], df_row['text1'], df_row['text2'], df_row['protocol']
 
 
   
