@@ -34,13 +34,17 @@ def main(args):
 		if q == 'member_of_parliament':
 			df["role"] = df["role"].str.extract(r'([A-Za-zÀ-ÿ]*ledamot)')
 
-		print(df)
+		# Store files needing additional preprocessing in input
 		folder = 'corpus' if not q in input_folders else 'input'
-		#df.to_csv(f'{folder}/metadata/{q}.csv', index=False)
-
-		# Store files which need additional processing
 		if folder == 'input':
 			d[q] = df
+
+		# Update metadata if query is made for subset of individuals
+		if args.queries:
+			meta = pd.read_csv(f'{folder}/metadata/{q}.csv')
+			meta = meta[~meta['wiki_id'].isin(set(df['wiki_id']))]
+			df = pd.concat([meta, df]).reset_index(drop=True)
+		df.to_csv(f'{folder}/metadata/{q}.csv', index=False)
 
 	# Process name and location files
 	if d:
@@ -48,8 +52,8 @@ def main(args):
 			if key not in queries:
 				d['key'] = pd.read_csv(f'input/metadata/{key}.csv')
 		name, loc = separate_name_location(d['name_location_specifier'], d['alias'])
-		#name.to_csv(f'corpus/metadata/name.csv', index=False)
-		#loc.to_csv(f'corpus/metadata/location_specifier.csv', index=False)
+		name.to_csv(f'corpus/metadata/name.csv', index=False)
+		loc.to_csv(f'corpus/metadata/location_specifier.csv', index=False)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
