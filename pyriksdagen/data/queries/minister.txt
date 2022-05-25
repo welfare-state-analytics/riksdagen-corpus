@@ -1,0 +1,10 @@
+    {
+    # Government 1
+    ?government wdt:P31 wd:Q930729.
+    } UNION {
+    # Government 2
+    ?government wdt:P31 wd:Q640506.
+    ?government wdt:P17 wd:Q34.
+    }
+    ?government p:P527 ?pMinister.
+    ?pMinister ps:P527 ?wiki_id.
