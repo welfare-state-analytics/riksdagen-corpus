@@ -12,11 +12,11 @@ from functools import partial
 
 def main(args):
     
-    party_mapping, *dfs  = load_metadata()
+    party_mapping, join_intros, *dfs  = load_metadata()
     
     for df in dfs:
         df[["start", "end"]] = df[["start", "end"]].apply(pd.to_datetime, format='%Y-%m-%d')
-    metadata = [party_mapping] + dfs
+    metadata = [party_mapping, join_intros] + dfs
     
     redetect_fun = partial(redetect_protocol, metadata)
     protocols = sorted(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end))    )    

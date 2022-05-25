@@ -20,7 +20,8 @@ def redetect_protocol(metadata, protocol):
     tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
     parser = etree.XMLParser(remove_blank_text=True)
 
-    party_mapping, mp_db, minister_db, speaker_db = metadata
+    party_mapping, join_intros, mp_db, minister_db, speaker_db = metadata
+    join_intros = join_intros[join_intros['protocol'] == protocol]
     
     protocol_id = protocol.split("/")[-1]
     metadata = infer_metadata(protocol)
@@ -64,6 +65,7 @@ def redetect_protocol(metadata, protocol):
         speaker_db=year_speaker_db,
         metadata=metadata,
         party_map=party_mapping,
+        join_intros=join_intros,
         protocol_id=protocol_id,
         unknown_variables=["gender", "party", "other"],
     )
@@ -78,7 +80,7 @@ def redetect_protocol(metadata, protocol):
     return unk
 
 
-def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minister_db_secondary=None, speaker_db=None, metadata=None, party_map=None, protocol_id=None, unknown_variables=None):
+def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minister_db_secondary=None, speaker_db=None, metadata=None, party_map=None, join_intros=None, protocol_id=None, unknown_variables=None):
     """
     Re-detect MPs in a parla clarin protocol, based on the (updated)
     MP database.

@@ -83,6 +83,7 @@ def load_ministers(path='corpus/wiki-data/minister.json'):
 
 def load_metadata():
     party_mapping = pd.read_csv('corpus/metadata/party_abbreviation.csv')
+    join_intros = pd.read_csv('input/segmentation/join_intros.csv')
     mp_db = pd.read_csv('input/matching/member_of_parliament.csv')
     minister_db = pd.read_csv('input/matching/minister.csv')
     speaker_db = pd.read_csv('input/matching/speaker.csv')
@@ -98,7 +99,7 @@ def load_metadata():
     minister_db[["start", "end"]] = minister_db[["start", "end"]].apply(pd.to_datetime, errors="coerce")
     speaker_db[["start", "end"]] = speaker_db[["start", "end"]].apply(pd.to_datetime, errors="coerce")
 
-    return party_mapping, mp_db, minister_db, speaker_db
+    return party_mapping, join_intros, mp_db, minister_db, speaker_db
 
 def load_expressions(phase="segmentation", year=None):
     if phase == "segmentation":
