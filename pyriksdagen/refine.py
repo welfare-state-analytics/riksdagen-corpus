@@ -87,6 +87,7 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
     MP database.
     """
     mp_expressions = load_expressions(phase="mp")
+    ids_to_join = set(join_intros['xml_id1'].tolist()+join_intros['xml_id2'].tolist())
     
     xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     current_speaker = None
@@ -125,12 +126,13 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
                 prev = None
         elif tag == "note":
             if elem.attrib.get("type", None) == "speaker":
-                
+                text = elem.text
                 # Join split intros detected by BERT
-                join_intro = join_intros.loc[
-                            (join_intros['xml_id1'] == elem.attrib.get(xml_ns + "id")) | 
-                            (join_intros['xml_id2'] == elem.attrib.get(xml_ns + "id")), 'text']
-                text = elem.text if len(join_intro) == 0 else join_intro.iloc[0]
+                if elem.attrib.get(xml_ns + "id") in ids_to_join:
+                    join_intro = join_intros.loc[
+                                (join_intros['xml_id1'] == elem.attrib.get(xml_ns + "id")) |
+                                (join_intros['xml_id2'] == elem.attrib.get(xml_ns + "id")), 'text']
+                    text = join_intro.iloc[0]
 
                 if type(text) == str:
                     d = intro_to_dict(text, mp_expressions)
