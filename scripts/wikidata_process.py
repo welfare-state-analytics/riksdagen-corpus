@@ -1,18 +1,8 @@
 '''
 Script for processing raw wikidata tables into files used for corpus speech matching.
 '''
-import numpy as np
-import pandas as pd
-import os, json
-from pyriksdagen.mp import add_id
-#from pyriksdagen.match_mp import clean_names
-import unicodedata
-import datetime
-import calendar
-from pyriksdagen.wikidata import *
-from pyriksdagen.metadata import *
-from pyriksdagen.match_mp import multiple_replace
-import datetime
+from pyriksdagen.metadata import Corpus
+
 
 def main():
 	corpus = Corpus()
@@ -55,6 +45,7 @@ def main():
 	for file in ['member_of_parliament', 'minister', 'speaker']:
 		df	= corpus[corpus['source'] == file]
 		df.to_csv(f"input/matching/{file}.csv", index=False)
+
 
 if __name__ == '__main__':
 	main()
