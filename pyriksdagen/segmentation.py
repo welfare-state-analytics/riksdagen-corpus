@@ -229,3 +229,11 @@ def combine_intros(elem1, elem2, intro_expressions, other_expressions):
         elem1.text = ""
 
     return combine
+
+def join_text(text1, text2):
+    text1, text2 = list(map(lambda x: ' '.join(x.replace('\n', ' ').split()), [text1, text2]))
+    # Account for words split over textblocks with '-'
+    if text1.endswith('-'):
+        return ''.join([text1[:-1], text2])
+    else:
+        return ' '.join([text1, text2])

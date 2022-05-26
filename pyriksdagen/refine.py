@@ -16,6 +16,7 @@ from .segmentation import (
 from .match_mp import multiple_replace
 from datetime import datetime
 
+
 def redetect_protocol(metadata, protocol):
     tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
     parser = etree.XMLParser(remove_blank_text=True)
@@ -124,18 +125,25 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
                 prev = None
         elif tag == "note":
             if elem.attrib.get("type", None) == "speaker":
-                if type(elem.text) == str:
-                    d = intro_to_dict(elem.text, mp_expressions)
+                
+                # Join split intros detected by BERT
+                join_intro = join_intros.loc[
+                            (join_intros['xml_id1'] == elem.attrib.get(xml_ns + "id")) | 
+                            (join_intros['xml_id2'] == elem.attrib.get(xml_ns + "id")), 'text']
+                text = elem.text if len(join_intro) == 0 else join_intro.iloc[0]
+
+                if type(text) == str:
+                    d = intro_to_dict(text, mp_expressions)
                     if 'name' in d:
                         d['name'] = multiple_replace(d['name'])
                         
                     if 'other' in d:
                         # Match minister
                         if 'statsråd' in d["other"].lower() or 'minister' in d["other"].lower():
-                            current_speaker = detect_minister(elem.text, minister_db, d)
+                            current_speaker = detect_minister(text, minister_db, d)
 
                         elif current_speaker is None and 'talman' in d["other"].lower():
-                            current_speaker = detect_speaker(elem.text, speaker_db, metadata=metadata)
+                            current_speaker = detect_speaker(text, speaker_db, metadata=metadata)
 
                         else:
                             current_speaker = None
