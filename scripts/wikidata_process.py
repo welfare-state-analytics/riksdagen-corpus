@@ -46,6 +46,9 @@ def main():
 	# Temporary ids
 	corpus['person_id'] = corpus['wiki_id']
 
+	# Drop individuals with missing names
+	corpus = corpus[corpus['name'].notna()]
+
 	# Remove redundancy and split file
 	corpus = corpus.drop_duplicates()
 	corpus = corpus.dropna(subset=['name', 'start', 'end'])
