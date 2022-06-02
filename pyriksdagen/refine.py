@@ -177,7 +177,7 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
     return root, unknowns
 
 
-def find_introductions(root, pattern_db, names_ids, minister_db=None):
+def find_introductions(root, pattern_db, intro_ids, minister_db=None):
     """
     Find instances of curation patterns in all files in a folder.
 
@@ -200,7 +200,7 @@ def find_introductions(root, pattern_db, names_ids, minister_db=None):
             for seg in list(elem):
                 if type(seg.text) == str:
                     introduction = detect_introduction(
-                        seg.text, expressions
+                        seg, intro_ids
                     )
                     if introduction is not None:
                         pass  # print("NEW", seg.text)
@@ -248,7 +248,7 @@ def find_introductions(root, pattern_db, names_ids, minister_db=None):
             if type(elem.text) == str:
 
                 introduction = detect_introduction(
-                    elem.text, expressions
+                    elem, intro_ids
                 )
 
                 if introduction is not None:

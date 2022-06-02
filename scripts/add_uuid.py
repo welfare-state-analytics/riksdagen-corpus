@@ -44,6 +44,10 @@ def add_protocol_id(protocol):
                 subelem.attrib[f'{xml_ns}id'] = x
                 ids.add(x)
                 num_ids += 1
+            x = elem.attrib.get(f'{xml_ns}id', get_formatted_uuid())
+            elem.attrib[f'{xml_ns}id'] = x
+            ids.add(x)
+            num_ids += 1
                 
         elif tag in ["note"]:
             x = elem.attrib.get(f'{xml_ns}id', get_formatted_uuid())
