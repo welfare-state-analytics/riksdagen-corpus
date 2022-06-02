@@ -1,0 +1,31 @@
+SELECT DISTINCT ?wiki_id ?governmentLabel ?roleLabel ?start ?end ?startPrecision ?endPrecision
+WHERE {
+  {
+  VALUES ?government { wd:Q3046743 wd:Q4570153 wd:Q4570314 wd:Q4570330 wd:Q4570354 wd:Q4570378 wd:Q4570967 wd:Q4907240 wd:Q4907653 wd:Q4957676 wd:Q5217837 wd:Q5306179 wd:Q5306186 wd:Q5306190 wd:Q5306200 wd:Q10650416 wd:Q10650420 wd:Q10650424 wd:Q10650438 wd:Q10650456 wd:Q18176361 wd:Q60736270 wd:Q107443672 wd:Q109705067 } 
+  ?government p:P527 ?pMinister.
+  ?pMinister  ps:P527 ?wiki_id;
+              pq:P3831 ?role
+  OPTIONAL{?pMinister pqv:P580 [wikibase:timePrecision ?startPrecision; wikibase:timeValue ?start ]}
+  OPTIONAL{?pMinister pqv:P582 [wikibase:timePrecision ?endPrecision; wikibase:timeValue ?end ]}
+  } UNION {
+
+  ?wiki_id wdt:P31 wd:Q5;
+           p:P39 ?posheld.
+
+  # Position held in government
+  {
+  ?government wdt:P31 wd:Q930729.
+  } UNION {
+  ?government wdt:P31 wd:Q640506.
+  ?government wdt:P17 wd:Q34.
+  }
+    
+  ?posheld pq:P5054 ?government; # Position held in a government
+           ps:P39 ?role.
+  OPTIONAL { ?posheld pqv:P580 [wikibase:timePrecision ?startPrecision; wikibase:timeValue ?start ] }
+  OPTIONAL { ?posheld pqv:P582 [wikibase:timePrecision ?endPrecision; wikibase:timeValue ?end ] }
+  }
+    
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "sv". }
+#  ?MinisterQ rdfs:label ?minister. Filter(lang(?minister)="sv")
+}

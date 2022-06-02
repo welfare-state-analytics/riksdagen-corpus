@@ -3,6 +3,22 @@ import numpy as np
 import pandas as pd
 from importlib_resources import files
 
+def impute_query_string(source=None):
+	# Defaults to all individuals
+	if not source:
+		source = ["member_of_parliament", "minister", "speaker"]
+	
+	strings = []
+	for src in source:
+		# Specific individual wikidata object
+		if src.startswith('Q'):
+			s = f"VALUES ?wiki_id {{ wd:{src} }}"
+		# Category of wikidata objects
+		else:
+			s = files('pyriksdagen.data.queries').joinpath(f'{src}.txt').read_text()
+		strings.append(s)
+	return "\n} UNION {\n".join(strings)
+
 def get_query_string(query_name):
 	try:
 		s = files('pyriksdagen.data.queries').joinpath(f'{query_name}.rq').read_text()
@@ -70,8 +86,10 @@ def clean_sparql_df(df, query_name):
 	df = df.sort_values(by=list(first_cols+other_cols))
 	return df
 
-def query2df(query_name):
+def query2df(query_name, source=None):
 	query = get_query_string(query_name)
+	source = impute_query_string(source)
+	query = query.replace('PLACEHOLDER', source)
 	sparql = SPARQLWrapper("https://query.wikidata.org/sparql", agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11")
 	sparql.setQuery(query)	
 	sparql.setReturnFormat(JSON)
