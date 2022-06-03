@@ -187,22 +187,19 @@ def expression_dicts(pattern_db):
     return expressions, manual
 
 
-def detect_introduction(paragraph, expressions):
+def detect_introduction(elem, intro_ids):
     """
     Detect whether the current paragraph contains an introduction of a speaker.
 
     Returns a dict if an intro is detected, otherwise None.
     """
-    for pattern_digest, exp in expressions.items():
-        for m in exp.finditer(paragraph.strip()):
-            matched_txt = m.group()
-            person = None
-            segmentation = "speech_start"
+    if elem.attrib.get("{http://www.w3.org/XML/1998/namespace}id") in intro_ids:
+
             d = {
-                "pattern": pattern_digest,
-                "who": person,
-                "segmentation": segmentation,
-                "txt": matched_txt,
+                "pattern": None,
+                "who": None,
+                "segmentation": None,
+                "txt": elem.text,
             }
 
             return d
@@ -229,3 +226,11 @@ def combine_intros(elem1, elem2, intro_expressions, other_expressions):
         elem1.text = ""
 
     return combine
+
+def join_text(text1, text2):
+    text1, text2 = list(map(lambda x: ' '.join(x.replace('\n', ' ').split()), [text1, text2]))
+    # Account for words split over textblocks with '-'
+    if text1.endswith('-'):
+        return ''.join([text1[:-1], text2])
+    else:
+        return ' '.join([text1, text2])

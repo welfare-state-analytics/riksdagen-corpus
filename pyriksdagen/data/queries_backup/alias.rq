@@ -1,0 +1,8 @@
+SELECT DISTINCT ?wiki_id ?alias
+WHERE
+{
+  ?wiki_id p:P2561 ?nameSwedishPMp.
+  ?nameSwedishPMp ps:P2561 ?alias;
+                  pq:P3831 wd:Q110382440.  
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "sv". }
+}

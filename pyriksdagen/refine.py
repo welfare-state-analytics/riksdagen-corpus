@@ -16,11 +16,13 @@ from .segmentation import (
 from .match_mp import multiple_replace
 from datetime import datetime
 
+
 def redetect_protocol(metadata, protocol):
     tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
     parser = etree.XMLParser(remove_blank_text=True)
 
-    party_mapping, mp_db, minister_db, speaker_db = metadata
+    party_mapping, join_intros, mp_db, minister_db, speaker_db = metadata
+    join_intros = join_intros[join_intros['protocol'] == protocol]
     
     protocol_id = protocol.split("/")[-1]
     metadata = infer_metadata(protocol)
@@ -64,6 +66,7 @@ def redetect_protocol(metadata, protocol):
         speaker_db=year_speaker_db,
         metadata=metadata,
         party_map=party_mapping,
+        join_intros=join_intros,
         protocol_id=protocol_id,
         unknown_variables=["gender", "party", "other"],
     )
@@ -78,12 +81,13 @@ def redetect_protocol(metadata, protocol):
     return unk
 
 
-def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minister_db_secondary=None, speaker_db=None, metadata=None, party_map=None, protocol_id=None, unknown_variables=None):
+def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minister_db_secondary=None, speaker_db=None, metadata=None, party_map=None, join_intros=None, protocol_id=None, unknown_variables=None):
     """
     Re-detect MPs in a parla clarin protocol, based on the (updated)
     MP database.
     """
     mp_expressions = load_expressions(phase="mp")
+    ids_to_join = set(join_intros['xml_id1'].tolist()+join_intros['xml_id2'].tolist())
     
     xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     current_speaker = None
@@ -122,18 +126,26 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
                 prev = None
         elif tag == "note":
             if elem.attrib.get("type", None) == "speaker":
-                if type(elem.text) == str:
-                    d = intro_to_dict(elem.text, mp_expressions)
+                text = elem.text
+                # Join split intros detected by BERT
+                if elem.attrib.get(xml_ns + "id") in ids_to_join:
+                    join_intro = join_intros.loc[
+                                (join_intros['xml_id1'] == elem.attrib.get(xml_ns + "id")) |
+                                (join_intros['xml_id2'] == elem.attrib.get(xml_ns + "id")), 'text']
+                    text = join_intro.iloc[0]
+
+                if type(text) == str:
+                    d = intro_to_dict(text, mp_expressions)
                     if 'name' in d:
                         d['name'] = multiple_replace(d['name'])
                         
                     if 'other' in d:
                         # Match minister
                         if 'statsråd' in d["other"].lower() or 'minister' in d["other"].lower():
-                            current_speaker = detect_minister(elem.text, minister_db, d)
+                            current_speaker = detect_minister(text, minister_db, d)
 
                         elif current_speaker is None and 'talman' in d["other"].lower():
-                            current_speaker = detect_speaker(elem.text, speaker_db, metadata=metadata)
+                            current_speaker = detect_speaker(text, speaker_db, metadata=metadata)
 
                         else:
                             current_speaker = None
@@ -165,7 +177,7 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
     return root, unknowns
 
 
-def find_introductions(root, pattern_db, names_ids, minister_db=None):
+def find_introductions(root, pattern_db, intro_ids, minister_db=None):
     """
     Find instances of curation patterns in all files in a folder.
 
@@ -188,7 +200,7 @@ def find_introductions(root, pattern_db, names_ids, minister_db=None):
             for seg in list(elem):
                 if type(seg.text) == str:
                     introduction = detect_introduction(
-                        seg.text, expressions
+                        seg, intro_ids
                     )
                     if introduction is not None:
                         pass  # print("NEW", seg.text)
@@ -236,7 +248,7 @@ def find_introductions(root, pattern_db, names_ids, minister_db=None):
             if type(elem.text) == str:
 
                 introduction = detect_introduction(
-                    elem.text, expressions
+                    elem, intro_ids
                 )
 
                 if introduction is not None:

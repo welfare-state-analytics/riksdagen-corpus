@@ -117,10 +117,11 @@ def abbreviate_party(db, party):
 
 
 def clean_name(db):
-	db['name'] = db['name'].str.lower()
-	db['name'] = db['name'].astype(str).apply(multiple_replace)
-	db['name'] = db['name'].str.replace('-', ' ', regex=False)
-	db['name'] = db['name'].str.replace(r'[^a-zåäö\s\-]', '', regex=True)
+	idx = db['name'].notna()
+	db.loc[idx, 'name'] = db.loc[idx, 'name'].str.lower()
+	db.loc[idx, 'name'] = db.loc[idx, 'name'].astype(str).apply(multiple_replace)
+	db.loc[idx, 'name'] = db.loc[idx, 'name'].str.replace('-', ' ', regex=False)
+	db.loc[idx, 'name'] = db.loc[idx, 'name'].str.replace(r'[^a-zåäö\s\-]', '', regex=True)
 	return db
 
 
