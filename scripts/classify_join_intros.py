@@ -10,6 +10,7 @@ from torch.utils.data import DataLoader
 from transformers import AutoModelForNextSentencePrediction
 from pyriksdagen.utils import protocol_iterators
 from pyriksdagen.dataset import MergeDataset
+import os
 
 
 def find_consequtive_intros(protocol, intro_df):
@@ -53,24 +54,25 @@ def main(args):
             data.append(df)
     df = pd.concat(data)
 
-    # Make predictions
-    device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    model = AutoModelForNextSentencePrediction.from_pretrained("jesperjmb/MergeIntrosNSP")
+    model = AutoModelForNextSentencePrediction.from_pretrained("jesperjmb/MergeIntrosNSP").to("cuda")
     test_dataset = MergeDataset(df)
     test_loader = DataLoader(test_dataset, batch_size=64, num_workers=4)
     intros = []
     with torch.no_grad():
         print('Start predicting')
-        for texts, xml_id1s, xml_id2s, protocol in tqdm(test_loader, total=len(test_loader)):
-            output = model( input_ids=texts["input_ids"].squeeze(dim=1).to(device),
-                            token_type_ids=texts["token_type_ids"].squeeze(dim=1).to(device),
-                            attention_mask=texts["attention_mask"].squeeze(dim=1).to(device))
+        for token_info, xml_id1s, xml_id2s, text1s, text2s, protocol in tqdm(test_loader, total=len(test_loader)):
+            output = model( input_ids=token_info["input_ids"].squeeze(dim=1).to("cuda"),
+                            token_type_ids=token_info["token_type_ids"].squeeze(dim=1).to("cuda"),
+                            attention_mask=token_info["attention_mask"].squeeze(dim=1).to("cuda"))
     
             preds = torch.argmax(output[0], dim=1)
-            intros.extend([[protocol, xml_id1, xml_id2] for protocol, xml_id1, xml_id2, pred in zip(protocol, xml_id1s, xml_id2s, preds) if pred == 1])
-    
-    df = pd.DataFrame(intros, columns=['protocol', 'xml_id1', 'xml_id2'])
-    df.to_csv('input/segmentation/merge_intro.csv', index=False)
+
+            for protocol, xml_id1, xml_id2, text1, text2, pred in zip(protocol, xml_id1s, xml_id2s, text1s, text2s, preds):
+                if pred == 1 and 'anf.' not in text2.lower():
+                    intros.append([protocol, xml_id1, xml_id2, text1, text2])
+
+    df = pd.DataFrame(intros, columns=['protocol', 'xml_id1', 'xml_id2', 'text1', 'text2'])
+    df.to_csv('input/segmentation/join_intros.csv', index=False)
 
 
 if __name__ == "__main__":

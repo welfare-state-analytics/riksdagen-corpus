@@ -1,8 +1,8 @@
 pattern;type
 ((F|f)ru|(H|h)err|(F|f)röken) ;gender
 (T|t)(ALMAN|alman)(nen|NEN)?;other
-(S|s)tatsrådet ;other
-[A-ZÀ-Þa-zß-ÿ\-]*minister(n)?;other
+\b(?<!till )\b(S|s)tatsrådet ;other
+\b(?<!till )\b[a-zß-ÿ\-A-ZÀ-Þ]*minister(n)?;other
 \([a-zß-ÿ\-A-ZÀ-Þ]{1,3}\);party
  i [A-ZÀ-Þ\-][a-zß-ÿ\-]{1,15};specifier
 [A-ZÀ-Þ\-][a-zß-ÿ\-]{1,15} ([A-ZÀ-Þ\-][a-zß-ÿ\-]{1,15} )?[A-ZÀ-Þ\-]{2,15};name

@@ -1,0 +1,4 @@
+    # Member of parliament
+    VALUES ?chamber { wd:Q10655178 wd:Q33071890 wd:Q81531912 }
+    ?wiki_id p:P39 ?posheld.
+    ?posheld ps:P39 ?chamber.

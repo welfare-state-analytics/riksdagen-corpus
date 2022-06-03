@@ -1,0 +1,16 @@
+SELECT DISTINCT ?wiki_id ?start ?end ?partyLabel ?districtLabel ?roleLabel ?startPrecision ?endPrecision
+WHERE
+{
+    ?wiki_id wdt:P31 wd:Q5;
+             p:P39 ?posheld; # With position held
+    OPTIONAL { ?posheld pq:P4100 ?party. }
+    OPTIONAL { ?posheld pq:P768 ?district. }
+    OPTIONAL { ?posheld pqv:P582 [wikibase:timePrecision ?endPrecision; wikibase:timeValue ?end ] }
+    OPTIONAL { ?posheld pqv:P580 [wikibase:timePrecision ?startPrecision; wikibase:timeValue ?start ] }
+
+    # Members of parliament
+    VALUES ?role { wd:Q10655178 wd:Q33071890 wd:Q81531912 }
+    ?posheld ps:P39 ?role. # Position held in one of the chambers
+             
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "sv". }
+}
