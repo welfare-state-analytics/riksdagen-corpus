@@ -133,10 +133,10 @@ def dl_kb_blocks(package_id, archive):
                         content = string.attrib["CONTENT"]
                         tblock.append(content)
 
-                tblock = " ".join(tblock)
+                tblock = "\n".join(tblock)
                 # Remove line breaks when next line starts with a small letter
+                tblock = re.sub("([a-zß-ÿ,])- ?\n ?([a-zß-ÿ])", "\\1\\2", tblock)
                 tblock = re.sub("([a-zß-ÿ,]) ?\n ?([a-zß-ÿ])", "\\1 \\2", tblock)
-                tblock = re.sub("([a-zß-ÿ,])- ([a-zß-ÿ])", "\\1\\2", tblock)
                 text_block_e = etree.SubElement(
                     content_block_e, "textBlock", ix=str(tb_ix)
                 )
