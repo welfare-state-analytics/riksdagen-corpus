@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
-from transformers import AutoModel, AutoTokenizer, get_scheduler, AutoModelForSequenceClassification
-from datasets import Dataset, load_dataset, DatasetDict, load_metric
+from transformers import AutoModel, AutoTokenizer, AutoModelForSequenceClassification
 import torch
 import torch.nn as nn
 from torch.utils.data import TensorDataset, random_split, DataLoader
@@ -61,7 +60,7 @@ def predict(model, loader):
 	return loss, preds
 
 
-def main(args):
+def main(args):	
 	df = pd.read_csv('input/multi_label_classifier/training_data.csv')
 	df = df.sample(frac=1, random_state=123).reset_index(drop=True)
 
@@ -70,6 +69,7 @@ def main(args):
 
 	# Preprocess datasets
 	input_ids, attention_masks, labels = encode(df)
+
 	dataset = TensorDataset(input_ids, attention_masks, labels)
 	train_size	= int(args.train_ratio * len(dataset))
 	val_size	= int(args.valid_ratio * len(dataset))
@@ -110,12 +110,12 @@ def main(args):
 	num_warmup_steps = num_training_steps // 10
 
 	# Linear warmup and step decay
-	scheduler = get_scheduler(
-		"linear",    
+	scheduler = get_linear_schedule_with_warmup(
 		optimizer = optimizer,
 		num_warmup_steps = num_warmup_steps,
 		num_training_steps = num_training_steps
 		)
+
 
 	train_losses = []
 	valid_losses = []
@@ -154,14 +154,14 @@ def main(args):
 		print(f'Eval accuracy: {sum([x==y for x, y in zip(labels, preds)]) / len(labels)}')
 
         # Store best model
-#        if valid_loss < best_valid_loss:
-#        	best_valid_loss = valid_loss
-#            torch.save({
-#                'epoch': epoch+1,
-#                'model_state_dict': model.state_dict(),
-#                'optimizer_state_dict': optimizer.state_dict(),
-#                'loss': loss_fn,
-#                }, args.model_filename)
+        if valid_loss < best_valid_loss:
+        	best_valid_loss = valid_loss
+            torch.save({
+                'epoch': epoch+1,
+                'model_state_dict': model.state_dict(),
+                'optimizer_state_dict': optimizer.state_dict(),
+                'loss': loss_fn,
+                }, args.model_filename)
 
 
 if __name__ == "__main__":
