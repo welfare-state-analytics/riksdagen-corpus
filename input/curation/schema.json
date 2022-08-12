@@ -1,0 +1,55 @@
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "protocol_id": {
+                "type": "string"
+            },
+            "element_id": {
+                "type": "string"
+            },
+            "quality_level": {
+                "type": "string",
+                "enum": [
+                    "automatic",
+                    "manual"
+                ]
+            },
+            "tag": {
+                "type": "string",
+                "enum": [
+                    "note",
+                    "intro",
+                    "seg",
+                    "pb"
+                ]
+            },
+            "year": {
+                "type": "integer"
+            },
+            "month": {
+                "type": "integer"
+            },
+            "day": {
+                "type": "integer"
+            },
+            "text": {
+                "type": "string"
+            },
+            "git_hash": {
+                "type": "string"
+            },
+            "assessed_by": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "protocol_id",
+            "element_id",
+            "text",
+            "git_hash",
+            "assessed_by"
+        ]
+    }
+}
