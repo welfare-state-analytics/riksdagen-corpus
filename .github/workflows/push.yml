@@ -29,7 +29,11 @@ jobs:
         pip install dateparser
 
     - name: Test with unittest
+      env: # authentication
+        KBLAB_USERNAME: ${{ secrets.KBLAB_USERNAME }}
+        KBLAB_PASSWORD: ${{ secrets.KBLAB_PASSWORD }}
       run: |
         python -m unittest test.schemas
         python -m unittest test.mp
+        python -m unittest test.altocheck
 
