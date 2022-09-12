@@ -27,6 +27,9 @@ jobs:
         pip install progressbar2
         pip install pyparlaclarin
         pip install dateparser
+        pip install alto-xml
+        pip install nltk
+        pip install requests
 
     - name: Test with unittest
       env: # authentication
