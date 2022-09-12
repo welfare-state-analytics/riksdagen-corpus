@@ -36,9 +36,8 @@ def calculate_difference(alto_path, root_pc):
 
     text_alto = " ".join(words_alto).replace("-", "").replace(" ", "")
     text_pc  = " ".join(words_pc).replace("-", "").replace(" ", "")
-    
     sentences_alto = text_alto.split(".")
-    sentences_pc = text_alto.split(".")
+    sentences_pc = text_pc.split(".")
 
     max_len = max(len(sentences_pc), len(sentences_alto))
     incorrect = edit_distance(sentences_alto, sentences_pc)
@@ -50,17 +49,23 @@ class Test(unittest.TestCase):
 
     # Parla-clarin generated from example OCR XML
     def test_protocols(self):
-        schema_path = "schemas/parla-clarin.xsd"
-        protocol_id1, msg1 = "1955/prot-1955--ak--22", "Andra kammaren"
-        alto_path1 = "test/data/prot-1955--ak--22-008.xml"
         folder = "corpus/protocols/"
+        testcases = []
+        #testcases.append(("1923/prot-1923--ak--22", "test/data/prot-1955--ak--22-008.xml", 8))
+        #testcases.append(("1927/prot-1927--fk--7", "test/data/prot-1955--ak--22-008.xml", 8))
+        #testcases.append(("1931/prot-1931--ak--10", "test/data/prot-1955--ak--22-008.xml", 8))
+        #testcases.append(("1930/prot-1930--fk--33", "test/data/prot-1955--ak--22-008.xml", 8))
 
-        root_pc1 = get_root(f"{folder}{protocol_id1}.xml")
-
-        absolute1, percentage1 = calculate_difference(alto_path1, root_pc1)
-        print(absolute1, percentage1)
-        self.assertTrue(absolute1 < 5, f"{msg1}: {protocol_id1} (absolute)")
-        self.assertTrue(percentage1 < 0.05, f"{msg1}: {protocol_id1} (percentage)")
+        testcases.append(("1955/prot-1955--ak--22", "test/data/prot-1955--ak--22-008.xml", 8))
+        
+        for protocol_id, alto_path, page in testcases:
+            print(protocol_id, alto_path, page)
+            root_pc = get_root(f"{folder}{protocol_id}.xml")
+            print(root_pc)
+            absolute, percentage = calculate_difference(alto_path, root_pc)
+            print(absolute, percentage)
+            self.assertTrue(absolute < 5, f"{protocol_id}: {page} (absolute)")
+            self.assertTrue(percentage < 0.05, f"{protocol_id}: {page} (percentage)")
 
 if __name__ == '__main__':
     # begin the unittest.main()
