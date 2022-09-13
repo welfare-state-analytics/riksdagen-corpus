@@ -61,7 +61,7 @@ def get_filename_classifier(filename):
 def main(args):
     parser = etree.XMLParser(remove_blank_text=True)
 
-    if False:
+    if args.method == "random":
         classifier = random_classifier
     elif args.method == "w2v":
         # Do imports here because they take a loong time
