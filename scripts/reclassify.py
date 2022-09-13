@@ -37,7 +37,7 @@ def classify_paragraph(s, model, ft, dim, prior=np.log([0.8, 0.2])):
 def get_neural_classifier(model, ft, dim):
     return (lambda paragraph: classify_paragraph(paragraph.text, model, ft, dim))
 
-def preclassified(df, elem):
+def preclassified(d, elem):
     xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
     xml_id = f"{xml_ns}id"
@@ -45,15 +45,18 @@ def preclassified(df, elem):
         return elem.tag.split(tei_ns)[-1]
     
     xml_id = elem.attrib[xml_id]
-    first_row = df[df.id == xml_id].iloc[0]
-    if first_row["preds"] == 0:
+    classification = d[xml_id]
+    if classification == 0:
         return "note"
     else:
         return "u"
 
 def get_filename_classifier(filename):
     df = pd.read_csv(filename)
-    return (lambda paragraph: preclassified(df, paragraph))
+    print("Generate dict...")
+    d = {str(row["id"]): row["preds"] for _, row in df.iterrows()}
+    print("done")
+    return (lambda paragraph: preclassified(d, paragraph))
 
 def main(args):
     parser = etree.XMLParser(remove_blank_text=True)
