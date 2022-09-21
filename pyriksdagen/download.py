@@ -5,7 +5,7 @@ import kblab
 import progressbar
 from lxml import etree
 from .utils import clean_html
-
+import warnings
 
 class LazyArchive:
     """
@@ -103,6 +103,7 @@ def dl_kb_blocks(package_id, archive):
     """
     package = archive.get(package_id)
     root = etree.Element("protocol", id=package_id)
+    in_sync = True
     for ix, fname in enumerate(fetch_files(package)):
         s = package.get_raw(fname).read()
         tree = etree.fromstring(s)
@@ -110,10 +111,16 @@ def dl_kb_blocks(package_id, archive):
         content_blocks = tree.findall(
             ".//{http://www.loc.gov/standards/alto/ns-v3#}ComposedBlock"
         )
+        page_number_str = re.findall("([0-9]{3,3}).xml", fname)[0]
+        page_number = int(page_number_str)
+        if in_sync and page_number != ix:
+            not_in_sync_warning = f"KB page number and page count not in sync ({package_id})"
+            warnings.warn(not_in_sync_warning)
+            in_sync = False
 
         for cb_ix, content_block in enumerate(content_blocks):
             content_block_e = etree.SubElement(
-                root, "contentBlock", page=str(ix), ix=str(cb_ix)
+                root, "contentBlock", page=str(page_number), ix=str(cb_ix)
             )
             text_blocks = content_block.findall(
                 ".//{http://www.loc.gov/standards/alto/ns-v3#}TextBlock"
@@ -133,10 +140,10 @@ def dl_kb_blocks(package_id, archive):
                         content = string.attrib["CONTENT"]
                         tblock.append(content)
 
-                tblock = " ".join(tblock)
+                tblock = "\n".join(tblock)
                 # Remove line breaks when next line starts with a small letter
+                tblock = re.sub("([a-zß-ÿ,])- ?\n ?([a-zß-ÿ])", "\\1\\2", tblock)
                 tblock = re.sub("([a-zß-ÿ,]) ?\n ?([a-zß-ÿ])", "\\1 \\2", tblock)
-                tblock = re.sub("([a-zß-ÿ,])- ([a-zß-ÿ])", "\\1\\2", tblock)
                 text_block_e = etree.SubElement(
                     content_block_e, "textBlock", ix=str(tb_ix)
                 )
