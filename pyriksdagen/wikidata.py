@@ -60,9 +60,9 @@ def clean_sparql_df(df, query_name):
 
 	# Clean columns
 	df = df.rename(columns={'wiki_idLabel.value':'name'}) # avoid duplicate colnames
+	df = df.rename(columns={'party.value':'party_id.value'})
 	df = df[[c for c in df.columns if c.endswith('.value') or c == 'name']]
 	
-
 	df.columns = df.columns.str.replace('.value', '', regex=False)
 	df.columns = df.columns.str.replace('Label', '', regex=False)
 	df = fix_dates(df) # use and drop date precision columns
@@ -70,6 +70,9 @@ def clean_sparql_df(df, query_name):
 	# Format values
 	if 'wiki_id' in df.columns:
 		df['wiki_id'] = df['wiki_id'].str.split('/').str[-1]
+
+	if 'party_id' in df.columns:
+		df['party_id'] = df['party_id'].str.split('/').str[-1]
 
 	# Drop pseudo missing values of form "http://www.wikidata.org/.well-known..."
 	idx, idy = np.where(df.astype(str).applymap(lambda x: 'http' in x))
