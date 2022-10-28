@@ -39,11 +39,6 @@ def main(args):
 		if folder == 'input':
 			d[q] = df
 
-		# Update metadata if query is made for subset of individuals
-		if args.queries:
-			meta = pd.read_csv(f'{folder}/metadata/{q}.csv')
-			meta = meta[~meta['wiki_id'].isin(set(df['wiki_id']))]
-			df = pd.concat([meta, df]).reset_index(drop=True)
 		df.to_csv(f'{folder}/metadata/{q}.csv', index=False)
 
 	# Process name and location files
