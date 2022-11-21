@@ -1,3 +1,6 @@
+"""
+Find  introductions in the protocols using BERT. Used in tandem with resegment.py
+"""
 import pandas as pd
 from lxml import etree
 from transformers import AutoModelForSequenceClassification, BertTokenizerFast
