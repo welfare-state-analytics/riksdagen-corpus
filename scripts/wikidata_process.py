@@ -45,6 +45,11 @@ def main():
 	corpus = corpus.sort_values(['wiki_id', 'start', 'end', 'name'])
 	for file in ['member_of_parliament', 'minister', 'speaker']:
 		df	= corpus[corpus['source'] == file]
+		
+		# Sort the df to make easier for git
+		sortcols = list(df.columns)
+		print(f"sort by {sortcols}")
+		df = df.sort_values(sortcols)
 		df.to_csv(f"input/matching/{file}.csv", index=False)
 
 
