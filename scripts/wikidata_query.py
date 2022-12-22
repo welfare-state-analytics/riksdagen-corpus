@@ -39,6 +39,7 @@ def main(args):
 		if folder == 'input':
 			d[q] = df
 
+		df = df.drop_duplicates()
 		df.to_csv(f'{folder}/metadata/{q}.csv', index=False)
 
 	# Process name and location files
