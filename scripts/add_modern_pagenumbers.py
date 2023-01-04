@@ -5,48 +5,74 @@ import pandas as pd
 import requests
 import subprocess
 from tqdm import tqdm
-import warnings
+import traceback
+from urllib.request import urlopen
+import logging
+import sys
+
+logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 
 tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
 xml_ns = "{http://www.w3.org/XML/1998/namespace}"
+parser = etree.XMLParser(remove_blank_text=True)
 
 def populate_protocol(jsonpath):
-    with open(jsonpath) as f:
+    with open(jsonpath, encoding='utf-8-sig') as f:
         d = json.load(f)
         d = d["dokumentstatus"]
+    pdf_url = None
+    try:
+        pdf_url = d["dokbilaga"]["bilaga"]["fil_url"]
+    except:
+        #warnings.warn("JSON does not include PDF URL")
+        logging.info('JSON does not include PDF URL')
+        meta_xml_url = d["dokument"]["dokumentstatus_url_xml"]
+        try:
+            with urlopen(meta_xml_url) as f:
+                meta_xml = etree.parse(f)
+        except:
+            logging.error('Metadata XML fetching or parsing unsuccesful')
+            traceback.print_exc()
         
-    pdf_url = d["dokbilaga"]["bilaga"]["fil_url"]
+        for bilaga in meta_xml.findall(".//bilaga"):
+            for fil_url in bilaga.findall(".//fil_url"):
+                pdf_url = fil_url.text
+
     gathering_year = d["dokument"]["rm"].replace("/", "")
     protocol_number = d["dokument"]["nummer"]
     protocol_id = f"prot-{gathering_year}--{protocol_number}"
     riksdagen_protocol_id = d["dokument"]["dok_id"]
     xmlpath = f"corpus/protocols/{gathering_year}/{protocol_id}.xml"
     if not Path(xmlpath).exists():
-        warnings.warn(f"Protocol file {xmlpath} missing! Skipping...")
+        #warnings.warn(f"Protocol file {xmlpath} missing! Skipping...")
+        logging.error(f'Protocol file {xmlpath} missing! Skipping...')
         return
     
     pdfpath = f'input/rawpdf/{riksdagen_protocol_id}.pdf'
-    if not Path(pdfpath).exists():
+    txtpath = pdfpath.replace(".pdf", ".txt")
+    pdf_exists = Path(pdfpath).exists()
+    txt_exists = Path(pdfpath).exists()
+    
+    if not pdf_exists and not txt_exists:
         print("Download", pdfpath, "...")
+        logging.info(f"Download {pdfpath} ...")
         r = requests.get(pdf_url)
         with open(f'input/rawpdf/{riksdagen_protocol_id}.pdf', 'wb') as f:
             f.write(r.content)
     else:
-        print(pdfpath, "already downloaded.")
+        logging.info(f"{pdfpath} already downloaded")
     
-    txtpath = pdfpath.replace(".pdf", ".txt")
-    if not Path(txtpath).exists():
-        print("Run pdftotext...")
+    if not txt_exists:
+        logging.info("Run pdftotext...")
         result = subprocess.run(["pdftotext", pdfpath])
-        print(result)
+        logging.info(f"pdftotext result code {result.returncode}")
     else:
-        print(txtpath, "already exists.")
+        logging.info(f"{txtpath} already exists.")
     
     if not Path(txtpath).exists():
-        warnings.warn(f"Problems with conversion to {txtpath}! Skipping...")
+        logging.error(f"Problems with conversion to {txtpath}! Skipping...")
         return
     
-    parser = etree.XMLParser(remove_blank_text=True)
     with Path(xmlpath).open() as f:
         root = etree.parse(f, parser).getroot()
 
@@ -58,7 +84,10 @@ def populate_protocol(jsonpath):
     
     ids = []
     rows = []
-    for div in root.findall(f"{tei_ns}div"):
+    bodies = root.findall(f"{tei_ns}body")
+    assert len(bodies) == 1
+    body = bodies[0]
+    for div in body.findall(f"{tei_ns}div"):
         for elem in div:
             current_id = elem.attrib.get(f"{xml_ns}id")
             ids.append(current_id)
@@ -96,7 +125,13 @@ def populate_protocol(jsonpath):
     mode_df = mode_df[mode_df["first page"].notnull()]
     mode_dict = {k: v for k, v in zip(mode_df["id"], mode_df["first page"])}
     current_page = 0
-    for div in list(root.findall(f"{tei_ns}div")):
+    for div in list(body.findall(f"{tei_ns}div")):
+        # Insert link to first page
+        pb = etree.Element("pb")
+        pageno = 1
+        pb.attrib["facs"] = f"{pdf_url}#page={pageno}"
+        div.insert(0, pb)
+
         for elem in div:
             current_id = elem.attrib.get(f"{xml_ns}id")
             if current_id is not None and mode_dict.get(current_id) is not None:
@@ -107,7 +142,7 @@ def populate_protocol(jsonpath):
                     current_page = pageno
                     pb = etree.Element("pb")
                     pageno = int(pageno + 1)
-                    pb.attrib["n"] = f"{pdf_url}#page={pageno}"
+                    pb.attrib["facs"] = f"{pdf_url}#page={pageno}"
                     parent.insert(elem_ix, pb)
 
     b = etree.tostring(
@@ -121,13 +156,17 @@ def main(args):
     for p in tqdm(list(folder.glob("*.json"))):
         try:
             populate_protocol(p)
-        except:
-            print(f"An error occurred processing {p}")
+        except KeyboardInterrupt:
+            return
+        except Exception:
+            logging.error(f"An error occurred processing {p}")
+            traceback.print_exc()
         #break
                 
 if __name__ == '__main__':
     import argparse
     argparser = argparse.ArgumentParser()
     argparser.add_argument("--jsonpath", type=str)
+    argparser.add_argument("--utf8sig", type=bool, default=False)
     args = argparser.parse_args()
     main(args)
