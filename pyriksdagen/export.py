@@ -47,8 +47,6 @@ def create_tei(root, metadata):
 
     current_speaker = None
     current_page = 0
-    u = None
-    prev_u = None
 
     pb = etree.SubElement(body_div, "pb")
     pb.attrib["n"] = str(current_page)
@@ -73,94 +71,10 @@ def create_tei(root, metadata):
             )
             pb.attrib["facs"] = page_url + page_filename
 
-            if prev_u is None:
-                prev_u = u
-                u = None
+        for textblock in content_block:
+            note = etree.SubElement(body_div, "note")
+            note.text = " ".join(textblock.text.split())
 
-        content_txt = "\n".join(content_block.itertext())
-        is_empty = content_txt == ""
-        segmentation = content_block.attrib.get("segmentation", None)
-        if segmentation == "metadata":
-            if prev_u is None:
-                prev_u = u
-                u = None
-            for textblock in content_block:
-                note = etree.SubElement(body_div, "note")
-                note.text = textblock.text
-                note.attrib[
-                    "{http://www.w3.org/XML/1998/namespace}id"
-                ] = textblock.attrib.get("id", None)
-        elif segmentation == "note":
-            for textblock in content_block:
-                note = etree.SubElement(body_div, "note")
-                note.text = textblock.text
-                note.attrib[
-                    "{http://www.w3.org/XML/1998/namespace}id"
-                ] = textblock.attrib.get("id", None)
-        else:
-            for textblock in content_block:
-                tb_segmentation = textblock.attrib.get("segmentation", None)
-                if tb_segmentation == "speech_start":
-                    prev_u = None
-                    current_speaker = textblock.attrib.get("who", None)
-                    note = etree.SubElement(body_div, "note", type="speaker")
-                    u = etree.SubElement(body_div, "u")
-                    if current_speaker is not None:
-                        u.attrib["who"] = current_speaker
-                    else:
-                        u.attrib["who"] = "unknown"
-
-                    # Introduction under <note> tag
-                    # Actual speech under <u> tag
-                    paragraph = textblock.text.split(":")
-                    introduction = paragraph[0] + ":"
-                    note.text = introduction
-                    note.attrib[
-                        "{http://www.w3.org/XML/1998/namespace}id"
-                    ] = textblock.attrib.get("id", None)
-                    if len(paragraph) > 1:
-                        rest_of_paragraph = ":".join(paragraph[1:]).strip()
-                        if len(rest_of_paragraph) > 0:
-                            seg = etree.SubElement(u, "seg")
-                            seg.text = rest_of_paragraph
-                elif tb_segmentation == "note":
-                    if prev_u is None:
-                        prev_u = u
-                        u = None
-                    note = etree.SubElement(body_div, "note")
-                    note.text = textblock.text
-                    note.attrib[
-                        "{http://www.w3.org/XML/1998/namespace}id"
-                    ] = textblock.attrib.get("id", None)
-                elif tb_segmentation == "metadata":
-                    if prev_u is None:
-                        prev_u = u
-                        u = None
-                    note = etree.SubElement(body_div, "note")
-                    note.text = textblock.text
-                else:
-                    paragraph = textblock.text
-                    if paragraph != "":
-                        if u is not None:
-                            seg = etree.SubElement(u, "seg")
-                            seg.text = paragraph
-                            seg.attrib[
-                                "{http://www.w3.org/XML/1998/namespace}id"
-                            ] = textblock.attrib.get("id", None)
-                        elif prev_u is not None:
-                            prev_u.attrib["next"] = "cont"
-                            prev_u = None
-                            u = etree.SubElement(body_div, "u")
-                            if current_speaker is not None:
-                                u.attrib["who"] = current_speaker
-                            else:
-                                u.attrib["who"] = "unknown"
-                            u.attrib["prev"] = "cont"
-                            seg = etree.SubElement(u, "seg")
-                            seg.text = paragraph
-                        else:
-                            note = etree.SubElement(body_div, "note")
-                            note.text = paragraph
     return tei
 
 def dict_to_tei(data):
