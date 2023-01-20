@@ -1,3 +1,6 @@
+"""
+Draw a random sample of the digital protocols
+"""
 import pandas as pd
 import random
 import os

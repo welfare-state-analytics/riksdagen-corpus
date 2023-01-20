@@ -1,3 +1,7 @@
+"""
+Add page numbers as <pb> elements to the modern protocols (1990->).
+The script downloads the PDFs and matches them with the text in parla-clarin.
+"""
 from lxml import etree
 import json
 from pathlib import Path
@@ -165,7 +169,7 @@ def main(args):
                 
 if __name__ == '__main__':
     import argparse
-    argparser = argparse.ArgumentParser()
+    argparser = argparse.ArgumentParser(description=__doc__)
     argparser.add_argument("--jsonpath", type=str)
     argparser.add_argument("--utf8sig", type=bool, default=False)
     args = argparser.parse_args()

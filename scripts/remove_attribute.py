@@ -1,5 +1,5 @@
 '''
-Removes depreceated xml elements
+Remove depreceated xml elements
 '''
 from pyriksdagen.utils import protocol_iterators, elem_iter
 from lxml import etree

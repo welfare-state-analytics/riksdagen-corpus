@@ -1,6 +1,6 @@
 """
-Scrapes protocols for first docDate tag
-OBS requires pyriksdagen locally
+Scrape the protocols for first docDate tag
+OBS: requires pyriksdagen locally
 """
 from pyriksdagen.db import filter_db, load_patterns
 from pyriksdagen.refine import detect_date

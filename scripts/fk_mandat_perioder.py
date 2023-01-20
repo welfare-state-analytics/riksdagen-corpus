@@ -1,5 +1,5 @@
 """
-Script to change imputed time periods for första kammaren to manually collected ones from stadskalendern.
+Change imputed time periods for första kammaren to manually collected ones from stadskalendern.
 TODO: Something is slightly broken atm
 """
 import numpy as np

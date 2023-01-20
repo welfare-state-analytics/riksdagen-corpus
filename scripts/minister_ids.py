@@ -1,5 +1,5 @@
 """
-Reformats minister names to form name_name{_name...}_minister_start.
+Reformat minister names to form name_name{_name...}_minister_start.
 """
 import numpy as np
 import pandas as pd

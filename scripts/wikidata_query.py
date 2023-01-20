@@ -1,3 +1,6 @@
+"""
+Further process metadata into easy-to-use tables, and save them in input/
+"""
 from SPARQLWrapper import SPARQLWrapper, JSON
 import numpy as np
 import pandas as pd

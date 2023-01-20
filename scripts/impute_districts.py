@@ -1,5 +1,5 @@
 """
-Imputes districts gathered from wikipedia for years 24, 59, 61.
+Impute districts gathered from wikipedia for years 24, 59, 61.
 """
 import pandas as pd
 

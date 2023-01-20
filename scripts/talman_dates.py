@@ -1,5 +1,5 @@
 """
-Used for algorithmically providing dates for the (vice) talmän dataset.
+Algorithmically provide dates for the (vice) talmän dataset.
 """
 import numpy as np
 import pandas as pd

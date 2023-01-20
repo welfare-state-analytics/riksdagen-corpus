@@ -1,5 +1,5 @@
 """
-Connect introductions to the speaker in the metadata.
+Add a randomly generated UUID to all elements in the XML ID field.
 """
 from lxml import etree
 import pandas as pd

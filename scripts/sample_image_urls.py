@@ -1,3 +1,6 @@
+"""
+Draw a random sample of the scanned image URLs
+"""
 import pandas as pd
 from tqdm import tqdm
 from lxml import etree

@@ -1,5 +1,5 @@
 '''
-Script for processing raw wikidata tables into files used for corpus speech matching.
+Process raw wikidata tables into files used for corpus speech matching.
 '''
 from pyriksdagen.metadata import Corpus
 
