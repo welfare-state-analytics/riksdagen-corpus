@@ -1,5 +1,5 @@
 """
-New version of matching algorithm with fuzzy matching implemented.
+(OLD?) New version of matching algorithm with fuzzy matching implemented.
 
 Notes from data exploration:
 	- Found name "Fr. Julin", Fr. stands for Fröken?

@@ -42,6 +42,7 @@ if __name__ == "__main__":
     parser.add_argument("--start", type=int, default=1990)
     parser.add_argument("--end", type=int, default=2022)
     parser.add_argument("--edition", type=str, default="0.4.2")
-    parser.add_argument("--infolder", nargs='+', type=str, required=True)
+    parser.add_argument("--infolder", nargs='+', type=str, required=True,
+        help="Path to the prot-*.json folder downloaded from Riksdagens Öppna Data")
     args = parser.parse_args()
     main(args)
