@@ -1,4 +1,4 @@
-SELECT DISTINCT ?wiki_id ?partyLabel ?start ?end ?startPrecision ?endPrecision
+SELECT DISTINCT ?wiki_id ?party ?partyLabel ?start ?end ?startPrecision ?endPrecision
 WHERE
 {    
     ?wiki_id wdt:P31 wd:Q5;

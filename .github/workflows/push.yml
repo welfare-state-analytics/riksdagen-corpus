@@ -40,3 +40,10 @@ jobs:
         python -m unittest test.mp
         python -m unittest test.altocheck
 
+    - name: Test metadata integrity
+      run: |
+        echo "Test that there are no duplicates in the DB"
+        echo "throw ERROR on inconsistencies on our side"
+        echo "WARN on upstream errors"
+
+        python -m unittest test.db

@@ -60,16 +60,18 @@ def clean_sparql_df(df, query_name):
 
 	# Clean columns
 	df = df.rename(columns={'wiki_idLabel.value':'name'}) # avoid duplicate colnames
+	df = df.rename(columns={'government.value':'government_id.value'})
+	df = df.rename(columns={'party.value':'party_id.value'})
 	df = df[[c for c in df.columns if c.endswith('.value') or c == 'name']]
 	
-
 	df.columns = df.columns.str.replace('.value', '', regex=False)
 	df.columns = df.columns.str.replace('Label', '', regex=False)
 	df = fix_dates(df) # use and drop date precision columns
 
 	# Format values
-	if 'wiki_id' in df.columns:
-		df['wiki_id'] = df['wiki_id'].str.split('/').str[-1]
+	for colname in df.columns:
+		if "_id" in colname:
+			df[colname] = df[colname].str.split('/').str[-1]
 
 	# Drop pseudo missing values of form "http://www.wikidata.org/.well-known..."
 	idx, idy = np.where(df.astype(str).applymap(lambda x: 'http' in x))
@@ -137,3 +139,16 @@ def separate_name_location(name_location_specifier, alias):
 	loc = loc[['wiki_id'] + sorted([col for col in loc.columns if col != 'wiki_id'])]
 	loc = loc.sort_values(by=list(loc.columns))
 	return name, loc
+
+def move_party_to_party_df(mp_df, party_df):
+	mp_parties = mp_df[party_df.columns]
+	mp_parties = mp_parties[mp_parties['party_id'].notnull()]
+
+	mp_parties = mp_parties.sort_values(["wiki_id", "start"])
+	party_df = pd.concat([mp_parties, party_df])
+	party_df = party_df.drop_duplicates()
+
+	mp_df_cols = [col for col in mp_df.columns if col not in ["party", "party_id"]]
+
+	return mp_df[mp_df_cols], party_df
+

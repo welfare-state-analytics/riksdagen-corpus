@@ -1,3 +1,6 @@
+"""
+Draw a random sample of the introductions
+"""
 from pyriksdagen.utils import protocol_iterators
 import pandas as pd
 from lxml import etree
@@ -14,8 +17,6 @@ def extract_intros(protocol):
 	xml_ns = "{http://www.w3.org/XML/1998/namespace}"
 	git_prefix = 'https://github.com/welfare-state-analytics/riksdagen-corpus/blob/main'
 	git_link = os.path.join(git_prefix, protocol)
-
-
 
 	data = []
 	new_speaker = False
@@ -54,8 +55,6 @@ def main(args):
 
 	# Stratified sampling by year
 	df['year'] = df['github'].str.extract(r'(?:\/)(\d{4,8})(?:\/)')
-	
-	
 	df['year'] = df['year'].str[:4].astype(int)
 	df = sample(df, n=args.n, random_state=args.seed)
 	df.to_csv(f"input/accuracy/intro_sample_{str(datetime.date.today())}.csv", index=False)

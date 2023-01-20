@@ -1,3 +1,6 @@
+"""
+Draw a graph on the accuracy estimate
+"""
 import pandas as pd
 import matplotlib.pyplot as plt
 import argparse
@@ -28,6 +31,7 @@ def update_plot(version):
     df.to_csv('input/accuracy/difference.csv', index=False)
 
     version = sorted(list(set(df['version'])), reverse=True)
+    version = version[:6]
     for v in version:
         dfv = df.loc[df['version'] == v]
         x = dfv['year'].tolist()

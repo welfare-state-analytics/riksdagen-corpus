@@ -29,34 +29,6 @@ def classify_paragraph(paragraph, classifier, prior=np.log([0.8, 0.2])):
     return np.sum(pred, axis=0) + prior
 
 
-def _is_metadata_block(txt0):
-    txt1 = re.sub("[^a-zA-Zß-ÿÀ-Þ ]+", "", txt0)
-    len0 = len(txt0)
-
-    # Empty blocks should not be classified as metadata
-    if len(txt0.strip()) == 0:
-        return False
-
-    # Metadata generally don't introduce other things
-    if txt0.strip()[-1] == ":":
-        return False
-
-    # Or list MPs
-    if "Anf." in txt0:
-        return False
-
-    len1 = len(txt1)
-    len2 = len(txt0.strip())
-    if len2 == 0:
-        return False
-
-    # Crude heuristic. Skip if
-    # a) over 15% is non alphabetic characters
-    # and b) length is under 150 characters
-
-    # TODO: replace with ML algorithm
-    return float(len1) / float(len0) < 0.85 and len0 < 150
-
 def detect_speaker(matched_txt, speaker_db, metadata=None):
     """
     Detect the speaker of the house

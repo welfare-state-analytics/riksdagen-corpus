@@ -47,6 +47,19 @@ def get_pc_words(root, page="random", ns="{http://www.tei-c.org/ns/1.0}"):
 
     return words, alto_url, page
 
+def clean_sentence(s):
+    # Make test indifferent to hyphens and linebreaks
+    s = s.replace("-", "").replace(" ", "")
+
+    # Standardize punctuation
+    s = s.replace("?", ".").replace("!", ".").replace(",", ".")
+
+    # Make test indifferent to §/$/8 which are not well
+    # differentiated by Tesseract
+    s = s.replace("$", "§")
+    s = s.replace("8", "§")
+    return s
+
 def calculate_difference(root_pc, page="random", auth=None):
     words_pc, alto_url, page = get_pc_words(root_pc, page=page)
     r = requests.get(alto_url, auth=auth)
@@ -56,8 +69,11 @@ def calculate_difference(root_pc, page="random", auth=None):
     if words_alto is None:
         return 0, 0.0, 0
 
-    text_alto = " ".join(words_alto).replace("-", "").replace(" ", "")
-    text_pc  = " ".join(words_pc).replace("-", "").replace(" ", "")
+    text_alto = " ".join(words_alto)
+    text_alto = clean_sentence(text_alto)
+    text_pc  = " ".join(words_pc)
+    text_pc = clean_sentence(text_pc)
+
     sentences_alto = text_alto.split(".")
     sentences_pc = text_pc.split(".")
 
@@ -104,6 +120,10 @@ class Test(unittest.TestCase):
         print(f"Proportion of protocols with over 0.05% mismatching sentences: {percentage_fail_ratio}")
         self.assertTrue(absolute_fail_ratio < 0.03, f"Absolute ratio too high {absolute_fail}")
         self.assertTrue(percentage_fail_ratio < 0.05, f"Percentage ratio too high {percentage_fail}")
+
+        # Perfect matching is unreasonable and a sign of an error in the test
+        self.assertTrue(absolute_fail_ratio > 0.0, f"Absolute ratio zero {absolute_fail}")
+        self.assertTrue(percentage_fail_ratio > 0.0, f"Percentage ratio zero {percentage_fail}")
 
 if __name__ == '__main__':
     # begin the unittest.main()

@@ -8,7 +8,6 @@ from pyriksdagen.refine import (
     detect_mps,
     find_introductions,
     update_ids,
-    update_hashes,
 )
 from pyriksdagen.utils import infer_metadata
 from pyriksdagen.utils import protocol_iterators
@@ -22,12 +21,9 @@ def main(args):
     end_year = args.end
 
     parser = etree.XMLParser(remove_blank_text=True)
-
     intro_df = pd.read_csv('input/segmentation/intros.csv')
 
     for protocol in progressbar.progressbar(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end))):
-
-        
         intro_ids = intro_df.loc[intro_df['file_path'] == protocol, 'id'].tolist()
 
         metadata = infer_metadata(protocol)
@@ -50,15 +46,13 @@ def main(args):
             (pattern_db["start"] <= year) & (pattern_db["end"] >= year)
         ]
         root = find_introductions(root, pattern_db, intro_ids, minister_db=None)
-        #root = update_ids(root, protocol_id)
         root = format_texts(root)
         b = etree.tostring(
             root, pretty_print=True, encoding="utf-8", xml_declaration=True
         )
 
-        f = open(protocol, "wb")
-        f.write(b)
-        f.close()
+        with open(protocol, "wb") as f:
+            f.write(b)
 
 
 if __name__ == "__main__":
