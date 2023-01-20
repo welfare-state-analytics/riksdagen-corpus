@@ -16,7 +16,6 @@ from pyriksdagen.refine import (
     detect_mps,
     find_introductions,
     update_ids,
-    update_hashes,
 )
 from pyriksdagen.utils import infer_metadata, parse_date, elem_iter, protocol_iterators
 from pyriksdagen.match_mp import clean_names, multiple_replace

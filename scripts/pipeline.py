@@ -17,7 +17,6 @@ from pyriksdagen.refine import (
     detect_mps,
     find_introductions,
     update_ids,
-    update_hashes,
     detect_date,
 )
 from pyriksdagen.utils import (
