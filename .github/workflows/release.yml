@@ -35,6 +35,7 @@ jobs:
         pip install dateparser
         pip install cycler
         pip install tqdm
+        pip install base58
 
     - name: Estimate current accuracy and generate a new plot
       run: |

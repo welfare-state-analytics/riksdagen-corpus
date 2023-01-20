@@ -30,6 +30,7 @@ jobs:
         pip install alto-xml
         pip install nltk
         pip install requests
+        pip install base58
 
     - name: Test with unittest
       env: # authentication

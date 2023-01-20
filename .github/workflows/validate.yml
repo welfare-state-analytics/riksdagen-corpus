@@ -36,6 +36,7 @@ jobs:
           pip install progressbar2
           pip install pyparlaclarin
           pip install dateparser
+          pip install base58
 
       - name: Validate changed files
         run: |
