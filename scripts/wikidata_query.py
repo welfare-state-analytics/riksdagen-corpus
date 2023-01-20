@@ -8,6 +8,7 @@ import os, argparse
 import time
 import re
 from pyriksdagen.wikidata import query2df, separate_name_location, move_party_to_party_df
+from pyriksdagen.db import clean_person_duplicates
 from pathlib import Path
 
 def main(args):
@@ -42,6 +43,9 @@ def main(args):
 		if folder == 'input':
 			d[q] = df
 
+		if q == 'person':
+			df = clean_person_duplicates(df)
+			
 		df = df.drop_duplicates()
 		df.to_csv(f'{folder}/metadata/{q}.csv', index=False)
 

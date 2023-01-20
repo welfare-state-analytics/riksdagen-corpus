@@ -126,3 +126,41 @@ def load_expressions(phase="segmentation", year=None):
             exp, t = row[["pattern", "type"]]
             expressions.append((re.compile(exp), t))
         return expressions
+
+def _keep_most_significant(df, cols, id="wiki_id"):
+    for col in cols:
+        primary = df[df[col] != df[col].str[:4]]
+        primary = primary[primary[col].notnull()]
+
+        #primary = primary.drop_duplicates([id, col])
+        secondary = df[df[col] == df[col].str[:4]]
+        secondary = secondary[secondary[col].notnull()]
+
+        secondary = secondary.drop_duplicates([id, col])
+
+        col_df = pd.concat([primary, secondary])
+        col_df = col_df.drop_duplicates(id)
+        col_df = col_df[[id, col]]
+
+        df = df[[c for c in df.columns if c != col]]
+        df = df.drop_duplicates()
+        df = pd.merge(df, col_df, how="left", on=id)
+
+    col = cols[0]
+    primary = df[df[col] != df[col].str[:4]]
+    secondary = df[df[col] == df[col].str[:4]]
+
+    df = pd.concat([primary, secondary])
+    df = df.drop_duplicates(id)
+    return df
+
+def clean_person_duplicates(df):
+    dupl = df[df.duplicated("wiki_id", keep=False)].copy()
+    df = df[~df.duplicated("wiki_id", keep=False)]
+    dupl = _keep_most_significant(dupl, ["born", "dead"], id="wiki_id")
+    cols = list(df.columns)
+    df = pd.concat([dupl, df])
+    df = df[cols]
+    df = df.drop_duplicates(list(df.columns))
+    df = df.sort_values(list(df.columns))
+    return df
