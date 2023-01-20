@@ -6,7 +6,7 @@ import progressbar, copy
 from lxml import etree
 from pyparlaclarin.create import pc_header, create_parlaclarin
 
-from .utils import infer_metadata
+from .utils import infer_metadata, get_formatted_uuid, XML_NS
 from .download import get_blocks
 from .db import year_iterator
 
@@ -56,11 +56,13 @@ def create_tei(root, metadata):
     )
     pb.attrib["facs"] = page_url + page_filename
 
+    element_seed = f"{protocol_id}{current_page}"
     for content_block in root:
         new_page = content_block.attrib.get("page", current_page)
         new_page = int(new_page)
         if new_page != current_page:
             current_page = new_page
+            element_seed = f"{protocol_id}{current_page}"
             pb = etree.SubElement(body_div, "pb")
             pb.attrib["n"] = str(current_page)
             page_url = "https://betalab.kb.se/" + protocol_id + "/"
@@ -72,8 +74,15 @@ def create_tei(root, metadata):
             pb.attrib["facs"] = page_url + page_filename
 
         for textblock in content_block:
+            text = " ".join(textblock.text.split())
+            if text == "":
+                continue
             note = etree.SubElement(body_div, "note")
-            note.text = " ".join(textblock.text.split())
+            note.text = text
+
+            # Generate reproducible UUID
+            element_seed += text
+            note.attrib[f"{XML_NS}id"] = get_formatted_uuid(element_seed)
 
     return tei
 

@@ -9,6 +9,9 @@ from lxml import etree
 from bs4 import BeautifulSoup
 from pathlib import Path
 from datetime import datetime
+import hashlib, uuid, base58
+
+XML_NS = "{http://www.w3.org/XML/1998/namespace}"
 
 def elem_iter(root, ns="{http://www.tei-c.org/ns/1.0}"):
     """
@@ -127,3 +130,13 @@ def parse_date(s):
                 return None
         else:
             return None
+
+def get_formatted_uuid(seed=None):
+    if seed is None:
+        x = uuid.uuid4()
+    else:
+        m = hashlib.md5()
+        m.update(seed.encode('utf-8'))
+        x = uuid.UUID(m.hexdigest())
+
+    return f"i-{str(base58.b58encode(x.bytes), 'UTF8')}"
