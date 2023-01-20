@@ -60,6 +60,7 @@ def join_soft_hyphens(root, soft_hyphen):
 
 def main(args):
     protocols = sorted(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end)))    
+    print(protocols)
     parser = etree.XMLParser(remove_blank_text=True)
     
     exp_dollar_1 = re.compile("^8 [0-9]{1,2}\.")
