@@ -27,17 +27,25 @@ def extract_note_seg(protocol):
             data.extend(list(map(partial(extract_elem, protocol), elem)))
     return data
 
-def predict_intro(df):
-    model = AutoModelForSequenceClassification.from_pretrained("jesperjmb/parlaBERT").to('cuda')
+def predict_intro(df, cuda):
+    model = AutoModelForSequenceClassification.from_pretrained("jesperjmb/parlaBERT")
+    if cuda:
+        model = model.to('cuda')
     test_dataset = IntroDataset(df)
     test_loader = DataLoader(test_dataset, batch_size=64, num_workers=4)
 
     intros = []
     with torch.no_grad():
         for texts, xml_ids, file_path in tqdm(test_loader, total=len(test_loader)):
-            output = model( input_ids=texts["input_ids"].squeeze(dim=1).to('cuda'),
-                            token_type_ids=texts["token_type_ids"].squeeze(dim=1).to('cuda'),
-                            attention_mask=texts["attention_mask"].squeeze(dim=1).to('cuda'))
+
+            if cuda:
+                output = model( input_ids=texts["input_ids"].squeeze(dim=1).to('cuda'),
+                                token_type_ids=texts["token_type_ids"].squeeze(dim=1).to('cuda'),
+                                attention_mask=texts["attention_mask"].squeeze(dim=1).to('cuda'))
+            else:
+                output = model( input_ids=texts["input_ids"].squeeze(dim=1),
+                            token_type_ids=texts["token_type_ids"].squeeze(dim=1),
+                            attention_mask=texts["attention_mask"].squeeze(dim=1))
 
             preds = torch.argmax(output[0], dim=1)
             intros.extend([[file_path, xml_id] for file_path, xml_id, pred in zip(file_path, xml_ids, preds) if pred == 1])
@@ -58,7 +66,8 @@ def main(args):
         for file in tqdm(files, total=len(files)):
             data.extend(extract_note_seg(os.path.join(folder, file)))
         df = pd.DataFrame(data, columns=['text', 'id', 'file_path'])
-        df = predict_intro(df)
+        print(df)
+        df = predict_intro(df, cuda=args.cuda)
         intros.append(df)
 
     df = pd.concat(intros)
@@ -69,5 +78,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--start", type=int, default=1920)
     parser.add_argument("--end", type=int, default=2022)
+    parser.add_argument("--cuda", type=bool, default=False)
     args = parser.parse_args()
     main(args)
