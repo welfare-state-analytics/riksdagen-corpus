@@ -1,14 +1,13 @@
 '''
-Stratified sample by decade for manual quality control of corpus tags.
+Draw a random stratified sample by decade for manual quality control of corpus tags.
 TODO: Does not take into account that multiple pages from same protocol can be sampled atm.
 '''
 import numpy as np
 import pandas as pd
 import os
 from lxml import etree
+import argparse
 
-seed = 123
-pages_per_decade = 30
 tei_ns = "{http://www.tei-c.org/ns/1.0}"
 
 def get_pagenumber(link):
@@ -76,20 +75,26 @@ def write_file(pages, file_path):
                         f.write(' '.join(e.split()))
                         f.write('\n'*2)
     f.close()
-                    
-path = 'corpus/protocols'
-df = sample_pages(seed, pages_per_decade)
-protocols = df['package_id'].tolist()
 
-folders = sorted(os.listdir(path))
-for folder in folders:
-    files = sorted(os.listdir(os.path.join(path, folder)))
-    for file in files:
-        if file.replace('.xml', '') in protocols:
-            pages = df.loc[df['package_id'] == file.replace('.xml', ''), 'pagenumber'].tolist()
-            if len(pages) > 1:
-                print(file, pages)
-            write_file(pages, os.path.join(path, folder, file))
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('-s', '--seed', type=int, default=123)
+    parser.add_argument('-p', '--pages_per_decade', type=int, default=30)
+    args = parser.parse_args()
+
+    path = 'corpus/protocols'
+    df = sample_pages(args.seed, args.pages_per_decade)
+    protocols = df['package_id'].tolist()
+
+    folders = sorted(os.listdir(path))
+    for folder in folders:
+        files = sorted(os.listdir(os.path.join(path, folder)))
+        for file in files:
+            if file.replace('.xml', '') in protocols:
+                pages = df.loc[df['package_id'] == file.replace('.xml', ''), 'pagenumber'].tolist()
+                if len(pages) > 1:
+                    print(file, pages)
+                write_file(pages, os.path.join(path, folder, file))
 
 
 

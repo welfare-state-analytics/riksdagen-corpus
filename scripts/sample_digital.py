@@ -4,6 +4,7 @@ Draw a random sample of the digital protocols
 import pandas as pd
 import random
 import os
+import argparse
 
 def package2url(package_id):
 	folder = package_id.split('-')[1]
@@ -49,12 +50,15 @@ def sample_digital():
 	df['annotator'] = ['johan', 'fredrik', 'väinö', 'robin']*(len(df)//4)
 	return df
 
+if __name__ == "__main__":
+	parser = argparse.ArgumentParser(description=__doc__)
+	args = parser.parse_args()
 
-path = 'corpus/protocols'
-random.seed(123)
+	path = 'corpus/protocols'
+	random.seed(123)
 
-df = sample()
-df.to_csv('input/manual-annotation-2022-march/sample.csv', index=False)
+	df = sample()
+	df.to_csv('input/manual-annotation-2022-march/sample.csv', index=False)
 
-df = sample_digital()
-df.to_csv('input/manual-annotation-2022-march/sample-digital.csv', index=False)
+	df = sample_digital()
+	df.to_csv('input/manual-annotation-2022-march/sample-digital.csv', index=False)
