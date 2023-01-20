@@ -68,7 +68,7 @@ class Test(unittest.TestCase):
 
         # new
         folder = "corpus/protocols"
-        _, mp_db, minister_db, speaker_db = load_metadata()
+        *_, mp_db, minister_db, speaker_db = load_metadata()
         mp_db = pd.concat([mp_db, minister_db, speaker_db])
 
         mp_ids = {}

@@ -1,16 +1,17 @@
+"""
+Draw a graph on the accuracy estimate
+"""
 import pandas as pd
 import matplotlib.pyplot as plt
 import argparse
 from cycler import cycler
 import re
 
-exp = "v([0-9]+)([.])([0-9]+)([.])([0-9]+)(b|rc)?([0-9]+)?"
-exp = re.compile(exp)
-
 
 def update_plot(version):
-    default_cycler = (cycler(color=['r', 'g', 'b', 'y']) +
-                      cycler(linestyle=['-', '--', ':', '-.']))
+    colors = list('bgrcmyk')
+    default_cycler = (cycler(color=colors) +
+                      cycler(linestyle=(['-', '--', ':', '-.']*2)[:len(colors)]))
     plt.rc('axes', prop_cycle=default_cycler)
     f, ax = plt.subplots()
 
@@ -30,12 +31,13 @@ def update_plot(version):
     df.to_csv('input/accuracy/difference.csv', index=False)
 
     version = sorted(list(set(df['version'])), reverse=True)
+    version = version[:6]
     for v in version:
         dfv = df.loc[df['version'] == v]
         x = dfv['year'].tolist()
         y = dfv['accuracy'].tolist()
         x, y = zip(*sorted(zip(x,y),key=lambda x: x[0]))
-        plt.plot(x, y)
+        plt.plot(x, y, linewidth=1.75)
 
     plt.title('Estimated accuracy for identification of speech-maker')
     plt.legend(version, loc ="upper left")
@@ -57,6 +59,7 @@ if __name__ == "__main__":
     parser.add_argument("-s", "--show", type=str, default="True")
     args = parser.parse_args()
     args.show = False if args.show.lower()[:1] == "f" else True
+    exp = re.compile(r"v([0-9]+)([.])([0-9]+)([.])([0-9]+)(b|rc)?([0-9]+)?")
     if exp.search(args.version) is None:
         print(f"{args.version} is not a valid version number. Exiting")
         exit()

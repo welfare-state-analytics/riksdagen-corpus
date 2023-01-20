@@ -29,34 +29,6 @@ def classify_paragraph(paragraph, classifier, prior=np.log([0.8, 0.2])):
     return np.sum(pred, axis=0) + prior
 
 
-def _is_metadata_block(txt0):
-    txt1 = re.sub("[^a-zA-Zß-ÿÀ-Þ ]+", "", txt0)
-    len0 = len(txt0)
-
-    # Empty blocks should not be classified as metadata
-    if len(txt0.strip()) == 0:
-        return False
-
-    # Metadata generally don't introduce other things
-    if txt0.strip()[-1] == ":":
-        return False
-
-    # Or list MPs
-    if "Anf." in txt0:
-        return False
-
-    len1 = len(txt1)
-    len2 = len(txt0.strip())
-    if len2 == 0:
-        return False
-
-    # Crude heuristic. Skip if
-    # a) over 15% is non alphabetic characters
-    # and b) length is under 150 characters
-
-    # TODO: replace with ML algorithm
-    return float(len1) / float(len0) < 0.85 and len0 < 150
-
 def detect_speaker(matched_txt, speaker_db, metadata=None):
     """
     Detect the speaker of the house
@@ -187,22 +159,19 @@ def expression_dicts(pattern_db):
     return expressions, manual
 
 
-def detect_introduction(paragraph, expressions):
+def detect_introduction(elem, intro_ids):
     """
     Detect whether the current paragraph contains an introduction of a speaker.
 
     Returns a dict if an intro is detected, otherwise None.
     """
-    for pattern_digest, exp in expressions.items():
-        for m in exp.finditer(paragraph.strip()):
-            matched_txt = m.group()
-            person = None
-            segmentation = "speech_start"
+    if elem.attrib.get("{http://www.w3.org/XML/1998/namespace}id") in intro_ids:
+
             d = {
-                "pattern": pattern_digest,
-                "who": person,
-                "segmentation": segmentation,
-                "txt": matched_txt,
+                "pattern": None,
+                "who": None,
+                "segmentation": None,
+                "txt": elem.text,
             }
 
             return d
@@ -229,3 +198,11 @@ def combine_intros(elem1, elem2, intro_expressions, other_expressions):
         elem1.text = ""
 
     return combine
+
+def join_text(text1, text2):
+    text1, text2 = list(map(lambda x: ' '.join(x.replace('\n', ' ').split()), [text1, text2]))
+    # Account for words split over textblocks with '-'
+    if text1.endswith('-'):
+        return ''.join([text1[:-1], text2])
+    else:
+        return ' '.join([text1, text2])

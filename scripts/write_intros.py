@@ -1,3 +1,6 @@
+"""
+Scrape all intros from the parla-clarin files for a specified time range
+"""
 import pandas as pd
 import random
 from lxml import etree
@@ -43,11 +46,12 @@ def main(args):
 
     df = pd.DataFrame(data_list)
     df.columns = ['intro', 'chamber', 'year', 'protocol']
-    df.to_csv('output.csv', index=False)
+    df.to_csv(args.output, index=False)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--start", type=int, default=1920)
     parser.add_argument("--end", type=int, default=2022)
+    parser.add_argument("--output", type=str, default="output.csv")
     args = parser.parse_args()
     main(args)

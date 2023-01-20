@@ -117,10 +117,11 @@ def abbreviate_party(db, party):
 
 
 def clean_name(db):
-	db['name'] = db['name'].str.lower()
-	db['name'] = db['name'].astype(str).apply(multiple_replace)
-	db['name'] = db['name'].str.replace('-', ' ', regex=False)
-	db['name'] = db['name'].str.replace(r'[^a-zåäö\s\-]', '', regex=True)
+	idx = db['name'].notna()
+	db.loc[idx, 'name'] = db.loc[idx, 'name'].str.lower()
+	db.loc[idx, 'name'] = db.loc[idx, 'name'].astype(str).apply(multiple_replace)
+	db.loc[idx, 'name'] = db.loc[idx, 'name'].str.replace('-', ' ', regex=False)
+	db.loc[idx, 'name'] = db.loc[idx, 'name'].str.replace(r'[^a-zåäö\s\-]', '', regex=True)
 	return db
 
 
@@ -152,6 +153,10 @@ def format_speaker_role(db):
 
 
 class Corpus(pd.DataFrame):
+	"""
+	Store corpus metadata as a single pandas DataFrame where
+	the column 'source' indicates the type of the row
+	"""
 	def __init__(self, *args, **kwargs):
 		super(Corpus, self).__init__(*args, **kwargs)
 
@@ -161,6 +166,19 @@ class Corpus(pd.DataFrame):
 
 	def _load_metadata(self, file, source=False):
 		df = pd.read_csv(f"corpus/metadata/{file}.csv")
+
+		# Adjust to new structure where party information
+		# is not included in member_of_parliament.csv
+		if file == "member_of_parliament":
+			print(df)
+			columns = list(df.columns) + ["party"]
+			party_df = pd.read_csv(f"corpus/metadata/party_affiliation.csv")
+			party_df = party_df[party_df["start"].notnull()]
+			party_df = party_df[party_df["end"].notnull()]
+			df = df.merge(party_df, on=["wiki_id", "start", "end"], how="left")
+			df = df[columns]
+			print(df)
+			print(df[df["party"].notnull()])
 		if source:
 			df['source'] = file
 		return df

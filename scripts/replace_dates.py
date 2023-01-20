@@ -1,6 +1,5 @@
 """
-Find undetected introductions in the protocols. After finding an intro,
-tag the next paragraph as an utterance.
+Replace dates
 """
 from pyparlaclarin.refine import format_texts
 from pyriksdagen.db import load_patterns

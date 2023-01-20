@@ -32,6 +32,8 @@ def main(args):
     if args.digital_originals:
         file_dbs.append(pd.read_csv("input/protocols/digital_originals.csv"))
     file_db = pd.concat(file_dbs)
+    file_db = file_db[file_db["year"] >= args.start]
+    file_db = file_db[file_db["year"] <= args.end]
 
     print(file_db)
 
@@ -46,5 +48,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--scanned", type=bool, default=False)
     parser.add_argument("--digital_originals", type=bool, default=False)
+    parser.add_argument("--start", type=int, default=1920)
+    parser.add_argument("--end", type=int, default=2022)
     args = parser.parse_args()
     main(args)

@@ -1,0 +1,13 @@
+SELECT DISTINCT ?wiki_id ?start ?end ?roleLabel ?startPrecision ?endPrecision
+WHERE
+{
+    ?wiki_id wdt:P31 wd:Q5;
+             p:P39 ?posheld;
+    OPTIONAL { ?posheld pqv:P580 [wikibase:timePrecision ?startPrecision; wikibase:timeValue ?start ] }
+    OPTIONAL { ?posheld pqv:P582 [wikibase:timePrecision ?endPrecision; wikibase:timeValue ?end ] }
+
+    VALUES ?role { wd:Q1850749 wd:Q85679583 wd:Q85679895 wd:Q110785766 wd:Q110785785 wd:Q110811796 wd:Q110811805 wd:Q110812751 wd:Q110812759 }
+    ?posheld ps:P39 ?role. # Position held as speaker
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "sv". }
+}

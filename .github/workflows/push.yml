@@ -27,9 +27,23 @@ jobs:
         pip install progressbar2
         pip install pyparlaclarin
         pip install dateparser
+        pip install alto-xml
+        pip install nltk
+        pip install requests
 
     - name: Test with unittest
+      env: # authentication
+        KBLAB_USERNAME: ${{ secrets.KBLAB_USERNAME }}
+        KBLAB_PASSWORD: ${{ secrets.KBLAB_PASSWORD }}
       run: |
         python -m unittest test.schemas
         python -m unittest test.mp
+        python -m unittest test.altocheck
 
+    - name: Test metadata integrity
+      run: |
+        echo "Test that there are no duplicates in the DB"
+        echo "throw ERROR on inconsistencies on our side"
+        echo "WARN on upstream errors"
+
+        python -m unittest test.db
