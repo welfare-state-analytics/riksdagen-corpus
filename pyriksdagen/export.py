@@ -56,7 +56,7 @@ def create_tei(root, metadata):
     )
     pb.attrib["facs"] = page_url + page_filename
 
-    element_seed = f"{protocol_id}{current_page}"
+    element_seed = f"{protocol_id}\n{current_page}\n"
     for content_block in root:
         new_page = content_block.attrib.get("page", current_page)
         new_page = int(new_page)
