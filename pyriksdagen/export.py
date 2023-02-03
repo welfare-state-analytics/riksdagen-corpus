@@ -46,7 +46,7 @@ def create_tei(root, metadata):
     body_div = etree.SubElement(body, "div")
 
     current_speaker = None
-    current_page = 0
+    current_page = -1
 
     pb = etree.SubElement(body_div, "pb")
     pb.attrib["n"] = str(current_page)
@@ -56,13 +56,13 @@ def create_tei(root, metadata):
     )
     pb.attrib["facs"] = page_url + page_filename
 
-    element_seed = f"{protocol_id}\n{current_page}\n"
+    element_seed = ""
     for content_block in root:
         new_page = content_block.attrib.get("page", current_page)
         new_page = int(new_page)
         if new_page != current_page:
             current_page = new_page
-            element_seed = f"{protocol_id}{current_page}"
+            element_seed = f"{protocol_id}\n{current_page}\n"
             pb = etree.SubElement(body_div, "pb")
             pb.attrib["n"] = str(current_page)
             page_url = "https://betalab.kb.se/" + protocol_id + "/"
