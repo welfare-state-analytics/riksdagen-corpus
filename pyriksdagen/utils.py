@@ -88,6 +88,7 @@ def validate_xml_schema(xml_path, schema_path):
     Validate an XML file against a schema.
     """
     xml_file = lxml.etree.parse(xml_path)
+    xml_file.xinclude()
 
     schema = lxml.etree.XMLSchema(file=schema_path)
     is_valid = schema.validate(xml_file)
