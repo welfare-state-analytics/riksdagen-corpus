@@ -103,7 +103,7 @@ def protocol_iterators(corpus_root, start=None, end=None):
     Returns an iterator of protocol paths in a corpus.
     """
     folder = Path(corpus_root)
-    for protocol in sorted(folder.glob("**/*.xml")):
+    for protocol in sorted(folder.glob("*/*.xml")):
         path = protocol.relative_to(".")
         assert (start is None) == (
             end is None
