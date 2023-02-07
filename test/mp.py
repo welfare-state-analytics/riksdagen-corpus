@@ -8,6 +8,7 @@ from pyriksdagen.export import create_tei, create_parlaclarin
 from pyriksdagen.db import load_patterns, filter_db, load_ministers, load_metadata
 from pathlib import Path
 import progressbar
+import warnings
 
 class Test(unittest.TestCase):
 
@@ -55,8 +56,15 @@ class Test(unittest.TestCase):
             mp_doa = mp_db[['id', 'born', 'dead']].drop_duplicates().reset_index(drop=True)
             mp_doa['born'] = mp_doa['born'].fillna('0000')
             mp_doa['dead'] = mp_doa['dead'].fillna('9999')
+
+            fronts = root.findall(".//{http://www.tei-c.org/ns/1.0}front")
+            heads = fronts[0].findall(".//{http://www.tei-c.org/ns/1.0}head")
             for who in whos:
                 mp = mp_doa.loc[mp_doa['id'] == who]
+
+                warning_text = f"Speaker {who} not found in db. Protocol {heads[0].text}"
+                self.assertGreaterEqual(len(mp), 1, warning_text)
+
                 born = min(mp['born'].apply(lambda x: int(x[:4])))
                 dead = max(mp['dead'].apply(lambda x: int(x[:4])))
                 if max(years) > dead:
