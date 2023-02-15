@@ -9,7 +9,8 @@ from lxml import etree
 from bs4 import BeautifulSoup
 from pathlib import Path
 from datetime import datetime
-import hashlib, uuid, base58
+import hashlib, uuid, base58, requests, tqdm
+import zipfile
 
 XML_NS = "{http://www.w3.org/XML/1998/namespace}"
 
@@ -143,3 +144,37 @@ def get_formatted_uuid(seed=None):
         x = uuid.UUID(m.hexdigest())
 
     return f"i-{str(base58.b58encode(x.bytes), 'UTF8')}"
+
+
+def _download_with_progressbar(url, fname, chunk_size=1024):
+    resp = requests.get(url, stream=True)
+    total = int(resp.headers.get('content-length', 0))
+    with open(fname, 'wb') as file, tqdm.tqdm(
+        desc=fname,
+        total=total,
+        unit='iB',
+        unit_scale=True,
+        unit_divisor=1024,
+    ) as bar:
+        for data in resp.iter_content(chunk_size=chunk_size):
+            size = file.write(data)
+            bar.update(size)
+
+def download_corpus(path="./"):
+    p = Path(path)
+    url = "https://github.com/welfare-state-analytics/riksdagen-corpus/releases/latest/download/corpus.zip"
+    zip_path = p / "corpus.zip"
+    corpus_path = p / "corpus"
+    if corpus_path.exists():
+        print(f"WARNING: data already exists at the path '{corpus_path}'. It will be overwritten once the download is finished.")
+
+    zip_path_str = str(zip_path.relative_to("."))
+    extraction_path = str(p.relative_to("."))
+    
+    # Download file and display progress
+    _download_with_progressbar(url, zip_path_str)
+    with zipfile.ZipFile(zip_path_str, "r") as zip_ref:
+        print("Exract to", corpus_path, "...")
+        zip_ref.extractall(extraction_path)
+
+    zip_path.unlink()
