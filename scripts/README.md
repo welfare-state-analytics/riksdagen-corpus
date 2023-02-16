@@ -49,7 +49,7 @@ Most scripts take `--start` YEAR and `--end` YEAR arguments to define a span of 
 1. Generate an input csv by querying protocol packages using `scripts/query2csv.py`
 	- this creates `input/scanned.csv` or `input/digital_originals.csv`, to be read by `scripts/pipeline.py`
 	- with the `-m` option the script will create year directories in `corpus/protocols/` if they don't already exist
-    - obs., unlike the other scripts use of `--start` and `--end` to define a range of dates is *exclusive* of the end year.
+    - obs., unlike the other scripts use of `--start` and `--end` to define a range of dates is *exclusive* of the end year
     – obs. 2, a potential problem is that this doesn't handle the two-year formats - 199495
 
 2. Compile parlaclarin for years queried in (1) with `scripts/pipeline.py`
@@ -59,14 +59,14 @@ Most scripts take `--start` YEAR and `--end` YEAR arguments to define a span of 
 4. Run `scripts/resegment.py` to segment and label introductions in `corpus/protocols/<year>/*.xml` files
 5. Run `scripts/add_uuid.py` to make sure any new segments have a uuid.
 6. Run `scripts/find_dates.py` to find marginal notes with dates and add dates to metadata.
-7. `scripts/build_classifier.py`
+7. Run `scripts/build_classifier.py` (the classifier doesn't need to be built every time)
 	different args!?
 	- `--datapath` : needs a file currently at `input/curation/classifier_data.csv` (but how is this file generated? it's a mystery... it just exists)
 	- `--epochs` (can use the default)
 	- writes to the `segment-classifier/` ... how does it relate to years of protocols? it doesn't – it's apparently trained generally and `scripts/reclassify.py` allows to specify which years are operated on
 
 8. Run `scripts/reclassify.py` to reclassify utterances and notes
-    - nb. `build_classifier writes to `segment-classifier/`, but this reads from `input/segment-classifier/`, so the output needs to be moved, or we can fix the discrepancy
+    - nb. `build_classifier` writes to `segment-classifier/`, but this reads from `input/segment-classifier/`, so the output needs to be moved, or we can fix the discrepancy
 
 9. Run `scripts/dollar_sign_replace.py` to replace dollar signs.
 10. Run `scripts/fix_capitalized_dashes.py`.
