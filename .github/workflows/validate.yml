@@ -30,13 +30,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install lxml
-          pip install bs4
-          pip install pandas
-          pip install progressbar2
-          pip install pyparlaclarin
-          pip install dateparser
-          pip install base58
+          pip install .
 
       - name: Validate changed files
         run: |
