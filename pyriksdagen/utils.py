@@ -47,6 +47,7 @@ def infer_metadata(filename):
     filename = filename.replace("-", "_")
     metadata["protocol"] = filename.split("/")[-1].split(".")[0]
     split = filename.split("/")[-1].split("_")
+    metadata["document_type"] = split[0]
 
     # Year
     for s in split:
@@ -104,7 +105,7 @@ def protocol_iterators(corpus_root, start=None, end=None):
     Returns an iterator of protocol paths in a corpus.
     """
     folder = Path(corpus_root)
-    for protocol in sorted(folder.glob("*/*.xml")):
+    for protocol in sorted(folder.glob("**/*.xml")):
         path = protocol.relative_to(".")
         assert (start is None) == (
             end is None
