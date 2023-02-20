@@ -11,6 +11,8 @@ import os, progressbar, sys
 import argparse
 import numpy as np
 
+TEI_NS = "{http://www.tei-c.org/ns/1.0}"
+
 def classify_paragraph(s, model, ft, dim, prior=np.log([0.8, 0.2])):
     if s is None:
         return "note"
@@ -39,29 +41,30 @@ def get_neural_classifier(model, ft, dim):
 
 def preclassified(d, elem):
     xml_ns = "{http://www.w3.org/XML/1998/namespace}"
-    tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
     xml_id = f"{xml_ns}id"
+
+    default = elem.tag.split(TEI_NS)[-1]
+    if default == "seg":
+        default = "u"
     if f"{xml_ns}id" not in elem.attrib:
-        return elem.tag.split(tei_ns)[-1]
+        return default
     
     xml_id = elem.attrib[xml_id]
-    classification = d[xml_id]
-    if classification == 0:
-        return "note"
-    else:
-        return "u"
+    return d.get(xml_id, default)
 
 def get_filename_classifier(filename):
     df = pd.read_csv(filename)
     print("Generate dict...")
-    d = {str(row["id"]): row["preds"] for _, row in df.iterrows()}
+    d = {str(key): value for key, value in zip(df["id"], df["preds"])}
     print("done")
     return (lambda paragraph: preclassified(d, paragraph))
 
 def main(args):
     parser = etree.XMLParser(remove_blank_text=True)
 
-    if args.method == "random":
+    if args.classfile is not None:
+        classifier = get_filename_classifier(args.classfile)
+    elif args.method == "random":
         classifier = random_classifier
     elif args.method == "w2v":
         # Do imports here because they take a loong time
@@ -72,8 +75,6 @@ def main(args):
         ft = fasttext.load_model("cc.sv." + str(dim) + ".bin")
         model = keras.models.load_model('input/segment-classifier/')
         classifier = get_neural_classifier(model, ft, dim)
-    elif args.method == "bert":
-        classifier = get_filename_classifier(args.classfile)
 
     for protocol_path in progressbar.progressbar(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end))):
         print(protocol_path)
@@ -84,9 +85,8 @@ def main(args):
         root = format_texts(root)
         b = etree.tostring(root, pretty_print=True, encoding="utf-8", xml_declaration=True)
 
-        f = open(protocol_path, "wb")
-        f.write(b)
-        f.close()
+        with open(protocol_path, "wb") as f:
+            f.write(b)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)

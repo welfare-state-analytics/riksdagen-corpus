@@ -2,7 +2,7 @@
 Process raw wikidata tables into files used for corpus speech matching.
 '''
 from pyriksdagen.metadata import Corpus
-
+import argparse
 
 def main():
     corpus = Corpus()

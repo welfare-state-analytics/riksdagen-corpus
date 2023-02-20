@@ -8,7 +8,6 @@ from pyriksdagen.refine import (
     detect_mps,
     find_introductions,
     update_ids,
-    update_hashes,
 )
 from pyriksdagen.segmentation import combine_intros 
 from pyriksdagen.utils import infer_metadata

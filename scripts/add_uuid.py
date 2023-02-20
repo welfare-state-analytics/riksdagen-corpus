@@ -16,18 +16,13 @@ from pyriksdagen.refine import (
     detect_mps,
     find_introductions,
     update_ids,
-    update_hashes,
 )
-from pyriksdagen.utils import infer_metadata, parse_date, elem_iter, protocol_iterators
+from pyriksdagen.utils import infer_metadata, parse_date, elem_iter, protocol_iterators, get_formatted_uuid
 from pyriksdagen.match_mp import clean_names, multiple_replace
 from tqdm import tqdm
 import multiprocessing
 import uuid
 import base58
-
-def get_formatted_uuid():
-        x = uuid.uuid4()
-        return f"i-{str(base58.b58encode(x.bytes), 'UTF8')}"
 
 def add_protocol_id(protocol):
     ids = set()

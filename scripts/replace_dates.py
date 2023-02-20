@@ -7,7 +7,6 @@ from pyriksdagen.refine import (
     detect_mps,
     find_introductions,
     update_ids,
-    update_hashes,
 )
 from pyriksdagen.utils import infer_metadata
 from pyriksdagen.utils import protocol_iterators

@@ -8,9 +8,6 @@ import progressbar, argparse
 from pyparlaclarin.read import (
     paragraph_iterator
 )
-from pyriksdagen.segmentation import (
-    detect_mp_new
-)
 from pyriksdagen.utils import protocol_iterators, infer_metadata
 
 def first_date(root):
