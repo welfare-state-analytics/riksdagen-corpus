@@ -37,7 +37,9 @@ def main(args):
 		years = args.year.split(',')
 	else:
 		years = list(range(args.start, args.end))
-
+    
+    # This doesn't handle two-year date -199495-
+    #   perhaps we have to fix this later with protocol_iterator
 	for year in years:
 		protocols = os.listdir(f'{protocols_dir}/{year}')
 		for p in protocols:

@@ -39,7 +39,7 @@ def create_divs(root):
 
 def main(args):
     parser = etree.XMLParser(remove_blank_text=True)
-    protocols = list(protocol_iterators("corpus/", start=args.start, end=args.end))
+    protocols = sorted(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end)))
     for protocol in tqdm(protocols):
         root = etree.parse(protocol, parser).getroot()
         root = create_divs(root)
