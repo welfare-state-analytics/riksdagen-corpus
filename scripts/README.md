@@ -44,8 +44,18 @@ If these are not present, you will be prompted for the username and password.
 
 (Steps are added as we go)
 
-1. Generate an input csv by querying protocol packages using `query2csv.py`
+1. Generate an input csv by querying protocol packages using `query2csv.py`.
+2. Compile parlaclarin for years queried in (1) with `pipeline.py`.
+3. Look for introductions with `classify_intros.py`
+4. `resegment.py`
 
+add_uuid.py
+find_dates.py
+build_classifier.py (will this take many hours?)
+reclassify.py
 
+dollar_sign_replace.py
+fix_capitalized_dashes.py
+redetect.py
 
-
+split_into_sections.py # fix dollar sign first
