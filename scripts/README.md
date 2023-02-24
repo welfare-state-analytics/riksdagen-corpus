@@ -68,11 +68,16 @@ Most scripts take `--start` YEAR and `--end` YEAR arguments to define a span of 
 8. Run `scripts/reclassify.py` to reclassify utterances and notes
     - nb. `build_classifier` writes to `segment-classifier/`, but this reads from `input/segment-classifier/`, so the output needs to be moved, or we can fix the discrepancy
 
-9. Run `scripts/dollar_sign_replace.py` to replace dollar signs.
-10. Run `scripts/fix_capitalized_dashes.py`.
-11. Run `add_uuid.py` again.
+9. Run `add_uuid.py` again.
+10. Run `scripts/dollar_sign_replace.py` to replace dollar signs.
+11. Run `scripts/fix_capitalized_dashes.py`.
 12. Run `scripts/redetect.py`.
 13. Run `scripts/split_into_sections.py`.
 
+
+### Quality control
+
+1. Generate random sample wtih `scripts/sample_pages_new.py` which will spit out a csv file of N (--pages_per_decade N) pages per decade.
+    - sample_<decade>.csv
 
 
