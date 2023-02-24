@@ -10,7 +10,7 @@ import selenium.webdriver.support.ui as ui
 import argparse, os, contextlib, sys
 import pandas as pd
 
-segment_classes = ["note", "utterance", "margin", "note", "header"]
+segment_classes = ["note", "u"]
 class_possibilities = segment_classes + ['']
 segments_with_speaker = ["note", "utterance"]
 tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
@@ -47,7 +47,6 @@ def ck_segmentation(e):
 	print(f"Element is segmented as --| {seg} |--")
 	while newseg not in class_possibilities:
 		newseg = input(f"Press enter to accept or type the correct segmentation class (must be one of {segment_classes}):")
-		print(len(newseg))
 		if len(newseg) == 0:
 			newseg == ''
 		print(f'you entered {newseg}')
@@ -55,12 +54,13 @@ def ck_segmentation(e):
 	if len(newseg) > 0:
 		seg = newseg
 
+	comment = None
 	if seg == "note":
 		if "type" in e.attrib:
 			if e.get("type") == "speaker":
-				seg = 'intro'
+				comment = 'intro'
 
-	return seg
+	return seg, comment
 
 
 
@@ -120,15 +120,23 @@ def main(args):
 				sys.exit()
 			e = E[0]
 				
-			segmentation = ck_segmentation(e)
+			segmentation, comment = ck_segmentation(e)
 			speaker = None
 			if segmentation in segments_with_speaker:
-				speaker = ck_speaker(e)			
-			
+				speaker = ck_speaker(e)
+
+			new_comment = input("Enter any comments about this row: ")
+			if commment:
+				if len(new_comment) > 0:
+					comment = f"{comment}: {new_comment}" 
+			else:
+				if len(new_comment) > 0:
+					comment = new_comment
+
 			## update DF and write to csv
 			df.at[ridx, 'segmentation'] = segmentation
 			df.at[ridx, 'speaker'] = speaker
-			df.at[ridx, 'comments'] = input("Enter any comments about this row: ")
+			df.at[ridx, 'comments'] = comment
 			df.at[ridx, 'checked'] = True
 			write_df(df, csv_path)	
 			print("Row finished, moving on...\n")
