@@ -4,11 +4,32 @@ TODO: Does not take into account that multiple pages from same protocol can be s
 '''
 import numpy as np
 import pandas as pd
-import os
 from lxml import etree
-import argparse
+import argparse, progressbar, hashlib
+
+from pyriksdagen.utils import infer_metadata, protocol_iterators
 
 tei_ns = "{http://www.tei-c.org/ns/1.0}"
+xml_ns = "{http://www.w3.org/XML/1998/namespace}"
+
+def get_date(root):
+    for docDate in root.findall(f".//{tei_ns}docDate"):
+        date_string = docDate.text
+        break
+    return date_string
+
+def get_page_counts(corpus_path="corpus/protocols/"):
+    parser = etree.XMLParser(remove_blank_text=True)
+    rows = []
+    for protocol_path in progressbar.progressbar(list(protocol_iterators(corpus_path, start=args.start, end=args.end))):
+        root = etree.parse(protocol_path, parser)
+        pbs = root.findall(f".//{tei_ns}pb")
+        year = get_date(root)[:4]
+        protocol_id = protocol_path.split("/")[-1].split(".")[0]
+        rows.append([protocol_path, protocol_id, int(year), len(pbs)])
+
+    df = pd.DataFrame(rows, columns=["protocol_path", "protocol_id", "year", "pages"])
+    return df
 
 def get_pagenumber(link):
     link = link.replace(".jp2/_view", "")
@@ -17,84 +38,123 @@ def get_pagenumber(link):
     if link.isnumeric():
         return int(link)
 
-def sample_pages(seed, pages_per_decade):
-    pages_path = pd.read_csv("input/protocols/pages.csv")
-    pages_path['decade'] = pages_path['year'].apply(lambda x: x//10*10)
+def sample_page_counts(df, start, end, n, seed=None):
+    df = df[df["year"] >= start]
+    df = df[df["year"] <= end].copy()
+    df["p"] = df["pages"] / df["pages"].sum()
+    sample = df.sample(n, weights="p", replace=True, random_state=seed)
+    #sample = sample.groupby(['protocol_id'], as_index=False).size()
 
-    np.random.seed(seed)
-    variables = ['package_id', 'pagenumber', 'decade']
-    data = []
-    for dec in sorted(set(pages_path['decade'])):
-        df_dec = pages_path.loc[pages_path['decade'] == dec].reset_index(drop=True)
-        idx = np.random.choice(len(df_dec), pages_per_decade, replace=False)
-        data.append(df_dec.loc[idx, variables])
-    df = pd.DataFrame(pd.concat(data), columns=variables)
-    return df
+    return sample
 
-def write_file(pages, file_path):
+def parse_elem(elem, lines):
+    elem_id = elem.attrib.get(f"{xml_ns}id")
+    text = elem.text
+    if text is None:
+        text = ""
+
+    text = text.strip()[:15]
+
+    linenumber = None
+    for i, l in enumerate(lines):
+        if elem_id in l:
+            linenumber = i + 1
+
+    return text, elem_id, linenumber
+
+def sample_pages(df, random_state=None):
+    pages = np.array(df["pages"])
+    x = np.random.randint(np.zeros(len(pages)), pages)
+    if random_state is not None:
+        x = random_state.randint(np.zeros(len(pages)), pages)
+    df["x"] = x
+
     parser = etree.XMLParser(remove_blank_text=True)
-    root = etree.parse(file_path, parser).getroot()
-    print(file_path)
-    file = os.path.split(file_path)[-1]
-    f = open(f"input/quality-control/{file.replace('xml', 'txt')}", "w")
-    intro = 'no previous speech'
-    gather_speeches = False
-    for body in root.findall(".//{http://www.tei-c.org/ns/1.0}body"):
-        for div in body.findall("{http://www.tei-c.org/ns/1.0}div"):
-            for elem in div:
-                
-                # Store intro
-                t = elem.get('type')
-                if t == 'speaker':
-                    intro = ' '.join(elem.itertext()).strip()
-                
-                # Find page
-                link = elem.attrib.get('facs', "")
-                print(link)
-                n = get_pagenumber(link)
-                print(n)
-                if n in pages:
-                    # Store url
-                    url = elem.attrib.get('facs')
-                    gather_speeches = True
-                    f.write(url)
-                    f.write('\n')
-                    f.write(f'Previous intro: {intro}')
-                    f.write('\n'*2)
-                    continue
-                else:
-                    gather_speeches = False
-                    continue
+    rows = []
+    for _, row in df.iterrows():
+        protocol_path = row["protocol_path"]
+        x = row["x"]
+        root = etree.parse(protocol_path, parser)
+        pbs = root.findall(f".//{tei_ns}pb")
+        facs = pbs[x].attrib["facs"]
 
-                if gather_speeches:
-                    tag = elem.tag.split('}')[-1]
-                    speaker = elem.attrib.get('who')
-                    f.write(str(elem.attrib))
-                    f.write('\n')
-                    for e in elem.itertext():
-                        f.write(' '.join(e.split()))
-                        f.write('\n'*2)
-    f.close()
+        with open(protocol_path) as f:
+            lines = f.read().split("\n")
+
+        gh_link = ""
+        rows.append([protocol_path, x, facs, gh_link])
+
+    df_prime = pd.DataFrame(rows, columns=["protocol_path", "x", "facs", "gh_link"])
+    df = df.merge(df_prime, how="left", on=["protocol_path", "x"])
+
+    rows = []
+    for _, row in df.iterrows():
+        facs = row["facs"]
+        protocol_path = row["protocol_path"]
+
+        with open(protocol_path) as f:
+            lines = f.read().split("\n")
+
+        root = etree.parse(protocol_path, parser)
+        active = False
+        for div in root.findall(f".//{tei_ns}div"):
+            for elem in div:
+                if elem.tag == f"{tei_ns}pb":
+                    if elem.attrib.get("facs") == facs:
+                        active = True
+                    else:
+                        active = False
+                elif active:
+                    text, elem_id, linenumber = parse_elem(elem, lines)
+                    url_root = "https://github.com/welfare-state-analytics/riksdagen-corpus/blob/main"
+                    github = f"{url_root}/{protocol_path}#L{linenumber}"
+                    if elem.tag == f"{tei_ns}u":
+                        for seg in elem:
+                            text, elem_id, linenumber = parse_elem(seg, lines)
+                            url_root = "https://github.com/welfare-state-analytics/riksdagen-corpus/blob/main"
+                            github = f"{url_root}/{protocol_path}#L{linenumber}"
+                            rows.append([facs, text, elem_id, github])
+                    else:
+                        rows.append([facs, text, elem_id, github])
+
+    df_prime = pd.DataFrame(rows, columns=["facs", "text", "elem_id", "github"])
+    df = df.merge(df_prime, how="right", on=["facs"])
+    cols = ["protocol_id", "x", "elem_id", "text", "facs", "github"]
+    df = df[cols]
+    return df
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('-s', '--seed', type=int, default=123)
+    parser.add_argument('-s', '--seed', type=str, default=None)
     parser.add_argument('-p', '--pages_per_decade', type=int, default=30)
+    parser.add_argument("--start", type=int, default=1920)
+    parser.add_argument("--end", type=int, default=2022)
     args = parser.parse_args()
 
+    digest = hashlib.md5(args.seed.encode("utf-8")).digest()
+    digest = int.from_bytes(digest, "big") % (2**32)
+
     path = 'corpus/protocols'
-    df = sample_pages(args.seed, args.pages_per_decade)
-    protocols = df['package_id'].tolist()
+    protocol_df = get_page_counts()
+    print(protocol_df)
 
-    folders = sorted(os.listdir(path))
-    for folder in folders:
-        files = sorted(os.listdir(os.path.join(path, folder)))
-        for file in files:
-            if file.replace('.xml', '') in protocols:
-                pages = df.loc[df['package_id'] == file.replace('.xml', ''), 'pagenumber'].tolist()
-                if len(pages) > 1:
-                    print(file, pages)
-                write_file(pages, os.path.join(path, folder, file))
+    for decade in range(args.start // 10 * 10, args.end, 10):
+        print("Decade:", decade)
+        sample = sample_page_counts(protocol_df, decade, decade + 9, n=args.pages_per_decade, seed=digest)
+        print(sample)
 
+        prng = np.random.RandomState( (digest+decade) % (2**32))
+        sample = sample_pages(sample, random_state=prng)
+        sample = sample.sort_values(["protocol_id", "x"])
+        sample["segmentation"] = None
+        sample["speaker"] = None
+        sample["comments"] = None
+
+        cols1 = [c for c in sample.columns if c not in ["facs", "github"]]
+        cols2 = [c for c in sample.columns if c in ["facs", "github"]]
+
+        cols = cols1 + cols2
+        sample = sample[cols]
+        sample.to_csv(f"sample_{decade}.csv", index=False)
 
 
