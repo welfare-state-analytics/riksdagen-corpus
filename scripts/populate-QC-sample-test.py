@@ -21,8 +21,8 @@ xml_ns = "{http://www.w3.org/XML/1998/namespace}"
 
 def write_df(df, csv_path):
 	print(f"Writing changes to {csv_path}.")
-	#df.to_csv(csv_path)
-	df.to_csv("input/quality-control/write-testing.csv")
+	df.to_csv(csv_path)
+	#df.to_csv("input/quality-control/write-testing.csv") # for debug
 
 
 
