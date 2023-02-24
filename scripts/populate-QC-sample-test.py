@@ -12,7 +12,7 @@ import pandas as pd
 
 segment_classes = ["note", "u"]
 class_possibilities = segment_classes + ['']
-segments_with_speaker = ["note", "utterance"]
+segments_with_speaker = ["u"]
 tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
 xml_ns = "{http://www.w3.org/XML/1998/namespace}"
 
@@ -41,9 +41,13 @@ def get_elem(protocol, elem_id):
 
 def ck_segmentation(e):
 
+
+
 	seg = etree.QName(e).localname
 	newseg = 'abc'
-
+	# TO DO: if {seg} == <seg>: 
+	#			get @who from parent
+	#			set newseg = "u"
 	print(f"Element is segmented as --| {seg} |--")
 	while newseg not in class_possibilities:
 		newseg = input(f"Press enter to accept or type the correct segmentation class (must be one of {segment_classes}):")
@@ -101,7 +105,10 @@ def main(args):
 		print("No 'checked' column...adding it.")
 		df['checked'] = None
 
-
+	# to do: potentially make opening/closing tabs more efficient
+	#	i.e. don't close tabs if next row uses same protocol.
+	#	It doesn't use too much resources or time to open/close
+	#	tabs...
 	for ridx, row in df.iterrows():
 		if not row['checked'] == True:
 			print("Working on", row['protocol_id'], row['elem_id'])
@@ -126,7 +133,7 @@ def main(args):
 				speaker = ck_speaker(e)
 
 			new_comment = input("Enter any comments about this row: ")
-			if commment:
+			if comment:
 				if len(new_comment) > 0:
 					comment = f"{comment}: {new_comment}" 
 			else:
