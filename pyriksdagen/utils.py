@@ -9,6 +9,10 @@ from lxml import etree
 from bs4 import BeautifulSoup
 from pathlib import Path
 from datetime import datetime
+import hashlib, uuid, base58, requests, tqdm
+import zipfile
+
+XML_NS = "{http://www.w3.org/XML/1998/namespace}"
 
 def elem_iter(root, ns="{http://www.tei-c.org/ns/1.0}"):
     """
@@ -43,6 +47,7 @@ def infer_metadata(filename):
     filename = filename.replace("-", "_")
     metadata["protocol"] = filename.split("/")[-1].split(".")[0]
     split = filename.split("/")[-1].split("_")
+    metadata["document_type"] = split[0]
 
     # Year
     for s in split:
@@ -51,10 +56,12 @@ def infer_metadata(filename):
             year = int(yearstr)
             if year > 1800 and year < 2100:
                 metadata["year"] = year
+                metadata["sitting"] = str(year)
 
                 # Protocol ids of format 197879 have two years, eg. 1978 and 1979
                 if s[4:6].isdigit():
                     metadata["secondary_year"] = year + 1
+                    metadata["sitting"] += f"/{s[4:6]}"
 
     # Chamber
     metadata["chamber"] = "Enkammarriksdagen"
@@ -85,6 +92,7 @@ def validate_xml_schema(xml_path, schema_path):
     Validate an XML file against a schema.
     """
     xml_file = lxml.etree.parse(xml_path)
+    xml_file.xinclude()
 
     schema = lxml.etree.XMLSchema(file=schema_path)
     is_valid = schema.validate(xml_file)
@@ -127,3 +135,47 @@ def parse_date(s):
                 return None
         else:
             return None
+
+def get_formatted_uuid(seed=None):
+    if seed is None:
+        x = uuid.uuid4()
+    else:
+        m = hashlib.md5()
+        m.update(seed.encode('utf-8'))
+        x = uuid.UUID(m.hexdigest())
+
+    return f"i-{str(base58.b58encode(x.bytes), 'UTF8')}"
+
+
+def _download_with_progressbar(url, fname, chunk_size=1024):
+    resp = requests.get(url, stream=True)
+    total = int(resp.headers.get('content-length', 0))
+    with open(fname, 'wb') as file, tqdm.tqdm(
+        desc=fname,
+        total=total,
+        unit='iB',
+        unit_scale=True,
+        unit_divisor=1024,
+    ) as bar:
+        for data in resp.iter_content(chunk_size=chunk_size):
+            size = file.write(data)
+            bar.update(size)
+
+def download_corpus(path="./"):
+    p = Path(path)
+    url = "https://github.com/welfare-state-analytics/riksdagen-corpus/releases/latest/download/corpus.zip"
+    zip_path = p / "corpus.zip"
+    corpus_path = p / "corpus"
+    if corpus_path.exists():
+        print(f"WARNING: data already exists at the path '{corpus_path}'. It will be overwritten once the download is finished.")
+
+    zip_path_str = str(zip_path.relative_to("."))
+    extraction_path = str(p.relative_to("."))
+    
+    # Download file and display progress
+    _download_with_progressbar(url, zip_path_str)
+    with zipfile.ZipFile(zip_path_str, "r") as zip_ref:
+        print("Exract to", corpus_path, "...")
+        zip_ref.extractall(extraction_path)
+
+    zip_path.unlink()

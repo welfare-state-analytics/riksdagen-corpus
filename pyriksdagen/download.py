@@ -23,11 +23,16 @@ class LazyArchive:
 
 
 def _login_to_archive():
-    username = input("Username: ")
-    password = getpass.getpass()
-    print("Password set for user:", username)
 
-    return kblab.Archive("https://betalab.kb.se", auth=(username, password))
+    if "KBLPASS" in os.environ and "KBLUSER" in os.environ and "KBLMYLAB" in os.environ:
+        print("Connecting to KB the laziest way...")
+        return kblab.Archive(os.environ.get("KBLMYLAB"), auth=(os.environ.get("KBLUSER"), os.environ.get("KBLPASS")))
+
+    else:
+        username = input("Username: ")
+        password = getpass.getpass()
+        print("Password set for user:", username)
+        return kblab.Archive("https://betalab.kb.se", auth=(username, password))
 
 
 def oppna_data_to_dict(input_dict):

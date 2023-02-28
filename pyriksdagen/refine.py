@@ -314,6 +314,7 @@ def detect_date(root, metadata):
 
             # Dates with the year included, surely date
             if matches is not None:
+                elem.attrib["type"] = "date"
                 datestr = matches.group(1) + " " + matches.group(2) + " " + matches.group(3)
                 date = dateparser.parse(datestr, languages=["sv"])
                 if date is not None:
@@ -330,6 +331,7 @@ def detect_date(root, metadata):
 
             # Dates without a year
             elif matches2 is not None:
+                elem.attrib["type"] = "date"
                 datestr = matches2.group(1) + " " + matches2.group(2)
                 yearless.add(datestr)
 

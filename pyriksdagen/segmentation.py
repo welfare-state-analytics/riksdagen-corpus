@@ -4,6 +4,7 @@ ultimately into the Parla-Clarin XML format.
 """
 import numpy as np
 import re, hashlib
+from .db import load_expressions
 from .match_mp import match_mp, name_equals, names_in, names_in_rev
 from itertools import combinations
 
@@ -114,8 +115,9 @@ def detect_mp(intro_dict, db, party_map=None):
 
     return match_mp(intro_dict, db, variables, matching_funs)
 
-def intro_to_dict(intro_text, expressions):
-
+def intro_to_dict(intro_text, expressions=None):
+    if expressions is None:
+        expressions = load_expressions(phase="mp")
     intro_text = intro_text.strip()
     d = {}
     for exp, t in expressions:
