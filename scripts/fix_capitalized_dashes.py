@@ -7,42 +7,42 @@ import os, progressbar, re
 import argparse
 from pyparlaclarin.read import paragraph_iterator
 from pyparlaclarin.refine import format_texts
+from pyriksdagen.utils import protocol_iterators
+from tqdm import tqdm
 
 
 def main(args):
     pattern = "([A-ZÀ-Þ]{2,10})(- )([A-ZÀ-Þ]{2,10})"
     e = re.compile(pattern)
-    pc_folder = "corpus/"
-    folders = os.listdir(pc_folder)
+
+    protocols = sorted(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end)))
+    #print(protocols)
     parser = etree.XMLParser(remove_blank_text=True)
-    for outfolder in progressbar.progressbar(folders):
-        if os.path.isdir(pc_folder + outfolder):
-            outfolder = outfolder + "/"
-            protocol_ids = os.listdir(pc_folder + outfolder)
-            for protocol_id in progressbar.progressbar(protocol_ids):
-                filename = pc_folder + outfolder + protocol_id
-                root = etree.parse(filename, parser).getroot()
 
-                for elem in paragraph_iterator(root, output="lxml"):
-                    pass  # if elem.text is not None:
-                    #    print(elem.text)
-                    txt = elem.text
-                    if txt is not None and len(e.findall(txt)) > 0:
-                        elem.text = re.sub(pattern, r"\1\3", txt)
-                    # e.match(string)
+    for protocol in tqdm(protocols, total=len(protocols)):
+        with open(protocol) as f:
+            root = etree.parse(f, parser).getroot()
 
-                root = format_texts(root)
+            for elem in paragraph_iterator(root, output="lxml"):
+                pass  # if elem.text is not None:
+                #    print(elem.text)
+                txt = elem.text
+                if txt is not None and len(e.findall(txt)) > 0:
+                    elem.text = re.sub(pattern, r"\1\3", txt)
+                # e.match(string)
 
-                b = etree.tostring(
-                    root, pretty_print=True, encoding="utf-8", xml_declaration=True
-                )
+            root = format_texts(root)
 
-                f = open(filename, "wb")
+            b = etree.tostring(
+                root, pretty_print=True, encoding="utf-8", xml_declaration=True
+            )
+
+            with open(protocol, "wb") as f:
                 f.write(b)
-                f.close()
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("-s", "--start", type=int, default=1920)
+    parser.add_argument("-e", "--end", type=int, default=2022)
     args = parser.parse_args()
     main(args)

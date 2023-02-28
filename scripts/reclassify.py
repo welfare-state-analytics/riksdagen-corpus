@@ -13,10 +13,12 @@ import numpy as np
 
 TEI_NS = "{http://www.tei-c.org/ns/1.0}"
 
-def classify_paragraph(s, model, ft, dim, prior=np.log([0.8, 0.2])):
+def classify_paragraph(s, model, ft, dim, prior=np.log([0.8, 0.2]), prob_dict={}, cache_preds=True):
     if s is None:
         return "note"
     words = s.split()
+    known_words = [wd for wd in words if wd in prob_dict]
+    words = [wd for wd in words if wd not in prob_dict]
     V = len(words)
     x = np.zeros((V, dim))
 
@@ -24,20 +26,28 @@ def classify_paragraph(s, model, ft, dim, prior=np.log([0.8, 0.2])):
         vec = ft.get_word_vector(word)
         x[ix] = vec
 
-    pred = model.predict(x, batch_size=V)
-    biases = model.predict(np.zeros(x.shape), batch_size=V)
-    # print(pred)
+    pred = np.zeros([1,2])
+    if V >= 1:
+        pred = model.predict(x, batch_size=V, verbose=0)
+
+    if cache_preds:
+        for i, wd in enumerate(words):
+            pred_wd = pred[i]
+            prob_dict[wd] = pred_wd
+        
     prediction = np.sum(pred, axis=0) + prior
+    for wd in known_words:
+        prediction += prob_dict[wd]
 
     if prediction[0] < prediction[1]:
-        #print("note", s.strip()[:100])
         return "note"
     else:
-        #print("u", s.strip()[:100])
         return "u"
 
 def get_neural_classifier(model, ft, dim):
-    return (lambda paragraph: classify_paragraph(paragraph.text, model, ft, dim))
+    prob_dict = {}
+    return (lambda paragraph: classify_paragraph(paragraph.text, model, ft, dim, prob_dict=prob_dict))
+
 
 def preclassified(d, elem):
     xml_ns = "{http://www.w3.org/XML/1998/namespace}"

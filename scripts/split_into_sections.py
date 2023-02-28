@@ -64,6 +64,7 @@ def main(args):
     parser = etree.XMLParser(remove_blank_text=True)
     protocols = list(protocol_iterators("corpus/", start=args.start, end=args.end))
     rows = []
+
     for protocol in tqdm(protocols):
         root = etree.parse(protocol, parser).getroot()
         
