@@ -71,6 +71,7 @@ Most scripts take `--start` YEAR and `--end` YEAR arguments to define a span of 
 9. Run `add_uuid.py` again.
 10. Run `scripts/dollar_sign_replace.py` to replace dollar signs.
 11. Run `scripts/fix_capitalized_dashes.py`.
+	Run `scripts/wikidata_process.py` (makes metadata available for redetect.py)
 12. Run `scripts/redetect.py`.
 13. Run `scripts/split_into_sections.py`.
 
