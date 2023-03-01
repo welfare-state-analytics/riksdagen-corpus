@@ -15,7 +15,7 @@ The full data set consists of multiple parts:
 
 ## Basic use
 
-A full dataset is available under [this download link](https://github.com/welfare-state-analytics/riksdagen-corpus/releases/download/v0.4.3/corpus-0.4.3.zip). It has the following structure
+A full dataset is available under [this download link](https://github.com/welfare-state-analytics/riksdagen-corpus/releases/latest/download/corpus.zip). It has the following structure
 
 - Annual protocol files in the ```corpus/protocols/``` folder
 - Structured metadata on MPs, speakers, ministers, and governments in the ```corpus/metadata/``` folder
