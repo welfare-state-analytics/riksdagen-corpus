@@ -47,9 +47,10 @@ They can be added to the environment variables, e.g. `~/miniconda3/envs/tf/etc/c
 Most scripts take `--start` YEAR and `--end` YEAR arguments to define a span of time to operate on. Other options are noted in with the file below.
 
 1. Generate an input csv by querying protocol packages using `scripts/query2csv.py`
-	- this creates `input/scanned.csv` or `input/digital_originals.csv`, to be read by `scripts/pipeline.py`
+	- this creates `input/protocols/scanned.csv` or `input/protocols/digital_originals.csv`, to be read by `scripts/pipeline.py`
 	- with the `-m` option the script will create year directories in `corpus/protocols/` if they don't already exist
-    - obs., unlike the other scripts use of `--start` and `--end` to define a range of dates is *exclusive* of the end year
+    - ~~obs., unlike the other scripts use of `--start` and `--end` to define a range of dates is *exclusive* of the end year~~
+        – updated to behave like the other scripts
     – obs. 2, a potential problem is that this doesn't handle the two-year formats - 199495
 
 2. Compile parlaclarin for years queried in (1) with `scripts/pipeline.py`
