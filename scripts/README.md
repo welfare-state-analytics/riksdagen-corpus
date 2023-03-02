@@ -46,6 +46,9 @@ They can be added to the environment variables, e.g. `~/miniconda3/envs/tf/etc/c
 
 Most scripts take `--start` YEAR and `--end` YEAR arguments to define a span of time to operate on. Other options are noted in with the file below.
 
+
+0. UPDATE PYRIKSDAGEN from pypi
+
 1. Generate an input csv by querying protocol packages using `scripts/query2csv.py`
 	- this creates `input/protocols/scanned.csv` or `input/protocols/digital_originals.csv`, to be read by `scripts/pipeline.py`
 	- with the `-m` option the script will create year directories in `corpus/protocols/` if they don't already exist
@@ -61,8 +64,11 @@ Most scripts take `--start` YEAR and `--end` YEAR arguments to define a span of 
     - had to add `miniconda3/envs/tf/lib/python3.9/site-packages/nvidia/cublas/lib/` to $LD_LIBRARY_PATH
 
 4. Run `scripts/resegment.py` to segment and label introductions in `corpus/protocols/<year>/*.xml` files
+
 5. Run `scripts/add_uuid.py` to make sure any new segments have a uuid.
+
 6. Run `scripts/find_dates.py` to find marginal notes with dates and add dates to metadata.
+
 7. Run `scripts/build_classifier.py` (the classifier doesn't need to be built every time)
 	different args!?
 	- `--datapath` : needs a file currently at `input/curation/classifier_data.csv` (but how is this file generated? it's a mystery... it just exists)
@@ -73,11 +79,16 @@ Most scripts take `--start` YEAR and `--end` YEAR arguments to define a span of 
     - nb. `build_classifier` writes to `segment-classifier/`, but this reads from `input/segment-classifier/`, so the output needs to be moved, or we can fix the discrepancy
 
 9. Run `add_uuid.py` again.
+
 10. Run `scripts/dollar_sign_replace.py` to replace dollar signs.
+
 11. Run `scripts/fix_capitalized_dashes.py`.
-	Run `scripts/wikidata_process.py` (makes metadata available for redetect.py)
-12. Run `scripts/redetect.py`.
-13. Run `scripts/split_into_sections.py`.
+
+12. Run `scripts/wikidata_process.py` (makes metadata available for redetect.py)
+
+13. Run `scripts/redetect.py`.
+
+14. Run `scripts/split_into_sections.py`.
 
 
 ### Quality Control
