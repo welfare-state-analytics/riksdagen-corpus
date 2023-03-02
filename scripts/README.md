@@ -55,8 +55,10 @@ Most scripts take `--start` YEAR and `--end` YEAR arguments to define a span of 
 
 2. Compile parlaclarin for years queried in (1) with `scripts/pipeline.py`
     – make sure `input/raw/` exists.
+
 3. Look for introductions with `scripts/classify_intros.py`
 	- this creates `input/segmentation/intros.csv`
+    - had to add `miniconda3/envs/tf/lib/python3.9/site-packages/nvidia/cublas/lib/` to $LD_LIBRARY_PATH
 
 4. Run `scripts/resegment.py` to segment and label introductions in `corpus/protocols/<year>/*.xml` files
 5. Run `scripts/add_uuid.py` to make sure any new segments have a uuid.
