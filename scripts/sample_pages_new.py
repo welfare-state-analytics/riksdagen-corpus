@@ -155,6 +155,9 @@ if __name__ == "__main__":
 
         cols = cols1 + cols2
         sample = sample[cols]
-        sample.to_csv(f"sample_{decade}.csv", index=False)
+        sample.to_csv(f"input/quality-control/sample_{decade}.csv", index=False)
 
-
+    protocols_unique = list(protocol_df.protocol_id.unique())
+    with open(f"input/quality-control/sample_{decade}.txt", "w+") as outf:
+        for up in protocols_unique:
+            outf.write(f"corpus/protocols/{up.split('-')[1]}/{up}.xml\n")
