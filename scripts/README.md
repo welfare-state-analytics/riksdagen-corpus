@@ -77,7 +77,8 @@ Most scripts take `--start` YEAR and `--end` YEAR arguments to define a span of 
 
 8. Run `scripts/reclassify.py` to reclassify utterances and notes
     - nb. `build_classifier` writes to `segment-classifier/`, but this reads from `input/segment-classifier/`, so the output needs to be moved, or we can fix the discrepancy
-    - do this one year at a time for dolan's sake
+    - do this one year at a time for dolan's sakie
+        - `for year in {START..END}; do python reclassify.py -s $year -e $year; done`
 
 9. Run `add_uuid.py` again.
 
