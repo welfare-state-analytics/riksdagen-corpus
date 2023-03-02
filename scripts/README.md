@@ -54,6 +54,7 @@ Most scripts take `--start` YEAR and `--end` YEAR arguments to define a span of 
     – obs. 2, a potential problem is that this doesn't handle the two-year formats - 199495
 
 2. Compile parlaclarin for years queried in (1) with `scripts/pipeline.py`
+    – make sure `input/raw/` exists.
 3. Look for introductions with `scripts/classify_intros.py`
 	- this creates `input/segmentation/intros.csv`
 
