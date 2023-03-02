@@ -76,8 +76,8 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--start", type=int, default=1920)
-    parser.add_argument("--end", type=int, default=2022)
-    parser.add_argument("--cuda", type=bool, default=False)
+    parser.add_argument("-s", "--start", type=int, default=1920, help="Start year")
+    parser.add_argument("-e", "--end", type=int, default=2022, help="End year")
+    parser.add_argument("--cuda", action="store_true", help="Set this flag to run with cuda.")
     args = parser.parse_args()
     main(args)
