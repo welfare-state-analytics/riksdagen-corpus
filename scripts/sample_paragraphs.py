@@ -1,11 +1,11 @@
 '''
-Draw a random stratified sample of paragraphs by decade for manual quality control of corpus tags.
+Draw a random stratified sample of paragraphs by year and chamber for manual quality control of corpus tags.
 '''
 import pandas as pd
 from lxml import etree
 import argparse, progressbar
 import base58
-from pyriksdagen.utils import protocol_iterators
+from pyriksdagen.utils import protocol_iterators, infer_metadata
 import warnings
 
 tei_ns = "{http://www.tei-c.org/ns/1.0}"
@@ -20,7 +20,7 @@ def get_date(root):
 
 def get_paragraph_counts(start, end, corpus_path="corpus/protocols/"):
     rows = []
-    protocol_list = list(protocol_iterators(corpus_path, start=start, end=end))
+    protocol_list = list(protocol_iterators(corpus_path, start=start, end=end+1))
     if len(protocol_list) == 0:
         warnings.warn(f"No protocols between {start} and {end}")
         return None
@@ -28,15 +28,22 @@ def get_paragraph_counts(start, end, corpus_path="corpus/protocols/"):
         root = etree.parse(protocol_path, parser)
         elems = root.findall(f".//{tei_ns}seg") + root.findall(f".//{tei_ns}note")
         year = get_date(root)[:4]
+        year = int(year)
+        if year < start or year > end:
+            continue
+
         protocol_id = protocol_path.split("/")[-1].split(".")[0]
+        metadata = infer_metadata(protocol_id)
+        chamber = metadata["chamber"]
+        chamber = "".join([wd[0] for wd in chamber.split()]).lower()
         
         for elem in elems:
             id_elem = elem.attrib[f"{xml_ns}id"]
             id_number = base58.b58decode(id_elem.split("-")[-1])
             id_number = int.from_bytes(id_number, "big")
-            rows.append([protocol_path, protocol_id, int(year), id_elem, id_number])
+            rows.append([protocol_path, protocol_id, year, id_elem, chamber, id_number])
 
-    df = pd.DataFrame(rows, columns=["protocol_path", "protocol_id", "year", "elem_id", "ordinal"])
+    df = pd.DataFrame(rows, columns=["protocol_path", "protocol_id", "year", "elem_id", "chamber", "ordinal"])
     df = df.sort_values("ordinal")
 
     return df
@@ -86,29 +93,31 @@ def sample_paragraphs(df):
 if __name__ == "__main__":
     argparser = argparse.ArgumentParser(description=__doc__)
     argparser.add_argument('--head', type=int, default=0, help="Start taking paragraphs from this index")
-    argparser.add_argument('--tail', type=int, default=50, help="Take paragraphs until this index")
+    argparser.add_argument('--tail', type=int, default=3, help="Take paragraphs until this index")
     argparser.add_argument("--start", type=int, default=1867, help="Start year")
     argparser.add_argument("--end", type=int, default=2029, help="End year")
     args = argparser.parse_args()
 
     path = 'corpus/protocols'
 
-    for decade in range(args.start // 10 * 10, args.end, 10):
-        print("Decade:", decade)
-        decade_end = decade + 9
+    for decade in range(args.start, args.end):
+        print("Year:", decade)
+        decade_end = decade
         protocol_df = get_paragraph_counts(decade, decade_end)
         if protocol_df is None:
             continue
-        
-        sample = protocol_df.head(args.tail)
-        sample = sample.head(args.tail - args.head)
-        sample = parse_paragrahps(sample)
-        
-        sample["segmentation"] = None
-        sample["comments"] = None
+        print(protocol_df)
+        for chamber in list(set(protocol_df["chamber"])):
+            chamber_df = protocol_df[protocol_df["chamber"] == chamber]
+            sample = chamber_df.head(args.tail)
+            sample = sample.head(args.tail - args.head)
+            sample = parse_paragrahps(sample)
+            
+            sample["segmentation"] = None
+            sample["comments"] = None
 
-        cols = ["protocol_id", "elem_id", "segmentation", "comments", "text", "link"]
-        sample = sample[cols]
-        sample.to_csv(f"sample_{decade}.csv", index=False)
+            cols = ["protocol_id", "elem_id", "segmentation", "comments", "text", "link"]
+            sample = sample[cols]
+            sample.to_csv(f"input/gold-standard/prot-{decade}--{chamber}-segment-classification.csv", index=False)
 
 
