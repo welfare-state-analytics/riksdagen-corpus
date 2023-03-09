@@ -100,6 +100,7 @@ if __name__ == "__main__":
 
     path = 'corpus/protocols'
 
+    dfs = []
     for decade in range(args.start, args.end):
         print("Year:", decade)
         decade_end = decade
@@ -118,6 +119,16 @@ if __name__ == "__main__":
 
             cols = ["protocol_id", "elem_id", "segmentation", "comments", "text", "link"]
             sample = sample[cols]
-            sample.to_csv(f"input/gold-standard/prot-{decade}--{chamber}-segment-classification.csv", index=False)
+            #sample.to_csv(f"input/gold-standard/prot-{decade}--{chamber}-segment-classification.csv", index=False)
+            #sample.to_csv(f"input/gold-standard/prot-{decade}--{chamber}-segment-classification.csv", index=False)
+
+            subset = f"prot-{decade}--{chamber}"
+            sample["subset"] = subset
+
+            dfs.append(sample)
+
+    df = pd.concat(dfs)
+    df.to_csv(f"input/gold-standard/prot-segment-classification.csv", index=False)
+
 
 
