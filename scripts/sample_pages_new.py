@@ -106,12 +106,12 @@ def sample_pages(df, random_state=None):
                         active = False
                 elif active:
                     text, elem_id, linenumber = parse_elem(elem, lines)
-                    url_root = "https://github.com/welfare-state-analytics/riksdagen-corpus/blob/main"
+                    url_root = f"https://github.com/welfare-state-analytics/riksdagen-corpus/blob/{args.branch}"
                     github = f"{url_root}/{protocol_path}#L{linenumber}"
                     if elem.tag == f"{tei_ns}u":
                         for seg in elem:
                             text, elem_id, linenumber = parse_elem(seg, lines)
-                            url_root = "https://github.com/welfare-state-analytics/riksdagen-corpus/blob/main"
+                            url_root = f"https://github.com/welfare-state-analytics/riksdagen-corpus/blob/{args.branch}"
                             github = f"{url_root}/{protocol_path}#L{linenumber}"
                             rows.append([facs, text, elem_id, github])
                     else:
@@ -126,6 +126,7 @@ def sample_pages(df, random_state=None):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("-f", '--seed', type=str, default=None, help="Random state seed")
+	parser.add_argument("-f", "--branch", type=str, default="main", help="Github branch where curation is happening.")
     parser.add_argument('-p', '--pages_per_decade', type=int, default=30, help="How many pages per decade? 30")
     parser.add_argument("-s", "--start", type=int, default=1920, help="Start year")
     parser.add_argument("-e", "--end", type=int, default=2022, help="End year")
