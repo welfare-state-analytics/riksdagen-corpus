@@ -96,8 +96,7 @@ Most scripts take `--start` YEAR and `--end` YEAR arguments to define a span of 
 ### Quality Control
 
 1. generate a sample for by decade with `sample_pages_new.py`. 
-	- This generates a csv file in `input/quality_control/sample_<decade-start-year>.csv`
-	- TO DO, a list of protocols in the sample `input/quality_control/sample_<decade-start-year>.txt`
+	- This generates a csv file in `input/quality_control/sample_<decade-start-year>.csv` and a list of protocols in the sample `input/quality_control/sample_<decade-start-year>.txt`
 	
 2. Add (`git-add_QC-sample.sh` for the lazy) and commit the sample to working branch.
 
@@ -105,5 +104,5 @@ Most scripts take `--start` YEAR and `--end` YEAR arguments to define a span of 
 	- sample protocols need to be on the local machine where the script is run. Since it pops open protocols in github an originals in betalab in a browser, this script doesn't play nice with working over ssh
 	- QC should distinguish between the same segment classes that `scripts/reclassify.py` produces <u> and <note>. Other classes may become relevant later.
 
-4. Does data pass QC test?
+4. Does data pass QC test? If yes, add and push the rest of the protocols.
 
