@@ -46,6 +46,9 @@ They can be added to the environment variables, e.g. `~/miniconda3/envs/tf/etc/c
 
 Most scripts take `--start` YEAR and `--end` YEAR arguments to define a span of time to operate on. Other options are noted in with the file below.
 
+-1. Create new curation branch from dev.
+
+	git checkout -b curation_<decade-start-year>s dev
 
 0. UPDATE PYRIKSDAGEN from pypi
 
