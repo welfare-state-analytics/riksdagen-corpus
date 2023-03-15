@@ -48,7 +48,7 @@ Most scripts take `--start` YEAR and `--end` YEAR arguments to define a span of 
 
 -1. Create new curation branch from dev.
 
-	git checkout -b curation_<decade-start-year>s dev
+	git checkout -b curation-<decade_start_year>s dev
 
 0. UPDATE PYRIKSDAGEN from pypi
 
