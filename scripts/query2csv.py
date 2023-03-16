@@ -64,7 +64,7 @@ def main(args):
     if args.year:
         query_dates = args.year.split(',')
     elif args.start and args.end:
-        query_dates = list(range(args.start, args.end))
+        query_dates = list(range(args.start, args.end + 1))
     else:
         print("Something is wrong. Run with -h for help.")
 
@@ -79,7 +79,7 @@ if __name__ == '__main__':
     parser.add_argument("-d", "--digital_originals", action="store_true", help="set this flag for born digital protocols")
     parser.add_argument("-y", "--year", type=str, default=None, help="Comma separated (no spaces) list of years to query")
     parser.add_argument("-s", "--start", type=int, default=None, help="Start year for a range of years.")
-    parser.add_argument("-e", "--end", type=int, default=None, help="End year (exclusive) for a range of years.")
+    parser.add_argument("-e", "--end", type=int, default=None, help="End year for a range of years.")
     parser.add_argument("-m", "--mkdirs", action='store_true', help="Makes a <year> directory for each year arg in corpus/protocols/")
     args = parser.parse_args()
     if (args.year or (args.start and args.end)) and (args.scanned != args.digital_originals):
