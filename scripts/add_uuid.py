@@ -12,6 +12,9 @@ def add_protocol_id(protocol):
     xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     parser = etree.XMLParser(remove_blank_text=True)
     root = etree.parse(protocol, parser).getroot()
+    
+    tei = root.find(f"{tei_ns}TEI")
+    tei.attrib[f"{xml_ns}id"] = protocol.split("/")[-1][:-4]
 
     num_ids = 0
     for tag, elem in elem_iter(root):

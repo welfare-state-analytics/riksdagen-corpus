@@ -10,25 +10,35 @@ import selenium.webdriver.support.ui as ui
 import argparse, os, contextlib, sys
 import pandas as pd
 
-segment_classes = ["note", "u"]
+segment_classes = ["note", "u", 'seg']
 class_possibilities = segment_classes + ['']
 segments_with_speaker = ["u"]
+
 tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
 xml_ns = "{http://www.w3.org/XML/1998/namespace}"
+
+mp_names = pd.read_csv("corpus/metadata/name.csv")
+mp_affil = pd.read_csv("corpus/metadata/member_of_parliament.csv")
+
+note_types = {
+	"i": "inline",
+	"m": "margin",
+	"h": "head",
+	"None": None
+}
 
 
 
 
 def write_df(df, csv_path):
 	print(f"Writing changes to {csv_path}.")
-	df.to_csv(csv_path)
+	df.to_csv(csv_path, index=False)
 	#df.to_csv("input/quality-control/write-testing.csv") # for debug
 
 
 
 
 def get_elem(protocol, elem_id):
-
 	elem = None
 	protocol_year = protocol.split('-')[1]
 	parser = etree.XMLParser(remove_blank_text=True)
@@ -39,55 +49,92 @@ def get_elem(protocol, elem_id):
 
 
 
-def ck_segmentation(e):
-
-
-
-	seg = etree.QName(e).localname
-	newseg = 'abc'
-	# TO DO: if {seg} == <seg>: 
-	#			get @who from parent
-	#			set newseg = "u"
-	print(f"Element is segmented as --| {seg} |--")
-	while newseg not in class_possibilities:
-		newseg = input(f"Press enter to accept or type the correct segmentation class (must be one of {segment_classes}):")
-		if len(newseg) == 0:
-			newseg == ''
-		print(f'you entered {newseg}')
-
-	if len(newseg) > 0:
-		seg = newseg
-
-	comment = None
-	if seg == "note":
-		if "type" in e.attrib:
-			if e.get("type") == "speaker":
-				comment = 'intro'
-
-	return seg, comment
-
+def print_who_info(who):
+	print("\n", f"Speaker: {who}")
+	print("\n\tNAMES\n", mp_names[mp_names.wiki_id == who].to_string())
+	print("\n\tACTIVE\n", mp_affil[mp_affil.wiki_id == who].to_string(), "\n")
 
 
 
 def ck_speaker(e):
-
-	speaker = None
+	confirm_opts = ['c', 'r', 'm']
+	speaker = 'None'
 	new_speaker = None
 
 	if 'who' in e.attrib:
 		print(f"Element is attributed to speaker --| {e.get('who')} |--.")
 		speaker = e.get('who')
+		print_who_info(speaker)
 		new_speaker = input("Press enter to accept or add a new speaker ID now: ")
 	else:
 		print(f"Element is not assigned to a speaker.")
 		new_speaker = input("Press enter to confirm this segment has no speaker or enter a speaker ID now: ")
 
 	if len(new_speaker) > 0:
-		speaker = new_speaker
+		confirm = 'abC'
+		while confirm not in confirm_opts:
+			print("You entered a new speaker for this segment")
+			print_who_info(new_speaker)
+			confirm = input("What do you want to do?\n\tc: confirm\n\tr: revert to " + speaker + "\n\tm: mistake - start function over\n")
+		if confirm == "c":
+			return new_speaker
+		elif confirm == "r":
+			return speaker
+		elif confirm == "m":
+			ck_speaker(e)
+	else:
+		return speaker
 
-	# to do: ck speaker against database of speaker IDs to make sure it exists / no typos
-	
-	return speaker
+
+
+
+def get_note_type():
+	nt = "Abc"	
+	while nt not in note_types:
+		print("What type of note is it?\n\ti: inline\n\tm: margin\n\th: head\n\tNone: use if other types don't apply\n")
+		nt = input("Enter one of the above types: ")
+
+	note_type = note_types[nt]
+
+	return note_type
+
+
+
+
+def ck_segmentation(e):
+	seg = etree.QName(e).localname
+	newseg = 'abc'
+	speaker = None
+
+	print(f"Element is segmented as --| {seg} |--")
+	while newseg not in class_possibilities:
+		newseg = input(f"Press enter to accept or type the correct segmentation class (must be one of {segment_classes}):")
+		if len(newseg) == 0:
+			newseg = ''
+		print(f'you entered {newseg}')
+
+	if len(newseg) > 0:
+		seg = newseg
+
+	if seg == "u":
+		speaker = ck_speaker(e)
+	elif seg == "seg":
+		if e.getparent() is not None:
+			speaker = ck_speaker(e.getparent())
+		else:
+			print("\n\n\nOh no!! seg elements should have a parent -- something is really wrong.\n\n....quitting...\n\n\n")
+			sys.exit()
+		seg = "u" 
+
+	seg_type = None
+	if seg == "note":
+		if "type" in e.attrib:
+			if e.get("type") == "speaker":
+				seg_type = 'intro'
+		if not seg_type:
+			seg_type = get_note_type()
+
+	return seg, seg_type, speaker
 
 
 
@@ -107,11 +154,12 @@ def main(args):
 
 	# to do: potentially make opening/closing tabs more efficient
 	#	i.e. don't close tabs if next row uses same protocol.
+	#        ...well...
 	#	It doesn't use too much resources or time to open/close
 	#	tabs...
 	for ridx, row in df.iterrows():
 		if not row['checked'] == True:
-			print("Working on", row['protocol_id'], row['elem_id'])
+			print("Working on", row['protocol_id'], row['elem_id'], "    ::    ", ridx, "of", len(df))
 			## open tabs
 			driver.execute_script("window.open('');")
 			driver.switch_to.window(driver.window_handles[1])
@@ -127,21 +175,13 @@ def main(args):
 				sys.exit()
 			e = E[0]
 				
-			segmentation, comment = ck_segmentation(e)
-			speaker = None
-			if segmentation in segments_with_speaker:
-				speaker = ck_speaker(e)
+			segmentation, seg_type, speaker = ck_segmentation(e)
 
-			new_comment = input("Enter any comments about this row: ")
-			if comment:
-				if len(new_comment) > 0:
-					comment = f"{comment}: {new_comment}" 
-			else:
-				if len(new_comment) > 0:
-					comment = new_comment
-
+			comment = input("Enter any comments about this row: ")
+			
 			## update DF and write to csv
 			df.at[ridx, 'segmentation'] = segmentation
+			df.at[ridx, 'seg_type'] = seg_type
 			df.at[ridx, 'speaker'] = speaker
 			df.at[ridx, 'comments'] = comment
 			df.at[ridx, 'checked'] = True

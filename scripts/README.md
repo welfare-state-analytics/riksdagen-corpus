@@ -64,7 +64,7 @@ Most scripts take `--start` YEAR and `--end` YEAR arguments to define a span of 
 
 3. Look for introductions with `scripts/classify_intros.py`
 	- this creates `input/segmentation/intros.csv`
-    - had to add `miniconda3/envs/tf/lib/python3.9/site-packages/nvidia/cublas/lib/` to $LD_LIBRARY_PATH
+    - had to add `/home/bob/miniconda3/envs/tf/lib/python3.9/site-packages/nvidia/cublas/lib/` to $LD_LIBRARY_PATH
 
 4. Run `scripts/resegment.py` to segment and label introductions in `corpus/protocols/<year>/*.xml` files
 
@@ -81,7 +81,7 @@ Most scripts take `--start` YEAR and `--end` YEAR arguments to define a span of 
 8. Run `scripts/reclassify.py` to reclassify utterances and notes
     - nb. `build_classifier` writes to `segment-classifier/`, but this reads from `input/segment-classifier/`, so the output needs to be moved, or we can fix the discrepancy
     - do this one year at a time for dolan's sakie
-        - `for year in {START..END}; do python reclassify.py -s $year -e $year; done`
+        - `for year in {START..END}; do python scripts/reclassify.py -s $year -e $year; done`
 
 9. Run `add_uuid.py` again.
 

@@ -126,7 +126,7 @@ def sample_pages(df, random_state=None):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("-f", '--seed', type=str, default=None, help="Random state seed")
-	parser.add_argument("-f", "--branch", type=str, default="main", help="Github branch where curation is happening.")
+    parser.add_argument("-b", "--branch", type=str, default="main", help="Github branch where curation is happening.")
     parser.add_argument('-p', '--pages_per_decade', type=int, default=30, help="How many pages per decade? 30")
     parser.add_argument("-s", "--start", type=int, default=1920, help="Start year")
     parser.add_argument("-e", "--end", type=int, default=2022, help="End year")
@@ -148,6 +148,7 @@ if __name__ == "__main__":
         sample = sample_pages(sample, random_state=prng)
         sample = sample.sort_values(["protocol_id", "x"])
         sample["segmentation"] = None
+		sample["seg_type"] = None
         sample["speaker"] = None
         sample["comments"] = None
 
