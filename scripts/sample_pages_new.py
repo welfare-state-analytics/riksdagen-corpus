@@ -148,7 +148,7 @@ if __name__ == "__main__":
         sample = sample_pages(sample, random_state=prng)
         sample = sample.sort_values(["protocol_id", "x"])
         sample["segmentation"] = None
-		sample["seg_type"] = None
+        sample["seg_type"] = None
         sample["speaker"] = None
         sample["comments"] = None
 
