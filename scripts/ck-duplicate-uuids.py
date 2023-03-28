@@ -36,7 +36,7 @@ def main(args):
 	if args.year:
 		years = args.year.split(',')
 	else:
-		years = list(range(args.start, args.end))
+		years = list(range(args.start, args.end+1))
     
     # This doesn't handle two-year date -199495-
     #   perhaps we have to fix this later with protocol_iterator
@@ -54,7 +54,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__, epilog="You need to specify a year list or a year range with -s and -e.")
     parser.add_argument("-y", "--year", type=str, default=None, help="Comma separated (no spaces) list of years to query")
     parser.add_argument("-s", "--start", type=int, default=None, help="Start year for a range of years.")
-    parser.add_argument("-e", "--end", type=int, default=None, help="End year (exclusive) for a range of years.")
+    parser.add_argument("-e", "--end", type=int, default=None, help="End year for a range of years.")
     args = parser.parse_args()
     if (args.year or (args.start and args.end)):
         main(args)
