@@ -2,13 +2,31 @@
 Add a randomly generated UUID to all elements in the XML ID field.
 """
 from lxml import etree
-import argparse
-from pyriksdagen.utils import elem_iter, protocol_iterators, get_formatted_uuid
+import pandas as pd
+import json, math
+import os, argparse
+from datetime import datetime
+from pyparlaclarin.refine import (
+    format_texts,
+)
+
+from pyriksdagen.db import filter_db, load_patterns, load_metadata
+from pyriksdagen.refine import (
+    redetect_protocol,
+    detect_mps,
+    find_introductions,
+    update_ids,
+)
+from pyriksdagen.utils import infer_metadata, parse_date, elem_iter, protocol_iterators, get_formatted_uuid
+from pyriksdagen.match_mp import clean_names, multiple_replace
 from tqdm import tqdm
 import multiprocessing
+import uuid
+import base58
 
 def add_protocol_id(protocol):
     ids = set()
+    tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
     xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     parser = etree.XMLParser(remove_blank_text=True)
     root = etree.parse(protocol, parser).getroot()
