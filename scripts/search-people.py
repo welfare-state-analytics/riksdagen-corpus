@@ -31,6 +31,13 @@ def load_data():
 	MPs['start_year'] = pd.to_numeric(MPs['start_year'], errors='coerce')
 	MPs['end_year'] = pd.to_numeric(MPs['end_year'], errors='coerce')
 	ministers = pd.read_csv("corpus/metadata/minister.csv")
+	ministers['start'] = ministers['start'].astype(str)
+	ministers['end'] = ministers['end'].astype(str)
+	ministers["start_year"] = ministers.apply(lambda x: x['start'][:4], axis=1)
+	ministers["end_year"] = ministers.apply(lambda x: x['end'][:4], axis=1)
+	ministers['start_year'] = pd.to_numeric(ministers['start_year'], errors='coerce')
+	ministers['end_year'] = pd.to_numeric(ministers['end_year'], errors='coerce')
+	print(ministers)
 	return {"names":names,"MPs":MPs,"ministers":ministers}
 
 
@@ -72,6 +79,7 @@ def search_data(query_params, data):
 	print(f"There are {len(names_df)} name matches for your query...")
 
 	if len(names_df) > 0:
+		of_interest = []
 		mp_matches_ids = None
 		nameQids = names_df.wiki_id.unique()
 
@@ -82,17 +90,47 @@ def search_data(query_params, data):
 			MP_matches = data['MPs'][(data['MPs']['wiki_id'].isin(nameQids)) & (data['MPs']['start_year'] <= query_params['year']) & (data['MPs']['end_year'] >= query_params['year'])]
 			mp_matches_ids = MP_matches['wiki_id'].unique()
 
+		# TO DO: add logic to handle  no date/no chamber and + chamber/no year
+
 		if len(mp_matches_ids) == 0:
-			print("... no MPs matched all your search criteria.")
-			minister_matches_ids = None
-			# search ministers
+			print("... no MPs match all your search criteria.")
 		else:
-			print(f"... and {len(mp_matches_ids)} match other criteria.")
+			print(f"... {len(mp_matches_ids)} MPs match other criteria.")
 			for ID in mp_matches_ids:
-				print("\n", f"~~~~WIKI_ID: {ID}")
-				print("\n\tNAMES\n", data['names'][data['names'].wiki_id == ID].to_string())
-				print("\n\tACTIVE\n", data['MPs'][data['MPs'].wiki_id == ID].to_string())
-				print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n")
+				if ID not in of_interest:
+					of_interest.append(ID)
+
+		minister_matches_ids = None
+		if query_params['year'] != None:
+			minister_matches = data['ministers'][(data['ministers']['wiki_id'].isin(nameQids)) & (data['ministers']['start_year'] <= query_params['year']) & (data['ministers']['end_year'] >= query_params['year'])]
+			minister_matches_ids = minister_matches['wiki_id'].unique()
+			print(minister_matches)
+
+		if len(minister_matches_ids) == 0:
+			print("... no ministers match your search criteria")
+		else:			
+			print(f"... and {len(minister_matches_ids)} ministers match other criteria.")
+			for ID in minister_matches_ids:
+				if ID not in of_interest:
+					of_interest.append(ID)
+
+		for ID in of_interest:
+			print("\n", f"~~~~WIKI_ID: {ID}")
+			id_mp_df = data['MPs'][data['MPs'].wiki_id == ID]
+			id_minister_df = data['ministers'][data['ministers'].wiki_id == ID]
+			print("\n\tNAMES\n", data['names'][data['names'].wiki_id == ID].to_string())
+			#print(id_mp_df, id_minister_df)
+			if not id_mp_df.empty:
+				print("\n\tMP ROLES\n", id_mp_df.to_string())
+			else:
+				print("This person held no MP roles in the specified time")
+			if not id_minister_df.empty:
+				print("\n\tMINISTERIAL ROLES\n", id_minister_df.to_string())
+			else:
+				print("This person held no ministerial roles in the specified time")
+			print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n")
+
+
 	else:
 		print("No name matches. Try again.")
 
