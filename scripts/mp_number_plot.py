@@ -8,7 +8,7 @@ from cycler import cycler
 import re
 import seaborn as sns
 
-def get_df(path='corpus/metadata/member_of_parliament.csv'):
+def get_df(args, path='corpus/metadata/member_of_parliament.csv'):
 
     # Save new values
     df = pd.read_csv(path)
@@ -39,21 +39,25 @@ def get_df(path='corpus/metadata/member_of_parliament.csv'):
         df_year = df_year[df_year["end"] >= year]
 
         month = "11"
+        mofs = {}
         for chamber in chambers:
             df_year_chamber = df_year[df_year["role"] == chamber]
-            margin_of_error = len(df_year_chamber[df_year_chamber["accurate_date"] == False])
-            print(margin_of_error)
+            df_year_chamber = df_year_chamber[(df_year_chamber["start"] == year) | (df_year_chamber["end"] == year)]
+            margin_of_error = len(df_year_chamber[df_year_chamber["accurate_date"] == False]) / 2
+            mofs[chamber] = margin_of_error
 
         df_year = df_year[~((df_year["start_day"] > "01") & (df_year["start_month"] >= month) & (df_year["start"] == year))]
         df_year = df_year[~((df_year["end_month"] < month) & (df_year["end"] == year))]
-        #df_year = df_year[~((df_year["start_day"] < "01") & (df_year["start"] == year))]
         df_year = df_year.drop_duplicates("wiki_id")
-        #print(df_year)
 
         for chamber in chambers:
             df_year_chamber = df_year[df_year["role"] == chamber]
-
-            rows.append([year, len(df_year_chamber), chamber])
+            if not args.bounds:
+                rows.append([year, len(df_year_chamber), chamber])
+            else:
+                mof = mofs[chamber]
+                rows.append([year, len(df_year_chamber) + mof, chamber])
+                rows.append([year, len(df_year_chamber) - mof, chamber])
 
         if year < 1887:
             rows.append([year, 143, "nominal_fk"])
@@ -86,8 +90,9 @@ def get_plot(df):
     return sns.lineplot(data=df, x="year", y="mps", hue="chamber")
 
 def main(args):
-    df = get_df()
-    #plt.savefig('input/accuracy/version_plot.png')
+    df = get_df(args)
+    if args.save:
+        plt.savefig('input/accuracy/mp_plot.png')
     plot = get_plot(df)
     if args.show:
         plt.show()
@@ -97,8 +102,12 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("-v", "--version", type=str)
-    parser.add_argument("-s", "--show", type=str, default="True")
+    parser.add_argument("--show", type=str, default="True")
+    parser.add_argument("--save", type=str, default="True")
+    parser.add_argument("-b", "--bounds", type=str, default="False")
     args = parser.parse_args()
     args.show = False if args.show.lower()[:1] == "f" else True
+    args.save = False if args.save.lower()[:1] == "f" else True
+    args.bounds = False if args.bounds.lower()[:1] == "f" else True
     main(args)
 
