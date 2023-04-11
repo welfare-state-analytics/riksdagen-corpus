@@ -111,7 +111,7 @@ if __name__ == "__main__":
         for chamber in list(set(protocol_df["chamber"])):
             chamber_df = protocol_df[protocol_df["chamber"] == chamber]
             sample = chamber_df.head(args.tail)
-            sample = sample.head(args.tail - args.head)
+            sample = sample.tail(args.tail - args.head)
             sample = parse_paragrahps(sample)
             
             sample["segmentation"] = None
