@@ -50,6 +50,7 @@ jobs:
         git add input/accuracy/version_plot.png
         git commit -m "docs: generate a new accuracy plot"
         git add dist
+        git add pyproject.toml
         git commit -m "chore: build module"
     - name: Push changes
       uses: ad-m/github-push-action@master
