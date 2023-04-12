@@ -2,7 +2,7 @@
 [![Unit tests](https://github.com/welfare-state-analytics/riksdagen-corpus/actions/workflows/push.yml/badge.svg)](https://github.com/welfare-state-analytics/riksdagen-corpus/actions/workflows/push.yml)
 [![Validate Parla-Clarin XML](https://github.com/welfare-state-analytics/riksdagen-corpus/actions/workflows/validate.yml/badge.svg)](https://github.com/welfare-state-analytics/riksdagen-corpus/actions/workflows/validate.yml)
 
-# Swedish parliamentary proceedings - Riksdagens protokoll 1867-2023
+# Swedish parliamentary proceedings - Riksdagens protokoll 1867-today
 
 _Westac Project, 2020-2023_
 
