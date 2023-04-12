@@ -32,7 +32,9 @@ def accuracy(protocol):
     return year, known, unknown
 
 def main(args):
-    protocols = list(protocol_iterators("corpus/", start=args.start, end=args.end))
+    protocols = list(protocol_iterators("corpus/"))
+    if args.start is not None:
+        protocols = list(protocol_iterators("corpus/", start=args.start, end=args.end))
     years = sorted(set([int(p.split('/')[2][:4]) for p in protocols]))
     years.append(max(years)+1)
     df = pd.DataFrame(np.zeros((len(years), 2), dtype=int), index=years, columns=['known', 'unknown'])
@@ -45,8 +47,8 @@ def main(args):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--start", type=int, default=1920)
-    parser.add_argument("--end", type=int, default=2022)
+    parser.add_argument("--start", type=int, default=None)
+    parser.add_argument("--end", type=int, default=None)
     args = parser.parse_args()
     df = main(args)
 
