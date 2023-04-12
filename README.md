@@ -8,7 +8,7 @@ _Westac Project, 2020-2023_
 
 The full data set consists of multiple parts:
 
-- Riksdagens protokoll between from 1920 until today in the [Parla-clarin](https://github.com/clarin-eric/parla-clarin) format
+- Riksdagens protokoll between from 1867 until today in the [Parla-clarin](https://github.com/clarin-eric/parla-clarin) format
 - Comprehensive list of MPs and cabinet members during this period
 - [Documentation](https://github.com/welfare-state-analytics/riksdagen-corpus/wiki/) of the corpus and the curation process
 - [A Google Colab notebook](https://colab.research.google.com/drive/1C3e2gwi9z83ikXbYXNPfB6RF7spTgzxA?usp=sharing) that demonstrates how the dataset can be used with Python
