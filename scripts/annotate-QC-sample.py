@@ -10,7 +10,7 @@ import selenium.webdriver.support.ui as ui
 import argparse, os, contextlib, sys
 import pandas as pd
 
-segment_classes = ["note", "u", 'seg']
+segment_classes = ["note", "u", 'seg', "both"]
 class_possibilities = segment_classes + ['']
 segments_with_speaker = ["u"]
 
@@ -129,10 +129,15 @@ def ck_segmentation(e):
 	seg_type = None
 	if seg == "note":
 		if "type" in e.attrib:
-			if e.get("type") == "speaker":
+			t = e.get("type")
+			if t == "speaker":
 				seg_type = 'intro'
+			elif t == "date":
+				seg_type = 'margin'
 		if not seg_type:
 			seg_type = get_note_type()
+	elif seg == "both":
+		seg = "note, seg"
 
 	return seg, seg_type, speaker
 
@@ -143,9 +148,16 @@ def main(args):
 	csv_path = f"input/quality-control/sample_{args.decade}.csv"
 	df = pd.read_csv(csv_path)
 
-	driver = webdriver.Firefox()
-	driver.get(f'https://{args.username}:{args.password}@betalab.kb.se/')
-
+	driver = None
+	if args.tabs:
+		driver = webdriver.Firefox()
+		driver.get(f'https://{args.username}:{args.password}@betalab.kb.se/')
+	else:
+		kbdriver = webdriver.Firefox()
+		kbdriver.get(f'https://{args.username}:{args.password}@betalab.kb.se/')
+		ghdriver = webdriver.Firefox()
+		ghdriver.get(f'https://github.com/')
+		
 	input("Organize your windows and press enter to continue...")
 
 	if not "checked" in df:
@@ -161,13 +173,22 @@ def main(args):
 		if not row['checked'] == True:
 			print("Working on", row['protocol_id'], row['elem_id'], "    ::    ", ridx, "of", len(df))
 			## open tabs
-			driver.execute_script("window.open('');")
-			driver.switch_to.window(driver.window_handles[1])
-			driver.get(row['facs'])
-			driver.execute_script("window.open('');")
-			driver.switch_to.window(driver.window_handles[2])
-			driver.get(row['github'])
-
+			if driver:
+				driver.execute_script("window.open('');")
+				driver.switch_to.window(driver.window_handles[1])
+				driver.get(row['facs'])
+				driver.execute_script("window.open('');")
+				driver.switch_to.window(driver.window_handles[2])
+				driver.get(row['github'])
+			else:
+				kbdriver.execute_script("window.open('');")
+				kbdriver.switch_to.window(kbdriver.window_handles[1])
+				kbdriver.get(row['facs'])
+				ghdriver.execute_script("window.open('');")
+				ghdriver.switch_to.window(ghdriver.window_handles[1])
+				ghdriver.get(row['github'])
+				
+	
 			## do stuff
 			E = get_elem(row['protocol_id'], row['elem_id'])
 			if len(E) != 1:
@@ -189,13 +210,25 @@ def main(args):
 			print("Row finished, moving on...\n")
 		
 			## close tabs
-			driver.switch_to.window(driver.window_handles[2])
-			driver.close()
-			driver.switch_to.window(driver.window_handles[1])
-			driver.close()
-			driver.switch_to.window(driver.window_handles[0])
-	driver.close()		
-			
+			if driver:
+				driver.switch_to.window(driver.window_handles[2])
+				driver.close()
+				driver.switch_to.window(driver.window_handles[1])
+				driver.close()
+				driver.switch_to.window(driver.window_handles[0])
+			else:
+				kbdriver.switch_to.window(kbdriver.window_handles[1])
+				kbdriver.close()
+				kbdriver.switch_to.window(kbdriver.window_handles[0])
+				ghdriver.switch_to.window(ghdriver.window_handles[1])
+				ghdriver.close()
+				ghdriver.switch_to.window(ghdriver.window_handles[0])
+	if driver:
+		driver.close()		
+	else:
+		kbdriver.close()
+		ghdriver.close()
+	
 	print("No już, finito. Here's the dataframe:")
 	print(df)
 
@@ -208,6 +241,7 @@ if __name__ == '__main__':
 	parser.add_argument("-d", "--decade", type=int, default=None, help="Start year of the decade (the one in the file name of input/quality-control/sample_<YEAR>.csv).")
 	parser.add_argument("-u", "--username", type=str, default=None, help="Username for betalab (you only need this if its not set in your environemnt variables -- $KBLPASS).")
 	parser.add_argument("-p", "--password", type=str, default=None, help="Password for betalab (you only need this if its not set in your environemnt variables -- $KBLUSER).")
+	parser.add_argument("-t", "--tabs", action="store_true", help="Set this if you want to open kblab and github in browser tabs, otherwise this script will open separate windows for each one.")
 	args = parser.parse_args()
 
 	if args.decade:
