@@ -39,7 +39,7 @@ def update_plot(version):
         x, y = zip(*sorted(zip(x,y),key=lambda x: x[0]))
         plt.plot(x, y, linewidth=1.75)
 
-    plt.title('Estimated accuracy for identification of speech-maker')
+    plt.title('Estimated accuracy for identification of speaker')
     plt.legend(version, loc ="upper left")
     ax.set_xlabel('Year')
     ax.set_ylabel('Accuracy')

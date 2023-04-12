@@ -27,11 +27,21 @@ jobs:
         pip install .
         pip install PyPDF2
         pip install cycler
+        pip install poetry
 
     - name: Estimate current accuracy and generate a new plot
       run: |
         PYTHONPATH="$PYTHONPATH:." python scripts/mapping_accuracy_estimate.py
         PYTHONPATH="$PYTHONPATH:." python scripts/accuracy_version_plot.py -v ${{ github.ref }}
+    - name: Build and publish module
+      env: # authentication
+        PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
+      run: |
+        VERSION=$(echo ${{ github.ref }} | tr v " " | xargs)
+        echo "Change module version to $VERSION"
+        poetry version $VERSION
+        poetry build
+        poetry publish -u "__token__" -p $PYPI_TOKEN
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -39,6 +49,8 @@ jobs:
         git add input/accuracy/difference.csv
         git add input/accuracy/version_plot.png
         git commit -m "docs: generate a new accuracy plot"
+        git add dist
+        git commit -m "chore: build module"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
