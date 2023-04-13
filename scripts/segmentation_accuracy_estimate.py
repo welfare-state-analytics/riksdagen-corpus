@@ -11,6 +11,9 @@ from multiprocessing import Pool
 from pathlib import Path
 import warnings
 import progressbar
+from scipy.stats import beta
+import seaborn as sns
+from matplotlib import pyplot as plt
 
 XML_NS = "{http://www.w3.org/XML/1998/namespace}"
 
@@ -92,21 +95,29 @@ def main(args):
             #    rows.append([acc[0], acc[1], acc[0] / (acc[0] + acc[1]), metadata["year"], metadata["chamber"]])
 
     accuracy = correct / (correct + incorrect)
-    print("ACC:", accuracy)
+    lower = beta.ppf(0.05, correct + 1, incorrect + 1)
+    upper = beta.ppf(0.95, correct + 1, incorrect + 1)
+    print(f"ACC: {100 * accuracy:.2f}% [{100* lower:.2f}% – {100* upper:.2f}%]")
+
     print(correct, incorrect)
 
     df = pd.DataFrame(rows, columns=["correct", "incorrect", "accuracy", "year", "chamber"])
     df["decade"] = (df["year"] // 10) * 10
     print(df)
-    df.to_csv("results.csv", index=False)
 
-    print(df['accuracy'].groupby(df['decade']).mean())
+    byyear_sum = df[["correct", "incorrect"]].groupby(df['decade']).sum()
+    byyear_sum["lower"] = [beta.ppf(0.05, c + 1, i + 1) for c, i in zip(byyear_sum["correct"], byyear_sum["incorrect"])]
+    byyear_sum["upper"] = [beta.ppf(0.95, c + 1, i + 1) for c, i in zip(byyear_sum["correct"], byyear_sum["incorrect"])]
+    byyear = df['accuracy'].groupby(df['decade'])
+    byyear_sum = byyear_sum.merge(byyear.mean(), on="decade").reset_index()
+    print(byyear_sum)
+    byyear_sum.to_csv("results.csv", index=False)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--start", type=int, default=1867)
     parser.add_argument("--end", type=int, default=2022)
-    parser.add_argument("--path_goldstandard", type=str, default="corpus/quality_assesment/prot-segment-classification.csv")
+    parser.add_argument("--path_goldstandard", type=str, default="corpus/quality_assesment/segment_classification/prot-segment-classification.csv")
     args = parser.parse_args()
     df = main(args)
 
