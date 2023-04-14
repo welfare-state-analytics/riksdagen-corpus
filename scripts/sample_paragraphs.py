@@ -18,7 +18,7 @@ def get_date(root):
         break
     return date_string
 
-def get_paragraph_counts(start, end, corpus_path="corpus/protocols/"):
+def get_paragraph_counts(start, end, corpus_path="corpus/protocols/", paragraph_type=None):
     rows = []
     protocol_list = list(protocol_iterators(corpus_path, start=start, end=end+1))
     if len(protocol_list) == 0:
@@ -38,6 +38,9 @@ def get_paragraph_counts(start, end, corpus_path="corpus/protocols/"):
         chamber = "".join([wd[0] for wd in chamber.split()]).lower()
         
         for elem in elems:
+            if paragraph_type == "intro":
+                if elem.attrib.get("type") != "speaker":
+                    continue
             id_elem = elem.attrib[f"{xml_ns}id"]
             id_number = base58.b58decode(id_elem.split("-")[-1])
             id_number = int.from_bytes(id_number, "big")
@@ -96,6 +99,7 @@ if __name__ == "__main__":
     argparser.add_argument('--tail', type=int, default=3, help="Take paragraphs until this index")
     argparser.add_argument("--start", type=int, default=1867, help="Start year")
     argparser.add_argument("--end", type=int, default=2029, help="End year")
+    argparser.add_argument("--paragraph_type", type=str, default=None, help="Type of paragraphs to sample [None, 'intro']")
     args = argparser.parse_args()
 
     path = 'corpus/protocols'
@@ -104,7 +108,7 @@ if __name__ == "__main__":
     for decade in range(args.start, args.end):
         print("Year:", decade)
         decade_end = decade
-        protocol_df = get_paragraph_counts(decade, decade_end)
+        protocol_df = get_paragraph_counts(decade, decade_end, paragraph_type=args.paragraph_type)
         if protocol_df is None:
             continue
         print(protocol_df)
