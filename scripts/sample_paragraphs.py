@@ -132,6 +132,16 @@ if __name__ == "__main__":
             dfs.append(sample)
 
     df = pd.concat(dfs)
+
+    if args.paragraph_type == "intro":
+        df["speaker_name"] = None
+        df["speaker_i_ort"] = None
+        df["speaker_party"] = None
+        df["speaker_born"] = None
+        df["speaker_wiki_id"] = None
+        cols = ["protocol_id", "elem_id", "speaker_name", "speaker_i_ort", "speaker_party", "speaker_born", "speaker_wiki_id", "comments", "text", "link"]
+        df = df[cols]
+        
     df.to_csv(f"input/gold-standard/prot-segment-classification.csv", index=False)
 
 
