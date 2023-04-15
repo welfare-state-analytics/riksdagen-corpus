@@ -3,7 +3,7 @@ import pandas as pd
 import os, json
 
 def main():
-	MPDir = "input/known_MPs"
+	MPDir = "corpus/quality_assessment/known_mps"
 	missings = os.listdir(MPDir)
 	qids = []
 	QIDs = {}

@@ -93,7 +93,7 @@ class Test(unittest.TestCase):
 
 
 	def get_emil(self):
-		emil_df = pd.read_csv('input/known_MPs/catalog.csv', sep=';')
+		emil_df = pd.read_csv('corpus/quality_assessment/known_mps/catalog.csv', sep=';')
 		return emil_df
 
 
@@ -105,7 +105,7 @@ class Test(unittest.TestCase):
 
 
 	def write_missing(self, df_name, missing):
-		missing.to_csv(f"input/known_MPs/missing_{df_name}.csv", sep=';', index=False)		
+		missing.to_csv(f"corpus/quality_assessment/known_mps/missing_{df_name}.csv", sep=';', index=False)		
 
 
 	def test_government(self):
