@@ -184,18 +184,28 @@ class Test(unittest.TestCase):
 
 	def test_emil_integrity(self):
 		emil = self.get_emil()
+		wiki_id_issue = emil[(emil['wiki_id'].isna()) | (emil['wiki_id'] == "Q00FEL00")]
 		iort_NA = emil[emil['iort'].isna()]
-		#birthdate_NA = emil[emil['dob'].isna()]
+		birthdate_NA = emil[(emil['born'].isna()) | (emil['born'] == "Multival")]
+
+		if not wiki_id_issue.empty:
+			warnings.warn(f'{len(wiki_id_issue)} wiki_id issues', CatalogIntegrityWarning)
+			if running_local:
+				self.write_integrity_error("wiki-id-issue", wiki_id_issue)
+
 		if not iort_NA.empty:
-			warnings.warn(f"{iort_NA} iorts missing", CatalogIntegrityWarning)
+			warnings.warn(f"{len(iort_NA)} iorts missing", CatalogIntegrityWarning)
 			if running_local:
 				self.write_integrity_error("missing-iort", iort_NA)
-		#if not birthdate_NA.empty:
-		#	warnings.warn(f"{birthdate_NA} birthdates missing", CatalogIntegrityWarning)
-		#	if running_local:
-		#		self.write_integrity_error("missing-birthdate", birthdate_NA
+
+		if not birthdate_NA.empty:
+			warnings.warn(f"{len(birthdate_NA)} birthdates missing", CatalogIntegrityWarning)
+			if running_local:
+				self.write_integrity_error("missing-birthdate", birthdate_NA)
+
+		self.assertEqual(len(wiki_id_issue), 0, wiki_id_issue)
 		self.assertEqual(len(iort_NA), 0, iort_NA)
-		#self.assertEqual(birthdate_NA, 0, birthdate_NA)
+		self.assertEqual(len(birthdate_NA), 0, birthdate_NA)
 
 
 	def test_cf_emil_person(self):
