@@ -79,6 +79,14 @@ class MissingPartyWarning(Warning):
 
 
 
+class CatalogIntegrityWarning(Warning):
+	def __init__(self, issue):
+		self.message = f"There's an integrity issue --| {issue} |-- maybe fix that."
+
+	def __str__(self):
+		return self.message 
+
+
 	
 class Test(unittest.TestCase):
 
@@ -105,7 +113,11 @@ class Test(unittest.TestCase):
 
 
 	def write_missing(self, df_name, missing):
-		missing.to_csv(f"corpus/quality_assessment/known_mps/missing_{df_name}.csv", sep=';', index=False)		
+		missing.to_csv(f"corpus/quality_assessment/known_mps/missing_{df_name}.csv", sep=';', index=False)
+
+
+	def write_integrity_error(self, df_name, error_df):
+		error_df.to_csv(f"corpus/quality_assessment/known_mps/integrity-error_{df_name}.csv", sep=';', index=False)	
 
 
 	def test_government(self):
@@ -168,6 +180,22 @@ class Test(unittest.TestCase):
 		
 		df, df_unique, df_duplicate = self.get_duplicates(df_name, None)
 		self.assertEqual(len(df), len(df_unique), df_duplicate)
+
+
+	def test_emil_integrity(self):
+		emil = self.get_emil()
+		iort_NA = emil[emil['iort'].isna()]
+		#birthdate_NA = emil[emil['dob'].isna()]
+		if not iort_NA.empty:
+			warnings.warn(f"{iort_NA} iorts missing", CatalogIntegrityWarning)
+			if running_local:
+				self.write_integrity_error("missing-iort", iort_NA)
+		#if not birthdate_NA.empty:
+		#	warnings.warn(f"{birthdate_NA} birthdates missing", CatalogIntegrityWarning)
+		#	if running_local:
+		#		self.write_integrity_error("missing-birthdate", birthdate_NA
+		self.assertEqual(len(iort_NA), 0, iort_NA)
+		#self.assertEqual(birthdate_NA, 0, birthdate_NA)
 
 
 	def test_cf_emil_person(self):
