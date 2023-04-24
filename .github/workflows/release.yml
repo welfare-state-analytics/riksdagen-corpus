@@ -37,7 +37,7 @@ jobs:
       env: # authentication
         PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
       run: |
-        VERSION=$(echo ${{ github.ref }} | tr v " " | xargs)
+        VERSION=$(echo ${{ github.ref }} | cut -d "v" -f 2 | xargs)
         echo "Change module version to $VERSION"
         poetry version $VERSION
         poetry build
