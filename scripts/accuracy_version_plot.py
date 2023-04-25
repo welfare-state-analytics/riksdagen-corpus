@@ -47,7 +47,7 @@ def update_plot(version):
 
 def main(args):
     f, ax = update_plot(args.version)
-    plt.savefig('input/accuracy/version_plot.png')
+    plt.savefig('input/accuracy/version_plot.png', dpi=300)
     if args.show:
         plt.show()
         plt.close()
