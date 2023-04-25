@@ -1,11 +1,7 @@
-# This is a basic workflow to help you get started with Actions
+name: Validate added, modified and deleted files
 
-name: Validate added and changed Parla-Clarin files
-
-# Controls when the action will run. 
 on: [pull_request]
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
   build:
@@ -36,3 +32,8 @@ jobs:
         run: |
           PYTHONPATH="$PYTHONPATH:." python test/validate_parlaclarin.py ${{steps.changedfiles.outputs.files_updated}}
           PYTHONPATH="$PYTHONPATH:." python test/validate_parlaclarin.py ${{steps.changedfiles.outputs.files_created}}
+
+      - name: Check that files that aren't supposed to change remain unchanged
+        run: |
+          PYTHONPATH="$PYTHONPATH:." python test/unchanged.py ${{steps.changedfiles.outputs.files_updated}}
+          PYTHONPATH="$PYTHONPATH:." python test/unchanged.py ${{steps.changedfiles.outputs.files_deleted}}
