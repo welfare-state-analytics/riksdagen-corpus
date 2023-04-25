@@ -1,5 +1,5 @@
 """
-Connect introductions to the speaker in the metadata.
+Map introductions to the speaker in the metadata.
 """
 import pandas as pd
 import argparse

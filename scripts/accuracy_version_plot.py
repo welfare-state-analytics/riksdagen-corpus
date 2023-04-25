@@ -1,5 +1,5 @@
 """
-Draw a graph on the accuracy estimate
+Draw a graph of the introduction mapping accuracy estimate
 """
 import pandas as pd
 import matplotlib.pyplot as plt

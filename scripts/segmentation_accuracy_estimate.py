@@ -1,5 +1,6 @@
 """
-Calculate an upper bound for person mapping accuracy
+Calculate an upper bound for segment classification accuracy.
+Based on the gold standard annotations.
 """
 from pyriksdagen.utils import protocol_iterators, elem_iter, infer_metadata
 from lxml import etree
