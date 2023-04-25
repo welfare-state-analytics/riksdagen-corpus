@@ -52,8 +52,16 @@ jobs:
         git add dist
         git add pyproject.toml
         git commit -m "chore: build module"
+    - name: Zip corpus
+      run: zip -r corpus.zip corpus
+    - name: Upload binaries to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: corpus.zip
+        tag: ${{ github.ref }}
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: main
+        branch: dev
