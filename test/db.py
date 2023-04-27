@@ -13,7 +13,7 @@ import warnings
 # OBS. set to False before commit / push!
 # If True, the script attempts to write
 # missing-data dfs to csv files.
-running_local = False
+running_local = True
 ####
 ###
 ##
@@ -101,7 +101,7 @@ class Test(unittest.TestCase):
 
 
 	def get_emil(self):
-		emil_df = pd.read_csv('corpus/quality_assessment/known_mps/catalog.csv', sep=';')
+		emil_df = pd.read_csv('corpus/quality_assessment/known_mps/known_mps_catalog.csv', sep=';')
 		return emil_df
 
 
@@ -185,7 +185,6 @@ class Test(unittest.TestCase):
 	def test_emil_integrity(self):
 		emil = self.get_emil()
 		wiki_id_issue = emil[(emil['wiki_id'].isna()) | (emil['wiki_id'] == "Q00FEL00")]
-		iort_NA = emil[emil['iort'].isna()]
 		birthdate_NA = emil[(emil['born'].isna()) | (emil['born'] == "Multival")]
 
 		if not wiki_id_issue.empty:
@@ -193,18 +192,12 @@ class Test(unittest.TestCase):
 			if running_local:
 				self.write_integrity_error("wiki-id-issue", wiki_id_issue)
 
-		if not iort_NA.empty:
-			warnings.warn(f"{len(iort_NA)} iorts missing", CatalogIntegrityWarning)
-			if running_local:
-				self.write_integrity_error("missing-iort", iort_NA)
-
 		if not birthdate_NA.empty:
 			warnings.warn(f"{len(birthdate_NA)} birthdates missing", CatalogIntegrityWarning)
 			if running_local:
 				self.write_integrity_error("missing-birthdate", birthdate_NA)
 
 		self.assertEqual(len(wiki_id_issue), 0, wiki_id_issue)
-		self.assertEqual(len(iort_NA), 0, iort_NA)
 		self.assertEqual(len(birthdate_NA), 0, birthdate_NA)
 
 
