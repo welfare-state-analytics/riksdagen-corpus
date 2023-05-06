@@ -3,7 +3,9 @@ import pandas as pd
 from wikidata.client import Client
 
 def main():
+
 	df = pd.read_csv("corpus/quality_assessment/known_mps/catalog.csv", sep=';')
+	#df = pd.read_csv("corpus/quality_assessment/known_mps/integrity-error_missing-birthdate.csv", sep=';')
 	#DOBisNA = df[df['born'].isna()]
 
 	for i, r in df.iterrows():
@@ -20,7 +22,7 @@ def main():
 			print("Known DOB")
 
 	df.to_csv("corpus/quality_assessment/known_mps/catalog.csv", sep=';', index=False)
-
+	#df.to_csv("corpus/quality_assessment/known_mps/TEST_integrity-error_missing-birthdate.csv", sep=';', index=False)
 
 
 
