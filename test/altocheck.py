@@ -18,6 +18,7 @@ def get_alto_words(content):
         altofile = alto.parse(content)
         words = altofile.extract_words()
     except:
+        print("ALTO XML parsing unsuccessful")
         return None
     return words
 
@@ -64,10 +65,11 @@ def calculate_difference(root_pc, page="random", auth=None):
     words_pc, alto_url, page = get_pc_words(root_pc, page=page)
     r = requests.get(alto_url, auth=auth)
     if r.content is None:
-        return 0, 0.0, 0
+        print("HTTP response has no content")
+        return None#0, 0.0, 0
     words_alto = get_alto_words(r.content)
     if words_alto is None:
-        return 0, 0.0, 0
+        return None#0, 0.0, 0
 
     text_alto = " ".join(words_alto)
     text_alto = clean_sentence(text_alto)
@@ -92,34 +94,41 @@ class Test(unittest.TestCase):
         auth = os.environ.get("KBLAB_USERNAME"), os.environ.get("KBLAB_PASSWORD")
 
         all_testcases = []
-        for decade in range(192, 199):
-            testcases = list(p.glob(f"{decade}*/*.xml"))
+        decades = list(range(1860, 1990, 10))
+        print(f"Testing decades: {decades}")
+        for decade in decades:
+            testcases = list(p.glob(f"{decade // 10}*/*.xml"))
             testcases = sorted(testcases, key=lambda v: random.random())
-            all_testcases = all_testcases + testcases[:100]
-
-        all_testcases = all_testcases
+            all_testcases = all_testcases + sorted(testcases[:100])
         
         percentage_fail = []
         absolute_fail = []
+        loading_fail = []
         for protocol_path in all_testcases:
             print(protocol_path)
             protocol_id = str(protocol_path.stem)
             root_pc = get_root(protocol_path.relative_to("."))
-            absolute, percentage, page = calculate_difference(root_pc, auth=auth)
-            print(absolute, percentage)
-            if absolute >= 3:
-                print(f"{protocol_id}: {page} (absolute) over limit")
-                absolute_fail.append(protocol_id)
-            if percentage >= 0.05:
-                print(f"{protocol_id}: {page} (percentage) over limit")
-                percentage_fail.append(protocol_id)
+            difference = calculate_difference(root_pc, auth=auth)
+            if difference is None:
+                loading_fail.append(protocol_id)
+            else:
+                absolute, percentage, page = difference
+                print(f"{absolute} errors, {percentage * 100:.1f}%")
+                if absolute >= 3:
+                    print(f"{protocol_id}: {page} (absolute) over limit")
+                    absolute_fail.append(protocol_id)
+                if percentage >= 0.05:
+                    print(f"{protocol_id}: {page} (percentage) over limit")
+                    percentage_fail.append(protocol_id)
         
         absolute_fail_ratio = len(absolute_fail) / len(all_testcases)
         percentage_fail_ratio = len(percentage_fail) / len(all_testcases)
+        succesful_loading_ratio = len(loading_fail) / len(all_testcases)
         print(f"Proportion of protocols with over 3 mismatching sentences: {absolute_fail_ratio}")
         print(f"Proportion of protocols with over 0.05% mismatching sentences: {percentage_fail_ratio}")
-        self.assertTrue(absolute_fail_ratio < 0.03, f"Absolute ratio too high {absolute_fail}")
-        self.assertTrue(percentage_fail_ratio < 0.05, f"Percentage ratio too high {percentage_fail}")
+        self.assertTrue(absolute_fail_ratio < 0.03, f"Absolute ratio {absolute_fail_ratio} too high {absolute_fail}")
+        self.assertTrue(percentage_fail_ratio < 0.05, f"Percentage ratio {percentage_fail_ratio} too high {percentage_fail}")
+        self.assertTrue(succesful_loading_ratio < 0.03, f"Loading ratio {succesful_loading_ratio} too high {loading_fail}")
 
         # Perfect matching is unreasonable and a sign of an error in the test
         self.assertTrue(absolute_fail_ratio > 0.0, f"Absolute ratio zero {absolute_fail}")
