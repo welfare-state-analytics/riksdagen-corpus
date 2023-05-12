@@ -5,7 +5,7 @@ ultimately into the Parla-Clarin XML format.
 import numpy as np
 import re, hashlib
 from .db import load_expressions
-from .match_mp import match_mp, name_equals, names_in, names_in_rev
+from .match_mp import match_mp, name_equals, name_almost_equals, names_in, names_in_rev
 from itertools import combinations
 
 # Classify paragraph
@@ -111,7 +111,7 @@ def detect_mp(intro_dict, db, party_map=None):
     variables = ['party_abbrev', 'specifier', 'name']
     variables = [v for v in variables if v in list(db.columns)] # removes missing variables
     variables = sum([list(map(list, combinations(variables, i))) for i in range(len(variables) + 1)], [])[1:]
-    matching_funs = [name_equals, names_in]
+    matching_funs = [name_equals, name_almost_equals, names_in]
 
     return match_mp(intro_dict, db, variables, matching_funs)
 
@@ -146,6 +146,7 @@ def intro_to_dict(intro_text, expressions=None):
 
     if "specifier" in d:
         d["specifier"] = d["specifier"].replace("i ", "")
+        d["specifier"] = d["specifier"].replace("från ", "")
 
     return d
 

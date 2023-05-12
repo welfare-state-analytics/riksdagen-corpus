@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import re
 from unidecode import unidecode
+from nltk.metrics.distance import edit_distance
 
 def multiple_replace(text, i_start=192, i_end=383):
 	d = [chr(c) for c in range(i_start, i_end+1)]
@@ -24,6 +25,29 @@ def clean_names(names):
 
 def name_equals(name, db):
 	matches = db[db["name"] == name]
+	return matches
+
+def name_almost_equals(name, db):
+	def _rough_equality(s1, s2):
+		perfect_matches = 0
+		s1, s2 = s1.replace(".", ""), s2.replace(".", "")
+		l1 = s1.split()
+		l2 = s2.split()
+		if len(l1) != len(l2):
+			return False
+		for w1, w2 in zip(l1, l2):
+			shorter_len = min(len(w1), len(w2))
+			w1, w2 = w1.lower(), w2.lower()
+			if w1 == w2:
+				perfect_matches += 1
+			if edit_distance(w1, w2) <= 1:
+				if w1[0] == w2[0]:
+					perfect_matches += 1
+			elif w1[:shorter_len] != w2[:shorter_len]:
+				return False
+		return perfect_matches >= 1
+
+	matches = db[db["name"].apply(lambda x: _rough_equality(name, x))]
 	return matches
 
 def names_in(name, db):
