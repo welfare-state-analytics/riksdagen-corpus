@@ -1,6 +1,5 @@
 """
-Find margin notes with a date in protocols between given start and end years,
-and include them as metadata.
+Find margin notes with a date in protocols and include them as metadata.
 """
 from lxml import etree
 import pandas as pd

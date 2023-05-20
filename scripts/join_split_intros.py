@@ -1,6 +1,5 @@
 """
-Find undetected introductions in the protocols. After finding an intro,
-tag the next paragraph as an utterance.
+Merge consecutive intros that have been incorrectly split in preprocessing.
 """
 from pyparlaclarin.refine import format_texts
 from pyriksdagen.db import load_patterns, load_expressions
