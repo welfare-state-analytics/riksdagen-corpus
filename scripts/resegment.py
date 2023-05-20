@@ -1,5 +1,5 @@
 """
-Find undetected introductions in the protocols. After finding an intro,
+Find introductions in the protocols. After finding an intro,
 tag the next paragraph as an utterance.
 """
 from pyparlaclarin.refine import format_texts

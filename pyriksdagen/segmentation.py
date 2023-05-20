@@ -5,7 +5,7 @@ ultimately into the Parla-Clarin XML format.
 import numpy as np
 import re, hashlib
 from .db import load_expressions
-from .match_mp import match_mp, name_equals, names_in, names_in_rev
+from .match_mp import match_mp, name_equals, name_almost_equals, names_in, names_in_rev
 from itertools import combinations
 
 # Classify paragraph
@@ -100,7 +100,7 @@ def detect_minister(matched_txt, minister_db, intro_dict):
             if len(set(role_matches["id"])) == 1:
                 return role_matches["id"].iloc[0]
 
-def detect_mp(intro_dict, db, party_map=None):
+def detect_mp(intro_dict, db, party_map=None, match_fuzzily=False):
     """
     Match an MP in a text snippet. Returns an MP id (str) if found, otherwise None.
 
@@ -111,8 +111,10 @@ def detect_mp(intro_dict, db, party_map=None):
     variables = ['party_abbrev', 'specifier', 'name']
     variables = [v for v in variables if v in list(db.columns)] # removes missing variables
     variables = sum([list(map(list, combinations(variables, i))) for i in range(len(variables) + 1)], [])[1:]
-    matching_funs = [name_equals, names_in]
-
+    if match_fuzzily:
+        matching_funs = [name_equals, name_almost_equals, names_in]
+    else:
+        matching_funs = [name_equals, names_in]
     return match_mp(intro_dict, db, variables, matching_funs)
 
 def intro_to_dict(intro_text, expressions=None):
@@ -139,13 +141,14 @@ def intro_to_dict(intro_text, expressions=None):
 
     if "gender" in d:
         d["gender"] = d["gender"].lower()
-        if d["gender"] == "herr":
+        if d["gender"] in ["herr", "friherre"]:
             d["gender"] = "man"
         if d["gender"] in ["fru", "fröken"]:
             d["gender"] = "woman"
 
     if "specifier" in d:
         d["specifier"] = d["specifier"].replace("i ", "")
+        d["specifier"] = d["specifier"].replace("från ", "")
 
     return d
 

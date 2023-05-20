@@ -1,5 +1,5 @@
 """
-Add a randomly generated UUID to all elements in the XML ID field.
+Add a randomly generated UUID to all elements in the XML ID field that are currently missing one.
 """
 from lxml import etree
 import pandas as pd

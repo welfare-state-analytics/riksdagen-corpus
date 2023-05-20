@@ -1,5 +1,5 @@
 """
-Calculate an upper bound for person mapping accuracy
+Split protocol into <div> sections baseed on the paragraph sign '§' and other heuristics
 """
 from pyriksdagen.utils import protocol_iterators, infer_metadata
 from lxml import etree

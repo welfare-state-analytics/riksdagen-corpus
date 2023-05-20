@@ -1,5 +1,5 @@
 """
-Calculate an upper bound for person mapping accuracy
+Calculate an upper bound for introduction mapping accuracy
 """
 from pyriksdagen.utils import protocol_iterators
 from lxml import etree
