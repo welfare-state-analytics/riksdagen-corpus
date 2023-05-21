@@ -87,8 +87,11 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
     MP database.
     """
     scanned_protocol = False
-    if root.findall(".//{http://www.tei-c.org/ns/1.0}pb")[0].get('facs').startswith("https://betalab.kb.se/"):
-        scanned_protocol = True
+    try:
+        if root.findall(".//{http://www.tei-c.org/ns/1.0}pb")[0].get('facs').startswith("https://betalab.kb.se/"):
+            scanned_protocol = True
+    except:
+        pass
 
     mp_expressions = load_expressions(phase="mp")
     ids_to_join = set(join_intros['xml_id1'].tolist()+join_intros['xml_id2'].tolist())
