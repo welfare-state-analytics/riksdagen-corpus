@@ -1,5 +1,5 @@
 """
-Further process metadata into easy-to-use tables, and save them in input/
+Query wikidata for metadata, process it and save it in corpus/metadata
 """
 from SPARQLWrapper import SPARQLWrapper, JSON
 import numpy as np

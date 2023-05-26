@@ -1,5 +1,6 @@
 '''
-Process raw wikidata tables into files used for corpus speech matching.
+Process metadata from corpus/metadata into easy-to-use tables, and save them in input/
+Necessary for redetect.py and other scripts that rely on metadata.
 '''
 from pyriksdagen.metadata import Corpus
 import argparse
