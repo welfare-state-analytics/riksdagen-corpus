@@ -16,10 +16,13 @@ def create_tei(root, metadata):
     Create a Parla-Clarin TEI element from a list of segments.
 
     Args:
-        txts: a list of lists of strings, corresponds to content blocks and paragraphs, respectively.
-        metadata: Metadata of the parliamentary session
+        root (lxml.etree.Element): the protocol data as an lxml tree root
+        metadata (dict): Metadata of the parliamentary session
+    
+    Returns
+        tei (lxml.etree.Element): the protocol as a TEI-formatted lxml tree root
     """
-    # TODO: Rewrite completely
+
     metadata = copy.deepcopy(metadata)
 
     tei = etree.Element("TEI")
@@ -87,6 +90,15 @@ def create_tei(root, metadata):
     return tei
 
 def dict_to_tei(data):
+    """
+    Convert a metadata dict into a TEI XML tree
+
+    Args:
+        data (dict): dictionary containing protocol level metadata
+
+    Returns:
+        tei (lxml.etree.Element): the protocol as a TEI-formatted lxml tree root
+    """
     metadata = copy.deepcopy(data)
 
     tei = etree.Element("TEI")
@@ -127,6 +139,15 @@ def gen_parlaclarin_corpus(
 ):
     """
     Create a parla-clarin file out of all protocols that are provided.
+
+    Args:
+        protocol_db (pd.df): dataframe of the protocols
+        archive (???): KB archive instance
+        corpus_metadata (dict): metadata on the corpus
+        str_output (bool): whether to return as an str. Deprecated.
+
+    Returns:
+        corpus (???): parlaclarin corpus
     """
     teis = []
 
@@ -145,6 +166,13 @@ def gen_parlaclarin_corpus(
 def dict_to_parlaclarin(data):
     """
     Create per-protocol parlaclarin files of all files provided in file_db.
+    Does not return anything, instead writes the data on disk.
+
+    Args:
+        data (dict): metadata and data
+
+    Returns:
+        None
     """
     session = data["session"]
     default_metadata = dict(
@@ -172,6 +200,12 @@ def dict_to_parlaclarin(data):
 def parlaclarin_workflow_individual(file_db, archive, corpus_metadata=dict()):
     """
     Create per-protocol parlaclarin files of all files provided in file_db.
+    Does not return anything, instead writes the data on disk.
+
+    Args:
+        file_db (pd.df): dataframe of the files
+        archive (???): KB archive instance
+        corpus_metadata (dict): corpus-level metadata
     """
     for corpus_year, package_ids, year_db in year_iterator(file_db):
         print("Generate corpus for year", corpus_year)

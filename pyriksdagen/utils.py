@@ -17,6 +17,11 @@ XML_NS = "{http://www.w3.org/XML/1998/namespace}"
 def elem_iter(root, ns="{http://www.tei-c.org/ns/1.0}"):
     """
     Return an iterator of the elements (utterances, notes, segs, pbs) in a protocol body
+
+    Args:
+        root (lxml.etree.Element): the protocol data as an lxml tree root
+        ns (str): TEI namespace, defaults to TEI v1.0.
+
     """
     for body in root.findall(".//" + ns + "body"):
         for div in body.findall(ns + "div"):
@@ -40,6 +45,9 @@ def elem_iter(root, ns="{http://www.tei-c.org/ns/1.0}"):
 def infer_metadata(filename):
     """
     Heuristically infer metadata from a protocol id or filename.
+    
+    Args:
+        filename (str): the protocols filename. Agnostic wrt. dashes and underscores. Can be relative or absolute.
 
     Returns a dict with keys "protocol", "chamber", "year", and "number"
     """
@@ -81,6 +89,12 @@ def infer_metadata(filename):
 def clean_html(s):
     """
     Read a HTML file and turn it into valid XML
+
+    Args:
+        s (str): original HTML as a string
+
+    Returns:
+        tree (lxml.etree.tree): XML tree
     """
     soup = BeautifulSoup(s)
     pretty_html = soup.prettify()
@@ -90,6 +104,13 @@ def clean_html(s):
 def validate_xml_schema(xml_path, schema_path):
     """
     Validate an XML file against a schema.
+
+    Args:
+        xml_path (str): path to the XML file
+        schema_path (str): path to the schema file
+
+    Returns:
+        is_valid (bool): whether the XML is valid according to the schema
     """
     xml_file = lxml.etree.parse(xml_path)
     xml_file.xinclude()
@@ -103,6 +124,14 @@ def validate_xml_schema(xml_path, schema_path):
 def protocol_iterators(corpus_root, start=None, end=None):
     """
     Returns an iterator of protocol paths in a corpus.
+
+    Args:
+        corpus_root (str): path to the corpus root
+        start (int): start year
+        end (int): end year
+
+    Returns:
+        iterator of the protocols as relative paths to current location
     """
     folder = Path(corpus_root)
     for protocol in sorted(folder.glob("**/*.xml")):
@@ -123,6 +152,12 @@ def protocol_iterators(corpus_root, start=None, end=None):
 def parse_date(s):
     """
     Parse datetimes with special error handling
+
+    Args:
+        s (str): datetime as a string
+
+    Returns:
+        date (datetime.datetime): date as a datetime
     """
     try:
         return datetime.strptime(s, "%Y-%m-%d")
@@ -137,6 +172,17 @@ def parse_date(s):
             return None
 
 def get_formatted_uuid(seed=None):
+    """
+    Generate a UUID and format it in base58.
+    The formatted UUID is prepended bu 'i-' so that it can be used as an XML ID
+
+    Args:
+        seed (str): Random seed. Optional.
+
+    Returns:
+        id (str): formatted UUID
+    """
+
     if seed is None:
         x = uuid.uuid4()
     else:
@@ -162,6 +208,14 @@ def _download_with_progressbar(url, fname, chunk_size=1024):
             bar.update(size)
 
 def download_corpus(path="./"):
+    """
+    Downloads the full corpus.
+    Does not return anything, just downloads the corpus ZIP and unzips it.
+
+    Args:
+        path (str): path for the download
+
+    """
     p = Path(path)
     url = "https://github.com/welfare-state-analytics/riksdagen-corpus/releases/latest/download/corpus.zip"
     zip_path = p / "corpus.zip"
