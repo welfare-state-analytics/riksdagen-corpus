@@ -3,7 +3,7 @@ import re
 from pyparlaclarin.read import element_hash
 import dateparser
 import pandas as pd
-from .utils import elem_iter, infer_metadata, parse_date, XML_NS
+from .utils import elem_iter, infer_metadata, parse_date, XML_NS, get_formatted_uuid
 from .db import load_expressions, filter_db, load_patterns, load_metadata
 from .segmentation import (
     detect_mp,
