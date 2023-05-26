@@ -109,6 +109,13 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
     Returns:
         protocol as an lxml tree
     """
+    scanned_protocol = False
+    try:
+        if root.findall(".//{http://www.tei-c.org/ns/1.0}pb")[0].get('facs').startswith("https://betalab.kb.se/"):
+            scanned_protocol = True
+    except:
+        pass
+
     mp_expressions = load_expressions(phase="mp")
     ids_to_join = set(join_intros['xml_id1'].tolist()+join_intros['xml_id2'].tolist())
     
@@ -177,10 +184,10 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
                     # if current_speaker is None and 'name' in d:
                     elif 'name' in d:
 
-                        current_speaker = detect_mp(d, db=mp_db, party_map=party_map)
+                        current_speaker = detect_mp(d, db=mp_db, party_map=party_map, match_fuzzily=scanned_protocol)
 
                         if current_speaker is None and len(mp_db_secondary) > 0:
-                            current_speaker = detect_mp(d, db=mp_db_secondary, party_map=party_map)
+                            current_speaker = detect_mp(d, db=mp_db_secondary, party_map=party_map, match_fuzzily=scanned_protocol)
                     else:
                         current_speaker = None
 
