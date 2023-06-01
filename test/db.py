@@ -13,7 +13,7 @@ import warnings
 # OBS. set to False before commit / push!
 # If True, the script attempts to write
 # missing-data dfs to csv files.
-running_local = False
+running_local = True
 ####
 ###
 ##
@@ -117,6 +117,7 @@ class Test(unittest.TestCase):
 
 
 	def write_integrity_error(self, df_name, error_df):
+		# todo: add path var to put unit test results in the right directory
 		error_df.to_csv(f"corpus/quality_assessment/known_mps/integrity-error_{df_name}.csv", sep=';', index=False)	
 
 
@@ -237,14 +238,15 @@ class Test(unittest.TestCase):
 		self.assertTrue(missing_names.empty, missing_names)
 
 
-	def test_cf_emil_location(self):
+	def test_cf_known_iorter_metadata(self):
 		df_name = "location_specifier"
 		df = self.get_meta_df(df_name)
-		emil = self.get_emil()
-		missing_locations = pd.DataFrame(columns=list(emil.columns))
+		iorter = pd.read_csv("corpus/quality_assessment/known_iorter/known_iorter.csv", sep=";")
+		missing_locations = pd.DataFrame(columns=list(iorter.columns))
 
-		for i, row in emil.iterrows():
-			if row['wiki_id'] not in df['wiki_id'].unique():
+		for i, row in iorter.iterrows():
+			filtered = df.loc[(df["wiki_id"] == row["wiki_id"]) & (df["location"] == row["iort"])]
+			if len(filtered) < 1:
 				missing_locations.loc[len(missing_locations)] = row
 
 		if not missing_locations.empty:
@@ -252,7 +254,7 @@ class Test(unittest.TestCase):
 			if running_local:
 				self.write_missing(df_name, missing_locations)
 
-		#self.assertTrue(missing_locations.empty, missing_locations)
+		self.assertTrue(missing_locations.empty, missing_locations)
 
 
 	def test_cf_emil_member(self):
