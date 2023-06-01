@@ -13,7 +13,7 @@ import warnings
 # OBS. set to False before commit / push!
 # If True, the script attempts to write
 # missing-data dfs to csv files.
-running_local = True
+running_local = False
 ####
 ###
 ##
