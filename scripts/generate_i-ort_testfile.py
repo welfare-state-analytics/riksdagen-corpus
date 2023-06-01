@@ -19,8 +19,9 @@ def main():
 			primary, rest = r["surname_iort"].split('senare')
 			primary = primary.strip(' ')
 			primary = primary.strip(',')
-			rows.append([r["wiki_id"], primary, r["first_name"]])
-			surname = primary.split(' i ')[0]
+
+			surname, ort1 = primary.split(' i ')
+			rows.append([r["wiki_id"], surname, r["first_name"], ort1])
 			orter = []
 			#print(">", primary)
 			#print("|", rest)
@@ -34,12 +35,19 @@ def main():
 			for ort in orter:
 			#	print("-->", ort)
 				counter += 1
-				rows.append([r["wiki_id"], f"{surname} i {ort}", r["first_name"]])
+				rows.append([r["wiki_id"], surname, r["first_name"], ort])
 
 		else:
-			rows.append([r["wiki_id"], r["surname_iort"], r["first_name"]])
+			try:
+				surname, ort = r["surname_iort"].split(' i ')
+			except:
+				try:
+					surname, ort = r["surname_iort"].split(' I ')
+				except:
+					print(r["surname_iort"])
+			rows.append([r["wiki_id"], surname, r["first_name"], ort])
 
-	outdf = pd.DataFrame(rows, columns=["wiki_id", "surname_iort", "first_name"])
+	outdf = pd.DataFrame(rows, columns=["wiki_id", "surname", "first_name", "iort"])
 	outdf.to_csv("corpus/quality_assessment/known_iorter/known_iorter.csv", sep=";", index=False)
 	
 	print(counter, lines, c1, counter+lines, len(outdf))
