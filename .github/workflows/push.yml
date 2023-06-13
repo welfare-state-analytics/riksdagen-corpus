@@ -3,7 +3,7 @@ name: Perform unit tests
 on: [push]
 
 jobs:
-  build:
+  unittest:
 
     runs-on: ubuntu-latest
     strategy:
@@ -25,7 +25,7 @@ jobs:
         pip install alto-xml
         pip install nltk
 
-    - name: Test with unittest
+    - name: Test data format and integrity
       env: # authentication
         KBLAB_USERNAME: ${{ secrets.KBLAB_USERNAME }}
         KBLAB_PASSWORD: ${{ secrets.KBLAB_PASSWORD }}
@@ -41,6 +41,23 @@ jobs:
         echo "WARN on upstream errors"
 
         python -m unittest test.db
+  
+  notebooks:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install .
+
     - name: Test notebooks
       run: |
         pip install pytest nbmake
