@@ -41,3 +41,7 @@ jobs:
         echo "WARN on upstream errors"
 
         python -m unittest test.db
+    - name: Test notebooks
+      run: |
+        pip install pytest nbmake
+        pytest --nbmake **/*ipynb
