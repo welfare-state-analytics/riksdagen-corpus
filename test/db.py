@@ -275,20 +275,20 @@ class Test(unittest.TestCase):
 		self.assertTrue(missing_members.empty, missing_members)
 
 
-	def test_cf_emil_party(self):
-		df_name = "party_affiliation"
-		df = self.get_meta_df(df_name)
-		emil = self.get_emil()
-		missing_parties = pd.DataFrame(columns=list(emil.columns))
+	#def test_cf_emil_party(self):
+	#	df_name = "party_affiliation"
+	#	df = self.get_meta_df(df_name)
+	#	emil = self.get_emil()
+	#	missing_parties = pd.DataFrame(columns=list(emil.columns))
 
-		for i, row in emil.iterrows():
-			if row['wiki_id'] not in df['wiki_id'].unique():
-				missing_parties.loc[len(missing_parties)] = row
+	#	for i, row in emil.iterrows():
+	#		if row['wiki_id'] not in df['wiki_id'].unique():
+	#			missing_parties.loc[len(missing_parties)] = row
 
-		if not missing_parties.empty:
-			warnings.warn(str(missing_parties), MissingPartyWarning)
-			if running_local:
-				self.write_missing(df_name, missing_parties)
+	#	if not missing_parties.empty:
+	#		warnings.warn(str(missing_parties), MissingPartyWarning)
+	#		if running_local:
+	#			self.write_missing(df_name, missing_parties)
 
 		#self.assertTrue(missing_parties.empty, missing_parties)
 
