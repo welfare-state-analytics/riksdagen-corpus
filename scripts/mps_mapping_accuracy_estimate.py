@@ -63,6 +63,8 @@ def main(args):
             if acc[1] + acc[0] > 0:
                 rows.append([acc[0], acc[1], acc[0] / (acc[0] + acc[1]), metadata["year"], metadata["chamber"]])
     accuracy = correct / (correct + incorrect)
+
+    #Calculate a 90% credible interval, through a binomial experiment
     lower = beta.ppf(0.05, correct + 1, incorrect + 1)
     upper = beta.ppf(0.95, correct + 1, incorrect + 1)
     print(f"ACC: {100 * accuracy:.2f}% [{100* lower:.2f}% – {100* upper:.2f}%]")
