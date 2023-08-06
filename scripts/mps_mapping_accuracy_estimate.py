@@ -1,3 +1,11 @@
+"""
+Estimates Accuracy of speaker-speech mapping from gold standard annotations
+
+Command-line arguments:
+--start: The start year (default: 1867)
+--end: The end year (default: 2022)
+--path_goldstandard: Path to the gold standard CSV file 
+"""
 from pyriksdagen.utils import protocol_iterators, elem_iter, infer_metadata
 from lxml import etree
 import pandas as pd
@@ -87,7 +95,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--start", type=int, default=1867)
     parser.add_argument("--end", type=int, default=2022)
-    parser.add_argument("--path_goldstandard", type=str, default='PATH/TO/GOLDSTANDARD')
+    parser.add_argument("--path_goldstandard", type=str, required=True)
     args = parser.parse_args()
     df = main(args)
 
