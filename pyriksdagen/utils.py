@@ -233,3 +233,26 @@ def download_corpus(path="./"):
         zip_ref.extractall(extraction_path)
 
     zip_path.unlink()
+
+def get_doc_dates(protocol):
+    """
+    Gets the content of <docDate> elements. 
+
+    - match_error is True when the value of the "when" attribte doesn't match the element's text value.
+
+    - dates is a list of dates.
+    """
+    match_error = False
+    dates = []
+    tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
+    xml_ns = "{http://www.w3.org/XML/1998/namespace}"
+    parser = etree.XMLParser(remove_blank_text=True)
+    root = etree.parse(protocol, parser).getroot()
+    date_elems = root.findall(f"{tei_ns}docDate")
+    for de in date_elems:
+        when_attrib = de.get("when")
+        elem_text = de.text
+        if not when_attrib == elem_text:
+            match_error = True
+        dates.append(when_attrib)
+    return match_error, dates
