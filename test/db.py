@@ -7,6 +7,7 @@ import unittest
 import pandas as pd
 import yaml
 from pyriksdagen.db import load_metadata
+from pyriksdagen.utils import protocol_iterators, get_doc_dates
 from pathlib import Path
 import warnings
 
@@ -291,6 +292,29 @@ class Test(unittest.TestCase):
 	#			self.write_missing(df_name, missing_parties)
 
 		#self.assertTrue(missing_parties.empty, missing_parties)
+
+	def test_session_dates(self):
+		dates_df = pd.read_csv("corpus/quality_assessment/session-dates/session-dates.csv", sep=';')
+		protocols = sorted(list(protocol_iterators("corpus/protocols/", start=1867, end=2022)))
+		date_counter = 0
+		for protocol in protocols:
+		    #print(protocol)
+		    #if protocol not in ignore:
+		    E, dates = get_doc_dates(protocol)
+		    self.assertFalse(E, f"A docDate 'when' attr doesn't match its text value.")
+		    for d in dates:
+		        date_counter += 1
+		        self.assertTrue(((dates_df['protocol'] == protocol) & (dates_df['date'] == d)).any(), f"{d} not in list of known dates for {protocol}")
+		if len(dates_df)-date_counter > 0:
+		    rows = []
+		    for i, r in dates_df.iterrows():
+		        tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
+		        xml_ns = "{http://www.w3.org/XML/1998/namespace}"
+		        parser = etree.XMLParser(remove_blank_text=True)
+		        root = etree.parse(r['protocol'], parser).getroot()
+		        d = r["date"]
+		        date_match = root.findall(f'{tei_ns}docDate[@when="{d}"]')
+		        self.assertEqual(len(date_match), 1, f"[{r['protocol']}, {r['date']}] not in the known session dates csv")
 
 
 
