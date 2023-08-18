@@ -5,6 +5,7 @@ to a single bibtex document, `corpus/references/references.bib`.
  """
 from tqdm import tqdm
 import os, sys
+import argparse
 
 refs_dir = "corpus/references/"
 
@@ -69,9 +70,9 @@ def validate_bib(b, filename):
 
 
 
-def main():
+def main(args):
 	bibfiles = os.listdir(f"{refs_dir}bibfiles")
-	with open(f"{refs_dir}references.bib", "w+") as outf:
+	with open(args.output_file, "w+") as outf:
 		for bf in tqdm(bibfiles, total=len(bibfiles)):
 			with open(refs_dir+'bibfiles/'+bf, 'r') as f:
 				b = f.readlines()
@@ -92,4 +93,7 @@ def main():
 
 
 if __name__ == '__main__':
-	main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("-o", "--output-file", type=str, default="corpus/references/_compiled-references.bib", help="Where do you want the compiled reference list?")
+    args = parser.parse_args()
+    main(args)
