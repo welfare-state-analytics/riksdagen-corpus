@@ -1,6 +1,6 @@
 # References
 
-This directory contains references used within the corpus. The sub-directory `bibfiles/` contains `.bib` files for each reference. The file `references.bib` is a compiled single reference file for the `.bib` files contained in the `bibfiles/` directory. `references.bib` is compiled using `scripts/references/compile-bib-references.py`.
+This directory contains references used within the corpus. The sub-directory `bibfiles/` contains `.bib` files for each reference. A single reference list `.bib` file can be compiled using `scripts/references/compile-bib-references.py`.
 
 
 ## Conventions
