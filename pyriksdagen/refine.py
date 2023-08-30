@@ -3,7 +3,7 @@ import re
 from pyparlaclarin.read import element_hash
 import dateparser
 import pandas as pd
-from .utils import elem_iter, infer_metadata, parse_date
+from .utils import elem_iter, infer_metadata, parse_date, XML_NS, get_formatted_uuid
 from .db import load_expressions, filter_db, load_patterns, load_metadata
 from .segmentation import (
     detect_mp,
@@ -18,6 +18,16 @@ from datetime import datetime
 
 
 def redetect_protocol(metadata, protocol):
+    """
+    For each intro in a protocol, detect which MP is mentioned and map it to metadata.
+
+    Args:
+        metadata (dict): basic metadata on the protocol
+        protocol (lxml.etree): protocol as an lxml tree
+    
+    Returns:
+        protocol as an lxml tree
+    """
     tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
     parser = etree.XMLParser(remove_blank_text=True)
 
@@ -83,9 +93,29 @@ def redetect_protocol(metadata, protocol):
 
 def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minister_db_secondary=None, speaker_db=None, metadata=None, party_map=None, join_intros=None, protocol_id=None, unknown_variables=None):
     """
-    Re-detect MPs in a parla clarin protocol, based on the (updated)
-    MP database.
+    For each intro in a protocol, detect which MP is mentioned and map it to metadata.
+
+    Args:
+        root (lxml.etree): protocol as an lxml tree
+        mp_db (pd.df): MP database
+        minister (pd.df): minister database 
+        speaker_db (pd.df): speaker database 
+        metadata (dict): basic metadata on the protocol
+        party_map (dict): map from party abbreviations to party names
+        join_intros (???): intros to be joined
+        protocol_id (str): ID of the protocol
+        unknown_variables (list): which variables to detect for unknown MPs
+    
+    Returns:
+        protocol as an lxml tree
     """
+    scanned_protocol = False
+    try:
+        if root.findall(".//{http://www.tei-c.org/ns/1.0}pb")[0].get('facs').startswith("https://betalab.kb.se/"):
+            scanned_protocol = True
+    except:
+        pass
+
     mp_expressions = load_expressions(phase="mp")
     ids_to_join = set(join_intros['xml_id1'].tolist()+join_intros['xml_id2'].tolist())
     
@@ -154,10 +184,10 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
                     # if current_speaker is None and 'name' in d:
                     elif 'name' in d:
 
-                        current_speaker = detect_mp(d, db=mp_db, party_map=party_map)
+                        current_speaker = detect_mp(d, db=mp_db, party_map=party_map, match_fuzzily=scanned_protocol)
 
                         if current_speaker is None and len(mp_db_secondary) > 0:
-                            current_speaker = detect_mp(d, db=mp_db_secondary, party_map=party_map)
+                            current_speaker = detect_mp(d, db=mp_db_secondary, party_map=party_map, match_fuzzily=scanned_protocol)
                     else:
                         current_speaker = None
 
@@ -182,8 +212,10 @@ def find_introductions(root, pattern_db, intro_ids, minister_db=None):
     Find instances of curation patterns in all files in a folder.
 
     Args:
+        root (lxml.etree): protocol as a lxml tree
         pattern_db: Patterns to be matched as a Pandas DataFrame.
-        folder: Folder of files to be searched.
+        intro_ids: List of IDs that have been detected as intros.
+        minister_db: deprecated
     """
 
     # return root
@@ -293,7 +325,15 @@ def find_introductions(root, pattern_db, intro_ids, minister_db=None):
 
 def detect_date(root, metadata):
     """
-    Detect notes with dates in them. Update docDate metadata accordingly.
+    Detects notes with dates in them. Updates the docDate metadata in the teiHeader accordingly.
+
+    Args:
+        root (lxml.etree): protocol as a lxml tree
+        metadata (dict): basic metadata about the protocol
+
+    Returns:
+        root (lxml.etree): protocol as a lxml tree
+        dates (list): list of the detected dates in an ISO format (YYYY-MM-DD)
     """
 
     dates = set()
@@ -381,34 +421,34 @@ def detect_date(root, metadata):
 
 def update_ids(root, protocol_id):
     """
-    Update element id's
+    Update element IDs. TODO
+
+    Args:
+        root (lxml.etree): protocol as a lxml tree
+        protocol_id (str): protocol ID. DEPRECATED
+
+    Returns:
+        root (lxml.etree): protocol as a lxml tree
+        ids (set): set of all IDs in the protocol
     """
     ids = set()
-    xml_id = "{http://www.w3.org/XML/1998/namespace}id"
-    for tag, elem in elem_iter(root):
-        if tag == "u":
-            if xml_id in elem.attrib:
-                ids.add(elem.attrib[xml_id])
-        elif xml_id in elem.attrib:
-            del elem.attrib[xml_id]
+    xml_id = f"{XML_NS}id"
 
     for tag, elem in elem_iter(root):
         if tag == "u":
-            if xml_id not in elem.attrib:
-                updated_hash = element_hash(elem, protocol_id)
-                hash_ix = 0
-                updated_id = "i-" + updated_hash + "-" + str(hash_ix)
-
-                while updated_id in ids:
-                    hash_ix += 1
-                    updated_id = "i-" + updated_hash + "-" + str(hash_ix)
-
-                elem.attrib[xml_id] = updated_id
-                ids.add(updated_id)
-
             for subelem in elem:
-                if xml_id in subelem.attrib:
-                    del subelem.attrib[xml_id]
+                x = subelem.attrib.get(f'{xml_ns}id', get_formatted_uuid())
+                subelem.attrib[f'{xml_ns}id'] = x
+                ids.add(x)
 
-    return root
+            x = elem.attrib.get(f'{xml_ns}id', get_formatted_uuid())
+            elem.attrib[f'{xml_ns}id'] = x
+            ids.add(x)
+                
+        elif tag in ["note", "pb"]:
+            x = elem.attrib.get(f'{xml_ns}id', get_formatted_uuid())
+            elem.attrib[f'{xml_ns}id'] = x
+            ids.add(x)
+
+    return root, ids
 

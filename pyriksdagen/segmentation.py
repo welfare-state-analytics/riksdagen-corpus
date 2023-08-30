@@ -5,14 +5,18 @@ ultimately into the Parla-Clarin XML format.
 import numpy as np
 import re, hashlib
 from .db import load_expressions
-from .match_mp import match_mp, name_equals, names_in, names_in_rev
+from .match_mp import match_mp, name_equals, name_almost_equals, names_in, names_in_rev
 from itertools import combinations
 
 # Classify paragraph
 def classify_paragraph(paragraph, classifier, prior=np.log([0.8, 0.2])):
     """
     Classify paragraph into speeches / descriptions with provided classifier
-
+    
+    Args:
+        paragraph (str): the text content of a paragraph
+        classifier (dict): a dictionary that includes 'dim', 'ft' and 'model' keys for classification
+        prior (np.array): log prior for the classes
     """
     words = paragraph.split()
     V = len(words)
@@ -33,6 +37,14 @@ def classify_paragraph(paragraph, classifier, prior=np.log([0.8, 0.2])):
 def detect_speaker(matched_txt, speaker_db, metadata=None):
     """
     Detect the speaker of the house
+
+    Args:
+        matched_txt (str): intro text
+        speaker_db (pd.df): dataframe containing the speaker metadata
+        metadata (dict): metadata about the protocol. Deprecated.
+
+    Returns
+        speaker_id (str): ID as a string if detected, otherwise None
     """
     lower_txt = matched_txt.lower()
 
@@ -57,7 +69,15 @@ def detect_speaker(matched_txt, speaker_db, metadata=None):
 
 def detect_minister(matched_txt, minister_db, intro_dict):
     """
-    Detect a minister in a snippet of text. Returns a minister id (str) if found, otherwise None.
+    Detect a minister
+
+    Args:
+        matched_txt (str): intro text
+        minister_db (pd.df): dataframe containing the minister metadata
+        intro_dict (dict): processed information about the intro text, possibly containing eg. 'gender' 
+    
+    Returns:
+        ministed_id (str): ID as a string if detected, otherwise None
     """
     lower_txt = matched_txt.lower()
 
@@ -100,7 +120,7 @@ def detect_minister(matched_txt, minister_db, intro_dict):
             if len(set(role_matches["id"])) == 1:
                 return role_matches["id"].iloc[0]
 
-def detect_mp(intro_dict, db, party_map=None):
+def detect_mp(intro_dict, db, party_map=None, match_fuzzily=False):
     """
     Match an MP in a text snippet. Returns an MP id (str) if found, otherwise None.
 
@@ -111,11 +131,25 @@ def detect_mp(intro_dict, db, party_map=None):
     variables = ['party_abbrev', 'specifier', 'name']
     variables = [v for v in variables if v in list(db.columns)] # removes missing variables
     variables = sum([list(map(list, combinations(variables, i))) for i in range(len(variables) + 1)], [])[1:]
-    matching_funs = [name_equals, names_in]
-
+    if match_fuzzily:
+        matching_funs = [name_equals, name_almost_equals, names_in]
+    else:
+        matching_funs = [name_equals, names_in]
     return match_mp(intro_dict, db, variables, matching_funs)
 
 def intro_to_dict(intro_text, expressions=None):
+    """
+    Convert introduction to a metadata dictionary.
+    Tries to detect 'name', 'gender', 'party', 'specified', as well as some misc things labeled as 'other'.
+
+    Args:
+        intro_text (str): introduction text
+        expressions (list): a list of regular expressions used for metadata detection.
+            Used for optimization, the algorithm works the same if not provided.
+    
+    Returns:
+        d (dict): detected metadata
+    """
     if expressions is None:
         expressions = load_expressions(phase="mp")
     intro_text = intro_text.strip()
@@ -146,6 +180,7 @@ def intro_to_dict(intro_text, expressions=None):
 
     if "specifier" in d:
         d["specifier"] = d["specifier"].replace("i ", "")
+        d["specifier"] = d["specifier"].replace("från ", "")
 
     return d
 
