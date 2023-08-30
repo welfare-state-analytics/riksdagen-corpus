@@ -48,7 +48,7 @@ def check_next_prev_coherence(root):
 class Test(unittest.TestCase):
 
     def test_next_prev(self):
-        for protocol_path in progressbar.progressbar(sorted(list(protocol_iterators("corpus/protocols/")))[:300]):
+        for protocol_path in progressbar.progressbar(sorted(list(protocol_iterators("corpus/protocols/")))):
             root = get_root(protocol_path)
             coherent_protocol = check_next_prev_coherence(root)
 
