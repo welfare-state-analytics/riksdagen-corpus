@@ -35,7 +35,8 @@ def check_next_prev_coherence(root):
                     if next_attrib is not None:
                         if next_attrib != elem.attrib[f"{XML_NS}id"]:
                             return False
-                        next_attrib = None
+
+                    next_attrib = elem.attrib.get("next")
 
                     if "prev" in elem.attrib:
                         if prev_id != elem.attrib["prev"]:
@@ -52,8 +53,7 @@ class Test(unittest.TestCase):
             root = get_root(protocol_path)
             coherent_protocol = check_next_prev_coherence(root)
 
-        # Perfect matching is unreasonable and a sign of an error in the test
-        self.assertTrue(coherent_protocol, f"Protocol {protocol_path} has incoherent 'next'/'prev' tagging")
+            self.assertTrue(coherent_protocol, f"Protocol {protocol_path} has incoherent 'next'/'prev' tagging")
 
 if __name__ == '__main__':
     # begin the unittest.main()
