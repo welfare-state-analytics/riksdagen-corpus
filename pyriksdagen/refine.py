@@ -143,13 +143,13 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
             elem.set("next", "delete")
             if current_speaker is not None:
                 elem.attrib["who"] = current_speaker
-                if prev is None:
-                    prev = elem
-                else:
-                    new_prev = prev.attrib[xml_ns + "id"]
-                    new_next = elem.attrib[xml_ns + "id"]
-                    elem.set("prev", new_prev)
-                    prev.set("next", new_next)
+                if prev is not None:
+                    prev_id = prev.attrib[xml_ns + "id"]
+                    elem_id = elem.attrib[xml_ns + "id"]
+                    elem.set("prev", prev_id)
+                    prev.set("next", elem_id)
+
+                prev = elem
 
             else:
                 elem.attrib["who"] = "unknown"
