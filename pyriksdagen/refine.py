@@ -143,19 +143,19 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
             elem.set("next", "delete")
             if current_speaker is not None:
                 elem.attrib["who"] = current_speaker
-                if prev is not None:
-                    prev_id = prev.attrib[xml_ns + "id"]
-                    elem_id = elem.attrib[xml_ns + "id"]
-                    elem.set("prev", prev_id)
-                    prev.set("next", elem_id)
-
-                prev = elem
-
             else:
                 elem.attrib["who"] = "unknown"
-                prev = None
+
+            if prev is not None:
+                prev_id = prev.attrib[xml_ns + "id"]
+                elem_id = elem.attrib[xml_ns + "id"]
+                elem.set("prev", prev_id)
+                prev.set("next", elem_id)
+            prev = elem
+        
         elif tag == "note":
             if elem.attrib.get("type", None) == "speaker":
+                prev = None
                 text = elem.text
                 # Join split intros detected by BERT
                 if elem.attrib.get(xml_ns + "id") in ids_to_join:
@@ -194,8 +194,6 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
                     if current_speaker is None:
                         unknowns.append([protocol_id, elem.attrib.get(f'{xml_ns}id')] + [d.get(key, "") for key in unknown_variables])
                     
-                    prev = None
-
     # Do two loops to preserve attribute order
     for tag, elem in elem_iter(root):
         if tag == "u":
