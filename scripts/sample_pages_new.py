@@ -123,6 +123,12 @@ def sample_pages(df, random_state=None):
     df = df[cols]
     return df
 
+def flatten(df):
+    df = df.drop_duplicates(["protocol_id", "x"])
+    columns = ["protocol_id", "x", "comments", "facs" ,"github"]
+    df = df[columns]
+    return df
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("-f", '--seed', type=str, default=None, help="Random state seed")
@@ -130,6 +136,7 @@ if __name__ == "__main__":
     parser.add_argument('-p', '--pages_per_decade', type=int, default=30, help="How many pages per decade? 30")
     parser.add_argument("-s", "--start", type=int, default=1920, help="Start year")
     parser.add_argument("-e", "--end", type=int, default=2022, help="End year")
+    parser.add_argument("--flatten", type=bool, default=False, help="Flatten output to only contain pages instead of elements")
     args = parser.parse_args()
 
     digest = hashlib.md5(args.seed.encode("utf-8")).digest()
@@ -157,6 +164,9 @@ if __name__ == "__main__":
 
         cols = cols1 + cols2
         sample = sample[cols]
+        if args.flatten:
+            sample = flatten(sample)
+
         sample.to_csv(f"input/quality-control/sample_{decade}.csv", index=False)
 
         protocols_unique = list(sample.protocol_id.unique())
