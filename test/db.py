@@ -114,7 +114,7 @@ class Test(unittest.TestCase):
 
 
 	def write_missing(self, df_name, missing):
-		missing.to_csv(f"corpus/quality_assessment/known_mps/missing_{df_name}.csv", sep=';', index=False)
+		missing.to_csv(f"corpus/_quality_assessment/unittest_failure/missing_{df_name}.csv", sep=';', index=False)
 
 
 	def write_integrity_error(self, df_name, error_df):
@@ -275,23 +275,23 @@ class Test(unittest.TestCase):
 
 		self.assertTrue(missing_members.empty, missing_members)
 
+	@unittest.skip("Skipping party_affiliation test")
+	def test_cf_emil_party(self):
+		df_name = "party_affiliation"
+		df = self.get_meta_df(df_name)
+		emil = self.get_emil()
+		missing_parties = pd.DataFrame(columns=list(emil.columns))
 
-	#def test_cf_emil_party(self):
-	#	df_name = "party_affiliation"
-	#	df = self.get_meta_df(df_name)
-	#	emil = self.get_emil()
-	#	missing_parties = pd.DataFrame(columns=list(emil.columns))
+		for i, row in emil.iterrows():
+			if row['wiki_id'] not in df['wiki_id'].unique():
+				missing_parties.loc[len(missing_parties)] = row
 
-	#	for i, row in emil.iterrows():
-	#		if row['wiki_id'] not in df['wiki_id'].unique():
-	#			missing_parties.loc[len(missing_parties)] = row
+		if not missing_parties.empty:
+			warnings.warn(str(missing_parties), MissingPartyWarning)
+			if running_local:
+				self.write_missing(df_name, missing_parties)
 
-	#	if not missing_parties.empty:
-	#		warnings.warn(str(missing_parties), MissingPartyWarning)
-	#		if running_local:
-	#			self.write_missing(df_name, missing_parties)
-
-		#self.assertTrue(missing_parties.empty, missing_parties)
+		self.assertTrue(missing_parties.empty, missing_parties)
 
 	def test_session_dates(self):
 		dates_df = pd.read_csv("corpus/quality_assessment/session-dates/session-dates.csv", sep=';')
