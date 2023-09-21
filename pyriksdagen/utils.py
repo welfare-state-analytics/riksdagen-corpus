@@ -16,7 +16,7 @@ XML_NS = "{http://www.w3.org/XML/1998/namespace}"
 
 def elem_iter(root, ns="{http://www.tei-c.org/ns/1.0}"):
     """
-    Return an iterator of the elements (utterances, notes, segs, pbs) in a protocol body
+    Return an iterator of the elements (utterances, notes, pbs) in a protocol body
 
     Args:
         root (lxml.etree.Element): the protocol data as an lxml tree root
@@ -32,8 +32,8 @@ def elem_iter(root, ns="{http://www.tei-c.org/ns/1.0}"):
                     yield "note", elem
                 elif elem.tag == ns + "pb":
                     yield "pb", elem
-                elif elem.tag == ns + "seg":
-                    yield "seg", elem
+                #elif elem.tag == ns + "seg": # Code doesn't return segs anyway (2023-09-20), but
+                #    yield "seg", elem        # commenting out in case of catastrophy -- fully delete after
                 elif elem.tag == "u":
                     elem.tag = ns + "u"
                     yield "u", elem
