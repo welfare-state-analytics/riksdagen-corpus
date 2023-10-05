@@ -22,8 +22,11 @@
 
 ## accuracy plot
 
-1. run* ``
+1. run* `accuracy_version_plot.py`
 
+## descriptive stats for MP section
+
+1. run* `mp-counts.py` -- info printed to console
 ___
 
 \* from project root
