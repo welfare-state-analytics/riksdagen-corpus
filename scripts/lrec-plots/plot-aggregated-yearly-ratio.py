@@ -2,6 +2,7 @@
 import matplotlib.pyplot as plt
 import os
 import pandas as pd
+import pandas.api.types as pdtypes
 
 
 
@@ -32,10 +33,31 @@ def main():
     for py in pyears:
         rows.append([py, df.loc[df['parliament_year']==py, "ratio"].mean()])
 
-    newdf = pd.DataFrame(rows, columns=["Parliament_starting_in", "Avg_ratio"])
-    newdf.set_index("Parliament_starting_in", inplace=True)
 
-    newdf.plot.line()
+
+    newdf = pd.DataFrame(rows, columns=["Parliament_starting_in", "Avg_ratio"])
+    newdf.to_csv(f"{here}/_MP-coverage-ratios.csv", sep=';')
+
+
+
+
+    newdf = None
+
+    newdf = pd.read_csv(f"{here}/_MP-coverage-ratios.csv", sep=';')
+    newdf.set_index("Parliament_starting_in", inplace=True)
+    print(newdf)
+
+    p, a = plt.subplots()
+    a.plot(newdf['Avg_ratio'])
+    a.spines['top'].set_visible(False)
+    a.spines['right'].set_visible(False)
+    plt.title("Ratio: members of parliament to seats")
+    #print(a.xaxis.get_ticklabels())
+    #for ix, label in enumerate(a.xaxis.get_ticklabels(), start=1):
+    #    lab = int(label.get_text())
+    #    if lab%20 != 0:
+    #        label.set_visible(False)
+
     plt.savefig(f"{here}/_MP_db_coverage-vs-baseline.pdf", format='pdf', dpi=300)
     #plt.show()
 
