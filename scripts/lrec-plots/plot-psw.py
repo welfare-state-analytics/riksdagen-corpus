@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
 import os
 import pandas as pd
 
@@ -22,12 +23,19 @@ def main():
     ax2.plot(df['intros'])
     ax2.set_title("Speeches")
     ax2.set_ylim(bottom=0)
+    scale_y2 = 1e3
+    ticks_y2 = ticker.FuncFormatter(lambda x, pos: '{0:g}k'.format(x/scale_y2))
+    ax2.yaxis.set_major_formatter(ticks_y2)
     ax3.plot(df['words'])
+    scale_y = 1e6
+    ticks_y = ticker.FuncFormatter(lambda x, pos: '{0:g}M'.format(x/scale_y))
+    ax3.yaxis.set_major_formatter(ticks_y)
     ax3.set_title("Words")
     ax3.set_ylim(bottom=0)
-    ax3.ticklabel_format(useOffset=False, style='plain')
+    #ax3.ticklabel_format(useOffset=False, style='plain')
     fig.set_size_inches(7,6)
     fig.tight_layout()
+    plt.show()
     plt.savefig(f"{here}/_prot-intro-word.pdf", format="pdf", dpi=300)
     #plt.show()
 
