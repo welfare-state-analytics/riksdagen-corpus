@@ -20,6 +20,10 @@
 1. run* `plot-aggregated-yearly-ratio.py`
 
 
+## accuracy plot
+
+1. run* ``
+
 ___
 
 \* from project root

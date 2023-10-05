@@ -57,13 +57,24 @@ def plot_gen(gender_df):
 
 
 def plot_gender_line(gender_df):
-    p, a =  plt.subplots()
+    p, (a2, a) =  plt.subplots(2, sharex=True)
+
+    a2.plot(gender_df['female_p'])
     a.plot(gender_df['female_p'])
+
+
     a.spines['top'].set_visible(False)
     a.spines['right'].set_visible(False)
-    plt.title("Proportion of female members of parliament")
-    plt.savefig(f"{here}/_prop-female.pdf", format='pdf', dpi=300)
-    #plt.show()
+    a2.spines['top'].set_visible(False)
+    a2.spines['bottom'].set_visible(False)
+    a2.spines['right'].set_visible(False)
+
+    a.set_ylim(0, 0.5)
+    a2.set_ylim(0.9, 1)
+
+    a2.set_title("Proportion of female members of parliament")
+    #plt.savefig(f"{here}/_prop-female.pdf", format='pdf', dpi=300)
+    plt.show()
 
 
 
@@ -92,9 +103,9 @@ def main():
     gender_df = pd.read_csv(f'{here}/_gender_df.csv', sep=';')
     age_df = pd.read_csv(f'{here}/_age_df.csv', sep=';')
     gen = gender_preprocess(gender_df)
-    plot_gen(gen)
+    #plot_gen(gen)
     plot_gender_line(gen)
-    plot_boxes(age_preprocess(age_df))
+    #plot_boxes(age_preprocess(age_df))
 
 
 
