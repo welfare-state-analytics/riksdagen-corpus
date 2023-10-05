@@ -57,7 +57,14 @@ def plot_gen(gender_df):
 
 
 def plot_gender_line(gender_df):
-    p, (a2, a) =  plt.subplots(2, sharex=True)
+    #p, (a2, a) =  plt.subplots(2, sharex=True)
+
+    p = plt.figure(figsize=(7,5), layout='constrained')
+    spec = p.add_gridspec(5,1)
+    a = p.add_subplot(spec[1:, 0])
+    a2 = p.add_subplot(spec[0,0])
+    a2.set_yticks([0.90, 1.00])
+
 
     a2.plot(gender_df['female_p'])
     a.plot(gender_df['female_p'])
@@ -71,10 +78,11 @@ def plot_gender_line(gender_df):
 
     a.set_ylim(0, 0.5)
     a2.set_ylim(0.9, 1)
+    a2.set_xticks([])
 
-    a2.set_title("Proportion of female members of parliament")
-    #plt.savefig(f"{here}/_prop-female.pdf", format='pdf', dpi=300)
-    plt.show()
+    p.suptitle("Proportion of female members of parliament")
+    plt.savefig(f"{here}/_prop-female.pdf", format='pdf', dpi=300)
+    #plt.show()
 
 
 

@@ -35,8 +35,9 @@ def count_speaches(protocol):
         if tag == "u":
             for segelem in elem:
                 words += count_words(segelem.text)
+    pb = tei.findall(f"{tei_ns}pb")
 
-    return speeches, words
+    return speeches, words, len(pb)
 
 
 
@@ -46,6 +47,7 @@ def main():
     p = {}
     s = {}
     w = {}
+    pages = {}
 
     protocols = sorted(list(protocol_iterators("corpus/protocols/", start=1867, end=2022)))
     for prot in protocols:
@@ -58,16 +60,19 @@ def main():
         if year not in w:
             w[year] = 0
         p[year] += 1
+        if year not in pages:
+            pages[year] = 0
         #print(p,s)
-        intros, words = count_speaches(prot)
+        intros, words, pagen = count_speaches(prot)
         s[year] += intros
         w[year] += words
-        print(prot, year, intros, words)
+        pages[year] += pagen
+        print(prot, year, pagen, intros, words)
 
     rows = []
-    cols = ["year", "prot", "intros", "words"]
+    cols = ["year", "prot", "pages", "intros", "words", ]
     for k, v in p.items():
-        rows.append([int(k), v, s[k], w[k]])
+        rows.append([int(k), v, pages[k], s[k], w[k]])
     df = pd.DataFrame(rows, columns = cols)
     df.to_csv(f"{here}/_psw-counts.csv", index=False, sep=';')
 
