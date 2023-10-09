@@ -84,7 +84,18 @@ def plot_gender_line(gender_df):
     plt.savefig(f"{here}/_prop-female.pdf", format='pdf', dpi=300)
     #plt.show()
 
+def plot_gender_line2(gender_df):
+    p, a = plt.subplots()
+    plt.rcParams.update({'font.size': 14})
+    a.plot(gender_df['female_p'])
+    a.set_ylim(0, 1)
+    plt.axhline(y=0.5, color='green', linestyle='--', linewidth=1, label='_nolegend_')
+    a.spines['top'].set_visible(False)
+    a.spines['right'].set_visible(False)
+    p.suptitle("Proportion of female members of parliament")
+    #plt.show()
 
+    plt.savefig(f"{here}/_prop-female2.pdf", format='pdf', dpi=300)
 
 
 def gender_preprocess(gender_df):
@@ -112,7 +123,8 @@ def main():
     age_df = pd.read_csv(f'{here}/_age_df.csv', sep=';')
     gen = gender_preprocess(gender_df)
     #plot_gen(gen)
-    plot_gender_line(gen)
+    #plot_gender_line(gen)
+    plot_gender_line2(gen)
     #plot_boxes(age_preprocess(age_df))
 
 

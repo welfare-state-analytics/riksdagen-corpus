@@ -16,11 +16,13 @@ def main():
     df = pd.read_csv(f"{here}/_psw-counts.csv", sep=';')
     print(df)
     df.set_index('year', inplace=True)
+
+    plt.rcParams.update({'font.size': 14})
     fig, (ax1, ax2, ax3) = plt.subplots(3)#, sharex=True)
     ax1.plot(df['prot'])
     ax1.set_title("Records")
     ax1.set_ylim(bottom=0)
-    ax2.plot(df['intros'])
+    ax2.plot(df['t_speeches'])
     ax2.set_title("Speeches")
     ax2.set_ylim(bottom=0)
     scale_y2 = 1e3

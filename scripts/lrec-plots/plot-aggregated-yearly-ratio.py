@@ -48,6 +48,7 @@ def main():
     print(newdf)
 
     p, a = plt.subplots()
+    plt.rcParams.update({'font.size': 14})
     a.plot(newdf['Avg_ratio'])
     a.spines['top'].set_visible(False)
     a.spines['right'].set_visible(False)
