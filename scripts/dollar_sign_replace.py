@@ -17,7 +17,7 @@ import re
 tei_ns ="{http://www.tei-c.org/ns/1.0}"
 xml_ns = "{http://www.w3.org/XML/1998/namespace}"
 
-def dollar_signs(root, exp_dollar_1, exp_dollar_2):
+def dollar_signs(root, exp_dollar_1, exp_dollar_2, exp_amp_1, exp_amp_2):
     for body in root.findall(f".//{tei_ns}body"):
         for div in body.findall(f"{tei_ns}div"):
             for elem in div:
@@ -36,6 +36,14 @@ def dollar_signs(root, exp_dollar_1, exp_dollar_2):
                     elif exp_dollar_2.search(elemtext) is not None:
                         m = exp_dollar_2.search(elemtext).group(0)
                         m_new = m.replace("$", "§")
+                        elem.text = elem.text.replace(m, m_new)
+                    elif exp_amp_1.search(elemtext) is not None:
+                        m = exp_amp_1.search(elemtext).group(0)
+                        m_new = m.replace("&", "§")
+                        elem.text = elem.text.replace(m, m_new)
+                    elif exp_amp_2.search(elemtext) is not None:
+                        m = exp_amp_2.search(elemtext).group(0)
+                        m_new = m.replace("&", "§")
                         elem.text = elem.text.replace(m, m_new)
 
     return root
@@ -65,6 +73,8 @@ def main(args):
     
     exp_dollar_1 = re.compile("^8 [0-9]{1,2}\.")
     exp_dollar_2 = re.compile("^[0-9]{1,2} ?\$")
+    exp_amp_1    = re.compile("^[0-9]{1,2} ?&")
+    exp_amp_2    = re.compile("^& [0-9]{1,2}\.")
 
     soft_hyphen = re.compile("^[0-9]{1,2} ?\$")
 
@@ -72,7 +82,7 @@ def main(args):
         with open(protocol) as f:
             root = etree.parse(f, parser).getroot()
 
-        root = dollar_signs(root, exp_dollar_1, exp_dollar_2)
+        root = dollar_signs(root, exp_dollar_1, exp_dollar_2, exp_amp_1, exp_amp_2)
         root = join_soft_hyphens(root, soft_hyphen)
         b = etree.tostring(
             root, pretty_print=True, encoding="utf-8", xml_declaration=True
