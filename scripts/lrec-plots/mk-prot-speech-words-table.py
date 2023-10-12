@@ -63,7 +63,7 @@ def main():
     w = {}
     pages = {}
 
-    protocols = sorted(list(protocol_iterators("corpus/protocols/", start=1920, end=2022)))
+    protocols = sorted(list(protocol_iterators("corpus/protocols/", start=1867, end=2022)))
     for prot in protocols:
         year = prot.split('/')[-1].split('-')[1][:4]
         #print(prot, year)
