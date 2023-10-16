@@ -53,6 +53,7 @@ def main():
     a.spines['top'].set_visible(False)
     a.spines['right'].set_visible(False)
     plt.title("Ratio: members of parliament to seats")
+    plt.axhline(y=1, color='green', linestyle='--', linewidth=1, label='_nolegend_')
     #print(a.xaxis.get_ticklabels())
     #for ix, label in enumerate(a.xaxis.get_ticklabels(), start=1):
     #    lab = int(label.get_text())

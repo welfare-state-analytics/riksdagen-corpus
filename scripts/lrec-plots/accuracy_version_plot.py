@@ -12,7 +12,7 @@ def update_plot(version):
     colors = list('bgrcmyk')
     default_cycler = (cycler(color=colors) +
                       cycler(linestyle=(['-', '--', ':', '-.']*2)[:len(colors)]))
-    plt.rc('axes', prop_cycle=default_cycler)
+    plt.rc('axes')#, prop_cycle=default_cycler)
     f, ax = plt.subplots()
 
     df = pd.read_csv('input/accuracy/difference.csv')
@@ -41,11 +41,11 @@ def update_plot(version):
         x = dfv['year'].tolist()
         y = dfv['accuracy'].tolist()
         x, y = zip(*sorted(zip(x,y),key=lambda x: x[0]))
-        plt.plot(x, y, linewidth=1.75)
+        plt.plot(x, y, linewidth=1.75, label='_nolegengd_')
     plt.rcParams.update({'font.size': 14})
-    plt.axhline(y=0.95, color='green', linestyle='--', linewidth=1, label='_nolegend_')
+    plt.axhline(y=0.90, color='green', linestyle='--', linewidth=1, label='_nolegend_')
     plt.title('Estimated accuracy for identification of speaker')
-    plt.legend(version, loc ="upper left")
+    #plt.legend(version, loc ="upper left")
     #ax.set_xlabel('Year')
     ax.set_ylabel('Accuracy', fontsize=13)
     ax.spines['top'].set_visible(False)
