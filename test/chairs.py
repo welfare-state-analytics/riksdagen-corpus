@@ -21,7 +21,7 @@ class ChairHog(Warning):
 
 
 
-class ChairInWrongTid(Warning):
+class ChairInWrongTimePeriod(Warning):
 
     def __init__(self, m):
         self.message = f"There is {m}."
@@ -216,9 +216,9 @@ class Test(unittest.TestCase):
             if c in tvok_chairs:
                 tkc_in_enkt = True
         if tkc_in_enkt:
-            warnings.warn('tvåkammar chair in enkammartid',ChairInWrongTid)
+            warnings.warn('tvåkammar chair in enkammartid',ChairInWrongTimePeriod)
         if ekc_in_tvkt:
-            warnings.warn('enkammar chair in tvåkammartid', ChairInWrongTid)
+            warnings.warn('enkammar chair in tvåkammartid', ChairInWrongTimePeriod)
         self.assertFalse(tkc_in_enkt)
         self.assertFalse(ekc_in_tvkt)
 
