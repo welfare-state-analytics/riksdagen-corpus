@@ -45,7 +45,7 @@ class ChairMissingFromRange(Warning):
 
 
 
-class ChairOOR(Warning):
+class ChairOutOfRange(Warning):
 
     def __init__(self, chamber):
         self.message = f"There are chairs that are not within the acceptable range of the chamber: {chamber}."
@@ -57,7 +57,7 @@ class ChairOOR(Warning):
 
 
 
-class ChairYearOOR(Warning):
+class ChairYearOutOfRange(Warning):
 
     def __init__(self, m):
         self.message = f"In {m} <-- chair is missing."
@@ -172,7 +172,7 @@ class Test(unittest.TestCase):
         for k, v in max_chair.items():
             oor_chairs = chairs.loc[(chairs['chamber'] == k) & (chairs['chair_nr'] > v)]
             if len(oor_chairs) > 0:
-                warnings.warn(k, ChairOOR)
+                warnings.warn(k, ChairOutOfRange)
             self.assertEqual(len(oor_chairs), 0)
 
 
@@ -234,7 +234,7 @@ class Test(unittest.TestCase):
         chair_mp = self.get_chair_mp()
         oor_year = self.get_oor_year()
         rd_years = chair_mp['parliament_year'].unique()
-        OOR = False
+        OutOfRange = False
         missing_in_R = False
         for y in rd_years:
             year_chair_mp_chairs = chair_mp.loc[
@@ -254,8 +254,8 @@ class Test(unittest.TestCase):
                 if len(excludes) > 0:
                     for x in excludes:
                         if x in year_chair_mp_chairs:
-                            OOR = True
-                            warnings.warn(f"{y}: {x}", ChairYearOOR)
+                            OutOfRange = True
+                            warnings.warn(f"{y}: {x}", ChairYearOutOfRange)
                 if len(tvok_chairs) > len(year_chair_mp_chairs)+len(excludes):
                     for c in tvok_chairs:
                         if c not in year_chair_mp_chairs and c not in excludes:
@@ -269,8 +269,8 @@ class Test(unittest.TestCase):
                 if len(excludes) > 0:
                     for x in excludes:
                         if x in year_chair_mp_chairs:
-                            OOR = True
-                            warnings.warn(f"{y}: {x}", ChairYearOOR)
+                            OutOfRange = True
+                            warnings.warn(f"{y}: {x}", ChairYearOutOfRange)
                 if len(enk_chairs) < len(year_chair_mp_chairs)+len(excludes):
                     for c in tvok_chairs:
                         if c not in year_chair_mp_chairs and c not in excludes:
@@ -278,7 +278,7 @@ class Test(unittest.TestCase):
                             warnings.warn(f"{y}: {c}", ChairMissingFromRange)
                 elif len(enk_chairs) > len(year_chair_mp_chairs)+len(excludes):
                     self.assertFalse(True, "¡Sth is super wrong!")
-        self.assertFalse(OOR)
+        self.assertFalse(OutOfRange)
         self.assertFalse(missing_in_R)
 
 
