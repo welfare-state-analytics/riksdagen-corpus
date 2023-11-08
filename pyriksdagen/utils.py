@@ -256,3 +256,32 @@ def get_doc_dates(protocol):
             match_error = True
         dates.append(when_attrib)
     return match_error, dates
+
+def write_protocol(prot_elem, prot_path):
+    """
+    Writes the protocol lxml element (`prot_elem`) to the specified path (`prot_path`).
+    """
+    b = etree.tostring(
+        prot_elem,
+        pretty_print=True,
+        encoding="utf-8",
+        xml_declaration=True
+    )
+    with open(prot_path, "wb") as f:
+        f.write(b)
+
+def parse_protocol(protocol_path, get_ns=False):
+    """
+    Parse a protocol, return root element (and name space defnitions).
+    """
+    tei_ns = "{http://www.tei-c.org/ns/1.0}"
+    xml_ns = "{http://www.w3.org/XML/1998/namespace}"
+    parser = etree.XMLParser(remove_blank_text=True)
+    root = etree.parse(protocol_path, parser).getroot()
+    if get_ns:
+        return root, {"tei_ns":tei_ns, "xml_ns":xml_ns}
+    else:
+        return root
+
+
+
