@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
-Delimit table of contents in protocols since the 2014/15 parliament year
+Delimit table of contents in protocols since the 2014/15 parliament year.
+
+N.B. Two files ['corpus/protocols/201718/prot-201718--101.xml', 'corpus/protocols/202122/prot-202122--099.xml'] contained no \<pb> elems and thus, the TOC div was added just below the heading -- these were fixed manually.
 """
 from copy import deepcopy
 from lxml import etree
