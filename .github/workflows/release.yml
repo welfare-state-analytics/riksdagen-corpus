@@ -33,6 +33,9 @@ jobs:
       run: |
         PYTHONPATH="$PYTHONPATH:." python scripts/mapping_accuracy_estimate.py
         PYTHONPATH="$PYTHONPATH:." python scripts/accuracy_version_plot.py -v ${{ github.ref }}
+    - name: Update Readme
+      run: |
+        PYTHONPATH="$PYTHONPATH:." python scripts/stats-dashboard/generate-markdown.py -v ${{ github.ref }}
     - name: Build and publish module
       env: # authentication
         PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
@@ -49,6 +52,10 @@ jobs:
         git add input/accuracy/difference.csv
         git add input/accuracy/version_plot.png
         git commit -m "docs: generate a new accuracy plot"
+        git add README.md
+        git add scripts/stats-dashboard/descr_stats_version.csv
+        git add scripts/stats-dashboard/
+        git commit -m "docs: update README"
         git add dist
         git add pyproject.toml
         git commit -m "chore: build module"
