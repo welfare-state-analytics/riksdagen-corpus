@@ -16,6 +16,7 @@ from py_markdown_table.markdown_table import markdown_table
 from tqdm import tqdm
 import argparse
 import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
 import os
 import pandas as pd
 import re, subprocess
@@ -198,6 +199,18 @@ def count_MIN():
 
 
 def gen_prot_plot(df, path, title_string, ylab):
+    scales = {
+        "Words":1e6,
+        "Pages":1e3,
+        "Speeches":1e3,
+        "Records":1
+    }
+    labels = {
+        "Words":"M",
+        "Pages":"k",
+        "Speeches":"k",
+        "Records":""
+    }
     path_dir = os.path.dirname(path)
     fig_name = os.path.basename(path).split('.')[0]
     versions = df.columns
@@ -210,6 +223,8 @@ def gen_prot_plot(df, path, title_string, ylab):
     plt.legend(versions, loc ="upper left")
     a.set_xlabel('Year')
     a.set_ylabel(ylab)
+    ticks_y = ticker.FuncFormatter(lambda x, pos: '{0:g}{1}'.format(x/scales[ylab], labels[ylab]))
+    a.yaxis.set_major_formatter(ticks_y)
     plt.savefig(f"{path_dir}/{fig_name}.png")
 
 
@@ -283,11 +298,11 @@ def main(args):
     print("...done")
 
     print("GENERATING PLOTS OF MP COVERAGE:")
-    mp_coverage = subprocess.run(
-        ['python', 'scripts/stats-dashboard/mp-coverage.py'],
-        capture_output=True, text=True
-    )
-    assert mp_coverage.returncode == 0
+    #mp_coverage = subprocess.run(
+    #    ['python', 'scripts/stats-dashboard/mp-coverage.py'],
+    #    capture_output=True, text=True
+    #)
+    #assert mp_coverage.returncode == 0
     mp_plot = subprocess.run(
         ['python', 'scripts/stats-dashboard/plot-mp-coverage.py', "-v", args.version],
         capture_output=True, text=True
