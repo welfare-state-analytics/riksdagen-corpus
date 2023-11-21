@@ -4,7 +4,7 @@
 
 # Swedish parliamentary proceedings --- 1867--today --- {Version}
 
-_Westac Project_, 2020--2023 | 
+_Westac Project_, 2020--2024 |
 _Swerik Project_, 2023--2025
 
 
