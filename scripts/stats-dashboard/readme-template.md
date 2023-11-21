@@ -91,9 +91,12 @@ If you find any errors, it is possible to submit corrections to them. This is do
 
 ## Acknowledgement of support
 
-- Westac funding: 
+- Westac funding:2018-0606
 
-- Swerik funding:
+- Swerik funding:IN22-0003
+
+<img src="scripts/stats-dashboard/figures/logos/rj.png" width="250"/>
+<img src="scripts/stats-dashboard/figures/logos/vr.png" width="250"/>
 
 ---
 Last update: {Updated}

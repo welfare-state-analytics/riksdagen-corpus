@@ -4,7 +4,7 @@
 
 # Swedish parliamentary proceedings --- 1867--today --- v0.10.0
 
-_Westac Project_, 2020--2023 | 
+_Westac Project_, 2020--2024 |
 _Swerik Project_, 2023--2025
 
 
@@ -102,9 +102,12 @@ If you find any errors, it is possible to submit corrections to them. This is do
 
 ## Acknowledgement of support
 
-- Westac funding: 
+- Westac funding: 2018-0606
 
-- Swerik funding:
+- Swerik funding: IN22-0003
+
+<img src="scripts/stats-dashboard/figures/logos/rj.png" width="250"/>
+<img src="scripts/stats-dashboard/figures/logos/vr.png" width="250"/>
 
 ---
-Last update: 2023-11-09, 21:57:06
+Last update: 2023-11-21, 12:27:58
