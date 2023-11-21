@@ -21,7 +21,7 @@ def main(args):
     plt.figure(figsize=(38.20, 10.80))
 
     fk = df.loc[df["chamber"] == "fk"]
-    plt.plot(fk['parliament_year'], fk['baseline_N'], label = "FK baseline")
+    plt.plot(fk['parliament_year'], fk['baseline_N'], label = "First Chamber baseline")
     for ix, y in enumerate(fk['parliament_year'].unique()):
         col = "blue"
         plt.boxplot(fk.loc[fk['parliament_year'] == y, "N_MP"].tolist(), positions=[ix],
@@ -36,7 +36,7 @@ def main(args):
 
 
     ak = df.loc[df["chamber"] == "ak"]
-    plt.plot(ak['parliament_year'], ak['baseline_N'], label = "AK baseline")
+    plt.plot(ak['parliament_year'], ak['baseline_N'], label = "Second Chamber baseline")
     c = 0
     for ix, y in enumerate(ak['parliament_year'].unique()):
         c += 1
@@ -52,7 +52,7 @@ def main(args):
 
 
     ek = df.loc[df["chamber"] == "ek"]
-    plt.plot(ek['parliament_year'], ek['baseline_N'], label = "EK baseline")
+    plt.plot(ek['parliament_year'], ek['baseline_N'], label = "Unicameral baseline")
     for ix, y in enumerate(ek['parliament_year'].unique(), start = c):
         col = "green"
         plt.boxplot(ek.loc[ek['parliament_year'] == y, "N_MP"].tolist(), positions=[ix],
@@ -64,9 +64,10 @@ def main(args):
             medianprops=dict(color="red")
         )
 
-    plt.title(f"MEP Coverage, relativee to target values ({args.version})")
-    plt.legend()
-    plt.xticks(rotation=90)
+    plt.title(f"MEP Coverage, relativee to baseline values ({args.version})")
+    plt.legend(fontsize="x-large")
+    plt.xticks(range(0, len(year), 5), year[::5], rotation = 90, fontsize=15)
+    #plt.xticks(rotation=90)
     plt.savefig(f"{here}/figures/mp-coverage/mp-coverage.png",
         dpi=100,
         bbox_inches='tight',
