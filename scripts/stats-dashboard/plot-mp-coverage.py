@@ -64,9 +64,10 @@ def main(args):
             medianprops=dict(color="red")
         )
 
-    plt.title(f"MEP Coverage, relativee to baseline values ({args.version})")
-    plt.legend(fontsize="x-large")
-    plt.xticks(range(0, len(year), 5), year[::5], rotation = 90, fontsize=15)
+    plt.title(f"MEP Coverage, relativee to baseline values ({args.version})", fontsize="40")
+    plt.legend(fontsize="35")
+    plt.xticks(range(0, len(year), 5), year[::5], rotation = 90, fontsize=25)
+    plt.yticks(fontsize=20)
     #plt.xticks(rotation=90)
     plt.savefig(f"{here}/figures/mp-coverage/mp-coverage.png",
         dpi=100,
