@@ -19,7 +19,7 @@ from pyriksdagen.utils import (
 from tqdm import tqdm
 import argparse, json, multiprocessing, os
 import pandas as pd
-import os, re, sys
+import os, re, sys, time
 
 
 
@@ -169,14 +169,13 @@ def join_intros(df):
 
 
 def dictify_hyphen_names():
+    print("Generating hypen-surname.json")
     df = pd.read_csv("input/segmentation/_join_intros.csv")
     D = {}
     for i, r in df.iterrows():
         if r['ignore'] != "TRUE":
             t1 = strip_whitespace(r['text1'])
             t2 = strip_whitespace(r['text2'])
-            print("==|"+t1+"|==")
-            print("==|"+t2+"|==")
             m = None
             if t1.endswith('-'):
                 intro = ''.join([t1, t2])
@@ -236,10 +235,16 @@ if __name__ == "__main__":
                         help="create a dictionary of names with hyphens in the `input/segmentation/join_intros.csv` file.")
     parser.add_argument("-j", "--join-only",
                         action="store_true",
-                        help="only join split intros (requires input/segmentation/join_intros.csv, produced by --classify-only)")
+                        help="only join split intros (requires input/segmentation/join_intros.csv, produced by --classify-only and hyphen-surname.json produced by --hyphen check. It's a good idea to check both of these files manually to kick out errors in join_intros, and verify hyphenationd in hyphen-surname.json.)")
     args = parser.parse_args()
     if args.classify_only == args.join_only:
         if args.classify_only == False:
+            print("You probably shouldn't do this! Specify -c, -H, or -j in stages.")
+            time.sleep(5)
+            print("Run with --help for more info.")
+            time.sleep(10)
+            print("Maybe you know better, so I'll continue in 20 seconds. Cancel with ctrl+c.")
+            time.sleep(20)
             args.classify_only = True
             args.join_only = True
             main(args)
