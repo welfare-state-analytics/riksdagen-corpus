@@ -8,6 +8,7 @@ import lxml
 from lxml import etree
 from bs4 import BeautifulSoup
 from pathlib import Path
+from pyparlaclarin.refine import format_texts
 from datetime import datetime
 import hashlib, uuid, base58, requests, tqdm
 import zipfile
@@ -261,6 +262,7 @@ def write_protocol(prot_elem, prot_path):
     """
     Writes the protocol lxml element (`prot_elem`) to the specified path (`prot_path`).
     """
+    prot_elem = format_texts(prot_elem)
     b = etree.tostring(
         prot_elem,
         pretty_print=True,
