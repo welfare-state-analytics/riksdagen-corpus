@@ -155,7 +155,7 @@ def join_intros(df):
                     intro = ''.join([t1, t2])
                     m = re.search(allcaps, intro).group(0).strip()
                     if m in D:
-                        intro = re.sub(allcaps, D[m]["correct"], intro)
+                        intro = re.sub(allcaps, f' {D[m]["correct"]}', intro)
                 else:
                     intro = ' '.join([t1, t2])
                 print(intro)
