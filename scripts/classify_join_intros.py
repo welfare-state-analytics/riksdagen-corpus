@@ -138,14 +138,11 @@ def join_intros(df):
     except:
         print("ERROR: `input/segmentation/_hyphen-surname.json` not found. Run with `-H`")
         sys.exit()
-    for p in protocols:
-        print("\n\n\n", p)
+    print("Joining split intros")
+    for p in tqdm(protocols, total=len(protocols)):
         p_df = df.loc[df["protocol"] == p]
         root, ns = parse_protocol(p, get_ns=True)
-        #body = root.find(f".//{ns['tei_ns']}body")
-        #print(body)
         for i, row in p_df.iterrows():
-            print('    ', row['xml_id1'], row['xml_id2'], row['ignore'])
             if pd.isnull(row['ignore']):
                 id1 = row['xml_id1']
                 id2 = row['xml_id2']
@@ -164,10 +161,8 @@ def join_intros(df):
                     intro = ' '.join([t1, t2])
                 else:
                     intro = ' '.join([t1, t2])
-                print(intro)
                 intro_a.text = intro
                 intro_b.getparent().remove(intro_b)
-                print("")
         write_protocol(root, p)
 
 
