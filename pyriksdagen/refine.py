@@ -31,8 +31,8 @@ def redetect_protocol(metadata, protocol):
     tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
     parser = etree.XMLParser(remove_blank_text=True)
 
-    party_mapping, join_intros, mp_db, minister_db, speaker_db = metadata
-    join_intros = join_intros[join_intros['protocol'] == protocol]
+    party_mapping, mp_db, minister_db, speaker_db = metadata
+    ## DEPRECIATED ##join_intros = join_intros[join_intros['protocol'] == protocol]
     
     protocol_id = protocol.split("/")[-1]
     metadata = infer_metadata(protocol)
@@ -76,7 +76,7 @@ def redetect_protocol(metadata, protocol):
         speaker_db=year_speaker_db,
         metadata=metadata,
         party_map=party_mapping,
-        join_intros=join_intros,
+        ## DEPRECIATED ##join_intros=join_intros,
         protocol_id=protocol_id,
         unknown_variables=["gender", "party", "other"],
     )
@@ -91,7 +91,7 @@ def redetect_protocol(metadata, protocol):
     return unk
 
 
-def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minister_db_secondary=None, speaker_db=None, metadata=None, party_map=None, join_intros=None, protocol_id=None, unknown_variables=None):
+def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minister_db_secondary=None, speaker_db=None, metadata=None, party_map=None, protocol_id=None, unknown_variables=None):
     """
     For each intro in a protocol, detect which MP is mentioned and map it to metadata.
 
@@ -117,7 +117,7 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
         pass
 
     mp_expressions = load_expressions(phase="mp")
-    ids_to_join = set(join_intros['xml_id1'].tolist()+join_intros['xml_id2'].tolist())
+    ## DEPRECIATED ##ids_to_join = set(join_intros['xml_id1'].tolist()+join_intros['xml_id2'].tolist())
     
     xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     current_speaker = None
@@ -158,11 +158,11 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
                 prev = None
                 text = elem.text
                 # Join split intros detected by BERT
-                if elem.attrib.get(xml_ns + "id") in ids_to_join:
-                    join_intro = join_intros.loc[
-                                (join_intros['xml_id1'] == elem.attrib.get(xml_ns + "id")) |
-                                (join_intros['xml_id2'] == elem.attrib.get(xml_ns + "id")), 'text']
-                    text = join_intro.iloc[0]
+                #if elem.attrib.get(xml_ns + "id") in ids_to_join:
+                #    join_intro = join_intros.loc[
+                #                (join_intros['xml_id1'] == elem.attrib.get(xml_ns + "id")) |
+                #                (join_intros['xml_id2'] == elem.attrib.get(xml_ns + "id")), 'text']
+                #    text = join_intro.iloc[0]
 
                 if type(text) == str:
                     d = intro_to_dict(text, mp_expressions)
