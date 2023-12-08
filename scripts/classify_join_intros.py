@@ -19,7 +19,7 @@ from pyriksdagen.utils import (
 from tqdm import tqdm
 import argparse, json, multiprocessing, os
 import pandas as pd
-import os, re
+import os, re, sys
 
 
 
@@ -80,15 +80,15 @@ def classify_split_intros(args):
     # Gather prediction data
     protocols = sorted(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end)))
     if args.read_intros:
-        intro_df = pd.read_csv('input/segmentation/intros.csv')
+        intro_df = pd.read_csv('input/segmentation/_intros.csv')
     else:
         print("Looking for intros")
         intro_df = find_intros(protocols)
-        intro_df.to_csv('input/segmentation/intros.csv', index=False)
+        intro_df.to_csv('input/segmentation/_intros.csv', index=False)
         print(intro_df)
 
     if args.read_predictions:
-        df = pd.read_csv("input/segmentation/intro-prediction-data.csv")
+        df = pd.read_csv("input/segmentation/_intro-prediction-data.csv")
     else:
         find_func = partial(find_consequtive_intros, intro_df=intro_df)
         data = []
@@ -98,7 +98,7 @@ def classify_split_intros(args):
                 data.append(df)
         df = pd.concat(data)
         print(df)
-        df.to_csv("input/segmentation/intro-prediction-data.csv", index=False)
+        df.to_csv("input/segmentation/_intro-prediction-data.csv", index=False)
 
     model = AutoModelForNextSentencePrediction.from_pretrained("_jesperjmb/MergeIntrosNSP").to("cuda")
     test_dataset = MergeDataset(df)
@@ -118,7 +118,7 @@ def classify_split_intros(args):
                     intros.append([protocol, xml_id1, xml_id2, text1, text2])
 
     df = pd.DataFrame(intros, columns=['protocol', 'xml_id1', 'xml_id2', 'text1', 'text2'])
-    df.to_csv('input/segmentation/join_intros.csv', index=False)
+    df.to_csv('input/segmentation/_join_intros.csv', index=False)
     return df
 
 
@@ -132,8 +132,12 @@ def strip_whitespace(text):
 
 def join_intros(df):
     protocols = df["protocol"].unique()
-    with open("input/segmentation/hyphen-surname.json", "r") as inj:
-        D = json.load(inj)
+    try:
+        with open("input/segmentation/_hyphen-surname.json", "r") as inj:
+            D = json.load(inj)
+    except:
+        print("ERROR: `input/segmentation/_hyphen-surname.json` not found. Run with `-H`")
+        sys.exit()
     for p in protocols:
         print("\n\n\n", p)
         p_df = df.loc[df["protocol"] == p]
@@ -168,7 +172,7 @@ def join_intros(df):
 
 
 def dictify_hyphen_names():
-    df = pd.read_csv("input/segmentation/join_intros.csv")
+    df = pd.read_csv("input/segmentation/_join_intros.csv")
     D = {}
     for i, r in df.iterrows():
         if r['ignore'] != "TRUE":
@@ -189,7 +193,7 @@ def dictify_hyphen_names():
             if m:
                 print("~~|"+m+"|~~")
             print("")
-    with open("input/segmentation/hyphen-surname.json", "w+") as outj:
+    with open("input/segmentation/_hyphen-surname.json", "w+") as outj:
         json.dump(D, outj, ensure_ascii=False, indent=4)
 
 
@@ -206,7 +210,7 @@ def main(args):
             if df:
                 join_intros(df)
             else:
-                join_intros(pd.read_csv('input/segmentation/join_intros.csv'))
+                join_intros(pd.read_csv('input/segmentation/_join_intros.csv'))
 
 
 
