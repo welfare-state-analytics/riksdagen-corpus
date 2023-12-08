@@ -160,6 +160,8 @@ def join_intros(df):
                     m = re.search(allcaps, intro).group(0).strip()
                     if m in D:
                         intro = re.sub(allcaps, f' {D[m]["correct"]}', intro)
+                elif t1.endswith(' S:') and t2.startswith('T '):
+                    intro = ' '.join([t1, t2])
                 else:
                     intro = ' '.join([t1, t2])
                 print(intro)
