@@ -35,5 +35,16 @@ jobs:
 
       - name: Check that files that aren't supposed to change remain unchanged
         run: |
-          PYTHONPATH="$PYTHONPATH:." python test/unchanged.py ${{steps.changedfiles.outputs.files_updated}}
-          PYTHONPATH="$PYTHONPATH:." python test/unchanged.py ${{steps.changedfiles.outputs.files_deleted}}
+          for f in ${{steps.changedfiles.outputs.files_updated}}
+          do
+            PYTHONPATH="$PYTHONPATH:." python test/unchanged.py "$"
+          done
+          for f in ${{steps.changedfiles.outputs.files_deleted}}
+          do
+            PYTHONPATH="$PYTHONPATH:." python test/unchanged.py "$f"
+          done
+
+          # PYTHONPATH="$PYTHONPATH:." python test/unchanged.py
+          # ${{steps.changedfiles.outputs.files_updated}}
+          # PYTHONPATH="$PYTHONPATH:." python test/unchanged.py
+          # ${{steps.changedfiles.outputs.files_deleted}}
