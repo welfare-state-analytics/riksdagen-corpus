@@ -31,8 +31,8 @@ def redetect_protocol(metadata, protocol):
     tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
     parser = etree.XMLParser(remove_blank_text=True)
 
-    party_mapping, join_intros, mp_db, minister_db, speaker_db = metadata
-    join_intros = join_intros[join_intros['protocol'] == protocol]
+    party_mapping, mp_db, minister_db, speaker_db = metadata
+    ## DEPRECIATED ##join_intros = join_intros[join_intros['protocol'] == protocol]
     
     protocol_id = protocol.split("/")[-1]
     metadata = infer_metadata(protocol)
@@ -76,7 +76,7 @@ def redetect_protocol(metadata, protocol):
         speaker_db=year_speaker_db,
         metadata=metadata,
         party_map=party_mapping,
-        join_intros=join_intros,
+        ## DEPRECIATED ##join_intros=join_intros,
         protocol_id=protocol_id,
         unknown_variables=["gender", "party", "other"],
     )
@@ -91,7 +91,7 @@ def redetect_protocol(metadata, protocol):
     return unk
 
 
-def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minister_db_secondary=None, speaker_db=None, metadata=None, party_map=None, join_intros=None, protocol_id=None, unknown_variables=None):
+def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minister_db_secondary=None, speaker_db=None, metadata=None, party_map=None, protocol_id=None, unknown_variables=None):
     """
     For each intro in a protocol, detect which MP is mentioned and map it to metadata.
 
@@ -117,7 +117,7 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
         pass
 
     mp_expressions = load_expressions(phase="mp")
-    ids_to_join = set(join_intros['xml_id1'].tolist()+join_intros['xml_id2'].tolist())
+    ## DEPRECIATED ##ids_to_join = set(join_intros['xml_id1'].tolist()+join_intros['xml_id2'].tolist())
     
     xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     current_speaker = None
@@ -136,63 +136,65 @@ def detect_mps(root, names_ids, pattern_db, mp_db=None, minister_db=None, minist
         speaker_db = speaker_db[speaker_db['chamber'] == chamber]
 
     for tag, elem in elem_iter(root):
-        if tag == "u":
-            # Deleting and adding attributes changes their order;
-            # Mark as 'delete' instead and delete later
-            elem.set("prev", "delete")
-            elem.set("next", "delete")
-            if current_speaker is not None:
-                elem.attrib["who"] = current_speaker
-            else:
-                elem.attrib["who"] = "unknown"
+        parent = elem.getparent()
+        if "type" not in parent.attrib or ("type" in parent.attrib and parent.attrib['type'] != "commentSection"): #ignore where people don't talk
+            if tag == "u":
+                # Deleting and adding attributes changes their order;
+                # Mark as 'delete' instead and delete later
+                elem.set("prev", "delete")
+                elem.set("next", "delete")
+                if current_speaker is not None:
+                    elem.attrib["who"] = current_speaker
+                else:
+                    elem.attrib["who"] = "unknown"
 
-            if prev is not None:
-                prev_id = prev.attrib[xml_ns + "id"]
-                elem_id = elem.attrib[xml_ns + "id"]
-                elem.set("prev", prev_id)
-                prev.set("next", elem_id)
-            prev = elem
-        
-        elif tag == "note":
-            if elem.attrib.get("type", None) == "speaker":
-                prev = None
-                text = elem.text
-                # Join split intros detected by BERT
-                if elem.attrib.get(xml_ns + "id") in ids_to_join:
-                    join_intro = join_intros.loc[
-                                (join_intros['xml_id1'] == elem.attrib.get(xml_ns + "id")) |
-                                (join_intros['xml_id2'] == elem.attrib.get(xml_ns + "id")), 'text']
-                    text = join_intro.iloc[0]
+                if prev is not None:
+                    prev_id = prev.attrib[xml_ns + "id"]
+                    elem_id = elem.attrib[xml_ns + "id"]
+                    elem.set("prev", prev_id)
+                    prev.set("next", elem_id)
+                prev = elem
 
-                if type(text) == str:
-                    d = intro_to_dict(text, mp_expressions)
-                    if 'name' in d:
-                        d['name'] = multiple_replace(d['name'])
-                        
-                    if 'other' in d:
-                        # Match minister
-                        if 'statsråd' in d["other"].lower() or 'minister' in d["other"].lower():
-                            current_speaker = detect_minister(text, minister_db, d)
+            elif tag == "note":
+                if elem.attrib.get("type", None) == "speaker":
+                    prev = None
+                    text = elem.text
+                    # Join split intros detected by BERT
+                    #if elem.attrib.get(xml_ns + "id") in ids_to_join:
+                    #    join_intro = join_intros.loc[
+                    #                (join_intros['xml_id1'] == elem.attrib.get(xml_ns + "id")) |
+                    #                (join_intros['xml_id2'] == elem.attrib.get(xml_ns + "id")), 'text']
+                    #    text = join_intro.iloc[0]
 
-                        elif 'talman' in d["other"].lower():
-                            current_speaker = detect_speaker(text, speaker_db, metadata=metadata)
+                    if type(text) == str:
+                        d = intro_to_dict(text, mp_expressions)
+                        if 'name' in d:
+                            d['name'] = multiple_replace(d['name'])
 
+                        if 'other' in d:
+                            # Match minister
+                            if 'statsråd' in d["other"].lower() or 'minister' in d["other"].lower():
+                                current_speaker = detect_minister(text, minister_db, d)
+
+                            elif 'talman' in d["other"].lower():
+                                current_speaker = detect_speaker(text, speaker_db, metadata=metadata)
+
+                            else:
+                                current_speaker = None
+
+                        # Match mp if not minister/talman and a name is identified
+                        # if current_speaker is None and 'name' in d:
+                        elif 'name' in d:
+
+                            current_speaker = detect_mp(d, db=mp_db, party_map=party_map, match_fuzzily=scanned_protocol)
+
+                            if current_speaker is None and len(mp_db_secondary) > 0:
+                                current_speaker = detect_mp(d, db=mp_db_secondary, party_map=party_map, match_fuzzily=scanned_protocol)
                         else:
                             current_speaker = None
 
-                    # Match mp if not minister/talman and a name is identified
-                    # if current_speaker is None and 'name' in d:
-                    elif 'name' in d:
-
-                        current_speaker = detect_mp(d, db=mp_db, party_map=party_map, match_fuzzily=scanned_protocol)
-
-                        if current_speaker is None and len(mp_db_secondary) > 0:
-                            current_speaker = detect_mp(d, db=mp_db_secondary, party_map=party_map, match_fuzzily=scanned_protocol)
-                    else:
-                        current_speaker = None
-
-                    if current_speaker is None:
-                        unknowns.append([protocol_id, elem.attrib.get(f'{xml_ns}id')] + [d.get(key, "") for key in unknown_variables])
+                        if current_speaker is None:
+                            unknowns.append([protocol_id, elem.attrib.get(f'{xml_ns}id')] + [d.get(key, "") for key in unknown_variables])
                     
     # Do two loops to preserve attribute order
     for tag, elem in elem_iter(root):

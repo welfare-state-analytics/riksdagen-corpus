@@ -30,6 +30,7 @@ def update_plot(version):
     # Save new values
     df.to_csv('input/accuracy/difference.csv', index=False)
 
+
     # prepend 'v' to version nr if not already there
     df['version'] = df['version'].apply(lambda s: s if s.startswith('v') else f'v{s}')
     # sort versions 

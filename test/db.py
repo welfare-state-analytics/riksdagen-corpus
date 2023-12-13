@@ -3,13 +3,16 @@ throw ERROR on inconsistencies on our side
 
 WARN on upstream errors
 """
-import unittest
-import pandas as pd
-import yaml
+from lxml import etree
+from pathlib import Path
 from pyriksdagen.db import load_metadata
 from pyriksdagen.utils import protocol_iterators, get_doc_dates
-from pathlib import Path
+import pandas as pd
+import unittest
 import warnings
+import yaml
+
+
 
 # OBS. set to False before commit / push!
 # If True, the script attempts to write
