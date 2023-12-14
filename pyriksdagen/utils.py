@@ -8,6 +8,7 @@ import lxml
 from lxml import etree
 from bs4 import BeautifulSoup
 from pathlib import Path
+from pyparlaclarin.refine import format_texts
 from datetime import datetime
 import hashlib, uuid, base58, requests, tqdm
 import zipfile
@@ -16,7 +17,7 @@ XML_NS = "{http://www.w3.org/XML/1998/namespace}"
 
 def elem_iter(root, ns="{http://www.tei-c.org/ns/1.0}"):
     """
-    Return an iterator of the elements (utterances, notes, segs, pbs) in a protocol body
+    Return an iterator of the elements (utterances, notes, pbs) in a protocol body
 
     Args:
         root (lxml.etree.Element): the protocol data as an lxml tree root
@@ -32,8 +33,8 @@ def elem_iter(root, ns="{http://www.tei-c.org/ns/1.0}"):
                     yield "note", elem
                 elif elem.tag == ns + "pb":
                     yield "pb", elem
-                elif elem.tag == ns + "seg":
-                    yield "seg", elem
+                #elif elem.tag == ns + "seg": # Code doesn't return segs anyway (2023-09-20), but
+                #    yield "seg", elem        # commenting out in case of catastrophy -- fully delete after
                 elif elem.tag == "u":
                     elem.tag = ns + "u"
                     yield "u", elem
@@ -256,3 +257,33 @@ def get_doc_dates(protocol):
             match_error = True
         dates.append(when_attrib)
     return match_error, dates
+
+def write_protocol(prot_elem, prot_path):
+    """
+    Writes the protocol lxml element (`prot_elem`) to the specified path (`prot_path`).
+    """
+    prot_elem = format_texts(prot_elem)
+    b = etree.tostring(
+        prot_elem,
+        pretty_print=True,
+        encoding="utf-8",
+        xml_declaration=True
+    )
+    with open(prot_path, "wb") as f:
+        f.write(b)
+
+def parse_protocol(protocol_path, get_ns=False):
+    """
+    Parse a protocol, return root element (and name space defnitions).
+    """
+    tei_ns = "{http://www.tei-c.org/ns/1.0}"
+    xml_ns = "{http://www.w3.org/XML/1998/namespace}"
+    parser = etree.XMLParser(remove_blank_text=True)
+    root = etree.parse(protocol_path, parser).getroot()
+    if get_ns:
+        return root, {"tei_ns":tei_ns, "xml_ns":xml_ns}
+    else:
+        return root
+
+
+

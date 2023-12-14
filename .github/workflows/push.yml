@@ -34,6 +34,7 @@ jobs:
         python -m unittest test.mp
         python -m unittest test.altocheck
         python -m unittest test.next_prev
+        python -m unittest test.paragraph_has_id
 
     - name: Test metadata integrity
       run: |
@@ -42,6 +43,7 @@ jobs:
         echo "WARN on upstream errors"
 
         python -m unittest test.db
+
   
   notebooks:
     runs-on: ubuntu-latest

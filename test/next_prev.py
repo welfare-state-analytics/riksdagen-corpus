@@ -28,18 +28,20 @@ def check_next_prev_coherence(root):
     prev_id = None
 
     for body in root.findall(f".//{TEI_NS}body"):
-        for div in root.findall(f".//{TEI_NS}div"):
-            for elem in div:
+        for elem in root.findall(f".//{TEI_NS}u"):
+            #for elem in div:
                 if elem.tag == f"{TEI_NS}u":
 
                     if next_attrib is not None:
                         if next_attrib != elem.attrib[f"{XML_NS}id"]:
+                            print(next_attrib, elem.attrib[f"{XML_NS}id"])
                             return False
 
                     next_attrib = elem.attrib.get("next")
 
                     if "prev" in elem.attrib:
                         if prev_id != elem.attrib["prev"]:
+                            print(next_attrib, elem.attrib["prev"])
                             return False
 
                     prev_id = elem.attrib[f"{XML_NS}id"]
