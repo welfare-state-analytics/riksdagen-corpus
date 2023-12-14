@@ -25,7 +25,9 @@ A full dataset is available under [this download link](https://github.com/welfar
 - Annual Parliamentary record (protocol) files in the ```corpus/protocols/``` directory
 - Structured metadata on members of parliament, ministers, and governments in the ```corpus/metadata/``` directory
 
-The workflow to use the data is demonstrated in [this Google Colab notebook](https://colab.research.google.com/drive/1C3e2gwi9z83ikXbYXNPfB6RF7spTgzxA?usp=sharing).
+The workflow to use the data with Python is demonstrated in [this Google Colab notebook](https://colab.research.google.com/drive/1C3e2gwi9z83ikXbYXNPfB6RF7spTgzxA?usp=sharing).
+
+The workflow to use the data from R can be found [here](https://github.com/swerik-project/rcr).
 
 ## Design choices of the project
 
