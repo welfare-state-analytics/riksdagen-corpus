@@ -126,23 +126,38 @@ def main():
     dates['baseline_N'] = dates.apply(get_baseline, args=(baseline_df,), axis=1)
 
     mp_meta = pd.read_csv("corpus/metadata/member_of_parliament.csv")
-    #convert full dates dates of mp_meta to datetime ('start', 'end') -- leave year as str
+    mp_meta = mp_meta[mp_meta.start.notnull()]
 
-    # Drop duplicates since "start" and "end" is all we need for counting the MPs
-    # Copy df so that we can retain the Wiki IDs
-    mp_meta_full = mp_meta.copy()
-    mp_meta = mp_meta.drop_duplicates(["start", "end"])
+    def impute_startend(se):
+        start, end = se
+        if isinstance(start, str):
+            # If no exact start date is given, set to the
+            # start of the year
+            if len(start) != 10:
+                start = start[:4] + "-01-01"
 
-    # Create a wiki_id list for each row
-    for ix, row in mp_meta.iterrows():
-        sub_df = mp_meta_full[mp_meta_full["start"] == row["start"]]
-        sub_df = sub_df[sub_df["end"] == row["end"]]
-        ids = list(sub_df["wiki_id"])
-        mp_meta.loc[ix, "wiki_id"] = ids
+        if isinstance(end, str):
+            # If no exact 
+            if len(end) != 10:
+                end = end[:4] + "-12-31"
+        else:
+            # If no end date is given, set to the end of
+            # the year
+            end = start[:4] + "-12-31"
+
+            # Exception for ongoing mandate period
+            current = dt.datetime.now() - dt.timedelta(days=(365*4))
+            if current.strftime("%Y-%m-%d") < start:
+                end = dt.datetime.now().strftime("%Y-%m-%d")
+
+        return (start, end)
+
+    startend = [impute_startend((start, end)) for start, end in tqdm(zip(mp_meta['start'], mp_meta['end']))]
+    mp_meta['start'] = [s for s,e in startend]
+    mp_meta['end'] = [e for s,e in startend]
 
     mp_meta['start'] = mp_meta['start'].apply(lambda x: pd.to_datetime(x, format='%Y-%m-%d', errors='ignore'))
     mp_meta['end'] = mp_meta['end'].apply(lambda x: pd.to_datetime(x, format='%Y-%m-%d', errors='ignore'))
-    mp_meta = mp_meta[mp_meta.start.notnull()]
 
     baselines = {
         "ak_baseline": 0,
@@ -155,6 +170,8 @@ def main():
         filtered_DFs[k] = mp_meta.loc[mp_meta['role'] == v]
 
     shouldnt_happen = 0
+    
+
     with tqdm(total=len(dates)) as prgbr:
         for i, r in dates.iterrows():
             N_MP = 0
@@ -164,84 +181,18 @@ def main():
                 parliament_day = r['date']
                 baseline = r['baseline_N']
                 prgbr.set_postfix_str(f"{chamber} / {r['parliament_year']} / {shouldnt_happen}")
-                #if not pd.isna(baseline):
-                #    baselines[f'{chamber}_baseline'] = baseline
-                #else:
-                #    baseline = baselines[f'{chamber}_baseline']
-                #    dates.at[i, 'baseline_N'] = baseline
 
                 if len(parliament_day) == 10:
                     #print(r['date'], type(r['date']))
                     day = dt.datetime.strptime(r['date'], '%Y-%m-%d')
-                    #print(day, type(day))
-                    fdf = filtered_DFs[chamber]
-                    for idx, row in fdf.iterrows():
+                    year = day.year
 
-                        start = None
-                        end = None
-                        pdts = pd._libs.tslibs.timestamps.Timestamp
+                    sub_df = filtered_DFs[chamber]
+                    sub_df = sub_df[sub_df["start"] <= day]
+                    sub_df = sub_df[sub_df["end"] >= day]
 
-                        #print(' -> first', start, end, row['start'], row['end'], type(row['start']), type(row['end']))
-                        msg = f" -> first, {start}, {end}, {row['start']}, {row['end']}, {type(row['start'])}, {type(row['end'])}"
-                        inform = False
-                        if type(row['start']) == pdts:
-                            start = row['start']
-                        elif type(row['start']) == str:
-                            start = row['start']
-                        else:
-                            print('start', row['start'], type(row['start']))
-                            shouldnt_happen += 1
-
-                        if type(row['end']) == pdts:
-                            end = row['end']
-                        elif type(row['end']) == str:
-                            end = row['end']
-                        else:
-                            #print(msg)
-                            #inform = True
-                            #print(f"NO END: {row['end']} | {type(row['end'])}")
-                            if type(start) == pdts:
-                                end = int(start.year)
-                            else:
-                                end = start
-
-                        if inform:
-                            print(' --> second', start, end, type(start), type(end))
-
-                        if type(start) == pdts and type(end) == pdts:
-                            if start <= day < end:
-                                for wiki_id in row["wiki_id"]:
-                                    if wiki_id not in MEPs:
-                                        MEPs.append(wiki_id)
-                                        N_MP += 1
-                        else:
-                            if pd.notnull(start):
-                                year = int(day.year)
-
-                                if type(start) == pdts:
-                                    start = int(start.year)
-                                else:
-                                    start = int(start[:4]) # a few (n==4) date strings are in yyyy-mm format
-
-                                if type(end) == pdts:
-                                    end = int(end.year)
-                                elif type(end) == str:
-                                    end = int(end[:4])
-                                elif type(end) == int:
-                                    pass
-                                else:
-                                    print('~~~~~~~~~/////NO!!!!!!!!!~~~~~~~', 'start', start, type(start), 'end', end, type(end))
-                                    shouldnt_happen += 1
-
-                                #print('\\\\\\', start, year, end)
-
-                                if start <= year <= end:
-                                    for wiki_id in row["wiki_id"]:
-                                        if wiki_id not in MEPs:
-                                            MEPs.append(wiki_id)
-                                            N_MP += 1
-                            else:
-                                print("no start")
+                    N_MP = len(sub_df)
+                    MEPs = list(sub_df["wiki_id"])
 
                 dates.at[i, 'N_MP'] = N_MP
 
@@ -260,7 +211,7 @@ def main():
                 dates.at[i, 'passes_test'] = "None"
                 dates.at[i, 'almost_passes_test'] = "None"
                 dates.at[i, "ratio"] = "None"
-            dates.at[i, "MEPs"] = MEPs
+            dates.at[i, "MEPs"] = list(MEPs)
             prgbr.update()
     dates.to_csv(f"{here}/figures/mp-coverage/_test-result.csv", index=False, sep=";")
 
