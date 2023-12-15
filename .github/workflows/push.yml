@@ -84,4 +84,4 @@ jobs:
 
     - name: Check that README updating script works
       run: |
-        PYTHONPATH="$PYTHONPATH:." python scripts/stats-dashboard/generate-markdown.py -v -1.1.1
+        PYTHONPATH="$PYTHONPATH:." python scripts/stats-dashboard/generate-markdown.py -v v1.1.1
