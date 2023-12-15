@@ -298,11 +298,11 @@ def main(args):
     print("...done")
 
     print("GENERATING PLOTS OF MP COVERAGE:")
-    #mp_coverage = subprocess.run(
-    #    ['python', 'scripts/stats-dashboard/mp-coverage.py'],
-    #    capture_output=True, text=True
-    #)
-    #assert mp_coverage.returncode == 0
+    mp_coverage = subprocess.run(
+        ['python', 'scripts/stats-dashboard/mp-coverage.py'],
+        capture_output=True, text=True
+    )
+    assert mp_coverage.returncode == 0
     mp_plot = subprocess.run(
         ['python', 'scripts/stats-dashboard/plot-mp-coverage.py', "-v", args.version],
         capture_output=True, text=True
