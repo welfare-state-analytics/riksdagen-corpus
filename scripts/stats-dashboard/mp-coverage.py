@@ -127,6 +127,19 @@ def main():
 
     mp_meta = pd.read_csv("corpus/metadata/member_of_parliament.csv")
     #convert full dates dates of mp_meta to datetime ('start', 'end') -- leave year as str
+
+    # Drop duplicates since "start" and "end" is all we need for counting the MPs
+    # Copy df so that we can retain the Wiki IDs
+    mp_meta_full = mp_meta.copy()
+    mp_meta = mp_meta.drop_duplicates(["start", "end"])
+
+    # Create a wiki_id list for each row
+    for ix, row in mp_meta.iterrows():
+        sub_df = mp_meta_full[mp_meta_full["start"] == row["start"]]
+        sub_df = sub_df[sub_df["end"] == row["end"]]
+        ids = list(sub_df["wiki_id"])
+        mp_meta.loc[ix, "wiki_id"] = ids
+
     mp_meta['start'] = mp_meta['start'].apply(lambda x: pd.to_datetime(x, format='%Y-%m-%d', errors='ignore'))
     mp_meta['end'] = mp_meta['end'].apply(lambda x: pd.to_datetime(x, format='%Y-%m-%d', errors='ignore'))
     mp_meta = mp_meta[mp_meta.start.notnull()]
@@ -197,9 +210,10 @@ def main():
 
                         if type(start) == pdts and type(end) == pdts:
                             if start <= day < end:
-                                if row["wiki_id"] not in MEPs:
-                                    MEPs.append(row["wiki_id"])
-                                    N_MP += 1
+                                for wiki_id in row["wiki_id"]:
+                                    if wiki_id not in MEPs:
+                                        MEPs.append(wiki_id)
+                                        N_MP += 1
                         else:
                             if pd.notnull(start):
                                 year = int(day.year)
@@ -222,9 +236,10 @@ def main():
                                 #print('\\\\\\', start, year, end)
 
                                 if start <= year <= end:
-                                    if row["wiki_id"] not in MEPs:
-                                        MEPs.append(row["wiki_id"])
-                                        N_MP += 1
+                                    for wiki_id in row["wiki_id"]:
+                                        if wiki_id not in MEPs:
+                                            MEPs.append(wiki_id)
+                                            N_MP += 1
                             else:
                                 print("no start")
 
