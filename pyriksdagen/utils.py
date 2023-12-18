@@ -117,7 +117,13 @@ def validate_xml_schema(xml_path, schema_path):
     xml_file.xinclude()
 
     schema = lxml.etree.XMLSchema(file=schema_path)
-    is_valid = schema.validate(xml_file)
+
+    try:
+        schema.assertValid(xml_file)
+        return True
+    except etree.DocumentInvalid as err:
+        print(err)
+        return False
 
     return is_valid
 
