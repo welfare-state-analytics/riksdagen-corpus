@@ -29,13 +29,19 @@ jobs:
         pip install cycler
         pip install poetry
 
+    - name: Zip corpus
+      run: zip -r corpus.zip corpus
+    - name: Upload binaries to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: corpus.zip
+        tag: ${{ github.ref }}
+
     - name: Estimate current accuracy and generate a new plot
       run: |
         PYTHONPATH="$PYTHONPATH:." python scripts/mapping_accuracy_estimate.py
         PYTHONPATH="$PYTHONPATH:." python scripts/accuracy_version_plot.py -v ${{ github.ref }}
-    - name: Update Readme
-      run: |
-        PYTHONPATH="$PYTHONPATH:." python scripts/stats-dashboard/generate-markdown.py -v ${{ github.ref }}
     - name: Build and publish module
       env: # authentication
         PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
@@ -45,6 +51,9 @@ jobs:
         poetry version $VERSION
         poetry build
         poetry publish -u "__token__" -p $PYPI_TOKEN
+    - name: Update Readme
+      run: |
+        PYTHONPATH="$PYTHONPATH:." python scripts/stats-dashboard/generate-markdown.py -v ${{ github.ref }}
     - name: Commit files
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -59,14 +68,6 @@ jobs:
         git add dist
         git add pyproject.toml
         git commit -m "chore: build module"
-    - name: Zip corpus
-      run: zip -r corpus.zip corpus
-    - name: Upload binaries to release
-      uses: svenstaro/upload-release-action@v2
-      with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: corpus.zip
-        tag: ${{ github.ref }}
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
