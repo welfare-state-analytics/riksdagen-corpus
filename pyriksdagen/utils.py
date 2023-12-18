@@ -122,12 +122,13 @@ def validate_xml_schema(xml_path, schema_path):
     return is_valid
 
 
-def protocol_iterators(corpus_root, start=None, end=None):
+def protocol_iterators(corpus_root, document_type=None, start=None, end=None):
     """
     Returns an iterator of protocol paths in a corpus.
 
     Args:
         corpus_root (str): path to the corpus root
+        document_type (str): type of document (prot, mot, etc.). If None, fetches all types
         start (int): start year
         end (int): end year
 
@@ -135,7 +136,13 @@ def protocol_iterators(corpus_root, start=None, end=None):
         iterator of the protocols as relative paths to current location
     """
     folder = Path(corpus_root)
-    for protocol in sorted(folder.glob("**/*.xml")):
+    docs = folder.glob("**/*.xml")
+    if document_type is not None:
+        docs = folder.glob(f"**/{document_type}*.xml")
+    for protocol in sorted(docs):
+        metadata = infer_metadata(protocol.name)
+        if "year" not in metadata:
+            continue
         path = protocol.relative_to(".")
         assert (start is None) == (
             end is None
