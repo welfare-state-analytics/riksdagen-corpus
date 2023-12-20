@@ -70,7 +70,7 @@ def infer_metadata(filename):
                 # Protocol ids of format 197879 have two years, eg. 1978 and 1979
                 if s[4:6].isdigit():
                     metadata["secondary_year"] = year + 1
-                    metadata["sitting"] += f"/{s[4:6]}"
+                    metadata["sitting"] += f"{s[4:6]}"
 
     # Chamber
     metadata["chamber"] = "Enkammarriksdagen"

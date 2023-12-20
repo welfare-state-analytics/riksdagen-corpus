@@ -145,7 +145,7 @@ def cleanup_parlaclarin(teis):
         print("TEI > 1 teis")
         for tei in teis[1:]:
             for elem in tei:
-                TEI.appen(elem)
+                TEI.append(elem)
 
     for xml_element in TEI.iter():
         content = xml_element.xpath('normalize-space()')
@@ -157,7 +157,7 @@ def cleanup_parlaclarin(teis):
 
 def add_to_corpus_meta_file_list(metadata):
     """
-    add entru to corpus-level metadata xml files
+    add entry to corpus-level metadata xml files
     """
     xi_ns = "{http://www.w3.org/2001/XInclude}"
     chambers = {
@@ -167,17 +167,17 @@ def add_to_corpus_meta_file_list(metadata):
     }
     parser = etree.XMLParser(remove_blank_text=True)
     meta_path = f"corpus/protocols/prot-{chambers[metadata['chamber']]}.xml"
-    file_path = f"./{metadata['sitting']}/{metadata['filename']}.xml"
+    file_path = f"./{metadata['sitting']}/{zero_pad_prot_nr(metadata['protocol'])}.xml"
     root = etree.parse(meta_path, parser).getroot()
-    include = root.find(f".//{xi_ns}include[@href={file_path}]"
+    include = root.find(f".//{xi_ns}include[@href=\"{file_path}\"]")
     if include:
-        print(f"File already listed in corpus metadata -- {metadata['filename']}. Are you re-curating")
+        print(f"File already listed in corpus metadata -- {metadata['protocol']}. Are you re-curating")
     else:
         include = etree.SubElement(root, f"{xi_ns}include")
         include.attrib["href"] = file_path
-    with open(meta_path,, "wb") as f:
+    with open(meta_path, "wb") as f:
         b = etree.tostring(
-            corpus, pretty_print=True, encoding="utf-8", xml_declaration=True
+            root, pretty_print=True, encoding="utf-8", xml_declaration=True
         )
         f.write(b)
 
@@ -249,6 +249,20 @@ def dict_to_parlaclarin(data):
     f.write(parla_clarin_str)
     f.close()
 
+def zero_pad_prot_nr(protocol_id):
+    constituents = protocol_id.split('-')
+    if len(constituents) > 1:
+        id_nr = '{:0>3}'.format(constituents[-1])
+        constituents = constituents[:-1]
+        constituents.append(f"{id_nr}")
+        protocol_id = '-'.join(constituents)
+    else:
+        constituents = protocol_id.split('_')
+        id_nr = '{:0>3}'.format(constituents[-1])
+        constituents = constituents[:-1]
+        constituents.append(f"{id_nr}")
+        protocol_id = '-'.join(constituents)
+    return protocol_id
 
 def parlaclarin_workflow_individual(file_db, archive, corpus_metadata=dict()):
     """
@@ -275,7 +289,7 @@ def parlaclarin_workflow_individual(file_db, archive, corpus_metadata=dict()):
         year_db = file_db[file_db["year"] == corpus_year]
         for ix, row in progressbar.progressbar(list(year_db.iterrows())):
             df = pd.DataFrame([row], columns=year_db.columns)
-            protocol_id = row["protocol_id"]
+            protocol_id = zero_pad_prot_nr(row["protocol_id"])
             parla_clarin_str = gen_parlaclarin_corpus(
                 df,
                 archive,
@@ -288,3 +302,4 @@ def parlaclarin_workflow_individual(file_db, archive, corpus_metadata=dict()):
             f = open(parlaclarin_path, "w")
             f.write(parla_clarin_str)
             f.close()
+            print("wrote " + parlaclarin_path)
