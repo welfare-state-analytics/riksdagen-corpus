@@ -4,20 +4,22 @@ Split current protocol files into two:
 2) teiCorpus files with metadata and links to the actual protocol-files
 """
 from lxml import etree
+from tqdm import tqdm
 import os, argparse
 from pyriksdagen.utils import protocol_iterators, infer_metadata
 from pyparlaclarin.refine import format_texts
-import progressbar as pb
 from pathlib import Path
 
 TEI_NS = "{http://www.tei-c.org/ns/1.0}"
 XML_NS = "{http://www.w3.org/XML/1998/namespace}"
 XI_NS = "{http://www.w3.org/2001/XInclude}"
 
+
 def extract_teiheader(root):
     teis = root.findall(f"{TEI_NS}teiHeader")
     assert len(teis) == 1
     return teis[0]
+
 
 def extract_tei(root):
     teis = root.findall(f".//{TEI_NS}TEI")
@@ -31,7 +33,7 @@ def main(args):
 
     protocol_dict = dict()
     corpus_dict = dict()
-    for protocol in pb.progressbar(protocols):
+    for protocol in tqdm(protocols, total=len(protocols)):
         root = etree.parse(protocol, parser).getroot()
         tei = extract_tei(root)
         teiHeader = extract_teiheader(root)
@@ -73,8 +75,8 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--start", type=int, default=None)
-    parser.add_argument("--end", type=int, default=None)
+    parser.add_argument("-s", "--start", type=int, default=None)
+    parser.add_argument("-e", "--end", type=int, default=None)
     parser.add_argument("--corpus_root", type=str, default="corpus/protocols/")
     args = parser.parse_args()
     main(args)
