@@ -130,6 +130,57 @@ def dict_to_tei(data):
 
     return tei
 
+def cleanup_parlaclarin(teis):
+    """
+    Add namespace and remove empty elements
+    return formatted etree string
+    """
+    if type(teis) != list:
+        tei = teis
+        return cleanup_parlaclarin([tei], metadata)
+
+    TEI = teis[0]
+    TEI.attrib["xmlns"] = "http://www.tei-c.org/ns/1.0"
+    if len(teis) > 1:
+        print("TEI > 1 teis")
+        for tei in teis[1:]:
+            for elem in tei:
+                TEI.appen(elem)
+
+    for xml_element in TEI.iter():
+        content = xml_element.xpath('normalize-space()')
+
+        if not content and len(xml_element.attrib) == 0:
+            xml_element.getparent().remove(xml_element)
+    s = etree.tostring(TEI, pretty_print=True, encoding="utf-8", xml_declaration=True).decode("utf-8")
+    return s
+
+def add_to_corpus_meta_file_list(metadata):
+    """
+    add entru to corpus-level metadata xml files
+    """
+    xi_ns = "{http://www.w3.org/2001/XInclude}"
+    chambers = {
+        "Enkammarriksdagen": "ek",
+        "Andra kammaren": "ak",
+         "Första kammaren": "fk"
+    }
+    parser = etree.XMLParser(remove_blank_text=True)
+    meta_path = f"corpus/protocols/prot-{chambers[metadata['chamber']]}.xml"
+    file_path = f"./{metadata['sitting']}/{metadata['filename']}.xml"
+    root = etree.parse(meta_path, parser).getroot()
+    include = root.find(f".//{xi_ns}include[@href={file_path}]"
+    if include:
+        print(f"File already listed in corpus metadata -- {metadata['filename']}. Are you re-curating")
+    else:
+        include = etree.SubElement(root, f"{xi_ns}include")
+        include.attrib["href"] = file_path
+    with open(meta_path,, "wb") as f:
+        b = etree.tostring(
+            corpus, pretty_print=True, encoding="utf-8", xml_declaration=True
+        )
+        f.write(b)
+
 
 def gen_parlaclarin_corpus(
     protocol_db,
@@ -155,12 +206,14 @@ def gen_parlaclarin_corpus(
         protocol_id = package["protocol_id"]
         pages = package["pages"]
         metadata = infer_metadata(protocol_id)
+        add_to_corpus_meta_file_list(metadata)
         protocol = get_blocks(protocol_id, archive)
         tei = create_tei(protocol, metadata)
         teis.append(tei)
 
     corpus_metadata["edition"] = "0.1.0"
-    corpus = create_parlaclarin(teis, corpus_metadata)
+    #corpus = create_parlaclarin(teis, corpus_metadata)
+    corpus = cleanup_parlaclarin(teis)
     return corpus
 
 def dict_to_parlaclarin(data):
