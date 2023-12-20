@@ -108,8 +108,8 @@ def count_pages_speeches_words(protocol):
     tei_ns = ".//{http://www.tei-c.org/ns/1.0}"
     xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     parser = etree.XMLParser(remove_blank_text=True)
-    root = etree.parse(protocol, parser).getroot()
-    tei = root.find(f"{tei_ns}TEI")
+    tei = etree.parse(protocol, parser).getroot()
+    #tei = root.find(f"{tei_ns}TEI")
     for tag, elem in elem_iter(root):
         if tag == "u":
             for segelem in elem:
