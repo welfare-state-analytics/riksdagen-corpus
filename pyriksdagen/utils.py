@@ -156,6 +156,8 @@ def protocol_iterators(corpus_root, document_type=None, start=None, end=None):
         if start is not None and end is not None:
             metadata = infer_metadata(protocol.name)
             year = metadata["year"]
+            if not year:
+                continue
             secondary_year = metadata.get("secondary_year", year)
             if start <= year and end >= secondary_year:
                 yield str(protocol.relative_to("."))
