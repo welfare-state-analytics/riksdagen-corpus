@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1946</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1946</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,527 +25,500 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1946-höst-fk--33</head>
-          <docDate when="1946-10-23">1946-10-23</docDate>
-          <docDate when="1946-10-26">1946-10-26</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1946-höst-fk--33/prot_1946_höst_fk__33-000.jp2/_view"/>
-          <note xml:id="i-3ZxZqBVuQrZKE5KYvoiQiH">
-            RIKSDAGENS PROTOKOLL. 1946. Första kammaren. Nr 33.
-          </note>
-          <note type="date" xml:id="i-JFiCALs68gJj1TbvqKLA2z">
-            Onsdagen den 23 oktober.
-          </note>
-          <note xml:id="i-UYkoCuTtDCFmGrENWEGsSu">
-            Kammaren sammanträdde kl. 11 förmiddagen.
-          </note>
-          <note type="speaker" xml:id="i-AjDTpHDQGpnjPeyUwFbGyQ">
-            Herr statsrådet Möller avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-85r6MM148ZZ8sQtpoMQ5Lv">
-            ts proposition nr 353, angående inrättande av avgångsstat för
-            befattningshavare vid polisoch åklagarväsendet.
-          </note>
-          <note xml:id="i-BUFphekVf3sVghJn6WtqHR">
-            Justerades protokollen för den 14 och den 17 innevarande månad.
-          </note>
-          <note xml:id="i-WKi7E7VDnz5Nzn4uKRwmLE">
-            Sedan hovrättsrådet I. L. Wieslander, som den 28 februari 1945
-            utsetts till riksdagens militieombudsman, avsagt sig detta förtroendeuppdrag,
-            företogs nu val av tjugufyra valmän för att utse militieombudsman
-            och hans ställföreträdare. Därvid avlämnades 89 godkända valsedlar,
-            alla med partibeteckning »Den gemensamma listan» och upptagande
-            namnen på följande personer i denna ordning:
-          </note>
-          <note xml:id="i-7RtWqpGkF3WPDKdmSeKDj8">
-            herr Linder,
-          </note>
-          <note xml:id="i-6X7Gskb6XRvzkwmJPngDC9">
-            » Wagnsson,
-          </note>
-          <note xml:id="i-U88LarQP1URaGfjEej8EWL">
-            » Johanson, Karl Emil,
-          </note>
-          <note xml:id="i-XydBFJgkv7nPgufASspwhG">
-            » Schlyter,
-          </note>
-          <note xml:id="i-njLpx5PexGtFY3faEx7HR">
-            » Tjällgren,
-          </note>
-          <note xml:id="i-8bNaxBPoVB8xr1VQH435Pz">
-            » Åkerberg,
-          </note>
-          <note xml:id="i-Twj5VyJLEGnbb7u21E8vy3">
-            » Branting,
-          </note>
-          <note xml:id="i-EBWm2vNmSzv3QzYeQDcvgN">
-            » Linnér,
-          </note>
-          <note xml:id="i-PAqjbxMZCSWvyKvYXgAuTA">
-            » Lindblom,
-          </note>
-          <note xml:id="i-8JNUiKTHgWpQ5osicMUiLB">
-            » Anderberg,
-          </note>
-          <note xml:id="i-CF6jJsVwZkLeuwUAEKbtWf">
-            » Strand,
-          </note>
-          <note xml:id="i-A7umCprBAkpycYCbU5e3m3">
-            » Westman,
-          </note>
-          <note xml:id="i-cvjW7HpBKjAHupmKTpuv7">
-            » Boman,
-          </note>
-          <note xml:id="i-Ly2TgVYjQpsVTQ4czbZ27p">
-            » Björkman,
-          </note>
-          <note xml:id="i-9JNg5KiQH2Nne5wk622CV2">
-            » Elowsson, Nils,
-          </note>
-          <note xml:id="i-B38ofNQpfnM7TgGJj1nehj">
-            » Elmgren,
-          </note>
-          <note xml:id="i-GTRjKV2t2TD1rAKPW8SjG5">
-            » Mannerskantz,
-          </note>
-          <note xml:id="i-JXmvtqj1hBvLTNBtoDU2e7">
-            » Kriägel, Gustavson,
-          </note>
-          <note xml:id="i-5HEsBUui5YeHjhd3mFb5Fu">
-            » Grym,
-          </note>
-          <note xml:id="i-Dthr47jhvPqEtmkZ7ZWRF">
-            » Wistrand,
-          </note>
-          <note xml:id="i-DG9YKsDf3G4wkAa8nPWBNo">
-            &gt;» Holmbäck, Lodenius, Herlitz.
-          </note>
-          <note xml:id="i-VoTEkkbm3YF6gQPVatYuLf">
-            Dessa personer hade alltså utsetts till valmän.
-          </note>
-          <note xml:id="i-RqfJykvz6GjG7UGxb8WFbz">
-            Första kammarens protokoll 1946. Nr 33. 1
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1946-höst-fk--33/prot_1946_höst_fk__33-001.jp2/_view"/>
-          <note type="date" xml:id="i-JWc76AjAFU45u2vS33Fgyo">
-            Nr 33. Onsdagen den 23 oktober 1946.
-          </note>
-          <note xml:id="i-E9tpmZVMaZS3FWedXEjwQy">
-            Herr statsrådet Zetterberg avlämnade Kungl. Maj:ts proposition
-            nr 345, med förslag till lag angående ändring i lagen den 18 september
-            1943 (nr 691) om villkorlig frigivning.
-          </note>
-          <note xml:id="i-Qo65EztH9R2mpBNGje8yAk">
-            Anställdes val av sex suppleanter för de valmän, som av kammaren
-            fått i uppdrag att utse riksdagens militieombudsman och hans ställföreträdare.
-            Därvid avlämnades 70 godkända valsedlar, alla med partibeteckning
-            »Den gemensamma listan» och upptagande namnen på följande personer
-            i denna ord-
-          </note>
-          <note xml:id="i-AQcRKJMe5gjWRB7gmhvpZz">
-            ning:
-          </note>
-          <note xml:id="i-GEwCjpbEbRUQEoLupGxv9T">
-            herr Åman,
-          </note>
-          <note xml:id="i-3uZE78zUHkVUWn7DikjoZt">
-            »
-          </note>
-          <note xml:id="i-RUHiAbV86BXikRWpRufbkp">
-            »
-          </note>
-          <note xml:id="i-2XChU71MSQmTqtA2fx2uGg">
-            Nerman,
-          </note>
-          <note xml:id="i-ThUkrwoBcimKwbVTtYqNDi">
-            Löthner,
-          </note>
-          <note xml:id="i-Vk8u9FxrbQFzPHEunY4qU4">
-            Andersson, Gunnar, Hallagård, Englund.
-          </note>
-          <note xml:id="i-SUyE9EAFXxiyjnrvwHVxwt">
-            Dessa personer hade alltså utsetts till suppleanter.
-          </note>
-          <note xml:id="i-btT1xtLJpCKnGFsgcQj1W">
-            Företogs val av tolv ledamöter i tredje särskilda utskottet.
-            Därvid avlämnades 58 godkända valsedlar, alla med partibeteckning
-            »Den gemensamma listan» och upptagande namnen på följande personer
-            i denna ordning:
-          </note>
-          <note xml:id="i-Hcg4dBjxD6PDY3jT9AKr8z">
-            herr Strand,
-          </note>
-          <note xml:id="i-Jt4ER9i21SyqySzYg7yFzN">
-            » » » » » » » » fru
-          </note>
-          <note xml:id="i-8LzrEVuV5YDCo1C8EXwurn">
-            Hage,
-          </note>
-          <note xml:id="i-8h7vCZwPcmV82vSRgQGVVi">
-            Linnér,
-          </note>
-          <note xml:id="i-HeyUQwJJS1C5rW3tNG5cYH">
-            Karlsson, Gustaf, Löfvander,
-          </note>
-          <note xml:id="i-eQhh9J8naxHifypra31KS">
-            Heiiman,
-          </note>
-          <note xml:id="i-DTutMuCvqCPcYXz4GjbyUc">
-            Sundvik,
-          </note>
-          <note xml:id="i-DsqpkyMxFxqKpTJ2k4dQ5w">
-            Wistrand, Holmbäck, Sjöström-Bengtsson,
-          </note>
-          <note xml:id="i-RXK9Kmnr7xGo5TPpLRKtuM">
-            herr Gustavson,
-          </note>
-          <note xml:id="i-5XXrojbyWfZXPVYqBCsa6A">
-            »
-          </note>
-          <note xml:id="i-HoWeD7apSg1bvuRx8952hv">
-            Velander.
-          </note>
-          <note xml:id="i-KTeDxZ92pyDCkA4QuWVphq">
-            Dessa personer hade alltså utsetts till ledamöter 1 utskottet.
-          </note>
-          <note xml:id="i-23dgdsX7zgzs74M355iF2h">
-            .
-          </note>
-          <note xml:id="i-Gb6C2hxdELAJmmT7YjvRWo">
-            Anställdes val av tjugu suppleanter i tredje särskilda utskottet.
-            Därvid avlämnades 50 godkända valsedlar, alla med partibeteckning
-            »Den gemensamma listan» och alla utom en upptagande namnen på
-            följande personer i denna ord-
-          </note>
-          <note xml:id="i-W59Z4T69G9AiGgGAtAvJvv">
-            ning:
-          </note>
-          <note xml:id="i-8UMQcio1S4fCFDjSRRBWwC">
-            herr Anderberg,
-          </note>
-          <note xml:id="i-4LuW4Sci3xq541ACuC5SXq">
-            »
-          </note>
-          <note xml:id="i-6gntMh9UgFxgMX21SzzygC">
-            Näsström,
-          </note>
-          <note xml:id="i-NzyNqhsNLW7yy9cK6o118w">
-            fröken Andersson, 4 herr Jonsson,
-          </note>
-          <note xml:id="i-2Gam67tt8eCKSTc1SobTzr">
-            2» » » 2» 2» » 2» fru »
-          </note>
-          <note xml:id="i-JArSPBFzGv3uUtLBkEWhDC">
-            Näsgård, Ramberg, Andersson, Birger, Herlitz,
-          </note>
-          <note xml:id="i-Cr6AHAQeQ8SQuCpZwMxFtz">
-            Petersson,
-          </note>
-          <note xml:id="i-SCoUbvav8J7kV4F6fUzmqN">
-            Uhlén,
-          </note>
-          <note xml:id="i-UQindUjKZodNmSf92rUArV">
-            Åman,
-          </note>
-          <note xml:id="i-MywsEcCBLJNKcJVJXWnpkJ">
-            Svenson,
-          </note>
-          <note xml:id="i-2gLpQpuWKVMzjAeFcpkSVR">
-            Alm,
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1946-höst-fk--33/prot_1946_höst_fk__33-002.jp2/_view"/>
-          <note type="date" xml:id="i-KfPfY4JDphJqSoyLopMbUY">
-            Onsdagen den 23 oktober 1946. Nr 33. 3
-          </note>
-          <note xml:id="i-NrUyD4Q7uzR5zJjVSTWjiq">
-            herr Hagman, » Johannesson, » Andersson, Gunnar, » Sundelin,
-            » Wahlund, » Bergh, Ragnar, » Andersson, Elon.
-          </note>
-          <note xml:id="i-EEUNPykyyVLiYfrjpVWQuy">
-            Dessa personer hade alltså utsetts till suppleanter i utskottet.
-          </note>
-          <note xml:id="i-G2w7ZbuUFtUPQgUK41qHdi">
-            Föredrogos och bordlades Kungl. Maj:ts denna dag avlämnade propositioner
-            nr 345 och 353.
-          </note>
-          <note xml:id="i-5fwBFvMYfYo7rExCG6eog6">
-            Avgåvos och bordlades nedannämnda motioner:
-          </note>
-          <note xml:id="i-GZBGaQMpJpW9H1VgvEgezU">
-            nr 372, av herr Gränebo m. fl., i anledning av Kungl. Maj:ts
-            proposition angående allmän lönereglering för befattningshavare
-            i statens tjänst m. fl.;
-          </note>
-          <note xml:id="i-Nxem7MQUKk4YLnN37kLnw">
-            nr 373, av herr Löthner m. fl., i anledning av Kungl. Maj:ts
-            proposition angående allmän lönereglering för befattningshavare
-            i statens tjänst m. fl.;
-          </note>
-          <note xml:id="i-BZAAuwMxGZGnWSkEefhKzr">
-            nr 374, av herrar Mannerskantz och Löthner, i anledning av Kungl.
-            Maj:ts proposition angående den ekonomiska försvarsberedskapens
-            framtida organisation m. m.;
-          </note>
-          <note xml:id="i-G8b7ewZrNBVvgPHh16AUQA">
-            nr 375, av herr Anderberg, i anledning av Kungl, Maj:ts proposition
-            med Fr a lag angående ändring i kommunalskattelagen den 28 september
-            1928 nr 370);
-          </note>
-          <note xml:id="i-BGrFN9rg7oCV68SKMHTbvd">
-            nr 376, av fru Alm och fru Sjöström-Bengtsson, i anledning av
-            Kungl. Maj:ts proposition med förslag till lag om ändring i giftermålsbalken
-            m. m.; och
-          </note>
-          <note xml:id="i-De6tFicTUdr2RfdL38SGkZ">
-            nr 377, av herr Ljungdahl m. fl., i anledning av Kungl. Maj:ts
-            proposition med förslag till lag om allmän sjukförsäkring, m.
-            m.
-          </note>
-          <note xml:id="i-UmXkdLRLwxCQA8SL2SFydh">
-            Anmäldes och bordlades statsutskottets memorial nr 257, i anledning
-            av kamrarnas remisser av Kungl, Maj:ts proposition angående godkännande
-            av ett mellan Sverige och De Socialistiska Rådsrepublikernas Union
-            träffat kreditavtal.
-          </note>
-          <note xml:id="i-KRNYKQU7FGWYdyqhGt49aT">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 11.38 förmiddagen.
-          </note>
-          <note xml:id="i-SqeBYK4p1cLdBrEWt1LKWK">
-            In fidem G. H. Berggren.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1946-höst-fk--33/prot_1946_höst_fk__33-003.jp2/_view"/>
-          <note type="date" xml:id="i-HmrXs6fnaoiBUQaDC5JgQH">
-            4 Nr 33. Lördagen den 26 oktober 1946.
-          </note>
-          <note type="date" xml:id="i-GkiYZxyH4ifoJocU51n5dA">
-            Lördagen den 26 oktober.
-          </note>
-          <note xml:id="i-WGVqPsq2SKtmw6pyCchbKA">
-            Kammaren sammanträdde kl. 2 eftermiddagen; och dess förhandlingar
-            leddes av herr förste vice talmannen.
-          </note>
-          <note xml:id="i-Eo7BvJNywBFXQgjKesmKPJ">
-            Herr statsrådet Danielson avlämnade Kungl. Maj:ts propositioner:
-          </note>
-          <note xml:id="i-2QxQ2nvPuLuvWo6GcKCw3u">
-            nr 343, med förslag till förordning om ändrad lydelse av 3 kap.
-            22 $ förordningen den 18 juni 1937 (nr 436) angående försäljning
-            av rusdrycker:
-          </note>
-          <note xml:id="i-VTn7vcB35z1eoYdYYgs3t8">
-            nr 354, angående avskrivning av ett ingenjören Roland Nordström
-            beviljat lån; och
-          </note>
-          <note xml:id="i-7JP3D3XunKKLQxKmcxXrjZ">
-            nr 355, med förslag till lag om förlängning av tiden för vissa
-            servitut, m, m.
-          </note>
-          <note xml:id="i-AxswZcXeZHhn4mTV2KXsPj">
-            Justerades protokollet för den 18 innevarande månad.
-          </note>
-          <note xml:id="i-JRqJURcLogttPWWCdHcXZ3">
-            Upplästes och lades till handlingarna följande från justitiedepartementet
-            ankomna
-          </note>
-          <note xml:id="i-JtPxgQ4Vns5o4E4GJg9PXL">
-            Protokoll, hållet inför statsrådet och chefen för justitiedepartementet
-            den 24 oktober 1946. i
-          </note>
-          <note xml:id="i-5ijiDW6SCKzdbRtqJ85nZk">
-            Till justitiedepartementet hade den 23 oktober 1946 från länsstyrelsen
-            i Malmöhus län inkommit fullmakt för stadsfullmäktigen i Malmö
-            Anton Sjö, vilken vid ny röstsammanräkning blivit utsedd såsom
-            ledamot av riksdagens första kammare i stället för avgången ledamot
-            av samma kammare.
-          </note>
-          <note xml:id="i-DjjgGtt9N6CA6sM1Z8JQ7A">
-            Vid granskning av fullmakten, som företogs inför chefen för justitiedepartementet
-            samt vidare av vederbörande fullmäktige i riksbanken och riksgäldskontoret,
-            framställdes mot fullmakten icke någon anmärkning.
-          </note>
-          <note xml:id="i-Kz8GbHYjXPwu9yfepTN7Mq">
-            Protokoll över vad sålunda förekommit skulle jämte den granskade
-            fullmakten överlämnas till första kammaren.
-          </note>
-          <note xml:id="i-GybCrX2PVDpfUnuUkxx88">
-            I ämbetet. C. G. Bruno.
-          </note>
-          <note xml:id="i-8tE1aGQW5SgmcMJbmFduDX">
-            Föredrogs och hänvisades till behandling av lagutskott Kungl.
-            Maj:ls proposition nr 345, med förslag till lag angående ändring
-            i lagen den 18 september 1943 (nr 691) om villkorlig frigivning.
-          </note>
-          <note xml:id="i-BxczE1UN9LuhsLkchtn4Ti">
-            Föredrogs och hänvisades till statsutskottet Kungl. Maj:ts proposition
-            nr 353, angående inrättande av avgångsstat för befattningshavare
-            vid polisoch åklagarväsendet.
-          </note>
-          <note xml:id="i-AqpG6ifNX2ezfpw895WWXy">
-            Föredrogos och hänvisades till statsutskottet nedannämnda motioner:
-          </note>
-          <note xml:id="i-Uk3riABxSU5TTeX8L6eyfJ">
-            nr 372, av herr Gränebo m. fl., i anledning av Kungl. Maj:ts
-            proposition angående allmän lönereglering för befattningshavare
-            i statens tjänst m. fl.;
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1946-höst-fk--33/prot_1946_höst_fk__33-004.jp2/_view"/>
-          <note type="date" xml:id="i-5xHWgBqiE51dXUV2h5xMDb">
-            Lördagen den 26 oktober 1946. Nr 33. 5
-          </note>
-          <note xml:id="i-2JuES4DtCLkM86Ugn6uCWp">
-            nr 373, av herr Löthner m. fl., i anledning av Kungl. Maj:ts
-            proposition angående allmän lönereglering för befattningshavare
-            i statens tjänst m. fl.; och
-          </note>
-          <note xml:id="i-Xc9VqRnvJ3LFk5GNFu6uLE">
-            nr 374, av herrar Mannerskantz och Löthner, i anledning av Kungl.
-            Maj:ts proposition angående den ekonomiska försvarsberedskapens
-            framtida organisation m. m.
-          </note>
-          <note xml:id="i-D9AhJA5LPa1x8UE55niMPn">
-            Föredrogs och hänvisades till bevillningsutskottet herr Anderbergs
-            motion, nr 375, i anledning av Kungl. Maj:ts proposition med förslag
-            till lag angående ändring i kommunalskattelagen den 28 september
-            1928 (nr 370).
-          </note>
-          <note xml:id="i-2C7thdAF2F5Fhg5HhshGv1">
-            Föredrogs och hänvisades till behandling av lagutskott den av
-            fru Alm och fru Sjöström-Bengtsson väckta motionen, nr 376, i
-            anledning av Kungl. Maj:ts proposition med förslag till lag om
-            ändring i giftermålsbalken m. m.
-          </note>
-          <note xml:id="i-XJD2gedaKB1aQCi4CPHUcU">
-            Föredrogs och hänvisades till tredje särskilda utskottet den
-            av herr Ljungdahl m. fl. väckta motionen, nr 377, i anledning
-            av Kungl. Maj:ts proposition med förslag till lag om allmän sjukförsäkring,
-            m. m.
-          </note>
-          <note xml:id="i-NGWyEZTg9yifXXMrxrDTb7">
-            Föredrogs statsutskottets memorial nr 257, i anledning av kamrarnas
-            remisser Ang. återlämav Kungl. Maj:ts proposition angående godkännande
-            av ett mellan Sverige nande från
-          </note>
-          <note xml:id="i-Twyqry3SySmckQZUNAz4F6">
-            och De Socialistiska Rådsrepublikernas Union träffat kreditavtal.
-            efatevtoketlet Detta memorial lydde: z remitterad kungl. propo-
-          </note>
-          <note xml:id="i-J3c36ysfuz9rdApq3Q8twr">
-            » Till statsutskottet har av kamrarna den 18 oktober 1946 hänvisats
-            Kungl. — sion. Maj:ts proposition nr 351 angående godkännande
-            av ett mellan Sverige och De Socialistiska Rådsrepublikernas Union
-            träffat kreditavtal. Då propositionen nr 351 äger nära samband
-            med propositionen nr 350 angående godkännande av en mellan Sverige
-            och De Socialistiska Rådsrepublikernas Union träffad handelsöverenskommelse
-            m. m., vilken sistnämnda proposition av kamrarna hänvisats till
-            utrikesutskottet, får statsutskottet med stöd av $ 7 reglementariska
-            föreskrifter för riksdagen hemställa, att propositionen nr 351
-            må till kamrarna återlämnas.»
-          </note>
-          <note xml:id="i-FBsKR6YcAMymSkwrTL7X4Z">
-            På framställning av herr förste vice talmannen beslöts att ifrågavarande,
-            endast en gång bordlagda ärende skulle redan vid detta sammanträde
-            företagas till avgörande.
-          </note>
-          <note type="speaker" xml:id="i-DSzPUupTYZFEPrcip61oDr">
-            Herr andre vice talmannen:
-          </note>
-          <u who="Q6255057" xml:id="i-48c786668549ae14-0">
-            <seg xml:id="i-2394iScwL4UenKJKcck1mi">
-              Herr förste vice talman! Jag hemställer, att kammaren måtte bifalla
-              utskottets hemställan och hänvisa den kungl. propositionen till
-              utrikesutskottet.
-            </seg>
-          </u>
-          <note xml:id="i-87Ysw8qv578ZSnQYf6aaKx">
-            Efter härmed slutad överläggning bifölls vad herr andre vice
-            talmannen därunder hemställt.
-          </note>
-          <note xml:id="i-N6GGeo3HXE6TkojNCamfH1">
-            Föredrogos och bordlades Kungl. Maj:ts denna dag avlämnade propositioner
-            nr 343, 354 och 355.
-          </note>
-          <note xml:id="i-VKHuB5tHNJSMqPKHEUwbap">
-            Fru Svenson avlämnade en av henne och herr Nilsson, Bror, undertecknad
-            motion, nr 378, i anledning av Kungl. Maj:ts proposition angående
-            utgifter å tilläggsstat I till riksstaten för budgetåret 1946/47.
-          </note>
-          <note xml:id="i-8pAgHbDHQ4bsFSKHf2pruG">
-            Motionen bordlades.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1946-höst-fk--33/prot_1946_höst_fk__33-005.jp2/_view"/>
-          <note type="date" xml:id="i-Dr2ttpB6kFwKnjxXg8TSi3">
-            6 Nr 33. Lördagen den 26 oktober 1946.
-          </note>
-          <note xml:id="i-XwWsEcgRJHowLxW89J25q2">
-            Anmäldes och bordlades statsutskottets utlåtanden:
-          </note>
-          <note xml:id="i-8rDxNGvrWKFSWWg4fVP4pi">
-            nr 258, i anledning av Kungl. Maj:ts framställning angående anslag
-            å tillläggsstat I till riksstaten för budgetåret 1946/47 till
-            studieresa till utländska vetenskapliga institutioner;
-          </note>
-          <note xml:id="i-Mrb5kEGn7DM8feDHuezpip">
-            nr 259, i anledning av Kungl. Maj:ts proposition angående anvisande
-            av medel till driftkostnadsersättning för psykiatriska kliniken
-            i Uppsala m. m.;
-          </note>
-          <note xml:id="i-Y3YiqQLhsN7KFLbdquk26U">
-            nr 260, i anledning av Kungl. Maj:ts proposition med begäran
-            om bemyndigande att träffa avtal med Göteborgs stad angående villkoren
-            för överföring å Göteborgs stad av det tryckande registret för
-            staden; samt
-          </note>
-          <note xml:id="i-Dxr2Rhnyrxct19xLgoHfgt">
-            nr 261, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av viss under vattenfallsstyrelsens förvaltning stående tomtmark
-            i Trollhättan.
-          </note>
-          <note xml:id="i-9jSwjbBY5JH7DC3CvoGrp">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 2.08 eftermiddagen.
-          </note>
-          <note xml:id="i-HHLQq7EYbnJXe5kudVmRRM">
-            In fidem G. H. Berggren.
-          </note>
-          <note xml:id="i-HSL5ukCFihtVmWNydVCWzk">
-            Stockholm 1946. Kungl. Boktryckeriet P. A. Norstedt &amp; Söner.
-            464112
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1946-höst-fk--33</head>
+        <docDate when="1946-10-23">1946-10-23</docDate>
+        <docDate when="1946-10-26">1946-10-26</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1946-höst-fk--33/prot_1946_höst_fk__33-000.jp2/_view"/>
+        <note xml:id="i-3ZxZqBVuQrZKE5KYvoiQiH">
+          RIKSDAGENS PROTOKOLL. 1946. Första kammaren. Nr 33.
+        </note>
+        <note type="date" xml:id="i-JFiCALs68gJj1TbvqKLA2z">
+          Onsdagen den 23 oktober.
+        </note>
+        <note xml:id="i-UYkoCuTtDCFmGrENWEGsSu">
+          Kammaren sammanträdde kl. 11 förmiddagen.
+        </note>
+        <note type="speaker" xml:id="i-AjDTpHDQGpnjPeyUwFbGyQ">
+          Herr statsrådet Möller avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-85r6MM148ZZ8sQtpoMQ5Lv">
+          ts proposition nr 353, angående inrättande av avgångsstat för
+          befattningshavare vid polisoch åklagarväsendet.
+        </note>
+        <note xml:id="i-BUFphekVf3sVghJn6WtqHR">
+          Justerades protokollen för den 14 och den 17 innevarande månad.
+        </note>
+        <note xml:id="i-WKi7E7VDnz5Nzn4uKRwmLE">
+          Sedan hovrättsrådet I. L. Wieslander, som den 28 februari 1945
+          utsetts till riksdagens militieombudsman, avsagt sig detta förtroendeuppdrag,
+          företogs nu val av tjugufyra valmän för att utse militieombudsman
+          och hans ställföreträdare. Därvid avlämnades 89 godkända valsedlar,
+          alla med partibeteckning »Den gemensamma listan» och upptagande
+          namnen på följande personer i denna ordning:
+        </note>
+        <note xml:id="i-7RtWqpGkF3WPDKdmSeKDj8">
+          herr Linder,
+        </note>
+        <note xml:id="i-6X7Gskb6XRvzkwmJPngDC9">
+          » Wagnsson,
+        </note>
+        <note xml:id="i-U88LarQP1URaGfjEej8EWL">
+          » Johanson, Karl Emil,
+        </note>
+        <note xml:id="i-XydBFJgkv7nPgufASspwhG">
+          » Schlyter,
+        </note>
+        <note xml:id="i-njLpx5PexGtFY3faEx7HR">
+          » Tjällgren,
+        </note>
+        <note xml:id="i-8bNaxBPoVB8xr1VQH435Pz">
+          » Åkerberg,
+        </note>
+        <note xml:id="i-Twj5VyJLEGnbb7u21E8vy3">
+          » Branting,
+        </note>
+        <note xml:id="i-EBWm2vNmSzv3QzYeQDcvgN">
+          » Linnér,
+        </note>
+        <note xml:id="i-PAqjbxMZCSWvyKvYXgAuTA">
+          » Lindblom,
+        </note>
+        <note xml:id="i-8JNUiKTHgWpQ5osicMUiLB">
+          » Anderberg,
+        </note>
+        <note xml:id="i-CF6jJsVwZkLeuwUAEKbtWf">
+          » Strand,
+        </note>
+        <note xml:id="i-A7umCprBAkpycYCbU5e3m3">
+          » Westman,
+        </note>
+        <note xml:id="i-cvjW7HpBKjAHupmKTpuv7">
+          » Boman,
+        </note>
+        <note xml:id="i-Ly2TgVYjQpsVTQ4czbZ27p">
+          » Björkman,
+        </note>
+        <note xml:id="i-9JNg5KiQH2Nne5wk622CV2">
+          » Elowsson, Nils,
+        </note>
+        <note xml:id="i-B38ofNQpfnM7TgGJj1nehj">
+          » Elmgren,
+        </note>
+        <note xml:id="i-GTRjKV2t2TD1rAKPW8SjG5">
+          » Mannerskantz,
+        </note>
+        <note xml:id="i-JXmvtqj1hBvLTNBtoDU2e7">
+          » Kriägel, Gustavson,
+        </note>
+        <note xml:id="i-5HEsBUui5YeHjhd3mFb5Fu">
+          » Grym,
+        </note>
+        <note xml:id="i-Dthr47jhvPqEtmkZ7ZWRF">
+          » Wistrand,
+        </note>
+        <note xml:id="i-DG9YKsDf3G4wkAa8nPWBNo">
+          &gt;» Holmbäck, Lodenius, Herlitz.
+        </note>
+        <note xml:id="i-VoTEkkbm3YF6gQPVatYuLf">
+          Dessa personer hade alltså utsetts till valmän.
+        </note>
+        <note xml:id="i-RqfJykvz6GjG7UGxb8WFbz">
+          Första kammarens protokoll 1946. Nr 33. 1
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1946-höst-fk--33/prot_1946_höst_fk__33-001.jp2/_view"/>
+        <note type="date" xml:id="i-JWc76AjAFU45u2vS33Fgyo">
+          Nr 33. Onsdagen den 23 oktober 1946.
+        </note>
+        <note xml:id="i-E9tpmZVMaZS3FWedXEjwQy">
+          Herr statsrådet Zetterberg avlämnade Kungl. Maj:ts proposition
+          nr 345, med förslag till lag angående ändring i lagen den 18 september
+          1943 (nr 691) om villkorlig frigivning.
+        </note>
+        <note xml:id="i-Qo65EztH9R2mpBNGje8yAk">
+          Anställdes val av sex suppleanter för de valmän, som av kammaren
+          fått i uppdrag att utse riksdagens militieombudsman och hans ställföreträdare.
+          Därvid avlämnades 70 godkända valsedlar, alla med partibeteckning
+          »Den gemensamma listan» och upptagande namnen på följande personer
+          i denna ord-
+        </note>
+        <note xml:id="i-AQcRKJMe5gjWRB7gmhvpZz">
+          ning:
+        </note>
+        <note xml:id="i-GEwCjpbEbRUQEoLupGxv9T">
+          herr Åman,
+        </note>
+        <note xml:id="i-3uZE78zUHkVUWn7DikjoZt">
+          »
+        </note>
+        <note xml:id="i-RUHiAbV86BXikRWpRufbkp">
+          »
+        </note>
+        <note xml:id="i-2XChU71MSQmTqtA2fx2uGg">
+          Nerman,
+        </note>
+        <note xml:id="i-ThUkrwoBcimKwbVTtYqNDi">
+          Löthner,
+        </note>
+        <note xml:id="i-Vk8u9FxrbQFzPHEunY4qU4">
+          Andersson, Gunnar, Hallagård, Englund.
+        </note>
+        <note xml:id="i-SUyE9EAFXxiyjnrvwHVxwt">
+          Dessa personer hade alltså utsetts till suppleanter.
+        </note>
+        <note xml:id="i-btT1xtLJpCKnGFsgcQj1W">
+          Företogs val av tolv ledamöter i tredje särskilda utskottet.
+          Därvid avlämnades 58 godkända valsedlar, alla med partibeteckning
+          »Den gemensamma listan» och upptagande namnen på följande personer
+          i denna ordning:
+        </note>
+        <note xml:id="i-Hcg4dBjxD6PDY3jT9AKr8z">
+          herr Strand,
+        </note>
+        <note xml:id="i-Jt4ER9i21SyqySzYg7yFzN">
+          » » » » » » » » fru
+        </note>
+        <note xml:id="i-8LzrEVuV5YDCo1C8EXwurn">
+          Hage,
+        </note>
+        <note xml:id="i-8h7vCZwPcmV82vSRgQGVVi">
+          Linnér,
+        </note>
+        <note xml:id="i-HeyUQwJJS1C5rW3tNG5cYH">
+          Karlsson, Gustaf, Löfvander,
+        </note>
+        <note xml:id="i-eQhh9J8naxHifypra31KS">
+          Heiiman,
+        </note>
+        <note xml:id="i-DTutMuCvqCPcYXz4GjbyUc">
+          Sundvik,
+        </note>
+        <note xml:id="i-DsqpkyMxFxqKpTJ2k4dQ5w">
+          Wistrand, Holmbäck, Sjöström-Bengtsson,
+        </note>
+        <note xml:id="i-RXK9Kmnr7xGo5TPpLRKtuM">
+          herr Gustavson,
+        </note>
+        <note xml:id="i-5XXrojbyWfZXPVYqBCsa6A">
+          »
+        </note>
+        <note xml:id="i-HoWeD7apSg1bvuRx8952hv">
+          Velander.
+        </note>
+        <note xml:id="i-KTeDxZ92pyDCkA4QuWVphq">
+          Dessa personer hade alltså utsetts till ledamöter 1 utskottet.
+        </note>
+        <note xml:id="i-23dgdsX7zgzs74M355iF2h">
+          .
+        </note>
+        <note xml:id="i-Gb6C2hxdELAJmmT7YjvRWo">
+          Anställdes val av tjugu suppleanter i tredje särskilda utskottet.
+          Därvid avlämnades 50 godkända valsedlar, alla med partibeteckning
+          »Den gemensamma listan» och alla utom en upptagande namnen på
+          följande personer i denna ord-
+        </note>
+        <note xml:id="i-W59Z4T69G9AiGgGAtAvJvv">
+          ning:
+        </note>
+        <note xml:id="i-8UMQcio1S4fCFDjSRRBWwC">
+          herr Anderberg,
+        </note>
+        <note xml:id="i-4LuW4Sci3xq541ACuC5SXq">
+          »
+        </note>
+        <note xml:id="i-6gntMh9UgFxgMX21SzzygC">
+          Näsström,
+        </note>
+        <note xml:id="i-NzyNqhsNLW7yy9cK6o118w">
+          fröken Andersson, 4 herr Jonsson,
+        </note>
+        <note xml:id="i-2Gam67tt8eCKSTc1SobTzr">
+          2» » » 2» 2» » 2» fru »
+        </note>
+        <note xml:id="i-JArSPBFzGv3uUtLBkEWhDC">
+          Näsgård, Ramberg, Andersson, Birger, Herlitz,
+        </note>
+        <note xml:id="i-Cr6AHAQeQ8SQuCpZwMxFtz">
+          Petersson,
+        </note>
+        <note xml:id="i-SCoUbvav8J7kV4F6fUzmqN">
+          Uhlén,
+        </note>
+        <note xml:id="i-UQindUjKZodNmSf92rUArV">
+          Åman,
+        </note>
+        <note xml:id="i-MywsEcCBLJNKcJVJXWnpkJ">
+          Svenson,
+        </note>
+        <note xml:id="i-2gLpQpuWKVMzjAeFcpkSVR">
+          Alm,
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1946-höst-fk--33/prot_1946_höst_fk__33-002.jp2/_view"/>
+        <note type="date" xml:id="i-KfPfY4JDphJqSoyLopMbUY">
+          Onsdagen den 23 oktober 1946. Nr 33. 3
+        </note>
+        <note xml:id="i-NrUyD4Q7uzR5zJjVSTWjiq">
+          herr Hagman, » Johannesson, » Andersson, Gunnar, » Sundelin,
+          » Wahlund, » Bergh, Ragnar, » Andersson, Elon.
+        </note>
+        <note xml:id="i-EEUNPykyyVLiYfrjpVWQuy">
+          Dessa personer hade alltså utsetts till suppleanter i utskottet.
+        </note>
+        <note xml:id="i-G2w7ZbuUFtUPQgUK41qHdi">
+          Föredrogos och bordlades Kungl. Maj:ts denna dag avlämnade propositioner
+          nr 345 och 353.
+        </note>
+        <note xml:id="i-5fwBFvMYfYo7rExCG6eog6">
+          Avgåvos och bordlades nedannämnda motioner:
+        </note>
+        <note xml:id="i-GZBGaQMpJpW9H1VgvEgezU">
+          nr 372, av herr Gränebo m. fl., i anledning av Kungl. Maj:ts
+          proposition angående allmän lönereglering för befattningshavare
+          i statens tjänst m. fl.;
+        </note>
+        <note xml:id="i-Nxem7MQUKk4YLnN37kLnw">
+          nr 373, av herr Löthner m. fl., i anledning av Kungl. Maj:ts
+          proposition angående allmän lönereglering för befattningshavare
+          i statens tjänst m. fl.;
+        </note>
+        <note xml:id="i-BZAAuwMxGZGnWSkEefhKzr">
+          nr 374, av herrar Mannerskantz och Löthner, i anledning av Kungl.
+          Maj:ts proposition angående den ekonomiska försvarsberedskapens
+          framtida organisation m. m.;
+        </note>
+        <note xml:id="i-G8b7ewZrNBVvgPHh16AUQA">
+          nr 375, av herr Anderberg, i anledning av Kungl, Maj:ts proposition
+          med Fr a lag angående ändring i kommunalskattelagen den 28 september
+          1928 nr 370);
+        </note>
+        <note xml:id="i-BGrFN9rg7oCV68SKMHTbvd">
+          nr 376, av fru Alm och fru Sjöström-Bengtsson, i anledning av
+          Kungl. Maj:ts proposition med förslag till lag om ändring i giftermålsbalken
+          m. m.; och
+        </note>
+        <note xml:id="i-De6tFicTUdr2RfdL38SGkZ">
+          nr 377, av herr Ljungdahl m. fl., i anledning av Kungl. Maj:ts
+          proposition med förslag till lag om allmän sjukförsäkring, m.
+          m.
+        </note>
+        <note xml:id="i-UmXkdLRLwxCQA8SL2SFydh">
+          Anmäldes och bordlades statsutskottets memorial nr 257, i anledning
+          av kamrarnas remisser av Kungl, Maj:ts proposition angående godkännande
+          av ett mellan Sverige och De Socialistiska Rådsrepublikernas Union
+          träffat kreditavtal.
+        </note>
+        <note xml:id="i-KRNYKQU7FGWYdyqhGt49aT">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 11.38 förmiddagen.
+        </note>
+        <note xml:id="i-SqeBYK4p1cLdBrEWt1LKWK">
+          In fidem G. H. Berggren.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1946-höst-fk--33/prot_1946_höst_fk__33-003.jp2/_view"/>
+        <note type="date" xml:id="i-HmrXs6fnaoiBUQaDC5JgQH">
+          4 Nr 33. Lördagen den 26 oktober 1946.
+        </note>
+        <note type="date" xml:id="i-GkiYZxyH4ifoJocU51n5dA">
+          Lördagen den 26 oktober.
+        </note>
+        <note xml:id="i-WGVqPsq2SKtmw6pyCchbKA">
+          Kammaren sammanträdde kl. 2 eftermiddagen; och dess förhandlingar
+          leddes av herr förste vice talmannen.
+        </note>
+        <note xml:id="i-Eo7BvJNywBFXQgjKesmKPJ">
+          Herr statsrådet Danielson avlämnade Kungl. Maj:ts propositioner:
+        </note>
+        <note xml:id="i-2QxQ2nvPuLuvWo6GcKCw3u">
+          nr 343, med förslag till förordning om ändrad lydelse av 3 kap.
+          22 $ förordningen den 18 juni 1937 (nr 436) angående försäljning
+          av rusdrycker:
+        </note>
+        <note xml:id="i-VTn7vcB35z1eoYdYYgs3t8">
+          nr 354, angående avskrivning av ett ingenjören Roland Nordström
+          beviljat lån; och
+        </note>
+        <note xml:id="i-7JP3D3XunKKLQxKmcxXrjZ">
+          nr 355, med förslag till lag om förlängning av tiden för vissa
+          servitut, m, m.
+        </note>
+        <note xml:id="i-AxswZcXeZHhn4mTV2KXsPj">
+          Justerades protokollet för den 18 innevarande månad.
+        </note>
+        <note xml:id="i-JRqJURcLogttPWWCdHcXZ3">
+          Upplästes och lades till handlingarna följande från justitiedepartementet
+          ankomna
+        </note>
+        <note xml:id="i-JtPxgQ4Vns5o4E4GJg9PXL">
+          Protokoll, hållet inför statsrådet och chefen för justitiedepartementet
+          den 24 oktober 1946. i
+        </note>
+        <note xml:id="i-5ijiDW6SCKzdbRtqJ85nZk">
+          Till justitiedepartementet hade den 23 oktober 1946 från länsstyrelsen
+          i Malmöhus län inkommit fullmakt för stadsfullmäktigen i Malmö
+          Anton Sjö, vilken vid ny röstsammanräkning blivit utsedd såsom
+          ledamot av riksdagens första kammare i stället för avgången ledamot
+          av samma kammare.
+        </note>
+        <note xml:id="i-DjjgGtt9N6CA6sM1Z8JQ7A">
+          Vid granskning av fullmakten, som företogs inför chefen för justitiedepartementet
+          samt vidare av vederbörande fullmäktige i riksbanken och riksgäldskontoret,
+          framställdes mot fullmakten icke någon anmärkning.
+        </note>
+        <note xml:id="i-Kz8GbHYjXPwu9yfepTN7Mq">
+          Protokoll över vad sålunda förekommit skulle jämte den granskade
+          fullmakten överlämnas till första kammaren.
+        </note>
+        <note xml:id="i-GybCrX2PVDpfUnuUkxx88">
+          I ämbetet. C. G. Bruno.
+        </note>
+        <note xml:id="i-8tE1aGQW5SgmcMJbmFduDX">
+          Föredrogs och hänvisades till behandling av lagutskott Kungl.
+          Maj:ls proposition nr 345, med förslag till lag angående ändring
+          i lagen den 18 september 1943 (nr 691) om villkorlig frigivning.
+        </note>
+        <note xml:id="i-BxczE1UN9LuhsLkchtn4Ti">
+          Föredrogs och hänvisades till statsutskottet Kungl. Maj:ts proposition
+          nr 353, angående inrättande av avgångsstat för befattningshavare
+          vid polisoch åklagarväsendet.
+        </note>
+        <note xml:id="i-AqpG6ifNX2ezfpw895WWXy">
+          Föredrogos och hänvisades till statsutskottet nedannämnda motioner:
+        </note>
+        <note xml:id="i-Uk3riABxSU5TTeX8L6eyfJ">
+          nr 372, av herr Gränebo m. fl., i anledning av Kungl. Maj:ts
+          proposition angående allmän lönereglering för befattningshavare
+          i statens tjänst m. fl.;
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1946-höst-fk--33/prot_1946_höst_fk__33-004.jp2/_view"/>
+        <note type="date" xml:id="i-5xHWgBqiE51dXUV2h5xMDb">
+          Lördagen den 26 oktober 1946. Nr 33. 5
+        </note>
+        <note xml:id="i-2JuES4DtCLkM86Ugn6uCWp">
+          nr 373, av herr Löthner m. fl., i anledning av Kungl. Maj:ts
+          proposition angående allmän lönereglering för befattningshavare
+          i statens tjänst m. fl.; och
+        </note>
+        <note xml:id="i-Xc9VqRnvJ3LFk5GNFu6uLE">
+          nr 374, av herrar Mannerskantz och Löthner, i anledning av Kungl.
+          Maj:ts proposition angående den ekonomiska försvarsberedskapens
+          framtida organisation m. m.
+        </note>
+        <note xml:id="i-D9AhJA5LPa1x8UE55niMPn">
+          Föredrogs och hänvisades till bevillningsutskottet herr Anderbergs
+          motion, nr 375, i anledning av Kungl. Maj:ts proposition med förslag
+          till lag angående ändring i kommunalskattelagen den 28 september
+          1928 (nr 370).
+        </note>
+        <note xml:id="i-2C7thdAF2F5Fhg5HhshGv1">
+          Föredrogs och hänvisades till behandling av lagutskott den av
+          fru Alm och fru Sjöström-Bengtsson väckta motionen, nr 376, i
+          anledning av Kungl. Maj:ts proposition med förslag till lag om
+          ändring i giftermålsbalken m. m.
+        </note>
+        <note xml:id="i-XJD2gedaKB1aQCi4CPHUcU">
+          Föredrogs och hänvisades till tredje särskilda utskottet den
+          av herr Ljungdahl m. fl. väckta motionen, nr 377, i anledning
+          av Kungl. Maj:ts proposition med förslag till lag om allmän sjukförsäkring,
+          m. m.
+        </note>
+        <note xml:id="i-NGWyEZTg9yifXXMrxrDTb7">
+          Föredrogs statsutskottets memorial nr 257, i anledning av kamrarnas
+          remisser Ang. återlämav Kungl. Maj:ts proposition angående godkännande
+          av ett mellan Sverige nande från
+        </note>
+        <note xml:id="i-Twyqry3SySmckQZUNAz4F6">
+          och De Socialistiska Rådsrepublikernas Union träffat kreditavtal.
+          efatevtoketlet Detta memorial lydde: z remitterad kungl. propo-
+        </note>
+        <note xml:id="i-J3c36ysfuz9rdApq3Q8twr">
+          » Till statsutskottet har av kamrarna den 18 oktober 1946 hänvisats
+          Kungl. — sion. Maj:ts proposition nr 351 angående godkännande
+          av ett mellan Sverige och De Socialistiska Rådsrepublikernas Union
+          träffat kreditavtal. Då propositionen nr 351 äger nära samband
+          med propositionen nr 350 angående godkännande av en mellan Sverige
+          och De Socialistiska Rådsrepublikernas Union träffad handelsöverenskommelse
+          m. m., vilken sistnämnda proposition av kamrarna hänvisats till
+          utrikesutskottet, får statsutskottet med stöd av $ 7 reglementariska
+          föreskrifter för riksdagen hemställa, att propositionen nr 351
+          må till kamrarna återlämnas.»
+        </note>
+        <note xml:id="i-FBsKR6YcAMymSkwrTL7X4Z">
+          På framställning av herr förste vice talmannen beslöts att ifrågavarande,
+          endast en gång bordlagda ärende skulle redan vid detta sammanträde
+          företagas till avgörande.
+        </note>
+        <note type="speaker" xml:id="i-DSzPUupTYZFEPrcip61oDr">
+          Herr andre vice talmannen:
+        </note>
+        <u who="Q6255057" xml:id="i-48c786668549ae14-0">
+          <seg xml:id="i-2394iScwL4UenKJKcck1mi">
+            Herr förste vice talman! Jag hemställer, att kammaren måtte bifalla
+            utskottets hemställan och hänvisa den kungl. propositionen till
+            utrikesutskottet.
+          </seg>
+        </u>
+        <note xml:id="i-87Ysw8qv578ZSnQYf6aaKx">
+          Efter härmed slutad överläggning bifölls vad herr andre vice
+          talmannen därunder hemställt.
+        </note>
+        <note xml:id="i-N6GGeo3HXE6TkojNCamfH1">
+          Föredrogos och bordlades Kungl. Maj:ts denna dag avlämnade propositioner
+          nr 343, 354 och 355.
+        </note>
+        <note xml:id="i-VKHuB5tHNJSMqPKHEUwbap">
+          Fru Svenson avlämnade en av henne och herr Nilsson, Bror, undertecknad
+          motion, nr 378, i anledning av Kungl. Maj:ts proposition angående
+          utgifter å tilläggsstat I till riksstaten för budgetåret 1946/47.
+        </note>
+        <note xml:id="i-8pAgHbDHQ4bsFSKHf2pruG">
+          Motionen bordlades.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1946-höst-fk--33/prot_1946_höst_fk__33-005.jp2/_view"/>
+        <note type="date" xml:id="i-Dr2ttpB6kFwKnjxXg8TSi3">
+          6 Nr 33. Lördagen den 26 oktober 1946.
+        </note>
+        <note xml:id="i-XwWsEcgRJHowLxW89J25q2">
+          Anmäldes och bordlades statsutskottets utlåtanden:
+        </note>
+        <note xml:id="i-8rDxNGvrWKFSWWg4fVP4pi">
+          nr 258, i anledning av Kungl. Maj:ts framställning angående anslag
+          å tillläggsstat I till riksstaten för budgetåret 1946/47 till
+          studieresa till utländska vetenskapliga institutioner;
+        </note>
+        <note xml:id="i-Mrb5kEGn7DM8feDHuezpip">
+          nr 259, i anledning av Kungl. Maj:ts proposition angående anvisande
+          av medel till driftkostnadsersättning för psykiatriska kliniken
+          i Uppsala m. m.;
+        </note>
+        <note xml:id="i-Y3YiqQLhsN7KFLbdquk26U">
+          nr 260, i anledning av Kungl. Maj:ts proposition med begäran
+          om bemyndigande att träffa avtal med Göteborgs stad angående villkoren
+          för överföring å Göteborgs stad av det tryckande registret för
+          staden; samt
+        </note>
+        <note xml:id="i-Dxr2Rhnyrxct19xLgoHfgt">
+          nr 261, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av viss under vattenfallsstyrelsens förvaltning stående tomtmark
+          i Trollhättan.
+        </note>
+        <note xml:id="i-9jSwjbBY5JH7DC3CvoGrp">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 2.08 eftermiddagen.
+        </note>
+        <note xml:id="i-HHLQq7EYbnJXe5kudVmRRM">
+          In fidem G. H. Berggren.
+        </note>
+        <note xml:id="i-HSL5ukCFihtVmWNydVCWzk">
+          Stockholm 1946. Kungl. Boktryckeriet P. A. Norstedt &amp; Söner.
+          464112
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1951</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1951</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,374 +25,347 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1951-extrahöst-ak--26</head>
-          <docDate when="1951-09-01">1951-09-01</docDate>
-          <docDate when="1951-09-06">1951-09-06</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1951-extrahöst-ak--26/prot_1951_extrahöst_ak__26-000.jp2/_view"/>
-          <note xml:id="i-UDNME5zTw6i9i3KjVSW5px">
-            I
-          </note>
-          <note xml:id="i-FXTXbfkDXpCByWPE9eMFqg">
-            RIKSDAGENS
-          </note>
-          <note xml:id="i-3TaDQxGNv4wDKVNMzaLS9y">
-            1951
-          </note>
-          <note xml:id="i-SpPP8CcTWP53jVgphtcrtP">
-            ANDRA KAMMAREN
-          </note>
-          <note xml:id="i-WtiS4eLNSFnC7HB7PQ3GFX">
-            55
-          </note>
-          <note xml:id="i-MNUWWpaLJaRdVmuEfWPpx4">
-            PROTOKOLL
-          </note>
-          <note xml:id="i-9Lg9j4YcnR4cak3gnMGvxx">
-            Nr 26
-          </note>
-          <note xml:id="i-KFare95YKLUSxXFFWZgJWV">
-            6—13 september.
-          </note>
-          <note type="date" xml:id="i-Svkd3h5m2z5hQXrAg7Ro6B">
-            Torsdagen den 6 september.
-          </note>
-          <note xml:id="i-QAR7Mib3dQkchrGFjb5uqc">
-            Kl. 2
-          </note>
-          <note xml:id="i-SHknq4Q8TKTBdPSUGoEzKc">
-            § 1. Föredrogs Kungl. Maj:ts öppna brev och påbud angående inkallande
-            av riksdagen till extra session, så lydande:
-          </note>
-          <note xml:id="i-35qcBSEL9TLzAJkud58Bfh">
-            Kungl. Maj:ts öppna brev och påbud angående inkallande av riksdagen
-            till extra session i Stockholm den 6 september 1951; givet Sofiero
-            den 1 september 1951.
-          </note>
-          <u xml:id="i-Kfhm2rH8rjNiYZf33YXWW8" who="unknown" next="i-TQ5xLHpXBsQpDycPX6cbMH">
-            <seg xml:id="i-4vpJBNEhxtDzKHCCQ8BhLL">
-              Vi Gustaf Adolf, med Guds nåde, Sveriges, Götes och Vendes Konung,
-              göre veterligt:
-            </seg>
-          </u>
-          <u xml:id="i-TQ5xLHpXBsQpDycPX6cbMH" who="unknown" prev="i-Kfhm2rH8rjNiYZf33YXWW8" next="i-QuuxJ8gadGv9JjK8xoYu6j">
-            <seg xml:id="i-4GNrUBmkbQJ9eaRQRawGrS">
-              Då Vi finna nödvändigt att utan dröjsmål förelägga riksdagen
-              förslag till lag om särskilda åtgärder för upprätthållande av
-              viss sjukvårdande verksamhet, kalla Vi härmed samtliga ledamöter
-              av riksdagens båda kamrar att torsdagen den 6 september 1951 sammanträda
-              i Stockholm till extra session.
-            </seg>
-          </u>
-          <u xml:id="i-QuuxJ8gadGv9JjK8xoYu6j" who="unknown" prev="i-TQ5xLHpXBsQpDycPX6cbMH">
-            <seg xml:id="i-G7WC9BNgxVwrh1ANi5i2BN">
-              Det alla som vederbör hava sig hörsamligen att efterrätta. Till
-              yttermera visso hava Vi detta med egen hand underskrivit och med
-              Vårt kungl. sigill bekräfta låtit.
-            </seg>
-          </u>
-          <note xml:id="i-EGt2FwCKvobBWrxtPZ1FRo">
-            Sofiero den 1 september 1951.
-          </note>
-          <note xml:id="i-2biWN3C7uR9KJ4Bq79pQUg" type="speaker">
-            GUSTAF ADOLF (L. S.)
-          </note>
-          <note xml:id="i-AjagG4eH5LdR137RZRxeMg">
-            Eije Mossberg
-          </note>
-          <note xml:id="i-Av3pA56NsMaiV9XhbE5zA2" type="speaker">
-            Härefter yttrade herr TALMANNEN:
-          </note>
-          <u who="Q6201372" xml:id="i-CcPFQgyYYMG44eQcTVeC9a" next="i-UdGBhQekeHikFP6Tx5gqpM">
-            <seg xml:id="i-F6NH9QGErDnv5gASo6nLke">
-              Med anledning härav förklarar jag nu
-            </seg>
-          </u>
-          <note xml:id="i-LM3qxkmJKg5ngmTWrZ1ynN">
-            Andra kammarens protokoll 1951. Nr 26.
-          </note>
-          <note xml:id="i-BoT5PW62XU3SjUyGVdT77t">
-            em.
-          </note>
-          <u xml:id="i-UdGBhQekeHikFP6Tx5gqpM" who="Q6201372" prev="i-CcPFQgyYYMG44eQcTVeC9a" next="i-4khJr5Y49tcuyYYVxLwFhv">
-            <seg xml:id="i-FxnhN4xsavmnMogwCLXwVe">
-              denna extra session öppnad och hälsar eder alla välkomna.
-            </seg>
-          </u>
-          <note xml:id="i-RRFH4XR3dkVABi8VJHAqGA">
-            § 2. Upplästes följande till kammaren inkomna skrivelser, läkarintyg
-            och telegram:
-          </note>
-          <note xml:id="i-3ibrZooER9MRdtTCXMWBPV">
-            Till riksdagens andra kammare, Stockholm.
-          </note>
-          <note xml:id="i-5hqwvS9xYmFuUUKy8fn6Q9">
-            Anhålla för utländsk resa om ledighet till 19 september för Hagberg,
-            21 september för von Seth och 25 september för Rubbestad och Severin.
-          </note>
-          <note xml:id="i-AhL5Zq7AYZbhX1yLGwa8Wz">
-            Hagberg, Rubbestad, von Seth, Severin.
-          </note>
-          <note xml:id="i-UGw7uUk5fVGR6LPF3oLxpX">
-            An den Praesidenten der zweiten Kammer des Reichstags, Stockholm.
-          </note>
-          <note xml:id="i-UZkGhH3rMd1bxU7jLacWVr">
-            Leider durch Auslandsreise bis am Diensttag verhindert.
-          </note>
-          <note xml:id="i-6f5VVRenQMJ6awKFx2bmp8">
-            Johnsson, Stockholm.
-          </note>
-          <note xml:id="i-94f6Ajs1sHWN6CVE8G3qEQ">
-            Till riksdagens andra kammare, Stockholm.
-          </note>
-          <u xml:id="i-4khJr5Y49tcuyYYVxLwFhv" who="Q6201372" prev="i-UdGBhQekeHikFP6Tx5gqpM" next="i-3rQmGZQzkPrCeUphMDG9cM">
-            <seg xml:id="i-4tqVRzjPG7LDvKFsK58KmB">
-              Undertecknad får härmed anmäla, att jag på grund av en affärsresa
-              i Tyskland och Nederländerna är förhindrad att deltaga i riksdagens
-              sammanträde under tiden 6/9—18/9 1951.
-            </seg>
-          </u>
-          <note xml:id="i-DTzWXjxutw5ep8rRM8dzr2">
-            Malmö den 4/9 1951. Carl Christenson.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1951-extrahöst-ak--26/prot_1951_extrahöst_ak__26-001.jp2/_view"/>
-          <note xml:id="i-SWktA3Duv8pQuuhFgKMdf6">
-            2 Nr 26.
-          </note>
-          <note xml:id="i-X8n6pDg4XaNJP5bpqSUgmY">
-            Till riksdagens andra kammare, Stockholm. Härmed anhålles om
-            ledighet från riksdagsgöromålen tills vidare. Göteborg den 4/9
-            1951. Olof Nilsson.
-          </note>
-          <note xml:id="i-CvkDQEr8vtjdRccwhbUZHP">
-            Vid denna ansökan var fogad ett läkarintyg av följande lydelse:
-          </note>
-          <note xml:id="i-BNp9fPuSJTy4TGGsCVK9c2">
-            Härmed intygas att riksdagsman Olof Nilsson f. 3/8 1896 vårdas
-            å härvar. med. avd. II, Sahlgrenska sjukhuset, sedan 3/9 1951.
-          </note>
-          <note xml:id="i-RQauy3xskmeruax21sJuvh">
-            F. Heyman, underläk.
-          </note>
-          <note xml:id="i-KqusjvstpbqQbaTvbNBFgp">
-            Vikaryd, Alingsås den 6 sept. 1951. Till 2:a kammaren, Stockholm.
-          </note>
-          <u xml:id="i-3rQmGZQzkPrCeUphMDG9cM" who="Q6201372" prev="i-4khJr5Y49tcuyYYVxLwFhv" next="i-BJRn4Ui7kYjnfJkAcDsEDU">
-            <seg xml:id="i-LRUGZedcYmGdEu96i8Ecsw">
-              Jag får härmed anhålla om ledighet från riksdagsarbetet för,
-              tills vidare, 10 dagar, räknat från den 7 sept.
-            </seg>
-          </u>
-          <note xml:id="i-FQbqS6KNoe2WAsnEXPThud">
-            J. Dickson.
-          </note>
-          <u xml:id="i-BJRn4Ui7kYjnfJkAcDsEDU" who="Q6201372" prev="i-3rQmGZQzkPrCeUphMDG9cM" next="i-YLzQaEmJ4gjFAhVoDkbfCQ">
-            <seg xml:id="i-9GNSnbFCJXiUYqxM69Lpiw">
-              Undertecknad, som skall deltaga i en kongress i Frankrike med
-              Association Internationale des Constructeurs de Matériel Roulant,
-              anhåller härmed om ledighet från riksdagsarbetet under tiden från
-              den 7 till den 26 september 1951.
-            </seg>
-          </u>
-          <note xml:id="i-23jsbvRzPcMS2eHzexcj14">
-            Stockholm den 6 september 1951.
-          </note>
-          <note xml:id="i-XR3KBZfVqyKynSjU1ZvApD">
-            Bengt Sjölin. Till andra kammarens kansli, riks-
-          </note>
-          <note xml:id="i-LXFr8DSXY5GAUkD9iVjKYp">
-            dagen, Stockholm.
-          </note>
-          <note xml:id="i-8WXpsjtZt8HUyLRZu6LBwN">
-            Med anledning av studieresa i USA under tiden t. o. m. den 15
-            november
-          </note>
-          <note type="date" xml:id="i-QoAiRZcF6jEejPqvgqdmpk">
-            Torsdagen den 6 september 1951.
-          </note>
-          <note xml:id="i-8KWLJfdEDqB24HbYkmT9LG">
-            1951 anhålles om ledighet från riksdagsarbetet intill detta datum.
-            Malmö den 28 aug. 1951.
-          </note>
-          <note xml:id="i-4LSwmWPcHLnsD7G9kS3yuq">
-            Gösta Netz-én.
-          </note>
-          <note xml:id="i-GEpXKm2R3J8iVYdtCHVjJY">
-            Ledighet från riksdagsgöromålen beviljades herrar Hagberg i Malmö,
-            von Seth, Rubbestad, Severin, Johnsson i Stockholm, Christenson
-            i Malmö, Nilsson i Göteborg och Netzén från och med denna dag,
-            herr Hagberg i Malmö till och med den 19, herr von Seth till och
-            med den 21, herrar Rubbestad och Severin till och med den 25,
-            herr Johnsson i Stockholm till och med den 11 och herr Christenson
-            i Malmö till och med den 18 september, herr Nilsson i Göteborg
-            tills vidare och herr Netzén till och med den 15 november, samt
-            herr Dickson från och med den 7 till och med den 17 september
-            och herr Sjölin från och med den 7 till och med den 26 september.
-          </note>
-          <note xml:id="i-R5MeRZMXRykJBrRupH6jZS">
-            § 3.
-          </note>
-          <note xml:id="i-6bU3FeLyEMiwYFWW2E37pS">
-            Anmäldes, att Kungl. Maj:ts proposition nr 212, med förslag till
-            lag om särskilda åtgärder för upprätthållande av viss sjukvårdande
-            verksamhet, tillställts kammaren.
-          </note>
-          <note xml:id="i-C7TDAyhzVd9iAZu7eLKKBE">
-            Denna proposition bordlades.
-          </note>
-          <note xml:id="i-U8yEPB5sR5VuAyVo8WgR9w">
-            Kammarens ledamöter åtskildes härefter kl. 2.05 em.
-          </note>
-          <note xml:id="i-QRJ7E6DDKH35aWNKgJdkmW">
-            In fidem Gunnar Britth.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1951-extrahöst-ak--26/prot_1951_extrahöst_ak__26-002.jp2/_view"/>
-          <note xml:id="i-YZ5ZLC4bDFuhQvFpHFfVca">
-            Fredagen den
-          </note>
-          <note xml:id="i-GWmqmdNkag32F6huz9vojL">
-            Fredagen den 7
-          </note>
-          <note xml:id="i-7C4QtY3ZP8Hg4tffrzYozX">
-            -
-          </note>
-          <note xml:id="i-2Cgewu5z5kMWVhces9zVQ7">
-            september 1951. Nr 26. 3
-          </note>
-          <note xml:id="i-TVYi6u4Ue333QL9avUeTUz">
-            7 september.
-          </note>
-          <note xml:id="i-VRY9kRNQtRyg4BXh2AWbiP">
-            Kl. 11 fm,
-          </note>
-          <note xml:id="i-D2GuVUnWgwUD4rpi5DffPY">
-            § 1. Upplästes följande till kammaren inkomna ansökan: Till Andra
-            Kammaren, Stockholm.
-          </note>
-          <u xml:id="i-YLzQaEmJ4gjFAhVoDkbfCQ" who="Q6201372" prev="i-BJRn4Ui7kYjnfJkAcDsEDU">
-            <seg xml:id="i-RpCbTjmAKrwRVRBovrDSV1">
-              På grund av studieresa i Förenta staterna får jag härmed vördsamt
-              anhålla om ledighet från riksdagsarbetet t. o. m. den 1 instundande
-              november.
-            </seg>
-          </u>
-          <note xml:id="i-WrzqvmmNhPLpqzznR4R45t">
-            Elis Håstad.
-          </note>
-          <note xml:id="i-CF9ATumLuuNjWzAsNYsjGk">
-            Kammaren biföll denna ansökan.
-          </note>
-          <note xml:id="i-VZX8Jk2yy8xuvH8zBR5Vzz">
-            Torsdagen den KL. 2
-          </note>
-          <note xml:id="i-G5GeMhNj9vdu3WUYVZaBPy">
-            § 1. Justerades protokollen för den 6 och
-          </note>
-          <note xml:id="i-H6Vu77qVLxrWoVJmQSXLga">
-            den 7 innevarande månad.
-          </note>
-          <note xml:id="i-9uqPzUjdhGN3rc2H9hkJgP">
-            § 2.
-          </note>
-          <note xml:id="i-M8FuE3VFdcea3HJ8Dq59cq">
-            Herr talmannen anmälde, att till kammaren överlämnats Kungl.
-            Maj:ts skrivelse, nr 213, med återkallande av propositionen nr
-            212 med förslag till lag om särskilda åtgärder för upprätthållande
-            av viss sjukvårdande verksamhet.
-          </note>
-          <note xml:id="i-NBWXu9M2Wrq5fM1jfWaLtJ">
-            Av nämnda kungl. skrivelse, som nu upplästes, inhämtades, att
-            Kungl. Maj:t beslutit återkalla förenämnda till riksdagen avlåtna
-            proposition nr 212.
-          </note>
-          <note xml:id="i-7cFF9vYw22e2G5ASo58YFn">
-            Med anledning härav beslöt kammaren, att Kungl. Maj:ts ifrågavarande
-            proposition nr 212, som vilade på bordet, skulle läggas till handlingarna.
-          </note>
-          <note xml:id="i-K7QdJm1pPfn8TWnrXKDNab">
-            § 2.
-          </note>
-          <note xml:id="i-LmKSned1RLcL7BTsGmSy3Z">
-            Herr talmannen meddelade, att kammarens nästa sammanträde komme
-            att hållas torsdagen den 13 innevarande september kl. 2 em.
-          </note>
-          <note xml:id="i-5KrtU8oQh66CAJdpq82Pah">
-            Kammarens ledamöter åtskildes härefter kl. 11.02 fm.
-          </note>
-          <note xml:id="i-7h4PNnZQmFV5iN8VdeKEv1">
-            In fidem
-          </note>
-          <note xml:id="i-99LYHj7nQKtAoytN49NSpL">
-            Gunnar Britth.
-          </note>
-          <note xml:id="i-63FBg6dFY8KiLfHZ5CTwz7">
-            13 september.
-          </note>
-          <note xml:id="i-HfqqT7UVCgsUjogEQEyg7f">
-            em.
-          </note>
-          <note xml:id="i-QPar9ke99RaFycLEuDXb3P">
-            § 3. Justerades ett protokollsutdrag.
-          </note>
-          <note xml:id="i-GyNVhi5yAZPBjt4n2k2sr8">
-            § 4.
-          </note>
-          <note type="speaker" xml:id="i-NtM7bc2DHjWxeaWNynQbCV">
-            Herr TALMANNEN yttrade:
-          </note>
-          <u who="Q6201372" xml:id="i-d6a71c2b300fe5e1-0">
-            <seg xml:id="i-Wd9BHxfaagpj34HGGmuZE1">
-              Då den extra session, vartill riksdagen inkallats, nu avslutas,
-              vill jag erinra, att, såsom förut meddelats, riksdagen sammanträder
-              till höstsession tisdagen den 16 oktober kl. 2 em.
-            </seg>
-          </u>
-          <note xml:id="i-KZGRCyHojyrPC8HcyU2e9C">
-            § 5.
-          </note>
-          <note xml:id="i-KNGmQS5GeWEkVGpUkRHUGS">
-            Justerades kammarens protokoll för denna dag.
-          </note>
-          <note xml:id="i-V9aSYX2bqCfjNdfzX9cKAm">
-            Kammarens ledamöter åtskildes härefter kl. 2.05 em. In fidem
-          </note>
-          <note xml:id="i-8RAXb3y81Sk5b36GXqu6zf">
-            Gunnar Britth.
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1951-extrahöst-ak--26</head>
+        <docDate when="1951-09-01">1951-09-01</docDate>
+        <docDate when="1951-09-06">1951-09-06</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1951-extrahöst-ak--26/prot_1951_extrahöst_ak__26-000.jp2/_view"/>
+        <note xml:id="i-UDNME5zTw6i9i3KjVSW5px">
+          I
+        </note>
+        <note xml:id="i-FXTXbfkDXpCByWPE9eMFqg">
+          RIKSDAGENS
+        </note>
+        <note xml:id="i-3TaDQxGNv4wDKVNMzaLS9y">
+          1951
+        </note>
+        <note xml:id="i-SpPP8CcTWP53jVgphtcrtP">
+          ANDRA KAMMAREN
+        </note>
+        <note xml:id="i-WtiS4eLNSFnC7HB7PQ3GFX">
+          55
+        </note>
+        <note xml:id="i-MNUWWpaLJaRdVmuEfWPpx4">
+          PROTOKOLL
+        </note>
+        <note xml:id="i-9Lg9j4YcnR4cak3gnMGvxx">
+          Nr 26
+        </note>
+        <note xml:id="i-KFare95YKLUSxXFFWZgJWV">
+          6—13 september.
+        </note>
+        <note type="date" xml:id="i-Svkd3h5m2z5hQXrAg7Ro6B">
+          Torsdagen den 6 september.
+        </note>
+        <note xml:id="i-QAR7Mib3dQkchrGFjb5uqc">
+          Kl. 2
+        </note>
+        <note xml:id="i-SHknq4Q8TKTBdPSUGoEzKc">
+          § 1. Föredrogs Kungl. Maj:ts öppna brev och påbud angående inkallande
+          av riksdagen till extra session, så lydande:
+        </note>
+        <note xml:id="i-35qcBSEL9TLzAJkud58Bfh">
+          Kungl. Maj:ts öppna brev och påbud angående inkallande av riksdagen
+          till extra session i Stockholm den 6 september 1951; givet Sofiero
+          den 1 september 1951.
+        </note>
+        <u xml:id="i-Kfhm2rH8rjNiYZf33YXWW8" who="unknown" next="i-TQ5xLHpXBsQpDycPX6cbMH">
+          <seg xml:id="i-4vpJBNEhxtDzKHCCQ8BhLL">
+            Vi Gustaf Adolf, med Guds nåde, Sveriges, Götes och Vendes Konung,
+            göre veterligt:
+          </seg>
+        </u>
+        <u xml:id="i-TQ5xLHpXBsQpDycPX6cbMH" who="unknown" prev="i-Kfhm2rH8rjNiYZf33YXWW8" next="i-QuuxJ8gadGv9JjK8xoYu6j">
+          <seg xml:id="i-4GNrUBmkbQJ9eaRQRawGrS">
+            Då Vi finna nödvändigt att utan dröjsmål förelägga riksdagen
+            förslag till lag om särskilda åtgärder för upprätthållande av
+            viss sjukvårdande verksamhet, kalla Vi härmed samtliga ledamöter
+            av riksdagens båda kamrar att torsdagen den 6 september 1951 sammanträda
+            i Stockholm till extra session.
+          </seg>
+        </u>
+        <u xml:id="i-QuuxJ8gadGv9JjK8xoYu6j" who="unknown" prev="i-TQ5xLHpXBsQpDycPX6cbMH">
+          <seg xml:id="i-G7WC9BNgxVwrh1ANi5i2BN">
+            Det alla som vederbör hava sig hörsamligen att efterrätta. Till
+            yttermera visso hava Vi detta med egen hand underskrivit och med
+            Vårt kungl. sigill bekräfta låtit.
+          </seg>
+        </u>
+        <note xml:id="i-EGt2FwCKvobBWrxtPZ1FRo">
+          Sofiero den 1 september 1951.
+        </note>
+        <note xml:id="i-2biWN3C7uR9KJ4Bq79pQUg" type="speaker">
+          GUSTAF ADOLF (L. S.)
+        </note>
+        <note xml:id="i-AjagG4eH5LdR137RZRxeMg">
+          Eije Mossberg
+        </note>
+        <note xml:id="i-Av3pA56NsMaiV9XhbE5zA2" type="speaker">
+          Härefter yttrade herr TALMANNEN:
+        </note>
+        <u who="Q6201372" xml:id="i-CcPFQgyYYMG44eQcTVeC9a" next="i-UdGBhQekeHikFP6Tx5gqpM">
+          <seg xml:id="i-F6NH9QGErDnv5gASo6nLke">
+            Med anledning härav förklarar jag nu
+          </seg>
+        </u>
+        <note xml:id="i-LM3qxkmJKg5ngmTWrZ1ynN">
+          Andra kammarens protokoll 1951. Nr 26.
+        </note>
+        <note xml:id="i-BoT5PW62XU3SjUyGVdT77t">
+          em.
+        </note>
+        <u xml:id="i-UdGBhQekeHikFP6Tx5gqpM" who="Q6201372" prev="i-CcPFQgyYYMG44eQcTVeC9a" next="i-4khJr5Y49tcuyYYVxLwFhv">
+          <seg xml:id="i-FxnhN4xsavmnMogwCLXwVe">
+            denna extra session öppnad och hälsar eder alla välkomna.
+          </seg>
+        </u>
+        <note xml:id="i-RRFH4XR3dkVABi8VJHAqGA">
+          § 2. Upplästes följande till kammaren inkomna skrivelser, läkarintyg
+          och telegram:
+        </note>
+        <note xml:id="i-3ibrZooER9MRdtTCXMWBPV">
+          Till riksdagens andra kammare, Stockholm.
+        </note>
+        <note xml:id="i-5hqwvS9xYmFuUUKy8fn6Q9">
+          Anhålla för utländsk resa om ledighet till 19 september för Hagberg,
+          21 september för von Seth och 25 september för Rubbestad och Severin.
+        </note>
+        <note xml:id="i-AhL5Zq7AYZbhX1yLGwa8Wz">
+          Hagberg, Rubbestad, von Seth, Severin.
+        </note>
+        <note xml:id="i-UGw7uUk5fVGR6LPF3oLxpX">
+          An den Praesidenten der zweiten Kammer des Reichstags, Stockholm.
+        </note>
+        <note xml:id="i-UZkGhH3rMd1bxU7jLacWVr">
+          Leider durch Auslandsreise bis am Diensttag verhindert.
+        </note>
+        <note xml:id="i-6f5VVRenQMJ6awKFx2bmp8">
+          Johnsson, Stockholm.
+        </note>
+        <note xml:id="i-94f6Ajs1sHWN6CVE8G3qEQ">
+          Till riksdagens andra kammare, Stockholm.
+        </note>
+        <u xml:id="i-4khJr5Y49tcuyYYVxLwFhv" who="Q6201372" prev="i-UdGBhQekeHikFP6Tx5gqpM" next="i-3rQmGZQzkPrCeUphMDG9cM">
+          <seg xml:id="i-4tqVRzjPG7LDvKFsK58KmB">
+            Undertecknad får härmed anmäla, att jag på grund av en affärsresa
+            i Tyskland och Nederländerna är förhindrad att deltaga i riksdagens
+            sammanträde under tiden 6/9—18/9 1951.
+          </seg>
+        </u>
+        <note xml:id="i-DTzWXjxutw5ep8rRM8dzr2">
+          Malmö den 4/9 1951. Carl Christenson.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1951-extrahöst-ak--26/prot_1951_extrahöst_ak__26-001.jp2/_view"/>
+        <note xml:id="i-SWktA3Duv8pQuuhFgKMdf6">
+          2 Nr 26.
+        </note>
+        <note xml:id="i-X8n6pDg4XaNJP5bpqSUgmY">
+          Till riksdagens andra kammare, Stockholm. Härmed anhålles om
+          ledighet från riksdagsgöromålen tills vidare. Göteborg den 4/9
+          1951. Olof Nilsson.
+        </note>
+        <note xml:id="i-CvkDQEr8vtjdRccwhbUZHP">
+          Vid denna ansökan var fogad ett läkarintyg av följande lydelse:
+        </note>
+        <note xml:id="i-BNp9fPuSJTy4TGGsCVK9c2">
+          Härmed intygas att riksdagsman Olof Nilsson f. 3/8 1896 vårdas
+          å härvar. med. avd. II, Sahlgrenska sjukhuset, sedan 3/9 1951.
+        </note>
+        <note xml:id="i-RQauy3xskmeruax21sJuvh">
+          F. Heyman, underläk.
+        </note>
+        <note xml:id="i-KqusjvstpbqQbaTvbNBFgp">
+          Vikaryd, Alingsås den 6 sept. 1951. Till 2:a kammaren, Stockholm.
+        </note>
+        <u xml:id="i-3rQmGZQzkPrCeUphMDG9cM" who="Q6201372" prev="i-4khJr5Y49tcuyYYVxLwFhv" next="i-BJRn4Ui7kYjnfJkAcDsEDU">
+          <seg xml:id="i-LRUGZedcYmGdEu96i8Ecsw">
+            Jag får härmed anhålla om ledighet från riksdagsarbetet för,
+            tills vidare, 10 dagar, räknat från den 7 sept.
+          </seg>
+        </u>
+        <note xml:id="i-FQbqS6KNoe2WAsnEXPThud">
+          J. Dickson.
+        </note>
+        <u xml:id="i-BJRn4Ui7kYjnfJkAcDsEDU" who="Q6201372" prev="i-3rQmGZQzkPrCeUphMDG9cM" next="i-YLzQaEmJ4gjFAhVoDkbfCQ">
+          <seg xml:id="i-9GNSnbFCJXiUYqxM69Lpiw">
+            Undertecknad, som skall deltaga i en kongress i Frankrike med
+            Association Internationale des Constructeurs de Matériel Roulant,
+            anhåller härmed om ledighet från riksdagsarbetet under tiden från
+            den 7 till den 26 september 1951.
+          </seg>
+        </u>
+        <note xml:id="i-23jsbvRzPcMS2eHzexcj14">
+          Stockholm den 6 september 1951.
+        </note>
+        <note xml:id="i-XR3KBZfVqyKynSjU1ZvApD">
+          Bengt Sjölin. Till andra kammarens kansli, riks-
+        </note>
+        <note xml:id="i-LXFr8DSXY5GAUkD9iVjKYp">
+          dagen, Stockholm.
+        </note>
+        <note xml:id="i-8WXpsjtZt8HUyLRZu6LBwN">
+          Med anledning av studieresa i USA under tiden t. o. m. den 15
+          november
+        </note>
+        <note type="date" xml:id="i-QoAiRZcF6jEejPqvgqdmpk">
+          Torsdagen den 6 september 1951.
+        </note>
+        <note xml:id="i-8KWLJfdEDqB24HbYkmT9LG">
+          1951 anhålles om ledighet från riksdagsarbetet intill detta datum.
+          Malmö den 28 aug. 1951.
+        </note>
+        <note xml:id="i-4LSwmWPcHLnsD7G9kS3yuq">
+          Gösta Netz-én.
+        </note>
+        <note xml:id="i-GEpXKm2R3J8iVYdtCHVjJY">
+          Ledighet från riksdagsgöromålen beviljades herrar Hagberg i Malmö,
+          von Seth, Rubbestad, Severin, Johnsson i Stockholm, Christenson
+          i Malmö, Nilsson i Göteborg och Netzén från och med denna dag,
+          herr Hagberg i Malmö till och med den 19, herr von Seth till och
+          med den 21, herrar Rubbestad och Severin till och med den 25,
+          herr Johnsson i Stockholm till och med den 11 och herr Christenson
+          i Malmö till och med den 18 september, herr Nilsson i Göteborg
+          tills vidare och herr Netzén till och med den 15 november, samt
+          herr Dickson från och med den 7 till och med den 17 september
+          och herr Sjölin från och med den 7 till och med den 26 september.
+        </note>
+        <note xml:id="i-R5MeRZMXRykJBrRupH6jZS">
+          § 3.
+        </note>
+        <note xml:id="i-6bU3FeLyEMiwYFWW2E37pS">
+          Anmäldes, att Kungl. Maj:ts proposition nr 212, med förslag till
+          lag om särskilda åtgärder för upprätthållande av viss sjukvårdande
+          verksamhet, tillställts kammaren.
+        </note>
+        <note xml:id="i-C7TDAyhzVd9iAZu7eLKKBE">
+          Denna proposition bordlades.
+        </note>
+        <note xml:id="i-U8yEPB5sR5VuAyVo8WgR9w">
+          Kammarens ledamöter åtskildes härefter kl. 2.05 em.
+        </note>
+        <note xml:id="i-QRJ7E6DDKH35aWNKgJdkmW">
+          In fidem Gunnar Britth.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1951-extrahöst-ak--26/prot_1951_extrahöst_ak__26-002.jp2/_view"/>
+        <note xml:id="i-YZ5ZLC4bDFuhQvFpHFfVca">
+          Fredagen den
+        </note>
+        <note xml:id="i-GWmqmdNkag32F6huz9vojL">
+          Fredagen den 7
+        </note>
+        <note xml:id="i-7C4QtY3ZP8Hg4tffrzYozX">
+          -
+        </note>
+        <note xml:id="i-2Cgewu5z5kMWVhces9zVQ7">
+          september 1951. Nr 26. 3
+        </note>
+        <note xml:id="i-TVYi6u4Ue333QL9avUeTUz">
+          7 september.
+        </note>
+        <note xml:id="i-VRY9kRNQtRyg4BXh2AWbiP">
+          Kl. 11 fm,
+        </note>
+        <note xml:id="i-D2GuVUnWgwUD4rpi5DffPY">
+          § 1. Upplästes följande till kammaren inkomna ansökan: Till Andra
+          Kammaren, Stockholm.
+        </note>
+        <u xml:id="i-YLzQaEmJ4gjFAhVoDkbfCQ" who="Q6201372" prev="i-BJRn4Ui7kYjnfJkAcDsEDU">
+          <seg xml:id="i-RpCbTjmAKrwRVRBovrDSV1">
+            På grund av studieresa i Förenta staterna får jag härmed vördsamt
+            anhålla om ledighet från riksdagsarbetet t. o. m. den 1 instundande
+            november.
+          </seg>
+        </u>
+        <note xml:id="i-WrzqvmmNhPLpqzznR4R45t">
+          Elis Håstad.
+        </note>
+        <note xml:id="i-CF9ATumLuuNjWzAsNYsjGk">
+          Kammaren biföll denna ansökan.
+        </note>
+        <note xml:id="i-VZX8Jk2yy8xuvH8zBR5Vzz">
+          Torsdagen den KL. 2
+        </note>
+        <note xml:id="i-G5GeMhNj9vdu3WUYVZaBPy">
+          § 1. Justerades protokollen för den 6 och
+        </note>
+        <note xml:id="i-H6Vu77qVLxrWoVJmQSXLga">
+          den 7 innevarande månad.
+        </note>
+        <note xml:id="i-9uqPzUjdhGN3rc2H9hkJgP">
+          § 2.
+        </note>
+        <note xml:id="i-M8FuE3VFdcea3HJ8Dq59cq">
+          Herr talmannen anmälde, att till kammaren överlämnats Kungl.
+          Maj:ts skrivelse, nr 213, med återkallande av propositionen nr
+          212 med förslag till lag om särskilda åtgärder för upprätthållande
+          av viss sjukvårdande verksamhet.
+        </note>
+        <note xml:id="i-NBWXu9M2Wrq5fM1jfWaLtJ">
+          Av nämnda kungl. skrivelse, som nu upplästes, inhämtades, att
+          Kungl. Maj:t beslutit återkalla förenämnda till riksdagen avlåtna
+          proposition nr 212.
+        </note>
+        <note xml:id="i-7cFF9vYw22e2G5ASo58YFn">
+          Med anledning härav beslöt kammaren, att Kungl. Maj:ts ifrågavarande
+          proposition nr 212, som vilade på bordet, skulle läggas till handlingarna.
+        </note>
+        <note xml:id="i-K7QdJm1pPfn8TWnrXKDNab">
+          § 2.
+        </note>
+        <note xml:id="i-LmKSned1RLcL7BTsGmSy3Z">
+          Herr talmannen meddelade, att kammarens nästa sammanträde komme
+          att hållas torsdagen den 13 innevarande september kl. 2 em.
+        </note>
+        <note xml:id="i-5KrtU8oQh66CAJdpq82Pah">
+          Kammarens ledamöter åtskildes härefter kl. 11.02 fm.
+        </note>
+        <note xml:id="i-7h4PNnZQmFV5iN8VdeKEv1">
+          In fidem
+        </note>
+        <note xml:id="i-99LYHj7nQKtAoytN49NSpL">
+          Gunnar Britth.
+        </note>
+        <note xml:id="i-63FBg6dFY8KiLfHZ5CTwz7">
+          13 september.
+        </note>
+        <note xml:id="i-HfqqT7UVCgsUjogEQEyg7f">
+          em.
+        </note>
+        <note xml:id="i-QPar9ke99RaFycLEuDXb3P">
+          § 3. Justerades ett protokollsutdrag.
+        </note>
+        <note xml:id="i-GyNVhi5yAZPBjt4n2k2sr8">
+          § 4.
+        </note>
+        <note type="speaker" xml:id="i-NtM7bc2DHjWxeaWNynQbCV">
+          Herr TALMANNEN yttrade:
+        </note>
+        <u who="Q6201372" xml:id="i-d6a71c2b300fe5e1-0">
+          <seg xml:id="i-Wd9BHxfaagpj34HGGmuZE1">
+            Då den extra session, vartill riksdagen inkallats, nu avslutas,
+            vill jag erinra, att, såsom förut meddelats, riksdagen sammanträder
+            till höstsession tisdagen den 16 oktober kl. 2 em.
+          </seg>
+        </u>
+        <note xml:id="i-KZGRCyHojyrPC8HcyU2e9C">
+          § 5.
+        </note>
+        <note xml:id="i-KNGmQS5GeWEkVGpUkRHUGS">
+          Justerades kammarens protokoll för denna dag.
+        </note>
+        <note xml:id="i-V9aSYX2bqCfjNdfzX9cKAm">
+          Kammarens ledamöter åtskildes härefter kl. 2.05 em. In fidem
+        </note>
+        <note xml:id="i-8RAXb3y81Sk5b36GXqu6zf">
+          Gunnar Britth.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

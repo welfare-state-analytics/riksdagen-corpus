@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 200910</title>
+        <title>Protokoll</title>
       </titleStmt>
       <editionStmt>
         <edition>0.4.2</edition>
@@ -13,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 200910</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -25,103 +25,76 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <editionStmt>
-          <edition>0.4.2</edition>
-        </editionStmt>
-        <publicationStmt>
-          <authority>National Library of Sweden and the WESTAC project</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some data curation was done. It is documented in input/curation/instances</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-200910--115</head>
-          <docDate when="2010-05-04">2010-05-04</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection" xml:id="i-CNczBebSXpHsZ8mJnPNgKM">
-          <pb facs="http://data.riksdagen.se/fil/B6510A1D-C165-40ED-B587-2EC37F63DD45#page=1"/>
-          <note xml:id="i-ViJBukBkuKV2yuZR8Hs6wu">
-            Riksdagens protokoll
-          </note>
-          <note xml:id="i-Rfn6os6RUasHZoQpjKnX47">
-            2009/10:115
-          </note>
-          <note xml:id="i-9UyLWevCPENpGVVP1EcQqY">
-            Tisdagen den 4 maj
-          </note>
-          <note xml:id="i-JmxuuV3tdEwfcwofeTdY2R">
-            Kl. 13:00 - 13:01
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-CuBK9yZJr2u3adnwBSzxx8">
-          <note xml:id="i-NoQne9fJZm9JHWddX9SmQf">
-            1 § Justering av protokoll
-          </note>
-          <note xml:id="i-JcQXzmy5UHiPuqfQVYm7hF">
-            Justerades protokollet för den 28 april.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-VrdNj7vrseNvqJDTKruUxa">
-          <note xml:id="i-LoDD8H5XySoEsuqPouvFwg">
-            2 § Hänvisning av ärenden till utskott
-          </note>
-          <note xml:id="i-PbDVnBCC1XGFd3gdMUDXrn">
-            Föredrogs och hänvisades
-          </note>
-          <note xml:id="i-HDipCxoaNx1wUGoha8dFHu">
-            25 juni
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-NiVBPsTeuU82G3765n3ZRc">
-          <note xml:id="i-WTVEgvjyu9hURFu4BLCZXL">
-            3 § Förnyad bordläggning
-          </note>
-          <note xml:id="i-VepMQsqkoggXnV9D1mAeT4">
-            Föredrogs och bordlades åter
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-V2mDSSArrD8jsnwAswjTtm">
-          <note xml:id="i-A46Qsf86wEJNQ6FoRsmscs">
-            4 § Bordläggning
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/B6510A1D-C165-40ED-B587-2EC37F63DD45#page=2"/>
-          <note xml:id="i-P1y3HiaGgAhJWVRQNqg6co">
-            Anmäldes och bordlades
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-5Dc1WEDCwAR7FGg1HKD1wN">
-          <note xml:id="i-STNHcZ57g7occKQ5uLcCiL">
-            5 § Kammaren åtskildes kl. 13.01.
-          </note>
-          <note xml:id="i-8Y9cd5tfnZrhYGkK3XDRaL">
-            Förhandlingarna leddes av andre vice talmannen.
-          </note>
-          <note xml:id="i-7p7VTZb2zDtHUqXyRcZLng">
-            /Eva-Lena Ekman
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-200910--115</head>
+        <docDate when="2010-05-04">2010-05-04</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-CNczBebSXpHsZ8mJnPNgKM">
+        <pb facs="http://data.riksdagen.se/fil/B6510A1D-C165-40ED-B587-2EC37F63DD45#page=1"/>
+        <note xml:id="i-ViJBukBkuKV2yuZR8Hs6wu">
+          Riksdagens protokoll
+        </note>
+        <note xml:id="i-Rfn6os6RUasHZoQpjKnX47">
+          2009/10:115
+        </note>
+        <note xml:id="i-9UyLWevCPENpGVVP1EcQqY">
+          Tisdagen den 4 maj
+        </note>
+        <note xml:id="i-JmxuuV3tdEwfcwofeTdY2R">
+          Kl. 13:00 - 13:01
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-CuBK9yZJr2u3adnwBSzxx8">
+        <note xml:id="i-NoQne9fJZm9JHWddX9SmQf">
+          1 § Justering av protokoll
+        </note>
+        <note xml:id="i-JcQXzmy5UHiPuqfQVYm7hF">
+          Justerades protokollet för den 28 april.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-VrdNj7vrseNvqJDTKruUxa">
+        <note xml:id="i-LoDD8H5XySoEsuqPouvFwg">
+          2 § Hänvisning av ärenden till utskott
+        </note>
+        <note xml:id="i-PbDVnBCC1XGFd3gdMUDXrn">
+          Föredrogs och hänvisades
+        </note>
+        <note xml:id="i-HDipCxoaNx1wUGoha8dFHu">
+          25 juni
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-NiVBPsTeuU82G3765n3ZRc">
+        <note xml:id="i-WTVEgvjyu9hURFu4BLCZXL">
+          3 § Förnyad bordläggning
+        </note>
+        <note xml:id="i-VepMQsqkoggXnV9D1mAeT4">
+          Föredrogs och bordlades åter
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-V2mDSSArrD8jsnwAswjTtm">
+        <note xml:id="i-A46Qsf86wEJNQ6FoRsmscs">
+          4 § Bordläggning
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/B6510A1D-C165-40ED-B587-2EC37F63DD45#page=2"/>
+        <note xml:id="i-P1y3HiaGgAhJWVRQNqg6co">
+          Anmäldes och bordlades
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-5Dc1WEDCwAR7FGg1HKD1wN">
+        <note xml:id="i-STNHcZ57g7occKQ5uLcCiL">
+          5 § Kammaren åtskildes kl. 13.01.
+        </note>
+        <note xml:id="i-8Y9cd5tfnZrhYGkK3XDRaL">
+          Förhandlingarna leddes av andre vice talmannen.
+        </note>
+        <note xml:id="i-7p7VTZb2zDtHUqXyRcZLng">
+          /Eva-Lena Ekman
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

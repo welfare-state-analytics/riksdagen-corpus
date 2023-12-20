@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 201920</title>
+        <title>Protokoll</title>
       </titleStmt>
       <editionStmt>
         <edition>0.4.2</edition>
@@ -13,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 201920</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -25,304 +25,277 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <editionStmt>
-          <edition>0.4.2</edition>
-        </editionStmt>
-        <publicationStmt>
-          <authority>National Library of Sweden and the WESTAC project</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some data curation was done. It is documented in input/curation/instances</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-201920--103</head>
-          <docDate when="2020-04-09">2020-04-09</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection" xml:id="i-5pSbY1g7T2SJ4vCj9MF2hW">
-          <pb facs="http://data.riksdagen.se/fil/83628DCE-E5C6-4ABB-A552-85E43E9FB1A0#page=1"/>
-          <note xml:id="i-FwfKpKLg3GuEsTzBsV4p4c">
-            § 1 Meddelande om frågestund
-          </note>
-          <note xml:id="i-C3mgZQ633tg4k8MqkUdgiH">
-            Tredje vice talmannen meddelade att frågestund skulle äga rum
-            torsdagen den 16 april kl. 14.00 .
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-UchZFddYNw66LXLEk2YGCT">
-          <note xml:id="i-Y5KMRNWhcPBuJa8FhgsEv9">
-            § 2 Anmälan om granskningsrapport
-          </note>
-          <u xml:id="i-44AFDRWndrSFBE6jR4xDFX" who="unknown">
-            <seg xml:id="i-6Giun5YjNwqW3rsn3JbiYe">
-              Tredje vice talmannen anmälde att följande granskningsrapport
-              hade kommit in från Riksrevisionen och överlämnats till näringsutskottet
-              :
-            </seg>
-          </u>
-          <note xml:id="i-JfHCAe5HuPEYv8owgnwrEa">
-            RiR 2020:10 Regionala strukturfondspartnerskap – ger de förutsättningar
-            för en effektiv användning av EU-medel?
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-8WE5uh1JBxCQEGobtJnd57">
-          <note xml:id="i-8bvq9wPeuZnmzkYeY5naMn">
-            § 3 Ärenden för hänvisning till utskott
-          </note>
-          <note xml:id="i-FQkuLW9KJDXji5CVo4UVF2">
-            Följande dokument anmäldes:
-          </note>
-          <note xml:id="i-9jLe9BfEPrg8MR5GEX7qiw">
-            Motioner
-          </note>
-          <note xml:id="i-NniAXViPuMrvGWYAPwZvtX">
-            med anledning av prop. 2019/20:155 Tillfälliga bemyndiganden
-            i smittskyddslagen med anledning av det virus som orsakar covid-19
-          </note>
-          <note xml:id="i-Q6gRLBL9GtHcM14uZ7Q9ur">
-            2019/20:3568 av Ulf Kristersson m.fl. (M)
-          </note>
-          <note xml:id="i-QGB3Hqz3T81vvWuJKD7pGd">
-            2019/20:3575 av Lina Nordquist m.fl. (L)
-          </note>
-          <note xml:id="i-TAqgECkhqypza5jdSxJkDu">
-            2019/20:3579 av Acko Ankarberg Johansson m.fl. (KD)
-          </note>
-          <note xml:id="i-DeibtRhU4HUj5WipQhKtdu">
-            Kammaren biföll talmannens förslag att ovanstående motioner omedelbart
-            skulle hänvisas till socialutskottet.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-VfvCcePAFAFEfLu9D6surU">
-          <note xml:id="i-7N5Nct2m3pVMdRV2qr2QNh">
-            § 4 Anmälan om frågor för skriftliga svar
-          </note>
-          <u xml:id="i-a5bb2c5dfc4f0c03-1" who="unknown">
-            <seg xml:id="i-X9hgEqEPX6oSxvTKyZvvrD">
-              Följande frågor för skriftliga svar hade framställts:
-            </seg>
-          </u>
-          <note xml:id="i-12pUDygPLehce6cgJt8BvX">
-            den 8 april
-          </note>
-          <note xml:id="i-9CfpTspkQWmRJ8RRE1qhp2">
-            2019/20:1163 Reducerad alkoholskatt på öl från småbryggerier
-          </note>
-          <note xml:id="i-YAEyCbiK5DJSruvQmkvrsS">
-            av Johan Hultberg (M)
-          </note>
-          <note xml:id="i-Hqgb83EcYEi62P4SrwkJUc">
-            till finansminister Magdalena Andersson (S)
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/83628DCE-E5C6-4ABB-A552-85E43E9FB1A0#page=2"/>
-          <note xml:id="i-SqKuDUop9dDZ6rmD5yjyeN">
-            2019/20:1164 Regionala flygplatser och stödet för korttidspermittering
-          </note>
-          <note xml:id="i-4U5zdjq9NWpEL6zj8Eapna">
-            av Maria Stockhaus (M)
-          </note>
-          <note xml:id="i-JuUHVxXoRy7pD9apagytiU">
-            till finansminister Magdalena Andersson (S)
-          </note>
-          <note xml:id="i-7UwosXgCA3W1eDSvuA5rhY">
-            2019/20:1165 Chiles politiska fångar
-          </note>
-          <note xml:id="i-Bwjd2DXSKT9b8rpN2CjprN">
-            av Lorena Delgado Varas (V)
-          </note>
-          <note xml:id="i-483WuNnHSXErJjrauHZsqi">
-            till utrikesminister Ann Linde (S)
-          </note>
-          <note xml:id="i-6q15jPBfVEdNHcSBNQYDS4">
-            2019/20:1166 Sveriges beredskapslager
-          </note>
-          <note xml:id="i-WNAUmXhdXDBQxixHdLf1Yf">
-            av Markus Wiechel (SD)
-          </note>
-          <note xml:id="i-BsmTrLyNfRR9kKVXrFX1J5">
-            till statsrådet Mikael Damberg (S)
-          </note>
-          <note xml:id="i-EGz5VpuFZmhK3PHnzPZyGx">
-            2019/20:1167 Hjälp till svenska familjer utomlands
-          </note>
-          <note xml:id="i-2ix4yGEbytM5Bxu6VRwsNY">
-            av Martina Johansson (C)
-          </note>
-          <note xml:id="i-MZxkQ4DAkexnfCqaUTMVei">
-            till utrikesminister Ann Linde (S)
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-58RPNyTUYDC6kiStR2QWCA">
-          <note xml:id="i-Eda7ypihKuyawuxokf8Yr3">
-            § 5 Anmälan om skriftliga svar på frågor
-          </note>
-          <u xml:id="i-a5bb2c5dfc4f0c03-4" who="unknown">
-            <seg xml:id="i-5XzXyJ4Pp8wSf4PHysFLko">
-              Skriftliga svar på följande frågor hade kommit in:
-            </seg>
-          </u>
-          <note xml:id="i-XnTAMDbJiJhhXZ999KtYkU">
-            den 8 april
-          </note>
-          <note xml:id="i-DPVRnLJ6w1W7rU2sr2JRcf">
-            2019/20:1122 Mikrobryggeriers situation under coronakrisen
-          </note>
-          <note xml:id="i-PMjVD93Z8DyRo8PBDcqhPv">
-            av Angelica Lundberg (SD)
-          </note>
-          <note xml:id="i-FyAwhapx2zshxELL4z6wGo">
-            till socialminister Lena Hallengren (S)
-          </note>
-          <note xml:id="i-VueQN3oUpiC87NmV4N3mNC">
-            2019/20:1125 Restaurangers möjligheter att köra ut mat
-          </note>
-          <note xml:id="i-NxPhKkavXqVm96NpBEuN81">
-            av Lars Beckman (M)
-          </note>
-          <note xml:id="i-ANrGmxCeSRZLCyMEJGWW7y">
-            till infrastrukturminister Tomas Eneroth (S)
-          </note>
-          <note xml:id="i-Egqi5uhbQkVdHhgH9e4EWN">
-            2019/20:1126 Statliga bolags agerande gentemot företag
-          </note>
-          <note xml:id="i-WsddkDRsU3Mk2rMXLjeVXo">
-            av Lars Beckman (M)
-          </note>
-          <note xml:id="i-4U7UPHzVAkEyMTEMWgA8sW">
-            till näringsminister Ibrahim Baylan (S)
-          </note>
-          <note xml:id="i-TeKno54TrPJ1ig34rsGfHU">
-            2019/20:1128 Lättnader i vistelsekommunernas ansvar för socialtjänstinsatser
-          </note>
-          <note xml:id="i-7MMaGXsTNmRedEUfV9s2JP">
-            av Johan Hultberg (M)
-          </note>
-          <note xml:id="i-D4A2G2zVnQZCjXJzTUFeRr">
-            till socialminister Lena Hallengren (S)
-          </note>
-          <note xml:id="i-7HyPxYseYQwHToWZL8r5rt">
-            2019/20:1129 Covid-19 och vapenlicenserna
-          </note>
-          <note xml:id="i-87qtQcqaPhX4U3z5aZEceg">
-            av Kjell-Arne Ottosson (KD)
-          </note>
-          <note xml:id="i-VfFJHPchtRjTRRGoYSsQrg">
-            till statsrådet Mikael Damberg (S)
-          </note>
-          <note xml:id="i-WX8S8TkNUUTRGbhAVGpZHk">
-            2019/20:1130 Tillfälligt stopp för djurtransporter mellan länder
-          </note>
-          <note xml:id="i-bjsNM9CKzKDqryFWdgE1L">
-            av Elin Segerlind (V)
-          </note>
-          <note xml:id="i-SXniiGTWUJdH7ucCAawPbY">
-            till statsrådet Jennie Nilsson (S)
-          </note>
-          <note xml:id="i-WajCUr44DnbYDUf35jqSRA">
-            2019/20:1131 Rea på svenska bolag
-          </note>
-          <note xml:id="i-Y91YvPZ9K5gcxZ4ioPprP">
-            av Tobias Andersson (SD)
-          </note>
-          <note xml:id="i-SiGqgcx9oGBFankyqC9rdv">
-            till näringsminister Ibrahim Baylan (S)
-          </note>
-          <note xml:id="i-BkQVL8pz6yVgpkZr4EMieG">
-            2019/20:1133 Stöd till flygtrafik till Norrland under krisen
-          </note>
-          <note xml:id="i-CWVptDWgefXHj4akixgn9B">
-            av Edward Riedl (M)
-          </note>
-          <note xml:id="i-7gPnLjtuDpiT4HEB6eiFQB">
-            till infrastrukturminister Tomas Eneroth (S)
-          </note>
-          <note xml:id="i-WPjTWWt9nR9Lf2KjCTxWzH">
-            2019/20:1135 Skyddsutrustning för medarbetare inom hälso- och
-            sjukvården
-          </note>
-          <note xml:id="i-GFxTmbooogcZaseP5j8KYz">
-            av Camilla Waltersson Grönvall (M)
-          </note>
-          <note xml:id="i-Mx7w8cbVX88DeFbRNoGP28">
-            till socialminister Lena Hallengren (S)
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/83628DCE-E5C6-4ABB-A552-85E43E9FB1A0#page=3"/>
-          <note xml:id="i-5wTwueY9b8pDx7fXRfd5Wf">
-            2019/20:1134 Tre svenska fängslade medborgare i Eritrea, Iran
-            och Kina
-          </note>
-          <note xml:id="i-Gk5BZ7FmQCzKvEB9Ez5JfH">
-            av Amineh Kakabaveh (-)
-          </note>
-          <note xml:id="i-75soUAyktpC71FnCBXwdmp">
-            till utrikesminister Ann Linde (S)
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-TDXArz4Kg4nJfUgz3fgRRn">
-          <note xml:id="i-UibYXJHm5d8gatVjXwynC7">
-            § 6 Kammaren åtskildes kl. 9 . 00 .
-          </note>
-          <note xml:id="i-6PVnpNTfvYkX7gMCy9qusN">
-            Sammanträdet leddes av tredje vice talmannen .
-          </note>
-          <note xml:id="i-EmB7gvvo5qP2HjYTGgVX88">
-            Vid protokollet
-          </note>
-          <note xml:id="i-TkXVXvFak4M2ngbTqSVR13">
-            ANNA ASPEGREN
-          </note>
-          <note xml:id="i-Lwf2LiaSALiRCdBtjYFYMQ">
-            /Olof Pilo
-          </note>
-        </div>
-        <div xml:id="i-AgXmcFuESmS656crza66A8" type="commentSection" subtype="tableOfContents">
-          <pb facs="http://data.riksdagen.se/fil/83628DCE-E5C6-4ABB-A552-85E43E9FB1A0#page=4"/>
-          <note xml:id="i-Jsi7Q7qCktJzUaN7FmTjNp">
-            Innehållsförteckning
-          </note>
-          <note xml:id="i-12wn1qfR2vwMh6kv1yx5Na">
-            § 1 Meddelande om frågestund
-          </note>
-          <note xml:id="i-DsufgwzPzVshJUAX8ve4q">
-            § 2 Anmälan om granskningsrapport
-          </note>
-          <note xml:id="i-NYiMewHuQUXFfbzmoZdnNc">
-            § 3 Ärenden för hänvisning till utskott
-          </note>
-          <note xml:id="i-PwqGyM38WB8RSLEthUYj3u">
-            § 4 Anmälan om frågor för skriftliga svar
-          </note>
-          <note xml:id="i-DXSTSgi6zWgpp2tbuJMS9r">
-            § 5 Anmälan om skriftliga svar på frågor
-          </note>
-          <note xml:id="i-M9rbgtto2RwiJzQPHkzLb8">
-            § 6 Kammaren åtskildes kl. 9.00.
-          </note>
-          <note xml:id="i-NUrKuemHQnj9vC4obBPMRc">
-            Tryck: Elanders Sverige AB, Vällingby 2020
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-201920--103</head>
+        <docDate when="2020-04-09">2020-04-09</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-5pSbY1g7T2SJ4vCj9MF2hW">
+        <pb facs="http://data.riksdagen.se/fil/83628DCE-E5C6-4ABB-A552-85E43E9FB1A0#page=1"/>
+        <note xml:id="i-FwfKpKLg3GuEsTzBsV4p4c">
+          § 1 Meddelande om frågestund
+        </note>
+        <note xml:id="i-C3mgZQ633tg4k8MqkUdgiH">
+          Tredje vice talmannen meddelade att frågestund skulle äga rum
+          torsdagen den 16 april kl. 14.00 .
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-UchZFddYNw66LXLEk2YGCT">
+        <note xml:id="i-Y5KMRNWhcPBuJa8FhgsEv9">
+          § 2 Anmälan om granskningsrapport
+        </note>
+        <u xml:id="i-44AFDRWndrSFBE6jR4xDFX" who="unknown">
+          <seg xml:id="i-6Giun5YjNwqW3rsn3JbiYe">
+            Tredje vice talmannen anmälde att följande granskningsrapport
+            hade kommit in från Riksrevisionen och överlämnats till näringsutskottet
+            :
+          </seg>
+        </u>
+        <note xml:id="i-JfHCAe5HuPEYv8owgnwrEa">
+          RiR 2020:10 Regionala strukturfondspartnerskap – ger de förutsättningar
+          för en effektiv användning av EU-medel?
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-8WE5uh1JBxCQEGobtJnd57">
+        <note xml:id="i-8bvq9wPeuZnmzkYeY5naMn">
+          § 3 Ärenden för hänvisning till utskott
+        </note>
+        <note xml:id="i-FQkuLW9KJDXji5CVo4UVF2">
+          Följande dokument anmäldes:
+        </note>
+        <note xml:id="i-9jLe9BfEPrg8MR5GEX7qiw">
+          Motioner
+        </note>
+        <note xml:id="i-NniAXViPuMrvGWYAPwZvtX">
+          med anledning av prop. 2019/20:155 Tillfälliga bemyndiganden
+          i smittskyddslagen med anledning av det virus som orsakar covid-19
+        </note>
+        <note xml:id="i-Q6gRLBL9GtHcM14uZ7Q9ur">
+          2019/20:3568 av Ulf Kristersson m.fl. (M)
+        </note>
+        <note xml:id="i-QGB3Hqz3T81vvWuJKD7pGd">
+          2019/20:3575 av Lina Nordquist m.fl. (L)
+        </note>
+        <note xml:id="i-TAqgECkhqypza5jdSxJkDu">
+          2019/20:3579 av Acko Ankarberg Johansson m.fl. (KD)
+        </note>
+        <note xml:id="i-DeibtRhU4HUj5WipQhKtdu">
+          Kammaren biföll talmannens förslag att ovanstående motioner omedelbart
+          skulle hänvisas till socialutskottet.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-VfvCcePAFAFEfLu9D6surU">
+        <note xml:id="i-7N5Nct2m3pVMdRV2qr2QNh">
+          § 4 Anmälan om frågor för skriftliga svar
+        </note>
+        <u xml:id="i-a5bb2c5dfc4f0c03-1" who="unknown">
+          <seg xml:id="i-X9hgEqEPX6oSxvTKyZvvrD">
+            Följande frågor för skriftliga svar hade framställts:
+          </seg>
+        </u>
+        <note xml:id="i-12pUDygPLehce6cgJt8BvX">
+          den 8 april
+        </note>
+        <note xml:id="i-9CfpTspkQWmRJ8RRE1qhp2">
+          2019/20:1163 Reducerad alkoholskatt på öl från småbryggerier
+        </note>
+        <note xml:id="i-YAEyCbiK5DJSruvQmkvrsS">
+          av Johan Hultberg (M)
+        </note>
+        <note xml:id="i-Hqgb83EcYEi62P4SrwkJUc">
+          till finansminister Magdalena Andersson (S)
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/83628DCE-E5C6-4ABB-A552-85E43E9FB1A0#page=2"/>
+        <note xml:id="i-SqKuDUop9dDZ6rmD5yjyeN">
+          2019/20:1164 Regionala flygplatser och stödet för korttidspermittering
+        </note>
+        <note xml:id="i-4U5zdjq9NWpEL6zj8Eapna">
+          av Maria Stockhaus (M)
+        </note>
+        <note xml:id="i-JuUHVxXoRy7pD9apagytiU">
+          till finansminister Magdalena Andersson (S)
+        </note>
+        <note xml:id="i-7UwosXgCA3W1eDSvuA5rhY">
+          2019/20:1165 Chiles politiska fångar
+        </note>
+        <note xml:id="i-Bwjd2DXSKT9b8rpN2CjprN">
+          av Lorena Delgado Varas (V)
+        </note>
+        <note xml:id="i-483WuNnHSXErJjrauHZsqi">
+          till utrikesminister Ann Linde (S)
+        </note>
+        <note xml:id="i-6q15jPBfVEdNHcSBNQYDS4">
+          2019/20:1166 Sveriges beredskapslager
+        </note>
+        <note xml:id="i-WNAUmXhdXDBQxixHdLf1Yf">
+          av Markus Wiechel (SD)
+        </note>
+        <note xml:id="i-BsmTrLyNfRR9kKVXrFX1J5">
+          till statsrådet Mikael Damberg (S)
+        </note>
+        <note xml:id="i-EGz5VpuFZmhK3PHnzPZyGx">
+          2019/20:1167 Hjälp till svenska familjer utomlands
+        </note>
+        <note xml:id="i-2ix4yGEbytM5Bxu6VRwsNY">
+          av Martina Johansson (C)
+        </note>
+        <note xml:id="i-MZxkQ4DAkexnfCqaUTMVei">
+          till utrikesminister Ann Linde (S)
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-58RPNyTUYDC6kiStR2QWCA">
+        <note xml:id="i-Eda7ypihKuyawuxokf8Yr3">
+          § 5 Anmälan om skriftliga svar på frågor
+        </note>
+        <u xml:id="i-a5bb2c5dfc4f0c03-4" who="unknown">
+          <seg xml:id="i-5XzXyJ4Pp8wSf4PHysFLko">
+            Skriftliga svar på följande frågor hade kommit in:
+          </seg>
+        </u>
+        <note xml:id="i-XnTAMDbJiJhhXZ999KtYkU">
+          den 8 april
+        </note>
+        <note xml:id="i-DPVRnLJ6w1W7rU2sr2JRcf">
+          2019/20:1122 Mikrobryggeriers situation under coronakrisen
+        </note>
+        <note xml:id="i-PMjVD93Z8DyRo8PBDcqhPv">
+          av Angelica Lundberg (SD)
+        </note>
+        <note xml:id="i-FyAwhapx2zshxELL4z6wGo">
+          till socialminister Lena Hallengren (S)
+        </note>
+        <note xml:id="i-VueQN3oUpiC87NmV4N3mNC">
+          2019/20:1125 Restaurangers möjligheter att köra ut mat
+        </note>
+        <note xml:id="i-NxPhKkavXqVm96NpBEuN81">
+          av Lars Beckman (M)
+        </note>
+        <note xml:id="i-ANrGmxCeSRZLCyMEJGWW7y">
+          till infrastrukturminister Tomas Eneroth (S)
+        </note>
+        <note xml:id="i-Egqi5uhbQkVdHhgH9e4EWN">
+          2019/20:1126 Statliga bolags agerande gentemot företag
+        </note>
+        <note xml:id="i-WsddkDRsU3Mk2rMXLjeVXo">
+          av Lars Beckman (M)
+        </note>
+        <note xml:id="i-4U7UPHzVAkEyMTEMWgA8sW">
+          till näringsminister Ibrahim Baylan (S)
+        </note>
+        <note xml:id="i-TeKno54TrPJ1ig34rsGfHU">
+          2019/20:1128 Lättnader i vistelsekommunernas ansvar för socialtjänstinsatser
+        </note>
+        <note xml:id="i-7MMaGXsTNmRedEUfV9s2JP">
+          av Johan Hultberg (M)
+        </note>
+        <note xml:id="i-D4A2G2zVnQZCjXJzTUFeRr">
+          till socialminister Lena Hallengren (S)
+        </note>
+        <note xml:id="i-7HyPxYseYQwHToWZL8r5rt">
+          2019/20:1129 Covid-19 och vapenlicenserna
+        </note>
+        <note xml:id="i-87qtQcqaPhX4U3z5aZEceg">
+          av Kjell-Arne Ottosson (KD)
+        </note>
+        <note xml:id="i-VfFJHPchtRjTRRGoYSsQrg">
+          till statsrådet Mikael Damberg (S)
+        </note>
+        <note xml:id="i-WX8S8TkNUUTRGbhAVGpZHk">
+          2019/20:1130 Tillfälligt stopp för djurtransporter mellan länder
+        </note>
+        <note xml:id="i-bjsNM9CKzKDqryFWdgE1L">
+          av Elin Segerlind (V)
+        </note>
+        <note xml:id="i-SXniiGTWUJdH7ucCAawPbY">
+          till statsrådet Jennie Nilsson (S)
+        </note>
+        <note xml:id="i-WajCUr44DnbYDUf35jqSRA">
+          2019/20:1131 Rea på svenska bolag
+        </note>
+        <note xml:id="i-Y91YvPZ9K5gcxZ4ioPprP">
+          av Tobias Andersson (SD)
+        </note>
+        <note xml:id="i-SiGqgcx9oGBFankyqC9rdv">
+          till näringsminister Ibrahim Baylan (S)
+        </note>
+        <note xml:id="i-BkQVL8pz6yVgpkZr4EMieG">
+          2019/20:1133 Stöd till flygtrafik till Norrland under krisen
+        </note>
+        <note xml:id="i-CWVptDWgefXHj4akixgn9B">
+          av Edward Riedl (M)
+        </note>
+        <note xml:id="i-7gPnLjtuDpiT4HEB6eiFQB">
+          till infrastrukturminister Tomas Eneroth (S)
+        </note>
+        <note xml:id="i-WPjTWWt9nR9Lf2KjCTxWzH">
+          2019/20:1135 Skyddsutrustning för medarbetare inom hälso- och
+          sjukvården
+        </note>
+        <note xml:id="i-GFxTmbooogcZaseP5j8KYz">
+          av Camilla Waltersson Grönvall (M)
+        </note>
+        <note xml:id="i-Mx7w8cbVX88DeFbRNoGP28">
+          till socialminister Lena Hallengren (S)
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/83628DCE-E5C6-4ABB-A552-85E43E9FB1A0#page=3"/>
+        <note xml:id="i-5wTwueY9b8pDx7fXRfd5Wf">
+          2019/20:1134 Tre svenska fängslade medborgare i Eritrea, Iran
+          och Kina
+        </note>
+        <note xml:id="i-Gk5BZ7FmQCzKvEB9Ez5JfH">
+          av Amineh Kakabaveh (-)
+        </note>
+        <note xml:id="i-75soUAyktpC71FnCBXwdmp">
+          till utrikesminister Ann Linde (S)
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-TDXArz4Kg4nJfUgz3fgRRn">
+        <note xml:id="i-UibYXJHm5d8gatVjXwynC7">
+          § 6 Kammaren åtskildes kl. 9 . 00 .
+        </note>
+        <note xml:id="i-6PVnpNTfvYkX7gMCy9qusN">
+          Sammanträdet leddes av tredje vice talmannen .
+        </note>
+        <note xml:id="i-EmB7gvvo5qP2HjYTGgVX88">
+          Vid protokollet
+        </note>
+        <note xml:id="i-TkXVXvFak4M2ngbTqSVR13">
+          ANNA ASPEGREN
+        </note>
+        <note xml:id="i-Lwf2LiaSALiRCdBtjYFYMQ">
+          /Olof Pilo
+        </note>
+      </div>
+      <div xml:id="i-AgXmcFuESmS656crza66A8" type="commentSection" subtype="tableOfContents">
+        <pb facs="http://data.riksdagen.se/fil/83628DCE-E5C6-4ABB-A552-85E43E9FB1A0#page=4"/>
+        <note xml:id="i-Jsi7Q7qCktJzUaN7FmTjNp">
+          Innehållsförteckning
+        </note>
+        <note xml:id="i-12wn1qfR2vwMh6kv1yx5Na">
+          § 1 Meddelande om frågestund
+        </note>
+        <note xml:id="i-DsufgwzPzVshJUAX8ve4q">
+          § 2 Anmälan om granskningsrapport
+        </note>
+        <note xml:id="i-NYiMewHuQUXFfbzmoZdnNc">
+          § 3 Ärenden för hänvisning till utskott
+        </note>
+        <note xml:id="i-PwqGyM38WB8RSLEthUYj3u">
+          § 4 Anmälan om frågor för skriftliga svar
+        </note>
+        <note xml:id="i-DXSTSgi6zWgpp2tbuJMS9r">
+          § 5 Anmälan om skriftliga svar på frågor
+        </note>
+        <note xml:id="i-M9rbgtto2RwiJzQPHkzLb8">
+          § 6 Kammaren åtskildes kl. 9.00.
+        </note>
+        <note xml:id="i-NUrKuemHQnj9vC4obBPMRc">
+          Tryck: Elanders Sverige AB, Vällingby 2020
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

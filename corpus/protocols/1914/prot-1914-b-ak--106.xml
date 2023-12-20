@@ -1,91 +1,64 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1910</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.1.0</edition>
-      </editionStmt>
       <publicationStmt>
-        <authority>National Library of Sweden and the WESTAC project</authority>
+        <authority>N/A</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1910</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in input/curation/instances</p>
+          <p>No correction of source texts was performed.</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>N/A</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>No correction of source texts was performed.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1914-b-ak--106</head>
-          <docDate when="1914-12-17">1914-12-17</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection">
-          <pb facs="https://betalab.kb.se/prot-1914-b-ak--106/prot_1914_b_ak__106-000.jp2/_view"/>
-          <note xml:id="i-G2Md9zzqChjh9mqcLL927R">
-            RIKSDAGENS PROTOKOLL. 1914. Andra kåämmaren. Nr 106.
-          </note>
-          <note xml:id="i-XvZLyk4DCbxWbUUC1MadLD">
-            Torsdagen den 17 december. Kl. 1 e. m.
-          </note>
-          <note xml:id="i-8kt5YuPiApt1uGo12nLjv6">
-            Jämlikt andra kammarens vid sammanträdet denna dag fattade beslut
-            företogs nu justering av det protokoll som hållits vid nämnda
-            sammanträde; och tillstädeskommo därvid följande kammarens ledamöter:
-          </note>
-          <note xml:id="i-Pz2by4vByDeK9kbkfsmxeS">
-            Herr Widén, » D. Persson i Tällberg, » Zetterstrand, » Staaff,
-            » Ström och "te »- Kindvall.
-          </note>
-          <note xml:id="i-DFcVVFNNSpN6ksbS2ALui9">
-            Ovan omförmälda protokoll upplästes och blev av kammarens tillstädesvarande
-            ledamöter godkänt.
-          </note>
-          <note xml:id="i-EW9gmfKjrmWEwJ524t8uyM">
-            In fidem Per Cronvall.
-          </note>
-          <note xml:id="i-Fiwg8wDfYwfDgd3xo9V65">
-            Åndra kammarens protokoll vid senare riksdagen 1914. Nr 106.
-            1
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1914-b-ak--106</head>
+        <docDate when="1914-12-17">1914-12-17</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection">
+        <pb facs="https://betalab.kb.se/prot-1914-b-ak--106/prot_1914_b_ak__106-000.jp2/_view"/>
+        <note xml:id="i-G2Md9zzqChjh9mqcLL927R">
+          RIKSDAGENS PROTOKOLL. 1914. Andra kåämmaren. Nr 106.
+        </note>
+        <note xml:id="i-XvZLyk4DCbxWbUUC1MadLD">
+          Torsdagen den 17 december. Kl. 1 e. m.
+        </note>
+        <note xml:id="i-8kt5YuPiApt1uGo12nLjv6">
+          Jämlikt andra kammarens vid sammanträdet denna dag fattade beslut
+          företogs nu justering av det protokoll som hållits vid nämnda
+          sammanträde; och tillstädeskommo därvid följande kammarens ledamöter:
+        </note>
+        <note xml:id="i-Pz2by4vByDeK9kbkfsmxeS">
+          Herr Widén, » D. Persson i Tällberg, » Zetterstrand, » Staaff,
+          » Ström och "te »- Kindvall.
+        </note>
+        <note xml:id="i-DFcVVFNNSpN6ksbS2ALui9">
+          Ovan omförmälda protokoll upplästes och blev av kammarens tillstädesvarande
+          ledamöter godkänt.
+        </note>
+        <note xml:id="i-EW9gmfKjrmWEwJ524t8uyM">
+          In fidem Per Cronvall.
+        </note>
+        <note xml:id="i-Fiwg8wDfYwfDgd3xo9V65">
+          Åndra kammarens protokoll vid senare riksdagen 1914. Nr 106.
+          1
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

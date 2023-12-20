@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1939</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1939</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,355 +25,328 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1939--fk--22</head>
-          <docDate when="1939-03-21">1939-03-21</docDate>
-          <docDate when="1939-04-11">1939-04-11</docDate>
-          <docDate when="1939-04-12">1939-04-12</docDate>
-          <docDate when="1939-04-13">1939-04-13</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1939--fk--22/prot_1939__fk__22-000.jp2/_view"/>
-          <note xml:id="i-D9kaS7MEAjd4VrkpDWkF2L">
-            RIKSDAGENS PROTOKOLL. 1939. Första kammaren. Nr 22.
-          </note>
-          <note type="date" xml:id="i-3ATmniiFCYeVdpigTGSpiK">
-            Torsdagen den 13 april.
-          </note>
-          <note xml:id="i-MP9jbes35QETMmDm2brtQU">
-            Kammaren sammanträdde kl. 2 e. m.
-          </note>
-          <note type="speaker" xml:id="i-UqK9Sr85TVU1T8xvELPqhn">
-            Herr statsrådet Forslund avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-Ho67qFZjEeb8Ykeaezin7u">
-            ts proposition nr 252, angående anslag till vissa kommunala läroanstalter,
-            privatläroverk m. m.
-          </note>
-          <note xml:id="i-DDBjXydJMLaek8UrtJQzkz">
-            Upplästes tre till kammaren inkomna ansökningar, vilka jämte
-            därvid fogade läkarintyg voro så lydande:
-          </note>
-          <u xml:id="i-RvjkA9MgDHkeZgQRVUzTHp" next="i-KLf8QWf6PMRaaVGQcQHkpk" who="Q4710223">
-            <seg xml:id="i-CeNanKWg8wegUGP2QjvYET">
-              Till riksdagens första kammare. Under hänvisning till bilagda
-              läkarintyg anhåller undertecknad vördsamt om ledighet från riksdagsarbetet
-              tillsvidare till den 25 innevarande april månad.
-            </seg>
-          </u>
-          <note xml:id="i-ADSMeXkFqCUkjjkKD7xuqK">
-            Stockholm den 12 april 1939. Viktor Larsson.
-          </note>
-          <note xml:id="i-ADaY1whc18NefYfPRmRCzu">
-            Riksdagsman Viktor Larsson är på grund av febril katarr i övre
-            luftvägarna (influensa) oförmögen att deltaga i riksdagsarbetet
-            tills vidare under 14 dagar, varder härmed intygat.
-          </note>
-          <note xml:id="i-CqQkVFGjG2hwoc2M9ofRKZ">
-            Stockholm den 11 april 1939.
-          </note>
-          <note xml:id="i-9uiXRtUKGn2uH5j4R3kiYw">
-            J. Tillgren, leg. läk.
-          </note>
-          <note xml:id="i-R1ACwacPrAsUkBJw531Ptm">
-            Till riksdagens första kammare.
-          </note>
-          <u xml:id="i-KLf8QWf6PMRaaVGQcQHkpk" prev="i-RvjkA9MgDHkeZgQRVUzTHp" who="Q4710223" next="i-U3pyHaMECFWGEu5YJye9Lr">
-            <seg xml:id="i-KujFAoW56M8KRkksJQYG3m">
-              Under hänvisning till bilagda intyg från leg. läkaren P. Holmström
-              får jag härmed vördsamt anhålla om fortsatt ledighet tills vidare
-              från riksdagens göromål.
-            </seg>
-          </u>
-          <note xml:id="i-R1wEx9kgz7AzrrncRFohBK">
-            Stockholm den 13 april 1939.
-          </note>
-          <note xml:id="i-2HgqDrmz1WTZPXnUr7BJTe">
-            Gösta Rahmn.
-          </note>
-          <u xml:id="i-U3pyHaMECFWGEu5YJye9Lr" prev="i-KLf8QWf6PMRaaVGQcQHkpk" who="Q4710223" next="i-S6npj2mLxZKjFpczQD9jXZ">
-            <seg xml:id="i-DJQ7yTWxLa7QwhHm1zbYMm">
-              Att ledamoten av riksdagens första kammare rektor Gösta Rahmn
-              på grund av hjärtsjukdom fortfarande tills vidare är oförmögen
-              att deltaga i riksdagens arbete intygas.
-            </seg>
-          </u>
-          <note xml:id="i-93LGX5yFeXNsU7w2b5FnZS">
-            Stockholm den 21 mars 1939.
-          </note>
-          <note xml:id="i-KFrSdEy7q3Zd3wQFrcVV8X">
-            P. Holmström, leg. läk.
-          </note>
-          <note xml:id="i-JxAQ6dvMe7Mbg2HczH8jCU">
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1939--fk--22</head>
+        <docDate when="1939-03-21">1939-03-21</docDate>
+        <docDate when="1939-04-11">1939-04-11</docDate>
+        <docDate when="1939-04-12">1939-04-12</docDate>
+        <docDate when="1939-04-13">1939-04-13</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1939--fk--22/prot_1939__fk__22-000.jp2/_view"/>
+        <note xml:id="i-D9kaS7MEAjd4VrkpDWkF2L">
+          RIKSDAGENS PROTOKOLL. 1939. Första kammaren. Nr 22.
+        </note>
+        <note type="date" xml:id="i-3ATmniiFCYeVdpigTGSpiK">
+          Torsdagen den 13 april.
+        </note>
+        <note xml:id="i-MP9jbes35QETMmDm2brtQU">
+          Kammaren sammanträdde kl. 2 e. m.
+        </note>
+        <note type="speaker" xml:id="i-UqK9Sr85TVU1T8xvELPqhn">
+          Herr statsrådet Forslund avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-Ho67qFZjEeb8Ykeaezin7u">
+          ts proposition nr 252, angående anslag till vissa kommunala läroanstalter,
+          privatläroverk m. m.
+        </note>
+        <note xml:id="i-DDBjXydJMLaek8UrtJQzkz">
+          Upplästes tre till kammaren inkomna ansökningar, vilka jämte
+          därvid fogade läkarintyg voro så lydande:
+        </note>
+        <u xml:id="i-RvjkA9MgDHkeZgQRVUzTHp" next="i-KLf8QWf6PMRaaVGQcQHkpk" who="Q4710223">
+          <seg xml:id="i-CeNanKWg8wegUGP2QjvYET">
+            Till riksdagens första kammare. Under hänvisning till bilagda
+            läkarintyg anhåller undertecknad vördsamt om ledighet från riksdagsarbetet
+            tillsvidare till den 25 innevarande april månad.
+          </seg>
+        </u>
+        <note xml:id="i-ADSMeXkFqCUkjjkKD7xuqK">
+          Stockholm den 12 april 1939. Viktor Larsson.
+        </note>
+        <note xml:id="i-ADaY1whc18NefYfPRmRCzu">
+          Riksdagsman Viktor Larsson är på grund av febril katarr i övre
+          luftvägarna (influensa) oförmögen att deltaga i riksdagsarbetet
+          tills vidare under 14 dagar, varder härmed intygat.
+        </note>
+        <note xml:id="i-CqQkVFGjG2hwoc2M9ofRKZ">
+          Stockholm den 11 april 1939.
+        </note>
+        <note xml:id="i-9uiXRtUKGn2uH5j4R3kiYw">
+          J. Tillgren, leg. läk.
+        </note>
+        <note xml:id="i-R1ACwacPrAsUkBJw531Ptm">
+          Till riksdagens första kammare.
+        </note>
+        <u xml:id="i-KLf8QWf6PMRaaVGQcQHkpk" prev="i-RvjkA9MgDHkeZgQRVUzTHp" who="Q4710223" next="i-U3pyHaMECFWGEu5YJye9Lr">
+          <seg xml:id="i-KujFAoW56M8KRkksJQYG3m">
+            Under hänvisning till bilagda intyg från leg. läkaren P. Holmström
+            får jag härmed vördsamt anhålla om fortsatt ledighet tills vidare
+            från riksdagens göromål.
+          </seg>
+        </u>
+        <note xml:id="i-R1wEx9kgz7AzrrncRFohBK">
+          Stockholm den 13 april 1939.
+        </note>
+        <note xml:id="i-2HgqDrmz1WTZPXnUr7BJTe">
+          Gösta Rahmn.
+        </note>
+        <u xml:id="i-U3pyHaMECFWGEu5YJye9Lr" prev="i-KLf8QWf6PMRaaVGQcQHkpk" who="Q4710223" next="i-S6npj2mLxZKjFpczQD9jXZ">
+          <seg xml:id="i-DJQ7yTWxLa7QwhHm1zbYMm">
+            Att ledamoten av riksdagens första kammare rektor Gösta Rahmn
+            på grund av hjärtsjukdom fortfarande tills vidare är oförmögen
+            att deltaga i riksdagens arbete intygas.
+          </seg>
+        </u>
+        <note xml:id="i-93LGX5yFeXNsU7w2b5FnZS">
+          Stockholm den 21 mars 1939.
+        </note>
+        <note xml:id="i-KFrSdEy7q3Zd3wQFrcVV8X">
+          P. Holmström, leg. läk.
+        </note>
+        <note xml:id="i-JxAQ6dvMe7Mbg2HczH8jCU">
+          Till riksdagens första kammare. Med stöd av bifogade läkarintyg
+          anhåller jag härmed vördsamt om ledighet från riksdagsgöromålen
+          t. o. m. den 17 dennes. Borås den 12 april 1939. B. A. Nilsson.
+        </note>
+        <note xml:id="i-Jb1XvGGDUUBorJ1QTiZXRW">
+          Första kammarens protokoll 1939. Nr 22. 1
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1939--fk--22/prot_1939__fk__22-001.jp2/_view"/>
+        <note xml:id="i-8K1TpKZxMkuA2PZMr1Axeg">
+          Do
+        </note>
+        <note type="date" xml:id="i-9GteEJpYwugyBJmE7WFdNT">
+          Nr 22, Torsdagen den 13 april 1939.
+        </note>
+        <u xml:id="i-S6npj2mLxZKjFpczQD9jXZ" prev="i-U3pyHaMECFWGEu5YJye9Lr" who="Q4710223">
+          <seg xml:id="i-AshY1Aa8p6RDSR9JrSEoqy">
+            Att jordbrukskonsulenten B. A. Nilsson, som denna dag blivit
+            av mig undersökt, befunnits på grund av magsjukdom vara oförmögen
+            till arbete och i behov av vård i hemmet t. o. m. 16 april 1939,
+            intygas.
+          </seg>
+        </u>
+        <note xml:id="i-W9BoeYr85XSNngxPHuo5S6">
+          Borås den 12 april 1939.
+        </note>
+        <note xml:id="i-6QVN552Eg7YwEAcAmGbiA3">
+          Elin Odencrants,
+        </note>
+        <note xml:id="i-Gk81MwFQsQ53tY25KGroeR">
+          legitimerad läkare.
+        </note>
+        <note xml:id="i-YSKjLpLLmwnqxD8F8SFRBG">
+          De begärda ledigheterna beviljades, beträffande herr Rahmn för
+          den tid, det i åberopade läkarintyget omförmälda hindret varade.
+        </note>
+        <note xml:id="i-5toG8xVs9Qx6DFHZdgxoTw">
+          Efter det kamrarna stannat i olika beslut angående statsutskottets
+          i utlåtande nr 8 punkten 226 gjorda hemställan beträffande Kungl.
+          Maj:ts i punkten 222 under åttonde huvudtiteln av innevarande
+          års statsverksproposition framlagda förslag ävensom motionerna
+          II: 206 av herr Hallén och herr Werner i Höjen samt II: 207 av
+          herr Hallén m. fl., företogs nu jämlikt $ 65 riksdagsordningen
+          omröstning över följande av samma utskott i dess memorial nr 83
+          föreslagna samt av båda kamrarna godkända voteringsproposition:
+        </note>
+        <note xml:id="i-K4NqqhGRnX5WEsqrbSwVhW">
+          Den, som i likhet med första kammaren vill, att riksdagen må,
+        </note>
+        <note xml:id="i-PiP5gLimY96Z1eJ8cYkhtH">
+          a) med bifall till Kungl. Maj:ts förslag och med avslag å herrar
+          Halléns och Werners ovannämnda motion (II: 206), såsom Bidrag
+          till folkliga musikskolan i Arvika för budgetåret 1939/40 anvisa
+          ett anslag av 15,000 kronor;
+        </note>
+        <note xml:id="i-WQVb73fPbnYdV4kXejR7bX">
+          b) i anledning av herr Halléns m. fl. ovannämnda motion (II:
+          207), till Stipendier åt behövande och begåvade elever vid folkliga
+          musikskolan i Arvika för budgetåret 1939/40 anvisa ett anslag
+          av 2,000 kronor;
+        </note>
+        <note xml:id="i-MZsaAeXcTTVKWsFh9bZtvW">
+          röstar
+        </note>
+        <note xml:id="i-3N2vnVFXRojndeZtdJGcEa">
+          Ja; Nej;
+        </note>
+        <note xml:id="i-JsWrY9DbdTGT1wxKLtNeo5">
+          Vinner Nej, har riksdagen i likhet med andra kammaren beslutat
+          att, med bifall till Kungl. Maj:ts förslag och med avslag å herrar
+          Halléns och Werners samt herr Halléns m. fl. ovannämnda motioner
+          (II: 206 och II: 207), såsom Bidrag till folkliga musikskolan
+          i Arvika för budgetåret 1939/40 anvisa ett anslag av 15,000 kronor.
+        </note>
+        <note xml:id="i-FxZ8oh1SoMyQJBWpFrjjFg">
+          Den, det ej vill, röstar
+        </note>
+        <note xml:id="i-M7nYBRZrgzsT99fVT28ZzZ">
+          Sedan efter given varsel kammarens ledamöter intagit sina platser
+          och voteringspropositionen upplästs, verkställdes omröstningen
+          medelst omröstningsapparat; och befunnos vid omröstningens slut
+          rösterna hava utfallit sålunda:
+        </note>
+        <note xml:id="i-WgjLsQ7ga1FyRZ76A8hTW1">
+          Ja — 89; Nej — 44. Därjämte hade tre ledamöter tillkännagivit,
+          att de avstode från att rösta.
+        </note>
+        <note xml:id="i-KWSnU7ur8tASE75gcANzBU">
+          Efter det protokoll över omröstningen blivit uppsatt, Justerat
+          och avsänt till andra kammaren, ankom därifrån ett protokollsutdrag,
+          nr 304, som upplästes och varav inhämtades, att omröstningen därstädes
+          utfallit med 109 Ja och 99 nej samt att båda kamrarnas sammanräknade
+          röster befunnits utgöra 198 ja och 143 nej, vadan beslut i frågan
+          blivit av riksdagen fattat i överensstämmelse med ja-propositionen.
+        </note>
+        <note xml:id="i-NqQtPg9boCw7nCEYdX9S3X">
+          Föredrogs och hänvisades till bevillningsutskottet Kungl. Maj
+          :ts proposition nr 215, angående visst avtal mellan aktiebolaget
+          Vin- &amp; spritcentralen och Mo och Domsjö aktiebolag.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1939--fk--22/prot_1939__fk__22-002.jp2/_view"/>
+        <note type="date" xml:id="i-J9NXFJxpHvukbGQpUduLSa">
+          Torsdagen den 13 april 1939. Nr 22. 3
+        </note>
+        <note xml:id="i-FWxXwmh6NwqCRkJj5MKpuS">
+          Föredrogos och hänvisades till jordbruksutskottet Kungl. Maj:ts
+          propositioner:
+        </note>
+        <note xml:id="i-RQmjzoeWRxAyx9TGbUio2X">
+          nr 229, angående åtgärder till stödjande av spannmålsmarknaden
+          m. m.; och
+        </note>
+        <note xml:id="i-4p3QX4nG9SEWVM5P2rjqZT">
+          nr 230, angående prisreglerande åtgärder på jordbrukets område.
+        </note>
+        <note xml:id="i-87HQ5CZu3BmtVnZoGtxHUN">
+          Föredrogs och hänvisades till bevillningsutskottet Kungl. Maj:ts
+          proposition nr 231, med förslag till förordning angående ytterligare
+          utsträckning av Kungl. Maj:ts befogenhet att meddela förordnande
+          jämlikt 1 $ förordningen den 7 juni 1935 (nr 259) om accis å margarin
+          och vissa andra fettvaror, m. m.
+        </note>
+        <note xml:id="i-VXzpno7JLXLUP6Z67fTTQf">
+          Föredrogs och hänvisades till behandling av lagutskott Kungl.
+          Maj:ts proposition nr 244, med förslag till lantarbetstidslag.
+        </note>
+        <note xml:id="i-47es4wkSJ3onxqyCnPoD4C">
+          Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
+        </note>
+        <note xml:id="i-4eAmjG7DcVKeesHvG77PVx">
+          nr 245, med förslag till militärt avlöningsreglemente m. m.;
+        </note>
+        <note xml:id="i-CMmY7puMF3nMfS5tYEE3zW">
+          nr 246, med förslag till avlöningsreglemente för personal vid
+          försvarsväsendet under krigstjänstgöring (krigsavlöningsreglemente)
+          ; samt
+        </note>
+        <note xml:id="i-4TxWtc7SnCpdE28rMHDe6X">
+          nr. 247, angående vissa avlöningsanslag under riksstatens fjärde
+          huvudtitel.
+        </note>
+        <note xml:id="i-FyACPKF4AHhRskNk5ZpN7m">
+          Föredrogs och hänvisades till statsutskottet den av herr Holmström
+          m. fl. väckta motionen, nr 283, i anledning av Kungl. Maj:ts proposition
+          angående åtgärder för enhetliggörande av det svenska järnvägsnätet.
+        </note>
+        <note type="speaker" xml:id="i-C4Ew8PszbSUisoZDbdGdny">
+          Herr statsrådet Engberg avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-X8VakM5YzRhXtdotPKZaDJ">
+          ts proposition nr 251, angående åtgärder för lagring av brännoljor.
+        </note>
+        <note xml:id="i-Qhdbogqr1GpAxTdXmWz4ZS">
+          Föredrogos, men bordlades ånyo på flera ledamöters begäran andra
+          lagutskottets utlåtande nr 24, jordbruksutskottets utlåtanden
+          nr 35—45 och första kammarens andra tillfälliga utskotts utlåtande
+          nr 7.
+        </note>
+        <note xml:id="i-6i56vkegb6bsG4B5UyocRy">
+          Vid föredragning av Kungl. Maj:ts denna dag avlämnade propositioner
+          nr 251 och 252 blevo desamma på begäran bordlagda.
+        </note>
+        <note xml:id="i-Hut85HTAjD6YfmJZqCdgpU">
+          Avgåvos och bordlades nedannämnda motioner:
+        </note>
+        <note xml:id="i-UJcZ9RJgSBNZrXeJKaZVDf">
+          nr 284, av herr Granath, i anledning av Kungl. Maj:ts proposition
+          angående förändring i avseende å löneställning och antal beträffande
+          vissa ordinarie befattningar vid postverket, telegrafverket och
+          statens järnvägar m. m.;
+        </note>
+        <note xml:id="i-2aqe2HnTW4ppBMMcXjz4Hy">
+          nr 285, av herrar Wistrand och Holmström, i anledning av Kungl.
+          Maj:ts proposition med förslag till lag angående ändring 1 vissa
+          delar av lagen den 14 juni 1907 (nr 36 s. 1) om nyttjanderätt
+          till fast egendom, m. m.; samt
+        </note>
+        <note xml:id="i-5RcdgwmPYpxoJonXAZytTD">
+          nr 286, av herrar Ewerlöf och Wistrand, i anledning av Kungl.
+          Maj:ts proposition med förslag till lag angående ändring i vissa
+          delar av lagen den 14 juni 1907 (nr 36 s. 1) om nyttjanderätt
+          till fast egendom, m. m.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1939--fk--22/prot_1939__fk__22-003.jp2/_view"/>
+        <note type="date" xml:id="i-9SB2Dfr89F6T5x2bkE3jrA">
+          4 Nr 22. Torsdagen den 13 april 1939.
+        </note>
+        <note xml:id="i-Sje7km3j3dTVotquUaWihU">
+          Anmäldes och bordlades
+        </note>
+        <note xml:id="i-79DsfUSJXPnDcpaiF6hXMm">
+          andra lagutskottets utlåtande nr 25, i anledning av väckt motion
+          rörande viss ändring 1 lagen den 11 september 1936 om föreningsoch
+          förhandlingsrätt; samt |
+        </note>
+        <note xml:id="i-7gHnDAoxm1DBhzGrY3Nxaa">
+          första kammarens andra tillfälliga utskotts utlåtande nr 8, i
+          anledning av väckt motion om införande av märkningstvång beträffande
+          importerad trätjära.
+        </note>
+        <note xml:id="i-RBLE7A6vdGaRRFXH8VwxNx">
+          Upplästes följande till kammaren inkomna ansökning:
+        </note>
+        <u xml:id="i-Nj5ec1RXNwLBL2S2UyLdCk" next="i-c7ab5b3ccdf48cce-1" who="Q5711655">
+          <seg xml:id="i-UoW7sdvxC6JxMzN4Ssm48h">
             Till riksdagens första kammare. Med stöd av bifogade läkarintyg
-            anhåller jag härmed vördsamt om ledighet från riksdagsgöromålen
-            t. o. m. den 17 dennes. Borås den 12 april 1939. B. A. Nilsson.
-          </note>
-          <note xml:id="i-Jb1XvGGDUUBorJ1QTiZXRW">
-            Första kammarens protokoll 1939. Nr 22. 1
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1939--fk--22/prot_1939__fk__22-001.jp2/_view"/>
-          <note xml:id="i-8K1TpKZxMkuA2PZMr1Axeg">
-            Do
-          </note>
-          <note type="date" xml:id="i-9GteEJpYwugyBJmE7WFdNT">
-            Nr 22, Torsdagen den 13 april 1939.
-          </note>
-          <u xml:id="i-S6npj2mLxZKjFpczQD9jXZ" prev="i-U3pyHaMECFWGEu5YJye9Lr" who="Q4710223">
-            <seg xml:id="i-AshY1Aa8p6RDSR9JrSEoqy">
-              Att jordbrukskonsulenten B. A. Nilsson, som denna dag blivit
-              av mig undersökt, befunnits på grund av magsjukdom vara oförmögen
-              till arbete och i behov av vård i hemmet t. o. m. 16 april 1939,
-              intygas.
-            </seg>
-          </u>
-          <note xml:id="i-W9BoeYr85XSNngxPHuo5S6">
-            Borås den 12 april 1939.
-          </note>
-          <note xml:id="i-6QVN552Eg7YwEAcAmGbiA3">
-            Elin Odencrants,
-          </note>
-          <note xml:id="i-Gk81MwFQsQ53tY25KGroeR">
-            legitimerad läkare.
-          </note>
-          <note xml:id="i-YSKjLpLLmwnqxD8F8SFRBG">
-            De begärda ledigheterna beviljades, beträffande herr Rahmn för
-            den tid, det i åberopade läkarintyget omförmälda hindret varade.
-          </note>
-          <note xml:id="i-5toG8xVs9Qx6DFHZdgxoTw">
-            Efter det kamrarna stannat i olika beslut angående statsutskottets
-            i utlåtande nr 8 punkten 226 gjorda hemställan beträffande Kungl.
-            Maj:ts i punkten 222 under åttonde huvudtiteln av innevarande
-            års statsverksproposition framlagda förslag ävensom motionerna
-            II: 206 av herr Hallén och herr Werner i Höjen samt II: 207 av
-            herr Hallén m. fl., företogs nu jämlikt $ 65 riksdagsordningen
-            omröstning över följande av samma utskott i dess memorial nr 83
-            föreslagna samt av båda kamrarna godkända voteringsproposition:
-          </note>
-          <note xml:id="i-K4NqqhGRnX5WEsqrbSwVhW">
-            Den, som i likhet med första kammaren vill, att riksdagen må,
-          </note>
-          <note xml:id="i-PiP5gLimY96Z1eJ8cYkhtH">
-            a) med bifall till Kungl. Maj:ts förslag och med avslag å herrar
-            Halléns och Werners ovannämnda motion (II: 206), såsom Bidrag
-            till folkliga musikskolan i Arvika för budgetåret 1939/40 anvisa
-            ett anslag av 15,000 kronor;
-          </note>
-          <note xml:id="i-WQVb73fPbnYdV4kXejR7bX">
-            b) i anledning av herr Halléns m. fl. ovannämnda motion (II:
-            207), till Stipendier åt behövande och begåvade elever vid folkliga
-            musikskolan i Arvika för budgetåret 1939/40 anvisa ett anslag
-            av 2,000 kronor;
-          </note>
-          <note xml:id="i-MZsaAeXcTTVKWsFh9bZtvW">
-            röstar
-          </note>
-          <note xml:id="i-3N2vnVFXRojndeZtdJGcEa">
-            Ja; Nej;
-          </note>
-          <note xml:id="i-JsWrY9DbdTGT1wxKLtNeo5">
-            Vinner Nej, har riksdagen i likhet med andra kammaren beslutat
-            att, med bifall till Kungl. Maj:ts förslag och med avslag å herrar
-            Halléns och Werners samt herr Halléns m. fl. ovannämnda motioner
-            (II: 206 och II: 207), såsom Bidrag till folkliga musikskolan
-            i Arvika för budgetåret 1939/40 anvisa ett anslag av 15,000 kronor.
-          </note>
-          <note xml:id="i-FxZ8oh1SoMyQJBWpFrjjFg">
-            Den, det ej vill, röstar
-          </note>
-          <note xml:id="i-M7nYBRZrgzsT99fVT28ZzZ">
-            Sedan efter given varsel kammarens ledamöter intagit sina platser
-            och voteringspropositionen upplästs, verkställdes omröstningen
-            medelst omröstningsapparat; och befunnos vid omröstningens slut
-            rösterna hava utfallit sålunda:
-          </note>
-          <note xml:id="i-WgjLsQ7ga1FyRZ76A8hTW1">
-            Ja — 89; Nej — 44. Därjämte hade tre ledamöter tillkännagivit,
-            att de avstode från att rösta.
-          </note>
-          <note xml:id="i-KWSnU7ur8tASE75gcANzBU">
-            Efter det protokoll över omröstningen blivit uppsatt, Justerat
-            och avsänt till andra kammaren, ankom därifrån ett protokollsutdrag,
-            nr 304, som upplästes och varav inhämtades, att omröstningen därstädes
-            utfallit med 109 Ja och 99 nej samt att båda kamrarnas sammanräknade
-            röster befunnits utgöra 198 ja och 143 nej, vadan beslut i frågan
-            blivit av riksdagen fattat i överensstämmelse med ja-propositionen.
-          </note>
-          <note xml:id="i-NqQtPg9boCw7nCEYdX9S3X">
-            Föredrogs och hänvisades till bevillningsutskottet Kungl. Maj
-            :ts proposition nr 215, angående visst avtal mellan aktiebolaget
-            Vin- &amp; spritcentralen och Mo och Domsjö aktiebolag.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1939--fk--22/prot_1939__fk__22-002.jp2/_view"/>
-          <note type="date" xml:id="i-J9NXFJxpHvukbGQpUduLSa">
-            Torsdagen den 13 april 1939. Nr 22. 3
-          </note>
-          <note xml:id="i-FWxXwmh6NwqCRkJj5MKpuS">
-            Föredrogos och hänvisades till jordbruksutskottet Kungl. Maj:ts
-            propositioner:
-          </note>
-          <note xml:id="i-RQmjzoeWRxAyx9TGbUio2X">
-            nr 229, angående åtgärder till stödjande av spannmålsmarknaden
-            m. m.; och
-          </note>
-          <note xml:id="i-4p3QX4nG9SEWVM5P2rjqZT">
-            nr 230, angående prisreglerande åtgärder på jordbrukets område.
-          </note>
-          <note xml:id="i-87HQ5CZu3BmtVnZoGtxHUN">
-            Föredrogs och hänvisades till bevillningsutskottet Kungl. Maj:ts
-            proposition nr 231, med förslag till förordning angående ytterligare
-            utsträckning av Kungl. Maj:ts befogenhet att meddela förordnande
-            jämlikt 1 $ förordningen den 7 juni 1935 (nr 259) om accis å margarin
-            och vissa andra fettvaror, m. m.
-          </note>
-          <note xml:id="i-VXzpno7JLXLUP6Z67fTTQf">
-            Föredrogs och hänvisades till behandling av lagutskott Kungl.
-            Maj:ts proposition nr 244, med förslag till lantarbetstidslag.
-          </note>
-          <note xml:id="i-47es4wkSJ3onxqyCnPoD4C">
-            Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
-          </note>
-          <note xml:id="i-4eAmjG7DcVKeesHvG77PVx">
-            nr 245, med förslag till militärt avlöningsreglemente m. m.;
-          </note>
-          <note xml:id="i-CMmY7puMF3nMfS5tYEE3zW">
-            nr 246, med förslag till avlöningsreglemente för personal vid
-            försvarsväsendet under krigstjänstgöring (krigsavlöningsreglemente)
-            ; samt
-          </note>
-          <note xml:id="i-4TxWtc7SnCpdE28rMHDe6X">
-            nr. 247, angående vissa avlöningsanslag under riksstatens fjärde
-            huvudtitel.
-          </note>
-          <note xml:id="i-FyACPKF4AHhRskNk5ZpN7m">
-            Föredrogs och hänvisades till statsutskottet den av herr Holmström
-            m. fl. väckta motionen, nr 283, i anledning av Kungl. Maj:ts proposition
-            angående åtgärder för enhetliggörande av det svenska järnvägsnätet.
-          </note>
-          <note type="speaker" xml:id="i-C4Ew8PszbSUisoZDbdGdny">
-            Herr statsrådet Engberg avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-X8VakM5YzRhXtdotPKZaDJ">
-            ts proposition nr 251, angående åtgärder för lagring av brännoljor.
-          </note>
-          <note xml:id="i-Qhdbogqr1GpAxTdXmWz4ZS">
-            Föredrogos, men bordlades ånyo på flera ledamöters begäran andra
-            lagutskottets utlåtande nr 24, jordbruksutskottets utlåtanden
-            nr 35—45 och första kammarens andra tillfälliga utskotts utlåtande
-            nr 7.
-          </note>
-          <note xml:id="i-6i56vkegb6bsG4B5UyocRy">
-            Vid föredragning av Kungl. Maj:ts denna dag avlämnade propositioner
-            nr 251 och 252 blevo desamma på begäran bordlagda.
-          </note>
-          <note xml:id="i-Hut85HTAjD6YfmJZqCdgpU">
-            Avgåvos och bordlades nedannämnda motioner:
-          </note>
-          <note xml:id="i-UJcZ9RJgSBNZrXeJKaZVDf">
-            nr 284, av herr Granath, i anledning av Kungl. Maj:ts proposition
-            angående förändring i avseende å löneställning och antal beträffande
-            vissa ordinarie befattningar vid postverket, telegrafverket och
-            statens järnvägar m. m.;
-          </note>
-          <note xml:id="i-2aqe2HnTW4ppBMMcXjz4Hy">
-            nr 285, av herrar Wistrand och Holmström, i anledning av Kungl.
-            Maj:ts proposition med förslag till lag angående ändring 1 vissa
-            delar av lagen den 14 juni 1907 (nr 36 s. 1) om nyttjanderätt
-            till fast egendom, m. m.; samt
-          </note>
-          <note xml:id="i-5RcdgwmPYpxoJonXAZytTD">
-            nr 286, av herrar Ewerlöf och Wistrand, i anledning av Kungl.
-            Maj:ts proposition med förslag till lag angående ändring i vissa
-            delar av lagen den 14 juni 1907 (nr 36 s. 1) om nyttjanderätt
-            till fast egendom, m. m.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1939--fk--22/prot_1939__fk__22-003.jp2/_view"/>
-          <note type="date" xml:id="i-9SB2Dfr89F6T5x2bkE3jrA">
-            4 Nr 22. Torsdagen den 13 april 1939.
-          </note>
-          <note xml:id="i-Sje7km3j3dTVotquUaWihU">
-            Anmäldes och bordlades
-          </note>
-          <note xml:id="i-79DsfUSJXPnDcpaiF6hXMm">
-            andra lagutskottets utlåtande nr 25, i anledning av väckt motion
-            rörande viss ändring 1 lagen den 11 september 1936 om föreningsoch
-            förhandlingsrätt; samt |
-          </note>
-          <note xml:id="i-7gHnDAoxm1DBhzGrY3Nxaa">
-            första kammarens andra tillfälliga utskotts utlåtande nr 8, i
-            anledning av väckt motion om införande av märkningstvång beträffande
-            importerad trätjära.
-          </note>
-          <note xml:id="i-RBLE7A6vdGaRRFXH8VwxNx">
-            Upplästes följande till kammaren inkomna ansökning:
-          </note>
-          <u xml:id="i-Nj5ec1RXNwLBL2S2UyLdCk" next="i-c7ab5b3ccdf48cce-1" who="Q5711655">
-            <seg xml:id="i-UoW7sdvxC6JxMzN4Ssm48h">
-              Till riksdagens första kammare. Med stöd av bifogade läkarintyg
-              får jag härmed vördsamt anhålla om ledighet från riksdagsarbetet
-              under tiden 14 april —4 maj 1939.
-            </seg>
-          </u>
-          <note xml:id="i-NuEnDy77sHiVm6vTbJcgFg">
-            Stockholm den 13 april 1939. Oskar Hagman. Det åberopade läkarintyget,
-            som jämväl upplästes, lydde sålunda:
-          </note>
-          <u who="Q5711655" xml:id="i-c7ab5b3ccdf48cce-1" prev="i-Nj5ec1RXNwLBL2S2UyLdCk">
-            <seg xml:id="i-TncUAYceKf6CsLLUszaXJx">
-              Härmed intygas att byråchefen Oskar Hagman på grund av hjärtsjukdom
-              är till arbete oförmögen under tre veckor.
-            </seg>
-          </u>
-          <note xml:id="i-WQrwAvAkPufDRXpvZu5Hxa">
-            Stockholm den 12 april 1939. N. Antoni, leg. läk. Den begärda
-            ledigheten beviljades.
-          </note>
-          <note xml:id="i-iXAaNmQtmQGPttF7xG7Wo">
-            Justerades protokollsutdrag för denna dag samt protokollen för
-            den 28, 29 och 31 nästlidne mars.
-          </note>
-          <note xml:id="i-27A36qNYNM3VtvHbR9V9dr">
-            Kammarens sammanträde avslutades kl. 2.18 e. m.
-          </note>
-          <note xml:id="i-41MfzcQ8JhmN8h8yttZFML">
-            In fidem G. H. Berggren.
-          </note>
-          <note xml:id="i-WHr9hvfNfdXdeNpMH8V1Ft">
-            Stockholm 1939. Kungl. Boktiryckeriet, P. A. Norstedt &amp; Söner.
-            391659
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+            får jag härmed vördsamt anhålla om ledighet från riksdagsarbetet
+            under tiden 14 april —4 maj 1939.
+          </seg>
+        </u>
+        <note xml:id="i-NuEnDy77sHiVm6vTbJcgFg">
+          Stockholm den 13 april 1939. Oskar Hagman. Det åberopade läkarintyget,
+          som jämväl upplästes, lydde sålunda:
+        </note>
+        <u who="Q5711655" xml:id="i-c7ab5b3ccdf48cce-1" prev="i-Nj5ec1RXNwLBL2S2UyLdCk">
+          <seg xml:id="i-TncUAYceKf6CsLLUszaXJx">
+            Härmed intygas att byråchefen Oskar Hagman på grund av hjärtsjukdom
+            är till arbete oförmögen under tre veckor.
+          </seg>
+        </u>
+        <note xml:id="i-WQrwAvAkPufDRXpvZu5Hxa">
+          Stockholm den 12 april 1939. N. Antoni, leg. läk. Den begärda
+          ledigheten beviljades.
+        </note>
+        <note xml:id="i-iXAaNmQtmQGPttF7xG7Wo">
+          Justerades protokollsutdrag för denna dag samt protokollen för
+          den 28, 29 och 31 nästlidne mars.
+        </note>
+        <note xml:id="i-27A36qNYNM3VtvHbR9V9dr">
+          Kammarens sammanträde avslutades kl. 2.18 e. m.
+        </note>
+        <note xml:id="i-41MfzcQ8JhmN8h8yttZFML">
+          In fidem G. H. Berggren.
+        </note>
+        <note xml:id="i-WHr9hvfNfdXdeNpMH8V1Ft">
+          Stockholm 1939. Kungl. Boktiryckeriet, P. A. Norstedt &amp; Söner.
+          391659
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

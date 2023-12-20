@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1942</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1942</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,560 +25,533 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1942--ak--1</head>
-          <docDate when="1942-01-08">1942-01-08</docDate>
-          <docDate when="1942-01-10">1942-01-10</docDate>
-          <docDate when="1942-01-12">1942-01-12</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1942--ak--1/prot_1942__ak__1-000.jp2/_view"/>
-          <note xml:id="i-Vk96nihNHiDLTJNHuATWKU">
-            RIKSDAGENS PROTOKOLL. 1942. Andra kammaren. Nr 1:
-          </note>
-          <u xml:id="i-4LP9zXAmaMAqc9bPtmLBVE" who="unknown">
-            <seg xml:id="i-K35ATNnuNHVEGvWMUdukRv">
-              I enlighet med 8 49 regeringsformen och 8 2 riksdagsordningen
-              sammanträdde andra kammaren till lagtima möte här i huvudstaden
-              i den uti riksdagens hus för kammaren anordnade samlingslokalen
-            </seg>
-          </u>
-          <note type="date" xml:id="i-UHj2ex7pjNJDvKVGNqW3HT">
-            Lördagen den 10 januari. Kl. 11 f. m.
-          </note>
-          <note xml:id="i-6ztfPvHSW33d7awr3RAv9W">
-            § 1.
-          </note>
-          <note xml:id="i-PojhV8zjCwEdezk41r6jNZ" type="speaker">
-            Sammanträdet öppnades av representanten för Norrbottens län herr
-            Hage såsom den ledamot, vilken bevistat de flesta riksdagarna,
-            med följande ord:
-          </note>
-          <u who="unknown" xml:id="i-E9asxbtfvaZXaQmbfkfAgH" next="i-VbETBpLGgMFYjHmhHy47Pq">
-            <seg xml:id="i-AkvTjArpJRyH4Zs9VUnKDv">
-              Ärade kammarledamöter! Efter ett kort avbrott i vårt arbete samlas
-              vi åter
-            </seg>
-          </u>
-          <u xml:id="i-VbETBpLGgMFYjHmhHy47Pq" who="unknown" prev="i-E9asxbtfvaZXaQmbfkfAgH" next="i-AizRrzRscxk5vxuvLNTQbu">
-            <seg xml:id="i-W1DJrhhkfjXhVVmpRL2TZr">
-              i dag till en ny riksdag. Det sker i en riksdagsbyggnad, som
-              under de senaste åren utvidgats och förbättrats, och från taket
-              över den byggnaden vajar allt- Jämt — frimodigt för vinden i farofylld
-              tid — den blågula flaggan, symbolen för allt det som vi hålla
-              kärast, hem och fosterland, frihet och demokrati.
-            </seg>
-          </u>
-          <u xml:id="i-AizRrzRscxk5vxuvLNTQbu" who="unknown" prev="i-VbETBpLGgMFYjHmhHy47Pq" next="i-KfjbzKPwCD2zmNqgbB4KwB">
-            <seg xml:id="i-GbjvaQGjgQRw7LAZCtEckX">
-              Vi som här samlats komma från vitt skilda delar av detta vidsträckta
-              land. Vi veta, att runt om i bygderna där ute har tidens vånda
-              satt sin prägel på livet i form av svårigheter av olika slag.
-              Det har skett i form av prisfördyring, i form av en allt mer tyngande
-              skattebörda, i form av ekonomiska svårigheter i många hem som
-              en följd av militära inkallelser samt i form av bostadsbrist och
-              arbetslöshet — åtminstone på en hel del platser. Det har slutligen
-              skett i form av knapphet på livsmedel och andra förnödenheter,
-              föranledd av missväxt och avstängning.
-            </seg>
-          </u>
-          <u xml:id="i-KfjbzKPwCD2zmNqgbB4KwB" who="unknown" prev="i-AizRrzRscxk5vxuvLNTQbu" next="i-TiUwsceHUndS36VLrFypoa">
-            <seg xml:id="i-CatapwcdbfVwCjVMpJKdtn">
-              Inför allt detta måste denna riksdag gå till sitt arbete under
-              en allvarlig föresats att — så långt det ligger inom möjligheternas
-              gräns — söka förhindra en ytterligare stegring av de besvärligheter
-              och bördor, som på detta sätt lagts på vårt folk. Och därvid måste
-              vi främst sikta till att söka skydda de samhällslager, vilka leva
-              på botten av samhället, dit solen sällan når ned, och där levnadsstandarden
-              alltid, men särskit nu, rör sig omkring eller under existensminimum.
-            </seg>
-          </u>
-          <u xml:id="i-TiUwsceHUndS36VLrFypoa" who="unknown" prev="i-KfjbzKPwCD2zmNqgbB4KwB" next="i-CNPATYpFs9WbgAcSxauMhU">
-            <seg xml:id="i-9SHHcp1TWTXC1zgAGVqomx">
-              Vi veta alla, att under en tid som den nuvarande möjligheterna
-              för riksdagen äro mycket begränsade att här åstadkomma allt det,
-              som vi helst skulle önska genomföra. Men vi veta också, att den
-              stora massan av vårt svenska folk uppnått en sådan politisk mognad,
-              att de förstå, att i en vargatid som den nuvarande intet folk
-              kan helt frigöra sig från de lidanden och svårigheter, som följa
-              med ett världskrig, men att dessa för vårt folk dock väga lätt
-              mot den sorg och de olyckor, som drabbat och alltjämt drabba allt
-              flera folk i olika delar av världen.
-            </seg>
-          </u>
-          <u xml:id="i-CNPATYpFs9WbgAcSxauMhU" who="unknown" prev="i-TiUwsceHUndS36VLrFypoa" next="i-N2R5qf4o12LG4QRLsdozPD">
-            <seg xml:id="i-QsMTXjkM9SgwkwnbDZQEXZ">
-              Då vi i dag komma tillsammans till ett nytt riksmöte, ha vi därför
-              anledning att åter med tacksamhet, men utan självförhävelse, erinra
-              om den för-
-            </seg>
-          </u>
-          <note xml:id="i-NK5eQFPrqJTV7mS2ftrpwj">
-            Andra kammarens protokoll 1942. Nr 1. 1
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1942--ak--1/prot_1942__ak__1-001.jp2/_view"/>
-          <note type="date" xml:id="i-Mb9QUoGctpPkdExFCWR1NH">
-            2 Nr 1. Lördagen den 10 januari 1942.
-          </note>
-          <u xml:id="i-N2R5qf4o12LG4QRLsdozPD" who="unknown" prev="i-CNPATYpFs9WbgAcSxauMhU" next="i-JFf9GX5BDT33b6DvbKrAyV">
-            <seg xml:id="i-GVnaPP98jgvfJzzm71Gw2F">
-              månsställning i förhållande till många andra folk, som vårt land
-              kommit att åtnjuta därigenom, att vi hittills kunnat stå utanför
-              stormaktskampen. Det giver oss möjlighet att bygga upp vårt svenska
-              samhälle mitt under en tid, då runt om ute i världen förstörelsens
-              krafter riva ner och rasera ideella och materiella värden, framskapade
-              under gångna år och av många generationer unger arbete, möda och
-              konstruktivt tänkande.
-            </seg>
-          </u>
-          <u xml:id="i-JFf9GX5BDT33b6DvbKrAyV" who="unknown" prev="i-N2R5qf4o12LG4QRLsdozPD" next="i-McXzGcSZibHnvwcjhgnjNz">
-            <seg xml:id="i-UN5CmKLegpvnLHSrifVtbb">
-              Bland de problem, som detta vårt uppbyggnadsarbete kommer att
-              syssla med vid denna riksdag, befinner sig även — har det sagts
-              — ett förslag om en rättegångsreform. Må detta vara en paroll
-              för svenskt lagstiftningsarbete, som utåt världen säger ut, att
-              det svenska samhället är ett rättssamhälle, där rättstankarna,
-              vårdas och vördas mitt i en tid, då rätten sitter trångt runt
-              om ute i världen.
-            </seg>
-          </u>
-          <u xml:id="i-McXzGcSZibHnvwcjhgnjNz" who="unknown" prev="i-JFf9GX5BDT33b6DvbKrAyV" next="i-TWkLKiVtNM1ewhxudQSiQG">
-            <seg xml:id="i-QKdwKG7mnbURGnMenirAn2">
-              Med dessa ord ber jag att i egenskap av ålderspresident få hälsa
-              mina riksdagskamrater välkomna till detta första sammanträde med
-              1942 års lagtima riksdag. Jag fogar till denna hälsning en — kanske
-              rent av utopisk men säkerligen av den stora massan av den lidande
-              mänskligheten innerligen omfattad — förhoppning, nämligen den,
-              att innan detta riksdagsår kommer till a ut fredens och frihetens
-              sol åter skall lysa över Europa och över all världen.
-            </seg>
-          </u>
-          <u xml:id="i-TWkLKiVtNM1ewhxudQSiQG" who="unknown" prev="i-McXzGcSZibHnvwcjhgnjNz" next="i-VcPn4iG5kdSNGyL6CwYPNy">
-            <seg xml:id="i-9FWg41zZiduw1ugwpJbWtu">
-              Jag förklarar härmed 1942 års riksdags första sammanträde öppnat.
-            </seg>
-          </u>
-          <note xml:id="i-QX2NZhBB5bPvgZ53Z5wCue">
-            § 2.
-          </note>
-          <note xml:id="i-GwZUk4u34HafwjovjrEavA">
-            Herr ordföranden tillkännagav, att han anmodat undertecknade
-            att föra protokollet, till dess sekreterare hunnit utses, ävensom
-            att kanslibiträden och vaktbetjäning blivit till erforderligt
-            antal av honom för tillfället antagna; och blevo på framställd
-            proposition dessa åtgärder av kammaren godkända.
-          </note>
-          <note xml:id="i-YJZ8wRHMURTmqBtH8qMzqu">
-            § 3.
-          </note>
-          <note xml:id="i-GAEu7RknmdzRK3DLSCJ4b">
-            Upplästes följande till kammaren ankomna protokoll angående den
-            i 8 32 riksdagsordningen föreskrivna fullmaktsgranskningen:
-          </note>
-          <note xml:id="i-9dfnjKgtBXyqWHD4FYhRqb">
-            Protokoll, hållet inför statsrådet och chefen för justitiedepartementet
-            den 8 januari 1942.
-          </note>
-          <note xml:id="i-4pDx2b5if3xHsPJGXJDptV">
-            I anledning av stadgandet i $ 32 riksdagsordningen hade statsrådet
-            och chefen för justitiedepartementet anmodat tre bland de av riksdagen
-            valde fullmäktige i riksbanken och tre bland fullmäktige i riksgäldskontoret
-            att närvara vid den granskning av riksdagsmannafullmakter som
-            skulle inför departementschefen företagas; och infunno sig nu
-            av fullmäktige i riksbanken herrar A. Amnér, C. Jonsson och I.
-            Anderson samt av fullmäktige i riksgäldskontoret herrar A. Örne,
-            A. Lindqvist och E. Eriksson.
-          </note>
-          <note xml:id="i-YEZH52RTedaoUnHYfLMmoc">
-            Till justitiedepartementet hade insänts fullmakter för 2 personer,
-            vilka vid nya röstsammanräkningar blivit utsedda såsom ledamöter
-            av riksdagens andra kammare i stället för avgångna ledamöter av
-            samma kammare.
-          </note>
-          <note xml:id="i-Du4N7kxeCJr8o4NobapBJG">
-            Vid granskning av fullmakterna framställdes icke någon anmärkning
-            mot desamma.
-          </note>
-          <note xml:id="i-EvptJpBAwuUWhxU8Nmxffa">
-            Protokoll över granskningen jämte förteckning å de granskade
-            fullmakterna skulle tillika med dessa överlämnas till andra kammaren.
-          </note>
-          <note xml:id="i-AkENcAbcNbLitC3qETR9t4">
-            I ämbetet: C.G. Bruno.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1942--ak--1/prot_1942__ak__1-002.jp2/_view"/>
-          <note type="date" xml:id="i-2HrmNNqRqPzMCc7NSYEwjF">
-            Lördagen den 10 januari 1942. Nr 1. 3
-          </note>
-          <note xml:id="i-Rg2iRaMKcBsiyCzEwEqGSf">
-            Den i protokollet omförmälda förteckningen var av följande lydelse:
-          </note>
-          <note xml:id="i-VibXFJPPK7qqPGCfuVEAhj">
-            : Förteckning å ledamöter av riksdagens andra kammare enligt
-            fullmakter, granskade inför chefen för justitiedepartementet den
-            8 januari 1942. Göteborgs och Bohus läns landstingsområde. 1.
-            Lantbrukaren Carl Edvin Johansson i Torp.
-          </note>
-          <note xml:id="i-4B4qbTFm2nu8jx82UHfKZh">
-            Västernorrlands län. 2. Juris doktorn Gunnar Hedlund i Mo.
-          </note>
-          <note xml:id="i-T5W9rPQES1SEcC9nM4vEVQ">
-            Vidare upplästes följande till kammaren ankomna protokoll:
-          </note>
-          <note xml:id="i-DipVmbXiEMUwkEzokcHSuY">
-            Protokoll, hållet inför statsrådet och chefen för Justitiedepartementet
-            den 9 januari 1942.
-          </note>
-          <note xml:id="i-AJRVhfdKZGUT4yRxadRBzB">
-            Till justitiedepartementet hade den 9 januari 1942 från länsstyrelserna
-            i Uppsala län och Gävleborgs län inkommit fullmakter för respektive
-            rektorn Herbert Lundh i Uppsala och ombudsmannen Anders Lif i
-            Hofors, vilka vid nya röstsammanräkningar blivit utsedda såsom
-            ledamöter av riksdagens andra kammare i stället för avgångna ledamöter
-            av samma kammare.
-          </note>
-          <u xml:id="i-VcPn4iG5kdSNGyL6CwYPNy" who="unknown" prev="i-TWkLKiVtNM1ewhxudQSiQG">
-            <seg xml:id="i-QDwdvquQjYsgnCP49LDxFJ">
-              Vid granskning av fullmakterna, som företogs inför chefen för
-              justitiedepartementet samt vidare av vederbörande fullmäktige
-              i riksbanken och riksgäldskontoret, framställdes mot fullmakterna
-              icke någon anmärkning.
-            </seg>
-          </u>
-          <note xml:id="i-UZcBNArS7Wyk5Gmzv5TB92">
-            Protokoll över vad sålunda förekommit skulle jämte de granskade
-            fullmakterna överlämnas till andra kammaren.
-          </note>
-          <note xml:id="i-4gJFUr1mpEnRzKdGSiFvkN">
-            T ämbetet: C.G. Bruno.
-          </note>
-          <note xml:id="i-5RDgG2JEM7DVbkpkgXai4S">
-            § 4.
-          </note>
-          <note xml:id="i-21Dx2YiwYY86XTU5eT4nMF">
-            Företogs upprop av kammarens ledamöter, därvid herrar Henriksson,
-            Janson i Frändesta och Andersson i Falkenberg samt fru Lindqvist-Petersson
-            befunnos frånvarande.
-          </note>
-          <note xml:id="i-XRsqYTkHHZZjPsXWzinVxh">
-            Från herr Henriksson hade till kammaren inkommit läkarintyg,
-            som upplästes.
-          </note>
-          <note xml:id="i-DbLBJvXDJ1cHGGofkNf7a9">
-            Herrar Janson i Frändesta och Andersson i Falkenberg samt fru
-            Lindqvist- Petersson hade uti ingivna, vid uppropet jämväl upplästa
-            ansökningar anhållit om ledighet från riksdagsgöromålen, herr
-            Janson i Frändesta på grund av viktiga enskilda angelägenheter
-            under den 10 januari, herr Andersson i Falkenberg för enskilda
-            angelägenheters vårdande likaledes under den 10 januari och fru
-            Lindqvist-Petersson på grund av sjukdomsfall i familjen under
-            några dagar från och med den 10 januari.
-          </note>
-          <note xml:id="i-VdDc1T2mp1sbaRX7rzsvwG">
-            § 5. Anställdes val av talman i kammaren; och befanns efter valets
-            utgång hava till talman blivit utsedd herr Sävström med samtliga
-            avgivna eller 216 röster.
-          </note>
-          <note xml:id="i-Sjpe1czAaPyiJWnhJ16kvq">
-            § 6.
-          </note>
-          <note xml:id="i-WD6RfsYzTSmpaR97G3pzxt">
-            Vid företaget val av förste vice talman blev därtill utsedd herr
-            Magnusson i Skövde med 160 röster. En röst tillföll herr Österström.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1942--ak--1/prot_1942__ak__1-003.jp2/_view"/>
-          <note type="date" xml:id="i-EMQVH3vYivbwTZDBpEkWux">
-            4 Nr 1. Lördagen den 10 januari 1942.
-          </note>
-          <note xml:id="i-Gp842xhJ1AFmw3Si2wTz9j">
-            § 7.
-          </note>
-          <note xml:id="i-BnjcGivQW8npnnGc2i8BgU">
-            Anställdes val av andre vice talman; och utsågs därvid herr Österström
-            med samtliga avgivna eller 156 röster.
-          </note>
-          <note xml:id="i-MGzMfKkwkuHcmpBSQVCPpX">
-            § 8.
-          </note>
-          <note xml:id="i-R9zxwgSMMY3kwMC6LhjzbT" type="speaker">
-            Älderspresidenten överlämnade ordförandeklubban till herr talmannen
-            och anförde därvid:
-          </note>
-          <u who="Q6201372" xml:id="i-5MbvN95cYf1a7Yj2EzB96R">
-            <seg xml:id="i-Mzm5p2uWQHM7LNRqVJ9hDY">
-              I kraft av det enhälligt skedda valet av talman överlämnar Jag
-              härmed denna klubba i Dina händer, under uttalande av den förhoppningen,
-              att vid denna riksdag med denna klubba skola klubbfästas goda
-              och lyckliga beslut för folket och landet.
-            </seg>
-          </u>
-          <note xml:id="i-PiSXCtmeKGgLSDSenVZd1q" type="speaker">
-            Herr talmannen hälsade därefter kammaren med följande ord:
-          </note>
-          <u who="Q6201372" xml:id="i-GmtpysCqZ2XkMbNh1yiGHE" next="i-DqysDbSMTYtjNjovLgYQDm">
-            <seg xml:id="i-QfBk95SNFx1c7aWohPsYmb">
-              Herr ålderspresident, mina damer och herrar! Å egna och vice
-              talmännens vägnar tackar Jag för förtroendet att leda kammarens
-              förhandlingar.
-            </seg>
-          </u>
-          <u xml:id="i-DqysDbSMTYtjNjovLgYQDm" who="Q6201372" prev="i-GmtpysCqZ2XkMbNh1yiGHE" next="i-EBFGFSodjz9RuMMuqxsFrg">
-            <seg xml:id="i-HBodMrUiVLNznSFKRdVN48">
-              Då vi nu äro redo att börja vårt arbete vid 1942 års riksdag,
-              så sker det i medvetande om det allvarliga läget och trycket av
-              växande svårigheter. Även vid denna riksdag blir omsorgen om vår
-              försvarsberedskap en av huvuduppgifterna. Den viktiga frågan om
-              folkförsörjningen kräver likaledes riksdagens medverkan. Det blir
-              vår uppgift att i bästa samförstånd behandla de ärenden som 1
-              dessa avseenden föreläggas oss. Enighet och god samhällsanda är
-              en nödvändig förutsättning för att vi skola kunna reda oss genom
-              de svårigheter som världskriget skapar för oss.
-            </seg>
-          </u>
-          <note xml:id="i-9UXicJGAtgw7p2cLdY2m7J">
-            § 9. Upplästes ånyo och lades till handlingarna det i 8 4 här
-            ovan omförmälda läkarintyget, vilket var av följande lydelse:
-          </note>
-          <u xml:id="i-EBFGFSodjz9RuMMuqxsFrg" who="Q6201372" prev="i-DqysDbSMTYtjNjovLgYQDm" next="i-75b6cYLQwWtiiaQN5b8y1c">
-            <seg xml:id="i-CQBYtwAJsLnbw4QtL9fD2K">
-              Att ledamoten av riksdagens andra kammare direktör Torsten Henriksson
-              på grund av influensa är oförmögen deltaga i riksdagsarbetet under
-              tiden fr. o. m. den 10 januari t. o. m. den 18 januari intygas.
-            </seg>
-          </u>
-          <note xml:id="i-YARDabVu1P6nLiBLHFfyLi">
-            Stockholm den 8 januari 1942.
-          </note>
-          <note xml:id="i-VDT4U2aUtPVu6mmqTtbLjq">
-            Harry Engström,
-          </note>
-          <note xml:id="i-4CtMJEZeBPZXtkK4gLuxb8">
-            leg. läkare. Ledighet från riksdagsgöromålen beviljades: herr
-            Jansson i Frändesta under den 10 jan., &gt; Andersson i Falkenberg
-            &gt; &gt; 10 &gt; och
-          </note>
-          <note xml:id="i-5fQuMEg5KYB6nr2xYZY1v7">
-            fru Lindqvist-Petersson tills vidare fr.o.m. &gt; 10 &gt;.
-          </note>
-          <note xml:id="i-Hf99saQPUZqEkWcCcie6LA">
-            § 10.
-          </note>
-          <note xml:id="i-EuZcKR6HN2oTDrbJjFihTc">
-            Föredrogos åter de under $ 3 här ovan intagna protokollen, varefter
-            kammaren beslöt att, med godkännande av de däri omförmälda fullmakterna,
-            lägga protokollen till handlingarna.
-          </note>
-          <note xml:id="i-BLhnxqtjR5mtYjmKaUbm5A">
-            § 11.
-          </note>
-          <note xml:id="i-9JueDzDfxYw5dHKZvdqiqx">
-            På hemställan av herr talmannen beslöt kammaren att genast företaga
-            val av sekreterare, varefter det sålunda beslutade valet företogs;
-            och befanns efter valsedlarnas öppnande och uppräkning valet hava
-            så utfallit, att till sekrea utsetts kammarrättsrådet Sune Norrman
-            med samtliga avgivna eller
-          </note>
-          <note xml:id="i-RYQHj4c8k3Wkaq2wEWeoKb">
-            1 röster.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1942--ak--1/prot_1942__ak__1-004.jp2/_view"/>
-          <note type="date" xml:id="i-GfkyNyQsdRC5wVPi2M4qHY">
-            Lördagen den 10 januari 1942. Nr 1. 5
-          </note>
-          <note xml:id="i-8KuvUMVDsboKL2Cn6bWeTn">
-            Sedan sekreteraren på kallelse inställt sig, meddelade herr talmannen
-            honom underrättelse om valets utgång och hälsade honom välkommen.
-          </note>
-          <note xml:id="i-QB2drVfBWbf4TojNUWHJih">
-            Protokollsföringen övertogs härefter av sekreteraren. Ernst Eriksson.
-            Ernst V. Staxäng.
-          </note>
-          <note xml:id="i-7wL7FRRvoFNvNGP22xLCNo">
-            § 12.
-          </note>
-          <note xml:id="i-CmDav21dxdsBgMmHE1qUiB">
-            Till talarplats för ledamöter, som kunde vilja därav begagna
-            sig, anvisades på herr talmannens förslag den för ändamålet anordnade,
-            på högra sidan om talmansbordet befintliga platsen.
-          </note>
-          <note xml:id="i-4nguLC3t8hiKahX7ygkM4k">
-            § 13.
-          </note>
-          <note xml:id="i-CWPuV5XEC5BAXEtvm93sGp">
-            Tillkännagavs, att Kungl. Maj:t låtit genom offentligt anslag
-            bjuda och kalla riksdagens samtliga ledamöter att måndagen den
-            12 innevarande månad kl. 11 f. m. infinna sig i slottskapellet
-            samt, efter förrättad gudstjänst, enligt $ 34 riksdagsordningen
-            begiva sig till rikssalen för att där inhämta vad Kungl. Maj:t
-            hade att meddela riksdagen.
-          </note>
-          <note xml:id="i-Vdj9o3fLRptZKTBYeiYd8i">
-            § 14.
-          </note>
-          <note xml:id="i-6Y9pFyzcduxXkZKKaALeFS">
-            Herr talmannen meddelade, att till kammarens förfogande överlämnats
-            ett antal inträdesbiljetter till rikssalen vid riksdagens öppnande,
-            och hemställde, att fördelning av dessa biljetter finge ske genom
-            kammarens kansli med iakttagande, att de för ledamöterna från
-            var och en av rikets valkretsar avsedda biljetterna utlämnades
-            till valkretsens äldste närvarande representant, som sedermera
-            finge ombesörja den vidare utdelningen.
-          </note>
-          <note xml:id="i-E3K11wm76JmuMWcHdVwrp6">
-            Detta förslag blev av kammaren bifallet.
-          </note>
-          <note xml:id="i-JK8mwwsd463Ru9KSYx1D5D">
-            Kammarens ledamöter åtskildes härefter kl. 12.1 e. m.
-          </note>
-          <note xml:id="i-Tj4N4xh5BY2MkvoJDRspH">
-            In fidem
-          </note>
-          <note xml:id="i-YAccH4RF8p34JWbyTYjm2x">
-            Sune Norrman.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1942--ak--1/prot_1942__ak__1-005.jp2/_view"/>
-          <note type="date" xml:id="i-5g6ZKbrbQYY9w4ckUosDCR">
-            6 Nr 1. Måndagen den 12 januari 1942.
-          </note>
-          <note type="date" xml:id="i-P4tRqHb386yUSRAkztX4aE">
-            Måndagen den 12 januari. Kl. 10.30 f. m.
-          </note>
-          <note xml:id="i-8gbaBnW8etLKAaftPgxJmf">
-            § 1.
-          </note>
-          <u xml:id="i-75b6cYLQwWtiiaQN5b8y1c" who="Q6201372" prev="i-EBFGFSodjz9RuMMuqxsFrg">
-            <seg xml:id="i-RytPzmHEqQp5SrhMkDfpnA">
-              På förslag av herr talmannen, som förklarade sig hava om tiden
-              för valen samrått med första kammarens talman, beslöt kammaren
-              att vid plenum tisdagen den 13 innevarande januari företaga val
-              av fyra ledamöter att deltaga i talmansöverläggningarna, två ledamöter
-              att hava inseende över riksdagens kansli, åtta ledamöter att jämte
-              herr talmannen tillsätta kammarens kanslipersonal och vaktbetjäning
-              samt tre ledamöter att handhava vården om kammarens ekonomiska
-              angelägenheter.
-            </seg>
-          </u>
-          <note xml:id="i-65yjbYf1V25KPCXwJ6LXWf">
-            § 2.
-          </note>
-          <note xml:id="i-AWmXWYmVTGe91PpcuNBdo">
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1942--ak--1</head>
+        <docDate when="1942-01-08">1942-01-08</docDate>
+        <docDate when="1942-01-10">1942-01-10</docDate>
+        <docDate when="1942-01-12">1942-01-12</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1942--ak--1/prot_1942__ak__1-000.jp2/_view"/>
+        <note xml:id="i-Vk96nihNHiDLTJNHuATWKU">
+          RIKSDAGENS PROTOKOLL. 1942. Andra kammaren. Nr 1:
+        </note>
+        <u xml:id="i-4LP9zXAmaMAqc9bPtmLBVE" who="unknown">
+          <seg xml:id="i-K35ATNnuNHVEGvWMUdukRv">
+            I enlighet med 8 49 regeringsformen och 8 2 riksdagsordningen
+            sammanträdde andra kammaren till lagtima möte här i huvudstaden
+            i den uti riksdagens hus för kammaren anordnade samlingslokalen
+          </seg>
+        </u>
+        <note type="date" xml:id="i-UHj2ex7pjNJDvKVGNqW3HT">
+          Lördagen den 10 januari. Kl. 11 f. m.
+        </note>
+        <note xml:id="i-6ztfPvHSW33d7awr3RAv9W">
+          § 1.
+        </note>
+        <note xml:id="i-PojhV8zjCwEdezk41r6jNZ" type="speaker">
+          Sammanträdet öppnades av representanten för Norrbottens län herr
+          Hage såsom den ledamot, vilken bevistat de flesta riksdagarna,
+          med följande ord:
+        </note>
+        <u who="unknown" xml:id="i-E9asxbtfvaZXaQmbfkfAgH" next="i-VbETBpLGgMFYjHmhHy47Pq">
+          <seg xml:id="i-AkvTjArpJRyH4Zs9VUnKDv">
+            Ärade kammarledamöter! Efter ett kort avbrott i vårt arbete samlas
+            vi åter
+          </seg>
+        </u>
+        <u xml:id="i-VbETBpLGgMFYjHmhHy47Pq" who="unknown" prev="i-E9asxbtfvaZXaQmbfkfAgH" next="i-AizRrzRscxk5vxuvLNTQbu">
+          <seg xml:id="i-W1DJrhhkfjXhVVmpRL2TZr">
+            i dag till en ny riksdag. Det sker i en riksdagsbyggnad, som
+            under de senaste åren utvidgats och förbättrats, och från taket
+            över den byggnaden vajar allt- Jämt — frimodigt för vinden i farofylld
+            tid — den blågula flaggan, symbolen för allt det som vi hålla
+            kärast, hem och fosterland, frihet och demokrati.
+          </seg>
+        </u>
+        <u xml:id="i-AizRrzRscxk5vxuvLNTQbu" who="unknown" prev="i-VbETBpLGgMFYjHmhHy47Pq" next="i-KfjbzKPwCD2zmNqgbB4KwB">
+          <seg xml:id="i-GbjvaQGjgQRw7LAZCtEckX">
+            Vi som här samlats komma från vitt skilda delar av detta vidsträckta
+            land. Vi veta, att runt om i bygderna där ute har tidens vånda
+            satt sin prägel på livet i form av svårigheter av olika slag.
+            Det har skett i form av prisfördyring, i form av en allt mer tyngande
+            skattebörda, i form av ekonomiska svårigheter i många hem som
+            en följd av militära inkallelser samt i form av bostadsbrist och
+            arbetslöshet — åtminstone på en hel del platser. Det har slutligen
+            skett i form av knapphet på livsmedel och andra förnödenheter,
+            föranledd av missväxt och avstängning.
+          </seg>
+        </u>
+        <u xml:id="i-KfjbzKPwCD2zmNqgbB4KwB" who="unknown" prev="i-AizRrzRscxk5vxuvLNTQbu" next="i-TiUwsceHUndS36VLrFypoa">
+          <seg xml:id="i-CatapwcdbfVwCjVMpJKdtn">
+            Inför allt detta måste denna riksdag gå till sitt arbete under
+            en allvarlig föresats att — så långt det ligger inom möjligheternas
+            gräns — söka förhindra en ytterligare stegring av de besvärligheter
+            och bördor, som på detta sätt lagts på vårt folk. Och därvid måste
+            vi främst sikta till att söka skydda de samhällslager, vilka leva
+            på botten av samhället, dit solen sällan når ned, och där levnadsstandarden
+            alltid, men särskit nu, rör sig omkring eller under existensminimum.
+          </seg>
+        </u>
+        <u xml:id="i-TiUwsceHUndS36VLrFypoa" who="unknown" prev="i-KfjbzKPwCD2zmNqgbB4KwB" next="i-CNPATYpFs9WbgAcSxauMhU">
+          <seg xml:id="i-9SHHcp1TWTXC1zgAGVqomx">
+            Vi veta alla, att under en tid som den nuvarande möjligheterna
+            för riksdagen äro mycket begränsade att här åstadkomma allt det,
+            som vi helst skulle önska genomföra. Men vi veta också, att den
+            stora massan av vårt svenska folk uppnått en sådan politisk mognad,
+            att de förstå, att i en vargatid som den nuvarande intet folk
+            kan helt frigöra sig från de lidanden och svårigheter, som följa
+            med ett världskrig, men att dessa för vårt folk dock väga lätt
+            mot den sorg och de olyckor, som drabbat och alltjämt drabba allt
+            flera folk i olika delar av världen.
+          </seg>
+        </u>
+        <u xml:id="i-CNPATYpFs9WbgAcSxauMhU" who="unknown" prev="i-TiUwsceHUndS36VLrFypoa" next="i-N2R5qf4o12LG4QRLsdozPD">
+          <seg xml:id="i-QsMTXjkM9SgwkwnbDZQEXZ">
+            Då vi i dag komma tillsammans till ett nytt riksmöte, ha vi därför
+            anledning att åter med tacksamhet, men utan självförhävelse, erinra
+            om den för-
+          </seg>
+        </u>
+        <note xml:id="i-NK5eQFPrqJTV7mS2ftrpwj">
+          Andra kammarens protokoll 1942. Nr 1. 1
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1942--ak--1/prot_1942__ak__1-001.jp2/_view"/>
+        <note type="date" xml:id="i-Mb9QUoGctpPkdExFCWR1NH">
+          2 Nr 1. Lördagen den 10 januari 1942.
+        </note>
+        <u xml:id="i-N2R5qf4o12LG4QRLsdozPD" who="unknown" prev="i-CNPATYpFs9WbgAcSxauMhU" next="i-JFf9GX5BDT33b6DvbKrAyV">
+          <seg xml:id="i-GVnaPP98jgvfJzzm71Gw2F">
+            månsställning i förhållande till många andra folk, som vårt land
+            kommit att åtnjuta därigenom, att vi hittills kunnat stå utanför
+            stormaktskampen. Det giver oss möjlighet att bygga upp vårt svenska
+            samhälle mitt under en tid, då runt om ute i världen förstörelsens
+            krafter riva ner och rasera ideella och materiella värden, framskapade
+            under gångna år och av många generationer unger arbete, möda och
+            konstruktivt tänkande.
+          </seg>
+        </u>
+        <u xml:id="i-JFf9GX5BDT33b6DvbKrAyV" who="unknown" prev="i-N2R5qf4o12LG4QRLsdozPD" next="i-McXzGcSZibHnvwcjhgnjNz">
+          <seg xml:id="i-UN5CmKLegpvnLHSrifVtbb">
+            Bland de problem, som detta vårt uppbyggnadsarbete kommer att
+            syssla med vid denna riksdag, befinner sig även — har det sagts
+            — ett förslag om en rättegångsreform. Må detta vara en paroll
+            för svenskt lagstiftningsarbete, som utåt världen säger ut, att
+            det svenska samhället är ett rättssamhälle, där rättstankarna,
+            vårdas och vördas mitt i en tid, då rätten sitter trångt runt
+            om ute i världen.
+          </seg>
+        </u>
+        <u xml:id="i-McXzGcSZibHnvwcjhgnjNz" who="unknown" prev="i-JFf9GX5BDT33b6DvbKrAyV" next="i-TWkLKiVtNM1ewhxudQSiQG">
+          <seg xml:id="i-QKdwKG7mnbURGnMenirAn2">
+            Med dessa ord ber jag att i egenskap av ålderspresident få hälsa
+            mina riksdagskamrater välkomna till detta första sammanträde med
+            1942 års lagtima riksdag. Jag fogar till denna hälsning en — kanske
+            rent av utopisk men säkerligen av den stora massan av den lidande
+            mänskligheten innerligen omfattad — förhoppning, nämligen den,
+            att innan detta riksdagsår kommer till a ut fredens och frihetens
+            sol åter skall lysa över Europa och över all världen.
+          </seg>
+        </u>
+        <u xml:id="i-TWkLKiVtNM1ewhxudQSiQG" who="unknown" prev="i-McXzGcSZibHnvwcjhgnjNz" next="i-VcPn4iG5kdSNGyL6CwYPNy">
+          <seg xml:id="i-9FWg41zZiduw1ugwpJbWtu">
+            Jag förklarar härmed 1942 års riksdags första sammanträde öppnat.
+          </seg>
+        </u>
+        <note xml:id="i-QX2NZhBB5bPvgZ53Z5wCue">
+          § 2.
+        </note>
+        <note xml:id="i-GwZUk4u34HafwjovjrEavA">
+          Herr ordföranden tillkännagav, att han anmodat undertecknade
+          att föra protokollet, till dess sekreterare hunnit utses, ävensom
+          att kanslibiträden och vaktbetjäning blivit till erforderligt
+          antal av honom för tillfället antagna; och blevo på framställd
+          proposition dessa åtgärder av kammaren godkända.
+        </note>
+        <note xml:id="i-YJZ8wRHMURTmqBtH8qMzqu">
+          § 3.
+        </note>
+        <note xml:id="i-GAEu7RknmdzRK3DLSCJ4b">
+          Upplästes följande till kammaren ankomna protokoll angående den
+          i 8 32 riksdagsordningen föreskrivna fullmaktsgranskningen:
+        </note>
+        <note xml:id="i-9dfnjKgtBXyqWHD4FYhRqb">
+          Protokoll, hållet inför statsrådet och chefen för justitiedepartementet
+          den 8 januari 1942.
+        </note>
+        <note xml:id="i-4pDx2b5if3xHsPJGXJDptV">
+          I anledning av stadgandet i $ 32 riksdagsordningen hade statsrådet
+          och chefen för justitiedepartementet anmodat tre bland de av riksdagen
+          valde fullmäktige i riksbanken och tre bland fullmäktige i riksgäldskontoret
+          att närvara vid den granskning av riksdagsmannafullmakter som
+          skulle inför departementschefen företagas; och infunno sig nu
+          av fullmäktige i riksbanken herrar A. Amnér, C. Jonsson och I.
+          Anderson samt av fullmäktige i riksgäldskontoret herrar A. Örne,
+          A. Lindqvist och E. Eriksson.
+        </note>
+        <note xml:id="i-YEZH52RTedaoUnHYfLMmoc">
+          Till justitiedepartementet hade insänts fullmakter för 2 personer,
+          vilka vid nya röstsammanräkningar blivit utsedda såsom ledamöter
+          av riksdagens andra kammare i stället för avgångna ledamöter av
+          samma kammare.
+        </note>
+        <note xml:id="i-Du4N7kxeCJr8o4NobapBJG">
+          Vid granskning av fullmakterna framställdes icke någon anmärkning
+          mot desamma.
+        </note>
+        <note xml:id="i-EvptJpBAwuUWhxU8Nmxffa">
+          Protokoll över granskningen jämte förteckning å de granskade
+          fullmakterna skulle tillika med dessa överlämnas till andra kammaren.
+        </note>
+        <note xml:id="i-AkENcAbcNbLitC3qETR9t4">
+          I ämbetet: C.G. Bruno.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1942--ak--1/prot_1942__ak__1-002.jp2/_view"/>
+        <note type="date" xml:id="i-2HrmNNqRqPzMCc7NSYEwjF">
+          Lördagen den 10 januari 1942. Nr 1. 3
+        </note>
+        <note xml:id="i-Rg2iRaMKcBsiyCzEwEqGSf">
+          Den i protokollet omförmälda förteckningen var av följande lydelse:
+        </note>
+        <note xml:id="i-VibXFJPPK7qqPGCfuVEAhj">
+          : Förteckning å ledamöter av riksdagens andra kammare enligt
+          fullmakter, granskade inför chefen för justitiedepartementet den
+          8 januari 1942. Göteborgs och Bohus läns landstingsområde. 1.
+          Lantbrukaren Carl Edvin Johansson i Torp.
+        </note>
+        <note xml:id="i-4B4qbTFm2nu8jx82UHfKZh">
+          Västernorrlands län. 2. Juris doktorn Gunnar Hedlund i Mo.
+        </note>
+        <note xml:id="i-T5W9rPQES1SEcC9nM4vEVQ">
+          Vidare upplästes följande till kammaren ankomna protokoll:
+        </note>
+        <note xml:id="i-DipVmbXiEMUwkEzokcHSuY">
+          Protokoll, hållet inför statsrådet och chefen för Justitiedepartementet
+          den 9 januari 1942.
+        </note>
+        <note xml:id="i-AJRVhfdKZGUT4yRxadRBzB">
+          Till justitiedepartementet hade den 9 januari 1942 från länsstyrelserna
+          i Uppsala län och Gävleborgs län inkommit fullmakter för respektive
+          rektorn Herbert Lundh i Uppsala och ombudsmannen Anders Lif i
+          Hofors, vilka vid nya röstsammanräkningar blivit utsedda såsom
+          ledamöter av riksdagens andra kammare i stället för avgångna ledamöter
+          av samma kammare.
+        </note>
+        <u xml:id="i-VcPn4iG5kdSNGyL6CwYPNy" who="unknown" prev="i-TWkLKiVtNM1ewhxudQSiQG">
+          <seg xml:id="i-QDwdvquQjYsgnCP49LDxFJ">
+            Vid granskning av fullmakterna, som företogs inför chefen för
+            justitiedepartementet samt vidare av vederbörande fullmäktige
+            i riksbanken och riksgäldskontoret, framställdes mot fullmakterna
+            icke någon anmärkning.
+          </seg>
+        </u>
+        <note xml:id="i-UZcBNArS7Wyk5Gmzv5TB92">
+          Protokoll över vad sålunda förekommit skulle jämte de granskade
+          fullmakterna överlämnas till andra kammaren.
+        </note>
+        <note xml:id="i-4gJFUr1mpEnRzKdGSiFvkN">
+          T ämbetet: C.G. Bruno.
+        </note>
+        <note xml:id="i-5RDgG2JEM7DVbkpkgXai4S">
+          § 4.
+        </note>
+        <note xml:id="i-21Dx2YiwYY86XTU5eT4nMF">
+          Företogs upprop av kammarens ledamöter, därvid herrar Henriksson,
+          Janson i Frändesta och Andersson i Falkenberg samt fru Lindqvist-Petersson
+          befunnos frånvarande.
+        </note>
+        <note xml:id="i-XRsqYTkHHZZjPsXWzinVxh">
+          Från herr Henriksson hade till kammaren inkommit läkarintyg,
+          som upplästes.
+        </note>
+        <note xml:id="i-DbLBJvXDJ1cHGGofkNf7a9">
+          Herrar Janson i Frändesta och Andersson i Falkenberg samt fru
+          Lindqvist- Petersson hade uti ingivna, vid uppropet jämväl upplästa
+          ansökningar anhållit om ledighet från riksdagsgöromålen, herr
+          Janson i Frändesta på grund av viktiga enskilda angelägenheter
+          under den 10 januari, herr Andersson i Falkenberg för enskilda
+          angelägenheters vårdande likaledes under den 10 januari och fru
+          Lindqvist-Petersson på grund av sjukdomsfall i familjen under
+          några dagar från och med den 10 januari.
+        </note>
+        <note xml:id="i-VdDc1T2mp1sbaRX7rzsvwG">
+          § 5. Anställdes val av talman i kammaren; och befanns efter valets
+          utgång hava till talman blivit utsedd herr Sävström med samtliga
+          avgivna eller 216 röster.
+        </note>
+        <note xml:id="i-Sjpe1czAaPyiJWnhJ16kvq">
+          § 6.
+        </note>
+        <note xml:id="i-WD6RfsYzTSmpaR97G3pzxt">
+          Vid företaget val av förste vice talman blev därtill utsedd herr
+          Magnusson i Skövde med 160 röster. En röst tillföll herr Österström.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1942--ak--1/prot_1942__ak__1-003.jp2/_view"/>
+        <note type="date" xml:id="i-EMQVH3vYivbwTZDBpEkWux">
+          4 Nr 1. Lördagen den 10 januari 1942.
+        </note>
+        <note xml:id="i-Gp842xhJ1AFmw3Si2wTz9j">
+          § 7.
+        </note>
+        <note xml:id="i-BnjcGivQW8npnnGc2i8BgU">
+          Anställdes val av andre vice talman; och utsågs därvid herr Österström
+          med samtliga avgivna eller 156 röster.
+        </note>
+        <note xml:id="i-MGzMfKkwkuHcmpBSQVCPpX">
+          § 8.
+        </note>
+        <note xml:id="i-R9zxwgSMMY3kwMC6LhjzbT" type="speaker">
+          Älderspresidenten överlämnade ordförandeklubban till herr talmannen
+          och anförde därvid:
+        </note>
+        <u who="Q6201372" xml:id="i-5MbvN95cYf1a7Yj2EzB96R">
+          <seg xml:id="i-Mzm5p2uWQHM7LNRqVJ9hDY">
+            I kraft av det enhälligt skedda valet av talman överlämnar Jag
+            härmed denna klubba i Dina händer, under uttalande av den förhoppningen,
+            att vid denna riksdag med denna klubba skola klubbfästas goda
+            och lyckliga beslut för folket och landet.
+          </seg>
+        </u>
+        <note xml:id="i-PiSXCtmeKGgLSDSenVZd1q" type="speaker">
+          Herr talmannen hälsade därefter kammaren med följande ord:
+        </note>
+        <u who="Q6201372" xml:id="i-GmtpysCqZ2XkMbNh1yiGHE" next="i-DqysDbSMTYtjNjovLgYQDm">
+          <seg xml:id="i-QfBk95SNFx1c7aWohPsYmb">
+            Herr ålderspresident, mina damer och herrar! Å egna och vice
+            talmännens vägnar tackar Jag för förtroendet att leda kammarens
+            förhandlingar.
+          </seg>
+        </u>
+        <u xml:id="i-DqysDbSMTYtjNjovLgYQDm" who="Q6201372" prev="i-GmtpysCqZ2XkMbNh1yiGHE" next="i-EBFGFSodjz9RuMMuqxsFrg">
+          <seg xml:id="i-HBodMrUiVLNznSFKRdVN48">
+            Då vi nu äro redo att börja vårt arbete vid 1942 års riksdag,
+            så sker det i medvetande om det allvarliga läget och trycket av
+            växande svårigheter. Även vid denna riksdag blir omsorgen om vår
+            försvarsberedskap en av huvuduppgifterna. Den viktiga frågan om
+            folkförsörjningen kräver likaledes riksdagens medverkan. Det blir
+            vår uppgift att i bästa samförstånd behandla de ärenden som 1
+            dessa avseenden föreläggas oss. Enighet och god samhällsanda är
+            en nödvändig förutsättning för att vi skola kunna reda oss genom
+            de svårigheter som världskriget skapar för oss.
+          </seg>
+        </u>
+        <note xml:id="i-9UXicJGAtgw7p2cLdY2m7J">
+          § 9. Upplästes ånyo och lades till handlingarna det i 8 4 här
+          ovan omförmälda läkarintyget, vilket var av följande lydelse:
+        </note>
+        <u xml:id="i-EBFGFSodjz9RuMMuqxsFrg" who="Q6201372" prev="i-DqysDbSMTYtjNjovLgYQDm" next="i-75b6cYLQwWtiiaQN5b8y1c">
+          <seg xml:id="i-CQBYtwAJsLnbw4QtL9fD2K">
+            Att ledamoten av riksdagens andra kammare direktör Torsten Henriksson
+            på grund av influensa är oförmögen deltaga i riksdagsarbetet under
+            tiden fr. o. m. den 10 januari t. o. m. den 18 januari intygas.
+          </seg>
+        </u>
+        <note xml:id="i-YARDabVu1P6nLiBLHFfyLi">
+          Stockholm den 8 januari 1942.
+        </note>
+        <note xml:id="i-VDT4U2aUtPVu6mmqTtbLjq">
+          Harry Engström,
+        </note>
+        <note xml:id="i-4CtMJEZeBPZXtkK4gLuxb8">
+          leg. läkare. Ledighet från riksdagsgöromålen beviljades: herr
+          Jansson i Frändesta under den 10 jan., &gt; Andersson i Falkenberg
+          &gt; &gt; 10 &gt; och
+        </note>
+        <note xml:id="i-5fQuMEg5KYB6nr2xYZY1v7">
+          fru Lindqvist-Petersson tills vidare fr.o.m. &gt; 10 &gt;.
+        </note>
+        <note xml:id="i-Hf99saQPUZqEkWcCcie6LA">
+          § 10.
+        </note>
+        <note xml:id="i-EuZcKR6HN2oTDrbJjFihTc">
+          Föredrogos åter de under $ 3 här ovan intagna protokollen, varefter
+          kammaren beslöt att, med godkännande av de däri omförmälda fullmakterna,
+          lägga protokollen till handlingarna.
+        </note>
+        <note xml:id="i-BLhnxqtjR5mtYjmKaUbm5A">
+          § 11.
+        </note>
+        <note xml:id="i-9JueDzDfxYw5dHKZvdqiqx">
+          På hemställan av herr talmannen beslöt kammaren att genast företaga
+          val av sekreterare, varefter det sålunda beslutade valet företogs;
+          och befanns efter valsedlarnas öppnande och uppräkning valet hava
+          så utfallit, att till sekrea utsetts kammarrättsrådet Sune Norrman
+          med samtliga avgivna eller
+        </note>
+        <note xml:id="i-RYQHj4c8k3Wkaq2wEWeoKb">
+          1 röster.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1942--ak--1/prot_1942__ak__1-004.jp2/_view"/>
+        <note type="date" xml:id="i-GfkyNyQsdRC5wVPi2M4qHY">
+          Lördagen den 10 januari 1942. Nr 1. 5
+        </note>
+        <note xml:id="i-8KuvUMVDsboKL2Cn6bWeTn">
+          Sedan sekreteraren på kallelse inställt sig, meddelade herr talmannen
+          honom underrättelse om valets utgång och hälsade honom välkommen.
+        </note>
+        <note xml:id="i-QB2drVfBWbf4TojNUWHJih">
+          Protokollsföringen övertogs härefter av sekreteraren. Ernst Eriksson.
+          Ernst V. Staxäng.
+        </note>
+        <note xml:id="i-7wL7FRRvoFNvNGP22xLCNo">
+          § 12.
+        </note>
+        <note xml:id="i-CmDav21dxdsBgMmHE1qUiB">
+          Till talarplats för ledamöter, som kunde vilja därav begagna
+          sig, anvisades på herr talmannens förslag den för ändamålet anordnade,
+          på högra sidan om talmansbordet befintliga platsen.
+        </note>
+        <note xml:id="i-4nguLC3t8hiKahX7ygkM4k">
+          § 13.
+        </note>
+        <note xml:id="i-CWPuV5XEC5BAXEtvm93sGp">
+          Tillkännagavs, att Kungl. Maj:t låtit genom offentligt anslag
+          bjuda och kalla riksdagens samtliga ledamöter att måndagen den
+          12 innevarande månad kl. 11 f. m. infinna sig i slottskapellet
+          samt, efter förrättad gudstjänst, enligt $ 34 riksdagsordningen
+          begiva sig till rikssalen för att där inhämta vad Kungl. Maj:t
+          hade att meddela riksdagen.
+        </note>
+        <note xml:id="i-Vdj9o3fLRptZKTBYeiYd8i">
+          § 14.
+        </note>
+        <note xml:id="i-6Y9pFyzcduxXkZKKaALeFS">
+          Herr talmannen meddelade, att till kammarens förfogande överlämnats
+          ett antal inträdesbiljetter till rikssalen vid riksdagens öppnande,
+          och hemställde, att fördelning av dessa biljetter finge ske genom
+          kammarens kansli med iakttagande, att de för ledamöterna från
+          var och en av rikets valkretsar avsedda biljetterna utlämnades
+          till valkretsens äldste närvarande representant, som sedermera
+          finge ombesörja den vidare utdelningen.
+        </note>
+        <note xml:id="i-E3K11wm76JmuMWcHdVwrp6">
+          Detta förslag blev av kammaren bifallet.
+        </note>
+        <note xml:id="i-JK8mwwsd463Ru9KSYx1D5D">
+          Kammarens ledamöter åtskildes härefter kl. 12.1 e. m.
+        </note>
+        <note xml:id="i-Tj4N4xh5BY2MkvoJDRspH">
+          In fidem
+        </note>
+        <note xml:id="i-YAccH4RF8p34JWbyTYjm2x">
+          Sune Norrman.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1942--ak--1/prot_1942__ak__1-005.jp2/_view"/>
+        <note type="date" xml:id="i-5g6ZKbrbQYY9w4ckUosDCR">
+          6 Nr 1. Måndagen den 12 januari 1942.
+        </note>
+        <note type="date" xml:id="i-P4tRqHb386yUSRAkztX4aE">
+          Måndagen den 12 januari. Kl. 10.30 f. m.
+        </note>
+        <note xml:id="i-8gbaBnW8etLKAaftPgxJmf">
+          § 1.
+        </note>
+        <u xml:id="i-75b6cYLQwWtiiaQN5b8y1c" who="Q6201372" prev="i-EBFGFSodjz9RuMMuqxsFrg">
+          <seg xml:id="i-RytPzmHEqQp5SrhMkDfpnA">
             På förslag av herr talmannen, som förklarade sig hava om tiden
             för valen samrått med första kammarens talman, beslöt kammaren
-            att företaga val av ledamöter i de ständiga utskotten torsdagen
-            den 15 och av suppleanter i samma utskott fredagen den 16 innevarande
-            månad.
-          </note>
-          <note type="speaker" xml:id="i-8pxrDf4JTvgAB5kjov23VC">
-            Ordet begärdes nu av herr förste vice talmannen, som yttrade:
-          </note>
-          <u who="Q5972050" xml:id="i-d768a34c91498522-0" next="i-V44WxmFr5gedpg6pKVoucU">
-            <seg xml:id="i-5HpGs6cnFPD8fzx2qHV2mT">
-              Herr talman! Jag tillåter mig hemställa, att andra kammaren måtte
-              besluta att utse suppleanter i de ständiga utskotten till ett
-              antal av aderton i statsutskottet, sexton .i konstitutionsutskottet
-              och bevillningsutskottet samt fjorton i vart och ett av de övriga
-              utskotten utom utrikesutskottet, där antalet grundlagsenligt skall
-              vara åtta.
-            </seg>
-          </u>
-          <note xml:id="i-MziB8GYTid3MKH9X2MYgwE">
-            Denna hemställan bifölls av kammaren.
-          </note>
-          <note xml:id="i-TivSKeCPS9stJnigxLM8D7">
-            § 3.
-          </note>
-          <note xml:id="i-6sRoQR52wGSgv2xQ2YQ2BF">
-            Herr talmannen och kammarens ledamöter avgingo kl. 10.45 f. m.
-            till slottskapellet, varest riksdagspredikan hölls av teologie
-            doktorn Yngve Rudberg. Efter slutad gudstjänst begav sig kammaren
-            till rikssalen. Hans Majestät Konungen öppnade där riksdagen med
-            ett tal. Sedan första kammarens talman härefter framfört första
-            kammarens undersåtliga vördnad, framträdde andra kammarens talman
-            och yttrade:
-          </note>
-          <u xml:id="i-V44WxmFr5gedpg6pKVoucU" prev="i-d768a34c91498522-0" who="Q5972050" next="i-d768a34c91498522-1">
-            <seg xml:id="i-Nzbeogx8nUHgN35aWv7HDN">
-              Eders Majestät!
-            </seg>
-          </u>
-          <u who="Q5972050" xml:id="i-d768a34c91498522-1" prev="i-V44WxmFr5gedpg6pKVoucU" next="i-d768a34c91498522-2">
-            <seg xml:id="i-W1Yj7Y1VFUhaesgS7wMHq5">
-              Då riksdagens andra kammare i dag till Eders Majestät framför
-              sin undersåtliga vördnad, vill kammaren samtidigt giva uttryck
-              åt sin tacksamhet för Eders Majestäts oavlåtliga strävan att bevara
-              freden åt vårt land. Vi äro medvetna om de svårigheter vi ha att
-              kämpa oss igenom och de krav, som ställas på oss i denna farofyllda
-              tid. Det bekymmersamma försörjningsläget framtvingar inskränkningar
-              i våra levnadsvanor. Försvarsberedskapen kräver arbete och ekonomiska
-              uppoffringar. Det är dock vårt folks fasta vilja att bära de bördor,
-              som krävas för försvarets stärkande och vidmakthållande.
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1942--ak--1/prot_1942__ak__1-006.jp2/_view"/>
-          <note type="date" xml:id="i-XkeApjiwib77PA3j4saD8k">
-            Måndagen den 12 januari 1942. Nr 1. 4
-          </note>
-          <u who="Q5972050" xml:id="i-d768a34c91498522-2" prev="i-d768a34c91498522-1">
-            <seg xml:id="i-TacYKQfBZ6fPHram422Gy9">
-              Sveriges folk har gått demokratiens väg. På den vägen ha vi kommit
-              fram till ökad förståelse för samverkan. Vi ha också lyckats bygga
-              ett samhälle, som visat sig kunna skänka förutsättningar för en
-              värdig existens. Det är vår förhoppning, att det nationella samarbetet
-              skall bestå inte blott i nuvarande svåra tidsläge utan också under
-              den måhända ovissa framtid, då återuppbyggandets krafter skola
-              börja verka, i syfte att åt vårt folk trygga en lugn och god utveckling.
-            </seg>
-          </u>
-          <note xml:id="i-7xAR9npkWzpVfAfWhDBCac">
-            Talmännen fingo härefter vardera mottaga ett exemplar av dels
-            Kungl. Maj:ts proposition, nr 1, angående statsverkets tillstånd
-            och behov under budgetåret 1942/43, dels Kungl. Maj:ts proposition,
-            nr 2, angående utgifter å tilläggsstat IT till riksstaten för
-            budgetåret 1941/42, dels Kungl Maj:ts proposition, nr 3, angående
-            fortsatt giltighet för förskottsstaten för försvarsväsendet, m.
-            m. dels ock Kungl. Maj:ts berättelse om vad i rikets styrelse
-            sig tilldragit, varefter ceremonien på rikssalen avslutades; och
-            åtskildes kammaren vid utgåendet från rikssalen, enligt beslut
-            fattat före avgången från dess samlingsrum.
-          </note>
-          <note xml:id="i-FYXDHEGhr3thfGPHaSmYJR">
-            In fidem
-          </note>
-          <note xml:id="i-83jgh8WC6Yapmp43ahp1oG">
-            Sune Norrman.
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+            att vid plenum tisdagen den 13 innevarande januari företaga val
+            av fyra ledamöter att deltaga i talmansöverläggningarna, två ledamöter
+            att hava inseende över riksdagens kansli, åtta ledamöter att jämte
+            herr talmannen tillsätta kammarens kanslipersonal och vaktbetjäning
+            samt tre ledamöter att handhava vården om kammarens ekonomiska
+            angelägenheter.
+          </seg>
+        </u>
+        <note xml:id="i-65yjbYf1V25KPCXwJ6LXWf">
+          § 2.
+        </note>
+        <note xml:id="i-AWmXWYmVTGe91PpcuNBdo">
+          På förslag av herr talmannen, som förklarade sig hava om tiden
+          för valen samrått med första kammarens talman, beslöt kammaren
+          att företaga val av ledamöter i de ständiga utskotten torsdagen
+          den 15 och av suppleanter i samma utskott fredagen den 16 innevarande
+          månad.
+        </note>
+        <note type="speaker" xml:id="i-8pxrDf4JTvgAB5kjov23VC">
+          Ordet begärdes nu av herr förste vice talmannen, som yttrade:
+        </note>
+        <u who="Q5972050" xml:id="i-d768a34c91498522-0" next="i-V44WxmFr5gedpg6pKVoucU">
+          <seg xml:id="i-5HpGs6cnFPD8fzx2qHV2mT">
+            Herr talman! Jag tillåter mig hemställa, att andra kammaren måtte
+            besluta att utse suppleanter i de ständiga utskotten till ett
+            antal av aderton i statsutskottet, sexton .i konstitutionsutskottet
+            och bevillningsutskottet samt fjorton i vart och ett av de övriga
+            utskotten utom utrikesutskottet, där antalet grundlagsenligt skall
+            vara åtta.
+          </seg>
+        </u>
+        <note xml:id="i-MziB8GYTid3MKH9X2MYgwE">
+          Denna hemställan bifölls av kammaren.
+        </note>
+        <note xml:id="i-TivSKeCPS9stJnigxLM8D7">
+          § 3.
+        </note>
+        <note xml:id="i-6sRoQR52wGSgv2xQ2YQ2BF">
+          Herr talmannen och kammarens ledamöter avgingo kl. 10.45 f. m.
+          till slottskapellet, varest riksdagspredikan hölls av teologie
+          doktorn Yngve Rudberg. Efter slutad gudstjänst begav sig kammaren
+          till rikssalen. Hans Majestät Konungen öppnade där riksdagen med
+          ett tal. Sedan första kammarens talman härefter framfört första
+          kammarens undersåtliga vördnad, framträdde andra kammarens talman
+          och yttrade:
+        </note>
+        <u xml:id="i-V44WxmFr5gedpg6pKVoucU" prev="i-d768a34c91498522-0" who="Q5972050" next="i-d768a34c91498522-1">
+          <seg xml:id="i-Nzbeogx8nUHgN35aWv7HDN">
+            Eders Majestät!
+          </seg>
+        </u>
+        <u who="Q5972050" xml:id="i-d768a34c91498522-1" prev="i-V44WxmFr5gedpg6pKVoucU" next="i-d768a34c91498522-2">
+          <seg xml:id="i-W1Yj7Y1VFUhaesgS7wMHq5">
+            Då riksdagens andra kammare i dag till Eders Majestät framför
+            sin undersåtliga vördnad, vill kammaren samtidigt giva uttryck
+            åt sin tacksamhet för Eders Majestäts oavlåtliga strävan att bevara
+            freden åt vårt land. Vi äro medvetna om de svårigheter vi ha att
+            kämpa oss igenom och de krav, som ställas på oss i denna farofyllda
+            tid. Det bekymmersamma försörjningsläget framtvingar inskränkningar
+            i våra levnadsvanor. Försvarsberedskapen kräver arbete och ekonomiska
+            uppoffringar. Det är dock vårt folks fasta vilja att bära de bördor,
+            som krävas för försvarets stärkande och vidmakthållande.
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1942--ak--1/prot_1942__ak__1-006.jp2/_view"/>
+        <note type="date" xml:id="i-XkeApjiwib77PA3j4saD8k">
+          Måndagen den 12 januari 1942. Nr 1. 4
+        </note>
+        <u who="Q5972050" xml:id="i-d768a34c91498522-2" prev="i-d768a34c91498522-1">
+          <seg xml:id="i-TacYKQfBZ6fPHram422Gy9">
+            Sveriges folk har gått demokratiens väg. På den vägen ha vi kommit
+            fram till ökad förståelse för samverkan. Vi ha också lyckats bygga
+            ett samhälle, som visat sig kunna skänka förutsättningar för en
+            värdig existens. Det är vår förhoppning, att det nationella samarbetet
+            skall bestå inte blott i nuvarande svåra tidsläge utan också under
+            den måhända ovissa framtid, då återuppbyggandets krafter skola
+            börja verka, i syfte att åt vårt folk trygga en lugn och god utveckling.
+          </seg>
+        </u>
+        <note xml:id="i-7xAR9npkWzpVfAfWhDBCac">
+          Talmännen fingo härefter vardera mottaga ett exemplar av dels
+          Kungl. Maj:ts proposition, nr 1, angående statsverkets tillstånd
+          och behov under budgetåret 1942/43, dels Kungl. Maj:ts proposition,
+          nr 2, angående utgifter å tilläggsstat IT till riksstaten för
+          budgetåret 1941/42, dels Kungl Maj:ts proposition, nr 3, angående
+          fortsatt giltighet för förskottsstaten för försvarsväsendet, m.
+          m. dels ock Kungl. Maj:ts berättelse om vad i rikets styrelse
+          sig tilldragit, varefter ceremonien på rikssalen avslutades; och
+          åtskildes kammaren vid utgåendet från rikssalen, enligt beslut
+          fattat före avgången från dess samlingsrum.
+        </note>
+        <note xml:id="i-FYXDHEGhr3thfGPHaSmYJR">
+          In fidem
+        </note>
+        <note xml:id="i-83jgh8WC6Yapmp43ahp1oG">
+          Sune Norrman.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 199596</title>
+        <title>Protokoll</title>
       </titleStmt>
       <editionStmt>
         <edition>0.4.2</edition>
@@ -13,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 199596</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -25,313 +25,286 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <editionStmt>
-          <edition>0.4.2</edition>
-        </editionStmt>
-        <publicationStmt>
-          <authority>National Library of Sweden and the WESTAC project</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some data curation was done. It is documented in input/curation/instances</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-199596--71</head>
-          <docDate when="1996-03-19">1996-03-19</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection" xml:id="i-EB3PATKGm9smczv5MWBqvJ">
-          <pb facs="http://data.riksdagen.se/fil/9B1A2D59-0ADF-4DBA-B6ED-7F85CF368A0F#page=1"/>
-          <note xml:id="i-DJqSFeiJCxTu5ekeUcfGdo">
-            Det justerade protokollet beräknas utkomma om 3 veckor
-          </note>
-          <u xml:id="i-6230677103c2e49c-0" who="unknown">
-            <seg xml:id="i-MErMYKwa87xCAZNyqGjE2x">
-              _________________________________________________________________________
-            </seg>
-          </u>
-        </div>
-        <div type="commentSection" xml:id="i-GVhMefCwDkKCXPcNxXPUqc">
-          <note xml:id="i-21zaLDCSt3kYaaFr3SYEsq">
-            1 § Justering av protokoll
-          </note>
-          <note xml:id="i-SAiDfpuP12DzT6ybzPuvJ7">
-            Justerades protokollen för den 12 och 13 mars.
-          </note>
-        </div>
-        <div type="debateSection" xml:id="i-XFxcsEZYjMgwDXpHg4j8W">
-          <note xml:id="i-QPxDnw2Jfyiwc3KWaZe8jC">
-            2 § Anmälan om entledigande av regeringen
-          </note>
-          <note xml:id="i-NVAtKzVTLWLbcdzXbX68eo" type="speaker">
-            Anf. 1 TALMANNEN
-          </note>
-          <u xml:id="i-6230677103c2e49c-2" who="Q4356302" next="i-6230677103c2e49c-3">
-            <seg xml:id="i-Gz8vSq46nads3WXxKgiaCh">
-              Jag får anmäla att jag på begäran av statsminister
-            </seg>
-          </u>
-          <u xml:id="i-6230677103c2e49c-3" who="Q4356302" prev="i-6230677103c2e49c-2" next="i-6230677103c2e49c-5">
-            <seg xml:id="i-PoS9QveT9tu9ag1s1kbRPN">
-              Ingvar Carlsson entledigat honom från befattningen som statsminister.
-              Till följd härav har jag entledigat också övriga statsråd. Regeringens
-              samtliga ledamöter uppehåller sina befattningar till dess ny regering
-              har tillträtt.
-            </seg>
-          </u>
-          <note xml:id="i-SMGwfwY8r7MukRcDN5DqeH">
-            Följande skrivelse hade inkommit från statsministern:
-          </note>
-          <note xml:id="i-FPK7QMBiSWVUDpkXCdfCTh">
-            Riksdagens talman
-          </note>
-          <u xml:id="i-6230677103c2e49c-5" who="Q4356302" prev="i-6230677103c2e49c-3" next="i-PB23zv2BmHAExKA6Nv8f4J">
-            <seg xml:id="i-QUeKta2Z4TF5hLv8jCrkzZ">
-              Jag begär härmed att bli entledigad från befattningen som statsminister.
-            </seg>
-          </u>
-          <note xml:id="i-9N7v2mt67GPxwLNBB2fjb4">
-            Stockholm den 18 mars 1996
-          </note>
-          <note xml:id="i-WgTwpUB4bX6yhKu7U7axYY">
-            Ingvar Carlsson
-          </note>
-          <note xml:id="i-KpspUnRrUvVTLmxMjWsTR6">
-            Talmannens skrivelse hade följande lydelse:
-          </note>
-          <note xml:id="i-KQXp2Y8WYpuedCzntgFMBh">
-            Till statsministern och övriga statsråd
-          </note>
-          <u xml:id="i-PB23zv2BmHAExKA6Nv8f4J" prev="i-6230677103c2e49c-5" who="Q4356302" next="i-4FqWcTD9m5nB1Y4a52KcTV">
-            <seg xml:id="i-APKuZDrh9zwBBEbM86TGRc">
-              Statsministern har i dag till mig överlämnat en skrivelse med
-              begäran om entledigande. I anledning därav och med stöd av bestämmelserna
-              i 6 kap. 6 och
-            </seg>
-          </u>
-          <u xml:id="i-4FqWcTD9m5nB1Y4a52KcTV" prev="i-PB23zv2BmHAExKA6Nv8f4J" who="Q4356302">
-            <seg xml:id="i-Gya9Tvs3baCCGdtpZVvReB">
-              7 §§ regeringsformen entledigar jag statsministern och övriga
-              statsråd. jag erinrar om stadgandet i 8 § i samma kapitel: Har
-              regeringens samtliga ledamöter entledigats, uppehåller de sina
-              befattningar till dess ny regering har tillträtt.
-            </seg>
-          </u>
-          <note xml:id="i-DYuZnimhtwCQttufGJCtaE">
-            Stockholm den 18 mars 1996
-          </note>
-          <note xml:id="i-AbvB63LobRpCTcNzHA5EWj">
-            Birgitta Dahl
-          </note>
-          <note xml:id="i-YETRSVE2UfF74a7Se3UHTJ">
-            Talman
-          </note>
-        </div>
-        <div type="debateSection" xml:id="i-GPYsNHmZ6XwckA5ibPQhde">
-          <note xml:id="i-FCo7BXXRPQNPFiQ8FjL3nK">
-            3 § Förslag om statsminister
-          </note>
-          <note xml:id="i-PqgPQdvGc2qqRQo6K3Sb9Q" type="speaker">
-            Anf. 2 TALMANNEN
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/9B1A2D59-0ADF-4DBA-B6ED-7F85CF368A0F#page=2"/>
-          <u xml:id="i-6230677103c2e49c-6" who="Q4356302" next="i-QPyeGpTGEyE6rQPBVBKCHH">
-            <seg xml:id="i-9aEin32SEZKZSp8Kpsat5B">
-              Enligt regeringsformen ankommer det på mig att för riksdagens
-              godkännande avge förslag om ny statsminister.
-            </seg>
-          </u>
-          <u xml:id="i-QPyeGpTGEyE6rQPBVBKCHH" who="Q4356302" prev="i-6230677103c2e49c-6">
-            <seg xml:id="i-NSFWxCxFtWnwWtdTD2JVXm">
-              Efter samråd med företrädare för varje partigrupp inom riksdagen
-              och överläggning med de vice talmännen får jag härmed föreslå
-              riksdagen att till ny statsminister utse Göran Persson, som avser
-              att bilda en regering bestående av företrädare för Arbetarepartiet
-              socialdemokraterna.
-            </seg>
-          </u>
-          <note xml:id="i-HAAKDhdRDHXMFuJRSFG7s2">
-            Förslaget bordlades.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-BwTa6MFSJY22aVL7cRaXHi">
-          <note xml:id="i-8G5NrVtwCwsSJ17HwKopKd">
-            4 § Meddelande om obesvarade interpellationer och frågor
-          </note>
-          <note xml:id="i-Bk1SiKJoQ2JqruuAbHWyT">
-            Talmannen meddelade att statsminister Ingvar
-          </note>
-          <note xml:id="i-Rr9QRfP6kxjpwZoxXAmMPK">
-            Carlsson den 18 mars 1996 på egna och övriga statsråds vägnar
-            meddelat att expeditionsregeringens ledamöter inte skulle besvara
-            några interpellationer och frågor, vilket innebar att samtliga
-            obesvarade interpellationer och frågor förfallit.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-YcFVYHCGLbqBh6SZWPD4o7">
-          <note xml:id="i-73KC18J1Kjxp6poE4Z46Kf">
-            5 § Meddelande om aktuell debatt den
-          </note>
-          <note xml:id="i-GUox37Nvi8St6eMVFzw8oi">
-            28 mars
-          </note>
-          <u xml:id="i-Rtr1JBrnzt6eZhPQ5Xot2b" who="Q4356302" next="i-6230677103c2e49c-8">
-            <seg xml:id="i-MSk3X3kVKnrdUe3aD1kmaY">
-              Talmannen meddelade att på begäran av Folkpartiet liberalernas
-              riksdagsgrupp skulle aktuell debatt om mc-anknutet våld anordnas
-              torsdagen den 28
-            </seg>
-          </u>
-          <note xml:id="i-NSsvWvrwpjC2T5fzVCF144">
-            mars kl. 12.00.
-          </note>
-          <note xml:id="i-NE7itEeehV6vcrQxciqNPX">
-            Från regeringen skulle justitieministern delta och från Folkpartiet
-            Siw Persson.
-          </note>
-          <u xml:id="i-6230677103c2e49c-8" who="Q4356302" prev="i-Rtr1JBrnzt6eZhPQ5Xot2b" next="i-6230677103c2e49c-9">
-            <seg xml:id="i-DyGE8ajsjR8Aq2AQ44PWtx">
-              En företrädare för varje parti skulle ha rätt att delta i debatten.
-            </seg>
-          </u>
-          <note xml:id="i-AAimtB2mck9dHzv4M9Xw9G">
-            Anmälan till talarlistan skulle ske senast onsdagen den 27 mars
-            kl. 12.00.
-          </note>
-          <note xml:id="i-UppidnW2En38mZwx4cBzoJ">
-            Den inkomna skrivelsen hade följande lydelse:
-          </note>
-          <note xml:id="i-9gy8brkierSBSK8uZ4rqCg">
-            Till talmannen
-          </note>
-          <note xml:id="i-Rx7cqkmSZnsjCjZCRoppv">
-            Begäran om aktuell debatt om mc-anknutet våld
-          </note>
-          <u xml:id="i-6230677103c2e49c-9" who="Q4356302" prev="i-6230677103c2e49c-8" next="i-6230677103c2e49c-10">
-            <seg xml:id="i-XVgtjbmuvJyV2DTKwAWzdP">
-              Statens kärnfunktion är att tillförsäkra medborgarna trygghet
-              till liv, hälsa och egendom. Rättsväsendet måste därför garantera
-              att ingen inkräktar på statsmakternas monopol på lagligt våld.
-              Varje medborgare måste kunna känna att rättsväsendet tillhandahåller
-              såväl det effektivaste som det enda sättet att skipa rättvisa.
-            </seg>
-          </u>
-          <u xml:id="i-6230677103c2e49c-10" who="Q4356302" prev="i-6230677103c2e49c-9" next="i-6230677103c2e49c-11">
-            <seg xml:id="i-2toiw4B8byq1mqCt6QKB55">
-              Det allt vanligare förekommande våld som är knutet till vissa
-              mc-gäng tär på den svenska rättsstatens fundament. I kretsarna
-              kring dessa maffialiknande organisationer har det blivit naturligt
-              att bekänna sig till en alternativ rättsordning som står utanför
-              demokratins kontroll. Rättsstaten riskerar därmed att lösas upp
-              inifrån.
-            </seg>
-          </u>
-          <pb facs="http://data.riksdagen.se/fil/9B1A2D59-0ADF-4DBA-B6ED-7F85CF368A0F#page=3"/>
-          <u xml:id="i-6230677103c2e49c-11" who="Q4356302" prev="i-6230677103c2e49c-10" next="i-6230677103c2e49c-12">
-            <seg xml:id="i-EgQu3s5fB8pXgwctUq43X9">
-              Det är uppenbart att inte tillräckligt gjorts från statsmakternas
-              sida för att stävja det mc-anknutna våldet och den övriga kriminalitet
-              som härrör från organisationer som Hells Angels och Bandidos.
-            </seg>
-          </u>
-          <u xml:id="i-6230677103c2e49c-12" who="Q4356302" prev="i-6230677103c2e49c-11">
-            <seg xml:id="i-9RDtboYHzeKe72CcSpweEG">
-              Mot denna bakgrund begär Folkpartiet liberalernas riksdagsgrupp
-              att en aktuell debatt anordnas angående mc-anknutet våld.
-            </seg>
-          </u>
-          <note xml:id="i-Ax1xpsQ6JKbRzofgLQ2M7n">
-            Stockholm den 12 mars 1996
-          </note>
-          <note xml:id="i-UFKpfyBt4suLYmmnMiUmYY">
-            Lars Leijonborg
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-PJsuoB5cUzoye5pLVs7P8J">
-          <note xml:id="i-WPUZZDFt3ykCVQyAGYpSfC">
-            6 § Bordläggning
-          </note>
-          <note xml:id="i-Lf5KDLexiCUUof3Yj7NrSU">
-            Anmäldes och bordlades
-          </note>
-          <note xml:id="i-WTjyTWiPxxMszWW4MQUtnB">
-            Propositioner
-          </note>
-          <note xml:id="i-R92aFyKgRU1XVXDR1VJU8i">
-            1995/96:178 Sekretess och polisregister
-          </note>
-          <note xml:id="i-F9dYgsj2AvDtiqwxxVPGDT">
-            1995/96:191 Mervärdesskatt på entréavgifter till biografföreställningar
-          </note>
-          <note xml:id="i-BVg4BqZgvtPJtCmypZTGnq">
-            Motioner
-          </note>
-          <note xml:id="i-KvfrnHJnoDYcnxQPua5pvJ">
-            med anledning av prop. 1995/96:38 Länsindelningen i
-          </note>
-          <note xml:id="i-6VRhzCBUuhXWXcdN6CSoEL">
-            Skåne och Västsverige m.m.
-          </note>
-          <note xml:id="i-BhQNqmTPBjTRhoChQEX1gF">
-            1995/96:Bo7 av Bengt Harding Olson (fp)
-          </note>
-          <note xml:id="i-N1M88635jCeM3tZe1oGhuJ">
-            1995/96:Bo8 av Börje Nilsson m.fl. (s)
-          </note>
-          <note xml:id="i-NArzdjVR78c12nE19jRgHq">
-            1995/96:Bo9 av Gudrun Schyman m.fl. (v)
-          </note>
-          <note xml:id="i-GkEc18STT8BQNWdejVmpqY">
-            1995/96:Bo10 av Tuve Skånberg (kds)
-          </note>
-          <note xml:id="i-QknHhmJitAy2JNBta3qnKg">
-            1995/96:Bo11 av Annika Nordgren (mp)
-          </note>
-          <note xml:id="i-6DE1iM4LecWThGpnghxwc4">
-            1995/96:Bo12 av Knut Billing m.fl. (m)
-          </note>
-          <note xml:id="i-AKLPKmRqk6u3zaX1oQscAf">
-            1995/96:Bo13 av Rolf Kenneryd m.fl. (c)
-          </note>
-          <note xml:id="i-5se9gtVURnYNZPt1U8USDR">
-            1995/96:Bo14 av Ingbritt Irhammar (c)
-          </note>
-          <note xml:id="i-KEzQ22faitxvjf8btRitpj">
-            1995/96:Bo15 av Erling Bager och Eva Flyborg (fp)
-          </note>
-          <note xml:id="i-6TdG1biDdWibavQX1GdQgW">
-            1995/96:Bo16 av Per Lager m.fl. (mp)
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-J1PS4bX8FGmSbd3nvVdUAB">
-          <note xml:id="i-YWuDRCcTeR6YcgPPYmmtrx">
-            7 § Kammaren åtskildes kl. 14.02.
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/9B1A2D59-0ADF-4DBA-B6ED-7F85CF368A0F#page=4"/>
-          <note xml:id="i-nAsr6aTprHZvPSz3kiiQj">
-            Förhandlingarna leddes av talmannen.
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-199596--71</head>
+        <docDate when="1996-03-19">1996-03-19</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-EB3PATKGm9smczv5MWBqvJ">
+        <pb facs="http://data.riksdagen.se/fil/9B1A2D59-0ADF-4DBA-B6ED-7F85CF368A0F#page=1"/>
+        <note xml:id="i-DJqSFeiJCxTu5ekeUcfGdo">
+          Det justerade protokollet beräknas utkomma om 3 veckor
+        </note>
+        <u xml:id="i-6230677103c2e49c-0" who="unknown">
+          <seg xml:id="i-MErMYKwa87xCAZNyqGjE2x">
+            _________________________________________________________________________
+          </seg>
+        </u>
+      </div>
+      <div type="commentSection" xml:id="i-GVhMefCwDkKCXPcNxXPUqc">
+        <note xml:id="i-21zaLDCSt3kYaaFr3SYEsq">
+          1 § Justering av protokoll
+        </note>
+        <note xml:id="i-SAiDfpuP12DzT6ybzPuvJ7">
+          Justerades protokollen för den 12 och 13 mars.
+        </note>
+      </div>
+      <div type="debateSection" xml:id="i-XFxcsEZYjMgwDXpHg4j8W">
+        <note xml:id="i-QPxDnw2Jfyiwc3KWaZe8jC">
+          2 § Anmälan om entledigande av regeringen
+        </note>
+        <note xml:id="i-NVAtKzVTLWLbcdzXbX68eo" type="speaker">
+          Anf. 1 TALMANNEN
+        </note>
+        <u xml:id="i-6230677103c2e49c-2" who="Q4356302" next="i-6230677103c2e49c-3">
+          <seg xml:id="i-Gz8vSq46nads3WXxKgiaCh">
+            Jag får anmäla att jag på begäran av statsminister
+          </seg>
+        </u>
+        <u xml:id="i-6230677103c2e49c-3" who="Q4356302" prev="i-6230677103c2e49c-2" next="i-6230677103c2e49c-5">
+          <seg xml:id="i-PoS9QveT9tu9ag1s1kbRPN">
+            Ingvar Carlsson entledigat honom från befattningen som statsminister.
+            Till följd härav har jag entledigat också övriga statsråd. Regeringens
+            samtliga ledamöter uppehåller sina befattningar till dess ny regering
+            har tillträtt.
+          </seg>
+        </u>
+        <note xml:id="i-SMGwfwY8r7MukRcDN5DqeH">
+          Följande skrivelse hade inkommit från statsministern:
+        </note>
+        <note xml:id="i-FPK7QMBiSWVUDpkXCdfCTh">
+          Riksdagens talman
+        </note>
+        <u xml:id="i-6230677103c2e49c-5" who="Q4356302" prev="i-6230677103c2e49c-3" next="i-PB23zv2BmHAExKA6Nv8f4J">
+          <seg xml:id="i-QUeKta2Z4TF5hLv8jCrkzZ">
+            Jag begär härmed att bli entledigad från befattningen som statsminister.
+          </seg>
+        </u>
+        <note xml:id="i-9N7v2mt67GPxwLNBB2fjb4">
+          Stockholm den 18 mars 1996
+        </note>
+        <note xml:id="i-WgTwpUB4bX6yhKu7U7axYY">
+          Ingvar Carlsson
+        </note>
+        <note xml:id="i-KpspUnRrUvVTLmxMjWsTR6">
+          Talmannens skrivelse hade följande lydelse:
+        </note>
+        <note xml:id="i-KQXp2Y8WYpuedCzntgFMBh">
+          Till statsministern och övriga statsråd
+        </note>
+        <u xml:id="i-PB23zv2BmHAExKA6Nv8f4J" prev="i-6230677103c2e49c-5" who="Q4356302" next="i-4FqWcTD9m5nB1Y4a52KcTV">
+          <seg xml:id="i-APKuZDrh9zwBBEbM86TGRc">
+            Statsministern har i dag till mig överlämnat en skrivelse med
+            begäran om entledigande. I anledning därav och med stöd av bestämmelserna
+            i 6 kap. 6 och
+          </seg>
+        </u>
+        <u xml:id="i-4FqWcTD9m5nB1Y4a52KcTV" prev="i-PB23zv2BmHAExKA6Nv8f4J" who="Q4356302">
+          <seg xml:id="i-Gya9Tvs3baCCGdtpZVvReB">
+            7 §§ regeringsformen entledigar jag statsministern och övriga
+            statsråd. jag erinrar om stadgandet i 8 § i samma kapitel: Har
+            regeringens samtliga ledamöter entledigats, uppehåller de sina
+            befattningar till dess ny regering har tillträtt.
+          </seg>
+        </u>
+        <note xml:id="i-DYuZnimhtwCQttufGJCtaE">
+          Stockholm den 18 mars 1996
+        </note>
+        <note xml:id="i-AbvB63LobRpCTcNzHA5EWj">
+          Birgitta Dahl
+        </note>
+        <note xml:id="i-YETRSVE2UfF74a7Se3UHTJ">
+          Talman
+        </note>
+      </div>
+      <div type="debateSection" xml:id="i-GPYsNHmZ6XwckA5ibPQhde">
+        <note xml:id="i-FCo7BXXRPQNPFiQ8FjL3nK">
+          3 § Förslag om statsminister
+        </note>
+        <note xml:id="i-PqgPQdvGc2qqRQo6K3Sb9Q" type="speaker">
+          Anf. 2 TALMANNEN
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/9B1A2D59-0ADF-4DBA-B6ED-7F85CF368A0F#page=2"/>
+        <u xml:id="i-6230677103c2e49c-6" who="Q4356302" next="i-QPyeGpTGEyE6rQPBVBKCHH">
+          <seg xml:id="i-9aEin32SEZKZSp8Kpsat5B">
+            Enligt regeringsformen ankommer det på mig att för riksdagens
+            godkännande avge förslag om ny statsminister.
+          </seg>
+        </u>
+        <u xml:id="i-QPyeGpTGEyE6rQPBVBKCHH" who="Q4356302" prev="i-6230677103c2e49c-6">
+          <seg xml:id="i-NSFWxCxFtWnwWtdTD2JVXm">
+            Efter samråd med företrädare för varje partigrupp inom riksdagen
+            och överläggning med de vice talmännen får jag härmed föreslå
+            riksdagen att till ny statsminister utse Göran Persson, som avser
+            att bilda en regering bestående av företrädare för Arbetarepartiet
+            socialdemokraterna.
+          </seg>
+        </u>
+        <note xml:id="i-HAAKDhdRDHXMFuJRSFG7s2">
+          Förslaget bordlades.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-BwTa6MFSJY22aVL7cRaXHi">
+        <note xml:id="i-8G5NrVtwCwsSJ17HwKopKd">
+          4 § Meddelande om obesvarade interpellationer och frågor
+        </note>
+        <note xml:id="i-Bk1SiKJoQ2JqruuAbHWyT">
+          Talmannen meddelade att statsminister Ingvar
+        </note>
+        <note xml:id="i-Rr9QRfP6kxjpwZoxXAmMPK">
+          Carlsson den 18 mars 1996 på egna och övriga statsråds vägnar
+          meddelat att expeditionsregeringens ledamöter inte skulle besvara
+          några interpellationer och frågor, vilket innebar att samtliga
+          obesvarade interpellationer och frågor förfallit.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-YcFVYHCGLbqBh6SZWPD4o7">
+        <note xml:id="i-73KC18J1Kjxp6poE4Z46Kf">
+          5 § Meddelande om aktuell debatt den
+        </note>
+        <note xml:id="i-GUox37Nvi8St6eMVFzw8oi">
+          28 mars
+        </note>
+        <u xml:id="i-Rtr1JBrnzt6eZhPQ5Xot2b" who="Q4356302" next="i-6230677103c2e49c-8">
+          <seg xml:id="i-MSk3X3kVKnrdUe3aD1kmaY">
+            Talmannen meddelade att på begäran av Folkpartiet liberalernas
+            riksdagsgrupp skulle aktuell debatt om mc-anknutet våld anordnas
+            torsdagen den 28
+          </seg>
+        </u>
+        <note xml:id="i-NSsvWvrwpjC2T5fzVCF144">
+          mars kl. 12.00.
+        </note>
+        <note xml:id="i-NE7itEeehV6vcrQxciqNPX">
+          Från regeringen skulle justitieministern delta och från Folkpartiet
+          Siw Persson.
+        </note>
+        <u xml:id="i-6230677103c2e49c-8" who="Q4356302" prev="i-Rtr1JBrnzt6eZhPQ5Xot2b" next="i-6230677103c2e49c-9">
+          <seg xml:id="i-DyGE8ajsjR8Aq2AQ44PWtx">
+            En företrädare för varje parti skulle ha rätt att delta i debatten.
+          </seg>
+        </u>
+        <note xml:id="i-AAimtB2mck9dHzv4M9Xw9G">
+          Anmälan till talarlistan skulle ske senast onsdagen den 27 mars
+          kl. 12.00.
+        </note>
+        <note xml:id="i-UppidnW2En38mZwx4cBzoJ">
+          Den inkomna skrivelsen hade följande lydelse:
+        </note>
+        <note xml:id="i-9gy8brkierSBSK8uZ4rqCg">
+          Till talmannen
+        </note>
+        <note xml:id="i-Rx7cqkmSZnsjCjZCRoppv">
+          Begäran om aktuell debatt om mc-anknutet våld
+        </note>
+        <u xml:id="i-6230677103c2e49c-9" who="Q4356302" prev="i-6230677103c2e49c-8" next="i-6230677103c2e49c-10">
+          <seg xml:id="i-XVgtjbmuvJyV2DTKwAWzdP">
+            Statens kärnfunktion är att tillförsäkra medborgarna trygghet
+            till liv, hälsa och egendom. Rättsväsendet måste därför garantera
+            att ingen inkräktar på statsmakternas monopol på lagligt våld.
+            Varje medborgare måste kunna känna att rättsväsendet tillhandahåller
+            såväl det effektivaste som det enda sättet att skipa rättvisa.
+          </seg>
+        </u>
+        <u xml:id="i-6230677103c2e49c-10" who="Q4356302" prev="i-6230677103c2e49c-9" next="i-6230677103c2e49c-11">
+          <seg xml:id="i-2toiw4B8byq1mqCt6QKB55">
+            Det allt vanligare förekommande våld som är knutet till vissa
+            mc-gäng tär på den svenska rättsstatens fundament. I kretsarna
+            kring dessa maffialiknande organisationer har det blivit naturligt
+            att bekänna sig till en alternativ rättsordning som står utanför
+            demokratins kontroll. Rättsstaten riskerar därmed att lösas upp
+            inifrån.
+          </seg>
+        </u>
+        <pb facs="http://data.riksdagen.se/fil/9B1A2D59-0ADF-4DBA-B6ED-7F85CF368A0F#page=3"/>
+        <u xml:id="i-6230677103c2e49c-11" who="Q4356302" prev="i-6230677103c2e49c-10" next="i-6230677103c2e49c-12">
+          <seg xml:id="i-EgQu3s5fB8pXgwctUq43X9">
+            Det är uppenbart att inte tillräckligt gjorts från statsmakternas
+            sida för att stävja det mc-anknutna våldet och den övriga kriminalitet
+            som härrör från organisationer som Hells Angels och Bandidos.
+          </seg>
+        </u>
+        <u xml:id="i-6230677103c2e49c-12" who="Q4356302" prev="i-6230677103c2e49c-11">
+          <seg xml:id="i-9RDtboYHzeKe72CcSpweEG">
+            Mot denna bakgrund begär Folkpartiet liberalernas riksdagsgrupp
+            att en aktuell debatt anordnas angående mc-anknutet våld.
+          </seg>
+        </u>
+        <note xml:id="i-Ax1xpsQ6JKbRzofgLQ2M7n">
+          Stockholm den 12 mars 1996
+        </note>
+        <note xml:id="i-UFKpfyBt4suLYmmnMiUmYY">
+          Lars Leijonborg
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-PJsuoB5cUzoye5pLVs7P8J">
+        <note xml:id="i-WPUZZDFt3ykCVQyAGYpSfC">
+          6 § Bordläggning
+        </note>
+        <note xml:id="i-Lf5KDLexiCUUof3Yj7NrSU">
+          Anmäldes och bordlades
+        </note>
+        <note xml:id="i-WTjyTWiPxxMszWW4MQUtnB">
+          Propositioner
+        </note>
+        <note xml:id="i-R92aFyKgRU1XVXDR1VJU8i">
+          1995/96:178 Sekretess och polisregister
+        </note>
+        <note xml:id="i-F9dYgsj2AvDtiqwxxVPGDT">
+          1995/96:191 Mervärdesskatt på entréavgifter till biografföreställningar
+        </note>
+        <note xml:id="i-BVg4BqZgvtPJtCmypZTGnq">
+          Motioner
+        </note>
+        <note xml:id="i-KvfrnHJnoDYcnxQPua5pvJ">
+          med anledning av prop. 1995/96:38 Länsindelningen i
+        </note>
+        <note xml:id="i-6VRhzCBUuhXWXcdN6CSoEL">
+          Skåne och Västsverige m.m.
+        </note>
+        <note xml:id="i-BhQNqmTPBjTRhoChQEX1gF">
+          1995/96:Bo7 av Bengt Harding Olson (fp)
+        </note>
+        <note xml:id="i-N1M88635jCeM3tZe1oGhuJ">
+          1995/96:Bo8 av Börje Nilsson m.fl. (s)
+        </note>
+        <note xml:id="i-NArzdjVR78c12nE19jRgHq">
+          1995/96:Bo9 av Gudrun Schyman m.fl. (v)
+        </note>
+        <note xml:id="i-GkEc18STT8BQNWdejVmpqY">
+          1995/96:Bo10 av Tuve Skånberg (kds)
+        </note>
+        <note xml:id="i-QknHhmJitAy2JNBta3qnKg">
+          1995/96:Bo11 av Annika Nordgren (mp)
+        </note>
+        <note xml:id="i-6DE1iM4LecWThGpnghxwc4">
+          1995/96:Bo12 av Knut Billing m.fl. (m)
+        </note>
+        <note xml:id="i-AKLPKmRqk6u3zaX1oQscAf">
+          1995/96:Bo13 av Rolf Kenneryd m.fl. (c)
+        </note>
+        <note xml:id="i-5se9gtVURnYNZPt1U8USDR">
+          1995/96:Bo14 av Ingbritt Irhammar (c)
+        </note>
+        <note xml:id="i-KEzQ22faitxvjf8btRitpj">
+          1995/96:Bo15 av Erling Bager och Eva Flyborg (fp)
+        </note>
+        <note xml:id="i-6TdG1biDdWibavQX1GdQgW">
+          1995/96:Bo16 av Per Lager m.fl. (mp)
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-J1PS4bX8FGmSbd3nvVdUAB">
+        <note xml:id="i-YWuDRCcTeR6YcgPPYmmtrx">
+          7 § Kammaren åtskildes kl. 14.02.
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/9B1A2D59-0ADF-4DBA-B6ED-7F85CF368A0F#page=4"/>
+        <note xml:id="i-nAsr6aTprHZvPSz3kiiQj">
+          Förhandlingarna leddes av talmannen.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

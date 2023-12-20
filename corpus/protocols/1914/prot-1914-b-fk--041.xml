@@ -1,333 +1,306 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1910</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.1.0</edition>
-      </editionStmt>
       <publicationStmt>
-        <authority>National Library of Sweden and the WESTAC project</authority>
+        <authority>N/A</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1910</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in input/curation/instances</p>
+          <p>No correction of source texts was performed.</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>N/A</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>No correction of source texts was performed.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1914-b-fk--41</head>
-          <docDate when="1914-07-27">1914-07-27</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection">
-          <pb facs="https://betalab.kb.se/prot-1914-b-fk--41/prot_1914_b_fk__41-000.jp2/_view"/>
-          <note xml:id="i-Mzowfjrzh7Drk7Jv87a3kh">
-            RIKSDAGENS PROTOKOLL.
-          </note>
-          <note xml:id="i-XrpUVu5MNc3i81x2cAuA4T">
-            1914. Första kammaren. Nr 41.
-          </note>
-          <note xml:id="i-CbLdMT9xXBrPQfgEMqyvMt">
-            Måndagen den 27 juli.
-          </note>
-          <note xml:id="i-8Qmtep8eXBbwPrxpKzvHD">
-            Kammaren sammanträdde kl. 3,30 e. m. Justerades protokollet för
-            den 21 denna månad.
-          </note>
-          <note xml:id="i-DaLV7Wvxx87neiQmMoJ3dB">
-            Upplästes och godkändes
-          </note>
-          <note xml:id="i-LvAP6ohg4zGr3H8umkeVfb">
-            jordbruksutskottets förslag till riksdagens skrivelser till Konungen:
-          </note>
-          <note xml:id="i-5myu49fLbWqAy7ud1y81aL">
-            nr 79, i anledning av Kungl. Maj:ts proposition angående upplåtande
-            av vissa områden från förra militiebostället Abyn nr 16 i Gävleborgs
-            län;
-          </note>
-          <note xml:id="i-BERw1m4bGVMuSpnN5DhWY8">
-            nr 80, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av förra militiebostället Ängsholmen nr 1 med Borghaga nr 1 i
-            Stockholms län med visst undantag;
-          </note>
-          <note xml:id="i-A3Gfnk6aKYe6NANJrEVUhD">
-            nr 81,i anledning av Kungl. Maj:ts proposition angående upplåtande
-            av en lägenhet från förra skogvaktarbostället Stora Söderby nr
-            3 i Stockholms län;
-          </note>
-          <note xml:id="i-9EE4ubjNBir5NH6EiB2mLe">
-            nr 82, i anledning av Kungl. Maj:ts proposition angående upplåtande
-            av lägenheter från förra militiebostället Bredevik nr 1 och 2
-            samt Skjunnaryd nr 1 i Jönköpings län;
-          </note>
-          <note xml:id="i-QWdyC9eA9EjaPhH6JPKHGe">
-            nr 83,:i anledning av Kungl. Maj:ts proposition angående upplåtande
-            av lägenheter från förra militiebostället Götestorp nr 1 jämte
-            Götestorp nr 2, en utjord, i Kalmar län;
-          </note>
-          <note xml:id="i-Gze3VyWEx4CKiHfHYUkgRq">
-            nr 84, i anledning av Kungl. Maj:ts proposition angående upplåtande
-            av lägenheter från förra militiebostället Ljung nr 1 i Göteborgs
-            och Bohus län;
-          </note>
-          <note xml:id="i-CTTGKJV6Fr39YuE2nwU3Ce">
-            nr 85,1 anledning av Kungl. Maj:ts proposition angående upplåtande
-            av lägenheter från förra militiebostället Kattarp nr 9 i Malmöhus
-            län;
-          </note>
-          <note xml:id="i-GaWgHioza4rrXqWsZuw1Gs">
-            nr 86, i anledning av Kungl. Maj:ts proposition angående upplåtande
-            av lägenheter från förra häradsskrivarbostället Torpa nr 4 Måns
-            Jonsgården och nr 5 Arvid Snickargården i Skaraborgs län;
-          </note>
-          <note xml:id="i-2Yc5VJ52azR9t9Hz1ieEsJ">
-            nr 87, i anledning av Kungl. Maj:ts proposition angående upplåtande
-            av lägenheter från Hunnelundstorp under Visborgs kungsladugård
-            i Gottlands län;
-          </note>
-          <note xml:id="i-HtmkLRw7MgRDPqsGWyk1vw">
-            Första kammarens protokoll vid senare riksdagen 1914. Nr 41.
-            1
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1914-b-fk--41/prot_1914_b_fk__41-001.jp2/_view"/>
-          <note xml:id="i-2nQwWmxSANMLW6xgApgJda">
-            Nr 41.
-          </note>
-          <note xml:id="i-MrgBQyfL4ihdmXiBPz1vQs">
-            2 Måndagen den 27 juli.
-          </note>
-          <note xml:id="i-UA96um6bvtma3MxxSQC3d8">
-            nr 88,:i anledning av Kungl. Maj:ts proposition angående upplåtande
-            av en lägenhet från förra militiebostället "Tofta nr 1 och 2 Söderoch
-            Västergård i Kronobergs län;
-          </note>
-          <note xml:id="i-LqeVE5byk14ADqoeXUiCvj">
-            nr 89, i anledning av Kungl. Maj:ts proposition angående upplåtande
-            av lägenheter från förra militiebostället Sälshög nr 7, 11 och
-            14 med Sälshög nr 12 i Kristianstads län;
-          </note>
-          <note xml:id="i-MpH7iYvAusd2VkHqqTUpH9">
-            nr 90, i anledning av Kungl. Maj:ts proposition angående upplåtande
-            av en lägenhet från förra militiebostället Väster Bitterna nr
-            2 Kartegården i Skaraborgs län;
-          </note>
-          <note xml:id="i-DNjZh1NAuWyoWeJzDqQPsB">
-            nr 91,:i anledning av Kungl. Maj:ts proposition angående upplåtande
-            av vissa områden från förra militiebostället Long nr 3 Storegård
-            i Skaraborgs län jämte en i ämnet väckt motion;
-          </note>
-          <note xml:id="i-V5EgPStseiDga5iyhp9gfs">
-            nr 92,:i anledning av Kungl. Maj:ts proposition angående försäljning
-            av viss, till statens domäners fond hörande kronoegendom;
-          </note>
-          <note xml:id="i-YPtX7t3WojsxF127BQJuSW">
-            nr 93,:i anledning av Kungl. Maj:ts proposition angående avstående
-            av lägenheten Ljungebo till staden Västervik;
-          </note>
-          <note xml:id="i-YGFnxu8A12PVZnXVxtP5ED">
-            nr 94, i anledning av Kungl. Maj:ts proposition angående överlåtelse
-            till lantförsvaret av viss del av det till förra majorsbostället
-            Gudhem nr 1—9 med Holmäng nr 1 Hulegård i Skaraborgs län hörande
-            utskiftet Helle;
-          </note>
-          <note xml:id="i-PSJQMEthfEjy7zjGNwgLng">
-            nr 95, i anledning av Kungl. Maj:ts proposition angående ålderstillägg
-            åt vissa kronojägare;
-          </note>
-          <note xml:id="i-HK8fuAR75eATb3hhXxAQGP">
-            nr 96, i anledning av Kungl. Maj:ts proposition angående avstående
-            eller upplåtande i vissa fall av mark från kronoegendomar; samt
-          </note>
-          <note xml:id="i-Q1iXxV1yJ6uaHBNp8uVeQ2">
-            nr 97, i anledning av Kungl. Maj:ts proposition angående nybyggnader
-            vid det åt veterinärinrättningen1i Skara anslagna stadshemmanet
-            Brogården m. m.
-          </note>
-          <note xml:id="i-BTicTXYjJXffNQQdJS9Qhr">
-            Vid föredragning av ett från andra kammaren ankommet protokollsutdrag,
-            nr 331, med delgivning av nämnda kammares beslut över dess tredje
-            tillfälliga utskotts utlåtande nr 6, i anledning av väckt motion
-            om skrivelse till Kungl. Maj:t angående ändring i det uti gällande
-            förordning angående eldfarliga oljor m. m. upptagna stadgande
-            om vilka oljor skola räknas tiil eldfarliga, beslöt första kammaren
-            hänvisa detta ärende till sitt tillfälliga utskott nr 2.
-          </note>
-          <note xml:id="i-GCHcvksAnQhsMr4VnXbKrP">
-            Företogs val av sju ledamöter i riksdagens särskilda utskott
-            nr 3. Därvid avlämnades 99 valsedlar, som godkändes och efter
-            partibeteckning ordnades i två särskilda grupper så, att en grupp
-            bildades av 54 valsedlar med överskrift »nationella partiet» och
-            en andra grupp av 45 valsedlar med överskrift »liberala samlingspartiet».
-          </note>
-          <note xml:id="i-5B34yxRD1NducqtbDt4imD">
-            Härpå bestämdes till den utsträckning, som för utseende av föreskrivet
-            antal ledamöter var nödigt, för vardera gruppen ordningen mellan
-            namnen å gruppens valsedlar, och blevo därvid
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1914-b-fk--41/prot_1914_b_fk__41-002.jp2/_view"/>
-          <note xml:id="i-Lre3WXL58E6LyShmeTzAcG">
-            Måndagen den 27 juli. 3 Nr 41.
-          </note>
-          <note xml:id="i-U4g6TVECYmDVU3qs2c79Kb">
-            med iakttagande av härför stadgade grunder namnen uppförda så,
-            som härefteråt sägs:
-          </note>
-          <note xml:id="i-H3Wuzm56ivfgR3AvtTmPDN">
-            För »nationella partiet» uppfördes, såsom nr 1, herr Hammarström,
-          </note>
-          <u xml:id="i-5n4hJM6uWchfNEM3xMhEuQ" who="unknown" next="i-BAvq2tZjC7FQkyk3pqkXuM">
-            <seg xml:id="i-PfU9D4TVjKJoTJoAQEPUEt">
-              » 2, » Fabhlén,
-            </seg>
-          </u>
-          <u xml:id="i-BAvq2tZjC7FQkyk3pqkXuM" who="unknown" prev="i-5n4hJM6uWchfNEM3xMhEuQ" next="i-RLPDeZADbWEpHEmDttzRbE">
-            <seg xml:id="i-SVRgk3qQP6PwA49q7h35iL">
-              » 3, » Svensson, I.,
-            </seg>
-          </u>
-          <u xml:id="i-RLPDeZADbWEpHEmDttzRbE" who="unknown" prev="i-BAvq2tZjC7FQkyk3pqkXuM" next="i-QQS8zcmDcdtinuX6J87yWy">
-            <seg xml:id="i-5Pjbtq4HV8oAZCX2pH5VV6">
-              » 4, » Biörklund,
-            </seg>
-          </u>
-          <note xml:id="i-EXKHNPeCHdaeeYiLGheKgB">
-            vilka namn i denna följd upptagits å gruppens alla valsedlar.
-          </note>
-          <note xml:id="i-9KS1stVBVJ1UpeUaxs7Skq">
-            För »liberala samlingspartiet» uppfördes, såsom nr 1, herr Alexanderson,
-          </note>
-          <u xml:id="i-QQS8zcmDcdtinuX6J87yWy" who="unknown" prev="i-RLPDeZADbWEpHEmDttzRbE" next="i-QwWaEciC4P6GeKHFHUe8xu">
-            <seg xml:id="i-4rgnyHYErdK21hojjdmnWf">
-              » 2, » Steffen,
-            </seg>
-          </u>
-          <note xml:id="i-NvtEeXR8JH15owsEko6PGR">
-            » 3, » Nilson, K. A.,
-          </note>
-          <note xml:id="i-VjJdh6WTTWzmfAiiVVE9Z">
-            vilka namn i denna följd upptagits å gruppens alla valsedlar.
-          </note>
-          <note xml:id="i-MeWDVBSeNwiBGhZrezpWk2">
-            Härefter vidtogs enligt givna bestämmelser fördelningen av platserna
-            mellan de olika valsedelgrupperna, och befunnos därvid nedannämnda
-            personer hava blivit till ledamöter i utskottet valda i följande
-            ordning:
-          </note>
-          <u xml:id="i-QwWaEciC4P6GeKHFHUe8xu" who="unknown" prev="i-QQS8zcmDcdtinuX6J87yWy" next="i-FkS9D6zyv7XxwYRzyvbYMK">
-            <seg xml:id="i-S3h4gZAYKcPASZFVh878Ub">
-              herr Hammarström från »nationella partiet&gt;, &gt; Alexanderson &gt;
-              »liberala samlingspartiet, &gt; Fahlén &gt; nationella partiet», &gt; Steffen
-              &gt;» »iiberala samlingspartiet», &gt; Svensson, I., &gt; nationella partiet»,
-              &gt; Nilson, K. A., &gt; liberala samlingspartiet, &gt; Biörklund &gt; nationella
-              partiet&gt;.
-            </seg>
-          </u>
-          <note xml:id="i-GL1g2t7qBYNSwkpJYzyogV">
-            Föredrogs och hänvisades till konstitutionsutskottet den av herr
-            Ekman, Karl Johan, den 25 innevarande juli väckta, samma dag bordlagda
-            motion nr 94, om ändring av 8 56 regeringsformen.
-          </note>
-          <note xml:id="i-W2V5SLtS9oSd9wy3CJuHtu">
-            Föredrogs och hänvisades till statsutskottet herr Petréns den
-            25 innevarande månad bordlagda motion nr 95, i anledning av Kungl.
-            Maj:ts proposition angående vården av blinda dövstumma och blinda
-            sinresslöa.
-          </note>
-          <note xml:id="i-SJ3kcWuJDG7D1abrptwqsd">
-            Föredrogos, men bordlades ånyo på flera ledamöters begäran bankoutskottets
-            den 25 i denna månad bordlagda utlåtanden nr 12—14.
-          </note>
-          <note xml:id="i-4QgaoFA9CDdUYbWruW3Zp6">
-            Föredrogs bankoutskottets den 25 innevarande juli bordlagda memorial
-            nr 15, med återlämnande av Kungl. Maj:ts proposition nr 247 ang.
-            ändring i och tillägg till gällande grunder för pensionering av
-            flottans befäl och underbefäl med vederlikar.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1914-b-fk--41/prot_1914_b_fk__41-003.jp2/_view"/>
-          <note xml:id="i-CYCFipAtS35P9qeQpU1kYR">
-            Nr 41.
-          </note>
-          <note xml:id="i-7Baihyb7mNMr94nbbi63y4">
-            4 Måndagen den 27 juli.
-          </note>
-          <note xml:id="i-VYLUkmg1FgWQxSbEsEhewj">
-            Med bifall till vad utskottet i detta memorial hemställt beslöt
-            kammaren hänvisa nämnda proposition till första särskilda utskottet.
-          </note>
-          <note xml:id="i-6LTv9SP1SqSiYaxR1XAf7T">
-            Föredrogos, men bordlades ånyo på flera ledamöters begärar följande
-            den 25 innevarande juli bordlagda ärenden, nämligen jordbruksutskottets
-            memorial och utlåtanden ar 66—-86, första särskilda utskottets
-            utlåtanden nr 14—16 ävensom första kammarens andra tillfälliga
-            utskotts utlåtande nr 4.
-          </note>
-          <note xml:id="i-Ndt941zsJNVjZavKC2EcWR">
-            Anmäldes och bordlades
-          </note>
-          <note xml:id="i-5HMri2ejJK72ok8nKpJEYQ">
-            konstitutionsutskottets utlåtande nr 14, i anledning av väckt
-            motion om ändring i regeringsformens '$ 109 och riksdagsordningens
-            $ 5 m. il.; ävensom
-          </note>
-          <note xml:id="i-DYi4BvJNYDuqnRPdzvaxEm">
-            lagutskoitets utlåtande nr 15, i anldning av Kungl. Maj:ts proposition
-            med förslag till lag angående vissa åtgärder mot utbredning av
-            lungsot.
-          </note>
-          <u xml:id="i-FkS9D6zyv7XxwYRzyvbYMK" who="unknown" prev="i-QwWaEciC4P6GeKHFHUe8xu">
-            <seg xml:id="i-F1Ba4mwnVnebr9dU365rEd">
-              Justerades fem protokollsutdrag för denna dag.
-            </seg>
-          </u>
-          <note xml:id="i-914oSWCfDnqxdZEAkNkx3b">
-            Kammarens sammanträde avslutades kl. 3,51 e. m.
-          </note>
-          <note xml:id="i-Q4Ck3Dj36eRe45SkcJc7Wf">
-            In fidem A. v. Krusenstjerna.
-          </note>
-          <note xml:id="i-K1XTYVmjgcjESNEBYDtkM5">
-            Stockholm 1914. Kungl. Boktryckeriet, P. A. Norstedt &amp; Söner.
-            142400
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1914-b-fk--41</head>
+        <docDate when="1914-07-27">1914-07-27</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection">
+        <pb facs="https://betalab.kb.se/prot-1914-b-fk--41/prot_1914_b_fk__41-000.jp2/_view"/>
+        <note xml:id="i-Mzowfjrzh7Drk7Jv87a3kh">
+          RIKSDAGENS PROTOKOLL.
+        </note>
+        <note xml:id="i-XrpUVu5MNc3i81x2cAuA4T">
+          1914. Första kammaren. Nr 41.
+        </note>
+        <note xml:id="i-CbLdMT9xXBrPQfgEMqyvMt">
+          Måndagen den 27 juli.
+        </note>
+        <note xml:id="i-8Qmtep8eXBbwPrxpKzvHD">
+          Kammaren sammanträdde kl. 3,30 e. m. Justerades protokollet för
+          den 21 denna månad.
+        </note>
+        <note xml:id="i-DaLV7Wvxx87neiQmMoJ3dB">
+          Upplästes och godkändes
+        </note>
+        <note xml:id="i-LvAP6ohg4zGr3H8umkeVfb">
+          jordbruksutskottets förslag till riksdagens skrivelser till Konungen:
+        </note>
+        <note xml:id="i-5myu49fLbWqAy7ud1y81aL">
+          nr 79, i anledning av Kungl. Maj:ts proposition angående upplåtande
+          av vissa områden från förra militiebostället Abyn nr 16 i Gävleborgs
+          län;
+        </note>
+        <note xml:id="i-BERw1m4bGVMuSpnN5DhWY8">
+          nr 80, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av förra militiebostället Ängsholmen nr 1 med Borghaga nr 1 i
+          Stockholms län med visst undantag;
+        </note>
+        <note xml:id="i-A3Gfnk6aKYe6NANJrEVUhD">
+          nr 81,i anledning av Kungl. Maj:ts proposition angående upplåtande
+          av en lägenhet från förra skogvaktarbostället Stora Söderby nr
+          3 i Stockholms län;
+        </note>
+        <note xml:id="i-9EE4ubjNBir5NH6EiB2mLe">
+          nr 82, i anledning av Kungl. Maj:ts proposition angående upplåtande
+          av lägenheter från förra militiebostället Bredevik nr 1 och 2
+          samt Skjunnaryd nr 1 i Jönköpings län;
+        </note>
+        <note xml:id="i-QWdyC9eA9EjaPhH6JPKHGe">
+          nr 83,:i anledning av Kungl. Maj:ts proposition angående upplåtande
+          av lägenheter från förra militiebostället Götestorp nr 1 jämte
+          Götestorp nr 2, en utjord, i Kalmar län;
+        </note>
+        <note xml:id="i-Gze3VyWEx4CKiHfHYUkgRq">
+          nr 84, i anledning av Kungl. Maj:ts proposition angående upplåtande
+          av lägenheter från förra militiebostället Ljung nr 1 i Göteborgs
+          och Bohus län;
+        </note>
+        <note xml:id="i-CTTGKJV6Fr39YuE2nwU3Ce">
+          nr 85,1 anledning av Kungl. Maj:ts proposition angående upplåtande
+          av lägenheter från förra militiebostället Kattarp nr 9 i Malmöhus
+          län;
+        </note>
+        <note xml:id="i-GaWgHioza4rrXqWsZuw1Gs">
+          nr 86, i anledning av Kungl. Maj:ts proposition angående upplåtande
+          av lägenheter från förra häradsskrivarbostället Torpa nr 4 Måns
+          Jonsgården och nr 5 Arvid Snickargården i Skaraborgs län;
+        </note>
+        <note xml:id="i-2Yc5VJ52azR9t9Hz1ieEsJ">
+          nr 87, i anledning av Kungl. Maj:ts proposition angående upplåtande
+          av lägenheter från Hunnelundstorp under Visborgs kungsladugård
+          i Gottlands län;
+        </note>
+        <note xml:id="i-HtmkLRw7MgRDPqsGWyk1vw">
+          Första kammarens protokoll vid senare riksdagen 1914. Nr 41.
+          1
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1914-b-fk--41/prot_1914_b_fk__41-001.jp2/_view"/>
+        <note xml:id="i-2nQwWmxSANMLW6xgApgJda">
+          Nr 41.
+        </note>
+        <note xml:id="i-MrgBQyfL4ihdmXiBPz1vQs">
+          2 Måndagen den 27 juli.
+        </note>
+        <note xml:id="i-UA96um6bvtma3MxxSQC3d8">
+          nr 88,:i anledning av Kungl. Maj:ts proposition angående upplåtande
+          av en lägenhet från förra militiebostället "Tofta nr 1 och 2 Söderoch
+          Västergård i Kronobergs län;
+        </note>
+        <note xml:id="i-LqeVE5byk14ADqoeXUiCvj">
+          nr 89, i anledning av Kungl. Maj:ts proposition angående upplåtande
+          av lägenheter från förra militiebostället Sälshög nr 7, 11 och
+          14 med Sälshög nr 12 i Kristianstads län;
+        </note>
+        <note xml:id="i-MpH7iYvAusd2VkHqqTUpH9">
+          nr 90, i anledning av Kungl. Maj:ts proposition angående upplåtande
+          av en lägenhet från förra militiebostället Väster Bitterna nr
+          2 Kartegården i Skaraborgs län;
+        </note>
+        <note xml:id="i-DNjZh1NAuWyoWeJzDqQPsB">
+          nr 91,:i anledning av Kungl. Maj:ts proposition angående upplåtande
+          av vissa områden från förra militiebostället Long nr 3 Storegård
+          i Skaraborgs län jämte en i ämnet väckt motion;
+        </note>
+        <note xml:id="i-V5EgPStseiDga5iyhp9gfs">
+          nr 92,:i anledning av Kungl. Maj:ts proposition angående försäljning
+          av viss, till statens domäners fond hörande kronoegendom;
+        </note>
+        <note xml:id="i-YPtX7t3WojsxF127BQJuSW">
+          nr 93,:i anledning av Kungl. Maj:ts proposition angående avstående
+          av lägenheten Ljungebo till staden Västervik;
+        </note>
+        <note xml:id="i-YGFnxu8A12PVZnXVxtP5ED">
+          nr 94, i anledning av Kungl. Maj:ts proposition angående överlåtelse
+          till lantförsvaret av viss del av det till förra majorsbostället
+          Gudhem nr 1—9 med Holmäng nr 1 Hulegård i Skaraborgs län hörande
+          utskiftet Helle;
+        </note>
+        <note xml:id="i-PSJQMEthfEjy7zjGNwgLng">
+          nr 95, i anledning av Kungl. Maj:ts proposition angående ålderstillägg
+          åt vissa kronojägare;
+        </note>
+        <note xml:id="i-HK8fuAR75eATb3hhXxAQGP">
+          nr 96, i anledning av Kungl. Maj:ts proposition angående avstående
+          eller upplåtande i vissa fall av mark från kronoegendomar; samt
+        </note>
+        <note xml:id="i-Q1iXxV1yJ6uaHBNp8uVeQ2">
+          nr 97, i anledning av Kungl. Maj:ts proposition angående nybyggnader
+          vid det åt veterinärinrättningen1i Skara anslagna stadshemmanet
+          Brogården m. m.
+        </note>
+        <note xml:id="i-BTicTXYjJXffNQQdJS9Qhr">
+          Vid föredragning av ett från andra kammaren ankommet protokollsutdrag,
+          nr 331, med delgivning av nämnda kammares beslut över dess tredje
+          tillfälliga utskotts utlåtande nr 6, i anledning av väckt motion
+          om skrivelse till Kungl. Maj:t angående ändring i det uti gällande
+          förordning angående eldfarliga oljor m. m. upptagna stadgande
+          om vilka oljor skola räknas tiil eldfarliga, beslöt första kammaren
+          hänvisa detta ärende till sitt tillfälliga utskott nr 2.
+        </note>
+        <note xml:id="i-GCHcvksAnQhsMr4VnXbKrP">
+          Företogs val av sju ledamöter i riksdagens särskilda utskott
+          nr 3. Därvid avlämnades 99 valsedlar, som godkändes och efter
+          partibeteckning ordnades i två särskilda grupper så, att en grupp
+          bildades av 54 valsedlar med överskrift »nationella partiet» och
+          en andra grupp av 45 valsedlar med överskrift »liberala samlingspartiet».
+        </note>
+        <note xml:id="i-5B34yxRD1NducqtbDt4imD">
+          Härpå bestämdes till den utsträckning, som för utseende av föreskrivet
+          antal ledamöter var nödigt, för vardera gruppen ordningen mellan
+          namnen å gruppens valsedlar, och blevo därvid
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1914-b-fk--41/prot_1914_b_fk__41-002.jp2/_view"/>
+        <note xml:id="i-Lre3WXL58E6LyShmeTzAcG">
+          Måndagen den 27 juli. 3 Nr 41.
+        </note>
+        <note xml:id="i-U4g6TVECYmDVU3qs2c79Kb">
+          med iakttagande av härför stadgade grunder namnen uppförda så,
+          som härefteråt sägs:
+        </note>
+        <note xml:id="i-H3Wuzm56ivfgR3AvtTmPDN">
+          För »nationella partiet» uppfördes, såsom nr 1, herr Hammarström,
+        </note>
+        <u xml:id="i-5n4hJM6uWchfNEM3xMhEuQ" who="unknown" next="i-BAvq2tZjC7FQkyk3pqkXuM">
+          <seg xml:id="i-PfU9D4TVjKJoTJoAQEPUEt">
+            » 2, » Fabhlén,
+          </seg>
+        </u>
+        <u xml:id="i-BAvq2tZjC7FQkyk3pqkXuM" who="unknown" prev="i-5n4hJM6uWchfNEM3xMhEuQ" next="i-RLPDeZADbWEpHEmDttzRbE">
+          <seg xml:id="i-SVRgk3qQP6PwA49q7h35iL">
+            » 3, » Svensson, I.,
+          </seg>
+        </u>
+        <u xml:id="i-RLPDeZADbWEpHEmDttzRbE" who="unknown" prev="i-BAvq2tZjC7FQkyk3pqkXuM" next="i-QQS8zcmDcdtinuX6J87yWy">
+          <seg xml:id="i-5Pjbtq4HV8oAZCX2pH5VV6">
+            » 4, » Biörklund,
+          </seg>
+        </u>
+        <note xml:id="i-EXKHNPeCHdaeeYiLGheKgB">
+          vilka namn i denna följd upptagits å gruppens alla valsedlar.
+        </note>
+        <note xml:id="i-9KS1stVBVJ1UpeUaxs7Skq">
+          För »liberala samlingspartiet» uppfördes, såsom nr 1, herr Alexanderson,
+        </note>
+        <u xml:id="i-QQS8zcmDcdtinuX6J87yWy" who="unknown" prev="i-RLPDeZADbWEpHEmDttzRbE" next="i-QwWaEciC4P6GeKHFHUe8xu">
+          <seg xml:id="i-4rgnyHYErdK21hojjdmnWf">
+            » 2, » Steffen,
+          </seg>
+        </u>
+        <note xml:id="i-NvtEeXR8JH15owsEko6PGR">
+          » 3, » Nilson, K. A.,
+        </note>
+        <note xml:id="i-VjJdh6WTTWzmfAiiVVE9Z">
+          vilka namn i denna följd upptagits å gruppens alla valsedlar.
+        </note>
+        <note xml:id="i-MeWDVBSeNwiBGhZrezpWk2">
+          Härefter vidtogs enligt givna bestämmelser fördelningen av platserna
+          mellan de olika valsedelgrupperna, och befunnos därvid nedannämnda
+          personer hava blivit till ledamöter i utskottet valda i följande
+          ordning:
+        </note>
+        <u xml:id="i-QwWaEciC4P6GeKHFHUe8xu" who="unknown" prev="i-QQS8zcmDcdtinuX6J87yWy" next="i-FkS9D6zyv7XxwYRzyvbYMK">
+          <seg xml:id="i-S3h4gZAYKcPASZFVh878Ub">
+            herr Hammarström från »nationella partiet&gt;, &gt; Alexanderson &gt;
+            »liberala samlingspartiet, &gt; Fahlén &gt; nationella partiet», &gt; Steffen
+            &gt;» »iiberala samlingspartiet», &gt; Svensson, I., &gt; nationella partiet»,
+            &gt; Nilson, K. A., &gt; liberala samlingspartiet, &gt; Biörklund &gt; nationella
+            partiet&gt;.
+          </seg>
+        </u>
+        <note xml:id="i-GL1g2t7qBYNSwkpJYzyogV">
+          Föredrogs och hänvisades till konstitutionsutskottet den av herr
+          Ekman, Karl Johan, den 25 innevarande juli väckta, samma dag bordlagda
+          motion nr 94, om ändring av 8 56 regeringsformen.
+        </note>
+        <note xml:id="i-W2V5SLtS9oSd9wy3CJuHtu">
+          Föredrogs och hänvisades till statsutskottet herr Petréns den
+          25 innevarande månad bordlagda motion nr 95, i anledning av Kungl.
+          Maj:ts proposition angående vården av blinda dövstumma och blinda
+          sinresslöa.
+        </note>
+        <note xml:id="i-SJ3kcWuJDG7D1abrptwqsd">
+          Föredrogos, men bordlades ånyo på flera ledamöters begäran bankoutskottets
+          den 25 i denna månad bordlagda utlåtanden nr 12—14.
+        </note>
+        <note xml:id="i-4QgaoFA9CDdUYbWruW3Zp6">
+          Föredrogs bankoutskottets den 25 innevarande juli bordlagda memorial
+          nr 15, med återlämnande av Kungl. Maj:ts proposition nr 247 ang.
+          ändring i och tillägg till gällande grunder för pensionering av
+          flottans befäl och underbefäl med vederlikar.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1914-b-fk--41/prot_1914_b_fk__41-003.jp2/_view"/>
+        <note xml:id="i-CYCFipAtS35P9qeQpU1kYR">
+          Nr 41.
+        </note>
+        <note xml:id="i-7Baihyb7mNMr94nbbi63y4">
+          4 Måndagen den 27 juli.
+        </note>
+        <note xml:id="i-VYLUkmg1FgWQxSbEsEhewj">
+          Med bifall till vad utskottet i detta memorial hemställt beslöt
+          kammaren hänvisa nämnda proposition till första särskilda utskottet.
+        </note>
+        <note xml:id="i-6LTv9SP1SqSiYaxR1XAf7T">
+          Föredrogos, men bordlades ånyo på flera ledamöters begärar följande
+          den 25 innevarande juli bordlagda ärenden, nämligen jordbruksutskottets
+          memorial och utlåtanden ar 66—-86, första särskilda utskottets
+          utlåtanden nr 14—16 ävensom första kammarens andra tillfälliga
+          utskotts utlåtande nr 4.
+        </note>
+        <note xml:id="i-Ndt941zsJNVjZavKC2EcWR">
+          Anmäldes och bordlades
+        </note>
+        <note xml:id="i-5HMri2ejJK72ok8nKpJEYQ">
+          konstitutionsutskottets utlåtande nr 14, i anledning av väckt
+          motion om ändring i regeringsformens '$ 109 och riksdagsordningens
+          $ 5 m. il.; ävensom
+        </note>
+        <note xml:id="i-DYi4BvJNYDuqnRPdzvaxEm">
+          lagutskoitets utlåtande nr 15, i anldning av Kungl. Maj:ts proposition
+          med förslag till lag angående vissa åtgärder mot utbredning av
+          lungsot.
+        </note>
+        <u xml:id="i-FkS9D6zyv7XxwYRzyvbYMK" who="unknown" prev="i-QwWaEciC4P6GeKHFHUe8xu">
+          <seg xml:id="i-F1Ba4mwnVnebr9dU365rEd">
+            Justerades fem protokollsutdrag för denna dag.
+          </seg>
+        </u>
+        <note xml:id="i-914oSWCfDnqxdZEAkNkx3b">
+          Kammarens sammanträde avslutades kl. 3,51 e. m.
+        </note>
+        <note xml:id="i-Q4Ck3Dj36eRe45SkcJc7Wf">
+          In fidem A. v. Krusenstjerna.
+        </note>
+        <note xml:id="i-K1XTYVmjgcjESNEBYDtkM5">
+          Stockholm 1914. Kungl. Boktryckeriet, P. A. Norstedt &amp; Söner.
+          142400
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 201112</title>
+        <title>Protokoll</title>
       </titleStmt>
       <editionStmt>
         <edition>0.4.2</edition>
@@ -13,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 201112</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -25,107 +25,80 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <editionStmt>
-          <edition>0.4.2</edition>
-        </editionStmt>
-        <publicationStmt>
-          <authority>National Library of Sweden and the WESTAC project</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some data curation was done. It is documented in input/curation/instances</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-201112--7</head>
-          <docDate when="2011-09-23">2011-09-23</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection" xml:id="i-Tp8jdk75jEopyqswrrAmFD">
-          <pb facs="http://data.riksdagen.se/fil/7401A17B-E2E9-40B4-BA7E-2C866D9A8BA8#page=1"/>
-          <note xml:id="i-M3tKR38AMTWPq6vMYT5uLk">
-            Riksdagens protokoll
-          </note>
-          <note xml:id="i-JMFV8vNkjHQqrK5CfTRaNZ">
-            2011/12:7
-          </note>
-          <note xml:id="i-A4icR7TLrtjAUg4UJWhSTK">
-            Fredagen den 23 september
-          </note>
-          <note xml:id="i-7ySUoTxp8PvJc2mfi99pTe">
-            Kl. 11:00 - 11:01
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-EiHn3uQXWHcUdAUewkseox">
-          <note xml:id="i-R9SUT3aeUnNECFcPRFGhYB">
-            1 § Hänvisning av ärenden till utskott
-          </note>
-          <note xml:id="i-4c7zQY8A1GPQCEMHgX3LgN">
-            Föredrogs och hänvisades
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-HEbxRicQ4X2EE1ZBmDRAPU">
-          <note xml:id="i-SgdE3THTHFq32TzdSmD4QT">
-            2 § Bordläggning
-          </note>
-          <note xml:id="i-YFiV4XgbiJKP8SPLh5qfvT">
-            Anmäldes och bordlades
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-9dbHk86rcZ3qUaXPHxkNwm">
-          <note xml:id="i-444zjR1pwzavn7ohKJjkg3">
-            3 § Anmälan om skriftliga svar på frågor
-          </note>
-          <note xml:id="i-LEaRaBir8frap7drdJZNCT">
-            Anmäldes att skriftliga svar på följande frågor inkommit
-          </note>
-          <note xml:id="i-N4nkAB7HnnXXgLVmEbu2zc">
-            den 22 september
-          </note>
-          <note xml:id="i-35wyBw5w5UdRpwiEdhhewP">
-            Roger Haddad
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/7401A17B-E2E9-40B4-BA7E-2C866D9A8BA8#page=2"/>
-          <note xml:id="i-EZhhbsikBp43QEVroi5w2g">
-            Lena Olsson
-          </note>
-          <u xml:id="i-Y9nAKfHzcsCXMZPvQSaKxM" who="unknown">
-            <seg xml:id="i-WTi5M7z71tcsjBuxRaCPvA">
-              Svaren redovisas i bilaga som fogats till riksdagens snabbprotokoll
-              tisdagen den 27 september.
-            </seg>
-          </u>
-        </div>
-        <div type="commentSection" xml:id="i-Lp8xAx7NzQku1DjVp1qLiF">
-          <note xml:id="i-UqeGanr3N969bPyYdn5B5w">
-            4 § Kammaren åtskildes kl. 11.01.
-          </note>
-          <note xml:id="i-Upt7YJKLv8K7LbhngK8kHP">
-            Förhandlingarna leddes av talmannen.
-          </note>
-          <note xml:id="i-BAkwzZpJc8VSoqBiDeSwks">
-            /Eva-Lena Ekman
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-201112--7</head>
+        <docDate when="2011-09-23">2011-09-23</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-Tp8jdk75jEopyqswrrAmFD">
+        <pb facs="http://data.riksdagen.se/fil/7401A17B-E2E9-40B4-BA7E-2C866D9A8BA8#page=1"/>
+        <note xml:id="i-M3tKR38AMTWPq6vMYT5uLk">
+          Riksdagens protokoll
+        </note>
+        <note xml:id="i-JMFV8vNkjHQqrK5CfTRaNZ">
+          2011/12:7
+        </note>
+        <note xml:id="i-A4icR7TLrtjAUg4UJWhSTK">
+          Fredagen den 23 september
+        </note>
+        <note xml:id="i-7ySUoTxp8PvJc2mfi99pTe">
+          Kl. 11:00 - 11:01
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-EiHn3uQXWHcUdAUewkseox">
+        <note xml:id="i-R9SUT3aeUnNECFcPRFGhYB">
+          1 § Hänvisning av ärenden till utskott
+        </note>
+        <note xml:id="i-4c7zQY8A1GPQCEMHgX3LgN">
+          Föredrogs och hänvisades
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-HEbxRicQ4X2EE1ZBmDRAPU">
+        <note xml:id="i-SgdE3THTHFq32TzdSmD4QT">
+          2 § Bordläggning
+        </note>
+        <note xml:id="i-YFiV4XgbiJKP8SPLh5qfvT">
+          Anmäldes och bordlades
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-9dbHk86rcZ3qUaXPHxkNwm">
+        <note xml:id="i-444zjR1pwzavn7ohKJjkg3">
+          3 § Anmälan om skriftliga svar på frågor
+        </note>
+        <note xml:id="i-LEaRaBir8frap7drdJZNCT">
+          Anmäldes att skriftliga svar på följande frågor inkommit
+        </note>
+        <note xml:id="i-N4nkAB7HnnXXgLVmEbu2zc">
+          den 22 september
+        </note>
+        <note xml:id="i-35wyBw5w5UdRpwiEdhhewP">
+          Roger Haddad
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/7401A17B-E2E9-40B4-BA7E-2C866D9A8BA8#page=2"/>
+        <note xml:id="i-EZhhbsikBp43QEVroi5w2g">
+          Lena Olsson
+        </note>
+        <u xml:id="i-Y9nAKfHzcsCXMZPvQSaKxM" who="unknown">
+          <seg xml:id="i-WTi5M7z71tcsjBuxRaCPvA">
+            Svaren redovisas i bilaga som fogats till riksdagens snabbprotokoll
+            tisdagen den 27 september.
+          </seg>
+        </u>
+      </div>
+      <div type="commentSection" xml:id="i-Lp8xAx7NzQku1DjVp1qLiF">
+        <note xml:id="i-UqeGanr3N969bPyYdn5B5w">
+          4 § Kammaren åtskildes kl. 11.01.
+        </note>
+        <note xml:id="i-Upt7YJKLv8K7LbhngK8kHP">
+          Förhandlingarna leddes av talmannen.
+        </note>
+        <note xml:id="i-BAkwzZpJc8VSoqBiDeSwks">
+          /Eva-Lena Ekman
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

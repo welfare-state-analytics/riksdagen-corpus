@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 201920</title>
+        <title>Protokoll</title>
       </titleStmt>
       <editionStmt>
         <edition>0.4.2</edition>
@@ -13,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 201920</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -25,809 +25,782 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <editionStmt>
-          <edition>0.4.2</edition>
-        </editionStmt>
-        <publicationStmt>
-          <authority>National Library of Sweden and the WESTAC project</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some data curation was done. It is documented in input/curation/instances</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-201920--116</head>
-          <docDate when="2020-05-05">2020-05-05</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection" xml:id="i-HSdkoK5qFVen6ZwJ9bqkDu">
-          <pb facs="http://data.riksdagen.se/fil/5689AD2D-D25B-4B06-8E74-4CB84C5E81CB#page=1"/>
-          <note xml:id="i-Lchmq2VFVAHHXVwaeMxRut">
-            § 1 Justering av protokoll
-          </note>
-          <note xml:id="i-14FTk3gryXiCNAuvyMfwLj">
-            Protokollet för den 14 april justerades.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-KeLVMPYQ9TAtvecwCcR8LT">
-          <note xml:id="i-E1ymuBJkeuY7wFX2cSUxzE">
-            § 2 Meddelande om frågestund
-          </note>
-          <note xml:id="i-CdjkJ6qN3ZzMuZZBjMdJpL">
-            Andre vice talmannen meddelade att frågestund skulle äga rum
-            torsdagen den 7 maj kl. 14.00 .
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-RD2kcyucPervwrYzesFQD2">
-          <note xml:id="i-ST6ScCB72eBz2e8GzMPemi">
-            § 3 Anmälan om faktapromemoria
-          </note>
-          <u xml:id="i-GgtwYsWQH8etAhQiHbXFHc" who="unknown">
-            <seg xml:id="i-XiGsMGntFhqni4V4ngACVK">
-              Andre vice talmannen anmälde att följande faktapromemoria om
-              förslag från Europeiska kommissionen hade kommit in och överlämnats
-              till utskott:
-            </seg>
-          </u>
-          <note xml:id="i-P5LKj3pWbiS6Xc9SxdtMjK">
-            2019/20:FPM34 Förslag till beslut om ianspråktagande av marginalen
-            för oförutsedda utgifter under 2020 för att tillhandahålla krisstöd
-            till medlemsstaterna och ytterligare stärka unionens civilskyddsmekanism/rescEU
-            med anledning av covid-19-utbrottet COM(2020) 172 till finansutskottet
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-UdeZt7pzHDnZDjnWzC7d8T">
-          <note xml:id="i-HMXWX4efzGEtZyG1xPDnjJ">
-            § 4 Ärende för hänvisning till utskott
-          </note>
-          <u xml:id="i-Hf9NfKZJzNxaznqQBSj9at" who="unknown">
-            <seg xml:id="i-4jdEW2S5euwRcnTq66aWAN">
-              Följande dokument hänvisades till utskott:
-            </seg>
-          </u>
-          <note xml:id="i-FuckQjH8kchYtQVuyF8psD">
-            Motion
-          </note>
-          <note xml:id="i-8xru9pWHUuDeGmYKMFYWEW">
-            2019/20:3600 till utrikesutskottet
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-6pL1MHQZZDLQGysHxaVqgg">
-          <note xml:id="i-Gx9xeA6GGNvEnFwukjDPtt">
-            § 5 Ärenden för bordläggning
-          </note>
-          <note xml:id="i-QmSxGr1SYzypV1mDa1nBQU">
-            Följande dokument anmäldes och bordlades:
-          </note>
-          <note xml:id="i-XE16Xcpqx6sfTgjyArdncw">
-            Civilutskottets betänkanden
-          </note>
-          <note xml:id="i-6eHVNMAaiRqdxNDy6U2HYj">
-            2019/20:CU13 Fastighetsrätt
-          </note>
-          <note xml:id="i-NjiHV6VBH82VECY35HhA3L">
-            2019/20:CU10 Bostadspolitik
-          </note>
-          <note xml:id="i-C6eSjqxK3mzdNTa16ghUVg">
-            2019/20:CU16 Planering och byggande
-          </note>
-          <note xml:id="i-3ZE8LrGYNn6gMmG8YHKtBR">
-            2019/20:CU17 Familjerätt
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/5689AD2D-D25B-4B06-8E74-4CB84C5E81CB#page=2"/>
-          <note xml:id="i-KQ5UJ4DUjxhqzeBZQXC4sJ">
-            Miljö- och jordbruksutskottets betänkanden
-          </note>
-          <note xml:id="i-GU26wzF2LygXTXQDETJuo2">
-            2019/20:MJU13 Cirkulär ekonomi
-          </note>
-          <note xml:id="i-NMqorHMDuzGetw9bA9G1tN">
-            2019/20:MJU14 Kemikaliepolitik
-          </note>
-          <note xml:id="i-2yuDsoKuhYXwvLxJinFE4o">
-            Skatteutskottets betänkanden
-          </note>
-          <note xml:id="i-thQM4aApq5mtcTVX71tyn">
-            2019/20:SkU20 Inkomstskatt
-          </note>
-          <note xml:id="i-Ti3G4JYQ8hmsnXa3PeSSSw">
-            2019/20:SkU22 Punktskatt
-          </note>
-        </div>
-        <div type="debateSection" xml:id="i-QNWNBWXyQQeL8i3WucnrVU" subtype="interpellationDebate">
-          <note xml:id="i-WyBkUHdXaJarUkh8eeDqMH">
-            § 6 Svar på interpellation 2019/20:394 om äldreomsorgens beredskap
-            för spridningen av covid-19
-          </note>
-          <note type="speaker" xml:id="i-919hWdNF9S9PyshLrkdoFT">
-            Anf. 1 Socialminister LENA HALLENGREN (S):
-          </note>
-          <u xml:id="i-dd6b1b8f82ea029c-0" next="i-EsmWCskXFRiw8xDEpYcV9y" who="Q3431836">
-            <seg xml:id="i-BeufyxaBNBwVy2ujDBHakw">
-              Fru talman! Ann-Christine From Utterstedt har frågat mig om min
-              uppfattning är att skillnaderna i antal avlidna mellan oss och
-              våra nordiska grannländer beror på att vi har olika sätt att registrera
-              dessa och om vi för någon dialog kring att börja registrera likvärdigt.
-              Ann-Christine From Utterstedt frågar även om vilka åtgärder jag
-              tillsammans med regeringen ämnar vidta för att stoppa spridningen
-              av smitta på äldreboenden och säkerställa att de äldre får den
-              vård de behöver. Vidare frågar hon om jag anser att utbildningsmaterialet
-              om hygien är en tillräcklig åtgärd för att stoppa smittspridningen
-              inom hemtjänsten och om fler åtgärder har förberetts. Slutligen
-              frågar Ann-Christine From Utterstedt om jag uppfattar att antalet
-              intensivvårdsplatser kommer att svara upp mot behovet som kommer
-              att finnas när patienter som är sjuka i covid-19 behöver intensivvård.
-            </seg>
-          </u>
-          <u xml:id="i-EsmWCskXFRiw8xDEpYcV9y" prev="i-dd6b1b8f82ea029c-0" who="Q3431836" next="i-dd6b1b8f82ea029c-1">
-            <seg xml:id="i-GcyFn3YP2fpghvVGCAWnj3">
-              Utbrottet av covid-19 har drabbat hela världen. Enligt den statistik
-              som svenska myndigheter använder var antalet bekräftade smittade
-              i världen den 29 april 3 018 618 personer. Antalet bekräftade
-              döda på grund av covid-19 var då enligt samma statistik 207 973
-              personer.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-1" prev="i-EsmWCskXFRiw8xDEpYcV9y" who="Q3431836" next="i-dd6b1b8f82ea029c-2">
-            <seg xml:id="i-GjCQmzHK4cvmhegMK78qvw">
-              Den här typen av statistik rapporteras in från ansvariga myndigheter
-              i respektive land. Hur länderna väljer att registrera och rapportera
-              skiljer sig dock åt. Det medför att man alltid måste vara mycket
-              försiktig med att dra slutsatser endast utifrån statistiken som
-              sådan. Det vore givetvis positivt ifall alla länders statistik
-              var helt jämförbar. Det pågår också ett långsiktigt arbete för
-              att åstadkomma ökad jämförbarhet mellan länderna inom EU.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-2" prev="i-dd6b1b8f82ea029c-1" who="Q3431836" next="i-dd6b1b8f82ea029c-3">
-            <seg xml:id="i-AJN258NifFbhgM5bfnv5yV">
-              Vad gäller de svenska åtgärderna mot covid-19 syftar de till
-              att minska smittspridningen och ytterst till att skydda riskgrupper,
-              särskilt äldre. Att smittan nu finns på flera äldreboenden i landet
-              är därför mycket oroande. De som bor på äldreboenden är i allmänhet
-              sköra och beroende av personalens vård och omsorg. De kan därmed
-              inte på samma sätt som andra välja att hålla avstånd. Det är därför
-              otroligt viktigt att ansvariga inom äldreomsorgen säkerställer
-              att den personal som är på arbetet är symtomfri och också ser
-              till att det finns fungerande utrustning och rutiner.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-3" prev="i-dd6b1b8f82ea029c-2" who="Q3431836" next="i-dd6b1b8f82ea029c-4">
-            <seg xml:id="i-BPjjDquJc3xoPZMCeAikhK">
-              Regeringen har vidtagit åtgärder för att ge alla incitament till
-              anställda och arbetsgivare att stanna hemma vid minsta symtom
-              . Regeringen har också infört ett nationellt besöksförbud på samtliga
-              landets äldreboenden, vilket syftar till att minska risken för
-              smitta från besökande.
-            </seg>
-          </u>
-          <pb facs="http://data.riksdagen.se/fil/5689AD2D-D25B-4B06-8E74-4CB84C5E81CB#page=3"/>
-          <u xml:id="i-dd6b1b8f82ea029c-4" prev="i-dd6b1b8f82ea029c-3" who="Q3431836" next="i-dd6b1b8f82ea029c-5">
-            <seg xml:id="i-4N6Q6m5Um4jy4BqxWBKrXu">
-              Det stod tidigt klart att regionernas och kommunernas beredskap
-              vad gäller skyddsutrustning inte var långsiktigt uthållig. För
-              att öka tillgången på rätt utrustning krävdes en ökad inhemsk
-              produktion och en statlig funktion för inköp och distribution.
-              Regeringen gav därför Socialstyrelsen den 16 mars i uppdrag att
-              fungera som nationell inköpscentral, och myndigheten har tillsammans
-              med Myndigheten för samhällsskydd och beredskap och länsstyrelserna
-              etablerat en helt ny fungerande struktur.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-5" prev="i-dd6b1b8f82ea029c-4" who="Q3431836" next="i-dd6b1b8f82ea029c-6">
-            <seg xml:id="i-HsTcwFoHnMWyu15MEeZEhg">
-              Även om den inhemska produktionen nu har ökat kvarstår en brist
-              på utrustning, varför detta arbete kommer att behöva fortsätta.
-              Det hänger också ihop med kunskapen om hur utrustningen ska användas.
-              Regeringen uppdrog den 12 mars till Socialstyrelsen att ta fram
-              information om hur personalgrupper ska skydda riskgrupper mot
-              smitta. Utbildningarna bedöms ha fått stor spridning över landet.
-              Över 93 000 personer har registrerat sig, och i mitten av april
-              hade över hälften slutfört utbildningen.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-6" prev="i-dd6b1b8f82ea029c-5" who="Q3431836">
-            <seg xml:id="i-BrMqhmds6xiHHYEuNyW9t4">
-              När det gäller den fjärde och sista frågan har Socialstyrelsen
-              på regeringens uppdrag inrättat en nationell samordning för intensivvården.
-              Den 21 april fanns det intensivvårdsplatser tillgängliga i hela
-              landet, och tack vare vårdpersonalens ansträngningar har det i
-              princip dagligen tillkommit nya platser. Vidare finns tillgänglig
-              transportkapacitet om patienter skulle behöva vårdas i en annan
-              region än sin hemregion.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-EDecRPGoMHfgdTGXcQFVcg">
-            Anf. 2 ANN-CHRISTINE FROM UTTERSTEDT (SD):
-          </note>
-          <u xml:id="i-dd6b1b8f82ea029c-7" next="i-dd6b1b8f82ea029c-8" who="Q71133291">
-            <seg xml:id="i-NeXUgvusWD7gxTY2UAmzfT">
-              Fru talman! Tack, socialministern, för svaret! Jag vet att ministern
-              har mycket arbete i dessa dagar, och jag vill tacka för det stora
-              arbete som ministern gör.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-8" prev="i-dd6b1b8f82ea029c-7" who="Q71133291" next="i-dd6b1b8f82ea029c-9">
-            <seg xml:id="i-AE7HEvg7D4VBufxEATdFT8">
-              När det gäller interpellationen vet vi att det händer mycket
-              varje dag i statistik och annat. Vårt land och världen drabbas
-              mer och mer. I jämförelse med våra nordiska grannländer sticker
-              Sverige verkligen ut i antal smittade och avlidna. Hittills har
-              2 769 personer avlidit i sviterna av covid-19 i Sverige. Detta
-              kan jämföras med rapporterat antal avlidna i Danmark, där siffrorna
-              visar 484 personer. I Norge är det 211 personer som har avlidit
-              och i Finland 230 personer.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-9" prev="i-dd6b1b8f82ea029c-8" who="Q71133291" next="i-dd6b1b8f82ea029c-10">
-            <seg xml:id="i-ALDcQ84szVGvwRUmR2J8qh">
-              Äldreomsorgen halkade redan från början långt efter i hanteringen
-              av covid-19-pandemin då allt fokus initialt lades på sjukvården.
-              Det har inneburit att personal har arbetat helt och hållet utan
-              skydd, och smittan har spridits okontrollerat bland våra äldre,
-              som var de som skulle skyddas från smitta.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-10" prev="i-dd6b1b8f82ea029c-9" who="Q71133291" next="i-dd6b1b8f82ea029c-11">
-            <seg xml:id="i-EFHVB1Rsg3NBoV3EaY5c9p">
-              Äldreforskare är kritiska till att myndigheterna inte tillräckligt
-              snabbt insåg att också äldreomsorgen behövde mer resurser. Samtidigt
-              uppenbaras en myndighetsskandal där SKR har påverkat fyra myndigheter
-              så att kraven på skyddsutrustning från dessa har tonats ned. Det
-              är som att spela rysk roulett med människors liv. Det är under
-              all kritik.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-11" prev="i-dd6b1b8f82ea029c-10" who="Q71133291" next="i-dd6b1b8f82ea029c-12">
-            <seg xml:id="i-7EewNknXVxwiHewWuKw19J">
-              Socialministern själv uttrycker dock att de krav som Arbetsmiljöverket
-              ställer är vad som ska gälla. Det är ansvarsfullt men också motsägelsefullt.
-              Myndigheterna och regeringen verkar inte riktigt stå på samma
-              grund. Hallengrens statsminister vill heller inte diskutera vem
-              som bär ansvaret, och när kritik framförs anses att det inte är
-              rätt tid att peka finger åt varandra eller ta några politiska
-              poäng.
-            </seg>
-          </u>
-          <pb facs="http://data.riksdagen.se/fil/5689AD2D-D25B-4B06-8E74-4CB84C5E81CB#page=4"/>
-          <u xml:id="i-dd6b1b8f82ea029c-12" prev="i-dd6b1b8f82ea029c-11" who="Q71133291" next="i-dd6b1b8f82ea029c-13">
-            <seg xml:id="i-DDtCDja1pqgw9e61FvRPdT">
-              Fru talman! I dessa tider är jag inte intresserad av att ta politiska
-              poäng. Jag är intresserad av att så långt det är möjligt begränsa
-              antalet offer som pandemin skördar. Att utkräva ett ansvar när
-              så många människor drabbas av viruset eller avlider är inte att
-              ta politiska poäng eller att peka finger åt någon. Det är att
-              visa respekt för alla närstående som nu har mist en älskad men
-              också för all personal som dagligen kämpar för oss alla – ett
-              stort och varmt hjärta till er alla i all er frustration och sorg!
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-13" prev="i-dd6b1b8f82ea029c-12" who="Q71133291">
-            <seg xml:id="i-7xLkJWkTg4Kr3cgin8U4w2">
-              Fru talman! Hur ska socialministern lyckas begränsa smittspridningen
-              inom äldreomsorgen?
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-HHtZPzUs3C8JXaNxweKe1U">
-            Anf. 3 Socialminister LENA HALLENGREN (S):
-          </note>
-          <u xml:id="i-dd6b1b8f82ea029c-14" next="i-dd6b1b8f82ea029c-15" who="Q3431836">
-            <seg xml:id="i-Hbr9VkrZGK5GRALucvRb96">
-              Fru talman! I mitt formella svar ingick inget tack till Ann-Christine
-              From Utterstedt för frågan, så jag vill rikta ett sådant till
-              henne nu på det här sättet.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-15" prev="i-dd6b1b8f82ea029c-14" who="Q3431836" next="i-dd6b1b8f82ea029c-16">
-            <seg xml:id="i-LVCnycM1Y6p6ueJC3QTYWL">
-              Det finns verkligen anledning att inte bara debattera detta utan
-              också samtala om, resonera och för den delen utkräva ansvar. Jag
-              har naturligtvis ingenting emot det, och jag är alldeles övertygad
-              om att det inte är det som statsministern avser när han säger
-              att man inte ska peka finger. Vi ska naturligtvis verkligen föra
-              upp alla de problem som äldreomsorgen har stått inför under längre
-              tid till ytan.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-16" prev="i-dd6b1b8f82ea029c-15" who="Q3431836" next="i-dd6b1b8f82ea029c-17">
-            <seg xml:id="i-PynwTTmdKGyfkJ6oMtrJ8z">
-              Vi ska också hjälpas åt, och det är väl det som är poängen –
-              väldigt många är väldigt arbetstyngda. Det gäller förstås kommuner
-              och regioner och ledningsfunktionerna där. Under många veckor
-              har man nu varit i olika typer av stabslägen och krisfunktioner
-              för att se till att man på allra bästa sätt minskar smittans spridning
-              i samhället generellt och naturligtvis gentemot de grupper som
-              vi vet löper störst risk att få allvarliga symtom.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-17" prev="i-dd6b1b8f82ea029c-16" who="Q3431836" next="i-dd6b1b8f82ea029c-18">
-            <seg xml:id="i-5KJ62pbTUqU4YYU2eT8tnJ">
-              Ingen i de här funktionerna gör annat, skulle jag säga, än att
-              ägna sina vakna timmar åt att minska effekterna av ett virus som
-              vi har känt under ett fåtal månader. Vi lär oss hela tiden mer.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-18" prev="i-dd6b1b8f82ea029c-17" who="Q3431836" next="i-dd6b1b8f82ea029c-19">
-            <seg xml:id="i-6pEJ6gftBHk7bsPo6F56rf">
-              Ansvarsutkrävande, som jag tror någon gång kommer att vara mer
-              samlat, när det gäller hur Sverige som land, olika myndigheter,
-              aktörer och politiker och andra funktioner valde att arbeta är
-              en sak. Att hela tiden agera på den kunskap man har är inte enkelt.
-              Men det är vårt gemensamma uppdrag.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-19" prev="i-dd6b1b8f82ea029c-18" who="Q3431836" next="i-dd6b1b8f82ea029c-20">
-            <seg xml:id="i-WEjSMDZisEpnuPwwARpCpP">
-              Det är klart att man kan göra en viss jämförelse mellan länder.
-              Utan tvekan ser situationen på svenska äldreboenden annorlunda
-              ut än den gör på äldreboenden i Norge. Men man får också bestämma
-              sig för vilket land man jämför med, varför och i vilket läge.
-              Det finns olika faser när det gäller den här sjukdomen. Många
-              länder har haft så kallade lockdowns. De ser lite olika ut, men
-              länderna har varit mer eller mindre nedstängda. Det återstår att
-              se vad som händer när de nu på alla möjliga sätt försöker lätta
-              på sina restriktioner, eftersom människor inte under överskådlig
-              tid kan leva isolerade, avskurna, utan att gå till arbete och
-              skola och så vidare. Jag önskar inget annat än att det ska fungera
-              och att de kan hålla smittspridningen nere.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-20" prev="i-dd6b1b8f82ea029c-19" who="Q3431836" next="i-dd6b1b8f82ea029c-21">
-            <seg xml:id="i-2GHMc8iw2kHcCDkk19cMt6">
-              Som Anders Tegnell har sagt i många sammanhang – jag tror faktiskt
-              att samtliga smittskyddsexperter håller med – försvinner inte
-              viruset från vårt samhälle de närmaste veckorna, utan vi får leva
-              med det. Då har vi i den svenska strategin valt åtgärder som vi
-              tror är hållbara över tid och som människor kan hålla i. Jag tror
-              att det är för tidigt att säga vem som egentligen har valt rätt
-              förhållningssätt.
-            </seg>
-          </u>
-          <pb facs="http://data.riksdagen.se/fil/5689AD2D-D25B-4B06-8E74-4CB84C5E81CB#page=5"/>
-          <u xml:id="i-dd6b1b8f82ea029c-21" prev="i-dd6b1b8f82ea029c-20" who="Q3431836" next="i-dd6b1b8f82ea029c-22">
-            <seg xml:id="i-8d8bgNi6D8NsgzWoJJF4ER">
-              Det finns dock anledning att verkligen fundera över hur situationen
-              kan bli annorlunda i äldreomsorgen. Eftersom pandemin inte är
-              över finns det alla skäl att göra annorlunda framöver, inte minst
-              i alla de regioner och kommuner som hittills har ganska liten
-              smittspridning.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-22" prev="i-dd6b1b8f82ea029c-21" who="Q3431836" next="i-dd6b1b8f82ea029c-23">
-            <seg xml:id="i-RDVy4yURLVHx2Cj41oqTqh">
-              Jag är övertygad om att man varje gång man hamnar i ett läge
-              där man kan prioritera välfärd före annat ska prioritera välfärden.
-              Och när man prioriterar välfärden måste äldreomsorgen komma högre
-              upp på listan över olika välfärdsinsatser.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-23" prev="i-dd6b1b8f82ea029c-22" who="Q3431836" next="i-dd6b1b8f82ea029c-24">
-            <seg xml:id="i-R9zt1W4Dm1bX4tiYspnnsE">
-              Jag tror att det är 135 000 män och i huvudsak kvinnor som arbetar
-              som undersköterskor och vårdbiträden inom vård och omsorg. Det
-              är en kategori som drar ett enormt lass. Och det gör de under
-              förutsättningar som jag tycker att vi ska reflektera över, också
-              när det inte är pandemi och kristid. Det handlar om timanställningar,
-              löner, förutsättningar, villkor och många gånger för låg eller
-              kanske bristfällig vårdutbildning. Om man i grund och botten saknar
-              den vårdutbildning som krävs och utbildning i de hygienkrav och
-              rutiner som borde gälla i verksamheten blir det såklart extra
-              ansträngande i de här situationerna.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-24" prev="i-dd6b1b8f82ea029c-23" who="Q3431836">
-            <seg xml:id="i-WdZbfeaLkJBp2GfUJAyQcq">
-              Att utkräva ansvar ska naturligtvis göras på många olika sätt.
-              Men jag tror inte att det just nu tjänar någon att säga vems fel
-              det var att beredskapslagren inte räckte till. Den diskussionen
-              återkommer jag gärna till.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-GxQmXoMNbYtcmZdPBxDx55">
-            Anf. 4 ANN-CHRISTINE FROM UTTERSTEDT (SD):
-          </note>
-          <u xml:id="i-dd6b1b8f82ea029c-25" next="i-dd6b1b8f82ea029c-26" who="Q71133291">
-            <seg xml:id="i-EdYKKhsqynvt5DZBpSwuQh">
-              Fru talman! Personal ska hålla en god basal hygien, och arbetsgivaren
-              ska säkerställa att medarbetarna följer riktlinjerna på den aktuella
-              arbetsplatsen. Det finns dock stora problem för personal inom
-              hemtjänsten när det gäller att ens ha möjlighet eller kunskap
-              för att hålla en fullgod handhygien mellan besöken. För att åtgärda
-              detta har Socialstyrelsen tillhandahållit utbildningar om basala
-              hygienrutiner, exempelvis handtvätt och användande av skyddsmaterial.
-              Det lär vara välbehövligt eftersom många anställda inom äldreomsorgen,
-              precis som ministern själv var inne på, helt saknar adekvat utbildning.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-26" prev="i-dd6b1b8f82ea029c-25" who="Q71133291" next="i-3Dx72uPeUWYTHCLBVRS4xT">
-            <seg xml:id="i-PWHUdosYtDxR6Y7Y8Uj1Cu">
-              Regioner och kommuner hålls av regeringen ansvariga för att beredskapen
-              på det lokala planet inte har varit tillräcklig. Samtidigt har
-              det nationella planet nedrustat både försvar och övrig beredskap.
-              Skyddsmasker och fältsjukhus har kasserats, och antalet intensivvårdsplatser
-              har kraftigt minskats. Vi hade vid pandemins början 526 disponibla
-              intensivvårdsplatser. Det är lite i normala fall; under en pandemi
-              är det givetvis en stor katastrof.
-            </seg>
-          </u>
-          <u xml:id="i-3Dx72uPeUWYTHCLBVRS4xT" prev="i-dd6b1b8f82ea029c-26" who="Q71133291" next="i-dd6b1b8f82ea029c-27">
-            <seg xml:id="i-DtjTyfZ6s4eevpJgQ9mPdo">
-              År 1993 fanns totalt 4 300 respiratorer i Sverige, varav 900
-              inom militären och 2 100 extra i förråd. 25 år senare, år 2018,
-              var de bara ca 570 stycken, varav 40 inom militären och noll i
-              förråden. Regeringen har alltså också ett stort ansvar för att
-              beredskapen är undermålig.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-27" prev="i-3Dx72uPeUWYTHCLBVRS4xT" who="Q71133291" next="i-dd6b1b8f82ea029c-28">
-            <seg xml:id="i-MQMU6ETAw5RnDb4yFqYobr">
-              Sist jag stod här i talarstolen var precis i början av pandemin,
-              och jag hoppades och bad att vi inte skulle behöva drabbas så
-              hårt av covid-19. Tyvärr blev det inte så. Den 15 april uppmärksammade
-              jag för första gången socialutskottsmötet, där socialministern
-              deltog, på att statistiken då visade att det var fler som avled
-              än som intensivvårdades. Äldre avlider alltså i sina hem utan
-              intensivvård och utan syrgas. Personal vittnar om äldre som av
-              viruset kvävts till döds i sin ensamhet. Det är helt oacceptabelt.
-            </seg>
-          </u>
-          <pb facs="http://data.riksdagen.se/fil/5689AD2D-D25B-4B06-8E74-4CB84C5E81CB#page=6"/>
-          <u xml:id="i-dd6b1b8f82ea029c-28" prev="i-dd6b1b8f82ea029c-27" who="Q71133291" next="i-dd6b1b8f82ea029c-29">
-            <seg xml:id="i-Cc8u48P2XZYkftKJvdeJSV">
-              Flera boenden och Akademiska sjukhuset har hittills belagts med
-              skyddsstopp för att skyddsmaterialet har varit otillfredsställande
-              eller helt saknats. Tankarna på Spaniens äldreomsorgspersonal
-              som till slut flydde arbetsplatsen kommer skrämmande nära.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-29" prev="i-dd6b1b8f82ea029c-28" who="Q71133291" next="i-dd6b1b8f82ea029c-30">
-            <seg xml:id="i-5c3695MhmhnHj3icDCNYd2">
-              Socialministern meddelade för snart två veckor sedan att efterfrågad
-              skyddsutrustning tilldelats kommunerna. Trots det larmar personal
-              och närstående om fortsatt brist.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-30" prev="i-dd6b1b8f82ea029c-29" who="Q71133291">
-            <seg xml:id="i-Gp9r6iqZoLbmGUj17Kncdv">
-              Fru talman! Var i systemet fallerar det?
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-GHNz8jia717ALw4zNLN4Xd">
-            Anf. 5 Socialminister LENA HALLENGREN (S):
-          </note>
-          <u xml:id="i-dd6b1b8f82ea029c-31" next="i-dd6b1b8f82ea029c-32" who="Q3431836">
-            <seg xml:id="i-XN1rvr3y41SsDaQh9a85JB">
-              Fru talman! Jag vill gärna ta chansen att på en punkt verkligen
-              motsäga Ann-Christine From Utterstedt. Interpellanten får gärna
-              ägna nästa inlägg åt att förklara vad syftet är. Det är inte så
-              att det finns äldre personer som skulle ha behövt respirator-
-              eller intensivvård men nekats detta av något som helst annat skäl
-              än att den medicinska bedömningen har varit att personen varit
-              för svag och inte haft förutsättningar att klara intensivvård.
-              Det är inte vård man får eller inte får, utan man måste också
-              klara av den. Jag är inte själv intensivvårdande personal på något
-              sätt, men jag känner väl till att det innebär en otrolig belastning
-              på kroppen. Man måste ha en fysisk kondition i grunden som gör
-              att man klarar av – orkar med – intensivvård.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-32" prev="i-dd6b1b8f82ea029c-31" who="Q3431836" next="i-dd6b1b8f82ea029c-33">
-            <seg xml:id="i-Hnb5HEmhf2HT82wkTiQod">
-              Därför är det en felaktig koppling att på något sätt börja beskriva
-              det som att vi inte har den vård som krävs och att människor därför
-              inte skulle få till exempel respirator- eller intensivvård. Jag
-              tycker att det är olyckligt. Det förminskar inte problemet att
-              Sverige har fått en spridning på äldreboenden, men jag tycker
-              att Ann-Christine From Utterstedt gör lite för enkla kopplingar.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-33" prev="i-dd6b1b8f82ea029c-32" who="Q3431836" next="i-dd6b1b8f82ea029c-34">
-            <seg xml:id="i-E5txBFJS27knnUyRrrnpxH">
-              Det finns skyddsutrustning, men vi har inte de mängder vi skulle
-              önska att vi hade. Man kan snegla på Finland om man vill, men
-              någon annan kan man inte snegla på; det finns tyvärr inga länder
-              som har så mycket skyddsutrustning att den kan användas för säkerhets
-              skull, utöver de rekommendationer som finns.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-34" prev="i-dd6b1b8f82ea029c-33" who="Q3431836" next="i-dd6b1b8f82ea029c-35">
-            <seg xml:id="i-9utSTD3fHMpogUJcDBfcRJ">
-              När jag och andra säger att kommunerna i dag får den skyddsutrustning
-              de behöver betyder det att Socialstyrelsen som inköpscentral har
-              en dialog via länsstyrelserna – det blir nämligen ogörligt att
-              ta kontakt med 290 kommuner, och därför går man via länsstyrelserna
-              – för att få lägesbilder av hur det ser ut i kommunerna och kunna
-              tillgodose behoven där, på samma sätt som man gör med hälso- och
-              sjukvården. Man kan då inte skicka materiel för de kommande veckornas
-              behov, utan om det finns en brist som kommunen inte kan tillgodose
-              själv får den det material den behöver från Socialstyrelsen –
-              men för de kommande dagarna. Det är fortsatt där vi är.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-35" prev="i-dd6b1b8f82ea029c-34" who="Q3431836" next="i-dd6b1b8f82ea029c-36">
-            <seg xml:id="i-VTWnKippfYU11EHrxDGUw2">
-              Med fler inköp, med en ökad inhemsk produktion och med en uppskalning
-              av inhemsk produktion – samt nu även med allt fler aktörer på
-              banan som upphandlar skyddsutrustning, inte bara Socialstyrelsen
-              utan även regioner och kommuner – ökar förutsättningarna för att
-              vi får en bättre tillförsel. I kombination med att vi kan stoppa
-              smittans utbredning och hejda att den växer är det klart att utrustningen
-              räcker på ett annat sätt.
-            </seg>
-          </u>
-          <pb facs="http://data.riksdagen.se/fil/5689AD2D-D25B-4B06-8E74-4CB84C5E81CB#page=7"/>
-          <u xml:id="i-dd6b1b8f82ea029c-36" prev="i-dd6b1b8f82ea029c-35" who="Q3431836" next="i-dd6b1b8f82ea029c-37">
-            <seg xml:id="i-XcxhZebgWEE3XCurrMHLfv">
-              Jag tycker också att det är viktigt att säga att det när äldreomsorgen
-              behöver skyddsutrustning är viktigt att vi vet vilken skyddsutrustning
-              som behövs. Jag tror att vi börjar känna till det mycket bättre,
-              men för ett antal veckor eller kanske någon månad sedan fanns
-              det – med all rätt – en väldigt stor oro. Det var ett nytt virus
-              som man skulle möta, och man visste att man mötte riskgrupper,
-              men samtidigt kanske inte alltid kunskapen fanns om vilken utrustning
-              man egentligen skulle ha och när.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-37" prev="i-dd6b1b8f82ea029c-36" who="Q3431836" next="i-dd6b1b8f82ea029c-38">
-            <seg xml:id="i-R4tz3izUFebfS4wtnZFXYj">
-              Man kan inte ha all tänkbar utrustning på sig för säkerhets skull,
-              utan det gäller att ha rätt utrustning vid rätt tillfälle. Det
-              står jag fast vid. Det är också det som Arbetsmiljöverket föreskriver:
-              Vilken utrustning ska användas vid vilket tillfälle? Den arbetsgivare
-              som inte ser till att man har den utrustning som krävs vid varje
-              givet tillfälle bryter mot de principer som finns. Det är ett
-              av arbetsgivarens allra viktigaste uppdrag och ansvar.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-38" prev="i-dd6b1b8f82ea029c-37" who="Q3431836">
-            <seg xml:id="i-QpNvNGsfBDFW8h9UxAgjS7">
-              Man kan ha många diskussioner när det gäller fältsjukhus, beredskapslager
-              och omsättningslager, och det kommer vi väl om inte annat att
-              ha senare. För ett och ett halvt år sedan fick en utredare i uppdrag
-              att titta på hur Sveriges beredskap på hälso- och sjukvårdsområdet
-              skulle kunna se ut. Ett delbetänkande har kommit, och slutbetänkandet
-              kommer inom ett och ett halvt år. Där finns alltså mycket att
-              göra, men varken fältsjukhus eller stora beredskapslager hade
-              förmodligen hjälpt situationen i äldreomsorgen.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-3FEqDoxhsSN8SQHyUitKPV">
-            Anf. 6 ANN-CHRISTINE FROM UTTERSTEDT (SD):
-          </note>
-          <u xml:id="i-dd6b1b8f82ea029c-39" next="i-dd6b1b8f82ea029c-40" who="Q71133291">
-            <seg xml:id="i-RaYMnLhH9wnuEveebhw7yW">
-              Fru talman! Regeringen har satt sin tilltro till EU, vilket inte
-              visat sig särskilt lyckat i det här läget. Flera länder införde
-              exportstopp, exempelvis.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-40" prev="i-dd6b1b8f82ea029c-39" who="Q71133291" next="i-dd6b1b8f82ea029c-41">
-            <seg xml:id="i-9VDbAEYNcNDBmSGNB6iGRo">
-              Sedan pandemin började och bristerna i landets beredskap blev
-              uppenbara har vi främst fokuserat på problemen med avsaknad av
-              skyddsutrustning. Att diskutera detta hjälper dock inte långt
-              om ingen skyddsutrustning finns att tillgå – tyvärr. Vi får därför
-              inte glömma att det finns flera andra viktiga delar som kan åtgärdas
-              för att skyddet inom vård och omsorg ska öka.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-41" prev="i-dd6b1b8f82ea029c-40" who="Q71133291" next="i-dd6b1b8f82ea029c-42">
-            <seg xml:id="i-LedyrjTtaC9fmiNsh3wLkQ">
-              För att minska smittspridningen bör fokus läggas på riktlinjerna
-              för hur patienter och brukare vårdas samt, såklart, på utökad
-              testning. Som det ser ut i dag används ingen skyddsutrustning
-              alls om inte covid-19-smitta misstänks, samtidigt som testning
-              kan visa ett positivt utfall trots att symtom helt saknas. Det
-              innebär att vård- och omsorgspersonal ovetande och helt oskyddad
-              vårdar och har vårdat smittade. Det leder i sin tur till att smittan
-              obehindrat sprids vidare till oskyddade äldre.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-42" prev="i-dd6b1b8f82ea029c-41" who="Q71133291">
-            <seg xml:id="i-WKqafpM1NK4WnhTboSPUym">
-              Fru talman! Regeringen måste nu göra allt för att skydda våra
-              äldre undan pandemins framfart. Vilka ytterligare åtgärder avser
-              regeringen och socialministern att vidta för att lyckas med detta?
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-9AipoRMU583Qf7krWZnXCV">
-            Anf. 7 Socialminister LENA HALLENGREN (S):
-          </note>
-          <u xml:id="i-dd6b1b8f82ea029c-43" next="i-dd6b1b8f82ea029c-44" who="Q3431836">
-            <seg xml:id="i-ERwqbFrayVU273EE8pKHv1">
-              Fru talman! Eftersom detta är det sista inlägget i debatten ska
-              jag inte ställa någon fråga tillbaka, men att man skulle vårda
-              utan någon som helst utrustning innan ett test har gjorts är en
-              uppgift som jag inte känner till. Ann-Christine From Utterstedt
-              har möjligen läst om eller tagit del av den uppgiften någonstans.
-              Jag tror att man ska akta sig för de generella beskrivningarna.
-              Jag säger inte att problem inte finns i verksamheterna, men jag
-              tror att det är viktigt att säga att det inte finns någon sådan
-              generell bild.
-            </seg>
-          </u>
-          <pb facs="http://data.riksdagen.se/fil/5689AD2D-D25B-4B06-8E74-4CB84C5E81CB#page=8"/>
-          <u xml:id="i-dd6b1b8f82ea029c-44" prev="i-dd6b1b8f82ea029c-43" who="Q3431836" next="i-dd6b1b8f82ea029c-45">
-            <seg xml:id="i-Y23UPjoA8wypS22BmKdRiH">
-              Däremot behöver kunskapen öka. Utrustning ska självklart finnas
-              tillgänglig när man behöver den, men jag tror att det är viktigt
-              att säga att de timanställningar vi ser behöver övergå i fler
-              fasta anställningar. Det handlar om att människor inte ska gå
-              till arbetet om de har minsta symtom, vilket är något vi i analysen
-              av både Sörmland och Stockholm har kunnat ana är en av faktorerna.
-              Det är människor som har timanställningar och inte omfattas av
-              samma trygghetssystem som andra. Det är skälet till att jag själv
-              och inte minst det parti jag företräder under mycket lång tid
-              har förespråkat att människor ska ha trygga anställningar, så
-              att de omfattas av de trygghetssystem som finns.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-45" prev="i-dd6b1b8f82ea029c-44" who="Q3431836" next="i-dd6b1b8f82ea029c-46">
-            <seg xml:id="i-D9XERPJrg9xnvwTCZ718CM">
-              Det är dock inte bara det att människor ska känna trygghet, utan
-              den som är timanställd är dessutom hela tiden på nya ställen.
-              Man behöver ha en fast punkt i verksamheten, inte minst i dessa
-              tider, så att man känner till de specifika riktlinjer och rekommendationer
-              som gäller just där. Jag har kunnat notera att Södertälje och
-              Uppsala är två kommuner som nu har gått före och sett till att
-              fastanställa sina timvikarier för att ge dem bättre förutsättningar.
-            </seg>
-          </u>
-          <u xml:id="i-dd6b1b8f82ea029c-46" prev="i-dd6b1b8f82ea029c-45" who="Q3431836">
-            <seg xml:id="i-ASxdWSAExHYcGFK6Exj2dC">
-              Jag vet inte var påståendet att regeringen sätter all sin tilltro
-              till EU kommer ifrån. Det är väl utmärkt om vi är med i de upphandlingar
-              som finns även där, men det är sannerligen inte dit vi sätter
-              vår tilltro – det är ju därför Socialstyrelsen sedan den 16 mars
-              har i uppdrag att agera nationell inköpscentral. Det är därför
-              så mycket ansträngningar görs för att öka den egna produktionen,
-              och det är därför vi försöker koppla samman aktörer och näringsidkare
-              för att se till att man kan skala upp eller ställa om produktion
-              för att kunna möta de växande behov vi ser. Vi kommer att behöva
-              skyddsutrustning under lång tid framöver, oavsett hur länge pandemin
-              håller på.
-            </seg>
-          </u>
-          <note xml:id="i-2aTaNR3urBoKACN9T9AhBv">
-            Interpellationsdebatten var härmed avslutad.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-QTtRYxkVowGan6GsuyVcWR">
-          <note xml:id="i-XRQW5BVRyQB5WMemv4omzB">
-            § 7 Bordläggning
-          </note>
-          <note xml:id="i-BFSd1P3Tio2tD8PPJkPxcj">
-            Följande dokument anmäldes och bordlades:
-          </note>
-          <note xml:id="i-3hpQmrAeUMeY5gjwzBPGaZ">
-            EU-dokument
-          </note>
-          <note xml:id="i-15ECRERzbA65uDNFEjphoY">
-            COM(2020) 183 Förslag till rådets förordning om tillfälliga åtgärder
-            avseende hållande av stämmor i europabolag och europeiska kooperativa
-            föreningar
-          </note>
-          <note xml:id="i-AZcbxM6FQV8uWMUKLC7Lh8">
-            Motioner
-          </note>
-          <note xml:id="i-URZY4Cbwzewxzr4zVmMBJb">
-            med anledning av prop. 2019/20:99 Vårändringsbudget för 2020
-          </note>
-          <note xml:id="i-L8jCdcTDvpFPuKD8kSAXNR">
-            2019/20:3606 av Elisabeth Svantesson m.fl. (M)
-          </note>
-          <note xml:id="i-3KLBPTec2X5ZYD43LpZ5JS">
-            med anledning av prop. 2019/20:100 2020 års ekonomiska vårproposition
-          </note>
-          <note xml:id="i-Sv4ATZYBgZYT7ZkWzihUBV">
-            2019/20:3601 av Amineh Kakabaveh (-)
-          </note>
-          <note xml:id="i-FhfkWGNBZyRZAdTp9LQrVr">
-            2019/20:3602 av Ulf Kristersson m.fl. (M)
-          </note>
-          <note xml:id="i-KCg3bThdybAAyDM63BAxjA">
-            2019/20:3603 av Jimmie Åkesson m.fl. (SD)
-          </note>
-          <note xml:id="i-WrD7XvT8Lap5D1jFwgYXHV">
-            2019/20:3604 av Ebba Busch m.fl. (KD)
-          </note>
-          <note xml:id="i-U7pAGHVstii51CRrYbc5X2">
-            2019/20:3605 av Jonas Sjöstedt m.fl. (V)
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-CkavUDgLav3MUbXdxJUsix">
-          <note xml:id="i-QPZsKpYqDEhsnzJ7ioKiSb">
-            § 8 Kammaren åtskildes kl. 13 . 24 .
-          </note>
-          <note xml:id="i-JKeGVjx6oc3QVXn4txEoLG">
-            Sammanträdet leddes av andre vice talmannen .
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/5689AD2D-D25B-4B06-8E74-4CB84C5E81CB#page=9"/>
-          <note xml:id="i-JSzJ9vVB3cCZYJYgBnq7M2">
-            Vid protokollet
-          </note>
-          <note xml:id="i-VGt99JyEeiY6xiPv9nFiPd">
-            ANN LARSSON
-          </note>
-          <note xml:id="i-Pt25U9Zroiv7y7XRwZAd3r">
-            /Olof Pilo
-          </note>
-        </div>
-        <div xml:id="i-34DUTAB8cShCVSVYtfqH3R" type="commentSection" subtype="tableOfContents">
-          <pb facs="http://data.riksdagen.se/fil/5689AD2D-D25B-4B06-8E74-4CB84C5E81CB#page=10"/>
-          <note xml:id="i-JsLmMBCd9DnddfbnTTWnET">
-            Innehållsförteckning
-          </note>
-          <note xml:id="i-Jfc4c2XpzzLWrXs5Bvd7F2">
-            § 1 Justering av protokoll
-          </note>
-          <note xml:id="i-AHRpnWM78iKiG3wE5MkZUk">
-            § 2 Meddelande om frågestund
-          </note>
-          <note xml:id="i-61FmAyd9cdynmneXCck2dH">
-            § 3 Anmälan om faktapromemoria
-          </note>
-          <note xml:id="i-Gu6j8ci6HRQCdAMi8jLtnQ">
-            § 4 Ärende för hänvisning till utskott
-          </note>
-          <note xml:id="i-KMcsUM5Det5Sy3bFPrErwa">
-            § 5 Ärenden för bordläggning
-          </note>
-          <note xml:id="i-GUqDq3UYaYfMeAnenCQD9t">
-            § 6 Svar på interpellation 2019/20:394 om äldreomsorgens beredskap
-            för spridningen av covid-19
-          </note>
-          <note xml:id="i-8RLNzF6iJyXEokb3eEsHWX">
-            Anf. 1 Socialminister LENA HALLENGREN (S)
-          </note>
-          <note xml:id="i-U89gUZnNiJmtXALeQCPhYd">
-            Anf. 2 ANN-CHRISTINE FROM UTTERSTEDT (SD)
-          </note>
-          <note xml:id="i-JyTSZRM7wzczF7r6W2TAr5">
-            Anf. 3 Socialminister LENA HALLENGREN (S)
-          </note>
-          <note xml:id="i-3d14vrCYQBd8hgc1CpRf2Y">
-            Anf. 4 ANN-CHRISTINE FROM UTTERSTEDT (SD)
-          </note>
-          <note xml:id="i-TMU67c9s6poC8Xo91B9ZxZ">
-            Anf. 5 Socialminister LENA HALLENGREN (S)
-          </note>
-          <note xml:id="i-HPKjrworwgjGwAg7zR7JCQ">
-            Anf. 6 ANN-CHRISTINE FROM UTTERSTEDT (SD)
-          </note>
-          <note xml:id="i-J5Z9K4TkfbiPbij9u6VrKB">
-            Anf. 7 Socialminister LENA HALLENGREN (S)
-          </note>
-          <note xml:id="i-27jYb4xJNVGvfjdswW4CZG">
-            § 7 Bordläggning
-          </note>
-          <note xml:id="i-9cXwBrmqUgkkz5Y9ksJwjZ">
-            § 8 Kammaren åtskildes kl. 13.24.
-          </note>
-          <note xml:id="i-QPjcScQuqar4P22iuvMvjn">
-            Tryck: Elanders Sverige AB, Vällingby 2020
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-201920--116</head>
+        <docDate when="2020-05-05">2020-05-05</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-HSdkoK5qFVen6ZwJ9bqkDu">
+        <pb facs="http://data.riksdagen.se/fil/5689AD2D-D25B-4B06-8E74-4CB84C5E81CB#page=1"/>
+        <note xml:id="i-Lchmq2VFVAHHXVwaeMxRut">
+          § 1 Justering av protokoll
+        </note>
+        <note xml:id="i-14FTk3gryXiCNAuvyMfwLj">
+          Protokollet för den 14 april justerades.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-KeLVMPYQ9TAtvecwCcR8LT">
+        <note xml:id="i-E1ymuBJkeuY7wFX2cSUxzE">
+          § 2 Meddelande om frågestund
+        </note>
+        <note xml:id="i-CdjkJ6qN3ZzMuZZBjMdJpL">
+          Andre vice talmannen meddelade att frågestund skulle äga rum
+          torsdagen den 7 maj kl. 14.00 .
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-RD2kcyucPervwrYzesFQD2">
+        <note xml:id="i-ST6ScCB72eBz2e8GzMPemi">
+          § 3 Anmälan om faktapromemoria
+        </note>
+        <u xml:id="i-GgtwYsWQH8etAhQiHbXFHc" who="unknown">
+          <seg xml:id="i-XiGsMGntFhqni4V4ngACVK">
+            Andre vice talmannen anmälde att följande faktapromemoria om
+            förslag från Europeiska kommissionen hade kommit in och överlämnats
+            till utskott:
+          </seg>
+        </u>
+        <note xml:id="i-P5LKj3pWbiS6Xc9SxdtMjK">
+          2019/20:FPM34 Förslag till beslut om ianspråktagande av marginalen
+          för oförutsedda utgifter under 2020 för att tillhandahålla krisstöd
+          till medlemsstaterna och ytterligare stärka unionens civilskyddsmekanism/rescEU
+          med anledning av covid-19-utbrottet COM(2020) 172 till finansutskottet
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-UdeZt7pzHDnZDjnWzC7d8T">
+        <note xml:id="i-HMXWX4efzGEtZyG1xPDnjJ">
+          § 4 Ärende för hänvisning till utskott
+        </note>
+        <u xml:id="i-Hf9NfKZJzNxaznqQBSj9at" who="unknown">
+          <seg xml:id="i-4jdEW2S5euwRcnTq66aWAN">
+            Följande dokument hänvisades till utskott:
+          </seg>
+        </u>
+        <note xml:id="i-FuckQjH8kchYtQVuyF8psD">
+          Motion
+        </note>
+        <note xml:id="i-8xru9pWHUuDeGmYKMFYWEW">
+          2019/20:3600 till utrikesutskottet
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-6pL1MHQZZDLQGysHxaVqgg">
+        <note xml:id="i-Gx9xeA6GGNvEnFwukjDPtt">
+          § 5 Ärenden för bordläggning
+        </note>
+        <note xml:id="i-QmSxGr1SYzypV1mDa1nBQU">
+          Följande dokument anmäldes och bordlades:
+        </note>
+        <note xml:id="i-XE16Xcpqx6sfTgjyArdncw">
+          Civilutskottets betänkanden
+        </note>
+        <note xml:id="i-6eHVNMAaiRqdxNDy6U2HYj">
+          2019/20:CU13 Fastighetsrätt
+        </note>
+        <note xml:id="i-NjiHV6VBH82VECY35HhA3L">
+          2019/20:CU10 Bostadspolitik
+        </note>
+        <note xml:id="i-C6eSjqxK3mzdNTa16ghUVg">
+          2019/20:CU16 Planering och byggande
+        </note>
+        <note xml:id="i-3ZE8LrGYNn6gMmG8YHKtBR">
+          2019/20:CU17 Familjerätt
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/5689AD2D-D25B-4B06-8E74-4CB84C5E81CB#page=2"/>
+        <note xml:id="i-KQ5UJ4DUjxhqzeBZQXC4sJ">
+          Miljö- och jordbruksutskottets betänkanden
+        </note>
+        <note xml:id="i-GU26wzF2LygXTXQDETJuo2">
+          2019/20:MJU13 Cirkulär ekonomi
+        </note>
+        <note xml:id="i-NMqorHMDuzGetw9bA9G1tN">
+          2019/20:MJU14 Kemikaliepolitik
+        </note>
+        <note xml:id="i-2yuDsoKuhYXwvLxJinFE4o">
+          Skatteutskottets betänkanden
+        </note>
+        <note xml:id="i-thQM4aApq5mtcTVX71tyn">
+          2019/20:SkU20 Inkomstskatt
+        </note>
+        <note xml:id="i-Ti3G4JYQ8hmsnXa3PeSSSw">
+          2019/20:SkU22 Punktskatt
+        </note>
+      </div>
+      <div type="debateSection" xml:id="i-QNWNBWXyQQeL8i3WucnrVU" subtype="interpellationDebate">
+        <note xml:id="i-WyBkUHdXaJarUkh8eeDqMH">
+          § 6 Svar på interpellation 2019/20:394 om äldreomsorgens beredskap
+          för spridningen av covid-19
+        </note>
+        <note type="speaker" xml:id="i-919hWdNF9S9PyshLrkdoFT">
+          Anf. 1 Socialminister LENA HALLENGREN (S):
+        </note>
+        <u xml:id="i-dd6b1b8f82ea029c-0" next="i-EsmWCskXFRiw8xDEpYcV9y" who="Q3431836">
+          <seg xml:id="i-BeufyxaBNBwVy2ujDBHakw">
+            Fru talman! Ann-Christine From Utterstedt har frågat mig om min
+            uppfattning är att skillnaderna i antal avlidna mellan oss och
+            våra nordiska grannländer beror på att vi har olika sätt att registrera
+            dessa och om vi för någon dialog kring att börja registrera likvärdigt.
+            Ann-Christine From Utterstedt frågar även om vilka åtgärder jag
+            tillsammans med regeringen ämnar vidta för att stoppa spridningen
+            av smitta på äldreboenden och säkerställa att de äldre får den
+            vård de behöver. Vidare frågar hon om jag anser att utbildningsmaterialet
+            om hygien är en tillräcklig åtgärd för att stoppa smittspridningen
+            inom hemtjänsten och om fler åtgärder har förberetts. Slutligen
+            frågar Ann-Christine From Utterstedt om jag uppfattar att antalet
+            intensivvårdsplatser kommer att svara upp mot behovet som kommer
+            att finnas när patienter som är sjuka i covid-19 behöver intensivvård.
+          </seg>
+        </u>
+        <u xml:id="i-EsmWCskXFRiw8xDEpYcV9y" prev="i-dd6b1b8f82ea029c-0" who="Q3431836" next="i-dd6b1b8f82ea029c-1">
+          <seg xml:id="i-GcyFn3YP2fpghvVGCAWnj3">
+            Utbrottet av covid-19 har drabbat hela världen. Enligt den statistik
+            som svenska myndigheter använder var antalet bekräftade smittade
+            i världen den 29 april 3 018 618 personer. Antalet bekräftade
+            döda på grund av covid-19 var då enligt samma statistik 207 973
+            personer.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-1" prev="i-EsmWCskXFRiw8xDEpYcV9y" who="Q3431836" next="i-dd6b1b8f82ea029c-2">
+          <seg xml:id="i-GjCQmzHK4cvmhegMK78qvw">
+            Den här typen av statistik rapporteras in från ansvariga myndigheter
+            i respektive land. Hur länderna väljer att registrera och rapportera
+            skiljer sig dock åt. Det medför att man alltid måste vara mycket
+            försiktig med att dra slutsatser endast utifrån statistiken som
+            sådan. Det vore givetvis positivt ifall alla länders statistik
+            var helt jämförbar. Det pågår också ett långsiktigt arbete för
+            att åstadkomma ökad jämförbarhet mellan länderna inom EU.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-2" prev="i-dd6b1b8f82ea029c-1" who="Q3431836" next="i-dd6b1b8f82ea029c-3">
+          <seg xml:id="i-AJN258NifFbhgM5bfnv5yV">
+            Vad gäller de svenska åtgärderna mot covid-19 syftar de till
+            att minska smittspridningen och ytterst till att skydda riskgrupper,
+            särskilt äldre. Att smittan nu finns på flera äldreboenden i landet
+            är därför mycket oroande. De som bor på äldreboenden är i allmänhet
+            sköra och beroende av personalens vård och omsorg. De kan därmed
+            inte på samma sätt som andra välja att hålla avstånd. Det är därför
+            otroligt viktigt att ansvariga inom äldreomsorgen säkerställer
+            att den personal som är på arbetet är symtomfri och också ser
+            till att det finns fungerande utrustning och rutiner.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-3" prev="i-dd6b1b8f82ea029c-2" who="Q3431836" next="i-dd6b1b8f82ea029c-4">
+          <seg xml:id="i-BPjjDquJc3xoPZMCeAikhK">
+            Regeringen har vidtagit åtgärder för att ge alla incitament till
+            anställda och arbetsgivare att stanna hemma vid minsta symtom
+            . Regeringen har också infört ett nationellt besöksförbud på samtliga
+            landets äldreboenden, vilket syftar till att minska risken för
+            smitta från besökande.
+          </seg>
+        </u>
+        <pb facs="http://data.riksdagen.se/fil/5689AD2D-D25B-4B06-8E74-4CB84C5E81CB#page=3"/>
+        <u xml:id="i-dd6b1b8f82ea029c-4" prev="i-dd6b1b8f82ea029c-3" who="Q3431836" next="i-dd6b1b8f82ea029c-5">
+          <seg xml:id="i-4N6Q6m5Um4jy4BqxWBKrXu">
+            Det stod tidigt klart att regionernas och kommunernas beredskap
+            vad gäller skyddsutrustning inte var långsiktigt uthållig. För
+            att öka tillgången på rätt utrustning krävdes en ökad inhemsk
+            produktion och en statlig funktion för inköp och distribution.
+            Regeringen gav därför Socialstyrelsen den 16 mars i uppdrag att
+            fungera som nationell inköpscentral, och myndigheten har tillsammans
+            med Myndigheten för samhällsskydd och beredskap och länsstyrelserna
+            etablerat en helt ny fungerande struktur.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-5" prev="i-dd6b1b8f82ea029c-4" who="Q3431836" next="i-dd6b1b8f82ea029c-6">
+          <seg xml:id="i-HsTcwFoHnMWyu15MEeZEhg">
+            Även om den inhemska produktionen nu har ökat kvarstår en brist
+            på utrustning, varför detta arbete kommer att behöva fortsätta.
+            Det hänger också ihop med kunskapen om hur utrustningen ska användas.
+            Regeringen uppdrog den 12 mars till Socialstyrelsen att ta fram
+            information om hur personalgrupper ska skydda riskgrupper mot
+            smitta. Utbildningarna bedöms ha fått stor spridning över landet.
+            Över 93 000 personer har registrerat sig, och i mitten av april
+            hade över hälften slutfört utbildningen.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-6" prev="i-dd6b1b8f82ea029c-5" who="Q3431836">
+          <seg xml:id="i-BrMqhmds6xiHHYEuNyW9t4">
+            När det gäller den fjärde och sista frågan har Socialstyrelsen
+            på regeringens uppdrag inrättat en nationell samordning för intensivvården.
+            Den 21 april fanns det intensivvårdsplatser tillgängliga i hela
+            landet, och tack vare vårdpersonalens ansträngningar har det i
+            princip dagligen tillkommit nya platser. Vidare finns tillgänglig
+            transportkapacitet om patienter skulle behöva vårdas i en annan
+            region än sin hemregion.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-EDecRPGoMHfgdTGXcQFVcg">
+          Anf. 2 ANN-CHRISTINE FROM UTTERSTEDT (SD):
+        </note>
+        <u xml:id="i-dd6b1b8f82ea029c-7" next="i-dd6b1b8f82ea029c-8" who="Q71133291">
+          <seg xml:id="i-NeXUgvusWD7gxTY2UAmzfT">
+            Fru talman! Tack, socialministern, för svaret! Jag vet att ministern
+            har mycket arbete i dessa dagar, och jag vill tacka för det stora
+            arbete som ministern gör.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-8" prev="i-dd6b1b8f82ea029c-7" who="Q71133291" next="i-dd6b1b8f82ea029c-9">
+          <seg xml:id="i-AE7HEvg7D4VBufxEATdFT8">
+            När det gäller interpellationen vet vi att det händer mycket
+            varje dag i statistik och annat. Vårt land och världen drabbas
+            mer och mer. I jämförelse med våra nordiska grannländer sticker
+            Sverige verkligen ut i antal smittade och avlidna. Hittills har
+            2 769 personer avlidit i sviterna av covid-19 i Sverige. Detta
+            kan jämföras med rapporterat antal avlidna i Danmark, där siffrorna
+            visar 484 personer. I Norge är det 211 personer som har avlidit
+            och i Finland 230 personer.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-9" prev="i-dd6b1b8f82ea029c-8" who="Q71133291" next="i-dd6b1b8f82ea029c-10">
+          <seg xml:id="i-ALDcQ84szVGvwRUmR2J8qh">
+            Äldreomsorgen halkade redan från början långt efter i hanteringen
+            av covid-19-pandemin då allt fokus initialt lades på sjukvården.
+            Det har inneburit att personal har arbetat helt och hållet utan
+            skydd, och smittan har spridits okontrollerat bland våra äldre,
+            som var de som skulle skyddas från smitta.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-10" prev="i-dd6b1b8f82ea029c-9" who="Q71133291" next="i-dd6b1b8f82ea029c-11">
+          <seg xml:id="i-EFHVB1Rsg3NBoV3EaY5c9p">
+            Äldreforskare är kritiska till att myndigheterna inte tillräckligt
+            snabbt insåg att också äldreomsorgen behövde mer resurser. Samtidigt
+            uppenbaras en myndighetsskandal där SKR har påverkat fyra myndigheter
+            så att kraven på skyddsutrustning från dessa har tonats ned. Det
+            är som att spela rysk roulett med människors liv. Det är under
+            all kritik.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-11" prev="i-dd6b1b8f82ea029c-10" who="Q71133291" next="i-dd6b1b8f82ea029c-12">
+          <seg xml:id="i-7EewNknXVxwiHewWuKw19J">
+            Socialministern själv uttrycker dock att de krav som Arbetsmiljöverket
+            ställer är vad som ska gälla. Det är ansvarsfullt men också motsägelsefullt.
+            Myndigheterna och regeringen verkar inte riktigt stå på samma
+            grund. Hallengrens statsminister vill heller inte diskutera vem
+            som bär ansvaret, och när kritik framförs anses att det inte är
+            rätt tid att peka finger åt varandra eller ta några politiska
+            poäng.
+          </seg>
+        </u>
+        <pb facs="http://data.riksdagen.se/fil/5689AD2D-D25B-4B06-8E74-4CB84C5E81CB#page=4"/>
+        <u xml:id="i-dd6b1b8f82ea029c-12" prev="i-dd6b1b8f82ea029c-11" who="Q71133291" next="i-dd6b1b8f82ea029c-13">
+          <seg xml:id="i-DDtCDja1pqgw9e61FvRPdT">
+            Fru talman! I dessa tider är jag inte intresserad av att ta politiska
+            poäng. Jag är intresserad av att så långt det är möjligt begränsa
+            antalet offer som pandemin skördar. Att utkräva ett ansvar när
+            så många människor drabbas av viruset eller avlider är inte att
+            ta politiska poäng eller att peka finger åt någon. Det är att
+            visa respekt för alla närstående som nu har mist en älskad men
+            också för all personal som dagligen kämpar för oss alla – ett
+            stort och varmt hjärta till er alla i all er frustration och sorg!
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-13" prev="i-dd6b1b8f82ea029c-12" who="Q71133291">
+          <seg xml:id="i-7xLkJWkTg4Kr3cgin8U4w2">
+            Fru talman! Hur ska socialministern lyckas begränsa smittspridningen
+            inom äldreomsorgen?
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-HHtZPzUs3C8JXaNxweKe1U">
+          Anf. 3 Socialminister LENA HALLENGREN (S):
+        </note>
+        <u xml:id="i-dd6b1b8f82ea029c-14" next="i-dd6b1b8f82ea029c-15" who="Q3431836">
+          <seg xml:id="i-Hbr9VkrZGK5GRALucvRb96">
+            Fru talman! I mitt formella svar ingick inget tack till Ann-Christine
+            From Utterstedt för frågan, så jag vill rikta ett sådant till
+            henne nu på det här sättet.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-15" prev="i-dd6b1b8f82ea029c-14" who="Q3431836" next="i-dd6b1b8f82ea029c-16">
+          <seg xml:id="i-LVCnycM1Y6p6ueJC3QTYWL">
+            Det finns verkligen anledning att inte bara debattera detta utan
+            också samtala om, resonera och för den delen utkräva ansvar. Jag
+            har naturligtvis ingenting emot det, och jag är alldeles övertygad
+            om att det inte är det som statsministern avser när han säger
+            att man inte ska peka finger. Vi ska naturligtvis verkligen föra
+            upp alla de problem som äldreomsorgen har stått inför under längre
+            tid till ytan.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-16" prev="i-dd6b1b8f82ea029c-15" who="Q3431836" next="i-dd6b1b8f82ea029c-17">
+          <seg xml:id="i-PynwTTmdKGyfkJ6oMtrJ8z">
+            Vi ska också hjälpas åt, och det är väl det som är poängen –
+            väldigt många är väldigt arbetstyngda. Det gäller förstås kommuner
+            och regioner och ledningsfunktionerna där. Under många veckor
+            har man nu varit i olika typer av stabslägen och krisfunktioner
+            för att se till att man på allra bästa sätt minskar smittans spridning
+            i samhället generellt och naturligtvis gentemot de grupper som
+            vi vet löper störst risk att få allvarliga symtom.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-17" prev="i-dd6b1b8f82ea029c-16" who="Q3431836" next="i-dd6b1b8f82ea029c-18">
+          <seg xml:id="i-5KJ62pbTUqU4YYU2eT8tnJ">
+            Ingen i de här funktionerna gör annat, skulle jag säga, än att
+            ägna sina vakna timmar åt att minska effekterna av ett virus som
+            vi har känt under ett fåtal månader. Vi lär oss hela tiden mer.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-18" prev="i-dd6b1b8f82ea029c-17" who="Q3431836" next="i-dd6b1b8f82ea029c-19">
+          <seg xml:id="i-6pEJ6gftBHk7bsPo6F56rf">
+            Ansvarsutkrävande, som jag tror någon gång kommer att vara mer
+            samlat, när det gäller hur Sverige som land, olika myndigheter,
+            aktörer och politiker och andra funktioner valde att arbeta är
+            en sak. Att hela tiden agera på den kunskap man har är inte enkelt.
+            Men det är vårt gemensamma uppdrag.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-19" prev="i-dd6b1b8f82ea029c-18" who="Q3431836" next="i-dd6b1b8f82ea029c-20">
+          <seg xml:id="i-WEjSMDZisEpnuPwwARpCpP">
+            Det är klart att man kan göra en viss jämförelse mellan länder.
+            Utan tvekan ser situationen på svenska äldreboenden annorlunda
+            ut än den gör på äldreboenden i Norge. Men man får också bestämma
+            sig för vilket land man jämför med, varför och i vilket läge.
+            Det finns olika faser när det gäller den här sjukdomen. Många
+            länder har haft så kallade lockdowns. De ser lite olika ut, men
+            länderna har varit mer eller mindre nedstängda. Det återstår att
+            se vad som händer när de nu på alla möjliga sätt försöker lätta
+            på sina restriktioner, eftersom människor inte under överskådlig
+            tid kan leva isolerade, avskurna, utan att gå till arbete och
+            skola och så vidare. Jag önskar inget annat än att det ska fungera
+            och att de kan hålla smittspridningen nere.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-20" prev="i-dd6b1b8f82ea029c-19" who="Q3431836" next="i-dd6b1b8f82ea029c-21">
+          <seg xml:id="i-2GHMc8iw2kHcCDkk19cMt6">
+            Som Anders Tegnell har sagt i många sammanhang – jag tror faktiskt
+            att samtliga smittskyddsexperter håller med – försvinner inte
+            viruset från vårt samhälle de närmaste veckorna, utan vi får leva
+            med det. Då har vi i den svenska strategin valt åtgärder som vi
+            tror är hållbara över tid och som människor kan hålla i. Jag tror
+            att det är för tidigt att säga vem som egentligen har valt rätt
+            förhållningssätt.
+          </seg>
+        </u>
+        <pb facs="http://data.riksdagen.se/fil/5689AD2D-D25B-4B06-8E74-4CB84C5E81CB#page=5"/>
+        <u xml:id="i-dd6b1b8f82ea029c-21" prev="i-dd6b1b8f82ea029c-20" who="Q3431836" next="i-dd6b1b8f82ea029c-22">
+          <seg xml:id="i-8d8bgNi6D8NsgzWoJJF4ER">
+            Det finns dock anledning att verkligen fundera över hur situationen
+            kan bli annorlunda i äldreomsorgen. Eftersom pandemin inte är
+            över finns det alla skäl att göra annorlunda framöver, inte minst
+            i alla de regioner och kommuner som hittills har ganska liten
+            smittspridning.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-22" prev="i-dd6b1b8f82ea029c-21" who="Q3431836" next="i-dd6b1b8f82ea029c-23">
+          <seg xml:id="i-RDVy4yURLVHx2Cj41oqTqh">
+            Jag är övertygad om att man varje gång man hamnar i ett läge
+            där man kan prioritera välfärd före annat ska prioritera välfärden.
+            Och när man prioriterar välfärden måste äldreomsorgen komma högre
+            upp på listan över olika välfärdsinsatser.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-23" prev="i-dd6b1b8f82ea029c-22" who="Q3431836" next="i-dd6b1b8f82ea029c-24">
+          <seg xml:id="i-R9zt1W4Dm1bX4tiYspnnsE">
+            Jag tror att det är 135 000 män och i huvudsak kvinnor som arbetar
+            som undersköterskor och vårdbiträden inom vård och omsorg. Det
+            är en kategori som drar ett enormt lass. Och det gör de under
+            förutsättningar som jag tycker att vi ska reflektera över, också
+            när det inte är pandemi och kristid. Det handlar om timanställningar,
+            löner, förutsättningar, villkor och många gånger för låg eller
+            kanske bristfällig vårdutbildning. Om man i grund och botten saknar
+            den vårdutbildning som krävs och utbildning i de hygienkrav och
+            rutiner som borde gälla i verksamheten blir det såklart extra
+            ansträngande i de här situationerna.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-24" prev="i-dd6b1b8f82ea029c-23" who="Q3431836">
+          <seg xml:id="i-WdZbfeaLkJBp2GfUJAyQcq">
+            Att utkräva ansvar ska naturligtvis göras på många olika sätt.
+            Men jag tror inte att det just nu tjänar någon att säga vems fel
+            det var att beredskapslagren inte räckte till. Den diskussionen
+            återkommer jag gärna till.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-GxQmXoMNbYtcmZdPBxDx55">
+          Anf. 4 ANN-CHRISTINE FROM UTTERSTEDT (SD):
+        </note>
+        <u xml:id="i-dd6b1b8f82ea029c-25" next="i-dd6b1b8f82ea029c-26" who="Q71133291">
+          <seg xml:id="i-EdYKKhsqynvt5DZBpSwuQh">
+            Fru talman! Personal ska hålla en god basal hygien, och arbetsgivaren
+            ska säkerställa att medarbetarna följer riktlinjerna på den aktuella
+            arbetsplatsen. Det finns dock stora problem för personal inom
+            hemtjänsten när det gäller att ens ha möjlighet eller kunskap
+            för att hålla en fullgod handhygien mellan besöken. För att åtgärda
+            detta har Socialstyrelsen tillhandahållit utbildningar om basala
+            hygienrutiner, exempelvis handtvätt och användande av skyddsmaterial.
+            Det lär vara välbehövligt eftersom många anställda inom äldreomsorgen,
+            precis som ministern själv var inne på, helt saknar adekvat utbildning.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-26" prev="i-dd6b1b8f82ea029c-25" who="Q71133291" next="i-3Dx72uPeUWYTHCLBVRS4xT">
+          <seg xml:id="i-PWHUdosYtDxR6Y7Y8Uj1Cu">
+            Regioner och kommuner hålls av regeringen ansvariga för att beredskapen
+            på det lokala planet inte har varit tillräcklig. Samtidigt har
+            det nationella planet nedrustat både försvar och övrig beredskap.
+            Skyddsmasker och fältsjukhus har kasserats, och antalet intensivvårdsplatser
+            har kraftigt minskats. Vi hade vid pandemins början 526 disponibla
+            intensivvårdsplatser. Det är lite i normala fall; under en pandemi
+            är det givetvis en stor katastrof.
+          </seg>
+        </u>
+        <u xml:id="i-3Dx72uPeUWYTHCLBVRS4xT" prev="i-dd6b1b8f82ea029c-26" who="Q71133291" next="i-dd6b1b8f82ea029c-27">
+          <seg xml:id="i-DtjTyfZ6s4eevpJgQ9mPdo">
+            År 1993 fanns totalt 4 300 respiratorer i Sverige, varav 900
+            inom militären och 2 100 extra i förråd. 25 år senare, år 2018,
+            var de bara ca 570 stycken, varav 40 inom militären och noll i
+            förråden. Regeringen har alltså också ett stort ansvar för att
+            beredskapen är undermålig.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-27" prev="i-3Dx72uPeUWYTHCLBVRS4xT" who="Q71133291" next="i-dd6b1b8f82ea029c-28">
+          <seg xml:id="i-MQMU6ETAw5RnDb4yFqYobr">
+            Sist jag stod här i talarstolen var precis i början av pandemin,
+            och jag hoppades och bad att vi inte skulle behöva drabbas så
+            hårt av covid-19. Tyvärr blev det inte så. Den 15 april uppmärksammade
+            jag för första gången socialutskottsmötet, där socialministern
+            deltog, på att statistiken då visade att det var fler som avled
+            än som intensivvårdades. Äldre avlider alltså i sina hem utan
+            intensivvård och utan syrgas. Personal vittnar om äldre som av
+            viruset kvävts till döds i sin ensamhet. Det är helt oacceptabelt.
+          </seg>
+        </u>
+        <pb facs="http://data.riksdagen.se/fil/5689AD2D-D25B-4B06-8E74-4CB84C5E81CB#page=6"/>
+        <u xml:id="i-dd6b1b8f82ea029c-28" prev="i-dd6b1b8f82ea029c-27" who="Q71133291" next="i-dd6b1b8f82ea029c-29">
+          <seg xml:id="i-Cc8u48P2XZYkftKJvdeJSV">
+            Flera boenden och Akademiska sjukhuset har hittills belagts med
+            skyddsstopp för att skyddsmaterialet har varit otillfredsställande
+            eller helt saknats. Tankarna på Spaniens äldreomsorgspersonal
+            som till slut flydde arbetsplatsen kommer skrämmande nära.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-29" prev="i-dd6b1b8f82ea029c-28" who="Q71133291" next="i-dd6b1b8f82ea029c-30">
+          <seg xml:id="i-5c3695MhmhnHj3icDCNYd2">
+            Socialministern meddelade för snart två veckor sedan att efterfrågad
+            skyddsutrustning tilldelats kommunerna. Trots det larmar personal
+            och närstående om fortsatt brist.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-30" prev="i-dd6b1b8f82ea029c-29" who="Q71133291">
+          <seg xml:id="i-Gp9r6iqZoLbmGUj17Kncdv">
+            Fru talman! Var i systemet fallerar det?
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-GHNz8jia717ALw4zNLN4Xd">
+          Anf. 5 Socialminister LENA HALLENGREN (S):
+        </note>
+        <u xml:id="i-dd6b1b8f82ea029c-31" next="i-dd6b1b8f82ea029c-32" who="Q3431836">
+          <seg xml:id="i-XN1rvr3y41SsDaQh9a85JB">
+            Fru talman! Jag vill gärna ta chansen att på en punkt verkligen
+            motsäga Ann-Christine From Utterstedt. Interpellanten får gärna
+            ägna nästa inlägg åt att förklara vad syftet är. Det är inte så
+            att det finns äldre personer som skulle ha behövt respirator-
+            eller intensivvård men nekats detta av något som helst annat skäl
+            än att den medicinska bedömningen har varit att personen varit
+            för svag och inte haft förutsättningar att klara intensivvård.
+            Det är inte vård man får eller inte får, utan man måste också
+            klara av den. Jag är inte själv intensivvårdande personal på något
+            sätt, men jag känner väl till att det innebär en otrolig belastning
+            på kroppen. Man måste ha en fysisk kondition i grunden som gör
+            att man klarar av – orkar med – intensivvård.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-32" prev="i-dd6b1b8f82ea029c-31" who="Q3431836" next="i-dd6b1b8f82ea029c-33">
+          <seg xml:id="i-Hnb5HEmhf2HT82wkTiQod">
+            Därför är det en felaktig koppling att på något sätt börja beskriva
+            det som att vi inte har den vård som krävs och att människor därför
+            inte skulle få till exempel respirator- eller intensivvård. Jag
+            tycker att det är olyckligt. Det förminskar inte problemet att
+            Sverige har fått en spridning på äldreboenden, men jag tycker
+            att Ann-Christine From Utterstedt gör lite för enkla kopplingar.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-33" prev="i-dd6b1b8f82ea029c-32" who="Q3431836" next="i-dd6b1b8f82ea029c-34">
+          <seg xml:id="i-E5txBFJS27knnUyRrrnpxH">
+            Det finns skyddsutrustning, men vi har inte de mängder vi skulle
+            önska att vi hade. Man kan snegla på Finland om man vill, men
+            någon annan kan man inte snegla på; det finns tyvärr inga länder
+            som har så mycket skyddsutrustning att den kan användas för säkerhets
+            skull, utöver de rekommendationer som finns.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-34" prev="i-dd6b1b8f82ea029c-33" who="Q3431836" next="i-dd6b1b8f82ea029c-35">
+          <seg xml:id="i-9utSTD3fHMpogUJcDBfcRJ">
+            När jag och andra säger att kommunerna i dag får den skyddsutrustning
+            de behöver betyder det att Socialstyrelsen som inköpscentral har
+            en dialog via länsstyrelserna – det blir nämligen ogörligt att
+            ta kontakt med 290 kommuner, och därför går man via länsstyrelserna
+            – för att få lägesbilder av hur det ser ut i kommunerna och kunna
+            tillgodose behoven där, på samma sätt som man gör med hälso- och
+            sjukvården. Man kan då inte skicka materiel för de kommande veckornas
+            behov, utan om det finns en brist som kommunen inte kan tillgodose
+            själv får den det material den behöver från Socialstyrelsen –
+            men för de kommande dagarna. Det är fortsatt där vi är.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-35" prev="i-dd6b1b8f82ea029c-34" who="Q3431836" next="i-dd6b1b8f82ea029c-36">
+          <seg xml:id="i-VTWnKippfYU11EHrxDGUw2">
+            Med fler inköp, med en ökad inhemsk produktion och med en uppskalning
+            av inhemsk produktion – samt nu även med allt fler aktörer på
+            banan som upphandlar skyddsutrustning, inte bara Socialstyrelsen
+            utan även regioner och kommuner – ökar förutsättningarna för att
+            vi får en bättre tillförsel. I kombination med att vi kan stoppa
+            smittans utbredning och hejda att den växer är det klart att utrustningen
+            räcker på ett annat sätt.
+          </seg>
+        </u>
+        <pb facs="http://data.riksdagen.se/fil/5689AD2D-D25B-4B06-8E74-4CB84C5E81CB#page=7"/>
+        <u xml:id="i-dd6b1b8f82ea029c-36" prev="i-dd6b1b8f82ea029c-35" who="Q3431836" next="i-dd6b1b8f82ea029c-37">
+          <seg xml:id="i-XcxhZebgWEE3XCurrMHLfv">
+            Jag tycker också att det är viktigt att säga att det när äldreomsorgen
+            behöver skyddsutrustning är viktigt att vi vet vilken skyddsutrustning
+            som behövs. Jag tror att vi börjar känna till det mycket bättre,
+            men för ett antal veckor eller kanske någon månad sedan fanns
+            det – med all rätt – en väldigt stor oro. Det var ett nytt virus
+            som man skulle möta, och man visste att man mötte riskgrupper,
+            men samtidigt kanske inte alltid kunskapen fanns om vilken utrustning
+            man egentligen skulle ha och när.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-37" prev="i-dd6b1b8f82ea029c-36" who="Q3431836" next="i-dd6b1b8f82ea029c-38">
+          <seg xml:id="i-R4tz3izUFebfS4wtnZFXYj">
+            Man kan inte ha all tänkbar utrustning på sig för säkerhets skull,
+            utan det gäller att ha rätt utrustning vid rätt tillfälle. Det
+            står jag fast vid. Det är också det som Arbetsmiljöverket föreskriver:
+            Vilken utrustning ska användas vid vilket tillfälle? Den arbetsgivare
+            som inte ser till att man har den utrustning som krävs vid varje
+            givet tillfälle bryter mot de principer som finns. Det är ett
+            av arbetsgivarens allra viktigaste uppdrag och ansvar.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-38" prev="i-dd6b1b8f82ea029c-37" who="Q3431836">
+          <seg xml:id="i-QpNvNGsfBDFW8h9UxAgjS7">
+            Man kan ha många diskussioner när det gäller fältsjukhus, beredskapslager
+            och omsättningslager, och det kommer vi väl om inte annat att
+            ha senare. För ett och ett halvt år sedan fick en utredare i uppdrag
+            att titta på hur Sveriges beredskap på hälso- och sjukvårdsområdet
+            skulle kunna se ut. Ett delbetänkande har kommit, och slutbetänkandet
+            kommer inom ett och ett halvt år. Där finns alltså mycket att
+            göra, men varken fältsjukhus eller stora beredskapslager hade
+            förmodligen hjälpt situationen i äldreomsorgen.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-3FEqDoxhsSN8SQHyUitKPV">
+          Anf. 6 ANN-CHRISTINE FROM UTTERSTEDT (SD):
+        </note>
+        <u xml:id="i-dd6b1b8f82ea029c-39" next="i-dd6b1b8f82ea029c-40" who="Q71133291">
+          <seg xml:id="i-RaYMnLhH9wnuEveebhw7yW">
+            Fru talman! Regeringen har satt sin tilltro till EU, vilket inte
+            visat sig särskilt lyckat i det här läget. Flera länder införde
+            exportstopp, exempelvis.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-40" prev="i-dd6b1b8f82ea029c-39" who="Q71133291" next="i-dd6b1b8f82ea029c-41">
+          <seg xml:id="i-9VDbAEYNcNDBmSGNB6iGRo">
+            Sedan pandemin började och bristerna i landets beredskap blev
+            uppenbara har vi främst fokuserat på problemen med avsaknad av
+            skyddsutrustning. Att diskutera detta hjälper dock inte långt
+            om ingen skyddsutrustning finns att tillgå – tyvärr. Vi får därför
+            inte glömma att det finns flera andra viktiga delar som kan åtgärdas
+            för att skyddet inom vård och omsorg ska öka.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-41" prev="i-dd6b1b8f82ea029c-40" who="Q71133291" next="i-dd6b1b8f82ea029c-42">
+          <seg xml:id="i-LedyrjTtaC9fmiNsh3wLkQ">
+            För att minska smittspridningen bör fokus läggas på riktlinjerna
+            för hur patienter och brukare vårdas samt, såklart, på utökad
+            testning. Som det ser ut i dag används ingen skyddsutrustning
+            alls om inte covid-19-smitta misstänks, samtidigt som testning
+            kan visa ett positivt utfall trots att symtom helt saknas. Det
+            innebär att vård- och omsorgspersonal ovetande och helt oskyddad
+            vårdar och har vårdat smittade. Det leder i sin tur till att smittan
+            obehindrat sprids vidare till oskyddade äldre.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-42" prev="i-dd6b1b8f82ea029c-41" who="Q71133291">
+          <seg xml:id="i-WKqafpM1NK4WnhTboSPUym">
+            Fru talman! Regeringen måste nu göra allt för att skydda våra
+            äldre undan pandemins framfart. Vilka ytterligare åtgärder avser
+            regeringen och socialministern att vidta för att lyckas med detta?
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-9AipoRMU583Qf7krWZnXCV">
+          Anf. 7 Socialminister LENA HALLENGREN (S):
+        </note>
+        <u xml:id="i-dd6b1b8f82ea029c-43" next="i-dd6b1b8f82ea029c-44" who="Q3431836">
+          <seg xml:id="i-ERwqbFrayVU273EE8pKHv1">
+            Fru talman! Eftersom detta är det sista inlägget i debatten ska
+            jag inte ställa någon fråga tillbaka, men att man skulle vårda
+            utan någon som helst utrustning innan ett test har gjorts är en
+            uppgift som jag inte känner till. Ann-Christine From Utterstedt
+            har möjligen läst om eller tagit del av den uppgiften någonstans.
+            Jag tror att man ska akta sig för de generella beskrivningarna.
+            Jag säger inte att problem inte finns i verksamheterna, men jag
+            tror att det är viktigt att säga att det inte finns någon sådan
+            generell bild.
+          </seg>
+        </u>
+        <pb facs="http://data.riksdagen.se/fil/5689AD2D-D25B-4B06-8E74-4CB84C5E81CB#page=8"/>
+        <u xml:id="i-dd6b1b8f82ea029c-44" prev="i-dd6b1b8f82ea029c-43" who="Q3431836" next="i-dd6b1b8f82ea029c-45">
+          <seg xml:id="i-Y23UPjoA8wypS22BmKdRiH">
+            Däremot behöver kunskapen öka. Utrustning ska självklart finnas
+            tillgänglig när man behöver den, men jag tror att det är viktigt
+            att säga att de timanställningar vi ser behöver övergå i fler
+            fasta anställningar. Det handlar om att människor inte ska gå
+            till arbetet om de har minsta symtom, vilket är något vi i analysen
+            av både Sörmland och Stockholm har kunnat ana är en av faktorerna.
+            Det är människor som har timanställningar och inte omfattas av
+            samma trygghetssystem som andra. Det är skälet till att jag själv
+            och inte minst det parti jag företräder under mycket lång tid
+            har förespråkat att människor ska ha trygga anställningar, så
+            att de omfattas av de trygghetssystem som finns.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-45" prev="i-dd6b1b8f82ea029c-44" who="Q3431836" next="i-dd6b1b8f82ea029c-46">
+          <seg xml:id="i-D9XERPJrg9xnvwTCZ718CM">
+            Det är dock inte bara det att människor ska känna trygghet, utan
+            den som är timanställd är dessutom hela tiden på nya ställen.
+            Man behöver ha en fast punkt i verksamheten, inte minst i dessa
+            tider, så att man känner till de specifika riktlinjer och rekommendationer
+            som gäller just där. Jag har kunnat notera att Södertälje och
+            Uppsala är två kommuner som nu har gått före och sett till att
+            fastanställa sina timvikarier för att ge dem bättre förutsättningar.
+          </seg>
+        </u>
+        <u xml:id="i-dd6b1b8f82ea029c-46" prev="i-dd6b1b8f82ea029c-45" who="Q3431836">
+          <seg xml:id="i-ASxdWSAExHYcGFK6Exj2dC">
+            Jag vet inte var påståendet att regeringen sätter all sin tilltro
+            till EU kommer ifrån. Det är väl utmärkt om vi är med i de upphandlingar
+            som finns även där, men det är sannerligen inte dit vi sätter
+            vår tilltro – det är ju därför Socialstyrelsen sedan den 16 mars
+            har i uppdrag att agera nationell inköpscentral. Det är därför
+            så mycket ansträngningar görs för att öka den egna produktionen,
+            och det är därför vi försöker koppla samman aktörer och näringsidkare
+            för att se till att man kan skala upp eller ställa om produktion
+            för att kunna möta de växande behov vi ser. Vi kommer att behöva
+            skyddsutrustning under lång tid framöver, oavsett hur länge pandemin
+            håller på.
+          </seg>
+        </u>
+        <note xml:id="i-2aTaNR3urBoKACN9T9AhBv">
+          Interpellationsdebatten var härmed avslutad.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-QTtRYxkVowGan6GsuyVcWR">
+        <note xml:id="i-XRQW5BVRyQB5WMemv4omzB">
+          § 7 Bordläggning
+        </note>
+        <note xml:id="i-BFSd1P3Tio2tD8PPJkPxcj">
+          Följande dokument anmäldes och bordlades:
+        </note>
+        <note xml:id="i-3hpQmrAeUMeY5gjwzBPGaZ">
+          EU-dokument
+        </note>
+        <note xml:id="i-15ECRERzbA65uDNFEjphoY">
+          COM(2020) 183 Förslag till rådets förordning om tillfälliga åtgärder
+          avseende hållande av stämmor i europabolag och europeiska kooperativa
+          föreningar
+        </note>
+        <note xml:id="i-AZcbxM6FQV8uWMUKLC7Lh8">
+          Motioner
+        </note>
+        <note xml:id="i-URZY4Cbwzewxzr4zVmMBJb">
+          med anledning av prop. 2019/20:99 Vårändringsbudget för 2020
+        </note>
+        <note xml:id="i-L8jCdcTDvpFPuKD8kSAXNR">
+          2019/20:3606 av Elisabeth Svantesson m.fl. (M)
+        </note>
+        <note xml:id="i-3KLBPTec2X5ZYD43LpZ5JS">
+          med anledning av prop. 2019/20:100 2020 års ekonomiska vårproposition
+        </note>
+        <note xml:id="i-Sv4ATZYBgZYT7ZkWzihUBV">
+          2019/20:3601 av Amineh Kakabaveh (-)
+        </note>
+        <note xml:id="i-FhfkWGNBZyRZAdTp9LQrVr">
+          2019/20:3602 av Ulf Kristersson m.fl. (M)
+        </note>
+        <note xml:id="i-KCg3bThdybAAyDM63BAxjA">
+          2019/20:3603 av Jimmie Åkesson m.fl. (SD)
+        </note>
+        <note xml:id="i-WrD7XvT8Lap5D1jFwgYXHV">
+          2019/20:3604 av Ebba Busch m.fl. (KD)
+        </note>
+        <note xml:id="i-U7pAGHVstii51CRrYbc5X2">
+          2019/20:3605 av Jonas Sjöstedt m.fl. (V)
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-CkavUDgLav3MUbXdxJUsix">
+        <note xml:id="i-QPZsKpYqDEhsnzJ7ioKiSb">
+          § 8 Kammaren åtskildes kl. 13 . 24 .
+        </note>
+        <note xml:id="i-JKeGVjx6oc3QVXn4txEoLG">
+          Sammanträdet leddes av andre vice talmannen .
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/5689AD2D-D25B-4B06-8E74-4CB84C5E81CB#page=9"/>
+        <note xml:id="i-JSzJ9vVB3cCZYJYgBnq7M2">
+          Vid protokollet
+        </note>
+        <note xml:id="i-VGt99JyEeiY6xiPv9nFiPd">
+          ANN LARSSON
+        </note>
+        <note xml:id="i-Pt25U9Zroiv7y7XRwZAd3r">
+          /Olof Pilo
+        </note>
+      </div>
+      <div xml:id="i-34DUTAB8cShCVSVYtfqH3R" type="commentSection" subtype="tableOfContents">
+        <pb facs="http://data.riksdagen.se/fil/5689AD2D-D25B-4B06-8E74-4CB84C5E81CB#page=10"/>
+        <note xml:id="i-JsLmMBCd9DnddfbnTTWnET">
+          Innehållsförteckning
+        </note>
+        <note xml:id="i-Jfc4c2XpzzLWrXs5Bvd7F2">
+          § 1 Justering av protokoll
+        </note>
+        <note xml:id="i-AHRpnWM78iKiG3wE5MkZUk">
+          § 2 Meddelande om frågestund
+        </note>
+        <note xml:id="i-61FmAyd9cdynmneXCck2dH">
+          § 3 Anmälan om faktapromemoria
+        </note>
+        <note xml:id="i-Gu6j8ci6HRQCdAMi8jLtnQ">
+          § 4 Ärende för hänvisning till utskott
+        </note>
+        <note xml:id="i-KMcsUM5Det5Sy3bFPrErwa">
+          § 5 Ärenden för bordläggning
+        </note>
+        <note xml:id="i-GUqDq3UYaYfMeAnenCQD9t">
+          § 6 Svar på interpellation 2019/20:394 om äldreomsorgens beredskap
+          för spridningen av covid-19
+        </note>
+        <note xml:id="i-8RLNzF6iJyXEokb3eEsHWX">
+          Anf. 1 Socialminister LENA HALLENGREN (S)
+        </note>
+        <note xml:id="i-U89gUZnNiJmtXALeQCPhYd">
+          Anf. 2 ANN-CHRISTINE FROM UTTERSTEDT (SD)
+        </note>
+        <note xml:id="i-JyTSZRM7wzczF7r6W2TAr5">
+          Anf. 3 Socialminister LENA HALLENGREN (S)
+        </note>
+        <note xml:id="i-3d14vrCYQBd8hgc1CpRf2Y">
+          Anf. 4 ANN-CHRISTINE FROM UTTERSTEDT (SD)
+        </note>
+        <note xml:id="i-TMU67c9s6poC8Xo91B9ZxZ">
+          Anf. 5 Socialminister LENA HALLENGREN (S)
+        </note>
+        <note xml:id="i-HPKjrworwgjGwAg7zR7JCQ">
+          Anf. 6 ANN-CHRISTINE FROM UTTERSTEDT (SD)
+        </note>
+        <note xml:id="i-J5Z9K4TkfbiPbij9u6VrKB">
+          Anf. 7 Socialminister LENA HALLENGREN (S)
+        </note>
+        <note xml:id="i-27jYb4xJNVGvfjdswW4CZG">
+          § 7 Bordläggning
+        </note>
+        <note xml:id="i-9cXwBrmqUgkkz5Y9ksJwjZ">
+          § 8 Kammaren åtskildes kl. 13.24.
+        </note>
+        <note xml:id="i-QPjcScQuqar4P22iuvMvjn">
+          Tryck: Elanders Sverige AB, Vällingby 2020
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

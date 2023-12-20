@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 200405</title>
+        <title>Protokoll</title>
       </titleStmt>
       <editionStmt>
         <edition>0.4.2</edition>
@@ -13,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 200405</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -25,102 +25,75 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <editionStmt>
-          <edition>0.4.2</edition>
-        </editionStmt>
-        <publicationStmt>
-          <authority>National Library of Sweden and the WESTAC project</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some data curation was done. It is documented in input/curation/instances</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-200405--70</head>
-          <docDate when="2005-02-04">2005-02-04</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection" xml:id="i-8ALNucAXJrjuTLXrwCUHC5">
-          <pb facs="http://data.riksdagen.se/fil/599A33D0-75F6-4B9B-8679-A2BE3D5D5AE7#page=1"/>
-          <note xml:id="i-J4gKikQEC82txmA6N1sVLa">
-            Riksdagens protokoll
-          </note>
-          <note xml:id="i-8DbyP4hMo2VJrjWQ7WrXjh">
-            2004/05:70
-          </note>
-          <note xml:id="i-Tur6TjMEFmDuLe4HTvh6Me">
-            Fredagen den 4 februari
-          </note>
-          <note xml:id="i-2ET8CCBFVJ1TH8FepQTiCm">
-            Kl. 11:00 - 11:01
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-KC1qSiKPyFc1qLNFu2orJs">
-          <note xml:id="i-JU4mf5nXw13pqrR6n2Lvfi">
-            1 § Anmälan om inkomna faktapromemorior om förslag från Europeiska
-            kommissionen
-          </note>
-          <u xml:id="i-D7wJzRj96A9smGeDUDBzjk" who="unknown">
-            <seg xml:id="i-Ewontt8wLpWMgnx7ys2bRz">
-              Talmannen anmälde att följande faktapromemorior om förslag från
-              Europeiska kommissionen inkommit och överlämnats till utskott:
-            </seg>
-          </u>
-          <note xml:id="i-EHRtiFZCb3mbAffJF4e7VE">
-            KOM(2004)781
-          </note>
-          <note xml:id="i-HBtp5d9woBFRasN15YxFqe">
-            KOM(2004)654
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-8Gxzn5bZALAnr3jgzqTtHJ">
-          <note xml:id="i-XcnNa5YnJX11WQX675otmT">
-            2 § Hänvisning av ärenden till utskott
-          </note>
-          <note xml:id="i-6Xw12vJwW3jWoS1WcjEb84">
-            Föredrogs och hänvisades
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-XRwRe1fudD8xRmYhddJvSf">
-          <note xml:id="i-DMdR1FiHqTRVNJfUiunhb4">
-            3 § Bordläggning
-          </note>
-          <note xml:id="i-5567zkvDgDCMHQzTbB1pN8">
-            Anmäldes och bordlades
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-5jbVjyvb5UhErrNpP29tei">
-          <note xml:id="i-Gd4AyXZGG4YBw4aysevpTM">
-            4 § Kammaren åtskildes kl. 11.01.
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/599A33D0-75F6-4B9B-8679-A2BE3D5D5AE7#page=2"/>
-          <note xml:id="i-LPZMbhR7sJ4a6ZyjWo5ZEW">
-            Förhandlingarna leddes av talmannen.
-          </note>
-          <note xml:id="i-UdvnREbfTpFN4ngi2bKVUX">
-            /Monica Gustafson
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-200405--70</head>
+        <docDate when="2005-02-04">2005-02-04</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-8ALNucAXJrjuTLXrwCUHC5">
+        <pb facs="http://data.riksdagen.se/fil/599A33D0-75F6-4B9B-8679-A2BE3D5D5AE7#page=1"/>
+        <note xml:id="i-J4gKikQEC82txmA6N1sVLa">
+          Riksdagens protokoll
+        </note>
+        <note xml:id="i-8DbyP4hMo2VJrjWQ7WrXjh">
+          2004/05:70
+        </note>
+        <note xml:id="i-Tur6TjMEFmDuLe4HTvh6Me">
+          Fredagen den 4 februari
+        </note>
+        <note xml:id="i-2ET8CCBFVJ1TH8FepQTiCm">
+          Kl. 11:00 - 11:01
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-KC1qSiKPyFc1qLNFu2orJs">
+        <note xml:id="i-JU4mf5nXw13pqrR6n2Lvfi">
+          1 § Anmälan om inkomna faktapromemorior om förslag från Europeiska
+          kommissionen
+        </note>
+        <u xml:id="i-D7wJzRj96A9smGeDUDBzjk" who="unknown">
+          <seg xml:id="i-Ewontt8wLpWMgnx7ys2bRz">
+            Talmannen anmälde att följande faktapromemorior om förslag från
+            Europeiska kommissionen inkommit och överlämnats till utskott:
+          </seg>
+        </u>
+        <note xml:id="i-EHRtiFZCb3mbAffJF4e7VE">
+          KOM(2004)781
+        </note>
+        <note xml:id="i-HBtp5d9woBFRasN15YxFqe">
+          KOM(2004)654
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-8Gxzn5bZALAnr3jgzqTtHJ">
+        <note xml:id="i-XcnNa5YnJX11WQX675otmT">
+          2 § Hänvisning av ärenden till utskott
+        </note>
+        <note xml:id="i-6Xw12vJwW3jWoS1WcjEb84">
+          Föredrogs och hänvisades
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-XRwRe1fudD8xRmYhddJvSf">
+        <note xml:id="i-DMdR1FiHqTRVNJfUiunhb4">
+          3 § Bordläggning
+        </note>
+        <note xml:id="i-5567zkvDgDCMHQzTbB1pN8">
+          Anmäldes och bordlades
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-5jbVjyvb5UhErrNpP29tei">
+        <note xml:id="i-Gd4AyXZGG4YBw4aysevpTM">
+          4 § Kammaren åtskildes kl. 11.01.
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/599A33D0-75F6-4B9B-8679-A2BE3D5D5AE7#page=2"/>
+        <note xml:id="i-LPZMbhR7sJ4a6ZyjWo5ZEW">
+          Förhandlingarna leddes av talmannen.
+        </note>
+        <note xml:id="i-UdvnREbfTpFN4ngi2bKVUX">
+          /Monica Gustafson
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

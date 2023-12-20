@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1932</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1932</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,1380 +25,1353 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1932--ak--26</head>
-          <docDate when="1932-03-28">1932-03-28</docDate>
-          <docDate when="1932-03-29">1932-03-29</docDate>
-          <docDate when="1932-03-31">1932-03-31</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-000.jp2/_view"/>
-          <note xml:id="i-13KhwwHyxkwB3ARyobKj13">
-            RIKSDAGENS PROTOKOLL. 1932. Andra kammaren. Nr 26.
-          </note>
-          <note type="date" xml:id="i-TQFNY3puqkmGzhZRoiu5Tc">
-            Torsdagen den 31 mars. Kl. 2 e. m.
-          </note>
-          <note xml:id="i-MeCXBt4qNBRXZqPwMY4cZy">
-            § 1.
-          </note>
-          <note xml:id="i-YP5ULykAKR7TY145fn4rWr">
-            Upplästes följande till kammaren inkomna sjukbetyg:
-          </note>
-          <u xml:id="i-QQ6MRQZ6pKxGcbWQE6w6kn" who="unknown" next="i-HzyLk5XEDQKoExdQ22nfLz">
-            <seg xml:id="i-EF45Zc2JganJoW4JQkVjKR">
-              Att ledamoten av Riksdagens andra kammare, Redaktören Karl Andersson
-              från Katrineholm, på grund av sjukdom (lungsäcksinflammation)
-              är urståndsatt att under 4 veckor deltaga i riksdagsarbetet intygar.
-            </seg>
-          </u>
-          <note xml:id="i-P2k4HX1acWpQgfL2wEbaF">
-            Katrineholm den 28 mars 1932.
-          </note>
-          <note xml:id="i-K5tQQApU7JaFxRu4Uoj5Sr">
-            Carl Ellwyn, lasarettsläkare.
-          </note>
-          <u xml:id="i-HzyLk5XEDQKoExdQ22nfLz" who="unknown" prev="i-QQ6MRQZ6pKxGcbWQE6w6kn" next="i-UVHrSFqmCEcdcyA1fPqyKH">
-            <seg xml:id="i-DzRgjpWpysp3UZ7prDZMAs">
-              Att riksdagsmannen E. O. Magnusson i Tumhult på grund av sjukdom
-              — influensa — är urståndsatt att under minst en vecka från och
-              med denna dag deltaga i riksdagsarbetet; betygas härmed.
-            </seg>
-          </u>
-          <note xml:id="i-X8Drps7dMegPk4W9VFsb7J">
-            Tumhult och Växjö den 29 mars 1932.
-          </note>
-          <note xml:id="i-G71BgtkS1qaxMFfiLbgyFE">
-            A. Granholm, legitimerad läkare.
-          </note>
-          <u xml:id="i-UVHrSFqmCEcdcyA1fPqyKH" who="unknown" prev="i-HzyLk5XEDQKoExdQ22nfLz" next="i-C52mrpN3wYfTzm7SfxLPmq">
-            <seg xml:id="i-9bNsAZe6oTrw4zufcA6KPU">
-              Riksdagsman Emil Hultman, Järvsö, är på grund av sjukdom (ischias)
-              oförmögen att deltaga i riksdagsarbetet minst 10 dagar från dagens
-              datum.
-            </seg>
-          </u>
-          <note xml:id="i-QmBHxivpWnvTXrs5khn8Gs">
-            Järvsö den 29 mars 1932.
-          </note>
-          <note xml:id="i-ScsXDNc75SdgrPmYvesuJU">
-            Ragnar Zachrisson, provinsialläkare.
-          </note>
-          <note xml:id="i-HLLccF4vh8G9pPQojFqZr4">
-            § 2.
-          </note>
-          <note xml:id="i-KWmcBN6WPZjBB6RciaTTqN">
-            Föredrogs en av herr Törnkvist i Karlskrona ingiven ansökning
-            att på grund av trängande göromål i hemorten erhålla ledighet
-            från riksdagsarbetet under
-          </note>
-          <note xml:id="i-FMwcs4sTH9jA9cuAY8cTDT">
-            3 dagar från och med denna dag; och blev berörda ansökning av
-            kammaren bifallen.
-          </note>
-          <note xml:id="i-B44J2rU1QBz5EfrzUygx5c">
-            § 3.
-          </note>
-          <u xml:id="i-C52mrpN3wYfTzm7SfxLPmq" who="unknown" prev="i-UVHrSFqmCEcdcyA1fPqyKH">
-            <seg xml:id="i-45NSRNMtNaUBLC7ETRyq45">
-              Vidare upplästes en till kammaren inkommen, så lydande skrivelse:
-              Till Riksdagens andra kammare. Enär jag av hälsoskäl ej längre
-              anser mig kunna utöva riksdagsmannakallet, får jag härmed avsäga
-              mig min befattning såsom ledamot av kammaren. Väby, Hökerum den
-              21 mars 1932.
-            </seg>
-          </u>
-          <note xml:id="i-Bn9sy3F9NWjoqdkpit1TTf">
-            Otto Johansson, riksdagsman för Alvsb. 1. södra.
-          </note>
-          <note xml:id="i-6hNd26E7xUJPkjXwwdvsGL">
-            Kammaren beslöt, med godkännande av den gjorda avsägelsen, att
-            om den härigenom inom kammaren uppkomna ledigheten jämlikt $ 28
-            riksdagsordningen hos Konungen göra anmälan; och blev ett i sådant
-            avseende på förhand uppsatt skrivelseförslag, som nu upplästes,
-            av kammaren godkänt.
-          </note>
-          <note xml:id="i-U2Pe589TJwzrCN2GLqyjCb">
-            Andra kammarens protokoll 1932. Nr 26. i
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-001.jp2/_view"/>
-          <note xml:id="i-EGGSWLoVUBRs7U3gJFRAjT">
-            Nr 26.
-          </note>
-          <note type="date" xml:id="i-PVssmgYJJbwzpQRtY2DATd">
-            2 Torsdagen den 31 mars.
-          </note>
-          <note xml:id="i-N9p2a1QuZFSo7421MdjoZG">
-            § 4.
-          </note>
-          <note xml:id="i-UJHYtZGSJHFDjX4jCNCFBZ">
-            Sedan riksdagens båda kamrar förehaft och godkänt de uti bankoutskottets
-            memorial nr 13 samt statsutskottets memorial nr 33 och 38 föreslagna
-            voteringspropositioner rörande frågor, i vilka kamrarna fattat
-            stridiga beslut, samt bestämt blivit, att vederbörliga omröstningar
-            över de olika besluten skulle denna dag äga rum, så anställdes
-            nu omröstningar enligt nedan intagna voteringspropositioner i
-            följande ordning, nämligen:
-          </note>
-          <note xml:id="i-Vwzf1Bjdui6RFb9X4QQnAU">
-            1:a omröstningen: (enligt bankoutskottets memorial nr 13).
-          </note>
-          <note xml:id="i-71XVuSRMpgxu2Zg1mitoZL">
-            »Den, som i likhet med första kammaren vill bifalla det förslag,
-            som innefattas i den vid bankoutskottets utlåtande nr 10 fogade
-            reservationen och alltså, i anledning av förevarande motion I:55,
-            medgiva, att till vaktmästaren hos första kammaren W. E. Willberg
-            må, utöver honom författningsenligt tillkommande pension, från
-            och med kalenderåret näst efter det, varunder han sista gången
-            tjänstgör hos riksdagen, under hans återstående livstid från förslagsanslaget
-            till riksdagsoch revisionskostnader samt kostnader för riksdagens
-            hus utgå en tilläggspension av sexhundra kronor; röstar
-          </note>
-          <note xml:id="i-V82RpWqrDsSTRjvfRqkt9c">
-            Ja:
-          </note>
-          <note xml:id="i-4X2v5R9JNxjxVtftps2MiU">
-            Den, det ej vill, röstar Nej; Vinner Nej, har riksdagen, i likhet
-            med andra kammaren, bifallit vad utskottet i utlåtandet hemställt,
-            eller att förevarande motion I:55 icke må till någon riksdagens
-            åtgärd föranleda.»
-          </note>
-          <note xml:id="i-7PUh9UxALPCutpoBkBc3Sn">
-            Sedan efter given varsel kammarens ledamöter intagit sina platser
-            och voteringspropositionen blivit uppläst samt anslagen, företogs
-            omröstningen medelst namnupprop, och utföll densamma med 42 Ja
-            och 162 Nej, varjämte 8 av kammarens ledamöter förklarade sig
-            avstå från att rösta.
-          </note>
-          <note xml:id="i-AW8wb2ymuZ395HQyrt1kZU">
-            Den omröstning över ovanintagna voteringsproposition, som, enligt
-            ankommet och nu uppläst protokoll, blivit av första kammaren samtidigt
-            anställd,
-          </note>
-          <note xml:id="i-WWC7ASPPu1Sae9fDJxbBQe">
-            hade utfallit med .........ssssesseserrrrrrtrs sr ers rr 98 Ja
-            och 25 Nej, vadan, då därtill lades andra kammarens röster eller.
-            ... 42 Ja och 162 Nej, sammanräkningen visade .........ssrecoserrrrerrerrt
-            140 Ja och 187 Nej,
-          </note>
-          <note xml:id="i-HGduU9P5kXQV1durhj3ZGm">
-            och hade alltså beslut i denna fråga blivit av riksdagen fattat
-            i överensstämmelse med nejpropositionens innehåll.
-          </note>
-          <note xml:id="i-NrrbhohD3DkJ2NZyi4kYtu">
-            2:a omröstningen: (enligt statsutskottets memorial nr 33).
-          </note>
-          <note xml:id="i-Aqvko2XULjGrdm3KcSQZMf">
-            »Den, som i likhet med första kammaren vill, att riksdagen må
-            med anledning av herrar Bergqvists m. fl. och Hages m. fl. förevarande
-            motioner, I: 25 och II: 48, för tillfälliga hjälpåtgärder för
-            lindrande av nöd m. m. inom Norrbottens län för budgetåret 1932/1933
-            bevilja ett extra reservationsanslag av 50,000 kronor, röstar
-            Ja
-          </note>
-          <note xml:id="i-Hw2Qqf6xN5WZWt9poMM2xk">
-            ad;
-          </note>
-          <note xml:id="i-BhDfmUFAgY8PaUHA8UDrU5">
-            Den, det ej vill, röstar . Nej; Vinner Nej, har riksdagen, i
-            likhet med andra kammaren, beslutat avslå de i ämnet väckta motionerna
-            (1:25 och II: 48).»
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-002.jp2/_view"/>
-          <note type="date" xml:id="i-TmEE2DGdgzaxEDyvRYr5ZD">
-            Torsdagen den 51 mars. 3
-          </note>
-          <note xml:id="i-MQasJFCBeqFBTtzwX2VvVq">
-            Sedan efter given varsel kammarens ledamöter intagit sina platser
-            och voteringspropositionen blivit uppläst samt anslagen, företogs
-            omröstningen medelst namnupprop, och utföll densamma med 94 Ja
-            och 109 Nej, varjämte 9 av kammarens ledamöter förklarade sig
-            avstå från att rösta.
-          </note>
-          <note xml:id="i-6Q9wp8jLXC6jmVQa9UqiHY">
-            Den omröstning över ovanintagna voteringsproposition, som, enligt
-            ankommet och nu uppläst protokoll, blivit av första kammaren samtidigt
-            anställd,
-          </note>
-          <note xml:id="i-Y1ckr7QdzyyCTxqgCqab8n">
-            hade utfallit med .....sssossssessssssssss sees ss saa 66 Ja
-            och 58 Nej, vadan, då därtill lades andra kammarens röster eller
-            94 Ja och 109 Nej, sammanräkningen Visade .......ssssossssssr
-            sr serna 160 Ja och 167 Nej,
-          </note>
-          <note xml:id="i-HM6wQTgBvvtzeLfeppwF83">
-            och hade alltså beslut i denna fråga blivit av riksdagen fattat
-            i överensstämmelse med nej-propositionens innehåll.
-          </note>
-          <note xml:id="i-BwbubQBg8ZzerV4GpQ4voz">
-            3:e omröstningen: (enligt statsutskottets memorial nr 38).
-          </note>
-          <note xml:id="i-hpPh3ZZ4WCQMm7bWwLbjk">
-            »Den, som i likhet med första kammaren vill, att riksdagen må
-            i enlighet med Kungl. Maj:ts förslag och med avslag å de av herr
-            J. B. Johansson m. fl. och herr Larson i Tönnersa väckta motionerna
-            (I: 132 och II: 189), i vad desamma skilja sig från Kungl. Maj:ts
-            förslag, ävensom de av herr Möller m. fl. och herr Hansson m.
-            fl. väckta motionerna (I: 125 och II: 211) samt den av herr Lindhagen
-            väckta motionen (I: 216), för så vitt sistnämnda tre motioner
-            avse anslaget till det frivilliga skytteväsendets befrämjande,
-          </note>
-          <note xml:id="i-Hew1CiXZLWn65LEseiwXEL">
-            a) till det frivilliga skytteväsendets befrämjande för budgetåret
-            1932/1933 anvisa ett extra reservationsanslag av 280,875 kronor,
-          </note>
-          <note xml:id="i-ERFP2nJMrfYDhMUZMD7MUJ">
-            b) medgiva, att av kronans äldre ammunitionspartier må till de
-            frivilliga skytteföreningarna under budgetåret 1932/1933 försäljas
-            högst 5,000,000 skarpa patroner m/94 till ett pris av 5 öre för
-            patron, inklusive hylsa; röstar
-          </note>
-          <note xml:id="i-3Uj3dMTKjWoR87PcgugoP4">
-            Ja;
-          </note>
-          <note xml:id="i-Sx8g2obHTZdno8cqHYdUKS">
-            Nej;
-          </note>
-          <note xml:id="i-6akyq2CNimC22dGDJSvqke">
-            Vinner Nej, har riksdagen i likhet med andra kammaren beslutat
-          </note>
-          <note xml:id="i-Sotd2EnFu9u5WZFPmjryt4">
-            a) i anledning av de av herr Möller m. fl. och herr Hansson m.
-            fl. väckta motionerna (I1:125 och II: 211), i vad de avse anslag
-            till det frivilliga skytteväsendet, avslå såväl Kungl. Maj:ts
-            förslag om anvisande av anslag för detta ändamål för budgetåret
-            1932/1933 och om medgivande till försäljning av ammunition till
-            de frivilliga skytteföreningarna som herr J. B. Johanssons m.
-            fl. och herr Larsons i Tönnersa förenämnda motioner (1: 132 och
-            II: 189);
-          </note>
-          <note xml:id="i-TFRqEBAnCqJRpT5RUYcikX">
-            b) att herr Lindhagens motion (I: 216), i vad motionen avser
-            anslaget till det frivilliga skytteväsendets befrämjande, må anses
-            besvarad genom vad utskottet anfört och hemställt.»
-          </note>
-          <note xml:id="i-1xeJGKDqV6v4EHMH2tkTy">
-            Sedan efter given varsel kammarens ledamöter intagit sina platser
-            och voteringspropositionen blivit uppläst samt anslagen, företogs
-            omröstningen medelst namnupprop, och utföll densamma med 102 Ja
-            och 103 Nej, varjämte 8 av kammarens ledamöter förklarade sig
-            avstå från att rösta.
-          </note>
-          <note xml:id="i-W6a5GJ8oJYgGAtLVfsCBaa">
-            Den, det ej vill, röstar
-          </note>
-          <note xml:id="i-T3DcroYiRCFC9uwzc4VPZU">
-            Den omröstning över ovanintagna voteringsproposition, som, enligt
-            ankommet och nu uppläst protokoll, blivit av första kammaren samtidigt
-            anställd,
-          </note>
-          <note xml:id="i-9vpHL8SuuN2P3R8CqN6hJD">
-            hade utfallit med ...s.ossmsssersrresresse ss ss ess saa 76 Ja
-            och 52 Nej, vadan, då därtill lades andra kammarens röster eller
-            102 Ja och 103 Nej,
-          </note>
-          <note xml:id="i-9MFokmpvU8K62Nz5Fnagzb">
-            sammanräkningen Visade ....ssssssrssesssssss ss rna 178 Ja och
-            155 Nej,
-          </note>
-          <note xml:id="i-CTvSgjX4XxJ91dJiJKatMi">
-            och hade alltså beslut i denna fråga blivit av riksdagen fattat
-            i överensstämmelse med ja-propositionens innehåll.
-          </note>
-          <note xml:id="i-LbFCnpTB3EYWvAe4Xqmcxw">
-            Nr 26,
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-003.jp2/_view"/>
-          <note xml:id="i-JvWnbav5XfQ7nPd8sbxizE">
-            Nr 26,
-          </note>
-          <note type="date" xml:id="i-SrizmC34EYGkDqHR9drwfg">
-            4 Torsdagen den 31 mars.
-          </note>
-          <note xml:id="i-BSihvaCP9uB1aLCdz1voLt">
-            Sö Föredrogs var för sig följande Kungl. Maj:ts å kammarens bord
-            vilande propositioner; och hänvisades därvid
-          </note>
-          <note xml:id="i-RFv5w41oyYkwS5tHijXoHv">
-            till bevillningsutskottet propositionen, nr 220, med förslag
-            till lag om ändring i vissa delar av kommunalskattelagen den 28
-            september 1928 m. m.; : till bankoutskottet propositionerna:
-          </note>
-          <note xml:id="i-MovNz8xcfkkorbz3J5CRSi">
-            nr 231, angående understöd åt efterlevande till vissa i statens
-            tjänst anställda personer;
-          </note>
-          <note xml:id="i-PjZyYSswas1SkQeuhFqpjN">
-            nr 232, angående tilläggspension åt vissa i statens tjänst anställda
-            personer;
-          </note>
-          <note xml:id="i-P8XoHE5QccTUMHtPxG9ocs">
-            nr 233, angående pension åt vissa i statens tjänst anställda
-            personer; nr 234, angående distriktschefen vid statens järnvägar
-            G. E. Löfmarcks pensionsrätt;
-          </note>
-          <note xml:id="i-8wXpAyRaNPysn7xFuswTuU">
-            nr 235, angående uppfostringsbidrag åt avlidna telegrafkommissarien
-            Bea (Beda) Magdalena Valgrens dotter Marya Adelberti de Gotha
-            Valgren; och
-          </note>
-          <note xml:id="i-VsxSTjdDKgTNJteNGAZmHQ">
-            nr 236, angående pension åt förre järnvägsarbetaren J. E. Fransén;
-          </note>
-          <note xml:id="i-LRZEeEsJKgcL61AwoDaRCL">
-            till jordbruksutskottet propositionen, nr 237, angående försäljning
-            av vissa kronan tillhöriga hållhägnader i Norrbottens län;
-          </note>
-          <note xml:id="i-U975XABSezRF1VcuWVHvee">
-            till bankoutskottet propositionen, nr 238, med förslag till lag
-            om ändrad lydelse av 5 och 6 $$ lagen den 11 oktober 1907 (nr
-            85) angående civila tjänstinnehavares rätt till pension;
-          </note>
-          <note xml:id="i-3oytt25wb8dFt7ZRajkqTh">
-            till bevillningsutskottet propositionen, nr 239, med förslag
-            till förordning angående märkning av kärl, innehållande söta läskedryker,
-            m. m.;
-          </note>
-          <note xml:id="i-YYWG8EuQfSD4796cvXRn1h">
-            till bankoutskottet propositionerna:
-          </note>
-          <note xml:id="i-BGC8A728H1H9yPyJFwbBGs">
-            nr 240, med förslag till lag om ändrad lydelse av 13 $ lagen
-            den 4 juni 1920 (nr 254) angående rätt till tjänstepension för
-            ordinarie tjänstemän vid postverket, telegrafverket, statens järnvägar
-            och statens vattenfallsverk, m. m.;
-          </note>
-          <note xml:id="i-BUetjUk8MVETY6RPeDm4ST">
-            nr 241, angående beredande av delaktighet i statens pensionsanstalt
-            för fast anställda ämneslärare vid folkhögskolans specialkurs
-            för lantbruksstuderande;
-          </note>
-          <note xml:id="i-UBkCzYMX5Myz93Qd7XsuJM">
-            nr 242, angående pension åt förre daglönaren N. I. Landgren;
-            och
-          </note>
-          <note xml:id="i-ANvcHbawFTPmF23nBq31Ki">
-            nr 243, angående pension åt förra postbiträdet Ida Henrietta
-            Amalia Wallman; samt
-          </note>
-          <note xml:id="i-WTVnM3m6N35R1GwUbKjFwW">
-            till bevillningsutskottet propositionen, nr 244, med förslag
-            till förordning om ändring i vissa delar av förordningen den 19
-            november 1914 (nr 383) angående stämpelavgiften.
-          </note>
-          <note xml:id="i-RVECWcYGSTivD9MnVcyn1X">
-            Vid härpå skedd föredragning av propositionen, nr 245, angående
-            tillfällig löneförbättring under budgetåret 1932/1933 för viss
-            personal inom den civila statsförvaltningen överlämnades ifrågavarande
-            proposition, såvitt den anginge pensionsoch indragningsstaterna
-            till bankoutskottet, i vad den rörde jordbruksärenden till jordbruksutskottet
-            och i övrigt till statsutskottet.
-          </note>
-          <note xml:id="i-SCuokuR9vUUAKad72YBawq">
-            Vidare föredrogos och remitterades
-          </note>
-          <note xml:id="i-5sj2M1aSGBTiaaxUU8q3N3">
-            till bevillningsutskottet propositionerna:
-          </note>
-          <note xml:id="i-2jatMPhxsibQvjTkFHvwqN">
-            nr 246, angående restitution eller avkortning av vissa kronoutskylder,
-            som påförts vid Pehr Fricks Fabrikers Aktiebolag anställda personer;
-            och
-          </note>
-          <note xml:id="i-PxorCygHcHhD33zAcFep9Y">
-            nr 247, angående vissa ändringar i gällande tulltaxa; samt
-          </note>
-          <note xml:id="i-KniGneZuuhvDLj9Dgb1LST">
-            till konstitutionsutskottet propositionen, nr 188, angående godkännande
-            av en mellan Sverige och Turkiet undertecknad traktat angående
-            förlikning, rättsligt avgörande och skiljedom.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-004.jp2/_view"/>
-          <note type="date" xml:id="i-J5KTfnyVp2g2nbeyfqi59v">
-            Torsdagen den 31 mars. 5
-          </note>
-          <note xml:id="i-Er2fTsGxN48hcwWnHhthGB">
-            Härefter föredrogs propositionen, nr 192, med förslag till lag
-            angående ändring i 6 $ lagen den 26 maj 1909 om tjänstgöringen
-            i Kungl. Maj :ts lagråd m. m.; och hänvisades ifrågavarande proposition,
-            i vad den avsåge lagförslagen till behandling av lagutskott och
-            i övrigt till statsutskottet.
-          </note>
-          <note xml:id="i-Vph6tz6rNhgJGRwktSKGwi">
-            Slutligen föredrogos övriga å bordet vilande propositioner; och
-            överlämnades därvid
-          </note>
-          <note xml:id="i-3jmY8BbvkVL6RHJaStDPZk">
-            till konstitutionsutskottet propositionerna:
-          </note>
-          <note xml:id="i-947fe2hoghGyBjSb4kTvui">
-            nr 194, med förslag till ändrad lydelse av $$ 14, 15, 17—22,
-            27 och 28 riksdagsordningen samt till lag om ändring i vissa delar
-            av lagen den 26 november 1920 (nr 796) om val till riksdagen;
-            och
-          </note>
-          <note xml:id="i-3Xk2dPw3uyp6Zceh69KjN2">
-            nr 195, med förslag till ändrad lydelse av $ 12 riksdagsordningen;
-          </note>
-          <note xml:id="i-FJgyhgsgW38LcvWqZbKTP1">
-            till behandling av lagutskott propositionerna:
-          </note>
-          <note xml:id="i-DzqkTimfDwihABShn53NSQ">
-            nr 205, angående godkännande av en mellan Sverige, Danmark, Finland,
-            Island och Norge den 16 mars 1932 avslutad konvention om erkännande
-            och verkställighet av domar m. m.; och
-          </note>
-          <note xml:id="i-2Y488JoNVyMbMuD8QEBQEN">
-            nr 206, med förslag till lag om stads och landsbygds förenande
-            i judiciellt avseende m. m.;
-          </note>
-          <note xml:id="i-VgygVMSryvAZ54SZpfCSNu">
-            till jordbruksutskottet propositionerna:
-          </note>
-          <note xml:id="i-PwMowtJ5FnP5KMkf1Wm2nU">
-            nr 202, angående försäljning av vissa kronoegendomar och lägenheter
-            från sådana egendomar m. m.;
-          </note>
-          <note xml:id="i-BuS2G2ihRDEHEkgzixErGG">
-            nr 212, angående inrättande av en lånefond för inköp av gasgeneratorer
-            för motordrift m. m.;
-          </note>
-          <note xml:id="i-ST68rmBqAPD2FpsgNpZpok">
-            nr 215, angående statens avdikningsanslag och statens avdikningslånefond;
-          </note>
-          <note xml:id="i-FJfMjLzwPSqCV8nM5VbQWM">
-            nr 216, angående anordnande under år 1932 av en allmän jordbruksräkning;
-          </note>
-          <note xml:id="i-VhfQr3GNdS5PUD1gqNf5Lw">
-            nr 217, med förslag till lag om vård av vissa skogar inom Västerbottens
-            och Norrbottens läns lappmarker med flera områden m. m.;
-          </note>
-          <note xml:id="i-ATmvB8gUabBxpFV7Yb4Nsu">
-            nr 218, med förslag till förordning om ändrad lydelse av 1, 2
-            och 4 $$ förordningen den 15 juni 1923 (nr 213) angående skogsvårdsstyrelser;
-          </note>
-          <note xml:id="i-KDPpKx35sXhqnK5y7gPbKw">
-            nr 219, angående anslag till lantbrukshögskolan, centralanstalten
-            för försöksväsendet på jordbruksområdet, statens växtskyddsanstalt
-            samt lantbruksinstitutet vid Ultuna m. m.;
-          </note>
-          <note xml:id="i-XH98wZMebS4LYWmCtiXk5Y">
-            nr 222, angående förlängning av den räntefria tiden m. m. beträffande
-            vissa lån till Virestadssjöarnas sänkningsföretag i Kronobergs
-            län;
-          </note>
-          <note xml:id="i-2wzxY6K4ErGrFnn3eMvVi9">
-            nr 223, angående ytterligare statsunderstöd till delägare i Säveåns
-            regleringsföretag i Älsborgs län;
-          </note>
-          <note xml:id="i-6u3iCtHwLsz48eoe3mBs6y">
-            nr 224, angående ytterligare statsunderstöd till Mosjöbottnens
-            torrläggningsföretag i Örebro län m. m.;
-          </note>
-          <note xml:id="i-5e5GTvUQKBnyFG7f3oprS3">
-            nr 225, angående uppskov med amortering av två till reglering
-            av Nedre AÄrån i Jönköpings län beviljade lån från odlingslånefonden;
-          </note>
-          <note xml:id="i-ViscJKw5DoYcERYZt873MX">
-            nr 226, angående viss ändring av grunderna för statsbidrag till
-            utredning rörande reglering av Övre och Nedre Olandsån i Uppsala
-            och Stockholms län; och
-          </note>
-          <note xml:id="i-F7ivbUKQnupSZ8gkyTGEfd">
-            nr 230, angående anslag för byggnadsarbeten och andra engångskostnader
-            avseende lantbrukshögskolan samt Alnarps lantbruks-, mejerioch
-            trädgårdsinstitut;
-          </note>
-          <note xml:id="i-851YF1TTvEKsvt49aMuEFe">
-            till statsutskottet propositionen, nr 229, angående beredande
-            av rätt till s. k. rekreationsresor för viss personal vid försvarsväsendet
-            med tjänstgörimgsort
-          </note>
-          <note xml:id="i-BZ7DpaPBseo9eF4gRYRh1v">
-            i Boden;
-          </note>
-          <note xml:id="i-R8SQTxRJrFgTMaRP3SzP9L">
-            till konstitutionsutskottet propositionen, nr 207, med förslag
-            till lag angående ändring i vissa delar av lagen den 6 juni 1930
-            om kommunalstyrelse i stad Mm: Ms
-          </note>
-          <note xml:id="i-X7Z1QX5VTj3oua2dTXtsXa">
-            Nr 26.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-005.jp2/_view"/>
-          <note xml:id="i-8cD4dJVs1z8kHHkuTTqzsm">
-            Nr 26;
-          </note>
-          <note xml:id="i-S1GHUXfM4wtKJWsSBJHymM">
-            Ang. stöd åt Skandinaviska kreditaktiebolaget m. m.
-          </note>
-          <note type="date" xml:id="i-5PcqQn5mE8BnWBqAjei3Rg">
-            6 Torsdagen den 31 mars.
-          </note>
-          <note xml:id="i-DiJNsg1tpWobscXXDpyiGG">
-            till bevillningsutskottet propositionen, nr 208, med förslag
-            till förordning om ändring i vissa delar av förordningen den 6
-            augusti 1894 (nr 61) angående mantalsskrivning m. m.;
-          </note>
-          <note xml:id="i-KZSoMjzWAQ1bCNbTNDWd4y">
-            till behandling av lagutskott propositionen, nr 209, med förslag
-            till lag om ändrad lydelse av $ 45 mom. 2 i värnpliktslagen den
-            12 juni 1925 (nr 337);
-          </note>
-          <note xml:id="i-DAXsTBdKEQCrfVYMvb17zd">
-            till statsutskottet propositionen, nr 214, angående anslag till
-            allmän levnadskostnadsundersökning;
-          </note>
-          <note xml:id="i-84VyYWyUFU85S9EBaYUxV9">
-            till behandling av lagutskott propositionen, nr 228, med förslag
-            till kungörelse om ändring i vissa delar av brandstadgan den 15
-            juni 1923; samt till statsutskottet propositionerna:
-          </note>
-          <note xml:id="i-MgWihUfRbCiKy5FQ8Y8sF3">
-            nr 221, angående viss ändring av läroverksorganisationen i Stockholm;
-          </note>
-          <note xml:id="i-Nwjh5oyPjKpPG2Q7wrdLxV">
-            nr 210, angående statsförvärv av Härnösand—Sollefteå järnväg
-            m. m.;
-          </note>
-          <note xml:id="i-9UXEU51vz99Gwf6mcxqzHn">
-            nr 213, angående anslag till säkerhetsanordningar till ledning
-            för fiskefartyg m. m.; och
-          </note>
-          <note xml:id="i-4qSwgwZRPiAuGcJtq3QGBd">
-            nr 227, rörande anordnande av ett sjöhistoriskt museum i Stockholm.
-          </note>
-          <note xml:id="i-L8r6MCsWApPA23k4V2phvL">
-            § 6. Vidare föredrogos var efter annan de på kammarens bord liggande
-            motionerna; och remitterades därvid till statsutskottet motionerna:
-          </note>
-          <note xml:id="i-6CVNJWEpmHd4qpXKsr9Ej3">
-            nr 492 och 493 av herr Hage m. fl.;
-          </note>
-          <note xml:id="i-LfXdmGTmAzgYN3D2DkREkF">
-            nr 494 av herrar Månsson i Furuvik och Holmström; nr 495 av herr
-            Thomson;
-          </note>
-          <note xml:id="i-9gZYouRLd8gX8PyeC4xVUi">
-            nr 496 av herr Weijne; och
-          </note>
-          <note xml:id="i-PyU9pQJWskYC9t4mpbsWsM">
-            nr 497 av herr Lundquist i Rotebro; samt
-          </note>
-          <note xml:id="i-QSgBbJRk2jUfu1wc162f51">
-            till behandling av lagutskott motionen nr 498 av herr Lundquist
-            i Rotebro.
-          </note>
-          <note xml:id="i-BV4JUWZHx6yKTzmwwsRJLp">
-            § 7.
-          </note>
-          <note xml:id="i-KuE165kecsvCcF2aP1nKHb">
-            Föredrogos, men blevo ånyo bordlagda konstitutionsutskottets
-            utlåtanden nr 10—12 och bankoutskottets utlåtanden nr 14—21.
-          </note>
-          <note xml:id="i-7hZDxFWGCVLxr1LFK5YWvq">
-            § 8.
-          </note>
-          <note xml:id="i-Tw8TkkWHqBTTQyHNQSaaQV">
-            Vid föredragning härpå av första lagutskottets memorial, nr 30,
-            angående arvode åt den, som inom första lagutskottet biträtt vid
-            behandlingen av Kungl. Maj:ts propositioner nr 72—74 angående
-            godkännande av en internationell konvention för betryggande av
-            säkerheten för människoliv till sjöss m. m., blev utskottets däri
-            gjorda hemställan av kammaren bifallen.
-          </note>
-          <note xml:id="i-TBsbNJ6AdnZGfnNCJoGH7W">
-            § 9. Jordbruksutskottets nu föredragna utlåtanden nr 32—35 bordlades
-            åter.
-          </note>
-          <note xml:id="i-5J9XfNdJ2tUejyGvYr71wm">
-            § 10.
-          </note>
-          <note type="speaker" xml:id="i-J5iNdUUwtmnvZAzdsjAgrM">
-            Herr statsrådet Hamrin avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-CJy4Ep1SPC1x2a99Dx5UCR">
-            ts proposition, nr 248, angående stöd åt Skandinaviska kreditaktiebolaget
-            m. m.
-          </note>
-          <note xml:id="i-YYhHvomNRptmeNJfsCyQHX">
-            Ordet begärdes därefter av
-          </note>
-          <note type="speaker" xml:id="i-UpNZ4agZYvqNRzEXye9y9F">
-            Herr Lundstedt, som anförde:
-          </note>
-          <u who="Q349359" xml:id="i-fe09edf6591b5b70-0" next="i-fe09edf6591b5b70-1">
-            <seg xml:id="i-6EoMqkowowEupcXcRgMNXx">
-              Herr talman, ers excellens, mina damer och herrar! Huruvida den
-              i den nu framförda propositionen inslagna vägen verk-
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-006.jp2/_view"/>
-          <note xml:id="i-Tj5qbjFbjaQVKC9muueSVq">
-            -
-          </note>
-          <note type="date" xml:id="i-9CWUvmCbxNNfSc6ftj9AvT">
-            Torsdagen den 31 mars. 7
-          </note>
-          <u who="Q349359" xml:id="i-fe09edf6591b5b70-1" prev="i-fe09edf6591b5b70-0" next="i-fe09edf6591b5b70-2">
-            <seg xml:id="i-KHJtNK3rnev5k5SNGu6L3U">
-              ligen är den för landet bästa, därom kan naturligtvis jag, även
-              om jag hade större kunskaper i ämnet, än som kunnat inhämtas av
-              dagspressen, icke ha någon kompetens att uttala mig.
-            </seg>
-            <seg xml:id="i-6p2jADC4mpEBcyP71sug73">
-              Men onekligen innefattar det en betydande trygghet att veta,
-              att regeringen så snabbt och energiskt som sker handlar i denna
-              för vårt land så trista angelägenhet. Redan ha ett par extraordinära
-              propositioner framlagts; och man kan förmoda, att flera liknande
-              ting bliva av nöden. Nu reser sig emellertid frågan, om detta
-              tillvägagångssätt — propositioner, utskottsutlåtanden och kammarbehandlingar
-              — också i fortsättningen städse kan vara den lyckligaste tekniken
-              för förvaltningen av det allmännas intressen i det inträffade
-              läget. Detta läge är otvivelaktigt så pass allvarligt för hela
-              landets ekonomi, att det kan tänkas motivera från det normala
-              avvikande grundsatser för statens handlingssätt. Från utlandet
-              inströmma de mest oförtäckta beklaganden av den situation, vari
-              Sveriges näringsliv anses ha råkat. Dessa beklaganden få särskild
-              relief därigenom, att flera andra länder känna sitt eget affärsliv
-              avsevärt berört av den svenska kraschen. Vårt lilla land var ett
-              slags centrum för hela det vittfamnande företaget och får såsom
-              sådant taga de kraftigaste stötarna. Den första för själva landet
-              mera kännbara stöten bereda vi oss nu att möta med den framlagda
-              propositionens hjälp. Sverige har dock säkerligen — det omvittnas
-              allmänt och från skilda håll — de nödiga resurserna för att kunna
-              tåla dessa stötar. Men frågan är likväl, om denna svåra kris skall
-              på bästa sätt kunna övervinnas, utan att särskilda åtgärder vidtagas
-              för organisering av en för de inträffade förhållandena särskilt
-              lämpad statsledning. Enligt min ringa mening kunde denna fråga
-              med skäl ha ställts månader före den inträffade aktualiseringen
-              av de Kreugerska svårigheterna. Kastar man en blick tillbaka på
-              de tre senast gångna kvartalen, ser man, hur jobspost följt på
-              jobspost. Danatbanken stängdes. De därefter till Londonmötet knutna
-              förhoppningarna grusades. Så kom pundkatastrofen. Därpå oroades
-              världen av konflikten mellan Kina och Japan. Från Tyskland ingingo
-              titt och tätt underrättelser fyllda av oro för ett sammanbrott
-              med därur härflytande olyckor av oöverskådlig räckvidd för hela
-              det västerländska Europa. Bland ljusglimtar trodde man sig kunna
-              peka på Hoover-moratoriet. Men var det verkligen en ljusglimt?
-              Kanske för Tyskland. Men för Sverige kunde det icke så betecknas
-              med de avspärrningsåtgärder, som i Tyskland vidtogos. Alla visste
-              vi nu vilka våldsamma transaktioner den svenska penningkejsaren
-              inlåtit sig på med Just Tyskland. Var denne man en verklig trollkarl?
-              Varom icke, så — krukan går så länge, tills den brister. Undertecknad
-              har aldrig haft tillfälle att skåda bakom de storfinansiella kulisserna.
-              Men jag har haft tillfälle till tankeutbyte med omdömesgilla och
-              fördomsfria människor. Och från allmänt kända fakta — dels hela
-              världsekonomiens gungning, dels Kreugerkoncernens svindlande dimensioner
-              — var den slutledningen nära nog ofrånkomlig, att även detta företag
-              måste befinna sig i gungning och att det verkligen vore ett trolleri,
-              ett underverk, om icke detta svenska jättebolag till sist skulle
-              taga en ända med förskräckelse, varvid katastrofen 1 första hand
-              måste gå ut över vårt lilla men hittills ekonomiskt dock så väl
-              skötta land. — Så syntes då de nyss antydda tillbuden till världskrisens
-              ödesdigra utveckling innefatta en varning, en varning adresserad
-              till oss på ett alldeles särskilt sätt. Detta utgjorde den faktiska
-              bakgrunden för vissa synpunkter, som jag för några månader sedan
-              tillät mig uttala i en sluten församling. Jag tager mig här friheten
-              att kortfattat återgiva det väsentliga av dessa synpunkter.
-            </seg>
-            <seg xml:id="i-QM5t4DWqW9q5uLncb3YZa1">
-              Hur utvecklade än de internationella förbindelserna mellan folken
-              äro, måste ett land dock alltid slutligen lita till sig självt.
-              Och i sådant avseende kan en nation stundom nödgas att till det
-              yttersta utnyttja de hjälpkällor, som kunna finnas. Därvid bör
-              märkas, att en nations inre politik så till vida kan vara
-            </seg>
-          </u>
-          <note xml:id="i-YQ2pC53Rv5NkcUC2vVNhEx">
-            Nr 26.
-          </note>
-          <note xml:id="i-PQn7XUfYpRMXRKXxdMtZ94">
-            Ang. stöd åt Skandinaviska kreditaktiebolaget m. m. (Forts.)
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-007.jp2/_view"/>
-          <note xml:id="i-J9fFdRoTfqNSGDgW5Wn1RN">
-            Nr 26.
-          </note>
-          <note xml:id="i-PprN6iRjbbk1xR9zN1FnbH">
-            Ang. stöd åt Skandinaviska kreditaktiebolaget m. m. (Forts.)
-          </note>
-          <note type="date" xml:id="i-SwqTM7NCxrXhYxKAjGf5Az">
-            8 Torsdagen den 31 mars.
-          </note>
-          <u who="Q349359" xml:id="i-fe09edf6591b5b70-2" prev="i-fe09edf6591b5b70-1" next="i-fe09edf6591b5b70-3">
-            <seg xml:id="i-8cNA5xLAStXVbKcYTQGdru">
-              att likställa med landets direkta tillgångar, att den kan binda
-              eller frigöra resurser, som vid särskilda tillfällen kunna vara
-              av största betydelse. Detta framträder icke alltid på samma aktuella
-              sätt. Men när fara är å färde, då kan denna synpunkt bli både
-              A och O i det för hela folket bästa tillvägagångssättet.
-            </seg>
-            <seg xml:id="i-dMi8GZJ3M6C4Gtj5dfhcj">
-              Om man påstode, att situationen för vårt land nu (d. v. s. vid
-              tillfället 1 fråga, i mitten av januari) är mera oroväckande än
-              den någonsin förut i senare tid varit, så skulle man kanske påstå
-              något, som man icke direkt kunde bevisa. Men vad man med bestämdhet
-              kan säga, det är, att aldrig någonsin förut har en kris av detta
-              slag hotat vårt land. Man kan vidare med bestämdhet säga, att
-              ingen vet, vart det kommer att bära hän och att denna kris kan
-              komma att lössläppa krafter utifrån eller inifrån, vilka möjligen
-              bliva av skickelsediger betydelse för vårt lands framtid. I en
-              sådan situation synas befolkningens gemensamma intressen kräva,
-              att man i tid gör sig beredd att möta den hotande faran och söka
-              förebygga vissa konsekvenser av världskrisens utveckling. Det
-              synes mig kunna ifrågasättas, huruvida icke den tidpunkten nu
-              är kommen.
-            </seg>
-            <seg xml:id="i-6iRurnzoyfHghn1NsJg8SJ">
-              Varje politiskt parti — som verkligen är politiskt och icke är
-              beslutet att ensidigt i varje väder och vind endast hävda partiets
-              egna intressen, sådana som de omedelbart framträda — varje sådant
-              parti, säger jag, måste med sina argument och beslut tillse, att
-              välståndet i hela landet i görligaste mån uppehålles. Denna synpunkt
-              måste i tider, då detta välstånd på ett särskilt sätt hotas, rentav
-              tränga i förgrunden. Det kan i sådana tider bliva nödvändigt att
-              icke i den praktiska politiken aktualisera vissa krav, som det
-              eljest varit en angelägen sak att skjuta fram. Redan härigenom
-              borde på ett helt naturligt sätt uppstå en viss avspänning i förhållandet
-              mellan de olika partierna. Ä andra sidan ligger en särskild fara
-              för hela samhället i det missnöje, för att icke säga den förtvivlan,
-              på grund av arbetslöshet och ekonomisk nöd, som inom omfattande
-              befolkningslager måste sprida sig, därest landets allmänna ekonomi
-              inotn den närmaste framtiden skulle märkbart försämras. I den
-              rådande situationen måste det därför också inom de borgerliga
-              partierna kunna väckas ett verkligt intresse av annan art än vanligt
-              för medverkan till hävande av den värsta ekonomiska nöden för
-              småfolket och i fortsättningen för att motverka nödens spirande.
-            </seg>
-            <seg xml:id="i-PEuDbpmWwiB15gmhfp2uEL">
-              Detta var grundtanken i det uttalande jag tillät mig göra vid
-              det ifrågavarande tillfället. Jag kunde därvid intet nämna angående
-              Kreugerkoncernens farlighet. Jag hade inga andra kunskaper än
-              vilken som helst annan. Det var för mig liksom för de flesta andra
-              privatpersoner omöjligt att tränga tillräckligt djupt i det faktiska
-              läget. Betänk, att vid den tiden funnos ännu inga skuggor i den
-              gloria, varmed penningfursten omstrålades i den allmänna meningen!
-              Det kunde vara farligt för den oinvigde att vara närgången. Vad
-              som redan då saknades och som redan länge saknats, det var enligt
-              min mening en regering med den utomordentliga auktoritet, att
-              den vågat laga efter lägligheten, d. v. s. att den vågat kräva
-              en granskning av papperen i ett företag, som visserligen var av
-              privaträttslig natur, men som dock genom sina svindlande dimensioner
-              kunde tänkas störta landet i misär. Frågan, huruvida ett sådant
-              företag för alla eventualiteter hade en faktiskt hållbar proportion
-              mellan sina tillgångar och skulder, den frågan var av ödesdiger
-              betydelse för Sverige, dels direkt för oss själva, dels indirekt
-              med hänsyn till vårt moraliska ansvar till utlandet. Ingen regering
-              i hela världen låg dock närmare till att söka syna Kreugerkoncernen
-              i sömmarna än den svenska regeringen. Sverige hade också ett särskilt
-              intresse att beakta, nämligen vad en tidning i går kallade distribueringen
-              av svensk produktionsteknik till utlandet, varigenom vår konkurrenskraft
-              möjligen kunde minskas. Vidare synes mig ha förelegat ett
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-008.jp2/_view"/>
-          <note type="date" xml:id="i-9JRRZWciPTxuKXc8n2RDf8">
-            Torsdagen den 31 mars. 9
-          </note>
-          <u who="Q349359" xml:id="i-fe09edf6591b5b70-3" prev="i-fe09edf6591b5b70-2" next="i-fe09edf6591b5b70-4">
-            <seg xml:id="i-HP66eo7qYBPpnkE6mRPqVi">
-              allmänt intresse att värdera betydelsen av att en del av vår
-              egen tändsticksindustri nedlades till förmån för utlandet. Allt
-              detta är emellertid icke på något sätt att fatta såsom en kritik
-              av den nu sittande regeringen. Med dennas ur politisk synpunkt
-              svaga underlag kunde den näppeligen ha förfarit annorlunda än
-              den gjort. Vad jag sagt, har jag sagt endast för att illustrera
-              betydelsen i kritiska tider av en stark regering.
-            </seg>
-            <seg xml:id="i-GCirp8AexDPsUuLK59VMnt">
-              Funnos sålunda redan förra året och kanske dessförinnan vissa
-              grunder för att taga i övervägande, huruvida icke en regering
-              med en annan auktoritet än den nuvarande borde träda till styret,
-              så synes mig denna fråga genom de senaste veckornas händelser
-              ha blivit högeligen auktualiserad. Äro icke, ers excellens och
-              herrar ledamöter av partiledningarna, äro icke förhållandena sådana,
-              att de framtvinga en allvarlig och på djupet gående diskussion
-              angående lämpligheten, för att icke säga nödvändigheten, av en
-              ömsesidig avspänning i de politiska motsatserna, för intet annat
-              syfte än en konsolidering i görligaste mån av landets ekonomiska
-              hjälpkällor och andra resurser. Under denna riksdag ha såväl från
-              regeringens som från andra inflytelserika politikers sida ofta
-              framkommit vackra bevis på oegennyttiga omsorger om landets bästa.
-              Likväl kan man i det förevarande läget tycka sig sakna sådana
-              ord och sådana tongångar, som göra det klart, att man är till
-              det yttersta beredd att i fall av behov lösgöra av partipolitiken
-              bundna krafter till mötande i en mäkta ödesdiger tid av en fara,
-              desto mer allvarligt oroande, som ingen till fullo känner dess
-              räckvidd, och ingen ens vet med säkerhet, varifrån den hotar.
-            </seg>
-            <seg xml:id="i-tTVB2Wr8Fwsv7nSpsMgaw">
-              Vårt folk kan icke av sina ledande män kräva det omöjliga, kräva
-              orosanledningarnas undanröjande. Vad majoriteten av vårt reflekterande
-              folk torde önska är därför endast, att det möjligaste åvägabringas
-              av trygghet i en orolig tid, på det att affärslivet och produktionen
-              må kunna fortgå och stimuleras samt exporten om möjligt ökas till
-              befrämjande av en gynnsam handelsbalans. Jag är av den uppfattningen,
-              att denna trygghet för hela landet, och därmed framför allt för
-              de ekonomiskt sämst ställda, är det mest eftersträvansvärda. Men
-              jag har också den uppfattningen, att detta mål skulle bäst befordras,
-              därest en man med det största förtroendet hos det största antalet
-              medborgare trädde fram och gjorde ett försök att kring sig samla
-              det yppersta vad landet har, av män från skilda partier, utmärkta
-              genom beprövat allmänt förtroende och genom högsta fackkunskap
-              i de krävande frågorna. Om det överhuvud icke är likgiltigt för
-              ett konstitutionellt land, hur dess regering är sammansatt, d.
-              v. s. hurudan den politiska grunden för densamma är, vilken auktoritet
-              den har, så måste det väl i ett läge som det rådande — ett läge,
-              där redan en extraordinär moratorielag måst antagas, och där regering
-              och riksdag, trots en redan synnerligen hårt pressad budget, synas
-              vara färdiga att plötsligt engagera sig för hundratals miljoner
-              — vara av största betydelse, att vid styret sitter en regering
-              av utomordentlig styrka på grund därav att den utrustats med ett
-              kvalificerat allmänt förtroende. Thågkommas måste också, att utlandet
-              i dessa tider har sin särskilda uppmärksamhet i ekonomiska ting
-              riktad på Sverige. Att utlandet får ett gynnsamt, ett särdeles
-              gynnsamt, intryck är förvisso icke utan sin stora betydelse. Det
-              torde vara otvivelaktigt, att en nu antydd samling i vårt land
-              skulle i hög grad bidraga till ett sådant intryck i utlandet.
-            </seg>
-            <seg xml:id="i-FAVnWjTDpfQKWr8emokNvU">
-              Huvudpunkt på programmet vore dock givetvis åtgärder av sådant
-              slag, att vårt eget folk måste förstå, att statsledningen är icke
-              blott beredd utan även kapabel att göra det yttersta för att hindra
-              den ekonomiska nöden att utbreda sig bland de små i samhället.
-              Men den erforderliga allmänna oftervilligheten för genomförandet
-              av en sådan programpunkt torde icke kunna åstadkommas, utan att
-              en verklig politisk samling äger rum.
-            </seg>
-            <seg xml:id="i-ReVrq9WFugVDrX73rHH4ak">
-              Förutsättningen för en sådan utomordentlig regering, d. v. s.
-              för att den skulle kunna helt lyckas styra statsskeppet igenom
-              de oroliga farvattnen, vore
-            </seg>
-          </u>
-          <note xml:id="i-4Ygdhs7rntPG5dAgKSXsnV">
-            Ang. stöd åt Skandinaviska kreditaktiebolaget m. m.
-          </note>
-          <note xml:id="i-NVmJpc4q6299HNXqcXRzyJ">
-            (Forts.)
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-009.jp2/_view"/>
-          <note xml:id="i-SJ3EtoVWKGgEfGFwnYUXkB">
-            Nr 26.
-          </note>
-          <note xml:id="i-9zPVgTx82JTateswmVEZ4E">
-            Ang. stöd åt Skandinaviska kreditaktiebolaget m. m. (Forts.)
-          </note>
-          <note type="date" xml:id="i-LumUmE5YrjEVor25UCbXWx">
-            10 Torsdagen den 31 mars.
-          </note>
-          <u who="Q349359" xml:id="i-fe09edf6591b5b70-4" prev="i-fe09edf6591b5b70-3">
-            <seg xml:id="i-Dkn9DN3F96q6SZCe59iPvs">
-              givetvis, att den erhölle riksdagens bemyndigande i en eller
-              annan form att handla så, som den med hänsyn till det allmänna
-              läget och inträffade särskilda situationer funne vara nödvändigt
-              eller gagneligt. Givetvis vore framgången icke allenast beroende
-              på en nu nämnd regering. Nära nog varje medborgare har i sin hand
-              att genom energi och sparsamhet, genom val av livsförnödenheter
-              och framför allt genom uppoffrande handlingssätt giva sitt bidrag
-              till befrämjande av det allmänna bästa. Tillkomsten av denna regering
-              med dess särskilda förtroende från alla håll skulle, såvitt jag
-              förstår, understryka tidens allvar och skärpa medborgarnas ansvarskänsla
-              i de hänseenden, jag nu antytt.
-            </seg>
-            <seg xml:id="i-KC46BoNEGA4f1KN767z9cT">
-              Det kan icke för starkt understrykas, att mina ord icke ha någon
-              personlig udd åt något håll, framför allt att de stå i den bästa
-              överensstämmelse med en hög, mycket hög uppskattning av den politiska
-              och fackliga kapaciteten hos den sittande regeringens medlemmar.
-              Flera av dem äro uppenbarligen högst betydande personligheter.
-              Men har man den starka övertygelsen, som jag har, angående vad
-              som i det inträffade läget är det för landet bästa, då kan man
-              enligt min mening icke stå till svars inför sig själv med att
-              i denna församling, när man har äran att därav vara ledamot, undertrycka
-              en sådan övertygelse. Det är hela saken. Det är anledningen till
-              att jag talat som jag gjort. Naturligtvis inser jag, att sådana
-              synpunkter, som jag nu berört, ha blivit övervägda både av herrar
-              statsråd, partiledare och andra riksdagsmän. Mitt inlägg är därför
-              endast att fatta som en vädjan till regeringen och till partierna
-              att taga under förnyad omprövning, huruvida icke en landsregering
-              i mest egentliga mening vore för oss alla, vore för hela folket,
-              i dessa bistra tider det tryggaste.
-            </seg>
-          </u>
-          <note xml:id="i-LsUQmipjuLbpvSzJB4XRJu">
-            Vidare yttrade:
-          </note>
-          <note type="speaker" xml:id="i-LCCn7bSoUfRsVg5swzS77P">
-            Herr Kilbom:
-          </note>
-          <u who="Q1347810" xml:id="i-14d79cf76bdbfe8b-0" next="i-14d79cf76bdbfe8b-1">
-            <seg xml:id="i-3qmm642n9ukZBxFiyucJPa">
-              Herr talman! Under den pressdebatt, som föregått den nu avlämnade
-              propositionen, har det förklarats, att meningen var, att propositionen
-              skulle slutbehandlas redan på lördagen. Jag vet inte, i vad mån
-              detta stämmer med regeringens intentioner, men alldeles utan grund
-              torde det väl inte vara. Det har vidare förklarats från en rad
-              av tidningar, att hela denna fråga i verkligheten är avgjord genom
-              en förbehandling mellan å ena sidan regeringen och å andra sidan
-              partiledningarna samt riksgäldsfullmäktige och riksbanksfullmäktige.
-              Vad är det för sorts nya fasoner, man på det sättet får införda
-              i riksdagen! (Ja, äro de gamla, så synes det mig vara desto större
-              skäl att bryta med dem.) Eller anser inte den sittande regeringen,
-              att det nuvarande läget är så pass allvarligt, att det verkligen
-              motiverar ett mycket omsorgsfullt förberedande av de handlingar,
-              som kunna behöva vidtas? Amser man sig kunna traska vidare på
-              den gamla korridorpolitikens vägar, då tror jag inte man har stora
-              förutsättningar att lösa vad man föresatt sig. Det är Ju ändå
-              så, antar jag, att både de tvenne nyssnämnda institutionerna,
-              framför allt riksbanken, och ävenledes regeringen haft tillfälle
-              att få alla de informationer, som man ansett vara av vikt. Men
-              riksdagen har det inte. Och dock få vi se, herr talman, hur man
-              här helt enkelt kräver, att riksdagen utan vidare skall köra igenom
-              hela denna sak utan att få ordentlig kännedom om vad som ligger
-              till grund för regeringens förslag och vilka konsekvenser det
-              kan komma att medföra. Det tillkommer inte oss att slå vakt om
-              någon slags borgerlig demokrati, men nog tycker jag, att herrarna
-              skulle ha anledning att själva ställa sig den frågan, var ni nu
-              äro någonstans, om ni inte äro inne på andra vägar än den borgerliga
-              demokratiens. Inkallandet och tillskapandet av någon privatriksdag
-              för behandling av några som helst frågor känner varken riksdagsordningen
-              eller grundlagsbestämmelserna i övrigt till, och man hade inte
-              trott, att någonting dylikt här skulle, såsom skett, komma till
-              uttryck. Ingen av riksdagens ledamöter har en aning om vad propositionen
-              innehåller,
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-010.jp2/_view"/>
-          <note type="date" xml:id="i-HUwSs2rMpfWReoUaREHjDA">
-            Torsdagen den 31 mars. 11
-          </note>
-          <u who="Q1347810" xml:id="i-14d79cf76bdbfe8b-1" prev="i-14d79cf76bdbfe8b-0">
-            <seg xml:id="i-34fWe63EjzmqVdR2Ewzc3F">
-              för såvitt den inte till vissa privat delats ut tidigare än till
-              kammaren. Om den nu skall slutbehandlas på lördagen, så ha vi
-              gammal erfarenhet, inte minst sedan Kreditkassan 1922 och 1923,
-              att det kommer att ske på bekostnad av sakligheten. För att inlägga
-              en protest däremot, herr talman, och för att förbehålla oss rätten
-              att åtminstone få läsa propositionen och ta del av vad man vill
-              att riksdagen skall besluta, hemställer jag, att propositionen
-              måtte läggas på bordet.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-8CissYN9Bz17hBt6YAFbd4">
-            Hans excellens herr statsministern Ekman:
-          </note>
-          <u who="unknown" xml:id="i-f13d6e66c0d6bd46-0">
-            <seg xml:id="i-239Uutsq7hRXD4rQdMNTja">
-              Herr talman! Med anledning av herr Kilboms yttrande vill jag
-              endast helt kort säga, att regeringen aldrig förutsatt, än mindre
-              uttalat någon önskan om eller själv trott, att denna fråga skulle
-              bli färdigbehandlad i riksdagen på lördagen. Vad man kan uttala
-              är endast att den måtte ägnas snabbast möjliga behandling. Men
-              därav följer ingalunda, att förhållandena nu äro sådana, att man
-              skulle behöva behandla detta ärende med samma snabbhet, som när
-              det gällde moratorielagen, beträffande vilken det ju var önskvärt
-              att den kunde träda i kraft redan till närmaste söckendag. Varje
-              uppgift, att man från regeringens sida förutsatt, att den nu föreliggande
-              frågan skulle slutbehandlas på lördagen, är alltså fullständigt
-              ogrundad.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-TwAFvwPYtpzQWGvz2dyaqU">
-            Herr Magnusson i Skövde:
-          </note>
-          <u who="Q5972050" xml:id="i-3f0e426113a42a70-0" next="i-3f0e426113a42a70-1">
-            <seg xml:id="i-E3cZyr1JL3T32z9rKnqnbK">
-              Herr talman! Det hade säkerligen varit lyckligt, om den debatt,
-              som nu påbörjats, sparats till i morgon, så att man hade haft
-              tillfälle att läsa propositionen och inte måst bilda sig ett omdöme
-              allenast på grundval av de redogörelser, man sett 1 tidningarna.
-              När jag nu likväl tillåtit mig begära ordet, så är det endast
-              för att ge uttryck åt de bekymmer, som jag för min ringa del såväl
-              som många andra känner inför den situation, som uppstått, och
-              även för att ge uttryck åt den uppfattningen, att det förefaller
-              mig, att riksdagen i alltför hög grad ställes inför fakta, där
-              man intet annat val har än att gå med på vad som föreslås. Jag
-              tillåter mig i vänlighet erinra om vad jag var inne på under remissdebatten,
-              nämligen att det säkerligen hade varit lämpligt, om riksdagen
-              hade blivit sammankallad förliden höst, då de förhållanden seglade
-              upp, vars frukter vi nu i så bitter mån få skörda. Riksdagen hade
-              då kunnat hållas mera å jour med händelserna, och Jag tror, att
-              detta skulle kunnat avsätta ett samarbete, som i någon mån åtminstone
-              hade kunnat hjälpa upp förhållandena eller åtminstone leda till
-              ett undvikande av de förhållanden, som jag här tillåtit mig beklaga.
-              Jag har som nämnt endast genom redogörelser i tidningarna sett,
-              vad propositionen innehåller, och jag kan därför inte ingå 1 någon
-              kritik för densamma. Jag kan endast ge uttryck åt en reflexion,
-              som jag och många med mig gjort, när vi nu kommit hit efter påskledigheten
-              och ställts inför faktum. Här har jordbruksnäringen 1 tio år på
-              mycket goda grunder begärt att bli hjälpt, men det har icke föranlett
-              till någon genomgripande åtgärd. Men nu kan man på fjorton dagar
-              eller mindre göra i ordning en hjälp på 215 miljoner kronor åt
-              ett enda bankinstitut.
-            </seg>
-            <seg xml:id="i-4HRYkn2RorMVv7A9V4V2ee">
-              Med vad jag nu sagt har jag icke på något vis velat ge uttryck
-              åt den meningen, att denna hjälp skulle vara obefogad, det vågar
-              jag icke göra. Men sannerligen jag vet, hur det skall bli möjligt,
-              när man möter reflekterande personer ute i landet och de göra
-              den frågan, hur riksdagen har handlat i nu föreliggande fall,
-              sannerligen jag vet, hur man skall kunna ge en nöjaktig förklaring
-              till riksdagens handlingssätt.
-            </seg>
-            <seg xml:id="i-DDAbMvrGDLbAkhxy1PkecY">
-              Jag vill vidare ge uttryck åt den meningen — det är närmast den
-              saken, som föranlett mig att begära ordet, ty jag vet icke om
-              det med den hastiga behandling, som denna fråga kommer att få,
-              blir någon möjlighet att motionsledes göra några framställningar;
-              jag riktar mig alltså nu till utskottet —
-            </seg>
-          </u>
-          <note xml:id="i-HjtoKFHEmvrnSYChHP5KZd">
-            Nr 26.
-          </note>
-          <note xml:id="i-55o5CsajWBo6Tx4i4Zgu4N">
-            Ang. stöd åt Skandinaviska kreditaktiebolaget m. m. (Forts.)
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-011.jp2/_view"/>
-          <note xml:id="i-XNzofRve8RHhEGQB1QsfFC">
-            Nr 26.
-          </note>
-          <note xml:id="i-GKE4w7BT7wiGtUKUHMa5fZ">
-            Ang. stöd åt Skandinaviska kreditaktiebolaget m. m. (Forts.)
-          </note>
-          <note type="date" xml:id="i-GKgE8Em5RczfPFJ7ahtvMn">
-            12 Torsdagen den 31 mars.
-          </note>
-          <u who="Q5972050" xml:id="i-3f0e426113a42a70-1" prev="i-3f0e426113a42a70-0">
-            <seg xml:id="i-6EPt4BskBQxWHdtti3w1t8">
-              Jag vill, säger jag, ge uttryck åt den meningen, eftersom det
-              ju inte är något statsmakternas förhållande eller åtgärd, som
-              föranlett vederbörande att göra dessa vidlyftiga affärer, på vilka
-              så stora förluster ha uppkommit, att man framför allt måtte sörja
-              för att det icke blir enbart den allmänhet, som måste hos bankerna
-              låna pengar, som får betala kostnaderna genom höga räntor, utan
-              att kostnaderna i stället må i huvudsak drabba vederbörande aktionärer
-              genom att de icke få någon utdelning under tiden tills pengarna
-              bli återbetalade. — Jag hör nu av herr finansministern att regeringen
-              har beaktat denna synpunkt i propositionen, så att utdelning ej
-              får äga rum, och jag tackar för upplysningen härom. Jag beklagar
-              då, att jag med anledning av de rykten, som jag hört, nödgats
-              begagna tillfället att ge uttryck åt denna mening.
-            </seg>
-            <seg xml:id="i-DwbuWQw7VeVq4D9zCbMkVJ">
-              Jag skall icke längre uppehålla debatten, det tjänar ingenting
-              till, men kammaren får ursäkta mig, att jag begärt ordet för att
-              ge uttryck åt de bekymmer, som jag känner inför svårigheterna,
-              bekymmer som jag tror äro ganska allmänna bland kammarens ledamöter.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-WRQ4G5EPLym2SAWZEP15di">
-            Herr Laurin:
-          </note>
-          <u who="Q5940620" xml:id="i-a30778def09e921b-0" next="i-a30778def09e921b-1">
-            <seg xml:id="i-ANJbc8xHfuhqiGExh4z96C">
-              Herr talman! Jag skall tillåta mig att citera ett stycke ur en
-              artikel i detta ämne i tidningen Social-Demokraten. Det heter
-              där: »Man måste också klargöra att skall nu staten, själv i trångmål
-              på grund av depressionen, göra sitt yttersta för att säkerställa
-              enskilda kreditanstalter och industriföretag, så kräva anständighet
-              och logik att lika kraftiga ansträngningar göras för att även
-              lindra den nöd och motverka den arbetslöshet som redan nu 1 vårt
-              land är till finnandes.»
-            </seg>
-            <seg xml:id="i-N6tidRGkBrViwthitj8XyW">
-              Ja, jag kan tillfullo instämma i detta uttalande, och jag undrar
-              vad folket ute i landet säger, när nu denna stora kredit med tämlig
-              säkerhet beviljas. Men det är icke bara herr Engbergs arbetslösa,
-              som ha skäl att reflektera över denna stödaktion, det finnes också
-              tusen och åter tusen av jordbrukare, som lida nöd under de nu
-              rådande förhållandena. Herrarna ha väl alla sett, hurusom vid
-              en enda häradsrätt ett femtiotal konkurser på en enda gång varit
-              före. På det viset fortsätter det överallt ute i landet, men inte
-              ser man, att någonting göres för dessa människor. Från vårt håll
-              har framkommit en motion om moratorium för dessa jordbrukare,
-              men om den saken har det ännu icke hörts någonting, och inte blir
-              det väl någonting heller. Vi ha också väckt en motion om att diskutera
-              Sveriges handelspolitiska läge såsom en utgångspunkt för hur vi
-              böra ställa oss i dessa tider. Den motionen väcktes visserligen
-              innan dessa tråkigheter voro kända, men den har blivit ännu mera
-              aktuell genom vad som sedan inträffat. Jag tror nog, att vi litet
-              var, icke blott enskilda medborgare, utan också staten själv,
-              måste komma ihåg, att vi icke längre äro så kraftiga och så duktiga
-              som för några år sedan. Här gäller det säkerligen, mina herrar,
-              att försöka ena sig om en plan att komma ut ur detta elände, och
-              då går det enligt min mening icke för sig att bara taga en enda
-              bit, låt vara en mycket stor och viktig sådan.
-            </seg>
-            <seg xml:id="i-M9xsA3vraE63QVqnwjjbpU">
-              Jag skall naturligtvis icke alls inlåta mig på någon kritik av
-              den kungl. propositionen, utom i en enda liten del. Självfallet
-              har jag icke ännu hunnit studera propositionen, och jag har kanske
-              icke heller förmåga att sätta mig in i densamma, men det finnes
-              en passus, som jag skulle vilja påpeka. Det heter nämligen, att
-              bankens aktieägare skulle kunna få utdelning på sina aktier intill
-              dess förlagslånet och krediten äro tillfullo guldna, d. v. s.
-              utdelningen i banken skall vara begränsad till 5.5 4, alltså en
-              procentsats, som nära nog motsvarar den räntefot, efter vilken
-              de av staten utlånade pengarna skola förräntas. Dessa aktier äro
-              väl, mina herrar, värdelösa för närvarande. Skola aktieägarna
-              ändå gynnas med 5.5 4 utdelning? Nåja, gärna för mig, om detta
-              är nyttigt och bra, men jag frågar då: Vem gynnar dem, som ha
-              t. ex. sekundärinteckningar i dessa gårdar, som nu gå på exekutiv
-              auktion? De få minsann inga
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-012.jp2/_view"/>
-          <note type="date" xml:id="i-DZSZcwYShzE8AVjFyzjSRi">
-            Torsdagen den 31 mars. 13
-          </note>
-          <u who="Q5940620" xml:id="i-a30778def09e921b-1" prev="i-a30778def09e921b-0">
-            <seg xml:id="i-KheMpLHC8RQJky5ZsEaHL3">
-              5.5 24 på sina pengar, de göras icke till föremål för någon stödaktion.
-              Vem gynnar jordbrukarna? Ingen. Skulle det icke vara skäl, mina
-              herrar, att taga under övervägande att i samband med denna stora
-              proposition också diskutera jordbrukets och övriga näringars dåliga
-              läge. Ty här finnes med säkerhet en massa folk, som, ehuru de
-              icke ha direkt att göra med den här stora sorgliga tilldragelsen,
-              dock komma att lida av följderna av densamma, vore det icke skäl,
-              mina herrar, att söka diskutera och ena oss om en plan att rädda
-              gamla Sverige ur den nöd, som eljest med säkerhet kommer att följa.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-Gbo9XkAQ6qA87q4cjuKaHG">
-            Herr Magnusson i Skövde:
-          </note>
-          <u who="Q5972050" xml:id="i-3f0e426113a42a70-2">
-            <seg xml:id="i-7MF1BdbFgQ7RBPM8noHZaU">
-              Herr talman! Jag ber om överseende att jag på nytt begärt ordet,
-              men jag har gjort det med anledning av ett par underhandsord mellan
-              'mig och finansministern.
-            </seg>
-            <seg xml:id="i-HMbS3bbQk1FHwJaSkLuGJ1">
-              Av propositionen framgår, såvitt jag har kunnat se, att en utdelning
-              av 5/2 z på aktierna skall kunna lämnas under den tid, som staten
-              innehar fordran på banken. Är detta riktigt, ber jag att få förtydliga
-              vad jag förut sagt, att enligt min mening böra aktieägarna få
-              finna sig i, att under den tid, det här lånet skall regleras,
-              någon utdelning icke bör äga rum. Det var detta, som jag ville
-              ha sagt och som föranledde mig att ånyo begära ordet.
-            </seg>
-          </u>
-          <note xml:id="i-U14PsmnDYHZB7V3139RAdo" type="speaker">
-            Chefen för finansdepartementet herr statsrådet Hamrin:
-          </note>
-          <u who="Q53650" xml:id="i-9Dh4zmCjSr1doHEnmM3jUB">
-            <seg xml:id="i-6LgUyecu7QnvsVH7wnz8NZ">
-              Det sista yttrandet av herr Magnusson i Skövde beror på ett misstag,
-              som kanske jag själv gjort mig skyldig till. Jag syftar på den
-              sats, som återfinnes på sid. 4, där det under punkt 4 säges att:
-              »det förutsättes, att någon utdelning ej äger rum under innevarande
-              år». Jag ber att få erinra kammarens ledamöter därom, att styrelsen
-              för banken framlagt sin förvaltningsberättelse och föreslagit
-              bolagsstämman en utdelning av 15 kr. pr aktie, vilket motsvarar
-              ungefär 10,6 2 på aktiernas nominella värde.
-            </seg>
-            <seg xml:id="i-717ssM4ojwRGhbXcokzgum">
-              Då jag emellertid nu alldeles oförberett nödgas begära ordet,
-              skall jag tillåta mig att säga ytterligare några få ord. Jag vill
-              då giva uttryck åt den meningen, att den bitterhet, som här kommit
-              till uttryck från de talare, som redan ha haft ordet, knappast
-              kunna vara starkare uttryck för deras känslor än för mina och
-              — jag är övertygad därom — hela regeringens känslor. Det är ju
-              alldeles uppenbart, att det är först efter en synnerligen ingående
-              och djupgående prövning av detta ärende, som regeringen framlagt
-              den proposition, som för en stund sedan avlämnades. Jag tillägger
-              blott, att hade det förhållit sig så, att denna väldiga stödåtgärd
-              begärts för att skydda, såsom en talare här uttryckte sig, ett
-              enskilt bankintresse och dess aktieägare, skulle åtminstone icke
-              mitt namn stått på denna proposition. Men, mina herrar, det är
-              ju ändå så att detta stora kreditinstitut är kreditgivare och
-              förlagsgivare åt en betydande del av vårt näringsliv, icke blott
-              åt industrien utan jämväl i stor utsträckning åt jordbruket. Bankens
-              fall måste komma att innebära betydande vådor och ökade svårigheter
-              och bekymmer för alla näringsutövare i landet och skulle också
-              komma att medföra ökad, ja i högst avsevärd grad ökad, arbetslöshet
-              och minskade förvärvsmöjligheter för betydande delar av vårt folk.
-              Det är inför detta perspektiv och i en känsla av tyngden av ansvaret,
-              som regeringen och jag för min del nödgats framlägga den proposition,
-              som vi här nu förberedelsevis diskutera.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-pJ9KUXBGh1kH7qmd9chej">
-            Herr Kilbom:
-          </note>
-          <u who="Q1347810" xml:id="i-14d79cf76bdbfe8b-2" next="i-BsFXVq83ZaPN5p3YsoJJko">
-            <seg xml:id="i-VL6qKukhJtGNs4WhZkPxPx">
-              Herr talman! Som jag sade i mitt förra anförande är det ju fullkomligt
-              omöjligt åtminstone för den som fått sina uppgifter endast i pressen
-              att gå in på den remissdebatt, som här ändå utvecklat sig. Jag
-              hemställer sålunda ännu en gång om bordläggning av propositionen,
-              varigenom vi bli i tillfälle att i morgon återkomma till remissdebatten.
-            </seg>
-          </u>
-          <note xml:id="i-WxTNdkXuTjqxgZjXcT7myM">
-            Vidare anfördes ej. Ifrågavarande proposition bordlades.
-          </note>
-          <note xml:id="i-8LkWiuP7ES8PmsA4tej14Z">
-            Nr 26.
-          </note>
-          <note xml:id="i-AowLApcmQahj1Le2vNHpKB">
-            Ang. stöd åt Skandinaviska kreditaktiebolaget m. m. (Forts.)
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-013.jp2/_view"/>
-          <note type="date" xml:id="i-6cWfQtReJXLmJuFAN6DoPa">
-            14 Torsdagen den 31 mars.
-          </note>
-          <note xml:id="i-3kWedTWmzVNS83aA3h9jZX">
-            § 11.
-          </note>
-          <note xml:id="i-Gnc3Fu26sNhn9sHApFZuxy">
-            Herr Engberg uppläste och överlämnade en till riksdagen ställd,
-            av tryckt exemplar av de vid interparlamentariska unionens konferens
-            i Bukarest den 1—7 oktober 1931 fattade resolutionerna åtföljd
-            skrivelse av följande lydelse:
-          </note>
-          <note xml:id="i-MN3qSbjd9EXL8tmXsFXfDR">
-            Till riksdagen.
-          </note>
-          <u xml:id="i-BsFXVq83ZaPN5p3YsoJJko" prev="i-14d79cf76bdbfe8b-2" who="Q1347810">
-            <seg xml:id="i-CHGpfA4bNGw6FeXfogERgR">
-              I enlighet med bestämmelserna i stadgarna för Interparlamentariska
-              Unionen, att varje nationell grupp av nämnda union skall till
-              vederbörande statsmakters kännedom bringa de beslut av den interparlamentariska
-              konferensen, som äro av allmänt intresse, får styrelsen för Riksdagens
-              Interparlamentariska Grupp härmed vördsamt överlämna ett exemplar
-              av de vid den tjugusjunde interparlamentariska konferensen i Bukarest
-              den 1—7 oktober 1931 fattade resolutionerna.
-            </seg>
-          </u>
-          <note xml:id="i-4vZJosSoBtw3ajUgJeBPQC">
-            Stockholm den 31 mars 1932.
-          </note>
-          <note xml:id="i-3a3NU37vj11FaEsT3w4kDu">
-            Styrelsen för Riksdagens Interparlamentariska Grupp. Eric Hallin,
-          </note>
-          <note xml:id="i-Z6cU2ASREfiKqXTKRQXPd">
-            ordförande.
-          </note>
-          <note xml:id="i-G5AfeTxiLKNwVdKmU1Cd6q">
-            Omförmälda skrivelse och resolutioner lades till handlingarna.
-          </note>
-          <note xml:id="i-4qAAvKoj3bqAFbAdoXaKFM">
-            § 12.
-          </note>
-          <note xml:id="i-HD3DxopiFsiyeePet6FaM4">
-            Avlämnades följande motioner i anledning av Kungl. Maj:ts proposition,
-            nr 174, med förslag till förordning om ändring i vissa delar av
-            förordningen den 2 Juni 1922 om automobilskatt m. m., nämligen:
-          </note>
-          <note xml:id="i-SMvQqA3ADU543KkHfB7LdX">
-            nr 499 av herr Edberg;
-          </note>
-          <note xml:id="i-Vp15an2YBbnZD1cF5P2br7">
-            nar 500 av herr Lindmark;
-          </note>
-          <note xml:id="i-66SAGjXmax6TTE8UgBMNtW">
-            nr 501 av herrar Persson i Grytterud och Gustafson i Kasenberg;
-          </note>
-          <note xml:id="i-3p3yMhj39zvFg9SbpnwDXE">
-            nr 502 av herr Bengtsson i Kullen; samt
-          </note>
-          <note xml:id="i-KmqNoZo6BVmYGrYGNDDYXQ">
-            nr 503 och 504 av herrar Andersson i Rasjön och Pettersson i
-            Hällbacken.
-          </note>
-          <note xml:id="i-9nHtXTgXyifNJ6fMabHRSk">
-            Vidare avgåvos motioner av
-          </note>
-          <note xml:id="i-K2899fp65RLBgXXjWiwduy">
-            herrar Sandström och Molander, nr 505, i anledning av Kungl.
-            Maj:ts proposition, nr 210, angående statsförvärv av Härnösand—Sollefteå
-            järnväg m. m.; .
-          </note>
-          <note xml:id="i-RpDxkZ1o7Hk36kTbcPwCGE">
-            herr Andersson i Stockholm, nr 506, i anledning av Kungl. Maj:ts
-            proposition, nr 229, angående beredande av rätt till s. k. rekreationsresor
-            för viss personal vid försvarsväsendet med tjänstgöringsort i
-            Boden;
-          </note>
-          <note xml:id="i-Wc2jwwpudbn7ZCs7JsmWiG">
-            herr Andersson i Igelboda, nr 507, i anledning av Kungl. Maj:ts
-            proposition, nr 182, angående anslag till särskild polisverksamhet
-            för uppdagande av olovlig införsel av spritdrycker, lönnbränning
-            m. m.; och
-          </note>
-          <note xml:id="i-2YEH3kmrM2zu1ARRWRwMah">
-            herr Öhman m. fl., nr 508, om avslag å Kungl. Maj:ts proposition,
-            nr 178, med förslag till lag om ändring i vissa delar av lagen
-            den 6 juni 1925 om polisväsendet i riket.
-          </note>
-          <note xml:id="i-DLyyXW93zpT9xV52NwSG3X">
-            Samtliga ovannämnda motioner bordlades.
-          </note>
-          <note xml:id="i-C3RnFgmfzgsa2SyNvzpUhx">
-            § 13.
-          </note>
-          <note xml:id="i-V48F9C8HrJ8kMFqnkXi3m4">
-            Justerades kammarens protokoll för den 16 och den 22 innevarande
-            mars.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-014.jp2/_view"/>
-          <note type="date" xml:id="i-EqRMN7tM2Bj4raCvjwg4gB">
-            Torsdagen den 31 mars. 15 Nr 26.
-          </note>
-          <note xml:id="i-A5GYgmBBrFEUHaQsrF6SKq">
-            § 14.
-          </note>
-          <note xml:id="i-LBbKvCvpUWRkhxg7iogTdp">
-            Justerades protokollsutdrag angående av kammaren denna dag fattade
-            beslut.
-          </note>
-          <note xml:id="i-GdcbefBdQUaaEFngUYNkyf">
-            § 15. Ledighet från riksdagsgöromiålen beviljades: herr Månsson
-            i Furuvik under 4 dagar fr.o.m. den 1 april och &gt; Bergström i
-            Bäckland &gt; 2 &gt; &gt; &gt; 1 &gt;
-          </note>
-          <note xml:id="i-WWSy3YMTScjrSkeeBc96Ak">
-            Kammarens ledamöter åtskildes härefter kl. 3.50 e. m.
-          </note>
-          <note xml:id="i-NwJxVHiwbTzdmZGiTbZ1hw">
-            In fidem Per Cronvall.
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1932--ak--26</head>
+        <docDate when="1932-03-28">1932-03-28</docDate>
+        <docDate when="1932-03-29">1932-03-29</docDate>
+        <docDate when="1932-03-31">1932-03-31</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-000.jp2/_view"/>
+        <note xml:id="i-13KhwwHyxkwB3ARyobKj13">
+          RIKSDAGENS PROTOKOLL. 1932. Andra kammaren. Nr 26.
+        </note>
+        <note type="date" xml:id="i-TQFNY3puqkmGzhZRoiu5Tc">
+          Torsdagen den 31 mars. Kl. 2 e. m.
+        </note>
+        <note xml:id="i-MeCXBt4qNBRXZqPwMY4cZy">
+          § 1.
+        </note>
+        <note xml:id="i-YP5ULykAKR7TY145fn4rWr">
+          Upplästes följande till kammaren inkomna sjukbetyg:
+        </note>
+        <u xml:id="i-QQ6MRQZ6pKxGcbWQE6w6kn" who="unknown" next="i-HzyLk5XEDQKoExdQ22nfLz">
+          <seg xml:id="i-EF45Zc2JganJoW4JQkVjKR">
+            Att ledamoten av Riksdagens andra kammare, Redaktören Karl Andersson
+            från Katrineholm, på grund av sjukdom (lungsäcksinflammation)
+            är urståndsatt att under 4 veckor deltaga i riksdagsarbetet intygar.
+          </seg>
+        </u>
+        <note xml:id="i-P2k4HX1acWpQgfL2wEbaF">
+          Katrineholm den 28 mars 1932.
+        </note>
+        <note xml:id="i-K5tQQApU7JaFxRu4Uoj5Sr">
+          Carl Ellwyn, lasarettsläkare.
+        </note>
+        <u xml:id="i-HzyLk5XEDQKoExdQ22nfLz" who="unknown" prev="i-QQ6MRQZ6pKxGcbWQE6w6kn" next="i-UVHrSFqmCEcdcyA1fPqyKH">
+          <seg xml:id="i-DzRgjpWpysp3UZ7prDZMAs">
+            Att riksdagsmannen E. O. Magnusson i Tumhult på grund av sjukdom
+            — influensa — är urståndsatt att under minst en vecka från och
+            med denna dag deltaga i riksdagsarbetet; betygas härmed.
+          </seg>
+        </u>
+        <note xml:id="i-X8Drps7dMegPk4W9VFsb7J">
+          Tumhult och Växjö den 29 mars 1932.
+        </note>
+        <note xml:id="i-G71BgtkS1qaxMFfiLbgyFE">
+          A. Granholm, legitimerad läkare.
+        </note>
+        <u xml:id="i-UVHrSFqmCEcdcyA1fPqyKH" who="unknown" prev="i-HzyLk5XEDQKoExdQ22nfLz" next="i-C52mrpN3wYfTzm7SfxLPmq">
+          <seg xml:id="i-9bNsAZe6oTrw4zufcA6KPU">
+            Riksdagsman Emil Hultman, Järvsö, är på grund av sjukdom (ischias)
+            oförmögen att deltaga i riksdagsarbetet minst 10 dagar från dagens
+            datum.
+          </seg>
+        </u>
+        <note xml:id="i-QmBHxivpWnvTXrs5khn8Gs">
+          Järvsö den 29 mars 1932.
+        </note>
+        <note xml:id="i-ScsXDNc75SdgrPmYvesuJU">
+          Ragnar Zachrisson, provinsialläkare.
+        </note>
+        <note xml:id="i-HLLccF4vh8G9pPQojFqZr4">
+          § 2.
+        </note>
+        <note xml:id="i-KWmcBN6WPZjBB6RciaTTqN">
+          Föredrogs en av herr Törnkvist i Karlskrona ingiven ansökning
+          att på grund av trängande göromål i hemorten erhålla ledighet
+          från riksdagsarbetet under
+        </note>
+        <note xml:id="i-FMwcs4sTH9jA9cuAY8cTDT">
+          3 dagar från och med denna dag; och blev berörda ansökning av
+          kammaren bifallen.
+        </note>
+        <note xml:id="i-B44J2rU1QBz5EfrzUygx5c">
+          § 3.
+        </note>
+        <u xml:id="i-C52mrpN3wYfTzm7SfxLPmq" who="unknown" prev="i-UVHrSFqmCEcdcyA1fPqyKH">
+          <seg xml:id="i-45NSRNMtNaUBLC7ETRyq45">
+            Vidare upplästes en till kammaren inkommen, så lydande skrivelse:
+            Till Riksdagens andra kammare. Enär jag av hälsoskäl ej längre
+            anser mig kunna utöva riksdagsmannakallet, får jag härmed avsäga
+            mig min befattning såsom ledamot av kammaren. Väby, Hökerum den
+            21 mars 1932.
+          </seg>
+        </u>
+        <note xml:id="i-Bn9sy3F9NWjoqdkpit1TTf">
+          Otto Johansson, riksdagsman för Alvsb. 1. södra.
+        </note>
+        <note xml:id="i-6hNd26E7xUJPkjXwwdvsGL">
+          Kammaren beslöt, med godkännande av den gjorda avsägelsen, att
+          om den härigenom inom kammaren uppkomna ledigheten jämlikt $ 28
+          riksdagsordningen hos Konungen göra anmälan; och blev ett i sådant
+          avseende på förhand uppsatt skrivelseförslag, som nu upplästes,
+          av kammaren godkänt.
+        </note>
+        <note xml:id="i-U2Pe589TJwzrCN2GLqyjCb">
+          Andra kammarens protokoll 1932. Nr 26. i
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-001.jp2/_view"/>
+        <note xml:id="i-EGGSWLoVUBRs7U3gJFRAjT">
+          Nr 26.
+        </note>
+        <note type="date" xml:id="i-PVssmgYJJbwzpQRtY2DATd">
+          2 Torsdagen den 31 mars.
+        </note>
+        <note xml:id="i-N9p2a1QuZFSo7421MdjoZG">
+          § 4.
+        </note>
+        <note xml:id="i-UJHYtZGSJHFDjX4jCNCFBZ">
+          Sedan riksdagens båda kamrar förehaft och godkänt de uti bankoutskottets
+          memorial nr 13 samt statsutskottets memorial nr 33 och 38 föreslagna
+          voteringspropositioner rörande frågor, i vilka kamrarna fattat
+          stridiga beslut, samt bestämt blivit, att vederbörliga omröstningar
+          över de olika besluten skulle denna dag äga rum, så anställdes
+          nu omröstningar enligt nedan intagna voteringspropositioner i
+          följande ordning, nämligen:
+        </note>
+        <note xml:id="i-Vwzf1Bjdui6RFb9X4QQnAU">
+          1:a omröstningen: (enligt bankoutskottets memorial nr 13).
+        </note>
+        <note xml:id="i-71XVuSRMpgxu2Zg1mitoZL">
+          »Den, som i likhet med första kammaren vill bifalla det förslag,
+          som innefattas i den vid bankoutskottets utlåtande nr 10 fogade
+          reservationen och alltså, i anledning av förevarande motion I:55,
+          medgiva, att till vaktmästaren hos första kammaren W. E. Willberg
+          må, utöver honom författningsenligt tillkommande pension, från
+          och med kalenderåret näst efter det, varunder han sista gången
+          tjänstgör hos riksdagen, under hans återstående livstid från förslagsanslaget
+          till riksdagsoch revisionskostnader samt kostnader för riksdagens
+          hus utgå en tilläggspension av sexhundra kronor; röstar
+        </note>
+        <note xml:id="i-V82RpWqrDsSTRjvfRqkt9c">
+          Ja:
+        </note>
+        <note xml:id="i-4X2v5R9JNxjxVtftps2MiU">
+          Den, det ej vill, röstar Nej; Vinner Nej, har riksdagen, i likhet
+          med andra kammaren, bifallit vad utskottet i utlåtandet hemställt,
+          eller att förevarande motion I:55 icke må till någon riksdagens
+          åtgärd föranleda.»
+        </note>
+        <note xml:id="i-7PUh9UxALPCutpoBkBc3Sn">
+          Sedan efter given varsel kammarens ledamöter intagit sina platser
+          och voteringspropositionen blivit uppläst samt anslagen, företogs
+          omröstningen medelst namnupprop, och utföll densamma med 42 Ja
+          och 162 Nej, varjämte 8 av kammarens ledamöter förklarade sig
+          avstå från att rösta.
+        </note>
+        <note xml:id="i-AW8wb2ymuZ395HQyrt1kZU">
+          Den omröstning över ovanintagna voteringsproposition, som, enligt
+          ankommet och nu uppläst protokoll, blivit av första kammaren samtidigt
+          anställd,
+        </note>
+        <note xml:id="i-WWC7ASPPu1Sae9fDJxbBQe">
+          hade utfallit med .........ssssesseserrrrrrtrs sr ers rr 98 Ja
+          och 25 Nej, vadan, då därtill lades andra kammarens röster eller.
+          ... 42 Ja och 162 Nej, sammanräkningen visade .........ssrecoserrrrerrerrt
+          140 Ja och 187 Nej,
+        </note>
+        <note xml:id="i-HGduU9P5kXQV1durhj3ZGm">
+          och hade alltså beslut i denna fråga blivit av riksdagen fattat
+          i överensstämmelse med nejpropositionens innehåll.
+        </note>
+        <note xml:id="i-NrrbhohD3DkJ2NZyi4kYtu">
+          2:a omröstningen: (enligt statsutskottets memorial nr 33).
+        </note>
+        <note xml:id="i-Aqvko2XULjGrdm3KcSQZMf">
+          »Den, som i likhet med första kammaren vill, att riksdagen må
+          med anledning av herrar Bergqvists m. fl. och Hages m. fl. förevarande
+          motioner, I: 25 och II: 48, för tillfälliga hjälpåtgärder för
+          lindrande av nöd m. m. inom Norrbottens län för budgetåret 1932/1933
+          bevilja ett extra reservationsanslag av 50,000 kronor, röstar
+          Ja
+        </note>
+        <note xml:id="i-Hw2Qqf6xN5WZWt9poMM2xk">
+          ad;
+        </note>
+        <note xml:id="i-BhDfmUFAgY8PaUHA8UDrU5">
+          Den, det ej vill, röstar . Nej; Vinner Nej, har riksdagen, i
+          likhet med andra kammaren, beslutat avslå de i ämnet väckta motionerna
+          (1:25 och II: 48).»
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-002.jp2/_view"/>
+        <note type="date" xml:id="i-TmEE2DGdgzaxEDyvRYr5ZD">
+          Torsdagen den 51 mars. 3
+        </note>
+        <note xml:id="i-MQasJFCBeqFBTtzwX2VvVq">
+          Sedan efter given varsel kammarens ledamöter intagit sina platser
+          och voteringspropositionen blivit uppläst samt anslagen, företogs
+          omröstningen medelst namnupprop, och utföll densamma med 94 Ja
+          och 109 Nej, varjämte 9 av kammarens ledamöter förklarade sig
+          avstå från att rösta.
+        </note>
+        <note xml:id="i-6Q9wp8jLXC6jmVQa9UqiHY">
+          Den omröstning över ovanintagna voteringsproposition, som, enligt
+          ankommet och nu uppläst protokoll, blivit av första kammaren samtidigt
+          anställd,
+        </note>
+        <note xml:id="i-Y1ckr7QdzyyCTxqgCqab8n">
+          hade utfallit med .....sssossssessssssssss sees ss saa 66 Ja
+          och 58 Nej, vadan, då därtill lades andra kammarens röster eller
+          94 Ja och 109 Nej, sammanräkningen Visade .......ssssossssssr
+          sr serna 160 Ja och 167 Nej,
+        </note>
+        <note xml:id="i-HM6wQTgBvvtzeLfeppwF83">
+          och hade alltså beslut i denna fråga blivit av riksdagen fattat
+          i överensstämmelse med nej-propositionens innehåll.
+        </note>
+        <note xml:id="i-BwbubQBg8ZzerV4GpQ4voz">
+          3:e omröstningen: (enligt statsutskottets memorial nr 38).
+        </note>
+        <note xml:id="i-hpPh3ZZ4WCQMm7bWwLbjk">
+          »Den, som i likhet med första kammaren vill, att riksdagen må
+          i enlighet med Kungl. Maj:ts förslag och med avslag å de av herr
+          J. B. Johansson m. fl. och herr Larson i Tönnersa väckta motionerna
+          (I: 132 och II: 189), i vad desamma skilja sig från Kungl. Maj:ts
+          förslag, ävensom de av herr Möller m. fl. och herr Hansson m.
+          fl. väckta motionerna (I: 125 och II: 211) samt den av herr Lindhagen
+          väckta motionen (I: 216), för så vitt sistnämnda tre motioner
+          avse anslaget till det frivilliga skytteväsendets befrämjande,
+        </note>
+        <note xml:id="i-Hew1CiXZLWn65LEseiwXEL">
+          a) till det frivilliga skytteväsendets befrämjande för budgetåret
+          1932/1933 anvisa ett extra reservationsanslag av 280,875 kronor,
+        </note>
+        <note xml:id="i-ERFP2nJMrfYDhMUZMD7MUJ">
+          b) medgiva, att av kronans äldre ammunitionspartier må till de
+          frivilliga skytteföreningarna under budgetåret 1932/1933 försäljas
+          högst 5,000,000 skarpa patroner m/94 till ett pris av 5 öre för
+          patron, inklusive hylsa; röstar
+        </note>
+        <note xml:id="i-3Uj3dMTKjWoR87PcgugoP4">
+          Ja;
+        </note>
+        <note xml:id="i-Sx8g2obHTZdno8cqHYdUKS">
+          Nej;
+        </note>
+        <note xml:id="i-6akyq2CNimC22dGDJSvqke">
+          Vinner Nej, har riksdagen i likhet med andra kammaren beslutat
+        </note>
+        <note xml:id="i-Sotd2EnFu9u5WZFPmjryt4">
+          a) i anledning av de av herr Möller m. fl. och herr Hansson m.
+          fl. väckta motionerna (I1:125 och II: 211), i vad de avse anslag
+          till det frivilliga skytteväsendet, avslå såväl Kungl. Maj:ts
+          förslag om anvisande av anslag för detta ändamål för budgetåret
+          1932/1933 och om medgivande till försäljning av ammunition till
+          de frivilliga skytteföreningarna som herr J. B. Johanssons m.
+          fl. och herr Larsons i Tönnersa förenämnda motioner (1: 132 och
+          II: 189);
+        </note>
+        <note xml:id="i-TFRqEBAnCqJRpT5RUYcikX">
+          b) att herr Lindhagens motion (I: 216), i vad motionen avser
+          anslaget till det frivilliga skytteväsendets befrämjande, må anses
+          besvarad genom vad utskottet anfört och hemställt.»
+        </note>
+        <note xml:id="i-1xeJGKDqV6v4EHMH2tkTy">
+          Sedan efter given varsel kammarens ledamöter intagit sina platser
+          och voteringspropositionen blivit uppläst samt anslagen, företogs
+          omröstningen medelst namnupprop, och utföll densamma med 102 Ja
+          och 103 Nej, varjämte 8 av kammarens ledamöter förklarade sig
+          avstå från att rösta.
+        </note>
+        <note xml:id="i-W6a5GJ8oJYgGAtLVfsCBaa">
+          Den, det ej vill, röstar
+        </note>
+        <note xml:id="i-T3DcroYiRCFC9uwzc4VPZU">
+          Den omröstning över ovanintagna voteringsproposition, som, enligt
+          ankommet och nu uppläst protokoll, blivit av första kammaren samtidigt
+          anställd,
+        </note>
+        <note xml:id="i-9vpHL8SuuN2P3R8CqN6hJD">
+          hade utfallit med ...s.ossmsssersrresresse ss ss ess saa 76 Ja
+          och 52 Nej, vadan, då därtill lades andra kammarens röster eller
+          102 Ja och 103 Nej,
+        </note>
+        <note xml:id="i-9MFokmpvU8K62Nz5Fnagzb">
+          sammanräkningen Visade ....ssssssrssesssssss ss rna 178 Ja och
+          155 Nej,
+        </note>
+        <note xml:id="i-CTvSgjX4XxJ91dJiJKatMi">
+          och hade alltså beslut i denna fråga blivit av riksdagen fattat
+          i överensstämmelse med ja-propositionens innehåll.
+        </note>
+        <note xml:id="i-LbFCnpTB3EYWvAe4Xqmcxw">
+          Nr 26,
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-003.jp2/_view"/>
+        <note xml:id="i-JvWnbav5XfQ7nPd8sbxizE">
+          Nr 26,
+        </note>
+        <note type="date" xml:id="i-SrizmC34EYGkDqHR9drwfg">
+          4 Torsdagen den 31 mars.
+        </note>
+        <note xml:id="i-BSihvaCP9uB1aLCdz1voLt">
+          Sö Föredrogs var för sig följande Kungl. Maj:ts å kammarens bord
+          vilande propositioner; och hänvisades därvid
+        </note>
+        <note xml:id="i-RFv5w41oyYkwS5tHijXoHv">
+          till bevillningsutskottet propositionen, nr 220, med förslag
+          till lag om ändring i vissa delar av kommunalskattelagen den 28
+          september 1928 m. m.; : till bankoutskottet propositionerna:
+        </note>
+        <note xml:id="i-MovNz8xcfkkorbz3J5CRSi">
+          nr 231, angående understöd åt efterlevande till vissa i statens
+          tjänst anställda personer;
+        </note>
+        <note xml:id="i-PjZyYSswas1SkQeuhFqpjN">
+          nr 232, angående tilläggspension åt vissa i statens tjänst anställda
+          personer;
+        </note>
+        <note xml:id="i-P8XoHE5QccTUMHtPxG9ocs">
+          nr 233, angående pension åt vissa i statens tjänst anställda
+          personer; nr 234, angående distriktschefen vid statens järnvägar
+          G. E. Löfmarcks pensionsrätt;
+        </note>
+        <note xml:id="i-8wXpAyRaNPysn7xFuswTuU">
+          nr 235, angående uppfostringsbidrag åt avlidna telegrafkommissarien
+          Bea (Beda) Magdalena Valgrens dotter Marya Adelberti de Gotha
+          Valgren; och
+        </note>
+        <note xml:id="i-VsxSTjdDKgTNJteNGAZmHQ">
+          nr 236, angående pension åt förre järnvägsarbetaren J. E. Fransén;
+        </note>
+        <note xml:id="i-LRZEeEsJKgcL61AwoDaRCL">
+          till jordbruksutskottet propositionen, nr 237, angående försäljning
+          av vissa kronan tillhöriga hållhägnader i Norrbottens län;
+        </note>
+        <note xml:id="i-U975XABSezRF1VcuWVHvee">
+          till bankoutskottet propositionen, nr 238, med förslag till lag
+          om ändrad lydelse av 5 och 6 $$ lagen den 11 oktober 1907 (nr
+          85) angående civila tjänstinnehavares rätt till pension;
+        </note>
+        <note xml:id="i-3oytt25wb8dFt7ZRajkqTh">
+          till bevillningsutskottet propositionen, nr 239, med förslag
+          till förordning angående märkning av kärl, innehållande söta läskedryker,
+          m. m.;
+        </note>
+        <note xml:id="i-YYWG8EuQfSD4796cvXRn1h">
+          till bankoutskottet propositionerna:
+        </note>
+        <note xml:id="i-BGC8A728H1H9yPyJFwbBGs">
+          nr 240, med förslag till lag om ändrad lydelse av 13 $ lagen
+          den 4 juni 1920 (nr 254) angående rätt till tjänstepension för
+          ordinarie tjänstemän vid postverket, telegrafverket, statens järnvägar
+          och statens vattenfallsverk, m. m.;
+        </note>
+        <note xml:id="i-BUetjUk8MVETY6RPeDm4ST">
+          nr 241, angående beredande av delaktighet i statens pensionsanstalt
+          för fast anställda ämneslärare vid folkhögskolans specialkurs
+          för lantbruksstuderande;
+        </note>
+        <note xml:id="i-UBkCzYMX5Myz93Qd7XsuJM">
+          nr 242, angående pension åt förre daglönaren N. I. Landgren;
+          och
+        </note>
+        <note xml:id="i-ANvcHbawFTPmF23nBq31Ki">
+          nr 243, angående pension åt förra postbiträdet Ida Henrietta
+          Amalia Wallman; samt
+        </note>
+        <note xml:id="i-WTVnM3m6N35R1GwUbKjFwW">
+          till bevillningsutskottet propositionen, nr 244, med förslag
+          till förordning om ändring i vissa delar av förordningen den 19
+          november 1914 (nr 383) angående stämpelavgiften.
+        </note>
+        <note xml:id="i-RVECWcYGSTivD9MnVcyn1X">
+          Vid härpå skedd föredragning av propositionen, nr 245, angående
+          tillfällig löneförbättring under budgetåret 1932/1933 för viss
+          personal inom den civila statsförvaltningen överlämnades ifrågavarande
+          proposition, såvitt den anginge pensionsoch indragningsstaterna
+          till bankoutskottet, i vad den rörde jordbruksärenden till jordbruksutskottet
+          och i övrigt till statsutskottet.
+        </note>
+        <note xml:id="i-SCuokuR9vUUAKad72YBawq">
+          Vidare föredrogos och remitterades
+        </note>
+        <note xml:id="i-5sj2M1aSGBTiaaxUU8q3N3">
+          till bevillningsutskottet propositionerna:
+        </note>
+        <note xml:id="i-2jatMPhxsibQvjTkFHvwqN">
+          nr 246, angående restitution eller avkortning av vissa kronoutskylder,
+          som påförts vid Pehr Fricks Fabrikers Aktiebolag anställda personer;
+          och
+        </note>
+        <note xml:id="i-PxorCygHcHhD33zAcFep9Y">
+          nr 247, angående vissa ändringar i gällande tulltaxa; samt
+        </note>
+        <note xml:id="i-KniGneZuuhvDLj9Dgb1LST">
+          till konstitutionsutskottet propositionen, nr 188, angående godkännande
+          av en mellan Sverige och Turkiet undertecknad traktat angående
+          förlikning, rättsligt avgörande och skiljedom.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-004.jp2/_view"/>
+        <note type="date" xml:id="i-J5KTfnyVp2g2nbeyfqi59v">
+          Torsdagen den 31 mars. 5
+        </note>
+        <note xml:id="i-Er2fTsGxN48hcwWnHhthGB">
+          Härefter föredrogs propositionen, nr 192, med förslag till lag
+          angående ändring i 6 $ lagen den 26 maj 1909 om tjänstgöringen
+          i Kungl. Maj :ts lagråd m. m.; och hänvisades ifrågavarande proposition,
+          i vad den avsåge lagförslagen till behandling av lagutskott och
+          i övrigt till statsutskottet.
+        </note>
+        <note xml:id="i-Vph6tz6rNhgJGRwktSKGwi">
+          Slutligen föredrogos övriga å bordet vilande propositioner; och
+          överlämnades därvid
+        </note>
+        <note xml:id="i-3jmY8BbvkVL6RHJaStDPZk">
+          till konstitutionsutskottet propositionerna:
+        </note>
+        <note xml:id="i-947fe2hoghGyBjSb4kTvui">
+          nr 194, med förslag till ändrad lydelse av $$ 14, 15, 17—22,
+          27 och 28 riksdagsordningen samt till lag om ändring i vissa delar
+          av lagen den 26 november 1920 (nr 796) om val till riksdagen;
+          och
+        </note>
+        <note xml:id="i-3Xk2dPw3uyp6Zceh69KjN2">
+          nr 195, med förslag till ändrad lydelse av $ 12 riksdagsordningen;
+        </note>
+        <note xml:id="i-FJgyhgsgW38LcvWqZbKTP1">
+          till behandling av lagutskott propositionerna:
+        </note>
+        <note xml:id="i-DzqkTimfDwihABShn53NSQ">
+          nr 205, angående godkännande av en mellan Sverige, Danmark, Finland,
+          Island och Norge den 16 mars 1932 avslutad konvention om erkännande
+          och verkställighet av domar m. m.; och
+        </note>
+        <note xml:id="i-2Y488JoNVyMbMuD8QEBQEN">
+          nr 206, med förslag till lag om stads och landsbygds förenande
+          i judiciellt avseende m. m.;
+        </note>
+        <note xml:id="i-VgygVMSryvAZ54SZpfCSNu">
+          till jordbruksutskottet propositionerna:
+        </note>
+        <note xml:id="i-PwMowtJ5FnP5KMkf1Wm2nU">
+          nr 202, angående försäljning av vissa kronoegendomar och lägenheter
+          från sådana egendomar m. m.;
+        </note>
+        <note xml:id="i-BuS2G2ihRDEHEkgzixErGG">
+          nr 212, angående inrättande av en lånefond för inköp av gasgeneratorer
+          för motordrift m. m.;
+        </note>
+        <note xml:id="i-ST68rmBqAPD2FpsgNpZpok">
+          nr 215, angående statens avdikningsanslag och statens avdikningslånefond;
+        </note>
+        <note xml:id="i-FJfMjLzwPSqCV8nM5VbQWM">
+          nr 216, angående anordnande under år 1932 av en allmän jordbruksräkning;
+        </note>
+        <note xml:id="i-VhfQr3GNdS5PUD1gqNf5Lw">
+          nr 217, med förslag till lag om vård av vissa skogar inom Västerbottens
+          och Norrbottens läns lappmarker med flera områden m. m.;
+        </note>
+        <note xml:id="i-ATmvB8gUabBxpFV7Yb4Nsu">
+          nr 218, med förslag till förordning om ändrad lydelse av 1, 2
+          och 4 $$ förordningen den 15 juni 1923 (nr 213) angående skogsvårdsstyrelser;
+        </note>
+        <note xml:id="i-KDPpKx35sXhqnK5y7gPbKw">
+          nr 219, angående anslag till lantbrukshögskolan, centralanstalten
+          för försöksväsendet på jordbruksområdet, statens växtskyddsanstalt
+          samt lantbruksinstitutet vid Ultuna m. m.;
+        </note>
+        <note xml:id="i-XH98wZMebS4LYWmCtiXk5Y">
+          nr 222, angående förlängning av den räntefria tiden m. m. beträffande
+          vissa lån till Virestadssjöarnas sänkningsföretag i Kronobergs
+          län;
+        </note>
+        <note xml:id="i-2wzxY6K4ErGrFnn3eMvVi9">
+          nr 223, angående ytterligare statsunderstöd till delägare i Säveåns
+          regleringsföretag i Älsborgs län;
+        </note>
+        <note xml:id="i-6u3iCtHwLsz48eoe3mBs6y">
+          nr 224, angående ytterligare statsunderstöd till Mosjöbottnens
+          torrläggningsföretag i Örebro län m. m.;
+        </note>
+        <note xml:id="i-5e5GTvUQKBnyFG7f3oprS3">
+          nr 225, angående uppskov med amortering av två till reglering
+          av Nedre AÄrån i Jönköpings län beviljade lån från odlingslånefonden;
+        </note>
+        <note xml:id="i-ViscJKw5DoYcERYZt873MX">
+          nr 226, angående viss ändring av grunderna för statsbidrag till
+          utredning rörande reglering av Övre och Nedre Olandsån i Uppsala
+          och Stockholms län; och
+        </note>
+        <note xml:id="i-F7ivbUKQnupSZ8gkyTGEfd">
+          nr 230, angående anslag för byggnadsarbeten och andra engångskostnader
+          avseende lantbrukshögskolan samt Alnarps lantbruks-, mejerioch
+          trädgårdsinstitut;
+        </note>
+        <note xml:id="i-851YF1TTvEKsvt49aMuEFe">
+          till statsutskottet propositionen, nr 229, angående beredande
+          av rätt till s. k. rekreationsresor för viss personal vid försvarsväsendet
+          med tjänstgörimgsort
+        </note>
+        <note xml:id="i-BZ7DpaPBseo9eF4gRYRh1v">
+          i Boden;
+        </note>
+        <note xml:id="i-R8SQTxRJrFgTMaRP3SzP9L">
+          till konstitutionsutskottet propositionen, nr 207, med förslag
+          till lag angående ändring i vissa delar av lagen den 6 juni 1930
+          om kommunalstyrelse i stad Mm: Ms
+        </note>
+        <note xml:id="i-X7Z1QX5VTj3oua2dTXtsXa">
+          Nr 26.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-005.jp2/_view"/>
+        <note xml:id="i-8cD4dJVs1z8kHHkuTTqzsm">
+          Nr 26;
+        </note>
+        <note xml:id="i-S1GHUXfM4wtKJWsSBJHymM">
+          Ang. stöd åt Skandinaviska kreditaktiebolaget m. m.
+        </note>
+        <note type="date" xml:id="i-5PcqQn5mE8BnWBqAjei3Rg">
+          6 Torsdagen den 31 mars.
+        </note>
+        <note xml:id="i-DiJNsg1tpWobscXXDpyiGG">
+          till bevillningsutskottet propositionen, nr 208, med förslag
+          till förordning om ändring i vissa delar av förordningen den 6
+          augusti 1894 (nr 61) angående mantalsskrivning m. m.;
+        </note>
+        <note xml:id="i-KZSoMjzWAQ1bCNbTNDWd4y">
+          till behandling av lagutskott propositionen, nr 209, med förslag
+          till lag om ändrad lydelse av $ 45 mom. 2 i värnpliktslagen den
+          12 juni 1925 (nr 337);
+        </note>
+        <note xml:id="i-DAXsTBdKEQCrfVYMvb17zd">
+          till statsutskottet propositionen, nr 214, angående anslag till
+          allmän levnadskostnadsundersökning;
+        </note>
+        <note xml:id="i-84VyYWyUFU85S9EBaYUxV9">
+          till behandling av lagutskott propositionen, nr 228, med förslag
+          till kungörelse om ändring i vissa delar av brandstadgan den 15
+          juni 1923; samt till statsutskottet propositionerna:
+        </note>
+        <note xml:id="i-MgWihUfRbCiKy5FQ8Y8sF3">
+          nr 221, angående viss ändring av läroverksorganisationen i Stockholm;
+        </note>
+        <note xml:id="i-Nwjh5oyPjKpPG2Q7wrdLxV">
+          nr 210, angående statsförvärv av Härnösand—Sollefteå järnväg
+          m. m.;
+        </note>
+        <note xml:id="i-9UXEU51vz99Gwf6mcxqzHn">
+          nr 213, angående anslag till säkerhetsanordningar till ledning
+          för fiskefartyg m. m.; och
+        </note>
+        <note xml:id="i-4qSwgwZRPiAuGcJtq3QGBd">
+          nr 227, rörande anordnande av ett sjöhistoriskt museum i Stockholm.
+        </note>
+        <note xml:id="i-L8r6MCsWApPA23k4V2phvL">
+          § 6. Vidare föredrogos var efter annan de på kammarens bord liggande
+          motionerna; och remitterades därvid till statsutskottet motionerna:
+        </note>
+        <note xml:id="i-6CVNJWEpmHd4qpXKsr9Ej3">
+          nr 492 och 493 av herr Hage m. fl.;
+        </note>
+        <note xml:id="i-LfXdmGTmAzgYN3D2DkREkF">
+          nr 494 av herrar Månsson i Furuvik och Holmström; nr 495 av herr
+          Thomson;
+        </note>
+        <note xml:id="i-9gZYouRLd8gX8PyeC4xVUi">
+          nr 496 av herr Weijne; och
+        </note>
+        <note xml:id="i-PyU9pQJWskYC9t4mpbsWsM">
+          nr 497 av herr Lundquist i Rotebro; samt
+        </note>
+        <note xml:id="i-QSgBbJRk2jUfu1wc162f51">
+          till behandling av lagutskott motionen nr 498 av herr Lundquist
+          i Rotebro.
+        </note>
+        <note xml:id="i-BV4JUWZHx6yKTzmwwsRJLp">
+          § 7.
+        </note>
+        <note xml:id="i-KuE165kecsvCcF2aP1nKHb">
+          Föredrogos, men blevo ånyo bordlagda konstitutionsutskottets
+          utlåtanden nr 10—12 och bankoutskottets utlåtanden nr 14—21.
+        </note>
+        <note xml:id="i-7hZDxFWGCVLxr1LFK5YWvq">
+          § 8.
+        </note>
+        <note xml:id="i-Tw8TkkWHqBTTQyHNQSaaQV">
+          Vid föredragning härpå av första lagutskottets memorial, nr 30,
+          angående arvode åt den, som inom första lagutskottet biträtt vid
+          behandlingen av Kungl. Maj:ts propositioner nr 72—74 angående
+          godkännande av en internationell konvention för betryggande av
+          säkerheten för människoliv till sjöss m. m., blev utskottets däri
+          gjorda hemställan av kammaren bifallen.
+        </note>
+        <note xml:id="i-TBsbNJ6AdnZGfnNCJoGH7W">
+          § 9. Jordbruksutskottets nu föredragna utlåtanden nr 32—35 bordlades
+          åter.
+        </note>
+        <note xml:id="i-5J9XfNdJ2tUejyGvYr71wm">
+          § 10.
+        </note>
+        <note type="speaker" xml:id="i-J5iNdUUwtmnvZAzdsjAgrM">
+          Herr statsrådet Hamrin avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-CJy4Ep1SPC1x2a99Dx5UCR">
+          ts proposition, nr 248, angående stöd åt Skandinaviska kreditaktiebolaget
+          m. m.
+        </note>
+        <note xml:id="i-YYhHvomNRptmeNJfsCyQHX">
+          Ordet begärdes därefter av
+        </note>
+        <note type="speaker" xml:id="i-UpNZ4agZYvqNRzEXye9y9F">
+          Herr Lundstedt, som anförde:
+        </note>
+        <u who="Q349359" xml:id="i-fe09edf6591b5b70-0" next="i-fe09edf6591b5b70-1">
+          <seg xml:id="i-6EoMqkowowEupcXcRgMNXx">
+            Herr talman, ers excellens, mina damer och herrar! Huruvida den
+            i den nu framförda propositionen inslagna vägen verk-
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-006.jp2/_view"/>
+        <note xml:id="i-Tj5qbjFbjaQVKC9muueSVq">
+          -
+        </note>
+        <note type="date" xml:id="i-9CWUvmCbxNNfSc6ftj9AvT">
+          Torsdagen den 31 mars. 7
+        </note>
+        <u who="Q349359" xml:id="i-fe09edf6591b5b70-1" prev="i-fe09edf6591b5b70-0" next="i-fe09edf6591b5b70-2">
+          <seg xml:id="i-KHJtNK3rnev5k5SNGu6L3U">
+            ligen är den för landet bästa, därom kan naturligtvis jag, även
+            om jag hade större kunskaper i ämnet, än som kunnat inhämtas av
+            dagspressen, icke ha någon kompetens att uttala mig.
+          </seg>
+          <seg xml:id="i-6p2jADC4mpEBcyP71sug73">
+            Men onekligen innefattar det en betydande trygghet att veta,
+            att regeringen så snabbt och energiskt som sker handlar i denna
+            för vårt land så trista angelägenhet. Redan ha ett par extraordinära
+            propositioner framlagts; och man kan förmoda, att flera liknande
+            ting bliva av nöden. Nu reser sig emellertid frågan, om detta
+            tillvägagångssätt — propositioner, utskottsutlåtanden och kammarbehandlingar
+            — också i fortsättningen städse kan vara den lyckligaste tekniken
+            för förvaltningen av det allmännas intressen i det inträffade
+            läget. Detta läge är otvivelaktigt så pass allvarligt för hela
+            landets ekonomi, att det kan tänkas motivera från det normala
+            avvikande grundsatser för statens handlingssätt. Från utlandet
+            inströmma de mest oförtäckta beklaganden av den situation, vari
+            Sveriges näringsliv anses ha råkat. Dessa beklaganden få särskild
+            relief därigenom, att flera andra länder känna sitt eget affärsliv
+            avsevärt berört av den svenska kraschen. Vårt lilla land var ett
+            slags centrum för hela det vittfamnande företaget och får såsom
+            sådant taga de kraftigaste stötarna. Den första för själva landet
+            mera kännbara stöten bereda vi oss nu att möta med den framlagda
+            propositionens hjälp. Sverige har dock säkerligen — det omvittnas
+            allmänt och från skilda håll — de nödiga resurserna för att kunna
+            tåla dessa stötar. Men frågan är likväl, om denna svåra kris skall
+            på bästa sätt kunna övervinnas, utan att särskilda åtgärder vidtagas
+            för organisering av en för de inträffade förhållandena särskilt
+            lämpad statsledning. Enligt min ringa mening kunde denna fråga
+            med skäl ha ställts månader före den inträffade aktualiseringen
+            av de Kreugerska svårigheterna. Kastar man en blick tillbaka på
+            de tre senast gångna kvartalen, ser man, hur jobspost följt på
+            jobspost. Danatbanken stängdes. De därefter till Londonmötet knutna
+            förhoppningarna grusades. Så kom pundkatastrofen. Därpå oroades
+            världen av konflikten mellan Kina och Japan. Från Tyskland ingingo
+            titt och tätt underrättelser fyllda av oro för ett sammanbrott
+            med därur härflytande olyckor av oöverskådlig räckvidd för hela
+            det västerländska Europa. Bland ljusglimtar trodde man sig kunna
+            peka på Hoover-moratoriet. Men var det verkligen en ljusglimt?
+            Kanske för Tyskland. Men för Sverige kunde det icke så betecknas
+            med de avspärrningsåtgärder, som i Tyskland vidtogos. Alla visste
+            vi nu vilka våldsamma transaktioner den svenska penningkejsaren
+            inlåtit sig på med Just Tyskland. Var denne man en verklig trollkarl?
+            Varom icke, så — krukan går så länge, tills den brister. Undertecknad
+            har aldrig haft tillfälle att skåda bakom de storfinansiella kulisserna.
+            Men jag har haft tillfälle till tankeutbyte med omdömesgilla och
+            fördomsfria människor. Och från allmänt kända fakta — dels hela
+            världsekonomiens gungning, dels Kreugerkoncernens svindlande dimensioner
+            — var den slutledningen nära nog ofrånkomlig, att även detta företag
+            måste befinna sig i gungning och att det verkligen vore ett trolleri,
+            ett underverk, om icke detta svenska jättebolag till sist skulle
+            taga en ända med förskräckelse, varvid katastrofen 1 första hand
+            måste gå ut över vårt lilla men hittills ekonomiskt dock så väl
+            skötta land. — Så syntes då de nyss antydda tillbuden till världskrisens
+            ödesdigra utveckling innefatta en varning, en varning adresserad
+            till oss på ett alldeles särskilt sätt. Detta utgjorde den faktiska
+            bakgrunden för vissa synpunkter, som jag för några månader sedan
+            tillät mig uttala i en sluten församling. Jag tager mig här friheten
+            att kortfattat återgiva det väsentliga av dessa synpunkter.
+          </seg>
+          <seg xml:id="i-QM5t4DWqW9q5uLncb3YZa1">
+            Hur utvecklade än de internationella förbindelserna mellan folken
+            äro, måste ett land dock alltid slutligen lita till sig självt.
+            Och i sådant avseende kan en nation stundom nödgas att till det
+            yttersta utnyttja de hjälpkällor, som kunna finnas. Därvid bör
+            märkas, att en nations inre politik så till vida kan vara
+          </seg>
+        </u>
+        <note xml:id="i-YQ2pC53Rv5NkcUC2vVNhEx">
+          Nr 26.
+        </note>
+        <note xml:id="i-PQn7XUfYpRMXRKXxdMtZ94">
+          Ang. stöd åt Skandinaviska kreditaktiebolaget m. m. (Forts.)
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-007.jp2/_view"/>
+        <note xml:id="i-J9fFdRoTfqNSGDgW5Wn1RN">
+          Nr 26.
+        </note>
+        <note xml:id="i-PprN6iRjbbk1xR9zN1FnbH">
+          Ang. stöd åt Skandinaviska kreditaktiebolaget m. m. (Forts.)
+        </note>
+        <note type="date" xml:id="i-SwqTM7NCxrXhYxKAjGf5Az">
+          8 Torsdagen den 31 mars.
+        </note>
+        <u who="Q349359" xml:id="i-fe09edf6591b5b70-2" prev="i-fe09edf6591b5b70-1" next="i-fe09edf6591b5b70-3">
+          <seg xml:id="i-8cNA5xLAStXVbKcYTQGdru">
+            att likställa med landets direkta tillgångar, att den kan binda
+            eller frigöra resurser, som vid särskilda tillfällen kunna vara
+            av största betydelse. Detta framträder icke alltid på samma aktuella
+            sätt. Men när fara är å färde, då kan denna synpunkt bli både
+            A och O i det för hela folket bästa tillvägagångssättet.
+          </seg>
+          <seg xml:id="i-dMi8GZJ3M6C4Gtj5dfhcj">
+            Om man påstode, att situationen för vårt land nu (d. v. s. vid
+            tillfället 1 fråga, i mitten av januari) är mera oroväckande än
+            den någonsin förut i senare tid varit, så skulle man kanske påstå
+            något, som man icke direkt kunde bevisa. Men vad man med bestämdhet
+            kan säga, det är, att aldrig någonsin förut har en kris av detta
+            slag hotat vårt land. Man kan vidare med bestämdhet säga, att
+            ingen vet, vart det kommer att bära hän och att denna kris kan
+            komma att lössläppa krafter utifrån eller inifrån, vilka möjligen
+            bliva av skickelsediger betydelse för vårt lands framtid. I en
+            sådan situation synas befolkningens gemensamma intressen kräva,
+            att man i tid gör sig beredd att möta den hotande faran och söka
+            förebygga vissa konsekvenser av världskrisens utveckling. Det
+            synes mig kunna ifrågasättas, huruvida icke den tidpunkten nu
+            är kommen.
+          </seg>
+          <seg xml:id="i-6iRurnzoyfHghn1NsJg8SJ">
+            Varje politiskt parti — som verkligen är politiskt och icke är
+            beslutet att ensidigt i varje väder och vind endast hävda partiets
+            egna intressen, sådana som de omedelbart framträda — varje sådant
+            parti, säger jag, måste med sina argument och beslut tillse, att
+            välståndet i hela landet i görligaste mån uppehålles. Denna synpunkt
+            måste i tider, då detta välstånd på ett särskilt sätt hotas, rentav
+            tränga i förgrunden. Det kan i sådana tider bliva nödvändigt att
+            icke i den praktiska politiken aktualisera vissa krav, som det
+            eljest varit en angelägen sak att skjuta fram. Redan härigenom
+            borde på ett helt naturligt sätt uppstå en viss avspänning i förhållandet
+            mellan de olika partierna. Ä andra sidan ligger en särskild fara
+            för hela samhället i det missnöje, för att icke säga den förtvivlan,
+            på grund av arbetslöshet och ekonomisk nöd, som inom omfattande
+            befolkningslager måste sprida sig, därest landets allmänna ekonomi
+            inotn den närmaste framtiden skulle märkbart försämras. I den
+            rådande situationen måste det därför också inom de borgerliga
+            partierna kunna väckas ett verkligt intresse av annan art än vanligt
+            för medverkan till hävande av den värsta ekonomiska nöden för
+            småfolket och i fortsättningen för att motverka nödens spirande.
+          </seg>
+          <seg xml:id="i-PEuDbpmWwiB15gmhfp2uEL">
+            Detta var grundtanken i det uttalande jag tillät mig göra vid
+            det ifrågavarande tillfället. Jag kunde därvid intet nämna angående
+            Kreugerkoncernens farlighet. Jag hade inga andra kunskaper än
+            vilken som helst annan. Det var för mig liksom för de flesta andra
+            privatpersoner omöjligt att tränga tillräckligt djupt i det faktiska
+            läget. Betänk, att vid den tiden funnos ännu inga skuggor i den
+            gloria, varmed penningfursten omstrålades i den allmänna meningen!
+            Det kunde vara farligt för den oinvigde att vara närgången. Vad
+            som redan då saknades och som redan länge saknats, det var enligt
+            min mening en regering med den utomordentliga auktoritet, att
+            den vågat laga efter lägligheten, d. v. s. att den vågat kräva
+            en granskning av papperen i ett företag, som visserligen var av
+            privaträttslig natur, men som dock genom sina svindlande dimensioner
+            kunde tänkas störta landet i misär. Frågan, huruvida ett sådant
+            företag för alla eventualiteter hade en faktiskt hållbar proportion
+            mellan sina tillgångar och skulder, den frågan var av ödesdiger
+            betydelse för Sverige, dels direkt för oss själva, dels indirekt
+            med hänsyn till vårt moraliska ansvar till utlandet. Ingen regering
+            i hela världen låg dock närmare till att söka syna Kreugerkoncernen
+            i sömmarna än den svenska regeringen. Sverige hade också ett särskilt
+            intresse att beakta, nämligen vad en tidning i går kallade distribueringen
+            av svensk produktionsteknik till utlandet, varigenom vår konkurrenskraft
+            möjligen kunde minskas. Vidare synes mig ha förelegat ett
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-008.jp2/_view"/>
+        <note type="date" xml:id="i-9JRRZWciPTxuKXc8n2RDf8">
+          Torsdagen den 31 mars. 9
+        </note>
+        <u who="Q349359" xml:id="i-fe09edf6591b5b70-3" prev="i-fe09edf6591b5b70-2" next="i-fe09edf6591b5b70-4">
+          <seg xml:id="i-HP66eo7qYBPpnkE6mRPqVi">
+            allmänt intresse att värdera betydelsen av att en del av vår
+            egen tändsticksindustri nedlades till förmån för utlandet. Allt
+            detta är emellertid icke på något sätt att fatta såsom en kritik
+            av den nu sittande regeringen. Med dennas ur politisk synpunkt
+            svaga underlag kunde den näppeligen ha förfarit annorlunda än
+            den gjort. Vad jag sagt, har jag sagt endast för att illustrera
+            betydelsen i kritiska tider av en stark regering.
+          </seg>
+          <seg xml:id="i-GCirp8AexDPsUuLK59VMnt">
+            Funnos sålunda redan förra året och kanske dessförinnan vissa
+            grunder för att taga i övervägande, huruvida icke en regering
+            med en annan auktoritet än den nuvarande borde träda till styret,
+            så synes mig denna fråga genom de senaste veckornas händelser
+            ha blivit högeligen auktualiserad. Äro icke, ers excellens och
+            herrar ledamöter av partiledningarna, äro icke förhållandena sådana,
+            att de framtvinga en allvarlig och på djupet gående diskussion
+            angående lämpligheten, för att icke säga nödvändigheten, av en
+            ömsesidig avspänning i de politiska motsatserna, för intet annat
+            syfte än en konsolidering i görligaste mån av landets ekonomiska
+            hjälpkällor och andra resurser. Under denna riksdag ha såväl från
+            regeringens som från andra inflytelserika politikers sida ofta
+            framkommit vackra bevis på oegennyttiga omsorger om landets bästa.
+            Likväl kan man i det förevarande läget tycka sig sakna sådana
+            ord och sådana tongångar, som göra det klart, att man är till
+            det yttersta beredd att i fall av behov lösgöra av partipolitiken
+            bundna krafter till mötande i en mäkta ödesdiger tid av en fara,
+            desto mer allvarligt oroande, som ingen till fullo känner dess
+            räckvidd, och ingen ens vet med säkerhet, varifrån den hotar.
+          </seg>
+          <seg xml:id="i-tTVB2Wr8Fwsv7nSpsMgaw">
+            Vårt folk kan icke av sina ledande män kräva det omöjliga, kräva
+            orosanledningarnas undanröjande. Vad majoriteten av vårt reflekterande
+            folk torde önska är därför endast, att det möjligaste åvägabringas
+            av trygghet i en orolig tid, på det att affärslivet och produktionen
+            må kunna fortgå och stimuleras samt exporten om möjligt ökas till
+            befrämjande av en gynnsam handelsbalans. Jag är av den uppfattningen,
+            att denna trygghet för hela landet, och därmed framför allt för
+            de ekonomiskt sämst ställda, är det mest eftersträvansvärda. Men
+            jag har också den uppfattningen, att detta mål skulle bäst befordras,
+            därest en man med det största förtroendet hos det största antalet
+            medborgare trädde fram och gjorde ett försök att kring sig samla
+            det yppersta vad landet har, av män från skilda partier, utmärkta
+            genom beprövat allmänt förtroende och genom högsta fackkunskap
+            i de krävande frågorna. Om det överhuvud icke är likgiltigt för
+            ett konstitutionellt land, hur dess regering är sammansatt, d.
+            v. s. hurudan den politiska grunden för densamma är, vilken auktoritet
+            den har, så måste det väl i ett läge som det rådande — ett läge,
+            där redan en extraordinär moratorielag måst antagas, och där regering
+            och riksdag, trots en redan synnerligen hårt pressad budget, synas
+            vara färdiga att plötsligt engagera sig för hundratals miljoner
+            — vara av största betydelse, att vid styret sitter en regering
+            av utomordentlig styrka på grund därav att den utrustats med ett
+            kvalificerat allmänt förtroende. Thågkommas måste också, att utlandet
+            i dessa tider har sin särskilda uppmärksamhet i ekonomiska ting
+            riktad på Sverige. Att utlandet får ett gynnsamt, ett särdeles
+            gynnsamt, intryck är förvisso icke utan sin stora betydelse. Det
+            torde vara otvivelaktigt, att en nu antydd samling i vårt land
+            skulle i hög grad bidraga till ett sådant intryck i utlandet.
+          </seg>
+          <seg xml:id="i-FAVnWjTDpfQKWr8emokNvU">
+            Huvudpunkt på programmet vore dock givetvis åtgärder av sådant
+            slag, att vårt eget folk måste förstå, att statsledningen är icke
+            blott beredd utan även kapabel att göra det yttersta för att hindra
+            den ekonomiska nöden att utbreda sig bland de små i samhället.
+            Men den erforderliga allmänna oftervilligheten för genomförandet
+            av en sådan programpunkt torde icke kunna åstadkommas, utan att
+            en verklig politisk samling äger rum.
+          </seg>
+          <seg xml:id="i-ReVrq9WFugVDrX73rHH4ak">
+            Förutsättningen för en sådan utomordentlig regering, d. v. s.
+            för att den skulle kunna helt lyckas styra statsskeppet igenom
+            de oroliga farvattnen, vore
+          </seg>
+        </u>
+        <note xml:id="i-4Ygdhs7rntPG5dAgKSXsnV">
+          Ang. stöd åt Skandinaviska kreditaktiebolaget m. m.
+        </note>
+        <note xml:id="i-NVmJpc4q6299HNXqcXRzyJ">
+          (Forts.)
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-009.jp2/_view"/>
+        <note xml:id="i-SJ3EtoVWKGgEfGFwnYUXkB">
+          Nr 26.
+        </note>
+        <note xml:id="i-9zPVgTx82JTateswmVEZ4E">
+          Ang. stöd åt Skandinaviska kreditaktiebolaget m. m. (Forts.)
+        </note>
+        <note type="date" xml:id="i-LumUmE5YrjEVor25UCbXWx">
+          10 Torsdagen den 31 mars.
+        </note>
+        <u who="Q349359" xml:id="i-fe09edf6591b5b70-4" prev="i-fe09edf6591b5b70-3">
+          <seg xml:id="i-Dkn9DN3F96q6SZCe59iPvs">
+            givetvis, att den erhölle riksdagens bemyndigande i en eller
+            annan form att handla så, som den med hänsyn till det allmänna
+            läget och inträffade särskilda situationer funne vara nödvändigt
+            eller gagneligt. Givetvis vore framgången icke allenast beroende
+            på en nu nämnd regering. Nära nog varje medborgare har i sin hand
+            att genom energi och sparsamhet, genom val av livsförnödenheter
+            och framför allt genom uppoffrande handlingssätt giva sitt bidrag
+            till befrämjande av det allmänna bästa. Tillkomsten av denna regering
+            med dess särskilda förtroende från alla håll skulle, såvitt jag
+            förstår, understryka tidens allvar och skärpa medborgarnas ansvarskänsla
+            i de hänseenden, jag nu antytt.
+          </seg>
+          <seg xml:id="i-KC46BoNEGA4f1KN767z9cT">
+            Det kan icke för starkt understrykas, att mina ord icke ha någon
+            personlig udd åt något håll, framför allt att de stå i den bästa
+            överensstämmelse med en hög, mycket hög uppskattning av den politiska
+            och fackliga kapaciteten hos den sittande regeringens medlemmar.
+            Flera av dem äro uppenbarligen högst betydande personligheter.
+            Men har man den starka övertygelsen, som jag har, angående vad
+            som i det inträffade läget är det för landet bästa, då kan man
+            enligt min mening icke stå till svars inför sig själv med att
+            i denna församling, när man har äran att därav vara ledamot, undertrycka
+            en sådan övertygelse. Det är hela saken. Det är anledningen till
+            att jag talat som jag gjort. Naturligtvis inser jag, att sådana
+            synpunkter, som jag nu berört, ha blivit övervägda både av herrar
+            statsråd, partiledare och andra riksdagsmän. Mitt inlägg är därför
+            endast att fatta som en vädjan till regeringen och till partierna
+            att taga under förnyad omprövning, huruvida icke en landsregering
+            i mest egentliga mening vore för oss alla, vore för hela folket,
+            i dessa bistra tider det tryggaste.
+          </seg>
+        </u>
+        <note xml:id="i-LsUQmipjuLbpvSzJB4XRJu">
+          Vidare yttrade:
+        </note>
+        <note type="speaker" xml:id="i-LCCn7bSoUfRsVg5swzS77P">
+          Herr Kilbom:
+        </note>
+        <u who="Q1347810" xml:id="i-14d79cf76bdbfe8b-0" next="i-14d79cf76bdbfe8b-1">
+          <seg xml:id="i-3qmm642n9ukZBxFiyucJPa">
+            Herr talman! Under den pressdebatt, som föregått den nu avlämnade
+            propositionen, har det förklarats, att meningen var, att propositionen
+            skulle slutbehandlas redan på lördagen. Jag vet inte, i vad mån
+            detta stämmer med regeringens intentioner, men alldeles utan grund
+            torde det väl inte vara. Det har vidare förklarats från en rad
+            av tidningar, att hela denna fråga i verkligheten är avgjord genom
+            en förbehandling mellan å ena sidan regeringen och å andra sidan
+            partiledningarna samt riksgäldsfullmäktige och riksbanksfullmäktige.
+            Vad är det för sorts nya fasoner, man på det sättet får införda
+            i riksdagen! (Ja, äro de gamla, så synes det mig vara desto större
+            skäl att bryta med dem.) Eller anser inte den sittande regeringen,
+            att det nuvarande läget är så pass allvarligt, att det verkligen
+            motiverar ett mycket omsorgsfullt förberedande av de handlingar,
+            som kunna behöva vidtas? Amser man sig kunna traska vidare på
+            den gamla korridorpolitikens vägar, då tror jag inte man har stora
+            förutsättningar att lösa vad man föresatt sig. Det är Ju ändå
+            så, antar jag, att både de tvenne nyssnämnda institutionerna,
+            framför allt riksbanken, och ävenledes regeringen haft tillfälle
+            att få alla de informationer, som man ansett vara av vikt. Men
+            riksdagen har det inte. Och dock få vi se, herr talman, hur man
+            här helt enkelt kräver, att riksdagen utan vidare skall köra igenom
+            hela denna sak utan att få ordentlig kännedom om vad som ligger
+            till grund för regeringens förslag och vilka konsekvenser det
+            kan komma att medföra. Det tillkommer inte oss att slå vakt om
+            någon slags borgerlig demokrati, men nog tycker jag, att herrarna
+            skulle ha anledning att själva ställa sig den frågan, var ni nu
+            äro någonstans, om ni inte äro inne på andra vägar än den borgerliga
+            demokratiens. Inkallandet och tillskapandet av någon privatriksdag
+            för behandling av några som helst frågor känner varken riksdagsordningen
+            eller grundlagsbestämmelserna i övrigt till, och man hade inte
+            trott, att någonting dylikt här skulle, såsom skett, komma till
+            uttryck. Ingen av riksdagens ledamöter har en aning om vad propositionen
+            innehåller,
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-010.jp2/_view"/>
+        <note type="date" xml:id="i-HUwSs2rMpfWReoUaREHjDA">
+          Torsdagen den 31 mars. 11
+        </note>
+        <u who="Q1347810" xml:id="i-14d79cf76bdbfe8b-1" prev="i-14d79cf76bdbfe8b-0">
+          <seg xml:id="i-34fWe63EjzmqVdR2Ewzc3F">
+            för såvitt den inte till vissa privat delats ut tidigare än till
+            kammaren. Om den nu skall slutbehandlas på lördagen, så ha vi
+            gammal erfarenhet, inte minst sedan Kreditkassan 1922 och 1923,
+            att det kommer att ske på bekostnad av sakligheten. För att inlägga
+            en protest däremot, herr talman, och för att förbehålla oss rätten
+            att åtminstone få läsa propositionen och ta del av vad man vill
+            att riksdagen skall besluta, hemställer jag, att propositionen
+            måtte läggas på bordet.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-8CissYN9Bz17hBt6YAFbd4">
+          Hans excellens herr statsministern Ekman:
+        </note>
+        <u who="unknown" xml:id="i-f13d6e66c0d6bd46-0">
+          <seg xml:id="i-239Uutsq7hRXD4rQdMNTja">
+            Herr talman! Med anledning av herr Kilboms yttrande vill jag
+            endast helt kort säga, att regeringen aldrig förutsatt, än mindre
+            uttalat någon önskan om eller själv trott, att denna fråga skulle
+            bli färdigbehandlad i riksdagen på lördagen. Vad man kan uttala
+            är endast att den måtte ägnas snabbast möjliga behandling. Men
+            därav följer ingalunda, att förhållandena nu äro sådana, att man
+            skulle behöva behandla detta ärende med samma snabbhet, som när
+            det gällde moratorielagen, beträffande vilken det ju var önskvärt
+            att den kunde träda i kraft redan till närmaste söckendag. Varje
+            uppgift, att man från regeringens sida förutsatt, att den nu föreliggande
+            frågan skulle slutbehandlas på lördagen, är alltså fullständigt
+            ogrundad.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-TwAFvwPYtpzQWGvz2dyaqU">
+          Herr Magnusson i Skövde:
+        </note>
+        <u who="Q5972050" xml:id="i-3f0e426113a42a70-0" next="i-3f0e426113a42a70-1">
+          <seg xml:id="i-E3cZyr1JL3T32z9rKnqnbK">
+            Herr talman! Det hade säkerligen varit lyckligt, om den debatt,
+            som nu påbörjats, sparats till i morgon, så att man hade haft
+            tillfälle att läsa propositionen och inte måst bilda sig ett omdöme
+            allenast på grundval av de redogörelser, man sett 1 tidningarna.
+            När jag nu likväl tillåtit mig begära ordet, så är det endast
+            för att ge uttryck åt de bekymmer, som jag för min ringa del såväl
+            som många andra känner inför den situation, som uppstått, och
+            även för att ge uttryck åt den uppfattningen, att det förefaller
+            mig, att riksdagen i alltför hög grad ställes inför fakta, där
+            man intet annat val har än att gå med på vad som föreslås. Jag
+            tillåter mig i vänlighet erinra om vad jag var inne på under remissdebatten,
+            nämligen att det säkerligen hade varit lämpligt, om riksdagen
+            hade blivit sammankallad förliden höst, då de förhållanden seglade
+            upp, vars frukter vi nu i så bitter mån få skörda. Riksdagen hade
+            då kunnat hållas mera å jour med händelserna, och Jag tror, att
+            detta skulle kunnat avsätta ett samarbete, som i någon mån åtminstone
+            hade kunnat hjälpa upp förhållandena eller åtminstone leda till
+            ett undvikande av de förhållanden, som jag här tillåtit mig beklaga.
+            Jag har som nämnt endast genom redogörelser i tidningarna sett,
+            vad propositionen innehåller, och jag kan därför inte ingå 1 någon
+            kritik för densamma. Jag kan endast ge uttryck åt en reflexion,
+            som jag och många med mig gjort, när vi nu kommit hit efter påskledigheten
+            och ställts inför faktum. Här har jordbruksnäringen 1 tio år på
+            mycket goda grunder begärt att bli hjälpt, men det har icke föranlett
+            till någon genomgripande åtgärd. Men nu kan man på fjorton dagar
+            eller mindre göra i ordning en hjälp på 215 miljoner kronor åt
+            ett enda bankinstitut.
+          </seg>
+          <seg xml:id="i-4HRYkn2RorMVv7A9V4V2ee">
+            Med vad jag nu sagt har jag icke på något vis velat ge uttryck
+            åt den meningen, att denna hjälp skulle vara obefogad, det vågar
+            jag icke göra. Men sannerligen jag vet, hur det skall bli möjligt,
+            när man möter reflekterande personer ute i landet och de göra
+            den frågan, hur riksdagen har handlat i nu föreliggande fall,
+            sannerligen jag vet, hur man skall kunna ge en nöjaktig förklaring
+            till riksdagens handlingssätt.
+          </seg>
+          <seg xml:id="i-DDAbMvrGDLbAkhxy1PkecY">
+            Jag vill vidare ge uttryck åt den meningen — det är närmast den
+            saken, som föranlett mig att begära ordet, ty jag vet icke om
+            det med den hastiga behandling, som denna fråga kommer att få,
+            blir någon möjlighet att motionsledes göra några framställningar;
+            jag riktar mig alltså nu till utskottet —
+          </seg>
+        </u>
+        <note xml:id="i-HjtoKFHEmvrnSYChHP5KZd">
+          Nr 26.
+        </note>
+        <note xml:id="i-55o5CsajWBo6Tx4i4Zgu4N">
+          Ang. stöd åt Skandinaviska kreditaktiebolaget m. m. (Forts.)
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-011.jp2/_view"/>
+        <note xml:id="i-XNzofRve8RHhEGQB1QsfFC">
+          Nr 26.
+        </note>
+        <note xml:id="i-GKE4w7BT7wiGtUKUHMa5fZ">
+          Ang. stöd åt Skandinaviska kreditaktiebolaget m. m. (Forts.)
+        </note>
+        <note type="date" xml:id="i-GKgE8Em5RczfPFJ7ahtvMn">
+          12 Torsdagen den 31 mars.
+        </note>
+        <u who="Q5972050" xml:id="i-3f0e426113a42a70-1" prev="i-3f0e426113a42a70-0">
+          <seg xml:id="i-6EPt4BskBQxWHdtti3w1t8">
+            Jag vill, säger jag, ge uttryck åt den meningen, eftersom det
+            ju inte är något statsmakternas förhållande eller åtgärd, som
+            föranlett vederbörande att göra dessa vidlyftiga affärer, på vilka
+            så stora förluster ha uppkommit, att man framför allt måtte sörja
+            för att det icke blir enbart den allmänhet, som måste hos bankerna
+            låna pengar, som får betala kostnaderna genom höga räntor, utan
+            att kostnaderna i stället må i huvudsak drabba vederbörande aktionärer
+            genom att de icke få någon utdelning under tiden tills pengarna
+            bli återbetalade. — Jag hör nu av herr finansministern att regeringen
+            har beaktat denna synpunkt i propositionen, så att utdelning ej
+            får äga rum, och jag tackar för upplysningen härom. Jag beklagar
+            då, att jag med anledning av de rykten, som jag hört, nödgats
+            begagna tillfället att ge uttryck åt denna mening.
+          </seg>
+          <seg xml:id="i-DwbuWQw7VeVq4D9zCbMkVJ">
+            Jag skall icke längre uppehålla debatten, det tjänar ingenting
+            till, men kammaren får ursäkta mig, att jag begärt ordet för att
+            ge uttryck åt de bekymmer, som jag känner inför svårigheterna,
+            bekymmer som jag tror äro ganska allmänna bland kammarens ledamöter.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-WRQ4G5EPLym2SAWZEP15di">
+          Herr Laurin:
+        </note>
+        <u who="Q5940620" xml:id="i-a30778def09e921b-0" next="i-a30778def09e921b-1">
+          <seg xml:id="i-ANJbc8xHfuhqiGExh4z96C">
+            Herr talman! Jag skall tillåta mig att citera ett stycke ur en
+            artikel i detta ämne i tidningen Social-Demokraten. Det heter
+            där: »Man måste också klargöra att skall nu staten, själv i trångmål
+            på grund av depressionen, göra sitt yttersta för att säkerställa
+            enskilda kreditanstalter och industriföretag, så kräva anständighet
+            och logik att lika kraftiga ansträngningar göras för att även
+            lindra den nöd och motverka den arbetslöshet som redan nu 1 vårt
+            land är till finnandes.»
+          </seg>
+          <seg xml:id="i-N6tidRGkBrViwthitj8XyW">
+            Ja, jag kan tillfullo instämma i detta uttalande, och jag undrar
+            vad folket ute i landet säger, när nu denna stora kredit med tämlig
+            säkerhet beviljas. Men det är icke bara herr Engbergs arbetslösa,
+            som ha skäl att reflektera över denna stödaktion, det finnes också
+            tusen och åter tusen av jordbrukare, som lida nöd under de nu
+            rådande förhållandena. Herrarna ha väl alla sett, hurusom vid
+            en enda häradsrätt ett femtiotal konkurser på en enda gång varit
+            före. På det viset fortsätter det överallt ute i landet, men inte
+            ser man, att någonting göres för dessa människor. Från vårt håll
+            har framkommit en motion om moratorium för dessa jordbrukare,
+            men om den saken har det ännu icke hörts någonting, och inte blir
+            det väl någonting heller. Vi ha också väckt en motion om att diskutera
+            Sveriges handelspolitiska läge såsom en utgångspunkt för hur vi
+            böra ställa oss i dessa tider. Den motionen väcktes visserligen
+            innan dessa tråkigheter voro kända, men den har blivit ännu mera
+            aktuell genom vad som sedan inträffat. Jag tror nog, att vi litet
+            var, icke blott enskilda medborgare, utan också staten själv,
+            måste komma ihåg, att vi icke längre äro så kraftiga och så duktiga
+            som för några år sedan. Här gäller det säkerligen, mina herrar,
+            att försöka ena sig om en plan att komma ut ur detta elände, och
+            då går det enligt min mening icke för sig att bara taga en enda
+            bit, låt vara en mycket stor och viktig sådan.
+          </seg>
+          <seg xml:id="i-M9xsA3vraE63QVqnwjjbpU">
+            Jag skall naturligtvis icke alls inlåta mig på någon kritik av
+            den kungl. propositionen, utom i en enda liten del. Självfallet
+            har jag icke ännu hunnit studera propositionen, och jag har kanske
+            icke heller förmåga att sätta mig in i densamma, men det finnes
+            en passus, som jag skulle vilja påpeka. Det heter nämligen, att
+            bankens aktieägare skulle kunna få utdelning på sina aktier intill
+            dess förlagslånet och krediten äro tillfullo guldna, d. v. s.
+            utdelningen i banken skall vara begränsad till 5.5 4, alltså en
+            procentsats, som nära nog motsvarar den räntefot, efter vilken
+            de av staten utlånade pengarna skola förräntas. Dessa aktier äro
+            väl, mina herrar, värdelösa för närvarande. Skola aktieägarna
+            ändå gynnas med 5.5 4 utdelning? Nåja, gärna för mig, om detta
+            är nyttigt och bra, men jag frågar då: Vem gynnar dem, som ha
+            t. ex. sekundärinteckningar i dessa gårdar, som nu gå på exekutiv
+            auktion? De få minsann inga
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-012.jp2/_view"/>
+        <note type="date" xml:id="i-DZSZcwYShzE8AVjFyzjSRi">
+          Torsdagen den 31 mars. 13
+        </note>
+        <u who="Q5940620" xml:id="i-a30778def09e921b-1" prev="i-a30778def09e921b-0">
+          <seg xml:id="i-KheMpLHC8RQJky5ZsEaHL3">
+            5.5 24 på sina pengar, de göras icke till föremål för någon stödaktion.
+            Vem gynnar jordbrukarna? Ingen. Skulle det icke vara skäl, mina
+            herrar, att taga under övervägande att i samband med denna stora
+            proposition också diskutera jordbrukets och övriga näringars dåliga
+            läge. Ty här finnes med säkerhet en massa folk, som, ehuru de
+            icke ha direkt att göra med den här stora sorgliga tilldragelsen,
+            dock komma att lida av följderna av densamma, vore det icke skäl,
+            mina herrar, att söka diskutera och ena oss om en plan att rädda
+            gamla Sverige ur den nöd, som eljest med säkerhet kommer att följa.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-Gbo9XkAQ6qA87q4cjuKaHG">
+          Herr Magnusson i Skövde:
+        </note>
+        <u who="Q5972050" xml:id="i-3f0e426113a42a70-2">
+          <seg xml:id="i-7MF1BdbFgQ7RBPM8noHZaU">
+            Herr talman! Jag ber om överseende att jag på nytt begärt ordet,
+            men jag har gjort det med anledning av ett par underhandsord mellan
+            'mig och finansministern.
+          </seg>
+          <seg xml:id="i-HMbS3bbQk1FHwJaSkLuGJ1">
+            Av propositionen framgår, såvitt jag har kunnat se, att en utdelning
+            av 5/2 z på aktierna skall kunna lämnas under den tid, som staten
+            innehar fordran på banken. Är detta riktigt, ber jag att få förtydliga
+            vad jag förut sagt, att enligt min mening böra aktieägarna få
+            finna sig i, att under den tid, det här lånet skall regleras,
+            någon utdelning icke bör äga rum. Det var detta, som jag ville
+            ha sagt och som föranledde mig att ånyo begära ordet.
+          </seg>
+        </u>
+        <note xml:id="i-U14PsmnDYHZB7V3139RAdo" type="speaker">
+          Chefen för finansdepartementet herr statsrådet Hamrin:
+        </note>
+        <u who="Q53650" xml:id="i-9Dh4zmCjSr1doHEnmM3jUB">
+          <seg xml:id="i-6LgUyecu7QnvsVH7wnz8NZ">
+            Det sista yttrandet av herr Magnusson i Skövde beror på ett misstag,
+            som kanske jag själv gjort mig skyldig till. Jag syftar på den
+            sats, som återfinnes på sid. 4, där det under punkt 4 säges att:
+            »det förutsättes, att någon utdelning ej äger rum under innevarande
+            år». Jag ber att få erinra kammarens ledamöter därom, att styrelsen
+            för banken framlagt sin förvaltningsberättelse och föreslagit
+            bolagsstämman en utdelning av 15 kr. pr aktie, vilket motsvarar
+            ungefär 10,6 2 på aktiernas nominella värde.
+          </seg>
+          <seg xml:id="i-717ssM4ojwRGhbXcokzgum">
+            Då jag emellertid nu alldeles oförberett nödgas begära ordet,
+            skall jag tillåta mig att säga ytterligare några få ord. Jag vill
+            då giva uttryck åt den meningen, att den bitterhet, som här kommit
+            till uttryck från de talare, som redan ha haft ordet, knappast
+            kunna vara starkare uttryck för deras känslor än för mina och
+            — jag är övertygad därom — hela regeringens känslor. Det är ju
+            alldeles uppenbart, att det är först efter en synnerligen ingående
+            och djupgående prövning av detta ärende, som regeringen framlagt
+            den proposition, som för en stund sedan avlämnades. Jag tillägger
+            blott, att hade det förhållit sig så, att denna väldiga stödåtgärd
+            begärts för att skydda, såsom en talare här uttryckte sig, ett
+            enskilt bankintresse och dess aktieägare, skulle åtminstone icke
+            mitt namn stått på denna proposition. Men, mina herrar, det är
+            ju ändå så att detta stora kreditinstitut är kreditgivare och
+            förlagsgivare åt en betydande del av vårt näringsliv, icke blott
+            åt industrien utan jämväl i stor utsträckning åt jordbruket. Bankens
+            fall måste komma att innebära betydande vådor och ökade svårigheter
+            och bekymmer för alla näringsutövare i landet och skulle också
+            komma att medföra ökad, ja i högst avsevärd grad ökad, arbetslöshet
+            och minskade förvärvsmöjligheter för betydande delar av vårt folk.
+            Det är inför detta perspektiv och i en känsla av tyngden av ansvaret,
+            som regeringen och jag för min del nödgats framlägga den proposition,
+            som vi här nu förberedelsevis diskutera.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-pJ9KUXBGh1kH7qmd9chej">
+          Herr Kilbom:
+        </note>
+        <u who="Q1347810" xml:id="i-14d79cf76bdbfe8b-2" next="i-BsFXVq83ZaPN5p3YsoJJko">
+          <seg xml:id="i-VL6qKukhJtGNs4WhZkPxPx">
+            Herr talman! Som jag sade i mitt förra anförande är det ju fullkomligt
+            omöjligt åtminstone för den som fått sina uppgifter endast i pressen
+            att gå in på den remissdebatt, som här ändå utvecklat sig. Jag
+            hemställer sålunda ännu en gång om bordläggning av propositionen,
+            varigenom vi bli i tillfälle att i morgon återkomma till remissdebatten.
+          </seg>
+        </u>
+        <note xml:id="i-WxTNdkXuTjqxgZjXcT7myM">
+          Vidare anfördes ej. Ifrågavarande proposition bordlades.
+        </note>
+        <note xml:id="i-8LkWiuP7ES8PmsA4tej14Z">
+          Nr 26.
+        </note>
+        <note xml:id="i-AowLApcmQahj1Le2vNHpKB">
+          Ang. stöd åt Skandinaviska kreditaktiebolaget m. m. (Forts.)
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-013.jp2/_view"/>
+        <note type="date" xml:id="i-6cWfQtReJXLmJuFAN6DoPa">
+          14 Torsdagen den 31 mars.
+        </note>
+        <note xml:id="i-3kWedTWmzVNS83aA3h9jZX">
+          § 11.
+        </note>
+        <note xml:id="i-Gnc3Fu26sNhn9sHApFZuxy">
+          Herr Engberg uppläste och överlämnade en till riksdagen ställd,
+          av tryckt exemplar av de vid interparlamentariska unionens konferens
+          i Bukarest den 1—7 oktober 1931 fattade resolutionerna åtföljd
+          skrivelse av följande lydelse:
+        </note>
+        <note xml:id="i-MN3qSbjd9EXL8tmXsFXfDR">
+          Till riksdagen.
+        </note>
+        <u xml:id="i-BsFXVq83ZaPN5p3YsoJJko" prev="i-14d79cf76bdbfe8b-2" who="Q1347810">
+          <seg xml:id="i-CHGpfA4bNGw6FeXfogERgR">
+            I enlighet med bestämmelserna i stadgarna för Interparlamentariska
+            Unionen, att varje nationell grupp av nämnda union skall till
+            vederbörande statsmakters kännedom bringa de beslut av den interparlamentariska
+            konferensen, som äro av allmänt intresse, får styrelsen för Riksdagens
+            Interparlamentariska Grupp härmed vördsamt överlämna ett exemplar
+            av de vid den tjugusjunde interparlamentariska konferensen i Bukarest
+            den 1—7 oktober 1931 fattade resolutionerna.
+          </seg>
+        </u>
+        <note xml:id="i-4vZJosSoBtw3ajUgJeBPQC">
+          Stockholm den 31 mars 1932.
+        </note>
+        <note xml:id="i-3a3NU37vj11FaEsT3w4kDu">
+          Styrelsen för Riksdagens Interparlamentariska Grupp. Eric Hallin,
+        </note>
+        <note xml:id="i-Z6cU2ASREfiKqXTKRQXPd">
+          ordförande.
+        </note>
+        <note xml:id="i-G5AfeTxiLKNwVdKmU1Cd6q">
+          Omförmälda skrivelse och resolutioner lades till handlingarna.
+        </note>
+        <note xml:id="i-4qAAvKoj3bqAFbAdoXaKFM">
+          § 12.
+        </note>
+        <note xml:id="i-HD3DxopiFsiyeePet6FaM4">
+          Avlämnades följande motioner i anledning av Kungl. Maj:ts proposition,
+          nr 174, med förslag till förordning om ändring i vissa delar av
+          förordningen den 2 Juni 1922 om automobilskatt m. m., nämligen:
+        </note>
+        <note xml:id="i-SMvQqA3ADU543KkHfB7LdX">
+          nr 499 av herr Edberg;
+        </note>
+        <note xml:id="i-Vp15an2YBbnZD1cF5P2br7">
+          nar 500 av herr Lindmark;
+        </note>
+        <note xml:id="i-66SAGjXmax6TTE8UgBMNtW">
+          nr 501 av herrar Persson i Grytterud och Gustafson i Kasenberg;
+        </note>
+        <note xml:id="i-3p3yMhj39zvFg9SbpnwDXE">
+          nr 502 av herr Bengtsson i Kullen; samt
+        </note>
+        <note xml:id="i-KmqNoZo6BVmYGrYGNDDYXQ">
+          nr 503 och 504 av herrar Andersson i Rasjön och Pettersson i
+          Hällbacken.
+        </note>
+        <note xml:id="i-9nHtXTgXyifNJ6fMabHRSk">
+          Vidare avgåvos motioner av
+        </note>
+        <note xml:id="i-K2899fp65RLBgXXjWiwduy">
+          herrar Sandström och Molander, nr 505, i anledning av Kungl.
+          Maj:ts proposition, nr 210, angående statsförvärv av Härnösand—Sollefteå
+          järnväg m. m.; .
+        </note>
+        <note xml:id="i-RpDxkZ1o7Hk36kTbcPwCGE">
+          herr Andersson i Stockholm, nr 506, i anledning av Kungl. Maj:ts
+          proposition, nr 229, angående beredande av rätt till s. k. rekreationsresor
+          för viss personal vid försvarsväsendet med tjänstgöringsort i
+          Boden;
+        </note>
+        <note xml:id="i-Wc2jwwpudbn7ZCs7JsmWiG">
+          herr Andersson i Igelboda, nr 507, i anledning av Kungl. Maj:ts
+          proposition, nr 182, angående anslag till särskild polisverksamhet
+          för uppdagande av olovlig införsel av spritdrycker, lönnbränning
+          m. m.; och
+        </note>
+        <note xml:id="i-2YEH3kmrM2zu1ARRWRwMah">
+          herr Öhman m. fl., nr 508, om avslag å Kungl. Maj:ts proposition,
+          nr 178, med förslag till lag om ändring i vissa delar av lagen
+          den 6 juni 1925 om polisväsendet i riket.
+        </note>
+        <note xml:id="i-DLyyXW93zpT9xV52NwSG3X">
+          Samtliga ovannämnda motioner bordlades.
+        </note>
+        <note xml:id="i-C3RnFgmfzgsa2SyNvzpUhx">
+          § 13.
+        </note>
+        <note xml:id="i-V48F9C8HrJ8kMFqnkXi3m4">
+          Justerades kammarens protokoll för den 16 och den 22 innevarande
+          mars.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1932--ak--26/prot_1932__ak__26-014.jp2/_view"/>
+        <note type="date" xml:id="i-EqRMN7tM2Bj4raCvjwg4gB">
+          Torsdagen den 31 mars. 15 Nr 26.
+        </note>
+        <note xml:id="i-A5GYgmBBrFEUHaQsrF6SKq">
+          § 14.
+        </note>
+        <note xml:id="i-LBbKvCvpUWRkhxg7iogTdp">
+          Justerades protokollsutdrag angående av kammaren denna dag fattade
+          beslut.
+        </note>
+        <note xml:id="i-GdcbefBdQUaaEFngUYNkyf">
+          § 15. Ledighet från riksdagsgöromiålen beviljades: herr Månsson
+          i Furuvik under 4 dagar fr.o.m. den 1 april och &gt; Bergström i
+          Bäckland &gt; 2 &gt; &gt; &gt; 1 &gt;
+        </note>
+        <note xml:id="i-WWSy3YMTScjrSkeeBc96Ak">
+          Kammarens ledamöter åtskildes härefter kl. 3.50 e. m.
+        </note>
+        <note xml:id="i-NwJxVHiwbTzdmZGiTbZ1hw">
+          In fidem Per Cronvall.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

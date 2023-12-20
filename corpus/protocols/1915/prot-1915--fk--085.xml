@@ -1,103 +1,76 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1910</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.1.0</edition>
-      </editionStmt>
       <publicationStmt>
-        <authority>National Library of Sweden and the WESTAC project</authority>
+        <authority>N/A</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1910</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in input/curation/instances</p>
+          <p>No correction of source texts was performed.</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>N/A</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>No correction of source texts was performed.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1915--fk--85</head>
-          <docDate when="1915-05-27">1915-05-27</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection">
-          <pb facs="https://betalab.kb.se/prot-1915--fk--85/prot_1915__fk__85-000.jp2/_view"/>
-          <note xml:id="i-C3zEX17mgAQyJVtcFzDe6H">
-            RIKSDAGENS PROTOKOLL.
-          </note>
-          <note xml:id="i-CJN3mEvyvyeeC1bhZwh6go">
-            1915. Första kammaren. Nr 85.
-          </note>
-          <note xml:id="i-R7CLdFLuxQq2D23jr5CmwL">
-            Torsdagen den 27 maj, e. m.
-          </note>
-          <note xml:id="i-2xDoXj8FJQa99gm9PqkTXD">
-            Kammaren sammanträdde kl. 7,30 ce. m.
-          </note>
-          <note xml:id="i-JZkJm39LPZtdKDdwvaB6yZ">
-            Anmäldes och bordlades
-          </note>
-          <note xml:id="i-CUKEPgfhsSupcd53zRbtQp">
-            statsutskottets memorial nr 120, angående statsregleringen för
-            år 1916; ävensom
-          </note>
-          <note xml:id="i-YCnKYv53dmnem4GuLw6gGB">
-            jordbruksutskottets memorial nr 74, angående ersättning till
-            utskottets sekreterare för mistade avlöningsförmåner.
-          </note>
-          <note xml:id="i-7UKQv6xv5SLnefFopE6p5T">
-            Anmäldes och godkändes bevillningsutskottets förslag till riksdagens
-            skrivelse, nr 217, till Konungen, angående beräkning av bevillningarna
-            för år 1916.
-          </note>
-          <note xml:id="i-BDkVDZFHgAtud84hNSF1cn">
-            Justerades ytterligare ett protokollsutdrag för denna dag, varefter
-            kammarens sammanträde avslutades kl. 7,35 e. m.
-          </note>
-          <note xml:id="i-LFvs1qe3FfCgTUTrbRhB7D">
-            In fidem A. v. Krusenstjerna.
-          </note>
-          <note xml:id="i-7YCSNDW8RohCtHuqVL62Qg">
-            Första kammarens protokoll 1915. Nr 85. 1
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1915--fk--85</head>
+        <docDate when="1915-05-27">1915-05-27</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection">
+        <pb facs="https://betalab.kb.se/prot-1915--fk--85/prot_1915__fk__85-000.jp2/_view"/>
+        <note xml:id="i-C3zEX17mgAQyJVtcFzDe6H">
+          RIKSDAGENS PROTOKOLL.
+        </note>
+        <note xml:id="i-CJN3mEvyvyeeC1bhZwh6go">
+          1915. Första kammaren. Nr 85.
+        </note>
+        <note xml:id="i-R7CLdFLuxQq2D23jr5CmwL">
+          Torsdagen den 27 maj, e. m.
+        </note>
+        <note xml:id="i-2xDoXj8FJQa99gm9PqkTXD">
+          Kammaren sammanträdde kl. 7,30 ce. m.
+        </note>
+        <note xml:id="i-JZkJm39LPZtdKDdwvaB6yZ">
+          Anmäldes och bordlades
+        </note>
+        <note xml:id="i-CUKEPgfhsSupcd53zRbtQp">
+          statsutskottets memorial nr 120, angående statsregleringen för
+          år 1916; ävensom
+        </note>
+        <note xml:id="i-YCnKYv53dmnem4GuLw6gGB">
+          jordbruksutskottets memorial nr 74, angående ersättning till
+          utskottets sekreterare för mistade avlöningsförmåner.
+        </note>
+        <note xml:id="i-7UKQv6xv5SLnefFopE6p5T">
+          Anmäldes och godkändes bevillningsutskottets förslag till riksdagens
+          skrivelse, nr 217, till Konungen, angående beräkning av bevillningarna
+          för år 1916.
+        </note>
+        <note xml:id="i-BDkVDZFHgAtud84hNSF1cn">
+          Justerades ytterligare ett protokollsutdrag för denna dag, varefter
+          kammarens sammanträde avslutades kl. 7,35 e. m.
+        </note>
+        <note xml:id="i-LFvs1qe3FfCgTUTrbRhB7D">
+          In fidem A. v. Krusenstjerna.
+        </note>
+        <note xml:id="i-7YCSNDW8RohCtHuqVL62Qg">
+          Första kammarens protokoll 1915. Nr 85. 1
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

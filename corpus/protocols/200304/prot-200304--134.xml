@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 200304</title>
+        <title>Protokoll</title>
       </titleStmt>
       <editionStmt>
         <edition>0.4.2</edition>
@@ -13,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 200304</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -25,75 +25,48 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <editionStmt>
-          <edition>0.4.2</edition>
-        </editionStmt>
-        <publicationStmt>
-          <authority>National Library of Sweden and the WESTAC project</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some data curation was done. It is documented in input/curation/instances</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-200304--134</head>
-          <docDate when="2003-07-08">2003-07-08</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection" xml:id="i-YS4dPJnkhyBt5u7KV1HZuV">
-          <pb facs="http://data.riksdagen.se/fil/2C8CA51D-1500-4527-B54D-09E0D19B9D6C#page=1"/>
-          <note xml:id="i-Rp95JHmCG4ebdTq2qDhzNi">
-            Riksdagens protokoll
-          </note>
-          <note xml:id="i-DDGzHZXn4yBJnshAn1LqNL">
-            2003/04:134
-          </note>
-          <note xml:id="i-35kH18dd22HAKc4R6TNLuQ">
-            Torsdagen den 8 juli
-          </note>
-          <note xml:id="i-EpUNDA27VctvkH767AX5Zj">
-            Kl. 11:00 - 11:01
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-6fvhyZQbgNAM1kxC3s462K">
-          <note xml:id="i-QQBAJdZhQA2MmTQgN9ReXQ">
-            1 § Justering av protokoll
-          </note>
-          <note xml:id="i-Ej8z3rYaCQPqjZmVZNbjyZ">
-            Sedan talmannen beslutat att återstående protokoll skulle justeras
-            denna dag justerades protokollet för den 2 juli.
-          </note>
-          <note xml:id="i-7Y4rpe2UTXspkuaCTnfpJ4">
-            Detta protokoll samt protokollet för dagens sammanträde förklarades
-            godkända.
-          </note>
-          <note xml:id="i-GNLSYMMps128new4UKat8n">
-            Förhandlingarna leddes av andre vice talmannen.
-          </note>
-          <note xml:id="i-KkHEVXyWX9tUjY51HBTdU8">
-            /Monica Gustafson
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-200304--134</head>
+        <docDate when="2003-07-08">2003-07-08</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-YS4dPJnkhyBt5u7KV1HZuV">
+        <pb facs="http://data.riksdagen.se/fil/2C8CA51D-1500-4527-B54D-09E0D19B9D6C#page=1"/>
+        <note xml:id="i-Rp95JHmCG4ebdTq2qDhzNi">
+          Riksdagens protokoll
+        </note>
+        <note xml:id="i-DDGzHZXn4yBJnshAn1LqNL">
+          2003/04:134
+        </note>
+        <note xml:id="i-35kH18dd22HAKc4R6TNLuQ">
+          Torsdagen den 8 juli
+        </note>
+        <note xml:id="i-EpUNDA27VctvkH767AX5Zj">
+          Kl. 11:00 - 11:01
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-6fvhyZQbgNAM1kxC3s462K">
+        <note xml:id="i-QQBAJdZhQA2MmTQgN9ReXQ">
+          1 § Justering av protokoll
+        </note>
+        <note xml:id="i-Ej8z3rYaCQPqjZmVZNbjyZ">
+          Sedan talmannen beslutat att återstående protokoll skulle justeras
+          denna dag justerades protokollet för den 2 juli.
+        </note>
+        <note xml:id="i-7Y4rpe2UTXspkuaCTnfpJ4">
+          Detta protokoll samt protokollet för dagens sammanträde förklarades
+          godkända.
+        </note>
+        <note xml:id="i-GNLSYMMps128new4UKat8n">
+          Förhandlingarna leddes av andre vice talmannen.
+        </note>
+        <note xml:id="i-KkHEVXyWX9tUjY51HBTdU8">
+          /Monica Gustafson
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

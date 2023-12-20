@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 200910</title>
+        <title>Protokoll</title>
       </titleStmt>
       <editionStmt>
         <edition>0.4.2</edition>
@@ -13,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 200910</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -25,104 +25,77 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <editionStmt>
-          <edition>0.4.2</edition>
-        </editionStmt>
-        <publicationStmt>
-          <authority>National Library of Sweden and the WESTAC project</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some data curation was done. It is documented in input/curation/instances</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-200910--114</head>
-          <docDate when="2010-05-03">2010-05-03</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection" xml:id="i-9bqfthckwG1B8rcGDSs9nT">
-          <pb facs="http://data.riksdagen.se/fil/197E6364-6554-4A56-8BE2-14FCD1BDE3A7#page=1"/>
-          <note xml:id="i-316zmp9KAYyWsY2TmjAJFt">
-            Riksdagens protokoll
-          </note>
-          <note xml:id="i-4CNRUnv7hjWYnNqSyBZDH5">
-            2009/10:114
-          </note>
-          <note xml:id="i-BqeXmZtqYdLR6moGabijNZ">
-            Måndagen den 3 maj
-          </note>
-          <note xml:id="i-WdxspYwzzfQUKQfpuUhBGJ">
-            Kl. 15:00 - 15:01
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-U36tj7GYC3nBpEU7HV3jz7">
-          <note xml:id="i-ECb17osqG3fmBmStZJtCkf">
-            1 § Justering av protokoll
-          </note>
-          <note xml:id="i-FnUh5k8WJ5hXA8YVonJHb7">
-            Justerades protokollet för den 27 april.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-GzgAyxiQZYR5EYLoHRTyPj">
-          <note xml:id="i-EbFpK5YVEywwtEQ8S2GQU1">
-            2 § Meddelande om ändring i kammarens sammanträdesplan
-          </note>
-          <note xml:id="i-9pZojkShvYHBCtLh3HgxfW">
-            Talmannen meddelade att tisdagen den 4 maj kl. 13.00 skulle bordläggningsplenum
-            äga rum.
-          </note>
-          <note xml:id="i-RvTax7eVjp5raptgN2yS65">
-            Tidigare aviserat interpellationssvar skulle utgå.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-NbMWDV5MAEASSjn7fcFumF">
-          <note xml:id="i-JChCrBhGBdcEQmjM2F1Y1h">
-            3 § Hänvisning av ärenden till utskott
-          </note>
-          <note xml:id="i-TW1gEeCdDoL5jmRqi2wFJr">
-            Föredrogs och hänvisades
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-9o8aXcSTbfVY9QpxuUfvt9">
-          <note xml:id="i-NWEV8z2RQjxSnitWwLcTnv">
-            4 § Bordläggning
-          </note>
-          <note xml:id="i-VqEkAvDoJ7zzwQ1F36nZBG">
-            Anmäldes och bordlades
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-Byq7B8smqBUZC5QemoudiF">
-          <note xml:id="i-CqyQ3y5i57m71wDkEP6HqS">
-            5 § Kammaren åtskildes kl. 15.01.
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/197E6364-6554-4A56-8BE2-14FCD1BDE3A7#page=3"/>
-          <note xml:id="i-QKA2UiYC6WxcYfdhrwtBw9">
-            Förhandlingarna leddes av talmannen.
-          </note>
-          <note xml:id="i-QTbYYEo2EPTxf5uDAJJxNA">
-            /Eva-Lena Ekman
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-200910--114</head>
+        <docDate when="2010-05-03">2010-05-03</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-9bqfthckwG1B8rcGDSs9nT">
+        <pb facs="http://data.riksdagen.se/fil/197E6364-6554-4A56-8BE2-14FCD1BDE3A7#page=1"/>
+        <note xml:id="i-316zmp9KAYyWsY2TmjAJFt">
+          Riksdagens protokoll
+        </note>
+        <note xml:id="i-4CNRUnv7hjWYnNqSyBZDH5">
+          2009/10:114
+        </note>
+        <note xml:id="i-BqeXmZtqYdLR6moGabijNZ">
+          Måndagen den 3 maj
+        </note>
+        <note xml:id="i-WdxspYwzzfQUKQfpuUhBGJ">
+          Kl. 15:00 - 15:01
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-U36tj7GYC3nBpEU7HV3jz7">
+        <note xml:id="i-ECb17osqG3fmBmStZJtCkf">
+          1 § Justering av protokoll
+        </note>
+        <note xml:id="i-FnUh5k8WJ5hXA8YVonJHb7">
+          Justerades protokollet för den 27 april.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-GzgAyxiQZYR5EYLoHRTyPj">
+        <note xml:id="i-EbFpK5YVEywwtEQ8S2GQU1">
+          2 § Meddelande om ändring i kammarens sammanträdesplan
+        </note>
+        <note xml:id="i-9pZojkShvYHBCtLh3HgxfW">
+          Talmannen meddelade att tisdagen den 4 maj kl. 13.00 skulle bordläggningsplenum
+          äga rum.
+        </note>
+        <note xml:id="i-RvTax7eVjp5raptgN2yS65">
+          Tidigare aviserat interpellationssvar skulle utgå.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-NbMWDV5MAEASSjn7fcFumF">
+        <note xml:id="i-JChCrBhGBdcEQmjM2F1Y1h">
+          3 § Hänvisning av ärenden till utskott
+        </note>
+        <note xml:id="i-TW1gEeCdDoL5jmRqi2wFJr">
+          Föredrogs och hänvisades
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-9o8aXcSTbfVY9QpxuUfvt9">
+        <note xml:id="i-NWEV8z2RQjxSnitWwLcTnv">
+          4 § Bordläggning
+        </note>
+        <note xml:id="i-VqEkAvDoJ7zzwQ1F36nZBG">
+          Anmäldes och bordlades
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-Byq7B8smqBUZC5QemoudiF">
+        <note xml:id="i-CqyQ3y5i57m71wDkEP6HqS">
+          5 § Kammaren åtskildes kl. 15.01.
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/197E6364-6554-4A56-8BE2-14FCD1BDE3A7#page=3"/>
+        <note xml:id="i-QKA2UiYC6WxcYfdhrwtBw9">
+          Förhandlingarna leddes av talmannen.
+        </note>
+        <note xml:id="i-QTbYYEo2EPTxf5uDAJJxNA">
+          /Eva-Lena Ekman
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

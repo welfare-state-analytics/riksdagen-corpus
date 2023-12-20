@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 199394</title>
+        <title>Protokoll</title>
       </titleStmt>
       <editionStmt>
         <edition>0.4.2</edition>
@@ -13,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 199394</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -25,68 +25,41 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <editionStmt>
-          <edition>0.4.2</edition>
-        </editionStmt>
-        <publicationStmt>
-          <authority>National Library of Sweden and the WESTAC project</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some data curation was done. It is documented in input/curation/instances</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-199394--125</head>
-          <docDate when="1994-06-21">1994-06-21</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection" xml:id="i-Dcnh7imLaGpXrkzBygM12K">
-          <note xml:id="i-UpmecDB12edkW9c6YFQMg5">
-            § Justering av protokoll
-          </note>
-          <note xml:id="i-EZaSqfrkbGf1C8oXMhnFbu">
-            Sedan talmannen beslutat att kammarens vid riksmötets slut återstående
-            ojusterade protokoll skulle justeras denna dag företogs justering
-            av protokollen för den 6, 7, 8, 9, 10 och 11 juni inför följande
-            ledamöter:
-          </note>
-          <note xml:id="i-MKJj55Cw8Zb6UeXgXsUHcc">
-            Sylvia Lindgren (s)
-          </note>
-          <note xml:id="i-Bvzi4vj1Gi8HC5csbpT9H9">
-            Sören Norrby (fp)
-          </note>
-          <note xml:id="i-GnVG7BMJvbXZpc6YuPTTRd">
-            Fanny Rizell (kds)
-          </note>
-          <note xml:id="i-TDfGXo7SxGTi85GfLGtrq9">
-            Dessa protokoll samt protokollet för dagens sammanträde förklarades
-            godkända.
-          </note>
-          <note xml:id="i-Ef2VszoePQYfywsLp9YvR4">
-            Förhandlingarna leddes av talmannen.
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-199394--125</head>
+        <docDate when="1994-06-21">1994-06-21</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-Dcnh7imLaGpXrkzBygM12K">
+        <note xml:id="i-UpmecDB12edkW9c6YFQMg5">
+          § Justering av protokoll
+        </note>
+        <note xml:id="i-EZaSqfrkbGf1C8oXMhnFbu">
+          Sedan talmannen beslutat att kammarens vid riksmötets slut återstående
+          ojusterade protokoll skulle justeras denna dag företogs justering
+          av protokollen för den 6, 7, 8, 9, 10 och 11 juni inför följande
+          ledamöter:
+        </note>
+        <note xml:id="i-MKJj55Cw8Zb6UeXgXsUHcc">
+          Sylvia Lindgren (s)
+        </note>
+        <note xml:id="i-Bvzi4vj1Gi8HC5csbpT9H9">
+          Sören Norrby (fp)
+        </note>
+        <note xml:id="i-GnVG7BMJvbXZpc6YuPTTRd">
+          Fanny Rizell (kds)
+        </note>
+        <note xml:id="i-TDfGXo7SxGTi85GfLGtrq9">
+          Dessa protokoll samt protokollet för dagens sammanträde förklarades
+          godkända.
+        </note>
+        <note xml:id="i-Ef2VszoePQYfywsLp9YvR4">
+          Förhandlingarna leddes av talmannen.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

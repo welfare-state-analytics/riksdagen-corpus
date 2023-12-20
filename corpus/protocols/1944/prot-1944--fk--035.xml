@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1944</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1944</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,278 +25,251 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1944-höst-fk--35</head>
-          <docDate when="1944-12-12">1944-12-12</docDate>
-          <docDate when="1944-12-14">1944-12-14</docDate>
-          <docDate when="1944-12-15">1944-12-15</docDate>
-          <docDate when="1944-12-19">1944-12-19</docDate>
-          <docDate when="1944-12-29">1944-12-29</docDate>
-          <docDate when="1944-12-30">1944-12-30</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1944-höst-fk--35/prot_1944_höst_fk__35-000.jp2/_view"/>
-          <note xml:id="i-QrTFdcewjZNHZQbBbpeNZH">
-            RIKSDAGENS PROTOKOLL. 1944. Första kammaren. Nr 35.
-          </note>
-          <note type="date" xml:id="i-VPQoYjxj6GxYVKWgNuNUAF">
-            Tisdagen den 19 december.
-          </note>
-          <note xml:id="i-DpZFytfqyRVcsaNqyrKxpq">
-            Kammaren sammanträdde kl. 4 eftermiddagen; och dess förhandlingar
-            leddes av herr förste vice talmannen.
-          </note>
-          <note xml:id="i-VnkG6QULKNNuEZzzyR9vn6">
-            Justerades protokollen för den 12 och den 13 innevarande månad.
-          </note>
-          <note xml:id="i-Cqp5RPdcWgW98QBGVv5SDf">
-            Upplästes tre till kammaren inkomna skrifter av följande lydelse:
-          </note>
-          <u xml:id="i-8EWFZv8NUq5X2Zo5N7ERns" who="unknown" next="i-ShzKMx6YGX9B6tbDy7uZXc">
-            <seg xml:id="i-3h9idSnqxYULmuimecdrvX">
-              Till riksdagens första kammare. Under åberopande av hög ålder
-              (fyllda 73 år) får jag härmed avsäga mig ledamotskapet av kammaren
-              för Kronobergs läns och Hallands läns valkrets.
-            </seg>
-          </u>
-          <note xml:id="i-M9Zi7W4RWkTzQQ4R6TSiox">
-            Stockholm i december 1944. And. Andersson.
-          </note>
-          <note xml:id="i-DGkqLSHh53FvkFstj8JXqF">
-            Till riksdagens första kammare.
-          </note>
-          <u xml:id="i-ShzKMx6YGX9B6tbDy7uZXc" who="unknown" prev="i-8EWFZv8NUq5X2Zo5N7ERns" next="i-YXvCEACVPnh8L3aKzXfCfj">
-            <seg xml:id="i-FwZihxZaE7biFJTji572W">
-              Då jag på grund av uppdrag i hemorten är förhindrad att i fortsättningen
-              fullgöra riksdagsmannauppdrag, får jag härmed vördsamt avsäga
-              mig uppdraget som ledamot av riksdagens första kammare för Kronobergs
-              och Hallands län.
-            </seg>
-          </u>
-          <note xml:id="i-Hi3akSf8HH7U46mvJ5GH1f">
-            Köpinge den 15 december 1944. Verner Andersson.
-          </note>
-          <u xml:id="i-YXvCEACVPnh8L3aKzXfCfj" who="unknown" prev="i-ShzKMx6YGX9B6tbDy7uZXc" next="i-NGqkAaCcyax3Na5R5QR5ja">
-            <seg xml:id="i-UE1cknxibNPCw1vHTaK8jc">
-              Till riksdagens första kammare. | Åberopande bilagda läkarintyg
-              får jag härmed avsäga mig uppdraget som riksdagsman för Västerbottens
-              län och Norrbottens län.
-            </seg>
-          </u>
-          <note xml:id="i-GzEzjDxNbQUdTKR7Epdfu1">
-            Stockholm den 14 december 1944. Sven V. Hansson.
-          </note>
-          <note xml:id="i-kiq5eyScF12E8ZwzaGAUo">
-            Det åberopade läkarintyget, som jämväl upplästes, var så lydande:
-          </note>
-          <u xml:id="i-NGqkAaCcyax3Na5R5QR5ja" who="unknown" prev="i-YXvCEACVPnh8L3aKzXfCfj" next="i-LcKjbVD8tQ6B1st7GsPPXD">
-            <seg xml:id="i-KKcQw4sRKjbdjuiJW5gDt2">
-              Härmed intygas, att riksdagsman Sven Hansson vid företagen undersökning
-              har befunnits lida av en uttalad ämnesomsättningsrubbning och
-              totalt utslitna nerver, som gör det oundgängligen nödvändigt att
-              avkoppla allt tankearbete närmaste åren.
-            </seg>
-          </u>
-          <note xml:id="i-DKFG3QrM6YMpEnPmNzn3qq">
-            Stockholm den 12 december 1944. N. G. Nordin,
-          </note>
-          <note xml:id="i-LKQj296k8sB4vFaeAiopcR">
-            leg. läk. Kammaren godkände de hinder, som herrar Anders Andersson,
-            Verner Andersson och Sven Hansson åberopat till stöd för sina
-            avsägelser av riksdagsmannaskapet. På sedermera av herr förste
-            vice talmannen gjord framställning beslöt kammaren att till Konungen
-            avlåta skrivelse med anmälan om de gjorda avsägelserna samt de
-            därigenom inom kammaren uppkomna ledigheterna, varefter ett
-          </note>
-          <note xml:id="i-C7Y7jExBVpb28oc78jtgxg">
-            Första kammarens protokoll 1944. Nr 35. 1
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1944-höst-fk--35/prot_1944_höst_fk__35-001.jp2/_view"/>
-          <note type="date" xml:id="i-WTWFyKC1XQmjUrmMVDqEBn">
-            2 Nr 35. Lördagen den 30 december 1944.
-          </note>
-          <note xml:id="i-WwwTGFRRhnWAfG4iqG8DoC">
-            i sådant avseende uppsatt förslag till underdånig skrivelse upplästes
-            och godkändes. Kammarens sammanträde avslutades kl. 4.05 eftermiddagen.
-          </note>
-          <note xml:id="i-Gw9oDAPVAHv3Nu5DZTqzWb">
-            In fidem G. H. Berggren.
-          </note>
-          <note type="date" xml:id="i-MWQz48A6yV9Q46WJELwF7g">
-            Lördagen den 30 december.
-          </note>
-          <note xml:id="i-EayZSTSbd7x9X4cWiVQijQ">
-            Kammaren sammanträdde kl. 11 förmiddagen.
-          </note>
-          <note xml:id="i-TaTV6NrTQ7V445kWukZxeb">
-            Justerades protokollet för den 19 innevarande månad.
-          </note>
-          <note xml:id="i-GLW7AqEbNUNSu4jQTjfHcX">
-            Upplästes en till kammaren inkommen skrift, så lydande:
-          </note>
-          <u xml:id="i-LcKjbVD8tQ6B1st7GsPPXD" who="unknown" prev="i-NGqkAaCcyax3Na5R5QR5ja">
-            <seg xml:id="i-ReaHU7hHvFHduSfgmQvBrG">
-              Till riksdagens första kammare. Med anledning av mitt inval i
-              riksdagens andra kammare anhåller jag härmed att bliva befriad
-              från uppdraget att vara ledamot av riksdagens första kammare.
-            </seg>
-          </u>
-          <note xml:id="i-2CVpMQdCeBnpwVq8k6bBCa">
-            Stockholm den 29 december 1944. Bertil Ohlin.
-          </note>
-          <note xml:id="i-3zdK64pEdJnjBZCVtP8RUF">
-            Kammaren godkände den sålunda gjorda avsägelsen.
-          </note>
-          <note xml:id="i-5RfRk3DsrLYZJmWQDu2bkd">
-            På sedermera av herr talmannen gjord framställning beslöt kammaren
-            att till Konungen avlåta skrivelse med anmälan om den gjorda avsägelsen
-            samt den därigenom inom kammaren uppkomna ledigheten, varefter
-            ett 1 sådant avseende uppsatt förslag till underdånig skrivelse
-            upplästes och godkändes.
-          </note>
-          <note xml:id="i-VwksJEZcSEZg9THknBLCC1">
-            Anmäldes och godkändes riksdagens kanslis förslag till Sveriges
-            riksdags beslut å innevarande lagtima riksmöte.
-          </note>
-          <note xml:id="i-EAPBMvMJgB2beMdbCQ6F1r">
-            Justerades ett protokollsutdrag för denna dag.
-          </note>
-          <note xml:id="i-h8uekYST7XGUybT8JSFvm">
-            Hans excellens ministern för utrikes ärendena herr Ginther avlämnade
-            Kungl. Maj:ts skrivelse, nr 307, angående förordnande av statsrådsledamöter
-            att uppläsa Kungl. Maj:ts beslut om avslutande av innevarande
-            års lagtima riks
-          </note>
-          <note xml:id="i-TXha3ubLPnT24TxKmYMeVi">
-            ag.
-          </note>
-          <note xml:id="i-2ARdSoCC1hbZPmep2NjC1f">
-            Av nämnda kungl. skrivelse, som nu föredrogs, inhämtades bland
-            annat, att Kungl. Maj:t förordnat hans excellens ministern för
-            utrikes ärendena herr Gänther att i första kammaren uppläsa Kungl.
-            Maj:ts öppna brev i ämnet.
-          </note>
-          <note xml:id="i-xpGvSUSJxuAgfkjoB2aKs">
-            Med anledning härav lämnades ordet till hans excellens ministern
-            för utrikes ärendena herr Giinther, som i enlighet med det honom
-            givna uppdraget uppläste Kungl. Maj:ts öppna brev nr 308, enligt
-            vilket innevarande års lagtima riksdag skulle avslutas denna dag.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1944-höst-fk--35/prot_1944_höst_fk__35-002.jp2/_view"/>
-          <note type="date" xml:id="i-Q7WDjzTpQKwf36b9MCgsSM">
-            Lördagen den 30 december 1944. Nr 35. 3
-          </note>
-          <note type="speaker" xml:id="i-GhRE3U812qzfZNX15kJCeg">
-            Herr Nilsson, Johan, i Kristianstad yttrade:
-          </note>
-          <u who="Q6010694" xml:id="i-db36a1502498dac8-0">
-            <seg xml:id="i-SeNTDvvf4czZvuKwfVPAKC">
-              Mina herrar! En lång riksdag står nu inför sin avslutning. Även
-              om den inte hela tiden lagt beslag på ledamöternas arbetstid,
-              så måste vi dock, i varje fall antagligen så länge kristiden varar,
-              bereda oss på att brådskande ärenden icke anses kunna invänta
-              riksdagens beslut alltför länge. Vi få därför finna oss uti att,
-              då landets angelägenheter så kräva, vara till förfogande för att
-              efter bästa förstånd och i enlighet med våra medborgerliga åtaganden
-              och därmed följande ansvarsfyllda skyldigheter fatta våra beslut.
-              Vi äro säkerligen också alla eniga i denna inställning, även om
-              uppgiften att vara riksdagsledamot för mången bliver betungande
-              med hänsyn till andra uppgifters fullgörande. Landets väl får
-              emellertid tillgodoses, på detta finnes ingen prutmån. Första
-              kammaren har icke underlåtit detta.
-            </seg>
-            <seg xml:id="i-XQbQqooUgZ7uZKxZAw1LJt">
-              Jag vill nu framföra tack för gott samarbete under detta år.
-              Särskilt rikta vi alla ett varmt tack till dem, som stå inför
-              att upphöra med sitt riksdagsmannauppdrag, och har jag stor anledning
-              att framföra talmannens vördsamma och hjärtliga tack för all förtroendefull
-              välvilja. Jag vill även tillönska eder alla en god fortsättning
-              på helgen och ett gott nytt år.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-98q5VUqx9jCrNhdM4u46r">
-            Detta tal besvarades av herr Bärg, Johan, i följande ordalag:
-          </note>
-          <u who="Q5591837" xml:id="i-d73abd521f437293-0">
-            <seg xml:id="i-N3GsDP1UeFojdHTjuHXquw">
-              Herr talman! Ett arbetsår 1 riksdagen har nu åter förflutit under
-              Eder skickliga och erfarna ledning. När jag nu vill framföra denna
-              kammares tack till Eder för det sätt, på vilket Ni detta år liksom
-              alla föregående skött Edert grannlaga och viktiga värv, vet jag
-              att jag har kammarens alla ledamöter bakom mig. Det är icke blott
-              Edert sätt att leda förhandlingarna, utan hela Edert väsen, som
-              har fångat våra hjärtan, och vi se i Eder, herr talman, icke allenast
-              den skicklige ledaren, utan den gode och överseende kamraten till
-              oss kammarledamöter.
-            </seg>
-            <seg xml:id="i-WyVH7ofvTAxLnwenkKVa9L">
-              Härtill fogar jag en varm önskan, eller låt oss säga förhoppning,
-              att när Ni, herr talman, nästa gång uttalar ett tack för gånget
-              arbetsår, detta måtte ske i medvetande om att den världspina vi
-              genomlida då skall ha nått sitt slut. Det nu gångna året har liksom
-              det närmast föregående i fråga om riksdagsarbetet betecknats av
-              våra bekymmer och våra bestyr med säkerheten, i första rummet
-              säkerheten för vårt eget land. Lyckan har beskärts oss att även
-              detta år undgå att dras in i krigsvirveln, men våra sinnen ha
-              ständigt varit upprörda över alla de våldshandlingar, som begås,
-              och begås i vår omedelbara närhet. Även om kanske fruktan för
-              olyckan för vårt vidkommande under sista tiden har minskats, ha
-              våra sinnen på grund av allt detta, som har skett, varit i rörelse
-              till den grad. att någon sinnesfrid icke har vilat över vare sig
-              oss eller våra gärningar, då vi ha stått i arbetet här uppe. Visserligen
-              äro icke livsbekymren slut i och med krigsslutet, även om vi alltjämt
-              få åtnjuta lyckan att icke indragas i virveln. Många besvärligheter
-              följa därefter. Men alltid måste det vara trösterikare att försöka
-              röja upp i all denna bråte, som olycksvirveln har åstadkommit,
-              än att ständigt ha fruktan över sig, att man skall dragas in däri.
-              Jag hoppas att Ni, herr talman, även under den ljusare tid vi
-              vänta, fortfarande skall få leda denna kammares arbete liksom
-              nu.
-            </seg>
-            <seg xml:id="i-SU6M3jWqCdbxSMVpefnUXc">
-              Jag tillönskar Eder, herr talman, ett gott nytt år, och denna
-              önskan jämte vårt tack sträcker sig jämväl till Edra medhjälpare,
-              de båda vice talmännen.
-            </seg>
-          </u>
-          <note xml:id="i-7Lr3awEtTe75nPX5gFge6A">
-            Kammarens ledamöter åtskildes härefter kl. 11.11 förmiddagen.
-          </note>
-          <note xml:id="i-8k1FuQEcmsPjTHSifGtmiv">
-            In fidem G. H. Berggren.
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1944-höst-fk--35</head>
+        <docDate when="1944-12-12">1944-12-12</docDate>
+        <docDate when="1944-12-14">1944-12-14</docDate>
+        <docDate when="1944-12-15">1944-12-15</docDate>
+        <docDate when="1944-12-19">1944-12-19</docDate>
+        <docDate when="1944-12-29">1944-12-29</docDate>
+        <docDate when="1944-12-30">1944-12-30</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1944-höst-fk--35/prot_1944_höst_fk__35-000.jp2/_view"/>
+        <note xml:id="i-QrTFdcewjZNHZQbBbpeNZH">
+          RIKSDAGENS PROTOKOLL. 1944. Första kammaren. Nr 35.
+        </note>
+        <note type="date" xml:id="i-VPQoYjxj6GxYVKWgNuNUAF">
+          Tisdagen den 19 december.
+        </note>
+        <note xml:id="i-DpZFytfqyRVcsaNqyrKxpq">
+          Kammaren sammanträdde kl. 4 eftermiddagen; och dess förhandlingar
+          leddes av herr förste vice talmannen.
+        </note>
+        <note xml:id="i-VnkG6QULKNNuEZzzyR9vn6">
+          Justerades protokollen för den 12 och den 13 innevarande månad.
+        </note>
+        <note xml:id="i-Cqp5RPdcWgW98QBGVv5SDf">
+          Upplästes tre till kammaren inkomna skrifter av följande lydelse:
+        </note>
+        <u xml:id="i-8EWFZv8NUq5X2Zo5N7ERns" who="unknown" next="i-ShzKMx6YGX9B6tbDy7uZXc">
+          <seg xml:id="i-3h9idSnqxYULmuimecdrvX">
+            Till riksdagens första kammare. Under åberopande av hög ålder
+            (fyllda 73 år) får jag härmed avsäga mig ledamotskapet av kammaren
+            för Kronobergs läns och Hallands läns valkrets.
+          </seg>
+        </u>
+        <note xml:id="i-M9Zi7W4RWkTzQQ4R6TSiox">
+          Stockholm i december 1944. And. Andersson.
+        </note>
+        <note xml:id="i-DGkqLSHh53FvkFstj8JXqF">
+          Till riksdagens första kammare.
+        </note>
+        <u xml:id="i-ShzKMx6YGX9B6tbDy7uZXc" who="unknown" prev="i-8EWFZv8NUq5X2Zo5N7ERns" next="i-YXvCEACVPnh8L3aKzXfCfj">
+          <seg xml:id="i-FwZihxZaE7biFJTji572W">
+            Då jag på grund av uppdrag i hemorten är förhindrad att i fortsättningen
+            fullgöra riksdagsmannauppdrag, får jag härmed vördsamt avsäga
+            mig uppdraget som ledamot av riksdagens första kammare för Kronobergs
+            och Hallands län.
+          </seg>
+        </u>
+        <note xml:id="i-Hi3akSf8HH7U46mvJ5GH1f">
+          Köpinge den 15 december 1944. Verner Andersson.
+        </note>
+        <u xml:id="i-YXvCEACVPnh8L3aKzXfCfj" who="unknown" prev="i-ShzKMx6YGX9B6tbDy7uZXc" next="i-NGqkAaCcyax3Na5R5QR5ja">
+          <seg xml:id="i-UE1cknxibNPCw1vHTaK8jc">
+            Till riksdagens första kammare. | Åberopande bilagda läkarintyg
+            får jag härmed avsäga mig uppdraget som riksdagsman för Västerbottens
+            län och Norrbottens län.
+          </seg>
+        </u>
+        <note xml:id="i-GzEzjDxNbQUdTKR7Epdfu1">
+          Stockholm den 14 december 1944. Sven V. Hansson.
+        </note>
+        <note xml:id="i-kiq5eyScF12E8ZwzaGAUo">
+          Det åberopade läkarintyget, som jämväl upplästes, var så lydande:
+        </note>
+        <u xml:id="i-NGqkAaCcyax3Na5R5QR5ja" who="unknown" prev="i-YXvCEACVPnh8L3aKzXfCfj" next="i-LcKjbVD8tQ6B1st7GsPPXD">
+          <seg xml:id="i-KKcQw4sRKjbdjuiJW5gDt2">
+            Härmed intygas, att riksdagsman Sven Hansson vid företagen undersökning
+            har befunnits lida av en uttalad ämnesomsättningsrubbning och
+            totalt utslitna nerver, som gör det oundgängligen nödvändigt att
+            avkoppla allt tankearbete närmaste åren.
+          </seg>
+        </u>
+        <note xml:id="i-DKFG3QrM6YMpEnPmNzn3qq">
+          Stockholm den 12 december 1944. N. G. Nordin,
+        </note>
+        <note xml:id="i-LKQj296k8sB4vFaeAiopcR">
+          leg. läk. Kammaren godkände de hinder, som herrar Anders Andersson,
+          Verner Andersson och Sven Hansson åberopat till stöd för sina
+          avsägelser av riksdagsmannaskapet. På sedermera av herr förste
+          vice talmannen gjord framställning beslöt kammaren att till Konungen
+          avlåta skrivelse med anmälan om de gjorda avsägelserna samt de
+          därigenom inom kammaren uppkomna ledigheterna, varefter ett
+        </note>
+        <note xml:id="i-C7Y7jExBVpb28oc78jtgxg">
+          Första kammarens protokoll 1944. Nr 35. 1
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1944-höst-fk--35/prot_1944_höst_fk__35-001.jp2/_view"/>
+        <note type="date" xml:id="i-WTWFyKC1XQmjUrmMVDqEBn">
+          2 Nr 35. Lördagen den 30 december 1944.
+        </note>
+        <note xml:id="i-WwwTGFRRhnWAfG4iqG8DoC">
+          i sådant avseende uppsatt förslag till underdånig skrivelse upplästes
+          och godkändes. Kammarens sammanträde avslutades kl. 4.05 eftermiddagen.
+        </note>
+        <note xml:id="i-Gw9oDAPVAHv3Nu5DZTqzWb">
+          In fidem G. H. Berggren.
+        </note>
+        <note type="date" xml:id="i-MWQz48A6yV9Q46WJELwF7g">
+          Lördagen den 30 december.
+        </note>
+        <note xml:id="i-EayZSTSbd7x9X4cWiVQijQ">
+          Kammaren sammanträdde kl. 11 förmiddagen.
+        </note>
+        <note xml:id="i-TaTV6NrTQ7V445kWukZxeb">
+          Justerades protokollet för den 19 innevarande månad.
+        </note>
+        <note xml:id="i-GLW7AqEbNUNSu4jQTjfHcX">
+          Upplästes en till kammaren inkommen skrift, så lydande:
+        </note>
+        <u xml:id="i-LcKjbVD8tQ6B1st7GsPPXD" who="unknown" prev="i-NGqkAaCcyax3Na5R5QR5ja">
+          <seg xml:id="i-ReaHU7hHvFHduSfgmQvBrG">
+            Till riksdagens första kammare. Med anledning av mitt inval i
+            riksdagens andra kammare anhåller jag härmed att bliva befriad
+            från uppdraget att vara ledamot av riksdagens första kammare.
+          </seg>
+        </u>
+        <note xml:id="i-2CVpMQdCeBnpwVq8k6bBCa">
+          Stockholm den 29 december 1944. Bertil Ohlin.
+        </note>
+        <note xml:id="i-3zdK64pEdJnjBZCVtP8RUF">
+          Kammaren godkände den sålunda gjorda avsägelsen.
+        </note>
+        <note xml:id="i-5RfRk3DsrLYZJmWQDu2bkd">
+          På sedermera av herr talmannen gjord framställning beslöt kammaren
+          att till Konungen avlåta skrivelse med anmälan om den gjorda avsägelsen
+          samt den därigenom inom kammaren uppkomna ledigheten, varefter
+          ett 1 sådant avseende uppsatt förslag till underdånig skrivelse
+          upplästes och godkändes.
+        </note>
+        <note xml:id="i-VwksJEZcSEZg9THknBLCC1">
+          Anmäldes och godkändes riksdagens kanslis förslag till Sveriges
+          riksdags beslut å innevarande lagtima riksmöte.
+        </note>
+        <note xml:id="i-EAPBMvMJgB2beMdbCQ6F1r">
+          Justerades ett protokollsutdrag för denna dag.
+        </note>
+        <note xml:id="i-h8uekYST7XGUybT8JSFvm">
+          Hans excellens ministern för utrikes ärendena herr Ginther avlämnade
+          Kungl. Maj:ts skrivelse, nr 307, angående förordnande av statsrådsledamöter
+          att uppläsa Kungl. Maj:ts beslut om avslutande av innevarande
+          års lagtima riks
+        </note>
+        <note xml:id="i-TXha3ubLPnT24TxKmYMeVi">
+          ag.
+        </note>
+        <note xml:id="i-2ARdSoCC1hbZPmep2NjC1f">
+          Av nämnda kungl. skrivelse, som nu föredrogs, inhämtades bland
+          annat, att Kungl. Maj:t förordnat hans excellens ministern för
+          utrikes ärendena herr Gänther att i första kammaren uppläsa Kungl.
+          Maj:ts öppna brev i ämnet.
+        </note>
+        <note xml:id="i-xpGvSUSJxuAgfkjoB2aKs">
+          Med anledning härav lämnades ordet till hans excellens ministern
+          för utrikes ärendena herr Giinther, som i enlighet med det honom
+          givna uppdraget uppläste Kungl. Maj:ts öppna brev nr 308, enligt
+          vilket innevarande års lagtima riksdag skulle avslutas denna dag.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1944-höst-fk--35/prot_1944_höst_fk__35-002.jp2/_view"/>
+        <note type="date" xml:id="i-Q7WDjzTpQKwf36b9MCgsSM">
+          Lördagen den 30 december 1944. Nr 35. 3
+        </note>
+        <note type="speaker" xml:id="i-GhRE3U812qzfZNX15kJCeg">
+          Herr Nilsson, Johan, i Kristianstad yttrade:
+        </note>
+        <u who="Q6010694" xml:id="i-db36a1502498dac8-0">
+          <seg xml:id="i-SeNTDvvf4czZvuKwfVPAKC">
+            Mina herrar! En lång riksdag står nu inför sin avslutning. Även
+            om den inte hela tiden lagt beslag på ledamöternas arbetstid,
+            så måste vi dock, i varje fall antagligen så länge kristiden varar,
+            bereda oss på att brådskande ärenden icke anses kunna invänta
+            riksdagens beslut alltför länge. Vi få därför finna oss uti att,
+            då landets angelägenheter så kräva, vara till förfogande för att
+            efter bästa förstånd och i enlighet med våra medborgerliga åtaganden
+            och därmed följande ansvarsfyllda skyldigheter fatta våra beslut.
+            Vi äro säkerligen också alla eniga i denna inställning, även om
+            uppgiften att vara riksdagsledamot för mången bliver betungande
+            med hänsyn till andra uppgifters fullgörande. Landets väl får
+            emellertid tillgodoses, på detta finnes ingen prutmån. Första
+            kammaren har icke underlåtit detta.
+          </seg>
+          <seg xml:id="i-XQbQqooUgZ7uZKxZAw1LJt">
+            Jag vill nu framföra tack för gott samarbete under detta år.
+            Särskilt rikta vi alla ett varmt tack till dem, som stå inför
+            att upphöra med sitt riksdagsmannauppdrag, och har jag stor anledning
+            att framföra talmannens vördsamma och hjärtliga tack för all förtroendefull
+            välvilja. Jag vill även tillönska eder alla en god fortsättning
+            på helgen och ett gott nytt år.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-98q5VUqx9jCrNhdM4u46r">
+          Detta tal besvarades av herr Bärg, Johan, i följande ordalag:
+        </note>
+        <u who="Q5591837" xml:id="i-d73abd521f437293-0">
+          <seg xml:id="i-N3GsDP1UeFojdHTjuHXquw">
+            Herr talman! Ett arbetsår 1 riksdagen har nu åter förflutit under
+            Eder skickliga och erfarna ledning. När jag nu vill framföra denna
+            kammares tack till Eder för det sätt, på vilket Ni detta år liksom
+            alla föregående skött Edert grannlaga och viktiga värv, vet jag
+            att jag har kammarens alla ledamöter bakom mig. Det är icke blott
+            Edert sätt att leda förhandlingarna, utan hela Edert väsen, som
+            har fångat våra hjärtan, och vi se i Eder, herr talman, icke allenast
+            den skicklige ledaren, utan den gode och överseende kamraten till
+            oss kammarledamöter.
+          </seg>
+          <seg xml:id="i-WyVH7ofvTAxLnwenkKVa9L">
+            Härtill fogar jag en varm önskan, eller låt oss säga förhoppning,
+            att när Ni, herr talman, nästa gång uttalar ett tack för gånget
+            arbetsår, detta måtte ske i medvetande om att den världspina vi
+            genomlida då skall ha nått sitt slut. Det nu gångna året har liksom
+            det närmast föregående i fråga om riksdagsarbetet betecknats av
+            våra bekymmer och våra bestyr med säkerheten, i första rummet
+            säkerheten för vårt eget land. Lyckan har beskärts oss att även
+            detta år undgå att dras in i krigsvirveln, men våra sinnen ha
+            ständigt varit upprörda över alla de våldshandlingar, som begås,
+            och begås i vår omedelbara närhet. Även om kanske fruktan för
+            olyckan för vårt vidkommande under sista tiden har minskats, ha
+            våra sinnen på grund av allt detta, som har skett, varit i rörelse
+            till den grad. att någon sinnesfrid icke har vilat över vare sig
+            oss eller våra gärningar, då vi ha stått i arbetet här uppe. Visserligen
+            äro icke livsbekymren slut i och med krigsslutet, även om vi alltjämt
+            få åtnjuta lyckan att icke indragas i virveln. Många besvärligheter
+            följa därefter. Men alltid måste det vara trösterikare att försöka
+            röja upp i all denna bråte, som olycksvirveln har åstadkommit,
+            än att ständigt ha fruktan över sig, att man skall dragas in däri.
+            Jag hoppas att Ni, herr talman, även under den ljusare tid vi
+            vänta, fortfarande skall få leda denna kammares arbete liksom
+            nu.
+          </seg>
+          <seg xml:id="i-SU6M3jWqCdbxSMVpefnUXc">
+            Jag tillönskar Eder, herr talman, ett gott nytt år, och denna
+            önskan jämte vårt tack sträcker sig jämväl till Edra medhjälpare,
+            de båda vice talmännen.
+          </seg>
+        </u>
+        <note xml:id="i-7Lr3awEtTe75nPX5gFge6A">
+          Kammarens ledamöter åtskildes härefter kl. 11.11 förmiddagen.
+        </note>
+        <note xml:id="i-8k1FuQEcmsPjTHSifGtmiv">
+          In fidem G. H. Berggren.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1941</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1941</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,562 +25,535 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1941--ak--29</head>
-          <docDate when="1941-04-24">1941-04-24</docDate>
-          <docDate when="1941-05-10">1941-05-10</docDate>
-          <docDate when="1941-05-13">1941-05-13</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1941--ak--29/prot_1941__ak__29-000.jp2/_view"/>
-          <note xml:id="i-A3tQXswhFd1ZWFS1SgbRnn">
-            RIKSDAGENS PROTOKOLL. 1941. Andra kammaren. Nr 29.
-          </note>
-          <note type="date" xml:id="i-RfrxcjGVmsg2iuhPvitsNs">
-            Lördagen den 10 maj. - Kl. 4 e. m.
-          </note>
-          <note xml:id="i-ViAHoDBKKWz6zPLqM9UeU7">
-            Förhandlingarna vid detta sammanträde leddes av herr förste vice
-            talmannen,
-          </note>
-          <note xml:id="i-RkTB5r5epsZsb6Su78VGyG">
-            § 1.
-          </note>
-          <note xml:id="i-ECzjZCYArCmC3Cr4g9tpf4">
-            Justerades protokollen för den 3 och den 6 innevarande maj.
-          </note>
-          <note xml:id="i-4r3WSmdQx6gMBfMTurmVA8">
-            § 2. Upplästes en till kammaren inkommen ansökan, som jämte därvid
-            fogat läkarintyg var så lydande:
-          </note>
-          <note xml:id="i-WcDeCkR41uDCjGDbWV4YrU">
-            Till riksdagens andra kammare. Härmed får jag vördsamt anhålla
-            om tjänstledighet på grund av sjukdom till den 24 maj 1941. Läkarintyg
-            bifogas. Stockholm den 8 maj 1941. S. Molander.
-          </note>
-          <u xml:id="i-U71MxToM1A3YVzhzyR9kJY" who="unknown">
-            <seg xml:id="i-KwCDGFd2nyXxWqKbwruLaJ">
-              Revisor Seth Molander är på grund av ämnesomsättningsrubbning
-              oförmögen att deltaga i riksdagsarbetet under en månad, varder
-              härmed intygat.
-            </seg>
-          </u>
-          <note xml:id="i-8XbbBSxm7nq53ur6hML3RB">
-            Stockholm den 24 april 1941. J. Tillgren.
-          </note>
-          <note xml:id="i-2zYutyqjH39c8HFecT7rof">
-            Den begärda ledigheten beviljades. $ 3.
-          </note>
-          <note type="speaker" xml:id="i-TiKAMBNbZrpcxzTuzCJHSi">
-            Herr statsrådet Wigforss avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-AjgjMjxq381aiwuFu2trZQ">
-            ts propositioner:
-          </note>
-          <note xml:id="i-TzNv8DAtCPtWidx48hUsoG">
-            nr 217, med förslag till prisregleringslag m. m.;
-          </note>
-          <note xml:id="i-MTa8KgppzVk53U8RFbrr3z">
-            nr 219, angående ordnande av familjepensionsväsendet för präster
-            m. m.;
-          </note>
-          <note xml:id="i-Q896cq6zKUPeiAJvqXcwhS">
-            nr 220, med förslag om inrättande av en statlig brandskola;
-          </note>
-          <note xml:id="i-DpUm9eRCCjgqLupGsTQBRT">
-            nr 221, angående anvisande å tilläggsstat II till riksstaten
-            för budgetåret 1940/41 av medel för utrustning för central torpedverkstad
-            m. m.;
-          </note>
-          <note xml:id="i-6ykyWGgimsypBCSZNN48gs">
-            nr 222, angående anvisande av medel för uppvärmningsanläggning
-            vid Karlsborgs luftvärnsregemente m. m.;
-          </note>
-          <note xml:id="i-HhzYmtedwDT9w8b9XEvyX8">
-            nr 223, angående anslag till nybyggnad för gymnastiska centralinstitutet;
-          </note>
-          <note xml:id="i-F5nEPbi4osjgs4nR7BxMnR">
-            nr 224, angående bemyndigande att med stiftelsen Göteborgs Welanderhem
-            träffa avtal om upplåtande av stiftelsens fastighet i Göteborg
-            för vård av barn, som lida av reumatisk sjukdom;
-          </note>
-          <note xml:id="i-LzZFBT2KRMvThzgDmw6rjm">
-            nr 225, angående lönereglering för landsfiskaler m. m.;
-          </note>
-          <note xml:id="i-EtQEjPDzNj5nBHUShjRH7M">
-            nr 226, med förslag till förordning om ändrad lydelse av 18 8
-            1 mom. förordningen den 15 december 1914 (nr 436) angående statsmonopol
-            å tobakstillverkningen i riket;
-          </note>
-          <note xml:id="i-Vus56Qn6zchXkAdHdoF537">
-            nr 227, angående anslag för viss hjälpverksamhet till förmån
-            för de till militärtjänst inkallades familjer;
-          </note>
-          <note xml:id="i-DWykNgXwX5KRhkJPLKAWd">
-            Andra kammarens protokoll 1941. Nr 29. 1
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1941--ak--29/prot_1941__ak__29-001.jp2/_view"/>
-          <note type="date" xml:id="i-CLLeBpcWwMp6Hu817g5UFj">
-            2 Nr 29. Lördagen den 10 maj 1941.
-          </note>
-          <note xml:id="i-PZBMWQDyRLcxvFAR6ntN9T">
-            nr 228, angående gäldande av viss haverikostnad;
-          </note>
-          <note xml:id="i-8rXuSVKUYUcTVTCXw7gD6u">
-            nr 229, med förslag till lag om rätt för arrendator att bortföra
-            stråfoder m. m.; och
-          </note>
-          <note xml:id="i-rSK3fxWnZUQiCkxKqpQM6">
-            nr 230, med förslag till förordning om fortsatt uppskov med ikraftträdandet
-            av föreskriven skatt å motorsprit. |
-          </note>
-          <note xml:id="i-2iFLSQUM8cbj5hmtGghv2Z">
-            Propositionen nr 229 hänvisades genast till behandling av lagutskott.
-            De övriga propositionerna bordlades.
-          </note>
-          <note xml:id="i-JmtrB6bUzWHiHDniLopDnA">
-            § 4. Till bordläggning anmäldes:
-          </note>
-          <note xml:id="i-YSfFj4H7cdbTUbks2DBuh">
-            statsutskottets utlåtanden:
-          </note>
-          <note xml:id="i-MXQtCw45ZPCz9fQgACZvJg">
-            nr 107, i anledning av Kungl. Maj:ts proposition angående anslag
-            för budgetåret 1941/42 till vissa privatläroverk m. m.;
-          </note>
-          <note xml:id="i-Qb9qyj9SSmW45tjpkSkoug">
-            nr 108, i anledning av Kungl. Maj:ts proposition angående statsbidrag
-            för budgetåret 1941/42 till undervisningslokaler för folkskoleväsendet
-            m. m.;
-          </note>
-          <note xml:id="i-QxQuVk6tmWcxg6rnaotKe5">
-            nr 109, i anledning av Kungl. Maj:ts proposition angående anslag
-            å tillläggsstat II till riksstaten för budgetåret 1940/41 till
-            tertiärlån till viss bostadsbyggnadsverksamhet;
-          </note>
-          <note xml:id="i-7ZoQnUotZoQPytQXQp7nER">
-            nr 110, i anledning av Kungl. Maj:ts proposition angående viss
-            ändring av villkoren för statsbidrag till driften av vårdhem för
-            lättskötta sinnessjuka jämte i ämnet väckta motioner; och
-          </note>
-          <note xml:id="i-NmNQRYpigs9NS7VUwS2T8w">
-            nr 111, i anledning av väckta motioner om trafikförbindelserna
-            mellan Pajala och Kiruna;
-          </note>
-          <note xml:id="i-CT3JUiWqTYkMnHCJtr4jh5">
-            bevillningsutskottets betänkanden:
-          </note>
-          <note xml:id="i-BPZ3j5on8PvaNBUJDe5A8H">
-            nr 14, i anledning av väckt motion om införande av skatt å oförtjänt
-            värdestegring av fast egendom;
-          </note>
-          <note xml:id="i-HRbUzDmYJinmeBycFPaLzZ">
-            nr 15, i anledning av väckt motion om begränsning av rätten till
-            avdrag enligt skattelagstiftningen för avgift till viss pensionsförsäkring;
-          </note>
-          <note xml:id="i-7C3gRsPxgx2E1CdRaWuoDM">
-            nr 16, i anledning av väckt motion om utredning angående en mera
-            likformig beskattning av lotterivinster;
-          </note>
-          <note xml:id="i-EZeA95UhknpGjQn6sviVkx">
-            nr 17, i anledning av väckta motioner om skattefrihet för vissa
-            gåvor till luftvärnet, luftskyddet och hemvärnet; och
-          </note>
-          <note xml:id="i-1FVv3P6GwyubFm2wYUdx1">
-            nr 18, i anledning av Kungl. Maj:ts proposition nr 212 angående
-            reglering av sockernäringen i riket, såvitt propositionen hänvisats
-            till bevillningsut-
-          </note>
-          <note xml:id="i-UWemV65i24Q4irdN5tqgNL">
-            skottet;
-          </note>
-          <note xml:id="i-VAQjc8UmtVvP86PBK8Mm5P">
-            första Iagutskottets utlåtanden:
-          </note>
-          <note xml:id="i-2cwNSvx2q5e7J4CB3Gxihj">
-            nr 33, i anledning av Kungl. Maj:ts proposition med förslag till
-            lag om fortsatt giltighet av lagen den 1 november 1940 (nr 924)
-            med särskilda bestämmelser angående patent vid krig eller krigsfara
-            m. m.; och
-          </note>
-          <note xml:id="i-FtCYBvJTqHHMKhuWNz7dSq">
-            nr 34, i anledning av väckt motion om införande av obligatorisk
-            brandordning i rikets kommuner;
-          </note>
-          <note xml:id="i-JQkn7SLrDrGMhrga2GViuw">
-            andra lagutskottets utlåtanden:
-          </note>
-          <note xml:id="i-SNbEoeThhBd3fEec8tZsWC">
-            nr 16, i anledning av dels Kungl. Maj:ts proposition med förslag
-            till förordning angående ändring i vissa delar av förordningen
-            den 17 april 1940 (nr 223) om familjebidrag åt värnpliktiga under
-            krigstjänstgöring m. m. (krigsfamiljebidragsförordningen) dels
-            ock motioner i ämnet; nr 17, i anledning av väckta motioner rörande
-            utvidgad vanhävdslagstiftning m. m.; och |
-          </note>
-          <note xml:id="i-PV3ghPb8AUZ1r7RgqMnmKi">
-            nr 18, i anledning av Kungl. Maj:ts proposition med förslag till
-            förordning om framställning och införsel av vitaminiserade livsmedel;
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1941--ak--29/prot_1941__ak__29-002.jp2/_view"/>
-          <note type="date" xml:id="i-xUVMaTBSmRSdvwYhhW7tz">
-            Lördagen den 10 maj 1941. Nr 29. 3
-          </note>
-          <note xml:id="i-TxPbYvybsVcbUSE9vEpUGC">
-            jordbruksutskottets utlåtanden:
-          </note>
-          <note xml:id="i-L58yBoNfodhPWHVFjy7q3H">
-            nr 37,1 anledning av Kungl. Maj:ts proposition angående viss
-            ändring i gällande grunder för utlämnande av lån från jordbrukets
-            maskinlånefond;
-          </note>
-          <note xml:id="i-XJR9sUj9bZrXXMTnwGFyfW">
-            nr 38, i anledning av Kungl. Maj:ts proposition angående kapitalökning
-            för lånefonden för inköp av gasgeneratorer för motordrift;
-          </note>
-          <note xml:id="i-JN2u3ymeP733RvDBjCYw9i">
-            nr 39, i anledning av Kungl. Maj:ts proposition angående upplåtelse
-            åt lappar av lägenheter å kronomark m. m.;
-          </note>
-          <note xml:id="i-GGYpKuQFEzw4SJuXhKnxwT">
-            nr 40, i anledning av väckt motion om viss nedsättning av statens
-            fordran av ÅA. Elvstrand för av honom företaget virkesinköp;
-          </note>
-          <note xml:id="i-HtDX5n7AWLio4Q1XpXdVwY">
-            nr 41, i anledning av väckta motioner om rätt för vägstyrelse
-            att utse snöplogfogde;
-          </note>
-          <note xml:id="i-RQz1MDF5ifnQaz5v9da42S">
-            nr 42, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av mark från vissa kronoegendomar m. m.;
-          </note>
-          <note xml:id="i-CnLkhAXKSphQPq12Q3fkjW">
-            nr 43, i anledning av väckt motion angående utsträckning av rätten
-            till ersättning för älgskada;
-          </note>
-          <note xml:id="i-6ggyFVjzFHWPnmX9as4Lys">
-            nr 44, i anledning av väckt motion om avhjälpande av förefintliga
-            olägenheter vid besiktning av älgkött; . Sj 45, t anledning av
-            väckt motion om ändrade bestämmelser rörande jakt å älg; oc .
-            |
-          </note>
-          <note xml:id="i-SCYXfmEFbgAhivFRguCfhA">
-            nr 46, i anledning av väckta motioner om åtgärder för en snabb
-            ökning av landets fårstam; samt
-          </note>
-          <note xml:id="i-7fzxLYJ4Q3aEQTHNB3Koh7">
-            andra kammarens tredje tillfälliga utskotts utlåtande, nr 5,
-            i anledning av väckt motion om inrättande av ett nordiskt institut
-            med uppgift att fördjupa och stärka den nordiska samhörigheten.
-          </note>
-          <note xml:id="i-62jVDjRM2nm2KeQFzvohhc">
-            5 8.
-          </note>
-          <note xml:id="i-Adx6WFLAUHTLLC6qXvxfh7">
-            Anmäldes och godkändes följande förslag till riksdagens skrivelser
-            till Konungen, nämligen
-          </note>
-          <note xml:id="i-4AbF5Qq28CXATMa8Q4NDAd">
-            från statsutskottet:
-          </note>
-          <note xml:id="i-3Nj2cXCBjWftebMr18y7b7">
-            nr 202, i anledning av Kungl. Maj:ts proposition angående disposition
-            av två skolhemman i Korpilombolo och Karl Gustafs socknar m. m.
-            jämte i ämnet väckta motioner;
-          </note>
-          <note xml:id="i-XMghbGdubLYwcQUvxEP9GY">
-            nr 204, i anledning av Kungl. Maj:ts proposition angående anslag
-            å tillläggsstat IT till riksstaten för budgetåret 1940/41 till
-            förlagskapital för inköp av förnödenheter, m. m.;
-          </note>
-          <note xml:id="i-LstTzJK7aEPm2e6YF4BU9N">
-            nr 206, i anledning av Kungl. Maj:ts proposition angående anslag
-            å tillläggsstat IT till riksstaten för budgetåret 1940/41 till
-            vissa omoch tillbyggnadsarbeten vid serafimerlasarettet jämte
-            i ämnet väckta motioner;
-          </note>
-          <note xml:id="i-SNTRsf136dhPUgsHLx3mUV">
-            nr 208, i anledning av Kungl. Maj:ts proposition angående höjd
-            resekostnadsersättning i vissa fall vid färd med egen automobil
-            m. m.;
-          </note>
-          <note xml:id="i-C6B2kqLLAP1e5nQTX4F2uf">
-            nr 209, i anledning av Kungl. Maj:ts proposition angående anslag
-            å tillläggsstat IT till riksstaten för budgetåret 1940/41 till
-            bidrag till stiftelsen Råby räddningsinstitut m. m.;
-          </note>
-          <note xml:id="i-GuTMHv9ERycyCsnNToXJUf">
-            nr 210, i anledning av Kungl. Maj:ts proposition angående anslag
-            till Justitiekanslersämbetet: Avlöningar m. m.;
-          </note>
-          <note xml:id="i-MmVyPSjNihDRZrxkGXVmiA">
-            nr 212, i anledning av Kungl. Maj:ts proposition angående förändring
-            i avseende å löneställning och antal beträffande vissa ordinarie
-            befattningar vid postverket, statens järnvägar och statens vattenfallsverk
-            m. m.; och
-          </note>
-          <note xml:id="i-ATvjcsJRZe4hpsmQRp1G2M">
-            nr 213, i anledning av Kungl. Maj:ts proposition med förslag
-            till stat för statens allmänna fastighetsfond för budgetåret 1941/42
-            m. m.;
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1941--ak--29/prot_1941__ak__29-003.jp2/_view"/>
-          <note type="date" xml:id="i-UPtqEtt8KZSpzq9PTHLCWy">
-            4 Nr 29. Lördagen den 10 maj 1941.
-          </note>
-          <note xml:id="i-PrKfNqAdpFoHuSTJB4B9B3">
-            från andra lagutskottet:
-          </note>
-          <note xml:id="i-QhPvSUmHs3JBNmLHj74MAi">
-            nr 214, i anledning av Kungl. Maj:ts proposition med förslag
-            till förordning om ändring i 6 8 1 mom. avlöningsreglementet den
-            15 juni 1939 (nr 278) för personal vid försvarsväsendet under
-            krigstjänstgöring (krigsavlöningsreglementet) m. m., såvitt angår
-            genom propositionen framlagt förslag till lag om ändrad lydelse
-            av $ 7 lagen den 12 juni 1925 (nr 338) om värnpliktiga, vilka
-            hysa samvetsbetänkligheter mot värnpliktstjänstgöring; samt
-          </note>
-          <note xml:id="i-Xz2cNx2vcrjwgXz3C6Ci3b">
-            från jordbruksutskottet: .
-          </note>
-          <note xml:id="i-DMSCGB7k7TPDHXxF3kVmaK">
-            nr 215, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av vissa fastigheter, som disponeras av veterinärinrättningen
-            i Skara;
-          </note>
-          <note xml:id="i-9nuSd6mNsNSuiGoHSCeLeB">
-            nr 216, i anledning av Kungl. Maj:ts proposition angående ytterligare
-            statsbidrag för undersökning rörande reglering av vissa delar
-            av Kalix älv i Norrbottens län;
-          </note>
-          <note xml:id="i-BPgz62V6bQnwcTKJL8QzZX">
-            nr 217, i anledning av Kungl. Maj:ts proposition angående försäljning
-            till svenska turistföreningen av visst område vid Västra Vålådalen
-            i Jämtlands län;
-          </note>
-          <note xml:id="i-7jvxX2Z9coaZt7A1pTBRyA">
-            nr 218, i anledning av Kungl. Maj:ts proposition rörande ändring
-            i förordningen den 29 juni 1917 (nr 420) angående förbud i vissa
-            fall mot användande av vilseledande varubeteckningar vid handel
-            med födoämnen;
-          </note>
-          <note xml:id="i-MCdFRs6bjMUL5s6TvNjJnp">
-            nr 219, i anledning av Kungl. Maj:ts proposition angående vissa
-            ändringar i grunderna för försäljning av kronoegendomar;
-          </note>
-          <note xml:id="i-VuakMLn4ZFRStfy4ktSaeq">
-            nr 220, i anledning av Kungl. Maj:ts proposition med förslag
-            till lag om ändrad lydelse av 2 8 3 mom. samt 12 och 30 $$ skogsvårdslagen
-            den 15 juni 1923 (nr 212) m. m.;
-          </note>
-          <note xml:id="i-BDQ8QM9JzRU3nV93rDwzdF">
-            nr 221, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av vissa allmänna arvsfonden tillfallna fastigheter;
-          </note>
-          <note xml:id="i-3zzV1UXBSztzJEJz54n3PX">
-            nr 222, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av ett pa förra biskopsbostället 2 mantal Sundby nr 1:i Strängnäs
-            socken hörande område;
-          </note>
-          <note xml:id="i-PibZqgdZcFQkeR8YCktoKE">
-            nr 223, i anledning av Kungl. Maj:ts proposition angående statsunderstöd
-            för anläggande av skyddsvall vid viss del av Klarälven m. m.;
-            och
-          </note>
-          <note xml:id="i-24eMsqkQhAqmG7obc5DiWE">
-            nr 224, i anledning av Kungl. Maj:ts proposition angående avsättande
-            till nationalpark av det s. k. Muddusområdet i Norrbottens län.
-          </note>
-          <note xml:id="i-FHy7ihJwCMnNFnVagD6kJM">
-            Vidare anmäldes och godkändes riksdagens kanslis förslag till
-            riksdagens skrivelse, nr 211, till Konungen angående utredning
-            av frågan om röstoch talvård vid våra skolor.
-          </note>
-          <note xml:id="i-3ph9zkdfWxiPBwFGHP6mLU">
-            § 6. Justerades protokollsutdrag.
-          </note>
-          <note xml:id="i-3UgyYcNjn4zv2XzzxKri3n">
-            Kammarens ledamöter åtskildes härefter kl. 4.10 e. m.
-          </note>
-          <note xml:id="i-ExavpErMd6wuuySAisUaDf">
-            In fidem Sune Norrman.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1941--ak--29/prot_1941__ak__29-004.jp2/_view"/>
-          <note type="date" xml:id="i-W1LHXawZFZQ1Aq6Wac1BhT">
-            Tisdagen den 13 maj 1941. Nr 29. 5
-          </note>
-          <note type="date" xml:id="i-6Q4EPRmM7gJWMvrq5y6dZW">
-            Tisdagen den 13 maj. Kl. 3.30 e. m.
-          </note>
-          <note xml:id="i-6ns4N3UcR5CEGn3Dxs5tn6">
-            Förhandlingarna vid detta sammanträde leddes av herr förste vice
-            talmannen.
-          </note>
-          <note xml:id="i-Wp9jMxrQShDoERVX1Ha7bc">
-            §1.
-          </note>
-          <note xml:id="i-yowdJTrahPdoEva6rdtB9">
-            Justerades protokollet för den 7 innevarande maj.
-          </note>
-          <note xml:id="i-Wr1QbYdMmYnWVsKAHxWHSX">
-            § 2.
-          </note>
-          <note type="speaker" xml:id="i-Thjh1jsz6Die2fSQsMmiRK">
-            Herr statsrådet Eriksson avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-PCuCu5RbzwGYndPkwAweBN">
-            ts propositioner:
-          </note>
-          <note xml:id="i-DfctzQuqNaSny4oHqNU9Qr">
-            nr 231, med förslag till lag om fortsatt giltighet av allmänna
-            förfogandelagen den 22 juni 1939 (nr 293);
-          </note>
-          <note xml:id="i-6HeBsfTYaeohZj6E7HnMnv">
-            nr 233, angående anslag till lotsverkets båtlånefond; och
-          </note>
-          <note xml:id="i-F4bKLUsSRLpqiNWVqncYPg">
-            nr 236, angående anslag till tullverket för budgetåret 1941/42.
-          </note>
-          <note xml:id="i-SAYibD5mmi3sbvhCfsbu3R">
-            Dessa propositioner bordlades.
-          </note>
-          <note xml:id="i-XngxwcajsLqNFDqhWjS2HF">
-            § 3.
-          </note>
-          <note xml:id="i-YSJr6kop5mfToqC6goHYXp">
-            Föredrogos var efter annan följande Kungl. Maj:ts å kammarens
-            bord vilande propositioner; och hänvisades därvid
-          </note>
-          <note xml:id="i-VsEAqAYyv4baHUg7MaJ2qn">
-            till behandling av lagutskott propositionen, nr 217, med förslag
-            till prisregleringslag m. m.;
-          </note>
-          <note xml:id="i-XqcQpB16phvjparuuvCRd1">
-            till bankoutskottet propositionen, nr 219, angående ordnande
-            av familjepensionsväsendet för präster m. m.;
-          </note>
-          <note xml:id="i-R76cmsYKdKDv3ztnvMfzmQ">
-            till statsutskottet propositionerna:
-          </note>
-          <note xml:id="i-Agfj8EUcZdJhKU4LgGcuS9">
-            nr 220, med förslag om inrättande av en statlig brandskola;
-          </note>
-          <note xml:id="i-2LTm7DZ2aofQDD8oinrqYf">
-            nr 221, angående anvisande å tilläggsstat IT till riksstaten
-            för budgetåret 1940/41 av medel för utrustning för central torpedverkstad
-            m. Mm:
-          </note>
-          <note xml:id="i-LsxvcbyUoVWuYaKDFt52UK">
-            nr 222, angående anvisande av medel för uppvärmningsanläggning
-            vid Karlsborgs luftvärnsregemente m. m.;
-          </note>
-          <note xml:id="i-QwmAdmL3CDpHxFZpuDVNRB">
-            nr 223, angående anslag till nybyggnad för gymnastiska centralinstitutet;
-          </note>
-          <note xml:id="i-QVZmqvdDqwLqJxgTwp5K7F">
-            nr 224, angående bemyndigande att med stiftelsen Göteborgs Welanderhem
-            träffa avtal om upplåtande av stiftelsens fastighet i Göteborg
-            för vård av barn, som lida av reumatisk sjukdom; och
-          </note>
-          <note xml:id="i-GyggtUtbyFCbU7ts6urSfw">
-            nr 225, angående lönereglering för landsfiskaler m. m.;
-          </note>
-          <note xml:id="i-PimVy7irJSkBW2c9zwfPaJ">
-            till bevillningsutskottet propositionen, nr 226, med förslag
-            till förordning om ändrad lydelse av 18 $ 1 mom. förordningen
-            den 15 december 1914 (nr 436) angående statsmonopol å tobakstillverkningen
-            i riket;
-          </note>
-          <note xml:id="i-2mecJtvWEt5ik84XTf6gRp">
-            till statsutskottet propositionerna: nr 227, angående anslag
-            för viss hjälpverksamhet till förmån för de till mili-
-          </note>
-          <note xml:id="i-QecH7Ug1q8Z56orXucxr7x">
-            tärtjänst inkallades familjer; och nr 228, angående gäldande
-            av viss haverikostnad; samt
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1941--ak--29/prot_1941__ak__29-005.jp2/_view"/>
-          <note type="date" xml:id="i-H8KW9eLccZNm9c8wYxP7H6">
-            6 Nr 29. Tisdagen den 13 maj 1941.
-          </note>
-          <note xml:id="i-QEjT3VeNgpbwmZWa17BF5a">
-            till bevillningsutskottet propositionen, nr 230, med förslag
-            till förordning om fortsatt uppskov med ikraftträdandet av föreskriven
-            skatt å motorsprit.
-          </note>
-          <note xml:id="i-2XP9qyhTafwLRXxzBm9DBE">
-            § 4.
-          </note>
-          <note xml:id="i-MZmfAxm9VcoFo7xKzLVHTU">
-            Föredrogos, men bordlades åter statsutskottets utlåtanden nr
-            107—111, bevillningsutskottets betänkanden nr 14—18, första lagutskottets
-            utlåtanden nr 33 och 34, andra lagutskottets utlåtanden nr 16—18,
-            jordbruksutskottets utlåtanden nr 37—46 samt andra kammarens tredje
-            tillfälliga utskotts utlåtande nr 5.
-          </note>
-          <note xml:id="i-LABYrKc9Jtgm81T85G4knf">
-            § 5.
-          </note>
-          <note xml:id="i-9RwfoysvZXJ5LZosnZP9Fi">
-            Till bordläggning anmäldes andra lagutskottets utlåtande, nr
-            19, i anledning av Kungl. Maj:ts proposition med förslag till
-            lag om rätt för arrendator att bortföra stråfoder m. m.
-          </note>
-          <note xml:id="i-Fovcpc6pqHjXDGeE9qGNHM">
-            § 6. Justerades protokollsutdrag.
-          </note>
-          <note xml:id="i-PXzNWnaMTQ6sUjfpEqaLu1">
-            § 7.
-          </note>
-          <note xml:id="i-5ajb4vvDHukXVPvizGjzDe">
-            Herr Ericsson i Kinna avlämnade en av honom undertecknad motion,
-            nr 299, i anledning av Kungl. Maj:ts proposition, nr 214, med
-            förslag till förordning angående ändring i vissa delar av förordningen
-            den 15 juni 1934 (nr 264) om erkända arbetslöshetskassor, m. m.
-          </note>
-          <note xml:id="i-QCFDDHGqy9Wj7c2YU6SmL2">
-            Denna motion bordlades. Kammarens ledamöter åtskildes härefter
-            kl. 3.36 e. m.
-          </note>
-          <note xml:id="i-JqB4UtZnfsUvSofC87jgJV">
-            In fidem Sune Norrman.
-          </note>
-          <note xml:id="i-3QHUb6Z3Ceht81hvC7mHBF">
-            Stockholm 1941. Kungl. Boktryckeriet.P. A. Norstedt &amp; Söner.
-            =: z -- 411901
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1941--ak--29</head>
+        <docDate when="1941-04-24">1941-04-24</docDate>
+        <docDate when="1941-05-10">1941-05-10</docDate>
+        <docDate when="1941-05-13">1941-05-13</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1941--ak--29/prot_1941__ak__29-000.jp2/_view"/>
+        <note xml:id="i-A3tQXswhFd1ZWFS1SgbRnn">
+          RIKSDAGENS PROTOKOLL. 1941. Andra kammaren. Nr 29.
+        </note>
+        <note type="date" xml:id="i-RfrxcjGVmsg2iuhPvitsNs">
+          Lördagen den 10 maj. - Kl. 4 e. m.
+        </note>
+        <note xml:id="i-ViAHoDBKKWz6zPLqM9UeU7">
+          Förhandlingarna vid detta sammanträde leddes av herr förste vice
+          talmannen,
+        </note>
+        <note xml:id="i-RkTB5r5epsZsb6Su78VGyG">
+          § 1.
+        </note>
+        <note xml:id="i-ECzjZCYArCmC3Cr4g9tpf4">
+          Justerades protokollen för den 3 och den 6 innevarande maj.
+        </note>
+        <note xml:id="i-4r3WSmdQx6gMBfMTurmVA8">
+          § 2. Upplästes en till kammaren inkommen ansökan, som jämte därvid
+          fogat läkarintyg var så lydande:
+        </note>
+        <note xml:id="i-WcDeCkR41uDCjGDbWV4YrU">
+          Till riksdagens andra kammare. Härmed får jag vördsamt anhålla
+          om tjänstledighet på grund av sjukdom till den 24 maj 1941. Läkarintyg
+          bifogas. Stockholm den 8 maj 1941. S. Molander.
+        </note>
+        <u xml:id="i-U71MxToM1A3YVzhzyR9kJY" who="unknown">
+          <seg xml:id="i-KwCDGFd2nyXxWqKbwruLaJ">
+            Revisor Seth Molander är på grund av ämnesomsättningsrubbning
+            oförmögen att deltaga i riksdagsarbetet under en månad, varder
+            härmed intygat.
+          </seg>
+        </u>
+        <note xml:id="i-8XbbBSxm7nq53ur6hML3RB">
+          Stockholm den 24 april 1941. J. Tillgren.
+        </note>
+        <note xml:id="i-2zYutyqjH39c8HFecT7rof">
+          Den begärda ledigheten beviljades. $ 3.
+        </note>
+        <note type="speaker" xml:id="i-TiKAMBNbZrpcxzTuzCJHSi">
+          Herr statsrådet Wigforss avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-AjgjMjxq381aiwuFu2trZQ">
+          ts propositioner:
+        </note>
+        <note xml:id="i-TzNv8DAtCPtWidx48hUsoG">
+          nr 217, med förslag till prisregleringslag m. m.;
+        </note>
+        <note xml:id="i-MTa8KgppzVk53U8RFbrr3z">
+          nr 219, angående ordnande av familjepensionsväsendet för präster
+          m. m.;
+        </note>
+        <note xml:id="i-Q896cq6zKUPeiAJvqXcwhS">
+          nr 220, med förslag om inrättande av en statlig brandskola;
+        </note>
+        <note xml:id="i-DpUm9eRCCjgqLupGsTQBRT">
+          nr 221, angående anvisande å tilläggsstat II till riksstaten
+          för budgetåret 1940/41 av medel för utrustning för central torpedverkstad
+          m. m.;
+        </note>
+        <note xml:id="i-6ykyWGgimsypBCSZNN48gs">
+          nr 222, angående anvisande av medel för uppvärmningsanläggning
+          vid Karlsborgs luftvärnsregemente m. m.;
+        </note>
+        <note xml:id="i-HhzYmtedwDT9w8b9XEvyX8">
+          nr 223, angående anslag till nybyggnad för gymnastiska centralinstitutet;
+        </note>
+        <note xml:id="i-F5nEPbi4osjgs4nR7BxMnR">
+          nr 224, angående bemyndigande att med stiftelsen Göteborgs Welanderhem
+          träffa avtal om upplåtande av stiftelsens fastighet i Göteborg
+          för vård av barn, som lida av reumatisk sjukdom;
+        </note>
+        <note xml:id="i-LzZFBT2KRMvThzgDmw6rjm">
+          nr 225, angående lönereglering för landsfiskaler m. m.;
+        </note>
+        <note xml:id="i-EtQEjPDzNj5nBHUShjRH7M">
+          nr 226, med förslag till förordning om ändrad lydelse av 18 8
+          1 mom. förordningen den 15 december 1914 (nr 436) angående statsmonopol
+          å tobakstillverkningen i riket;
+        </note>
+        <note xml:id="i-Vus56Qn6zchXkAdHdoF537">
+          nr 227, angående anslag för viss hjälpverksamhet till förmån
+          för de till militärtjänst inkallades familjer;
+        </note>
+        <note xml:id="i-DWykNgXwX5KRhkJPLKAWd">
+          Andra kammarens protokoll 1941. Nr 29. 1
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1941--ak--29/prot_1941__ak__29-001.jp2/_view"/>
+        <note type="date" xml:id="i-CLLeBpcWwMp6Hu817g5UFj">
+          2 Nr 29. Lördagen den 10 maj 1941.
+        </note>
+        <note xml:id="i-PZBMWQDyRLcxvFAR6ntN9T">
+          nr 228, angående gäldande av viss haverikostnad;
+        </note>
+        <note xml:id="i-8rXuSVKUYUcTVTCXw7gD6u">
+          nr 229, med förslag till lag om rätt för arrendator att bortföra
+          stråfoder m. m.; och
+        </note>
+        <note xml:id="i-rSK3fxWnZUQiCkxKqpQM6">
+          nr 230, med förslag till förordning om fortsatt uppskov med ikraftträdandet
+          av föreskriven skatt å motorsprit. |
+        </note>
+        <note xml:id="i-2iFLSQUM8cbj5hmtGghv2Z">
+          Propositionen nr 229 hänvisades genast till behandling av lagutskott.
+          De övriga propositionerna bordlades.
+        </note>
+        <note xml:id="i-JmtrB6bUzWHiHDniLopDnA">
+          § 4. Till bordläggning anmäldes:
+        </note>
+        <note xml:id="i-YSfFj4H7cdbTUbks2DBuh">
+          statsutskottets utlåtanden:
+        </note>
+        <note xml:id="i-MXQtCw45ZPCz9fQgACZvJg">
+          nr 107, i anledning av Kungl. Maj:ts proposition angående anslag
+          för budgetåret 1941/42 till vissa privatläroverk m. m.;
+        </note>
+        <note xml:id="i-Qb9qyj9SSmW45tjpkSkoug">
+          nr 108, i anledning av Kungl. Maj:ts proposition angående statsbidrag
+          för budgetåret 1941/42 till undervisningslokaler för folkskoleväsendet
+          m. m.;
+        </note>
+        <note xml:id="i-QxQuVk6tmWcxg6rnaotKe5">
+          nr 109, i anledning av Kungl. Maj:ts proposition angående anslag
+          å tillläggsstat II till riksstaten för budgetåret 1940/41 till
+          tertiärlån till viss bostadsbyggnadsverksamhet;
+        </note>
+        <note xml:id="i-7ZoQnUotZoQPytQXQp7nER">
+          nr 110, i anledning av Kungl. Maj:ts proposition angående viss
+          ändring av villkoren för statsbidrag till driften av vårdhem för
+          lättskötta sinnessjuka jämte i ämnet väckta motioner; och
+        </note>
+        <note xml:id="i-NmNQRYpigs9NS7VUwS2T8w">
+          nr 111, i anledning av väckta motioner om trafikförbindelserna
+          mellan Pajala och Kiruna;
+        </note>
+        <note xml:id="i-CT3JUiWqTYkMnHCJtr4jh5">
+          bevillningsutskottets betänkanden:
+        </note>
+        <note xml:id="i-BPZ3j5on8PvaNBUJDe5A8H">
+          nr 14, i anledning av väckt motion om införande av skatt å oförtjänt
+          värdestegring av fast egendom;
+        </note>
+        <note xml:id="i-HRbUzDmYJinmeBycFPaLzZ">
+          nr 15, i anledning av väckt motion om begränsning av rätten till
+          avdrag enligt skattelagstiftningen för avgift till viss pensionsförsäkring;
+        </note>
+        <note xml:id="i-7C3gRsPxgx2E1CdRaWuoDM">
+          nr 16, i anledning av väckt motion om utredning angående en mera
+          likformig beskattning av lotterivinster;
+        </note>
+        <note xml:id="i-EZeA95UhknpGjQn6sviVkx">
+          nr 17, i anledning av väckta motioner om skattefrihet för vissa
+          gåvor till luftvärnet, luftskyddet och hemvärnet; och
+        </note>
+        <note xml:id="i-1FVv3P6GwyubFm2wYUdx1">
+          nr 18, i anledning av Kungl. Maj:ts proposition nr 212 angående
+          reglering av sockernäringen i riket, såvitt propositionen hänvisats
+          till bevillningsut-
+        </note>
+        <note xml:id="i-UWemV65i24Q4irdN5tqgNL">
+          skottet;
+        </note>
+        <note xml:id="i-VAQjc8UmtVvP86PBK8Mm5P">
+          första Iagutskottets utlåtanden:
+        </note>
+        <note xml:id="i-2cwNSvx2q5e7J4CB3Gxihj">
+          nr 33, i anledning av Kungl. Maj:ts proposition med förslag till
+          lag om fortsatt giltighet av lagen den 1 november 1940 (nr 924)
+          med särskilda bestämmelser angående patent vid krig eller krigsfara
+          m. m.; och
+        </note>
+        <note xml:id="i-FtCYBvJTqHHMKhuWNz7dSq">
+          nr 34, i anledning av väckt motion om införande av obligatorisk
+          brandordning i rikets kommuner;
+        </note>
+        <note xml:id="i-JQkn7SLrDrGMhrga2GViuw">
+          andra lagutskottets utlåtanden:
+        </note>
+        <note xml:id="i-SNbEoeThhBd3fEec8tZsWC">
+          nr 16, i anledning av dels Kungl. Maj:ts proposition med förslag
+          till förordning angående ändring i vissa delar av förordningen
+          den 17 april 1940 (nr 223) om familjebidrag åt värnpliktiga under
+          krigstjänstgöring m. m. (krigsfamiljebidragsförordningen) dels
+          ock motioner i ämnet; nr 17, i anledning av väckta motioner rörande
+          utvidgad vanhävdslagstiftning m. m.; och |
+        </note>
+        <note xml:id="i-PV3ghPb8AUZ1r7RgqMnmKi">
+          nr 18, i anledning av Kungl. Maj:ts proposition med förslag till
+          förordning om framställning och införsel av vitaminiserade livsmedel;
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1941--ak--29/prot_1941__ak__29-002.jp2/_view"/>
+        <note type="date" xml:id="i-xUVMaTBSmRSdvwYhhW7tz">
+          Lördagen den 10 maj 1941. Nr 29. 3
+        </note>
+        <note xml:id="i-TxPbYvybsVcbUSE9vEpUGC">
+          jordbruksutskottets utlåtanden:
+        </note>
+        <note xml:id="i-L58yBoNfodhPWHVFjy7q3H">
+          nr 37,1 anledning av Kungl. Maj:ts proposition angående viss
+          ändring i gällande grunder för utlämnande av lån från jordbrukets
+          maskinlånefond;
+        </note>
+        <note xml:id="i-XJR9sUj9bZrXXMTnwGFyfW">
+          nr 38, i anledning av Kungl. Maj:ts proposition angående kapitalökning
+          för lånefonden för inköp av gasgeneratorer för motordrift;
+        </note>
+        <note xml:id="i-JN2u3ymeP733RvDBjCYw9i">
+          nr 39, i anledning av Kungl. Maj:ts proposition angående upplåtelse
+          åt lappar av lägenheter å kronomark m. m.;
+        </note>
+        <note xml:id="i-GGYpKuQFEzw4SJuXhKnxwT">
+          nr 40, i anledning av väckt motion om viss nedsättning av statens
+          fordran av ÅA. Elvstrand för av honom företaget virkesinköp;
+        </note>
+        <note xml:id="i-HtDX5n7AWLio4Q1XpXdVwY">
+          nr 41, i anledning av väckta motioner om rätt för vägstyrelse
+          att utse snöplogfogde;
+        </note>
+        <note xml:id="i-RQz1MDF5ifnQaz5v9da42S">
+          nr 42, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av mark från vissa kronoegendomar m. m.;
+        </note>
+        <note xml:id="i-CnLkhAXKSphQPq12Q3fkjW">
+          nr 43, i anledning av väckt motion angående utsträckning av rätten
+          till ersättning för älgskada;
+        </note>
+        <note xml:id="i-6ggyFVjzFHWPnmX9as4Lys">
+          nr 44, i anledning av väckt motion om avhjälpande av förefintliga
+          olägenheter vid besiktning av älgkött; . Sj 45, t anledning av
+          väckt motion om ändrade bestämmelser rörande jakt å älg; oc .
+          |
+        </note>
+        <note xml:id="i-SCYXfmEFbgAhivFRguCfhA">
+          nr 46, i anledning av väckta motioner om åtgärder för en snabb
+          ökning av landets fårstam; samt
+        </note>
+        <note xml:id="i-7fzxLYJ4Q3aEQTHNB3Koh7">
+          andra kammarens tredje tillfälliga utskotts utlåtande, nr 5,
+          i anledning av väckt motion om inrättande av ett nordiskt institut
+          med uppgift att fördjupa och stärka den nordiska samhörigheten.
+        </note>
+        <note xml:id="i-62jVDjRM2nm2KeQFzvohhc">
+          5 8.
+        </note>
+        <note xml:id="i-Adx6WFLAUHTLLC6qXvxfh7">
+          Anmäldes och godkändes följande förslag till riksdagens skrivelser
+          till Konungen, nämligen
+        </note>
+        <note xml:id="i-4AbF5Qq28CXATMa8Q4NDAd">
+          från statsutskottet:
+        </note>
+        <note xml:id="i-3Nj2cXCBjWftebMr18y7b7">
+          nr 202, i anledning av Kungl. Maj:ts proposition angående disposition
+          av två skolhemman i Korpilombolo och Karl Gustafs socknar m. m.
+          jämte i ämnet väckta motioner;
+        </note>
+        <note xml:id="i-XMghbGdubLYwcQUvxEP9GY">
+          nr 204, i anledning av Kungl. Maj:ts proposition angående anslag
+          å tillläggsstat IT till riksstaten för budgetåret 1940/41 till
+          förlagskapital för inköp av förnödenheter, m. m.;
+        </note>
+        <note xml:id="i-LstTzJK7aEPm2e6YF4BU9N">
+          nr 206, i anledning av Kungl. Maj:ts proposition angående anslag
+          å tillläggsstat IT till riksstaten för budgetåret 1940/41 till
+          vissa omoch tillbyggnadsarbeten vid serafimerlasarettet jämte
+          i ämnet väckta motioner;
+        </note>
+        <note xml:id="i-SNTRsf136dhPUgsHLx3mUV">
+          nr 208, i anledning av Kungl. Maj:ts proposition angående höjd
+          resekostnadsersättning i vissa fall vid färd med egen automobil
+          m. m.;
+        </note>
+        <note xml:id="i-C6B2kqLLAP1e5nQTX4F2uf">
+          nr 209, i anledning av Kungl. Maj:ts proposition angående anslag
+          å tillläggsstat IT till riksstaten för budgetåret 1940/41 till
+          bidrag till stiftelsen Råby räddningsinstitut m. m.;
+        </note>
+        <note xml:id="i-GuTMHv9ERycyCsnNToXJUf">
+          nr 210, i anledning av Kungl. Maj:ts proposition angående anslag
+          till Justitiekanslersämbetet: Avlöningar m. m.;
+        </note>
+        <note xml:id="i-MmVyPSjNihDRZrxkGXVmiA">
+          nr 212, i anledning av Kungl. Maj:ts proposition angående förändring
+          i avseende å löneställning och antal beträffande vissa ordinarie
+          befattningar vid postverket, statens järnvägar och statens vattenfallsverk
+          m. m.; och
+        </note>
+        <note xml:id="i-ATvjcsJRZe4hpsmQRp1G2M">
+          nr 213, i anledning av Kungl. Maj:ts proposition med förslag
+          till stat för statens allmänna fastighetsfond för budgetåret 1941/42
+          m. m.;
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1941--ak--29/prot_1941__ak__29-003.jp2/_view"/>
+        <note type="date" xml:id="i-UPtqEtt8KZSpzq9PTHLCWy">
+          4 Nr 29. Lördagen den 10 maj 1941.
+        </note>
+        <note xml:id="i-PrKfNqAdpFoHuSTJB4B9B3">
+          från andra lagutskottet:
+        </note>
+        <note xml:id="i-QhPvSUmHs3JBNmLHj74MAi">
+          nr 214, i anledning av Kungl. Maj:ts proposition med förslag
+          till förordning om ändring i 6 8 1 mom. avlöningsreglementet den
+          15 juni 1939 (nr 278) för personal vid försvarsväsendet under
+          krigstjänstgöring (krigsavlöningsreglementet) m. m., såvitt angår
+          genom propositionen framlagt förslag till lag om ändrad lydelse
+          av $ 7 lagen den 12 juni 1925 (nr 338) om värnpliktiga, vilka
+          hysa samvetsbetänkligheter mot värnpliktstjänstgöring; samt
+        </note>
+        <note xml:id="i-Xz2cNx2vcrjwgXz3C6Ci3b">
+          från jordbruksutskottet: .
+        </note>
+        <note xml:id="i-DMSCGB7k7TPDHXxF3kVmaK">
+          nr 215, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av vissa fastigheter, som disponeras av veterinärinrättningen
+          i Skara;
+        </note>
+        <note xml:id="i-9nuSd6mNsNSuiGoHSCeLeB">
+          nr 216, i anledning av Kungl. Maj:ts proposition angående ytterligare
+          statsbidrag för undersökning rörande reglering av vissa delar
+          av Kalix älv i Norrbottens län;
+        </note>
+        <note xml:id="i-BPgz62V6bQnwcTKJL8QzZX">
+          nr 217, i anledning av Kungl. Maj:ts proposition angående försäljning
+          till svenska turistföreningen av visst område vid Västra Vålådalen
+          i Jämtlands län;
+        </note>
+        <note xml:id="i-7jvxX2Z9coaZt7A1pTBRyA">
+          nr 218, i anledning av Kungl. Maj:ts proposition rörande ändring
+          i förordningen den 29 juni 1917 (nr 420) angående förbud i vissa
+          fall mot användande av vilseledande varubeteckningar vid handel
+          med födoämnen;
+        </note>
+        <note xml:id="i-MCdFRs6bjMUL5s6TvNjJnp">
+          nr 219, i anledning av Kungl. Maj:ts proposition angående vissa
+          ändringar i grunderna för försäljning av kronoegendomar;
+        </note>
+        <note xml:id="i-VuakMLn4ZFRStfy4ktSaeq">
+          nr 220, i anledning av Kungl. Maj:ts proposition med förslag
+          till lag om ändrad lydelse av 2 8 3 mom. samt 12 och 30 $$ skogsvårdslagen
+          den 15 juni 1923 (nr 212) m. m.;
+        </note>
+        <note xml:id="i-BDQ8QM9JzRU3nV93rDwzdF">
+          nr 221, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av vissa allmänna arvsfonden tillfallna fastigheter;
+        </note>
+        <note xml:id="i-3zzV1UXBSztzJEJz54n3PX">
+          nr 222, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av ett pa förra biskopsbostället 2 mantal Sundby nr 1:i Strängnäs
+          socken hörande område;
+        </note>
+        <note xml:id="i-PibZqgdZcFQkeR8YCktoKE">
+          nr 223, i anledning av Kungl. Maj:ts proposition angående statsunderstöd
+          för anläggande av skyddsvall vid viss del av Klarälven m. m.;
+          och
+        </note>
+        <note xml:id="i-24eMsqkQhAqmG7obc5DiWE">
+          nr 224, i anledning av Kungl. Maj:ts proposition angående avsättande
+          till nationalpark av det s. k. Muddusområdet i Norrbottens län.
+        </note>
+        <note xml:id="i-FHy7ihJwCMnNFnVagD6kJM">
+          Vidare anmäldes och godkändes riksdagens kanslis förslag till
+          riksdagens skrivelse, nr 211, till Konungen angående utredning
+          av frågan om röstoch talvård vid våra skolor.
+        </note>
+        <note xml:id="i-3ph9zkdfWxiPBwFGHP6mLU">
+          § 6. Justerades protokollsutdrag.
+        </note>
+        <note xml:id="i-3UgyYcNjn4zv2XzzxKri3n">
+          Kammarens ledamöter åtskildes härefter kl. 4.10 e. m.
+        </note>
+        <note xml:id="i-ExavpErMd6wuuySAisUaDf">
+          In fidem Sune Norrman.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1941--ak--29/prot_1941__ak__29-004.jp2/_view"/>
+        <note type="date" xml:id="i-W1LHXawZFZQ1Aq6Wac1BhT">
+          Tisdagen den 13 maj 1941. Nr 29. 5
+        </note>
+        <note type="date" xml:id="i-6Q4EPRmM7gJWMvrq5y6dZW">
+          Tisdagen den 13 maj. Kl. 3.30 e. m.
+        </note>
+        <note xml:id="i-6ns4N3UcR5CEGn3Dxs5tn6">
+          Förhandlingarna vid detta sammanträde leddes av herr förste vice
+          talmannen.
+        </note>
+        <note xml:id="i-Wp9jMxrQShDoERVX1Ha7bc">
+          §1.
+        </note>
+        <note xml:id="i-yowdJTrahPdoEva6rdtB9">
+          Justerades protokollet för den 7 innevarande maj.
+        </note>
+        <note xml:id="i-Wr1QbYdMmYnWVsKAHxWHSX">
+          § 2.
+        </note>
+        <note type="speaker" xml:id="i-Thjh1jsz6Die2fSQsMmiRK">
+          Herr statsrådet Eriksson avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-PCuCu5RbzwGYndPkwAweBN">
+          ts propositioner:
+        </note>
+        <note xml:id="i-DfctzQuqNaSny4oHqNU9Qr">
+          nr 231, med förslag till lag om fortsatt giltighet av allmänna
+          förfogandelagen den 22 juni 1939 (nr 293);
+        </note>
+        <note xml:id="i-6HeBsfTYaeohZj6E7HnMnv">
+          nr 233, angående anslag till lotsverkets båtlånefond; och
+        </note>
+        <note xml:id="i-F4bKLUsSRLpqiNWVqncYPg">
+          nr 236, angående anslag till tullverket för budgetåret 1941/42.
+        </note>
+        <note xml:id="i-SAYibD5mmi3sbvhCfsbu3R">
+          Dessa propositioner bordlades.
+        </note>
+        <note xml:id="i-XngxwcajsLqNFDqhWjS2HF">
+          § 3.
+        </note>
+        <note xml:id="i-YSJr6kop5mfToqC6goHYXp">
+          Föredrogos var efter annan följande Kungl. Maj:ts å kammarens
+          bord vilande propositioner; och hänvisades därvid
+        </note>
+        <note xml:id="i-VsEAqAYyv4baHUg7MaJ2qn">
+          till behandling av lagutskott propositionen, nr 217, med förslag
+          till prisregleringslag m. m.;
+        </note>
+        <note xml:id="i-XqcQpB16phvjparuuvCRd1">
+          till bankoutskottet propositionen, nr 219, angående ordnande
+          av familjepensionsväsendet för präster m. m.;
+        </note>
+        <note xml:id="i-R76cmsYKdKDv3ztnvMfzmQ">
+          till statsutskottet propositionerna:
+        </note>
+        <note xml:id="i-Agfj8EUcZdJhKU4LgGcuS9">
+          nr 220, med förslag om inrättande av en statlig brandskola;
+        </note>
+        <note xml:id="i-2LTm7DZ2aofQDD8oinrqYf">
+          nr 221, angående anvisande å tilläggsstat IT till riksstaten
+          för budgetåret 1940/41 av medel för utrustning för central torpedverkstad
+          m. Mm:
+        </note>
+        <note xml:id="i-LsxvcbyUoVWuYaKDFt52UK">
+          nr 222, angående anvisande av medel för uppvärmningsanläggning
+          vid Karlsborgs luftvärnsregemente m. m.;
+        </note>
+        <note xml:id="i-QwmAdmL3CDpHxFZpuDVNRB">
+          nr 223, angående anslag till nybyggnad för gymnastiska centralinstitutet;
+        </note>
+        <note xml:id="i-QVZmqvdDqwLqJxgTwp5K7F">
+          nr 224, angående bemyndigande att med stiftelsen Göteborgs Welanderhem
+          träffa avtal om upplåtande av stiftelsens fastighet i Göteborg
+          för vård av barn, som lida av reumatisk sjukdom; och
+        </note>
+        <note xml:id="i-GyggtUtbyFCbU7ts6urSfw">
+          nr 225, angående lönereglering för landsfiskaler m. m.;
+        </note>
+        <note xml:id="i-PimVy7irJSkBW2c9zwfPaJ">
+          till bevillningsutskottet propositionen, nr 226, med förslag
+          till förordning om ändrad lydelse av 18 $ 1 mom. förordningen
+          den 15 december 1914 (nr 436) angående statsmonopol å tobakstillverkningen
+          i riket;
+        </note>
+        <note xml:id="i-2mecJtvWEt5ik84XTf6gRp">
+          till statsutskottet propositionerna: nr 227, angående anslag
+          för viss hjälpverksamhet till förmån för de till mili-
+        </note>
+        <note xml:id="i-QecH7Ug1q8Z56orXucxr7x">
+          tärtjänst inkallades familjer; och nr 228, angående gäldande
+          av viss haverikostnad; samt
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1941--ak--29/prot_1941__ak__29-005.jp2/_view"/>
+        <note type="date" xml:id="i-H8KW9eLccZNm9c8wYxP7H6">
+          6 Nr 29. Tisdagen den 13 maj 1941.
+        </note>
+        <note xml:id="i-QEjT3VeNgpbwmZWa17BF5a">
+          till bevillningsutskottet propositionen, nr 230, med förslag
+          till förordning om fortsatt uppskov med ikraftträdandet av föreskriven
+          skatt å motorsprit.
+        </note>
+        <note xml:id="i-2XP9qyhTafwLRXxzBm9DBE">
+          § 4.
+        </note>
+        <note xml:id="i-MZmfAxm9VcoFo7xKzLVHTU">
+          Föredrogos, men bordlades åter statsutskottets utlåtanden nr
+          107—111, bevillningsutskottets betänkanden nr 14—18, första lagutskottets
+          utlåtanden nr 33 och 34, andra lagutskottets utlåtanden nr 16—18,
+          jordbruksutskottets utlåtanden nr 37—46 samt andra kammarens tredje
+          tillfälliga utskotts utlåtande nr 5.
+        </note>
+        <note xml:id="i-LABYrKc9Jtgm81T85G4knf">
+          § 5.
+        </note>
+        <note xml:id="i-9RwfoysvZXJ5LZosnZP9Fi">
+          Till bordläggning anmäldes andra lagutskottets utlåtande, nr
+          19, i anledning av Kungl. Maj:ts proposition med förslag till
+          lag om rätt för arrendator att bortföra stråfoder m. m.
+        </note>
+        <note xml:id="i-Fovcpc6pqHjXDGeE9qGNHM">
+          § 6. Justerades protokollsutdrag.
+        </note>
+        <note xml:id="i-PXzNWnaMTQ6sUjfpEqaLu1">
+          § 7.
+        </note>
+        <note xml:id="i-5ajb4vvDHukXVPvizGjzDe">
+          Herr Ericsson i Kinna avlämnade en av honom undertecknad motion,
+          nr 299, i anledning av Kungl. Maj:ts proposition, nr 214, med
+          förslag till förordning angående ändring i vissa delar av förordningen
+          den 15 juni 1934 (nr 264) om erkända arbetslöshetskassor, m. m.
+        </note>
+        <note xml:id="i-QCFDDHGqy9Wj7c2YU6SmL2">
+          Denna motion bordlades. Kammarens ledamöter åtskildes härefter
+          kl. 3.36 e. m.
+        </note>
+        <note xml:id="i-JqB4UtZnfsUvSofC87jgJV">
+          In fidem Sune Norrman.
+        </note>
+        <note xml:id="i-3QHUb6Z3Ceht81hvC7mHBF">
+          Stockholm 1941. Kungl. Boktryckeriet.P. A. Norstedt &amp; Söner.
+          =: z -- 411901
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>
