@@ -118,7 +118,7 @@ def count_pages_speeches_words(protocol):
             if 'type' in elem.attrib:
                 if elem.attrib['type'] == 'speaker':
                     speeches += 1
-    pages = len(tei.findall(f"{tei_ns}pb"))
+    pages = len(root.findall(f"{tei_ns}pb"))
     return pages, speeches, words
 
 def infer_year(protocol):
