@@ -1,1080 +1,1053 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1910</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.1.0</edition>
-      </editionStmt>
       <publicationStmt>
-        <authority>National Library of Sweden and the WESTAC project</authority>
+        <authority>N/A</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1910</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in input/curation/instances</p>
+          <p>No correction of source texts was performed.</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>N/A</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>No correction of source texts was performed.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1917--ak--5</head>
-          <docDate when="1917-01-20">1917-01-20</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection">
-          <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-000.jp2/_view"/>
-          <note xml:id="i-CHPMsm3ayX957nUWf4vR68">
-            RIKSDAGENS PROTOKOLL.
-          </note>
-          <note xml:id="i-BfdfUtEpGN7fQBvviPVXfZ">
-            1917. Andra kammaren. Nr 5.
-          </note>
-          <note xml:id="i-KfuXU6R1eHCmYRTETLRezP">
-            Lördagen den 20 januari. Kl. 11 f. m.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-LGrELVWhJLEguJy2CR2DTm">
-            § 1.
-          </note>
-          <note xml:id="i-6X29mfnP1rKDFyc9G2p19D">
-            Herr talmannen anmälde, att herrar Wiklund och Stenudd inställt
-            sig vid riksdagen, den förre under gårdagen och den senare denna
-            dag.
-          </note>
-          <u xml:id="i-GYmL3PwDqFPcFTw2HPtTwj" who="unknown">
-            <seg xml:id="i-7Apu1iVoeBrnj1mZVzhuWt">
-              $2.
-            </seg>
-          </u>
-          <note xml:id="i-5qXxCUMRBU5QZ8mo6VaHcq">
-            Justerades protokollet för den 15 innevarande januari.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-16qbcrC9HsseTrZ1j1nc67">
-            § 3.
-          </note>
-          <note xml:id="i-QxJRM3CDexK4QfpieFuCgL">
-            Herr statsrådet Vennersten avlämnade Kungl. Maj:ts propo-
-          </note>
-          <u xml:id="i-REpD1k7DgXNU7oC9Gw1oWm" who="unknown" next="i-GdvaFhn6AZXjEFGNv91mqD">
-            <seg xml:id="i-249fjiBYcw1eYUng38bbcY">
-              sitioner: als
-            </seg>
-          </u>
-          <note xml:id="i-Gt6LBdCqkiM8hm8mPNmTB1">
-            nr 28, angående prisreglering å vissa gödselmedel;
-          </note>
-          <note xml:id="i-AhZvpBMSGNhDgv1TGBtZ2t">
-            nr 6, angående anordnande vid Skaraborgs regementes kasernetablissemang
-            av gemensam tvättinrättning för de till Skövde förlagda truppförbanden;
-          </note>
-          <note xml:id="i-5AncxefyTdpJq4To8fH4gJ">
-            nr 7, angående ordnande av kavalleriets officersaspirantskolas
-            förläggning å Ränneslätt;
-          </note>
-          <note xml:id="i-ESFzpSrG9zZnn2K5CWozV9">
-            nr 9, angående åtgärder för tillgodoseende av vattenbehovet för
-            Norrlands trängkår;
-          </note>
-          <note xml:id="i-VnpKS2zv8ucHVBNkFdKgoS">
-            nr 10, angående överlåtelse till lantförsvaret av visst område
-            av förra kronofogdebostället ”/s mantal Kvarnberga nr 1 i Åkers
-            socken av Södermanlands län;
-          </note>
-          <u xml:id="i-GdvaFhn6AZXjEFGNv91mqD" who="unknown" prev="i-REpD1k7DgXNU7oC9Gw1oWm">
-            <seg xml:id="i-SVxspMLhnffN6Zyj1sVMNq">
-              nr 11, angående försäljning av viss del av den inom Landskrona
-              stad belägna ön Gråen;
-            </seg>
-          </u>
-          <note xml:id="i-RnpHkV5fBLWn2XGYyL6j3T">
-            nr 12, angående tillstånd för vaktmästaren vid generalintendentens
-            expedition A. K. Broms att för rätt att åtnjuta ålderstillägg
-            tillgodoräkna sig viss tjänstgöring;
-          </note>
-          <note xml:id="i-DTZvrvZT9pQZ8HS43V4Nf3">
-            nr 21, angående anordnande av elektrisk belysning i Svea och
-            Göta livgardens kasernetablissemang;
-          </note>
-          <note xml:id="i-Fa3HbByCj4ULz3C8zQq2d6">
-            nr 23, med förslag till lag om fastighetsbildning i stad m. m.;
-          </note>
-          <note xml:id="i-D2hxzuRP5gEnBwauo5zXD">
-            nr 29, angående beredande av medel till bestridande av kostnader
-            för tryggande av rikets neutralitet; och
-          </note>
-          <note xml:id="i-ERBGfewPgX9H1xvunfStGU">
-            Andra kammarens protokoll 1917. Nr 5. 1
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-001.jp2/_view"/>
-          <note xml:id="i-UajsiZAadhLdZNaiAGtCPZ">
-            Nr &amp;
-          </note>
-          <note xml:id="i-9MRMKU8xfyzqoKrgSTdMmJ">
-            2 Lördagen den 20 januari.
-          </note>
-          <note xml:id="i-5G3wyXUn7oazqyE2kqrV2h">
-            nr 30, med förslag till lag angående rätt för Konungen att i
-            vissa fall inställa tillämpningen av 10 $ andra stycket i lagen
-            för, Sveriges riksbank den 12 maj 1897 och av $ 9 i lagen om rikets
-            mynt den 30 maj 1873.
-          </note>
-          <note xml:id="i-UkCoQnfitnHPXJSoBUDwT6">
-            Nämnda propositioner blevo på begäran bordlagda.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-Bu2vXc1LRP5X5BhP6iGPNC">
-            §4.
-          </note>
-          <note xml:id="i-LkjFYuZ3LnM22nruyeGp1Z">
-            Upplästes och lades till handlingarna följande till kammaren
-            inkomna
-          </note>
-          <note xml:id="i-W5M19wYaVxk15nG2yZGD8C">
-            Protokoll, hållet vid sammanträde med herr talmannen i riksdagens
-            andra kammare och de kammarens ledamöter, som blivit utsedde att
-            jämte herr talmannen tillsätta kammarens kanslipersonal och vaktbetjäning,
-            nedannämnda dagar år 1917.
-          </note>
-          <note xml:id="i-NdS2esBDTtnC64TM7KsSz4">
-            Den 17 januari.
-          </note>
-          <note xml:id="i-MM5Fht9p47MRn2NT31XSdf">
-            Sedan kammarens plenum denna dag avslutats, sammanträdde med
-            herr talmannen de åtta ledamöter av kammaren, som blivit utsedde
-            att jämte herr talmannen tillsätta kammarens kanslipersonal och
-            vaktbetjäning, till fullgörande av berörda uppdrag.
-          </note>
-          <note xml:id="i-VdbJP6AyrrKWp8J9iJGQ25">
-            Därvid beslöts till en början, att kanslitjänstemännen skulle
-            utgöras av sex förste notarier, aderton notarier, en förste kanslist,
-            en registrator och sex kanslister, ävensom att det för tjänstgöring
-            vid diskussionsprotokollet vid 1875 och 1888 års riksdagar stadgade
-            arbetssätt skulle jämväl vid innevarande riksdag tillsvidare tilllämpas.
-          </note>
-          <note xml:id="i-R3Kn1ymz7PapEB6ybE9ghv">
-            I likhet med vad vid föregående riksdagar ägt rum, beslöto herrar
-            deputerade därjämte uttala såsom sin önskan, att, därest med avseende
-            å kammarens diskussionsprotokoll någon av kammarens ledamöter
-            skulle anse sig äga anledning till anmärkning mot det sätt, varpå
-            vederbörande notarie fullgjort sitt åliggande, anmälan därom måtte
-            göras hos sekreteraren, som skulle över dylika anmälningar föra
-            anteckning; och skulle herrar deputerades beslut till kammarens
-            kännedom här antecknas och genom anslag i justeringsrummet kungöras.
-            -
-          </note>
-          <note xml:id="i-AznYnUqY6ARG13FUibkAAa">
-            Härefter genomgingos de ingivna ansökshandlingarna, varefter
-            herrar deputerade antogo till
-          </note>
-          <note xml:id="i-FaLwoEcfmkpka3eCE37Jsm">
-            förste notarier:
-          </note>
-          <note xml:id="i-HipSMe6SiQBzDhLJsavbie">
-            revisorn, filosofie kandidaten :C. Lundgren, sekreteraren T.
-            Hedrén,
-          </note>
-          <note xml:id="i-BVTjpJQ2CS5DEh7Q8ALEQ3">
-            sekreteraren G. Tägtström,
-          </note>
-          <note xml:id="i-DhTtwcYpPT8mmW6a87kGer">
-            sekreteraren, juris kandidaten C. F. Schött, sekreteraren R.
-            Hellberg och
-          </note>
-          <note xml:id="i-BwbwLXBVuBvXMGfnycQVh4">
-            revisorn E. Lindblad;
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-002.jp2/_view"/>
-          <note xml:id="i-JEPEFGi6MGYsWYaLYCTkPD">
-            Lördagen den 20 januari. 3
-          </note>
-          <u xml:id="i-9H9yCS3int8NP1pDUtAQeA" who="unknown" next="i-GSWpuTiodALejafpZTK8Si">
-            <seg xml:id="i-AKnDpV82nrjWFcoMLvB2wW">
-              notarier:
-            </seg>
-          </u>
-          <note xml:id="i-NvYsy7fJvtTFTGBrynB5Qf">
-            t. £. förste revisorn E. Lindström,
-          </note>
-          <note xml:id="i-RAK1mPWahCAynFUQ5E9hV1">
-            filosofie licentiaten, teologie kandidaten A. H. F. Reuter, e.
-            o. hovrättsnotarien S. G. Junker,
-          </note>
-          <note xml:id="i-CLyE2uYHhotybX6DKd8TjR">
-            amanuensen, filosofie kandidaten I. Arnoldsson, revisorn, F.
-            Blom,
-          </note>
-          <note xml:id="i-8urkGgG2jKUZ8FG2a4696B">
-            sekreteraren S. Norrman,
-          </note>
-          <note xml:id="i-RiFDye3NFP2edBqP2DFNCM">
-            sekreteraren E. Frigell,
-          </note>
-          <note xml:id="i-9i3S3tE11FY3QcAqq75Bhp">
-            registratorn P. B. Romare,
-          </note>
-          <note xml:id="i-LxpHz2DMGZH9HyKVP52WYK">
-            e. o. kammarskrivaren ÅA. Michal,
-          </note>
-          <u xml:id="i-GSWpuTiodALejafpZTK8Si" who="unknown" prev="i-9H9yCS3int8NP1pDUtAQeA" next="i-Xss3UCaDLUmxGFf7BCuNxu">
-            <seg xml:id="i-Rucpxciz1VysFTGtHVXtVa">
-              notarien L. Norrman, ”
-            </seg>
-          </u>
-          <note xml:id="i-Guk1tY9bGoWHRT6HbqCXoF">
-            fru Jetta Lundgren,
-          </note>
-          <note xml:id="i-BfkDqv3DQe1Ry5hH8YYc2">
-            filosofie kandidaten G. A. K. Dahlén,
-          </note>
-          <note xml:id="i-TWC7VuufKWFGZpvofsVTJR">
-            amanuensen C. O. H. Humble,
-          </note>
-          <note xml:id="i-JF96PCpt3PpGkxBo8dnbvj">
-            juris studeranden E. Elfner,
-          </note>
-          <note xml:id="i-7iws7thpnfbmHCHMpdafL1">
-            e. o. hovrättsnotarien E. H. Wallin,
-          </note>
-          <note xml:id="i-64wDhVKTJQyXsbyq79k67k">
-            e. o. hovrättsnotarien, juris kandidaten A. Elmström, amanuensen,
-            filosofie kandidaten E. Bergendal och Juris studeranden P. Sterne;
-          </note>
-          <note xml:id="i-DYytcyh7TLNi9Upi8Ze4VA">
-            förste kanslist: notarien, juris kandidaten O. M. F. Seth;
-          </note>
-          <note xml:id="i-PPGykZiHXjY3VSR24r1RCt">
-            registrator: sekreteraren P. W. A. Hammarskiöld samt
-          </note>
-          <u xml:id="i-Xss3UCaDLUmxGFf7BCuNxu" who="unknown" prev="i-GSWpuTiodALejafpZTK8Si" next="i-J5qj5ExYqK9XzydBgu12Sz">
-            <seg xml:id="i-LN65N7B75ythFe9U9i8Fam">
-              kanslister:
-            </seg>
-          </u>
-          <note xml:id="i-6p3CrnnmmkkNruk6s5LjYo">
-            amanuensen N. J. Bagge,
-          </note>
-          <note xml:id="i-Dkp3iA1EK93qiiRMFATwoC">
-            notarien, juris kandidaten B. Lundberg,
-          </note>
-          <note xml:id="i-Brfhxcv5nMtJvJjvhSdPK4">
-            telegrafassistenten E. Dahlén och
-          </note>
-          <note xml:id="i-UhFQxN3mtyXcn7frGFZAtm">
-            juris studeranden L. Lindblad; med skyldighet för de till kanslister
-            antagna tjänstemännen att vid behov tjänstgöra jämväl vid diskussionsprotokollet.
-          </note>
-          <note xml:id="i-HaLfKqVWXig7UAa8rAbyy3">
-            Vidare beslöto herrar deputerade att låta anstå med tillsättandet
-            av två kanslistbefattningar till annan dag, då herrar deputerade,
-            efter det prov med anmälda sökande anställts, komme att ånyo sammanträda.
-          </note>
-          <note xml:id="i-7x7qvsm7PQ6kDM8PH6bvt9">
-            Här skulle antecknas att Seth, Hammarskiöld och Bagge redanden
-            12 samt Lindblad, Elmström och Bergendal redan den 15 innevarande
-            månad på särskild anmodan inträtt i tjänstgöring hos kammaren.
-          </note>
-          <note xml:id="i-LQiL6YWPKcQC4jqVg3tq1F">
-            Beträffande därefter vaktbetjäningen beslöto herrar deputerade,
-            att 16 vaktmästare skulle jämväl vid denna riksdag anställas hos
-            kammaren; och blevo härefter till vaktmästare att tjänstgöra tillsvidare
-            under innevarande riksdag antagna C. E. G. Carlberg, E. M. Wistrand,
-            J. V. Uppgren, C. J. F. Svensson, H. E. E. Eklund, C. 0. A. Ohlsson,
-            C. H. Björklund, W. Zetterqvist, B. Rudén, A. Hj.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-003.jp2/_view"/>
-          <note xml:id="i-36XvBBLVvYvFx2UyfdVdmP">
-            Nr 5.
-          </note>
-          <note xml:id="i-BvfhM7gHpnqss7nmHVMRYV">
-            4 Lördagen den 20 januari.
-          </note>
-          <note xml:id="i-YWS6ai1DpR3ztHPkSaUKpy">
-            Lindgren, A. Gustafsson, E. E. Johansson, Erik Andersson, G.
-            A. Zeffer, J. H. Sahlberg och Edvard H. Andersson, varjämte och
-            enär Ohlsson inkallats till tjänstgöring för rikets försvar för
-            tiden till och med den 24 nästkommande februari, C. G. Rihlén
-            förordnades att under nämnda tid förrätta Ohlssons göromål.
-          </note>
-          <note xml:id="i-BF36spwZhUuz1d8AdTmvHD">
-            Till förste vaktmästare förordnades Carlberg, och åt Wistrand
-            uppdrogs att ombestyra utdelning av ankommande postförsändelser.
-          </note>
-          <u xml:id="i-J5qj5ExYqK9XzydBgu12Sz" who="unknown" prev="i-Xss3UCaDLUmxGFf7BCuNxu" next="i-WLgBKpCTnYhutLFbPF197H">
-            <seg xml:id="i-M87V3kpRmBWoP6992dt1zh">
-              Det skulle åligga de antagna vaktmästarna att vid behov och d
-              den mån så ske kunde utföra jämväl annan tjänstgöring hos riks-
-            </seg>
-          </u>
-          <u xml:id="i-WLgBKpCTnYhutLFbPF197H" who="unknown" prev="i-J5qj5ExYqK9XzydBgu12Sz">
-            <seg xml:id="i-4fWo2vkiYFRFCEQyDvUNaa">
-              agen.
-            </seg>
-          </u>
-          <note xml:id="i-NZq4JvQvjaS8VvrEKkhca9">
-            Slutligen skulle här anmärkas, att Carlberg, Wistrand och Björklund
-            redan den 8 samt de övriga vaktmästarna utom Ohlsson och Rihlén
-            redan den 14 innevarande januari börjat tjänstgöra hos kammaren.
-          </note>
-          <note xml:id="i-6Wn1n4EgmbLDupqLD3CnCk">
-            Den 19 januari.
-          </note>
-          <note xml:id="i-E4AwiZjF4trZnFomDcdsSM">
-            Sedan prov anställts med de anmälda sökandena till de kanslistbefattningar,
-            som ej blivit den 17 innevarande januari tillsatta, sammanträdde
-            herrar deputerade ånyo, därvid ansökningshandlingarna åter genomsågos
-            och avlagda prov bedömdes, varpå herrar deputerade till kanslister
-            antogo
-          </note>
-          <note xml:id="i-FAbHZtAXWExiQ68v664wxe">
-            telegrafassistenten Å. H. Gärdin och
-          </note>
-          <note xml:id="i-AheQHbyyW5BqHPwXEukXeE">
-            juris studeranden E. G. Torbiörn, med skyldighet för dem att,
-            vid förfall för notarie, vikariera vid diskussionsprotokollet.
-          </note>
-          <note xml:id="i-EVBMYeum3MeWR4vfW9Z6c9">
-            År och dagar som ovan
-          </note>
-          <note xml:id="i-HiKjtWMWqkMJrdBBf24yLo">
-            In fidem Per Cronvall.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-CYL28f7NHa4Vm2LcmbKw8R">
-            § 5.
-          </note>
-          <note xml:id="i-3PtPjUFsqgC83U4vrBCMpp">
-            I enlighet med därom den 16 innevarande månad fattat beslut skulle
-            nu företagas val av suppleanter i de ständiga utskotten; och anställdes
-            först val av suppleanter i konstitutionsutskottet.
-          </note>
-          <note xml:id="i-MDrrTRdijtjz3sT3xpqwmx">
-            Därvid avlämnades följande godkända valsedlar, nämligen 84 med
-            partibeteckningen »socialdemokratiska gruppen», 82 med partibeteckningen
-            »lantmannaoch borgarepartiet» samt 54 med partibeteckningen »liberala
-            samlingspartiet».
-          </note>
-          <note xml:id="i-9nGzp5N2VaUTzwmcuptFet">
-            Av de med partibeteckningen »socialdemokratiska gruppen» utmärkta
-            valsedlarna upptogo 83 valsedlar
-          </note>
-          <note xml:id="i-3ZCvxs5ykezvvw6m4ESamj">
-            såsom första namn herr Sterne,
-          </note>
-          <u xml:id="i-AU6Vrv7hFjyUxSsnfNf1rr" who="unknown" next="i-A7vjXGucaFx1YhpGUGMbra">
-            <seg xml:id="i-AtiaZiq2x3C89hGCAFXk2f">
-              &gt; andra &gt; &gt; Magnusson i Kalmar, &gt; tredje &gt; &gt; Svensson i Skönsberg,
-              &gt; — fjärde &gt; &gt; Törnkvist och
-            </seg>
-          </u>
-          <u xml:id="i-A7vjXGucaFx1YhpGUGMbra" who="unknown" prev="i-AU6Vrv7hFjyUxSsnfNf1rr" next="i-B6wsy1jjNkq2XH53R3ga1L">
-            <seg xml:id="i-E3hkid69GAYX7VjvcKoSpj">
-              &gt; femte &gt; &gt; Löwegren.
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-004.jp2/_view"/>
-          <note xml:id="i-8r3dirdDrT9kKybWKTt9qK">
-            Lördagen den 20 jannari. 5
-          </note>
-          <note xml:id="i-5X3MFxbXp4ESFH38hE8Eyk">
-            De med partibeteckningen »lantmannaoch borgarepartiet» utmärkta
-            valsedlarna upptogo samtliga
-          </note>
-          <note xml:id="i-VdPH95CGjs5HxjfU2v1K9r">
-            såsom första namn herr Hallendorff,
-          </note>
-          <u xml:id="i-B6wsy1jjNkq2XH53R3ga1L" who="unknown" prev="i-A7vjXGucaFx1YhpGUGMbra" next="i-Hvb6X3sCVrYbbAX1NbXsdf">
-            <seg xml:id="i-YUhU8uPQ5fV5DdZbdtMxXF">
-              &gt; andra &gt;» &gt; Karlsson i Mo, &gt;» — tredje &gt; &gt; Andersson i Höckerum
-              och » — fjärde &gt; &gt;» Gustafsson i Brånsta.
-            </seg>
-          </u>
-          <note xml:id="i-KgwAuSmp68Nk8DseYQLTLH">
-            Av de med partibeteckningen »liberala samlingspartiet» utmärkta
-            valsedlarna upptogo 52 valsedlar
-          </note>
-          <u xml:id="i-Hvb6X3sCVrYbbAX1NbXsdf" who="unknown" prev="i-B6wsy1jjNkq2XH53R3ga1L" next="i-SYowEwhTEVcgTv3ANWxzqM">
-            <seg xml:id="i-Dd5KNvFv1edepnhMcqLLgS">
-              såsom första namn herr Janson i Kungsör, &gt; andra &gt; &gt; Bogren och
-              &gt; tredje &gt; &gt; Sjöberg.
-            </seg>
-          </u>
-          <note xml:id="i-VxN6VfuXMENypr1FUfJyzt">
-            På grund härav blev ordningen mellan namnen å de särskilda gruppernas
-            valsedlar bestämd på sätt ovan angivits.
-          </note>
-          <note xml:id="i-4Ut9SiYP6MmxVLmT5nReyx">
-            Vid härefter företagen fördelning av platserna mellan de olika
-            grupperna tillföllo dessa nedannämnda personer i följande ordning:
-          </note>
-          <note xml:id="i-VERDKg3f9DQQKVMF8K84yf">
-            herr Sterne,
-          </note>
-          <u xml:id="i-SYowEwhTEVcgTv3ANWxzqM" who="unknown" prev="i-Hvb6X3sCVrYbbAX1NbXsdf" next="i-HtBSWtF6rjXPLu2VJrAaQg">
-            <seg xml:id="i-4GWY9NmFTBivWKjPPEzVUG">
-              &gt;» Hallendorff,
-            </seg>
-          </u>
-          <u xml:id="i-HtBSWtF6rjXPLu2VJrAaQg" who="unknown" prev="i-SYowEwhTEVcgTv3ANWxzqM" next="i-GXv38m3UwpnHVL4APdwRSg">
-            <seg xml:id="i-QdcqSjWoqCAo6CTSmFfqL7">
-              » Janson i Kungsör,
-            </seg>
-          </u>
-          <note xml:id="i-DtTMfxUymB6u1Tf4fd6pBg">
-            » Magnusson i Kalmar, » Karlsson i Mo,
-          </note>
-          <note xml:id="i-NsT7juyHz6fhFqnNAP9i7L">
-            » Svensson i Skönsberg, » Andersson i Höckerum, » Bogren,
-          </note>
-          <u xml:id="i-GXv38m3UwpnHVL4APdwRSg" who="unknown" prev="i-HtBSWtF6rjXPLu2VJrAaQg" next="i-7PHkqWqUZCADhCoL4T4QvM">
-            <seg xml:id="i-LopcBp6d2jZ45mEsEnjDJK">
-              &gt;» Törnkvist,
-            </seg>
-          </u>
-          <note xml:id="i-VKiSdkSe4MZ9ndWp5Audq3">
-            » Gustafsson i Brånsta, » Sjöberg och
-          </note>
-          <u xml:id="i-7PHkqWqUZCADhCoL4T4QvM" who="unknown" prev="i-GXv38m3UwpnHVL4APdwRSg">
-            <seg xml:id="i-L7txWc5SdczyQaD1yieXVz">
-              » Löwegren.
-            </seg>
-          </u>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-E8hfAWAr3wVQ5KQiJwVQTP">
-            § 6.
-          </note>
-          <note xml:id="i-6Vmv8mcvunWcB7CcnDr7Vi">
-            Härefter företogs val av suppleanter i statsutskottet.
-          </note>
-          <note xml:id="i-HtQrAUsd8wEu5e9gXUHnbb">
-            Därvid avlämnades följande godkända valsedlar, nämligen 81 med
-            partibeteckningen »lantmannaoch borgarepartiet», 79 med partibeteckningen
-            »socialdemokratiska gruppen» samt 59 med partibeteckningen »liberala
-            samlingspartiet».
-          </note>
-          <note xml:id="i-9SUWCYyXvuQGFALLwhtB66">
-            De med partibeteckningen »lantmannaoch borgarepartiet» utmärkta
-            valsedlarna upptogo samtliga
-          </note>
-          <note xml:id="i-3E53exjrbd1KAoKB48SkwU">
-            såsom första namn herr Lundblad, &gt; andra
-          </note>
-          <u xml:id="i-Ntk8nfCWbvSUCvNi9swrma" who="unknown" next="i-4gdUXrfFdvykwgqDpLt6bz">
-            <seg xml:id="i-PGztqzYFiuxuyziZEkFrLo">
-              &gt; &gt; Erlansson, &gt; tredje &gt; &gt; Åkerman, &gt; fjärde &gt; &gt; Jönsson i Slätåker
-              och &gt; femte = &gt; &gt; Liibeck.
-            </seg>
-          </u>
-          <note xml:id="i-676azq1sCsWi6Sw6dEfrTt">
-            Av de med partibeteckningen »socialdemokratiska gruppen» utmärkta
-            valsedlarna upptogo 78 valsedlar
-          </note>
-          <note xml:id="i-E93nY1C7JxMSMgeC9Zw5ps">
-            Nr 5.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-005.jp2/_view"/>
-          <note xml:id="i-HkVbswUmHGme7pCE286J5V">
-            Nr 5
-          </note>
-          <u xml:id="i-4gdUXrfFdvykwgqDpLt6bz" who="unknown" prev="i-Ntk8nfCWbvSUCvNi9swrma" next="i-JyMrRV5GAnKPZrfNcALf9U">
-            <seg xml:id="i-2XYQi83cPCVdf2feTEZfAt">
-              6 Lördagen den 20 januari. såsom första namn herr Jansson i Falun,
-              &gt; andra » &gt; Strid, &gt; tredje &gt; &gt; Ingvarson, &gt; fjärde &gt; &gt; Sävström
-              och &gt; femte &gt; &gt; Tengdahl och
-            </seg>
-          </u>
-          <note xml:id="i-HToCYGGoFX8nGJhyqewus6">
-            Av de med partibeteckningen »liberala samlingspartiet» utmärkta
-            valsedlarna upptogo 58 valsedlar
-          </note>
-          <u xml:id="i-JyMrRV5GAnKPZrfNcALf9U" who="unknown" prev="i-4gdUXrfFdvykwgqDpLt6bz">
-            <seg xml:id="i-ACqBoCWBSJGtqbyGMn74U7">
-              såsom första namn herr Olofsson i Digernäs, &gt; andra &gt; &gt; Hellberg
-              i Lycksele, &gt; tredje &gt; &gt; Pålsson och &gt; fjärde &gt; &gt;» Bengtsson i
-              Norup.
-            </seg>
-          </u>
-          <note xml:id="i-CZBTd8YdyAhWSiZn2Y4fur">
-            På grund härav blev ordningen mellan namnen å de särskilda gruppernas
-            valsedlar bestämd på sätt ovan angivits.
-          </note>
-          <note xml:id="i-QrYv5aaVSg5f74TdKqeM9U">
-            Vid härefter företagen fördelning av platserna mellan de olika
-            grupperna tillföllo dessa nedannämnda personer i följande ordning:
-          </note>
-          <note xml:id="i-Jx4sHHCWrdJed6jfEuAb3U">
-            herr Lundblad » Jansson i Falun » Olofsson i Digernäs, » Erlansson,
-            » Strid, » Hellberg i Lycksele, &gt;» Åkerman, &gt;» Ingvarson, » Jönsson
-            i Slätåker, » Sävström, » Pålsson, » Liibeck, » Tengdahl och »
-            Bengtsson i Norup.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-6s2ZvCEw3jhJrLDKorqdQ5">
-            § 7.
-          </note>
-          <note xml:id="i-Lg2a5k1hydTnXDWMwoPUg">
-            Herr statsrådet Vennersten avlämnade Kungl. Maj:ts proposition,
-            nr 22, med förslag till lag om expropriation m. m.
-          </note>
-          <note xml:id="i-XSoJXd6bz3rVMsGJ4hW1we">
-            Denna proposition blev på begäran bordlagd.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-CxLjNbFfEYFf19BFsQMXHC">
-            § 8.
-          </note>
-          <note xml:id="i-XxgqBgqivQWhasjNuDFVPg">
-            Vidare företogs val av suppleanter i bevillningsutskottet.
-          </note>
-          <note xml:id="i-Y1ZtYXxx2249TirZkosmSW">
-            Därvid avlämnades följande godkända valsedlar, nämligen 85 med
-            partibeteckningen »socialdemokratiska gruppen», 82 med partibeteckningen
-            »lantmanna-. och borgarepartiet» samt 55 med partibeteckningen
-            »liberala samlingspartiet».
-          </note>
-          <note xml:id="i-E3ReaUXDC1yQL2V1Xb8Mpr">
-            Av de med partibeteckningen »socialdemokratiska gruppen» utmärkta
-            valsedlarna upptogo 83 valsedlar
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-006.jp2/_view"/>
-          <u xml:id="i-C7EidBJ3wvsRHH5KPADeZA" who="unknown" next="i-QzSUNgHHntJucjdrpWUUfz">
-            <seg xml:id="i-Rq9T3niaqADuCYoPJ71cgp">
-              Lördagen den 20 januari, 7T såsom första namn herr Holmström,
-              &gt; andra &gt; &gt;» Nilsson i Kristianstad, &gt;» tredje &gt; &gt; Johansson i
-              Uppmälby, &gt;» — fjärde &gt; &gt; Uddenberg och &gt; femte &gt; » Bärg i Katrineholm.
-            </seg>
-          </u>
-          <note xml:id="i-78stjTesYXBDpxPZkaqWd1">
-            De med partibeteckningen »lantmannaoch borgarepartiet» utmärkta
-            valsedlarna upptogo samtliga
-          </note>
-          <u xml:id="i-QzSUNgHHntJucjdrpWUUfz" who="unknown" prev="i-C7EidBJ3wvsRHH5KPADeZA" next="i-NberjsTyND6SYpYuTaJ4kk">
-            <seg xml:id="i-Q38mLqDmuLtYBFQL32X1KJ">
-              såsom första namn herr Berg i Staby, &gt; andra =» &gt; von Hofsten,
-              &gt; tredje &gt; &gt; Jönsson i Boa och &gt; fjärde &gt; &gt; Lithander.
-            </seg>
-          </u>
-          <note xml:id="i-ELkGj8KkRxDKgSVrGDV3dA">
-            De med partibeteckningen »liberala samlingspartiet» utmärkta
-            valsedlarna upptogo samtliga
-          </note>
-          <u xml:id="i-NberjsTyND6SYpYuTaJ4kk" who="unknown" prev="i-QzSUNgHHntJucjdrpWUUfz" next="i-QVtQvtf5bs6MaJWbs9xSiA">
-            <seg xml:id="i-GYKGUhkjTkVWQZPbJsHY6G">
-              såsom första namn herr Jönsson i Revinge, &gt; andra &gt;» &gt; Bergman
-              och &gt; — tredje &gt; &gt; Sundström.
-            </seg>
-          </u>
-          <note xml:id="i-k1CR6g2cAQaKyRZr2WKXz">
-            På grund härav blev ordningen mellan namnen å de särskilda gruppernas
-            valsedlar bestämd på sätt ovan angivits.
-          </note>
-          <note xml:id="i-TifcjvzBUQq4hraNdhN95e">
-            Vid härefter företagen fördelning av platserna mellan de olika
-            grupperna tillföllo dessa nedannämnda personer i följande ordning:
-          </note>
-          <note xml:id="i-SQWWZu3ENrgaSRgd6Yz5AG">
-            herr Holmström,
-          </note>
-          <u xml:id="i-QVtQvtf5bs6MaJWbs9xSiA" who="unknown" prev="i-NberjsTyND6SYpYuTaJ4kk" next="i-5YWFsxrSAGFC2knktaNoCP">
-            <seg xml:id="i-M3agXRrLfEs6ZXFiGia1cS">
-              » Berg i Staby,
-            </seg>
-          </u>
-          <note xml:id="i-T9XiA2CaLTSSx4nWoo27kR">
-            » Jönsson i Revinge,
-          </note>
-          <note xml:id="i-JvEnXEgtU2r3CJFTBcBeaU">
-            » Nilsson i Kristianstad, » von Hofsten,
-          </note>
-          <note xml:id="i-UPSAucFKBJAB2DkC2vC2CM">
-            » Johansson i Uppmälby, &gt;» Bergman,
-          </note>
-          <note xml:id="i-3UUC7DXUvnvJ3Fsgpq9iPx">
-            » Jönsson i Boa,
-          </note>
-          <u xml:id="i-5YWFsxrSAGFC2knktaNoCP" who="unknown" prev="i-QVtQvtf5bs6MaJWbs9xSiA" next="i-NebCfkGsT1EiRRGdcFmKDn">
-            <seg xml:id="i-JdrHxchxQA1pMC17ad3F1S">
-              &gt;» Uddenberg,
-            </seg>
-          </u>
-          <note xml:id="i-BM5gKkMFGcA575rWV8ii7c">
-            &gt;» Lithander,
-          </note>
-          <u xml:id="i-NebCfkGsT1EiRRGdcFmKDn" who="unknown" prev="i-5YWFsxrSAGFC2knktaNoCP" next="i-4krG2CpLG8K7oMh29EyGx8">
-            <seg xml:id="i-3mEgXm28EiuPe67sAW3kFC">
-              » Sundström och
-            </seg>
-          </u>
-          <u xml:id="i-4krG2CpLG8K7oMh29EyGx8" who="unknown" prev="i-NebCfkGsT1EiRRGdcFmKDn" next="i-57rdCHexNDeKnyXRa8o994">
-            <seg xml:id="i-WJubgVF3HZMXfef738YwT4">
-              » Bärg:1i Katrineholm.
-            </seg>
-          </u>
-          <u xml:id="i-57rdCHexNDeKnyXRa8o994" who="unknown" prev="i-4krG2CpLG8K7oMh29EyGx8" next="i-XBmoTfq8EkzWm1vX8Eq8aH">
-            <seg xml:id="i-WBBiRaY7nNppCJTwdqpwZ3">
-              $9.'
-            </seg>
-          </u>
-          <note xml:id="i-MqSfePCHcYMUyt88XsKCBn">
-            Vid nu anställt val av suppleanter i bankoutskottet avlämnades
-            följande godkända 'valsedlar, nämligen 82 med partibeteckningen
-            »socialdemokratiska gruppen», 81 med partibeteckningen »lantmannaoch
-            borgarepartiet» samt 56 med partibeteckningen »liberala samlingspartiet».
-          </note>
-          <note xml:id="i-8Kfu4izmRfbAz2tkBtfp1h">
-            Av de med partibeteckningen »socialdemokratiska gruppen» utmärkta
-            valsedlarna upptogo 81 valsedlar
-          </note>
-          <note xml:id="i-VXLYyNU3dEBPaqybcMAgdN">
-            Nr bc
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-007.jp2/_view"/>
-          <note xml:id="i-MPpqipuQXLLNwJH84epLnq">
-            Nr 5.
-          </note>
-          <note xml:id="i-HGhwVaeTibCDnNiqoEgLSg">
-            8 Lördagen den 20 januari.
-          </note>
-          <u xml:id="i-XBmoTfq8EkzWm1vX8Eq8aH" who="unknown" prev="i-57rdCHexNDeKnyXRa8o994" next="i-2rcD2vBg1MUY7zmzy13BDM">
-            <seg xml:id="i-Kks7zvcrMQ6bugpB1RiZKA">
-              såsom första namn herr Edbom, &gt; andra &gt; &gt; Borggren, &gt; tredje
-              &gt; &gt; Olsson i Rödningsberg och &gt;» fjärde &gt; &gt; Bäcklund.
-            </seg>
-          </u>
-          <note xml:id="i-NkkKTFaGJqntv2Bgj1AcpD">
-            De med partibeteckningen »lantmannaoch borgarepartiet» utmärkta
-            valsedlarna upptogo samtliga
-          </note>
-          <note xml:id="i-Fx8PeMHhXd2toFwNHMrBzg">
-            såsom första namn herr Lindvall,
-          </note>
-          <u xml:id="i-2rcD2vBg1MUY7zmzy13BDM" who="unknown" prev="i-XBmoTfq8EkzWm1vX8Eq8aH" next="i-PE4M1wVBuk3Pvt2fex4826">
-            <seg xml:id="i-3VEEJUe4gehyKF8CLdAnn9">
-              &gt; andra &gt; &gt; Henrikson, &gt; tredje &gt; &gt; Olsson i Berg och &gt; fjärde
-              &gt; &gt; Kahlström.
-            </seg>
-          </u>
-          <note xml:id="i-YA1m39g6mR1cmE1zZsyQYg">
-            De med partibeteckningen »liberala samlingspartiet» utmärkta
-            valsedlarna upptogo samtliga
-          </note>
-          <note xml:id="i-ExJnFKnUP2bAb9dCCB2kvE">
-            såsom första namn herr Jonsson i Gumboda och &gt; andra &gt; &gt; Jonsson
-            i Hå.
-          </note>
-          <note xml:id="i-FxaHUmVwbHxs9KYqwhDX81">
-            På grund härav blev ordningen mellan namnen å de särskilda
-          </note>
-          <u xml:id="i-PE4M1wVBuk3Pvt2fex4826" who="unknown" prev="i-2rcD2vBg1MUY7zmzy13BDM">
-            <seg xml:id="i-Qw62gETTyQkELHnva1Hxht">
-              gruppernas valsedlar bestämd på sätt ovan angivits.
-            </seg>
-          </u>
-          <note xml:id="i-8gYwj1WC45ngAxnMxFSBgZ">
-            Vid härefter företagen fördelning av platserna mellan de olika
-            grupperna tillföllo dessa nedannämnda personer i följande ordning:
-          </note>
-          <note xml:id="i-VQT6t1YtLP2M1nHTf1KpiZ">
-            herr Edbom, » Lindvall, » Jonsson i Gumboda, » Borggren, » Henrikson,
-            » Jonsson i Hå, » Olsson i Rödningsberg, » Olsson i Berg, » Bäcklund
-            och » Kahlström.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-6N1qozzDVKJadpCzQBTq9N">
-            § 10.
-          </note>
-          <note xml:id="i-RSTRtsuzyd4n2APFkMJjEK">
-            Företogs val av suppleanter i lagutskottet.
-          </note>
-          <note xml:id="i-BwAyLKc8ibsDEDYmya2T9x">
-            Därvid avlämnades följande godkända valsedlar, nämligen 84 med
-            partibeteckningen »socialdemokratiska gruppen», 79 med partibeteckningen
-            »lantmannaoch borgarepartiet» samt 54 med partibeteckningen »liberala
-            samlingspartiet».
-          </note>
-          <note xml:id="i-58xa54U4Vhw31p6ezWXhyT">
-            De med partibeteckningen »socialdemokratiska gruppen» utmärkta
-            valsedlarna upptogo samtliga
-          </note>
-          <u xml:id="i-71K6wrcHK6zToZuMJBohSj" who="unknown" next="i-RkaUchAWjve6jsprMkamc3">
-            <seg xml:id="i-P9Eu1y55KivajWiDAbtdvR">
-              såsom första namn herr Borg, &gt; andra &gt;. &gt; Svensson i Eskilstuna,
-              &gt; tredje &gt; &gt; Lindley och &gt;» fjärde &gt;» ' » Lindqvist i Kosta.
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-008.jp2/_view"/>
-          <note xml:id="i-VJYoQbZYv9frzLn9PxdrvB">
-            Lördagen den 20 januari. 9
-          </note>
-          <note xml:id="i-GjYTZ5ZXWjfM6jyPvaudqL">
-            De med partibeteckningen »lantmannaoch borgarepartiet» utmärkta
-            valsedlarna upptogo samtliga
-          </note>
-          <u xml:id="i-RkaUchAWjve6jsprMkamc3" who="unknown" prev="i-71K6wrcHK6zToZuMJBohSj" next="i-HfoQ5phhUv8dy8NJYs89bE">
-            <seg xml:id="i-PAxhFwB4Qkw2JeRpFVXWC9">
-              såsom första namn herr Holmdahl, » andra &gt;» » Zelahn, &gt; tredje
-              &gt; &gt; Lorentzon och &gt; fjärde &gt; &gt; Rydholm.
-            </seg>
-          </u>
-          <note xml:id="i-Ug9UfpFthKFSs43UqEsjdw">
-            De med partibeteckningen »liberala samlingspartiet» utmärkta
-            valsedlarna upptogo samtliga
-          </note>
-          <u xml:id="i-HfoQ5phhUv8dy8NJYs89bE" who="unknown" prev="i-RkaUchAWjve6jsprMkamc3">
-            <seg xml:id="i-ST1ztwmP3h4Zb5i7M741dZ">
-              såsom första namn herr Pettersson i Södertälje och &gt; andra &gt;
-              &gt; RBelm.
-            </seg>
-          </u>
-          <note xml:id="i-HNaiwqMwHLbqi1ZLGjx9YB">
-            På grund härav blev ordningen mellan namnen å de särskilda gruppernas
-            valsedlar bestämd på sätt ovan angivits.
-          </note>
-          <note xml:id="i-DDAKfGwb4a6gdry7vmUSgG">
-            Vid härefter företagen fördelning av platserna mellan de olika
-            grupperna tillföllo dessa nedannämnda personer i följande ordning:
-          </note>
-          <note xml:id="i-JJiSABrHEf1EJ3RQWbhkdM">
-            herr Borg, &gt;» Holmdahl. » Pettersson i Södertälje, » Svensson
-            i Eskilstuna, &gt;» Zelahn, » Lindley, » Rehn, &gt;» Lorenteon, » Lindqvist
-            i Kosta och &gt; RBydholm.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-K6D8TJmWnof98NG6dp5G6C">
-            § 11.
-          </note>
-          <note xml:id="i-Azc9yfZ623g7BA6NB2PMnm">
-            Slutligen företogs val av suppleanter i jordbruksutskottet.
-          </note>
-          <note xml:id="i-AqEErhLdCiEzmBYpVmh9xV">
-            Därvid avlämnades följande godkända valsedlar, nämligen 85 med
-            partibeteckningen »socialdemokratiska gruppen», 81 med partibeteckningen
-            »lantmannaoch borgarepartiet» samt 55 med partibeteckningen »liberala
-            samlingspartiet».
-          </note>
-          <note xml:id="i-LogSRFcWtLjNkhaArNaSra">
-            De med partibeteckningen »socialdemokratiska gruppen» utmärkta
-            valsedlarna upptogo samtliga
-          </note>
-          <note xml:id="i-GKp8F7TwKPFxNxP1RfSxix">
-            såsom första namn herr Tysk
-          </note>
-          <u xml:id="i-Rp16BWymMVWJVDiPgkZRQJ" who="unknown" next="i-PszQk2tgSWYm39p5hR8oEh">
-            <seg xml:id="i-7TrSrTetbwUf1VMttVGCZw">
-              &gt; andra &gt; &gt; Hage, &gt; tredje &gt; &gt; Norin och &gt; fjärde &gt; &gt; Nordström.
-            </seg>
-          </u>
-          <note xml:id="i-BxHmH8TuRTX6Ds1qG3hSjW">
-            De med partibeteckningen »lantmannaoch borgarepartiet» utmärkta
-            valsedlarna upptogo samtliga
-          </note>
-          <u xml:id="i-PszQk2tgSWYm39p5hR8oEh" who="unknown" prev="i-Rp16BWymMVWJVDiPgkZRQJ" next="i-VqmragxESwq3HfnmUnzSNL">
-            <seg xml:id="i-UgYNVxb4SAkJKCPHT1Tvw2">
-              såsom första namn herr Larsson i Bondarve, &gt; andra &gt; &gt; Svensson
-              i Betingetorp, &gt; tredje &gt; &gt; Andersson i Knäppinge och &gt;» fjärde
-              &gt; &gt; Bengtsson i Kullen.
-            </seg>
-          </u>
-          <note xml:id="i-FwvvEMRycKd9GRNFESyiBr">
-            Andra kammarens protokoll 1917. Nr 5. 2
-          </note>
-          <note xml:id="i-HiMkazxmH6XYzvykYCkLMa">
-            Nr 5.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-009.jp2/_view"/>
-          <note xml:id="i-BttYgUN3QXztwzhrF58ap">
-            Nr 5.
-          </note>
-          <note xml:id="i-8sDKk6bWoMBnTH4Sicx6Wn">
-            10 Lördagen den 20 januari.
-          </note>
-          <note xml:id="i-WEP2qmteGBHc1qZXE5jwWQ">
-            De med partibeteckningen »liberala samlingspartiet» utmärkta
-            valsedlarna upptogo samtliga
-          </note>
-          <u xml:id="i-VqmragxESwq3HfnmUnzSNL" who="unknown" prev="i-PszQk2tgSWYm39p5hR8oEh" next="i-FDNsVyR58rxFADjAGvScsf">
-            <seg xml:id="i-G2VH2vfSAEhzvcuQLUZRVi">
-              såsom första namn herr Igel och &gt; andra &gt; &gt; Molin i Dombäcksmark.
-            </seg>
-          </u>
-          <note xml:id="i-XadPsXdcCy4JZ4qJqy9Ebt">
-            På grund härav blev ordningen mellan namnen å de särskilda gruppernas
-            valsedlar bestämd på sätt ovan angivits.
-          </note>
-          <note xml:id="i-H3rGBSoMtmmfoSVQPQ5XjU">
-            Vid härefter företagen fördelning av platserna mellan de olika
-            grupperna tillföllo dessa nedannämnda personer 1 följande ordning:
-          </note>
-          <note xml:id="i-UdBd5ha8H7cw9kkaBT4n6g">
-            herr Tysk, » Larsson i Bondarve,
-          </note>
-          <note xml:id="i-8VKk8CJJPvACuHp4bc5JPt">
-            &gt;» Igel,
-          </note>
-          <u xml:id="i-FDNsVyR58rxFADjAGvScsf" who="unknown" prev="i-VqmragxESwq3HfnmUnzSNL">
-            <seg xml:id="i-NGfgaioSRgUBimPYfFaDV3">
-              » Hage,
-            </seg>
-          </u>
-          <note xml:id="i-KgAH34872cCiXAYW4jr21h">
-            » Svensson i Betingetorp, » Norin,
-          </note>
-          <note xml:id="i-TmychP3AkL6FhzryiyQKqR">
-            » Molin i Dombäcksmark, » Andersson i Knäppinge, » Nordström
-            och
-          </note>
-          <note xml:id="i-G9xZPGXg77zAxgXTuXX1rx">
-            &gt;» Bengtsson i Kullen.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-8FwJvZ33rYsPrPWEQ8kCxV">
-            § 12.
-          </note>
-          <note xml:id="i-9JJQkYqRE8i8qozbpEVxjk">
-            Justerades protokollsutdrag angående de i paragraferna 5, 6,
-            8, 9, 10 och 11 här ovan omförmälda valen.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-7rRYnxz3k9iSTDuSX4weXB">
-            § 13.
-          </note>
-          <note xml:id="i-SRbYMr1yHnQowmTUAMnYXp">
-            Föredrogos var för sig Kungl. Maj:ts å kammarens bord vilande
-            propositioner; och hänvisades därvid:
-          </note>
-          <note xml:id="i-BmRso3QoPTeemsoa1MJuUr">
-            till statsutskottet 'propositionerna:
-          </note>
-          <note xml:id="i-8VXc7TPAfSrsvZf3A4YCKq">
-            nr 2, angående fastställande av postverkets stat för driftkostnader
-            år 1918 m. m.; och
-          </note>
-          <note xml:id="i-52oRNHmUs9LungFvHxH2D3">
-            nr 3, angående fastställande av telegrafverkets stat för driftkostnader
-            år 1918;
-          </note>
-          <note xml:id="i-56bfUcaWTywRBCs5nrB8U9">
-            till bankoutskottet propositionerna:
-          </note>
-          <note xml:id="i-LWMygKAacVcCXSFQRRR5P1">
-            nr 4, angående årligt understöd åt en befattningshavare vid postverket;
-            och |
-          </note>
-          <note xml:id="i-QfYKQUikYybVvodvoCh7q6">
-            nr 5, angående årliga understöd åt vissa befattningshavare vid
-            telegrafverket;
-          </note>
-          <note xml:id="i-hp4NDnCmCi5MXWvYMYwiu">
-            till statsutskottet propositionen, nr 24, angående bidrag av
-            telegrafverkets medel till Sveriges rikstelefonisters vilohemsförening;
-          </note>
-          <note xml:id="i-Xe4Y61FNbbGJrmpobGE7qM">
-            till bevillningsutskottet propositionen, nr 25, angående bemyndigande
-            för Kungl. Maj:t att besluta i fråga om vissa postavgifter; samt
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-010.jp2/_view"/>
-          <note xml:id="i-5beAWQyJosT3EeySmFYVEh">
-            Lördagen den 20 januari. 11
-          </note>
-          <note xml:id="i-S1CL5MEiYLGWFhvSwTQv9j">
-            till jordbruksutskottet propositionerna:
-          </note>
-          <note xml:id="i-XY7hqNpG4Ljm9SukBxaBxt">
-            nr 13, angående försäljning av vissa kronoegendomar och upplåtande
-            av lägenheter från sådana egendomar;
-          </note>
-          <note xml:id="i-GAcETQNTu3zj7es3kurEQF">
-            nr 14, angående eftergift å arrendeavgiften för kronolägenheten
-            Skarnholms kronoäng i Stockholms län;
-          </note>
-          <note xml:id="i-3mGvVZeKjSZaNPd78bC8NG">
-            nar 15, angående viss eftergift i fråga om gällande villkor för
-            beviljade statsbidrag från allmänna och norrländska avdikningsanslagen;
-          </note>
-          <note xml:id="i-2ysvbSVjmapfFkiSS7vJd2">
-            nr 16, angående täckande av brist i extra anslag för år 1916
-            till expenser för Sveriges geologiska undersökning;
-          </note>
-          <note xml:id="i-PUS5bLBLKh2Pyvko8yothZ">
-            nr 17, angående upplåtelse av rätt till bearbetande av icke inmutningsbara
-            mineralfyndigheter å kronojord;
-          </note>
-          <note xml:id="i-Kni38yVRTAp5aS6cKatJ9r">
-            nr 18, angående avstående eller upplåtande i vissa fall av mark
-            från kronoegendomar;
-          </note>
-          <note xml:id="i-ByAZSpeCQvE9eFTWdZcPcq">
-            nr 19, angående upplåtelse av kronan tillhörande jordägarandelar
-            1 gruvor;
-          </note>
-          <note xml:id="i-EmgAU8xUJZri2QWaPhewK1">
-            nr 20, angående personligt ålderstillägg till t. f. byråchefen
-            i domänstyrelsen C. I. Stiernspetz; och
-          </note>
-          <note xml:id="i-87grFQcB16zt5SG8psBTEz">
-            nr 26, angående driftkostnader under år 1918 för statens 'domäner.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-GRYLovc6y6EK89ikFg8B1s">
-            § 14.
-          </note>
-          <note xml:id="i-2zytFPu96L2JmexU7uwM3r">
-            Vidare föredrogos var efter annan de på kammarens bord liggande
-            motionerna; och remitterades därvid:
-          </note>
-          <note xml:id="i-GMywjcYJZiYVpxeDNe3VRA">
-            I till lagutskottet motionen nr 6, av herr Petersson i Lidingö
-            vilastad;
-          </note>
-          <note xml:id="i-MWb5X4Zf5Dxg8pF6ZmvryG">
-            till bankoutskottet motionen nr 7, av herr Hellberg i Lycksele;
-            till bevillningsutskottet motionerna:
-          </note>
-          <note xml:id="i-Sxbz9AoykFMm96siKMq4Ky">
-            nr 8, av herr Olsson i Ramsta; och nr 9, av herr Olofsson i Digernäs;
-          </note>
-          <note xml:id="i-YxoHsTBx6XNfpJ8X8q8qA">
-            till lagutskottet motionen nr 10, av herr Olofsson 1 Digernäs;
-            till statsutskottet motionen nr 11, av herr Widlund m. be fla
-            .; samt
-          </note>
-          <note xml:id="i-2iurY4bRZDEVj4BRsvfKRD">
-            till tillfälligt utskott motionerna:
-          </note>
-          <note xml:id="i-8QnoAUytUbANMtB5A6Amvg">
-            nr 12, av herr Widlund; och ” nr 13, av herr Källman m. fl.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-Y2b98w2Zb5Dg3oxPj5S9MH">
-            § 15. Avgåvos följande nya motioner, nämligen av:
-          </note>
-          <note xml:id="i-9HTfpXFQTCvqTv74QYRcUc">
-            herrar Sundström och K aijser, nr 14, om höjning av det i statsverkspropositionen
-            under nionde huvudtiteln begärda anslag till trädgårdsundervisningen;
-          </note>
-          <note xml:id="i-EvdCQNEBCFqw6yFk5wYcvN">
-            herrar Byström och Thorsson, nr 15, om pension åt förre vaktkonstapeln
-            C. J. Lindahl;
-          </note>
-          <note xml:id="i-Qy4a1c5s5XbCXR3TQ3p4jZ">
-            herr Vennerström m. fl., nr 16, om anslag till bidrag för anlägg-
-          </note>
-          <note xml:id="i-D6Mv2nMDGKcqC6n52fbPkK">
-            Nr 5.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-011.jp2/_view"/>
-          <note xml:id="i-4vZkmA8UAzdk9kpHBRVNw3">
-            Nr 5.
-          </note>
-          <note xml:id="i-CUuEdDUjHkWAtmpAXTQLwC">
-            12 Lördagen den 20 januari. ning av nya samt förbättring eller
-            omläggning av backiga. eller eljest mindre goda vägar;
-          </note>
-          <note xml:id="i-Vz7HqmDfwEKzb5mHu3RX3h">
-            herr Bengtsson i Göteborg, nr 17, om avslag å Kungl. Maj:ts i
-            statsverkspropositionen gjorda förslag om inrättande av en ny
-            kontrollörstjänst vid tullkammaren i Trälleborg m. m.;
-          </note>
-          <note xml:id="i-QXGv2LM9vHHsrwHeGwNfRi">
-            herr Lindhagen m. fl., nr 18, om anslag till Svenska fredsoch
-            skiljedomsföreningen;
-          </note>
-          <note xml:id="i-V4vVPVyraWqP5r9cpek6oc">
-            herr Lindhagen, nr 19, om skrivelse till Kungl. Maj:t i fråga
-            om det pågående arbetet för en strafflagsreform;
-          </note>
-          <note xml:id="i-6gKMCLrXQgsJzPPZmh6Rwc">
-            herr Sommelius, nr 20, om skrivelse till Kungl. Maj:t angående
-            åtgärder för undersökning av olika metoder för bärgning av säd
-            m. m.; samt
-          </note>
-          <note xml:id="i-642qjKV8iH9Lvuo258yQMD">
-            herrar Widlund och Winberg, nr 21, om skrivelse till Kungl. Maj:t
-            i fråga om ändring i gällande bestämmelser angående fribil- Jetter
-            för pensionerade befattningshavare vid statens järnvägar.
-          </note>
-          <note xml:id="i-An2vhCc7e8vUJ9tYAnrEmZ">
-            'Tfrågavarande motioner bordlades på begäran.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-TF6jHJbePVpscUstRz99Fh">
-            § 16. J Gelersdes protokollsutdrag.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-PPERuFgZtB4WYtcSqkRM6j">
-            § 17.
-          </note>
-          <u xml:id="i-VZfNdsPeQ5MvcPAstRDenS" who="unknown">
-            <seg xml:id="i-LQrTXKSkhVLicD99cp1ryZ">
-              Ledighet från riksdagsgöromålen beviljades:
-            </seg>
-          </u>
-          <note xml:id="i-28HjKkLLx5UiHWberC9Jof">
-            hört Jeansson i Kalmar under 7 dagar fr.o.m. den 23 jan., &gt; Åkerlund
-            &gt; 14 &gt;» » &gt; 22 &gt; och &gt; Rehn &gt; T &gt; &gt; &gt; 23 &gt;&gt;.
-          </note>
-          <note xml:id="i-PdUJg13oJdaELQPD818hzZ">
-            Kammarens ledamöter åtskildes härefter kl. 1,28 e. m.
-          </note>
-          <note xml:id="i-2rZJ3sim9ufptZ7NwrNSF8">
-            In fidem Per Cronvall.
-          </note>
-          <note xml:id="i-GnLcrVT3HHEFCGBLEV22ZX">
-            Stockholm 1917. Kungl. Boktryckeriet, P. A. Norstedt &amp; Söner.
-            170478
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1917--ak--5</head>
+        <docDate when="1917-01-20">1917-01-20</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection">
+        <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-000.jp2/_view"/>
+        <note xml:id="i-CHPMsm3ayX957nUWf4vR68">
+          RIKSDAGENS PROTOKOLL.
+        </note>
+        <note xml:id="i-BfdfUtEpGN7fQBvviPVXfZ">
+          1917. Andra kammaren. Nr 5.
+        </note>
+        <note xml:id="i-KfuXU6R1eHCmYRTETLRezP">
+          Lördagen den 20 januari. Kl. 11 f. m.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-LGrELVWhJLEguJy2CR2DTm">
+          § 1.
+        </note>
+        <note xml:id="i-6X29mfnP1rKDFyc9G2p19D">
+          Herr talmannen anmälde, att herrar Wiklund och Stenudd inställt
+          sig vid riksdagen, den förre under gårdagen och den senare denna
+          dag.
+        </note>
+        <u xml:id="i-GYmL3PwDqFPcFTw2HPtTwj" who="unknown">
+          <seg xml:id="i-7Apu1iVoeBrnj1mZVzhuWt">
+            $2.
+          </seg>
+        </u>
+        <note xml:id="i-5qXxCUMRBU5QZ8mo6VaHcq">
+          Justerades protokollet för den 15 innevarande januari.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-16qbcrC9HsseTrZ1j1nc67">
+          § 3.
+        </note>
+        <note xml:id="i-QxJRM3CDexK4QfpieFuCgL">
+          Herr statsrådet Vennersten avlämnade Kungl. Maj:ts propo-
+        </note>
+        <u xml:id="i-REpD1k7DgXNU7oC9Gw1oWm" who="unknown" next="i-GdvaFhn6AZXjEFGNv91mqD">
+          <seg xml:id="i-249fjiBYcw1eYUng38bbcY">
+            sitioner: als
+          </seg>
+        </u>
+        <note xml:id="i-Gt6LBdCqkiM8hm8mPNmTB1">
+          nr 28, angående prisreglering å vissa gödselmedel;
+        </note>
+        <note xml:id="i-AhZvpBMSGNhDgv1TGBtZ2t">
+          nr 6, angående anordnande vid Skaraborgs regementes kasernetablissemang
+          av gemensam tvättinrättning för de till Skövde förlagda truppförbanden;
+        </note>
+        <note xml:id="i-5AncxefyTdpJq4To8fH4gJ">
+          nr 7, angående ordnande av kavalleriets officersaspirantskolas
+          förläggning å Ränneslätt;
+        </note>
+        <note xml:id="i-ESFzpSrG9zZnn2K5CWozV9">
+          nr 9, angående åtgärder för tillgodoseende av vattenbehovet för
+          Norrlands trängkår;
+        </note>
+        <note xml:id="i-VnpKS2zv8ucHVBNkFdKgoS">
+          nr 10, angående överlåtelse till lantförsvaret av visst område
+          av förra kronofogdebostället ”/s mantal Kvarnberga nr 1 i Åkers
+          socken av Södermanlands län;
+        </note>
+        <u xml:id="i-GdvaFhn6AZXjEFGNv91mqD" who="unknown" prev="i-REpD1k7DgXNU7oC9Gw1oWm">
+          <seg xml:id="i-SVxspMLhnffN6Zyj1sVMNq">
+            nr 11, angående försäljning av viss del av den inom Landskrona
+            stad belägna ön Gråen;
+          </seg>
+        </u>
+        <note xml:id="i-RnpHkV5fBLWn2XGYyL6j3T">
+          nr 12, angående tillstånd för vaktmästaren vid generalintendentens
+          expedition A. K. Broms att för rätt att åtnjuta ålderstillägg
+          tillgodoräkna sig viss tjänstgöring;
+        </note>
+        <note xml:id="i-DTZvrvZT9pQZ8HS43V4Nf3">
+          nr 21, angående anordnande av elektrisk belysning i Svea och
+          Göta livgardens kasernetablissemang;
+        </note>
+        <note xml:id="i-Fa3HbByCj4ULz3C8zQq2d6">
+          nr 23, med förslag till lag om fastighetsbildning i stad m. m.;
+        </note>
+        <note xml:id="i-D2hxzuRP5gEnBwauo5zXD">
+          nr 29, angående beredande av medel till bestridande av kostnader
+          för tryggande av rikets neutralitet; och
+        </note>
+        <note xml:id="i-ERBGfewPgX9H1xvunfStGU">
+          Andra kammarens protokoll 1917. Nr 5. 1
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-001.jp2/_view"/>
+        <note xml:id="i-UajsiZAadhLdZNaiAGtCPZ">
+          Nr &amp;
+        </note>
+        <note xml:id="i-9MRMKU8xfyzqoKrgSTdMmJ">
+          2 Lördagen den 20 januari.
+        </note>
+        <note xml:id="i-5G3wyXUn7oazqyE2kqrV2h">
+          nr 30, med förslag till lag angående rätt för Konungen att i
+          vissa fall inställa tillämpningen av 10 $ andra stycket i lagen
+          för, Sveriges riksbank den 12 maj 1897 och av $ 9 i lagen om rikets
+          mynt den 30 maj 1873.
+        </note>
+        <note xml:id="i-UkCoQnfitnHPXJSoBUDwT6">
+          Nämnda propositioner blevo på begäran bordlagda.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-Bu2vXc1LRP5X5BhP6iGPNC">
+          §4.
+        </note>
+        <note xml:id="i-LkjFYuZ3LnM22nruyeGp1Z">
+          Upplästes och lades till handlingarna följande till kammaren
+          inkomna
+        </note>
+        <note xml:id="i-W5M19wYaVxk15nG2yZGD8C">
+          Protokoll, hållet vid sammanträde med herr talmannen i riksdagens
+          andra kammare och de kammarens ledamöter, som blivit utsedde att
+          jämte herr talmannen tillsätta kammarens kanslipersonal och vaktbetjäning,
+          nedannämnda dagar år 1917.
+        </note>
+        <note xml:id="i-NdS2esBDTtnC64TM7KsSz4">
+          Den 17 januari.
+        </note>
+        <note xml:id="i-MM5Fht9p47MRn2NT31XSdf">
+          Sedan kammarens plenum denna dag avslutats, sammanträdde med
+          herr talmannen de åtta ledamöter av kammaren, som blivit utsedde
+          att jämte herr talmannen tillsätta kammarens kanslipersonal och
+          vaktbetjäning, till fullgörande av berörda uppdrag.
+        </note>
+        <note xml:id="i-VdbJP6AyrrKWp8J9iJGQ25">
+          Därvid beslöts till en början, att kanslitjänstemännen skulle
+          utgöras av sex förste notarier, aderton notarier, en förste kanslist,
+          en registrator och sex kanslister, ävensom att det för tjänstgöring
+          vid diskussionsprotokollet vid 1875 och 1888 års riksdagar stadgade
+          arbetssätt skulle jämväl vid innevarande riksdag tillsvidare tilllämpas.
+        </note>
+        <note xml:id="i-R3Kn1ymz7PapEB6ybE9ghv">
+          I likhet med vad vid föregående riksdagar ägt rum, beslöto herrar
+          deputerade därjämte uttala såsom sin önskan, att, därest med avseende
+          å kammarens diskussionsprotokoll någon av kammarens ledamöter
+          skulle anse sig äga anledning till anmärkning mot det sätt, varpå
+          vederbörande notarie fullgjort sitt åliggande, anmälan därom måtte
+          göras hos sekreteraren, som skulle över dylika anmälningar föra
+          anteckning; och skulle herrar deputerades beslut till kammarens
+          kännedom här antecknas och genom anslag i justeringsrummet kungöras.
+          -
+        </note>
+        <note xml:id="i-AznYnUqY6ARG13FUibkAAa">
+          Härefter genomgingos de ingivna ansökshandlingarna, varefter
+          herrar deputerade antogo till
+        </note>
+        <note xml:id="i-FaLwoEcfmkpka3eCE37Jsm">
+          förste notarier:
+        </note>
+        <note xml:id="i-HipSMe6SiQBzDhLJsavbie">
+          revisorn, filosofie kandidaten :C. Lundgren, sekreteraren T.
+          Hedrén,
+        </note>
+        <note xml:id="i-BVTjpJQ2CS5DEh7Q8ALEQ3">
+          sekreteraren G. Tägtström,
+        </note>
+        <note xml:id="i-DhTtwcYpPT8mmW6a87kGer">
+          sekreteraren, juris kandidaten C. F. Schött, sekreteraren R.
+          Hellberg och
+        </note>
+        <note xml:id="i-BwbwLXBVuBvXMGfnycQVh4">
+          revisorn E. Lindblad;
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-002.jp2/_view"/>
+        <note xml:id="i-JEPEFGi6MGYsWYaLYCTkPD">
+          Lördagen den 20 januari. 3
+        </note>
+        <u xml:id="i-9H9yCS3int8NP1pDUtAQeA" who="unknown" next="i-GSWpuTiodALejafpZTK8Si">
+          <seg xml:id="i-AKnDpV82nrjWFcoMLvB2wW">
+            notarier:
+          </seg>
+        </u>
+        <note xml:id="i-NvYsy7fJvtTFTGBrynB5Qf">
+          t. £. förste revisorn E. Lindström,
+        </note>
+        <note xml:id="i-RAK1mPWahCAynFUQ5E9hV1">
+          filosofie licentiaten, teologie kandidaten A. H. F. Reuter, e.
+          o. hovrättsnotarien S. G. Junker,
+        </note>
+        <note xml:id="i-CLyE2uYHhotybX6DKd8TjR">
+          amanuensen, filosofie kandidaten I. Arnoldsson, revisorn, F.
+          Blom,
+        </note>
+        <note xml:id="i-8urkGgG2jKUZ8FG2a4696B">
+          sekreteraren S. Norrman,
+        </note>
+        <note xml:id="i-RiFDye3NFP2edBqP2DFNCM">
+          sekreteraren E. Frigell,
+        </note>
+        <note xml:id="i-9i3S3tE11FY3QcAqq75Bhp">
+          registratorn P. B. Romare,
+        </note>
+        <note xml:id="i-LxpHz2DMGZH9HyKVP52WYK">
+          e. o. kammarskrivaren ÅA. Michal,
+        </note>
+        <u xml:id="i-GSWpuTiodALejafpZTK8Si" who="unknown" prev="i-9H9yCS3int8NP1pDUtAQeA" next="i-Xss3UCaDLUmxGFf7BCuNxu">
+          <seg xml:id="i-Rucpxciz1VysFTGtHVXtVa">
+            notarien L. Norrman, ”
+          </seg>
+        </u>
+        <note xml:id="i-Guk1tY9bGoWHRT6HbqCXoF">
+          fru Jetta Lundgren,
+        </note>
+        <note xml:id="i-BfkDqv3DQe1Ry5hH8YYc2">
+          filosofie kandidaten G. A. K. Dahlén,
+        </note>
+        <note xml:id="i-TWC7VuufKWFGZpvofsVTJR">
+          amanuensen C. O. H. Humble,
+        </note>
+        <note xml:id="i-JF96PCpt3PpGkxBo8dnbvj">
+          juris studeranden E. Elfner,
+        </note>
+        <note xml:id="i-7iws7thpnfbmHCHMpdafL1">
+          e. o. hovrättsnotarien E. H. Wallin,
+        </note>
+        <note xml:id="i-64wDhVKTJQyXsbyq79k67k">
+          e. o. hovrättsnotarien, juris kandidaten A. Elmström, amanuensen,
+          filosofie kandidaten E. Bergendal och Juris studeranden P. Sterne;
+        </note>
+        <note xml:id="i-DYytcyh7TLNi9Upi8Ze4VA">
+          förste kanslist: notarien, juris kandidaten O. M. F. Seth;
+        </note>
+        <note xml:id="i-PPGykZiHXjY3VSR24r1RCt">
+          registrator: sekreteraren P. W. A. Hammarskiöld samt
+        </note>
+        <u xml:id="i-Xss3UCaDLUmxGFf7BCuNxu" who="unknown" prev="i-GSWpuTiodALejafpZTK8Si" next="i-J5qj5ExYqK9XzydBgu12Sz">
+          <seg xml:id="i-LN65N7B75ythFe9U9i8Fam">
+            kanslister:
+          </seg>
+        </u>
+        <note xml:id="i-6p3CrnnmmkkNruk6s5LjYo">
+          amanuensen N. J. Bagge,
+        </note>
+        <note xml:id="i-Dkp3iA1EK93qiiRMFATwoC">
+          notarien, juris kandidaten B. Lundberg,
+        </note>
+        <note xml:id="i-Brfhxcv5nMtJvJjvhSdPK4">
+          telegrafassistenten E. Dahlén och
+        </note>
+        <note xml:id="i-UhFQxN3mtyXcn7frGFZAtm">
+          juris studeranden L. Lindblad; med skyldighet för de till kanslister
+          antagna tjänstemännen att vid behov tjänstgöra jämväl vid diskussionsprotokollet.
+        </note>
+        <note xml:id="i-HaLfKqVWXig7UAa8rAbyy3">
+          Vidare beslöto herrar deputerade att låta anstå med tillsättandet
+          av två kanslistbefattningar till annan dag, då herrar deputerade,
+          efter det prov med anmälda sökande anställts, komme att ånyo sammanträda.
+        </note>
+        <note xml:id="i-7x7qvsm7PQ6kDM8PH6bvt9">
+          Här skulle antecknas att Seth, Hammarskiöld och Bagge redanden
+          12 samt Lindblad, Elmström och Bergendal redan den 15 innevarande
+          månad på särskild anmodan inträtt i tjänstgöring hos kammaren.
+        </note>
+        <note xml:id="i-LQiL6YWPKcQC4jqVg3tq1F">
+          Beträffande därefter vaktbetjäningen beslöto herrar deputerade,
+          att 16 vaktmästare skulle jämväl vid denna riksdag anställas hos
+          kammaren; och blevo härefter till vaktmästare att tjänstgöra tillsvidare
+          under innevarande riksdag antagna C. E. G. Carlberg, E. M. Wistrand,
+          J. V. Uppgren, C. J. F. Svensson, H. E. E. Eklund, C. 0. A. Ohlsson,
+          C. H. Björklund, W. Zetterqvist, B. Rudén, A. Hj.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-003.jp2/_view"/>
+        <note xml:id="i-36XvBBLVvYvFx2UyfdVdmP">
+          Nr 5.
+        </note>
+        <note xml:id="i-BvfhM7gHpnqss7nmHVMRYV">
+          4 Lördagen den 20 januari.
+        </note>
+        <note xml:id="i-YWS6ai1DpR3ztHPkSaUKpy">
+          Lindgren, A. Gustafsson, E. E. Johansson, Erik Andersson, G.
+          A. Zeffer, J. H. Sahlberg och Edvard H. Andersson, varjämte och
+          enär Ohlsson inkallats till tjänstgöring för rikets försvar för
+          tiden till och med den 24 nästkommande februari, C. G. Rihlén
+          förordnades att under nämnda tid förrätta Ohlssons göromål.
+        </note>
+        <note xml:id="i-BF36spwZhUuz1d8AdTmvHD">
+          Till förste vaktmästare förordnades Carlberg, och åt Wistrand
+          uppdrogs att ombestyra utdelning av ankommande postförsändelser.
+        </note>
+        <u xml:id="i-J5qj5ExYqK9XzydBgu12Sz" who="unknown" prev="i-Xss3UCaDLUmxGFf7BCuNxu" next="i-WLgBKpCTnYhutLFbPF197H">
+          <seg xml:id="i-M87V3kpRmBWoP6992dt1zh">
+            Det skulle åligga de antagna vaktmästarna att vid behov och d
+            den mån så ske kunde utföra jämväl annan tjänstgöring hos riks-
+          </seg>
+        </u>
+        <u xml:id="i-WLgBKpCTnYhutLFbPF197H" who="unknown" prev="i-J5qj5ExYqK9XzydBgu12Sz">
+          <seg xml:id="i-4fWo2vkiYFRFCEQyDvUNaa">
+            agen.
+          </seg>
+        </u>
+        <note xml:id="i-NZq4JvQvjaS8VvrEKkhca9">
+          Slutligen skulle här anmärkas, att Carlberg, Wistrand och Björklund
+          redan den 8 samt de övriga vaktmästarna utom Ohlsson och Rihlén
+          redan den 14 innevarande januari börjat tjänstgöra hos kammaren.
+        </note>
+        <note xml:id="i-6Wn1n4EgmbLDupqLD3CnCk">
+          Den 19 januari.
+        </note>
+        <note xml:id="i-E4AwiZjF4trZnFomDcdsSM">
+          Sedan prov anställts med de anmälda sökandena till de kanslistbefattningar,
+          som ej blivit den 17 innevarande januari tillsatta, sammanträdde
+          herrar deputerade ånyo, därvid ansökningshandlingarna åter genomsågos
+          och avlagda prov bedömdes, varpå herrar deputerade till kanslister
+          antogo
+        </note>
+        <note xml:id="i-FAbHZtAXWExiQ68v664wxe">
+          telegrafassistenten Å. H. Gärdin och
+        </note>
+        <note xml:id="i-AheQHbyyW5BqHPwXEukXeE">
+          juris studeranden E. G. Torbiörn, med skyldighet för dem att,
+          vid förfall för notarie, vikariera vid diskussionsprotokollet.
+        </note>
+        <note xml:id="i-EVBMYeum3MeWR4vfW9Z6c9">
+          År och dagar som ovan
+        </note>
+        <note xml:id="i-HiKjtWMWqkMJrdBBf24yLo">
+          In fidem Per Cronvall.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-CYL28f7NHa4Vm2LcmbKw8R">
+          § 5.
+        </note>
+        <note xml:id="i-3PtPjUFsqgC83U4vrBCMpp">
+          I enlighet med därom den 16 innevarande månad fattat beslut skulle
+          nu företagas val av suppleanter i de ständiga utskotten; och anställdes
+          först val av suppleanter i konstitutionsutskottet.
+        </note>
+        <note xml:id="i-MDrrTRdijtjz3sT3xpqwmx">
+          Därvid avlämnades följande godkända valsedlar, nämligen 84 med
+          partibeteckningen »socialdemokratiska gruppen», 82 med partibeteckningen
+          »lantmannaoch borgarepartiet» samt 54 med partibeteckningen »liberala
+          samlingspartiet».
+        </note>
+        <note xml:id="i-9nGzp5N2VaUTzwmcuptFet">
+          Av de med partibeteckningen »socialdemokratiska gruppen» utmärkta
+          valsedlarna upptogo 83 valsedlar
+        </note>
+        <note xml:id="i-3ZCvxs5ykezvvw6m4ESamj">
+          såsom första namn herr Sterne,
+        </note>
+        <u xml:id="i-AU6Vrv7hFjyUxSsnfNf1rr" who="unknown" next="i-A7vjXGucaFx1YhpGUGMbra">
+          <seg xml:id="i-AtiaZiq2x3C89hGCAFXk2f">
+            &gt; andra &gt; &gt; Magnusson i Kalmar, &gt; tredje &gt; &gt; Svensson i Skönsberg,
+            &gt; — fjärde &gt; &gt; Törnkvist och
+          </seg>
+        </u>
+        <u xml:id="i-A7vjXGucaFx1YhpGUGMbra" who="unknown" prev="i-AU6Vrv7hFjyUxSsnfNf1rr" next="i-B6wsy1jjNkq2XH53R3ga1L">
+          <seg xml:id="i-E3hkid69GAYX7VjvcKoSpj">
+            &gt; femte &gt; &gt; Löwegren.
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-004.jp2/_view"/>
+        <note xml:id="i-8r3dirdDrT9kKybWKTt9qK">
+          Lördagen den 20 jannari. 5
+        </note>
+        <note xml:id="i-5X3MFxbXp4ESFH38hE8Eyk">
+          De med partibeteckningen »lantmannaoch borgarepartiet» utmärkta
+          valsedlarna upptogo samtliga
+        </note>
+        <note xml:id="i-VdPH95CGjs5HxjfU2v1K9r">
+          såsom första namn herr Hallendorff,
+        </note>
+        <u xml:id="i-B6wsy1jjNkq2XH53R3ga1L" who="unknown" prev="i-A7vjXGucaFx1YhpGUGMbra" next="i-Hvb6X3sCVrYbbAX1NbXsdf">
+          <seg xml:id="i-YUhU8uPQ5fV5DdZbdtMxXF">
+            &gt; andra &gt;» &gt; Karlsson i Mo, &gt;» — tredje &gt; &gt; Andersson i Höckerum
+            och » — fjärde &gt; &gt;» Gustafsson i Brånsta.
+          </seg>
+        </u>
+        <note xml:id="i-KgwAuSmp68Nk8DseYQLTLH">
+          Av de med partibeteckningen »liberala samlingspartiet» utmärkta
+          valsedlarna upptogo 52 valsedlar
+        </note>
+        <u xml:id="i-Hvb6X3sCVrYbbAX1NbXsdf" who="unknown" prev="i-B6wsy1jjNkq2XH53R3ga1L" next="i-SYowEwhTEVcgTv3ANWxzqM">
+          <seg xml:id="i-Dd5KNvFv1edepnhMcqLLgS">
+            såsom första namn herr Janson i Kungsör, &gt; andra &gt; &gt; Bogren och
+            &gt; tredje &gt; &gt; Sjöberg.
+          </seg>
+        </u>
+        <note xml:id="i-VxN6VfuXMENypr1FUfJyzt">
+          På grund härav blev ordningen mellan namnen å de särskilda gruppernas
+          valsedlar bestämd på sätt ovan angivits.
+        </note>
+        <note xml:id="i-4Ut9SiYP6MmxVLmT5nReyx">
+          Vid härefter företagen fördelning av platserna mellan de olika
+          grupperna tillföllo dessa nedannämnda personer i följande ordning:
+        </note>
+        <note xml:id="i-VERDKg3f9DQQKVMF8K84yf">
+          herr Sterne,
+        </note>
+        <u xml:id="i-SYowEwhTEVcgTv3ANWxzqM" who="unknown" prev="i-Hvb6X3sCVrYbbAX1NbXsdf" next="i-HtBSWtF6rjXPLu2VJrAaQg">
+          <seg xml:id="i-4GWY9NmFTBivWKjPPEzVUG">
+            &gt;» Hallendorff,
+          </seg>
+        </u>
+        <u xml:id="i-HtBSWtF6rjXPLu2VJrAaQg" who="unknown" prev="i-SYowEwhTEVcgTv3ANWxzqM" next="i-GXv38m3UwpnHVL4APdwRSg">
+          <seg xml:id="i-QdcqSjWoqCAo6CTSmFfqL7">
+            » Janson i Kungsör,
+          </seg>
+        </u>
+        <note xml:id="i-DtTMfxUymB6u1Tf4fd6pBg">
+          » Magnusson i Kalmar, » Karlsson i Mo,
+        </note>
+        <note xml:id="i-NsT7juyHz6fhFqnNAP9i7L">
+          » Svensson i Skönsberg, » Andersson i Höckerum, » Bogren,
+        </note>
+        <u xml:id="i-GXv38m3UwpnHVL4APdwRSg" who="unknown" prev="i-HtBSWtF6rjXPLu2VJrAaQg" next="i-7PHkqWqUZCADhCoL4T4QvM">
+          <seg xml:id="i-LopcBp6d2jZ45mEsEnjDJK">
+            &gt;» Törnkvist,
+          </seg>
+        </u>
+        <note xml:id="i-VKiSdkSe4MZ9ndWp5Audq3">
+          » Gustafsson i Brånsta, » Sjöberg och
+        </note>
+        <u xml:id="i-7PHkqWqUZCADhCoL4T4QvM" who="unknown" prev="i-GXv38m3UwpnHVL4APdwRSg">
+          <seg xml:id="i-L7txWc5SdczyQaD1yieXVz">
+            » Löwegren.
+          </seg>
+        </u>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-E8hfAWAr3wVQ5KQiJwVQTP">
+          § 6.
+        </note>
+        <note xml:id="i-6Vmv8mcvunWcB7CcnDr7Vi">
+          Härefter företogs val av suppleanter i statsutskottet.
+        </note>
+        <note xml:id="i-HtQrAUsd8wEu5e9gXUHnbb">
+          Därvid avlämnades följande godkända valsedlar, nämligen 81 med
+          partibeteckningen »lantmannaoch borgarepartiet», 79 med partibeteckningen
+          »socialdemokratiska gruppen» samt 59 med partibeteckningen »liberala
+          samlingspartiet».
+        </note>
+        <note xml:id="i-9SUWCYyXvuQGFALLwhtB66">
+          De med partibeteckningen »lantmannaoch borgarepartiet» utmärkta
+          valsedlarna upptogo samtliga
+        </note>
+        <note xml:id="i-3E53exjrbd1KAoKB48SkwU">
+          såsom första namn herr Lundblad, &gt; andra
+        </note>
+        <u xml:id="i-Ntk8nfCWbvSUCvNi9swrma" who="unknown" next="i-4gdUXrfFdvykwgqDpLt6bz">
+          <seg xml:id="i-PGztqzYFiuxuyziZEkFrLo">
+            &gt; &gt; Erlansson, &gt; tredje &gt; &gt; Åkerman, &gt; fjärde &gt; &gt; Jönsson i Slätåker
+            och &gt; femte = &gt; &gt; Liibeck.
+          </seg>
+        </u>
+        <note xml:id="i-676azq1sCsWi6Sw6dEfrTt">
+          Av de med partibeteckningen »socialdemokratiska gruppen» utmärkta
+          valsedlarna upptogo 78 valsedlar
+        </note>
+        <note xml:id="i-E93nY1C7JxMSMgeC9Zw5ps">
+          Nr 5.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-005.jp2/_view"/>
+        <note xml:id="i-HkVbswUmHGme7pCE286J5V">
+          Nr 5
+        </note>
+        <u xml:id="i-4gdUXrfFdvykwgqDpLt6bz" who="unknown" prev="i-Ntk8nfCWbvSUCvNi9swrma" next="i-JyMrRV5GAnKPZrfNcALf9U">
+          <seg xml:id="i-2XYQi83cPCVdf2feTEZfAt">
+            6 Lördagen den 20 januari. såsom första namn herr Jansson i Falun,
+            &gt; andra » &gt; Strid, &gt; tredje &gt; &gt; Ingvarson, &gt; fjärde &gt; &gt; Sävström
+            och &gt; femte &gt; &gt; Tengdahl och
+          </seg>
+        </u>
+        <note xml:id="i-HToCYGGoFX8nGJhyqewus6">
+          Av de med partibeteckningen »liberala samlingspartiet» utmärkta
+          valsedlarna upptogo 58 valsedlar
+        </note>
+        <u xml:id="i-JyMrRV5GAnKPZrfNcALf9U" who="unknown" prev="i-4gdUXrfFdvykwgqDpLt6bz">
+          <seg xml:id="i-ACqBoCWBSJGtqbyGMn74U7">
+            såsom första namn herr Olofsson i Digernäs, &gt; andra &gt; &gt; Hellberg
+            i Lycksele, &gt; tredje &gt; &gt; Pålsson och &gt; fjärde &gt; &gt;» Bengtsson i
+            Norup.
+          </seg>
+        </u>
+        <note xml:id="i-CZBTd8YdyAhWSiZn2Y4fur">
+          På grund härav blev ordningen mellan namnen å de särskilda gruppernas
+          valsedlar bestämd på sätt ovan angivits.
+        </note>
+        <note xml:id="i-QrYv5aaVSg5f74TdKqeM9U">
+          Vid härefter företagen fördelning av platserna mellan de olika
+          grupperna tillföllo dessa nedannämnda personer i följande ordning:
+        </note>
+        <note xml:id="i-Jx4sHHCWrdJed6jfEuAb3U">
+          herr Lundblad » Jansson i Falun » Olofsson i Digernäs, » Erlansson,
+          » Strid, » Hellberg i Lycksele, &gt;» Åkerman, &gt;» Ingvarson, » Jönsson
+          i Slätåker, » Sävström, » Pålsson, » Liibeck, » Tengdahl och »
+          Bengtsson i Norup.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-6s2ZvCEw3jhJrLDKorqdQ5">
+          § 7.
+        </note>
+        <note xml:id="i-Lg2a5k1hydTnXDWMwoPUg">
+          Herr statsrådet Vennersten avlämnade Kungl. Maj:ts proposition,
+          nr 22, med förslag till lag om expropriation m. m.
+        </note>
+        <note xml:id="i-XSoJXd6bz3rVMsGJ4hW1we">
+          Denna proposition blev på begäran bordlagd.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-CxLjNbFfEYFf19BFsQMXHC">
+          § 8.
+        </note>
+        <note xml:id="i-XxgqBgqivQWhasjNuDFVPg">
+          Vidare företogs val av suppleanter i bevillningsutskottet.
+        </note>
+        <note xml:id="i-Y1ZtYXxx2249TirZkosmSW">
+          Därvid avlämnades följande godkända valsedlar, nämligen 85 med
+          partibeteckningen »socialdemokratiska gruppen», 82 med partibeteckningen
+          »lantmanna-. och borgarepartiet» samt 55 med partibeteckningen
+          »liberala samlingspartiet».
+        </note>
+        <note xml:id="i-E3ReaUXDC1yQL2V1Xb8Mpr">
+          Av de med partibeteckningen »socialdemokratiska gruppen» utmärkta
+          valsedlarna upptogo 83 valsedlar
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-006.jp2/_view"/>
+        <u xml:id="i-C7EidBJ3wvsRHH5KPADeZA" who="unknown" next="i-QzSUNgHHntJucjdrpWUUfz">
+          <seg xml:id="i-Rq9T3niaqADuCYoPJ71cgp">
+            Lördagen den 20 januari, 7T såsom första namn herr Holmström,
+            &gt; andra &gt; &gt;» Nilsson i Kristianstad, &gt;» tredje &gt; &gt; Johansson i
+            Uppmälby, &gt;» — fjärde &gt; &gt; Uddenberg och &gt; femte &gt; » Bärg i Katrineholm.
+          </seg>
+        </u>
+        <note xml:id="i-78stjTesYXBDpxPZkaqWd1">
+          De med partibeteckningen »lantmannaoch borgarepartiet» utmärkta
+          valsedlarna upptogo samtliga
+        </note>
+        <u xml:id="i-QzSUNgHHntJucjdrpWUUfz" who="unknown" prev="i-C7EidBJ3wvsRHH5KPADeZA" next="i-NberjsTyND6SYpYuTaJ4kk">
+          <seg xml:id="i-Q38mLqDmuLtYBFQL32X1KJ">
+            såsom första namn herr Berg i Staby, &gt; andra =» &gt; von Hofsten,
+            &gt; tredje &gt; &gt; Jönsson i Boa och &gt; fjärde &gt; &gt; Lithander.
+          </seg>
+        </u>
+        <note xml:id="i-ELkGj8KkRxDKgSVrGDV3dA">
+          De med partibeteckningen »liberala samlingspartiet» utmärkta
+          valsedlarna upptogo samtliga
+        </note>
+        <u xml:id="i-NberjsTyND6SYpYuTaJ4kk" who="unknown" prev="i-QzSUNgHHntJucjdrpWUUfz" next="i-QVtQvtf5bs6MaJWbs9xSiA">
+          <seg xml:id="i-GYKGUhkjTkVWQZPbJsHY6G">
+            såsom första namn herr Jönsson i Revinge, &gt; andra &gt;» &gt; Bergman
+            och &gt; — tredje &gt; &gt; Sundström.
+          </seg>
+        </u>
+        <note xml:id="i-k1CR6g2cAQaKyRZr2WKXz">
+          På grund härav blev ordningen mellan namnen å de särskilda gruppernas
+          valsedlar bestämd på sätt ovan angivits.
+        </note>
+        <note xml:id="i-TifcjvzBUQq4hraNdhN95e">
+          Vid härefter företagen fördelning av platserna mellan de olika
+          grupperna tillföllo dessa nedannämnda personer i följande ordning:
+        </note>
+        <note xml:id="i-SQWWZu3ENrgaSRgd6Yz5AG">
+          herr Holmström,
+        </note>
+        <u xml:id="i-QVtQvtf5bs6MaJWbs9xSiA" who="unknown" prev="i-NberjsTyND6SYpYuTaJ4kk" next="i-5YWFsxrSAGFC2knktaNoCP">
+          <seg xml:id="i-M3agXRrLfEs6ZXFiGia1cS">
+            » Berg i Staby,
+          </seg>
+        </u>
+        <note xml:id="i-T9XiA2CaLTSSx4nWoo27kR">
+          » Jönsson i Revinge,
+        </note>
+        <note xml:id="i-JvEnXEgtU2r3CJFTBcBeaU">
+          » Nilsson i Kristianstad, » von Hofsten,
+        </note>
+        <note xml:id="i-UPSAucFKBJAB2DkC2vC2CM">
+          » Johansson i Uppmälby, &gt;» Bergman,
+        </note>
+        <note xml:id="i-3UUC7DXUvnvJ3Fsgpq9iPx">
+          » Jönsson i Boa,
+        </note>
+        <u xml:id="i-5YWFsxrSAGFC2knktaNoCP" who="unknown" prev="i-QVtQvtf5bs6MaJWbs9xSiA" next="i-NebCfkGsT1EiRRGdcFmKDn">
+          <seg xml:id="i-JdrHxchxQA1pMC17ad3F1S">
+            &gt;» Uddenberg,
+          </seg>
+        </u>
+        <note xml:id="i-BM5gKkMFGcA575rWV8ii7c">
+          &gt;» Lithander,
+        </note>
+        <u xml:id="i-NebCfkGsT1EiRRGdcFmKDn" who="unknown" prev="i-5YWFsxrSAGFC2knktaNoCP" next="i-4krG2CpLG8K7oMh29EyGx8">
+          <seg xml:id="i-3mEgXm28EiuPe67sAW3kFC">
+            » Sundström och
+          </seg>
+        </u>
+        <u xml:id="i-4krG2CpLG8K7oMh29EyGx8" who="unknown" prev="i-NebCfkGsT1EiRRGdcFmKDn" next="i-57rdCHexNDeKnyXRa8o994">
+          <seg xml:id="i-WJubgVF3HZMXfef738YwT4">
+            » Bärg:1i Katrineholm.
+          </seg>
+        </u>
+        <u xml:id="i-57rdCHexNDeKnyXRa8o994" who="unknown" prev="i-4krG2CpLG8K7oMh29EyGx8" next="i-XBmoTfq8EkzWm1vX8Eq8aH">
+          <seg xml:id="i-WBBiRaY7nNppCJTwdqpwZ3">
+            $9.'
+          </seg>
+        </u>
+        <note xml:id="i-MqSfePCHcYMUyt88XsKCBn">
+          Vid nu anställt val av suppleanter i bankoutskottet avlämnades
+          följande godkända 'valsedlar, nämligen 82 med partibeteckningen
+          »socialdemokratiska gruppen», 81 med partibeteckningen »lantmannaoch
+          borgarepartiet» samt 56 med partibeteckningen »liberala samlingspartiet».
+        </note>
+        <note xml:id="i-8Kfu4izmRfbAz2tkBtfp1h">
+          Av de med partibeteckningen »socialdemokratiska gruppen» utmärkta
+          valsedlarna upptogo 81 valsedlar
+        </note>
+        <note xml:id="i-VXLYyNU3dEBPaqybcMAgdN">
+          Nr bc
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-007.jp2/_view"/>
+        <note xml:id="i-MPpqipuQXLLNwJH84epLnq">
+          Nr 5.
+        </note>
+        <note xml:id="i-HGhwVaeTibCDnNiqoEgLSg">
+          8 Lördagen den 20 januari.
+        </note>
+        <u xml:id="i-XBmoTfq8EkzWm1vX8Eq8aH" who="unknown" prev="i-57rdCHexNDeKnyXRa8o994" next="i-2rcD2vBg1MUY7zmzy13BDM">
+          <seg xml:id="i-Kks7zvcrMQ6bugpB1RiZKA">
+            såsom första namn herr Edbom, &gt; andra &gt; &gt; Borggren, &gt; tredje
+            &gt; &gt; Olsson i Rödningsberg och &gt;» fjärde &gt; &gt; Bäcklund.
+          </seg>
+        </u>
+        <note xml:id="i-NkkKTFaGJqntv2Bgj1AcpD">
+          De med partibeteckningen »lantmannaoch borgarepartiet» utmärkta
+          valsedlarna upptogo samtliga
+        </note>
+        <note xml:id="i-Fx8PeMHhXd2toFwNHMrBzg">
+          såsom första namn herr Lindvall,
+        </note>
+        <u xml:id="i-2rcD2vBg1MUY7zmzy13BDM" who="unknown" prev="i-XBmoTfq8EkzWm1vX8Eq8aH" next="i-PE4M1wVBuk3Pvt2fex4826">
+          <seg xml:id="i-3VEEJUe4gehyKF8CLdAnn9">
+            &gt; andra &gt; &gt; Henrikson, &gt; tredje &gt; &gt; Olsson i Berg och &gt; fjärde
+            &gt; &gt; Kahlström.
+          </seg>
+        </u>
+        <note xml:id="i-YA1m39g6mR1cmE1zZsyQYg">
+          De med partibeteckningen »liberala samlingspartiet» utmärkta
+          valsedlarna upptogo samtliga
+        </note>
+        <note xml:id="i-ExJnFKnUP2bAb9dCCB2kvE">
+          såsom första namn herr Jonsson i Gumboda och &gt; andra &gt; &gt; Jonsson
+          i Hå.
+        </note>
+        <note xml:id="i-FxaHUmVwbHxs9KYqwhDX81">
+          På grund härav blev ordningen mellan namnen å de särskilda
+        </note>
+        <u xml:id="i-PE4M1wVBuk3Pvt2fex4826" who="unknown" prev="i-2rcD2vBg1MUY7zmzy13BDM">
+          <seg xml:id="i-Qw62gETTyQkELHnva1Hxht">
+            gruppernas valsedlar bestämd på sätt ovan angivits.
+          </seg>
+        </u>
+        <note xml:id="i-8gYwj1WC45ngAxnMxFSBgZ">
+          Vid härefter företagen fördelning av platserna mellan de olika
+          grupperna tillföllo dessa nedannämnda personer i följande ordning:
+        </note>
+        <note xml:id="i-VQT6t1YtLP2M1nHTf1KpiZ">
+          herr Edbom, » Lindvall, » Jonsson i Gumboda, » Borggren, » Henrikson,
+          » Jonsson i Hå, » Olsson i Rödningsberg, » Olsson i Berg, » Bäcklund
+          och » Kahlström.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-6N1qozzDVKJadpCzQBTq9N">
+          § 10.
+        </note>
+        <note xml:id="i-RSTRtsuzyd4n2APFkMJjEK">
+          Företogs val av suppleanter i lagutskottet.
+        </note>
+        <note xml:id="i-BwAyLKc8ibsDEDYmya2T9x">
+          Därvid avlämnades följande godkända valsedlar, nämligen 84 med
+          partibeteckningen »socialdemokratiska gruppen», 79 med partibeteckningen
+          »lantmannaoch borgarepartiet» samt 54 med partibeteckningen »liberala
+          samlingspartiet».
+        </note>
+        <note xml:id="i-58xa54U4Vhw31p6ezWXhyT">
+          De med partibeteckningen »socialdemokratiska gruppen» utmärkta
+          valsedlarna upptogo samtliga
+        </note>
+        <u xml:id="i-71K6wrcHK6zToZuMJBohSj" who="unknown" next="i-RkaUchAWjve6jsprMkamc3">
+          <seg xml:id="i-P9Eu1y55KivajWiDAbtdvR">
+            såsom första namn herr Borg, &gt; andra &gt;. &gt; Svensson i Eskilstuna,
+            &gt; tredje &gt; &gt; Lindley och &gt;» fjärde &gt;» ' » Lindqvist i Kosta.
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-008.jp2/_view"/>
+        <note xml:id="i-VJYoQbZYv9frzLn9PxdrvB">
+          Lördagen den 20 januari. 9
+        </note>
+        <note xml:id="i-GjYTZ5ZXWjfM6jyPvaudqL">
+          De med partibeteckningen »lantmannaoch borgarepartiet» utmärkta
+          valsedlarna upptogo samtliga
+        </note>
+        <u xml:id="i-RkaUchAWjve6jsprMkamc3" who="unknown" prev="i-71K6wrcHK6zToZuMJBohSj" next="i-HfoQ5phhUv8dy8NJYs89bE">
+          <seg xml:id="i-PAxhFwB4Qkw2JeRpFVXWC9">
+            såsom första namn herr Holmdahl, » andra &gt;» » Zelahn, &gt; tredje
+            &gt; &gt; Lorentzon och &gt; fjärde &gt; &gt; Rydholm.
+          </seg>
+        </u>
+        <note xml:id="i-Ug9UfpFthKFSs43UqEsjdw">
+          De med partibeteckningen »liberala samlingspartiet» utmärkta
+          valsedlarna upptogo samtliga
+        </note>
+        <u xml:id="i-HfoQ5phhUv8dy8NJYs89bE" who="unknown" prev="i-RkaUchAWjve6jsprMkamc3">
+          <seg xml:id="i-ST1ztwmP3h4Zb5i7M741dZ">
+            såsom första namn herr Pettersson i Södertälje och &gt; andra &gt;
+            &gt; RBelm.
+          </seg>
+        </u>
+        <note xml:id="i-HNaiwqMwHLbqi1ZLGjx9YB">
+          På grund härav blev ordningen mellan namnen å de särskilda gruppernas
+          valsedlar bestämd på sätt ovan angivits.
+        </note>
+        <note xml:id="i-DDAKfGwb4a6gdry7vmUSgG">
+          Vid härefter företagen fördelning av platserna mellan de olika
+          grupperna tillföllo dessa nedannämnda personer i följande ordning:
+        </note>
+        <note xml:id="i-JJiSABrHEf1EJ3RQWbhkdM">
+          herr Borg, &gt;» Holmdahl. » Pettersson i Södertälje, » Svensson
+          i Eskilstuna, &gt;» Zelahn, » Lindley, » Rehn, &gt;» Lorenteon, » Lindqvist
+          i Kosta och &gt; RBydholm.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-K6D8TJmWnof98NG6dp5G6C">
+          § 11.
+        </note>
+        <note xml:id="i-Azc9yfZ623g7BA6NB2PMnm">
+          Slutligen företogs val av suppleanter i jordbruksutskottet.
+        </note>
+        <note xml:id="i-AqEErhLdCiEzmBYpVmh9xV">
+          Därvid avlämnades följande godkända valsedlar, nämligen 85 med
+          partibeteckningen »socialdemokratiska gruppen», 81 med partibeteckningen
+          »lantmannaoch borgarepartiet» samt 55 med partibeteckningen »liberala
+          samlingspartiet».
+        </note>
+        <note xml:id="i-LogSRFcWtLjNkhaArNaSra">
+          De med partibeteckningen »socialdemokratiska gruppen» utmärkta
+          valsedlarna upptogo samtliga
+        </note>
+        <note xml:id="i-GKp8F7TwKPFxNxP1RfSxix">
+          såsom första namn herr Tysk
+        </note>
+        <u xml:id="i-Rp16BWymMVWJVDiPgkZRQJ" who="unknown" next="i-PszQk2tgSWYm39p5hR8oEh">
+          <seg xml:id="i-7TrSrTetbwUf1VMttVGCZw">
+            &gt; andra &gt; &gt; Hage, &gt; tredje &gt; &gt; Norin och &gt; fjärde &gt; &gt; Nordström.
+          </seg>
+        </u>
+        <note xml:id="i-BxHmH8TuRTX6Ds1qG3hSjW">
+          De med partibeteckningen »lantmannaoch borgarepartiet» utmärkta
+          valsedlarna upptogo samtliga
+        </note>
+        <u xml:id="i-PszQk2tgSWYm39p5hR8oEh" who="unknown" prev="i-Rp16BWymMVWJVDiPgkZRQJ" next="i-VqmragxESwq3HfnmUnzSNL">
+          <seg xml:id="i-UgYNVxb4SAkJKCPHT1Tvw2">
+            såsom första namn herr Larsson i Bondarve, &gt; andra &gt; &gt; Svensson
+            i Betingetorp, &gt; tredje &gt; &gt; Andersson i Knäppinge och &gt;» fjärde
+            &gt; &gt; Bengtsson i Kullen.
+          </seg>
+        </u>
+        <note xml:id="i-FwvvEMRycKd9GRNFESyiBr">
+          Andra kammarens protokoll 1917. Nr 5. 2
+        </note>
+        <note xml:id="i-HiMkazxmH6XYzvykYCkLMa">
+          Nr 5.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-009.jp2/_view"/>
+        <note xml:id="i-BttYgUN3QXztwzhrF58ap">
+          Nr 5.
+        </note>
+        <note xml:id="i-8sDKk6bWoMBnTH4Sicx6Wn">
+          10 Lördagen den 20 januari.
+        </note>
+        <note xml:id="i-WEP2qmteGBHc1qZXE5jwWQ">
+          De med partibeteckningen »liberala samlingspartiet» utmärkta
+          valsedlarna upptogo samtliga
+        </note>
+        <u xml:id="i-VqmragxESwq3HfnmUnzSNL" who="unknown" prev="i-PszQk2tgSWYm39p5hR8oEh" next="i-FDNsVyR58rxFADjAGvScsf">
+          <seg xml:id="i-G2VH2vfSAEhzvcuQLUZRVi">
+            såsom första namn herr Igel och &gt; andra &gt; &gt; Molin i Dombäcksmark.
+          </seg>
+        </u>
+        <note xml:id="i-XadPsXdcCy4JZ4qJqy9Ebt">
+          På grund härav blev ordningen mellan namnen å de särskilda gruppernas
+          valsedlar bestämd på sätt ovan angivits.
+        </note>
+        <note xml:id="i-H3rGBSoMtmmfoSVQPQ5XjU">
+          Vid härefter företagen fördelning av platserna mellan de olika
+          grupperna tillföllo dessa nedannämnda personer 1 följande ordning:
+        </note>
+        <note xml:id="i-UdBd5ha8H7cw9kkaBT4n6g">
+          herr Tysk, » Larsson i Bondarve,
+        </note>
+        <note xml:id="i-8VKk8CJJPvACuHp4bc5JPt">
+          &gt;» Igel,
+        </note>
+        <u xml:id="i-FDNsVyR58rxFADjAGvScsf" who="unknown" prev="i-VqmragxESwq3HfnmUnzSNL">
+          <seg xml:id="i-NGfgaioSRgUBimPYfFaDV3">
+            » Hage,
+          </seg>
+        </u>
+        <note xml:id="i-KgAH34872cCiXAYW4jr21h">
+          » Svensson i Betingetorp, » Norin,
+        </note>
+        <note xml:id="i-TmychP3AkL6FhzryiyQKqR">
+          » Molin i Dombäcksmark, » Andersson i Knäppinge, » Nordström
+          och
+        </note>
+        <note xml:id="i-G9xZPGXg77zAxgXTuXX1rx">
+          &gt;» Bengtsson i Kullen.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-8FwJvZ33rYsPrPWEQ8kCxV">
+          § 12.
+        </note>
+        <note xml:id="i-9JJQkYqRE8i8qozbpEVxjk">
+          Justerades protokollsutdrag angående de i paragraferna 5, 6,
+          8, 9, 10 och 11 här ovan omförmälda valen.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-7rRYnxz3k9iSTDuSX4weXB">
+          § 13.
+        </note>
+        <note xml:id="i-SRbYMr1yHnQowmTUAMnYXp">
+          Föredrogos var för sig Kungl. Maj:ts å kammarens bord vilande
+          propositioner; och hänvisades därvid:
+        </note>
+        <note xml:id="i-BmRso3QoPTeemsoa1MJuUr">
+          till statsutskottet 'propositionerna:
+        </note>
+        <note xml:id="i-8VXc7TPAfSrsvZf3A4YCKq">
+          nr 2, angående fastställande av postverkets stat för driftkostnader
+          år 1918 m. m.; och
+        </note>
+        <note xml:id="i-52oRNHmUs9LungFvHxH2D3">
+          nr 3, angående fastställande av telegrafverkets stat för driftkostnader
+          år 1918;
+        </note>
+        <note xml:id="i-56bfUcaWTywRBCs5nrB8U9">
+          till bankoutskottet propositionerna:
+        </note>
+        <note xml:id="i-LWMygKAacVcCXSFQRRR5P1">
+          nr 4, angående årligt understöd åt en befattningshavare vid postverket;
+          och |
+        </note>
+        <note xml:id="i-QfYKQUikYybVvodvoCh7q6">
+          nr 5, angående årliga understöd åt vissa befattningshavare vid
+          telegrafverket;
+        </note>
+        <note xml:id="i-hp4NDnCmCi5MXWvYMYwiu">
+          till statsutskottet propositionen, nr 24, angående bidrag av
+          telegrafverkets medel till Sveriges rikstelefonisters vilohemsförening;
+        </note>
+        <note xml:id="i-Xe4Y61FNbbGJrmpobGE7qM">
+          till bevillningsutskottet propositionen, nr 25, angående bemyndigande
+          för Kungl. Maj:t att besluta i fråga om vissa postavgifter; samt
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-010.jp2/_view"/>
+        <note xml:id="i-5beAWQyJosT3EeySmFYVEh">
+          Lördagen den 20 januari. 11
+        </note>
+        <note xml:id="i-S1CL5MEiYLGWFhvSwTQv9j">
+          till jordbruksutskottet propositionerna:
+        </note>
+        <note xml:id="i-XY7hqNpG4Ljm9SukBxaBxt">
+          nr 13, angående försäljning av vissa kronoegendomar och upplåtande
+          av lägenheter från sådana egendomar;
+        </note>
+        <note xml:id="i-GAcETQNTu3zj7es3kurEQF">
+          nr 14, angående eftergift å arrendeavgiften för kronolägenheten
+          Skarnholms kronoäng i Stockholms län;
+        </note>
+        <note xml:id="i-3mGvVZeKjSZaNPd78bC8NG">
+          nar 15, angående viss eftergift i fråga om gällande villkor för
+          beviljade statsbidrag från allmänna och norrländska avdikningsanslagen;
+        </note>
+        <note xml:id="i-2ysvbSVjmapfFkiSS7vJd2">
+          nr 16, angående täckande av brist i extra anslag för år 1916
+          till expenser för Sveriges geologiska undersökning;
+        </note>
+        <note xml:id="i-PUS5bLBLKh2Pyvko8yothZ">
+          nr 17, angående upplåtelse av rätt till bearbetande av icke inmutningsbara
+          mineralfyndigheter å kronojord;
+        </note>
+        <note xml:id="i-Kni38yVRTAp5aS6cKatJ9r">
+          nr 18, angående avstående eller upplåtande i vissa fall av mark
+          från kronoegendomar;
+        </note>
+        <note xml:id="i-ByAZSpeCQvE9eFTWdZcPcq">
+          nr 19, angående upplåtelse av kronan tillhörande jordägarandelar
+          1 gruvor;
+        </note>
+        <note xml:id="i-EmgAU8xUJZri2QWaPhewK1">
+          nr 20, angående personligt ålderstillägg till t. f. byråchefen
+          i domänstyrelsen C. I. Stiernspetz; och
+        </note>
+        <note xml:id="i-87grFQcB16zt5SG8psBTEz">
+          nr 26, angående driftkostnader under år 1918 för statens 'domäner.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-GRYLovc6y6EK89ikFg8B1s">
+          § 14.
+        </note>
+        <note xml:id="i-2zytFPu96L2JmexU7uwM3r">
+          Vidare föredrogos var efter annan de på kammarens bord liggande
+          motionerna; och remitterades därvid:
+        </note>
+        <note xml:id="i-GMywjcYJZiYVpxeDNe3VRA">
+          I till lagutskottet motionen nr 6, av herr Petersson i Lidingö
+          vilastad;
+        </note>
+        <note xml:id="i-MWb5X4Zf5Dxg8pF6ZmvryG">
+          till bankoutskottet motionen nr 7, av herr Hellberg i Lycksele;
+          till bevillningsutskottet motionerna:
+        </note>
+        <note xml:id="i-Sxbz9AoykFMm96siKMq4Ky">
+          nr 8, av herr Olsson i Ramsta; och nr 9, av herr Olofsson i Digernäs;
+        </note>
+        <note xml:id="i-YxoHsTBx6XNfpJ8X8q8qA">
+          till lagutskottet motionen nr 10, av herr Olofsson 1 Digernäs;
+          till statsutskottet motionen nr 11, av herr Widlund m. be fla
+          .; samt
+        </note>
+        <note xml:id="i-2iurY4bRZDEVj4BRsvfKRD">
+          till tillfälligt utskott motionerna:
+        </note>
+        <note xml:id="i-8QnoAUytUbANMtB5A6Amvg">
+          nr 12, av herr Widlund; och ” nr 13, av herr Källman m. fl.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-Y2b98w2Zb5Dg3oxPj5S9MH">
+          § 15. Avgåvos följande nya motioner, nämligen av:
+        </note>
+        <note xml:id="i-9HTfpXFQTCvqTv74QYRcUc">
+          herrar Sundström och K aijser, nr 14, om höjning av det i statsverkspropositionen
+          under nionde huvudtiteln begärda anslag till trädgårdsundervisningen;
+        </note>
+        <note xml:id="i-EvdCQNEBCFqw6yFk5wYcvN">
+          herrar Byström och Thorsson, nr 15, om pension åt förre vaktkonstapeln
+          C. J. Lindahl;
+        </note>
+        <note xml:id="i-Qy4a1c5s5XbCXR3TQ3p4jZ">
+          herr Vennerström m. fl., nr 16, om anslag till bidrag för anlägg-
+        </note>
+        <note xml:id="i-D6Mv2nMDGKcqC6n52fbPkK">
+          Nr 5.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1917--ak--5/prot_1917__ak__5-011.jp2/_view"/>
+        <note xml:id="i-4vZkmA8UAzdk9kpHBRVNw3">
+          Nr 5.
+        </note>
+        <note xml:id="i-CUuEdDUjHkWAtmpAXTQLwC">
+          12 Lördagen den 20 januari. ning av nya samt förbättring eller
+          omläggning av backiga. eller eljest mindre goda vägar;
+        </note>
+        <note xml:id="i-Vz7HqmDfwEKzb5mHu3RX3h">
+          herr Bengtsson i Göteborg, nr 17, om avslag å Kungl. Maj:ts i
+          statsverkspropositionen gjorda förslag om inrättande av en ny
+          kontrollörstjänst vid tullkammaren i Trälleborg m. m.;
+        </note>
+        <note xml:id="i-QXGv2LM9vHHsrwHeGwNfRi">
+          herr Lindhagen m. fl., nr 18, om anslag till Svenska fredsoch
+          skiljedomsföreningen;
+        </note>
+        <note xml:id="i-V4vVPVyraWqP5r9cpek6oc">
+          herr Lindhagen, nr 19, om skrivelse till Kungl. Maj:t i fråga
+          om det pågående arbetet för en strafflagsreform;
+        </note>
+        <note xml:id="i-6gKMCLrXQgsJzPPZmh6Rwc">
+          herr Sommelius, nr 20, om skrivelse till Kungl. Maj:t angående
+          åtgärder för undersökning av olika metoder för bärgning av säd
+          m. m.; samt
+        </note>
+        <note xml:id="i-642qjKV8iH9Lvuo258yQMD">
+          herrar Widlund och Winberg, nr 21, om skrivelse till Kungl. Maj:t
+          i fråga om ändring i gällande bestämmelser angående fribil- Jetter
+          för pensionerade befattningshavare vid statens järnvägar.
+        </note>
+        <note xml:id="i-An2vhCc7e8vUJ9tYAnrEmZ">
+          'Tfrågavarande motioner bordlades på begäran.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-TF6jHJbePVpscUstRz99Fh">
+          § 16. J Gelersdes protokollsutdrag.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-PPERuFgZtB4WYtcSqkRM6j">
+          § 17.
+        </note>
+        <u xml:id="i-VZfNdsPeQ5MvcPAstRDenS" who="unknown">
+          <seg xml:id="i-LQrTXKSkhVLicD99cp1ryZ">
+            Ledighet från riksdagsgöromålen beviljades:
+          </seg>
+        </u>
+        <note xml:id="i-28HjKkLLx5UiHWberC9Jof">
+          hört Jeansson i Kalmar under 7 dagar fr.o.m. den 23 jan., &gt; Åkerlund
+          &gt; 14 &gt;» » &gt; 22 &gt; och &gt; Rehn &gt; T &gt; &gt; &gt; 23 &gt;&gt;.
+        </note>
+        <note xml:id="i-PdUJg13oJdaELQPD818hzZ">
+          Kammarens ledamöter åtskildes härefter kl. 1,28 e. m.
+        </note>
+        <note xml:id="i-2rZJ3sim9ufptZ7NwrNSF8">
+          In fidem Per Cronvall.
+        </note>
+        <note xml:id="i-GnLcrVT3HHEFCGBLEV22ZX">
+          Stockholm 1917. Kungl. Boktryckeriet, P. A. Norstedt &amp; Söner.
+          170478
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

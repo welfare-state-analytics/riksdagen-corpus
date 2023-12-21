@@ -1,95 +1,68 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1910</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.1.0</edition>
-      </editionStmt>
       <publicationStmt>
-        <authority>National Library of Sweden and the WESTAC project</authority>
+        <authority>N/A</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1910</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in input/curation/instances</p>
+          <p>No correction of source texts was performed.</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>N/A</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>No correction of source texts was performed.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1914-b-fk--84</head>
-          <docDate when="1914-09-20">1914-09-20</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection">
-          <pb facs="https://betalab.kb.se/prot-1914-b-fk--84/prot_1914_b_fk__84-000.jp2/_view"/>
-          <note xml:id="i-9t7Z7jrQg6VVW7y66vxhwb">
-            RIKSDAGENS PROTOKOLL.
-          </note>
-          <note xml:id="i-7hgDe9oVcWXTppgSjD5Y5a">
-            1914. Första kammaren. Nr 84.
-          </note>
-          <note xml:id="i-KYDwME55kxNfyioYGq2FYq">
-            Söndagen den 20 september.
-          </note>
-          <note xml:id="i-7ZP6rLYGJGG4roqV1U9sPh">
-            Kammaren sammanträdde kl. 2,30 e. m.
-          </note>
-          <note xml:id="i-B26kV3sDEtX4cbQbADekyi">
-            Anmäldes och bordlades bevillningsutskottets betänkande nr 35,
-            angående beräkning av bevillningarna för år 1915.
-          </note>
-          <note xml:id="i-Bp3pV8p4qx9PQqXhn6eEQ9">
-            Föredrogs, men bordlades ånyo på flera ledamöters begäran statsutskottets
-            under gårdagen bordlagda utlåtande nr 108.
-          </note>
-          <note xml:id="i-DD1feY3n1qHydvDp6BUXCQ">
-            Kammarens sammanträde avslutades kl. 2,36 e. m.
-          </note>
-          <note xml:id="i-D2aq44PfXwgsaANBwL72gk">
-            In fidem G. Åman-Nilsson.
-          </note>
-          <note xml:id="i-BzAPBFFR1x1r6eY5mdsgYq">
-            Första kammarens protokoll vid senare riksdagen 1914. Nr 84.
-            1
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1914-b-fk--84</head>
+        <docDate when="1914-09-20">1914-09-20</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection">
+        <pb facs="https://betalab.kb.se/prot-1914-b-fk--84/prot_1914_b_fk__84-000.jp2/_view"/>
+        <note xml:id="i-9t7Z7jrQg6VVW7y66vxhwb">
+          RIKSDAGENS PROTOKOLL.
+        </note>
+        <note xml:id="i-7hgDe9oVcWXTppgSjD5Y5a">
+          1914. Första kammaren. Nr 84.
+        </note>
+        <note xml:id="i-KYDwME55kxNfyioYGq2FYq">
+          Söndagen den 20 september.
+        </note>
+        <note xml:id="i-7ZP6rLYGJGG4roqV1U9sPh">
+          Kammaren sammanträdde kl. 2,30 e. m.
+        </note>
+        <note xml:id="i-B26kV3sDEtX4cbQbADekyi">
+          Anmäldes och bordlades bevillningsutskottets betänkande nr 35,
+          angående beräkning av bevillningarna för år 1915.
+        </note>
+        <note xml:id="i-Bp3pV8p4qx9PQqXhn6eEQ9">
+          Föredrogs, men bordlades ånyo på flera ledamöters begäran statsutskottets
+          under gårdagen bordlagda utlåtande nr 108.
+        </note>
+        <note xml:id="i-DD1feY3n1qHydvDp6BUXCQ">
+          Kammarens sammanträde avslutades kl. 2,36 e. m.
+        </note>
+        <note xml:id="i-D2aq44PfXwgsaANBwL72gk">
+          In fidem G. Åman-Nilsson.
+        </note>
+        <note xml:id="i-BzAPBFFR1x1r6eY5mdsgYq">
+          Första kammarens protokoll vid senare riksdagen 1914. Nr 84.
+          1
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

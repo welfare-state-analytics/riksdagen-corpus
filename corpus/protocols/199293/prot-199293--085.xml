@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 199293</title>
+        <title>Protokoll</title>
       </titleStmt>
       <editionStmt>
         <edition>0.4.2</edition>
@@ -13,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 199293</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -25,121 +25,94 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <editionStmt>
-          <edition>0.4.2</edition>
-        </editionStmt>
-        <publicationStmt>
-          <authority>National Library of Sweden and the WESTAC project</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some data curation was done. It is documented in input/curation/instances</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-199293--85</head>
-          <docDate when="1993-03-29">1993-03-29</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection" xml:id="i-KFxi7ZAiEPr74qq8KHaNYw">
-          <note xml:id="i-8sb3ABpUe39agkuiSXVcPj">
-            1 § Justering av protokoll
-          </note>
-          <note xml:id="i-EP5VDEP8nN6sJs7UCQepas">
-            Justerades protokollen för den 22 och 23 mars.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-BPruCnq3FMTbjJ2YCaVLnQ">
-          <note xml:id="i-Uha1mhdMEH6vRQ7ZH3NUoc">
-            2 § Hänvisning av ärenden till utskott
-          </note>
-          <note xml:id="i-KqeYTXK8DUhAD4qrDDvTNV">
-            Föredrogs och hänvisades
-          </note>
-          <note xml:id="i-Kex6zGr1zpKRHUJCq4khkH">
-            Propositionerna
-          </note>
-          <note xml:id="i-KqAYN8awLygigtXXWLT7bS">
-            1992/93:161 och 200 till trafikutskottet
-          </note>
-          <note xml:id="i-QGGWs77KU1AQHD12dzFix5">
-            1992/93:209 till finansutskottet
-          </note>
-          <note xml:id="i-5FrPzdL4HhT74Kh6cx7qEv">
-            1992/93:210 till justitieutskottet
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-MRifVV2yfFTMjCXC6xtEcC">
-          <note xml:id="i-TY41a8PucS8vkq2j4LtN6">
-            3 § Förnyad bordläggning
-          </note>
-          <note xml:id="i-MVarn4f4h4ivV24ABwGJEW">
-            Föredrogs men bordlades åter
-          </note>
-          <note xml:id="i-6btwop86KRaGEH4Wf9UWnc">
-            Konstitutionsutskottets betänkanden
-          </note>
-          <note xml:id="i-Qfy4FvB1KVvCg4mNLB2MkH">
-            1992/93:KU22--KU27
-          </note>
-          <note xml:id="i-5eJAgR3HzztCZKZ5GooFHY">
-            Finansutskottets betänkanden 1992/93:FiU12--
-          </note>
-          <note xml:id="i-Udtp7DHocQb9VKug47MeNt">
-            FiU14
-          </note>
-          <note xml:id="i-M1oMbMfVp8aoAQ8XiJ1dhR">
-            Skatteutskottets betänkande 1992/93:SkU20
-          </note>
-          <note xml:id="i-L6dyZxoXUroZ2xg6tL4jWM">
-            Justitieutskottets betänkanden 1992/93:JuU21 och
-          </note>
-          <note xml:id="i-H9kJyKgwkwaxXpxGJQtRx4">
-            JuU22
-          </note>
-          <note xml:id="i-6pozdcH5Q2vW8aUMZKefjn">
-            Lagutskottets betänkande 1992/93:LU34
-          </note>
-          <note xml:id="i-Q8ms2b2hqeuCw6YUu4zsHP">
-            Trafikutskottets betänkanden 1992/93:TU18, TU19
-          </note>
-          <note xml:id="i-RPuAhR14BxdPv8dpohkojX">
-            och TU21--TU23
-          </note>
-          <note xml:id="i-3VFSYzNSgd5H91ztVz9P7e">
-            Jordbruksutskottets betänkanden 1992/93:JoU12
-          </note>
-          <note xml:id="i-YSQizCdDZPSbRmRAp7kZZr">
-            och JoU13
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-SRyWX7EUQmGC7MxB9aDfyz">
-          <note xml:id="i-Wvz1tJk6S4Kr7WfbiAz1U2">
-            4 § Kammaren åtskildes kl. 12.02.
-          </note>
-          <note xml:id="i-T9BZgzTAKaVsrzEaCiFHeF">
-            Förhandlingarna leddes av talmannen.
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-199293--85</head>
+        <docDate when="1993-03-29">1993-03-29</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-KFxi7ZAiEPr74qq8KHaNYw">
+        <note xml:id="i-8sb3ABpUe39agkuiSXVcPj">
+          1 § Justering av protokoll
+        </note>
+        <note xml:id="i-EP5VDEP8nN6sJs7UCQepas">
+          Justerades protokollen för den 22 och 23 mars.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-BPruCnq3FMTbjJ2YCaVLnQ">
+        <note xml:id="i-Uha1mhdMEH6vRQ7ZH3NUoc">
+          2 § Hänvisning av ärenden till utskott
+        </note>
+        <note xml:id="i-KqeYTXK8DUhAD4qrDDvTNV">
+          Föredrogs och hänvisades
+        </note>
+        <note xml:id="i-Kex6zGr1zpKRHUJCq4khkH">
+          Propositionerna
+        </note>
+        <note xml:id="i-KqAYN8awLygigtXXWLT7bS">
+          1992/93:161 och 200 till trafikutskottet
+        </note>
+        <note xml:id="i-QGGWs77KU1AQHD12dzFix5">
+          1992/93:209 till finansutskottet
+        </note>
+        <note xml:id="i-5FrPzdL4HhT74Kh6cx7qEv">
+          1992/93:210 till justitieutskottet
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-MRifVV2yfFTMjCXC6xtEcC">
+        <note xml:id="i-TY41a8PucS8vkq2j4LtN6">
+          3 § Förnyad bordläggning
+        </note>
+        <note xml:id="i-MVarn4f4h4ivV24ABwGJEW">
+          Föredrogs men bordlades åter
+        </note>
+        <note xml:id="i-6btwop86KRaGEH4Wf9UWnc">
+          Konstitutionsutskottets betänkanden
+        </note>
+        <note xml:id="i-Qfy4FvB1KVvCg4mNLB2MkH">
+          1992/93:KU22--KU27
+        </note>
+        <note xml:id="i-5eJAgR3HzztCZKZ5GooFHY">
+          Finansutskottets betänkanden 1992/93:FiU12--
+        </note>
+        <note xml:id="i-Udtp7DHocQb9VKug47MeNt">
+          FiU14
+        </note>
+        <note xml:id="i-M1oMbMfVp8aoAQ8XiJ1dhR">
+          Skatteutskottets betänkande 1992/93:SkU20
+        </note>
+        <note xml:id="i-L6dyZxoXUroZ2xg6tL4jWM">
+          Justitieutskottets betänkanden 1992/93:JuU21 och
+        </note>
+        <note xml:id="i-H9kJyKgwkwaxXpxGJQtRx4">
+          JuU22
+        </note>
+        <note xml:id="i-6pozdcH5Q2vW8aUMZKefjn">
+          Lagutskottets betänkande 1992/93:LU34
+        </note>
+        <note xml:id="i-Q8ms2b2hqeuCw6YUu4zsHP">
+          Trafikutskottets betänkanden 1992/93:TU18, TU19
+        </note>
+        <note xml:id="i-RPuAhR14BxdPv8dpohkojX">
+          och TU21--TU23
+        </note>
+        <note xml:id="i-3VFSYzNSgd5H91ztVz9P7e">
+          Jordbruksutskottets betänkanden 1992/93:JoU12
+        </note>
+        <note xml:id="i-YSQizCdDZPSbRmRAp7kZZr">
+          och JoU13
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-SRyWX7EUQmGC7MxB9aDfyz">
+        <note xml:id="i-Wvz1tJk6S4Kr7WfbiAz1U2">
+          4 § Kammaren åtskildes kl. 12.02.
+        </note>
+        <note xml:id="i-T9BZgzTAKaVsrzEaCiFHeF">
+          Förhandlingarna leddes av talmannen.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 201314</title>
+        <title>Protokoll</title>
       </titleStmt>
       <editionStmt>
         <edition>0.4.2</edition>
@@ -13,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 201314</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -25,957 +25,930 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <editionStmt>
-          <edition>0.4.2</edition>
-        </editionStmt>
-        <publicationStmt>
-          <authority>National Library of Sweden and the WESTAC project</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some data curation was done. It is documented in input/curation/instances</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-201314--2</head>
-          <docDate when="2013-09-17">2013-09-17</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection" xml:id="i-R6rSNx6L27WAoiU118nY6C">
-          <pb facs="http://data.riksdagen.se/fil/C0901008-3974-481D-8877-400BC44CF50B#page=1"/>
-          <note xml:id="i-KeNk2mrKYnfovgzYzvTdMd">
-            Riksdagens protokoll
-          </note>
-          <note xml:id="i-CixSb6be93R9b95cNausgf">
-            2013/14:2
-          </note>
-          <note xml:id="i-Tg6ssN6QoY1CXkYhzEwVpy">
-            Tisdagen den 17 september
-          </note>
-          <note xml:id="i-8nMbt8Zu5Rq7LZvYxcFgSg">
-            Kl. 14:00 - 15:00
-          </note>
-        </div>
-        <div type="debateSection" xml:id="i-XW9dkcdkp2wq1rGKcgaE92">
-          <note xml:id="i-CgUs9MNSS44StA7LgLgQB9">
-            1 § Riksmötets öppnande
-          </note>
-          <u xml:id="i-AD2Fqtr87XHZ7SRntxuTFA" who="unknown">
-            <seg xml:id="i-hFJt4Aaj1VN5B8xmdXdwJ">
-              Program för öppnandet har fogats som bilaga till detta protokoll.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-2VE5em1baAPPxxLJPJZWfF">
-            Anf. 1 TALMANNEN:
-          </note>
-          <u xml:id="i-6015063045542491-0" who="Q1375199">
-            <seg xml:id="i-AcRYtcEFg7WLouZKq8N6zu">
-              Jag hemställer att Ers Majestät förklarar riksmötet öppnat.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-Fje97gSh6561c3giDQoodE">
-            Anf. 2 HANS MAJESTÄT KONUNGEN:
-          </note>
-          <u xml:id="i-6015063045542491-1" who="unknown" next="i-6015063045542491-2">
-            <seg xml:id="i-2cFUJQvbxdazTj6tPKCjUQ">
-              Herr talman! Ärade ledamöter av Sveriges riksdag! I år är det
-              40 år sedan jag tillträdde som Sveriges statschef. Därför vill
-              jag i dag blicka bakåt men också framåt och detta ur ett 40-årsperspektiv.
-              Låt mig inleda den här tidsresan i riksdagen, här hos er.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-2" who="unknown" prev="i-6015063045542491-1" next="i-6015063045542491-3">
-            <seg xml:id="i-4dUzqsBo7Tn3TsRVyuneHJ">
-              Medelåldern för ledamöterna i Sveriges riksdag är i dag 49,5
-              år. Den yngste ledamoten är 21 år och den äldste 80 år. Skiften
-              av ledamöter sker ofta, både årligen och vid varje val. På 1970-talet,
-              för 40 år sedan, var de personer som satt i riksdagen betydligt
-              äldre än dagens ledamöter. Majoriteten var män. Bara drygt 14
-              procent var kvinnor. Om 40 år, i början av 2050-talet, är det
-              nästan uteslutande andra som kommer att inneha era uppdrag.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-3" who="unknown" prev="i-6015063045542491-2" next="i-6015063045542491-4">
-            <seg xml:id="i-5WYcP4F5BvSCtDmDRaUhTR">
-              De flesta av dem går i dag i förskolan eller i den vanliga skolan,
-              ja, vissa är ännu inte ens födda. Det kan därför vara värt att
-              beakta nästa gång ni möter en skara barn på promenad i sina neonfärgade
-              skyddsvästar att det kanske är era egna efterträdare ni ser.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-4" who="unknown" prev="i-6015063045542491-3" next="i-6015063045542491-5">
-            <seg xml:id="i-99jvMLNnWRh2ypTPV4hmLN">
-              De ledamöter som satt i Sveriges riksdag för 40 år sedan, år
-              1973, verkade i en helt annan värld än den vi möter i dag. Det
-              kalla kriget var ännu en realitet, och Europa var delat. Sverige
-              hade ett traditionellt invasionsförsvar. Det skulle dröja 16 år
-              innan Berlinmuren föll. I Vietnam var det krig, och på Nordirland
-              trappades konflikten upp. Det rådde oljekris och bensinransonering.
-              Men den svenska basindustrin utsattes ännu inte för konkurrens
-              från Asien. Kina var ett slutet land med planekonomi. Och tanken
-              på att Sverige skulle ingå i en stark, integrerad europeisk union
-              var ännu rätt avlägsen – om det ens var tänkt på.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-5" who="unknown" prev="i-6015063045542491-4" next="i-6015063045542491-6">
-            <seg xml:id="i-AwuuzxbX7MSMUDJ4c6q6xs">
-              Dagens värld ser helt annorlunda ut. Utmaningarna är fortsatt
-              många men möjligheterna också fler. Världen är öppnare, och frihet
-              har fått fäste där ofrihet förr rådde. Forskningen inom medicin
-              och teknik har revolutionerat våra liv. Samtidigt har många nya
-              frågor väckts vilka har påverkan på både dagens och morgondagens
-              generationer.
-            </seg>
-          </u>
-          <pb facs="http://data.riksdagen.se/fil/C0901008-3974-481D-8877-400BC44CF50B#page=2"/>
-          <u xml:id="i-6015063045542491-6" who="unknown" prev="i-6015063045542491-5" next="i-6015063045542491-7">
-            <seg xml:id="i-9ufKKiSf7qeuDVFdWp9N4g">
-              För drygt 40 år sedan, år 1972, hölls den första av FN:s miljökonferenser
-              just här i Stockholm. Den var början till ett ökat internationellt
-              medvetande om betydelsen av hållbar utveckling för att skydda
-              klimat och miljö. Förra sommaren deltog drottningen och jag i
-              FN:s globala miljökonferens i Rio de Janeiro, 40 år efter konferensen
-              i Stockholm. Vi kunde då konstatera att mycket arbete återstår,
-              och jag hoppas på fortsatta framsteg inom detta viktiga område.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-7" who="unknown" prev="i-6015063045542491-6" next="i-6015063045542491-8">
-            <seg xml:id="i-31f8ivq7x2TkNSqpJZ1LvT">
-              Ekonomierna växer. Befolkningarna växer. Men jorden växer inte.
-              Utmaningen består i att finna hållbara lösningar för den ekonomiska
-              och den demografiska utvecklingen. Den ekonomiska krisen i delar
-              av världen kvarstår, och i många länder kan arbetslösheten, kanske
-              särskilt hos de unga, inge oro för framtiden. En grund för långsiktigt
-              god utveckling är en stark ekonomi, och de satsningar som ni diskuterar
-              är därmed av stor vikt. Jag har själv vid besök under mina resor
-              fått se hur långt fram Sverige ligger inom många forskningsområden.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-8" who="unknown" prev="i-6015063045542491-7" next="i-6015063045542491-9">
-            <seg xml:id="i-4wMQrTrMNG2JMPB8zf4ko4">
-              Det viktigaste vi kan göra är att ge våra barn och ungdomar en
-              trygg uppväxtmiljö så att de får kunskap, värderingar och erfarenheter
-              som kan föra Sverige starkt vidare. Den investeringen är kanske
-              den mest betydelsefulla för framtiden.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-9" who="unknown" prev="i-6015063045542491-8" next="i-6015063045542491-10">
-            <seg xml:id="i-WjBwCXzvpde7X7QccgY9Jy">
-              Ingen kan säga hur världen ser ut om 40 år. Ni har viktiga frågor
-              att både betänka och beakta. I era händer ligger såväl möjligheter
-              som konsekvenser av beslut, inte minst när det gäller långsiktiga
-              förändringar som sträcker sig vida utöver riksdagsår och mandatperioder.
-              Om 40 år, i början av 2050-talet, är det som sagt andra personer
-              som bär det uppdrag och det förtroende som ni nu bär. Låt oss
-              därför tillsammans förbereda dem till ansvarstagande och initiativrika
-              individer genom att ge dem både förmåga och kraft att verka i
-              en omvärld i ständig förändring.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-10" who="unknown" prev="i-6015063045542491-9" next="i-JYPBT3QLMRMP5AyueV7Yom">
-            <seg xml:id="i-SmRYeRGKLVHtMtVKHNtGEW">
-              Med dessa ord tillönskar jag er alla valda ombud för Sveriges
-              folk kraft och visdom att föra vår nation vidare på dess resa
-              mot morgondagen, detta med en både stark och gynnsam utveckling,
-              en utveckling för Sverige och för alla de människor som bor, lever
-              och verkar i vårt vackra land.
-            </seg>
-          </u>
-          <u xml:id="i-JYPBT3QLMRMP5AyueV7Yom" who="unknown" prev="i-6015063045542491-10">
-            <seg xml:id="i-8ARibQWRdTWgytJPc8Re2x">
-              Jag förklarar härmed 2013/14 års riksmöte öppnat.
-            </seg>
-          </u>
-        </div>
-        <div type="debateSection" xml:id="i-34adXnsvfEJtaGC1vwdabj">
-          <note xml:id="i-Wqsn7DgT6UxZv5LUaZGVyv">
-            2 § Regeringsförklaring
-          </note>
-          <note type="speaker" xml:id="i-2u9ebzfRGximXDkBGayS8X">
-            Anf. 3 Statsminister FREDRIK REINFELDT (M):
-          </note>
-          <u xml:id="i-6015063045542491-11" next="i-6015063045542491-12" who="Q52920">
-            <seg xml:id="i-RKVTQedM7q8Go5YbTMn6hG">
-              Eders Majestäter, Eders Kungliga Högheter, herr talman, ledamöter
-              av Sveriges riksdag! Slutet av sommaren och början av hösten har
-              tyvärr inneburit en upptrappning av konfliktnivån i världen. Krigets
-              Syrien och våldsamheterna i Egypten är en kraftfull påminnelse
-              om människans sårbarhet inför det som vill ont och illa. Här i
-              Sverige, från ett land som så länge haft fred, är det svårt att
-              ta in den brutalitet som krig för med sig. Vi hör vad som sägs
-              och vi ser bilderna, men att fullt ut förstå lidandet är för många
-              av oss en nästan övermäktig uppgift. För andra svenskar är det
-              en bärande del i deras liv; det var därför de sökte sig hit som
-              flyktingar och blev ett med oss. Då som nu ska Sverige och solidaritet
-              hänga samman.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-12" prev="i-6015063045542491-11" who="Q52920" next="i-6015063045542491-13">
-            <seg xml:id="i-CNVGh95qYGbiwhCuAynbRd">
-              När vi tar in vår omvärld påminns vi också om Sveriges förtjänster
-              – de möjligheter det innebär att få växa upp i ett land som har
-              fred, en välutvecklad demokrati och god välfärd, ett land där
-              alla, oavsett härkomst, religion, funktionshinder, kön, sexuell
-              läggning eller könsöverskridande identitet, ses som människor
-              med lika rättigheter och okränkbart värde.
-            </seg>
-          </u>
-          <pb facs="http://data.riksdagen.se/fil/C0901008-3974-481D-8877-400BC44CF50B#page=3"/>
-          <u xml:id="i-6015063045542491-13" prev="i-6015063045542491-12" who="Q52920" next="i-6015063045542491-14">
-            <seg xml:id="i-Q9GTVZ9FNQj4dsjQgSyGVy">
-              Det finns också anledning att reflektera över hur omvärlden ser
-              på oss. Trots att vi är ett litet land vänds många blickar hit.
-              När USA:s president Barack Obama nyligen besökte oss diskuterade
-              vi Sveriges ekonomi och hur vi stått emot krisen, hur mer av öppenhet
-              och handel är bra för tillväxt i hela världen och ofta ökar motståndskraften
-              mot kriser. Vår förmåga att förena en konkurrenskraftig tillväxtekonomi,
-              framgångsrika företag och höga välfärdsambitioner med minskad
-              klimatpåverkan väcker intresse.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-14" prev="i-6015063045542491-13" who="Q52920" next="i-6015063045542491-15">
-            <seg xml:id="i-699QQGvpw94gAestMMDxVT">
-              I valet 2010 vann Alliansen – Moderaterna, Folkpartiet liberalerna,
-              Centerpartiet och Kristdemokraterna – svenska folkets förtroende
-              att fortsätta bära regeringsansvaret. Våra löften och ambitioner
-              gäller alltjämt. Vi ska fortsätta att göra hela Sverige till ett
-              bättre land att leva i för alla. Vi ska fortsätta att sätta jobben
-              främst. Vi vill återupprätta arbetets värde och motverka utanförskap.
-              Målet är full sysselsättning.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-15" prev="i-6015063045542491-14" who="Q52920" next="i-6015063045542491-16">
-            <seg xml:id="i-QMhDT8Np4o3cBXjv7LAa8">
-              Vårt land har byggts upp med en bred uppsättning värden, som
-              frihet, trygghet, solidaritet, jämställdhet, öppenhet, gemenskap
-              och strävsamhet. Regeringen värnar dessa värden och beståndsdelar.
-              Vi lägger dessutom till nya pusselbitar. Vi vill göra ett bra
-              land ännu bättre.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-16" prev="i-6015063045542491-15" who="Q52920" next="i-6015063045542491-17">
-            <seg xml:id="i-HiK77mrAS4pK2qNJQd58e7">
-              Regeringen tar ansvar för Sveriges ekonomi genom att värna de
-              offentliga finanserna, genom en aktiv politik för att dämpa krisers
-              och oroshärdars effekter på jobben, på välfärdens kärna och på
-              hushållens ekonomier och genom ansvarsfullhet och måttfullhet
-              i goda tider för att motverka överhettning och inflation – ständigt
-              med en ödmjuk syn på politikens gränser i en globaliserad värld.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-17" prev="i-6015063045542491-16" who="Q52920" next="i-5ZLVRc2dqFe7yUBBEx7BzM">
-            <seg xml:id="i-XXGRPER1YCQiLSoC4M6p3c">
-              Regeringen återupprättar arbetslinjen och kunskapslinjen, förbättrar
-              villkoren för företagande och entreprenörskap samt utvecklar och
-              tryggar välfärdens vård och omsorg. Regeringen ser till att Sverige
-              är ett land som håller ihop, även om vi inte är utan prövningar;
-              senvårens händelser i delar av våra storstadsområden förstärker
-              oss i övertygelsen om att mer av sammanhållning är det som behövs.
-            </seg>
-          </u>
-          <u xml:id="i-5ZLVRc2dqFe7yUBBEx7BzM" prev="i-6015063045542491-17" who="Q52920" next="i-6015063045542491-18">
-            <seg xml:id="i-X9VdKdWdRnYfys1PUfi1kY">
-              I regeringsförklaringen 2010 presenterade regeringen inriktningen
-              för politiken och samarbetsformerna i riksdagen för den här mandatperioden.
-              Detta gäller fortsatt.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-18" prev="i-5ZLVRc2dqFe7yUBBEx7BzM" who="Q52920" next="i-6015063045542491-19">
-            <seg xml:id="i-H7EtJngec9Xvf274BrpnfU">
-              Herr talman! Den globala finans- och skuldkrisen och dess konsekvenser
-              har tyngt världsekonomin i fem år. Detta har under lång tid dämpat
-              svensk ekonomi och arbetsmarknad. Den ekonomiska utvecklingen
-              i omvärlden är fortsatt osäker. En återhämtning har svårt att
-              få fäste.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-19" prev="i-6015063045542491-18" who="Q52920" next="i-6015063045542491-20">
-            <seg xml:id="i-7ExEtEsR8kEb78KaZbtvSP">
-              Sveriges ekonomi åtnjuter stort förtroende. Det gör den tack
-              vare att vi har värnat ordning och reda i våra offentliga finanser.
-              Vår offentliga skuld är låg och ligger på drygt hälften av genomsnittet
-              i EU. Sveriges offentliga finanser tillhör de starkaste i Europa.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-20" prev="i-6015063045542491-19" who="Q52920" next="i-6015063045542491-21">
-            <seg xml:id="i-2B3P4uBiiQdokZBn9L67st">
-              Vår starka position ska användas till att ge stöd för en återhämtning.
-              Samtidigt ska krisens effekter fortsatt motarbetas. Detta bör
-              göras med en välavvägd och välriktad finanspolitik med tyngdpunkt
-              på åtgärder som förbättrar de långsiktiga förutsättningarna för
-              jobb och tillväxt. Det finanspolitiska ramverket ska bidra till
-              att bibehålla förtroendet för sunda offentliga finanser. Utgiftstak
-              och överskottsmål ska värnas.
-            </seg>
-          </u>
-          <pb facs="http://data.riksdagen.se/fil/C0901008-3974-481D-8877-400BC44CF50B#page=4"/>
-          <u xml:id="i-6015063045542491-21" prev="i-6015063045542491-20" who="Q52920" next="i-6015063045542491-22">
-            <seg xml:id="i-RviEvR5i1gMP9yLcZTG1pv">
-              När arbetslösheten är hög och resursutnyttjandet lågt bör finanspolitiken
-              ge stöd för jobb och återhämtning. En alltför snabb återgång till
-              överskott riskerar att leda till att en återhämtning bryts, med
-              en försämrad utveckling på arbetsmarknaden som följd. För att
-              säkra en stabil utveckling och lägre arbetslöshet är det rimligt
-              att återvända till ett sparande om 1 procent av bnp först när
-              resursutnyttjandet närmat sig balans. Detta väntas enligt våra
-              prognoser ske först 2017.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-22" prev="i-6015063045542491-21" who="Q52920" next="i-6015063045542491-23">
-            <seg xml:id="i-HuVLj5EfU3mXpEje66uBxH">
-              Herr talman! I en utdragen lågkonjunktur med svag efterfrågan
-              går vi fram med en expansiv politik. Åtgärderna stöttar ekonomin
-              och jobben samtidigt som de gör vår ekonomi mer konkurrenskraftig
-              och långsiktigt mer hållbar. Vi ska inte sitta med armarna i kors
-              och vänta på att jobben ska komma eller bygga vår politik på kortsiktiga
-              och illa genomtänkta åtgärder som riskerar att försämra förutsättningar
-              för en stark och uthållig utveckling.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-23" prev="i-6015063045542491-22" who="Q52920" next="i-6015063045542491-24">
-            <seg xml:id="i-Mzm6ovqhY4YaeX4ymX7wb4">
-              Under krisåren har regeringen gjort satsningar som få andra länder
-              i Europa haft möjlighet till. Vi har satsat på forskning och innovation.
-              Vi har investerat i infrastruktur. Vi har tillfört resurser till
-              och förbättrat verksamheterna i välfärden. Vi har stärkt rättsväsendet.
-              Vi har gjort insatser för att stärka skyddsnätet för människor
-              och familjer med svag ekonomi.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-24" prev="i-6015063045542491-23" who="Q52920" next="i-6015063045542491-25">
-            <seg xml:id="i-UWpnBxdUycNJEShkhYU8Uf">
-              Samtidigt har utgifterna för bland annat kortvariga sjukskrivningar
-              ökat. Detta bidrar till att utrymmet för utgiftsreformer under
-              utgiftstaket är mycket begränsat 2014. Huvuddelen av satsningarna
-              för att stötta ekonomin och jobben bör därför ligga på inkomstsidan.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-25" prev="i-6015063045542491-24" who="Q52920" next="i-6015063045542491-26">
-            <seg xml:id="i-ApnB6SnVEbumjPs98MjgRA">
-              Regeringen avser att föreslå en förstärkning av jobbskatteavdraget.
-              Det ger mer kvar av lönen och stärker hushållens ekonomi samt
-              konsumtion av varor och tjänster. På så vis stöttas en återhämtning
-              samtidigt som drivkrafterna till arbete stärks varaktigt. När
-              enskilda och familjer får behålla mer av sin lön ökar också deras
-              frihet.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-26" prev="i-6015063045542491-25" who="Q52920" next="i-6015063045542491-27">
-            <seg xml:id="i-EH8DriB8aqY6Mk6oJt3YES">
-              För att stärka drivkrafterna för utbildning, utökad arbetstid
-              och viljan att ta på sig ökat ansvar kommer även en höjning av
-              brytpunkten för uttag av statlig inkomstskatt att föreslås. Det
-              ger drygt en miljon människor sänkt statlig inkomstskatt.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-27" prev="i-6015063045542491-26" who="Q52920" next="i-6015063045542491-28">
-            <seg xml:id="i-Xf3CvTNUA5vhRYndgq7wW5">
-              Alltför många unga har svårt att komma in på arbetsmarknaden.
-              Det behövs nya och bredare vägar för unga in i arbetslivet.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-28" prev="i-6015063045542491-27" who="Q52920" next="i-6015063045542491-29">
-            <seg xml:id="i-7ap6tCJg4Wa91CZZ4xFdfH">
-              Här har hela samhället ett ansvar. Regeringen tog därför hösten
-              2011 initiativ till ett trepartssamtal med arbetsmarknadens parter.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-29" prev="i-6015063045542491-28" who="Q52920" next="i-6015063045542491-30">
-            <seg xml:id="i-6sxCBi4kxhENhUofPAxBpK">
-              Avgörande steg för nya och bredare vägar till arbete har tagits
-              inom ramen för dessa trepartssamtal. De branschvisa avtal om yrkesintroduktion
-              som arbetsmarknadens parter har tecknat innebär ett större inslag
-              av arbetsplatsförlagt lärande. Det kommer att ge fler unga en
-              möjlighet att etablera sig på arbetsmarknaden. Fler avtal väntas
-              komma till.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-30" prev="i-6015063045542491-29" who="Q52920" next="i-6015063045542491-31">
-            <seg xml:id="i-G5DGYPchaVjxLxL2RgyyXE">
-              För att stödja denna utveckling kommer regeringen att föreslå
-              ett ekonomiskt stöd till arbetsgivare. En större satsning görs
-              också på den gymnasiala lärlingsutbildningen. Dessutom kommer
-              regeringen att stärka de gymnasiala yrkesprogrammen.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-31" prev="i-6015063045542491-30" who="Q52920" next="i-6015063045542491-32">
-            <seg xml:id="i-2nM6jKfcx2rRormS9TEtEx">
-              Regeringens åtgärder förväntas korta vägen mellan utbildning
-              och arbete. På så sätt ökar ungas chanser att få jobb.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-32" prev="i-6015063045542491-31" who="Q52920" next="i-6015063045542491-33">
-            <seg xml:id="i-CZGF8cCrAnikhjiiVW47zr">
-              Viktiga steg har tagits av arbetsmarknadens parter i dessa trepartssamtal.
-              Därför vill regeringen tillmötesgå önskemålet om att slopa differentieringen
-              av den avgift som a-kassorna betalar in. Därigenom kommer över
-              två miljoner medlemmar i a-kassorna att få en sänkning av avgiften
-              och fler kan gå med i en a-kassa.
-            </seg>
-          </u>
-          <pb facs="http://data.riksdagen.se/fil/C0901008-3974-481D-8877-400BC44CF50B#page=5"/>
-          <u xml:id="i-6015063045542491-33" prev="i-6015063045542491-32" who="Q52920" next="i-6015063045542491-34">
-            <seg xml:id="i-T48HLeMUM56pU16oTKq8uL">
-              Regeringen avser även, som ett resultat av trepartssamtalen,
-              att föreslå ett statligt stöd för korttidsarbete vid allvarliga
-              kriser och åtgärder som stärker omställningsförmåga på arbetsmarknaden.
-              Det behöver bli enklare att fylla på med kunskap och kompetens
-              mitt i livet.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-34" prev="i-6015063045542491-33" who="Q52920" next="i-6015063045542491-35">
-            <seg xml:id="i-F82s2NyGYoExReTMFswguT">
-              Regeringen har tidigare halverat socialavgifterna för unga under
-              26 år, detta för att sänka trösklarna till arbetsmarknaden. Lättnaden
-              förändras och inriktas nu tydligare till dem under 23 år, detta
-              eftersom många unga som ska träda in på arbetsmarknaden efter
-              avslutade gymnasiestudier har svårare att få ett arbete.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-35" prev="i-6015063045542491-34" who="Q52920" next="i-6015063045542491-36">
-            <seg xml:id="i-3r1f3ozasYwobkSCFy1LmR">
-              Ungas förutsättningar att komma in på arbetsmarknaden är mycket
-              olika. Därför är det viktigt att arbetsförmedlarna gör en individuell
-              behovsbedömning. De som bedöms löpa störst risk att hamna i långtidsarbetslöshet
-              kan få individuell hjälp från dag ett. Regeringen satsar på fler
-              arbetsförmedlare för ungdomar. På så sätt ges bättre förutsättningar
-              för att motverka att unga fastnar i längre arbetslöshet.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-36" prev="i-6015063045542491-35" who="Q52920" next="i-6015063045542491-37">
-            <seg xml:id="i-Khx6Fa89cKFPofLPby7Wjo">
-              Många utrikes födda har svårt att etablera sig på arbetsmarknaden.
-              Det gäller i synnerhet dem som kommit till Sverige från länder
-              utanför Europa.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-37" prev="i-6015063045542491-36" who="Q52920" next="i-6015063045542491-38">
-            <seg xml:id="i-WDafNV5DEDwYQLGeN7qaqz">
-              Etableringsprocessen behöver utvecklas. Regeringen föreslår därför
-              förändringar som syftar till att nyanlända snabbare ska kunna
-              bosätta sig i en kommun och där få rätt stöd för att kunna lära
-              sig svenska och etablera sig på arbetsmarknaden.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-38" prev="i-6015063045542491-37" who="Q52920" next="i-6015063045542491-39">
-            <seg xml:id="i-8Nkpp6pvFB2rzCxJn6Rrog">
-              För att stödja kommuner som tar ansvar genom att ta emot nyanlända
-              kommer ersättningssystemen till kommunerna att förändras.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-39" prev="i-6015063045542491-38" who="Q52920" next="i-6015063045542491-40">
-            <seg xml:id="i-VkawviAiRhYrSy8xxoQ26M">
-              Kunskaperna i svenska språket för nyanlända elever behöver förbättras.
-              Fortsatta satsningar i huvudsak riktade mot bristyrken bör göras
-              för att underlätta för utrikes födda akademikers inträde på arbetsmarknaden
-              på rätt kompetensnivå.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-40" prev="i-6015063045542491-39" who="Q52920" next="i-6015063045542491-41">
-            <seg xml:id="i-Dvawe7nDSnjkTQPuZCV4mh">
-              Nystartszoner är ett ytterligare verktyg för att förbättra integrationen
-              genom att minska utanförskapet i de områden där högst andel personer
-              saknar sysselsättning, har låg utbildning och får långvarigt försörjningsstöd.
-              Internationella erfarenheter visar att nystartszoner i kombination
-              med andra åtgärder kan ha positiva effekter. Effekterna ligger
-              främst i ekonomisk aktivitet vad gäller företagsetableringar.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-41" prev="i-6015063045542491-40" who="Q52920" next="i-6015063045542491-42">
-            <seg xml:id="i-PcWCH74TPGL97mm3Nv7445">
-              Herr talman! Utbildning är centralt både för den enskilde och
-              för samhället i stort. En likvärdig och kunskapsfokuserad skola
-              möjliggör en konkurrenskraftig ekonomi och ett samhälle som håller
-              samman. Skolan ska ge alla den kunskap och bildning som krävs
-              för att komma in på arbetsmarknaden, för fortsatta studier och
-              för att delta i samhället.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-42" prev="i-6015063045542491-41" who="Q52920" next="i-6015063045542491-43">
-            <seg xml:id="i-8uMJgmgXrfq81oFkDWWmkm">
-              I många avseenden fungerar det svenska utbildningssystemet bra.
-              Men för att öka kunskaperna och likvärdigheten behöver mer göras.
-              Elevernas läs- och skrivförmåga behöver förbättras. En trygg skolmiljö
-              och studiero är viktigt. Vi avsätter medel till frivillig sommarskola
-              för främst de elever i årskurserna 6–9 som riskerar att inte klara
-              kunskapskraven.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-43" prev="i-6015063045542491-42" who="Q52920" next="i-6015063045542491-44">
-            <seg xml:id="i-4co2dneth5cf3KrrpvAZyY">
-              Sverige har bra lärare. Det ska löna sig att vara en bra lärare
-              och att bli en bättre lärare. Karriärutvecklingsreformen för lärare
-              förstärks och Lärarlyftet förlängs. Regeringen vill också möjliggöra
-              för lärarna att lägga mer av sin tid på undervisning.
-            </seg>
-          </u>
-          <pb facs="http://data.riksdagen.se/fil/C0901008-3974-481D-8877-400BC44CF50B#page=6"/>
-          <u xml:id="i-6015063045542491-44" prev="i-6015063045542491-43" who="Q52920" next="i-6015063045542491-45">
-            <seg xml:id="i-PwhFK4WAYHyfCsM1uHodyJ">
-              För att upprätthålla och förstärka Sveriges konkurrenskraft krävs
-              ett dynamiskt näringsliv i hela landet. Hindren för att starta,
-              driva och utveckla företag ska därför vara så få och låga som
-              möjligt.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-45" prev="i-6015063045542491-44" who="Q52920" next="i-6015063045542491-46">
-            <seg xml:id="i-7uFazTMQyYq5iHFfAQN9bw">
-              Skattelättnader görs för företag som sysslar med forskning och
-              utveckling. I syfte att ytterligare förbättra för de mindre företagen
-              förstärks nedsättningen av egenavgifterna.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-46" prev="i-6015063045542491-45" who="Q52920" next="i-6015063045542491-47">
-            <seg xml:id="i-CABoat6bZnDfi4HxHKMLCF">
-              Mer kommer att göras för att minska de administrativa hindren
-              och bördorna. Det ska vara enkelt för företagen att göra rätt.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-47" prev="i-6015063045542491-46" who="Q52920" next="i-6015063045542491-48">
-            <seg xml:id="i-JhMzMGzNkGQnAnz25GEqcw">
-              Det är viktigt att understödja utvecklingskraften i hela vårt
-              land. Regeringen kommer att presentera de kommande sju årens omfattning
-              och inriktning för den svenska sammanhållningspolitiken och för
-              landsbygdsprogrammet. Insatser för miljö, jobb, entreprenörskap
-              och hållbar tillväxt kommer fortsatt att prioriteras.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-48" prev="i-6015063045542491-47" who="Q52920" next="i-6015063045542491-49">
-            <seg xml:id="i-CJ8YqB4vMiZmJqRxK7ruBf">
-              En väl fungerande bostadsmarknad och infrastruktur är en förutsättning
-              för god ekonomisk tillväxt. Detta är en särskild utmaning i storstadsområdena.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-49" prev="i-6015063045542491-48" who="Q52920" next="i-6015063045542491-50">
-            <seg xml:id="i-7BZiMbaX8RMQrVccoakCyW">
-              Arbetet med att förenkla nyproduktion av bostäder och planprocessen
-              fortsätter. Regler och krav som hindrar byggande förändras eller
-              tas bort.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-50" prev="i-6015063045542491-49" who="Q52920" next="i-6015063045542491-51">
-            <seg xml:id="i-J5EMXhp8onRxQPAPoheieX">
-              Ett väl fungerande rättsväsen är en viktig förutsättning för
-              att befolkningen ska känna trygghet. Regeringen har därför genom
-              stora resurstillskott kraftigt förstärkt rättsväsendets kapacitet.
-              Trots detta fungerar det inte i alla delar tillräckligt effektivt.
-              Fler brott måste förebyggas och fler brott klaras upp. Detta gäller
-              särskilt stölder, bedrägerier och andra brott som drabbar människor
-              i vardagen.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-51" prev="i-6015063045542491-50" who="Q52920" next="i-6015063045542491-52">
-            <seg xml:id="i-14ywv9zej3Pt3mpFTBLw2K">
-              Regeringen ser behov av ytterligare åtgärder som tydliggör att
-              samhället ser allvarligt på våldsbrottslighet.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-52" prev="i-6015063045542491-51" who="Q52920" next="i-6015063045542491-53">
-            <seg xml:id="i-X4jx4cuH152s3tRduZg7Vd">
-              Regeringen bedriver ett kontinuerligt arbete för att stärka insatserna
-              mot våld i nära relationer. Som en del i detta arbete föreslår
-              regeringen en permanent förstärkning av resurserna till landets
-              kvinnojourer.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-53" prev="i-6015063045542491-52" who="Q52920" next="i-6015063045542491-54">
-            <seg xml:id="i-UGonVAVEoDNLCztJPS79RZ">
-              Ett rikt och varierat kulturutbud är viktigt. Förberedelser görs
-              för att åstadkomma en renovering och ombyggnad av Kungliga Operan
-              i Stockholm. På detta sätt kan huset göras mer öppet och tillgängligt
-              för publik och allmänhet, och den konstnärliga verksamheten kan
-              utvecklas.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-54" prev="i-6015063045542491-53" who="Q52920" next="i-6015063045542491-55">
-            <seg xml:id="i-KXTWXBcw2p4a5toVWoE7gn">
-              Sverige ska driva ett ambitiöst miljö-, energi- och klimatarbete.
-              Senare i september presenterar FN:s klimatpanel första delen av
-              sin femte forskningsrapport här i Stockholm. Den blir en viktig
-              påminnelse om allvaret i klimathotet och behovet av att minska
-              världens utsläpp av klimatgaser. Avgörande för detta är att de
-              stora utsläppsländerna reducerar sina utsläpp. Sverige fortsätter
-              arbetet för att driva klimatförhandlingarna framåt. EU ska agera
-              kraftfullt och konstruktivt för att åstadkomma ett globalt klimatavtal.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-55" prev="i-6015063045542491-54" who="Q52920" next="i-6015063045542491-56">
-            <seg xml:id="i-YTBbGqknV6EXpoo1mGENN3">
-              Regeringen avser att föreslå ett antal nya insatser för att skydda
-              vårt klimat och vår miljö. För att bidra till att uppnå miljökvalitetsmålet
-              Giftfri miljö avsätter regeringen ytterligare resurser till satsningen
-              Giftfri vardag. Regeringen avser dessutom att återkomma till riksdagen
-              med den fortsatta inriktningen på den svenska kemikaliepolitiken.
-            </seg>
-          </u>
-          <note xml:id="i-TCxeHkFMJhNR2vWDZH85kz">
-            För att stimulera användningen av biodrivmedel avser regeringen
-            att införa ett kvotpliktssystem för biodrivmedel. Nedsättningen
-            av förmånsvärdet för vissa miljöbilar förlängs med tre år från
-            och med 2014.
-          </note>
-          <u xml:id="i-6015063045542491-56" prev="i-6015063045542491-55" who="Q52920" next="i-6015063045542491-57">
-            <seg xml:id="i-Nszs3jHRMLszsyqUxzNg2i">
-              I ett välfärdssamhälle ska alla invånare erbjudas god tillgång
-              till hälso- och sjukvård samt omsorg av hög kvalitet. Regeringens
-              stora patientsäkerhets-, psykiatri- och tillgänglighetssatsningar
-              fortsätter. Vi fortsätter att satsa på höjd kvalitet och effektivitet
-              i sjukvården, bland annat genom en flerårig satsning på vård för
-              personer med kroniska sjukdomar.
-            </seg>
-          </u>
-          <pb facs="http://data.riksdagen.se/fil/C0901008-3974-481D-8877-400BC44CF50B#page=7"/>
-          <u xml:id="i-6015063045542491-57" prev="i-6015063045542491-56" who="Q52920" next="i-6015063045542491-58">
-            <seg xml:id="i-EWr8pe8gY9D4S5xGcrPEGb">
-              I Sverige kombineras en konkurrenskraftig ekonomi med ett samhälle
-              som håller ihop. För att värna sammanhållningen och se till att
-              ökat välstånd kommer fler till del kommer regeringen att föreslå
-              insatser till familjer och pensionärer. För att nå fram till de
-              barnfamiljer som har mycket små marginaler höjer regeringen det
-              särskilda bidraget i bostadsbidraget. För att bidra till att bryta
-              utanförskap införs en fritidspeng så att barn som finns i hushåll
-              i ekonomisk utsatthet ska få bättre tillgång till kontinuerliga
-              fritidsaktiviteter.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-58" prev="i-6015063045542491-57" who="Q52920" next="i-6015063045542491-59">
-            <seg xml:id="i-RxoiRPiEWLHCH775SDqciN">
-              Regeringens politik syftar till att människor ska känna att Sverige
-              är ett bra och tryggt land att åldras i. Tack vare en ansvarsfull
-              ekonomisk politik med en tydlig arbetslinje kan regeringen fortsätta
-              att sänka skatten för landets pensionärer med tyngdpunkt på dem
-              med små ekonomiska marginaler. Tillskottet till pensionärerna
-              bidrar dessutom till att skjuta in energi i den svenska ekonomin.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-59" prev="i-6015063045542491-58" who="Q52920" next="i-6015063045542491-60">
-            <seg xml:id="i-69y4Y5Mv8knDRE9HD2DqmU">
-              Herr talman! Sverige ska vara en aktiv del av ett starkt, enat
-              och öppet Europa – ett Europa som går stärkt ur den ekonomiska
-              krisen och som bättre kan hävda sina intressen på den internationella
-              arenan. För detta krävs fortsatta reformer för att uppnå sundare
-              offentliga finanser, förbättrad konkurrenskraft och skärpt tillsyn
-              av banker. Detta kommer regeringen även fortsatt att framföra
-              i diskussionen om en kommande bankunion samt ett fördjupat ekonomiskt
-              och finanspolitiskt samarbete.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-60" prev="i-6015063045542491-59" who="Q52920" next="i-6015063045542491-61">
-            <seg xml:id="i-Q9R9UnyGXiGGoSCB2DgRqg">
-              Europiska unionen vilar på demokrati och respekt för mänskliga
-              rättigheter. Nästa år går vi in på det 20:e året av svenskt EU-medlemskap.
-              Det är ett bra tillfälle att påminna om de fördelar som vårt EU-medlemskap
-              innebär: tillgång till världens största enhetliga marknad som
-              konsument eller producent och möjligheten att studera, resa eller
-              arbeta i något av EU:s 28 medlemsländer. Men det är också en enastående
-              möjlighet för Sverige att gemensamt med andra länder i Europa
-              möta de stora utmaningar som vi står inför.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-61" prev="i-6015063045542491-60" who="Q52920" next="i-6015063045542491-62">
-            <seg xml:id="i-GaJ6vaZvTAJRL2j6Xxbs7F">
-              De allra tätaste banden har vi med våra grannar. Gemenskapen
-              i Norden har djupa rötter. Sverige är under 2013 ordförande i
-              Nordiska ministerrådet. Vi prioriterar arbetet med ungas utanförskap,
-              Nordens konkurrenskraft, demografi och miljö.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-62" prev="i-6015063045542491-61" who="Q52920" next="i-6015063045542491-63">
-            <seg xml:id="i-DVW2g4dmwLNJxv8yPCYvYa">
-              Sveriges utrikespolitik bygger på en bred samsyn i Sveriges riksdag
-              kring de värden som ligger till grund för FN:s deklaration och
-              Europarådets konvention om de mänskliga rättigheterna.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-63" prev="i-6015063045542491-62" who="Q52920" next="i-6015063045542491-64">
-            <seg xml:id="i-WSXeT8nYAhYd7YmoxctzvB">
-              Vår säkerhetspolitik utformas i brett samförstånd. Den säkerhetspolitiska
-              linjen ligger fast. Det är klart att Sverige inte kommer att förhålla
-              sig passivt om en katastrof eller ett angrepp skulle drabba ett
-              annat medlemsland i Europeiska unionen eller ett annat nordiskt
-              land. I detta ligger också en förväntan om att dessa länder agerar
-              på samma sätt om Sverige drabbas.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-64" prev="i-6015063045542491-63" who="Q52920" next="i-6015063045542491-65">
-            <seg xml:id="i-VPK3mfYJYATK5UcwDyPBBZ">
-              Situationen i Mellanöstern fortsätter att förvärras. I Syrien
-              råder ett brutalt inbördeskrig. Vi fördömer i starkaste möjliga
-              ordalag allt användande av kemiska stridsmedel. De som är skyldiga
-              måste ställas till svars.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-65" prev="i-6015063045542491-64" who="Q52920" next="i-6015063045542491-66">
-            <seg xml:id="i-5sz35hf4dHxNtPvQ5Rgd2e">
-              Regeringen anser att allvarliga frågor som rör internationell
-              fred och säkerhet, som krisen i Syrien, ska hanteras av FN. Långsiktigt
-              kan krisen bara lösas med politiska medel. Sverige ska fortsatt
-              bidra till att stödja de drabbade genom ett ambitiöst humanitärt
-              bistånd men också när människor flyr till Sverige.
-            </seg>
-          </u>
-          <pb facs="http://data.riksdagen.se/fil/C0901008-3974-481D-8877-400BC44CF50B#page=8"/>
-          <u xml:id="i-6015063045542491-66" prev="i-6015063045542491-65" who="Q52920" next="i-6015063045542491-67">
-            <seg xml:id="i-XHR8bDwedpd5oiTyNHvwm9">
-              Sverige ska ha ett generöst och effektivt bistånd. Inför 2014
-              fastställs Sveriges bistånd till att motsvara 1 procent av bni.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-67" prev="i-6015063045542491-66" who="Q52920" next="i-6015063045542491-68">
-            <seg xml:id="i-WowhPkfe3BtCd3j7bXPbQT">
-              Vårt engagemang för att Israel och ett Palestina ska kunna leva
-              fredligt sida vid sida fortsätter. Vi stöder de återupptagna fredssamtalen
-              och uppmanar bägge parter att avstå från provokationer som kan
-              äventyra fredsprocessen.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-68" prev="i-6015063045542491-67" who="Q52920" next="i-6015063045542491-69">
-            <seg xml:id="i-8bD5BpGWeXXUaW9Z4LnD7q">
-              Regeringen avser att under hösten återkomma till riksdagen med
-              förslag om den fortsatta övergången från stridande till stödjande
-              insatser i Afghanistan. Sveriges stöd till fred och utveckling
-              i Afghanistan är omfattande och långsiktigt. Afghanistan är i
-              dag den största mottagaren av svenskt utvecklingsbistånd.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-69" prev="i-6015063045542491-68" who="Q52920" next="i-6015063045542491-70">
-            <seg xml:id="i-3NvU5V3h7SK7zVormP8kER">
-              Utmaningarna i vårt östra grannskap består. Inskränkningarna
-              i oppositionens möjligheter att verka i flera av dessa länder
-              är oroväckande liksom påtryckningarna utifrån mot vissa av länderna
-              på grund av deras vilja till närmare relationer med EU. Men svårigheterna
-              ändrar inte på det faktum att det är ett starkt svenskt intresse
-              att utveckla och förstärka Europeiska unionens politik för länderna
-              i det östliga partnerskapet.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-70" prev="i-6015063045542491-69" who="Q52920" next="i-6015063045542491-71">
-            <seg xml:id="i-CggfZn8mzVNb9zNAbVHrgY">
-              Sverige ska vara en stark röst för en öppen union som är beredd
-              att ta emot nya medlemmar. Vi välkomnar Kroatien som EU:s 28:e
-              medlemsland och stöder Turkiet i deras förhandlingar om medlemskap.
-              Vi gläder oss också åt att beslut om förhandlingsstart nu har
-              fattats för Serbien och Montenegro.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-71" prev="i-6015063045542491-70" who="Q52920" next="i-6015063045542491-72">
-            <seg xml:id="i-UUfL9Nvd53a3Qzuk1BFF8s">
-              Herr talman! Goda samhällen byggs inte bara med lagar utan också
-              med förtroende och tillit utifrån realistiska förväntningar. Sverige
-              har tillsammans med bland andra våra nordiska grannar stort förtroende
-              och stor tillit jämfört med de flesta andra länder.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-72" prev="i-6015063045542491-71" who="Q52920" next="i-6015063045542491-73">
-            <seg xml:id="i-GyKkZTJsNB4yVUaPPf4zyW">
-              I civilsamhällets gemenskaper vävs band av tillit mellan människor
-              och grupper. Vår gemensamma välfärd och våra demokratiska institutioner
-              bidrar också till sammanhållning och tillit.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-73" prev="i-6015063045542491-72" who="Q52920" next="i-6015063045542491-74">
-            <seg xml:id="i-2khmF5uPHwTiizLmZ6hLPB">
-              Vi har traditioner att vara stolta över, värdesätta och värna,
-              såsom att politiker i hög grad håller vad de har lovat inför val.
-              Det är något som gör att människor kan förvänta sig att den politik
-              som i val har getts förtroende och inflytande också faktiskt genomförs.
-              Väljarna ska kunna veta vad de kan välja mellan och få det som
-              de väljer.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-74" prev="i-6015063045542491-73" who="Q52920" next="i-6015063045542491-75">
-            <seg xml:id="i-39ZtT3Qea6CU9mzi6TWcAa">
-              Här i riksdagen har vi en tradition av förhandling, ärligt spel
-              och samarbete. Vi vinnlägger oss om att få den demokratiska processen
-              att fungera smidigt och för att svenska folkets i val uttryckta
-              vilja ska avspeglas vid regeringsbildning och få avtryck i politiken.
-              Vi söker brett samförstånd och står fast vid gjorda uppgörelser.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-75" prev="i-6015063045542491-74" who="Q52920" next="i-6015063045542491-76">
-            <seg xml:id="i-Kv9eBYFjhZioGoSqvb2Eqh">
-              Riksdagsarbetet och budgethanteringen bygger på lagar som har
-              stiftats i brett samförstånd men också på traditioner och praxis.
-              Det är viktigt. Tillit och respekt betyder ofta lika mycket som
-              stiftad lag.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-76" prev="i-6015063045542491-75" who="Q52920" next="i-6015063045542491-77">
-            <seg xml:id="i-SqymmAoCFzrzKWfoLni7Z2">
-              Förtroende och tillit bidrar också till högt valdeltagande. Det
-              kan bidra till att väljare gör val utifrån andra motiv än missnöje.
-              Förtroende och tillit är därför några av den svenska demokratins
-              viktigaste grundpelare. Det åligger därför oss politiker att vara
-              ansvarsfulla och inte lova mer än vi kan hålla – och sedan hålla
-              vad vi lovar.
-            </seg>
-          </u>
-          <pb facs="http://data.riksdagen.se/fil/C0901008-3974-481D-8877-400BC44CF50B#page=9"/>
-          <u xml:id="i-6015063045542491-77" prev="i-6015063045542491-76" who="Q52920" next="i-6015063045542491-78">
-            <seg xml:id="i-X1U7cYJkCktZnmmHJHGnuz">
-              Alliansregeringen fick i valet 2006 förtroendet att genomföra
-              den politik som de fyra partierna gemensamt hade presenterat för
-              väljarna före valet. Inför valet 2010 kunde vi redovisa att vi
-              hade genomfört det vi hade lovat. I valet 2010 fick våra partier
-              återigen förtroende att genomföra en bred reformagenda.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-78" prev="i-6015063045542491-77" who="Q52920" next="i-6015063045542491-79">
-            <seg xml:id="i-MfHriaAzzMswN59xLaV5h1">
-              I och med höstens budgetproposition, som läggs på riksdagens
-              bord i morgon, kommer ytterligare löften och ambitioner att kunna
-              bockas av. I samband med valet nästa höst kan medborgarna utvärdera
-              regeringens arbete och se att vi har genomfört det vi har lovat.
-              Så värnar vi den tillit och det förtroende som hör till Sveriges
-              största tillgångar.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-79" prev="i-6015063045542491-78" who="Q52920" next="i-6015063045542491-80">
-            <seg xml:id="i-5iDNE8xhhpwt9gNursMypd">
-              Herr talman! I två val har Alliansen sökt och fått väljarnas
-              förtroende att göra hela Sverige till ett bättre land att leva
-              i för alla. Mycket har uträttats under de år som vi har burit
-              regeringsansvar. Men allt i Sverige är inte bra. Det kommer att
-              finnas mycket kvar att göra under åren framöver.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-80" prev="i-6015063045542491-79" who="Q52920" next="i-6015063045542491-81">
-            <seg xml:id="i-MMFBYECs4q8GtUs3dvYm8s">
-              Finanspolitiken kommer fortsatt att behöva säkra en stabil återhämtning.
-              Den utdragna lågkonjunkturen riskerar att förstärka utmaningarna
-              med att få fler i arbete, inte minst vad gäller utrikes födda
-              och unga. Vi har en tilltagande internationell konkurrens om investeringar
-              och jobb. Även om antalet sysselsatta i dag är högre än vid finanskrisens
-              utbrott och 200 000 fler än 2006 behöver arbetet med att nå full
-              sysselsättning därför fortsätta.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-81" prev="i-6015063045542491-80" who="Q52920" next="i-6015063045542491-82">
-            <seg xml:id="i-Aa3NpU7eDb5sqvNQGxmTqE">
-              Jobb ger välstånd, som i sin tur ger möjlighet till välfärd.
-              Men de demografiska utmaningarna med en åldrande befolkning ställer
-              krav på vår välfärdsmodell, som bygger på att de som arbetar inte
-              är för få i förhållande till dem som inte arbetar. Och med allt
-              längre liv får vi fler livsfaser. Det kan bli vanligare att vara
-              kvar i arbetslivet även efter den ålder då man tidigare förväntades
-              vara heltidspensionär, men kanske i ett annat yrke eller med andra
-              arbetsuppgifter och i en annan omfattning. Samtidigt är förutsättningarna
-              för ett längre arbetsliv inte lika för alla yrken.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-82" prev="i-6015063045542491-81" who="Q52920" next="i-6015063045542491-83">
-            <seg xml:id="i-VCk5c2CP27hXUpCu3Eet2y">
-              Tempot i dagens arbetsliv är ofta väldigt högt. Därför bör vi
-              bli mer öppna för att byta yrke mitt i livet. Vi behöver underlätta
-              en sådan omställning. Samhället som helhet har här en stor utmaning
-              att hantera.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-83" prev="i-6015063045542491-82" who="Q52920" next="i-6015063045542491-84">
-            <seg xml:id="i-Rc7zyMTJVTjw1uPjTsxbXN">
-              Världens mest jämställda land är ännu för ojämställt. Ännu tjänar
-              kvinnor mindre än män. Ännu flyr kvinnor till jourer för beskydd,
-              och ännu går pojkar ut från våra skolor med mindre kunskaper än
-              flickor. Vi har mer att göra för att uppnå lika möjligheter till
-              lika lön, lika stor frihet från våld och lika mycket kunskaper
-              till varje elev.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-84" prev="i-6015063045542491-83" who="Q52920" next="i-6015063045542491-85">
-            <seg xml:id="i-3oHrXDJo3wpJcHZziwE6jm">
-              Den globala klimatutmaningen kommer att kräva fortsatta ansträngningar.
-              Vi behöver förstärka vårt innovations- och entreprenörsklimat,
-              och skolreformerna behöver vårdas och utvecklas.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-85" prev="i-6015063045542491-84" who="Q52920" next="i-6015063045542491-86">
-            <seg xml:id="i-Uq9WHQr7uiKAnXChDQTPgf">
-              För att klara dessa framtida utmaningar behövs en ansvarsfull
-              och framtidsinriktad politik. Vi behöver rusta och förbereda oss.
-              Det gör vi bäst genom att fortsätta att ta steg för att modernisera
-              vår svenska modell byggd på arbete, kunskap, entreprenörskap,
-              välfärd och sammanhållning.
-            </seg>
-          </u>
-          <u xml:id="i-6015063045542491-86" prev="i-6015063045542491-85" who="Q52920" next="i-QwT6WA3Hs3AC6sUFj4tU7T">
-            <seg xml:id="i-5gx49ShSDtWmKN311hK5wZ">
-              Så kan vi se på framtiden med tillförsikt och förhoppning. Så
-              kan vi göra hela Sverige till ett ännu bättre land för alla.
-            </seg>
-          </u>
-          <u xml:id="i-QwT6WA3Hs3AC6sUFj4tU7T" prev="i-6015063045542491-86" who="Q52920">
-            <seg xml:id="i-T5TU7WLoAe6xz7suuac6jP">
-              Herr talman! Till sist vill jag anmäla förändringar i regeringens
-              sammansättning. Jag har i dag beslutat om följande ändringar:
-              Gunilla Carlsson har entledigats som statsråd. Hillevi Engström
-              har entledigats som chef för Arbetsmarknadsdepartementet och i
-              stället förordnats som biståndsminister i Utrikesdepartementet.
-              Elisabeth Svantesson har förordnats som statsråd och chef för
-              Arbetsmarknadsdepartementet.
-            </seg>
-          </u>
-        </div>
-        <div type="commentSection" xml:id="i-YSNTbycBcZRDcn6ppkfFFm">
-          <note xml:id="i-JyUbaxCme2TFkiezy4utB9">
-            3 § Ceremonin avslutades kl. 15.00.
-          </note>
-          <note xml:id="i-BRa51Rf1hTPUjpLW6KB5qn">
-            Bilaga
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/C0901008-3974-481D-8877-400BC44CF50B#page=11"/>
-          <note xml:id="i-3VgVcSAXuXMn1zY6LACnHz">
-            Lord Willobies welcome home
-          </note>
-          <note xml:id="i-25mCV4JPE7V2yYbatrKxfX">
-            Kungssången
-          </note>
-          <note xml:id="i-8UjNxnyyG8Jjj85RYgYys6">
-            En sångarsaga
-          </note>
-          <note xml:id="i-RkVCyjDk42UqrKVne5orXg">
-            Fanfar
-          </note>
-          <note xml:id="i-Wo1iLLejKjPUytrYXnfTk7">
-            I ungdomen
-          </note>
-          <note xml:id="i-AQGRt1BEj8KbeGv4iEsS1t">
-            Strövtåg i hembygden
-          </note>
-          <note xml:id="i-UPmiBdiS6ED3mZNNsJRYTT">
-            Nationalsången
-          </note>
-          <note xml:id="i-GViT8gARgYUHWt38nU1qTY">
-            Grande Marche
-          </note>
-          <note xml:id="i-EabqdwYrgsmcAbgfqnW9Fc">
-            Riksplan:
-          </note>
-          <note xml:id="i-5X7F22QknERftbL4kXFb4W">
-            Trapphallen:
-          </note>
-          <note xml:id="i-SWhgkSuTar5gFELhwMCsii">
-            Plenisalen:
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-201314--2</head>
+        <docDate when="2013-09-17">2013-09-17</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-R6rSNx6L27WAoiU118nY6C">
+        <pb facs="http://data.riksdagen.se/fil/C0901008-3974-481D-8877-400BC44CF50B#page=1"/>
+        <note xml:id="i-KeNk2mrKYnfovgzYzvTdMd">
+          Riksdagens protokoll
+        </note>
+        <note xml:id="i-CixSb6be93R9b95cNausgf">
+          2013/14:2
+        </note>
+        <note xml:id="i-Tg6ssN6QoY1CXkYhzEwVpy">
+          Tisdagen den 17 september
+        </note>
+        <note xml:id="i-8nMbt8Zu5Rq7LZvYxcFgSg">
+          Kl. 14:00 - 15:00
+        </note>
+      </div>
+      <div type="debateSection" xml:id="i-XW9dkcdkp2wq1rGKcgaE92">
+        <note xml:id="i-CgUs9MNSS44StA7LgLgQB9">
+          1 § Riksmötets öppnande
+        </note>
+        <u xml:id="i-AD2Fqtr87XHZ7SRntxuTFA" who="unknown">
+          <seg xml:id="i-hFJt4Aaj1VN5B8xmdXdwJ">
+            Program för öppnandet har fogats som bilaga till detta protokoll.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-2VE5em1baAPPxxLJPJZWfF">
+          Anf. 1 TALMANNEN:
+        </note>
+        <u xml:id="i-6015063045542491-0" who="Q1375199">
+          <seg xml:id="i-AcRYtcEFg7WLouZKq8N6zu">
+            Jag hemställer att Ers Majestät förklarar riksmötet öppnat.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-Fje97gSh6561c3giDQoodE">
+          Anf. 2 HANS MAJESTÄT KONUNGEN:
+        </note>
+        <u xml:id="i-6015063045542491-1" who="unknown" next="i-6015063045542491-2">
+          <seg xml:id="i-2cFUJQvbxdazTj6tPKCjUQ">
+            Herr talman! Ärade ledamöter av Sveriges riksdag! I år är det
+            40 år sedan jag tillträdde som Sveriges statschef. Därför vill
+            jag i dag blicka bakåt men också framåt och detta ur ett 40-årsperspektiv.
+            Låt mig inleda den här tidsresan i riksdagen, här hos er.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-2" who="unknown" prev="i-6015063045542491-1" next="i-6015063045542491-3">
+          <seg xml:id="i-4dUzqsBo7Tn3TsRVyuneHJ">
+            Medelåldern för ledamöterna i Sveriges riksdag är i dag 49,5
+            år. Den yngste ledamoten är 21 år och den äldste 80 år. Skiften
+            av ledamöter sker ofta, både årligen och vid varje val. På 1970-talet,
+            för 40 år sedan, var de personer som satt i riksdagen betydligt
+            äldre än dagens ledamöter. Majoriteten var män. Bara drygt 14
+            procent var kvinnor. Om 40 år, i början av 2050-talet, är det
+            nästan uteslutande andra som kommer att inneha era uppdrag.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-3" who="unknown" prev="i-6015063045542491-2" next="i-6015063045542491-4">
+          <seg xml:id="i-5WYcP4F5BvSCtDmDRaUhTR">
+            De flesta av dem går i dag i förskolan eller i den vanliga skolan,
+            ja, vissa är ännu inte ens födda. Det kan därför vara värt att
+            beakta nästa gång ni möter en skara barn på promenad i sina neonfärgade
+            skyddsvästar att det kanske är era egna efterträdare ni ser.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-4" who="unknown" prev="i-6015063045542491-3" next="i-6015063045542491-5">
+          <seg xml:id="i-99jvMLNnWRh2ypTPV4hmLN">
+            De ledamöter som satt i Sveriges riksdag för 40 år sedan, år
+            1973, verkade i en helt annan värld än den vi möter i dag. Det
+            kalla kriget var ännu en realitet, och Europa var delat. Sverige
+            hade ett traditionellt invasionsförsvar. Det skulle dröja 16 år
+            innan Berlinmuren föll. I Vietnam var det krig, och på Nordirland
+            trappades konflikten upp. Det rådde oljekris och bensinransonering.
+            Men den svenska basindustrin utsattes ännu inte för konkurrens
+            från Asien. Kina var ett slutet land med planekonomi. Och tanken
+            på att Sverige skulle ingå i en stark, integrerad europeisk union
+            var ännu rätt avlägsen – om det ens var tänkt på.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-5" who="unknown" prev="i-6015063045542491-4" next="i-6015063045542491-6">
+          <seg xml:id="i-AwuuzxbX7MSMUDJ4c6q6xs">
+            Dagens värld ser helt annorlunda ut. Utmaningarna är fortsatt
+            många men möjligheterna också fler. Världen är öppnare, och frihet
+            har fått fäste där ofrihet förr rådde. Forskningen inom medicin
+            och teknik har revolutionerat våra liv. Samtidigt har många nya
+            frågor väckts vilka har påverkan på både dagens och morgondagens
+            generationer.
+          </seg>
+        </u>
+        <pb facs="http://data.riksdagen.se/fil/C0901008-3974-481D-8877-400BC44CF50B#page=2"/>
+        <u xml:id="i-6015063045542491-6" who="unknown" prev="i-6015063045542491-5" next="i-6015063045542491-7">
+          <seg xml:id="i-9ufKKiSf7qeuDVFdWp9N4g">
+            För drygt 40 år sedan, år 1972, hölls den första av FN:s miljökonferenser
+            just här i Stockholm. Den var början till ett ökat internationellt
+            medvetande om betydelsen av hållbar utveckling för att skydda
+            klimat och miljö. Förra sommaren deltog drottningen och jag i
+            FN:s globala miljökonferens i Rio de Janeiro, 40 år efter konferensen
+            i Stockholm. Vi kunde då konstatera att mycket arbete återstår,
+            och jag hoppas på fortsatta framsteg inom detta viktiga område.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-7" who="unknown" prev="i-6015063045542491-6" next="i-6015063045542491-8">
+          <seg xml:id="i-31f8ivq7x2TkNSqpJZ1LvT">
+            Ekonomierna växer. Befolkningarna växer. Men jorden växer inte.
+            Utmaningen består i att finna hållbara lösningar för den ekonomiska
+            och den demografiska utvecklingen. Den ekonomiska krisen i delar
+            av världen kvarstår, och i många länder kan arbetslösheten, kanske
+            särskilt hos de unga, inge oro för framtiden. En grund för långsiktigt
+            god utveckling är en stark ekonomi, och de satsningar som ni diskuterar
+            är därmed av stor vikt. Jag har själv vid besök under mina resor
+            fått se hur långt fram Sverige ligger inom många forskningsområden.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-8" who="unknown" prev="i-6015063045542491-7" next="i-6015063045542491-9">
+          <seg xml:id="i-4wMQrTrMNG2JMPB8zf4ko4">
+            Det viktigaste vi kan göra är att ge våra barn och ungdomar en
+            trygg uppväxtmiljö så att de får kunskap, värderingar och erfarenheter
+            som kan föra Sverige starkt vidare. Den investeringen är kanske
+            den mest betydelsefulla för framtiden.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-9" who="unknown" prev="i-6015063045542491-8" next="i-6015063045542491-10">
+          <seg xml:id="i-WjBwCXzvpde7X7QccgY9Jy">
+            Ingen kan säga hur världen ser ut om 40 år. Ni har viktiga frågor
+            att både betänka och beakta. I era händer ligger såväl möjligheter
+            som konsekvenser av beslut, inte minst när det gäller långsiktiga
+            förändringar som sträcker sig vida utöver riksdagsår och mandatperioder.
+            Om 40 år, i början av 2050-talet, är det som sagt andra personer
+            som bär det uppdrag och det förtroende som ni nu bär. Låt oss
+            därför tillsammans förbereda dem till ansvarstagande och initiativrika
+            individer genom att ge dem både förmåga och kraft att verka i
+            en omvärld i ständig förändring.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-10" who="unknown" prev="i-6015063045542491-9" next="i-JYPBT3QLMRMP5AyueV7Yom">
+          <seg xml:id="i-SmRYeRGKLVHtMtVKHNtGEW">
+            Med dessa ord tillönskar jag er alla valda ombud för Sveriges
+            folk kraft och visdom att föra vår nation vidare på dess resa
+            mot morgondagen, detta med en både stark och gynnsam utveckling,
+            en utveckling för Sverige och för alla de människor som bor, lever
+            och verkar i vårt vackra land.
+          </seg>
+        </u>
+        <u xml:id="i-JYPBT3QLMRMP5AyueV7Yom" who="unknown" prev="i-6015063045542491-10">
+          <seg xml:id="i-8ARibQWRdTWgytJPc8Re2x">
+            Jag förklarar härmed 2013/14 års riksmöte öppnat.
+          </seg>
+        </u>
+      </div>
+      <div type="debateSection" xml:id="i-34adXnsvfEJtaGC1vwdabj">
+        <note xml:id="i-Wqsn7DgT6UxZv5LUaZGVyv">
+          2 § Regeringsförklaring
+        </note>
+        <note type="speaker" xml:id="i-2u9ebzfRGximXDkBGayS8X">
+          Anf. 3 Statsminister FREDRIK REINFELDT (M):
+        </note>
+        <u xml:id="i-6015063045542491-11" next="i-6015063045542491-12" who="Q52920">
+          <seg xml:id="i-RKVTQedM7q8Go5YbTMn6hG">
+            Eders Majestäter, Eders Kungliga Högheter, herr talman, ledamöter
+            av Sveriges riksdag! Slutet av sommaren och början av hösten har
+            tyvärr inneburit en upptrappning av konfliktnivån i världen. Krigets
+            Syrien och våldsamheterna i Egypten är en kraftfull påminnelse
+            om människans sårbarhet inför det som vill ont och illa. Här i
+            Sverige, från ett land som så länge haft fred, är det svårt att
+            ta in den brutalitet som krig för med sig. Vi hör vad som sägs
+            och vi ser bilderna, men att fullt ut förstå lidandet är för många
+            av oss en nästan övermäktig uppgift. För andra svenskar är det
+            en bärande del i deras liv; det var därför de sökte sig hit som
+            flyktingar och blev ett med oss. Då som nu ska Sverige och solidaritet
+            hänga samman.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-12" prev="i-6015063045542491-11" who="Q52920" next="i-6015063045542491-13">
+          <seg xml:id="i-CNVGh95qYGbiwhCuAynbRd">
+            När vi tar in vår omvärld påminns vi också om Sveriges förtjänster
+            – de möjligheter det innebär att få växa upp i ett land som har
+            fred, en välutvecklad demokrati och god välfärd, ett land där
+            alla, oavsett härkomst, religion, funktionshinder, kön, sexuell
+            läggning eller könsöverskridande identitet, ses som människor
+            med lika rättigheter och okränkbart värde.
+          </seg>
+        </u>
+        <pb facs="http://data.riksdagen.se/fil/C0901008-3974-481D-8877-400BC44CF50B#page=3"/>
+        <u xml:id="i-6015063045542491-13" prev="i-6015063045542491-12" who="Q52920" next="i-6015063045542491-14">
+          <seg xml:id="i-Q9GTVZ9FNQj4dsjQgSyGVy">
+            Det finns också anledning att reflektera över hur omvärlden ser
+            på oss. Trots att vi är ett litet land vänds många blickar hit.
+            När USA:s president Barack Obama nyligen besökte oss diskuterade
+            vi Sveriges ekonomi och hur vi stått emot krisen, hur mer av öppenhet
+            och handel är bra för tillväxt i hela världen och ofta ökar motståndskraften
+            mot kriser. Vår förmåga att förena en konkurrenskraftig tillväxtekonomi,
+            framgångsrika företag och höga välfärdsambitioner med minskad
+            klimatpåverkan väcker intresse.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-14" prev="i-6015063045542491-13" who="Q52920" next="i-6015063045542491-15">
+          <seg xml:id="i-699QQGvpw94gAestMMDxVT">
+            I valet 2010 vann Alliansen – Moderaterna, Folkpartiet liberalerna,
+            Centerpartiet och Kristdemokraterna – svenska folkets förtroende
+            att fortsätta bära regeringsansvaret. Våra löften och ambitioner
+            gäller alltjämt. Vi ska fortsätta att göra hela Sverige till ett
+            bättre land att leva i för alla. Vi ska fortsätta att sätta jobben
+            främst. Vi vill återupprätta arbetets värde och motverka utanförskap.
+            Målet är full sysselsättning.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-15" prev="i-6015063045542491-14" who="Q52920" next="i-6015063045542491-16">
+          <seg xml:id="i-QMhDT8Np4o3cBXjv7LAa8">
+            Vårt land har byggts upp med en bred uppsättning värden, som
+            frihet, trygghet, solidaritet, jämställdhet, öppenhet, gemenskap
+            och strävsamhet. Regeringen värnar dessa värden och beståndsdelar.
+            Vi lägger dessutom till nya pusselbitar. Vi vill göra ett bra
+            land ännu bättre.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-16" prev="i-6015063045542491-15" who="Q52920" next="i-6015063045542491-17">
+          <seg xml:id="i-HiK77mrAS4pK2qNJQd58e7">
+            Regeringen tar ansvar för Sveriges ekonomi genom att värna de
+            offentliga finanserna, genom en aktiv politik för att dämpa krisers
+            och oroshärdars effekter på jobben, på välfärdens kärna och på
+            hushållens ekonomier och genom ansvarsfullhet och måttfullhet
+            i goda tider för att motverka överhettning och inflation – ständigt
+            med en ödmjuk syn på politikens gränser i en globaliserad värld.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-17" prev="i-6015063045542491-16" who="Q52920" next="i-5ZLVRc2dqFe7yUBBEx7BzM">
+          <seg xml:id="i-XXGRPER1YCQiLSoC4M6p3c">
+            Regeringen återupprättar arbetslinjen och kunskapslinjen, förbättrar
+            villkoren för företagande och entreprenörskap samt utvecklar och
+            tryggar välfärdens vård och omsorg. Regeringen ser till att Sverige
+            är ett land som håller ihop, även om vi inte är utan prövningar;
+            senvårens händelser i delar av våra storstadsområden förstärker
+            oss i övertygelsen om att mer av sammanhållning är det som behövs.
+          </seg>
+        </u>
+        <u xml:id="i-5ZLVRc2dqFe7yUBBEx7BzM" prev="i-6015063045542491-17" who="Q52920" next="i-6015063045542491-18">
+          <seg xml:id="i-X9VdKdWdRnYfys1PUfi1kY">
+            I regeringsförklaringen 2010 presenterade regeringen inriktningen
+            för politiken och samarbetsformerna i riksdagen för den här mandatperioden.
+            Detta gäller fortsatt.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-18" prev="i-5ZLVRc2dqFe7yUBBEx7BzM" who="Q52920" next="i-6015063045542491-19">
+          <seg xml:id="i-H7EtJngec9Xvf274BrpnfU">
+            Herr talman! Den globala finans- och skuldkrisen och dess konsekvenser
+            har tyngt världsekonomin i fem år. Detta har under lång tid dämpat
+            svensk ekonomi och arbetsmarknad. Den ekonomiska utvecklingen
+            i omvärlden är fortsatt osäker. En återhämtning har svårt att
+            få fäste.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-19" prev="i-6015063045542491-18" who="Q52920" next="i-6015063045542491-20">
+          <seg xml:id="i-7ExEtEsR8kEb78KaZbtvSP">
+            Sveriges ekonomi åtnjuter stort förtroende. Det gör den tack
+            vare att vi har värnat ordning och reda i våra offentliga finanser.
+            Vår offentliga skuld är låg och ligger på drygt hälften av genomsnittet
+            i EU. Sveriges offentliga finanser tillhör de starkaste i Europa.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-20" prev="i-6015063045542491-19" who="Q52920" next="i-6015063045542491-21">
+          <seg xml:id="i-2B3P4uBiiQdokZBn9L67st">
+            Vår starka position ska användas till att ge stöd för en återhämtning.
+            Samtidigt ska krisens effekter fortsatt motarbetas. Detta bör
+            göras med en välavvägd och välriktad finanspolitik med tyngdpunkt
+            på åtgärder som förbättrar de långsiktiga förutsättningarna för
+            jobb och tillväxt. Det finanspolitiska ramverket ska bidra till
+            att bibehålla förtroendet för sunda offentliga finanser. Utgiftstak
+            och överskottsmål ska värnas.
+          </seg>
+        </u>
+        <pb facs="http://data.riksdagen.se/fil/C0901008-3974-481D-8877-400BC44CF50B#page=4"/>
+        <u xml:id="i-6015063045542491-21" prev="i-6015063045542491-20" who="Q52920" next="i-6015063045542491-22">
+          <seg xml:id="i-RviEvR5i1gMP9yLcZTG1pv">
+            När arbetslösheten är hög och resursutnyttjandet lågt bör finanspolitiken
+            ge stöd för jobb och återhämtning. En alltför snabb återgång till
+            överskott riskerar att leda till att en återhämtning bryts, med
+            en försämrad utveckling på arbetsmarknaden som följd. För att
+            säkra en stabil utveckling och lägre arbetslöshet är det rimligt
+            att återvända till ett sparande om 1 procent av bnp först när
+            resursutnyttjandet närmat sig balans. Detta väntas enligt våra
+            prognoser ske först 2017.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-22" prev="i-6015063045542491-21" who="Q52920" next="i-6015063045542491-23">
+          <seg xml:id="i-HuVLj5EfU3mXpEje66uBxH">
+            Herr talman! I en utdragen lågkonjunktur med svag efterfrågan
+            går vi fram med en expansiv politik. Åtgärderna stöttar ekonomin
+            och jobben samtidigt som de gör vår ekonomi mer konkurrenskraftig
+            och långsiktigt mer hållbar. Vi ska inte sitta med armarna i kors
+            och vänta på att jobben ska komma eller bygga vår politik på kortsiktiga
+            och illa genomtänkta åtgärder som riskerar att försämra förutsättningar
+            för en stark och uthållig utveckling.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-23" prev="i-6015063045542491-22" who="Q52920" next="i-6015063045542491-24">
+          <seg xml:id="i-Mzm6ovqhY4YaeX4ymX7wb4">
+            Under krisåren har regeringen gjort satsningar som få andra länder
+            i Europa haft möjlighet till. Vi har satsat på forskning och innovation.
+            Vi har investerat i infrastruktur. Vi har tillfört resurser till
+            och förbättrat verksamheterna i välfärden. Vi har stärkt rättsväsendet.
+            Vi har gjort insatser för att stärka skyddsnätet för människor
+            och familjer med svag ekonomi.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-24" prev="i-6015063045542491-23" who="Q52920" next="i-6015063045542491-25">
+          <seg xml:id="i-UWpnBxdUycNJEShkhYU8Uf">
+            Samtidigt har utgifterna för bland annat kortvariga sjukskrivningar
+            ökat. Detta bidrar till att utrymmet för utgiftsreformer under
+            utgiftstaket är mycket begränsat 2014. Huvuddelen av satsningarna
+            för att stötta ekonomin och jobben bör därför ligga på inkomstsidan.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-25" prev="i-6015063045542491-24" who="Q52920" next="i-6015063045542491-26">
+          <seg xml:id="i-ApnB6SnVEbumjPs98MjgRA">
+            Regeringen avser att föreslå en förstärkning av jobbskatteavdraget.
+            Det ger mer kvar av lönen och stärker hushållens ekonomi samt
+            konsumtion av varor och tjänster. På så vis stöttas en återhämtning
+            samtidigt som drivkrafterna till arbete stärks varaktigt. När
+            enskilda och familjer får behålla mer av sin lön ökar också deras
+            frihet.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-26" prev="i-6015063045542491-25" who="Q52920" next="i-6015063045542491-27">
+          <seg xml:id="i-EH8DriB8aqY6Mk6oJt3YES">
+            För att stärka drivkrafterna för utbildning, utökad arbetstid
+            och viljan att ta på sig ökat ansvar kommer även en höjning av
+            brytpunkten för uttag av statlig inkomstskatt att föreslås. Det
+            ger drygt en miljon människor sänkt statlig inkomstskatt.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-27" prev="i-6015063045542491-26" who="Q52920" next="i-6015063045542491-28">
+          <seg xml:id="i-Xf3CvTNUA5vhRYndgq7wW5">
+            Alltför många unga har svårt att komma in på arbetsmarknaden.
+            Det behövs nya och bredare vägar för unga in i arbetslivet.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-28" prev="i-6015063045542491-27" who="Q52920" next="i-6015063045542491-29">
+          <seg xml:id="i-7ap6tCJg4Wa91CZZ4xFdfH">
+            Här har hela samhället ett ansvar. Regeringen tog därför hösten
+            2011 initiativ till ett trepartssamtal med arbetsmarknadens parter.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-29" prev="i-6015063045542491-28" who="Q52920" next="i-6015063045542491-30">
+          <seg xml:id="i-6sxCBi4kxhENhUofPAxBpK">
+            Avgörande steg för nya och bredare vägar till arbete har tagits
+            inom ramen för dessa trepartssamtal. De branschvisa avtal om yrkesintroduktion
+            som arbetsmarknadens parter har tecknat innebär ett större inslag
+            av arbetsplatsförlagt lärande. Det kommer att ge fler unga en
+            möjlighet att etablera sig på arbetsmarknaden. Fler avtal väntas
+            komma till.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-30" prev="i-6015063045542491-29" who="Q52920" next="i-6015063045542491-31">
+          <seg xml:id="i-G5DGYPchaVjxLxL2RgyyXE">
+            För att stödja denna utveckling kommer regeringen att föreslå
+            ett ekonomiskt stöd till arbetsgivare. En större satsning görs
+            också på den gymnasiala lärlingsutbildningen. Dessutom kommer
+            regeringen att stärka de gymnasiala yrkesprogrammen.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-31" prev="i-6015063045542491-30" who="Q52920" next="i-6015063045542491-32">
+          <seg xml:id="i-2nM6jKfcx2rRormS9TEtEx">
+            Regeringens åtgärder förväntas korta vägen mellan utbildning
+            och arbete. På så sätt ökar ungas chanser att få jobb.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-32" prev="i-6015063045542491-31" who="Q52920" next="i-6015063045542491-33">
+          <seg xml:id="i-CZGF8cCrAnikhjiiVW47zr">
+            Viktiga steg har tagits av arbetsmarknadens parter i dessa trepartssamtal.
+            Därför vill regeringen tillmötesgå önskemålet om att slopa differentieringen
+            av den avgift som a-kassorna betalar in. Därigenom kommer över
+            två miljoner medlemmar i a-kassorna att få en sänkning av avgiften
+            och fler kan gå med i en a-kassa.
+          </seg>
+        </u>
+        <pb facs="http://data.riksdagen.se/fil/C0901008-3974-481D-8877-400BC44CF50B#page=5"/>
+        <u xml:id="i-6015063045542491-33" prev="i-6015063045542491-32" who="Q52920" next="i-6015063045542491-34">
+          <seg xml:id="i-T48HLeMUM56pU16oTKq8uL">
+            Regeringen avser även, som ett resultat av trepartssamtalen,
+            att föreslå ett statligt stöd för korttidsarbete vid allvarliga
+            kriser och åtgärder som stärker omställningsförmåga på arbetsmarknaden.
+            Det behöver bli enklare att fylla på med kunskap och kompetens
+            mitt i livet.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-34" prev="i-6015063045542491-33" who="Q52920" next="i-6015063045542491-35">
+          <seg xml:id="i-F82s2NyGYoExReTMFswguT">
+            Regeringen har tidigare halverat socialavgifterna för unga under
+            26 år, detta för att sänka trösklarna till arbetsmarknaden. Lättnaden
+            förändras och inriktas nu tydligare till dem under 23 år, detta
+            eftersom många unga som ska träda in på arbetsmarknaden efter
+            avslutade gymnasiestudier har svårare att få ett arbete.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-35" prev="i-6015063045542491-34" who="Q52920" next="i-6015063045542491-36">
+          <seg xml:id="i-3r1f3ozasYwobkSCFy1LmR">
+            Ungas förutsättningar att komma in på arbetsmarknaden är mycket
+            olika. Därför är det viktigt att arbetsförmedlarna gör en individuell
+            behovsbedömning. De som bedöms löpa störst risk att hamna i långtidsarbetslöshet
+            kan få individuell hjälp från dag ett. Regeringen satsar på fler
+            arbetsförmedlare för ungdomar. På så sätt ges bättre förutsättningar
+            för att motverka att unga fastnar i längre arbetslöshet.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-36" prev="i-6015063045542491-35" who="Q52920" next="i-6015063045542491-37">
+          <seg xml:id="i-Khx6Fa89cKFPofLPby7Wjo">
+            Många utrikes födda har svårt att etablera sig på arbetsmarknaden.
+            Det gäller i synnerhet dem som kommit till Sverige från länder
+            utanför Europa.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-37" prev="i-6015063045542491-36" who="Q52920" next="i-6015063045542491-38">
+          <seg xml:id="i-WDafNV5DEDwYQLGeN7qaqz">
+            Etableringsprocessen behöver utvecklas. Regeringen föreslår därför
+            förändringar som syftar till att nyanlända snabbare ska kunna
+            bosätta sig i en kommun och där få rätt stöd för att kunna lära
+            sig svenska och etablera sig på arbetsmarknaden.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-38" prev="i-6015063045542491-37" who="Q52920" next="i-6015063045542491-39">
+          <seg xml:id="i-8Nkpp6pvFB2rzCxJn6Rrog">
+            För att stödja kommuner som tar ansvar genom att ta emot nyanlända
+            kommer ersättningssystemen till kommunerna att förändras.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-39" prev="i-6015063045542491-38" who="Q52920" next="i-6015063045542491-40">
+          <seg xml:id="i-VkawviAiRhYrSy8xxoQ26M">
+            Kunskaperna i svenska språket för nyanlända elever behöver förbättras.
+            Fortsatta satsningar i huvudsak riktade mot bristyrken bör göras
+            för att underlätta för utrikes födda akademikers inträde på arbetsmarknaden
+            på rätt kompetensnivå.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-40" prev="i-6015063045542491-39" who="Q52920" next="i-6015063045542491-41">
+          <seg xml:id="i-Dvawe7nDSnjkTQPuZCV4mh">
+            Nystartszoner är ett ytterligare verktyg för att förbättra integrationen
+            genom att minska utanförskapet i de områden där högst andel personer
+            saknar sysselsättning, har låg utbildning och får långvarigt försörjningsstöd.
+            Internationella erfarenheter visar att nystartszoner i kombination
+            med andra åtgärder kan ha positiva effekter. Effekterna ligger
+            främst i ekonomisk aktivitet vad gäller företagsetableringar.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-41" prev="i-6015063045542491-40" who="Q52920" next="i-6015063045542491-42">
+          <seg xml:id="i-PcWCH74TPGL97mm3Nv7445">
+            Herr talman! Utbildning är centralt både för den enskilde och
+            för samhället i stort. En likvärdig och kunskapsfokuserad skola
+            möjliggör en konkurrenskraftig ekonomi och ett samhälle som håller
+            samman. Skolan ska ge alla den kunskap och bildning som krävs
+            för att komma in på arbetsmarknaden, för fortsatta studier och
+            för att delta i samhället.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-42" prev="i-6015063045542491-41" who="Q52920" next="i-6015063045542491-43">
+          <seg xml:id="i-8uMJgmgXrfq81oFkDWWmkm">
+            I många avseenden fungerar det svenska utbildningssystemet bra.
+            Men för att öka kunskaperna och likvärdigheten behöver mer göras.
+            Elevernas läs- och skrivförmåga behöver förbättras. En trygg skolmiljö
+            och studiero är viktigt. Vi avsätter medel till frivillig sommarskola
+            för främst de elever i årskurserna 6–9 som riskerar att inte klara
+            kunskapskraven.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-43" prev="i-6015063045542491-42" who="Q52920" next="i-6015063045542491-44">
+          <seg xml:id="i-4co2dneth5cf3KrrpvAZyY">
+            Sverige har bra lärare. Det ska löna sig att vara en bra lärare
+            och att bli en bättre lärare. Karriärutvecklingsreformen för lärare
+            förstärks och Lärarlyftet förlängs. Regeringen vill också möjliggöra
+            för lärarna att lägga mer av sin tid på undervisning.
+          </seg>
+        </u>
+        <pb facs="http://data.riksdagen.se/fil/C0901008-3974-481D-8877-400BC44CF50B#page=6"/>
+        <u xml:id="i-6015063045542491-44" prev="i-6015063045542491-43" who="Q52920" next="i-6015063045542491-45">
+          <seg xml:id="i-PwhFK4WAYHyfCsM1uHodyJ">
+            För att upprätthålla och förstärka Sveriges konkurrenskraft krävs
+            ett dynamiskt näringsliv i hela landet. Hindren för att starta,
+            driva och utveckla företag ska därför vara så få och låga som
+            möjligt.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-45" prev="i-6015063045542491-44" who="Q52920" next="i-6015063045542491-46">
+          <seg xml:id="i-7uFazTMQyYq5iHFfAQN9bw">
+            Skattelättnader görs för företag som sysslar med forskning och
+            utveckling. I syfte att ytterligare förbättra för de mindre företagen
+            förstärks nedsättningen av egenavgifterna.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-46" prev="i-6015063045542491-45" who="Q52920" next="i-6015063045542491-47">
+          <seg xml:id="i-CABoat6bZnDfi4HxHKMLCF">
+            Mer kommer att göras för att minska de administrativa hindren
+            och bördorna. Det ska vara enkelt för företagen att göra rätt.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-47" prev="i-6015063045542491-46" who="Q52920" next="i-6015063045542491-48">
+          <seg xml:id="i-JhMzMGzNkGQnAnz25GEqcw">
+            Det är viktigt att understödja utvecklingskraften i hela vårt
+            land. Regeringen kommer att presentera de kommande sju årens omfattning
+            och inriktning för den svenska sammanhållningspolitiken och för
+            landsbygdsprogrammet. Insatser för miljö, jobb, entreprenörskap
+            och hållbar tillväxt kommer fortsatt att prioriteras.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-48" prev="i-6015063045542491-47" who="Q52920" next="i-6015063045542491-49">
+          <seg xml:id="i-CJ8YqB4vMiZmJqRxK7ruBf">
+            En väl fungerande bostadsmarknad och infrastruktur är en förutsättning
+            för god ekonomisk tillväxt. Detta är en särskild utmaning i storstadsområdena.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-49" prev="i-6015063045542491-48" who="Q52920" next="i-6015063045542491-50">
+          <seg xml:id="i-7BZiMbaX8RMQrVccoakCyW">
+            Arbetet med att förenkla nyproduktion av bostäder och planprocessen
+            fortsätter. Regler och krav som hindrar byggande förändras eller
+            tas bort.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-50" prev="i-6015063045542491-49" who="Q52920" next="i-6015063045542491-51">
+          <seg xml:id="i-J5EMXhp8onRxQPAPoheieX">
+            Ett väl fungerande rättsväsen är en viktig förutsättning för
+            att befolkningen ska känna trygghet. Regeringen har därför genom
+            stora resurstillskott kraftigt förstärkt rättsväsendets kapacitet.
+            Trots detta fungerar det inte i alla delar tillräckligt effektivt.
+            Fler brott måste förebyggas och fler brott klaras upp. Detta gäller
+            särskilt stölder, bedrägerier och andra brott som drabbar människor
+            i vardagen.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-51" prev="i-6015063045542491-50" who="Q52920" next="i-6015063045542491-52">
+          <seg xml:id="i-14ywv9zej3Pt3mpFTBLw2K">
+            Regeringen ser behov av ytterligare åtgärder som tydliggör att
+            samhället ser allvarligt på våldsbrottslighet.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-52" prev="i-6015063045542491-51" who="Q52920" next="i-6015063045542491-53">
+          <seg xml:id="i-X4jx4cuH152s3tRduZg7Vd">
+            Regeringen bedriver ett kontinuerligt arbete för att stärka insatserna
+            mot våld i nära relationer. Som en del i detta arbete föreslår
+            regeringen en permanent förstärkning av resurserna till landets
+            kvinnojourer.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-53" prev="i-6015063045542491-52" who="Q52920" next="i-6015063045542491-54">
+          <seg xml:id="i-UGonVAVEoDNLCztJPS79RZ">
+            Ett rikt och varierat kulturutbud är viktigt. Förberedelser görs
+            för att åstadkomma en renovering och ombyggnad av Kungliga Operan
+            i Stockholm. På detta sätt kan huset göras mer öppet och tillgängligt
+            för publik och allmänhet, och den konstnärliga verksamheten kan
+            utvecklas.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-54" prev="i-6015063045542491-53" who="Q52920" next="i-6015063045542491-55">
+          <seg xml:id="i-KXTWXBcw2p4a5toVWoE7gn">
+            Sverige ska driva ett ambitiöst miljö-, energi- och klimatarbete.
+            Senare i september presenterar FN:s klimatpanel första delen av
+            sin femte forskningsrapport här i Stockholm. Den blir en viktig
+            påminnelse om allvaret i klimathotet och behovet av att minska
+            världens utsläpp av klimatgaser. Avgörande för detta är att de
+            stora utsläppsländerna reducerar sina utsläpp. Sverige fortsätter
+            arbetet för att driva klimatförhandlingarna framåt. EU ska agera
+            kraftfullt och konstruktivt för att åstadkomma ett globalt klimatavtal.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-55" prev="i-6015063045542491-54" who="Q52920" next="i-6015063045542491-56">
+          <seg xml:id="i-YTBbGqknV6EXpoo1mGENN3">
+            Regeringen avser att föreslå ett antal nya insatser för att skydda
+            vårt klimat och vår miljö. För att bidra till att uppnå miljökvalitetsmålet
+            Giftfri miljö avsätter regeringen ytterligare resurser till satsningen
+            Giftfri vardag. Regeringen avser dessutom att återkomma till riksdagen
+            med den fortsatta inriktningen på den svenska kemikaliepolitiken.
+          </seg>
+        </u>
+        <note xml:id="i-TCxeHkFMJhNR2vWDZH85kz">
+          För att stimulera användningen av biodrivmedel avser regeringen
+          att införa ett kvotpliktssystem för biodrivmedel. Nedsättningen
+          av förmånsvärdet för vissa miljöbilar förlängs med tre år från
+          och med 2014.
+        </note>
+        <u xml:id="i-6015063045542491-56" prev="i-6015063045542491-55" who="Q52920" next="i-6015063045542491-57">
+          <seg xml:id="i-Nszs3jHRMLszsyqUxzNg2i">
+            I ett välfärdssamhälle ska alla invånare erbjudas god tillgång
+            till hälso- och sjukvård samt omsorg av hög kvalitet. Regeringens
+            stora patientsäkerhets-, psykiatri- och tillgänglighetssatsningar
+            fortsätter. Vi fortsätter att satsa på höjd kvalitet och effektivitet
+            i sjukvården, bland annat genom en flerårig satsning på vård för
+            personer med kroniska sjukdomar.
+          </seg>
+        </u>
+        <pb facs="http://data.riksdagen.se/fil/C0901008-3974-481D-8877-400BC44CF50B#page=7"/>
+        <u xml:id="i-6015063045542491-57" prev="i-6015063045542491-56" who="Q52920" next="i-6015063045542491-58">
+          <seg xml:id="i-EWr8pe8gY9D4S5xGcrPEGb">
+            I Sverige kombineras en konkurrenskraftig ekonomi med ett samhälle
+            som håller ihop. För att värna sammanhållningen och se till att
+            ökat välstånd kommer fler till del kommer regeringen att föreslå
+            insatser till familjer och pensionärer. För att nå fram till de
+            barnfamiljer som har mycket små marginaler höjer regeringen det
+            särskilda bidraget i bostadsbidraget. För att bidra till att bryta
+            utanförskap införs en fritidspeng så att barn som finns i hushåll
+            i ekonomisk utsatthet ska få bättre tillgång till kontinuerliga
+            fritidsaktiviteter.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-58" prev="i-6015063045542491-57" who="Q52920" next="i-6015063045542491-59">
+          <seg xml:id="i-RxoiRPiEWLHCH775SDqciN">
+            Regeringens politik syftar till att människor ska känna att Sverige
+            är ett bra och tryggt land att åldras i. Tack vare en ansvarsfull
+            ekonomisk politik med en tydlig arbetslinje kan regeringen fortsätta
+            att sänka skatten för landets pensionärer med tyngdpunkt på dem
+            med små ekonomiska marginaler. Tillskottet till pensionärerna
+            bidrar dessutom till att skjuta in energi i den svenska ekonomin.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-59" prev="i-6015063045542491-58" who="Q52920" next="i-6015063045542491-60">
+          <seg xml:id="i-69y4Y5Mv8knDRE9HD2DqmU">
+            Herr talman! Sverige ska vara en aktiv del av ett starkt, enat
+            och öppet Europa – ett Europa som går stärkt ur den ekonomiska
+            krisen och som bättre kan hävda sina intressen på den internationella
+            arenan. För detta krävs fortsatta reformer för att uppnå sundare
+            offentliga finanser, förbättrad konkurrenskraft och skärpt tillsyn
+            av banker. Detta kommer regeringen även fortsatt att framföra
+            i diskussionen om en kommande bankunion samt ett fördjupat ekonomiskt
+            och finanspolitiskt samarbete.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-60" prev="i-6015063045542491-59" who="Q52920" next="i-6015063045542491-61">
+          <seg xml:id="i-Q9R9UnyGXiGGoSCB2DgRqg">
+            Europiska unionen vilar på demokrati och respekt för mänskliga
+            rättigheter. Nästa år går vi in på det 20:e året av svenskt EU-medlemskap.
+            Det är ett bra tillfälle att påminna om de fördelar som vårt EU-medlemskap
+            innebär: tillgång till världens största enhetliga marknad som
+            konsument eller producent och möjligheten att studera, resa eller
+            arbeta i något av EU:s 28 medlemsländer. Men det är också en enastående
+            möjlighet för Sverige att gemensamt med andra länder i Europa
+            möta de stora utmaningar som vi står inför.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-61" prev="i-6015063045542491-60" who="Q52920" next="i-6015063045542491-62">
+          <seg xml:id="i-GaJ6vaZvTAJRL2j6Xxbs7F">
+            De allra tätaste banden har vi med våra grannar. Gemenskapen
+            i Norden har djupa rötter. Sverige är under 2013 ordförande i
+            Nordiska ministerrådet. Vi prioriterar arbetet med ungas utanförskap,
+            Nordens konkurrenskraft, demografi och miljö.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-62" prev="i-6015063045542491-61" who="Q52920" next="i-6015063045542491-63">
+          <seg xml:id="i-DVW2g4dmwLNJxv8yPCYvYa">
+            Sveriges utrikespolitik bygger på en bred samsyn i Sveriges riksdag
+            kring de värden som ligger till grund för FN:s deklaration och
+            Europarådets konvention om de mänskliga rättigheterna.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-63" prev="i-6015063045542491-62" who="Q52920" next="i-6015063045542491-64">
+          <seg xml:id="i-WSXeT8nYAhYd7YmoxctzvB">
+            Vår säkerhetspolitik utformas i brett samförstånd. Den säkerhetspolitiska
+            linjen ligger fast. Det är klart att Sverige inte kommer att förhålla
+            sig passivt om en katastrof eller ett angrepp skulle drabba ett
+            annat medlemsland i Europeiska unionen eller ett annat nordiskt
+            land. I detta ligger också en förväntan om att dessa länder agerar
+            på samma sätt om Sverige drabbas.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-64" prev="i-6015063045542491-63" who="Q52920" next="i-6015063045542491-65">
+          <seg xml:id="i-VPK3mfYJYATK5UcwDyPBBZ">
+            Situationen i Mellanöstern fortsätter att förvärras. I Syrien
+            råder ett brutalt inbördeskrig. Vi fördömer i starkaste möjliga
+            ordalag allt användande av kemiska stridsmedel. De som är skyldiga
+            måste ställas till svars.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-65" prev="i-6015063045542491-64" who="Q52920" next="i-6015063045542491-66">
+          <seg xml:id="i-5sz35hf4dHxNtPvQ5Rgd2e">
+            Regeringen anser att allvarliga frågor som rör internationell
+            fred och säkerhet, som krisen i Syrien, ska hanteras av FN. Långsiktigt
+            kan krisen bara lösas med politiska medel. Sverige ska fortsatt
+            bidra till att stödja de drabbade genom ett ambitiöst humanitärt
+            bistånd men också när människor flyr till Sverige.
+          </seg>
+        </u>
+        <pb facs="http://data.riksdagen.se/fil/C0901008-3974-481D-8877-400BC44CF50B#page=8"/>
+        <u xml:id="i-6015063045542491-66" prev="i-6015063045542491-65" who="Q52920" next="i-6015063045542491-67">
+          <seg xml:id="i-XHR8bDwedpd5oiTyNHvwm9">
+            Sverige ska ha ett generöst och effektivt bistånd. Inför 2014
+            fastställs Sveriges bistånd till att motsvara 1 procent av bni.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-67" prev="i-6015063045542491-66" who="Q52920" next="i-6015063045542491-68">
+          <seg xml:id="i-WowhPkfe3BtCd3j7bXPbQT">
+            Vårt engagemang för att Israel och ett Palestina ska kunna leva
+            fredligt sida vid sida fortsätter. Vi stöder de återupptagna fredssamtalen
+            och uppmanar bägge parter att avstå från provokationer som kan
+            äventyra fredsprocessen.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-68" prev="i-6015063045542491-67" who="Q52920" next="i-6015063045542491-69">
+          <seg xml:id="i-8bD5BpGWeXXUaW9Z4LnD7q">
+            Regeringen avser att under hösten återkomma till riksdagen med
+            förslag om den fortsatta övergången från stridande till stödjande
+            insatser i Afghanistan. Sveriges stöd till fred och utveckling
+            i Afghanistan är omfattande och långsiktigt. Afghanistan är i
+            dag den största mottagaren av svenskt utvecklingsbistånd.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-69" prev="i-6015063045542491-68" who="Q52920" next="i-6015063045542491-70">
+          <seg xml:id="i-3NvU5V3h7SK7zVormP8kER">
+            Utmaningarna i vårt östra grannskap består. Inskränkningarna
+            i oppositionens möjligheter att verka i flera av dessa länder
+            är oroväckande liksom påtryckningarna utifrån mot vissa av länderna
+            på grund av deras vilja till närmare relationer med EU. Men svårigheterna
+            ändrar inte på det faktum att det är ett starkt svenskt intresse
+            att utveckla och förstärka Europeiska unionens politik för länderna
+            i det östliga partnerskapet.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-70" prev="i-6015063045542491-69" who="Q52920" next="i-6015063045542491-71">
+          <seg xml:id="i-CggfZn8mzVNb9zNAbVHrgY">
+            Sverige ska vara en stark röst för en öppen union som är beredd
+            att ta emot nya medlemmar. Vi välkomnar Kroatien som EU:s 28:e
+            medlemsland och stöder Turkiet i deras förhandlingar om medlemskap.
+            Vi gläder oss också åt att beslut om förhandlingsstart nu har
+            fattats för Serbien och Montenegro.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-71" prev="i-6015063045542491-70" who="Q52920" next="i-6015063045542491-72">
+          <seg xml:id="i-UUfL9Nvd53a3Qzuk1BFF8s">
+            Herr talman! Goda samhällen byggs inte bara med lagar utan också
+            med förtroende och tillit utifrån realistiska förväntningar. Sverige
+            har tillsammans med bland andra våra nordiska grannar stort förtroende
+            och stor tillit jämfört med de flesta andra länder.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-72" prev="i-6015063045542491-71" who="Q52920" next="i-6015063045542491-73">
+          <seg xml:id="i-GyKkZTJsNB4yVUaPPf4zyW">
+            I civilsamhällets gemenskaper vävs band av tillit mellan människor
+            och grupper. Vår gemensamma välfärd och våra demokratiska institutioner
+            bidrar också till sammanhållning och tillit.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-73" prev="i-6015063045542491-72" who="Q52920" next="i-6015063045542491-74">
+          <seg xml:id="i-2khmF5uPHwTiizLmZ6hLPB">
+            Vi har traditioner att vara stolta över, värdesätta och värna,
+            såsom att politiker i hög grad håller vad de har lovat inför val.
+            Det är något som gör att människor kan förvänta sig att den politik
+            som i val har getts förtroende och inflytande också faktiskt genomförs.
+            Väljarna ska kunna veta vad de kan välja mellan och få det som
+            de väljer.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-74" prev="i-6015063045542491-73" who="Q52920" next="i-6015063045542491-75">
+          <seg xml:id="i-39ZtT3Qea6CU9mzi6TWcAa">
+            Här i riksdagen har vi en tradition av förhandling, ärligt spel
+            och samarbete. Vi vinnlägger oss om att få den demokratiska processen
+            att fungera smidigt och för att svenska folkets i val uttryckta
+            vilja ska avspeglas vid regeringsbildning och få avtryck i politiken.
+            Vi söker brett samförstånd och står fast vid gjorda uppgörelser.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-75" prev="i-6015063045542491-74" who="Q52920" next="i-6015063045542491-76">
+          <seg xml:id="i-Kv9eBYFjhZioGoSqvb2Eqh">
+            Riksdagsarbetet och budgethanteringen bygger på lagar som har
+            stiftats i brett samförstånd men också på traditioner och praxis.
+            Det är viktigt. Tillit och respekt betyder ofta lika mycket som
+            stiftad lag.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-76" prev="i-6015063045542491-75" who="Q52920" next="i-6015063045542491-77">
+          <seg xml:id="i-SqymmAoCFzrzKWfoLni7Z2">
+            Förtroende och tillit bidrar också till högt valdeltagande. Det
+            kan bidra till att väljare gör val utifrån andra motiv än missnöje.
+            Förtroende och tillit är därför några av den svenska demokratins
+            viktigaste grundpelare. Det åligger därför oss politiker att vara
+            ansvarsfulla och inte lova mer än vi kan hålla – och sedan hålla
+            vad vi lovar.
+          </seg>
+        </u>
+        <pb facs="http://data.riksdagen.se/fil/C0901008-3974-481D-8877-400BC44CF50B#page=9"/>
+        <u xml:id="i-6015063045542491-77" prev="i-6015063045542491-76" who="Q52920" next="i-6015063045542491-78">
+          <seg xml:id="i-X1U7cYJkCktZnmmHJHGnuz">
+            Alliansregeringen fick i valet 2006 förtroendet att genomföra
+            den politik som de fyra partierna gemensamt hade presenterat för
+            väljarna före valet. Inför valet 2010 kunde vi redovisa att vi
+            hade genomfört det vi hade lovat. I valet 2010 fick våra partier
+            återigen förtroende att genomföra en bred reformagenda.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-78" prev="i-6015063045542491-77" who="Q52920" next="i-6015063045542491-79">
+          <seg xml:id="i-MfHriaAzzMswN59xLaV5h1">
+            I och med höstens budgetproposition, som läggs på riksdagens
+            bord i morgon, kommer ytterligare löften och ambitioner att kunna
+            bockas av. I samband med valet nästa höst kan medborgarna utvärdera
+            regeringens arbete och se att vi har genomfört det vi har lovat.
+            Så värnar vi den tillit och det förtroende som hör till Sveriges
+            största tillgångar.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-79" prev="i-6015063045542491-78" who="Q52920" next="i-6015063045542491-80">
+          <seg xml:id="i-5iDNE8xhhpwt9gNursMypd">
+            Herr talman! I två val har Alliansen sökt och fått väljarnas
+            förtroende att göra hela Sverige till ett bättre land att leva
+            i för alla. Mycket har uträttats under de år som vi har burit
+            regeringsansvar. Men allt i Sverige är inte bra. Det kommer att
+            finnas mycket kvar att göra under åren framöver.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-80" prev="i-6015063045542491-79" who="Q52920" next="i-6015063045542491-81">
+          <seg xml:id="i-MMFBYECs4q8GtUs3dvYm8s">
+            Finanspolitiken kommer fortsatt att behöva säkra en stabil återhämtning.
+            Den utdragna lågkonjunkturen riskerar att förstärka utmaningarna
+            med att få fler i arbete, inte minst vad gäller utrikes födda
+            och unga. Vi har en tilltagande internationell konkurrens om investeringar
+            och jobb. Även om antalet sysselsatta i dag är högre än vid finanskrisens
+            utbrott och 200 000 fler än 2006 behöver arbetet med att nå full
+            sysselsättning därför fortsätta.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-81" prev="i-6015063045542491-80" who="Q52920" next="i-6015063045542491-82">
+          <seg xml:id="i-Aa3NpU7eDb5sqvNQGxmTqE">
+            Jobb ger välstånd, som i sin tur ger möjlighet till välfärd.
+            Men de demografiska utmaningarna med en åldrande befolkning ställer
+            krav på vår välfärdsmodell, som bygger på att de som arbetar inte
+            är för få i förhållande till dem som inte arbetar. Och med allt
+            längre liv får vi fler livsfaser. Det kan bli vanligare att vara
+            kvar i arbetslivet även efter den ålder då man tidigare förväntades
+            vara heltidspensionär, men kanske i ett annat yrke eller med andra
+            arbetsuppgifter och i en annan omfattning. Samtidigt är förutsättningarna
+            för ett längre arbetsliv inte lika för alla yrken.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-82" prev="i-6015063045542491-81" who="Q52920" next="i-6015063045542491-83">
+          <seg xml:id="i-VCk5c2CP27hXUpCu3Eet2y">
+            Tempot i dagens arbetsliv är ofta väldigt högt. Därför bör vi
+            bli mer öppna för att byta yrke mitt i livet. Vi behöver underlätta
+            en sådan omställning. Samhället som helhet har här en stor utmaning
+            att hantera.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-83" prev="i-6015063045542491-82" who="Q52920" next="i-6015063045542491-84">
+          <seg xml:id="i-Rc7zyMTJVTjw1uPjTsxbXN">
+            Världens mest jämställda land är ännu för ojämställt. Ännu tjänar
+            kvinnor mindre än män. Ännu flyr kvinnor till jourer för beskydd,
+            och ännu går pojkar ut från våra skolor med mindre kunskaper än
+            flickor. Vi har mer att göra för att uppnå lika möjligheter till
+            lika lön, lika stor frihet från våld och lika mycket kunskaper
+            till varje elev.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-84" prev="i-6015063045542491-83" who="Q52920" next="i-6015063045542491-85">
+          <seg xml:id="i-3oHrXDJo3wpJcHZziwE6jm">
+            Den globala klimatutmaningen kommer att kräva fortsatta ansträngningar.
+            Vi behöver förstärka vårt innovations- och entreprenörsklimat,
+            och skolreformerna behöver vårdas och utvecklas.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-85" prev="i-6015063045542491-84" who="Q52920" next="i-6015063045542491-86">
+          <seg xml:id="i-Uq9WHQr7uiKAnXChDQTPgf">
+            För att klara dessa framtida utmaningar behövs en ansvarsfull
+            och framtidsinriktad politik. Vi behöver rusta och förbereda oss.
+            Det gör vi bäst genom att fortsätta att ta steg för att modernisera
+            vår svenska modell byggd på arbete, kunskap, entreprenörskap,
+            välfärd och sammanhållning.
+          </seg>
+        </u>
+        <u xml:id="i-6015063045542491-86" prev="i-6015063045542491-85" who="Q52920" next="i-QwT6WA3Hs3AC6sUFj4tU7T">
+          <seg xml:id="i-5gx49ShSDtWmKN311hK5wZ">
+            Så kan vi se på framtiden med tillförsikt och förhoppning. Så
+            kan vi göra hela Sverige till ett ännu bättre land för alla.
+          </seg>
+        </u>
+        <u xml:id="i-QwT6WA3Hs3AC6sUFj4tU7T" prev="i-6015063045542491-86" who="Q52920">
+          <seg xml:id="i-T5TU7WLoAe6xz7suuac6jP">
+            Herr talman! Till sist vill jag anmäla förändringar i regeringens
+            sammansättning. Jag har i dag beslutat om följande ändringar:
+            Gunilla Carlsson har entledigats som statsråd. Hillevi Engström
+            har entledigats som chef för Arbetsmarknadsdepartementet och i
+            stället förordnats som biståndsminister i Utrikesdepartementet.
+            Elisabeth Svantesson har förordnats som statsråd och chef för
+            Arbetsmarknadsdepartementet.
+          </seg>
+        </u>
+      </div>
+      <div type="commentSection" xml:id="i-YSNTbycBcZRDcn6ppkfFFm">
+        <note xml:id="i-JyUbaxCme2TFkiezy4utB9">
+          3 § Ceremonin avslutades kl. 15.00.
+        </note>
+        <note xml:id="i-BRa51Rf1hTPUjpLW6KB5qn">
+          Bilaga
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/C0901008-3974-481D-8877-400BC44CF50B#page=11"/>
+        <note xml:id="i-3VgVcSAXuXMn1zY6LACnHz">
+          Lord Willobies welcome home
+        </note>
+        <note xml:id="i-25mCV4JPE7V2yYbatrKxfX">
+          Kungssången
+        </note>
+        <note xml:id="i-8UjNxnyyG8Jjj85RYgYys6">
+          En sångarsaga
+        </note>
+        <note xml:id="i-RkVCyjDk42UqrKVne5orXg">
+          Fanfar
+        </note>
+        <note xml:id="i-Wo1iLLejKjPUytrYXnfTk7">
+          I ungdomen
+        </note>
+        <note xml:id="i-AQGRt1BEj8KbeGv4iEsS1t">
+          Strövtåg i hembygden
+        </note>
+        <note xml:id="i-UPmiBdiS6ED3mZNNsJRYTT">
+          Nationalsången
+        </note>
+        <note xml:id="i-GViT8gARgYUHWt38nU1qTY">
+          Grande Marche
+        </note>
+        <note xml:id="i-EabqdwYrgsmcAbgfqnW9Fc">
+          Riksplan:
+        </note>
+        <note xml:id="i-5X7F22QknERftbL4kXFb4W">
+          Trapphallen:
+        </note>
+        <note xml:id="i-SWhgkSuTar5gFELhwMCsii">
+          Plenisalen:
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

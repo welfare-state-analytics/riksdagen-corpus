@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 201011</title>
+        <title>Protokoll</title>
       </titleStmt>
       <editionStmt>
         <edition>0.4.2</edition>
@@ -13,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 201011</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -25,157 +25,130 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <editionStmt>
-          <edition>0.4.2</edition>
-        </editionStmt>
-        <publicationStmt>
-          <authority>National Library of Sweden and the WESTAC project</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some data curation was done. It is documented in input/curation/instances</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-201011--119</head>
-          <docDate when="2011-06-20">2011-06-20</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection" xml:id="i-4DbaDHL7AWGXBA2i1dVxbD">
-          <pb facs="http://data.riksdagen.se/fil/7CE0D2F3-3064-4AA2-A699-4C08656C84B1#page=1"/>
-          <note xml:id="i-NbZztND9oz9mbdYwMbKdey">
-            Riksdagens protokoll
-          </note>
-          <note xml:id="i-VKDoHjXFvuruKiHfWwMmXh">
-            2010/11:119
-          </note>
-          <note xml:id="i-3mXBG7EFCS37bh1xiZE26E">
-            Måndagen den 20 juni
-          </note>
-          <note xml:id="i-Efpj1Spdd1rYieNoimTaFB">
-            Kl. 13:30 - 13:31
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-VgeyZ8d3e36V5PHLpZoSQd">
-          <note xml:id="i-TVJ56nZJKLSU1yVzUTFK55">
-            1 § Justering av protokoll
-          </note>
-          <note xml:id="i-BJEz8MjTWMKpH1Bp4r1w2L">
-            Justerades protokollen för den 13 och 14 juni.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-15YfZxAS8ApNm55JeSTDwr">
-          <note xml:id="i-9CNwLfrP2h8GpViuznzJva">
-            2 § Anmälan om inkommen granskningsrapport från Riksrevisionen
-          </note>
-          <u xml:id="i-GdK6Ta521AinEZTwB9N4dV" who="unknown">
-            <seg xml:id="i-H1Hvdu28rCfscje8fy854H">
-              Talmannen anmälde att följande granskningsrapport inkommit från
-              Riksrevisionen:
-            </seg>
-          </u>
-        </div>
-        <div type="commentSection" xml:id="i-KoY4sRt2oxmyrmc6E9Rspx">
-          <note xml:id="i-EF2NFDTYc4AXQYq8PsWZMh">
-            3 § Anmälan om inkommet protokollsutdrag från utskott
-          </note>
-          <note xml:id="i-2ySV8pWWpYUNjhwkBaEnUi">
-            Talmannen anmälde att ett utdrag ur prot. 2010/11:40 för torsdagen
-            den 16 juni i ärende om subsidiaritetsprövning av EU-förslag inkommit
-            från näringsutskottet.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-9oHY8iBMxo73g49mm1dWJB">
-          <note xml:id="i-WeHdz5hrjTjrgNm1R2ENUJ">
-            4 § Hänvisning av ärenden till utskott
-          </note>
-          <note xml:id="i-XhF6Md56xiGCJWn6jqyJ1Z">
-            Föredrogs och hänvisades
-          </note>
-          <note xml:id="i-LpfswENLXLgzW7EeWXsP7T">
-            den 12 september
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-U3rtW4NaeuFJTrksAmRLg6">
-          <note xml:id="i-NBLqFkgHoC23r4oAasbZpg">
-            5 § Förnyad bordläggning
-          </note>
-          <note xml:id="i-KjP4XR1DWTXepaSVw9NVxm">
-            Föredrogs och bordlades åter
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-Tp2ovCq7r5srbDNz1tAetT">
-          <note xml:id="i-8EiDeXnFc7GeSTQ8vuiKRi">
-            6 § Bordläggning
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/7CE0D2F3-3064-4AA2-A699-4C08656C84B1#page=2"/>
-          <note xml:id="i-UJjAZXwK1NwjFo8roP7NDA">
-            Anmäldes och bordlades
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-CDCvba4yzBTY6px8m8CdUt">
-          <note xml:id="i-9RAwrvZFaNbpMYvbSr1dur">
-            7 § Anmälan om frågor för skriftliga svar
-          </note>
-          <note xml:id="i-HZw9qQzEEP7qzHaJznaYmw">
-            Anmäldes att följande frågor för skriftliga svar framställts
-          </note>
-          <note xml:id="i-9ijxjZzR1PABUhuwjGwuWz">
-            den 20 juni
-          </note>
-          <note xml:id="i-AxQHYNFHhitHrJCkUmGHFw">
-            Fredrik Lundh Sammeli
-          </note>
-          <note xml:id="i-JzS5eFxLo1vaGnD9roZPFo">
-            Hannah Bergstedt
-          </note>
-          <note xml:id="i-DTekovqxmfzNpqkkiFwBHQ">
-            Hannah Bergstedt
-          </note>
-          <note xml:id="i-8wHp9NzhWAGF4eePSAGiiN">
-            Christer Adelsbo
-          </note>
-          <note xml:id="i-E87EX9fWfyBiE8Zw9x7yth">
-            Mikael Oscarsson
-          </note>
-          <u xml:id="i-AeN1bS3K6jmvaR6RgkEKuW" who="unknown">
-            <seg xml:id="i-TpSJVEkf2PUrqFSdqsHkFZ">
-              Frågorna redovisas i bilaga som fogats till riksdagens snabbprotokoll
-              tisdagen den 28 juni.
-            </seg>
-          </u>
-        </div>
-        <div type="commentSection" xml:id="i-Te7a71izu3PMsJ7Y6GrFp8">
-          <note xml:id="i-KCsUdZsj78Ya4U5TYYNndh">
-            8 § Kammaren åtskildes kl. 13.31.
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/7CE0D2F3-3064-4AA2-A699-4C08656C84B1#page=3"/>
-          <note xml:id="i-Syu4nDsqaGvW3BhfS1cAUU">
-            Förhandlingarna leddes av talmannen.
-          </note>
-          <note xml:id="i-2wXsadtFQqJCDn3T2u89ao">
-            /Eva-Lena Ekman
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-201011--119</head>
+        <docDate when="2011-06-20">2011-06-20</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-4DbaDHL7AWGXBA2i1dVxbD">
+        <pb facs="http://data.riksdagen.se/fil/7CE0D2F3-3064-4AA2-A699-4C08656C84B1#page=1"/>
+        <note xml:id="i-NbZztND9oz9mbdYwMbKdey">
+          Riksdagens protokoll
+        </note>
+        <note xml:id="i-VKDoHjXFvuruKiHfWwMmXh">
+          2010/11:119
+        </note>
+        <note xml:id="i-3mXBG7EFCS37bh1xiZE26E">
+          Måndagen den 20 juni
+        </note>
+        <note xml:id="i-Efpj1Spdd1rYieNoimTaFB">
+          Kl. 13:30 - 13:31
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-VgeyZ8d3e36V5PHLpZoSQd">
+        <note xml:id="i-TVJ56nZJKLSU1yVzUTFK55">
+          1 § Justering av protokoll
+        </note>
+        <note xml:id="i-BJEz8MjTWMKpH1Bp4r1w2L">
+          Justerades protokollen för den 13 och 14 juni.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-15YfZxAS8ApNm55JeSTDwr">
+        <note xml:id="i-9CNwLfrP2h8GpViuznzJva">
+          2 § Anmälan om inkommen granskningsrapport från Riksrevisionen
+        </note>
+        <u xml:id="i-GdK6Ta521AinEZTwB9N4dV" who="unknown">
+          <seg xml:id="i-H1Hvdu28rCfscje8fy854H">
+            Talmannen anmälde att följande granskningsrapport inkommit från
+            Riksrevisionen:
+          </seg>
+        </u>
+      </div>
+      <div type="commentSection" xml:id="i-KoY4sRt2oxmyrmc6E9Rspx">
+        <note xml:id="i-EF2NFDTYc4AXQYq8PsWZMh">
+          3 § Anmälan om inkommet protokollsutdrag från utskott
+        </note>
+        <note xml:id="i-2ySV8pWWpYUNjhwkBaEnUi">
+          Talmannen anmälde att ett utdrag ur prot. 2010/11:40 för torsdagen
+          den 16 juni i ärende om subsidiaritetsprövning av EU-förslag inkommit
+          från näringsutskottet.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-9oHY8iBMxo73g49mm1dWJB">
+        <note xml:id="i-WeHdz5hrjTjrgNm1R2ENUJ">
+          4 § Hänvisning av ärenden till utskott
+        </note>
+        <note xml:id="i-XhF6Md56xiGCJWn6jqyJ1Z">
+          Föredrogs och hänvisades
+        </note>
+        <note xml:id="i-LpfswENLXLgzW7EeWXsP7T">
+          den 12 september
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-U3rtW4NaeuFJTrksAmRLg6">
+        <note xml:id="i-NBLqFkgHoC23r4oAasbZpg">
+          5 § Förnyad bordläggning
+        </note>
+        <note xml:id="i-KjP4XR1DWTXepaSVw9NVxm">
+          Föredrogs och bordlades åter
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-Tp2ovCq7r5srbDNz1tAetT">
+        <note xml:id="i-8EiDeXnFc7GeSTQ8vuiKRi">
+          6 § Bordläggning
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/7CE0D2F3-3064-4AA2-A699-4C08656C84B1#page=2"/>
+        <note xml:id="i-UJjAZXwK1NwjFo8roP7NDA">
+          Anmäldes och bordlades
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-CDCvba4yzBTY6px8m8CdUt">
+        <note xml:id="i-9RAwrvZFaNbpMYvbSr1dur">
+          7 § Anmälan om frågor för skriftliga svar
+        </note>
+        <note xml:id="i-HZw9qQzEEP7qzHaJznaYmw">
+          Anmäldes att följande frågor för skriftliga svar framställts
+        </note>
+        <note xml:id="i-9ijxjZzR1PABUhuwjGwuWz">
+          den 20 juni
+        </note>
+        <note xml:id="i-AxQHYNFHhitHrJCkUmGHFw">
+          Fredrik Lundh Sammeli
+        </note>
+        <note xml:id="i-JzS5eFxLo1vaGnD9roZPFo">
+          Hannah Bergstedt
+        </note>
+        <note xml:id="i-DTekovqxmfzNpqkkiFwBHQ">
+          Hannah Bergstedt
+        </note>
+        <note xml:id="i-8wHp9NzhWAGF4eePSAGiiN">
+          Christer Adelsbo
+        </note>
+        <note xml:id="i-E87EX9fWfyBiE8Zw9x7yth">
+          Mikael Oscarsson
+        </note>
+        <u xml:id="i-AeN1bS3K6jmvaR6RgkEKuW" who="unknown">
+          <seg xml:id="i-TpSJVEkf2PUrqFSdqsHkFZ">
+            Frågorna redovisas i bilaga som fogats till riksdagens snabbprotokoll
+            tisdagen den 28 juni.
+          </seg>
+        </u>
+      </div>
+      <div type="commentSection" xml:id="i-Te7a71izu3PMsJ7Y6GrFp8">
+        <note xml:id="i-KCsUdZsj78Ya4U5TYYNndh">
+          8 § Kammaren åtskildes kl. 13.31.
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/7CE0D2F3-3064-4AA2-A699-4C08656C84B1#page=3"/>
+        <note xml:id="i-Syu4nDsqaGvW3BhfS1cAUU">
+          Förhandlingarna leddes av talmannen.
+        </note>
+        <note xml:id="i-2wXsadtFQqJCDn3T2u89ao">
+          /Eva-Lena Ekman
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

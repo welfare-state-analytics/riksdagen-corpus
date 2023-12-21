@@ -70,7 +70,7 @@ def infer_metadata(filename):
                 # Protocol ids of format 197879 have two years, eg. 1978 and 1979
                 if s[4:6].isdigit():
                     metadata["secondary_year"] = year + 1
-                    metadata["sitting"] += f"/{s[4:6]}"
+                    metadata["sitting"] += f"{s[4:6]}"
 
     # Chamber
     metadata["chamber"] = "Enkammarriksdagen"
@@ -156,6 +156,8 @@ def protocol_iterators(corpus_root, document_type=None, start=None, end=None):
         if start is not None and end is not None:
             metadata = infer_metadata(protocol.name)
             year = metadata["year"]
+            if not year:
+                continue
             secondary_year = metadata.get("secondary_year", year)
             if start <= year and end >= secondary_year:
                 yield str(protocol.relative_to("."))

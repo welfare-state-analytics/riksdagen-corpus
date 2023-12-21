@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1926</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1926</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,897 +25,870 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1926--fk--2</head>
-          <docDate when="1926-01-11">1926-01-11</docDate>
-          <docDate when="1926-01-15">1926-01-15</docDate>
-          <docDate when="1926-01-16">1926-01-16</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--2/prot_1926__fk__2-000.jp2/_view"/>
-          <note xml:id="i-Jx8K9R48yttb9DJdFw8Mex">
-            RIKSDAGENS PROTOKOLL.
-          </note>
-          <note xml:id="i-J9XDcdYWSfpK39nFxkctKZ">
-            1926. Första kammaren. Nr 2.
-          </note>
-          <note type="date" xml:id="i-8FYAvs15jHdwZXXiukDCGJ">
-            Fredagen den 15 januari.
-          </note>
-          <note xml:id="i-SMestJ4FMktWdvAs3JewZB">
-            Kammaren sammanträdde kl. 11 f. m.
-          </note>
-          <note type="speaker" xml:id="i-TFrcs2Useo1vbvb8jVF2vP">
-            Herr talmannen yttrade:
-          </note>
-          <u who="Q5786143" xml:id="i-0c108c81bc42a6f4-0" next="i-0c108c81bc42a6f4-1">
-            <seg xml:id="i-HgwXmFiX8rj9ysLvVsPsez">
-              Innan valen taga sin början, skall jag be att få för kammarens
-              ledamöter uppläsa första paragrafen av Kungl. Maj:ts nådiga stadga
-              angående val till riksdagens utskott den 26 maj 1909:
-            </seg>
-          </u>
-          <note xml:id="i-KKASV34FeKri5RG8si983Z">
-            » Val av ledamöter i utskott skall förrättas med valsedlar, å
-            vilka före namnen utsatts partibeteckning (partinamn eller annan
-            beteckning i och för viss grupp av riksdagsmän eller för viss
-            meningsriktning), men vilka i övrigt äro omärkta.
-          </note>
-          <note xml:id="i-2rbnDuyEMB11ZNkGxst9h4">
-            Namnen skola å valsedeln uppföras i en följd, det ena under det
-            andra.
-          </note>
-          <u who="Q5786143" xml:id="i-0c108c81bc42a6f4-1" prev="i-0c108c81bc42a6f4-0" next="i-L1rB1oM97xM4dn96fh9SWf">
-            <seg xml:id="i-LdkJzkQiRLp4UrFeW3S3T8">
-              Valsedlarna skola för att bliva gällande vara enkla, slutna,
-              hoprullade och fria från överstrykningar. Sedel må ej upptaga
-              flera, men väl färre namn än det antal personer valet avser. Där
-              något namn å sedeln är tvetydigt, gälle den dock för övriga namn.»
-            </seg>
-            <seg xml:id="i-QCjDTZ7zABdiSnnQftggb7">
-              Jag ber att få noga inskärpa, att man icke får stryka över ett
-              namn och sätta ett annat i stället.
-            </seg>
-            <seg xml:id="i-U8mJ81iiJpYtynzGCSi3BJ">
-              Likaså ber jag att efter vanligheten få inskärpa att, innan valsedeln
-              avlämnas, den s. k. rubriken borttages, emedan eljest valsedeln
-              kommer att kasseras.
-            </seg>
-            <seg xml:id="i-GYhGjvs1xKuSbZEerhefzq">
-              I övrigt ber jag att på det enträgnaste få uppmana herrarna att
-              taga rätta valsedlar.
-            </seg>
-          </u>
-          <note xml:id="i-VoPjVTQqyBeCrj6DUg64Lu">
-            Företogs val av tio ledamöter i konstitutionsutskottet. Därvid
-            avlämnades 126 godkända valsedlar, alla med partibeteckning »den
-            gemensamma listan» och alla utom en upptagande namnen på följande
-            personer i denna ordning:
-          </note>
-          <note xml:id="i-A8hgZH6P6iWKvE9P598KLN">
-            herr Strömberg, » von Geijer, » Bergström, David, » Thulin, »
-            Dahl, P. A., » Reuterskiöld, » Ljunggren, August, » Hansson, G.
-            W., » Stendahl, » Almkvist.
-          </note>
-          <note xml:id="i-KhkdFdrUNhZCMmp4RnERDW">
-            Dessa personer hade alltså utsetts till ledamöter i utskottet.
-          </note>
-          <note xml:id="i-VQWxBpRiLXA1BZN56VkUNM">
-            Första kammarens protokoll 1926. Nr 2. 1
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--2/prot_1926__fk__2-001.jp2/_view"/>
-          <note xml:id="i-58FBdsD6C8oeRav6wgwWQD">
-            Nr 2. 2
-          </note>
-          <note type="date" xml:id="i-WwQUXqgtWD1qqFWg411KXo">
-            Fredagen den 15 januari.
-          </note>
-          <note xml:id="i-DoL6v5rAmNnQReiKs4qZDU">
-            Anställdes val av tolv ledamöter i statsutskottet. Därvid avlämnades
-            119 godkända valsedlar, alla med partibeteckning »den gemensamma
-            listan» och alla utom en upptagande namnen på följande personer
-            i denna ordning:
-          </note>
-          <note xml:id="i-4DDH1hngwZDkgj2to2mem5">
-            herr Lindblad,
-          </note>
-          <u xml:id="i-L1rB1oM97xM4dn96fh9SWf" prev="i-0c108c81bc42a6f4-1" who="Q5786143" next="i-RFTQ1MQ2XUm6ViMuyfTTJp">
-            <seg xml:id="i-Vt54yTuGyrGuN6N4D5WQ8N">
-              »” » » » » » » » » » »”
-            </seg>
-          </u>
-          <note xml:id="i-NTTihJqnKx1yrnJ4KoFJYX">
-            Vennersten, Kvarnzelius, Olsson, Oscar, Widell,
-          </note>
-          <note xml:id="i-4VmLMvL7EzqjTGq8rMRgB8">
-            Nilsson i Gränebo, Ekman, C. G., Nilsson, Johan, i Malmö, Bergqvist,
-          </note>
-          <note xml:id="i-TkEKycNNX6MaxMM41b8Xik">
-            Rosén,
-          </note>
-          <note xml:id="i-4zHRuXh58FqTgn5bmV36rK">
-            Hallin,
-          </note>
-          <note xml:id="i-X5JwBwVRf4ZYMJcpdooJub">
-            Walles.
-          </note>
-          <note xml:id="i-UepWpbDc42cNQ7TazfuYZQ">
-            Dessa personer hade alltså utsetts till ledamöter i utskottet.
-          </note>
-          <note xml:id="i-U5wkVGP2kpWwM5acDu6SMX">
-            Företogs val av tio ledamöter i bevillningsutskottet. Därvid
-            avlämnades 102 godkända valsedlar, alla med partibeteckning »den
-            gemensamma listan» och upptagande namnen på följande personer
-            i denna ordning:
-          </note>
-          <note xml:id="i-D7MxqTUKXtnHyh7vvtfzsU">
-            herr Nilsson, Gustaf, i Kristianstad,
-          </note>
-          <note xml:id="i-TPA8CYFgQ4tw6V6XM4KJp9">
-            » » 2» » »” » » » »
-          </note>
-          <note xml:id="i-SqrqQ9AXcjevXaYSUHiXkJ">
-            Nilsson, Johan, i Kristianstad, Rune,
-          </note>
-          <note xml:id="i-4kqQV8FdbbDBpG7syudLjr">
-            Bärg, A. J.,
-          </note>
-          <note xml:id="i-R2EMgf159hc5qhH9TTHd65">
-            Boman,
-          </note>
-          <note xml:id="i-GfQAGX7XqdfAkB4CrbuER5">
-            Wohlin,
-          </note>
-          <note xml:id="i-Tezgu1V3bYdv4f1a3ADmkC">
-            Pers,
-          </note>
-          <note xml:id="i-MAEARo4LasGpAGEmBY7bXH">
-            Björnsson,
-          </note>
-          <note xml:id="i-PQ2WPPbHvQkyJYrWyFR45V">
-            Borell,
-          </note>
-          <note xml:id="i-JqPRMkzQgeqozXonZFe2wD">
-            Bergman, Johan.
-          </note>
-          <note xml:id="i-Q2nCX9tiJLVy98VfiQE2xY">
-            Dessa personer hade alltså utsetts till ledamöter i utskottet.
-          </note>
-          <note xml:id="i-PKvV699EmRrQod8q4hxnob">
-            Anställdes val av åtta ledamöter i bankoutskottet. Därvid avlämnades
-            87 godkända valsedlar, alla med partibeteckning »den gemensamma
-            listan» och upptagande namnen på följande personer i denna ordning:
-          </note>
-          <note xml:id="i-S3Ci79mS831Wvnmi7xGfqc">
-            herr Lindley,
-          </note>
-          <u xml:id="i-RFTQ1MQ2XUm6ViMuyfTTJp" prev="i-L1rB1oM97xM4dn96fh9SWf" who="Q5786143" next="i-5kfyLhUnvit2bK3sDoaEhD">
-            <seg xml:id="i-A1SVpXhRT5UkRccYFDze6x">
-              » » » » » » »
-            </seg>
-          </u>
-          <note xml:id="i-6qM3qUGiKgNneS1V17GkKt">
-            Gustafsson i Stensholm, Pettersson i Olovstorp,
-          </note>
-          <note xml:id="i-J9MitTSazRurz8NvjLjUs6">
-            Dalberg,
-          </note>
-          <note xml:id="i-5gS5XHJWoRYKXh7NJY3Csc">
-            Enhörning,
-          </note>
-          <note xml:id="i-U9Fd9WCUYb5W3B5H53g7m9">
-            Johansson i Friggeråker, Bondeson,
-          </note>
-          <note xml:id="i-C7L9LGCDKpATmnqvSbSLri">
-            Berge.
-          </note>
-          <note xml:id="i-ExmAomp5hvyq1n7MXTmhgi">
-            Dessa personer hade alltså utsetts till ledamöter i utskottet.
-          </note>
-          <note xml:id="i-S7ypu2hi24JNzTNRnscKKt">
-            Företogs val av åtta ledamöter i första lagutskottet. Därvid
-            avlämnades 82 godkända valsedlar, alla med partibeteckning »den
-            gemensamma listan» och upptagande namnen på följande personer
-            i denna ordning:
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--2/prot_1926__fk__2-002.jp2/_view"/>
-          <note type="date" xml:id="i-GbbQ99JVe8qmAe7Dx5HyfG">
-            Fredagen den 15 januari. 3 Nr 2,
-          </note>
-          <note xml:id="i-7XxnmPSo5igYn7K7kR6ZV7">
-            herr Larsson, Jacob, » Hederstierna, » Larson, Edward, » Åkerman,
-            » Rogberg, » "Tjällgren, » Lyberg, » Klefbeck.
-          </note>
-          <note xml:id="i-7QmoARyzGzgM5xydYXCGCj">
-            Dessa personer hade alltså utsetts till ledamöter i utskottet.
-          </note>
-          <note xml:id="i-NxfpA3B5vcM8tMZWqur958">
-            Anställdes val av åtta ledamöter i andra lagutskottet. Därvid
-            avlämnades 75 godkända valsedlar, alla med partibeteckning »den
-            gemensamma listan» och upptagande namnen på följande personer
-            i denna ordning:
-          </note>
-          <note xml:id="i-Asz5ozMGFMtC7eviVJtVJf">
-            herr Linder,
-          </note>
-          <note xml:id="i-6UNxNgrqFgZMkK5hYxBmrT">
-            » von Sydow,
-          </note>
-          <note xml:id="i-5bcnd1CFYjoimuWRf4t4NE">
-            » von Koch,
-          </note>
-          <note xml:id="i-PoefB6KFu8WiApwmFJHVHz">
-            » Hansson, Sigfrid, greve Spens, herr Westman,
-          </note>
-          <note xml:id="i-2ukvPjgtmm7fyFMVX24bZi">
-            » von Stockenström,
-          </note>
-          <note xml:id="i-LYRUXy3eAL6xgayfNS2NRb">
-            » Thorberg. Dessa personer hade alltså utsetts till ledamöter
-            i utskottet.
-          </note>
-          <note xml:id="i-ArJb7RW2ZWovtzK6U1XYyz">
-            Företogs val av åtta ledamöter i jordbruksutskottet. Därvid avlämnades
-            80 godkända valsedlar, alla med partibeteckning »den gemensamma
-            listan» och upptagande namnen på följande personer i denna ordning:
-          </note>
-          <note xml:id="i-PcWNthLrgKLhQv9LLx7DhG">
-            herr Nilsson i Kabbarp, » Sederholm, » Hellström, » Norin, »
-            Boberg, ' » Elisson, » Ingeström,
-          </note>
-          <note xml:id="i-E9b3PdGGuvw5y2AHKUC2ap">
-            » Lundell. Dessa personer hade alltså utsetts till ledamöter
-            i utskottet.
-          </note>
-          <note xml:id="i-PdgF6pJucpTdAgy7dfKitQ">
-            Anställdes val av åtta ledamöter i utrikesnämnden. Därvid avlämnades
-            80 godkända valsedlar, alla med partibeteckning »den gemensamma
-            listan» och upptagande namn på följande personer i denna ordning:
-          </note>
-          <note xml:id="i-4qfAqpa4dFdsg7ftnEXYeb">
-            herr Trygger, » Bärg, A. J.,
-          </note>
-          <note xml:id="i-7YwfFMbe79weAjBjSFPMZ1">
-            » Thorberg,
-          </note>
-          <note xml:id="i-CAPrUR3QH7fpbsAoC9Ymx7">
-            » Swartz,
-          </note>
-          <note xml:id="i-U4JJraNKnwrAT9VC1aEpyg">
-            » Nilsson i Gränebo,
-          </note>
-          <note xml:id="i-Q6NbLDwuyQ8b5W2WtsQCNL">
-            » Bergström, David,
-          </note>
-          <note xml:id="i-YJ2q9Bu7NRtcBmf9kyt5bM">
-            » Nilsson, Gustaf, i Kristianstad.
-          </note>
-          <note xml:id="i-5sGuQ29sHqytJgbobxg5p6">
-            Dessa personer hade alltså utsetts till ledamöter i nämnden.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--2/prot_1926__fk__2-003.jp2/_view"/>
-          <note xml:id="i-KpL6EAEVF3RYzZQRwUBvhb">
-            Nr 2.
-          </note>
-          <note type="date" xml:id="i-YGC4rtKJoBm61gB1z7HK6T">
-            4 Fredagen den 15 januari.
-          </note>
-          <note xml:id="i-NTyC7xh1aGLCaCeZP1b9Tx">
-            På framställning av herr talmannen beslöts, att riksdagens kanslideputerade
-            skulle genom utdrag av protokollet underrättas om kammarens val
-            av ledamöter och suppleanter i utrikesnämnden samt anmodas låta
-            uppsätta och till kamrarna ingiva förslag till den skrivelse i
-            ämnet, som borde till Konungen avlåtas.
-          </note>
-          <note xml:id="i-53ojerj1DWjGbFtYEUC2kD">
-            Föredrogs och hänvisades till bankoutskottet herr Reuterskiölds
-            motion, nr 3, om fortsatt utgivande av verket Främmande grundlagar.
-          </note>
-          <u xml:id="i-5kfyLhUnvit2bK3sDoaEhD" prev="i-RFTQ1MQ2XUm6ViMuyfTTJp" who="Q5786143">
-            <seg xml:id="i-GoY51UXF8Wu3MLjDrtBs53">
-              Herr talmannen tillkännagav, att han och de ledamöter, som fått
-              i uppdrag att jämte talmannen tillsätta kammarens kansli och vaktbetjäning,
-              ansett nödigt, att nu anställdes i kansliet en notarie (stomnotarie),
-              tre förste stenografer, fjorton stenografer, en förste kanslist,
-              en registrator och sex kanslister samt såsom betjäning en förste
-              vaktmästare och elva vaktmästare, däribland en för utdelning av
-              postförsändelser m. m., med skyldighet för betjäningen att, i
-              den mån så erfordrades och ske kunde, tjänstgöra även på annat
-              håll inom riksdagen, och hemställde herr talmannen, huruvida kammaren
-              godkände, att nämnda personal tillsvidare anställdes hos kammaren.
-            </seg>
-          </u>
-          <note xml:id="i-KGVZFHiVhZActr8UoawhVT">
-            Härtill svarades ja.
-          </note>
-          <note xml:id="i-WtEBgSW9SrAFrg6gWNg5m3">
-            Därefter tillkännagavs, att i enlighet härmed antagits såsom
-            notarie (stomnotarie) : filosofie magistern L. Wistrand; förste
-            stenografer: arkivarien i generalpoststyrelsen P. G. Widegren,
-            revisorn i riksräkenskapsverket E. Lindström och E. Elfner; stenografer:
-            kanslisekreteraren friherre O. T. Hermelin, f. d. sekreteraren
-            i arméförvaltningen A. Göransson, revisorn i riksräkenskapsverket
-            K. Norén, A. W. Fredén, förste assistenten i telegrafverket E.
-            O. Schalin, A. Lundman, amanuensen i kammarkollegiet H. Eriksson,
-            fiskalen i kammarkollegiet J. H. Wallin, G. Torbiörn, banktjänstemannen
-            T. B. Carlson, redaktören N. Holmberg, sekreteraren i Sveriges
-            allmänna exportförening D. Belin, förste amanuensen i kammarrätten
-            F. E. O. Hedelius och e. o. hovrättsnotarien F. Thorvall; förste
-            kanslist: f. d. revisorn i domänstyrelsen H. J. Modigh; registrator:
-            förste kanslisekreterarer I. Myrberg; kanslister: sekreteraren
-            i telegrafstyrelsen F. W. Funch, juris doktorn H. af Trolle, e.
-            o. kammarskrivaren i tullverket E. A. Carlén, postassistenten
-            C. M. W. Stenwall, e. o. hovrättsnotarien G. A. von Krusenstjerna
-            och juris studeranden T. Vide; förste vaktmästare: Carl O. Eriksson;
-            vaktmästare: W. Willberg, K. J. G. Carlsson, Chr. Jensen, G. Tillman,
-            J. E. Lundvall, G. Henrik Eriksson, N. T. Karlkvist, M. Jonas
-            Eriesson, Erik A. Andersson, Sven Andersson och S. Beckman. Åt
-            Jensen hade tillsvidare uppdragits att ombesörja utdelning av
-            postförsändelser till kammarens ledamöter m. m.
-          </note>
-          <note type="speaker" xml:id="i-XfFizUv8AaGGPhPBq6ProH">
-            Herr statsrådet Wigforss avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-VCkdpasY8k9srYJq8Bu1qU">
-            ts propositioner:
-          </note>
-          <note xml:id="i-97GwLt4zVoHtuJ9t3idmZ3">
-            nr 13, angående ändrad lydelse av rubrikerna 159 och 160 för
-            oraffinerat socker i gällande tulltaxa;
-          </note>
-          <note xml:id="i-eRkhSQ3CPUry7YVj79XkC">
-            nr 14, angående pension åt förste byråinspektören i bankoch fondinspektionen
-            P. A. Bolldéns änka och son;
-          </note>
-          <note xml:id="i-WBcCFJ7oTDXSWepvzetFog">
-            nr 15, angående användande av överskott i Djurgårdskassan till
-            säkerställande under år 1927 av Ulriksdals kungsgårds förvaltning
-            och drift; samt
-          </note>
-          <note xml:id="i-C6FtbpYgKSosxuAAoHdgYh">
-            nr 16, angående efterskänkande av återbetalningsskyldighet beträffande
-            oriktigt utbetalda ersättningar för åt tulltjänstemän lämnad tandvård.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--2/prot_1926__fk__2-004.jp2/_view"/>
-          <note type="date" xml:id="i-Ge1xgtSCEHKzySpBU3wUDf">
-            Fredagen den 15 januari. 5
-          </note>
-          <note xml:id="i-SdavLwL4GtdJA8DiqVaRsQ">
-            Greve Wachtmeister avlämnade nedannämnda av honom och herr Clemedtson
-            undertecknade motioner:
-          </note>
-          <note xml:id="i-NqEqs8KRoiE1NT3PACVzk5">
-            nr 7, angående organisationen av det för Karlskrona fästning
-            avsedda de tachementet ur Kronobergs regemente;
-          </note>
-          <note xml:id="i-5D5Kcv8HpaKNJe3FL72fhQ">
-            nr 8, angående organisationen av den för Vaxholms fästning avsedda
-            kontingenten av stampergsonal och värnpliktiga m. fl.; samt
-          </note>
-          <note xml:id="i-M21rKSaELHbYinrRAU7iPt">
-            nr I, om förbättring i pensionsvillkoren för vissa förmän och
-            arbetare vid flottans varv m. fl.
-          </note>
-          <note xml:id="i-KcMnUadR9pmbEQnmeUMmDB">
-            Dessa motioner hänvisades, nr 7 och 8 till statsutskottet samt
-            nr 9 till bankoutskottet.
-          </note>
-          <note type="speaker" xml:id="i-KyCMRjw1fA1J3LuZ2ayVqy">
-            Herr Stendahl väckte nedannämnda motioner:
-          </note>
-          <note xml:id="i-3nXE9aWposUG6Kuh3vD832">
-            nr 10, med förslag till förordning angående utförselbevis för
-            råg och vete; samt
-          </note>
-          <note xml:id="i-XNwYzjqpucCk3EdyrSZ9Es">
-            nr 11, om sänkning av tullen å galoscher.
-          </note>
-          <note xml:id="i-SBX7NL6V1rqnqe9WzXDEYG">
-            Dessa motioner hänvisades till bevillningsutskottet.
-          </note>
-          <note xml:id="i-JoZSNUBAmWuoN2wriJCdU">
-            Herr Luterkort väckte en motion, nr 12, angående upphävande av
-            gällande bestämmelser om domboksrenovation.
-          </note>
-          <note xml:id="i-USqRJGBTqUaoJHmP7zA56c">
-            Denna motion hänvisades till behandling av lagutskott.
-          </note>
-          <note xml:id="i-T6vKLwhkcpKG6jLS3mQckx">
-            Avgåvos och hänvisades var för sig till ett tillfälligt utskott
-            nedannämnda motioner:
-          </note>
-          <note xml:id="i-SurjwmmiMVg6nWW5tuD9wT">
-            nr 13, av herr Luterkort, om rätt för befattningshavare i centrala
-            ämbetsverk att överklaga tilldelad disciplinär varning; och
-          </note>
-          <note xml:id="i-SV5ME3eifZqWjBD5urQg9c">
-            nr 14, av herr Svänsson, Eli, om skyldighet för länsstyrelserna
-            att lämna fortsättningsskolstyrelser, skolstyrelser och skolråd
-            behövligt ämbetsbiträde beträffande åtgärder gentemot tredskande
-            lärjungar och målsmän.
-          </note>
-          <note xml:id="i-QrsBantXV5ehawMVqxNxxE">
-            Vid föredragning av Kungl. Maj:ts denna dag avlämnade propositioner
-            hänvisades dessa, nr 13 till bevillningsutskottet, nr 14 till
-            bankoutskottet samt nr 15 och 16 till statsutskottet.
-          </note>
-          <note xml:id="i-FRdpUmJYDwzjaA5znRdjuq" type="speaker">
-            Herr förste vice talmannen erhöll på begäran ordet och yttrade:
-          </note>
-          <u who="Q5932922" xml:id="i-2U96PZcZLRZcFPMZWaq6uP">
-            <seg xml:id="i-BYAzZsbTbrehf12To2L31w">
-              Jag får hemställa, att kammaren måtte besluta, att Kungl. Maj:ts
-              proposition nr 1, angående statsverkets tillstånd och behov under
-              budgetåret 1926—1927, uppföres sist bland ärendena på morgondagens
-              föredragningslista.
-            </seg>
-          </u>
-          <note xml:id="i-GG7ZVhCtPZKypY3KNuhw9t">
-            Denna hemställan bifölls.
-          </note>
-          <note xml:id="i-KMNzdwkYikjokkYcnThMdR">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 12.15 på dagen.
-          </note>
-          <note xml:id="i-9m6bN9BLG8vCJqsX3Ff3i8">
-            In fidem G. H. Berggren.
-          </note>
-          <note xml:id="i-M2uBzvbdXpkq6tMv9cbMAW">
-            Nr 2,
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--2/prot_1926__fk__2-005.jp2/_view"/>
-          <note type="date" xml:id="i-XLb3JZM5o37Yi9aukpXVBD">
-            Ö Lördagen den 16 januari.
-          </note>
-          <note type="date" xml:id="i-MkwYRgNsfSgJ3jyJ7WfxYB">
-            Lördagen den 16 januari.
-          </note>
-          <note xml:id="i-7YNUYM3jtic1AFM3vk4mF5">
-            Kammaren sammanträdde kl. 11 f. m.
-          </note>
-          <note type="speaker" xml:id="i-Do5TjveMyMcDV4eh6kYTdu">
-            Herr statsrådet Larsson avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-9wQtKxYTs3xCdsHv2ugsLW">
-            ts propositioner:
-          </note>
-          <note xml:id="i-GWF7waYT4bakLsP2Ek6GYu">
-            nr 26, angående bestämmelser rörande de statens järnvägar, statens
-            vattenfallsverk, telegrafverket och postverket tillhöriga förnyelsefonder;
-            samt
-          </note>
-          <note xml:id="i-WCkEWrLHxBoCuEshEBWRmf">
-            nr 28, med förslag till lag om enskilda vägar.
-          </note>
-          <note type="speaker" xml:id="i-GzjU5kuEn4Ai9oACzNQzNv">
-            Herr statsrådet Linders avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-TmzFY8mATiP5wSb9YxzbvD">
-            ts propositioner:
-          </note>
-          <note xml:id="i-JCyCMzVR1Aopg5g1UxQ1zM">
-            nr 22, med förslag till lag om upplåtelse under åborätt av viss
-            jord m. m.;
-          </note>
-          <note xml:id="i-WD8Xt1gUk9tMRzsmHjy6Jd">
-            nr 23, med förslag till lag om ändrad lydelse av 13 kap. 13 $
-            giftermålsbalken m. m.;
-          </note>
-          <note xml:id="i-4AS4ja2bnnLYRyGZkUfuFm">
-            nr 24, angående vissa frågor rörande tillämpningen av föreslagen
-            lag om upplåtelse under åborätt av viss jord m. m.; samt
-          </note>
-          <note xml:id="i-9Jjhr8gTWPxWJoBGBdsg8g">
-            nr 25, angående försäljning av vissa kronoegendomar och upplåtande
-            av lägenheter från sådana egendomar.
-          </note>
-          <note xml:id="i-PMz6WQssMPcQfZUSE9hTWH">
-            Justerades protokollen för den 11, 12 och 14 innevarande månad.
-          </note>
-          <note xml:id="i-H9t68SXmZggBi6eSgeKqMf">
-            Föredrogs och hänvisades till statsutskottet riksdagens år 1925
-            församlade revisorers berättelse om verkställd granskning av statsverkets
-            jämte därtill hörande fonders tillstånd, styrelse och förvaltning
-            för tiden 1 juli 1924—30 juni 1925.
-          </note>
-          <note xml:id="i-6GvVKNSctrehgXzy5xazhz">
-            Företogs val av tretton suppleanter i konstitutionsutskottet.
-            Därvid avlämnades 102 godkända valsedlar, alla med partibeteckning
-            »den gemensamma listan» och upptagande namnen på följande personer
-            i denna ordning:
-          </note>
-          <note xml:id="i-FVtdY85uD8ki1FF2HfW348">
-            herr Norling, » Svensson i Kompersmåla, » Leander, » Tarsén,
-            . » Nilsson i Östrabo, » Gustafsson i Benestad, » Johansson i
-            Lövholmen,
-          </note>
-          <note xml:id="i-4xiELD99qWEuffoWtrH27U">
-            » Pauli, » Ljunglund, » Fehr,
-          </note>
-          <note xml:id="i-PDxqZWHqrGc8uezWChBPhn">
-            » Eriksson i Ljusdal, » Sundberg, » Österström.
-          </note>
-          <note xml:id="i-QArjAY8J8do5TsM3coDNmM">
-            Dessa personer hade alltså utsetts till suppleanter i utskottet.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--2/prot_1926__fk__2-006.jp2/_view"/>
-          <note type="date" xml:id="i-7Vjnj4iidv8XU7Br5XgsjQ">
-            Lördagen den 16 januari. 7
-          </note>
-          <note xml:id="i-NBHvcZZCQVNRmL94cBFo1v">
-            Anställdes val av femton suppleanter i statsutskottet. Därvid
-            avlämnades 85 godkända valsedlar, alla med partibeteckning »den
-            gemensamma listan» och upptagande namnen på följande personer
-            i denna ordning:
-          </note>
-          <note xml:id="i-Rs34phb4BoWP2wGYELRYne">
-            herr Asplund,
-          </note>
-          <note xml:id="i-XrJ61eba1hkHBNEQNVeAoZ">
-            » »
-          </note>
-          <note xml:id="i-TUWCKJn8sX7Y6mBNzjZ5WA">
-            2»
-          </note>
-          <note xml:id="i-MnzHzfaCVAmpCgJTqqnRXT">
-            Swartz,
-          </note>
-          <note xml:id="i-6XmNKCTi398sFUAWBZQY12">
-            Pålsson,
-          </note>
-          <note xml:id="i-L5b8E2abzXXUrk8QdXXSJv">
-            Bergström, P. A., Jeansson,
-          </note>
-          <note xml:id="i-SXpHMPs2gr86jftrnuc2kh">
-            Andersson i Eliantorp, Kobb,
-          </note>
-          <note xml:id="i-2xvaRhbq163DeSY3k9tZ9D">
-            Johansson i Hälsingborg, Rooth,
-          </note>
-          <note xml:id="i-QYLWmFbpaQVKiERQmCCFNb">
-            Carlsson i Gävle,
-          </note>
-          <note xml:id="i-YGdRCMWG9kmEuz4h4EhxwW">
-            Petrén, Alfred,
-          </note>
-          <note xml:id="i-KaDNbS6SYLfiGSaW83i1Vy">
-            Johansson i Fredrikslund, Pauli,
-          </note>
-          <note xml:id="i-GrT3zrHTqTAcfthKwQs3c2">
-            Hammarskjöld, Carl Gustaf, Nilsson, Alexander.
-          </note>
-          <note xml:id="i-TAhPWDS21aSk1PDrd44Fiq">
-            Dessa personer hade alltså utsetts till suppleanter i utskottet.
-          </note>
-          <note xml:id="i-5jTpVyQ1zPjqQCbEjBzv8i">
-            Företogs val av tretton suppleanter i bevillningsutskottet. Därvid
-            avlämnades 74 godkända valsedlar, alla med partibeteckning »den
-            gemensamma listan» och upptagande namnen på följande personer
-            i denna ordning:
-          </note>
-          <note xml:id="i-3o9jN5enXoXisvekfJga8P">
-            herr Björkman,
-          </note>
-          <note xml:id="i-2yBq9J3o2eh1TizizEi7ff">
-            » »” » » » » » » » » » »
-          </note>
-          <note xml:id="i-32VieKP241Up9Ut2nwLiXN">
-            Jönsson i Slätåker, Johansson i Hornsberg, Wahlmark, Andersson
-            i Hedsta, Ericson i Oberga, Svensson i Grindstorp, Åström,
-          </note>
-          <note xml:id="i-BVvPiig7x1Gttgvopsf27w">
-            Vrang,
-          </note>
-          <note xml:id="i-NyDdRRfXpQGVwBdrQj2heu">
-            Jonsson i Lycksele, Magnuson, Paul, Clemedtson, Holmgren, I.
-          </note>
-          <note xml:id="i-P4hzuMmDL2WwqpTkfqLeRg">
-            Dessa personer hade alltså utsetts till suppleanter i utskottet.
-          </note>
-          <note xml:id="i-PCDiMjfNNAPUQUPNgCcnVk">
-            Anställdes val av åtta suppleanter i bankoutskottet. Därvid avlämnades
-            908 godkända valsedlar, alla med partibeteckning »den gemensamma
-            listan» och upptagande namnen på följande personer i denna ordning:
-          </note>
-          <note xml:id="i-QBabTgLYExY4dFqSjejR36">
-            herr Ström,
-          </note>
-          <note xml:id="i-B8yCQZBMphysNibiEDkxLG">
-            » » »” » » » »
-          </note>
-          <note xml:id="i-4gMRPGGaxZiuF4SdfB3TVu">
-            Anderson i Hägelåkra, Abrahamsson, Östergren,
-          </note>
-          <note xml:id="i-TmvhRZoF5QrL53Vjzepjip">
-            Lindgren,
-          </note>
-          <note xml:id="i-6ERnkKZcK8zA7hvnkyvsNj">
-            Bodin,
-          </note>
-          <note xml:id="i-7nMNFNt3FzuFnsHYhd5J8s">
-            Carlsson i Gävle, Sandén.
-          </note>
-          <note xml:id="i-8cuEMuDKK21SLwoyP7kzLV">
-            Dessa personer hade alltså utsetts till suppleanter i utskottet.
-          </note>
-          <note xml:id="i-4oFo5TLLk6UDFMGtDvNUeD">
-            Nr 2,
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--2/prot_1926__fk__2-007.jp2/_view"/>
-          <note type="date" xml:id="i-V5uVkBsnFrSFP5yGxWY9zz">
-            8 Lördagen den 16 januari.
-          </note>
-          <note xml:id="i-3GXSpX1se9ag4w3XikTQ3K">
-            Företogs val av åtta suppleanter i första lagutskottet. Därvid
-            avlämnades 44 godkända valsedlar, alla med partibeteckning »den
-            gemensamma listan» och alla utom en upptagande namnen på följande
-            personer i denna ordning:
-          </note>
-          <note xml:id="i-Bdrd3UHuK9xYBfnDAWeJHE">
-            herr Sandegård,
-          </note>
-          <note xml:id="i-Vu5vzEYrMcL2jPckFLDjAy">
-            » Karlsson i Västerås, » Jonsson i Lycksele, » Berglund,
-          </note>
-          <note xml:id="i-RWymDhcedbtXfMYWemWeXm">
-            » Dahl, G.,
-          </note>
-          <note xml:id="i-6f6pDogHzA6B9TP5XxbwVK">
-            » Svenson i Eskhult, » Fehr,
-          </note>
-          <note xml:id="i-8U1rjHNQewPrSqPvw14N5Z">
-            » Julin.
-          </note>
-          <note xml:id="i-QvaMMBbkYTJsCT1Y7F2cxH">
-            Dessa personer hade alltså utsetts till suppleanter i utskottet.
-          </note>
-          <note xml:id="i-3J11gXA2vMEReqA45bR8Rw">
-            Anställdes val av elva suppleanter i andra lagutskottet. Därvid
-            avlämnades 48 godkända valsedlar, alla med partibeteckning »den
-            gemensamma listan» och upptagande namnen på följande personer
-            1 denna ordning:
-          </note>
-          <note xml:id="i-3RtKP2SLYjC4LLZJERKZ5j">
-            herr Petrén, Alfred,
-          </note>
-          <note xml:id="i-3ZNX8S7YuTn3zbsHx32wER">
-            » Frändén,
-          </note>
-          <note xml:id="i-Cx2GQ8mWFZZ4URX6UrVW3Y">
-            fröken Hesselgren,
-          </note>
-          <note xml:id="i-7KQJ4A8qA8qss9eUaGpZvd">
-            herr Lindhagen,
-          </note>
-          <note xml:id="i-5ymZnEKs5G7i3sHMnedxTb">
-            » Svensson i Kompersmåla, » Schedin,
-          </note>
-          <note xml:id="i-3g2FtqQQKYXdJmamLFCQ4o">
-            » Åkerberg,
-          </note>
-          <note xml:id="i-Kj2eABkQEWiKmDr9qbbKu9">
-            » Clemedtson,
-          </note>
-          <note xml:id="i-4vXpDD5rWymj8YaEe7Mheb">
-            » Andersson i Fältenborg, » Eriksson, Valfrid,
-          </note>
-          <note xml:id="i-Mdjg1XGJGsFmqxSFkzVKSZ">
-            » Luterkort.
-          </note>
-          <note xml:id="i-62d3GtHe7pwEA4GGis82p4">
-            Dessa personer hade alltså utsetts till suppleanter 1 utskottet.
-          </note>
-          <note xml:id="i-BeyqZ1Eifmza4ksidyLUXg">
-            Företogs val av åtta suppleanter i jordbruksutskottet. Därvid
-            avlämnades 40 godkända valsedlar, alla med partibeteckning »den
-            gemensamma listan» och upptagande namnen på följande personer
-            i denna ordning:
-          </note>
-          <note xml:id="i-F48LMiVpiT7TWdZAso16eM">
-            herr Eriksson i Ljusdal.
-          </note>
-          <note xml:id="i-MBmnfYAHCq5Q2kac1YYWNs">
-            greve Wachtmeister,
-          </note>
-          <note xml:id="i-3xn4TE99GTCv38hxo5QYPF">
-            herr Andersson i Fältenborg,
-          </note>
-          <note xml:id="i-G8GeW29oXM84BgbUmCWwei">
-            » Svänsson i Kalmar,
-          </note>
-          <note xml:id="i-SAGuPsDLcvdDSpAsKKuMEJ">
-            » Gabrielsson,
-          </note>
-          <note xml:id="i-M97JJF8QBYWkUbTfzVyUrq">
-            » Andersson i Arbrå,
-          </note>
-          <note xml:id="i-M2Pe9oLsNpRt8TxvGsUvCo">
-            » Karlsson i Gillberga, » Luterkort.
-          </note>
-          <note xml:id="i-5Pn7astqmvu2EoLJa6Vt3x">
-            Dessa personer hade alltså utsetts till suppleanter 1 utskottet.
-          </note>
-          <note xml:id="i-PQn9tvbFmqa9dwRWz4D56t">
-            Anställdes val av åtta suppleanter i utrikesnämnden. Därvid avlämnades
-            45 godkända valsedlar, alla med partibeteckning »den gemensamma
-            listan» och upptagande namnen på följande personer i denna ordning:
-          </note>
-          <note xml:id="i-MNSDscvCjwscXFTgje1nWp">
-            herr Olsson, Oscar,
-          </note>
-          <note xml:id="i-FP3U2HGfyFYrcuC1xMTdtg">
-            » Vennersten, » von Sneidern,
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--2/prot_1926__fk__2-008.jp2/_view"/>
-          <note xml:id="i-MA8P39whrrbrNrZvhayV9A">
-            9
-          </note>
-          <note type="date" xml:id="i-8SqzN8sYDn5zYdHju4PDQ7">
-            Lördagen den 16 januari. 9 Nr
-          </note>
-          <note xml:id="i-RSF6WhHH6M23YTADqRzScd">
-            herr Klefbeck,
-          </note>
-          <note xml:id="i-56eiDvxdWFEydj3a2pu5uR">
-            » Nilsson, Johan, i Kristianstad, » Tjällgren,
-          </note>
-          <note xml:id="i-FXFA3Z3hr2vLH5q6LXovdn">
-            » Rosén,
-          </note>
-          <note xml:id="i-5JPQHGgP9dCzhMwshzKbSs">
-            » Nilsson i Kabbarp.
-          </note>
-          <note xml:id="i-KRWbUp1Fx6jxToYLycA1mo">
-            Dessa personer hade alltså utsetts till suppleanter i nämnden.
-          </note>
-          <note xml:id="i-N9nobyZnd739omz8E3q1B">
-            Herr Frändén väckte en motion, nr 15. om förbud mot anordnande
-            utan polismyndighets tillstånd av demonstrationståg m. m. på allmän
-            plats å landsbygden.
-          </note>
-          <note xml:id="i-3EcfhxPGWYAquGG4LkLeEX">
-            Motionen blev på begäran bordlagd.
-          </note>
-          <note xml:id="i-KSuKVsXx8pHsLBD2S1D4dD">
-            Herr Nilsson, Petrus, avlämnade en av honom m. fl. undertecknad
-            motion, nr 16, om anslag för understödjande av Ölands elektrifiering.
-          </note>
-          <note xml:id="i-CmFp1YadjsKRrUmwXRxMMa">
-            Denna motion hänvisades till statsutskottet.
-          </note>
-          <note xml:id="i-5QxrE5oDTGUrTRPri8ksj4">
-            Herr Schedin avlämnade en av honom m. fl. undertecknad motion,
-            nr 17, om förlängt anstånd med ordnandet av de i 31 $ lagen om
-            fattigvården omförmälda anstalter.
-          </note>
-          <note xml:id="i-86YsHJEKkottBu6c9b5Hka">
-            Denna motion hänvisades till behandling av lagutskott.
-          </note>
-          <note xml:id="i-FDEWJDqduh6JAseCFEdApx" type="speaker">
-            Herr förste vice talmannen erhöll på begäran ordet och yttradet:
-          </note>
-          <u who="Q5932922" xml:id="i-CPycN5keLJQU4e3grFZQvw">
-            <seg xml:id="i-Pb9JKXN55hhpbBk1nuCdjK">
-              Jag får hemställa, att kammaren måtte besluta att, i likhet med
-              vad som vid föregående års riksdag var fallet, tillsätta två tillfälliga
-              utskott, vartdera med sju ledamöter och fyra suppleanter.
-            </seg>
-          </u>
-          <note xml:id="i-ANivu8SnyaaD7jj1ZEcytn">
-            Denna hemställan bifölls.
-          </note>
-          <note xml:id="i-4G9aZ6LDx8anbHJHPeghYw">
-            Herr talmannen föreslog, det kammaren ville besluta att vid sammanträde,
-            som komme att hållas onsdagen den 20 innevarande månad, företaga
-            val av ledamöter och suppleanter i de nu beslutade utskotten.
-          </note>
-          <note xml:id="i-Vj2t23hYN1TyFyG8kRQFjL">
-            Detta förslag antogs.
-          </note>
-          <note xml:id="i-DM55oKw67fxniD8C8JvLGK">
-            Upplästes en till kammaren inkommen handling av följande innehåll:
-            EK. Heymans
-          </note>
-          <note xml:id="i-DGt3CDP1avrZwnRTAbZgnK">
-            Att domaren i Kullings härad denna dag dels med stöd av 12 kap.
-            8 8 i lag OlssorsgRet alt
-          </note>
-          <note xml:id="i-UgaoU3n2jcjteh2Bsz2bVn">
-            om förmynderskap den 27 juni 1924 förordnat, att godsägaren Knut
-            Heyman, riksdags- Vårgårda, skall vara omyndig under tiden intill
-            dess Kullings häradsrätt mannakallet. meddelar utslag, dels ock
-            förordnat advokaten Fred. Holmgren i Göteborg att för samma tid
-            vara förmyndare för godsägaren Heyman; betygar
-          </note>
-          <note xml:id="i-DrjD3PdB7jTEcDXQnqHfXr">
-            Alingsås den 11 januari 1926.
-          </note>
-          <note xml:id="i-XkcejBrNeQoz3gsPD2Mxz1">
-            Av domareämbetet:
-          </note>
-          <note xml:id="i-5GLFpg6WWGph6TqQpGkndb">
-            M. Täcklind.
-          </note>
-          <note type="speaker" xml:id="i-4FnJjAZJqxQfMkb4d2FbbL">
-            Herr förste vice talmannen:
-          </note>
-          <note xml:id="i-Gk3cFzjGLqnYtEXR4pQKFL">
-            Av det nyss upplästa intyget framgår, att ledamoten av denna
-            kammare herr Heyman står under förmynderskap. Vid sådant förhållande
-            må han, jämlikt $ 26 riksdagsordningen, icke såsom riks-
-          </note>
-          <note xml:id="i-4ajmzRPnijZRRrExKTkWNQ">
-            Första kammarens protokoll 1926. Nr 2. 2
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--2/prot_1926__fk__2-009.jp2/_view"/>
-          <note type="date" xml:id="i-AtNgC1GTbHzyKKnwbjWJ5D">
-            Nr 2. 10 Lördagen den 16 januari.
-          </note>
-          <u xml:id="i-HyMBVBKzF3YKthVttDL3RZ" who="Q5932922">
-            <seg xml:id="i-WWt27uvuAPnNoWEcfjcdhM">
-              u dagsman godkännas. I anledning härav hemställer jag, att kammaren
-              måtte slöva med stöd av nämnda paragraf förklara herr Heyman obehörig
-              till riksdagsriksdags- mannakallets utövande samt att kammaren
-              måtte enligt $ 28 riksdagsordnin-
-            </seg>
-          </u>
-          <note xml:id="i-yfK2vGLKeNaqJiqkWNFmt">
-            mannakallet. gen därom göra anmälan till Konungen.
-          </note>
-          <note xml:id="i-DWmfrMTqEyHHxqULgTLh7r">
-            (Forts.) Vad herr förste vice talmannen sålunda hemställt bifölls,
-            varefter ett uppsatt förslag till skrivelse i ämnet till Konungen
-            upplästes och godkändes.
-          </note>
-          <note xml:id="i-HvoBWPvhgcpYbwoeEuauc1">
-            Efter föredragning av Kungl. Maj:ts denna dag avlämnade propositioner
-            blevo propositionerna nr 22 och 24 på begäran bordlagda, varemot
-            de övriga nu hänvisades, nr 23 till behandling av lagutskott,
-            nr 25 och 28 till jordbruksutskottet samt nr 26 till statsutskottet.
-          </note>
-          <note xml:id="i-5Cj5u5JzBAhvLHP96wP2yZ">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 12,05 på dagen.
-          </note>
-          <note xml:id="i-NsTTFTN2hwu5h5XoTUDNYj">
-            In fidem G. H. Berggren.
-          </note>
-          <note xml:id="i-ET3jy7kked6cc2KaNKf5EC">
-            Stockholm 1926. Kungl. Boktryckeriet, P. A. Norstedt &amp; Söner.
-            260318
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1926--fk--2</head>
+        <docDate when="1926-01-11">1926-01-11</docDate>
+        <docDate when="1926-01-15">1926-01-15</docDate>
+        <docDate when="1926-01-16">1926-01-16</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--2/prot_1926__fk__2-000.jp2/_view"/>
+        <note xml:id="i-Jx8K9R48yttb9DJdFw8Mex">
+          RIKSDAGENS PROTOKOLL.
+        </note>
+        <note xml:id="i-J9XDcdYWSfpK39nFxkctKZ">
+          1926. Första kammaren. Nr 2.
+        </note>
+        <note type="date" xml:id="i-8FYAvs15jHdwZXXiukDCGJ">
+          Fredagen den 15 januari.
+        </note>
+        <note xml:id="i-SMestJ4FMktWdvAs3JewZB">
+          Kammaren sammanträdde kl. 11 f. m.
+        </note>
+        <note type="speaker" xml:id="i-TFrcs2Useo1vbvb8jVF2vP">
+          Herr talmannen yttrade:
+        </note>
+        <u who="Q5786143" xml:id="i-0c108c81bc42a6f4-0" next="i-0c108c81bc42a6f4-1">
+          <seg xml:id="i-HgwXmFiX8rj9ysLvVsPsez">
+            Innan valen taga sin början, skall jag be att få för kammarens
+            ledamöter uppläsa första paragrafen av Kungl. Maj:ts nådiga stadga
+            angående val till riksdagens utskott den 26 maj 1909:
+          </seg>
+        </u>
+        <note xml:id="i-KKASV34FeKri5RG8si983Z">
+          » Val av ledamöter i utskott skall förrättas med valsedlar, å
+          vilka före namnen utsatts partibeteckning (partinamn eller annan
+          beteckning i och för viss grupp av riksdagsmän eller för viss
+          meningsriktning), men vilka i övrigt äro omärkta.
+        </note>
+        <note xml:id="i-2rbnDuyEMB11ZNkGxst9h4">
+          Namnen skola å valsedeln uppföras i en följd, det ena under det
+          andra.
+        </note>
+        <u who="Q5786143" xml:id="i-0c108c81bc42a6f4-1" prev="i-0c108c81bc42a6f4-0" next="i-L1rB1oM97xM4dn96fh9SWf">
+          <seg xml:id="i-LdkJzkQiRLp4UrFeW3S3T8">
+            Valsedlarna skola för att bliva gällande vara enkla, slutna,
+            hoprullade och fria från överstrykningar. Sedel må ej upptaga
+            flera, men väl färre namn än det antal personer valet avser. Där
+            något namn å sedeln är tvetydigt, gälle den dock för övriga namn.»
+          </seg>
+          <seg xml:id="i-QCjDTZ7zABdiSnnQftggb7">
+            Jag ber att få noga inskärpa, att man icke får stryka över ett
+            namn och sätta ett annat i stället.
+          </seg>
+          <seg xml:id="i-U8mJ81iiJpYtynzGCSi3BJ">
+            Likaså ber jag att efter vanligheten få inskärpa att, innan valsedeln
+            avlämnas, den s. k. rubriken borttages, emedan eljest valsedeln
+            kommer att kasseras.
+          </seg>
+          <seg xml:id="i-GYhGjvs1xKuSbZEerhefzq">
+            I övrigt ber jag att på det enträgnaste få uppmana herrarna att
+            taga rätta valsedlar.
+          </seg>
+        </u>
+        <note xml:id="i-VoPjVTQqyBeCrj6DUg64Lu">
+          Företogs val av tio ledamöter i konstitutionsutskottet. Därvid
+          avlämnades 126 godkända valsedlar, alla med partibeteckning »den
+          gemensamma listan» och alla utom en upptagande namnen på följande
+          personer i denna ordning:
+        </note>
+        <note xml:id="i-A8hgZH6P6iWKvE9P598KLN">
+          herr Strömberg, » von Geijer, » Bergström, David, » Thulin, »
+          Dahl, P. A., » Reuterskiöld, » Ljunggren, August, » Hansson, G.
+          W., » Stendahl, » Almkvist.
+        </note>
+        <note xml:id="i-KhkdFdrUNhZCMmp4RnERDW">
+          Dessa personer hade alltså utsetts till ledamöter i utskottet.
+        </note>
+        <note xml:id="i-VQWxBpRiLXA1BZN56VkUNM">
+          Första kammarens protokoll 1926. Nr 2. 1
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--2/prot_1926__fk__2-001.jp2/_view"/>
+        <note xml:id="i-58FBdsD6C8oeRav6wgwWQD">
+          Nr 2. 2
+        </note>
+        <note type="date" xml:id="i-WwQUXqgtWD1qqFWg411KXo">
+          Fredagen den 15 januari.
+        </note>
+        <note xml:id="i-DoL6v5rAmNnQReiKs4qZDU">
+          Anställdes val av tolv ledamöter i statsutskottet. Därvid avlämnades
+          119 godkända valsedlar, alla med partibeteckning »den gemensamma
+          listan» och alla utom en upptagande namnen på följande personer
+          i denna ordning:
+        </note>
+        <note xml:id="i-4DDH1hngwZDkgj2to2mem5">
+          herr Lindblad,
+        </note>
+        <u xml:id="i-L1rB1oM97xM4dn96fh9SWf" prev="i-0c108c81bc42a6f4-1" who="Q5786143" next="i-RFTQ1MQ2XUm6ViMuyfTTJp">
+          <seg xml:id="i-Vt54yTuGyrGuN6N4D5WQ8N">
+            »” » » » » » » » » » »”
+          </seg>
+        </u>
+        <note xml:id="i-NTTihJqnKx1yrnJ4KoFJYX">
+          Vennersten, Kvarnzelius, Olsson, Oscar, Widell,
+        </note>
+        <note xml:id="i-4VmLMvL7EzqjTGq8rMRgB8">
+          Nilsson i Gränebo, Ekman, C. G., Nilsson, Johan, i Malmö, Bergqvist,
+        </note>
+        <note xml:id="i-TkEKycNNX6MaxMM41b8Xik">
+          Rosén,
+        </note>
+        <note xml:id="i-4zHRuXh58FqTgn5bmV36rK">
+          Hallin,
+        </note>
+        <note xml:id="i-X5JwBwVRf4ZYMJcpdooJub">
+          Walles.
+        </note>
+        <note xml:id="i-UepWpbDc42cNQ7TazfuYZQ">
+          Dessa personer hade alltså utsetts till ledamöter i utskottet.
+        </note>
+        <note xml:id="i-U5wkVGP2kpWwM5acDu6SMX">
+          Företogs val av tio ledamöter i bevillningsutskottet. Därvid
+          avlämnades 102 godkända valsedlar, alla med partibeteckning »den
+          gemensamma listan» och upptagande namnen på följande personer
+          i denna ordning:
+        </note>
+        <note xml:id="i-D7MxqTUKXtnHyh7vvtfzsU">
+          herr Nilsson, Gustaf, i Kristianstad,
+        </note>
+        <note xml:id="i-TPA8CYFgQ4tw6V6XM4KJp9">
+          » » 2» » »” » » » »
+        </note>
+        <note xml:id="i-SqrqQ9AXcjevXaYSUHiXkJ">
+          Nilsson, Johan, i Kristianstad, Rune,
+        </note>
+        <note xml:id="i-4kqQV8FdbbDBpG7syudLjr">
+          Bärg, A. J.,
+        </note>
+        <note xml:id="i-R2EMgf159hc5qhH9TTHd65">
+          Boman,
+        </note>
+        <note xml:id="i-GfQAGX7XqdfAkB4CrbuER5">
+          Wohlin,
+        </note>
+        <note xml:id="i-Tezgu1V3bYdv4f1a3ADmkC">
+          Pers,
+        </note>
+        <note xml:id="i-MAEARo4LasGpAGEmBY7bXH">
+          Björnsson,
+        </note>
+        <note xml:id="i-PQ2WPPbHvQkyJYrWyFR45V">
+          Borell,
+        </note>
+        <note xml:id="i-JqPRMkzQgeqozXonZFe2wD">
+          Bergman, Johan.
+        </note>
+        <note xml:id="i-Q2nCX9tiJLVy98VfiQE2xY">
+          Dessa personer hade alltså utsetts till ledamöter i utskottet.
+        </note>
+        <note xml:id="i-PKvV699EmRrQod8q4hxnob">
+          Anställdes val av åtta ledamöter i bankoutskottet. Därvid avlämnades
+          87 godkända valsedlar, alla med partibeteckning »den gemensamma
+          listan» och upptagande namnen på följande personer i denna ordning:
+        </note>
+        <note xml:id="i-S3Ci79mS831Wvnmi7xGfqc">
+          herr Lindley,
+        </note>
+        <u xml:id="i-RFTQ1MQ2XUm6ViMuyfTTJp" prev="i-L1rB1oM97xM4dn96fh9SWf" who="Q5786143" next="i-5kfyLhUnvit2bK3sDoaEhD">
+          <seg xml:id="i-A1SVpXhRT5UkRccYFDze6x">
+            » » » » » » »
+          </seg>
+        </u>
+        <note xml:id="i-6qM3qUGiKgNneS1V17GkKt">
+          Gustafsson i Stensholm, Pettersson i Olovstorp,
+        </note>
+        <note xml:id="i-J9MitTSazRurz8NvjLjUs6">
+          Dalberg,
+        </note>
+        <note xml:id="i-5gS5XHJWoRYKXh7NJY3Csc">
+          Enhörning,
+        </note>
+        <note xml:id="i-U9Fd9WCUYb5W3B5H53g7m9">
+          Johansson i Friggeråker, Bondeson,
+        </note>
+        <note xml:id="i-C7L9LGCDKpATmnqvSbSLri">
+          Berge.
+        </note>
+        <note xml:id="i-ExmAomp5hvyq1n7MXTmhgi">
+          Dessa personer hade alltså utsetts till ledamöter i utskottet.
+        </note>
+        <note xml:id="i-S7ypu2hi24JNzTNRnscKKt">
+          Företogs val av åtta ledamöter i första lagutskottet. Därvid
+          avlämnades 82 godkända valsedlar, alla med partibeteckning »den
+          gemensamma listan» och upptagande namnen på följande personer
+          i denna ordning:
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--2/prot_1926__fk__2-002.jp2/_view"/>
+        <note type="date" xml:id="i-GbbQ99JVe8qmAe7Dx5HyfG">
+          Fredagen den 15 januari. 3 Nr 2,
+        </note>
+        <note xml:id="i-7XxnmPSo5igYn7K7kR6ZV7">
+          herr Larsson, Jacob, » Hederstierna, » Larson, Edward, » Åkerman,
+          » Rogberg, » "Tjällgren, » Lyberg, » Klefbeck.
+        </note>
+        <note xml:id="i-7QmoARyzGzgM5xydYXCGCj">
+          Dessa personer hade alltså utsetts till ledamöter i utskottet.
+        </note>
+        <note xml:id="i-NxfpA3B5vcM8tMZWqur958">
+          Anställdes val av åtta ledamöter i andra lagutskottet. Därvid
+          avlämnades 75 godkända valsedlar, alla med partibeteckning »den
+          gemensamma listan» och upptagande namnen på följande personer
+          i denna ordning:
+        </note>
+        <note xml:id="i-Asz5ozMGFMtC7eviVJtVJf">
+          herr Linder,
+        </note>
+        <note xml:id="i-6UNxNgrqFgZMkK5hYxBmrT">
+          » von Sydow,
+        </note>
+        <note xml:id="i-5bcnd1CFYjoimuWRf4t4NE">
+          » von Koch,
+        </note>
+        <note xml:id="i-PoefB6KFu8WiApwmFJHVHz">
+          » Hansson, Sigfrid, greve Spens, herr Westman,
+        </note>
+        <note xml:id="i-2ukvPjgtmm7fyFMVX24bZi">
+          » von Stockenström,
+        </note>
+        <note xml:id="i-LYRUXy3eAL6xgayfNS2NRb">
+          » Thorberg. Dessa personer hade alltså utsetts till ledamöter
+          i utskottet.
+        </note>
+        <note xml:id="i-ArJb7RW2ZWovtzK6U1XYyz">
+          Företogs val av åtta ledamöter i jordbruksutskottet. Därvid avlämnades
+          80 godkända valsedlar, alla med partibeteckning »den gemensamma
+          listan» och upptagande namnen på följande personer i denna ordning:
+        </note>
+        <note xml:id="i-PcWNthLrgKLhQv9LLx7DhG">
+          herr Nilsson i Kabbarp, » Sederholm, » Hellström, » Norin, »
+          Boberg, ' » Elisson, » Ingeström,
+        </note>
+        <note xml:id="i-E9b3PdGGuvw5y2AHKUC2ap">
+          » Lundell. Dessa personer hade alltså utsetts till ledamöter
+          i utskottet.
+        </note>
+        <note xml:id="i-PdgF6pJucpTdAgy7dfKitQ">
+          Anställdes val av åtta ledamöter i utrikesnämnden. Därvid avlämnades
+          80 godkända valsedlar, alla med partibeteckning »den gemensamma
+          listan» och upptagande namn på följande personer i denna ordning:
+        </note>
+        <note xml:id="i-4qfAqpa4dFdsg7ftnEXYeb">
+          herr Trygger, » Bärg, A. J.,
+        </note>
+        <note xml:id="i-7YwfFMbe79weAjBjSFPMZ1">
+          » Thorberg,
+        </note>
+        <note xml:id="i-CAPrUR3QH7fpbsAoC9Ymx7">
+          » Swartz,
+        </note>
+        <note xml:id="i-U4JJraNKnwrAT9VC1aEpyg">
+          » Nilsson i Gränebo,
+        </note>
+        <note xml:id="i-Q6NbLDwuyQ8b5W2WtsQCNL">
+          » Bergström, David,
+        </note>
+        <note xml:id="i-YJ2q9Bu7NRtcBmf9kyt5bM">
+          » Nilsson, Gustaf, i Kristianstad.
+        </note>
+        <note xml:id="i-5sGuQ29sHqytJgbobxg5p6">
+          Dessa personer hade alltså utsetts till ledamöter i nämnden.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--2/prot_1926__fk__2-003.jp2/_view"/>
+        <note xml:id="i-KpL6EAEVF3RYzZQRwUBvhb">
+          Nr 2.
+        </note>
+        <note type="date" xml:id="i-YGC4rtKJoBm61gB1z7HK6T">
+          4 Fredagen den 15 januari.
+        </note>
+        <note xml:id="i-NTyC7xh1aGLCaCeZP1b9Tx">
+          På framställning av herr talmannen beslöts, att riksdagens kanslideputerade
+          skulle genom utdrag av protokollet underrättas om kammarens val
+          av ledamöter och suppleanter i utrikesnämnden samt anmodas låta
+          uppsätta och till kamrarna ingiva förslag till den skrivelse i
+          ämnet, som borde till Konungen avlåtas.
+        </note>
+        <note xml:id="i-53ojerj1DWjGbFtYEUC2kD">
+          Föredrogs och hänvisades till bankoutskottet herr Reuterskiölds
+          motion, nr 3, om fortsatt utgivande av verket Främmande grundlagar.
+        </note>
+        <u xml:id="i-5kfyLhUnvit2bK3sDoaEhD" prev="i-RFTQ1MQ2XUm6ViMuyfTTJp" who="Q5786143">
+          <seg xml:id="i-GoY51UXF8Wu3MLjDrtBs53">
+            Herr talmannen tillkännagav, att han och de ledamöter, som fått
+            i uppdrag att jämte talmannen tillsätta kammarens kansli och vaktbetjäning,
+            ansett nödigt, att nu anställdes i kansliet en notarie (stomnotarie),
+            tre förste stenografer, fjorton stenografer, en förste kanslist,
+            en registrator och sex kanslister samt såsom betjäning en förste
+            vaktmästare och elva vaktmästare, däribland en för utdelning av
+            postförsändelser m. m., med skyldighet för betjäningen att, i
+            den mån så erfordrades och ske kunde, tjänstgöra även på annat
+            håll inom riksdagen, och hemställde herr talmannen, huruvida kammaren
+            godkände, att nämnda personal tillsvidare anställdes hos kammaren.
+          </seg>
+        </u>
+        <note xml:id="i-KGVZFHiVhZActr8UoawhVT">
+          Härtill svarades ja.
+        </note>
+        <note xml:id="i-WtEBgSW9SrAFrg6gWNg5m3">
+          Därefter tillkännagavs, att i enlighet härmed antagits såsom
+          notarie (stomnotarie) : filosofie magistern L. Wistrand; förste
+          stenografer: arkivarien i generalpoststyrelsen P. G. Widegren,
+          revisorn i riksräkenskapsverket E. Lindström och E. Elfner; stenografer:
+          kanslisekreteraren friherre O. T. Hermelin, f. d. sekreteraren
+          i arméförvaltningen A. Göransson, revisorn i riksräkenskapsverket
+          K. Norén, A. W. Fredén, förste assistenten i telegrafverket E.
+          O. Schalin, A. Lundman, amanuensen i kammarkollegiet H. Eriksson,
+          fiskalen i kammarkollegiet J. H. Wallin, G. Torbiörn, banktjänstemannen
+          T. B. Carlson, redaktören N. Holmberg, sekreteraren i Sveriges
+          allmänna exportförening D. Belin, förste amanuensen i kammarrätten
+          F. E. O. Hedelius och e. o. hovrättsnotarien F. Thorvall; förste
+          kanslist: f. d. revisorn i domänstyrelsen H. J. Modigh; registrator:
+          förste kanslisekreterarer I. Myrberg; kanslister: sekreteraren
+          i telegrafstyrelsen F. W. Funch, juris doktorn H. af Trolle, e.
+          o. kammarskrivaren i tullverket E. A. Carlén, postassistenten
+          C. M. W. Stenwall, e. o. hovrättsnotarien G. A. von Krusenstjerna
+          och juris studeranden T. Vide; förste vaktmästare: Carl O. Eriksson;
+          vaktmästare: W. Willberg, K. J. G. Carlsson, Chr. Jensen, G. Tillman,
+          J. E. Lundvall, G. Henrik Eriksson, N. T. Karlkvist, M. Jonas
+          Eriesson, Erik A. Andersson, Sven Andersson och S. Beckman. Åt
+          Jensen hade tillsvidare uppdragits att ombesörja utdelning av
+          postförsändelser till kammarens ledamöter m. m.
+        </note>
+        <note type="speaker" xml:id="i-XfFizUv8AaGGPhPBq6ProH">
+          Herr statsrådet Wigforss avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-VCkdpasY8k9srYJq8Bu1qU">
+          ts propositioner:
+        </note>
+        <note xml:id="i-97GwLt4zVoHtuJ9t3idmZ3">
+          nr 13, angående ändrad lydelse av rubrikerna 159 och 160 för
+          oraffinerat socker i gällande tulltaxa;
+        </note>
+        <note xml:id="i-eRkhSQ3CPUry7YVj79XkC">
+          nr 14, angående pension åt förste byråinspektören i bankoch fondinspektionen
+          P. A. Bolldéns änka och son;
+        </note>
+        <note xml:id="i-WBcCFJ7oTDXSWepvzetFog">
+          nr 15, angående användande av överskott i Djurgårdskassan till
+          säkerställande under år 1927 av Ulriksdals kungsgårds förvaltning
+          och drift; samt
+        </note>
+        <note xml:id="i-C6FtbpYgKSosxuAAoHdgYh">
+          nr 16, angående efterskänkande av återbetalningsskyldighet beträffande
+          oriktigt utbetalda ersättningar för åt tulltjänstemän lämnad tandvård.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--2/prot_1926__fk__2-004.jp2/_view"/>
+        <note type="date" xml:id="i-Ge1xgtSCEHKzySpBU3wUDf">
+          Fredagen den 15 januari. 5
+        </note>
+        <note xml:id="i-SdavLwL4GtdJA8DiqVaRsQ">
+          Greve Wachtmeister avlämnade nedannämnda av honom och herr Clemedtson
+          undertecknade motioner:
+        </note>
+        <note xml:id="i-NqEqs8KRoiE1NT3PACVzk5">
+          nr 7, angående organisationen av det för Karlskrona fästning
+          avsedda de tachementet ur Kronobergs regemente;
+        </note>
+        <note xml:id="i-5D5Kcv8HpaKNJe3FL72fhQ">
+          nr 8, angående organisationen av den för Vaxholms fästning avsedda
+          kontingenten av stampergsonal och värnpliktiga m. fl.; samt
+        </note>
+        <note xml:id="i-M21rKSaELHbYinrRAU7iPt">
+          nr I, om förbättring i pensionsvillkoren för vissa förmän och
+          arbetare vid flottans varv m. fl.
+        </note>
+        <note xml:id="i-KcMnUadR9pmbEQnmeUMmDB">
+          Dessa motioner hänvisades, nr 7 och 8 till statsutskottet samt
+          nr 9 till bankoutskottet.
+        </note>
+        <note type="speaker" xml:id="i-KyCMRjw1fA1J3LuZ2ayVqy">
+          Herr Stendahl väckte nedannämnda motioner:
+        </note>
+        <note xml:id="i-3nXE9aWposUG6Kuh3vD832">
+          nr 10, med förslag till förordning angående utförselbevis för
+          råg och vete; samt
+        </note>
+        <note xml:id="i-XNwYzjqpucCk3EdyrSZ9Es">
+          nr 11, om sänkning av tullen å galoscher.
+        </note>
+        <note xml:id="i-SBX7NL6V1rqnqe9WzXDEYG">
+          Dessa motioner hänvisades till bevillningsutskottet.
+        </note>
+        <note xml:id="i-JoZSNUBAmWuoN2wriJCdU">
+          Herr Luterkort väckte en motion, nr 12, angående upphävande av
+          gällande bestämmelser om domboksrenovation.
+        </note>
+        <note xml:id="i-USqRJGBTqUaoJHmP7zA56c">
+          Denna motion hänvisades till behandling av lagutskott.
+        </note>
+        <note xml:id="i-T6vKLwhkcpKG6jLS3mQckx">
+          Avgåvos och hänvisades var för sig till ett tillfälligt utskott
+          nedannämnda motioner:
+        </note>
+        <note xml:id="i-SurjwmmiMVg6nWW5tuD9wT">
+          nr 13, av herr Luterkort, om rätt för befattningshavare i centrala
+          ämbetsverk att överklaga tilldelad disciplinär varning; och
+        </note>
+        <note xml:id="i-SV5ME3eifZqWjBD5urQg9c">
+          nr 14, av herr Svänsson, Eli, om skyldighet för länsstyrelserna
+          att lämna fortsättningsskolstyrelser, skolstyrelser och skolråd
+          behövligt ämbetsbiträde beträffande åtgärder gentemot tredskande
+          lärjungar och målsmän.
+        </note>
+        <note xml:id="i-QrsBantXV5ehawMVqxNxxE">
+          Vid föredragning av Kungl. Maj:ts denna dag avlämnade propositioner
+          hänvisades dessa, nr 13 till bevillningsutskottet, nr 14 till
+          bankoutskottet samt nr 15 och 16 till statsutskottet.
+        </note>
+        <note xml:id="i-FRdpUmJYDwzjaA5znRdjuq" type="speaker">
+          Herr förste vice talmannen erhöll på begäran ordet och yttrade:
+        </note>
+        <u who="Q5932922" xml:id="i-2U96PZcZLRZcFPMZWaq6uP">
+          <seg xml:id="i-BYAzZsbTbrehf12To2L31w">
+            Jag får hemställa, att kammaren måtte besluta, att Kungl. Maj:ts
+            proposition nr 1, angående statsverkets tillstånd och behov under
+            budgetåret 1926—1927, uppföres sist bland ärendena på morgondagens
+            föredragningslista.
+          </seg>
+        </u>
+        <note xml:id="i-GG7ZVhCtPZKypY3KNuhw9t">
+          Denna hemställan bifölls.
+        </note>
+        <note xml:id="i-KMNzdwkYikjokkYcnThMdR">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 12.15 på dagen.
+        </note>
+        <note xml:id="i-9m6bN9BLG8vCJqsX3Ff3i8">
+          In fidem G. H. Berggren.
+        </note>
+        <note xml:id="i-M2uBzvbdXpkq6tMv9cbMAW">
+          Nr 2,
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--2/prot_1926__fk__2-005.jp2/_view"/>
+        <note type="date" xml:id="i-XLb3JZM5o37Yi9aukpXVBD">
+          Ö Lördagen den 16 januari.
+        </note>
+        <note type="date" xml:id="i-MkwYRgNsfSgJ3jyJ7WfxYB">
+          Lördagen den 16 januari.
+        </note>
+        <note xml:id="i-7YNUYM3jtic1AFM3vk4mF5">
+          Kammaren sammanträdde kl. 11 f. m.
+        </note>
+        <note type="speaker" xml:id="i-Do5TjveMyMcDV4eh6kYTdu">
+          Herr statsrådet Larsson avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-9wQtKxYTs3xCdsHv2ugsLW">
+          ts propositioner:
+        </note>
+        <note xml:id="i-GWF7waYT4bakLsP2Ek6GYu">
+          nr 26, angående bestämmelser rörande de statens järnvägar, statens
+          vattenfallsverk, telegrafverket och postverket tillhöriga förnyelsefonder;
+          samt
+        </note>
+        <note xml:id="i-WCkEWrLHxBoCuEshEBWRmf">
+          nr 28, med förslag till lag om enskilda vägar.
+        </note>
+        <note type="speaker" xml:id="i-GzjU5kuEn4Ai9oACzNQzNv">
+          Herr statsrådet Linders avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-TmzFY8mATiP5wSb9YxzbvD">
+          ts propositioner:
+        </note>
+        <note xml:id="i-JCyCMzVR1Aopg5g1UxQ1zM">
+          nr 22, med förslag till lag om upplåtelse under åborätt av viss
+          jord m. m.;
+        </note>
+        <note xml:id="i-WD8Xt1gUk9tMRzsmHjy6Jd">
+          nr 23, med förslag till lag om ändrad lydelse av 13 kap. 13 $
+          giftermålsbalken m. m.;
+        </note>
+        <note xml:id="i-4AS4ja2bnnLYRyGZkUfuFm">
+          nr 24, angående vissa frågor rörande tillämpningen av föreslagen
+          lag om upplåtelse under åborätt av viss jord m. m.; samt
+        </note>
+        <note xml:id="i-9Jjhr8gTWPxWJoBGBdsg8g">
+          nr 25, angående försäljning av vissa kronoegendomar och upplåtande
+          av lägenheter från sådana egendomar.
+        </note>
+        <note xml:id="i-PMz6WQssMPcQfZUSE9hTWH">
+          Justerades protokollen för den 11, 12 och 14 innevarande månad.
+        </note>
+        <note xml:id="i-H9t68SXmZggBi6eSgeKqMf">
+          Föredrogs och hänvisades till statsutskottet riksdagens år 1925
+          församlade revisorers berättelse om verkställd granskning av statsverkets
+          jämte därtill hörande fonders tillstånd, styrelse och förvaltning
+          för tiden 1 juli 1924—30 juni 1925.
+        </note>
+        <note xml:id="i-6GvVKNSctrehgXzy5xazhz">
+          Företogs val av tretton suppleanter i konstitutionsutskottet.
+          Därvid avlämnades 102 godkända valsedlar, alla med partibeteckning
+          »den gemensamma listan» och upptagande namnen på följande personer
+          i denna ordning:
+        </note>
+        <note xml:id="i-FVtdY85uD8ki1FF2HfW348">
+          herr Norling, » Svensson i Kompersmåla, » Leander, » Tarsén,
+          . » Nilsson i Östrabo, » Gustafsson i Benestad, » Johansson i
+          Lövholmen,
+        </note>
+        <note xml:id="i-4xiELD99qWEuffoWtrH27U">
+          » Pauli, » Ljunglund, » Fehr,
+        </note>
+        <note xml:id="i-PDxqZWHqrGc8uezWChBPhn">
+          » Eriksson i Ljusdal, » Sundberg, » Österström.
+        </note>
+        <note xml:id="i-QArjAY8J8do5TsM3coDNmM">
+          Dessa personer hade alltså utsetts till suppleanter i utskottet.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--2/prot_1926__fk__2-006.jp2/_view"/>
+        <note type="date" xml:id="i-7Vjnj4iidv8XU7Br5XgsjQ">
+          Lördagen den 16 januari. 7
+        </note>
+        <note xml:id="i-NBHvcZZCQVNRmL94cBFo1v">
+          Anställdes val av femton suppleanter i statsutskottet. Därvid
+          avlämnades 85 godkända valsedlar, alla med partibeteckning »den
+          gemensamma listan» och upptagande namnen på följande personer
+          i denna ordning:
+        </note>
+        <note xml:id="i-Rs34phb4BoWP2wGYELRYne">
+          herr Asplund,
+        </note>
+        <note xml:id="i-XrJ61eba1hkHBNEQNVeAoZ">
+          » »
+        </note>
+        <note xml:id="i-TUWCKJn8sX7Y6mBNzjZ5WA">
+          2»
+        </note>
+        <note xml:id="i-MnzHzfaCVAmpCgJTqqnRXT">
+          Swartz,
+        </note>
+        <note xml:id="i-6XmNKCTi398sFUAWBZQY12">
+          Pålsson,
+        </note>
+        <note xml:id="i-L5b8E2abzXXUrk8QdXXSJv">
+          Bergström, P. A., Jeansson,
+        </note>
+        <note xml:id="i-SXpHMPs2gr86jftrnuc2kh">
+          Andersson i Eliantorp, Kobb,
+        </note>
+        <note xml:id="i-2xvaRhbq163DeSY3k9tZ9D">
+          Johansson i Hälsingborg, Rooth,
+        </note>
+        <note xml:id="i-QYLWmFbpaQVKiERQmCCFNb">
+          Carlsson i Gävle,
+        </note>
+        <note xml:id="i-YGdRCMWG9kmEuz4h4EhxwW">
+          Petrén, Alfred,
+        </note>
+        <note xml:id="i-KaDNbS6SYLfiGSaW83i1Vy">
+          Johansson i Fredrikslund, Pauli,
+        </note>
+        <note xml:id="i-GrT3zrHTqTAcfthKwQs3c2">
+          Hammarskjöld, Carl Gustaf, Nilsson, Alexander.
+        </note>
+        <note xml:id="i-TAhPWDS21aSk1PDrd44Fiq">
+          Dessa personer hade alltså utsetts till suppleanter i utskottet.
+        </note>
+        <note xml:id="i-5jTpVyQ1zPjqQCbEjBzv8i">
+          Företogs val av tretton suppleanter i bevillningsutskottet. Därvid
+          avlämnades 74 godkända valsedlar, alla med partibeteckning »den
+          gemensamma listan» och upptagande namnen på följande personer
+          i denna ordning:
+        </note>
+        <note xml:id="i-3o9jN5enXoXisvekfJga8P">
+          herr Björkman,
+        </note>
+        <note xml:id="i-2yBq9J3o2eh1TizizEi7ff">
+          » »” » » » » » » » » » »
+        </note>
+        <note xml:id="i-32VieKP241Up9Ut2nwLiXN">
+          Jönsson i Slätåker, Johansson i Hornsberg, Wahlmark, Andersson
+          i Hedsta, Ericson i Oberga, Svensson i Grindstorp, Åström,
+        </note>
+        <note xml:id="i-BVvPiig7x1Gttgvopsf27w">
+          Vrang,
+        </note>
+        <note xml:id="i-NyDdRRfXpQGVwBdrQj2heu">
+          Jonsson i Lycksele, Magnuson, Paul, Clemedtson, Holmgren, I.
+        </note>
+        <note xml:id="i-P4hzuMmDL2WwqpTkfqLeRg">
+          Dessa personer hade alltså utsetts till suppleanter i utskottet.
+        </note>
+        <note xml:id="i-PCDiMjfNNAPUQUPNgCcnVk">
+          Anställdes val av åtta suppleanter i bankoutskottet. Därvid avlämnades
+          908 godkända valsedlar, alla med partibeteckning »den gemensamma
+          listan» och upptagande namnen på följande personer i denna ordning:
+        </note>
+        <note xml:id="i-QBabTgLYExY4dFqSjejR36">
+          herr Ström,
+        </note>
+        <note xml:id="i-B8yCQZBMphysNibiEDkxLG">
+          » » »” » » » »
+        </note>
+        <note xml:id="i-4gMRPGGaxZiuF4SdfB3TVu">
+          Anderson i Hägelåkra, Abrahamsson, Östergren,
+        </note>
+        <note xml:id="i-TmvhRZoF5QrL53Vjzepjip">
+          Lindgren,
+        </note>
+        <note xml:id="i-6ERnkKZcK8zA7hvnkyvsNj">
+          Bodin,
+        </note>
+        <note xml:id="i-7nMNFNt3FzuFnsHYhd5J8s">
+          Carlsson i Gävle, Sandén.
+        </note>
+        <note xml:id="i-8cuEMuDKK21SLwoyP7kzLV">
+          Dessa personer hade alltså utsetts till suppleanter i utskottet.
+        </note>
+        <note xml:id="i-4oFo5TLLk6UDFMGtDvNUeD">
+          Nr 2,
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--2/prot_1926__fk__2-007.jp2/_view"/>
+        <note type="date" xml:id="i-V5uVkBsnFrSFP5yGxWY9zz">
+          8 Lördagen den 16 januari.
+        </note>
+        <note xml:id="i-3GXSpX1se9ag4w3XikTQ3K">
+          Företogs val av åtta suppleanter i första lagutskottet. Därvid
+          avlämnades 44 godkända valsedlar, alla med partibeteckning »den
+          gemensamma listan» och alla utom en upptagande namnen på följande
+          personer i denna ordning:
+        </note>
+        <note xml:id="i-Bdrd3UHuK9xYBfnDAWeJHE">
+          herr Sandegård,
+        </note>
+        <note xml:id="i-Vu5vzEYrMcL2jPckFLDjAy">
+          » Karlsson i Västerås, » Jonsson i Lycksele, » Berglund,
+        </note>
+        <note xml:id="i-RWymDhcedbtXfMYWemWeXm">
+          » Dahl, G.,
+        </note>
+        <note xml:id="i-6f6pDogHzA6B9TP5XxbwVK">
+          » Svenson i Eskhult, » Fehr,
+        </note>
+        <note xml:id="i-8U1rjHNQewPrSqPvw14N5Z">
+          » Julin.
+        </note>
+        <note xml:id="i-QvaMMBbkYTJsCT1Y7F2cxH">
+          Dessa personer hade alltså utsetts till suppleanter i utskottet.
+        </note>
+        <note xml:id="i-3J11gXA2vMEReqA45bR8Rw">
+          Anställdes val av elva suppleanter i andra lagutskottet. Därvid
+          avlämnades 48 godkända valsedlar, alla med partibeteckning »den
+          gemensamma listan» och upptagande namnen på följande personer
+          1 denna ordning:
+        </note>
+        <note xml:id="i-3RtKP2SLYjC4LLZJERKZ5j">
+          herr Petrén, Alfred,
+        </note>
+        <note xml:id="i-3ZNX8S7YuTn3zbsHx32wER">
+          » Frändén,
+        </note>
+        <note xml:id="i-Cx2GQ8mWFZZ4URX6UrVW3Y">
+          fröken Hesselgren,
+        </note>
+        <note xml:id="i-7KQJ4A8qA8qss9eUaGpZvd">
+          herr Lindhagen,
+        </note>
+        <note xml:id="i-5ymZnEKs5G7i3sHMnedxTb">
+          » Svensson i Kompersmåla, » Schedin,
+        </note>
+        <note xml:id="i-3g2FtqQQKYXdJmamLFCQ4o">
+          » Åkerberg,
+        </note>
+        <note xml:id="i-Kj2eABkQEWiKmDr9qbbKu9">
+          » Clemedtson,
+        </note>
+        <note xml:id="i-4vXpDD5rWymj8YaEe7Mheb">
+          » Andersson i Fältenborg, » Eriksson, Valfrid,
+        </note>
+        <note xml:id="i-Mdjg1XGJGsFmqxSFkzVKSZ">
+          » Luterkort.
+        </note>
+        <note xml:id="i-62d3GtHe7pwEA4GGis82p4">
+          Dessa personer hade alltså utsetts till suppleanter 1 utskottet.
+        </note>
+        <note xml:id="i-BeyqZ1Eifmza4ksidyLUXg">
+          Företogs val av åtta suppleanter i jordbruksutskottet. Därvid
+          avlämnades 40 godkända valsedlar, alla med partibeteckning »den
+          gemensamma listan» och upptagande namnen på följande personer
+          i denna ordning:
+        </note>
+        <note xml:id="i-F48LMiVpiT7TWdZAso16eM">
+          herr Eriksson i Ljusdal.
+        </note>
+        <note xml:id="i-MBmnfYAHCq5Q2kac1YYWNs">
+          greve Wachtmeister,
+        </note>
+        <note xml:id="i-3xn4TE99GTCv38hxo5QYPF">
+          herr Andersson i Fältenborg,
+        </note>
+        <note xml:id="i-G8GeW29oXM84BgbUmCWwei">
+          » Svänsson i Kalmar,
+        </note>
+        <note xml:id="i-SAGuPsDLcvdDSpAsKKuMEJ">
+          » Gabrielsson,
+        </note>
+        <note xml:id="i-M97JJF8QBYWkUbTfzVyUrq">
+          » Andersson i Arbrå,
+        </note>
+        <note xml:id="i-M2Pe9oLsNpRt8TxvGsUvCo">
+          » Karlsson i Gillberga, » Luterkort.
+        </note>
+        <note xml:id="i-5Pn7astqmvu2EoLJa6Vt3x">
+          Dessa personer hade alltså utsetts till suppleanter 1 utskottet.
+        </note>
+        <note xml:id="i-PQn9tvbFmqa9dwRWz4D56t">
+          Anställdes val av åtta suppleanter i utrikesnämnden. Därvid avlämnades
+          45 godkända valsedlar, alla med partibeteckning »den gemensamma
+          listan» och upptagande namnen på följande personer i denna ordning:
+        </note>
+        <note xml:id="i-MNSDscvCjwscXFTgje1nWp">
+          herr Olsson, Oscar,
+        </note>
+        <note xml:id="i-FP3U2HGfyFYrcuC1xMTdtg">
+          » Vennersten, » von Sneidern,
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--2/prot_1926__fk__2-008.jp2/_view"/>
+        <note xml:id="i-MA8P39whrrbrNrZvhayV9A">
+          9
+        </note>
+        <note type="date" xml:id="i-8SqzN8sYDn5zYdHju4PDQ7">
+          Lördagen den 16 januari. 9 Nr
+        </note>
+        <note xml:id="i-RSF6WhHH6M23YTADqRzScd">
+          herr Klefbeck,
+        </note>
+        <note xml:id="i-56eiDvxdWFEydj3a2pu5uR">
+          » Nilsson, Johan, i Kristianstad, » Tjällgren,
+        </note>
+        <note xml:id="i-FXFA3Z3hr2vLH5q6LXovdn">
+          » Rosén,
+        </note>
+        <note xml:id="i-5JPQHGgP9dCzhMwshzKbSs">
+          » Nilsson i Kabbarp.
+        </note>
+        <note xml:id="i-KRWbUp1Fx6jxToYLycA1mo">
+          Dessa personer hade alltså utsetts till suppleanter i nämnden.
+        </note>
+        <note xml:id="i-N9nobyZnd739omz8E3q1B">
+          Herr Frändén väckte en motion, nr 15. om förbud mot anordnande
+          utan polismyndighets tillstånd av demonstrationståg m. m. på allmän
+          plats å landsbygden.
+        </note>
+        <note xml:id="i-3EcfhxPGWYAquGG4LkLeEX">
+          Motionen blev på begäran bordlagd.
+        </note>
+        <note xml:id="i-KSuKVsXx8pHsLBD2S1D4dD">
+          Herr Nilsson, Petrus, avlämnade en av honom m. fl. undertecknad
+          motion, nr 16, om anslag för understödjande av Ölands elektrifiering.
+        </note>
+        <note xml:id="i-CmFp1YadjsKRrUmwXRxMMa">
+          Denna motion hänvisades till statsutskottet.
+        </note>
+        <note xml:id="i-5QxrE5oDTGUrTRPri8ksj4">
+          Herr Schedin avlämnade en av honom m. fl. undertecknad motion,
+          nr 17, om förlängt anstånd med ordnandet av de i 31 $ lagen om
+          fattigvården omförmälda anstalter.
+        </note>
+        <note xml:id="i-86YsHJEKkottBu6c9b5Hka">
+          Denna motion hänvisades till behandling av lagutskott.
+        </note>
+        <note xml:id="i-FDEWJDqduh6JAseCFEdApx" type="speaker">
+          Herr förste vice talmannen erhöll på begäran ordet och yttradet:
+        </note>
+        <u who="Q5932922" xml:id="i-CPycN5keLJQU4e3grFZQvw">
+          <seg xml:id="i-Pb9JKXN55hhpbBk1nuCdjK">
+            Jag får hemställa, att kammaren måtte besluta att, i likhet med
+            vad som vid föregående års riksdag var fallet, tillsätta två tillfälliga
+            utskott, vartdera med sju ledamöter och fyra suppleanter.
+          </seg>
+        </u>
+        <note xml:id="i-ANivu8SnyaaD7jj1ZEcytn">
+          Denna hemställan bifölls.
+        </note>
+        <note xml:id="i-4G9aZ6LDx8anbHJHPeghYw">
+          Herr talmannen föreslog, det kammaren ville besluta att vid sammanträde,
+          som komme att hållas onsdagen den 20 innevarande månad, företaga
+          val av ledamöter och suppleanter i de nu beslutade utskotten.
+        </note>
+        <note xml:id="i-Vj2t23hYN1TyFyG8kRQFjL">
+          Detta förslag antogs.
+        </note>
+        <note xml:id="i-DM55oKw67fxniD8C8JvLGK">
+          Upplästes en till kammaren inkommen handling av följande innehåll:
+          EK. Heymans
+        </note>
+        <note xml:id="i-DGt3CDP1avrZwnRTAbZgnK">
+          Att domaren i Kullings härad denna dag dels med stöd av 12 kap.
+          8 8 i lag OlssorsgRet alt
+        </note>
+        <note xml:id="i-UgaoU3n2jcjteh2Bsz2bVn">
+          om förmynderskap den 27 juni 1924 förordnat, att godsägaren Knut
+          Heyman, riksdags- Vårgårda, skall vara omyndig under tiden intill
+          dess Kullings häradsrätt mannakallet. meddelar utslag, dels ock
+          förordnat advokaten Fred. Holmgren i Göteborg att för samma tid
+          vara förmyndare för godsägaren Heyman; betygar
+        </note>
+        <note xml:id="i-DrjD3PdB7jTEcDXQnqHfXr">
+          Alingsås den 11 januari 1926.
+        </note>
+        <note xml:id="i-XkcejBrNeQoz3gsPD2Mxz1">
+          Av domareämbetet:
+        </note>
+        <note xml:id="i-5GLFpg6WWGph6TqQpGkndb">
+          M. Täcklind.
+        </note>
+        <note type="speaker" xml:id="i-4FnJjAZJqxQfMkb4d2FbbL">
+          Herr förste vice talmannen:
+        </note>
+        <note xml:id="i-Gk3cFzjGLqnYtEXR4pQKFL">
+          Av det nyss upplästa intyget framgår, att ledamoten av denna
+          kammare herr Heyman står under förmynderskap. Vid sådant förhållande
+          må han, jämlikt $ 26 riksdagsordningen, icke såsom riks-
+        </note>
+        <note xml:id="i-4ajmzRPnijZRRrExKTkWNQ">
+          Första kammarens protokoll 1926. Nr 2. 2
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--2/prot_1926__fk__2-009.jp2/_view"/>
+        <note type="date" xml:id="i-AtNgC1GTbHzyKKnwbjWJ5D">
+          Nr 2. 10 Lördagen den 16 januari.
+        </note>
+        <u xml:id="i-HyMBVBKzF3YKthVttDL3RZ" who="Q5932922">
+          <seg xml:id="i-WWt27uvuAPnNoWEcfjcdhM">
+            u dagsman godkännas. I anledning härav hemställer jag, att kammaren
+            måtte slöva med stöd av nämnda paragraf förklara herr Heyman obehörig
+            till riksdagsriksdags- mannakallets utövande samt att kammaren
+            måtte enligt $ 28 riksdagsordnin-
+          </seg>
+        </u>
+        <note xml:id="i-yfK2vGLKeNaqJiqkWNFmt">
+          mannakallet. gen därom göra anmälan till Konungen.
+        </note>
+        <note xml:id="i-DWmfrMTqEyHHxqULgTLh7r">
+          (Forts.) Vad herr förste vice talmannen sålunda hemställt bifölls,
+          varefter ett uppsatt förslag till skrivelse i ämnet till Konungen
+          upplästes och godkändes.
+        </note>
+        <note xml:id="i-HvoBWPvhgcpYbwoeEuauc1">
+          Efter föredragning av Kungl. Maj:ts denna dag avlämnade propositioner
+          blevo propositionerna nr 22 och 24 på begäran bordlagda, varemot
+          de övriga nu hänvisades, nr 23 till behandling av lagutskott,
+          nr 25 och 28 till jordbruksutskottet samt nr 26 till statsutskottet.
+        </note>
+        <note xml:id="i-5Cj5u5JzBAhvLHP96wP2yZ">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 12,05 på dagen.
+        </note>
+        <note xml:id="i-NsTTFTN2hwu5h5XoTUDNYj">
+          In fidem G. H. Berggren.
+        </note>
+        <note xml:id="i-ET3jy7kked6cc2KaNKf5EC">
+          Stockholm 1926. Kungl. Boktryckeriet, P. A. Norstedt &amp; Söner.
+          260318
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

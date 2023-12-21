@@ -1,579 +1,552 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1910</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.1.0</edition>
-      </editionStmt>
       <publicationStmt>
-        <authority>National Library of Sweden and the WESTAC project</authority>
+        <authority>N/A</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1910</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in input/curation/instances</p>
+          <p>No correction of source texts was performed.</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>N/A</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>No correction of source texts was performed.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1917--ak--1</head>
-          <docDate when="1917-01-15">1917-01-15</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection">
-          <pb facs="https://betalab.kb.se/prot-1917--ak--1/prot_1917__ak__1-000.jp2/_view"/>
-          <note xml:id="i-Vur2yU3xYVum3KzDaMmuA3">
-            RIKSDAGENS PROTOKOLL.
-          </note>
-          <note xml:id="i-GrDvVgLp9arEEHJB3bfz9H">
-            1917. Andra kammaren. Nr I.
-          </note>
-          <note xml:id="i-4p4enV31SVjuCGrrATuKPo">
-            I enlighet med $ 49 regeringsformen och 8 2 riksdagsordningen
-            sammanträdde andra kammaren till lagtima möte här i huvudstaden
-            i den uti riksdagens hus för kammaren anordnade samlingssalen
-          </note>
-          <note xml:id="i-KLxfKcRxFv21HrhcQT2Gmh">
-            måndagen den 15 januari, kl. 11 f. m.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-EbacAYzmYuT8Gid8gU7ytZ">
-            § 1.
-          </note>
-          <note xml:id="i-2WWXA4qgbrvRrWd4VBKMDj">
-            Sammanträdet öppnades av representanten för Skaraborgs läns södra
-            valkrets, herr Persson i Stallerhult, såsom den till levnadsåren
-            äldste av de ledamöter, vilka de flesta riksdagar bevistat, med
-            föl- Jande ord:
-          </note>
-          <u xml:id="i-Cj3APzhGZztrvRMKcyWy5i" who="unknown" next="i-EzsGD4Dz8hLZ7LQmqwTWiD">
-            <seg xml:id="i-NWwSUf4R9YMpssTzGCcZFX">
-              Det åligger mig intaga denna plats intilldess för kammaren tillkännagivits
-              förordnande av talman och vice talman. J ag ber få hälsa samtliga
-              hjärtligt välkomna till arbetet. .
-            </seg>
-          </u>
-          <u xml:id="i-EzsGD4Dz8hLZ7LQmqwTWiD" who="unknown" prev="i-Cj3APzhGZztrvRMKcyWy5i" next="i-2vjS2eQTuMaSXSHndX1TLK">
-            <seg xml:id="i-MiR25C8g3LQTNCJsr56nZu">
-              Vi erinra oss, att det nu är 50 år, som riksdagen varit sammansatt
-              av två kamrar. Stora förändringar ha under tiden genom riksdagens
-              medverkan ägt rum inom vårt land. Ändringarna äro så omfattande,
-              att knappast någon vid den tiden vågade hysa en tanke därom, att
-              det skulle utveckla sig, som skett. Kommunikationsleder äro byggda
-              i stor utsträckning, som framkallat företag av höga värden. Det
-              direkta skatteväsendet, som förut med det hårdaste trycket vilade
-              på rustoch roterade hemmanen, under det de värdefullaste egendomarna
-              voro nära nog fria, är helt omlagt, så att skatten utgår efter
-              inkomst och förmögenhet i stigande skala. Det kan ej falla mig
-              in angiva flera frågor. :
-            </seg>
-          </u>
-          <u xml:id="i-2vjS2eQTuMaSXSHndX1TLK" who="unknown" prev="i-EzsGD4Dz8hLZ7LQmqwTWiD" next="i-VgevFLF9FZjrMM6VHYJAzf">
-            <seg xml:id="i-Cw37zYi429fAB5p1VHWzVH">
-              m man frånräknar de två senare åren med dess besvärligheter,
-              vågar jag fälla det omdömet, att välmågan för svenska folket stigit
-              1 avsevärd grad.
-            </seg>
-          </u>
-          <u xml:id="i-VgevFLF9FZjrMM6VHYJAzf" who="unknown" prev="i-2vjS2eQTuMaSXSHndX1TLK" next="i-FjJ6o6eFQs8aRFzDqbQEbU">
-            <seg xml:id="i-GmRxwdKYnq85YWEhuYptR8">
-              Det synes mig att vi med vördnad, högaktning och tacksamhet må
-              erinra oss de konungar, regeringar och riksdagar, som under tiden
-              haft ledningen och beslutandet i sina händer.
-            </seg>
-          </u>
-          <u xml:id="i-FjJ6o6eFQs8aRFzDqbQEbU" who="unknown" prev="i-VgevFLF9FZjrMM6VHYJAzf">
-            <seg xml:id="i-Rui7Q6GjngjjqmM9vutQ3V">
-              Med önskan att det i fortsättningen må gå väl, och att Gud må
-              beskydda Konung, folk och fosterland, förklaras härmed sammanträdet
-              öppnat.
-            </seg>
-          </u>
-          <note xml:id="i-TEcVLcBEBGFBfeLaNNX65M">
-            Andra kammarens protokoll 1917. Nr I; 1
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1917--ak--1/prot_1917__ak__1-001.jp2/_view"/>
-          <note xml:id="i-4g25hZ4mwtfuknLxsHcX3e">
-            Nr 1.
-          </note>
-          <note xml:id="i-WCSY5nSmRZMK84WWxXA8DT">
-            2 Måndagen den 15 januari.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-KVZQ6KhKeNsGQsdfinA7FU">
-            § 2.
-          </note>
-          <note xml:id="i-Lqtoq99q4b4hqEQQUpJkwv">
-            Herr ordföranden tillkännagav, att han anmodat undertecknade
-            att föra protokollet, till dess sekreterare hunnit utses, ävensom
-            att kanslibiträden och vaktbetjäning blivit till erforderligt
-            antal av honom för tillfället antagna; och blevo på framställd
-            proposition dessa åtgärder av kammaren godkända.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-RDvEq76ysoYCWYcnZCgddg">
-            § 3.
-          </note>
-          <note xml:id="i-SLTJUiB2fTR6WqX8BPt1mf">
-            Upplästes följande till kammaren ankomna protokoll angående den
-            i $ 32 riksdagsordningen föreskrivna fullmaktsgranskningen:
-          </note>
-          <note xml:id="i-HWyv5JerXhDHaeUF6Bf6Wd">
-            Protokoll hållet inför statsrådet och chefen för justitiedepartementet
-            den 12 januari 1917.
-          </note>
-          <note xml:id="i-T8maQNoQn2nih9pcstL7m">
-            I anledning av stadgandet i $ 32 riksdagsordningen hade statsrådet
-            och chefen för justitiedepartementet anmodat tre bland de av riksdagen
-            valda fullmäktige i riksbanken och tre bland fullmäktige i riksgäldskontoret
-            att närvara vid den granskning av riksdagsmannafullmakter, som
-            skulle inför departementschefen verkställas innan årets lagtima
-            riksdag sommanträdde; och infunno sig nu av fullmäktige i riksbanken
-            herrar R. E. Norberg, Sven Palme och F. W. Thorsson samt av fullmäktige
-            i riksgäldskontoret herrar G. Kobb, H. S. Tamm och Karl Hildebrand.
-          </note>
-          <note xml:id="i-GkUo4FqB1m282H641ZUzAX">
-            Till justitiedepartementet hade, vad andra kammaren angår, insänts
-            fullmakter för 6 personer, som, efter avgång bland kammarens för
-            åren 1915—1917 valda ledamöter, vid nya röstsammanräkningar utsetts
-            att inträda i de avgångnas ställe.
-          </note>
-          <u xml:id="i-FkFZRJfEgQUTZP4F8CFEwF" who="unknown" next="i-UFkMGDpeQE212mbDVPU2S1">
-            <seg xml:id="i-VRSxd1m7tGpUUxmYtNKtUa">
-              Granskning företogs nu av de insända fullmakterna.
-            </seg>
-          </u>
-          <note xml:id="i-NPNFPUs4nGnhwb7byZcQ7o">
-            Det anmärktes såsom avvikande från det i 68 $&amp; av lagen om val
-            till riksdagen föreskrivna formulär, att i några fullmakter tiden,
-            för vilken valet gällde, icke angivits i full överensstämmelse
-            med formuläret.
-          </note>
-          <u xml:id="i-UFkMGDpeQE212mbDVPU2S1" who="unknown" prev="i-FkFZRJfEgQUTZP4F8CFEwF" next="i-JfBFMkxfhxexDLX5nSLA8a">
-            <seg xml:id="i-GDjJwj1ixo7DzoovujsdYS">
-              Då emellertid denna avvikelse från formuläret icke syntes vara
-              av beskaffenhet, att därigenom meningen förändrades eller otydlighet
-              föranleddes, ansågs densamma ej böra utgöra hinder mot fullmakternas
-              godkännande.
-            </seg>
-          </u>
-          <u xml:id="i-JfBFMkxfhxexDLX5nSLA8a" who="unknown" prev="i-UFkMGDpeQE212mbDVPU2S1">
-            <seg xml:id="i-6dw3gxjW6G2UDFT8JUNB58">
-              I övrigt blevo de granskade fullmakterna lämnade utan anmärkning.
-            </seg>
-          </u>
-          <note xml:id="i-WA3TqNmhBSrpVboUk5RjZ2">
-            Protokoll över granskningen jämte förteckning å de riksdagsmän,
-            för vilka de granskade fullmakterna utfärdats, skulle tillika
-            med dessa fullmakter överlämnas till kammaren.
-          </note>
-          <note xml:id="i-BYTHeK2D7EGgrjrQuSfvQj">
-            I ämbetet: Sven Hagströmer.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1917--ak--1/prot_1917__ak__1-002.jp2/_view"/>
-          <note xml:id="i-CJdNTYLvBFTAakz9NtNrkL">
-            Måndagen den 15 januari. 3 Nr 1.
-          </note>
-          <note xml:id="i-9nw9RQRey6HVYMnQYjutzt">
-            Den i protokollet omförmälda förteckningen var av följande lydelse:
-          </note>
-          <note xml:id="i-VaPozTYdicoQZHF2eEJ8rx">
-            Förteckning å ledamöter av riksdagens andra kammare enligt fullmakter,
-            granskade inför chefen för justitiedepartementet den 12 januari
-            1917.
-          </note>
-          <note xml:id="i-FY8H1J9WABvw7pUKcmy7YC">
-            Kalmar läns södra valkrets. 1. Tantbrukaren Petrus Nilsson i
-            Gränebo.
-          </note>
-          <note xml:id="i-V6fVgvrsXubj8CNy1PyqLT">
-            Blekinge läns valkrets. 2. "Tapetseraren A. H. Hansson i Sölvesborg.
-          </note>
-          <note xml:id="i-6dbdGH8Kp8bH5cf2KPPdaQ">
-            Malmö stad. 3. Konduktören Carl Lovén.
-          </note>
-          <note xml:id="i-BmZorH8HAf7Kx8wEndhFif">
-            Göteborgs och Bohus läns södra valkrets. 4. Folkhögskolföreståndaren
-            Oskar Lundgren i Wendelsberg.
-          </note>
-          <note xml:id="i-RViqttCz8HR8CXY1xx8MGu">
-            Västmanlands läns östra valkrets. 5. Kronolänsmannen Alfred Bolander
-            i Sala.
-          </note>
-          <note xml:id="i-UQCPGKfjjzUxrb8X1ZQ4Kx">
-            Kopparbergs läns västra valkrets. 6. Landstingsmannen L. J. Hagman
-            i Domnarvet.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-FD1qPX4yHQNGsVogeei3Fh">
-            § 4.
-          </note>
-          <note xml:id="i-PmQ7UfdJvK6zCQ6b99Ns7v">
-            Företogs upprop av kammarens ledamöter; och befunnos därvid följande
-            ledamöter frånvarande, nämligen: herrar Höglund i Stockholm, Liljedahl,
-            Johanson i Huskvarna, Jeansson i Kalmar, Nilsson i Bonarp, Sigfrid,
-            Nilsson i Tånga, Jönsson i Revinge, Waldén, Sommelius, Persson
-            i Björsbyholm, Kaijser, Molin i Dombäcksmark, Wiklund och Stenudd.
-          </note>
-          <note xml:id="i-RHz8SjSncuQ4szLPGsHv7U">
-            Herr ordföranden meddelade, att från herr Höglund i Stockholm
-            inkommit en skrivelse, däri han, enär regeringen avslagit av honom
-            med hänvisning till 8 4 riksdagsordningen gjord framställning
-            om avbrytande under riksdagstiden av fängelsestraff, som han för
-            närvarande vore underkastad, anmält sig förhindrad att tills vidare
-            infinna sig vid kammarens sammanträden för att utöva den riksdagsmannabefattning,
-            vartill han vore vald, att enligt ingånget läkarbetyg herr Persson
-            i Björsbyholm på grund av sjukdom tills vidare vore oförmögen
-            att bevista riksdagens sammanträden, samt att herrar Molin i Dombäcksmark,
-            Wiklund och Stenudd uti ingivna ansökningar anhållit om ledighet
-            från riksdagsgöromålen från och med denna dag, herr Molin i Dombäcksmark
-            under 3 dagar till följd av oförutsedda synnerligen viktiga enskilda
-            angelägenheter, herr Wiklund under 7 dagar på grund av sjukdomsfall
-            i hemmet
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1917--ak--1/prot_1917__ak__1-003.jp2/_view"/>
-          <note xml:id="i-XuTDhQbo6JooQoAL3Zxxu7">
-            Nr 1.
-          </note>
-          <note xml:id="i-Ph87YEe9YQf13c8gTVykC1">
-            4 Måndagen den 15 januari.
-          </note>
-          <note xml:id="i-RhcxkseYMN1MDTkmCipEJv">
-            och herr Stenudd under 5 dagar i anledning av uppdrag såsom tingstolk.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-7QRzbKNK9Kp8q3yq1yq3VL">
-            § 5.
-          </note>
-          <note xml:id="i-9bm3MpgcdmRqnUCN83jHeE">
-            Herr ordföranden tillkännagav, att hans excellens herr statsministern
-            Hammarskjöld avvaktade budskap om avslutande av uppropet, varefter
-            han ville infinna sig för att meddela kammaren Kungl. Majt:s beslut
-            angående talman och vice talman i kammaren, samt att ordföranden
-            uppdragit åt herrar Modig och Bäcklund att underrätta hans excellens
-            herr statsministern, att uppropet vore verkställt och kammaren
-            redo att mottaga honom.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-JFvVoNdXVj89XsvJgVn7Jn">
-            § 6.
-          </note>
-          <note xml:id="i-4JYpG6YMc6zxUYrxrBzDdJ">
-            Hans excellens herr statsministern inträdde nu samt uppläste
-            Kungl. Maj:ts öppna brev angående förordnande av talman och vice
-            talman i denna kammare, enligt vilket förordnats till talman leda
-            moten av kammaren för Jämtlands läns södra valkrets herr Johan
-            Widén och till vice talman ledamoten av kammaren för Kopparbergs
-            läns norra valkrets herr Daniel Persson i Tällberg.
-          </note>
-          <u xml:id="i-HYMe8VgoDWhJppUuThnbU7" who="unknown" next="i-Ti9GhXC1XjYC33TdWjHTaB">
-            <seg xml:id="i-TrumsYmtgpPy6BtL3Bx21Z">
-              $7.
-            </seg>
-          </u>
-          <note xml:id="i-3NztqRigYF6onFJc83AC6i">
-            Ålderspresidenten överlämnade ordförandeklubban till herr talmannen,
-            varefter denne hälsade kammaren med följande tal:
-          </note>
-          <u xml:id="i-Ti9GhXC1XjYC33TdWjHTaB" who="unknown" prev="i-HYMe8VgoDWhJppUuThnbU7" next="i-EeKNwMy6YM5nQj75kWcbFr">
-            <seg xml:id="i-3yg71uyQh2P6tv6tpoJRMU">
-              Mina herrar! En månad allenast har förflutit sedan förra riksdagen
-              formellt avslutades; och åter äro vi samlade på detta rum.
-            </seg>
-          </u>
-          <u xml:id="i-EeKNwMy6YM5nQj75kWcbFr" who="unknown" prev="i-Ti9GhXC1XjYC33TdWjHTaB" next="i-6MHgPLEsLL4ESJ6hkCdnnq">
-            <seg xml:id="i-4xTkh3Ny6xhdX3GPoi4ZHU">
-              Osökt föres tanken på att, såsom redan ålderspresidenten erinrat,
-              det nu är 50 år sedan den första riksdagen enligt 1866 års riksdagsordning
-              sammanträdde; andra kammaren kan alltså sägas nu fylla sitt halva
-              sekel. Utan att jävas kan jag säga, att det är en storartad utveckling
-              på den andliga och materiella odlingens områden, som vårt kära
-              fädernesland under denna tid genomgått. Förvisso har riksdagens
-              insats i arbetet på denna utveckling också varit av allra största
-              betydelse. Här är ej tillfälle att närmare ingå härpå. Må blott
-              för andra kammarens del det sägas, att erfarenheterna från de
-              år, som gått innebära en förtröstan, likasom även en maning för
-              år som komma.
-            </seg>
-          </u>
-          <u xml:id="i-6MHgPLEsLL4ESJ6hkCdnnq" who="unknown" prev="i-EeKNwMy6YM5nQj75kWcbFr" next="i-KHAxSzY8ThBfsKELxRoajx">
-            <seg xml:id="i-4hB54hxgKYkhGEyvwVx8DC">
-              Alla tecken, främst det krigstillstånd, som nu på tredje året
-              fortfarande råder utomkring oss, med dess konsekvenser för vårt
-              land, varsla, att denna riksdag skall bliva en riksdag, fylld
-              av allvarliga uppgifter, av ansträngande arbete. Även talmannens
-              uppgift framträder härvid för mig såsom mer än vanligt maktpåliggande.
-              Må jag vid dess fullgörande få fortfarande såsom hittills åtnjuta
-              kammarens överseende och välvilja.
-            </seg>
-          </u>
-          <u xml:id="i-KHAxSzY8ThBfsKELxRoajx" who="unknown" prev="i-6MHgPLEsLL4ESJ6hkCdnnq" next="i-6MqAqSBt8WML2f9rUqNaTE">
-            <seg xml:id="i-CvuqKybEqbjFFEAs3ZTpfe">
-              Och må vid våra överläggningar och vårt arbete fäderneslandets
-              väl vara ledstjärnan. Gud bevare vårt älskade fädernesland!
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1917--ak--1/prot_1917__ak__1-004.jp2/_view"/>
-          <u xml:id="i-6MqAqSBt8WML2f9rUqNaTE" who="unknown" prev="i-KHAxSzY8ThBfsKELxRoajx">
-            <seg xml:id="i-8uS3A3ioYY67pDwqsMHXEr">
-              [Ad
-            </seg>
-          </u>
-          <note xml:id="i-Tp8WAQwe28Ashw4Cf9nGkn">
-            Måndagen den 15 januari.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-Uiu5pXeud4QMQ8iRTcbBpM">
-            § 8.
-          </note>
-          <note xml:id="i-4d1A6rqXk4wKyejmbUAPdX">
-            Herr talmannen föredrog ånyo det under $ 3 här ovan intagna protokollet,
-            och beslöt kammaren att, med godkännande av de däri omförmälda
-            fullmakterna, lägga protokollet till handlingarna.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-CbqVeGXyCdCj1K11nW52LC">
-            § 9.
-          </note>
-          <note xml:id="i-Kwo25RWZVXW5A72j1c1rt1">
-            Kammaren beslöt att lägga Kungl. Maj:ts i $ 6 omnämnda brev till
-            handlingarna.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-S3sxzYM1vLaEbLW6uwg6Fj">
-            § 10.
-          </note>
-          <note xml:id="i-DjHwpA1yPAXkguXwza6ybk">
-            Herr talmannen anmälde, att någon ansökning till sekreterarebefattningen
-            hos kammaren icke inkommit, och hemställde, huruvida kammaren
-            behagade genast företaga val av sekreterare.
-          </note>
-          <note xml:id="i-3hsWwMdiVCHc5Hsgw3reJN">
-            Denna hemställan bifölls av kammaren, varefter det sålunda beslutade
-            valet företogs; och befanns efter valsedlarnas öppnande och uppräkning
-            valet hava så utfallit, att till sekreterare utsetts notarien
-            hos överståthållarämbetet, jur. och fil. kandidaten Per Cronvall
-            med 139 eller alla avgivna godkända röster.
-          </note>
-          <note xml:id="i-UYeY63XGTf9Co3a2w7ZApb">
-            Sekreteraren, som härefter på kallelse inställde sig, övertog,
-            efter erhållen kännedom om valets utgång, protokollsföringen.
-          </note>
-          <note xml:id="i-VFgm3N9WHmUetEshwvRadX">
-            Allan Cederborg. Walter Kant.
-          </note>
-        </div>
-        <div type="debateSection">
-          <note xml:id="i-VF8ppU3Nq9t1Y7NPZjggEb">
-            § 11.
-          </note>
-          <note xml:id="i-8nTf7wYJpEPRp8EWBejw9T">
-            Den i $ 4 omförmälda från herr Höglund i Stockholm ingångna anmälan
-            att han tills vidare vore förhindrad infinna sig vid riksdagen
-            föredrogs ånyo; och yttrade därvid
-          </note>
-          <note xml:id="i-NQmujJvNZnU2wKRWQ9EFwN" type="speaker">
-            Herr Lindhagen:
-          </note>
-          <u who="Q55955" xml:id="i-EFCtCnPYtoihwYhxWkV9rU" next="i-4DY2HtDrXwas1qNjwJijho">
-            <seg xml:id="i-DtbZeVS3ybC9Sw54iz34ER">
-              Herr talman! Av den gjorda anmälan framgår, att riksdagsman Höglund
-              hos regeringen begärt att jämlikt 8 4 riksdagsordningen honom
-              måtte tillåtas att avbryta sitt fängelsestraff för att utöva sitt
-              riksdagsmannauppdrag. Denna ansökan har Kungl. Maj:t förklarat
-              icke kunna lagligen bifallas. Utan att vidare ingå på Kungl. Maj:ts
-              beslut skall jag endast be att i detta sammanhang få erinra om,
-              att den paragraf som riksdagsman Höglund åberopat eller $ 4 riksdagsordningen
-              lyder på följande sätt: »Ej må någon riksdagsman förmenas att
-              sin riksdagsmannabefattning utöva.» Herr Höglund är fortfarande
-              riksdagsman. Det finns även en annan paragraf, som icke åberopats
-              av herr Höglund, nämligen $ 111 regeringsformen, där det i första
-              momentets sista punkt heter: »Ej må riksdagsman i andra fall,
-              än som i denna och näst föregående $ sagda äro, sin frihet berövas.»
-              Herr Höglund är fortfarande riksdagsman. Nu är det ju tämligen
-              påtagligt, att det måste anses vara en mycket stor brist i författningen,
-              att en riksdagsmån
-            </seg>
-          </u>
-          <note xml:id="i-2unDhV8pYMTvdDb4ACmqMJ">
-            Nr 1.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1917--ak--1/prot_1917__ak__1-005.jp2/_view"/>
-          <note xml:id="i-ApPn41gTSq2y6hvo7ojhDe">
-            Nr 1.
-          </note>
-          <note xml:id="i-4FCmqJtrTCcy32yxtNvMgK">
-            6 Måndagen den 15 jaunari.
-          </note>
-          <u xml:id="i-4DY2HtDrXwas1qNjwJijho" prev="i-EFCtCnPYtoihwYhxWkV9rU" who="Q55955">
-            <seg xml:id="i-7Fixa1dMxghjWPEao9eykV">
-              kan hindras från att utöva sin riksdagsmannabefattning. Jag har
-              undrat, om icke i enlighet med grundlagens anda och mening i dess
-              bokstav, som jag tillåtit mig uppläsa, skulle ligga någon formulering,
-              som läte sakens natur komma till sin rätt och till äventyrs gåve
-              kammaren själv befogenhet att besluta om, att en dess ledamot
-              icke finge sin frihet berövas, när riksdagsmannabefattningen skall
-              utövas. Emellertid är lagen ofullständig och illa skriven, och
-              talmannen har förklarat, att han finner, att denna sak icke kan
-              — tyvärr, skulle jag för min del vilja säga — av kammaren lagligen
-              upptagas till prövning. Under så vidriga förhållanden, herr talman,
-              får jag för denna gång nöja mig med det uttalande som nu gjorts,
-              men jag hoppas, att denna början skall bliva inledningen till
-              en mycket lång fortsättning.
-            </seg>
-          </u>
-          <note xml:id="i-K17b6rmKbdfu5dNPBTeKw5" type="speaker">
-            Herr Hallendorff:
-          </note>
-          <u who="Q5784621" xml:id="i-VSkjm8khk5SBRLzUyt8mkz">
-            <seg xml:id="i-LLTqSZPfnFs5ig4GwykABH">
-              Herr talman! Jag tillåter mig att till herr talmannen framställa
-              en förfrågan, huruvida det i detta sammanhang är fråga om att
-              på ett eller annat sätt godkänna det förfall som herr Höglund
-              anmält. Detta har en viss betydelse med hänsyn till ett fall,
-              som inträffade i första kammaren förra året, då en av dess ledamöter
-              av fängelsestraff hindrades närvara. Han erhöll då formlig ledighet
-              från riksdagsarbetet och därmed fick han åtnjuta sitt fulla riksdagshonorar.
-            </seg>
-          </u>
-          <note xml:id="i-PquzLqhEt3d26FLzahTqzZ" type="speaker">
-            Herr talmannen:
-          </note>
-          <u who="Q6240063" xml:id="i-JYSFpTKnJ87VMX3Y66bDWg">
-            <seg xml:id="i-PdVnwC8kL4rK9Uv1s9RvYV">
-              Jag får fästa uppmärksamheten på, att herr Höglunds anmälan är
-              föredragen, och var och en, som har något att i anledning därav
-              yttra eller föreslå, bör nu göra det.
-            </seg>
-          </u>
-          <note xml:id="i-LujxqMkMyi3voBqukoPA7j" type="speaker">
-            Herr Hallendorff:
-          </note>
-          <note xml:id="i-BeVWxDAfcm7x5LKJCMbWFP">
-            Herr talman! Under sådana omständigheter anhåller jag, att herr
-            Höglunds anmälan bordlägges till nästa sammanträde. .
-          </note>
-          <note xml:id="i-559Qga6H59iryoqYa6XLgU">
-            Vidare anfördes ej. TI enlighet med herr Hallendorffs begäran
-            blev herr Höglunds i Stockholm förevarande anmälan bordlagd.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-9scFijfrytqk4zivyirwS4">
-            § 12.
-          </note>
-          <note xml:id="i-GP4Jn2kHoRjTeUxCYF41m9">
-            Härefter föredrogs åter och lades till handlingarna det i 8 4
-            omnämnda sjukbetyget för herr Persson i Björsbyholm.
-          </note>
-          <note xml:id="i-SxnCzqCtnapADjMFDSyua1">
-            Vidare blevo de av herrar Molin i Dombäcksmark, Wiklund och Stenudd
-            ingivna ansökningar om ledighet från riksdagsgöromålen, som nu
-            ånyo föredrogos, av kammaren bifallna.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-Mbg2T9ED1JCh8jy5KfAvpg">
-            § 13.
-          </note>
-          <note xml:id="i-KF9nDgEwqxkxcMpnvo2RVk">
-            På hemställan av herr talmannen beslöt kammaren att vid plenum
-            onsdagen den 17 januari företaga val av tre ledamöter att deltaga
-            i talmansöverläggningarna, två ledamöter att hava inseende
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1917--ak--1/prot_1917__ak__1-006.jp2/_view"/>
-          <note xml:id="i-KZmuZiiJosKUr451N6MRir">
-            Måndagen den 15 januari. 7 o
-          </note>
-          <note xml:id="i-Ge8M3ejQ1XUNGEtm25qkVB">
-            över riksdagens kansli, åtta ledamöter att jämte herr talmannen
-            tillsätta kammarens kanslipersonal och vaktbetjäning samt tre
-            ledamöter att handhava vården om kammarens ekonomiska angelägenheter.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-PASNGdR6UaACHGSKrJrxPA">
-            § 14.
-          </note>
-          <note xml:id="i-5AHmjk8x8fxBmuNjsdJuqf">
-            Till talarplatser för ledamöter, som kunde vilja därav begagna
-            sig, anvisades på herr talmannens förslag de två för ändamålet
-            anordnade, på vardera sidan om talmansbordet befintliga platserna.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-WwA7q5V5nZ4poav6Yik57n">
-            § 15.
-          </note>
-          <note xml:id="i-XJ68M9ivzb4sdM7He2283v">
-            Herr talmannen meddelade, att till kammarens förfogande överlämnats
-            ett antal inträdesbiljetter till rikssalen vid riksdagens öppnande,
-            och hemställde, att fördelning av dessa biljetter finge genom
-            kammarens kansli ske efter slutet av kammarens sammanträde denna
-            dag med iakttagande, att de för ledamöterna från Stockholms stad
-            och vart och ett av rikets län avsedda biljetterna utlämnades
-            till Stockholms stads och varje läns äldste närvarande representant,
-            som sedermera finge ombesörja den vidare utdelningen.
-          </note>
-          <note xml:id="i-E566b7pTjy8HqLuWaFN6hc">
-            Denna hemställan bifölls.
-          </note>
-          <note xml:id="i-WGt96QpXzRdiNYdsH3ucac">
-            Härefter åtskildes kammarens ledamöter kl. 12,5 e. m.
-          </note>
-          <note xml:id="i-8UziZX8M5NXEFd18k228mY">
-            In fidem Per Cronvall.
-          </note>
-          <note xml:id="i-BtefRVDW8d6nFxr4xNqqDJ">
-            Nr 1.
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1917--ak--1</head>
+        <docDate when="1917-01-15">1917-01-15</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection">
+        <pb facs="https://betalab.kb.se/prot-1917--ak--1/prot_1917__ak__1-000.jp2/_view"/>
+        <note xml:id="i-Vur2yU3xYVum3KzDaMmuA3">
+          RIKSDAGENS PROTOKOLL.
+        </note>
+        <note xml:id="i-GrDvVgLp9arEEHJB3bfz9H">
+          1917. Andra kammaren. Nr I.
+        </note>
+        <note xml:id="i-4p4enV31SVjuCGrrATuKPo">
+          I enlighet med $ 49 regeringsformen och 8 2 riksdagsordningen
+          sammanträdde andra kammaren till lagtima möte här i huvudstaden
+          i den uti riksdagens hus för kammaren anordnade samlingssalen
+        </note>
+        <note xml:id="i-KLxfKcRxFv21HrhcQT2Gmh">
+          måndagen den 15 januari, kl. 11 f. m.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-EbacAYzmYuT8Gid8gU7ytZ">
+          § 1.
+        </note>
+        <note xml:id="i-2WWXA4qgbrvRrWd4VBKMDj">
+          Sammanträdet öppnades av representanten för Skaraborgs läns södra
+          valkrets, herr Persson i Stallerhult, såsom den till levnadsåren
+          äldste av de ledamöter, vilka de flesta riksdagar bevistat, med
+          föl- Jande ord:
+        </note>
+        <u xml:id="i-Cj3APzhGZztrvRMKcyWy5i" who="unknown" next="i-EzsGD4Dz8hLZ7LQmqwTWiD">
+          <seg xml:id="i-NWwSUf4R9YMpssTzGCcZFX">
+            Det åligger mig intaga denna plats intilldess för kammaren tillkännagivits
+            förordnande av talman och vice talman. J ag ber få hälsa samtliga
+            hjärtligt välkomna till arbetet. .
+          </seg>
+        </u>
+        <u xml:id="i-EzsGD4Dz8hLZ7LQmqwTWiD" who="unknown" prev="i-Cj3APzhGZztrvRMKcyWy5i" next="i-2vjS2eQTuMaSXSHndX1TLK">
+          <seg xml:id="i-MiR25C8g3LQTNCJsr56nZu">
+            Vi erinra oss, att det nu är 50 år, som riksdagen varit sammansatt
+            av två kamrar. Stora förändringar ha under tiden genom riksdagens
+            medverkan ägt rum inom vårt land. Ändringarna äro så omfattande,
+            att knappast någon vid den tiden vågade hysa en tanke därom, att
+            det skulle utveckla sig, som skett. Kommunikationsleder äro byggda
+            i stor utsträckning, som framkallat företag av höga värden. Det
+            direkta skatteväsendet, som förut med det hårdaste trycket vilade
+            på rustoch roterade hemmanen, under det de värdefullaste egendomarna
+            voro nära nog fria, är helt omlagt, så att skatten utgår efter
+            inkomst och förmögenhet i stigande skala. Det kan ej falla mig
+            in angiva flera frågor. :
+          </seg>
+        </u>
+        <u xml:id="i-2vjS2eQTuMaSXSHndX1TLK" who="unknown" prev="i-EzsGD4Dz8hLZ7LQmqwTWiD" next="i-VgevFLF9FZjrMM6VHYJAzf">
+          <seg xml:id="i-Cw37zYi429fAB5p1VHWzVH">
+            m man frånräknar de två senare åren med dess besvärligheter,
+            vågar jag fälla det omdömet, att välmågan för svenska folket stigit
+            1 avsevärd grad.
+          </seg>
+        </u>
+        <u xml:id="i-VgevFLF9FZjrMM6VHYJAzf" who="unknown" prev="i-2vjS2eQTuMaSXSHndX1TLK" next="i-FjJ6o6eFQs8aRFzDqbQEbU">
+          <seg xml:id="i-GmRxwdKYnq85YWEhuYptR8">
+            Det synes mig att vi med vördnad, högaktning och tacksamhet må
+            erinra oss de konungar, regeringar och riksdagar, som under tiden
+            haft ledningen och beslutandet i sina händer.
+          </seg>
+        </u>
+        <u xml:id="i-FjJ6o6eFQs8aRFzDqbQEbU" who="unknown" prev="i-VgevFLF9FZjrMM6VHYJAzf">
+          <seg xml:id="i-Rui7Q6GjngjjqmM9vutQ3V">
+            Med önskan att det i fortsättningen må gå väl, och att Gud må
+            beskydda Konung, folk och fosterland, förklaras härmed sammanträdet
+            öppnat.
+          </seg>
+        </u>
+        <note xml:id="i-TEcVLcBEBGFBfeLaNNX65M">
+          Andra kammarens protokoll 1917. Nr I; 1
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1917--ak--1/prot_1917__ak__1-001.jp2/_view"/>
+        <note xml:id="i-4g25hZ4mwtfuknLxsHcX3e">
+          Nr 1.
+        </note>
+        <note xml:id="i-WCSY5nSmRZMK84WWxXA8DT">
+          2 Måndagen den 15 januari.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-KVZQ6KhKeNsGQsdfinA7FU">
+          § 2.
+        </note>
+        <note xml:id="i-Lqtoq99q4b4hqEQQUpJkwv">
+          Herr ordföranden tillkännagav, att han anmodat undertecknade
+          att föra protokollet, till dess sekreterare hunnit utses, ävensom
+          att kanslibiträden och vaktbetjäning blivit till erforderligt
+          antal av honom för tillfället antagna; och blevo på framställd
+          proposition dessa åtgärder av kammaren godkända.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-RDvEq76ysoYCWYcnZCgddg">
+          § 3.
+        </note>
+        <note xml:id="i-SLTJUiB2fTR6WqX8BPt1mf">
+          Upplästes följande till kammaren ankomna protokoll angående den
+          i $ 32 riksdagsordningen föreskrivna fullmaktsgranskningen:
+        </note>
+        <note xml:id="i-HWyv5JerXhDHaeUF6Bf6Wd">
+          Protokoll hållet inför statsrådet och chefen för justitiedepartementet
+          den 12 januari 1917.
+        </note>
+        <note xml:id="i-T8maQNoQn2nih9pcstL7m">
+          I anledning av stadgandet i $ 32 riksdagsordningen hade statsrådet
+          och chefen för justitiedepartementet anmodat tre bland de av riksdagen
+          valda fullmäktige i riksbanken och tre bland fullmäktige i riksgäldskontoret
+          att närvara vid den granskning av riksdagsmannafullmakter, som
+          skulle inför departementschefen verkställas innan årets lagtima
+          riksdag sommanträdde; och infunno sig nu av fullmäktige i riksbanken
+          herrar R. E. Norberg, Sven Palme och F. W. Thorsson samt av fullmäktige
+          i riksgäldskontoret herrar G. Kobb, H. S. Tamm och Karl Hildebrand.
+        </note>
+        <note xml:id="i-GkUo4FqB1m282H641ZUzAX">
+          Till justitiedepartementet hade, vad andra kammaren angår, insänts
+          fullmakter för 6 personer, som, efter avgång bland kammarens för
+          åren 1915—1917 valda ledamöter, vid nya röstsammanräkningar utsetts
+          att inträda i de avgångnas ställe.
+        </note>
+        <u xml:id="i-FkFZRJfEgQUTZP4F8CFEwF" who="unknown" next="i-UFkMGDpeQE212mbDVPU2S1">
+          <seg xml:id="i-VRSxd1m7tGpUUxmYtNKtUa">
+            Granskning företogs nu av de insända fullmakterna.
+          </seg>
+        </u>
+        <note xml:id="i-NPNFPUs4nGnhwb7byZcQ7o">
+          Det anmärktes såsom avvikande från det i 68 $&amp; av lagen om val
+          till riksdagen föreskrivna formulär, att i några fullmakter tiden,
+          för vilken valet gällde, icke angivits i full överensstämmelse
+          med formuläret.
+        </note>
+        <u xml:id="i-UFkMGDpeQE212mbDVPU2S1" who="unknown" prev="i-FkFZRJfEgQUTZP4F8CFEwF" next="i-JfBFMkxfhxexDLX5nSLA8a">
+          <seg xml:id="i-GDjJwj1ixo7DzoovujsdYS">
+            Då emellertid denna avvikelse från formuläret icke syntes vara
+            av beskaffenhet, att därigenom meningen förändrades eller otydlighet
+            föranleddes, ansågs densamma ej böra utgöra hinder mot fullmakternas
+            godkännande.
+          </seg>
+        </u>
+        <u xml:id="i-JfBFMkxfhxexDLX5nSLA8a" who="unknown" prev="i-UFkMGDpeQE212mbDVPU2S1">
+          <seg xml:id="i-6dw3gxjW6G2UDFT8JUNB58">
+            I övrigt blevo de granskade fullmakterna lämnade utan anmärkning.
+          </seg>
+        </u>
+        <note xml:id="i-WA3TqNmhBSrpVboUk5RjZ2">
+          Protokoll över granskningen jämte förteckning å de riksdagsmän,
+          för vilka de granskade fullmakterna utfärdats, skulle tillika
+          med dessa fullmakter överlämnas till kammaren.
+        </note>
+        <note xml:id="i-BYTHeK2D7EGgrjrQuSfvQj">
+          I ämbetet: Sven Hagströmer.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1917--ak--1/prot_1917__ak__1-002.jp2/_view"/>
+        <note xml:id="i-CJdNTYLvBFTAakz9NtNrkL">
+          Måndagen den 15 januari. 3 Nr 1.
+        </note>
+        <note xml:id="i-9nw9RQRey6HVYMnQYjutzt">
+          Den i protokollet omförmälda förteckningen var av följande lydelse:
+        </note>
+        <note xml:id="i-VaPozTYdicoQZHF2eEJ8rx">
+          Förteckning å ledamöter av riksdagens andra kammare enligt fullmakter,
+          granskade inför chefen för justitiedepartementet den 12 januari
+          1917.
+        </note>
+        <note xml:id="i-FY8H1J9WABvw7pUKcmy7YC">
+          Kalmar läns södra valkrets. 1. Tantbrukaren Petrus Nilsson i
+          Gränebo.
+        </note>
+        <note xml:id="i-V6fVgvrsXubj8CNy1PyqLT">
+          Blekinge läns valkrets. 2. "Tapetseraren A. H. Hansson i Sölvesborg.
+        </note>
+        <note xml:id="i-6dbdGH8Kp8bH5cf2KPPdaQ">
+          Malmö stad. 3. Konduktören Carl Lovén.
+        </note>
+        <note xml:id="i-BmZorH8HAf7Kx8wEndhFif">
+          Göteborgs och Bohus läns södra valkrets. 4. Folkhögskolföreståndaren
+          Oskar Lundgren i Wendelsberg.
+        </note>
+        <note xml:id="i-RViqttCz8HR8CXY1xx8MGu">
+          Västmanlands läns östra valkrets. 5. Kronolänsmannen Alfred Bolander
+          i Sala.
+        </note>
+        <note xml:id="i-UQCPGKfjjzUxrb8X1ZQ4Kx">
+          Kopparbergs läns västra valkrets. 6. Landstingsmannen L. J. Hagman
+          i Domnarvet.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-FD1qPX4yHQNGsVogeei3Fh">
+          § 4.
+        </note>
+        <note xml:id="i-PmQ7UfdJvK6zCQ6b99Ns7v">
+          Företogs upprop av kammarens ledamöter; och befunnos därvid följande
+          ledamöter frånvarande, nämligen: herrar Höglund i Stockholm, Liljedahl,
+          Johanson i Huskvarna, Jeansson i Kalmar, Nilsson i Bonarp, Sigfrid,
+          Nilsson i Tånga, Jönsson i Revinge, Waldén, Sommelius, Persson
+          i Björsbyholm, Kaijser, Molin i Dombäcksmark, Wiklund och Stenudd.
+        </note>
+        <note xml:id="i-RHz8SjSncuQ4szLPGsHv7U">
+          Herr ordföranden meddelade, att från herr Höglund i Stockholm
+          inkommit en skrivelse, däri han, enär regeringen avslagit av honom
+          med hänvisning till 8 4 riksdagsordningen gjord framställning
+          om avbrytande under riksdagstiden av fängelsestraff, som han för
+          närvarande vore underkastad, anmält sig förhindrad att tills vidare
+          infinna sig vid kammarens sammanträden för att utöva den riksdagsmannabefattning,
+          vartill han vore vald, att enligt ingånget läkarbetyg herr Persson
+          i Björsbyholm på grund av sjukdom tills vidare vore oförmögen
+          att bevista riksdagens sammanträden, samt att herrar Molin i Dombäcksmark,
+          Wiklund och Stenudd uti ingivna ansökningar anhållit om ledighet
+          från riksdagsgöromålen från och med denna dag, herr Molin i Dombäcksmark
+          under 3 dagar till följd av oförutsedda synnerligen viktiga enskilda
+          angelägenheter, herr Wiklund under 7 dagar på grund av sjukdomsfall
+          i hemmet
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1917--ak--1/prot_1917__ak__1-003.jp2/_view"/>
+        <note xml:id="i-XuTDhQbo6JooQoAL3Zxxu7">
+          Nr 1.
+        </note>
+        <note xml:id="i-Ph87YEe9YQf13c8gTVykC1">
+          4 Måndagen den 15 januari.
+        </note>
+        <note xml:id="i-RhcxkseYMN1MDTkmCipEJv">
+          och herr Stenudd under 5 dagar i anledning av uppdrag såsom tingstolk.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-7QRzbKNK9Kp8q3yq1yq3VL">
+          § 5.
+        </note>
+        <note xml:id="i-9bm3MpgcdmRqnUCN83jHeE">
+          Herr ordföranden tillkännagav, att hans excellens herr statsministern
+          Hammarskjöld avvaktade budskap om avslutande av uppropet, varefter
+          han ville infinna sig för att meddela kammaren Kungl. Majt:s beslut
+          angående talman och vice talman i kammaren, samt att ordföranden
+          uppdragit åt herrar Modig och Bäcklund att underrätta hans excellens
+          herr statsministern, att uppropet vore verkställt och kammaren
+          redo att mottaga honom.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-JFvVoNdXVj89XsvJgVn7Jn">
+          § 6.
+        </note>
+        <note xml:id="i-4JYpG6YMc6zxUYrxrBzDdJ">
+          Hans excellens herr statsministern inträdde nu samt uppläste
+          Kungl. Maj:ts öppna brev angående förordnande av talman och vice
+          talman i denna kammare, enligt vilket förordnats till talman leda
+          moten av kammaren för Jämtlands läns södra valkrets herr Johan
+          Widén och till vice talman ledamoten av kammaren för Kopparbergs
+          läns norra valkrets herr Daniel Persson i Tällberg.
+        </note>
+        <u xml:id="i-HYMe8VgoDWhJppUuThnbU7" who="unknown" next="i-Ti9GhXC1XjYC33TdWjHTaB">
+          <seg xml:id="i-TrumsYmtgpPy6BtL3Bx21Z">
+            $7.
+          </seg>
+        </u>
+        <note xml:id="i-3NztqRigYF6onFJc83AC6i">
+          Ålderspresidenten överlämnade ordförandeklubban till herr talmannen,
+          varefter denne hälsade kammaren med följande tal:
+        </note>
+        <u xml:id="i-Ti9GhXC1XjYC33TdWjHTaB" who="unknown" prev="i-HYMe8VgoDWhJppUuThnbU7" next="i-EeKNwMy6YM5nQj75kWcbFr">
+          <seg xml:id="i-3yg71uyQh2P6tv6tpoJRMU">
+            Mina herrar! En månad allenast har förflutit sedan förra riksdagen
+            formellt avslutades; och åter äro vi samlade på detta rum.
+          </seg>
+        </u>
+        <u xml:id="i-EeKNwMy6YM5nQj75kWcbFr" who="unknown" prev="i-Ti9GhXC1XjYC33TdWjHTaB" next="i-6MHgPLEsLL4ESJ6hkCdnnq">
+          <seg xml:id="i-4xTkh3Ny6xhdX3GPoi4ZHU">
+            Osökt föres tanken på att, såsom redan ålderspresidenten erinrat,
+            det nu är 50 år sedan den första riksdagen enligt 1866 års riksdagsordning
+            sammanträdde; andra kammaren kan alltså sägas nu fylla sitt halva
+            sekel. Utan att jävas kan jag säga, att det är en storartad utveckling
+            på den andliga och materiella odlingens områden, som vårt kära
+            fädernesland under denna tid genomgått. Förvisso har riksdagens
+            insats i arbetet på denna utveckling också varit av allra största
+            betydelse. Här är ej tillfälle att närmare ingå härpå. Må blott
+            för andra kammarens del det sägas, att erfarenheterna från de
+            år, som gått innebära en förtröstan, likasom även en maning för
+            år som komma.
+          </seg>
+        </u>
+        <u xml:id="i-6MHgPLEsLL4ESJ6hkCdnnq" who="unknown" prev="i-EeKNwMy6YM5nQj75kWcbFr" next="i-KHAxSzY8ThBfsKELxRoajx">
+          <seg xml:id="i-4hB54hxgKYkhGEyvwVx8DC">
+            Alla tecken, främst det krigstillstånd, som nu på tredje året
+            fortfarande råder utomkring oss, med dess konsekvenser för vårt
+            land, varsla, att denna riksdag skall bliva en riksdag, fylld
+            av allvarliga uppgifter, av ansträngande arbete. Även talmannens
+            uppgift framträder härvid för mig såsom mer än vanligt maktpåliggande.
+            Må jag vid dess fullgörande få fortfarande såsom hittills åtnjuta
+            kammarens överseende och välvilja.
+          </seg>
+        </u>
+        <u xml:id="i-KHAxSzY8ThBfsKELxRoajx" who="unknown" prev="i-6MHgPLEsLL4ESJ6hkCdnnq" next="i-6MqAqSBt8WML2f9rUqNaTE">
+          <seg xml:id="i-CvuqKybEqbjFFEAs3ZTpfe">
+            Och må vid våra överläggningar och vårt arbete fäderneslandets
+            väl vara ledstjärnan. Gud bevare vårt älskade fädernesland!
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1917--ak--1/prot_1917__ak__1-004.jp2/_view"/>
+        <u xml:id="i-6MqAqSBt8WML2f9rUqNaTE" who="unknown" prev="i-KHAxSzY8ThBfsKELxRoajx">
+          <seg xml:id="i-8uS3A3ioYY67pDwqsMHXEr">
+            [Ad
+          </seg>
+        </u>
+        <note xml:id="i-Tp8WAQwe28Ashw4Cf9nGkn">
+          Måndagen den 15 januari.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-Uiu5pXeud4QMQ8iRTcbBpM">
+          § 8.
+        </note>
+        <note xml:id="i-4d1A6rqXk4wKyejmbUAPdX">
+          Herr talmannen föredrog ånyo det under $ 3 här ovan intagna protokollet,
+          och beslöt kammaren att, med godkännande av de däri omförmälda
+          fullmakterna, lägga protokollet till handlingarna.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-CbqVeGXyCdCj1K11nW52LC">
+          § 9.
+        </note>
+        <note xml:id="i-Kwo25RWZVXW5A72j1c1rt1">
+          Kammaren beslöt att lägga Kungl. Maj:ts i $ 6 omnämnda brev till
+          handlingarna.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-S3sxzYM1vLaEbLW6uwg6Fj">
+          § 10.
+        </note>
+        <note xml:id="i-DjHwpA1yPAXkguXwza6ybk">
+          Herr talmannen anmälde, att någon ansökning till sekreterarebefattningen
+          hos kammaren icke inkommit, och hemställde, huruvida kammaren
+          behagade genast företaga val av sekreterare.
+        </note>
+        <note xml:id="i-3hsWwMdiVCHc5Hsgw3reJN">
+          Denna hemställan bifölls av kammaren, varefter det sålunda beslutade
+          valet företogs; och befanns efter valsedlarnas öppnande och uppräkning
+          valet hava så utfallit, att till sekreterare utsetts notarien
+          hos överståthållarämbetet, jur. och fil. kandidaten Per Cronvall
+          med 139 eller alla avgivna godkända röster.
+        </note>
+        <note xml:id="i-UYeY63XGTf9Co3a2w7ZApb">
+          Sekreteraren, som härefter på kallelse inställde sig, övertog,
+          efter erhållen kännedom om valets utgång, protokollsföringen.
+        </note>
+        <note xml:id="i-VFgm3N9WHmUetEshwvRadX">
+          Allan Cederborg. Walter Kant.
+        </note>
+      </div>
+      <div type="debateSection">
+        <note xml:id="i-VF8ppU3Nq9t1Y7NPZjggEb">
+          § 11.
+        </note>
+        <note xml:id="i-8nTf7wYJpEPRp8EWBejw9T">
+          Den i $ 4 omförmälda från herr Höglund i Stockholm ingångna anmälan
+          att han tills vidare vore förhindrad infinna sig vid riksdagen
+          föredrogs ånyo; och yttrade därvid
+        </note>
+        <note xml:id="i-NQmujJvNZnU2wKRWQ9EFwN" type="speaker">
+          Herr Lindhagen:
+        </note>
+        <u who="Q55955" xml:id="i-EFCtCnPYtoihwYhxWkV9rU" next="i-4DY2HtDrXwas1qNjwJijho">
+          <seg xml:id="i-DtbZeVS3ybC9Sw54iz34ER">
+            Herr talman! Av den gjorda anmälan framgår, att riksdagsman Höglund
+            hos regeringen begärt att jämlikt 8 4 riksdagsordningen honom
+            måtte tillåtas att avbryta sitt fängelsestraff för att utöva sitt
+            riksdagsmannauppdrag. Denna ansökan har Kungl. Maj:t förklarat
+            icke kunna lagligen bifallas. Utan att vidare ingå på Kungl. Maj:ts
+            beslut skall jag endast be att i detta sammanhang få erinra om,
+            att den paragraf som riksdagsman Höglund åberopat eller $ 4 riksdagsordningen
+            lyder på följande sätt: »Ej må någon riksdagsman förmenas att
+            sin riksdagsmannabefattning utöva.» Herr Höglund är fortfarande
+            riksdagsman. Det finns även en annan paragraf, som icke åberopats
+            av herr Höglund, nämligen $ 111 regeringsformen, där det i första
+            momentets sista punkt heter: »Ej må riksdagsman i andra fall,
+            än som i denna och näst föregående $ sagda äro, sin frihet berövas.»
+            Herr Höglund är fortfarande riksdagsman. Nu är det ju tämligen
+            påtagligt, att det måste anses vara en mycket stor brist i författningen,
+            att en riksdagsmån
+          </seg>
+        </u>
+        <note xml:id="i-2unDhV8pYMTvdDb4ACmqMJ">
+          Nr 1.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1917--ak--1/prot_1917__ak__1-005.jp2/_view"/>
+        <note xml:id="i-ApPn41gTSq2y6hvo7ojhDe">
+          Nr 1.
+        </note>
+        <note xml:id="i-4FCmqJtrTCcy32yxtNvMgK">
+          6 Måndagen den 15 jaunari.
+        </note>
+        <u xml:id="i-4DY2HtDrXwas1qNjwJijho" prev="i-EFCtCnPYtoihwYhxWkV9rU" who="Q55955">
+          <seg xml:id="i-7Fixa1dMxghjWPEao9eykV">
+            kan hindras från att utöva sin riksdagsmannabefattning. Jag har
+            undrat, om icke i enlighet med grundlagens anda och mening i dess
+            bokstav, som jag tillåtit mig uppläsa, skulle ligga någon formulering,
+            som läte sakens natur komma till sin rätt och till äventyrs gåve
+            kammaren själv befogenhet att besluta om, att en dess ledamot
+            icke finge sin frihet berövas, när riksdagsmannabefattningen skall
+            utövas. Emellertid är lagen ofullständig och illa skriven, och
+            talmannen har förklarat, att han finner, att denna sak icke kan
+            — tyvärr, skulle jag för min del vilja säga — av kammaren lagligen
+            upptagas till prövning. Under så vidriga förhållanden, herr talman,
+            får jag för denna gång nöja mig med det uttalande som nu gjorts,
+            men jag hoppas, att denna början skall bliva inledningen till
+            en mycket lång fortsättning.
+          </seg>
+        </u>
+        <note xml:id="i-K17b6rmKbdfu5dNPBTeKw5" type="speaker">
+          Herr Hallendorff:
+        </note>
+        <u who="Q5784621" xml:id="i-VSkjm8khk5SBRLzUyt8mkz">
+          <seg xml:id="i-LLTqSZPfnFs5ig4GwykABH">
+            Herr talman! Jag tillåter mig att till herr talmannen framställa
+            en förfrågan, huruvida det i detta sammanhang är fråga om att
+            på ett eller annat sätt godkänna det förfall som herr Höglund
+            anmält. Detta har en viss betydelse med hänsyn till ett fall,
+            som inträffade i första kammaren förra året, då en av dess ledamöter
+            av fängelsestraff hindrades närvara. Han erhöll då formlig ledighet
+            från riksdagsarbetet och därmed fick han åtnjuta sitt fulla riksdagshonorar.
+          </seg>
+        </u>
+        <note xml:id="i-PquzLqhEt3d26FLzahTqzZ" type="speaker">
+          Herr talmannen:
+        </note>
+        <u who="Q6240063" xml:id="i-JYSFpTKnJ87VMX3Y66bDWg">
+          <seg xml:id="i-PdVnwC8kL4rK9Uv1s9RvYV">
+            Jag får fästa uppmärksamheten på, att herr Höglunds anmälan är
+            föredragen, och var och en, som har något att i anledning därav
+            yttra eller föreslå, bör nu göra det.
+          </seg>
+        </u>
+        <note xml:id="i-LujxqMkMyi3voBqukoPA7j" type="speaker">
+          Herr Hallendorff:
+        </note>
+        <note xml:id="i-BeVWxDAfcm7x5LKJCMbWFP">
+          Herr talman! Under sådana omständigheter anhåller jag, att herr
+          Höglunds anmälan bordlägges till nästa sammanträde. .
+        </note>
+        <note xml:id="i-559Qga6H59iryoqYa6XLgU">
+          Vidare anfördes ej. TI enlighet med herr Hallendorffs begäran
+          blev herr Höglunds i Stockholm förevarande anmälan bordlagd.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-9scFijfrytqk4zivyirwS4">
+          § 12.
+        </note>
+        <note xml:id="i-GP4Jn2kHoRjTeUxCYF41m9">
+          Härefter föredrogs åter och lades till handlingarna det i 8 4
+          omnämnda sjukbetyget för herr Persson i Björsbyholm.
+        </note>
+        <note xml:id="i-SxnCzqCtnapADjMFDSyua1">
+          Vidare blevo de av herrar Molin i Dombäcksmark, Wiklund och Stenudd
+          ingivna ansökningar om ledighet från riksdagsgöromålen, som nu
+          ånyo föredrogos, av kammaren bifallna.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-Mbg2T9ED1JCh8jy5KfAvpg">
+          § 13.
+        </note>
+        <note xml:id="i-KF9nDgEwqxkxcMpnvo2RVk">
+          På hemställan av herr talmannen beslöt kammaren att vid plenum
+          onsdagen den 17 januari företaga val av tre ledamöter att deltaga
+          i talmansöverläggningarna, två ledamöter att hava inseende
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1917--ak--1/prot_1917__ak__1-006.jp2/_view"/>
+        <note xml:id="i-KZmuZiiJosKUr451N6MRir">
+          Måndagen den 15 januari. 7 o
+        </note>
+        <note xml:id="i-Ge8M3ejQ1XUNGEtm25qkVB">
+          över riksdagens kansli, åtta ledamöter att jämte herr talmannen
+          tillsätta kammarens kanslipersonal och vaktbetjäning samt tre
+          ledamöter att handhava vården om kammarens ekonomiska angelägenheter.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-PASNGdR6UaACHGSKrJrxPA">
+          § 14.
+        </note>
+        <note xml:id="i-5AHmjk8x8fxBmuNjsdJuqf">
+          Till talarplatser för ledamöter, som kunde vilja därav begagna
+          sig, anvisades på herr talmannens förslag de två för ändamålet
+          anordnade, på vardera sidan om talmansbordet befintliga platserna.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-WwA7q5V5nZ4poav6Yik57n">
+          § 15.
+        </note>
+        <note xml:id="i-XJ68M9ivzb4sdM7He2283v">
+          Herr talmannen meddelade, att till kammarens förfogande överlämnats
+          ett antal inträdesbiljetter till rikssalen vid riksdagens öppnande,
+          och hemställde, att fördelning av dessa biljetter finge genom
+          kammarens kansli ske efter slutet av kammarens sammanträde denna
+          dag med iakttagande, att de för ledamöterna från Stockholms stad
+          och vart och ett av rikets län avsedda biljetterna utlämnades
+          till Stockholms stads och varje läns äldste närvarande representant,
+          som sedermera finge ombesörja den vidare utdelningen.
+        </note>
+        <note xml:id="i-E566b7pTjy8HqLuWaFN6hc">
+          Denna hemställan bifölls.
+        </note>
+        <note xml:id="i-WGt96QpXzRdiNYdsH3ucac">
+          Härefter åtskildes kammarens ledamöter kl. 12,5 e. m.
+        </note>
+        <note xml:id="i-8UziZX8M5NXEFd18k228mY">
+          In fidem Per Cronvall.
+        </note>
+        <note xml:id="i-BtefRVDW8d6nFxr4xNqqDJ">
+          Nr 1.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

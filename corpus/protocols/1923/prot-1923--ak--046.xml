@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1923</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1923</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,676 +25,649 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1923--ak--46</head>
-          <docDate when="1923-06-06">1923-06-06</docDate>
-          <docDate when="1923-06-07">1923-06-07</docDate>
-          <docDate when="1923-06-08">1923-06-08</docDate>
-          <docDate when="1923-06-09">1923-06-09</docDate>
-          <docDate when="1923-06-15">1923-06-15</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1923--ak--46/prot_1923__ak__46-000.jp2/_view"/>
-          <note xml:id="i-BuV23Xj1UBW7Hr4kANf4W8">
-            RIKSDAGENS PROTOKOLL. 1923. Andra kammaren. = Nr 46.
-          </note>
-          <note type="date" xml:id="i-NZVXgKfKBjccLG9QqxN2fR">
-            Onsdagen den 6 juni. Kl. 8 e. m.
-          </note>
-          <note xml:id="i-UAfAdE46mVmxCAPr4r9m67">
-            § 1. Justerades protokollen för den 30 och den 31 nästlidna maj.
-          </note>
-          <note xml:id="i-N7JM6RgAS1x1aNH5orbHng">
-            § 2.
-          </note>
-          <note xml:id="i-S33BLo2zCNsP9Sq6URztKA">
-            Till bordläggning anmäldes statsutskottets memorial, nr 137,
-            angående statsregleringen för budgetåret 1923—1924.
-          </note>
-          <note xml:id="i-QR1YAUtooZc7uYKGauVdi6">
-            § 3.
-          </note>
-          <note xml:id="i-D7Ld2W2Lfjsf8oNzZb5oTG">
-            Anmäldes och godkändes följande förslag till riksdagens skrivelser
-            till Konungen, nämligen:
-          </note>
-          <note xml:id="i-C7x3NKBFzEavgRyT8KbK1V">
-            från bankoutskottet:
-          </note>
-          <note xml:id="i-AYeya466i6Gm6ECDbjSoH6">
-            nr 317, i anledning av Kungl. Maj:ts proposition angående vissa
-            understöd och pensioner, att utgå av postmedel eller trafikmedel;
-          </note>
-          <note xml:id="i-DJkcDsckepbwZYGcn2PGMH">
-            nr 318, angående vissa framställningar rörande pensioner och
-            understöd; och
-          </note>
-          <note xml:id="i-4oE5vJ6LD7636nZGaxUxFM">
-            nr 322, i anledning av vissa framställningar rörande elfte huvudtiteln,
-            innefattande anslagen till pensionsoch indragningsstaterna; samt
-          </note>
-          <note xml:id="i-6UHGsgW9fgzUTC72m7F9LP">
-            från statsutskottet:
-          </note>
-          <note xml:id="i-K6WAyx3hJkvZVWL6epUpHj">
-            nr 284, i anledning av Kungl. Maj:ts proposition med förslag
-            till förordning om ändrad lydelse av $$ 1 och 5 i förordningen
-            den 2 juni a angående grunderna och sättet för markegångsprisens
-            bestämmande;
-          </note>
-          <note xml:id="i-GvB5ZimfPLSqrQcrDaFJgQ">
-            nr 286, i anledning av Kungl. Maj:ts under sjunde huvudtiteln
-            av statsverkspropositionen gjorda framställning angående tullverkets
-            utgiftsstater m. m.;
-          </note>
-          <note xml:id="i-Mx8Dc6zvRRgZesNZVLJH7U">
-            nr 287, i anledning av Kungl. Maj:ts proposition angående anslag
-            till underhåll av särskild polis för uppdagande av olovlig införsel
-            av spritdrycker m. m.;
-          </note>
-          <note xml:id="i-8iNJrkGu1sopnnaKUo5fn7">
-            nr 295, i anledning av Kungl. Maj:ts i statsverkspropositionen
-            gjorda framställning om anvisande av anslag för vissa arbeten
-            för telegrafverkets samt statens järnvägars och statens vattenfallsverks
-            räkning för bekämpande av arbetslösheten;
-          </note>
-          <note xml:id="i-RZ3fqiotQAgrLUg6ChDovR">
-            Andra kammarens protokoll 1928. Nr 46. 1
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1923--ak--46/prot_1923__ak__46-001.jp2/_view"/>
-          <note xml:id="i-UXfMKACryTE6LTnzJ4oou4">
-            Nr 46,
-          </note>
-          <note type="date" xml:id="i-9iF5NBoSHpHSfrw3ofDy1n">
-            2 Torsdagen den 7 juni.
-          </note>
-          <note xml:id="i-J1caM46fbWXMLexYHZ7TVk">
-            nr 296, i anledning av Kungl. Maj:ts framställning angående avsättning
-            för budgetåret 1923—1924 till statsverkets fond av rusdrycksmedel;
-            och
-          </note>
-          <note xml:id="i-GeqjFEyd9dQGH14m8YkeRP">
-            nr 319, i anledning av Kungl. Maj:ts proposition angående lån
-            till svenska stenkolsaktiebolaget Spetsbergen.
-          </note>
-          <note xml:id="i-FKA87JDvo5S2JangBJqiJ8">
-            Kammarens ledamöter åtskildes härefter kl. 8,10 e. m.
-          </note>
-          <note xml:id="i-LfTJbSxwGMVeTwbyyEvSYj">
-            In fidem Per Cronvall.
-          </note>
-          <note type="date" xml:id="i-NCT845zjbQx7PLfpvkdnLE">
-            Torsdagen den 7 juni. Kl. 11 f. m.
-          </note>
-          <note xml:id="i-W6Tp9LfXrqjZVLq3oG3R6d">
-            § 1.
-          </note>
-          <note xml:id="i-Nb6rYFPfqCphyKFFGWE5bR">
-            Justerades protokollet för den 1 innevarande juni.
-          </note>
-          <note xml:id="i-XTRh3erCvtLFpfdqod7Maf">
-            § 2.
-          </note>
-          <note xml:id="i-NuZMguLsiYzEBxCiVjRupD">
-            Föredrogs statsutskottets memorial, nr 137, angående statsregleringen
-            för budgetåret 1923—1924.
-          </note>
-          <note xml:id="i-84U7af5m4jqvJRRB56smwv">
-            Punkterna 1—12.
-          </note>
-          <note xml:id="i-68cZecqTtGnNDSZpL9fqHD">
-            Vad utskottet hemställt bifölls.
-          </note>
-          <note xml:id="i-9tMUmFzLhL6ivDk6LV46CZ">
-            Punkterna 13 och 14. Lades till handlingarna.
-          </note>
-          <note xml:id="i-AK8SKvFYVC2enuq8Jq9wmb">
-            Punkten 15. Utskottets hemställan bifölls.
-          </note>
-          <note xml:id="i-6xWzTPdL9EpXCLtr4b2YzF">
-            § 3.
-          </note>
-          <note xml:id="i-T5A5QDHTBEwnghQrTPWNkZ">
-            Anmäldes och godkändes följande förslag till riksdagens skrivelser
-            till Konungen, nämligen:
-          </note>
-          <note xml:id="i-GHeQp8y25aqDFiru6S7htj">
-            från bevillningsutskottet, nr 316, angående beräkning av bevill--
-            ningarna för budgetåret 1923—1924 m. m.;
-          </note>
-          <note xml:id="i-Ta6JvwwYbeA7i3xx2MmKS5">
-            från bankoutskottet:
-          </note>
-          <note xml:id="i-7n2EGan6a8gBsLrwSCxRuL">
-            nr 11 B, angående regleringen för budgetåret 1923—1924 av utgifterna
-            under riksstatens elfte huvudtitel, innefattande anslagen till
-            pensionsoch indragningsstaterna; och
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1923--ak--46/prot_1923__ak__46-002.jp2/_view"/>
-          <note xml:id="i-VVq6yPtpDVmyjcN6E9KAvc">
-            Torsdagen” den 7 juni. 3 Nr 46&amp;
-          </note>
-          <note xml:id="i-DhHDMFYzdf6qizrEdGjbT9">
-            nr 310, i anledning av Kungl. Maj:ts i statsverkspropositionen
-            under elfte huvudtiteln gjorda framställning rörande anslag till
-            allmänna indragningsstaten; samt
-          </note>
-          <note xml:id="i-GsCJuB1RJA7DmqeyC3BcKZ">
-            från riksdagens kansli:
-          </note>
-          <note xml:id="i-VdE7FoQjCmeesRGuwRWXxu">
-            nr 230, angående utredning om statens övertagande av de utav
-            landstingen upprättade småskoleseminarierna; och
-          </note>
-          <note xml:id="i-FcCvJRkoj5Lwc5kWmV5HAc">
-            nr 312, angående utseende av en ledamot och åtta suppleanter
-            i. utrikesnämnden.
-          </note>
-          <note xml:id="i-7vuHFyy6UTPvt9FQYuXdCx">
-            § 4.
-          </note>
-          <note xml:id="i-Ph1RYaFDWnd8TFXkzn9LG3">
-            Vidare anmäldes och godkändes riksdagens kanslis förslag till
-            paragrafer i riksdagsbeslutet:
-          </note>
-          <note xml:id="i-4b6WK74fJD9gVu4jJk8Eu2">
-            nr 73, angående förslag till lag om ändrad lydelse av 8 kap.
-            3 S rättegångsbalken;
-          </note>
-          <note xml:id="i-5sXSa6An5RPCvsUvmX3KDJ">
-            nr 74, angående anslag för beredande av lokaler åt en hovrätt
-            över Norrland;
-          </note>
-          <note xml:id="i-F6KCdeBvNfWm8tcDTFqQFg">
-            nr 75, angående ändringar i lagen om förvaltning av bysamfälligheter
-            och därmed jämförliga samfällda ägor och rättigheter;
-          </note>
-          <note xml:id="i-RwZHsQ5H8My7uUxjSUkjrK">
-            nr 76, med förslag till lag om sparbanker m. m.;
-          </note>
-          <note xml:id="i-FTKLWMMB1SgmFer9FLvfmT">
-            nr 77, angående förslag till lag om ändrad lydelse av 18 $ i
-            lagen om fattigvården den 14 juni 1918. | nr 78, rörande förslag
-            till lag om ändrad lydelse av 9 8 i lagen den 2 juli 1915 angående
-            anskaffande av hästar och fordon för krigsmaktens ställande på
-            krigsfot (hästutskrivningslag);
-          </note>
-          <note xml:id="i-WfQhW8mHk2gmrNzwwBjajL">
-            nr 79, rörande ändrad lydelse av 8 12 i lagen den 31 maj 1889
-            angående dövstumundervisningen;
-          </note>
-          <note xml:id="i-KVU6qivqcVDApYLg2tC5Dv">
-            nr 80, angående ändring i lagen om skyddskoppympning;
-          </note>
-          <note xml:id="i-7huxQ7V5Nj1DEWbhqdpfUc">
-            nr 81, rörande förslag till lag angående fortsatt tillämpning
-            av lagen den 24 oktober 1919 om arbetstiden å svenska fartyg;
-          </note>
-          <note xml:id="i-9XAE8JoLgVYSAB8f1nkpCk">
-            nr 82, angående förslag till lag om straff för olovlig varuinförsel
-            m. m.;
-          </note>
-          <note xml:id="i-5dX6mstN9yf8WmEAfFXZZa">
-            nr 83, angående förslag till förordning om motorfordon m. m.;
-          </note>
-          <note xml:id="i-GPcxn216gv4vcSZX4WqTiP">
-            nr 84, angående underlättande i vissa fall av avsöndring utav
-            mark från ecklesiastikt löneboställe till tomt;
-          </note>
-          <note xml:id="i-Av6Bud1VbscdjbzhCQ9d3J">
-            nr 85, angående förslag till brandstadga;
-          </note>
-          <note xml:id="i-GP1iyAKANbuM5iU6aNWfrQ">
-            nr 86, angående åtskilliga på grund av $ 89 regeringsformen väckta
-            frågor;
-          </note>
-          <note xml:id="i-NR2MRhW2s91msZTQB3i4rV">
-            nr 87, rörande viss ändring i 5 8 av förordningen den 19 november
-            1920 angående särskilda grunder för utgörande av 1921—1924 års
-            allmänna kommunalutskylder m. m.;
-          </note>
-          <note xml:id="i-NsUAW6F8JE9GfmYvW66xg1">
-            nr 88, angående förslag till lag om ändrad lydelse av 26 kap.
-            7 $ samt 27 kap. 4 $ rättegångsbalken m. m.;
-          </note>
-          <note xml:id="i-UhiX9mZUbnNKEdehjFSiUW">
-            nr 89, angående ändring i vissa delar av förordningen den 19
-            november 1914 angående stämpelavgiften;
-          </note>
-          <note xml:id="i-Kg92N894Q5ujHDoXKmQfLw">
-            nr 90, rörande ändrad lydelse av 83 $ 2 mom. i förordningen den
-            14 juni 1917 angående försäljning av rusdrycker;
-          </note>
-          <note xml:id="i-R6EuEb5XKfWccsHfXap2Cf">
-            nr 91, angående ändrad lydelse av $$ 7 och 8 samt $ 9 mom.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1923--ak--46/prot_1923__ak__46-003.jp2/_view"/>
-          <note xml:id="i-VeKimuwZG9LFguHjCjnZxJ">
-            Nr 46.
-          </note>
-          <note type="date" xml:id="i-WZzwhXBztpvqHGTQBLfe9t">
-            4 Torsdagen den 7 juni.
-          </note>
-          <note xml:id="i-UM5RpjUcTj7weGwU6ufZ2N">
-            3 och 5 i förordningen den 18 juni 1864 angående utvidgad näringsfrihet;
-            ; nr 92, angående utskänkning i riksdagsrestaurangens matsal av
-            vin och öl;
-          </note>
-          <note xml:id="i-M6wBhmYhg4rc7Vzh6NDsYk">
-            nr 93, angående val av fullmäktige i riksbanken och riksgäldskontoret
-            ävensom suppleanter för dessa;
-          </note>
-          <note xml:id="i-UoLWVSwJYdrif4tLGHvFpb">
-            at 94, angående val av två kommitterade för tryckfrihetens
-          </note>
-          <note xml:id="i-AXuBWUfAMrGk7ufdMsi9A3">
-            vård;
-          </note>
-          <note xml:id="i-5zYmHWNx8c1db7w4TRRZcJ">
-            nr 95, angående val av en ledamot och en suppleant i styrelsen
-            över riksdagsbiblioteket;
-          </note>
-          <note xml:id="i-5c7uFs7gxFygB2o3JeUo6J">
-            nr 96, angående ändrad lydelse av 23 8 i lagen den 12 maj 1897
-            för Sveriges riksbank; |
-          </note>
-          <note xml:id="i-5jwuBJhQzyP9QJzW8wBSbG">
-            nr 97, rörande vissa ändringar i förordningen den 6 augusti 1894
-            angående mantalsskrivning;
-          </note>
-          <note xml:id="i-BEkyR7eqLHkE2wZAFRB5ze">
-            nr 98, angående förslag till skogsvårdslag och till lag angående
-            vård av kommunskogar, sockenallmänningsskogar samt vissa stiftelsers,
-            föreningars och sällskaps skogar;
-          </note>
-          <note xml:id="i-T2HmTWBo56ZGG2q2AwQh8C">
-            nr 99, angående förslag till lag om ändrad lydelse av $ 5 i förordningen
-            den 21 december 1857 om ägors fredande emot skada av annans hemdjur
-            samt om stängselskyldighet;
-          </note>
-          <note xml:id="i-XgoLKMBaK5fkuXzgCxT5y6">
-            nr 100, rörande förordning angående skogsvårdsstyrelser;
-          </note>
-          <note xml:id="i-2DLa4bRRH5NrfESUJfvATG">
-            nr 101, angående förslag till förordning om ändrad lydelse av
-            4 SR 5 $$ i förordningen den 11 oktober 1912 om skogsvårdsavgift;
-          </note>
-          <note xml:id="i-VMuZsUYo2ZunJ2x52zytfg">
-            nr 102, angående ändrad lydelse av 46 $ i lagen den 11 oktober
-            1912 om skogsaccis och om virkestaxering;
-          </note>
-          <note xml:id="i-X5J9ysptWajUZd7te4A3dZ">
-            nr 103, rörande förslag till lag angående skyddsskogar;
-          </note>
-          <note xml:id="i-3gNchVe3kbMA79GJwdx7Kg">
-            nr 104, om ändrad lydelse av 31 $ i lagen angående väghållningsbesvärets
-            utgörande på landet;
-          </note>
-          <note xml:id="i-4V849d5Wpd8CjgPphGLert">
-            nr 105, rörande ändringar 1 lagen den 23 oktober 1891 angående
-            väghållningsbesvärets utgörande på landet; och
-          </note>
-          <note xml:id="i-Ws4wquqiBfNTHDGRzaU8Uv">
-            nr 106, angående avskaffande av mantalspenningarna, allmänna
-            sjukvårdsavgiften och folkskoleavgiften.
-          </note>
-          <note xml:id="i-9nFNV6iPy9RriCb7rVvXEp">
-            § 5.
-          </note>
-          <note xml:id="i-ToqLPsyDU3RbQXo7vsJ9C6">
-            Till bordläggning anmäldes bankoutskottets memorial, nr 74, med
-            förslag till nytt reglemente för riksgäldskontoret.
-          </note>
-          <note xml:id="i-5frDZBZtNZHD8qsuU5sPTK">
-            § 6. Justerades protokollsutdrag.
-          </note>
-          <note xml:id="i-KDWTa1Ut5hDWfo8iqjQYGR">
-            Kammarens ledamöter åtskildes härefter kl. 11,14 f. m.
-          </note>
-          <note xml:id="i-4mseL8n3QFUxQMEspmrnuD">
-            In fidem Per Cronvall.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1923--ak--46/prot_1923__ak__46-004.jp2/_view"/>
-          <note type="date" xml:id="i-AuwSzNj1BMidNwqpfjSEzB">
-            Fredagen den 8 juni. 5
-          </note>
-          <note type="date" xml:id="i-XQc7N68ehWULzQHUix2ECr">
-            Fredagen den 8 juni. Kl. 3 e. m.
-          </note>
-          <note xml:id="i-EuBUGHjZWSrVn9pe4EAeKA">
-            § 1.
-          </note>
-          <note xml:id="i-N5jGyRnBjTpaNM87kajdrC">
-            Justerades protokollen för den 2 och den 3 innevarande juni.
-          </note>
-          <note xml:id="i-2bjH4LZHAhBb4P3dteapXU">
-            § 2. Föredrogs bankoutskottets memorial, nr 74, med förslag till
-            nytt reglemente för riksgäldskontoret; och biföll kammaren därvid
-            utskottets hemställan.
-          </note>
-          <note xml:id="i-B1s9XbrL3swarJ4SSVvnJB">
-            § 3.
-          </note>
-          <note xml:id="i-Us7ayopiUKh78P44qfj8vU">
-            Anmäldes och godkändes följande förslag till riksdagens 'skrivelser
-            till Konungen, nämligen:
-          </note>
-          <note xml:id="i-NQqv3Qs5ZNMnLrzSt7ouWw">
-            från statsutskottet:
-          </note>
-          <note xml:id="i-DD2Vz6ES7szY529HpfQxC5">
-            nr 323, angående statsregleringen för budgetåret 1923—1924;
-          </note>
-          <note xml:id="i-JyR7Yhjbd5TGJXZZZHSQVt">
-            och nr 324, med överlämnande av riksstat för budgetåret 1923—
-          </note>
-          <note xml:id="i-S8yUpnn1pTbjxVerHJEST9">
-            1924; samt .
-          </note>
-          <note xml:id="i-YB8uwWWf8PBFJDdvt1ckrf">
-            från bankoutskottet, nr 320, med reglemente för riksgäldskontoret.
-          </note>
-          <note xml:id="i-TZR7M2z7d88k62Uooq1Lf">
-            &gt; Vidare anmäldes och godkändes bankoutskottets förslag till
-            riksdagens skrivelse, nr 321, till fullmäktige i riksgäldskontoret
-            med reglemente för riksgäldskontoret.
-          </note>
-          <note xml:id="i-W7mYeQVps9BvREyQc35DBo">
-            84. Justerades protokollsutdrag. Kammarens ledamöter åtskildes
-            härefter kl. 3,7 e. m.
-          </note>
-          <note xml:id="i-BwbkSNjgafCCjyTma6Evbq">
-            In fidem Per Cronvall.
-          </note>
-          <note xml:id="i-F4YTwBCAjJd44tsaxHFfPA">
-            Nr 46s
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1923--ak--46/prot_1923__ak__46-005.jp2/_view"/>
-          <note xml:id="i-PjfMudsaSKCcuJ97jnEgMq">
-            Nr 46,
-          </note>
-          <note type="date" xml:id="i-Pv1phppr35w2y46phQCtwY">
-            6 Lördagen den 9 juni.
-          </note>
-          <note type="date" xml:id="i-YNGbsmWR3bsfMn4eEpvR7F">
-            Lördagen den 9 juni. KI. 10,30 f. m.
-          </note>
-          <note xml:id="i-FnyUvDsTNc2x6niZ8YbckX">
-            § 1.
-          </note>
-          <note xml:id="i-LFKZidsdsW92UDAonw58i9">
-            Justerades protokollet för den 4 innevarande Juni.
-          </note>
-          <note xml:id="i-QRmNxwt9NVP4TQ96nVfbes">
-            § 2.
-          </note>
-          <note xml:id="i-JiiTZUJBXrhXWvLcC7Hxdd">
-            Anmäldes och godkändes riksdagens kanslis förslag till paragrafer
-            i riksdagsbeslutet:
-          </note>
-          <note xml:id="i-XVx5Bo4DMu68mp6J2wK1Gg">
-            nr 107, angående statsregleringen;
-          </note>
-          <note xml:id="i-STmrvbNRaPMns2bZTxiSdz">
-            nr 108, angående utseende av en ledamot och åtta suppleanter
-            i utrikesnämnden;
-          </note>
-          <note xml:id="i-NaGVniDH18NLrYv54kPp3J">
-            nr 109, rörande beräkning av bevillningarna för budgetåret 1923
-            — 1924 m. m.;
-          </note>
-          <note xml:id="i-UMhvReEeJLuKV6mq4wndTF">
-            nr 110, angående överlämnande av reglemente för riksgäldskontoret;
-          </note>
-          <note xml:id="i-2NMSZkRYufHDyfeLytBPpr">
-            nr 111, angående dispositionen av besparingarna å huvudtitlarna;
-          </note>
-          <note xml:id="i-M1pWGMaetcw9y95yAAJQ1P">
-            nr 112, angående utbetalning av de riksdagsoch revisionskostnader,
-            som utgå enligt riksstaten och riksgäldskontorets reglenente;
-            :
-          </note>
-          <note xml:id="i-4NiSVi77GD2wBtKdci6Gws">
-            nr 113, angående bestridande av på riksdagens beslut grundade
-            riksdagskostnader samt sådana av riksdag föranledda utgifter,
-            som av Kungl. Maj:t förskottsvis anvisats till utbetalning å statskontoret;
-          </note>
-          <note xml:id="i-JX1rKpUD9FzBn181H79RH5">
-            nr 114, angående sättet för betalning å statsskulden m. m. 3
-          </note>
-          <note xml:id="i-EawEsXWN6nCoMDw9JJqJUg">
-            nr 115, angående av riksdagen beslutade anslag, som utgå av lånemedel;
-          </note>
-          <note xml:id="i-XHjaBL43Xfd3JdnXXuvCT2">
-            nr 116, angående sättet för gäldandet av å riksgäldskontoret
-            anvisade utgifter av lånemedel; och :
-          </note>
-          <note xml:id="i-W7ZatMFhinM3TCFajHmk2H">
-            nr 117, i avseende å statsregleringen och rörande med statsverket
-            gemenskap ägande ämnen.
-          </note>
-          <note xml:id="i-66rFxb4YTMYRY7iMqhBZyQ">
-            § 3. Ordet lämnades härefter till
-          </note>
-          <note type="speaker" xml:id="i-E5Hh4Z7sT4j4nrpZupvdUe">
-            Herr förste vice talmannen, som yttrade:
-          </note>
-          <u who="unknown" xml:id="i-3db36be49d3b1f5c-0" next="i-QzxF6m6aBgrmToxqZutvkH">
-            <seg xml:id="i-SBNN8ZGX5Jc5Fhoe9r9DE5">
-              Herr talman! J ag tillåter mig hemställa, att kammaren måtte
-              besluta uppdraga åt de ledamöter av kammaren, som representera
-              Stockholms stad, att jämte de övriga av kammarens ledamöter, som
-              kunna vara närvarande,
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1923--ak--46/prot_1923__ak__46-006.jp2/_view"/>
-          <note type="date" xml:id="i-CSWbxJmV76jTshSgLA7m7L">
-            Lördagen den 9 juni. 7
-          </note>
-          <note xml:id="i-HNChVNKNGy4BVtHQas7jA5">
-            verkställa justering av de kammarens protokoll, som vid riksdagens
-            slut befinnas vara ojusterade.
-          </note>
-          <note xml:id="i-AfLuvwAhQ7Lx2guhUPXHLt">
-            Denna hemställan bifölls.
-          </note>
-          <note xml:id="i-6Yv8xBtnPeK3Ui3KPb4Y8v">
-            § 4.
-          </note>
-          <u xml:id="i-QzxF6m6aBgrmToxqZutvkH" who="unknown" prev="i-3db36be49d3b1f5c-0" next="i-CJwRXgJP1DQND3ZoUhsBAT">
-            <seg xml:id="i-W939TcoYUmhV8XMim4BUaP">
-              Kammarens ledamöter, vilka av Kungl. Maj:t blivit kallade att
-              denna dag efter bevistad gudstjänst infinna sig å rikssalen, där
-              riksdagen komme att avslutas, avgingo nu till slottskapellet för
-              åhörande av riksdagspredikan. Efter gudstjänstens slut begåvo
-              sig kammarens ledamöter till rikssalen, där jämväl första kammarens
-              ledamöter infunno sig.
-            </seg>
-          </u>
-          <note xml:id="i-9VPhMuy8ipeJ1Bo9wYhPm4">
-            Herr statsrådet och chefen för justitiedepartementet Ekeberg
-            uppläste där Kungl. Maj:ts förordnande för hans excellens herr
-            ministern för utrikes ärendena Hederstierna att å Kungl. Maj:ts
-            vägnar avsluta riksdagen.
-          </note>
-          <u xml:id="i-CJwRXgJP1DQND3ZoUhsBAT" who="unknown" prev="i-QzxF6m6aBgrmToxqZutvkH" next="i-FxRSRjj7cN1awWH7KxL8yN">
-            <seg xml:id="i-RFkXYU9tXyXwpxWsDey79u">
-              Sedan härefter kamrarnas undersåtliga vördnad och välönskningar
-              blivit av herrar talmän framförda samt herr statsrådet och chefen
-              för justitiedepartementet uppläst riksdagens beslut, förklarade
-            </seg>
-          </u>
-          <note xml:id="i-9zWWo3Bh1jgCxvAvZCrvT9">
-            hans excellens herr ministern för utrikes ärendena riksdagen
-            vara avslutad.
-          </note>
-          <note xml:id="i-SYasgRo9M1DRQhsZpVHgjZ">
-            § 5.
-          </note>
-          <u xml:id="i-FxRSRjj7cN1awWH7KxL8yN" who="unknown" prev="i-CJwRXgJP1DQND3ZoUhsBAT" next="i-3db36be49d3b1f5c-1">
-            <seg xml:id="i-E2oZwDJEhV3YvbaHorEHoh">
-              Efter det herr talmannen och kammarens ledamöter återkommit till
-              kammarens samlingsrum, tog herr talmannen avsked av kammarens
-              ledamöter med följande ord:
-            </seg>
-          </u>
-          <u who="unknown" xml:id="i-3db36be49d3b1f5c-1" prev="i-FxRSRjj7cN1awWH7KxL8yN" next="i-3db36be49d3b1f5c-2">
-            <seg xml:id="i-Xsab6W8EDdLprMFeE1QjVf">
-              Mina damer och herrar! Denna riksdags avslutning har nu ägt rum
-              efter jämnt fem månaders samvaro. Det vore tydligen önskvärt,
-              om nästa och följande lagtima riksdagars arbete kunde begränsas
-              så, att riksdagstiden icke behövde utsträckas längre än fem månader,
-              detta särskilt och framför allt med hänsyn till den omläggning
-              av budgetåret, som från och med den första juli innevarande år
-              träder i tillämpning. Någon ytterligare förkortning av riksdagstiden
-              utöver vad som nu uppnåtts torde knappast kunna förväntas, då
-              vid årets riksdag, som bekant, icke några särskilt stora eller
-              dominerande frågor förelegat. Även antalet från Kungl. Maj:t avlämnade
-              propositioner har i år varit avsevärt mindre än närmast föregående
-              riksdagar. Det oaktat och trots allvarliga ansträngningar i syfte
-              att försöka förkorta riksdagstiden har det likväl icke lyckats
-              att begränsa densamma mer än till dessa fem månader.
-            </seg>
-            <seg xml:id="i-5kEeY9kp2AqFn6qig8NVgR">
-              Resultatet av det arbete, som den nu gångna riksdagen utfört,
-              tillkommer det icke mig att bedöma. Meningarna om detta resultat
-              äro säkerligen delade även bland riksdagens ledamöter, givetvis
-              beroende på olika uppfattningar om den för land och folk bästa
-              lösningen av de tvistiga frågor, som förelegat.
-            </seg>
-            <seg xml:id="i-4SMXvkeK9ModJ3ZmfUXB6z">
-              Det är emellertid med tillfredsställelse, vi nu kunna konstatera,
-              att vårt arbete under denna riksdag kunnat utföras under för vårt
-            </seg>
-          </u>
-          <note xml:id="i-5QzdzZUMvQ3wPYpvTnGqmR">
-            Nr 46.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1923--ak--46/prot_1923__ak__46-007.jp2/_view"/>
-          <note type="date" xml:id="i-SusGHStPcHPnroMVDzvMHz">
-            8 Lördagen den 9 juni.
-          </note>
-          <u who="unknown" xml:id="i-3db36be49d3b1f5c-2" prev="i-3db36be49d3b1f5c-1">
-            <seg xml:id="i-D15mqYRi2Wt1coXBmXBFdg">
-              land något mindre brydsamma förhållanden än under förra året,
-              även om riksdagen måst iakttaga den allra största sparsamhet i
-              fråga om anslag till olika ändamål.
-            </seg>
-            <seg xml:id="i-QuaYmBbzGH2xm9umWK4NPq">
-              Jag hoppas dock livligt, att då vi åter samlas här till nästa
-              riksdag, vi i vårt land må ha nått fram till normala ekonomiska
-              förhållanden och ljusare utsikter på näringslivets skilda områden.
-            </seg>
-            <seg xml:id="i-SeDgJdYDc4gHxyFXRa1qXP">
-              Med uttalande av denna förhoppning ber jag nu att till alla kammarens
-              ledamöter få frambära ett hjärtligt och varmt tack för all vänlighet,
-              välvilja och överseende, som jämväl under denna riksdag kommit
-              mig till del.
-            </seg>
-            <seg xml:id="i-D6MHhprwKij9ksUCT3eZzq">
-              Till sist önskar jag alla och envar av kammarens ledamöter en
-              1 alla avseenden god och angenäm sommar.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-KkCnr73wSpCvdWcDxD7RJW">
-            Härpå svarade herr Åkerlund:
-          </note>
-          <u who="Q6255248" xml:id="i-2c5663c8ea479802-0">
-            <seg xml:id="i-PKSujcmbGuexAMWigMQFwR">
-              Herr talman! Naturligtvis har vid denna jämförelsevis lugna riksdag,
-              som nu är avslutad, stridens vågor dock många gånger gått högt
-              och enigheten icke varit sådan, som man möjligen skulle önskat
-              — den enigheten kan för övrigt aldrig nås — men i en punkt är
-              jag viss om, så långt min erfarenhet sträcker sig, att samtliga
-              kammarens ledamöter varit fullt eniga, och det är därom, att det
-              knappast hade kunnat väljas någon värdigare talman än ni, herr
-              Viktor Larsson. På grund därav ber jag till eder få framföra de
-              närvarande och frånvarande kammarledamöternas varma och uppriktiga
-              tack för det sätt, varpå ni lett kammarens förhandlingar, och
-              för den vänlighet, som ni har visat alla och envar av oss. Därjämte
-              vågar jag uttala den förhoppningen, att ni under den stundande
-              sommaren måtte åtnjuta hälsa och krafter, så att vi vid nästa
-              riksdag måtte få se eder lika glad och lika vänlig i talmansstolen.
-            </seg>
-          </u>
-          <note xml:id="i-Lvi6dXcm9M6AmDK6weKmx5">
-            Herr talmannen och kammarens ledamöter utbytte härefter avskedshälsningar
-            och åtskildes.
-          </note>
-          <note xml:id="i-9RUYzgGQUvpXD6V7FxwfFH">
-            In fidem Per Cronvall.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1923--ak--46/prot_1923__ak__46-008.jp2/_view"/>
-          <note type="date" xml:id="i-WMqxWKKkEFVs6BDbh8tdGD">
-            Fredagen den 15 juni. 9 Nr 46.
-          </note>
-          <note type="date" xml:id="i-CRrHoxbp2EBMmVR7dru5zv">
-            Fredagen den 15 juni. Kl. 12 på dagen.
-          </note>
-          <note xml:id="i-WrF2Wia24BKmhzRKhdEAMW">
-            Sedan andra kammaren genom beslut den 9 innevarande juni åt representanterna
-            för Stockholms stad samt dem av kammarens övriga ledamöter, som
-            kunde vara närvarande, uppdragit att justera de kammarens protokoll,
-            vilka vid riksdagens avslutande återstodo ojusterade, hade tillkännagivande,
-            att nämnda justering komme att denna dag kl. 12 försiggå i kammarens
-            justeringsrum, blivit vederbörligen utfärdat; och tillstädeskommo
-            på utsatt tid följande kammarens ledamöter:
-          </note>
-          <note xml:id="i-DSMEWsTp5R14QqkQcsz69Y">
-            herr E.. A. Nilson i Örebro,
-          </note>
-          <note xml:id="i-9i6hsj29fKdjZpK5FR6pwD">
-            » Månsson i Hagaström,
-          </note>
-          <note xml:id="i-KuGBhV99f57deLBvwkq2Tr">
-            » Eriksson i Stockholm,
-          </note>
-          <note xml:id="i-JTJcadkyXGGMeScgjfDxHS">
-            » Holmström i Stockholm, fru Östlund och fröken Wellin.
-          </note>
-          <note xml:id="i-5EJmWN4QZ7SMMtKe5VRZ1k">
-            De protokoll, som hållits vid kammarens sammanträden den 6, den
-            7, den 8 och den 9 innevarande juni, upplästes och blevo av kammarens
-            tillstädesvarande ledamöter godkända.
-          </note>
-          <note xml:id="i-JMJPK6rebZALoEihgYHuAH">
-            In fidem Per Cronvall.
-          </note>
-          <note xml:id="i-2MBvzmmCSCgLQQX9GiHreE">
-            Andra kammarens protokoll 1923. Nr 46. 2
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1923--ak--46</head>
+        <docDate when="1923-06-06">1923-06-06</docDate>
+        <docDate when="1923-06-07">1923-06-07</docDate>
+        <docDate when="1923-06-08">1923-06-08</docDate>
+        <docDate when="1923-06-09">1923-06-09</docDate>
+        <docDate when="1923-06-15">1923-06-15</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1923--ak--46/prot_1923__ak__46-000.jp2/_view"/>
+        <note xml:id="i-BuV23Xj1UBW7Hr4kANf4W8">
+          RIKSDAGENS PROTOKOLL. 1923. Andra kammaren. = Nr 46.
+        </note>
+        <note type="date" xml:id="i-NZVXgKfKBjccLG9QqxN2fR">
+          Onsdagen den 6 juni. Kl. 8 e. m.
+        </note>
+        <note xml:id="i-UAfAdE46mVmxCAPr4r9m67">
+          § 1. Justerades protokollen för den 30 och den 31 nästlidna maj.
+        </note>
+        <note xml:id="i-N7JM6RgAS1x1aNH5orbHng">
+          § 2.
+        </note>
+        <note xml:id="i-S33BLo2zCNsP9Sq6URztKA">
+          Till bordläggning anmäldes statsutskottets memorial, nr 137,
+          angående statsregleringen för budgetåret 1923—1924.
+        </note>
+        <note xml:id="i-QR1YAUtooZc7uYKGauVdi6">
+          § 3.
+        </note>
+        <note xml:id="i-D7Ld2W2Lfjsf8oNzZb5oTG">
+          Anmäldes och godkändes följande förslag till riksdagens skrivelser
+          till Konungen, nämligen:
+        </note>
+        <note xml:id="i-C7x3NKBFzEavgRyT8KbK1V">
+          från bankoutskottet:
+        </note>
+        <note xml:id="i-AYeya466i6Gm6ECDbjSoH6">
+          nr 317, i anledning av Kungl. Maj:ts proposition angående vissa
+          understöd och pensioner, att utgå av postmedel eller trafikmedel;
+        </note>
+        <note xml:id="i-DJkcDsckepbwZYGcn2PGMH">
+          nr 318, angående vissa framställningar rörande pensioner och
+          understöd; och
+        </note>
+        <note xml:id="i-4oE5vJ6LD7636nZGaxUxFM">
+          nr 322, i anledning av vissa framställningar rörande elfte huvudtiteln,
+          innefattande anslagen till pensionsoch indragningsstaterna; samt
+        </note>
+        <note xml:id="i-6UHGsgW9fgzUTC72m7F9LP">
+          från statsutskottet:
+        </note>
+        <note xml:id="i-K6WAyx3hJkvZVWL6epUpHj">
+          nr 284, i anledning av Kungl. Maj:ts proposition med förslag
+          till förordning om ändrad lydelse av $$ 1 och 5 i förordningen
+          den 2 juni a angående grunderna och sättet för markegångsprisens
+          bestämmande;
+        </note>
+        <note xml:id="i-GvB5ZimfPLSqrQcrDaFJgQ">
+          nr 286, i anledning av Kungl. Maj:ts under sjunde huvudtiteln
+          av statsverkspropositionen gjorda framställning angående tullverkets
+          utgiftsstater m. m.;
+        </note>
+        <note xml:id="i-Mx8Dc6zvRRgZesNZVLJH7U">
+          nr 287, i anledning av Kungl. Maj:ts proposition angående anslag
+          till underhåll av särskild polis för uppdagande av olovlig införsel
+          av spritdrycker m. m.;
+        </note>
+        <note xml:id="i-8iNJrkGu1sopnnaKUo5fn7">
+          nr 295, i anledning av Kungl. Maj:ts i statsverkspropositionen
+          gjorda framställning om anvisande av anslag för vissa arbeten
+          för telegrafverkets samt statens järnvägars och statens vattenfallsverks
+          räkning för bekämpande av arbetslösheten;
+        </note>
+        <note xml:id="i-RZ3fqiotQAgrLUg6ChDovR">
+          Andra kammarens protokoll 1928. Nr 46. 1
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1923--ak--46/prot_1923__ak__46-001.jp2/_view"/>
+        <note xml:id="i-UXfMKACryTE6LTnzJ4oou4">
+          Nr 46,
+        </note>
+        <note type="date" xml:id="i-9iF5NBoSHpHSfrw3ofDy1n">
+          2 Torsdagen den 7 juni.
+        </note>
+        <note xml:id="i-J1caM46fbWXMLexYHZ7TVk">
+          nr 296, i anledning av Kungl. Maj:ts framställning angående avsättning
+          för budgetåret 1923—1924 till statsverkets fond av rusdrycksmedel;
+          och
+        </note>
+        <note xml:id="i-GeqjFEyd9dQGH14m8YkeRP">
+          nr 319, i anledning av Kungl. Maj:ts proposition angående lån
+          till svenska stenkolsaktiebolaget Spetsbergen.
+        </note>
+        <note xml:id="i-FKA87JDvo5S2JangBJqiJ8">
+          Kammarens ledamöter åtskildes härefter kl. 8,10 e. m.
+        </note>
+        <note xml:id="i-LfTJbSxwGMVeTwbyyEvSYj">
+          In fidem Per Cronvall.
+        </note>
+        <note type="date" xml:id="i-NCT845zjbQx7PLfpvkdnLE">
+          Torsdagen den 7 juni. Kl. 11 f. m.
+        </note>
+        <note xml:id="i-W6Tp9LfXrqjZVLq3oG3R6d">
+          § 1.
+        </note>
+        <note xml:id="i-Nb6rYFPfqCphyKFFGWE5bR">
+          Justerades protokollet för den 1 innevarande juni.
+        </note>
+        <note xml:id="i-XTRh3erCvtLFpfdqod7Maf">
+          § 2.
+        </note>
+        <note xml:id="i-NuZMguLsiYzEBxCiVjRupD">
+          Föredrogs statsutskottets memorial, nr 137, angående statsregleringen
+          för budgetåret 1923—1924.
+        </note>
+        <note xml:id="i-84U7af5m4jqvJRRB56smwv">
+          Punkterna 1—12.
+        </note>
+        <note xml:id="i-68cZecqTtGnNDSZpL9fqHD">
+          Vad utskottet hemställt bifölls.
+        </note>
+        <note xml:id="i-9tMUmFzLhL6ivDk6LV46CZ">
+          Punkterna 13 och 14. Lades till handlingarna.
+        </note>
+        <note xml:id="i-AK8SKvFYVC2enuq8Jq9wmb">
+          Punkten 15. Utskottets hemställan bifölls.
+        </note>
+        <note xml:id="i-6xWzTPdL9EpXCLtr4b2YzF">
+          § 3.
+        </note>
+        <note xml:id="i-T5A5QDHTBEwnghQrTPWNkZ">
+          Anmäldes och godkändes följande förslag till riksdagens skrivelser
+          till Konungen, nämligen:
+        </note>
+        <note xml:id="i-GHeQp8y25aqDFiru6S7htj">
+          från bevillningsutskottet, nr 316, angående beräkning av bevill--
+          ningarna för budgetåret 1923—1924 m. m.;
+        </note>
+        <note xml:id="i-Ta6JvwwYbeA7i3xx2MmKS5">
+          från bankoutskottet:
+        </note>
+        <note xml:id="i-7n2EGan6a8gBsLrwSCxRuL">
+          nr 11 B, angående regleringen för budgetåret 1923—1924 av utgifterna
+          under riksstatens elfte huvudtitel, innefattande anslagen till
+          pensionsoch indragningsstaterna; och
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1923--ak--46/prot_1923__ak__46-002.jp2/_view"/>
+        <note xml:id="i-VVq6yPtpDVmyjcN6E9KAvc">
+          Torsdagen” den 7 juni. 3 Nr 46&amp;
+        </note>
+        <note xml:id="i-DhHDMFYzdf6qizrEdGjbT9">
+          nr 310, i anledning av Kungl. Maj:ts i statsverkspropositionen
+          under elfte huvudtiteln gjorda framställning rörande anslag till
+          allmänna indragningsstaten; samt
+        </note>
+        <note xml:id="i-GsCJuB1RJA7DmqeyC3BcKZ">
+          från riksdagens kansli:
+        </note>
+        <note xml:id="i-VdE7FoQjCmeesRGuwRWXxu">
+          nr 230, angående utredning om statens övertagande av de utav
+          landstingen upprättade småskoleseminarierna; och
+        </note>
+        <note xml:id="i-FcCvJRkoj5Lwc5kWmV5HAc">
+          nr 312, angående utseende av en ledamot och åtta suppleanter
+          i. utrikesnämnden.
+        </note>
+        <note xml:id="i-7vuHFyy6UTPvt9FQYuXdCx">
+          § 4.
+        </note>
+        <note xml:id="i-Ph1RYaFDWnd8TFXkzn9LG3">
+          Vidare anmäldes och godkändes riksdagens kanslis förslag till
+          paragrafer i riksdagsbeslutet:
+        </note>
+        <note xml:id="i-4b6WK74fJD9gVu4jJk8Eu2">
+          nr 73, angående förslag till lag om ändrad lydelse av 8 kap.
+          3 S rättegångsbalken;
+        </note>
+        <note xml:id="i-5sXSa6An5RPCvsUvmX3KDJ">
+          nr 74, angående anslag för beredande av lokaler åt en hovrätt
+          över Norrland;
+        </note>
+        <note xml:id="i-F6KCdeBvNfWm8tcDTFqQFg">
+          nr 75, angående ändringar i lagen om förvaltning av bysamfälligheter
+          och därmed jämförliga samfällda ägor och rättigheter;
+        </note>
+        <note xml:id="i-RwZHsQ5H8My7uUxjSUkjrK">
+          nr 76, med förslag till lag om sparbanker m. m.;
+        </note>
+        <note xml:id="i-FTKLWMMB1SgmFer9FLvfmT">
+          nr 77, angående förslag till lag om ändrad lydelse av 18 $ i
+          lagen om fattigvården den 14 juni 1918. | nr 78, rörande förslag
+          till lag om ändrad lydelse av 9 8 i lagen den 2 juli 1915 angående
+          anskaffande av hästar och fordon för krigsmaktens ställande på
+          krigsfot (hästutskrivningslag);
+        </note>
+        <note xml:id="i-WfQhW8mHk2gmrNzwwBjajL">
+          nr 79, rörande ändrad lydelse av 8 12 i lagen den 31 maj 1889
+          angående dövstumundervisningen;
+        </note>
+        <note xml:id="i-KVU6qivqcVDApYLg2tC5Dv">
+          nr 80, angående ändring i lagen om skyddskoppympning;
+        </note>
+        <note xml:id="i-7huxQ7V5Nj1DEWbhqdpfUc">
+          nr 81, rörande förslag till lag angående fortsatt tillämpning
+          av lagen den 24 oktober 1919 om arbetstiden å svenska fartyg;
+        </note>
+        <note xml:id="i-9XAE8JoLgVYSAB8f1nkpCk">
+          nr 82, angående förslag till lag om straff för olovlig varuinförsel
+          m. m.;
+        </note>
+        <note xml:id="i-5dX6mstN9yf8WmEAfFXZZa">
+          nr 83, angående förslag till förordning om motorfordon m. m.;
+        </note>
+        <note xml:id="i-GPcxn216gv4vcSZX4WqTiP">
+          nr 84, angående underlättande i vissa fall av avsöndring utav
+          mark från ecklesiastikt löneboställe till tomt;
+        </note>
+        <note xml:id="i-Av6Bud1VbscdjbzhCQ9d3J">
+          nr 85, angående förslag till brandstadga;
+        </note>
+        <note xml:id="i-GP1iyAKANbuM5iU6aNWfrQ">
+          nr 86, angående åtskilliga på grund av $ 89 regeringsformen väckta
+          frågor;
+        </note>
+        <note xml:id="i-NR2MRhW2s91msZTQB3i4rV">
+          nr 87, rörande viss ändring i 5 8 av förordningen den 19 november
+          1920 angående särskilda grunder för utgörande av 1921—1924 års
+          allmänna kommunalutskylder m. m.;
+        </note>
+        <note xml:id="i-NsUAW6F8JE9GfmYvW66xg1">
+          nr 88, angående förslag till lag om ändrad lydelse av 26 kap.
+          7 $ samt 27 kap. 4 $ rättegångsbalken m. m.;
+        </note>
+        <note xml:id="i-UhiX9mZUbnNKEdehjFSiUW">
+          nr 89, angående ändring i vissa delar av förordningen den 19
+          november 1914 angående stämpelavgiften;
+        </note>
+        <note xml:id="i-Kg92N894Q5ujHDoXKmQfLw">
+          nr 90, rörande ändrad lydelse av 83 $ 2 mom. i förordningen den
+          14 juni 1917 angående försäljning av rusdrycker;
+        </note>
+        <note xml:id="i-R6EuEb5XKfWccsHfXap2Cf">
+          nr 91, angående ändrad lydelse av $$ 7 och 8 samt $ 9 mom.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1923--ak--46/prot_1923__ak__46-003.jp2/_view"/>
+        <note xml:id="i-VeKimuwZG9LFguHjCjnZxJ">
+          Nr 46.
+        </note>
+        <note type="date" xml:id="i-WZzwhXBztpvqHGTQBLfe9t">
+          4 Torsdagen den 7 juni.
+        </note>
+        <note xml:id="i-UM5RpjUcTj7weGwU6ufZ2N">
+          3 och 5 i förordningen den 18 juni 1864 angående utvidgad näringsfrihet;
+          ; nr 92, angående utskänkning i riksdagsrestaurangens matsal av
+          vin och öl;
+        </note>
+        <note xml:id="i-M6wBhmYhg4rc7Vzh6NDsYk">
+          nr 93, angående val av fullmäktige i riksbanken och riksgäldskontoret
+          ävensom suppleanter för dessa;
+        </note>
+        <note xml:id="i-UoLWVSwJYdrif4tLGHvFpb">
+          at 94, angående val av två kommitterade för tryckfrihetens
+        </note>
+        <note xml:id="i-AXuBWUfAMrGk7ufdMsi9A3">
+          vård;
+        </note>
+        <note xml:id="i-5zYmHWNx8c1db7w4TRRZcJ">
+          nr 95, angående val av en ledamot och en suppleant i styrelsen
+          över riksdagsbiblioteket;
+        </note>
+        <note xml:id="i-5c7uFs7gxFygB2o3JeUo6J">
+          nr 96, angående ändrad lydelse av 23 8 i lagen den 12 maj 1897
+          för Sveriges riksbank; |
+        </note>
+        <note xml:id="i-5jwuBJhQzyP9QJzW8wBSbG">
+          nr 97, rörande vissa ändringar i förordningen den 6 augusti 1894
+          angående mantalsskrivning;
+        </note>
+        <note xml:id="i-BEkyR7eqLHkE2wZAFRB5ze">
+          nr 98, angående förslag till skogsvårdslag och till lag angående
+          vård av kommunskogar, sockenallmänningsskogar samt vissa stiftelsers,
+          föreningars och sällskaps skogar;
+        </note>
+        <note xml:id="i-T2HmTWBo56ZGG2q2AwQh8C">
+          nr 99, angående förslag till lag om ändrad lydelse av $ 5 i förordningen
+          den 21 december 1857 om ägors fredande emot skada av annans hemdjur
+          samt om stängselskyldighet;
+        </note>
+        <note xml:id="i-XgoLKMBaK5fkuXzgCxT5y6">
+          nr 100, rörande förordning angående skogsvårdsstyrelser;
+        </note>
+        <note xml:id="i-2DLa4bRRH5NrfESUJfvATG">
+          nr 101, angående förslag till förordning om ändrad lydelse av
+          4 SR 5 $$ i förordningen den 11 oktober 1912 om skogsvårdsavgift;
+        </note>
+        <note xml:id="i-VMuZsUYo2ZunJ2x52zytfg">
+          nr 102, angående ändrad lydelse av 46 $ i lagen den 11 oktober
+          1912 om skogsaccis och om virkestaxering;
+        </note>
+        <note xml:id="i-X5J9ysptWajUZd7te4A3dZ">
+          nr 103, rörande förslag till lag angående skyddsskogar;
+        </note>
+        <note xml:id="i-3gNchVe3kbMA79GJwdx7Kg">
+          nr 104, om ändrad lydelse av 31 $ i lagen angående väghållningsbesvärets
+          utgörande på landet;
+        </note>
+        <note xml:id="i-4V849d5Wpd8CjgPphGLert">
+          nr 105, rörande ändringar 1 lagen den 23 oktober 1891 angående
+          väghållningsbesvärets utgörande på landet; och
+        </note>
+        <note xml:id="i-Ws4wquqiBfNTHDGRzaU8Uv">
+          nr 106, angående avskaffande av mantalspenningarna, allmänna
+          sjukvårdsavgiften och folkskoleavgiften.
+        </note>
+        <note xml:id="i-9nFNV6iPy9RriCb7rVvXEp">
+          § 5.
+        </note>
+        <note xml:id="i-ToqLPsyDU3RbQXo7vsJ9C6">
+          Till bordläggning anmäldes bankoutskottets memorial, nr 74, med
+          förslag till nytt reglemente för riksgäldskontoret.
+        </note>
+        <note xml:id="i-5frDZBZtNZHD8qsuU5sPTK">
+          § 6. Justerades protokollsutdrag.
+        </note>
+        <note xml:id="i-KDWTa1Ut5hDWfo8iqjQYGR">
+          Kammarens ledamöter åtskildes härefter kl. 11,14 f. m.
+        </note>
+        <note xml:id="i-4mseL8n3QFUxQMEspmrnuD">
+          In fidem Per Cronvall.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1923--ak--46/prot_1923__ak__46-004.jp2/_view"/>
+        <note type="date" xml:id="i-AuwSzNj1BMidNwqpfjSEzB">
+          Fredagen den 8 juni. 5
+        </note>
+        <note type="date" xml:id="i-XQc7N68ehWULzQHUix2ECr">
+          Fredagen den 8 juni. Kl. 3 e. m.
+        </note>
+        <note xml:id="i-EuBUGHjZWSrVn9pe4EAeKA">
+          § 1.
+        </note>
+        <note xml:id="i-N5jGyRnBjTpaNM87kajdrC">
+          Justerades protokollen för den 2 och den 3 innevarande juni.
+        </note>
+        <note xml:id="i-2bjH4LZHAhBb4P3dteapXU">
+          § 2. Föredrogs bankoutskottets memorial, nr 74, med förslag till
+          nytt reglemente för riksgäldskontoret; och biföll kammaren därvid
+          utskottets hemställan.
+        </note>
+        <note xml:id="i-B1s9XbrL3swarJ4SSVvnJB">
+          § 3.
+        </note>
+        <note xml:id="i-Us7ayopiUKh78P44qfj8vU">
+          Anmäldes och godkändes följande förslag till riksdagens 'skrivelser
+          till Konungen, nämligen:
+        </note>
+        <note xml:id="i-NQqv3Qs5ZNMnLrzSt7ouWw">
+          från statsutskottet:
+        </note>
+        <note xml:id="i-DD2Vz6ES7szY529HpfQxC5">
+          nr 323, angående statsregleringen för budgetåret 1923—1924;
+        </note>
+        <note xml:id="i-JyR7Yhjbd5TGJXZZZHSQVt">
+          och nr 324, med överlämnande av riksstat för budgetåret 1923—
+        </note>
+        <note xml:id="i-S8yUpnn1pTbjxVerHJEST9">
+          1924; samt .
+        </note>
+        <note xml:id="i-YB8uwWWf8PBFJDdvt1ckrf">
+          från bankoutskottet, nr 320, med reglemente för riksgäldskontoret.
+        </note>
+        <note xml:id="i-TZR7M2z7d88k62Uooq1Lf">
+          &gt; Vidare anmäldes och godkändes bankoutskottets förslag till
+          riksdagens skrivelse, nr 321, till fullmäktige i riksgäldskontoret
+          med reglemente för riksgäldskontoret.
+        </note>
+        <note xml:id="i-W7mYeQVps9BvREyQc35DBo">
+          84. Justerades protokollsutdrag. Kammarens ledamöter åtskildes
+          härefter kl. 3,7 e. m.
+        </note>
+        <note xml:id="i-BwbkSNjgafCCjyTma6Evbq">
+          In fidem Per Cronvall.
+        </note>
+        <note xml:id="i-F4YTwBCAjJd44tsaxHFfPA">
+          Nr 46s
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1923--ak--46/prot_1923__ak__46-005.jp2/_view"/>
+        <note xml:id="i-PjfMudsaSKCcuJ97jnEgMq">
+          Nr 46,
+        </note>
+        <note type="date" xml:id="i-Pv1phppr35w2y46phQCtwY">
+          6 Lördagen den 9 juni.
+        </note>
+        <note type="date" xml:id="i-YNGbsmWR3bsfMn4eEpvR7F">
+          Lördagen den 9 juni. KI. 10,30 f. m.
+        </note>
+        <note xml:id="i-FnyUvDsTNc2x6niZ8YbckX">
+          § 1.
+        </note>
+        <note xml:id="i-LFKZidsdsW92UDAonw58i9">
+          Justerades protokollet för den 4 innevarande Juni.
+        </note>
+        <note xml:id="i-QRmNxwt9NVP4TQ96nVfbes">
+          § 2.
+        </note>
+        <note xml:id="i-JiiTZUJBXrhXWvLcC7Hxdd">
+          Anmäldes och godkändes riksdagens kanslis förslag till paragrafer
+          i riksdagsbeslutet:
+        </note>
+        <note xml:id="i-XVx5Bo4DMu68mp6J2wK1Gg">
+          nr 107, angående statsregleringen;
+        </note>
+        <note xml:id="i-STmrvbNRaPMns2bZTxiSdz">
+          nr 108, angående utseende av en ledamot och åtta suppleanter
+          i utrikesnämnden;
+        </note>
+        <note xml:id="i-NaGVniDH18NLrYv54kPp3J">
+          nr 109, rörande beräkning av bevillningarna för budgetåret 1923
+          — 1924 m. m.;
+        </note>
+        <note xml:id="i-UMhvReEeJLuKV6mq4wndTF">
+          nr 110, angående överlämnande av reglemente för riksgäldskontoret;
+        </note>
+        <note xml:id="i-2NMSZkRYufHDyfeLytBPpr">
+          nr 111, angående dispositionen av besparingarna å huvudtitlarna;
+        </note>
+        <note xml:id="i-M1pWGMaetcw9y95yAAJQ1P">
+          nr 112, angående utbetalning av de riksdagsoch revisionskostnader,
+          som utgå enligt riksstaten och riksgäldskontorets reglenente;
+          :
+        </note>
+        <note xml:id="i-4NiSVi77GD2wBtKdci6Gws">
+          nr 113, angående bestridande av på riksdagens beslut grundade
+          riksdagskostnader samt sådana av riksdag föranledda utgifter,
+          som av Kungl. Maj:t förskottsvis anvisats till utbetalning å statskontoret;
+        </note>
+        <note xml:id="i-JX1rKpUD9FzBn181H79RH5">
+          nr 114, angående sättet för betalning å statsskulden m. m. 3
+        </note>
+        <note xml:id="i-EawEsXWN6nCoMDw9JJqJUg">
+          nr 115, angående av riksdagen beslutade anslag, som utgå av lånemedel;
+        </note>
+        <note xml:id="i-XHjaBL43Xfd3JdnXXuvCT2">
+          nr 116, angående sättet för gäldandet av å riksgäldskontoret
+          anvisade utgifter av lånemedel; och :
+        </note>
+        <note xml:id="i-W7ZatMFhinM3TCFajHmk2H">
+          nr 117, i avseende å statsregleringen och rörande med statsverket
+          gemenskap ägande ämnen.
+        </note>
+        <note xml:id="i-66rFxb4YTMYRY7iMqhBZyQ">
+          § 3. Ordet lämnades härefter till
+        </note>
+        <note type="speaker" xml:id="i-E5Hh4Z7sT4j4nrpZupvdUe">
+          Herr förste vice talmannen, som yttrade:
+        </note>
+        <u who="unknown" xml:id="i-3db36be49d3b1f5c-0" next="i-QzxF6m6aBgrmToxqZutvkH">
+          <seg xml:id="i-SBNN8ZGX5Jc5Fhoe9r9DE5">
+            Herr talman! J ag tillåter mig hemställa, att kammaren måtte
+            besluta uppdraga åt de ledamöter av kammaren, som representera
+            Stockholms stad, att jämte de övriga av kammarens ledamöter, som
+            kunna vara närvarande,
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1923--ak--46/prot_1923__ak__46-006.jp2/_view"/>
+        <note type="date" xml:id="i-CSWbxJmV76jTshSgLA7m7L">
+          Lördagen den 9 juni. 7
+        </note>
+        <note xml:id="i-HNChVNKNGy4BVtHQas7jA5">
+          verkställa justering av de kammarens protokoll, som vid riksdagens
+          slut befinnas vara ojusterade.
+        </note>
+        <note xml:id="i-AfLuvwAhQ7Lx2guhUPXHLt">
+          Denna hemställan bifölls.
+        </note>
+        <note xml:id="i-6Yv8xBtnPeK3Ui3KPb4Y8v">
+          § 4.
+        </note>
+        <u xml:id="i-QzxF6m6aBgrmToxqZutvkH" who="unknown" prev="i-3db36be49d3b1f5c-0" next="i-CJwRXgJP1DQND3ZoUhsBAT">
+          <seg xml:id="i-W939TcoYUmhV8XMim4BUaP">
+            Kammarens ledamöter, vilka av Kungl. Maj:t blivit kallade att
+            denna dag efter bevistad gudstjänst infinna sig å rikssalen, där
+            riksdagen komme att avslutas, avgingo nu till slottskapellet för
+            åhörande av riksdagspredikan. Efter gudstjänstens slut begåvo
+            sig kammarens ledamöter till rikssalen, där jämväl första kammarens
+            ledamöter infunno sig.
+          </seg>
+        </u>
+        <note xml:id="i-9VPhMuy8ipeJ1Bo9wYhPm4">
+          Herr statsrådet och chefen för justitiedepartementet Ekeberg
+          uppläste där Kungl. Maj:ts förordnande för hans excellens herr
+          ministern för utrikes ärendena Hederstierna att å Kungl. Maj:ts
+          vägnar avsluta riksdagen.
+        </note>
+        <u xml:id="i-CJwRXgJP1DQND3ZoUhsBAT" who="unknown" prev="i-QzxF6m6aBgrmToxqZutvkH" next="i-FxRSRjj7cN1awWH7KxL8yN">
+          <seg xml:id="i-RFkXYU9tXyXwpxWsDey79u">
+            Sedan härefter kamrarnas undersåtliga vördnad och välönskningar
+            blivit av herrar talmän framförda samt herr statsrådet och chefen
+            för justitiedepartementet uppläst riksdagens beslut, förklarade
+          </seg>
+        </u>
+        <note xml:id="i-9zWWo3Bh1jgCxvAvZCrvT9">
+          hans excellens herr ministern för utrikes ärendena riksdagen
+          vara avslutad.
+        </note>
+        <note xml:id="i-SYasgRo9M1DRQhsZpVHgjZ">
+          § 5.
+        </note>
+        <u xml:id="i-FxRSRjj7cN1awWH7KxL8yN" who="unknown" prev="i-CJwRXgJP1DQND3ZoUhsBAT" next="i-3db36be49d3b1f5c-1">
+          <seg xml:id="i-E2oZwDJEhV3YvbaHorEHoh">
+            Efter det herr talmannen och kammarens ledamöter återkommit till
+            kammarens samlingsrum, tog herr talmannen avsked av kammarens
+            ledamöter med följande ord:
+          </seg>
+        </u>
+        <u who="unknown" xml:id="i-3db36be49d3b1f5c-1" prev="i-FxRSRjj7cN1awWH7KxL8yN" next="i-3db36be49d3b1f5c-2">
+          <seg xml:id="i-Xsab6W8EDdLprMFeE1QjVf">
+            Mina damer och herrar! Denna riksdags avslutning har nu ägt rum
+            efter jämnt fem månaders samvaro. Det vore tydligen önskvärt,
+            om nästa och följande lagtima riksdagars arbete kunde begränsas
+            så, att riksdagstiden icke behövde utsträckas längre än fem månader,
+            detta särskilt och framför allt med hänsyn till den omläggning
+            av budgetåret, som från och med den första juli innevarande år
+            träder i tillämpning. Någon ytterligare förkortning av riksdagstiden
+            utöver vad som nu uppnåtts torde knappast kunna förväntas, då
+            vid årets riksdag, som bekant, icke några särskilt stora eller
+            dominerande frågor förelegat. Även antalet från Kungl. Maj:t avlämnade
+            propositioner har i år varit avsevärt mindre än närmast föregående
+            riksdagar. Det oaktat och trots allvarliga ansträngningar i syfte
+            att försöka förkorta riksdagstiden har det likväl icke lyckats
+            att begränsa densamma mer än till dessa fem månader.
+          </seg>
+          <seg xml:id="i-5kEeY9kp2AqFn6qig8NVgR">
+            Resultatet av det arbete, som den nu gångna riksdagen utfört,
+            tillkommer det icke mig att bedöma. Meningarna om detta resultat
+            äro säkerligen delade även bland riksdagens ledamöter, givetvis
+            beroende på olika uppfattningar om den för land och folk bästa
+            lösningen av de tvistiga frågor, som förelegat.
+          </seg>
+          <seg xml:id="i-4SMXvkeK9ModJ3ZmfUXB6z">
+            Det är emellertid med tillfredsställelse, vi nu kunna konstatera,
+            att vårt arbete under denna riksdag kunnat utföras under för vårt
+          </seg>
+        </u>
+        <note xml:id="i-5QzdzZUMvQ3wPYpvTnGqmR">
+          Nr 46.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1923--ak--46/prot_1923__ak__46-007.jp2/_view"/>
+        <note type="date" xml:id="i-SusGHStPcHPnroMVDzvMHz">
+          8 Lördagen den 9 juni.
+        </note>
+        <u who="unknown" xml:id="i-3db36be49d3b1f5c-2" prev="i-3db36be49d3b1f5c-1">
+          <seg xml:id="i-D15mqYRi2Wt1coXBmXBFdg">
+            land något mindre brydsamma förhållanden än under förra året,
+            även om riksdagen måst iakttaga den allra största sparsamhet i
+            fråga om anslag till olika ändamål.
+          </seg>
+          <seg xml:id="i-QuaYmBbzGH2xm9umWK4NPq">
+            Jag hoppas dock livligt, att då vi åter samlas här till nästa
+            riksdag, vi i vårt land må ha nått fram till normala ekonomiska
+            förhållanden och ljusare utsikter på näringslivets skilda områden.
+          </seg>
+          <seg xml:id="i-SeDgJdYDc4gHxyFXRa1qXP">
+            Med uttalande av denna förhoppning ber jag nu att till alla kammarens
+            ledamöter få frambära ett hjärtligt och varmt tack för all vänlighet,
+            välvilja och överseende, som jämväl under denna riksdag kommit
+            mig till del.
+          </seg>
+          <seg xml:id="i-D6MHhprwKij9ksUCT3eZzq">
+            Till sist önskar jag alla och envar av kammarens ledamöter en
+            1 alla avseenden god och angenäm sommar.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-KkCnr73wSpCvdWcDxD7RJW">
+          Härpå svarade herr Åkerlund:
+        </note>
+        <u who="Q6255248" xml:id="i-2c5663c8ea479802-0">
+          <seg xml:id="i-PKSujcmbGuexAMWigMQFwR">
+            Herr talman! Naturligtvis har vid denna jämförelsevis lugna riksdag,
+            som nu är avslutad, stridens vågor dock många gånger gått högt
+            och enigheten icke varit sådan, som man möjligen skulle önskat
+            — den enigheten kan för övrigt aldrig nås — men i en punkt är
+            jag viss om, så långt min erfarenhet sträcker sig, att samtliga
+            kammarens ledamöter varit fullt eniga, och det är därom, att det
+            knappast hade kunnat väljas någon värdigare talman än ni, herr
+            Viktor Larsson. På grund därav ber jag till eder få framföra de
+            närvarande och frånvarande kammarledamöternas varma och uppriktiga
+            tack för det sätt, varpå ni lett kammarens förhandlingar, och
+            för den vänlighet, som ni har visat alla och envar av oss. Därjämte
+            vågar jag uttala den förhoppningen, att ni under den stundande
+            sommaren måtte åtnjuta hälsa och krafter, så att vi vid nästa
+            riksdag måtte få se eder lika glad och lika vänlig i talmansstolen.
+          </seg>
+        </u>
+        <note xml:id="i-Lvi6dXcm9M6AmDK6weKmx5">
+          Herr talmannen och kammarens ledamöter utbytte härefter avskedshälsningar
+          och åtskildes.
+        </note>
+        <note xml:id="i-9RUYzgGQUvpXD6V7FxwfFH">
+          In fidem Per Cronvall.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1923--ak--46/prot_1923__ak__46-008.jp2/_view"/>
+        <note type="date" xml:id="i-WMqxWKKkEFVs6BDbh8tdGD">
+          Fredagen den 15 juni. 9 Nr 46.
+        </note>
+        <note type="date" xml:id="i-CRrHoxbp2EBMmVR7dru5zv">
+          Fredagen den 15 juni. Kl. 12 på dagen.
+        </note>
+        <note xml:id="i-WrF2Wia24BKmhzRKhdEAMW">
+          Sedan andra kammaren genom beslut den 9 innevarande juni åt representanterna
+          för Stockholms stad samt dem av kammarens övriga ledamöter, som
+          kunde vara närvarande, uppdragit att justera de kammarens protokoll,
+          vilka vid riksdagens avslutande återstodo ojusterade, hade tillkännagivande,
+          att nämnda justering komme att denna dag kl. 12 försiggå i kammarens
+          justeringsrum, blivit vederbörligen utfärdat; och tillstädeskommo
+          på utsatt tid följande kammarens ledamöter:
+        </note>
+        <note xml:id="i-DSMEWsTp5R14QqkQcsz69Y">
+          herr E.. A. Nilson i Örebro,
+        </note>
+        <note xml:id="i-9i6hsj29fKdjZpK5FR6pwD">
+          » Månsson i Hagaström,
+        </note>
+        <note xml:id="i-KuGBhV99f57deLBvwkq2Tr">
+          » Eriksson i Stockholm,
+        </note>
+        <note xml:id="i-JTJcadkyXGGMeScgjfDxHS">
+          » Holmström i Stockholm, fru Östlund och fröken Wellin.
+        </note>
+        <note xml:id="i-5EJmWN4QZ7SMMtKe5VRZ1k">
+          De protokoll, som hållits vid kammarens sammanträden den 6, den
+          7, den 8 och den 9 innevarande juni, upplästes och blevo av kammarens
+          tillstädesvarande ledamöter godkända.
+        </note>
+        <note xml:id="i-JMJPK6rebZALoEihgYHuAH">
+          In fidem Per Cronvall.
+        </note>
+        <note xml:id="i-2MBvzmmCSCgLQQX9GiHreE">
+          Andra kammarens protokoll 1923. Nr 46. 2
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

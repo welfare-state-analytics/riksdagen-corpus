@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1942</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1942</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,737 +25,710 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1942--ak--7</head>
-          <docDate when="1942-02-10">1942-02-10</docDate>
-          <docDate when="1942-02-11">1942-02-11</docDate>
-          <docDate when="1942-02-14">1942-02-14</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1942--ak--7/prot_1942__ak__7-000.jp2/_view"/>
-          <note xml:id="i-TEVvHTKoct3MHzWTqiQPyu">
-            RIKSDAGENS PROTOKOLL. 1942. Andra kammaren. Nr 7.
-          </note>
-          <note type="date" xml:id="i-41t9wj3jXMsupb9PnPyNyq">
-            Tisdagen den 10 februari.
-          </note>
-          <note xml:id="i-7VRiu3PVADG5ZmzqYdgtvi">
-            Kl. 4 e. m. 8 1. Justerades protokollen för den 3, den 4 och
-            den 7 innevarande februari. 8 2.
-          </note>
-          <note xml:id="i-SAwRihYJYjNUno5FXPFd3x">
-            Herr statsrådet Bergquist avlämnade Kungl. Maj:ts propositioner:
-          </note>
-          <note xml:id="i-NU34htMrLrCZt3rpsVeKSu">
-            ar 36, med förslag till lag om förbud mot bebyggelse till hinder
-            för försvaret;
-          </note>
-          <note xml:id="i-Dqrv1sXJt8uU5EboudD53y">
-            nr 37, med förslag till lag om preskription av rätt till medel
-            som innestå hos offentlig myndighet; och
-          </note>
-          <note xml:id="i-1ya5EQ98vzf57sfqB1Lgd">
-            nr 41, med förslag till lag om ändrad lydelse av 1 8 lagen den
-            26 juni 1936 (nr 373) med vissa bestämmelser om centralkassor
-            för jordbrukskredit, m. m.
-          </note>
-          <note xml:id="i-7sXQm6aZs3Vn9WMWZp8tXZ">
-            Dessa propositioner bordlades.
-          </note>
-          <note xml:id="i-DUtuZ49XX4sczVHMwTECQH">
-            § 3.
-          </note>
-          <note xml:id="i-UAByLcrHHzh46qEExmfRRA">
-            Föredrogos var efter annan följande Kungl. Maj:ts å kammarens
-            bord vilande propositioner; och hänvisades därvid
-          </note>
-          <note xml:id="i-NQ4f98C74ysHnrEv9ifXUX">
-            till behandling av lagutskott propositionen, nr 21, med förslag
-            till lag om ändrad lydelse av 47 $ 4 mom. sinnessjuklagen den
-            19 september 1929 (nr 321);
-          </note>
-          <note xml:id="i-KKG6NHA7fzWHvxHPxoUwSY">
-            till statsutskottet propositionen, nr 23, angående försäljning
-            av kronan tillhörigt område i Halmstad;
-          </note>
-          <note xml:id="i-CsFYsarGj6jmvna3QYJK2Y">
-            till behandling av lagutskott propositionen, nr 27, med förslag
-            till lag om ändring i vissa delar av 8 kap. strafflagen, m. m.;
-          </note>
-          <note xml:id="i-XphaUYji2TYn4QFtRFdn3X">
-            till statsutskottet propositionen, nr 28, angående anslag till
-            elektriska lokomotiv;
-          </note>
-          <note xml:id="i-73nf6yLwg6NgkK79XxvJcX">
-            till bevillningsutskottet propositionen, nr 29, angående höjning
-            av vissa postavgifter m. m.;
-          </note>
-          <note xml:id="i-VBUowboC2XhGywwYCXtNeu">
-            till statsutskottet propositionerna:
-          </note>
-          <note xml:id="i-D8JMoUWaEVfvkVthhW2Mje">
-            nr 30, angående avhändande av vissa kronan tillhöriga fastigheter
-            och vägmarksandelar; och
-          </note>
-          <note xml:id="i-TEnG4ZAyJmTu51JdbAZme3">
-            nr 31, angående ytterligare anslag till ändringsarbeten i fastigheten
-            nr 4 i kvarteret Kungl. Trädgården i Stockholm;
-          </note>
-          <note xml:id="i-Pdd6VPZ1UzkUjCQbn74TVm">
-            till jordbruksutskottet propositionerna:
-          </note>
-          <note xml:id="i-C2H9bzuRzSUP23WspdgYvt">
-            nr 32, angående befrielse för O. Damberg m. fl. från viss betalningsskyldighet;
-            och
-          </note>
-          <note xml:id="i-BCbbJusF6K2xFmVMs5jhsb">
-            nr 33, angående befrielse för A. Viktorsson från betalningsskyldighet
-            till kronan på grund av virkesköp; samt
-          </note>
-          <note xml:id="i-BLU85rZWMUYQ5h8rvRy7pZ">
-            till statsutskottet propositionen, nr 34, angående anvisande
-            av vissa anslag å tilläggsstat IT till riksstaten för budgetåret
-            1941/42.
-          </note>
-          <note xml:id="i-7ZJPgXCd27z7RJNuK2gnQQ">
-            Andra kammarens protokoll 1942. Nr 7. 1
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1942--ak--7/prot_1942__ak__7-001.jp2/_view"/>
-          <note type="date" xml:id="i-2pYcJPqhRfiYtJ2aV7Bs2e">
-            2 Nr 7. Tisdagen den 10 februari 1942.
-          </note>
-          <note xml:id="i-DGyu7UxWMTchXqmusXdRDn">
-            Vid härpå skedd föredragning av Kungl. Maj:ts proposition, nr
-            35, angående befrielse för H. G. Persson från ersättningsskyldighet
-            m. m., hänvisades propositionen, i vad angick det under punkt
-            3:o framställda förslaget, till bankoutskottet och i övrigt till
-            statsutskottet.
-          </note>
-          <note xml:id="i-3GrkwHbj2XAWGYjfNEHY7Y">
-            Vidare föredrogos var för sig följande Kungl. Maj:ts på bordet
-            liggande propositioner; och remitterades därvid
-          </note>
-          <note xml:id="i-PmXDfQidB1SwRrP6sXYigS">
-            till behandling av lagutskott propositionen, nr 38, med förslag
-            till lag angående lindring i arrendevillkoren för vissa arrendatorer
-            av ecklesiastik jord; samt .
-          </note>
-          <note xml:id="i-5qpXVd73rXMUBrMmpB9wH2">
-            till jordbruksutskottet propositionen, nr 39, med förslag till
-            förordning angående grunder för lindring i arrendevillkoren för
-            vissa arrendatorer av kronans jordbruksegendomar. " Slutligen
-            föredrogs Kungl. Maj:ts å bordet vilande proposition, nr 40, med
-            förslag till lag om jämkning av arrendeavtal i vissa fall, m.
-            m.; och hänvisades propositionen, i vad angick anslagsfrågan,
-            till jordbruksutskottet och i övrigt till behandling av lagutskott.
-          </note>
-          <note xml:id="i-7HTxrChwubVpp5GPLQvV6H">
-            § 4.
-          </note>
-          <note xml:id="i-CfTtwF8QnkMxRK3gi3NyUq">
-            Föredrogos, men bordlades åter statsutskottets utlåtanden nr
-            12, 16 och 21. bevillningsutskottets betänkande nr 1 samt bankoutskottets
-            utlåtande nr 3.
-          </note>
-          <note xml:id="i-27RBE8BcuYa6CJe5f8WAk1">
-            § 5.
-          </note>
-          <note xml:id="i-KZMMXtkUmYqjT9XuhoGSX7">
-            Anmäldes och godkändes andra lagutskottets skrivelser till Konungen:
-          </note>
-          <note xml:id="i-CrJPuj3vmRMvDyFpgBTbJi">
-            nr 14, i anledning av Kungl. Maj:ts proposition med förslag till
-            lag om vissa ändringar i lagen den 12 juni 1925 (nr 338) om värnpliktiga,
-            vilka hysa samvetsbetänkligheter mot värnpliktstjänstgöring; och
-          </note>
-          <note xml:id="i-LHp4247tKRSbCureH7QbXW">
-            nr 15, i anledning av Kungl. Maj:ts proposition med förslag till
-            lag angående ändrad lydelse av 7 $ lagen den 13 juni 1921 (nr
-            299) om förvaltning av bysamfälligheter och därmed jämförliga
-            samfällda ägor och rättigheter.
-          </note>
-          <note xml:id="i-Xu23Uz7kQcjYowob1tuAwE">
-            § 6. Justerades protokollsutdrag.
-          </note>
-          <note xml:id="i-7AicvQr8TShsJacf3WpJg1">
-            Kammarens ledamöter åtskildes härefter kl. 4.7 e. m.
-          </note>
-          <note xml:id="i-HuDZ51kjioMKZy273oPDDi">
-            In fidem Sune Norrman.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1942--ak--7/prot_1942__ak__7-002.jp2/_view"/>
-          <note type="date" xml:id="i-NKKVFKw1SkugNTkGfmBhxq">
-            Onsdagen den 11 februari 1942. Nr 7. 3
-          </note>
-          <note type="date" xml:id="i-PFr6q5aVBcfVQ6rPXdFuCL">
-            Onsdagen den 11 februari. Kl. 11 f. m.
-          </note>
-          <note xml:id="i-9AjVbxGDAzq4SBHrejmFGu">
-            § 1.
-          </note>
-          <note xml:id="i-7KGcZvmcQ2Xv52eDkWV2xG">
-            Herr talmannen lämnade på begäran ordet till
-          </note>
-          <note type="speaker" xml:id="i-CMFjSF1vaMpUKyobpphTLk">
-            Chefen för justitiedepartementet, herr statsrådet Westman, som
-            anförde:
-          </note>
-          <u who="Q4353489" xml:id="i-bc69ba60f0eb43d1-0">
-            <seg xml:id="i-YZWXywFQbEaVBUATTUFPYA">
-              Herr talman! Herr Hansson i Vännäsby har till mig ställt frågan
-              huruvida — i anslutmng till riksdagens skrivelse nr 61 av år 1935
-              och därefter företagen sakkunnigutredning — förslag om en särskild
-              lag om djurskydd kan väntas förelagd nu pågående riksdag.
-            </seg>
-            <seg xml:id="i-UfaHmc4WS2bWLVkeXpYaDx">
-              Till svar härpå vill jag meddela, att arbetet på utarbetande
-              av en proposition till riksdagen på grundval av sakkunnigutredningen
-              upptogs inom justitiedepartementet men att arbetet tills vidare
-              måste avbrytas på grund av att andra lagfrågor under rådande tidsförhållanden
-              krävt skyndsam behandling. Något lagförslag kan därför icke föreläggas
-              årets riksdag. Frågan kommer emellertid att återupptagas till
-              behandling så snart förhållandena medgiva.
-            </seg>
-          </u>
-          <note xml:id="i-9jSVKmtWaFE9qwyvVRofo">
-            Härefter yttrade:
-          </note>
-          <note type="speaker" xml:id="i-R3dk3a2rGXqBWEuVEPtAr6">
-            Herr Hansson i Vännäsby:
-          </note>
-          <u who="unknown" xml:id="i-cad37118a074e19f-0">
-            <seg xml:id="i-XKRNjW8FKV34dx6nC3kNsw">
-              Herr talman! Jag ber att fä tacka herr statsrådet och chefen
-              för justitiedepartementet för det svar, som jag fått på min fråga.
-              Naturligtvis skulle jag ha varit i än mer tacksam och förnöjd,
-              ifall svaret hade innehållit, att riksdagen redan i år skulle
-              få mottaga en proposition med ett lagförslag i ämnet. Det är ju
-              en allmänt utbredd mening här i landet, att vår djurskyddslag
-              är otillfredsställande. Dess beskaffenhet och ordalydelse är sådan,
-              att det är synnerligen svårt att få personer fällda, som ha bedrivit
-              djurplågeri. Det skall gälla ett mycket grovt och uppenbart brott,
-              om det skall vara möjligt att utdöma något straff. Ofta händer
-              det också, att om en person blivit fälld för djurplågeri vid en
-              underrätt, blir han sedan frikänd 1 högre instans.
-            </seg>
-            <seg xml:id="i-DgAj2uaiUqbaTrUeABZnmN">
-              Det råder som sagt i landet en allmän önskan om att få en mera
-              tidsenlig lagstiftning på detta område till stånd och samtidigt
-              också en lagstiftning, som verkligen fostrar allmänheten, så att
-              den behandlar djuren på ett mildare och humanare sätt. Jag vill
-              därför uttala den önskan, att förslag till sådan ny lagstiftning
-              måtte föreläggas riksdagen så snart som möjligt.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-27z4YW9copbFQ7vddtG7WK">
-            Herr Wallén:
-          </note>
-          <u who="Q6230500" xml:id="i-9250f02187e5cceb-0" next="i-cad37118a074e19f-1">
-            <seg xml:id="i-FPKwrqpJLrZRSwhtLfy3ru">
-              Herr talman! Jag ber för min del att få understryka behovet av
-              att något göres på detta område. Faktiskt förekommer djurplågeri
-              i mycket stor skala, och man måste nog fortast möjligt se till
-              att sådana upprörande fall kunna stävjas på ett effektivt sätt.
-            </seg>
-            <seg xml:id="i-F381jijhdR2ZfruhcwpQJ7">
-              Samtidigt vill jag säga, att jag visserligen är mycket tacksam
-              för att i anledning av en av mig väckt motion år 1934 båda kamrarna
-              beslöto en riksdagsskrivelse till Kungl. Maj:t i fråga om skäktningen
-              och att det tre år senare utfärdades en förordning härom, men
-              även därvidlag borde nog något mera göras, så att åtgärderna bli
-              effektiva och vi här i Sverige slippa ha kvar skäktningen, vilken
-              är något för vårt land enastående. Enligt nyss inhämtade
-            </seg>
-          </u>
-          <note xml:id="i-7oB2MdJYjS8594jRNZWhbv">
-            Svar på fråga.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1942--ak--7/prot_1942__ak__7-003.jp2/_view"/>
-          <note xml:id="i-VSNx21dnnVNga7X36EpMjT">
-            Svar på fråga.
-          </note>
-          <note type="date" xml:id="i-QtaVskw5JdKed9sHXs6TUg">
-            4 Nr 7. Onsdagen den 11 februari 1942.
-          </note>
-          <u who="Q6230500" xml:id="i-cad37118a074e19f-1" prev="i-9250f02187e5cceb-0">
-            <seg xml:id="i-A1PmGWd98Csugr89pgKJP3">
-              Svar på fråga. (Forts.) uppgifter från slakthuset går icke mindre
-              än 5,000 storboskap till skäktning. De gasbedövas visserligen
-              först, men huruvida den bedövningen är effektiv vill jag icke
-              yttra mig om. Det påstås, att åtminstone på vissa håll är bedövningen
-              delvis skenbar.
-            </seg>
-            <seg xml:id="i-DkPMkuJPRgGUUeggw8qPjU">
-              Jag ber därför att få rekommendera, att det vidtages effektiva
-              kontrollåtgärder i alla avseenden.
-            </seg>
-          </u>
-          <note xml:id="i-FSs2e3f8e1m5hh5t4sDTVh">
-            Överläggningen var härmed slutad.
-          </note>
-          <note xml:id="i-8ByXA74aWLLWgahMxhzPxZ">
-            § 2.
-          </note>
-          <note type="speaker" xml:id="i-ARkMZeB1Ja13Fxzq6eke3P">
-            Chefen för handelsdepartementet, herr statsrådet Eriksson, erhöll
-            på begäran ordet och anförde:
-          </note>
-          <u who="Q5716548" xml:id="i-91a9944fc0a70e82-0" next="i-PiWvYjLW1czizjhoL7a5bz">
-            <seg xml:id="i-FjLw8qPadydaa8UhyN1oJL">
-              Herr talman! Herr Svedman har frågat mig, om utsikt föreligger
-              att 1941 års isbrytarutredning skall hinna framlägga sitt betänkande
-              så tidigt, att därav föranledda framställningar och förslag kunna
-              föreläggas årets riksdag.
-            </seg>
-            <seg xml:id="i-UUy9Vco6n5mu1k83PN6LLN">
-              Enligt de direktiv för arbetet, som lämnats och som finnas 1
-              huvudsak återgivna i årets kommittéberättelse, har isbrytarutredningen
-              ganska omfattande utredningsuppgifter att genomföra, innan betänkande
-              kan framläggas. På grund härav är, enligt vad jag inhämtat, utredningens
-              betänkande icke att förvänta förr än under höstens lopp. Proposition
-              i ämnet, om utredningens förslag föranleder därtill, kan följaktligen,
-              såvitt nu kan bedömas, icke framläggas för årets riksdag.
-            </seg>
-          </u>
-          <u xml:id="i-PiWvYjLW1czizjhoL7a5bz" prev="i-91a9944fc0a70e82-0" who="Q5716548">
-            <seg xml:id="i-9EyE2pbvMJ5hgEtB59idb5">
-              Härpå yttrade:
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-9Mv6M5zBUMhgjcDAduD9CC">
-            Herr Svedman:
-          </note>
-          <u who="Q6197814" xml:id="i-2aa3afc9b1ba7689-0" next="i-2aa3afc9b1ba7689-1">
-            <seg xml:id="i-EUfAdotQ7hbotoVm3xgwF5">
-              Herr talman! Jag ber att få framföra mitt tack till herr statsrådet
-              för det snabbt levererade svaret. Jag hoppas, att även om det
-              för ögonblicket icke ser vidare förhoppningsfullt ut, omständigheterna
-              dock skola medge ett påskyndande av det ifrågavarande utredningsarbetet.
-            </seg>
-            <seg xml:id="i-87xhPfwtcaScL7nsEFwqPV">
-              Man kan väl förutsätta ett sammanhang mellan de bägge isvintrar,
-              som vi upplevde åren 1940 och 1941, och tillsättandet i juni i
-              fjol av denna isbrytarutredning, liksom den omständigheten, att
-              vi nu ha den tredje — och värsta — RE å rad, är den närmaste anledningen
-              till den av mig framställda rågan.
-            </seg>
-            <seg xml:id="i-2f83RFRBs47maxi8bZjEz9">
-              Isbrytarutredningens direktiv äro, som herr statsrådet påpekat,
-              sådana, att frågan i hela dess vidd skall tagas under omprövning,
-              och det är klart, att detta måste ta tid. Det gäller emellertid
-              här en fråga, som är av allra största vikt. Jag behöver icke här
-              orda om det av oss alla bekanta förhållandet med sjutton ångare,
-              som ha legat infrusna utanför östgötakusten och som säkerligen
-              skulle råkat ut för en katastrof, därest icke, som skedde häromdagen,
-              en omsvängning av vindförhållandena hade inträffat. Det är uppenbart,
-              att människoliv och stora materiella värden stå på spel under
-              förhållanden sådana som dessa, när en så stark kyla med isbildning
-              plötsligt sätter in relativt tidigt på vintern, varmed ju också
-              följa opåräknade uppläggningar av fartyg, omöjliggjorda eller
-              försvårade transporter, ökade fraktkostnader o. s. v.
-            </seg>
-            <seg xml:id="i-R4qpaZWkJHL6GZjLHdRu3Y">
-              Det bör i detta sammanhang vara tämligen klart, att jag närmast
-              tänker på den landsända, som jag här representerar, då jag vill
-              säga ett par ord i denna fråga. Där dväljas över 60,000 människor,
-              och den mest naturliga och huvudsakliga förbindelseleden, den
-              över havet, är sedan snart tre veckor stängd. Man måste visserligen
-              lämna regeringen och chefen för flygvapnet allt erkännande för
-              deras snabba ingripande genom anordnande av flygförbindelser,
-              som uppskattas synnerligen högt av Gotlands folk, men man måste
-              dock betänka vad den nuvarande isoleringen betyder för denna landsända.
-              Man kommer icke
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1942--ak--7/prot_1942__ak__7-004.jp2/_view"/>
-          <note type="date" xml:id="i-BGCz98yC3pNcS9P6R7zNvp">
-            Onsdagen den 11 februari 1942. Nr 7. 5
-          </note>
-          <u who="Q6197814" xml:id="i-2aa3afc9b1ba7689-1" prev="i-2aa3afc9b1ba7689-0">
-            <seg xml:id="i-16jFgjLW9mxQTdczNfRbKi">
-              Svar på fråga. (Forts.) vare sig fram eller tillbaka med gods
-              och knappast heller med passagerare. Ett flygplan tar ju 14 och
-              högst 16 passagerare åt gången, och även om man gör dubbla turer
-              varje dag, blir det mycket litet i förhållande till att en båt
-              även under denna tid på året kan räkna med hundratals passagerare
-              1 vardera riktningen per dag. På Gotland ligga nu lagrade livsmedel
-              för export — ägg, kött och smör — i för varje dag ökade mängder,
-              och en hel del förnödenheter behöva införas från fastlandet. Under
-              dessa förhållanden är det givet, att man är intresserad av att
-              denna fråga — frågan om ökat och kraftigare isbrytarmateriel —
-              så snabbt som möjligt löses på ett tillfredsställande sätt.
-            </seg>
-            <seg xml:id="i-XGSdKmij6HLDHo38FGe5za">
-              Det är för övrigt icke endast de civila synpunkterna, som härvidlag
-              framträda, utan även de militära. Jag har emellertid ingen anledning
-              att särskilt beröra dessa. Jag har med min fråga velat ge uttryck
-              för den oro, som på grund av nuvarande klimatiska förhållanden
-              har uppstått i den landsända, där jag har min hemort.
-            </seg>
-            <seg xml:id="i-KyhRQkjYAEse619Yx1gZ2v">
-              Ehuru jag, herr talman, icke har befarat, att utredningen skulle
-              frysa inne, har jag dock ansett, att utredningsarbetet i likhet
-              med havsisen bör forceras.
-            </seg>
-          </u>
-          <note xml:id="i-Sdr6QouDPYBicqDpNAbVtA">
-            I detta anförande instämde herr Gardell.
-          </note>
-          <note xml:id="i-7VHBe8Rf9sh5Vz8B7o7hdU">
-            Härmed var överläggningen slutad.
-          </note>
-          <note xml:id="i-7QiZQMzKg8tCBkb7TL5Hno">
-            § 3.
-          </note>
-          <note xml:id="i-WCDqVUmWaekX3F1TGah7tQ">
-            Föredrogos var efter annan och hänvisades till behandling av
-            lagutskott följande Kungl. Maj:ts å kammarens bord vilande propositioner:
-          </note>
-          <note xml:id="i-SuANG9e9WpLDqUFzHKEzem">
-            nr 36, med förslag till lag om förbud mot bebyggelse till hinder
-            för försvaret; och
-          </note>
-          <note xml:id="i-ELGZqq77wKEYx7WgExMMN6">
-            nr 37, med förslag till lag om preskription av rätt till medel
-            som innestå hos offentlig myndighet.
-          </note>
-          <note xml:id="i-4ek2XQ1FarzDN3bifUuSUT">
-            Vid härpå skedd föredragning av Kungl. Maj:ts proposition, nr
-            41, med förslag till lag om ändrad lydelse av 1 $ lagen den 26
-            juni 1936 (nr 373) med vissa bestämmelser om centralkassor för
-            jordbrukskredit, m. m. hänvisades propositionen, i vad angick
-            anslagsfrågorna, till jordbruksutskottet och i övrigt till bankoutskottet.
-          </note>
-          <note xml:id="i-WihyZ91ZRVGHTgNYXZtavU">
-            § 4.
-          </note>
-          <note xml:id="i-AZoG8yUn1NZ7G2bt1DEf4a">
-            Föredrogs statsutskottets utlåtande, nr 12, i anledning av Kungl.
-            Maj:ts 1 Kungl. Maj:ts statsverkspropositionen gjorda framställningar
-            under Utgifter å driftbudgeten, framställning-
-          </note>
-          <note xml:id="i-U92vaUC91jjdAv9Eu7akBX">
-            För flera huvudtitlar gemensamma frågor, jämte i ämnet väckta
-            motioner. gifter &amp; drift
-          </note>
-          <note type="speaker" xml:id="i-FWzfLzb2k87Nu6EEMMgQPZ">
-            Efter föredragning av utskottets hemställan anförde leda Mivudr
-            Herr Holmdahl:
-          </note>
-          <u who="unknown" xml:id="i-ead65e72e2fb33fa-0" next="i-Si9K1E5aSwdhSEBSfK2JzX">
-            <seg xml:id="i-3fmmcoQdbyCLD3rUajmqKW">
-              Herr talman! Jag skall be att få med några ord förklara !itlar
-              gemenden blanka reservation, som är fogad vid detta utlåtande.
-              samma frågor. I det utlåtande, som nu föredragits, har utskottet
-              besvarat Kungl. Maj:ts framställningar angående vissa med tjänsteförteckningsrevisionen
-              sammanhängande frågor. Dessa frågor gälla vissa övergångsbestämmelser
-              i samband med den nu ifrågasatta överföringen av vissa tjänster
-              till lägre eller högre lönegrad. Finansministern har behandlat
-              dessa frågor gemensamt för de olika huvudtitlarna i årets statsverksproposition
-              i det lilla häfte, som har rubriken Utgifter å driftbudgeten.
-              Beträffande dessa med tjänsteförteckningsrevisionen sammanhängande
-              allmänna frågor har finansministern lagt fram en del, som man
-              skulle kunna kalla övergångsbestämmelser och som gälla genomförande
-              av denna reglering av vissa tjänster. En av dessa övergångsbestämmelser
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1942--ak--7/prot_1942__ak__7-005.jp2/_view"/>
-          <note type="date" xml:id="i-PDSpzExzfWa16xupUZ9Hnz">
-            6 Nr 7. Onsdagen den 11 februari 1942.
-          </note>
-          <note xml:id="i-KKwxvqwb2dHB1BpvkaTXvW">
-            Kungl. Maj:ts framställningar under Utgifter å driftbudgeten,
-            För flera huvudtitlar gemensamma frågor. (Forts.)
-          </note>
-          <u xml:id="i-Si9K1E5aSwdhSEBSfK2JzX" who="unknown" prev="i-ead65e72e2fb33fa-0">
-            <seg xml:id="i-YQneoEizPPx1KNEZpe9acf">
-              innehåller, att en tjänsteman, som innehar tjänst, vilken flyttas
-              till högre lönegrad, skall kunna övergå på den i en högre lönegrad
-              placerade tjänsten utan kungörelseförfarande och utan ansökan.
-              Från denna allmänna regel har emellertid gjorts ett litet undantag
-              — och det är mot detta undantag, som jag vänder mig i min blanka
-              reservation — nämligen att om tjänstinnehavare redan före den
-              1 juli i år uppnått pensionsåldern men erhållit tillstånd att
-              kvarstå i tjänsten ännu något år, får denna allmänna regel icke
-              tillämpas på honom. Med andra ord, en tjänstinnehavare, som under
-              många år skött en tjänst, som flyttas till högre lönegrad, och
-              som uppnått pensionsåldern före den 1 juli, skulle icke få tillgodonjuta
-              den förmånen att få följa med tjänsten i en högre lönegrad. Detta
-              finner jag från olika synpunkter icke vara fullt förenligt med
-              rättvisa och billighet. Man skall komma ihåg, att denna tjänsteman
-              under en lång följd av år skött en tjänst, som man nu efter noggrann
-              prövning finner böra överföras i högre lönegrad. Han har alltså
-              under en lång följd av år skött ett arbete, som man finner vara
-              mindre rättvist betalt. Därför att han uppnår pensionsåldern före
-              den 1 juli 1942, inför man en spärr för den allmänna regeln och
-              säger, att han får icke åtnjuta lön enligt den högre lönegraden,
-              ifall Kungl. Maj:t eller annan myndighet medger honom rätt att
-              stå kvar i tjänsten ännu ett eller två år. Jag vill också fästa
-              uppmärksamheten på att tjänsteförteckningssakkunnigas förslag
-              utgör ett komplement till den år 1939 genomförda löneregleringen,
-              och att det var rent tillfälliga omständigheter, som gjorde, att
-              en justering av tjänsternas placering i löneklass icke genomfördes
-              i samband med löneregleringen. Det framhölls allmänt, att det
-              varit det riktiga. Detta med yttre omständigheter sammanhängande
-              förhållande skulle alltså medföra, att de, som skola avgå före
-              den 1 juli i år men erhålla rätt att kvarstå ännu någon tid, icke
-              få någon som helst glädje av denna revision.
-            </seg>
-            <seg xml:id="i-XNtyZ8JtNDFnwVeHUMMbM3">
-              Det är på denna punkt, som jag haft en mening, avvikande från
-              statsutskottsmajoritetens, vilket också gäller en annan fråga,
-              som nära sammanhänger med denna, nämligen frågan om pensionering
-              av en tjänstinnehavare, som vid pensionsålderns inträde icke innehaft
-              den högre tjänsten i tre år. Här menar jag, att man bort med hänsyn
-              till de förhållanden, som jag nyss anfört, medge en undantagsbestämmelse,
-              så att man i pensionshänseende skulle betrakta ifrågavarande befattningshavare,
-              som om han erhållit den högre tjänsten den 1 juli 1939.
-            </seg>
-            <seg xml:id="i-T1Wf7HDxCJ3QHJu9HDWf64">
-              Utskottet har nu tillstyrkt Kungl. Maj:ts förslag. Jag har inom
-              utskottet yrkat bifall till en motion, som avgivits i första kammaren
-              av herrar Wagnsson och Sylwan, och jag har yrkat bifall till den,
-              därför att den i båda dessa punkter företräder den uppfattning,
-              som jag här gjort gällande.
-            </seg>
-            <seg xml:id="i-NWrQk1WTeG5diLpqYBhn3o">
-              Herr talman! Det är ju alldeles otänkbart, att en enskild reservant
-              i statsutskottet skall kunna vinna någonting med ett yrkande gent
-              emot ett så samlat utskott. Jag skall därför icke framställa något
-              yrkande utan har endast velat till protokollet avge denna kommentar
-              till den reservation, jag anfört.
-            </seg>
-          </u>
-          <note xml:id="i-CYCJyAJjUHpAZMRDbjSEbb">
-            Vidare yttrades ej. Utskottets hemställan bifölls.
-          </note>
-          <note xml:id="i-7Vm1qNhM29sDc4vm3N7ZVv">
-            § 5. Föredrogos vart efter annat: statsutskottets utlåtanden:
-            nr 16, i anledning av Kungl. Maj:ts proposition angånde utgifter
-            å tillläggsstat IT till riksstaten för budgetåret 1941/42, i vad
-            propositionen avser socialdepartementets verksamhetsområde; och
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1942--ak--7/prot_1942__ak__7-006.jp2/_view"/>
-          <note type="date" xml:id="i-5CWiA2s9dAQ1a2DAcd8R2e">
-            Onsdagen den 11 februari 1942. Nr 7. q
-          </note>
-          <note xml:id="i-6yPGgqPt4raBhjwdGKSZ11">
-            nr 21, i anledning av Kungl. Maj:ts i statsverkspropositionen
-            gjorda framställningar rörande kapitalinvestering för budgetåret
-            1942/43 i statens allmänna fastighetsfond, i vad propositionen
-            avser kommunikationsdepartementets verksamhetsområde;
-          </note>
-          <note xml:id="i-PoBthUa5M5z4Q61L7QCc19">
-            bevillningsutskottets betänkande, nr 1, i anledning av Kungl.
-            Maj:ts proposition med förslag till förordning angående rätt för
-            Konungen att åsätta särskild tullavgift; samt
-          </note>
-          <note xml:id="i-Gi4q8JMiNqcKU8GwQuSZTY">
-            bankoutskottets utlåtande, nr 3, i anledning av väckt motion
-            om dyrtidstillägg till den hos riksdagens kamrar, utskott och
-            kansli tillfälligt anställda personalen.
-          </note>
-          <note xml:id="i-B6z4mCSUvWrJQiNsuoQN2b">
-            Kammaren biföll vad utskotten i nämnda utlåtanden och betänkande
-            hemställt.
-          </note>
-          <note xml:id="i-UmtDD2BQGFwPNh9AKeejZM">
-            § 6. Justerades protokollsutdrag.
-          </note>
-          <note xml:id="i-HGSyf1cBhUKWgTzK1zxxQX">
-            § 7.
-          </note>
-          <note xml:id="i-WvgLhMSg6Xgr1WFvscSaQ5">
-            Herr Werner avlämnade en av honom m. fl. undertecknad motion,
-            nr 249, i anledning av Kungl. Maj:ts proposition, nr 29, angående
-            höjning av vissa postavgifter m. m.
-          </note>
-          <note xml:id="i-49rSC2m9z91PxmugdT4JAE">
-            Denna motion bordlades.
-          </note>
-          <note xml:id="i-Fdg1gfpLjBWiSMefSHB4MJ">
-            Kammarens ledamöter åtskildes härefter kl. 11.32 f. m.
-          </note>
-          <note xml:id="i-W7MwJroXRv9yQ3NtpMgckw">
-            In fidem Sune Norrman.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1942--ak--7/prot_1942__ak__7-007.jp2/_view"/>
-          <note type="date" xml:id="i-7qVQTv2JRGLKvEgNpctLZ1">
-            8 Nr 7. Lördagen den 14 februari 1942.
-          </note>
-          <note type="date" xml:id="i-WyjqvDpXbo7wzLW8nw4w3y">
-            Lördagen den 14 februari. KL. 4 e. m.
-          </note>
-          <note xml:id="i-NtJTUnJBrU4ABMn7NzDzpY">
-            Förhandlingarna vid detta sammanträde leddes av herr andre vice
-            talmannen. |
-          </note>
-          <note xml:id="i-ADixFXgVLHw5tHj5Sv5tKV">
-            § 1.
-          </note>
-          <note type="speaker" xml:id="i-WRpAbGAZyYp15T2jzfxi1y">
-            Herr statsrådet Rosander avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-HJLgjN8LptTKuhefdoDwLo">
-            ts propositioner:
-          </note>
-          <note xml:id="i-Krq45pGQjzHx6fgwijzJea">
-            nr 43, med förslag till förordning om rätt att använda obligationer
-            med 3 procent ränta tillhörande svenska statens tredje försvarslån
-            såsom betalningsmedel vid erläggande av arvsskatt;
-          </note>
-          <note xml:id="i-MMgtZiTg6REL3KkN6y4hAL">
-            nr 45, angående anslag ur kyrkofonden för budgetåret 1942/43
-            för biträde vid handläggning av boställsärenden och vad därmed
-            äger samband;
-          </note>
-          <note xml:id="i-DHAiSf8sZNLC6qY4qcK1U7">
-            Sä med förslag till grunder för dyrtidstillägg åt präster för
-            budgetåret 1942/43;
-          </note>
-          <note xml:id="i-BUWDWsGsyYW1dHzy4mhHvL">
-            nr 48, angående avsättande till nationalpark av viss del av det
-            s. k. Muddusområdet i Norrbottens län;
-          </note>
-          <note xml:id="i-RGckWHib4DV3RZGhZQQ6yo">
-            nr 49, angående disposition av Härnösands stifts byggnadskassa;
-            och
-          </note>
-          <note xml:id="i-6JZSqipGamUUJLkZPETr38">
-            nr 52, med förslag till förordning om viss tillämpning i fråga
-            om kött av älg med flera djur av lagen den 11 maj 1934 (nr 140)
-            angående köttbesiktning och slakthus, m. m.
-          </note>
-          <note xml:id="i-23jgz7215S53nsU2YwAAGb">
-            Dessa propositioner bordlades.
-          </note>
-          <note xml:id="i-9iVUwHdi5PDMhUbJLQbKTJ">
-            § 2.
-          </note>
-          <note xml:id="i-JfRhPYbmS9TgVbqSYjxJq4">
-            Föredrogs och hänvisades till bevillningsutskottet den på kammarens
-            bord liggande motionen nr 249 av herr Werner m. fl.
-          </note>
-          <note xml:id="i-5fcnfdTB2eXcprmwXRSJjq">
-            § 3. Till bordläggning anmäldes:
-          </note>
-          <note xml:id="i-N2k1APBcCuFdfP9XHP8MMK">
-            statsutskottets utlåtanden:
-          </note>
-          <note xml:id="i-HuSUdBEjHEnQf1SSRgn21k">
-            nr 3, i anledning av Kungl. Maj:ts i statsverkspropositionen
-            gjorda framställningar rörande egentliga statsutgifter för budgetåret
-            1942/43 under riksstatens tredje huvudtitel, avseende anslagen
-            inom utrikesdepartementets verksamhetsområde, jämte i ämnet väckta
-            motioner;
-          </note>
-          <note xml:id="i-4HihRTu27uQwCiHgDaqKD3">
-            nr 9, i anledning av Kungl. Maj:ts i statsverkspropositionen
-            gjorda framställningar rörande kapitalinvestering i statens affärsverksfonder
-            för budgetåret 1942/43 i avseende å postverket, telegrafverket,
-            statens järnvägar och statens vattenfallsverk;
-          </note>
-          <note xml:id="i-VmiFGZkKSoH5XjQ9fSMFeF">
-            nr 13, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat IT till riksstaten för budgetåret 1941/42, i vad
-            propositionen avser hovoch slottsstaterna; |
-          </note>
-          <note xml:id="i-VS28f3sDwkZfik4V6Ns2Fc">
-            nr 14, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat IT till riksstaten för budgetåret 1941/42, i vad
-            propositionen avser utrikesdepartementets verksamhetsområde;
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1942--ak--7/prot_1942__ak__7-008.jp2/_view"/>
-          <note type="date" xml:id="i-Dx3YCvbcqW8socoTxWNRb">
-            Lördagen den 14 februari 1942. Nr 7. 9
-          </note>
-          <note xml:id="i-WrKLZmwKqrip7xhPekyWMc">
-            nr 15. i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat IT till riksstaten för budgetåret 1941/42, i vad
-            propositionen avser försvarsdepartementets verksamhetsområde;
-          </note>
-          <note xml:id="i-T3UgCrfecbtsESeV2D4vSe">
-            nr 17, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat IT till riksstaten för budgetåret 1941/42, i vad
-            propositionen avser kommunikationsdepartementets verksamhetsområde;
-          </note>
-          <note xml:id="i-BNw8oYFFbzUoWMtgZvQaA1">
-            nr 19, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat IT till riksstaten för budgetåret 1941/42, i vad
-            propositionen avser handelsdepartementets verksamhetsområde;
-          </note>
-          <note xml:id="i-6cvkEMhBhegRxPfR6npkkm">
-            nr 20, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat II till riksstaten för budgetåret 1941/42, i vad
-            propositionen avser folkhushållningsdepartementets verksamhetsområde;
-          </note>
-          <note xml:id="i-T3QbopJorPAiGRQWn7JRz4">
-            nr 22, i anledning av Kungl. Maj:ts i statsverkspropositionen
-            under elfte huvudtiteln gjorda framställning om anslag till förberedande
-            arbeten å torvmossar 1 enskild ägo;
-          </note>
-          <note xml:id="i-Ai9YScWyYg1Pg8mdSXNcu2">
-            nr 23, i anledning av Kungl. Maj:ts proposition angående anslag
-            å tillläggsstat IT till riksstaten för budgetåret 1941/42 till
-            fortsatt utbyggnad av fjärralarmeringsnätet m. m.; och
-          </note>
-          <note xml:id="i-TyhZyQAduZ2ya2Qwr4bbH5">
-            nr 24, i anledning av Kungl. Maj:ts proposition angående anslag
-            å tillläggsstat IT till riksstaten för budgetåret 1941/42 till
-            förstärkning av åttonde huvudtitelns anslag till kommittéer och
-            utredningar genom sakkunniga.
-          </note>
-          <note xml:id="i-47EpSsG8NJTqFt8DTWeibD">
-            § 4, Justerades protokollsutdrag.
-          </note>
-          <note xml:id="i-Eppb6b1VcrbgXqp6hFw6Fk">
-            § d. Herr Sundström i Vikmanshyttan avlämnade en av honom m.
-            fl. undertecknad motion, nr 250, i anledning av Kungl. Maj:ts
-            proposition, nr 29, angående höjning av vissa postavgifter m.
-            m.
-          </note>
-          <note xml:id="i-4Ux3HKH5pRfuASEFeSG4Go">
-            Denna motion bordlades. Kammarens ledamöter åtskildes härefter
-            kl. 4.4 e. m.
-          </note>
-          <note xml:id="i-TCZn3i8SMuRX1Y3iJawmrc">
-            In fidem Sune Norrman.
-          </note>
-          <note xml:id="i-LZKgWx7E3oK4VtDAXbEmN2">
-            Andra kammarens protokoll 1942. Nr 7. 2
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1942--ak--7</head>
+        <docDate when="1942-02-10">1942-02-10</docDate>
+        <docDate when="1942-02-11">1942-02-11</docDate>
+        <docDate when="1942-02-14">1942-02-14</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1942--ak--7/prot_1942__ak__7-000.jp2/_view"/>
+        <note xml:id="i-TEVvHTKoct3MHzWTqiQPyu">
+          RIKSDAGENS PROTOKOLL. 1942. Andra kammaren. Nr 7.
+        </note>
+        <note type="date" xml:id="i-41t9wj3jXMsupb9PnPyNyq">
+          Tisdagen den 10 februari.
+        </note>
+        <note xml:id="i-7VRiu3PVADG5ZmzqYdgtvi">
+          Kl. 4 e. m. 8 1. Justerades protokollen för den 3, den 4 och
+          den 7 innevarande februari. 8 2.
+        </note>
+        <note xml:id="i-SAwRihYJYjNUno5FXPFd3x">
+          Herr statsrådet Bergquist avlämnade Kungl. Maj:ts propositioner:
+        </note>
+        <note xml:id="i-NU34htMrLrCZt3rpsVeKSu">
+          ar 36, med förslag till lag om förbud mot bebyggelse till hinder
+          för försvaret;
+        </note>
+        <note xml:id="i-Dqrv1sXJt8uU5EboudD53y">
+          nr 37, med förslag till lag om preskription av rätt till medel
+          som innestå hos offentlig myndighet; och
+        </note>
+        <note xml:id="i-1ya5EQ98vzf57sfqB1Lgd">
+          nr 41, med förslag till lag om ändrad lydelse av 1 8 lagen den
+          26 juni 1936 (nr 373) med vissa bestämmelser om centralkassor
+          för jordbrukskredit, m. m.
+        </note>
+        <note xml:id="i-7sXQm6aZs3Vn9WMWZp8tXZ">
+          Dessa propositioner bordlades.
+        </note>
+        <note xml:id="i-DUtuZ49XX4sczVHMwTECQH">
+          § 3.
+        </note>
+        <note xml:id="i-UAByLcrHHzh46qEExmfRRA">
+          Föredrogos var efter annan följande Kungl. Maj:ts å kammarens
+          bord vilande propositioner; och hänvisades därvid
+        </note>
+        <note xml:id="i-NQ4f98C74ysHnrEv9ifXUX">
+          till behandling av lagutskott propositionen, nr 21, med förslag
+          till lag om ändrad lydelse av 47 $ 4 mom. sinnessjuklagen den
+          19 september 1929 (nr 321);
+        </note>
+        <note xml:id="i-KKG6NHA7fzWHvxHPxoUwSY">
+          till statsutskottet propositionen, nr 23, angående försäljning
+          av kronan tillhörigt område i Halmstad;
+        </note>
+        <note xml:id="i-CsFYsarGj6jmvna3QYJK2Y">
+          till behandling av lagutskott propositionen, nr 27, med förslag
+          till lag om ändring i vissa delar av 8 kap. strafflagen, m. m.;
+        </note>
+        <note xml:id="i-XphaUYji2TYn4QFtRFdn3X">
+          till statsutskottet propositionen, nr 28, angående anslag till
+          elektriska lokomotiv;
+        </note>
+        <note xml:id="i-73nf6yLwg6NgkK79XxvJcX">
+          till bevillningsutskottet propositionen, nr 29, angående höjning
+          av vissa postavgifter m. m.;
+        </note>
+        <note xml:id="i-VBUowboC2XhGywwYCXtNeu">
+          till statsutskottet propositionerna:
+        </note>
+        <note xml:id="i-D8JMoUWaEVfvkVthhW2Mje">
+          nr 30, angående avhändande av vissa kronan tillhöriga fastigheter
+          och vägmarksandelar; och
+        </note>
+        <note xml:id="i-TEnG4ZAyJmTu51JdbAZme3">
+          nr 31, angående ytterligare anslag till ändringsarbeten i fastigheten
+          nr 4 i kvarteret Kungl. Trädgården i Stockholm;
+        </note>
+        <note xml:id="i-Pdd6VPZ1UzkUjCQbn74TVm">
+          till jordbruksutskottet propositionerna:
+        </note>
+        <note xml:id="i-C2H9bzuRzSUP23WspdgYvt">
+          nr 32, angående befrielse för O. Damberg m. fl. från viss betalningsskyldighet;
+          och
+        </note>
+        <note xml:id="i-BCbbJusF6K2xFmVMs5jhsb">
+          nr 33, angående befrielse för A. Viktorsson från betalningsskyldighet
+          till kronan på grund av virkesköp; samt
+        </note>
+        <note xml:id="i-BLU85rZWMUYQ5h8rvRy7pZ">
+          till statsutskottet propositionen, nr 34, angående anvisande
+          av vissa anslag å tilläggsstat IT till riksstaten för budgetåret
+          1941/42.
+        </note>
+        <note xml:id="i-7ZJPgXCd27z7RJNuK2gnQQ">
+          Andra kammarens protokoll 1942. Nr 7. 1
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1942--ak--7/prot_1942__ak__7-001.jp2/_view"/>
+        <note type="date" xml:id="i-2pYcJPqhRfiYtJ2aV7Bs2e">
+          2 Nr 7. Tisdagen den 10 februari 1942.
+        </note>
+        <note xml:id="i-DGyu7UxWMTchXqmusXdRDn">
+          Vid härpå skedd föredragning av Kungl. Maj:ts proposition, nr
+          35, angående befrielse för H. G. Persson från ersättningsskyldighet
+          m. m., hänvisades propositionen, i vad angick det under punkt
+          3:o framställda förslaget, till bankoutskottet och i övrigt till
+          statsutskottet.
+        </note>
+        <note xml:id="i-3GrkwHbj2XAWGYjfNEHY7Y">
+          Vidare föredrogos var för sig följande Kungl. Maj:ts på bordet
+          liggande propositioner; och remitterades därvid
+        </note>
+        <note xml:id="i-PmXDfQidB1SwRrP6sXYigS">
+          till behandling av lagutskott propositionen, nr 38, med förslag
+          till lag angående lindring i arrendevillkoren för vissa arrendatorer
+          av ecklesiastik jord; samt .
+        </note>
+        <note xml:id="i-5qpXVd73rXMUBrMmpB9wH2">
+          till jordbruksutskottet propositionen, nr 39, med förslag till
+          förordning angående grunder för lindring i arrendevillkoren för
+          vissa arrendatorer av kronans jordbruksegendomar. " Slutligen
+          föredrogs Kungl. Maj:ts å bordet vilande proposition, nr 40, med
+          förslag till lag om jämkning av arrendeavtal i vissa fall, m.
+          m.; och hänvisades propositionen, i vad angick anslagsfrågan,
+          till jordbruksutskottet och i övrigt till behandling av lagutskott.
+        </note>
+        <note xml:id="i-7HTxrChwubVpp5GPLQvV6H">
+          § 4.
+        </note>
+        <note xml:id="i-CfTtwF8QnkMxRK3gi3NyUq">
+          Föredrogos, men bordlades åter statsutskottets utlåtanden nr
+          12, 16 och 21. bevillningsutskottets betänkande nr 1 samt bankoutskottets
+          utlåtande nr 3.
+        </note>
+        <note xml:id="i-27RBE8BcuYa6CJe5f8WAk1">
+          § 5.
+        </note>
+        <note xml:id="i-KZMMXtkUmYqjT9XuhoGSX7">
+          Anmäldes och godkändes andra lagutskottets skrivelser till Konungen:
+        </note>
+        <note xml:id="i-CrJPuj3vmRMvDyFpgBTbJi">
+          nr 14, i anledning av Kungl. Maj:ts proposition med förslag till
+          lag om vissa ändringar i lagen den 12 juni 1925 (nr 338) om värnpliktiga,
+          vilka hysa samvetsbetänkligheter mot värnpliktstjänstgöring; och
+        </note>
+        <note xml:id="i-LHp4247tKRSbCureH7QbXW">
+          nr 15, i anledning av Kungl. Maj:ts proposition med förslag till
+          lag angående ändrad lydelse av 7 $ lagen den 13 juni 1921 (nr
+          299) om förvaltning av bysamfälligheter och därmed jämförliga
+          samfällda ägor och rättigheter.
+        </note>
+        <note xml:id="i-Xu23Uz7kQcjYowob1tuAwE">
+          § 6. Justerades protokollsutdrag.
+        </note>
+        <note xml:id="i-7AicvQr8TShsJacf3WpJg1">
+          Kammarens ledamöter åtskildes härefter kl. 4.7 e. m.
+        </note>
+        <note xml:id="i-HuDZ51kjioMKZy273oPDDi">
+          In fidem Sune Norrman.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1942--ak--7/prot_1942__ak__7-002.jp2/_view"/>
+        <note type="date" xml:id="i-NKKVFKw1SkugNTkGfmBhxq">
+          Onsdagen den 11 februari 1942. Nr 7. 3
+        </note>
+        <note type="date" xml:id="i-PFr6q5aVBcfVQ6rPXdFuCL">
+          Onsdagen den 11 februari. Kl. 11 f. m.
+        </note>
+        <note xml:id="i-9AjVbxGDAzq4SBHrejmFGu">
+          § 1.
+        </note>
+        <note xml:id="i-7KGcZvmcQ2Xv52eDkWV2xG">
+          Herr talmannen lämnade på begäran ordet till
+        </note>
+        <note type="speaker" xml:id="i-CMFjSF1vaMpUKyobpphTLk">
+          Chefen för justitiedepartementet, herr statsrådet Westman, som
+          anförde:
+        </note>
+        <u who="Q4353489" xml:id="i-bc69ba60f0eb43d1-0">
+          <seg xml:id="i-YZWXywFQbEaVBUATTUFPYA">
+            Herr talman! Herr Hansson i Vännäsby har till mig ställt frågan
+            huruvida — i anslutmng till riksdagens skrivelse nr 61 av år 1935
+            och därefter företagen sakkunnigutredning — förslag om en särskild
+            lag om djurskydd kan väntas förelagd nu pågående riksdag.
+          </seg>
+          <seg xml:id="i-UfaHmc4WS2bWLVkeXpYaDx">
+            Till svar härpå vill jag meddela, att arbetet på utarbetande
+            av en proposition till riksdagen på grundval av sakkunnigutredningen
+            upptogs inom justitiedepartementet men att arbetet tills vidare
+            måste avbrytas på grund av att andra lagfrågor under rådande tidsförhållanden
+            krävt skyndsam behandling. Något lagförslag kan därför icke föreläggas
+            årets riksdag. Frågan kommer emellertid att återupptagas till
+            behandling så snart förhållandena medgiva.
+          </seg>
+        </u>
+        <note xml:id="i-9jSVKmtWaFE9qwyvVRofo">
+          Härefter yttrade:
+        </note>
+        <note type="speaker" xml:id="i-R3dk3a2rGXqBWEuVEPtAr6">
+          Herr Hansson i Vännäsby:
+        </note>
+        <u who="unknown" xml:id="i-cad37118a074e19f-0">
+          <seg xml:id="i-XKRNjW8FKV34dx6nC3kNsw">
+            Herr talman! Jag ber att fä tacka herr statsrådet och chefen
+            för justitiedepartementet för det svar, som jag fått på min fråga.
+            Naturligtvis skulle jag ha varit i än mer tacksam och förnöjd,
+            ifall svaret hade innehållit, att riksdagen redan i år skulle
+            få mottaga en proposition med ett lagförslag i ämnet. Det är ju
+            en allmänt utbredd mening här i landet, att vår djurskyddslag
+            är otillfredsställande. Dess beskaffenhet och ordalydelse är sådan,
+            att det är synnerligen svårt att få personer fällda, som ha bedrivit
+            djurplågeri. Det skall gälla ett mycket grovt och uppenbart brott,
+            om det skall vara möjligt att utdöma något straff. Ofta händer
+            det också, att om en person blivit fälld för djurplågeri vid en
+            underrätt, blir han sedan frikänd 1 högre instans.
+          </seg>
+          <seg xml:id="i-DgAj2uaiUqbaTrUeABZnmN">
+            Det råder som sagt i landet en allmän önskan om att få en mera
+            tidsenlig lagstiftning på detta område till stånd och samtidigt
+            också en lagstiftning, som verkligen fostrar allmänheten, så att
+            den behandlar djuren på ett mildare och humanare sätt. Jag vill
+            därför uttala den önskan, att förslag till sådan ny lagstiftning
+            måtte föreläggas riksdagen så snart som möjligt.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-27z4YW9copbFQ7vddtG7WK">
+          Herr Wallén:
+        </note>
+        <u who="Q6230500" xml:id="i-9250f02187e5cceb-0" next="i-cad37118a074e19f-1">
+          <seg xml:id="i-FPKwrqpJLrZRSwhtLfy3ru">
+            Herr talman! Jag ber för min del att få understryka behovet av
+            att något göres på detta område. Faktiskt förekommer djurplågeri
+            i mycket stor skala, och man måste nog fortast möjligt se till
+            att sådana upprörande fall kunna stävjas på ett effektivt sätt.
+          </seg>
+          <seg xml:id="i-F381jijhdR2ZfruhcwpQJ7">
+            Samtidigt vill jag säga, att jag visserligen är mycket tacksam
+            för att i anledning av en av mig väckt motion år 1934 båda kamrarna
+            beslöto en riksdagsskrivelse till Kungl. Maj:t i fråga om skäktningen
+            och att det tre år senare utfärdades en förordning härom, men
+            även därvidlag borde nog något mera göras, så att åtgärderna bli
+            effektiva och vi här i Sverige slippa ha kvar skäktningen, vilken
+            är något för vårt land enastående. Enligt nyss inhämtade
+          </seg>
+        </u>
+        <note xml:id="i-7oB2MdJYjS8594jRNZWhbv">
+          Svar på fråga.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1942--ak--7/prot_1942__ak__7-003.jp2/_view"/>
+        <note xml:id="i-VSNx21dnnVNga7X36EpMjT">
+          Svar på fråga.
+        </note>
+        <note type="date" xml:id="i-QtaVskw5JdKed9sHXs6TUg">
+          4 Nr 7. Onsdagen den 11 februari 1942.
+        </note>
+        <u who="Q6230500" xml:id="i-cad37118a074e19f-1" prev="i-9250f02187e5cceb-0">
+          <seg xml:id="i-A1PmGWd98Csugr89pgKJP3">
+            Svar på fråga. (Forts.) uppgifter från slakthuset går icke mindre
+            än 5,000 storboskap till skäktning. De gasbedövas visserligen
+            först, men huruvida den bedövningen är effektiv vill jag icke
+            yttra mig om. Det påstås, att åtminstone på vissa håll är bedövningen
+            delvis skenbar.
+          </seg>
+          <seg xml:id="i-DkPMkuJPRgGUUeggw8qPjU">
+            Jag ber därför att få rekommendera, att det vidtages effektiva
+            kontrollåtgärder i alla avseenden.
+          </seg>
+        </u>
+        <note xml:id="i-FSs2e3f8e1m5hh5t4sDTVh">
+          Överläggningen var härmed slutad.
+        </note>
+        <note xml:id="i-8ByXA74aWLLWgahMxhzPxZ">
+          § 2.
+        </note>
+        <note type="speaker" xml:id="i-ARkMZeB1Ja13Fxzq6eke3P">
+          Chefen för handelsdepartementet, herr statsrådet Eriksson, erhöll
+          på begäran ordet och anförde:
+        </note>
+        <u who="Q5716548" xml:id="i-91a9944fc0a70e82-0" next="i-PiWvYjLW1czizjhoL7a5bz">
+          <seg xml:id="i-FjLw8qPadydaa8UhyN1oJL">
+            Herr talman! Herr Svedman har frågat mig, om utsikt föreligger
+            att 1941 års isbrytarutredning skall hinna framlägga sitt betänkande
+            så tidigt, att därav föranledda framställningar och förslag kunna
+            föreläggas årets riksdag.
+          </seg>
+          <seg xml:id="i-UUy9Vco6n5mu1k83PN6LLN">
+            Enligt de direktiv för arbetet, som lämnats och som finnas 1
+            huvudsak återgivna i årets kommittéberättelse, har isbrytarutredningen
+            ganska omfattande utredningsuppgifter att genomföra, innan betänkande
+            kan framläggas. På grund härav är, enligt vad jag inhämtat, utredningens
+            betänkande icke att förvänta förr än under höstens lopp. Proposition
+            i ämnet, om utredningens förslag föranleder därtill, kan följaktligen,
+            såvitt nu kan bedömas, icke framläggas för årets riksdag.
+          </seg>
+        </u>
+        <u xml:id="i-PiWvYjLW1czizjhoL7a5bz" prev="i-91a9944fc0a70e82-0" who="Q5716548">
+          <seg xml:id="i-9EyE2pbvMJ5hgEtB59idb5">
+            Härpå yttrade:
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-9Mv6M5zBUMhgjcDAduD9CC">
+          Herr Svedman:
+        </note>
+        <u who="Q6197814" xml:id="i-2aa3afc9b1ba7689-0" next="i-2aa3afc9b1ba7689-1">
+          <seg xml:id="i-EUfAdotQ7hbotoVm3xgwF5">
+            Herr talman! Jag ber att få framföra mitt tack till herr statsrådet
+            för det snabbt levererade svaret. Jag hoppas, att även om det
+            för ögonblicket icke ser vidare förhoppningsfullt ut, omständigheterna
+            dock skola medge ett påskyndande av det ifrågavarande utredningsarbetet.
+          </seg>
+          <seg xml:id="i-87xhPfwtcaScL7nsEFwqPV">
+            Man kan väl förutsätta ett sammanhang mellan de bägge isvintrar,
+            som vi upplevde åren 1940 och 1941, och tillsättandet i juni i
+            fjol av denna isbrytarutredning, liksom den omständigheten, att
+            vi nu ha den tredje — och värsta — RE å rad, är den närmaste anledningen
+            till den av mig framställda rågan.
+          </seg>
+          <seg xml:id="i-2f83RFRBs47maxi8bZjEz9">
+            Isbrytarutredningens direktiv äro, som herr statsrådet påpekat,
+            sådana, att frågan i hela dess vidd skall tagas under omprövning,
+            och det är klart, att detta måste ta tid. Det gäller emellertid
+            här en fråga, som är av allra största vikt. Jag behöver icke här
+            orda om det av oss alla bekanta förhållandet med sjutton ångare,
+            som ha legat infrusna utanför östgötakusten och som säkerligen
+            skulle råkat ut för en katastrof, därest icke, som skedde häromdagen,
+            en omsvängning av vindförhållandena hade inträffat. Det är uppenbart,
+            att människoliv och stora materiella värden stå på spel under
+            förhållanden sådana som dessa, när en så stark kyla med isbildning
+            plötsligt sätter in relativt tidigt på vintern, varmed ju också
+            följa opåräknade uppläggningar av fartyg, omöjliggjorda eller
+            försvårade transporter, ökade fraktkostnader o. s. v.
+          </seg>
+          <seg xml:id="i-R4qpaZWkJHL6GZjLHdRu3Y">
+            Det bör i detta sammanhang vara tämligen klart, att jag närmast
+            tänker på den landsända, som jag här representerar, då jag vill
+            säga ett par ord i denna fråga. Där dväljas över 60,000 människor,
+            och den mest naturliga och huvudsakliga förbindelseleden, den
+            över havet, är sedan snart tre veckor stängd. Man måste visserligen
+            lämna regeringen och chefen för flygvapnet allt erkännande för
+            deras snabba ingripande genom anordnande av flygförbindelser,
+            som uppskattas synnerligen högt av Gotlands folk, men man måste
+            dock betänka vad den nuvarande isoleringen betyder för denna landsända.
+            Man kommer icke
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1942--ak--7/prot_1942__ak__7-004.jp2/_view"/>
+        <note type="date" xml:id="i-BGCz98yC3pNcS9P6R7zNvp">
+          Onsdagen den 11 februari 1942. Nr 7. 5
+        </note>
+        <u who="Q6197814" xml:id="i-2aa3afc9b1ba7689-1" prev="i-2aa3afc9b1ba7689-0">
+          <seg xml:id="i-16jFgjLW9mxQTdczNfRbKi">
+            Svar på fråga. (Forts.) vare sig fram eller tillbaka med gods
+            och knappast heller med passagerare. Ett flygplan tar ju 14 och
+            högst 16 passagerare åt gången, och även om man gör dubbla turer
+            varje dag, blir det mycket litet i förhållande till att en båt
+            även under denna tid på året kan räkna med hundratals passagerare
+            1 vardera riktningen per dag. På Gotland ligga nu lagrade livsmedel
+            för export — ägg, kött och smör — i för varje dag ökade mängder,
+            och en hel del förnödenheter behöva införas från fastlandet. Under
+            dessa förhållanden är det givet, att man är intresserad av att
+            denna fråga — frågan om ökat och kraftigare isbrytarmateriel —
+            så snabbt som möjligt löses på ett tillfredsställande sätt.
+          </seg>
+          <seg xml:id="i-XGSdKmij6HLDHo38FGe5za">
+            Det är för övrigt icke endast de civila synpunkterna, som härvidlag
+            framträda, utan även de militära. Jag har emellertid ingen anledning
+            att särskilt beröra dessa. Jag har med min fråga velat ge uttryck
+            för den oro, som på grund av nuvarande klimatiska förhållanden
+            har uppstått i den landsända, där jag har min hemort.
+          </seg>
+          <seg xml:id="i-KyhRQkjYAEse619Yx1gZ2v">
+            Ehuru jag, herr talman, icke har befarat, att utredningen skulle
+            frysa inne, har jag dock ansett, att utredningsarbetet i likhet
+            med havsisen bör forceras.
+          </seg>
+        </u>
+        <note xml:id="i-Sdr6QouDPYBicqDpNAbVtA">
+          I detta anförande instämde herr Gardell.
+        </note>
+        <note xml:id="i-7VHBe8Rf9sh5Vz8B7o7hdU">
+          Härmed var överläggningen slutad.
+        </note>
+        <note xml:id="i-7QiZQMzKg8tCBkb7TL5Hno">
+          § 3.
+        </note>
+        <note xml:id="i-WCDqVUmWaekX3F1TGah7tQ">
+          Föredrogos var efter annan och hänvisades till behandling av
+          lagutskott följande Kungl. Maj:ts å kammarens bord vilande propositioner:
+        </note>
+        <note xml:id="i-SuANG9e9WpLDqUFzHKEzem">
+          nr 36, med förslag till lag om förbud mot bebyggelse till hinder
+          för försvaret; och
+        </note>
+        <note xml:id="i-ELGZqq77wKEYx7WgExMMN6">
+          nr 37, med förslag till lag om preskription av rätt till medel
+          som innestå hos offentlig myndighet.
+        </note>
+        <note xml:id="i-4ek2XQ1FarzDN3bifUuSUT">
+          Vid härpå skedd föredragning av Kungl. Maj:ts proposition, nr
+          41, med förslag till lag om ändrad lydelse av 1 $ lagen den 26
+          juni 1936 (nr 373) med vissa bestämmelser om centralkassor för
+          jordbrukskredit, m. m. hänvisades propositionen, i vad angick
+          anslagsfrågorna, till jordbruksutskottet och i övrigt till bankoutskottet.
+        </note>
+        <note xml:id="i-WihyZ91ZRVGHTgNYXZtavU">
+          § 4.
+        </note>
+        <note xml:id="i-AZoG8yUn1NZ7G2bt1DEf4a">
+          Föredrogs statsutskottets utlåtande, nr 12, i anledning av Kungl.
+          Maj:ts 1 Kungl. Maj:ts statsverkspropositionen gjorda framställningar
+          under Utgifter å driftbudgeten, framställning-
+        </note>
+        <note xml:id="i-U92vaUC91jjdAv9Eu7akBX">
+          För flera huvudtitlar gemensamma frågor, jämte i ämnet väckta
+          motioner. gifter &amp; drift
+        </note>
+        <note type="speaker" xml:id="i-FWzfLzb2k87Nu6EEMMgQPZ">
+          Efter föredragning av utskottets hemställan anförde leda Mivudr
+          Herr Holmdahl:
+        </note>
+        <u who="unknown" xml:id="i-ead65e72e2fb33fa-0" next="i-Si9K1E5aSwdhSEBSfK2JzX">
+          <seg xml:id="i-3fmmcoQdbyCLD3rUajmqKW">
+            Herr talman! Jag skall be att få med några ord förklara !itlar
+            gemenden blanka reservation, som är fogad vid detta utlåtande.
+            samma frågor. I det utlåtande, som nu föredragits, har utskottet
+            besvarat Kungl. Maj:ts framställningar angående vissa med tjänsteförteckningsrevisionen
+            sammanhängande frågor. Dessa frågor gälla vissa övergångsbestämmelser
+            i samband med den nu ifrågasatta överföringen av vissa tjänster
+            till lägre eller högre lönegrad. Finansministern har behandlat
+            dessa frågor gemensamt för de olika huvudtitlarna i årets statsverksproposition
+            i det lilla häfte, som har rubriken Utgifter å driftbudgeten.
+            Beträffande dessa med tjänsteförteckningsrevisionen sammanhängande
+            allmänna frågor har finansministern lagt fram en del, som man
+            skulle kunna kalla övergångsbestämmelser och som gälla genomförande
+            av denna reglering av vissa tjänster. En av dessa övergångsbestämmelser
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1942--ak--7/prot_1942__ak__7-005.jp2/_view"/>
+        <note type="date" xml:id="i-PDSpzExzfWa16xupUZ9Hnz">
+          6 Nr 7. Onsdagen den 11 februari 1942.
+        </note>
+        <note xml:id="i-KKwxvqwb2dHB1BpvkaTXvW">
+          Kungl. Maj:ts framställningar under Utgifter å driftbudgeten,
+          För flera huvudtitlar gemensamma frågor. (Forts.)
+        </note>
+        <u xml:id="i-Si9K1E5aSwdhSEBSfK2JzX" who="unknown" prev="i-ead65e72e2fb33fa-0">
+          <seg xml:id="i-YQneoEizPPx1KNEZpe9acf">
+            innehåller, att en tjänsteman, som innehar tjänst, vilken flyttas
+            till högre lönegrad, skall kunna övergå på den i en högre lönegrad
+            placerade tjänsten utan kungörelseförfarande och utan ansökan.
+            Från denna allmänna regel har emellertid gjorts ett litet undantag
+            — och det är mot detta undantag, som jag vänder mig i min blanka
+            reservation — nämligen att om tjänstinnehavare redan före den
+            1 juli i år uppnått pensionsåldern men erhållit tillstånd att
+            kvarstå i tjänsten ännu något år, får denna allmänna regel icke
+            tillämpas på honom. Med andra ord, en tjänstinnehavare, som under
+            många år skött en tjänst, som flyttas till högre lönegrad, och
+            som uppnått pensionsåldern före den 1 juli, skulle icke få tillgodonjuta
+            den förmånen att få följa med tjänsten i en högre lönegrad. Detta
+            finner jag från olika synpunkter icke vara fullt förenligt med
+            rättvisa och billighet. Man skall komma ihåg, att denna tjänsteman
+            under en lång följd av år skött en tjänst, som man nu efter noggrann
+            prövning finner böra överföras i högre lönegrad. Han har alltså
+            under en lång följd av år skött ett arbete, som man finner vara
+            mindre rättvist betalt. Därför att han uppnår pensionsåldern före
+            den 1 juli 1942, inför man en spärr för den allmänna regeln och
+            säger, att han får icke åtnjuta lön enligt den högre lönegraden,
+            ifall Kungl. Maj:t eller annan myndighet medger honom rätt att
+            stå kvar i tjänsten ännu ett eller två år. Jag vill också fästa
+            uppmärksamheten på att tjänsteförteckningssakkunnigas förslag
+            utgör ett komplement till den år 1939 genomförda löneregleringen,
+            och att det var rent tillfälliga omständigheter, som gjorde, att
+            en justering av tjänsternas placering i löneklass icke genomfördes
+            i samband med löneregleringen. Det framhölls allmänt, att det
+            varit det riktiga. Detta med yttre omständigheter sammanhängande
+            förhållande skulle alltså medföra, att de, som skola avgå före
+            den 1 juli i år men erhålla rätt att kvarstå ännu någon tid, icke
+            få någon som helst glädje av denna revision.
+          </seg>
+          <seg xml:id="i-XNtyZ8JtNDFnwVeHUMMbM3">
+            Det är på denna punkt, som jag haft en mening, avvikande från
+            statsutskottsmajoritetens, vilket också gäller en annan fråga,
+            som nära sammanhänger med denna, nämligen frågan om pensionering
+            av en tjänstinnehavare, som vid pensionsålderns inträde icke innehaft
+            den högre tjänsten i tre år. Här menar jag, att man bort med hänsyn
+            till de förhållanden, som jag nyss anfört, medge en undantagsbestämmelse,
+            så att man i pensionshänseende skulle betrakta ifrågavarande befattningshavare,
+            som om han erhållit den högre tjänsten den 1 juli 1939.
+          </seg>
+          <seg xml:id="i-T1Wf7HDxCJ3QHJu9HDWf64">
+            Utskottet har nu tillstyrkt Kungl. Maj:ts förslag. Jag har inom
+            utskottet yrkat bifall till en motion, som avgivits i första kammaren
+            av herrar Wagnsson och Sylwan, och jag har yrkat bifall till den,
+            därför att den i båda dessa punkter företräder den uppfattning,
+            som jag här gjort gällande.
+          </seg>
+          <seg xml:id="i-NWrQk1WTeG5diLpqYBhn3o">
+            Herr talman! Det är ju alldeles otänkbart, att en enskild reservant
+            i statsutskottet skall kunna vinna någonting med ett yrkande gent
+            emot ett så samlat utskott. Jag skall därför icke framställa något
+            yrkande utan har endast velat till protokollet avge denna kommentar
+            till den reservation, jag anfört.
+          </seg>
+        </u>
+        <note xml:id="i-CYCJyAJjUHpAZMRDbjSEbb">
+          Vidare yttrades ej. Utskottets hemställan bifölls.
+        </note>
+        <note xml:id="i-7Vm1qNhM29sDc4vm3N7ZVv">
+          § 5. Föredrogos vart efter annat: statsutskottets utlåtanden:
+          nr 16, i anledning av Kungl. Maj:ts proposition angånde utgifter
+          å tillläggsstat IT till riksstaten för budgetåret 1941/42, i vad
+          propositionen avser socialdepartementets verksamhetsområde; och
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1942--ak--7/prot_1942__ak__7-006.jp2/_view"/>
+        <note type="date" xml:id="i-5CWiA2s9dAQ1a2DAcd8R2e">
+          Onsdagen den 11 februari 1942. Nr 7. q
+        </note>
+        <note xml:id="i-6yPGgqPt4raBhjwdGKSZ11">
+          nr 21, i anledning av Kungl. Maj:ts i statsverkspropositionen
+          gjorda framställningar rörande kapitalinvestering för budgetåret
+          1942/43 i statens allmänna fastighetsfond, i vad propositionen
+          avser kommunikationsdepartementets verksamhetsområde;
+        </note>
+        <note xml:id="i-PoBthUa5M5z4Q61L7QCc19">
+          bevillningsutskottets betänkande, nr 1, i anledning av Kungl.
+          Maj:ts proposition med förslag till förordning angående rätt för
+          Konungen att åsätta särskild tullavgift; samt
+        </note>
+        <note xml:id="i-Gi4q8JMiNqcKU8GwQuSZTY">
+          bankoutskottets utlåtande, nr 3, i anledning av väckt motion
+          om dyrtidstillägg till den hos riksdagens kamrar, utskott och
+          kansli tillfälligt anställda personalen.
+        </note>
+        <note xml:id="i-B6z4mCSUvWrJQiNsuoQN2b">
+          Kammaren biföll vad utskotten i nämnda utlåtanden och betänkande
+          hemställt.
+        </note>
+        <note xml:id="i-UmtDD2BQGFwPNh9AKeejZM">
+          § 6. Justerades protokollsutdrag.
+        </note>
+        <note xml:id="i-HGSyf1cBhUKWgTzK1zxxQX">
+          § 7.
+        </note>
+        <note xml:id="i-WvgLhMSg6Xgr1WFvscSaQ5">
+          Herr Werner avlämnade en av honom m. fl. undertecknad motion,
+          nr 249, i anledning av Kungl. Maj:ts proposition, nr 29, angående
+          höjning av vissa postavgifter m. m.
+        </note>
+        <note xml:id="i-49rSC2m9z91PxmugdT4JAE">
+          Denna motion bordlades.
+        </note>
+        <note xml:id="i-Fdg1gfpLjBWiSMefSHB4MJ">
+          Kammarens ledamöter åtskildes härefter kl. 11.32 f. m.
+        </note>
+        <note xml:id="i-W7MwJroXRv9yQ3NtpMgckw">
+          In fidem Sune Norrman.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1942--ak--7/prot_1942__ak__7-007.jp2/_view"/>
+        <note type="date" xml:id="i-7qVQTv2JRGLKvEgNpctLZ1">
+          8 Nr 7. Lördagen den 14 februari 1942.
+        </note>
+        <note type="date" xml:id="i-WyjqvDpXbo7wzLW8nw4w3y">
+          Lördagen den 14 februari. KL. 4 e. m.
+        </note>
+        <note xml:id="i-NtJTUnJBrU4ABMn7NzDzpY">
+          Förhandlingarna vid detta sammanträde leddes av herr andre vice
+          talmannen. |
+        </note>
+        <note xml:id="i-ADixFXgVLHw5tHj5Sv5tKV">
+          § 1.
+        </note>
+        <note type="speaker" xml:id="i-WRpAbGAZyYp15T2jzfxi1y">
+          Herr statsrådet Rosander avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-HJLgjN8LptTKuhefdoDwLo">
+          ts propositioner:
+        </note>
+        <note xml:id="i-Krq45pGQjzHx6fgwijzJea">
+          nr 43, med förslag till förordning om rätt att använda obligationer
+          med 3 procent ränta tillhörande svenska statens tredje försvarslån
+          såsom betalningsmedel vid erläggande av arvsskatt;
+        </note>
+        <note xml:id="i-MMgtZiTg6REL3KkN6y4hAL">
+          nr 45, angående anslag ur kyrkofonden för budgetåret 1942/43
+          för biträde vid handläggning av boställsärenden och vad därmed
+          äger samband;
+        </note>
+        <note xml:id="i-DHAiSf8sZNLC6qY4qcK1U7">
+          Sä med förslag till grunder för dyrtidstillägg åt präster för
+          budgetåret 1942/43;
+        </note>
+        <note xml:id="i-BUWDWsGsyYW1dHzy4mhHvL">
+          nr 48, angående avsättande till nationalpark av viss del av det
+          s. k. Muddusområdet i Norrbottens län;
+        </note>
+        <note xml:id="i-RGckWHib4DV3RZGhZQQ6yo">
+          nr 49, angående disposition av Härnösands stifts byggnadskassa;
+          och
+        </note>
+        <note xml:id="i-6JZSqipGamUUJLkZPETr38">
+          nr 52, med förslag till förordning om viss tillämpning i fråga
+          om kött av älg med flera djur av lagen den 11 maj 1934 (nr 140)
+          angående köttbesiktning och slakthus, m. m.
+        </note>
+        <note xml:id="i-23jgz7215S53nsU2YwAAGb">
+          Dessa propositioner bordlades.
+        </note>
+        <note xml:id="i-9iVUwHdi5PDMhUbJLQbKTJ">
+          § 2.
+        </note>
+        <note xml:id="i-JfRhPYbmS9TgVbqSYjxJq4">
+          Föredrogs och hänvisades till bevillningsutskottet den på kammarens
+          bord liggande motionen nr 249 av herr Werner m. fl.
+        </note>
+        <note xml:id="i-5fcnfdTB2eXcprmwXRSJjq">
+          § 3. Till bordläggning anmäldes:
+        </note>
+        <note xml:id="i-N2k1APBcCuFdfP9XHP8MMK">
+          statsutskottets utlåtanden:
+        </note>
+        <note xml:id="i-HuSUdBEjHEnQf1SSRgn21k">
+          nr 3, i anledning av Kungl. Maj:ts i statsverkspropositionen
+          gjorda framställningar rörande egentliga statsutgifter för budgetåret
+          1942/43 under riksstatens tredje huvudtitel, avseende anslagen
+          inom utrikesdepartementets verksamhetsområde, jämte i ämnet väckta
+          motioner;
+        </note>
+        <note xml:id="i-4HihRTu27uQwCiHgDaqKD3">
+          nr 9, i anledning av Kungl. Maj:ts i statsverkspropositionen
+          gjorda framställningar rörande kapitalinvestering i statens affärsverksfonder
+          för budgetåret 1942/43 i avseende å postverket, telegrafverket,
+          statens järnvägar och statens vattenfallsverk;
+        </note>
+        <note xml:id="i-VmiFGZkKSoH5XjQ9fSMFeF">
+          nr 13, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat IT till riksstaten för budgetåret 1941/42, i vad
+          propositionen avser hovoch slottsstaterna; |
+        </note>
+        <note xml:id="i-VS28f3sDwkZfik4V6Ns2Fc">
+          nr 14, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat IT till riksstaten för budgetåret 1941/42, i vad
+          propositionen avser utrikesdepartementets verksamhetsområde;
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1942--ak--7/prot_1942__ak__7-008.jp2/_view"/>
+        <note type="date" xml:id="i-Dx3YCvbcqW8socoTxWNRb">
+          Lördagen den 14 februari 1942. Nr 7. 9
+        </note>
+        <note xml:id="i-WrKLZmwKqrip7xhPekyWMc">
+          nr 15. i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat IT till riksstaten för budgetåret 1941/42, i vad
+          propositionen avser försvarsdepartementets verksamhetsområde;
+        </note>
+        <note xml:id="i-T3UgCrfecbtsESeV2D4vSe">
+          nr 17, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat IT till riksstaten för budgetåret 1941/42, i vad
+          propositionen avser kommunikationsdepartementets verksamhetsområde;
+        </note>
+        <note xml:id="i-BNw8oYFFbzUoWMtgZvQaA1">
+          nr 19, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat IT till riksstaten för budgetåret 1941/42, i vad
+          propositionen avser handelsdepartementets verksamhetsområde;
+        </note>
+        <note xml:id="i-6cvkEMhBhegRxPfR6npkkm">
+          nr 20, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat II till riksstaten för budgetåret 1941/42, i vad
+          propositionen avser folkhushållningsdepartementets verksamhetsområde;
+        </note>
+        <note xml:id="i-T3QbopJorPAiGRQWn7JRz4">
+          nr 22, i anledning av Kungl. Maj:ts i statsverkspropositionen
+          under elfte huvudtiteln gjorda framställning om anslag till förberedande
+          arbeten å torvmossar 1 enskild ägo;
+        </note>
+        <note xml:id="i-Ai9YScWyYg1Pg8mdSXNcu2">
+          nr 23, i anledning av Kungl. Maj:ts proposition angående anslag
+          å tillläggsstat IT till riksstaten för budgetåret 1941/42 till
+          fortsatt utbyggnad av fjärralarmeringsnätet m. m.; och
+        </note>
+        <note xml:id="i-TyhZyQAduZ2ya2Qwr4bbH5">
+          nr 24, i anledning av Kungl. Maj:ts proposition angående anslag
+          å tillläggsstat IT till riksstaten för budgetåret 1941/42 till
+          förstärkning av åttonde huvudtitelns anslag till kommittéer och
+          utredningar genom sakkunniga.
+        </note>
+        <note xml:id="i-47EpSsG8NJTqFt8DTWeibD">
+          § 4, Justerades protokollsutdrag.
+        </note>
+        <note xml:id="i-Eppb6b1VcrbgXqp6hFw6Fk">
+          § d. Herr Sundström i Vikmanshyttan avlämnade en av honom m.
+          fl. undertecknad motion, nr 250, i anledning av Kungl. Maj:ts
+          proposition, nr 29, angående höjning av vissa postavgifter m.
+          m.
+        </note>
+        <note xml:id="i-4Ux3HKH5pRfuASEFeSG4Go">
+          Denna motion bordlades. Kammarens ledamöter åtskildes härefter
+          kl. 4.4 e. m.
+        </note>
+        <note xml:id="i-TCZn3i8SMuRX1Y3iJawmrc">
+          In fidem Sune Norrman.
+        </note>
+        <note xml:id="i-LZKgWx7E3oK4VtDAXbEmN2">
+          Andra kammarens protokoll 1942. Nr 7. 2
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 200203</title>
+        <title>Protokoll</title>
       </titleStmt>
       <editionStmt>
         <edition>0.4.2</edition>
@@ -13,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 200203</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -25,1100 +25,1073 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <editionStmt>
-          <edition>0.4.2</edition>
-        </editionStmt>
-        <publicationStmt>
-          <authority>National Library of Sweden and the WESTAC project</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some data curation was done. It is documented in input/curation/instances</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-200203--8</head>
-          <docDate when="2002-10-22">2002-10-22</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection" xml:id="i-vFHVHRSHeXMy5Kwnbe5ur">
-          <pb facs="http://data.riksdagen.se/fil/99A39211-9B42-4F09-90AE-0A8139A07670#page=1"/>
-          <note xml:id="i-7RVtNLyvLKR1maiLaGGj7P">
-            Det justerade protokollet beräknas utkomma om 3 veckor
-          </note>
-          <note xml:id="i-5uWwrE23ifSHsfCAM1Xz9p">
-            Protokoll
-          </note>
-          <note xml:id="i-3c8CSYUMCzDM1U1HpRFv7u">
-            2002/03:8
-          </note>
-          <u xml:id="i-d574776703f2ed30-1" who="unknown">
-            <seg xml:id="i-VPWKfpbsswrdJ4UaNU23Bw">
-              ________________________________________________________
-            </seg>
-          </u>
-        </div>
-        <div type="commentSection" xml:id="i-LxR4xp1FRKMiC6pEeZQjYm">
-          <note xml:id="i-GZCXUx9Z6Ji93vFvXMHtms">
-            1 § Justering av protokoll
-          </note>
-          <note xml:id="i-B8i1JnyeTy5pUZczk1ZMd6">
-            Justerades protokollet för den 15 oktober.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-SzxygUrKdfKvsCjGVCwWRW">
-          <note xml:id="i-HXbMqJtQhAbWkMpf17m89w">
-            2 § Avsägelse
-          </note>
-          <note xml:id="i-8pYGqzYkYniGGznPxo37jJ">
-            Talmannen meddelade att Björn Rosengren (s)
-          </note>
-          <note xml:id="i-PmrQKFcKYvFMQgfzG1GqAA">
-            anhållit om entledigande från uppdraget som ledamot av riksdagen
-            från och med den 22 oktober 2002.
-          </note>
-          <note xml:id="i-YUBLyvW4ptKcLsFwSGSELr">
-            Kammaren biföll denna anhållan.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-C1CtwMKLyiRaTq7NgBvLTH">
-          <note xml:id="i-QcL5ZWyghjQKwdDCc37JtQ">
-            3 § Anmälan om förändringar i regeringens sammansättning
-          </note>
-          <u xml:id="i-ERHhpRUgktLESBB1EWnQJF" who="unknown" next="i-d574776703f2ed30-2">
-            <seg xml:id="i-QN3KVVDhvgb26ibPvquCyx">
-              Från statsminister Göran Persson hade följande skrivelse inkommit:
-            </seg>
-          </u>
-          <note xml:id="i-8ZaZAfXpjBKPkjgje9zjn7">
-            Till riksdagens talman
-          </note>
-          <note xml:id="i-MNB2v8noUexRgdxCZVas8Q">
-            Förändringar i regeringens sammansättning
-          </note>
-          <u xml:id="i-d574776703f2ed30-2" who="unknown" prev="i-ERHhpRUgktLESBB1EWnQJF" next="i-d574776703f2ed30-3">
-            <seg xml:id="i-PRVgvdkH9csk2vm9UgaoHx">
-              Jag har i dag med verkan från och med denna dag fattat följande
-              beslut angående regeringens sammansättning.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-3" who="unknown" prev="i-d574776703f2ed30-2" next="i-d574776703f2ed30-4">
-            <seg xml:id="i-CVbMo6LRghQTUAx2Kv6Nah">
-              Lena Hjelm-Wallén har entledigats från uppdragen att vara ställföreträdande
-              statsminister, statsråd och chef för Försvarsdepartementet.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-4" who="unknown" prev="i-d574776703f2ed30-3" next="i-5Hdgem5RqSkKJp8fmtzCLv">
-            <seg xml:id="i-KQknCmittqy9wSAJYrTmSo">
-              Margareta Winberg har entledigats som chef för
-            </seg>
-          </u>
-          <u xml:id="i-5Hdgem5RqSkKJp8fmtzCLv" who="unknown" prev="i-d574776703f2ed30-4" next="i-HzfmRnkBuEY53QsU3LMMjy">
-            <seg xml:id="i-zeKMZRuDP1ufRktGYY1oa">
-              Jordbruksdepartementet och förordnats att vara ställföreträdande
-              statsminister.
-            </seg>
-          </u>
-          <u xml:id="i-HzfmRnkBuEY53QsU3LMMjy" who="unknown" prev="i-5Hdgem5RqSkKJp8fmtzCLv" next="i-TfLC648Yi4DVDu1j1rEC5B">
-            <seg xml:id="i-FxVWzvB18PQDUKqyyv9bKm">
-              Britta Lejon har entledigats som statsråd.
-            </seg>
-          </u>
-          <u xml:id="i-TfLC648Yi4DVDu1j1rEC5B" who="unknown" prev="i-HzfmRnkBuEY53QsU3LMMjy" next="i-E4tXb7eXDx3a8mu9Ki7wVy">
-            <seg xml:id="i-U3sBtKrE6ydSE8m93douis">
-              Kjell Larsson har entledigats som statsråd och chef för Miljödepartementet.
-            </seg>
-          </u>
-          <note xml:id="i-J8usgn9xZb82tBWpuDE78J">
-            Mona Sahlin har entledigats som chef för Näringsdepartementet.
-          </note>
-          <u xml:id="i-E4tXb7eXDx3a8mu9Ki7wVy" who="unknown" prev="i-TfLC648Yi4DVDu1j1rEC5B" next="i-3CLKnSwzd4bGMFANQECacK">
-            <seg xml:id="i-NiYyUCu1yPAtrBtXdU3BpE">
-              Pär Nuder har förordnats som statsråd och, för tiden till och
-              med den 3 november 2002, vara chef för
-            </seg>
-          </u>
-          <note xml:id="i-YHWANaph7qFUKfxUtq9evU">
-            Försvarsdepartementet.
-          </note>
-          <u xml:id="i-3CLKnSwzd4bGMFANQECacK" who="unknown" prev="i-E4tXb7eXDx3a8mu9Ki7wVy" next="i-d574776703f2ed30-6">
-            <seg xml:id="i-PBrqSMq4QGuoKzdf3i2H3K">
-              Ann-Christin Nykvist har förordnats som statsråd och chef för
-              Jordbruksdepartementet.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-6" who="unknown" prev="i-3CLKnSwzd4bGMFANQECacK" next="i-d574776703f2ed30-8">
-            <seg xml:id="i-JDTm2Uk2LEg6Q33zCWraAD">
-              Lena Sommestad har förordnats som chef för
-            </seg>
-          </u>
-          <note xml:id="i-GESiWcc6ZxJF1Tb3ii3uez">
-            Miljödepartementet.
-          </note>
-          <u xml:id="i-d574776703f2ed30-8" who="unknown" prev="i-d574776703f2ed30-6" next="i-FeuvQmAkuefxSASe6snFxJ">
-            <seg xml:id="i-JRZCNE8yDam3yyy2n9p3kG">
-              Leif Pagrotsky har förordnats som chef för Näringsdepartementet.
-            </seg>
-          </u>
-          <note xml:id="i-DXbaEgzkUkqELoeo5F3o6g">
-            Berit Andnor, Morgan Johansson, Gunnar Lund,
-          </note>
-          <u xml:id="i-FeuvQmAkuefxSASe6snFxJ" who="unknown" prev="i-d574776703f2ed30-8" next="i-d574776703f2ed30-9">
-            <seg xml:id="i-KDepc1BrTybCy6w2peeUhw">
-              Lena Hallengren och Hans Karlsson har förordnats som statsråd.
-            </seg>
-          </u>
-          <pb facs="http://data.riksdagen.se/fil/99A39211-9B42-4F09-90AE-0A8139A07670#page=2"/>
-          <u xml:id="i-d574776703f2ed30-9" who="unknown" prev="i-FeuvQmAkuefxSASe6snFxJ">
-            <seg xml:id="i-NseF3GggJisCixV3E5bfMW">
-              Jag har vidare med verkan från och med den
-            </seg>
-          </u>
-          <note xml:id="i-1375XsyKeKX63eQjmrCcEY">
-            4 november 2002 förordnat Leni Björklund som statsråd och chef
-            för Försvarsdepartementet.
-          </note>
-          <note xml:id="i-WuSgUCPRrAne9sZKMERvm5">
-            Stockholm den 21 oktober 2002
-          </note>
-          <note xml:id="i-CBUuQm9bKD9ko9zjzGGfDq">
-            Göran Persson
-          </note>
-          <note xml:id="i-49mjKnGHQvND9y8RVYcUW2">
-            Skrivelsen lades till handlingarna.
-          </note>
-          <note xml:id="i-Bex2Yau4uupHY8ustmGfzY">
-            Från och med den 21 oktober hade regeringen således följande
-            sammansättning:
-          </note>
-          <note xml:id="i-H7UbgbfqmDmws2JjYZYXZN">
-            Statsminister Göran Persson
-          </note>
-          <note xml:id="i-XwdFgYZsELV9VGfAMxV8yR">
-            Vice statsminister Margareta Winberg
-          </note>
-          <note xml:id="i-Hd5UgXA6nuWsfmJGw3P3ep">
-            Statsråd Pär Nuder (till och med den 3 november även chef för
-            Försvarsdepartementet)
-          </note>
-          <note xml:id="i-9FTQLUBPTUkzMYeEr8wQ4N">
-            Justitieminister Thomas Bodström
-          </note>
-          <note xml:id="i-3tGwwSdRFjzPfmtg8UrH21">
-            Statsråd Mona Sahlin
-          </note>
-          <note xml:id="i-M5r6iFc6j8rWH2bkYKoGSZ">
-            Utrikesminister Anna Lindh
-          </note>
-          <note xml:id="i-9vu5x5x517btSWYdEBd8uv">
-            Statsråd Jan O Karlsson
-          </note>
-          <note xml:id="i-YRoFbVnvSP2zV3N9TLwPkR">
-            Försvarsminister Leni Björklund (från och med den 4 november)
-          </note>
-          <note xml:id="i-83XZEfJjpko3DQw5TPTufg">
-            Socialminister Lars Engqvist
-          </note>
-          <note xml:id="i-Hodt9dbYZXRwBY7kuJsTDj">
-            Statsråd Berit Andnor
-          </note>
-          <note xml:id="i-UcVtdgbySwersb42FhJGiv">
-            Statsråd Morgan Johansson
-          </note>
-          <note xml:id="i-GfE2UMmKLGLHzryhMY8AxA">
-            Finansminister Bosse Ringholm
-          </note>
-          <note xml:id="i-EjJonHBKkUYXjf5fgcL3sC">
-            Statsråd Gunnar Lund
-          </note>
-          <note xml:id="i-31MHsuTPpiFEdjsCrALhn2">
-            Statsråd Lars-Erik Lövdén
-          </note>
-          <note xml:id="i-3bVhuYwis5VyFkbjenPWes">
-            Utbildningsminister Thomas Östros
-          </note>
-          <note xml:id="i-JhMnhrS2ZYQ9qYE1g1ejPz">
-            Statsråd Lena Hallengren
-          </note>
-          <note xml:id="i-75xXFWSazF6sNwSz4HasEw">
-            Jordbruksminister Ann-Christin Nykvist
-          </note>
-          <note xml:id="i-2SrG57b6ja8XXYTghVSxsS">
-            Kulturminister Marita Ulvskog
-          </note>
-          <note xml:id="i-XURFzSuAGHhv2omfRciTZ6">
-            Miljöminister Lena Sommestad
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/99A39211-9B42-4F09-90AE-0A8139A07670#page=3"/>
-          <note xml:id="i-3eTDSQ9eJom23ZRw42pfmT">
-            Näringsminister Leif Pagrotsky
-          </note>
-          <note xml:id="i-NoQK5QGHSvWQJkqAd8QkMU">
-            Statsråd Ulrica Messing
-          </note>
-          <note xml:id="i-36ZLBmyygLoic6a4e3EfG3">
-            Statsråd Hans Karlsson
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-USP5Ck8YkbseHpTYDspksX">
-          <note xml:id="i-M39ukLd6FWd4B1qTP1hr1R">
-            4 § Anmälan om ersättare för talmannen och för statsråd
-          </note>
-          <note xml:id="i-6tGvc3w26STUhtkKFQo6N1">
-            Talmannen anmälde att följande ersättare inträtt från och med
-            den 21 oktober:
-          </note>
-          <note xml:id="i-ASQDQfVi1XzdppxMkme84J">
-            Britta Lejon för talmannen Björn von Sydow, varigenom uppdraget
-            som ersättare för talmannen upphört för Niclas Lindberg,
-          </note>
-          <note xml:id="i-Rh7ArHUqUbDCzQnXAjUqk3">
-            Niclas Lindberg för statsrådet Pär Nuder, varigenom uppdraget
-            som ersättare för Pär Nuder upphört för
-          </note>
-          <note xml:id="i-7xfZ65cQ2tDnnsnSXdZK7w">
-            Mariam Osman Sherifay,
-          </note>
-          <note xml:id="i-N8h7aLXUBvRvjwewp8B8aT">
-            Inger Jarl Beck för statsrådet Morgan Johansson samt
-          </note>
-          <note xml:id="i-NqF3JJsDUNR28TnYujFu5t">
-            Marie Nordén för statsrådet Berit Andnor.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-HoGJYRNwsndy74ZsvG7hXi">
-          <note xml:id="i-WdY9bUR2bTAypiCNNTu4ZP">
-            5 § Meddelande om frågestund
-          </note>
-          <note xml:id="i-2KNXcRByr6fnpLZ43DLiUa">
-            Talmannen meddelade att vid frågestunden torsdagen den 24 oktober
-            kl. 14.00 skulle följande statsråd närvara:
-          </note>
-          <note xml:id="i-UcUNYmTPEK4Lwn7dVXnafn">
-            Näringsminister Leif Pagrotsky, statsrådet Ulrica
-          </note>
-          <note xml:id="i-XHbZbKr4zPQsq5DEsJVirh">
-            Messing, statsrådet Lars-Erik Lövdén, justitieminister
-          </note>
-          <note xml:id="i-Ym6D85SRHTb4UaPPBre8U">
-            Thomas Bodström och miljöminister Lena Sommestad.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-FD6fyqCfVAdpp1THchRph7">
-          <note xml:id="i-2rjMZ67DTztmB2qa3u58kK">
-            6 § Meddelande om partiledardebatt
-          </note>
-          <note xml:id="i-2KpDi6ZdRBvzjiaZck8YFG">
-            Talmannen meddelade att debattregler för partiledardebatten onsdagen
-            den 6 november kl. 9.00 delats ut till kammarens ledamöter.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-TFUZ9mJK71a4tcFSjGwsiK">
-          <note xml:id="i-UsFipbbtT4CHJdGucCBsE9">
-            7 § Meddelande om allmänpolitisk debatt
-          </note>
-          <note xml:id="i-JjduNFcJ5D7TBNU85xoiUu">
-            Talmannen meddelade att debattregler för den allmänpolitiska
-            debatten onsdagen den 6 november kl. 14.00 delats ut till kammarens
-            ledamöter.
-          </note>
-        </div>
-        <div type="debateSection" xml:id="i-M3HRirfdZKypaWyHJ5JHYN" subtype="interpellationDebate">
-          <note xml:id="i-Hu8hRbgA6fPkVNy9fhshGz">
-            8 § Svar på interpellation 2002/03:9 om rättssäkerhet för asylsökande
-          </note>
-          <note type="speaker" xml:id="i-Gx67tAXKwXcgjFjFgxPEau">
-            Anf. 1 Statsrådet JAN O KARLSSON (s):
-          </note>
-          <u xml:id="i-9JbUp6eem52nzWi5exBKRL" next="i-d574776703f2ed30-15" who="Q1232072">
-            <seg xml:id="i-2Bv2QuKEsF4sE16V6MnwjL">
-              Herr talman! Ana Maria Narti har ställt frågor till mig om verkställandet
-              av den reform på utlänningsrättens område som riksdagen den 15
-              november förra året beslutade att begära av regeringen, innebärande
-              en ny instans- och processordning för utlännings- och medborgarskapsärenden.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-15" who="Q1232072" prev="i-9JbUp6eem52nzWi5exBKRL" next="i-d574776703f2ed30-16">
-            <seg xml:id="i-8QVxcNxTUoYwXyaMosCRrb">
-              Ana Maria Narti har frågat mig hur det långsamma verkställandet
-              av reformen enligt riksdagens tillkännagivande avseende nedläggning
-              av Utlänningsnämnden motiveras, hur rättssäkerheten för asylsökande
-              kan förbättras under tiden som Utlänningsnämnden fortsätter sin
-              verksamhet samt när ett ikraftträdande av reformen kan ske.
-            </seg>
-          </u>
-          <pb facs="http://data.riksdagen.se/fil/99A39211-9B42-4F09-90AE-0A8139A07670#page=4"/>
-          <u xml:id="i-d574776703f2ed30-16" prev="i-d574776703f2ed30-15" who="Q1232072" next="i-2AGGXVxz4NgoDnKMNoCKjd">
-            <seg xml:id="i-Qbtbf4C5BfTJ1g4ijrMrL1">
-              Till att börja med vill jag säga att det är en oerhört omfattande
-              reform det handlar om. Det gäller lagtekniska, organisatoriska
-              och ekonomiska frågor. De processrättsliga frågorna är svåra att
-              lösa. Det har under arbetets gång bland annat visat sig vara svårt
-              att hitta en processordning som förenar kravet på en snabb handläggning
-              med att prövningen i Utlänningsnämnden ersätts av en prövning
-              i två domstolsinstanser. Vidare har det framkommit svårigheter
-              när det gäller att föra in utlänningsärenden i domstolarna eftersom
-              dessa ärenden i flera avseenden skiljer sig från andra typer av
-              mål. Målet för regeringen har ändå varit att föreslå så få särlösningar
-              som möjligt för dessa ärenden i förhållande till andra ärenden
-              och mål.
-            </seg>
-          </u>
-          <u xml:id="i-2AGGXVxz4NgoDnKMNoCKjd" prev="i-d574776703f2ed30-16" who="Q1232072" next="i-G3GnaDHBXBoWLAiiiKK1j7">
-            <seg xml:id="i-8LNUr9muJ5uqYvMHkvQLMV">
-              Regeringens utgångspunkter för förslaget är dels betänkandet
-              från den parlamentariska kommitté
-            </seg>
-          </u>
-          <note xml:id="i-R3UuwNdNBvr5s5xUdS8qRh">
-            (NIPU) som utredde frågan om en ny instans- och processordning
-            i utlänningsärenden, Ökad rättssäkerhet i asylärenden, SOU 1999:16,
-            dels det beslut som riksdagens socialförsäkringsutskott fattade
-            den 15
-          </note>
-          <u xml:id="i-G3GnaDHBXBoWLAiiiKK1j7" prev="i-2AGGXVxz4NgoDnKMNoCKjd" who="Q1232072" next="i-4gXBNpmuW3Uwuq35G97vTx">
-            <seg xml:id="i-Dm3chTRJ1EKmzAVLm5FBof">
-              november förra året om reformens inriktning. Ramarna och inriktningen
-              för reformen har således till stor del bestämts av riksdagen.
-            </seg>
-          </u>
-          <u xml:id="i-4gXBNpmuW3Uwuq35G97vTx" prev="i-G3GnaDHBXBoWLAiiiKK1j7" who="Q1232072" next="i-FdRSZrkoTAKHGvMoBLE4UT">
-            <seg xml:id="i-6qR1C2XB4jJJW9TmBXDQv2">
-              Sedan riksdagens beslut har det under hela våren pågått ett mycket
-              intensivt arbete med att utarbeta en lagrådsremiss. Den 6 juni
-              2002 beslöt regeringen att lämna över förslaget till Lagrådet
-              för granskning.
-            </seg>
-          </u>
-          <u xml:id="i-FdRSZrkoTAKHGvMoBLE4UT" prev="i-4gXBNpmuW3Uwuq35G97vTx" who="Q1232072" next="i-d574776703f2ed30-17">
-            <seg xml:id="i-NX6nDckpcx5yfQquwWohHx">
-              Föredragning av förslaget inför Lagrådet påbörjades i slutet
-              av augusti, och Lagrådets yttrande kom den 9
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-17" prev="i-FdRSZrkoTAKHGvMoBLE4UT" who="Q1232072" next="i-d574776703f2ed30-18">
-            <seg xml:id="i-2w1dkpwnYMoDyEx2jseXrL">
-              oktober. Med hänsyn till frågans komplicerade natur har det inte
-              varit möjligt för regeringen att utarbeta ett förslag snabbare
-              än så här.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-18" prev="i-d574776703f2ed30-17" who="Q1232072" next="i-8GpZvbWhNWWJLzAPmJWQ7R">
-            <seg xml:id="i-14LKxwpQKFfcxFya6BKwDM">
-              Detta är alltså läget som vi befinner oss i i dag;
-            </seg>
-          </u>
-          <u xml:id="i-8GpZvbWhNWWJLzAPmJWQ7R" prev="i-d574776703f2ed30-18" who="Q1232072" next="i-d574776703f2ed30-19">
-            <seg xml:id="i-GoqbhRTbntPftpRD3ZHbJT">
-              Lagrådet avstyrkte som bekant regeringens förslag till ny instans-
-              och processordning i utlänningsärenden.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-19" prev="i-8GpZvbWhNWWJLzAPmJWQ7R" who="Q1232072" next="i-d574776703f2ed30-20">
-            <seg xml:id="i-NC6UiYdzoUMvaaeH3sDch4">
-              Lagrådet har avstyrkt förslaget från olika utgångspunkter. Det
-              framhåller att en grundläggande förutsättning för godtagbara rättssäkerhetsgarantier
-              är att de materiella reglerna är så utformade att tillämpningen
-              kan bli enhetlig och förutsebar. Lagrådet anser att det kravet
-              inte uppfylls om ärendena förs över till domstol på det sätt som
-              regeringen har föreslagit.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-20" prev="i-d574776703f2ed30-19" who="Q1232072" next="i-d574776703f2ed30-21">
-            <seg xml:id="i-mYuTyrxMC8PQ2g16XDXm9">
-              Lagrådets yttrande väger tungt. En diskussion om den uppkomna
-              situationen har i dag på förmiddagen inletts med riksdagspartierna
-              i socialförsäkringsutskottet. Jag vill inte nu föregripa resultatet
-              av dessa överläggningar genom att gå in i diskussion eller spekulationer
-              om vare sig detaljer i Lagrådets yttrande eller förslaget som
-              sådant och inte heller rörande datum för ikraftträdande av en
-              kommande reform. Vi behöver nu alla få tid att överväga vilka
-              handlingsalternativ som på kort och lite längre sikt är möjliga
-              att genomföra.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-21" prev="i-d574776703f2ed30-20" who="Q1232072" next="i-d574776703f2ed30-22">
-            <seg xml:id="i-3jsLM4HkwzGFWqUXuqx3Ff">
-              På kort sikt är det givetvis nödvändigt att Utlänningsnämnden
-              ges förutsättningar att fungera så bra som möjligt. Regeringen
-              föreslår i budgetpropositionen för 2003 att såväl Utlänningsnämnden
-              som
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-22" prev="i-d574776703f2ed30-21" who="Q1232072" next="i-d574776703f2ed30-23">
-            <seg xml:id="i-GQjD1VeztQXtGjZhYdbMtV">
-              Migrationsverket tillförs utökade resurser i syfte att korta
-              handläggningstiderna och stärka rättssäkerheten.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-23" prev="i-d574776703f2ed30-22" who="Q1232072">
-            <seg xml:id="i-BnTuuwgrtiKzmKTR73yFJ2">
-              Jag hoppas att jag med detta har besvarat Ana Maria Nartis frågor
-              och hoppas att tillsammans med riksdagens partier kunna gå vidare
-              med lagstiftningsprocessen i syfte att uppnå ett förbättrat system
-              för prövning av utlänningsärendena, som tillgodoser kraven på
-              såväl en rättssäker som snabb ärendehantering.
-            </seg>
-          </u>
-          <pb facs="http://data.riksdagen.se/fil/99A39211-9B42-4F09-90AE-0A8139A07670#page=5"/>
-          <note type="speaker" xml:id="i-JrjyhFbTcxKYN13iXbtsJg">
-            Anf. 2 ANA MARIA NARTI (fp):
-          </note>
-          <u xml:id="i-d574776703f2ed30-24" next="i-d574776703f2ed30-25" who="Q4750415">
-            <seg xml:id="i-WcEyT1XyLDStN3ZXvFrVMr">
-              Herr talman! Jag tackar för svaret. Jag måste börja med en precisering.
-              När jag skrev interpellationen hade inte Lagrådets svar kommit.
-              Själva tyngdpunkten i vår debatt i dag förflyttas därför lite
-              grann.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-25" prev="i-d574776703f2ed30-24" who="Q4750415" next="i-d574776703f2ed30-26">
-            <seg xml:id="i-7ETHqvma4BGJCpDYaqCWPi">
-              Vad som har kommit fram mycket tydligt efter det att Lagrådets
-              yttrande har presenterats är att vi behöver en ordentlig genomgång
-              av de så kallade materiella reglerna. I detta måste jag säga att
-              vi som medlemmar i Folkpartiet liberalerna är mycket glada.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-26" prev="i-d574776703f2ed30-25" who="Q4750415" next="i-d574776703f2ed30-27">
-            <seg xml:id="i-6tDs9RhyavRAdqBrPYsraw">
-              Vi har många gånger understrukit att lagen inte är tillräckligt
-              tydlig och förutsebar. Vi har krävt preciseringar både när det
-              gäller asylskäl och humanitära skäl. På så sätt kan vi säga att
-              vi är överens. Samtidigt är det väldigt viktigt att tänka på att
-              själva diskussionen om Utlänningsnämnden inte kan ta slut med
-              detta.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-27" prev="i-d574776703f2ed30-26" who="Q4750415" next="i-d574776703f2ed30-28">
-            <seg xml:id="i-4qbQTfNHpSbq4xKhVEUKNx">
-              Vi behöver jobba vidare med lagen - det är självklart. Det finns
-              otydliga punkter i lagen som kan skapa grund för det som i Lagrådets
-              text kallas för skönsmässiga grunder, vilket är väldigt skrämmande.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-28" prev="i-d574776703f2ed30-27" who="Q4750415" next="i-d574776703f2ed30-29">
-            <seg xml:id="i-K5JRHstYHaZ5oPwEZswqQ3">
-              Samtidigt behöver vi tänka på praktiska möjligheter att i framtiden
-              korta behandlingstiden för överprövande av sådana ärenden. Då
-              är förvaltningsdomstolarna enligt vår mening fortfarande den bästa
-              lösningen. Jag kan inte se någon skillnad i detta sammanhang.
-              Om man preciserar lagarna så finns det goda grunder för förvaltningsdomstolarna
-              och för att de ska fungera ordentligt och bra och för att de skönsmässiga
-              grunderna ska försvinna från praxis när det gäller behandling
-              av utlänningsärenden.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-29" prev="i-d574776703f2ed30-28" who="Q4750415">
-            <seg xml:id="i-EtaFtTYbR3cG1B77b9qK5D">
-              Jag kan absolut inte tänka mig att Utlänningsnämnden skulle kunna
-              fungera bättre, effektivare och snabbare än många förvaltningsdomstolar.
-              Som bekant är Folkpartiet liberalerna motståndare till speciella
-              domstolar. Vi vill ha många förvaltningsdomstolar som agerar på
-              olika områden. Då blir det också mycket lättare att snabbt avgöra
-              vid överklaganden.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-59xjk24WN9oxQGvJJWiNGD">
-            Anf. 3 Statsrådet JAN O KARLSSON (s):
-          </note>
-          <u xml:id="i-d574776703f2ed30-30" next="i-d574776703f2ed30-31" who="Q1232072">
-            <seg xml:id="i-PJryx3xFcVoPRWjMmyD7pk">
-              Herr talman! Jag ska först göra några kommentarer till Ana Maria
-              Nartis synpunkter och påpekanden.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-31" prev="i-d574776703f2ed30-30" who="Q1232072" next="i-d574776703f2ed30-32">
-            <seg xml:id="i-VG3xuHuj44GzmudsaYcnhD">
-              Sedan ska jag säga några ord om vad som har hänt i dag. Även
-              jag kämpar ju med det tidsmässiga problemet - svaret gavs i går,
-              och jag har haft möte med socialförsäkringsutskottet i dag. Mötet
-              gav en hel del resultat som jag tror kan vara av intresse för
-              vårt meningsutbyte.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-32" prev="i-d574776703f2ed30-31" who="Q1232072" next="i-d574776703f2ed30-33">
-            <seg xml:id="i-B3Sq8WPZqdT9U6XvJTtScv">
-              Först och främst vill jag vad beträffar de skönsmässiga grunderna
-              som omnämns i lagrådsyttrandet understryka att skönsmässiga grunder
-              mycket väl kan förekomma utan att det för den skull föreligger
-              godtycke. Men jag förstår - och det talade vi också om med socialförsäkringsutskottet
-              i dag - att det viktiga är att vi har ett rättssäkert system även
-              om det understundom kan vara så att i denna, liksom i annan, prövning
-              av gällande lagstiftning så måste skönsmässiga avvägningar göras.
-              Jag tänker på förhållandet att vi i utlänningsrätten har just
-              den individuella prövningen som kungstanke. Det innebär ständigt
-              en anpassning till varje individuellt fall.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-33" prev="i-d574776703f2ed30-32" who="Q1232072" next="i-d574776703f2ed30-34">
-            <seg xml:id="i-D1KbQsKY71cBiiCJ6Hdk9L">
-              Däremot var vi i dag i utskottet naturligtvis fullständigt på
-              det klara med att varje form av godtycke måste undvikas vid tillämpning
-              av denna lag och de ärenden den gäller.
-            </seg>
-          </u>
-          <pb facs="http://data.riksdagen.se/fil/99A39211-9B42-4F09-90AE-0A8139A07670#page=6"/>
-          <u xml:id="i-d574776703f2ed30-34" prev="i-d574776703f2ed30-33" who="Q1232072" next="i-d574776703f2ed30-35">
-            <seg xml:id="i-KSGHky88gG3n2AVsnSDf8Q">
-              När det gäller sambandet mellan korta behandlingstider och förvaltningsdomstolar
-              så har utskottet och jag tillsammans haft ett förberedelsearbete,
-              eftersom vi har gjort lagrådsremissen ihop. Det har då blivit
-              klart att när man går över från en klagoinstans till två klagoinstanser
-              och partssammansatt prövning så är risken snarare den motsatta
-              - vi får en längre tid.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-35" prev="i-d574776703f2ed30-34" who="Q1232072" next="i-d574776703f2ed30-36">
-            <seg xml:id="i-Vqm4YeKWsXaTeJC3dktH1v">
-              För att i så fall vinna tid i behandlingen ställs man också inför
-              avsevärda resursproblem. Jag tror inte att det råder några skilda
-              meningar om detta, och utskottet och jag har kommit fram till
-              samma bedömning.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-36" prev="i-d574776703f2ed30-35" who="Q1232072" next="i-d574776703f2ed30-37">
-            <seg xml:id="i-EXLn1e4uAUfo6qfhHj6Z7c">
-              När det gäller motståndet mot specialdomstolar så noterar jag
-              rättshistoriskt att vi alla under en period helt ville avskaffa
-              specialdomstolar av alla slag. Den faktiska utvecklingen har sedan
-              burit syn för sägen;
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-37" prev="i-d574776703f2ed30-36" who="Q1232072" next="i-d574776703f2ed30-38">
-            <seg xml:id="i-HLAPQiScmv76SBbb97JsGU">
-              det har vi inte gjort. Fortfarande har vi i svenskt rättsväsende
-              en omfattande, ymnig och närmast ökande förekomst av specialdomstolar.
-              Utlänningsnämnden inrättades innan denna diskussion på allvar
-              började ta fart. Jag vet inte riktigt var vi befinner oss i dag.
-              På den punkten vill jag under inga omständigheter prejudicera
-              det arbete som jag nu har för avsikt att efter hörande av socialförsäkringsutskottet
-              inleda med fortsättningen.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-38" prev="i-d574776703f2ed30-37" who="Q1232072" next="i-d574776703f2ed30-39">
-            <seg xml:id="i-KS2mV15Utyaya4AF9C8TAt">
-              Det handlar om att vi har ett mycket klart positivt uttalande
-              av Lagrådet, nämligen att Lagrådet vill att vi ska arbeta med
-              domstolsförfarande som klagoinstans, att vi ska ha tvåpartsförfarande
-              och att vi ska ha muntlighet.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-39" prev="i-d574776703f2ed30-38" who="Q1232072">
-            <seg xml:id="i-QWt9LDPXdK3mzcyupUrrqj">
-              Låt mig som en personlig deklaration tillfoga att det för mig
-              också är väldigt viktigt att i det fortsatta arbetet se till att
-              vi får två parter som alldeles klart är jämställda. Jag tror att
-              ett av de problem som vi har arbetat med när det gäller Utlänningsnämndens
-              funktionssätt är att det inte har varit klart, utan att det har
-              funnits en upplevelse av och kanske en realitet i att parterna
-              inte har varit jämställda. På den punkten är samstämmigheten klar.
-              Jag vill i mitt nästa inlägg fortsättningsvis beröra något av
-              resultatet av den överläggningen.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-SiCk32MFvivYi67ZQe6BtC">
-            Anf. 4 ANA MARIA NARTI (fp):
-          </note>
-          <u xml:id="i-d574776703f2ed30-40" next="i-d574776703f2ed30-41" who="Q4750415">
-            <seg xml:id="i-2Tp1X3e9UWjiw5FtjatAyG">
-              Herr talman! Tack för svaret! Det kanske är min svenska som inte
-              räcker till. Skönsmässiga grunder är för mig motsatsen till principiella
-              eller sakliga grunder. Det är för mig faktiskt synonymt med godtycke.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-41" prev="i-d574776703f2ed30-40" who="Q4750415" next="i-d574776703f2ed30-42">
-            <seg xml:id="i-3xvQrLFGoNpLJzhSyWdUqE">
-              Det är kanske min svenska - jag är trots allt före detta flykting
-              och jag har bara varit i 32 år i Sverige. Så kanske förstår jag
-              inte innehållet i "skönsmässiga grunder". Fast jag tycker att
-              det är skrämmande. Det ska finnas sakliga grunder för en bedömning
-              av ett så viktigt ärende som rätten att bosätta sig i Sverige.
-              Det ska finnas principiella grunder för bedömningen av varje individuellt
-              fall. Men skönsmässiga grunder tycker jag fortfarande är fullständigt
-              otillfredsställande.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-42" prev="i-d574776703f2ed30-41" who="Q4750415" next="i-d574776703f2ed30-43">
-            <seg xml:id="i-BrFiVryxE6tyqKmGeitcoi">
-              När det gäller specialdomstolar kan jag som en människa som har
-              jobbat mycket med problem som uppstår mellan folk från olika etniska
-              grupper säga att vi i invandrarbefolkningen inte har goda erfarenheter
-              av specialdomstolsarbete. Titta på integrationsfrågorna! Det är
-              Arbetsdomstolen som ska behandla dem.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-43" prev="i-d574776703f2ed30-42" who="Q4750415" next="i-d574776703f2ed30-44">
-            <seg xml:id="i-CvpDiPjMd8KKZBYjBBcdTs">
-              Är vi nöjda med resultatet? Inte alls. Det som händer är fortfarande
-              att många fall försvinner någonstans i hanteringen. Specialdomstolen
-              är alldeles för mycket koncentrerad på de viktiga aktörernas,
-              det vill säga arbetstagarnas och arbetsgivarnas organisationers,
-              ställningstaganden i domstolen. Då försvinner de individuella
-              fallen bort någonstans i hanteringen.
-            </seg>
-          </u>
-          <pb facs="http://data.riksdagen.se/fil/99A39211-9B42-4F09-90AE-0A8139A07670#page=7"/>
-          <u xml:id="i-d574776703f2ed30-44" prev="i-d574776703f2ed30-43" who="Q4750415" next="i-d574776703f2ed30-45">
-            <seg xml:id="i-9VebQcRbKcsn7xqSAZsRYA">
-              Jag kan också lägga till att vi fortfarande i Sverige saknar
-              utbildningar som ska öppna möjligheten för en fungerande kommunikation
-              mellan människor från olika etniska grupper. Jag sökte själv i
-              förra veckan efter advokater som skulle kunna hjälpa i ett fall
-              av diskriminering. De är väldigt svåra att hitta! Detta måste
-              också vara ett problem för utlänningsärenden.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-45" prev="i-d574776703f2ed30-44" who="Q4750415" next="i-d574776703f2ed30-46">
-            <seg xml:id="i-KLRB7oGRnq3xFbqQ24YG4t">
-              Det finns alltså mycket att göra på området.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-46" prev="i-d574776703f2ed30-45" who="Q4750415" next="i-d574776703f2ed30-47">
-            <seg xml:id="i-FKF1LimphGnKX4KsRZfAmh">
-              Jag tycker fortfarande att förvaltningsdomstolar -
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-47" prev="i-d574776703f2ed30-46" who="Q4750415">
-            <seg xml:id="i-UCDNcSv3NDyqe7BsxcyRJ">
-              vanliga domstolar - är en bättre arena för att lösa de här problemen
-              än de mycket specialiserade och egentligen självcentrerade domstolar
-              som specialdomstolarna brukar bli.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-GTP4BEpx2CrDBVpfuLc4gX">
-            Anf. 5 Statsrådet JAN O KARLSSON (s):
-          </note>
-          <u xml:id="i-d574776703f2ed30-48" next="i-d574776703f2ed30-49" who="Q1232072">
-            <seg xml:id="i-QyDitZYWnwoz3oNVoy9o1W">
-              Herr talman! Jag skulle vilja slå till två reträtter omedelbart.
-              Den första gäller begreppet skönsmässiga grunder. Jag kan visserligen
-              inte falla tillbaka på några etniska argument; jag har talat detta
-              språk i 63
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-49" prev="i-d574776703f2ed30-48" who="Q1232072" next="i-d574776703f2ed30-50">
-            <seg xml:id="i-LUqgZ6tEEaDTiJGXTrGbS4">
-              år. Men jag är inte jurist, och det är möjligt att nyanseringen
-              av begreppet skönsmässig grund är sådan att jag ska vara lite
-              försiktig. Vi förde faktiskt en diskussion om detta - om "skönsmässig"
-              och "godtycklig"
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-50" prev="i-d574776703f2ed30-49" who="Q1232072" next="i-d574776703f2ed30-51">
-            <seg xml:id="i-NveWTRJ2B7zhE636VZuVGG">
-              - men jag vill på den punkten under inga omständigheter ha någon
-              bestämd uppfattning, och det vill jag gärna ha fört till kammarens
-              protokoll. Jag vill tillfråga mina juridiska rådgivare innan jag
-              rör mig en millimeter på detta uppenbart minerade fält.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-51" prev="i-d574776703f2ed30-50" who="Q1232072" next="i-d574776703f2ed30-52">
-            <seg xml:id="i-uAkAq8xWcYCkgffuMMgWV">
-              Den andra gäller specialdomstolarna. Det var en ren doktrinhistorisk
-              anmärkning. Jag har inga som helst andra åsikter än Ana Maria
-              Narti om vikten av att så många ärenden som möjligt i vårt rättsväsende
-              handhas av de allmänna domstolarna eller förvaltningsdomstolarna.
-              Det var en ren doktrinhistorisk anmärkning.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-52" prev="i-d574776703f2ed30-51" who="Q1232072" next="i-d574776703f2ed30-53">
-            <seg xml:id="i-Gb6XtAoJRxBmZik6SQR7sW">
-              Jag kan dock inte låta bli att notera att såväl Arbetsdomstolen
-              som Utlänningsnämnden tillkommit på initiativ av detta liberala
-              parti 1928 respektive 1992.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-53" prev="i-d574776703f2ed30-52" who="Q1232072" next="i-d574776703f2ed30-54">
-            <seg xml:id="i-PcgognS9CTNRdNHj8BtyJS">
-              Men även detta ska uppfattas som en ren doktrinhistorisk anmärkning.
-              I sakfrågan är vi helt överens.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-54" prev="i-d574776703f2ed30-53" who="Q1232072">
-            <seg xml:id="i-SFEmUHiR5h3soX4EqCjZAR">
-              Det vi kom fram till i dag - och det kanske är det allra viktigaste
-              - i den överläggning jag haft med utskottet är att jag nu ska
-              inbjuda till överläggningar med alla partier. Alla partier och
-              regeringen är fullständigt överens om att det inte kommer att
-              bli något status quo i den här frågan. Vi måste fortsätta framåt
-              för att lösa den.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-B4RVEXVtYf27u7NLs6SATE">
-            Anf. 6 ANA MARIA NARTI (fp):
-          </note>
-          <u xml:id="i-d574776703f2ed30-55" next="i-d574776703f2ed30-56" who="Q4750415">
-            <seg xml:id="i-KvqYUW27736HDyWNrXudb8">
-              Herr talman! Tack för svaret. Den här debatten kommer säkert
-              att fortsätta. Vi har alla väldigt mycket att vinna på att ett
-              grundläggande arbete, både med lagen och med instansordningen,
-              kommer i gång ordentligt.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-56" prev="i-d574776703f2ed30-55" who="Q4750415" next="i-d574776703f2ed30-57">
-            <seg xml:id="i-8CoV3n1XH1fsinMLRzHaMq">
-              Jag vill avsluta den här debatten med några personliga betraktelser.
-              Under de tolv år som har gått sedan diktaturen föll i Rumänien
-              har jag haft många tillfällen att se hur olika utlänningsärenden
-              behandlas i praktiken. Jag har träffat på många fall som har haft
-              precis samma situation bakom sig men som bedömts olika. Det är
-              den här praktiken som vi måste komma ifrån. Varje dag som går
-              utan att denna praxis tar slut innebär tragedier för människor.
-            </seg>
-          </u>
-          <pb facs="http://data.riksdagen.se/fil/99A39211-9B42-4F09-90AE-0A8139A07670#page=8"/>
-          <u xml:id="i-d574776703f2ed30-57" prev="i-d574776703f2ed30-56" who="Q4750415" next="i-d574776703f2ed30-58">
-            <seg xml:id="i-32fWBKrczGLAVNfGurMs5e">
-              Jag tänker också lite grann på hela den debatt som vi hade under
-              sommaren om arbetskraftsinvandring.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-58" prev="i-d574776703f2ed30-57" who="Q4750415">
-            <seg xml:id="i-HcErFppyVkdudgyyZjhTa7">
-              Om en liten grupp av de människor som skickades hem efter år
-              av plågor på gömställen hade fått möjlighet att arbeta i Sverige
-              skulle många tragedier ha undvikits. Jag ser en direkt relation
-              mellan de här mänskliga tragedierna och avsaknaden av en rätt
-              till arbete i det här landet.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-Qwisfrr1rwpe1YQBGxHmue">
-            Anf. 7 Statsrådet JAN O KARLSSON (s):
-          </note>
-          <u xml:id="i-d574776703f2ed30-59" next="i-d574776703f2ed30-60" who="Q1232072">
-            <seg xml:id="i-JdZVufxaCX8eSD1JxWSDZ5">
-              Herr talman! Jag tror att vi i väldigt hög grad har en gemensam
-              syn på hur vi ska fortsätta det här arbetet. Jag vill så långt
-              det är möjligt nu precisera hur jag ser på den fortsättningen.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-60" prev="i-d574776703f2ed30-59" who="Q1232072" next="i-d574776703f2ed30-61">
-            <seg xml:id="i-HhL5T9FeJgBiZgGeCVT2Hz">
-              Vi har ett kortsiktigt perspektiv och ett långsiktigt.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-61" prev="i-d574776703f2ed30-60" who="Q1232072" next="i-d574776703f2ed30-62">
-            <seg xml:id="i-4uYaBqy7B3baJ82mSLC1Nu">
-              Det rådde fullständig konsensus vid dagens utskottsöverläggning
-              om att vi inte kan stanna nu och låta situationen förbli oförändrad.
-              I de överläggningar som jag ser fram emot ska kunna inledas inom
-              några veckor räknar jag alltså med att vi ska kunna dela upp frågan.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-62" prev="i-d574776703f2ed30-61" who="Q1232072" next="i-d574776703f2ed30-63">
-            <seg xml:id="i-WDRTajkeovjmD3rE4Nr9Fm">
-              Det kortsiktiga perspektivet handlar om vilka omedelbara åtgärder
-              som nu anses vara möjliga Där tänker jag arbeta efter den konsensusprincip
-              som jag använt under den korta tid som jag har varit ansvarig
-              för de här frågorna. Det är naturligtvis själva instansordningen
-              som faller i ögonen. Där hoppas jag att vi ska kunna arbeta. Men
-              jag vill akta mig för att dra några specifika slutsatser innan
-              jag har fört en diskussion med alla partier. Det är det kortsiktiga
-              perspektivet.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-63" prev="i-d574776703f2ed30-62" who="Q1232072" next="i-d574776703f2ed30-64">
-            <seg xml:id="i-MeHyT87Nk6jdxHgzTuM8GP">
-              Det långsiktiga perspektivet handlar om en förändring av lagstiftningen.
-              Budskapet från Lagrådet är tydligt. Denna lag måste ses över.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-64" prev="i-d574776703f2ed30-63" who="Q1232072" next="i-d574776703f2ed30-65">
-            <seg xml:id="i-Jpc4znK7RzUdWAnJGsMZrr">
-              Det jag har sagt till utskottet i dag - och jag har funnit en
-              betydande samstämmighet även på den punkten - är att den översynen
-              redan sker på det europeiska planet. Vi har för närvarande ett
-              tiotal direktivförslag under arbete. Det ska i sanningens namn
-              sägas att under det danska ordförandeskapet har effektiviteten
-              i detta arbete ökat. Det är delvis också en följd av toppmötet
-              som ägde rum i juni i Sevilla och på svensk tillskyndan som det
-              arbetet nu går mycket snabbare.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-65" prev="i-d574776703f2ed30-64" who="Q1232072" next="i-d574776703f2ed30-66">
-            <seg xml:id="i-AxivKmv73f7KfBr4jQUtpK">
-              Jag räknar alltså med att vi kommer att ha ett kortsiktigt perspektiv
-              där vi ska försöka finna en lösning som ökar rättssäkerheten och
-              ett långsiktigt där vi i den europeiska miljön nu snabbt, men
-              ändå något mer tidsödande, kan få till stånd ändringar i den svenska
-              utlänningslagstiftningen.
-            </seg>
-          </u>
-          <u xml:id="i-d574776703f2ed30-66" prev="i-d574776703f2ed30-65" who="Q1232072">
-            <seg xml:id="i-9EUEQKVodPozV8mCGqccnt">
-              Med detta vill jag tacka för den här överläggningen.
-            </seg>
-          </u>
-          <note xml:id="i-9BVRhYAcGrfpgkxUgJL1Tf">
-            Överläggningen var härmed avslutad.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-EgewR4j5nXdJiCaZgJqzJT">
-          <note xml:id="i-J15Xbe5inUBRFkBec2RJUo">
-            9 § Anmälan om inkomna faktapromemorior om förslag från Europeiska
-            kommissionen
-          </note>
-          <u xml:id="i-MkYFqmSegrj35Ft3SCzXu6" who="Q1232072">
-            <seg xml:id="i-L1YzHQHhSWogsA9yXpJgzE">
-              Talmannen anmälde att följande faktapromemorior om förslag från
-              Europeiska kommissionen inkommit och överlämnats till utskott:
-            </seg>
-          </u>
-          <note xml:id="i-BmghaKcqdQtwwwSDxx3MiD">
-            2002/03:FPM8 Ändring av ett flertal direktiv på utsädesområdet
-            KOM(2002)523 till miljö- och jordbruksutskottet
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/99A39211-9B42-4F09-90AE-0A8139A07670#page=9"/>
-          <note xml:id="i-BMPwzPBS4tQyTZ64MAVKFE">
-            2002/03:FPM10 Demokratisk kontroll över Europol
-          </note>
-          <note xml:id="i-Q2KV9dLar2feJVhmsQnBNW">
-            KOM(2002)95 till justitieutskottet
-          </note>
-          <note xml:id="i-3riruP6F96xYWY6xHNXZFN">
-            2002/03:FPM11 Ändrat förslag till prospektdirektiv
-          </note>
-          <note xml:id="i-RKHy8bVkFPBFu4x3nVkRd5">
-            KOM(2002)460 till finansutskottet
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-DgxBor2XNWLTigPK8xrEGu">
-          <note xml:id="i-RDpFjCaRoM13Zv6CggqXGz">
-            10 § Hänvisning av ärenden till utskott
-          </note>
-          <note xml:id="i-2YxtgL5RmbmXeR6JAAPgGs">
-            Föredrogs och hänvisades
-          </note>
-          <note xml:id="i-Qy8FdFygviHvxMAbjLGmRk">
-            Proposition
-          </note>
-          <note xml:id="i-NSLh9Ck8KRdeBgRzrfHQz9">
-            2002/03:10 till skatteutskottet
-          </note>
-          <note xml:id="i-X7Lq9u8HKwMQEwGwUgK6kB">
-            Skrivelse
-          </note>
-          <note xml:id="i-2C93fptiyWZiC2jYYRE3dR">
-            2002/03:3 till justitieutskottet
-          </note>
-          <note xml:id="i-Stpc9dhLsKtDDvmAXL8Pin">
-            Förslag
-          </note>
-          <note xml:id="i-7QrVU1PHfyohpXRy5zeHHj">
-            2002/03:RR2 till finansutskottet
-          </note>
-          <note xml:id="i-3HeSGoZ7ra4Vcbqsqmn26z">
-            2002/03:RR3 till utbildningsutskottet
-          </note>
-          <note xml:id="i-Vo1ihT1iEMZAFzNVRhmNF3">
-            Motioner
-          </note>
-          <note xml:id="i-X9JREjWYqUTEXcm2uRpCVi">
-            2002/03:K2 och K3 till konstitutionsutskottet
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-CW8tnShemF5hMwGVMxtcpe">
-          <note xml:id="i-7Baw561AX1gZj1BzGmF3PX">
-            11 § Bordläggning
-          </note>
-          <note xml:id="i-L8beyy3qm2VveWGRf7m9zQ">
-            Anmäldes och bordlades
-          </note>
-          <note xml:id="i-LHGHnfWSzDKyoDuNpjvFEt">
-            Propositioner
-          </note>
-          <note xml:id="i-4wCFScndon7QLUhiF2zoUR">
-            2002/03:5 Vissa mervärdesskattefrågor
-          </note>
-          <note xml:id="i-RQU2iStu226KKapyi2caWP">
-            2002/03:9 Sjukhus med vinstsyfte; förlängd giltighet av lagen
-            (2000:1440) om inskränkning i landstingens rätt att överlämna
-            driften av akutsjukhus till annan
-          </note>
-          <note xml:id="i-SzESrTP743hVvjgLgAwsxs">
-            Förslag
-          </note>
-          <note xml:id="i-WyEB4VE4XPqrwpFhBmA7kU">
-            2002/03:RR7 Riksdagens revisorers förslag angående styrning av
-            försvarets fastigheter och anläggningar
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-6Sv4u5F4PzE1m6KmNTeVHW">
-          <note xml:id="i-DogyNUnM6gMKdVFcoFB9NV">
-            12 § Anmälan om frågor för skriftliga svar
-          </note>
-          <note xml:id="i-PeNvZdkwLLqDH2JQx1r92e">
-            Anmäldes att följande frågor för skriftliga svar framställts
-          </note>
-          <note xml:id="i-WXkXuP9T5VXzn879grbENh">
-            den 21 oktober
-          </note>
-          <note xml:id="i-KYtVBneJHajw6GDJV9k6gr">
-            2002/03:51 av Börje Vestlund (s) till justitieminister
-          </note>
-          <note xml:id="i-88HqgJeQzYUaFULTRp4Km8">
-            Thomas Bodström
-          </note>
-          <u xml:id="i-d574776703f2ed30-69" who="Q1232072" next="i-d574776703f2ed30-71">
-            <seg xml:id="i-7xWqQDYUJ38msGv3ehniwj">
-              Trossamfund bör kunna registrera partnerskap
-            </seg>
-          </u>
-          <note xml:id="i-6th6gQ2bYdSDYfzKTJrTj5">
-            2002/03:52 av Börje Vestlund (s) till justitieminister
-          </note>
-          <note xml:id="i-RkW6KVrbEkpXjKbL9BzN6z">
-            Thomas Bodström
-          </note>
-          <u xml:id="i-d574776703f2ed30-71" prev="i-d574776703f2ed30-69" who="Q1232072" next="i-d574776703f2ed30-73">
-            <seg xml:id="i-CgENVSaJrPsuRccB16U68R">
-              Partnerskapslagens anknytningskrav bör kompletteras
-            </seg>
-          </u>
-          <note xml:id="i-NEUzoEZN4FVctaicHwfkk3">
-            2002/03:53 av Carl-Axel Johansson (m) till jordbruksminister
-            Margareta Winberg
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/99A39211-9B42-4F09-90AE-0A8139A07670#page=10"/>
-          <note xml:id="i-SsGFHcoCrfrM3KNJ62QPhB">
-            Fiskestoppet av torsk
-          </note>
-          <note xml:id="i-UbzndbxyhTKjshVdjMrkfV">
-            2002/03:54 av Carl-Axel Johansson (m) till finansminister Bosse
-            Ringholm
-          </note>
-          <note xml:id="i-WfWLE8BcLJcNywNwfrjJGn">
-            Reklamskatten
-          </note>
-          <note xml:id="i-NcfbxmB78qzn8VKANu18wg">
-            2002/03:55 av Börje Vestlund (s) till utrikesminister
-          </note>
-          <note xml:id="i-YSSiLbXGr3bYNtdeQ7XVq">
-            Anna Lindh
-          </note>
-          <u xml:id="i-d574776703f2ed30-73" prev="i-d574776703f2ed30-71" who="Q1232072" next="i-3V9hnPN7j358EeF6CJmEKN">
-            <seg xml:id="i-LEXZUhmvgjVYaXuJq6Fr8W">
-              Utlandsmyndigheter bör kunna registrera partnerskap
-            </seg>
-          </u>
-          <note xml:id="i-TMeYiczUTas2Y236PnceNQ">
-            2002/03:56 av Kerstin-Maria Stalin (mp) till utrikesminister
-            Anna Lindh
-          </note>
-          <note xml:id="i-TcG1LKqXJ8rTWiypT1QZu">
-            Mänskliga rättigheter i Iran
-          </note>
-          <note xml:id="i-2qtsaEZkKEsyjbkviGWJQw">
-            den 22 oktober
-          </note>
-          <note xml:id="i-DxM4ZhfJp7qQ4cZSNCwCF1">
-            2002/03:57 av Inger Lundberg (s) till utrikesminister
-          </note>
-          <note xml:id="i-B2iGwQZVL7Eir5KovjKLNf">
-            Anna Lindh
-          </note>
-          <note xml:id="i-FnPmpAKiTuRfK6fzHxT6Cv">
-            Rättssäkerhet för svensk medborgare på Guantanamo
-          </note>
-          <note xml:id="i-LSV9waMmhWRBkFxKCmYD55">
-            2002/03:58 av Maria Wetterstrand (mp) till miljöminister Lena
-            Sommestad
-          </note>
-          <note xml:id="i-TzK7VTKjVfmUKzJk8cQXdE">
-            Jakt på vargar med sändare
-          </note>
-          <note xml:id="i-2KzJAec2RRCEcvCBftQL2Y">
-            2002/03:59 av Maria Wetterstrand (mp) till jordbruksminister
-            Ann-Christin Nykvist
-          </note>
-          <note xml:id="i-XByy2S9xgxkFW9fg7XwTwz">
-            Ekologiska nöt- och lammprodukter
-          </note>
-          <note xml:id="i-FPMJjopZeQWxkeXYF5eBui">
-            2002/03:60 av Maria Wetterstrand (mp) till jordbruksminister
-            Ann-Christin Nykvist
-          </note>
-          <note xml:id="i-EmMBGLfz4bs8SZmVg6tsFV">
-            Eldressyr av hund
-          </note>
-          <note xml:id="i-9Ljb76soZvEDCbR9kFM34u">
-            2002/03:61 av Henrik S Järrel (m) till statsrådet Hans
-          </note>
-          <note xml:id="i-X6qa2QMXVhpxmtSgQGVMBp">
-            Karlsson
-          </note>
-          <note xml:id="i-RBgWRQNctcv6NXg9WnTLoa">
-            Försäkringskassornas organisation
-          </note>
-          <u xml:id="i-3V9hnPN7j358EeF6CJmEKN" prev="i-d574776703f2ed30-73" who="Q1232072">
-            <seg xml:id="i-CBW3GvmSewdRWhgxvYqRJn">
-              Frågorna redovisas i bilaga som fogas till riksdagens snabbprotokoll
-              tisdagen den 5 november.
-            </seg>
-          </u>
-        </div>
-        <div type="commentSection" xml:id="i-UQso5ECtQeHuKn5f1XPEY">
-          <note xml:id="i-H4xEmoLSuk3qjRB1woqXwJ">
-            13 § Anmälan om skriftliga svar på frågor
-          </note>
-          <note xml:id="i-4kZD5Tp7syUFrAJP8vpjCK">
-            Anmäldes att skriftliga svar på följande frågor inkommit
-          </note>
-          <note xml:id="i-7JcB1jwVyCV15rUSeSoUE9">
-            den 21 oktober
-          </note>
-          <note xml:id="i-5FhRMKGXRXpk9TAYvN2C5P">
-            2002/03:38 av Martin Andreasson (fp) till justitieminister Thomas
-            Bodström
-          </note>
-          <note xml:id="i-LbmzHgkB9p7jteTcQP5Gs4">
-            Förfalskade konkursansökningar
-          </note>
-          <note xml:id="i-7kSBbiSSZNX3gJER6885Tv">
-            2002/03:39 av Inger René (m) till justitieminister
-          </note>
-          <note xml:id="i-3oYAA4ktuCQrJMTjWN3yE1">
-            Thomas Bodström
-          </note>
-          <note xml:id="i-4pDcLuFJP6FJBbsaNQYk2P">
-            Polismyndigheten i Västra Götaland
-          </note>
-          <u xml:id="i-WbxYeB7MCJ1TS9q7KZtoCb" who="Q1232072">
-            <seg xml:id="i-WZ3EqezwmWeWjnShhGFJoX">
-              Svaren redovisas i bilaga som fogas till riksdagens snabbprotokoll
-              tisdagen den 5 november.
-            </seg>
-          </u>
-        </div>
-        <div type="commentSection" xml:id="i-VW1eyNSSzsG7baReKbbfXR">
-          <note xml:id="i-RjtSRnviMQvzHWcCJtyAwM">
-            14 § Kammaren åtskildes kl. 14.26.
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/99A39211-9B42-4F09-90AE-0A8139A07670#page=11"/>
-          <note xml:id="i-L1MZAp8gYiBzefiszDrMzZ">
-            Förhandlingarna leddes av talmannen.
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-200203--8</head>
+        <docDate when="2002-10-22">2002-10-22</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-vFHVHRSHeXMy5Kwnbe5ur">
+        <pb facs="http://data.riksdagen.se/fil/99A39211-9B42-4F09-90AE-0A8139A07670#page=1"/>
+        <note xml:id="i-7RVtNLyvLKR1maiLaGGj7P">
+          Det justerade protokollet beräknas utkomma om 3 veckor
+        </note>
+        <note xml:id="i-5uWwrE23ifSHsfCAM1Xz9p">
+          Protokoll
+        </note>
+        <note xml:id="i-3c8CSYUMCzDM1U1HpRFv7u">
+          2002/03:8
+        </note>
+        <u xml:id="i-d574776703f2ed30-1" who="unknown">
+          <seg xml:id="i-VPWKfpbsswrdJ4UaNU23Bw">
+            ________________________________________________________
+          </seg>
+        </u>
+      </div>
+      <div type="commentSection" xml:id="i-LxR4xp1FRKMiC6pEeZQjYm">
+        <note xml:id="i-GZCXUx9Z6Ji93vFvXMHtms">
+          1 § Justering av protokoll
+        </note>
+        <note xml:id="i-B8i1JnyeTy5pUZczk1ZMd6">
+          Justerades protokollet för den 15 oktober.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-SzxygUrKdfKvsCjGVCwWRW">
+        <note xml:id="i-HXbMqJtQhAbWkMpf17m89w">
+          2 § Avsägelse
+        </note>
+        <note xml:id="i-8pYGqzYkYniGGznPxo37jJ">
+          Talmannen meddelade att Björn Rosengren (s)
+        </note>
+        <note xml:id="i-PmrQKFcKYvFMQgfzG1GqAA">
+          anhållit om entledigande från uppdraget som ledamot av riksdagen
+          från och med den 22 oktober 2002.
+        </note>
+        <note xml:id="i-YUBLyvW4ptKcLsFwSGSELr">
+          Kammaren biföll denna anhållan.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-C1CtwMKLyiRaTq7NgBvLTH">
+        <note xml:id="i-QcL5ZWyghjQKwdDCc37JtQ">
+          3 § Anmälan om förändringar i regeringens sammansättning
+        </note>
+        <u xml:id="i-ERHhpRUgktLESBB1EWnQJF" who="unknown" next="i-d574776703f2ed30-2">
+          <seg xml:id="i-QN3KVVDhvgb26ibPvquCyx">
+            Från statsminister Göran Persson hade följande skrivelse inkommit:
+          </seg>
+        </u>
+        <note xml:id="i-8ZaZAfXpjBKPkjgje9zjn7">
+          Till riksdagens talman
+        </note>
+        <note xml:id="i-MNB2v8noUexRgdxCZVas8Q">
+          Förändringar i regeringens sammansättning
+        </note>
+        <u xml:id="i-d574776703f2ed30-2" who="unknown" prev="i-ERHhpRUgktLESBB1EWnQJF" next="i-d574776703f2ed30-3">
+          <seg xml:id="i-PRVgvdkH9csk2vm9UgaoHx">
+            Jag har i dag med verkan från och med denna dag fattat följande
+            beslut angående regeringens sammansättning.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-3" who="unknown" prev="i-d574776703f2ed30-2" next="i-d574776703f2ed30-4">
+          <seg xml:id="i-CVbMo6LRghQTUAx2Kv6Nah">
+            Lena Hjelm-Wallén har entledigats från uppdragen att vara ställföreträdande
+            statsminister, statsråd och chef för Försvarsdepartementet.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-4" who="unknown" prev="i-d574776703f2ed30-3" next="i-5Hdgem5RqSkKJp8fmtzCLv">
+          <seg xml:id="i-KQknCmittqy9wSAJYrTmSo">
+            Margareta Winberg har entledigats som chef för
+          </seg>
+        </u>
+        <u xml:id="i-5Hdgem5RqSkKJp8fmtzCLv" who="unknown" prev="i-d574776703f2ed30-4" next="i-HzfmRnkBuEY53QsU3LMMjy">
+          <seg xml:id="i-zeKMZRuDP1ufRktGYY1oa">
+            Jordbruksdepartementet och förordnats att vara ställföreträdande
+            statsminister.
+          </seg>
+        </u>
+        <u xml:id="i-HzfmRnkBuEY53QsU3LMMjy" who="unknown" prev="i-5Hdgem5RqSkKJp8fmtzCLv" next="i-TfLC648Yi4DVDu1j1rEC5B">
+          <seg xml:id="i-FxVWzvB18PQDUKqyyv9bKm">
+            Britta Lejon har entledigats som statsråd.
+          </seg>
+        </u>
+        <u xml:id="i-TfLC648Yi4DVDu1j1rEC5B" who="unknown" prev="i-HzfmRnkBuEY53QsU3LMMjy" next="i-E4tXb7eXDx3a8mu9Ki7wVy">
+          <seg xml:id="i-U3sBtKrE6ydSE8m93douis">
+            Kjell Larsson har entledigats som statsråd och chef för Miljödepartementet.
+          </seg>
+        </u>
+        <note xml:id="i-J8usgn9xZb82tBWpuDE78J">
+          Mona Sahlin har entledigats som chef för Näringsdepartementet.
+        </note>
+        <u xml:id="i-E4tXb7eXDx3a8mu9Ki7wVy" who="unknown" prev="i-TfLC648Yi4DVDu1j1rEC5B" next="i-3CLKnSwzd4bGMFANQECacK">
+          <seg xml:id="i-NiYyUCu1yPAtrBtXdU3BpE">
+            Pär Nuder har förordnats som statsråd och, för tiden till och
+            med den 3 november 2002, vara chef för
+          </seg>
+        </u>
+        <note xml:id="i-YHWANaph7qFUKfxUtq9evU">
+          Försvarsdepartementet.
+        </note>
+        <u xml:id="i-3CLKnSwzd4bGMFANQECacK" who="unknown" prev="i-E4tXb7eXDx3a8mu9Ki7wVy" next="i-d574776703f2ed30-6">
+          <seg xml:id="i-PBrqSMq4QGuoKzdf3i2H3K">
+            Ann-Christin Nykvist har förordnats som statsråd och chef för
+            Jordbruksdepartementet.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-6" who="unknown" prev="i-3CLKnSwzd4bGMFANQECacK" next="i-d574776703f2ed30-8">
+          <seg xml:id="i-JDTm2Uk2LEg6Q33zCWraAD">
+            Lena Sommestad har förordnats som chef för
+          </seg>
+        </u>
+        <note xml:id="i-GESiWcc6ZxJF1Tb3ii3uez">
+          Miljödepartementet.
+        </note>
+        <u xml:id="i-d574776703f2ed30-8" who="unknown" prev="i-d574776703f2ed30-6" next="i-FeuvQmAkuefxSASe6snFxJ">
+          <seg xml:id="i-JRZCNE8yDam3yyy2n9p3kG">
+            Leif Pagrotsky har förordnats som chef för Näringsdepartementet.
+          </seg>
+        </u>
+        <note xml:id="i-DXbaEgzkUkqELoeo5F3o6g">
+          Berit Andnor, Morgan Johansson, Gunnar Lund,
+        </note>
+        <u xml:id="i-FeuvQmAkuefxSASe6snFxJ" who="unknown" prev="i-d574776703f2ed30-8" next="i-d574776703f2ed30-9">
+          <seg xml:id="i-KDepc1BrTybCy6w2peeUhw">
+            Lena Hallengren och Hans Karlsson har förordnats som statsråd.
+          </seg>
+        </u>
+        <pb facs="http://data.riksdagen.se/fil/99A39211-9B42-4F09-90AE-0A8139A07670#page=2"/>
+        <u xml:id="i-d574776703f2ed30-9" who="unknown" prev="i-FeuvQmAkuefxSASe6snFxJ">
+          <seg xml:id="i-NseF3GggJisCixV3E5bfMW">
+            Jag har vidare med verkan från och med den
+          </seg>
+        </u>
+        <note xml:id="i-1375XsyKeKX63eQjmrCcEY">
+          4 november 2002 förordnat Leni Björklund som statsråd och chef
+          för Försvarsdepartementet.
+        </note>
+        <note xml:id="i-WuSgUCPRrAne9sZKMERvm5">
+          Stockholm den 21 oktober 2002
+        </note>
+        <note xml:id="i-CBUuQm9bKD9ko9zjzGGfDq">
+          Göran Persson
+        </note>
+        <note xml:id="i-49mjKnGHQvND9y8RVYcUW2">
+          Skrivelsen lades till handlingarna.
+        </note>
+        <note xml:id="i-Bex2Yau4uupHY8ustmGfzY">
+          Från och med den 21 oktober hade regeringen således följande
+          sammansättning:
+        </note>
+        <note xml:id="i-H7UbgbfqmDmws2JjYZYXZN">
+          Statsminister Göran Persson
+        </note>
+        <note xml:id="i-XwdFgYZsELV9VGfAMxV8yR">
+          Vice statsminister Margareta Winberg
+        </note>
+        <note xml:id="i-Hd5UgXA6nuWsfmJGw3P3ep">
+          Statsråd Pär Nuder (till och med den 3 november även chef för
+          Försvarsdepartementet)
+        </note>
+        <note xml:id="i-9FTQLUBPTUkzMYeEr8wQ4N">
+          Justitieminister Thomas Bodström
+        </note>
+        <note xml:id="i-3tGwwSdRFjzPfmtg8UrH21">
+          Statsråd Mona Sahlin
+        </note>
+        <note xml:id="i-M5r6iFc6j8rWH2bkYKoGSZ">
+          Utrikesminister Anna Lindh
+        </note>
+        <note xml:id="i-9vu5x5x517btSWYdEBd8uv">
+          Statsråd Jan O Karlsson
+        </note>
+        <note xml:id="i-YRoFbVnvSP2zV3N9TLwPkR">
+          Försvarsminister Leni Björklund (från och med den 4 november)
+        </note>
+        <note xml:id="i-83XZEfJjpko3DQw5TPTufg">
+          Socialminister Lars Engqvist
+        </note>
+        <note xml:id="i-Hodt9dbYZXRwBY7kuJsTDj">
+          Statsråd Berit Andnor
+        </note>
+        <note xml:id="i-UcVtdgbySwersb42FhJGiv">
+          Statsråd Morgan Johansson
+        </note>
+        <note xml:id="i-GfE2UMmKLGLHzryhMY8AxA">
+          Finansminister Bosse Ringholm
+        </note>
+        <note xml:id="i-EjJonHBKkUYXjf5fgcL3sC">
+          Statsråd Gunnar Lund
+        </note>
+        <note xml:id="i-31MHsuTPpiFEdjsCrALhn2">
+          Statsråd Lars-Erik Lövdén
+        </note>
+        <note xml:id="i-3bVhuYwis5VyFkbjenPWes">
+          Utbildningsminister Thomas Östros
+        </note>
+        <note xml:id="i-JhMnhrS2ZYQ9qYE1g1ejPz">
+          Statsråd Lena Hallengren
+        </note>
+        <note xml:id="i-75xXFWSazF6sNwSz4HasEw">
+          Jordbruksminister Ann-Christin Nykvist
+        </note>
+        <note xml:id="i-2SrG57b6ja8XXYTghVSxsS">
+          Kulturminister Marita Ulvskog
+        </note>
+        <note xml:id="i-XURFzSuAGHhv2omfRciTZ6">
+          Miljöminister Lena Sommestad
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/99A39211-9B42-4F09-90AE-0A8139A07670#page=3"/>
+        <note xml:id="i-3eTDSQ9eJom23ZRw42pfmT">
+          Näringsminister Leif Pagrotsky
+        </note>
+        <note xml:id="i-NoQK5QGHSvWQJkqAd8QkMU">
+          Statsråd Ulrica Messing
+        </note>
+        <note xml:id="i-36ZLBmyygLoic6a4e3EfG3">
+          Statsråd Hans Karlsson
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-USP5Ck8YkbseHpTYDspksX">
+        <note xml:id="i-M39ukLd6FWd4B1qTP1hr1R">
+          4 § Anmälan om ersättare för talmannen och för statsråd
+        </note>
+        <note xml:id="i-6tGvc3w26STUhtkKFQo6N1">
+          Talmannen anmälde att följande ersättare inträtt från och med
+          den 21 oktober:
+        </note>
+        <note xml:id="i-ASQDQfVi1XzdppxMkme84J">
+          Britta Lejon för talmannen Björn von Sydow, varigenom uppdraget
+          som ersättare för talmannen upphört för Niclas Lindberg,
+        </note>
+        <note xml:id="i-Rh7ArHUqUbDCzQnXAjUqk3">
+          Niclas Lindberg för statsrådet Pär Nuder, varigenom uppdraget
+          som ersättare för Pär Nuder upphört för
+        </note>
+        <note xml:id="i-7xfZ65cQ2tDnnsnSXdZK7w">
+          Mariam Osman Sherifay,
+        </note>
+        <note xml:id="i-N8h7aLXUBvRvjwewp8B8aT">
+          Inger Jarl Beck för statsrådet Morgan Johansson samt
+        </note>
+        <note xml:id="i-NqF3JJsDUNR28TnYujFu5t">
+          Marie Nordén för statsrådet Berit Andnor.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-HoGJYRNwsndy74ZsvG7hXi">
+        <note xml:id="i-WdY9bUR2bTAypiCNNTu4ZP">
+          5 § Meddelande om frågestund
+        </note>
+        <note xml:id="i-2KNXcRByr6fnpLZ43DLiUa">
+          Talmannen meddelade att vid frågestunden torsdagen den 24 oktober
+          kl. 14.00 skulle följande statsråd närvara:
+        </note>
+        <note xml:id="i-UcUNYmTPEK4Lwn7dVXnafn">
+          Näringsminister Leif Pagrotsky, statsrådet Ulrica
+        </note>
+        <note xml:id="i-XHbZbKr4zPQsq5DEsJVirh">
+          Messing, statsrådet Lars-Erik Lövdén, justitieminister
+        </note>
+        <note xml:id="i-Ym6D85SRHTb4UaPPBre8U">
+          Thomas Bodström och miljöminister Lena Sommestad.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-FD6fyqCfVAdpp1THchRph7">
+        <note xml:id="i-2rjMZ67DTztmB2qa3u58kK">
+          6 § Meddelande om partiledardebatt
+        </note>
+        <note xml:id="i-2KpDi6ZdRBvzjiaZck8YFG">
+          Talmannen meddelade att debattregler för partiledardebatten onsdagen
+          den 6 november kl. 9.00 delats ut till kammarens ledamöter.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-TFUZ9mJK71a4tcFSjGwsiK">
+        <note xml:id="i-UsFipbbtT4CHJdGucCBsE9">
+          7 § Meddelande om allmänpolitisk debatt
+        </note>
+        <note xml:id="i-JjduNFcJ5D7TBNU85xoiUu">
+          Talmannen meddelade att debattregler för den allmänpolitiska
+          debatten onsdagen den 6 november kl. 14.00 delats ut till kammarens
+          ledamöter.
+        </note>
+      </div>
+      <div type="debateSection" xml:id="i-M3HRirfdZKypaWyHJ5JHYN" subtype="interpellationDebate">
+        <note xml:id="i-Hu8hRbgA6fPkVNy9fhshGz">
+          8 § Svar på interpellation 2002/03:9 om rättssäkerhet för asylsökande
+        </note>
+        <note type="speaker" xml:id="i-Gx67tAXKwXcgjFjFgxPEau">
+          Anf. 1 Statsrådet JAN O KARLSSON (s):
+        </note>
+        <u xml:id="i-9JbUp6eem52nzWi5exBKRL" next="i-d574776703f2ed30-15" who="Q1232072">
+          <seg xml:id="i-2Bv2QuKEsF4sE16V6MnwjL">
+            Herr talman! Ana Maria Narti har ställt frågor till mig om verkställandet
+            av den reform på utlänningsrättens område som riksdagen den 15
+            november förra året beslutade att begära av regeringen, innebärande
+            en ny instans- och processordning för utlännings- och medborgarskapsärenden.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-15" who="Q1232072" prev="i-9JbUp6eem52nzWi5exBKRL" next="i-d574776703f2ed30-16">
+          <seg xml:id="i-8QVxcNxTUoYwXyaMosCRrb">
+            Ana Maria Narti har frågat mig hur det långsamma verkställandet
+            av reformen enligt riksdagens tillkännagivande avseende nedläggning
+            av Utlänningsnämnden motiveras, hur rättssäkerheten för asylsökande
+            kan förbättras under tiden som Utlänningsnämnden fortsätter sin
+            verksamhet samt när ett ikraftträdande av reformen kan ske.
+          </seg>
+        </u>
+        <pb facs="http://data.riksdagen.se/fil/99A39211-9B42-4F09-90AE-0A8139A07670#page=4"/>
+        <u xml:id="i-d574776703f2ed30-16" prev="i-d574776703f2ed30-15" who="Q1232072" next="i-2AGGXVxz4NgoDnKMNoCKjd">
+          <seg xml:id="i-Qbtbf4C5BfTJ1g4ijrMrL1">
+            Till att börja med vill jag säga att det är en oerhört omfattande
+            reform det handlar om. Det gäller lagtekniska, organisatoriska
+            och ekonomiska frågor. De processrättsliga frågorna är svåra att
+            lösa. Det har under arbetets gång bland annat visat sig vara svårt
+            att hitta en processordning som förenar kravet på en snabb handläggning
+            med att prövningen i Utlänningsnämnden ersätts av en prövning
+            i två domstolsinstanser. Vidare har det framkommit svårigheter
+            när det gäller att föra in utlänningsärenden i domstolarna eftersom
+            dessa ärenden i flera avseenden skiljer sig från andra typer av
+            mål. Målet för regeringen har ändå varit att föreslå så få särlösningar
+            som möjligt för dessa ärenden i förhållande till andra ärenden
+            och mål.
+          </seg>
+        </u>
+        <u xml:id="i-2AGGXVxz4NgoDnKMNoCKjd" prev="i-d574776703f2ed30-16" who="Q1232072" next="i-G3GnaDHBXBoWLAiiiKK1j7">
+          <seg xml:id="i-8LNUr9muJ5uqYvMHkvQLMV">
+            Regeringens utgångspunkter för förslaget är dels betänkandet
+            från den parlamentariska kommitté
+          </seg>
+        </u>
+        <note xml:id="i-R3UuwNdNBvr5s5xUdS8qRh">
+          (NIPU) som utredde frågan om en ny instans- och processordning
+          i utlänningsärenden, Ökad rättssäkerhet i asylärenden, SOU 1999:16,
+          dels det beslut som riksdagens socialförsäkringsutskott fattade
+          den 15
+        </note>
+        <u xml:id="i-G3GnaDHBXBoWLAiiiKK1j7" prev="i-2AGGXVxz4NgoDnKMNoCKjd" who="Q1232072" next="i-4gXBNpmuW3Uwuq35G97vTx">
+          <seg xml:id="i-Dm3chTRJ1EKmzAVLm5FBof">
+            november förra året om reformens inriktning. Ramarna och inriktningen
+            för reformen har således till stor del bestämts av riksdagen.
+          </seg>
+        </u>
+        <u xml:id="i-4gXBNpmuW3Uwuq35G97vTx" prev="i-G3GnaDHBXBoWLAiiiKK1j7" who="Q1232072" next="i-FdRSZrkoTAKHGvMoBLE4UT">
+          <seg xml:id="i-6qR1C2XB4jJJW9TmBXDQv2">
+            Sedan riksdagens beslut har det under hela våren pågått ett mycket
+            intensivt arbete med att utarbeta en lagrådsremiss. Den 6 juni
+            2002 beslöt regeringen att lämna över förslaget till Lagrådet
+            för granskning.
+          </seg>
+        </u>
+        <u xml:id="i-FdRSZrkoTAKHGvMoBLE4UT" prev="i-4gXBNpmuW3Uwuq35G97vTx" who="Q1232072" next="i-d574776703f2ed30-17">
+          <seg xml:id="i-NX6nDckpcx5yfQquwWohHx">
+            Föredragning av förslaget inför Lagrådet påbörjades i slutet
+            av augusti, och Lagrådets yttrande kom den 9
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-17" prev="i-FdRSZrkoTAKHGvMoBLE4UT" who="Q1232072" next="i-d574776703f2ed30-18">
+          <seg xml:id="i-2w1dkpwnYMoDyEx2jseXrL">
+            oktober. Med hänsyn till frågans komplicerade natur har det inte
+            varit möjligt för regeringen att utarbeta ett förslag snabbare
+            än så här.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-18" prev="i-d574776703f2ed30-17" who="Q1232072" next="i-8GpZvbWhNWWJLzAPmJWQ7R">
+          <seg xml:id="i-14LKxwpQKFfcxFya6BKwDM">
+            Detta är alltså läget som vi befinner oss i i dag;
+          </seg>
+        </u>
+        <u xml:id="i-8GpZvbWhNWWJLzAPmJWQ7R" prev="i-d574776703f2ed30-18" who="Q1232072" next="i-d574776703f2ed30-19">
+          <seg xml:id="i-GoqbhRTbntPftpRD3ZHbJT">
+            Lagrådet avstyrkte som bekant regeringens förslag till ny instans-
+            och processordning i utlänningsärenden.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-19" prev="i-8GpZvbWhNWWJLzAPmJWQ7R" who="Q1232072" next="i-d574776703f2ed30-20">
+          <seg xml:id="i-NC6UiYdzoUMvaaeH3sDch4">
+            Lagrådet har avstyrkt förslaget från olika utgångspunkter. Det
+            framhåller att en grundläggande förutsättning för godtagbara rättssäkerhetsgarantier
+            är att de materiella reglerna är så utformade att tillämpningen
+            kan bli enhetlig och förutsebar. Lagrådet anser att det kravet
+            inte uppfylls om ärendena förs över till domstol på det sätt som
+            regeringen har föreslagit.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-20" prev="i-d574776703f2ed30-19" who="Q1232072" next="i-d574776703f2ed30-21">
+          <seg xml:id="i-mYuTyrxMC8PQ2g16XDXm9">
+            Lagrådets yttrande väger tungt. En diskussion om den uppkomna
+            situationen har i dag på förmiddagen inletts med riksdagspartierna
+            i socialförsäkringsutskottet. Jag vill inte nu föregripa resultatet
+            av dessa överläggningar genom att gå in i diskussion eller spekulationer
+            om vare sig detaljer i Lagrådets yttrande eller förslaget som
+            sådant och inte heller rörande datum för ikraftträdande av en
+            kommande reform. Vi behöver nu alla få tid att överväga vilka
+            handlingsalternativ som på kort och lite längre sikt är möjliga
+            att genomföra.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-21" prev="i-d574776703f2ed30-20" who="Q1232072" next="i-d574776703f2ed30-22">
+          <seg xml:id="i-3jsLM4HkwzGFWqUXuqx3Ff">
+            På kort sikt är det givetvis nödvändigt att Utlänningsnämnden
+            ges förutsättningar att fungera så bra som möjligt. Regeringen
+            föreslår i budgetpropositionen för 2003 att såväl Utlänningsnämnden
+            som
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-22" prev="i-d574776703f2ed30-21" who="Q1232072" next="i-d574776703f2ed30-23">
+          <seg xml:id="i-GQjD1VeztQXtGjZhYdbMtV">
+            Migrationsverket tillförs utökade resurser i syfte att korta
+            handläggningstiderna och stärka rättssäkerheten.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-23" prev="i-d574776703f2ed30-22" who="Q1232072">
+          <seg xml:id="i-BnTuuwgrtiKzmKTR73yFJ2">
+            Jag hoppas att jag med detta har besvarat Ana Maria Nartis frågor
+            och hoppas att tillsammans med riksdagens partier kunna gå vidare
+            med lagstiftningsprocessen i syfte att uppnå ett förbättrat system
+            för prövning av utlänningsärendena, som tillgodoser kraven på
+            såväl en rättssäker som snabb ärendehantering.
+          </seg>
+        </u>
+        <pb facs="http://data.riksdagen.se/fil/99A39211-9B42-4F09-90AE-0A8139A07670#page=5"/>
+        <note type="speaker" xml:id="i-JrjyhFbTcxKYN13iXbtsJg">
+          Anf. 2 ANA MARIA NARTI (fp):
+        </note>
+        <u xml:id="i-d574776703f2ed30-24" next="i-d574776703f2ed30-25" who="Q4750415">
+          <seg xml:id="i-WcEyT1XyLDStN3ZXvFrVMr">
+            Herr talman! Jag tackar för svaret. Jag måste börja med en precisering.
+            När jag skrev interpellationen hade inte Lagrådets svar kommit.
+            Själva tyngdpunkten i vår debatt i dag förflyttas därför lite
+            grann.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-25" prev="i-d574776703f2ed30-24" who="Q4750415" next="i-d574776703f2ed30-26">
+          <seg xml:id="i-7ETHqvma4BGJCpDYaqCWPi">
+            Vad som har kommit fram mycket tydligt efter det att Lagrådets
+            yttrande har presenterats är att vi behöver en ordentlig genomgång
+            av de så kallade materiella reglerna. I detta måste jag säga att
+            vi som medlemmar i Folkpartiet liberalerna är mycket glada.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-26" prev="i-d574776703f2ed30-25" who="Q4750415" next="i-d574776703f2ed30-27">
+          <seg xml:id="i-6tDs9RhyavRAdqBrPYsraw">
+            Vi har många gånger understrukit att lagen inte är tillräckligt
+            tydlig och förutsebar. Vi har krävt preciseringar både när det
+            gäller asylskäl och humanitära skäl. På så sätt kan vi säga att
+            vi är överens. Samtidigt är det väldigt viktigt att tänka på att
+            själva diskussionen om Utlänningsnämnden inte kan ta slut med
+            detta.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-27" prev="i-d574776703f2ed30-26" who="Q4750415" next="i-d574776703f2ed30-28">
+          <seg xml:id="i-4qbQTfNHpSbq4xKhVEUKNx">
+            Vi behöver jobba vidare med lagen - det är självklart. Det finns
+            otydliga punkter i lagen som kan skapa grund för det som i Lagrådets
+            text kallas för skönsmässiga grunder, vilket är väldigt skrämmande.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-28" prev="i-d574776703f2ed30-27" who="Q4750415" next="i-d574776703f2ed30-29">
+          <seg xml:id="i-K5JRHstYHaZ5oPwEZswqQ3">
+            Samtidigt behöver vi tänka på praktiska möjligheter att i framtiden
+            korta behandlingstiden för överprövande av sådana ärenden. Då
+            är förvaltningsdomstolarna enligt vår mening fortfarande den bästa
+            lösningen. Jag kan inte se någon skillnad i detta sammanhang.
+            Om man preciserar lagarna så finns det goda grunder för förvaltningsdomstolarna
+            och för att de ska fungera ordentligt och bra och för att de skönsmässiga
+            grunderna ska försvinna från praxis när det gäller behandling
+            av utlänningsärenden.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-29" prev="i-d574776703f2ed30-28" who="Q4750415">
+          <seg xml:id="i-EtaFtTYbR3cG1B77b9qK5D">
+            Jag kan absolut inte tänka mig att Utlänningsnämnden skulle kunna
+            fungera bättre, effektivare och snabbare än många förvaltningsdomstolar.
+            Som bekant är Folkpartiet liberalerna motståndare till speciella
+            domstolar. Vi vill ha många förvaltningsdomstolar som agerar på
+            olika områden. Då blir det också mycket lättare att snabbt avgöra
+            vid överklaganden.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-59xjk24WN9oxQGvJJWiNGD">
+          Anf. 3 Statsrådet JAN O KARLSSON (s):
+        </note>
+        <u xml:id="i-d574776703f2ed30-30" next="i-d574776703f2ed30-31" who="Q1232072">
+          <seg xml:id="i-PJryx3xFcVoPRWjMmyD7pk">
+            Herr talman! Jag ska först göra några kommentarer till Ana Maria
+            Nartis synpunkter och påpekanden.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-31" prev="i-d574776703f2ed30-30" who="Q1232072" next="i-d574776703f2ed30-32">
+          <seg xml:id="i-VG3xuHuj44GzmudsaYcnhD">
+            Sedan ska jag säga några ord om vad som har hänt i dag. Även
+            jag kämpar ju med det tidsmässiga problemet - svaret gavs i går,
+            och jag har haft möte med socialförsäkringsutskottet i dag. Mötet
+            gav en hel del resultat som jag tror kan vara av intresse för
+            vårt meningsutbyte.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-32" prev="i-d574776703f2ed30-31" who="Q1232072" next="i-d574776703f2ed30-33">
+          <seg xml:id="i-B3Sq8WPZqdT9U6XvJTtScv">
+            Först och främst vill jag vad beträffar de skönsmässiga grunderna
+            som omnämns i lagrådsyttrandet understryka att skönsmässiga grunder
+            mycket väl kan förekomma utan att det för den skull föreligger
+            godtycke. Men jag förstår - och det talade vi också om med socialförsäkringsutskottet
+            i dag - att det viktiga är att vi har ett rättssäkert system även
+            om det understundom kan vara så att i denna, liksom i annan, prövning
+            av gällande lagstiftning så måste skönsmässiga avvägningar göras.
+            Jag tänker på förhållandet att vi i utlänningsrätten har just
+            den individuella prövningen som kungstanke. Det innebär ständigt
+            en anpassning till varje individuellt fall.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-33" prev="i-d574776703f2ed30-32" who="Q1232072" next="i-d574776703f2ed30-34">
+          <seg xml:id="i-D1KbQsKY71cBiiCJ6Hdk9L">
+            Däremot var vi i dag i utskottet naturligtvis fullständigt på
+            det klara med att varje form av godtycke måste undvikas vid tillämpning
+            av denna lag och de ärenden den gäller.
+          </seg>
+        </u>
+        <pb facs="http://data.riksdagen.se/fil/99A39211-9B42-4F09-90AE-0A8139A07670#page=6"/>
+        <u xml:id="i-d574776703f2ed30-34" prev="i-d574776703f2ed30-33" who="Q1232072" next="i-d574776703f2ed30-35">
+          <seg xml:id="i-KSGHky88gG3n2AVsnSDf8Q">
+            När det gäller sambandet mellan korta behandlingstider och förvaltningsdomstolar
+            så har utskottet och jag tillsammans haft ett förberedelsearbete,
+            eftersom vi har gjort lagrådsremissen ihop. Det har då blivit
+            klart att när man går över från en klagoinstans till två klagoinstanser
+            och partssammansatt prövning så är risken snarare den motsatta
+            - vi får en längre tid.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-35" prev="i-d574776703f2ed30-34" who="Q1232072" next="i-d574776703f2ed30-36">
+          <seg xml:id="i-Vqm4YeKWsXaTeJC3dktH1v">
+            För att i så fall vinna tid i behandlingen ställs man också inför
+            avsevärda resursproblem. Jag tror inte att det råder några skilda
+            meningar om detta, och utskottet och jag har kommit fram till
+            samma bedömning.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-36" prev="i-d574776703f2ed30-35" who="Q1232072" next="i-d574776703f2ed30-37">
+          <seg xml:id="i-EXLn1e4uAUfo6qfhHj6Z7c">
+            När det gäller motståndet mot specialdomstolar så noterar jag
+            rättshistoriskt att vi alla under en period helt ville avskaffa
+            specialdomstolar av alla slag. Den faktiska utvecklingen har sedan
+            burit syn för sägen;
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-37" prev="i-d574776703f2ed30-36" who="Q1232072" next="i-d574776703f2ed30-38">
+          <seg xml:id="i-HLAPQiScmv76SBbb97JsGU">
+            det har vi inte gjort. Fortfarande har vi i svenskt rättsväsende
+            en omfattande, ymnig och närmast ökande förekomst av specialdomstolar.
+            Utlänningsnämnden inrättades innan denna diskussion på allvar
+            började ta fart. Jag vet inte riktigt var vi befinner oss i dag.
+            På den punkten vill jag under inga omständigheter prejudicera
+            det arbete som jag nu har för avsikt att efter hörande av socialförsäkringsutskottet
+            inleda med fortsättningen.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-38" prev="i-d574776703f2ed30-37" who="Q1232072" next="i-d574776703f2ed30-39">
+          <seg xml:id="i-KS2mV15Utyaya4AF9C8TAt">
+            Det handlar om att vi har ett mycket klart positivt uttalande
+            av Lagrådet, nämligen att Lagrådet vill att vi ska arbeta med
+            domstolsförfarande som klagoinstans, att vi ska ha tvåpartsförfarande
+            och att vi ska ha muntlighet.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-39" prev="i-d574776703f2ed30-38" who="Q1232072">
+          <seg xml:id="i-QWt9LDPXdK3mzcyupUrrqj">
+            Låt mig som en personlig deklaration tillfoga att det för mig
+            också är väldigt viktigt att i det fortsatta arbetet se till att
+            vi får två parter som alldeles klart är jämställda. Jag tror att
+            ett av de problem som vi har arbetat med när det gäller Utlänningsnämndens
+            funktionssätt är att det inte har varit klart, utan att det har
+            funnits en upplevelse av och kanske en realitet i att parterna
+            inte har varit jämställda. På den punkten är samstämmigheten klar.
+            Jag vill i mitt nästa inlägg fortsättningsvis beröra något av
+            resultatet av den överläggningen.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-SiCk32MFvivYi67ZQe6BtC">
+          Anf. 4 ANA MARIA NARTI (fp):
+        </note>
+        <u xml:id="i-d574776703f2ed30-40" next="i-d574776703f2ed30-41" who="Q4750415">
+          <seg xml:id="i-2Tp1X3e9UWjiw5FtjatAyG">
+            Herr talman! Tack för svaret! Det kanske är min svenska som inte
+            räcker till. Skönsmässiga grunder är för mig motsatsen till principiella
+            eller sakliga grunder. Det är för mig faktiskt synonymt med godtycke.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-41" prev="i-d574776703f2ed30-40" who="Q4750415" next="i-d574776703f2ed30-42">
+          <seg xml:id="i-3xvQrLFGoNpLJzhSyWdUqE">
+            Det är kanske min svenska - jag är trots allt före detta flykting
+            och jag har bara varit i 32 år i Sverige. Så kanske förstår jag
+            inte innehållet i "skönsmässiga grunder". Fast jag tycker att
+            det är skrämmande. Det ska finnas sakliga grunder för en bedömning
+            av ett så viktigt ärende som rätten att bosätta sig i Sverige.
+            Det ska finnas principiella grunder för bedömningen av varje individuellt
+            fall. Men skönsmässiga grunder tycker jag fortfarande är fullständigt
+            otillfredsställande.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-42" prev="i-d574776703f2ed30-41" who="Q4750415" next="i-d574776703f2ed30-43">
+          <seg xml:id="i-BrFiVryxE6tyqKmGeitcoi">
+            När det gäller specialdomstolar kan jag som en människa som har
+            jobbat mycket med problem som uppstår mellan folk från olika etniska
+            grupper säga att vi i invandrarbefolkningen inte har goda erfarenheter
+            av specialdomstolsarbete. Titta på integrationsfrågorna! Det är
+            Arbetsdomstolen som ska behandla dem.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-43" prev="i-d574776703f2ed30-42" who="Q4750415" next="i-d574776703f2ed30-44">
+          <seg xml:id="i-CvpDiPjMd8KKZBYjBBcdTs">
+            Är vi nöjda med resultatet? Inte alls. Det som händer är fortfarande
+            att många fall försvinner någonstans i hanteringen. Specialdomstolen
+            är alldeles för mycket koncentrerad på de viktiga aktörernas,
+            det vill säga arbetstagarnas och arbetsgivarnas organisationers,
+            ställningstaganden i domstolen. Då försvinner de individuella
+            fallen bort någonstans i hanteringen.
+          </seg>
+        </u>
+        <pb facs="http://data.riksdagen.se/fil/99A39211-9B42-4F09-90AE-0A8139A07670#page=7"/>
+        <u xml:id="i-d574776703f2ed30-44" prev="i-d574776703f2ed30-43" who="Q4750415" next="i-d574776703f2ed30-45">
+          <seg xml:id="i-9VebQcRbKcsn7xqSAZsRYA">
+            Jag kan också lägga till att vi fortfarande i Sverige saknar
+            utbildningar som ska öppna möjligheten för en fungerande kommunikation
+            mellan människor från olika etniska grupper. Jag sökte själv i
+            förra veckan efter advokater som skulle kunna hjälpa i ett fall
+            av diskriminering. De är väldigt svåra att hitta! Detta måste
+            också vara ett problem för utlänningsärenden.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-45" prev="i-d574776703f2ed30-44" who="Q4750415" next="i-d574776703f2ed30-46">
+          <seg xml:id="i-KLRB7oGRnq3xFbqQ24YG4t">
+            Det finns alltså mycket att göra på området.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-46" prev="i-d574776703f2ed30-45" who="Q4750415" next="i-d574776703f2ed30-47">
+          <seg xml:id="i-FKF1LimphGnKX4KsRZfAmh">
+            Jag tycker fortfarande att förvaltningsdomstolar -
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-47" prev="i-d574776703f2ed30-46" who="Q4750415">
+          <seg xml:id="i-UCDNcSv3NDyqe7BsxcyRJ">
+            vanliga domstolar - är en bättre arena för att lösa de här problemen
+            än de mycket specialiserade och egentligen självcentrerade domstolar
+            som specialdomstolarna brukar bli.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-GTP4BEpx2CrDBVpfuLc4gX">
+          Anf. 5 Statsrådet JAN O KARLSSON (s):
+        </note>
+        <u xml:id="i-d574776703f2ed30-48" next="i-d574776703f2ed30-49" who="Q1232072">
+          <seg xml:id="i-QyDitZYWnwoz3oNVoy9o1W">
+            Herr talman! Jag skulle vilja slå till två reträtter omedelbart.
+            Den första gäller begreppet skönsmässiga grunder. Jag kan visserligen
+            inte falla tillbaka på några etniska argument; jag har talat detta
+            språk i 63
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-49" prev="i-d574776703f2ed30-48" who="Q1232072" next="i-d574776703f2ed30-50">
+          <seg xml:id="i-LUqgZ6tEEaDTiJGXTrGbS4">
+            år. Men jag är inte jurist, och det är möjligt att nyanseringen
+            av begreppet skönsmässig grund är sådan att jag ska vara lite
+            försiktig. Vi förde faktiskt en diskussion om detta - om "skönsmässig"
+            och "godtycklig"
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-50" prev="i-d574776703f2ed30-49" who="Q1232072" next="i-d574776703f2ed30-51">
+          <seg xml:id="i-NveWTRJ2B7zhE636VZuVGG">
+            - men jag vill på den punkten under inga omständigheter ha någon
+            bestämd uppfattning, och det vill jag gärna ha fört till kammarens
+            protokoll. Jag vill tillfråga mina juridiska rådgivare innan jag
+            rör mig en millimeter på detta uppenbart minerade fält.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-51" prev="i-d574776703f2ed30-50" who="Q1232072" next="i-d574776703f2ed30-52">
+          <seg xml:id="i-uAkAq8xWcYCkgffuMMgWV">
+            Den andra gäller specialdomstolarna. Det var en ren doktrinhistorisk
+            anmärkning. Jag har inga som helst andra åsikter än Ana Maria
+            Narti om vikten av att så många ärenden som möjligt i vårt rättsväsende
+            handhas av de allmänna domstolarna eller förvaltningsdomstolarna.
+            Det var en ren doktrinhistorisk anmärkning.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-52" prev="i-d574776703f2ed30-51" who="Q1232072" next="i-d574776703f2ed30-53">
+          <seg xml:id="i-Gb6XtAoJRxBmZik6SQR7sW">
+            Jag kan dock inte låta bli att notera att såväl Arbetsdomstolen
+            som Utlänningsnämnden tillkommit på initiativ av detta liberala
+            parti 1928 respektive 1992.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-53" prev="i-d574776703f2ed30-52" who="Q1232072" next="i-d574776703f2ed30-54">
+          <seg xml:id="i-PcgognS9CTNRdNHj8BtyJS">
+            Men även detta ska uppfattas som en ren doktrinhistorisk anmärkning.
+            I sakfrågan är vi helt överens.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-54" prev="i-d574776703f2ed30-53" who="Q1232072">
+          <seg xml:id="i-SFEmUHiR5h3soX4EqCjZAR">
+            Det vi kom fram till i dag - och det kanske är det allra viktigaste
+            - i den överläggning jag haft med utskottet är att jag nu ska
+            inbjuda till överläggningar med alla partier. Alla partier och
+            regeringen är fullständigt överens om att det inte kommer att
+            bli något status quo i den här frågan. Vi måste fortsätta framåt
+            för att lösa den.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-B4RVEXVtYf27u7NLs6SATE">
+          Anf. 6 ANA MARIA NARTI (fp):
+        </note>
+        <u xml:id="i-d574776703f2ed30-55" next="i-d574776703f2ed30-56" who="Q4750415">
+          <seg xml:id="i-KvqYUW27736HDyWNrXudb8">
+            Herr talman! Tack för svaret. Den här debatten kommer säkert
+            att fortsätta. Vi har alla väldigt mycket att vinna på att ett
+            grundläggande arbete, både med lagen och med instansordningen,
+            kommer i gång ordentligt.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-56" prev="i-d574776703f2ed30-55" who="Q4750415" next="i-d574776703f2ed30-57">
+          <seg xml:id="i-8CoV3n1XH1fsinMLRzHaMq">
+            Jag vill avsluta den här debatten med några personliga betraktelser.
+            Under de tolv år som har gått sedan diktaturen föll i Rumänien
+            har jag haft många tillfällen att se hur olika utlänningsärenden
+            behandlas i praktiken. Jag har träffat på många fall som har haft
+            precis samma situation bakom sig men som bedömts olika. Det är
+            den här praktiken som vi måste komma ifrån. Varje dag som går
+            utan att denna praxis tar slut innebär tragedier för människor.
+          </seg>
+        </u>
+        <pb facs="http://data.riksdagen.se/fil/99A39211-9B42-4F09-90AE-0A8139A07670#page=8"/>
+        <u xml:id="i-d574776703f2ed30-57" prev="i-d574776703f2ed30-56" who="Q4750415" next="i-d574776703f2ed30-58">
+          <seg xml:id="i-32fWBKrczGLAVNfGurMs5e">
+            Jag tänker också lite grann på hela den debatt som vi hade under
+            sommaren om arbetskraftsinvandring.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-58" prev="i-d574776703f2ed30-57" who="Q4750415">
+          <seg xml:id="i-HcErFppyVkdudgyyZjhTa7">
+            Om en liten grupp av de människor som skickades hem efter år
+            av plågor på gömställen hade fått möjlighet att arbeta i Sverige
+            skulle många tragedier ha undvikits. Jag ser en direkt relation
+            mellan de här mänskliga tragedierna och avsaknaden av en rätt
+            till arbete i det här landet.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-Qwisfrr1rwpe1YQBGxHmue">
+          Anf. 7 Statsrådet JAN O KARLSSON (s):
+        </note>
+        <u xml:id="i-d574776703f2ed30-59" next="i-d574776703f2ed30-60" who="Q1232072">
+          <seg xml:id="i-JdZVufxaCX8eSD1JxWSDZ5">
+            Herr talman! Jag tror att vi i väldigt hög grad har en gemensam
+            syn på hur vi ska fortsätta det här arbetet. Jag vill så långt
+            det är möjligt nu precisera hur jag ser på den fortsättningen.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-60" prev="i-d574776703f2ed30-59" who="Q1232072" next="i-d574776703f2ed30-61">
+          <seg xml:id="i-HhL5T9FeJgBiZgGeCVT2Hz">
+            Vi har ett kortsiktigt perspektiv och ett långsiktigt.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-61" prev="i-d574776703f2ed30-60" who="Q1232072" next="i-d574776703f2ed30-62">
+          <seg xml:id="i-4uYaBqy7B3baJ82mSLC1Nu">
+            Det rådde fullständig konsensus vid dagens utskottsöverläggning
+            om att vi inte kan stanna nu och låta situationen förbli oförändrad.
+            I de överläggningar som jag ser fram emot ska kunna inledas inom
+            några veckor räknar jag alltså med att vi ska kunna dela upp frågan.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-62" prev="i-d574776703f2ed30-61" who="Q1232072" next="i-d574776703f2ed30-63">
+          <seg xml:id="i-WDRTajkeovjmD3rE4Nr9Fm">
+            Det kortsiktiga perspektivet handlar om vilka omedelbara åtgärder
+            som nu anses vara möjliga Där tänker jag arbeta efter den konsensusprincip
+            som jag använt under den korta tid som jag har varit ansvarig
+            för de här frågorna. Det är naturligtvis själva instansordningen
+            som faller i ögonen. Där hoppas jag att vi ska kunna arbeta. Men
+            jag vill akta mig för att dra några specifika slutsatser innan
+            jag har fört en diskussion med alla partier. Det är det kortsiktiga
+            perspektivet.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-63" prev="i-d574776703f2ed30-62" who="Q1232072" next="i-d574776703f2ed30-64">
+          <seg xml:id="i-MeHyT87Nk6jdxHgzTuM8GP">
+            Det långsiktiga perspektivet handlar om en förändring av lagstiftningen.
+            Budskapet från Lagrådet är tydligt. Denna lag måste ses över.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-64" prev="i-d574776703f2ed30-63" who="Q1232072" next="i-d574776703f2ed30-65">
+          <seg xml:id="i-Jpc4znK7RzUdWAnJGsMZrr">
+            Det jag har sagt till utskottet i dag - och jag har funnit en
+            betydande samstämmighet även på den punkten - är att den översynen
+            redan sker på det europeiska planet. Vi har för närvarande ett
+            tiotal direktivförslag under arbete. Det ska i sanningens namn
+            sägas att under det danska ordförandeskapet har effektiviteten
+            i detta arbete ökat. Det är delvis också en följd av toppmötet
+            som ägde rum i juni i Sevilla och på svensk tillskyndan som det
+            arbetet nu går mycket snabbare.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-65" prev="i-d574776703f2ed30-64" who="Q1232072" next="i-d574776703f2ed30-66">
+          <seg xml:id="i-AxivKmv73f7KfBr4jQUtpK">
+            Jag räknar alltså med att vi kommer att ha ett kortsiktigt perspektiv
+            där vi ska försöka finna en lösning som ökar rättssäkerheten och
+            ett långsiktigt där vi i den europeiska miljön nu snabbt, men
+            ändå något mer tidsödande, kan få till stånd ändringar i den svenska
+            utlänningslagstiftningen.
+          </seg>
+        </u>
+        <u xml:id="i-d574776703f2ed30-66" prev="i-d574776703f2ed30-65" who="Q1232072">
+          <seg xml:id="i-9EUEQKVodPozV8mCGqccnt">
+            Med detta vill jag tacka för den här överläggningen.
+          </seg>
+        </u>
+        <note xml:id="i-9BVRhYAcGrfpgkxUgJL1Tf">
+          Överläggningen var härmed avslutad.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-EgewR4j5nXdJiCaZgJqzJT">
+        <note xml:id="i-J15Xbe5inUBRFkBec2RJUo">
+          9 § Anmälan om inkomna faktapromemorior om förslag från Europeiska
+          kommissionen
+        </note>
+        <u xml:id="i-MkYFqmSegrj35Ft3SCzXu6" who="Q1232072">
+          <seg xml:id="i-L1YzHQHhSWogsA9yXpJgzE">
+            Talmannen anmälde att följande faktapromemorior om förslag från
+            Europeiska kommissionen inkommit och överlämnats till utskott:
+          </seg>
+        </u>
+        <note xml:id="i-BmghaKcqdQtwwwSDxx3MiD">
+          2002/03:FPM8 Ändring av ett flertal direktiv på utsädesområdet
+          KOM(2002)523 till miljö- och jordbruksutskottet
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/99A39211-9B42-4F09-90AE-0A8139A07670#page=9"/>
+        <note xml:id="i-BMPwzPBS4tQyTZ64MAVKFE">
+          2002/03:FPM10 Demokratisk kontroll över Europol
+        </note>
+        <note xml:id="i-Q2KV9dLar2feJVhmsQnBNW">
+          KOM(2002)95 till justitieutskottet
+        </note>
+        <note xml:id="i-3riruP6F96xYWY6xHNXZFN">
+          2002/03:FPM11 Ändrat förslag till prospektdirektiv
+        </note>
+        <note xml:id="i-RKHy8bVkFPBFu4x3nVkRd5">
+          KOM(2002)460 till finansutskottet
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-DgxBor2XNWLTigPK8xrEGu">
+        <note xml:id="i-RDpFjCaRoM13Zv6CggqXGz">
+          10 § Hänvisning av ärenden till utskott
+        </note>
+        <note xml:id="i-2YxtgL5RmbmXeR6JAAPgGs">
+          Föredrogs och hänvisades
+        </note>
+        <note xml:id="i-Qy8FdFygviHvxMAbjLGmRk">
+          Proposition
+        </note>
+        <note xml:id="i-NSLh9Ck8KRdeBgRzrfHQz9">
+          2002/03:10 till skatteutskottet
+        </note>
+        <note xml:id="i-X7Lq9u8HKwMQEwGwUgK6kB">
+          Skrivelse
+        </note>
+        <note xml:id="i-2C93fptiyWZiC2jYYRE3dR">
+          2002/03:3 till justitieutskottet
+        </note>
+        <note xml:id="i-Stpc9dhLsKtDDvmAXL8Pin">
+          Förslag
+        </note>
+        <note xml:id="i-7QrVU1PHfyohpXRy5zeHHj">
+          2002/03:RR2 till finansutskottet
+        </note>
+        <note xml:id="i-3HeSGoZ7ra4Vcbqsqmn26z">
+          2002/03:RR3 till utbildningsutskottet
+        </note>
+        <note xml:id="i-Vo1ihT1iEMZAFzNVRhmNF3">
+          Motioner
+        </note>
+        <note xml:id="i-X9JREjWYqUTEXcm2uRpCVi">
+          2002/03:K2 och K3 till konstitutionsutskottet
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-CW8tnShemF5hMwGVMxtcpe">
+        <note xml:id="i-7Baw561AX1gZj1BzGmF3PX">
+          11 § Bordläggning
+        </note>
+        <note xml:id="i-L8beyy3qm2VveWGRf7m9zQ">
+          Anmäldes och bordlades
+        </note>
+        <note xml:id="i-LHGHnfWSzDKyoDuNpjvFEt">
+          Propositioner
+        </note>
+        <note xml:id="i-4wCFScndon7QLUhiF2zoUR">
+          2002/03:5 Vissa mervärdesskattefrågor
+        </note>
+        <note xml:id="i-RQU2iStu226KKapyi2caWP">
+          2002/03:9 Sjukhus med vinstsyfte; förlängd giltighet av lagen
+          (2000:1440) om inskränkning i landstingens rätt att överlämna
+          driften av akutsjukhus till annan
+        </note>
+        <note xml:id="i-SzESrTP743hVvjgLgAwsxs">
+          Förslag
+        </note>
+        <note xml:id="i-WyEB4VE4XPqrwpFhBmA7kU">
+          2002/03:RR7 Riksdagens revisorers förslag angående styrning av
+          försvarets fastigheter och anläggningar
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-6Sv4u5F4PzE1m6KmNTeVHW">
+        <note xml:id="i-DogyNUnM6gMKdVFcoFB9NV">
+          12 § Anmälan om frågor för skriftliga svar
+        </note>
+        <note xml:id="i-PeNvZdkwLLqDH2JQx1r92e">
+          Anmäldes att följande frågor för skriftliga svar framställts
+        </note>
+        <note xml:id="i-WXkXuP9T5VXzn879grbENh">
+          den 21 oktober
+        </note>
+        <note xml:id="i-KYtVBneJHajw6GDJV9k6gr">
+          2002/03:51 av Börje Vestlund (s) till justitieminister
+        </note>
+        <note xml:id="i-88HqgJeQzYUaFULTRp4Km8">
+          Thomas Bodström
+        </note>
+        <u xml:id="i-d574776703f2ed30-69" who="Q1232072" next="i-d574776703f2ed30-71">
+          <seg xml:id="i-7xWqQDYUJ38msGv3ehniwj">
+            Trossamfund bör kunna registrera partnerskap
+          </seg>
+        </u>
+        <note xml:id="i-6th6gQ2bYdSDYfzKTJrTj5">
+          2002/03:52 av Börje Vestlund (s) till justitieminister
+        </note>
+        <note xml:id="i-RkW6KVrbEkpXjKbL9BzN6z">
+          Thomas Bodström
+        </note>
+        <u xml:id="i-d574776703f2ed30-71" prev="i-d574776703f2ed30-69" who="Q1232072" next="i-d574776703f2ed30-73">
+          <seg xml:id="i-CgENVSaJrPsuRccB16U68R">
+            Partnerskapslagens anknytningskrav bör kompletteras
+          </seg>
+        </u>
+        <note xml:id="i-NEUzoEZN4FVctaicHwfkk3">
+          2002/03:53 av Carl-Axel Johansson (m) till jordbruksminister
+          Margareta Winberg
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/99A39211-9B42-4F09-90AE-0A8139A07670#page=10"/>
+        <note xml:id="i-SsGFHcoCrfrM3KNJ62QPhB">
+          Fiskestoppet av torsk
+        </note>
+        <note xml:id="i-UbzndbxyhTKjshVdjMrkfV">
+          2002/03:54 av Carl-Axel Johansson (m) till finansminister Bosse
+          Ringholm
+        </note>
+        <note xml:id="i-WfWLE8BcLJcNywNwfrjJGn">
+          Reklamskatten
+        </note>
+        <note xml:id="i-NcfbxmB78qzn8VKANu18wg">
+          2002/03:55 av Börje Vestlund (s) till utrikesminister
+        </note>
+        <note xml:id="i-YSSiLbXGr3bYNtdeQ7XVq">
+          Anna Lindh
+        </note>
+        <u xml:id="i-d574776703f2ed30-73" prev="i-d574776703f2ed30-71" who="Q1232072" next="i-3V9hnPN7j358EeF6CJmEKN">
+          <seg xml:id="i-LEXZUhmvgjVYaXuJq6Fr8W">
+            Utlandsmyndigheter bör kunna registrera partnerskap
+          </seg>
+        </u>
+        <note xml:id="i-TMeYiczUTas2Y236PnceNQ">
+          2002/03:56 av Kerstin-Maria Stalin (mp) till utrikesminister
+          Anna Lindh
+        </note>
+        <note xml:id="i-TcG1LKqXJ8rTWiypT1QZu">
+          Mänskliga rättigheter i Iran
+        </note>
+        <note xml:id="i-2qtsaEZkKEsyjbkviGWJQw">
+          den 22 oktober
+        </note>
+        <note xml:id="i-DxM4ZhfJp7qQ4cZSNCwCF1">
+          2002/03:57 av Inger Lundberg (s) till utrikesminister
+        </note>
+        <note xml:id="i-B2iGwQZVL7Eir5KovjKLNf">
+          Anna Lindh
+        </note>
+        <note xml:id="i-FnPmpAKiTuRfK6fzHxT6Cv">
+          Rättssäkerhet för svensk medborgare på Guantanamo
+        </note>
+        <note xml:id="i-LSV9waMmhWRBkFxKCmYD55">
+          2002/03:58 av Maria Wetterstrand (mp) till miljöminister Lena
+          Sommestad
+        </note>
+        <note xml:id="i-TzK7VTKjVfmUKzJk8cQXdE">
+          Jakt på vargar med sändare
+        </note>
+        <note xml:id="i-2KzJAec2RRCEcvCBftQL2Y">
+          2002/03:59 av Maria Wetterstrand (mp) till jordbruksminister
+          Ann-Christin Nykvist
+        </note>
+        <note xml:id="i-XByy2S9xgxkFW9fg7XwTwz">
+          Ekologiska nöt- och lammprodukter
+        </note>
+        <note xml:id="i-FPMJjopZeQWxkeXYF5eBui">
+          2002/03:60 av Maria Wetterstrand (mp) till jordbruksminister
+          Ann-Christin Nykvist
+        </note>
+        <note xml:id="i-EmMBGLfz4bs8SZmVg6tsFV">
+          Eldressyr av hund
+        </note>
+        <note xml:id="i-9Ljb76soZvEDCbR9kFM34u">
+          2002/03:61 av Henrik S Järrel (m) till statsrådet Hans
+        </note>
+        <note xml:id="i-X6qa2QMXVhpxmtSgQGVMBp">
+          Karlsson
+        </note>
+        <note xml:id="i-RBgWRQNctcv6NXg9WnTLoa">
+          Försäkringskassornas organisation
+        </note>
+        <u xml:id="i-3V9hnPN7j358EeF6CJmEKN" prev="i-d574776703f2ed30-73" who="Q1232072">
+          <seg xml:id="i-CBW3GvmSewdRWhgxvYqRJn">
+            Frågorna redovisas i bilaga som fogas till riksdagens snabbprotokoll
+            tisdagen den 5 november.
+          </seg>
+        </u>
+      </div>
+      <div type="commentSection" xml:id="i-UQso5ECtQeHuKn5f1XPEY">
+        <note xml:id="i-H4xEmoLSuk3qjRB1woqXwJ">
+          13 § Anmälan om skriftliga svar på frågor
+        </note>
+        <note xml:id="i-4kZD5Tp7syUFrAJP8vpjCK">
+          Anmäldes att skriftliga svar på följande frågor inkommit
+        </note>
+        <note xml:id="i-7JcB1jwVyCV15rUSeSoUE9">
+          den 21 oktober
+        </note>
+        <note xml:id="i-5FhRMKGXRXpk9TAYvN2C5P">
+          2002/03:38 av Martin Andreasson (fp) till justitieminister Thomas
+          Bodström
+        </note>
+        <note xml:id="i-LbmzHgkB9p7jteTcQP5Gs4">
+          Förfalskade konkursansökningar
+        </note>
+        <note xml:id="i-7kSBbiSSZNX3gJER6885Tv">
+          2002/03:39 av Inger René (m) till justitieminister
+        </note>
+        <note xml:id="i-3oYAA4ktuCQrJMTjWN3yE1">
+          Thomas Bodström
+        </note>
+        <note xml:id="i-4pDcLuFJP6FJBbsaNQYk2P">
+          Polismyndigheten i Västra Götaland
+        </note>
+        <u xml:id="i-WbxYeB7MCJ1TS9q7KZtoCb" who="Q1232072">
+          <seg xml:id="i-WZ3EqezwmWeWjnShhGFJoX">
+            Svaren redovisas i bilaga som fogas till riksdagens snabbprotokoll
+            tisdagen den 5 november.
+          </seg>
+        </u>
+      </div>
+      <div type="commentSection" xml:id="i-VW1eyNSSzsG7baReKbbfXR">
+        <note xml:id="i-RjtSRnviMQvzHWcCJtyAwM">
+          14 § Kammaren åtskildes kl. 14.26.
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/99A39211-9B42-4F09-90AE-0A8139A07670#page=11"/>
+        <note xml:id="i-L1MZAp8gYiBzefiszDrMzZ">
+          Förhandlingarna leddes av talmannen.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

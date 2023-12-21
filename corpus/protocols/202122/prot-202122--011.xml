@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 202122</title>
+        <title>Protokoll</title>
       </titleStmt>
       <editionStmt>
         <edition>0.4.2</edition>
@@ -13,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 202122</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -25,476 +25,449 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <editionStmt>
-          <edition>0.4.2</edition>
-        </editionStmt>
-        <publicationStmt>
-          <authority>National Library of Sweden and the WESTAC project</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some data curation was done. It is documented in input/curation/instances</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-202122--11</head>
-          <docDate when="2021-09-28">2021-09-28</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection" xml:id="i-62vr85n9nXYWK6WnW8rXv5">
-          <pb facs="http://data.riksdagen.se/fil/038B31C8-ECD0-4B28-AEFE-FBF5BF8B1F8B#page=1"/>
-          <note xml:id="i-HUhaJwJvob7UfTAWaucNhx">
-            § 1 Anmälan om ersättare
-          </note>
-          <note xml:id="i-SBkLMSefkHmiYnjZwUgzZe">
-            Tredje vice talmannen anmälde att Stefan Plath (S D ) inträtt
-            som ersättare för Sara Gille (SD) under tiden för hennes ledighet
-            den 27 september – 4 november .
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-GCk5KnrUYyeuqGn34ko7xT">
-          <note xml:id="i-H4tgpFpDnzAppv3pzdWxm">
-            § 2 Meddelande om frågestund
-          </note>
-          <note xml:id="i-BTBszgksdJbeq39cXFFYve">
-            Tredje vice talmannen meddelade att frågestund skulle äga rum
-            torsdagen den 30 september kl. 14.00.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-GKt7oDv8GcvYnf9RH8WjYQ">
-          <note xml:id="i-XBTMSLmBecv17QwocvcCV7">
-            § 3 Anmälan om subsidiaritetsprövning
-          </note>
-          <note xml:id="i-D68NKUp82Q6fdzLb2M4jb">
-            Tredje vice talmannen anmälde att utdrag ur prot. 2021/22:1 för
-            torsdagen den 16 september i ärende om subsidiaritetsprövning
-            av EU-förslag hade kommit in från justitieutskottet.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-PcgGAM2xxF67F6D3ANbZv">
-          <note xml:id="i-AwFARWr3t9hJk2t6wwsStw">
-            § 4 Anmälan om fördröjda svar på interpellationer
-          </note>
-          <u xml:id="i-XHGzJjv6vcxmhVPgZB61ZQ" who="unknown" next="i-5UAcw5d5ABXHVqYQFksWqQ">
-            <seg xml:id="i-YZKCgppH6BMb22bQnYnZCa">
-              Följande skrivelser hade kommit in:
-            </seg>
-          </u>
-          <note xml:id="i-JJZvizfSf3RDDsD1zYwdFX">
-            Interpellation 2021/22 : 1
-          </note>
-          <note xml:id="i-Dvgo6QJFjZET9zAFtdKDm1">
-            Till riksdagen
-          </note>
-          <note xml:id="i-H6KwrVs23nNMPT6k9sR1st">
-            Interpellation 2021/22:1 Försvunna yazidiska kvinnor
-          </note>
-          <note xml:id="i-PGKKcYVKc8BzjXvEA7r8nR">
-            av Joar Forssell (L)
-          </note>
-          <u xml:id="i-5UAcw5d5ABXHVqYQFksWqQ" who="unknown" prev="i-XHGzJjv6vcxmhVPgZB61ZQ" next="i-104e04eca27a665d-0">
-            <seg xml:id="i-QmpCpH4BVSkbqj68tbCSoa">
-              Interpellationen kommer att besvaras tisdagen den 19 oktober
-              2021.
-            </seg>
-          </u>
-          <u who="unknown" xml:id="i-104e04eca27a665d-0" prev="i-5UAcw5d5ABXHVqYQFksWqQ" next="i-XvjfHpkJhhDrtHetKxKKJo">
-            <seg xml:id="i-DwujFdpEYJtZn4QmM9fFA6">
-              Skälet till dröjsmålet är resa.
-            </seg>
-          </u>
-          <note xml:id="i-91L2LPrC8wvdWzmwQntuBK">
-            Stockholm den 27 september 2021
-          </note>
-          <note xml:id="i-8x8FB11Fmjs5yZJsLfRbt9">
-            Utrikesdepartementet
-          </note>
-          <note xml:id="i-499K79TZt9CFKohnpPC5GC">
-            Ann Linde (S)
-          </note>
-          <note xml:id="i-T18SuVcmgXwyvYJ3PpkgTt">
-            Enligt uppdrag
-          </note>
-          <note xml:id="i-N5y8dYpUZmv4SDdrJWH8CK">
-            Anna Hammargren
-          </note>
-          <note xml:id="i-6p4Pd1NQ3eLrHuxTuetXjW">
-            Expeditionschef
-          </note>
-          <note xml:id="i-LLgRzPmfaeXzHsuVki3UVD">
-            Interpellation 2021/22 : 4
-          </note>
-          <note xml:id="i-9pWJU9uCP8iSQEEVr7C24C">
-            Till riksdagen
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/038B31C8-ECD0-4B28-AEFE-FBF5BF8B1F8B#page=2"/>
-          <note xml:id="i-7UFgUnXHHoLpU7Yn4Dz1Ay">
-            Interpellation 2021/22:4 Medlemsstaternas återhämtningsplaner
-          </note>
-          <note xml:id="i-Mf5CPkYMuT9aDhFPQ8APhB">
-            av Ludvig Aspling (SD)
-          </note>
-          <u xml:id="i-XvjfHpkJhhDrtHetKxKKJo" who="unknown" prev="i-104e04eca27a665d-0" next="i-104e04eca27a665d-1">
-            <seg xml:id="i-HcMn6x4ZUmmi542k7a5yLi">
-              Interpellationen kommer att besvaras tisdagen den 26 oktober
-              2021.
-            </seg>
-          </u>
-          <u who="unknown" xml:id="i-104e04eca27a665d-1" prev="i-XvjfHpkJhhDrtHetKxKKJo" next="i-7Y1hzcgsS8iBKNKFym7Ni1">
-            <seg xml:id="i-9VY8nzY3GCL8B6A32vXK6b">
-              Skälet till dröjsmålet är tjänsteresor och sedan tidigare inbokade
-              engagemang.
-            </seg>
-          </u>
-          <note xml:id="i-2gwSx9WA9SR6NikrASh7Zf">
-            Stockholm den 23 september 2021
-          </note>
-          <note xml:id="i-AZezE67jBdLd4GK6RG7Dwr">
-            Finansdepartementet
-          </note>
-          <note xml:id="i-8pDH9D96uy7kLse9gqQbPX">
-            Magdalena Andersson (S)
-          </note>
-          <note xml:id="i-29nAEdZP3vC36ueGTq3HDf">
-            Enligt uppdrag
-          </note>
-          <note xml:id="i-QmZB4NW3hpwAA1ECVxqiDv">
-            Johan Ndure
-          </note>
-          <note xml:id="i-EvQ6cr7yQLQRLhUMbwAxj8">
-            Departementsråd
-          </note>
-          <note xml:id="i-PMVyqqnJhnU3bH3GoZ7AHS">
-            Interpellation 2021/22 : 15
-          </note>
-          <note xml:id="i-Lr7b2Gi7UNXFs7G1KCH1z2">
-            Till riksdagen
-          </note>
-          <note xml:id="i-XFYJh4bUgEbyiUfGfJoiAx">
-            Interpellation 2021/22:1 5 Armeniska krigsfångar
-          </note>
-          <note xml:id="i-Mkb8NikSfeZUo4H37LCByu">
-            av Arin Karapet (M)
-          </note>
-          <u xml:id="i-7Y1hzcgsS8iBKNKFym7Ni1" who="unknown" prev="i-104e04eca27a665d-1" next="i-104e04eca27a665d-3">
-            <seg xml:id="i-6hKDUJwLZ2pSWQPUYxQDGS">
-              Interpellationen kommer att besvaras tisdagen den 19 oktober
-              2021.
-            </seg>
-          </u>
-          <u who="unknown" xml:id="i-104e04eca27a665d-3" prev="i-7Y1hzcgsS8iBKNKFym7Ni1" next="i-7oJ7LsDsHUig6sWnFbA2jW">
-            <seg xml:id="i-h4HiJBkETdb68tatpjVoR">
-              Skälet till dröjsmålet är resa.
-            </seg>
-          </u>
-          <note xml:id="i-N8ydidhyFjTjPqx8pV8xSv">
-            Stockholm den 27 september 2021
-          </note>
-          <note xml:id="i-QzhrnHgBjLakNeWfmHa3ri">
-            Utrikesdepartementet
-          </note>
-          <note xml:id="i-7PUN6LuHJp7hSSHyejSsyU">
-            Ann Linde (S)
-          </note>
-          <note xml:id="i-LPhd1s3eRpWqMiDfjbyVg1">
-            Enligt uppdrag
-          </note>
-          <note xml:id="i-Q2uSTE2oT23HNrTiATdbH7">
-            Anna Hammargren
-          </note>
-          <note xml:id="i-Tg3YpjkiesrA9fCHLiFYgV">
-            Expeditionschef
-          </note>
-          <note xml:id="i-P7Db9e4XzWjDR32NxheR3V">
-            Interpellation 2021/22 : 16
-          </note>
-          <note xml:id="i-8Va6T1PEJiwgg2KEGCpQX6">
-            Till riksdagen
-          </note>
-          <note xml:id="i-DwBKb9gqFgoC1i1YN32Lb">
-            Interpellation 2021/22:1 6 Situationen för mänskliga rättigheter
-            i Iran
-          </note>
-          <note xml:id="i-RFwqsaaLaZ6LamXrSyKQGP">
-            av Amineh Kakabaveh (-)
-          </note>
-          <u xml:id="i-7oJ7LsDsHUig6sWnFbA2jW" who="unknown" prev="i-104e04eca27a665d-3" next="i-104e04eca27a665d-5">
-            <seg xml:id="i-4NLJmencRtLLmHqYjnVUmg">
-              Interpellationen kommer att besvaras tisdagen den 19 oktober
-              2021.
-            </seg>
-          </u>
-          <u who="unknown" xml:id="i-104e04eca27a665d-5" prev="i-7oJ7LsDsHUig6sWnFbA2jW">
-            <seg xml:id="i-KZodrRQMJQDaHvfRNtEoP7">
-              Skälet till dröjsmålet är resa.
-            </seg>
-          </u>
-          <note xml:id="i-HEzVig6Vbv3wszUixeErr9">
-            Stockholm den 27 september 2021
-          </note>
-          <note xml:id="i-BBjQ5v64CjQfHJZgsLJzRa">
-            Utrikesdepartementet
-          </note>
-          <note xml:id="i-PZixR52j5sGLTvSvwKDcjR">
-            Ann Linde (S)
-          </note>
-          <note xml:id="i-Tfh7rqCNt8tqt7ryg9scFh">
-            Enligt uppdrag
-          </note>
-          <note xml:id="i-LWbzNYh3UkdW3jrGJWwQ1E">
-            Anna Hammargren
-          </note>
-          <note xml:id="i-FyugKSMApFCFPEG3KAJgBj">
-            Expeditionschef
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-S5zSNH3n9hmqriGfxfLhmr">
-          <note xml:id="i-RqFNtYSgZ275JgDR8vXtY6">
-            § 5 Ärenden för hänvisning till utskott
-          </note>
-          <u xml:id="i-Ba9jeKZtXwBH41zgPwuKmB" who="unknown" next="i-104e04eca27a665d-7">
-            <seg xml:id="i-454Ae9rCLJG34qjDvrNnUE">
-              Följande dokument hänvisades till utskott:
-            </seg>
-          </u>
-          <note xml:id="i-UmzR4JZQbbK91sfzNGmzLm">
-            Motioner
-          </note>
-          <note xml:id="i-2BTDmshHRULE3vySGQf2qJ">
-            2020/21:4113, 2021/22:103, 127 och 134 till justitieutskottet
-          </note>
-          <note xml:id="i-DE5sUG5FktFukh61f4MjFd">
-            2020/21:4112, 2021/22:60 och 102 till näringsutskottet
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/038B31C8-ECD0-4B28-AEFE-FBF5BF8B1F8B#page=3"/>
-          <note xml:id="i-EuywueCky3JEe34THLuTr1">
-            EU-dokument
-          </note>
-          <note xml:id="i-FXsUJ5TcEJr3ty27Kt3N2J">
-            COM(2021) 423 till finansutskottet
-          </note>
-          <u who="unknown" xml:id="i-104e04eca27a665d-7" prev="i-Ba9jeKZtXwBH41zgPwuKmB">
-            <seg xml:id="i-GAiUYXq9tsRDj4jrWUkCm9">
-              Åttaveckorsfristen för att avge ett motiverat yttrande skulle
-              gå ut den 18 november.
-            </seg>
-          </u>
-        </div>
-        <div type="commentSection" xml:id="i-P55Z9MpLDjuPSHux5jSe2P">
-          <note xml:id="i-C8yQUQ38FMzqJLYpBCDBFJ">
-            § 6 Ärenden för bordläggning
-          </note>
-          <note xml:id="i-Pw6yKyKiAuvCxcWvs4ZM4F">
-            Följande dokument anmäldes och bordlades:
-          </note>
-          <note xml:id="i-SX53tKkXFcMQgewdQGenwv">
-            Miljö- och jordbruksutskottets betänkande
-          </note>
-          <note xml:id="i-HHZcuTbiVu5FBiaFpqm25B">
-            2021/22:MJU3 Ändrade regler för kontroll av ekologisk produktion
-          </note>
-          <note xml:id="i-KENmXueTiGfmYE6Mgou3qK">
-            Konstitutionsutskottets betänkande
-          </note>
-          <note xml:id="i-VoR2kdGD7ny4uMQVwMmeBX">
-            2021/22:KU2 Rättelse i lag om ändring i offentlighets ‑ och sekretesslagen
-          </note>
-          <note xml:id="i-CQm2f4SgYGhjKgrYudvZxr">
-            Skatteutskottets betänkande
-          </note>
-          <note xml:id="i-X1rTb8J988zfXT4oweZcdj">
-            2020/21:SkU37 Pausad BNP-indexering av skatten på bensin och
-            diesel för 2022
-          </note>
-          <note xml:id="i-WWvEonS23Bq9LuJ3GQQvzH">
-            Socialutskottets betänkande
-          </note>
-          <note xml:id="i-6yVkjg2TyTybAGvRrzGbRy">
-            2021/22:SoU2 Utbetalning av ersättning för personlig assistans
-            endast vid tillstånd
-          </note>
-          <note xml:id="i-CtHGe59y8tNir6H8LBWvwJ">
-            Arbetsmarknadsutskottets betänkanden
-          </note>
-          <note xml:id="i-NM4YJKp1Lrk8hQbhH3GdoJ">
-            2021/22:AU3 Genomförande av visselblåsardirektivet
-          </note>
-          <note xml:id="i-Sk9Bn63dPKRaP6U29zYMwf">
-            2021/22:AU4 Samhall
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-THrbsB6S4DyonG6FEVxncB">
-          <note xml:id="i-Sv5AMoTiTVy7G1SQMKZoiv">
-            § 7 Bordläggning
-          </note>
-          <note xml:id="i-Vmj3jJBqjggHaVM6B3sFho">
-            Följande dokument anmäldes och bordlades:
-          </note>
-          <note xml:id="i-JFpuNpcYg6wwHDcqUxpTyD">
-            EU-dokument
-          </note>
-          <note xml:id="i-PRT7aC7hdzGb4rMAhd6dQ7">
-            COM(2021) 346 Förslag till Europaparlamentets och rådets förordning
-            om allmän produktsäkerhet, ändring av Europaparlamentets och rådets
-            förordning (EU) nr 1025/2012 och om upphävande av rådets direktiv
-            87/357/EEG och Europaparlamentets och rådets direktiv 2001/95/EG
-          </note>
-          <note xml:id="i-Rk1BcdY1NX73JBVDNvxR2H">
-            COM(2021) 420 Förslag till Europaparlamentets och rådets förordning
-            om åtgärder för att förhindra att det finansiella systemet används
-            för penningtvätt eller finansiering av terrorism
-          </note>
-          <note xml:id="i-7SaqRCTDrGKqJLmkXgbwdi">
-            COM(2021) 547 Förslag till Europaparlamentets och rådets direktiv
-            om ändring av direktiv 2014/53/EU om harmonisering av medlemsstaternas
-            lagstiftning om tillhandahållande på marknaden av radioutrustning
-          </note>
-          <note xml:id="i-HSkHoQeU8nXKABXhXfTUFn">
-            Miljö- och jordbruksutskottets betänkande
-          </note>
-          <note xml:id="i-F2adaErA5jJuzzoxCzrV9a">
-            2021/22: M J U7 Regeringsprövning av kalkstenstäkter i undantagsfall
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-R2RPJiadhYR2EpdXWb1UiB">
-          <note xml:id="i-wqpsDuN8VBU1Pr3dsN7xx">
-            § 8 Anmälan om interpellation
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/038B31C8-ECD0-4B28-AEFE-FBF5BF8B1F8B#page=4"/>
-          <note xml:id="i-UpaYfAXTf13oBSJxoMU6Fq">
-            Följande interpellation hade framställts:
-          </note>
-          <note xml:id="i-CSVJkdjyfq6vuTfYsXfyxi">
-            den 27 september
-          </note>
-          <note xml:id="i-UPFRSMmcxjr2FTf4rAx63G">
-            2021/22:18 Migrationsverkets rutiner
-          </note>
-          <note xml:id="i-QRand1ikHTW3jovcHFiFWj">
-            av Niklas Wykman (M)
-          </note>
-          <note xml:id="i-55ZpnFNHBtXEdhrJD8z7h4">
-            till justitie- och migrationsminister Morgan Johansson (S)
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-KCe7igjX5utrPD3A475XeP">
-          <note xml:id="i-Ldh5Qbj9WZxLsdsQ5Gn6bP">
-            § 9 Anmälan om frågor för skriftliga svar
-          </note>
-          <u who="unknown" xml:id="i-104e04eca27a665d-11">
-            <seg xml:id="i-MsipixXJdumtSViVnHAJHg">
-              Följande frågor för skriftliga svar hade framställts:
-            </seg>
-          </u>
-          <note xml:id="i-ED8iFeAo7NyKXnPs59JHEf">
-            den 24 september
-          </note>
-          <note xml:id="i-K6hDEiXM11VkftMFsRDdHe">
-            2021/22:42 Säkerheten hos svensk vindkraft
-          </note>
-          <note xml:id="i-F3AGnvZNEmQqDpBVug5HU">
-            av Mattias Bäckström Johansson (SD)
-          </note>
-          <note xml:id="i-95Hgdya2zcfoU7mi7yknkC">
-            till arbetsmarknadsminister Eva Nordmark (S)
-          </note>
-          <note xml:id="i-Xg6YfvuaBScJLyNGNjZhqx">
-            2021/22:43 Lundakarnevalen
-          </note>
-          <note xml:id="i-EhTqaxV6yekUEBVd6g5pKQ">
-            av Mats Persson (L)
-          </note>
-          <note xml:id="i-5ZACudtwGU5qwYnADd39SY">
-            till infrastrukturminister Tomas Eneroth (S)
-          </note>
-          <note xml:id="i-LJFEE6pjDC5piE7KxdyLwt">
-            den 27 september
-          </note>
-          <note xml:id="i-GHpfg3Y3MaByAJr2ZeVY4M">
-            2021/22:44 Utökad polisarrest
-          </note>
-          <note xml:id="i-7MjUoCLKWdbiStctu4FSV6">
-            av Adam Marttinen (SD)
-          </note>
-          <note xml:id="i-AFu2Cay8S4rWXaXWwo1cPu">
-            till statsrådet Mikael Damberg (S)
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-HCdsNAQRdRGC6TQtFfAkZx">
-          <note xml:id="i-7tK1ehsrcMkSnRCNSnZkou">
-            § 10 Kammaren åtskildes kl. 13.01.
-          </note>
-          <note xml:id="i-VjyAScZ43aUYBzCgYwAHcw">
-            Sammanträdet leddes av tredje vice talmannen.
-          </note>
-          <note xml:id="i-RiZgDsipM2HSxf6oM1nnDL">
-            Vid protokollet
-          </note>
-          <note xml:id="i-Ddkz7QXot3XeJ6PgPdML5w">
-            GERGÖ KISCH
-          </note>
-          <note xml:id="i-UUP2DSxB5TjNNtnpkDJbRT">
-            /Olof Pilo
-          </note>
-        </div>
-        <div xml:id="i-91sbbT3GQihASKPXvPrUFy" type="commentSection" subtype="tableOfContents">
-          <pb facs="http://data.riksdagen.se/fil/038B31C8-ECD0-4B28-AEFE-FBF5BF8B1F8B#page=5"/>
-          <note xml:id="i-MdcAqEQ6nruUtAwpbAQrS1">
-            Innehållsförteckning
-          </note>
-          <note xml:id="i-PQte1n6ZPaH64unhvqsY9L">
-            § 1 Anmälan om ersättare
-          </note>
-          <note xml:id="i-9AzBMgTYhzfhkoWje5WKBe">
-            § 2 Meddelande om frågestund
-          </note>
-          <note xml:id="i-8n4TgcYg2BHoZMQkZNz7qQ">
-            § 3 Anmälan om subsidiaritetsprövning
-          </note>
-          <note xml:id="i-8ht1mgajeR2AkjxaYttas4">
-            § 4 Anmälan om fördröjda svar på interpellationer
-          </note>
-          <note xml:id="i-R6AMzoSsAH4JLrZBbzRhTW">
-            § 5 Ärenden för hänvisning till utskott
-          </note>
-          <note xml:id="i-Pbm1aUQUwy7mXBFzsDDsFY">
-            § 6 Ärenden för bordläggning
-          </note>
-          <note xml:id="i-FsdFBkCpeTpQXnCQ86iWsF">
-            § 7 Bordläggning
-          </note>
-          <note xml:id="i-CRo4kR1ikdEuPtxmj9ePCf">
-            § 8 Anmälan om interpellation
-          </note>
-          <note xml:id="i-M6GEgTiwPwvFLi9A9kniS2">
-            § 9 Anmälan om frågor för skriftliga svar
-          </note>
-          <note xml:id="i-RFBQLJXtQNArahnNiJsLYN">
-            § 10 Kammaren åtskildes kl. 13.01.
-          </note>
-          <note xml:id="i-WsnpWMdW4tBMvTrbdL3K3R">
-            Tryck: Elanders Sverige AB, Vällingby 2021
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-202122--11</head>
+        <docDate when="2021-09-28">2021-09-28</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-62vr85n9nXYWK6WnW8rXv5">
+        <pb facs="http://data.riksdagen.se/fil/038B31C8-ECD0-4B28-AEFE-FBF5BF8B1F8B#page=1"/>
+        <note xml:id="i-HUhaJwJvob7UfTAWaucNhx">
+          § 1 Anmälan om ersättare
+        </note>
+        <note xml:id="i-SBkLMSefkHmiYnjZwUgzZe">
+          Tredje vice talmannen anmälde att Stefan Plath (S D ) inträtt
+          som ersättare för Sara Gille (SD) under tiden för hennes ledighet
+          den 27 september – 4 november .
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-GCk5KnrUYyeuqGn34ko7xT">
+        <note xml:id="i-H4tgpFpDnzAppv3pzdWxm">
+          § 2 Meddelande om frågestund
+        </note>
+        <note xml:id="i-BTBszgksdJbeq39cXFFYve">
+          Tredje vice talmannen meddelade att frågestund skulle äga rum
+          torsdagen den 30 september kl. 14.00.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-GKt7oDv8GcvYnf9RH8WjYQ">
+        <note xml:id="i-XBTMSLmBecv17QwocvcCV7">
+          § 3 Anmälan om subsidiaritetsprövning
+        </note>
+        <note xml:id="i-D68NKUp82Q6fdzLb2M4jb">
+          Tredje vice talmannen anmälde att utdrag ur prot. 2021/22:1 för
+          torsdagen den 16 september i ärende om subsidiaritetsprövning
+          av EU-förslag hade kommit in från justitieutskottet.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-PcgGAM2xxF67F6D3ANbZv">
+        <note xml:id="i-AwFARWr3t9hJk2t6wwsStw">
+          § 4 Anmälan om fördröjda svar på interpellationer
+        </note>
+        <u xml:id="i-XHGzJjv6vcxmhVPgZB61ZQ" who="unknown" next="i-5UAcw5d5ABXHVqYQFksWqQ">
+          <seg xml:id="i-YZKCgppH6BMb22bQnYnZCa">
+            Följande skrivelser hade kommit in:
+          </seg>
+        </u>
+        <note xml:id="i-JJZvizfSf3RDDsD1zYwdFX">
+          Interpellation 2021/22 : 1
+        </note>
+        <note xml:id="i-Dvgo6QJFjZET9zAFtdKDm1">
+          Till riksdagen
+        </note>
+        <note xml:id="i-H6KwrVs23nNMPT6k9sR1st">
+          Interpellation 2021/22:1 Försvunna yazidiska kvinnor
+        </note>
+        <note xml:id="i-PGKKcYVKc8BzjXvEA7r8nR">
+          av Joar Forssell (L)
+        </note>
+        <u xml:id="i-5UAcw5d5ABXHVqYQFksWqQ" who="unknown" prev="i-XHGzJjv6vcxmhVPgZB61ZQ" next="i-104e04eca27a665d-0">
+          <seg xml:id="i-QmpCpH4BVSkbqj68tbCSoa">
+            Interpellationen kommer att besvaras tisdagen den 19 oktober
+            2021.
+          </seg>
+        </u>
+        <u who="unknown" xml:id="i-104e04eca27a665d-0" prev="i-5UAcw5d5ABXHVqYQFksWqQ" next="i-XvjfHpkJhhDrtHetKxKKJo">
+          <seg xml:id="i-DwujFdpEYJtZn4QmM9fFA6">
+            Skälet till dröjsmålet är resa.
+          </seg>
+        </u>
+        <note xml:id="i-91L2LPrC8wvdWzmwQntuBK">
+          Stockholm den 27 september 2021
+        </note>
+        <note xml:id="i-8x8FB11Fmjs5yZJsLfRbt9">
+          Utrikesdepartementet
+        </note>
+        <note xml:id="i-499K79TZt9CFKohnpPC5GC">
+          Ann Linde (S)
+        </note>
+        <note xml:id="i-T18SuVcmgXwyvYJ3PpkgTt">
+          Enligt uppdrag
+        </note>
+        <note xml:id="i-N5y8dYpUZmv4SDdrJWH8CK">
+          Anna Hammargren
+        </note>
+        <note xml:id="i-6p4Pd1NQ3eLrHuxTuetXjW">
+          Expeditionschef
+        </note>
+        <note xml:id="i-LLgRzPmfaeXzHsuVki3UVD">
+          Interpellation 2021/22 : 4
+        </note>
+        <note xml:id="i-9pWJU9uCP8iSQEEVr7C24C">
+          Till riksdagen
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/038B31C8-ECD0-4B28-AEFE-FBF5BF8B1F8B#page=2"/>
+        <note xml:id="i-7UFgUnXHHoLpU7Yn4Dz1Ay">
+          Interpellation 2021/22:4 Medlemsstaternas återhämtningsplaner
+        </note>
+        <note xml:id="i-Mf5CPkYMuT9aDhFPQ8APhB">
+          av Ludvig Aspling (SD)
+        </note>
+        <u xml:id="i-XvjfHpkJhhDrtHetKxKKJo" who="unknown" prev="i-104e04eca27a665d-0" next="i-104e04eca27a665d-1">
+          <seg xml:id="i-HcMn6x4ZUmmi542k7a5yLi">
+            Interpellationen kommer att besvaras tisdagen den 26 oktober
+            2021.
+          </seg>
+        </u>
+        <u who="unknown" xml:id="i-104e04eca27a665d-1" prev="i-XvjfHpkJhhDrtHetKxKKJo" next="i-7Y1hzcgsS8iBKNKFym7Ni1">
+          <seg xml:id="i-9VY8nzY3GCL8B6A32vXK6b">
+            Skälet till dröjsmålet är tjänsteresor och sedan tidigare inbokade
+            engagemang.
+          </seg>
+        </u>
+        <note xml:id="i-2gwSx9WA9SR6NikrASh7Zf">
+          Stockholm den 23 september 2021
+        </note>
+        <note xml:id="i-AZezE67jBdLd4GK6RG7Dwr">
+          Finansdepartementet
+        </note>
+        <note xml:id="i-8pDH9D96uy7kLse9gqQbPX">
+          Magdalena Andersson (S)
+        </note>
+        <note xml:id="i-29nAEdZP3vC36ueGTq3HDf">
+          Enligt uppdrag
+        </note>
+        <note xml:id="i-QmZB4NW3hpwAA1ECVxqiDv">
+          Johan Ndure
+        </note>
+        <note xml:id="i-EvQ6cr7yQLQRLhUMbwAxj8">
+          Departementsråd
+        </note>
+        <note xml:id="i-PMVyqqnJhnU3bH3GoZ7AHS">
+          Interpellation 2021/22 : 15
+        </note>
+        <note xml:id="i-Lr7b2Gi7UNXFs7G1KCH1z2">
+          Till riksdagen
+        </note>
+        <note xml:id="i-XFYJh4bUgEbyiUfGfJoiAx">
+          Interpellation 2021/22:1 5 Armeniska krigsfångar
+        </note>
+        <note xml:id="i-Mkb8NikSfeZUo4H37LCByu">
+          av Arin Karapet (M)
+        </note>
+        <u xml:id="i-7Y1hzcgsS8iBKNKFym7Ni1" who="unknown" prev="i-104e04eca27a665d-1" next="i-104e04eca27a665d-3">
+          <seg xml:id="i-6hKDUJwLZ2pSWQPUYxQDGS">
+            Interpellationen kommer att besvaras tisdagen den 19 oktober
+            2021.
+          </seg>
+        </u>
+        <u who="unknown" xml:id="i-104e04eca27a665d-3" prev="i-7Y1hzcgsS8iBKNKFym7Ni1" next="i-7oJ7LsDsHUig6sWnFbA2jW">
+          <seg xml:id="i-h4HiJBkETdb68tatpjVoR">
+            Skälet till dröjsmålet är resa.
+          </seg>
+        </u>
+        <note xml:id="i-N8ydidhyFjTjPqx8pV8xSv">
+          Stockholm den 27 september 2021
+        </note>
+        <note xml:id="i-QzhrnHgBjLakNeWfmHa3ri">
+          Utrikesdepartementet
+        </note>
+        <note xml:id="i-7PUN6LuHJp7hSSHyejSsyU">
+          Ann Linde (S)
+        </note>
+        <note xml:id="i-LPhd1s3eRpWqMiDfjbyVg1">
+          Enligt uppdrag
+        </note>
+        <note xml:id="i-Q2uSTE2oT23HNrTiATdbH7">
+          Anna Hammargren
+        </note>
+        <note xml:id="i-Tg3YpjkiesrA9fCHLiFYgV">
+          Expeditionschef
+        </note>
+        <note xml:id="i-P7Db9e4XzWjDR32NxheR3V">
+          Interpellation 2021/22 : 16
+        </note>
+        <note xml:id="i-8Va6T1PEJiwgg2KEGCpQX6">
+          Till riksdagen
+        </note>
+        <note xml:id="i-DwBKb9gqFgoC1i1YN32Lb">
+          Interpellation 2021/22:1 6 Situationen för mänskliga rättigheter
+          i Iran
+        </note>
+        <note xml:id="i-RFwqsaaLaZ6LamXrSyKQGP">
+          av Amineh Kakabaveh (-)
+        </note>
+        <u xml:id="i-7oJ7LsDsHUig6sWnFbA2jW" who="unknown" prev="i-104e04eca27a665d-3" next="i-104e04eca27a665d-5">
+          <seg xml:id="i-4NLJmencRtLLmHqYjnVUmg">
+            Interpellationen kommer att besvaras tisdagen den 19 oktober
+            2021.
+          </seg>
+        </u>
+        <u who="unknown" xml:id="i-104e04eca27a665d-5" prev="i-7oJ7LsDsHUig6sWnFbA2jW">
+          <seg xml:id="i-KZodrRQMJQDaHvfRNtEoP7">
+            Skälet till dröjsmålet är resa.
+          </seg>
+        </u>
+        <note xml:id="i-HEzVig6Vbv3wszUixeErr9">
+          Stockholm den 27 september 2021
+        </note>
+        <note xml:id="i-BBjQ5v64CjQfHJZgsLJzRa">
+          Utrikesdepartementet
+        </note>
+        <note xml:id="i-PZixR52j5sGLTvSvwKDcjR">
+          Ann Linde (S)
+        </note>
+        <note xml:id="i-Tfh7rqCNt8tqt7ryg9scFh">
+          Enligt uppdrag
+        </note>
+        <note xml:id="i-LWbzNYh3UkdW3jrGJWwQ1E">
+          Anna Hammargren
+        </note>
+        <note xml:id="i-FyugKSMApFCFPEG3KAJgBj">
+          Expeditionschef
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-S5zSNH3n9hmqriGfxfLhmr">
+        <note xml:id="i-RqFNtYSgZ275JgDR8vXtY6">
+          § 5 Ärenden för hänvisning till utskott
+        </note>
+        <u xml:id="i-Ba9jeKZtXwBH41zgPwuKmB" who="unknown" next="i-104e04eca27a665d-7">
+          <seg xml:id="i-454Ae9rCLJG34qjDvrNnUE">
+            Följande dokument hänvisades till utskott:
+          </seg>
+        </u>
+        <note xml:id="i-UmzR4JZQbbK91sfzNGmzLm">
+          Motioner
+        </note>
+        <note xml:id="i-2BTDmshHRULE3vySGQf2qJ">
+          2020/21:4113, 2021/22:103, 127 och 134 till justitieutskottet
+        </note>
+        <note xml:id="i-DE5sUG5FktFukh61f4MjFd">
+          2020/21:4112, 2021/22:60 och 102 till näringsutskottet
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/038B31C8-ECD0-4B28-AEFE-FBF5BF8B1F8B#page=3"/>
+        <note xml:id="i-EuywueCky3JEe34THLuTr1">
+          EU-dokument
+        </note>
+        <note xml:id="i-FXsUJ5TcEJr3ty27Kt3N2J">
+          COM(2021) 423 till finansutskottet
+        </note>
+        <u who="unknown" xml:id="i-104e04eca27a665d-7" prev="i-Ba9jeKZtXwBH41zgPwuKmB">
+          <seg xml:id="i-GAiUYXq9tsRDj4jrWUkCm9">
+            Åttaveckorsfristen för att avge ett motiverat yttrande skulle
+            gå ut den 18 november.
+          </seg>
+        </u>
+      </div>
+      <div type="commentSection" xml:id="i-P55Z9MpLDjuPSHux5jSe2P">
+        <note xml:id="i-C8yQUQ38FMzqJLYpBCDBFJ">
+          § 6 Ärenden för bordläggning
+        </note>
+        <note xml:id="i-Pw6yKyKiAuvCxcWvs4ZM4F">
+          Följande dokument anmäldes och bordlades:
+        </note>
+        <note xml:id="i-SX53tKkXFcMQgewdQGenwv">
+          Miljö- och jordbruksutskottets betänkande
+        </note>
+        <note xml:id="i-HHZcuTbiVu5FBiaFpqm25B">
+          2021/22:MJU3 Ändrade regler för kontroll av ekologisk produktion
+        </note>
+        <note xml:id="i-KENmXueTiGfmYE6Mgou3qK">
+          Konstitutionsutskottets betänkande
+        </note>
+        <note xml:id="i-VoR2kdGD7ny4uMQVwMmeBX">
+          2021/22:KU2 Rättelse i lag om ändring i offentlighets ‑ och sekretesslagen
+        </note>
+        <note xml:id="i-CQm2f4SgYGhjKgrYudvZxr">
+          Skatteutskottets betänkande
+        </note>
+        <note xml:id="i-X1rTb8J988zfXT4oweZcdj">
+          2020/21:SkU37 Pausad BNP-indexering av skatten på bensin och
+          diesel för 2022
+        </note>
+        <note xml:id="i-WWvEonS23Bq9LuJ3GQQvzH">
+          Socialutskottets betänkande
+        </note>
+        <note xml:id="i-6yVkjg2TyTybAGvRrzGbRy">
+          2021/22:SoU2 Utbetalning av ersättning för personlig assistans
+          endast vid tillstånd
+        </note>
+        <note xml:id="i-CtHGe59y8tNir6H8LBWvwJ">
+          Arbetsmarknadsutskottets betänkanden
+        </note>
+        <note xml:id="i-NM4YJKp1Lrk8hQbhH3GdoJ">
+          2021/22:AU3 Genomförande av visselblåsardirektivet
+        </note>
+        <note xml:id="i-Sk9Bn63dPKRaP6U29zYMwf">
+          2021/22:AU4 Samhall
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-THrbsB6S4DyonG6FEVxncB">
+        <note xml:id="i-Sv5AMoTiTVy7G1SQMKZoiv">
+          § 7 Bordläggning
+        </note>
+        <note xml:id="i-Vmj3jJBqjggHaVM6B3sFho">
+          Följande dokument anmäldes och bordlades:
+        </note>
+        <note xml:id="i-JFpuNpcYg6wwHDcqUxpTyD">
+          EU-dokument
+        </note>
+        <note xml:id="i-PRT7aC7hdzGb4rMAhd6dQ7">
+          COM(2021) 346 Förslag till Europaparlamentets och rådets förordning
+          om allmän produktsäkerhet, ändring av Europaparlamentets och rådets
+          förordning (EU) nr 1025/2012 och om upphävande av rådets direktiv
+          87/357/EEG och Europaparlamentets och rådets direktiv 2001/95/EG
+        </note>
+        <note xml:id="i-Rk1BcdY1NX73JBVDNvxR2H">
+          COM(2021) 420 Förslag till Europaparlamentets och rådets förordning
+          om åtgärder för att förhindra att det finansiella systemet används
+          för penningtvätt eller finansiering av terrorism
+        </note>
+        <note xml:id="i-7SaqRCTDrGKqJLmkXgbwdi">
+          COM(2021) 547 Förslag till Europaparlamentets och rådets direktiv
+          om ändring av direktiv 2014/53/EU om harmonisering av medlemsstaternas
+          lagstiftning om tillhandahållande på marknaden av radioutrustning
+        </note>
+        <note xml:id="i-HSkHoQeU8nXKABXhXfTUFn">
+          Miljö- och jordbruksutskottets betänkande
+        </note>
+        <note xml:id="i-F2adaErA5jJuzzoxCzrV9a">
+          2021/22: M J U7 Regeringsprövning av kalkstenstäkter i undantagsfall
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-R2RPJiadhYR2EpdXWb1UiB">
+        <note xml:id="i-wqpsDuN8VBU1Pr3dsN7xx">
+          § 8 Anmälan om interpellation
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/038B31C8-ECD0-4B28-AEFE-FBF5BF8B1F8B#page=4"/>
+        <note xml:id="i-UpaYfAXTf13oBSJxoMU6Fq">
+          Följande interpellation hade framställts:
+        </note>
+        <note xml:id="i-CSVJkdjyfq6vuTfYsXfyxi">
+          den 27 september
+        </note>
+        <note xml:id="i-UPFRSMmcxjr2FTf4rAx63G">
+          2021/22:18 Migrationsverkets rutiner
+        </note>
+        <note xml:id="i-QRand1ikHTW3jovcHFiFWj">
+          av Niklas Wykman (M)
+        </note>
+        <note xml:id="i-55ZpnFNHBtXEdhrJD8z7h4">
+          till justitie- och migrationsminister Morgan Johansson (S)
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-KCe7igjX5utrPD3A475XeP">
+        <note xml:id="i-Ldh5Qbj9WZxLsdsQ5Gn6bP">
+          § 9 Anmälan om frågor för skriftliga svar
+        </note>
+        <u who="unknown" xml:id="i-104e04eca27a665d-11">
+          <seg xml:id="i-MsipixXJdumtSViVnHAJHg">
+            Följande frågor för skriftliga svar hade framställts:
+          </seg>
+        </u>
+        <note xml:id="i-ED8iFeAo7NyKXnPs59JHEf">
+          den 24 september
+        </note>
+        <note xml:id="i-K6hDEiXM11VkftMFsRDdHe">
+          2021/22:42 Säkerheten hos svensk vindkraft
+        </note>
+        <note xml:id="i-F3AGnvZNEmQqDpBVug5HU">
+          av Mattias Bäckström Johansson (SD)
+        </note>
+        <note xml:id="i-95Hgdya2zcfoU7mi7yknkC">
+          till arbetsmarknadsminister Eva Nordmark (S)
+        </note>
+        <note xml:id="i-Xg6YfvuaBScJLyNGNjZhqx">
+          2021/22:43 Lundakarnevalen
+        </note>
+        <note xml:id="i-EhTqaxV6yekUEBVd6g5pKQ">
+          av Mats Persson (L)
+        </note>
+        <note xml:id="i-5ZACudtwGU5qwYnADd39SY">
+          till infrastrukturminister Tomas Eneroth (S)
+        </note>
+        <note xml:id="i-LJFEE6pjDC5piE7KxdyLwt">
+          den 27 september
+        </note>
+        <note xml:id="i-GHpfg3Y3MaByAJr2ZeVY4M">
+          2021/22:44 Utökad polisarrest
+        </note>
+        <note xml:id="i-7MjUoCLKWdbiStctu4FSV6">
+          av Adam Marttinen (SD)
+        </note>
+        <note xml:id="i-AFu2Cay8S4rWXaXWwo1cPu">
+          till statsrådet Mikael Damberg (S)
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-HCdsNAQRdRGC6TQtFfAkZx">
+        <note xml:id="i-7tK1ehsrcMkSnRCNSnZkou">
+          § 10 Kammaren åtskildes kl. 13.01.
+        </note>
+        <note xml:id="i-VjyAScZ43aUYBzCgYwAHcw">
+          Sammanträdet leddes av tredje vice talmannen.
+        </note>
+        <note xml:id="i-RiZgDsipM2HSxf6oM1nnDL">
+          Vid protokollet
+        </note>
+        <note xml:id="i-Ddkz7QXot3XeJ6PgPdML5w">
+          GERGÖ KISCH
+        </note>
+        <note xml:id="i-UUP2DSxB5TjNNtnpkDJbRT">
+          /Olof Pilo
+        </note>
+      </div>
+      <div xml:id="i-91sbbT3GQihASKPXvPrUFy" type="commentSection" subtype="tableOfContents">
+        <pb facs="http://data.riksdagen.se/fil/038B31C8-ECD0-4B28-AEFE-FBF5BF8B1F8B#page=5"/>
+        <note xml:id="i-MdcAqEQ6nruUtAwpbAQrS1">
+          Innehållsförteckning
+        </note>
+        <note xml:id="i-PQte1n6ZPaH64unhvqsY9L">
+          § 1 Anmälan om ersättare
+        </note>
+        <note xml:id="i-9AzBMgTYhzfhkoWje5WKBe">
+          § 2 Meddelande om frågestund
+        </note>
+        <note xml:id="i-8n4TgcYg2BHoZMQkZNz7qQ">
+          § 3 Anmälan om subsidiaritetsprövning
+        </note>
+        <note xml:id="i-8ht1mgajeR2AkjxaYttas4">
+          § 4 Anmälan om fördröjda svar på interpellationer
+        </note>
+        <note xml:id="i-R6AMzoSsAH4JLrZBbzRhTW">
+          § 5 Ärenden för hänvisning till utskott
+        </note>
+        <note xml:id="i-Pbm1aUQUwy7mXBFzsDDsFY">
+          § 6 Ärenden för bordläggning
+        </note>
+        <note xml:id="i-FsdFBkCpeTpQXnCQ86iWsF">
+          § 7 Bordläggning
+        </note>
+        <note xml:id="i-CRo4kR1ikdEuPtxmj9ePCf">
+          § 8 Anmälan om interpellation
+        </note>
+        <note xml:id="i-M6GEgTiwPwvFLi9A9kniS2">
+          § 9 Anmälan om frågor för skriftliga svar
+        </note>
+        <note xml:id="i-RFBQLJXtQNArahnNiJsLYN">
+          § 10 Kammaren åtskildes kl. 13.01.
+        </note>
+        <note xml:id="i-WsnpWMdW4tBMvTrbdL3K3R">
+          Tryck: Elanders Sverige AB, Vällingby 2021
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

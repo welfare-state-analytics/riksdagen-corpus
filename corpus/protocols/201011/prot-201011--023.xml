@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 201011</title>
+        <title>Protokoll</title>
       </titleStmt>
       <editionStmt>
         <edition>0.4.2</edition>
@@ -13,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 201011</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -25,241 +25,214 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <editionStmt>
-          <edition>0.4.2</edition>
-        </editionStmt>
-        <publicationStmt>
-          <authority>National Library of Sweden and the WESTAC project</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some data curation was done. It is documented in input/curation/instances</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-201011--23</head>
-          <docDate when="2010-11-29">2010-11-29</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection" xml:id="i-Bg7wHGtTtVLerZNvmz3Jcx">
-          <pb facs="http://data.riksdagen.se/fil/4F0983D5-00EF-45CE-B84C-BDA2CE21443D#page=1"/>
-          <note xml:id="i-FRu8xKumChYkyR9izcLKCJ">
-            Riksdagens protokoll
-          </note>
-          <note xml:id="i-MppwofZL6DGggBLWbtCzLw">
-            2010/11:23
-          </note>
-          <note xml:id="i-MQ1RMk7r16atuZYJGMRnwv">
-            Måndagen den 29 november
-          </note>
-          <note xml:id="i-TwfBUGU2dDqohJ1VxiPpZ">
-            Kl. 15:00 - 15:01
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-Fg2qpD8US5vVNtNXX7W7wF">
-          <note xml:id="i-XEqxyPt46S4LubWihK3FJr">
-            1 § Justering av protokoll
-          </note>
-          <note xml:id="i-Cdfis7ip97Z3vH8Nnds4WY">
-            Justerades protokollen för den 22 och 23 november.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-JW9ixh2kXbjeg8xPGmUGSj">
-          <note xml:id="i-E5NBmfH52RG2RsMJr7CmHN">
-            2 § Meddelande om frågestund
-          </note>
-          <note xml:id="i-Bgii1Q5tDF57tdKdScQNBE">
-            Talmannen meddelade att vid frågestunden torsdagen den 2 december
-            kl. 14.00 skulle följande statsråd närvara:
-          </note>
-          <note xml:id="i-QHTYQeRR4X51tw1gr3AzXU">
-            Utbildningsminister Jan Björklund (FP), landsbygdsminister Eskil
-            Erlandsson (C), finansminister Anders Borg (M), statsrådet Stefan
-            Attefall (KD) och statsrådet Erik Ullenhag (FP).
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-2thDwFaB4uMBXrKwmPVdWa">
-          <note xml:id="i-Eqwds2uf3iixvFs4xcnKqf">
-            3 § Hänvisning av ärenden till utskott
-          </note>
-          <note xml:id="i-Lhe7Gi7JuAWnCo3z7CLngh">
-            Föredrogs och hänvisades
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-hZnn8gcEsPJr8uLSXw4KB">
-          <note xml:id="i-WHK8QGgsbo45DMcaMXk19K">
-            4 § Anmälan om inkommen faktapromemoria om förslag från Europeiska
-            kommissionen
-          </note>
-          <u xml:id="i-SXU5b9mg21XpyFst9FTfS9" who="unknown">
-            <seg xml:id="i-Aq324Vp75HZHzUfdvxiZ5N">
-              Talmannen anmälde att följande faktapromemoria om förslag från
-              Europeiska kommissionen inkommit och överlämnats till utskott:
-            </seg>
-          </u>
-          <note xml:id="i-Qt3PmTgs2erQXedbfENrde">
-            14306/10
-          </note>
-          <note xml:id="i-RAY5MPMY3zxzxUYuWqgVFo">
-            AGRI 374, CODEC 938
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-L5j4mPnkgG64PweGgkqZEa">
-          <note xml:id="i-16rJ8PNXy1Gehj6Dp5Ap93">
-            5 § Bordläggning
-          </note>
-          <note xml:id="i-SR1cG4NYxJnZk282QwjP59">
-            Anmäldes och bordlades
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-QdKwBKRU65QTgiCwLei4uC">
-          <note xml:id="i-VmtJR63HeEeudngewiB4q5">
-            6 § Anmälan om interpellationer
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/4F0983D5-00EF-45CE-B84C-BDA2CE21443D#page=2"/>
-          <note xml:id="i-C5xgW8tvMzUq64WoceYHx">
-            Anmäldes att följande interpellationer framställts
-          </note>
-          <note xml:id="i-2e6XDTUaLZnDMNQ4jXvxxo">
-            den 26 november
-          </note>
-          <note xml:id="i-hiUSmpPAYY2S3MCm1btER">
-            Börje Vestlund
-          </note>
-          <note xml:id="i-MJ5wA8U7nEeRRjR3mSGvhs">
-            Gunvor G Ericson
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/4F0983D5-00EF-45CE-B84C-BDA2CE21443D#page=3"/>
-          <note xml:id="i-P9VYBLUzRjZx64N7oSNANZ">
-            Lena Olsson
-          </note>
-          <note xml:id="i-T7js4j1NkNmriCa64dtToo">
-            den 29 november
-          </note>
-          <note xml:id="i-XTwisECXp7ni8Hpz6QT6dX">
-            Börje Vestlund
-          </note>
-          <note xml:id="i-VbWx8X9BVr6SRnEbpaqQDe">
-            Interpellation 2010/11:96 redovisas i bilaga som fogats till
-            riksdagens snabbprotokoll tisdagen den 30 november.
-          </note>
-          <note xml:id="i-8Rzs4264gUisC9LsjHEbtZ">
-            Interpellationerna 2010/11:9799 redovisas i bilaga som fogats
-            till riksdagens snabbprotokoll tisdagen den 7 december.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-a3S2roYDozPAYpDU45SPL">
-          <note xml:id="i-XozRQ5BRJQQSbuJfcXHCSQ">
-            7 § Anmälan om frågor för skriftliga svar
-          </note>
-          <note xml:id="i-XixPV1moiVKAZZPhnmQsWx">
-            Anmäldes att följande frågor för skriftliga svar framställts
-          </note>
-          <note xml:id="i-J3tq6BH5DGadyNNWrg6ZHv">
-            den 26 november
-          </note>
-          <note xml:id="i-Hj7cDNQXd8jQE9rgh5W8BP">
-            Fredrik Lundh Sammeli
-          </note>
-          <note xml:id="i-YXE1xyK3PXFfh2jzjD5dNq">
-            Fredrik Lundh Sammeli
-          </note>
-          <note xml:id="i-QUUbb8oSwZnjwsBj8fLpFX">
-            Sven-Erik Bucht
-          </note>
-          <note xml:id="i-VsR4FwrBDvjEuFVSrAtTUL">
-            Lena Hallengren
-          </note>
-          <note xml:id="i-9QWMgrXcbPbRJLvkitrtD9">
-            Jacob Johnson
-          </note>
-          <note xml:id="i-KSc9GVGFfXHfY9UaJ3gNMn">
-            Christina Karlsson
-          </note>
-          <note xml:id="i-Mn9jugagXtgqbqpsZfRfJL">
-            Kerstin Nilsson
-          </note>
-          <note xml:id="i-xGi8LonSKqB45zUQm2YMs">
-            Jasenko Omanovic
-          </note>
-          <note xml:id="i-VEpAnH51X1quJkvawSNQVh">
-            Christina Oskarsson
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/4F0983D5-00EF-45CE-B84C-BDA2CE21443D#page=4"/>
-          <note xml:id="i-Wzesg8yspm8wfUTNK2Wqiz">
-            Maria Stenberg
-          </note>
-          <note xml:id="i-9P2azUYmeaHG4mL6yhBfZa">
-            Krister Örnfjäder
-          </note>
-          <note xml:id="i-HYWoD817XmUu92DZtMSckr">
-            Krister Örnfjäder
-          </note>
-          <note xml:id="i-A1GfMDYgnbeWV11s3h7NpH">
-            den 29 november
-          </note>
-          <note xml:id="i-F59qkg7evwJzcQhnqWtvVj">
-            Irene Oskarsson
-          </note>
-          <note xml:id="i-EyGBQZYA8WMa6CxfUd4f6f">
-            Frågorna 2010/11:113124 redovisas i bilaga som fogats till riksdagens
-            snabbprotokoll tisdagen den 30 november.
-          </note>
-          <note xml:id="i-LCgsRnL7ijiyRhKLSR15D5">
-            Fråga 2010/11:125 redovisas i bilaga som fogats till riksdagens
-            snabbprotokoll tisdagen den 7 december.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-XV6XXwZabvX3asiGiid2qa">
-          <note xml:id="i-MPxAyZAMEPS53Rq15gmADq">
-            8 § Anmälan om skriftligt svar på fråga
-          </note>
-          <note xml:id="i-XcSKBn5ZVgTjNFjHFtHqqp">
-            Anmäldes att skriftligt svar på följande fråga inkommit
-          </note>
-          <note xml:id="i-4BE2WrUw8A31bno25Qryit">
-            den 26 november
-          </note>
-          <note xml:id="i-D3hDcgNHBiMLZfV22Cc5S8">
-            Kent Härstedt
-          </note>
-          <u xml:id="i-KcgX9y4BBv49NheVqpWMmK" who="unknown">
-            <seg xml:id="i-QgfML9d2gdDfLN6JhKqH6U">
-              Svaret redovisas i bilaga som fogats till riksdagens snabbprotokoll
-              tisdagen den 30 november.
-            </seg>
-          </u>
-        </div>
-        <div type="commentSection" xml:id="i-VFB7zCZTuNCWZ66yjE93bX">
-          <note xml:id="i-Y4LG9vMzCyUjuRHn47SB6N">
-            9 § Kammaren åtskildes kl. 15.01.
-          </note>
-          <note xml:id="i-FQAkhqbFUDayPtH3VG2jAH">
-            Förhandlingarna leddes av talmannen.
-          </note>
-          <note xml:id="i-N55zMHfntUhGhUqL5RUTo1">
-            /Eva-Lena Ekman
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-201011--23</head>
+        <docDate when="2010-11-29">2010-11-29</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-Bg7wHGtTtVLerZNvmz3Jcx">
+        <pb facs="http://data.riksdagen.se/fil/4F0983D5-00EF-45CE-B84C-BDA2CE21443D#page=1"/>
+        <note xml:id="i-FRu8xKumChYkyR9izcLKCJ">
+          Riksdagens protokoll
+        </note>
+        <note xml:id="i-MppwofZL6DGggBLWbtCzLw">
+          2010/11:23
+        </note>
+        <note xml:id="i-MQ1RMk7r16atuZYJGMRnwv">
+          Måndagen den 29 november
+        </note>
+        <note xml:id="i-TwfBUGU2dDqohJ1VxiPpZ">
+          Kl. 15:00 - 15:01
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-Fg2qpD8US5vVNtNXX7W7wF">
+        <note xml:id="i-XEqxyPt46S4LubWihK3FJr">
+          1 § Justering av protokoll
+        </note>
+        <note xml:id="i-Cdfis7ip97Z3vH8Nnds4WY">
+          Justerades protokollen för den 22 och 23 november.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-JW9ixh2kXbjeg8xPGmUGSj">
+        <note xml:id="i-E5NBmfH52RG2RsMJr7CmHN">
+          2 § Meddelande om frågestund
+        </note>
+        <note xml:id="i-Bgii1Q5tDF57tdKdScQNBE">
+          Talmannen meddelade att vid frågestunden torsdagen den 2 december
+          kl. 14.00 skulle följande statsråd närvara:
+        </note>
+        <note xml:id="i-QHTYQeRR4X51tw1gr3AzXU">
+          Utbildningsminister Jan Björklund (FP), landsbygdsminister Eskil
+          Erlandsson (C), finansminister Anders Borg (M), statsrådet Stefan
+          Attefall (KD) och statsrådet Erik Ullenhag (FP).
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-2thDwFaB4uMBXrKwmPVdWa">
+        <note xml:id="i-Eqwds2uf3iixvFs4xcnKqf">
+          3 § Hänvisning av ärenden till utskott
+        </note>
+        <note xml:id="i-Lhe7Gi7JuAWnCo3z7CLngh">
+          Föredrogs och hänvisades
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-hZnn8gcEsPJr8uLSXw4KB">
+        <note xml:id="i-WHK8QGgsbo45DMcaMXk19K">
+          4 § Anmälan om inkommen faktapromemoria om förslag från Europeiska
+          kommissionen
+        </note>
+        <u xml:id="i-SXU5b9mg21XpyFst9FTfS9" who="unknown">
+          <seg xml:id="i-Aq324Vp75HZHzUfdvxiZ5N">
+            Talmannen anmälde att följande faktapromemoria om förslag från
+            Europeiska kommissionen inkommit och överlämnats till utskott:
+          </seg>
+        </u>
+        <note xml:id="i-Qt3PmTgs2erQXedbfENrde">
+          14306/10
+        </note>
+        <note xml:id="i-RAY5MPMY3zxzxUYuWqgVFo">
+          AGRI 374, CODEC 938
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-L5j4mPnkgG64PweGgkqZEa">
+        <note xml:id="i-16rJ8PNXy1Gehj6Dp5Ap93">
+          5 § Bordläggning
+        </note>
+        <note xml:id="i-SR1cG4NYxJnZk282QwjP59">
+          Anmäldes och bordlades
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-QdKwBKRU65QTgiCwLei4uC">
+        <note xml:id="i-VmtJR63HeEeudngewiB4q5">
+          6 § Anmälan om interpellationer
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/4F0983D5-00EF-45CE-B84C-BDA2CE21443D#page=2"/>
+        <note xml:id="i-C5xgW8tvMzUq64WoceYHx">
+          Anmäldes att följande interpellationer framställts
+        </note>
+        <note xml:id="i-2e6XDTUaLZnDMNQ4jXvxxo">
+          den 26 november
+        </note>
+        <note xml:id="i-hiUSmpPAYY2S3MCm1btER">
+          Börje Vestlund
+        </note>
+        <note xml:id="i-MJ5wA8U7nEeRRjR3mSGvhs">
+          Gunvor G Ericson
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/4F0983D5-00EF-45CE-B84C-BDA2CE21443D#page=3"/>
+        <note xml:id="i-P9VYBLUzRjZx64N7oSNANZ">
+          Lena Olsson
+        </note>
+        <note xml:id="i-T7js4j1NkNmriCa64dtToo">
+          den 29 november
+        </note>
+        <note xml:id="i-XTwisECXp7ni8Hpz6QT6dX">
+          Börje Vestlund
+        </note>
+        <note xml:id="i-VbWx8X9BVr6SRnEbpaqQDe">
+          Interpellation 2010/11:96 redovisas i bilaga som fogats till
+          riksdagens snabbprotokoll tisdagen den 30 november.
+        </note>
+        <note xml:id="i-8Rzs4264gUisC9LsjHEbtZ">
+          Interpellationerna 2010/11:9799 redovisas i bilaga som fogats
+          till riksdagens snabbprotokoll tisdagen den 7 december.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-a3S2roYDozPAYpDU45SPL">
+        <note xml:id="i-XozRQ5BRJQQSbuJfcXHCSQ">
+          7 § Anmälan om frågor för skriftliga svar
+        </note>
+        <note xml:id="i-XixPV1moiVKAZZPhnmQsWx">
+          Anmäldes att följande frågor för skriftliga svar framställts
+        </note>
+        <note xml:id="i-J3tq6BH5DGadyNNWrg6ZHv">
+          den 26 november
+        </note>
+        <note xml:id="i-Hj7cDNQXd8jQE9rgh5W8BP">
+          Fredrik Lundh Sammeli
+        </note>
+        <note xml:id="i-YXE1xyK3PXFfh2jzjD5dNq">
+          Fredrik Lundh Sammeli
+        </note>
+        <note xml:id="i-QUUbb8oSwZnjwsBj8fLpFX">
+          Sven-Erik Bucht
+        </note>
+        <note xml:id="i-VsR4FwrBDvjEuFVSrAtTUL">
+          Lena Hallengren
+        </note>
+        <note xml:id="i-9QWMgrXcbPbRJLvkitrtD9">
+          Jacob Johnson
+        </note>
+        <note xml:id="i-KSc9GVGFfXHfY9UaJ3gNMn">
+          Christina Karlsson
+        </note>
+        <note xml:id="i-Mn9jugagXtgqbqpsZfRfJL">
+          Kerstin Nilsson
+        </note>
+        <note xml:id="i-xGi8LonSKqB45zUQm2YMs">
+          Jasenko Omanovic
+        </note>
+        <note xml:id="i-VEpAnH51X1quJkvawSNQVh">
+          Christina Oskarsson
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/4F0983D5-00EF-45CE-B84C-BDA2CE21443D#page=4"/>
+        <note xml:id="i-Wzesg8yspm8wfUTNK2Wqiz">
+          Maria Stenberg
+        </note>
+        <note xml:id="i-9P2azUYmeaHG4mL6yhBfZa">
+          Krister Örnfjäder
+        </note>
+        <note xml:id="i-HYWoD817XmUu92DZtMSckr">
+          Krister Örnfjäder
+        </note>
+        <note xml:id="i-A1GfMDYgnbeWV11s3h7NpH">
+          den 29 november
+        </note>
+        <note xml:id="i-F59qkg7evwJzcQhnqWtvVj">
+          Irene Oskarsson
+        </note>
+        <note xml:id="i-EyGBQZYA8WMa6CxfUd4f6f">
+          Frågorna 2010/11:113124 redovisas i bilaga som fogats till riksdagens
+          snabbprotokoll tisdagen den 30 november.
+        </note>
+        <note xml:id="i-LCgsRnL7ijiyRhKLSR15D5">
+          Fråga 2010/11:125 redovisas i bilaga som fogats till riksdagens
+          snabbprotokoll tisdagen den 7 december.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-XV6XXwZabvX3asiGiid2qa">
+        <note xml:id="i-MPxAyZAMEPS53Rq15gmADq">
+          8 § Anmälan om skriftligt svar på fråga
+        </note>
+        <note xml:id="i-XcSKBn5ZVgTjNFjHFtHqqp">
+          Anmäldes att skriftligt svar på följande fråga inkommit
+        </note>
+        <note xml:id="i-4BE2WrUw8A31bno25Qryit">
+          den 26 november
+        </note>
+        <note xml:id="i-D3hDcgNHBiMLZfV22Cc5S8">
+          Kent Härstedt
+        </note>
+        <u xml:id="i-KcgX9y4BBv49NheVqpWMmK" who="unknown">
+          <seg xml:id="i-QgfML9d2gdDfLN6JhKqH6U">
+            Svaret redovisas i bilaga som fogats till riksdagens snabbprotokoll
+            tisdagen den 30 november.
+          </seg>
+        </u>
+      </div>
+      <div type="commentSection" xml:id="i-VFB7zCZTuNCWZ66yjE93bX">
+        <note xml:id="i-Y4LG9vMzCyUjuRHn47SB6N">
+          9 § Kammaren åtskildes kl. 15.01.
+        </note>
+        <note xml:id="i-FQAkhqbFUDayPtH3VG2jAH">
+          Förhandlingarna leddes av talmannen.
+        </note>
+        <note xml:id="i-N55zMHfntUhGhUqL5RUTo1">
+          /Eva-Lena Ekman
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

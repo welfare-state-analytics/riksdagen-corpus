@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 200203</title>
+        <title>Protokoll</title>
       </titleStmt>
       <editionStmt>
         <edition>0.4.2</edition>
@@ -13,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 200203</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -25,303 +25,276 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <editionStmt>
-          <edition>0.4.2</edition>
-        </editionStmt>
-        <publicationStmt>
-          <authority>National Library of Sweden and the WESTAC project</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some data curation was done. It is documented in input/curation/instances</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-200203--27</head>
-          <docDate when="2002-12-02">2002-12-02</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection" xml:id="i-PHRHfpWvDLEFY1wj7ad2Dh">
-          <pb facs="http://data.riksdagen.se/fil/6FD42957-CB25-46E5-B032-94428FDD7C5C#page=1"/>
-          <note xml:id="i-Anx1JoHbnHYymMxBbmx5dA">
-            Det justerade protokollet beräknas utkomma om 3 veckor
-          </note>
-          <note xml:id="i-67ZCpstRYzQC2tstvYswbk">
-            Protokoll
-          </note>
-          <note xml:id="i-KfG3rS6RhATb6E4P6ThNYt">
-            2002/03:27
-          </note>
-          <note xml:id="i-WLZqrGLhTFANduQbXuz8Xv">
-            ------------
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-2NdDMigM9wazDTYoKXd7dF">
-          <note xml:id="i-TR71UUvNANH7HTqtD3FwZE">
-            1 § Justering av protokoll
-          </note>
-          <note xml:id="i-Aefw2Ew6LiBuaeZcuZQLQC">
-            Justerades protokollet för den 26 november.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-JZao41PE3s7vdQ2Leo6Am">
-          <note xml:id="i-JJgKPWYBmJEbd4CP5BKqnq">
-            2 § Meddelande om aktuell debatt
-          </note>
-          <note xml:id="i-LyhGePdX2kkvwqvM4mxKaB">
-            Talmannen meddelade att på begäran av Moderata samlingspartiets
-            riksdagsgrupp skulle en aktuell debatt om svensk påföljdspraxis
-            anordnas torsdagen den 5 december kl. 10.00.
-          </note>
-          <note xml:id="i-64hdYVNFC42LjLcNZtAu8N">
-            Från regeringen skulle justitieminister Thomas
-          </note>
-          <u xml:id="i-275b4585f4eaaabd-2" who="unknown" next="i-275b4585f4eaaabd-3">
-            <seg xml:id="i-PxXGCTMVHiaS2CMeNMLnPR">
-              Bodström delta.
-            </seg>
-          </u>
-          <note xml:id="i-9LnfR6C1vnEtjUSscq3xqd">
-            Den inkomna skrivelsen hade följande lydelse:
-          </note>
-          <note xml:id="i-2L5tmTJbRfkMfu1JMbunDE">
-            Till talmannen
-          </note>
-          <note xml:id="i-8ukHAbJQcfBthpyns4CLgX">
-            Begäran om aktuell debatt angående svensk påföljdspraxis
-          </note>
-          <u xml:id="i-275b4585f4eaaabd-3" who="unknown" prev="i-275b4585f4eaaabd-2" next="i-275b4585f4eaaabd-4">
-            <seg xml:id="i-QFhbsw4YdNvBU9q4GAUXND">
-              Den utveckling av påföljdspraxis vi sett under de senaste åren,
-              och som nu fått aktualitet genom två uppmärksammade domar, riskerar
-              att ytterligare underminera allmänhetens förtroende för rättsväsendet.
-            </seg>
-          </u>
-          <u xml:id="i-275b4585f4eaaabd-4" who="unknown" prev="i-275b4585f4eaaabd-3" next="i-275b4585f4eaaabd-5">
-            <seg xml:id="i-ProER6DL1YepEqi9JJvoC3">
-              Det måste också ifrågasättas huruvida praxis svarar mot lagstiftarens
-              intentioner.
-            </seg>
-          </u>
-          <u xml:id="i-275b4585f4eaaabd-5" who="unknown" prev="i-275b4585f4eaaabd-4" next="i-STPZcFscvhvQe61kWxDzb3">
-            <seg xml:id="i-GA9Q64ffKnq1cimrqopjxc">
-              Upprinnelsen till debatten är den dom för grov misshandel och
-              vållande till annans död som meddelades mot en man som befunnits
-              skyldig till att ha misshandlat sin treårige styvson till döds.
-              Straffet sattes till tre och ett halvt års fängelse. Ytterligare
-              en liknande dom har uppmärksammats, då grov misshandel av ett
-              spädbarn ledde till fängelse i ett och ett halvt år.
-            </seg>
-          </u>
-          <u xml:id="i-STPZcFscvhvQe61kWxDzb3" who="unknown" prev="i-275b4585f4eaaabd-5" next="i-275b4585f4eaaabd-6">
-            <seg xml:id="i-81V3KsR8tUPeNHfaGBbXkj">
-              Dessvärre är dessa domar symptomatiska för den praxis vid grov
-              våldsbrottslighet som utvecklats i svenska domstolar. Straffen
-              som utmäts ligger oftast i den nedre delen av straffskalan. Under
-              år 2000 dömdes 636 personer för grov misshandel. Av de 495
-            </seg>
-          </u>
-          <u xml:id="i-275b4585f4eaaabd-6" who="unknown" prev="i-STPZcFscvhvQe61kWxDzb3" next="i-275b4585f4eaaabd-7">
-            <seg xml:id="i-F4uqvA7NaHp4dPwgSoShjE">
-              fängelsedomar som utdömdes låg 169 under det lagstadgade minimistraffet
-              på ett år, 212 fängelsedomar låg under två år och övriga under
-              fem år. Endast fyra personer dömdes till fängelse i mellan fyra
-              och fem år. Straffskalan för grov misshandel användes alltså bara
-              till hälften.
-            </seg>
-          </u>
-          <pb facs="http://data.riksdagen.se/fil/6FD42957-CB25-46E5-B032-94428FDD7C5C#page=2"/>
-          <u xml:id="i-275b4585f4eaaabd-7" who="unknown" prev="i-275b4585f4eaaabd-6" next="i-275b4585f4eaaabd-8">
-            <seg xml:id="i-PzXquhBhz1AyYVJKDV9QYf">
-              Straffskalan för grov misshandel sträcker sig från ett till tio
-              års fängelse. Den vanligaste påföljden för detta brott är dock
-              fängelse vid eller strax över straffminimum. Detta trots det ofta
-              mycket grova våld som krävs för att ett fall av misshandel skall
-              rubriceras som grovt. Riksåklagaren har påtalat att domstolarna
-              också i ärenden där omständigheterna mer än väl uppfyller kriterierna
-              för grov misshandel stannar påföljden oftast mycket nära ett års
-              fängelse.
-            </seg>
-          </u>
-          <u xml:id="i-275b4585f4eaaabd-8" who="unknown" prev="i-275b4585f4eaaabd-7" next="i-275b4585f4eaaabd-9">
-            <seg xml:id="i-55vQJtoejanUyWW66e2fHF">
-              Riksdagen är genom grundlag förhindrad att ingripa i domstolarnas
-              rättsskipande. Däremot måste riksdagen reagera då de lagar man
-              stiftat inte används på så sätt som varit avsett. Det är riksdagens
-              skyldighet att tillse att rättssystemet fungerar enligt lagstiftarens
-              mening, för att förtroendet för rättssystemet skall upprätthållas
-              bland allmänheten. I annat fall bör riksdagen överväga att ändra
-              lagstiftningen.
-            </seg>
-          </u>
-          <u xml:id="i-275b4585f4eaaabd-9" who="unknown" prev="i-275b4585f4eaaabd-8">
-            <seg xml:id="i-C2akw6DZdMZMuPkPXEEU22">
-              Därför begär vi att det anordnas en aktuell debatt rörande straffsatserna
-              för grova våldsbrott och den tillämpning dessa fått i praktiken.
-            </seg>
-          </u>
-          <note xml:id="i-F6sptcPNpRC1kBL4HEtvoU">
-            För den moderata riksdagsgruppen,
-          </note>
-          <note xml:id="i-JRd1FQ8WEuy94DN3mSNBgz">
-            Fredrik Reinfeldt
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-CYkniUXsuQ4CYZvYTRKoC4">
-          <note xml:id="i-Fg5kbhfeZq7mhFzjWKp9Lm">
-            3 § Meddelande om frågestund
-          </note>
-          <note xml:id="i-2RaZk2gSPjKb1d6os8MtiT">
-            Talmannen meddelade att vid frågestunden torsdagen den 5 december
-            kl. 14.00 skulle följande statsråd närvara:
-          </note>
-          <note xml:id="i-39o1cUezeju9bFT45Ja9WB">
-            Statsminister Göran Persson, kulturminister Marita Ulvskog, statsrådet
-            Mona Sahlin, statsrådet Hans
-          </note>
-          <note xml:id="i-VCn8AcCu9Bc7GFoiEsWCgx">
-            Karlsson och försvarsminister Leni Björklund.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-T6LzMLZMehA6tteHQGqrTP">
-          <note xml:id="i-Ltg3VQt4HqKGucKoxg36xf">
-            4 § Hänvisning av ärenden till utskott
-          </note>
-          <note xml:id="i-TbeQzKHX8tmVR7oryWPHuD">
-            Föredrogs och hänvisades
-          </note>
-          <note xml:id="i-UWGjMstDU3JE2DAom2Wbp2">
-            Motioner
-          </note>
-          <note xml:id="i-CFFkue9Zg5sEWgFFgNpBiw">
-            2002/03:Fi2 och Fi3 till finansutskottet
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-8KRPDd8Tsco3Nb8ZRyYYRL">
-          <note xml:id="i-UVyARfaVdPZgSZoD1XDCLS">
-            5 § Bordläggning
-          </note>
-          <note xml:id="i-9J1bC3x3YQtV4DrfYMMTE3">
-            Anmäldes och bordlades
-          </note>
-          <note xml:id="i-TEpMnU2Une8C9keL1UGHm6">
-            Finansutskottets betänkanden
-          </note>
-          <note xml:id="i-Jh2AtwCtsvg7M3fMVvFtWG">
-            2002/03:FiU1 Utgiftsramar och beräkning av statsinkomsterna
-          </note>
-          <note xml:id="i-DDmdtqNCvhyAvCVubgHH91">
-            2002/03:FiU11 Tilläggsbudget 2 för budgetåret 2002
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-5fczJB7G5ZtDv6Rsm769Zv">
-          <note xml:id="i-NqSX6oywy97a9q648Srr1C">
-            6 § Anmälan om frågor för skriftliga svar
-          </note>
-          <note xml:id="i-3fR6B8HaetrN5m1mLZiFWC">
-            Anmäldes att följande frågor för skriftliga svar framställts
-          </note>
-          <note xml:id="i-9BaDvQyKFpNXyVFPtb2GWb">
-            den 29 november
-          </note>
-          <note xml:id="i-FeaJqmrE4BwzQYQjgvX2g8">
-            2002/03:215 av Karin Granbom (fp) till utbildningsminister Thomas
-            Östros
-          </note>
-          <note xml:id="i-Tgi7HSbJGWcPDouhQTD8pM">
-            Återbetalningsregler för studiemedel bland kåraktiva
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/6FD42957-CB25-46E5-B032-94428FDD7C5C#page=3"/>
-          <note xml:id="i-YXp86LXMD82x4y81XkFaEp">
-            2002/03:216 av Marie Wahlgren (fp) till utbildningsminister Thomas
-            Östros
-          </note>
-          <note xml:id="i-GYcxM4dav7hpFf1DYC49Ao">
-            Lika villkor för professorer
-          </note>
-          <note xml:id="i-F3vM5YZ6e1DZo8CCY9aqoS">
-            2002/03:217 av Johan Pehrson (fp) till justitieminister Thomas
-            Bodström
-          </note>
-          <note xml:id="i-NRjgcPbDmaDHwPi8aZFRnn">
-            Barnmisshandel
-          </note>
-          <note xml:id="i-8BqoYFaVfSSB3KR7X8c8GB">
-            2002/03:218 av Chatrine Pålsson (kd) till statsrådet
-          </note>
-          <note xml:id="i-PDhBxwgTKKinTPimZPUSRp">
-            Morgan Johansson
-          </note>
-          <note xml:id="i-9eNxUucHsfTw7LgSgVRVrN">
-            Dopning
-          </note>
-          <note xml:id="i-RGcAck7Zy1C7FMnZsEBUZ1">
-            2002/03:219 av Gunilla Tjernberg (kd) till statsrådet
-          </note>
-          <note xml:id="i-JCeQ8oE1Lox7AAsc6tJbLU">
-            Morgan Johansson
-          </note>
-          <note xml:id="i-AxhoLrsJ8jM4TvJryHMpUL">
-            Dopning
-          </note>
-          <u xml:id="i-DeD351RB8UwPKr71GBZCjc" who="unknown">
-            <seg xml:id="i-MhFpYrLzcrdxpntgG95MDs">
-              Frågorna redovisas i bilaga som fogas till riksdagens snabbprotokoll
-              tisdagen den 3 december.
-            </seg>
-          </u>
-        </div>
-        <div type="commentSection" xml:id="i-TJS4pWmBFVkAoPb9a2iuo3">
-          <note xml:id="i-WE6tGGKERrRTWk8t7P1YsX">
-            7 § Anmälan om skriftligt svar på fråga
-          </note>
-          <note xml:id="i-9EQpKgvRxtEE8c7LGAJzab">
-            Anmäldes att skriftligt svar på följande fråga inkommit
-          </note>
-          <note xml:id="i-NGvywp9YDFKgnmsVSbDfkD">
-            den 29 november
-          </note>
-          <note xml:id="i-nQ59GYd7TMvvn4n6BJqwf">
-            2002/03:150 av Tobias Krantz (fp) till vice statsminister Margareta
-            Winberg
-          </note>
-          <note xml:id="i-DPtcQcAPKx7Vv87hhE4MAn">
-            Jämställdhetsarbetet inom landstingen
-          </note>
-          <u xml:id="i-Y4SRZ5mEjZ9JUc857x6zHq" who="unknown">
-            <seg xml:id="i-CNtSVSPvQr3fiqER1sig3V">
-              Svaret redovisas i bilaga som fogas till riksdagens snabbprotokoll
-              tisdagen den 10 december.
-            </seg>
-          </u>
-        </div>
-        <div type="commentSection" xml:id="i-YE8C1atevu62aarcvo3xjR">
-          <note xml:id="i-S8sLto2ZnaaXPRVjPjPBpk">
-            8 § Kammaren åtskildes kl. 12.02.
-          </note>
-          <note xml:id="i-RG3xmjLuLY6UztkLPaTtki">
-            Förhandlingarna leddes av talmannen.
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-200203--27</head>
+        <docDate when="2002-12-02">2002-12-02</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-PHRHfpWvDLEFY1wj7ad2Dh">
+        <pb facs="http://data.riksdagen.se/fil/6FD42957-CB25-46E5-B032-94428FDD7C5C#page=1"/>
+        <note xml:id="i-Anx1JoHbnHYymMxBbmx5dA">
+          Det justerade protokollet beräknas utkomma om 3 veckor
+        </note>
+        <note xml:id="i-67ZCpstRYzQC2tstvYswbk">
+          Protokoll
+        </note>
+        <note xml:id="i-KfG3rS6RhATb6E4P6ThNYt">
+          2002/03:27
+        </note>
+        <note xml:id="i-WLZqrGLhTFANduQbXuz8Xv">
+          ------------
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-2NdDMigM9wazDTYoKXd7dF">
+        <note xml:id="i-TR71UUvNANH7HTqtD3FwZE">
+          1 § Justering av protokoll
+        </note>
+        <note xml:id="i-Aefw2Ew6LiBuaeZcuZQLQC">
+          Justerades protokollet för den 26 november.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-JZao41PE3s7vdQ2Leo6Am">
+        <note xml:id="i-JJgKPWYBmJEbd4CP5BKqnq">
+          2 § Meddelande om aktuell debatt
+        </note>
+        <note xml:id="i-LyhGePdX2kkvwqvM4mxKaB">
+          Talmannen meddelade att på begäran av Moderata samlingspartiets
+          riksdagsgrupp skulle en aktuell debatt om svensk påföljdspraxis
+          anordnas torsdagen den 5 december kl. 10.00.
+        </note>
+        <note xml:id="i-64hdYVNFC42LjLcNZtAu8N">
+          Från regeringen skulle justitieminister Thomas
+        </note>
+        <u xml:id="i-275b4585f4eaaabd-2" who="unknown" next="i-275b4585f4eaaabd-3">
+          <seg xml:id="i-PxXGCTMVHiaS2CMeNMLnPR">
+            Bodström delta.
+          </seg>
+        </u>
+        <note xml:id="i-9LnfR6C1vnEtjUSscq3xqd">
+          Den inkomna skrivelsen hade följande lydelse:
+        </note>
+        <note xml:id="i-2L5tmTJbRfkMfu1JMbunDE">
+          Till talmannen
+        </note>
+        <note xml:id="i-8ukHAbJQcfBthpyns4CLgX">
+          Begäran om aktuell debatt angående svensk påföljdspraxis
+        </note>
+        <u xml:id="i-275b4585f4eaaabd-3" who="unknown" prev="i-275b4585f4eaaabd-2" next="i-275b4585f4eaaabd-4">
+          <seg xml:id="i-QFhbsw4YdNvBU9q4GAUXND">
+            Den utveckling av påföljdspraxis vi sett under de senaste åren,
+            och som nu fått aktualitet genom två uppmärksammade domar, riskerar
+            att ytterligare underminera allmänhetens förtroende för rättsväsendet.
+          </seg>
+        </u>
+        <u xml:id="i-275b4585f4eaaabd-4" who="unknown" prev="i-275b4585f4eaaabd-3" next="i-275b4585f4eaaabd-5">
+          <seg xml:id="i-ProER6DL1YepEqi9JJvoC3">
+            Det måste också ifrågasättas huruvida praxis svarar mot lagstiftarens
+            intentioner.
+          </seg>
+        </u>
+        <u xml:id="i-275b4585f4eaaabd-5" who="unknown" prev="i-275b4585f4eaaabd-4" next="i-STPZcFscvhvQe61kWxDzb3">
+          <seg xml:id="i-GA9Q64ffKnq1cimrqopjxc">
+            Upprinnelsen till debatten är den dom för grov misshandel och
+            vållande till annans död som meddelades mot en man som befunnits
+            skyldig till att ha misshandlat sin treårige styvson till döds.
+            Straffet sattes till tre och ett halvt års fängelse. Ytterligare
+            en liknande dom har uppmärksammats, då grov misshandel av ett
+            spädbarn ledde till fängelse i ett och ett halvt år.
+          </seg>
+        </u>
+        <u xml:id="i-STPZcFscvhvQe61kWxDzb3" who="unknown" prev="i-275b4585f4eaaabd-5" next="i-275b4585f4eaaabd-6">
+          <seg xml:id="i-81V3KsR8tUPeNHfaGBbXkj">
+            Dessvärre är dessa domar symptomatiska för den praxis vid grov
+            våldsbrottslighet som utvecklats i svenska domstolar. Straffen
+            som utmäts ligger oftast i den nedre delen av straffskalan. Under
+            år 2000 dömdes 636 personer för grov misshandel. Av de 495
+          </seg>
+        </u>
+        <u xml:id="i-275b4585f4eaaabd-6" who="unknown" prev="i-STPZcFscvhvQe61kWxDzb3" next="i-275b4585f4eaaabd-7">
+          <seg xml:id="i-F4uqvA7NaHp4dPwgSoShjE">
+            fängelsedomar som utdömdes låg 169 under det lagstadgade minimistraffet
+            på ett år, 212 fängelsedomar låg under två år och övriga under
+            fem år. Endast fyra personer dömdes till fängelse i mellan fyra
+            och fem år. Straffskalan för grov misshandel användes alltså bara
+            till hälften.
+          </seg>
+        </u>
+        <pb facs="http://data.riksdagen.se/fil/6FD42957-CB25-46E5-B032-94428FDD7C5C#page=2"/>
+        <u xml:id="i-275b4585f4eaaabd-7" who="unknown" prev="i-275b4585f4eaaabd-6" next="i-275b4585f4eaaabd-8">
+          <seg xml:id="i-PzXquhBhz1AyYVJKDV9QYf">
+            Straffskalan för grov misshandel sträcker sig från ett till tio
+            års fängelse. Den vanligaste påföljden för detta brott är dock
+            fängelse vid eller strax över straffminimum. Detta trots det ofta
+            mycket grova våld som krävs för att ett fall av misshandel skall
+            rubriceras som grovt. Riksåklagaren har påtalat att domstolarna
+            också i ärenden där omständigheterna mer än väl uppfyller kriterierna
+            för grov misshandel stannar påföljden oftast mycket nära ett års
+            fängelse.
+          </seg>
+        </u>
+        <u xml:id="i-275b4585f4eaaabd-8" who="unknown" prev="i-275b4585f4eaaabd-7" next="i-275b4585f4eaaabd-9">
+          <seg xml:id="i-55vQJtoejanUyWW66e2fHF">
+            Riksdagen är genom grundlag förhindrad att ingripa i domstolarnas
+            rättsskipande. Däremot måste riksdagen reagera då de lagar man
+            stiftat inte används på så sätt som varit avsett. Det är riksdagens
+            skyldighet att tillse att rättssystemet fungerar enligt lagstiftarens
+            mening, för att förtroendet för rättssystemet skall upprätthållas
+            bland allmänheten. I annat fall bör riksdagen överväga att ändra
+            lagstiftningen.
+          </seg>
+        </u>
+        <u xml:id="i-275b4585f4eaaabd-9" who="unknown" prev="i-275b4585f4eaaabd-8">
+          <seg xml:id="i-C2akw6DZdMZMuPkPXEEU22">
+            Därför begär vi att det anordnas en aktuell debatt rörande straffsatserna
+            för grova våldsbrott och den tillämpning dessa fått i praktiken.
+          </seg>
+        </u>
+        <note xml:id="i-F6sptcPNpRC1kBL4HEtvoU">
+          För den moderata riksdagsgruppen,
+        </note>
+        <note xml:id="i-JRd1FQ8WEuy94DN3mSNBgz">
+          Fredrik Reinfeldt
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-CYkniUXsuQ4CYZvYTRKoC4">
+        <note xml:id="i-Fg5kbhfeZq7mhFzjWKp9Lm">
+          3 § Meddelande om frågestund
+        </note>
+        <note xml:id="i-2RaZk2gSPjKb1d6os8MtiT">
+          Talmannen meddelade att vid frågestunden torsdagen den 5 december
+          kl. 14.00 skulle följande statsråd närvara:
+        </note>
+        <note xml:id="i-39o1cUezeju9bFT45Ja9WB">
+          Statsminister Göran Persson, kulturminister Marita Ulvskog, statsrådet
+          Mona Sahlin, statsrådet Hans
+        </note>
+        <note xml:id="i-VCn8AcCu9Bc7GFoiEsWCgx">
+          Karlsson och försvarsminister Leni Björklund.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-T6LzMLZMehA6tteHQGqrTP">
+        <note xml:id="i-Ltg3VQt4HqKGucKoxg36xf">
+          4 § Hänvisning av ärenden till utskott
+        </note>
+        <note xml:id="i-TbeQzKHX8tmVR7oryWPHuD">
+          Föredrogs och hänvisades
+        </note>
+        <note xml:id="i-UWGjMstDU3JE2DAom2Wbp2">
+          Motioner
+        </note>
+        <note xml:id="i-CFFkue9Zg5sEWgFFgNpBiw">
+          2002/03:Fi2 och Fi3 till finansutskottet
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-8KRPDd8Tsco3Nb8ZRyYYRL">
+        <note xml:id="i-UVyARfaVdPZgSZoD1XDCLS">
+          5 § Bordläggning
+        </note>
+        <note xml:id="i-9J1bC3x3YQtV4DrfYMMTE3">
+          Anmäldes och bordlades
+        </note>
+        <note xml:id="i-TEpMnU2Une8C9keL1UGHm6">
+          Finansutskottets betänkanden
+        </note>
+        <note xml:id="i-Jh2AtwCtsvg7M3fMVvFtWG">
+          2002/03:FiU1 Utgiftsramar och beräkning av statsinkomsterna
+        </note>
+        <note xml:id="i-DDmdtqNCvhyAvCVubgHH91">
+          2002/03:FiU11 Tilläggsbudget 2 för budgetåret 2002
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-5fczJB7G5ZtDv6Rsm769Zv">
+        <note xml:id="i-NqSX6oywy97a9q648Srr1C">
+          6 § Anmälan om frågor för skriftliga svar
+        </note>
+        <note xml:id="i-3fR6B8HaetrN5m1mLZiFWC">
+          Anmäldes att följande frågor för skriftliga svar framställts
+        </note>
+        <note xml:id="i-9BaDvQyKFpNXyVFPtb2GWb">
+          den 29 november
+        </note>
+        <note xml:id="i-FeaJqmrE4BwzQYQjgvX2g8">
+          2002/03:215 av Karin Granbom (fp) till utbildningsminister Thomas
+          Östros
+        </note>
+        <note xml:id="i-Tgi7HSbJGWcPDouhQTD8pM">
+          Återbetalningsregler för studiemedel bland kåraktiva
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/6FD42957-CB25-46E5-B032-94428FDD7C5C#page=3"/>
+        <note xml:id="i-YXp86LXMD82x4y81XkFaEp">
+          2002/03:216 av Marie Wahlgren (fp) till utbildningsminister Thomas
+          Östros
+        </note>
+        <note xml:id="i-GYcxM4dav7hpFf1DYC49Ao">
+          Lika villkor för professorer
+        </note>
+        <note xml:id="i-F3vM5YZ6e1DZo8CCY9aqoS">
+          2002/03:217 av Johan Pehrson (fp) till justitieminister Thomas
+          Bodström
+        </note>
+        <note xml:id="i-NRjgcPbDmaDHwPi8aZFRnn">
+          Barnmisshandel
+        </note>
+        <note xml:id="i-8BqoYFaVfSSB3KR7X8c8GB">
+          2002/03:218 av Chatrine Pålsson (kd) till statsrådet
+        </note>
+        <note xml:id="i-PDhBxwgTKKinTPimZPUSRp">
+          Morgan Johansson
+        </note>
+        <note xml:id="i-9eNxUucHsfTw7LgSgVRVrN">
+          Dopning
+        </note>
+        <note xml:id="i-RGcAck7Zy1C7FMnZsEBUZ1">
+          2002/03:219 av Gunilla Tjernberg (kd) till statsrådet
+        </note>
+        <note xml:id="i-JCeQ8oE1Lox7AAsc6tJbLU">
+          Morgan Johansson
+        </note>
+        <note xml:id="i-AxhoLrsJ8jM4TvJryHMpUL">
+          Dopning
+        </note>
+        <u xml:id="i-DeD351RB8UwPKr71GBZCjc" who="unknown">
+          <seg xml:id="i-MhFpYrLzcrdxpntgG95MDs">
+            Frågorna redovisas i bilaga som fogas till riksdagens snabbprotokoll
+            tisdagen den 3 december.
+          </seg>
+        </u>
+      </div>
+      <div type="commentSection" xml:id="i-TJS4pWmBFVkAoPb9a2iuo3">
+        <note xml:id="i-WE6tGGKERrRTWk8t7P1YsX">
+          7 § Anmälan om skriftligt svar på fråga
+        </note>
+        <note xml:id="i-9EQpKgvRxtEE8c7LGAJzab">
+          Anmäldes att skriftligt svar på följande fråga inkommit
+        </note>
+        <note xml:id="i-NGvywp9YDFKgnmsVSbDfkD">
+          den 29 november
+        </note>
+        <note xml:id="i-nQ59GYd7TMvvn4n6BJqwf">
+          2002/03:150 av Tobias Krantz (fp) till vice statsminister Margareta
+          Winberg
+        </note>
+        <note xml:id="i-DPtcQcAPKx7Vv87hhE4MAn">
+          Jämställdhetsarbetet inom landstingen
+        </note>
+        <u xml:id="i-Y4SRZ5mEjZ9JUc857x6zHq" who="unknown">
+          <seg xml:id="i-CNtSVSPvQr3fiqER1sig3V">
+            Svaret redovisas i bilaga som fogas till riksdagens snabbprotokoll
+            tisdagen den 10 december.
+          </seg>
+        </u>
+      </div>
+      <div type="commentSection" xml:id="i-YE8C1atevu62aarcvo3xjR">
+        <note xml:id="i-S8sLto2ZnaaXPRVjPjPBpk">
+          8 § Kammaren åtskildes kl. 12.02.
+        </note>
+        <note xml:id="i-RG3xmjLuLY6UztkLPaTtki">
+          Förhandlingarna leddes av talmannen.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>
