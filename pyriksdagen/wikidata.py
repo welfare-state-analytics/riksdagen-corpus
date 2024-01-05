@@ -79,7 +79,7 @@ def clean_sparql_df(df, query_name):
 		df.loc[x][y] = ''
 
 	# Sort columns
-	first_cols = [c for c in ['wiki_id', 'start', 'end'] if c in df.columns]
+	first_cols = [c for c in ['swerik_id', 'wiki_id', 'start', 'end'] if c in df.columns]
 	other_cols = sorted([c for c in df.columns if c not in first_cols])
 	df = df[first_cols+other_cols]
 
