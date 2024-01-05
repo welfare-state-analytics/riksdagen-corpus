@@ -1,7 +1,8 @@
-SELECT DISTINCT ?wiki_id ?twitter
+SELECT DISTINCT ?swerik_id ?twitter
 WHERE
 {    
     ?wiki_id wdt:P31 wd:Q5;
+             wdt:P12192 ?swerik_id;
              wdt:P2002 ?twitter.
     {
     PLACEHOLDER

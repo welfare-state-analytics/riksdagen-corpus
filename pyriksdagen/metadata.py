@@ -92,7 +92,7 @@ def impute_party(db, party):
 		db['party'] = pd.Series(dtype=str)
 	data = []
 	for i, row in db[db['party'].isnull()].iterrows():	
-		parties = party[party['wiki_id'] == row['wiki_id']]
+		parties = party[party['swerik_id'] == row['swerik_id']]
 		if len(set(parties['party'])) == 1:
 			db.loc[i,'party'] = parties['party'].iloc[0]
 		if len(set(parties['party'])) >= 2:
@@ -175,7 +175,7 @@ class Corpus(pd.DataFrame):
 			party_df = pd.read_csv(f"corpus/metadata/party_affiliation.csv")
 			party_df = party_df[party_df["start"].notnull()]
 			party_df = party_df[party_df["end"].notnull()]
-			df = df.merge(party_df, on=["wiki_id", "start", "end"], how="left")
+			df = df.merge(party_df, on=["swerik_id", "start", "end"], how="left")
 			df = df[columns]
 			print(df)
 			print(df[df["party"].notnull()])
@@ -202,15 +202,15 @@ class Corpus(pd.DataFrame):
 
 	def add_persons(self):
 		df = self._load_metadata('person')
-		return self.merge(df, on='wiki_id', how='left')
+		return self.merge(df, on='swerik_id', how='left')
 
 	def add_location_specifiers(self):
 		df = self._load_metadata('location_specifier')
-		return self.merge(df, on='wiki_id', how='left')
+		return self.merge(df, on='swerik_id', how='left')
 
 	def add_names(self):
 		df = self._load_metadata('name')
-		return self.merge(df, on='wiki_id', how='left')
+		return self.merge(df, on='swerik_id', how='left')
 	
 	def impute_dates(self):
 		return impute_date(self)

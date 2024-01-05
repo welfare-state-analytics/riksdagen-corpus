@@ -35,7 +35,7 @@ def main():
         })
 
     # Temporary ids
-    corpus['person_id'] = corpus['wiki_id']
+    corpus['person_id'] = corpus['swerik_id']
 
     # Drop individuals with missing names
     corpus = corpus[corpus['name'].notna()]
@@ -43,7 +43,7 @@ def main():
     # Remove redundancy and split file
     corpus = corpus.drop_duplicates()
     corpus = corpus.dropna(subset=['name', 'start', 'end'])
-    corpus = corpus.sort_values(['wiki_id', 'start', 'end', 'name'])
+    corpus = corpus.sort_values(['swerik_id', 'start', 'end', 'name'])
     for file in ['member_of_parliament', 'minister', 'speaker']:
         df  = corpus[corpus['source'] == file]
         

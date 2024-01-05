@@ -24,7 +24,7 @@ def main(args):
 	for q in queries:
 		print(f"Query {q} started.")
 		df = query2df(q, args.source)
-
+		#print(df)
 		# Format values
 		if 'riksdagen_id' in df.columns:
 			df['riksdagen_id'] = df['riksdagen_id'].astype(str)

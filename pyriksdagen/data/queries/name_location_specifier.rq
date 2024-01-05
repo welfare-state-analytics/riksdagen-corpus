@@ -1,7 +1,8 @@
-SELECT DISTINCT ?wiki_id ?wiki_idLabel ?alias
+SELECT DISTINCT ?swerik_id ?wiki_idLabel ?alias
 WHERE
 {    
-    ?wiki_id wdt:P31 wd:Q5.
+    ?wiki_id wdt:P31 wd:Q5;
+             wdt:P12192 ?swerik_id.
     OPTIONAL { ?wiki_id skos:altLabel ?alias. filter(lang(?alias)="sv") }.
     {
     PLACEHOLDER

@@ -1,4 +1,4 @@
-SELECT DISTINCT ?wiki_id ?governmentLabel ?roleLabel ?start ?end ?startPrecision ?endPrecision
+SELECT DISTINCT ?swerik_id ?governmentLabel ?roleLabel ?start ?end ?startPrecision ?endPrecision
 WHERE {
   {
   VALUES ?government { wd:Q3046743 wd:Q4570153 wd:Q4570314 wd:Q4570330 wd:Q4570354 wd:Q4570378 wd:Q4570967 wd:Q4907240 wd:Q4907653 wd:Q4957676 wd:Q5217837 wd:Q5306179 wd:Q5306186 wd:Q5306190 wd:Q5306200 wd:Q10650416 wd:Q10650420 wd:Q10650424 wd:Q10650438 wd:Q10650456 wd:Q18176361 wd:Q60736270 wd:Q107443672 wd:Q109705067 } 
@@ -10,7 +10,8 @@ WHERE {
   } UNION {
 
   ?wiki_id wdt:P31 wd:Q5;
-           p:P39 ?posheld.
+           p:P39 ?posheld;
+           wdt:P12192 ?swerik_id.
 
   # Position held in government
   {
