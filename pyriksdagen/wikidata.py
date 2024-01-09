@@ -152,3 +152,14 @@ def move_party_to_party_df(mp_df, party_df):
 
 	return mp_df[mp_df_cols], party_df
 
+def elongate_external_ids(df):
+	rows = []
+	cols = ["swerik_id", "authority", "identifier"]
+	df.rename(columns={"wiki_id": "WiDaID"}, inplace=True)
+	authorities = [_ for _ in df.columns if _ != "swerik_id"]
+	for i, r in df.iterrows():
+		swerik = r["swerik_id"]
+		for a in authorities:
+			if pd.notnull(r[a]):
+				rows.append([swerik, a, r[a]])
+	return pd.DataFrame(rows, columns=cols)
