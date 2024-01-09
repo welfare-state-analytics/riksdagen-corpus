@@ -4,7 +4,7 @@ GENERATE SWERIK IDS FOR WIKIDATA
 """
 from pyriksdagen.utils import get_formatted_uuid
 from tqdm import tqdm
-import argparse, glob, sys
+import argparse, glob, json, sys
 import pandas as pd
 
 
@@ -45,14 +45,34 @@ def update_unittest_files():
 
 
 
+def generate_from_wiki_id(ids_to_add):
+    df = pd.read_csv("corpus/metadata/swerik-to-wikidata-id-map.csv")
+
+    for wiki_id in ids_to_add:
+        df.loc[len(df)] = [generate_serik_id(wiki_id), wiki_id]
+
+    assert(len(df) == len(df.SWERIK_ID.unique()))
+    df.to_csv("corpus/metadata/swerik-to-wikidata-id-map.csv", index=False)
+    print("done")
+
+
+
+
 def main(args):
     if args.add_singleton:
         print("adding one new SWERIK ID")
-        df = pd.read_csv("corpus/metadata/swerik-to-wikidata-id-map.csv")
-        df.loc[len(df)] = [generate_serik_id(args.add_singleton), args.add_singleton]
-        assert(len(df) == len(df.SWERIK_ID.unique()))
-        df.to_csv("corpus/metadata/swerik-to-wikidata-id-map.csv", index=False)
-        print("done")
+        generate_from_wiki_id([args.add_singleton])
+
+    elif args.add_list:
+        print("adding one new SWERIK IDs from list")
+        with open(args.add_list, "r") as inf:
+            if args.add_list.endswith(".txt"):
+                lines = inf.readlines()
+            elif args.add_list.endswith(".json"):
+                j = json.load(inf)
+                lines = [k for k,v in j.items()]
+
+        generate_from_wiki_id([_.strip() for _ in lines])
     elif args.update_testfiles:
         print("DANGER ZONE: You want to update unittest files -- this should only be done once. Probably you made a mistake!")
         #update_unittest_files()
@@ -81,10 +101,20 @@ def main(args):
 
 
 
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(__file__)
-    parser.add_argument("-u", "--update_testfiles", action="store_true", help="Replace wiki_id colum in unit test files with SWERIK IDs.")
-    parser.add_argument("-s", "--add-singleton", type=str, help="Wikidata ID of single individual for which to generate a swerik ID. If not set, the script will generate a new set of SWERIK IDs for all wiki IDs in the metadata")
+    parser.add_argument("-u", "--update-testfiles",
+                        action="store_true",
+                        help="Replace wiki_id colum in unit test files with SWERIK IDs.")
+    parser.add_argument("-s", "--add-singleton",
+                        type=str,
+                        help="Wikidata ID of single individual for which to generate a swerik ID. \
+                        If not set, the script will generate a new set of SWERIK IDs for all wiki \
+                        IDs in the metadata")
+    parser.add_argument("-l", "--add-list",
+                        type=str,
+                        help="List file of individual wikidata ids that need a swerik ID")
     args = parser.parse_args()
     if not len(sys.argv) > 1:
         print("DANGER ZONE: You called the sctript that will regnerate all SWERIK IDs, but probably don't want to do that!")
