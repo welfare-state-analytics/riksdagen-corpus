@@ -177,7 +177,7 @@ def count_MP():
     print("Counting MPs (unique people w/ role)...")
     N_MP = 0
     df = pd.read_csv("corpus/metadata/member_of_parliament.csv")
-    N_MP = len(df["wiki_id"].unique())
+    N_MP = len(df["swerik_id"].unique())
     print(f"... {N_MP} individuals have a 'member of parliament' role")
     return N_MP
 
@@ -191,7 +191,7 @@ def count_MIN():
     print("Counting ministers (unique people with role)...")
     N_MIN = 0
     df = pd.read_csv("corpus/metadata/minister.csv")
-    N_MIN = len(df["wiki_id"].unique())
+    N_MIN = len(df["swerik_id"].unique())
     print(f"... {N_MIN} individuals have a 'minister' role")
     return N_MIN
 
