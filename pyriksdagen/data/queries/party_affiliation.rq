@@ -9,7 +9,7 @@ WHERE
     OPTIONAL { ?pParty pqv:P582 [wikibase:timePrecision ?endPrecision; wikibase:timeValue ?end ] }
 
     {
-    PLACEHOLDER
+        PLACEHOLDER
     }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "sv". }
 }

@@ -1,0 +1,15 @@
+SELECT ?swerik_id ?wiki_id ?SwePaPeGUID ?RiPeID ?SwePoArID ?DiSweNaBiID ?UpUnAlID
+WHERE
+{
+    ?wiki_id wdt:P31 wd:Q5;
+             wdt:P12192 ?swerik_id.
+    OPTIONAL { ?wiki_id p:P8388/ps:P8388 ?SwePaPeGUID. }.
+    OPTIONAL { ?wiki_id p:P1214/ps:P1214 ?RiPeID. }.
+    OPTIONAL { ?wiki_id p:P4819/ps:P4819 ?SwePoArID. }.
+    OPTIONAL { ?wiki_id p:P3217/ps:P3217 ?DiSweNaBiID. }.
+    OPTIONAL { ?wiki_id p:P6821/ps:P6821 ?UpUnAlID. }.
+    {
+        PLACEHOLDER
+    }
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "sv". }
+}

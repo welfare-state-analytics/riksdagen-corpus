@@ -1,17 +1,18 @@
-SELECT DISTINCT ?swerik_id ?governmentLabel ?roleLabel ?start ?end ?startPrecision ?endPrecision
+SELECT DISTINCT ?swerik_id ?wiki_id ?governmentLabel ?roleLabel ?start ?end ?startPrecision ?endPrecision
 WHERE {
   {
-  VALUES ?government { wd:Q3046743 wd:Q4570153 wd:Q4570314 wd:Q4570330 wd:Q4570354 wd:Q4570378 wd:Q4570967 wd:Q4907240 wd:Q4907653 wd:Q4957676 wd:Q5217837 wd:Q5306179 wd:Q5306186 wd:Q5306190 wd:Q5306200 wd:Q10650416 wd:Q10650420 wd:Q10650424 wd:Q10650438 wd:Q10650456 wd:Q18176361 wd:Q60736270 wd:Q107443672 wd:Q109705067 } 
+  VALUES ?government { wd:Q3046743 wd:Q4570153 wd:Q4570314 wd:Q4570330 wd:Q4570354 wd:Q4570378 wd:Q4570967 wd:Q4907240 wd:Q4907653 wd:Q4957676 wd:Q5217837 wd:Q5306179 wd:Q5306186 wd:Q5306190 wd:Q5306200 wd:Q10650416 wd:Q10650420 wd:Q10650424 wd:Q10650438 wd:Q10650456 wd:Q18176361 wd:Q60736270 wd:Q107443672 wd:Q109705067 wd:Q10650433 wd:Q10650467 wd:Q10650443 wd:Q10650466 wd:Q10650444 wd:Q10650457 wd:Q10650411 wd:Q10650411 wd:Q10650410 wd:Q10650478 wd:Q10650428 wd:Q10650472 wd:Q10650473 wd:Q10650455 wd:Q18455029 }
   ?government p:P527 ?pMinister.
   ?pMinister  ps:P527 ?wiki_id;
+
               pq:P3831 ?role
   OPTIONAL{?pMinister pqv:P580 [wikibase:timePrecision ?startPrecision; wikibase:timeValue ?start ]}
   OPTIONAL{?pMinister pqv:P582 [wikibase:timePrecision ?endPrecision; wikibase:timeValue ?end ]}
   } UNION {
 
   ?wiki_id wdt:P31 wd:Q5;
-           p:P39 ?posheld;
-           wdt:P12192 ?swerik_id.
+           p:P39 ?posheld.
+  ?wiki_id wdt:P12192 ?swerik_id.
 
   # Position held in government
   {

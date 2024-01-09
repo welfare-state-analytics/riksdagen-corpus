@@ -1,4 +1,4 @@
-SELECT DISTINCT ?swerik_id ?start ?end ?roleLabel ?startPrecision ?endPrecision
+SELECT DISTINCT ?swerik_id ?wiki_id ?start ?end ?roleLabel ?startPrecision ?endPrecision
 WHERE
 {
     ?wiki_id wdt:P31 wd:Q5;

@@ -1,0 +1,11 @@
+SELECT ?swerik_id ?portrait
+WHERE
+{
+        ?wiki_id wdt:P31 wd:Q5;
+                 wdt:P18 ?portrait;
+                 wdt:P12192 ?swerik_id.
+    {
+        PLACEHOLDER
+    }
+      SERVICE wikibase:label { bd:serviceParam wikibase:language "sv". }
+}
