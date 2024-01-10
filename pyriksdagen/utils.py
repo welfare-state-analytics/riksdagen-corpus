@@ -8,6 +8,7 @@ import lxml
 from lxml import etree
 from bs4 import BeautifulSoup
 from pathlib import Path
+from pyparlaclarin.refine import format_texts
 from datetime import datetime
 import hashlib, uuid, base58, requests, tqdm
 import zipfile
@@ -69,7 +70,7 @@ def infer_metadata(filename):
                 # Protocol ids of format 197879 have two years, eg. 1978 and 1979
                 if s[4:6].isdigit():
                     metadata["secondary_year"] = year + 1
-                    metadata["sitting"] += f"/{s[4:6]}"
+                    metadata["sitting"] += f"{s[4:6]}"
 
     # Chamber
     metadata["chamber"] = "Enkammarriksdagen"
@@ -116,17 +117,24 @@ def validate_xml_schema(xml_path, schema_path):
     xml_file.xinclude()
 
     schema = lxml.etree.XMLSchema(file=schema_path)
-    is_valid = schema.validate(xml_file)
+
+    try:
+        schema.assertValid(xml_file)
+        return True
+    except etree.DocumentInvalid as err:
+        print(err)
+        return False
 
     return is_valid
 
 
-def protocol_iterators(corpus_root, start=None, end=None):
+def protocol_iterators(corpus_root, document_type=None, start=None, end=None):
     """
     Returns an iterator of protocol paths in a corpus.
 
     Args:
         corpus_root (str): path to the corpus root
+        document_type (str): type of document (prot, mot, etc.). If None, fetches all types
         start (int): start year
         end (int): end year
 
@@ -134,7 +142,13 @@ def protocol_iterators(corpus_root, start=None, end=None):
         iterator of the protocols as relative paths to current location
     """
     folder = Path(corpus_root)
-    for protocol in sorted(folder.glob("**/*.xml")):
+    docs = folder.glob("**/*.xml")
+    if document_type is not None:
+        docs = folder.glob(f"**/{document_type}*.xml")
+    for protocol in sorted(docs):
+        metadata = infer_metadata(protocol.name)
+        if "year" not in metadata:
+            continue
         path = protocol.relative_to(".")
         assert (start is None) == (
             end is None
@@ -142,6 +156,8 @@ def protocol_iterators(corpus_root, start=None, end=None):
         if start is not None and end is not None:
             metadata = infer_metadata(protocol.name)
             year = metadata["year"]
+            if not year:
+                continue
             secondary_year = metadata.get("secondary_year", year)
             if start <= year and end >= secondary_year:
                 yield str(protocol.relative_to("."))
@@ -256,3 +272,33 @@ def get_doc_dates(protocol):
             match_error = True
         dates.append(when_attrib)
     return match_error, dates
+
+def write_protocol(prot_elem, prot_path):
+    """
+    Writes the protocol lxml element (`prot_elem`) to the specified path (`prot_path`).
+    """
+    prot_elem = format_texts(prot_elem)
+    b = etree.tostring(
+        prot_elem,
+        pretty_print=True,
+        encoding="utf-8",
+        xml_declaration=True
+    )
+    with open(prot_path, "wb") as f:
+        f.write(b)
+
+def parse_protocol(protocol_path, get_ns=False):
+    """
+    Parse a protocol, return root element (and name space defnitions).
+    """
+    tei_ns = "{http://www.tei-c.org/ns/1.0}"
+    xml_ns = "{http://www.w3.org/XML/1998/namespace}"
+    parser = etree.XMLParser(remove_blank_text=True)
+    root = etree.parse(protocol_path, parser).getroot()
+    if get_ns:
+        return root, {"tei_ns":tei_ns, "xml_ns":xml_ns}
+    else:
+        return root
+
+
+

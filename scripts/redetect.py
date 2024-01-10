@@ -13,16 +13,16 @@ from functools import partial
 
 def main(args):
     
-    party_mapping, join_intros, *dfs  = load_metadata()
-    join_intros['text'] = join_intros.apply(lambda x: join_text(x['text1'], x['text2']), axis=1)
-    join_intros = join_intros.drop(['text1', 'text2'], axis=1)
+    party_mapping, *dfs  = load_metadata()
+    ## DEPRECIATED ##join_intros['text'] = join_intros.apply(lambda x: join_text(x['text1'], x['text2']), axis=1)
+    ## DEPRECIATED ##join_intros = join_intros.drop(['text1', 'text2'], axis=1)
 
     for df in dfs:
         df[["start", "end"]] = df[["start", "end"]].apply(pd.to_datetime, format='%Y-%m-%d')
-    metadata = [party_mapping, join_intros] + dfs
+    metadata = [party_mapping] + dfs
     
     redetect_fun = partial(redetect_protocol, metadata)
-    protocols = sorted(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end))    )    
+    protocols = sorted(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end)))
     unknowns = []
     if args.parallel == 1:
         pool = Pool()

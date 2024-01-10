@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 200001</title>
+        <title>Protokoll</title>
       </titleStmt>
       <editionStmt>
         <edition>0.4.2</edition>
@@ -13,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 200001</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -25,463 +25,450 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <editionStmt>
-          <edition>0.4.2</edition>
-        </editionStmt>
-        <publicationStmt>
-          <authority>National Library of Sweden and the WESTAC project</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some data curation was done. It is documented in input/curation/instances</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-200001--120</head>
-          <docDate when="2001-06-06">2001-06-06</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="http://data.riksdagen.se/fil/861DC205-C857-4242-A35D-9280635D219F#page=1"/>
-          <note xml:id="i-5WWSeGRAkwG489DqpG25vs">
-            Det justerade protokollet beräknas utkomma om 3 veckor
-          </note>
-          <note xml:id="i-YytBpXvaHUx1vDd4VxDEc">
-            ------------------------------------------------------------------
-          </note>
-          <note xml:id="i-JXyXuhvyxsHYsGSmSDzJn6">
-            1 § Justering av protokoll
-          </note>
-          <note xml:id="i-HdJXNkFNSLCd6o3s9Cvgec">
-            Justerades protokollen för den 28, 29 och 30 maj.
-          </note>
-          <note xml:id="i-MRMmPmqbUkaU7t4eHg1PPH">
-            2 § Anmälan om inkomna faktapromemorior om förslag från Europeiska
-            kommissionen, m.m.
-          </note>
-          <u xml:id="i-92zrZN1NoFam687iSTtY98" who="unknown" next="i-QvBjzFRTMqQJfwRgTyf98s">
-            <seg xml:id="i-YZKTsZBk52PM4x3hmQkCNo">
-              Talmannen anmälde att följande faktapromemorior om förslag från
-              Europeiska kommissionen inkommit och överlämnats till utskott:
-            </seg>
-          </u>
-          <note xml:id="i-6f7PoWm9nRWkoJSqQZYZkU">
-            2000/01:150 Förslag till europaparlamentets och rådets direktiv
-            om extra tillsyn över kreditinstitut, försäkringsföretag och värdepappersföretag
-            i ett finansiellt konglomerat och om ändring av rådets direktiv
-            KOM (2001) 213 till finansutskottet
-          </note>
-          <note xml:id="i-MR836jiSofmUgxWGfA9uwy">
-            2000/01:151 Meddelande från kommissionen om avskaffande av skattehinder
-            för tillhandahållande av tjänstepensioner över gränserna
-          </note>
-          <note xml:id="i-FmgU3ahcg9sejxFfyT5Xny">
-            KOM (2001) 214 till skatteutskottet
-          </note>
-          <note xml:id="i-WRRSkqqU1o2b7hkKo3RzRR">
-            2000/01:152 Förslag till Europaparlamentets och rådets direktiv
-            om att fastställa höga kvalitets- och säkerhetsstandarder för
-            insamling, bearbetning, förvaring och distribution av helblod
-            och blodkomponenter i syfte att garantera en hög hälsoskyddsnivå
-            för människorna i gemenskapen
-          </note>
-          <note xml:id="i-LdMWC9FFJXeu9VBdpXk7oS">
-            KOM (2000) 816 till socialutskottet
-          </note>
-          <note xml:id="i-Kb73URhkLbGnJMgfWSndiX">
-            2000/01:153 Ventilation i vägfordon som används för djurtransporter
-            som överskrider åtta timmar
-          </note>
-          <note xml:id="i-4t4vvHMv6r5q2S8VwsVLUq">
-            KOM (2001) 197 till miljö- och jordbruksutskottet
-          </note>
-          <note xml:id="i-D2YfGYGUyYFSxhohw4Hrp3">
-            2000/01:154 Skyddsåtgärder mot att skadegörare på växter och
-            växtprodukter förs in i gemenskapen och mot att de sprids inom
-            gemenskapen
-          </note>
-          <note xml:id="i-X24cd2KwWYbeWphZ4HbbMn">
-            KOM (2001 183 till miljö- och jordbruksutskottet
-          </note>
-          <note xml:id="i-KyghUs5wiGXiGJWD8cvbix">
-            2000/01:155 Saluföring av utsäde för foderväxter och stråsäd
-            samt av utsädespotatis KOM (2001) 186
-          </note>
-          <note xml:id="i-Uk4z6d3QYq8sWcJ9SZYCpD">
-            till miljö- och jordbruksutskottet
-          </note>
-          <note xml:id="i-UKhsiFDZrn7nsZriKH5Nks">
-            3 § Hänvisning av ärenden till utskott och beslut om förlängd
-            motionstid
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/861DC205-C857-4242-A35D-9280635D219F#page=2"/>
-          <note xml:id="i-HEgfc39NqVvJW7NJxdnm5A">
-            Föredrogs och hänvisades
-          </note>
-          <note xml:id="i-J2ErKdhj9fUD6g8FZJsz1a">
-            Skrivelse
-          </note>
-          <note xml:id="i-6eDdXHG3TeV7eWw7NFbZZK">
-            2000/01:131 till finansutskottet
-          </note>
-          <note xml:id="i-FC715mrvkXw3ecEsoEShus">
-            Kammaren biföll talmannens förslag att motionstiden för ovanstående
-            skrivelse skulle förlängas till fredagen den 21 september 2001.
-          </note>
-          <note xml:id="i-T8iPVghvoqVU173gaN1wYK">
-            4 § Bordläggning
-          </note>
-          <note xml:id="i-4hwD7WA2YrLLYfyyS9KT2W">
-            Anmäldes och bordlades
-          </note>
-          <note xml:id="i-8WzEh9Z1rS2LhpKAkt5vtV">
-            Motion med anledning av förs. 2000/01:RR13 Riksdagens revisorers
-            förslag angående Regeringskansliets upphandling av konsulter
-          </note>
-          <note xml:id="i-5aokbULQ7W2u5tKswoqMGo">
-            2000/01:K16 av Helena Bargholtz m.fl. (fp)
-          </note>
-          <note xml:id="i-UFXL5j8WMntSSwWVNZZizZ">
-            Utrikesutskottets betänkande
-          </note>
-          <note xml:id="i-B4ZjSfCYBoMmBcYidM9aar">
-            2000/01:UU9 Utvecklingssamarbetet med Centraloch Östeuropa
-          </note>
-          <note xml:id="i-StFHpB9qGNwQrPKXDhxU2h">
-            Utbildningsutskottets betänkande
-          </note>
-          <note xml:id="i-CbQzfx7dFeVPWDAUovtmxh">
-            2000/01:UbU17 Nytt huvudmannaskap för vårdhögskoleutbildningar
-          </note>
-          <note xml:id="i-RfuPx6ysWMWw8giJpohRnH">
-            Miljö- och jordbruksutskottets betänkande
-          </note>
-          <note xml:id="i-9nrY518YJpzrEibsmUTun7">
-            2000/01:MJU19 Kärnsäkerhet
-          </note>
-          <note xml:id="i-99j4APKdrxiH1p1dPKpfJW">
-            Konstitutionsutskottets betänkanden
-          </note>
-          <note xml:id="i-BSuXzkC3CB3brPekSEM3WF">
-            2000/01:KU21 Kommittéberättelse 2001
-          </note>
-          <note xml:id="i-PzbPxL25qMLYAQsW6yTWSZ">
-            2000/01:KU25 Riksdagsledamöternas tjänsteresor
-          </note>
-          <note xml:id="i-LHtAvPtjZBkmbSXBgBZ1RN">
-            Bostadsutskottets betänkande
-          </note>
-          <note xml:id="i-EpCdcPogEpB3HYQyzA89Wt">
-            2000/01:BoU13 Ändring i läns- och landstingsindelningen
-          </note>
-          <note xml:id="i-NWZF6DqoMrVDj2mCCvNddE">
-            5 § Anmälan om frågor för skriftliga svar
-          </note>
-          <note xml:id="i-9js3mDBtHqFfnkPFRV5wQe">
-            Anmäldes att följande frågor för skriftliga svar framställts
-          </note>
-          <note xml:id="i-LGByuqJexQcMD5iJbCgSUc">
-            den 5 juni
-          </note>
-          <note xml:id="i-2c8PSgQEuzx71tV7w1s6st">
-            2000/01:1326 av Margareta Viklund (kd) till utrikesminister Anna
-            Lindh
-          </note>
-          <note xml:id="i-UaxG8u4FyhuXWs8iYNrctZ">
-            Mänskliga rättigheter
-          </note>
-          <note xml:id="i-4abtLD5hnzVC1zHvFnd85N">
-            2000/01:1327 av Lars Elinderson (m) till justitieminister Thomas
-            Bodström
-          </note>
-          <note xml:id="i-LsPcdYZDFJzvvxUHMhkbvw">
-            Skydd av personuppgifter
-          </note>
-          <note xml:id="i-HcRr5vAdLYSuFGZMuKDuY8">
-            2000/01:1328 av Sven Bergström (c) till näringsminister Björn
-            Rosengren
-          </note>
-          <note xml:id="i-ChR62qZUbywGt3zF19b1cw">
-            Körkortsutbildningen
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/861DC205-C857-4242-A35D-9280635D219F#page=3"/>
-          <note xml:id="i-6tqPFNbCE4AmULnBuidCuW">
-            2000/01:1329 av Jeppe Johnsson (m) till näringsminister Björn
-            Rosengren
-          </note>
-          <note xml:id="i-BzofZVp7QLgBMp2r2JXvD1">
-            Körkortsprov
-          </note>
-          <note xml:id="i-YbaEYumcthvnHJ8krKDSHj">
-            2000/01:1330 av Åke Sandström (c) till jordbruksminister Margareta
-            Winberg
-          </note>
-          <note xml:id="i-EkDC4WburqUESF4Ue29Y4P">
-            Jordbruket i norra Sverige
-          </note>
-          <note xml:id="i-DSz29RYEf731hkY5EWgfRq">
-            2000/01:1331 av Gunnel Wallin (c) till socialminister
-          </note>
-          <note xml:id="i-CeUbGsbekAa4Q2mgmFHqsF">
-            Lars Engqvist
-          </note>
-          <note xml:id="i-B9eew3Rtt3PDzDqcxzTdCH">
-            Läkemedel för behov under utlandssemester
-          </note>
-          <note xml:id="i-W8QXQmgGWYAQRoEuuaRLZb">
-            2000/01:1332 av Viviann Gerdin (c) till socialminister Lars Engqvist
-          </note>
-          <note xml:id="i-SjTEcgJyNB4PFBj2ZhwYFS">
-            Mammografi
-          </note>
-          <note xml:id="i-PSn2QqkK5ndp2hGxHi47MQ">
-            2000/01:1333 av Lena Sandlin-Hedman (s) till socialminister Lars
-            Engqvist
-          </note>
-          <note xml:id="i-2vMYgQxB6SXj7Hdh32p6Y2">
-            Läkares allmäntjänstgöring
-          </note>
-          <note xml:id="i-HJWKpohUXPqj4ENzTFnNNj">
-            2000/01:1334 av Lena Sandlin-Hedman (s) till statsrådet Mona
-            Sahlin
-          </note>
-          <note xml:id="i-JTfxyWgTLZVRymHWjbH1aC">
-            Utbildning för företagare
-          </note>
-          <note xml:id="i-Gay9zyrMcardHK2MAT1BvT">
-            2000/01:1335 av Lena Sandlin-Hedman (s) till statsrådet Mona
-            Sahlin
-          </note>
-          <note xml:id="i-GrJC6srZhAP38BZPQWXc9P">
-            Strategi mot farligt ensamarbete
-          </note>
-          <note xml:id="i-YR6UUbUnffXVx8NqQKqSF8">
-            2000/01:1336 av Harald Nordlund (fp) till statsrådet
-          </note>
-          <note xml:id="i-FRyS6fEGqm4RSrZx4CYo5c">
-            Mona Sahlin
-          </note>
-          <note xml:id="i-8kMkgc5LktpEJMjAhoDpAH">
-            Fattigdomen i Europa
-          </note>
-          <note xml:id="i-NSjLgShdxyWsDH8tD4f6xS">
-            2000/01:1337 av Lena Sandlin-Hedman (s) till statsrådet Ingegerd
-            Wärnersson
-          </note>
-          <note xml:id="i-3cxFDKS7DuHm6Z4WtaAiZx">
-            Friskolor
-          </note>
-          <note xml:id="i-HFQczmq5FRfPPVRM65m4Bu">
-            2000/01:1338 av Lena Sandlin-Hedman (s) till statsrådet Ingela
-            Thalén
-          </note>
-          <note xml:id="i-Bhg6JDRjvMYhWz3Q1sMWti">
-            Statlig rehabiliteringsförsäkring
-          </note>
-          <note xml:id="i-RsNAeJ9H3rwpgecAkBUN2f">
-            2000/01:1339 av Lena Sandlin-Hedman (s) till utbildningsminister
-            Thomas Östros
-          </note>
-          <note xml:id="i-5Q3ww6iiydWFjHJhBgfgrz">
-            Tandläkarbristen
-          </note>
-          <note xml:id="i-NW65et2HDHa5SGH41RU4Un">
-            2000/01:1340 av Harald Nordlund (fp) till miljöminister Kjell
-            Larsson
-          </note>
-          <note xml:id="i-61NFhczFq8CmaBCWExDSXq">
-            Hälsofarliga partikelutsläpp från personbilar
-          </note>
-          <note xml:id="i-MmJosBSfGHuAh2eemRJhB8">
-            2000/01:1341 av Inger Strömbom (kd) till kulturminister Marita
-            Ulvskog
-          </note>
-          <note xml:id="i-FS7cVsZEutsYtMPCEirmaN">
-            Nobelmuseet i Karlskoga
-          </note>
-          <note xml:id="i-AnCCnGXKJ8M47aEkw16ACJ">
-            den 6 juni
-          </note>
-          <note xml:id="i-8968s3kQTrGiqGqZ8t6wQ8">
-            2000/01:1342 av Rolf Gunnarsson (m) till försvarsminister Björn
-            von Sydow
-          </note>
-          <note xml:id="i-NinAky3fNbbUEY7to71Hvg">
-            Älvdalens skjutfält
-          </note>
-          <note xml:id="i-B9rozU68iHHe2SefsrfqRZ">
-            2000/01:1343 av Lennart Fridén (m) till försvarsminister Björn
-            von Sydow
-          </note>
-          <note xml:id="i-X4nRb2owk86SDwaGoFatrS">
-            Försvarsmaktens musikkår
-          </note>
-          <note xml:id="i-KJthofmUFEnhuR3wHnrnFc">
-            2000/01:1344 av Helena Bargholtz (fp) till utrikesminister Anna
-            Lindh
-          </note>
-          <note xml:id="i-BpkLSUeVzoidU4QXMiTiYD">
-            OS i Kina
-          </note>
-          <note xml:id="i-3Xp2yroHoV8RjC8e6imNpu">
-            2000/01:1345 av Göte Jonsson (m) till näringsminister Björn Rosengren
-          </note>
-          <note xml:id="i-5tkWdmf8UKySWeTGdPp6aP">
-            Körkortsproven
-          </note>
-          <note xml:id="i-P5wX61HVRV7wLjJ99ymNoM">
-            2000/01:1346 av Sten Tolgfors (m) till statsminister
-          </note>
-          <note xml:id="i-Xkugwivg85qYC2nBg3AuSf">
-            Göran Persson
-          </note>
-          <note xml:id="i-99e3vU32Q17znS9Qv7Ng56">
-            Östutvidgningen
-          </note>
-          <note xml:id="i-tte3CHd2cxdVxo7AjkZMG">
-            2000/01:1347 av Lennart Fridén (m) till justitieminister Thomas
-            Bodström
-          </note>
-          <note xml:id="i-7AjLXFEqQYCH7QS8chqery">
-            Handläggning av parkeringsförseelser
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/861DC205-C857-4242-A35D-9280635D219F#page=4"/>
-          <note xml:id="i-V4mwf41VsWrEps5pCKc42u">
-            2000/01:1348 av Berit Adolfsson (m) till justitieminister Thomas
-            Bodström
-          </note>
-          <note xml:id="i-UUVZFFdTJemcckwGsnS79a">
-            Vårdnad och våldsbrott
-          </note>
-          <note xml:id="i-5rv1sXfiFXE7nDqiGxT2Wa">
-            2000/01:1349 av Gunnar Axén (m) till statsrådet
-          </note>
-          <note xml:id="i-ASoyYBXaWDm7HxaFCgaYMK">
-            Britta Lejon
-          </note>
-          <note xml:id="i-D8EEjBTV6vLxHPLcwrnpkq">
-            Kommunala nyval
-          </note>
-          <note xml:id="i-51WiS3P896YR6DwbMkJ8u6">
-            2000/01:1350 av Lennart Fridén (m) till statsrådet
-          </note>
-          <note xml:id="i-LnHzHTfHb779RJGuJ7RR8j">
-            Ingegerd Wärnersson
-          </note>
-          <note xml:id="i-PQqcZYQSLSyULvS2hpRJ4m">
-            Simundervisningen
-          </note>
-          <note xml:id="i-QgXwoNoDExDCw9rynfes2p">
-            2000/01:1351 av Erling Wälivaara (kd) till socialminister Lars
-            Engqvist
-          </note>
-          <note xml:id="i-X4GnJPn9vDCbfhaBNT8o64">
-            Ansvar för vården
-          </note>
-          <u xml:id="i-QvBjzFRTMqQJfwRgTyf98s" who="unknown" prev="i-92zrZN1NoFam687iSTtY98" next="i-65MZnAiDgM5LNWZ2bWZttb">
-            <seg xml:id="i-F8TUXWHqjd2bDpgWtCSDDt">
-              Frågorna redovisas i bilaga som fogas till riksdagens snabbprotokoll
-              tisdagen den 12 juni.
-            </seg>
-          </u>
-          <note xml:id="i-T77rB6RLGB9ym1DD2ys9GD">
-            6 § Anmälan om skriftliga svar på frågor
-          </note>
-          <note xml:id="i-Eqwsi1RR9tYiEK4yRMWPUK">
-            Anmäldes att skriftliga svar på följande frågor inkommit
-          </note>
-          <note xml:id="i-VvD9qNkBGtmno968cTDd8T">
-            den 1 juni
-          </note>
-          <note xml:id="i-PQRRvBkMghuW5XcUytedTR">
-            2000/01:1296 av Harald Nordlund (fp) till miljöminister Kjell
-            Larsson
-          </note>
-          <note xml:id="i-Y8JMx1ueqnVuJzn3GmQdre">
-            Ekbeståndet
-          </note>
-          <note xml:id="i-UevmYng8QpatdPAW4VggC">
-            den 5 juni
-          </note>
-          <note xml:id="i-LQDoXge3i1zwWc1B1VmgDj">
-            2000/01:1309 av Kenneth Johansson (c) till socialminister Lars
-            Engqvist
-          </note>
-          <note xml:id="i-NJ4LUGfwetyfP3DCHR2m1f">
-            Vinst vid produktion av välfärdstjänster
-          </note>
-          <note xml:id="i-JYEAJbek9Kn2Aub3zaC2rb">
-            2000/01:1319 av Margareta Cederfelt (m) till justitieminister
-            Thomas Bodström
-          </note>
-          <note xml:id="i-P64qPLUwgSNFhAudsD7Js">
-            Avvikelser från rättspsykiatrin
-          </note>
-          <note xml:id="i-uNG9NMXxzMit8g5REx1Ji">
-            den 6 juni
-          </note>
-          <note xml:id="i-RvTnPj3dwzEJWmc1FyVuMF">
-            2000/01:1258 av andre vice talman Eva Zetterberg
-          </note>
-          <note xml:id="i-HNBEXp3gauCiDwmxUwg5Kv">
-            (v) till statsrådet Leif Pagrotsky
-          </note>
-          <note xml:id="i-K2EvPLHDHj1Ywt464Hpjbq">
-            Exportkrediter och dammbyggen i tredje världen
-          </note>
-          <note xml:id="i-HoToFq482BUNv4wfNvLGsY">
-            2000/01:1308 av Agneta Lundberg (s) till finansminister Bosse
-            Ringholm
-          </note>
-          <note xml:id="i-35wxhZfVoz8HT3u8Wi5jng">
-            Skattebefrielse för bränsle i viss försöksverksamhet
-          </note>
-          <note xml:id="i-MYaRBGaMrs1KvxfHxQiia6">
-            2000/01:1311 av Marianne Andersson (c) till statsrådet Mona Sahlin
-          </note>
-          <note xml:id="i-NgkL5UAjjaa68gKQ17XQuM">
-            Elektriska och magnetiska fält
-          </note>
-          <note xml:id="i-LXqYjZKnHHjmcSupYBhpxJ">
-            2000/01:1314 av Berit Jóhannesson (v) till försvarsminister Björn
-            von Sydow
-          </note>
-          <note xml:id="i-G1P7iGA9juYuJc5u8wfPGw">
-            Värnpliktsutbildning
-          </note>
-          <u xml:id="i-65MZnAiDgM5LNWZ2bWZttb" who="unknown" prev="i-QvBjzFRTMqQJfwRgTyf98s">
-            <seg xml:id="i-SvWdnvUPM8MF253dcvo5qt">
-              Svaren redovisas i bilaga som fogas till riksdagens snabbprotokoll
-              tisdagen den 12 juni.
-            </seg>
-          </u>
-          <note xml:id="i-WUn4GaHng5LVeyorHX49MF">
-            7 § Kammaren åtskildes kl. 13.01.
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/861DC205-C857-4242-A35D-9280635D219F#page=5"/>
-          <note xml:id="i-GokWtrfUXJvLEcdiQ6yDYL">
-            Förhandlingarna leddes av talmannen.
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-200001--120</head>
+        <docDate when="2001-06-06">2001-06-06</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-6W83Eioi6s86t6HxEmwzAT">
+        <pb facs="http://data.riksdagen.se/fil/861DC205-C857-4242-A35D-9280635D219F#page=1"/>
+        <note xml:id="i-5WWSeGRAkwG489DqpG25vs">
+          Det justerade protokollet beräknas utkomma om 3 veckor
+        </note>
+        <note xml:id="i-YytBpXvaHUx1vDd4VxDEc">
+          ------------------------------------------------------------------
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-6DA8chgjAwUpQGfEGesnwi">
+        <note xml:id="i-JXyXuhvyxsHYsGSmSDzJn6">
+          1 § Justering av protokoll
+        </note>
+        <note xml:id="i-HdJXNkFNSLCd6o3s9Cvgec">
+          Justerades protokollen för den 28, 29 och 30 maj.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-Mxv5YPD4V96sP2bc2Krnk8">
+        <note xml:id="i-MRMmPmqbUkaU7t4eHg1PPH">
+          2 § Anmälan om inkomna faktapromemorior om förslag från Europeiska
+          kommissionen, m.m.
+        </note>
+        <u xml:id="i-92zrZN1NoFam687iSTtY98" who="unknown">
+          <seg xml:id="i-YZKTsZBk52PM4x3hmQkCNo">
+            Talmannen anmälde att följande faktapromemorior om förslag från
+            Europeiska kommissionen inkommit och överlämnats till utskott:
+          </seg>
+        </u>
+        <note xml:id="i-6f7PoWm9nRWkoJSqQZYZkU">
+          2000/01:150 Förslag till europaparlamentets och rådets direktiv
+          om extra tillsyn över kreditinstitut, försäkringsföretag och värdepappersföretag
+          i ett finansiellt konglomerat och om ändring av rådets direktiv
+          KOM (2001) 213 till finansutskottet
+        </note>
+        <note xml:id="i-MR836jiSofmUgxWGfA9uwy">
+          2000/01:151 Meddelande från kommissionen om avskaffande av skattehinder
+          för tillhandahållande av tjänstepensioner över gränserna
+        </note>
+        <note xml:id="i-FmgU3ahcg9sejxFfyT5Xny">
+          KOM (2001) 214 till skatteutskottet
+        </note>
+        <note xml:id="i-WRRSkqqU1o2b7hkKo3RzRR">
+          2000/01:152 Förslag till Europaparlamentets och rådets direktiv
+          om att fastställa höga kvalitets- och säkerhetsstandarder för
+          insamling, bearbetning, förvaring och distribution av helblod
+          och blodkomponenter i syfte att garantera en hög hälsoskyddsnivå
+          för människorna i gemenskapen
+        </note>
+        <note xml:id="i-LdMWC9FFJXeu9VBdpXk7oS">
+          KOM (2000) 816 till socialutskottet
+        </note>
+        <note xml:id="i-Kb73URhkLbGnJMgfWSndiX">
+          2000/01:153 Ventilation i vägfordon som används för djurtransporter
+          som överskrider åtta timmar
+        </note>
+        <note xml:id="i-4t4vvHMv6r5q2S8VwsVLUq">
+          KOM (2001) 197 till miljö- och jordbruksutskottet
+        </note>
+        <note xml:id="i-D2YfGYGUyYFSxhohw4Hrp3">
+          2000/01:154 Skyddsåtgärder mot att skadegörare på växter och
+          växtprodukter förs in i gemenskapen och mot att de sprids inom
+          gemenskapen
+        </note>
+        <note xml:id="i-X24cd2KwWYbeWphZ4HbbMn">
+          KOM (2001 183 till miljö- och jordbruksutskottet
+        </note>
+        <note xml:id="i-KyghUs5wiGXiGJWD8cvbix">
+          2000/01:155 Saluföring av utsäde för foderväxter och stråsäd
+          samt av utsädespotatis KOM (2001) 186
+        </note>
+        <note xml:id="i-Uk4z6d3QYq8sWcJ9SZYCpD">
+          till miljö- och jordbruksutskottet
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-89WrF8eUuo8HTfsMvhuGiM">
+        <note xml:id="i-UKhsiFDZrn7nsZriKH5Nks">
+          3 § Hänvisning av ärenden till utskott och beslut om förlängd
+          motionstid
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/861DC205-C857-4242-A35D-9280635D219F#page=2"/>
+        <note xml:id="i-HEgfc39NqVvJW7NJxdnm5A">
+          Föredrogs och hänvisades
+        </note>
+        <note xml:id="i-J2ErKdhj9fUD6g8FZJsz1a">
+          Skrivelse
+        </note>
+        <note xml:id="i-6eDdXHG3TeV7eWw7NFbZZK">
+          2000/01:131 till finansutskottet
+        </note>
+        <note xml:id="i-FC715mrvkXw3ecEsoEShus">
+          Kammaren biföll talmannens förslag att motionstiden för ovanstående
+          skrivelse skulle förlängas till fredagen den 21 september 2001.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-RUXSgpWeEYTQ8AoYs5cjQP">
+        <note xml:id="i-T8iPVghvoqVU173gaN1wYK">
+          4 § Bordläggning
+        </note>
+        <note xml:id="i-4hwD7WA2YrLLYfyyS9KT2W">
+          Anmäldes och bordlades
+        </note>
+        <note xml:id="i-8WzEh9Z1rS2LhpKAkt5vtV">
+          Motion med anledning av förs. 2000/01:RR13 Riksdagens revisorers
+          förslag angående Regeringskansliets upphandling av konsulter
+        </note>
+        <note xml:id="i-5aokbULQ7W2u5tKswoqMGo">
+          2000/01:K16 av Helena Bargholtz m.fl. (fp)
+        </note>
+        <note xml:id="i-UFXL5j8WMntSSwWVNZZizZ">
+          Utrikesutskottets betänkande
+        </note>
+        <note xml:id="i-B4ZjSfCYBoMmBcYidM9aar">
+          2000/01:UU9 Utvecklingssamarbetet med Centraloch Östeuropa
+        </note>
+        <note xml:id="i-StFHpB9qGNwQrPKXDhxU2h">
+          Utbildningsutskottets betänkande
+        </note>
+        <note xml:id="i-CbQzfx7dFeVPWDAUovtmxh">
+          2000/01:UbU17 Nytt huvudmannaskap för vårdhögskoleutbildningar
+        </note>
+        <note xml:id="i-RfuPx6ysWMWw8giJpohRnH">
+          Miljö- och jordbruksutskottets betänkande
+        </note>
+        <note xml:id="i-9nrY518YJpzrEibsmUTun7">
+          2000/01:MJU19 Kärnsäkerhet
+        </note>
+        <note xml:id="i-99j4APKdrxiH1p1dPKpfJW">
+          Konstitutionsutskottets betänkanden
+        </note>
+        <note xml:id="i-BSuXzkC3CB3brPekSEM3WF">
+          2000/01:KU21 Kommittéberättelse 2001
+        </note>
+        <note xml:id="i-PzbPxL25qMLYAQsW6yTWSZ">
+          2000/01:KU25 Riksdagsledamöternas tjänsteresor
+        </note>
+        <note xml:id="i-LHtAvPtjZBkmbSXBgBZ1RN">
+          Bostadsutskottets betänkande
+        </note>
+        <note xml:id="i-EpCdcPogEpB3HYQyzA89Wt">
+          2000/01:BoU13 Ändring i läns- och landstingsindelningen
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-rhdNpZeSsEaC4gHT9r35T">
+        <note xml:id="i-NWZF6DqoMrVDj2mCCvNddE">
+          5 § Anmälan om frågor för skriftliga svar
+        </note>
+        <note xml:id="i-9js3mDBtHqFfnkPFRV5wQe">
+          Anmäldes att följande frågor för skriftliga svar framställts
+        </note>
+        <note xml:id="i-LGByuqJexQcMD5iJbCgSUc">
+          den 5 juni
+        </note>
+        <note xml:id="i-2c8PSgQEuzx71tV7w1s6st">
+          2000/01:1326 av Margareta Viklund (kd) till utrikesminister Anna
+          Lindh
+        </note>
+        <note xml:id="i-UaxG8u4FyhuXWs8iYNrctZ">
+          Mänskliga rättigheter
+        </note>
+        <note xml:id="i-4abtLD5hnzVC1zHvFnd85N">
+          2000/01:1327 av Lars Elinderson (m) till justitieminister Thomas
+          Bodström
+        </note>
+        <note xml:id="i-LsPcdYZDFJzvvxUHMhkbvw">
+          Skydd av personuppgifter
+        </note>
+        <note xml:id="i-HcRr5vAdLYSuFGZMuKDuY8">
+          2000/01:1328 av Sven Bergström (c) till näringsminister Björn
+          Rosengren
+        </note>
+        <note xml:id="i-ChR62qZUbywGt3zF19b1cw">
+          Körkortsutbildningen
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/861DC205-C857-4242-A35D-9280635D219F#page=3"/>
+        <note xml:id="i-6tqPFNbCE4AmULnBuidCuW">
+          2000/01:1329 av Jeppe Johnsson (m) till näringsminister Björn
+          Rosengren
+        </note>
+        <note xml:id="i-BzofZVp7QLgBMp2r2JXvD1">
+          Körkortsprov
+        </note>
+        <note xml:id="i-YbaEYumcthvnHJ8krKDSHj">
+          2000/01:1330 av Åke Sandström (c) till jordbruksminister Margareta
+          Winberg
+        </note>
+        <note xml:id="i-EkDC4WburqUESF4Ue29Y4P">
+          Jordbruket i norra Sverige
+        </note>
+        <note xml:id="i-DSz29RYEf731hkY5EWgfRq">
+          2000/01:1331 av Gunnel Wallin (c) till socialminister
+        </note>
+        <note xml:id="i-CeUbGsbekAa4Q2mgmFHqsF">
+          Lars Engqvist
+        </note>
+        <note xml:id="i-B9eew3Rtt3PDzDqcxzTdCH">
+          Läkemedel för behov under utlandssemester
+        </note>
+        <note xml:id="i-W8QXQmgGWYAQRoEuuaRLZb">
+          2000/01:1332 av Viviann Gerdin (c) till socialminister Lars Engqvist
+        </note>
+        <note xml:id="i-SjTEcgJyNB4PFBj2ZhwYFS">
+          Mammografi
+        </note>
+        <note xml:id="i-PSn2QqkK5ndp2hGxHi47MQ">
+          2000/01:1333 av Lena Sandlin-Hedman (s) till socialminister Lars
+          Engqvist
+        </note>
+        <note xml:id="i-2vMYgQxB6SXj7Hdh32p6Y2">
+          Läkares allmäntjänstgöring
+        </note>
+        <note xml:id="i-HJWKpohUXPqj4ENzTFnNNj">
+          2000/01:1334 av Lena Sandlin-Hedman (s) till statsrådet Mona
+          Sahlin
+        </note>
+        <note xml:id="i-JTfxyWgTLZVRymHWjbH1aC">
+          Utbildning för företagare
+        </note>
+        <note xml:id="i-Gay9zyrMcardHK2MAT1BvT">
+          2000/01:1335 av Lena Sandlin-Hedman (s) till statsrådet Mona
+          Sahlin
+        </note>
+        <note xml:id="i-GrJC6srZhAP38BZPQWXc9P">
+          Strategi mot farligt ensamarbete
+        </note>
+        <note xml:id="i-YR6UUbUnffXVx8NqQKqSF8">
+          2000/01:1336 av Harald Nordlund (fp) till statsrådet
+        </note>
+        <note xml:id="i-FRyS6fEGqm4RSrZx4CYo5c">
+          Mona Sahlin
+        </note>
+        <note xml:id="i-8kMkgc5LktpEJMjAhoDpAH">
+          Fattigdomen i Europa
+        </note>
+        <note xml:id="i-NSjLgShdxyWsDH8tD4f6xS">
+          2000/01:1337 av Lena Sandlin-Hedman (s) till statsrådet Ingegerd
+          Wärnersson
+        </note>
+        <note xml:id="i-3cxFDKS7DuHm6Z4WtaAiZx">
+          Friskolor
+        </note>
+        <note xml:id="i-HFQczmq5FRfPPVRM65m4Bu">
+          2000/01:1338 av Lena Sandlin-Hedman (s) till statsrådet Ingela
+          Thalén
+        </note>
+        <note xml:id="i-Bhg6JDRjvMYhWz3Q1sMWti">
+          Statlig rehabiliteringsförsäkring
+        </note>
+        <note xml:id="i-RsNAeJ9H3rwpgecAkBUN2f">
+          2000/01:1339 av Lena Sandlin-Hedman (s) till utbildningsminister
+          Thomas Östros
+        </note>
+        <note xml:id="i-5Q3ww6iiydWFjHJhBgfgrz">
+          Tandläkarbristen
+        </note>
+        <note xml:id="i-NW65et2HDHa5SGH41RU4Un">
+          2000/01:1340 av Harald Nordlund (fp) till miljöminister Kjell
+          Larsson
+        </note>
+        <note xml:id="i-61NFhczFq8CmaBCWExDSXq">
+          Hälsofarliga partikelutsläpp från personbilar
+        </note>
+        <note xml:id="i-MmJosBSfGHuAh2eemRJhB8">
+          2000/01:1341 av Inger Strömbom (kd) till kulturminister Marita
+          Ulvskog
+        </note>
+        <note xml:id="i-FS7cVsZEutsYtMPCEirmaN">
+          Nobelmuseet i Karlskoga
+        </note>
+        <note xml:id="i-AnCCnGXKJ8M47aEkw16ACJ">
+          den 6 juni
+        </note>
+        <note xml:id="i-8968s3kQTrGiqGqZ8t6wQ8">
+          2000/01:1342 av Rolf Gunnarsson (m) till försvarsminister Björn
+          von Sydow
+        </note>
+        <note xml:id="i-NinAky3fNbbUEY7to71Hvg">
+          Älvdalens skjutfält
+        </note>
+        <note xml:id="i-B9rozU68iHHe2SefsrfqRZ">
+          2000/01:1343 av Lennart Fridén (m) till försvarsminister Björn
+          von Sydow
+        </note>
+        <note xml:id="i-X4nRb2owk86SDwaGoFatrS">
+          Försvarsmaktens musikkår
+        </note>
+        <note xml:id="i-KJthofmUFEnhuR3wHnrnFc">
+          2000/01:1344 av Helena Bargholtz (fp) till utrikesminister Anna
+          Lindh
+        </note>
+        <note xml:id="i-BpkLSUeVzoidU4QXMiTiYD">
+          OS i Kina
+        </note>
+        <note xml:id="i-3Xp2yroHoV8RjC8e6imNpu">
+          2000/01:1345 av Göte Jonsson (m) till näringsminister Björn Rosengren
+        </note>
+        <note xml:id="i-5tkWdmf8UKySWeTGdPp6aP">
+          Körkortsproven
+        </note>
+        <note xml:id="i-P5wX61HVRV7wLjJ99ymNoM">
+          2000/01:1346 av Sten Tolgfors (m) till statsminister
+        </note>
+        <note xml:id="i-Xkugwivg85qYC2nBg3AuSf">
+          Göran Persson
+        </note>
+        <note xml:id="i-99e3vU32Q17znS9Qv7Ng56">
+          Östutvidgningen
+        </note>
+        <note xml:id="i-tte3CHd2cxdVxo7AjkZMG">
+          2000/01:1347 av Lennart Fridén (m) till justitieminister Thomas
+          Bodström
+        </note>
+        <note xml:id="i-7AjLXFEqQYCH7QS8chqery">
+          Handläggning av parkeringsförseelser
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/861DC205-C857-4242-A35D-9280635D219F#page=4"/>
+        <note xml:id="i-V4mwf41VsWrEps5pCKc42u">
+          2000/01:1348 av Berit Adolfsson (m) till justitieminister Thomas
+          Bodström
+        </note>
+        <note xml:id="i-UUVZFFdTJemcckwGsnS79a">
+          Vårdnad och våldsbrott
+        </note>
+        <note xml:id="i-5rv1sXfiFXE7nDqiGxT2Wa">
+          2000/01:1349 av Gunnar Axén (m) till statsrådet
+        </note>
+        <note xml:id="i-ASoyYBXaWDm7HxaFCgaYMK">
+          Britta Lejon
+        </note>
+        <note xml:id="i-D8EEjBTV6vLxHPLcwrnpkq">
+          Kommunala nyval
+        </note>
+        <note xml:id="i-51WiS3P896YR6DwbMkJ8u6">
+          2000/01:1350 av Lennart Fridén (m) till statsrådet
+        </note>
+        <note xml:id="i-LnHzHTfHb779RJGuJ7RR8j">
+          Ingegerd Wärnersson
+        </note>
+        <note xml:id="i-PQqcZYQSLSyULvS2hpRJ4m">
+          Simundervisningen
+        </note>
+        <note xml:id="i-QgXwoNoDExDCw9rynfes2p">
+          2000/01:1351 av Erling Wälivaara (kd) till socialminister Lars
+          Engqvist
+        </note>
+        <note xml:id="i-X4GnJPn9vDCbfhaBNT8o64">
+          Ansvar för vården
+        </note>
+        <u xml:id="i-QvBjzFRTMqQJfwRgTyf98s" who="unknown">
+          <seg xml:id="i-F8TUXWHqjd2bDpgWtCSDDt">
+            Frågorna redovisas i bilaga som fogas till riksdagens snabbprotokoll
+            tisdagen den 12 juni.
+          </seg>
+        </u>
+      </div>
+      <div type="commentSection" xml:id="i-QmigUwuZcdR3o3FbjLnxMD">
+        <note xml:id="i-T77rB6RLGB9ym1DD2ys9GD">
+          6 § Anmälan om skriftliga svar på frågor
+        </note>
+        <note xml:id="i-Eqwsi1RR9tYiEK4yRMWPUK">
+          Anmäldes att skriftliga svar på följande frågor inkommit
+        </note>
+        <note xml:id="i-VvD9qNkBGtmno968cTDd8T">
+          den 1 juni
+        </note>
+        <note xml:id="i-PQRRvBkMghuW5XcUytedTR">
+          2000/01:1296 av Harald Nordlund (fp) till miljöminister Kjell
+          Larsson
+        </note>
+        <note xml:id="i-Y8JMx1ueqnVuJzn3GmQdre">
+          Ekbeståndet
+        </note>
+        <note xml:id="i-UevmYng8QpatdPAW4VggC">
+          den 5 juni
+        </note>
+        <note xml:id="i-LQDoXge3i1zwWc1B1VmgDj">
+          2000/01:1309 av Kenneth Johansson (c) till socialminister Lars
+          Engqvist
+        </note>
+        <note xml:id="i-NJ4LUGfwetyfP3DCHR2m1f">
+          Vinst vid produktion av välfärdstjänster
+        </note>
+        <note xml:id="i-JYEAJbek9Kn2Aub3zaC2rb">
+          2000/01:1319 av Margareta Cederfelt (m) till justitieminister
+          Thomas Bodström
+        </note>
+        <note xml:id="i-P64qPLUwgSNFhAudsD7Js">
+          Avvikelser från rättspsykiatrin
+        </note>
+        <note xml:id="i-uNG9NMXxzMit8g5REx1Ji">
+          den 6 juni
+        </note>
+        <note xml:id="i-RvTnPj3dwzEJWmc1FyVuMF">
+          2000/01:1258 av andre vice talman Eva Zetterberg
+        </note>
+        <note xml:id="i-HNBEXp3gauCiDwmxUwg5Kv">
+          (v) till statsrådet Leif Pagrotsky
+        </note>
+        <note xml:id="i-K2EvPLHDHj1Ywt464Hpjbq">
+          Exportkrediter och dammbyggen i tredje världen
+        </note>
+        <note xml:id="i-HoToFq482BUNv4wfNvLGsY">
+          2000/01:1308 av Agneta Lundberg (s) till finansminister Bosse
+          Ringholm
+        </note>
+        <note xml:id="i-35wxhZfVoz8HT3u8Wi5jng">
+          Skattebefrielse för bränsle i viss försöksverksamhet
+        </note>
+        <note xml:id="i-MYaRBGaMrs1KvxfHxQiia6">
+          2000/01:1311 av Marianne Andersson (c) till statsrådet Mona Sahlin
+        </note>
+        <note xml:id="i-NgkL5UAjjaa68gKQ17XQuM">
+          Elektriska och magnetiska fält
+        </note>
+        <note xml:id="i-LXqYjZKnHHjmcSupYBhpxJ">
+          2000/01:1314 av Berit Jóhannesson (v) till försvarsminister Björn
+          von Sydow
+        </note>
+        <note xml:id="i-G1P7iGA9juYuJc5u8wfPGw">
+          Värnpliktsutbildning
+        </note>
+        <u xml:id="i-65MZnAiDgM5LNWZ2bWZttb" who="unknown">
+          <seg xml:id="i-SvWdnvUPM8MF253dcvo5qt">
+            Svaren redovisas i bilaga som fogas till riksdagens snabbprotokoll
+            tisdagen den 12 juni.
+          </seg>
+        </u>
+      </div>
+      <div type="commentSection" xml:id="i-AGi4De135jtdft9PvqdqqX">
+        <note xml:id="i-WUn4GaHng5LVeyorHX49MF">
+          7 § Kammaren åtskildes kl. 13.01.
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/861DC205-C857-4242-A35D-9280635D219F#page=5"/>
+        <note xml:id="i-GokWtrfUXJvLEcdiQ6yDYL">
+          Förhandlingarna leddes av talmannen.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -3,13 +3,16 @@ throw ERROR on inconsistencies on our side
 
 WARN on upstream errors
 """
-import unittest
-import pandas as pd
-import yaml
+from lxml import etree
+from pathlib import Path
 from pyriksdagen.db import load_metadata
 from pyriksdagen.utils import protocol_iterators, get_doc_dates
-from pathlib import Path
+import pandas as pd
+import unittest
 import warnings
+import yaml
+
+
 
 # OBS. set to False before commit / push!
 # If True, the script attempts to write
@@ -130,7 +133,7 @@ class Test(unittest.TestCase):
 
 
 	def test_member_of_parliament(self):
-		columns = ["wiki_id", "start", "end"]
+		columns = ["swerik_id", "start", "end"]
 		df_name = "member_of_parliament"
 		df, df_unique, df_duplicate = self.get_duplicates(df_name, columns)		
 		self.assertEqual(len(df), len(df_unique), df_duplicate)
@@ -143,7 +146,7 @@ class Test(unittest.TestCase):
 
 
 	def test_party_affiliation(self):
-		columns = ["wiki_id", "start", "end"]
+		columns = ["swerik_id", "start", "end"]
 		df_name = "party_affiliation"
 		df, df_unique, df_duplicate = self.get_duplicates(df_name, columns)
 		
@@ -155,7 +158,7 @@ class Test(unittest.TestCase):
 
 
 	def test_person(self):
-		columns = ["wiki_id"]
+		columns = ["swerik_id"]
 		df_name = "person"
 		df, df_unique, df_duplicate = self.get_duplicates(df_name, columns)		
 		self.assertEqual(len(df), len(df_unique), df_duplicate)
@@ -186,20 +189,20 @@ class Test(unittest.TestCase):
 
 	def test_emil_integrity(self):
 		emil = self.get_emil()
-		wiki_id_issue = emil[(emil['wiki_id'].isna()) | (emil['wiki_id'] == "Q00FEL00")]
+		swerik_id_issue = emil[(emil['swerik_id'].isna()) | (emil['swerik_id'] == "Q00FEL00")]
 		birthdate_NA = emil[(emil['born'].isna()) | (emil['born'] == "Multival")]
 
-		if not wiki_id_issue.empty:
-			warnings.warn(f'{len(wiki_id_issue)} wiki_id issues', CatalogIntegrityWarning)
+		if not swerik_id_issue.empty:
+			warnings.warn(f'{len(swerik_id_issue)} swerik_id issues', CatalogIntegrityWarning)
 			if running_local:
-				self.write_integrity_error("wiki-id-issue", wiki_id_issue)
+				self.write_integrity_error("wiki-id-issue", swerik_id_issue)
 
 		if not birthdate_NA.empty:
 			warnings.warn(f"{len(birthdate_NA)} birthdates missing", CatalogIntegrityWarning)
 			if running_local:
 				self.write_integrity_error("missing-birthdate", birthdate_NA)
 
-		self.assertEqual(len(wiki_id_issue), 0, wiki_id_issue)
+		self.assertEqual(len(swerik_id_issue), 0, swerik_id_issue)
 		self.assertEqual(len(birthdate_NA), 0, birthdate_NA)
 
 
@@ -210,7 +213,7 @@ class Test(unittest.TestCase):
 		missing_persons = pd.DataFrame(columns=list(emil.columns))
 
 		for i, row in emil.iterrows():
-			if row['wiki_id'] not in df['wiki_id'].unique():
+			if row['swerik_id'] not in df['swerik_id'].unique():
 				missing_persons.loc[len(missing_persons)] = row
 
 		if not missing_persons.empty:
@@ -228,7 +231,7 @@ class Test(unittest.TestCase):
 		missing_names = pd.DataFrame(columns=list(emil.columns))
 
 		for i, row in emil.iterrows():
-			if row['wiki_id'] not in df['wiki_id'].unique():
+			if row['swerik_id'] not in df['swerik_id'].unique():
 				missing_names.loc[len(missing_names)] = row
 
 		if not missing_names.empty:
@@ -246,7 +249,7 @@ class Test(unittest.TestCase):
 		missing_locations = pd.DataFrame(columns=list(iorter.columns))
 
 		for i, row in iorter.iterrows():
-			filtered = df.loc[(df["wiki_id"] == row["wiki_id"]) & (df["location"] == row["iort"])]
+			filtered = df.loc[(df["swerik_id"] == row["swerik_id"]) & (df["location"] == row["iort"])]
 			if len(filtered) < 1:
 				missing_locations.loc[len(missing_locations)] = row
 
@@ -265,7 +268,7 @@ class Test(unittest.TestCase):
 		missing_members = pd.DataFrame(columns=list(emil.columns))
 
 		for i, row in emil.iterrows():
-			if row['wiki_id'] not in df['wiki_id'].unique():
+			if row['swerik_id'] not in df['swerik_id'].unique():
 				missing_members.loc[len(missing_members)] = row
 
 		if not missing_members.empty:
@@ -283,7 +286,7 @@ class Test(unittest.TestCase):
 		missing_parties = pd.DataFrame(columns=list(emil.columns))
 
 		for i, row in emil.iterrows():
-			if row['wiki_id'] not in df['wiki_id'].unique():
+			if row['swerik_id'] not in df['swerik_id'].unique():
 				missing_parties.loc[len(missing_parties)] = row
 
 		if not missing_parties.empty:

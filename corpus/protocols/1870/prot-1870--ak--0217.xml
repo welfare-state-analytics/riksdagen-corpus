@@ -1,102 +1,75 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prot-1870--ak--0217">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1870</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.1.0</edition>
-      </editionStmt>
       <publicationStmt>
-        <authority>National Library of Sweden and the WESTAC project</authority>
+        <authority>N/A</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1870</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in input/curation/instances</p>
+          <p>No correction of source texts was performed.</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI xml:id="prot-1870--ak--0217">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>N/A</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>No correction of source texts was performed.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1870--ak--0217</head>
-          <docDate when="1870-02-17">1870-02-17</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection">
-          <pb n="0" facs="https://betalab.kb.se/prot-1870--ak--0217/prot_1870__ak__0217-000.jp2/_view"/>
-          <note xml:id="i-W9Yw6VjqQnjRvt5BTewQYe">
-            Den 17 Febroari, 201
-          </note>
-          <note xml:id="i-PRrm3NyM6FrpKM2iEQHcTa" type="date">
-            Thorsdagen den 17 Februari. Kl. 2 e m.
-          </note>
-          <note xml:id="i-P3Cpb8g4ViCPYYuKYtFMef">
-            g 1:
-          </note>
-          <note xml:id="i-NYnprXVkjtPMPciZ3NhQhn">
-            Justerades protokollsutdrag rörande de ärenden, som förekommo
-            till afgörande vid gårdagens sammanträde.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-6indpa8DFtbBLP1VbcaxVM">
-            § 2. Föredrogos, men bordlades andra gången: Lag-Utskottets Utlåtanden
-            N:is 7 och 8 samt
-          </note>
-          <note xml:id="i-5GTALDmQgu17hhNKLqyGTK">
-            Stats-Utskottets Utlåtanden N:is 7--14; skolande, enligt derom
-            nu fattadt beslut, sistnämnda Utskotts Utlåtande N:o 7, angående
-            beräkningen af Statsverkets inkomster, till afgörande förekomma
-            näst efter de val, som blifvit utsatta att hållas i början af
-            sammanträdet den 19 i denna
-          </note>
-          <u xml:id="i-SC8nj4e8skkdt13q7eviWG" who="unknown">
-            <seg xml:id="i-417aqzKkF7RZoN9yUcHpRu">
-              månad.
-            </seg>
-          </u>
-          <note xml:id="i-9CKKykGnpK99CETVD2uFs9">
-            Kammarens ledamöter åtskiljdes kl. '/, 3 e. m.
-          </note>
-          <note xml:id="i-GSPqTw65RaCZaqicZUY5Jy">
-            In fidem H. Husberg.
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1870--ak--0217</head>
+        <docDate when="1870-02-17">1870-02-17</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection">
+        <pb facs="https://betalab.kb.se/prot-1870--ak--0217/prot_1870__ak__0217-000.jp2/_view"/>
+        <note xml:id="i-W9Yw6VjqQnjRvt5BTewQYe">
+          Den 17 Febroari, 201
+        </note>
+        <note xml:id="i-PRrm3NyM6FrpKM2iEQHcTa" type="date">
+          Thorsdagen den 17 Februari. Kl. 2 e m.
+        </note>
+        <note xml:id="i-P3Cpb8g4ViCPYYuKYtFMef">
+          g 1:
+        </note>
+        <note xml:id="i-NYnprXVkjtPMPciZ3NhQhn">
+          Justerades protokollsutdrag rörande de ärenden, som förekommo
+          till afgörande vid gårdagens sammanträde.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-6indpa8DFtbBLP1VbcaxVM">
+          § 2. Föredrogos, men bordlades andra gången: Lag-Utskottets Utlåtanden
+          N:is 7 och 8 samt
+        </note>
+        <note xml:id="i-5GTALDmQgu17hhNKLqyGTK">
+          Stats-Utskottets Utlåtanden N:is 7--14; skolande, enligt derom
+          nu fattadt beslut, sistnämnda Utskotts Utlåtande N:o 7, angående
+          beräkningen af Statsverkets inkomster, till afgörande förekomma
+          näst efter de val, som blifvit utsatta att hållas i början af
+          sammanträdet den 19 i denna
+        </note>
+        <u xml:id="i-SC8nj4e8skkdt13q7eviWG" who="unknown">
+          <seg xml:id="i-417aqzKkF7RZoN9yUcHpRu">
+            månad.
+          </seg>
+        </u>
+        <note xml:id="i-9CKKykGnpK99CETVD2uFs9">
+          Kammarens ledamöter åtskiljdes kl. '/, 3 e. m.
+        </note>
+        <note xml:id="i-GSPqTw65RaCZaqicZUY5Jy">
+          In fidem H. Husberg.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

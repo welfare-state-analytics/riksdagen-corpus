@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1977</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1977</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,56 +25,29 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-197778--</head>
-          <docDate when="1977">1977</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-197778--/prot_197778__-000.jp2/_view"/>
-          <note xml:id="i-L8EZS7sAxJ3f5hW64TxxTH">
-            RIKSDAGEN 1977/78
-          </note>
-          <note xml:id="i-5Lk642SxwPqFnBjFGvAYpf">
-            Protokoll
-          </note>
-          <note xml:id="i-TGw5hHZ9spb3FFuaX2bVp9">
-            Nr 33—42 23 november —7 december
-          </note>
-          <note xml:id="i-E9hoszjUMvzDXPTpLA7x7g">
-            Band A 3
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-197778--</head>
+        <docDate when="1977">1977</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-54bNkFtVUarPpnavhD2aut">
+        <pb facs="https://betalab.kb.se/prot-197778--/prot_197778__-000.jp2/_view"/>
+        <note xml:id="i-L8EZS7sAxJ3f5hW64TxxTH">
+          RIKSDAGEN 1977/78
+        </note>
+        <note xml:id="i-5Lk642SxwPqFnBjFGvAYpf">
+          Protokoll
+        </note>
+        <note xml:id="i-TGw5hHZ9spb3FFuaX2bVp9">
+          Nr 33—42 23 november —7 december
+        </note>
+        <note xml:id="i-E9hoszjUMvzDXPTpLA7x7g">
+          Band A 3
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

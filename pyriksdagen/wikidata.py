@@ -79,7 +79,7 @@ def clean_sparql_df(df, query_name):
 		df.loc[x][y] = ''
 
 	# Sort columns
-	first_cols = [c for c in ['wiki_id', 'start', 'end'] if c in df.columns]
+	first_cols = [c for c in ['swerik_id', 'wiki_id', 'start', 'end'] if c in df.columns]
 	other_cols = sorted([c for c in df.columns if c not in first_cols])
 	df = df[first_cols+other_cols]
 
@@ -104,9 +104,9 @@ def query2df(query_name, source=None):
 	return df
 
 def separate_name_location(name_location_specifier, alias):
-	alias = alias[['wiki_id', 'alias']].rename(columns={'alias':'name'})		
-	primary_df = name_location_specifier[['wiki_id', 'name']]
-	secondary_df = name_location_specifier[['wiki_id', 'alias']].rename(columns={'alias':'name'})
+	alias = alias[['swerik_id', 'alias']].rename(columns={'alias':'name'})
+	primary_df = name_location_specifier[['swerik_id', 'name']]
+	secondary_df = name_location_specifier[['swerik_id', 'alias']].rename(columns={'alias':'name'})
 	primary_df['primary_name'] = True
 	secondary_df['primary_name'] = False
 	alias['primary_name'] = False
@@ -126,17 +126,17 @@ def separate_name_location(name_location_specifier, alias):
 	df['name'] = df['name'].apply(lambda x: ' '.join(x.split()))
 
 	# Drop duplicates
-	name = 	df[['wiki_id', 'name', 'primary_name']].\
+	name = 	df[['swerik_id', 'name', 'primary_name']].\
 			sort_values(by=['primary_name'], ascending=False).\
-			drop_duplicates(subset=['wiki_id', 'name', 'primary_name'])
+			drop_duplicates(subset=['swerik_id', 'name', 'primary_name'])
 
-	loc =	pd.concat([df[['wiki_id', col]].rename(columns={col:'location'}) for col in loc_cols]).\
+	loc =	pd.concat([df[['swerik_id', col]].rename(columns={col:'location'}) for col in loc_cols]).\
 			dropna().drop_duplicates()
 
 	# Sort values
-	name = name[['wiki_id'] + sorted([col for col in name.columns if col != 'wiki_id'])]
+	name = name[['swerik_id'] + sorted([col for col in name.columns if col != 'swerik_id'])]
 	name = name.sort_values(by=list(name.columns))
-	loc = loc[['wiki_id'] + sorted([col for col in loc.columns if col != 'wiki_id'])]
+	loc = loc[['swerik_id'] + sorted([col for col in loc.columns if col != 'swerik_id'])]
 	loc = loc.sort_values(by=list(loc.columns))
 	return name, loc
 
@@ -144,7 +144,7 @@ def move_party_to_party_df(mp_df, party_df):
 	mp_parties = mp_df[party_df.columns]
 	mp_parties = mp_parties[mp_parties['party_id'].notnull()]
 
-	mp_parties = mp_parties.sort_values(["wiki_id", "start"])
+	mp_parties = mp_parties.sort_values(["swerik_id", "start"])
 	party_df = pd.concat([mp_parties, party_df])
 	party_df = party_df.drop_duplicates()
 
@@ -152,3 +152,14 @@ def move_party_to_party_df(mp_df, party_df):
 
 	return mp_df[mp_df_cols], party_df
 
+def elongate_external_ids(df):
+	rows = []
+	cols = ["swerik_id", "authority", "identifier"]
+	df.rename(columns={"wiki_id": "WiDaID"}, inplace=True)
+	authorities = [_ for _ in df.columns if _ != "swerik_id"]
+	for i, r in df.iterrows():
+		swerik = r["swerik_id"]
+		for a in authorities:
+			if pd.notnull(r[a]):
+				rows.append([swerik, a, r[a]])
+	return pd.DataFrame(rows, columns=cols)

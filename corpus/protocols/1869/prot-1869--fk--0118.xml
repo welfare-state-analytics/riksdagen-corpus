@@ -1,95 +1,68 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="prot-1869--fk--0118">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1867</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.1.0</edition>
-      </editionStmt>
       <publicationStmt>
-        <authority>National Library of Sweden and the WESTAC project</authority>
+        <authority>N/A</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1867</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in input/curation/instances</p>
+          <p>No correction of source texts was performed.</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI xml:id="prot-1869--fk--0118">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>N/A</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>No correction of source texts was performed.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1869--fk--0118</head>
-          <docDate when="1869-01-18">1869-01-18</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="debateSection">
-          <pb n="0" facs="https://betalab.kb.se/prot-1869--fk--0118/prot_1869__fk__0118-000.jp2/_view"/>
-          <note xml:id="i-8YBEAbF96K7oSrMiLZocBx">
-            Den 18 Jannari. g
-          </note>
-          <note xml:id="i-4eDT3Cpqx4hgHX6yo66bNn" type="date">
-            Måndagen den 18 Januari 1869.
-          </note>
-          <note xml:id="i-VCurdNnpNBRegcHXmyweoA">
-            Kammaren sammanträdde kl. 311 f. m.
-          </note>
-          <note xml:id="i-TH4biaG2Ed8hC4FodCsCq3">
-            Herr Grefven och Talmannen samt Kammarens Herrar ledamöter afgingo
-            kl. nära 11 till Storkyrkan, der riksdagspredikan hölls art Kongl.
-            Hofpredikanten, kyrkoherden Alfred Steinmetz.
-          </note>
-          <note xml:id="i-Bi6bykzeMQBW1AhZvrZEyP">
-            fter slutad gudstjenst begaf sig Herr Grefven och Talmannen samt
-            Kammaren till Rikssalen, hvarest H. Maj:t Konungen med ett tal
-            i nåder helsade Kamrarne och öppnade Riksdagen. - Härefter uppläste
-            H. Exc. Herr Justitie-statsministern Kongl. Maj:ts nådiga berättelse
-            om hvad i Riket och dess Styrelse sig tilldragit sedan sista riksdag;
-            hvaruppå och sedan Herrar Talmän, 1 Kamrarnes namn, till Konungen
-            framfört deras undersåtliga vördnad samt hvardera fått emottaga
-            ett exemplar af Kongl. Maj:ts nådiga Proposition angående Statsverkets
-            tillstånd och behof, ceremonien å Rikssalen afslutades samt Kammaren,
-            enligt beslut, fattadt före afgången från samlingssalen, åtskiljdes
-            vid utgången från Rikssalen kl. 32 e. m.
-          </note>
-          <note xml:id="i-LXRDNQxBNvfUdqU6GMmotj">
-            In fidem O. Brakel.
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1869--fk--0118</head>
+        <docDate when="1869-01-18">1869-01-18</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="debateSection">
+        <pb facs="https://betalab.kb.se/prot-1869--fk--0118/prot_1869__fk__0118-000.jp2/_view"/>
+        <note xml:id="i-8YBEAbF96K7oSrMiLZocBx">
+          Den 18 Jannari. g
+        </note>
+        <note xml:id="i-4eDT3Cpqx4hgHX6yo66bNn" type="date">
+          Måndagen den 18 Januari 1869.
+        </note>
+        <note xml:id="i-VCurdNnpNBRegcHXmyweoA">
+          Kammaren sammanträdde kl. 311 f. m.
+        </note>
+        <note xml:id="i-TH4biaG2Ed8hC4FodCsCq3">
+          Herr Grefven och Talmannen samt Kammarens Herrar ledamöter afgingo
+          kl. nära 11 till Storkyrkan, der riksdagspredikan hölls art Kongl.
+          Hofpredikanten, kyrkoherden Alfred Steinmetz.
+        </note>
+        <note xml:id="i-Bi6bykzeMQBW1AhZvrZEyP">
+          fter slutad gudstjenst begaf sig Herr Grefven och Talmannen samt
+          Kammaren till Rikssalen, hvarest H. Maj:t Konungen med ett tal
+          i nåder helsade Kamrarne och öppnade Riksdagen. - Härefter uppläste
+          H. Exc. Herr Justitie-statsministern Kongl. Maj:ts nådiga berättelse
+          om hvad i Riket och dess Styrelse sig tilldragit sedan sista riksdag;
+          hvaruppå och sedan Herrar Talmän, 1 Kamrarnes namn, till Konungen
+          framfört deras undersåtliga vördnad samt hvardera fått emottaga
+          ett exemplar af Kongl. Maj:ts nådiga Proposition angående Statsverkets
+          tillstånd och behof, ceremonien å Rikssalen afslutades samt Kammaren,
+          enligt beslut, fattadt före afgången från samlingssalen, åtskiljdes
+          vid utgången från Rikssalen kl. 32 e. m.
+        </note>
+        <note xml:id="i-LXRDNQxBNvfUdqU6GMmotj">
+          In fidem O. Brakel.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

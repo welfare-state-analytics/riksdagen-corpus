@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 200708</title>
+        <title>Protokoll</title>
       </titleStmt>
       <editionStmt>
         <edition>0.4.2</edition>
@@ -13,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 200708</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -25,70 +25,45 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <editionStmt>
-          <edition>0.4.2</edition>
-        </editionStmt>
-        <publicationStmt>
-          <authority>National Library of Sweden and the WESTAC project</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some data curation was done. It is documented in input/curation/instances</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-200708--678</head>
-          <docDate when="2008-06-16">2008-06-16</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <note xml:id="i-3mGytvZG4zqNqEx5Dh8345">
-            Riksdagens snabbprotokoll
-          </note>
-          <note xml:id="i-PBJd3mptPqbYs6R6BDWmBB">
-            2007/08:678
-          </note>
-          <note xml:id="i-Cx7vg4rgZAf8rsNPHUgvcd">
-            Tisdagen den 16 juni
-          </note>
-          <note xml:id="i-XzPLhRTMDHdZBZFFtgccMt">
-            Kl. 09:00 - 09:01
-          </note>
-          <note xml:id="i-Kaaei9tKaLhRp5naTVesxb">
-            Testar PostScript
-          </note>
-          <note xml:id="i-Jio19V8nU2BgcrRQ63Z542">
-            Felaktigt Protokoll EJ FÖR UTSKRIFT
-          </note>
-          <note xml:id="i-QTf1o2BXUDxmzohMWpsGHD">
-            15 § Rubrik och test av stil
-          </note>
-          <note xml:id="i-8TCAY3uJMMWKNn8nh5NEBR">
-            Punkt1
-          </note>
-          <note xml:id="i-QKH86gR3vGCoeCDCdZssgL">
-            Punkt2
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-200708--678</head>
+        <docDate when="2008-06-16">2008-06-16</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-8A9562dPvjXCpGK1zzB6Y3">
+        <note xml:id="i-3mGytvZG4zqNqEx5Dh8345">
+          Riksdagens snabbprotokoll
+        </note>
+        <note xml:id="i-PBJd3mptPqbYs6R6BDWmBB">
+          2007/08:678
+        </note>
+        <note xml:id="i-Cx7vg4rgZAf8rsNPHUgvcd">
+          Tisdagen den 16 juni
+        </note>
+        <note xml:id="i-XzPLhRTMDHdZBZFFtgccMt">
+          Kl. 09:00 - 09:01
+        </note>
+        <note xml:id="i-Kaaei9tKaLhRp5naTVesxb">
+          Testar PostScript
+        </note>
+        <note xml:id="i-Jio19V8nU2BgcrRQ63Z542">
+          Felaktigt Protokoll EJ FÖR UTSKRIFT
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-K5kMmw52cES29HVTuoC7kq">
+        <note xml:id="i-QTf1o2BXUDxmzohMWpsGHD">
+          15 § Rubrik och test av stil
+        </note>
+        <note xml:id="i-8TCAY3uJMMWKNn8nh5NEBR">
+          Punkt1
+        </note>
+        <note xml:id="i-QKH86gR3vGCoeCDCdZssgL">
+          Punkt2
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

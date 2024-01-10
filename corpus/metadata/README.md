@@ -7,6 +7,7 @@ Governments of Sweden from the 1920s and their inception/dissolution dates.
 - *start*: date of governments inception
 - *end*: date of governments dissolution
 - *government*: name of government
+- *government_id*: unique identifier of government
 
 ### location_specifier.csv
 
@@ -22,7 +23,6 @@ Data for members of parliament connected to some specific time period, for examp
 - *person_id*: id for individuals in corpus metadata
 - *district*: electoral district person is representing
 - *end*: date of person leaving parliament
-- *party*: party affiliation
 - *role*: indicates which chamber the person is active in
 - *start*: date of person entering parliament
 
@@ -54,10 +54,12 @@ Parties can switch names as well as discrepancies between the corpus and metadat
 
 ### party_affiliation.csv
 
-The only other file containing party affiliation atm is member_of_parliament.csv (and is missing for 40% of observations). This is due to the party metadata having a direct link to individuals at certain time points for these observations. Party affiliations not tied to a specific time period is contained in party_affiliation.csv. 
+MPs' and ministers' party affiliation.
 
 - *person_id*: id for individuals in corpus metadata
 - *party*: party that person is or has been a member of
+- *start*: first date of person being a member of the party
+- *end*: last date of person being a member of the party
 
 ### person.csv
 
@@ -68,7 +70,6 @@ Individual level data such as born, gender, etc. for all persons in the metadata
 - *born*: date of birth
 - *dead*: date of death
 - *gender*: gender
-- *riksdagen_guid*: guid for riksdagen open data individual
 - *riksdagen_id*: id for riksdagen open data individual
 
 ### speaker.csv

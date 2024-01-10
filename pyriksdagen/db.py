@@ -83,7 +83,7 @@ def load_ministers(path='corpus/wiki-data/minister.json'):
 
 def load_metadata():
     party_mapping = pd.read_csv('corpus/metadata/party_abbreviation.csv')
-    join_intros = pd.read_csv('input/segmentation/join_intros.csv')
+    #join_intros = ## DEPRECIATED ##pd.read_csv('input/segmentation/join_intros.csv')  return party_mapping, join_intros, mp_db, minister_db, speaker_db
     mp_db = pd.read_csv('input/matching/member_of_parliament.csv')
     minister_db = pd.read_csv('input/matching/minister.csv')
     speaker_db = pd.read_csv('input/matching/speaker.csv')
@@ -99,7 +99,7 @@ def load_metadata():
     minister_db[["start", "end"]] = minister_db[["start", "end"]].apply(pd.to_datetime, errors="coerce")
     speaker_db[["start", "end"]] = speaker_db[["start", "end"]].apply(pd.to_datetime, errors="coerce")
 
-    return party_mapping, join_intros, mp_db, minister_db, speaker_db
+    return party_mapping, mp_db, minister_db, speaker_db
 
 def load_expressions(phase="segmentation", year=None):
     if phase == "segmentation":
@@ -155,9 +155,9 @@ def _keep_most_significant(df, cols, id="wiki_id"):
     return df
 
 def clean_person_duplicates(df):
-    dupl = df[df.duplicated("wiki_id", keep=False)].copy()
-    df = df[~df.duplicated("wiki_id", keep=False)]
-    dupl = _keep_most_significant(dupl, ["born", "dead"], id="wiki_id")
+    dupl = df[df.duplicated("swerik_id", keep=False)].copy()
+    df = df[~df.duplicated("swerik_id", keep=False)]
+    dupl = _keep_most_significant(dupl, ["born", "dead"], id="swerik_id")
     cols = list(df.columns)
     df = pd.concat([dupl, df])
     df = df[cols]

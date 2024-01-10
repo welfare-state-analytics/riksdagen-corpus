@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1976</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1976</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,59 +25,32 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-197677--</head>
-          <docDate when="1976">1976</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection">
-          <pb facs="https://betalab.kb.se/prot-197677--/prot_197677__-000.jp2/_view"/>
-          <note xml:id="i-4FVaiGeYVg6AwwdyVKEhMR">
-            RIKSDAGEN
-          </note>
-          <note xml:id="i-HCXxa51zxfmRpSsh6uC1NQ">
-            Protokoll
-          </note>
-          <note xml:id="i-SKZg6qW8vstFvsSczgYK6c">
-            Nr 25—40 11 november—7 december
-          </note>
-          <note xml:id="i-CegkVtd4Hkvs1FgpsGNYXM">
-            Band A 2
-          </note>
-          <note xml:id="i-STdc3hfkHK9a5wGYCC1ft1">
-            1976/77
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-197677--</head>
+        <docDate when="1976">1976</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-8EXeNUanGv5gF4LvfJkB1y">
+        <pb facs="https://betalab.kb.se/prot-197677--/prot_197677__-000.jp2/_view"/>
+        <note xml:id="i-4FVaiGeYVg6AwwdyVKEhMR">
+          RIKSDAGEN
+        </note>
+        <note xml:id="i-HCXxa51zxfmRpSsh6uC1NQ">
+          Protokoll
+        </note>
+        <note xml:id="i-SKZg6qW8vstFvsSczgYK6c">
+          Nr 25—40 11 november—7 december
+        </note>
+        <note xml:id="i-CegkVtd4Hkvs1FgpsGNYXM">
+          Band A 2
+        </note>
+        <note xml:id="i-STdc3hfkHK9a5wGYCC1ft1">
+          1976/77
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

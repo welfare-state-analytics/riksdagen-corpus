@@ -1,0 +1,12 @@
+SELECT DISTINCT ?swerik_id ?link ?placeLabel
+WHERE
+{
+    ?wiki_id wdt:P31 wd:Q5;
+             wdt:P12192 ?swerik_id.
+    ?wiki_id wdt:P19 ?link.
+    ?wiki_id wdt:P19 ?place.
+    {
+        PLACEHOLDER
+    }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "sv". }
+}
