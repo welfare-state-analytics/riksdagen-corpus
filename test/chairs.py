@@ -2,17 +2,18 @@
 """
 Test chars and chair-mp mapping metadata
 """
+from pyriksdagen.date_handling import yearize_mp_mandates
 import pandas as pd
 import unittest
 import warnings
-
+import sys
 
 
 
 class ChairHog(Warning):
 
     def __init__(self, m):
-        self.message = f"There following MPs sit in two chairs in {m}:."
+        self.message = "\n" + f"The following MPs sit in two chairs in {m}:."
 
 
     def __str__(self):
@@ -95,6 +96,17 @@ class Test(unittest.TestCase):
     #  read in chair_mp.csv
     def get_chair_mp(self):
         return pd.read_csv("corpus/metadata/chair_mp.csv")
+
+
+    # read in mep metadata
+    def get_mep(self):
+        df = pd.read_csv("corpus/metadata/member_of_parliament.csv")
+        return df.rename(columns={"start": "meta_start", "end":"meta_end"})
+
+
+    # read in parliament start end dates
+    def get_riksdag_start_end(self):
+        return pd.read_csv("corpus/metadata/riksdag_start-end.csv")
 
 
     #  set max values for each chamber
@@ -290,25 +302,90 @@ class Test(unittest.TestCase):
     def test_chair_hogs(self):
         print("Testing: no single person sits in two places at once")
         chair_mp = self.get_chair_mp()
+        chair_mp.rename(columns={"start": "chair_start", "end":"chair_end"}, inplace=True)
+        chair_mp = chair_mp[chair_mp["swerik_id"].notna()]
+        chairs = self.get_chairs()
+        chair_mp = pd.merge(chair_mp, chairs, on="chair_id", how="left")
+        mep_by_year = yearize_mp_mandates()
+        mep_by_year.rename(columns={"start": "meta_start", "end":"meta_end"}, inplace=True)
+        mep_by_year = mep_by_year[mep_by_year["meta_start"].notna()]
+        chair_mp = pd.merge(chair_mp, mep_by_year, on=["swerik_id", "parliament_year"], how="left")
+
+        #outdf = chair_mp.loc[pd.isna(chair_mp["role"])].copy()
+        #outdf.to_csv("_scripts/chairs/trouble-matching-yearize.csv", index=False)
+
+        general_start_end = self.get_riksdag_start_end()
         no_chair_hogs = True
         counter = 0
         ddups = []
         for y in chair_mp['parliament_year'].unique():
             year_chair_mp = chair_mp.loc[chair_mp['parliament_year'] == y]
-            mps = year_chair_mp.loc[pd.notnull(year_chair_mp['wiki_id']), 'wiki_id'].values
+            yse = general_start_end.loc[general_start_end['parliament_year'] == y].copy()
+            yse.reset_index(drop=True, inplace=True)
+            yse.sort_values(by=["chamber", "start", "end"], inplace=True)
+            cs = yse["chamber"].unique()
+            d = {}
+            for c in cs:
+                cdf = yse.loc[yse["chamber"] == c].copy()
+                cdf.reset_index(drop=True, inplace=True)
+                d[c] = {"earliest": cdf.at[0, "start"], "latest": cdf.at[len(cdf.index)-1, "end"]}
+            mps = year_chair_mp.loc[pd.notnull(year_chair_mp['swerik_id']), 'swerik_id'].values
             if len(mps) > len(set(mps)):
                 dups = self.get_duplicated_items(mps)
-                warnings.warn(f"{y}: [{', '.join(dups)}]", ChairHog)
-                no_chair_hogs = False
-                counter += len(dups)
-                [ddups.append(_) for _ in dups]
+                ch = []
+                for dup in dups:
+                    df = year_chair_mp.loc[year_chair_mp["swerik_id"] == dup].copy()
+                    df.drop_duplicates(subset=["chair_id", "parliament_year", "chair_start", "chair_end", "swerik_id"], inplace=True)
+                    if len(df["chair_id"].unique()) == 1:
+                        continue
+                    elif len(df["chamber"].unique()) > 1:
+                        if dup not in ch:
+                            ch.append(dup)
+                            print("\n--->>>>", dup)
+                            print(df)
+                            print(r["chamber"], last_end, rstart, type(last_end), type(rstart))
+                        print("IN TWO CHAMBERS")
+                        continue
+                    else:
+                        last_end = None
+                        df.sort_values(by=["chair_start", "chair_end"], inplace=True)
+
+                        for i, r in df.iterrows():
+                            rstart = None
+                            rend = None
+
+                            if pd.notnull(r["chair_start"]):
+                                rstart = r["chair_start"]
+                            elif pd.notnull(r['meta_start']):
+                                rstart = r['meta_start']
+                            else:
+                                rstart = d[r["chamber"]]["earliest"]
+
+                            if pd.notnull(r["chair_end"]):
+                                rend = r["chair_end"]
+                            if pd.notnull(r["meta_end"]):
+                                rend = r["meta_end"]
+                            else:
+                                rend = d[r["chamber"]]["latest"]
+
+                            if last_end:
+                                if last_end > rstart:
+                                    if dup not in ch:
+                                        ch.append(dup)
+                                        print("\n--->>>>", dup)
+                                        print(df)
+                                        print(r["chamber"], last_end, rstart, rend, type(last_end), type(rstart))
+
+                            last_end = rend
+
+                if len(ch) > 0:
+                    print("\n\n")
+                    warnings.warn(f"{y}: [{', '.join(ch)}]", ChairHog)
+                    no_chair_hogs = False
+                    counter += len(ch)
+                    [ddups.append(_) for _ in ch]
         print(counter, ddups)
         self.assertTrue(no_chair_hogs)
-
-
-    #  no one sitting in the same chair at the same time
-    #      (need specific start-end dates first)
-
 
     #
     #  --->  Test coverage
