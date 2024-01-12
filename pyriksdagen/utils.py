@@ -103,7 +103,7 @@ def clean_html(s):
     return etree.fromstring(pretty_html)
 
 
-def validate_xml_schema(xml_path, schema_path):
+def validate_xml_schema(xml_path, schema_path, schema=None):
     """
     Validate an XML file against a schema.
 
@@ -117,7 +117,8 @@ def validate_xml_schema(xml_path, schema_path):
     xml_file = lxml.etree.parse(xml_path)
     xml_file.xinclude()
 
-    schema = xmlschema.XMLSchema(schema_path)
+    if schema is None:
+        schema = xmlschema.XMLSchema(schema_path)
 
     try:
         schema.validate(xml_file)
