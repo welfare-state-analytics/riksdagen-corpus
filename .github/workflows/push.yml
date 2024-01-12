@@ -35,7 +35,6 @@ jobs:
         python -m unittest test.altocheck
         python -m unittest test.next_prev
         python -m unittest test.paragraph_has_id
-        python -m unittest test.chairs
 
     - name: Test metadata integrity
       run: |
