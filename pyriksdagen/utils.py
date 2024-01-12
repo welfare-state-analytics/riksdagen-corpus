@@ -6,6 +6,7 @@ Provides useful utilities for the other modules as well as for general use.
 
 import lxml
 from lxml import etree
+import xmlschema
 from bs4 import BeautifulSoup
 from pathlib import Path
 from pyparlaclarin.refine import format_texts
@@ -102,7 +103,7 @@ def clean_html(s):
     return etree.fromstring(pretty_html)
 
 
-def validate_xml_schema(xml_path, schema_path):
+def validate_xml_schema(xml_path, schema_path, schema=None):
     """
     Validate an XML file against a schema.
 
@@ -116,12 +117,13 @@ def validate_xml_schema(xml_path, schema_path):
     xml_file = lxml.etree.parse(xml_path)
     xml_file.xinclude()
 
-    schema = lxml.etree.XMLSchema(file=schema_path)
+    if schema is None:
+        schema = xmlschema.XMLSchema(schema_path)
 
     try:
-        schema.assertValid(xml_file)
+        schema.validate(xml_file)
         return True
-    except etree.DocumentInvalid as err:
+    except Exception as err:
         print(err)
         return False
 
