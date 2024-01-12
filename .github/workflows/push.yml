@@ -3,6 +3,30 @@ name: Perform unit tests
 on: [push]
 
 jobs:
+  schemas:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install .
+        pip install PyPDF2
+        pip install dateparser
+        pip install nltk
+
+    - name: Validate XML files against ParlaClarin schema
+      run: |
+        python -m unittest test.schemas
+
   unittest:
 
     runs-on: ubuntu-latest
@@ -30,11 +54,32 @@ jobs:
         KBLAB_USERNAME: ${{ secrets.KBLAB_USERNAME }}
         KBLAB_PASSWORD: ${{ secrets.KBLAB_PASSWORD }}
       run: |
-        python -m unittest test.schemas
         python -m unittest test.mp
         python -m unittest test.altocheck
         python -m unittest test.next_prev
         python -m unittest test.paragraph_has_id
+
+  metadata:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install .
+        pip install PyPDF2
+        pip install dateparser
+        pip install alto-xml
+        pip install nltk
 
     - name: Test metadata integrity
       run: |
