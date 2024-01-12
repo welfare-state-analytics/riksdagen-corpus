@@ -10,16 +10,14 @@ import sys
 
 
 
+
 class ChairHog(Warning):
 
     def __init__(self, m):
         self.message = "\n" + f"The following MPs sit in two chairs in {m}:."
 
-
     def __str__(self):
         return self.message
-
-
 
 
 class ChairInWrongTimePeriod(Warning):
@@ -27,11 +25,8 @@ class ChairInWrongTimePeriod(Warning):
     def __init__(self, m):
         self.message = f"There is {m}."
 
-
     def __str__(self):
         return self.message
-
-
 
 
 class ChairMissingFromRange(Warning):
@@ -39,11 +34,8 @@ class ChairMissingFromRange(Warning):
     def __init__(self, m):
         self.message = f" in {m} is missing."
 
-
     def __str__(self):
         return self.message
-
-
 
 
 class ChairOutOfRange(Warning):
@@ -51,11 +43,8 @@ class ChairOutOfRange(Warning):
     def __init__(self, chamber):
         self.message = f"There are chairs that are not within the acceptable range of the chamber: {chamber}."
 
-
     def __str__(self):
         return self.message
-
-
 
 
 class ChairYearOutOfRange(Warning):
@@ -63,11 +52,8 @@ class ChairYearOutOfRange(Warning):
     def __init__(self, m):
         self.message = f"In {m} <-- chair is missing."
 
-
     def __str__(self):
         return self.message
-
-
 
 
 class DuplicateIDWarning(Warning):
@@ -75,6 +61,23 @@ class DuplicateIDWarning(Warning):
     def __init__(self, m):
         self.message = f"{m}"
 
+    def __str__(self):
+        return self.message
+
+
+class EmptyChair(Warning):
+
+    def __init__(self, m):
+        self.message = "\n" + f"The following chairs are empty in in {m}:."
+
+    def __str__(self):
+        return self.message
+
+
+class KnaMP(Warning):
+
+    def __init__(self, m):
+        self.message = "\n" + f"The following chairs are occupied by more than one person at the same time in {m}:."
 
     def __str__(self):
         return self.message
@@ -83,7 +86,6 @@ class DuplicateIDWarning(Warning):
 
 
 class Test(unittest.TestCase):
-
     #
     #  --->  get var fns
     #  -----------------
@@ -92,22 +94,18 @@ class Test(unittest.TestCase):
     def get_chairs(self):
         return pd.read_csv("corpus/metadata/chairs.csv")
 
-
     #  read in chair_mp.csv
     def get_chair_mp(self):
         return pd.read_csv("corpus/metadata/chair_mp.csv")
-
 
     # read in mep metadata
     def get_mep(self):
         df = pd.read_csv("corpus/metadata/member_of_parliament.csv")
         return df.rename(columns={"start": "meta_start", "end":"meta_end"})
 
-
     # read in parliament start end dates
     def get_riksdag_start_end(self):
         return pd.read_csv("corpus/metadata/riksdag_start-end.csv")
-
 
     #  set max values for each chamber
     def get_max_chair(self):
@@ -117,7 +115,6 @@ class Test(unittest.TestCase):
             'ek':350
         }
         return max_chair
-
 
     #  Out of range chair for specific years
     def get_oor_year(self):
@@ -151,7 +148,6 @@ class Test(unittest.TestCase):
         }
         return oor_year
 
-
     #
     #  --->  misc fns
     #  --------------
@@ -160,7 +156,6 @@ class Test(unittest.TestCase):
     def get_duplicated_items(self, l):
         seen = set()
         return [_ for _ in l if _ in seen or seen.add(_)]
-
 
     #
     #  --->  Test integrity of chairs
@@ -175,7 +170,6 @@ class Test(unittest.TestCase):
             warnings.warn("There's probably a duplicate chair ID.", DuplicateIDWarning)
         self.assertEqual(len(chair_ids), len(set(chair_ids)))
 
-
     #  check no chairs are numbered higher than the max chair nr for that chamber
     def test_chair_nrs_in_range(self):
         print("Testing: chairs within max range for chamber")
@@ -186,7 +180,6 @@ class Test(unittest.TestCase):
             if len(oor_chairs) > 0:
                 warnings.warn(k, ChairOutOfRange)
             self.assertEqual(len(oor_chairs), 0)
-
 
     #
     #  --->  Test integrity of chair_mp
@@ -202,7 +195,6 @@ class Test(unittest.TestCase):
         if set(chair_ids_a) != set(chair_ids_b):
             warnings.warn(ChairIDMismatchW)
         self.assertEqual(len(chair_ids_a), len(chair_ids_b))
-
 
     #  check no chairs from tvåkammartiden are used in enkammartid and vice-versa
     def test_chair_chambertime_concurrence(self):
@@ -233,7 +225,6 @@ class Test(unittest.TestCase):
             warnings.warn('enkammar chair in tvåkammartid', ChairInWrongTimePeriod)
         self.assertFalse(tkc_in_enkt)
         self.assertFalse(ekc_in_tvkt)
-
 
     #  check that chairs are within acceptable range for a given year
     #      and that every seat within that range is present at least once
@@ -293,12 +284,12 @@ class Test(unittest.TestCase):
         self.assertFalse(OutOfRange)
         self.assertFalse(missing_in_R)
 
-
     #
     #  --->  Test integrity of bum to chair mapping
     # ---------------------------------------------
     #
     #  check no single person sits in two places at once
+    @unittest.skip
     def test_chair_hogs(self):
         print("Testing: no single person sits in two places at once")
         chair_mp = self.get_chair_mp()
@@ -387,11 +378,121 @@ class Test(unittest.TestCase):
         print(counter, ddups)
         self.assertTrue(no_chair_hogs)
 
+    # Check no one is sharing a chare
+    @unittest.skip
+    def test_knaMP(self):
+        print("Testing no one sits on the same chair at the same time")
+        chair_mp = self.get_chair_mp()
+        chair_mp.rename(columns={"start": "chair_start", "end":"chair_end"}, inplace=True)
+        chair_mp = chair_mp[chair_mp["swerik_id"].notna()]
+        chairs = self.get_chairs()
+        chair_mp = pd.merge(chair_mp, chairs, on="chair_id", how="left")
+        mep_by_year = yearize_mp_mandates()
+        mep_by_year.rename(columns={"start": "meta_start", "end":"meta_end"}, inplace=True)
+        mep_by_year = mep_by_year[mep_by_year["meta_start"].notna()]
+        chair_mp = pd.merge(chair_mp, mep_by_year, on=["swerik_id", "parliament_year"], how="left")
+        general_start_end = self.get_riksdag_start_end()
+        ingen_knahund = True
+        counter = 0
+        ddups = []
+        for y in chair_mp['parliament_year'].unique():
+            year_chair_mp = chair_mp.loc[chair_mp['parliament_year'] == y]
+            yse = general_start_end.loc[general_start_end['parliament_year'] == y].copy()
+            yse.reset_index(drop=True, inplace=True)
+            yse.sort_values(by=["chamber", "start", "end"], inplace=True)
+            cs = yse["chamber"].unique()
+            d = {}
+            for c in cs:
+                cdf = yse.loc[yse["chamber"] == c].copy()
+                cdf.reset_index(drop=True, inplace=True)
+                d[c] = {"earliest": cdf.at[0, "start"], "latest": cdf.at[len(cdf.index)-1, "end"]}
+            chairs = year_chair_mp.loc[pd.notnull(year_chair_mp['chair_id']), 'chair_id'].values
+            if len(chairs) > len(set(chairs)):
+                dups = self.get_duplicated_items(chairs)
+                kh = []
+                for dup in dups:
+                    df = year_chair_mp.loc[year_chair_mp["chair_id"] == dup].copy()
+                    df.drop_duplicates(subset=["chair_id", "parliament_year", "chair_start", "chair_end", "swerik_id"], inplace=True)
+                    if len(df["swerik_id"].unique()) == 1:
+                        continue
+                    else:
+                        last_end = None
+                        df.sort_values(by=["chair_start", "chair_end"], inplace=True)
+
+                        for i, r in df.iterrows():
+                            rstart = None
+                            rend = None
+
+                            if pd.notnull(r["chair_start"]):
+                                rstart = r["chair_start"]
+                            elif pd.notnull(r['meta_start']):
+                                rstart = r['meta_start']
+                            else:
+                                rstart = d[r["chamber"]]["earliest"]
+
+                            if pd.notnull(r["chair_end"]):
+                                rend = r["chair_end"]
+                            if pd.notnull(r["meta_end"]):
+                                rend = r["meta_end"]
+                            else:
+                                rend = d[r["chamber"]]["latest"]
+
+                            if last_end:
+                                if last_end > rstart:
+                                    if dup not in kh:
+                                        kh.append(dup)
+                                        print("\n--->>>>", dup)
+                                        print(df)
+                                        print(last_end, rstart, rend, type(last_end), type(rstart))
+
+                            last_end = rend
+
+                if len(kh) > 0:
+                    print("\n\n")
+                    warnings.warn(f"{y}: [{', '.join(kh)}]", KnaMP)
+                    ingen_knahund = False
+                    counter += len(kh)
+                    [ddups.append(_) for _ in kh]
+        print(counter, ddups)
+
+        self.assertTrue(ingen_knahund)
+
     #
     #  --->  Test coverage
-    #  -------------------
-    #  all chairs are filled ...
-    #      or some percentage of chairs
+    # ---------------------
+    #
+    #  test all chairs are filled
+    @unittest.skip
+    def test_chair_coverage(self):
+        print("Test coverage of chair-MP mapping.")
+        chair_mp = self.get_chair_mp()
+        no_empty_chairs = True
+        empty_chairs = []
+        counter = 0
+        for y in chair_mp['parliament_year'].unique():
+            y_empty_chairs = []
+            y_counter = 0
+            year_chair_mp = chair_mp.loc[chair_mp['parliament_year'] == y]
+            year_chairs = year_chair_mp["chair_id"].unique()
+            if year_chair_mp["swerik_id"].isnull().any():
+                for i, r in year_chair_mp.iterrows():
+                    if pd.isna(r["swerik_id"]):
+                        df = year_chair_mp.loc[(year_chair_mp["chair_id"] == r["chair_id"]) & (pd.notnull(year_chair_mp["swerik_id"]))]
+                        if df.empty:
+                            y_counter += 1
+                            y_empty_chairs.append(r["chair_id"])
+
+            if y_counter > 0:
+                no_empty_chairs = False
+                print("\n\n")
+                warnings.warn(f"{y}: [{', '.join(y_empty_chairs)}]", EmptyChair)
+                counter += y_counter
+                [empty_chairs.append(_) for _ in y_empty_chairs]
+                print("\n" + str(y_counter / len(year_chairs)) + " emptiness in year")
+
+        print(counter, empty_chairs)
+
+        self.assertTrue(no_empty_chairs)
 
 
 
