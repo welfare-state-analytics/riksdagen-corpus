@@ -22,7 +22,7 @@ def main(args):
     metadata = [party_mapping] + dfs
     
     redetect_fun = partial(redetect_protocol, metadata)
-    protocols = sorted(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end))    )    
+    protocols = sorted(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end)))
     unknowns = []
     if args.parallel == 1:
         pool = Pool()

@@ -1,7 +1,8 @@
-SELECT DISTINCT ?wiki_id ?genderLabel ?born ?dead ?riksdagen_id ?bornPrecision ?deadPrecision
+SELECT DISTINCT ?swerik_id ?genderLabel ?born ?dead ?riksdagen_id ?bornPrecision ?deadPrecision
 WHERE
 {    
-    ?wiki_id wdt:P31 wd:Q5.
+    ?wiki_id wdt:P31 wd:Q5;
+             wdt:P12192 ?swerik_id.
     OPTIONAL { ?wiki_id wdt:P21 ?gender }.
     OPTIONAL { ?wiki_id p:P569/psv:P569 [wikibase:timePrecision ?bornPrecision; wikibase:timeValue ?born ] }.
     OPTIONAL { ?wiki_id p:P570/psv:P570 [wikibase:timePrecision ?deadPrecision; wikibase:timeValue ?dead ] }.

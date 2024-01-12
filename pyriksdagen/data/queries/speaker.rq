@@ -1,8 +1,9 @@
-SELECT DISTINCT ?wiki_id ?start ?end ?roleLabel ?startPrecision ?endPrecision
+SELECT DISTINCT ?swerik_id ?wiki_id ?start ?end ?roleLabel ?startPrecision ?endPrecision
 WHERE
 {
     ?wiki_id wdt:P31 wd:Q5;
              p:P39 ?posheld;
+             wdt:P12192 ?swerik_id
     OPTIONAL { ?posheld pqv:P580 [wikibase:timePrecision ?startPrecision; wikibase:timeValue ?start ] }
     OPTIONAL { ?posheld pqv:P582 [wikibase:timePrecision ?endPrecision; wikibase:timeValue ?end ] }
 
