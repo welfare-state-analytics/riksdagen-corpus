@@ -1,195 +1,168 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1910</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.1.0</edition>
-      </editionStmt>
       <publicationStmt>
-        <authority>National Library of Sweden and the WESTAC project</authority>
+        <authority>N/A</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1910</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in input/curation/instances</p>
+          <p>No correction of source texts was performed.</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>N/A</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>No correction of source texts was performed.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1916--ak--84</head>
-          <docDate when="1916-05-31">1916-05-31</docDate>
-          <docDate when="1916-06-01">1916-06-01</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection">
-          <pb facs="https://betalab.kb.se/prot-1916--ak--84/prot_1916__ak__84-000.jp2/_view"/>
-          <note xml:id="i-QUGkYHiV3B3Cg6LPBpTrQB">
-            RIKSDAGENS PROTOKOLL. 1916. Andra kammaren. Nr 84.
-          </note>
-          <note xml:id="i-FMpXVsH2dbh8GeLJmg9XJt">
-            Torsdagen den 1 juni. Kl. 10 f. m.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-TenXNNMpRXeNwU48tZ5YrA">
-            § 1.
-          </note>
-          <note xml:id="i-DhxMnDeCfPvBwxGadxWgJJ">
-            Upplästes följande till kammaren inkomna sjukbetyg:
-          </note>
-          <note xml:id="i-79BjYkDWZvSx1TB85YYwTE">
-            Med anledning av en akut åkomma i innerörat, vilken fordrar sängläge,
-            är riksdagsmannen, herr W. Hellberg urståndssatt bevista riksdagens
-            sammanträden, intygas.
-          </note>
-          <note xml:id="i-VrgDgMz6yUTvARhgoBhshL">
-            Stockholm den 31 maj 1916.
-          </note>
-          <note xml:id="i-EfTYCHFFxXTKKBppP4oYuT">
-            A. Heggström, leg. läkare.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-VpXeS7z4MpNTmZ5Dwipxzt">
-            § 2.
-          </note>
-          <note xml:id="i-4BpRf7pXW17myXUHzad8NC">
-            Föredrogos, men bordlades åter konstitutionsutskottets utlåtanden
-            nr 19—23, statsutskottets utlåtanden nr 133—140, bevillningsutskottets
-            betänkanden nr 33 och 34 samt särskilda utskottets nr 1 utlåtanden
-            nr 1 och 2.
-          </note>
-        </div>
-        <div type="commentSection">
-          <note xml:id="i-GDjJz8t3wvYwpwMoFGjJUw">
-            § 3.
-          </note>
-          <note xml:id="i-EaDh5nW8Endy5FBSgJ6veW">
-            Till bordläggning anmäldes lagutskottets utlåtanden:
-          </note>
-          <note xml:id="i-28x5NKJgvuEf7abxXMAFFz">
-            nr 45, i anledning av Kungl. Maj:ts proposition med förslag till
-            lag om förfogande över viss egendom vid krig, krigsfara eller
-            andra utomordentliga av krig föranledda förhållanden;
-          </note>
-          <note xml:id="i-WCqKW2ReuDJFoDr9DtZwqZ">
-            nr 46, i anledning av Kungl. Maj:ts proposition med förslag till
-            lag om ändrad lydelse av $ 2 mom. 1 och 2, $ 5 mom. 3 och 4, $
-            6 mom. 1 och 4, 8 7, $ 8 mom. 1 samt $$ 9—11 i lagen den 24 maj
-            1895 angående skyldighet för kommmuner och enskilda att fullgöra
-            rekvisitioner för krigsmaktens behov;
-          </note>
-          <note xml:id="i-Wy9yXZn5AfskWWbzgJ8e6M">
-            nr 47, i anledning av dels Kungl. Maj:ts proposition med förslag
-            till lag om förbud i vissa fall mot fortskaffande av gods med
-            svenskt fartyg mellan utrikes orter samt lag om utsträckt tillämpning
-            av lagen den 6 mars 1916 om förbud i vissa fall mot överlåtelse
-            av svenskt fartyg eller andel däri samt mot tidsbefraktning av
-            fartyg, dels ock en i ämnet väckt motion; samt
-          </note>
-          <note xml:id="i-XUBTnSp8ssuZhtmwVHQuFz">
-            nr 48, i anledning av dels Kungl. Maj:ts proposition med förslag
-            till lag om ändrad lydelse av 13, 16 och 41 $$ i lagen om arbetar-
-          </note>
-          <note xml:id="i-8n5mbWJXDtbGmwmE457hDf">
-            Andra kammarens protokoll 1916. Nr 84. 1
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1916--ak--84/prot_1916__ak__84-001.jp2/_view"/>
-          <note xml:id="i-WTTFZAdSewbsQ7AmZsMtz">
-            Nr 8.
-          </note>
-          <note xml:id="i-NxxBT5zSmPViiu7tLZ7CJf">
-            2 Torsdagen den 1 juni.
-          </note>
-          <note xml:id="i-2PbxkqJ3Doysx1Yjcc6jTF">
-            skydd den 29 juni 1912 samt till lag om utsträckt rätt att i
-            visst arbete använda manliga minderåriga av viss ålder dels ock
-            två i ämnet väckta motioner.
-          </note>
-        </div>
-        <div type="debateSection">
-          <note xml:id="i-FEjMQbR552idYZJz4Vtmdu">
-            § 4.
-          </note>
-          <note xml:id="i-Dkg5ngxXghcecbaKZnmjLb">
-            Herr talmannen meddelade, att hans excellens herr statsministern
-            tillkännagivit, att han vid morgondagens sammanträde ämnade besvara
-            herr Rydéns i Malmö interpellation angående utredning rörande
-            omorganisation av riksdagsarbetet m. m.
-          </note>
-          <note xml:id="i-LaHGm5XmdjQ9DW57jmg3B5">
-            S 5.
-          </note>
-          <note xml:id="i-BY9EN53YptxSTvCsT246jY">
-            Ordet lämnades härefter på begäran till
-          </note>
-          <note xml:id="i-UB5ijGJzmqRC1cbyZJKhyZ" type="speaker">
-            Herr vice talmannen D. Persson, som yttrade:
-          </note>
-          <note xml:id="i-MeAecNTHPnHLcPpuHEqqm8">
-            Herr talman! Härmed får jag hemställa, att kammaren måtte besluta
-            den ändring uti föredragningslistan för morgondagens plenum, att
-            bland två gånger bordlagda ärenden först måtte uppföras bevillningsutskottets
-            betänkande, nr 33, i anledning av dels Kungl. Maj:ts proposition
-            med förslag till förordning om spirituosaaccis, m. m., dels ock
-            i ämnet väckta motioner, och därefter bevillningsutskottets betänkande
-            nr 34 som nr 2, statsutskottets utlåtande nr 140 som nr 3, statsutskottets
-            utlåtande nr 133 som nr 4, statsutskottets utlåtande nr 134 som
-            nr 5, statsutskottets utlåtande nr 135 som nr 6, statsutskottets
-            utlåtande nr 136 som nr 7, statsutskottets utlåtande nr 137 som
-            nr 8, statsutskottets utlåtande nr 138 som nr 9, och statsutskottets
-            utlåtande nr 139 som nr 10, samt att ärendena i övrigt må uppföras
-            i den ordning de förekomma på dagens föredragningslista.
-          </note>
-          <note xml:id="i-5p2SQ2BiYsnYV3rGCjPQgv">
-            Denna hemställan bifölls av kammaren. Kammarens ledamöter åtskildes
-            härefter kl. 10,11 f. m.
-          </note>
-          <note xml:id="i-VUwZkXUeSpdEmws1iV8Ugr">
-            In fidem Per Cronvall.
-          </note>
-          <note xml:id="i-zCGDuQfifrvXviBwz69aZ">
-            Stockholm 1916. Kung! Boktryckeriet, P. A. Norstedt &amp; Söner.
-            162157
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1916--ak--84</head>
+        <docDate when="1916-05-31">1916-05-31</docDate>
+        <docDate when="1916-06-01">1916-06-01</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection">
+        <pb facs="https://betalab.kb.se/prot-1916--ak--84/prot_1916__ak__84-000.jp2/_view"/>
+        <note xml:id="i-QUGkYHiV3B3Cg6LPBpTrQB">
+          RIKSDAGENS PROTOKOLL. 1916. Andra kammaren. Nr 84.
+        </note>
+        <note xml:id="i-FMpXVsH2dbh8GeLJmg9XJt">
+          Torsdagen den 1 juni. Kl. 10 f. m.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-TenXNNMpRXeNwU48tZ5YrA">
+          § 1.
+        </note>
+        <note xml:id="i-DhxMnDeCfPvBwxGadxWgJJ">
+          Upplästes följande till kammaren inkomna sjukbetyg:
+        </note>
+        <note xml:id="i-79BjYkDWZvSx1TB85YYwTE">
+          Med anledning av en akut åkomma i innerörat, vilken fordrar sängläge,
+          är riksdagsmannen, herr W. Hellberg urståndssatt bevista riksdagens
+          sammanträden, intygas.
+        </note>
+        <note xml:id="i-VrgDgMz6yUTvARhgoBhshL">
+          Stockholm den 31 maj 1916.
+        </note>
+        <note xml:id="i-EfTYCHFFxXTKKBppP4oYuT">
+          A. Heggström, leg. läkare.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-VpXeS7z4MpNTmZ5Dwipxzt">
+          § 2.
+        </note>
+        <note xml:id="i-4BpRf7pXW17myXUHzad8NC">
+          Föredrogos, men bordlades åter konstitutionsutskottets utlåtanden
+          nr 19—23, statsutskottets utlåtanden nr 133—140, bevillningsutskottets
+          betänkanden nr 33 och 34 samt särskilda utskottets nr 1 utlåtanden
+          nr 1 och 2.
+        </note>
+      </div>
+      <div type="commentSection">
+        <note xml:id="i-GDjJz8t3wvYwpwMoFGjJUw">
+          § 3.
+        </note>
+        <note xml:id="i-EaDh5nW8Endy5FBSgJ6veW">
+          Till bordläggning anmäldes lagutskottets utlåtanden:
+        </note>
+        <note xml:id="i-28x5NKJgvuEf7abxXMAFFz">
+          nr 45, i anledning av Kungl. Maj:ts proposition med förslag till
+          lag om förfogande över viss egendom vid krig, krigsfara eller
+          andra utomordentliga av krig föranledda förhållanden;
+        </note>
+        <note xml:id="i-WCqKW2ReuDJFoDr9DtZwqZ">
+          nr 46, i anledning av Kungl. Maj:ts proposition med förslag till
+          lag om ändrad lydelse av $ 2 mom. 1 och 2, $ 5 mom. 3 och 4, $
+          6 mom. 1 och 4, 8 7, $ 8 mom. 1 samt $$ 9—11 i lagen den 24 maj
+          1895 angående skyldighet för kommmuner och enskilda att fullgöra
+          rekvisitioner för krigsmaktens behov;
+        </note>
+        <note xml:id="i-Wy9yXZn5AfskWWbzgJ8e6M">
+          nr 47, i anledning av dels Kungl. Maj:ts proposition med förslag
+          till lag om förbud i vissa fall mot fortskaffande av gods med
+          svenskt fartyg mellan utrikes orter samt lag om utsträckt tillämpning
+          av lagen den 6 mars 1916 om förbud i vissa fall mot överlåtelse
+          av svenskt fartyg eller andel däri samt mot tidsbefraktning av
+          fartyg, dels ock en i ämnet väckt motion; samt
+        </note>
+        <note xml:id="i-XUBTnSp8ssuZhtmwVHQuFz">
+          nr 48, i anledning av dels Kungl. Maj:ts proposition med förslag
+          till lag om ändrad lydelse av 13, 16 och 41 $$ i lagen om arbetar-
+        </note>
+        <note xml:id="i-8n5mbWJXDtbGmwmE457hDf">
+          Andra kammarens protokoll 1916. Nr 84. 1
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1916--ak--84/prot_1916__ak__84-001.jp2/_view"/>
+        <note xml:id="i-WTTFZAdSewbsQ7AmZsMtz">
+          Nr 8.
+        </note>
+        <note xml:id="i-NxxBT5zSmPViiu7tLZ7CJf">
+          2 Torsdagen den 1 juni.
+        </note>
+        <note xml:id="i-2PbxkqJ3Doysx1Yjcc6jTF">
+          skydd den 29 juni 1912 samt till lag om utsträckt rätt att i
+          visst arbete använda manliga minderåriga av viss ålder dels ock
+          två i ämnet väckta motioner.
+        </note>
+      </div>
+      <div type="debateSection">
+        <note xml:id="i-FEjMQbR552idYZJz4Vtmdu">
+          § 4.
+        </note>
+        <note xml:id="i-Dkg5ngxXghcecbaKZnmjLb">
+          Herr talmannen meddelade, att hans excellens herr statsministern
+          tillkännagivit, att han vid morgondagens sammanträde ämnade besvara
+          herr Rydéns i Malmö interpellation angående utredning rörande
+          omorganisation av riksdagsarbetet m. m.
+        </note>
+        <note xml:id="i-LaHGm5XmdjQ9DW57jmg3B5">
+          S 5.
+        </note>
+        <note xml:id="i-BY9EN53YptxSTvCsT246jY">
+          Ordet lämnades härefter på begäran till
+        </note>
+        <note xml:id="i-UB5ijGJzmqRC1cbyZJKhyZ" type="speaker">
+          Herr vice talmannen D. Persson, som yttrade:
+        </note>
+        <note xml:id="i-MeAecNTHPnHLcPpuHEqqm8">
+          Herr talman! Härmed får jag hemställa, att kammaren måtte besluta
+          den ändring uti föredragningslistan för morgondagens plenum, att
+          bland två gånger bordlagda ärenden först måtte uppföras bevillningsutskottets
+          betänkande, nr 33, i anledning av dels Kungl. Maj:ts proposition
+          med förslag till förordning om spirituosaaccis, m. m., dels ock
+          i ämnet väckta motioner, och därefter bevillningsutskottets betänkande
+          nr 34 som nr 2, statsutskottets utlåtande nr 140 som nr 3, statsutskottets
+          utlåtande nr 133 som nr 4, statsutskottets utlåtande nr 134 som
+          nr 5, statsutskottets utlåtande nr 135 som nr 6, statsutskottets
+          utlåtande nr 136 som nr 7, statsutskottets utlåtande nr 137 som
+          nr 8, statsutskottets utlåtande nr 138 som nr 9, och statsutskottets
+          utlåtande nr 139 som nr 10, samt att ärendena i övrigt må uppföras
+          i den ordning de förekomma på dagens föredragningslista.
+        </note>
+        <note xml:id="i-5p2SQ2BiYsnYV3rGCjPQgv">
+          Denna hemställan bifölls av kammaren. Kammarens ledamöter åtskildes
+          härefter kl. 10,11 f. m.
+        </note>
+        <note xml:id="i-VUwZkXUeSpdEmws1iV8Ugr">
+          In fidem Per Cronvall.
+        </note>
+        <note xml:id="i-zCGDuQfifrvXviBwz69aZ">
+          Stockholm 1916. Kung! Boktryckeriet, P. A. Norstedt &amp; Söner.
+          162157
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

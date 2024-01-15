@@ -1,81 +1,54 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1910</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.1.0</edition>
-      </editionStmt>
       <publicationStmt>
-        <authority>National Library of Sweden and the WESTAC project</authority>
+        <authority>N/A</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1910</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in input/curation/instances</p>
+          <p>No correction of source texts was performed.</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>N/A</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>No correction of source texts was performed.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1916--ak--100</head>
-          <docDate when="1916-06-16">1916-06-16</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection">
-          <pb facs="https://betalab.kb.se/prot-1916--ak--100/prot_1916__ak__100-000.jp2/_view"/>
-          <note xml:id="i-B9rKwm2QRu3Z71tPNhLQWe">
-            RIKSDAGENS PROTOKOLL. 1916. Andra kammaren. Nr 100.
-          </note>
-          <note xml:id="i-3XRD6ikT9bmquH6zBaFcgq">
-            Fredagen den 16 juni. Kl. 1 e. m.
-          </note>
-          <note xml:id="i-5KxsrKBL56SNuoZmkYkAW9">
-            Justerades protokollen för den 9, den 13, den 14 och den 15 innevarande
-            juni samt denna dag.
-          </note>
-          <note xml:id="i-UaSGGp5Bz3hiy41Xdjf9dw">
-            In fidem Per Cronvall.
-          </note>
-          <note xml:id="i-LxfN3myxf46ySZphEnYxfn">
-            Andra kammarens protokoll 1916. Nr 100. 1
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1916--ak--100</head>
+        <docDate when="1916-06-16">1916-06-16</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection">
+        <pb facs="https://betalab.kb.se/prot-1916--ak--100/prot_1916__ak__100-000.jp2/_view"/>
+        <note xml:id="i-B9rKwm2QRu3Z71tPNhLQWe">
+          RIKSDAGENS PROTOKOLL. 1916. Andra kammaren. Nr 100.
+        </note>
+        <note xml:id="i-3XRD6ikT9bmquH6zBaFcgq">
+          Fredagen den 16 juni. Kl. 1 e. m.
+        </note>
+        <note xml:id="i-5KxsrKBL56SNuoZmkYkAW9">
+          Justerades protokollen för den 9, den 13, den 14 och den 15 innevarande
+          juni samt denna dag.
+        </note>
+        <note xml:id="i-UaSGGp5Bz3hiy41Xdjf9dw">
+          In fidem Per Cronvall.
+        </note>
+        <note xml:id="i-LxfN3myxf46ySZphEnYxfn">
+          Andra kammarens protokoll 1916. Nr 100. 1
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

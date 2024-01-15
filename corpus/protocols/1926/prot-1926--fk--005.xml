@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1926</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1926</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,450 +25,423 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1926--fk--5</head>
-          <docDate when="1926-01-26">1926-01-26</docDate>
-          <docDate when="1926-01-27">1926-01-27</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--5/prot_1926__fk__5-000.jp2/_view"/>
-          <note xml:id="i-4qBWyU94WLwGmhDeb3cwt2">
-            RIKSDAGENS PROTOKOLL.
-          </note>
-          <note xml:id="i-NEEv4NBXX11RrPhki8e1op">
-            1926. Första kammaren. Nr 5.
-          </note>
-          <note type="date" xml:id="i-6ixSo1AJ54cbcHa8wk6a1w">
-            Tisdagen den 26 januari:
-          </note>
-          <note xml:id="i-AgEg9HdsN5g6gicgeVHbzR">
-            Kammaren sammanträdde kl. 3.30 e. m.; och dess förhandlingar
-            leddes av herr förste vice talmannen.
-          </note>
-          <note type="speaker" xml:id="i-PYbmtXXAdyq1srXW5GBdxs">
-            Herr statsrådet Schlyter avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-WN6fUygJnwkwBw5z4RuG5L">
-            ts propositioner:
-          </note>
-          <note xml:id="i-D2J1a3ATPx3eXqyCXCWafc">
-            nr 39, angående avgivande av förnyad förklaring i enlighet med
-            bestäm- Ir een i art. 36, andra stycket, av stadgan för den fasta
-            mellanfolkliga domstolen:
-          </note>
-          <note xml:id="i-ErMYL1zabBgFYDwd6Y7xXV">
-            nr 40, angående återställande av deposition till säkerhet för
-            fullgörande av stadgade villkor för koncession å järnvägsanläggning
-            från Klintehamn till Klintebys och Snögrinda;
-          </note>
-          <note xml:id="i-7aprLJ4UQK2YvVEQkNboPf">
-            nr 41, angående förhöjning för år 1926 av åt vissa f. d. poststationsföreståndare
-            och lantbrevbärare utgående understöd;
-          </note>
-          <note xml:id="i-8sJ7UX4txgwA63dnYv1vTk">
-            nr 46, angående försäljning av mark från klockarbostället i Västerlövsta
-            församling m. m.; samt . I nr 47, angående nyoch ombyggnader vid
-            den Skytteanska lappfolkskolan i Färna.
-          </note>
-          <note xml:id="i-YJ5JsPGAeECW8J2PwrezY8">
-            Justerades protokollen för den 18 och den 20 innevarande månad.
-          </note>
-          <note xml:id="i-66HkRtnR6Coi6r1aNmcXzq">
-            Upplästes följande inkomna läkarintyg:
-          </note>
-          <u xml:id="i-XcjnFErvg6jQ47amZ6i9AD" next="i-L2MCdWmYBLkibUShtFGxdz" who="Q6168210">
-            <seg xml:id="i-TzHsZjCU55ZPpTpP2mByDZ">
-              Att talmannen i första kammaren, greve Hugo Hamilton, till följd
-              av strupkatarr med feber är oförmögen att under de närmaste dagarna
-              deltaga i riksdagsarbetet, intygas härmed.
-            </seg>
-          </u>
-          <note xml:id="i-AGDvtRg5a9YX7wuWKAceDT">
-            Stockholm den 26 januari 1926.
-          </note>
-          <note xml:id="i-7zW4nQnjGJc58DcT3Kbb5F">
-            Ernst Wikner. Med. dr.
-          </note>
-          <u xml:id="i-L2MCdWmYBLkibUShtFGxdz" prev="i-XcjnFErvg6jQ47amZ6i9AD" who="Q6168210">
-            <seg xml:id="i-SDTXfozYqMEPcnS8W2giKw">
-              Upplästes en till kammaren inkommen ansökning, som jämte därvid
-              fogat läkarintyg var så lydande: Till riksdagens första kammare,
-              Stockholm. Under åberopande av bilagda läkarbetyg får jag anhålla
-              om tjänstledighet
-            </seg>
-          </u>
-          <note xml:id="i-TxHk5XLnypQ3ppyxQKtVc6">
-            från riksdagsgöromålen till och med den 3 nästkommande februari.
-            Västerås den 24 januari 1926. John Karlsson.
-          </note>
-          <note xml:id="i-SmU9QYRTAAC8jTdYCrmvu7">
-            Att borgmästare John Karlsson är sängliggande sjuk i influensa
-            och i behov av tjänstledighet från riksdagsgöromålen till och
-            med den 3 februari, intygas Västerås den 24 januari 1926. Gustav
-            Holm, leg. läkare. Den begärda ledigheten beviljades.
-          </note>
-          <note xml:id="i-JQT3T3dkEyNE5TGewcQrUh">
-            Första kammarens protokoll 1926. Nr 5. 1
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--5/prot_1926__fk__5-001.jp2/_view"/>
-          <note xml:id="i-AyP47ipeYhxgcGzcPgvDdr">
-            Nr 5.
-          </note>
-          <note type="date" xml:id="i-WPaz5PxE8hrd9JP5rVy6Tg">
-            2 Tisdagen den 26 januari.
-          </note>
-          <note xml:id="i-6fiC65F4jEzZse7JbX1T9i">
-            Anmäldes och bordlades bankoutskottets memorial nr 7,1 anledning
-            av remiss från andra kammaren av en utav herr Röing väckt motion.
-          </note>
-          <note xml:id="i-Mk62xDPCUe5oA3oSUePUgK">
-            Föredrogs och hänvisades till konstitutionsutskottet en av herr
-            Ekman, Karl Johan, väckt motion, nr 99, om vissa ändringar i bestämmelserna
-            angående statsdepartementen.
-          </note>
-          <note xml:id="i-Ejwf5U4V8rvnbRGPzhdKdb">
-            Föredrogos och hänvigades till statsutskottet nedannämnda motioner:
-          </note>
-          <note xml:id="i-R523Q9PcrNqfJNSpexQhEX">
-            nr 105, av herr Lindhagen, om krigsväsendets avrustning; samt
-          </note>
-          <note xml:id="i-M2koSCx1e13HtMF8CPUDFE">
-            nr 126, av herrar Enhörning och Luterkort, dels om ordnande av
-            befälsutbildningen för den svenska handelsflottan, dels ock om
-            anslag för främjande av skolskeppsverksamheten.
-          </note>
-          <note xml:id="i-KL4wExTi4TeaK4yvMgADZc">
-            Föredrogs herr Luterkorts motion, nr 127, i anledning av Kungl.
-            Maj:ts i statsverkspropositionen gjorda framställning angående
-            föredragande i regeringsrätten.
-          </note>
-          <note xml:id="i-AaTwy8fQaAw9UJUgJWA1W4">
-            Denna motion hänvisades, i vad den avsåg nionde huvudtiteln,
-            till jordbruksutskottet och i övrigt till statsutskottet.
-          </note>
-          <note xml:id="i-8tsQSQEiEZc6qWhF7kthng">
-            Föredrogos och hänvisades till behandling av lagutskott nedannämnda
-            motoner:
-          </note>
-          <note xml:id="i-ELZPe7LtRKJiZKAjaf7TTh">
-            nr 128, av herr Luterkort, i anledning av Kungl. Maj:ts proposition
-            med förslag till lag om ändrad lydelse av 5 $ i lagen om Kungl.
-            Maj:ts regeringsrätt;
-          </note>
-          <note xml:id="i-BMEs8s7JyhTg9mkQUbeM18">
-            nr 139, av herr Schedin m. fl., angående fördelningen äkta makar
-            emellan av avgiftspensioner enligt lagen om allmän pensionsförsäkring;
-          </note>
-          <note xml:id="i-3LgdqiwTWFBigAyzLzwkud">
-            nr 140, av herr Berglund, om obligatorisk kontroll över förvaltningen
-            av medel, som donerats eller anslagits för visst ändamål; samt
-          </note>
-          <note xml:id="i-3VV2C2rcScZ51CynZeU94S">
-            nr 156, av herr Andersson, Jonas, m. fl., om skyldighet för järnväg
-            att inhägna sitt område.
-          </note>
-          <note xml:id="i-9cxJtAF46CCvcbKB9td7r7">
-            Föredrogs den av herr Österström m. fl. väckta motionen, nr 157,
-            om anslag dels till iståndsättande av den gamla residensbyggnaden
-            i Härnösand till bostad för landshövdingen i Västernorrlands län
-            m. m., dels ock till anordnande av provisoriska lokaler för lantmäterikontoret
-            i Västernorrlands län.
-          </note>
-          <note type="speaker" xml:id="i-Fyqt9NhNeAm8FHkNLfJ2Tr">
-            Herr Österström:
-          </note>
-          <u who="Q6257968" xml:id="i-141dae458a24e33a-0">
-            <seg xml:id="i-6tqNccXATKR9hJJqJ7v8eR">
-              Herr förste vice taman! Jag har blivit gjord uppmärksam på, att
-              denna motion, nr 157, rätteligen borde vara uppdelad i två särskilda
-              motioner; och jag anhåller om kammarens medgivande att få företaga
-              en sådan ändring. I motionen 157 skulle alltså komma att kvarstå
-              yrkandet om anslag till iståndsättande av den gamla residensbyggnaden
-              i Härnösand till bostad för landshövdingen i Västernorrlands län,
-              medan i i den andra motionen, som jag nu ber få framföra, yrkas,
-              att riksdagen, i händelse förstnämnda motionen bifalles, måtte
-              för budgetåret 1926—1927 anvisa medel för iordningsställande av
-              lokaler för lantmäterikontoret i nämnda län.
-            </seg>
-          </u>
-          <note xml:id="i-Hqs1aQTkioSWXFQo3Lsd4o">
-            Sedan herrar Walles, Enhörning, Kvarneelius, Tjällgren och Luterkort,
-            vilka jämte herr Österström undertecknat motionen nr 157, instämt
-            i den sistnämndes nu gjorda anhållan, bifölls densamma, varefter
-            föreliggande motion i enlighet
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--5/prot_1926__fk__5-002.jp2/_view"/>
-          <note type="date" xml:id="i-R4MUbFv1ufa6ec3ZtQh99m">
-            Tisdagen den 26 januari. 3
-          </note>
-          <note xml:id="i-2zSmzdb3mnQcf332NFSmzW">
-            därmed uppdelades i två särskilda motioner, den ena med samma
-            nummer som den ursprungliga motionen och med överskrift: om anslag
-            till iståndsättande av den gamla residensbyggnaden i Härnösand
-            till bostad för landshövdingen i Västernorrlands län m. m. samt
-            den andra med nummer 210 och med överskrift: om anslag till anordnande
-            av provisoriska lokaler för lantmäterikontoret i Västernorrlands
-            län.
-          </note>
-          <note xml:id="i-73MncNPympcen4MmJMEa8d">
-            Härefter hänvisades motionen nr 157 till statsutskottet och motionen
-            nr 210 till jordbruksutskottet.
-          </note>
-          <note xml:id="i-9wCHbWgUSbmS7PH9Tscjoa">
-            Föredrogs och hänvisades till statsutskottet den av herrar Norling
-            och Sandegård väckta motionen, nr 161, angående inrättande av
-            en särskild kyrklig överstyrelse.
-          </note>
-          <note xml:id="i-FdLVubuLDbjXFRcSh1T58v">
-            Föredrogs herr Hallins motion, nr 162, angående sammanslagning
-            av statssekreterareoch expeditionschefsämbetena.
-          </note>
-          <note xml:id="i-Mqta1gr5Ppi6EeTD2ARTwK">
-            Denna motion hänvisades, i vad den avsåg nionde huvudtiteln,
-            till jordbruksutskottet och i övrigt till statsutskottet.
-          </note>
-          <note xml:id="i-XxCDiNeLouCxsNXvaC8QT7">
-            Föredrogs och hänvisades till kammarens andra tillfälliga utskott
-            herr Vrangs motion, nr 185, om revision av gällande bestämmelser
-            för allmänna bidrag till primärkommunerna.
-          </note>
-          <note xml:id="i-9SMStAo9au7Bq1ZnTZo4JP">
-            Föredrogs och hänvisades till bevillningsutskottet den av herrar
-            Örne och Pauli väckta motionen nr 188, om befrielse för Nobelstiftelsen
-            från skyldigheten att erlägga bevillning samt inkomstoch förmögenhetsskatt.
-          </note>
-          <note xml:id="i-D85duAWbd3Ge1HAvf1H1sc">
-            Föredrogs och hänvisades till jordbruksutskottet den av herr
-            Nilsson, Nils Anton, och herr Gabrielsson väckta motionen, nr
-            204, angående inrättande inom lantbruksstyrelsen av en särskild
-            byrå för handläggning av mejeriärenden.
-          </note>
-          <note xml:id="i-RNYD9AjrecFLKs86onxmvn">
-            Föredrogs och hänvisades till behandling av lagutskott den av
-            herr Ekman, Carl Gustaf, väckta motionen, nr 207, om beredande
-            av erforderlig giltighet åt arbetsgivares utfästelser om pensionering
-            av anställd personal.
-          </note>
-          <note xml:id="i-DGqSRYNoA1MhHASMgAGF9z">
-            | Vid föredragning av de vid sammanträdets början avlämnade kungl.
-            propositionerna blevo propositionerna nr 39—41 på begäran bordlagda,
-            varemot de övriga nu hänvisades, nr 46 till jordbruksutskottet
-            och nr 47 till statsutskottet.
-          </note>
-          <note xml:id="i-LuWrQXdcUz7pTw9iLZpCpL">
-            Herr Ekman, Carl Gustaf, avlämnade nedannämnda av honom m. fl.
-            undertecknade motioner:
-          </note>
-          <note xml:id="i-3oqktDjX4hLw2Y41J45Vku">
-            nr 211, i anledning av Kungl. Maj:ts förslag till lag om upplåtelse
-            under åborätt av viss jord m. m.; och
-          </note>
-          <note xml:id="i-3Atd28aFdfhtuCgWoNPGco">
-            nr 212, i anledning av Kungl. Maj:ts proposition angående vissa
-            frågor röep tillämpningen av föreslagen lag om upplåtelse under
-            åborätt av viss jord m. m. .
-          </note>
-          <note xml:id="i-DSNMWXru5Pw551r8nB8reY">
-            Nr 5.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--5/prot_1926__fk__5-003.jp2/_view"/>
-          <note xml:id="i-JEesECKuu35QiyDMSPJn4i">
-            Nr 5.
-          </note>
-          <note type="date" xml:id="i-FgR3Rawdt2VZk1vW1fLgVC">
-            4 Tisdagen den 26 januari.
-          </note>
-          <note xml:id="i-PyGq6MhRK6hsLmugmSn2qf">
-            Dessa motioner hänvigades, nr 211 till behandling av lagutskott
-            och nr 212 till jordbruksutskottet.
-          </note>
-          <note xml:id="i-YKFKX9YgZtPM72uivfhGjZ">
-            Herr Wohlin avlämnade nedannämnda av honom m. fl. undertecknade
-            motioner:
-          </note>
-          <note xml:id="i-XasH9taBar59jNeiHnY43m">
-            nr 213, i anledning av Kungl. Maj:ts proposition med förslag
-            till lag om upplåtelse under åborätt av viss jord m. m.; och
-          </note>
-          <note xml:id="i-84ZfRLgffuD5VJCHt8UVi4">
-            nr 214, i anledning av Kungl. Maj:ts proposition angående vissa
-            frågor rörande tillämpningen av föreslagen lag om upplåtelse under
-            åborätt av viss jord m. m.
-          </note>
-          <note xml:id="i-NA9b2RBQxFeq8tL8nJNfhM">
-            Dessa motioner hänvisades, nr 213, såvitt den angick förslaget
-            till lag om ändrad lydelse av 2 $ 1 mom. i skogsvårdslagen den
-            15 juni 1923, till jordbruksutskottet och i övrigt till behandling
-            av lagutskott samt nr 214 till jordbruksutskottet.
-          </note>
-          <note xml:id="i-DNkrY5aPJhAt3edqj1ZDDU">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 3.47 e. m.
-          </note>
-          <note xml:id="i-38jdHBoyCq1dZWuwh5aVPN">
-            In fidem G. H. Berggren.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--5/prot_1926__fk__5-004.jp2/_view"/>
-          <note type="date" xml:id="i-2e4khv2VKtGsQMx3nQyGKU">
-            Onsdagen den 27 januari, 5
-          </note>
-          <note type="date" xml:id="i-2q5eyYeSdmLGjaEhQZVFup">
-            Onsdagen den 27 januari.
-          </note>
-          <note xml:id="i-3ErGQg2n2joLEqLaQZynLW">
-            Kammaren sammanträdde kl. 11 f. m.; och dess förhandlingar leddes
-            av herr förste vice talmannen.
-          </note>
-          <note type="speaker" xml:id="i-8oPm7uYDspFP4Qhv2NDRJQ">
-            Herr statsrådet Nothin avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-ALpqyVc59suCfVp2r5okNU">
-            ts proposition nr 42, med förslag till förordning om fortsatt
-            tillfällig höjning av beloppen för den i förordningen den 6 november
-            1908 (nr 129) angående en särskild stämpelavgift vid köp och byte
-            av fondpapper stadgade stämpelavgiften.
-          </note>
-          <note xml:id="i-FVnhdVPfurtdiL7RdPgJUn">
-            Justerades protokollen för den 21 och den 22 innevarande månad.
-          </note>
-          <note xml:id="i-3kVt8ozMhXyjmvdMNxq324">
-            Anmäldes och bordlades
-          </note>
-          <note xml:id="i-Po3SWKDWCfkAnnJZiRYwvE">
-            konstitutionsutskottets memorial nr 1, i anledning av första
-            kammarens remiss av motionen nr 160 av herr Almkvist, med anledning
-            av Kungl. Maj:ts förslag till lag om ändrad lydelse av 5 $ i lagen
-            om Kungl. Maj:ts regeringsrätt; och
-          </note>
-          <note xml:id="i-Atso2YABAgLSG3M4ShGbLk">
-            statsutskottets utlåtande nr 11, i anledning av Kungl. Maj:ts
-            i statsverkspropositionen gjorda framställning angående tillfälliga
-            lönetillägg åt vissa vaktmästare och med dem jämförliga befattningshavare.
-          </note>
-          <note xml:id="i-YRCjkgxMVTZR5LkWeCjvxh">
-            Föredrogs och hänvisades till konstitutionsutskottet Kungl. Maj:ts
-            proposition nr 39, angående avgivande av förnyad förklaring i
-            enlighet med bestämmelserna i art. 36, andra stycket, av stadgan
-            för den fasta mellanfolkliga domstolen.
-          </note>
-          <note xml:id="i-YMTck9TPpFSnjKS5UTPmkZ">
-            Föredrogs och hänvisades till statsutskottet Kungl. Maj:ts proposition
-            nr 40, angående återställande av deposition till säkerhet för
-            fullgörande av stadgade villkor för koncession å järnvägsanläggning
-            från Klintehamn till Klintebys och Snögrinda.
-          </note>
-          <note xml:id="i-Y2u8PBDg3SU4spRjFfEpzy">
-            Föredrogs och hänvisades till bankoutskottet Kungl. Maj:ts proposition
-            nr 41, angående förhöjning för år 1926 av åt vissa f. d. poststationsföreståndare
-            och lantbrevbärare utgående understöd.
-          </note>
-          <note xml:id="i-Kk9PpkoA1y4g6gUnRibcTF">
-            Föredrogs bankoutskottets memorial nr 7, i anledning av remiss
-            från andra kammaren av en utav herr Röing väckt motion.
-          </note>
-          <note xml:id="i-A2GmJ3ZczvBgqca8rd8MgS">
-            Detta memorial hade följande lydelse:
-          </note>
-          <note xml:id="i-4j8PiJsWcQvJhGC4o6NUVr">
-            » Till bankoutskottet har den 21 innevarande januari från andra
-            kammaren remitterats en av herr Röing väckt motion nr 56, däri
-            hemställts, att riksdagen måtte, utöver det av Kungl. Maj:t å
-            femte huvudtiteln äskade anslaget
-          </note>
-          <note xml:id="i-53gTmBTALSLgCXpkGmRFUY">
-            Nr 5.
-          </note>
-          <note xml:id="i-7YuSjFBTR1Hx62cSYRPZjD">
-            Om återlämnande från bankoutskottet av en dit remitterad motion.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--5/prot_1926__fk__5-005.jp2/_view"/>
-          <note xml:id="i-Lt2SbTXsby9Y8r1PqGYbau">
-            Nr dä.
-          </note>
-          <note xml:id="i-CVaz4r9B9JxJK3ncfDB62X">
-            Om återlämnande från bankoutskottet av en dit remitterad motion.
-          </note>
-          <note xml:id="i-R4rUoCjKQvuHADRearMurT">
-            (Forts.)
-          </note>
-          <note type="date" xml:id="i-3KaKEGzTPSrW11wYAtmCp8">
-            6 Onsdagen den 27 januari,
-          </note>
-          <note xml:id="i-AHoub571SXy7ksxuKtnWGM">
-            för karantänsanstalten på Känsö, anslå ytterligare 500 kronor
-            att såsom personligt lönetillägg under budgetåret 1926—1927 utgå
-            till nuvarande karan tänsmästaren Harald Skantze å nämnda anstalt.
-          </note>
-          <u who="Q6018174" xml:id="i-a2a9e204879bad34-3">
-            <seg xml:id="i-DsP9nGqaeb72mBMmoiE1K2">
-              Då ifrågavarande motion avser ett ärende, som icke synes vara
-              av beskaffenhet att böra behandlas av bankoutskottet, får utskottet
-              hemställa, att herr
-            </seg>
-          </u>
-          <note xml:id="i-T5iwE8rD69bfR3SzNLMhQ6">
-            Röings ovanberörda motion må till andra kammaren återlämnas.»
-          </note>
-          <note type="speaker" xml:id="i-GbWVdxE9CfTRCPCoteTYAi">
-            Herr andre vice talmannen:
-          </note>
-          <u who="Q6011346" xml:id="i-871e20cc64e512fe-0">
-            <seg xml:id="i-THQj3chEEooCZEEcF1k9kU">
-              Jag yrkar, att kammaren ville bifalla utskottets hemställan med
-              förklarande, att ifrågavarande motion är av beskaffenhet
-            </seg>
-          </u>
-          <note xml:id="i-VXeuVVQBxjYLSy474aGrVa">
-            att böra behandlas av statsutskottet. Vad herr andre vice talmannen
-            sålunda hemställt bifölls.
-          </note>
-          <note xml:id="i-GK17MRpbifKKFjnH6DYiX6">
-            Föredrogs och hänvisades till bevillningsutskottet Kungl. Maj:ts
-            denna dag avlämnade proposition nr 42.
-          </note>
-          <note xml:id="i-VFzzsiLv9WdoA3XyGrm5QH">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 11.07 f. m. ;
-          </note>
-          <note xml:id="i-KbJs4scWcEoLMoxxCMRVFp">
-            In fidem G. H. Berggren.
-          </note>
-          <note xml:id="i-V1M63kWX3s6on3cnKnQgwX">
-            Stockholm 1926. Kungl. Boktryckeriet, P. A. Norstedt &amp; Söner.
-            260466
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1926--fk--5</head>
+        <docDate when="1926-01-26">1926-01-26</docDate>
+        <docDate when="1926-01-27">1926-01-27</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--5/prot_1926__fk__5-000.jp2/_view"/>
+        <note xml:id="i-4qBWyU94WLwGmhDeb3cwt2">
+          RIKSDAGENS PROTOKOLL.
+        </note>
+        <note xml:id="i-NEEv4NBXX11RrPhki8e1op">
+          1926. Första kammaren. Nr 5.
+        </note>
+        <note type="date" xml:id="i-6ixSo1AJ54cbcHa8wk6a1w">
+          Tisdagen den 26 januari:
+        </note>
+        <note xml:id="i-AgEg9HdsN5g6gicgeVHbzR">
+          Kammaren sammanträdde kl. 3.30 e. m.; och dess förhandlingar
+          leddes av herr förste vice talmannen.
+        </note>
+        <note type="speaker" xml:id="i-PYbmtXXAdyq1srXW5GBdxs">
+          Herr statsrådet Schlyter avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-WN6fUygJnwkwBw5z4RuG5L">
+          ts propositioner:
+        </note>
+        <note xml:id="i-D2J1a3ATPx3eXqyCXCWafc">
+          nr 39, angående avgivande av förnyad förklaring i enlighet med
+          bestäm- Ir een i art. 36, andra stycket, av stadgan för den fasta
+          mellanfolkliga domstolen:
+        </note>
+        <note xml:id="i-ErMYL1zabBgFYDwd6Y7xXV">
+          nr 40, angående återställande av deposition till säkerhet för
+          fullgörande av stadgade villkor för koncession å järnvägsanläggning
+          från Klintehamn till Klintebys och Snögrinda;
+        </note>
+        <note xml:id="i-7aprLJ4UQK2YvVEQkNboPf">
+          nr 41, angående förhöjning för år 1926 av åt vissa f. d. poststationsföreståndare
+          och lantbrevbärare utgående understöd;
+        </note>
+        <note xml:id="i-8sJ7UX4txgwA63dnYv1vTk">
+          nr 46, angående försäljning av mark från klockarbostället i Västerlövsta
+          församling m. m.; samt . I nr 47, angående nyoch ombyggnader vid
+          den Skytteanska lappfolkskolan i Färna.
+        </note>
+        <note xml:id="i-YJ5JsPGAeECW8J2PwrezY8">
+          Justerades protokollen för den 18 och den 20 innevarande månad.
+        </note>
+        <note xml:id="i-66HkRtnR6Coi6r1aNmcXzq">
+          Upplästes följande inkomna läkarintyg:
+        </note>
+        <u xml:id="i-XcjnFErvg6jQ47amZ6i9AD" next="i-L2MCdWmYBLkibUShtFGxdz" who="i-NdmzAJFCHr1sfnsvdVwR4y">
+          <seg xml:id="i-TzHsZjCU55ZPpTpP2mByDZ">
+            Att talmannen i första kammaren, greve Hugo Hamilton, till följd
+            av strupkatarr med feber är oförmögen att under de närmaste dagarna
+            deltaga i riksdagsarbetet, intygas härmed.
+          </seg>
+        </u>
+        <note xml:id="i-AGDvtRg5a9YX7wuWKAceDT">
+          Stockholm den 26 januari 1926.
+        </note>
+        <note xml:id="i-7zW4nQnjGJc58DcT3Kbb5F">
+          Ernst Wikner. Med. dr.
+        </note>
+        <u xml:id="i-L2MCdWmYBLkibUShtFGxdz" prev="i-XcjnFErvg6jQ47amZ6i9AD" who="i-NdmzAJFCHr1sfnsvdVwR4y">
+          <seg xml:id="i-SDTXfozYqMEPcnS8W2giKw">
+            Upplästes en till kammaren inkommen ansökning, som jämte därvid
+            fogat läkarintyg var så lydande: Till riksdagens första kammare,
+            Stockholm. Under åberopande av bilagda läkarbetyg får jag anhålla
+            om tjänstledighet
+          </seg>
+        </u>
+        <note xml:id="i-TxHk5XLnypQ3ppyxQKtVc6">
+          från riksdagsgöromålen till och med den 3 nästkommande februari.
+          Västerås den 24 januari 1926. John Karlsson.
+        </note>
+        <note xml:id="i-SmU9QYRTAAC8jTdYCrmvu7">
+          Att borgmästare John Karlsson är sängliggande sjuk i influensa
+          och i behov av tjänstledighet från riksdagsgöromålen till och
+          med den 3 februari, intygas Västerås den 24 januari 1926. Gustav
+          Holm, leg. läkare. Den begärda ledigheten beviljades.
+        </note>
+        <note xml:id="i-JQT3T3dkEyNE5TGewcQrUh">
+          Första kammarens protokoll 1926. Nr 5. 1
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--5/prot_1926__fk__5-001.jp2/_view"/>
+        <note xml:id="i-AyP47ipeYhxgcGzcPgvDdr">
+          Nr 5.
+        </note>
+        <note type="date" xml:id="i-WPaz5PxE8hrd9JP5rVy6Tg">
+          2 Tisdagen den 26 januari.
+        </note>
+        <note xml:id="i-6fiC65F4jEzZse7JbX1T9i">
+          Anmäldes och bordlades bankoutskottets memorial nr 7,1 anledning
+          av remiss från andra kammaren av en utav herr Röing väckt motion.
+        </note>
+        <note xml:id="i-Mk62xDPCUe5oA3oSUePUgK">
+          Föredrogs och hänvisades till konstitutionsutskottet en av herr
+          Ekman, Karl Johan, väckt motion, nr 99, om vissa ändringar i bestämmelserna
+          angående statsdepartementen.
+        </note>
+        <note xml:id="i-Ejwf5U4V8rvnbRGPzhdKdb">
+          Föredrogos och hänvigades till statsutskottet nedannämnda motioner:
+        </note>
+        <note xml:id="i-R523Q9PcrNqfJNSpexQhEX">
+          nr 105, av herr Lindhagen, om krigsväsendets avrustning; samt
+        </note>
+        <note xml:id="i-M2koSCx1e13HtMF8CPUDFE">
+          nr 126, av herrar Enhörning och Luterkort, dels om ordnande av
+          befälsutbildningen för den svenska handelsflottan, dels ock om
+          anslag för främjande av skolskeppsverksamheten.
+        </note>
+        <note xml:id="i-KL4wExTi4TeaK4yvMgADZc">
+          Föredrogs herr Luterkorts motion, nr 127, i anledning av Kungl.
+          Maj:ts i statsverkspropositionen gjorda framställning angående
+          föredragande i regeringsrätten.
+        </note>
+        <note xml:id="i-AaTwy8fQaAw9UJUgJWA1W4">
+          Denna motion hänvisades, i vad den avsåg nionde huvudtiteln,
+          till jordbruksutskottet och i övrigt till statsutskottet.
+        </note>
+        <note xml:id="i-8tsQSQEiEZc6qWhF7kthng">
+          Föredrogos och hänvisades till behandling av lagutskott nedannämnda
+          motoner:
+        </note>
+        <note xml:id="i-ELZPe7LtRKJiZKAjaf7TTh">
+          nr 128, av herr Luterkort, i anledning av Kungl. Maj:ts proposition
+          med förslag till lag om ändrad lydelse av 5 $ i lagen om Kungl.
+          Maj:ts regeringsrätt;
+        </note>
+        <note xml:id="i-BMEs8s7JyhTg9mkQUbeM18">
+          nr 139, av herr Schedin m. fl., angående fördelningen äkta makar
+          emellan av avgiftspensioner enligt lagen om allmän pensionsförsäkring;
+        </note>
+        <note xml:id="i-3LgdqiwTWFBigAyzLzwkud">
+          nr 140, av herr Berglund, om obligatorisk kontroll över förvaltningen
+          av medel, som donerats eller anslagits för visst ändamål; samt
+        </note>
+        <note xml:id="i-3VV2C2rcScZ51CynZeU94S">
+          nr 156, av herr Andersson, Jonas, m. fl., om skyldighet för järnväg
+          att inhägna sitt område.
+        </note>
+        <note xml:id="i-9cxJtAF46CCvcbKB9td7r7">
+          Föredrogs den av herr Österström m. fl. väckta motionen, nr 157,
+          om anslag dels till iståndsättande av den gamla residensbyggnaden
+          i Härnösand till bostad för landshövdingen i Västernorrlands län
+          m. m., dels ock till anordnande av provisoriska lokaler för lantmäterikontoret
+          i Västernorrlands län.
+        </note>
+        <note type="speaker" xml:id="i-Fyqt9NhNeAm8FHkNLfJ2Tr">
+          Herr Österström:
+        </note>
+        <u who="i-6kTFcz7sgLRx7MntyHuEFu" xml:id="i-141dae458a24e33a-0">
+          <seg xml:id="i-6tqNccXATKR9hJJqJ7v8eR">
+            Herr förste vice taman! Jag har blivit gjord uppmärksam på, att
+            denna motion, nr 157, rätteligen borde vara uppdelad i två särskilda
+            motioner; och jag anhåller om kammarens medgivande att få företaga
+            en sådan ändring. I motionen 157 skulle alltså komma att kvarstå
+            yrkandet om anslag till iståndsättande av den gamla residensbyggnaden
+            i Härnösand till bostad för landshövdingen i Västernorrlands län,
+            medan i i den andra motionen, som jag nu ber få framföra, yrkas,
+            att riksdagen, i händelse förstnämnda motionen bifalles, måtte
+            för budgetåret 1926—1927 anvisa medel för iordningsställande av
+            lokaler för lantmäterikontoret i nämnda län.
+          </seg>
+        </u>
+        <note xml:id="i-Hqs1aQTkioSWXFQo3Lsd4o">
+          Sedan herrar Walles, Enhörning, Kvarneelius, Tjällgren och Luterkort,
+          vilka jämte herr Österström undertecknat motionen nr 157, instämt
+          i den sistnämndes nu gjorda anhållan, bifölls densamma, varefter
+          föreliggande motion i enlighet
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--5/prot_1926__fk__5-002.jp2/_view"/>
+        <note type="date" xml:id="i-R4MUbFv1ufa6ec3ZtQh99m">
+          Tisdagen den 26 januari. 3
+        </note>
+        <note xml:id="i-2zSmzdb3mnQcf332NFSmzW">
+          därmed uppdelades i två särskilda motioner, den ena med samma
+          nummer som den ursprungliga motionen och med överskrift: om anslag
+          till iståndsättande av den gamla residensbyggnaden i Härnösand
+          till bostad för landshövdingen i Västernorrlands län m. m. samt
+          den andra med nummer 210 och med överskrift: om anslag till anordnande
+          av provisoriska lokaler för lantmäterikontoret i Västernorrlands
+          län.
+        </note>
+        <note xml:id="i-73MncNPympcen4MmJMEa8d">
+          Härefter hänvisades motionen nr 157 till statsutskottet och motionen
+          nr 210 till jordbruksutskottet.
+        </note>
+        <note xml:id="i-9wCHbWgUSbmS7PH9Tscjoa">
+          Föredrogs och hänvisades till statsutskottet den av herrar Norling
+          och Sandegård väckta motionen, nr 161, angående inrättande av
+          en särskild kyrklig överstyrelse.
+        </note>
+        <note xml:id="i-FdLVubuLDbjXFRcSh1T58v">
+          Föredrogs herr Hallins motion, nr 162, angående sammanslagning
+          av statssekreterareoch expeditionschefsämbetena.
+        </note>
+        <note xml:id="i-Mqta1gr5Ppi6EeTD2ARTwK">
+          Denna motion hänvisades, i vad den avsåg nionde huvudtiteln,
+          till jordbruksutskottet och i övrigt till statsutskottet.
+        </note>
+        <note xml:id="i-XxCDiNeLouCxsNXvaC8QT7">
+          Föredrogs och hänvisades till kammarens andra tillfälliga utskott
+          herr Vrangs motion, nr 185, om revision av gällande bestämmelser
+          för allmänna bidrag till primärkommunerna.
+        </note>
+        <note xml:id="i-9SMStAo9au7Bq1ZnTZo4JP">
+          Föredrogs och hänvisades till bevillningsutskottet den av herrar
+          Örne och Pauli väckta motionen nr 188, om befrielse för Nobelstiftelsen
+          från skyldigheten att erlägga bevillning samt inkomstoch förmögenhetsskatt.
+        </note>
+        <note xml:id="i-D85duAWbd3Ge1HAvf1H1sc">
+          Föredrogs och hänvisades till jordbruksutskottet den av herr
+          Nilsson, Nils Anton, och herr Gabrielsson väckta motionen, nr
+          204, angående inrättande inom lantbruksstyrelsen av en särskild
+          byrå för handläggning av mejeriärenden.
+        </note>
+        <note xml:id="i-RNYD9AjrecFLKs86onxmvn">
+          Föredrogs och hänvisades till behandling av lagutskott den av
+          herr Ekman, Carl Gustaf, väckta motionen, nr 207, om beredande
+          av erforderlig giltighet åt arbetsgivares utfästelser om pensionering
+          av anställd personal.
+        </note>
+        <note xml:id="i-DGqSRYNoA1MhHASMgAGF9z">
+          | Vid föredragning av de vid sammanträdets början avlämnade kungl.
+          propositionerna blevo propositionerna nr 39—41 på begäran bordlagda,
+          varemot de övriga nu hänvisades, nr 46 till jordbruksutskottet
+          och nr 47 till statsutskottet.
+        </note>
+        <note xml:id="i-LuWrQXdcUz7pTw9iLZpCpL">
+          Herr Ekman, Carl Gustaf, avlämnade nedannämnda av honom m. fl.
+          undertecknade motioner:
+        </note>
+        <note xml:id="i-3oqktDjX4hLw2Y41J45Vku">
+          nr 211, i anledning av Kungl. Maj:ts förslag till lag om upplåtelse
+          under åborätt av viss jord m. m.; och
+        </note>
+        <note xml:id="i-3Atd28aFdfhtuCgWoNPGco">
+          nr 212, i anledning av Kungl. Maj:ts proposition angående vissa
+          frågor röep tillämpningen av föreslagen lag om upplåtelse under
+          åborätt av viss jord m. m. .
+        </note>
+        <note xml:id="i-DSNMWXru5Pw551r8nB8reY">
+          Nr 5.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--5/prot_1926__fk__5-003.jp2/_view"/>
+        <note xml:id="i-JEesECKuu35QiyDMSPJn4i">
+          Nr 5.
+        </note>
+        <note type="date" xml:id="i-FgR3Rawdt2VZk1vW1fLgVC">
+          4 Tisdagen den 26 januari.
+        </note>
+        <note xml:id="i-PyGq6MhRK6hsLmugmSn2qf">
+          Dessa motioner hänvigades, nr 211 till behandling av lagutskott
+          och nr 212 till jordbruksutskottet.
+        </note>
+        <note xml:id="i-YKFKX9YgZtPM72uivfhGjZ">
+          Herr Wohlin avlämnade nedannämnda av honom m. fl. undertecknade
+          motioner:
+        </note>
+        <note xml:id="i-XasH9taBar59jNeiHnY43m">
+          nr 213, i anledning av Kungl. Maj:ts proposition med förslag
+          till lag om upplåtelse under åborätt av viss jord m. m.; och
+        </note>
+        <note xml:id="i-84ZfRLgffuD5VJCHt8UVi4">
+          nr 214, i anledning av Kungl. Maj:ts proposition angående vissa
+          frågor rörande tillämpningen av föreslagen lag om upplåtelse under
+          åborätt av viss jord m. m.
+        </note>
+        <note xml:id="i-NA9b2RBQxFeq8tL8nJNfhM">
+          Dessa motioner hänvisades, nr 213, såvitt den angick förslaget
+          till lag om ändrad lydelse av 2 $ 1 mom. i skogsvårdslagen den
+          15 juni 1923, till jordbruksutskottet och i övrigt till behandling
+          av lagutskott samt nr 214 till jordbruksutskottet.
+        </note>
+        <note xml:id="i-DNkrY5aPJhAt3edqj1ZDDU">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 3.47 e. m.
+        </note>
+        <note xml:id="i-38jdHBoyCq1dZWuwh5aVPN">
+          In fidem G. H. Berggren.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--5/prot_1926__fk__5-004.jp2/_view"/>
+        <note type="date" xml:id="i-2e4khv2VKtGsQMx3nQyGKU">
+          Onsdagen den 27 januari, 5
+        </note>
+        <note type="date" xml:id="i-2q5eyYeSdmLGjaEhQZVFup">
+          Onsdagen den 27 januari.
+        </note>
+        <note xml:id="i-3ErGQg2n2joLEqLaQZynLW">
+          Kammaren sammanträdde kl. 11 f. m.; och dess förhandlingar leddes
+          av herr förste vice talmannen.
+        </note>
+        <note type="speaker" xml:id="i-8oPm7uYDspFP4Qhv2NDRJQ">
+          Herr statsrådet Nothin avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-ALpqyVc59suCfVp2r5okNU">
+          ts proposition nr 42, med förslag till förordning om fortsatt
+          tillfällig höjning av beloppen för den i förordningen den 6 november
+          1908 (nr 129) angående en särskild stämpelavgift vid köp och byte
+          av fondpapper stadgade stämpelavgiften.
+        </note>
+        <note xml:id="i-FVnhdVPfurtdiL7RdPgJUn">
+          Justerades protokollen för den 21 och den 22 innevarande månad.
+        </note>
+        <note xml:id="i-3kVt8ozMhXyjmvdMNxq324">
+          Anmäldes och bordlades
+        </note>
+        <note xml:id="i-Po3SWKDWCfkAnnJZiRYwvE">
+          konstitutionsutskottets memorial nr 1, i anledning av första
+          kammarens remiss av motionen nr 160 av herr Almkvist, med anledning
+          av Kungl. Maj:ts förslag till lag om ändrad lydelse av 5 $ i lagen
+          om Kungl. Maj:ts regeringsrätt; och
+        </note>
+        <note xml:id="i-Atso2YABAgLSG3M4ShGbLk">
+          statsutskottets utlåtande nr 11, i anledning av Kungl. Maj:ts
+          i statsverkspropositionen gjorda framställning angående tillfälliga
+          lönetillägg åt vissa vaktmästare och med dem jämförliga befattningshavare.
+        </note>
+        <note xml:id="i-YRCjkgxMVTZR5LkWeCjvxh">
+          Föredrogs och hänvisades till konstitutionsutskottet Kungl. Maj:ts
+          proposition nr 39, angående avgivande av förnyad förklaring i
+          enlighet med bestämmelserna i art. 36, andra stycket, av stadgan
+          för den fasta mellanfolkliga domstolen.
+        </note>
+        <note xml:id="i-YMTck9TPpFSnjKS5UTPmkZ">
+          Föredrogs och hänvisades till statsutskottet Kungl. Maj:ts proposition
+          nr 40, angående återställande av deposition till säkerhet för
+          fullgörande av stadgade villkor för koncession å järnvägsanläggning
+          från Klintehamn till Klintebys och Snögrinda.
+        </note>
+        <note xml:id="i-Y2u8PBDg3SU4spRjFfEpzy">
+          Föredrogs och hänvisades till bankoutskottet Kungl. Maj:ts proposition
+          nr 41, angående förhöjning för år 1926 av åt vissa f. d. poststationsföreståndare
+          och lantbrevbärare utgående understöd.
+        </note>
+        <note xml:id="i-Kk9PpkoA1y4g6gUnRibcTF">
+          Föredrogs bankoutskottets memorial nr 7, i anledning av remiss
+          från andra kammaren av en utav herr Röing väckt motion.
+        </note>
+        <note xml:id="i-A2GmJ3ZczvBgqca8rd8MgS">
+          Detta memorial hade följande lydelse:
+        </note>
+        <note xml:id="i-4j8PiJsWcQvJhGC4o6NUVr">
+          » Till bankoutskottet har den 21 innevarande januari från andra
+          kammaren remitterats en av herr Röing väckt motion nr 56, däri
+          hemställts, att riksdagen måtte, utöver det av Kungl. Maj:t å
+          femte huvudtiteln äskade anslaget
+        </note>
+        <note xml:id="i-53gTmBTALSLgCXpkGmRFUY">
+          Nr 5.
+        </note>
+        <note xml:id="i-7YuSjFBTR1Hx62cSYRPZjD">
+          Om återlämnande från bankoutskottet av en dit remitterad motion.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--5/prot_1926__fk__5-005.jp2/_view"/>
+        <note xml:id="i-Lt2SbTXsby9Y8r1PqGYbau">
+          Nr dä.
+        </note>
+        <note xml:id="i-CVaz4r9B9JxJK3ncfDB62X">
+          Om återlämnande från bankoutskottet av en dit remitterad motion.
+        </note>
+        <note xml:id="i-R4rUoCjKQvuHADRearMurT">
+          (Forts.)
+        </note>
+        <note type="date" xml:id="i-3KaKEGzTPSrW11wYAtmCp8">
+          6 Onsdagen den 27 januari,
+        </note>
+        <note xml:id="i-AHoub571SXy7ksxuKtnWGM">
+          för karantänsanstalten på Känsö, anslå ytterligare 500 kronor
+          att såsom personligt lönetillägg under budgetåret 1926—1927 utgå
+          till nuvarande karan tänsmästaren Harald Skantze å nämnda anstalt.
+        </note>
+        <u who="i-Trs3gMCufNPP2ADRtgrdza" xml:id="i-a2a9e204879bad34-3">
+          <seg xml:id="i-DsP9nGqaeb72mBMmoiE1K2">
+            Då ifrågavarande motion avser ett ärende, som icke synes vara
+            av beskaffenhet att böra behandlas av bankoutskottet, får utskottet
+            hemställa, att herr
+          </seg>
+        </u>
+        <note xml:id="i-T5iwE8rD69bfR3SzNLMhQ6">
+          Röings ovanberörda motion må till andra kammaren återlämnas.»
+        </note>
+        <note type="speaker" xml:id="i-GbWVdxE9CfTRCPCoteTYAi">
+          Herr andre vice talmannen:
+        </note>
+        <u who="i-NwhdVgupCWjkZSqQNMjJnp" xml:id="i-871e20cc64e512fe-0">
+          <seg xml:id="i-THQj3chEEooCZEEcF1k9kU">
+            Jag yrkar, att kammaren ville bifalla utskottets hemställan med
+            förklarande, att ifrågavarande motion är av beskaffenhet
+          </seg>
+        </u>
+        <note xml:id="i-VXeuVVQBxjYLSy474aGrVa">
+          att böra behandlas av statsutskottet. Vad herr andre vice talmannen
+          sålunda hemställt bifölls.
+        </note>
+        <note xml:id="i-GK17MRpbifKKFjnH6DYiX6">
+          Föredrogs och hänvisades till bevillningsutskottet Kungl. Maj:ts
+          denna dag avlämnade proposition nr 42.
+        </note>
+        <note xml:id="i-VFzzsiLv9WdoA3XyGrm5QH">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 11.07 f. m. ;
+        </note>
+        <note xml:id="i-KbJs4scWcEoLMoxxCMRVFp">
+          In fidem G. H. Berggren.
+        </note>
+        <note xml:id="i-V1M63kWX3s6on3cnKnQgwX">
+          Stockholm 1926. Kungl. Boktryckeriet, P. A. Norstedt &amp; Söner.
+          260466
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

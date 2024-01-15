@@ -109,7 +109,7 @@ def count_pages_speeches_words(protocol):
     xml_ns = "{http://www.w3.org/XML/1998/namespace}"
     parser = etree.XMLParser(remove_blank_text=True)
     root = etree.parse(protocol, parser).getroot()
-    tei = root.find(f"{tei_ns}TEI")
+    #tei = root.find(f"{tei_ns}TEI")
     for tag, elem in elem_iter(root):
         if tag == "u":
             for segelem in elem:
@@ -118,7 +118,7 @@ def count_pages_speeches_words(protocol):
             if 'type' in elem.attrib:
                 if elem.attrib['type'] == 'speaker':
                     speeches += 1
-    pages = len(tei.findall(f"{tei_ns}pb"))
+    pages = len(root.findall(f"{tei_ns}pb"))
     return pages, speeches, words
 
 def infer_year(protocol):
@@ -177,7 +177,7 @@ def count_MP():
     print("Counting MPs (unique people w/ role)...")
     N_MP = 0
     df = pd.read_csv("corpus/metadata/member_of_parliament.csv")
-    N_MP = len(df["wiki_id"].unique())
+    N_MP = len(df["swerik_id"].unique())
     print(f"... {N_MP} individuals have a 'member of parliament' role")
     return N_MP
 
@@ -191,7 +191,7 @@ def count_MIN():
     print("Counting ministers (unique people with role)...")
     N_MIN = 0
     df = pd.read_csv("corpus/metadata/minister.csv")
-    N_MIN = len(df["wiki_id"].unique())
+    N_MIN = len(df["swerik_id"].unique())
     print(f"... {N_MIN} individuals have a 'minister' role")
     return N_MIN
 

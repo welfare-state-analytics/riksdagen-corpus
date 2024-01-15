@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 200607</title>
+        <title>Protokoll</title>
       </titleStmt>
       <editionStmt>
         <edition>0.4.2</edition>
@@ -13,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 200607</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -25,162 +25,135 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <editionStmt>
-          <edition>0.4.2</edition>
-        </editionStmt>
-        <publicationStmt>
-          <authority>National Library of Sweden and the WESTAC project</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some data curation was done. It is documented in input/curation/instances</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-200607--3</head>
-          <docDate when="2006-10-03">2006-10-03</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection" xml:id="i-CENULr1NzqjBHGbcMF6rDk">
-          <pb facs="http://data.riksdagen.se/fil/2EB78624-CB30-4E34-A69F-7685D4AC7CC3#page=1"/>
-          <note xml:id="i-4z7acoQGtNuMtSZHzixaJk">
-            Riksdagens protokoll
-          </note>
-          <note xml:id="i-68WMVX3QtBp2jHT4NK9XFT">
-            2006/07:3
-          </note>
-          <note xml:id="i-CvV9piBUWLgE97hqC1u3Vf">
-            Tisdagen den 3 oktober
-          </note>
-          <note xml:id="i-59TS1xx8xWdNvgfEvyTfWZ">
-            Kl. 17:00 - 17:02
-          </note>
-        </div>
-        <div type="debateSection" xml:id="i-CLPiY52t3FFbVXQZjpRB89">
-          <note xml:id="i-4rmyGZC8mfLqFihJowBxcJ">
-            1 § Förslag om statsminister
-          </note>
-          <note type="speaker" xml:id="i-NkaaknNsCWGx4sdQWLT1vg">
-            Anf. 1 TALMANNEN:
-          </note>
-          <u xml:id="i-Sx4PLz6MNwZNdjBCAHFYXq" next="i-S3JGWhyKnRXkbVevuxebbu" who="Q1375199">
-            <seg xml:id="i-EcxdUT6WCSfA9kAXxBNQ68">
-              Sedan statsminister Göran Persson den 18 september begärt att
-              bli entledigad från sin befattning har han och övriga statsråd
-              samma dag beviljats entledigande. Enligt regeringsformen ankommer
-              det på mig att för riksdagens godkännande avge förslag om ny statsminister.
-            </seg>
-          </u>
-          <u xml:id="i-S3JGWhyKnRXkbVevuxebbu" prev="i-Sx4PLz6MNwZNdjBCAHFYXq" who="Q1375199">
-            <seg xml:id="i-NeDj3KX3PLcCPtRXfvA56A">
-              Efter samråd med företrädare för varje partigrupp inom riksdagen
-              och överläggning med de vice talmännen får jag härmed föreslå
-              riksdagen att till ny statsminister utse Fredrik Reinfeldt, som
-              avser att bilda en regering bestående av företrädare för Moderata
-              samlingspartiet, Centerpartiet, Folkpartiet liberalerna och Kristdemokraterna.
-            </seg>
-          </u>
-          <note xml:id="i-Q6TyvgjSXQv4mnJJTthUoD">
-            Detta förslag bordlades.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-Xy3A1Zx3Uhm4qwoefXcjDU">
-          <note xml:id="i-8XJDF8aubvbjG65p2gEUzP">
-            2 § Nya riksdagsledamöter
-          </note>
-          <note xml:id="i-7dUP3XML67jaVdXmFhCAqe">
-            Upplästes och lades till handlingarna följande från Valprövningsnämnden
-            inkomna
-          </note>
-          <note xml:id="i-RV9KduQCycBYgjBJvPnJCD">
-            Berättelse om granskning av bevis för riksdagsledamöter
-          </note>
-          <u xml:id="i-fa73acb52f279629-1" who="Q1375199" next="i-2AJvcRLdLrhc9yNeaEBERu">
-            <seg xml:id="i-JiqAggyP6mtCrgQURpQs5W">
-              Till Valprövningsnämnden har från Valmyndigheten inkommit bevis
-              om att
-            </seg>
-          </u>
-          <note xml:id="i-Vw4vugNTygKVT5M1XwF1zV">
-            dels Gustav Blix (m) utsetts till ny ledamot av riksdagen fr.o.m.
-            den 3 oktober 2006 sedan Sebastian Cederschiöld (m) avsagt sig
-            uppdraget,
-          </note>
-          <note xml:id="i-8mLmScVvGXBic52ohJPCKT">
-            dels Per Bolund (mp) utsetts till ny ledamot av riksdagen fr.o.m.
-            den 3 oktober 2006 sedan Åsa Romson (mp) avsagt sig uppdraget.
-          </note>
-          <u xml:id="i-2AJvcRLdLrhc9yNeaEBERu" prev="i-fa73acb52f279629-1" who="Q1375199">
-            <seg xml:id="i-FsWP73PBNHjajgVt3LcUjv">
-              Valprövningsnämnden har denna dag granskat bevisen för de nya
-              ledamöterna och därvid funnit att de blivit utfärdade i enlighet
-              med 14 kap. 28 § vallagen.
-            </seg>
-          </u>
-          <note xml:id="i-FTeH4Gurn4tci5nVsXnSs5">
-            Staffan Magnusson/
-          </note>
-          <note xml:id="i-RgBvPMEggJxB3xGFvGPdXN">
-            Kerstin Siverby
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-9TqWRZcM8UCQmHThiZ45c6">
-          <note xml:id="i-ENhdeziKH5RDUSnjBLGZjw">
-            3 § Meddelande om val
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/2EB78624-CB30-4E34-A69F-7685D4AC7CC3#page=2"/>
-          <note xml:id="i-TE22Jh94Ku2rQ8nKKSg9J9">
-            Talmannen meddelade att val till bland annat utskott och riksdagsstyrelse
-            skulle företas tisdagen den 10 oktober kl. 10.00 .
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-P1y5iZEcuHm3kqE6CsPHbK">
-          <note xml:id="i-XubDnMmSfkTAnW2cvuv7Mu">
-            4 § Anmälan om inkomna uppteckningar från EU-nämndssammanträde
-          </note>
-          <note xml:id="i-3JDjetatnm4JWfhPU9PQ62">
-            Talmannen anmälde att uppteckningar från EU-nämndens sammanträde
-            fredagen den 22 september inkommit.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-PPqKVFU477sgjMY3j7wdTT">
-          <note xml:id="i-F3NDvx9PRQU2aSQz13jC5X">
-            5 § Hänvisning av ärenden till utskott
-          </note>
-          <note xml:id="i-Eiqec7HsydjLMQn5LzjoRi">
-            Föredrogs och hänvisades
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-ERWicEGFoVKFv2Jq4A2yt1">
-          <note xml:id="i-HxQ8vkAUifXCwXubvK8iyf">
-            6 § Kammaren åtskildes kl. 17.02.
-          </note>
-          <note xml:id="i-4yA2YkTNQNYRrV1kc3vVZH">
-            Förhandlingarna leddes av talmannen.
-          </note>
-          <note xml:id="i-6AScrxudhkrfebcyRbUNdp">
-            /Eva-Lena Ekman
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-200607--3</head>
+        <docDate when="2006-10-03">2006-10-03</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-CENULr1NzqjBHGbcMF6rDk">
+        <pb facs="http://data.riksdagen.se/fil/2EB78624-CB30-4E34-A69F-7685D4AC7CC3#page=1"/>
+        <note xml:id="i-4z7acoQGtNuMtSZHzixaJk">
+          Riksdagens protokoll
+        </note>
+        <note xml:id="i-68WMVX3QtBp2jHT4NK9XFT">
+          2006/07:3
+        </note>
+        <note xml:id="i-CvV9piBUWLgE97hqC1u3Vf">
+          Tisdagen den 3 oktober
+        </note>
+        <note xml:id="i-59TS1xx8xWdNvgfEvyTfWZ">
+          Kl. 17:00 - 17:02
+        </note>
+      </div>
+      <div type="debateSection" xml:id="i-CLPiY52t3FFbVXQZjpRB89">
+        <note xml:id="i-4rmyGZC8mfLqFihJowBxcJ">
+          1 § Förslag om statsminister
+        </note>
+        <note type="speaker" xml:id="i-NkaaknNsCWGx4sdQWLT1vg">
+          Anf. 1 TALMANNEN:
+        </note>
+        <u xml:id="i-Sx4PLz6MNwZNdjBCAHFYXq" next="i-S3JGWhyKnRXkbVevuxebbu" who="i-D74cdq6EQpWG5dWigfnSSw">
+          <seg xml:id="i-EcxdUT6WCSfA9kAXxBNQ68">
+            Sedan statsminister Göran Persson den 18 september begärt att
+            bli entledigad från sin befattning har han och övriga statsråd
+            samma dag beviljats entledigande. Enligt regeringsformen ankommer
+            det på mig att för riksdagens godkännande avge förslag om ny statsminister.
+          </seg>
+        </u>
+        <u xml:id="i-S3JGWhyKnRXkbVevuxebbu" prev="i-Sx4PLz6MNwZNdjBCAHFYXq" who="i-D74cdq6EQpWG5dWigfnSSw">
+          <seg xml:id="i-NeDj3KX3PLcCPtRXfvA56A">
+            Efter samråd med företrädare för varje partigrupp inom riksdagen
+            och överläggning med de vice talmännen får jag härmed föreslå
+            riksdagen att till ny statsminister utse Fredrik Reinfeldt, som
+            avser att bilda en regering bestående av företrädare för Moderata
+            samlingspartiet, Centerpartiet, Folkpartiet liberalerna och Kristdemokraterna.
+          </seg>
+        </u>
+        <note xml:id="i-Q6TyvgjSXQv4mnJJTthUoD">
+          Detta förslag bordlades.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-Xy3A1Zx3Uhm4qwoefXcjDU">
+        <note xml:id="i-8XJDF8aubvbjG65p2gEUzP">
+          2 § Nya riksdagsledamöter
+        </note>
+        <note xml:id="i-7dUP3XML67jaVdXmFhCAqe">
+          Upplästes och lades till handlingarna följande från Valprövningsnämnden
+          inkomna
+        </note>
+        <note xml:id="i-RV9KduQCycBYgjBJvPnJCD">
+          Berättelse om granskning av bevis för riksdagsledamöter
+        </note>
+        <u xml:id="i-fa73acb52f279629-1" who="i-D74cdq6EQpWG5dWigfnSSw" next="i-2AJvcRLdLrhc9yNeaEBERu">
+          <seg xml:id="i-JiqAggyP6mtCrgQURpQs5W">
+            Till Valprövningsnämnden har från Valmyndigheten inkommit bevis
+            om att
+          </seg>
+        </u>
+        <note xml:id="i-Vw4vugNTygKVT5M1XwF1zV">
+          dels Gustav Blix (m) utsetts till ny ledamot av riksdagen fr.o.m.
+          den 3 oktober 2006 sedan Sebastian Cederschiöld (m) avsagt sig
+          uppdraget,
+        </note>
+        <note xml:id="i-8mLmScVvGXBic52ohJPCKT">
+          dels Per Bolund (mp) utsetts till ny ledamot av riksdagen fr.o.m.
+          den 3 oktober 2006 sedan Åsa Romson (mp) avsagt sig uppdraget.
+        </note>
+        <u xml:id="i-2AJvcRLdLrhc9yNeaEBERu" prev="i-fa73acb52f279629-1" who="i-D74cdq6EQpWG5dWigfnSSw">
+          <seg xml:id="i-FsWP73PBNHjajgVt3LcUjv">
+            Valprövningsnämnden har denna dag granskat bevisen för de nya
+            ledamöterna och därvid funnit att de blivit utfärdade i enlighet
+            med 14 kap. 28 § vallagen.
+          </seg>
+        </u>
+        <note xml:id="i-FTeH4Gurn4tci5nVsXnSs5">
+          Staffan Magnusson/
+        </note>
+        <note xml:id="i-RgBvPMEggJxB3xGFvGPdXN">
+          Kerstin Siverby
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-9TqWRZcM8UCQmHThiZ45c6">
+        <note xml:id="i-ENhdeziKH5RDUSnjBLGZjw">
+          3 § Meddelande om val
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/2EB78624-CB30-4E34-A69F-7685D4AC7CC3#page=2"/>
+        <note xml:id="i-TE22Jh94Ku2rQ8nKKSg9J9">
+          Talmannen meddelade att val till bland annat utskott och riksdagsstyrelse
+          skulle företas tisdagen den 10 oktober kl. 10.00 .
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-P1y5iZEcuHm3kqE6CsPHbK">
+        <note xml:id="i-XubDnMmSfkTAnW2cvuv7Mu">
+          4 § Anmälan om inkomna uppteckningar från EU-nämndssammanträde
+        </note>
+        <note xml:id="i-3JDjetatnm4JWfhPU9PQ62">
+          Talmannen anmälde att uppteckningar från EU-nämndens sammanträde
+          fredagen den 22 september inkommit.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-PPqKVFU477sgjMY3j7wdTT">
+        <note xml:id="i-F3NDvx9PRQU2aSQz13jC5X">
+          5 § Hänvisning av ärenden till utskott
+        </note>
+        <note xml:id="i-Eiqec7HsydjLMQn5LzjoRi">
+          Föredrogs och hänvisades
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-ERWicEGFoVKFv2Jq4A2yt1">
+        <note xml:id="i-HxQ8vkAUifXCwXubvK8iyf">
+          6 § Kammaren åtskildes kl. 17.02.
+        </note>
+        <note xml:id="i-4yA2YkTNQNYRrV1kc3vVZH">
+          Förhandlingarna leddes av talmannen.
+        </note>
+        <note xml:id="i-6AScrxudhkrfebcyRbUNdp">
+          /Eva-Lena Ekman
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

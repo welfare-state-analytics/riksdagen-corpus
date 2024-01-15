@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1931</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1931</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,1139 +25,1112 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1931--ak--9</head>
-          <docDate when="1931-02-04">1931-02-04</docDate>
-          <docDate when="1931-02-06">1931-02-06</docDate>
-          <docDate when="1931-02-07">1931-02-07</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-000.jp2/_view"/>
-          <note xml:id="i-4tu4rTijuA74R1XJwzosTv">
-            RIKSDAGENS PROTOKOLL.
-          </note>
-          <note xml:id="i-QMnnJVDbFPV36C17dA2u45">
-            I93l. Andra kammaren. Nr 9.
-          </note>
-          <note type="date" xml:id="i-PojXL9keaYUMoXqb2dqBHy">
-            Onsdagen den 4 februari. Kl. 3 e. m.
-          </note>
-          <note xml:id="i-La5ERHg2Bry51ApSaPKkrG">
-            Förhandlingarna leddes vid detta sammanträde av herr förste vice
-            talmannen.
-          </note>
-          <note xml:id="i-JRE59s9ZFCHqVA8we2E9nd">
-            § 1.
-          </note>
-          <note xml:id="i-BcMpMJm4g1Pht9q9rU69Vm">
-            Justerades protokollet för den 28 nästlidna januari.
-          </note>
-          <note xml:id="i-3KzJWCKZbBA1MCLUhmqKbV">
-            § 2.
-          </note>
-          <note xml:id="i-NyasaPAcRwoubKRErH83yZ">
-            Upplästes följande till kammaren inkomna sjukbetyg:
-          </note>
-          <note xml:id="i-4DZm3sc7Uh3D4saRi8kqoE">
-            Tullförvaltare H. Schött i Kalmar är för influensa förhindrad
-            att bevista riksdagen under åtminstone en vecka från idag räknat,
-            vilket härmed betygas. Kalmar den 31 januari 1931.
-          </note>
-          <note xml:id="i-FbwZCMe7TYjPFxKvcVmDYo">
-            Henrik Sundberg, las.läk.
-          </note>
-          <note xml:id="i-XZWGkD269B8XpStuhag4aJ">
-            § 3.
-          </note>
-          <note type="speaker" xml:id="i-JwmohYwoAetTYphYspjB5h">
-            Herr statsrådet Jeppsson avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-J33qrWkQ9GaEqXHoL1ihpV">
-            ts propositioner:
-          </note>
-          <note xml:id="i-JnpVhJWGMa4xYLc6kqMAah">
-            nr 4, angående anstånd för lottköpare från Näs kungsgård i Kopparbergs
-            län med erläggande av oguldna räntor och amorteringar å köpeskilling;
-          </note>
-          <note xml:id="i-Am3CXhM75dgMVk1pT6Jz1r">
-            nr 5, angående vissa åtgärder till beteskulturens främjande;
-          </note>
-          <note xml:id="i-MCY7iPmYcJXAQSFjhSm2ie">
-            nr 63, angående disponerande av avkastningen av statens hästavelsfond;
-          </note>
-          <note xml:id="i-Rek6MNRApJurT5NGP3YQm6">
-            nr 65, angående åtgärder till höjande av det mindre jordbruket
-            och befrämjande av gödselvården;
-          </note>
-          <note xml:id="i-A5LZAvVan3yiN2jvfCQ3wB">
-            nr 33, angående ytterligare lån för anordnande av ett skyddshem
-            för flickor m. m.;
-          </note>
-          <note xml:id="i-HySCLYePAsz6fuqkFTshd3">
-            nr 36, angående beredande av en tredje emeritilön åt biskopar;
-          </note>
-          <note xml:id="i-3KNQZGPNqUYT3pSXiK4HyY">
-            nr 37, med förslag till lag om ändrad lydelse av lagen den 22
-            april 1927 (115) om gäldande ur kyrkofonden i visst fall av pensionsavgift,
-            belöpande å innehavare av prästerlig emeritilön;
-          </note>
-          <note xml:id="i-3nmAGxZ6jVHNbK9TRqsK9P">
-            nr 38, angående vissa ändringsarbeten vid serafimerlasarettet;
-          </note>
-          <note xml:id="i-UVKt3BMjd2NXDfA7WBgABS">
-            nr 57, angående vissa anslag från allmänna indragningsstaten
-            m. m.;
-          </note>
-          <note xml:id="i-AJEiLRGnLN5QqJAU78QXhx">
-            nr 64, angående upprättande av ett institut för högspänningsforskning;
-            och
-          </note>
-          <note xml:id="i-LW7dshvXyXFAj9m51jYCeJ">
-            or 62, angående tullfri införsel av två telefonkablar.
-          </note>
-          <note xml:id="i-5CQLrqiK7suzextGFRjcDC">
-            Dessa propositioner bordlades.
-          </note>
-          <note xml:id="i-3bBD4PkxgN3gT6pYu2mkgm">
-            § 4.
-          </note>
-          <note xml:id="i-Tm9HFeUFoSoHPVKTmch2PN">
-            Föredrogs första lagutskottets utlåtande, nr 1, i anledning av
-            verkställd granskning av justitieombudsmannens ämbetsförvaltning;
-            och yttrade därvid
-          </note>
-          <note type="speaker" xml:id="i-LZs9YL6GuoBtJf84aC1A7q">
-            Herr Hage:
-          </note>
-          <u who="Q5782085" xml:id="i-69b468d3d2f7f1e3-0" next="i-VoYNVSouvZLUK8m4ibMt5E">
-            <seg xml:id="i-HX7D2Gvcff2sftmyA6Ck6V">
-              Herr talman! Jag skall be att få säga några ord med anledaing
-              av den del av detta utskottsutlåtande, där det redogöres för behandlingen
-              av riksdagsskrivelserna. Det hör som bekant till justitieombudsmannens
-              ålig-
-            </seg>
-          </u>
-          <note xml:id="i-7iHtTRdu8GgFd6pCdP1bMW">
-            Andra kammarens protokoll 19381. Nr 9. 1
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-001.jp2/_view"/>
-          <note type="date" xml:id="i-UzKQdMT2ddJJ6T7eSgWHXA">
-            2 Onsdagen den 4 februari.
-          </note>
-          <u xml:id="i-VoYNVSouvZLUK8m4ibMt5E" prev="i-69b468d3d2f7f1e3-0" who="Q5782085" next="i-69b468d3d2f7f1e3-1">
-            <seg xml:id="i-QXAg5GP8JGaU4tZcFT8hg3">
-              ganden att i sin berättelse redogöra för behandlingen under det
-              gångna året av skrivelser, som riksdagen avlåtit.
-            </seg>
-          </u>
-          <u who="Q5782085" xml:id="i-69b468d3d2f7f1e3-1" prev="i-VoYNVSouvZLUK8m4ibMt5E" next="i-69b468d3d2f7f1e3-2">
-            <seg xml:id="i-B4gvAE8EW4deMjHJMrhGdb">
-              Nu förhåller det sig så, att jag vid en föregående riksdag avlät
-              en motion i denna sak, en motion i vilken jag gjorde gällande,
-              att dessa riksdagsskrivelser behandlades så, att utredningsarbetet
-              mycket ofta fördröjdes på ett stundom orimligt sätt. Den riksdag
-              jag syftar på, ansåg emellertid, att det var någorlunda bra beställt
-              på detta område, och det har därför varit angeläget för mig att
-              i någon mån se efter, hur det står till på det här området i år.
-            </seg>
-            <seg xml:id="i-XkUm8Qmq6bu9v2TyNwskyS">
-              Jag finner då, att ungefär samma missförhållanden, som jag påpekade
-              vid ett tidigare tillfälle, alltjämt existera. Av denna redogörelse
-              framgår nämligen, att det alltjämt finnes ett mycket stort antal
-              skrivelser, vilkas behandling blivit i hög grad fördröjd. Man
-              kan konstatera, att vi liksom förra året ha mellan 60 och 70 riksdagsskrivelser,
-              som äro över 10 år gamla. En del av dessa skrivelser har avlåtits
-              för så länge sedan som åren 1900, 1902, 1904 etc. och äro alltså
-              i vissa fall över 30 år gamla. Om dessa skrivelser kan man rent
-              av säga, att de blivit »pensionsmässiga», om jag får använda ett
-              sådant uttryck. Beträffande en av dessa mycket gamla skrivelser
-              säges det på ett annat ställe i redogörelsen, att »denna saken
-              är fortfarande föremål för utredning», och med avseende på en
-              riksdagsskrivelse från år 1900, märk väl 1900, heter det, att
-              yttranden infordrats från myndigheter och korporationer. vilka
-              yttranden avvaktas.
-            </seg>
-            <seg xml:id="i-3Fm6xsujJvtZEzLhgnXP4y">
-              Nu förstår jag mycket väl, att det förhåller sig så, att vissa
-              spörsmål äro vidlyftiga och svåra att behandla, och att det kan
-              taga lång tid, innan man slutligen kan avföra dem från dagordningen.
-              Men nog förefaller det mig, sedan jag nu sett igenom en del av
-              dessa saker, som om frågornas behandling allt för ofta fördröjdes
-              på ett orimligt sätt. Det finnes exempelvis mellan 120 och 130
-              riksdagsskrivelser, som äro över fem år gamla. Det är klart, att
-              när utredningen av sådana saker tager så lång tid, så blir följden
-              också den, att den lagstiftning, som man med riksdagsskrivelsen
-              avsett att få till stånd, också blir fördröjd på ett orimligt
-              sätt. När det väckes nya motioner i kammaren, får man också mycket
-              ofta höra den frågan framställas, varför icke den eller den saken,
-              som motionen berör, redan blivit klarerad.
-            </seg>
-            <seg xml:id="i-FGf3dNJYHHXRKw5juuSZ54">
-              Jag har sagt det förut, och jag upprepar det nu, att dessa saker
-              äro inga bagateller utom tvärtom av mycket stor betydelse, icke
-              minst för demokratien själv. Om riksdagens majoritet går in för
-              att vissa saker skola utredas, så är det orimligt att det skall
-              dröja 20, 30 år innan utredningen blir färdig, så att det hela
-              kanske får sin avslutning, först då vederbörande motionär för
-              länge sedan stoppats ned i graven. Ett sådant förhållande är orimligt
-              och åstadkommer med nödvändighet, att vissa invändningar riktas
-              mot hela systemet.
-            </seg>
-            <seg xml:id="i-84dyuppK3AvppYprVqHqjj">
-              Det finns många, som vilja tala illa om demokratien och riksdagen,
-              och man säger, att det ofta icke är något allvar med det som riksdagen
-              beslutar. De människor, som vilja sprida ut en sådan uppfattning,
-              få en viss styrka i sin agitation därigenom, att de kunna visa
-              på sådana missförhållanden, som jag här har visat på.
-            </seg>
-            <seg xml:id="i-5SZfkSZh7QCyMVYX7RiZcW">
-              Jag talade en gång med en regeringsledamot om den här saken.
-              Han sade, att en av hans första åtgärder, när han kom till ämbetet,
-              var att ställa till med en inventering av de riksdagsskrivelser,
-              som funnos i hans departement. Men jag undrar, om herrar regeringsledamöter
-              i allmänhet handla så. Om så vore fallet, har jag svårt att tro,
-              att den s. k. arbetsbalansen på detta område kan vara så stor,
-              som den alltjämt är.
-            </seg>
-            <seg xml:id="i-TWF7JdABXEN9yu1jeD1Saj">
-              Jag har givetvis, herr talman, icke något yrkande i den här saken,
-              men jag tycker, att saken i och för sig är så anmärkningsvärd,
-              att man i första lagutskottet, när man konstaterade detta missförhållande,
-              icke bort avhålla sig från att säga någonting, om att utskottet
-              också för sin del anser, att det är
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-002.jp2/_view"/>
-          <note type="date" xml:id="i-Fdbm785eK2m6PH7dGviudb">
-            Onsdagen den 4 februari. 3
-          </note>
-          <u who="Q5782085" xml:id="i-69b468d3d2f7f1e3-2" prev="i-69b468d3d2f7f1e3-1">
-            <seg xml:id="i-RoNvvYRqaQQxNnmLezBG4f">
-              ett beklagligt förhållande, att en del utredningar draga så lång
-              tid. Jag skall, som sagt, icke tillåta mig att göra något yrkande
-              men jag anser, att den här saken är så pass viktig, att den bör
-              påtalas undan för undan, tills det sker en effektiv rättelse på
-              detta område. Det är med hänsyn därtill, som jag tillåtit mig
-              att hålla detta anförande.
-            </seg>
-          </u>
-          <note xml:id="i-BZuppGvey99MiuhPBa7Yez">
-            Vidare anfördes ej. Utlåtandet lades till handlingarna.
-          </note>
-          <note xml:id="i-Gc9oRuqTwRZDtC3sj3bYuu">
-            § 5.
-          </note>
-          <note xml:id="i-CaZPtEhozaiMvTdowoFEFr">
-            Härefter föredrogs och lades till handlingarna första lagutskottets
-            utlåtande, nr 2, i anledning av verkställd granskning av militieombudsmannens
-            ämbetsförvaltning.
-          </note>
-          <note xml:id="i-BZAv943pEDoqiL6EFCAvpB">
-            § 6.
-          </note>
-          <note xml:id="i-CMDzyiASmv4ZSeKsyyDtDw">
-            Hans excellens herr ministern för utrikes ärendena friherre Ramel
-            avlämnade Kungl. Maj:ts proposition, nr 14, angående godkännande
-            av en i Geneve den 2 oktober 1930 dagtecknad konvention om finansiell
-            hjälp m. m.
-          </note>
-          <note xml:id="i-MvtJ63KJ2txu75Q18n5dnP">
-            Denna proposition bordlades.
-          </note>
-          <note xml:id="i-EaYCEPZ3yLY3B7qmbcVSha">
-            § 7.
-          </note>
-          <note xml:id="i-CsQMFNZHBbkMhuJQBpYa3a">
-            Föredrogs statsutskottets utlåtande, nr 2, angående regleringen
-            för budgetåret 1931/1932 av utgifterna under riksstatens andra
-            huvudtitel, innefattande anslagen till justitiedepartementet.
-          </note>
-          <note xml:id="i-LTLKs7p8KSABD3maGDTRhy">
-            Punkterna 1—216. i
-          </note>
-          <note xml:id="i-6y8ogNgw3rBJShCnR7zhT4">
-            Vad utskottet hemställt bifölls.
-          </note>
-          <note xml:id="i-Qgx5iTx3BFHNRr2EWUfdfX">
-            Punkten 17. Lades till handlingarna.
-          </note>
-          <note xml:id="i-Hvm7iWBACpDfDq5uhxonWh">
-            Punkterna 18—35. Vad utskottet hemställt bifölls.
-          </note>
-          <note xml:id="i-TqikyGqB6E8fuTURX1bx7U">
-            Punkten 36. Lades till handlingarna.
-          </note>
-          <note xml:id="i-28LZhg4NNvQ5hGYs1rTKLy">
-            Punkten 37. Utskottets hemställan bifölls.
-          </note>
-          <note xml:id="i-STWADn4iYSNLz5i4zaBJPN">
-            Punkten 38. Lades till handlingarna.
-          </note>
-          <note xml:id="i-89ctPo4VM1dxsxXGFWd6Gp">
-            Punkten 39. Utskottets hemställan bifölls.
-          </note>
-          <note xml:id="i-2uSqFb65ckzDSC1FMVTg14">
-            § 8.
-          </note>
-          <note xml:id="i-8Y8WrnKXAD1AEJ9R33VhiR">
-            Vid härpå skedd föredragning av statsutskottets utlåtande, nr
-            17, i anledning av Kungl. Maj:ts i statsverkspropositionen gjorda
-            framställning om anslag till elektrifiering av banan Järna—Norrköping—Malmö
-            m. fl. linjer jämte i ämnet väckta motioner begärdes ordet av
-          </note>
-          <note xml:id="i-KABupjctxcW3VzHacQPkPC">
-            Nr 9.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-003.jp2/_view"/>
-          <note xml:id="i-4eVtDwgn1obLeaQX31QkCf">
-            Nr 9.
-          </note>
-          <note type="date" xml:id="i-YGZF1DukcH3X5aGNqKEQ66">
-            4 Onsdagen den 4 februari.
-          </note>
-          <note type="speaker" xml:id="i-L8EYBN2mnmTfSpUeipc8Vz">
-            Herr Johanson i Huskvarna, som yttrade:
-          </note>
-          <u who="Q5885103" xml:id="i-7b3fce6bdd402534-0">
-            <seg xml:id="i-H4G5aT2itBBfwz5etBgE3g">
-              Herr talman! Jag har tillåtit mig att tillsammans med en ärad
-              ledamot av första kammaren väcka en motion som berör en detalj
-              i detta stora ärende. Jag har sedan med ledning av det uttalande,
-              som statsutskottet gjort i frågan, hört mig för och blivit förvissad
-              om att en lokal undersökning pågår rörande det spörsmål, som motionen
-              omfattar, och därför har jag ingen anledning att nu göra något
-              yrkande, som går utöver det uttalande, som statsutskottet har
-              gjort. Jag vill särskilt betona att för orten och bygden föreligger
-              det ett stort behov av att denna trafikfriga blir ordnad på ett
-              lämpligare och bättre sätt än vad nu är fallet. Jag är medveten
-              om att det, när det gäller att lösa den fråga, som här påtalats,
-              föreligger åtskilliga svårigheter ur teknisk synpunkt, som kunna
-              bli svåra att övervinna; men den pågående undersökningen får utvisa
-              vad som kan göras. Det finnes för övrigt olika sätt att välja
-              på rörande frågans lösning, och jag vill nu endast passa på och
-              uttala den förhoppningen, att, när frågan en gång återkommer,
-              vi då få ett förslag, som på ett lämpligt sätt löser denna kommunikationsfråga
-              till gagn såväl för den stora industrien vid Huskvarna som för
-              landsbygden i övrigt. Jag har icke något yrkande att göra.
-            </seg>
-          </u>
-          <note xml:id="i-ByxcL47HVJ8pJQ1do9qBsm">
-            Vidare anfördes ej. Utskottets hemställan bifölls.
-          </note>
-          <note xml:id="i-5BV1mNAUdfLaLyd8NqsAee">
-            § 9.
-          </note>
-          <note xml:id="i-TVocDhVu6Zp5Bicuwb3ifW">
-            Avgåvos två motioner, nämligen av:
-          </note>
-          <note xml:id="i-WfoiEyQ8qnUNr8SAJggVVd">
-            herr Johansson i Sollefteå, nr 335, i anledning av Kungl. Maj:ts
-            proposition. nr 41, med förslag till lag om ändring i vissa delar
-            av lagen den 25 april 1919 (nr 222) angående beredande i vissa
-            fall vid skogsavverkning och kolning av härbärge åt arbetarna
-            m. m.; och
-          </note>
-          <note xml:id="i-Erm7oyZKSpP42Kh2KevEYz">
-            herr Herou m. fl., nr 336, om avslag å Kungl. Maj:ts proposition,
-            nr 42, angående åtgärder för den inhemska sockerbetsodlingens
-            uppehållande.
-          </note>
-          <note xml:id="i-SWd8S8bxWrZeccurwGnLnX">
-            Nämnda motioner bordlades.
-          </note>
-          <note xml:id="i-XtiRsMQtJifZmjjXj1Dnzm">
-            § 10.
-          </note>
-          <note xml:id="i-JwLiDu7ohcDDknMehKiGe6">
-            På förslag av herr förste vice talmannen, som förmälde sig hava
-            om tiden för valen samrått med första kammarens talman, beslöt
-            kammaren att onsdagen den 11 innevarande februari företaga val
-            dels av tjugufyra valmän att, jämte ett lika antal valmän från
-            första kammaren, utse revisorer och revisorssuppleanter vid riksbankens
-            avdelningskontor i orterna, dels ock av sex suppleanter för de
-            av kammaren utsedda valmännen.
-          </note>
-          <note xml:id="i-Rkzdu1k14Y7AmLP9trebbR">
-            § 11. Justerades protokollsutdrag.
-          </note>
-          <note xml:id="i-P6A2RYfpvg1LmsZer4TrpF">
-            § 12.
-          </note>
-          <note xml:id="i-Gvi39cfVvEWvwHLwViAW8e">
-            Anmäldes och godkändes följande förslag till riksdagens skrivelser
-            till Konurgen, nämligen: från konstitutionsutskottet, nr 21, i
-            anledning av Kungl. Maj:ts proposition till riksdagen angående
-            godkännande av en mellan Sverige och Island undertecknad konvention
-            angående fredligt avgörande av tvister;
-          </note>
-          <note xml:id="i-625DxouE24X17JQMTa1nnt">
-            från statsutskottet:
-          </note>
-          <note xml:id="i-732GdgugGr9pGw1QGUJ9gC">
-            nr 14, i anledning av Kungl. Maj:ts i statsverkspropositionen
-            under sjätte
-          </note>
-          <note xml:id="i-CevGUoUnvu8qSh4izAboCh">
-            huvudtiteln gjorda framställningar angående anslag till nybyggnad
-            ävensom möbler samt arkivinredning m. m. för länsstyrelsen i Malmöhus
-            län;
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-004.jp2/_view"/>
-          <note type="date" xml:id="i-BvoCV74KAtCoK96CUpm7Nf">
-            Onsdagen den 4 februari. 5
-          </note>
-          <note xml:id="i-YWkCVy4H8K8nqMPq1yJ1cJ">
-            nr 15, i anledning av Kungl. Maj:ts proposition angående förstärkning
-            av sjätte huvudtitelns anslag till kommittéer och utredningar
-            genom sakkunniga;
-          </note>
-          <note xml:id="i-LDSYBGwnipnmSbPZK86v9P">
-            nr 16, i anledning av Kungl. Maj:ts i statsverkspropositionen
-            gjorda framställning om anslag till Inlandsbanan;
-          </note>
-          <note xml:id="i-TigoTRpLyCgrzZxw2qV2Nr">
-            nr 17, i anledning av Kungl. Maj:ts proposition angående fortsatta
-            åtgärder för främjande av sparsamhet bland skolungdomen;
-          </note>
-          <note xml:id="i-7S8HiqnVtFrcGeyKeWQidR">
-            nr 18, i anledning av Kungl. Maj:ts proposition angående befrielse
-            för banförmannen vid statens järnvägar Jonas Jonsson från skyldighet
-            att gälda vissa skadeståndsoch ersättningsbelopp; och
-          </note>
-          <note xml:id="i-6d7vx2oakgFNzBDM4cu4cp">
-            nr 19, i anledning av Kungl. Maj:ts proposition angående viss
-            omreglering av Stockholm-—Rimbo järnvägsaktiebolags skuld till
-            staten; samt
-          </note>
-          <note xml:id="i-8aAZbgFfnrgaaqg7ToXrhc">
-            från jordbruksutskottet, nr 13, i anledning av Kungl. Maj :ts
-            proposition angående förstärkning av nionde huvudtitelns anslag
-            till kommittéer och utredningar genom sakkunniga.
-          </note>
-          <note xml:id="i-LFF9yNQMtkCPN5wfpW1on7">
-            Vidare anmäldes statsutskottets förslag till riksdagens skrivelse,
-            nr 20, till Konungen i anledning av Kungl. Maj:ts i statsverkspropositionen
-            gjorda framställning om anslag till elektrifiering av banan Järna—Norrköping—
-            Malmö m. fl. linjer.
-          </note>
-          <note xml:id="i-Xi4AoaaVbMB5YmQxBi5RXD">
-            Detta skrivelseförslag godkändes under förutsättning att utskottets
-            hemställan i utlåtande nr 17 bifölles jämväl av första kammaren.
-          </note>
-          <note xml:id="i-Eg4sT21bNGCeW87R8JgSSs">
-            § 13. Till bordläggning anmäldes:
-          </note>
-          <note xml:id="i-9Wd7G3WbnKunwH2Kd9mNjc">
-            bevillningsutskottets betänkanden:
-          </note>
-          <note xml:id="i-o2vU8J1dXbrWDEv9e37rP">
-            nr 1, i anledning av Kungl. Maj:ts proposition med förslag till
-            förordning angående fortsatt tillämpning av förordningen den 17
-            maj 1923 (nr 113) om utgörande av en särskild stämpelavgift i
-            vissa fall vid köp, byte eller införsel till riket av pärlor med
-            flera lyxvaror; och
-          </note>
-          <note xml:id="i-6bvhJAqPho1CPqwCuQNJx7">
-            nr 2, i anledning av Kungl. Maj:ts proposition med förslag till
-            förordning om fortsatt tillämpning av förordningen den 27 april
-            1923 angående rätt för Konungen att i visst fall åsätta särskild
-            tullavgift;
-          </note>
-          <note xml:id="i-8hA4Nc8S5KGhjtAJnmR4i6">
-            första lagutskottets utlåtande, nr 3, i anledning av Kungl. Maj:ts
-            proposition med förslag till lag om ändrad lydelse av 76 och 77
-            $$ lagen den 23 oktober 1914 om krigsdomstolar och rättegången
-            därstädes; samt
-          </note>
-          <note xml:id="i-TYzdfes2zhzUCZcnSx2fHT">
-            Jordbruksutskottets utlåtanden:
-          </note>
-          <note xml:id="i-8j3KY65QNrscgDUDJcJwvC">
-            nr 4, i anledning av Kungl. Maj:ts proposition angående inredande
-            av vissa lägenheter m. m. i veterinärhögskolans lokaler;
-          </note>
-          <note xml:id="i-4x48Gnhijev34JoqYiZW1F">
-            or 5,1 anledning av Kungl. Maj:ts proposition angående statsbidrag
-            till upprensning av avloppskanalerna till Mästermyr i Gotlands
-            län;
-          </note>
-          <note xml:id="i-AUt2YAFU28PdEUBEz5dRqG">
-            nr 6, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av ön Kalven eller kronolägenheten Kalven nr 1 i Öckerö socken
-            av Göteborgs och Bohus län;
-          </note>
-          <note xml:id="i-MCwcwgfuvyxZDoUXKwteaG">
-            nr 7, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av vissa kronoegendomar och upplåtande av lägenheter från sådana
-            egendomar;
-          </note>
-          <note xml:id="i-YVyytXT1aAFqQugsCi55xK">
-            nr 8, i anledning av Kungl. Maj:ts proposition angående medgivande
-            för Kungl. Maj:t att i vissa fall försälja kronoegendom m. m.;
-            och
-          </note>
-          <note xml:id="i-AKNGcZS8fUEoB3kbpYu7qc">
-            nr 9, i anledning av Kungl. Maj:ts proposition med förslag till
-            lag angående ändrad lydelse av 2 $ lagen den 14 juni 1928 (nr
-            196) om galtbesiktningstvång. :
-          </note>
-          <note xml:id="i-7nJ2YxM4NmcpFJSUmCAEQr">
-            Nr 9.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-005.jp2/_view"/>
-          <note xml:id="i-UzQjUkoGZhaDS9okAhGuKq">
-            Nr 9.
-          </note>
-          <note xml:id="i-FWfyjucdRjxFeZyBMPagME">
-            6 Fredagen den 6 februari. $ 14. Ledighet från riksdagsgöromålen
-            beviljades: herr Bengtsson i Kullen under 6 dagar fr.o.m. den
-            7 febr. &gt; Lithander &gt; 4 &gt;» &gt; &gt; 4-:3&gt;3 &gt; Karlsson i Grängesberg
-            &gt; 8 &gt; &gt; &gt; 4 &gt; &gt; Wikström &gt; 5 &gt; &gt; &gt; oh &gt; &gt; Svensson i Högsjöhult
-            &gt; 8&amp; &gt; &gt; &gt; Ta &gt; Blomquist &gt; 6 &gt; &gt; &gt;» 6 2 &gt; Petersson i Broaryd
-            &gt; 2 a &gt; &gt; 5 2 &gt; Björkman &gt; 3. &gt; &gt; &gt; To &gt; Molander &gt; 7 oo &gt; &gt; 5
-            &gt;» &gt; Andersson i Ovanmyra &gt;» 6 &gt; &gt; &gt; 5 &gt;» &gt; Grapenson &gt; 122 &gt;
-            &gt; &gt; 6 &gt; &gt; Johänsson i Uppmälby &gt; 3 &gt;» &gt; &gt; 7 &gt; och &gt; Törnkvist
-            i Karlskrona &gt; 9 &gt; &gt; &gt; 8 &gt;
-          </note>
-          <note xml:id="i-PDZNUcTQzb1w8BxckFZTuJ">
-            Kammarens ledamöter åtskildes härefter kl. 3.40 e. m.
-          </note>
-          <note xml:id="i-QHC9hKTQBAAGWE67WX7oGq">
-            In fidem Per Cronvall.
-          </note>
-          <note type="date" xml:id="i-9eFZjEZSVk5panXGv68k4m">
-            Fredagen den 6 februari. Kl. 4.30 e. m.
-          </note>
-          <note xml:id="i-TaUt8kuhGzZeF1agt84gW9">
-            §1.
-          </note>
-          <note xml:id="i-REMjorL5oCWSQ3Y1uBMzoU">
-            Justerades protokollen för den 30 och den 31 nästlidna januari
-            samt den 1 innevarande februari.
-          </note>
-          <note xml:id="i-KKuqor1sDcguWx5rXbea2y">
-            § 2.
-          </note>
-          <note type="speaker" xml:id="i-REpXBxZW3zjoigikWCj5KD">
-            Herr statsrådet Jeppsson avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-yohbHWYFDkZMpDTxEnEJp">
-            ts propositioner:
-          </note>
-          <note xml:id="i-UxjbPz9GFSQY7woA6D6AFU">
-            nr 58, angående efterskänkande i vissa fall av kronans rätt till
-            danaarv;
-          </note>
-          <note xml:id="i-LJ3nsnEdGJpBibkcz8t7qi">
-            nr 59, angående avstående i vissa fall av allmänna arvsfondens
-            rätt till arv;
-          </note>
-          <note xml:id="i-FZ2kVHfZ1ADgpbSqNpgBTj">
-            nr 60, angående försäljning av vissa delar av tullverket tillhöriga
-            hemmanet Funäsdalen nr 31 i Tännäs socken av Jämtlands län;
-          </note>
-          <note xml:id="i-9Bq1B9SdrjXkA1fheQGPXa">
-            nr 61, angående försäljning av allmänna arvsfonden tillfallna
-            fastigheten nr 3 och 4 kvarteret Vildmannen med adressnummer 18
-            vid Norrlandsgatan i Stockholm ; och
-          </note>
-          <note xml:id="i-3idQEJZq5qX7U5Kv9Kh2dE">
-            nr 66, angående förändring i avseende å löneställning och antal
-            m. m. beträffande vissa ordinarie befattningar vid postverket,
-            telegrafverket, statens järnvägar och statens vattenfallsverk.
-          </note>
-          <note xml:id="i-L9Xi42qSXKPSebPCyobpK">
-            Dessa propositioner bordlades.
-          </note>
-          <note xml:id="i-KuCD8iZynMirYeU2FcHJM4">
-            § 3.
-          </note>
-          <note xml:id="i-Kog1kdkNiAdh6CYZDxky9Q">
-            Föredrogos var efter annan följande Kungl. Maj:ts å kammarens
-            bord vilande propositioner; och hänvisades därvid
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-006.jp2/_view"/>
-          <note type="date" xml:id="i-VgvouA3MDdDAVmzFiEC1iF">
-            Fredagen den 6 februari. 7
-          </note>
-          <note xml:id="i-8S3g4urh5sDURkE7gp3JV1">
-            till jordbruksutskottet propositionerna:
-          </note>
-          <note xml:id="i-QQ2Khgk3p47QrLsxscRwxr">
-            nr 4, angående anstånd för lottköpare från Näs kungsgård i Kopparbergs
-            län med erläggande av oguldna räntor och amorteringar å köpeskilling;
-          </note>
-          <note xml:id="i-BZpktNuBvgwEuERvNP4ujk">
-            nr 5, angående vissa åtgärder till beteskulturens främjande;
-          </note>
-          <note xml:id="i-ss4VxZPCFcVbaChMZ9zMT">
-            nr 63, angående disponerande av avkastningen av statens hästavelsfond;
-            och
-          </note>
-          <note xml:id="i-3ryx2Mn5b7BVpX7fSysqSP">
-            nr 65, angående åtgärder till höjande av det mindre jordbruket
-            och befräm- Jande av gödselvården;
-          </note>
-          <note xml:id="i-AGeimX42iE36dYzVcURkMS">
-            till statsutskottet propositionen, nr 33, angående ytterligare
-            lån för anordnande av ett skyddshem för flickor m. m.;
-          </note>
-          <note xml:id="i-Whthq7jxkSVDJdaiu9JmXR">
-            till bankoutskottet propositionen, nr 36, angående beredande
-            av en tredje emeritilön åt biskopar;
-          </note>
-          <note xml:id="i-RB7WT9TsiHBCrU165tbBcf">
-            till behandling av lagutskott propositionen, nr 37, med förslag
-            till lag om ändrad lydelse av lagen den 22 april 1927 (115) om
-            gäldande ur kyrkofonden i visst fall av pensionsavgift, belöpande
-            å innehavare av prästerlig emeritilön;
-          </note>
-          <note xml:id="i-GnCYJiRBZouTsYJhfMwaj5">
-            till statsutskottet propositionen, nr 38, angående vissa ändringsarbeten
-            vid serafimerlasarettet; och
-          </note>
-          <note xml:id="i-BG1E1rhdZnKDvTRmgdggpt">
-            till bankoutskottet propositionen, nr 57, angående vissa anslag
-            från allmänna indragningsstaten m. m.
-          </note>
-          <note xml:id="i-9m9jpTNrmFik583Ujs4WMk">
-            Vid härpå skedd föredragning av propositionen, nr 64, angående
-            upprättande av ett institut för högspänningsforskning hänvisades
-            Propositionen, i vad den avsåg pensionsoch indragningsstaterna,
-            till bankoutskottet och i övrigt till statsutskottet.
-          </note>
-          <note xml:id="i-4WGrZBGfp9BBxr3VUJZQMs">
-            Propositionen nr 62 angående tullfri införsel av två telefonkablar,
-            som härefter föredrogs, överlämnades till bevillningsutskottet.
-          </note>
-          <note xml:id="i-9K6ubXMgxEJsZrdwGumdyU">
-            Slutligen föredrogs propositionen, nr 14, angående godkännande
-            av en i Genéve den 2 oktober 1930 dagtecknad konvention om finansiell
-            hjälp m. m.; och hänvisades propositionen, i vad den avsåg visst
-            bemyndigande för riksgäldskontoret, till statsutskottet och i
-            övrigt till konstitutionsutskottet.
-          </note>
-          <note xml:id="i-UM9HeE6fyw25NTxgcNYmKK">
-            § 4.
-          </note>
-          <note xml:id="i-7csshu2m5BWY13H5yoc1Kj">
-            Vidare föredrogos var för sig de på kammarens bord liggande motionerna;
-            och remitterades därvid
-          </note>
-          <note xml:id="i-7rkfPNtarxzeKASzujWw6a">
-            - behandling av lagutskott motionen nr 335 av herr Johansson
-            i Sollefteå ; oc
-          </note>
-          <note xml:id="i-AxpZ61brSpzwX6DcKRquZH">
-            till jordbruksutskottet motionen nr 336 av herr Herou m. fl.
-          </note>
-          <note xml:id="i-BE34E5Fgz5t4HxrFRw39P7">
-            § 5.
-          </note>
-          <note xml:id="i-VPus1BGTJzhDBGmiyqRpEh">
-            Föredrogos, men bordlades åter bevillningsutskottets betänkanden
-            nr 1 och 2, första lagutskottets utlåtande nr 3 samt jordbruksutskottets
-            utlåtanden nr 4—29.
-          </note>
-          <note xml:id="i-Ha8hQa4MuuX9DZ31y295C7">
-            § 6.
-          </note>
-          <note xml:id="i-Cpt3oQtShAZNLRwqeqqgYg">
-            Avgåvos två motioner, nämligen av:
-          </note>
-          <note xml:id="i-H7t9rUDCJA8wrRsS98rKfg">
-            herr Sköld m. fl., nr 337, i anledning av Kungl. Maj:ts proposition,
-            nr 42, angående åtgärder för den inhemska sockerbetsodlingens
-            uppehållande; och
-          </note>
-          <note xml:id="i-9tdtt7jKmewn5YVc86WjMH">
-            herr Öhman m. fl., nr 338, i anledning av Kungl. Maj:ts proposition,
-            nr 41, med förslag till lag om ändring i vissa delar av lagen
-            den 25 april 1919 (nr
-          </note>
-          <note xml:id="i-Pbee1V9xNYUK5jMPp2NGGr">
-            Nr 9."
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-007.jp2/_view"/>
-          <note xml:id="i-FFGTK3mUQzG5rxxLUM2eVG">
-            Nr 9.
-          </note>
-          <note xml:id="i-7uoWhAhzJqbpsAzbfdDsmh">
-            Interpellation.
-          </note>
-          <note type="date" xml:id="i-BgaysHkT8Jt2GppRuARwsQ">
-            8 Fredagen den 6 februari.
-          </note>
-          <note xml:id="i-VfQ5cXaFAWXXBCT2m4SBg3">
-            222) angående beredande i vissa fall vid skogsavverkning och
-            kolning av härbärge åt arbetarna m. m.
-          </note>
-          <note xml:id="i-RxF1XRU2YVQPTDfjcnp4Bv">
-            Nämnda motioner bordlades.
-          </note>
-          <note xml:id="i-XRCmAbCdbnvfV2NAJ7AQJ3">
-            St Till bordläggning anmäldes: konstitutionsutskottets utlåtande,
-            nr 2, i anledning av väckt motion om förbud för landsting att
-            taga befattning med frågor om rikets försvar; samt
-          </note>
-          <note xml:id="i-Xb6UpSwNXVZG69inUPgh2j">
-            andra lagutskottets utlåtanden:
-          </note>
-          <note xml:id="i-FshgBwxor7JkEGm2kgLYhU">
-            nr 1, i anledning av väckt motion om ändrad lydelse av 17 $i
-            lagen om vissa av landsting eller kommun drivna sjukhus; och
-          </note>
-          <note xml:id="i-JRz5MVcrJ2iWsSLoBgPCXd">
-            nr 2, i anledning av väckt motion om vissa ändringar i värnpliktslagen.
-          </note>
-          <note xml:id="i-MT9Jkkvd3TCmFzXg36qgZB">
-            § 8. Justerades protokollsutdrag. 8 9. Ledighet från riksdagsgöromålen
-            beviljades: herr Lindley under 38 dagar fr.o.m. den 7 febr., &gt;
-            Carlström &gt; 5 &gt; &gt; &gt; TT &gt; &gt; Nordkvist &gt; TT &gt; &gt; 7 &gt; &gt; Paulsen &gt;
-            ör » &gt; 8 &gt; &gt; Björck i Kristianstad &gt; 4 &gt; &gt; &gt; TT a &gt; Sandberg &gt;
-            7 &gt; &gt; &gt; Ta &gt; Svedberg &gt; 7 oo» &gt; &gt; 17 &gt; &gt;» Björling &gt; 10 &gt; &gt; &gt;
-            9 &gt; &gt; Thomson &gt; 8 &gt; » &gt;» 11 &gt; och &gt; Laurén &gt; 8 &gt; &gt; &gt; 7 &gt; § 10.
-          </note>
-          <note xml:id="i-DsQooHJ1s48X6i3UVeoZnJ" type="speaker">
-            Ordet lämnades härefter på begäran till herr Spångberg, som anförde:
-          </note>
-          <u who="Q4820820" xml:id="i-NH4RX6xKUcirbBqtUuX977" next="i-9e4dc97c8dfefc86-4">
-            <seg xml:id="i-HvYZXtLhFonMiLf3SNwgsi">
-              Då statsmakterna på grund av arbetslösheten efter världskrigets
-              utbrott började sin arbetslöshetspolitik med kontantunderstöd
-              och försök att skaffa arbete åt arbetslösa, torde detta ha skett
-              med tanke på att bringa hjälp åt arbetslöshetens offer. Samma
-              tanke torde ha legat till grund, då staten själv genom särskilda
-              organ började bedriva nödhjälpsarbete. Det är emellertid ett faktum
-              att statsmakterna genom nödhjälpsarbetena ej lyckats förverkliga
-              denna grundtanke.
-            </seg>
-            <seg xml:id="i-M7GpHCQeriBjYjSSDKoN5h">
-              Endast i den mån att sådana arbeten, som eljest ej blivit utförda,
-              hade igångsatts, skulle det ha varit möjligt att med nödhjälpsarbeten
-              nedbringa de arbetslösas antal och att därigenom lämna arbetslöshetens
-              offer någon hjälp. Blir tillvägagångssättet motsatt, d. v. s.
-              om arbeten, som skulle komma att utföras, även om detta ej skedde
-              i syfte att hjälpa arbetslösa, läggas såsom nödhjälpsarbete, har
-              givetvis ingen lättnad bringats de arbetslösa. TIgångsättes sådana
-              arbeten mot mindre lön och under sämre villkor än den öppna arbetsmarknadens,
-              blir resultatet icke hjälp åt de arbetslösa utan ett utnyttjande
-              av arbetslösheten i syfte att stjäla en del av den lön, som eljest
-              skulle tillfalla den arbetande. Genom en sådan verksamhet blir
-              arbetslöshetskommissionen
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-008.jp2/_view"/>
-          <note type="date" xml:id="i-D6kKJ6qWTugnmw9iE1B4hs">
-            Fredagen den 6 februari. 9 Nr 9.
-          </note>
-          <u who="Q4820820" xml:id="i-9e4dc97c8dfefc86-4" prev="i-NH4RX6xKUcirbBqtUuX977" next="i-TaTWrPRtQ5uGyS7og1rJH">
-            <seg xml:id="i-AVgPW21hJT9n1pB9vzMHAW">
-              även ett organ för arbetsköparnas lönenedpressningssträvanden.
-              Statens ar- Interpellation. betslöshetspolitik har alltmer erhållit
-              just denna karaktär. (Forts.)
-            </seg>
-            <seg xml:id="i-DUyzzb8qjYjEhXSyCMrRX5">
-              Ett arbete, som på detta sätt håller på att helt dragas in under
-              arbetslöshetskommissionen, är den s. k. kungsvägen i Värmland.
-              Det har väckt stort missnöje i alla läger och stark förbittring
-              hos arbetarklassen och på fackföreningshåll att så skett. Särskilt
-              gäller detta den planerade vägomläggningen inom Jösse härad. Att
-              detta arbete är nödvändigt förstås därav, att den nuvarande vägen
-              är under all kritik. Som exempel kan anföras, huru bilister hellre
-              resa milslånga omvägar än begagna sig av denna väg.
-            </seg>
-          </u>
-          <u xml:id="i-TaTWrPRtQ5uGyS7og1rJH" prev="i-9e4dc97c8dfefc86-4" who="Q4820820" next="i-9e4dc97c8dfefc86-5">
-            <seg xml:id="i-2s2L1MTUo1dayddHiJYhrr">
-              Förslag till ifrågavarande vägomläggning upprättades redan år
-              1923. Ett överklagande av beslutet gjordes hos Konungens befallningshavande,
-              som i utslag, meddelat den 3 mars 1926, ålade de väghållningsskyldiga
-              att verkställa arbetet i enlighet med förslaget. Konungens befallningshavandes
-              utslag överklagades hos Kungl. Maj:t, som år 1928 ogillade besvären.
-            </seg>
-          </u>
-          <u who="Q4820820" xml:id="i-9e4dc97c8dfefc86-5" prev="i-TaTWrPRtQ5uGyS7og1rJH">
-            <seg xml:id="i-9r1x4CAmoXMmYYe6Cx1Z4v">
-              Att vägstyrelsen nu överlämnar arbetet åt arbetslöshetskommissionen,
-              vilket tills vidare skett genom muntlig överenskommelse, beror
-              på det extra statsbidrag, som därigenom erhålles, d. v. s. vägstyrelsen
-              har sålt rätten till arbetet åt arbetslöshetskommissionen. Myndigheterna,
-              till vilka vägstyrelsen vänt sig med förfrågan om när statsbidrag
-              skulle kunna påräknas, lära, enligt uttalande av vägstyrelsens
-              ordförande, ha givit det beskedet, att detta ej vore att påräkna
-              inom närmaste framtiden »av det enkla skälet att inga pengar funnes
-              att tillgå».
-            </seg>
-            <seg xml:id="i-H7ETs6NhFqU4nPDUL6k1pL">
-              Det är ju under sådana förhållanden uppenbart, att en omläggning
-              av anslagen från riksdagens sida måste företagas. Ur statsfinansiell
-              synpunkt sett måste det ju gå lika lätt att anskaffa medel till
-              samma ändamål genom anslag på annat sätt än genom arbetslöshetskommissionen.
-            </seg>
-            <seg xml:id="i-RkGVzUdd8vfk4NAm4pstyK">
-              Tilltaget att söka överlämna den del av kungsvägen, som sträcker
-              sig genom Jösse härad, har, som anförts, väckt stark förbittring,
-              och arbetarna ha nu beslutat att sätta stopp för dess fullföljande.
-              Frågan har ingående behandlats av fackföreningar och arbetslöshetsföreningar
-              inom Jösse härad, vilka överläggningar nu lett till att detta
-              arbete under arbetslöshetskommissionens regi förklarats i blockad.
-            </seg>
-            <seg xml:id="i-SvMnMq8NaPiKXUyFLsU8Z3">
-              Av vad här anförts rörande omläggningen av kungsvägen inom Jösse
-              härad torde fullt tydligt framgå, att det är ett nödvändigt arbete,
-              som alldeles oavsett arbetslösheten måste utföras. Dess indragande
-              under arbetslöshetskommissionen och dess svältpolitik innebär
-              därför intet annat än ett ingrepp i syfte att hindra arbetarnas
-              rätt till avtalsenliga löner. I anslutning till vad här anförts
-              anhåller jag att till herr statsrådet och chefen för socialdepartementet
-              få framställa följande frågor:
-            </seg>
-            <seg xml:id="i-N8GmFhS71UKa4NZSwTpyfu">
-              1) Anser herr statsrådet, att det bör ingå i arbetslöshetekommissionens
-              uppgifter att söka lägga under sig arbeten av sådan natur, som
-              alldeles oavsett arbetslösheten måste utföras och vilkas övertagande
-              av arbetslöshetskommissionen sålunda realiter ej innebär någon
-              minskning av arbetslösheten?
-            </seg>
-            <seg xml:id="i-CdvE57jNDWFReMuBttYQ4w">
-              2) Om detta ej är förhållandet, är det i så fall att förvänta,
-              att herr statsrådet vidtager några åtgärder i syfte att tillmötesgå
-              kravet på, att arbetslös-
-            </seg>
-          </u>
-          <note xml:id="i-P6TBKLZf5umscpaYv3c3s3">
-            ge kel arms torn ej skall åtaga sig omläggningen av kungsvägen
-            genom Jösse rärad?
-          </note>
-          <note xml:id="i-PkJS7rg5ZEtJfQERsXeJ39">
-            Ifrågavarande anhållan bordlades.
-          </note>
-          <note xml:id="i-RdcURsRTWSgmokSyaPk2e7">
-            Kammarens ledamöter åtskildes härefter kl. 4.48 e. m.
-          </note>
-          <note xml:id="i-26DtVTWcSy6CfG6BbFP2w5">
-            In fidem Per Cronvall.
-          </note>
-          <note xml:id="i-DTTz8ShYZ9bmt5fBmP6DbG">
-            Andra kammarens protokoll 1931. Nr 9. 2
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-009.jp2/_view"/>
-          <note xml:id="i-Ly6FrNWhBdLYzV6Pf5Hd2o">
-            Nr 9.
-          </note>
-          <note type="date" xml:id="i-6kyQYj1Z83yMEP7Be6ESiA">
-            10 Lördagen den 7 februari.
-          </note>
-          <note type="date" xml:id="i-FifAecEbnS49cVvvipyjCx">
-            Lördagen den 7 februari. Kl. 3 e. m.
-          </note>
-          <note xml:id="i-ANPWrfYcTYBfoFkSRQoHXp">
-            §1.
-          </note>
-          <note type="speaker" xml:id="i-z2HJdWmyhVgMmKZEJuuT4">
-            Herr statsrådet Gärde avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-4TES866msnJwkFJdpPtBks">
-            ts propositioner:
-          </note>
-          <note xml:id="i-GntKNKmeCLXJc4cCodb4Kt">
-            nr 67, med förslag till lag om upplagshus och upplagsbevis; och
-          </note>
-          <note xml:id="i-ErZC2m3ZMSqEBPrgFddnW4">
-            nr 68, med förslag till lag om ändrad lydelse av 13 $ lagen den
-            12 maj 1897 (vr 27) för Sveriges riksbank.
-          </note>
-          <note xml:id="i-H26osPdqoL5NcDZV7GCmyB">
-            Dessa propositioner bordlades.
-          </note>
-          <note xml:id="i-9JB8d4XcuDBxxZAM1MkjAb">
-            &amp; 2. Upplästes en från Finlands riksdag ingången inbjudan till
-            Sveriges riksdag att genom sina representanter närvara vid invigningen
-            av Finlands nya riksdagshus i Helsingfors den 7 mars 1931 kl.
-            13.
-          </note>
-          <note type="speaker" xml:id="i-9m76APw3ubKb2kzHrz4RGN">
-            Ordet lämnades därpå till herr förste vice talmannen, som yttrade:
-          </note>
-          <u who="unknown" xml:id="i-6c6ba72ea750dccc-1" next="i-6JXx9mPD46a69v2JSQDw8F">
-            <seg xml:id="i-ELUbFS5LLWC9ufvjYaduLN">
-              Herr talman! Jag ber att få föreslå kammaren, att kammaren för
-              sin del ville besluta antaga den finska riksdagens nu föredragna
-              inbjudning samt, 1 överensstämmelse med den uppfattning, som kommit
-              till uttryck vid i dag hållen talmanskonferens, utse sin talman
-              att vid den instundande invigningsfesten i Helsingfors representera
-              kammaren.
-            </seg>
-          </u>
-          <note xml:id="i-K8VxzUevSpA4cukPDZ8KLv">
-            Denna hemställan bifölls.
-          </note>
-          <note xml:id="i-SAB9RyNrF6fyMnMhSgdgqR">
-            § 3.
-          </note>
-          <note xml:id="i-MEkcMvwGh9cckbd83VEgbX">
-            | Föredrogos var efter annan Kungl. Maj:ts å kammarens bord vilande
-            propositioner; och hänvisades därvid
-          </note>
-          <note xml:id="i-UEvgnoyVfGyPAbVxXeoaEf">
-            till statsutskottet propositionerna: nr 58, angående efterskänkande
-            i vissa fall av kronans rätt till danaarv; och nr 59, angående
-            avstående i vissa fall av allmänna arvsfondens rätt till arv;
-          </note>
-          <note xml:id="i-FDBRnd7QeqFmfXeyW4Skh3">
-            till jordbruksutskottet propositionerna:
-          </note>
-          <note xml:id="i-5nb88p7HsNYwFeZf5uhMQE">
-            nr 60, angående försäljning av vissa delar av tullverket tillhöriga
-            hemmanet Funäsdalen nr 31 i Tännäs socken av Jämtlands län; och
-          </note>
-          <note xml:id="i-KUCSLuk6BFziZX2wsUjcSo">
-            nr 61, angående försäljning av allmänna arvsfonden tillfallna
-            fastigheten nr 3 och 4 kvarteret Vildmannen med adressnummer 18
-            vid Norrlandsgatan i Stockholm; samt
-          </note>
-          <note xml:id="i-DGvgfH2FmAdwydj8qPtoJt">
-            till statsutskottet propositionen nr 66, angående förändring
-            i avseende å löne-
-          </note>
-          <note xml:id="i-JwCyHMVYGy7bwkrsRbPA4i">
-            ställning och antal m. m. beträffande vissa ordinarie befattningar
-            vid postverket, telegrafverket, statens järnvägar och statens
-            vattenfallsverk.
-          </note>
-          <note xml:id="i-YPfYZ68jBaj5XdSPDF3WZu">
-            §4.
-          </note>
-          <note xml:id="i-6EvKRmzqfFouVXCbSpVZsw">
-            Vidare föredrogos var för sig de på kammarens bord liggande motionerna;
-            och remitterades därvid
-          </note>
-          <note xml:id="i-Foge4HY9caSbGrtfdmkMf5">
-            till jordbruksutskottet motionen nr 337 av herr Sköld m. fl.;
-            och
-          </note>
-          <note xml:id="i-BzwRxMRxoiJe3DHZ3fgvsd">
-            till behandling av lagutskott motionen nr 338 av herr Öhman m.
-            fl.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-010.jp2/_view"/>
-          <note type="date" xml:id="i-B8ve2PQCq7UTkR81GjKjnM">
-            Lördagen den 7 februari. 11
-          </note>
-          <note xml:id="i-BmshEzUNp5jxmQzv8pr8Z9">
-            § 5.
-          </note>
-          <u xml:id="i-6JXx9mPD46a69v2JSQDw8F" who="unknown" prev="i-6c6ba72ea750dccc-1">
-            <seg xml:id="i-YBsidUP4FiqjgUGf9JF5Fw">
-              Vid härpå skedd föredragning av herr Spångbergs vid kammarens
-              nästföregående sammanträde gjorda, men då bordlagda anhållan att
-              till herr statsrådet och chefen för socialdepartementet få framställa
-              spörsmål angående arhetslöshetskommissionens uppgifter blev berörda
-              anhållan av kammaren bifallen.
-            </seg>
-          </u>
-          <note xml:id="i-JN8XjPSNTVh7Pvs2yDnEsW">
-            § 6.
-          </note>
-          <note xml:id="i-QnZuHVbKaRbM8Ybh7VZbwm">
-            Föredrogos, men bordlades åter konstitutionsutskottets utlåtande
-            nr 2 samt andra lagutskottets utlåtanden nr 1 och 2.
-          </note>
-          <note xml:id="i-MEE9Qv2Qsbhn11m6Scp7tc">
-            § 7. Härefter föredrogos vart efter annat:
-          </note>
-          <note xml:id="i-VnHU1DPW4hjfh7zeUXM2fm">
-            bevillningsutskottets betänkanden:
-          </note>
-          <note xml:id="i-Ddo2qXjRAYo1ah3vDk693E">
-            nr 1, i anledning av Kungl. Maj:ts proposition med förslag till
-            förordning angående fortsatt tillämpning av förordningen den 17
-            maj 1923 (nr 113) om utgörande av en särskild stämpelavgift i
-            vissa fall vid köp, byte eller införsel till riket av pärlor med
-            flera lyxvaror; och
-          </note>
-          <note xml:id="i-6ZKwefqpDdNcsVk5wzMrEW">
-            nr 2, i anledning av Kungl. Maj:ts proposition med förslag till
-            förordning om fortsatt tillämpning av förordningen den 27 april
-            1923 angående rätt för Konungen att i visst fall åsätta särskild
-            tullavgift;
-          </note>
-          <note xml:id="i-27A88iJFCyTn3bYc4jbcuY">
-            första lagutskottets utlåtande, nr 3, i anledning av Kungl. Maj:ts
-            proposition med förslag till lag om ändrad lydelse av 76 och 77
-            $$ lagen den 23 oktober 1914 om krigsdomstolar och rättegången
-            därstädes; samt
-          </note>
-          <note xml:id="i-QEzAqfDf1k5x6TCAvC9YdZ">
-            Jordbruksutskottets utlåtanden:
-          </note>
-          <note xml:id="i-4HxnsuBrxqDuknokmyCwp3">
-            nr 4, i anledning av Kungl. Maj:ts proposition angående inredande
-            av vissa lägenheter m. m. i veterinärhögskolans lokaler;
-          </note>
-          <note xml:id="i-KnzcpzjYUqADia6Yyqnof4">
-            nr 5, i anledning av Kungl. Maj:ts proposition angående statsbidrag
-            till upprensning av avloppskanalerna till Mästermyr i Gotlands
-            län;
-          </note>
-          <note xml:id="i-Xi82XJzyntibK9zmHZdwMg">
-            nr 6, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av ön Kalven eller kronolägenheten Kalven nr 1 i Öckerö socken
-            av Göteborgs och Bohus län; i
-          </note>
-          <note xml:id="i-JYJM2Mw93Uk6PvfRyRDyQZ">
-            nr 7, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av vissa kronoegendomar och upplåtande av lägenheter från sådana
-            egendomar;
-          </note>
-          <note xml:id="i-HPqFHrrvFtZzhU7YBRzPv2">
-            nr 8, i anledning av Kungl. Maj:ts proposition angående medgivande
-            för Kungl. Maj:t att i vissa fall försälja kronoegendom m. m.;
-            och
-          </note>
-          <note xml:id="i-GVrDZg2Ega5vTTZDdXvkC6">
-            nr 9, i anledning av Kungl. Maj:ts proposition med förslag till
-            lag angående ändrad lydelse av 2 $ lagen den 14 juni 1928 (nr
-            196) om galtbesiktningstvång.
-          </note>
-          <note xml:id="i-F2oKPfwEt9u3unpsw2DsgM">
-            sj nmaren biföll vad utskottet i nämnda betänkanden och utlåtanden
-            hemställt.
-          </note>
-          <note xml:id="i-99tQPZSr4CTPYoo7GHVoQS">
-            § 8.
-          </note>
-          <note xml:id="i-KZaNTnsQEAray6smRrt3Cv">
-            Avgåvos följande motioner, nämligen av:
-          </note>
-          <note xml:id="i-MA4ECcRHAZttvcs2N9fGV1">
-            herr Månsson i Erlandsro m. fl., nr 339, i anledning av Kungl.
-            Maj:ts pro-
-          </note>
-          <note xml:id="i-DvTzaCT4AshHdXjpjXbPgc">
-            faan nr 42, angående åtgärder för den inhemska sockerbetsodlingens
-            uppeållande;
-          </note>
-          <note xml:id="i-QKr4jbpAtNaxdVNa4mM3Ud">
-            herr Olsson i Kullenbergstorp m. fl., nr 340, likaledes i anledning
-            av Kungl. Maj:ts proposition, nr 42; och
-          </note>
-          <note xml:id="i-5RxHJ1jddZBVFWML8uvoJF">
-            nr 341, i anledning av samma proposition; samt
-          </note>
-          <note xml:id="i-4Y7rS8e6Z8242Hhneo2P8u">
-            herr Ericsson i Sörsjön m. fl., nr 342, i anledning av Kungl.
-            Maj:ts Proposition, nr 41, med förslag till lag om ändring i vissa
-            delar av lagen den 25 april
-          </note>
-          <note xml:id="i-HYZHvXmzj1DseV6c8RFxFD">
-            Nr 9,
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-011.jp2/_view"/>
-          <note xml:id="i-G34SEmYaaofiY5izZhzDtG">
-            Nr 9.
-          </note>
-          <note type="date" xml:id="i-UBPT5xQGiZPP5XJS9p3RBZ">
-            12 Lördagen den 7 februari.
-          </note>
-          <note xml:id="i-6tSL2gCtTYVaheeGHFenpf">
-            1919 (nr 222) angående beredande i vissa fall vid skogsavverkning
-            och kolning av härbärge åt arbetarna m. m.
-          </note>
-          <note xml:id="i-Ax3TkrWh1356yBC2aw5ci6">
-            Dessa motioner bordlades.
-          </note>
-          <note xml:id="i-QaMCatAevw4sVrLHqYZzKG">
-            § 9. Till bordläggning anmäldes:
-          </note>
-          <note xml:id="i-ABwC8v6yDEaJHGgQF2cRkt">
-            statsutskottets utlåtanden:
-          </note>
-          <note xml:id="i-UA21w4mw699NxYErXbck82">
-            nr 3, angående regleringen för budgetåret 1931/1932 av utgifterna
-            under riksstatens tredje huvudtitel, innefattande anslagen till
-            utrikesdepartementet;
-          </note>
-          <note xml:id="i-QSpBEJHXVDzzpK5vJcGR3j">
-            nr 9, angående regleringen för budgetåret 1931/1932 av utgifter
-            för kapitalökning i avseende å postoch telegrafverken, statens
-            järnvägar och statens vattenfallsverk ;
-          </note>
-          <note xml:id="i-kwDwSQq1RZtW8EmcRptuX">
-            nr 18, i anledning av vissa utav Kungl. Maj:t i statsverkspropositionen
-            under fjärde huvudtiteln gjorda framställningar m. m.; och
-          </note>
-          <note xml:id="i-W9xmhKBncRNSSviu7KiNqX">
-            nr 19, i anledning av Kungl. Maj:ts proposition angående nedsättning
-            av räntan å vissa lån ur lånefonden för tjänstemannasamhället
-            vid Mörby; samt
-          </note>
-          <note xml:id="i-5PEA8mspXZuaDeouGtzYQq">
-            andra lagutskottets utlåtanden:
-          </note>
-          <note xml:id="i-WaVwdqDNewr1od2MJmD1zQ">
-            nr 3, i anledning av dels Kungl. Maj:ts proposition med förslag
-            till lag om ändrad lydelse av 20 kap. 3 8 lagen den 18 juni 1926
-            om delning av jord å landet, dels ock i ämnet väckt motion;
-          </note>
-          <note xml:id="i-K9Fg37bEpGPcj2uMrzgxoa">
-            nr 4, i anledning av väckt motion om utredning och förslag rörande
-            viss ändring i expropriationslagen; och
-          </note>
-          <note xml:id="i-6yVtMqFbUXuDHXURuyTQit">
-            nr 5, i anledning av väckt motion om förenklat förfarande för
-            erhållande av rätt att framdraga elektrisk starkströmsledning.
-          </note>
-          <note xml:id="i-ByxHJ3eDWbwq84ragpkxio">
-            § 10. Justerades protokollsutdrag. § 11. Tedighet från riksdagsgöromålen
-            beviljades: herr Näslund under 10 dagar fr.o.m. den 7 febr. &gt;
-            Eriksson i Stockholm » 6 &gt; &gt; &gt; 6 &gt; &gt; Wiklund i Brattfors » 9 &gt;
-            &gt; &gt; 9 &gt; &gt; Karlsson i Munkedal &gt; 6 &gt; » &gt; 10 &gt; &gt; Svensson i Betingetorp
-            &gt; 6 &gt; &gt; &gt; 9 &gt; &gt; Hällgren &gt; 8 &gt; &gt; » 9-3 &gt; RBudén &gt; 6 » &gt; &gt; 9 &gt;
-            &gt; Johansson i Krogstorp &gt;» 8 &gt; &gt; &gt; 9 &gt; &gt; Werner vå 3 » » &gt;» 9
-            &gt; &gt; Strindlund &gt; 6 &gt; » &gt; 9 &gt; &gt;» Nilsson i Hörby &gt; 38 &gt; &gt; &gt; 9 &gt;
-            » Höglund i Göteborg &gt; 5 oo» &gt; &gt;» 10 &gt; &gt; Ohman &gt; 6 &gt; » » 13 &gt;
-            &gt; Törnkvist i Bjuv &gt; 3 &gt; &gt; &gt; 10 &gt; &gt;» Jonsson i Eskilstuna &gt; 3
-            &gt;» &gt; &gt; 9 2» och &gt; Jansson i Falun » 6 » &gt; &gt;» 11 &gt; Kammarens ledamöter
-            åtskildes härefter kl. 3.15 e. m. "In fidem Per Cromvall.
-          </note>
-          <note xml:id="i-DRTj9qppHVg9pQB6zgZmRw">
-            Stockholm 1931. Kungl. Boktryckeriet, P. A. Norstedt &amp; Söner.
-            310533
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1931--ak--9</head>
+        <docDate when="1931-02-04">1931-02-04</docDate>
+        <docDate when="1931-02-06">1931-02-06</docDate>
+        <docDate when="1931-02-07">1931-02-07</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-000.jp2/_view"/>
+        <note xml:id="i-4tu4rTijuA74R1XJwzosTv">
+          RIKSDAGENS PROTOKOLL.
+        </note>
+        <note xml:id="i-QMnnJVDbFPV36C17dA2u45">
+          I93l. Andra kammaren. Nr 9.
+        </note>
+        <note type="date" xml:id="i-PojXL9keaYUMoXqb2dqBHy">
+          Onsdagen den 4 februari. Kl. 3 e. m.
+        </note>
+        <note xml:id="i-La5ERHg2Bry51ApSaPKkrG">
+          Förhandlingarna leddes vid detta sammanträde av herr förste vice
+          talmannen.
+        </note>
+        <note xml:id="i-JRE59s9ZFCHqVA8we2E9nd">
+          § 1.
+        </note>
+        <note xml:id="i-BcMpMJm4g1Pht9q9rU69Vm">
+          Justerades protokollet för den 28 nästlidna januari.
+        </note>
+        <note xml:id="i-3KzJWCKZbBA1MCLUhmqKbV">
+          § 2.
+        </note>
+        <note xml:id="i-NyasaPAcRwoubKRErH83yZ">
+          Upplästes följande till kammaren inkomna sjukbetyg:
+        </note>
+        <note xml:id="i-4DZm3sc7Uh3D4saRi8kqoE">
+          Tullförvaltare H. Schött i Kalmar är för influensa förhindrad
+          att bevista riksdagen under åtminstone en vecka från idag räknat,
+          vilket härmed betygas. Kalmar den 31 januari 1931.
+        </note>
+        <note xml:id="i-FbwZCMe7TYjPFxKvcVmDYo">
+          Henrik Sundberg, las.läk.
+        </note>
+        <note xml:id="i-XZWGkD269B8XpStuhag4aJ">
+          § 3.
+        </note>
+        <note type="speaker" xml:id="i-JwmohYwoAetTYphYspjB5h">
+          Herr statsrådet Jeppsson avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-J33qrWkQ9GaEqXHoL1ihpV">
+          ts propositioner:
+        </note>
+        <note xml:id="i-JnpVhJWGMa4xYLc6kqMAah">
+          nr 4, angående anstånd för lottköpare från Näs kungsgård i Kopparbergs
+          län med erläggande av oguldna räntor och amorteringar å köpeskilling;
+        </note>
+        <note xml:id="i-Am3CXhM75dgMVk1pT6Jz1r">
+          nr 5, angående vissa åtgärder till beteskulturens främjande;
+        </note>
+        <note xml:id="i-MCY7iPmYcJXAQSFjhSm2ie">
+          nr 63, angående disponerande av avkastningen av statens hästavelsfond;
+        </note>
+        <note xml:id="i-Rek6MNRApJurT5NGP3YQm6">
+          nr 65, angående åtgärder till höjande av det mindre jordbruket
+          och befrämjande av gödselvården;
+        </note>
+        <note xml:id="i-A5LZAvVan3yiN2jvfCQ3wB">
+          nr 33, angående ytterligare lån för anordnande av ett skyddshem
+          för flickor m. m.;
+        </note>
+        <note xml:id="i-HySCLYePAsz6fuqkFTshd3">
+          nr 36, angående beredande av en tredje emeritilön åt biskopar;
+        </note>
+        <note xml:id="i-3KNQZGPNqUYT3pSXiK4HyY">
+          nr 37, med förslag till lag om ändrad lydelse av lagen den 22
+          april 1927 (115) om gäldande ur kyrkofonden i visst fall av pensionsavgift,
+          belöpande å innehavare av prästerlig emeritilön;
+        </note>
+        <note xml:id="i-3nmAGxZ6jVHNbK9TRqsK9P">
+          nr 38, angående vissa ändringsarbeten vid serafimerlasarettet;
+        </note>
+        <note xml:id="i-UVKt3BMjd2NXDfA7WBgABS">
+          nr 57, angående vissa anslag från allmänna indragningsstaten
+          m. m.;
+        </note>
+        <note xml:id="i-AJEiLRGnLN5QqJAU78QXhx">
+          nr 64, angående upprättande av ett institut för högspänningsforskning;
+          och
+        </note>
+        <note xml:id="i-LW7dshvXyXFAj9m51jYCeJ">
+          or 62, angående tullfri införsel av två telefonkablar.
+        </note>
+        <note xml:id="i-5CQLrqiK7suzextGFRjcDC">
+          Dessa propositioner bordlades.
+        </note>
+        <note xml:id="i-3bBD4PkxgN3gT6pYu2mkgm">
+          § 4.
+        </note>
+        <note xml:id="i-Tm9HFeUFoSoHPVKTmch2PN">
+          Föredrogs första lagutskottets utlåtande, nr 1, i anledning av
+          verkställd granskning av justitieombudsmannens ämbetsförvaltning;
+          och yttrade därvid
+        </note>
+        <note type="speaker" xml:id="i-LZs9YL6GuoBtJf84aC1A7q">
+          Herr Hage:
+        </note>
+        <u who="i-3139LqaoEDPArxpLRyxXT8" xml:id="i-69b468d3d2f7f1e3-0" next="i-VoYNVSouvZLUK8m4ibMt5E">
+          <seg xml:id="i-HX7D2Gvcff2sftmyA6Ck6V">
+            Herr talman! Jag skall be att få säga några ord med anledaing
+            av den del av detta utskottsutlåtande, där det redogöres för behandlingen
+            av riksdagsskrivelserna. Det hör som bekant till justitieombudsmannens
+            ålig-
+          </seg>
+        </u>
+        <note xml:id="i-7iHtTRdu8GgFd6pCdP1bMW">
+          Andra kammarens protokoll 19381. Nr 9. 1
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-001.jp2/_view"/>
+        <note type="date" xml:id="i-UzKQdMT2ddJJ6T7eSgWHXA">
+          2 Onsdagen den 4 februari.
+        </note>
+        <u xml:id="i-VoYNVSouvZLUK8m4ibMt5E" prev="i-69b468d3d2f7f1e3-0" who="i-3139LqaoEDPArxpLRyxXT8" next="i-69b468d3d2f7f1e3-1">
+          <seg xml:id="i-QXAg5GP8JGaU4tZcFT8hg3">
+            ganden att i sin berättelse redogöra för behandlingen under det
+            gångna året av skrivelser, som riksdagen avlåtit.
+          </seg>
+        </u>
+        <u who="i-3139LqaoEDPArxpLRyxXT8" xml:id="i-69b468d3d2f7f1e3-1" prev="i-VoYNVSouvZLUK8m4ibMt5E" next="i-69b468d3d2f7f1e3-2">
+          <seg xml:id="i-B4gvAE8EW4deMjHJMrhGdb">
+            Nu förhåller det sig så, att jag vid en föregående riksdag avlät
+            en motion i denna sak, en motion i vilken jag gjorde gällande,
+            att dessa riksdagsskrivelser behandlades så, att utredningsarbetet
+            mycket ofta fördröjdes på ett stundom orimligt sätt. Den riksdag
+            jag syftar på, ansåg emellertid, att det var någorlunda bra beställt
+            på detta område, och det har därför varit angeläget för mig att
+            i någon mån se efter, hur det står till på det här området i år.
+          </seg>
+          <seg xml:id="i-XkUm8Qmq6bu9v2TyNwskyS">
+            Jag finner då, att ungefär samma missförhållanden, som jag påpekade
+            vid ett tidigare tillfälle, alltjämt existera. Av denna redogörelse
+            framgår nämligen, att det alltjämt finnes ett mycket stort antal
+            skrivelser, vilkas behandling blivit i hög grad fördröjd. Man
+            kan konstatera, att vi liksom förra året ha mellan 60 och 70 riksdagsskrivelser,
+            som äro över 10 år gamla. En del av dessa skrivelser har avlåtits
+            för så länge sedan som åren 1900, 1902, 1904 etc. och äro alltså
+            i vissa fall över 30 år gamla. Om dessa skrivelser kan man rent
+            av säga, att de blivit »pensionsmässiga», om jag får använda ett
+            sådant uttryck. Beträffande en av dessa mycket gamla skrivelser
+            säges det på ett annat ställe i redogörelsen, att »denna saken
+            är fortfarande föremål för utredning», och med avseende på en
+            riksdagsskrivelse från år 1900, märk väl 1900, heter det, att
+            yttranden infordrats från myndigheter och korporationer. vilka
+            yttranden avvaktas.
+          </seg>
+          <seg xml:id="i-3Fm6xsujJvtZEzLhgnXP4y">
+            Nu förstår jag mycket väl, att det förhåller sig så, att vissa
+            spörsmål äro vidlyftiga och svåra att behandla, och att det kan
+            taga lång tid, innan man slutligen kan avföra dem från dagordningen.
+            Men nog förefaller det mig, sedan jag nu sett igenom en del av
+            dessa saker, som om frågornas behandling allt för ofta fördröjdes
+            på ett orimligt sätt. Det finnes exempelvis mellan 120 och 130
+            riksdagsskrivelser, som äro över fem år gamla. Det är klart, att
+            när utredningen av sådana saker tager så lång tid, så blir följden
+            också den, att den lagstiftning, som man med riksdagsskrivelsen
+            avsett att få till stånd, också blir fördröjd på ett orimligt
+            sätt. När det väckes nya motioner i kammaren, får man också mycket
+            ofta höra den frågan framställas, varför icke den eller den saken,
+            som motionen berör, redan blivit klarerad.
+          </seg>
+          <seg xml:id="i-FGf3dNJYHHXRKw5juuSZ54">
+            Jag har sagt det förut, och jag upprepar det nu, att dessa saker
+            äro inga bagateller utom tvärtom av mycket stor betydelse, icke
+            minst för demokratien själv. Om riksdagens majoritet går in för
+            att vissa saker skola utredas, så är det orimligt att det skall
+            dröja 20, 30 år innan utredningen blir färdig, så att det hela
+            kanske får sin avslutning, först då vederbörande motionär för
+            länge sedan stoppats ned i graven. Ett sådant förhållande är orimligt
+            och åstadkommer med nödvändighet, att vissa invändningar riktas
+            mot hela systemet.
+          </seg>
+          <seg xml:id="i-84dyuppK3AvppYprVqHqjj">
+            Det finns många, som vilja tala illa om demokratien och riksdagen,
+            och man säger, att det ofta icke är något allvar med det som riksdagen
+            beslutar. De människor, som vilja sprida ut en sådan uppfattning,
+            få en viss styrka i sin agitation därigenom, att de kunna visa
+            på sådana missförhållanden, som jag här har visat på.
+          </seg>
+          <seg xml:id="i-5SZfkSZh7QCyMVYX7RiZcW">
+            Jag talade en gång med en regeringsledamot om den här saken.
+            Han sade, att en av hans första åtgärder, när han kom till ämbetet,
+            var att ställa till med en inventering av de riksdagsskrivelser,
+            som funnos i hans departement. Men jag undrar, om herrar regeringsledamöter
+            i allmänhet handla så. Om så vore fallet, har jag svårt att tro,
+            att den s. k. arbetsbalansen på detta område kan vara så stor,
+            som den alltjämt är.
+          </seg>
+          <seg xml:id="i-TWF7JdABXEN9yu1jeD1Saj">
+            Jag har givetvis, herr talman, icke något yrkande i den här saken,
+            men jag tycker, att saken i och för sig är så anmärkningsvärd,
+            att man i första lagutskottet, när man konstaterade detta missförhållande,
+            icke bort avhålla sig från att säga någonting, om att utskottet
+            också för sin del anser, att det är
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-002.jp2/_view"/>
+        <note type="date" xml:id="i-Fdbm785eK2m6PH7dGviudb">
+          Onsdagen den 4 februari. 3
+        </note>
+        <u who="i-3139LqaoEDPArxpLRyxXT8" xml:id="i-69b468d3d2f7f1e3-2" prev="i-69b468d3d2f7f1e3-1">
+          <seg xml:id="i-RoNvvYRqaQQxNnmLezBG4f">
+            ett beklagligt förhållande, att en del utredningar draga så lång
+            tid. Jag skall, som sagt, icke tillåta mig att göra något yrkande
+            men jag anser, att den här saken är så pass viktig, att den bör
+            påtalas undan för undan, tills det sker en effektiv rättelse på
+            detta område. Det är med hänsyn därtill, som jag tillåtit mig
+            att hålla detta anförande.
+          </seg>
+        </u>
+        <note xml:id="i-BZuppGvey99MiuhPBa7Yez">
+          Vidare anfördes ej. Utlåtandet lades till handlingarna.
+        </note>
+        <note xml:id="i-Gc9oRuqTwRZDtC3sj3bYuu">
+          § 5.
+        </note>
+        <note xml:id="i-CaZPtEhozaiMvTdowoFEFr">
+          Härefter föredrogs och lades till handlingarna första lagutskottets
+          utlåtande, nr 2, i anledning av verkställd granskning av militieombudsmannens
+          ämbetsförvaltning.
+        </note>
+        <note xml:id="i-BZAv943pEDoqiL6EFCAvpB">
+          § 6.
+        </note>
+        <note xml:id="i-CMDzyiASmv4ZSeKsyyDtDw">
+          Hans excellens herr ministern för utrikes ärendena friherre Ramel
+          avlämnade Kungl. Maj:ts proposition, nr 14, angående godkännande
+          av en i Geneve den 2 oktober 1930 dagtecknad konvention om finansiell
+          hjälp m. m.
+        </note>
+        <note xml:id="i-MvtJ63KJ2txu75Q18n5dnP">
+          Denna proposition bordlades.
+        </note>
+        <note xml:id="i-EaYCEPZ3yLY3B7qmbcVSha">
+          § 7.
+        </note>
+        <note xml:id="i-CsQMFNZHBbkMhuJQBpYa3a">
+          Föredrogs statsutskottets utlåtande, nr 2, angående regleringen
+          för budgetåret 1931/1932 av utgifterna under riksstatens andra
+          huvudtitel, innefattande anslagen till justitiedepartementet.
+        </note>
+        <note xml:id="i-LTLKs7p8KSABD3maGDTRhy">
+          Punkterna 1—216. i
+        </note>
+        <note xml:id="i-6y8ogNgw3rBJShCnR7zhT4">
+          Vad utskottet hemställt bifölls.
+        </note>
+        <note xml:id="i-Qgx5iTx3BFHNRr2EWUfdfX">
+          Punkten 17. Lades till handlingarna.
+        </note>
+        <note xml:id="i-Hvm7iWBACpDfDq5uhxonWh">
+          Punkterna 18—35. Vad utskottet hemställt bifölls.
+        </note>
+        <note xml:id="i-TqikyGqB6E8fuTURX1bx7U">
+          Punkten 36. Lades till handlingarna.
+        </note>
+        <note xml:id="i-28LZhg4NNvQ5hGYs1rTKLy">
+          Punkten 37. Utskottets hemställan bifölls.
+        </note>
+        <note xml:id="i-STWADn4iYSNLz5i4zaBJPN">
+          Punkten 38. Lades till handlingarna.
+        </note>
+        <note xml:id="i-89ctPo4VM1dxsxXGFWd6Gp">
+          Punkten 39. Utskottets hemställan bifölls.
+        </note>
+        <note xml:id="i-2uSqFb65ckzDSC1FMVTg14">
+          § 8.
+        </note>
+        <note xml:id="i-8Y8WrnKXAD1AEJ9R33VhiR">
+          Vid härpå skedd föredragning av statsutskottets utlåtande, nr
+          17, i anledning av Kungl. Maj:ts i statsverkspropositionen gjorda
+          framställning om anslag till elektrifiering av banan Järna—Norrköping—Malmö
+          m. fl. linjer jämte i ämnet väckta motioner begärdes ordet av
+        </note>
+        <note xml:id="i-KABupjctxcW3VzHacQPkPC">
+          Nr 9.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-003.jp2/_view"/>
+        <note xml:id="i-4eVtDwgn1obLeaQX31QkCf">
+          Nr 9.
+        </note>
+        <note type="date" xml:id="i-YGZF1DukcH3X5aGNqKEQ66">
+          4 Onsdagen den 4 februari.
+        </note>
+        <note type="speaker" xml:id="i-L8EYBN2mnmTfSpUeipc8Vz">
+          Herr Johanson i Huskvarna, som yttrade:
+        </note>
+        <u who="i-Jq77obBeFLvgxhwoo4hA4K" xml:id="i-7b3fce6bdd402534-0">
+          <seg xml:id="i-H4G5aT2itBBfwz5etBgE3g">
+            Herr talman! Jag har tillåtit mig att tillsammans med en ärad
+            ledamot av första kammaren väcka en motion som berör en detalj
+            i detta stora ärende. Jag har sedan med ledning av det uttalande,
+            som statsutskottet gjort i frågan, hört mig för och blivit förvissad
+            om att en lokal undersökning pågår rörande det spörsmål, som motionen
+            omfattar, och därför har jag ingen anledning att nu göra något
+            yrkande, som går utöver det uttalande, som statsutskottet har
+            gjort. Jag vill särskilt betona att för orten och bygden föreligger
+            det ett stort behov av att denna trafikfriga blir ordnad på ett
+            lämpligare och bättre sätt än vad nu är fallet. Jag är medveten
+            om att det, när det gäller att lösa den fråga, som här påtalats,
+            föreligger åtskilliga svårigheter ur teknisk synpunkt, som kunna
+            bli svåra att övervinna; men den pågående undersökningen får utvisa
+            vad som kan göras. Det finnes för övrigt olika sätt att välja
+            på rörande frågans lösning, och jag vill nu endast passa på och
+            uttala den förhoppningen, att, när frågan en gång återkommer,
+            vi då få ett förslag, som på ett lämpligt sätt löser denna kommunikationsfråga
+            till gagn såväl för den stora industrien vid Huskvarna som för
+            landsbygden i övrigt. Jag har icke något yrkande att göra.
+          </seg>
+        </u>
+        <note xml:id="i-ByxcL47HVJ8pJQ1do9qBsm">
+          Vidare anfördes ej. Utskottets hemställan bifölls.
+        </note>
+        <note xml:id="i-5BV1mNAUdfLaLyd8NqsAee">
+          § 9.
+        </note>
+        <note xml:id="i-TVocDhVu6Zp5Bicuwb3ifW">
+          Avgåvos två motioner, nämligen av:
+        </note>
+        <note xml:id="i-WfoiEyQ8qnUNr8SAJggVVd">
+          herr Johansson i Sollefteå, nr 335, i anledning av Kungl. Maj:ts
+          proposition. nr 41, med förslag till lag om ändring i vissa delar
+          av lagen den 25 april 1919 (nr 222) angående beredande i vissa
+          fall vid skogsavverkning och kolning av härbärge åt arbetarna
+          m. m.; och
+        </note>
+        <note xml:id="i-Erm7oyZKSpP42Kh2KevEYz">
+          herr Herou m. fl., nr 336, om avslag å Kungl. Maj:ts proposition,
+          nr 42, angående åtgärder för den inhemska sockerbetsodlingens
+          uppehållande.
+        </note>
+        <note xml:id="i-SWd8S8bxWrZeccurwGnLnX">
+          Nämnda motioner bordlades.
+        </note>
+        <note xml:id="i-XtiRsMQtJifZmjjXj1Dnzm">
+          § 10.
+        </note>
+        <note xml:id="i-JwLiDu7ohcDDknMehKiGe6">
+          På förslag av herr förste vice talmannen, som förmälde sig hava
+          om tiden för valen samrått med första kammarens talman, beslöt
+          kammaren att onsdagen den 11 innevarande februari företaga val
+          dels av tjugufyra valmän att, jämte ett lika antal valmän från
+          första kammaren, utse revisorer och revisorssuppleanter vid riksbankens
+          avdelningskontor i orterna, dels ock av sex suppleanter för de
+          av kammaren utsedda valmännen.
+        </note>
+        <note xml:id="i-Rkzdu1k14Y7AmLP9trebbR">
+          § 11. Justerades protokollsutdrag.
+        </note>
+        <note xml:id="i-P6A2RYfpvg1LmsZer4TrpF">
+          § 12.
+        </note>
+        <note xml:id="i-Gvi39cfVvEWvwHLwViAW8e">
+          Anmäldes och godkändes följande förslag till riksdagens skrivelser
+          till Konurgen, nämligen: från konstitutionsutskottet, nr 21, i
+          anledning av Kungl. Maj:ts proposition till riksdagen angående
+          godkännande av en mellan Sverige och Island undertecknad konvention
+          angående fredligt avgörande av tvister;
+        </note>
+        <note xml:id="i-625DxouE24X17JQMTa1nnt">
+          från statsutskottet:
+        </note>
+        <note xml:id="i-732GdgugGr9pGw1QGUJ9gC">
+          nr 14, i anledning av Kungl. Maj:ts i statsverkspropositionen
+          under sjätte
+        </note>
+        <note xml:id="i-CevGUoUnvu8qSh4izAboCh">
+          huvudtiteln gjorda framställningar angående anslag till nybyggnad
+          ävensom möbler samt arkivinredning m. m. för länsstyrelsen i Malmöhus
+          län;
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-004.jp2/_view"/>
+        <note type="date" xml:id="i-BvoCV74KAtCoK96CUpm7Nf">
+          Onsdagen den 4 februari. 5
+        </note>
+        <note xml:id="i-YWkCVy4H8K8nqMPq1yJ1cJ">
+          nr 15, i anledning av Kungl. Maj:ts proposition angående förstärkning
+          av sjätte huvudtitelns anslag till kommittéer och utredningar
+          genom sakkunniga;
+        </note>
+        <note xml:id="i-LDSYBGwnipnmSbPZK86v9P">
+          nr 16, i anledning av Kungl. Maj:ts i statsverkspropositionen
+          gjorda framställning om anslag till Inlandsbanan;
+        </note>
+        <note xml:id="i-TigoTRpLyCgrzZxw2qV2Nr">
+          nr 17, i anledning av Kungl. Maj:ts proposition angående fortsatta
+          åtgärder för främjande av sparsamhet bland skolungdomen;
+        </note>
+        <note xml:id="i-7S8HiqnVtFrcGeyKeWQidR">
+          nr 18, i anledning av Kungl. Maj:ts proposition angående befrielse
+          för banförmannen vid statens järnvägar Jonas Jonsson från skyldighet
+          att gälda vissa skadeståndsoch ersättningsbelopp; och
+        </note>
+        <note xml:id="i-6d7vx2oakgFNzBDM4cu4cp">
+          nr 19, i anledning av Kungl. Maj:ts proposition angående viss
+          omreglering av Stockholm-—Rimbo järnvägsaktiebolags skuld till
+          staten; samt
+        </note>
+        <note xml:id="i-8aAZbgFfnrgaaqg7ToXrhc">
+          från jordbruksutskottet, nr 13, i anledning av Kungl. Maj :ts
+          proposition angående förstärkning av nionde huvudtitelns anslag
+          till kommittéer och utredningar genom sakkunniga.
+        </note>
+        <note xml:id="i-LFF9yNQMtkCPN5wfpW1on7">
+          Vidare anmäldes statsutskottets förslag till riksdagens skrivelse,
+          nr 20, till Konungen i anledning av Kungl. Maj:ts i statsverkspropositionen
+          gjorda framställning om anslag till elektrifiering av banan Järna—Norrköping—
+          Malmö m. fl. linjer.
+        </note>
+        <note xml:id="i-Xi4AoaaVbMB5YmQxBi5RXD">
+          Detta skrivelseförslag godkändes under förutsättning att utskottets
+          hemställan i utlåtande nr 17 bifölles jämväl av första kammaren.
+        </note>
+        <note xml:id="i-Eg4sT21bNGCeW87R8JgSSs">
+          § 13. Till bordläggning anmäldes:
+        </note>
+        <note xml:id="i-9Wd7G3WbnKunwH2Kd9mNjc">
+          bevillningsutskottets betänkanden:
+        </note>
+        <note xml:id="i-o2vU8J1dXbrWDEv9e37rP">
+          nr 1, i anledning av Kungl. Maj:ts proposition med förslag till
+          förordning angående fortsatt tillämpning av förordningen den 17
+          maj 1923 (nr 113) om utgörande av en särskild stämpelavgift i
+          vissa fall vid köp, byte eller införsel till riket av pärlor med
+          flera lyxvaror; och
+        </note>
+        <note xml:id="i-6bvhJAqPho1CPqwCuQNJx7">
+          nr 2, i anledning av Kungl. Maj:ts proposition med förslag till
+          förordning om fortsatt tillämpning av förordningen den 27 april
+          1923 angående rätt för Konungen att i visst fall åsätta särskild
+          tullavgift;
+        </note>
+        <note xml:id="i-8hA4Nc8S5KGhjtAJnmR4i6">
+          första lagutskottets utlåtande, nr 3, i anledning av Kungl. Maj:ts
+          proposition med förslag till lag om ändrad lydelse av 76 och 77
+          $$ lagen den 23 oktober 1914 om krigsdomstolar och rättegången
+          därstädes; samt
+        </note>
+        <note xml:id="i-TYzdfes2zhzUCZcnSx2fHT">
+          Jordbruksutskottets utlåtanden:
+        </note>
+        <note xml:id="i-8j3KY65QNrscgDUDJcJwvC">
+          nr 4, i anledning av Kungl. Maj:ts proposition angående inredande
+          av vissa lägenheter m. m. i veterinärhögskolans lokaler;
+        </note>
+        <note xml:id="i-4x48Gnhijev34JoqYiZW1F">
+          or 5,1 anledning av Kungl. Maj:ts proposition angående statsbidrag
+          till upprensning av avloppskanalerna till Mästermyr i Gotlands
+          län;
+        </note>
+        <note xml:id="i-AUt2YAFU28PdEUBEz5dRqG">
+          nr 6, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av ön Kalven eller kronolägenheten Kalven nr 1 i Öckerö socken
+          av Göteborgs och Bohus län;
+        </note>
+        <note xml:id="i-MCwcwgfuvyxZDoUXKwteaG">
+          nr 7, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av vissa kronoegendomar och upplåtande av lägenheter från sådana
+          egendomar;
+        </note>
+        <note xml:id="i-YVyytXT1aAFqQugsCi55xK">
+          nr 8, i anledning av Kungl. Maj:ts proposition angående medgivande
+          för Kungl. Maj:t att i vissa fall försälja kronoegendom m. m.;
+          och
+        </note>
+        <note xml:id="i-AKNGcZS8fUEoB3kbpYu7qc">
+          nr 9, i anledning av Kungl. Maj:ts proposition med förslag till
+          lag angående ändrad lydelse av 2 $ lagen den 14 juni 1928 (nr
+          196) om galtbesiktningstvång. :
+        </note>
+        <note xml:id="i-7nJ2YxM4NmcpFJSUmCAEQr">
+          Nr 9.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-005.jp2/_view"/>
+        <note xml:id="i-UzQjUkoGZhaDS9okAhGuKq">
+          Nr 9.
+        </note>
+        <note xml:id="i-FWfyjucdRjxFeZyBMPagME">
+          6 Fredagen den 6 februari. $ 14. Ledighet från riksdagsgöromålen
+          beviljades: herr Bengtsson i Kullen under 6 dagar fr.o.m. den
+          7 febr. &gt; Lithander &gt; 4 &gt;» &gt; &gt; 4-:3&gt;3 &gt; Karlsson i Grängesberg
+          &gt; 8 &gt; &gt; &gt; 4 &gt; &gt; Wikström &gt; 5 &gt; &gt; &gt; oh &gt; &gt; Svensson i Högsjöhult
+          &gt; 8&amp; &gt; &gt; &gt; Ta &gt; Blomquist &gt; 6 &gt; &gt; &gt;» 6 2 &gt; Petersson i Broaryd
+          &gt; 2 a &gt; &gt; 5 2 &gt; Björkman &gt; 3. &gt; &gt; &gt; To &gt; Molander &gt; 7 oo &gt; &gt; 5
+          &gt;» &gt; Andersson i Ovanmyra &gt;» 6 &gt; &gt; &gt; 5 &gt;» &gt; Grapenson &gt; 122 &gt;
+          &gt; &gt; 6 &gt; &gt; Johänsson i Uppmälby &gt; 3 &gt;» &gt; &gt; 7 &gt; och &gt; Törnkvist
+          i Karlskrona &gt; 9 &gt; &gt; &gt; 8 &gt;
+        </note>
+        <note xml:id="i-PDZNUcTQzb1w8BxckFZTuJ">
+          Kammarens ledamöter åtskildes härefter kl. 3.40 e. m.
+        </note>
+        <note xml:id="i-QHC9hKTQBAAGWE67WX7oGq">
+          In fidem Per Cronvall.
+        </note>
+        <note type="date" xml:id="i-9eFZjEZSVk5panXGv68k4m">
+          Fredagen den 6 februari. Kl. 4.30 e. m.
+        </note>
+        <note xml:id="i-TaUt8kuhGzZeF1agt84gW9">
+          §1.
+        </note>
+        <note xml:id="i-REMjorL5oCWSQ3Y1uBMzoU">
+          Justerades protokollen för den 30 och den 31 nästlidna januari
+          samt den 1 innevarande februari.
+        </note>
+        <note xml:id="i-KKuqor1sDcguWx5rXbea2y">
+          § 2.
+        </note>
+        <note type="speaker" xml:id="i-REpXBxZW3zjoigikWCj5KD">
+          Herr statsrådet Jeppsson avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-yohbHWYFDkZMpDTxEnEJp">
+          ts propositioner:
+        </note>
+        <note xml:id="i-UxjbPz9GFSQY7woA6D6AFU">
+          nr 58, angående efterskänkande i vissa fall av kronans rätt till
+          danaarv;
+        </note>
+        <note xml:id="i-LJ3nsnEdGJpBibkcz8t7qi">
+          nr 59, angående avstående i vissa fall av allmänna arvsfondens
+          rätt till arv;
+        </note>
+        <note xml:id="i-FZ2kVHfZ1ADgpbSqNpgBTj">
+          nr 60, angående försäljning av vissa delar av tullverket tillhöriga
+          hemmanet Funäsdalen nr 31 i Tännäs socken av Jämtlands län;
+        </note>
+        <note xml:id="i-9Bq1B9SdrjXkA1fheQGPXa">
+          nr 61, angående försäljning av allmänna arvsfonden tillfallna
+          fastigheten nr 3 och 4 kvarteret Vildmannen med adressnummer 18
+          vid Norrlandsgatan i Stockholm ; och
+        </note>
+        <note xml:id="i-3idQEJZq5qX7U5Kv9Kh2dE">
+          nr 66, angående förändring i avseende å löneställning och antal
+          m. m. beträffande vissa ordinarie befattningar vid postverket,
+          telegrafverket, statens järnvägar och statens vattenfallsverk.
+        </note>
+        <note xml:id="i-L9Xi42qSXKPSebPCyobpK">
+          Dessa propositioner bordlades.
+        </note>
+        <note xml:id="i-KuCD8iZynMirYeU2FcHJM4">
+          § 3.
+        </note>
+        <note xml:id="i-Kog1kdkNiAdh6CYZDxky9Q">
+          Föredrogos var efter annan följande Kungl. Maj:ts å kammarens
+          bord vilande propositioner; och hänvisades därvid
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-006.jp2/_view"/>
+        <note type="date" xml:id="i-VgvouA3MDdDAVmzFiEC1iF">
+          Fredagen den 6 februari. 7
+        </note>
+        <note xml:id="i-8S3g4urh5sDURkE7gp3JV1">
+          till jordbruksutskottet propositionerna:
+        </note>
+        <note xml:id="i-QQ2Khgk3p47QrLsxscRwxr">
+          nr 4, angående anstånd för lottköpare från Näs kungsgård i Kopparbergs
+          län med erläggande av oguldna räntor och amorteringar å köpeskilling;
+        </note>
+        <note xml:id="i-BZpktNuBvgwEuERvNP4ujk">
+          nr 5, angående vissa åtgärder till beteskulturens främjande;
+        </note>
+        <note xml:id="i-ss4VxZPCFcVbaChMZ9zMT">
+          nr 63, angående disponerande av avkastningen av statens hästavelsfond;
+          och
+        </note>
+        <note xml:id="i-3ryx2Mn5b7BVpX7fSysqSP">
+          nr 65, angående åtgärder till höjande av det mindre jordbruket
+          och befräm- Jande av gödselvården;
+        </note>
+        <note xml:id="i-AGeimX42iE36dYzVcURkMS">
+          till statsutskottet propositionen, nr 33, angående ytterligare
+          lån för anordnande av ett skyddshem för flickor m. m.;
+        </note>
+        <note xml:id="i-Whthq7jxkSVDJdaiu9JmXR">
+          till bankoutskottet propositionen, nr 36, angående beredande
+          av en tredje emeritilön åt biskopar;
+        </note>
+        <note xml:id="i-RB7WT9TsiHBCrU165tbBcf">
+          till behandling av lagutskott propositionen, nr 37, med förslag
+          till lag om ändrad lydelse av lagen den 22 april 1927 (115) om
+          gäldande ur kyrkofonden i visst fall av pensionsavgift, belöpande
+          å innehavare av prästerlig emeritilön;
+        </note>
+        <note xml:id="i-GnCYJiRBZouTsYJhfMwaj5">
+          till statsutskottet propositionen, nr 38, angående vissa ändringsarbeten
+          vid serafimerlasarettet; och
+        </note>
+        <note xml:id="i-BG1E1rhdZnKDvTRmgdggpt">
+          till bankoutskottet propositionen, nr 57, angående vissa anslag
+          från allmänna indragningsstaten m. m.
+        </note>
+        <note xml:id="i-9m9jpTNrmFik583Ujs4WMk">
+          Vid härpå skedd föredragning av propositionen, nr 64, angående
+          upprättande av ett institut för högspänningsforskning hänvisades
+          Propositionen, i vad den avsåg pensionsoch indragningsstaterna,
+          till bankoutskottet och i övrigt till statsutskottet.
+        </note>
+        <note xml:id="i-4WGrZBGfp9BBxr3VUJZQMs">
+          Propositionen nr 62 angående tullfri införsel av två telefonkablar,
+          som härefter föredrogs, överlämnades till bevillningsutskottet.
+        </note>
+        <note xml:id="i-9K6ubXMgxEJsZrdwGumdyU">
+          Slutligen föredrogs propositionen, nr 14, angående godkännande
+          av en i Genéve den 2 oktober 1930 dagtecknad konvention om finansiell
+          hjälp m. m.; och hänvisades propositionen, i vad den avsåg visst
+          bemyndigande för riksgäldskontoret, till statsutskottet och i
+          övrigt till konstitutionsutskottet.
+        </note>
+        <note xml:id="i-UM9HeE6fyw25NTxgcNYmKK">
+          § 4.
+        </note>
+        <note xml:id="i-7csshu2m5BWY13H5yoc1Kj">
+          Vidare föredrogos var för sig de på kammarens bord liggande motionerna;
+          och remitterades därvid
+        </note>
+        <note xml:id="i-7rkfPNtarxzeKASzujWw6a">
+          - behandling av lagutskott motionen nr 335 av herr Johansson
+          i Sollefteå ; oc
+        </note>
+        <note xml:id="i-AxpZ61brSpzwX6DcKRquZH">
+          till jordbruksutskottet motionen nr 336 av herr Herou m. fl.
+        </note>
+        <note xml:id="i-BE34E5Fgz5t4HxrFRw39P7">
+          § 5.
+        </note>
+        <note xml:id="i-VPus1BGTJzhDBGmiyqRpEh">
+          Föredrogos, men bordlades åter bevillningsutskottets betänkanden
+          nr 1 och 2, första lagutskottets utlåtande nr 3 samt jordbruksutskottets
+          utlåtanden nr 4—29.
+        </note>
+        <note xml:id="i-Ha8hQa4MuuX9DZ31y295C7">
+          § 6.
+        </note>
+        <note xml:id="i-Cpt3oQtShAZNLRwqeqqgYg">
+          Avgåvos två motioner, nämligen av:
+        </note>
+        <note xml:id="i-H7t9rUDCJA8wrRsS98rKfg">
+          herr Sköld m. fl., nr 337, i anledning av Kungl. Maj:ts proposition,
+          nr 42, angående åtgärder för den inhemska sockerbetsodlingens
+          uppehållande; och
+        </note>
+        <note xml:id="i-9tdtt7jKmewn5YVc86WjMH">
+          herr Öhman m. fl., nr 338, i anledning av Kungl. Maj:ts proposition,
+          nr 41, med förslag till lag om ändring i vissa delar av lagen
+          den 25 april 1919 (nr
+        </note>
+        <note xml:id="i-Pbee1V9xNYUK5jMPp2NGGr">
+          Nr 9."
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-007.jp2/_view"/>
+        <note xml:id="i-FFGTK3mUQzG5rxxLUM2eVG">
+          Nr 9.
+        </note>
+        <note xml:id="i-7uoWhAhzJqbpsAzbfdDsmh">
+          Interpellation.
+        </note>
+        <note type="date" xml:id="i-BgaysHkT8Jt2GppRuARwsQ">
+          8 Fredagen den 6 februari.
+        </note>
+        <note xml:id="i-VfQ5cXaFAWXXBCT2m4SBg3">
+          222) angående beredande i vissa fall vid skogsavverkning och
+          kolning av härbärge åt arbetarna m. m.
+        </note>
+        <note xml:id="i-RxF1XRU2YVQPTDfjcnp4Bv">
+          Nämnda motioner bordlades.
+        </note>
+        <note xml:id="i-XRCmAbCdbnvfV2NAJ7AQJ3">
+          St Till bordläggning anmäldes: konstitutionsutskottets utlåtande,
+          nr 2, i anledning av väckt motion om förbud för landsting att
+          taga befattning med frågor om rikets försvar; samt
+        </note>
+        <note xml:id="i-Xb6UpSwNXVZG69inUPgh2j">
+          andra lagutskottets utlåtanden:
+        </note>
+        <note xml:id="i-FshgBwxor7JkEGm2kgLYhU">
+          nr 1, i anledning av väckt motion om ändrad lydelse av 17 $i
+          lagen om vissa av landsting eller kommun drivna sjukhus; och
+        </note>
+        <note xml:id="i-JRz5MVcrJ2iWsSLoBgPCXd">
+          nr 2, i anledning av väckt motion om vissa ändringar i värnpliktslagen.
+        </note>
+        <note xml:id="i-MT9Jkkvd3TCmFzXg36qgZB">
+          § 8. Justerades protokollsutdrag. 8 9. Ledighet från riksdagsgöromålen
+          beviljades: herr Lindley under 38 dagar fr.o.m. den 7 febr., &gt;
+          Carlström &gt; 5 &gt; &gt; &gt; TT &gt; &gt; Nordkvist &gt; TT &gt; &gt; 7 &gt; &gt; Paulsen &gt;
+          ör » &gt; 8 &gt; &gt; Björck i Kristianstad &gt; 4 &gt; &gt; &gt; TT a &gt; Sandberg &gt;
+          7 &gt; &gt; &gt; Ta &gt; Svedberg &gt; 7 oo» &gt; &gt; 17 &gt; &gt;» Björling &gt; 10 &gt; &gt; &gt;
+          9 &gt; &gt; Thomson &gt; 8 &gt; » &gt;» 11 &gt; och &gt; Laurén &gt; 8 &gt; &gt; &gt; 7 &gt; § 10.
+        </note>
+        <note xml:id="i-DsQooHJ1s48X6i3UVeoZnJ" type="speaker">
+          Ordet lämnades härefter på begäran till herr Spångberg, som anförde:
+        </note>
+        <u who="i-S4jJECjfFmddUzRkooT6yP" xml:id="i-NH4RX6xKUcirbBqtUuX977" next="i-9e4dc97c8dfefc86-4">
+          <seg xml:id="i-HvYZXtLhFonMiLf3SNwgsi">
+            Då statsmakterna på grund av arbetslösheten efter världskrigets
+            utbrott började sin arbetslöshetspolitik med kontantunderstöd
+            och försök att skaffa arbete åt arbetslösa, torde detta ha skett
+            med tanke på att bringa hjälp åt arbetslöshetens offer. Samma
+            tanke torde ha legat till grund, då staten själv genom särskilda
+            organ började bedriva nödhjälpsarbete. Det är emellertid ett faktum
+            att statsmakterna genom nödhjälpsarbetena ej lyckats förverkliga
+            denna grundtanke.
+          </seg>
+          <seg xml:id="i-M7GpHCQeriBjYjSSDKoN5h">
+            Endast i den mån att sådana arbeten, som eljest ej blivit utförda,
+            hade igångsatts, skulle det ha varit möjligt att med nödhjälpsarbeten
+            nedbringa de arbetslösas antal och att därigenom lämna arbetslöshetens
+            offer någon hjälp. Blir tillvägagångssättet motsatt, d. v. s.
+            om arbeten, som skulle komma att utföras, även om detta ej skedde
+            i syfte att hjälpa arbetslösa, läggas såsom nödhjälpsarbete, har
+            givetvis ingen lättnad bringats de arbetslösa. TIgångsättes sådana
+            arbeten mot mindre lön och under sämre villkor än den öppna arbetsmarknadens,
+            blir resultatet icke hjälp åt de arbetslösa utan ett utnyttjande
+            av arbetslösheten i syfte att stjäla en del av den lön, som eljest
+            skulle tillfalla den arbetande. Genom en sådan verksamhet blir
+            arbetslöshetskommissionen
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-008.jp2/_view"/>
+        <note type="date" xml:id="i-D6kKJ6qWTugnmw9iE1B4hs">
+          Fredagen den 6 februari. 9 Nr 9.
+        </note>
+        <u who="i-S4jJECjfFmddUzRkooT6yP" xml:id="i-9e4dc97c8dfefc86-4" prev="i-NH4RX6xKUcirbBqtUuX977" next="i-TaTWrPRtQ5uGyS7og1rJH">
+          <seg xml:id="i-AVgPW21hJT9n1pB9vzMHAW">
+            även ett organ för arbetsköparnas lönenedpressningssträvanden.
+            Statens ar- Interpellation. betslöshetspolitik har alltmer erhållit
+            just denna karaktär. (Forts.)
+          </seg>
+          <seg xml:id="i-DUyzzb8qjYjEhXSyCMrRX5">
+            Ett arbete, som på detta sätt håller på att helt dragas in under
+            arbetslöshetskommissionen, är den s. k. kungsvägen i Värmland.
+            Det har väckt stort missnöje i alla läger och stark förbittring
+            hos arbetarklassen och på fackföreningshåll att så skett. Särskilt
+            gäller detta den planerade vägomläggningen inom Jösse härad. Att
+            detta arbete är nödvändigt förstås därav, att den nuvarande vägen
+            är under all kritik. Som exempel kan anföras, huru bilister hellre
+            resa milslånga omvägar än begagna sig av denna väg.
+          </seg>
+        </u>
+        <u xml:id="i-TaTWrPRtQ5uGyS7og1rJH" prev="i-9e4dc97c8dfefc86-4" who="i-S4jJECjfFmddUzRkooT6yP" next="i-9e4dc97c8dfefc86-5">
+          <seg xml:id="i-2s2L1MTUo1dayddHiJYhrr">
+            Förslag till ifrågavarande vägomläggning upprättades redan år
+            1923. Ett överklagande av beslutet gjordes hos Konungens befallningshavande,
+            som i utslag, meddelat den 3 mars 1926, ålade de väghållningsskyldiga
+            att verkställa arbetet i enlighet med förslaget. Konungens befallningshavandes
+            utslag överklagades hos Kungl. Maj:t, som år 1928 ogillade besvären.
+          </seg>
+        </u>
+        <u who="i-S4jJECjfFmddUzRkooT6yP" xml:id="i-9e4dc97c8dfefc86-5" prev="i-TaTWrPRtQ5uGyS7og1rJH">
+          <seg xml:id="i-9r1x4CAmoXMmYYe6Cx1Z4v">
+            Att vägstyrelsen nu överlämnar arbetet åt arbetslöshetskommissionen,
+            vilket tills vidare skett genom muntlig överenskommelse, beror
+            på det extra statsbidrag, som därigenom erhålles, d. v. s. vägstyrelsen
+            har sålt rätten till arbetet åt arbetslöshetskommissionen. Myndigheterna,
+            till vilka vägstyrelsen vänt sig med förfrågan om när statsbidrag
+            skulle kunna påräknas, lära, enligt uttalande av vägstyrelsens
+            ordförande, ha givit det beskedet, att detta ej vore att påräkna
+            inom närmaste framtiden »av det enkla skälet att inga pengar funnes
+            att tillgå».
+          </seg>
+          <seg xml:id="i-H7ETs6NhFqU4nPDUL6k1pL">
+            Det är ju under sådana förhållanden uppenbart, att en omläggning
+            av anslagen från riksdagens sida måste företagas. Ur statsfinansiell
+            synpunkt sett måste det ju gå lika lätt att anskaffa medel till
+            samma ändamål genom anslag på annat sätt än genom arbetslöshetskommissionen.
+          </seg>
+          <seg xml:id="i-RkGVzUdd8vfk4NAm4pstyK">
+            Tilltaget att söka överlämna den del av kungsvägen, som sträcker
+            sig genom Jösse härad, har, som anförts, väckt stark förbittring,
+            och arbetarna ha nu beslutat att sätta stopp för dess fullföljande.
+            Frågan har ingående behandlats av fackföreningar och arbetslöshetsföreningar
+            inom Jösse härad, vilka överläggningar nu lett till att detta
+            arbete under arbetslöshetskommissionens regi förklarats i blockad.
+          </seg>
+          <seg xml:id="i-SvMnMq8NaPiKXUyFLsU8Z3">
+            Av vad här anförts rörande omläggningen av kungsvägen inom Jösse
+            härad torde fullt tydligt framgå, att det är ett nödvändigt arbete,
+            som alldeles oavsett arbetslösheten måste utföras. Dess indragande
+            under arbetslöshetskommissionen och dess svältpolitik innebär
+            därför intet annat än ett ingrepp i syfte att hindra arbetarnas
+            rätt till avtalsenliga löner. I anslutning till vad här anförts
+            anhåller jag att till herr statsrådet och chefen för socialdepartementet
+            få framställa följande frågor:
+          </seg>
+          <seg xml:id="i-N8GmFhS71UKa4NZSwTpyfu">
+            1) Anser herr statsrådet, att det bör ingå i arbetslöshetekommissionens
+            uppgifter att söka lägga under sig arbeten av sådan natur, som
+            alldeles oavsett arbetslösheten måste utföras och vilkas övertagande
+            av arbetslöshetskommissionen sålunda realiter ej innebär någon
+            minskning av arbetslösheten?
+          </seg>
+          <seg xml:id="i-CdvE57jNDWFReMuBttYQ4w">
+            2) Om detta ej är förhållandet, är det i så fall att förvänta,
+            att herr statsrådet vidtager några åtgärder i syfte att tillmötesgå
+            kravet på, att arbetslös-
+          </seg>
+        </u>
+        <note xml:id="i-P6TBKLZf5umscpaYv3c3s3">
+          ge kel arms torn ej skall åtaga sig omläggningen av kungsvägen
+          genom Jösse rärad?
+        </note>
+        <note xml:id="i-PkJS7rg5ZEtJfQERsXeJ39">
+          Ifrågavarande anhållan bordlades.
+        </note>
+        <note xml:id="i-RdcURsRTWSgmokSyaPk2e7">
+          Kammarens ledamöter åtskildes härefter kl. 4.48 e. m.
+        </note>
+        <note xml:id="i-26DtVTWcSy6CfG6BbFP2w5">
+          In fidem Per Cronvall.
+        </note>
+        <note xml:id="i-DTTz8ShYZ9bmt5fBmP6DbG">
+          Andra kammarens protokoll 1931. Nr 9. 2
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-009.jp2/_view"/>
+        <note xml:id="i-Ly6FrNWhBdLYzV6Pf5Hd2o">
+          Nr 9.
+        </note>
+        <note type="date" xml:id="i-6kyQYj1Z83yMEP7Be6ESiA">
+          10 Lördagen den 7 februari.
+        </note>
+        <note type="date" xml:id="i-FifAecEbnS49cVvvipyjCx">
+          Lördagen den 7 februari. Kl. 3 e. m.
+        </note>
+        <note xml:id="i-ANPWrfYcTYBfoFkSRQoHXp">
+          §1.
+        </note>
+        <note type="speaker" xml:id="i-z2HJdWmyhVgMmKZEJuuT4">
+          Herr statsrådet Gärde avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-4TES866msnJwkFJdpPtBks">
+          ts propositioner:
+        </note>
+        <note xml:id="i-GntKNKmeCLXJc4cCodb4Kt">
+          nr 67, med förslag till lag om upplagshus och upplagsbevis; och
+        </note>
+        <note xml:id="i-ErZC2m3ZMSqEBPrgFddnW4">
+          nr 68, med förslag till lag om ändrad lydelse av 13 $ lagen den
+          12 maj 1897 (vr 27) för Sveriges riksbank.
+        </note>
+        <note xml:id="i-H26osPdqoL5NcDZV7GCmyB">
+          Dessa propositioner bordlades.
+        </note>
+        <note xml:id="i-9JB8d4XcuDBxxZAM1MkjAb">
+          &amp; 2. Upplästes en från Finlands riksdag ingången inbjudan till
+          Sveriges riksdag att genom sina representanter närvara vid invigningen
+          av Finlands nya riksdagshus i Helsingfors den 7 mars 1931 kl.
+          13.
+        </note>
+        <note type="speaker" xml:id="i-9m76APw3ubKb2kzHrz4RGN">
+          Ordet lämnades därpå till herr förste vice talmannen, som yttrade:
+        </note>
+        <u who="unknown" xml:id="i-6c6ba72ea750dccc-1" next="i-6JXx9mPD46a69v2JSQDw8F">
+          <seg xml:id="i-ELUbFS5LLWC9ufvjYaduLN">
+            Herr talman! Jag ber att få föreslå kammaren, att kammaren för
+            sin del ville besluta antaga den finska riksdagens nu föredragna
+            inbjudning samt, 1 överensstämmelse med den uppfattning, som kommit
+            till uttryck vid i dag hållen talmanskonferens, utse sin talman
+            att vid den instundande invigningsfesten i Helsingfors representera
+            kammaren.
+          </seg>
+        </u>
+        <note xml:id="i-K8VxzUevSpA4cukPDZ8KLv">
+          Denna hemställan bifölls.
+        </note>
+        <note xml:id="i-SAB9RyNrF6fyMnMhSgdgqR">
+          § 3.
+        </note>
+        <note xml:id="i-MEkcMvwGh9cckbd83VEgbX">
+          | Föredrogos var efter annan Kungl. Maj:ts å kammarens bord vilande
+          propositioner; och hänvisades därvid
+        </note>
+        <note xml:id="i-UEvgnoyVfGyPAbVxXeoaEf">
+          till statsutskottet propositionerna: nr 58, angående efterskänkande
+          i vissa fall av kronans rätt till danaarv; och nr 59, angående
+          avstående i vissa fall av allmänna arvsfondens rätt till arv;
+        </note>
+        <note xml:id="i-FDBRnd7QeqFmfXeyW4Skh3">
+          till jordbruksutskottet propositionerna:
+        </note>
+        <note xml:id="i-5nb88p7HsNYwFeZf5uhMQE">
+          nr 60, angående försäljning av vissa delar av tullverket tillhöriga
+          hemmanet Funäsdalen nr 31 i Tännäs socken av Jämtlands län; och
+        </note>
+        <note xml:id="i-KUCSLuk6BFziZX2wsUjcSo">
+          nr 61, angående försäljning av allmänna arvsfonden tillfallna
+          fastigheten nr 3 och 4 kvarteret Vildmannen med adressnummer 18
+          vid Norrlandsgatan i Stockholm; samt
+        </note>
+        <note xml:id="i-DGvgfH2FmAdwydj8qPtoJt">
+          till statsutskottet propositionen nr 66, angående förändring
+          i avseende å löne-
+        </note>
+        <note xml:id="i-JwCyHMVYGy7bwkrsRbPA4i">
+          ställning och antal m. m. beträffande vissa ordinarie befattningar
+          vid postverket, telegrafverket, statens järnvägar och statens
+          vattenfallsverk.
+        </note>
+        <note xml:id="i-YPfYZ68jBaj5XdSPDF3WZu">
+          §4.
+        </note>
+        <note xml:id="i-6EvKRmzqfFouVXCbSpVZsw">
+          Vidare föredrogos var för sig de på kammarens bord liggande motionerna;
+          och remitterades därvid
+        </note>
+        <note xml:id="i-Foge4HY9caSbGrtfdmkMf5">
+          till jordbruksutskottet motionen nr 337 av herr Sköld m. fl.;
+          och
+        </note>
+        <note xml:id="i-BzwRxMRxoiJe3DHZ3fgvsd">
+          till behandling av lagutskott motionen nr 338 av herr Öhman m.
+          fl.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-010.jp2/_view"/>
+        <note type="date" xml:id="i-B8ve2PQCq7UTkR81GjKjnM">
+          Lördagen den 7 februari. 11
+        </note>
+        <note xml:id="i-BmshEzUNp5jxmQzv8pr8Z9">
+          § 5.
+        </note>
+        <u xml:id="i-6JXx9mPD46a69v2JSQDw8F" who="unknown" prev="i-6c6ba72ea750dccc-1">
+          <seg xml:id="i-YBsidUP4FiqjgUGf9JF5Fw">
+            Vid härpå skedd föredragning av herr Spångbergs vid kammarens
+            nästföregående sammanträde gjorda, men då bordlagda anhållan att
+            till herr statsrådet och chefen för socialdepartementet få framställa
+            spörsmål angående arhetslöshetskommissionens uppgifter blev berörda
+            anhållan av kammaren bifallen.
+          </seg>
+        </u>
+        <note xml:id="i-JN8XjPSNTVh7Pvs2yDnEsW">
+          § 6.
+        </note>
+        <note xml:id="i-QnZuHVbKaRbM8Ybh7VZbwm">
+          Föredrogos, men bordlades åter konstitutionsutskottets utlåtande
+          nr 2 samt andra lagutskottets utlåtanden nr 1 och 2.
+        </note>
+        <note xml:id="i-MEE9Qv2Qsbhn11m6Scp7tc">
+          § 7. Härefter föredrogos vart efter annat:
+        </note>
+        <note xml:id="i-VnHU1DPW4hjfh7zeUXM2fm">
+          bevillningsutskottets betänkanden:
+        </note>
+        <note xml:id="i-Ddo2qXjRAYo1ah3vDk693E">
+          nr 1, i anledning av Kungl. Maj:ts proposition med förslag till
+          förordning angående fortsatt tillämpning av förordningen den 17
+          maj 1923 (nr 113) om utgörande av en särskild stämpelavgift i
+          vissa fall vid köp, byte eller införsel till riket av pärlor med
+          flera lyxvaror; och
+        </note>
+        <note xml:id="i-6ZKwefqpDdNcsVk5wzMrEW">
+          nr 2, i anledning av Kungl. Maj:ts proposition med förslag till
+          förordning om fortsatt tillämpning av förordningen den 27 april
+          1923 angående rätt för Konungen att i visst fall åsätta särskild
+          tullavgift;
+        </note>
+        <note xml:id="i-27A88iJFCyTn3bYc4jbcuY">
+          första lagutskottets utlåtande, nr 3, i anledning av Kungl. Maj:ts
+          proposition med förslag till lag om ändrad lydelse av 76 och 77
+          $$ lagen den 23 oktober 1914 om krigsdomstolar och rättegången
+          därstädes; samt
+        </note>
+        <note xml:id="i-QEzAqfDf1k5x6TCAvC9YdZ">
+          Jordbruksutskottets utlåtanden:
+        </note>
+        <note xml:id="i-4HxnsuBrxqDuknokmyCwp3">
+          nr 4, i anledning av Kungl. Maj:ts proposition angående inredande
+          av vissa lägenheter m. m. i veterinärhögskolans lokaler;
+        </note>
+        <note xml:id="i-KnzcpzjYUqADia6Yyqnof4">
+          nr 5, i anledning av Kungl. Maj:ts proposition angående statsbidrag
+          till upprensning av avloppskanalerna till Mästermyr i Gotlands
+          län;
+        </note>
+        <note xml:id="i-Xi82XJzyntibK9zmHZdwMg">
+          nr 6, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av ön Kalven eller kronolägenheten Kalven nr 1 i Öckerö socken
+          av Göteborgs och Bohus län; i
+        </note>
+        <note xml:id="i-JYJM2Mw93Uk6PvfRyRDyQZ">
+          nr 7, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av vissa kronoegendomar och upplåtande av lägenheter från sådana
+          egendomar;
+        </note>
+        <note xml:id="i-HPqFHrrvFtZzhU7YBRzPv2">
+          nr 8, i anledning av Kungl. Maj:ts proposition angående medgivande
+          för Kungl. Maj:t att i vissa fall försälja kronoegendom m. m.;
+          och
+        </note>
+        <note xml:id="i-GVrDZg2Ega5vTTZDdXvkC6">
+          nr 9, i anledning av Kungl. Maj:ts proposition med förslag till
+          lag angående ändrad lydelse av 2 $ lagen den 14 juni 1928 (nr
+          196) om galtbesiktningstvång.
+        </note>
+        <note xml:id="i-F2oKPfwEt9u3unpsw2DsgM">
+          sj nmaren biföll vad utskottet i nämnda betänkanden och utlåtanden
+          hemställt.
+        </note>
+        <note xml:id="i-99tQPZSr4CTPYoo7GHVoQS">
+          § 8.
+        </note>
+        <note xml:id="i-KZaNTnsQEAray6smRrt3Cv">
+          Avgåvos följande motioner, nämligen av:
+        </note>
+        <note xml:id="i-MA4ECcRHAZttvcs2N9fGV1">
+          herr Månsson i Erlandsro m. fl., nr 339, i anledning av Kungl.
+          Maj:ts pro-
+        </note>
+        <note xml:id="i-DvTzaCT4AshHdXjpjXbPgc">
+          faan nr 42, angående åtgärder för den inhemska sockerbetsodlingens
+          uppeållande;
+        </note>
+        <note xml:id="i-QKr4jbpAtNaxdVNa4mM3Ud">
+          herr Olsson i Kullenbergstorp m. fl., nr 340, likaledes i anledning
+          av Kungl. Maj:ts proposition, nr 42; och
+        </note>
+        <note xml:id="i-5RxHJ1jddZBVFWML8uvoJF">
+          nr 341, i anledning av samma proposition; samt
+        </note>
+        <note xml:id="i-4Y7rS8e6Z8242Hhneo2P8u">
+          herr Ericsson i Sörsjön m. fl., nr 342, i anledning av Kungl.
+          Maj:ts Proposition, nr 41, med förslag till lag om ändring i vissa
+          delar av lagen den 25 april
+        </note>
+        <note xml:id="i-HYZHvXmzj1DseV6c8RFxFD">
+          Nr 9,
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1931--ak--9/prot_1931__ak__9-011.jp2/_view"/>
+        <note xml:id="i-G34SEmYaaofiY5izZhzDtG">
+          Nr 9.
+        </note>
+        <note type="date" xml:id="i-UBPT5xQGiZPP5XJS9p3RBZ">
+          12 Lördagen den 7 februari.
+        </note>
+        <note xml:id="i-6tSL2gCtTYVaheeGHFenpf">
+          1919 (nr 222) angående beredande i vissa fall vid skogsavverkning
+          och kolning av härbärge åt arbetarna m. m.
+        </note>
+        <note xml:id="i-Ax3TkrWh1356yBC2aw5ci6">
+          Dessa motioner bordlades.
+        </note>
+        <note xml:id="i-QaMCatAevw4sVrLHqYZzKG">
+          § 9. Till bordläggning anmäldes:
+        </note>
+        <note xml:id="i-ABwC8v6yDEaJHGgQF2cRkt">
+          statsutskottets utlåtanden:
+        </note>
+        <note xml:id="i-UA21w4mw699NxYErXbck82">
+          nr 3, angående regleringen för budgetåret 1931/1932 av utgifterna
+          under riksstatens tredje huvudtitel, innefattande anslagen till
+          utrikesdepartementet;
+        </note>
+        <note xml:id="i-QSpBEJHXVDzzpK5vJcGR3j">
+          nr 9, angående regleringen för budgetåret 1931/1932 av utgifter
+          för kapitalökning i avseende å postoch telegrafverken, statens
+          järnvägar och statens vattenfallsverk ;
+        </note>
+        <note xml:id="i-kwDwSQq1RZtW8EmcRptuX">
+          nr 18, i anledning av vissa utav Kungl. Maj:t i statsverkspropositionen
+          under fjärde huvudtiteln gjorda framställningar m. m.; och
+        </note>
+        <note xml:id="i-W9xmhKBncRNSSviu7KiNqX">
+          nr 19, i anledning av Kungl. Maj:ts proposition angående nedsättning
+          av räntan å vissa lån ur lånefonden för tjänstemannasamhället
+          vid Mörby; samt
+        </note>
+        <note xml:id="i-5PEA8mspXZuaDeouGtzYQq">
+          andra lagutskottets utlåtanden:
+        </note>
+        <note xml:id="i-WaVwdqDNewr1od2MJmD1zQ">
+          nr 3, i anledning av dels Kungl. Maj:ts proposition med förslag
+          till lag om ändrad lydelse av 20 kap. 3 8 lagen den 18 juni 1926
+          om delning av jord å landet, dels ock i ämnet väckt motion;
+        </note>
+        <note xml:id="i-K9Fg37bEpGPcj2uMrzgxoa">
+          nr 4, i anledning av väckt motion om utredning och förslag rörande
+          viss ändring i expropriationslagen; och
+        </note>
+        <note xml:id="i-6yVtMqFbUXuDHXURuyTQit">
+          nr 5, i anledning av väckt motion om förenklat förfarande för
+          erhållande av rätt att framdraga elektrisk starkströmsledning.
+        </note>
+        <note xml:id="i-ByxHJ3eDWbwq84ragpkxio">
+          § 10. Justerades protokollsutdrag. § 11. Tedighet från riksdagsgöromålen
+          beviljades: herr Näslund under 10 dagar fr.o.m. den 7 febr. &gt;
+          Eriksson i Stockholm » 6 &gt; &gt; &gt; 6 &gt; &gt; Wiklund i Brattfors » 9 &gt;
+          &gt; &gt; 9 &gt; &gt; Karlsson i Munkedal &gt; 6 &gt; » &gt; 10 &gt; &gt; Svensson i Betingetorp
+          &gt; 6 &gt; &gt; &gt; 9 &gt; &gt; Hällgren &gt; 8 &gt; &gt; » 9-3 &gt; RBudén &gt; 6 » &gt; &gt; 9 &gt;
+          &gt; Johansson i Krogstorp &gt;» 8 &gt; &gt; &gt; 9 &gt; &gt; Werner vå 3 » » &gt;» 9
+          &gt; &gt; Strindlund &gt; 6 &gt; » &gt; 9 &gt; &gt;» Nilsson i Hörby &gt; 38 &gt; &gt; &gt; 9 &gt;
+          » Höglund i Göteborg &gt; 5 oo» &gt; &gt;» 10 &gt; &gt; Ohman &gt; 6 &gt; » » 13 &gt;
+          &gt; Törnkvist i Bjuv &gt; 3 &gt; &gt; &gt; 10 &gt; &gt;» Jonsson i Eskilstuna &gt; 3
+          &gt;» &gt; &gt; 9 2» och &gt; Jansson i Falun » 6 » &gt; &gt;» 11 &gt; Kammarens ledamöter
+          åtskildes härefter kl. 3.15 e. m. "In fidem Per Cromvall.
+        </note>
+        <note xml:id="i-DRTj9qppHVg9pQB6zgZmRw">
+          Stockholm 1931. Kungl. Boktryckeriet, P. A. Norstedt &amp; Söner.
+          310533
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1940</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1940</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,634 +25,607 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1940-urtima-fk--4</head>
-          <docDate when="1940-08-21">1940-08-21</docDate>
-          <docDate when="1940-08-24">1940-08-24</docDate>
-          <docDate when="1940-08-26">1940-08-26</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1940-urtima-fk--4/prot_1940_urtima_fk__4-000.jp2/_view"/>
-          <note xml:id="i-2Yu87SvmddZ21BCuAMgh3g">
-            RIKSDAGENS PROTOKOLL.
-          </note>
-          <note xml:id="i-R31Mv1n9X6bNeFwSdiKUqY">
-            1940. Första kammaren. Nr 4.
-          </note>
-          <note type="date" xml:id="i-WQ3F7HtFMUA3BfZV3p7Vwc">
-            Onsdagen den 21 augusti.
-          </note>
-          <note xml:id="i-Qtk5MoQJ6C1bMVQu6ctyEz">
-            Kammaren sammanträdde kl. 11 f. m.
-          </note>
-          <note xml:id="i-WhuxHmDMMc5J5Z2HJf5wR3">
-            Upplästes två från andra kammaren ankomna protokollsutdrag, nr
-            32 och 33, utvisande att nämnda kammare förenat sig med första
-            kammaren i dess beslut att tredje särskilda utskottet skulle behandla
-            Kungl. Maj:ts proposition nr 16, med förslag till förordning om
-            värnpliktslån, m. m. samt att andra särskilda utskottet skulle
-            behandla Kungl. Maj:ts proposition nr 17, angående anvisande å
-            tilläggsstat I till riksstaten för budgetåret 1940/41 av anslagsmedel
-            för vissa byggnadsarbeten m. m. vid försvarsväsendet, m. m.
-          </note>
-          <note xml:id="i-7WwMbYXRecCMZdGwFzrvuQ">
-            Vid sedermera skedd föredragning av berörda kungl. propositioner
-            hänvisades desamma, nr 16 till tredje särskilda utskottet och
-            nr 17 till andra särskilda utskottet.
-          </note>
-          <note xml:id="i-HMPXah2FN3Z3QpveqiT9hn">
-            Föredrogos ånyo första särskilda utskottets utlåtanden:
-          </note>
-          <note xml:id="i-7HgvBH9dAyP4FtYKhnwE2v">
-            nr 2, i anledning av Kungl. Maj:ts proposition med förslag till
-            förordning om rätt att använda försvarsobligation såsom betalningsmedel
-            vid erläggande av arvsskatt, m. m.; och
-          </note>
-          <note xml:id="i-DbVD7kg51m7HwVDHDvV535">
-            nr 3, 1 anledning av Kungl. Maj:ts proposition med förslag till
-            förordning om viss skattefrihet beträffande svenska statens sparobligationer.
-          </note>
-          <note xml:id="i-UkwSeHWcgkPRodiSFR4ZGS">
-            Vad utskottet i dessa utlåtanden hemställt bifölls.
-          </note>
-          <note xml:id="i-XZXhsy796xWDKoavAXJiN2">
-            Föredrogos ånyo andra särskilda utskottets utlåtanden:
-          </note>
-          <note xml:id="i-VqqJBSYfoPhBdWqXtpKCJD">
-            nr 1, angående fortsatt giltighet av gällande förskottsstat för
-            försvarsväsendet m. m.; och
-          </note>
-          <note xml:id="i-XSGmnbDwhMgkgFEedBw4c">
-            nr 2, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tilläggsstat I för budgetåret 1940/41, i vad propositionen avser
-            vissa anslag till hovoch slottsstaterna.
-          </note>
-          <note xml:id="i-SG7HXAc76Gxmx3RJEtRMRP">
-            Vad utskottet i dessa utlåtanden hemställt bifölls.
-          </note>
-          <note xml:id="i-6yPVQdx1SYdaQyfQxieiG9">
-            Föredrogs ånyo andra särskilda utskottets utlåtande nr 3, i anledning
-            av Kungl. Maj:ts förslag angående anslag till vissa befästningsanläggningar.
-          </note>
-          <note xml:id="i-PZaYpJ6D8UbSebMcND2e85">
-            Med tillstyrkande av Kungl. Maj:ts i proposition nr 1 under fjärde
-            huvudtiteln därom gjorda framställning hade utskottet i förevarande
-            utlåtande hemställt, att riksdagen måtte till Vissa befästningsanläggningar
-            å tilläggsstat I för budgetåret 1940/41 under fjärde huvudtiteln
-            anvisa ett reservationsanslag av 41,000,000 kronor.
-          </note>
-          <note type="speaker" xml:id="i-6mu9fAq563CwQYJe2RWj7Q">
-            Herr Lindhagen:
-          </note>
-          <u who="Q55955" xml:id="i-3e1d72b187c87a41-0" next="i-3e1d72b187c87a41-2">
-            <seg xml:id="i-23pQ1ZcfXpcx5JcLUA8V6U">
-              Herr talman! Jag har väckt en motion, som just berör främst denna
-              sak. Yrkandet går nämligen ut på måtta även i upprustningen nu
-              omsider och särskilt de ytterligare fästningsbyggnaderna. Den
-              motionen
-            </seg>
-          </u>
-          <note xml:id="i-KqwL5yx9HpLZ1ckT48pePA">
-            Första kammarens protokoll vid urtima riksdagen 1940. Nr 4. 1
-          </note>
-          <note xml:id="i-UGPkr7UAdSkRoptRYwJSRg">
-            Anslag till vissa befästningsanlägg-
-          </note>
-          <note xml:id="i-7s4WCTKpB3LigKMLavwasw">
-            ningar.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1940-urtima-fk--4/prot_1940_urtima_fk__4-001.jp2/_view"/>
-          <note xml:id="i-MKBhfP9vUZqSbJVV8zr8S7">
-            Ang. besikt-
-          </note>
-          <note xml:id="i-AJH6ptmZz3YyMJki3Egi4g">
-            ningstvång
-          </note>
-          <note xml:id="i-9reHAEBXwgLZ8LiLA3uvyX">
-            för älgkött m. m.
-          </note>
-          <note type="date" xml:id="i-Vy2edcTgo9pfkERWvR4vKZ">
-            2 Nr 4. Onsdagen den 21 augusti 1940.
-          </note>
-          <u who="Q55955" xml:id="i-3e1d72b187c87a41-2" prev="i-3e1d72b187c87a41-0">
-            <seg xml:id="i-AZFLAmx6SNs5oFShYv1ifB">
-              Anslag till vissa befästningsanläggningar. (Forts.) finns inte
-              ens omnämnd i betänkandet, och jag förstår, att då den kanske
-              förtäckt röjer någon sympati för fredens idé, får den inte komma
-              fram.
-            </seg>
-            <seg xml:id="i-3dxQGmKWUHVX4MDMD5akyM">
-              Jag har emellertid inte något yrkande om fyllande av detta tomrum
-              i utskottsbetänkandet. Motionsrätten är även på detta sätt åsidosatt.
-              Talmannen borde vägra att ställa proposition på ett sådant olagligt
-              yttrande.
-            </seg>
-          </u>
-          <note xml:id="i-EAJhzPQsh8PefdUVeQjyww">
-            Efter härmed slutad överläggning bifölls vad utskottet i det
-            nu föredragna utlåtandet hemställt.
-          </note>
-          <note xml:id="i-Eobdikq4W5k1NzetC22EX">
-            Föredrogos ånyo andra särskilda utskottets utlåtanden:
-          </note>
-          <note xml:id="i-HpaQXvZkD8ceJVtWQbM3x1">
-            nr 4, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tilläggsstat I för budgetåret 1940/41, i vad propositionen avser
-            sjätte huvudtiteln;
-          </note>
-          <note xml:id="i-9cVj1vGvPGdjvHbhk5LwyE">
-            nr 5, 1 anledning av Kungl. Maj:ts proposition angående utgifter
-            å tilläggsstat I för budgetåret 1940/41, i vad propositionen avser
-            sjunde huvudtiteln;
-          </note>
-          <note xml:id="i-AHjTCLXfXHA6iwNvUtH4Ek">
-            nr 6, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tilläggsstat I för budgetåret 1940/41, i vad propositionen avser
-            kapitalinvesteringar i statens affärsverksfonder m. m.;
-          </note>
-          <note xml:id="i-HrwJcUrBA7WHKDASb77KEL">
-            nr 7, i anledning av Kungl. Maj:ts proposition angående förvärv
-            av vattenrätt i Ume älv m. m.; samt
-          </note>
-          <note xml:id="i-KLm5tE3wehjpJe4qXXh1Zc">
-            nr 8, 1 anledning av Kungl. Maj:ts proposition angående anordnande
-            av skyddsrum vid vissa skyddshem.
-          </note>
-          <note xml:id="i-RchFCKjsRSYCCt51s4Qte5">
-            Vad utskottet i dessa utlåtanden hemställt bifölls.
-          </note>
-          <note xml:id="i-4dFGQTc8EUWibwnCuducCX">
-            -
-          </note>
-          <note xml:id="i-SsoCr6R9Npc3s1hTPajS2q">
-            Föredrogs ånyo tredje särskilda utskottets utlåtande nr 1, i
-            anledning av Kungl. Maj:ts proposition med förslag till förordning
-            om viss tillämpning i fråga om älgkött av lagen den 11 maj 1934
-            (nr 140) angående köttbesiktning och slakthus, m. m.
-          </note>
-          <note xml:id="i-8ELap4zFph5THvog74iCh9">
-            Genom en den 1 augusti 1940 dagtecknad, till tredje särskilda
-            utskottet hänvisad proposition, nr 13, hade Kungl. Maj:t dels
-            föreslagit riksdagen att antaga ett vid propositionen fogat förslag
-            till förordning om viss tillämpning i fråga om älgkött av lagen
-            den 11 maj 1934 (nr 140) angående köttbesiktning och slakthus,
-            dels ock beslutat inhämta riksdagens yttrande över ett likaledes
-            vid propositionen fogat förslag till kungörelse om tillämpning
-            i fråga om älgkött av förordningen den 11 maj 1934 (nr 141) angående
-            förbud mot viss stämpling eller märkning av kött och köttvara.
-          </note>
-          <note xml:id="i-KFEXdcTvsG4Tm4PYaAiGxB">
-            Utskottet hade i det nu ifrågavarande utlåtandet på anförda skäl
-            hemställt,
-          </note>
-          <note xml:id="i-D23h3fTmgyKxvZsSVcaq8Z">
-            A) att det i förevarande proposition framlagda förslaget till
-            förordning om viss tillämpning i fråga om älgkött av lagen den
-            11 maj 1934 (nr 140) angående köttbesiktning och slakthus måtte
-            av riksdagen antagas; samt
-          </note>
-          <note xml:id="i-4nHPP4NiQyST1osHFXrFyK">
-            B) att riksdagen måtte i skrivelse till Kungl. Maj:t meddela,
-            att riksdagen icke funnit anledning till erinran mot det genom
-            propositionen framlagda förslaget till kungörelse om tillämpning
-            i fråga om älgkött av förordningen den 11 maj 1934 (nr 141) angående
-            förbud mot viss stämpling eller märkning av kött och köttvara.
-          </note>
-          <note type="speaker" xml:id="i-Wc2iVgzTezukB6b6ptB6wm">
-            Herr Tamm:
-          </note>
-          <u who="Q6203654" xml:id="i-8dfc47a3426a0577-0" next="i-8dfc47a3426a0577-1">
-            <seg xml:id="i-J857Qi7BS5yjvmW1TSRvWe">
-              Herr talman! För några år sedan gjorde Svenska jägareförbundet
-              en hemställan om införande av obligatorisk köttkontroll i fråga
-              om älgkött. Denna hemställan har föranlett Kungl. Maj:t att framlägga
-              det förslag, som nu behandlas, ett förslag som också vunnit vederbörande
-              utskotts enhälliga tillstyrkan.
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1940-urtima-fk--4/prot_1940_urtima_fk__4-002.jp2/_view"/>
-          <note type="date" xml:id="i-2iRa32PjGuwAD1sUw8461U">
-            Onsdagen den 21 augusti 1940. Nr 4. 3
-          </note>
-          <note xml:id="i-WKXK2AVJorDVqLiR7RAqKC">
-            Ang. besiktningstvång för älgkött m. m. (Forts.)
-          </note>
-          <u who="Q6203654" xml:id="i-8dfc47a3426a0577-1" prev="i-8dfc47a3426a0577-0">
-            <seg xml:id="i-PtLtjSK5vKsN3TKc9o16mz">
-              Meningen är alltså, att älgköttet skall besiktigas efter samma
-              regler och bestämmelser som annat kött. För närvarande är dylik
-              besiktning obligatorisk i praktiskt taget alla samhällen med ett
-              invånarantal av 4,000 eller däröver. I mindre samhällen och i
-              övriga kommuner i landet kan köttbesiktningstvång stadgas av länsstyrelsen
-              efter framställning av de kommunala myndigheterna. T allt större
-              utsträckning tycks intresset för dylik frivillig anslutning till
-              köttbesiktningstvånget också göra sig gällande, men i regel önska
-              givetvis inte smärre samhällen och kommuner anordna egna köttbesiktningsplatser
-              — det blir för dyrt — utan ansluta sig till centrala upptagningsplatser
-              inom större områden. Detta möter naturligtvis inte heller några
-              praktiska olägenheter, ty i regel går det väl så till, att slaktdjuren
-              hämtas av slakteriföreningen och genom dess förmedling forslas
-              till slakthus, respektive besiktningsplatser.
-            </seg>
-            <seg xml:id="i-WW1okvWq7H4zyz1uJ9aGbC">
-              Vad älgarna beträffar, blir däremot förhållandet ett annat. Visserligen
-              säljas ju en del kroppar i allmänna marknaden som annat kött,
-              men på många ställen önskar man utförsälja köttet, t. ex. vid
-              ett större bruk, till lågt pris till befolkningen på platsen.
-              Samma kan vara förhållandet inom hemmansägaresammanslutningar,
-              som ju bli allt vanligare med den nuvarande jaktlagstiftningen.
-              Det förefaller ganska orimligt att i dylika fall framtvinga ett
-              forslande av älgköttet fram och tillbaka, säkerligen ofta miltals,
-              för att få det besiktigat.
-            </seg>
-            <seg xml:id="i-MYFf241Zu1sRK9Eo6bqQzH">
-              Det enda naturliga och praktiska tillvägagångssättet i detta
-              fall vore givetvis, att medicinalstyrelsen speciellt beträffande
-              älgköttet, eventuellt efter framställning av de kommunala myndigheterna,
-              bemyndigade länseller distriktsveterinären att verkställa besiktning
-              direkt ute i bygderna åtminstone i de fall, där det kan bli tal
-              om något större antal älgar. Att ett sådant förfarande skulle
-              kunna förorsaka några större olägenheter, synes väl knappast tänkbart.
-              Stel formalism hava vi mer än nog av här i landet, och det kan
-              icke skada, om vi söka få till stånd något litet mera smidighet
-              ibland i den praktiska tillämpningen av lagar och författningar.
-            </seg>
-            <seg xml:id="i-EhmECypbHkQaoQAwsV7xR2">
-              Om alltså medicinalstyrelsen nu icke kan påvisa några verkligt
-              tyngande praktiska olägenheter i detta förslag, vågar jag uttala
-              en förhoppning om att chefen för jordbruksdepartementet ville
-              åtminstone taga frågan under övervägande och på administrativ
-              väg söka ordna upp detta lilla problem. Tyvärr var tiden så knapp,
-              att detta ärende måste hastigt behandlas inom utskottet med hänsyn
-              till att älgjakten ju snart börjar. Eljest anser jag mig ha en
-              viss berättigad förhoppning på att utskottet i dess helhet skulle
-              hava ställt sig bakom en dylik hemställan.
-            </seg>
-            <seg xml:id="i-TLiFzu9ss5m3wiCS7ojNyQ">
-              Jag har, herr talman, icke något yrkande att framställa.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-Rz1SUYpQGseLGaBSkinaLX">
-            Herr Gärde:
-          </note>
-          <u who="Q5779975" xml:id="i-8f39c7a4ba39fdd4-0" next="i-C89FPHUph7dVJzjWHHMRVJ">
-            <seg xml:id="i-BfpoRvNdEx2tWcAGaqc4Ut">
-              Herr talman! Såsom framgick av herr Tamms yttrande har inom utskottet
-              icke förelegat någon som helst meningsskiljaktighet i fråga om
-              huruvida besiktningstvång, när det gäller älgkött, borde införas
-              eller ej. Den av herr Tamm berörda frågan faller helt och hållet
-              inom det administrativa området. Det är Kungl. Maj:t, som i tillämpningsföreskrifterna
-              till lagen har att utfärda bestämmelser för köttbesiktningsbyråer,
-              deras antal och verksamhetsformer. Inom utskottet uttalades, såsom
-              herr Tamm också erinrade om, på den punkten icke något som helst
-              önskemål, och utskottet har alltså icke på något sätt tagit ståndpunkt
-              till den av herr Tamm här framförda frågan. Huruvida skäl föreligga
-              för att skapa vissa lättnader på detta område särskilt beträffande
-              älgkött, är en fråga, som det givetvis ankommer på jordbruksministern
-              att i första hand pröva. Jag vill emellertid påpeka, att tiden
-              till dess besiktningstvånget skall tillämpas, med hänsyn till
-              den snart stun-
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1940-urtima-fk--4/prot_1940_urtima_fk__4-003.jp2/_view"/>
-          <note type="date" xml:id="i-6hTCVvaaFwg5DA3vpwjNTX">
-            4 Nr 4. Lördagen den 24 augusti 1940.
-          </note>
-          <u xml:id="i-C89FPHUph7dVJzjWHHMRVJ" prev="i-8f39c7a4ba39fdd4-0" who="Q5779975" next="i-YMPLivNfdVhKZDG5YNbym5">
-            <seg xml:id="i-DsrJK5iB4Ai61frNWBTD4">
-              Ang. besiktningstvång för älgkött m. m. (Forts.) dande jaktsäsongen
-              är mycket knapp. Det förefaller mig därför ganska ovisst, om innan
-              dess särskilda anordningar kunna härom vidtagas.
-            </seg>
-          </u>
-          <u xml:id="i-YMPLivNfdVhKZDG5YNbym5" prev="i-C89FPHUph7dVJzjWHHMRVJ" who="Q5779975">
-            <seg xml:id="i-ML795bYq1XZ64XyaKVM9vs">
-              Jag ber, herr talman, att få yrka bifall till utskottets hemställan.
-            </seg>
-          </u>
-          <note xml:id="i-UKn17NK8VqR6x4fPxdnUio">
-            Sedan överläggningen ansetts härmed slutad, bifölls vad utskottet
-            i det under behandling varande utlåtandet hemställt.
-          </note>
-          <note xml:id="i-KwvE7dhMp9oQgBvnMy73hn">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 11.20 f. m.
-          </note>
-          <note xml:id="i-WYZrMzphQHCtEs4vhkVabY">
-            In fidem G. H. Berggren.
-          </note>
-          <note type="date" xml:id="i-R7odMbTKmhFTeij1eUAtWu">
-            Lördagen den 24 augusti.
-          </note>
-          <note xml:id="i-HG2AkFntsurzeHRoumMrd1">
-            Kammaren sammanträdde kl. 4 e. m.; och dess förhandlingar leddes
-            av herr andre vice talmannen.
-          </note>
-          <note type="speaker" xml:id="i-GtSEexqXqMDGkiYdxyJTQ6">
-            Herr statsrådet Quensel avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-CQBBqEGQufHxATzCWqmscD">
-            ts proposition nr 18, angående ytterligare statsbidrag för utredning
-            rörande reglering av Övre och Nedre Olandsån i Uppsala och Stockholms
-            län.
-          </note>
-          <note xml:id="i-Xh4WCidZMqxr7pMfHobD2K" type="speaker">
-            Herr Ström, Fredrik, erhöll på begäran ordet och anförde:
-          </note>
-          <u who="Q1253889" xml:id="i-X2thTWBD6fUeKcaQfLiEis" next="i-5RrWL5YSmRJL6JT6gfu3T9">
-            <seg xml:id="i-LNtzRRjtvjHYrY4uLYKVhc">
-              Jag får hemställa, herr talman, att kammaren för sin del måtte
-              besluta, att andra särskilda utskottet skall behandla Kungl. Maj:ts
-              nu avlämnade proposition nr 18, angående ytterligare statsbidrag
-              för utredning rörande reglering av Övre och Nedre Olandsån i Uppsala
-              och Stockholms län, ävensom de ytterligare framställningar, som
-              kunna komma att av Kungl. Maj:t eller i enskilda motioner göras
-              i detta ämne eller andra i oskiljaktigt sammanhang därmed stående
-              frågor.
-            </seg>
-          </u>
-          <u xml:id="i-5RrWL5YSmRJL6JT6gfu3T9" prev="i-X2thTWBD6fUeKcaQfLiEis" who="Q1253889">
-            <seg xml:id="i-RwTe5a8TZGJotK3cvzTR9m">
-              Tillika hemställer jag, att andra kammaren måtte inbjudas att
-              i detta beslut förena sig med första kammaren.
-            </seg>
-          </u>
-          <note xml:id="i-5M4wihjSnK16w1XXy5oHwA">
-            Härtill lämnade kammaren sitt bifall. Ett protokollsutdrag i
-            ämnet justerades och avsändes till andra kammaren.
-          </note>
-          <note xml:id="i-5xnE38xtzk7kHTuVGtZFfN">
-            Justerades protokollen för den 16, 17 och 20 innevarande månad.
-          </note>
-          <note xml:id="i-PQhXWAcdKPvrahyZy8SHzK">
-            Anmäldes och godkändes första särskilda utskottets förslag till
-            riksdagens skrivelser till Konungen:
-          </note>
-          <note xml:id="i-MFdYFf1UWTSNG76VkA4bxS">
-            nr 3, i anledning av Kungl. Maj:ts proposition med förslag till
-            förordning om rätt att använda försvarsobligation såsom betalningsmedel
-            vid erläggande av arvsskatt, m. m.; och
-          </note>
-          <note xml:id="i-WEPddxMkyjj7XcKArsPndX">
-            nr 4, i anledning av Kungl. Maj:ts proposition med förslag till
-            förordning om viss skattefrihet beträffande svenska statens sparobligationer.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1940-urtima-fk--4/prot_1940_urtima_fk__4-004.jp2/_view"/>
-          <note type="date" xml:id="i-NDdMWwLJyyRU2y3bX6yNNx">
-            Lördagen den 24 augusti 1940. Nr 4. 5
-          </note>
-          <note xml:id="i-41w8k4sK2KDFdARL3ubUdC">
-            Anmäldes och godkändes tredje särskilda utskottets förslag till
-            riksdagens skrivelse, nr 5, till Konungen i anledning av Kungl.
-            Maj:ts proposition med förslag till förordning om viss tillämpning
-            i fråga om älgkött av lagen den 11 maj 1934 (nr 140) angående
-            köttbesiktning och slakthus, m. m.
-          </note>
-          <note xml:id="i-4F2Tb2Fykf2RdKSVdUFtF8">
-            Föredrogs och bordlades på begäran Kungl. Maj:ts denna dag avlämnade
-            proposition nr 18.
-          </note>
-          <note xml:id="i-2oxYSnwz2UzNJP4h9dCq8V">
-            Anmäldes och bordlades
-          </note>
-          <note xml:id="i-SFnNa7dtqfGGX4N115GsXN">
-            andra särskilda utskottets utlåtanden och memorial:
-          </note>
-          <note xml:id="i-9RpLEHupLtA3ZS374Fv8FD">
-            nr 9, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tilläggsstat I för budgetåret 1940/41, i vad propositionen avser
-            åttonde huvudtiteln;
-          </note>
-          <note xml:id="i-6u41dXvBZvHa251MTF1VXP">
-            nr 10, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat I för budgetåret 1940/41, i vad propositionen
-            avser vissa anslag under nionde huvudtiteln;
-          </note>
-          <note xml:id="i-EJnpfUwm2VVRLF7SxRHDP2">
-            nr 11, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat I för budgetåret 1940/41, i vad propositionen
-            avser tionde huvudtiteln;
-          </note>
-          <note xml:id="i-xhHgB3zZhcWLasuk3TbMc">
-            nr 12, i anledning av Kungl. Maj:ts provposition angående utgifter
-            å tillläggsstat I för budgetåret 1940/41, i vad propositionen
-            avser kapitalinvestering i statens utlåningsfonder;
-          </note>
-          <note xml:id="i-2y9iVACTpoVVFsYtLMMfGP">
-            nr 13, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tilljiggsstat I för budgetåret 1940/41, i vad propositionen
-            avser femte huvudtiteln;
-          </note>
-          <note xml:id="i-N5syWoAEtujkq9EZTq8js2">
-            nr 14, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat I för budgetåret 1940/41, i vad propositionen
-            angår kapitalinvesteringar i statens allmänna fastighetsfond avseende
-            socialdepartementets verksamhetsområde;
-          </note>
-          <note xml:id="i-HavkTb7q29pKJ2aHw3yXap">
-            nr 15, i anledning av Kungl. Maj:ts proposition angående förflyttning
-            av viss stationsutrustning vid telegrafverket;
-          </note>
-          <note xml:id="i-UVrfAWuDpws2dxWjZKcFNq">
-            nr 16, angående ersättning till kanslioch vaktpersonal hos andra
-            särskilda utskottet;
-          </note>
-          <note xml:id="i-21wPgFd69EyvMT4M1eMJ1T">
-            nr 17, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat I för budgetåret 1940/41, i vad propositionen
-            avser anslag till försvarsväsendets verkstadsnämnd jämte en i
-            anledning av propositionen väckt motion;
-          </note>
-          <note xml:id="i-RzmK1ryt4LxsbhkwAPpqdP">
-            nr 18, i anledning av Kungl. Maj:ts förslag angående anslag till
-            bidrag till anskaffande av gasgeneratorer för jordbrukstraktorer;
-          </note>
-          <note xml:id="i-BwTXaGiveqLXANpj8tRBC2">
-            nr 19, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat I för budgetåret 1940/41, i vad propositionen
-            avser kapitalinvesteringar i försvarsväsendets fastighetsfond,
-          </note>
-          <note xml:id="i-B8bw6wA4XT9pDY2MFMwydf">
-            nr 20, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat I för budgetåret 1940/41, i vad propositionen
-            avser kapitalinvestering i statens allmänna fastighetsfond för
-            byggnadsoch inredningsarbeten vid karolinska mediko-kirurgiska
-            institutet;
-          </note>
-          <note xml:id="i-7ifohhQHimAtRNRqTi18Va">
-            nr 21, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat I för budgetåret 1940/41, i vad propositionen
-            avser vissa kapitalinvesteringar i fonden för förlag till statsverket;
-            och
-          </note>
-          <note xml:id="i-VFXK2Jgo2CKZWvGq35Tzyp">
-            nr 22, i anledning av Kungl. Maj:ts proposition angående anvisande
-            å tillläggsstat I för budgetåret 1940/41 av anslagsmedel för vissa
-            byggnadsarbeten m. m. vid försvarsväsendet; samt
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1940-urtima-fk--4/prot_1940_urtima_fk__4-005.jp2/_view"/>
-          <note type="date" xml:id="i-RJnjqyfcmQR57ADJKB84C8">
-            6 Nr 4. Måndagen den 26 augusti 1940.
-          </note>
-          <note xml:id="i-Vv4TNJhLhPtD1ikH58ijPC">
-            tredje särskilda utskottets utlåtanden och memorial:
-          </note>
-          <note xml:id="i-3C7uQDYuQqcPKcPPoKGLqA">
-            nr 2, i anledning av dels Kungl. Maj:ts proposition med förslag
-            till förordning angående ändring i vissa delar av förordningen
-            den 11 juni 1937 (nr 339) om mödrahjälp, m. m. dels ock en i ämnet
-            väckt motion; i
-          </note>
-          <note xml:id="i-Wio5Ck9zLE5CN6gzfYVmkY">
-            nr 3, i anledning av Kungl. Maj:ts proposition med förslag till
-            lag angående ändrad lydelse av fjärde stycket i övergångsbestämmelserna
-            till lagen den 18 april 1935 (nr 113) med vissa bestämmelser om
-            arbetsförmedling; och
-          </note>
-          <note xml:id="i-WLvpgubonwHM2k1kZEFyV1">
-            nr 4, angående ersättning till kanslioch vaktpersonalen hos tredje
-            särskilda utskottet.
-          </note>
-          <note xml:id="i-E3r755v6FqZg5Y4FKLqGPU">
-            Justerades ytterligare protokollsutdrag för denna dag, varefter
-            kammarens sammanträde avslutades kl. 4.08 e. m.
-          </note>
-          <note xml:id="i-BgwiQvq9MDDpJg3yLi61wE">
-            In fidem G. H. Berggren.
-          </note>
-          <note type="date" xml:id="i-7Km89Q7cY9E98WRapPuQmQ">
-            Måndagen den 26 augusti.
-          </note>
-          <note xml:id="i-KCTRdL22VbpEwUtZhuwdta">
-            Kammaren sammanträdde kl. 8 e. m.; och dess förhandlingar leddes
-            av herr andre vice talmannen.
-          </note>
-          <note xml:id="i-V7nHWEpBMrLs1Pr9EfDWzy">
-            Herr statsrådet Bergquist avlämnade Kungl. Maj:ts propositioner:
-          </note>
-          <note xml:id="i-6skKFgcQXFKGnk9MFc8ipK">
-            nr 21, angående anslag till lånefonden för inköp av gasgeneratorer
-            för motordrift;
-          </note>
-          <note xml:id="i-TzAVyg2GFP8doJeFRhqoCr">
-            nr 22, angående anvisande av medel till spannmålskreditfonden;
-            och
-          </note>
-          <note xml:id="i-JNM9nLE7YrZRgssAn9fRQk">
-            nr 24, angående vissa åtgärder för bekämpandet av tuberkulos
-            hos nötkreatur.
-          </note>
-          <note xml:id="i-BPvcYbX7a5f8az6v4dpUK2" type="speaker">
-            Herr Heiding erhöll på begäran ordet och anförde:
-          </note>
-          <u who="Q5797491" xml:id="i-GY8QS8Yjd63Huv9mxnYEPe" next="i-JUrnYER1CaYgYJ7ivzcJSs">
-            <seg xml:id="i-7CmKwtjMC9BxZsvCB4YPKj">
-              Jag får hemställa, herr talman, att kammaren för sin del måtte
-              besluta, att andra särskilda utskottet skall behandla Kungl. Maj:ts
-              nu avlämnade propositioner nr 21, angående anslag till lånefonden
-              för inköp av gasgeneratorer för motordrift, nr 22, angående anvisande
-              av medel till spannmålskreditfonden, och nr 24, angående vissa
-              åtgärder för bekämpandet av tuberkulos hos nötkreatur, ävensom
-              de ytterligare framställningar, som kunna komma att av Kungl.
-              Maj:t eller i enskilda motioner göras i dessa ämnen eller andra
-              i oskiljaktigt sammanhang därmed stående frågor.
-            </seg>
-          </u>
-          <u xml:id="i-JUrnYER1CaYgYJ7ivzcJSs" prev="i-GY8QS8Yjd63Huv9mxnYEPe" who="Q5797491">
-            <seg xml:id="i-Xh8vW6LBuDa66vocDd8NdV">
-              Tillika hemställer jag, att andra kammaren måtte inbjudas att
-              i detta beslut förena sig med första kammaren.
-            </seg>
-          </u>
-          <note xml:id="i-LciGXuYshHGecVKe92HY7B">
-            Härtill lämnade kammaren sitt bifall. Ett protokollsutdrag i
-            ämnet justerades och avsändes till andra kammaren.
-          </note>
-          <note xml:id="i-5CsvSRnRHoqS8L3dr7ZyPX">
-            Upplästes ett från andra kammaren ankommet protokollsutdrag,
-            nr 39, utvisande att nämnda kammare förenat sig med första kammaren
-            i dess beslut att andra särskilda utskottet skulle behandla Kungl.
-            Maj:ts proposition nr 18,
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1940-urtima-fk--4/prot_1940_urtima_fk__4-006.jp2/_view"/>
-          <note type="date" xml:id="i-HCMzMht3Ju5kX4rBQuQPqQ">
-            Måndagen den 26 augusti 1940. Nr 4. 7
-          </note>
-          <note xml:id="i-K12YGytiTL7NrKSWEcU8VL">
-            angående ytterligare statsbidrag för utredning rörande reglering
-            av Övre och Nedre Olandsån i Uppsala och Stockholms län, m. m.
-          </note>
-          <note xml:id="i-TZQTHPB5Bvxp2Lh3DUxruw">
-            Vid härefter skedd föredragning av ifrågavarande kungl. proposition,
-            nr 18, hänvisades densamma till andra särskilda utskottet.
-          </note>
-          <note xml:id="i-Y8pSDynPxEXtCpZXDPpyxV">
-            Föredrogos, men bordlades ånyo på flera ledamöters begäran andra
-            särskilda utskottets utlåtanden nr 9—15.
-          </note>
-          <note xml:id="i-6NHmxD2HEgUJVcTBEf2TSv">
-            Vid föredragning av andra särskilda utskottets memorial nr 16,
-            angående ersättning till kanslioch vaktpersonal hos andra särskilda
-            utskottet, bifölls vad utskottet i detta memorial hemställt.
-          </note>
-          <note xml:id="i-2uBkVk81WjgJcoSVvNvz9Q">
-            Föredrogos men bordlades ånyo på flera ledamöters begäran andra
-            särskilda utskottets utlåtanden nr 17—22 samt tredje särskilda
-            utskottets utlåtanden nr 2 och 3.
-          </note>
-          <note xml:id="i-Dhown8b48FbYznMLC77Vmf">
-            Vid föredragning av tredje särskilda utskottets memorial nr 4,
-            angående ersättning till kanslioch vaktpersonalen hos tredje särskilda
-            utskottet, bifölls vad utskottet i detta memorial hemställt.
-          </note>
-          <note xml:id="i-2LzAz1485BdGEeuJYX58Yq">
-            Vid föredragning av Kungl. Maj:ts denna dag avlämnade propositioner
-            nr 21, 22 och 24 blevo desamma på begäran bordlagda.
-          </note>
-          <note xml:id="i-KEJixqQKp2E1gTqj9Co4oB">
-            Anmäldes och bordlades tredje särskilda utskottets utlåtande
-            nr 5, i anledning av Kungl. Maj:ts proposition med förslag till
-            förordning om värnpliktslån.
-          </note>
-          <note xml:id="i-Mwosmcrn81WC4P6gq1Yrn3">
-            Justerades ytterligare protokollsutdrag för denna dag, varefter
-            kammarens sammanträde avslutades kl. 8.10 e. m.
-          </note>
-          <note xml:id="i-GNBCM8xU2wmX7CtF29q63Y">
-            In fidem G. H. Berggren.
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1940-urtima-fk--4</head>
+        <docDate when="1940-08-21">1940-08-21</docDate>
+        <docDate when="1940-08-24">1940-08-24</docDate>
+        <docDate when="1940-08-26">1940-08-26</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1940-urtima-fk--4/prot_1940_urtima_fk__4-000.jp2/_view"/>
+        <note xml:id="i-2Yu87SvmddZ21BCuAMgh3g">
+          RIKSDAGENS PROTOKOLL.
+        </note>
+        <note xml:id="i-R31Mv1n9X6bNeFwSdiKUqY">
+          1940. Första kammaren. Nr 4.
+        </note>
+        <note type="date" xml:id="i-WQ3F7HtFMUA3BfZV3p7Vwc">
+          Onsdagen den 21 augusti.
+        </note>
+        <note xml:id="i-Qtk5MoQJ6C1bMVQu6ctyEz">
+          Kammaren sammanträdde kl. 11 f. m.
+        </note>
+        <note xml:id="i-WhuxHmDMMc5J5Z2HJf5wR3">
+          Upplästes två från andra kammaren ankomna protokollsutdrag, nr
+          32 och 33, utvisande att nämnda kammare förenat sig med första
+          kammaren i dess beslut att tredje särskilda utskottet skulle behandla
+          Kungl. Maj:ts proposition nr 16, med förslag till förordning om
+          värnpliktslån, m. m. samt att andra särskilda utskottet skulle
+          behandla Kungl. Maj:ts proposition nr 17, angående anvisande å
+          tilläggsstat I till riksstaten för budgetåret 1940/41 av anslagsmedel
+          för vissa byggnadsarbeten m. m. vid försvarsväsendet, m. m.
+        </note>
+        <note xml:id="i-7WwMbYXRecCMZdGwFzrvuQ">
+          Vid sedermera skedd föredragning av berörda kungl. propositioner
+          hänvisades desamma, nr 16 till tredje särskilda utskottet och
+          nr 17 till andra särskilda utskottet.
+        </note>
+        <note xml:id="i-HMPXah2FN3Z3QpveqiT9hn">
+          Föredrogos ånyo första särskilda utskottets utlåtanden:
+        </note>
+        <note xml:id="i-7HgvBH9dAyP4FtYKhnwE2v">
+          nr 2, i anledning av Kungl. Maj:ts proposition med förslag till
+          förordning om rätt att använda försvarsobligation såsom betalningsmedel
+          vid erläggande av arvsskatt, m. m.; och
+        </note>
+        <note xml:id="i-DbVD7kg51m7HwVDHDvV535">
+          nr 3, 1 anledning av Kungl. Maj:ts proposition med förslag till
+          förordning om viss skattefrihet beträffande svenska statens sparobligationer.
+        </note>
+        <note xml:id="i-UkwSeHWcgkPRodiSFR4ZGS">
+          Vad utskottet i dessa utlåtanden hemställt bifölls.
+        </note>
+        <note xml:id="i-XZXhsy796xWDKoavAXJiN2">
+          Föredrogos ånyo andra särskilda utskottets utlåtanden:
+        </note>
+        <note xml:id="i-VqqJBSYfoPhBdWqXtpKCJD">
+          nr 1, angående fortsatt giltighet av gällande förskottsstat för
+          försvarsväsendet m. m.; och
+        </note>
+        <note xml:id="i-XSGmnbDwhMgkgFEedBw4c">
+          nr 2, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tilläggsstat I för budgetåret 1940/41, i vad propositionen avser
+          vissa anslag till hovoch slottsstaterna.
+        </note>
+        <note xml:id="i-SG7HXAc76Gxmx3RJEtRMRP">
+          Vad utskottet i dessa utlåtanden hemställt bifölls.
+        </note>
+        <note xml:id="i-6yPVQdx1SYdaQyfQxieiG9">
+          Föredrogs ånyo andra särskilda utskottets utlåtande nr 3, i anledning
+          av Kungl. Maj:ts förslag angående anslag till vissa befästningsanläggningar.
+        </note>
+        <note xml:id="i-PZaYpJ6D8UbSebMcND2e85">
+          Med tillstyrkande av Kungl. Maj:ts i proposition nr 1 under fjärde
+          huvudtiteln därom gjorda framställning hade utskottet i förevarande
+          utlåtande hemställt, att riksdagen måtte till Vissa befästningsanläggningar
+          å tilläggsstat I för budgetåret 1940/41 under fjärde huvudtiteln
+          anvisa ett reservationsanslag av 41,000,000 kronor.
+        </note>
+        <note type="speaker" xml:id="i-6mu9fAq563CwQYJe2RWj7Q">
+          Herr Lindhagen:
+        </note>
+        <u who="i-XzSzFtnrtwQBSXHVwVhrCf" xml:id="i-3e1d72b187c87a41-0" next="i-3e1d72b187c87a41-2">
+          <seg xml:id="i-23pQ1ZcfXpcx5JcLUA8V6U">
+            Herr talman! Jag har väckt en motion, som just berör främst denna
+            sak. Yrkandet går nämligen ut på måtta även i upprustningen nu
+            omsider och särskilt de ytterligare fästningsbyggnaderna. Den
+            motionen
+          </seg>
+        </u>
+        <note xml:id="i-KqwL5yx9HpLZ1ckT48pePA">
+          Första kammarens protokoll vid urtima riksdagen 1940. Nr 4. 1
+        </note>
+        <note xml:id="i-UGPkr7UAdSkRoptRYwJSRg">
+          Anslag till vissa befästningsanlägg-
+        </note>
+        <note xml:id="i-7s4WCTKpB3LigKMLavwasw">
+          ningar.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1940-urtima-fk--4/prot_1940_urtima_fk__4-001.jp2/_view"/>
+        <note xml:id="i-MKBhfP9vUZqSbJVV8zr8S7">
+          Ang. besikt-
+        </note>
+        <note xml:id="i-AJH6ptmZz3YyMJki3Egi4g">
+          ningstvång
+        </note>
+        <note xml:id="i-9reHAEBXwgLZ8LiLA3uvyX">
+          för älgkött m. m.
+        </note>
+        <note type="date" xml:id="i-Vy2edcTgo9pfkERWvR4vKZ">
+          2 Nr 4. Onsdagen den 21 augusti 1940.
+        </note>
+        <u who="i-XzSzFtnrtwQBSXHVwVhrCf" xml:id="i-3e1d72b187c87a41-2" prev="i-3e1d72b187c87a41-0">
+          <seg xml:id="i-AZFLAmx6SNs5oFShYv1ifB">
+            Anslag till vissa befästningsanläggningar. (Forts.) finns inte
+            ens omnämnd i betänkandet, och jag förstår, att då den kanske
+            förtäckt röjer någon sympati för fredens idé, får den inte komma
+            fram.
+          </seg>
+          <seg xml:id="i-3dxQGmKWUHVX4MDMD5akyM">
+            Jag har emellertid inte något yrkande om fyllande av detta tomrum
+            i utskottsbetänkandet. Motionsrätten är även på detta sätt åsidosatt.
+            Talmannen borde vägra att ställa proposition på ett sådant olagligt
+            yttrande.
+          </seg>
+        </u>
+        <note xml:id="i-EAJhzPQsh8PefdUVeQjyww">
+          Efter härmed slutad överläggning bifölls vad utskottet i det
+          nu föredragna utlåtandet hemställt.
+        </note>
+        <note xml:id="i-Eobdikq4W5k1NzetC22EX">
+          Föredrogos ånyo andra särskilda utskottets utlåtanden:
+        </note>
+        <note xml:id="i-HpaQXvZkD8ceJVtWQbM3x1">
+          nr 4, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tilläggsstat I för budgetåret 1940/41, i vad propositionen avser
+          sjätte huvudtiteln;
+        </note>
+        <note xml:id="i-9cVj1vGvPGdjvHbhk5LwyE">
+          nr 5, 1 anledning av Kungl. Maj:ts proposition angående utgifter
+          å tilläggsstat I för budgetåret 1940/41, i vad propositionen avser
+          sjunde huvudtiteln;
+        </note>
+        <note xml:id="i-AHjTCLXfXHA6iwNvUtH4Ek">
+          nr 6, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tilläggsstat I för budgetåret 1940/41, i vad propositionen avser
+          kapitalinvesteringar i statens affärsverksfonder m. m.;
+        </note>
+        <note xml:id="i-HrwJcUrBA7WHKDASb77KEL">
+          nr 7, i anledning av Kungl. Maj:ts proposition angående förvärv
+          av vattenrätt i Ume älv m. m.; samt
+        </note>
+        <note xml:id="i-KLm5tE3wehjpJe4qXXh1Zc">
+          nr 8, 1 anledning av Kungl. Maj:ts proposition angående anordnande
+          av skyddsrum vid vissa skyddshem.
+        </note>
+        <note xml:id="i-RchFCKjsRSYCCt51s4Qte5">
+          Vad utskottet i dessa utlåtanden hemställt bifölls.
+        </note>
+        <note xml:id="i-4dFGQTc8EUWibwnCuducCX">
+          -
+        </note>
+        <note xml:id="i-SsoCr6R9Npc3s1hTPajS2q">
+          Föredrogs ånyo tredje särskilda utskottets utlåtande nr 1, i
+          anledning av Kungl. Maj:ts proposition med förslag till förordning
+          om viss tillämpning i fråga om älgkött av lagen den 11 maj 1934
+          (nr 140) angående köttbesiktning och slakthus, m. m.
+        </note>
+        <note xml:id="i-8ELap4zFph5THvog74iCh9">
+          Genom en den 1 augusti 1940 dagtecknad, till tredje särskilda
+          utskottet hänvisad proposition, nr 13, hade Kungl. Maj:t dels
+          föreslagit riksdagen att antaga ett vid propositionen fogat förslag
+          till förordning om viss tillämpning i fråga om älgkött av lagen
+          den 11 maj 1934 (nr 140) angående köttbesiktning och slakthus,
+          dels ock beslutat inhämta riksdagens yttrande över ett likaledes
+          vid propositionen fogat förslag till kungörelse om tillämpning
+          i fråga om älgkött av förordningen den 11 maj 1934 (nr 141) angående
+          förbud mot viss stämpling eller märkning av kött och köttvara.
+        </note>
+        <note xml:id="i-KFEXdcTvsG4Tm4PYaAiGxB">
+          Utskottet hade i det nu ifrågavarande utlåtandet på anförda skäl
+          hemställt,
+        </note>
+        <note xml:id="i-D23h3fTmgyKxvZsSVcaq8Z">
+          A) att det i förevarande proposition framlagda förslaget till
+          förordning om viss tillämpning i fråga om älgkött av lagen den
+          11 maj 1934 (nr 140) angående köttbesiktning och slakthus måtte
+          av riksdagen antagas; samt
+        </note>
+        <note xml:id="i-4nHPP4NiQyST1osHFXrFyK">
+          B) att riksdagen måtte i skrivelse till Kungl. Maj:t meddela,
+          att riksdagen icke funnit anledning till erinran mot det genom
+          propositionen framlagda förslaget till kungörelse om tillämpning
+          i fråga om älgkött av förordningen den 11 maj 1934 (nr 141) angående
+          förbud mot viss stämpling eller märkning av kött och köttvara.
+        </note>
+        <note type="speaker" xml:id="i-Wc2iVgzTezukB6b6ptB6wm">
+          Herr Tamm:
+        </note>
+        <u who="i-EKXQ584yuio3iyn2qYCSaQ" xml:id="i-8dfc47a3426a0577-0" next="i-8dfc47a3426a0577-1">
+          <seg xml:id="i-J857Qi7BS5yjvmW1TSRvWe">
+            Herr talman! För några år sedan gjorde Svenska jägareförbundet
+            en hemställan om införande av obligatorisk köttkontroll i fråga
+            om älgkött. Denna hemställan har föranlett Kungl. Maj:t att framlägga
+            det förslag, som nu behandlas, ett förslag som också vunnit vederbörande
+            utskotts enhälliga tillstyrkan.
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1940-urtima-fk--4/prot_1940_urtima_fk__4-002.jp2/_view"/>
+        <note type="date" xml:id="i-2iRa32PjGuwAD1sUw8461U">
+          Onsdagen den 21 augusti 1940. Nr 4. 3
+        </note>
+        <note xml:id="i-WKXK2AVJorDVqLiR7RAqKC">
+          Ang. besiktningstvång för älgkött m. m. (Forts.)
+        </note>
+        <u who="i-EKXQ584yuio3iyn2qYCSaQ" xml:id="i-8dfc47a3426a0577-1" prev="i-8dfc47a3426a0577-0">
+          <seg xml:id="i-PtLtjSK5vKsN3TKc9o16mz">
+            Meningen är alltså, att älgköttet skall besiktigas efter samma
+            regler och bestämmelser som annat kött. För närvarande är dylik
+            besiktning obligatorisk i praktiskt taget alla samhällen med ett
+            invånarantal av 4,000 eller däröver. I mindre samhällen och i
+            övriga kommuner i landet kan köttbesiktningstvång stadgas av länsstyrelsen
+            efter framställning av de kommunala myndigheterna. T allt större
+            utsträckning tycks intresset för dylik frivillig anslutning till
+            köttbesiktningstvånget också göra sig gällande, men i regel önska
+            givetvis inte smärre samhällen och kommuner anordna egna köttbesiktningsplatser
+            — det blir för dyrt — utan ansluta sig till centrala upptagningsplatser
+            inom större områden. Detta möter naturligtvis inte heller några
+            praktiska olägenheter, ty i regel går det väl så till, att slaktdjuren
+            hämtas av slakteriföreningen och genom dess förmedling forslas
+            till slakthus, respektive besiktningsplatser.
+          </seg>
+          <seg xml:id="i-WW1okvWq7H4zyz1uJ9aGbC">
+            Vad älgarna beträffar, blir däremot förhållandet ett annat. Visserligen
+            säljas ju en del kroppar i allmänna marknaden som annat kött,
+            men på många ställen önskar man utförsälja köttet, t. ex. vid
+            ett större bruk, till lågt pris till befolkningen på platsen.
+            Samma kan vara förhållandet inom hemmansägaresammanslutningar,
+            som ju bli allt vanligare med den nuvarande jaktlagstiftningen.
+            Det förefaller ganska orimligt att i dylika fall framtvinga ett
+            forslande av älgköttet fram och tillbaka, säkerligen ofta miltals,
+            för att få det besiktigat.
+          </seg>
+          <seg xml:id="i-MYFf241Zu1sRK9Eo6bqQzH">
+            Det enda naturliga och praktiska tillvägagångssättet i detta
+            fall vore givetvis, att medicinalstyrelsen speciellt beträffande
+            älgköttet, eventuellt efter framställning av de kommunala myndigheterna,
+            bemyndigade länseller distriktsveterinären att verkställa besiktning
+            direkt ute i bygderna åtminstone i de fall, där det kan bli tal
+            om något större antal älgar. Att ett sådant förfarande skulle
+            kunna förorsaka några större olägenheter, synes väl knappast tänkbart.
+            Stel formalism hava vi mer än nog av här i landet, och det kan
+            icke skada, om vi söka få till stånd något litet mera smidighet
+            ibland i den praktiska tillämpningen av lagar och författningar.
+          </seg>
+          <seg xml:id="i-EhmECypbHkQaoQAwsV7xR2">
+            Om alltså medicinalstyrelsen nu icke kan påvisa några verkligt
+            tyngande praktiska olägenheter i detta förslag, vågar jag uttala
+            en förhoppning om att chefen för jordbruksdepartementet ville
+            åtminstone taga frågan under övervägande och på administrativ
+            väg söka ordna upp detta lilla problem. Tyvärr var tiden så knapp,
+            att detta ärende måste hastigt behandlas inom utskottet med hänsyn
+            till att älgjakten ju snart börjar. Eljest anser jag mig ha en
+            viss berättigad förhoppning på att utskottet i dess helhet skulle
+            hava ställt sig bakom en dylik hemställan.
+          </seg>
+          <seg xml:id="i-TLiFzu9ss5m3wiCS7ojNyQ">
+            Jag har, herr talman, icke något yrkande att framställa.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-Rz1SUYpQGseLGaBSkinaLX">
+          Herr Gärde:
+        </note>
+        <u who="i-Mp9EZyDQnEWymzonKTkhPb" xml:id="i-8f39c7a4ba39fdd4-0" next="i-C89FPHUph7dVJzjWHHMRVJ">
+          <seg xml:id="i-BfpoRvNdEx2tWcAGaqc4Ut">
+            Herr talman! Såsom framgick av herr Tamms yttrande har inom utskottet
+            icke förelegat någon som helst meningsskiljaktighet i fråga om
+            huruvida besiktningstvång, när det gäller älgkött, borde införas
+            eller ej. Den av herr Tamm berörda frågan faller helt och hållet
+            inom det administrativa området. Det är Kungl. Maj:t, som i tillämpningsföreskrifterna
+            till lagen har att utfärda bestämmelser för köttbesiktningsbyråer,
+            deras antal och verksamhetsformer. Inom utskottet uttalades, såsom
+            herr Tamm också erinrade om, på den punkten icke något som helst
+            önskemål, och utskottet har alltså icke på något sätt tagit ståndpunkt
+            till den av herr Tamm här framförda frågan. Huruvida skäl föreligga
+            för att skapa vissa lättnader på detta område särskilt beträffande
+            älgkött, är en fråga, som det givetvis ankommer på jordbruksministern
+            att i första hand pröva. Jag vill emellertid påpeka, att tiden
+            till dess besiktningstvånget skall tillämpas, med hänsyn till
+            den snart stun-
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1940-urtima-fk--4/prot_1940_urtima_fk__4-003.jp2/_view"/>
+        <note type="date" xml:id="i-6hTCVvaaFwg5DA3vpwjNTX">
+          4 Nr 4. Lördagen den 24 augusti 1940.
+        </note>
+        <u xml:id="i-C89FPHUph7dVJzjWHHMRVJ" prev="i-8f39c7a4ba39fdd4-0" who="i-Mp9EZyDQnEWymzonKTkhPb" next="i-YMPLivNfdVhKZDG5YNbym5">
+          <seg xml:id="i-DsrJK5iB4Ai61frNWBTD4">
+            Ang. besiktningstvång för älgkött m. m. (Forts.) dande jaktsäsongen
+            är mycket knapp. Det förefaller mig därför ganska ovisst, om innan
+            dess särskilda anordningar kunna härom vidtagas.
+          </seg>
+        </u>
+        <u xml:id="i-YMPLivNfdVhKZDG5YNbym5" prev="i-C89FPHUph7dVJzjWHHMRVJ" who="i-Mp9EZyDQnEWymzonKTkhPb">
+          <seg xml:id="i-ML795bYq1XZ64XyaKVM9vs">
+            Jag ber, herr talman, att få yrka bifall till utskottets hemställan.
+          </seg>
+        </u>
+        <note xml:id="i-UKn17NK8VqR6x4fPxdnUio">
+          Sedan överläggningen ansetts härmed slutad, bifölls vad utskottet
+          i det under behandling varande utlåtandet hemställt.
+        </note>
+        <note xml:id="i-KwvE7dhMp9oQgBvnMy73hn">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 11.20 f. m.
+        </note>
+        <note xml:id="i-WYZrMzphQHCtEs4vhkVabY">
+          In fidem G. H. Berggren.
+        </note>
+        <note type="date" xml:id="i-R7odMbTKmhFTeij1eUAtWu">
+          Lördagen den 24 augusti.
+        </note>
+        <note xml:id="i-HG2AkFntsurzeHRoumMrd1">
+          Kammaren sammanträdde kl. 4 e. m.; och dess förhandlingar leddes
+          av herr andre vice talmannen.
+        </note>
+        <note type="speaker" xml:id="i-GtSEexqXqMDGkiYdxyJTQ6">
+          Herr statsrådet Quensel avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-CQBBqEGQufHxATzCWqmscD">
+          ts proposition nr 18, angående ytterligare statsbidrag för utredning
+          rörande reglering av Övre och Nedre Olandsån i Uppsala och Stockholms
+          län.
+        </note>
+        <note xml:id="i-Xh4WCidZMqxr7pMfHobD2K" type="speaker">
+          Herr Ström, Fredrik, erhöll på begäran ordet och anförde:
+        </note>
+        <u who="i-7yzcmgHgwvdw4zkJiWVkhj" xml:id="i-X2thTWBD6fUeKcaQfLiEis" next="i-5RrWL5YSmRJL6JT6gfu3T9">
+          <seg xml:id="i-LNtzRRjtvjHYrY4uLYKVhc">
+            Jag får hemställa, herr talman, att kammaren för sin del måtte
+            besluta, att andra särskilda utskottet skall behandla Kungl. Maj:ts
+            nu avlämnade proposition nr 18, angående ytterligare statsbidrag
+            för utredning rörande reglering av Övre och Nedre Olandsån i Uppsala
+            och Stockholms län, ävensom de ytterligare framställningar, som
+            kunna komma att av Kungl. Maj:t eller i enskilda motioner göras
+            i detta ämne eller andra i oskiljaktigt sammanhang därmed stående
+            frågor.
+          </seg>
+        </u>
+        <u xml:id="i-5RrWL5YSmRJL6JT6gfu3T9" prev="i-X2thTWBD6fUeKcaQfLiEis" who="i-7yzcmgHgwvdw4zkJiWVkhj">
+          <seg xml:id="i-RwTe5a8TZGJotK3cvzTR9m">
+            Tillika hemställer jag, att andra kammaren måtte inbjudas att
+            i detta beslut förena sig med första kammaren.
+          </seg>
+        </u>
+        <note xml:id="i-5M4wihjSnK16w1XXy5oHwA">
+          Härtill lämnade kammaren sitt bifall. Ett protokollsutdrag i
+          ämnet justerades och avsändes till andra kammaren.
+        </note>
+        <note xml:id="i-5xnE38xtzk7kHTuVGtZFfN">
+          Justerades protokollen för den 16, 17 och 20 innevarande månad.
+        </note>
+        <note xml:id="i-PQhXWAcdKPvrahyZy8SHzK">
+          Anmäldes och godkändes första särskilda utskottets förslag till
+          riksdagens skrivelser till Konungen:
+        </note>
+        <note xml:id="i-MFdYFf1UWTSNG76VkA4bxS">
+          nr 3, i anledning av Kungl. Maj:ts proposition med förslag till
+          förordning om rätt att använda försvarsobligation såsom betalningsmedel
+          vid erläggande av arvsskatt, m. m.; och
+        </note>
+        <note xml:id="i-WEPddxMkyjj7XcKArsPndX">
+          nr 4, i anledning av Kungl. Maj:ts proposition med förslag till
+          förordning om viss skattefrihet beträffande svenska statens sparobligationer.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1940-urtima-fk--4/prot_1940_urtima_fk__4-004.jp2/_view"/>
+        <note type="date" xml:id="i-NDdMWwLJyyRU2y3bX6yNNx">
+          Lördagen den 24 augusti 1940. Nr 4. 5
+        </note>
+        <note xml:id="i-41w8k4sK2KDFdARL3ubUdC">
+          Anmäldes och godkändes tredje särskilda utskottets förslag till
+          riksdagens skrivelse, nr 5, till Konungen i anledning av Kungl.
+          Maj:ts proposition med förslag till förordning om viss tillämpning
+          i fråga om älgkött av lagen den 11 maj 1934 (nr 140) angående
+          köttbesiktning och slakthus, m. m.
+        </note>
+        <note xml:id="i-4F2Tb2Fykf2RdKSVdUFtF8">
+          Föredrogs och bordlades på begäran Kungl. Maj:ts denna dag avlämnade
+          proposition nr 18.
+        </note>
+        <note xml:id="i-2oxYSnwz2UzNJP4h9dCq8V">
+          Anmäldes och bordlades
+        </note>
+        <note xml:id="i-SFnNa7dtqfGGX4N115GsXN">
+          andra särskilda utskottets utlåtanden och memorial:
+        </note>
+        <note xml:id="i-9RpLEHupLtA3ZS374Fv8FD">
+          nr 9, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tilläggsstat I för budgetåret 1940/41, i vad propositionen avser
+          åttonde huvudtiteln;
+        </note>
+        <note xml:id="i-6u41dXvBZvHa251MTF1VXP">
+          nr 10, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat I för budgetåret 1940/41, i vad propositionen
+          avser vissa anslag under nionde huvudtiteln;
+        </note>
+        <note xml:id="i-EJnpfUwm2VVRLF7SxRHDP2">
+          nr 11, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat I för budgetåret 1940/41, i vad propositionen
+          avser tionde huvudtiteln;
+        </note>
+        <note xml:id="i-xhHgB3zZhcWLasuk3TbMc">
+          nr 12, i anledning av Kungl. Maj:ts provposition angående utgifter
+          å tillläggsstat I för budgetåret 1940/41, i vad propositionen
+          avser kapitalinvestering i statens utlåningsfonder;
+        </note>
+        <note xml:id="i-2y9iVACTpoVVFsYtLMMfGP">
+          nr 13, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tilljiggsstat I för budgetåret 1940/41, i vad propositionen
+          avser femte huvudtiteln;
+        </note>
+        <note xml:id="i-N5syWoAEtujkq9EZTq8js2">
+          nr 14, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat I för budgetåret 1940/41, i vad propositionen
+          angår kapitalinvesteringar i statens allmänna fastighetsfond avseende
+          socialdepartementets verksamhetsområde;
+        </note>
+        <note xml:id="i-HavkTb7q29pKJ2aHw3yXap">
+          nr 15, i anledning av Kungl. Maj:ts proposition angående förflyttning
+          av viss stationsutrustning vid telegrafverket;
+        </note>
+        <note xml:id="i-UVrfAWuDpws2dxWjZKcFNq">
+          nr 16, angående ersättning till kanslioch vaktpersonal hos andra
+          särskilda utskottet;
+        </note>
+        <note xml:id="i-21wPgFd69EyvMT4M1eMJ1T">
+          nr 17, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat I för budgetåret 1940/41, i vad propositionen
+          avser anslag till försvarsväsendets verkstadsnämnd jämte en i
+          anledning av propositionen väckt motion;
+        </note>
+        <note xml:id="i-RzmK1ryt4LxsbhkwAPpqdP">
+          nr 18, i anledning av Kungl. Maj:ts förslag angående anslag till
+          bidrag till anskaffande av gasgeneratorer för jordbrukstraktorer;
+        </note>
+        <note xml:id="i-BwTXaGiveqLXANpj8tRBC2">
+          nr 19, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat I för budgetåret 1940/41, i vad propositionen
+          avser kapitalinvesteringar i försvarsväsendets fastighetsfond,
+        </note>
+        <note xml:id="i-B8bw6wA4XT9pDY2MFMwydf">
+          nr 20, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat I för budgetåret 1940/41, i vad propositionen
+          avser kapitalinvestering i statens allmänna fastighetsfond för
+          byggnadsoch inredningsarbeten vid karolinska mediko-kirurgiska
+          institutet;
+        </note>
+        <note xml:id="i-7ifohhQHimAtRNRqTi18Va">
+          nr 21, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat I för budgetåret 1940/41, i vad propositionen
+          avser vissa kapitalinvesteringar i fonden för förlag till statsverket;
+          och
+        </note>
+        <note xml:id="i-VFXK2Jgo2CKZWvGq35Tzyp">
+          nr 22, i anledning av Kungl. Maj:ts proposition angående anvisande
+          å tillläggsstat I för budgetåret 1940/41 av anslagsmedel för vissa
+          byggnadsarbeten m. m. vid försvarsväsendet; samt
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1940-urtima-fk--4/prot_1940_urtima_fk__4-005.jp2/_view"/>
+        <note type="date" xml:id="i-RJnjqyfcmQR57ADJKB84C8">
+          6 Nr 4. Måndagen den 26 augusti 1940.
+        </note>
+        <note xml:id="i-Vv4TNJhLhPtD1ikH58ijPC">
+          tredje särskilda utskottets utlåtanden och memorial:
+        </note>
+        <note xml:id="i-3C7uQDYuQqcPKcPPoKGLqA">
+          nr 2, i anledning av dels Kungl. Maj:ts proposition med förslag
+          till förordning angående ändring i vissa delar av förordningen
+          den 11 juni 1937 (nr 339) om mödrahjälp, m. m. dels ock en i ämnet
+          väckt motion; i
+        </note>
+        <note xml:id="i-Wio5Ck9zLE5CN6gzfYVmkY">
+          nr 3, i anledning av Kungl. Maj:ts proposition med förslag till
+          lag angående ändrad lydelse av fjärde stycket i övergångsbestämmelserna
+          till lagen den 18 april 1935 (nr 113) med vissa bestämmelser om
+          arbetsförmedling; och
+        </note>
+        <note xml:id="i-WLvpgubonwHM2k1kZEFyV1">
+          nr 4, angående ersättning till kanslioch vaktpersonalen hos tredje
+          särskilda utskottet.
+        </note>
+        <note xml:id="i-E3r755v6FqZg5Y4FKLqGPU">
+          Justerades ytterligare protokollsutdrag för denna dag, varefter
+          kammarens sammanträde avslutades kl. 4.08 e. m.
+        </note>
+        <note xml:id="i-BgwiQvq9MDDpJg3yLi61wE">
+          In fidem G. H. Berggren.
+        </note>
+        <note type="date" xml:id="i-7Km89Q7cY9E98WRapPuQmQ">
+          Måndagen den 26 augusti.
+        </note>
+        <note xml:id="i-KCTRdL22VbpEwUtZhuwdta">
+          Kammaren sammanträdde kl. 8 e. m.; och dess förhandlingar leddes
+          av herr andre vice talmannen.
+        </note>
+        <note xml:id="i-V7nHWEpBMrLs1Pr9EfDWzy">
+          Herr statsrådet Bergquist avlämnade Kungl. Maj:ts propositioner:
+        </note>
+        <note xml:id="i-6skKFgcQXFKGnk9MFc8ipK">
+          nr 21, angående anslag till lånefonden för inköp av gasgeneratorer
+          för motordrift;
+        </note>
+        <note xml:id="i-TzAVyg2GFP8doJeFRhqoCr">
+          nr 22, angående anvisande av medel till spannmålskreditfonden;
+          och
+        </note>
+        <note xml:id="i-JNM9nLE7YrZRgssAn9fRQk">
+          nr 24, angående vissa åtgärder för bekämpandet av tuberkulos
+          hos nötkreatur.
+        </note>
+        <note xml:id="i-BPvcYbX7a5f8az6v4dpUK2" type="speaker">
+          Herr Heiding erhöll på begäran ordet och anförde:
+        </note>
+        <u who="i-rxMPrABKBDwfiUwJZxNv7" xml:id="i-GY8QS8Yjd63Huv9mxnYEPe" next="i-JUrnYER1CaYgYJ7ivzcJSs">
+          <seg xml:id="i-7CmKwtjMC9BxZsvCB4YPKj">
+            Jag får hemställa, herr talman, att kammaren för sin del måtte
+            besluta, att andra särskilda utskottet skall behandla Kungl. Maj:ts
+            nu avlämnade propositioner nr 21, angående anslag till lånefonden
+            för inköp av gasgeneratorer för motordrift, nr 22, angående anvisande
+            av medel till spannmålskreditfonden, och nr 24, angående vissa
+            åtgärder för bekämpandet av tuberkulos hos nötkreatur, ävensom
+            de ytterligare framställningar, som kunna komma att av Kungl.
+            Maj:t eller i enskilda motioner göras i dessa ämnen eller andra
+            i oskiljaktigt sammanhang därmed stående frågor.
+          </seg>
+        </u>
+        <u xml:id="i-JUrnYER1CaYgYJ7ivzcJSs" prev="i-GY8QS8Yjd63Huv9mxnYEPe" who="i-rxMPrABKBDwfiUwJZxNv7">
+          <seg xml:id="i-Xh8vW6LBuDa66vocDd8NdV">
+            Tillika hemställer jag, att andra kammaren måtte inbjudas att
+            i detta beslut förena sig med första kammaren.
+          </seg>
+        </u>
+        <note xml:id="i-LciGXuYshHGecVKe92HY7B">
+          Härtill lämnade kammaren sitt bifall. Ett protokollsutdrag i
+          ämnet justerades och avsändes till andra kammaren.
+        </note>
+        <note xml:id="i-5CsvSRnRHoqS8L3dr7ZyPX">
+          Upplästes ett från andra kammaren ankommet protokollsutdrag,
+          nr 39, utvisande att nämnda kammare förenat sig med första kammaren
+          i dess beslut att andra särskilda utskottet skulle behandla Kungl.
+          Maj:ts proposition nr 18,
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1940-urtima-fk--4/prot_1940_urtima_fk__4-006.jp2/_view"/>
+        <note type="date" xml:id="i-HCMzMht3Ju5kX4rBQuQPqQ">
+          Måndagen den 26 augusti 1940. Nr 4. 7
+        </note>
+        <note xml:id="i-K12YGytiTL7NrKSWEcU8VL">
+          angående ytterligare statsbidrag för utredning rörande reglering
+          av Övre och Nedre Olandsån i Uppsala och Stockholms län, m. m.
+        </note>
+        <note xml:id="i-TZQTHPB5Bvxp2Lh3DUxruw">
+          Vid härefter skedd föredragning av ifrågavarande kungl. proposition,
+          nr 18, hänvisades densamma till andra särskilda utskottet.
+        </note>
+        <note xml:id="i-Y8pSDynPxEXtCpZXDPpyxV">
+          Föredrogos, men bordlades ånyo på flera ledamöters begäran andra
+          särskilda utskottets utlåtanden nr 9—15.
+        </note>
+        <note xml:id="i-6NHmxD2HEgUJVcTBEf2TSv">
+          Vid föredragning av andra särskilda utskottets memorial nr 16,
+          angående ersättning till kanslioch vaktpersonal hos andra särskilda
+          utskottet, bifölls vad utskottet i detta memorial hemställt.
+        </note>
+        <note xml:id="i-2uBkVk81WjgJcoSVvNvz9Q">
+          Föredrogos men bordlades ånyo på flera ledamöters begäran andra
+          särskilda utskottets utlåtanden nr 17—22 samt tredje särskilda
+          utskottets utlåtanden nr 2 och 3.
+        </note>
+        <note xml:id="i-Dhown8b48FbYznMLC77Vmf">
+          Vid föredragning av tredje särskilda utskottets memorial nr 4,
+          angående ersättning till kanslioch vaktpersonalen hos tredje särskilda
+          utskottet, bifölls vad utskottet i detta memorial hemställt.
+        </note>
+        <note xml:id="i-2LzAz1485BdGEeuJYX58Yq">
+          Vid föredragning av Kungl. Maj:ts denna dag avlämnade propositioner
+          nr 21, 22 och 24 blevo desamma på begäran bordlagda.
+        </note>
+        <note xml:id="i-KEJixqQKp2E1gTqj9Co4oB">
+          Anmäldes och bordlades tredje särskilda utskottets utlåtande
+          nr 5, i anledning av Kungl. Maj:ts proposition med förslag till
+          förordning om värnpliktslån.
+        </note>
+        <note xml:id="i-Mwosmcrn81WC4P6gq1Yrn3">
+          Justerades ytterligare protokollsutdrag för denna dag, varefter
+          kammarens sammanträde avslutades kl. 8.10 e. m.
+        </note>
+        <note xml:id="i-GNBCM8xU2wmX7CtF29q63Y">
+          In fidem G. H. Berggren.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

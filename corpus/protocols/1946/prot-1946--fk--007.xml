@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1946</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1946</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,1576 +25,1549 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1946--fk--7</head>
-          <docDate when="1946-01-30">1946-01-30</docDate>
-          <docDate when="1946-02-02">1946-02-02</docDate>
-          <docDate when="1946-02-04">1946-02-04</docDate>
-          <docDate when="1946-02-09">1946-02-09</docDate>
-          <docDate when="1946-02-12">1946-02-12</docDate>
-          <docDate when="1946-02-13">1946-02-13</docDate>
-          <docDate when="1946-02-16">1946-02-16</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-000.jp2/_view"/>
-          <note xml:id="i-NKEttqFZWs2XVZDRDd78Z6">
-            RIKSDAGENS PROTOKOLL.
-          </note>
-          <note xml:id="i-8H7ZBEG1EheTTpu7KLpNUA">
-            1946. Första kammaren. Nr 7.
-          </note>
-          <note type="date" xml:id="i-X9ngQBFjagk3s9eCFsYkz1">
-            Lördagen den 9 februari.
-          </note>
-          <note xml:id="i-EGMG1vKizfDB9qRBZjuQFj">
-            Kammaren sammanträdde kl. 2 eftermiddagen; och dess förhandlingar
-            leddes av herr andre vice talmannen.
-          </note>
-          <note type="speaker" xml:id="i-4nhWhguHbVkD9PuPkXkr1u">
-            Herr statsrådet Sträng avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-KjtbGCRLUgdFjZQUQpvyWb">
-            ts propositioner:
-          </note>
-          <note xml:id="i-VZwbkEuCWDY7BF4ZzgJLWK">
-            nr 48, angående nedläggande av driften vid Svenska skifferoljeaktiebolagets
-            oljeutvinningsanläggningar vid Kinne-Kleva m. m.;
-          </note>
-          <note xml:id="i-ADBV5eincUgUbrnhHbirBU">
-            nr 49, angående beredande av täckning för vissa medelsbrister,
-            redovisade såsom propriebalanser i försvarets civilförvaltnings
-            räkenskaper;
-          </note>
-          <note xml:id="i-KgfdYkuxnEpqUFBZ1X9ywg">
-            nr 50, angående livränta åt Carl Johan Eric Tersmeden m. m.;
-            samt
-          </note>
-          <note xml:id="i-Xcbko2zRjfi4qSVrgCtG3z">
-            nr 51, angående anslag till lindring av mindre bemedlades kostnader
-            för djursjukvård.
-          </note>
-          <note type="speaker" xml:id="i-R3sLSFzvr5yYMCFGCbn1jZ">
-            Herr statsrådet Sträng, som meddelat, att han ämnade vid detta
-            sammanträde besvara herr Gryms interpellation angående tilldelningen
-            av fodersäd, erhöll ordet och anförde:
-          </note>
-          <u who="Q354112" xml:id="i-387099ef229ee642-0" next="i-AuUSr7vXAwxqYLNH3Gxczo">
-            <seg xml:id="i-QnoKmnaEXtr7wWtGkGfVjS">
-              Herr talman! Med första kammarens tillstånd har dess ledamot
-              herr Grym till chefen för folkhushållningsdepartementet riktat
-              följande frågor:
-            </seg>
-            <seg xml:id="i-2SQ6renqWez5W8eNgbFk8N">
-              Är tillgången på fodersäd så knapp, att en större tilldelning
-              av detta fodermedel icke hade kunnat meddelas för ransoneringsperioden
-              1 januari—14 mars 1946?
-            </seg>
-            <seg xml:id="i-28C994uAvf2tvWHsDSnJcc">
-              Om tillgången på fodersäd medgiver, har herr statsrådet för avsikt
-              att vidtaga sådana åtgärder, att fodersädstilldelningen för hästar,
-              brukade i särskilt tungt skogsarbete, höjes?
-            </seg>
-            <seg xml:id="i-HHKFExjp23dwkvj2vWPMKj">
-              Efter överenskommelse med chefen för folkhushållningsdepartementet
-              kommer jag att besvara denna interpellation.
-            </seg>
-            <seg xml:id="i-QMGnbJLwqW34ERNYkkTmQ1">
-              För att man skall kunna bedöma de av interpellanten framställda
-              spörsmålen, synes det nödvändigt att göra klart för sig, vilka
-              myckenheter fodersäd, som sammanlagt finnas disponibla för tilldelning
-              under innevarande konsumtionsår, och för vilka ändamål dessa myckenheter
-              skola förslå. I samband med uppgörandet av en plan för det s.
-              k. fodersädsavståendet uppskattade statens livsmedelskommission
-              det totala tilldelningsbehovet till 386 000 ton. Detta behov fördelade
-              sig på olika ändamål sålunda: för utsäde 60 000 ton, för beredning
-              av gryn och mjöl 75 000 ton, för tilldelning åt bryggerier 21
-              000 ton, för tilldelning åt brännerier 1000 ton, för utfodring
-              av arméns hästar 9 000 ton och för andra utfodringsändamål 220
-              000 ton.
-            </seg>
-          </u>
-          <note xml:id="i-PTYSbhCD7yHWeY2mWqkujG">
-            I planen upptogs därjämte avsättning till ett övergångslager
-            per den 31 augusti 1946 med 30000 ton. Det sammanlagda behovet
-            av fodersäd uppskattades därför till 416 000 ton.
-          </note>
-          <u xml:id="i-AuUSr7vXAwxqYLNH3Gxczo" prev="i-387099ef229ee642-0" who="Q354112" next="i-387099ef229ee642-1">
-            <seg xml:id="i-P2xRuok9TijpurVngECgmX">
-              För täckande av nämnda behov, 416 000 ton, fanns vid regleringsårets
-              början tillgängligt ett övergångslager av 34 000 ton, bestående
-              av fodersäd och till människoföda icke tjänlig brödsäd. Med hänsyn
-              till att enligt planen ett nytt övergångslager skulle bildas under
-              regleringsåret har hela det gamla övergångslagret beräknats kunna
-              tagas i anspråk. Enligt vad kommissionen
-            </seg>
-          </u>
-          <note xml:id="i-74Wzg4UWNtwZhpABJ9mdSg">
-            Första kammarens protokoll 1946. Nr 7. 1
-          </note>
-          <note xml:id="i-9ogAGomh1EZrsLYHG4Ht4m">
-            Ang. tilldelningen av fodersäd.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-001.jp2/_view"/>
-          <note type="date" xml:id="i-NdKEtqHazJNyvsWVamwoH4">
-            2 Nr 7. Lördagen den 9 februari 1946.
-          </note>
-          <u who="Q354112" xml:id="i-387099ef229ee642-1" prev="i-AuUSr7vXAwxqYLNH3Gxczo" next="i-387099ef229ee642-2">
-            <seg xml:id="i-KmqaoxH1P7F3rjsF7jgyNW">
-              Ang. tilldelningen av fodersäd. (Forts.) upplyst, har kommissionen
-              sökt utnyttja alla möjligheter att vid tilldelningen ersätta fodersäd
-              med andra fodermedel. I tilldelningsplanen ha i överensstämmelse
-              härmed upptagits 12 000 ton betfor, 30 000 ton kli och 20 000
-              ton till människoföda icke tjänlig brödsäd av 19435 års skörd.
-              Härmed har täckning erhållits för sammanlagt 96 000 ton. Återstoden
-              av tilldelningsbehovet, eller 320 000 ton, skulle ha behövt uttagas
-              genom leveranser av fodersäd från Jordbrukarna. Emellertid har
-              det icke varit möjligt att i år uttaga en så stor kvantitet. Anspråken
-              på jordbrukarna i nämnda avseende ha — särskilt med hänsyn till
-              uppkomna skördeskador av olika slag — måst sänkas så mycket, att
-              den totalkvantitet, på vilken leveransbesked utfärdats, icke uppgår
-              till mer än 290 000 ton. Sedermera ha sådana underrättelser, enligt
-              vad kommissionen vidare upplyst, inkommit från kristidsstyrelserna,
-              att man tyvärr nödgas räkna med att denna leveranskvantitet slutligen
-              skall komma att i hög grad underskridas.
-            </seg>
-            <seg xml:id="i-SBUozT6NTiL2UVPgHN1tQu">
-              Man hade-alltså redan i höstas ett underskott i tilldelningsplanen
-              på 30 000 ton. I samma mån som avståendeleveranserna från jordbrukarna
-              icke komma att uppgå till nyssnämnda kvantitet, 290 000 ton, stiger
-              underskottet. Det är med hänsyn till den fortgående ökningen av
-              kreatursstocken och andra omständigheter även troligt, att det
-              uppskattade behovet av fodersäd för tilldelning för utfodringsändamål
-              är för lågt. Man torde därför tyvärr få räkna med att bristen
-              kommer att bli avsevärt större än 30 000 ton.
-            </seg>
-            <seg xml:id="i-2CL5Hnmnq7KjX8V5GN2Jw4">
-              Bland annat för att täcka underskottet på fodersäd för utfodringsändamål
-              har kommissionen, enligt vad kommissionen meddelat, vidtagit alla
-              tänkbara åtgärder för att från utlandet kunna importera fodermedel
-              såsom tillskott till den egna tillgången. Det har också lyckats
-              kommissionen att genom spannmålsbolaget inköpa vissa kvantiteter
-              kli och majs. Emellertid inkomma endast en mindre del av de inköpta
-              myckenheterna inom sådan tid, att de bli disponibla för utdelning
-              under våren.
-            </seg>
-            <seg xml:id="i-CYbzsXPnBty4KSf7oV6dod">
-              Av de uppgifter, som nu lämnats, torde framgå, att förhållandena
-              alltjämt äro sådana, att största möjliga sparsamhet måste iakttagas
-              vid tilldelningen av fodersäd eller ersättningsmedel för fodersäd
-              till djurinnehavare. Kommissionen har därför också hittills under
-              konsumtionsåret i allmänhet ansett sig nödgad att tillämpa samma
-              knappa tilldelningsnormer, som gällde under förra konsumtionsåret.
-              Vad beträffar fjäderfä, ha normerna under höstmånaderna 1945 till
-              och med varit betydligt lägre än under motsvarande tid 1944. De
-              förbättringar, som kunnat åstadkommas i tilldelningshänseende,
-              ha varit relativt obetydliga. Den främsta förbättringen har just
-              gällt arbetshästar och särskilt den grupp arbetshästar, som interpellanten
-              avser, nämligen hästar i tyngre skogskörslor. 'Tilldelningen för
-              sistnämnda slag av hästar utgör för tilldelningsperioden den 1
-              januari—den 14 mars 1946 2,6 kg fodersäd, 1,3 kg betfor och 1,5
-              kg kli, eller tillhopa 5,4 kg kraftfoder per dag. Vid jämförelse
-              mellan de båda perioderna bör beaktas, att dagstilldelningen av
-              betfor till viss del ersatts med kli.
-            </seg>
-            <seg xml:id="i-9rwaDZZXTCFBgwxUWkVAnc">
-              I interpellationen anföres, att en normal dagsgiva av havre för
-              en skogshäst uppgår till 10 kg, medan högivan normalt är jämförelsevis
-              liten. 10 kg havre motsvara 8—38,5 foderenheter. Den av kommissionen
-              medgivna tilldelningen av kraftfoder till skogshästar under innevarande
-              period motsvarar 4,6 foderenheter per dag. Vid fastställandet
-              av denna tilldelning har emellertid förutsetts, att vad som brister
-              i den önskvärda givan av kraftfoder skall utfyllas genom användning
-              av fodercellulosa och ökad användning av hö. I detta sammanhang
-              kan nämnas, att det enligt sakkunskapen är till fullo bevisat,
-              att fodercellulosa i sådana fall som de ifrågavarande utan olägenhet
-              kan användas i dagsmängder av upp till åtminstone 3—3,5 kg och
-              härvid er-
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-002.jp2/_view"/>
-          <note type="date" xml:id="i-GHZiMaYieKQ4cxPe1f9B8Q">
-            Lördagen den 9 februari 1946. Nr 7. 3
-          </note>
-          <u who="Q354112" xml:id="i-387099ef229ee642-2" prev="i-387099ef229ee642-1">
-            <seg xml:id="i-AAUqBrC6hNdep6LxprmRMt">
-              Ang. tilldelningen av fodersäd. (Forts.) sätta i det närmaste
-              samma kvantitet vanlig foderhavre. Fodercellulosa saluföres alltjämt
-              oransonerat och kan inköpas i önskvärda mängder. Vid inköp av
-              fodercellulosa erhåller jordbrukaren den fördelen, att han får
-              rätt att som tillskottsfoder inköpa 12 kg oljekraftfoder per 100
-              kg fodercellulosa.
-            </seg>
-            <seg xml:id="i-PTSgmgAP7MQgMUzDVtusph">
-              Vid utfodring med omkring 3 kg fodercellulosa per häst och dag
-              jämte därå belöpande tillskottsfoder i form av oljekraftfoderblandning
-              skulle dagstillförseln av foderenheter, om den ordinarie tilldelningen
-              av fodersäd, betfor och kli i sin helhet utnyttjas, bli ungefär
-              7,4. Denna dagsgiva ligger ganska nära det foderenhetstal av 8,5,
-              som, enligt vad nyss nämnts, motsvarar utfodring med 10 kg havre
-              per dag. Det torde icke möta några svårigheter att utfylla skillnaden
-              i foderenheter med en ökad högiva, helst som tillgången på hö
-              i år dess bättre är mycket god. Det torde här även böra framhållas,
-              att betfor, vilket innehåller icke mindre än 35—40 procent melass,
-              är särskilt lämpligt som hästfoder, då högivan är riklig och foderrotfrukter
-              eller annat saftfoder saknas.
-            </seg>
-            <seg xml:id="i-PMwP5FMcfy7gwHFvgRjxXt">
-              Av vad jag nu anfört, framgår, att en tillfredsställande utfodring
-              av skogshästarna kan äga rum även vid den tilldelning av kraftfoder,
-              som under innevarande år utgår. Med hänsyn till de mycket stora
-              svårigheterna att framskaffa tillräckliga kvantiteter fodersäd
-              eller ersättningsmedel härför torde det för närvarande tyvärr
-              icke vara möjligt att vidtaga någon höjning av tilldelningen till
-              hästar i tyngre skogskörslor. Alla möjligheter, som finnas, komma
-              dock att utnyttjas för att i görligaste mån försöka förbättra
-              situationen.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-BN8Eu19zrHC9jrAA7k3Xig">
-            Herr Grym:
-          </note>
-          <u who="Q5773997" xml:id="i-387099ef229ee642-3" next="i-387099ef229ee642-4">
-            <seg xml:id="i-S98pZTQpsvodtxFv1knoWz">
-              Herr andre vice talman! Jag ber att till herr statsrådet Sträng
-              få framföra mitt tack för det utförliga och snabba svaret på min
-              interpellation.
-            </seg>
-            <seg xml:id="i-MdBX6mupuPcDA1t5GbwrBr">
-              Statsrådets svar ger mig inte anledning till någon längre utläggning.
-              Det är tydligen ingenting annat att göra än att böja sig för fakta
-              och ta det som det är. Jag förstår utmärkt väl, att det helt visst
-              skulle ha varit glädjande för herr statsrådet, om svaret på min
-              andra fråga hade kunnat bli jakande. Det är verkligen beklagligt,
-              att tillgången på fodersäd är så dålig, att någon höjning av tilldelningen
-              inte är möjlig ens till hästar i tyngre skogskörslor. Vi få väl
-              antaga, att foderspannmålsproducenterna lojalt ha ställt sin produktion
-              utöver vad de behöva för eget behov till folkhushållets förfogande.
-              Jag tror dock, att det är på sin plats, om jag här säger, att
-              en hel del människor äro av den åsikten, att rätt stora lager
-              finnas hos producenterna. Det kan ju hända, att visst fog finnes
-              för denna ganska utbredda åsikt.
-            </seg>
-            <seg xml:id="i-SRPRpbbzz4wdH14dbuemD3">
-              Jag är inte den som vill överdriva i något avseende, men jag
-              vågar utan att begå någon överdrift säga, att om fläsk och kött
-              — och för all del även korv — äro av stor betydelse för skogsarbetarna,
-              så är havre av kanske ännu större betydelse för skogshästarna.
-              Den är rent av oumbärlig. Jag tror inte, att någon vill jäva detta
-              påstående. I varje fall äro skogsmän, veterinärer och husdjurskonsulenter
-              eniga om fodersädens stora betydelse för skogshästar.
-            </seg>
-            <seg xml:id="i-Pwj6s6ANqeb747RJdAkFqV">
-              Jag har fått mig tillsänd — utan att jag har begärt det avskrift
-              av en framställning, åtföljd av ett par intyg, som inlämnats till
-              livsmedelskommissionen, om ökad fodersädstilldelning. Dessa kortfattade
-              handlingar ge till fullo belägg för hur allvarlig situationen
-              i verkligheten är. Då denna framställning till livsmedelskommissionen
-              enligt mitt förmenande är av intresse i detta sammanhang, ber
-              jag att få föredraga den. Skrivelsen lyder:
-            </seg>
-            <seg xml:id="i-AxLv924LfTzkaXY3JD8H1C">
-              »De omfattande vedavverkningarna och industriens stora råvarubehov
-              ha i år samverkat till rekordartat drivningsarbete i skogarna.
-              Därtill ha väderleksförhållandena hittills visat sig gynnsamma,
-              varför arbetet i skogarna kom i gång ovanligt tidigt på hösten.
-              Under rådande omständigheter ha hästägarna i år fått ett tillfälle
-              att göra goda förtjänster, vilket de också i hög grad utnytt-
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-003.jp2/_view"/>
-          <note type="date" xml:id="i-8YSiunFjoDz72m5PKvfvpv">
-            4 Nr 7. Lördagen den 9 februari 1946.
-          </note>
-          <note xml:id="i-BgnDieCktePnvFVcSWZcp2">
-            Ang. tilldelningen av fodersäd. (Forts.)
-          </note>
-          <u who="Q5773997" xml:id="i-387099ef229ee642-4" prev="i-387099ef229ee642-3" next="i-EYfYZPfgPrerCed2g3WHpY">
-            <seg xml:id="i-EFFHVJsuvbV3gF45dueoaZ">
-              Jat. Detta innebär dock tydlig risk för vår häststams framtid,
-              om ej ökad fodertilldelning snarast kan beviljas. Med nuvarande
-              knappa fodertilldelning, ca 2,5 kg fodersäd per dag, och den ovanligt
-              långa körningssäsong, som redan vid denna tidpunkt på året ligger
-              bakom oss (premietilläggen för vedkörning under förliden sommar
-              och höst) komma hästarna nämligen icke att stoppa för ytterligare
-              påfrestningar. Att skogshästarnas kondition inom länet redan är
-              nedsatt i början av gagnvirkeshuggningssäsongen är högst betänkligt,
-              varom vi ytterligare fått belägg genom intyg från husdjurskonsulenten
-              Arwidsson och länsveterinär Enequist i Norrbottens län.
-            </seg>
-            <seg xml:id="i-6n8b79g82jEw8aN4CfE1Lq">
-              Med anledning härav se vi (som tagit del av eder skrivelse till
-              kristidsstyrelsen i Norrbottens län d:nr 2132 vf) oss nödsakade
-              ånyo hemställa om ökad fodertilldelning.
-            </seg>
-          </u>
-          <note xml:id="i-6RQ6LXsE3KzLEqbG6DCmDR">
-            Luleå den 4 februari 1946.
-          </note>
-          <note xml:id="i-FpSnBJfF4WZcKRotNdhH6p">
-            För överjägmästaren i övre Norrbottens distrikt Allan Fredenberg,
-            för över- Jägmästaren i nedre Norrbottens distrikt C.-A. Sjöquist,
-            Munksunds aktiebolag, skogsförvaltningen, Folke von Heideken.»
-          </note>
-          <u xml:id="i-EYfYZPfgPrerCed2g3WHpY" prev="i-387099ef229ee642-4" who="Q5773997" next="i-387099ef229ee642-5">
-            <seg xml:id="i-7TC7y8NMYFG4wXma1iX59Q">
-              Länsveterinären i Norrbottens län har avlämnat följande intyg:
-            </seg>
-          </u>
-          <u who="Q5773997" xml:id="i-387099ef229ee642-5" prev="i-EYfYZPfgPrerCed2g3WHpY" next="i-4nm4AMoYhnikUupMgL9Ayx">
-            <seg xml:id="i-AEbTdZd5RxKMvBk2USaZb8">
-              »Med anledning av att från forstligt håll framhållits vådan av
-              den ringa tilldelningen av fodersäd till de hästar, som sysselsättas
-              vid virkesavverkningarna inom länet, får jag härmed framhålla
-              följande:
-            </seg>
-            <seg xml:id="i-VQ6PEkabxQRALGXRXi7KJb">
-              Genom att lämpligt vinterföre inträffade ovanligt tidigt i höst
-              fingo hästarna ej den viloperiod efter höstplöjningarna, som de
-              vanligtvis bruka erhålla. Särskilt de hästar, som gått på ett
-              magert skogsbete under sommaren, behöva då fodras upp ett par
-              månader för att kunna orka med det tunga arbetet i timmerskogen.
-              De stora lass, som numera lastas på basvägarna — ända upp till
-              9 å 10 ton efter en häst — kräva en ordentlig utfodring av dragaren.
-              Hästen hinner ej under de korta rasterna äta sig mätt på hö eller
-              ersättningsfoder, utan fordrar krossad säd eller kli för att ej
-              magra av. Utfodring med betfor är olämplig i timmerskogen. Det
-              går ej att blötlägga betfor ordentligt i de på dagen utkylda skogsstallarna,
-              det fryser till en sörja. Sker ej blötläggning får hästen lätt
-              förstoppning i foderstrupen. Då betfor dessutom innehåller relativt
-              mycket osmältbar äggvita, som kan ge anledning till jäsningar
-              eller t. o. m. äggviteförgiftningar, bör det ej tillgripas annat
-              än i nödfall.
-            </seg>
-            <seg xml:id="i-LQ4Yfe1rCrLZAvvfYaHSG4">
-              Med hänsyn till vad ovan framförts, vill jag — icke minst ur
-              djurskyddssynpunkt — kraftigt påpeka lämpligheten av att tilldelningen
-              av fodersäd höjes avsevärt.
-            </seg>
-          </u>
-          <note xml:id="i-NKojU4tkp9XTrzxXnRTzN6">
-            Luleå den 2 februari 1946. Nils Enequist.»
-          </note>
-          <u xml:id="i-4nm4AMoYhnikUupMgL9Ayx" prev="i-387099ef229ee642-5" who="Q5773997" next="i-387099ef229ee642-6">
-            <seg xml:id="i-WhmvVJVLQyB93hgmW6nmEn">
-              Husdjurskonsulenten hos Norrbottens läns hushållningssällskap
-              i Luleå har avgivit följande intyg:
-            </seg>
-          </u>
-          <u who="Q5773997" xml:id="i-387099ef229ee642-6" prev="i-4nm4AMoYhnikUupMgL9Ayx" next="i-387099ef229ee642-7">
-            <seg xml:id="i-MgBEVvCD1sLzXSvXmr62kS">
-              »På begäran får undertecknad härmed intyga, att den fodertilldelning,
-              som för innevarande år tillämpas för våra skogshästar, är i hög
-              grad otillräcklig. Innevarande vinter har arbetet för våra skogshästar
-              varit påfrestande, i det säsongen utsträckts till att omfatta
-              en stor del av hösten 1945, och på många håll synes redan nu hästarnas
-              kondition vara sådan, att man måste befara att arbetsprestationerna
-              under eftervintern bli låga samtidigt som hästarnas hälsa kan
-              riskeras. Detta kommer att medföra minskade utdrivningar och samtidigt
-              stora förluster för den enskilde hästägaren. Det vore därför synnerligen
-              nödvändigt, att den nu tillämpade rationen om möjligt kunde fördubblas
-              för den tid som återstår för vinterns drivningar.
-            </seg>
-            <seg xml:id="i-N6ZBhTz74m78rfEha2Niza">
-              Betfor har ju i vissa fall med fördel kunnat utnyttjas, men enär
-              detta fodermedel vid utfodring till hästarna måste blötläggas,
-              har det varit vissa svårigheter förenade med dess användning vid
-              skogskörningarna, då hästarna i de flesta fall måste inhysas i
-              skogsstallar.
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-004.jp2/_view"/>
-          <note type="date" xml:id="i-RWSXvWTu76Z3KxFMXqmZmE">
-            Lördagen den 9 februari 1946. Nr 7. 5
-          </note>
-          <note xml:id="i-GZ4ASMFwWfhjLZYEHniCQM">
-            Ang. tilldelningen av fodersäd. (Forts.)
-          </note>
-          <u who="Q5773997" xml:id="i-387099ef229ee642-7" prev="i-387099ef229ee642-6" next="i-387099ef229ee642-8">
-            <seg xml:id="i-NKAPbPXBut8N6WHLboYnJ2">
-              Skulle fodersäd ej kunna i tillfredsställande mängd tilldelas
-              hästarna, kunde möjligtvis en del av fodersäden ersättas med vetekli,
-              om tillräckliga kvantiteter av denna vara kunde ställas till förfogande.
-            </seg>
-          </u>
-          <note xml:id="i-XYWpFe1wdaErLSRDqDckUw">
-            Luleå den 30 januari 1946. Erik Arwidsson.»
-          </note>
-          <u who="Q5773997" xml:id="i-387099ef229ee642-8" prev="i-387099ef229ee642-7">
-            <seg xml:id="i-BaC45UYZ67HF9ttYeHuRUx">
-              Om man tager i beaktande innehållet i herr statsrådets svar på
-              min interpellation, kan livsmedelskommissionen knappast tillmötesgå
-              denna framställning från Norrbotten. Länsveterinärens uttalande,
-              att »utfodring med betfor är olämplig i timmerskogen» är värt
-              att observera. För övrigt ha erfarna skogskörare, som försökt
-              att utfodra sina hästar med detta fodermedel, kommit till samma
-              resultat. Betfor bör nog — trots allt — hänföras till gruppen
-              nödfoder. Har man inte möjlighet att ge skogshästarna fodersäd
-              och kli i tillräcklig utsträckning, är det bättre att dryga ut
-              foderstaten med hö än med betfor.
-            </seg>
-            <seg xml:id="i-DDCodrEmG5HjDJxaAkGcLe">
-              En liten ljusglimt finner man i sista meningen i herr statsrådets
-              svar. Det framhålles där, att »alla möjligheter, som finnas, komma
-              att utnyttjas för att. i görligaste mån försöka förbättra situationen».
-              Jag tror helt visst, att de, som bära det största ansvaret, komma
-              att göra sitt allra bästa för att råda bot på svårigheterna. Vi
-              få också hoppas, att det snart nog skall bli bättre förhållanden
-              på såväl detta som många andra områden.
-            </seg>
-            <seg xml:id="i-4yrDsX2XMepjMTsZ37n2rE">
-              Jag ber att än en gång få tacka herr statsrådet för det svar,
-              som jag har fått på min interpellation.
-            </seg>
-          </u>
-          <note xml:id="i-2HBVAzTj5J2Sv7JZtbFbVY" type="speaker">
-            Ordet lämnades härefter ånyo till herr statsrådet Sträng, som
-            tillkänna- Ang. reglering givit, att han hade för avsikt att vid
-            detta sammanträde besvara jämväl herr v fiskerätten Mattssons
-            interpellation angående reglering av fiskerätten i norra Bohuslän,
-            Bohuslän. och nu yttrade:
-          </note>
-          <u who="Q354112" xml:id="i-H7tDV1rBLvQ81dBmg8y5U4" next="i-387099ef229ee642-9">
-            <seg xml:id="i-HFHBCxKbmSx36MADPd7NJ7">
-              Herr andre vice talman! Med första kammarens tillstånd har dess
-              ledamot herr Oscar Mattsson till mig riktat följande interpellation.
-            </seg>
-          </u>
-          <u who="Q354112" xml:id="i-387099ef229ee642-9" prev="i-H7tDV1rBLvQ81dBmg8y5U4" next="i-387099ef229ee642-10">
-            <seg xml:id="i-EWAGGbtWDA3AjHsEeJ2efV">
-              Är statsrådet villig medverka till att fiskerättskommittén snarast
-              möjligt framlägger förslag till fiskerättens reglering i norra
-              Bohuslän och att en lagstiftning i denna fråga snarast förelägges
-              riksdagens prövning?
-            </seg>
-            <seg xml:id="i-9VMgSG8S9D5Q2vW1NDBcK3">
-              Av interpellationens ordalydelse kan man måhända närmast få den
-              uppfattningen, att därmed åsyftas en fullständig omreglering för
-              norra Bohuslän av de för denna landsända gällande fiskerättsliga
-              bestämmelserna. I den mån dessa bestämmelser äga tillämpning även
-              för andra delar av rikets kuster är en sådan separat behandling
-              dock icke möjlig. Av den motivering som interpellanten lämnat
-              torde också framgå, att han ej tagit sikte på så vittgående åtgärder
-              utan endast avsett de speciella stadgandena för norra Bohuslän
-              om rätt till hummerfiske i enskilt vatten.
-            </seg>
-            <seg xml:id="i-2SM87mJ5BFAzM6gsr1pNN8">
-              Enligt gällande bestämmelser tillkommer hummerfisket vid vissa
-              delar av den bohuslänska kusten strandägaren ensam innanför »180-metersgränsen».
-              Så är förhållandet dels i Åby-, Brooch Gullmarsfjordarna i mellersta
-              Bohuslän och dels inom de tre nordligaste kusthäraderna, Vette,
-              Tanums och Kville. Här når alltså det fria hummerfisket som regel
-              ej längre in än till »180-metersgränsen». Inom Vette, Tanums och
-              Kville härader har emellertid lagen medgivit viss rätt till fritt
-              hummerfiske också innanför nämnda gränslinje under särskilda förutsättningar.
-              Sålunda stadgas, att om »vid stränderna av en ö och därtill hörande
-              holmar» hummerfiske av ålder oklandrat bedrivits jämväl av »andra
-              å ön boende än strandägarna», därvid skall förbliva.
-            </seg>
-            <seg xml:id="i-K152SKVaJinC4RCRfiSrJk">
-              Från fiskerättskommitténs ordförande har jag inhämtat, att kommittén
-              under sitt arbete till övervägande även upptagit frågan om bestämmelserna
-              rörande hummerfisket vid den bohuslänska kusten. Kommittén har
-              emellertid ännu ej tagit slutlig ställning till frågan. Ytterligare
-              utredning har nämligen befunnits erforderlig för att giva en tillförlitlig
-              uppfattning om det en-
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-005.jp2/_view"/>
-          <note type="date" xml:id="i-VuLdZHWj1vsQFKoWjh5Ljc">
-            6 Nr 7. Lördagen den 9 februari 1946.
-          </note>
-          <u who="Q354112" xml:id="i-387099ef229ee642-10" prev="i-387099ef229ee642-9">
-            <seg xml:id="i-GU9pp9EHxPNMYLtPPqvp1r">
-              Ang. reglering av fiskerätten i norra Bohuslän. (Forts.) skilda
-              hummerfiskets ekonomiska betydelse, detta särskilt med hänsyn
-              till spörsmålet i vad mån sagda fiske kan anses utgöra en förutsättning
-              för att de smärre strandägarna skola äga full försörjning på sina
-              fastigheter och följaktligen dess borttagande kunde medföra uppkomsten
-              av ett slags »ofullständiga jordbruk».
-            </seg>
-            <seg xml:id="i-PquywkNA6ZVd34PSLTdUvC">
-              Vad interpellanten anfört om att de åsyftade förhållandena i
-              norra Bohuslän äro tämligen isolerade från fiskerättsfrågorna
-              vid rikets övriga kuster torde i och för sig vara riktigt. Något
-              lagtekniskt hinder mot att särskilt för sig pröva frågan om ett
-              eventuellt fullständigt frigivande av det bohuslänska hummerfisket
-              kan väl därför knappast anses möta. Man torde dock kunna starkt
-              ifrågasätta lämpligheten av att, sedan arbetet med en fullständig
-              översyn av fiskelagstiftningen nu igångsatts och fortskridit så
-              långt som skett. utan mycket trängande skäl gå vidare på de partiella
-              reformernas väg och ånyo ändra ett lagstadgande, som tillkommit
-              för mindre än tjugu år sedan. Det beräknas, att fiskerättskommitténs
-              uppdrag skulle kunna i sin helhet avslutas under första hälften
-              av nästa år. Någon större tidsvinst skulle den ifrågasatta utbrytningen
-              följaktligen icke medföra. De intryck kommittén, enligt vad jag
-              inhämtat, fått vid sina sammanträden med den bohuslänska fiskarbefolkningen,
-              ha knappast heller givit belägg för att de icke-strandägande fiskarenas
-              förhållanden just nu hotas av en så snabbt fortgående försämring,
-              att en forcering av ärendet på grund därav kan anses påkallad.
-              Under sådana förhållanden torde en partiell lagstiftningsreform
-              på området knappast nu böra komma i fråga.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-W9HdHT8jt9UX6XZPt6sYxw">
-            Herr Mattsson:
-          </note>
-          <u who="Q5980048" xml:id="i-a520df63849ddeb5-0" next="i-a520df63849ddeb5-1">
-            <seg xml:id="i-JXXucE5EfPMQLpfcK5RZkj">
-              Herr andre vice talman! Jag ber att till herr statsrådet få framföra
-              ett tack för svaret på min interpellation. Av detta framgår, att
-              statsrådet icke tagit ställning till själva sakfrågan i föreliggande
-              spörsmål, utan — efter vad jag kan förstå — föredragit, att dessförinnan
-              invänta resultatet av den pågående utredningen om en revision
-              av fiskerätten i sin helhet.
-            </seg>
-            <seg xml:id="i-2E5Kr3dVw8d8KbEzsMRg5b">
-              Trots att fiskerättskommittén till herr statsrådet lämnat uppgifter,
-              som närmast gå i motsatt riktning, förhåller det sig tyvärr så,
-              att gällande bestämmelser angående fiskerätten i norra Bohuslän
-              medföra stora olägenheter för de fiskare, som ej ha strandrätt.
-              Detta gäller speciellt i fråga om hummerfisket. Lagens föreskrift,
-              att strandrätten omfattar från två meters stadigt djup till 180
-              meter ut i vattnet, medför att hela områden kunna avstängas. Den
-              kuststräcka det här är fråga om är söndersplittrad och fylld av
-              öar, holmar och skär. Från en ö eller holme till en annan måste
-              avståndet således vara större än 360 meter för att vederbörande
-              skall kunna komma till fritt fiskevatten. I praktiken förfoga
-              strandägarna över de inre fiskeplatserna, under det att icke-strandägande
-              fiskare äro hänvisade till att söka sig ut till fiskeplatser längre
-              ut mot öppna havet.
-            </seg>
-            <seg xml:id="i-Au9hWvK3MAAj2LBP1d5JJg">
-              Som jag framhöll i min interpellation ha olägenheterna för fiskarena
-              att kunna utöva sin näring förvärrats under de senare åren. I
-              syfte att belysa, hur det ligger till i denna del, ber jag att
-              få citera något av innehållet i ett brev, som kommit oss till
-              handa från ett antal fiskare. Det heter i brevet: »När hummerfisket
-              började den 1 oktober hade fiskarena som vanligt sina hummertinor
-              där de sedan urminnes tider opåtalt fiskat, vid vad de trodde
-              vara fritt fiskevatten, bl. a. Makrilskär. Nu låg nämnda fiskevatten
-              närmare ön Hornö än 180 meter, varför det blev åtal vid häradsrätten
-              för olaga fiske. Genom dom den 21 december» — detta var förra
-              året — »blev det dryga böter för de fiskare, som brukat sina redskap
-              där vi sedan ålder opåtalat fått fiskat. Nu gör strandägarna anspråk
-              på allt fiske vid de holmar och skär å grund där fisket av ålder
-              varit fritt för allmänheten då de ligga i närheten
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-006.jp2/_view"/>
-          <note type="date" xml:id="i-T84mcirXaFt3NXkxLzDybQ">
-            Lördagen den 9 februari 1946. Nr 7. 7
-          </note>
-          <u who="Q5980048" xml:id="i-a520df63849ddeb5-1" prev="i-a520df63849ddeb5-0">
-            <seg xml:id="i-1fWyC4N2BEv3jsAmpkEV2">
-              Ang. reglering av fiskerätten i norra Bohuslän. (Forts.) av deras
-              öar eller land. Så nu ha vi snart inget att fiska på förrän vi
-              komma ut på öppna havet. — Fjordarna här äro smala, ej över 2
-              gånger 180 meter, varför vi ingenting har att fiska på när vi
-              inte få komma närmare land än från två meter stadigt djup och
-              därifrån 180 meter ut från land.
-            </seg>
-            <seg xml:id="i-CjeNc6jDxH5Yoh3xCKebqV">
-              När så på grund av arbetslösheten i stenhuggerierna många bofasta
-              stenhuggare också blivit tvungna att söka sin utkomst genom småeller
-              inomskärsfiske, ser vi oss ej i stånd att kunna genom fiske förtjäna
-              vårt och familjernas uppehälle. Kan vi inte få samma rätt att
-              fiska som rikets övriga invånare, får vi söka hjälp från stat
-              och kommun eller avflytta härifrån, där vi i många generationer
-              haft vår utkomst av fiske. Att vi på grund av en sådan märkvärdig
-              lag, som endast gäller för Kville, Tanums och Vette härader, känner
-              oss utstötta ur det svenska rättssamhället behöver vi ej påpeka.»
-            </seg>
-            <seg xml:id="i-XfWveMmqB3hC4hokENdPPS">
-              Av det sagda torde tydligt framgå, att olägenheterna med nuvarande
-              ordning äro avsevärda. Det är därför icke utan en viss förvåning,
-              som man tager del av statsrådets meddelande om att vid fiskerättskommitténs
-              överläggningar med den bohuslänska fiskarbefolkningen knappast
-              något framkommit, som kan ge belägg för att de icke-strandägande
-              fiskarenas yrkesförhållanden fortgående försämras. En lagändring
-              i sådan riktning, att fiske fritt kan utövas även av andra personer
-              än strandägarna, synes påkallad. Att vid en reglering av fiskerätten
-              tillbörlig hänsyn även bör tagas till strandägarnas rätt, är en
-              självklar sak. För att dessa skola kunna undgå ekonomisk förlust
-              torde ett inlösningsförfarande få tillgripas.
-            </seg>
-            <seg xml:id="i-G6qgsh4jx4Y37xzhNa1JAc">
-              Enligt min mening hade det varit lyckligt, om en reglering av
-              fiskerätten omedelbart kunnat komma till stånd. Ä andra sidan
-              är det förståeligt, att statsrådet icke nu vill medverka till
-              en sådan, med hänsyn till att fiskerättskommittén ställt i utsikt
-              att utredningen om en revision av fiskerätten i dess helhet snart
-              skall vara slutförd. Det vore önskvärt, om i samband med den fortsatta
-              utredning, som, enligt vad statsrådet uppgav, planerats inom fiskerättskommittén,
-              förhandlingar kunde föras med såväl strandägare som ickestrandägare.
-              Sedan en revision av lagstiftningen på fiskerättens område nu
-              ställts i utsikt, vill jag uttrycka den förhoppningen, att nuvarande
-              särbestämmelser, som ha avseende endast å norra delen av Bohuslän,
-              måtte utgå ur lagen. Jag vill sluta med en vädjan till statsrådet
-              att medverka till att — så snart ske kan efter det fiskerättskommittén
-              blivit färdig med sin utredning förslag till ny lag i ämnet förelägges
-              riksdagen.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-PHgmoM66KDHKFQ6GKDjrnF">
-            Herr statsrådet Sträng:
-          </note>
-          <u who="Q354112" xml:id="i-3454f33eabc70417-2">
-            <seg xml:id="i-R8VxStHxe53XN3DCsJ6ohE">
-              Herr andre vice talman! Jag vill erinra om att denna fråga var
-              uppe motionsvägen så sent som vid 1944 års riksdag och att jordbruksutskottet
-              därvid framhöll lämpligheten av att fiskerättskommittén finge
-              handlägga frågan i samband med andra, närliggande problem, vilka
-              voro under övervägande att upptagas till behandling. Vid samtal,
-              som jag haft med fiskerättskommitténs ordförande, har denne uppgivit,
-              att någon absolut samstämmig mening icke kom till uttryck vid
-              de möten, som ägt rum mellan representanter för de parter, som
-              beröras av frågan. Jag medger, att det är ett delikat spörsmål,
-              som man har att taga ställning till, när en fiskargrupps intressen
-              stå emot en annan fiskargrupps och frågan härtill kompliceras
-              av den omständigheten att, för den händelse man skulle tillmötesgå
-              interpellanten i hans uppfattning, detta måste ha till ofrånkomlig
-              konsekvens vissa ekonomiska åtaganden från statsmakternas sida.
-              Med hänsyn härtill och med hänsyn till att fiskerättskommittén
-              avser att slutföra sitt arbete under loppet av första halvåret
-              1947, förefaller det naturligt att avvakta det resultat, vartill
-              kommitténs arbete kan leda, innan man går att taga ställning till
-              föreliggande fråga.
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-007.jp2/_view"/>
-          <note type="date" xml:id="i-XHQjwVJGGz9KauxfPdY1MF">
-            8 Nr 7. Lördagen den 9 februari 1946.
-          </note>
-          <note xml:id="i-HQbKXF7cdAAgWCibFhTCRi">
-            Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
-          </note>
-          <note xml:id="i-8YnahbvpTrtmhHrPhaAAKg">
-            nr 40, angående anslag till kraftstationer vid Harsprånget och
-            Kilforsen;
-          </note>
-          <note xml:id="i-LtW8ntrVN8L4trGgt42gT6">
-            nr 41, angående försäljning av vissa statens järnvägar tillhöriga
-            fastigheter 1 Nässjö;
-          </note>
-          <note xml:id="i-G249sw7RznYxbo7XKASLUh">
-            nr 43, angående inköp för postverkets räkning av tomter i Karlskrona;
-          </note>
-          <note xml:id="i-UdX1exoLde63Hu1vUihcAS">
-            nr 45, angående inrättande av högre tekniska läroverk i Gävle
-            och Karlskrona; samt
-          </note>
-          <note xml:id="i-YPa7V7zYTRx291LykPNBXF">
-            nr 46, angående statsbidrag i samband med borttagande av broavgifterna
-            vid Lidingöbron.
-          </note>
-          <note xml:id="i-4RLHv78t2HZ9LiCEYK8fy5">
-            Föredrogs och hänvisades till jordbruksutskottet Kungl. Maj:ts
-            proposition nr 47, angående anslag till bidrag för anläggande
-            av gemensamma tvättinrättningar på landsbygden.
-          </note>
-          <note xml:id="i-8qrLnCCAuHAXc1azd7oVug">
-            Föredrogos och bordlades Kungl. Maj:ts denna dag avlämnade propositioner
-            nr 48—251.
-          </note>
-          <note xml:id="i-Ws7vemmSMdug4xcPvrrR7u">
-            Anmäldes och bordlades
-          </note>
-          <note xml:id="i-SpRJQETGT2T7PgA1qJP51L">
-            statsutskottets utlåtanden:
-          </note>
-          <note xml:id="i-26bQD36ZHsQ5UrKrP76DhM">
-            nr 14, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat IT till riksstaten för budgetåret 1945/46, i vad
-            propositionen avser Justitiedepartementets verksamhetsområde;
-          </note>
-          <note xml:id="i-EUqeK2GDTpQ5vFey7mivCp">
-            nr 15, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tilläggsstat II till riksstaten för budgetåret 1945/46, i vad
-            propositionen avser utrikesdepartementets verksamhetsområde ;
-          </note>
-          <note xml:id="i-4feTSPfnFdTdNRh9xtAnxo">
-            nr 16, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tilläggsstat II till riksstaten för budgetåret 1945/46, i vad
-            propositionen avser försvarsdepartementets verksamhetsområde ;
-          </note>
-          <note xml:id="i-GJpa3NxsKKKUCSqzvh3gZo">
-            nr 17, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tilläggsstat IT till riksstaten för budgetåret 1945/46, i vad
-            propositionen avser socialdepartementets verksamhetsområde, jämte
-            i ämnet väckt motion;
-          </note>
-          <note xml:id="i-U2WmKEiL72d1ZZsLNXrbi5">
-            nr 18, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tilläggsstat II till riksstaten för budgetåret 1945/46, i vad
-            propositionen avser kommunikationsdepartementets verksamhetområde;
-          </note>
-          <note xml:id="i-6M1HNsvMXQjoqu22YXuLc3">
-            nr 19, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat IT till riksstaten för budgetåret 1945/46, i vad
-            propositionen avser finansdepartementets verksamhetsområde;
-          </note>
-          <note xml:id="i-UERmvh5J2uu8oKUWGEoLXm">
-            nr 21, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat IT till riksstaten för budgetåret 1945/46, i vad
-            propositionen avser handelsdepartementets verksamhetsområde; och
-          </note>
-          <note xml:id="i-F7uqEJjGRfZuGmRyDUCeBD">
-            nr 24, i anledning av Kungl. Maj:ts i statsverkspropositionen
-            under tolfte huvudtiteln gjorda framställningar om anslag för
-            budgetåret 1946/47 till allmänna indragningsstaten;
-          </note>
-          <note xml:id="i-RGvp5cXqG37rgW85CKz65L">
-            bevillningsutskottets betänkande nr 1, i anledning av Kungl.
-            Maj:ts proposition med förslag till förordning angående utvidgad
-            rätt att vid 1946 års taxering åtnjuta avdrag för avsättning till
-            investeringsfond för fartyg; samt
-          </note>
-          <note xml:id="i-8fpHcXyqZR2Vkif1Xo2vSJ">
-            Jordbruksutskottets utlåtande nr 3, i anledning av Kungl. Maj:ts
-            proposition med förslag till lag angående ändrad lydelse av 1
-            och 2 $$ lagen den 14 juni 1928 (nr 196) om galtbesiktningstvång.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-008.jp2/_view"/>
-          <note type="date" xml:id="i-YQqZm6FVbUoyY4EJS2AdZL">
-            Tisdagen den 12 februari 1946. Nr 7. 9
-          </note>
-          <note xml:id="i-TQbVjDaeaY6436c4S6sbih">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 2.35 eftermiddagen.
-          </note>
-          <note xml:id="i-JVFTKWuab9bbrVzEECDFw7">
-            In fidem G. H. Berggren.
-          </note>
-          <note type="date" xml:id="i-BAeEf36TuBoq7VK55a9SCu">
-            Tisdagen den 12 februari.
-          </note>
-          <note xml:id="i-MwDGf3jLub1FewbuwDdipg">
-            Kammaren sammanträdde kl. 4 eftermiddagen.
-          </note>
-          <note xml:id="i-tEntSEZz6YxBK8bd6RiRq">
-            Herr statsrådet Danielson avlämnade Kungl. Maj:ts proposition
-            nr 44, med förslag till förordning angående ändrad lydelse av
-            1 $ förordningen den 28 september 1928 (nr 376) om särskild skatt
-            å vissa lotterivinster.
-          </note>
-          <note xml:id="i-6bQqXYCHbCnQYaswpz4cVz">
-            Justerades protokollen för den 5 och den 6 innevarande månad.
-          </note>
-          <note xml:id="i-8QwCTgzrqfrHdSrpBfsdyD">
-            Anmäldes och godkändes statsutskottets förslag till riksdagens
-            skrivelse, nr 16, till Konungen i anledning av Kungl. Maj:ts i
-            statsverkspropositionen gjorda "framställningar under Utgifter
-            å driftbudgeten, För flera huvudtitlar gemensamma frågor.
-          </note>
-          <note xml:id="i-JqhokaXFVgakRCfzaRg9jc">
-            Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
-          </note>
-          <note xml:id="i-36tXBZF9rCNZnuHXGsEXy2">
-            nr 48, angående nedläggande av driften vid Svenska skifferoljeaktiebolagets
-            oljeutvinningsanläggningar vid Kinne-Kleva m. m.;
-          </note>
-          <note xml:id="i-iwuFwjXBMZYcQtFmMWo2X">
-            nr 49, angående beredande av täckning för vissa medelsbrister,
-            redovisade såsom propriebalanser i försvarets civilförvaltnings
-            räkenskaper; samt
-          </note>
-          <note xml:id="i-3myeRam1GFsucSMbAsPrfY">
-            nr 50, angående livränta åt Carl Johan Eric Tersmeden m. m.
-          </note>
-          <note xml:id="i-JranLdbSWgbHuLQbV5KenZ">
-            Föredrogs och hänvisades till jordbruksutskottet Kungl. Maj:ts
-            proposition ur 31, angående anslag till lindring av mindre bemedlades
-            kostnader för djursjukvård.
-          </note>
-          <note xml:id="i-EAgPsCQZVeyoRWX3QcotLF">
-            Föredrogos och bordlades ånyo statsutskottets utlåtanden nr 14—19,
-            21 och 24, bevillningsutskottets betänkande nr 1 samt jordbruksutskottets
-            utlåtande nr 3. Ak
-          </note>
-          <note xml:id="i-HMHT9bM7m9iAW1mA7mu7qh">
-            Föredrogs och bordlades Kungl. Maj:ts denna dag avlämnade proposition
-            nr 44.
-          </note>
-          <note xml:id="i-FJBy3ivF3bSBBDNYby4YV9">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 4.06 eftermiddagen.
-          </note>
-          <note xml:id="i-T4qWZz89nVUbhKkhwWUo96">
-            In fidem G. H. Berygren.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-009.jp2/_view"/>
-          <note xml:id="i-YTCwRnufHbB7qoRpod52EA">
-            10 Nr 7. Onsdagen den 13 febrnari 1946.
-          </note>
-          <note type="date" xml:id="i-EJu34mDWZfBcH6EmMdhFuj">
-            Onsdagen den 13 februari.
-          </note>
-          <note xml:id="i-9Yo9AjDyJWCkAKRSKzqViK">
-            Kammaren sammanträdde kl. 11 förmiddagen.
-          </note>
-          <note type="speaker" xml:id="i-Tdk5KdbvR2awfu1dt2T4WP">
-            Herr statsrådet Vougt avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-36kGyYCoxyY2wKruDHvAaK">
-            ts proposition nr 53, angående försäljning av fastigheter, som
-            förvaltas av försvarets bostadsanskaffningsnämnd, m. m.
-          </note>
-          <u xml:id="i-CLHCBzd2xmeHvKTuvhyqXo" next="i-9f8b4379784b0adb-1" who="Q4731015">
-            <seg xml:id="i-JdsWojUT9ntbkrQdW4VejH">
-              Ang. snabbare Jämlikt $ 20 av kammarens ordningsstadga hade herr
-              Wistrand till hans publicering av excellens herr statsministern
-              framställt följande fråga: »Är regeringen beredd borra 2009 medverka
-              därtill, att åt statliga bolags bokslut och styrelseberättelser
-              gives sam-
-            </seg>
-          </u>
-          <u who="Q4731015" xml:id="i-9f8b4379784b0adb-1" prev="i-CLHCBzd2xmeHvKTuvhyqXo">
-            <seg xml:id="i-GHSibTGyF9JhNjDzxpP4Yq">
-              ma publicitet, som i allmänhet sker beträffande bokslut och styrelseberättel-
-            </seg>
-            <seg xml:id="i-Vhfw8CgpH4hxiNwCbGbQRK">
-              ser från enskilda bolag av motsvarande storleksordning?»
-            </seg>
-          </u>
-          <note xml:id="i-NumSJcxQGBbZ8n9LBpLYEV" type="speaker">
-            Hans excellens herr statsministern Hansson, som tillkännagivit,
-            att han hade för avsikt att vid detta sammanträde besvara nämnda
-            fråga, erhöll ordet och anförde:
-          </note>
-          <u who="Q53660" xml:id="i-CHiDErrdMt8HRvi1txeUxf" next="i-9f8b4379784b0adb-2">
-            <seg xml:id="i-8gEukwNzL7CSqPtZQWjX9Q">
-              Herr talman! Herr Wistrand har till mig framställt följande fråga:
-            </seg>
-          </u>
-          <u who="Q53660" xml:id="i-9f8b4379784b0adb-2" prev="i-CHiDErrdMt8HRvi1txeUxf">
-            <seg xml:id="i-9JkCqLrCDmfaPvgcKqLohL">
-              Ar regeringen beredd medverka därtill, att åt statliga bolags
-              bokslut och styrelseberättelser gives samma publicitet som i allmänhet
-              sker beträffande bokslut och styrelseberättelser från enskilda
-              bolag av motsvarande storleksordning?
-            </seg>
-            <seg xml:id="i-LA7MZo3AoQvzP7NcrMe4hh">
-              Med frågan torde åsyftas den av större enskilda bolag tillämpade
-              praxis att i god tid före vederbörande bolagsstämma tillställa
-              tidningarna exemplar av styrelsens förvaltningsberättelse med
-              balansräkning för publicering.
-            </seg>
-            <seg xml:id="i-9yL44DwJZWX1WA9LiJvQFy">
-              Enligt vad jag inhämtat tillämpas redan nu en dylik praxis av
-              vissa statliga bolag. Från regeringens sida ha underhandsåtgärder
-              vidtagits i syfte att den skall erhålla allmän tillämpning för
-              de statliga bolagens del.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-Lei4KCKqZoedquGgNuMpDo">
-            Herr Wistrand:
-          </note>
-          <u who="Q6340875" xml:id="i-912ec431db70a47f-0">
-            <seg xml:id="i-8LDhkJ5MNgUceidmUhARjj">
-              Herr talman! Jag ber att få tacka hans excellens herr statsministern
-              för svaret och det tillmötesgående han visat mina intentioner
-              i detta
-            </seg>
-          </u>
-          <note xml:id="i-BvAjnSDgi8UfdaxSPfZMsn">
-            fall.
-          </note>
-          <note type="speaker" xml:id="i-V4ceWWkz9vMyLz8DNVZJGS">
-            Herr statsrådet Sköld avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-VEpMQNL2m4Rku2coCjmqBw">
-            ts propositioner:
-          </note>
-          <note xml:id="i-5fb5qoVuJ6CeSxnZNLezof">
-            nr 54, med förslag till förordning om ändrad lydelse av 9 8 1
-            och 4 mom. samt 10 $ 1 och 5 mom. förordningen den 22 juni 1934
-            (nr 320) angående grunder för förvaltningen av viss kronoegendom;
-            1 nr 55, angående upplåtelse i vissa fall av mark å renbetesfjällen
-            i Jämtlands än m. m.;
-          </note>
-          <note xml:id="i-Rxqxgm67iva3cXmFRUPgwW">
-            nr 56, angående anslag till odlingsoch byggnadshjälp åt innehavare
-            av odlingslägenheter m. fl.; samt
-          </note>
-          <note xml:id="i-Xaudzt1qdHpTaYBuTas8gW">
-            nr 38, angående ratificering av vissa ändringar i stadgan för
-            Internationella arbetsorganisationen.
-          </note>
-          <note xml:id="i-SaGRmT8qMDP8TkghQL5Z6A">
-            Föredrogs och hänvisades till bevillningsutskottet Kungl. Maj:ts
-            proposition nr 44, med förslag till förordning angående ändrad
-            lydelse av 1 $ förordningen den 28 september 1928 (nr 376) om
-            särskild skatt å vissa lotterivinster.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-010.jp2/_view"/>
-          <note type="date" xml:id="i-PktkCDhHb2urtFkQKWJWbW">
-            Onsdagen den 13 februari 1946. Nr 7. 11
-          </note>
-          <note xml:id="i-HwfbVQeJTqE8NpKRLincjF">
-            Föredrogs ånyo och företogs punktvis till avgörande statsutskottets
-            utlåtande nr 14, i anledning av Kungl. Maj:ts proposition angående
-            utgifter å tilläggsstat IT till riksstaten för budgetåret 1945/46,
-            i vad propositionen avser justitiedepartementets verksamhetsområde.
-          </note>
-          <note xml:id="i-3FMm8VcuwEqe2nUE5aqzU3">
-            Punkterna 1 och 2. Vad utskottet hemställt bifölls.
-          </note>
-          <note xml:id="i-BgU8Hpjx18YYamLHKLfE6G">
-            Punkten 3. Lades till handlingarna.
-          </note>
-          <note xml:id="i-2Rh8dFTCeupWtPbED3NQQj">
-            Föredrogs ånyo och företogs punktvis till avgörande statsutskottets
-            utlåtande nr 15, i anledning av Kungl. Maj:ts proposition angående
-            utgifter å tilläggsstat II till riksstaten för budgetåret 1945/46,
-            i vad propositionen avser utrikesdepartementets verksamhetsområde.
-          </note>
-          <note xml:id="i-LLwgKzWy61zj8p9NKmRYvR">
-            Punkterna 1—5. Vad utskottet hemställt bifölls.
-          </note>
-          <note xml:id="i-HNCx6dJzjwBiDBhVVDVsZ5">
-            Punkten 6. Tades till handlingarna.
-          </note>
-          <note xml:id="i-KUvzCSXRbjHxB3Qe46k7hz">
-            Föredrogs ånyo och företogs punktvis till avgörande statsutskottets
-            utlåtande nr 16, i anledning av Kungl. Maj:ts proposition angående
-            utgifter å tilläggsstat IT till riksstaten för budgetåret 1945/46,
-            i vad propositionen avser för-
-          </note>
-          <note xml:id="i-AvxGhQmDtVXCQEL8ZPSLN2">
-            svarsdepartementets verksamhetsområde.
-          </note>
-          <note xml:id="i-RL7uB4icgUWadP9Nc2bb9U">
-            Punkterna 1—14. Vad utskottet hemställt bifölls.
-          </note>
-          <note xml:id="i-PQXq1F3mGdX9tjARgPaZCR">
-            Punkten 5. Tades till handlingarna.
-          </note>
-          <note xml:id="i-B6nL69d6wGq8Tt3xxb3mD1">
-            Punkterna 6—58. Vad utskottet hemställt bifölls.
-          </note>
-          <note xml:id="i-S3rUjXobDUEHzHjPeQF8iS">
-            Föredrogs ånyo och företogs punktvis till avgörande statsutskottets
-            utlå-
-          </note>
-          <note xml:id="i-7YMFhJcBEJiP8vDAVxqQqS">
-            tande nr 17, i anledning av Kungl. Maj:ts proposition angående
-            utgifter å
-          </note>
-          <note xml:id="i-FEtU35HUXwrxA7cQotT6xE">
-            tilläggsstat II till riksstaten för budgetåret 1945/46, i vad
-            propositionen avser socialdepartementets verksamhetsområde, jämte
-            i ämnet väckt motion.
-          </note>
-          <note xml:id="i-M1TdMpPUmBT4McZurzpku">
-            Punkerna 1—38. Vad utskottet hemställt bifölls.
-          </note>
-          <note xml:id="i-RT8NFnoBbTNjKu7CZEm3Xy">
-            Punkten 9. Tades till handlingarna.
-          </note>
-          <note xml:id="i-v2TW2grctVBZwt51XVoj2">
-            Punkten 10. Utskottets hemställan bifölls.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-011.jp2/_view"/>
-          <note xml:id="i-DWgejYsdbnHUxJF5T3kttm">
-            Anslag till nybyggnad för länsstyrelsen i Jönköpings
-          </note>
-          <note type="date" xml:id="i-4tBKwNPrqaqskyJfsHsKPg">
-            12 Nr 7. Onsdagen den 13 februari 1946.
-          </note>
-          <note xml:id="i-PArfw3gfTbbohrb6nhu9jX">
-            Punkterna 11 och 12. Lades till handlingarna.
-          </note>
-          <note xml:id="i-FgJcpAmLrpxb4rQ7TmcaiG">
-            Punkterna 13—15. Vad utskottet hemställt bifölls.
-          </note>
-          <note xml:id="i-SUVf2gLewrHsRihUKfhRFF">
-            Föredrogs ånyo och företogs punktvis till avgörande statsutskottets
-            utlåtande nr 18, i anledning av Kungl. Maj:ts proposition angående
-            utgifter å tilläggsstat II till riksstaten för budgetåret 1945/46,
-            i vad propositionen avser kommunikationsdepartementets verksamhetsområde.
-          </note>
-          <note xml:id="i-8fkzCkkj7Mo3GwqARzGbNp">
-            Punkterna 1 och 2. Vad utskottet hemställt bifölls.
-          </note>
-          <note xml:id="i-6DSk4NzKVwot7PhS13pmz5">
-            Punkten 3. Lades till handlingarna.
-          </note>
-          <note xml:id="i-2Y9UPKr9eKXML771qn5Qos">
-            Punkterna 4—27. Vad utskottet hemställt bifölls.
-          </note>
-          <note xml:id="i-AszHd1dcJK1mosCgd8o5Jt">
-            Punkterna 8 och 9. Lades till handlingarna.
-          </note>
-          <note xml:id="i-EWp3TW8N4xFt3qhK77BYTW">
-            Punkten 10. Utskottets hemställan bifölls.
-          </note>
-          <note xml:id="i-LLqaPvqAEDQcAu8kuFYgH1">
-            Punkten 11.
-          </note>
-          <note xml:id="i-EK1wimr3x7maN95a6K42o3">
-            Med tillstyrkande av Kungl. Maj:ts i ämnet framlagda förslag
-            hade utskottet i förevarande utlåtande hemställt, att riksdagen
-            måtte till Nybyggnad för länsstyrelsen i Jönköpings län å tilläggsstat
-            II till riksstaten för budgetåret 1945/46 anvisa ett investeringsanslag
-            av 600 000 kronor.
-          </note>
-          <note xml:id="i-AvAq6b84E9nXckAVrFWAjv">
-            Enligt vad utredningen i ärendet visade, var ifrågavarande anslag
-            avsett att användas till uppförande av en nybyggnad för landskontoret
-            Jämte uppbördsoch folkbokföringsavdelningarna å en kronan tillhörig,
-            av kronohäktet delvis disponerad tomt.
-          </note>
-          <note type="speaker" xml:id="i-SfEjR637LoRvgGkWy1NMzo">
-            Herr Heiding:
-          </note>
-          <u who="Q5797491" xml:id="i-b059134a907258e7-0">
-            <seg xml:id="i-XUSXFhZN64SiXXKbYZGgmC">
-              Herr talman! Den ifrågasatta nybyggnaden för länsstyrelsen skulle
-              enligt Kungl. Maj:ts förslag förläggas till kronohäktets tomt.
-              Enligt vad utskottet under hand inhämtat från kommunikationsdepartementet
-              ha förhandlingar nu upptagits om visst markbyte mellan kronan
-              och Jönköpings stad, varigenom kronohäktets tomt skulle överföras
-              i stadens ägo. Då den föreliggande byggnadsfrågan sålunda kommit
-              i ett nytt läge, får jag yrka, att kammaren måtte besluta om återremiss
-              till utskottet.
-            </seg>
-          </u>
-          <note xml:id="i-T9zZXouqB3m4YmQueQVjVb">
-            Efter härmed slutad överläggning yttrade herr talmannen, att
-            i avseende på den nu föredragna punkten endast yrkats, att densamma
-            skulle visas åter till utskottet.
-          </note>
-          <note xml:id="i-Q8bkADKZSMSttzQEjfUoDb">
-            Sedermera gjordes propositioner, först på bifall till vad utskottet
-            i förevarande punkt hemställt samt vidare på återremiss; och förklarades
-            den senare propositionen vara med övervägande ja besvarad.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-012.jp2/_view"/>
-          <note type="date" xml:id="i-AfHGUxHm1N4fFXiPBHjqoh">
-            Onsdagen den 13 februari 1946. Nr 7. 13
-          </note>
-          <note xml:id="i-8XdwA9pqJJ5ot1H1uR7PuN">
-            Punkten 12. Utskottets hemställan bifölls.
-          </note>
-          <note xml:id="i-3iXzCKLEsG4PE8B2yzDdCr">
-            Punkten 13. Lades till handlingarna.
-          </note>
-          <note type="speaker" xml:id="i-AtAZK1LAyCkXjsbzaagCYx">
-            Herr statsrådet Nilsson avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-QF3R1x3wiyj2GU8dTcvthz">
-            ts proposition nr 57, angående anslag till förvärv av vägmark
-            m. m.
-          </note>
-          <note xml:id="i-KAMx3DeV68SmejTzjpm3xT">
-            Föredrogs ånyo och företogs punktvis till avgörande statsutskottets
-            utlåtande nr 19, i anledning av Kungl. Maj:ts proposition angående
-            utgifter å tilläggsstat IT till riktsstaten för budgetåret 1945/46,
-            i vad propositionen avser finansdepartementets verksamhetsområde.
-          </note>
-          <note xml:id="i-JwpmK3NAsi3dG2YG7aJuur">
-            Punkten 1. Utskottets hemställan bifölls.
-          </note>
-          <note xml:id="i-9vdstRxL8y51Jko4E6LJBy">
-            Punkten 2. Tades till handlingarna.
-          </note>
-          <note xml:id="i-6SUKkzo4zn5uyE7E2NEhyj">
-            Föredrogs ånyo och företogs punktvis till avgörande statsutskottets
-            utlåtande nr 21, i anledning av Kungl. Maj:ts proposition angående
-            utgifter å tilläggsstat IT till riksstaten för budgetåret 1945/46,
-            i vad propositionen avser handelsdepartementets verksamhetsområde.
-          </note>
-          <note xml:id="i-U8cFCohHzC4vbf6sTnrv4m">
-            Punkterna 1 och 2. Vad utskottet hemställt bifölls.
-          </note>
-          <note xml:id="i-VJMZ212bn4NAXqVNmE5pEh">
-            Punkten 3. Tades till handlingarna.
-          </note>
-          <note xml:id="i-RrGjQJWp2ArnmZQhGc4vNs">
-            Föredrogs ånyo och företogs punktvis till avgörande statsutskottets
-            utlåtantande nr 24, i anledning av Kungl. Maj:ts i statsverkspropositionen
-            under tolfte huvudtiteln gjorda framställningar om anslag för
-            budgetåret 1946/47 till allmänna indragningsstaten.
-          </note>
-          <note xml:id="i-XEifuhYtcVEAMtZW3MW37z">
-            Punkterna 1—3. Vad utskottet hemställt bifölls.
-          </note>
-          <note xml:id="i-8pcygTLxkdMWuJfLEUN65A">
-            Punkten 4. Tades till handlingarna.
-          </note>
-          <note xml:id="i-QfRh6TXwwieKJkRpbMJxvj">
-            Vid förnyad föredragning av bevillningsutskottets betänkande
-            nr 1, i anledning av Kungl. Maj:ts proposition med förslag till
-            förordning angående utvidgad rätt att vid 1946 års taxering åtnjuta
-            avdrag för avsättning till investeringsfond för fartyg, bifölls
-            vad utskottet i detta betänkande hemställt.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-013.jp2/_view"/>
-          <note xml:id="i-SaGCornwwMVaNWDbrEecn">
-            Interpellation ang. privatsköterskornas pPensionsfråga.
-          </note>
-          <note type="date" xml:id="i-UJASYBvTHskJRCQ6kJbdFb">
-            14 Nr 7. Onsdagen den 13 februari 1946.
-          </note>
-          <note xml:id="i-FJGGDD6wkYuaMsAUu2AYHv">
-            Vid ånyo skedd föredragning av jordbruksutskottets utlåtande
-            nr 3, i anledning av Kungl. Maj:ts proposition med förslag till
-            lag angående ändrad lydelse av 1 och 2 $$ lagen den 14 juni 1928
-            (nr 196) om galtbesiktningstvång, bifölls vad utskottet i detta
-            utlåtande hemställt.
-          </note>
-          <note xml:id="i-LHXTzjsYLnur2KaZewQG9q">
-            Föredrogos och bordlades Kungl. Maj:ts denna dag avlämnade propositioner
-            nr 53—258.
-          </note>
-          <note xml:id="i-SJEZiBMTTVdYEq7k3KPBcC">
-            Fru Svenson väckte en motion, nr 253, i anledning av Kungl. Maj:ts
-            proposition angående anslag till lindring av mindre bemedlades
-            kostnader för djursjukvård.
-          </note>
-          <note xml:id="i-L4s4VY1pMkCYpbW8UYNfim">
-            Motionen bordlades.
-          </note>
-          <note type="speaker" xml:id="i-RkmDVGdbGGFgJ1Tooq1g8s">
-            Ordet lämnades på begäran till herr Anderson, Axel Ivar, som
-            yttrade:
-          </note>
-          <u who="Q5553542" xml:id="i-9f8b4379784b0adb-6" next="i-9DA2qH73z8zn2Foag96Dhb">
-            <seg xml:id="i-CvUvhnnoGvbUkDMZPdmCps">
-              Herr talman! Då för anslutning till statens pensionsanstalt är
-              uppställt krav på anställning i reglerad befattning, äro de i
-              privat sjukvård arbetande sköterskorna för närvarande så gott
-              som helt utestängda från statlig pensionering. Till dessa sjuksköterskors
-              disposition stå nämligen inga reglerade tjänster annat än det
-              ytterst begränsade antal, som kunnat garanteras av sjuksköterskebyråerna
-              för sådant ändamål. För sin ålderdomsförsörjning äro dessa sjuksköterskor
-              — i den mån de icke i tid erhållit reglerad befattning — hänvisade
-              till privata pensionsoch försäkringsanstalter med deras högre
-              avgifter och mindre gynnsamma pensionsvillkor eller, förutom till
-              den allmänna folkpensioneringen, till eventuella egna medel, anhörigas
-              hjälp, välgörenhetsinrättningar och fattigvård samt slutligen
-              till de hårt anlitade understödskassor, som finnas inom olika
-              sjuksköterskesammanslutningar.
-            </seg>
-          </u>
-          <u xml:id="i-9DA2qH73z8zn2Foag96Dhb" prev="i-9f8b4379784b0adb-6" who="Q5553542" next="i-78P4XPQckwP9GUN9FxbdC6">
-            <seg xml:id="i-H1qxDYHXiw55KRBu5yjYyk">
-              Den 3 juni 1938 uppdrog Kungl. Maj:t åt medicinalstyrelsen att
-              i samråd med statens pensionsanstalt verkställa utredning beträffande
-              frågan, huruvida och under vilka former det allmänna måtte kunna
-              medverka till pensionering av äldre, 1 privatvård arbetande sjuksköterskor,
-              ävensom att inkomma med det förslag, vartill utredningen måtte
-              föranleda. Statsrådet och chefen för socialdepartementet hade
-              i ett interpellationssvar 1 riksdagen den 27 maj 1938 förklarat
-              sig beredd att till omprövning uppta frågan om och under vilka
-              former det allmänna måtte kunna medverka till pensioneringen av
-              dessa sjuksköterskor. Medicinalstyrelsen — i samråd med statens
-              pensionsanstalt — överlämnade den 29 augusti 1939 till Kungl.
-              Maj:t utredning och förslag i ärendet. Häri anfördes bl. a. följande:
-            </seg>
-          </u>
-          <note xml:id="i-J4GDWKi18HmWGr6ZKWDc3J">
-            »En pensionering i egentlig mening av de i privatvård arbetande
-            sjukskö-
-          </note>
-          <u xml:id="i-78P4XPQckwP9GUN9FxbdC6" prev="i-9DA2qH73z8zn2Foag96Dhb" who="Q5553542" next="i-CpaKwmZodYukD98YkqhCSB">
-            <seg xml:id="i-3ncpyR7XAftNV7TyxwwiLc">
-              terskorna kan vid privatvårdens nuvarande organisation — vilken
-              icke inrymmer sådana anställningsförhållanden, som hittills ansetts
-              utgöra ett oeftergivligt villkor för statens medverkan till pensionering
-              — näppeligen betraktas
-            </seg>
-            <seg xml:id="i-Pgo4VWD1dDFbpwuBmMa2fB">
-              såsom en statsmakternas angelägenhet. På grund av bland annat
-              att dessa sjuksköterskor utgjort och alltjämt utgöra en nödvändig
-              beredskapskår, som står till förfogande, då sjuklighet i större
-              omfattning föreligger eller då fråga är att bestrida arbetet å
-              sjukhus eller i den öppna vården vid fast anställda och pensionsberättigade
-              sjuksköterskors ledighet, och med hänsyn till att de överhuvud
-              taget fylla en för det allmänna betydelsefull uppgift, tala dock
-              billighetsskäl för att särskilda pensioneringsåtgärder av staten
-              vidtagas för att bereda understöd åt uttjänta äldre privatsköterskor,
-              som kunna finnas vara i behov därav.»
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-014.jp2/_view"/>
-          <note type="date" xml:id="i-DaVqWmUBjTfEnTUJLqgGAc">
-            Onsdagen den 13 februari 1946. Nr 7. 15
-          </note>
-          <note xml:id="i-GRugVsyADWYgVQrhCVuS5P">
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1946--fk--7</head>
+        <docDate when="1946-01-30">1946-01-30</docDate>
+        <docDate when="1946-02-02">1946-02-02</docDate>
+        <docDate when="1946-02-04">1946-02-04</docDate>
+        <docDate when="1946-02-09">1946-02-09</docDate>
+        <docDate when="1946-02-12">1946-02-12</docDate>
+        <docDate when="1946-02-13">1946-02-13</docDate>
+        <docDate when="1946-02-16">1946-02-16</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-000.jp2/_view"/>
+        <note xml:id="i-NKEttqFZWs2XVZDRDd78Z6">
+          RIKSDAGENS PROTOKOLL.
+        </note>
+        <note xml:id="i-8H7ZBEG1EheTTpu7KLpNUA">
+          1946. Första kammaren. Nr 7.
+        </note>
+        <note type="date" xml:id="i-X9ngQBFjagk3s9eCFsYkz1">
+          Lördagen den 9 februari.
+        </note>
+        <note xml:id="i-EGMG1vKizfDB9qRBZjuQFj">
+          Kammaren sammanträdde kl. 2 eftermiddagen; och dess förhandlingar
+          leddes av herr andre vice talmannen.
+        </note>
+        <note type="speaker" xml:id="i-4nhWhguHbVkD9PuPkXkr1u">
+          Herr statsrådet Sträng avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-KjtbGCRLUgdFjZQUQpvyWb">
+          ts propositioner:
+        </note>
+        <note xml:id="i-VZwbkEuCWDY7BF4ZzgJLWK">
+          nr 48, angående nedläggande av driften vid Svenska skifferoljeaktiebolagets
+          oljeutvinningsanläggningar vid Kinne-Kleva m. m.;
+        </note>
+        <note xml:id="i-ADBV5eincUgUbrnhHbirBU">
+          nr 49, angående beredande av täckning för vissa medelsbrister,
+          redovisade såsom propriebalanser i försvarets civilförvaltnings
+          räkenskaper;
+        </note>
+        <note xml:id="i-KgfdYkuxnEpqUFBZ1X9ywg">
+          nr 50, angående livränta åt Carl Johan Eric Tersmeden m. m.;
+          samt
+        </note>
+        <note xml:id="i-Xcbko2zRjfi4qSVrgCtG3z">
+          nr 51, angående anslag till lindring av mindre bemedlades kostnader
+          för djursjukvård.
+        </note>
+        <note type="speaker" xml:id="i-R3sLSFzvr5yYMCFGCbn1jZ">
+          Herr statsrådet Sträng, som meddelat, att han ämnade vid detta
+          sammanträde besvara herr Gryms interpellation angående tilldelningen
+          av fodersäd, erhöll ordet och anförde:
+        </note>
+        <u who="i-3urySgCAk2SuFz1BB8TX5x" xml:id="i-387099ef229ee642-0" next="i-AuUSr7vXAwxqYLNH3Gxczo">
+          <seg xml:id="i-QnoKmnaEXtr7wWtGkGfVjS">
+            Herr talman! Med första kammarens tillstånd har dess ledamot
+            herr Grym till chefen för folkhushållningsdepartementet riktat
+            följande frågor:
+          </seg>
+          <seg xml:id="i-2SQ6renqWez5W8eNgbFk8N">
+            Är tillgången på fodersäd så knapp, att en större tilldelning
+            av detta fodermedel icke hade kunnat meddelas för ransoneringsperioden
+            1 januari—14 mars 1946?
+          </seg>
+          <seg xml:id="i-28C994uAvf2tvWHsDSnJcc">
+            Om tillgången på fodersäd medgiver, har herr statsrådet för avsikt
+            att vidtaga sådana åtgärder, att fodersädstilldelningen för hästar,
+            brukade i särskilt tungt skogsarbete, höjes?
+          </seg>
+          <seg xml:id="i-HHKFExjp23dwkvj2vWPMKj">
+            Efter överenskommelse med chefen för folkhushållningsdepartementet
+            kommer jag att besvara denna interpellation.
+          </seg>
+          <seg xml:id="i-QMGnbJLwqW34ERNYkkTmQ1">
+            För att man skall kunna bedöma de av interpellanten framställda
+            spörsmålen, synes det nödvändigt att göra klart för sig, vilka
+            myckenheter fodersäd, som sammanlagt finnas disponibla för tilldelning
+            under innevarande konsumtionsår, och för vilka ändamål dessa myckenheter
+            skola förslå. I samband med uppgörandet av en plan för det s.
+            k. fodersädsavståendet uppskattade statens livsmedelskommission
+            det totala tilldelningsbehovet till 386 000 ton. Detta behov fördelade
+            sig på olika ändamål sålunda: för utsäde 60 000 ton, för beredning
+            av gryn och mjöl 75 000 ton, för tilldelning åt bryggerier 21
+            000 ton, för tilldelning åt brännerier 1000 ton, för utfodring
+            av arméns hästar 9 000 ton och för andra utfodringsändamål 220
+            000 ton.
+          </seg>
+        </u>
+        <note xml:id="i-PTYSbhCD7yHWeY2mWqkujG">
+          I planen upptogs därjämte avsättning till ett övergångslager
+          per den 31 augusti 1946 med 30000 ton. Det sammanlagda behovet
+          av fodersäd uppskattades därför till 416 000 ton.
+        </note>
+        <u xml:id="i-AuUSr7vXAwxqYLNH3Gxczo" prev="i-387099ef229ee642-0" who="i-3urySgCAk2SuFz1BB8TX5x" next="i-387099ef229ee642-1">
+          <seg xml:id="i-P2xRuok9TijpurVngECgmX">
+            För täckande av nämnda behov, 416 000 ton, fanns vid regleringsårets
+            början tillgängligt ett övergångslager av 34 000 ton, bestående
+            av fodersäd och till människoföda icke tjänlig brödsäd. Med hänsyn
+            till att enligt planen ett nytt övergångslager skulle bildas under
+            regleringsåret har hela det gamla övergångslagret beräknats kunna
+            tagas i anspråk. Enligt vad kommissionen
+          </seg>
+        </u>
+        <note xml:id="i-74Wzg4UWNtwZhpABJ9mdSg">
+          Första kammarens protokoll 1946. Nr 7. 1
+        </note>
+        <note xml:id="i-9ogAGomh1EZrsLYHG4Ht4m">
+          Ang. tilldelningen av fodersäd.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-001.jp2/_view"/>
+        <note type="date" xml:id="i-NdKEtqHazJNyvsWVamwoH4">
+          2 Nr 7. Lördagen den 9 februari 1946.
+        </note>
+        <u who="i-3urySgCAk2SuFz1BB8TX5x" xml:id="i-387099ef229ee642-1" prev="i-AuUSr7vXAwxqYLNH3Gxczo" next="i-387099ef229ee642-2">
+          <seg xml:id="i-KmqaoxH1P7F3rjsF7jgyNW">
+            Ang. tilldelningen av fodersäd. (Forts.) upplyst, har kommissionen
+            sökt utnyttja alla möjligheter att vid tilldelningen ersätta fodersäd
+            med andra fodermedel. I tilldelningsplanen ha i överensstämmelse
+            härmed upptagits 12 000 ton betfor, 30 000 ton kli och 20 000
+            ton till människoföda icke tjänlig brödsäd av 19435 års skörd.
+            Härmed har täckning erhållits för sammanlagt 96 000 ton. Återstoden
+            av tilldelningsbehovet, eller 320 000 ton, skulle ha behövt uttagas
+            genom leveranser av fodersäd från Jordbrukarna. Emellertid har
+            det icke varit möjligt att i år uttaga en så stor kvantitet. Anspråken
+            på jordbrukarna i nämnda avseende ha — särskilt med hänsyn till
+            uppkomna skördeskador av olika slag — måst sänkas så mycket, att
+            den totalkvantitet, på vilken leveransbesked utfärdats, icke uppgår
+            till mer än 290 000 ton. Sedermera ha sådana underrättelser, enligt
+            vad kommissionen vidare upplyst, inkommit från kristidsstyrelserna,
+            att man tyvärr nödgas räkna med att denna leveranskvantitet slutligen
+            skall komma att i hög grad underskridas.
+          </seg>
+          <seg xml:id="i-SBUozT6NTiL2UVPgHN1tQu">
+            Man hade-alltså redan i höstas ett underskott i tilldelningsplanen
+            på 30 000 ton. I samma mån som avståendeleveranserna från jordbrukarna
+            icke komma att uppgå till nyssnämnda kvantitet, 290 000 ton, stiger
+            underskottet. Det är med hänsyn till den fortgående ökningen av
+            kreatursstocken och andra omständigheter även troligt, att det
+            uppskattade behovet av fodersäd för tilldelning för utfodringsändamål
+            är för lågt. Man torde därför tyvärr få räkna med att bristen
+            kommer att bli avsevärt större än 30 000 ton.
+          </seg>
+          <seg xml:id="i-2CL5Hnmnq7KjX8V5GN2Jw4">
+            Bland annat för att täcka underskottet på fodersäd för utfodringsändamål
+            har kommissionen, enligt vad kommissionen meddelat, vidtagit alla
+            tänkbara åtgärder för att från utlandet kunna importera fodermedel
+            såsom tillskott till den egna tillgången. Det har också lyckats
+            kommissionen att genom spannmålsbolaget inköpa vissa kvantiteter
+            kli och majs. Emellertid inkomma endast en mindre del av de inköpta
+            myckenheterna inom sådan tid, att de bli disponibla för utdelning
+            under våren.
+          </seg>
+          <seg xml:id="i-CYbzsXPnBty4KSf7oV6dod">
+            Av de uppgifter, som nu lämnats, torde framgå, att förhållandena
+            alltjämt äro sådana, att största möjliga sparsamhet måste iakttagas
+            vid tilldelningen av fodersäd eller ersättningsmedel för fodersäd
+            till djurinnehavare. Kommissionen har därför också hittills under
+            konsumtionsåret i allmänhet ansett sig nödgad att tillämpa samma
+            knappa tilldelningsnormer, som gällde under förra konsumtionsåret.
+            Vad beträffar fjäderfä, ha normerna under höstmånaderna 1945 till
+            och med varit betydligt lägre än under motsvarande tid 1944. De
+            förbättringar, som kunnat åstadkommas i tilldelningshänseende,
+            ha varit relativt obetydliga. Den främsta förbättringen har just
+            gällt arbetshästar och särskilt den grupp arbetshästar, som interpellanten
+            avser, nämligen hästar i tyngre skogskörslor. 'Tilldelningen för
+            sistnämnda slag av hästar utgör för tilldelningsperioden den 1
+            januari—den 14 mars 1946 2,6 kg fodersäd, 1,3 kg betfor och 1,5
+            kg kli, eller tillhopa 5,4 kg kraftfoder per dag. Vid jämförelse
+            mellan de båda perioderna bör beaktas, att dagstilldelningen av
+            betfor till viss del ersatts med kli.
+          </seg>
+          <seg xml:id="i-9rwaDZZXTCFBgwxUWkVAnc">
+            I interpellationen anföres, att en normal dagsgiva av havre för
+            en skogshäst uppgår till 10 kg, medan högivan normalt är jämförelsevis
+            liten. 10 kg havre motsvara 8—38,5 foderenheter. Den av kommissionen
+            medgivna tilldelningen av kraftfoder till skogshästar under innevarande
+            period motsvarar 4,6 foderenheter per dag. Vid fastställandet
+            av denna tilldelning har emellertid förutsetts, att vad som brister
+            i den önskvärda givan av kraftfoder skall utfyllas genom användning
+            av fodercellulosa och ökad användning av hö. I detta sammanhang
+            kan nämnas, att det enligt sakkunskapen är till fullo bevisat,
+            att fodercellulosa i sådana fall som de ifrågavarande utan olägenhet
+            kan användas i dagsmängder av upp till åtminstone 3—3,5 kg och
+            härvid er-
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-002.jp2/_view"/>
+        <note type="date" xml:id="i-GHZiMaYieKQ4cxPe1f9B8Q">
+          Lördagen den 9 februari 1946. Nr 7. 3
+        </note>
+        <u who="i-3urySgCAk2SuFz1BB8TX5x" xml:id="i-387099ef229ee642-2" prev="i-387099ef229ee642-1">
+          <seg xml:id="i-AAUqBrC6hNdep6LxprmRMt">
+            Ang. tilldelningen av fodersäd. (Forts.) sätta i det närmaste
+            samma kvantitet vanlig foderhavre. Fodercellulosa saluföres alltjämt
+            oransonerat och kan inköpas i önskvärda mängder. Vid inköp av
+            fodercellulosa erhåller jordbrukaren den fördelen, att han får
+            rätt att som tillskottsfoder inköpa 12 kg oljekraftfoder per 100
+            kg fodercellulosa.
+          </seg>
+          <seg xml:id="i-PTSgmgAP7MQgMUzDVtusph">
+            Vid utfodring med omkring 3 kg fodercellulosa per häst och dag
+            jämte därå belöpande tillskottsfoder i form av oljekraftfoderblandning
+            skulle dagstillförseln av foderenheter, om den ordinarie tilldelningen
+            av fodersäd, betfor och kli i sin helhet utnyttjas, bli ungefär
+            7,4. Denna dagsgiva ligger ganska nära det foderenhetstal av 8,5,
+            som, enligt vad nyss nämnts, motsvarar utfodring med 10 kg havre
+            per dag. Det torde icke möta några svårigheter att utfylla skillnaden
+            i foderenheter med en ökad högiva, helst som tillgången på hö
+            i år dess bättre är mycket god. Det torde här även böra framhållas,
+            att betfor, vilket innehåller icke mindre än 35—40 procent melass,
+            är särskilt lämpligt som hästfoder, då högivan är riklig och foderrotfrukter
+            eller annat saftfoder saknas.
+          </seg>
+          <seg xml:id="i-PMwP5FMcfy7gwHFvgRjxXt">
+            Av vad jag nu anfört, framgår, att en tillfredsställande utfodring
+            av skogshästarna kan äga rum även vid den tilldelning av kraftfoder,
+            som under innevarande år utgår. Med hänsyn till de mycket stora
+            svårigheterna att framskaffa tillräckliga kvantiteter fodersäd
+            eller ersättningsmedel härför torde det för närvarande tyvärr
+            icke vara möjligt att vidtaga någon höjning av tilldelningen till
+            hästar i tyngre skogskörslor. Alla möjligheter, som finnas, komma
+            dock att utnyttjas för att i görligaste mån försöka förbättra
+            situationen.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-BN8Eu19zrHC9jrAA7k3Xig">
+          Herr Grym:
+        </note>
+        <u who="i-HGZVFFPEcK5naSxY9nQj5C" xml:id="i-387099ef229ee642-3" next="i-387099ef229ee642-4">
+          <seg xml:id="i-S98pZTQpsvodtxFv1knoWz">
+            Herr andre vice talman! Jag ber att till herr statsrådet Sträng
+            få framföra mitt tack för det utförliga och snabba svaret på min
+            interpellation.
+          </seg>
+          <seg xml:id="i-MdBX6mupuPcDA1t5GbwrBr">
+            Statsrådets svar ger mig inte anledning till någon längre utläggning.
+            Det är tydligen ingenting annat att göra än att böja sig för fakta
+            och ta det som det är. Jag förstår utmärkt väl, att det helt visst
+            skulle ha varit glädjande för herr statsrådet, om svaret på min
+            andra fråga hade kunnat bli jakande. Det är verkligen beklagligt,
+            att tillgången på fodersäd är så dålig, att någon höjning av tilldelningen
+            inte är möjlig ens till hästar i tyngre skogskörslor. Vi få väl
+            antaga, att foderspannmålsproducenterna lojalt ha ställt sin produktion
+            utöver vad de behöva för eget behov till folkhushållets förfogande.
+            Jag tror dock, att det är på sin plats, om jag här säger, att
+            en hel del människor äro av den åsikten, att rätt stora lager
+            finnas hos producenterna. Det kan ju hända, att visst fog finnes
+            för denna ganska utbredda åsikt.
+          </seg>
+          <seg xml:id="i-SRPRpbbzz4wdH14dbuemD3">
+            Jag är inte den som vill överdriva i något avseende, men jag
+            vågar utan att begå någon överdrift säga, att om fläsk och kött
+            — och för all del även korv — äro av stor betydelse för skogsarbetarna,
+            så är havre av kanske ännu större betydelse för skogshästarna.
+            Den är rent av oumbärlig. Jag tror inte, att någon vill jäva detta
+            påstående. I varje fall äro skogsmän, veterinärer och husdjurskonsulenter
+            eniga om fodersädens stora betydelse för skogshästar.
+          </seg>
+          <seg xml:id="i-Pwj6s6ANqeb747RJdAkFqV">
+            Jag har fått mig tillsänd — utan att jag har begärt det avskrift
+            av en framställning, åtföljd av ett par intyg, som inlämnats till
+            livsmedelskommissionen, om ökad fodersädstilldelning. Dessa kortfattade
+            handlingar ge till fullo belägg för hur allvarlig situationen
+            i verkligheten är. Då denna framställning till livsmedelskommissionen
+            enligt mitt förmenande är av intresse i detta sammanhang, ber
+            jag att få föredraga den. Skrivelsen lyder:
+          </seg>
+          <seg xml:id="i-AxLv924LfTzkaXY3JD8H1C">
+            »De omfattande vedavverkningarna och industriens stora råvarubehov
+            ha i år samverkat till rekordartat drivningsarbete i skogarna.
+            Därtill ha väderleksförhållandena hittills visat sig gynnsamma,
+            varför arbetet i skogarna kom i gång ovanligt tidigt på hösten.
+            Under rådande omständigheter ha hästägarna i år fått ett tillfälle
+            att göra goda förtjänster, vilket de också i hög grad utnytt-
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-003.jp2/_view"/>
+        <note type="date" xml:id="i-8YSiunFjoDz72m5PKvfvpv">
+          4 Nr 7. Lördagen den 9 februari 1946.
+        </note>
+        <note xml:id="i-BgnDieCktePnvFVcSWZcp2">
+          Ang. tilldelningen av fodersäd. (Forts.)
+        </note>
+        <u who="i-HGZVFFPEcK5naSxY9nQj5C" xml:id="i-387099ef229ee642-4" prev="i-387099ef229ee642-3" next="i-EYfYZPfgPrerCed2g3WHpY">
+          <seg xml:id="i-EFFHVJsuvbV3gF45dueoaZ">
+            Jat. Detta innebär dock tydlig risk för vår häststams framtid,
+            om ej ökad fodertilldelning snarast kan beviljas. Med nuvarande
+            knappa fodertilldelning, ca 2,5 kg fodersäd per dag, och den ovanligt
+            långa körningssäsong, som redan vid denna tidpunkt på året ligger
+            bakom oss (premietilläggen för vedkörning under förliden sommar
+            och höst) komma hästarna nämligen icke att stoppa för ytterligare
+            påfrestningar. Att skogshästarnas kondition inom länet redan är
+            nedsatt i början av gagnvirkeshuggningssäsongen är högst betänkligt,
+            varom vi ytterligare fått belägg genom intyg från husdjurskonsulenten
+            Arwidsson och länsveterinär Enequist i Norrbottens län.
+          </seg>
+          <seg xml:id="i-6n8b79g82jEw8aN4CfE1Lq">
+            Med anledning härav se vi (som tagit del av eder skrivelse till
+            kristidsstyrelsen i Norrbottens län d:nr 2132 vf) oss nödsakade
+            ånyo hemställa om ökad fodertilldelning.
+          </seg>
+        </u>
+        <note xml:id="i-6RQ6LXsE3KzLEqbG6DCmDR">
+          Luleå den 4 februari 1946.
+        </note>
+        <note xml:id="i-FpSnBJfF4WZcKRotNdhH6p">
+          För överjägmästaren i övre Norrbottens distrikt Allan Fredenberg,
+          för över- Jägmästaren i nedre Norrbottens distrikt C.-A. Sjöquist,
+          Munksunds aktiebolag, skogsförvaltningen, Folke von Heideken.»
+        </note>
+        <u xml:id="i-EYfYZPfgPrerCed2g3WHpY" prev="i-387099ef229ee642-4" who="i-HGZVFFPEcK5naSxY9nQj5C" next="i-387099ef229ee642-5">
+          <seg xml:id="i-7TC7y8NMYFG4wXma1iX59Q">
+            Länsveterinären i Norrbottens län har avlämnat följande intyg:
+          </seg>
+        </u>
+        <u who="i-HGZVFFPEcK5naSxY9nQj5C" xml:id="i-387099ef229ee642-5" prev="i-EYfYZPfgPrerCed2g3WHpY" next="i-4nm4AMoYhnikUupMgL9Ayx">
+          <seg xml:id="i-AEbTdZd5RxKMvBk2USaZb8">
+            »Med anledning av att från forstligt håll framhållits vådan av
+            den ringa tilldelningen av fodersäd till de hästar, som sysselsättas
+            vid virkesavverkningarna inom länet, får jag härmed framhålla
+            följande:
+          </seg>
+          <seg xml:id="i-VQ6PEkabxQRALGXRXi7KJb">
+            Genom att lämpligt vinterföre inträffade ovanligt tidigt i höst
+            fingo hästarna ej den viloperiod efter höstplöjningarna, som de
+            vanligtvis bruka erhålla. Särskilt de hästar, som gått på ett
+            magert skogsbete under sommaren, behöva då fodras upp ett par
+            månader för att kunna orka med det tunga arbetet i timmerskogen.
+            De stora lass, som numera lastas på basvägarna — ända upp till
+            9 å 10 ton efter en häst — kräva en ordentlig utfodring av dragaren.
+            Hästen hinner ej under de korta rasterna äta sig mätt på hö eller
+            ersättningsfoder, utan fordrar krossad säd eller kli för att ej
+            magra av. Utfodring med betfor är olämplig i timmerskogen. Det
+            går ej att blötlägga betfor ordentligt i de på dagen utkylda skogsstallarna,
+            det fryser till en sörja. Sker ej blötläggning får hästen lätt
+            förstoppning i foderstrupen. Då betfor dessutom innehåller relativt
+            mycket osmältbar äggvita, som kan ge anledning till jäsningar
+            eller t. o. m. äggviteförgiftningar, bör det ej tillgripas annat
+            än i nödfall.
+          </seg>
+          <seg xml:id="i-LQ4Yfe1rCrLZAvvfYaHSG4">
+            Med hänsyn till vad ovan framförts, vill jag — icke minst ur
+            djurskyddssynpunkt — kraftigt påpeka lämpligheten av att tilldelningen
+            av fodersäd höjes avsevärt.
+          </seg>
+        </u>
+        <note xml:id="i-NKojU4tkp9XTrzxXnRTzN6">
+          Luleå den 2 februari 1946. Nils Enequist.»
+        </note>
+        <u xml:id="i-4nm4AMoYhnikUupMgL9Ayx" prev="i-387099ef229ee642-5" who="i-HGZVFFPEcK5naSxY9nQj5C" next="i-387099ef229ee642-6">
+          <seg xml:id="i-WhmvVJVLQyB93hgmW6nmEn">
+            Husdjurskonsulenten hos Norrbottens läns hushållningssällskap
+            i Luleå har avgivit följande intyg:
+          </seg>
+        </u>
+        <u who="i-HGZVFFPEcK5naSxY9nQj5C" xml:id="i-387099ef229ee642-6" prev="i-4nm4AMoYhnikUupMgL9Ayx" next="i-387099ef229ee642-7">
+          <seg xml:id="i-MgBEVvCD1sLzXSvXmr62kS">
+            »På begäran får undertecknad härmed intyga, att den fodertilldelning,
+            som för innevarande år tillämpas för våra skogshästar, är i hög
+            grad otillräcklig. Innevarande vinter har arbetet för våra skogshästar
+            varit påfrestande, i det säsongen utsträckts till att omfatta
+            en stor del av hösten 1945, och på många håll synes redan nu hästarnas
+            kondition vara sådan, att man måste befara att arbetsprestationerna
+            under eftervintern bli låga samtidigt som hästarnas hälsa kan
+            riskeras. Detta kommer att medföra minskade utdrivningar och samtidigt
+            stora förluster för den enskilde hästägaren. Det vore därför synnerligen
+            nödvändigt, att den nu tillämpade rationen om möjligt kunde fördubblas
+            för den tid som återstår för vinterns drivningar.
+          </seg>
+          <seg xml:id="i-N6ZBhTz74m78rfEha2Niza">
+            Betfor har ju i vissa fall med fördel kunnat utnyttjas, men enär
+            detta fodermedel vid utfodring till hästarna måste blötläggas,
+            har det varit vissa svårigheter förenade med dess användning vid
+            skogskörningarna, då hästarna i de flesta fall måste inhysas i
+            skogsstallar.
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-004.jp2/_view"/>
+        <note type="date" xml:id="i-RWSXvWTu76Z3KxFMXqmZmE">
+          Lördagen den 9 februari 1946. Nr 7. 5
+        </note>
+        <note xml:id="i-GZ4ASMFwWfhjLZYEHniCQM">
+          Ang. tilldelningen av fodersäd. (Forts.)
+        </note>
+        <u who="i-HGZVFFPEcK5naSxY9nQj5C" xml:id="i-387099ef229ee642-7" prev="i-387099ef229ee642-6" next="i-387099ef229ee642-8">
+          <seg xml:id="i-NKAPbPXBut8N6WHLboYnJ2">
+            Skulle fodersäd ej kunna i tillfredsställande mängd tilldelas
+            hästarna, kunde möjligtvis en del av fodersäden ersättas med vetekli,
+            om tillräckliga kvantiteter av denna vara kunde ställas till förfogande.
+          </seg>
+        </u>
+        <note xml:id="i-XYWpFe1wdaErLSRDqDckUw">
+          Luleå den 30 januari 1946. Erik Arwidsson.»
+        </note>
+        <u who="i-HGZVFFPEcK5naSxY9nQj5C" xml:id="i-387099ef229ee642-8" prev="i-387099ef229ee642-7">
+          <seg xml:id="i-BaC45UYZ67HF9ttYeHuRUx">
+            Om man tager i beaktande innehållet i herr statsrådets svar på
+            min interpellation, kan livsmedelskommissionen knappast tillmötesgå
+            denna framställning från Norrbotten. Länsveterinärens uttalande,
+            att »utfodring med betfor är olämplig i timmerskogen» är värt
+            att observera. För övrigt ha erfarna skogskörare, som försökt
+            att utfodra sina hästar med detta fodermedel, kommit till samma
+            resultat. Betfor bör nog — trots allt — hänföras till gruppen
+            nödfoder. Har man inte möjlighet att ge skogshästarna fodersäd
+            och kli i tillräcklig utsträckning, är det bättre att dryga ut
+            foderstaten med hö än med betfor.
+          </seg>
+          <seg xml:id="i-DDCodrEmG5HjDJxaAkGcLe">
+            En liten ljusglimt finner man i sista meningen i herr statsrådets
+            svar. Det framhålles där, att »alla möjligheter, som finnas, komma
+            att utnyttjas för att. i görligaste mån försöka förbättra situationen».
+            Jag tror helt visst, att de, som bära det största ansvaret, komma
+            att göra sitt allra bästa för att råda bot på svårigheterna. Vi
+            få också hoppas, att det snart nog skall bli bättre förhållanden
+            på såväl detta som många andra områden.
+          </seg>
+          <seg xml:id="i-4yrDsX2XMepjMTsZ37n2rE">
+            Jag ber att än en gång få tacka herr statsrådet för det svar,
+            som jag har fått på min interpellation.
+          </seg>
+        </u>
+        <note xml:id="i-2HBVAzTj5J2Sv7JZtbFbVY" type="speaker">
+          Ordet lämnades härefter ånyo till herr statsrådet Sträng, som
+          tillkänna- Ang. reglering givit, att han hade för avsikt att vid
+          detta sammanträde besvara jämväl herr v fiskerätten Mattssons
+          interpellation angående reglering av fiskerätten i norra Bohuslän,
+          Bohuslän. och nu yttrade:
+        </note>
+        <u who="i-3urySgCAk2SuFz1BB8TX5x" xml:id="i-H7tDV1rBLvQ81dBmg8y5U4" next="i-387099ef229ee642-9">
+          <seg xml:id="i-HFHBCxKbmSx36MADPd7NJ7">
+            Herr andre vice talman! Med första kammarens tillstånd har dess
+            ledamot herr Oscar Mattsson till mig riktat följande interpellation.
+          </seg>
+        </u>
+        <u who="i-3urySgCAk2SuFz1BB8TX5x" xml:id="i-387099ef229ee642-9" prev="i-H7tDV1rBLvQ81dBmg8y5U4" next="i-387099ef229ee642-10">
+          <seg xml:id="i-EWAGGbtWDA3AjHsEeJ2efV">
+            Är statsrådet villig medverka till att fiskerättskommittén snarast
+            möjligt framlägger förslag till fiskerättens reglering i norra
+            Bohuslän och att en lagstiftning i denna fråga snarast förelägges
+            riksdagens prövning?
+          </seg>
+          <seg xml:id="i-9VMgSG8S9D5Q2vW1NDBcK3">
+            Av interpellationens ordalydelse kan man måhända närmast få den
+            uppfattningen, att därmed åsyftas en fullständig omreglering för
+            norra Bohuslän av de för denna landsända gällande fiskerättsliga
+            bestämmelserna. I den mån dessa bestämmelser äga tillämpning även
+            för andra delar av rikets kuster är en sådan separat behandling
+            dock icke möjlig. Av den motivering som interpellanten lämnat
+            torde också framgå, att han ej tagit sikte på så vittgående åtgärder
+            utan endast avsett de speciella stadgandena för norra Bohuslän
+            om rätt till hummerfiske i enskilt vatten.
+          </seg>
+          <seg xml:id="i-2SM87mJ5BFAzM6gsr1pNN8">
+            Enligt gällande bestämmelser tillkommer hummerfisket vid vissa
+            delar av den bohuslänska kusten strandägaren ensam innanför »180-metersgränsen».
+            Så är förhållandet dels i Åby-, Brooch Gullmarsfjordarna i mellersta
+            Bohuslän och dels inom de tre nordligaste kusthäraderna, Vette,
+            Tanums och Kville. Här når alltså det fria hummerfisket som regel
+            ej längre in än till »180-metersgränsen». Inom Vette, Tanums och
+            Kville härader har emellertid lagen medgivit viss rätt till fritt
+            hummerfiske också innanför nämnda gränslinje under särskilda förutsättningar.
+            Sålunda stadgas, att om »vid stränderna av en ö och därtill hörande
+            holmar» hummerfiske av ålder oklandrat bedrivits jämväl av »andra
+            å ön boende än strandägarna», därvid skall förbliva.
+          </seg>
+          <seg xml:id="i-K152SKVaJinC4RCRfiSrJk">
+            Från fiskerättskommitténs ordförande har jag inhämtat, att kommittén
+            under sitt arbete till övervägande även upptagit frågan om bestämmelserna
+            rörande hummerfisket vid den bohuslänska kusten. Kommittén har
+            emellertid ännu ej tagit slutlig ställning till frågan. Ytterligare
+            utredning har nämligen befunnits erforderlig för att giva en tillförlitlig
+            uppfattning om det en-
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-005.jp2/_view"/>
+        <note type="date" xml:id="i-VuLdZHWj1vsQFKoWjh5Ljc">
+          6 Nr 7. Lördagen den 9 februari 1946.
+        </note>
+        <u who="i-3urySgCAk2SuFz1BB8TX5x" xml:id="i-387099ef229ee642-10" prev="i-387099ef229ee642-9">
+          <seg xml:id="i-GU9pp9EHxPNMYLtPPqvp1r">
+            Ang. reglering av fiskerätten i norra Bohuslän. (Forts.) skilda
+            hummerfiskets ekonomiska betydelse, detta särskilt med hänsyn
+            till spörsmålet i vad mån sagda fiske kan anses utgöra en förutsättning
+            för att de smärre strandägarna skola äga full försörjning på sina
+            fastigheter och följaktligen dess borttagande kunde medföra uppkomsten
+            av ett slags »ofullständiga jordbruk».
+          </seg>
+          <seg xml:id="i-PquywkNA6ZVd34PSLTdUvC">
+            Vad interpellanten anfört om att de åsyftade förhållandena i
+            norra Bohuslän äro tämligen isolerade från fiskerättsfrågorna
+            vid rikets övriga kuster torde i och för sig vara riktigt. Något
+            lagtekniskt hinder mot att särskilt för sig pröva frågan om ett
+            eventuellt fullständigt frigivande av det bohuslänska hummerfisket
+            kan väl därför knappast anses möta. Man torde dock kunna starkt
+            ifrågasätta lämpligheten av att, sedan arbetet med en fullständig
+            översyn av fiskelagstiftningen nu igångsatts och fortskridit så
+            långt som skett. utan mycket trängande skäl gå vidare på de partiella
+            reformernas väg och ånyo ändra ett lagstadgande, som tillkommit
+            för mindre än tjugu år sedan. Det beräknas, att fiskerättskommitténs
+            uppdrag skulle kunna i sin helhet avslutas under första hälften
+            av nästa år. Någon större tidsvinst skulle den ifrågasatta utbrytningen
+            följaktligen icke medföra. De intryck kommittén, enligt vad jag
+            inhämtat, fått vid sina sammanträden med den bohuslänska fiskarbefolkningen,
+            ha knappast heller givit belägg för att de icke-strandägande fiskarenas
+            förhållanden just nu hotas av en så snabbt fortgående försämring,
+            att en forcering av ärendet på grund därav kan anses påkallad.
+            Under sådana förhållanden torde en partiell lagstiftningsreform
+            på området knappast nu böra komma i fråga.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-W9HdHT8jt9UX6XZPt6sYxw">
+          Herr Mattsson:
+        </note>
+        <u who="i-5UouTXxUjtmBcxh1ihyyvK" xml:id="i-a520df63849ddeb5-0" next="i-a520df63849ddeb5-1">
+          <seg xml:id="i-JXXucE5EfPMQLpfcK5RZkj">
+            Herr andre vice talman! Jag ber att till herr statsrådet få framföra
+            ett tack för svaret på min interpellation. Av detta framgår, att
+            statsrådet icke tagit ställning till själva sakfrågan i föreliggande
+            spörsmål, utan — efter vad jag kan förstå — föredragit, att dessförinnan
+            invänta resultatet av den pågående utredningen om en revision
+            av fiskerätten i sin helhet.
+          </seg>
+          <seg xml:id="i-2E5Kr3dVw8d8KbEzsMRg5b">
+            Trots att fiskerättskommittén till herr statsrådet lämnat uppgifter,
+            som närmast gå i motsatt riktning, förhåller det sig tyvärr så,
+            att gällande bestämmelser angående fiskerätten i norra Bohuslän
+            medföra stora olägenheter för de fiskare, som ej ha strandrätt.
+            Detta gäller speciellt i fråga om hummerfisket. Lagens föreskrift,
+            att strandrätten omfattar från två meters stadigt djup till 180
+            meter ut i vattnet, medför att hela områden kunna avstängas. Den
+            kuststräcka det här är fråga om är söndersplittrad och fylld av
+            öar, holmar och skär. Från en ö eller holme till en annan måste
+            avståndet således vara större än 360 meter för att vederbörande
+            skall kunna komma till fritt fiskevatten. I praktiken förfoga
+            strandägarna över de inre fiskeplatserna, under det att icke-strandägande
+            fiskare äro hänvisade till att söka sig ut till fiskeplatser längre
+            ut mot öppna havet.
+          </seg>
+          <seg xml:id="i-Au9hWvK3MAAj2LBP1d5JJg">
+            Som jag framhöll i min interpellation ha olägenheterna för fiskarena
+            att kunna utöva sin näring förvärrats under de senare åren. I
+            syfte att belysa, hur det ligger till i denna del, ber jag att
+            få citera något av innehållet i ett brev, som kommit oss till
+            handa från ett antal fiskare. Det heter i brevet: »När hummerfisket
+            började den 1 oktober hade fiskarena som vanligt sina hummertinor
+            där de sedan urminnes tider opåtalt fiskat, vid vad de trodde
+            vara fritt fiskevatten, bl. a. Makrilskär. Nu låg nämnda fiskevatten
+            närmare ön Hornö än 180 meter, varför det blev åtal vid häradsrätten
+            för olaga fiske. Genom dom den 21 december» — detta var förra
+            året — »blev det dryga böter för de fiskare, som brukat sina redskap
+            där vi sedan ålder opåtalat fått fiskat. Nu gör strandägarna anspråk
+            på allt fiske vid de holmar och skär å grund där fisket av ålder
+            varit fritt för allmänheten då de ligga i närheten
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-006.jp2/_view"/>
+        <note type="date" xml:id="i-T84mcirXaFt3NXkxLzDybQ">
+          Lördagen den 9 februari 1946. Nr 7. 7
+        </note>
+        <u who="i-5UouTXxUjtmBcxh1ihyyvK" xml:id="i-a520df63849ddeb5-1" prev="i-a520df63849ddeb5-0">
+          <seg xml:id="i-1fWyC4N2BEv3jsAmpkEV2">
+            Ang. reglering av fiskerätten i norra Bohuslän. (Forts.) av deras
+            öar eller land. Så nu ha vi snart inget att fiska på förrän vi
+            komma ut på öppna havet. — Fjordarna här äro smala, ej över 2
+            gånger 180 meter, varför vi ingenting har att fiska på när vi
+            inte få komma närmare land än från två meter stadigt djup och
+            därifrån 180 meter ut från land.
+          </seg>
+          <seg xml:id="i-CjeNc6jDxH5Yoh3xCKebqV">
+            När så på grund av arbetslösheten i stenhuggerierna många bofasta
+            stenhuggare också blivit tvungna att söka sin utkomst genom småeller
+            inomskärsfiske, ser vi oss ej i stånd att kunna genom fiske förtjäna
+            vårt och familjernas uppehälle. Kan vi inte få samma rätt att
+            fiska som rikets övriga invånare, får vi söka hjälp från stat
+            och kommun eller avflytta härifrån, där vi i många generationer
+            haft vår utkomst av fiske. Att vi på grund av en sådan märkvärdig
+            lag, som endast gäller för Kville, Tanums och Vette härader, känner
+            oss utstötta ur det svenska rättssamhället behöver vi ej påpeka.»
+          </seg>
+          <seg xml:id="i-XfWveMmqB3hC4hokENdPPS">
+            Av det sagda torde tydligt framgå, att olägenheterna med nuvarande
+            ordning äro avsevärda. Det är därför icke utan en viss förvåning,
+            som man tager del av statsrådets meddelande om att vid fiskerättskommitténs
+            överläggningar med den bohuslänska fiskarbefolkningen knappast
+            något framkommit, som kan ge belägg för att de icke-strandägande
+            fiskarenas yrkesförhållanden fortgående försämras. En lagändring
+            i sådan riktning, att fiske fritt kan utövas även av andra personer
+            än strandägarna, synes påkallad. Att vid en reglering av fiskerätten
+            tillbörlig hänsyn även bör tagas till strandägarnas rätt, är en
+            självklar sak. För att dessa skola kunna undgå ekonomisk förlust
+            torde ett inlösningsförfarande få tillgripas.
+          </seg>
+          <seg xml:id="i-G6qgsh4jx4Y37xzhNa1JAc">
+            Enligt min mening hade det varit lyckligt, om en reglering av
+            fiskerätten omedelbart kunnat komma till stånd. Ä andra sidan
+            är det förståeligt, att statsrådet icke nu vill medverka till
+            en sådan, med hänsyn till att fiskerättskommittén ställt i utsikt
+            att utredningen om en revision av fiskerätten i dess helhet snart
+            skall vara slutförd. Det vore önskvärt, om i samband med den fortsatta
+            utredning, som, enligt vad statsrådet uppgav, planerats inom fiskerättskommittén,
+            förhandlingar kunde föras med såväl strandägare som ickestrandägare.
+            Sedan en revision av lagstiftningen på fiskerättens område nu
+            ställts i utsikt, vill jag uttrycka den förhoppningen, att nuvarande
+            särbestämmelser, som ha avseende endast å norra delen av Bohuslän,
+            måtte utgå ur lagen. Jag vill sluta med en vädjan till statsrådet
+            att medverka till att — så snart ske kan efter det fiskerättskommittén
+            blivit färdig med sin utredning förslag till ny lag i ämnet förelägges
+            riksdagen.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-PHgmoM66KDHKFQ6GKDjrnF">
+          Herr statsrådet Sträng:
+        </note>
+        <u who="i-3urySgCAk2SuFz1BB8TX5x" xml:id="i-3454f33eabc70417-2">
+          <seg xml:id="i-R8VxStHxe53XN3DCsJ6ohE">
+            Herr andre vice talman! Jag vill erinra om att denna fråga var
+            uppe motionsvägen så sent som vid 1944 års riksdag och att jordbruksutskottet
+            därvid framhöll lämpligheten av att fiskerättskommittén finge
+            handlägga frågan i samband med andra, närliggande problem, vilka
+            voro under övervägande att upptagas till behandling. Vid samtal,
+            som jag haft med fiskerättskommitténs ordförande, har denne uppgivit,
+            att någon absolut samstämmig mening icke kom till uttryck vid
+            de möten, som ägt rum mellan representanter för de parter, som
+            beröras av frågan. Jag medger, att det är ett delikat spörsmål,
+            som man har att taga ställning till, när en fiskargrupps intressen
+            stå emot en annan fiskargrupps och frågan härtill kompliceras
+            av den omständigheten att, för den händelse man skulle tillmötesgå
+            interpellanten i hans uppfattning, detta måste ha till ofrånkomlig
+            konsekvens vissa ekonomiska åtaganden från statsmakternas sida.
+            Med hänsyn härtill och med hänsyn till att fiskerättskommittén
+            avser att slutföra sitt arbete under loppet av första halvåret
+            1947, förefaller det naturligt att avvakta det resultat, vartill
+            kommitténs arbete kan leda, innan man går att taga ställning till
+            föreliggande fråga.
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-007.jp2/_view"/>
+        <note type="date" xml:id="i-XHQjwVJGGz9KauxfPdY1MF">
+          8 Nr 7. Lördagen den 9 februari 1946.
+        </note>
+        <note xml:id="i-HQbKXF7cdAAgWCibFhTCRi">
+          Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
+        </note>
+        <note xml:id="i-8YnahbvpTrtmhHrPhaAAKg">
+          nr 40, angående anslag till kraftstationer vid Harsprånget och
+          Kilforsen;
+        </note>
+        <note xml:id="i-LtW8ntrVN8L4trGgt42gT6">
+          nr 41, angående försäljning av vissa statens järnvägar tillhöriga
+          fastigheter 1 Nässjö;
+        </note>
+        <note xml:id="i-G249sw7RznYxbo7XKASLUh">
+          nr 43, angående inköp för postverkets räkning av tomter i Karlskrona;
+        </note>
+        <note xml:id="i-UdX1exoLde63Hu1vUihcAS">
+          nr 45, angående inrättande av högre tekniska läroverk i Gävle
+          och Karlskrona; samt
+        </note>
+        <note xml:id="i-YPa7V7zYTRx291LykPNBXF">
+          nr 46, angående statsbidrag i samband med borttagande av broavgifterna
+          vid Lidingöbron.
+        </note>
+        <note xml:id="i-4RLHv78t2HZ9LiCEYK8fy5">
+          Föredrogs och hänvisades till jordbruksutskottet Kungl. Maj:ts
+          proposition nr 47, angående anslag till bidrag för anläggande
+          av gemensamma tvättinrättningar på landsbygden.
+        </note>
+        <note xml:id="i-8qrLnCCAuHAXc1azd7oVug">
+          Föredrogos och bordlades Kungl. Maj:ts denna dag avlämnade propositioner
+          nr 48—251.
+        </note>
+        <note xml:id="i-Ws7vemmSMdug4xcPvrrR7u">
+          Anmäldes och bordlades
+        </note>
+        <note xml:id="i-SpRJQETGT2T7PgA1qJP51L">
+          statsutskottets utlåtanden:
+        </note>
+        <note xml:id="i-26bQD36ZHsQ5UrKrP76DhM">
+          nr 14, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat IT till riksstaten för budgetåret 1945/46, i vad
+          propositionen avser Justitiedepartementets verksamhetsområde;
+        </note>
+        <note xml:id="i-EUqeK2GDTpQ5vFey7mivCp">
+          nr 15, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tilläggsstat II till riksstaten för budgetåret 1945/46, i vad
+          propositionen avser utrikesdepartementets verksamhetsområde ;
+        </note>
+        <note xml:id="i-4feTSPfnFdTdNRh9xtAnxo">
+          nr 16, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tilläggsstat II till riksstaten för budgetåret 1945/46, i vad
+          propositionen avser försvarsdepartementets verksamhetsområde ;
+        </note>
+        <note xml:id="i-GJpa3NxsKKKUCSqzvh3gZo">
+          nr 17, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tilläggsstat IT till riksstaten för budgetåret 1945/46, i vad
+          propositionen avser socialdepartementets verksamhetsområde, jämte
+          i ämnet väckt motion;
+        </note>
+        <note xml:id="i-U2WmKEiL72d1ZZsLNXrbi5">
+          nr 18, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tilläggsstat II till riksstaten för budgetåret 1945/46, i vad
+          propositionen avser kommunikationsdepartementets verksamhetområde;
+        </note>
+        <note xml:id="i-6M1HNsvMXQjoqu22YXuLc3">
+          nr 19, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat IT till riksstaten för budgetåret 1945/46, i vad
+          propositionen avser finansdepartementets verksamhetsområde;
+        </note>
+        <note xml:id="i-UERmvh5J2uu8oKUWGEoLXm">
+          nr 21, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat IT till riksstaten för budgetåret 1945/46, i vad
+          propositionen avser handelsdepartementets verksamhetsområde; och
+        </note>
+        <note xml:id="i-F7uqEJjGRfZuGmRyDUCeBD">
+          nr 24, i anledning av Kungl. Maj:ts i statsverkspropositionen
+          under tolfte huvudtiteln gjorda framställningar om anslag för
+          budgetåret 1946/47 till allmänna indragningsstaten;
+        </note>
+        <note xml:id="i-RGvp5cXqG37rgW85CKz65L">
+          bevillningsutskottets betänkande nr 1, i anledning av Kungl.
+          Maj:ts proposition med förslag till förordning angående utvidgad
+          rätt att vid 1946 års taxering åtnjuta avdrag för avsättning till
+          investeringsfond för fartyg; samt
+        </note>
+        <note xml:id="i-8fpHcXyqZR2Vkif1Xo2vSJ">
+          Jordbruksutskottets utlåtande nr 3, i anledning av Kungl. Maj:ts
+          proposition med förslag till lag angående ändrad lydelse av 1
+          och 2 $$ lagen den 14 juni 1928 (nr 196) om galtbesiktningstvång.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-008.jp2/_view"/>
+        <note type="date" xml:id="i-YQqZm6FVbUoyY4EJS2AdZL">
+          Tisdagen den 12 februari 1946. Nr 7. 9
+        </note>
+        <note xml:id="i-TQbVjDaeaY6436c4S6sbih">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 2.35 eftermiddagen.
+        </note>
+        <note xml:id="i-JVFTKWuab9bbrVzEECDFw7">
+          In fidem G. H. Berggren.
+        </note>
+        <note type="date" xml:id="i-BAeEf36TuBoq7VK55a9SCu">
+          Tisdagen den 12 februari.
+        </note>
+        <note xml:id="i-MwDGf3jLub1FewbuwDdipg">
+          Kammaren sammanträdde kl. 4 eftermiddagen.
+        </note>
+        <note xml:id="i-tEntSEZz6YxBK8bd6RiRq">
+          Herr statsrådet Danielson avlämnade Kungl. Maj:ts proposition
+          nr 44, med förslag till förordning angående ändrad lydelse av
+          1 $ förordningen den 28 september 1928 (nr 376) om särskild skatt
+          å vissa lotterivinster.
+        </note>
+        <note xml:id="i-6bQqXYCHbCnQYaswpz4cVz">
+          Justerades protokollen för den 5 och den 6 innevarande månad.
+        </note>
+        <note xml:id="i-8QwCTgzrqfrHdSrpBfsdyD">
+          Anmäldes och godkändes statsutskottets förslag till riksdagens
+          skrivelse, nr 16, till Konungen i anledning av Kungl. Maj:ts i
+          statsverkspropositionen gjorda "framställningar under Utgifter
+          å driftbudgeten, För flera huvudtitlar gemensamma frågor.
+        </note>
+        <note xml:id="i-JqhokaXFVgakRCfzaRg9jc">
+          Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
+        </note>
+        <note xml:id="i-36tXBZF9rCNZnuHXGsEXy2">
+          nr 48, angående nedläggande av driften vid Svenska skifferoljeaktiebolagets
+          oljeutvinningsanläggningar vid Kinne-Kleva m. m.;
+        </note>
+        <note xml:id="i-iwuFwjXBMZYcQtFmMWo2X">
+          nr 49, angående beredande av täckning för vissa medelsbrister,
+          redovisade såsom propriebalanser i försvarets civilförvaltnings
+          räkenskaper; samt
+        </note>
+        <note xml:id="i-3myeRam1GFsucSMbAsPrfY">
+          nr 50, angående livränta åt Carl Johan Eric Tersmeden m. m.
+        </note>
+        <note xml:id="i-JranLdbSWgbHuLQbV5KenZ">
+          Föredrogs och hänvisades till jordbruksutskottet Kungl. Maj:ts
+          proposition ur 31, angående anslag till lindring av mindre bemedlades
+          kostnader för djursjukvård.
+        </note>
+        <note xml:id="i-EAgPsCQZVeyoRWX3QcotLF">
+          Föredrogos och bordlades ånyo statsutskottets utlåtanden nr 14—19,
+          21 och 24, bevillningsutskottets betänkande nr 1 samt jordbruksutskottets
+          utlåtande nr 3. Ak
+        </note>
+        <note xml:id="i-HMHT9bM7m9iAW1mA7mu7qh">
+          Föredrogs och bordlades Kungl. Maj:ts denna dag avlämnade proposition
+          nr 44.
+        </note>
+        <note xml:id="i-FJBy3ivF3bSBBDNYby4YV9">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 4.06 eftermiddagen.
+        </note>
+        <note xml:id="i-T4qWZz89nVUbhKkhwWUo96">
+          In fidem G. H. Berygren.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-009.jp2/_view"/>
+        <note xml:id="i-YTCwRnufHbB7qoRpod52EA">
+          10 Nr 7. Onsdagen den 13 febrnari 1946.
+        </note>
+        <note type="date" xml:id="i-EJu34mDWZfBcH6EmMdhFuj">
+          Onsdagen den 13 februari.
+        </note>
+        <note xml:id="i-9Yo9AjDyJWCkAKRSKzqViK">
+          Kammaren sammanträdde kl. 11 förmiddagen.
+        </note>
+        <note type="speaker" xml:id="i-Tdk5KdbvR2awfu1dt2T4WP">
+          Herr statsrådet Vougt avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-36kGyYCoxyY2wKruDHvAaK">
+          ts proposition nr 53, angående försäljning av fastigheter, som
+          förvaltas av försvarets bostadsanskaffningsnämnd, m. m.
+        </note>
+        <u xml:id="i-CLHCBzd2xmeHvKTuvhyqXo" next="i-9f8b4379784b0adb-1" who="i-CVG5H18C4Zmb44stfabVSc">
+          <seg xml:id="i-JdsWojUT9ntbkrQdW4VejH">
+            Ang. snabbare Jämlikt $ 20 av kammarens ordningsstadga hade herr
+            Wistrand till hans publicering av excellens herr statsministern
+            framställt följande fråga: »Är regeringen beredd borra 2009 medverka
+            därtill, att åt statliga bolags bokslut och styrelseberättelser
+            gives sam-
+          </seg>
+        </u>
+        <u who="i-CVG5H18C4Zmb44stfabVSc" xml:id="i-9f8b4379784b0adb-1" prev="i-CLHCBzd2xmeHvKTuvhyqXo">
+          <seg xml:id="i-GHSibTGyF9JhNjDzxpP4Yq">
+            ma publicitet, som i allmänhet sker beträffande bokslut och styrelseberättel-
+          </seg>
+          <seg xml:id="i-Vhfw8CgpH4hxiNwCbGbQRK">
+            ser från enskilda bolag av motsvarande storleksordning?»
+          </seg>
+        </u>
+        <note xml:id="i-NumSJcxQGBbZ8n9LBpLYEV" type="speaker">
+          Hans excellens herr statsministern Hansson, som tillkännagivit,
+          att han hade för avsikt att vid detta sammanträde besvara nämnda
+          fråga, erhöll ordet och anförde:
+        </note>
+        <u who="i-L7nvZ56RferP78KNpz2Uh1" xml:id="i-CHiDErrdMt8HRvi1txeUxf" next="i-9f8b4379784b0adb-2">
+          <seg xml:id="i-8gEukwNzL7CSqPtZQWjX9Q">
+            Herr talman! Herr Wistrand har till mig framställt följande fråga:
+          </seg>
+        </u>
+        <u who="i-L7nvZ56RferP78KNpz2Uh1" xml:id="i-9f8b4379784b0adb-2" prev="i-CHiDErrdMt8HRvi1txeUxf">
+          <seg xml:id="i-9JkCqLrCDmfaPvgcKqLohL">
+            Ar regeringen beredd medverka därtill, att åt statliga bolags
+            bokslut och styrelseberättelser gives samma publicitet som i allmänhet
+            sker beträffande bokslut och styrelseberättelser från enskilda
+            bolag av motsvarande storleksordning?
+          </seg>
+          <seg xml:id="i-LA7MZo3AoQvzP7NcrMe4hh">
+            Med frågan torde åsyftas den av större enskilda bolag tillämpade
+            praxis att i god tid före vederbörande bolagsstämma tillställa
+            tidningarna exemplar av styrelsens förvaltningsberättelse med
+            balansräkning för publicering.
+          </seg>
+          <seg xml:id="i-9yL44DwJZWX1WA9LiJvQFy">
+            Enligt vad jag inhämtat tillämpas redan nu en dylik praxis av
+            vissa statliga bolag. Från regeringens sida ha underhandsåtgärder
+            vidtagits i syfte att den skall erhålla allmän tillämpning för
+            de statliga bolagens del.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-Lei4KCKqZoedquGgNuMpDo">
+          Herr Wistrand:
+        </note>
+        <u who="i-WxcGYe8AGVMcCyHJTSEui2" xml:id="i-912ec431db70a47f-0">
+          <seg xml:id="i-8LDhkJ5MNgUceidmUhARjj">
+            Herr talman! Jag ber att få tacka hans excellens herr statsministern
+            för svaret och det tillmötesgående han visat mina intentioner
+            i detta
+          </seg>
+        </u>
+        <note xml:id="i-BvAjnSDgi8UfdaxSPfZMsn">
+          fall.
+        </note>
+        <note type="speaker" xml:id="i-V4ceWWkz9vMyLz8DNVZJGS">
+          Herr statsrådet Sköld avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-VEpMQNL2m4Rku2coCjmqBw">
+          ts propositioner:
+        </note>
+        <note xml:id="i-5fb5qoVuJ6CeSxnZNLezof">
+          nr 54, med förslag till förordning om ändrad lydelse av 9 8 1
+          och 4 mom. samt 10 $ 1 och 5 mom. förordningen den 22 juni 1934
+          (nr 320) angående grunder för förvaltningen av viss kronoegendom;
+          1 nr 55, angående upplåtelse i vissa fall av mark å renbetesfjällen
+          i Jämtlands än m. m.;
+        </note>
+        <note xml:id="i-Rxqxgm67iva3cXmFRUPgwW">
+          nr 56, angående anslag till odlingsoch byggnadshjälp åt innehavare
+          av odlingslägenheter m. fl.; samt
+        </note>
+        <note xml:id="i-Xaudzt1qdHpTaYBuTas8gW">
+          nr 38, angående ratificering av vissa ändringar i stadgan för
+          Internationella arbetsorganisationen.
+        </note>
+        <note xml:id="i-SaGRmT8qMDP8TkghQL5Z6A">
+          Föredrogs och hänvisades till bevillningsutskottet Kungl. Maj:ts
+          proposition nr 44, med förslag till förordning angående ändrad
+          lydelse av 1 $ förordningen den 28 september 1928 (nr 376) om
+          särskild skatt å vissa lotterivinster.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-010.jp2/_view"/>
+        <note type="date" xml:id="i-PktkCDhHb2urtFkQKWJWbW">
+          Onsdagen den 13 februari 1946. Nr 7. 11
+        </note>
+        <note xml:id="i-HwfbVQeJTqE8NpKRLincjF">
+          Föredrogs ånyo och företogs punktvis till avgörande statsutskottets
+          utlåtande nr 14, i anledning av Kungl. Maj:ts proposition angående
+          utgifter å tilläggsstat IT till riksstaten för budgetåret 1945/46,
+          i vad propositionen avser justitiedepartementets verksamhetsområde.
+        </note>
+        <note xml:id="i-3FMm8VcuwEqe2nUE5aqzU3">
+          Punkterna 1 och 2. Vad utskottet hemställt bifölls.
+        </note>
+        <note xml:id="i-BgU8Hpjx18YYamLHKLfE6G">
+          Punkten 3. Lades till handlingarna.
+        </note>
+        <note xml:id="i-2Rh8dFTCeupWtPbED3NQQj">
+          Föredrogs ånyo och företogs punktvis till avgörande statsutskottets
+          utlåtande nr 15, i anledning av Kungl. Maj:ts proposition angående
+          utgifter å tilläggsstat II till riksstaten för budgetåret 1945/46,
+          i vad propositionen avser utrikesdepartementets verksamhetsområde.
+        </note>
+        <note xml:id="i-LLwgKzWy61zj8p9NKmRYvR">
+          Punkterna 1—5. Vad utskottet hemställt bifölls.
+        </note>
+        <note xml:id="i-HNCx6dJzjwBiDBhVVDVsZ5">
+          Punkten 6. Tades till handlingarna.
+        </note>
+        <note xml:id="i-KUvzCSXRbjHxB3Qe46k7hz">
+          Föredrogs ånyo och företogs punktvis till avgörande statsutskottets
+          utlåtande nr 16, i anledning av Kungl. Maj:ts proposition angående
+          utgifter å tilläggsstat IT till riksstaten för budgetåret 1945/46,
+          i vad propositionen avser för-
+        </note>
+        <note xml:id="i-AvxGhQmDtVXCQEL8ZPSLN2">
+          svarsdepartementets verksamhetsområde.
+        </note>
+        <note xml:id="i-RL7uB4icgUWadP9Nc2bb9U">
+          Punkterna 1—14. Vad utskottet hemställt bifölls.
+        </note>
+        <note xml:id="i-PQXq1F3mGdX9tjARgPaZCR">
+          Punkten 5. Tades till handlingarna.
+        </note>
+        <note xml:id="i-B6nL69d6wGq8Tt3xxb3mD1">
+          Punkterna 6—58. Vad utskottet hemställt bifölls.
+        </note>
+        <note xml:id="i-S3rUjXobDUEHzHjPeQF8iS">
+          Föredrogs ånyo och företogs punktvis till avgörande statsutskottets
+          utlå-
+        </note>
+        <note xml:id="i-7YMFhJcBEJiP8vDAVxqQqS">
+          tande nr 17, i anledning av Kungl. Maj:ts proposition angående
+          utgifter å
+        </note>
+        <note xml:id="i-FEtU35HUXwrxA7cQotT6xE">
+          tilläggsstat II till riksstaten för budgetåret 1945/46, i vad
+          propositionen avser socialdepartementets verksamhetsområde, jämte
+          i ämnet väckt motion.
+        </note>
+        <note xml:id="i-M1TdMpPUmBT4McZurzpku">
+          Punkerna 1—38. Vad utskottet hemställt bifölls.
+        </note>
+        <note xml:id="i-RT8NFnoBbTNjKu7CZEm3Xy">
+          Punkten 9. Tades till handlingarna.
+        </note>
+        <note xml:id="i-v2TW2grctVBZwt51XVoj2">
+          Punkten 10. Utskottets hemställan bifölls.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-011.jp2/_view"/>
+        <note xml:id="i-DWgejYsdbnHUxJF5T3kttm">
+          Anslag till nybyggnad för länsstyrelsen i Jönköpings
+        </note>
+        <note type="date" xml:id="i-4tBKwNPrqaqskyJfsHsKPg">
+          12 Nr 7. Onsdagen den 13 februari 1946.
+        </note>
+        <note xml:id="i-PArfw3gfTbbohrb6nhu9jX">
+          Punkterna 11 och 12. Lades till handlingarna.
+        </note>
+        <note xml:id="i-FgJcpAmLrpxb4rQ7TmcaiG">
+          Punkterna 13—15. Vad utskottet hemställt bifölls.
+        </note>
+        <note xml:id="i-SUVf2gLewrHsRihUKfhRFF">
+          Föredrogs ånyo och företogs punktvis till avgörande statsutskottets
+          utlåtande nr 18, i anledning av Kungl. Maj:ts proposition angående
+          utgifter å tilläggsstat II till riksstaten för budgetåret 1945/46,
+          i vad propositionen avser kommunikationsdepartementets verksamhetsområde.
+        </note>
+        <note xml:id="i-8fkzCkkj7Mo3GwqARzGbNp">
+          Punkterna 1 och 2. Vad utskottet hemställt bifölls.
+        </note>
+        <note xml:id="i-6DSk4NzKVwot7PhS13pmz5">
+          Punkten 3. Lades till handlingarna.
+        </note>
+        <note xml:id="i-2Y9UPKr9eKXML771qn5Qos">
+          Punkterna 4—27. Vad utskottet hemställt bifölls.
+        </note>
+        <note xml:id="i-AszHd1dcJK1mosCgd8o5Jt">
+          Punkterna 8 och 9. Lades till handlingarna.
+        </note>
+        <note xml:id="i-EWp3TW8N4xFt3qhK77BYTW">
+          Punkten 10. Utskottets hemställan bifölls.
+        </note>
+        <note xml:id="i-LLqaPvqAEDQcAu8kuFYgH1">
+          Punkten 11.
+        </note>
+        <note xml:id="i-EK1wimr3x7maN95a6K42o3">
+          Med tillstyrkande av Kungl. Maj:ts i ämnet framlagda förslag
+          hade utskottet i förevarande utlåtande hemställt, att riksdagen
+          måtte till Nybyggnad för länsstyrelsen i Jönköpings län å tilläggsstat
+          II till riksstaten för budgetåret 1945/46 anvisa ett investeringsanslag
+          av 600 000 kronor.
+        </note>
+        <note xml:id="i-AvAq6b84E9nXckAVrFWAjv">
+          Enligt vad utredningen i ärendet visade, var ifrågavarande anslag
+          avsett att användas till uppförande av en nybyggnad för landskontoret
+          Jämte uppbördsoch folkbokföringsavdelningarna å en kronan tillhörig,
+          av kronohäktet delvis disponerad tomt.
+        </note>
+        <note type="speaker" xml:id="i-SfEjR637LoRvgGkWy1NMzo">
+          Herr Heiding:
+        </note>
+        <u who="i-rxMPrABKBDwfiUwJZxNv7" xml:id="i-b059134a907258e7-0">
+          <seg xml:id="i-XUSXFhZN64SiXXKbYZGgmC">
+            Herr talman! Den ifrågasatta nybyggnaden för länsstyrelsen skulle
+            enligt Kungl. Maj:ts förslag förläggas till kronohäktets tomt.
+            Enligt vad utskottet under hand inhämtat från kommunikationsdepartementet
+            ha förhandlingar nu upptagits om visst markbyte mellan kronan
+            och Jönköpings stad, varigenom kronohäktets tomt skulle överföras
+            i stadens ägo. Då den föreliggande byggnadsfrågan sålunda kommit
+            i ett nytt läge, får jag yrka, att kammaren måtte besluta om återremiss
+            till utskottet.
+          </seg>
+        </u>
+        <note xml:id="i-T9zZXouqB3m4YmQueQVjVb">
+          Efter härmed slutad överläggning yttrade herr talmannen, att
+          i avseende på den nu föredragna punkten endast yrkats, att densamma
+          skulle visas åter till utskottet.
+        </note>
+        <note xml:id="i-Q8bkADKZSMSttzQEjfUoDb">
+          Sedermera gjordes propositioner, först på bifall till vad utskottet
+          i förevarande punkt hemställt samt vidare på återremiss; och förklarades
+          den senare propositionen vara med övervägande ja besvarad.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-012.jp2/_view"/>
+        <note type="date" xml:id="i-AfHGUxHm1N4fFXiPBHjqoh">
+          Onsdagen den 13 februari 1946. Nr 7. 13
+        </note>
+        <note xml:id="i-8XdwA9pqJJ5ot1H1uR7PuN">
+          Punkten 12. Utskottets hemställan bifölls.
+        </note>
+        <note xml:id="i-3iXzCKLEsG4PE8B2yzDdCr">
+          Punkten 13. Lades till handlingarna.
+        </note>
+        <note type="speaker" xml:id="i-AtAZK1LAyCkXjsbzaagCYx">
+          Herr statsrådet Nilsson avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-QF3R1x3wiyj2GU8dTcvthz">
+          ts proposition nr 57, angående anslag till förvärv av vägmark
+          m. m.
+        </note>
+        <note xml:id="i-KAMx3DeV68SmejTzjpm3xT">
+          Föredrogs ånyo och företogs punktvis till avgörande statsutskottets
+          utlåtande nr 19, i anledning av Kungl. Maj:ts proposition angående
+          utgifter å tilläggsstat IT till riktsstaten för budgetåret 1945/46,
+          i vad propositionen avser finansdepartementets verksamhetsområde.
+        </note>
+        <note xml:id="i-JwpmK3NAsi3dG2YG7aJuur">
+          Punkten 1. Utskottets hemställan bifölls.
+        </note>
+        <note xml:id="i-9vdstRxL8y51Jko4E6LJBy">
+          Punkten 2. Tades till handlingarna.
+        </note>
+        <note xml:id="i-6SUKkzo4zn5uyE7E2NEhyj">
+          Föredrogs ånyo och företogs punktvis till avgörande statsutskottets
+          utlåtande nr 21, i anledning av Kungl. Maj:ts proposition angående
+          utgifter å tilläggsstat IT till riksstaten för budgetåret 1945/46,
+          i vad propositionen avser handelsdepartementets verksamhetsområde.
+        </note>
+        <note xml:id="i-U8cFCohHzC4vbf6sTnrv4m">
+          Punkterna 1 och 2. Vad utskottet hemställt bifölls.
+        </note>
+        <note xml:id="i-VJMZ212bn4NAXqVNmE5pEh">
+          Punkten 3. Tades till handlingarna.
+        </note>
+        <note xml:id="i-RrGjQJWp2ArnmZQhGc4vNs">
+          Föredrogs ånyo och företogs punktvis till avgörande statsutskottets
+          utlåtantande nr 24, i anledning av Kungl. Maj:ts i statsverkspropositionen
+          under tolfte huvudtiteln gjorda framställningar om anslag för
+          budgetåret 1946/47 till allmänna indragningsstaten.
+        </note>
+        <note xml:id="i-XEifuhYtcVEAMtZW3MW37z">
+          Punkterna 1—3. Vad utskottet hemställt bifölls.
+        </note>
+        <note xml:id="i-8pcygTLxkdMWuJfLEUN65A">
+          Punkten 4. Tades till handlingarna.
+        </note>
+        <note xml:id="i-QfRh6TXwwieKJkRpbMJxvj">
+          Vid förnyad föredragning av bevillningsutskottets betänkande
+          nr 1, i anledning av Kungl. Maj:ts proposition med förslag till
+          förordning angående utvidgad rätt att vid 1946 års taxering åtnjuta
+          avdrag för avsättning till investeringsfond för fartyg, bifölls
+          vad utskottet i detta betänkande hemställt.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-013.jp2/_view"/>
+        <note xml:id="i-SaGCornwwMVaNWDbrEecn">
+          Interpellation ang. privatsköterskornas pPensionsfråga.
+        </note>
+        <note type="date" xml:id="i-UJASYBvTHskJRCQ6kJbdFb">
+          14 Nr 7. Onsdagen den 13 februari 1946.
+        </note>
+        <note xml:id="i-FJGGDD6wkYuaMsAUu2AYHv">
+          Vid ånyo skedd föredragning av jordbruksutskottets utlåtande
+          nr 3, i anledning av Kungl. Maj:ts proposition med förslag till
+          lag angående ändrad lydelse av 1 och 2 $$ lagen den 14 juni 1928
+          (nr 196) om galtbesiktningstvång, bifölls vad utskottet i detta
+          utlåtande hemställt.
+        </note>
+        <note xml:id="i-LHXTzjsYLnur2KaZewQG9q">
+          Föredrogos och bordlades Kungl. Maj:ts denna dag avlämnade propositioner
+          nr 53—258.
+        </note>
+        <note xml:id="i-SJEZiBMTTVdYEq7k3KPBcC">
+          Fru Svenson väckte en motion, nr 253, i anledning av Kungl. Maj:ts
+          proposition angående anslag till lindring av mindre bemedlades
+          kostnader för djursjukvård.
+        </note>
+        <note xml:id="i-L4s4VY1pMkCYpbW8UYNfim">
+          Motionen bordlades.
+        </note>
+        <note type="speaker" xml:id="i-RkmDVGdbGGFgJ1Tooq1g8s">
+          Ordet lämnades på begäran till herr Anderson, Axel Ivar, som
+          yttrade:
+        </note>
+        <u who="i-SfDZtdC5fgukcXJsiu8J9U" xml:id="i-9f8b4379784b0adb-6" next="i-9DA2qH73z8zn2Foag96Dhb">
+          <seg xml:id="i-CvUvhnnoGvbUkDMZPdmCps">
+            Herr talman! Då för anslutning till statens pensionsanstalt är
+            uppställt krav på anställning i reglerad befattning, äro de i
+            privat sjukvård arbetande sköterskorna för närvarande så gott
+            som helt utestängda från statlig pensionering. Till dessa sjuksköterskors
+            disposition stå nämligen inga reglerade tjänster annat än det
+            ytterst begränsade antal, som kunnat garanteras av sjuksköterskebyråerna
+            för sådant ändamål. För sin ålderdomsförsörjning äro dessa sjuksköterskor
+            — i den mån de icke i tid erhållit reglerad befattning — hänvisade
+            till privata pensionsoch försäkringsanstalter med deras högre
+            avgifter och mindre gynnsamma pensionsvillkor eller, förutom till
+            den allmänna folkpensioneringen, till eventuella egna medel, anhörigas
+            hjälp, välgörenhetsinrättningar och fattigvård samt slutligen
+            till de hårt anlitade understödskassor, som finnas inom olika
+            sjuksköterskesammanslutningar.
+          </seg>
+        </u>
+        <u xml:id="i-9DA2qH73z8zn2Foag96Dhb" prev="i-9f8b4379784b0adb-6" who="i-SfDZtdC5fgukcXJsiu8J9U" next="i-78P4XPQckwP9GUN9FxbdC6">
+          <seg xml:id="i-H1qxDYHXiw55KRBu5yjYyk">
+            Den 3 juni 1938 uppdrog Kungl. Maj:t åt medicinalstyrelsen att
+            i samråd med statens pensionsanstalt verkställa utredning beträffande
+            frågan, huruvida och under vilka former det allmänna måtte kunna
+            medverka till pensionering av äldre, 1 privatvård arbetande sjuksköterskor,
+            ävensom att inkomma med det förslag, vartill utredningen måtte
+            föranleda. Statsrådet och chefen för socialdepartementet hade
+            i ett interpellationssvar 1 riksdagen den 27 maj 1938 förklarat
+            sig beredd att till omprövning uppta frågan om och under vilka
+            former det allmänna måtte kunna medverka till pensioneringen av
+            dessa sjuksköterskor. Medicinalstyrelsen — i samråd med statens
+            pensionsanstalt — överlämnade den 29 augusti 1939 till Kungl.
+            Maj:t utredning och förslag i ärendet. Häri anfördes bl. a. följande:
+          </seg>
+        </u>
+        <note xml:id="i-J4GDWKi18HmWGr6ZKWDc3J">
+          »En pensionering i egentlig mening av de i privatvård arbetande
+          sjukskö-
+        </note>
+        <u xml:id="i-78P4XPQckwP9GUN9FxbdC6" prev="i-9DA2qH73z8zn2Foag96Dhb" who="i-SfDZtdC5fgukcXJsiu8J9U" next="i-CpaKwmZodYukD98YkqhCSB">
+          <seg xml:id="i-3ncpyR7XAftNV7TyxwwiLc">
+            terskorna kan vid privatvårdens nuvarande organisation — vilken
+            icke inrymmer sådana anställningsförhållanden, som hittills ansetts
+            utgöra ett oeftergivligt villkor för statens medverkan till pensionering
+            — näppeligen betraktas
+          </seg>
+          <seg xml:id="i-Pgo4VWD1dDFbpwuBmMa2fB">
+            såsom en statsmakternas angelägenhet. På grund av bland annat
+            att dessa sjuksköterskor utgjort och alltjämt utgöra en nödvändig
+            beredskapskår, som står till förfogande, då sjuklighet i större
+            omfattning föreligger eller då fråga är att bestrida arbetet å
+            sjukhus eller i den öppna vården vid fast anställda och pensionsberättigade
+            sjuksköterskors ledighet, och med hänsyn till att de överhuvud
+            taget fylla en för det allmänna betydelsefull uppgift, tala dock
+            billighetsskäl för att särskilda pensioneringsåtgärder av staten
+            vidtagas för att bereda understöd åt uttjänta äldre privatsköterskor,
+            som kunna finnas vara i behov därav.»
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-014.jp2/_view"/>
+        <note type="date" xml:id="i-DaVqWmUBjTfEnTUJLqgGAc">
+          Onsdagen den 13 februari 1946. Nr 7. 15
+        </note>
+        <note xml:id="i-GRugVsyADWYgVQrhCVuS5P">
+          Interpellation ang. privatsköterskornas pensionsfråga. (Forts.)
+        </note>
+        <u xml:id="i-CpaKwmZodYukD98YkqhCSB" prev="i-78P4XPQckwP9GUN9FxbdC6" who="i-SfDZtdC5fgukcXJsiu8J9U" next="i-9f8b4379784b0adb-8">
+          <seg xml:id="i-4R9HWwFfgXz8rdF1idpPhf">
+            Medicinalstyrelsens utredning utmynnade i ett förslag till pensionering
+            genom statens försorg av privatsköterskor i enlighet med i utredningen
+            närmare angivna grunder. Statskontoret avstyrkte av principiella
+            skäl medicinalstyrelsens förslag. Sannolikt på grund av de statsfinansiella
+            svårigheterna hade Kungl. Maj:t i 1940 års statsverksproposition
+            icke upptagit något anslag för ändamålet.
+          </seg>
+        </u>
+        <note xml:id="i-Hg7VgA3VKepsaCviAWZtua">
+          Med anledning härav väcktes år 1940 två likalydande motioner
+          med begäran om att riksdagen för budgetåret 1940/1941 under tolfte
+          huvudtiteln måtte bevilja ett förslagsanslag å 50 000 kronor till
+          åldersstöd åt privatsköterskor, att av Kungl. Maj:t utbetalas
+          i enlighet med av motionärerna föreslagna grunder.
+        </note>
+        <u who="i-SfDZtdC5fgukcXJsiu8J9U" xml:id="i-9f8b4379784b0adb-8" prev="i-CpaKwmZodYukD98YkqhCSB" next="i-J79gJS4BSQFzXi6TGZpbJB">
+          <seg xml:id="i-Gsa5W4K6rJ9qJB6MWx16f">
+            Motionärerna frambhöllo, att med allt beaktande av det statsfinansiella
+            lägets krav kunde icke tillräckliga skäl förebringas för att,
+            trots att utredning förelåg, ytterligare skjuta på denna frågas
+            avgörande. Många av de sjuksköterskor, varom här är fråga, befinna
+            sig 1 stora ekonomiska svårigheter och måste — efter decenniers
+            kärleksfullt arbete att hjälpa människor — motse sin ålderdom
+            med oro och bekymmer. I anseende härtill och då den utgiftssumma,
+            som en pensionering skulle betinga, ej enligt motionärernas åsikt
+            kunde betraktas som särdeles stor eller oöverkomlig, borde de
+            tillfälliga statsfinansiella svårigheterna ej allena få vara avgörande,
+            allra helst som krisen och levnadskostnadernas stegring för denna
+            grupp betyder en skärpning av trycket och bekymren. Statsmakterna
+            borde därför så skyndsamt som möjligt ta ställning till själva
+            principfrågan, huruvida denna kår bör komma i åtnjutande av pensionering
+            eller ej, och den förebragta utredningen borde ge tillräckligt
+            material för ett slutligt bedömande av denna fråga.
+          </seg>
+        </u>
+        <u xml:id="i-J79gJS4BSQFzXi6TGZpbJB" prev="i-9f8b4379784b0adb-8" who="i-SfDZtdC5fgukcXJsiu8J9U" next="i-9f8b4379784b0adb-9">
+          <seg xml:id="i-LpX1uLzHUq39KBPiUZ7FuZ">
+            Motionerna hänvisades till bankoutskottet, som i utlåtande nr
+            25 förklarade, att ehuru sociala och humanitära skäl talade för
+            att ifrågavarande sjuksköterskors pensioneringsförhållanden kunde
+            bringas till lösning, utskottet dock icke var berett att på grundval
+            av motionerna tillstyrka antagandet av några regler för en dylik
+            pensionering. Det syntes utskottet nämligen med hänsyn till frågans
+            räckvidd ofrånkomligt att ett riksdagens beslut i ämnet borde
+            grundas på förslag från Kungl. Maj:t. På grund härav hemställde
+            utskottet, att motionerna icke skulle föranleda någon riksdagens
+            åtgärd. Kamrarna följde utskottets förslag.
+          </seg>
+        </u>
+        <u who="i-SfDZtdC5fgukcXJsiu8J9U" xml:id="i-9f8b4379784b0adb-9" prev="i-J79gJS4BSQFzXi6TGZpbJB" next="i-9f8b4379784b0adb-10">
+          <seg xml:id="i-9prQMGrsJ2SjiqGgwvT7Ax">
+            Även om den privata sköterskeverksamheten ej varit inordnad i
+            den offentliga sjukvården, har den dock kompletterat denna och
+            — såsom medicinalstyrelsen framhåller — skapat en för samhället
+            nödvändig sjukvårdsreserv eller beredskapskår. Förekomsten av
+            denna har otvivelaktigt betytt en direkt ekonomisk fördel för
+            det allmänna i så måtto, att sjukhusvård ej behövt anlitas i den
+            utsträckning, som eljest blivit ofrånkomlig. Den verksamhet, som
+            privatsköterskorna utövat, har ofta kunnat vara lika kvalificerad
+            och betydelsefull som den, sjukhussystrarna utfört, varför det
+            måste te sig i hög grad formalistiskt att se pensionsfrågan uteslutande
+            med utgångspunkt från anställningsförhållandenas art och 1 anslutning
+            därtill skapa en ekonomisk klyfta mellan dem efter utförd livsgärning.
+            Dessutom kan man ej bortse från de villkor, under vilka de äldre
+            privatsköterskorna haft att utföra sitt samhällsviktiga arbete:
+            deras ställning har kunnat vara osäker, deras inkomster ha åtminstone
+            längre tillbaka i tiden ofta varit små samt otillräckliga för
+            besparingar eller försäkringar, och karaktären av deras krävande
+            arbete gör dem jämförelsevis tidigt uttjänta — ett tiotal år innan
+            de bli berättigade till folkpension med tilläggspension. I likhet
+            med motionärerna vid 1940 års riksdag kan jag ej finna de av statskontoret
+            resta principiella skälen mot en pensionering bärkraftiga. Tvärtom
+            bör samhällets intresse av att privatsköterskornas verk-
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-015.jp2/_view"/>
+        <note type="date" xml:id="i-BxoS3VuK7xgZJcFjngtdYv">
+          16 Nr 7. Onsdagen den 13 februari 1946.
+        </note>
+        <u who="i-SfDZtdC5fgukcXJsiu8J9U" xml:id="i-9f8b4379784b0adb-10" prev="i-9f8b4379784b0adb-9" next="i-9huZP7BsqydoDoMpWxWZyg">
+          <seg xml:id="i-DGmED9yMq5YabBVTfjM6rb">
             Interpellation ang. privatsköterskornas pensionsfråga. (Forts.)
-          </note>
-          <u xml:id="i-CpaKwmZodYukD98YkqhCSB" prev="i-78P4XPQckwP9GUN9FxbdC6" who="Q5553542" next="i-9f8b4379784b0adb-8">
-            <seg xml:id="i-4R9HWwFfgXz8rdF1idpPhf">
-              Medicinalstyrelsens utredning utmynnade i ett förslag till pensionering
-              genom statens försorg av privatsköterskor i enlighet med i utredningen
-              närmare angivna grunder. Statskontoret avstyrkte av principiella
-              skäl medicinalstyrelsens förslag. Sannolikt på grund av de statsfinansiella
-              svårigheterna hade Kungl. Maj:t i 1940 års statsverksproposition
-              icke upptagit något anslag för ändamålet.
-            </seg>
-          </u>
-          <note xml:id="i-Hg7VgA3VKepsaCviAWZtua">
-            Med anledning härav väcktes år 1940 två likalydande motioner
-            med begäran om att riksdagen för budgetåret 1940/1941 under tolfte
-            huvudtiteln måtte bevilja ett förslagsanslag å 50 000 kronor till
-            åldersstöd åt privatsköterskor, att av Kungl. Maj:t utbetalas
-            i enlighet med av motionärerna föreslagna grunder.
-          </note>
-          <u who="Q5553542" xml:id="i-9f8b4379784b0adb-8" prev="i-CpaKwmZodYukD98YkqhCSB" next="i-J79gJS4BSQFzXi6TGZpbJB">
-            <seg xml:id="i-Gsa5W4K6rJ9qJB6MWx16f">
-              Motionärerna frambhöllo, att med allt beaktande av det statsfinansiella
-              lägets krav kunde icke tillräckliga skäl förebringas för att,
-              trots att utredning förelåg, ytterligare skjuta på denna frågas
-              avgörande. Många av de sjuksköterskor, varom här är fråga, befinna
-              sig 1 stora ekonomiska svårigheter och måste — efter decenniers
-              kärleksfullt arbete att hjälpa människor — motse sin ålderdom
-              med oro och bekymmer. I anseende härtill och då den utgiftssumma,
-              som en pensionering skulle betinga, ej enligt motionärernas åsikt
-              kunde betraktas som särdeles stor eller oöverkomlig, borde de
-              tillfälliga statsfinansiella svårigheterna ej allena få vara avgörande,
-              allra helst som krisen och levnadskostnadernas stegring för denna
-              grupp betyder en skärpning av trycket och bekymren. Statsmakterna
-              borde därför så skyndsamt som möjligt ta ställning till själva
-              principfrågan, huruvida denna kår bör komma i åtnjutande av pensionering
-              eller ej, och den förebragta utredningen borde ge tillräckligt
-              material för ett slutligt bedömande av denna fråga.
-            </seg>
-          </u>
-          <u xml:id="i-J79gJS4BSQFzXi6TGZpbJB" prev="i-9f8b4379784b0adb-8" who="Q5553542" next="i-9f8b4379784b0adb-9">
-            <seg xml:id="i-LpX1uLzHUq39KBPiUZ7FuZ">
-              Motionerna hänvisades till bankoutskottet, som i utlåtande nr
-              25 förklarade, att ehuru sociala och humanitära skäl talade för
-              att ifrågavarande sjuksköterskors pensioneringsförhållanden kunde
-              bringas till lösning, utskottet dock icke var berett att på grundval
-              av motionerna tillstyrka antagandet av några regler för en dylik
-              pensionering. Det syntes utskottet nämligen med hänsyn till frågans
-              räckvidd ofrånkomligt att ett riksdagens beslut i ämnet borde
-              grundas på förslag från Kungl. Maj:t. På grund härav hemställde
-              utskottet, att motionerna icke skulle föranleda någon riksdagens
-              åtgärd. Kamrarna följde utskottets förslag.
-            </seg>
-          </u>
-          <u who="Q5553542" xml:id="i-9f8b4379784b0adb-9" prev="i-J79gJS4BSQFzXi6TGZpbJB" next="i-9f8b4379784b0adb-10">
-            <seg xml:id="i-9prQMGrsJ2SjiqGgwvT7Ax">
-              Även om den privata sköterskeverksamheten ej varit inordnad i
-              den offentliga sjukvården, har den dock kompletterat denna och
-              — såsom medicinalstyrelsen framhåller — skapat en för samhället
-              nödvändig sjukvårdsreserv eller beredskapskår. Förekomsten av
-              denna har otvivelaktigt betytt en direkt ekonomisk fördel för
-              det allmänna i så måtto, att sjukhusvård ej behövt anlitas i den
-              utsträckning, som eljest blivit ofrånkomlig. Den verksamhet, som
-              privatsköterskorna utövat, har ofta kunnat vara lika kvalificerad
-              och betydelsefull som den, sjukhussystrarna utfört, varför det
-              måste te sig i hög grad formalistiskt att se pensionsfrågan uteslutande
-              med utgångspunkt från anställningsförhållandenas art och 1 anslutning
-              därtill skapa en ekonomisk klyfta mellan dem efter utförd livsgärning.
-              Dessutom kan man ej bortse från de villkor, under vilka de äldre
-              privatsköterskorna haft att utföra sitt samhällsviktiga arbete:
-              deras ställning har kunnat vara osäker, deras inkomster ha åtminstone
-              längre tillbaka i tiden ofta varit små samt otillräckliga för
-              besparingar eller försäkringar, och karaktären av deras krävande
-              arbete gör dem jämförelsevis tidigt uttjänta — ett tiotal år innan
-              de bli berättigade till folkpension med tilläggspension. I likhet
-              med motionärerna vid 1940 års riksdag kan jag ej finna de av statskontoret
-              resta principiella skälen mot en pensionering bärkraftiga. Tvärtom
-              bör samhällets intresse av att privatsköterskornas verk-
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-015.jp2/_view"/>
-          <note type="date" xml:id="i-BxoS3VuK7xgZJcFjngtdYv">
-            16 Nr 7. Onsdagen den 13 februari 1946.
-          </note>
-          <u who="Q5553542" xml:id="i-9f8b4379784b0adb-10" prev="i-9f8b4379784b0adb-9" next="i-9huZP7BsqydoDoMpWxWZyg">
-            <seg xml:id="i-DGmED9yMq5YabBVTfjM6rb">
-              Interpellation ang. privatsköterskornas pensionsfråga. (Forts.)
-              samhet kunnat upprätthållas motivera en erkänsla mot den i form
-              av trygghet för ålderdomen genom det allmännas försorg.
-            </seg>
-            <seg xml:id="i-V2NWtd6fvLRkG7BpUb9R5h">
-              Trots att medicinalstyrelsen alltså föreslagit pensionering av
-              privatsköterskor och att bankoutskottet ansett en sådan pensionering
-              principiellt befogad, men menat att den borde grundas på initiativ
-              av Kungl. Maj:t, har någon proposition i ärendet icke förelagts
-              riksdagen under de sex år, som förflutit sedan frågan sist behandlades
-              av riksdagen. Det torde vara ställt utom allt tvivel, att behovet
-              av åldersstöd åt privatsköterskorna icke minskats under dessa
-              år. Tvärtom ha de avsevärt fördyrade levnadsomkostnaderna försatt
-              denna kategori av sjuksköterskor i ett ännu mera ogynnsamt läge.
-              Med hänsyn till den stora brist på arbetskraft, som råder på sjukvårdens
-              område, är det ett samhälleligt intresse att behålla denna yrkeskår
-              genom att ge den möjlighet till försörjning på ålderdomen. En
-              sådan lösning av denna pensionsfråga, som den av medicinalstyrelsen
-              antydda, skulle draga förhållandevis så små kostnader, att vägande
-              ekonomiska skäl icke kunna anföras mot en lösning, som tillgodoser
-              de mänskligt berättigade kraven från privatsköterskornas sida.
-              De villkor, som medicinalstyrelsen föreslagit i avseende å hjälpbeloppens
-              maximum, levnadsålder för hjälpens beviljande, kravet på tjänsteår
-              och dessas beräknande, arten av tidigare tjänstgöring o. s. v.,
-              synas mig böra kunna läggas till grund för ett förslag från Kungl.
-              Maj:ts sida.
-            </seg>
-            <seg xml:id="i-Szsf9TcuS1cbuGG6NpmotQ">
-              Med åberopande av vad här anförts anhåller jag om första kammarens
-              tillstånd att till herr statsrådet och chefen för socialdepartementet
-              framställa följande spörsmål:
-            </seg>
-          </u>
-          <u xml:id="i-9huZP7BsqydoDoMpWxWZyg" prev="i-9f8b4379784b0adb-10" who="Q5553542">
-            <seg xml:id="i-ULd3ydNRDX6kc7zHBeWPxd">
-              Kan herr statsrådet meddela, huruvida proposition är att emotse
-              till innevarande års riksdag med förslag om lösning av de äldre
-              i privatvård arbetande sjuksköterskornas pensionsfråga”?
-            </seg>
-          </u>
-          <note xml:id="i-Po5Z9YZ9mmmfDXgPPn2ASX">
-            På gjord proposition medgav kammaren, att ifrågavarande spörsmål
-            finge framställas.
-          </note>
-          <note xml:id="i-Amh5fV24HutsiejtotXhgA">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 11.32 förmiddagen.
-          </note>
-          <note xml:id="i-393h1i3SXYp1qk8YXHYXeo">
-            In fidem G. H. Berggren.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-016.jp2/_view"/>
-          <note xml:id="i-HDXAb4ZHZvuuMXKkBHzDba">
-            -—
-          </note>
-          <note type="date" xml:id="i-Hdt6LRnyr8qRUv3uQofHt6">
-            Lördagen den 16 februari 1946. Nr 17
-          </note>
-          <note type="date" xml:id="i-DTh5KB1JczKByADMomjMFf">
-            Lördagen den 16 februari.
-          </note>
-          <note xml:id="i-NCX2rX8QcxF4EBCtkcWjbH">
-            Kammaren sammanträdde kl. 2 eftermiddagen.
-          </note>
-          <note type="speaker" xml:id="i-PRf8ZHLt4UUHZ3fmDE4Xrk">
-            Herr statsrådet Mossberg avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-En16rVjVDMCKQFKMe7P9MQ">
-            ts propositioner:
-          </note>
-          <note xml:id="i-SxgaQuXXVBJ5LVsUXjqG4M">
-            nr 52, med förslag till lag angående upphävande av 20 $ femte
-            stycket lagen 'den 16 oktober 1914 (nr 349) om tillsyn å fartyg;
-          </note>
-          <note xml:id="i-YG1jhx6RSXR41Be4MMvKdt">
-            nr 59, angående statsbidrag till kostnaderna för tillhandahållande
-            av fri undervisningsmateriel åt folkskolebarn m. m.;
-          </note>
-          <note xml:id="i-F76KhuiafZZSQQEKx9qL9b">
-            nr 60, angående bidrag till uppförande av nybyggnad för barnsjukhuset
-            vid Malmöhus läns sjukvårdsinrättningar i Lund m. m.;
-          </note>
-          <note xml:id="i-8F9YuRfTEmwLGkZx34vDmL">
-            nr 63 angående anslag till anskaffning av ytterligare maskinaggregat
-            i vissa kraftstationer; samt
-          </note>
-          <note xml:id="i-o6vgZhDragW2vTAUJxYkp">
-            nr 64, angående anslag till häradsskrivarna m, fl. för budgetåret
-            1946/47.
-          </note>
-          <note xml:id="i-P4fFDu6EB3b7AFEZ88NP17">
-            Justerades protokollen för den 9 och den 12 innevarande månad.
-          </note>
-          <note xml:id="i-4818rCytYdLK7iBsAxfsHi">
-            Anmäldes och godkändes statsutskottets förslag till riksdagens
-            skrivelser till Konungen:
-          </note>
-          <note xml:id="i-GnsHKcbVQXjA43o4dwsnEK">
-            nr 1 i anledning av Kungl. Maj:ts i statsverkspropositionen gjorda
-            framställningar rörande egentliga statsutgifter för budgetåret
-            1946/47 under riksstatens första huvudtitel, avseende anslagen
-            till hovoch slottsstaterna;
-          </note>
-          <note xml:id="i-T42AS3sy2HRrnC8EuW5Bfr">
-            nr 17, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat IT till riksstaten för budgetåret 1945/46, i vad
-            propositionen avser hovoch slottsstaterna;
-          </note>
-          <note xml:id="i-8RTKXevvk7nQ33gXo7Z2wz">
-            nr 19, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tilläggsstat IT till riksstaten för budgetåret 1945/46, i vad
-            propositionen avser justitiedepartementets verksamhetsområde;
-            samt
-          </note>
-          <note xml:id="i-JuWnbzX2qgVcd3jpa7dwiF">
-            nr 20, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tilläggsstat IT till riksstaten för budgetåret 1945/46, i vad
-            propositionen avser finansdepartementets verksamhetsområde.
-          </note>
-          <note xml:id="i-4uJimezSdkXQCAqvvyDQhQ">
-            Anmäldes och godkändes bevillningsutskottets förslag till riksdagens
-            skrivelse, nr 18, till Konungen i anledning av Kungl. Maj:ts proposition
-            med förslag till förordning angående utvidgad rätt att vid 1946
-            års taxering åtnjuta avdrag för avsättning till investeringsfond
-            för fartyg.
-          </note>
-          <note xml:id="i-8TXEQMZD92YHjmpVtANus9">
-            Föredrogs och hänvisades till statsutskottet Kungl. Maj:ts proposition
-            nr 53, angående försäljning av fastigheter, som förvaltas av försvarets
-            bostadsanskaffningsnämnd, m, m.
-          </note>
-          <note xml:id="i-GD3gxG5zE3x2B6XsBCqpJy">
-            Första kammarens protokoll 1946. Nr 7. 2
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-017.jp2/_view"/>
-          <note type="date" xml:id="i-UvNp5m8WYYMUEq2LkKPhcV">
-            18 Nr 7. Lördagen den 16 februari 1946.
-          </note>
-          <note xml:id="i-FcXyW5rMkaiYqqX2HJVTV">
-            Föredrogos och hänvisades till jordbruksutskottet Kungl. Maj:ts
-            propositioner:
-          </note>
-          <note xml:id="i-YA8DDYr5wEfeShjGtCxiA3">
-            nr 54, med förslag till förordning om ändrad lydelse av 9 8 1
-            och 4 mom. samt 10 $ 1 och 5 mom. förordningen den 22 juni 1934
-            (nr 320) angående grunder för förvaltningen av viss kronoegendom;
-          </note>
-          <note xml:id="i-71hyr4ofM7Jy7VoxnsJdNm">
-            nr 55, angående upplåtelse i vissa fall av mark å renbetesfjällen
-            i Jämtlands län m. m.; samt
-          </note>
-          <note xml:id="i-X5mYxKtGRgdoU5xxYZdz75">
-            nr 56 angående anslag till odlingsoch byggnadshjälp åt innehavare
-            av odlingslägenheter m. fl.
-          </note>
-          <note xml:id="i-C15XTdZUMkYSQ76XPc3CN8">
-            Föredrogs och hänvisades till statsutskottet Kungl. Maj:ts proposition
-            nr 57, angående anslag till förvärv av vägmark m. m.
-          </note>
-          <note xml:id="i-EF7keL72PNJtdeTtk4RR2W">
-            Föredrogs och hänvisades till utrikesutskottet Kungl. Maj:ts
-            proposition nr 38, angående ratificering av vissa ändringar i
-            stadgan för Internationella arbetsorganisationen.
-          </note>
-          <note xml:id="i-PnqJfJt2Jb3pvzKhFH528U">
-            Föredrogs och hänvisades till jordbruksutskottet fru Svensons
-            motion, nr 253, i anledning av Kungl. Maj:ts proposition angående
-            anslag till lindring av mindre bemedlades kostnader för djursjukvård.
-          </note>
-          <note xml:id="i-QiFbvKGDaWt3WRcQA6o343">
-            Föredrogos och bordlades Kungl. Maj:ts denna dag avlämnade propositioner
-            nr 52, 59, 60, 63 och 64.
-          </note>
-          <note xml:id="i-QQZ2HniXQzqebFa5sz3YP6">
-            Anmäldes och bordlades
-          </note>
-          <note xml:id="i-GWoDgXUJW9VitVxaYvCyV9">
-            statsutskottets utlåtanden:
-          </note>
-          <note xml:id="i-WpuqS4UYt5J6t7dC6R8B3w">
-            nr 3, i anledning av Kungl. Maj:ts i statsverkspropositionen
-            gjorda framställningar rörande egentliga statsutgifter för budgetåret
-            1946/47 under riksstatens tredje huvudtitel, avseende anslagen
-            inom utrikesdepartementets verksamhetsområde, jämte i ämnet väckta
-            motioner;
-          </note>
-          <note xml:id="i-C3M9vCqsW77HzbFmyKCbiE">
-            nr 25, i anledning av Kungl. Maj:ts framställning om anslag å
-            tilläggsstat IT till riksstaten för budgetåret 1945/46 till aktieteckning
-            i aktiebolaget Aerotransport;
-          </note>
-          <note xml:id="i-G162audSe9riJn1dgeNgSV">
-            nr 26, i anledning av Kungl. Maj:ts i statsverkspropositionen
-            gjorda framställning angående stat för statens allmänna fastighetsfond
-            för budgetåret 1946/47 ; och
-          </note>
-          <note xml:id="i-V69QoYKs8PeW6S5vDKo8zs">
-            nr 27,1 anledning av Kungl. Maj:ts proposition angående befrielse
-            för skepparen G. H. S. Nilsson i Påskallavik från viss skadeståndsskyldighet;
-          </note>
-          <note xml:id="i-YBxd4eq3DVjd2oFS5xTebK">
-            bevillningsutskottets betänkanden:
-          </note>
-          <note xml:id="i-B8fRSbZE5iP2zKuRodPUbr">
-            nr 2,1 anledning av Kungl. Maj:ts proposition med förslag till
-            lag om ändrad lydelse av 30 $ 3 mom. kommunalskattelagen den 28
-            september 1928 (nr 370), m. m.;
-          </note>
-          <note xml:id="i-8cLec7CsJy2ecdf2fgo77f">
-            nr 3, i anledning av Kungl. Maj:ts proposition med förslag till
-            förordning om fortsatt giltighet av förordningen den 6 mars 1942
-            (nr 63) angående rätt för Konungen att åsätta särskild tullavgift;
-          </note>
-          <note xml:id="i-CNyUohUqhhx9SPUnXrdSqc">
-            nr 4, i anledning av Kungl. Maj:ts proposition med förslag till
-            förordning om fortsatt giltighet av förordningen den 8 juni 1923
-            (nr 155) angående omsättningsoch utskänkningsskatt å spritdrycker;
-          </note>
-          <note xml:id="i-PZJ2YNaRstwB3HArnABDca">
-            nr 5, i anledning av Kungl. Maj:ts proposition med förslag till
-            förordning om fortsatt giltighet av förordningen den 18 juni 1937
-            (nr 481) angående rätt
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-018.jp2/_view"/>
-          <note type="date" xml:id="i-MS6YzxJKqDHFCMwBRxgDsD">
-            Lördagen den 16 februari 1946. Nr 7. 19
-          </note>
-          <note xml:id="i-JvBa6K1VuuCtsgnXA2JXYo">
-            för Konungen att i vissa fall meddela särskilda bestämmelser
-            om stämpelavgift vid köp och byte av fondpapper;
-          </note>
-          <note xml:id="i-HuR98pNs39Zx7f12myrhTT">
-            nr 6, i anledning av Kungl. Maj:ts proposition angående bemyndiganden
-            för Kungl. Maj:t att besluta i fråga om vissa postavgifter;
-          </note>
-          <note xml:id="i-FZCaPqU1pQpBiyN3fz5hq7">
-            nr 7, i anledning av Kungl. Maj:ts proposition med förslag till
-            vissa ändringar i gällande tulltaxa; och
-          </note>
-          <note xml:id="i-JSpxLy3kPuHjb4Ekg75J4K">
-            nr 8, i anledning av Kungl. Maj:ts proposition med förslag till
-            förordning om ändrad lydelse av 20 $, 21 $ samt 36 8 2 förordningen
-            den 19 november 1914 (nr 383) angående stämpelavgiften; samt
-          </note>
-          <note xml:id="i-DZMFYjWKFTeuzdSoe7EjK6">
-            andra lagutskottets utlåtande nr 3, i anledning av väckt motion
-            angående ändrad lydelse av 1 8 lagen om rätt i vissa fall för
-            nyttjanderättshavare att inlösa under nyttjanderätt upplåtet område.
-          </note>
-          <note xml:id="i-CEqo9ke5wF7Ncdcd9uyC2B">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 2.10 eftermiddagen.
-          </note>
-          <note xml:id="i-D3m3ndq6tjdiyjXJK7JMGV">
-            In fidem G. H. Berggren.
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+            samhet kunnat upprätthållas motivera en erkänsla mot den i form
+            av trygghet för ålderdomen genom det allmännas försorg.
+          </seg>
+          <seg xml:id="i-V2NWtd6fvLRkG7BpUb9R5h">
+            Trots att medicinalstyrelsen alltså föreslagit pensionering av
+            privatsköterskor och att bankoutskottet ansett en sådan pensionering
+            principiellt befogad, men menat att den borde grundas på initiativ
+            av Kungl. Maj:t, har någon proposition i ärendet icke förelagts
+            riksdagen under de sex år, som förflutit sedan frågan sist behandlades
+            av riksdagen. Det torde vara ställt utom allt tvivel, att behovet
+            av åldersstöd åt privatsköterskorna icke minskats under dessa
+            år. Tvärtom ha de avsevärt fördyrade levnadsomkostnaderna försatt
+            denna kategori av sjuksköterskor i ett ännu mera ogynnsamt läge.
+            Med hänsyn till den stora brist på arbetskraft, som råder på sjukvårdens
+            område, är det ett samhälleligt intresse att behålla denna yrkeskår
+            genom att ge den möjlighet till försörjning på ålderdomen. En
+            sådan lösning av denna pensionsfråga, som den av medicinalstyrelsen
+            antydda, skulle draga förhållandevis så små kostnader, att vägande
+            ekonomiska skäl icke kunna anföras mot en lösning, som tillgodoser
+            de mänskligt berättigade kraven från privatsköterskornas sida.
+            De villkor, som medicinalstyrelsen föreslagit i avseende å hjälpbeloppens
+            maximum, levnadsålder för hjälpens beviljande, kravet på tjänsteår
+            och dessas beräknande, arten av tidigare tjänstgöring o. s. v.,
+            synas mig böra kunna läggas till grund för ett förslag från Kungl.
+            Maj:ts sida.
+          </seg>
+          <seg xml:id="i-Szsf9TcuS1cbuGG6NpmotQ">
+            Med åberopande av vad här anförts anhåller jag om första kammarens
+            tillstånd att till herr statsrådet och chefen för socialdepartementet
+            framställa följande spörsmål:
+          </seg>
+        </u>
+        <u xml:id="i-9huZP7BsqydoDoMpWxWZyg" prev="i-9f8b4379784b0adb-10" who="i-SfDZtdC5fgukcXJsiu8J9U">
+          <seg xml:id="i-ULd3ydNRDX6kc7zHBeWPxd">
+            Kan herr statsrådet meddela, huruvida proposition är att emotse
+            till innevarande års riksdag med förslag om lösning av de äldre
+            i privatvård arbetande sjuksköterskornas pensionsfråga”?
+          </seg>
+        </u>
+        <note xml:id="i-Po5Z9YZ9mmmfDXgPPn2ASX">
+          På gjord proposition medgav kammaren, att ifrågavarande spörsmål
+          finge framställas.
+        </note>
+        <note xml:id="i-Amh5fV24HutsiejtotXhgA">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 11.32 förmiddagen.
+        </note>
+        <note xml:id="i-393h1i3SXYp1qk8YXHYXeo">
+          In fidem G. H. Berggren.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-016.jp2/_view"/>
+        <note xml:id="i-HDXAb4ZHZvuuMXKkBHzDba">
+          -—
+        </note>
+        <note type="date" xml:id="i-Hdt6LRnyr8qRUv3uQofHt6">
+          Lördagen den 16 februari 1946. Nr 17
+        </note>
+        <note type="date" xml:id="i-DTh5KB1JczKByADMomjMFf">
+          Lördagen den 16 februari.
+        </note>
+        <note xml:id="i-NCX2rX8QcxF4EBCtkcWjbH">
+          Kammaren sammanträdde kl. 2 eftermiddagen.
+        </note>
+        <note type="speaker" xml:id="i-PRf8ZHLt4UUHZ3fmDE4Xrk">
+          Herr statsrådet Mossberg avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-En16rVjVDMCKQFKMe7P9MQ">
+          ts propositioner:
+        </note>
+        <note xml:id="i-SxgaQuXXVBJ5LVsUXjqG4M">
+          nr 52, med förslag till lag angående upphävande av 20 $ femte
+          stycket lagen 'den 16 oktober 1914 (nr 349) om tillsyn å fartyg;
+        </note>
+        <note xml:id="i-YG1jhx6RSXR41Be4MMvKdt">
+          nr 59, angående statsbidrag till kostnaderna för tillhandahållande
+          av fri undervisningsmateriel åt folkskolebarn m. m.;
+        </note>
+        <note xml:id="i-F76KhuiafZZSQQEKx9qL9b">
+          nr 60, angående bidrag till uppförande av nybyggnad för barnsjukhuset
+          vid Malmöhus läns sjukvårdsinrättningar i Lund m. m.;
+        </note>
+        <note xml:id="i-8F9YuRfTEmwLGkZx34vDmL">
+          nr 63 angående anslag till anskaffning av ytterligare maskinaggregat
+          i vissa kraftstationer; samt
+        </note>
+        <note xml:id="i-o6vgZhDragW2vTAUJxYkp">
+          nr 64, angående anslag till häradsskrivarna m, fl. för budgetåret
+          1946/47.
+        </note>
+        <note xml:id="i-P4fFDu6EB3b7AFEZ88NP17">
+          Justerades protokollen för den 9 och den 12 innevarande månad.
+        </note>
+        <note xml:id="i-4818rCytYdLK7iBsAxfsHi">
+          Anmäldes och godkändes statsutskottets förslag till riksdagens
+          skrivelser till Konungen:
+        </note>
+        <note xml:id="i-GnsHKcbVQXjA43o4dwsnEK">
+          nr 1 i anledning av Kungl. Maj:ts i statsverkspropositionen gjorda
+          framställningar rörande egentliga statsutgifter för budgetåret
+          1946/47 under riksstatens första huvudtitel, avseende anslagen
+          till hovoch slottsstaterna;
+        </note>
+        <note xml:id="i-T42AS3sy2HRrnC8EuW5Bfr">
+          nr 17, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat IT till riksstaten för budgetåret 1945/46, i vad
+          propositionen avser hovoch slottsstaterna;
+        </note>
+        <note xml:id="i-8RTKXevvk7nQ33gXo7Z2wz">
+          nr 19, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tilläggsstat IT till riksstaten för budgetåret 1945/46, i vad
+          propositionen avser justitiedepartementets verksamhetsområde;
+          samt
+        </note>
+        <note xml:id="i-JuWnbzX2qgVcd3jpa7dwiF">
+          nr 20, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tilläggsstat IT till riksstaten för budgetåret 1945/46, i vad
+          propositionen avser finansdepartementets verksamhetsområde.
+        </note>
+        <note xml:id="i-4uJimezSdkXQCAqvvyDQhQ">
+          Anmäldes och godkändes bevillningsutskottets förslag till riksdagens
+          skrivelse, nr 18, till Konungen i anledning av Kungl. Maj:ts proposition
+          med förslag till förordning angående utvidgad rätt att vid 1946
+          års taxering åtnjuta avdrag för avsättning till investeringsfond
+          för fartyg.
+        </note>
+        <note xml:id="i-8TXEQMZD92YHjmpVtANus9">
+          Föredrogs och hänvisades till statsutskottet Kungl. Maj:ts proposition
+          nr 53, angående försäljning av fastigheter, som förvaltas av försvarets
+          bostadsanskaffningsnämnd, m, m.
+        </note>
+        <note xml:id="i-GD3gxG5zE3x2B6XsBCqpJy">
+          Första kammarens protokoll 1946. Nr 7. 2
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-017.jp2/_view"/>
+        <note type="date" xml:id="i-UvNp5m8WYYMUEq2LkKPhcV">
+          18 Nr 7. Lördagen den 16 februari 1946.
+        </note>
+        <note xml:id="i-FcXyW5rMkaiYqqX2HJVTV">
+          Föredrogos och hänvisades till jordbruksutskottet Kungl. Maj:ts
+          propositioner:
+        </note>
+        <note xml:id="i-YA8DDYr5wEfeShjGtCxiA3">
+          nr 54, med förslag till förordning om ändrad lydelse av 9 8 1
+          och 4 mom. samt 10 $ 1 och 5 mom. förordningen den 22 juni 1934
+          (nr 320) angående grunder för förvaltningen av viss kronoegendom;
+        </note>
+        <note xml:id="i-71hyr4ofM7Jy7VoxnsJdNm">
+          nr 55, angående upplåtelse i vissa fall av mark å renbetesfjällen
+          i Jämtlands län m. m.; samt
+        </note>
+        <note xml:id="i-X5mYxKtGRgdoU5xxYZdz75">
+          nr 56 angående anslag till odlingsoch byggnadshjälp åt innehavare
+          av odlingslägenheter m. fl.
+        </note>
+        <note xml:id="i-C15XTdZUMkYSQ76XPc3CN8">
+          Föredrogs och hänvisades till statsutskottet Kungl. Maj:ts proposition
+          nr 57, angående anslag till förvärv av vägmark m. m.
+        </note>
+        <note xml:id="i-EF7keL72PNJtdeTtk4RR2W">
+          Föredrogs och hänvisades till utrikesutskottet Kungl. Maj:ts
+          proposition nr 38, angående ratificering av vissa ändringar i
+          stadgan för Internationella arbetsorganisationen.
+        </note>
+        <note xml:id="i-PnqJfJt2Jb3pvzKhFH528U">
+          Föredrogs och hänvisades till jordbruksutskottet fru Svensons
+          motion, nr 253, i anledning av Kungl. Maj:ts proposition angående
+          anslag till lindring av mindre bemedlades kostnader för djursjukvård.
+        </note>
+        <note xml:id="i-QiFbvKGDaWt3WRcQA6o343">
+          Föredrogos och bordlades Kungl. Maj:ts denna dag avlämnade propositioner
+          nr 52, 59, 60, 63 och 64.
+        </note>
+        <note xml:id="i-QQZ2HniXQzqebFa5sz3YP6">
+          Anmäldes och bordlades
+        </note>
+        <note xml:id="i-GWoDgXUJW9VitVxaYvCyV9">
+          statsutskottets utlåtanden:
+        </note>
+        <note xml:id="i-WpuqS4UYt5J6t7dC6R8B3w">
+          nr 3, i anledning av Kungl. Maj:ts i statsverkspropositionen
+          gjorda framställningar rörande egentliga statsutgifter för budgetåret
+          1946/47 under riksstatens tredje huvudtitel, avseende anslagen
+          inom utrikesdepartementets verksamhetsområde, jämte i ämnet väckta
+          motioner;
+        </note>
+        <note xml:id="i-C3M9vCqsW77HzbFmyKCbiE">
+          nr 25, i anledning av Kungl. Maj:ts framställning om anslag å
+          tilläggsstat IT till riksstaten för budgetåret 1945/46 till aktieteckning
+          i aktiebolaget Aerotransport;
+        </note>
+        <note xml:id="i-G162audSe9riJn1dgeNgSV">
+          nr 26, i anledning av Kungl. Maj:ts i statsverkspropositionen
+          gjorda framställning angående stat för statens allmänna fastighetsfond
+          för budgetåret 1946/47 ; och
+        </note>
+        <note xml:id="i-V69QoYKs8PeW6S5vDKo8zs">
+          nr 27,1 anledning av Kungl. Maj:ts proposition angående befrielse
+          för skepparen G. H. S. Nilsson i Påskallavik från viss skadeståndsskyldighet;
+        </note>
+        <note xml:id="i-YBxd4eq3DVjd2oFS5xTebK">
+          bevillningsutskottets betänkanden:
+        </note>
+        <note xml:id="i-B8fRSbZE5iP2zKuRodPUbr">
+          nr 2,1 anledning av Kungl. Maj:ts proposition med förslag till
+          lag om ändrad lydelse av 30 $ 3 mom. kommunalskattelagen den 28
+          september 1928 (nr 370), m. m.;
+        </note>
+        <note xml:id="i-8cLec7CsJy2ecdf2fgo77f">
+          nr 3, i anledning av Kungl. Maj:ts proposition med förslag till
+          förordning om fortsatt giltighet av förordningen den 6 mars 1942
+          (nr 63) angående rätt för Konungen att åsätta särskild tullavgift;
+        </note>
+        <note xml:id="i-CNyUohUqhhx9SPUnXrdSqc">
+          nr 4, i anledning av Kungl. Maj:ts proposition med förslag till
+          förordning om fortsatt giltighet av förordningen den 8 juni 1923
+          (nr 155) angående omsättningsoch utskänkningsskatt å spritdrycker;
+        </note>
+        <note xml:id="i-PZJ2YNaRstwB3HArnABDca">
+          nr 5, i anledning av Kungl. Maj:ts proposition med förslag till
+          förordning om fortsatt giltighet av förordningen den 18 juni 1937
+          (nr 481) angående rätt
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1946--fk--7/prot_1946__fk__7-018.jp2/_view"/>
+        <note type="date" xml:id="i-MS6YzxJKqDHFCMwBRxgDsD">
+          Lördagen den 16 februari 1946. Nr 7. 19
+        </note>
+        <note xml:id="i-JvBa6K1VuuCtsgnXA2JXYo">
+          för Konungen att i vissa fall meddela särskilda bestämmelser
+          om stämpelavgift vid köp och byte av fondpapper;
+        </note>
+        <note xml:id="i-HuR98pNs39Zx7f12myrhTT">
+          nr 6, i anledning av Kungl. Maj:ts proposition angående bemyndiganden
+          för Kungl. Maj:t att besluta i fråga om vissa postavgifter;
+        </note>
+        <note xml:id="i-FZCaPqU1pQpBiyN3fz5hq7">
+          nr 7, i anledning av Kungl. Maj:ts proposition med förslag till
+          vissa ändringar i gällande tulltaxa; och
+        </note>
+        <note xml:id="i-JSpxLy3kPuHjb4Ekg75J4K">
+          nr 8, i anledning av Kungl. Maj:ts proposition med förslag till
+          förordning om ändrad lydelse av 20 $, 21 $ samt 36 8 2 förordningen
+          den 19 november 1914 (nr 383) angående stämpelavgiften; samt
+        </note>
+        <note xml:id="i-DZMFYjWKFTeuzdSoe7EjK6">
+          andra lagutskottets utlåtande nr 3, i anledning av väckt motion
+          angående ändrad lydelse av 1 8 lagen om rätt i vissa fall för
+          nyttjanderättshavare att inlösa under nyttjanderätt upplåtet område.
+        </note>
+        <note xml:id="i-CEqo9ke5wF7Ncdcd9uyC2B">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 2.10 eftermiddagen.
+        </note>
+        <note xml:id="i-D3m3ndq6tjdiyjXJK7JMGV">
+          In fidem G. H. Berggren.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

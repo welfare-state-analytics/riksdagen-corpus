@@ -6,6 +6,7 @@ Provides useful utilities for the other modules as well as for general use.
 
 import lxml
 from lxml import etree
+import xmlschema
 from bs4 import BeautifulSoup
 from pathlib import Path
 from pyparlaclarin.refine import format_texts
@@ -70,7 +71,7 @@ def infer_metadata(filename):
                 # Protocol ids of format 197879 have two years, eg. 1978 and 1979
                 if s[4:6].isdigit():
                     metadata["secondary_year"] = year + 1
-                    metadata["sitting"] += f"/{s[4:6]}"
+                    metadata["sitting"] += f"{s[4:6]}"
 
     # Chamber
     metadata["chamber"] = "Enkammarriksdagen"
@@ -102,7 +103,7 @@ def clean_html(s):
     return etree.fromstring(pretty_html)
 
 
-def validate_xml_schema(xml_path, schema_path):
+def validate_xml_schema(xml_path, schema_path, schema=None):
     """
     Validate an XML file against a schema.
 
@@ -116,18 +117,26 @@ def validate_xml_schema(xml_path, schema_path):
     xml_file = lxml.etree.parse(xml_path)
     xml_file.xinclude()
 
-    schema = lxml.etree.XMLSchema(file=schema_path)
-    is_valid = schema.validate(xml_file)
+    if schema is None:
+        schema = xmlschema.XMLSchema(schema_path)
+
+    try:
+        schema.validate(xml_file)
+        return True
+    except Exception as err:
+        print(err)
+        return False
 
     return is_valid
 
 
-def protocol_iterators(corpus_root, start=None, end=None):
+def protocol_iterators(corpus_root, document_type=None, start=None, end=None):
     """
     Returns an iterator of protocol paths in a corpus.
 
     Args:
         corpus_root (str): path to the corpus root
+        document_type (str): type of document (prot, mot, etc.). If None, fetches all types
         start (int): start year
         end (int): end year
 
@@ -135,7 +144,13 @@ def protocol_iterators(corpus_root, start=None, end=None):
         iterator of the protocols as relative paths to current location
     """
     folder = Path(corpus_root)
-    for protocol in sorted(folder.glob("**/*.xml")):
+    docs = folder.glob("**/*.xml")
+    if document_type is not None:
+        docs = folder.glob(f"**/{document_type}*.xml")
+    for protocol in sorted(docs):
+        metadata = infer_metadata(protocol.name)
+        if "year" not in metadata:
+            continue
         path = protocol.relative_to(".")
         assert (start is None) == (
             end is None
@@ -143,6 +158,8 @@ def protocol_iterators(corpus_root, start=None, end=None):
         if start is not None and end is not None:
             metadata = infer_metadata(protocol.name)
             year = metadata["year"]
+            if not year:
+                continue
             secondary_year = metadata.get("secondary_year", year)
             if start <= year and end >= secondary_year:
                 yield str(protocol.relative_to("."))

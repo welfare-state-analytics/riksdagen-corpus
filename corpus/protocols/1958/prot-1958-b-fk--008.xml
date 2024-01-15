@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1958</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1958</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,531 +25,504 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1958-b-fk--8</head>
-          <docDate when="1958-10-16">1958-10-16</docDate>
-          <docDate when="1958-10-17">1958-10-17</docDate>
-          <docDate when="1958-10-21">1958-10-21</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1958-b-fk--8/prot_1958_b_fk__8-000.jp2/_view"/>
-          <note xml:id="i-JMzvuUiP128bXFsZpkAiqm">
-            RIKSDAGENS PROTOKOLL
-          </note>
-          <note xml:id="i-Eu9BUyzecbnJ3TU96f7APT">
-            |
-          </note>
-          <note xml:id="i-8sTd2V74TTefAk4MFn7V4T">
-            1958 FÖRSTA KAMMAREN Nr B8
-          </note>
-          <note xml:id="i-9T9mVz8k8CH61Xj71K6uU9">
-            16—21 oktober
-          </note>
-          <note xml:id="i-RjmtgPAedhbj7xWrkSAgJX">
-            Debatter m. m.
-          </note>
-          <note xml:id="i-3U9CRK9dDd5qpnG92dvkMR">
-            Torsdagen den 16 oktober Sid. Hälsningstal av talmannen sossssssssssssrs
-            ss ses ss sees sosse sla 3 Minnesord över herr ÅIrhéD sssssssss
-            esse reser ers ses sissi 3 Interpellationer: av herr Åman ang.
-            ingripanden i fråga om privata pensionskassors fondmedel i samband
-            med genomförandet av en allmän tillläggspensionering, IM. IM s.ossssssss
-            ses ses ses s ss s ss 4 av herr Sveningsson ang. vissa missförhållanden
-            vid alkoholistanstaten å Venngarn, IM, IM sosse ss ss 4
-          </note>
-          <note xml:id="i-HobcJMncgVmmxQ25ZU37Xv">
-            1 Första kammarens protokoll 1958. Nr B 8
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1958-b-fk--8/prot_1958_b_fk__8-001.jp2/_view"/>
-          <note xml:id="i-HKSUgaKTKyh3om35QJNvbB">
-            ESR.
-          </note>
-          <note xml:id="i-KrTPy4m3k8RQskBEQMsRrC">
-            É i ee 2 5 oa . se : | a | | - - i a
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1958-b-fk--8/prot_1958_b_fk__8-002.jp2/_view"/>
-          <note type="date" xml:id="i-GHmaXL8dSmdnkZ5XSh7Ke1">
-            Torsdagen den 16 oktober 1958
-          </note>
-          <note xml:id="i-J5885kMZ5X4kjH8afHJseQ">
-            Nr B 8 3
-          </note>
-          <note type="date" xml:id="i-EXkiMLYRipce7kYsHL6mNY">
-            Torsdagen den 16 oktober
-          </note>
-          <note xml:id="i-7anK5dDQ9aRCz89p75WXkg">
-            Kammaren sammanträdde kl. 14.00
-          </note>
-          <note xml:id="i-Gjc8QFf5aHhNXZhLts9PeY" type="speaker">
-            Herr TALMANNEN öppnade sammanträdet med följande ord:
-          </note>
-          <u xml:id="i-FdDPw6WRw1AuMS21g7Mx6o" next="i-UXt7UFg8JyVHgeKhDK6vKr" who="Q5573639">
-            <seg xml:id="i-K1idWEBP2pzjdxPmniAb8m">
-              Vi har nu att fortsätta den B-riksdag som vi avbröt för ett par
-              månader sedan. När jag hälsar kammarens ledamöter välkomna till
-              det fortsatta arbetet, sker det i en förhoppning att ni kunnat
-              utnyttja ledigheten inte bara till att sköta privata sysslor,
-              som ni ofta måste försumma under det forcerade riksdagsarbetet,
-              till valagitation och annan med det politiska livet förbunden
-              tråkighet, utan även till rekreation och vila. Jag är i varje
-              fall övertygad om att ni kommer att gripa er arbetet an med friska
-              krafter.
-            </seg>
-          </u>
-          <u xml:id="i-UXt7UFg8JyVHgeKhDK6vKr" prev="i-FdDPw6WRw1AuMS21g7Mx6o" who="Q5573639" next="i-4MAzG4EYVGBK2bKuF6AW5u">
-            <seg xml:id="i-F8ezNvbneTLdaUdA9ZkR2B">
-              Jag skulle vilja tillägga ett par ord och säga, att jag tror
-              inte att det är många i denna kammare som känt någon avundsjuka
-              gentemot vår medkammare med dess sena nattplena och utdragna debatter,
-              men på en punkt har vi känt oss litet fattigare än den och kanske
-              varit em aning avundsjuka, nämligen för den bristande konstnärliga
-              utsmyckningen i vår lokal. När vi nu har sett två väggfält dekorerade
-              genom professor Otte Skölds och hans konstnärliga medhjälpares
-              försorg, så gläds vi. Jag för min del, som inte gör anspråk på
-              att vara någon konstkritiker, tycker att det är vackert och förtjusande,
-              och vi hoppas ännu mera på den totala verkan här i kammaren, när
-              det tredje väggfältet nästa sommar blir färdigt. Jag har tänkt
-              mig, efter konferens med mina kolleger i presidiet, att vi till
-              professor Sköld skulle skicka en blomsterhyllning med tack för
-              det nu utförda arbetet.
-            </seg>
-          </u>
-          <u xml:id="i-4MAzG4EYVGBK2bKuF6AW5u" prev="i-UXt7UFg8JyVHgeKhDK6vKr" who="Q5573639">
-            <seg xml:id="i-CTBfgBMRntnHuWU44aPXPx">
-              Med dessa ord förklarar jag sammanträdet öppnat.
-            </seg>
-          </u>
-          <note xml:id="i-8BZju7UDa4USEq7mtB3yzK" type="speaker">
-            Härefter anförde herr TALMANNEN:
-          </note>
-          <u xml:id="i-XtyM9LXCZ2hzzaDiLZf6C" who="Q5573639" next="i-Grvjb32fhbX9swXbDXceHu">
-            <seg xml:id="i-4zZfjZu3B7k6gNsXkarvCo">
-              Sedan vi sist skildes har en av kammarens ledamöter, vännen Erik
-              Arrhén, lämnat oss.
-            </seg>
-          </u>
-          <u xml:id="i-Grvjb32fhbX9swXbDXceHu" who="Q5573639" prev="i-XtyM9LXCZ2hzzaDiLZf6C" next="i-ST7QfFu7GvFNwe5NHHLuHa">
-            <seg xml:id="i-4cgAi9Sg2czuaSWgwEiGM7">
-              Han var ingen gammal man. Han hade ännu inte nått de 60, när
-              en hjärtsjukdom ryckte bort honom. Han tillhörde inte de allra
-              äldsta riksdagsmännen, men hade en lång rad av riksdagsår bakom
-              sig — årets B-riksdag var hans sjuttonde riksdag.
-            </seg>
-          </u>
-          <u xml:id="i-ST7QfFu7GvFNwe5NHHLuHa" who="Q5573639" prev="i-Grvjb32fhbX9swXbDXceHu" next="i-DoHhucKYVfV6hTe4iAubEt">
-            <seg xml:id="i-7H7BYFTnHe5oYk4Gvb9xq5">
-              Jag är övertygad om att alla de kammarledamöter, som haft tillfälle
-              att följa vår bortgångne vän i hans arbete, fått ett levande intryck
-              av en stark pliktkänsla och en ständig strävan att sätta sig in
-              i de ärenden, som låg inom hans intressesfär och om vilka han
-              talade i kammaren. Det var mångsidiga kunskaper och gediget arbete
-              som låg bakom hans framträdande. Och han var ingen konjunkturpolitikens
-              man — han sade vad han menade, trodde och tyckte, även när det
-              var impopulärt och inte uppskattat.
-            </seg>
-          </u>
-          <u xml:id="i-DoHhucKYVfV6hTe4iAubEt" who="Q5573639" prev="i-ST7QfFu7GvFNwe5NHHLuHa" next="i-3EXBr5z7vhdun3nHSqYHKW">
-            <seg xml:id="i-ESBadFZPP1q6N9pU8WRUUZ">
-              Vi satte ett stort mänskligt och kamratligt värde på honom, och
-              när han nu gått bort, kan vi inte annat göra än skänka honom vår
-              tacksamma hyllning för vad han varit, gjort och verkat.
-            </seg>
-          </u>
-          <u xml:id="i-3EXBr5z7vhdun3nHSqYHKW" who="Q5573639" prev="i-DoHhucKYVfV6hTe4iAubEt">
-            <seg xml:id="i-UBbFTvfdYVZF18nrshgoeu">
-              Jag lyser frid över hans minne.
-            </seg>
-          </u>
-          <note xml:id="i-KwxYvbwGQJ5y1UB8vir9xX">
-            Detta anförande åhördes av kammarens ledamöter stående.
-          </note>
-          <note xml:id="i-P9SXttx2cTWH8YuXHe2GGg">
-            Upplästes och lades till handlingarna följande från justitiedepartementet
-            ankomna
-          </note>
-          <note xml:id="i-MPnAxFxAU8pP7UGBaH6bfr">
-            Protokoll, hållet inför statsrådet och chefen för justitiedepartementet
-            den 15 oktober 1958.
-          </note>
-          <note xml:id="i-JF4v4V9r1ztZJeppbc5bwt">
-            Till justitiedepartementet hade den 14 oktober 1958 från länsstyrelsen
-            i Göteborgs och Bohus län inkommit fullmakt för lantbrukaren Per-Erik
-            Ringaby,
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1958-b-fk--8/prot_1958_b_fk__8-003.jp2/_view"/>
-          <note xml:id="i-M6XbcEabtpDQHemDF8VSoz">
-            4 Nr B 8
-          </note>
-          <note type="date" xml:id="i-XoCLLvi81zXyaj7FXAiZN9">
-            Torsdagen den 16 oktober 1958
-          </note>
-          <note xml:id="i-6qDKREyVNMMhx4Zz2ZeTw9">
-            Interpellation ang. ingripanden i fråga om privata pensionskassors
-            fondmedel i samband med genomförandet av en allmän tilläggspensionering,
-            m. m. Interpellation ang. vissa missförhållanden vid alkoholistanstalten
-            å Venngarn, m. m.
-          </note>
-          <note xml:id="i-WSe9WRxNWsbuPxt8PnxFvT">
-            Ringaby gård, Ullersäter, vilken vid ny röstsammanräkning blivit
-            utsedd såsom ledamot av riksdagens första kammare i stället för
-            avgången ledamot av samma kammare.
-          </note>
-          <note xml:id="i-8AwRMUfbsJHBe2TqaYT14">
-            Vid granskning av fullmakten, som företogs inför chefen för justitiedepartementet
-            samt vidare av vederbörande fullmäktige i riksbanken och riksgäldskontoret,
-            framställdes mot fullmakten icke någon anmärkning.
-          </note>
-          <note xml:id="i-ANo7dUPQScWMgegF2jtfUz">
-            Protokoll över vad sålunda förekommit skulle jämte den granskade
-            fullmakten överlämnas till första kammaren.
-          </note>
-          <note xml:id="i-PgmgsTTmZfXzkSm1CJdtQJ">
-            I ämbetet: K. G. Grönhagen
-          </note>
-          <note xml:id="i-XJekhWXwYp4yNiTosbpAH1">
-            Det antecknades, att herr Ringaby utsetts att inträda såsom ledamot
-            av kammaren i stället för herr Arrhén, vilken avlidit.
-          </note>
-          <note xml:id="i-NnjUbBRZNtecd9MSVywu2Q">
-            Herr Ringaby infann sig nu och intog sin plats i kammaren.
-          </note>
-          <note xml:id="i-FEth8pktt3WoUy5BcWuztW">
-            Ledighet från riksdagsgöromålen för fullgörande av uppdrag såsom
-            ombud vid Förenta Nationernas generalförsamling i New York beviljades
-            fru Lindström samt herrar Bengtson och Sandler, fru Lindström
-            för tiden från och med den 16 till och med den 31 innevarande
-            månad, herr Bengtson från och med denna dag samt herr Sandler
-            från och med morgondagen, de båda sistnämnda för den tid, som
-            åtginge för uppdragets fullgörande.
-          </note>
-          <note xml:id="i-FZMDoSA7bk9g2bZcEMZNUE">
-            Vidare beviljades herrar Torsten Andersson, Möller och Elmgren
-            ledighet från riksdagsgöromålen för deltagande i Europarådets
-            rådgivande församlings session i Strasbourg, herr Torsten Andersson
-            för tiden till den 18 innevarande månad, herr Möller till den
-            20 i samma månad samt herr Elmgren till och med den 22 oktober.
-          </note>
-          <note xml:id="i-Cgg9kqzSiTuAaSfiPwE1hE">
-            Ytterligare beviljades herr Undén 1edighet från riksdagsgöromålen
-            på grund av offentligt uppdrag för den tid, som åtginge för uppdragets
-            fullgörande.
-          </note>
-          <note xml:id="i-UEpXTkqczJzri5bpP69csY">
-            Anmäldes och bordlades Kungl. Maj:ts till kammaren överlämnade
-            skrivelse nar B 41, om förordnande av en statsrådsledamot att
-            utöva den befattning med riksdagsärenden, som jämlikt $ 46 riksdagsordningen
-            tillkommer en ledamot av statsrådet.
-          </note>
-          <note xml:id="i-D8x1NLbW4RfZxyqTzLvLt2">
-            Anmäldes och bordlades en från fullmäktige i riksgäldskontoret
-            inkommen skrivelse med överlämnande av betänkande med förslag
-            angående ersättning för riksdagsmannauppdragets fullgörande.
-          </note>
-          <note xml:id="i-L2dqGpMaUxrzTTsn9ytApD">
-            Interpellation ang. ingripanden i fråga
-          </note>
-          <note xml:id="i-41cExpmfvTt6X47H4nkPKd">
-            om privata pensionskassors fondmedel i
-          </note>
-          <note xml:id="i-EsmQhcxju4aFmiKSzCbjGy">
-            samband med genomförandet av en allmän tilläggspensionering,
-            m. m.
-          </note>
-          <note xml:id="i-A4ioehk7gC1cTYy4SzijqG" type="speaker">
-            Herr ÅMAN (s) erhöll på begäran ordet och yttrade:
-          </note>
-          <u xml:id="i-WwPa2N3W8wtkaHi9dD7689" next="i-LHFmmTH3GyijX4u2oThJfb" who="Q6255705">
-            <seg xml:id="i-UoFkmJfuRv8hQUbQ1rHuFz">
-              Herr talman! Jag hemställer att härmed få rikta följande interpellation
-              till statsrådet och chefen för socialdepartementet:
-            </seg>
-          </u>
-          <u xml:id="i-LHFmmTH3GyijX4u2oThJfb" prev="i-WwPa2N3W8wtkaHi9dD7689" who="Q6255705" next="i-TKrDQjzpRqQcPxAXRGLYnz">
-            <seg xml:id="i-CT6AKuAzW9cLbafmqBfmSi">
-              Har regeringen för avsikt att i samband med genomförandet av
-              en allmän tilläggspensionering företa några ingripanden i fråga
-              om de av privata pensionskassor ägda fondmedlen?
-            </seg>
-          </u>
-          <u xml:id="i-TKrDQjzpRqQcPxAXRGLYnz" prev="i-LHFmmTH3GyijX4u2oThJfb" who="Q6255705">
-            <seg xml:id="i-MpyUXgKVwNUKeJrQiu5UZs">
-              Planerar regeringen några åtgärder i syfte att underlätta en
-              sådan placering av privata fondmedel, att frågan om värdebeständigheten
-              inom enskilt organiserad pensionering kan bringas närmare sin
-              lösning?
-            </seg>
-          </u>
-          <note xml:id="i-DdKQbWzcic5cNkZUyyLziA">
-            På gjord proposition medgav kammaren, att ifrågavarande spörsmål
-            finge framställas.
-          </note>
-          <note xml:id="i-JcZhmramwJAC6kgX4ksRGX">
-            Interpellation ang. vissa missförhållanden vid alkoholistanstalten
-            å Venngarn, m. m.
-          </note>
-          <note xml:id="i-BWj5EKqMheG45Dpmo89HMD" type="speaker">
-            Ordet lämnades på begäran till herr SVENINGSSON (h), som anförde:
-          </note>
-          <u xml:id="i-5cYvU9czfZe2iWyN5qige4" next="i-UA8qYLQyXwPYaPg5TDo9CT" who="Q6197962">
-            <seg xml:id="i-MGM5sFTzNeNuV8VnBjvCE4">
-              Herr talman! I en nyligen offentliggjord polisrapport har avslöjats
-              sådana missförhållanden vid alkoholistanstalten
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1958-b-fk--8/prot_1958_b_fk__8-004.jp2/_view"/>
-          <note type="date" xml:id="i-9BUZxDjrJoBeZTosbwX6DS">
-            Torsdagen den 16 oktober 1958
-          </note>
-          <note xml:id="i-LwAvkjhGocv96KEvBTTBSB">
-            Nr B 8 5
-          </note>
-          <note xml:id="i-6F6b9XQgMar1Tshv878vg6">
-            Interpellation ang. vissa missförhållanden vid alkoholistanstalten
-            å Venngarn, m. m.
-          </note>
-          <u xml:id="i-UA8qYLQyXwPYaPg5TDo9CT" prev="i-5cYvU9czfZe2iWyN5qige4" who="Q6197962" next="i-PcCZHkr7uTZr6gHZ9MSpfq">
-            <seg xml:id="i-PkXiWaGLwuqEDt62UM1sHE">
-              å Venngarn, att förtroendet för vår alkoholistvård allvarligt
-              skadats. Av rapporten framgår sålunda bl. a., att de intagna utan
-              svårigheter kunnat anskaffa sprit såväl inom själva anstalten
-              som i Sigtuna. Berusade patienter har påträffats inom anstalten,
-              och i Sigtuna har ett flertal på anstalten intagna gripits för
-              fylleri. Fylleriet tycks under senare tid ha tilltagit.
-            </seg>
-          </u>
-          <u xml:id="i-PcCZHkr7uTZr6gHZ9MSpfq" prev="i-UA8qYLQyXwPYaPg5TDo9CT" who="Q6197962" next="i-8qJ5E7MehpS5Nxxjq4Hpzk">
-            <seg xml:id="i-XkYEduZJjMFe9CjMyVUyGg">
-              Spritmissbruket bland de intagna vid anstalten tycks ha pågått
-              ganska länge och varit väl känt för anstaltens styrelse. Trots
-              detta har man inte lyckats hindra eller ens minska spritmissbruket,
-              utan detta har under senare tid snarare tilltagit. Man frågar
-              sig därför också om liknande missförhållanden förekommer vid andra
-              alkoholistanstalter och om man där har lika svårt att komma till
-              rätta med problemen.
-            </seg>
-          </u>
-          <u xml:id="i-8qJ5E7MehpS5Nxxjq4Hpzk" prev="i-PcCZHkr7uTZr6gHZ9MSpfq" who="Q6197962" next="i-SzFHBUXmd1wzBToBNNZNc6">
-            <seg xml:id="i-BkK25LqXVGUittVak2bWjn">
-              Jag är medveten om att det för närvarande pågår en utredning
-              rörande vården av alkoholmissbrukare och därmed sammanhängande
-              problem. Utredningen har ju också redan lagt fram vissa förslag
-              som lett till beslut om upprustning och förbättring av alkoholistvården.
-              De
-            </seg>
-          </u>
-          <u xml:id="i-SzFHBUXmd1wzBToBNNZNc6" prev="i-8qJ5E7MehpS5Nxxjq4Hpzk" who="Q6197962" next="i-D7aXZWgNohAgrNuttUpkQJ">
-            <seg xml:id="i-RSFJZX9rUK9eYTKEqYuRP9">
-              förhållanden, som avslöjats vid Venngarn, är emellertid av så
-              allvarligt slag att speciella och omedelbara åtgärder måste vidtagas
-              för att få en ändring till stånd vid anstalten,
-            </seg>
-          </u>
-          <u xml:id="i-D7aXZWgNohAgrNuttUpkQJ" prev="i-SzFHBUXmd1wzBToBNNZNc6" who="Q6197962" next="i-5q5Lf7ZJzpBxCrVbQFUcig">
-            <seg xml:id="i-EZmZ2q8Mw1jykJJYSdtKca">
-              Under åberopande av vad som anförts får jag hemställa om kammarens
-              tillstånd att till statsrådet och chefen för socialdepartementet
-              få ställa följande frågor:
-            </seg>
-          </u>
-          <u xml:id="i-5q5Lf7ZJzpBxCrVbQFUcig" prev="i-D7aXZWgNohAgrNuttUpkQJ" who="Q6197962" next="i-4ymw6KFKHUHCZznsniCNKe">
-            <seg xml:id="i-9BP62zBG1doko2Ap1r1bCj">
-              1) Vill herr statsrådet lämna kammaren en redogörelse för vilka
-              åtgärder regeringen vidtagit i anledning av spritmissbruket bland
-              de intagna å Venngarn?
-            </seg>
-          </u>
-          <u xml:id="i-4ymw6KFKHUHCZznsniCNKe" prev="i-5q5Lf7ZJzpBxCrVbQFUcig" who="Q6197962">
-            <seg xml:id="i-LdtX3Zbas72ABhtAZXGJNB">
-              2) Är det herr statsrådet bekant om liknande förhållanden som
-              vid Venngarn även förekommer vid andra alkoholistanstalter?
-            </seg>
-          </u>
-          <note xml:id="i-3SW5ENZjfLHtaazHqReDny">
-            Det sålunda begärda tillståndet lämnades av kammaren.
-          </note>
-          <note xml:id="i-134DRWecqHDtNnGGn54UG3">
-            Kammarens sammanträde avslutades kl. 14.12.
-          </note>
-          <note xml:id="i-TbxTfAzzzuRG6f3uhEnTrp">
-            In fidem K.-G. Lindelöw
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1958-b-fk--8/prot_1958_b_fk__8-005.jp2/_view"/>
-          <note xml:id="i-JS6z9g5DDEsw8tsDvVA5sq">
-            6 Nr B 8
-          </note>
-          <note type="date" xml:id="i-GW7FdoymbZRUYm1wUa7zb8">
-            Fredagen den 17 oktober 1958
-          </note>
-          <note type="date" xml:id="i-tWJFsUaQEAhqW71erzYpr">
-            Fredagen den 17 oktober
-          </note>
-          <note xml:id="i-WrYFsnv3er92mkWZvWRjCy">
-            Kammaren sammanträdde kl. 14.00
-          </note>
-          <note xml:id="i-KzpyYoWU3MtV38y777VQHY">
-            Föredrogs och lades till handlingarna Kungl. Maj:ts skrivelse
-            nr B 41, med tillkännagivande, att Kungl. Maj:t förordnat statsrådet
-            Herman Kling att från och med den 1 september 1958 under innevarande
-            riksdag utöva den befattning med riksdagsärenden, som jämlikt
-            $ 46 riksdagsordningen tillkommer en ledamot av statsrådet;
-          </note>
-          <note xml:id="i-EZPiE2Pgx61X8ifuq8bywf">
-            och skulle underrättelse om denna skrivelses innehåll genom utdrag
-            av protokollet meddelas vederbörande utskott samt riksdagens kanslideputerade.
-          </note>
-          <note xml:id="i-No3ZfuVXcbbyUkb4MzCEtY">
-            Föredrogs och hänvisades till konstitutionsutskottet fullmäktiges
-            i riksgäldskontoret skrivelse med överlämnande av betänkande med
-            förslag angående ersättning för riksdagsmannauppdragets fullgörande.
-          </note>
-          <note xml:id="i-LTii6nqfcoBFMnKVWk5Kdh">
-            Anmäldes och bordlades följande till kammaren överlämnade kungl.
-            propositioner:
-          </note>
-          <note xml:id="i-Vb6AnwLw4o8tvn9ZnwxJW3">
-            nr B 42, angående godkännande av avtal mellan Sverige och Danmark
-            för undvikande av dubbelbeskattning beträffande skatter å inkomst
-            och förmögenhet;
-          </note>
-          <note xml:id="i-Tqf6vVqcqQyyb5G8h4ABvE">
-            nr B 43, angående godkännande av tilläggsavtal till avtalet den
-            21 december 1949 mellan Sverige och Finland för undvikande av
-            dubbelbeskattning beträffande skatter å inkomst och förmögenhet;
-          </note>
-          <note xml:id="i-SCkCRCxzN9btA4hzxJaJKr">
-            nr B 44, angående godkännande av avtal mellan Sverige och Pakistan
-            för undvikande av dubbelbeskattning och förhindrande av skatteflykt
-            beträffande inkomstskatter; samt
-          </note>
-          <note xml:id="i-5w9Q6VQzgfpmD8oznnDiNE">
-            nr B 45, angående godkännande av förordnande om uttagande av
-            särskild tullavgift för damstrumpor av nylonsilke m. m.
-          </note>
-          <note xml:id="i-NfnTMBwPC7JWyzoA2p8Vcu">
-            Anmäldes och bordlades av bankoutskottet jämlikt $ 21 riksdagsstadgan
-            gjorda anmälningar, att till utskottet inkommit
-          </note>
-          <note xml:id="i-B8HwxG11aWEMMRJJxsZ54M">
-            dels från fullmäktige i riksbanken framställning om pension till
-            Vanja Cecilia Fagerström, född Andersson, änka efter avlidne f.
-            d. sedeltryckaren vid riksbankens sedeltryckeri Primus Emanuel
-            Fagerström;
-          </note>
-          <note xml:id="i-SigHu8kJZrdJyF95A8br87">
-            dels ock från fullmäktige i riksgäldskontoret två framställningar
-          </note>
-          <note xml:id="i-BCbMUU1YJEejRjR7LRDaeu">
-            1) angående pension för städerskan vid riksdagshuset Signe Axelsson;
-          </note>
-          <note xml:id="i-QYH7HGqtgkqT1ffaGCY5Gx">
-            2) med förslag angående Nordiska rådets svenska delegations ställning
-            och arbetsformer.
-          </note>
-          <note xml:id="i-2jaxFUYMt12m8eeh1Bj2A7">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 14.03.
-          </note>
-          <note xml:id="i-3Q7sPqzDTGHB7Yw9aYExKc">
-            In fidem K.-G. Lindelöw
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1958-b-fk--8/prot_1958_b_fk__8-006.jp2/_view"/>
-          <note type="date" xml:id="i-L8cRQFCCiQFihT6mjXqFyA">
-            Tisdagen den 21 oktober 1958
-          </note>
-          <note xml:id="i-TwnbbLp8p5a2nZLRxwfGA6">
-            Nr B 8 T
-          </note>
-          <note type="date" xml:id="i-FjsbmkvApyoxZRwsvJoj1A">
-            Tisdagen den 21 oktober
-          </note>
-          <note xml:id="i-GL8wHYg8T2encVgePpmbGX">
-            Kammaren sammanträdde kl. 16.00; och dess förhandlingar leddes
-            av herr förste vice talmannen.
-          </note>
-          <note xml:id="i-EMjA3XSYExHm1hvkgaVvA9">
-            Föredrogos och hänvisades till bevillningsutskottet Kungl. Maj:ts
-            propositioner:
-          </note>
-          <note xml:id="i-KUZJbZ9c3DevfVYwBX9Kyz">
-            nr B 42, angående godkännande av avtal mellan Sverige och Danmark
-            för undvikande av dubbelbeskattning beträffande skatter å inkomst
-            och förmögenhet;
-          </note>
-          <note xml:id="i-DZRCypWEwn1Y8oWuLifJBP">
-            nr B 43, angående godkännande av tillläggsavtal till avtalet
-            den 21 december 1949 mellan Sverige och Finland för undvikande
-            av dubbelbeskattning beträffande skatter å inkomst och förmögenhet;
-          </note>
-          <note xml:id="i-4LxXFtR8hLZGomtHCBiJ7S">
-            nr B 44, angående godkännande av avtal mellan Sverige och Pakistan
-            för undvikande av dubbelbeskattning och förhindrande av skatteflykt
-            beträffande inkomstskatter; samt
-          </note>
-          <note xml:id="i-QCwzBZzdNVxhGR7cCwoGLH">
-            nr B 45, angående godkännande av förordnande om uttagande av
-            särskild tullavgift för damstrumpor av nylonsilke m. m.
-          </note>
-          <note xml:id="i-72WGSMUrNV849UEGVkEUsL">
-            Föredrogos och lades till handlingarna bankoutskottets jämlikt
-            $ 21 riksdagsstadgan gjorda anmälningar:
-          </note>
-          <note xml:id="i-E7ziTtLx6Bi9ZWhk6caMi">
-            A. att till utskottet från fullmäktige i riksbanken inkommit
-            framställning om pension till Vanja Cecilia Fagerström, född Andersson,
-            änka efter avlidne f. d. sedeltryckaren vid riksbankens sedeltryckeri
-            Primus Emanuel Fagerström;
-          </note>
-          <note xml:id="i-3TBXBz9KKjS1RiL7hrD1X7">
-            B. att till utskottet från fullmäktige i riksgäldskontoret inkommit
-            två framställningar:
-          </note>
-          <note xml:id="i-3AMYiFuWn8YP8N3P1Q8dqB">
-            1) angående pension för städerskan vid riksdagshuset Signe Axelsson;
-            samt
-          </note>
-          <note xml:id="i-PkJaQV5jFRFmUd9RGh423p">
-            2) med förslag angående Nordiska rådets svenska delegations ställning
-            och arbetsformer.
-          </note>
-          <note xml:id="i-HcoBSqj2zMf251nn77bNBt">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 16.02.
-          </note>
-          <note xml:id="i-JGA7pPKoRSM2tDnwZsgJgW">
-            In fidem K.-G. Lindelöw
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1958-b-fk--8</head>
+        <docDate when="1958-10-16">1958-10-16</docDate>
+        <docDate when="1958-10-17">1958-10-17</docDate>
+        <docDate when="1958-10-21">1958-10-21</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1958-b-fk--8/prot_1958_b_fk__8-000.jp2/_view"/>
+        <note xml:id="i-JMzvuUiP128bXFsZpkAiqm">
+          RIKSDAGENS PROTOKOLL
+        </note>
+        <note xml:id="i-Eu9BUyzecbnJ3TU96f7APT">
+          |
+        </note>
+        <note xml:id="i-8sTd2V74TTefAk4MFn7V4T">
+          1958 FÖRSTA KAMMAREN Nr B8
+        </note>
+        <note xml:id="i-9T9mVz8k8CH61Xj71K6uU9">
+          16—21 oktober
+        </note>
+        <note xml:id="i-RjmtgPAedhbj7xWrkSAgJX">
+          Debatter m. m.
+        </note>
+        <note xml:id="i-3U9CRK9dDd5qpnG92dvkMR">
+          Torsdagen den 16 oktober Sid. Hälsningstal av talmannen sossssssssssssrs
+          ss ses ss sees sosse sla 3 Minnesord över herr ÅIrhéD sssssssss
+          esse reser ers ses sissi 3 Interpellationer: av herr Åman ang.
+          ingripanden i fråga om privata pensionskassors fondmedel i samband
+          med genomförandet av en allmän tillläggspensionering, IM. IM s.ossssssss
+          ses ses ses s ss s ss 4 av herr Sveningsson ang. vissa missförhållanden
+          vid alkoholistanstaten å Venngarn, IM, IM sosse ss ss 4
+        </note>
+        <note xml:id="i-HobcJMncgVmmxQ25ZU37Xv">
+          1 Första kammarens protokoll 1958. Nr B 8
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1958-b-fk--8/prot_1958_b_fk__8-001.jp2/_view"/>
+        <note xml:id="i-HKSUgaKTKyh3om35QJNvbB">
+          ESR.
+        </note>
+        <note xml:id="i-KrTPy4m3k8RQskBEQMsRrC">
+          É i ee 2 5 oa . se : | a | | - - i a
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1958-b-fk--8/prot_1958_b_fk__8-002.jp2/_view"/>
+        <note type="date" xml:id="i-GHmaXL8dSmdnkZ5XSh7Ke1">
+          Torsdagen den 16 oktober 1958
+        </note>
+        <note xml:id="i-J5885kMZ5X4kjH8afHJseQ">
+          Nr B 8 3
+        </note>
+        <note type="date" xml:id="i-EXkiMLYRipce7kYsHL6mNY">
+          Torsdagen den 16 oktober
+        </note>
+        <note xml:id="i-7anK5dDQ9aRCz89p75WXkg">
+          Kammaren sammanträdde kl. 14.00
+        </note>
+        <note xml:id="i-Gjc8QFf5aHhNXZhLts9PeY" type="speaker">
+          Herr TALMANNEN öppnade sammanträdet med följande ord:
+        </note>
+        <u xml:id="i-FdDPw6WRw1AuMS21g7Mx6o" next="i-UXt7UFg8JyVHgeKhDK6vKr" who="i-788eSKUK6YVsRmMEe7jYKP">
+          <seg xml:id="i-K1idWEBP2pzjdxPmniAb8m">
+            Vi har nu att fortsätta den B-riksdag som vi avbröt för ett par
+            månader sedan. När jag hälsar kammarens ledamöter välkomna till
+            det fortsatta arbetet, sker det i en förhoppning att ni kunnat
+            utnyttja ledigheten inte bara till att sköta privata sysslor,
+            som ni ofta måste försumma under det forcerade riksdagsarbetet,
+            till valagitation och annan med det politiska livet förbunden
+            tråkighet, utan även till rekreation och vila. Jag är i varje
+            fall övertygad om att ni kommer att gripa er arbetet an med friska
+            krafter.
+          </seg>
+        </u>
+        <u xml:id="i-UXt7UFg8JyVHgeKhDK6vKr" prev="i-FdDPw6WRw1AuMS21g7Mx6o" who="i-788eSKUK6YVsRmMEe7jYKP" next="i-4MAzG4EYVGBK2bKuF6AW5u">
+          <seg xml:id="i-F8ezNvbneTLdaUdA9ZkR2B">
+            Jag skulle vilja tillägga ett par ord och säga, att jag tror
+            inte att det är många i denna kammare som känt någon avundsjuka
+            gentemot vår medkammare med dess sena nattplena och utdragna debatter,
+            men på en punkt har vi känt oss litet fattigare än den och kanske
+            varit em aning avundsjuka, nämligen för den bristande konstnärliga
+            utsmyckningen i vår lokal. När vi nu har sett två väggfält dekorerade
+            genom professor Otte Skölds och hans konstnärliga medhjälpares
+            försorg, så gläds vi. Jag för min del, som inte gör anspråk på
+            att vara någon konstkritiker, tycker att det är vackert och förtjusande,
+            och vi hoppas ännu mera på den totala verkan här i kammaren, när
+            det tredje väggfältet nästa sommar blir färdigt. Jag har tänkt
+            mig, efter konferens med mina kolleger i presidiet, att vi till
+            professor Sköld skulle skicka en blomsterhyllning med tack för
+            det nu utförda arbetet.
+          </seg>
+        </u>
+        <u xml:id="i-4MAzG4EYVGBK2bKuF6AW5u" prev="i-UXt7UFg8JyVHgeKhDK6vKr" who="i-788eSKUK6YVsRmMEe7jYKP">
+          <seg xml:id="i-CTBfgBMRntnHuWU44aPXPx">
+            Med dessa ord förklarar jag sammanträdet öppnat.
+          </seg>
+        </u>
+        <note xml:id="i-8BZju7UDa4USEq7mtB3yzK" type="speaker">
+          Härefter anförde herr TALMANNEN:
+        </note>
+        <u xml:id="i-XtyM9LXCZ2hzzaDiLZf6C" who="i-788eSKUK6YVsRmMEe7jYKP" next="i-Grvjb32fhbX9swXbDXceHu">
+          <seg xml:id="i-4zZfjZu3B7k6gNsXkarvCo">
+            Sedan vi sist skildes har en av kammarens ledamöter, vännen Erik
+            Arrhén, lämnat oss.
+          </seg>
+        </u>
+        <u xml:id="i-Grvjb32fhbX9swXbDXceHu" who="i-788eSKUK6YVsRmMEe7jYKP" prev="i-XtyM9LXCZ2hzzaDiLZf6C" next="i-ST7QfFu7GvFNwe5NHHLuHa">
+          <seg xml:id="i-4cgAi9Sg2czuaSWgwEiGM7">
+            Han var ingen gammal man. Han hade ännu inte nått de 60, när
+            en hjärtsjukdom ryckte bort honom. Han tillhörde inte de allra
+            äldsta riksdagsmännen, men hade en lång rad av riksdagsår bakom
+            sig — årets B-riksdag var hans sjuttonde riksdag.
+          </seg>
+        </u>
+        <u xml:id="i-ST7QfFu7GvFNwe5NHHLuHa" who="i-788eSKUK6YVsRmMEe7jYKP" prev="i-Grvjb32fhbX9swXbDXceHu" next="i-DoHhucKYVfV6hTe4iAubEt">
+          <seg xml:id="i-7H7BYFTnHe5oYk4Gvb9xq5">
+            Jag är övertygad om att alla de kammarledamöter, som haft tillfälle
+            att följa vår bortgångne vän i hans arbete, fått ett levande intryck
+            av en stark pliktkänsla och en ständig strävan att sätta sig in
+            i de ärenden, som låg inom hans intressesfär och om vilka han
+            talade i kammaren. Det var mångsidiga kunskaper och gediget arbete
+            som låg bakom hans framträdande. Och han var ingen konjunkturpolitikens
+            man — han sade vad han menade, trodde och tyckte, även när det
+            var impopulärt och inte uppskattat.
+          </seg>
+        </u>
+        <u xml:id="i-DoHhucKYVfV6hTe4iAubEt" who="i-788eSKUK6YVsRmMEe7jYKP" prev="i-ST7QfFu7GvFNwe5NHHLuHa" next="i-3EXBr5z7vhdun3nHSqYHKW">
+          <seg xml:id="i-ESBadFZPP1q6N9pU8WRUUZ">
+            Vi satte ett stort mänskligt och kamratligt värde på honom, och
+            när han nu gått bort, kan vi inte annat göra än skänka honom vår
+            tacksamma hyllning för vad han varit, gjort och verkat.
+          </seg>
+        </u>
+        <u xml:id="i-3EXBr5z7vhdun3nHSqYHKW" who="i-788eSKUK6YVsRmMEe7jYKP" prev="i-DoHhucKYVfV6hTe4iAubEt">
+          <seg xml:id="i-UBbFTvfdYVZF18nrshgoeu">
+            Jag lyser frid över hans minne.
+          </seg>
+        </u>
+        <note xml:id="i-KwxYvbwGQJ5y1UB8vir9xX">
+          Detta anförande åhördes av kammarens ledamöter stående.
+        </note>
+        <note xml:id="i-P9SXttx2cTWH8YuXHe2GGg">
+          Upplästes och lades till handlingarna följande från justitiedepartementet
+          ankomna
+        </note>
+        <note xml:id="i-MPnAxFxAU8pP7UGBaH6bfr">
+          Protokoll, hållet inför statsrådet och chefen för justitiedepartementet
+          den 15 oktober 1958.
+        </note>
+        <note xml:id="i-JF4v4V9r1ztZJeppbc5bwt">
+          Till justitiedepartementet hade den 14 oktober 1958 från länsstyrelsen
+          i Göteborgs och Bohus län inkommit fullmakt för lantbrukaren Per-Erik
+          Ringaby,
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1958-b-fk--8/prot_1958_b_fk__8-003.jp2/_view"/>
+        <note xml:id="i-M6XbcEabtpDQHemDF8VSoz">
+          4 Nr B 8
+        </note>
+        <note type="date" xml:id="i-XoCLLvi81zXyaj7FXAiZN9">
+          Torsdagen den 16 oktober 1958
+        </note>
+        <note xml:id="i-6qDKREyVNMMhx4Zz2ZeTw9">
+          Interpellation ang. ingripanden i fråga om privata pensionskassors
+          fondmedel i samband med genomförandet av en allmän tilläggspensionering,
+          m. m. Interpellation ang. vissa missförhållanden vid alkoholistanstalten
+          å Venngarn, m. m.
+        </note>
+        <note xml:id="i-WSe9WRxNWsbuPxt8PnxFvT">
+          Ringaby gård, Ullersäter, vilken vid ny röstsammanräkning blivit
+          utsedd såsom ledamot av riksdagens första kammare i stället för
+          avgången ledamot av samma kammare.
+        </note>
+        <note xml:id="i-8AwRMUfbsJHBe2TqaYT14">
+          Vid granskning av fullmakten, som företogs inför chefen för justitiedepartementet
+          samt vidare av vederbörande fullmäktige i riksbanken och riksgäldskontoret,
+          framställdes mot fullmakten icke någon anmärkning.
+        </note>
+        <note xml:id="i-ANo7dUPQScWMgegF2jtfUz">
+          Protokoll över vad sålunda förekommit skulle jämte den granskade
+          fullmakten överlämnas till första kammaren.
+        </note>
+        <note xml:id="i-PgmgsTTmZfXzkSm1CJdtQJ">
+          I ämbetet: K. G. Grönhagen
+        </note>
+        <note xml:id="i-XJekhWXwYp4yNiTosbpAH1">
+          Det antecknades, att herr Ringaby utsetts att inträda såsom ledamot
+          av kammaren i stället för herr Arrhén, vilken avlidit.
+        </note>
+        <note xml:id="i-NnjUbBRZNtecd9MSVywu2Q">
+          Herr Ringaby infann sig nu och intog sin plats i kammaren.
+        </note>
+        <note xml:id="i-FEth8pktt3WoUy5BcWuztW">
+          Ledighet från riksdagsgöromålen för fullgörande av uppdrag såsom
+          ombud vid Förenta Nationernas generalförsamling i New York beviljades
+          fru Lindström samt herrar Bengtson och Sandler, fru Lindström
+          för tiden från och med den 16 till och med den 31 innevarande
+          månad, herr Bengtson från och med denna dag samt herr Sandler
+          från och med morgondagen, de båda sistnämnda för den tid, som
+          åtginge för uppdragets fullgörande.
+        </note>
+        <note xml:id="i-FZMDoSA7bk9g2bZcEMZNUE">
+          Vidare beviljades herrar Torsten Andersson, Möller och Elmgren
+          ledighet från riksdagsgöromålen för deltagande i Europarådets
+          rådgivande församlings session i Strasbourg, herr Torsten Andersson
+          för tiden till den 18 innevarande månad, herr Möller till den
+          20 i samma månad samt herr Elmgren till och med den 22 oktober.
+        </note>
+        <note xml:id="i-Cgg9kqzSiTuAaSfiPwE1hE">
+          Ytterligare beviljades herr Undén 1edighet från riksdagsgöromålen
+          på grund av offentligt uppdrag för den tid, som åtginge för uppdragets
+          fullgörande.
+        </note>
+        <note xml:id="i-UEpXTkqczJzri5bpP69csY">
+          Anmäldes och bordlades Kungl. Maj:ts till kammaren överlämnade
+          skrivelse nar B 41, om förordnande av en statsrådsledamot att
+          utöva den befattning med riksdagsärenden, som jämlikt $ 46 riksdagsordningen
+          tillkommer en ledamot av statsrådet.
+        </note>
+        <note xml:id="i-D8x1NLbW4RfZxyqTzLvLt2">
+          Anmäldes och bordlades en från fullmäktige i riksgäldskontoret
+          inkommen skrivelse med överlämnande av betänkande med förslag
+          angående ersättning för riksdagsmannauppdragets fullgörande.
+        </note>
+        <note xml:id="i-L2dqGpMaUxrzTTsn9ytApD">
+          Interpellation ang. ingripanden i fråga
+        </note>
+        <note xml:id="i-41cExpmfvTt6X47H4nkPKd">
+          om privata pensionskassors fondmedel i
+        </note>
+        <note xml:id="i-EsmQhcxju4aFmiKSzCbjGy">
+          samband med genomförandet av en allmän tilläggspensionering,
+          m. m.
+        </note>
+        <note xml:id="i-A4ioehk7gC1cTYy4SzijqG" type="speaker">
+          Herr ÅMAN (s) erhöll på begäran ordet och yttrade:
+        </note>
+        <u xml:id="i-WwPa2N3W8wtkaHi9dD7689" next="i-LHFmmTH3GyijX4u2oThJfb" who="i-CuDS8imLC9tVmMZFNCATkP">
+          <seg xml:id="i-UoFkmJfuRv8hQUbQ1rHuFz">
+            Herr talman! Jag hemställer att härmed få rikta följande interpellation
+            till statsrådet och chefen för socialdepartementet:
+          </seg>
+        </u>
+        <u xml:id="i-LHFmmTH3GyijX4u2oThJfb" prev="i-WwPa2N3W8wtkaHi9dD7689" who="i-CuDS8imLC9tVmMZFNCATkP" next="i-TKrDQjzpRqQcPxAXRGLYnz">
+          <seg xml:id="i-CT6AKuAzW9cLbafmqBfmSi">
+            Har regeringen för avsikt att i samband med genomförandet av
+            en allmän tilläggspensionering företa några ingripanden i fråga
+            om de av privata pensionskassor ägda fondmedlen?
+          </seg>
+        </u>
+        <u xml:id="i-TKrDQjzpRqQcPxAXRGLYnz" prev="i-LHFmmTH3GyijX4u2oThJfb" who="i-CuDS8imLC9tVmMZFNCATkP">
+          <seg xml:id="i-MpyUXgKVwNUKeJrQiu5UZs">
+            Planerar regeringen några åtgärder i syfte att underlätta en
+            sådan placering av privata fondmedel, att frågan om värdebeständigheten
+            inom enskilt organiserad pensionering kan bringas närmare sin
+            lösning?
+          </seg>
+        </u>
+        <note xml:id="i-DdKQbWzcic5cNkZUyyLziA">
+          På gjord proposition medgav kammaren, att ifrågavarande spörsmål
+          finge framställas.
+        </note>
+        <note xml:id="i-JcZhmramwJAC6kgX4ksRGX">
+          Interpellation ang. vissa missförhållanden vid alkoholistanstalten
+          å Venngarn, m. m.
+        </note>
+        <note xml:id="i-BWj5EKqMheG45Dpmo89HMD" type="speaker">
+          Ordet lämnades på begäran till herr SVENINGSSON (h), som anförde:
+        </note>
+        <u xml:id="i-5cYvU9czfZe2iWyN5qige4" next="i-UA8qYLQyXwPYaPg5TDo9CT" who="i-PUU7m4zHNmgsoCo9JZxuNX">
+          <seg xml:id="i-MGM5sFTzNeNuV8VnBjvCE4">
+            Herr talman! I en nyligen offentliggjord polisrapport har avslöjats
+            sådana missförhållanden vid alkoholistanstalten
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1958-b-fk--8/prot_1958_b_fk__8-004.jp2/_view"/>
+        <note type="date" xml:id="i-9BUZxDjrJoBeZTosbwX6DS">
+          Torsdagen den 16 oktober 1958
+        </note>
+        <note xml:id="i-LwAvkjhGocv96KEvBTTBSB">
+          Nr B 8 5
+        </note>
+        <note xml:id="i-6F6b9XQgMar1Tshv878vg6">
+          Interpellation ang. vissa missförhållanden vid alkoholistanstalten
+          å Venngarn, m. m.
+        </note>
+        <u xml:id="i-UA8qYLQyXwPYaPg5TDo9CT" prev="i-5cYvU9czfZe2iWyN5qige4" who="i-PUU7m4zHNmgsoCo9JZxuNX" next="i-PcCZHkr7uTZr6gHZ9MSpfq">
+          <seg xml:id="i-PkXiWaGLwuqEDt62UM1sHE">
+            å Venngarn, att förtroendet för vår alkoholistvård allvarligt
+            skadats. Av rapporten framgår sålunda bl. a., att de intagna utan
+            svårigheter kunnat anskaffa sprit såväl inom själva anstalten
+            som i Sigtuna. Berusade patienter har påträffats inom anstalten,
+            och i Sigtuna har ett flertal på anstalten intagna gripits för
+            fylleri. Fylleriet tycks under senare tid ha tilltagit.
+          </seg>
+        </u>
+        <u xml:id="i-PcCZHkr7uTZr6gHZ9MSpfq" prev="i-UA8qYLQyXwPYaPg5TDo9CT" who="i-PUU7m4zHNmgsoCo9JZxuNX" next="i-8qJ5E7MehpS5Nxxjq4Hpzk">
+          <seg xml:id="i-XkYEduZJjMFe9CjMyVUyGg">
+            Spritmissbruket bland de intagna vid anstalten tycks ha pågått
+            ganska länge och varit väl känt för anstaltens styrelse. Trots
+            detta har man inte lyckats hindra eller ens minska spritmissbruket,
+            utan detta har under senare tid snarare tilltagit. Man frågar
+            sig därför också om liknande missförhållanden förekommer vid andra
+            alkoholistanstalter och om man där har lika svårt att komma till
+            rätta med problemen.
+          </seg>
+        </u>
+        <u xml:id="i-8qJ5E7MehpS5Nxxjq4Hpzk" prev="i-PcCZHkr7uTZr6gHZ9MSpfq" who="i-PUU7m4zHNmgsoCo9JZxuNX" next="i-SzFHBUXmd1wzBToBNNZNc6">
+          <seg xml:id="i-BkK25LqXVGUittVak2bWjn">
+            Jag är medveten om att det för närvarande pågår en utredning
+            rörande vården av alkoholmissbrukare och därmed sammanhängande
+            problem. Utredningen har ju också redan lagt fram vissa förslag
+            som lett till beslut om upprustning och förbättring av alkoholistvården.
+            De
+          </seg>
+        </u>
+        <u xml:id="i-SzFHBUXmd1wzBToBNNZNc6" prev="i-8qJ5E7MehpS5Nxxjq4Hpzk" who="i-PUU7m4zHNmgsoCo9JZxuNX" next="i-D7aXZWgNohAgrNuttUpkQJ">
+          <seg xml:id="i-RSFJZX9rUK9eYTKEqYuRP9">
+            förhållanden, som avslöjats vid Venngarn, är emellertid av så
+            allvarligt slag att speciella och omedelbara åtgärder måste vidtagas
+            för att få en ändring till stånd vid anstalten,
+          </seg>
+        </u>
+        <u xml:id="i-D7aXZWgNohAgrNuttUpkQJ" prev="i-SzFHBUXmd1wzBToBNNZNc6" who="i-PUU7m4zHNmgsoCo9JZxuNX" next="i-5q5Lf7ZJzpBxCrVbQFUcig">
+          <seg xml:id="i-EZmZ2q8Mw1jykJJYSdtKca">
+            Under åberopande av vad som anförts får jag hemställa om kammarens
+            tillstånd att till statsrådet och chefen för socialdepartementet
+            få ställa följande frågor:
+          </seg>
+        </u>
+        <u xml:id="i-5q5Lf7ZJzpBxCrVbQFUcig" prev="i-D7aXZWgNohAgrNuttUpkQJ" who="i-PUU7m4zHNmgsoCo9JZxuNX" next="i-4ymw6KFKHUHCZznsniCNKe">
+          <seg xml:id="i-9BP62zBG1doko2Ap1r1bCj">
+            1) Vill herr statsrådet lämna kammaren en redogörelse för vilka
+            åtgärder regeringen vidtagit i anledning av spritmissbruket bland
+            de intagna å Venngarn?
+          </seg>
+        </u>
+        <u xml:id="i-4ymw6KFKHUHCZznsniCNKe" prev="i-5q5Lf7ZJzpBxCrVbQFUcig" who="i-PUU7m4zHNmgsoCo9JZxuNX">
+          <seg xml:id="i-LdtX3Zbas72ABhtAZXGJNB">
+            2) Är det herr statsrådet bekant om liknande förhållanden som
+            vid Venngarn även förekommer vid andra alkoholistanstalter?
+          </seg>
+        </u>
+        <note xml:id="i-3SW5ENZjfLHtaazHqReDny">
+          Det sålunda begärda tillståndet lämnades av kammaren.
+        </note>
+        <note xml:id="i-134DRWecqHDtNnGGn54UG3">
+          Kammarens sammanträde avslutades kl. 14.12.
+        </note>
+        <note xml:id="i-TbxTfAzzzuRG6f3uhEnTrp">
+          In fidem K.-G. Lindelöw
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1958-b-fk--8/prot_1958_b_fk__8-005.jp2/_view"/>
+        <note xml:id="i-JS6z9g5DDEsw8tsDvVA5sq">
+          6 Nr B 8
+        </note>
+        <note type="date" xml:id="i-GW7FdoymbZRUYm1wUa7zb8">
+          Fredagen den 17 oktober 1958
+        </note>
+        <note type="date" xml:id="i-tWJFsUaQEAhqW71erzYpr">
+          Fredagen den 17 oktober
+        </note>
+        <note xml:id="i-WrYFsnv3er92mkWZvWRjCy">
+          Kammaren sammanträdde kl. 14.00
+        </note>
+        <note xml:id="i-KzpyYoWU3MtV38y777VQHY">
+          Föredrogs och lades till handlingarna Kungl. Maj:ts skrivelse
+          nr B 41, med tillkännagivande, att Kungl. Maj:t förordnat statsrådet
+          Herman Kling att från och med den 1 september 1958 under innevarande
+          riksdag utöva den befattning med riksdagsärenden, som jämlikt
+          $ 46 riksdagsordningen tillkommer en ledamot av statsrådet;
+        </note>
+        <note xml:id="i-EZPiE2Pgx61X8ifuq8bywf">
+          och skulle underrättelse om denna skrivelses innehåll genom utdrag
+          av protokollet meddelas vederbörande utskott samt riksdagens kanslideputerade.
+        </note>
+        <note xml:id="i-No3ZfuVXcbbyUkb4MzCEtY">
+          Föredrogs och hänvisades till konstitutionsutskottet fullmäktiges
+          i riksgäldskontoret skrivelse med överlämnande av betänkande med
+          förslag angående ersättning för riksdagsmannauppdragets fullgörande.
+        </note>
+        <note xml:id="i-LTii6nqfcoBFMnKVWk5Kdh">
+          Anmäldes och bordlades följande till kammaren överlämnade kungl.
+          propositioner:
+        </note>
+        <note xml:id="i-Vb6AnwLw4o8tvn9ZnwxJW3">
+          nr B 42, angående godkännande av avtal mellan Sverige och Danmark
+          för undvikande av dubbelbeskattning beträffande skatter å inkomst
+          och förmögenhet;
+        </note>
+        <note xml:id="i-Tqf6vVqcqQyyb5G8h4ABvE">
+          nr B 43, angående godkännande av tilläggsavtal till avtalet den
+          21 december 1949 mellan Sverige och Finland för undvikande av
+          dubbelbeskattning beträffande skatter å inkomst och förmögenhet;
+        </note>
+        <note xml:id="i-SCkCRCxzN9btA4hzxJaJKr">
+          nr B 44, angående godkännande av avtal mellan Sverige och Pakistan
+          för undvikande av dubbelbeskattning och förhindrande av skatteflykt
+          beträffande inkomstskatter; samt
+        </note>
+        <note xml:id="i-5w9Q6VQzgfpmD8oznnDiNE">
+          nr B 45, angående godkännande av förordnande om uttagande av
+          särskild tullavgift för damstrumpor av nylonsilke m. m.
+        </note>
+        <note xml:id="i-NfnTMBwPC7JWyzoA2p8Vcu">
+          Anmäldes och bordlades av bankoutskottet jämlikt $ 21 riksdagsstadgan
+          gjorda anmälningar, att till utskottet inkommit
+        </note>
+        <note xml:id="i-B8HwxG11aWEMMRJJxsZ54M">
+          dels från fullmäktige i riksbanken framställning om pension till
+          Vanja Cecilia Fagerström, född Andersson, änka efter avlidne f.
+          d. sedeltryckaren vid riksbankens sedeltryckeri Primus Emanuel
+          Fagerström;
+        </note>
+        <note xml:id="i-SigHu8kJZrdJyF95A8br87">
+          dels ock från fullmäktige i riksgäldskontoret två framställningar
+        </note>
+        <note xml:id="i-BCbMUU1YJEejRjR7LRDaeu">
+          1) angående pension för städerskan vid riksdagshuset Signe Axelsson;
+        </note>
+        <note xml:id="i-QYH7HGqtgkqT1ffaGCY5Gx">
+          2) med förslag angående Nordiska rådets svenska delegations ställning
+          och arbetsformer.
+        </note>
+        <note xml:id="i-2jaxFUYMt12m8eeh1Bj2A7">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 14.03.
+        </note>
+        <note xml:id="i-3Q7sPqzDTGHB7Yw9aYExKc">
+          In fidem K.-G. Lindelöw
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1958-b-fk--8/prot_1958_b_fk__8-006.jp2/_view"/>
+        <note type="date" xml:id="i-L8cRQFCCiQFihT6mjXqFyA">
+          Tisdagen den 21 oktober 1958
+        </note>
+        <note xml:id="i-TwnbbLp8p5a2nZLRxwfGA6">
+          Nr B 8 T
+        </note>
+        <note type="date" xml:id="i-FjsbmkvApyoxZRwsvJoj1A">
+          Tisdagen den 21 oktober
+        </note>
+        <note xml:id="i-GL8wHYg8T2encVgePpmbGX">
+          Kammaren sammanträdde kl. 16.00; och dess förhandlingar leddes
+          av herr förste vice talmannen.
+        </note>
+        <note xml:id="i-EMjA3XSYExHm1hvkgaVvA9">
+          Föredrogos och hänvisades till bevillningsutskottet Kungl. Maj:ts
+          propositioner:
+        </note>
+        <note xml:id="i-KUZJbZ9c3DevfVYwBX9Kyz">
+          nr B 42, angående godkännande av avtal mellan Sverige och Danmark
+          för undvikande av dubbelbeskattning beträffande skatter å inkomst
+          och förmögenhet;
+        </note>
+        <note xml:id="i-DZRCypWEwn1Y8oWuLifJBP">
+          nr B 43, angående godkännande av tillläggsavtal till avtalet
+          den 21 december 1949 mellan Sverige och Finland för undvikande
+          av dubbelbeskattning beträffande skatter å inkomst och förmögenhet;
+        </note>
+        <note xml:id="i-4LxXFtR8hLZGomtHCBiJ7S">
+          nr B 44, angående godkännande av avtal mellan Sverige och Pakistan
+          för undvikande av dubbelbeskattning och förhindrande av skatteflykt
+          beträffande inkomstskatter; samt
+        </note>
+        <note xml:id="i-QCwzBZzdNVxhGR7cCwoGLH">
+          nr B 45, angående godkännande av förordnande om uttagande av
+          särskild tullavgift för damstrumpor av nylonsilke m. m.
+        </note>
+        <note xml:id="i-72WGSMUrNV849UEGVkEUsL">
+          Föredrogos och lades till handlingarna bankoutskottets jämlikt
+          $ 21 riksdagsstadgan gjorda anmälningar:
+        </note>
+        <note xml:id="i-E7ziTtLx6Bi9ZWhk6caMi">
+          A. att till utskottet från fullmäktige i riksbanken inkommit
+          framställning om pension till Vanja Cecilia Fagerström, född Andersson,
+          änka efter avlidne f. d. sedeltryckaren vid riksbankens sedeltryckeri
+          Primus Emanuel Fagerström;
+        </note>
+        <note xml:id="i-3TBXBz9KKjS1RiL7hrD1X7">
+          B. att till utskottet från fullmäktige i riksgäldskontoret inkommit
+          två framställningar:
+        </note>
+        <note xml:id="i-3AMYiFuWn8YP8N3P1Q8dqB">
+          1) angående pension för städerskan vid riksdagshuset Signe Axelsson;
+          samt
+        </note>
+        <note xml:id="i-PkJaQV5jFRFmUd9RGh423p">
+          2) med förslag angående Nordiska rådets svenska delegations ställning
+          och arbetsformer.
+        </note>
+        <note xml:id="i-HcoBSqj2zMf251nn77bNBt">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 16.02.
+        </note>
+        <note xml:id="i-JGA7pPKoRSM2tDnwZsgJgW">
+          In fidem K.-G. Lindelöw
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

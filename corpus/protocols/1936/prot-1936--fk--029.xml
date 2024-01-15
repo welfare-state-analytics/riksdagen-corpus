@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1936</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1936</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,458 +25,431 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1936--fk--29</head>
-          <docDate when="1936-05-02">1936-05-02</docDate>
-          <docDate when="1936-05-05">1936-05-05</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1936--fk--29/prot_1936__fk__29-000.jp2/_view"/>
-          <note xml:id="i-3EB3rhroxJJ75u5yKP29dB">
-            RIKSDAGENS PROTOKOLL. 1936. Första kammaren. Nr 29.
-          </note>
-          <note type="date" xml:id="i-BpyhsYXsbebyQyvyX9hWZm">
-            Lördagen den 2 maj.
-          </note>
-          <note xml:id="i-JUppwXdGc1TSwnxWF7pCbF">
-            Kammaren sammanträdde kl. 4 e. m.
-          </note>
-          <note type="speaker" xml:id="i-6Wmo86k2CTPt1QHo3NMsnA">
-            Herr statsrådet Wigforss avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-8pE8kDNUaZs6VR8PfF8BmL">
-            ts propositioner:
-          </note>
-          <note xml:id="i-EHsEcrP7iaavxdjthaUDbb">
-            nr 249, med förslag till lag med vissa bestämmelser om centralkassor
-            för 1jordbrukskredit m. m.;
-          </note>
-          <note xml:id="i-AQ9YncxcytDvuwRqr5Xtqy">
-            nr 250, med förslag till lag angående ändrad lydelse av 8 kap.
-            4 8 lagen om förmynderskap m. m.;
-          </note>
-          <note xml:id="i-9e9jQxsT9hMo8V3zQNqVXW">
-            nr 251, med förslag om ändring i vissa delar av militära tjänstepensionsreglementet
-            den 17 maj 1935 (nr 167);
-          </note>
-          <note xml:id="i-VcuxLSRjYRcZJ8C9HRcsC">
-            nr 252, med förslag till lag angående ändring i vissa delar av
-            lagen den 8 mars 1889 (nr 2) om straff för ämbetsbrott av präst
-            och om laga domstol i sådana mål;
-          </note>
-          <note xml:id="i-FvNgn6nVJT1BEEGkq7VNu2">
-            nr 253, med förslag till lag angående ändrad lydelse av 2 $ 2:0),
-            8:0) och 13:0) lagen den 26 maj 1909 (nr 38 s. 3) om Kungl. Maj:ts
-            regeringsrätt; samt
-          </note>
-          <note xml:id="i-RXohxtWPChyhgxt2Pzw3Hc">
-            nr 254, angående anslag till släckning av skogseld.
-          </note>
-          <note xml:id="i-JaTKFRKucRoZioe4bMUnVg">
-            Justerades protokollen för den 24, 25 och 28 nästlidne april.
-          </note>
-          <note xml:id="i-Ne15G2pdoBV9m99XPGc9rp">
-            Efter föredragning av ett från andra kammaren ankommet protokollsutdrag,
-            nt 474, med delgivning av nämnda kammares beslut över dess tredje
-            tillfälliga utskotts utlåtande nr 11, i anledning av väckt motion
-            angående bättre ordnande av landsbygdens postförhållanden, beslöt
-            första kammaren hänvisa detta ärende till sitt andra tillfälliga
-            utskott.
-          </note>
-          <note xml:id="i-sYbi8R6EZGzKzfyq25swo">
-            Föredrogs och hänvisades till statsutskottet Kungl. Maj:ts proposition
-            nr 248, angående anslag för budgetåret 1936/1937 till Lotsverket:
-            Avlöningar till befattningshavare hos lotsstyrelsen, m. m.
-          </note>
-          <note xml:id="i-LVxpXMkjJVuruQ9NRnK4nS">
-            Föredrogos och hänvisades till behandling av lagutskott nedannämnda
-            motioner:
-          </note>
-          <note xml:id="i-3TBiCRybh8jVrmLwCG4YaP">
-            nr 422, av herr Olsson, Oscar, och herr Norman, i anledning av
-            Kungl. Maj:ts proposition med förslag till lag om domkapitel m.
-            m.; och
-          </note>
-          <note xml:id="i-8yiV6BEq5ka679v4RFrzvx">
-            nr 423, av herr Wangson, Otto, m. fl., i samma ämne.
-          </note>
-          <note xml:id="i-AA389dkC1CBgrTXGkpaw73">
-            Föredrogos, men bordlades ånyo på flera ledamöters begäran statsutskottets
-            utlåtanden nr 91 och 92, bankoutskottets utlåtanden nr 44-—51,
-            jordbruksutskottets utlåtanden nr 58—067 samt första kammarens
-            första tillfälliga utskotts utlåtande nr 11.
-          </note>
-          <note xml:id="i-KbVGnRnkhtSqiEUTpkQzRP">
-            Första kammarens protokoll 1936. Nr 29. 1
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1936--fk--29/prot_1936__fk__29-001.jp2/_view"/>
-          <note type="date" xml:id="i-Y2NYnjbexkfMhZvciqVJyS">
-            2 Nr 29. Lördagen den 2 maj.
-          </note>
-          <note xml:id="i-Hmqm7boEpceqjNs5u1zG1N">
-            Föredrogos och bordlades på begäran Kungl. Maj:ts denna dag avlämnade
-            propositioner nr 249—254.
-          </note>
-          <note xml:id="i-HjeFKSRHK1HGihWTq3sA2Q">
-            Avgåvos och bordlades nedannämnda motioner:
-          </note>
-          <note xml:id="i-XBMDgfQTn14XdfmjKogdfB">
-            nr 424, av herr Stendahl, i anledning av Kungl. Maj:ts proposition
-            nr 244 med förslag till vissa ändringar i gällande tulltaxa m.
-            m.; samt
-          </note>
-          <note xml:id="i-TtNW8seF7jqbzS3fS3Kj38">
-            nr 425, av herrar Sandström och Bergqvist, i anledning av Kungl.
-            Maj:ts proposition angående ändrade bestämmelser för biskoparnas
-            avlönande m. m.
-          </note>
-          <note xml:id="i-CaBRHGPLsrxEHEcZvzLTE2" type="speaker">
-            Interpellation Herr Lindhagen erhöll på begäran ordet och anförde:
-          </note>
-          <u who="Q55955" xml:id="i-DwPYYh8NNygzw1tNm8W7RF" next="i-bd39878ae12e2e9a-2">
-            <seg xml:id="i-8wRrz6F7vfyrUZrmJtcs52">
-              Före kriget rådde i om avskaf- Europa fri personlig samfärdsel
-              utan pass med frånseende av Ryssland, som
-            </seg>
-          </u>
-          <u who="Q55955" xml:id="i-bd39878ae12e2e9a-2" prev="i-DwPYYh8NNygzw1tNm8W7RF" next="i-bd39878ae12e2e9a-3">
-            <seg xml:id="i-UPv9YbjquxZiRMj5eC4HyN">
-              fande av P4s5" krävde pass då liksom nu för resor till och från
-              Ryssland.
-            </seg>
-          </u>
-          <note xml:id="i-9ST6acya1sZwABx7ZFgPuL">
-            tvånget beträf- Efter världskriget spärrades denna samfärdsel
-            genom passtvång och krav
-          </note>
-          <note xml:id="i-KWQC8WLqGV9QP7PCJoGjG5">
-            fande de bal-dessutom på passets visering av beskickningseller
-            konsulärmyndighet för
-          </note>
-          <u who="Q55955" xml:id="i-bd39878ae12e2e9a-3" prev="i-bd39878ae12e2e9a-2" next="i-7CeSDYAyKENmJqkmmkdWgM">
-            <seg xml:id="i-NAgMQo3SvMKhM5P2Udgoci">
-              tiska länderna resa till det land, vilket representerades av
-              en sådan myndighet.
-            </seg>
-            <seg xml:id="i-2FPjrYVnCYVF5im6zgbjVC">
-              mm. Sedermera har en lättnad skett, så tillvida att viseringen
-              börjat avskaffas. För närvarande är det samfärdsel utan passvisering
-              från och till Sverige, å ena, samt alla Europas stater å andra
-              sidan med undantag av Ryssland, som fortfarande vill vara avspärrat,
-              samt dessutom av de tre baltiska staterna Estland, Lettland och
-              Litauen, ävensom Polen, Ungern och Balkanstaterna.
-            </seg>
-            <seg xml:id="i-V7fP4ZoXudvm7YhortStir">
-              Estland, å ena, samt Danmark och Norge, å andra sidan, kräva
-              ej passvisering. Icke heller Lettland och Norge sinsemellan. Litauen
-              däremot har heller icke nått någon överenskommelse med de tre
-              skandinaviska länderna annat än i så måtto, att med Danmark avtalats,
-              att någon betalning ej skall erläggas för viseringen, vadan endast
-              besväret återstår.
-            </seg>
-            <seg xml:id="i-7y7ae1YjbpxaQeZLGggcWb">
-              För varje år växer ju förståelsen mellan skandinaverna och de
-              tre baltiska folken. Man vill ömsesidigt besöka varandra, taga
-              kännedom om grannarnas förhållanden och tillbringa semestrar hos
-              varandra.
-            </seg>
-            <seg xml:id="i-AR9qccP5YUUSPnbhdJTyvs">
-              Avgifter för passviseringar kunde väl då även här och i all synnerhet
-              här borttagas. Denna avgift är alltid betungande för en resande
-              och i detta fall särskilt för svenskarna, av vilka många gärna
-              vilja bese dessa tre, till utsträckningen små länder, på en gång,
-              men i så fall måste erlägga tre avgifter för viseringar.
-            </seg>
-            <seg xml:id="i-CeXQfJA7DinqNuomXotUaB">
-              De tre baltiska länderna önska, att även på denna punkt komma
-              1 lättare beröring med skandinaverna och särskilt Sverige. Det
-              är endast Sverige eller rättare sagt dess utrikesdepartement,
-              som till skillnad från vederbörande i Danmark och Norge hitintills
-              ställt sig helt främmande för en sådan humanism.
-            </seg>
-            <seg xml:id="i-9F1L9dWAnx9zr9RoZU6vac">
-              I detta sammanhang frågar man sig också, varför Polen, Ungern
-              och Balkanländerna äro 1 förhållande till Sverige och Sverige
-              i förhållande till dem på detta ovänliga sätt ställda i särklass.
-              Ju flera länder som måste passeras för att nå målet, ju större
-              bli omkostnaderna för viseringar.
-            </seg>
-            <seg xml:id="i-4KH9drxYQLxGr6ccQnY1xm">
-              En återgång till tiden före världskriget utan passtvång måste
-              för övrigt vara målet. Avskrivningen av betalningen för passviseringar
-              är dock ett stycke på vägen. Det hemställes om kammarens tillstånd
-              att få till utrikesministern framställa följande frågor:
-            </seg>
-            <seg xml:id="i-5JHmuxWTRNt2KZcbxGLZt2">
-              1) Kan det förväntas, att genom svenska regeringens medverkan
-              kraven på passvisum vid resor mellan Sverige, å ena, samt Estland,
-              Lettland och Litauen, å andra sidan, med det snaraste avskaffas;
-            </seg>
-          </u>
-          <u xml:id="i-7CeSDYAyKENmJqkmmkdWgM" prev="i-bd39878ae12e2e9a-3" who="Q55955">
-            <seg xml:id="i-5gwJqgiphctQ3zM3dq28JQ">
-              2) Kan det förväntas, att genom svenska regeringens medverkan
-              passvisering även avskaffas för resor mellan Sverige, å ena sidan,
-              samt Polen, Ungern och Balkanländerna, å andra sidan?
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1936--fk--29/prot_1936__fk__29-002.jp2/_view"/>
-          <note type="date" xml:id="i-M4KMtHepNzVEzdVF1vgeFb">
-            Lördagen den 2 maj. Nr 29. 8
-          </note>
-          <note xml:id="i-NxaaVk6aWhUdvFdsrzPfWk">
-            Interpellation om avskaffande av passviseringstvånget beträffande
-            de baltiska länderna m. m. (Forts.) På gjord proposition medgav
-            kammaren, att ifrågavarande spörsmål finge framställas.
-          </note>
-          <note xml:id="i-WapK6rUaRjEfQuuMhkQRw9">
-            Anmäldes och bordlades
-          </note>
-          <note xml:id="i-JQkXNUcgieS87P2qkaEik9">
-            konstitutionsutskottets memorial nr 34, angående granskning av
-            de i statsrådet förda protokoll;
-          </note>
-          <note xml:id="i-9ZfL1jmZbQnqetVMekH9Y1">
-            statsutskottets utlåtanden:
-          </note>
-          <note xml:id="i-EBo2m1vhC5FHTrKz1kvWSz">
-            nr 93, i anledning av Kungl. Maj:ts proposition angående befrielse
-            för tyghantverkaren G. E. Rahm från viss ersättningsskyldighet
-            jämte en i ämnet väckt motion;
-          </note>
-          <note xml:id="i-Mfh4XTums96zEEkdKWGyef">
-            nr 94, i anledning av väckt motion angående rätt till viss befordran
-            för fan- Junkaren 1 Norrbottens regemente C. P. Wallin;
-          </note>
-          <note xml:id="i-Nyq4BxxKPYCcg3L2aSTpip">
-            nr 95, i anledning av väckt motion angående ersättning för förluster
-            i fisket, vållade genom skjutning å Karlsborgs artilleriregementes
-            skjutfält;
-          </note>
-          <note xml:id="i-HK1axw9XWeFemaAzNd8L9s">
-            nr 96, i anledning av Kungl. Maj:ts proposition angående ändrade
-            grunder för statsbidrag till vissa grenar av den slutna sjukvården
-            m. m. jämte i ämnet väckta motioner;
-          </note>
-          <note xml:id="i-NW5VCXuVDVfsP1kLf4faCb">
-            nr 97, i anledning av Kungl. Maj:ts proposition med förslag till
-            avtal med Jukkasjärvi kommun m. fl. rörande beskattningen av staten
-            tillkommande royalty eller därmed jämförlig ersättning från Luossavaara-Kiirunavaara
-            aktiebolag, m. m.; samt
-          </note>
-          <note xml:id="i-RzQxPNaipuabsHd1EV5D16">
-            nr 98, i anledning av Kungl. Maj:ts proposition angående anslag
-            till låneunderstöd åt vissa fastighetsägare i Kiruna och Malmberget;
-          </note>
-          <note xml:id="i-R2Pbdafm7p1j33MU6iVfPF">
-            andra lagutskottets utlåtanden:
-          </note>
-          <note xml:id="i-WFBuJBLCRxYVHwSzHBj1Qj">
-            nr 41, i anledning av dels Kungl. Maj:ts proposition med förslag
-            till lag angående ändring i vissa delar av lagen den 14 juni 1929
-            (nr 131) om försäkring för vissa yrkessjukdomar m. m., dels ock
-            en i ämnet väckt motion; samt
-          </note>
-          <note xml:id="i-FUKx7U3oefhCVfr6iCKmeN">
-            nr 42, i anledning av dels Kungl. Maj:ts proposition med förslag
-            till lag angående ändring i vissa delar av lagen den 17 juni 1916
-            om försäkring för olycksfall i arbete, dels ock väckt motion angående
-            ändring av sistnämnda, lag; ävensom
-          </note>
-          <note xml:id="i-QA5oA9W1KCE2pkzJQoGydP">
-            första kammarens första tillfälliga utskotts utlåtanden:
-          </note>
-          <note xml:id="i-StNqhJYjy42voGkrMQHhvR">
-            nr 12, angående åtgärder till åstadkommande av utsträckt användning
-            av vattenoch sanitetsledningar på landsbygden; samt
-          </note>
-          <note xml:id="i-7rq3fgVhnBAKQsczC6sHcX">
-            nr 13, i anledning av väckt motion, IT: 31, om införande av lämplig
-            trafikundervisning i skolorna.
-          </note>
-          <note xml:id="i-Bj9eYWcUWgutpUhZYZ9E7s">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 4.12 e. m.
-          </note>
-          <note xml:id="i-Se5H5eNRufpvhjFiGZpzPN">
-            In fidem G. H. Berggren.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1936--fk--29/prot_1936__fk__29-003.jp2/_view"/>
-          <note type="date" xml:id="i-HtDHJYuUdWvcaKaT92PasM">
-            4 Nr 26. Tisdagen den 5 maj.
-          </note>
-          <note type="date" xml:id="i-6cwd6ww5anhr7Gqceu9sQy">
-            Tisdagen den 5 maj.
-          </note>
-          <note xml:id="i-TpKY1Xkv93SJGJbxKWKkdz">
-            Kammaren sammanträdde kl. 4 e. m.
-          </note>
-          <note type="speaker" xml:id="i-28qpjHF9YvUPPUTgA7bQhw">
-            Herr statsrådet Möller avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-TqKz2nLB1JLNqsdn9Jium4">
-            ts proposition nr 255, med förslag till lag angående förbud mot
-            förvärv från utlandet av vissa fartyg.
-          </note>
-          <note xml:id="i-SHZd94SqFsjmUsVPaRD5o">
-            Justerades protokollet för den 29 nästlidne april.
-          </note>
-          <note xml:id="i-97vFfKAX8wZu5FW2xzUTvA">
-            Anmäldes och godkändes statsutskottets förslag till riksdagens
-            skrivelser till Konungen:
-          </note>
-          <note xml:id="i-ZzTtBwiwP3fXegozAabbZ">
-            nr 10, i anledning av vissa i statsverkspropositionen gjorda
-            framställningar rörande utgifterna under riksstatens tionde huvudtitel,
-            innefattande anslagen till handelsdepartementet;
-          </note>
-          <note xml:id="i-Qnc8cHZ7jtKgBVWsuHzJmt">
-            nr 203, i anledning av Kungl. Maj:ts proposition angående anslag
-            till återbäring av viss del av erlagd stämpelavgift för John och
-            Antonie Rettigs museifonder till Gävle stad;
-          </note>
-          <note xml:id="i-TdvrZbpTvGMv5GK8wzPTcs">
-            nr 204, i anledning av Kungl. Maj:ts proposition angående rätt
-            för adjunkten vid navigationsskolan i Göteborg S. A. G. Svensen
-            Melbye att för erhållande av ålderstillägg tillgodoräkna viss
-            tjänstgöring; samt
-          </note>
-          <note xml:id="i-LekdnueUqSSt1rKqN6mPkg">
-            nr 205, i anledning av Kungl. Maj:ts proposition angående anslag
-            till beredande av billigare biljettkostnader för sjöfolk vid resor
-            till och från hemorten 1 vissa fall.
-          </note>
-          <note xml:id="i-5X3fi3WZvhXyANWPBcsMUA">
-            Anmäldes och godkändes första lagutskottets förslag till riksdagens
-            skrivelser till Konungen:
-          </note>
-          <note xml:id="i-YGL8oQXyx5qU4BU5pcMrJR">
-            nr 208, i anledning av väckt motion angående befrielse för mindre
-            bemedlade uppfinnare från erläggande av vissa patentavgifter;
-          </note>
-          <note xml:id="i-EfjTAHsvCboE4k4SgvxfWM">
-            nr 209, i anledning av väckta motioner om ändrade grunder för
-            statsbidrag till avlöning av vissa befattningshavare vid polisväsendet;
-          </note>
-          <note xml:id="i-PFACkaiki373iy2gfQQkMA">
-            nr 210, i anledning av Kungl. Maj:ts proposition med förslag
-            till lag om ändrad lydelse av 26 kap. 15 $, 27 kap. 11 och 15
-            $$ samt 30 kap. 45 $ rättegångsbalken m. m.; samt
-          </note>
-          <note xml:id="i-LD4igmaE4vQ5n4n5AQ63x2">
-            nr 211, i anledning av Kungl. Maj:ts proposition med förslag
-            till lag om ändring i vissa delar av sjölagen m. m.
-          </note>
-          <note xml:id="i-4n2315c2wWdihLEq3pysnS">
-            Vid föredragning av Kungl. Maj:ts proposition nr 249, med förslag
-            till lag med vissa bestämmelser om centralkassor för jordbrukskredit
-            m. m., hänvisades propositionen, såvitt angick anslag till Jordbrukets
-            kreditkassor: Revision av jordbrukskasserörelsen m, m., till jordbruksutskottet
-            samt i övrigt till bankoutskottet.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1936--fk--29/prot_1936__fk__29-004.jp2/_view"/>
-          <note type="date" xml:id="i-WjCwb87AqzGfuZQBYodoLf">
-            Tisdagen den 5 maj Nr 29. 5
-          </note>
-          <note xml:id="i-KWfWbMeBoS7LrSCK9uqRTA">
-            Föredrogs och hänvisades till behandling av lagutskott Kungl.
-            Maj:ts proposition nr 250, med förslag till lag angående ändrad
-            lydelse av 8 kap. 4 $ lagen om förmynderskap m. m.
-          </note>
-          <note xml:id="i-SjSDbjBa7F6UD9BVBgSCrw">
-            Föredrogs och hänvisades till bankoutskottet Kungl. Maj:ts proposition
-            nr 251, med förslag om ändring i vissa delar av militära tjänstepensionsreglementet
-            den 17 maj 1935 (nr 167).
-          </note>
-          <note xml:id="i-X4QMJw1f42aE246PjndcaW">
-            Föredrogos och hänvisades till behandling av lagutskott Kungl.
-            Maj:ts propositioner:
-          </note>
-          <note xml:id="i-QPfRxo113baWJ5bFuknERp">
-            nr 252, med förslag till lag angående ändring i vissa delar av
-            lagen den 8 mars 1889 (nr 2) om straff för ämbetsbrott av präst
-            och om laga domstol i sådana mål; samt
-          </note>
-          <note xml:id="i-UbHzTmMTApQ7AUd9eLT38k">
-            nr 253, med förslag till lag angående ändrad lydelse av 2 $ 2:0),
-            8:0) och 13:0) lagen den 26 maj 1909 (nr 38 s. 3) om Kungl. Maj:ts
-            regeringsrätt.
-          </note>
-          <note xml:id="i-5KHyxp4JziMjXLRYjedagP">
-            Föredrogs och hänvisades till jordbruksutskottet Kungl. Maj:ts
-            proposition nr 254, angående anslag till släckning av skogseld.
-          </note>
-          <note xml:id="i-DbLk6NCD853q4WezqZEv1i">
-            Föredrogs och hänvisades till bevillningsutskottet herr Stendahls
-            motion, nr 424, i anledning av Kungl. Maj:ts. proposition nr 244
-            med förslag till vissa ändringar 1 gällande tulltaxa m. m.
-          </note>
-          <note xml:id="i-FDjLW7rWK2iz9Ehj7gtAtJ">
-            Föredrogs och hänvisades till behandling av lagutskott den av
-            herrar Sandström och Bergqvist väckta motionen, nr 425, i anledning
-            av Kungl. Maj:ts proposition angående ändrade bestämmelser för
-            biskoparnas avlönande m. m.
-          </note>
-          <note xml:id="i-M1iaA2CsvkbKfNzHXjKPu1">
-            Föredrogos, men bordlades ånyo på flera ledamöters begäran konstitutionsutskottets
-            memorial nr 34, statsutskottets utlåtanden nr 93—98, andra lagutskottets
-            utlåtanden nr 41 och 42 samt första kammarens första tillfälliga
-            utskotts utlåtanden nr 12 och 13.
-          </note>
-          <note xml:id="i-TohGKcWyjSGFeB8pbAGZc3">
-            Vid föredragning av Kungl. Maj:ts denna dag avlämnade proposition
-            nr 255 blev densamma på begäran bordlagd.
-          </note>
-          <note xml:id="i-F4j2fLNL98sT13C39BjGi2">
-            Avgåvos och bordlades nedannämnda motioner:
-          </note>
-          <note xml:id="i-KWFyL4m5Pwa2Gzzn9U7Shd">
-            nr 426, av herr Ström, Fredrik, i anledning av Kungl. Maj:ts
-            proposition med förslag till ändrad lydelse av $$ 1, 3, 4 och
-            5 tryckfrihetsförordningen m. m.; samt
-          </note>
-          <note xml:id="i-NcM7o2AZLEwvS6TxFz14BD">
-            nr 427, av herr Lindhagen, i samma ämne.
-          </note>
-          <note xml:id="i-GaFuwFZQ41tEc1UHQ6C6XC">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 4.07 e. m.
-          </note>
-          <note xml:id="i-BoxTqsi8GPhh4Ap4unQ6Es">
-            In fidem G. H. Berggren.
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1936--fk--29</head>
+        <docDate when="1936-05-02">1936-05-02</docDate>
+        <docDate when="1936-05-05">1936-05-05</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1936--fk--29/prot_1936__fk__29-000.jp2/_view"/>
+        <note xml:id="i-3EB3rhroxJJ75u5yKP29dB">
+          RIKSDAGENS PROTOKOLL. 1936. Första kammaren. Nr 29.
+        </note>
+        <note type="date" xml:id="i-BpyhsYXsbebyQyvyX9hWZm">
+          Lördagen den 2 maj.
+        </note>
+        <note xml:id="i-JUppwXdGc1TSwnxWF7pCbF">
+          Kammaren sammanträdde kl. 4 e. m.
+        </note>
+        <note type="speaker" xml:id="i-6Wmo86k2CTPt1QHo3NMsnA">
+          Herr statsrådet Wigforss avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-8pE8kDNUaZs6VR8PfF8BmL">
+          ts propositioner:
+        </note>
+        <note xml:id="i-EHsEcrP7iaavxdjthaUDbb">
+          nr 249, med förslag till lag med vissa bestämmelser om centralkassor
+          för 1jordbrukskredit m. m.;
+        </note>
+        <note xml:id="i-AQ9YncxcytDvuwRqr5Xtqy">
+          nr 250, med förslag till lag angående ändrad lydelse av 8 kap.
+          4 8 lagen om förmynderskap m. m.;
+        </note>
+        <note xml:id="i-9e9jQxsT9hMo8V3zQNqVXW">
+          nr 251, med förslag om ändring i vissa delar av militära tjänstepensionsreglementet
+          den 17 maj 1935 (nr 167);
+        </note>
+        <note xml:id="i-VcuxLSRjYRcZJ8C9HRcsC">
+          nr 252, med förslag till lag angående ändring i vissa delar av
+          lagen den 8 mars 1889 (nr 2) om straff för ämbetsbrott av präst
+          och om laga domstol i sådana mål;
+        </note>
+        <note xml:id="i-FvNgn6nVJT1BEEGkq7VNu2">
+          nr 253, med förslag till lag angående ändrad lydelse av 2 $ 2:0),
+          8:0) och 13:0) lagen den 26 maj 1909 (nr 38 s. 3) om Kungl. Maj:ts
+          regeringsrätt; samt
+        </note>
+        <note xml:id="i-RXohxtWPChyhgxt2Pzw3Hc">
+          nr 254, angående anslag till släckning av skogseld.
+        </note>
+        <note xml:id="i-JaTKFRKucRoZioe4bMUnVg">
+          Justerades protokollen för den 24, 25 och 28 nästlidne april.
+        </note>
+        <note xml:id="i-Ne15G2pdoBV9m99XPGc9rp">
+          Efter föredragning av ett från andra kammaren ankommet protokollsutdrag,
+          nt 474, med delgivning av nämnda kammares beslut över dess tredje
+          tillfälliga utskotts utlåtande nr 11, i anledning av väckt motion
+          angående bättre ordnande av landsbygdens postförhållanden, beslöt
+          första kammaren hänvisa detta ärende till sitt andra tillfälliga
+          utskott.
+        </note>
+        <note xml:id="i-sYbi8R6EZGzKzfyq25swo">
+          Föredrogs och hänvisades till statsutskottet Kungl. Maj:ts proposition
+          nr 248, angående anslag för budgetåret 1936/1937 till Lotsverket:
+          Avlöningar till befattningshavare hos lotsstyrelsen, m. m.
+        </note>
+        <note xml:id="i-LVxpXMkjJVuruQ9NRnK4nS">
+          Föredrogos och hänvisades till behandling av lagutskott nedannämnda
+          motioner:
+        </note>
+        <note xml:id="i-3TBiCRybh8jVrmLwCG4YaP">
+          nr 422, av herr Olsson, Oscar, och herr Norman, i anledning av
+          Kungl. Maj:ts proposition med förslag till lag om domkapitel m.
+          m.; och
+        </note>
+        <note xml:id="i-8yiV6BEq5ka679v4RFrzvx">
+          nr 423, av herr Wangson, Otto, m. fl., i samma ämne.
+        </note>
+        <note xml:id="i-AA389dkC1CBgrTXGkpaw73">
+          Föredrogos, men bordlades ånyo på flera ledamöters begäran statsutskottets
+          utlåtanden nr 91 och 92, bankoutskottets utlåtanden nr 44-—51,
+          jordbruksutskottets utlåtanden nr 58—067 samt första kammarens
+          första tillfälliga utskotts utlåtande nr 11.
+        </note>
+        <note xml:id="i-KbVGnRnkhtSqiEUTpkQzRP">
+          Första kammarens protokoll 1936. Nr 29. 1
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1936--fk--29/prot_1936__fk__29-001.jp2/_view"/>
+        <note type="date" xml:id="i-Y2NYnjbexkfMhZvciqVJyS">
+          2 Nr 29. Lördagen den 2 maj.
+        </note>
+        <note xml:id="i-Hmqm7boEpceqjNs5u1zG1N">
+          Föredrogos och bordlades på begäran Kungl. Maj:ts denna dag avlämnade
+          propositioner nr 249—254.
+        </note>
+        <note xml:id="i-HjeFKSRHK1HGihWTq3sA2Q">
+          Avgåvos och bordlades nedannämnda motioner:
+        </note>
+        <note xml:id="i-XBMDgfQTn14XdfmjKogdfB">
+          nr 424, av herr Stendahl, i anledning av Kungl. Maj:ts proposition
+          nr 244 med förslag till vissa ändringar i gällande tulltaxa m.
+          m.; samt
+        </note>
+        <note xml:id="i-TtNW8seF7jqbzS3fS3Kj38">
+          nr 425, av herrar Sandström och Bergqvist, i anledning av Kungl.
+          Maj:ts proposition angående ändrade bestämmelser för biskoparnas
+          avlönande m. m.
+        </note>
+        <note xml:id="i-CaBRHGPLsrxEHEcZvzLTE2" type="speaker">
+          Interpellation Herr Lindhagen erhöll på begäran ordet och anförde:
+        </note>
+        <u who="i-XzSzFtnrtwQBSXHVwVhrCf" xml:id="i-DwPYYh8NNygzw1tNm8W7RF" next="i-bd39878ae12e2e9a-2">
+          <seg xml:id="i-8wRrz6F7vfyrUZrmJtcs52">
+            Före kriget rådde i om avskaf- Europa fri personlig samfärdsel
+            utan pass med frånseende av Ryssland, som
+          </seg>
+        </u>
+        <u who="i-XzSzFtnrtwQBSXHVwVhrCf" xml:id="i-bd39878ae12e2e9a-2" prev="i-DwPYYh8NNygzw1tNm8W7RF" next="i-bd39878ae12e2e9a-3">
+          <seg xml:id="i-UPv9YbjquxZiRMj5eC4HyN">
+            fande av P4s5" krävde pass då liksom nu för resor till och från
+            Ryssland.
+          </seg>
+        </u>
+        <note xml:id="i-9ST6acya1sZwABx7ZFgPuL">
+          tvånget beträf- Efter världskriget spärrades denna samfärdsel
+          genom passtvång och krav
+        </note>
+        <note xml:id="i-KWQC8WLqGV9QP7PCJoGjG5">
+          fande de bal-dessutom på passets visering av beskickningseller
+          konsulärmyndighet för
+        </note>
+        <u who="i-XzSzFtnrtwQBSXHVwVhrCf" xml:id="i-bd39878ae12e2e9a-3" prev="i-bd39878ae12e2e9a-2" next="i-7CeSDYAyKENmJqkmmkdWgM">
+          <seg xml:id="i-NAgMQo3SvMKhM5P2Udgoci">
+            tiska länderna resa till det land, vilket representerades av
+            en sådan myndighet.
+          </seg>
+          <seg xml:id="i-2FPjrYVnCYVF5im6zgbjVC">
+            mm. Sedermera har en lättnad skett, så tillvida att viseringen
+            börjat avskaffas. För närvarande är det samfärdsel utan passvisering
+            från och till Sverige, å ena, samt alla Europas stater å andra
+            sidan med undantag av Ryssland, som fortfarande vill vara avspärrat,
+            samt dessutom av de tre baltiska staterna Estland, Lettland och
+            Litauen, ävensom Polen, Ungern och Balkanstaterna.
+          </seg>
+          <seg xml:id="i-V7fP4ZoXudvm7YhortStir">
+            Estland, å ena, samt Danmark och Norge, å andra sidan, kräva
+            ej passvisering. Icke heller Lettland och Norge sinsemellan. Litauen
+            däremot har heller icke nått någon överenskommelse med de tre
+            skandinaviska länderna annat än i så måtto, att med Danmark avtalats,
+            att någon betalning ej skall erläggas för viseringen, vadan endast
+            besväret återstår.
+          </seg>
+          <seg xml:id="i-7y7ae1YjbpxaQeZLGggcWb">
+            För varje år växer ju förståelsen mellan skandinaverna och de
+            tre baltiska folken. Man vill ömsesidigt besöka varandra, taga
+            kännedom om grannarnas förhållanden och tillbringa semestrar hos
+            varandra.
+          </seg>
+          <seg xml:id="i-AR9qccP5YUUSPnbhdJTyvs">
+            Avgifter för passviseringar kunde väl då även här och i all synnerhet
+            här borttagas. Denna avgift är alltid betungande för en resande
+            och i detta fall särskilt för svenskarna, av vilka många gärna
+            vilja bese dessa tre, till utsträckningen små länder, på en gång,
+            men i så fall måste erlägga tre avgifter för viseringar.
+          </seg>
+          <seg xml:id="i-CeXQfJA7DinqNuomXotUaB">
+            De tre baltiska länderna önska, att även på denna punkt komma
+            1 lättare beröring med skandinaverna och särskilt Sverige. Det
+            är endast Sverige eller rättare sagt dess utrikesdepartement,
+            som till skillnad från vederbörande i Danmark och Norge hitintills
+            ställt sig helt främmande för en sådan humanism.
+          </seg>
+          <seg xml:id="i-9F1L9dWAnx9zr9RoZU6vac">
+            I detta sammanhang frågar man sig också, varför Polen, Ungern
+            och Balkanländerna äro 1 förhållande till Sverige och Sverige
+            i förhållande till dem på detta ovänliga sätt ställda i särklass.
+            Ju flera länder som måste passeras för att nå målet, ju större
+            bli omkostnaderna för viseringar.
+          </seg>
+          <seg xml:id="i-4KH9drxYQLxGr6ccQnY1xm">
+            En återgång till tiden före världskriget utan passtvång måste
+            för övrigt vara målet. Avskrivningen av betalningen för passviseringar
+            är dock ett stycke på vägen. Det hemställes om kammarens tillstånd
+            att få till utrikesministern framställa följande frågor:
+          </seg>
+          <seg xml:id="i-5JHmuxWTRNt2KZcbxGLZt2">
+            1) Kan det förväntas, att genom svenska regeringens medverkan
+            kraven på passvisum vid resor mellan Sverige, å ena, samt Estland,
+            Lettland och Litauen, å andra sidan, med det snaraste avskaffas;
+          </seg>
+        </u>
+        <u xml:id="i-7CeSDYAyKENmJqkmmkdWgM" prev="i-bd39878ae12e2e9a-3" who="i-XzSzFtnrtwQBSXHVwVhrCf">
+          <seg xml:id="i-5gwJqgiphctQ3zM3dq28JQ">
+            2) Kan det förväntas, att genom svenska regeringens medverkan
+            passvisering även avskaffas för resor mellan Sverige, å ena sidan,
+            samt Polen, Ungern och Balkanländerna, å andra sidan?
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1936--fk--29/prot_1936__fk__29-002.jp2/_view"/>
+        <note type="date" xml:id="i-M4KMtHepNzVEzdVF1vgeFb">
+          Lördagen den 2 maj. Nr 29. 8
+        </note>
+        <note xml:id="i-NxaaVk6aWhUdvFdsrzPfWk">
+          Interpellation om avskaffande av passviseringstvånget beträffande
+          de baltiska länderna m. m. (Forts.) På gjord proposition medgav
+          kammaren, att ifrågavarande spörsmål finge framställas.
+        </note>
+        <note xml:id="i-WapK6rUaRjEfQuuMhkQRw9">
+          Anmäldes och bordlades
+        </note>
+        <note xml:id="i-JQkXNUcgieS87P2qkaEik9">
+          konstitutionsutskottets memorial nr 34, angående granskning av
+          de i statsrådet förda protokoll;
+        </note>
+        <note xml:id="i-9ZfL1jmZbQnqetVMekH9Y1">
+          statsutskottets utlåtanden:
+        </note>
+        <note xml:id="i-EBo2m1vhC5FHTrKz1kvWSz">
+          nr 93, i anledning av Kungl. Maj:ts proposition angående befrielse
+          för tyghantverkaren G. E. Rahm från viss ersättningsskyldighet
+          jämte en i ämnet väckt motion;
+        </note>
+        <note xml:id="i-Mfh4XTums96zEEkdKWGyef">
+          nr 94, i anledning av väckt motion angående rätt till viss befordran
+          för fan- Junkaren 1 Norrbottens regemente C. P. Wallin;
+        </note>
+        <note xml:id="i-Nyq4BxxKPYCcg3L2aSTpip">
+          nr 95, i anledning av väckt motion angående ersättning för förluster
+          i fisket, vållade genom skjutning å Karlsborgs artilleriregementes
+          skjutfält;
+        </note>
+        <note xml:id="i-HK1axw9XWeFemaAzNd8L9s">
+          nr 96, i anledning av Kungl. Maj:ts proposition angående ändrade
+          grunder för statsbidrag till vissa grenar av den slutna sjukvården
+          m. m. jämte i ämnet väckta motioner;
+        </note>
+        <note xml:id="i-NW5VCXuVDVfsP1kLf4faCb">
+          nr 97, i anledning av Kungl. Maj:ts proposition med förslag till
+          avtal med Jukkasjärvi kommun m. fl. rörande beskattningen av staten
+          tillkommande royalty eller därmed jämförlig ersättning från Luossavaara-Kiirunavaara
+          aktiebolag, m. m.; samt
+        </note>
+        <note xml:id="i-RzQxPNaipuabsHd1EV5D16">
+          nr 98, i anledning av Kungl. Maj:ts proposition angående anslag
+          till låneunderstöd åt vissa fastighetsägare i Kiruna och Malmberget;
+        </note>
+        <note xml:id="i-R2Pbdafm7p1j33MU6iVfPF">
+          andra lagutskottets utlåtanden:
+        </note>
+        <note xml:id="i-WFBuJBLCRxYVHwSzHBj1Qj">
+          nr 41, i anledning av dels Kungl. Maj:ts proposition med förslag
+          till lag angående ändring i vissa delar av lagen den 14 juni 1929
+          (nr 131) om försäkring för vissa yrkessjukdomar m. m., dels ock
+          en i ämnet väckt motion; samt
+        </note>
+        <note xml:id="i-FUKx7U3oefhCVfr6iCKmeN">
+          nr 42, i anledning av dels Kungl. Maj:ts proposition med förslag
+          till lag angående ändring i vissa delar av lagen den 17 juni 1916
+          om försäkring för olycksfall i arbete, dels ock väckt motion angående
+          ändring av sistnämnda, lag; ävensom
+        </note>
+        <note xml:id="i-QA5oA9W1KCE2pkzJQoGydP">
+          första kammarens första tillfälliga utskotts utlåtanden:
+        </note>
+        <note xml:id="i-StNqhJYjy42voGkrMQHhvR">
+          nr 12, angående åtgärder till åstadkommande av utsträckt användning
+          av vattenoch sanitetsledningar på landsbygden; samt
+        </note>
+        <note xml:id="i-7rq3fgVhnBAKQsczC6sHcX">
+          nr 13, i anledning av väckt motion, IT: 31, om införande av lämplig
+          trafikundervisning i skolorna.
+        </note>
+        <note xml:id="i-Bj9eYWcUWgutpUhZYZ9E7s">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 4.12 e. m.
+        </note>
+        <note xml:id="i-Se5H5eNRufpvhjFiGZpzPN">
+          In fidem G. H. Berggren.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1936--fk--29/prot_1936__fk__29-003.jp2/_view"/>
+        <note type="date" xml:id="i-HtDHJYuUdWvcaKaT92PasM">
+          4 Nr 26. Tisdagen den 5 maj.
+        </note>
+        <note type="date" xml:id="i-6cwd6ww5anhr7Gqceu9sQy">
+          Tisdagen den 5 maj.
+        </note>
+        <note xml:id="i-TpKY1Xkv93SJGJbxKWKkdz">
+          Kammaren sammanträdde kl. 4 e. m.
+        </note>
+        <note type="speaker" xml:id="i-28qpjHF9YvUPPUTgA7bQhw">
+          Herr statsrådet Möller avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-TqKz2nLB1JLNqsdn9Jium4">
+          ts proposition nr 255, med förslag till lag angående förbud mot
+          förvärv från utlandet av vissa fartyg.
+        </note>
+        <note xml:id="i-SHZd94SqFsjmUsVPaRD5o">
+          Justerades protokollet för den 29 nästlidne april.
+        </note>
+        <note xml:id="i-97vFfKAX8wZu5FW2xzUTvA">
+          Anmäldes och godkändes statsutskottets förslag till riksdagens
+          skrivelser till Konungen:
+        </note>
+        <note xml:id="i-ZzTtBwiwP3fXegozAabbZ">
+          nr 10, i anledning av vissa i statsverkspropositionen gjorda
+          framställningar rörande utgifterna under riksstatens tionde huvudtitel,
+          innefattande anslagen till handelsdepartementet;
+        </note>
+        <note xml:id="i-Qnc8cHZ7jtKgBVWsuHzJmt">
+          nr 203, i anledning av Kungl. Maj:ts proposition angående anslag
+          till återbäring av viss del av erlagd stämpelavgift för John och
+          Antonie Rettigs museifonder till Gävle stad;
+        </note>
+        <note xml:id="i-TdvrZbpTvGMv5GK8wzPTcs">
+          nr 204, i anledning av Kungl. Maj:ts proposition angående rätt
+          för adjunkten vid navigationsskolan i Göteborg S. A. G. Svensen
+          Melbye att för erhållande av ålderstillägg tillgodoräkna viss
+          tjänstgöring; samt
+        </note>
+        <note xml:id="i-LekdnueUqSSt1rKqN6mPkg">
+          nr 205, i anledning av Kungl. Maj:ts proposition angående anslag
+          till beredande av billigare biljettkostnader för sjöfolk vid resor
+          till och från hemorten 1 vissa fall.
+        </note>
+        <note xml:id="i-5X3fi3WZvhXyANWPBcsMUA">
+          Anmäldes och godkändes första lagutskottets förslag till riksdagens
+          skrivelser till Konungen:
+        </note>
+        <note xml:id="i-YGL8oQXyx5qU4BU5pcMrJR">
+          nr 208, i anledning av väckt motion angående befrielse för mindre
+          bemedlade uppfinnare från erläggande av vissa patentavgifter;
+        </note>
+        <note xml:id="i-EfjTAHsvCboE4k4SgvxfWM">
+          nr 209, i anledning av väckta motioner om ändrade grunder för
+          statsbidrag till avlöning av vissa befattningshavare vid polisväsendet;
+        </note>
+        <note xml:id="i-PFACkaiki373iy2gfQQkMA">
+          nr 210, i anledning av Kungl. Maj:ts proposition med förslag
+          till lag om ändrad lydelse av 26 kap. 15 $, 27 kap. 11 och 15
+          $$ samt 30 kap. 45 $ rättegångsbalken m. m.; samt
+        </note>
+        <note xml:id="i-LD4igmaE4vQ5n4n5AQ63x2">
+          nr 211, i anledning av Kungl. Maj:ts proposition med förslag
+          till lag om ändring i vissa delar av sjölagen m. m.
+        </note>
+        <note xml:id="i-4n2315c2wWdihLEq3pysnS">
+          Vid föredragning av Kungl. Maj:ts proposition nr 249, med förslag
+          till lag med vissa bestämmelser om centralkassor för jordbrukskredit
+          m. m., hänvisades propositionen, såvitt angick anslag till Jordbrukets
+          kreditkassor: Revision av jordbrukskasserörelsen m, m., till jordbruksutskottet
+          samt i övrigt till bankoutskottet.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1936--fk--29/prot_1936__fk__29-004.jp2/_view"/>
+        <note type="date" xml:id="i-WjCwb87AqzGfuZQBYodoLf">
+          Tisdagen den 5 maj Nr 29. 5
+        </note>
+        <note xml:id="i-KWfWbMeBoS7LrSCK9uqRTA">
+          Föredrogs och hänvisades till behandling av lagutskott Kungl.
+          Maj:ts proposition nr 250, med förslag till lag angående ändrad
+          lydelse av 8 kap. 4 $ lagen om förmynderskap m. m.
+        </note>
+        <note xml:id="i-SjSDbjBa7F6UD9BVBgSCrw">
+          Föredrogs och hänvisades till bankoutskottet Kungl. Maj:ts proposition
+          nr 251, med förslag om ändring i vissa delar av militära tjänstepensionsreglementet
+          den 17 maj 1935 (nr 167).
+        </note>
+        <note xml:id="i-X4QMJw1f42aE246PjndcaW">
+          Föredrogos och hänvisades till behandling av lagutskott Kungl.
+          Maj:ts propositioner:
+        </note>
+        <note xml:id="i-QPfRxo113baWJ5bFuknERp">
+          nr 252, med förslag till lag angående ändring i vissa delar av
+          lagen den 8 mars 1889 (nr 2) om straff för ämbetsbrott av präst
+          och om laga domstol i sådana mål; samt
+        </note>
+        <note xml:id="i-UbHzTmMTApQ7AUd9eLT38k">
+          nr 253, med förslag till lag angående ändrad lydelse av 2 $ 2:0),
+          8:0) och 13:0) lagen den 26 maj 1909 (nr 38 s. 3) om Kungl. Maj:ts
+          regeringsrätt.
+        </note>
+        <note xml:id="i-5KHyxp4JziMjXLRYjedagP">
+          Föredrogs och hänvisades till jordbruksutskottet Kungl. Maj:ts
+          proposition nr 254, angående anslag till släckning av skogseld.
+        </note>
+        <note xml:id="i-DbLk6NCD853q4WezqZEv1i">
+          Föredrogs och hänvisades till bevillningsutskottet herr Stendahls
+          motion, nr 424, i anledning av Kungl. Maj:ts. proposition nr 244
+          med förslag till vissa ändringar 1 gällande tulltaxa m. m.
+        </note>
+        <note xml:id="i-FDjLW7rWK2iz9Ehj7gtAtJ">
+          Föredrogs och hänvisades till behandling av lagutskott den av
+          herrar Sandström och Bergqvist väckta motionen, nr 425, i anledning
+          av Kungl. Maj:ts proposition angående ändrade bestämmelser för
+          biskoparnas avlönande m. m.
+        </note>
+        <note xml:id="i-M1iaA2CsvkbKfNzHXjKPu1">
+          Föredrogos, men bordlades ånyo på flera ledamöters begäran konstitutionsutskottets
+          memorial nr 34, statsutskottets utlåtanden nr 93—98, andra lagutskottets
+          utlåtanden nr 41 och 42 samt första kammarens första tillfälliga
+          utskotts utlåtanden nr 12 och 13.
+        </note>
+        <note xml:id="i-TohGKcWyjSGFeB8pbAGZc3">
+          Vid föredragning av Kungl. Maj:ts denna dag avlämnade proposition
+          nr 255 blev densamma på begäran bordlagd.
+        </note>
+        <note xml:id="i-F4j2fLNL98sT13C39BjGi2">
+          Avgåvos och bordlades nedannämnda motioner:
+        </note>
+        <note xml:id="i-KWFyL4m5Pwa2Gzzn9U7Shd">
+          nr 426, av herr Ström, Fredrik, i anledning av Kungl. Maj:ts
+          proposition med förslag till ändrad lydelse av $$ 1, 3, 4 och
+          5 tryckfrihetsförordningen m. m.; samt
+        </note>
+        <note xml:id="i-NcM7o2AZLEwvS6TxFz14BD">
+          nr 427, av herr Lindhagen, i samma ämne.
+        </note>
+        <note xml:id="i-GaFuwFZQ41tEc1UHQ6C6XC">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 4.07 e. m.
+        </note>
+        <note xml:id="i-BoxTqsi8GPhh4Ap4unQ6Es">
+          In fidem G. H. Berggren.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

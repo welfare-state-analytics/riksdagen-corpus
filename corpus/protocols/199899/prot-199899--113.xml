@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 199899</title>
+        <title>Protokoll</title>
       </titleStmt>
       <editionStmt>
         <edition>0.4.2</edition>
@@ -13,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 199899</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -25,68 +25,41 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <editionStmt>
-          <edition>0.4.2</edition>
-        </editionStmt>
-        <publicationStmt>
-          <authority>National Library of Sweden and the WESTAC project</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some data curation was done. It is documented in input/curation/instances</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-199899--113</head>
-          <docDate when="1999-08-25">1999-08-25</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection" xml:id="i-SEWs99HRFpnDqu4JUyE9Wx">
-          <pb facs="http://data.riksdagen.se/fil/19048065-3A27-4ACC-A18D-31CCEFAA081C#page=1"/>
-          <note xml:id="i-7x6fPXH9s2NGfVFxBYhLMx">
-            Det justerade protokollet beräknas utkomma om 3 veckor
-          </note>
-          <note xml:id="i-KvZKhzcXmtGZhmJJrB1cdN">
-            -----------------------------------------------------------------------
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-LiGPPjkBXERZEQhsw6nQvB">
-          <note xml:id="i-X7TDyekE8P4SVp9eiFF7RP">
-            1 § Justering av protokoll
-          </note>
-          <note xml:id="i-Ckps8vK2JszLYdgorr2T7j">
-            Talmannen hade beslutat att protokollet för den
-          </note>
-          <note xml:id="i-2aGvto4Y4RfSZ9ETHxkFzF">
-            17 augusti skulle justeras denna dag.
-          </note>
-          <note xml:id="i-P137upqKHx46BeYPgWGQFV">
-            Detta protokoll samt protokollet för dagens sammanträde förklarades
-            godkända.
-          </note>
-          <note xml:id="i-KXPed2P9Qk58YvNCF2we1z">
-            Förhandlingarna leddes av förste vice talmannen.
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-199899--113</head>
+        <docDate when="1999-08-25">1999-08-25</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-SEWs99HRFpnDqu4JUyE9Wx">
+        <pb facs="http://data.riksdagen.se/fil/19048065-3A27-4ACC-A18D-31CCEFAA081C#page=1"/>
+        <note xml:id="i-7x6fPXH9s2NGfVFxBYhLMx">
+          Det justerade protokollet beräknas utkomma om 3 veckor
+        </note>
+        <note xml:id="i-KvZKhzcXmtGZhmJJrB1cdN">
+          -----------------------------------------------------------------------
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-LiGPPjkBXERZEQhsw6nQvB">
+        <note xml:id="i-X7TDyekE8P4SVp9eiFF7RP">
+          1 § Justering av protokoll
+        </note>
+        <note xml:id="i-Ckps8vK2JszLYdgorr2T7j">
+          Talmannen hade beslutat att protokollet för den
+        </note>
+        <note xml:id="i-2aGvto4Y4RfSZ9ETHxkFzF">
+          17 augusti skulle justeras denna dag.
+        </note>
+        <note xml:id="i-P137upqKHx46BeYPgWGQFV">
+          Detta protokoll samt protokollet för dagens sammanträde förklarades
+          godkända.
+        </note>
+        <note xml:id="i-KXPed2P9Qk58YvNCF2we1z">
+          Förhandlingarna leddes av förste vice talmannen.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

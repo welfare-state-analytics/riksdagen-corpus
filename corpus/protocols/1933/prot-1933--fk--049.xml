@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1933</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1933</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,948 +25,921 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1933--fk--49</head>
-          <docDate when="1933-06-27">1933-06-27</docDate>
-          <docDate when="1933-06-28">1933-06-28</docDate>
-          <docDate when="1933-06-29">1933-06-29</docDate>
-          <docDate when="1933-06-30">1933-06-30</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1933--fk--49/prot_1933__fk__49-000.jp2/_view"/>
-          <note xml:id="i-BbrsSePnmkbUEavuwmFepH">
-            RIKSDAGENS PROTOKOLL. 1933. Första kammaren. Nr 49.
-          </note>
-          <note type="date" xml:id="i-Hng4Wfv7EquczycuRpvbj6">
-            Tisdagen den 27 juni.
-          </note>
-          <note xml:id="i-NTW7c6fZXr8XpxPVTJiZ6x">
-            Kammaren sammanträdde kl. 11 f. m.
-          </note>
-          <note xml:id="i-6Sp52k7CwnFuWyyv6o1Vh4">
-            Justerades protokollen för den 17, 18, 19 och 20 innevarande
-            månad.
-          </note>
-          <note xml:id="i-gGuhGSjy7LQrzy9WVoiC1">
-            Anmäldes och godkändes särskilda utskottets förslag till riksdagens
-            skrivelser till Konungen:
-          </note>
-          <note xml:id="i-U91n6DfEk1vKSvy7QotVwA">
-            nr 373, i anledning av dels Kungl. Maj:ts proposition med förslag
-            till lag om offentlig arbetsförmedling m. m., dels ock i ämnet
-            väckta motioner;
-          </note>
-          <note xml:id="i-LZvnhx1ciEFutoJRPxs4uB">
-            nr 374, angående redovisning i riksstaten för budgetåret 1933/1934
-            av vissa anslag för offentliga arbeten m. m.;
-          </note>
-          <note xml:id="i-W61Co8pgGFQoJPNaP6voM1">
-            nr 375, i anledning av Kungl. Maj:ts proposition med förslag
-            till förordning om kvarlåtenskapsskatt m. m. ävensom i ämnet väckta
-            motioner; samt
-          </note>
-          <note xml:id="i-WDw7vNF18VRjF1yBUaPFJY">
-            nr 376, i anledning av Kungl. Maj:ts i statsverkspropositionen
-            gjorda framställning om anslag till avskrivning av visst i fonden
-            för förlag till statsverket ingående lånekapital.
-          </note>
-          <note xml:id="i-N5bD15NBVeUKywHeXdz5Wi">
-            Anmäldes och godkändes första lagutskottets förslag till riksdagens
-            skrivelser till Konungen:
-          </note>
-          <note xml:id="i-Mz5Vfm847iRnMsc2FtARCK">
-            nr 377, i anledning av Kungl. Maj:ts proposition med förslag
-            till vapenkungörelse m. m.; och
-          </note>
-          <note xml:id="i-F8jFmQeCXmfaLFR4KTFVXt">
-            nr 378, i anledning av Kungl. Maj:ts proposition till riksdagen
-            med förslag till grunder för dyrtidstillägg under ecklesiastikåret
-            1933/1934 åt dels kyrkoherdar och komministrar i nyreglerade pastorat
-            samt kontraktsprostar och vissa extra ordinarie präster, dels
-            ock innehavare av prästerliga emeritilöner.
-          </note>
-          <note xml:id="i-Ef8hs539r76CzkQLizH5D1">
-            Föredrogos bevillningsutskottets betänkanden:
-          </note>
-          <note xml:id="i-GawoDGNQBWa7Drqzg4UoTP">
-            nr 77, i anledning av Kungl. Maj:ts proposition med förslag till
-            förordning om frihet från stämpel å bevis över tillstånd att fortfarande
-            innehava deklarerat skjutvapen; och
-          </note>
-          <note xml:id="i-UBpUqyBzgXj3Eu5LAPYGtF">
-            nr 78, angående beräkning av bevillningarna för budgetåret 1933/1934,
-            m. m.
-          </note>
-          <note xml:id="i-BaBxnxFesyfMTFLqfCA9XZ">
-            Vad utskottet i dessa betänkanden hemställt bifölls.
-          </note>
-          <note xml:id="i-2ft88h5NgrCyADZA8gmhFv">
-            Föredrogos och lades till handlingarna särskilda utskottets memorial:
-          </note>
-          <note xml:id="i-Pmp3y39xcFcAKjNgdspVoJ">
-            nr 26, i anledning av kamrarnas skiljaktiga beslut rörande utskottets
-            utlåtande nr 18 i anledning av dels Kungl. Maj:ts proposition
-            nr 209 med förslag till förordning om erkända arbetslöshetskassor
-            m. m., dels ock i ämnet väckta motioner;
-          </note>
-          <note xml:id="i-HtsVm8HrPSCfaJzjmKPtrS">
-            nr 27, i anledning av kamrarnas skiljaktiga beslut rörande utskottets
-            utlåtande nr 19 i anledning av Kungl. Maj:ts proposition nr 210
-            med förslag till lag angående ändrad lydelse av 1 $ lagen den
-            8 april 1927 (nr 77) om försäkringsavtal; samt
-          </note>
-          <note xml:id="i-YZH1rPjjjsxxaGoNkcABge">
-            Första kammarens protokoll 1933. Nr 49. 1
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1933--fk--49/prot_1933__fk__49-001.jp2/_view"/>
-          <note type="date" xml:id="i-2oTqowu8m1CZ3ngRjrnWW3">
-            2 Nr 49. Tisdagen den 27 juni.
-          </note>
-          <note xml:id="i-GNWvSaxmnRq9tNXP95tjZL">
-            nr 28, i anledning av kamrarnas skiljaktiga beslut rörande utskottets
-            utlåtande nr 20 i anledning av dels Kungl. Maj:ts proposition
-            nr 215 angående anslag till vissa kostnader för arbetslöshetsförsäkringens
-            organisation m. m., dels ock i ämnet väckta motioner.
-          </note>
-          <note xml:id="i-Hkxd82zNWJpCDWJPmZaoSN">
-            Anmäldes bevillningsutskottets förslag till riksdagens skrivelser
-            till Konungen:
-          </note>
-          <note xml:id="i-6kaEWz2uaEfFsPZTmNNfGJ">
-            nr 369, angående beräkning av bevillningarna för budgetåret 1933/1934,
-            m. m.; och
-          </note>
-          <note xml:id="i-R5zWrcMjgksvrAAKMciq2E">
-            nr 379, i anledning av Kungl. Maj:ts proposition med förslag
-            till förordning om frihet från stämpel å bevis över tillstånd
-            att fortfarande innehava deklarerat skjutvapen.
-          </note>
-          <note xml:id="i-Qi5e5xHUcRt7jhg5XJD74z">
-            Skrivelseförslagen godkändes under förutsättning, beträffande
-            förslaget nr 369, att utskottets hemställanden i betänkande nr
-            78 och vidkommande förslaget nr 379, att utskottets hemställan
-            i betänkande nr 77 bifölles även av andra kammaren.
-          </note>
-          <note xml:id="i-TCdy7HGQGxHttYie5skT1p">
-            Anmäldes särskilda utskottets förslag till riksdagens skrivelser
-            till Konungen:
-          </note>
-          <note xml:id="i-ABXxiHHajeAPiZXD1Fi8Hz">
-            nr 370, i anledning av dels Kungl. Maj:ts proposition med förslag
-            till förordning om erkända arbetslöshetskassor m. m., dels ock
-            i ämnet väckta motioner;
-          </note>
-          <note xml:id="i-MhBXphH78Tn8wfC8Lyob6k">
-            nr 371, i anledning av Kungl. Maj:ts proposition med förslag
-            till lag angående ändrad lydelse av 1 $ lagen den 8 april 1927
-            (nr 77) om försäkringsavtal; samt
-          </note>
-          <note xml:id="i-7kqSdnzjyApWuwMiHXGJGc">
-            nr 372, i anledning av dels Kungl. Maj:ts proposition angående
-            anslag till vissa kostnader för arbetslöshetsförsäkringens organisation
-            m. m., dels ock i ämnet väckta motioner.
-          </note>
-          <note xml:id="i-EjcTdP7ttJ4ARrnQ7ytm2W">
-            Skrivelseförslagen godkändes, ett vart under förutsättning att
-            andra kammaren i avseende å särskilda utskottets memorial respektive
-            nr 26, nr 27 och nr 28 fattade samma beslut som första kammaren.
-          </note>
-          <note xml:id="i-4L9SK2GcShP19CEymVtZiQ">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 11.10 f. m.
-          </note>
-          <note xml:id="i-KdNopE5EeY99YoBiq9pBjN">
-            In fidem G. H. Berggren.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1933--fk--49/prot_1933__fk__49-002.jp2/_view"/>
-          <note type="date" xml:id="i-2JKW1frNJVqfHxecaqq2q3">
-            Onsdagen den 28 juni. Nr 49. 3
-          </note>
-          <note type="date" xml:id="i-UjsyhoXJ2g9KLc9LgzKu8w">
-            Onsdagen den 28 juni.
-          </note>
-          <note xml:id="i-7YRHkGxfD9qw1xHPvZPaER">
-            Kammaren sammanträdde kl. 7 e. m.; och dess förhandlingar leddes
-            av herr förste vice talmannen.
-          </note>
-          <note xml:id="i-Y96QMvta8jjYVU8qqtWk9q">
-            Justerades protokollet för den 21 innevarande månad.
-          </note>
-          <note xml:id="i-77NVpXU6S2xzdKYFz6hVBA">
-            Anmäldes och godkändes riksdagens kanslis förslag
-          </note>
-          <note xml:id="i-73Y9VU6G3qLhSQcyZ8pTHf">
-            dels till riksdagens skrivelser till Konungen:
-          </note>
-          <note xml:id="i-UrHVmANSeh6AnksNsCPisv">
-            nr 380, angående val av tre fullmäktige i riksbanken och av tre
-            suppleanter för riksdagens samtliga fullmäktige i nämnda bank;
-          </note>
-          <note xml:id="i-SWmvFhqwxXrfUJ2FTV8wX8">
-            nr 384, angående val av tre fullmäktige i riksgäldskontoret och
-            tre suppleanter för fullmäktige i nämnda verk; samt
-          </note>
-          <note xml:id="i-AivnegGLhAq6z2fmE3xdWQ">
-            nr 387, angående val av riksdagens två ledamöter i styrelsen
-            över riksdagsbiblioteket jämte två suppleanter för dem;
-          </note>
-          <note xml:id="i-To2AEM6FMRagbRgmqFN7uE">
-            dels ock till riksdagens förordnanden:
-          </note>
-          <note xml:id="i-L871jABJEvfFWyYrWDkXZW">
-            nr 381, för två fullmäktige i riksbanken för valperioden 1933—1936;
-          </note>
-          <note xml:id="i-LcsK1uJVW45ULJ2LNqA7QB">
-            nr 382, för en fullmäktig i riksbanken för återstående delen
-            av valperioden 1932—1935;
-          </note>
-          <note xml:id="i-GCh5fjARrkjj7AxM5yo8z8">
-            nr 383, för tre suppleanter för riksdagens fullmäktige i riksbanken;
-          </note>
-          <note xml:id="i-HsCtFAFV4kgdqT8DCPusok">
-            nr 385, för två fullmäktige i riksgäldskontoret;
-          </note>
-          <note xml:id="i-6bwhQMy82V1i8dY5H2Xiy1">
-            nr 386, för tre suppleanter för fullmäktige i riksgäldskontoret;
-          </note>
-          <note xml:id="i-GEBV66T9pZKo4tuyNsT8Gb">
-            nr 388, för två ledamöter i styrelsen över riksdagsbiblioteket;
-          </note>
-          <note xml:id="i-QkTgCzPv4zX1csAZCxhXNs">
-            nr 389, för två suppleanter för de av riksdagen utsedda ledamöterna
-            1 riksdagsbibliotekets styrelse; samt
-          </note>
-          <note xml:id="i-VHJDEDjzfYGrCwKqY6ZLHi">
-            nr 404, för en fullmäktig i riksgäldskontoret för återstående
-            delen av valperioden 1932—1935.
-          </note>
-          <note xml:id="i-Autp4Agm3aYG3atGBGdmth">
-            Anmäldes och godkändes statsutskottets förslag till riksdagens
-            skrivelser till Konungen:
-          </note>
-          <note xml:id="i-U5rcdEPv5w4p3sdxkZCBSo">
-            nr 390, i anledning av Kungl. Maj:ts i statsverkspropositionen
-            gjorda framställning om anslag till oförutsedda utgifter;
-          </note>
-          <note xml:id="i-T7tPhnLicHcg2gdfSheCX3">
-            nr 391, i anledning av Kungl. Maj:ts proposition angående viss
-            utfästelse gentemot Stockholms Enskilda Bank;
-          </note>
-          <note xml:id="i-4gzxAxjMebPzEBanEk4ZpE">
-            nr 392, i anledning av väckt motion om viss engångsersättning
-            till änkefru Emma Kleberg;
-          </note>
-          <note xml:id="i-GF2CwG4YVPXMYnPZyPEbzq">
-            nr 393, i anledning av Kungl. Maj:ts proposition med förslag
-            om ersättning för debitering och uppbörd av landstingsmedel m.
-            m.;
-          </note>
-          <note xml:id="i-RxDADahJVmrTPV7BMaa5qB">
-            nr 394, i anledning av Kungl Maj:ts i statsverkspropositionen
-            under åttonde huvudtiteln, punkten 45, gjorda framställning angående
-            dyrtidstillägg åt de för religiös och social verksamhet bland
-            svenska i vissa utländska hamnstäder anställda präster;
-          </note>
-          <note xml:id="i-68SMw4khUUe7ZQE4nsDXeD">
-            nr 395, i anledning av Kungl. Maj:ts i statsverkspropositionen
-            under åttonde huvudtiteln, punkten 232, gjorda framställning angående
-            dyrtidstillägg
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1933--fk--49/prot_1933__fk__49-003.jp2/_view"/>
-          <note type="date" xml:id="i-L2Uk8EvdCon894jszBeVHJ">
-            4 Nr 49. Onsdagen den 28 juni.
-          </note>
-          <note xml:id="i-KGNg4yj7jeRRgQBDc1xiJv">
-            åt befattningshavare vid vissa statsunderstödda anstalter för
-            yrkesundervisning;
-          </note>
-          <note xml:id="i-Hc2KHBjSa3R882Ld91KYJV">
-            nr 396, i anledning av Kungl. Maj:ts i statsverkspropositionen
-            under åttonde huvudtiteln, punkten 272, gjorda framställning angående
-            dyrtidstillägg åt lärare vid vissa statsunderstödda undervisningsanstalter;
-          </note>
-          <note xml:id="i-U5GsiRiXUs48w9QJPgCvCs">
-            nr 397, i anledning av Kungl. Maj:ts i statsverkspropositionen
-            under andra huvudtiteln gjorda framställning angående anslag till
-            partiell löneförbättring för häradshövdingarna;
-          </note>
-          <note xml:id="i-HPCErLpAfssde4jz28uiXm">
-            nr 398, i anledning av Kungl. Maj:ts i statsverkspropositionen
-            under andra huvudtiteln gjorda framställning angående anslag för
-            uppläggande av nya fastighetsböcker för landet;
-          </note>
-          <note xml:id="i-GRb4YLa1aNVPgirQ6fE1X5">
-            nr 399, i anledning av Kungl. Maj:ts proposition angående anslag
-            till socialstyrelsen m. m.;
-          </note>
-          <note xml:id="i-Ws7Z31fhCYzrVinWtGVZeR">
-            nr 400, i anledning av Kungl. Maj:ts i statsverkspropositionen
-            gjorda framställning om anvisande av anslag till räntor å statsskulden
-            m. m.;
-          </note>
-          <note xml:id="i-HNv5PiKC4oYnbtE9R3Ana3">
-            nr 401, i anledning av Kungl. Maj:ts i statsverkspropositionen
-            gjorda framställning om anvisande av vissa anslag för avbetalning
-            å statsskulden;
-          </note>
-          <note xml:id="i-2Gw1E64DYEZ8vGHhd4Co61">
-            nr 402, i anledning av Kungl. Maj:ts proposition med förslag
-            till vapenkungörelse m. m.; samt
-          </note>
-          <note xml:id="i-YLwN87RmSKTV9Rwm1HzXsW">
-            nr 403, i anledning av Kungl. Maj:ts i statsverkspropositionen
-            gjorda framställning om anvisande av anslag till riksdagsoch revisionskostnader
-            m. m.
-          </note>
-          <note xml:id="i-8Q8De4Ubry1nChJDyySRri">
-            Anmäldes och bordlades statsutskottets memorial nr 144, angående
-            statsregleringen för budgetåret 1933/1934.
-          </note>
-          <note xml:id="i-Dh2qhQPqPMCvVP4v7x76St">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 7.03 e. m.
-          </note>
-          <note xml:id="i-CJastSDcYP29uMYNRAbwLd">
-            In fidem G. H. Berggren.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1933--fk--49/prot_1933__fk__49-004.jp2/_view"/>
-          <note type="date" xml:id="i-2uRiadJjA5Bbcn9FaTDYXA">
-            Torsdagen den 29 juni. Nr 49. 5
-          </note>
-          <note type="date" xml:id="i-5xsUGP7guAs7LaDoQpMNiE">
-            Torsdagen den 29 juni.
-          </note>
-          <note xml:id="i-F12sxav4A22GKDedDs8yo">
-            Kammaren sammanträdde kl. 11 f. m.
-          </note>
-          <note xml:id="i-QzmzmkvRH65n8XZQDs2rFX">
-            Justerades protokollet för den 22 innevarande månad.
-          </note>
-          <note xml:id="i-AJtsP1GcVY8iZRLpSBTUeq">
-            Föredrogs och företogs punktvis till avgörande statsutskottets
-            memorial nr 144, angående statsregleringen för budgetåret 1933/1934.
-          </note>
-          <note xml:id="i-JHx4HyULLUC37i3mjpiEvg">
-            Punkterna 1—11.
-          </note>
-          <note xml:id="i-7HB3gyY5wnYfxBL5cULb9v">
-            Vad utskottet hemställt bifölls.
-          </note>
-          <note xml:id="i-38Eth4453769jLMJcnZPHc">
-            Punkten 12. Lades till handlingarna.
-          </note>
-          <note xml:id="i-RuWfGxk9BxCizcbcMZ94bE">
-            Punkten 13. Utskottets hemställan bifölls.
-          </note>
-          <note xml:id="i-PW2Nebh2phbboqptXa3tMK">
-            Anmäldes statsutskottets förslag till riksdagens skrivelser till
-            Konungen:
-          </note>
-          <note xml:id="i-BQ55sy7YBzRWStzWyjv7yD">
-            nr 405, angående statsregleringen för budgetåret 1933/1934; och
-            nr 406, med överlämnande av riksstat för budgetåret 1933/1934.
-          </note>
-          <note xml:id="i-32UFfqdKfhRUnoJHTZr1mD">
-            Skrivelseförslagen godkändes under förutsättning att andra kammaren
-            beträffande statsutskottets memorial nr 144 fattade samma beslut
-            som första kammaren.
-          </note>
-          <note xml:id="i-UZ6YTniXfnXRW9JeZj9Bjf">
-            Justerades protokollsutdrag för denna dag.
-          </note>
-          <note xml:id="i-JXBreARiurixHCTjadafHR">
-            Tillkännagavs att Kungl. Maj:t låtit genom offentligt anslag
-            bjuda och kalla riksdagens samtliga ledamöter att fredagen den
-            30 innevarande månad kl. 11.30 f. m. infinna sig i Storkyrkan
-            samt, efter förrättad gudstjänst, begiva sig till rikssalen dels
-            för ändamål, som i $ 81 regeringsformen avsåges, och dels för
-            att, enligt 8 36 riksdagsordningen, av Kungl. Maj:t hemförlovas.
-          </note>
-          <note xml:id="i-GbhR361uoK1woT3CWwEYSs">
-            Kammarens sammanträde avslutades kl. 11.10 f. m.
-          </note>
-          <note xml:id="i-FaEevQkWtQSFTmUkzT6v49">
-            In fidem G. H. Berggren.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1933--fk--49/prot_1933__fk__49-005.jp2/_view"/>
-          <note type="date" xml:id="i-SePrZ7K7Tn36wCnDSWJdQg">
-            6 Nr 49. Fredagen den 30 juni.
-          </note>
-          <note type="date" xml:id="i-JffR3T6zriCRpykeZFhiX6">
-            Fredagen den 30 juni.
-          </note>
-          <note xml:id="i-8Yj8Px782y2Kaa5eWHD24B">
-            Kammaren sammanträdde kl. 11 f. m.
-          </note>
-          <note xml:id="i-A1Jx13Umndmh1GDiq2ybK4">
-            Anmäldes och godkändes riksdagens kanslis förslag till paragrafer
-            i riksdagsbeslutet:
-          </note>
-          <note xml:id="i-SVCTCUzAzAWMgPEsXWzi7v">
-            BS 123, rörande förordning om skatt å oljekakor och vissa slag
-            av fodermjöl;
-          </note>
-          <note xml:id="i-WhuFoCRdCwj761wykWBkAY">
-            nr 124, rörande fortsatt befrielse för riksbanken från skyldigheten
-            att inlösa av banken utgivna sedlar med guld;
-          </note>
-          <note xml:id="i-Db2zWhapqL4UAFWTBdqzwx">
-            nr 125, rörande stöd åt Hellefors Bruks Aktiebolag;
-          </note>
-          <note xml:id="i-9Pu5fV8BDxDao5v4KP5on2">
-            nr 126, rörande införande av tull å vissa torkade eller saltade
-            frukter;
-          </note>
-          <note xml:id="i-EziHwoSYHZpggwUU2RiCRu">
-            nr 127, i anledning av Kungl. Maj:ts proposition nr 243 med förslag
-            till vissa ändringar i gällande tulltaxa m. m.;
-          </note>
-          <note xml:id="i-VRzmshZGMRtiKNFpj4XVjF">
-            nr 128, rörande tullfrihet för cellulosaacetat och aceton;
-          </note>
-          <note xml:id="i-XQtBNSb2Y2JiBA4nkUYtrU">
-            nr 129, rörande förordning om ändring i vissa delar av förordningen
-            den 19 november 1914 (nr 383) angående stämpelavgiften m. m.;
-          </note>
-          <note xml:id="i-W5QeKX2rzSKrL93FmQqP8f">
-            nr 130, angående användande av riksbankens vinst för år 1932;
-          </note>
-          <note xml:id="i-3GGwf7G5W1cGzsEM2KF42J">
-            nr 131, rörande förslag till lag angående ändring i vissa delar
-            av lagen den 12 maj 1917 (nr 189) om expropriation;
-          </note>
-          <note xml:id="i-HhgvWuhNnwsxsuNEnCy9Zy">
-            nr 132, rörande förslag till lag om ändrad lydelse av 38 8 1
-            mom. samt 64 och 66 88 kommunalskattelagen den 28 september 1928
-            m. m.;
-          </note>
-          <note xml:id="i-Ff1VvT1bDrMnWtgpv6KPcT">
-            nr 133, rörande förordning om fortsatt giltighet av förordningen
-            den 17 Juni 1932 angående rätt för Konungen att åsätta särskild
-            tullavgift;
-          </note>
-          <note xml:id="i-HwYKfHeXDrTC6H739aDusz">
-            nr 134, rörande förslag till förordning om fortsatt tillämpning
-            under budgetåret 1933/ 1934 av förordningen den 8 juni 1923 (nr
-            155) angående omsättningsoch utskänkningsskatt å spritdrycker;
-          </note>
-          <note xml:id="i-9DcGWngARN49X9dSYCCm1H">
-            nr 135, rörande förordning om tillfällig begränsning av den i
-            5 $ förordnint gen den 1 juli 1918 angående handel med skattefri
-            sprit partihandlare medgivna rätt att inköpa brännvin, som framställes
-            ur avfallslut vid sulfitcellulosatillverkning, m. m.; |
-          </note>
-          <note xml:id="i-S1X2foqiNh3ruxzDFrtL67">
-            nr 136, rörande förordning om extra inkomstoch förmögenhetsskatt;
-          </note>
-          <note xml:id="i-CixVyx6GGPSmTEdiSgLRnD">
-            nr 137, rörande bemyndigande för Kungl. Maj:t att meddela förbud
-            mot tillverkning av brännvin av sockerbetor under tillverkningsåret
-            1933/1934;
-          </note>
-          <note xml:id="i-QTkQyMMgXwwYG5NqLemycg">
-            nr 138, rörande förordning om accis å margarin m. m.
-          </note>
-          <note xml:id="i-SPPDaMh8CmpVX1nvjtkNU6">
-            nr 139, rörande anslag för avsättning till statens mjölkregleringsfond;
-          </note>
-          <note xml:id="i-AZRxtZdJEWx1ZzzyCZBHEY">
-            nr 140, rörande statlig exportkreditgaranti;
-          </note>
-          <note xml:id="i-Rj5UAqzZ2ytn3g18TN1iE9">
-            nr 141, rörande anslag till uppförande av byggnader för statens
-            bakteriologiska laboratorium;
-          </note>
-          <note xml:id="i-7Y8N9uUGPsvP2K3jAVYyms">
-            nr 142, rörande "anslag till vissa byggnadsarbeten vid statens
-            sinnessjukhus m. m.;
-          </note>
-          <note xml:id="i-CctXQQF9sV3PoRq8WHRG2d">
-            nr 143, rörande anslag till utbyggnad av tvättinrättning vid
-            statens tvångsarbetsanstalt i Landskrona;
-          </note>
-          <note xml:id="i-FgPccpG5EB6jKGAJQNUgeS">
-            nr 144, rörande anslag till ny ladugård m. m. vid statens uppfostringsanstalt
-            för sinnesslöa gossar;
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1933--fk--49/prot_1933__fk__49-006.jp2/_view"/>
-          <note type="date" xml:id="i-3trx6rRLBccDxUHdjnHtSk">
-            Fredagen den 30 juni. Nr 49. 7
-          </note>
-          <note xml:id="i-3PmDyiCmwp9GJJFz98NpvW">
-            nr 145, rörande anslag till allmänna arbeten, avseende jordbruksdepartementets
-            verksamhetsområde;
-          </note>
-          <note xml:id="i-2mRCmtLgD555Cfrvmk4DBe">
-            nr 146, rörande anslag till allmänna arbeten, avseende handelsdepartementets
-            verksamhetsområde;
-          </note>
-          <note xml:id="i-Ur7RdSBbLxvCdGcr7jJ97c">
-            nr 147, rörande vidtagande av reparationsoch omändringsarbeten
-            i en bostadsvilla vid statens växtskyddsanstalt;
-          </note>
-          <note xml:id="i-QeuNpciZF6yFxVf3CVCxM">
-            nr 148, rörande anslag till arbeten till motverkande av arbetslösheten
-            samt till bekämpande av arbetslösheten;
-          </note>
-          <note xml:id="i-GGKzGTeijjVwM5RoXnqVRF">
-            nr 149, i anledning av vissa utav Kungl. Maj:t i statsverkspropositionen
-            under utgifter för kapitalökning gjorda framställningar angående
-            anslag dels till torrläggningsföretag, dels ock till skogsvårdsåtgärder;
-          </note>
-          <note xml:id="i-9j9h6tJRe1cNvZ53gT7fN7">
-            nr 150, rörande anslag till allmänna arbeten, avseende kommunikationsdepartementets
-            verksamhetsområde;
-          </note>
-          <note xml:id="i-EzYWsSmEjJodGPr5tJAJHB">
-            nr 151, rörande anslag till allmänna arbeten, avseende ecklesiastikdepartementets
-            verksamhetsområde;
-          </note>
-          <note xml:id="i-W2zrTHPbhXWce3a68h3qed">
-            nr 152, rörande jämkning i den tekniska utformningen av dispensbestämmelserna
-            i lagen angående förbud i vissa fall för bolag, förening och stiftelse
-            att förvärva fast egendom;
-          </note>
-          <note xml:id="i-MbNGLLnKUgRvpjNeRFf3uN">
-            nr 153, rörande lag om ändrad lydelse av 6 8 lagen den 12 maj
-            1897 för Sveriges riksbank;
-          </note>
-          <note xml:id="i-82KXExBR7Ytp9hxW9FQ1XA">
-            nr 154, rörande lag angående rätt för Konungen att i vissa fall
-            inställa tilllämpningen av 10 $ andra stycket lagen för Sveriges
-            riksbank den 12 maj 1897 och av $$ 9 och 17 lagen om rikets mynt
-            den 30 maj 1873;
-          </note>
-          <note xml:id="i-JRs3aMeYVEFsYZ5Txe4FFy">
-            nr 155, rörande förordning om ändrad lydelse av $$ 2 och 3 förordningen
-            den 5 juni 1909 angående konungariket Sveriges stadshypotekskassa,
-            m. m.;
-          </note>
-          <note xml:id="i-FNyPs3YzAQFMahZU891wMc">
-            nr 156, rörande förslag till lag om ändrad lydelse av 2 och 5
-            $$ lagen den 11 oktober 1907 (nr 85) angående civila tjänstinnehavares
-            rätt till pension, m. m.;
-          </note>
-          <note xml:id="i-Y1Xnm4bLgXUQt1ijiRMC8D">
-            nr 157, rörande förslag till förordning angående mjölkavgift
-            m. m.;
-          </note>
-          <note xml:id="i-RNfsFjQfJLH9bL53LxzQ4Y">
-            nr 158, rörande beräkning av bevillningarna för budgetåret 1933/1934,
-            m. m.;
-          </note>
-          <note xml:id="i-fQjYMvJhqtfDYHfkhp5cC">
-            nr 159, rörande förslag till förordning om erkända arbetslöshetskassor
-            m. m.;
-          </note>
-          <note xml:id="i-6EAzf9hvmCgaVzrMnV1BMT">
-            nr 160, rörande förslag till lag angående ändrad lydelse av 1
-            $&amp; lagen den 8 april 1927 (nr 77) om försäkringsavtal;
-          </note>
-          <note xml:id="i-KSoTfNBBY9XKDRBjAxJkrA">
-            nr 161, rörande anslag till vissa kostnader för arbetslöshetsförsäkringens
-            organisation m. m.;
-          </note>
-          <note xml:id="i-BfkjHPbTjNhPqnXWRQXeQG">
-            nr 162, rörande förslag till lag om offentlig arbetsförmedling
-            m. m.;
-          </note>
-          <note xml:id="i-9Rp4zWitCCnBU2HdNWqt9E">
-            nr 163, rörande redovisning i riksstaten för budgetåret 1933/1934
-            av vissa anslag för offentliga arbeten m. m.;
-          </note>
-          <note xml:id="i-6VHeMbwqTe3h1howdG5P7j">
-            nr 164, rörande förslag till förordning om kvarlåtenskapsskatt
-            m. m.;
-          </note>
-          <note xml:id="i-UFVr4qqWu4DgFX8xseEEaD">
-            nr 165, rörande anslag till avskrivning av visst i fonden för
-            förlag till statsverket ingående lånekapital;
-          </note>
-          <note xml:id="i-ANe8KeCX43wyRaDpGR2Nuo">
-            nr 166, rörande förslag till vapenkungörelse m. m.;
-          </note>
-          <note xml:id="i-Smkx1QH6fLdpVt6RHNb9as">
-            nr 167, rörande grunder för dyrtidstillägg under ecklesiastikåret
-            1933/1934 åt dels kyrkoherdar och komministrar i nyreglerade pastorat
-            samt kontraktsprostar och vissa extra ordinarie präster, dels
-            ock innehavare av prästerliga emeritilöner;
-          </note>
-          <note xml:id="i-HUZMrDEdaYKg6XgW65sryU">
-            nr 168, rörande förslag till förordning om frihet från stämpel
-            å bevis över tillstånd att fortfarande innehava deklarerat skjutvapen;
-          </note>
-          <note xml:id="i-KoV9gz2MLK9PvdgUegfdTr">
-            ar 169, rörande val av tre fullmäktige i riksbanken samt tre
-            fullmäktige i riksgäldskontoret ävensom suppleanter för dem;
-          </note>
-          <note xml:id="i-BhMq3NwSLpbZP1zke4Ddzx">
-            nr 170, rörande val av ledamöter och suppleanter i styrelsen
-            för riksdagsbiblioteket;
-          </note>
-          <note xml:id="i-Vxk3oxF3McEUXJb2AcAffq">
-            nr 171, rörande användande av visst belopp ur fonden för mötande
-            av för-
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1933--fk--49/prot_1933__fk__49-007.jp2/_view"/>
-          <note type="date" xml:id="i-HyxsJGBtYJ9YcZX9781Jkb">
-            8 Nr 49. Fredagen den 30 juni.
-          </note>
-          <note xml:id="i-W88QnRMJCfNSPbd2csmdsQ">
-            luster å Aktiebolaget Kreditkassan av år 1922 till avlyftande
-            av kassans skuld till riksbanken;
-          </note>
-          <note xml:id="i-Kk6AmZn3gL4A7gg9bCETvX">
-            nr 172, i avseende å statsregleringen och andra med statsverket
-            gemenskap ägande ämnen i vad angår frågor, behandlade av statsutskottet;
-          </note>
-          <note xml:id="i-CeP4scgKUGky3yZvwfaCFg">
-            nr 173, i avseende å statsregleringen och andra med statsverket
-            gemenskap ägande ämnen i vad angår frågor, behandlade av jordbruksutskottet;
-          </note>
-          <note xml:id="i-FoHPAZWRhjevFMT6azwkoy">
-            nr 174, i avseende å statsregleringen och andra med statsverket
-            gemenskap ägande ämnen i vad angår frågor, behandlade av bankoutskottet;
-          </note>
-          <note xml:id="i-VqSJ1seTmTMyfLHMk8ZddN">
-            nr 175, rörande åtskilliga på grund av $ 89 regeringsformen väckta
-            frågor; samt
-          </note>
-          <note xml:id="i-LDqpY4FeU93K8ULjpJ7hoe">
-            nr 176, rörande statsregleringen för budgetåret 1933/1934.
-          </note>
-          <note xml:id="i-JF8hDhpo3QB7M3GDfE6Rez">
-            Justerades ett protokollsutdrag för denna dag.
-          </note>
-          <note xml:id="i-QSsAfszW4RVUbbD7oJmWQH">
-            På hemställan av herr talmannen beslöt kammaren nu, kl. 11.02
-            f. m., att ajournera sina förhandlingar till kl. 11.15 f. m.
-          </note>
-          <note xml:id="i-LxQ3MEvNGtdLaCYJhPFEFF">
-            Till åtlydnad av Kungl. Maj:ts kallelse avgingo herr talmannen
-            samt kammarens ledamöter kl. 11.15 f. m. till Storkyrkan, där
-            riksdagspredikan hölls av förste sekreteraren i svenska kyrkans
-            diakonistyrelse, pastorn Tord Ström.
-          </note>
-          <note xml:id="i-JHFA4E1AVMCUftxT535LNa">
-            Efter gudstjänstens slut begav sig kammaren till rikssalen, där
-            jämväl andra kammaren infann sig.
-          </note>
-          <note xml:id="i-HDBu8xPgw7Jo3HptwoZ3Eh">
-            Herr statsrådet och chefen för justitiedepartementet Schlyter
-            uppläste Kungl. Maj:ts förordnanden för hans excellens herr statsministern
-            Hansson att å Kungl. Maj:ts vägnar meddela riksdagen Kungl. Maj:ts
-            svar på riksdagens skrivelse den 2 maj 1933 angående av riksdagen
-            antagna ändringar i rikets grundlagar ävensom att avsluta riksdagen.
-            Berörda svar, som var skriftligen avfattat, blev sedermera uppläst
-            och överlämnat av hans excellens herr statsministern.
-          </note>
-          <note xml:id="i-6nHhKz8iB518aBpbLJU9hp">
-            Sedan härefter talmännen var för sig framfört kamrarnas undersåtliga
-            välönskningar och riksdagsbeslutet blivit av herr statsrådet och
-            chefen för justitiedepartementet Schlyter uppläst, förklarade
-            hans excellens herr statsministern i enlighet med det honom lämnade
-            uppdraget 1933 års lagtima riksdag vara avslutad.
-          </note>
-          <note xml:id="i-To8ouPbnASWadzY1BujE5D" type="speaker">
-            Efter det första kammarens ledamöter återkommit till samlingsrummet
-            och där intagit sina platser, framträdde herr Vennersten till
-            talmansbordet och yttrade:
-          </note>
-          <u who="Q6223681" xml:id="i-xHhDLukQHh6ACXdQ2gepA" next="i-HL4JyaePjPdu9r11ZiWqRi">
-            <seg xml:id="i-P6VL1iMUqTF2kT7ANbUQzU">
-              Mina herrar! Då den tjänstförrättande prästmannen uppe i kyrkan
-              i dag påminde om att detta vore sista gången som en svensk riksdag
-              avslutas med gudstjänst, kände jag mig manad att för mig själv
-              klargöra, att detta ingalunda betyder något annat än en mycket
-              naturlig följd av den förenkling i övrigt, som vidtagits i fråga
-              om riksdagens avslutande. Ännu står dock grundlagsfäst kvar, att
-              därest Hans Maj:t Konungen skulle vid något tillfälle själv önska
-              avsluta riksdagen, så kommer detta att ske i den gamla ordningen.
-            </seg>
-          </u>
-          <u xml:id="i-HL4JyaePjPdu9r11ZiWqRi" prev="i-xHhDLukQHh6ACXdQ2gepA" who="Q6223681" next="i-Y135SJ8m8qEmUrJEMjebaH">
-            <seg xml:id="i-XmuHN7kouRvWuh2DY9PZwp">
-              Det må icke ha så mycket att betyda, att gudstjänst nu praktiskt
-              taget för sista gången förekommit, då anledningen därtill är den
-              nyssnämnda förenk-
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1933--fk--49/prot_1933__fk__49-008.jp2/_view"/>
-          <note type="date" xml:id="i-4Jr8fXxcZiHnp9JpN6KHKD">
-            Fredagen den 30 juni. Nr 49. 9
-          </note>
-          <u xml:id="i-Y135SJ8m8qEmUrJEMjebaH" prev="i-HL4JyaePjPdu9r11ZiWqRi" who="Q6223681" next="i-2j9JYLvJbsvrdaXDKRcjhp">
-            <seg xml:id="i-BMmbcjMFgL3GUGW1K6ZwSD">
-              lingen i arbetsformerna, som vi hoppas skall visa sig vara väl
-              funnen och leda till det mål, som eftersträvats: tidsbesparing
-              och förenkling överallt, där de gamla formerna ha så att säga
-              överlevat sig själva. Så har faktiskt skett, så vitt jag förstår,
-              inte bara därigenom, att Hans Maj:t Konungen numera i regel icke
-              avslutar riksdagarna, utan ännu mera därigenom, att riksdagarna
-              sluta på ett sätt, som gör, att praktiskt taget riksdagsmännen
-              — med undantag för det fåtal, som vi känna till — icke längre
-              äro närvarande på den plats, där riksdagen hålles.
-            </seg>
-          </u>
-          <u xml:id="i-2j9JYLvJbsvrdaXDKRcjhp" prev="i-Y135SJ8m8qEmUrJEMjebaH" who="Q6223681" next="i-61ptspuhMJsazE2spH9G9X">
-            <seg xml:id="i-FHjQGHXJ95bwXkDDUUR9XT">
-              I ett annat avseende har emellertid denna riksdag ett särmärke,
-              som man må beklaga eller blott konstatera, alltefter tycke och
-              smak. Redan förra året tillät jag mig vid ett tillfälle motsvarande
-              detta framhålla, hurusom man finge gå tillbaka tio år i tiden
-              för att finna ett motstycke till en riksdag av fen varaktighet
-              som förra årets. Denna slutade den 20 juni. I år stå vi nu här
-              samlade efter avslutad riksdag på det löpande budgetårets sista
-              dag, och man kan väl uttala den önskan, att vi icke hädanefter
-              skola behöva uppleva en ytterligare förlängning av riksdagen in
-              på ett börjande nytt budgetår.
-            </seg>
-          </u>
-          <u xml:id="i-61ptspuhMJsazE2spH9G9X" prev="i-2j9JYLvJbsvrdaXDKRcjhp" who="Q6223681" next="i-DmFT9xFdWwHgHTrbs18XWY">
-            <seg xml:id="i-8hE7e4en4gxWRNsaohgJ5K">
-              Men det är inte underligt, om denna riksdag varit osedvanligt
-              lång och arbetsam och varat längre än någon föregående riksdag,
-              sedan den nu gällande riksdagsordningen trätt i kraft — jag undantar
-              då givetvis de riksdagar, som funnits vid liv, om jag så får kalla
-              det, under sommaren men som hade inträtt i ett skede av overksamhet.
-              Det är inte underligt, säger Jag, om vi nödgats stanna kvar så
-              länge här uppe i Stockholm vid denna riksdag. Trots alla våra
-              varma önskningar om en förbättring i det allmänna läget ha — om
-              också vissa tecken försports i sådan riktning — alltjämt stått
-              kvar en mängd missförhållanden och svårigheter, följder av den
-              allbekanta orsak, som jag här inte behöver omnämna, emellertid
-              tillräckligt bekymmersamma för statsmakterna för att påkalla allvarliga
-              beslut, djupt ingripande åtgärder, genom vilka statsmakterna söka
-              möta stundens farligheter och besvär.
-            </seg>
-          </u>
-          <u xml:id="i-DmFT9xFdWwHgHTrbs18XWY" prev="i-61ptspuhMJsazE2spH9G9X" who="Q6223681" next="i-9epuSXxuUCi2UUWYutSsNG">
-            <seg xml:id="i-Lu2oFJvKjopT4FaCxBvfMn">
-              Nu skulle man ju kunna säga, att så länge världsläget inte förbättras,
-              kämpa vi fåfängt, varje nation för sig, för att råda bot på uppenbara
-              olägenheter, som vi äro skyldiga att söka råda bot för. Men även
-              om det skulle dröja mycket länge ännu, innan den efterlängtade
-              förbättringen inträder i det allmänna världsläget, utan vilken
-              våra bemödanden icke kunna ge något varaktigt gott resultat, så
-              tillkommer det statsmakterna, såsom vi alla veta, att även sörja
-              för stundens växlande behov. Allvarliga beslut ha vi fattat, och
-              allas vår önskan är ju, att de förhoppningar, som man ställer
-              på verkan av dessa beslut, måtte gå i uppfyllelse. Det gäller
-              även dem, som hyst eller ännu hysa farhågor i fråga om möjligheten
-              att med vidtagna åtgärder råda bot för det onda vi vilja avhjälpa.
-              Även hos dem, menar Jag, måste kvarstå den känslan, att i det
-              läge, varuti vi råkat, och efter det att riksdagen fattat sina
-              beslut, tillkommer det oss alla och envar att göra det bästa av
-              det sålunda uppkomna läget. Jag är övertygad om att den meningen
-              är allmän, och vi kunna därtill blott foga en varm önskan, nu
-              som tidigare, att den nyss omnämnda förbättringen i det allmänna
-              världsläget icke måtte alltför länge låta vänta på sig.
-            </seg>
-          </u>
-          <u xml:id="i-9epuSXxuUCi2UUWYutSsNG" prev="i-DmFT9xFdWwHgHTrbs18XWY" who="Q6223681" next="i-F8T17eiAYXfQdiKnFRbCaV">
-            <seg xml:id="i-95D19Chrzvi4SuRfnxkFg9">
-              För talmannen har den gångna riksdagen varit en förnyad angenäm
-              upplevelse — lagd till många föregående av samma art — på grund
-              av det förtroende, som kammarens ledamöter undantagslöst visat
-              talmannen. Härför kan jag blott uttala mitt allra vördsammaste
-              och hjärtliga tack. Detta tack riktar jag såväl till de närvarande
-              kammarkamraterna som till de frånvarande, vilka tidigare måst
-              lämna riksdagen.
-            </seg>
-          </u>
-          <u xml:id="i-F8T17eiAYXfQdiKnFRbCaV" prev="i-9epuSXxuUCi2UUWYutSsNG" who="Q6223681" next="i-Ngawp7jogmPaWriQ8b5KJf">
-            <seg xml:id="i-4XH6bsVcb21pnLuGkWeS9n">
-              Jag vill inte underlåta att vid detta tillfälle framföra ett
-              särskilt tack till mina kamrater i presidiet, vilka på ett sätt,
-              som herrarna själva kunnat bevittna, varit talmannen till all
-              den hjälp han rimligen kunnat begära.
-            </seg>
-          </u>
-          <note xml:id="i-EadCouA58r3Z5awGHjCRDT">
-            Första kammarens protokoll 1933. Nr 49. 2
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1933--fk--49/prot_1933__fk__49-009.jp2/_view"/>
-          <note type="date" xml:id="i-cGXgFXWAy5fvAgq1o2dyP">
-            10 Nr 49. Fredagen den 30 juni.
-          </note>
-          <u xml:id="i-Ngawp7jogmPaWriQ8b5KJf" prev="i-F8T17eiAYXfQdiKnFRbCaV" who="Q6223681" next="i-6o7R44xsNVd1RPXqopcnPd">
-            <seg xml:id="i-MpV5ocz99CJBantYqtvp4j">
-              Må det slutligen tillåtas mig, ehuru det är av mera privat natur,
-              att till dessa tacksamhetsbetygelser foga ett lika varmt för de
-              många bevis på vänskap, välvilja och förståelse, som kommo mig
-              såsom privatman till del vid en bemärkelsedag i början av denna
-              riksdag.
-            </seg>
-          </u>
-          <u xml:id="i-6o7R44xsNVd1RPXqopcnPd" prev="i-Ngawp7jogmPaWriQ8b5KJf" who="Q6223681">
-            <seg xml:id="i-V3EeQDx3tZgwXec5qnkyKe">
-              Tack, mina herrar, och farväl!
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-ECNwvZ1iRsr7LmNw6tG3MC">
-            Detta tal besvarades av herr Lindhagen i följande ordalag:
-          </note>
-          <u who="Q55955" xml:id="i-3e2b66b881e133dd-0" next="i-3e2b66b881e133dd-1">
-            <seg xml:id="i-D2FeUB46AcJZNBLkAMhoBb">
-              Herr talman! Arets riksdag är nu till ända, det långvarigaste
-              riksmötet efter 1866 års representationsreform.
-            </seg>
-            <seg xml:id="i-AA5R36VUueQGq9UTZFAJ9n">
-              En ny epok står i sitt vardande. Maskinerna ha utträngt handens
-              arbete, lössläppt våra blindaste lidelser och möjliggjort gigantiska
-              krigföringar. Gamla befästningar ha därför uppgivits, byggnadsverk
-              utdömts och sinnelagen börjat drabbas av förvandlingens lag.
-            </seg>
-            <seg xml:id="i-2VZNfd3NsmrQCp8ERmDLCp">
-              Förnimmelser i födslovånda varsla om gemensamt ansvar för lotsande
-              av våra farkoster genom bränningarna och skyddandet av de svaga
-              och övergivna. Riksdagen har gjort vad den kunnat. Det blir visserligen
-              vanskligare att utföra vad som beslutats. En fortsättning på den
-              goda viljans väg bör dock kunna skapa någon rätsida även på villovägar.
-            </seg>
-            <seg xml:id="i-FNJDcW7LCZoLmceVPwtL4d">
-              Vad skall nu komma efter denna nödhjälp för ett budgetår? Den
-              frågan reser sig odebatterad och olöst, men dock allvarligt spörjande
-              framför oss.
-            </seg>
-            <seg xml:id="i-J1Ym3aEfTqF64KuFuXuwKq">
-              Riksdagens jordbrukshjälp nådde ej fram till den bidande jordreformen
-              för ytterligare brytande av enskilda jordmonopol genom tillgodogörande
-              av landets för ändamålet många gånger inventerade odlingsmöjligheter.
-              Den vägen till produktiv självhjälp uteslöts från partiernas överenskommelse.
-              Den bidar sin tid och denna kommer.
-            </seg>
-            <seg xml:id="i-9gr1Cepu61xqsb7SYk45eJ">
-              Första upptakten mot ungdomens arbetslöshet måste väl vara att
-              för ungdomen öppna portarna till näringarna och arbetet. Dessa
-              stängas allt mera av monopolsträvanden.
-            </seg>
-            <seg xml:id="i-RqezQeD5bbJcrLTLiB7p3x">
-              Den oundgängliga kraftmätningen hitintills mellan företagare
-              och löntagare genom lockouter och strejker kan väl ej heller i
-              alla tider vara livets mening.
-            </seg>
-            <seg xml:id="i-Q6hagb126HmC2FGtyFc83X">
-              Vidare vänta vi bland annat icke minst på demokratiens självprövning.
-              Om demokratien vegeterar eller blott snickrar nyttiga småverk
-              i stora tider, kommer kanske även hos oss en folkmajoritet att
-              uppdraga åt enväldet i den ena eller andra skepnaden att jämväl
-              gå till grunden av tingen.
-            </seg>
-            <seg xml:id="i-GNqQJZmp65StVQgzC7HArc">
-              Icke mindre pockande reser sig utåt samgåendet mellan stater
-              och raser. Den skandinaviska folkfamiljen skrämmes av de stora
-              dragen i detta problem. Den tror vad håglösheten viskar till oss,
-              att striden är för stor för vår förmåga. Och dock varest två eller
-              tre äro församlade i sanningens namm, där är den mitt ibland dem.
-            </seg>
-            <seg xml:id="i-AsexdpQGgPir5hDtxVJJ57">
-              Inom den ekonomiska världskonferensen tror man nu i dagarna,
-              att det betydande arbetet för att sätta konferensens resolutioner
-              i kraft knappast kan förväntas av de olika regeringarna. Det kan
-              endast »komma till stånd inom små grupper av makter, som äro av
-              verklig betydelse». Däri ligger förmodligen en hyllning närmast
-              till den spirande ententen mellan fyra europeiska stormakter.
-              De utsikterna äro dock ovissa, i vissa fall kanske farliga. De
-              färgade raserna kunna i varje fall knappast motse ett obetingat
-              erkännande av sin suveränitet över det egna fäderneslandet.
-            </seg>
-            <seg xml:id="i-5JtrbnaQ9EU6SqHjPb1B8Y">
-              Opinionen inom konferensen hänvisar emellertid till mer än en
-              grupp. Årets svenska riksdag har instämt i konstitutionsutskottets
-              uttalade tillfredsställelse inför tanken på ett ekonomiskt och
-              kulturellt samförstånd mellan de mindre baltiska staterna. Utrikesministern
-              har i första kammaren tillkännagivit, att svenska regeringen vore
-              »varmt villig medverka därtill». Det får väl då förmodas, att
-              efter sommarsemestern och den ekonomiska världskon-
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1933--fk--49/prot_1933__fk__49-010.jp2/_view"/>
-          <note type="date" xml:id="i-9KHA621xNa9mJpf2oJi4ry">
-            Fredagen den 30 juni. Nr 49. 11
-          </note>
-          <u who="Q55955" xml:id="i-3e2b66b881e133dd-1" prev="i-3e2b66b881e133dd-0">
-            <seg xml:id="i-D9fhn6v6KusUP461GBSkof">
-              ferensens berörda inställning även någon spirande handling skall
-              utkristallisera sig.
-            </seg>
-            <seg xml:id="i-Kw2Q3rbKunkwqqgiuosM9K">
-              Den bordlagda stora rustningsmänskningskonferensen kämpar likaledes
-              med vanskligheter. Den hotar att förkvävas av de djupliggande
-              realiteternas frånvaro på programmet och att sönderslitas av stormakters
-              begripliga dagspolitiska särintressen.
-            </seg>
-            <seg xml:id="i-4btNZdzPuRfccXFN9U5yGb">
-              Ligger ej 1 allt detta en förväntan på de mindre staterna, på
-              deras initiativ till vakna drömmar om utvecklingens cirkelgång,
-              om samvetsstatens odödliga tillblivelse, om samförståndet mellan
-              livets grundvalar: individen, hemmet, landet och mänskligheten.
-            </seg>
-            <seg xml:id="i-34pqdJrQB1gUqnsG3BxmKE">
-              Med andra ord, en begynnande pioniering för något fjärde rike,
-              med överhoppande av de många första, andra och tredje rikena,
-              ett rike, där grymhetens renässans och slavstatens vidmakthållande
-              i gammal eller ny mening ej vidare äro oundgängliga milstopar
-              för folkens historiska vandringar per aspera ad astra, genom hårda
-              öden mot stjärnorna.
-            </seg>
-            <seg xml:id="i-T5evr2Lx5s86peB16HpUPG">
-              Herr talman, vi äro trötta efter riksdagens möda och bekymmer.
-              Vi längta till högsommarens förnyelse — till hemmen, odlingarna,
-              hagarna, skogarna och fjällen i detta sjöbemängda och havomflutna
-              land, till det gamla landet, som förblir alltid ungt.
-            </seg>
-            <seg xml:id="i-7ZCoJtiSghJCr4FgP8S8E4">
-              Därtill knyta vi en hyllning till Eder, herr talman, för Eder
-              vänsälla, klara och rätliniga ledning av våra förhandlingar. Det
-              skall bli oss kärt att nästa riksdag återfinna Eder med stärkta
-              krafter på Eder plats enligt partiernas enhälliga samförstånd.
-            </seg>
-            <seg xml:id="i-9ApBBjY6Y2XuXMj2phhrsc">
-              För visso få vi då fortfarande åtnjuta även Edert gosselynnes
-              tysta medgivande ibland till våra snedsprång över en alltjämt
-              oreviderad grundlags 1 mångt och mycket föråldrade skrankor.
-            </seg>
-          </u>
-          <note xml:id="i-Sf49FCTSz7VKg6A5kAYbtJ">
-            Kammarens ledamöter åtskildes kl. 12.40 på dagen.
-          </note>
-          <note xml:id="i-Aju5shMTSj4tbmFAdbZRNH">
-            In fidem G. H. Berggren.
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1933--fk--49</head>
+        <docDate when="1933-06-27">1933-06-27</docDate>
+        <docDate when="1933-06-28">1933-06-28</docDate>
+        <docDate when="1933-06-29">1933-06-29</docDate>
+        <docDate when="1933-06-30">1933-06-30</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1933--fk--49/prot_1933__fk__49-000.jp2/_view"/>
+        <note xml:id="i-BbrsSePnmkbUEavuwmFepH">
+          RIKSDAGENS PROTOKOLL. 1933. Första kammaren. Nr 49.
+        </note>
+        <note type="date" xml:id="i-Hng4Wfv7EquczycuRpvbj6">
+          Tisdagen den 27 juni.
+        </note>
+        <note xml:id="i-NTW7c6fZXr8XpxPVTJiZ6x">
+          Kammaren sammanträdde kl. 11 f. m.
+        </note>
+        <note xml:id="i-6Sp52k7CwnFuWyyv6o1Vh4">
+          Justerades protokollen för den 17, 18, 19 och 20 innevarande
+          månad.
+        </note>
+        <note xml:id="i-gGuhGSjy7LQrzy9WVoiC1">
+          Anmäldes och godkändes särskilda utskottets förslag till riksdagens
+          skrivelser till Konungen:
+        </note>
+        <note xml:id="i-U91n6DfEk1vKSvy7QotVwA">
+          nr 373, i anledning av dels Kungl. Maj:ts proposition med förslag
+          till lag om offentlig arbetsförmedling m. m., dels ock i ämnet
+          väckta motioner;
+        </note>
+        <note xml:id="i-LZvnhx1ciEFutoJRPxs4uB">
+          nr 374, angående redovisning i riksstaten för budgetåret 1933/1934
+          av vissa anslag för offentliga arbeten m. m.;
+        </note>
+        <note xml:id="i-W61Co8pgGFQoJPNaP6voM1">
+          nr 375, i anledning av Kungl. Maj:ts proposition med förslag
+          till förordning om kvarlåtenskapsskatt m. m. ävensom i ämnet väckta
+          motioner; samt
+        </note>
+        <note xml:id="i-WDw7vNF18VRjF1yBUaPFJY">
+          nr 376, i anledning av Kungl. Maj:ts i statsverkspropositionen
+          gjorda framställning om anslag till avskrivning av visst i fonden
+          för förlag till statsverket ingående lånekapital.
+        </note>
+        <note xml:id="i-N5bD15NBVeUKywHeXdz5Wi">
+          Anmäldes och godkändes första lagutskottets förslag till riksdagens
+          skrivelser till Konungen:
+        </note>
+        <note xml:id="i-Mz5Vfm847iRnMsc2FtARCK">
+          nr 377, i anledning av Kungl. Maj:ts proposition med förslag
+          till vapenkungörelse m. m.; och
+        </note>
+        <note xml:id="i-F8jFmQeCXmfaLFR4KTFVXt">
+          nr 378, i anledning av Kungl. Maj:ts proposition till riksdagen
+          med förslag till grunder för dyrtidstillägg under ecklesiastikåret
+          1933/1934 åt dels kyrkoherdar och komministrar i nyreglerade pastorat
+          samt kontraktsprostar och vissa extra ordinarie präster, dels
+          ock innehavare av prästerliga emeritilöner.
+        </note>
+        <note xml:id="i-Ef8hs539r76CzkQLizH5D1">
+          Föredrogos bevillningsutskottets betänkanden:
+        </note>
+        <note xml:id="i-GawoDGNQBWa7Drqzg4UoTP">
+          nr 77, i anledning av Kungl. Maj:ts proposition med förslag till
+          förordning om frihet från stämpel å bevis över tillstånd att fortfarande
+          innehava deklarerat skjutvapen; och
+        </note>
+        <note xml:id="i-UBpUqyBzgXj3Eu5LAPYGtF">
+          nr 78, angående beräkning av bevillningarna för budgetåret 1933/1934,
+          m. m.
+        </note>
+        <note xml:id="i-BaBxnxFesyfMTFLqfCA9XZ">
+          Vad utskottet i dessa betänkanden hemställt bifölls.
+        </note>
+        <note xml:id="i-2ft88h5NgrCyADZA8gmhFv">
+          Föredrogos och lades till handlingarna särskilda utskottets memorial:
+        </note>
+        <note xml:id="i-Pmp3y39xcFcAKjNgdspVoJ">
+          nr 26, i anledning av kamrarnas skiljaktiga beslut rörande utskottets
+          utlåtande nr 18 i anledning av dels Kungl. Maj:ts proposition
+          nr 209 med förslag till förordning om erkända arbetslöshetskassor
+          m. m., dels ock i ämnet väckta motioner;
+        </note>
+        <note xml:id="i-HtsVm8HrPSCfaJzjmKPtrS">
+          nr 27, i anledning av kamrarnas skiljaktiga beslut rörande utskottets
+          utlåtande nr 19 i anledning av Kungl. Maj:ts proposition nr 210
+          med förslag till lag angående ändrad lydelse av 1 $ lagen den
+          8 april 1927 (nr 77) om försäkringsavtal; samt
+        </note>
+        <note xml:id="i-YZH1rPjjjsxxaGoNkcABge">
+          Första kammarens protokoll 1933. Nr 49. 1
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1933--fk--49/prot_1933__fk__49-001.jp2/_view"/>
+        <note type="date" xml:id="i-2oTqowu8m1CZ3ngRjrnWW3">
+          2 Nr 49. Tisdagen den 27 juni.
+        </note>
+        <note xml:id="i-GNWvSaxmnRq9tNXP95tjZL">
+          nr 28, i anledning av kamrarnas skiljaktiga beslut rörande utskottets
+          utlåtande nr 20 i anledning av dels Kungl. Maj:ts proposition
+          nr 215 angående anslag till vissa kostnader för arbetslöshetsförsäkringens
+          organisation m. m., dels ock i ämnet väckta motioner.
+        </note>
+        <note xml:id="i-Hkxd82zNWJpCDWJPmZaoSN">
+          Anmäldes bevillningsutskottets förslag till riksdagens skrivelser
+          till Konungen:
+        </note>
+        <note xml:id="i-6kaEWz2uaEfFsPZTmNNfGJ">
+          nr 369, angående beräkning av bevillningarna för budgetåret 1933/1934,
+          m. m.; och
+        </note>
+        <note xml:id="i-R5zWrcMjgksvrAAKMciq2E">
+          nr 379, i anledning av Kungl. Maj:ts proposition med förslag
+          till förordning om frihet från stämpel å bevis över tillstånd
+          att fortfarande innehava deklarerat skjutvapen.
+        </note>
+        <note xml:id="i-Qi5e5xHUcRt7jhg5XJD74z">
+          Skrivelseförslagen godkändes under förutsättning, beträffande
+          förslaget nr 369, att utskottets hemställanden i betänkande nr
+          78 och vidkommande förslaget nr 379, att utskottets hemställan
+          i betänkande nr 77 bifölles även av andra kammaren.
+        </note>
+        <note xml:id="i-TCdy7HGQGxHttYie5skT1p">
+          Anmäldes särskilda utskottets förslag till riksdagens skrivelser
+          till Konungen:
+        </note>
+        <note xml:id="i-ABXxiHHajeAPiZXD1Fi8Hz">
+          nr 370, i anledning av dels Kungl. Maj:ts proposition med förslag
+          till förordning om erkända arbetslöshetskassor m. m., dels ock
+          i ämnet väckta motioner;
+        </note>
+        <note xml:id="i-MhBXphH78Tn8wfC8Lyob6k">
+          nr 371, i anledning av Kungl. Maj:ts proposition med förslag
+          till lag angående ändrad lydelse av 1 $ lagen den 8 april 1927
+          (nr 77) om försäkringsavtal; samt
+        </note>
+        <note xml:id="i-7kqSdnzjyApWuwMiHXGJGc">
+          nr 372, i anledning av dels Kungl. Maj:ts proposition angående
+          anslag till vissa kostnader för arbetslöshetsförsäkringens organisation
+          m. m., dels ock i ämnet väckta motioner.
+        </note>
+        <note xml:id="i-EjcTdP7ttJ4ARrnQ7ytm2W">
+          Skrivelseförslagen godkändes, ett vart under förutsättning att
+          andra kammaren i avseende å särskilda utskottets memorial respektive
+          nr 26, nr 27 och nr 28 fattade samma beslut som första kammaren.
+        </note>
+        <note xml:id="i-4L9SK2GcShP19CEymVtZiQ">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 11.10 f. m.
+        </note>
+        <note xml:id="i-KdNopE5EeY99YoBiq9pBjN">
+          In fidem G. H. Berggren.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1933--fk--49/prot_1933__fk__49-002.jp2/_view"/>
+        <note type="date" xml:id="i-2JKW1frNJVqfHxecaqq2q3">
+          Onsdagen den 28 juni. Nr 49. 3
+        </note>
+        <note type="date" xml:id="i-UjsyhoXJ2g9KLc9LgzKu8w">
+          Onsdagen den 28 juni.
+        </note>
+        <note xml:id="i-7YRHkGxfD9qw1xHPvZPaER">
+          Kammaren sammanträdde kl. 7 e. m.; och dess förhandlingar leddes
+          av herr förste vice talmannen.
+        </note>
+        <note xml:id="i-Y96QMvta8jjYVU8qqtWk9q">
+          Justerades protokollet för den 21 innevarande månad.
+        </note>
+        <note xml:id="i-77NVpXU6S2xzdKYFz6hVBA">
+          Anmäldes och godkändes riksdagens kanslis förslag
+        </note>
+        <note xml:id="i-73Y9VU6G3qLhSQcyZ8pTHf">
+          dels till riksdagens skrivelser till Konungen:
+        </note>
+        <note xml:id="i-UrHVmANSeh6AnksNsCPisv">
+          nr 380, angående val av tre fullmäktige i riksbanken och av tre
+          suppleanter för riksdagens samtliga fullmäktige i nämnda bank;
+        </note>
+        <note xml:id="i-SWmvFhqwxXrfUJ2FTV8wX8">
+          nr 384, angående val av tre fullmäktige i riksgäldskontoret och
+          tre suppleanter för fullmäktige i nämnda verk; samt
+        </note>
+        <note xml:id="i-AivnegGLhAq6z2fmE3xdWQ">
+          nr 387, angående val av riksdagens två ledamöter i styrelsen
+          över riksdagsbiblioteket jämte två suppleanter för dem;
+        </note>
+        <note xml:id="i-To2AEM6FMRagbRgmqFN7uE">
+          dels ock till riksdagens förordnanden:
+        </note>
+        <note xml:id="i-L871jABJEvfFWyYrWDkXZW">
+          nr 381, för två fullmäktige i riksbanken för valperioden 1933—1936;
+        </note>
+        <note xml:id="i-LcsK1uJVW45ULJ2LNqA7QB">
+          nr 382, för en fullmäktig i riksbanken för återstående delen
+          av valperioden 1932—1935;
+        </note>
+        <note xml:id="i-GCh5fjARrkjj7AxM5yo8z8">
+          nr 383, för tre suppleanter för riksdagens fullmäktige i riksbanken;
+        </note>
+        <note xml:id="i-HsCtFAFV4kgdqT8DCPusok">
+          nr 385, för två fullmäktige i riksgäldskontoret;
+        </note>
+        <note xml:id="i-6bwhQMy82V1i8dY5H2Xiy1">
+          nr 386, för tre suppleanter för fullmäktige i riksgäldskontoret;
+        </note>
+        <note xml:id="i-GEBV66T9pZKo4tuyNsT8Gb">
+          nr 388, för två ledamöter i styrelsen över riksdagsbiblioteket;
+        </note>
+        <note xml:id="i-QkTgCzPv4zX1csAZCxhXNs">
+          nr 389, för två suppleanter för de av riksdagen utsedda ledamöterna
+          1 riksdagsbibliotekets styrelse; samt
+        </note>
+        <note xml:id="i-VHJDEDjzfYGrCwKqY6ZLHi">
+          nr 404, för en fullmäktig i riksgäldskontoret för återstående
+          delen av valperioden 1932—1935.
+        </note>
+        <note xml:id="i-Autp4Agm3aYG3atGBGdmth">
+          Anmäldes och godkändes statsutskottets förslag till riksdagens
+          skrivelser till Konungen:
+        </note>
+        <note xml:id="i-U5rcdEPv5w4p3sdxkZCBSo">
+          nr 390, i anledning av Kungl. Maj:ts i statsverkspropositionen
+          gjorda framställning om anslag till oförutsedda utgifter;
+        </note>
+        <note xml:id="i-T7tPhnLicHcg2gdfSheCX3">
+          nr 391, i anledning av Kungl. Maj:ts proposition angående viss
+          utfästelse gentemot Stockholms Enskilda Bank;
+        </note>
+        <note xml:id="i-4gzxAxjMebPzEBanEk4ZpE">
+          nr 392, i anledning av väckt motion om viss engångsersättning
+          till änkefru Emma Kleberg;
+        </note>
+        <note xml:id="i-GF2CwG4YVPXMYnPZyPEbzq">
+          nr 393, i anledning av Kungl. Maj:ts proposition med förslag
+          om ersättning för debitering och uppbörd av landstingsmedel m.
+          m.;
+        </note>
+        <note xml:id="i-RxDADahJVmrTPV7BMaa5qB">
+          nr 394, i anledning av Kungl Maj:ts i statsverkspropositionen
+          under åttonde huvudtiteln, punkten 45, gjorda framställning angående
+          dyrtidstillägg åt de för religiös och social verksamhet bland
+          svenska i vissa utländska hamnstäder anställda präster;
+        </note>
+        <note xml:id="i-68SMw4khUUe7ZQE4nsDXeD">
+          nr 395, i anledning av Kungl. Maj:ts i statsverkspropositionen
+          under åttonde huvudtiteln, punkten 232, gjorda framställning angående
+          dyrtidstillägg
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1933--fk--49/prot_1933__fk__49-003.jp2/_view"/>
+        <note type="date" xml:id="i-L2Uk8EvdCon894jszBeVHJ">
+          4 Nr 49. Onsdagen den 28 juni.
+        </note>
+        <note xml:id="i-KGNg4yj7jeRRgQBDc1xiJv">
+          åt befattningshavare vid vissa statsunderstödda anstalter för
+          yrkesundervisning;
+        </note>
+        <note xml:id="i-Hc2KHBjSa3R882Ld91KYJV">
+          nr 396, i anledning av Kungl. Maj:ts i statsverkspropositionen
+          under åttonde huvudtiteln, punkten 272, gjorda framställning angående
+          dyrtidstillägg åt lärare vid vissa statsunderstödda undervisningsanstalter;
+        </note>
+        <note xml:id="i-U5GsiRiXUs48w9QJPgCvCs">
+          nr 397, i anledning av Kungl. Maj:ts i statsverkspropositionen
+          under andra huvudtiteln gjorda framställning angående anslag till
+          partiell löneförbättring för häradshövdingarna;
+        </note>
+        <note xml:id="i-HPCErLpAfssde4jz28uiXm">
+          nr 398, i anledning av Kungl. Maj:ts i statsverkspropositionen
+          under andra huvudtiteln gjorda framställning angående anslag för
+          uppläggande av nya fastighetsböcker för landet;
+        </note>
+        <note xml:id="i-GRb4YLa1aNVPgirQ6fE1X5">
+          nr 399, i anledning av Kungl. Maj:ts proposition angående anslag
+          till socialstyrelsen m. m.;
+        </note>
+        <note xml:id="i-Ws7Z31fhCYzrVinWtGVZeR">
+          nr 400, i anledning av Kungl. Maj:ts i statsverkspropositionen
+          gjorda framställning om anvisande av anslag till räntor å statsskulden
+          m. m.;
+        </note>
+        <note xml:id="i-HNv5PiKC4oYnbtE9R3Ana3">
+          nr 401, i anledning av Kungl. Maj:ts i statsverkspropositionen
+          gjorda framställning om anvisande av vissa anslag för avbetalning
+          å statsskulden;
+        </note>
+        <note xml:id="i-2Gw1E64DYEZ8vGHhd4Co61">
+          nr 402, i anledning av Kungl. Maj:ts proposition med förslag
+          till vapenkungörelse m. m.; samt
+        </note>
+        <note xml:id="i-YLwN87RmSKTV9Rwm1HzXsW">
+          nr 403, i anledning av Kungl. Maj:ts i statsverkspropositionen
+          gjorda framställning om anvisande av anslag till riksdagsoch revisionskostnader
+          m. m.
+        </note>
+        <note xml:id="i-8Q8De4Ubry1nChJDyySRri">
+          Anmäldes och bordlades statsutskottets memorial nr 144, angående
+          statsregleringen för budgetåret 1933/1934.
+        </note>
+        <note xml:id="i-Dh2qhQPqPMCvVP4v7x76St">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 7.03 e. m.
+        </note>
+        <note xml:id="i-CJastSDcYP29uMYNRAbwLd">
+          In fidem G. H. Berggren.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1933--fk--49/prot_1933__fk__49-004.jp2/_view"/>
+        <note type="date" xml:id="i-2uRiadJjA5Bbcn9FaTDYXA">
+          Torsdagen den 29 juni. Nr 49. 5
+        </note>
+        <note type="date" xml:id="i-5xsUGP7guAs7LaDoQpMNiE">
+          Torsdagen den 29 juni.
+        </note>
+        <note xml:id="i-F12sxav4A22GKDedDs8yo">
+          Kammaren sammanträdde kl. 11 f. m.
+        </note>
+        <note xml:id="i-QzmzmkvRH65n8XZQDs2rFX">
+          Justerades protokollet för den 22 innevarande månad.
+        </note>
+        <note xml:id="i-AJtsP1GcVY8iZRLpSBTUeq">
+          Föredrogs och företogs punktvis till avgörande statsutskottets
+          memorial nr 144, angående statsregleringen för budgetåret 1933/1934.
+        </note>
+        <note xml:id="i-JHx4HyULLUC37i3mjpiEvg">
+          Punkterna 1—11.
+        </note>
+        <note xml:id="i-7HB3gyY5wnYfxBL5cULb9v">
+          Vad utskottet hemställt bifölls.
+        </note>
+        <note xml:id="i-38Eth4453769jLMJcnZPHc">
+          Punkten 12. Lades till handlingarna.
+        </note>
+        <note xml:id="i-RuWfGxk9BxCizcbcMZ94bE">
+          Punkten 13. Utskottets hemställan bifölls.
+        </note>
+        <note xml:id="i-PW2Nebh2phbboqptXa3tMK">
+          Anmäldes statsutskottets förslag till riksdagens skrivelser till
+          Konungen:
+        </note>
+        <note xml:id="i-BQ55sy7YBzRWStzWyjv7yD">
+          nr 405, angående statsregleringen för budgetåret 1933/1934; och
+          nr 406, med överlämnande av riksstat för budgetåret 1933/1934.
+        </note>
+        <note xml:id="i-32UFfqdKfhRUnoJHTZr1mD">
+          Skrivelseförslagen godkändes under förutsättning att andra kammaren
+          beträffande statsutskottets memorial nr 144 fattade samma beslut
+          som första kammaren.
+        </note>
+        <note xml:id="i-UZ6YTniXfnXRW9JeZj9Bjf">
+          Justerades protokollsutdrag för denna dag.
+        </note>
+        <note xml:id="i-JXBreARiurixHCTjadafHR">
+          Tillkännagavs att Kungl. Maj:t låtit genom offentligt anslag
+          bjuda och kalla riksdagens samtliga ledamöter att fredagen den
+          30 innevarande månad kl. 11.30 f. m. infinna sig i Storkyrkan
+          samt, efter förrättad gudstjänst, begiva sig till rikssalen dels
+          för ändamål, som i $ 81 regeringsformen avsåges, och dels för
+          att, enligt 8 36 riksdagsordningen, av Kungl. Maj:t hemförlovas.
+        </note>
+        <note xml:id="i-GbhR361uoK1woT3CWwEYSs">
+          Kammarens sammanträde avslutades kl. 11.10 f. m.
+        </note>
+        <note xml:id="i-FaEevQkWtQSFTmUkzT6v49">
+          In fidem G. H. Berggren.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1933--fk--49/prot_1933__fk__49-005.jp2/_view"/>
+        <note type="date" xml:id="i-SePrZ7K7Tn36wCnDSWJdQg">
+          6 Nr 49. Fredagen den 30 juni.
+        </note>
+        <note type="date" xml:id="i-JffR3T6zriCRpykeZFhiX6">
+          Fredagen den 30 juni.
+        </note>
+        <note xml:id="i-8Yj8Px782y2Kaa5eWHD24B">
+          Kammaren sammanträdde kl. 11 f. m.
+        </note>
+        <note xml:id="i-A1Jx13Umndmh1GDiq2ybK4">
+          Anmäldes och godkändes riksdagens kanslis förslag till paragrafer
+          i riksdagsbeslutet:
+        </note>
+        <note xml:id="i-SVCTCUzAzAWMgPEsXWzi7v">
+          BS 123, rörande förordning om skatt å oljekakor och vissa slag
+          av fodermjöl;
+        </note>
+        <note xml:id="i-WhuFoCRdCwj761wykWBkAY">
+          nr 124, rörande fortsatt befrielse för riksbanken från skyldigheten
+          att inlösa av banken utgivna sedlar med guld;
+        </note>
+        <note xml:id="i-Db2zWhapqL4UAFWTBdqzwx">
+          nr 125, rörande stöd åt Hellefors Bruks Aktiebolag;
+        </note>
+        <note xml:id="i-9Pu5fV8BDxDao5v4KP5on2">
+          nr 126, rörande införande av tull å vissa torkade eller saltade
+          frukter;
+        </note>
+        <note xml:id="i-EziHwoSYHZpggwUU2RiCRu">
+          nr 127, i anledning av Kungl. Maj:ts proposition nr 243 med förslag
+          till vissa ändringar i gällande tulltaxa m. m.;
+        </note>
+        <note xml:id="i-VRzmshZGMRtiKNFpj4XVjF">
+          nr 128, rörande tullfrihet för cellulosaacetat och aceton;
+        </note>
+        <note xml:id="i-XQtBNSb2Y2JiBA4nkUYtrU">
+          nr 129, rörande förordning om ändring i vissa delar av förordningen
+          den 19 november 1914 (nr 383) angående stämpelavgiften m. m.;
+        </note>
+        <note xml:id="i-W5QeKX2rzSKrL93FmQqP8f">
+          nr 130, angående användande av riksbankens vinst för år 1932;
+        </note>
+        <note xml:id="i-3GGwf7G5W1cGzsEM2KF42J">
+          nr 131, rörande förslag till lag angående ändring i vissa delar
+          av lagen den 12 maj 1917 (nr 189) om expropriation;
+        </note>
+        <note xml:id="i-HhgvWuhNnwsxsuNEnCy9Zy">
+          nr 132, rörande förslag till lag om ändrad lydelse av 38 8 1
+          mom. samt 64 och 66 88 kommunalskattelagen den 28 september 1928
+          m. m.;
+        </note>
+        <note xml:id="i-Ff1VvT1bDrMnWtgpv6KPcT">
+          nr 133, rörande förordning om fortsatt giltighet av förordningen
+          den 17 Juni 1932 angående rätt för Konungen att åsätta särskild
+          tullavgift;
+        </note>
+        <note xml:id="i-HwYKfHeXDrTC6H739aDusz">
+          nr 134, rörande förslag till förordning om fortsatt tillämpning
+          under budgetåret 1933/ 1934 av förordningen den 8 juni 1923 (nr
+          155) angående omsättningsoch utskänkningsskatt å spritdrycker;
+        </note>
+        <note xml:id="i-9DcGWngARN49X9dSYCCm1H">
+          nr 135, rörande förordning om tillfällig begränsning av den i
+          5 $ förordnint gen den 1 juli 1918 angående handel med skattefri
+          sprit partihandlare medgivna rätt att inköpa brännvin, som framställes
+          ur avfallslut vid sulfitcellulosatillverkning, m. m.; |
+        </note>
+        <note xml:id="i-S1X2foqiNh3ruxzDFrtL67">
+          nr 136, rörande förordning om extra inkomstoch förmögenhetsskatt;
+        </note>
+        <note xml:id="i-CixVyx6GGPSmTEdiSgLRnD">
+          nr 137, rörande bemyndigande för Kungl. Maj:t att meddela förbud
+          mot tillverkning av brännvin av sockerbetor under tillverkningsåret
+          1933/1934;
+        </note>
+        <note xml:id="i-QTkQyMMgXwwYG5NqLemycg">
+          nr 138, rörande förordning om accis å margarin m. m.
+        </note>
+        <note xml:id="i-SPPDaMh8CmpVX1nvjtkNU6">
+          nr 139, rörande anslag för avsättning till statens mjölkregleringsfond;
+        </note>
+        <note xml:id="i-AZRxtZdJEWx1ZzzyCZBHEY">
+          nr 140, rörande statlig exportkreditgaranti;
+        </note>
+        <note xml:id="i-Rj5UAqzZ2ytn3g18TN1iE9">
+          nr 141, rörande anslag till uppförande av byggnader för statens
+          bakteriologiska laboratorium;
+        </note>
+        <note xml:id="i-7Y8N9uUGPsvP2K3jAVYyms">
+          nr 142, rörande "anslag till vissa byggnadsarbeten vid statens
+          sinnessjukhus m. m.;
+        </note>
+        <note xml:id="i-CctXQQF9sV3PoRq8WHRG2d">
+          nr 143, rörande anslag till utbyggnad av tvättinrättning vid
+          statens tvångsarbetsanstalt i Landskrona;
+        </note>
+        <note xml:id="i-FgPccpG5EB6jKGAJQNUgeS">
+          nr 144, rörande anslag till ny ladugård m. m. vid statens uppfostringsanstalt
+          för sinnesslöa gossar;
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1933--fk--49/prot_1933__fk__49-006.jp2/_view"/>
+        <note type="date" xml:id="i-3trx6rRLBccDxUHdjnHtSk">
+          Fredagen den 30 juni. Nr 49. 7
+        </note>
+        <note xml:id="i-3PmDyiCmwp9GJJFz98NpvW">
+          nr 145, rörande anslag till allmänna arbeten, avseende jordbruksdepartementets
+          verksamhetsområde;
+        </note>
+        <note xml:id="i-2mRCmtLgD555Cfrvmk4DBe">
+          nr 146, rörande anslag till allmänna arbeten, avseende handelsdepartementets
+          verksamhetsområde;
+        </note>
+        <note xml:id="i-Ur7RdSBbLxvCdGcr7jJ97c">
+          nr 147, rörande vidtagande av reparationsoch omändringsarbeten
+          i en bostadsvilla vid statens växtskyddsanstalt;
+        </note>
+        <note xml:id="i-QeuNpciZF6yFxVf3CVCxM">
+          nr 148, rörande anslag till arbeten till motverkande av arbetslösheten
+          samt till bekämpande av arbetslösheten;
+        </note>
+        <note xml:id="i-GGKzGTeijjVwM5RoXnqVRF">
+          nr 149, i anledning av vissa utav Kungl. Maj:t i statsverkspropositionen
+          under utgifter för kapitalökning gjorda framställningar angående
+          anslag dels till torrläggningsföretag, dels ock till skogsvårdsåtgärder;
+        </note>
+        <note xml:id="i-9j9h6tJRe1cNvZ53gT7fN7">
+          nr 150, rörande anslag till allmänna arbeten, avseende kommunikationsdepartementets
+          verksamhetsområde;
+        </note>
+        <note xml:id="i-EzYWsSmEjJodGPr5tJAJHB">
+          nr 151, rörande anslag till allmänna arbeten, avseende ecklesiastikdepartementets
+          verksamhetsområde;
+        </note>
+        <note xml:id="i-W2zrTHPbhXWce3a68h3qed">
+          nr 152, rörande jämkning i den tekniska utformningen av dispensbestämmelserna
+          i lagen angående förbud i vissa fall för bolag, förening och stiftelse
+          att förvärva fast egendom;
+        </note>
+        <note xml:id="i-MbNGLLnKUgRvpjNeRFf3uN">
+          nr 153, rörande lag om ändrad lydelse av 6 8 lagen den 12 maj
+          1897 för Sveriges riksbank;
+        </note>
+        <note xml:id="i-82KXExBR7Ytp9hxW9FQ1XA">
+          nr 154, rörande lag angående rätt för Konungen att i vissa fall
+          inställa tilllämpningen av 10 $ andra stycket lagen för Sveriges
+          riksbank den 12 maj 1897 och av $$ 9 och 17 lagen om rikets mynt
+          den 30 maj 1873;
+        </note>
+        <note xml:id="i-JRs3aMeYVEFsYZ5Txe4FFy">
+          nr 155, rörande förordning om ändrad lydelse av $$ 2 och 3 förordningen
+          den 5 juni 1909 angående konungariket Sveriges stadshypotekskassa,
+          m. m.;
+        </note>
+        <note xml:id="i-FNyPs3YzAQFMahZU891wMc">
+          nr 156, rörande förslag till lag om ändrad lydelse av 2 och 5
+          $$ lagen den 11 oktober 1907 (nr 85) angående civila tjänstinnehavares
+          rätt till pension, m. m.;
+        </note>
+        <note xml:id="i-Y1Xnm4bLgXUQt1ijiRMC8D">
+          nr 157, rörande förslag till förordning angående mjölkavgift
+          m. m.;
+        </note>
+        <note xml:id="i-RNfsFjQfJLH9bL53LxzQ4Y">
+          nr 158, rörande beräkning av bevillningarna för budgetåret 1933/1934,
+          m. m.;
+        </note>
+        <note xml:id="i-fQjYMvJhqtfDYHfkhp5cC">
+          nr 159, rörande förslag till förordning om erkända arbetslöshetskassor
+          m. m.;
+        </note>
+        <note xml:id="i-6EAzf9hvmCgaVzrMnV1BMT">
+          nr 160, rörande förslag till lag angående ändrad lydelse av 1
+          $&amp; lagen den 8 april 1927 (nr 77) om försäkringsavtal;
+        </note>
+        <note xml:id="i-KSoTfNBBY9XKDRBjAxJkrA">
+          nr 161, rörande anslag till vissa kostnader för arbetslöshetsförsäkringens
+          organisation m. m.;
+        </note>
+        <note xml:id="i-BfkjHPbTjNhPqnXWRQXeQG">
+          nr 162, rörande förslag till lag om offentlig arbetsförmedling
+          m. m.;
+        </note>
+        <note xml:id="i-9Rp4zWitCCnBU2HdNWqt9E">
+          nr 163, rörande redovisning i riksstaten för budgetåret 1933/1934
+          av vissa anslag för offentliga arbeten m. m.;
+        </note>
+        <note xml:id="i-6VHeMbwqTe3h1howdG5P7j">
+          nr 164, rörande förslag till förordning om kvarlåtenskapsskatt
+          m. m.;
+        </note>
+        <note xml:id="i-UFVr4qqWu4DgFX8xseEEaD">
+          nr 165, rörande anslag till avskrivning av visst i fonden för
+          förlag till statsverket ingående lånekapital;
+        </note>
+        <note xml:id="i-ANe8KeCX43wyRaDpGR2Nuo">
+          nr 166, rörande förslag till vapenkungörelse m. m.;
+        </note>
+        <note xml:id="i-Smkx1QH6fLdpVt6RHNb9as">
+          nr 167, rörande grunder för dyrtidstillägg under ecklesiastikåret
+          1933/1934 åt dels kyrkoherdar och komministrar i nyreglerade pastorat
+          samt kontraktsprostar och vissa extra ordinarie präster, dels
+          ock innehavare av prästerliga emeritilöner;
+        </note>
+        <note xml:id="i-HUZMrDEdaYKg6XgW65sryU">
+          nr 168, rörande förslag till förordning om frihet från stämpel
+          å bevis över tillstånd att fortfarande innehava deklarerat skjutvapen;
+        </note>
+        <note xml:id="i-KoV9gz2MLK9PvdgUegfdTr">
+          ar 169, rörande val av tre fullmäktige i riksbanken samt tre
+          fullmäktige i riksgäldskontoret ävensom suppleanter för dem;
+        </note>
+        <note xml:id="i-BhMq3NwSLpbZP1zke4Ddzx">
+          nr 170, rörande val av ledamöter och suppleanter i styrelsen
+          för riksdagsbiblioteket;
+        </note>
+        <note xml:id="i-Vxk3oxF3McEUXJb2AcAffq">
+          nr 171, rörande användande av visst belopp ur fonden för mötande
+          av för-
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1933--fk--49/prot_1933__fk__49-007.jp2/_view"/>
+        <note type="date" xml:id="i-HyxsJGBtYJ9YcZX9781Jkb">
+          8 Nr 49. Fredagen den 30 juni.
+        </note>
+        <note xml:id="i-W88QnRMJCfNSPbd2csmdsQ">
+          luster å Aktiebolaget Kreditkassan av år 1922 till avlyftande
+          av kassans skuld till riksbanken;
+        </note>
+        <note xml:id="i-Kk6AmZn3gL4A7gg9bCETvX">
+          nr 172, i avseende å statsregleringen och andra med statsverket
+          gemenskap ägande ämnen i vad angår frågor, behandlade av statsutskottet;
+        </note>
+        <note xml:id="i-CeP4scgKUGky3yZvwfaCFg">
+          nr 173, i avseende å statsregleringen och andra med statsverket
+          gemenskap ägande ämnen i vad angår frågor, behandlade av jordbruksutskottet;
+        </note>
+        <note xml:id="i-FoHPAZWRhjevFMT6azwkoy">
+          nr 174, i avseende å statsregleringen och andra med statsverket
+          gemenskap ägande ämnen i vad angår frågor, behandlade av bankoutskottet;
+        </note>
+        <note xml:id="i-VqSJ1seTmTMyfLHMk8ZddN">
+          nr 175, rörande åtskilliga på grund av $ 89 regeringsformen väckta
+          frågor; samt
+        </note>
+        <note xml:id="i-LDqpY4FeU93K8ULjpJ7hoe">
+          nr 176, rörande statsregleringen för budgetåret 1933/1934.
+        </note>
+        <note xml:id="i-JF8hDhpo3QB7M3GDfE6Rez">
+          Justerades ett protokollsutdrag för denna dag.
+        </note>
+        <note xml:id="i-QSsAfszW4RVUbbD7oJmWQH">
+          På hemställan av herr talmannen beslöt kammaren nu, kl. 11.02
+          f. m., att ajournera sina förhandlingar till kl. 11.15 f. m.
+        </note>
+        <note xml:id="i-LxQ3MEvNGtdLaCYJhPFEFF">
+          Till åtlydnad av Kungl. Maj:ts kallelse avgingo herr talmannen
+          samt kammarens ledamöter kl. 11.15 f. m. till Storkyrkan, där
+          riksdagspredikan hölls av förste sekreteraren i svenska kyrkans
+          diakonistyrelse, pastorn Tord Ström.
+        </note>
+        <note xml:id="i-JHFA4E1AVMCUftxT535LNa">
+          Efter gudstjänstens slut begav sig kammaren till rikssalen, där
+          jämväl andra kammaren infann sig.
+        </note>
+        <note xml:id="i-HDBu8xPgw7Jo3HptwoZ3Eh">
+          Herr statsrådet och chefen för justitiedepartementet Schlyter
+          uppläste Kungl. Maj:ts förordnanden för hans excellens herr statsministern
+          Hansson att å Kungl. Maj:ts vägnar meddela riksdagen Kungl. Maj:ts
+          svar på riksdagens skrivelse den 2 maj 1933 angående av riksdagen
+          antagna ändringar i rikets grundlagar ävensom att avsluta riksdagen.
+          Berörda svar, som var skriftligen avfattat, blev sedermera uppläst
+          och överlämnat av hans excellens herr statsministern.
+        </note>
+        <note xml:id="i-6nHhKz8iB518aBpbLJU9hp">
+          Sedan härefter talmännen var för sig framfört kamrarnas undersåtliga
+          välönskningar och riksdagsbeslutet blivit av herr statsrådet och
+          chefen för justitiedepartementet Schlyter uppläst, förklarade
+          hans excellens herr statsministern i enlighet med det honom lämnade
+          uppdraget 1933 års lagtima riksdag vara avslutad.
+        </note>
+        <note xml:id="i-To8ouPbnASWadzY1BujE5D" type="speaker">
+          Efter det första kammarens ledamöter återkommit till samlingsrummet
+          och där intagit sina platser, framträdde herr Vennersten till
+          talmansbordet och yttrade:
+        </note>
+        <u who="i-UKN14qkeNNkW3DNEKGfGbE" xml:id="i-xHhDLukQHh6ACXdQ2gepA" next="i-HL4JyaePjPdu9r11ZiWqRi">
+          <seg xml:id="i-P6VL1iMUqTF2kT7ANbUQzU">
+            Mina herrar! Då den tjänstförrättande prästmannen uppe i kyrkan
+            i dag påminde om att detta vore sista gången som en svensk riksdag
+            avslutas med gudstjänst, kände jag mig manad att för mig själv
+            klargöra, att detta ingalunda betyder något annat än en mycket
+            naturlig följd av den förenkling i övrigt, som vidtagits i fråga
+            om riksdagens avslutande. Ännu står dock grundlagsfäst kvar, att
+            därest Hans Maj:t Konungen skulle vid något tillfälle själv önska
+            avsluta riksdagen, så kommer detta att ske i den gamla ordningen.
+          </seg>
+        </u>
+        <u xml:id="i-HL4JyaePjPdu9r11ZiWqRi" prev="i-xHhDLukQHh6ACXdQ2gepA" who="i-UKN14qkeNNkW3DNEKGfGbE" next="i-Y135SJ8m8qEmUrJEMjebaH">
+          <seg xml:id="i-XmuHN7kouRvWuh2DY9PZwp">
+            Det må icke ha så mycket att betyda, att gudstjänst nu praktiskt
+            taget för sista gången förekommit, då anledningen därtill är den
+            nyssnämnda förenk-
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1933--fk--49/prot_1933__fk__49-008.jp2/_view"/>
+        <note type="date" xml:id="i-4Jr8fXxcZiHnp9JpN6KHKD">
+          Fredagen den 30 juni. Nr 49. 9
+        </note>
+        <u xml:id="i-Y135SJ8m8qEmUrJEMjebaH" prev="i-HL4JyaePjPdu9r11ZiWqRi" who="i-UKN14qkeNNkW3DNEKGfGbE" next="i-2j9JYLvJbsvrdaXDKRcjhp">
+          <seg xml:id="i-BMmbcjMFgL3GUGW1K6ZwSD">
+            lingen i arbetsformerna, som vi hoppas skall visa sig vara väl
+            funnen och leda till det mål, som eftersträvats: tidsbesparing
+            och förenkling överallt, där de gamla formerna ha så att säga
+            överlevat sig själva. Så har faktiskt skett, så vitt jag förstår,
+            inte bara därigenom, att Hans Maj:t Konungen numera i regel icke
+            avslutar riksdagarna, utan ännu mera därigenom, att riksdagarna
+            sluta på ett sätt, som gör, att praktiskt taget riksdagsmännen
+            — med undantag för det fåtal, som vi känna till — icke längre
+            äro närvarande på den plats, där riksdagen hålles.
+          </seg>
+        </u>
+        <u xml:id="i-2j9JYLvJbsvrdaXDKRcjhp" prev="i-Y135SJ8m8qEmUrJEMjebaH" who="i-UKN14qkeNNkW3DNEKGfGbE" next="i-61ptspuhMJsazE2spH9G9X">
+          <seg xml:id="i-FHjQGHXJ95bwXkDDUUR9XT">
+            I ett annat avseende har emellertid denna riksdag ett särmärke,
+            som man må beklaga eller blott konstatera, alltefter tycke och
+            smak. Redan förra året tillät jag mig vid ett tillfälle motsvarande
+            detta framhålla, hurusom man finge gå tillbaka tio år i tiden
+            för att finna ett motstycke till en riksdag av fen varaktighet
+            som förra årets. Denna slutade den 20 juni. I år stå vi nu här
+            samlade efter avslutad riksdag på det löpande budgetårets sista
+            dag, och man kan väl uttala den önskan, att vi icke hädanefter
+            skola behöva uppleva en ytterligare förlängning av riksdagen in
+            på ett börjande nytt budgetår.
+          </seg>
+        </u>
+        <u xml:id="i-61ptspuhMJsazE2spH9G9X" prev="i-2j9JYLvJbsvrdaXDKRcjhp" who="i-UKN14qkeNNkW3DNEKGfGbE" next="i-DmFT9xFdWwHgHTrbs18XWY">
+          <seg xml:id="i-8hE7e4en4gxWRNsaohgJ5K">
+            Men det är inte underligt, om denna riksdag varit osedvanligt
+            lång och arbetsam och varat längre än någon föregående riksdag,
+            sedan den nu gällande riksdagsordningen trätt i kraft — jag undantar
+            då givetvis de riksdagar, som funnits vid liv, om jag så får kalla
+            det, under sommaren men som hade inträtt i ett skede av overksamhet.
+            Det är inte underligt, säger Jag, om vi nödgats stanna kvar så
+            länge här uppe i Stockholm vid denna riksdag. Trots alla våra
+            varma önskningar om en förbättring i det allmänna läget ha — om
+            också vissa tecken försports i sådan riktning — alltjämt stått
+            kvar en mängd missförhållanden och svårigheter, följder av den
+            allbekanta orsak, som jag här inte behöver omnämna, emellertid
+            tillräckligt bekymmersamma för statsmakterna för att påkalla allvarliga
+            beslut, djupt ingripande åtgärder, genom vilka statsmakterna söka
+            möta stundens farligheter och besvär.
+          </seg>
+        </u>
+        <u xml:id="i-DmFT9xFdWwHgHTrbs18XWY" prev="i-61ptspuhMJsazE2spH9G9X" who="i-UKN14qkeNNkW3DNEKGfGbE" next="i-9epuSXxuUCi2UUWYutSsNG">
+          <seg xml:id="i-Lu2oFJvKjopT4FaCxBvfMn">
+            Nu skulle man ju kunna säga, att så länge världsläget inte förbättras,
+            kämpa vi fåfängt, varje nation för sig, för att råda bot på uppenbara
+            olägenheter, som vi äro skyldiga att söka råda bot för. Men även
+            om det skulle dröja mycket länge ännu, innan den efterlängtade
+            förbättringen inträder i det allmänna världsläget, utan vilken
+            våra bemödanden icke kunna ge något varaktigt gott resultat, så
+            tillkommer det statsmakterna, såsom vi alla veta, att även sörja
+            för stundens växlande behov. Allvarliga beslut ha vi fattat, och
+            allas vår önskan är ju, att de förhoppningar, som man ställer
+            på verkan av dessa beslut, måtte gå i uppfyllelse. Det gäller
+            även dem, som hyst eller ännu hysa farhågor i fråga om möjligheten
+            att med vidtagna åtgärder råda bot för det onda vi vilja avhjälpa.
+            Även hos dem, menar Jag, måste kvarstå den känslan, att i det
+            läge, varuti vi råkat, och efter det att riksdagen fattat sina
+            beslut, tillkommer det oss alla och envar att göra det bästa av
+            det sålunda uppkomna läget. Jag är övertygad om att den meningen
+            är allmän, och vi kunna därtill blott foga en varm önskan, nu
+            som tidigare, att den nyss omnämnda förbättringen i det allmänna
+            världsläget icke måtte alltför länge låta vänta på sig.
+          </seg>
+        </u>
+        <u xml:id="i-9epuSXxuUCi2UUWYutSsNG" prev="i-DmFT9xFdWwHgHTrbs18XWY" who="i-UKN14qkeNNkW3DNEKGfGbE" next="i-F8T17eiAYXfQdiKnFRbCaV">
+          <seg xml:id="i-95D19Chrzvi4SuRfnxkFg9">
+            För talmannen har den gångna riksdagen varit en förnyad angenäm
+            upplevelse — lagd till många föregående av samma art — på grund
+            av det förtroende, som kammarens ledamöter undantagslöst visat
+            talmannen. Härför kan jag blott uttala mitt allra vördsammaste
+            och hjärtliga tack. Detta tack riktar jag såväl till de närvarande
+            kammarkamraterna som till de frånvarande, vilka tidigare måst
+            lämna riksdagen.
+          </seg>
+        </u>
+        <u xml:id="i-F8T17eiAYXfQdiKnFRbCaV" prev="i-9epuSXxuUCi2UUWYutSsNG" who="i-UKN14qkeNNkW3DNEKGfGbE" next="i-Ngawp7jogmPaWriQ8b5KJf">
+          <seg xml:id="i-4XH6bsVcb21pnLuGkWeS9n">
+            Jag vill inte underlåta att vid detta tillfälle framföra ett
+            särskilt tack till mina kamrater i presidiet, vilka på ett sätt,
+            som herrarna själva kunnat bevittna, varit talmannen till all
+            den hjälp han rimligen kunnat begära.
+          </seg>
+        </u>
+        <note xml:id="i-EadCouA58r3Z5awGHjCRDT">
+          Första kammarens protokoll 1933. Nr 49. 2
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1933--fk--49/prot_1933__fk__49-009.jp2/_view"/>
+        <note type="date" xml:id="i-cGXgFXWAy5fvAgq1o2dyP">
+          10 Nr 49. Fredagen den 30 juni.
+        </note>
+        <u xml:id="i-Ngawp7jogmPaWriQ8b5KJf" prev="i-F8T17eiAYXfQdiKnFRbCaV" who="i-UKN14qkeNNkW3DNEKGfGbE" next="i-6o7R44xsNVd1RPXqopcnPd">
+          <seg xml:id="i-MpV5ocz99CJBantYqtvp4j">
+            Må det slutligen tillåtas mig, ehuru det är av mera privat natur,
+            att till dessa tacksamhetsbetygelser foga ett lika varmt för de
+            många bevis på vänskap, välvilja och förståelse, som kommo mig
+            såsom privatman till del vid en bemärkelsedag i början av denna
+            riksdag.
+          </seg>
+        </u>
+        <u xml:id="i-6o7R44xsNVd1RPXqopcnPd" prev="i-Ngawp7jogmPaWriQ8b5KJf" who="i-UKN14qkeNNkW3DNEKGfGbE">
+          <seg xml:id="i-V3EeQDx3tZgwXec5qnkyKe">
+            Tack, mina herrar, och farväl!
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-ECNwvZ1iRsr7LmNw6tG3MC">
+          Detta tal besvarades av herr Lindhagen i följande ordalag:
+        </note>
+        <u who="i-XzSzFtnrtwQBSXHVwVhrCf" xml:id="i-3e2b66b881e133dd-0" next="i-3e2b66b881e133dd-1">
+          <seg xml:id="i-D2FeUB46AcJZNBLkAMhoBb">
+            Herr talman! Arets riksdag är nu till ända, det långvarigaste
+            riksmötet efter 1866 års representationsreform.
+          </seg>
+          <seg xml:id="i-AA5R36VUueQGq9UTZFAJ9n">
+            En ny epok står i sitt vardande. Maskinerna ha utträngt handens
+            arbete, lössläppt våra blindaste lidelser och möjliggjort gigantiska
+            krigföringar. Gamla befästningar ha därför uppgivits, byggnadsverk
+            utdömts och sinnelagen börjat drabbas av förvandlingens lag.
+          </seg>
+          <seg xml:id="i-2VZNfd3NsmrQCp8ERmDLCp">
+            Förnimmelser i födslovånda varsla om gemensamt ansvar för lotsande
+            av våra farkoster genom bränningarna och skyddandet av de svaga
+            och övergivna. Riksdagen har gjort vad den kunnat. Det blir visserligen
+            vanskligare att utföra vad som beslutats. En fortsättning på den
+            goda viljans väg bör dock kunna skapa någon rätsida även på villovägar.
+          </seg>
+          <seg xml:id="i-FNJDcW7LCZoLmceVPwtL4d">
+            Vad skall nu komma efter denna nödhjälp för ett budgetår? Den
+            frågan reser sig odebatterad och olöst, men dock allvarligt spörjande
+            framför oss.
+          </seg>
+          <seg xml:id="i-J1Ym3aEfTqF64KuFuXuwKq">
+            Riksdagens jordbrukshjälp nådde ej fram till den bidande jordreformen
+            för ytterligare brytande av enskilda jordmonopol genom tillgodogörande
+            av landets för ändamålet många gånger inventerade odlingsmöjligheter.
+            Den vägen till produktiv självhjälp uteslöts från partiernas överenskommelse.
+            Den bidar sin tid och denna kommer.
+          </seg>
+          <seg xml:id="i-9gr1Cepu61xqsb7SYk45eJ">
+            Första upptakten mot ungdomens arbetslöshet måste väl vara att
+            för ungdomen öppna portarna till näringarna och arbetet. Dessa
+            stängas allt mera av monopolsträvanden.
+          </seg>
+          <seg xml:id="i-RqezQeD5bbJcrLTLiB7p3x">
+            Den oundgängliga kraftmätningen hitintills mellan företagare
+            och löntagare genom lockouter och strejker kan väl ej heller i
+            alla tider vara livets mening.
+          </seg>
+          <seg xml:id="i-Q6hagb126HmC2FGtyFc83X">
+            Vidare vänta vi bland annat icke minst på demokratiens självprövning.
+            Om demokratien vegeterar eller blott snickrar nyttiga småverk
+            i stora tider, kommer kanske även hos oss en folkmajoritet att
+            uppdraga åt enväldet i den ena eller andra skepnaden att jämväl
+            gå till grunden av tingen.
+          </seg>
+          <seg xml:id="i-GNqQJZmp65StVQgzC7HArc">
+            Icke mindre pockande reser sig utåt samgåendet mellan stater
+            och raser. Den skandinaviska folkfamiljen skrämmes av de stora
+            dragen i detta problem. Den tror vad håglösheten viskar till oss,
+            att striden är för stor för vår förmåga. Och dock varest två eller
+            tre äro församlade i sanningens namm, där är den mitt ibland dem.
+          </seg>
+          <seg xml:id="i-AsexdpQGgPir5hDtxVJJ57">
+            Inom den ekonomiska världskonferensen tror man nu i dagarna,
+            att det betydande arbetet för att sätta konferensens resolutioner
+            i kraft knappast kan förväntas av de olika regeringarna. Det kan
+            endast »komma till stånd inom små grupper av makter, som äro av
+            verklig betydelse». Däri ligger förmodligen en hyllning närmast
+            till den spirande ententen mellan fyra europeiska stormakter.
+            De utsikterna äro dock ovissa, i vissa fall kanske farliga. De
+            färgade raserna kunna i varje fall knappast motse ett obetingat
+            erkännande av sin suveränitet över det egna fäderneslandet.
+          </seg>
+          <seg xml:id="i-5JtrbnaQ9EU6SqHjPb1B8Y">
+            Opinionen inom konferensen hänvisar emellertid till mer än en
+            grupp. Årets svenska riksdag har instämt i konstitutionsutskottets
+            uttalade tillfredsställelse inför tanken på ett ekonomiskt och
+            kulturellt samförstånd mellan de mindre baltiska staterna. Utrikesministern
+            har i första kammaren tillkännagivit, att svenska regeringen vore
+            »varmt villig medverka därtill». Det får väl då förmodas, att
+            efter sommarsemestern och den ekonomiska världskon-
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1933--fk--49/prot_1933__fk__49-010.jp2/_view"/>
+        <note type="date" xml:id="i-9KHA621xNa9mJpf2oJi4ry">
+          Fredagen den 30 juni. Nr 49. 11
+        </note>
+        <u who="i-XzSzFtnrtwQBSXHVwVhrCf" xml:id="i-3e2b66b881e133dd-1" prev="i-3e2b66b881e133dd-0">
+          <seg xml:id="i-D9fhn6v6KusUP461GBSkof">
+            ferensens berörda inställning även någon spirande handling skall
+            utkristallisera sig.
+          </seg>
+          <seg xml:id="i-Kw2Q3rbKunkwqqgiuosM9K">
+            Den bordlagda stora rustningsmänskningskonferensen kämpar likaledes
+            med vanskligheter. Den hotar att förkvävas av de djupliggande
+            realiteternas frånvaro på programmet och att sönderslitas av stormakters
+            begripliga dagspolitiska särintressen.
+          </seg>
+          <seg xml:id="i-4btNZdzPuRfccXFN9U5yGb">
+            Ligger ej 1 allt detta en förväntan på de mindre staterna, på
+            deras initiativ till vakna drömmar om utvecklingens cirkelgång,
+            om samvetsstatens odödliga tillblivelse, om samförståndet mellan
+            livets grundvalar: individen, hemmet, landet och mänskligheten.
+          </seg>
+          <seg xml:id="i-34pqdJrQB1gUqnsG3BxmKE">
+            Med andra ord, en begynnande pioniering för något fjärde rike,
+            med överhoppande av de många första, andra och tredje rikena,
+            ett rike, där grymhetens renässans och slavstatens vidmakthållande
+            i gammal eller ny mening ej vidare äro oundgängliga milstopar
+            för folkens historiska vandringar per aspera ad astra, genom hårda
+            öden mot stjärnorna.
+          </seg>
+          <seg xml:id="i-T5evr2Lx5s86peB16HpUPG">
+            Herr talman, vi äro trötta efter riksdagens möda och bekymmer.
+            Vi längta till högsommarens förnyelse — till hemmen, odlingarna,
+            hagarna, skogarna och fjällen i detta sjöbemängda och havomflutna
+            land, till det gamla landet, som förblir alltid ungt.
+          </seg>
+          <seg xml:id="i-7ZCoJtiSghJCr4FgP8S8E4">
+            Därtill knyta vi en hyllning till Eder, herr talman, för Eder
+            vänsälla, klara och rätliniga ledning av våra förhandlingar. Det
+            skall bli oss kärt att nästa riksdag återfinna Eder med stärkta
+            krafter på Eder plats enligt partiernas enhälliga samförstånd.
+          </seg>
+          <seg xml:id="i-9ApBBjY6Y2XuXMj2phhrsc">
+            För visso få vi då fortfarande åtnjuta även Edert gosselynnes
+            tysta medgivande ibland till våra snedsprång över en alltjämt
+            oreviderad grundlags 1 mångt och mycket föråldrade skrankor.
+          </seg>
+        </u>
+        <note xml:id="i-Sf49FCTSz7VKg6A5kAYbtJ">
+          Kammarens ledamöter åtskildes kl. 12.40 på dagen.
+        </note>
+        <note xml:id="i-Aju5shMTSj4tbmFAdbZRNH">
+          In fidem G. H. Berggren.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

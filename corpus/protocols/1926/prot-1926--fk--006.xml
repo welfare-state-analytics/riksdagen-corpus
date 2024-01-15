@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1926</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1926</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,1093 +25,1066 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1926--fk--6</head>
-          <docDate when="1926-01-29">1926-01-29</docDate>
-          <docDate when="1926-01-31">1926-01-31</docDate>
-          <docDate when="1926-02-01">1926-02-01</docDate>
-          <docDate when="1926-02-02">1926-02-02</docDate>
-          <docDate when="1926-02-03">1926-02-03</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-000.jp2/_view"/>
-          <note xml:id="i-APH6RLStKh2cr3thLSQ75u">
-            RIKSDAGENS PROTOKOLL.
-          </note>
-          <note xml:id="i-Fnr91M3DAgKXzopZeCnHrY">
-            1926. Första kammaren. Nr 6.
-          </note>
-          <note type="date" xml:id="i-9CJJ3oYP1wk88xcAfrYz4y">
-            Fredagen den 29 januari.
-          </note>
-          <note xml:id="i-BFE8VdwWiFhg4wE5BAfXKz">
-            Kammaren sammanträdde kl. 3.30 e. m.; och dess förhandlingar
-            leddes av herr förste vice talmannen.
-          </note>
-          <note type="speaker" xml:id="i-AEuwfXPAmA5ZyrLbCgxygg">
-            Herr statsrådet Nothin avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-PanPBSjSvoGoYh5BdhsM1">
-            ts propositioner:
-          </note>
-          <note xml:id="i-3k6qpoMQ2zfdQwxyfnf4xa">
-            nr 38, med förslag till lag om delning av jord å landet m. m.;
-            |
-          </note>
-          <note xml:id="i-Kvm8dZzckZYkHgxcfsqGkV">
-            nr 45, angående ändrad disposition av Kinna &amp; Örby egnahemsförening
-            u. p. a. för 1925 beviljat lån från egnahemslånefonden; |
-          </note>
-          <note xml:id="i-L2dpCQR7vpTGKkuhoAZgrM">
-            nr 48, angående omorganisation av stiftsoch läroverksbiblioteket
-            i Linköping; samt |
-          </note>
-          <note xml:id="i-UsdfQy6ciNWCGqQdLNVeqv">
-            nr 49, angående anslag för vetenskaplig bearbetning av vissa,
-            av professor J. G. Andersson hopbragta ostasiatiska arkeologiska
-            samlingar.
-          </note>
-          <note xml:id="i-T6t31HkGtxb1okdYXzcpBE">
-            Herr statsrådet Wigforss avlämnade Kungl. Maj :ts proposition
-            nr 51, med förslag till förordning om vissa ändringar i förordningen
-            den 13 december 1912 (nr 355) angående tullrestitution i vissa
-            fall vid återutförsel av utländsk vara.
-          </note>
-          <note xml:id="i-WRnkQfex5U8UBK61oFiaci">
-            Anmäldes och bordlades bevillningsutskottets betänkanden:
-          </note>
-          <note xml:id="i-WqR9XkjoYzRQuU1YTUdjUm">
-            nr 1, i anledning av Kungl. Maj:ts proposition med förslag till
-            förordning om fortsatt tillämpning av förordningen den 27 april
-            1923 angående rätt för Konungen att i visst fall åsätta särskild
-            tullavgift;
-          </note>
-          <note xml:id="i-gsBhnStmTKnUpAEDDhM93">
-            nr 2, i anledning av Kungl: Maj:ts proposition med förslag till
-            förordning med särskilda bestämmelser om avdrag vid 1927 års taxering
-            till inkomstoch förmögenhetsskatt samt till bevillning av inkomst
-            m. m.;
-          </note>
-          <note xml:id="i-K5fNuq5QrPBcrWcmSenVr4">
-            nr 3, i anledning av väckt motion om tullfrihet för kaleiummolybdat
-            m. m.;
-          </note>
-          <note xml:id="i-WsBjRafNkSE3LfnJkfLyMQ">
-            nr 4, i anledning av väckt motion om skrivelse till Kungl. Maj:t
-            rörande sänkning av tullen å galoscher; samt
-          </note>
-          <note xml:id="i-S8VDubPW3888uxUgnrVQyY">
-            nr 5, i anledning av väckt motion angående tullen å motorvelocipeder.
-          </note>
-          <note xml:id="i-PkMVpoJjmqcjLcrwm8k8Ej">
-            Föredrogs konstitutionsutskottets memorial nr 1, i anledning
-            av första kammarens remiss av motionen nr 160 av herr Almkvist,
-            med anledning av Kungl.
-          </note>
-          <note xml:id="i-8YbfJTvxLwxnQDadK8fNvv">
-            Maj:ts förslag till lag om ändrad lydelse av 5 $ i lagen om Kungl.
-            Maj:ts Tegeringsrätt.
-          </note>
-          <note xml:id="i-7Tv4yC3YHKUJdkLDWXnB4G">
-            . Memorialet lades till handlingarna och ifrågavarande motion
-            hänvisades till behandling av lagutskott.
-          </note>
-          <note xml:id="i-PqL5mC1shcurdqKajtMsnX">
-            Föredrogs, men bordlades ånyo på flera ledamöters begäran statsutskottets
-            utlåtande nr 11.
-          </note>
-          <note xml:id="i-H4bJTTv6hrS3YjGyz2a4c6">
-            Första kammarens protokoll 1926. Nr 6.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-001.jp2/_view"/>
-          <note xml:id="i-2JUvEnXN5hztLLSA3BiLc8">
-            Nr 6.
-          </note>
-          <note type="date" xml:id="i-JPTs2uJ5xzt4uK665btdWk">
-            2 Fredagen den 29 januari.
-          </note>
-          <note xml:id="i-N66zmrpYSDiBfqBtBaESWf">
-            Vid föredragning av Kungl. Maj:ts denna dag avlämnade propositioner
-            blev propositionen nr 38 på begäran bordlagd, varemot de övriga
-            nu hänvisades, nr 45 till jordbruksutskottet, nr 48 till statsutskottet,
-            nr 49, i vad den avsåg elfte huvudtiteln, till bankoutskottet
-            och i övrigt till statsutskottet samt nr 51 till bevillningsutskottet.
-          </note>
-          <note xml:id="i-HmHm2vWH2LtZmLnmQodUtj">
-            Herr Dalberg väckte en motion, nr 215, om upphävande av eller
-            inskränkning i gällande föreskrifter om världsliga kungörelsers
-            uppläsande i kyrka.
-          </note>
-          <note xml:id="i-JsXsoEDwKyZwB2aAKmpvCh">
-            Motionen blev på begäran bordlagd.
-          </note>
-          <note xml:id="i-9nzCuFexKqHEzPcvWKNVRn">
-            Herr Sederholm avlämnade en av honom m. fl. undertecknad motion,
-            nr 216, i anledning av Kungl. Maj:ts proposition med förslag till
-            förordning om fastighetstaxering år 1927 m. m.
-          </note>
-          <note xml:id="i-F9agLV5shBBmTWRN5wAc7G">
-            Denna motion hänvisades, i vad den avsåg anslag till tickande
-            av de med en allmän fastighetstaxering år 1927 förenade kostnaderna,
-            till statsutskottet och 1 övrigt till bevillningsutskottet.
-          </note>
-          <note xml:id="i-4uEbgQd68TULGDutGEqjtR">
-            Herr Ekman, Karl Johan, väckte en motion, nr 217, angående kristendomsundervisningen
-            i folkskolan.
-          </note>
-          <note xml:id="i-P72E8Wu4fWs6SbJb4zqhBS">
-            Denna motion hänvisades till kammarens första tillfälliga utskott.
-          </note>
-          <note xml:id="i-WoeEacEQD4yjr2pYaeL85o">
-            Ledighet från riksdagsgöromålen beviljades herr Clemedtson för
-            tiden från och med den 1 till och med den 13 nästkommande februari
-            samt herr Dahl, Georg, under 10 dagar, räknat från och med den
-            1 i samma månad.
-          </note>
-          <note xml:id="i-RVuWStp9Z9e8KJqkLu7tqu">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 3,40 e. m.
-          </note>
-          <note xml:id="i-QMrz83kxgZKw2DhARbUR4N">
-            In fidem Lode Wistrand.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-002.jp2/_view"/>
-          <note type="date" xml:id="i-XiXTw2RFHD9g4XscQWQeFx">
-            Måndagen den 1 februari. 3
-          </note>
-          <note type="date" xml:id="i-AaKH5AKgzuuAAtE7nyjoD3">
-            Måndagen den 1 februari.
-          </note>
-          <note xml:id="i-BKEbnetgDiXDVKRwDwn1Hg">
-            Kammaren sammanträdde kl. 8 e. m.; och dess förhandlingar leddes
-            av herr förste vice talmannen.
-          </note>
-          <note type="speaker" xml:id="i-BDmuY6YRMWXxUG2pxjwsv5">
-            Herr statsrådet Larsson avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-MDC8kekqi1C54U5hWouqp5">
-            ts propositioner:
-          </note>
-          <note xml:id="i-STxw7GPkNqhA5fBkPA9jLM">
-            nr 53, angående statsunderstöd ur fonden för bibanor i vissa
-            delar av riket till Ämål Årjängs järnvägsaktiebolag för utförande
-            av ett hamnspår; och
-          </note>
-          <note xml:id="i-KAze8UGttVwMw1VUqW8vLq">
-            H 54, angående ytterligare statsbidrag till iståndsättande av
-            Falkenbergs tullbro.
-          </note>
-          <note xml:id="i-LRAz57VK494a27xkVAUnNE">
-            Upplästes ett från andra kammaren inkommet protokollsutdrag,
-            nr 107, med inbjudning till första kammaren att förena sig med
-            andra kammaren i dess beslut, att ett särskilt utskott, bestående
-            av 20 ledamöter, 10 från vardera kammaren, skulle tillsättas för
-            behandling av ej mindre Kungl. Maj:ts proposition nr 38, med förslag
-            till lag om delning av jord å landet m. m., än även de ytterligare
-            framställningar, som kunde komma att av Kungl. Maj:t eller enskilda
-            motionärer göras 1 detta ämne eller i andra därmed i omedelbart
-            sammanhang stående frågor.
-          </note>
-          <note xml:id="i-ULGCZVxq4onnuKPJ3DVj8a">
-            På gjord proposition beslöt första kammaren antaga berörda inbjudning.
-          </note>
-          <note xml:id="i-LxfDAWnB9XEcktLbfrTAYf">
-            Ett protokollsutdrag i ämnet justerades och avsändes till andra
-            kammaren.
-          </note>
-          <note xml:id="i-ScfPQBLPa23rZDJTLvoWNs" type="speaker">
-            Herr andre vice talmannen erhöll ordet och yttrade:
-          </note>
-          <u who="Q6011346" xml:id="i-JxBVwkqhVXdUsa3a2LZ4He" next="i-D2hiYKwkdVhLUaDJENU8hX">
-            <seg xml:id="i-TffweN3ZeR5qe4KbLLPQqX">
-              Jag tillåter mig hem-
-            </seg>
-          </u>
-          <u xml:id="i-D2hiYKwkdVhLUaDJENU8hX" who="Q6011346" prev="i-JxBVwkqhVXdUsa3a2LZ4He">
-            <seg xml:id="i-Wcwi4fXd62h2NRvnNmp1mT">
-              ställa, att kammaren ville bestämma antalet suppleanter i det
-              nu beslutade särskilda utskottet till 10.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-97Ben12Vcr864sHmouaXNY">
-            Herr Ekman, Carl Gustaf:
-          </note>
-          <u who="Q5630638" xml:id="i-6416867f53bcf060-0" next="i-ADdfDmBbGYRHvMW9b57zKw">
-            <seg xml:id="i-QJn5wtqZTe8Q1YZ87ZSM6M">
-              Jag ber att i detta avseende få föreslå, att anlalet suppleanter
-              måtte bestämmas till 12.
-            </seg>
-          </u>
-          <note xml:id="i-WkWd6H3B2ZjvQzD4JJSkjk">
-            Efter härmed slutad överläggning yttrade herr förste vice talmannen,
-            att därunder yrkats dels, av herr andre vice talmannen, att kammaren
-            skulle besluta att utse 10 suppleanter i det särskilda utskott,
-            som riksdagen beslutit tillsätta, dels ock, av herr Ekman, Carl
-            Gustaf, att antalet suppleanter i nämnda utskott skulle bestämmas
-            till 12.
-          </note>
-          <note xml:id="i-4kqZbHYijW6d3ESi5urYyV">
-            Sedermera gjordes propositioner enligt berörda yrkanden; och
-            förklarades propositionen på bifall till herr Carl Gustaf Ekmans
-            yrkande vara med övervägande ja besvarad.
-          </note>
-          <u xml:id="i-ADdfDmBbGYRHvMW9b57zKw" prev="i-6416867f53bcf060-0" who="Q5630638">
-            <seg xml:id="i-GrZV75r5cNQkQfxAXjRQKt">
-              Herr förste vice talmannen yttrade vidare, att han efter samråd
-              med andra kammarens talman finge föreslå, det första kammaren
-              ville besluta att vid sammanträde, som komme att hållas onsdagen
-              den 3 innevarande månad, företaga val av ledamöter och suppleanter
-              i särskilda utskottet.
-            </seg>
-          </u>
-          <note xml:id="i-T6E4Zb8ePta6t47mQEdj2H">
-            «Vad herr förste vice talmannen sålunda föreslagit bifölls.
-          </note>
-          <note xml:id="i-UJ3T4GPLsB3mX2FipBN1aN" type="speaker">
-            Ordet lämnades härefter till herr andre vice talmannen, som anförde:
-          </note>
-          <u who="Q6011346" xml:id="i-M6fUJDk9jcH9zafwAvSnGq" next="i-DvPc4YoMf5ZQuQ2gzebYJx">
-            <seg xml:id="i-Kt4u8tAMP9BCXpokxQX4ji">
-              Med stöd av $ 55 riksdagsordningen får jag hemställa, att kammaren
-              ville med-
-            </seg>
-          </u>
-          <note xml:id="i-9HzqjzDpGqY1hn3yNcV2vP">
-            Nr 6.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-003.jp2/_view"/>
-          <note xml:id="i-8wJpMkhaLq8WBmkHxBwEPo">
-            Nr 6.
-          </note>
-          <note xml:id="i-PCX8UwohQqv1Y7tr134ECk">
-            Ang. viss motions remitterande till utskott.
-          </note>
-          <note type="date" xml:id="i-2CzYZaMmhSLNNgTCYGX76h">
-            4 Måndagen den 1 februari.
-          </note>
-          <note xml:id="i-J43Ty2CTEcep2dwCdsB8pz">
-            giva, att tiden för avgivande av motioner i anledning av Kungl.
-            Maj:ts Proposition nr 38 med förslag till lag om delning av jord
-            å landet m. m. måtte ut-
-          </note>
-          <u xml:id="i-DvPc4YoMf5ZQuQ2gzebYJx" who="Q6011346" prev="i-M6fUJDk9jcH9zafwAvSnGq">
-            <seg xml:id="i-UzMgJtpqTkZJZ8PqKwAmoQ">
-              sträckas till det plenum, som infaller näst efter tjugu dagar
-              från Propositionens avlämnande.
-            </seg>
-          </u>
-          <note xml:id="i-H9L2VxhiaUWPPRj6Yr6tHJ">
-            Denna hemställan bifölls.
-          </note>
-          <note xml:id="i-HW1RBBAjpo4RpUSGczyjnA">
-            Efter föredragning av Kungl. Maj:ts proposition nr 38, med förslag
-            till lag om delning av jord å landet m. m., hänvisades denna proposition
-            till det särskilda utskott, som riksdagen beslutit tillsätta för
-            propositionens behand-
-          </note>
-          <note xml:id="i-Q6Hrx5NJ532ogZVQAXkT6q">
-            ling.
-          </note>
-          <note xml:id="i-Lq4qsBcji7WQ4mGiocsGSu">
-            Föredrogs herr Dalbergs motion, nr 215, om upphävande av eller
-            inskränkning i gällande föreskrifter om världsliga kungörelsers
-            uppläsande i kyrka.
-          </note>
-          <note type="speaker" xml:id="i-BpyUv1Yu3iMx3PckizfHpD">
-            Herr förste vice talmannen:
-          </note>
-          <u who="Q5932922" xml:id="i-66ec4f89d9a29cb7-0" next="i-66ec4f89d9a29cb7-1">
-            <seg xml:id="i-H5LKna3xqNdVLmF6vC1Xzm">
-              I denna motion hemställer herr Dalberg, att riksdagen måtte besluta
-              en skrivelse till Kungl. Maj:t med anhållan, att Kungl. Maj:t
-              täcktes, så snart ske kan, vidtaga åtgärder för fullständigt upphävande
-              av eller väsentlig inskränkning uti gällande föreskrifter om världsliga
-              kungörelsers uppläsande i kyrka.
-            </seg>
-          </u>
-          <note xml:id="i-LzYe6gFHvDsvSDtL3wa6iT">
-            I $ 42 mom. 1 riksdagsordningen stadgas, att lagutskotten skola
-            meddela utlåtanden och avgiva förslag i anledning av de, såsom
-            icke tillhörande annat utskotts behandling, från kamrarna dit
-            hänvisade frågor om stiftunde, ändring, förklaring eller upphävande
-            av civil-, kriminaloch kyrkolag, likasom ock av andra lagar och
-            författningar, som stiftas av konung och riksdag samfällt.
-          </note>
-          <u who="Q5932922" xml:id="i-66ec4f89d9a29cb7-1" prev="i-66ec4f89d9a29cb7-0" next="i-GQbtGEC3cra2voAVtFKH1Z">
-            <seg xml:id="i-D94adrMgNZTmf2isFDC3us">
-              Då herr Dalbergs motion avser Just en sådan fråga, vilken enligt
-              grundlagen sålunda tillhör behandling av lagutskott, finner jag
-              motionen vara för sent väckt, varför jag är förhindrad att framställa
-              proposition på dess remitterande till utskott.
-            </seg>
-          </u>
-          <note xml:id="i-LmorTZLLCvMuh4pwQTVpfD">
-            Föredrogos, men bordlades ånyo på flera ledamöters begäran bevillningsutskottets
-            betänkanden nr 1--—5.
-          </note>
-          <note xml:id="i-LzMrHiyVetqJ8PkJYocnNc">
-            Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts denna
-            dag avlämnade propositioner nr 53 och 54.
-          </note>
-          <note xml:id="i-A4RFV1sBZHdj5rmSt6tsNM">
-            Avgåvos och bordlades nedannämnda motioner:
-          </note>
-          <note xml:id="i-2xMLD8pj1Za1hhuLA5iVxQ">
-            nr 218, av herr Luterkort, om ändring av $ 21 regeringsformen;
-          </note>
-          <note xml:id="i-HJTRiU3Kk974ZEcnKPE5ip">
-            nr 219, av herr Luterkort, om ändring av $ 43 mom. 2 riksdagsordningen;
-          </note>
-          <note xml:id="i-KantshQxfP5S9XTE1ETYJh">
-            nr 220, av herr Luterkort, om beredande av ökat skydd åt kroppsarbetarna
-            inom storindustrien m. m.;
-          </note>
-          <note xml:id="i-RuUAMbbVEJUjiKi6bHAmP4">
-            nr 221, av herr Enhörning, om tillämpande av s. k. sommartid;
-          </note>
-          <note xml:id="i-FQRMqejioEyCf3CVyAit5J">
-            nr 222, av herr Lindhagen, angående internationell överenskommelse
-            om ett världsspråk;
-          </note>
-          <note xml:id="i-YYhbKYorpAxDmCWj3dD4Cd">
-            nr 223, av herr Bosén, om åtgärder för riksdagskostnadernas nedbringande;
-            samt
-          </note>
-          <note xml:id="i-SUe4zSLeBBpP4Dxz2hTuf5">
-            nr 224, av herr Lindley, om åtgärder för ett mera enhetligt och
-            tillfredsställande ordnande av handräckningsarbetet vid landets
-            tullplatser.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-004.jp2/_view"/>
-          <note type="date" xml:id="i-3onGzSqCAtuqSQnCSPjBef">
-            Måndagen den 1 februari. 5
-          </note>
-          <note xml:id="i-L7whdpbCEeEvYCimpnikjy">
-            Anmäldes och bordlades statsutskottets utlåtanden och memorial:
-          </note>
-          <note xml:id="i-5ymvoF8oYCeYq3nBNLB7aP">
-            nr 1, angående regleringen för budgetåret 1926—1927 av utgifterna
-            under riksstatens första huvudtitel, innefattande anslagen till
-            kungl. hovoch slottsstaterna;
-          </note>
-          <note xml:id="i-2hPfQH9VSY4Bmf5QqcGp5a">
-            ar 7, angående regleringen för budgetåret 1926—1927 av utgifterna
-            under riksstatens sjunde huvudtitel, innefattande anslagen till
-            finansdepartementet; samt
-          </note>
-          <note xml:id="i-G7w72L6PbJ9VF1rQNscc8n">
-            nr 12, med anledning av remiss från andra kammaren av en av herr
-            H. Weibull m. fl. väckt motion;
-          </note>
-          <note xml:id="i-8sQreZtg3aXuBELa4Uzy1F">
-            första lagutskottets utlåtanden:
-          </note>
-          <note xml:id="i-NJLQo8pYryQ2ebaFe1bKcF">
-            nr 1, i anledning av verkställd granskning av justitieombudsmannens
-            ämbetsförvaltning; samt
-          </note>
-          <note xml:id="i-TwYfWA1Vy9ztZvXRthMq15">
-            nr 2, i anledning av verkställd granskning av militieombudsmannens
-            ämbetsförvaltning;
-          </note>
-          <note xml:id="i-DCieTurEgtwD74C993QNvp">
-            andra lagutskottets utlåtande nr 1, i anledning av Kungl. Maj:ts
-            proposition med förslag till lag angående förbud i vissa fall
-            mot arbetares användande till målningsarbete, vid vilket nyttjas
-            blyfärg; ävensom
-          </note>
-          <note xml:id="i-BuKJeu5K8RvaebXC5JrtdP">
-            Jordbruksutskottets utlåtanden:
-          </note>
-          <note xml:id="i-WV88R8C86N1KuNFvPxN9Jz">
-            nr 3, i anledning av Kungl. Maj:ts proposition angående befrielse
-            för G. Karlsson från erläggande av viss del av köpeskillingen
-            för ?/, mantal Fylleryd i Kronobergs län;
-          </note>
-          <note xml:id="i-Qoejxz9RmPhrNFC3bHAznm">
-            nr 4, i anledning av Kungl. Maj:ts proposition angående befrielse
-            för A. Forsgren från viss skadeståndsskyldighet;
-          </note>
-          <note xml:id="i-LFfeGgJgThwTXjfLsBo8cH">
-            nr 5, i anledning av Kungl. Maj:ts proposition angående upplåtelse
-            av rätt till bearbetande av icke inmutningsbara mineralfyndigheter
-            å kronojord;
-          </note>
-          <note xml:id="i-HyguDfKferVhiSb2NHH1Tn">
-            nr 6, i anledning av Kungl. Maj:ts proposition angående avstående
-            i vissa fall av mark från kronoegendomar eller upplåtande av nyttjanderätt
-            eller servitutsrätt till sådan mark; samt
-          </note>
-          <note xml:id="i-4GnDZf4vgiFpidx2fg4x9R">
-            nr 7, i anledning av Kungl. Maj:ts proposition, nr 25, angående
-            försäljning NN vissa kronoegendomar och upplåtande av lägenheter
-            från sådana egen-
-          </note>
-          <note xml:id="i-VERJJod86rCVNg3HVhtmRy">
-            omar.
-          </note>
-          <note xml:id="i-XW5CzXx9cWVps5vUjRqsRS">
-            Herr förste vice talmannen tillkännagav, att vaktmästaren hos
-            kammaren Sven Andersson på begäran entledigats från sin ifrågavarande
-            befattning från och med denna dag och att till vaktmästare efter
-            honom antagits R. Hagqvist.
-          </note>
-          <note xml:id="i-8oXr6kMT9cSVfM9EJ3XjTT">
-            Upplästes följande till kammaren inkomna ansökning:
-          </note>
-          <note xml:id="i-Rp71AkgRdfgEGQ9sM9vpFh">
-            Till första kammaren.
-          </note>
-          <u xml:id="i-GQbtGEC3cra2voAVtFKH1Z" prev="i-66ec4f89d9a29cb7-1" who="Q5932922">
-            <seg xml:id="i-L2d7b6qWPX4ywG8Fy4gxpX">
-              På grund av enskilda angelägenheter (sjukdom i hemmet) anhåller
-              jag härmed vördsamt om permission från riksdagsgöromålen t. v.
-              fr. o. m. måndagen den 1 februari.
-            </seg>
-          </u>
-          <note xml:id="i-4JxV6pYTYA88ytwjrdZXLN">
-            Stockholm den 31 januari 1926.
-          </note>
-          <note xml:id="i-UNkddZDxjxqg6ugiEm68cJ">
-            E. Svänsson.
-          </note>
-          <note xml:id="i-2HhCZUaUkqjK4gEFi3WSs8">
-            På gjord proposition bifölls ansökningen för den tid, det i densamma
-            omförmälda hindret varade.
-          </note>
-          <note xml:id="i-9dS4i5CcYYD4RYp7q6yRhJ">
-            Nr 6.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-005.jp2/_view"/>
-          <note xml:id="i-NN67kaFGtvvyDD2qpdQpoh">
-            Nr 6.
-          </note>
-          <note xml:id="i-MgkN54EtqpjybFaNHCYaf7">
-            Ang. viss
-          </note>
-          <note type="date" xml:id="i-DhnkHLB6fvsYgZSviiNiLT">
-            Tisdagen den 2 februari,
-          </note>
-          <note xml:id="i-NLoo4rK3FqLnn7YwAbRa1">
-            Justerades ytterligare protokollsutdrag för denna dag ävensom
-            protokollen | för den 26 och den 27 nästlidne januari.
-          </note>
-          <note xml:id="i-E1gNC1T8oCrBA9WFQm49He">
-            Kammarens sammanträde avslutades kl. 8.15 e. m.
-          </note>
-          <note xml:id="i-7u77reAsEURTsP9Q7i9c1A">
-            In fidem Lode Wistrand.
-          </note>
-          <note type="date" xml:id="i-CfDX4qXQFtGD1ALoe54tYS">
-            Tisdagen den 2 februari.
-          </note>
-          <note xml:id="i-14owqGegr2UURHQ4tfQNPp">
-            Kammaren sammanträdde kl. 3.30 e. m.; och dess förhandlingar
-            leddes av herr förste vice talmannen.
-          </note>
-          <note type="speaker" xml:id="i-HRevLqZUM1oxEzG1DMyzGN">
-            Herr statsrådet Nothin avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-YGTA1JsS13oPHghHtHTAEW">
-            ts propositioner:
-          </note>
-          <note xml:id="i-2g32Frj4rfn6F8d8MdiCTF">
-            nr 50, angående försäljning av mark från klockarbostället i Örkelljunga
-            församling.
-          </note>
-          <note xml:id="i-D3aa73D4BFXCrffYiPPciN">
-            nr 52, med förslag till lag om ändrad lydelse av 17 kap. 4 $
-            handelsbalken; och
-          </note>
-          <note xml:id="i-NA1Gz7EK1dMhtwyPJbnDs5">
-            nr 55, med förslag till lag om ändring i vissa delar av lagen
-            den 28 januari 1921 (nr 15) om kommandomål.
-          </note>
-          <note xml:id="i-D3yXLiWyMNb5AyLU46dxtH">
-            Föredrogos och hänvisades till konstitutionsutskottet nedannämnda
-            motioner:
-          </note>
-          <note xml:id="i-H8uNqmrV1j76ZW5KwJyrW3">
-            nr 218, av herr Luterkort, om ändring av $ 21 regeringsformen;
-            och
-          </note>
-          <note xml:id="i-JhXirB69sY1A69PtgpTBRU">
-            nr 219, av densamme, om ändring av $ 43, mom. 2 riksdagsordningen.
-          </note>
-          <note xml:id="i-3H4VkTy5yzoijwKgyxxaZF">
-            Föredrogs och hänvisades till kammarens andra tillfälliga utskott
-            herr Luterkorts motion, nr 220, om beredande av ökat skydd åt
-            kroppsarbetarna inom storindustrien m. m.
-          </note>
-          <note xml:id="i-QWLWx18RvBc9N9SEkQPQHc">
-            Föredrogos och hänvisades till kammarens första tillfälliga utskott
-            nedannämnda motioner:
-          </note>
-          <note xml:id="i-F2aZj6WAcWV8J3p45f6zoe">
-            nr 221, av herr Enhörning, om tillämpande av s. k. sommartid;
-            och
-          </note>
-          <note xml:id="i-78D1QPxJyKnswmforiXBi5">
-            nr 222, av herr Lindhagen, angående internationell överenskommelse
-            om ett världsspråk.
-          </note>
-          <note xml:id="i-C97tsinhemqZaCuwMbhFo7">
-            Föredrogs herr Roséns motion, nr 223, om åtgärder för riksdagskostnader-
-          </note>
-          <note xml:id="i-TwCRubb6EeKAe5CKWvQ8wc">
-            motions remitnas nedbringande.
-          </note>
-          <note xml:id="i-CTTskpsqhfVe6Jq4tTRjnM">
-            terande till utskott.
-          </note>
-          <note type="speaker" xml:id="i-JGtDRRFVMKaN3qjBjiPqwf">
-            Herr förste vice talmannen:
-          </note>
-          <u who="Q5932922" xml:id="i-66ec4f89d9a29cb7-4" next="i-B7xqJQUxh1KMPvAG9rBxHf">
-            <seg xml:id="i-9SZ9AYtbnsYDy5A7CPHEAG">
-              I denna motion hemställer herr Rosén, att första kammaren måtte
-              för sin del besluta, att riksdagen skall genom delegerade, utsedda
-              på sätt vederbörande utskott kan finna skäligt föreslå, verkställa
-              en undersökning rörande de åtgärder, som kunna och böra vidtagas
-              för riksdagskostnadernas nedbringande, samt därom framlägga förslag.
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-006.jp2/_view"/>
-          <note type="date" xml:id="i-UMZqd2UgGWrEUsfHN2eeAr">
-            Tisdagen den 2 februari, 7
-          </note>
-          <u xml:id="i-B7xqJQUxh1KMPvAG9rBxHf" who="Q5932922" prev="i-66ec4f89d9a29cb7-4">
-            <seg xml:id="i-Uh3CyBTPUpK5WpAQpxgf4A">
-              Jämlikt $ 41 riksdagsordningen tillhör det bankoutskottet att
-              undersöka och utreda riksbankens och riksgäldskontorets styrelse
-              och tillstånd. På grund härav hava också enligt praxis frågor
-              rörande riksdagskostnaderna hänskjutits till behandling av bankoutskottet.
-              Då denna motion måste anses innefatta en dylik fråga och förty
-              tillhöra bankoutskottets behandling, finner jag motionen vara
-              för sent väckt, varför jag är förhindrad att framställa proposition
-              på remiss av densamma.
-            </seg>
-          </u>
-          <note xml:id="i-G8iwehNfMExKYu8qj2qiV">
-            Föredrogs och hänvisades till kammarens andra tillfälliga utskott
-            herr Lindleys motion, nr 224, om åtgärder för ett mera enhetligt
-            och tillfredsställande ordnande av handräckningsarbetet vid landets
-            tullplatser.
-          </note>
-          <note xml:id="i-Vper5PhPaBehcF5msEBdPh">
-            Föredrogos, men bordlades ånyo på flera ledamöters begäran statsutskottets
-            utlåtanden nr 1 och 7. |
-          </note>
-          <note xml:id="i-HBVPxcy6hssbCTzAxkYUjH">
-            Föredrogs statsutskottets memorial nr 12, med anledning av remiss
-            från andra kammaren av en av herr H. Weibull m. fl. väckt motion.
-          </note>
-          <note xml:id="i-N2YrjT9mKnLksLDRENNouH">
-            Detta memorial lydde:
-          </note>
-          <note xml:id="i-4EANn5Po9HZMEza1y3pNtb">
-            » Till statsutskottet har från andra kammaren remitterats en
-            av herr H. Weibull m. fl. väckt motion (nr 224), däri hemställts
-            att riksdagen måtte till uppehållande av en mejerioch lantbrukskonsulentbefattning
-            i London samt en konsulentbefattning i Berlin och en i Riga för
-            tillvaratagande av det svenska lantbrukets och fiskets och därmed
-            sammanhängande intressen i Tyskland, respektive Estland, Lettland,
-            Lithauen och Polen anvisa för budgetåret 1926—1927 ett extra anslag
-            av 54,000 kronor.
-          </note>
-          <note xml:id="i-FWB4PoU38whQgfbsBAiuUu">
-            Då ifrågavarande motion avser ett jordbruksärende och sålunda
-            icke är av beskaffenhet att böra behandlas av statsutskottet,
-            får utskottet med stöd av $ 7 av de för riksdagen gällande reglementariska
-            föreskrifterna hemställa, att herr Weibulls m. fl. ovanberörda
-            motion må till andra kammaren återlämnas.»
-          </note>
-          <note type="speaker" xml:id="i-PXSJmaJZn6KpwmmhLGtbbt">
-            Herr andre vice talmannen:
-          </note>
-          <u who="Q6011346" xml:id="i-66ec4f89d9a29cb7-5" next="i-L7pp6uG4Z7VQkdNCjiQKdb">
-            <seg xml:id="i-4i6HtXPUgr9pZ72SG9MjCJ">
-              Jag får hemställa, att kammaren behagade bifalla statsutskottets
-              memorial med förklarande, att ifrågavarande motion är av beskaffenhet
-              att böra behandlas av jordbruksutskottet.
-            </seg>
-          </u>
-          <note xml:id="i-DJrxwKyvmiECoxie7g8C3J">
-            Efter härmed slutad överläggning bifölls vad herr andre vice
-            talmannen därunder hemställt.
-          </note>
-          <note xml:id="i-RdLeywyQjeyZnF9HZCbxRZ">
-            Föredrogos, men bordlades ånyo på flera ledamöters begäran första
-            lagutskottets utlåtanden nr 1 och 2, andra lagutskottets utlåtande
-            nr 1 samt jordbruksutskottets utlåtanden nr 3—7.
-          </note>
-          <note xml:id="i-8KeM49WgNzTCEVQJBxd86T">
-            Efter föredragning av de vid sammanträdets början avlämnade kungl.
-            propositionerna hänvisades dessa, nr 50 till Jordbruksutskottet,
-            nr 52 till behandling av lagutskott och nr 55 till konstitutionsutskottet.
-          </note>
-          <note xml:id="i-WsN1R6uG9bdCWvVtGazbGt">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 3.42 e. m.
-          </note>
-          <note xml:id="i-RhLhbPieakGahMwd2qscp7">
-            In fidem G. H. Berggren.
-          </note>
-          <note xml:id="i-CG8EgsFayvpSVCz9jeabz">
-            Nr 6.
-          </note>
-          <note xml:id="i-CDUCxrLbLz9Hqa7vRxnask">
-            Ang. viss motions remiltterande till utskott.
-          </note>
-          <note xml:id="i-QVpSKTRNx2SYtDKoDeN8Zk">
-            (Forts.)
-          </note>
-          <note xml:id="i-MA7uYoJu8hpdHdvytuR6iw">
-            Om återlämnande från statsutskottet av en dit remitterad motion.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-007.jp2/_view"/>
-          <note xml:id="i-3tXLnmY9ARcwzvKzXFQdcq">
-            Nr 6. 8
-          </note>
-          <note type="date" xml:id="i-Qqnnx1MUX12jBk4k1xEM7N">
-            Onsdagen den 3 februari.
-          </note>
-          <note type="date" xml:id="i-6RJb9FadxuMAZZbPBBgGC6">
-            Onsdagen den 3 februari.
-          </note>
-          <note xml:id="i-HfhStGb5e9rLsXw5HxdSig">
-            Kammaren sammanträdde kl. 11 f. m.; och dess förhandlingar leddes
-            av herr förste vice talmannen.
-          </note>
-          <note xml:id="i-A3bNdmZ6VFp1VEie6nrSTf">
-            Anställdes val av tio ledamöter i särskilda utskottet. Därvid
-            avlämnades 84 godkända valsedlar, samtliga med partibeteckning
-            »den gemensamma listan» och upptagande namnen på följande personer
-            i denna ordning:
-          </note>
-          <note xml:id="i-TSJMbQtUWtkZEYcBRjUnBy">
-            herr Larsson, Jacob,
-          </note>
-          <note xml:id="i-Qoun8cf1cpsQ9HmJh3c7zt">
-            2» » » » » » » » »
-          </note>
-          <note xml:id="i-3AxwrqafsMyRKkhMU43x26">
-            Rogberg,
-          </note>
-          <note xml:id="i-GDKju55FhArxGgX2P72181">
-            von Sneidern, Linder,
-          </note>
-          <note xml:id="i-J5W3rTfPieX6osKGiWnnEa">
-            Frändén, Abrahamsson, Gustafsson, Per J., Asplund, Sederholm,
-            Jonsson, P. E. A.
-          </note>
-          <note xml:id="i-XejDLuVpfvSzmLGuoFaWF">
-            Dessa personer hade alltså utsetts till ledamöter i utskottet.
-          </note>
-          <note xml:id="i-TUb1J3pVXQ24JgFqyWWdJW">
-            Företogs val av tolv suppleanter i särskilda utskottet. Därvid
-            avlämnades 56 godkända valsedlar, samtliga med partibeteckning
-            »den gemensamma listan» och upptagande namnen på följande personer
-            i denna ordning:
-          </note>
-          <note xml:id="i-25yZKS4JZmx7PYtuoiMcgG">
-            herr Norin,
-          </note>
-          <u xml:id="i-L7pp6uG4Z7VQkdNCjiQKdb" prev="i-66ec4f89d9a29cb7-5" who="Q6011346" next="i-66ec4f89d9a29cb7-8">
-            <seg xml:id="i-BG35tKAGeQQCCiYqUuf5LK">
-              » » » » » » » » » » »
-            </seg>
-          </u>
-          <note xml:id="i-VYoGBCXoQ5EJWGiXDPAybe">
-            Andersson, Jonas, Pers,
-          </note>
-          <note xml:id="i-U2ukZWzc33MGiaqVkwbMEU">
-            Dalberg,
-          </note>
-          <note xml:id="i-Sjrp8PkP2zK3BTWB11XpHc">
-            Nilsson, Nils Anton, Andersson, Elof B., Ericson, K. Oscar, Larsén,
-          </note>
-          <note xml:id="i-Ld3ryav4DxC48WuRHobZwq">
-            Eriksson, Valfrid, Karlsson, Gottfrid, Gabrielsson,
-          </note>
-          <note xml:id="i-7CudDSDcz3ty8LbA3hfTGy">
-            Schedin.
-          </note>
-          <note xml:id="i-4Av4U985RGyRyNmLFdeviS">
-            Dessa personer hade alltså utsetts till suppleanter i utskottet.
-          </note>
-          <note xml:id="i-NsbAA2wCAkVSYaQfnpHECT">
-            Vid förnyad föredragning av statsutskottets utlåtande nr 11,
-            i anledning av Kungl. Maj:ts i statsverkspropositionen gjorda
-            framställning angående tillfälliga lönetillägg åt vissa vaktmästare
-            och med dem jämförliga befattningshavare, bifölls vad utskottet
-            i detta utlåtande hemställt.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-008.jp2/_view"/>
-          <note type="date" xml:id="i-D9QYh4X6zhJMrQwLAhyvJj">
-            Onsdagen den 3 februari. 9
-          </note>
-          <note xml:id="i-V2mymUocsfTNdvmAUsexY8">
-            Föredrogos ånyo bevillningsutskottets betänkanden:
-          </note>
-          <note xml:id="i-JbHSTX3qd26iidPZUyTjU1">
-            nr 1, i anledning av Kungl. Maj:ts proposition med förslag till
-            förordning om fortsatt tillämpning av förordningen den 27 april
-            1923 angående rätt för Konungen att i visst fall åsätta särskild
-            tullavgift:
-          </note>
-          <note xml:id="i-PuJJAVfxiEeK3QQdRWMUEo">
-            nr 2, i anledning av Kungl. Maj:ts proposition med förslag till
-            förordning med särskilda bestämmelser om avdrag vid 1927 års taxering
-            till inkomstoch förmögenhetsskatt samt till bevillning av inkomst
-            m. m.; och
-          </note>
-          <note xml:id="i-JqDFT5mPEYy1PXcQxEnK5d">
-            nr 3, i anledning av väckt motion om tullfrihet för kalciummolybdat
-            m. m.
-          </note>
-          <note xml:id="i-EL8FCzXfRbu4cxmSuaoSHZ">
-            Vad utskottet i dessa betänkanden hemställt bifölls.
-          </note>
-          <note xml:id="i-CS1ayHkZk7C2yn8JP4T7iC">
-            Föredrogs ånyo bevillningsutskottets betänkande nr 4, i anledning
-            av väckt motion om skrivelse till Kungl. Maj:t rörande sänkning
-            av tullen å galoscher.
-          </note>
-          <u who="Q6011346" xml:id="i-66ec4f89d9a29cb7-8" prev="i-L7pp6uG4Z7VQkdNCjiQKdb">
-            <seg xml:id="i-MDya2uUnahmGq3JNji4Xtf">
-              I en inom första kammaren väckt, till bevillningsutskottet hänvisad
-              motion, nr 11, hade herr Stendahl anfört följande: »Det är ett
-              allmänt känt faktum. att den svenska galoschindustrien under en
-              lång följd av år arbetat med alldeles för högt tullskydd och att
-              densamma trots en sänkt tull skulle kunna arbeta med mycket god
-              avkastning. J ag får därför hemställa, att riksdagen i skrivelse
-              till Konungen måtte hemställa om utredning härutinnan och om Tramläggande
-              för riksdagen av de förslag, som denna utredning kan föranleda.»
-            </seg>
-          </u>
-          <note xml:id="i-JkEH58jucZoN5x4i8f9ppB">
-            Utskottet hade i det nu föredragna betänkandet på åberopade grunder
-            hemställt, att förevarande motion, I: 11 av herr Stendahl om skrivelse
-            till Kungl. Maj:t rörande sänkning av tullen å galoscher, icke
-            måtte föranleda någon riksdagens åtgärd.
-          </note>
-          <note type="speaker" xml:id="i-TVyZTAAevApt189k8SY2FF">
-            Herr Stendahl:
-          </note>
-          <u who="Q6188957" xml:id="i-7d3cfd6af6710d57-0">
-            <seg xml:id="i-3fwvAwgNatEhhGEeis1ity">
-              Herr vice talman! Här har man Ju fått veta, att frågan är av
-              intresse och att det finns fog för motionen. Dock att den tid,
-              som Kungl. Maj:t haft på sig sedan år 1917 tills nu, icke varit
-              tillräcklig, men utskottet tyckes gå i någon sorts proprieborgen
-              för att Kungl. Maj:t till en kommande riksdag — vilket väl får
-              tolkas till nästa riksdag — skall komma med förslag i ärendet.
-              Under sådana förhållanden och när utskottet utfärdat en dylik
-              växel, som, det tar jag för givet, Kungl. Maj:t kommer att inlösa,
-              är ju avsikten med min motion vunnen, även om det blir tolv månader
-              senare än jag hade väntat mig.
-            </seg>
-            <seg xml:id="i-FFp5KHM45WKZiQ8ztfrcdW">
-              Jag har alltså, herr vice talman, intet yrkande.
-            </seg>
-          </u>
-          <note xml:id="i-YAFw1hhDwCNp7DKXrvq84c">
-            Efter härmed slutad överläggning bifölls vad utskottet i förevarande
-            betänkande hemställt.
-          </note>
-          <note xml:id="i-GkPVV1CZ4P63XBemxuMqKK">
-            Föredrogs ånyo bevillningsutskottets betänkande nr 53, i anledning
-            av väckt motion angående tullen å motorvelocipeder. i
-          </note>
-          <note xml:id="i-Qj8MFTehnHvFMAJWZuSfkZ">
-            Utskottets hemställan bifölls.
-          </note>
-          <note xml:id="i-2xnVeqjkUCXgSu3gyYTZ32">
-            Vid förnyad, punktvis skedd föredragning av statsutskottets utlåtande
-            nr 1, angående regleringen för budgetåret 1926—1927 av utgifterna
-            under riksstatens första huvudtitel, innefattande anslagen till
-            kungl. hovoch slottsstaterna, bifölls vad utskottet i detta utlåtande
-            hemställt.
-          </note>
-          <note xml:id="i-8S1kUtPvN2By5BxFmDrdvF">
-            Första kammarens protokoll 1926. Nr 6. 2
-          </note>
-          <note xml:id="i-KCGHhj2oXhwmBmcRwqc5sT">
-            Nr 6,
-          </note>
-          <note xml:id="i-8LH11C573KM4cPHF1iEwkV">
-            Om sänkning av tullen å galoscher.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-009.jp2/_view"/>
-          <note type="date" xml:id="i-VQALBWbE3Ct1YQazCnqXDB">
-            Nr 6. 10 Onsdagen den 3 februari.
-          </note>
-          <note xml:id="i-7ufdtcqyo7miYiL8VQi3ct">
-            Föredrogs ånyo och företogs punktvis till avgörande statsutskottets
-            utlåtande nr 7, angående regleringen för budgetåret 1926—1927
-            av utgifterna under riksstatens sjunde huvudtitel, innefattande
-            anslagen till finansdepartementet.
-          </note>
-          <note xml:id="i-SCfK61qu8bRGzsxGNLbqhp">
-            Punkten 1. Tades till handlingarna.
-          </note>
-          <note xml:id="i-DASNWuTtkgun9HZf71SvY9">
-            Punkterna 2—210. Vad utskottet hemställt bifölls.
-          </note>
-          <note xml:id="i-HkesbrR1Nn93vy1my3qN5A">
-            Punkten 11. Lades till handlingarna.
-          </note>
-          <note xml:id="i-EcDhy6vHQgJMtU3Uj7uJX5">
-            Punkterna 12—232. Vad utskottet hemställt bifölls.
-          </note>
-          <note xml:id="i-6mrcmYfNgkzzdf9dx97kuo">
-            Punkten 33. Lades till handlingarna.
-          </note>
-          <note xml:id="i-PpCnyv8gg4tPhzsPrFTFdj">
-            Punkterna 34—236. Vad utskottet hemställt bifölls.
-          </note>
-          <note xml:id="i-XLm89cCz9Hm9xkfhPUFYxy">
-            Punkten 37. Lades till handlingarna.
-          </note>
-          <note xml:id="i-LraJYTepSvsRDBmQVLg4VD">
-            Punkterna 38 och 39. Vad utskottet hemställt bifölls.
-          </note>
-          <note xml:id="i-RcYszTXdTCgWfoDpiufPZU">
-            Föredrogos ånyo och lades till handlingarna första lagutskottets
-            utlåtanden:
-          </note>
-          <note xml:id="i-Dn4iHNw5DEWr7rEHXG1vND">
-            nr 1, i anledning av verkställd granskning av justitieombudsmannens
-            ämbetsförvaltning; och
-          </note>
-          <note xml:id="i-GkjUSxKFEGkhtaTFqqqEsN">
-            nr 2, i anledning av verkställd granskning av militieombudsmannens
-            ämbetsförvaltning.
-          </note>
-          <note xml:id="i-AM15Po6C6fPjMfUVuatroS">
-            Ang. arbetares Föredrogs ånyo andra lagutskottets utlåtande nr
-            1, i anledning av Kungl. användande Maj:ts proposition med förslag
-            till lag angående förbud i vissa fall mot arbe-
-          </note>
-          <note xml:id="i-BiaFCLi1gRyGKKJNHHFemx">
-            fr orden tares användande till målningsarbete, vid vilket nyttjas
-            blyfärg.
-          </note>
-          <note xml:id="i-SVaKcgeLpXQ9KU9f6DNWkR">
-            vilket nyttjas
-          </note>
-          <note xml:id="i-7cs5JQtUs7iQbmeFXR5Qq4">
-            blyfärg. Genom en den 11 december 1925 dagtecknad proposition,
-            nr 3, vilken hän-
-          </note>
-          <note xml:id="i-SwoQvjQ9ShU8wEhCV2e3xt">
-            visats till lagutskott och behandlats av andra lagutskottet,
-            hade Kungl. Maj:t, under åberopande av propositionen bilagda i
-            statsrådet och lagrådet hållna protokoll, föreslagit riksdagen
-            att antaga vid propositionen fogat förslag till lag angående förbud
-            i vissa fall mot arbetares användande till målningsarbete, vid
-            vilket nyttjas blyfärg.
-          </note>
-          <note xml:id="i-7P7TSbYXnCaUhta3konq4D">
-            Utskottet hade i det nu ifrågavarande utlåtandet på anförda skäl
-            hemställt, att förevarande proposition måtte av riksdagen bifallas.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-010.jp2/_view"/>
-          <note type="date" xml:id="i-XucB3MrWicSEBq4GTfDhcm">
-            Onsdagen den 3 februari. 11
-          </note>
-          <note type="speaker" xml:id="i-D442uhQJoeAV1QChL9XGfn">
-            Herr Holmgren:
-          </note>
-          <u who="Q5811523" xml:id="i-a0707973c286f086-0" next="i-a0707973c286f086-1">
-            <seg xml:id="i-FfogTRYiwVYpXvuBYTKXXz">
-              Herr vice talman! Det lagförslag, som här föreligger, utgör ju
-              en direkt konsekvens av att för Sveriges del har ratificerats
-              en internationell överenskommelse angående förbud mot användande
-              av blyvitt under vissa omständigheter vid målning, och därför
-              är det ju ingen anledning att här uppehålla sig något vidare vid
-              lagförslaget. Jag skulle dock vilja påpeka ett par punkter, som
-              jag ur medicinsk synpunkt finner anledning att beröra.
-            </seg>
-            <seg xml:id="i-72L7Y26SRtb6xbFpDgKXGN">
-              Först vill jag säga, att blyförgiftning är en förgiftning, som
-              i vårt land är mycket sällsynt. Förr var det icke så, men på de
-              senaste tjugo åren har den varit mycket sällsynt. För min del
-              har jag i min verksamhet under de sista tjugo åren nog icke sett
-              mer än sammanlagt så många fall, som kunna räknas på fingrarna,
-              och de fall jag sett ha icke varit förorsakade av användande av
-              olyfärg vid målning, utan det har varit andra fall, t. ex. hos
-              ackumulatorarbetare. Det är således i många yrken som blyförgiftning
-              kan förekomma, och måleriarbetet är ett av dem.
-            </seg>
-            <seg xml:id="i-EfQJv6cTNo4kzPPnX1vPcg">
-              Beträffande de bestämmelser, som här i $ 2 av lagförslaget stadgas,
-              så står där först, att det skulle stadgas förbud för manlig arbetare
-              under 18 år samt för kvinnlig arbetare att överhuvud taget användas
-              till målningsarbete, där blyfärg ifrågakommer. Med hänsyn till
-              de mycket bra bestämmelser, som senare i lagförslaget finnas angående
-              hur arbetarna böra förhålla sig under sådant arbete, tror jag
-              icke alls att det ur medicinsk synpunkt skulle möta något hinder
-              att också använda kvinnliga arbetare och manliga arbetare under
-              18 år. Jag tror, att risken för förgiftning är ytterst obetydlig,
-              om ens någon, i fall de bestämmelser iakttagas, som finnas i lagförslaget.
-              Detta då i förbigående, ty bestämmelserna i konventionen inrymma
-              också detta förbud, och det kan följaktligen icke undvikas.
-            </seg>
-            <seg xml:id="i-U3PBFA7imeV6SvAZepKMCf">
-              Anledningen till att jag begärde ordet äro de bestämmelser, som
-              finnas i andra momentet av $ 2, där det stadgas förbud även för
-              vuxen manlig arbetare över 18 år att under vissa omständigheter,
-              som där närmare framhållas, användas till målningsarbete inomhus
-              med blyfärg, och där det också uppräknas vissa undantag från denna
-              regel. Denna formulering av andra momentet i $2 avviker från konventionens
-              bestämmelser, som säga, att det överhuvud taget skulle vara förbjudet
-              att använda blyfärg för målning inomhus.
-            </seg>
-            <seg xml:id="i-Y9BNNi1VhnFmbQDN9SS6os">
-              I statsrådsprotokollet av den 8 maj 1925 påpekas också, att vi
-              här ha att göra med en begränsning av konventionens bestämmelser,
-              och där säges det, att denna begränsning företagits därför, att
-              det ansetts, att för konventionen det väsentliga är arbetarskyddssynpunkten.
-              I den mån konventionsbestämmelserna kunna anses avse ett förbud
-              ur allmänt sanitär synpunkt mot användande av blyfärg inomhus,
-              torde de för deras genomförande möjligen erforderliga författningsändringarna
-              böra ske genom ändring i eller tillägg till giftstadgan, säges
-              det vidare. Och slutligen påpekar statsrådet, att enligt $ 70
-              i nämnda stadga det vid utlämnande från försäljningsställe av
-              blyfärg skall iakttagas, att å förpackningen finnes en påskrift,
-              innehållande varning mot blyfärgs användande inomhus.
-            </seg>
-            <seg xml:id="i-Naq1X8fPqsT5dZfTcPETZw">
-              Nu skulle jag vilja säga, att det från medicinsk synpunkt, således
-              för att förekomma förgiftning, är viktigt, att det finnes förbud
-              mot användande av blyfärg för målning inomhus, ty förgiftning
-              med blyfärg går till på det sätt, att den torra färgen på väggarna
-              småningom smular av och blir till damm, som inandas av personer,
-              som leva eller vistas i bostaden, den fastnar i munnen och sväljes,
-              varefter den resorberas, och så småningom uppstår blyförgiftning.
-            </seg>
-            <seg xml:id="i-9Xcj1TEbTcSZ2LwxyDPHRP">
-              Vill man således träffa bestämmelser, som avse skydd mot blyförgiftning,
-              är ett förbud överhuvud taget mot användande av blyfärg för målningsarbeten
-              inomhus det viktigaste, och jag anser det vara mycket viktigt
-              eller ganska viktigt åtminstone, att det, i stället för varning
-              mot användande av» blyfärg till målning inomhus, i giftstadgan
-              införes förbud därför. Kommer detta att ske,
-            </seg>
-          </u>
-          <note xml:id="i-UZqnqAmR8GsWCkNXEAhSQz">
-            Nr 6.
-          </note>
-          <note xml:id="i-KFoUuaUrVRGKUKZpebkfUd">
-            Ang. arbetares användande till målningsarbete, vid vilket nyttjas
-            blyfärg. (Forts."
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-011.jp2/_view"/>
-          <note xml:id="i-VLnDxcnzDiFGGnoJAfdVFZ">
-            Nr 6.
-          </note>
-          <note type="date" xml:id="i-URC8HLTW2TUXWZzZfqnspY">
-            12 "Onsdagen den 3 februari.
-          </note>
-          <u who="Q5811523" xml:id="i-a0707973c286f086-1" prev="i-a0707973c286f086-0" next="i-2XkRQS81LP133ZyrjrtKXm">
-            <seg xml:id="i-WSBc3tRWPq2uDPgaEjoYSW">
-              Ang. arbetares blir emellertid formuleringen av andra momentet
-              i $ 2 icke längre användbar
-            </seg>
-          </u>
-          <note xml:id="i-EMGQNK9VoXRLiXEyBh92TU">
-            användande till målningsarbete, vid vilket nyttjas blyfärg. (Forts.)
-          </note>
-          <u xml:id="i-2XkRQS81LP133ZyrjrtKXm" prev="i-a0707973c286f086-1" who="Q5811523">
-            <seg xml:id="i-4XyvUd8Ki8PozEWD7XJTUu">
-              utan måste ändras, och jag tror därför, att det varit önskligt,
-              att andra momentet i $ 2 fått en lydelse i full överensstämmelse
-              med konventionens bestämmelser.
-            </seg>
-            <seg xml:id="i-7s91w4ThJLNkieHoi8WN4W">
-              Jag har intet yrkande att göra.
-            </seg>
-          </u>
-          <note xml:id="i-2RQsNj2P7WYKioKXkhPrXj">
-            Sedan överläggningen ansetts härmed slutad, bifölls vad utskottet
-            i det nu föredragna utlåtandet hemställt.
-          </note>
-          <note xml:id="i-Ru5Z2q3CUxeJUiGW8Q9CQ9">
-            Föredrogos ånyo jordbruksutskottets utlåtanden:
-          </note>
-          <note xml:id="i-K7iGJNprcS3Txz5hcfWXre">
-            nr 3, i anledning av Kungl. Maj:ts proposition angående befrielse
-            för G. Karlsson från erläggande av viss del av köpeskillingen
-            för ?/, mantal Fylleryd i Kronobergs län; g
-          </note>
-          <note xml:id="i-YPZk3PvYwVa3byf2GEfh9E">
-            nr 4, i anledning av Kungl. Maj:ts proposition angående befrielse
-            för A. Forsgren från viss skadeståndsskyldighet;
-          </note>
-          <note xml:id="i-Th9XC7XDvybC3nNUVwoCCH">
-            nr 5, 1 anledning av Kungl. Maj:ts proposition angående upplåtelse
-            av rätt till bearbetande av icke inmutningsbara mineralfyndigheter
-            å kronojord; nr 6, i anledning av Kungl. Maj:ts proposition angående
-            avstående 1 vissa fall av mark från kronoegendomar eller upplåtande
-            av nyttjanderätt eller servitutsrätt till sådan mark; samt
-          </note>
-          <note xml:id="i-EmiyC2XpksoqoDzeyy2vD5">
-            nr 7, i anledning av Kungl. Maj:ts proposition, nr 25, angående
-            försäljning av vissa kronoegendomar och upplåtande av lägenheter
-            från sådana egendomar.
-          </note>
-          <note xml:id="i-Poey6L4tpbkQUhTcZT9vTA">
-            Vad utskottet i dessa utlåtanden hemställt bifölls.
-          </note>
-          <note xml:id="i-PemDg7vHYSuHSxvcCXThEy">
-            Ledighet från riksdagsgöromålen beviljades herr Rosén för tiden
-            från och med den 5 till och med den 13 innevarande månad.
-          </note>
-          <note xml:id="i-4KvKgYNRL7wA6urUTBpkdA">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 11.51 f. m.
-          </note>
-          <note xml:id="i-6yi81ZrjFbbidtppnkYDuj">
-            In fidem G. H. Berggren.
-          </note>
-          <note xml:id="i-Q7CvomejX2rZoojm2QW4B3">
-            Stockholm 1926. Kungl. Boktryckeriet, P. A. Norstedt &amp; Söner.
-            260526
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1926--fk--6</head>
+        <docDate when="1926-01-29">1926-01-29</docDate>
+        <docDate when="1926-01-31">1926-01-31</docDate>
+        <docDate when="1926-02-01">1926-02-01</docDate>
+        <docDate when="1926-02-02">1926-02-02</docDate>
+        <docDate when="1926-02-03">1926-02-03</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-000.jp2/_view"/>
+        <note xml:id="i-APH6RLStKh2cr3thLSQ75u">
+          RIKSDAGENS PROTOKOLL.
+        </note>
+        <note xml:id="i-Fnr91M3DAgKXzopZeCnHrY">
+          1926. Första kammaren. Nr 6.
+        </note>
+        <note type="date" xml:id="i-9CJJ3oYP1wk88xcAfrYz4y">
+          Fredagen den 29 januari.
+        </note>
+        <note xml:id="i-BFE8VdwWiFhg4wE5BAfXKz">
+          Kammaren sammanträdde kl. 3.30 e. m.; och dess förhandlingar
+          leddes av herr förste vice talmannen.
+        </note>
+        <note type="speaker" xml:id="i-AEuwfXPAmA5ZyrLbCgxygg">
+          Herr statsrådet Nothin avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-PanPBSjSvoGoYh5BdhsM1">
+          ts propositioner:
+        </note>
+        <note xml:id="i-3k6qpoMQ2zfdQwxyfnf4xa">
+          nr 38, med förslag till lag om delning av jord å landet m. m.;
+          |
+        </note>
+        <note xml:id="i-Kvm8dZzckZYkHgxcfsqGkV">
+          nr 45, angående ändrad disposition av Kinna &amp; Örby egnahemsförening
+          u. p. a. för 1925 beviljat lån från egnahemslånefonden; |
+        </note>
+        <note xml:id="i-L2dpCQR7vpTGKkuhoAZgrM">
+          nr 48, angående omorganisation av stiftsoch läroverksbiblioteket
+          i Linköping; samt |
+        </note>
+        <note xml:id="i-UsdfQy6ciNWCGqQdLNVeqv">
+          nr 49, angående anslag för vetenskaplig bearbetning av vissa,
+          av professor J. G. Andersson hopbragta ostasiatiska arkeologiska
+          samlingar.
+        </note>
+        <note xml:id="i-T6t31HkGtxb1okdYXzcpBE">
+          Herr statsrådet Wigforss avlämnade Kungl. Maj :ts proposition
+          nr 51, med förslag till förordning om vissa ändringar i förordningen
+          den 13 december 1912 (nr 355) angående tullrestitution i vissa
+          fall vid återutförsel av utländsk vara.
+        </note>
+        <note xml:id="i-WRnkQfex5U8UBK61oFiaci">
+          Anmäldes och bordlades bevillningsutskottets betänkanden:
+        </note>
+        <note xml:id="i-WqR9XkjoYzRQuU1YTUdjUm">
+          nr 1, i anledning av Kungl. Maj:ts proposition med förslag till
+          förordning om fortsatt tillämpning av förordningen den 27 april
+          1923 angående rätt för Konungen att i visst fall åsätta särskild
+          tullavgift;
+        </note>
+        <note xml:id="i-gsBhnStmTKnUpAEDDhM93">
+          nr 2, i anledning av Kungl: Maj:ts proposition med förslag till
+          förordning med särskilda bestämmelser om avdrag vid 1927 års taxering
+          till inkomstoch förmögenhetsskatt samt till bevillning av inkomst
+          m. m.;
+        </note>
+        <note xml:id="i-K5fNuq5QrPBcrWcmSenVr4">
+          nr 3, i anledning av väckt motion om tullfrihet för kaleiummolybdat
+          m. m.;
+        </note>
+        <note xml:id="i-WsBjRafNkSE3LfnJkfLyMQ">
+          nr 4, i anledning av väckt motion om skrivelse till Kungl. Maj:t
+          rörande sänkning av tullen å galoscher; samt
+        </note>
+        <note xml:id="i-S8VDubPW3888uxUgnrVQyY">
+          nr 5, i anledning av väckt motion angående tullen å motorvelocipeder.
+        </note>
+        <note xml:id="i-PkMVpoJjmqcjLcrwm8k8Ej">
+          Föredrogs konstitutionsutskottets memorial nr 1, i anledning
+          av första kammarens remiss av motionen nr 160 av herr Almkvist,
+          med anledning av Kungl.
+        </note>
+        <note xml:id="i-8YbfJTvxLwxnQDadK8fNvv">
+          Maj:ts förslag till lag om ändrad lydelse av 5 $ i lagen om Kungl.
+          Maj:ts Tegeringsrätt.
+        </note>
+        <note xml:id="i-7Tv4yC3YHKUJdkLDWXnB4G">
+          . Memorialet lades till handlingarna och ifrågavarande motion
+          hänvisades till behandling av lagutskott.
+        </note>
+        <note xml:id="i-PqL5mC1shcurdqKajtMsnX">
+          Föredrogs, men bordlades ånyo på flera ledamöters begäran statsutskottets
+          utlåtande nr 11.
+        </note>
+        <note xml:id="i-H4bJTTv6hrS3YjGyz2a4c6">
+          Första kammarens protokoll 1926. Nr 6.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-001.jp2/_view"/>
+        <note xml:id="i-2JUvEnXN5hztLLSA3BiLc8">
+          Nr 6.
+        </note>
+        <note type="date" xml:id="i-JPTs2uJ5xzt4uK665btdWk">
+          2 Fredagen den 29 januari.
+        </note>
+        <note xml:id="i-N66zmrpYSDiBfqBtBaESWf">
+          Vid föredragning av Kungl. Maj:ts denna dag avlämnade propositioner
+          blev propositionen nr 38 på begäran bordlagd, varemot de övriga
+          nu hänvisades, nr 45 till jordbruksutskottet, nr 48 till statsutskottet,
+          nr 49, i vad den avsåg elfte huvudtiteln, till bankoutskottet
+          och i övrigt till statsutskottet samt nr 51 till bevillningsutskottet.
+        </note>
+        <note xml:id="i-HmHm2vWH2LtZmLnmQodUtj">
+          Herr Dalberg väckte en motion, nr 215, om upphävande av eller
+          inskränkning i gällande föreskrifter om världsliga kungörelsers
+          uppläsande i kyrka.
+        </note>
+        <note xml:id="i-JsXsoEDwKyZwB2aAKmpvCh">
+          Motionen blev på begäran bordlagd.
+        </note>
+        <note xml:id="i-9nzCuFexKqHEzPcvWKNVRn">
+          Herr Sederholm avlämnade en av honom m. fl. undertecknad motion,
+          nr 216, i anledning av Kungl. Maj:ts proposition med förslag till
+          förordning om fastighetstaxering år 1927 m. m.
+        </note>
+        <note xml:id="i-F9agLV5shBBmTWRN5wAc7G">
+          Denna motion hänvisades, i vad den avsåg anslag till tickande
+          av de med en allmän fastighetstaxering år 1927 förenade kostnaderna,
+          till statsutskottet och 1 övrigt till bevillningsutskottet.
+        </note>
+        <note xml:id="i-4uEbgQd68TULGDutGEqjtR">
+          Herr Ekman, Karl Johan, väckte en motion, nr 217, angående kristendomsundervisningen
+          i folkskolan.
+        </note>
+        <note xml:id="i-P72E8Wu4fWs6SbJb4zqhBS">
+          Denna motion hänvisades till kammarens första tillfälliga utskott.
+        </note>
+        <note xml:id="i-WoeEacEQD4yjr2pYaeL85o">
+          Ledighet från riksdagsgöromålen beviljades herr Clemedtson för
+          tiden från och med den 1 till och med den 13 nästkommande februari
+          samt herr Dahl, Georg, under 10 dagar, räknat från och med den
+          1 i samma månad.
+        </note>
+        <note xml:id="i-RVuWStp9Z9e8KJqkLu7tqu">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 3,40 e. m.
+        </note>
+        <note xml:id="i-QMrz83kxgZKw2DhARbUR4N">
+          In fidem Lode Wistrand.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-002.jp2/_view"/>
+        <note type="date" xml:id="i-XiXTw2RFHD9g4XscQWQeFx">
+          Måndagen den 1 februari. 3
+        </note>
+        <note type="date" xml:id="i-AaKH5AKgzuuAAtE7nyjoD3">
+          Måndagen den 1 februari.
+        </note>
+        <note xml:id="i-BKEbnetgDiXDVKRwDwn1Hg">
+          Kammaren sammanträdde kl. 8 e. m.; och dess förhandlingar leddes
+          av herr förste vice talmannen.
+        </note>
+        <note type="speaker" xml:id="i-BDmuY6YRMWXxUG2pxjwsv5">
+          Herr statsrådet Larsson avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-MDC8kekqi1C54U5hWouqp5">
+          ts propositioner:
+        </note>
+        <note xml:id="i-STxw7GPkNqhA5fBkPA9jLM">
+          nr 53, angående statsunderstöd ur fonden för bibanor i vissa
+          delar av riket till Ämål Årjängs järnvägsaktiebolag för utförande
+          av ett hamnspår; och
+        </note>
+        <note xml:id="i-KAze8UGttVwMw1VUqW8vLq">
+          H 54, angående ytterligare statsbidrag till iståndsättande av
+          Falkenbergs tullbro.
+        </note>
+        <note xml:id="i-LRAz57VK494a27xkVAUnNE">
+          Upplästes ett från andra kammaren inkommet protokollsutdrag,
+          nr 107, med inbjudning till första kammaren att förena sig med
+          andra kammaren i dess beslut, att ett särskilt utskott, bestående
+          av 20 ledamöter, 10 från vardera kammaren, skulle tillsättas för
+          behandling av ej mindre Kungl. Maj:ts proposition nr 38, med förslag
+          till lag om delning av jord å landet m. m., än även de ytterligare
+          framställningar, som kunde komma att av Kungl. Maj:t eller enskilda
+          motionärer göras 1 detta ämne eller i andra därmed i omedelbart
+          sammanhang stående frågor.
+        </note>
+        <note xml:id="i-ULGCZVxq4onnuKPJ3DVj8a">
+          På gjord proposition beslöt första kammaren antaga berörda inbjudning.
+        </note>
+        <note xml:id="i-LxfDAWnB9XEcktLbfrTAYf">
+          Ett protokollsutdrag i ämnet justerades och avsändes till andra
+          kammaren.
+        </note>
+        <note xml:id="i-ScfPQBLPa23rZDJTLvoWNs" type="speaker">
+          Herr andre vice talmannen erhöll ordet och yttrade:
+        </note>
+        <u who="i-NwhdVgupCWjkZSqQNMjJnp" xml:id="i-JxBVwkqhVXdUsa3a2LZ4He" next="i-D2hiYKwkdVhLUaDJENU8hX">
+          <seg xml:id="i-TffweN3ZeR5qe4KbLLPQqX">
+            Jag tillåter mig hem-
+          </seg>
+        </u>
+        <u xml:id="i-D2hiYKwkdVhLUaDJENU8hX" who="i-NwhdVgupCWjkZSqQNMjJnp" prev="i-JxBVwkqhVXdUsa3a2LZ4He">
+          <seg xml:id="i-Wcwi4fXd62h2NRvnNmp1mT">
+            ställa, att kammaren ville bestämma antalet suppleanter i det
+            nu beslutade särskilda utskottet till 10.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-97Ben12Vcr864sHmouaXNY">
+          Herr Ekman, Carl Gustaf:
+        </note>
+        <u who="i-DkE8paHuWrA3pdPYEHLKoY" xml:id="i-6416867f53bcf060-0" next="i-ADdfDmBbGYRHvMW9b57zKw">
+          <seg xml:id="i-QJn5wtqZTe8Q1YZ87ZSM6M">
+            Jag ber att i detta avseende få föreslå, att anlalet suppleanter
+            måtte bestämmas till 12.
+          </seg>
+        </u>
+        <note xml:id="i-WkWd6H3B2ZjvQzD4JJSkjk">
+          Efter härmed slutad överläggning yttrade herr förste vice talmannen,
+          att därunder yrkats dels, av herr andre vice talmannen, att kammaren
+          skulle besluta att utse 10 suppleanter i det särskilda utskott,
+          som riksdagen beslutit tillsätta, dels ock, av herr Ekman, Carl
+          Gustaf, att antalet suppleanter i nämnda utskott skulle bestämmas
+          till 12.
+        </note>
+        <note xml:id="i-4kqZbHYijW6d3ESi5urYyV">
+          Sedermera gjordes propositioner enligt berörda yrkanden; och
+          förklarades propositionen på bifall till herr Carl Gustaf Ekmans
+          yrkande vara med övervägande ja besvarad.
+        </note>
+        <u xml:id="i-ADdfDmBbGYRHvMW9b57zKw" prev="i-6416867f53bcf060-0" who="i-DkE8paHuWrA3pdPYEHLKoY">
+          <seg xml:id="i-GrZV75r5cNQkQfxAXjRQKt">
+            Herr förste vice talmannen yttrade vidare, att han efter samråd
+            med andra kammarens talman finge föreslå, det första kammaren
+            ville besluta att vid sammanträde, som komme att hållas onsdagen
+            den 3 innevarande månad, företaga val av ledamöter och suppleanter
+            i särskilda utskottet.
+          </seg>
+        </u>
+        <note xml:id="i-T6E4Zb8ePta6t47mQEdj2H">
+          «Vad herr förste vice talmannen sålunda föreslagit bifölls.
+        </note>
+        <note xml:id="i-UJ3T4GPLsB3mX2FipBN1aN" type="speaker">
+          Ordet lämnades härefter till herr andre vice talmannen, som anförde:
+        </note>
+        <u who="i-NwhdVgupCWjkZSqQNMjJnp" xml:id="i-M6fUJDk9jcH9zafwAvSnGq" next="i-DvPc4YoMf5ZQuQ2gzebYJx">
+          <seg xml:id="i-Kt4u8tAMP9BCXpokxQX4ji">
+            Med stöd av $ 55 riksdagsordningen får jag hemställa, att kammaren
+            ville med-
+          </seg>
+        </u>
+        <note xml:id="i-9HzqjzDpGqY1hn3yNcV2vP">
+          Nr 6.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-003.jp2/_view"/>
+        <note xml:id="i-8wJpMkhaLq8WBmkHxBwEPo">
+          Nr 6.
+        </note>
+        <note xml:id="i-PCX8UwohQqv1Y7tr134ECk">
+          Ang. viss motions remitterande till utskott.
+        </note>
+        <note type="date" xml:id="i-2CzYZaMmhSLNNgTCYGX76h">
+          4 Måndagen den 1 februari.
+        </note>
+        <note xml:id="i-J43Ty2CTEcep2dwCdsB8pz">
+          giva, att tiden för avgivande av motioner i anledning av Kungl.
+          Maj:ts Proposition nr 38 med förslag till lag om delning av jord
+          å landet m. m. måtte ut-
+        </note>
+        <u xml:id="i-DvPc4YoMf5ZQuQ2gzebYJx" who="i-NwhdVgupCWjkZSqQNMjJnp" prev="i-M6fUJDk9jcH9zafwAvSnGq">
+          <seg xml:id="i-UzMgJtpqTkZJZ8PqKwAmoQ">
+            sträckas till det plenum, som infaller näst efter tjugu dagar
+            från Propositionens avlämnande.
+          </seg>
+        </u>
+        <note xml:id="i-H9L2VxhiaUWPPRj6Yr6tHJ">
+          Denna hemställan bifölls.
+        </note>
+        <note xml:id="i-HW1RBBAjpo4RpUSGczyjnA">
+          Efter föredragning av Kungl. Maj:ts proposition nr 38, med förslag
+          till lag om delning av jord å landet m. m., hänvisades denna proposition
+          till det särskilda utskott, som riksdagen beslutit tillsätta för
+          propositionens behand-
+        </note>
+        <note xml:id="i-Q6Hrx5NJ532ogZVQAXkT6q">
+          ling.
+        </note>
+        <note xml:id="i-Lq4qsBcji7WQ4mGiocsGSu">
+          Föredrogs herr Dalbergs motion, nr 215, om upphävande av eller
+          inskränkning i gällande föreskrifter om världsliga kungörelsers
+          uppläsande i kyrka.
+        </note>
+        <note type="speaker" xml:id="i-BpyUv1Yu3iMx3PckizfHpD">
+          Herr förste vice talmannen:
+        </note>
+        <u who="i-BedoVVUtGhYy2ZeyUHdGDk" xml:id="i-66ec4f89d9a29cb7-0" next="i-66ec4f89d9a29cb7-1">
+          <seg xml:id="i-H5LKna3xqNdVLmF6vC1Xzm">
+            I denna motion hemställer herr Dalberg, att riksdagen måtte besluta
+            en skrivelse till Kungl. Maj:t med anhållan, att Kungl. Maj:t
+            täcktes, så snart ske kan, vidtaga åtgärder för fullständigt upphävande
+            av eller väsentlig inskränkning uti gällande föreskrifter om världsliga
+            kungörelsers uppläsande i kyrka.
+          </seg>
+        </u>
+        <note xml:id="i-LzYe6gFHvDsvSDtL3wa6iT">
+          I $ 42 mom. 1 riksdagsordningen stadgas, att lagutskotten skola
+          meddela utlåtanden och avgiva förslag i anledning av de, såsom
+          icke tillhörande annat utskotts behandling, från kamrarna dit
+          hänvisade frågor om stiftunde, ändring, förklaring eller upphävande
+          av civil-, kriminaloch kyrkolag, likasom ock av andra lagar och
+          författningar, som stiftas av konung och riksdag samfällt.
+        </note>
+        <u who="i-BedoVVUtGhYy2ZeyUHdGDk" xml:id="i-66ec4f89d9a29cb7-1" prev="i-66ec4f89d9a29cb7-0" next="i-GQbtGEC3cra2voAVtFKH1Z">
+          <seg xml:id="i-D94adrMgNZTmf2isFDC3us">
+            Då herr Dalbergs motion avser Just en sådan fråga, vilken enligt
+            grundlagen sålunda tillhör behandling av lagutskott, finner jag
+            motionen vara för sent väckt, varför jag är förhindrad att framställa
+            proposition på dess remitterande till utskott.
+          </seg>
+        </u>
+        <note xml:id="i-LmorTZLLCvMuh4pwQTVpfD">
+          Föredrogos, men bordlades ånyo på flera ledamöters begäran bevillningsutskottets
+          betänkanden nr 1--—5.
+        </note>
+        <note xml:id="i-LzMrHiyVetqJ8PkJYocnNc">
+          Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts denna
+          dag avlämnade propositioner nr 53 och 54.
+        </note>
+        <note xml:id="i-A4RFV1sBZHdj5rmSt6tsNM">
+          Avgåvos och bordlades nedannämnda motioner:
+        </note>
+        <note xml:id="i-2xMLD8pj1Za1hhuLA5iVxQ">
+          nr 218, av herr Luterkort, om ändring av $ 21 regeringsformen;
+        </note>
+        <note xml:id="i-HJTRiU3Kk974ZEcnKPE5ip">
+          nr 219, av herr Luterkort, om ändring av $ 43 mom. 2 riksdagsordningen;
+        </note>
+        <note xml:id="i-KantshQxfP5S9XTE1ETYJh">
+          nr 220, av herr Luterkort, om beredande av ökat skydd åt kroppsarbetarna
+          inom storindustrien m. m.;
+        </note>
+        <note xml:id="i-RuUAMbbVEJUjiKi6bHAmP4">
+          nr 221, av herr Enhörning, om tillämpande av s. k. sommartid;
+        </note>
+        <note xml:id="i-FQRMqejioEyCf3CVyAit5J">
+          nr 222, av herr Lindhagen, angående internationell överenskommelse
+          om ett världsspråk;
+        </note>
+        <note xml:id="i-YYhbKYorpAxDmCWj3dD4Cd">
+          nr 223, av herr Bosén, om åtgärder för riksdagskostnadernas nedbringande;
+          samt
+        </note>
+        <note xml:id="i-SUe4zSLeBBpP4Dxz2hTuf5">
+          nr 224, av herr Lindley, om åtgärder för ett mera enhetligt och
+          tillfredsställande ordnande av handräckningsarbetet vid landets
+          tullplatser.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-004.jp2/_view"/>
+        <note type="date" xml:id="i-3onGzSqCAtuqSQnCSPjBef">
+          Måndagen den 1 februari. 5
+        </note>
+        <note xml:id="i-L7whdpbCEeEvYCimpnikjy">
+          Anmäldes och bordlades statsutskottets utlåtanden och memorial:
+        </note>
+        <note xml:id="i-5ymvoF8oYCeYq3nBNLB7aP">
+          nr 1, angående regleringen för budgetåret 1926—1927 av utgifterna
+          under riksstatens första huvudtitel, innefattande anslagen till
+          kungl. hovoch slottsstaterna;
+        </note>
+        <note xml:id="i-2hPfQH9VSY4Bmf5QqcGp5a">
+          ar 7, angående regleringen för budgetåret 1926—1927 av utgifterna
+          under riksstatens sjunde huvudtitel, innefattande anslagen till
+          finansdepartementet; samt
+        </note>
+        <note xml:id="i-G7w72L6PbJ9VF1rQNscc8n">
+          nr 12, med anledning av remiss från andra kammaren av en av herr
+          H. Weibull m. fl. väckt motion;
+        </note>
+        <note xml:id="i-8sQreZtg3aXuBELa4Uzy1F">
+          första lagutskottets utlåtanden:
+        </note>
+        <note xml:id="i-NJLQo8pYryQ2ebaFe1bKcF">
+          nr 1, i anledning av verkställd granskning av justitieombudsmannens
+          ämbetsförvaltning; samt
+        </note>
+        <note xml:id="i-TwYfWA1Vy9ztZvXRthMq15">
+          nr 2, i anledning av verkställd granskning av militieombudsmannens
+          ämbetsförvaltning;
+        </note>
+        <note xml:id="i-DCieTurEgtwD74C993QNvp">
+          andra lagutskottets utlåtande nr 1, i anledning av Kungl. Maj:ts
+          proposition med förslag till lag angående förbud i vissa fall
+          mot arbetares användande till målningsarbete, vid vilket nyttjas
+          blyfärg; ävensom
+        </note>
+        <note xml:id="i-BuKJeu5K8RvaebXC5JrtdP">
+          Jordbruksutskottets utlåtanden:
+        </note>
+        <note xml:id="i-WV88R8C86N1KuNFvPxN9Jz">
+          nr 3, i anledning av Kungl. Maj:ts proposition angående befrielse
+          för G. Karlsson från erläggande av viss del av köpeskillingen
+          för ?/, mantal Fylleryd i Kronobergs län;
+        </note>
+        <note xml:id="i-Qoejxz9RmPhrNFC3bHAznm">
+          nr 4, i anledning av Kungl. Maj:ts proposition angående befrielse
+          för A. Forsgren från viss skadeståndsskyldighet;
+        </note>
+        <note xml:id="i-LFfeGgJgThwTXjfLsBo8cH">
+          nr 5, i anledning av Kungl. Maj:ts proposition angående upplåtelse
+          av rätt till bearbetande av icke inmutningsbara mineralfyndigheter
+          å kronojord;
+        </note>
+        <note xml:id="i-HyguDfKferVhiSb2NHH1Tn">
+          nr 6, i anledning av Kungl. Maj:ts proposition angående avstående
+          i vissa fall av mark från kronoegendomar eller upplåtande av nyttjanderätt
+          eller servitutsrätt till sådan mark; samt
+        </note>
+        <note xml:id="i-4GnDZf4vgiFpidx2fg4x9R">
+          nr 7, i anledning av Kungl. Maj:ts proposition, nr 25, angående
+          försäljning NN vissa kronoegendomar och upplåtande av lägenheter
+          från sådana egen-
+        </note>
+        <note xml:id="i-VERJJod86rCVNg3HVhtmRy">
+          omar.
+        </note>
+        <note xml:id="i-XW5CzXx9cWVps5vUjRqsRS">
+          Herr förste vice talmannen tillkännagav, att vaktmästaren hos
+          kammaren Sven Andersson på begäran entledigats från sin ifrågavarande
+          befattning från och med denna dag och att till vaktmästare efter
+          honom antagits R. Hagqvist.
+        </note>
+        <note xml:id="i-8oXr6kMT9cSVfM9EJ3XjTT">
+          Upplästes följande till kammaren inkomna ansökning:
+        </note>
+        <note xml:id="i-Rp71AkgRdfgEGQ9sM9vpFh">
+          Till första kammaren.
+        </note>
+        <u xml:id="i-GQbtGEC3cra2voAVtFKH1Z" prev="i-66ec4f89d9a29cb7-1" who="i-BedoVVUtGhYy2ZeyUHdGDk">
+          <seg xml:id="i-L2d7b6qWPX4ywG8Fy4gxpX">
+            På grund av enskilda angelägenheter (sjukdom i hemmet) anhåller
+            jag härmed vördsamt om permission från riksdagsgöromålen t. v.
+            fr. o. m. måndagen den 1 februari.
+          </seg>
+        </u>
+        <note xml:id="i-4JxV6pYTYA88ytwjrdZXLN">
+          Stockholm den 31 januari 1926.
+        </note>
+        <note xml:id="i-UNkddZDxjxqg6ugiEm68cJ">
+          E. Svänsson.
+        </note>
+        <note xml:id="i-2HhCZUaUkqjK4gEFi3WSs8">
+          På gjord proposition bifölls ansökningen för den tid, det i densamma
+          omförmälda hindret varade.
+        </note>
+        <note xml:id="i-9dS4i5CcYYD4RYp7q6yRhJ">
+          Nr 6.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-005.jp2/_view"/>
+        <note xml:id="i-NN67kaFGtvvyDD2qpdQpoh">
+          Nr 6.
+        </note>
+        <note xml:id="i-MgkN54EtqpjybFaNHCYaf7">
+          Ang. viss
+        </note>
+        <note type="date" xml:id="i-DhnkHLB6fvsYgZSviiNiLT">
+          Tisdagen den 2 februari,
+        </note>
+        <note xml:id="i-NLoo4rK3FqLnn7YwAbRa1">
+          Justerades ytterligare protokollsutdrag för denna dag ävensom
+          protokollen | för den 26 och den 27 nästlidne januari.
+        </note>
+        <note xml:id="i-E1gNC1T8oCrBA9WFQm49He">
+          Kammarens sammanträde avslutades kl. 8.15 e. m.
+        </note>
+        <note xml:id="i-7u77reAsEURTsP9Q7i9c1A">
+          In fidem Lode Wistrand.
+        </note>
+        <note type="date" xml:id="i-CfDX4qXQFtGD1ALoe54tYS">
+          Tisdagen den 2 februari.
+        </note>
+        <note xml:id="i-14owqGegr2UURHQ4tfQNPp">
+          Kammaren sammanträdde kl. 3.30 e. m.; och dess förhandlingar
+          leddes av herr förste vice talmannen.
+        </note>
+        <note type="speaker" xml:id="i-HRevLqZUM1oxEzG1DMyzGN">
+          Herr statsrådet Nothin avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-YGTA1JsS13oPHghHtHTAEW">
+          ts propositioner:
+        </note>
+        <note xml:id="i-2g32Frj4rfn6F8d8MdiCTF">
+          nr 50, angående försäljning av mark från klockarbostället i Örkelljunga
+          församling.
+        </note>
+        <note xml:id="i-D3aa73D4BFXCrffYiPPciN">
+          nr 52, med förslag till lag om ändrad lydelse av 17 kap. 4 $
+          handelsbalken; och
+        </note>
+        <note xml:id="i-NA1Gz7EK1dMhtwyPJbnDs5">
+          nr 55, med förslag till lag om ändring i vissa delar av lagen
+          den 28 januari 1921 (nr 15) om kommandomål.
+        </note>
+        <note xml:id="i-D3yXLiWyMNb5AyLU46dxtH">
+          Föredrogos och hänvisades till konstitutionsutskottet nedannämnda
+          motioner:
+        </note>
+        <note xml:id="i-H8uNqmrV1j76ZW5KwJyrW3">
+          nr 218, av herr Luterkort, om ändring av $ 21 regeringsformen;
+          och
+        </note>
+        <note xml:id="i-JhXirB69sY1A69PtgpTBRU">
+          nr 219, av densamme, om ändring av $ 43, mom. 2 riksdagsordningen.
+        </note>
+        <note xml:id="i-3H4VkTy5yzoijwKgyxxaZF">
+          Föredrogs och hänvisades till kammarens andra tillfälliga utskott
+          herr Luterkorts motion, nr 220, om beredande av ökat skydd åt
+          kroppsarbetarna inom storindustrien m. m.
+        </note>
+        <note xml:id="i-QWLWx18RvBc9N9SEkQPQHc">
+          Föredrogos och hänvisades till kammarens första tillfälliga utskott
+          nedannämnda motioner:
+        </note>
+        <note xml:id="i-F2aZj6WAcWV8J3p45f6zoe">
+          nr 221, av herr Enhörning, om tillämpande av s. k. sommartid;
+          och
+        </note>
+        <note xml:id="i-78D1QPxJyKnswmforiXBi5">
+          nr 222, av herr Lindhagen, angående internationell överenskommelse
+          om ett världsspråk.
+        </note>
+        <note xml:id="i-C97tsinhemqZaCuwMbhFo7">
+          Föredrogs herr Roséns motion, nr 223, om åtgärder för riksdagskostnader-
+        </note>
+        <note xml:id="i-TwCRubb6EeKAe5CKWvQ8wc">
+          motions remitnas nedbringande.
+        </note>
+        <note xml:id="i-CTTskpsqhfVe6Jq4tTRjnM">
+          terande till utskott.
+        </note>
+        <note type="speaker" xml:id="i-JGtDRRFVMKaN3qjBjiPqwf">
+          Herr förste vice talmannen:
+        </note>
+        <u who="i-BedoVVUtGhYy2ZeyUHdGDk" xml:id="i-66ec4f89d9a29cb7-4" next="i-B7xqJQUxh1KMPvAG9rBxHf">
+          <seg xml:id="i-9SZ9AYtbnsYDy5A7CPHEAG">
+            I denna motion hemställer herr Rosén, att första kammaren måtte
+            för sin del besluta, att riksdagen skall genom delegerade, utsedda
+            på sätt vederbörande utskott kan finna skäligt föreslå, verkställa
+            en undersökning rörande de åtgärder, som kunna och böra vidtagas
+            för riksdagskostnadernas nedbringande, samt därom framlägga förslag.
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-006.jp2/_view"/>
+        <note type="date" xml:id="i-UMZqd2UgGWrEUsfHN2eeAr">
+          Tisdagen den 2 februari, 7
+        </note>
+        <u xml:id="i-B7xqJQUxh1KMPvAG9rBxHf" who="i-BedoVVUtGhYy2ZeyUHdGDk" prev="i-66ec4f89d9a29cb7-4">
+          <seg xml:id="i-Uh3CyBTPUpK5WpAQpxgf4A">
+            Jämlikt $ 41 riksdagsordningen tillhör det bankoutskottet att
+            undersöka och utreda riksbankens och riksgäldskontorets styrelse
+            och tillstånd. På grund härav hava också enligt praxis frågor
+            rörande riksdagskostnaderna hänskjutits till behandling av bankoutskottet.
+            Då denna motion måste anses innefatta en dylik fråga och förty
+            tillhöra bankoutskottets behandling, finner jag motionen vara
+            för sent väckt, varför jag är förhindrad att framställa proposition
+            på remiss av densamma.
+          </seg>
+        </u>
+        <note xml:id="i-G8iwehNfMExKYu8qj2qiV">
+          Föredrogs och hänvisades till kammarens andra tillfälliga utskott
+          herr Lindleys motion, nr 224, om åtgärder för ett mera enhetligt
+          och tillfredsställande ordnande av handräckningsarbetet vid landets
+          tullplatser.
+        </note>
+        <note xml:id="i-Vper5PhPaBehcF5msEBdPh">
+          Föredrogos, men bordlades ånyo på flera ledamöters begäran statsutskottets
+          utlåtanden nr 1 och 7. |
+        </note>
+        <note xml:id="i-HBVPxcy6hssbCTzAxkYUjH">
+          Föredrogs statsutskottets memorial nr 12, med anledning av remiss
+          från andra kammaren av en av herr H. Weibull m. fl. väckt motion.
+        </note>
+        <note xml:id="i-N2YrjT9mKnLksLDRENNouH">
+          Detta memorial lydde:
+        </note>
+        <note xml:id="i-4EANn5Po9HZMEza1y3pNtb">
+          » Till statsutskottet har från andra kammaren remitterats en
+          av herr H. Weibull m. fl. väckt motion (nr 224), däri hemställts
+          att riksdagen måtte till uppehållande av en mejerioch lantbrukskonsulentbefattning
+          i London samt en konsulentbefattning i Berlin och en i Riga för
+          tillvaratagande av det svenska lantbrukets och fiskets och därmed
+          sammanhängande intressen i Tyskland, respektive Estland, Lettland,
+          Lithauen och Polen anvisa för budgetåret 1926—1927 ett extra anslag
+          av 54,000 kronor.
+        </note>
+        <note xml:id="i-FWB4PoU38whQgfbsBAiuUu">
+          Då ifrågavarande motion avser ett jordbruksärende och sålunda
+          icke är av beskaffenhet att böra behandlas av statsutskottet,
+          får utskottet med stöd av $ 7 av de för riksdagen gällande reglementariska
+          föreskrifterna hemställa, att herr Weibulls m. fl. ovanberörda
+          motion må till andra kammaren återlämnas.»
+        </note>
+        <note type="speaker" xml:id="i-PXSJmaJZn6KpwmmhLGtbbt">
+          Herr andre vice talmannen:
+        </note>
+        <u who="i-NwhdVgupCWjkZSqQNMjJnp" xml:id="i-66ec4f89d9a29cb7-5" next="i-L7pp6uG4Z7VQkdNCjiQKdb">
+          <seg xml:id="i-4i6HtXPUgr9pZ72SG9MjCJ">
+            Jag får hemställa, att kammaren behagade bifalla statsutskottets
+            memorial med förklarande, att ifrågavarande motion är av beskaffenhet
+            att böra behandlas av jordbruksutskottet.
+          </seg>
+        </u>
+        <note xml:id="i-DJrxwKyvmiECoxie7g8C3J">
+          Efter härmed slutad överläggning bifölls vad herr andre vice
+          talmannen därunder hemställt.
+        </note>
+        <note xml:id="i-RdLeywyQjeyZnF9HZCbxRZ">
+          Föredrogos, men bordlades ånyo på flera ledamöters begäran första
+          lagutskottets utlåtanden nr 1 och 2, andra lagutskottets utlåtande
+          nr 1 samt jordbruksutskottets utlåtanden nr 3—7.
+        </note>
+        <note xml:id="i-8KeM49WgNzTCEVQJBxd86T">
+          Efter föredragning av de vid sammanträdets början avlämnade kungl.
+          propositionerna hänvisades dessa, nr 50 till Jordbruksutskottet,
+          nr 52 till behandling av lagutskott och nr 55 till konstitutionsutskottet.
+        </note>
+        <note xml:id="i-WsN1R6uG9bdCWvVtGazbGt">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 3.42 e. m.
+        </note>
+        <note xml:id="i-RhLhbPieakGahMwd2qscp7">
+          In fidem G. H. Berggren.
+        </note>
+        <note xml:id="i-CG8EgsFayvpSVCz9jeabz">
+          Nr 6.
+        </note>
+        <note xml:id="i-CDUCxrLbLz9Hqa7vRxnask">
+          Ang. viss motions remiltterande till utskott.
+        </note>
+        <note xml:id="i-QVpSKTRNx2SYtDKoDeN8Zk">
+          (Forts.)
+        </note>
+        <note xml:id="i-MA7uYoJu8hpdHdvytuR6iw">
+          Om återlämnande från statsutskottet av en dit remitterad motion.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-007.jp2/_view"/>
+        <note xml:id="i-3tXLnmY9ARcwzvKzXFQdcq">
+          Nr 6. 8
+        </note>
+        <note type="date" xml:id="i-Qqnnx1MUX12jBk4k1xEM7N">
+          Onsdagen den 3 februari.
+        </note>
+        <note type="date" xml:id="i-6RJb9FadxuMAZZbPBBgGC6">
+          Onsdagen den 3 februari.
+        </note>
+        <note xml:id="i-HfhStGb5e9rLsXw5HxdSig">
+          Kammaren sammanträdde kl. 11 f. m.; och dess förhandlingar leddes
+          av herr förste vice talmannen.
+        </note>
+        <note xml:id="i-A3bNdmZ6VFp1VEie6nrSTf">
+          Anställdes val av tio ledamöter i särskilda utskottet. Därvid
+          avlämnades 84 godkända valsedlar, samtliga med partibeteckning
+          »den gemensamma listan» och upptagande namnen på följande personer
+          i denna ordning:
+        </note>
+        <note xml:id="i-TSJMbQtUWtkZEYcBRjUnBy">
+          herr Larsson, Jacob,
+        </note>
+        <note xml:id="i-Qoun8cf1cpsQ9HmJh3c7zt">
+          2» » » » » » » » »
+        </note>
+        <note xml:id="i-3AxwrqafsMyRKkhMU43x26">
+          Rogberg,
+        </note>
+        <note xml:id="i-GDKju55FhArxGgX2P72181">
+          von Sneidern, Linder,
+        </note>
+        <note xml:id="i-J5W3rTfPieX6osKGiWnnEa">
+          Frändén, Abrahamsson, Gustafsson, Per J., Asplund, Sederholm,
+          Jonsson, P. E. A.
+        </note>
+        <note xml:id="i-XejDLuVpfvSzmLGuoFaWF">
+          Dessa personer hade alltså utsetts till ledamöter i utskottet.
+        </note>
+        <note xml:id="i-TUb1J3pVXQ24JgFqyWWdJW">
+          Företogs val av tolv suppleanter i särskilda utskottet. Därvid
+          avlämnades 56 godkända valsedlar, samtliga med partibeteckning
+          »den gemensamma listan» och upptagande namnen på följande personer
+          i denna ordning:
+        </note>
+        <note xml:id="i-25yZKS4JZmx7PYtuoiMcgG">
+          herr Norin,
+        </note>
+        <u xml:id="i-L7pp6uG4Z7VQkdNCjiQKdb" prev="i-66ec4f89d9a29cb7-5" who="i-NwhdVgupCWjkZSqQNMjJnp" next="i-66ec4f89d9a29cb7-8">
+          <seg xml:id="i-BG35tKAGeQQCCiYqUuf5LK">
+            » » » » » » » » » » »
+          </seg>
+        </u>
+        <note xml:id="i-VYoGBCXoQ5EJWGiXDPAybe">
+          Andersson, Jonas, Pers,
+        </note>
+        <note xml:id="i-U2ukZWzc33MGiaqVkwbMEU">
+          Dalberg,
+        </note>
+        <note xml:id="i-Sjrp8PkP2zK3BTWB11XpHc">
+          Nilsson, Nils Anton, Andersson, Elof B., Ericson, K. Oscar, Larsén,
+        </note>
+        <note xml:id="i-Ld3ryav4DxC48WuRHobZwq">
+          Eriksson, Valfrid, Karlsson, Gottfrid, Gabrielsson,
+        </note>
+        <note xml:id="i-7CudDSDcz3ty8LbA3hfTGy">
+          Schedin.
+        </note>
+        <note xml:id="i-4Av4U985RGyRyNmLFdeviS">
+          Dessa personer hade alltså utsetts till suppleanter i utskottet.
+        </note>
+        <note xml:id="i-NsbAA2wCAkVSYaQfnpHECT">
+          Vid förnyad föredragning av statsutskottets utlåtande nr 11,
+          i anledning av Kungl. Maj:ts i statsverkspropositionen gjorda
+          framställning angående tillfälliga lönetillägg åt vissa vaktmästare
+          och med dem jämförliga befattningshavare, bifölls vad utskottet
+          i detta utlåtande hemställt.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-008.jp2/_view"/>
+        <note type="date" xml:id="i-D9QYh4X6zhJMrQwLAhyvJj">
+          Onsdagen den 3 februari. 9
+        </note>
+        <note xml:id="i-V2mymUocsfTNdvmAUsexY8">
+          Föredrogos ånyo bevillningsutskottets betänkanden:
+        </note>
+        <note xml:id="i-JbHSTX3qd26iidPZUyTjU1">
+          nr 1, i anledning av Kungl. Maj:ts proposition med förslag till
+          förordning om fortsatt tillämpning av förordningen den 27 april
+          1923 angående rätt för Konungen att i visst fall åsätta särskild
+          tullavgift:
+        </note>
+        <note xml:id="i-PuJJAVfxiEeK3QQdRWMUEo">
+          nr 2, i anledning av Kungl. Maj:ts proposition med förslag till
+          förordning med särskilda bestämmelser om avdrag vid 1927 års taxering
+          till inkomstoch förmögenhetsskatt samt till bevillning av inkomst
+          m. m.; och
+        </note>
+        <note xml:id="i-JqDFT5mPEYy1PXcQxEnK5d">
+          nr 3, i anledning av väckt motion om tullfrihet för kalciummolybdat
+          m. m.
+        </note>
+        <note xml:id="i-EL8FCzXfRbu4cxmSuaoSHZ">
+          Vad utskottet i dessa betänkanden hemställt bifölls.
+        </note>
+        <note xml:id="i-CS1ayHkZk7C2yn8JP4T7iC">
+          Föredrogs ånyo bevillningsutskottets betänkande nr 4, i anledning
+          av väckt motion om skrivelse till Kungl. Maj:t rörande sänkning
+          av tullen å galoscher.
+        </note>
+        <u who="i-NwhdVgupCWjkZSqQNMjJnp" xml:id="i-66ec4f89d9a29cb7-8" prev="i-L7pp6uG4Z7VQkdNCjiQKdb">
+          <seg xml:id="i-MDya2uUnahmGq3JNji4Xtf">
+            I en inom första kammaren väckt, till bevillningsutskottet hänvisad
+            motion, nr 11, hade herr Stendahl anfört följande: »Det är ett
+            allmänt känt faktum. att den svenska galoschindustrien under en
+            lång följd av år arbetat med alldeles för högt tullskydd och att
+            densamma trots en sänkt tull skulle kunna arbeta med mycket god
+            avkastning. J ag får därför hemställa, att riksdagen i skrivelse
+            till Konungen måtte hemställa om utredning härutinnan och om Tramläggande
+            för riksdagen av de förslag, som denna utredning kan föranleda.»
+          </seg>
+        </u>
+        <note xml:id="i-JkEH58jucZoN5x4i8f9ppB">
+          Utskottet hade i det nu föredragna betänkandet på åberopade grunder
+          hemställt, att förevarande motion, I: 11 av herr Stendahl om skrivelse
+          till Kungl. Maj:t rörande sänkning av tullen å galoscher, icke
+          måtte föranleda någon riksdagens åtgärd.
+        </note>
+        <note type="speaker" xml:id="i-TVyZTAAevApt189k8SY2FF">
+          Herr Stendahl:
+        </note>
+        <u who="i-DA7GTCA3CU2XWPSDGEB8tG" xml:id="i-7d3cfd6af6710d57-0">
+          <seg xml:id="i-3fwvAwgNatEhhGEeis1ity">
+            Herr vice talman! Här har man Ju fått veta, att frågan är av
+            intresse och att det finns fog för motionen. Dock att den tid,
+            som Kungl. Maj:t haft på sig sedan år 1917 tills nu, icke varit
+            tillräcklig, men utskottet tyckes gå i någon sorts proprieborgen
+            för att Kungl. Maj:t till en kommande riksdag — vilket väl får
+            tolkas till nästa riksdag — skall komma med förslag i ärendet.
+            Under sådana förhållanden och när utskottet utfärdat en dylik
+            växel, som, det tar jag för givet, Kungl. Maj:t kommer att inlösa,
+            är ju avsikten med min motion vunnen, även om det blir tolv månader
+            senare än jag hade väntat mig.
+          </seg>
+          <seg xml:id="i-FFp5KHM45WKZiQ8ztfrcdW">
+            Jag har alltså, herr vice talman, intet yrkande.
+          </seg>
+        </u>
+        <note xml:id="i-YAFw1hhDwCNp7DKXrvq84c">
+          Efter härmed slutad överläggning bifölls vad utskottet i förevarande
+          betänkande hemställt.
+        </note>
+        <note xml:id="i-GkPVV1CZ4P63XBemxuMqKK">
+          Föredrogs ånyo bevillningsutskottets betänkande nr 53, i anledning
+          av väckt motion angående tullen å motorvelocipeder. i
+        </note>
+        <note xml:id="i-Qj8MFTehnHvFMAJWZuSfkZ">
+          Utskottets hemställan bifölls.
+        </note>
+        <note xml:id="i-2xnVeqjkUCXgSu3gyYTZ32">
+          Vid förnyad, punktvis skedd föredragning av statsutskottets utlåtande
+          nr 1, angående regleringen för budgetåret 1926—1927 av utgifterna
+          under riksstatens första huvudtitel, innefattande anslagen till
+          kungl. hovoch slottsstaterna, bifölls vad utskottet i detta utlåtande
+          hemställt.
+        </note>
+        <note xml:id="i-8S1kUtPvN2By5BxFmDrdvF">
+          Första kammarens protokoll 1926. Nr 6. 2
+        </note>
+        <note xml:id="i-KCGHhj2oXhwmBmcRwqc5sT">
+          Nr 6,
+        </note>
+        <note xml:id="i-8LH11C573KM4cPHF1iEwkV">
+          Om sänkning av tullen å galoscher.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-009.jp2/_view"/>
+        <note type="date" xml:id="i-VQALBWbE3Ct1YQazCnqXDB">
+          Nr 6. 10 Onsdagen den 3 februari.
+        </note>
+        <note xml:id="i-7ufdtcqyo7miYiL8VQi3ct">
+          Föredrogs ånyo och företogs punktvis till avgörande statsutskottets
+          utlåtande nr 7, angående regleringen för budgetåret 1926—1927
+          av utgifterna under riksstatens sjunde huvudtitel, innefattande
+          anslagen till finansdepartementet.
+        </note>
+        <note xml:id="i-SCfK61qu8bRGzsxGNLbqhp">
+          Punkten 1. Tades till handlingarna.
+        </note>
+        <note xml:id="i-DASNWuTtkgun9HZf71SvY9">
+          Punkterna 2—210. Vad utskottet hemställt bifölls.
+        </note>
+        <note xml:id="i-HkesbrR1Nn93vy1my3qN5A">
+          Punkten 11. Lades till handlingarna.
+        </note>
+        <note xml:id="i-EcDhy6vHQgJMtU3Uj7uJX5">
+          Punkterna 12—232. Vad utskottet hemställt bifölls.
+        </note>
+        <note xml:id="i-6mrcmYfNgkzzdf9dx97kuo">
+          Punkten 33. Lades till handlingarna.
+        </note>
+        <note xml:id="i-PpCnyv8gg4tPhzsPrFTFdj">
+          Punkterna 34—236. Vad utskottet hemställt bifölls.
+        </note>
+        <note xml:id="i-XLm89cCz9Hm9xkfhPUFYxy">
+          Punkten 37. Lades till handlingarna.
+        </note>
+        <note xml:id="i-LraJYTepSvsRDBmQVLg4VD">
+          Punkterna 38 och 39. Vad utskottet hemställt bifölls.
+        </note>
+        <note xml:id="i-RcYszTXdTCgWfoDpiufPZU">
+          Föredrogos ånyo och lades till handlingarna första lagutskottets
+          utlåtanden:
+        </note>
+        <note xml:id="i-Dn4iHNw5DEWr7rEHXG1vND">
+          nr 1, i anledning av verkställd granskning av justitieombudsmannens
+          ämbetsförvaltning; och
+        </note>
+        <note xml:id="i-GkjUSxKFEGkhtaTFqqqEsN">
+          nr 2, i anledning av verkställd granskning av militieombudsmannens
+          ämbetsförvaltning.
+        </note>
+        <note xml:id="i-AM15Po6C6fPjMfUVuatroS">
+          Ang. arbetares Föredrogs ånyo andra lagutskottets utlåtande nr
+          1, i anledning av Kungl. användande Maj:ts proposition med förslag
+          till lag angående förbud i vissa fall mot arbe-
+        </note>
+        <note xml:id="i-BiaFCLi1gRyGKKJNHHFemx">
+          fr orden tares användande till målningsarbete, vid vilket nyttjas
+          blyfärg.
+        </note>
+        <note xml:id="i-SVaKcgeLpXQ9KU9f6DNWkR">
+          vilket nyttjas
+        </note>
+        <note xml:id="i-7cs5JQtUs7iQbmeFXR5Qq4">
+          blyfärg. Genom en den 11 december 1925 dagtecknad proposition,
+          nr 3, vilken hän-
+        </note>
+        <note xml:id="i-SwoQvjQ9ShU8wEhCV2e3xt">
+          visats till lagutskott och behandlats av andra lagutskottet,
+          hade Kungl. Maj:t, under åberopande av propositionen bilagda i
+          statsrådet och lagrådet hållna protokoll, föreslagit riksdagen
+          att antaga vid propositionen fogat förslag till lag angående förbud
+          i vissa fall mot arbetares användande till målningsarbete, vid
+          vilket nyttjas blyfärg.
+        </note>
+        <note xml:id="i-7P7TSbYXnCaUhta3konq4D">
+          Utskottet hade i det nu ifrågavarande utlåtandet på anförda skäl
+          hemställt, att förevarande proposition måtte av riksdagen bifallas.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-010.jp2/_view"/>
+        <note type="date" xml:id="i-XucB3MrWicSEBq4GTfDhcm">
+          Onsdagen den 3 februari. 11
+        </note>
+        <note type="speaker" xml:id="i-D442uhQJoeAV1QChL9XGfn">
+          Herr Holmgren:
+        </note>
+        <u who="i-SsDpF4UKsu862YMrq789mf" xml:id="i-a0707973c286f086-0" next="i-a0707973c286f086-1">
+          <seg xml:id="i-FfogTRYiwVYpXvuBYTKXXz">
+            Herr vice talman! Det lagförslag, som här föreligger, utgör ju
+            en direkt konsekvens av att för Sveriges del har ratificerats
+            en internationell överenskommelse angående förbud mot användande
+            av blyvitt under vissa omständigheter vid målning, och därför
+            är det ju ingen anledning att här uppehålla sig något vidare vid
+            lagförslaget. Jag skulle dock vilja påpeka ett par punkter, som
+            jag ur medicinsk synpunkt finner anledning att beröra.
+          </seg>
+          <seg xml:id="i-72L7Y26SRtb6xbFpDgKXGN">
+            Först vill jag säga, att blyförgiftning är en förgiftning, som
+            i vårt land är mycket sällsynt. Förr var det icke så, men på de
+            senaste tjugo åren har den varit mycket sällsynt. För min del
+            har jag i min verksamhet under de sista tjugo åren nog icke sett
+            mer än sammanlagt så många fall, som kunna räknas på fingrarna,
+            och de fall jag sett ha icke varit förorsakade av användande av
+            olyfärg vid målning, utan det har varit andra fall, t. ex. hos
+            ackumulatorarbetare. Det är således i många yrken som blyförgiftning
+            kan förekomma, och måleriarbetet är ett av dem.
+          </seg>
+          <seg xml:id="i-EfQJv6cTNo4kzPPnX1vPcg">
+            Beträffande de bestämmelser, som här i $ 2 av lagförslaget stadgas,
+            så står där först, att det skulle stadgas förbud för manlig arbetare
+            under 18 år samt för kvinnlig arbetare att överhuvud taget användas
+            till målningsarbete, där blyfärg ifrågakommer. Med hänsyn till
+            de mycket bra bestämmelser, som senare i lagförslaget finnas angående
+            hur arbetarna böra förhålla sig under sådant arbete, tror jag
+            icke alls att det ur medicinsk synpunkt skulle möta något hinder
+            att också använda kvinnliga arbetare och manliga arbetare under
+            18 år. Jag tror, att risken för förgiftning är ytterst obetydlig,
+            om ens någon, i fall de bestämmelser iakttagas, som finnas i lagförslaget.
+            Detta då i förbigående, ty bestämmelserna i konventionen inrymma
+            också detta förbud, och det kan följaktligen icke undvikas.
+          </seg>
+          <seg xml:id="i-U3PBFA7imeV6SvAZepKMCf">
+            Anledningen till att jag begärde ordet äro de bestämmelser, som
+            finnas i andra momentet av $ 2, där det stadgas förbud även för
+            vuxen manlig arbetare över 18 år att under vissa omständigheter,
+            som där närmare framhållas, användas till målningsarbete inomhus
+            med blyfärg, och där det också uppräknas vissa undantag från denna
+            regel. Denna formulering av andra momentet i $2 avviker från konventionens
+            bestämmelser, som säga, att det överhuvud taget skulle vara förbjudet
+            att använda blyfärg för målning inomhus.
+          </seg>
+          <seg xml:id="i-Y9BNNi1VhnFmbQDN9SS6os">
+            I statsrådsprotokollet av den 8 maj 1925 påpekas också, att vi
+            här ha att göra med en begränsning av konventionens bestämmelser,
+            och där säges det, att denna begränsning företagits därför, att
+            det ansetts, att för konventionen det väsentliga är arbetarskyddssynpunkten.
+            I den mån konventionsbestämmelserna kunna anses avse ett förbud
+            ur allmänt sanitär synpunkt mot användande av blyfärg inomhus,
+            torde de för deras genomförande möjligen erforderliga författningsändringarna
+            böra ske genom ändring i eller tillägg till giftstadgan, säges
+            det vidare. Och slutligen påpekar statsrådet, att enligt $ 70
+            i nämnda stadga det vid utlämnande från försäljningsställe av
+            blyfärg skall iakttagas, att å förpackningen finnes en påskrift,
+            innehållande varning mot blyfärgs användande inomhus.
+          </seg>
+          <seg xml:id="i-Naq1X8fPqsT5dZfTcPETZw">
+            Nu skulle jag vilja säga, att det från medicinsk synpunkt, således
+            för att förekomma förgiftning, är viktigt, att det finnes förbud
+            mot användande av blyfärg för målning inomhus, ty förgiftning
+            med blyfärg går till på det sätt, att den torra färgen på väggarna
+            småningom smular av och blir till damm, som inandas av personer,
+            som leva eller vistas i bostaden, den fastnar i munnen och sväljes,
+            varefter den resorberas, och så småningom uppstår blyförgiftning.
+          </seg>
+          <seg xml:id="i-9Xcj1TEbTcSZ2LwxyDPHRP">
+            Vill man således träffa bestämmelser, som avse skydd mot blyförgiftning,
+            är ett förbud överhuvud taget mot användande av blyfärg för målningsarbeten
+            inomhus det viktigaste, och jag anser det vara mycket viktigt
+            eller ganska viktigt åtminstone, att det, i stället för varning
+            mot användande av» blyfärg till målning inomhus, i giftstadgan
+            införes förbud därför. Kommer detta att ske,
+          </seg>
+        </u>
+        <note xml:id="i-UZqnqAmR8GsWCkNXEAhSQz">
+          Nr 6.
+        </note>
+        <note xml:id="i-KFoUuaUrVRGKUKZpebkfUd">
+          Ang. arbetares användande till målningsarbete, vid vilket nyttjas
+          blyfärg. (Forts."
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1926--fk--6/prot_1926__fk__6-011.jp2/_view"/>
+        <note xml:id="i-VLnDxcnzDiFGGnoJAfdVFZ">
+          Nr 6.
+        </note>
+        <note type="date" xml:id="i-URC8HLTW2TUXWZzZfqnspY">
+          12 "Onsdagen den 3 februari.
+        </note>
+        <u who="i-SsDpF4UKsu862YMrq789mf" xml:id="i-a0707973c286f086-1" prev="i-a0707973c286f086-0" next="i-2XkRQS81LP133ZyrjrtKXm">
+          <seg xml:id="i-WSBc3tRWPq2uDPgaEjoYSW">
+            Ang. arbetares blir emellertid formuleringen av andra momentet
+            i $ 2 icke längre användbar
+          </seg>
+        </u>
+        <note xml:id="i-EMGQNK9VoXRLiXEyBh92TU">
+          användande till målningsarbete, vid vilket nyttjas blyfärg. (Forts.)
+        </note>
+        <u xml:id="i-2XkRQS81LP133ZyrjrtKXm" prev="i-a0707973c286f086-1" who="i-SsDpF4UKsu862YMrq789mf">
+          <seg xml:id="i-4XyvUd8Ki8PozEWD7XJTUu">
+            utan måste ändras, och jag tror därför, att det varit önskligt,
+            att andra momentet i $ 2 fått en lydelse i full överensstämmelse
+            med konventionens bestämmelser.
+          </seg>
+          <seg xml:id="i-7s91w4ThJLNkieHoi8WN4W">
+            Jag har intet yrkande att göra.
+          </seg>
+        </u>
+        <note xml:id="i-2RQsNj2P7WYKioKXkhPrXj">
+          Sedan överläggningen ansetts härmed slutad, bifölls vad utskottet
+          i det nu föredragna utlåtandet hemställt.
+        </note>
+        <note xml:id="i-Ru5Z2q3CUxeJUiGW8Q9CQ9">
+          Föredrogos ånyo jordbruksutskottets utlåtanden:
+        </note>
+        <note xml:id="i-K7iGJNprcS3Txz5hcfWXre">
+          nr 3, i anledning av Kungl. Maj:ts proposition angående befrielse
+          för G. Karlsson från erläggande av viss del av köpeskillingen
+          för ?/, mantal Fylleryd i Kronobergs län; g
+        </note>
+        <note xml:id="i-YPZk3PvYwVa3byf2GEfh9E">
+          nr 4, i anledning av Kungl. Maj:ts proposition angående befrielse
+          för A. Forsgren från viss skadeståndsskyldighet;
+        </note>
+        <note xml:id="i-Th9XC7XDvybC3nNUVwoCCH">
+          nr 5, 1 anledning av Kungl. Maj:ts proposition angående upplåtelse
+          av rätt till bearbetande av icke inmutningsbara mineralfyndigheter
+          å kronojord; nr 6, i anledning av Kungl. Maj:ts proposition angående
+          avstående 1 vissa fall av mark från kronoegendomar eller upplåtande
+          av nyttjanderätt eller servitutsrätt till sådan mark; samt
+        </note>
+        <note xml:id="i-EmiyC2XpksoqoDzeyy2vD5">
+          nr 7, i anledning av Kungl. Maj:ts proposition, nr 25, angående
+          försäljning av vissa kronoegendomar och upplåtande av lägenheter
+          från sådana egendomar.
+        </note>
+        <note xml:id="i-Poey6L4tpbkQUhTcZT9vTA">
+          Vad utskottet i dessa utlåtanden hemställt bifölls.
+        </note>
+        <note xml:id="i-PemDg7vHYSuHSxvcCXThEy">
+          Ledighet från riksdagsgöromålen beviljades herr Rosén för tiden
+          från och med den 5 till och med den 13 innevarande månad.
+        </note>
+        <note xml:id="i-4KvKgYNRL7wA6urUTBpkdA">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 11.51 f. m.
+        </note>
+        <note xml:id="i-6yi81ZrjFbbidtppnkYDuj">
+          In fidem G. H. Berggren.
+        </note>
+        <note xml:id="i-Q7CvomejX2rZoojm2QW4B3">
+          Stockholm 1926. Kungl. Boktryckeriet, P. A. Norstedt &amp; Söner.
+          260526
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

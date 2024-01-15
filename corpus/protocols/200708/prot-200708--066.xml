@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 200708</title>
+        <title>Protokoll</title>
       </titleStmt>
       <editionStmt>
         <edition>0.4.2</edition>
@@ -13,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 200708</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -25,205 +25,178 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <editionStmt>
-          <edition>0.4.2</edition>
-        </editionStmt>
-        <publicationStmt>
-          <authority>National Library of Sweden and the WESTAC project</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some data curation was done. It is documented in input/curation/instances</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-200708--66</head>
-          <docDate when="2008-02-18">2008-02-18</docDate>
-        </div>
-      </front>
-      <body>
-        <div type="commentSection" xml:id="i-jgnirJqpaF3WCKPbH1VsS">
-          <pb facs="http://data.riksdagen.se/fil/BEBC0464-DEB7-43EE-A350-64E731D775FA#page=1"/>
-          <note xml:id="i-QRwW8mkc4b8bUZaAXLBPQn">
-            Riksdagens snabbprotokoll
-          </note>
-          <note xml:id="i-2B9ZQtfgcy2gqY6w59pYm1">
-            2007/08:66
-          </note>
-          <note xml:id="i-LixwCHLuCx4A4AeDEYHQdW">
-            Måndagen den 18 februari
-          </note>
-          <note xml:id="i-BgWwsyUWeRudiA4pc4SzoU">
-            Kl. 15:00 - 15:01
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-Bx6cMwPijXwhy8nNNQkMar">
-          <note xml:id="i-CUrkKh58XBrtq3VmEBPpZx">
-            1 § Meddelande om frågestund
-          </note>
-          <note xml:id="i-UBLTn9WmhFLWeHuE6qm4KF">
-            Talmannen meddelade att vid frågestunden torsdagen den 21 februari
-            kl. 14.00 skulle frågor besvaras av statsminister Fredrik Reinfeldt
-            (m).
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-JbP3T1N2PyNn1mmAa9KREk">
-          <note xml:id="i-F84JmZtHJEi2kFK7BUm2Jp">
-            2 § Anmälan om fördröjda svar på interpellationer
-          </note>
-          <note xml:id="i-AGtYbPKW2VcFP2tPYq3Ccg">
-            Till riksdagen hade inkommit följande skrivelser:
-          </note>
-          <note xml:id="i-VFKgRKZkFaam97NmY6wQ2S">
-            Interpellation 2007/08:373
-          </note>
-          <note xml:id="i-4AYUVdLBaYt5Wbh4aFP5WK">
-            Interpellation 2007/08:373 Kvinnors företagande
-          </note>
-          <u xml:id="i-GeHRbN4P4MN5Qrje7VB7ZR" who="unknown" next="i-2cc5a552fde35bd0-1">
-            <seg xml:id="i-JTJaHo5qrQCtqWAbWhWYKE">
-              Interpellationen kommer att besvaras tisdagen den 11 mars 2008.
-            </seg>
-          </u>
-          <u xml:id="i-2cc5a552fde35bd0-1" who="unknown" prev="i-GeHRbN4P4MN5Qrje7VB7ZR" next="i-6hWh2AWR8ZmEAo6yuHKC8a">
-            <seg xml:id="i-JKouJWw52CXG9mvCcitZGB">
-              Skälet till dröjsmålet är sedan tidigare inbokade engagemang.
-            </seg>
-          </u>
-          <note xml:id="i-5TP68h3Uq76uKTSwYJZHZz">
-            Fredrik Ahlén
-          </note>
-          <note xml:id="i-9gmcj8ytydfBC2TAuLEh2">
-            Interpellation 2007/08:380
-          </note>
-          <note xml:id="i-XtqiNRPgUGyHhUa7iAamEw">
-            Interpellationssvar 2007/08:380 Storbanker och fondsparande
-          </note>
-          <u xml:id="i-6hWh2AWR8ZmEAo6yuHKC8a" who="unknown" prev="i-2cc5a552fde35bd0-1" next="i-2cc5a552fde35bd0-2">
-            <seg xml:id="i-QTmRkUVUktQ9yrWcG3rjsC">
-              Interpellationer kommer att besvaras fredagen den 7 mars 2008.
-            </seg>
-          </u>
-          <u xml:id="i-2cc5a552fde35bd0-2" who="unknown" prev="i-6hWh2AWR8ZmEAo6yuHKC8a" next="i-Jku1QSRpuyRjoBYLJcqn3G">
-            <seg xml:id="i-8NEt9Pv68eg6MQtsBjoL6B">
-              Skälet till dröjsmålet är utlandsresa.
-            </seg>
-          </u>
-          <note xml:id="i-LqZ8GXDvEKoNAtgU2bs2R1">
-            Mats Odell
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/BEBC0464-DEB7-43EE-A350-64E731D775FA#page=2"/>
-          <note xml:id="i-4vXMeRbNvbPjVFK5XzuWDe">
-            Interpellation 2007/08:384
-          </note>
-          <note xml:id="i-9mGnLXGk4jP7mqBzsw3byM">
-            Interpellation 2007/08:384 Näringsverksamhet med politiska syften
-          </note>
-          <u xml:id="i-Jku1QSRpuyRjoBYLJcqn3G" who="unknown" prev="i-2cc5a552fde35bd0-2" next="i-2cc5a552fde35bd0-3">
-            <seg xml:id="i-BFJkYo3dgK4CZHa66xeiaw">
-              Interpellationen kommer att besvaras tisdagen den 11 mars 2008.
-            </seg>
-          </u>
-          <u xml:id="i-2cc5a552fde35bd0-3" who="unknown" prev="i-Jku1QSRpuyRjoBYLJcqn3G">
-            <seg xml:id="i-5sj5MpWBqzWVJrEFTug8NF">
-              Skälet till dröjsmålet är sedan tidigare inbokade engagemang.
-            </seg>
-          </u>
-          <note xml:id="i-9ztVaV9gm9xPzcn4LcTjc5">
-            Fredrik Ahlén
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-tKAyyrXNESQfTTxpivKDh">
-          <note xml:id="i-RZcLxfSH4rfcDWZEGy7W1r">
-            3 § Hänvisning av ärende till utskott
-          </note>
-          <note xml:id="i-NebgqQKat5mdkE3r8mbBM9">
-            Föredrogs och hänvisades
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-Q6vvTZJ6sRM3j8Q4AByo8F">
-          <note xml:id="i-NPRqpXJQu4djQfZTezN41M">
-            4 § Bordläggning
-          </note>
-          <note xml:id="i-YWMH77CUVgQiAEuLPPy4Us">
-            Anmäldes och bordlades
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-UwUTnpoZFYav3eDcbezup">
-          <note xml:id="i-FZ5iadeWHTv9wD7DA6rgzJ">
-            5 § Anmälan om interpellationer
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/BEBC0464-DEB7-43EE-A350-64E731D775FA#page=3"/>
-          <note xml:id="i-UvmKbRZpTCbRrE9wvq6AzS">
-            Anmäldes att följande interpellationer framställts
-          </note>
-          <note xml:id="i-KTsgHTmADQuP8wJpyhqZzf">
-            den 15 februari
-          </note>
-          <note xml:id="i-BN78sfgoqpYUL7xtNJF9km">
-            Luciano Astudillo
-          </note>
-          <note xml:id="i-GpReP8gb4jaZdAB6yrwJ3E">
-            Peter Hultqvist
-          </note>
-          <note xml:id="i-CdajGM2ArSWpEboGzqtvN4">
-            den 18 februari
-          </note>
-          <note xml:id="i-99oYwb8VhvBrzrMXHZ8Vn1">
-            Carina Moberg
-          </note>
-          <note xml:id="i-Jm3HzNH21PQfsq5TK1GxoU">
-            Interpellationerna redovisas i bilaga som fogas till riksdagens
-            snabbprotokoll tisdagen den 4 mars.
-          </note>
-        </div>
-        <div type="commentSection" xml:id="i-L735Vh61McxNkRKJzycops">
-          <note xml:id="i-Dqx2x2pj3UeU1KZP5dT9RF">
-            6 § Anmälan om skriftligt svar på fråga
-          </note>
-          <pb facs="http://data.riksdagen.se/fil/BEBC0464-DEB7-43EE-A350-64E731D775FA#page=4"/>
-          <note xml:id="i-2FgqPEQ6X6K9qCZ4yUZ8hD">
-            Anmäldes att skriftligt svar på följande fråga inkommit
-          </note>
-          <note xml:id="i-URNngjKF64WCp2vY5oCoNj">
-            den 18 februari
-          </note>
-          <note xml:id="i-9QxdqzQUH6esy2wmvqmX3j">
-            Karl Sigfrid
-          </note>
-          <u xml:id="i-NfxG4ACpF9cK3ZLDRMVpyX" who="unknown">
-            <seg xml:id="i-DVSFzD8cG1bMu3t6ACU2wH">
-              Svaret redovisas i bilaga som fogas till riksdagens snabbprotokoll
-              tisdagen den 4 mars.
-            </seg>
-          </u>
-        </div>
-        <div type="commentSection" xml:id="i-2s3jzkZbjtaPjQhVetaUDg">
-          <note xml:id="i-XxB2pndrQRyQ5xzcDm79of">
-            7 § Kammaren åtskildes kl. 15.01.
-          </note>
-          <note xml:id="i-RSorqZ7FnTqGAD1AQDce9E">
-            Förhandlingarna leddes av talmannen.
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-200708--66</head>
+        <docDate when="2008-02-18">2008-02-18</docDate>
+      </div>
+    </front>
+    <body>
+      <div type="commentSection" xml:id="i-jgnirJqpaF3WCKPbH1VsS">
+        <pb facs="http://data.riksdagen.se/fil/BEBC0464-DEB7-43EE-A350-64E731D775FA#page=1"/>
+        <note xml:id="i-QRwW8mkc4b8bUZaAXLBPQn">
+          Riksdagens snabbprotokoll
+        </note>
+        <note xml:id="i-2B9ZQtfgcy2gqY6w59pYm1">
+          2007/08:66
+        </note>
+        <note xml:id="i-LixwCHLuCx4A4AeDEYHQdW">
+          Måndagen den 18 februari
+        </note>
+        <note xml:id="i-BgWwsyUWeRudiA4pc4SzoU">
+          Kl. 15:00 - 15:01
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-Bx6cMwPijXwhy8nNNQkMar">
+        <note xml:id="i-CUrkKh58XBrtq3VmEBPpZx">
+          1 § Meddelande om frågestund
+        </note>
+        <note xml:id="i-UBLTn9WmhFLWeHuE6qm4KF">
+          Talmannen meddelade att vid frågestunden torsdagen den 21 februari
+          kl. 14.00 skulle frågor besvaras av statsminister Fredrik Reinfeldt
+          (m).
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-JbP3T1N2PyNn1mmAa9KREk">
+        <note xml:id="i-F84JmZtHJEi2kFK7BUm2Jp">
+          2 § Anmälan om fördröjda svar på interpellationer
+        </note>
+        <note xml:id="i-AGtYbPKW2VcFP2tPYq3Ccg">
+          Till riksdagen hade inkommit följande skrivelser:
+        </note>
+        <note xml:id="i-VFKgRKZkFaam97NmY6wQ2S">
+          Interpellation 2007/08:373
+        </note>
+        <note xml:id="i-4AYUVdLBaYt5Wbh4aFP5WK">
+          Interpellation 2007/08:373 Kvinnors företagande
+        </note>
+        <u xml:id="i-GeHRbN4P4MN5Qrje7VB7ZR" who="unknown" next="i-2cc5a552fde35bd0-1">
+          <seg xml:id="i-JTJaHo5qrQCtqWAbWhWYKE">
+            Interpellationen kommer att besvaras tisdagen den 11 mars 2008.
+          </seg>
+        </u>
+        <u xml:id="i-2cc5a552fde35bd0-1" who="unknown" prev="i-GeHRbN4P4MN5Qrje7VB7ZR" next="i-6hWh2AWR8ZmEAo6yuHKC8a">
+          <seg xml:id="i-JKouJWw52CXG9mvCcitZGB">
+            Skälet till dröjsmålet är sedan tidigare inbokade engagemang.
+          </seg>
+        </u>
+        <note xml:id="i-5TP68h3Uq76uKTSwYJZHZz">
+          Fredrik Ahlén
+        </note>
+        <note xml:id="i-9gmcj8ytydfBC2TAuLEh2">
+          Interpellation 2007/08:380
+        </note>
+        <note xml:id="i-XtqiNRPgUGyHhUa7iAamEw">
+          Interpellationssvar 2007/08:380 Storbanker och fondsparande
+        </note>
+        <u xml:id="i-6hWh2AWR8ZmEAo6yuHKC8a" who="unknown" prev="i-2cc5a552fde35bd0-1" next="i-2cc5a552fde35bd0-2">
+          <seg xml:id="i-QTmRkUVUktQ9yrWcG3rjsC">
+            Interpellationer kommer att besvaras fredagen den 7 mars 2008.
+          </seg>
+        </u>
+        <u xml:id="i-2cc5a552fde35bd0-2" who="unknown" prev="i-6hWh2AWR8ZmEAo6yuHKC8a" next="i-Jku1QSRpuyRjoBYLJcqn3G">
+          <seg xml:id="i-8NEt9Pv68eg6MQtsBjoL6B">
+            Skälet till dröjsmålet är utlandsresa.
+          </seg>
+        </u>
+        <note xml:id="i-LqZ8GXDvEKoNAtgU2bs2R1">
+          Mats Odell
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/BEBC0464-DEB7-43EE-A350-64E731D775FA#page=2"/>
+        <note xml:id="i-4vXMeRbNvbPjVFK5XzuWDe">
+          Interpellation 2007/08:384
+        </note>
+        <note xml:id="i-9mGnLXGk4jP7mqBzsw3byM">
+          Interpellation 2007/08:384 Näringsverksamhet med politiska syften
+        </note>
+        <u xml:id="i-Jku1QSRpuyRjoBYLJcqn3G" who="unknown" prev="i-2cc5a552fde35bd0-2" next="i-2cc5a552fde35bd0-3">
+          <seg xml:id="i-BFJkYo3dgK4CZHa66xeiaw">
+            Interpellationen kommer att besvaras tisdagen den 11 mars 2008.
+          </seg>
+        </u>
+        <u xml:id="i-2cc5a552fde35bd0-3" who="unknown" prev="i-Jku1QSRpuyRjoBYLJcqn3G">
+          <seg xml:id="i-5sj5MpWBqzWVJrEFTug8NF">
+            Skälet till dröjsmålet är sedan tidigare inbokade engagemang.
+          </seg>
+        </u>
+        <note xml:id="i-9ztVaV9gm9xPzcn4LcTjc5">
+          Fredrik Ahlén
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-tKAyyrXNESQfTTxpivKDh">
+        <note xml:id="i-RZcLxfSH4rfcDWZEGy7W1r">
+          3 § Hänvisning av ärende till utskott
+        </note>
+        <note xml:id="i-NebgqQKat5mdkE3r8mbBM9">
+          Föredrogs och hänvisades
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-Q6vvTZJ6sRM3j8Q4AByo8F">
+        <note xml:id="i-NPRqpXJQu4djQfZTezN41M">
+          4 § Bordläggning
+        </note>
+        <note xml:id="i-YWMH77CUVgQiAEuLPPy4Us">
+          Anmäldes och bordlades
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-UwUTnpoZFYav3eDcbezup">
+        <note xml:id="i-FZ5iadeWHTv9wD7DA6rgzJ">
+          5 § Anmälan om interpellationer
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/BEBC0464-DEB7-43EE-A350-64E731D775FA#page=3"/>
+        <note xml:id="i-UvmKbRZpTCbRrE9wvq6AzS">
+          Anmäldes att följande interpellationer framställts
+        </note>
+        <note xml:id="i-KTsgHTmADQuP8wJpyhqZzf">
+          den 15 februari
+        </note>
+        <note xml:id="i-BN78sfgoqpYUL7xtNJF9km">
+          Luciano Astudillo
+        </note>
+        <note xml:id="i-GpReP8gb4jaZdAB6yrwJ3E">
+          Peter Hultqvist
+        </note>
+        <note xml:id="i-CdajGM2ArSWpEboGzqtvN4">
+          den 18 februari
+        </note>
+        <note xml:id="i-99oYwb8VhvBrzrMXHZ8Vn1">
+          Carina Moberg
+        </note>
+        <note xml:id="i-Jm3HzNH21PQfsq5TK1GxoU">
+          Interpellationerna redovisas i bilaga som fogas till riksdagens
+          snabbprotokoll tisdagen den 4 mars.
+        </note>
+      </div>
+      <div type="commentSection" xml:id="i-L735Vh61McxNkRKJzycops">
+        <note xml:id="i-Dqx2x2pj3UeU1KZP5dT9RF">
+          6 § Anmälan om skriftligt svar på fråga
+        </note>
+        <pb facs="http://data.riksdagen.se/fil/BEBC0464-DEB7-43EE-A350-64E731D775FA#page=4"/>
+        <note xml:id="i-2FgqPEQ6X6K9qCZ4yUZ8hD">
+          Anmäldes att skriftligt svar på följande fråga inkommit
+        </note>
+        <note xml:id="i-URNngjKF64WCp2vY5oCoNj">
+          den 18 februari
+        </note>
+        <note xml:id="i-9QxdqzQUH6esy2wmvqmX3j">
+          Karl Sigfrid
+        </note>
+        <u xml:id="i-NfxG4ACpF9cK3ZLDRMVpyX" who="unknown">
+          <seg xml:id="i-DVSFzD8cG1bMu3t6ACU2wH">
+            Svaret redovisas i bilaga som fogas till riksdagens snabbprotokoll
+            tisdagen den 4 mars.
+          </seg>
+        </u>
+      </div>
+      <div type="commentSection" xml:id="i-2s3jzkZbjtaPjQhVetaUDg">
+        <note xml:id="i-XxB2pndrQRyQ5xzcDm79of">
+          7 § Kammaren åtskildes kl. 15.01.
+        </note>
+        <note xml:id="i-RSorqZ7FnTqGAD1AQDce9E">
+          Förhandlingarna leddes av talmannen.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

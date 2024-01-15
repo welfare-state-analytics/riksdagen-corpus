@@ -1,2137 +1,2110 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1900</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.1.0</edition>
-      </editionStmt>
       <publicationStmt>
-        <authority>National Library of Sweden and the WESTAC project</authority>
+        <authority>N/A</authority>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1900</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in input/curation/instances</p>
+          <p>No correction of source texts was performed.</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>N/A</authority>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>No correction of source texts was performed.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1909--ak--1</head>
-          <docDate when="1909-01-15">1909-01-15</docDate>
-          <docDate when="1909-01-16">1909-01-16</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-000.jp2/_view"/>
-          <note xml:id="i-QUnCVXNXC8HEEbRQDyHHyK">
-            RIKSDAGENS PROTOKOLL. 1909. Andra Kammaren. N:o I.
-          </note>
-          <note xml:id="i-VsnjeoUeAVVwzDzgPeFy3S">
-            I enlighet med $ 49 regeringsformen och 8 2 riksdagsordningen
-            sammanträdde Andra Kammaren till lagtima möte här i hufvudstaden
-            i den uti Riksdagens hus för kammsatren anordnade samlingssalen
-          </note>
-          <note xml:id="i-NnwvMWNEkpcFAreFu9UhQH" type="date">
-            Fredagen den 15 januari kl. 11 f. m.
-          </note>
-          <u xml:id="i-PkP3tmsGNaHLA12PXgSgYW" who="unknown" next="i-UMG84B5NZWKJA3Zzi7fPnS">
-            <seg xml:id="i-EC8xHikUq2rYJSrCa3vE7C">
-              $1
-            </seg>
-          </u>
-          <note xml:id="i-48DUyByaD3CavosE2jVyeH">
-            Sammanträdet öppnades af representanten för Askers och Sköllersta
-            härad herr Andersson i Helgesta såsom den ledamot, hvilken bevistat
-            de flesta riksdagarna, med följande ord:
-          </note>
-          <u xml:id="i-UMG84B5NZWKJA3Zzi7fPnS" who="unknown" prev="i-PkP3tmsGNaHLA12PXgSgYW" next="i-vDGsY3RWYJrHHnpPQgphA">
-            <seg xml:id="i-4TJr3F8BuLe47N2tXtt89b">
-              Mina herrar! Då jag är den af herrarna, som bevistat de flesta
-              riksdagarna och på samma gång är äldst till lefnadsåren, tillkommer
-              det mig enligt $ 33 riksdagsordningen att öppna detta sammanträde
-              och leda dess förhandlingar, till dess Hans Maj:t Konungen behagat
-              utnämna talman och vice talman; och på grund häraf hälsar jag
-              Eder samtliga herrar välkomna till detta riksmöte.
-            </seg>
-          </u>
-          <u xml:id="i-vDGsY3RWYJrHHnpPQgphA" who="unknown" prev="i-UMG84B5NZWKJA3Zzi7fPnS" next="i-Nts9gtuzu3EheDkUT2vp4p">
-            <seg xml:id="i-XVyupDd7HmJM8Zc53FmDQ6">
-              Utan tvifvel komma nog äfven i år stora och för vårt fosterland
-              viktiga frågor att föreläggas till Riksdagens pröfning. Och jag
-              är viss om att denna kammare nu såsom alltid skall ägna dem en
-              noggrann och grundlagsenlig behandling. Sättet, huru dessa frågor
-              skola lösas, därom torde nog meningarna blifva delade. Men det
-              oaktadt är jag viss om att vi alla hafva en önskan och eft mål
-              — att de beslut, som fattas, och de lagar, som byggas, måtte komma
-              att lända vårt älskade fädernesland till största möjliga nytta
-              och gagn.
-            </seg>
-          </u>
-          <note xml:id="i-LvPBmaTeVQusWcX9keetN1">
-            Med denna önskan och bön att Herren Gud i fortsättningen måtte
-            hålla sin skyddande och bevarande hand öfver Konung och fosterland,
-            förklarar jag härmed detta sammanträde öppnadt.
-          </note>
-          <note xml:id="i-DxuWiq7j8Bs7yK4YPYdG3a">
-            § 2.
-          </note>
-          <note xml:id="i-FgnDZmRL5XZRxx8EaM9Fes">
-            Herr ordföranden tillkännagaf, att han anmodat undertecknade
-            att föra protokollet, till dess sekreterare hunnit utses, äfvensom
-            att kanslibiträden och vaktbetjäning blifvit till erforderligt
-            antal af honom för tillfället antagna; och blefvo på framställd
-            proposition dessa åtgärder af kammaren godkän da.
-          </note>
-          <note xml:id="i-9g3BWECEa7mJHsPGfdCaNH">
-            Andra Kammarens Prot. 1909. N:o 1. 1
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-001.jp2/_view"/>
-          <note xml:id="i-56kpx1JoJp7uLjVDNAvpcb">
-            N:o 1.
-          </note>
-          <note xml:id="i-MofqsCZPGVM18vvMrtadpx" type="date">
-            2 Fredagen den 15 Januari.
-          </note>
-          <note xml:id="i-YAh9s2aa1pLCuJpvWS8WM1">
-            § 3.
-          </note>
-          <note xml:id="i-2Ko8HfzsBminWNG7XHr4Zv">
-            Upplästes följande till kammaren ankomna protokoll angående den
-            i $&amp; 32 riksdagsordningen föreskrifna fullmaktsgranskningen:
-          </note>
-          <note xml:id="i-52Li2aocZHH1h1VDEtkx1j">
-            Protokoll, hållet inför statsrådet och chefen för justitiedepartementet
-            den 13 januari 1909.
-          </note>
-          <note xml:id="i-D4WS92JPmR3mkWGEhd1cp7">
-            Sedan på grund af stadgandet i &amp; 32 riksdagsordningen statsrådet
-            och chefen för justitiedepartementet anmodat tre bland de af Riksdagen
-            valda fullmäktige i riksbanken och tre bland fullmäktige i riksgäldskontoret
-            att närvara vid den granskning af riksdagsmannafullmakter, som
-            jämlikt riksdagsordningens nämnda paragraf bör före Riksdagens
-            sammanträde äga rum, så infunno sig nu af de utaf Riksdagen valde
-            fullmäktige i riksbanken herrar vice ordföranden bland fullmäktige,
-            filosofie doktorn H. R. Törnebladh, filosofie doktorn S. G. von
-            Friesen och revisionssekreteraren C. Berg samt af fullmäktige
-            i riksgäldskontoret herrar ordföranden bland fullmäktige, juris
-            doktorn P. A. H. Cavalli, direktören V. L. Moll och byråchefen
-            A. Hammarström.
-          </note>
-          <note xml:id="i-CDtcNysbhLN1CAdZKKFDLE">
-            Innan härefter skreds till granskning af de till departementet
-            inkomna fullmakter för ledamöter af Riksdagens Andra Kammare,
-            antecknades, att af de inkomna fullmakterna borde från granskning
-            undantagas: sju fullmakter af den anledning att de val, hvarpå
-            fullmakterna grundade sig, blifvit genom laga kraft ägande utslag
-            upphäfda samt en fullmakt, enär den valde afsagt sig riksdagsmannauppdraget.
-            I samtliga dessa fall hafva därefter nya val anställts och fullmakter
-            för de vid omvalen utsedda personerna ingifvits till departementet.
-            Då vidare landtbrukaren Otto Sigfrid Persson i Plönninge, som
-            vid val den 6 september 1908 blifvit utsedd till ledamot af kammaren
-            för Luggude domsagas norra valdistrikt, numera aflidit, skulle
-            jämväl den för honom utfärdade fullmakten undantagas från granskningen.
-            Någon ledamot af kammaren i den aflidnes ställe har ännu icke
-            blifvit utsedd.
-          </note>
-          <note xml:id="i-PWSjSV7cmBxJyRSqVdr7rK">
-            Vid härefter företagen granskning anmärktes beträffande den fullmakt,
-            som utfärdats för hemmansägaren och predikanten J. P. Igel i Getebol
-            på grund af val den 6 september 1908 i Södersysslets domsaga,
-            att fullmakten afvek från det föreskrifna formuläret, därutinnan
-            att den var försedd med öfverskriften »Fullmakt» och saknade de
-            i formuläret upptagna orden: »hvarom detta länder till bevis och
-            fullmakt», äfvensom att fullmakten undertecknats af Karl Westholm,
-            utan att af fullmakten inhämtades, att underskriften skett å domareämbetets
-            vägnar eller att Westholm, då valet hållits, varit domhafvande
-            i Södersysslets domsaga, men då statsrådet och chefen för justitiedepartementet
-            upplyste, att i departementet befintliga handlingar utvisade,
-            att Westholm vid ifrågavarande tid varit förordnad att förvalta
-            domareämbetet i domsagan, samt ofvannämnda afvikelser från formuläret
-            icke syntes vara af beskaffenhet att förändra meningen eller föranleda
-            otydlighet, ansågs fullmakten böra godkännas.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-002.jp2/_view"/>
-          <note xml:id="i-QW7L6T7VMb2oywSv2TpCC9" type="date">
-            Fredagen den 15 Januari. 3
-          </note>
-          <note xml:id="i-GijC2Wxx4hTYMXs3hH94Hu">
-            I samband med granskningen af nämnda fuöllmakt ansåg sig departementschefen
-            böra meddela, att Igel den 21 december 1908 till Kungl. Maj:t
-            inkommit med ansökning, att, enär han, som under vistelse i Amerika
-            förvärfvat amerikansk medborgarerätt, icke därefter åter upptagits
-            till svensk undersåte, Kungl. Maj:t måtte återgifva honom svensk
-            medborgarerätt; att vid denna ansökning fogats ett af behörig
-            myndighet utfärdadt bevis, att Igel den 1 februari 1887 upptagits
-            till medborgare i Nordamerikas förenta stater; samt att genom
-            Kungl. Maj:ts resolution den 31 december 1908 Igel blifvit upptagen
-            till svensk medborgare, under villkor att han inom ett år därefter
-            inför Kungl. Maj:ts befallningshafvande i Värmlands län aflägger
-            trooch huldhetsed.
-          </note>
-          <note xml:id="i-Aw3JJyc5TqAPWZhMMGAGCp">
-            Såsom fullmakt för järnarbetaren Gustaf Alfred Strömberg i Trollhättan
-            hade till departementet inkommit allenast afskrift af en i behörig
-            form upprättad, den 14 september 1908 dagtecknad fullmakt för
-            Strömberg att vara ledamot af kammaren för Flundre, Väne och Bjärke
-            domsaga, hvilken afskrift var försedd med följande anteckning:
-            »med konceptfullmakten lika lydande, betygar: Vänersborg den I
-            december 1908. På domare-ämbetets vägnar: Vilh. Lagercrantz».
-            Då någon för Strömberg utfärdad fullmakt i hufvudskrift sålunda
-            icke blifvit för granskning företedd, ansågs förhållandet böra
-            för kammaren anmälas.
-          </note>
-          <note xml:id="i-93YoJiocFxS4Y6fvohjvBB">
-            Vid granskningen af öfriga fullmakter befanns, att den för häradshöfdingen
-            i Norrvikens domsaga Assar Emanuel Åkerman utfärdade fullmakt
-            att vara ledamot af kammaren för Strömstads, Lysekils, Marstrands,
-            Kungälfs och Åmåls städer blifvit underskrifven, icke såsom i
-            $&amp; 20 riksdagsordningen föreskrifves, af magistraten i den stad,
-            där valet slutligen handlagts, utan allenast af tillförordnade
-            borgmästaren i Åmål Carl Beijer på magistratens vägnar, hvilket
-            skulle till kammarens kännedom i protokollet anmärkas.
-          </note>
-          <note xml:id="i-T9u4tYr3we3bU7sErzgBm">
-            Vidare anmärktes, att de för hemmansägaren Johan August Jonsson
-            i Hökhult och ingenjören Sixten Oscar Nylander i Axelfors utfärdade
-            fullmakter att vara ledamöter af kammaren, den förre för Norra
-            och Södra Vedbo och Nylander för Kinds och Redvägs domsaga, voro
-            undertecknade: Johan August Jonssons fullmakt af Fredrik Törner
-            och Nylanders fullmakt af Einar Sundström utan att af fullmakterna
-            med tydlighet framgick, att underskrifterna skett å domareämbetets
-            vägnar eller att Törner och Sundström voro domhafvande i nämnda
-            domsagor, då valen hållits, men då genom telegram från sekreteraren
-            hos Göta hofrätt styrktes, att Törner och Sundström vid fullmakternas
-            utfärdande haft förordnanden såsom domhafvande, Törner i Norra
-            och Södra Vedbo samt Sundström i Kinds och Redvägs domsagor, ansågos
-            dessa fullmakter böra godkännas.
-          </note>
-          <note xml:id="i-UBgiBeUWrYmx4MwSk4MK2V">
-            Härutöfver anmärktes, att i några fullmakter förekommo afvikelser
-            från det i riksdagsordningens 8 20 föreskrifna formulär, såsom
-            : att i en fullmakt, dagtecknad den 26 september 1908 tidpunkten
-            för valets förrättande angifvits såsom »den 6 sistlidna september»;
-            att uti en i december 1908 dagtecknad fullmakt, tidpunkten för
-            valet angifvits såsom »den 13 sistlidna december»; att jämväl
-            i åtskilliga andra fullmakter tiden för valets förrättande antecknats
-            på annat sätt
-          </note>
-          <note xml:id="i-KBMsTYJSrjn8SJWtAtnbwr">
-            N:o 1.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-003.jp2/_view"/>
-          <note xml:id="i-JB5yxbz5qpVBEFRUvDGZ2o">
-            N:o 1.
-          </note>
-          <note xml:id="i-MzSwVqJQCHmWgk2DgoBgCM" type="date">
-            4 Fredagen den 15 Januari.
-          </note>
-          <note xml:id="i-C78EqDG4VMTWjRKz36fMsX">
-            än enligt formuläret; att i ett flertal fullmakter benämningen
-            å valkretsen ej blifvit fullt riktigt återgifven; att i två fullmakter
-            de valde förklarats utsedde till ledamöter »i&gt; i stället för »af»
-            Riksdagens Andra Kammare; att i några fullmakter tiden för riksdagsmannauppdragets
-            fortvaro betecknats med uttryck ej fullt öfverensstämmande med
-            dem, som upptagits i formuläret; samt att i den för hemmansägaren
-            Carl Johan Laurentius Larsson i Bondarfve utfärdade fullmakten
-            orden »hvarom detta länder till bevis och fullmakt» voro utelämnade;
-            men då samtliga dessa afvikelser icke syntes vara af beskaffenhet,
-            att därigenom meningen förändrades eller otydlighet föranleddes,
-            ansågos dessa fullmakter, i likhet med öfriga, emot hvilka eljest
-            anmärkning ej förekommit, böra godkännas.
-          </note>
-          <note xml:id="i-EEuiUCezTwkcEGZ33spayN">
-            Hvad sålunda förekommit skulle genom protokoll meddelas Andra
-            Kammaren, hvarjämte förteckning å kammarens ledamöter enligt de
-            inkomna och granskade fullmakterna skulle tillika med fullmakterna
-            till kammaren öfverlämnas.
-          </note>
-          <note xml:id="i-NyMR9AX4GUDt6fzLpsuUM6">
-            In fidem
-          </note>
-          <note xml:id="i-VJLSWapXdpfunSt44egopJ">
-            P. M. af Ugglas.
-          </note>
-          <note xml:id="i-HWtXNzNgGgs4LMxRSBa8Dg">
-            Den i protokollet omförmälda förteckningen var af följande lydelse:
-          </note>
-          <note xml:id="i-QKCmavioKvqp5t4cLjaMNo">
-            Förteckning å de ledamöter af Riksdagens Andra Kammare, för hvilka
-            efter förrättade allmänna val till kammaren fullmakter före början
-            af 1909 års riksdag till justitiedepartementet inkommit:
-          </note>
-          <u xml:id="i-Nts9gtuzu3EheDkUT2vp4p" who="unknown" prev="i-vDGsY3RWYJrHHnpPQgphA" next="i-S2mEa9RuQTmqJBzbcp6Yad">
-            <seg xml:id="i-YP8CLokZMtdzk7p8p8kXRj">
-              Stockholms stad.
-            </seg>
-          </u>
-          <note xml:id="i-Rr34Mhrg5SCNN7qHNzWq3b">
-            Första valkretsen: Journalisten Sven Persson.
-          </note>
-          <note xml:id="i-XJcZyAtaKb7LA5L7kqgTaT">
-            Kassören Ernst J. Söderberg.
-          </note>
-          <note xml:id="i-4bu2bhGkcy7QpAw24qW1PA">
-            Tullvaktmästaren Richard Hjalmar Rissén.
-          </note>
-          <note xml:id="i-VMMN5C8huJLoASjT1XXBT6">
-            Förtroendemannen Charles G. Lindley.
-          </note>
-          <note xml:id="i-KcdPc5xgCgM24GL9bNMfwx">
-            Tunnbinderiarbetaren Johannes J:son Hasselquist.
-          </note>
-          <note xml:id="i-G96SQgBDJzNEQRjaV1L4pT">
-            6 | vice Häradshöfdingen Karl A. Staaff. 7 | Direktören Sven
-            8. Palme. 8 9
-          </note>
-          <note xml:id="i-LGQ7kAHnk186itDwF4q22f">
-            OR WW NH
-          </note>
-          <note xml:id="i-G88Mu14uaHv5wvsaFxu7ZN">
-            Andra valkretsen :
-          </note>
-          <note xml:id="i-LB4K1DgX9XvkRjdh5TyfTe">
-            Medicine doktorn Knut E. O. Kjellberg. Borgmästaren Carl A. Lindhagen.
-          </note>
-          <note xml:id="i-u2qSzaAjEC2pQjB64cbV4">
-            Tredje valkretsen : 10 | Redaktören Jakob J. Byström.
-          </note>
-          <note xml:id="i-3g3v6b3NnXcECXEZyVnPT7">
-            11 | Direktören Edvard Wavrinsky.
-          </note>
-          <note xml:id="i-VoktjSHEtDAEdHjGdmoLbF">
-            12 | Förtroendemannen Ernst Blomberg. 13 'e. o. professorn Curt
-            Wallis.
-          </note>
-          <note xml:id="i-Ff2uK4maXzycx5ofZVoLjV">
-            Fjärde valkretsen : 14 | Folkskoleläraren, filosofie doktorn
-            Fridtjuv Berg.
-          </note>
-          <note xml:id="i-RUpoGeV8fGSnH3bf9Uv17">
-            15 | Yrkesinspektören Thorvald Färst.
-          </note>
-          <note xml:id="i-FNWXGu3ERijTngW8Ltrjfy">
-            16 | Kaptenen, friherre Erik Kule Palmstierna. 17 | Docenten,
-            filosofie doktorn Gustaf Kobb.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-004.jp2/_view"/>
-          <note xml:id="i-GBe8eCHHJt8TP4nAN45HYg" type="date">
-            Fredagen den 15 Januari. 5
-          </note>
-          <note xml:id="i-KaX7vP4FdDEv9M82T7GZfu">
-            N:o 1.
-          </note>
-          <note xml:id="i-3SWDSqBM3jCxNsSGAwn9Fq">
-            Femie valkretsen:
-          </note>
-          <u xml:id="i-S2mEa9RuQTmqJBzbcp6Yad" who="unknown" prev="i-Nts9gtuzu3EheDkUT2vp4p" next="i-2xM4LPhcKL1rWNrrSHoPDY">
-            <seg xml:id="i-4RkPEVo1ZeM8XdsbsF441i">
-              Stockholms län:
-            </seg>
-          </u>
-          <note xml:id="i-MC2DXaYWGKoLeKAThbf6Wg">
-            Norra Roslags dom- BALA os eesrssrseresre ena Mellersta Roslags
-            dom- BAZA os senses or sena Färentuna och Sollentuna härad ............
-            Danderyds, Åkers och Värmdö skeppslag Stockholms läns vär stra
-            domsaga ......... Svartlösa härad....... Sotholms och Öknebo härad
-          </note>
-          <note xml:id="i-3PmQN3QtygBGp1CsXF8hmn">
-            BÖdertäljö: 25: wreusva Vaxholm, Norrtälje, Östhammar, Öre-
-          </note>
-          <u xml:id="i-2xM4LPhcKL1rWNrrSHoPDY" who="unknown" prev="i-S2mEa9RuQTmqJBzbcp6Yad" next="i-BqraYC167bzn5Y5Eoe8NBC">
-            <seg xml:id="i-WqiiLsn7GiV6XA3yAXX29w">
-              grund och Sigtuna
-            </seg>
-          </u>
-          <note xml:id="i-FhqJmSwZKbhbWvP8XNv9Ra">
-            Uppsala län:
-          </note>
-          <note xml:id="i-4fjDkf6dtnKRRD9VTu48Ts">
-            Norrunda och Olands härad sssssssmsmsmse Örbyhus härad .........
-            Uppsala läns mellersta
-          </note>
-          <note xml:id="i-K945S5Cpx1LLb9T6AxZ59M">
-            domsaga Uppsala läns
-          </note>
-          <note xml:id="i-HUJDfXzoZxJWr8dESw8pFj">
-            domsaga Uppsala stad
-          </note>
-          <note xml:id="i-HPuCwXVvoKPL2w7dzPQff">
-            södra
-          </note>
-          <note xml:id="i-BTBxbjy9uWCK6qcDkGGBEq">
-            Södermanlands län: Jönåkers härad.........
-          </note>
-          <note xml:id="i-LqDrqwSPJjw9uMUkeHVUGb">
-            Rönö, Hölebo och Daga härad............
-          </note>
-          <note xml:id="i-3dRcBszwQXUGzzxeGSRmGr">
-            Oppunda härad .
-          </note>
-          <note xml:id="i-4RnBjq3NnB5ndjTyMBWKeF">
-            22
-          </note>
-          <note xml:id="i-GGW3S9VDdDVw6MxjrYLeZK">
-            23
-          </note>
-          <note xml:id="i-VpoPP5eUNDuQdxdV44JtmT">
-            24
-          </note>
-          <note xml:id="i-M4ziPKFXAdsUfA1dwL8hNA">
-            25
-          </note>
-          <note xml:id="i-9xFQZ8Q7Bv2pd8YLNHUFYT">
-            26 27
-          </note>
-          <note xml:id="i-oEAQaCnKnty4nAU1jFvbL">
-            28
-          </note>
-          <note xml:id="i-SjYpWpQ7dNfaocaTkPDr7t">
-            29
-          </note>
-          <note xml:id="i-Ka164X9hFg2a3SxnQJ5uJR">
-            30
-          </note>
-          <note xml:id="i-w6xRri2d4MEXVWtPdV2x5">
-            31
-          </note>
-          <note xml:id="i-Te8mpDTKVfMubJtbLr1JWo">
-            32
-          </note>
-          <note xml:id="i-9tQFgJXPYqZZwFu3dhJGin">
-            33 34
-          </note>
-          <note xml:id="i-7hMtHSr7d37S1L8vDhQzap">
-            36
-          </note>
-          <note xml:id="i-MvMYr34YnPfrsZ4vRnd7ny">
-            37 38
-          </note>
-          <note xml:id="i-KdbEb9ZZV3ByMxQRyFb7U7">
-            Redaktören Hjalmar Branting. Riksdagsmannen Herman Lindqvist.
-            Försäkringstjänstemannen Knut Tengdahl. Redaktören John Theodor
-            Johansson.
-          </note>
-          <note xml:id="i-6iRzt3UDeLrKabUiygyLRr">
-            Hemmansägaren Carl Sandquist på Söderby gård.
-          </note>
-          <note xml:id="i-A94ZhvkTbjCgD7gJEq5nqA">
-            Godsägaren Erik Gabriel Henrik Åkerlund å Lovisedal.
-          </note>
-          <note xml:id="i-FDxahYPAd5U8cLW94kS4Fp">
-            Handelsföreståndaren Johan Åberg i Riddersvik.
-          </note>
-          <note xml:id="i-Ljeb4bnQScKJRgX7nA8cAd">
-            Direktören Ernst Beckman i Djursholm.
-          </note>
-          <note xml:id="i-EhABqCDzopBFLRnhHDJb8X">
-            Godsägaren Johan Vilhelm Lundin å Karby. Kopparslagaren J. A.
-            Wallin, Liljeholmen.
-          </note>
-          <note xml:id="i-UioDdbL6GDm82rqK1SRtvR">
-            Godsägaren Hans von Horn å Fållnäs. Borgmästaren Jacob Gustaf
-            Pettersson.
-          </note>
-          <note xml:id="i-8hD8MKmKW7pNRKj3zvmwgH">
-            Folkskoleläraren Erik Richard Hagberg.
-          </note>
-          <note xml:id="i-8ZHG7NtA7rc9gBR5kpR7F5">
-            Hemmansägaren Johan Erik Cervin i Risby. Förtroendemannen Karl
-            August Olsson Borg i Harnäs.
-          </note>
-          <note xml:id="i-4dJ1wrhaZ9XzdwKy7UfCf5">
-            Godsägaren Olof Alfred Berg å Staby.
-          </note>
-          <note xml:id="i-KaESnypKiXWqscPfpxoKXX">
-            Godsägaren Lars Petter Mallmin å Krägga. Professorn Nils Edén.
-          </note>
-          <note xml:id="i-5fGHuWkrrobrnAYobvyfVD">
-            Godsägaren Johan Malcolm Juhlin å Hagbyberga.
-          </note>
-          <note xml:id="i-3FF34AtCu15bYam9c1jBZh">
-            vice Häradshöfdingen Carl Gustaf Gripen-
-          </note>
-          <note xml:id="i-DeqiH3To6ZqgNSdnvGd8gg">
-            — stedt å Nynäs.
-          </note>
-          <note xml:id="i-DkGm2x7Sgn6Pq7zEMJ6xiM">
-            Öfverstekammarjunkaren friherre Carl Carlson Bonde å Eriksberg,
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-005.jp2/_view"/>
-          <note xml:id="i-MoWbDTjCGvy9hbqX4DhsEj">
-            Fredageu den 15 Januari.
-          </note>
-          <note xml:id="i-GB4znLGgpMsvyhbDUA2gJ8">
-            Villåttinge härad ...... Västeroch &lt;OÖster- Rekarne härad ......
-            Åkers och Selebo härad
-          </note>
-          <note xml:id="i-WQRD3zkLfjyreVJPoLpq1C">
-            Nyköping, Torshälla,
-          </note>
-          <note xml:id="i-TpUWhs1VAfDt5ysXfenR6b">
-            Strängnäs, Mariefred och Trosa... .. Eskilstuna............ .....
-          </note>
-          <note xml:id="i-7BJmpFPAFAuSrUNx381vs7">
-            Östergötlands län:
-          </note>
-          <note xml:id="i-NqBxqDn39oa9KMYfutizXG">
-            Kinda och Ydre dom- BagA........... errreanen sa Björkekinds,
-            Östkinds Lösings, Bråbo och Memmings härads domsaga Lysings och
-            Göstrings domsaga
-          </note>
-          <note xml:id="i-EhgqUCM8aneWGmAGkhRBhx">
-            Åkerbo, Bankekinds och Hanekindsdom- SAGA oosesssesseresrenrena
-          </note>
-          <note xml:id="i-61aVKgY7jAsiir6gWbgMYq">
-            Vifolka, Valkebo och Gullbergs domsaga Finspånga läns härads
-            domsaga Aska, Dals och Bobergs domsaga ......
-          </note>
-          <note xml:id="i-VF6qFvdef9xDdytbiUSLpT">
-            Hammarkinds, Stegeborgs och Skärkinds domsaga L.ssnnsnvnena
-          </note>
-          <note xml:id="i-JdFVpg7dVt74F1bynxfQLb">
-            Grenna, Söderköping, Vadstena, Skeninge, Motala och Askersund
-          </note>
-          <note xml:id="i-LiPbYAZZBUpV3ubR8NVd5g">
-            Linköping ........ee.e..- |
-          </note>
-          <note xml:id="i-VnHSfNw7stoX73XQYrAFbm">
-            Norrköping D:o
-          </note>
-          <note xml:id="i-8sR2mVNCDbALQUF3yQfjPf">
-            39 40 41
-          </note>
-          <note xml:id="i-YcAD4VJYkf2j53SgYPscpb">
-            42 43
-          </note>
-          <note xml:id="i-AgHdURXceYGtV36bQjxVsR">
-            44
-          </note>
-          <note xml:id="i-NPBe8A5JoYmGH11MAvACZF">
-            45
-          </note>
-          <note xml:id="i-4KkyGdLVEerU6MQVgL1e2o">
-            46
-          </note>
-          <note xml:id="i-RMsrjHxd46vummWbSqQufg">
-            47
-          </note>
-          <note xml:id="i-CqkJ2Ln1D6K1zfhe7XmCVw">
-            48 49 50
-          </note>
-          <note xml:id="i-RqrgrDTk83wajuSasfSJSW">
-            51
-          </note>
-          <note xml:id="i-CMLMwrnP9c7hvT5kg4NeqV">
-            d2 53
-          </note>
-          <note xml:id="i-R2GE4rZ7FcnsmPtXxpLskh">
-            | 54
-          </note>
-          <note xml:id="i-6f7BV5r88LVYYmmpmgxgoS">
-            Folkskoleläraren Oscar Forssling å Dunker. Hemmansägaren Gustav
-            Gustavsson i Wij. Godsägaren Knut Fredrik Gerhard Almqvist
-          </note>
-          <note xml:id="i-E2BsJWsWczP1q5VtGTqNMA">
-            å Janslunda.
-          </note>
-          <note xml:id="i-TxoWqbPkRpe7hq9T3AzaX2">
-            Platsredaktören Carl Emil Svensson. Knifsmeden Evald Crispin
-            Kropp.
-          </note>
-          <note xml:id="i-9PEYisq1VykuXnKTka2TrS">
-            Landtbrukaren Carl Emil Johansson i Berga.
-          </note>
-          <note xml:id="i-UzcLhvc2Tn8TTKFshfLZP">
-            Arrendatorn Vilhelm Andersson i Bråborg.
-          </note>
-          <note xml:id="i-24DNVfX81VcpgrkBkbHt54">
-            Nämndemannen David Hjalmar Pettersson i Bjälbo.
-          </note>
-          <note xml:id="i-EYo8Eqn3EmpVfmJ8AN3vA3">
-            Förvaltaren, friherre Israel Kristian Gustaf Lagerfelt på Lagerlunda.
-          </note>
-          <note xml:id="i-TtzvSUbfZTBjz7VBxDVj8b">
-            Disponenten Carl Gustafsson i Mjölby. Bruksdisponenten Axel Ekman
-            på Mo gård.
-          </note>
-          <note xml:id="i-Wvh9imdw1BPW5gvrGZ5Ccp">
-            Godsägaren friherre Joseph Hermelin å Ulfåsa.
-          </note>
-          <note xml:id="i-MKhjzV1dSZtxxm6rZfYgej">
-            Hemmansägaren Anders Edvard Andersson i Höckerum.
-          </note>
-          <note xml:id="i-2epFK6YAWuUMQeDexTU6tk">
-            Regementsläkaren Conrad Vahlquist i Skeninge.
-          </note>
-          <note xml:id="i-XXLbHVSQyg8mfAza62fSFd">
-            Yrkesinspektören Bror Olof Viktor Hellström.
-          </note>
-          <note xml:id="i-4C1DfvDhNu7BA5gsiCy1F7">
-            Justitierådmannen Theodor Zetterstrand.
-          </note>
-          <note xml:id="i-QVZSj9DhiqAzQDWHMt5PZ7">
-            Disponenten Frans Johan Axel Swartling.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-006.jp2/_view"/>
-          <note xml:id="i-VSMUiVLgtNSwUiYabYmZeL" type="date">
-            Fredagen den 15 Januari. Z
-          </note>
-          <note xml:id="i-Bq11PZELvFoD9so5T3dhzJ">
-            Jönköpings län:
-          </note>
-          <note xml:id="i-FckR13JnQk2BVYZhiQUL2U">
-            Västra härads dom-
-          </note>
-          <note xml:id="i-SAP5kz67BqYbnZ69Bd19Ed">
-            Östra härads domsaga
-          </note>
-          <note xml:id="i-CQs65XYp9LwojVbzu2Lcqv">
-            Tveta härad..... ......... Vista och Mo härad Östbo härad............
-            ..
-          </note>
-          <note xml:id="i-4Zf2wvjJoaDjdg8irETCZP">
-            Västbo härad
-          </note>
-          <note xml:id="i-Xk8vD3A7baayaGVMnAcsUR">
-            Norra och Södra Vedbo domsaga
-          </note>
-          <note xml:id="i-5cq4WDia7NdqYxHr6yGNT6">
-            JÖnköping........ . ......
-          </note>
-          <u xml:id="i-BqraYC167bzn5Y5Eoe8NBC" who="unknown" prev="i-2xM4LPhcKL1rWNrrSHoPDY" next="i-83Kf6w6Q5a1zmDNfsPGkVr">
-            <seg xml:id="i-ShZ75XaXpc5Be4fr9BGA7A">
-              Kronobergs län:
-            </seg>
-          </u>
-          <note xml:id="i-MrE4JDy3AKmmVSketJJdCJ">
-            Konga härad
-          </note>
-          <note xml:id="i-4jMoz7FQ6FMuMV4rHEDyw8">
-            Uppvidinge härad ...
-          </note>
-          <note xml:id="i-76yJC8aNbcZ7oGjA25idfu">
-            Mellersta domsaga
-          </note>
-          <note xml:id="i-8VXe4LgPo6HYRSveHabkpW">
-            Värends
-          </note>
-          <note xml:id="i-TGCLQxxcVMhATcJGmMKDjn">
-            Västra Värends dom-
-          </note>
-          <note xml:id="i-5pfGNBhSbBebMSnxSEyqpq">
-            Sunnerbo domsaga ...
-          </note>
-          <note xml:id="i-4VwB471Bkd1WJnyiWfn9RG">
-            Växjö och Eksjö
-          </note>
-          <note xml:id="i-KHd4FnaHaDkPeS16d1EGoL">
-            Kalmar län: Norra Tjusts härad...
-          </note>
-          <note xml:id="i-D7NeyYawNGkXdvh1PWNqCt">
-            Södra Tjusts härad...
-          </note>
-          <note xml:id="i-Ds3ZetSaqEWwpwn5n1bizY">
-            Aspelands och Handbörds domsaga ......
-          </note>
-          <note xml:id="i-Tfkfmj2Xgosc3X8U3P4JH4">
-            Sevede och Tuna läns domsaga ..... sen. Norra Möre och Stranda
-            domsaga............
-          </note>
-          <note xml:id="i-BJbroiFgPYFMnFTTmrH5Kd">
-            56 57 58 59 60
-          </note>
-          <note xml:id="i-9ePZrFdnxp3kJZoiobP7a">
-            61
-          </note>
-          <note xml:id="i-61uZkVhqoP8ZCPryjkS5Nh">
-            62 63
-          </note>
-          <note xml:id="i-2BgYz8vRWV9G25juZcVZib">
-            64 65
-          </note>
-          <note xml:id="i-Fm2vukH8fK3EE4cbn4wN54">
-            66
-          </note>
-          <note xml:id="i-QE5it28FLXCrz6Sdemoaaw">
-            67 68 69
-          </note>
-          <note xml:id="i-A2yNCPha62CeVjXfh8SBHa">
-            70 71
-          </note>
-          <note xml:id="i-SDWpRgBApxYTuRNvnYPugc">
-            72
-          </note>
-          <note xml:id="i-6r8uoHHndVYwYGbCNNyzfs">
-            73 74
-          </note>
-          <note xml:id="i-KsU7LfB5Fcj68T7gM6iwoS">
-            Landtbrukaren Carl Felix Sjöberg i Nordanskog.
-          </note>
-          <note xml:id="i-8mTmJsWETFvYkhhmrN6vde">
-            Landtbrukaren Carl August Danielsson i Farstorp.
-          </note>
-          <note xml:id="i-9Wv3SftLXPDY9GoUZtqc1Y">
-            Riksdagsmannen Erik Räf å Altorp.
-          </note>
-          <note xml:id="i-XiYF8wkJgpBumh5WU1hNEQ">
-            Riksdagsmannen Carl Johansson i Aflösa.
-          </note>
-          <note xml:id="i-5SqDru2z1TEyzNxtGvDcPE">
-            Landtbrukaren Johannes Wilhelm Bengtsson i Häradsköp.
-          </note>
-          <note xml:id="i-TZs3oQneHidsAXZ6YUmkhz">
-            Kontraktsprosten Johannes Gustaf Hazén i Forsheda.
-          </note>
-          <note xml:id="i-HFgf73TpopsoSbATnKomsR">
-            Hemmansägaren Johan August Jonsson i Hökhult. Folkskoleinspektören
-            Carl Robert Johansson.
-          </note>
-          <note xml:id="i-5MPkho9TcQWmx28fA4Tbrx">
-            Riksdagsmannen, hemmansägaren Johan August Sjö i Linneryd.
-          </note>
-          <note xml:id="i-6pQ7ovLZhkVQrjeGGTVWKZ">
-            Landstingsmannen, landtbrukaren J. G. Svensson i Betingetorp.
-          </note>
-          <note xml:id="i-JktV6bfYC1fVQWxhK4UeTo">
-            Hemmansägaren Carl Fredrik Petersson i Dänningelanda.
-          </note>
-          <note xml:id="i-Nm8i1kdv5K5JWtLUe3brcZ">
-            Hemmansägaren Peter Magnus Olsson i Blädinge.
-          </note>
-          <note xml:id="i-6t9j2pUestj9j24ci8qkp6">
-            Hemmansägaren E. O. Magnusson i Tumhult.
-          </note>
-          <note xml:id="i-UFmJhnyc7f2mMW51E5VsTQ">
-            Sparbankskamreraren Johan Alfred Uno Fornander i Växjö.
-          </note>
-          <note xml:id="i-NGfNxdWHvsxFVCReaR4WJQ">
-            Landtbrukaren Sigurd A. Karlsson i Solberga.
-          </note>
-          <note xml:id="i-G1azoatSaRYrkR4dQJdJpb">
-            Ryttmästaren, friherre Edvard Fleetwood å Odensviholm.
-          </note>
-          <note xml:id="i-PUGEWs7gfQjvV6u2jQEGWH">
-            Landtbrukaren Sven Erik Andersson i Hägelåkra.
-          </note>
-          <note xml:id="i-JXCkDqtaNg5d6xHqq4KyuW">
-            Kontraktsprosten Charodotes Meurling. Per Olof Lundell å Ebbetorp.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-007.jp2/_view"/>
-          <note xml:id="i-9ywvL7pyButTNFLQ6eKNEb">
-            N:o 1
-          </note>
-          <note xml:id="i-6yyLVuh9xGoHHhRx5LeGqe" type="date">
-            Fredagen den 15 Januari.
-          </note>
-          <note xml:id="i-PdHoDGFUqrAT2cCXQQ6GgH">
-            Södra Möre domsagas västra valkrets ......
-          </note>
-          <note xml:id="i-37PcLx2GFafSVAW3pwSNF9">
-            Södra Möre domsagas östra valkrets.........
-          </note>
-          <note xml:id="i-RyKYTUdz6anuGnr3mWRLyd">
-            Oskarshamn, Vimmerby och Borgholm...
-          </note>
-          <note xml:id="i-43uDSY6w1oUx8TSm6A5ueN">
-            Gottlands län. Gottlands södra dom-
-          </note>
-          <u xml:id="i-83Kf6w6Q5a1zmDNfsPGkVr" who="unknown" prev="i-BqraYC167bzn5Y5Eoe8NBC" next="i-LqfPP3PGhyBAk4Trrw37LQ">
-            <seg xml:id="i-BrvgQ3JuHoAVbSW2Dsbhv9">
-              saga
-            </seg>
-          </u>
-          <note xml:id="i-B8jVRt7qR8KgYvAVjJP7gK">
-            Blekinge län. Listers härads dom- SAZA oossesosssr sreernennea
-          </note>
-          <note xml:id="i-DDtPnfKyiRrUkjw6R5MNFn">
-            Östra härads domsaga Medelstads härads domsaga =... munnnnn.
-            Karlskrona Ronneby, Karlshamn och Sölvesborg ......
-          </note>
-          <note xml:id="i-SnqEq8PQsNcouGVh3PoQUd">
-            Kristianstads län. Villands härads......... Östra Göinge härad
-            . Ingelstads och Järre-
-          </note>
-          <note xml:id="i-68jjhU7DqtMmhq3t5FmPVM">
-            stads domsaga ... .. Gärds och Albo dom-
-          </note>
-          <note xml:id="i-FYA3cf1noQEHmxGAH6cTyx">
-            Norra Åsbo domsaga
-          </note>
-          <note xml:id="i-VdkJYKoezLGkt3z22c9psv">
-            75 76 71
-          </note>
-          <note xml:id="i-Ey2FCnLA2qqrxVPpsS8ncN">
-            78 79
-          </note>
-          <note xml:id="i-BfYqHNtSkFSAmBRLxvpvPn">
-            80
-          </note>
-          <note xml:id="i-G1eWVEZaDTpKoZzpQp6xXR">
-            31
-          </note>
-          <note xml:id="i-XuTjpSE9p9CVFrnpiwJstK">
-            82 83
-          </note>
-          <note xml:id="i-4z1jYhCanRHJkMQVPVxFRd">
-            84 85 86 87 388 389
-          </note>
-          <note xml:id="i-Nip5m9vYjAxu6E1kUmC7pM">
-            90 91
-          </note>
-          <note xml:id="i-EHcxgfikHbvCxQm9MZcTdt">
-            92 93
-          </note>
-          <note xml:id="i-2SKS4RYvor3AmoMQKYyGC8">
-            94 95
-          </note>
-          <note xml:id="i-NxT6VqhQMcAydyCfb9wr2L">
-            Hemmansägaren Vilhelm Andersson i Re sebo N:o 1.
-          </note>
-          <note xml:id="i-GCo9KAjYLCLi3b5NeYVk1B">
-            Godsägaren Klas Malmborg i Kranklösa.
-          </note>
-          <note xml:id="i-KdsqxMAhx59p5DBi486bzU">
-            Riksdagsmannen, landtbrukaren Anders Adolf Johansson i Möllstorp.
-          </note>
-          <note xml:id="i-2L5K1ZHkEKFzpC7GwRW6Xi">
-            Vice konsuln John Jeansson.
-          </note>
-          <note xml:id="i-PbMbm4BfTpSSQ2U7w7ngfr">
-            Borgmästaren Axel Olof Rune.
-          </note>
-          <note xml:id="i-4ceKPJFUgJnhg26WW4RXuq">
-            Borgmästaren Nils Peter Bertrand Lindgren.
-          </note>
-          <note xml:id="i-Bs5EcoMWm1X9qfHKcqiHtn">
-            Kronolänsmannen Matias Emanuel Svallingson i Klinte.
-          </note>
-          <note xml:id="i-1xDjKKCBeTdbmhrQ2StYL">
-            Hemmansägaren Carl Johan Laurentius Larsson i Bondarfve. Biskopen
-            Knut Henning Gezelius von Schéele.
-          </note>
-          <note xml:id="i-HyCCsJw4Bo5epSG96CStpk">
-            Landtbrukaren John Jönsson i Boa.
-          </note>
-          <note xml:id="i-8WxjNjazoZygagtWQTHtRw">
-            Ingenjören Bernt Otto Ivar Santesson i Janneberg. Landtbrukaren
-            August Larsson i Säby.
-          </note>
-          <note xml:id="i-EvGpyWzyrZW2jscDCoiqEC">
-            Landtbrukaren Axel Edvard Lindvall i Hafgården. Fängelsedirektören
-            Ulrik Leander.
-          </note>
-          <note xml:id="i-HBsv9FSSjpDtcmQmpY41kR">
-            Borgmästaren Svante Frithiof Edvard Söderbergh.
-          </note>
-          <note xml:id="i-QvMDcc852hqcmdjM5kZLZb">
-            Landtbrukaren Nils Larsson i Klagstorp. Landtbrukaren John Erlansson
-            i Främlinge.
-          </note>
-          <note xml:id="i-RR7GQzd9sRdjJtGkwxkGgt">
-            Riksdagsmannen Esbjörn Persson i Borrby.
-          </note>
-          <note xml:id="i-35Yhpnu56AwRjKhPu4iCxE">
-            Godsägaren grefve R. G. Hamilton å Owesholm.
-          </note>
-          <note xml:id="i-CXXpCs5S2AmBNnJm2FF9wY">
-            Landtbrukaren Per Nilsson Bosson i Vanneberga. Riksdagsmannen
-            Per Nilsson i Bonarp.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-008.jp2/_view"/>
-          <note xml:id="i-NMzTNfXpg6EWhjzdoQGnRc" type="date">
-            Fredagen den 15 Januari. 9
-          </note>
-          <note xml:id="i-6wNh8A4B7nsnE37VWpfZFL">
-            Södra Åsbo och Bjäre
-          </note>
-          <note xml:id="i-N62HyxZJMYxr2H2fNWR6x3">
-            domsaga 96
-          </note>
-          <note xml:id="i-WtHkoJ9Q5rLBT2pAsm827P">
-            Kristianstad... oc... 97
-          </note>
-          <note xml:id="i-SMQA8y5CnhxnVBUHEKsanp">
-            Malmöhus län.
-          </note>
-          <note xml:id="i-3Sk2748Zzu2PkC3nXg9j8E">
-            Oxie härad Skytts härad &gt; ....co.. 99 Färs härads domsaga | 100
-          </note>
-          <note xml:id="i-jEQMkvtBHpmuw1ZfYopuM">
-            Frosta härads dom- SALA usssssrerersesseresn nen 101 Luggude
-            domsagas norra valkrets ...... 102
-          </note>
-          <u xml:id="i-LqfPP3PGhyBAk4Trrw37LQ" who="unknown" prev="i-83Kf6w6Q5a1zmDNfsPGkVr" next="i-Lh65nwLo59furJFdoZoxxc">
-            <seg xml:id="i-7LSkvWAQ2EbVYp6nzgsiUF">
-              Luggude domsagas sö- | dra valkrets
-            </seg>
-          </u>
-          <note xml:id="i-9TxkE1jtddvaKRDDiCmcJf">
-            Rönnebergs och Har- | jagers härad |
-          </note>
-          <note xml:id="i-64ktUpSw5xmzaPZ8KupaF4">
-            Onsjö härad.............. 105
-          </note>
-          <note xml:id="i-E1uWFywtCdNjsWFMu2UYp7">
-            Torna härad...............
-          </note>
-          <note xml:id="i-51rjhmhtYVFmEiGxXuCEEw">
-            Bara härad ....o.oocococc. 107 Vemmenhögs, Ljunits och Herrestads
-            dom- BOZA. oomåst ot or 108 Malmös ssssnssnrerrerer orena | 109
-            DÖ sossar 110 D:O dos oossssssssseerererea I 1 11 D:O sossesses
-            ee sereer sena 112 Und smsa | 1138 Landskrona ...............
-            114 Hälsingborg ............... 115 YSlåd smoesmmmsmmommaens 116
-            Trelleborg, — Skanör | med Falsterbo, Sim- | rishamn och Än- |
-            gelholm ........s..s.s0 117
-          </note>
-          <note xml:id="i-C2U3TjAxp6koxLzfiUcMie">
-            Hallands län.
-          </note>
-          <note xml:id="i-34W5QUzt5zDSbeSiz2PhrC">
-            Höks härad ............ .. | 118 Halmstads och Tön- |
-          </note>
-          <note xml:id="i-65nKx26PejBPArimdmiDVu">
-            nersjö härad ........ 119 Årstads och Faurås | härad sssssnnnnnnnnnna
-            1120
-          </note>
-          <note xml:id="i-W23EnUvfSqryM5KHAohpzA">
-            98
-          </note>
-          <note xml:id="i-54BthbjmEZJysVF4yTRh8G">
-            T Landtbrukaren Nils Åkesson i Rebbelberga
-          </note>
-          <note xml:id="i-ME8hUVVQmwU4nikDFcxeQR">
-            kungsgård. Assessorn Bror Petrén.
-          </note>
-          <note xml:id="i-Gpaf1WdLFCgzijjo9yBa4t">
-            Målaren Nils Edvard Lindberg i Sofielund. Landtbrukaren Jöns
-            Pålsson i Anderslöf. Landtbrukaren Nils Nilsson i Skärhus.
-          </note>
-          <note xml:id="i-CiTrfy4RpAGd6DCBMSbJcp">
-            Landtbrukaren Nils Jönsson i Qvarnberga.
-          </note>
-          <note xml:id="i-CzCao7qR58KSAyVRcSjGfS">
-            1104 |
-          </note>
-          <note xml:id="i-Dg3VDu7HvDz4TLyMBrVhoM">
-            Vakant.
-          </note>
-          <note xml:id="i-Jc6DFyW94weMhQPFDqrg6M">
-            ornnaaa 1103 Folkskoleläraren Lars Gustaf Broomée, i
-          </note>
-          <note xml:id="i-2bo6cK4wdLJqQNNNUr4TrA">
-            | Bårslöf.
-          </note>
-          <note xml:id="i-AQnoqQDrM4xFXvTNjFus71">
-            Landtbrukaren Jöns Jönsson i Slätåker.
-          </note>
-          <note xml:id="i-CPhK2LAGP9dttmovKUrXjp">
-            Landtbrukaren Jöns Petter Jespersson å Dorisborg.
-          </note>
-          <note xml:id="i-Y5632Mp4Hw35yKvQor6Dcs">
-            Landtbrukaren Johan Jönsson i Refvinge.
-          </note>
-          <note xml:id="i-EerQ4BqLs5tREVs4hiuNu9">
-            Landtbrukaren Sven Linders i Nefvitshög.
-          </note>
-          <note xml:id="i-AvfaSLYNHimPkHvcTdoqE3">
-            Riksdagsmannen Hans Andersson i Västra Nöbbelöf.
-          </note>
-          <note xml:id="i-UgEES81LW5SV5AGHGkH22v">
-            Folkskoleläraren Värner Rydén.
-          </note>
-          <note xml:id="i-SZQdX9zrndTZHaS8mpddEt">
-            Redaktören Nils August Nilsson.
-          </note>
-          <note xml:id="i-LgwNJbUPHhmZ1cNNZAbruK">
-            Muraren Nils Persson.
-          </note>
-          <note xml:id="i-P8qLqHw9JkULdD1eRbZgHa">
-            Folkskoleläraren Anders Thylander.
-          </note>
-          <note xml:id="i-6jKGHKMHm6nNFrQNH9xdCx">
-            Professorn Johan Carl Wilhelm Thyrén.
-          </note>
-          <note xml:id="i-3SFoUXfW427n7CCPBy8oTq">
-            Folkskoleläraren Ola Hansson Waldén.
-          </note>
-          <note xml:id="i-Pr5e1hd8uNGq1AzJ9y5pgW">
-            Journalisten Adolf Christian Johan Christiernson.
-          </note>
-          <note xml:id="i-9YxxQCbTpuqjfWmvd8JXNR">
-            Parkföreståndaren Fredrik Vilhelm Thorsson.
-          </note>
-          <u xml:id="i-Lh65nwLo59furJFdoZoxxc" who="unknown" prev="i-LqfPP3PGhyBAk4Trrw37LQ" next="i-QKbhfKkZH2pcUAF4zxsjBJ">
-            <seg xml:id="i-4nr98ozDvFu3R69hDYDA1o">
-              Postiljonen Janne Tynell.
-            </seg>
-          </u>
-          <note xml:id="i-ECDm3Y1hWMpkLSzEC1fF2e">
-            Landtbrukaren August Ifvarson i Renneslöf.
-          </note>
-          <note xml:id="i-M8XDoR9EX2YvSisEZMQQFo">
-            Landtbrukaren Johannes Bengtsson i Bjernalt. Landtbrukaren Anders
-            Henriksson i Heborg.
-          </note>
-          <note xml:id="i-CnWiCF376VnFcafGUk4yS7">
-            N:o 1.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-009.jp2/_view"/>
-          <note xml:id="i-3wpbjvZ5ku1ymJF64STJTT">
-            N:o I,
-          </note>
-          <u xml:id="i-QKbhfKkZH2pcUAF4zxsjBJ" who="unknown" prev="i-Lh65nwLo59furJFdoZoxxc" next="i-7y68AtZ7m4grTAaJSyXUc8">
-            <seg xml:id="i-29ArdbYDE8xMxcquZQC2fT">
-              10
-            </seg>
-          </u>
-          <note xml:id="i-TN2UStmrj1Rt8SZVXrpBKC" type="date">
-            Fredagen den 15 Januari.
-          </note>
-          <note xml:id="i-YChcsHHRXhiA2DrJ5ZqQPr">
-            Himle härad Hallands läns norra domsaga
-          </note>
-          <note xml:id="i-TuT7Deudsn1RMf3Uxcm1SQ">
-            Halmstad Laholm, Falkenberg, Varberg och Kungsbacka susnnssnnssrsrsnsn
-            na
-          </note>
-          <note xml:id="i-Rj4ZhKCp1zjEptfZrTcLQp">
-            Göteborgs och Bohuslän.
-          </note>
-          <note xml:id="i-A7wzf11TtuZrqfeY2X18j1">
-            Askims, Västra och
-          </note>
-          <note xml:id="i-V9nnnnh9jmk99ckSx4Hu8x">
-            Östra Hisings härad Säfvedals härad......... Inlands domsaga
-            .....
-          </note>
-          <note xml:id="i-CXHkWjdhv7X9JQMc6EgLoE">
-            Orusts och Tjörns dOMSaga.........s..s.sno. Norrvikens domsaga
-          </note>
-          <note xml:id="i-Ua1qMgCfEEbyoeKxB7EMKh">
-            Lans och Stångenäs härad sossssmnsnnssnssna Tunge, Sörbygdens
-            och Sotenäs härad
-          </note>
-          <note xml:id="i-Vhvw1MGgau5WK25SGAGqCr">
-            Göteborg D:o
-          </note>
-          <note xml:id="i-PihdwACWyn3Mfd16dzBbML">
-            D:0 oo sennssssnssna Uddevalla .....snnnnnnsnnna Strömstad, Lysekil,
-            Marstrand, Kungelf och Åmål...............
-          </note>
-          <note xml:id="i-UwB3zLtQQrt3STkX3fc3WB">
-            Älfsborgs län.
-          </note>
-          <note xml:id="i-BkSu6tDi3uMpJpkRoWjDGF">
-            Marks härad Vedens och Bollebygds härad ssnssssssnnnnssnsa Flundre,
-            Väne och Bjärke domsaga ...
-          </note>
-          <note xml:id="i-9wng4hdRCsuzgsLDcf6Rxt">
-            121 122 123
-          </note>
-          <note xml:id="i-UyUh7ip98bCkDom1GhfToU">
-            124
-          </note>
-          <note xml:id="i-XEaRHpqMs1Uh5Kwrqpuv9Z">
-            125 127 128 129 130
-          </note>
-          <note xml:id="i-B7mmXT1FTsMKoWiLYbSU83">
-            131 |
-          </note>
-          <note xml:id="i-87Xv3s3FfPydStY6zYZdV8">
-            132 183 134 135 136
-          </note>
-          <note xml:id="i-N132aJhpKQvjC8PScQKwut">
-            137 138 139
-          </note>
-          <note xml:id="i-EmBZStoEPA3PBgPhzmfH67">
-            140 141
-          </note>
-          <note xml:id="i-RDHnWye5SoqFZ9hD8jhFCa">
-            142 143
-          </note>
-          <note xml:id="i-PHWbszkBrXS3cUHYvi331S">
-            144 145
-          </note>
-          <note xml:id="i-NvYSKExeX15b9VPwxYbx25">
-            Landtbrukaren Anders Olsson i Tyllered.
-          </note>
-          <note xml:id="i-TEQjqxivdtABoXKwvaFh8Z">
-            Landtbrukaren Aron Christoffer Gunnarsson i Asetorp. Lektorn
-            Fr. E. Ahlfvengren.
-          </note>
-          <note xml:id="i-AfKBg1uSx59oxVERxueJdn">
-            Organisten J. Alfred Lundgren i Varberg.
-          </note>
-          <note xml:id="i-UkSemWFe7NvUsAJKohcEed">
-            Landtbrukaren Herman Andersson i Grimbo.
-          </note>
-          <note xml:id="i-RDJ3Wq7YfbgWBptpTpSGoj">
-            Ingenjören John James Gibson å Jonsered.
-          </note>
-          <note xml:id="i-Yb55mxpacePDEfz3V45rTK">
-            Cornelius Olsson i Berg.
-          </note>
-          <note xml:id="i-KAAACKk7sKHeXVzngGen9p">
-            Landstingsmannen Carl L. Olausson i Lilldal.
-          </note>
-          <note xml:id="i-2Pz5NNx2GKodMNj7YcGzJR">
-            Kaptenen J. G:son Crafoord å Hällekind.
-          </note>
-          <note xml:id="i-B6Cb6wXTWqjHM5JCwraedp">
-            Landtbrukaren Oscar Nathanael Olsson i Heden.
-          </note>
-          <note xml:id="i-4nYUHn6hoLxwyuxkq14zNE">
-            Exportören Carl Herman Wallentin å Smögen.
-          </note>
-          <note xml:id="i-NSwzt1nW6MHAUAjJqFpGQH">
-            Handlanden Hjalmar Wijk.
-          </note>
-          <note xml:id="i-MNkZJqBNNkxzxcedbmfeQh">
-            Konsuln Johan E. Ekman.
-          </note>
-          <note xml:id="i-4mk4fqdyQ4DycGcnveetqD">
-            Skeppsredaren Daniel Broström.
-          </note>
-          <note xml:id="i-CCwkVUtLwMwtV6ZbfmFvEy">
-            Handlanden Karl Gustaf Karlsson.
-          </note>
-          <note xml:id="i-LTHWrdFMyb8YvfbCqsUfbv">
-            t. f. Yrkesinspektören Karl Johan Magnus Larsson.
-          </note>
-          <note xml:id="i-3C32DW7Nqm7gwCXDZPq1Sm">
-            Kamreraren Oscar Berg.
-          </note>
-          <note xml:id="i-6oCQbngcJjNQxp5pXgTeHx">
-            Handlanden Erik Peter Valdemar Röing.
-          </note>
-          <note xml:id="i-JRBwQVcnf56nFxLayS6WAv">
-            Folkskoleläraren Emil Kristensson.
-          </note>
-          <note xml:id="i-DjLsAqMx6xmL3xfRELuT5P">
-            Redaktören Anders Christenson Lindblad.
-          </note>
-          <note xml:id="i-JdX2U1EnLcFUFpkAM6NWLH">
-            Borgmästaren Gustaf Sixten Neiglick.
-          </note>
-          <note xml:id="i-2z91xU8JGbuvuvAjbnNHr3">
-            Häradshöfdingen Assar Emanuel Åkerman.
-          </note>
-          <note xml:id="i-6cRkTt9bxrYD5nKYMVfXSd">
-            Disponenten Hjalmar Hallin å Svaneholm. Godsägaren Gustaf Odqvist
-            å Påtorp.
-          </note>
-          <note xml:id="i-HUsFnZVnS9P6Zds5N13wqF">
-            Järnarbetaren Gustaf Alfred Strömberg i Trollhättan.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-010.jp2/_view"/>
-          <note xml:id="i-J488GmtQmCLZVcUTH66dTT" type="date">
-            Fredagen den 15 Januari.
-          </note>
-          <note xml:id="i-DJNPNw9ShychoQPupna3Ys">
-            11 N:o 1.
-          </note>
-          <note xml:id="i-4CovLrxPEUZ6G5Hgr8BLDp">
-            Kinds och Redvägs domsaga
-          </note>
-          <note xml:id="i-5TTfEjH82hRv5QhARpaU7r">
-            Vätle, Ale och Kul-
-          </note>
-          <note xml:id="i-McoZtmT86KiefPbvgnr5iR">
-            lings domsaga
-          </note>
-          <note xml:id="i-HLqtCLZx6kDDJWNuqLcF5d">
-            Åse och Gäsene dom-
-          </note>
-          <note xml:id="i-WNTQ5Fd8aAwsY3Wz7U8cbT">
-            Nordals, Sundals och Valbo domsaga......
-          </note>
-          <note xml:id="i-9ZoAaoCo5yrvAy5iF6rR6r">
-            Tössbo och Vedbo domsaga .............. BOråÅS oossosssrsseseseeresrors
-          </note>
-          <note xml:id="i-NaHf7UTHnNQWWsHxCSJkcW">
-            Vänersborg, Alingsås och Ulricehamn......
-          </note>
-          <note xml:id="i-R7M5mE1Q9eAHZNeUmM3gnz">
-            Skaraborgs län.
-          </note>
-          <note xml:id="i-WnB8JwAaB5zT3woCySCuPK">
-            Åse, Viste, Barne och Laske domsaga......
-          </note>
-          <note xml:id="i-Y6GfWxLjoVkFYaXT6pTriB">
-            Kinnefjärdings, Kinne och Kållands dom-
-          </note>
-          <note xml:id="i-XFsdFpuRxSLE1z7fC6ua2p">
-            Skånings, Vilske och Valle domsaga ...... Gudhems och Kåkinds
-            domsaga ...... Vartofta och Frökinds domsaga .. ....n.nvnv Norra
-            Vadsbo dom-
-          </note>
-          <note xml:id="i-Mbi8u2mXqABsr7QzGi9vXH">
-            Södra Vadsbo dom- BÅDA ses Mariestad, Sköfde och Falköping...............
-            Lidköping, Skara och Hjo
-          </note>
-          <note xml:id="i-7qygJTyiszYG94yQ4JqTY2">
-            Värmlands län. Östersysslets domsaga
-          </note>
-          <note xml:id="i-9LWdGPPwuZHBRSYeQdbHkv">
-            146 147
-          </note>
-          <note xml:id="i-FLEEHRFvNAAWx881vzqSC4">
-            148
-          </note>
-          <note xml:id="i-7kzp2tp6nfw4X1EigmtmAv">
-            149 150 151 152
-          </note>
-          <note xml:id="i-Q4ruxJN2wowvxJCFK3ffwn">
-            153
-          </note>
-          <note xml:id="i-JHAN17xueyJ2MpsMiFL55N">
-            154
-          </note>
-          <note xml:id="i-5SCH8hZuapnKxLdbgHdE3t">
-            155
-          </note>
-          <note xml:id="i-S3kMbjytGsMdo8GCZdtxb5">
-            156
-          </note>
-          <note xml:id="i-DBfmh4EEDbtiZ33FYaaqR5">
-            157 158
-          </note>
-          <note xml:id="i-VCkq7rDjTXDZaiWs2tWbD">
-            159 160 161
-          </note>
-          <note xml:id="i-TwwQeEDs3E6pxNWnUtFPsP">
-            162
-          </note>
-          <note xml:id="i-4hrWPf3SW1kB2sZphRxbuP">
-            Ingenjören Sixten Oscar Nylander i Axelfors.
-          </note>
-          <note xml:id="i-5e7Mkc4EtBuZYca4f86L5V">
-            Kommunalnämndsordföranden Herman
-          </note>
-          <note xml:id="i-4SHsB57ZGZiFgByywcgfMU">
-            Carlsson i Herrljunga.
-          </note>
-          <note xml:id="i-NHjTzZCaprdijyhWKraJQT">
-            Nämndemannen Otto Herman Svensson i Saläng.
-          </note>
-          <note xml:id="i-8QFF5i2nG3KJtTo8BApcAb">
-            Landtbrukaren Bengt Dahlgren i Assarebyn.
-          </note>
-          <note xml:id="i-LFQQpwo8b2gCDjsJRx9Viu">
-            Hemmansägaren Jan Magnus Johansson i Mellbyn.
-          </note>
-          <note xml:id="i-DCGGDW51VS9eqLW75ifaU5">
-            Fabriksidkaren Axel Fredrik Vennersten.
-          </note>
-          <note xml:id="i-NVv2KK1S3aWHuwcZvzKXUf">
-            Apotekaren Gottfrid Thavenius.
-          </note>
-          <note xml:id="i-8P4FdYdJRfCUJnZGv2F5Js">
-            Hemmansägaren Anders Magnusson i Salstad.
-          </note>
-          <note xml:id="i-UzjhLTKxzrkRYyBxHTvGpM">
-            Landtbrukaren Anders Gustaf Månsson i Fusagården.
-          </note>
-          <note xml:id="i-2fV8A7bGYN3rp8tb8xmgNT">
-            Riksdagsmannen Sven Johan Larsson i Gallstad.
-          </note>
-          <note xml:id="i-L4aLpxFLq7AbHUb5eTYfD5">
-            Hemmansägaren Lars Johan Jansson i
-          </note>
-          <note xml:id="i-7fsYg4nWn9zztktBaZWWTG">
-            Djursätra. Landtbrukaren Carl Persson i Stallarhult.
-          </note>
-          <note xml:id="i-BM1UpAWu11uAJgiAWTPhC3">
-            Riksdagsmannen Sten August Karl Nordström i Höglunda.
-          </note>
-          <note xml:id="i-R3DEq7f3q2isPzjyGKTGL5">
-            Riksdagsmannen Atgust Johansson. Redaktören Oscar Bogren.
-          </note>
-          <note xml:id="i-4WtmqcDpN9grHrCmQ1REFM">
-            Häradshöfdingen Georg Adolf Edvin Kronlund i Skara.
-          </note>
-          <note xml:id="i-2rLe1YthStkCwrzxUsfjAQ">
-            Banmästaren Carl Petter Jansson i HEdsbäcken.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-011.jp2/_view"/>
-          <note xml:id="i-DTHahrv9WFe5mLKkQzkj1W">
-            12
-          </note>
-          <note xml:id="i-LLhDRvortY7QZ5nyNEKmjr" type="date">
-            Fredagen den 15 Januari.
-          </note>
-          <note xml:id="i-2pQVTa9xEGse3oHb6FdFk6">
-            Mellansysslets dom- BÅDA orngesennn nan Södersysslets domsaga
-          </note>
-          <note xml:id="i-2NRPg5kkZXxaxyhC7HSCUG">
-            Nordmarks domsaga Fryksdals domsaga ... Jösse domsaga .........
-            Alfdals och Nyeds
-          </note>
-          <note xml:id="i-DafeSvAnZBuKqSywpUVFg">
-            domsaga
-          </note>
-          <note xml:id="i-V2YZTscKwWzoqLsh3mMnUn">
-            Karlstad .................. .. Kristinehamn och Filipstad
-          </note>
-          <note xml:id="i-MdmKLQpoRezQL6rcNb75ed">
-            Örebro län.
-          </note>
-          <note xml:id="i-4sAB94LmyFGwsifDqpMHUJ">
-            Glanshammars Örebro härad.........
-          </note>
-          <note xml:id="i-LvqRk6xBb3ksMC5Anx9cXQ">
-            Askers och Sköllersta härad sasson sus
-          </note>
-          <note xml:id="i-5wcPsS6NEGfBLrHh4gb55R">
-            Kumla och Sundbo härad sossssssssssssnnnna Grimstens, Hardemo
-            och Edsbergs härad
-          </note>
-          <note xml:id="i-RE8rFpyjtvcZcyio5qS8aq">
-            Lindes domsaga Nora domsaga............
-          </note>
-          <note xml:id="i-dPzeKj8SoSjctGBrxbCEE">
-            Örebro stad
-          </note>
-          <note xml:id="i-28BVZkeCjrfBKp9fbiEExg">
-            Västmanlands län.
-          </note>
-          <note xml:id="i-SD2RwVePfL8fBnHAjjhCMk">
-            Västmanlands södra domsaga Västmanlands västra
-          </note>
-          <u xml:id="i-7y68AtZ7m4grTAaJSyXUc8" who="unknown" prev="i-QKbhfKkZH2pcUAF4zxsjBJ" next="i-JpWePntVMV7fRqc2Wh1Ggg">
-            <seg xml:id="i-DucWWmFfbakpNkEeTMPdWx">
-              dOMmSaga........sssnnonoa
-            </seg>
-          </u>
-          <note xml:id="i-3gMeTw6ZEiUNjcCT5EcvHY">
-            D:o norra domsaga
-          </note>
-          <note xml:id="i-4XsAeDWCftBHEt3MdGJo2f">
-            D:o östra domsaga Västerås stad Köping, Nora, Lindes-
-          </note>
-          <u xml:id="i-JpWePntVMV7fRqc2Wh1Ggg" who="unknown" prev="i-7y68AtZ7m4grTAaJSyXUc8" next="i-CDKc7PZyQoQqdmyjLJgwfW">
-            <seg xml:id="i-PNRDyZKWwSxzPYRPP18QCM">
-              berg och Enköping
-            </seg>
-          </u>
-          <note xml:id="i-D7tzNQrKnQD7wJBhYo4m2y">
-            Sala och Arboga
-          </note>
-          <note xml:id="i-WZagGQS79aQoadLqa9pKb3">
-            163 164
-          </note>
-          <note xml:id="i-4JsP5NmXNRby2nVGaBLqp1">
-            165 166 167 168 169
-          </note>
-          <u xml:id="i-CDKc7PZyQoQqdmyjLJgwfW" who="unknown" prev="i-JpWePntVMV7fRqc2Wh1Ggg" next="i-PW82o3Ru9hhfRBXb63z39U">
-            <seg xml:id="i-Dms1ThULxm7LWXEdnkVxTp">
-              170
-            </seg>
-          </u>
-          <note xml:id="i-W87oDWoPoUijzFGUTHfpvD">
-            171
-          </note>
-          <note xml:id="i-8GdfiYajrDwmD3Ec8v912B">
-            172
-          </note>
-          <note xml:id="i-SqoSCGejD83yzdaqHZ6cah">
-            173 174
-          </note>
-          <note xml:id="i-Qqj7jDUuziYofiGw944uvG">
-            175 176
-          </note>
-          <note xml:id="i-HJNPF8MB23bvdF7rN6wuk">
-            177
-          </note>
-          <note xml:id="i-5GtFFvMBEWqWpChYQ4UfTP">
-            178
-          </note>
-          <note xml:id="i-VxktuZz2d2PoJzsh8hMpCP">
-            179 180
-          </note>
-          <note xml:id="i-WzhQkDRWEV25wsvyqcmgRM">
-            181 182
-          </note>
-          <note xml:id="i-NVKh4QdxUwT1y5d4vgGvAc">
-            183 184
-          </note>
-          <note xml:id="i-YDbM3kBtaXvmfwQqT9gdU8">
-            Gjutmästaren N. A:son Berg i Munkfors.
-          </note>
-          <note xml:id="i-K7tCBA5n6rj41eN7Mr74DJ">
-            Hemmansägaren och predikanten J. P. Igel i Getebol.
-          </note>
-          <note xml:id="i-ScQxKcD5MKRKqDL4HWhuXc">
-            Bruksägaren Fredrik Canell i Koppom.
-          </note>
-          <note xml:id="i-Wii4yysgSzC82wCmUj7i1Q">
-            Riksdagsmannen C. J. Berggren i Östmark.
-          </note>
-          <note xml:id="i-5Kg1aP8w6ezrzfTFYsVsoi">
-            Fabriksdisponenten Per Andersson i Arvika.
-          </note>
-          <note xml:id="i-M9t62Ur1UQZASAdWsKdNK2">
-            Hemmansägaren Gustaf Jansson i Krakerud. Landssekreteraren Per
-            Axel Victor Schotte.
-          </note>
-          <note xml:id="i-Up9bwpevp3YG8YKXomcLwm">
-            Redaktören Carl Otto.
-          </note>
-          <note xml:id="i-LpfHWhQxW3X2Q5YQqaz9Gi">
-            Hemmansägaren Anders Petter Gustafsson i Sjögesta.
-          </note>
-          <note xml:id="i-HdUT1ftiTcMjiFKVkxPsDp">
-            Riksdagsmannen Folke Andersson i Helgesta.
-          </note>
-          <note xml:id="i-ASWKuSCN9nDNGsmgT1aQxX">
-            Bruksägaren Ivan Svensson å Skyllberg.
-          </note>
-          <note xml:id="i-CYbhu78fKYJhxRw9gH5qtE">
-            Landtbrukaren Olof Gustaf Erikson i Öfre Odensvi.
-          </note>
-          <note xml:id="i-XRLLxNWcc6wAYrq8P6GxU6">
-            Hemmansägaren Lars Eriksson i Bäck.
-          </note>
-          <note xml:id="i-Jy2hXHDtVfUsJtYhvU7zRH">
-            Bergsmannen Johan Gustaf Forsberg i Stolpetorp.
-          </note>
-          <note xml:id="i-EKr4d4srceZmdk4bcSrn5o">
-            Grosshandlaren Erik Agabus Nilson.
-          </note>
-          <note xml:id="i-AYsd2gFbfpDEudd1WtqXPF">
-            Folkskoleläraren Johan Forssell i Kolbäck.
-          </note>
-          <note xml:id="i-TzXfxKsbsK3PdSpwTdQkPV">
-            Hemmansägaren Adolf Fredrik Jansson i Bråten.
-          </note>
-          <note xml:id="i-DJBq3VWtHwm8k5n6uT2D5p">
-            Järnarbetaren Gustaf Adolf Rundgren vid Fagersta.
-          </note>
-          <note xml:id="i-FzymNoj7PpHtMV26Wb1mC7">
-            Hemmansägaren Johan Andersson i Stärte.
-          </note>
-          <note xml:id="i-M4akkTT62bMnVF6edaNU3B">
-            Järnarbetaren Viktor Larsson.
-          </note>
-          <note xml:id="i-J8RVfFexUVCUG9eACzPa8Y">
-            Tidningsredaktören Alfred Stärner i Köping. Disponenten Ernst
-            Ludvig Camitz i Sala.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-012.jp2/_view"/>
-          <note xml:id="i-EziujopawPd8mmwwiUvMnp" type="date">
-            Fredagen den 15 Januari.
-          </note>
-          <note xml:id="i-TSVSLGLTwB1XbXNb63LRjT">
-            Kopparbergs län.
-          </note>
-          <note xml:id="i-US4iwquCU1DoRqk5e4Exwu">
-            Falu domsagas norra
-          </note>
-          <note xml:id="i-9bn6CGknoFhWgPSv3ctREy">
-            tingslag se... Falu domsagas södra
-          </note>
-          <note xml:id="i-4esLDLGqx63wRdJBy1ADPC">
-            tingslag .......... ..... Gagnefs och Rättviks
-          </note>
-          <note xml:id="i-3BMiCatx1yfwWdm4uUNzjP">
-            tingslag ............... .. Leksands tingslag... .. Hedemora
-            domsaga... Ofvan-Siljans domsaga Västerbergslags dom-
-          </note>
-          <note xml:id="i-TpWiKJJyrM68aj1f9QEmYj">
-            Nås och Malungs domsaga Falun, Hedemora och och Säter
-          </note>
-          <note xml:id="i-FaXaibZMvNNLtChHKcqM38">
-            Gäfleborgs län.
-          </note>
-          <note xml:id="i-N5EkbKBHBkhgb3yiDXfd2q">
-            Gästriklands östra tingslag ..... .. sm... Gästriklands = västra
-            tingslag .........s....... Norra — Hälsinglands domsaga ss...
-            Västra Hälsinglands domsaga ........... .. Sydöstra Hälsinglands
-            domsaga .....n.........
-          </note>
-          <note xml:id="i-VaFTh8KW1rRJsSooVaK96G">
-            Bollnäs domsaga Gäfle stad ........... ...... D:o
-          </note>
-          <note xml:id="i-PCV89Hv4B2gudYVRE9mpFZ">
-            Västernorrlands län. Njurunda, Indals och Ljustorps tingslag
-            Sköns tingslag
-          </note>
-          <note xml:id="i-SzZcdpYUpPeNJP2sukwVN1">
-            Medelpads västra dom-
-          </note>
-          <note xml:id="i-XqjwaFaeS626yXWFBww6Ld">
-            186
-          </note>
-          <note xml:id="i-9ZEs9QiHFgQKoheSG5pRLC">
-            187 188 189 190
-          </note>
-          <note xml:id="i-QKatowYwfW17c9sAv5iEYe">
-            191
-          </note>
-          <note xml:id="i-UaK8Mmb9Tn7MsVPR9ZepPg">
-            192 193
-          </note>
-          <note xml:id="i-MpW8UY99VDbugr7PQrNQCq">
-            194
-          </note>
-          <note xml:id="i-8V3assx8qbK7TRBpMR9G4B">
-            195 196 197 198 199
-          </note>
-          <note xml:id="i-HG1uPhHGb7Se1UZLmebGmp">
-            201 202
-          </note>
-          <note xml:id="i-31mUux25MJysTmKyfN39kY">
-            203:
-          </note>
-          <u xml:id="i-PW82o3Ru9hhfRBXb63z39U" who="unknown" prev="i-CDKc7PZyQoQqdmyjLJgwfW" next="i-Y4ust7SJ1VNCfDZ4HqFStj">
-            <seg xml:id="i-QaSG9bPYr5bRMza8nCmsk3">
-              :
-            </seg>
-          </u>
-          <note xml:id="i-BEtJ5Hsh7XGutwcmFz7jiA">
-            204
-          </note>
-          <note xml:id="i-V78zBs4AdAfBXtKd5ZyCHG">
-            I |
-          </note>
-          <note xml:id="i-4iCB2CE8Mt16Y5qzgtxKZe">
-            Hemmansägaren born.
-          </note>
-          <note xml:id="i-WJpzu7yNkWtstiWZpQazQE">
-            Samuel Söderberg i Hob-
-          </note>
-          <note xml:id="i-7MfJkx8QWBSJxDodURBssz">
-            Hemmansägaren Anders Hansson i Sol-
-          </note>
-          <u xml:id="i-Y4ust7SJ1VNCfDZ4HqFStj" who="unknown" prev="i-PW82o3Ru9hhfRBXb63z39U" next="i-PDz5tSLnqRsVABJT8HhFte">
-            <seg xml:id="i-TgoHRTYUEgn4SCTXbraYKX">
-              berga.
-            </seg>
-          </u>
-          <note xml:id="i-QvvrTvV18kJfoJvX1P8Gjm">
-            Riksdagsmannen Ollas Anders Ericsson i Ofvanmyra.
-          </note>
-          <note xml:id="i-AooLdpwTHDaZmPwaVWAYep">
-            Riksdagsmannen Daniel Persson i Tällberg.
-          </note>
-          <note xml:id="i-7GMpmqTCwfFHsmZuavzEAs">
-            Hemmansägaren Back Per Ersson i Hede.
-          </note>
-          <note xml:id="i-8tk23b7DrbwWq8EY4zZt1V">
-            Hemmansägaren Smeds Lars Olsson i Åsen.
-          </note>
-          <note xml:id="i-6h7uELPLk6jkAubBeKU5WT">
-            Riksdagsmannen Johan Bernhard Eriksson i Grängesberg.
-          </note>
-          <note xml:id="i-4r6mocPQocDbWeqUcj4u5S">
-            Riksdagsmannen Johan Ström i Transtrand.
-          </note>
-          <note xml:id="i-SWCPcgrrvMpcy1DDoGKqgb">
-            Häradshöfdingen Gustaf Nils Theodor af Callerholm i Hedemora.
-          </note>
-          <note xml:id="i-96rTcvvmqqZWYGNEauhqit">
-            Muraren Erik Andersson Leksell i Sandviken.
-          </note>
-          <note xml:id="i-4Tsx1oNncTycvdk86xSyyC">
-            Hemmansägaren Olof Olsson i See. Hemmansägaren Per Olsson i Fläsbro.
-            : Hemmansägaren John Ericson i Vallsta.
-          </note>
-          <note xml:id="i-CYC4LDDx3taVDR26bFjuWr">
-            Folkskoleläraren Magnus Sundström i Östansjö.
-          </note>
-          <note xml:id="i-VH77o9bZSetyaXiavrjEFg">
-            Nämndemannen Jon Jonsson i Hå.
-          </note>
-          <note xml:id="i-3nJv3aGs4SMyeJJUvk936o">
-            vice Häradshöfdingen Gustaf Sandström.
-          </note>
-          <note xml:id="i-EaRrhQaaNpJvzW1hWh6SWg">
-            Lektorn Karl Starbäck.
-          </note>
-          <note xml:id="i-QGauboJBVWgJd1bVgRrtEp">
-            Fabrikören Bernt Lidovig Wilson.
-          </note>
-          <note xml:id="i-EfFvpCsUNNCKJkNG9EPxj1">
-            Glasbruksarbetaren Karl Robert Karlsson i Fjäl.
-          </note>
-          <note xml:id="i-Ja8vHvqW4rhKzBQczhgTfq">
-            Fabrikören Svante Herman Kvarnzelius i Skönsmon.
-          </note>
-          <note xml:id="i-FK1y7Q9aBi2WDt6qV7Q8tb">
-            SAGA oossseser oessenea . 1205 | Inspektoren Carl Gustaf Thor
-            i Nedans:".
-          </note>
-          <note xml:id="i-EGVF23Z8VpJwujLtt5ehXK">
-            N:o 1.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-013.jp2/_view"/>
-          <note xml:id="i-WPxrj9FD5LHdMTvmtZQqx8">
-            N:o 1.
-          </note>
-          <note xml:id="i-SYEeXDbgvTEBGsL6SbMpvZ">
-            14
-          </note>
-          <note xml:id="i-9ArkFZVeGnoBraNpQLhzHm" type="date">
-            Fredagen den 15 Januari.
-          </note>
-          <note xml:id="i-LZ3T3uAMCBSrddvZPSeBZ3">
-            Ångermanlands södra . domsaga Ångermanlands mellersta domsaga
-            Ångermanlands västra domsaga
-          </note>
-          <note xml:id="i-HRc68bsZRGjjPDN33BSbD3">
-            Nätra och Nordingrå domsaga Själevads och Arnäs domsaga
-          </note>
-          <note xml:id="i-Yb7hXkUAg48B3CXFKftUVY">
-            Härnösand och Örnsköldsvik
-          </note>
-          <u xml:id="i-PDz5tSLnqRsVABJT8HhFte" who="unknown" prev="i-Y4ust7SJ1VNCfDZ4HqFStj" next="i-835rbuJbLBaaiMKMrMpwve">
-            <seg xml:id="i-DGg14ajgA4iuUX7jxTGLna">
-              Sundsvall
-            </seg>
-          </u>
-          <note xml:id="i-TaR4u1So17MErbM7gi6aK6">
-            Jämtlands län.
-          </note>
-          <note xml:id="i-L8JvDnHgg5cfHquBwt817k">
-            Jämtlands norra dom- SALA oosssseer sreseeresn rn Dito västra
-            domsaga Dito östra domsaga
-          </note>
-          <note xml:id="i-X7kwxXoU2tpqhdJTMq3E8M">
-            Härjeådalens domsaga
-          </note>
-          <note xml:id="i-XZYBkRBdF2P32cnMnc7mD6">
-            Hudiksvall och Öster-
-          </note>
-          <note xml:id="i-TrCM3fJupcSgokYuqdHuWm">
-            Västerbottens län.
-          </note>
-          <note xml:id="i-WHYXdZAxECfzX7Rfp3fqkq">
-            Nordmalings och Bjurholms samt Degerfors tingslag
-          </note>
-          <note xml:id="i-L1TGXLFZ54sv9rZTF3G5jJ">
-            Umeå tingslag
-          </note>
-          <note xml:id="i-KvrFxVjUELT167czm9KHUb">
-            Västerbottens domsaga
-          </note>
-          <note xml:id="i-BxLRAQWbu1F1W4SnEoe82H">
-            västra
-          </note>
-          <note xml:id="i-Pg5LZk8oWMDWcch4Q3tMVV">
-            Skellefteå tingslag ... Norsjö och Malå tingsläg ooserreresrr
-            sersrenr rna Västerbottens mellersta domsaga
-          </note>
-          <note xml:id="i-ADbKUkrfYhYyBuom7WcB8Z">
-            Umeå, Skellefteå och Piteå
-          </note>
-          <note xml:id="i-Rwyq3T3ucVbez2K1hiApPx">
-            Norrbottens län. Piteå domsaga
-          </note>
-          <note xml:id="i-2gVVWbkdZgFUnYbqoE4Tje">
-            206 | Riksdagsmannen
-          </note>
-          <note xml:id="i-SsahPjb9hpKnsqfP6Sr7eZ">
-            207 208
-          </note>
-          <note xml:id="i-2a77Fbt3JfdrxYXLD85nqm">
-            1209 210
-          </note>
-          <note xml:id="i-THZYjYfWiwhQkichjZcGf6">
-            211 212
-          </note>
-          <note xml:id="i-UJkPAzn39sZhZExGiwGxsD">
-            218 219
-          </note>
-          <note xml:id="i-wJetxm8PFkysT21KijLq5">
-            220 221 222
-          </note>
-          <note xml:id="i-Eaubd1SiWc3mwEX2A3pvPt">
-            223
-          </note>
-          <note xml:id="i-Qg4VbHHhXMHjkbUmdgNar1">
-            224
-          </note>
-          <note xml:id="i-AqU2KYWcHsp9PyAD8uc9cf">
-            225
-          </note>
-          <note xml:id="i-8FGfqnTaQpujYnKa5w4CmW">
-            Johan Lindgren i Skog.
-          </note>
-          <note xml:id="i-Xmn4emQuLYvnQMPSpDZ6vv">
-            Folkskoleläraren Sixten Mogren i Bollsta.
-          </note>
-          <note xml:id="i-66v2dg9kzTXu2fm5RreTp1">
-            Hemmansägaren Per Erik Hedström i Väst-
-          </note>
-          <u xml:id="i-835rbuJbLBaaiMKMrMpwve" who="unknown" prev="i-PDz5tSLnqRsVABJT8HhFte">
-            <seg xml:id="i-V2d5UjBnnwSxX7UANzt6E4">
-              by.
-            </seg>
-          </u>
-          <note xml:id="i-BY7Y5zZ774eMD9fwZtTk2f">
-            Hemmansägaren Zakarias Åslund i Hämra.
-          </note>
-          <note xml:id="i-Cbe21PsUi9gAJToiRDVLrV">
-            Hemmansägaren Carl Jonas Öberg i Domsjö.
-          </note>
-          <note xml:id="i-UddQHUgYaNrkZdBx721gpn">
-            Döfstumskoleföreståndaren Axel Julius Hagström i Härnösand. Missionsbokhandlanden
-            Johannes Hellgren.
-          </note>
-          <note xml:id="i-JmFuoZyAzvDQadT4LKoSQ5">
-            Riksdagsmannen Karl Karlsson i Mo. Hemmansägaren Johan Olofsson
-            i Digernäs. Häradsdomaren Jöns Bromée i Billsta. Hemmansägaren
-            Ingebriht Bergmani Tännäs.
-          </note>
-          <note xml:id="i-KBFeBipVxufeiyCRiovEWJ">
-            Landshöfdingen Johan Widén.
-          </note>
-          <note xml:id="i-STfGToCXokcHDVb55qFvtC">
-            Riksdagsmannen Adolf Wiklund i Brattfors. Hemmansägaren Johan
-            Rehn i Hissjön.
-          </note>
-          <note xml:id="i-Kn9sKVsvKXVQegNKvs5Fz3">
-            Provinsialläkaren Erik Hellberg i Lycksele. Kantorn P. Zimdahl.
-          </note>
-          <note xml:id="i-CFYV93fbkc5B3SPrcxgh2e">
-            Hemmansägaren Frans Oscar Mörtsell i Mörttjärn.
-          </note>
-          <note xml:id="i-8NYzWBR3rZp1Fu4ypvoQ2Q">
-            Skiftesgodemannen Olof Jonsson i Gumboda.
-          </note>
-          <note xml:id="i-QNHLGz4sdABZEqqW3zhiAk">
-            Borgmästaren Göran Albin Ahlstrand.
-          </note>
-          <note xml:id="i-BGyQtLFMSniwtUbtqMyCnq">
-            Kommunalnämndsordföranden Fredrik Anshelm Bäckström i Håkansön.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-014.jp2/_view"/>
-          <note xml:id="i-M6UBkB18JMzGWgc5JW1PPL">
-            Fredagen den 15 Januari. 15 | . Luleå domsaga — ...|226 | Riksdagsmannen
-            Adolf Linus Lundström i | Långnäs.
-          </note>
-          <note xml:id="i-WTfKeVQh6Jqpj4oHhpFoR7">
-            Kalix domsaga ... .....| 227 | Nämndemannen Arvid Björk i Jämtön.
-            Torneå domsaga ...... 228 | Kronolänsmannen Magnus Ström i Öfver-
-            Torneå.
-          </note>
-          <note xml:id="i-9CnwgyuP6AzZeXySt28dnG">
-            Gellivare domsaga ...|229/|Vaktmästaren Lars Johan Carlsson i
-            Malmberget.
-          </note>
-          <note xml:id="i-8LkDhLi5poxCp2kUdok4Mp">
-            Luleå och Haparanda | 230 | Lokomotivmästaren Fredrik Berglund
-            i | Luleå. $ 4.
-          </note>
-          <note xml:id="i-2wuuDuheCN6B89F7rJaKdC">
-            Vid härefter företaget upprop af kammarens ledamöter befunnos
-            samtliga ledamöter närvarande förutom herrar Broström och Eriksson
-            i Bäck.
-          </note>
-          <note xml:id="i-VErsAPHKZQepDnYS9Ap62H">
-            Herr ordföranden meddelade, att från herrar Broström och Eriksson
-            i Bäck inkommit läkarbetyg, utvisande, att de till följd af sjukdom
-            vore urståndsatta att iakttaga inställelse.
-          </note>
-          <note xml:id="i-EFD1mFXJoHA32ih63G3Tk7">
-            § 5.
-          </note>
-          <note xml:id="i-5iMGL39rCrNyLPxbtEgHqp">
-            Herr ordföranden tillkännagaf, att hans excellens herr statsministern
-            Lindman afvaktade budskap om afslutande af uppropet, hvarefter
-            han ville infinna sig för att meddela kammaren Kungl. Maj:ts beslut
-            angående talman och vice talman i kammaren, samt att ordföranden
-            uppdragit åt herrar Svensson i Skyllberg och Röing att underrätta
-            hans excellens herr statsministern, att uppropet vore verkställdt
-            och kammaren redo att mottaga honom.
-          </note>
-          <note xml:id="i-HBaJFQsL9EkX7LvSQ6foaR">
-            § 6.
-          </note>
-          <note xml:id="i-UUzF5syAA7Xpn6H1NTyfHD">
-            Hans excellens herr statsministern inträdde nu samt uppläste
-            Kungl. Maj:ts öppna bref angående förordnande af talman och vice
-            talman i denna kammare, enligt hvilket förordnats till talman
-            representanten för staden Norrköping herr Axel Swartling och till
-            vice talman representanten för staden Stockholm herr Karl Albert
-            Staaff.
-          </note>
-          <note xml:id="i-BUfdxz48BVbYfBppcmDY3N">
-            § 7.
-          </note>
-          <note xml:id="i-BPud234qBuGtjEuGfwAA3m" type="speaker">
-            Ålderspresidenten öfverlämnade ordförandeklubban till herr talmannen,
-            hvarefter denne hälsade kammaren med följande tal:
-          </note>
-          <u who="Q6199757" xml:id="i-Hg6d3xotpeHvEc4AKLiM8j" next="i-K21QwkDH5MMn1tw2sPLcui">
-            <seg xml:id="i-4ThyDXYT3dj3zyxNpqybY6">
-              Mina herrar! De allmänna valen till Andra Kammaren — och det
-              är efter sådana, som vi nu för första gången mötas — pläga alltid
-              medföra en afsevärd omsättning bland dess ledamöter. När jag blickar
-              ut öfver plenisalen, märker jag också vid sidan af gamla välbekanta
-              ansikten många nya. Då jag ånyo hedrats med förtroendet att såsom
-              talman leda kammarens förhandlingar, är det emellertid mitt hopp,
-              att jag snart skall blifva lika förtrogen med de nya som med de
-              gamla och hos Eder alla få påräkna samma tillitsfulla stöd och
-              samma vänskapsfulla välvilja, som tillförene i så rikt mått kommit
-              mig till del.
-            </seg>
-          </u>
-          <note xml:id="i-MkEQSmYbCzfg1Bm9wCimcY">
-            N:o 1.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-015.jp2/_view"/>
-          <note xml:id="i-Njv6XurV5ZcqEAUA5KTCHB">
-            N:o 1.
-          </note>
-          <note xml:id="i-Kxi3ofojQ6SuLDzi7EuUSi" type="date">
-            16 Fredagen den 15 Januari.
-          </note>
-          <u xml:id="i-K21QwkDH5MMn1tw2sPLcui" prev="i-Hg6d3xotpeHvEc4AKLiM8j" who="Q6199757" next="i-ACQzk43ci59oqv9Zg8NeY3">
-            <seg xml:id="i-J1fXkp6aoxR1stgUjTEF1M">
-              Af större betydelse än de yttre förändringarna, hvilka väl hos
-              talmannen kunna till en början framkalla en viss osäkerhet i afseende
-              å personer och namn, äro de inre omgestaltningar, hvilka nyvalen
-              till äfventyrs föra med sig. I detta hänseende innesluter alltid
-              en ny Andra Kammare möjligheter, hvilka icke ligga klara i det
-              ögonblick vi mötas. Vår samfällda önskan är emellertid, att hvad
-              af de olika möjligheterna blir verklighet skall motsvara vårt
-              kära fäderneslands sanna väl och betrygga dess lugna utveckling.
-            </seg>
-          </u>
-          <u xml:id="i-ACQzk43ci59oqv9Zg8NeY3" prev="i-K21QwkDH5MMn1tw2sPLcui" who="Q6199757">
-            <seg xml:id="i-PW9kh7toVt6uhTfjN7QGGV">
-              Måtte vårt kommande arbete främja detta mål, och vare Gud med
-              oss!
-            </seg>
-          </u>
-          <note xml:id="i-QNbc6eZHMZ5rNyywuHNENa">
-            § 8.
-          </note>
-          <note xml:id="i-SNJxpJUeukhY9caXmRoGts">
-            Sedan det under $&amp; 3 här ofvan intagna protokollet ånyo blifvit
-            uppläst, begärdes ordet af
-          </note>
-          <note xml:id="i-L5EfX9KpvB1CxKV8JBdttn" type="speaker">
-            Herr Jansson i Djursätra, som yttrade:
-          </note>
-          <note xml:id="i-Nnx3p8UYf7YQGnLneUDWDL">
-            Herr talman! Då den valde representanten för Södersysslets domsaga,
-            herr Igel, enligt hvad numera är allmänt bekant, hvarken vid valet
-            eller då högsta domstolen ogillade den förda klagan öfver hans
-            val, var svensk medborgare, hvilket dock enligt grundlagen den
-            måste vara, som skall kunna till riksdagsman väljas och godkännas,
-            så yrkar jag, herr talman, på denna grund, att herr Igel måtte
-            förklaras obehörig att nu taga säte i denna kammare såsom riksdagsman.
-          </note>
-          <note xml:id="i-64vzWhxtX1eh3TNCDa5eh9">
-            Den af herr Jansson i Djursätra sålunda väckta frågan om herr
-            J. P. Igels behörighet att vara ledamot af kammaren blef på begäran
-            bordlagd.
-          </note>
-          <note xml:id="i-T2V4GdWrDwHG8PhgXXta7T">
-            Kammaren beslöt att, med godkännande af öfriga i ofvanberörda
-            protokoll omförmälda fullmakter, lägga protokollet till handlingarna.
-          </note>
-          <note xml:id="i-LYF5bb6e2e7mtPBF4KTK5z">
-            § 9.
-          </note>
-          <note xml:id="i-EbHFJEHy9LpKxdtxQpqn8q">
-            Kungl. Maj:ts i $ 6 omnämnda bref blef härefter, enligt kamma
-            rens beslut, lagdt till handlingarna.
-          </note>
-          <note xml:id="i-BZ2FUcsVUW9PXTACd2xNsy">
-            § 10.
-          </note>
-          <note xml:id="i-LqVqTJ2KzJsAS6YQQH3XyX">
-            Föredrogos ånyo de i $ 4 omförmälda läkarbetygen; och blefvo
-            de för herrar Broström och Eriksson i Bäck sålunda anmälda förfallen
-            af kammaren godkända.
-          </note>
-          <note xml:id="i-NWzFQEjFA8Vn8p2yagZztf">
-            § 11.
-          </note>
-          <note xml:id="i-UZFTVv1sY6gVfGXd61zNuw">
-            På hemställan af herr talmannen beslöt kammaren dels att vid
-            plenum nästkommande dag, lördagen den 16 januari, företaga val
-            af sekreterare, dels ock att vid plenum måndagen den 18 januari
-            utse tre ledamöter att deltaga i talmansöfverläggningarna, två
-            ledamöter att hafva inseende öfver Riksdagens kansli, åtta ledamöter
-            att jämte
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-016.jp2/_view"/>
-          <note xml:id="i-3BeJ497VkApHqvMBcoqYzm" type="date">
-            Fredagen den 15 Januari. 17
-          </note>
-          <note xml:id="i-TcbBzydek6d8AufxuUaDDF">
-            berr talmannen tillsätta kammarens kanslipersonal och vaktbetjäning
-            samt tre ledamöter att handhafva vården om kammarens ekonomiska
-            angelägenheter.
-          </note>
-          <note xml:id="i-XR6LuBxgLMyCJW77p2CE3z">
-            § 12.
-          </note>
-          <note xml:id="i-6bFGUoEHsef4SR7SyT7SiD">
-            Till talarplatser för ledamöter, som kunde vilja däraf begagna
-            gig, anvisades på herr talmannens förslag de två för ändamålet
-            anordnade, på hvardera sidan om talmansbordet befintliga platserna.
-          </note>
-          <note xml:id="i-DJthm4RCwKimgN9RQgJYRB">
-            § 13. Ordet lämnades härefter på begäran till
-          </note>
-          <note xml:id="i-CnebqfhGo33iU2AcHzNX8S" type="speaker">
-            Herr vice talmannen, som yttrade:
-          </note>
-          <u who="unknown" xml:id="i-5Uo8emUrEAYur9vDZoQCEe" next="i-6CueUWM3KvnfbWQ6VhnWT5">
-            <seg xml:id="i-9Ext3ig7k9Ebc6huxjoMo5">
-              Herr talman, mina herrar! Vi veta alla, att under den närmast
-              förflutna tiden ett utaf Europas folk har drabbats utaf en af
-              de svåraste och fruktansvärdaste olyckor, som någonsin träffat
-              vår världsdel.
-            </seg>
-          </u>
-          <u xml:id="i-6CueUWM3KvnfbWQ6VhnWT5" who="unknown" prev="i-5Uo8emUrEAYur9vDZoQCEe" next="i-S8Uo624SaQ5Trc2R3zEDJN">
-            <seg xml:id="i-SLgthzkrYSQHcbMXWbqzRn">
-              Vi hafva alla med skräck och fasa läst om den naturtilldragelse,
-              som har ödelagt blomstrande samhällen å Italiens jord och som
-              bragt massor af människor, rika och fattiga, gamla och unga, till
-              en död, så fruktansvärd, att den mänskliga tanken nästan ryggar
-              tillbaka att göra sig en klar föreställning därom.
-            </seg>
-          </u>
-          <u xml:id="i-S8Uo624SaQ5Trc2R3zEDJN" who="unknown" prev="i-6CueUWM3KvnfbWQ6VhnWT5" next="i-UquNei416FCkJrtLrwajqz">
-            <seg xml:id="i-22LzenF5f7vFWEJaJbR9pg">
-              Vi veta också, i hvilken nöd, i hvilket fullständigt utblottadt
-              tillstånd massor utaf de öfverlefvande, ofta nog själfva illa
-              sårade, befinna sig för närvarande.
-            </seg>
-          </u>
-          <u xml:id="i-UquNei416FCkJrtLrwajqz" who="unknown" prev="i-S8Uo624SaQ5Trc2R3zEDJN" next="i-3QXqDsNxpPT6Ks7QDBMi6v">
-            <seg xml:id="i-VhCeCswyFqoYHhvUDtjUc6">
-              Från alla håll i den civiliserade världen har Italiens folk mot
-              tagit uttryck utaf det djupaste och innerligaste beklagande och
-              del tagande. Man har då föreställt sig, att, när den svenska Riksdagen
-              nu sammanträder, en utaf dess första tankar skulle vara den att
-              gifva ett uttryck åt de känslor, som förvisso besjäla oss alla
-              i detta fall.
-            </seg>
-          </u>
-          <u xml:id="i-3QXqDsNxpPT6Ks7QDBMi6v" who="unknown" prev="i-UquNei416FCkJrtLrwajqz">
-            <seg xml:id="i-2VH52fCz85X5K3bKsKf7c1">
-              Jag vill därför tillåta mig att föreslå, att kammaren måtte åt
-              sin tålman uppdraga att till den italienska deputeradekammarens
-              president öfversända å kammarens vägnar ett telegram, uttryckande
-              dessa våra känslor.
-            </seg>
-          </u>
-          <note xml:id="i-FQZQpWvijFMFHGowYQVA8i">
-            Denna hemställan bifölls af kammaren.
-          </note>
-          <note xml:id="i-SJsGALL717BJtoRDKZsNqb" type="speaker">
-            Herr vice talmannen, som på begäran ånyo erhöll ordet, yttrade:
-          </note>
-          <u who="unknown" xml:id="i-BR485vxKwFmP3K2zuLtmRd" next="i-WDdQs1rD7psrxasTmVW6qK">
-            <seg xml:id="i-XdhcyyneL6KuCEK7SQYf2k">
-              Herr talman, mina herrar! De internationella känslorna äro i
-              våra dagar starka och blifva ju, glädjande att säga, allt starkare
-              och starkare; vi hafva nyss gifvit ett uttryck däråt, då ett annat
-              folk i vår världsdel drabbats af en djup sorg.
-            </seg>
-          </u>
-          <u xml:id="i-WDdQs1rD7psrxasTmVW6qK" who="unknown" prev="i-BR485vxKwFmP3K2zuLtmRd" next="i-G8LEXARSVgJeKiFFdxdiWi">
-            <seg xml:id="i-7kGEyv6y1cmWhmcbsZbySF">
-              Sedan svenska Riksdagen sist sammanträdt, har emellertid en glädjande
-              tilldragelse inträffat i ett annat europeiskt land. Såsom vi veta,
-              har Turkiet öfvergått från ett absolutistiskt styrelseskick till
-              den konstitutionella friheten. Man har då tänkt, att äfven den
-              svenska Riksdagen skulle vara benägen att lägga sin stämma till
-              de många röster, som redan låtit sig höra, uttryckande lyckönskan
-              till den så väl och lyckosamt genomförda förändringen.
-            </seg>
-          </u>
-          <note xml:id="i-5C3HoWEtf3MeYBLHN9ykXE">
-            Andra Kammarens Prot. 1909. N:o 1. 2
-          </note>
-          <note xml:id="i-3L4dgzTbaDaGpxLhThyPAV">
-            N:o 1.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-017.jp2/_view"/>
-          <note xml:id="i-71SUm9DKhnpaZBD2nSQt5h">
-            N:o 1.
-          </note>
-          <note xml:id="i-CsWE6qraynSgJNqtqZ6gBf" type="date">
-            18 Lördagen den 16 Januari.
-          </note>
-          <u xml:id="i-G8LEXARSVgJeKiFFdxdiWi" who="unknown" prev="i-WDdQs1rD7psrxasTmVW6qK" next="i-XYQ3qivyM4BE9qQyhPtnrz">
-            <seg xml:id="i-SamDag4uKt6jwhHW4JMfLF">
-              Jag vill därför hemställa, att Andra Kammaren behagade gifva
-              sin talman i uppdrag att i telegram till den turkiska representantkammarens
-              president uttrycka Andra Kammarens lifliga lyckönskningar.
-            </seg>
-          </u>
-          <note xml:id="i-5N8pDJCX8kgsrVbFcbFXEC">
-            Jämväl hvad herr vice talmannen sålunda föreslagit blef af kammaren
-            bifallet.
-          </note>
-          <note xml:id="i-5exvCPxSWAwbUsnXWKdnnf">
-            § 14.
-          </note>
-          <note xml:id="i-F4YnWX88BMxVe3fapD5JTJ">
-            Herr talmannen meddelade, att till kammarens förfogande öfverlämnats
-            ett antal inträdesbiljetter till rikssalen vid riksdagens öpp:
-            nande, och hemställde, att fördelning af dessa biljetter finge
-            genom kammarens kansli ske efter slutet af kammarens sammanträde
-            denna dag med iakttagande, att de för ledamöterna från Stockholms
-            stad och hvart och ett af rikets län afsedda biljetterna utlämnades
-            till Stockholms stads och hvarje läns äldste närvarande representant,
-            som sedermera finge ombesörja den vidare utdelningen.
-          </note>
-          <note xml:id="i-C5bEbLMwJj5KAXQCW2HTvP">
-            Denna hemställan bifölls. Härefter åtskildes kammarens ledamöter
-            kl. 12,45 e. m.
-          </note>
-          <note xml:id="i-SkmkD3ADd4cgo76n7B874x">
-            Sixten Neiglick. Albin Ahlstrand.
-          </note>
-          <note xml:id="i-Bh84j5y7pu4q8T1X5gBPUm" type="date">
-            Lördagen den 16 januari. Kl 10,15 £. m.
-          </note>
-          <note xml:id="i-6JhphUGLvreB7Pbp2xK94H">
-            § 1.
-          </note>
-          <note xml:id="i-UvXzXDn9GZhY2eFaDdcYVm">
-            Jämlikt kammarens under $ 11 i gårdagens protokoll antecknade
-            beslut företogs nu i föreskrifven ordning med slutna sedlar val
-            af sekreterare ; och befanns efter valsedlarnas öppnande och uppräkning
-            valet hafva så utfallit, att till sekreterare utsetts notarien
-            hos öfverståthållarämbetet, jur. och fil. kandidaten Per Cronvall
-            med 184 eller
-          </note>
-          <note xml:id="i-P53XvknnDem6n9u393D9op">
-            alla afgifna röster. Sekreteraren, som härefter på kallelse inställde
-            sig, öfvertog, efter
-          </note>
-          <u xml:id="i-XYQ3qivyM4BE9qQyhPtnrz" who="unknown" prev="i-G8LEXARSVgJeKiFFdxdiWi">
-            <seg xml:id="i-NdTiXF9C6s8Lwsj7KrXwd2">
-              erhållen kännedom om valets utgång, protokollsföringen.
-            </seg>
-          </u>
-          <note xml:id="i-3jwyERAhae4yMMbbWZdkD3">
-            Sixten Neiglick. Albin Ahlstrand. 8 2.
-          </note>
-          <note xml:id="i-RcY6348m3tNBBrBXgLPDZa">
-            Herr talmannen och kammarens herrar ledamöter afgingo kl. 10,59
-            till slottskapellet, hvarest riksdagspredikan hölls, Efter slutad
-            gudstjänst begaf sig kammaren till rikssalen. : :
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-018.jp2/_view"/>
-          <note xml:id="i-6QSP2TJaTUJyX8e5bxJf2f" type="date">
-            Lördagen den 16 Januari, 19
-          </note>
-          <note xml:id="i-CPoGgLpScSxngYqfzKacDX">
-            Hans Maj:t Konungen öppnade där riksdagen med ett tal, hvarefter
-            hans excellens herr statsministern Lindman uppläste Kungl. Maj:ts
-            berättelse om hvad i rikets styrelse sedan sista lagtima riksdags
-            sammanträde sig tilldragit.
-          </note>
-          <note xml:id="i-LcoFhhPj8tkWAQucd7taiP" type="speaker">
-            Efter det Första Kammarens talman framfört Första Kammarens undersåtliga
-            vördnad, framträdde Andra Kammarens talman och yttrade:
-          </note>
-          <note xml:id="i-K2VV3FFc7u8jAYnYhTpSkK">
-            Allernådigaste Konung, Eders Majestät!
-          </note>
-          <note xml:id="i-Q3SeAHUdkcFVPvgNZP3UwC">
-            En Andra Kammare, som förnyats genom allmänna val — efter allt
-            att döma de sista, som förrättats efter nu gällande ordning —
-            står i dag samlad inför tronen och framför genom sin talman till
-            Eders Majestät sin undersåtliga vördnad.
-          </note>
-          <u xml:id="i-XcQjXV1cd1JD4CDfACLJqn" next="i-KrMVFEbsRy5k43wdWvvnpK" who="Q6199757">
-            <seg xml:id="i-DA2TYdCy1dtipC4Sk63xFk">
-              De politiska strider, ur hvilka kammaren framgår såsom resultat,
-              kunna gå med höga böljeslag. Grundvalarna eller stödjepunkterna
-              för vårt nationella lif hafva de dock aldrig rubbat, och en af
-              dessa djupt i folksjälen liggande stödjepunkter är troheten mot
-              Konungen.
-            </seg>
-          </u>
-          <u xml:id="i-KrMVFEbsRy5k43wdWvvnpK" prev="i-XcQjXV1cd1JD4CDfACLJqn" who="Q6199757" next="i-CFmb5m3i7W3S7FSjvo6Peg">
-            <seg xml:id="i-FV9z2WL1Vg9BBXS8iw7eZ5">
-              Det svenska folket är vant att följa sin konung, liksom ock dess
-              största och bästa konungar alltid lagt vikt på att hafva folket
-              med sig.
-            </seg>
-          </u>
-          <note xml:id="i-S6o9kpKk8mFAqvWdBNjX7Y">
-            Under de maktpåliggande resor till utländska statsöfverhufvud,
-            som Eders Majestät under sistförflutna året företagit, har det
-            ock i tankarna följt Eders Majestät på färden och med glädje förnummit,
-            hurusom varm sympati öfverallt strömmat Eders Maj:t, H. M. drottningen
-            och det svenska namnet till mötes. Den personliga insats Eders
-            Maj:t gjort för att befästa denna sympati har också med känslor
-            af tacksamhet uppskattats af Eders Maj:ts undersåtar och det är
-            därför en lika kär som dyrbar plikt att nu frambära uttrycken
-            af dessa känslor.
-          </note>
-          <u xml:id="i-CFmb5m3i7W3S7FSjvo6Peg" prev="i-KrMVFEbsRy5k43wdWvvnpK" who="Q6199757">
-            <seg xml:id="i-KQ1xXuqb4Y2uCkLJ4wGp85">
-              Med varma och innerliga välönskningar för Konung och konungahus
-              nedkalla vi Guds välsignelse öfver Eders Maj:t och hela den kungliga
-              familjen.
-            </seg>
-          </u>
-          <note xml:id="i-BwEVjnsxBf3QwLELjo1ApZ">
-            Härpå fingo talmännen hvardera mottaga ett exemplar af Kungl.
-            Maj:ts proposition angående statsverkets tillstånd och behof,
-            hvarefter ceremonien på rikssalen afslutades, och åtskildes Andra
-            Kammaren vid utgåendet från rikssalen, enligt beslut fattadt före
-            afgången från dess samlingsrum.
-          </note>
-          <note xml:id="i-UH5QB46wiy54f2Ht7VS7Yp">
-            In fidem Per Cronvall.
-          </note>
-          <note xml:id="i-4HG5rQV1QcsFVSP3Sg1BLY">
-            N:o 1.
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1909--ak--1</head>
+        <docDate when="1909-01-15">1909-01-15</docDate>
+        <docDate when="1909-01-16">1909-01-16</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-000.jp2/_view"/>
+        <note xml:id="i-QUnCVXNXC8HEEbRQDyHHyK">
+          RIKSDAGENS PROTOKOLL. 1909. Andra Kammaren. N:o I.
+        </note>
+        <note xml:id="i-VsnjeoUeAVVwzDzgPeFy3S">
+          I enlighet med $ 49 regeringsformen och 8 2 riksdagsordningen
+          sammanträdde Andra Kammaren till lagtima möte här i hufvudstaden
+          i den uti Riksdagens hus för kammsatren anordnade samlingssalen
+        </note>
+        <note xml:id="i-NnwvMWNEkpcFAreFu9UhQH" type="date">
+          Fredagen den 15 januari kl. 11 f. m.
+        </note>
+        <u xml:id="i-PkP3tmsGNaHLA12PXgSgYW" who="unknown" next="i-UMG84B5NZWKJA3Zzi7fPnS">
+          <seg xml:id="i-EC8xHikUq2rYJSrCa3vE7C">
+            $1
+          </seg>
+        </u>
+        <note xml:id="i-48DUyByaD3CavosE2jVyeH">
+          Sammanträdet öppnades af representanten för Askers och Sköllersta
+          härad herr Andersson i Helgesta såsom den ledamot, hvilken bevistat
+          de flesta riksdagarna, med följande ord:
+        </note>
+        <u xml:id="i-UMG84B5NZWKJA3Zzi7fPnS" who="unknown" prev="i-PkP3tmsGNaHLA12PXgSgYW" next="i-vDGsY3RWYJrHHnpPQgphA">
+          <seg xml:id="i-4TJr3F8BuLe47N2tXtt89b">
+            Mina herrar! Då jag är den af herrarna, som bevistat de flesta
+            riksdagarna och på samma gång är äldst till lefnadsåren, tillkommer
+            det mig enligt $ 33 riksdagsordningen att öppna detta sammanträde
+            och leda dess förhandlingar, till dess Hans Maj:t Konungen behagat
+            utnämna talman och vice talman; och på grund häraf hälsar jag
+            Eder samtliga herrar välkomna till detta riksmöte.
+          </seg>
+        </u>
+        <u xml:id="i-vDGsY3RWYJrHHnpPQgphA" who="unknown" prev="i-UMG84B5NZWKJA3Zzi7fPnS" next="i-Nts9gtuzu3EheDkUT2vp4p">
+          <seg xml:id="i-XVyupDd7HmJM8Zc53FmDQ6">
+            Utan tvifvel komma nog äfven i år stora och för vårt fosterland
+            viktiga frågor att föreläggas till Riksdagens pröfning. Och jag
+            är viss om att denna kammare nu såsom alltid skall ägna dem en
+            noggrann och grundlagsenlig behandling. Sättet, huru dessa frågor
+            skola lösas, därom torde nog meningarna blifva delade. Men det
+            oaktadt är jag viss om att vi alla hafva en önskan och eft mål
+            — att de beslut, som fattas, och de lagar, som byggas, måtte komma
+            att lända vårt älskade fädernesland till största möjliga nytta
+            och gagn.
+          </seg>
+        </u>
+        <note xml:id="i-LvPBmaTeVQusWcX9keetN1">
+          Med denna önskan och bön att Herren Gud i fortsättningen måtte
+          hålla sin skyddande och bevarande hand öfver Konung och fosterland,
+          förklarar jag härmed detta sammanträde öppnadt.
+        </note>
+        <note xml:id="i-DxuWiq7j8Bs7yK4YPYdG3a">
+          § 2.
+        </note>
+        <note xml:id="i-FgnDZmRL5XZRxx8EaM9Fes">
+          Herr ordföranden tillkännagaf, att han anmodat undertecknade
+          att föra protokollet, till dess sekreterare hunnit utses, äfvensom
+          att kanslibiträden och vaktbetjäning blifvit till erforderligt
+          antal af honom för tillfället antagna; och blefvo på framställd
+          proposition dessa åtgärder af kammaren godkän da.
+        </note>
+        <note xml:id="i-9g3BWECEa7mJHsPGfdCaNH">
+          Andra Kammarens Prot. 1909. N:o 1. 1
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-001.jp2/_view"/>
+        <note xml:id="i-56kpx1JoJp7uLjVDNAvpcb">
+          N:o 1.
+        </note>
+        <note xml:id="i-MofqsCZPGVM18vvMrtadpx" type="date">
+          2 Fredagen den 15 Januari.
+        </note>
+        <note xml:id="i-YAh9s2aa1pLCuJpvWS8WM1">
+          § 3.
+        </note>
+        <note xml:id="i-2Ko8HfzsBminWNG7XHr4Zv">
+          Upplästes följande till kammaren ankomna protokoll angående den
+          i $&amp; 32 riksdagsordningen föreskrifna fullmaktsgranskningen:
+        </note>
+        <note xml:id="i-52Li2aocZHH1h1VDEtkx1j">
+          Protokoll, hållet inför statsrådet och chefen för justitiedepartementet
+          den 13 januari 1909.
+        </note>
+        <note xml:id="i-D4WS92JPmR3mkWGEhd1cp7">
+          Sedan på grund af stadgandet i &amp; 32 riksdagsordningen statsrådet
+          och chefen för justitiedepartementet anmodat tre bland de af Riksdagen
+          valda fullmäktige i riksbanken och tre bland fullmäktige i riksgäldskontoret
+          att närvara vid den granskning af riksdagsmannafullmakter, som
+          jämlikt riksdagsordningens nämnda paragraf bör före Riksdagens
+          sammanträde äga rum, så infunno sig nu af de utaf Riksdagen valde
+          fullmäktige i riksbanken herrar vice ordföranden bland fullmäktige,
+          filosofie doktorn H. R. Törnebladh, filosofie doktorn S. G. von
+          Friesen och revisionssekreteraren C. Berg samt af fullmäktige
+          i riksgäldskontoret herrar ordföranden bland fullmäktige, juris
+          doktorn P. A. H. Cavalli, direktören V. L. Moll och byråchefen
+          A. Hammarström.
+        </note>
+        <note xml:id="i-CDtcNysbhLN1CAdZKKFDLE">
+          Innan härefter skreds till granskning af de till departementet
+          inkomna fullmakter för ledamöter af Riksdagens Andra Kammare,
+          antecknades, att af de inkomna fullmakterna borde från granskning
+          undantagas: sju fullmakter af den anledning att de val, hvarpå
+          fullmakterna grundade sig, blifvit genom laga kraft ägande utslag
+          upphäfda samt en fullmakt, enär den valde afsagt sig riksdagsmannauppdraget.
+          I samtliga dessa fall hafva därefter nya val anställts och fullmakter
+          för de vid omvalen utsedda personerna ingifvits till departementet.
+          Då vidare landtbrukaren Otto Sigfrid Persson i Plönninge, som
+          vid val den 6 september 1908 blifvit utsedd till ledamot af kammaren
+          för Luggude domsagas norra valdistrikt, numera aflidit, skulle
+          jämväl den för honom utfärdade fullmakten undantagas från granskningen.
+          Någon ledamot af kammaren i den aflidnes ställe har ännu icke
+          blifvit utsedd.
+        </note>
+        <note xml:id="i-PWSjSV7cmBxJyRSqVdr7rK">
+          Vid härefter företagen granskning anmärktes beträffande den fullmakt,
+          som utfärdats för hemmansägaren och predikanten J. P. Igel i Getebol
+          på grund af val den 6 september 1908 i Södersysslets domsaga,
+          att fullmakten afvek från det föreskrifna formuläret, därutinnan
+          att den var försedd med öfverskriften »Fullmakt» och saknade de
+          i formuläret upptagna orden: »hvarom detta länder till bevis och
+          fullmakt», äfvensom att fullmakten undertecknats af Karl Westholm,
+          utan att af fullmakten inhämtades, att underskriften skett å domareämbetets
+          vägnar eller att Westholm, då valet hållits, varit domhafvande
+          i Södersysslets domsaga, men då statsrådet och chefen för justitiedepartementet
+          upplyste, att i departementet befintliga handlingar utvisade,
+          att Westholm vid ifrågavarande tid varit förordnad att förvalta
+          domareämbetet i domsagan, samt ofvannämnda afvikelser från formuläret
+          icke syntes vara af beskaffenhet att förändra meningen eller föranleda
+          otydlighet, ansågs fullmakten böra godkännas.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-002.jp2/_view"/>
+        <note xml:id="i-QW7L6T7VMb2oywSv2TpCC9" type="date">
+          Fredagen den 15 Januari. 3
+        </note>
+        <note xml:id="i-GijC2Wxx4hTYMXs3hH94Hu">
+          I samband med granskningen af nämnda fuöllmakt ansåg sig departementschefen
+          böra meddela, att Igel den 21 december 1908 till Kungl. Maj:t
+          inkommit med ansökning, att, enär han, som under vistelse i Amerika
+          förvärfvat amerikansk medborgarerätt, icke därefter åter upptagits
+          till svensk undersåte, Kungl. Maj:t måtte återgifva honom svensk
+          medborgarerätt; att vid denna ansökning fogats ett af behörig
+          myndighet utfärdadt bevis, att Igel den 1 februari 1887 upptagits
+          till medborgare i Nordamerikas förenta stater; samt att genom
+          Kungl. Maj:ts resolution den 31 december 1908 Igel blifvit upptagen
+          till svensk medborgare, under villkor att han inom ett år därefter
+          inför Kungl. Maj:ts befallningshafvande i Värmlands län aflägger
+          trooch huldhetsed.
+        </note>
+        <note xml:id="i-Aw3JJyc5TqAPWZhMMGAGCp">
+          Såsom fullmakt för järnarbetaren Gustaf Alfred Strömberg i Trollhättan
+          hade till departementet inkommit allenast afskrift af en i behörig
+          form upprättad, den 14 september 1908 dagtecknad fullmakt för
+          Strömberg att vara ledamot af kammaren för Flundre, Väne och Bjärke
+          domsaga, hvilken afskrift var försedd med följande anteckning:
+          »med konceptfullmakten lika lydande, betygar: Vänersborg den I
+          december 1908. På domare-ämbetets vägnar: Vilh. Lagercrantz».
+          Då någon för Strömberg utfärdad fullmakt i hufvudskrift sålunda
+          icke blifvit för granskning företedd, ansågs förhållandet böra
+          för kammaren anmälas.
+        </note>
+        <note xml:id="i-93YoJiocFxS4Y6fvohjvBB">
+          Vid granskningen af öfriga fullmakter befanns, att den för häradshöfdingen
+          i Norrvikens domsaga Assar Emanuel Åkerman utfärdade fullmakt
+          att vara ledamot af kammaren för Strömstads, Lysekils, Marstrands,
+          Kungälfs och Åmåls städer blifvit underskrifven, icke såsom i
+          $&amp; 20 riksdagsordningen föreskrifves, af magistraten i den stad,
+          där valet slutligen handlagts, utan allenast af tillförordnade
+          borgmästaren i Åmål Carl Beijer på magistratens vägnar, hvilket
+          skulle till kammarens kännedom i protokollet anmärkas.
+        </note>
+        <note xml:id="i-T9u4tYr3we3bU7sErzgBm">
+          Vidare anmärktes, att de för hemmansägaren Johan August Jonsson
+          i Hökhult och ingenjören Sixten Oscar Nylander i Axelfors utfärdade
+          fullmakter att vara ledamöter af kammaren, den förre för Norra
+          och Södra Vedbo och Nylander för Kinds och Redvägs domsaga, voro
+          undertecknade: Johan August Jonssons fullmakt af Fredrik Törner
+          och Nylanders fullmakt af Einar Sundström utan att af fullmakterna
+          med tydlighet framgick, att underskrifterna skett å domareämbetets
+          vägnar eller att Törner och Sundström voro domhafvande i nämnda
+          domsagor, då valen hållits, men då genom telegram från sekreteraren
+          hos Göta hofrätt styrktes, att Törner och Sundström vid fullmakternas
+          utfärdande haft förordnanden såsom domhafvande, Törner i Norra
+          och Södra Vedbo samt Sundström i Kinds och Redvägs domsagor, ansågos
+          dessa fullmakter böra godkännas.
+        </note>
+        <note xml:id="i-UBgiBeUWrYmx4MwSk4MK2V">
+          Härutöfver anmärktes, att i några fullmakter förekommo afvikelser
+          från det i riksdagsordningens 8 20 föreskrifna formulär, såsom
+          : att i en fullmakt, dagtecknad den 26 september 1908 tidpunkten
+          för valets förrättande angifvits såsom »den 6 sistlidna september»;
+          att uti en i december 1908 dagtecknad fullmakt, tidpunkten för
+          valet angifvits såsom »den 13 sistlidna december»; att jämväl
+          i åtskilliga andra fullmakter tiden för valets förrättande antecknats
+          på annat sätt
+        </note>
+        <note xml:id="i-KBMsTYJSrjn8SJWtAtnbwr">
+          N:o 1.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-003.jp2/_view"/>
+        <note xml:id="i-JB5yxbz5qpVBEFRUvDGZ2o">
+          N:o 1.
+        </note>
+        <note xml:id="i-MzSwVqJQCHmWgk2DgoBgCM" type="date">
+          4 Fredagen den 15 Januari.
+        </note>
+        <note xml:id="i-C78EqDG4VMTWjRKz36fMsX">
+          än enligt formuläret; att i ett flertal fullmakter benämningen
+          å valkretsen ej blifvit fullt riktigt återgifven; att i två fullmakter
+          de valde förklarats utsedde till ledamöter »i&gt; i stället för »af»
+          Riksdagens Andra Kammare; att i några fullmakter tiden för riksdagsmannauppdragets
+          fortvaro betecknats med uttryck ej fullt öfverensstämmande med
+          dem, som upptagits i formuläret; samt att i den för hemmansägaren
+          Carl Johan Laurentius Larsson i Bondarfve utfärdade fullmakten
+          orden »hvarom detta länder till bevis och fullmakt» voro utelämnade;
+          men då samtliga dessa afvikelser icke syntes vara af beskaffenhet,
+          att därigenom meningen förändrades eller otydlighet föranleddes,
+          ansågos dessa fullmakter, i likhet med öfriga, emot hvilka eljest
+          anmärkning ej förekommit, böra godkännas.
+        </note>
+        <note xml:id="i-EEuiUCezTwkcEGZ33spayN">
+          Hvad sålunda förekommit skulle genom protokoll meddelas Andra
+          Kammaren, hvarjämte förteckning å kammarens ledamöter enligt de
+          inkomna och granskade fullmakterna skulle tillika med fullmakterna
+          till kammaren öfverlämnas.
+        </note>
+        <note xml:id="i-NyMR9AX4GUDt6fzLpsuUM6">
+          In fidem
+        </note>
+        <note xml:id="i-VJLSWapXdpfunSt44egopJ">
+          P. M. af Ugglas.
+        </note>
+        <note xml:id="i-HWtXNzNgGgs4LMxRSBa8Dg">
+          Den i protokollet omförmälda förteckningen var af följande lydelse:
+        </note>
+        <note xml:id="i-QKCmavioKvqp5t4cLjaMNo">
+          Förteckning å de ledamöter af Riksdagens Andra Kammare, för hvilka
+          efter förrättade allmänna val till kammaren fullmakter före början
+          af 1909 års riksdag till justitiedepartementet inkommit:
+        </note>
+        <u xml:id="i-Nts9gtuzu3EheDkUT2vp4p" who="unknown" prev="i-vDGsY3RWYJrHHnpPQgphA" next="i-S2mEa9RuQTmqJBzbcp6Yad">
+          <seg xml:id="i-YP8CLokZMtdzk7p8p8kXRj">
+            Stockholms stad.
+          </seg>
+        </u>
+        <note xml:id="i-Rr34Mhrg5SCNN7qHNzWq3b">
+          Första valkretsen: Journalisten Sven Persson.
+        </note>
+        <note xml:id="i-XJcZyAtaKb7LA5L7kqgTaT">
+          Kassören Ernst J. Söderberg.
+        </note>
+        <note xml:id="i-4bu2bhGkcy7QpAw24qW1PA">
+          Tullvaktmästaren Richard Hjalmar Rissén.
+        </note>
+        <note xml:id="i-VMMN5C8huJLoASjT1XXBT6">
+          Förtroendemannen Charles G. Lindley.
+        </note>
+        <note xml:id="i-KcdPc5xgCgM24GL9bNMfwx">
+          Tunnbinderiarbetaren Johannes J:son Hasselquist.
+        </note>
+        <note xml:id="i-G96SQgBDJzNEQRjaV1L4pT">
+          6 | vice Häradshöfdingen Karl A. Staaff. 7 | Direktören Sven
+          8. Palme. 8 9
+        </note>
+        <note xml:id="i-LGQ7kAHnk186itDwF4q22f">
+          OR WW NH
+        </note>
+        <note xml:id="i-G88Mu14uaHv5wvsaFxu7ZN">
+          Andra valkretsen :
+        </note>
+        <note xml:id="i-LB4K1DgX9XvkRjdh5TyfTe">
+          Medicine doktorn Knut E. O. Kjellberg. Borgmästaren Carl A. Lindhagen.
+        </note>
+        <note xml:id="i-u2qSzaAjEC2pQjB64cbV4">
+          Tredje valkretsen : 10 | Redaktören Jakob J. Byström.
+        </note>
+        <note xml:id="i-3g3v6b3NnXcECXEZyVnPT7">
+          11 | Direktören Edvard Wavrinsky.
+        </note>
+        <note xml:id="i-VoktjSHEtDAEdHjGdmoLbF">
+          12 | Förtroendemannen Ernst Blomberg. 13 'e. o. professorn Curt
+          Wallis.
+        </note>
+        <note xml:id="i-Ff2uK4maXzycx5ofZVoLjV">
+          Fjärde valkretsen : 14 | Folkskoleläraren, filosofie doktorn
+          Fridtjuv Berg.
+        </note>
+        <note xml:id="i-RUpoGeV8fGSnH3bf9Uv17">
+          15 | Yrkesinspektören Thorvald Färst.
+        </note>
+        <note xml:id="i-FNWXGu3ERijTngW8Ltrjfy">
+          16 | Kaptenen, friherre Erik Kule Palmstierna. 17 | Docenten,
+          filosofie doktorn Gustaf Kobb.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-004.jp2/_view"/>
+        <note xml:id="i-GBe8eCHHJt8TP4nAN45HYg" type="date">
+          Fredagen den 15 Januari. 5
+        </note>
+        <note xml:id="i-KaX7vP4FdDEv9M82T7GZfu">
+          N:o 1.
+        </note>
+        <note xml:id="i-3SWDSqBM3jCxNsSGAwn9Fq">
+          Femie valkretsen:
+        </note>
+        <u xml:id="i-S2mEa9RuQTmqJBzbcp6Yad" who="unknown" prev="i-Nts9gtuzu3EheDkUT2vp4p" next="i-2xM4LPhcKL1rWNrrSHoPDY">
+          <seg xml:id="i-4RkPEVo1ZeM8XdsbsF441i">
+            Stockholms län:
+          </seg>
+        </u>
+        <note xml:id="i-MC2DXaYWGKoLeKAThbf6Wg">
+          Norra Roslags dom- BALA os eesrssrseresre ena Mellersta Roslags
+          dom- BAZA os senses or sena Färentuna och Sollentuna härad ............
+          Danderyds, Åkers och Värmdö skeppslag Stockholms läns vär stra
+          domsaga ......... Svartlösa härad....... Sotholms och Öknebo härad
+        </note>
+        <note xml:id="i-3PmQN3QtygBGp1CsXF8hmn">
+          BÖdertäljö: 25: wreusva Vaxholm, Norrtälje, Östhammar, Öre-
+        </note>
+        <u xml:id="i-2xM4LPhcKL1rWNrrSHoPDY" who="unknown" prev="i-S2mEa9RuQTmqJBzbcp6Yad" next="i-BqraYC167bzn5Y5Eoe8NBC">
+          <seg xml:id="i-WqiiLsn7GiV6XA3yAXX29w">
+            grund och Sigtuna
+          </seg>
+        </u>
+        <note xml:id="i-FhqJmSwZKbhbWvP8XNv9Ra">
+          Uppsala län:
+        </note>
+        <note xml:id="i-4fjDkf6dtnKRRD9VTu48Ts">
+          Norrunda och Olands härad sssssssmsmsmse Örbyhus härad .........
+          Uppsala läns mellersta
+        </note>
+        <note xml:id="i-K945S5Cpx1LLb9T6AxZ59M">
+          domsaga Uppsala läns
+        </note>
+        <note xml:id="i-HUJDfXzoZxJWr8dESw8pFj">
+          domsaga Uppsala stad
+        </note>
+        <note xml:id="i-HPuCwXVvoKPL2w7dzPQff">
+          södra
+        </note>
+        <note xml:id="i-BTBxbjy9uWCK6qcDkGGBEq">
+          Södermanlands län: Jönåkers härad.........
+        </note>
+        <note xml:id="i-LqDrqwSPJjw9uMUkeHVUGb">
+          Rönö, Hölebo och Daga härad............
+        </note>
+        <note xml:id="i-3dRcBszwQXUGzzxeGSRmGr">
+          Oppunda härad .
+        </note>
+        <note xml:id="i-4RnBjq3NnB5ndjTyMBWKeF">
+          22
+        </note>
+        <note xml:id="i-GGW3S9VDdDVw6MxjrYLeZK">
+          23
+        </note>
+        <note xml:id="i-VpoPP5eUNDuQdxdV44JtmT">
+          24
+        </note>
+        <note xml:id="i-M4ziPKFXAdsUfA1dwL8hNA">
+          25
+        </note>
+        <note xml:id="i-9xFQZ8Q7Bv2pd8YLNHUFYT">
+          26 27
+        </note>
+        <note xml:id="i-oEAQaCnKnty4nAU1jFvbL">
+          28
+        </note>
+        <note xml:id="i-SjYpWpQ7dNfaocaTkPDr7t">
+          29
+        </note>
+        <note xml:id="i-Ka164X9hFg2a3SxnQJ5uJR">
+          30
+        </note>
+        <note xml:id="i-w6xRri2d4MEXVWtPdV2x5">
+          31
+        </note>
+        <note xml:id="i-Te8mpDTKVfMubJtbLr1JWo">
+          32
+        </note>
+        <note xml:id="i-9tQFgJXPYqZZwFu3dhJGin">
+          33 34
+        </note>
+        <note xml:id="i-7hMtHSr7d37S1L8vDhQzap">
+          36
+        </note>
+        <note xml:id="i-MvMYr34YnPfrsZ4vRnd7ny">
+          37 38
+        </note>
+        <note xml:id="i-KdbEb9ZZV3ByMxQRyFb7U7">
+          Redaktören Hjalmar Branting. Riksdagsmannen Herman Lindqvist.
+          Försäkringstjänstemannen Knut Tengdahl. Redaktören John Theodor
+          Johansson.
+        </note>
+        <note xml:id="i-6iRzt3UDeLrKabUiygyLRr">
+          Hemmansägaren Carl Sandquist på Söderby gård.
+        </note>
+        <note xml:id="i-A94ZhvkTbjCgD7gJEq5nqA">
+          Godsägaren Erik Gabriel Henrik Åkerlund å Lovisedal.
+        </note>
+        <note xml:id="i-FDxahYPAd5U8cLW94kS4Fp">
+          Handelsföreståndaren Johan Åberg i Riddersvik.
+        </note>
+        <note xml:id="i-Ljeb4bnQScKJRgX7nA8cAd">
+          Direktören Ernst Beckman i Djursholm.
+        </note>
+        <note xml:id="i-EhABqCDzopBFLRnhHDJb8X">
+          Godsägaren Johan Vilhelm Lundin å Karby. Kopparslagaren J. A.
+          Wallin, Liljeholmen.
+        </note>
+        <note xml:id="i-UioDdbL6GDm82rqK1SRtvR">
+          Godsägaren Hans von Horn å Fållnäs. Borgmästaren Jacob Gustaf
+          Pettersson.
+        </note>
+        <note xml:id="i-8hD8MKmKW7pNRKj3zvmwgH">
+          Folkskoleläraren Erik Richard Hagberg.
+        </note>
+        <note xml:id="i-8ZHG7NtA7rc9gBR5kpR7F5">
+          Hemmansägaren Johan Erik Cervin i Risby. Förtroendemannen Karl
+          August Olsson Borg i Harnäs.
+        </note>
+        <note xml:id="i-4dJ1wrhaZ9XzdwKy7UfCf5">
+          Godsägaren Olof Alfred Berg å Staby.
+        </note>
+        <note xml:id="i-KaESnypKiXWqscPfpxoKXX">
+          Godsägaren Lars Petter Mallmin å Krägga. Professorn Nils Edén.
+        </note>
+        <note xml:id="i-5fGHuWkrrobrnAYobvyfVD">
+          Godsägaren Johan Malcolm Juhlin å Hagbyberga.
+        </note>
+        <note xml:id="i-3FF34AtCu15bYam9c1jBZh">
+          vice Häradshöfdingen Carl Gustaf Gripen-
+        </note>
+        <note xml:id="i-DeqiH3To6ZqgNSdnvGd8gg">
+          — stedt å Nynäs.
+        </note>
+        <note xml:id="i-DkGm2x7Sgn6Pq7zEMJ6xiM">
+          Öfverstekammarjunkaren friherre Carl Carlson Bonde å Eriksberg,
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-005.jp2/_view"/>
+        <note xml:id="i-MoWbDTjCGvy9hbqX4DhsEj">
+          Fredageu den 15 Januari.
+        </note>
+        <note xml:id="i-GB4znLGgpMsvyhbDUA2gJ8">
+          Villåttinge härad ...... Västeroch &lt;OÖster- Rekarne härad ......
+          Åkers och Selebo härad
+        </note>
+        <note xml:id="i-WQRD3zkLfjyreVJPoLpq1C">
+          Nyköping, Torshälla,
+        </note>
+        <note xml:id="i-TpUWhs1VAfDt5ysXfenR6b">
+          Strängnäs, Mariefred och Trosa... .. Eskilstuna............ .....
+        </note>
+        <note xml:id="i-7BJmpFPAFAuSrUNx381vs7">
+          Östergötlands län:
+        </note>
+        <note xml:id="i-NqBxqDn39oa9KMYfutizXG">
+          Kinda och Ydre dom- BagA........... errreanen sa Björkekinds,
+          Östkinds Lösings, Bråbo och Memmings härads domsaga Lysings och
+          Göstrings domsaga
+        </note>
+        <note xml:id="i-EhgqUCM8aneWGmAGkhRBhx">
+          Åkerbo, Bankekinds och Hanekindsdom- SAGA oosesssesseresrenrena
+        </note>
+        <note xml:id="i-61aVKgY7jAsiir6gWbgMYq">
+          Vifolka, Valkebo och Gullbergs domsaga Finspånga läns härads
+          domsaga Aska, Dals och Bobergs domsaga ......
+        </note>
+        <note xml:id="i-VF6qFvdef9xDdytbiUSLpT">
+          Hammarkinds, Stegeborgs och Skärkinds domsaga L.ssnnsnvnena
+        </note>
+        <note xml:id="i-JdFVpg7dVt74F1bynxfQLb">
+          Grenna, Söderköping, Vadstena, Skeninge, Motala och Askersund
+        </note>
+        <note xml:id="i-LiPbYAZZBUpV3ubR8NVd5g">
+          Linköping ........ee.e..- |
+        </note>
+        <note xml:id="i-VnHSfNw7stoX73XQYrAFbm">
+          Norrköping D:o
+        </note>
+        <note xml:id="i-8sR2mVNCDbALQUF3yQfjPf">
+          39 40 41
+        </note>
+        <note xml:id="i-YcAD4VJYkf2j53SgYPscpb">
+          42 43
+        </note>
+        <note xml:id="i-AgHdURXceYGtV36bQjxVsR">
+          44
+        </note>
+        <note xml:id="i-NPBe8A5JoYmGH11MAvACZF">
+          45
+        </note>
+        <note xml:id="i-4KkyGdLVEerU6MQVgL1e2o">
+          46
+        </note>
+        <note xml:id="i-RMsrjHxd46vummWbSqQufg">
+          47
+        </note>
+        <note xml:id="i-CqkJ2Ln1D6K1zfhe7XmCVw">
+          48 49 50
+        </note>
+        <note xml:id="i-RqrgrDTk83wajuSasfSJSW">
+          51
+        </note>
+        <note xml:id="i-CMLMwrnP9c7hvT5kg4NeqV">
+          d2 53
+        </note>
+        <note xml:id="i-R2GE4rZ7FcnsmPtXxpLskh">
+          | 54
+        </note>
+        <note xml:id="i-6f7BV5r88LVYYmmpmgxgoS">
+          Folkskoleläraren Oscar Forssling å Dunker. Hemmansägaren Gustav
+          Gustavsson i Wij. Godsägaren Knut Fredrik Gerhard Almqvist
+        </note>
+        <note xml:id="i-E2BsJWsWczP1q5VtGTqNMA">
+          å Janslunda.
+        </note>
+        <note xml:id="i-TxoWqbPkRpe7hq9T3AzaX2">
+          Platsredaktören Carl Emil Svensson. Knifsmeden Evald Crispin
+          Kropp.
+        </note>
+        <note xml:id="i-9PEYisq1VykuXnKTka2TrS">
+          Landtbrukaren Carl Emil Johansson i Berga.
+        </note>
+        <note xml:id="i-UzcLhvc2Tn8TTKFshfLZP">
+          Arrendatorn Vilhelm Andersson i Bråborg.
+        </note>
+        <note xml:id="i-24DNVfX81VcpgrkBkbHt54">
+          Nämndemannen David Hjalmar Pettersson i Bjälbo.
+        </note>
+        <note xml:id="i-EYo8Eqn3EmpVfmJ8AN3vA3">
+          Förvaltaren, friherre Israel Kristian Gustaf Lagerfelt på Lagerlunda.
+        </note>
+        <note xml:id="i-TtzvSUbfZTBjz7VBxDVj8b">
+          Disponenten Carl Gustafsson i Mjölby. Bruksdisponenten Axel Ekman
+          på Mo gård.
+        </note>
+        <note xml:id="i-Wvh9imdw1BPW5gvrGZ5Ccp">
+          Godsägaren friherre Joseph Hermelin å Ulfåsa.
+        </note>
+        <note xml:id="i-MKhjzV1dSZtxxm6rZfYgej">
+          Hemmansägaren Anders Edvard Andersson i Höckerum.
+        </note>
+        <note xml:id="i-2epFK6YAWuUMQeDexTU6tk">
+          Regementsläkaren Conrad Vahlquist i Skeninge.
+        </note>
+        <note xml:id="i-XXLbHVSQyg8mfAza62fSFd">
+          Yrkesinspektören Bror Olof Viktor Hellström.
+        </note>
+        <note xml:id="i-4C1DfvDhNu7BA5gsiCy1F7">
+          Justitierådmannen Theodor Zetterstrand.
+        </note>
+        <note xml:id="i-QVZSj9DhiqAzQDWHMt5PZ7">
+          Disponenten Frans Johan Axel Swartling.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-006.jp2/_view"/>
+        <note xml:id="i-VSMUiVLgtNSwUiYabYmZeL" type="date">
+          Fredagen den 15 Januari. Z
+        </note>
+        <note xml:id="i-Bq11PZELvFoD9so5T3dhzJ">
+          Jönköpings län:
+        </note>
+        <note xml:id="i-FckR13JnQk2BVYZhiQUL2U">
+          Västra härads dom-
+        </note>
+        <note xml:id="i-SAP5kz67BqYbnZ69Bd19Ed">
+          Östra härads domsaga
+        </note>
+        <note xml:id="i-CQs65XYp9LwojVbzu2Lcqv">
+          Tveta härad..... ......... Vista och Mo härad Östbo härad............
+          ..
+        </note>
+        <note xml:id="i-4Zf2wvjJoaDjdg8irETCZP">
+          Västbo härad
+        </note>
+        <note xml:id="i-Xk8vD3A7baayaGVMnAcsUR">
+          Norra och Södra Vedbo domsaga
+        </note>
+        <note xml:id="i-5cq4WDia7NdqYxHr6yGNT6">
+          JÖnköping........ . ......
+        </note>
+        <u xml:id="i-BqraYC167bzn5Y5Eoe8NBC" who="unknown" prev="i-2xM4LPhcKL1rWNrrSHoPDY" next="i-83Kf6w6Q5a1zmDNfsPGkVr">
+          <seg xml:id="i-ShZ75XaXpc5Be4fr9BGA7A">
+            Kronobergs län:
+          </seg>
+        </u>
+        <note xml:id="i-MrE4JDy3AKmmVSketJJdCJ">
+          Konga härad
+        </note>
+        <note xml:id="i-4jMoz7FQ6FMuMV4rHEDyw8">
+          Uppvidinge härad ...
+        </note>
+        <note xml:id="i-76yJC8aNbcZ7oGjA25idfu">
+          Mellersta domsaga
+        </note>
+        <note xml:id="i-8VXe4LgPo6HYRSveHabkpW">
+          Värends
+        </note>
+        <note xml:id="i-TGCLQxxcVMhATcJGmMKDjn">
+          Västra Värends dom-
+        </note>
+        <note xml:id="i-5pfGNBhSbBebMSnxSEyqpq">
+          Sunnerbo domsaga ...
+        </note>
+        <note xml:id="i-4VwB471Bkd1WJnyiWfn9RG">
+          Växjö och Eksjö
+        </note>
+        <note xml:id="i-KHd4FnaHaDkPeS16d1EGoL">
+          Kalmar län: Norra Tjusts härad...
+        </note>
+        <note xml:id="i-D7NeyYawNGkXdvh1PWNqCt">
+          Södra Tjusts härad...
+        </note>
+        <note xml:id="i-Ds3ZetSaqEWwpwn5n1bizY">
+          Aspelands och Handbörds domsaga ......
+        </note>
+        <note xml:id="i-Tfkfmj2Xgosc3X8U3P4JH4">
+          Sevede och Tuna läns domsaga ..... sen. Norra Möre och Stranda
+          domsaga............
+        </note>
+        <note xml:id="i-BJbroiFgPYFMnFTTmrH5Kd">
+          56 57 58 59 60
+        </note>
+        <note xml:id="i-9ePZrFdnxp3kJZoiobP7a">
+          61
+        </note>
+        <note xml:id="i-61uZkVhqoP8ZCPryjkS5Nh">
+          62 63
+        </note>
+        <note xml:id="i-2BgYz8vRWV9G25juZcVZib">
+          64 65
+        </note>
+        <note xml:id="i-Fm2vukH8fK3EE4cbn4wN54">
+          66
+        </note>
+        <note xml:id="i-QE5it28FLXCrz6Sdemoaaw">
+          67 68 69
+        </note>
+        <note xml:id="i-A2yNCPha62CeVjXfh8SBHa">
+          70 71
+        </note>
+        <note xml:id="i-SDWpRgBApxYTuRNvnYPugc">
+          72
+        </note>
+        <note xml:id="i-6r8uoHHndVYwYGbCNNyzfs">
+          73 74
+        </note>
+        <note xml:id="i-KsU7LfB5Fcj68T7gM6iwoS">
+          Landtbrukaren Carl Felix Sjöberg i Nordanskog.
+        </note>
+        <note xml:id="i-8mTmJsWETFvYkhhmrN6vde">
+          Landtbrukaren Carl August Danielsson i Farstorp.
+        </note>
+        <note xml:id="i-9Wv3SftLXPDY9GoUZtqc1Y">
+          Riksdagsmannen Erik Räf å Altorp.
+        </note>
+        <note xml:id="i-XiYF8wkJgpBumh5WU1hNEQ">
+          Riksdagsmannen Carl Johansson i Aflösa.
+        </note>
+        <note xml:id="i-5SqDru2z1TEyzNxtGvDcPE">
+          Landtbrukaren Johannes Wilhelm Bengtsson i Häradsköp.
+        </note>
+        <note xml:id="i-TZs3oQneHidsAXZ6YUmkhz">
+          Kontraktsprosten Johannes Gustaf Hazén i Forsheda.
+        </note>
+        <note xml:id="i-HFgf73TpopsoSbATnKomsR">
+          Hemmansägaren Johan August Jonsson i Hökhult. Folkskoleinspektören
+          Carl Robert Johansson.
+        </note>
+        <note xml:id="i-5MPkho9TcQWmx28fA4Tbrx">
+          Riksdagsmannen, hemmansägaren Johan August Sjö i Linneryd.
+        </note>
+        <note xml:id="i-6pQ7ovLZhkVQrjeGGTVWKZ">
+          Landstingsmannen, landtbrukaren J. G. Svensson i Betingetorp.
+        </note>
+        <note xml:id="i-JktV6bfYC1fVQWxhK4UeTo">
+          Hemmansägaren Carl Fredrik Petersson i Dänningelanda.
+        </note>
+        <note xml:id="i-Nm8i1kdv5K5JWtLUe3brcZ">
+          Hemmansägaren Peter Magnus Olsson i Blädinge.
+        </note>
+        <note xml:id="i-6t9j2pUestj9j24ci8qkp6">
+          Hemmansägaren E. O. Magnusson i Tumhult.
+        </note>
+        <note xml:id="i-UFmJhnyc7f2mMW51E5VsTQ">
+          Sparbankskamreraren Johan Alfred Uno Fornander i Växjö.
+        </note>
+        <note xml:id="i-NGfNxdWHvsxFVCReaR4WJQ">
+          Landtbrukaren Sigurd A. Karlsson i Solberga.
+        </note>
+        <note xml:id="i-G1azoatSaRYrkR4dQJdJpb">
+          Ryttmästaren, friherre Edvard Fleetwood å Odensviholm.
+        </note>
+        <note xml:id="i-PUGEWs7gfQjvV6u2jQEGWH">
+          Landtbrukaren Sven Erik Andersson i Hägelåkra.
+        </note>
+        <note xml:id="i-JXCkDqtaNg5d6xHqq4KyuW">
+          Kontraktsprosten Charodotes Meurling. Per Olof Lundell å Ebbetorp.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-007.jp2/_view"/>
+        <note xml:id="i-9ywvL7pyButTNFLQ6eKNEb">
+          N:o 1
+        </note>
+        <note xml:id="i-6yyLVuh9xGoHHhRx5LeGqe" type="date">
+          Fredagen den 15 Januari.
+        </note>
+        <note xml:id="i-PdHoDGFUqrAT2cCXQQ6GgH">
+          Södra Möre domsagas västra valkrets ......
+        </note>
+        <note xml:id="i-37PcLx2GFafSVAW3pwSNF9">
+          Södra Möre domsagas östra valkrets.........
+        </note>
+        <note xml:id="i-RyKYTUdz6anuGnr3mWRLyd">
+          Oskarshamn, Vimmerby och Borgholm...
+        </note>
+        <note xml:id="i-43uDSY6w1oUx8TSm6A5ueN">
+          Gottlands län. Gottlands södra dom-
+        </note>
+        <u xml:id="i-83Kf6w6Q5a1zmDNfsPGkVr" who="unknown" prev="i-BqraYC167bzn5Y5Eoe8NBC" next="i-LqfPP3PGhyBAk4Trrw37LQ">
+          <seg xml:id="i-BrvgQ3JuHoAVbSW2Dsbhv9">
+            saga
+          </seg>
+        </u>
+        <note xml:id="i-B8jVRt7qR8KgYvAVjJP7gK">
+          Blekinge län. Listers härads dom- SAZA oossesosssr sreernennea
+        </note>
+        <note xml:id="i-DDtPnfKyiRrUkjw6R5MNFn">
+          Östra härads domsaga Medelstads härads domsaga =... munnnnn.
+          Karlskrona Ronneby, Karlshamn och Sölvesborg ......
+        </note>
+        <note xml:id="i-SnqEq8PQsNcouGVh3PoQUd">
+          Kristianstads län. Villands härads......... Östra Göinge härad
+          . Ingelstads och Järre-
+        </note>
+        <note xml:id="i-68jjhU7DqtMmhq3t5FmPVM">
+          stads domsaga ... .. Gärds och Albo dom-
+        </note>
+        <note xml:id="i-FYA3cf1noQEHmxGAH6cTyx">
+          Norra Åsbo domsaga
+        </note>
+        <note xml:id="i-VdkJYKoezLGkt3z22c9psv">
+          75 76 71
+        </note>
+        <note xml:id="i-Ey2FCnLA2qqrxVPpsS8ncN">
+          78 79
+        </note>
+        <note xml:id="i-BfYqHNtSkFSAmBRLxvpvPn">
+          80
+        </note>
+        <note xml:id="i-G1eWVEZaDTpKoZzpQp6xXR">
+          31
+        </note>
+        <note xml:id="i-XuTjpSE9p9CVFrnpiwJstK">
+          82 83
+        </note>
+        <note xml:id="i-4z1jYhCanRHJkMQVPVxFRd">
+          84 85 86 87 388 389
+        </note>
+        <note xml:id="i-Nip5m9vYjAxu6E1kUmC7pM">
+          90 91
+        </note>
+        <note xml:id="i-EHcxgfikHbvCxQm9MZcTdt">
+          92 93
+        </note>
+        <note xml:id="i-2SKS4RYvor3AmoMQKYyGC8">
+          94 95
+        </note>
+        <note xml:id="i-NxT6VqhQMcAydyCfb9wr2L">
+          Hemmansägaren Vilhelm Andersson i Re sebo N:o 1.
+        </note>
+        <note xml:id="i-GCo9KAjYLCLi3b5NeYVk1B">
+          Godsägaren Klas Malmborg i Kranklösa.
+        </note>
+        <note xml:id="i-KdsqxMAhx59p5DBi486bzU">
+          Riksdagsmannen, landtbrukaren Anders Adolf Johansson i Möllstorp.
+        </note>
+        <note xml:id="i-2L5K1ZHkEKFzpC7GwRW6Xi">
+          Vice konsuln John Jeansson.
+        </note>
+        <note xml:id="i-PbMbm4BfTpSSQ2U7w7ngfr">
+          Borgmästaren Axel Olof Rune.
+        </note>
+        <note xml:id="i-4ceKPJFUgJnhg26WW4RXuq">
+          Borgmästaren Nils Peter Bertrand Lindgren.
+        </note>
+        <note xml:id="i-Bs5EcoMWm1X9qfHKcqiHtn">
+          Kronolänsmannen Matias Emanuel Svallingson i Klinte.
+        </note>
+        <note xml:id="i-1xDjKKCBeTdbmhrQ2StYL">
+          Hemmansägaren Carl Johan Laurentius Larsson i Bondarfve. Biskopen
+          Knut Henning Gezelius von Schéele.
+        </note>
+        <note xml:id="i-HyCCsJw4Bo5epSG96CStpk">
+          Landtbrukaren John Jönsson i Boa.
+        </note>
+        <note xml:id="i-8WxjNjazoZygagtWQTHtRw">
+          Ingenjören Bernt Otto Ivar Santesson i Janneberg. Landtbrukaren
+          August Larsson i Säby.
+        </note>
+        <note xml:id="i-EvGpyWzyrZW2jscDCoiqEC">
+          Landtbrukaren Axel Edvard Lindvall i Hafgården. Fängelsedirektören
+          Ulrik Leander.
+        </note>
+        <note xml:id="i-HBsv9FSSjpDtcmQmpY41kR">
+          Borgmästaren Svante Frithiof Edvard Söderbergh.
+        </note>
+        <note xml:id="i-QvMDcc852hqcmdjM5kZLZb">
+          Landtbrukaren Nils Larsson i Klagstorp. Landtbrukaren John Erlansson
+          i Främlinge.
+        </note>
+        <note xml:id="i-RR7GQzd9sRdjJtGkwxkGgt">
+          Riksdagsmannen Esbjörn Persson i Borrby.
+        </note>
+        <note xml:id="i-35Yhpnu56AwRjKhPu4iCxE">
+          Godsägaren grefve R. G. Hamilton å Owesholm.
+        </note>
+        <note xml:id="i-CXXpCs5S2AmBNnJm2FF9wY">
+          Landtbrukaren Per Nilsson Bosson i Vanneberga. Riksdagsmannen
+          Per Nilsson i Bonarp.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-008.jp2/_view"/>
+        <note xml:id="i-NMzTNfXpg6EWhjzdoQGnRc" type="date">
+          Fredagen den 15 Januari. 9
+        </note>
+        <note xml:id="i-6wNh8A4B7nsnE37VWpfZFL">
+          Södra Åsbo och Bjäre
+        </note>
+        <note xml:id="i-N62HyxZJMYxr2H2fNWR6x3">
+          domsaga 96
+        </note>
+        <note xml:id="i-WtHkoJ9Q5rLBT2pAsm827P">
+          Kristianstad... oc... 97
+        </note>
+        <note xml:id="i-SMQA8y5CnhxnVBUHEKsanp">
+          Malmöhus län.
+        </note>
+        <note xml:id="i-3Sk2748Zzu2PkC3nXg9j8E">
+          Oxie härad Skytts härad &gt; ....co.. 99 Färs härads domsaga | 100
+        </note>
+        <note xml:id="i-jEQMkvtBHpmuw1ZfYopuM">
+          Frosta härads dom- SALA usssssrerersesseresn nen 101 Luggude
+          domsagas norra valkrets ...... 102
+        </note>
+        <u xml:id="i-LqfPP3PGhyBAk4Trrw37LQ" who="unknown" prev="i-83Kf6w6Q5a1zmDNfsPGkVr" next="i-Lh65nwLo59furJFdoZoxxc">
+          <seg xml:id="i-7LSkvWAQ2EbVYp6nzgsiUF">
+            Luggude domsagas sö- | dra valkrets
+          </seg>
+        </u>
+        <note xml:id="i-9TxkE1jtddvaKRDDiCmcJf">
+          Rönnebergs och Har- | jagers härad |
+        </note>
+        <note xml:id="i-64ktUpSw5xmzaPZ8KupaF4">
+          Onsjö härad.............. 105
+        </note>
+        <note xml:id="i-E1uWFywtCdNjsWFMu2UYp7">
+          Torna härad...............
+        </note>
+        <note xml:id="i-51rjhmhtYVFmEiGxXuCEEw">
+          Bara härad ....o.oocococc. 107 Vemmenhögs, Ljunits och Herrestads
+          dom- BOZA. oomåst ot or 108 Malmös ssssnssnrerrerer orena | 109
+          DÖ sossar 110 D:O dos oossssssssseerererea I 1 11 D:O sossesses
+          ee sereer sena 112 Und smsa | 1138 Landskrona ...............
+          114 Hälsingborg ............... 115 YSlåd smoesmmmsmmommaens 116
+          Trelleborg, — Skanör | med Falsterbo, Sim- | rishamn och Än- |
+          gelholm ........s..s.s0 117
+        </note>
+        <note xml:id="i-C2U3TjAxp6koxLzfiUcMie">
+          Hallands län.
+        </note>
+        <note xml:id="i-34W5QUzt5zDSbeSiz2PhrC">
+          Höks härad ............ .. | 118 Halmstads och Tön- |
+        </note>
+        <note xml:id="i-65nKx26PejBPArimdmiDVu">
+          nersjö härad ........ 119 Årstads och Faurås | härad sssssnnnnnnnnnna
+          1120
+        </note>
+        <note xml:id="i-W23EnUvfSqryM5KHAohpzA">
+          98
+        </note>
+        <note xml:id="i-54BthbjmEZJysVF4yTRh8G">
+          T Landtbrukaren Nils Åkesson i Rebbelberga
+        </note>
+        <note xml:id="i-ME8hUVVQmwU4nikDFcxeQR">
+          kungsgård. Assessorn Bror Petrén.
+        </note>
+        <note xml:id="i-Gpaf1WdLFCgzijjo9yBa4t">
+          Målaren Nils Edvard Lindberg i Sofielund. Landtbrukaren Jöns
+          Pålsson i Anderslöf. Landtbrukaren Nils Nilsson i Skärhus.
+        </note>
+        <note xml:id="i-CiTrfy4RpAGd6DCBMSbJcp">
+          Landtbrukaren Nils Jönsson i Qvarnberga.
+        </note>
+        <note xml:id="i-CzCao7qR58KSAyVRcSjGfS">
+          1104 |
+        </note>
+        <note xml:id="i-Dg3VDu7HvDz4TLyMBrVhoM">
+          Vakant.
+        </note>
+        <note xml:id="i-Jc6DFyW94weMhQPFDqrg6M">
+          ornnaaa 1103 Folkskoleläraren Lars Gustaf Broomée, i
+        </note>
+        <note xml:id="i-2bo6cK4wdLJqQNNNUr4TrA">
+          | Bårslöf.
+        </note>
+        <note xml:id="i-AQnoqQDrM4xFXvTNjFus71">
+          Landtbrukaren Jöns Jönsson i Slätåker.
+        </note>
+        <note xml:id="i-CPhK2LAGP9dttmovKUrXjp">
+          Landtbrukaren Jöns Petter Jespersson å Dorisborg.
+        </note>
+        <note xml:id="i-Y5632Mp4Hw35yKvQor6Dcs">
+          Landtbrukaren Johan Jönsson i Refvinge.
+        </note>
+        <note xml:id="i-EerQ4BqLs5tREVs4hiuNu9">
+          Landtbrukaren Sven Linders i Nefvitshög.
+        </note>
+        <note xml:id="i-AvfaSLYNHimPkHvcTdoqE3">
+          Riksdagsmannen Hans Andersson i Västra Nöbbelöf.
+        </note>
+        <note xml:id="i-UgEES81LW5SV5AGHGkH22v">
+          Folkskoleläraren Värner Rydén.
+        </note>
+        <note xml:id="i-SZQdX9zrndTZHaS8mpddEt">
+          Redaktören Nils August Nilsson.
+        </note>
+        <note xml:id="i-LgwNJbUPHhmZ1cNNZAbruK">
+          Muraren Nils Persson.
+        </note>
+        <note xml:id="i-P8qLqHw9JkULdD1eRbZgHa">
+          Folkskoleläraren Anders Thylander.
+        </note>
+        <note xml:id="i-6jKGHKMHm6nNFrQNH9xdCx">
+          Professorn Johan Carl Wilhelm Thyrén.
+        </note>
+        <note xml:id="i-3SFoUXfW427n7CCPBy8oTq">
+          Folkskoleläraren Ola Hansson Waldén.
+        </note>
+        <note xml:id="i-Pr5e1hd8uNGq1AzJ9y5pgW">
+          Journalisten Adolf Christian Johan Christiernson.
+        </note>
+        <note xml:id="i-9YxxQCbTpuqjfWmvd8JXNR">
+          Parkföreståndaren Fredrik Vilhelm Thorsson.
+        </note>
+        <u xml:id="i-Lh65nwLo59furJFdoZoxxc" who="unknown" prev="i-LqfPP3PGhyBAk4Trrw37LQ" next="i-QKbhfKkZH2pcUAF4zxsjBJ">
+          <seg xml:id="i-4nr98ozDvFu3R69hDYDA1o">
+            Postiljonen Janne Tynell.
+          </seg>
+        </u>
+        <note xml:id="i-ECDm3Y1hWMpkLSzEC1fF2e">
+          Landtbrukaren August Ifvarson i Renneslöf.
+        </note>
+        <note xml:id="i-M8XDoR9EX2YvSisEZMQQFo">
+          Landtbrukaren Johannes Bengtsson i Bjernalt. Landtbrukaren Anders
+          Henriksson i Heborg.
+        </note>
+        <note xml:id="i-CnWiCF376VnFcafGUk4yS7">
+          N:o 1.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-009.jp2/_view"/>
+        <note xml:id="i-3wpbjvZ5ku1ymJF64STJTT">
+          N:o I,
+        </note>
+        <u xml:id="i-QKbhfKkZH2pcUAF4zxsjBJ" who="unknown" prev="i-Lh65nwLo59furJFdoZoxxc" next="i-7y68AtZ7m4grTAaJSyXUc8">
+          <seg xml:id="i-29ArdbYDE8xMxcquZQC2fT">
+            10
+          </seg>
+        </u>
+        <note xml:id="i-TN2UStmrj1Rt8SZVXrpBKC" type="date">
+          Fredagen den 15 Januari.
+        </note>
+        <note xml:id="i-YChcsHHRXhiA2DrJ5ZqQPr">
+          Himle härad Hallands läns norra domsaga
+        </note>
+        <note xml:id="i-TuT7Deudsn1RMf3Uxcm1SQ">
+          Halmstad Laholm, Falkenberg, Varberg och Kungsbacka susnnssnnssrsrsnsn
+          na
+        </note>
+        <note xml:id="i-Rj4ZhKCp1zjEptfZrTcLQp">
+          Göteborgs och Bohuslän.
+        </note>
+        <note xml:id="i-A7wzf11TtuZrqfeY2X18j1">
+          Askims, Västra och
+        </note>
+        <note xml:id="i-V9nnnnh9jmk99ckSx4Hu8x">
+          Östra Hisings härad Säfvedals härad......... Inlands domsaga
+          .....
+        </note>
+        <note xml:id="i-CXHkWjdhv7X9JQMc6EgLoE">
+          Orusts och Tjörns dOMSaga.........s..s.sno. Norrvikens domsaga
+        </note>
+        <note xml:id="i-Ua1qMgCfEEbyoeKxB7EMKh">
+          Lans och Stångenäs härad sossssmnsnnssnssna Tunge, Sörbygdens
+          och Sotenäs härad
+        </note>
+        <note xml:id="i-Vhvw1MGgau5WK25SGAGqCr">
+          Göteborg D:o
+        </note>
+        <note xml:id="i-PihdwACWyn3Mfd16dzBbML">
+          D:0 oo sennssssnssna Uddevalla .....snnnnnnsnnna Strömstad, Lysekil,
+          Marstrand, Kungelf och Åmål...............
+        </note>
+        <note xml:id="i-UwB3zLtQQrt3STkX3fc3WB">
+          Älfsborgs län.
+        </note>
+        <note xml:id="i-BkSu6tDi3uMpJpkRoWjDGF">
+          Marks härad Vedens och Bollebygds härad ssnssssssnnnnssnsa Flundre,
+          Väne och Bjärke domsaga ...
+        </note>
+        <note xml:id="i-9wng4hdRCsuzgsLDcf6Rxt">
+          121 122 123
+        </note>
+        <note xml:id="i-UyUh7ip98bCkDom1GhfToU">
+          124
+        </note>
+        <note xml:id="i-XEaRHpqMs1Uh5Kwrqpuv9Z">
+          125 127 128 129 130
+        </note>
+        <note xml:id="i-B7mmXT1FTsMKoWiLYbSU83">
+          131 |
+        </note>
+        <note xml:id="i-87Xv3s3FfPydStY6zYZdV8">
+          132 183 134 135 136
+        </note>
+        <note xml:id="i-N132aJhpKQvjC8PScQKwut">
+          137 138 139
+        </note>
+        <note xml:id="i-EmBZStoEPA3PBgPhzmfH67">
+          140 141
+        </note>
+        <note xml:id="i-RDHnWye5SoqFZ9hD8jhFCa">
+          142 143
+        </note>
+        <note xml:id="i-PHWbszkBrXS3cUHYvi331S">
+          144 145
+        </note>
+        <note xml:id="i-NvYSKExeX15b9VPwxYbx25">
+          Landtbrukaren Anders Olsson i Tyllered.
+        </note>
+        <note xml:id="i-TEQjqxivdtABoXKwvaFh8Z">
+          Landtbrukaren Aron Christoffer Gunnarsson i Asetorp. Lektorn
+          Fr. E. Ahlfvengren.
+        </note>
+        <note xml:id="i-AfKBg1uSx59oxVERxueJdn">
+          Organisten J. Alfred Lundgren i Varberg.
+        </note>
+        <note xml:id="i-UkSemWFe7NvUsAJKohcEed">
+          Landtbrukaren Herman Andersson i Grimbo.
+        </note>
+        <note xml:id="i-RDJ3Wq7YfbgWBptpTpSGoj">
+          Ingenjören John James Gibson å Jonsered.
+        </note>
+        <note xml:id="i-Yb55mxpacePDEfz3V45rTK">
+          Cornelius Olsson i Berg.
+        </note>
+        <note xml:id="i-KAAACKk7sKHeXVzngGen9p">
+          Landstingsmannen Carl L. Olausson i Lilldal.
+        </note>
+        <note xml:id="i-2Pz5NNx2GKodMNj7YcGzJR">
+          Kaptenen J. G:son Crafoord å Hällekind.
+        </note>
+        <note xml:id="i-B6Cb6wXTWqjHM5JCwraedp">
+          Landtbrukaren Oscar Nathanael Olsson i Heden.
+        </note>
+        <note xml:id="i-4nYUHn6hoLxwyuxkq14zNE">
+          Exportören Carl Herman Wallentin å Smögen.
+        </note>
+        <note xml:id="i-NSwzt1nW6MHAUAjJqFpGQH">
+          Handlanden Hjalmar Wijk.
+        </note>
+        <note xml:id="i-MNkZJqBNNkxzxcedbmfeQh">
+          Konsuln Johan E. Ekman.
+        </note>
+        <note xml:id="i-4mk4fqdyQ4DycGcnveetqD">
+          Skeppsredaren Daniel Broström.
+        </note>
+        <note xml:id="i-CCwkVUtLwMwtV6ZbfmFvEy">
+          Handlanden Karl Gustaf Karlsson.
+        </note>
+        <note xml:id="i-LTHWrdFMyb8YvfbCqsUfbv">
+          t. f. Yrkesinspektören Karl Johan Magnus Larsson.
+        </note>
+        <note xml:id="i-3C32DW7Nqm7gwCXDZPq1Sm">
+          Kamreraren Oscar Berg.
+        </note>
+        <note xml:id="i-6oCQbngcJjNQxp5pXgTeHx">
+          Handlanden Erik Peter Valdemar Röing.
+        </note>
+        <note xml:id="i-JRBwQVcnf56nFxLayS6WAv">
+          Folkskoleläraren Emil Kristensson.
+        </note>
+        <note xml:id="i-DjLsAqMx6xmL3xfRELuT5P">
+          Redaktören Anders Christenson Lindblad.
+        </note>
+        <note xml:id="i-JdX2U1EnLcFUFpkAM6NWLH">
+          Borgmästaren Gustaf Sixten Neiglick.
+        </note>
+        <note xml:id="i-2z91xU8JGbuvuvAjbnNHr3">
+          Häradshöfdingen Assar Emanuel Åkerman.
+        </note>
+        <note xml:id="i-6cRkTt9bxrYD5nKYMVfXSd">
+          Disponenten Hjalmar Hallin å Svaneholm. Godsägaren Gustaf Odqvist
+          å Påtorp.
+        </note>
+        <note xml:id="i-HUsFnZVnS9P6Zds5N13wqF">
+          Järnarbetaren Gustaf Alfred Strömberg i Trollhättan.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-010.jp2/_view"/>
+        <note xml:id="i-J488GmtQmCLZVcUTH66dTT" type="date">
+          Fredagen den 15 Januari.
+        </note>
+        <note xml:id="i-DJNPNw9ShychoQPupna3Ys">
+          11 N:o 1.
+        </note>
+        <note xml:id="i-4CovLrxPEUZ6G5Hgr8BLDp">
+          Kinds och Redvägs domsaga
+        </note>
+        <note xml:id="i-5TTfEjH82hRv5QhARpaU7r">
+          Vätle, Ale och Kul-
+        </note>
+        <note xml:id="i-McoZtmT86KiefPbvgnr5iR">
+          lings domsaga
+        </note>
+        <note xml:id="i-HLqtCLZx6kDDJWNuqLcF5d">
+          Åse och Gäsene dom-
+        </note>
+        <note xml:id="i-WNTQ5Fd8aAwsY3Wz7U8cbT">
+          Nordals, Sundals och Valbo domsaga......
+        </note>
+        <note xml:id="i-9ZoAaoCo5yrvAy5iF6rR6r">
+          Tössbo och Vedbo domsaga .............. BOråÅS oossosssrsseseseeresrors
+        </note>
+        <note xml:id="i-NaHf7UTHnNQWWsHxCSJkcW">
+          Vänersborg, Alingsås och Ulricehamn......
+        </note>
+        <note xml:id="i-R7M5mE1Q9eAHZNeUmM3gnz">
+          Skaraborgs län.
+        </note>
+        <note xml:id="i-WnB8JwAaB5zT3woCySCuPK">
+          Åse, Viste, Barne och Laske domsaga......
+        </note>
+        <note xml:id="i-Y6GfWxLjoVkFYaXT6pTriB">
+          Kinnefjärdings, Kinne och Kållands dom-
+        </note>
+        <note xml:id="i-XFsdFpuRxSLE1z7fC6ua2p">
+          Skånings, Vilske och Valle domsaga ...... Gudhems och Kåkinds
+          domsaga ...... Vartofta och Frökinds domsaga .. ....n.nvnv Norra
+          Vadsbo dom-
+        </note>
+        <note xml:id="i-Mbi8u2mXqABsr7QzGi9vXH">
+          Södra Vadsbo dom- BÅDA ses Mariestad, Sköfde och Falköping...............
+          Lidköping, Skara och Hjo
+        </note>
+        <note xml:id="i-7qygJTyiszYG94yQ4JqTY2">
+          Värmlands län. Östersysslets domsaga
+        </note>
+        <note xml:id="i-9LWdGPPwuZHBRSYeQdbHkv">
+          146 147
+        </note>
+        <note xml:id="i-FLEEHRFvNAAWx881vzqSC4">
+          148
+        </note>
+        <note xml:id="i-7kzp2tp6nfw4X1EigmtmAv">
+          149 150 151 152
+        </note>
+        <note xml:id="i-Q4ruxJN2wowvxJCFK3ffwn">
+          153
+        </note>
+        <note xml:id="i-JHAN17xueyJ2MpsMiFL55N">
+          154
+        </note>
+        <note xml:id="i-5SCH8hZuapnKxLdbgHdE3t">
+          155
+        </note>
+        <note xml:id="i-S3kMbjytGsMdo8GCZdtxb5">
+          156
+        </note>
+        <note xml:id="i-DBfmh4EEDbtiZ33FYaaqR5">
+          157 158
+        </note>
+        <note xml:id="i-VCkq7rDjTXDZaiWs2tWbD">
+          159 160 161
+        </note>
+        <note xml:id="i-TwwQeEDs3E6pxNWnUtFPsP">
+          162
+        </note>
+        <note xml:id="i-4hrWPf3SW1kB2sZphRxbuP">
+          Ingenjören Sixten Oscar Nylander i Axelfors.
+        </note>
+        <note xml:id="i-5e7Mkc4EtBuZYca4f86L5V">
+          Kommunalnämndsordföranden Herman
+        </note>
+        <note xml:id="i-4SHsB57ZGZiFgByywcgfMU">
+          Carlsson i Herrljunga.
+        </note>
+        <note xml:id="i-NHjTzZCaprdijyhWKraJQT">
+          Nämndemannen Otto Herman Svensson i Saläng.
+        </note>
+        <note xml:id="i-8QFF5i2nG3KJtTo8BApcAb">
+          Landtbrukaren Bengt Dahlgren i Assarebyn.
+        </note>
+        <note xml:id="i-LFQQpwo8b2gCDjsJRx9Viu">
+          Hemmansägaren Jan Magnus Johansson i Mellbyn.
+        </note>
+        <note xml:id="i-DCGGDW51VS9eqLW75ifaU5">
+          Fabriksidkaren Axel Fredrik Vennersten.
+        </note>
+        <note xml:id="i-NVv2KK1S3aWHuwcZvzKXUf">
+          Apotekaren Gottfrid Thavenius.
+        </note>
+        <note xml:id="i-8P4FdYdJRfCUJnZGv2F5Js">
+          Hemmansägaren Anders Magnusson i Salstad.
+        </note>
+        <note xml:id="i-UzjhLTKxzrkRYyBxHTvGpM">
+          Landtbrukaren Anders Gustaf Månsson i Fusagården.
+        </note>
+        <note xml:id="i-2fV8A7bGYN3rp8tb8xmgNT">
+          Riksdagsmannen Sven Johan Larsson i Gallstad.
+        </note>
+        <note xml:id="i-L4aLpxFLq7AbHUb5eTYfD5">
+          Hemmansägaren Lars Johan Jansson i
+        </note>
+        <note xml:id="i-7fsYg4nWn9zztktBaZWWTG">
+          Djursätra. Landtbrukaren Carl Persson i Stallarhult.
+        </note>
+        <note xml:id="i-BM1UpAWu11uAJgiAWTPhC3">
+          Riksdagsmannen Sten August Karl Nordström i Höglunda.
+        </note>
+        <note xml:id="i-R3DEq7f3q2isPzjyGKTGL5">
+          Riksdagsmannen Atgust Johansson. Redaktören Oscar Bogren.
+        </note>
+        <note xml:id="i-4WtmqcDpN9grHrCmQ1REFM">
+          Häradshöfdingen Georg Adolf Edvin Kronlund i Skara.
+        </note>
+        <note xml:id="i-2rLe1YthStkCwrzxUsfjAQ">
+          Banmästaren Carl Petter Jansson i HEdsbäcken.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-011.jp2/_view"/>
+        <note xml:id="i-DTHahrv9WFe5mLKkQzkj1W">
+          12
+        </note>
+        <note xml:id="i-LLhDRvortY7QZ5nyNEKmjr" type="date">
+          Fredagen den 15 Januari.
+        </note>
+        <note xml:id="i-2pQVTa9xEGse3oHb6FdFk6">
+          Mellansysslets dom- BÅDA orngesennn nan Södersysslets domsaga
+        </note>
+        <note xml:id="i-2NRPg5kkZXxaxyhC7HSCUG">
+          Nordmarks domsaga Fryksdals domsaga ... Jösse domsaga .........
+          Alfdals och Nyeds
+        </note>
+        <note xml:id="i-DafeSvAnZBuKqSywpUVFg">
+          domsaga
+        </note>
+        <note xml:id="i-V2YZTscKwWzoqLsh3mMnUn">
+          Karlstad .................. .. Kristinehamn och Filipstad
+        </note>
+        <note xml:id="i-MdmKLQpoRezQL6rcNb75ed">
+          Örebro län.
+        </note>
+        <note xml:id="i-4sAB94LmyFGwsifDqpMHUJ">
+          Glanshammars Örebro härad.........
+        </note>
+        <note xml:id="i-LvqRk6xBb3ksMC5Anx9cXQ">
+          Askers och Sköllersta härad sasson sus
+        </note>
+        <note xml:id="i-5wcPsS6NEGfBLrHh4gb55R">
+          Kumla och Sundbo härad sossssssssssssnnnna Grimstens, Hardemo
+          och Edsbergs härad
+        </note>
+        <note xml:id="i-RE8rFpyjtvcZcyio5qS8aq">
+          Lindes domsaga Nora domsaga............
+        </note>
+        <note xml:id="i-dPzeKj8SoSjctGBrxbCEE">
+          Örebro stad
+        </note>
+        <note xml:id="i-28BVZkeCjrfBKp9fbiEExg">
+          Västmanlands län.
+        </note>
+        <note xml:id="i-SD2RwVePfL8fBnHAjjhCMk">
+          Västmanlands södra domsaga Västmanlands västra
+        </note>
+        <u xml:id="i-7y68AtZ7m4grTAaJSyXUc8" who="unknown" prev="i-QKbhfKkZH2pcUAF4zxsjBJ" next="i-JpWePntVMV7fRqc2Wh1Ggg">
+          <seg xml:id="i-DucWWmFfbakpNkEeTMPdWx">
+            dOMmSaga........sssnnonoa
+          </seg>
+        </u>
+        <note xml:id="i-3gMeTw6ZEiUNjcCT5EcvHY">
+          D:o norra domsaga
+        </note>
+        <note xml:id="i-4XsAeDWCftBHEt3MdGJo2f">
+          D:o östra domsaga Västerås stad Köping, Nora, Lindes-
+        </note>
+        <u xml:id="i-JpWePntVMV7fRqc2Wh1Ggg" who="unknown" prev="i-7y68AtZ7m4grTAaJSyXUc8" next="i-CDKc7PZyQoQqdmyjLJgwfW">
+          <seg xml:id="i-PNRDyZKWwSxzPYRPP18QCM">
+            berg och Enköping
+          </seg>
+        </u>
+        <note xml:id="i-D7tzNQrKnQD7wJBhYo4m2y">
+          Sala och Arboga
+        </note>
+        <note xml:id="i-WZagGQS79aQoadLqa9pKb3">
+          163 164
+        </note>
+        <note xml:id="i-4JsP5NmXNRby2nVGaBLqp1">
+          165 166 167 168 169
+        </note>
+        <u xml:id="i-CDKc7PZyQoQqdmyjLJgwfW" who="unknown" prev="i-JpWePntVMV7fRqc2Wh1Ggg" next="i-PW82o3Ru9hhfRBXb63z39U">
+          <seg xml:id="i-Dms1ThULxm7LWXEdnkVxTp">
+            170
+          </seg>
+        </u>
+        <note xml:id="i-W87oDWoPoUijzFGUTHfpvD">
+          171
+        </note>
+        <note xml:id="i-8GdfiYajrDwmD3Ec8v912B">
+          172
+        </note>
+        <note xml:id="i-SqoSCGejD83yzdaqHZ6cah">
+          173 174
+        </note>
+        <note xml:id="i-Qqj7jDUuziYofiGw944uvG">
+          175 176
+        </note>
+        <note xml:id="i-HJNPF8MB23bvdF7rN6wuk">
+          177
+        </note>
+        <note xml:id="i-5GtFFvMBEWqWpChYQ4UfTP">
+          178
+        </note>
+        <note xml:id="i-VxktuZz2d2PoJzsh8hMpCP">
+          179 180
+        </note>
+        <note xml:id="i-WzhQkDRWEV25wsvyqcmgRM">
+          181 182
+        </note>
+        <note xml:id="i-NVKh4QdxUwT1y5d4vgGvAc">
+          183 184
+        </note>
+        <note xml:id="i-YDbM3kBtaXvmfwQqT9gdU8">
+          Gjutmästaren N. A:son Berg i Munkfors.
+        </note>
+        <note xml:id="i-K7tCBA5n6rj41eN7Mr74DJ">
+          Hemmansägaren och predikanten J. P. Igel i Getebol.
+        </note>
+        <note xml:id="i-ScQxKcD5MKRKqDL4HWhuXc">
+          Bruksägaren Fredrik Canell i Koppom.
+        </note>
+        <note xml:id="i-Wii4yysgSzC82wCmUj7i1Q">
+          Riksdagsmannen C. J. Berggren i Östmark.
+        </note>
+        <note xml:id="i-5Kg1aP8w6ezrzfTFYsVsoi">
+          Fabriksdisponenten Per Andersson i Arvika.
+        </note>
+        <note xml:id="i-M9t62Ur1UQZASAdWsKdNK2">
+          Hemmansägaren Gustaf Jansson i Krakerud. Landssekreteraren Per
+          Axel Victor Schotte.
+        </note>
+        <note xml:id="i-Up9bwpevp3YG8YKXomcLwm">
+          Redaktören Carl Otto.
+        </note>
+        <note xml:id="i-LpfHWhQxW3X2Q5YQqaz9Gi">
+          Hemmansägaren Anders Petter Gustafsson i Sjögesta.
+        </note>
+        <note xml:id="i-HdUT1ftiTcMjiFKVkxPsDp">
+          Riksdagsmannen Folke Andersson i Helgesta.
+        </note>
+        <note xml:id="i-ASWKuSCN9nDNGsmgT1aQxX">
+          Bruksägaren Ivan Svensson å Skyllberg.
+        </note>
+        <note xml:id="i-CYbhu78fKYJhxRw9gH5qtE">
+          Landtbrukaren Olof Gustaf Erikson i Öfre Odensvi.
+        </note>
+        <note xml:id="i-XRLLxNWcc6wAYrq8P6GxU6">
+          Hemmansägaren Lars Eriksson i Bäck.
+        </note>
+        <note xml:id="i-Jy2hXHDtVfUsJtYhvU7zRH">
+          Bergsmannen Johan Gustaf Forsberg i Stolpetorp.
+        </note>
+        <note xml:id="i-EKr4d4srceZmdk4bcSrn5o">
+          Grosshandlaren Erik Agabus Nilson.
+        </note>
+        <note xml:id="i-AYsd2gFbfpDEudd1WtqXPF">
+          Folkskoleläraren Johan Forssell i Kolbäck.
+        </note>
+        <note xml:id="i-TzXfxKsbsK3PdSpwTdQkPV">
+          Hemmansägaren Adolf Fredrik Jansson i Bråten.
+        </note>
+        <note xml:id="i-DJBq3VWtHwm8k5n6uT2D5p">
+          Järnarbetaren Gustaf Adolf Rundgren vid Fagersta.
+        </note>
+        <note xml:id="i-FzymNoj7PpHtMV26Wb1mC7">
+          Hemmansägaren Johan Andersson i Stärte.
+        </note>
+        <note xml:id="i-M4akkTT62bMnVF6edaNU3B">
+          Järnarbetaren Viktor Larsson.
+        </note>
+        <note xml:id="i-J8RVfFexUVCUG9eACzPa8Y">
+          Tidningsredaktören Alfred Stärner i Köping. Disponenten Ernst
+          Ludvig Camitz i Sala.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-012.jp2/_view"/>
+        <note xml:id="i-EziujopawPd8mmwwiUvMnp" type="date">
+          Fredagen den 15 Januari.
+        </note>
+        <note xml:id="i-TSVSLGLTwB1XbXNb63LRjT">
+          Kopparbergs län.
+        </note>
+        <note xml:id="i-US4iwquCU1DoRqk5e4Exwu">
+          Falu domsagas norra
+        </note>
+        <note xml:id="i-9bn6CGknoFhWgPSv3ctREy">
+          tingslag se... Falu domsagas södra
+        </note>
+        <note xml:id="i-4esLDLGqx63wRdJBy1ADPC">
+          tingslag .......... ..... Gagnefs och Rättviks
+        </note>
+        <note xml:id="i-3BMiCatx1yfwWdm4uUNzjP">
+          tingslag ............... .. Leksands tingslag... .. Hedemora
+          domsaga... Ofvan-Siljans domsaga Västerbergslags dom-
+        </note>
+        <note xml:id="i-TpWiKJJyrM68aj1f9QEmYj">
+          Nås och Malungs domsaga Falun, Hedemora och och Säter
+        </note>
+        <note xml:id="i-FaXaibZMvNNLtChHKcqM38">
+          Gäfleborgs län.
+        </note>
+        <note xml:id="i-N5EkbKBHBkhgb3yiDXfd2q">
+          Gästriklands östra tingslag ..... .. sm... Gästriklands = västra
+          tingslag .........s....... Norra — Hälsinglands domsaga ss...
+          Västra Hälsinglands domsaga ........... .. Sydöstra Hälsinglands
+          domsaga .....n.........
+        </note>
+        <note xml:id="i-VaFTh8KW1rRJsSooVaK96G">
+          Bollnäs domsaga Gäfle stad ........... ...... D:o
+        </note>
+        <note xml:id="i-PCV89Hv4B2gudYVRE9mpFZ">
+          Västernorrlands län. Njurunda, Indals och Ljustorps tingslag
+          Sköns tingslag
+        </note>
+        <note xml:id="i-SzZcdpYUpPeNJP2sukwVN1">
+          Medelpads västra dom-
+        </note>
+        <note xml:id="i-XqjwaFaeS626yXWFBww6Ld">
+          186
+        </note>
+        <note xml:id="i-9ZEs9QiHFgQKoheSG5pRLC">
+          187 188 189 190
+        </note>
+        <note xml:id="i-QKatowYwfW17c9sAv5iEYe">
+          191
+        </note>
+        <note xml:id="i-UaK8Mmb9Tn7MsVPR9ZepPg">
+          192 193
+        </note>
+        <note xml:id="i-MpW8UY99VDbugr7PQrNQCq">
+          194
+        </note>
+        <note xml:id="i-8V3assx8qbK7TRBpMR9G4B">
+          195 196 197 198 199
+        </note>
+        <note xml:id="i-HG1uPhHGb7Se1UZLmebGmp">
+          201 202
+        </note>
+        <note xml:id="i-31mUux25MJysTmKyfN39kY">
+          203:
+        </note>
+        <u xml:id="i-PW82o3Ru9hhfRBXb63z39U" who="unknown" prev="i-CDKc7PZyQoQqdmyjLJgwfW" next="i-Y4ust7SJ1VNCfDZ4HqFStj">
+          <seg xml:id="i-QaSG9bPYr5bRMza8nCmsk3">
+            :
+          </seg>
+        </u>
+        <note xml:id="i-BEtJ5Hsh7XGutwcmFz7jiA">
+          204
+        </note>
+        <note xml:id="i-V78zBs4AdAfBXtKd5ZyCHG">
+          I |
+        </note>
+        <note xml:id="i-4iCB2CE8Mt16Y5qzgtxKZe">
+          Hemmansägaren born.
+        </note>
+        <note xml:id="i-WJpzu7yNkWtstiWZpQazQE">
+          Samuel Söderberg i Hob-
+        </note>
+        <note xml:id="i-7MfJkx8QWBSJxDodURBssz">
+          Hemmansägaren Anders Hansson i Sol-
+        </note>
+        <u xml:id="i-Y4ust7SJ1VNCfDZ4HqFStj" who="unknown" prev="i-PW82o3Ru9hhfRBXb63z39U" next="i-PDz5tSLnqRsVABJT8HhFte">
+          <seg xml:id="i-TgoHRTYUEgn4SCTXbraYKX">
+            berga.
+          </seg>
+        </u>
+        <note xml:id="i-QvvrTvV18kJfoJvX1P8Gjm">
+          Riksdagsmannen Ollas Anders Ericsson i Ofvanmyra.
+        </note>
+        <note xml:id="i-AooLdpwTHDaZmPwaVWAYep">
+          Riksdagsmannen Daniel Persson i Tällberg.
+        </note>
+        <note xml:id="i-7GMpmqTCwfFHsmZuavzEAs">
+          Hemmansägaren Back Per Ersson i Hede.
+        </note>
+        <note xml:id="i-8tk23b7DrbwWq8EY4zZt1V">
+          Hemmansägaren Smeds Lars Olsson i Åsen.
+        </note>
+        <note xml:id="i-6h7uELPLk6jkAubBeKU5WT">
+          Riksdagsmannen Johan Bernhard Eriksson i Grängesberg.
+        </note>
+        <note xml:id="i-4r6mocPQocDbWeqUcj4u5S">
+          Riksdagsmannen Johan Ström i Transtrand.
+        </note>
+        <note xml:id="i-SWCPcgrrvMpcy1DDoGKqgb">
+          Häradshöfdingen Gustaf Nils Theodor af Callerholm i Hedemora.
+        </note>
+        <note xml:id="i-96rTcvvmqqZWYGNEauhqit">
+          Muraren Erik Andersson Leksell i Sandviken.
+        </note>
+        <note xml:id="i-4Tsx1oNncTycvdk86xSyyC">
+          Hemmansägaren Olof Olsson i See. Hemmansägaren Per Olsson i Fläsbro.
+          : Hemmansägaren John Ericson i Vallsta.
+        </note>
+        <note xml:id="i-CYC4LDDx3taVDR26bFjuWr">
+          Folkskoleläraren Magnus Sundström i Östansjö.
+        </note>
+        <note xml:id="i-VH77o9bZSetyaXiavrjEFg">
+          Nämndemannen Jon Jonsson i Hå.
+        </note>
+        <note xml:id="i-3nJv3aGs4SMyeJJUvk936o">
+          vice Häradshöfdingen Gustaf Sandström.
+        </note>
+        <note xml:id="i-EaRrhQaaNpJvzW1hWh6SWg">
+          Lektorn Karl Starbäck.
+        </note>
+        <note xml:id="i-QGauboJBVWgJd1bVgRrtEp">
+          Fabrikören Bernt Lidovig Wilson.
+        </note>
+        <note xml:id="i-EfFvpCsUNNCKJkNG9EPxj1">
+          Glasbruksarbetaren Karl Robert Karlsson i Fjäl.
+        </note>
+        <note xml:id="i-Ja8vHvqW4rhKzBQczhgTfq">
+          Fabrikören Svante Herman Kvarnzelius i Skönsmon.
+        </note>
+        <note xml:id="i-FK1y7Q9aBi2WDt6qV7Q8tb">
+          SAGA oossseser oessenea . 1205 | Inspektoren Carl Gustaf Thor
+          i Nedans:".
+        </note>
+        <note xml:id="i-EGVF23Z8VpJwujLtt5ehXK">
+          N:o 1.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-013.jp2/_view"/>
+        <note xml:id="i-WPxrj9FD5LHdMTvmtZQqx8">
+          N:o 1.
+        </note>
+        <note xml:id="i-SYEeXDbgvTEBGsL6SbMpvZ">
+          14
+        </note>
+        <note xml:id="i-9ArkFZVeGnoBraNpQLhzHm" type="date">
+          Fredagen den 15 Januari.
+        </note>
+        <note xml:id="i-LZ3T3uAMCBSrddvZPSeBZ3">
+          Ångermanlands södra . domsaga Ångermanlands mellersta domsaga
+          Ångermanlands västra domsaga
+        </note>
+        <note xml:id="i-HRc68bsZRGjjPDN33BSbD3">
+          Nätra och Nordingrå domsaga Själevads och Arnäs domsaga
+        </note>
+        <note xml:id="i-Yb7hXkUAg48B3CXFKftUVY">
+          Härnösand och Örnsköldsvik
+        </note>
+        <u xml:id="i-PDz5tSLnqRsVABJT8HhFte" who="unknown" prev="i-Y4ust7SJ1VNCfDZ4HqFStj" next="i-835rbuJbLBaaiMKMrMpwve">
+          <seg xml:id="i-DGg14ajgA4iuUX7jxTGLna">
+            Sundsvall
+          </seg>
+        </u>
+        <note xml:id="i-TaR4u1So17MErbM7gi6aK6">
+          Jämtlands län.
+        </note>
+        <note xml:id="i-L8JvDnHgg5cfHquBwt817k">
+          Jämtlands norra dom- SALA oosssseer sreseeresn rn Dito västra
+          domsaga Dito östra domsaga
+        </note>
+        <note xml:id="i-X7kwxXoU2tpqhdJTMq3E8M">
+          Härjeådalens domsaga
+        </note>
+        <note xml:id="i-XZYBkRBdF2P32cnMnc7mD6">
+          Hudiksvall och Öster-
+        </note>
+        <note xml:id="i-TrCM3fJupcSgokYuqdHuWm">
+          Västerbottens län.
+        </note>
+        <note xml:id="i-WHYXdZAxECfzX7Rfp3fqkq">
+          Nordmalings och Bjurholms samt Degerfors tingslag
+        </note>
+        <note xml:id="i-L1TGXLFZ54sv9rZTF3G5jJ">
+          Umeå tingslag
+        </note>
+        <note xml:id="i-KvrFxVjUELT167czm9KHUb">
+          Västerbottens domsaga
+        </note>
+        <note xml:id="i-BxLRAQWbu1F1W4SnEoe82H">
+          västra
+        </note>
+        <note xml:id="i-Pg5LZk8oWMDWcch4Q3tMVV">
+          Skellefteå tingslag ... Norsjö och Malå tingsläg ooserreresrr
+          sersrenr rna Västerbottens mellersta domsaga
+        </note>
+        <note xml:id="i-ADbKUkrfYhYyBuom7WcB8Z">
+          Umeå, Skellefteå och Piteå
+        </note>
+        <note xml:id="i-Rwyq3T3ucVbez2K1hiApPx">
+          Norrbottens län. Piteå domsaga
+        </note>
+        <note xml:id="i-2gVVWbkdZgFUnYbqoE4Tje">
+          206 | Riksdagsmannen
+        </note>
+        <note xml:id="i-SsahPjb9hpKnsqfP6Sr7eZ">
+          207 208
+        </note>
+        <note xml:id="i-2a77Fbt3JfdrxYXLD85nqm">
+          1209 210
+        </note>
+        <note xml:id="i-THZYjYfWiwhQkichjZcGf6">
+          211 212
+        </note>
+        <note xml:id="i-UJkPAzn39sZhZExGiwGxsD">
+          218 219
+        </note>
+        <note xml:id="i-wJetxm8PFkysT21KijLq5">
+          220 221 222
+        </note>
+        <note xml:id="i-Eaubd1SiWc3mwEX2A3pvPt">
+          223
+        </note>
+        <note xml:id="i-Qg4VbHHhXMHjkbUmdgNar1">
+          224
+        </note>
+        <note xml:id="i-AqU2KYWcHsp9PyAD8uc9cf">
+          225
+        </note>
+        <note xml:id="i-8FGfqnTaQpujYnKa5w4CmW">
+          Johan Lindgren i Skog.
+        </note>
+        <note xml:id="i-Xmn4emQuLYvnQMPSpDZ6vv">
+          Folkskoleläraren Sixten Mogren i Bollsta.
+        </note>
+        <note xml:id="i-66v2dg9kzTXu2fm5RreTp1">
+          Hemmansägaren Per Erik Hedström i Väst-
+        </note>
+        <u xml:id="i-835rbuJbLBaaiMKMrMpwve" who="unknown" prev="i-PDz5tSLnqRsVABJT8HhFte">
+          <seg xml:id="i-V2d5UjBnnwSxX7UANzt6E4">
+            by.
+          </seg>
+        </u>
+        <note xml:id="i-BY7Y5zZ774eMD9fwZtTk2f">
+          Hemmansägaren Zakarias Åslund i Hämra.
+        </note>
+        <note xml:id="i-Cbe21PsUi9gAJToiRDVLrV">
+          Hemmansägaren Carl Jonas Öberg i Domsjö.
+        </note>
+        <note xml:id="i-UddQHUgYaNrkZdBx721gpn">
+          Döfstumskoleföreståndaren Axel Julius Hagström i Härnösand. Missionsbokhandlanden
+          Johannes Hellgren.
+        </note>
+        <note xml:id="i-JmFuoZyAzvDQadT4LKoSQ5">
+          Riksdagsmannen Karl Karlsson i Mo. Hemmansägaren Johan Olofsson
+          i Digernäs. Häradsdomaren Jöns Bromée i Billsta. Hemmansägaren
+          Ingebriht Bergmani Tännäs.
+        </note>
+        <note xml:id="i-KBFeBipVxufeiyCRiovEWJ">
+          Landshöfdingen Johan Widén.
+        </note>
+        <note xml:id="i-STfGToCXokcHDVb55qFvtC">
+          Riksdagsmannen Adolf Wiklund i Brattfors. Hemmansägaren Johan
+          Rehn i Hissjön.
+        </note>
+        <note xml:id="i-Kn9sKVsvKXVQegNKvs5Fz3">
+          Provinsialläkaren Erik Hellberg i Lycksele. Kantorn P. Zimdahl.
+        </note>
+        <note xml:id="i-CFYV93fbkc5B3SPrcxgh2e">
+          Hemmansägaren Frans Oscar Mörtsell i Mörttjärn.
+        </note>
+        <note xml:id="i-8NYzWBR3rZp1Fu4ypvoQ2Q">
+          Skiftesgodemannen Olof Jonsson i Gumboda.
+        </note>
+        <note xml:id="i-QNHLGz4sdABZEqqW3zhiAk">
+          Borgmästaren Göran Albin Ahlstrand.
+        </note>
+        <note xml:id="i-BGyQtLFMSniwtUbtqMyCnq">
+          Kommunalnämndsordföranden Fredrik Anshelm Bäckström i Håkansön.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-014.jp2/_view"/>
+        <note xml:id="i-M6UBkB18JMzGWgc5JW1PPL">
+          Fredagen den 15 Januari. 15 | . Luleå domsaga — ...|226 | Riksdagsmannen
+          Adolf Linus Lundström i | Långnäs.
+        </note>
+        <note xml:id="i-WTfKeVQh6Jqpj4oHhpFoR7">
+          Kalix domsaga ... .....| 227 | Nämndemannen Arvid Björk i Jämtön.
+          Torneå domsaga ...... 228 | Kronolänsmannen Magnus Ström i Öfver-
+          Torneå.
+        </note>
+        <note xml:id="i-9CnwgyuP6AzZeXySt28dnG">
+          Gellivare domsaga ...|229/|Vaktmästaren Lars Johan Carlsson i
+          Malmberget.
+        </note>
+        <note xml:id="i-8LkDhLi5poxCp2kUdok4Mp">
+          Luleå och Haparanda | 230 | Lokomotivmästaren Fredrik Berglund
+          i | Luleå. $ 4.
+        </note>
+        <note xml:id="i-2wuuDuheCN6B89F7rJaKdC">
+          Vid härefter företaget upprop af kammarens ledamöter befunnos
+          samtliga ledamöter närvarande förutom herrar Broström och Eriksson
+          i Bäck.
+        </note>
+        <note xml:id="i-VErsAPHKZQepDnYS9Ap62H">
+          Herr ordföranden meddelade, att från herrar Broström och Eriksson
+          i Bäck inkommit läkarbetyg, utvisande, att de till följd af sjukdom
+          vore urståndsatta att iakttaga inställelse.
+        </note>
+        <note xml:id="i-EFD1mFXJoHA32ih63G3Tk7">
+          § 5.
+        </note>
+        <note xml:id="i-5iMGL39rCrNyLPxbtEgHqp">
+          Herr ordföranden tillkännagaf, att hans excellens herr statsministern
+          Lindman afvaktade budskap om afslutande af uppropet, hvarefter
+          han ville infinna sig för att meddela kammaren Kungl. Maj:ts beslut
+          angående talman och vice talman i kammaren, samt att ordföranden
+          uppdragit åt herrar Svensson i Skyllberg och Röing att underrätta
+          hans excellens herr statsministern, att uppropet vore verkställdt
+          och kammaren redo att mottaga honom.
+        </note>
+        <note xml:id="i-HBaJFQsL9EkX7LvSQ6foaR">
+          § 6.
+        </note>
+        <note xml:id="i-UUzF5syAA7Xpn6H1NTyfHD">
+          Hans excellens herr statsministern inträdde nu samt uppläste
+          Kungl. Maj:ts öppna bref angående förordnande af talman och vice
+          talman i denna kammare, enligt hvilket förordnats till talman
+          representanten för staden Norrköping herr Axel Swartling och till
+          vice talman representanten för staden Stockholm herr Karl Albert
+          Staaff.
+        </note>
+        <note xml:id="i-BUfdxz48BVbYfBppcmDY3N">
+          § 7.
+        </note>
+        <note xml:id="i-BPud234qBuGtjEuGfwAA3m" type="speaker">
+          Ålderspresidenten öfverlämnade ordförandeklubban till herr talmannen,
+          hvarefter denne hälsade kammaren med följande tal:
+        </note>
+        <u who="i-SnW9TwRwSRopKvaUfURXvo" xml:id="i-Hg6d3xotpeHvEc4AKLiM8j" next="i-K21QwkDH5MMn1tw2sPLcui">
+          <seg xml:id="i-4ThyDXYT3dj3zyxNpqybY6">
+            Mina herrar! De allmänna valen till Andra Kammaren — och det
+            är efter sådana, som vi nu för första gången mötas — pläga alltid
+            medföra en afsevärd omsättning bland dess ledamöter. När jag blickar
+            ut öfver plenisalen, märker jag också vid sidan af gamla välbekanta
+            ansikten många nya. Då jag ånyo hedrats med förtroendet att såsom
+            talman leda kammarens förhandlingar, är det emellertid mitt hopp,
+            att jag snart skall blifva lika förtrogen med de nya som med de
+            gamla och hos Eder alla få påräkna samma tillitsfulla stöd och
+            samma vänskapsfulla välvilja, som tillförene i så rikt mått kommit
+            mig till del.
+          </seg>
+        </u>
+        <note xml:id="i-MkEQSmYbCzfg1Bm9wCimcY">
+          N:o 1.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-015.jp2/_view"/>
+        <note xml:id="i-Njv6XurV5ZcqEAUA5KTCHB">
+          N:o 1.
+        </note>
+        <note xml:id="i-Kxi3ofojQ6SuLDzi7EuUSi" type="date">
+          16 Fredagen den 15 Januari.
+        </note>
+        <u xml:id="i-K21QwkDH5MMn1tw2sPLcui" prev="i-Hg6d3xotpeHvEc4AKLiM8j" who="i-SnW9TwRwSRopKvaUfURXvo" next="i-ACQzk43ci59oqv9Zg8NeY3">
+          <seg xml:id="i-J1fXkp6aoxR1stgUjTEF1M">
+            Af större betydelse än de yttre förändringarna, hvilka väl hos
+            talmannen kunna till en början framkalla en viss osäkerhet i afseende
+            å personer och namn, äro de inre omgestaltningar, hvilka nyvalen
+            till äfventyrs föra med sig. I detta hänseende innesluter alltid
+            en ny Andra Kammare möjligheter, hvilka icke ligga klara i det
+            ögonblick vi mötas. Vår samfällda önskan är emellertid, att hvad
+            af de olika möjligheterna blir verklighet skall motsvara vårt
+            kära fäderneslands sanna väl och betrygga dess lugna utveckling.
+          </seg>
+        </u>
+        <u xml:id="i-ACQzk43ci59oqv9Zg8NeY3" prev="i-K21QwkDH5MMn1tw2sPLcui" who="i-SnW9TwRwSRopKvaUfURXvo">
+          <seg xml:id="i-PW9kh7toVt6uhTfjN7QGGV">
+            Måtte vårt kommande arbete främja detta mål, och vare Gud med
+            oss!
+          </seg>
+        </u>
+        <note xml:id="i-QNbc6eZHMZ5rNyywuHNENa">
+          § 8.
+        </note>
+        <note xml:id="i-SNJxpJUeukhY9caXmRoGts">
+          Sedan det under $&amp; 3 här ofvan intagna protokollet ånyo blifvit
+          uppläst, begärdes ordet af
+        </note>
+        <note xml:id="i-L5EfX9KpvB1CxKV8JBdttn" type="speaker">
+          Herr Jansson i Djursätra, som yttrade:
+        </note>
+        <note xml:id="i-Nnx3p8UYf7YQGnLneUDWDL">
+          Herr talman! Då den valde representanten för Södersysslets domsaga,
+          herr Igel, enligt hvad numera är allmänt bekant, hvarken vid valet
+          eller då högsta domstolen ogillade den förda klagan öfver hans
+          val, var svensk medborgare, hvilket dock enligt grundlagen den
+          måste vara, som skall kunna till riksdagsman väljas och godkännas,
+          så yrkar jag, herr talman, på denna grund, att herr Igel måtte
+          förklaras obehörig att nu taga säte i denna kammare såsom riksdagsman.
+        </note>
+        <note xml:id="i-64vzWhxtX1eh3TNCDa5eh9">
+          Den af herr Jansson i Djursätra sålunda väckta frågan om herr
+          J. P. Igels behörighet att vara ledamot af kammaren blef på begäran
+          bordlagd.
+        </note>
+        <note xml:id="i-T2V4GdWrDwHG8PhgXXta7T">
+          Kammaren beslöt att, med godkännande af öfriga i ofvanberörda
+          protokoll omförmälda fullmakter, lägga protokollet till handlingarna.
+        </note>
+        <note xml:id="i-LYF5bb6e2e7mtPBF4KTK5z">
+          § 9.
+        </note>
+        <note xml:id="i-EbHFJEHy9LpKxdtxQpqn8q">
+          Kungl. Maj:ts i $ 6 omnämnda bref blef härefter, enligt kamma
+          rens beslut, lagdt till handlingarna.
+        </note>
+        <note xml:id="i-BZ2FUcsVUW9PXTACd2xNsy">
+          § 10.
+        </note>
+        <note xml:id="i-LqVqTJ2KzJsAS6YQQH3XyX">
+          Föredrogos ånyo de i $ 4 omförmälda läkarbetygen; och blefvo
+          de för herrar Broström och Eriksson i Bäck sålunda anmälda förfallen
+          af kammaren godkända.
+        </note>
+        <note xml:id="i-NWzFQEjFA8Vn8p2yagZztf">
+          § 11.
+        </note>
+        <note xml:id="i-UZFTVv1sY6gVfGXd61zNuw">
+          På hemställan af herr talmannen beslöt kammaren dels att vid
+          plenum nästkommande dag, lördagen den 16 januari, företaga val
+          af sekreterare, dels ock att vid plenum måndagen den 18 januari
+          utse tre ledamöter att deltaga i talmansöfverläggningarna, två
+          ledamöter att hafva inseende öfver Riksdagens kansli, åtta ledamöter
+          att jämte
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-016.jp2/_view"/>
+        <note xml:id="i-3BeJ497VkApHqvMBcoqYzm" type="date">
+          Fredagen den 15 Januari. 17
+        </note>
+        <note xml:id="i-TcbBzydek6d8AufxuUaDDF">
+          berr talmannen tillsätta kammarens kanslipersonal och vaktbetjäning
+          samt tre ledamöter att handhafva vården om kammarens ekonomiska
+          angelägenheter.
+        </note>
+        <note xml:id="i-XR6LuBxgLMyCJW77p2CE3z">
+          § 12.
+        </note>
+        <note xml:id="i-6bFGUoEHsef4SR7SyT7SiD">
+          Till talarplatser för ledamöter, som kunde vilja däraf begagna
+          gig, anvisades på herr talmannens förslag de två för ändamålet
+          anordnade, på hvardera sidan om talmansbordet befintliga platserna.
+        </note>
+        <note xml:id="i-DJthm4RCwKimgN9RQgJYRB">
+          § 13. Ordet lämnades härefter på begäran till
+        </note>
+        <note xml:id="i-CnebqfhGo33iU2AcHzNX8S" type="speaker">
+          Herr vice talmannen, som yttrade:
+        </note>
+        <u who="unknown" xml:id="i-5Uo8emUrEAYur9vDZoQCEe" next="i-6CueUWM3KvnfbWQ6VhnWT5">
+          <seg xml:id="i-9Ext3ig7k9Ebc6huxjoMo5">
+            Herr talman, mina herrar! Vi veta alla, att under den närmast
+            förflutna tiden ett utaf Europas folk har drabbats utaf en af
+            de svåraste och fruktansvärdaste olyckor, som någonsin träffat
+            vår världsdel.
+          </seg>
+        </u>
+        <u xml:id="i-6CueUWM3KvnfbWQ6VhnWT5" who="unknown" prev="i-5Uo8emUrEAYur9vDZoQCEe" next="i-S8Uo624SaQ5Trc2R3zEDJN">
+          <seg xml:id="i-SLgthzkrYSQHcbMXWbqzRn">
+            Vi hafva alla med skräck och fasa läst om den naturtilldragelse,
+            som har ödelagt blomstrande samhällen å Italiens jord och som
+            bragt massor af människor, rika och fattiga, gamla och unga, till
+            en död, så fruktansvärd, att den mänskliga tanken nästan ryggar
+            tillbaka att göra sig en klar föreställning därom.
+          </seg>
+        </u>
+        <u xml:id="i-S8Uo624SaQ5Trc2R3zEDJN" who="unknown" prev="i-6CueUWM3KvnfbWQ6VhnWT5" next="i-UquNei416FCkJrtLrwajqz">
+          <seg xml:id="i-22LzenF5f7vFWEJaJbR9pg">
+            Vi veta också, i hvilken nöd, i hvilket fullständigt utblottadt
+            tillstånd massor utaf de öfverlefvande, ofta nog själfva illa
+            sårade, befinna sig för närvarande.
+          </seg>
+        </u>
+        <u xml:id="i-UquNei416FCkJrtLrwajqz" who="unknown" prev="i-S8Uo624SaQ5Trc2R3zEDJN" next="i-3QXqDsNxpPT6Ks7QDBMi6v">
+          <seg xml:id="i-VhCeCswyFqoYHhvUDtjUc6">
+            Från alla håll i den civiliserade världen har Italiens folk mot
+            tagit uttryck utaf det djupaste och innerligaste beklagande och
+            del tagande. Man har då föreställt sig, att, när den svenska Riksdagen
+            nu sammanträder, en utaf dess första tankar skulle vara den att
+            gifva ett uttryck åt de känslor, som förvisso besjäla oss alla
+            i detta fall.
+          </seg>
+        </u>
+        <u xml:id="i-3QXqDsNxpPT6Ks7QDBMi6v" who="unknown" prev="i-UquNei416FCkJrtLrwajqz">
+          <seg xml:id="i-2VH52fCz85X5K3bKsKf7c1">
+            Jag vill därför tillåta mig att föreslå, att kammaren måtte åt
+            sin tålman uppdraga att till den italienska deputeradekammarens
+            president öfversända å kammarens vägnar ett telegram, uttryckande
+            dessa våra känslor.
+          </seg>
+        </u>
+        <note xml:id="i-FQZQpWvijFMFHGowYQVA8i">
+          Denna hemställan bifölls af kammaren.
+        </note>
+        <note xml:id="i-SJsGALL717BJtoRDKZsNqb" type="speaker">
+          Herr vice talmannen, som på begäran ånyo erhöll ordet, yttrade:
+        </note>
+        <u who="unknown" xml:id="i-BR485vxKwFmP3K2zuLtmRd" next="i-WDdQs1rD7psrxasTmVW6qK">
+          <seg xml:id="i-XdhcyyneL6KuCEK7SQYf2k">
+            Herr talman, mina herrar! De internationella känslorna äro i
+            våra dagar starka och blifva ju, glädjande att säga, allt starkare
+            och starkare; vi hafva nyss gifvit ett uttryck däråt, då ett annat
+            folk i vår världsdel drabbats af en djup sorg.
+          </seg>
+        </u>
+        <u xml:id="i-WDdQs1rD7psrxasTmVW6qK" who="unknown" prev="i-BR485vxKwFmP3K2zuLtmRd" next="i-G8LEXARSVgJeKiFFdxdiWi">
+          <seg xml:id="i-7kGEyv6y1cmWhmcbsZbySF">
+            Sedan svenska Riksdagen sist sammanträdt, har emellertid en glädjande
+            tilldragelse inträffat i ett annat europeiskt land. Såsom vi veta,
+            har Turkiet öfvergått från ett absolutistiskt styrelseskick till
+            den konstitutionella friheten. Man har då tänkt, att äfven den
+            svenska Riksdagen skulle vara benägen att lägga sin stämma till
+            de många röster, som redan låtit sig höra, uttryckande lyckönskan
+            till den så väl och lyckosamt genomförda förändringen.
+          </seg>
+        </u>
+        <note xml:id="i-5C3HoWEtf3MeYBLHN9ykXE">
+          Andra Kammarens Prot. 1909. N:o 1. 2
+        </note>
+        <note xml:id="i-3L4dgzTbaDaGpxLhThyPAV">
+          N:o 1.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-017.jp2/_view"/>
+        <note xml:id="i-71SUm9DKhnpaZBD2nSQt5h">
+          N:o 1.
+        </note>
+        <note xml:id="i-CsWE6qraynSgJNqtqZ6gBf" type="date">
+          18 Lördagen den 16 Januari.
+        </note>
+        <u xml:id="i-G8LEXARSVgJeKiFFdxdiWi" who="unknown" prev="i-WDdQs1rD7psrxasTmVW6qK" next="i-XYQ3qivyM4BE9qQyhPtnrz">
+          <seg xml:id="i-SamDag4uKt6jwhHW4JMfLF">
+            Jag vill därför hemställa, att Andra Kammaren behagade gifva
+            sin talman i uppdrag att i telegram till den turkiska representantkammarens
+            president uttrycka Andra Kammarens lifliga lyckönskningar.
+          </seg>
+        </u>
+        <note xml:id="i-5N8pDJCX8kgsrVbFcbFXEC">
+          Jämväl hvad herr vice talmannen sålunda föreslagit blef af kammaren
+          bifallet.
+        </note>
+        <note xml:id="i-5exvCPxSWAwbUsnXWKdnnf">
+          § 14.
+        </note>
+        <note xml:id="i-F4YnWX88BMxVe3fapD5JTJ">
+          Herr talmannen meddelade, att till kammarens förfogande öfverlämnats
+          ett antal inträdesbiljetter till rikssalen vid riksdagens öpp:
+          nande, och hemställde, att fördelning af dessa biljetter finge
+          genom kammarens kansli ske efter slutet af kammarens sammanträde
+          denna dag med iakttagande, att de för ledamöterna från Stockholms
+          stad och hvart och ett af rikets län afsedda biljetterna utlämnades
+          till Stockholms stads och hvarje läns äldste närvarande representant,
+          som sedermera finge ombesörja den vidare utdelningen.
+        </note>
+        <note xml:id="i-C5bEbLMwJj5KAXQCW2HTvP">
+          Denna hemställan bifölls. Härefter åtskildes kammarens ledamöter
+          kl. 12,45 e. m.
+        </note>
+        <note xml:id="i-SkmkD3ADd4cgo76n7B874x">
+          Sixten Neiglick. Albin Ahlstrand.
+        </note>
+        <note xml:id="i-Bh84j5y7pu4q8T1X5gBPUm" type="date">
+          Lördagen den 16 januari. Kl 10,15 £. m.
+        </note>
+        <note xml:id="i-6JhphUGLvreB7Pbp2xK94H">
+          § 1.
+        </note>
+        <note xml:id="i-UvXzXDn9GZhY2eFaDdcYVm">
+          Jämlikt kammarens under $ 11 i gårdagens protokoll antecknade
+          beslut företogs nu i föreskrifven ordning med slutna sedlar val
+          af sekreterare ; och befanns efter valsedlarnas öppnande och uppräkning
+          valet hafva så utfallit, att till sekreterare utsetts notarien
+          hos öfverståthållarämbetet, jur. och fil. kandidaten Per Cronvall
+          med 184 eller
+        </note>
+        <note xml:id="i-P53XvknnDem6n9u393D9op">
+          alla afgifna röster. Sekreteraren, som härefter på kallelse inställde
+          sig, öfvertog, efter
+        </note>
+        <u xml:id="i-XYQ3qivyM4BE9qQyhPtnrz" who="unknown" prev="i-G8LEXARSVgJeKiFFdxdiWi">
+          <seg xml:id="i-NdTiXF9C6s8Lwsj7KrXwd2">
+            erhållen kännedom om valets utgång, protokollsföringen.
+          </seg>
+        </u>
+        <note xml:id="i-3jwyERAhae4yMMbbWZdkD3">
+          Sixten Neiglick. Albin Ahlstrand. 8 2.
+        </note>
+        <note xml:id="i-RcY6348m3tNBBrBXgLPDZa">
+          Herr talmannen och kammarens herrar ledamöter afgingo kl. 10,59
+          till slottskapellet, hvarest riksdagspredikan hölls, Efter slutad
+          gudstjänst begaf sig kammaren till rikssalen. : :
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1909--ak--1/prot_1909__ak__1-018.jp2/_view"/>
+        <note xml:id="i-6QSP2TJaTUJyX8e5bxJf2f" type="date">
+          Lördagen den 16 Januari, 19
+        </note>
+        <note xml:id="i-CPoGgLpScSxngYqfzKacDX">
+          Hans Maj:t Konungen öppnade där riksdagen med ett tal, hvarefter
+          hans excellens herr statsministern Lindman uppläste Kungl. Maj:ts
+          berättelse om hvad i rikets styrelse sedan sista lagtima riksdags
+          sammanträde sig tilldragit.
+        </note>
+        <note xml:id="i-LcoFhhPj8tkWAQucd7taiP" type="speaker">
+          Efter det Första Kammarens talman framfört Första Kammarens undersåtliga
+          vördnad, framträdde Andra Kammarens talman och yttrade:
+        </note>
+        <note xml:id="i-K2VV3FFc7u8jAYnYhTpSkK">
+          Allernådigaste Konung, Eders Majestät!
+        </note>
+        <note xml:id="i-Q3SeAHUdkcFVPvgNZP3UwC">
+          En Andra Kammare, som förnyats genom allmänna val — efter allt
+          att döma de sista, som förrättats efter nu gällande ordning —
+          står i dag samlad inför tronen och framför genom sin talman till
+          Eders Majestät sin undersåtliga vördnad.
+        </note>
+        <u xml:id="i-XcQjXV1cd1JD4CDfACLJqn" next="i-KrMVFEbsRy5k43wdWvvnpK" who="i-SnW9TwRwSRopKvaUfURXvo">
+          <seg xml:id="i-DA2TYdCy1dtipC4Sk63xFk">
+            De politiska strider, ur hvilka kammaren framgår såsom resultat,
+            kunna gå med höga böljeslag. Grundvalarna eller stödjepunkterna
+            för vårt nationella lif hafva de dock aldrig rubbat, och en af
+            dessa djupt i folksjälen liggande stödjepunkter är troheten mot
+            Konungen.
+          </seg>
+        </u>
+        <u xml:id="i-KrMVFEbsRy5k43wdWvvnpK" prev="i-XcQjXV1cd1JD4CDfACLJqn" who="i-SnW9TwRwSRopKvaUfURXvo" next="i-CFmb5m3i7W3S7FSjvo6Peg">
+          <seg xml:id="i-FV9z2WL1Vg9BBXS8iw7eZ5">
+            Det svenska folket är vant att följa sin konung, liksom ock dess
+            största och bästa konungar alltid lagt vikt på att hafva folket
+            med sig.
+          </seg>
+        </u>
+        <note xml:id="i-S6o9kpKk8mFAqvWdBNjX7Y">
+          Under de maktpåliggande resor till utländska statsöfverhufvud,
+          som Eders Majestät under sistförflutna året företagit, har det
+          ock i tankarna följt Eders Majestät på färden och med glädje förnummit,
+          hurusom varm sympati öfverallt strömmat Eders Maj:t, H. M. drottningen
+          och det svenska namnet till mötes. Den personliga insats Eders
+          Maj:t gjort för att befästa denna sympati har också med känslor
+          af tacksamhet uppskattats af Eders Maj:ts undersåtar och det är
+          därför en lika kär som dyrbar plikt att nu frambära uttrycken
+          af dessa känslor.
+        </note>
+        <u xml:id="i-CFmb5m3i7W3S7FSjvo6Peg" prev="i-KrMVFEbsRy5k43wdWvvnpK" who="i-SnW9TwRwSRopKvaUfURXvo">
+          <seg xml:id="i-KQ1xXuqb4Y2uCkLJ4wGp85">
+            Med varma och innerliga välönskningar för Konung och konungahus
+            nedkalla vi Guds välsignelse öfver Eders Maj:t och hela den kungliga
+            familjen.
+          </seg>
+        </u>
+        <note xml:id="i-BwEVjnsxBf3QwLELjo1ApZ">
+          Härpå fingo talmännen hvardera mottaga ett exemplar af Kungl.
+          Maj:ts proposition angående statsverkets tillstånd och behof,
+          hvarefter ceremonien på rikssalen afslutades, och åtskildes Andra
+          Kammaren vid utgåendet från rikssalen, enligt beslut fattadt före
+          afgången från dess samlingsrum.
+        </note>
+        <note xml:id="i-UH5QB46wiy54f2Ht7VS7Yp">
+          In fidem Per Cronvall.
+        </note>
+        <note xml:id="i-4HG5rQV1QcsFVSP3Sg1BLY">
+          N:o 1.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

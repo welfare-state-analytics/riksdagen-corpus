@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1938</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1938</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,700 +25,673 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1938--ak--23</head>
-          <docDate when="1938-03-26">1938-03-26</docDate>
-          <docDate when="1938-03-29">1938-03-29</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1938--ak--23/prot_1938__ak__23-000.jp2/_view"/>
-          <note xml:id="i-Mt2PT13uhsGXDbEfrKeBGG">
-            RIKSDAGENS PROTOKOLL.
-          </note>
-          <note xml:id="i-MxacqJe3TPXALYWSpPuy6h">
-            1938. Andra kammaren.
-          </note>
-          <note xml:id="i-TeK6FcuqhidPZDtQDwwZVQ">
-            Nr 23.
-          </note>
-          <note type="date" xml:id="i-KsrvnzmPVU8n1UyVRZgiRQ">
-            Lördagen den 26 mars. Kl. 4 e. m.
-          </note>
-          <note xml:id="i-C4FfkP1BmCodZ8Rj2qNWCW">
-            § 1.
-          </note>
-          <note xml:id="i-3QcfVSvtBEPk1jithTq4Yh">
-            Justerades protokollen för den 18 och den 19 innevarande mars.
-          </note>
-          <note xml:id="i-CdSi7BK8Up8v65n1YVFWt7">
-            § 2.
-          </note>
-          <note type="speaker" xml:id="i-5ZmWZX1qFNPyS9pGT6XZub">
-            Herr statsrådet Wigforss avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-TXniJaRTRmXLtsMYvT2B5q">
-            ts propositioner:
-          </note>
-          <note xml:id="i-2VY37kgWxs8cTpFDRaW1pV">
-            nr 258, med förslag till omläggning av den direkta statsbeskattningen
-            m. m.; och nr 260, med förslag till lag angående rätt för Konungen
-            att meddela förordnande om vissa förmåner åt statslösa med flera.
-          </note>
-          <note xml:id="i-S3TvAkgSuSuW3PZuVxLPzQ">
-            Dessa propositioner bordlades.
-          </note>
-          <note xml:id="i-HbhcuYXAXxENp2QA6NTSUp">
-            § 3.
-          </note>
-          <note xml:id="i-gzUhLsA9qHrU9LRtooeyp">
-            Föredrogos var för sig följande på kammarens bord liggande motioner;
-            och remitterades därvid
-          </note>
-          <note xml:id="i-VpfipGiqtSgKeaq5wFXDpY">
-            till bevillningsutskottet motionerna:
-          </note>
-          <note xml:id="i-SgZvjRRy833WBWuHhrDnN6">
-            nr 406 av herr Lindberg i Stockholm och Lithander; nr 407 av
-            herr Lindmark m. fl.;
-          </note>
-          <note xml:id="i-AJtHxqERcHEug7oajarMH">
-            nr 408 av herr Liedberg m. fl.;
-          </note>
-          <note xml:id="i-8xkToGrUYLhgmHE8BZ3mQU">
-            nr 409 av herrar Liedberg och Gustafson i Kasenberg;
-          </note>
-          <note xml:id="i-C7HBK88u9Yt5pK5qeojkDx">
-            till statsutskottet motionerna:
-          </note>
-          <note xml:id="i-92pckZ9dDSexZouYoyAvM">
-            nr 410 av herr Lundqvist m. fl.;
-          </note>
-          <note xml:id="i-QQPyq8qK7uK36Tsnyid5YF">
-            nr 411 av herr Lindskog m. fl.;
-          </note>
-          <note xml:id="i-AFRsugVUjo3nttDHMzuunY">
-            nr 412 av herr Nyblom m. fl.;
-          </note>
-          <note xml:id="i-MibAiB9cMs86kNZ3zip225">
-            nr 413 av herr Lindmark m. fl.;
-          </note>
-          <note xml:id="i-QqS8ueiLnW8uy467w26EdJ">
-            nr 414 av herr Karlsson i Granebo m. fl.; nr 415 och 416 av fröken
-            Hesselgren m. fl.; nr 417 av herr Lindén m. fl.;
-          </note>
-          <note xml:id="i-TV6eDGLueTVE1yH8iou8uJ">
-            nr 418 av herr Tornegård;
-          </note>
-          <note xml:id="i-LqaN6BvGQsrbPn6ct5Vo5H">
-            nr 419 av herr Åqvist m. fl.; och
-          </note>
-          <note xml:id="i-GMcG2ZqnwNa45iGwfa8ps5">
-            nr 420 av herr Sandström m. fl.;
-          </note>
-          <note xml:id="i-AiWfbYPTgSDbbTFGouGTqp">
-            till bankoutskottet motionerna:
-          </note>
-          <note xml:id="i-QtBxvVP2xQ4GwE2QSTeyAJ">
-            nr 421 av herrar Lundqvist och Arnemark; och nr 422 av fröken
-            Andersson; samt
-          </note>
-          <note xml:id="i-HZJhBR9fZtDD4N2AP8EjJ4">
-            till behandling av lagutskott motionerna:
-          </note>
-          <note xml:id="i-59LwBiTpU6TxQLm9GDuTu2">
-            nr 423 av herrar Åqvist och Tengström; nr 424 av herr Tengström;
-            och nr 425 samt 426 av herr Bagge m. fl.
-          </note>
-          <note xml:id="i-GWB9ucRjgTe4tnSGy87cLe">
-            Andra kammarens protokoll 1938. Nr 23.
-          </note>
-          <note xml:id="i-HhT3MshjTKGCn5xnCD1qo8">
-            [a
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1938--ak--23/prot_1938__ak__23-001.jp2/_view"/>
-          <note type="date" xml:id="i-QaWKc1XabWb4YThrgfEGd3">
-            2 Nr 23. Lördagen den 26 mars 1938.
-          </note>
-          <note xml:id="i-Pd63J2h3EQWEFfkXVLKnuP">
-            Vid nu skedd föredragning av en av herr Hagberg i Malmö mn. fl.
-            avgiven motion, nr 427, i anledning av Kungl. Maj:ts proposition,
-            nr 233, med förslag till förordning angående handel med vissa
-            mineraloljor, m. m. hänvisades motionen, såvitt anginge förordningsförslaget,
-            till behandling av lagutskott samt 1 övrigt till statsutskottet.
-          </note>
-          <note xml:id="i-VdokUcmvXYLxiivzLUMprR">
-            Härefter föredrogos var för sig övriga på bordet vilande motioner;
-            och remitterades därvid
-          </note>
-          <note xml:id="i-Jq1DB8H6waAVK8VoGKvw1j">
-            till jordbruksutskottet motionen nr 428 av herrar Skoglund och
-            Nolin; till statsutskottet motionen nr 429 av herr Nilsson i Steneberg
-            m. fl.; samt
-          </note>
-          <note xml:id="i-7BtWFiG8DSKqMZ3qyDP851">
-            till bevillningsutskottet motionerna:
-          </note>
-          <note xml:id="i-PC26zNjUM31EFZHyWw767V">
-            nr 430 av herrar Nilsson. i Steneberg och Danielsson; och nr
-            431 av herr Lundell.
-          </note>
-          <note xml:id="i-HdhJaavXWyfzhQGAtCkyYa">
-            § 4.
-          </note>
-          <note xml:id="i-7CyGNkMhWm4VzoJZ3SGn5U">
-            Vidare föredrogs och hänvisades till bankoutskottet fullmäktiges
-            i riksgäldskontoret skrivelse med överlämnande av utredning rörande
-            införande av förhandlingsrätt för tjänstemän vid riksdagens verk.
-          </note>
-          <note xml:id="i-DTxMb3i5o2hVNQNyGfnwb1">
-            § 5.
-          </note>
-          <note xml:id="i-8CRrUtSta7giUAf4LEKT8K">
-            Föredrogos, men bordlades åter statsutskottets utlåtanden nr
-            73—77, första lagutskottets utlåtande nr 24 samt andra kammarens
-            första tillfälliga utskotts utlåtande nr 1.
-          </note>
-          <note xml:id="i-PaD89RHBeCfhtgGNfzv62P">
-            § 6.
-          </note>
-          <note xml:id="i-TH4CJhKyBKyjWGCpQVBJup">
-            Slutligen föredrogs herr Karlssons i Grängesberg vid kammarens
-            nästföregående sammanträde gjorda, men då bordlagda anhållan att
-            till herr statsrådet och chefen för socialdepartementet få framställa
-            spörsmål angående behovet av åtgärder i syfte att göra arbetarskyddet
-            inom gruvindustrien mera effektivt m. m.; och blev ifrågavarande
-            anhållan av kammaren bifallen. i
-          </note>
-          <note xml:id="i-5XS3JTyBNVnjbYcace8bLH">
-            § 7. Till bordläggning anmäldes:
-          </note>
-          <note xml:id="i-XbmzhXNKCJ8TiAoAjVgAVe">
-            utrikesutskottets utlåtanden:
-          </note>
-          <note xml:id="i-TBcwzDGCxSc3hxx5FCZC3y">
-            nr 3, i anledning av Kungl. Maj:ts proposition angående godkännande
-            av en den 10 april 1926 avslutad internationell konvention rörande
-            fastställande av vissa gemensamma bestämmelser i fråga om statsfartygs
-            frioch rättigheter, m. m.; och
-          </note>
-          <note xml:id="i-3gmYyWRKDtmmHoPpQaQ3yi">
-            nr 4, i anledning av Kungl. Maj:ts proposition om godkännande
-            av det internationella avtalet den 13 maj 1936 angående enhetligt
-            system för utprickning av farleder;
-          </note>
-          <note xml:id="i-Vg8UpijiiqZMR2vyjsq6oq">
-            konstitutionsutskottets utlåtanden:
-          </note>
-          <note xml:id="i-Y7vc5G5xdMtpu3uvFvp8L8">
-            nr 8, i anledning av väckt motion angående vissa grundlagsändringar
-            i syfte att bereda riksdagens kamrar rätt att under viss förutsättning
-            var för sig avlåta framställningar till Kungl. Maj:t;
-          </note>
-          <note xml:id="i-5fpNLW1aJAL3DpGQotuaUF">
-            nr 9, i anledning av väckt motion om införande av obligatoriska
-            fullmäktigeinstitutioner i samtliga borgerliga kommuner; och :
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1938--ak--23/prot_1938__ak__23-002.jp2/_view"/>
-          <note type="date" xml:id="i-RxeXxCcQYq8iPEGuNqenNx">
-            Lördagen den 26 mars 1938. Nr 23. 3
-          </note>
-          <note xml:id="i-5Q5r8aH4NGhKxC6YZ3gFTL">
-            nr 10, i anledning av väckt motion angående interpellationsinstitutets
-            omformning och utbyggande;
-          </note>
-          <note xml:id="i-TfmY1cUinyFjjFS3vdPdro">
-            statsutskottets utlåtanden och memorial:
-          </note>
-          <note xml:id="i-PF2qTeH5NvhL1maUkTMt9S">
-            nr 7, angående regleringen för budgetåret 1938/39 av utgifterna
-            under riksstatens sjunde huvudtitel, innefattande anslagen till
-            finansdepartementet;
-          </note>
-          <note xml:id="i-FaUfDX9k7DXZRkrugpmrPe">
-            nr 78, i anledning av kamrarnas skiljaktiga beslut i fråga om
-            anslag till undervisning genom infödda lärare i tyska, engelska
-            och franska språken vid de allmänna läroverken m. fl. läroanstalter;
-          </note>
-          <note xml:id="i-J5TTEMATFnixWvMvWZYQni">
-            nr 79, i anledning av Kungl. Maj:ts i statsverkspropositionen
-            gjorda framställning om kapitalinvestering i fonden för förlag
-            till statsverket till förskott å lotterimedelsfonden;
-          </note>
-          <note xml:id="i-BQdDNoAVhYSkcSKJ7yCyVk">
-            nr 80, i anledning av Kungl. Maj:ts proposition angående befrielse
-            för värnpliktige E. F. Björkstrand m. fl. från viss betalningsskyldighet;
-          </note>
-          <note xml:id="i-VmZAzQShwXNsS9UHEy9sBR">
-            nr 81, i anledning av Kungl. Maj:ts proposition angående gäldande
-            av vissa skadeståndsoch ersättningsbelopp;
-          </note>
-          <note xml:id="i-Gem3fYP23xHfFvtX29AD9J">
-            nr 82, i anledning av Kungl. Maj:ts proposition angående kompensation
-            till Marstrands stad i anledning av skeppsgossekårens indragning;
-          </note>
-          <note xml:id="i-Lkpx7fahyaEmAH1cc2AaHs">
-            nr 83, i anledning av Kungl. Maj:ts proposition angående beställning
-            av viss flygmateriel m. m.; och
-          </note>
-          <note xml:id="i-8X2QTJiRVVneBC6ezdrWS8">
-            nr 84, i anledning av väckt motion angående beredande av gottgörelse
-            i en annan form till vissa musiksergeanter för stängda befordringsmöjligeter;
-          </note>
-          <note xml:id="i-Eh5KU3BJmjHpVBxhZMhpdG">
-            första lagutskottets utlåtanden:
-          </note>
-          <note xml:id="i-AsV9m7TivU975BcqAccxtA">
-            nr 25, i anledning av väckt motion om ändrade bestämmelser rörande
-            försäljning av samfälld fastighet;
-          </note>
-          <note xml:id="i-HZn8Pc5QKwWj6NEmHRmPM1">
-            nr 26, i anledning av väckta motioner om utredning rörande förpliktelse
-            för aktiebolag att sörja för anställdas pensionering;
-          </note>
-          <note xml:id="i-Dif2e9aHeVuw91Q4ieLjVd">
-            nr 27, i anledning av väckt motion om åläggande för importörer
-            av japanska varor att utmärka ursprungslandet å dessa; och
-          </note>
-          <note xml:id="i-Y1KkePkSSaPJxUQrQ5Qti5">
-            nr 28, i anledning av väckta motioner angående viss ändring av
-            gällande bestämmelser om äkta makars inbördes ansvar i ekonomiskt
-            avseende;
-          </note>
-          <note xml:id="i-C4MvGtHqoJ2Lsceb275hKz">
-            jordbruksutskottets utlåtanden:
-          </note>
-          <note xml:id="i-88XsC6ntELgQf6EeehamcD">
-            nr 45, i anledning av Kungl. Maj:ts proposition angående ytterligare
-            statsunderstöd till Nossans regleringsföretag inom Eggvena med
-            flera socknar av Älvsborgs och Skaraborgs län;
-          </note>
-          <note xml:id="i-FvN6kmzfFt6kJTBbgTd2at">
-            nr 46, i anledning av Kungl. Maj:ts proposition angående statsunderstöd
-            till Vens elektrifiering;
-          </note>
-          <note xml:id="i-12wup3hcDR17RHHh7U9peJ">
-            nr 47, i anledning av Kungl. Maj:ts proposition angående beviljande
-            av anslag till underlättande av anskaffningen av träkol till generatorgasdrivna
-            motorfordon m. m.;
-          </note>
-          <note xml:id="i-MDseAabiQN2et5gHU9turr">
-            nr 48, i anledning av Kungl. Maj:ts proposition angående ytterligare
-            statsunderstöd till ett torrläggningsföretag, avseende utdikning
-            av sjöarna Ralången och Lunnasjön i Hultsjö socken av Jönköpings
-            län;
-          </note>
-          <note xml:id="i-6Y9sKNMn6586XpuuYY6eBD">
-            nr 49, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av kronojordlägenheterna Sockenstuguplatsen nr 1 och Kyrkostuguplatsen
-            nr 2 1 Vittangi by, Jukkasjärvi socken;
-          </note>
-          <note xml:id="i-KkmV6QNcQ5n9VS7TyUogV3">
-            nr 50, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av vissa allmänna arvsfonden tilifallna fastigheter;
-          </note>
-          <note xml:id="i-F6e1BawfQc1nUpviK778rf">
-            nr 51, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av vissa kronan tillhöriga områden inom Bergkvara municipalsamhälle;
-            och
-          </note>
-          <note xml:id="i-GYTyceEAy14gc3ZMPaDm3Q">
-            nr 52, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av vissa kronoegendomar och lägenheter från sådana egendomar;
-            samt
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1938--ak--23/prot_1938__ak__23-003.jp2/_view"/>
-          <note type="date" xml:id="i-M4nPd1ScuNKhyTupsdih7n">
-            4 Nr 23. Lördagen den 26 mars 1938.
-          </note>
-          <note xml:id="i-PcRLoXCeanVPUSNCgCqE3j">
-            andra kammarens fjärde tillfälliga utskotts utlåtande, nr 3,
-            i anledning av väckt motion angående hos utländska diplomater
-            anställdas försäkring för skada till följd av olycksfall i arbete.
-          </note>
-          <note xml:id="i-6BK7kxFq2B4EcZNuS2kvn6">
-            § 8.
-          </note>
-          <note xml:id="i-UcAsPQinTm1RFtbEFNezg4">
-            Anmäldes och godkändes följande förslag till riksdagens skrivelser
-            till Konungen, nämligen
-          </note>
-          <note xml:id="i-LD7AEBg8apJ8BBedTLduWF">
-            från statsutskottet:
-          </note>
-          <note xml:id="i-36WrvTY8dg5FHsvR2XNsJJ">
-            nr 4, angående vissa av Kungl. Maj:t gjorda framställningar i
-            avseende å utgifterna för budgetåret 1938;39 under riksstatens
-            fjärde huvudtitel, innefattande anslagen till försvarsdepartementet;
-          </note>
-          <note xml:id="i-SDdtgkvCCbEoQokTTMcVG6">
-            nr 6, angående regleringen för budgetåret 1938/39 av utgifterna
-            under riksstatens sjätte huvudtitel, innefattande anslagen till
-            kommunikationsdepartementet;
-          </note>
-          <note xml:id="i-UdcyELMFW4Sk4u6GdhJpSh">
-            nr 127, i anledning av Kungl. Maj:ts proposition angående bidrag
-            till internationell hjälpverksamhet till förmån för hemlösa barn
-            i Spanien;
-          </note>
-          <note xml:id="i-NnQP8xDvoAGZss96sWv5us">
-            nr 128, i anledning av Kungl. Maj:ts 1 statsverkspropositionen
-            under tionde huvudtiteln gjorda framställning om anslag till Lotsverket:
-            Säkerhetsanstalter för sjöfarten;
-          </note>
-          <note xml:id="i-93eLpx5Gtge6yVX1UzhhAn">
-            nr 129, i anledning av Kungl. Maj:ts proposition angående kapitalökning
-            för lotsverkets båtlånefond; |
-          </note>
-          <note xml:id="i-2PtdCmWW1Vh6gASbZ3M561">
-            nr 130, i anledning av Kungl. Maj:ts proposition angående emottagande
-            av gåva för anordnande av lokaler för ett trätekniskt laboratorium
-            vid statens provningsanstalt;
-          </note>
-          <note xml:id="i-XFMBJNsXhuUYSzKNmr9eeW">
-            nr 131, angående regleringen för budgetåret 1938/39 av utgifterna
-            under riksstatens elfte huvudtitel, i vad angår anslaget till
-            allmänna indragningsstaten; och
-          </note>
-          <note xml:id="i-2PmLx6RMPMBHrg8FyRhVTe">
-            nr 132, i anledning av Kungl. Maj:ts proposition angående penninglotteriväsendet;
-            samt
-          </note>
-          <note xml:id="i-5XAjBvD93iNvfDh5xVAZxQ">
-            från jordbruksutskottet:
-          </note>
-          <note xml:id="i-RZmFjrUhfagULbtH7h6V5f">
-            nr 138, i anledning av Kungl. Maj:ts proposition angående befrielse
-            för Axel Strömdahl och E. F. Ericson, Stockholm, från viss betalningsskyldighet
-            till kronan på grund av borgen vid virkesköp;
-          </note>
-          <note xml:id="i-JfVk1ZNLtvxbfGnzu1E1CF">
-            nr 139, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av vissa lägenheter å Grängesbergs gruvallmänning i Kopparbergs
-            län;
-          </note>
-          <note xml:id="i-LtB67dSDx6y3g2ao5U2xxr">
-            nr 140, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av visst kronan tillhörigt markområde av egendomen Beateberg i
-            Huddinge socken av Stockholms län;
-          </note>
-          <note xml:id="i-KpKi8Fr1X8Rb34z5N524V3">
-            nr 141, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av mark från vissa kronoegendomar m. m.;
-          </note>
-          <note xml:id="i-H24KVUKSYeHBpRcc9BbuWs">
-            nr 142, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av mark från vissa kronoegendomar m. m.;
-          </note>
-          <note xml:id="i-CJC8Gaq5Xpt9QeD9s3mBma">
-            nr 143, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av ett område av Tånga hed; och
-          </note>
-          <note xml:id="i-EwPwP72wnxXq2urJvBkYZf">
-            nr 144, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av kronan tillhöriga stadsägan nr 485 å västra området i Södertälje.
-          </note>
-          <note xml:id="i-FYiTvWSgbXLCsucxegxBSm">
-            Justerades protokollsutdrag. --
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1938--ak--23/prot_1938__ak__23-004.jp2/_view"/>
-          <note xml:id="i-2WrBB6htE1FtpqvZFHUJZu">
-            Ledighet från riksdagsgöromålen beviljades:
-          </note>
-          <note xml:id="i-5HdF3FKF2y4NAEHe6VtgS7">
-            herr Hallén
-          </note>
-          <note xml:id="i-Uzp2HwafBiG3tY4ftgARnm">
-            v vv v vuNs ue
-          </note>
-          <note xml:id="i-AzUo2e2QYK2TxPh2fB326N">
-            Lundell
-          </note>
-          <note xml:id="i-PbdVV6MdhnuqZTR3SyuBrJ">
-            Pettersson i Dahl Janson i Frändesta Andersson i Dunker Österström
-          </note>
-          <note xml:id="i-3tqWkM2a1MzPVcvkH7rLQi">
-            Jacobson Ekdahl
-          </note>
-          <note xml:id="i-HdHBdZLeLhu1uDfez3hQEL">
-            Kammarens ledamöter åtskildes härefter kl. 4,17 e. m.
-          </note>
-          <note type="date" xml:id="i-3iPrMTpeesBQC7XW7Ze1Ri">
-            Lördagen den 26 mars 1938.
-          </note>
-          <note xml:id="i-PAHxoDTbYGaj7sdFQgmKQx">
-            § 10.
-          </note>
-          <note xml:id="i-AKf39H1FYg1rXiiVVxz45Z">
-            Nr 23.
-          </note>
-          <note xml:id="i-58hfM1ooL38d223nWw4FS3">
-            [DS g
-          </note>
-          <note xml:id="i-65TSVRNymwpRQFX3Gq3wMW">
-            under 2 dagar fr. o.m. den 26 mars,
-          </note>
-          <note xml:id="i-NJsMYtv9FNV5R5sqm4ZhyP">
-            »
-          </note>
-          <note xml:id="i-HPXmCoGkRwedxdkYQ9VBNh">
-            vv vuyuY sv ov
-          </note>
-          <note xml:id="i-6sSfR9WNnzDPhgCvZ8Uqg3">
-            OR ND RR I
-          </note>
-          <note xml:id="i-AFmSdKXDH2rcVpqoYx8haD">
-            &gt;
-          </note>
-          <note xml:id="i-5LCnHFjowjm3ES7FA2yzmA">
-            vs vw sv uy
-          </note>
-          <note xml:id="i-WNk2Vihxh51HT5b8L8t1pc">
-            &gt; » &gt; &gt; &gt;
-          </note>
-          <note xml:id="i-Am3sMx78qysnojREBo5FyB">
-            &gt;» »
-          </note>
-          <note xml:id="i-6Cfc1BLixxpr3C2i3qFGKc">
-            &gt; 24 &gt; &gt; 28 &gt; » 24 &gt; &gt; 235 3 &gt; 27 &gt; 25 &gt;» och &gt; 26 &gt;
-          </note>
-          <note xml:id="i-5rrPLvw1jayarmHbqaH5sA">
-            In fidem Sune Norrman.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1938--ak--23/prot_1938__ak__23-005.jp2/_view"/>
-          <note xml:id="i-MRWrCsG6UmJ7SSnYmcF9HW">
-            6 Nr 23. Tisdagen den 29 mare 1938.
-          </note>
-          <note type="date" xml:id="i-5G3wtFKmQNvxa2t82H4WLu">
-            Tisdagen den 29 mars. Kl. 4 e. m.
-          </note>
-          <note xml:id="i-YUez1K8h2m3eiWGErpeno5">
-            81
-          </note>
-          <note xml:id="i-owzvup2snnqgx4zZh2a4o">
-            Justerades protokollet för den 22 innevarande mars.
-          </note>
-          <note xml:id="i-FBhzWBXd3tSobd2FEBevyu">
-            §2.
-          </note>
-          <note xml:id="i-X4rWjHPbh6Ycc4XVLVnZx">
-            Föredrogs Kungl. Maj:ts å kammarens bord vilande proposition,
-            nr 258, med förslag till omläggning av den direkta statsbeskattningen
-            m. m.; och hänvisades propositionen, såvitt anginge de under punkterna
-            9—13 angivna lagförslagen till konstitutionsutskottet samt i övrigt
-            till bevillningsutskottet.
-          </note>
-          <note xml:id="i-Q4ReQjiCurYDLeX661hf6w">
-            Vidare föredrogs och remitterades till konstitutionsutskottet
-            Kungl. Maj:ts proposition, nr 260, med förslag till lag angående
-            rätt för Konungen att meddela förordnande om vissa förmåner åt
-            statslösa med flera.
-          </note>
-          <note xml:id="i-72XiY9Mq98SgXJ87PQkN2N">
-            §3.
-          </note>
-          <note xml:id="i-LTA5aMJBuZaP8sEzAbWxtc">
-            Härefter föredrogos, men bordlades åter utrikesutskottets utlåtanden
-            nr 3 och 4, konstitutionsutskottets utlåtanden nr 8—10 samt statsutskottets
-            utlåtande nr 7.
-          </note>
-          <note xml:id="i-TE921Wxyt2ARJnCMYvVCPX">
-            § 4.
-          </note>
-          <note xml:id="i-253my8ZPciGHvtELXfscyi">
-            Föredrogs statsutskottets memorial, nr 78, i anledning av kamrarnas
-            skiljaktiga beslut i fråga om anslag till undervisning genom infödda
-            lärare i tyska, engelska och franska språken vid de allmänna läroverken
-            m. fl. läroanstalter.
-          </note>
-          <note xml:id="i-6PffiiUGBhYwYoaFWKhcAL">
-            Den i detta memorial föreslagna voteringspropositionen godkändes.
-          </note>
-          <note xml:id="i-6BEDLA4UzHu9PVegad1WxL">
-            SE
-          </note>
-          <note xml:id="i-NsQ2nJ2bH9jhimtgeRUgD2">
-            Slutligen föredrogos, men bordlades ånyo statsutskottets utlåtanden
-            nr 79— 84, första lagutskottets utlåtanden nr 25—928, jordbruksutskottets
-            utlåtanden nr 45—52 samt andra kammarens fjärde tillfälliga utskotts
-            utlåtande nr 3.
-          </note>
-          <note xml:id="i-15wyUR9osHMMEyiusm9z6T">
-            § 6.
-          </note>
-          <note xml:id="i-89ys1c444fAhUoUoZJrY8o">
-            Herr statsrådet Pehrsson-Bramstorp avlämnade Kungl. Maj:ts propositioner:
-          </note>
-          <note xml:id="i-EGTRpLEkzHR9KwTL4rdndD">
-            nr 259, med förslag till lag angående ändrad lydelse av 1, 3
-            och 4 $$ lagen den 6 juni 1930 (nr 202) om begränsning av rätten
-            att avverka skog å intecknad fastighet;
-          </note>
-          <note xml:id="i-Um3iPjKW4DPsjfEaXqxYuR">
-            nr 261, angående åtgärder till underlättande av belåning av jordbruksegendom
-            med växande skog; och
-          </note>
-          <note xml:id="i-JrA8LjoRaRX8J3LbQGWDWA">
-            nr 262, med förslag till lag om ändrad lydelse av 5 8 skogsvårdslagen
-            den 15 juni 1923 (nr 212).
-          </note>
-          <note xml:id="i-4PHFqpsPm1GgAcSGFVz6LT">
-            Dessa propositioner bordlades.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1938--ak--23/prot_1938__ak__23-006.jp2/_view"/>
-          <note type="date" xml:id="i-5xaCg5hiGfS1BtmYgz3unD">
-            Tisdagen den 29 mars 1938. Nr 23. 7
-          </note>
-          <note xml:id="i-LoVMvhWVUM9rtev9aWsUP1">
-            § 7.
-          </note>
-          <note xml:id="i-K5NACbt6yRRYTfsNGBy9s">
-            Ordet lämnades nu på begäran till
-          </note>
-          <note type="speaker" xml:id="i-6VGWyNMa2AgisP7Tg4T1bU">
-            Herr Lundell, som yttrade:
-          </note>
-          <u who="Q5966411" xml:id="i-9c6d59a95ee0474f-0">
-            <seg xml:id="i-PZVvqy7n5Vq6jYva7bg7p2">
-              Herr talman! Jag hemställer, att motionstiden i anledning av
-              Kungl. Maj:ts proposition nr 258, med förslag till omläggning
-              av den direkta statsbeskattningen m. m., på grund av ärendets
-              omfattning må utsträckas till det sammanträde, som infaller näst
-              efter tjugu dagar från propositionens avlämnande.
-            </seg>
-          </u>
-          <note xml:id="i-QHuyBqHJmGDL8PwRQ5TcED">
-            Denna hemställan bifölls.
-          </note>
-          <note xml:id="i-N42Ghekm889aDLBZ29f1o1">
-            §8.
-          </note>
-          <note xml:id="i-6DfJ6c9h9uT8T5wGSE1Ana">
-            Till bordläggning anmäldes andra kammarens första tillfälliga
-            utskotts utlåtande, nr 2, i anledning av väckt motion, II:47,
-            angående viss ändring av gällande bestämmelser för undervisning
-            i arbetskunskap vid fortsättningsskola.
-          </note>
-          <note xml:id="i-KbF1eL8MBVAqe9DBgDqeVA">
-            § 9.
-          </note>
-          <note xml:id="i-KNtx7uvjDCybA1gaYkVMjj" type="speaker">
-            Herr förste vice talmannen Jeppsson erhöll härefter på begäran
-            ordet och anförde:
-          </note>
-          <u who="Q5882484" xml:id="i-6X6dptKvSxyCocekja4BAW">
-            <seg xml:id="i-QJdi1qAPoNWgtWKatZFv2e">
-              Jag hemställer, att på morgondagens föredragningslista bland
-              två gånger bordlagda ärenden först måtte uppföras första lagutskottets
-              utlåtande nr 24, därefter statsutskottets utlåtanden nr 7, nr
-              73—77, nr 79—84, utrikesutskottets utlåtande nr 3 och 4, konstitutionsutskottets
-              utlåtanden nr 8—10 samt där- FA ärendena i den ordning, i vilken
-              de förekomma på dagens föredragnings-
-            </seg>
-          </u>
-          <note xml:id="i-X2GZTipdW5wn9QAodhfGB1">
-            ista.
-          </note>
-          <note xml:id="i-FeUm5G2ocrDCo74GRgHXzG">
-            Denna hemställan bifölls.
-          </note>
-          <note xml:id="i-EJ59SJwEKMEvaRmmP2Kyy7">
-            § 10.
-          </note>
-          <note xml:id="i-QXRdXUAMz5HgwguDT7UUbJ">
-            Anmäldes och godkändes följande förslag till riksdagens skrivelser
-            till Konungen, nämligen
-          </note>
-          <note xml:id="i-9V7WVb3jsyBPruSfbojyZi">
-            från statsutskottet:
-          </note>
-          <note xml:id="i-Kmoc9Q54Y9W2yKQe5t78AU">
-            nr 5, i anledning av vissa i statsverkspropositionen gjorda framställningar
-            rörande utgifterna för budgetåret 1938/39 under riksstatens femte
-            huvudtitel, innefattande anslagen till socialdepartementet;
-          </note>
-          <note xml:id="i-ML6imNSr48i6jtmFQYctEV">
-            nr 134, i anledning av Kungl. Maj:ts proposition angående egnahemslån
-            till statens järnvägars personal i Ånge;
-          </note>
-          <note xml:id="i-X3FsQhSHKfWnGeBvMi6Vhx">
-            nr 135, i anledning av Kungl. Maj:ts proposition angående överlåtelse
-            till Stockholms stad av vissa markområden å Ladugårdsgärdet i
-            Stockholm;
-          </note>
-          <note xml:id="i-3PCGjPWj3D11JuyLCVtdtB">
-            nr 136, i anledning av Kungl. Maj:ts proposition angående inköp
-            för telegrafverkets räkning av tomt i Uppsala; och
-          </note>
-          <note xml:id="i-AcVio3K4aHbsXyztsU6BFp">
-            nr 137, i anledning av Kungl. Maj:ts proposition angående tillägg
-            till avtal om regleringen av sjöarna Uddjaur och Storavan; samt
-          </note>
-          <note xml:id="i-Razb4YPMrM96MFNLJhmdNC">
-            från bankoutskottet:
-          </note>
-          <note xml:id="i-DxfkzKG4ytLk78s7UYnicm">
-            nr 145, i anledning av Kungl. Maj:ts proposition med förslag
-            till förordning om ändrad lydelse av övergångsbestämmelsen till
-            förordningen den 5 Juni 1936 (nr 239) angående ändrad lydelse
-            av 11 8 förordningen den 18 juni 1927 (nr 234) om ersättning i
-            anledning av kroppsskada, ådragen under militärtjänstgöring.
-          </note>
-          <note xml:id="i-9TPR3MEaJzUzht2agUBbxC">
-            &amp; 11. Justerades protokollsutdrag.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1938--ak--23/prot_1938__ak__23-007.jp2/_view"/>
-          <note type="date" xml:id="i-QuqBUksDhRzVEJsKK6YfL2">
-            Nr 23. Tisdagen den 29 mars 1938.
-          </note>
-          <note xml:id="i-PmhB8KFo5TWihfVkwQDTVe">
-            § 12.
-          </note>
-          <note xml:id="i-DXecAnxZdj93Q8PQgsxLWo">
-            Ledighet från riksdagsgöromålen beviljades: herr Sundström i
-            Skövde under 2 dagar fr. o. m. den 31 mars.
-          </note>
-          <note xml:id="i-YUHhVQT6Y8Pvvvwb36ZbXA">
-            Kammarens ledamöter åtskildes härefter kl. 4.14 e. m.
-          </note>
-          <note xml:id="i-7oGkpK1YSLHgUu57pQqYG7">
-            "In fidem Sune Norrman.
-          </note>
-          <note xml:id="i-SZMrSqqbdXNfK92hjcPekq">
-            Stockholm 1938. Kungl. Boktryckeriet, P. A. Norstedt &amp; Söner.
-            381601
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1938--ak--23</head>
+        <docDate when="1938-03-26">1938-03-26</docDate>
+        <docDate when="1938-03-29">1938-03-29</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1938--ak--23/prot_1938__ak__23-000.jp2/_view"/>
+        <note xml:id="i-Mt2PT13uhsGXDbEfrKeBGG">
+          RIKSDAGENS PROTOKOLL.
+        </note>
+        <note xml:id="i-MxacqJe3TPXALYWSpPuy6h">
+          1938. Andra kammaren.
+        </note>
+        <note xml:id="i-TeK6FcuqhidPZDtQDwwZVQ">
+          Nr 23.
+        </note>
+        <note type="date" xml:id="i-KsrvnzmPVU8n1UyVRZgiRQ">
+          Lördagen den 26 mars. Kl. 4 e. m.
+        </note>
+        <note xml:id="i-C4FfkP1BmCodZ8Rj2qNWCW">
+          § 1.
+        </note>
+        <note xml:id="i-3QcfVSvtBEPk1jithTq4Yh">
+          Justerades protokollen för den 18 och den 19 innevarande mars.
+        </note>
+        <note xml:id="i-CdSi7BK8Up8v65n1YVFWt7">
+          § 2.
+        </note>
+        <note type="speaker" xml:id="i-5ZmWZX1qFNPyS9pGT6XZub">
+          Herr statsrådet Wigforss avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-TXniJaRTRmXLtsMYvT2B5q">
+          ts propositioner:
+        </note>
+        <note xml:id="i-2VY37kgWxs8cTpFDRaW1pV">
+          nr 258, med förslag till omläggning av den direkta statsbeskattningen
+          m. m.; och nr 260, med förslag till lag angående rätt för Konungen
+          att meddela förordnande om vissa förmåner åt statslösa med flera.
+        </note>
+        <note xml:id="i-S3TvAkgSuSuW3PZuVxLPzQ">
+          Dessa propositioner bordlades.
+        </note>
+        <note xml:id="i-HbhcuYXAXxENp2QA6NTSUp">
+          § 3.
+        </note>
+        <note xml:id="i-gzUhLsA9qHrU9LRtooeyp">
+          Föredrogos var för sig följande på kammarens bord liggande motioner;
+          och remitterades därvid
+        </note>
+        <note xml:id="i-VpfipGiqtSgKeaq5wFXDpY">
+          till bevillningsutskottet motionerna:
+        </note>
+        <note xml:id="i-SgZvjRRy833WBWuHhrDnN6">
+          nr 406 av herr Lindberg i Stockholm och Lithander; nr 407 av
+          herr Lindmark m. fl.;
+        </note>
+        <note xml:id="i-AJtHxqERcHEug7oajarMH">
+          nr 408 av herr Liedberg m. fl.;
+        </note>
+        <note xml:id="i-8xkToGrUYLhgmHE8BZ3mQU">
+          nr 409 av herrar Liedberg och Gustafson i Kasenberg;
+        </note>
+        <note xml:id="i-C7HBK88u9Yt5pK5qeojkDx">
+          till statsutskottet motionerna:
+        </note>
+        <note xml:id="i-92pckZ9dDSexZouYoyAvM">
+          nr 410 av herr Lundqvist m. fl.;
+        </note>
+        <note xml:id="i-QQPyq8qK7uK36Tsnyid5YF">
+          nr 411 av herr Lindskog m. fl.;
+        </note>
+        <note xml:id="i-AFRsugVUjo3nttDHMzuunY">
+          nr 412 av herr Nyblom m. fl.;
+        </note>
+        <note xml:id="i-MibAiB9cMs86kNZ3zip225">
+          nr 413 av herr Lindmark m. fl.;
+        </note>
+        <note xml:id="i-QqS8ueiLnW8uy467w26EdJ">
+          nr 414 av herr Karlsson i Granebo m. fl.; nr 415 och 416 av fröken
+          Hesselgren m. fl.; nr 417 av herr Lindén m. fl.;
+        </note>
+        <note xml:id="i-TV6eDGLueTVE1yH8iou8uJ">
+          nr 418 av herr Tornegård;
+        </note>
+        <note xml:id="i-LqaN6BvGQsrbPn6ct5Vo5H">
+          nr 419 av herr Åqvist m. fl.; och
+        </note>
+        <note xml:id="i-GMcG2ZqnwNa45iGwfa8ps5">
+          nr 420 av herr Sandström m. fl.;
+        </note>
+        <note xml:id="i-AiWfbYPTgSDbbTFGouGTqp">
+          till bankoutskottet motionerna:
+        </note>
+        <note xml:id="i-QtBxvVP2xQ4GwE2QSTeyAJ">
+          nr 421 av herrar Lundqvist och Arnemark; och nr 422 av fröken
+          Andersson; samt
+        </note>
+        <note xml:id="i-HZJhBR9fZtDD4N2AP8EjJ4">
+          till behandling av lagutskott motionerna:
+        </note>
+        <note xml:id="i-59LwBiTpU6TxQLm9GDuTu2">
+          nr 423 av herrar Åqvist och Tengström; nr 424 av herr Tengström;
+          och nr 425 samt 426 av herr Bagge m. fl.
+        </note>
+        <note xml:id="i-GWB9ucRjgTe4tnSGy87cLe">
+          Andra kammarens protokoll 1938. Nr 23.
+        </note>
+        <note xml:id="i-HhT3MshjTKGCn5xnCD1qo8">
+          [a
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1938--ak--23/prot_1938__ak__23-001.jp2/_view"/>
+        <note type="date" xml:id="i-QaWKc1XabWb4YThrgfEGd3">
+          2 Nr 23. Lördagen den 26 mars 1938.
+        </note>
+        <note xml:id="i-Pd63J2h3EQWEFfkXVLKnuP">
+          Vid nu skedd föredragning av en av herr Hagberg i Malmö mn. fl.
+          avgiven motion, nr 427, i anledning av Kungl. Maj:ts proposition,
+          nr 233, med förslag till förordning angående handel med vissa
+          mineraloljor, m. m. hänvisades motionen, såvitt anginge förordningsförslaget,
+          till behandling av lagutskott samt 1 övrigt till statsutskottet.
+        </note>
+        <note xml:id="i-VdokUcmvXYLxiivzLUMprR">
+          Härefter föredrogos var för sig övriga på bordet vilande motioner;
+          och remitterades därvid
+        </note>
+        <note xml:id="i-Jq1DB8H6waAVK8VoGKvw1j">
+          till jordbruksutskottet motionen nr 428 av herrar Skoglund och
+          Nolin; till statsutskottet motionen nr 429 av herr Nilsson i Steneberg
+          m. fl.; samt
+        </note>
+        <note xml:id="i-7BtWFiG8DSKqMZ3qyDP851">
+          till bevillningsutskottet motionerna:
+        </note>
+        <note xml:id="i-PC26zNjUM31EFZHyWw767V">
+          nr 430 av herrar Nilsson. i Steneberg och Danielsson; och nr
+          431 av herr Lundell.
+        </note>
+        <note xml:id="i-HdhJaavXWyfzhQGAtCkyYa">
+          § 4.
+        </note>
+        <note xml:id="i-7CyGNkMhWm4VzoJZ3SGn5U">
+          Vidare föredrogs och hänvisades till bankoutskottet fullmäktiges
+          i riksgäldskontoret skrivelse med överlämnande av utredning rörande
+          införande av förhandlingsrätt för tjänstemän vid riksdagens verk.
+        </note>
+        <note xml:id="i-DTxMb3i5o2hVNQNyGfnwb1">
+          § 5.
+        </note>
+        <note xml:id="i-8CRrUtSta7giUAf4LEKT8K">
+          Föredrogos, men bordlades åter statsutskottets utlåtanden nr
+          73—77, första lagutskottets utlåtande nr 24 samt andra kammarens
+          första tillfälliga utskotts utlåtande nr 1.
+        </note>
+        <note xml:id="i-PaD89RHBeCfhtgGNfzv62P">
+          § 6.
+        </note>
+        <note xml:id="i-TH4CJhKyBKyjWGCpQVBJup">
+          Slutligen föredrogs herr Karlssons i Grängesberg vid kammarens
+          nästföregående sammanträde gjorda, men då bordlagda anhållan att
+          till herr statsrådet och chefen för socialdepartementet få framställa
+          spörsmål angående behovet av åtgärder i syfte att göra arbetarskyddet
+          inom gruvindustrien mera effektivt m. m.; och blev ifrågavarande
+          anhållan av kammaren bifallen. i
+        </note>
+        <note xml:id="i-5XS3JTyBNVnjbYcace8bLH">
+          § 7. Till bordläggning anmäldes:
+        </note>
+        <note xml:id="i-XbmzhXNKCJ8TiAoAjVgAVe">
+          utrikesutskottets utlåtanden:
+        </note>
+        <note xml:id="i-TBcwzDGCxSc3hxx5FCZC3y">
+          nr 3, i anledning av Kungl. Maj:ts proposition angående godkännande
+          av en den 10 april 1926 avslutad internationell konvention rörande
+          fastställande av vissa gemensamma bestämmelser i fråga om statsfartygs
+          frioch rättigheter, m. m.; och
+        </note>
+        <note xml:id="i-3gmYyWRKDtmmHoPpQaQ3yi">
+          nr 4, i anledning av Kungl. Maj:ts proposition om godkännande
+          av det internationella avtalet den 13 maj 1936 angående enhetligt
+          system för utprickning av farleder;
+        </note>
+        <note xml:id="i-Vg8UpijiiqZMR2vyjsq6oq">
+          konstitutionsutskottets utlåtanden:
+        </note>
+        <note xml:id="i-Y7vc5G5xdMtpu3uvFvp8L8">
+          nr 8, i anledning av väckt motion angående vissa grundlagsändringar
+          i syfte att bereda riksdagens kamrar rätt att under viss förutsättning
+          var för sig avlåta framställningar till Kungl. Maj:t;
+        </note>
+        <note xml:id="i-5fpNLW1aJAL3DpGQotuaUF">
+          nr 9, i anledning av väckt motion om införande av obligatoriska
+          fullmäktigeinstitutioner i samtliga borgerliga kommuner; och :
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1938--ak--23/prot_1938__ak__23-002.jp2/_view"/>
+        <note type="date" xml:id="i-RxeXxCcQYq8iPEGuNqenNx">
+          Lördagen den 26 mars 1938. Nr 23. 3
+        </note>
+        <note xml:id="i-5Q5r8aH4NGhKxC6YZ3gFTL">
+          nr 10, i anledning av väckt motion angående interpellationsinstitutets
+          omformning och utbyggande;
+        </note>
+        <note xml:id="i-TfmY1cUinyFjjFS3vdPdro">
+          statsutskottets utlåtanden och memorial:
+        </note>
+        <note xml:id="i-PF2qTeH5NvhL1maUkTMt9S">
+          nr 7, angående regleringen för budgetåret 1938/39 av utgifterna
+          under riksstatens sjunde huvudtitel, innefattande anslagen till
+          finansdepartementet;
+        </note>
+        <note xml:id="i-FaUfDX9k7DXZRkrugpmrPe">
+          nr 78, i anledning av kamrarnas skiljaktiga beslut i fråga om
+          anslag till undervisning genom infödda lärare i tyska, engelska
+          och franska språken vid de allmänna läroverken m. fl. läroanstalter;
+        </note>
+        <note xml:id="i-J5TTEMATFnixWvMvWZYQni">
+          nr 79, i anledning av Kungl. Maj:ts i statsverkspropositionen
+          gjorda framställning om kapitalinvestering i fonden för förlag
+          till statsverket till förskott å lotterimedelsfonden;
+        </note>
+        <note xml:id="i-BQdDNoAVhYSkcSKJ7yCyVk">
+          nr 80, i anledning av Kungl. Maj:ts proposition angående befrielse
+          för värnpliktige E. F. Björkstrand m. fl. från viss betalningsskyldighet;
+        </note>
+        <note xml:id="i-VmZAzQShwXNsS9UHEy9sBR">
+          nr 81, i anledning av Kungl. Maj:ts proposition angående gäldande
+          av vissa skadeståndsoch ersättningsbelopp;
+        </note>
+        <note xml:id="i-Gem3fYP23xHfFvtX29AD9J">
+          nr 82, i anledning av Kungl. Maj:ts proposition angående kompensation
+          till Marstrands stad i anledning av skeppsgossekårens indragning;
+        </note>
+        <note xml:id="i-Lkpx7fahyaEmAH1cc2AaHs">
+          nr 83, i anledning av Kungl. Maj:ts proposition angående beställning
+          av viss flygmateriel m. m.; och
+        </note>
+        <note xml:id="i-8X2QTJiRVVneBC6ezdrWS8">
+          nr 84, i anledning av väckt motion angående beredande av gottgörelse
+          i en annan form till vissa musiksergeanter för stängda befordringsmöjligeter;
+        </note>
+        <note xml:id="i-Eh5KU3BJmjHpVBxhZMhpdG">
+          första lagutskottets utlåtanden:
+        </note>
+        <note xml:id="i-AsV9m7TivU975BcqAccxtA">
+          nr 25, i anledning av väckt motion om ändrade bestämmelser rörande
+          försäljning av samfälld fastighet;
+        </note>
+        <note xml:id="i-HZn8Pc5QKwWj6NEmHRmPM1">
+          nr 26, i anledning av väckta motioner om utredning rörande förpliktelse
+          för aktiebolag att sörja för anställdas pensionering;
+        </note>
+        <note xml:id="i-Dif2e9aHeVuw91Q4ieLjVd">
+          nr 27, i anledning av väckt motion om åläggande för importörer
+          av japanska varor att utmärka ursprungslandet å dessa; och
+        </note>
+        <note xml:id="i-Y1KkePkSSaPJxUQrQ5Qti5">
+          nr 28, i anledning av väckta motioner angående viss ändring av
+          gällande bestämmelser om äkta makars inbördes ansvar i ekonomiskt
+          avseende;
+        </note>
+        <note xml:id="i-C4MvGtHqoJ2Lsceb275hKz">
+          jordbruksutskottets utlåtanden:
+        </note>
+        <note xml:id="i-88XsC6ntELgQf6EeehamcD">
+          nr 45, i anledning av Kungl. Maj:ts proposition angående ytterligare
+          statsunderstöd till Nossans regleringsföretag inom Eggvena med
+          flera socknar av Älvsborgs och Skaraborgs län;
+        </note>
+        <note xml:id="i-FvN6kmzfFt6kJTBbgTd2at">
+          nr 46, i anledning av Kungl. Maj:ts proposition angående statsunderstöd
+          till Vens elektrifiering;
+        </note>
+        <note xml:id="i-12wup3hcDR17RHHh7U9peJ">
+          nr 47, i anledning av Kungl. Maj:ts proposition angående beviljande
+          av anslag till underlättande av anskaffningen av träkol till generatorgasdrivna
+          motorfordon m. m.;
+        </note>
+        <note xml:id="i-MDseAabiQN2et5gHU9turr">
+          nr 48, i anledning av Kungl. Maj:ts proposition angående ytterligare
+          statsunderstöd till ett torrläggningsföretag, avseende utdikning
+          av sjöarna Ralången och Lunnasjön i Hultsjö socken av Jönköpings
+          län;
+        </note>
+        <note xml:id="i-6Y9sKNMn6586XpuuYY6eBD">
+          nr 49, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av kronojordlägenheterna Sockenstuguplatsen nr 1 och Kyrkostuguplatsen
+          nr 2 1 Vittangi by, Jukkasjärvi socken;
+        </note>
+        <note xml:id="i-KkmV6QNcQ5n9VS7TyUogV3">
+          nr 50, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av vissa allmänna arvsfonden tilifallna fastigheter;
+        </note>
+        <note xml:id="i-F6e1BawfQc1nUpviK778rf">
+          nr 51, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av vissa kronan tillhöriga områden inom Bergkvara municipalsamhälle;
+          och
+        </note>
+        <note xml:id="i-GYTyceEAy14gc3ZMPaDm3Q">
+          nr 52, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av vissa kronoegendomar och lägenheter från sådana egendomar;
+          samt
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1938--ak--23/prot_1938__ak__23-003.jp2/_view"/>
+        <note type="date" xml:id="i-M4nPd1ScuNKhyTupsdih7n">
+          4 Nr 23. Lördagen den 26 mars 1938.
+        </note>
+        <note xml:id="i-PcRLoXCeanVPUSNCgCqE3j">
+          andra kammarens fjärde tillfälliga utskotts utlåtande, nr 3,
+          i anledning av väckt motion angående hos utländska diplomater
+          anställdas försäkring för skada till följd av olycksfall i arbete.
+        </note>
+        <note xml:id="i-6BK7kxFq2B4EcZNuS2kvn6">
+          § 8.
+        </note>
+        <note xml:id="i-UcAsPQinTm1RFtbEFNezg4">
+          Anmäldes och godkändes följande förslag till riksdagens skrivelser
+          till Konungen, nämligen
+        </note>
+        <note xml:id="i-LD7AEBg8apJ8BBedTLduWF">
+          från statsutskottet:
+        </note>
+        <note xml:id="i-36WrvTY8dg5FHsvR2XNsJJ">
+          nr 4, angående vissa av Kungl. Maj:t gjorda framställningar i
+          avseende å utgifterna för budgetåret 1938;39 under riksstatens
+          fjärde huvudtitel, innefattande anslagen till försvarsdepartementet;
+        </note>
+        <note xml:id="i-SDdtgkvCCbEoQokTTMcVG6">
+          nr 6, angående regleringen för budgetåret 1938/39 av utgifterna
+          under riksstatens sjätte huvudtitel, innefattande anslagen till
+          kommunikationsdepartementet;
+        </note>
+        <note xml:id="i-UdcyELMFW4Sk4u6GdhJpSh">
+          nr 127, i anledning av Kungl. Maj:ts proposition angående bidrag
+          till internationell hjälpverksamhet till förmån för hemlösa barn
+          i Spanien;
+        </note>
+        <note xml:id="i-NnQP8xDvoAGZss96sWv5us">
+          nr 128, i anledning av Kungl. Maj:ts 1 statsverkspropositionen
+          under tionde huvudtiteln gjorda framställning om anslag till Lotsverket:
+          Säkerhetsanstalter för sjöfarten;
+        </note>
+        <note xml:id="i-93eLpx5Gtge6yVX1UzhhAn">
+          nr 129, i anledning av Kungl. Maj:ts proposition angående kapitalökning
+          för lotsverkets båtlånefond; |
+        </note>
+        <note xml:id="i-2PtdCmWW1Vh6gASbZ3M561">
+          nr 130, i anledning av Kungl. Maj:ts proposition angående emottagande
+          av gåva för anordnande av lokaler för ett trätekniskt laboratorium
+          vid statens provningsanstalt;
+        </note>
+        <note xml:id="i-XFMBJNsXhuUYSzKNmr9eeW">
+          nr 131, angående regleringen för budgetåret 1938/39 av utgifterna
+          under riksstatens elfte huvudtitel, i vad angår anslaget till
+          allmänna indragningsstaten; och
+        </note>
+        <note xml:id="i-2PmLx6RMPMBHrg8FyRhVTe">
+          nr 132, i anledning av Kungl. Maj:ts proposition angående penninglotteriväsendet;
+          samt
+        </note>
+        <note xml:id="i-5XAjBvD93iNvfDh5xVAZxQ">
+          från jordbruksutskottet:
+        </note>
+        <note xml:id="i-RZmFjrUhfagULbtH7h6V5f">
+          nr 138, i anledning av Kungl. Maj:ts proposition angående befrielse
+          för Axel Strömdahl och E. F. Ericson, Stockholm, från viss betalningsskyldighet
+          till kronan på grund av borgen vid virkesköp;
+        </note>
+        <note xml:id="i-JfVk1ZNLtvxbfGnzu1E1CF">
+          nr 139, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av vissa lägenheter å Grängesbergs gruvallmänning i Kopparbergs
+          län;
+        </note>
+        <note xml:id="i-LtB67dSDx6y3g2ao5U2xxr">
+          nr 140, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av visst kronan tillhörigt markområde av egendomen Beateberg i
+          Huddinge socken av Stockholms län;
+        </note>
+        <note xml:id="i-KpKi8Fr1X8Rb34z5N524V3">
+          nr 141, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av mark från vissa kronoegendomar m. m.;
+        </note>
+        <note xml:id="i-H24KVUKSYeHBpRcc9BbuWs">
+          nr 142, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av mark från vissa kronoegendomar m. m.;
+        </note>
+        <note xml:id="i-CJC8Gaq5Xpt9QeD9s3mBma">
+          nr 143, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av ett område av Tånga hed; och
+        </note>
+        <note xml:id="i-EwPwP72wnxXq2urJvBkYZf">
+          nr 144, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av kronan tillhöriga stadsägan nr 485 å västra området i Södertälje.
+        </note>
+        <note xml:id="i-FYiTvWSgbXLCsucxegxBSm">
+          Justerades protokollsutdrag. --
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1938--ak--23/prot_1938__ak__23-004.jp2/_view"/>
+        <note xml:id="i-2WrBB6htE1FtpqvZFHUJZu">
+          Ledighet från riksdagsgöromålen beviljades:
+        </note>
+        <note xml:id="i-5HdF3FKF2y4NAEHe6VtgS7">
+          herr Hallén
+        </note>
+        <note xml:id="i-Uzp2HwafBiG3tY4ftgARnm">
+          v vv v vuNs ue
+        </note>
+        <note xml:id="i-AzUo2e2QYK2TxPh2fB326N">
+          Lundell
+        </note>
+        <note xml:id="i-PbdVV6MdhnuqZTR3SyuBrJ">
+          Pettersson i Dahl Janson i Frändesta Andersson i Dunker Österström
+        </note>
+        <note xml:id="i-3tqWkM2a1MzPVcvkH7rLQi">
+          Jacobson Ekdahl
+        </note>
+        <note xml:id="i-HdHBdZLeLhu1uDfez3hQEL">
+          Kammarens ledamöter åtskildes härefter kl. 4,17 e. m.
+        </note>
+        <note type="date" xml:id="i-3iPrMTpeesBQC7XW7Ze1Ri">
+          Lördagen den 26 mars 1938.
+        </note>
+        <note xml:id="i-PAHxoDTbYGaj7sdFQgmKQx">
+          § 10.
+        </note>
+        <note xml:id="i-AKf39H1FYg1rXiiVVxz45Z">
+          Nr 23.
+        </note>
+        <note xml:id="i-58hfM1ooL38d223nWw4FS3">
+          [DS g
+        </note>
+        <note xml:id="i-65TSVRNymwpRQFX3Gq3wMW">
+          under 2 dagar fr. o.m. den 26 mars,
+        </note>
+        <note xml:id="i-NJsMYtv9FNV5R5sqm4ZhyP">
+          »
+        </note>
+        <note xml:id="i-HPXmCoGkRwedxdkYQ9VBNh">
+          vv vuyuY sv ov
+        </note>
+        <note xml:id="i-6sSfR9WNnzDPhgCvZ8Uqg3">
+          OR ND RR I
+        </note>
+        <note xml:id="i-AFmSdKXDH2rcVpqoYx8haD">
+          &gt;
+        </note>
+        <note xml:id="i-5LCnHFjowjm3ES7FA2yzmA">
+          vs vw sv uy
+        </note>
+        <note xml:id="i-WNk2Vihxh51HT5b8L8t1pc">
+          &gt; » &gt; &gt; &gt;
+        </note>
+        <note xml:id="i-Am3sMx78qysnojREBo5FyB">
+          &gt;» »
+        </note>
+        <note xml:id="i-6Cfc1BLixxpr3C2i3qFGKc">
+          &gt; 24 &gt; &gt; 28 &gt; » 24 &gt; &gt; 235 3 &gt; 27 &gt; 25 &gt;» och &gt; 26 &gt;
+        </note>
+        <note xml:id="i-5rrPLvw1jayarmHbqaH5sA">
+          In fidem Sune Norrman.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1938--ak--23/prot_1938__ak__23-005.jp2/_view"/>
+        <note xml:id="i-MRWrCsG6UmJ7SSnYmcF9HW">
+          6 Nr 23. Tisdagen den 29 mare 1938.
+        </note>
+        <note type="date" xml:id="i-5G3wtFKmQNvxa2t82H4WLu">
+          Tisdagen den 29 mars. Kl. 4 e. m.
+        </note>
+        <note xml:id="i-YUez1K8h2m3eiWGErpeno5">
+          81
+        </note>
+        <note xml:id="i-owzvup2snnqgx4zZh2a4o">
+          Justerades protokollet för den 22 innevarande mars.
+        </note>
+        <note xml:id="i-FBhzWBXd3tSobd2FEBevyu">
+          §2.
+        </note>
+        <note xml:id="i-X4rWjHPbh6Ycc4XVLVnZx">
+          Föredrogs Kungl. Maj:ts å kammarens bord vilande proposition,
+          nr 258, med förslag till omläggning av den direkta statsbeskattningen
+          m. m.; och hänvisades propositionen, såvitt anginge de under punkterna
+          9—13 angivna lagförslagen till konstitutionsutskottet samt i övrigt
+          till bevillningsutskottet.
+        </note>
+        <note xml:id="i-Q4ReQjiCurYDLeX661hf6w">
+          Vidare föredrogs och remitterades till konstitutionsutskottet
+          Kungl. Maj:ts proposition, nr 260, med förslag till lag angående
+          rätt för Konungen att meddela förordnande om vissa förmåner åt
+          statslösa med flera.
+        </note>
+        <note xml:id="i-72XiY9Mq98SgXJ87PQkN2N">
+          §3.
+        </note>
+        <note xml:id="i-LTA5aMJBuZaP8sEzAbWxtc">
+          Härefter föredrogos, men bordlades åter utrikesutskottets utlåtanden
+          nr 3 och 4, konstitutionsutskottets utlåtanden nr 8—10 samt statsutskottets
+          utlåtande nr 7.
+        </note>
+        <note xml:id="i-TE921Wxyt2ARJnCMYvVCPX">
+          § 4.
+        </note>
+        <note xml:id="i-253my8ZPciGHvtELXfscyi">
+          Föredrogs statsutskottets memorial, nr 78, i anledning av kamrarnas
+          skiljaktiga beslut i fråga om anslag till undervisning genom infödda
+          lärare i tyska, engelska och franska språken vid de allmänna läroverken
+          m. fl. läroanstalter.
+        </note>
+        <note xml:id="i-6PffiiUGBhYwYoaFWKhcAL">
+          Den i detta memorial föreslagna voteringspropositionen godkändes.
+        </note>
+        <note xml:id="i-6BEDLA4UzHu9PVegad1WxL">
+          SE
+        </note>
+        <note xml:id="i-NsQ2nJ2bH9jhimtgeRUgD2">
+          Slutligen föredrogos, men bordlades ånyo statsutskottets utlåtanden
+          nr 79— 84, första lagutskottets utlåtanden nr 25—928, jordbruksutskottets
+          utlåtanden nr 45—52 samt andra kammarens fjärde tillfälliga utskotts
+          utlåtande nr 3.
+        </note>
+        <note xml:id="i-15wyUR9osHMMEyiusm9z6T">
+          § 6.
+        </note>
+        <note xml:id="i-89ys1c444fAhUoUoZJrY8o">
+          Herr statsrådet Pehrsson-Bramstorp avlämnade Kungl. Maj:ts propositioner:
+        </note>
+        <note xml:id="i-EGTRpLEkzHR9KwTL4rdndD">
+          nr 259, med förslag till lag angående ändrad lydelse av 1, 3
+          och 4 $$ lagen den 6 juni 1930 (nr 202) om begränsning av rätten
+          att avverka skog å intecknad fastighet;
+        </note>
+        <note xml:id="i-Um3iPjKW4DPsjfEaXqxYuR">
+          nr 261, angående åtgärder till underlättande av belåning av jordbruksegendom
+          med växande skog; och
+        </note>
+        <note xml:id="i-JrA8LjoRaRX8J3LbQGWDWA">
+          nr 262, med förslag till lag om ändrad lydelse av 5 8 skogsvårdslagen
+          den 15 juni 1923 (nr 212).
+        </note>
+        <note xml:id="i-4PHFqpsPm1GgAcSGFVz6LT">
+          Dessa propositioner bordlades.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1938--ak--23/prot_1938__ak__23-006.jp2/_view"/>
+        <note type="date" xml:id="i-5xaCg5hiGfS1BtmYgz3unD">
+          Tisdagen den 29 mars 1938. Nr 23. 7
+        </note>
+        <note xml:id="i-LoVMvhWVUM9rtev9aWsUP1">
+          § 7.
+        </note>
+        <note xml:id="i-K5NACbt6yRRYTfsNGBy9s">
+          Ordet lämnades nu på begäran till
+        </note>
+        <note type="speaker" xml:id="i-6VGWyNMa2AgisP7Tg4T1bU">
+          Herr Lundell, som yttrade:
+        </note>
+        <u who="i-XqKbySrEocjq4LS7n5V8UD" xml:id="i-9c6d59a95ee0474f-0">
+          <seg xml:id="i-PZVvqy7n5Vq6jYva7bg7p2">
+            Herr talman! Jag hemställer, att motionstiden i anledning av
+            Kungl. Maj:ts proposition nr 258, med förslag till omläggning
+            av den direkta statsbeskattningen m. m., på grund av ärendets
+            omfattning må utsträckas till det sammanträde, som infaller näst
+            efter tjugu dagar från propositionens avlämnande.
+          </seg>
+        </u>
+        <note xml:id="i-QHuyBqHJmGDL8PwRQ5TcED">
+          Denna hemställan bifölls.
+        </note>
+        <note xml:id="i-N42Ghekm889aDLBZ29f1o1">
+          §8.
+        </note>
+        <note xml:id="i-6DfJ6c9h9uT8T5wGSE1Ana">
+          Till bordläggning anmäldes andra kammarens första tillfälliga
+          utskotts utlåtande, nr 2, i anledning av väckt motion, II:47,
+          angående viss ändring av gällande bestämmelser för undervisning
+          i arbetskunskap vid fortsättningsskola.
+        </note>
+        <note xml:id="i-KbF1eL8MBVAqe9DBgDqeVA">
+          § 9.
+        </note>
+        <note xml:id="i-KNtx7uvjDCybA1gaYkVMjj" type="speaker">
+          Herr förste vice talmannen Jeppsson erhöll härefter på begäran
+          ordet och anförde:
+        </note>
+        <u who="i-WLU6NbD2RqdzNAUFs2iT52" xml:id="i-6X6dptKvSxyCocekja4BAW">
+          <seg xml:id="i-QJdi1qAPoNWgtWKatZFv2e">
+            Jag hemställer, att på morgondagens föredragningslista bland
+            två gånger bordlagda ärenden först måtte uppföras första lagutskottets
+            utlåtande nr 24, därefter statsutskottets utlåtanden nr 7, nr
+            73—77, nr 79—84, utrikesutskottets utlåtande nr 3 och 4, konstitutionsutskottets
+            utlåtanden nr 8—10 samt där- FA ärendena i den ordning, i vilken
+            de förekomma på dagens föredragnings-
+          </seg>
+        </u>
+        <note xml:id="i-X2GZTipdW5wn9QAodhfGB1">
+          ista.
+        </note>
+        <note xml:id="i-FeUm5G2ocrDCo74GRgHXzG">
+          Denna hemställan bifölls.
+        </note>
+        <note xml:id="i-EJ59SJwEKMEvaRmmP2Kyy7">
+          § 10.
+        </note>
+        <note xml:id="i-QXRdXUAMz5HgwguDT7UUbJ">
+          Anmäldes och godkändes följande förslag till riksdagens skrivelser
+          till Konungen, nämligen
+        </note>
+        <note xml:id="i-9V7WVb3jsyBPruSfbojyZi">
+          från statsutskottet:
+        </note>
+        <note xml:id="i-Kmoc9Q54Y9W2yKQe5t78AU">
+          nr 5, i anledning av vissa i statsverkspropositionen gjorda framställningar
+          rörande utgifterna för budgetåret 1938/39 under riksstatens femte
+          huvudtitel, innefattande anslagen till socialdepartementet;
+        </note>
+        <note xml:id="i-ML6imNSr48i6jtmFQYctEV">
+          nr 134, i anledning av Kungl. Maj:ts proposition angående egnahemslån
+          till statens järnvägars personal i Ånge;
+        </note>
+        <note xml:id="i-X3FsQhSHKfWnGeBvMi6Vhx">
+          nr 135, i anledning av Kungl. Maj:ts proposition angående överlåtelse
+          till Stockholms stad av vissa markområden å Ladugårdsgärdet i
+          Stockholm;
+        </note>
+        <note xml:id="i-3PCGjPWj3D11JuyLCVtdtB">
+          nr 136, i anledning av Kungl. Maj:ts proposition angående inköp
+          för telegrafverkets räkning av tomt i Uppsala; och
+        </note>
+        <note xml:id="i-AcVio3K4aHbsXyztsU6BFp">
+          nr 137, i anledning av Kungl. Maj:ts proposition angående tillägg
+          till avtal om regleringen av sjöarna Uddjaur och Storavan; samt
+        </note>
+        <note xml:id="i-Razb4YPMrM96MFNLJhmdNC">
+          från bankoutskottet:
+        </note>
+        <note xml:id="i-DxfkzKG4ytLk78s7UYnicm">
+          nr 145, i anledning av Kungl. Maj:ts proposition med förslag
+          till förordning om ändrad lydelse av övergångsbestämmelsen till
+          förordningen den 5 Juni 1936 (nr 239) angående ändrad lydelse
+          av 11 8 förordningen den 18 juni 1927 (nr 234) om ersättning i
+          anledning av kroppsskada, ådragen under militärtjänstgöring.
+        </note>
+        <note xml:id="i-9TPR3MEaJzUzht2agUBbxC">
+          &amp; 11. Justerades protokollsutdrag.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1938--ak--23/prot_1938__ak__23-007.jp2/_view"/>
+        <note type="date" xml:id="i-QuqBUksDhRzVEJsKK6YfL2">
+          Nr 23. Tisdagen den 29 mars 1938.
+        </note>
+        <note xml:id="i-PmhB8KFo5TWihfVkwQDTVe">
+          § 12.
+        </note>
+        <note xml:id="i-DXecAnxZdj93Q8PQgsxLWo">
+          Ledighet från riksdagsgöromålen beviljades: herr Sundström i
+          Skövde under 2 dagar fr. o. m. den 31 mars.
+        </note>
+        <note xml:id="i-YUHhVQT6Y8Pvvvwb36ZbXA">
+          Kammarens ledamöter åtskildes härefter kl. 4.14 e. m.
+        </note>
+        <note xml:id="i-7oGkpK1YSLHgUu57pQqYG7">
+          "In fidem Sune Norrman.
+        </note>
+        <note xml:id="i-SZMrSqqbdXNfK92hjcPekq">
+          Stockholm 1938. Kungl. Boktryckeriet, P. A. Norstedt &amp; Söner.
+          381601
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

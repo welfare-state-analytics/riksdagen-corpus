@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1941</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1941</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,555 +25,528 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1941--fk--16</head>
-          <docDate when="1941-03-15">1941-03-15</docDate>
-          <docDate when="1941-03-18">1941-03-18</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1941--fk--16/prot_1941__fk__16-000.jp2/_view"/>
-          <note xml:id="i-BpJ5WpGqFnyDy1K2nbdK9e">
-            RIKSDAGENS PROTOKOLL.
-          </note>
-          <note xml:id="i-JJzAY5XhmQQsNdEprbaLe3">
-            1941. Första kammaren. Nr 16.
-          </note>
-          <note type="date" xml:id="i-XSMSwxMCY4CuN7Y7PE7Fsq">
-            Lördagen den 15 mars.
-          </note>
-          <note xml:id="i-JkmvZQRtp1PMJeXjkSnRko">
-            Kammaren sammanträdde kl. 4 e. m.; oéh dess förhandlingar leddes
-            av herr förste vice talmannen.
-          </note>
-          <note xml:id="i-GZ7Wvk2JsWMkcfuShJ1P8W">
-            Upplästes och lades till handlingarna följande från justitiedepartementet
-            ankomna
-          </note>
-          <note xml:id="i-YV86uaZso4uiHUbazgECWn">
-            Protokoll, hållet inför statsrådet och chefen för justitiedepartementet
-            den 14 mars 1941.
-          </note>
-          <note xml:id="i-PdsizaTYUS5x2q1ffdpCWf">
-            Till justitiedepartementet hade från överståthållarämbetet den
-            13 mars 1941 inkommit en den 12 i samma månad dagtecknad riksdagsmannafullmakt
-            av innehåll, att, sedan förbundsordföranden K. A. Karlsson blivit
-            för Stockholms stads valkrets utsedd till ledamot av riksdagens
-            första kammare för en tid av åtta år, räknade från och med den
-            1 januari 1938, men denna plats blivit ledig, vid förrättning
-            enligt 26 $ första stycket lagen om val till riksdagen stadsfullmäktigen,
-            ombudsmannen Bertil Eriksson blivit utsedd att inträda såsom ledamot
-            av nämnda kammare för tiden till den 1 januari 1946.
-          </note>
-          <u xml:id="i-NMUCFiCWekAtnaKXbqWYF5" who="unknown">
-            <seg xml:id="i-WCjuahHH26b27o4anJxrvd">
-              Vid granskning av fullmakten, som företogs inför statsrådet och
-              chefen för justitiedepartementet samt vidare av vederbörande fullmäktige
-              i riksbanken och riksgäldskontoret, framställdes mot fullmakten
-              icke någon anmärkning.
-            </seg>
-          </u>
-          <note xml:id="i-3dqEcUjbL8ZjD12Fu69oof">
-            Protokoll över vad sålunda förekommit skulle jämte den granskade
-            fullmakten överlämnas till första kammaren.
-          </note>
-          <note xml:id="i-N5U2yaV3jwuogSiiakvWnR">
-            I ämbetet: C. G. Bruno. Herr Eriksson, Bertil, infann sig härefter
-            och intog sin plats i kammaren.
-          </note>
-          <note xml:id="i-Pehw8rsHxUZDsx4vVdv2MN">
-            Justerades protokollen för den 8 och den 11 innevarande månad.
-          </note>
-          <note xml:id="i-HBdprJNRHzbRqsHR3jwnYr">
-            Föredrogos och hänvisades till behandling av lagutskott Kungl.
-            Maj:ts propositioner:
-          </note>
-          <note xml:id="i-9Y33rrhPE6Fv1q8RrXZanD">
-            nr 122, med förslag till lag angående fortsatt giltighet av lagen
-            den 31 maj 1940 (nr 473) om förbud i vissa fall mot beviljande
-            av kvarstad eller skingringsförbud; och
-          </note>
-          <note xml:id="i-F6BJuiDV7LBHPL6pVPr8BH">
-            nr 123, med förslag till lag om fortsatt giltighet av lagen den
-            1 november 1940 (nr 924) med särskilda bestämmelser angående patent
-            vid krig eller krigsfara m. m.
-          </note>
-          <note xml:id="i-QPAuW1ygcbztGsJNuPU9hA">
-            Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
-          </note>
-          <note xml:id="i-VPFTahXrjveQNAHTcDTGk6">
-            nr 127, angående disposition av två skolhemman i Korpilombolo
-            och Karl Gustavs socknar m. m.; samt
-          </note>
-          <note xml:id="i-U9vJxB7kF4uXhLDm96gCFf">
-            nr 132, angående avstående i vissa fall av allmänna arvsfondens
-            rätt till arv.
-          </note>
-          <note xml:id="i-FFLgiwDCmSw2PFgaMkWtVj">
-            Första kammarens protokoll 1941. Nr 16. 1
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1941--fk--16/prot_1941__fk__16-001.jp2/_view"/>
-          <note type="date" xml:id="i-MaK95UKv1KgNTCniaSuNVY">
-            2 Nr 16. Lördagen den 15 mars 1941.
-          </note>
-          <note xml:id="i-DHeAwSNC4XkfKgeg9E7Uko">
-            Föredrogs och hänvisades till jordbruksutskottet Kungl. Maj :ts
-            proposition nr 133, angående försäljning av vissa, allmänna arvsfonden
-            tillfallna fastigheter.
-          </note>
-          <note xml:id="i-HMudsh1gUxMghdXxDeCZ9r">
-            Föredrogs och hänvisades till statsutskottet Kungl. Maj :ts proposition
-            nr 134, angående höjd resekostnadsersättning i vissa fall vid
-            färd med egen automobil m. m.
-          </note>
-          <note xml:id="i-3Ah4xgV9w9TiEv6Y3JKdDz">
-            Föredrogs och hänvisades till behandling av lagutskott Kungl.
-            Maj:ts proposition nr 135, med förslag till lag angående fortsatt
-            giltighet av lagen den 16 februari 1934 (nr 19) om fullgörande
-            i vissa fall av betalningsskyldighet i förhållande till utlandet
-            m. m.
-          </note>
-          <note xml:id="i-BEpCiXiG4y2pLBK16HaBQb">
-            Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
-            nr 140, angående statsbidrag för budgetåret 1941/42 till undervisningsktokaler
-            för folkskoleväsendet m. m.; och
-          </note>
-          <note xml:id="i-XZQ32ieooGyb9LwEE18AWi">
-            nr 141, angående inrättande av en personlig professur vid tekniska
-            högskolan i Stockholm för professorn E. H. W. Weibull.
-          </note>
-          <note xml:id="i-LVfahPGqSkp4xcPHTdNQB1">
-            Föredrogos och hänvisades till bankoutskottet Kungl. Maj:ts propositioner:
-          </note>
-          <note xml:id="i-X4gRh2YTewTKE2idYoC8m">
-            nr 144, angående pension åt vissa i statens tjänst anställda
-            personer m. fl.;
-          </note>
-          <note xml:id="i-36LRNVVjoFMyH8pfj682Go">
-            nr 145, angående understöd åt efterlevande till vissa i statens
-            tjänst anställda personer; samt
-          </note>
-          <note xml:id="i-91tCFqSJAsKf9UnY8FYuiC">
-            nr 146, angående tillämpning i vissa fall av familjepensionsreglementet
-            för lärare vid högre kommunala skolor å lärare vid dylik skola,
-            som förflyttas till befattning såsom folkskollärare.
-          </note>
-          <note xml:id="i-TnzzWwHQs1RuDY8QsVp9XL">
-            Föredrogs och hänvisades till bevillningsutskottet Kungl. Maj:ts
-            proposition nr 147, angående utsträckning i vissa fall av i 8
-            $ I mom. tulltaxeförordningen stadgade tidsfrister för åtnjutande
-            av tullfrihet.
-          </note>
-          <note xml:id="i-KoTq5qncWeSr6vyvPMuf4Z">
-            Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
-          </note>
-          <note xml:id="i-6GZEFyqkn2GPFzBaJJKtdj">
-            nr 148, angående omorganisation av telegrafverket m. m.; och
-          </note>
-          <note xml:id="i-CCDGPLZ9g1xych9ZukacTB">
-            nr 149, angående förändring i avseende å löneställning och antal
-            beträffande vissa ordinarie befattningar vid postverket, statens
-            järnvägar och statens vattenfallsverk m. m.
-          </note>
-          <note xml:id="i-cGUpJAk2F5uz77vkk7YEg">
-            Föredrogos och hänvisades till jordbruksutskottet Kungl. Maj:ts
-            propositioner:
-          </note>
-          <note xml:id="i-6vKk4SLdD7MMGUPXMgeQRM">
-            nr 151, angående försäljning av mark från vissa kronoegendomar
-            m. m.;
-          </note>
-          <note xml:id="i-3fFG98hL1M5YmhGdvxMPPD">
-            nr 152, angående det statsunderstödda bekämpandet av tuberkulos
-            hos nötkreatur; och
-          </note>
-          <note xml:id="i-91yZqBJjqfTYTF7q5YWDj3">
-            nr 153, angående statsunderstöd för anläggande av skyddsvall
-            vid viss del av Klarälven m. m.
-          </note>
-          <note xml:id="i-M3LvEUEEz8qtRcDvuvTeqB">
-            Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
-          </note>
-          <note xml:id="i-FxtAA62e9FNSBKaVpkcpv2">
-            nr 154, angående överskridande av viss delpost i den för länsstyrelserna
-            fastställda avlöningsstaten; och
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1941--fk--16/prot_1941__fk__16-002.jp2/_view"/>
-          <note type="date" xml:id="i-AW326wv5xErTVJfCZAT6pC">
-            Lördagen den 15 mars 1941. Nr 16. 3
-          </note>
-          <note xml:id="i-RdTVhLBacAZZoWY2djFdkX">
-            nr 155, angående vissa avlöningsm. fl. anslag under riksstatens
-            fjärde huvudtitel för budgetåret 1941/42.
-          </note>
-          <note xml:id="i-665DLPLvGTUyRq1Ch8fY2Z">
-            Föredrogs och hänvisades till jordbruksutskottet Kungl. Maj:ts
-            proposition nr 156, angående upplåtelse åt lappar av lägenheter
-            å kronomark m. m.
-          </note>
-          <note xml:id="i-QCWqB1iSMbT5yYgQkeiBwP">
-            Föredrogs och hänvisades till behandling av lagutskott Kungl.
-            Maj:ts proposition nr 157, angående prästs avlöning under tjänstledighet
-            i vissa fall m. m.
-          </note>
-          <note xml:id="i-L4WPpLtWgBVFFMvFMbNQMc">
-            Föredrogs och hänvisades till statsutskottet Kungl. Maj:ts proposition
-            nr 158, ro förslag till stat för försvarsväsendets fastighetsfond
-            för budgetåret 1941/42.
-          </note>
-          <note xml:id="i-TrrnrjvsraRKvgDDkBneki">
-            Föredrogs och hänvisades till behandling av lagutskott Kungl.
-            Maj:ts proposition nr 159, med förslag om ändrad lagstiftning
-            angående s. k. rattfylleri m. m.
-          </note>
-          <note xml:id="i-KahsKtmVREjRHRKWy2jhS7">
-            Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
-            nr 160, med förslag till stat för statens allmänna fastighetsfond
-            för budgetåret 1941/42 m. m.; och
-          </note>
-          <note xml:id="i-M2pwwhMqughxwjx3LxHZVa">
-            nr 161, med förslag till kungörelse om ändring i vissa delar
-            av civila avlöningsreglementet den 4 januari 1939 (nr 8) m. m.
-          </note>
-          <note xml:id="i-DJ33UDcdzBfv5gM1V4TBfM">
-            Föredrogs och hänvisades till bankoutskottet Kungl. Maj:ts proposition
-            nr 162, angående dyrtidstillägg å vissa från handelsflottans pensionsanstalt
-            utgående pensioner.
-          </note>
-          <note xml:id="i-MJ8FJbEZPvUw7eBCwveJ6s">
-            Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
-          </note>
-          <note xml:id="i-59v3afLAE5nHD24XEuvJXr">
-            nr 163, angående lån för tillverkning av röntgenfilm m. m.;
-          </note>
-          <note xml:id="i-YN91sNvHgEbmi26z3gxQEt">
-            nr 164, angående anslag till uppförande av byggnad för kvinnokliniken
-            vid akademiska sjukhuset i Uppsala; och
-          </note>
-          <note xml:id="i-PN4NNC4etZQ4j1L4vp5EKC">
-            nr 165, angående anslag till lån för stödjande av bostadsproduktionen
-            i vissa orter.
-          </note>
-          <note xml:id="i-B9kzo6w6N6o6f3iY3XLekH">
-            Föredrogos och hänvisades till jordbruksutskottet Kungl. Maj:ts
-            propositioner:
-          </note>
-          <note xml:id="i-RLfzTKLJ6PRKJNBpcGNzxs">
-            nr 166, angående försäljning av ett till förra biskopsbostället
-            2 mantal Sundby nr 1 i Strängnäs socken hörande område;
-          </note>
-          <note xml:id="i-NNbfgnZZcRs2Pj1oFhpJpP">
-            nr 167, angående viss ändring i gällande grunder för utlämnande
-            av lån från jordbrukets maskinlånefond; samt
-          </note>
-          <note xml:id="i-GQjTdiDezeZkm64mM2DjQJ">
-            nr 168, angående kapitalökning för lånefonden för inköp av gasgeneratorer
-            för motordrift.
-          </note>
-          <note xml:id="i-RX94MYgLbofnFKk8ijdzDW">
-            Föredrogs och hänvisades till statsutskottet Kungl. Maj:ts proposition
-            nr 169, angående anslag till uppförande av byggnader för tekniskt-vetenskaplig
-            forskning.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1941--fk--16/prot_1941__fk__16-003.jp2/_view"/>
-          <note type="date" xml:id="i-RWzmbtAdHmVKG4j64B3Bjz">
-            4 Nr 16. Lördagen den 15 mars 1941.
-          </note>
-          <note xml:id="i-FswJnrJnYCkfgvBLDheJzV">
-            Föredrogs och hänvisades till behandling av lagutskott den av
-            herr Ericson, Frans, m. fl. väckta motionen, nr 192, i anledning
-            av Kungl. Maj:ts proposition med förslag till förordning om kontroll
-            av vattenledningsvatten, m. m.
-          </note>
-          <note type="speaker" xml:id="i-TAdEf5Uz2azitwLqrV51r6">
-            Herr Bergman erhöll på begäran ordet och anförde:
-          </note>
-          <u who="Q5572691" xml:id="i-455652aebbbf5317-0">
-            <seg xml:id="i-NzS5p6k8ngd7c3CJVGJAKU">
-              Herr talman! Jag ber att få hemställa, att kammaren måtte medgiva,
-              att tiden för motions väckande med anledning av Kungl. Maj:ts
-              proposition nr 159, vilken är synnerligen omfattande, måtte utsträckas
-              till senast det sammanträde, som infaller näst efter tjugo dagar
-              från propositionens avlämnande. Jag har mig bekant, att samma
-              framställning göres i andra kammaren.
-            </seg>
-          </u>
-          <note xml:id="i-8FRwCWPJcNkTv8GBvkrt5N">
-            Denna hemställan bifölls.
-          </note>
-          <note xml:id="i-Pt7wnoFxErFDsod3g8m7sB">
-            Anmäldes och bordlades
-          </note>
-          <note xml:id="i-LseriFFCV1CTRgF6mbe6GV">
-            statsutskottets utlåtanden:
-          </note>
-          <note xml:id="i-DTEDmrcb6vUbWSrRFQSGRU">
-            nr 6, angående regleringen för budgetåret 1941/42 av utgifterna
-            under riksstatens sjätte huvudtitel, innefattande anslagen till
-            kommunikationsdepartementet;
-          </note>
-          <note xml:id="i-L6oXsTJKxbany4uYWFch5r">
-            nr 41, i anledning av Kungl. Maj:ts förslag om anslag å tilläggsstat
-            IT till riksstaten för budgetåret 1940/41 till vägbyggnader m.
-            m.;
-          </note>
-          <note xml:id="i-9B715Z9jMDr1Ar2kHPC7yS">
-            nr 42, i anledning av Kungl. Maj:ts proposition angående vissa
-            ändringar beträffande villkoren för erhållande av egnahemslån
-            från statens vattenfallsverk;
-          </note>
-          <note xml:id="i-8YgU2bFG4b8VximHdy4YMF">
-            nr 43, i anledning av Kungl. Maj:ts proposition angående anslag
-            å tilläggsstat IT till riksstaten för budgetåret 1940/41 till
-            åtgärder för arbetsmarknadens reglering m. m. jämte i ämnet väckta
-            motioner; samt
-          </note>
-          <note xml:id="i-X5KPg5LJKQbMmywh8WQSuF">
-            nr 44, i anledning av vissa av Kungl. Maj:ts i statsverkspropositionen
-            gjorda framställningar om anslag till kapitalinvesteringar i statens
-            allmänna fastighetsfond och statens utlåningsfonder jämte en i
-            ämnet väckt motion;
-          </note>
-          <note xml:id="i-15eUNYbmiJmVZuFMdiYsvc">
-            bevillningsutskottets betänkande nr 6, i anledning av Kungl.
-            Maj:ts proposition angående temporär utsträckning av rätten för
-            fiskefartyg att intaga gods från provianteringsfrilager i vissa
-            städer;
-          </note>
-          <note xml:id="i-CoHBeBszK7fehxeMb9vovH">
-            bankoutskottets utlåtanden:
-          </note>
-          <note xml:id="i-GfhtDz87dDGVoUaSVNFMBp">
-            nr 16, i anledning av Kungl. Maj:ts proposition angående understöd
-            åt efterlevande till vissa i statens tjänst anställda personer
-            m. fl.;
-          </note>
-          <note xml:id="i-GvWhvi3rD2raCfYFPoB42Q">
-            nr 17, i anledning av Kungl. Maj:ts proposition angående rätt
-            för förra lärarinnan vid Tärna lanthushållsskola Ingrid von Zweigbergk
-            till viss tjänstårsberäkning för pension;
-          </note>
-          <note xml:id="i-T7p6QaRAzdtseYa8VRnnDq">
-            nr 18, i anledning av Kungl. Maj:ts proposition angående pension
-            åt förra vikarierande småskollärarinnan Agnes Ingeborg Härén,
-            född Lindell;
-          </note>
-          <note xml:id="i-XKBV76McaMkRpUG9ajnSGv">
-            nr 19, i anledning av fullmäktiges i riksbanken framställning
-            om tilläggspension åt förre arbetaren vid Tumba bruk Johan Theodor
-            Jansson; samt
-          </note>
-          <note xml:id="i-EZ57Ka93m7878heYrhn3sU">
-            nr 20, i anledning av väckt motion om förhöjd pension åt förre
-            folkskolläraren, tillika överläraren T. Lagergren;
-          </note>
-          <note xml:id="i-GpNAv24WKkkVywtuTWdScU">
-            första lagutskottets utlåtanden:
-          </note>
-          <note xml:id="i-22K2tEvG8jh66G7jqqMdRN">
-            nr 18, i anledning av dels Kungl. Maj:ts proposition med förslag
-            till förordning om fortsatt giltighet av förordningen den 1 mars
-            1940 (nr 117) rörande förbud mot befordran av vissa periodiska
-            skrifter med statliga trafikmedel m. m., dels ock i ämnet väckta
-            motioner;
-          </note>
-          <note xml:id="i-QyHXBZt8pqg1ZsQUSjKP5m">
-            nr 19, i anledning av Kungl, Maj:ts proposition med förslag till
-            lag om fortsatt giltighet av maximiprislagen den 22 juni 1939
-            (nr 349), m. m.;
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1941--fk--16/prot_1941__fk__16-004.jp2/_view"/>
-          <note type="date" xml:id="i-Xhd153CxFokq3ow14RUVaa">
-            Lördagen den 15 mars 1941. Nr 16. 5
-          </note>
-          <note xml:id="i-X16667oFfWeiAbrT6VzQZj">
-            nr 20, i anledning av Kungl. Maj:ts proposition angående anslag
-            ut kyrkofonden för budgetåret 1941/42 för biträde vid handläggning
-            av boställsärenden och vad därmed äger samband; samt
-          </note>
-          <note xml:id="i-DLhXLpNVjNDEn92UxkCNjc">
-            nr 21, i anledning av Kungl. Maj:ts proposition angående ersättning
-            från kyrkofonden för övertalig personal vid domänverket;
-          </note>
-          <note xml:id="i-Nhd84tby2PK9WS3qKhmDTb">
-            andra lagutskottets utlåtande nr 11, i anledning av väckta motioner
-            om framläggande av förslag till en expropriationslagstiftning
-            för komplettering av ofullständiga jordbruk; ävensom
-          </note>
-          <note xml:id="i-Q6ojYbpvpnDycbXJRJU8Mh">
-            första kammarens första tillfälliga utskotts utlåtanden:
-          </note>
-          <note xml:id="i-K3R6fVUaGvJAY9k93gpFqG">
-            nr 3, i anledning av väckt motion angående utredning av frågan
-            om röstoch talvård vid våra skolor;
-          </note>
-          <note xml:id="i-BAH4EwwGRRm5WAFDjBxJsa">
-            nr 4, i anledning av väckt motion om viss ändring av $ 1, mom.
-            3 biografförordningen; samt
-          </note>
-          <note xml:id="i-WLkWHJiHYtZpFUje1KZLh2">
-            nr 5, i anledning av väckt motion angående ändring av gällande
-            regel för anteckning i församlingsbok av persons födelseort.
-          </note>
-          <note xml:id="i-AzwUtjJ6Bh7JemZD39CvmX">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 4.16 e. m.
-          </note>
-          <note xml:id="i-AnyhftUUqgWJwCrJVpnJBP">
-            In fidem Eric Carlén.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1941--fk--16/prot_1941__fk__16-005.jp2/_view"/>
-          <note type="date" xml:id="i-Qa15Qe9k8iwSL3Kq95qNT5">
-            6 Nr 16. Tisdagen den 18 mars 1941.
-          </note>
-          <note type="date" xml:id="i-A88caS25E3Z4wUZXb25oQV">
-            Tisdagen den 18 mars.
-          </note>
-          <note xml:id="i-NsnqYXwnL4T2hNxaGhPJce">
-            Kammaren sammanträdde kl. 4 e. m.
-          </note>
-          <note type="speaker" xml:id="i-YZWK8udhiNRNZRewtoShfQ">
-            Herr statsrådet Eriksson avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-Rgs7ZjYGk6BoucjnNJpoCA">
-            ts proposition nr 170, med förslag till lag angående ändringar
-            i lagen den 4 oktober 1940 (nr 851) med vissa bestämmelser om
-            livförsäkring m. m. vid krig.
-          </note>
-          <note xml:id="i-53gVwYc4sWY4K31rqeahTX">
-            Justerades protokollen för den 12 innevarande månad.
-          </note>
-          <note xml:id="i-R4GojCfohndTj9NAkBF9ZZ">
-            Anmäldes och godkändes jordbruksutskottets förslag till riksdagens
-            skrivelser till Konungen:
-          </note>
-          <note xml:id="i-AxGMn8xm4q9fACTp3zJ7uV">
-            nr 9, i anledning av vissa av Kungl. Maj:t i statsverkspropositionen
-            under nionde huvudtiteln gjorda framställningar jämte i dessa
-            ämnen väckta motioner;
-          </note>
-          <note xml:id="i-5rDWEot1eTTjbaDgDzxFqY">
-            nr 94, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat II till riksstaten för budgetåret 1940/41, i vad
-            propositionen avser jordbruksdepartementets verksamhetsområde;
-          </note>
-          <note xml:id="i-CApfA323RzAk83sviQJVEt">
-            nr 95, i anledning av Kungl. Maj:ts proposition angående överlåtelse
-            av viss fastighet till Vilhelmina kommun i Västerbottens län;
-          </note>
-          <note xml:id="i-Gek2JFcAw2t8KJT3wy9WLG">
-            nr 96, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av mark från vissa kronoegendomar m. m.;
-          </note>
-          <note xml:id="i-YfAajsF5trwbtiM3vdAnV">
-            nr 97, i anledning av Kungl. Maj:ts proposition angående ytterligare
-            statsunderstöd till vissa torrläggningsföretag; samt
-          </note>
-          <note xml:id="i-Y9pTNVRWsq7aypM1J2BpEn">
-            nr 98, i anledning av Kungl. Maj:ts proposition angående ytterligare
-            statsbidrag för undersökning rörande vissa vattenregleringsföretag.
-          </note>
-          <note xml:id="i-6uUrxXwEVcZ5X7njpAknEF">
-            Anmäldes och godkändes statsutskottets förslag till riksdagens
-            skrivelse, nr 89, till Konungen i anledning av Kungl. Maj:ts proposition
-            angående löneställningen för viss till aktiv stat inom försvarsväsendet
-            överförd personal.
-          </note>
-          <note xml:id="i-DuAcmD6fJTTvgRf6qZh7e5">
-            Anmäldes och godkändes bankoutskottets förslag till riksdagens
-            skrivelser till Konungen: :
-          </note>
-          <note xml:id="i-YUoyDMBsTdczVnhPy2cxww">
-            nr 90, i anledning av Kungl. Maj:ts proposition angående översten
-            i Hallands regemente, överstelöjtnanten vid regementet N. G. K.
-            Bildts tjänstepensionsförmåner;
-          </note>
-          <note xml:id="i-CYWX18RTxya5V1c7Sjoyni">
-            nr 91, i anledning av Kungl. Maj:ts proposition angående delaktighet
-            i statens pensionsanstalt för föreståndarinna och lärarinna vid
-            godkänd sjuksköterskeskola;
-          </note>
-          <note xml:id="i-U1pTymLEjpWPshAJZPhPnP">
-            nr 92, i anledning av Kungl. Maj:ts proposition angående pension
-            åt vissa i statens tjänst anställda personer; samt
-          </note>
-          <note xml:id="i-Dqag9oaNBCQiENH5Pjmzwq">
-            nr 93, angående användande av riksbankens vinst för år 1940.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1941--fk--16/prot_1941__fk__16-006.jp2/_view"/>
-          <note type="date" xml:id="i-CwAchR5u3N7GxEqToVHF7D">
-            Tisdagen den 18 mars 1941. Nr 16. 7
-          </note>
-          <note xml:id="i-EsqECuGyB4HNoy9b2iRRk1">
-            Föredrogos och bordlades ånyo statsutskottets utlåtanden nr 6
-            och 41—44, bevillningsutskottets betänkande nr 6, bankoutskottets
-            utlåtanden nr 16—20, första lagutskottets utlåtanden nr 18—21,
-            andra lagutskottets utlåtande nr 11 samt första kammarens första
-            tillfälliga utskotts utlåtanden nr 3—5.
-          </note>
-          <note type="speaker" xml:id="i-CSsoL8Auw12G5fUCLUeU9W">
-            Herr förste vice talmannen erhöll på begäran ordet och anförde:
-          </note>
-          <u who="Q5774246" xml:id="i-d13cedb384565a09-0">
-            <seg xml:id="i-7eDbp1uNL338kbmwNGJJKd">
-              Herr talman! Jag hemställer, att statsutskottets utlåtande nr
-              43 må uppföras främst bland två gånger bordlagda ärenden på morgondagens
-              föredragningslista.
-            </seg>
-          </u>
-          <note xml:id="i-MHGbAPb7E9S5pX3J2g28zH">
-            Vad herr förste vice talmannen sålunda hemställt bifölls.
-          </note>
-          <note xml:id="i-JbiaCF4zfXASE4tvr1jTQZ">
-            KöOmps och bordlades Kungl. Maj:ts denna dag avlämnade proposition
-            nr 170.
-          </note>
-          <note xml:id="i-LphQeMp9McExkNw38VWBRU">
-            Herr Nilsson, Bror, avlämnade en av honom m. fl. väckt motion,
-            nr 193, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av vissa statens järnvägar tillhöriga fastigheter m. m.
-          </note>
-          <note xml:id="i-WmqbJSchV2ur9nSExytcJt">
-            Motionen bordlades.
-          </note>
-          <note xml:id="i-W1WEYw2sMGZw66Y7iZSXa3">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 4.08 e. m.
-          </note>
-          <note xml:id="i-Cbhies5STZ1iLHjW5vc8xD">
-            In fidem G. H. Berggren.
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1941--fk--16</head>
+        <docDate when="1941-03-15">1941-03-15</docDate>
+        <docDate when="1941-03-18">1941-03-18</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1941--fk--16/prot_1941__fk__16-000.jp2/_view"/>
+        <note xml:id="i-BpJ5WpGqFnyDy1K2nbdK9e">
+          RIKSDAGENS PROTOKOLL.
+        </note>
+        <note xml:id="i-JJzAY5XhmQQsNdEprbaLe3">
+          1941. Första kammaren. Nr 16.
+        </note>
+        <note type="date" xml:id="i-XSMSwxMCY4CuN7Y7PE7Fsq">
+          Lördagen den 15 mars.
+        </note>
+        <note xml:id="i-JkmvZQRtp1PMJeXjkSnRko">
+          Kammaren sammanträdde kl. 4 e. m.; oéh dess förhandlingar leddes
+          av herr förste vice talmannen.
+        </note>
+        <note xml:id="i-GZ7Wvk2JsWMkcfuShJ1P8W">
+          Upplästes och lades till handlingarna följande från justitiedepartementet
+          ankomna
+        </note>
+        <note xml:id="i-YV86uaZso4uiHUbazgECWn">
+          Protokoll, hållet inför statsrådet och chefen för justitiedepartementet
+          den 14 mars 1941.
+        </note>
+        <note xml:id="i-PdsizaTYUS5x2q1ffdpCWf">
+          Till justitiedepartementet hade från överståthållarämbetet den
+          13 mars 1941 inkommit en den 12 i samma månad dagtecknad riksdagsmannafullmakt
+          av innehåll, att, sedan förbundsordföranden K. A. Karlsson blivit
+          för Stockholms stads valkrets utsedd till ledamot av riksdagens
+          första kammare för en tid av åtta år, räknade från och med den
+          1 januari 1938, men denna plats blivit ledig, vid förrättning
+          enligt 26 $ första stycket lagen om val till riksdagen stadsfullmäktigen,
+          ombudsmannen Bertil Eriksson blivit utsedd att inträda såsom ledamot
+          av nämnda kammare för tiden till den 1 januari 1946.
+        </note>
+        <u xml:id="i-NMUCFiCWekAtnaKXbqWYF5" who="unknown">
+          <seg xml:id="i-WCjuahHH26b27o4anJxrvd">
+            Vid granskning av fullmakten, som företogs inför statsrådet och
+            chefen för justitiedepartementet samt vidare av vederbörande fullmäktige
+            i riksbanken och riksgäldskontoret, framställdes mot fullmakten
+            icke någon anmärkning.
+          </seg>
+        </u>
+        <note xml:id="i-3dqEcUjbL8ZjD12Fu69oof">
+          Protokoll över vad sålunda förekommit skulle jämte den granskade
+          fullmakten överlämnas till första kammaren.
+        </note>
+        <note xml:id="i-N5U2yaV3jwuogSiiakvWnR">
+          I ämbetet: C. G. Bruno. Herr Eriksson, Bertil, infann sig härefter
+          och intog sin plats i kammaren.
+        </note>
+        <note xml:id="i-Pehw8rsHxUZDsx4vVdv2MN">
+          Justerades protokollen för den 8 och den 11 innevarande månad.
+        </note>
+        <note xml:id="i-HBdprJNRHzbRqsHR3jwnYr">
+          Föredrogos och hänvisades till behandling av lagutskott Kungl.
+          Maj:ts propositioner:
+        </note>
+        <note xml:id="i-9Y33rrhPE6Fv1q8RrXZanD">
+          nr 122, med förslag till lag angående fortsatt giltighet av lagen
+          den 31 maj 1940 (nr 473) om förbud i vissa fall mot beviljande
+          av kvarstad eller skingringsförbud; och
+        </note>
+        <note xml:id="i-F6BJuiDV7LBHPL6pVPr8BH">
+          nr 123, med förslag till lag om fortsatt giltighet av lagen den
+          1 november 1940 (nr 924) med särskilda bestämmelser angående patent
+          vid krig eller krigsfara m. m.
+        </note>
+        <note xml:id="i-QPAuW1ygcbztGsJNuPU9hA">
+          Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
+        </note>
+        <note xml:id="i-VPFTahXrjveQNAHTcDTGk6">
+          nr 127, angående disposition av två skolhemman i Korpilombolo
+          och Karl Gustavs socknar m. m.; samt
+        </note>
+        <note xml:id="i-U9vJxB7kF4uXhLDm96gCFf">
+          nr 132, angående avstående i vissa fall av allmänna arvsfondens
+          rätt till arv.
+        </note>
+        <note xml:id="i-FFLgiwDCmSw2PFgaMkWtVj">
+          Första kammarens protokoll 1941. Nr 16. 1
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1941--fk--16/prot_1941__fk__16-001.jp2/_view"/>
+        <note type="date" xml:id="i-MaK95UKv1KgNTCniaSuNVY">
+          2 Nr 16. Lördagen den 15 mars 1941.
+        </note>
+        <note xml:id="i-DHeAwSNC4XkfKgeg9E7Uko">
+          Föredrogs och hänvisades till jordbruksutskottet Kungl. Maj :ts
+          proposition nr 133, angående försäljning av vissa, allmänna arvsfonden
+          tillfallna fastigheter.
+        </note>
+        <note xml:id="i-HMudsh1gUxMghdXxDeCZ9r">
+          Föredrogs och hänvisades till statsutskottet Kungl. Maj :ts proposition
+          nr 134, angående höjd resekostnadsersättning i vissa fall vid
+          färd med egen automobil m. m.
+        </note>
+        <note xml:id="i-3Ah4xgV9w9TiEv6Y3JKdDz">
+          Föredrogs och hänvisades till behandling av lagutskott Kungl.
+          Maj:ts proposition nr 135, med förslag till lag angående fortsatt
+          giltighet av lagen den 16 februari 1934 (nr 19) om fullgörande
+          i vissa fall av betalningsskyldighet i förhållande till utlandet
+          m. m.
+        </note>
+        <note xml:id="i-BEpCiXiG4y2pLBK16HaBQb">
+          Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
+          nr 140, angående statsbidrag för budgetåret 1941/42 till undervisningsktokaler
+          för folkskoleväsendet m. m.; och
+        </note>
+        <note xml:id="i-XZQ32ieooGyb9LwEE18AWi">
+          nr 141, angående inrättande av en personlig professur vid tekniska
+          högskolan i Stockholm för professorn E. H. W. Weibull.
+        </note>
+        <note xml:id="i-LVfahPGqSkp4xcPHTdNQB1">
+          Föredrogos och hänvisades till bankoutskottet Kungl. Maj:ts propositioner:
+        </note>
+        <note xml:id="i-X4gRh2YTewTKE2idYoC8m">
+          nr 144, angående pension åt vissa i statens tjänst anställda
+          personer m. fl.;
+        </note>
+        <note xml:id="i-36LRNVVjoFMyH8pfj682Go">
+          nr 145, angående understöd åt efterlevande till vissa i statens
+          tjänst anställda personer; samt
+        </note>
+        <note xml:id="i-91tCFqSJAsKf9UnY8FYuiC">
+          nr 146, angående tillämpning i vissa fall av familjepensionsreglementet
+          för lärare vid högre kommunala skolor å lärare vid dylik skola,
+          som förflyttas till befattning såsom folkskollärare.
+        </note>
+        <note xml:id="i-TnzzWwHQs1RuDY8QsVp9XL">
+          Föredrogs och hänvisades till bevillningsutskottet Kungl. Maj:ts
+          proposition nr 147, angående utsträckning i vissa fall av i 8
+          $ I mom. tulltaxeförordningen stadgade tidsfrister för åtnjutande
+          av tullfrihet.
+        </note>
+        <note xml:id="i-KoTq5qncWeSr6vyvPMuf4Z">
+          Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
+        </note>
+        <note xml:id="i-6GZEFyqkn2GPFzBaJJKtdj">
+          nr 148, angående omorganisation av telegrafverket m. m.; och
+        </note>
+        <note xml:id="i-CCDGPLZ9g1xych9ZukacTB">
+          nr 149, angående förändring i avseende å löneställning och antal
+          beträffande vissa ordinarie befattningar vid postverket, statens
+          järnvägar och statens vattenfallsverk m. m.
+        </note>
+        <note xml:id="i-cGUpJAk2F5uz77vkk7YEg">
+          Föredrogos och hänvisades till jordbruksutskottet Kungl. Maj:ts
+          propositioner:
+        </note>
+        <note xml:id="i-6vKk4SLdD7MMGUPXMgeQRM">
+          nr 151, angående försäljning av mark från vissa kronoegendomar
+          m. m.;
+        </note>
+        <note xml:id="i-3fFG98hL1M5YmhGdvxMPPD">
+          nr 152, angående det statsunderstödda bekämpandet av tuberkulos
+          hos nötkreatur; och
+        </note>
+        <note xml:id="i-91yZqBJjqfTYTF7q5YWDj3">
+          nr 153, angående statsunderstöd för anläggande av skyddsvall
+          vid viss del av Klarälven m. m.
+        </note>
+        <note xml:id="i-M3LvEUEEz8qtRcDvuvTeqB">
+          Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
+        </note>
+        <note xml:id="i-FxtAA62e9FNSBKaVpkcpv2">
+          nr 154, angående överskridande av viss delpost i den för länsstyrelserna
+          fastställda avlöningsstaten; och
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1941--fk--16/prot_1941__fk__16-002.jp2/_view"/>
+        <note type="date" xml:id="i-AW326wv5xErTVJfCZAT6pC">
+          Lördagen den 15 mars 1941. Nr 16. 3
+        </note>
+        <note xml:id="i-RdTVhLBacAZZoWY2djFdkX">
+          nr 155, angående vissa avlöningsm. fl. anslag under riksstatens
+          fjärde huvudtitel för budgetåret 1941/42.
+        </note>
+        <note xml:id="i-665DLPLvGTUyRq1Ch8fY2Z">
+          Föredrogs och hänvisades till jordbruksutskottet Kungl. Maj:ts
+          proposition nr 156, angående upplåtelse åt lappar av lägenheter
+          å kronomark m. m.
+        </note>
+        <note xml:id="i-QCWqB1iSMbT5yYgQkeiBwP">
+          Föredrogs och hänvisades till behandling av lagutskott Kungl.
+          Maj:ts proposition nr 157, angående prästs avlöning under tjänstledighet
+          i vissa fall m. m.
+        </note>
+        <note xml:id="i-L4WPpLtWgBVFFMvFMbNQMc">
+          Föredrogs och hänvisades till statsutskottet Kungl. Maj:ts proposition
+          nr 158, ro förslag till stat för försvarsväsendets fastighetsfond
+          för budgetåret 1941/42.
+        </note>
+        <note xml:id="i-TrrnrjvsraRKvgDDkBneki">
+          Föredrogs och hänvisades till behandling av lagutskott Kungl.
+          Maj:ts proposition nr 159, med förslag om ändrad lagstiftning
+          angående s. k. rattfylleri m. m.
+        </note>
+        <note xml:id="i-KahsKtmVREjRHRKWy2jhS7">
+          Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
+          nr 160, med förslag till stat för statens allmänna fastighetsfond
+          för budgetåret 1941/42 m. m.; och
+        </note>
+        <note xml:id="i-M2pwwhMqughxwjx3LxHZVa">
+          nr 161, med förslag till kungörelse om ändring i vissa delar
+          av civila avlöningsreglementet den 4 januari 1939 (nr 8) m. m.
+        </note>
+        <note xml:id="i-DJ33UDcdzBfv5gM1V4TBfM">
+          Föredrogs och hänvisades till bankoutskottet Kungl. Maj:ts proposition
+          nr 162, angående dyrtidstillägg å vissa från handelsflottans pensionsanstalt
+          utgående pensioner.
+        </note>
+        <note xml:id="i-MJ8FJbEZPvUw7eBCwveJ6s">
+          Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
+        </note>
+        <note xml:id="i-59v3afLAE5nHD24XEuvJXr">
+          nr 163, angående lån för tillverkning av röntgenfilm m. m.;
+        </note>
+        <note xml:id="i-YN91sNvHgEbmi26z3gxQEt">
+          nr 164, angående anslag till uppförande av byggnad för kvinnokliniken
+          vid akademiska sjukhuset i Uppsala; och
+        </note>
+        <note xml:id="i-PN4NNC4etZQ4j1L4vp5EKC">
+          nr 165, angående anslag till lån för stödjande av bostadsproduktionen
+          i vissa orter.
+        </note>
+        <note xml:id="i-B9kzo6w6N6o6f3iY3XLekH">
+          Föredrogos och hänvisades till jordbruksutskottet Kungl. Maj:ts
+          propositioner:
+        </note>
+        <note xml:id="i-RLfzTKLJ6PRKJNBpcGNzxs">
+          nr 166, angående försäljning av ett till förra biskopsbostället
+          2 mantal Sundby nr 1 i Strängnäs socken hörande område;
+        </note>
+        <note xml:id="i-NNbfgnZZcRs2Pj1oFhpJpP">
+          nr 167, angående viss ändring i gällande grunder för utlämnande
+          av lån från jordbrukets maskinlånefond; samt
+        </note>
+        <note xml:id="i-GQjTdiDezeZkm64mM2DjQJ">
+          nr 168, angående kapitalökning för lånefonden för inköp av gasgeneratorer
+          för motordrift.
+        </note>
+        <note xml:id="i-RX94MYgLbofnFKk8ijdzDW">
+          Föredrogs och hänvisades till statsutskottet Kungl. Maj:ts proposition
+          nr 169, angående anslag till uppförande av byggnader för tekniskt-vetenskaplig
+          forskning.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1941--fk--16/prot_1941__fk__16-003.jp2/_view"/>
+        <note type="date" xml:id="i-RWzmbtAdHmVKG4j64B3Bjz">
+          4 Nr 16. Lördagen den 15 mars 1941.
+        </note>
+        <note xml:id="i-FswJnrJnYCkfgvBLDheJzV">
+          Föredrogs och hänvisades till behandling av lagutskott den av
+          herr Ericson, Frans, m. fl. väckta motionen, nr 192, i anledning
+          av Kungl. Maj:ts proposition med förslag till förordning om kontroll
+          av vattenledningsvatten, m. m.
+        </note>
+        <note type="speaker" xml:id="i-TAdEf5Uz2azitwLqrV51r6">
+          Herr Bergman erhöll på begäran ordet och anförde:
+        </note>
+        <u who="i-Vx6T7XXUYWdTteLg1ZSBWc" xml:id="i-455652aebbbf5317-0">
+          <seg xml:id="i-NzS5p6k8ngd7c3CJVGJAKU">
+            Herr talman! Jag ber att få hemställa, att kammaren måtte medgiva,
+            att tiden för motions väckande med anledning av Kungl. Maj:ts
+            proposition nr 159, vilken är synnerligen omfattande, måtte utsträckas
+            till senast det sammanträde, som infaller näst efter tjugo dagar
+            från propositionens avlämnande. Jag har mig bekant, att samma
+            framställning göres i andra kammaren.
+          </seg>
+        </u>
+        <note xml:id="i-8FRwCWPJcNkTv8GBvkrt5N">
+          Denna hemställan bifölls.
+        </note>
+        <note xml:id="i-Pt7wnoFxErFDsod3g8m7sB">
+          Anmäldes och bordlades
+        </note>
+        <note xml:id="i-LseriFFCV1CTRgF6mbe6GV">
+          statsutskottets utlåtanden:
+        </note>
+        <note xml:id="i-DTEDmrcb6vUbWSrRFQSGRU">
+          nr 6, angående regleringen för budgetåret 1941/42 av utgifterna
+          under riksstatens sjätte huvudtitel, innefattande anslagen till
+          kommunikationsdepartementet;
+        </note>
+        <note xml:id="i-L6oXsTJKxbany4uYWFch5r">
+          nr 41, i anledning av Kungl. Maj:ts förslag om anslag å tilläggsstat
+          IT till riksstaten för budgetåret 1940/41 till vägbyggnader m.
+          m.;
+        </note>
+        <note xml:id="i-9B715Z9jMDr1Ar2kHPC7yS">
+          nr 42, i anledning av Kungl. Maj:ts proposition angående vissa
+          ändringar beträffande villkoren för erhållande av egnahemslån
+          från statens vattenfallsverk;
+        </note>
+        <note xml:id="i-8YgU2bFG4b8VximHdy4YMF">
+          nr 43, i anledning av Kungl. Maj:ts proposition angående anslag
+          å tilläggsstat IT till riksstaten för budgetåret 1940/41 till
+          åtgärder för arbetsmarknadens reglering m. m. jämte i ämnet väckta
+          motioner; samt
+        </note>
+        <note xml:id="i-X5KPg5LJKQbMmywh8WQSuF">
+          nr 44, i anledning av vissa av Kungl. Maj:ts i statsverkspropositionen
+          gjorda framställningar om anslag till kapitalinvesteringar i statens
+          allmänna fastighetsfond och statens utlåningsfonder jämte en i
+          ämnet väckt motion;
+        </note>
+        <note xml:id="i-15eUNYbmiJmVZuFMdiYsvc">
+          bevillningsutskottets betänkande nr 6, i anledning av Kungl.
+          Maj:ts proposition angående temporär utsträckning av rätten för
+          fiskefartyg att intaga gods från provianteringsfrilager i vissa
+          städer;
+        </note>
+        <note xml:id="i-CoHBeBszK7fehxeMb9vovH">
+          bankoutskottets utlåtanden:
+        </note>
+        <note xml:id="i-GfhtDz87dDGVoUaSVNFMBp">
+          nr 16, i anledning av Kungl. Maj:ts proposition angående understöd
+          åt efterlevande till vissa i statens tjänst anställda personer
+          m. fl.;
+        </note>
+        <note xml:id="i-GvWhvi3rD2raCfYFPoB42Q">
+          nr 17, i anledning av Kungl. Maj:ts proposition angående rätt
+          för förra lärarinnan vid Tärna lanthushållsskola Ingrid von Zweigbergk
+          till viss tjänstårsberäkning för pension;
+        </note>
+        <note xml:id="i-T7p6QaRAzdtseYa8VRnnDq">
+          nr 18, i anledning av Kungl. Maj:ts proposition angående pension
+          åt förra vikarierande småskollärarinnan Agnes Ingeborg Härén,
+          född Lindell;
+        </note>
+        <note xml:id="i-XKBV76McaMkRpUG9ajnSGv">
+          nr 19, i anledning av fullmäktiges i riksbanken framställning
+          om tilläggspension åt förre arbetaren vid Tumba bruk Johan Theodor
+          Jansson; samt
+        </note>
+        <note xml:id="i-EZ57Ka93m7878heYrhn3sU">
+          nr 20, i anledning av väckt motion om förhöjd pension åt förre
+          folkskolläraren, tillika överläraren T. Lagergren;
+        </note>
+        <note xml:id="i-GpNAv24WKkkVywtuTWdScU">
+          första lagutskottets utlåtanden:
+        </note>
+        <note xml:id="i-22K2tEvG8jh66G7jqqMdRN">
+          nr 18, i anledning av dels Kungl. Maj:ts proposition med förslag
+          till förordning om fortsatt giltighet av förordningen den 1 mars
+          1940 (nr 117) rörande förbud mot befordran av vissa periodiska
+          skrifter med statliga trafikmedel m. m., dels ock i ämnet väckta
+          motioner;
+        </note>
+        <note xml:id="i-QyHXBZt8pqg1ZsQUSjKP5m">
+          nr 19, i anledning av Kungl, Maj:ts proposition med förslag till
+          lag om fortsatt giltighet av maximiprislagen den 22 juni 1939
+          (nr 349), m. m.;
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1941--fk--16/prot_1941__fk__16-004.jp2/_view"/>
+        <note type="date" xml:id="i-Xhd153CxFokq3ow14RUVaa">
+          Lördagen den 15 mars 1941. Nr 16. 5
+        </note>
+        <note xml:id="i-X16667oFfWeiAbrT6VzQZj">
+          nr 20, i anledning av Kungl. Maj:ts proposition angående anslag
+          ut kyrkofonden för budgetåret 1941/42 för biträde vid handläggning
+          av boställsärenden och vad därmed äger samband; samt
+        </note>
+        <note xml:id="i-DLhXLpNVjNDEn92UxkCNjc">
+          nr 21, i anledning av Kungl. Maj:ts proposition angående ersättning
+          från kyrkofonden för övertalig personal vid domänverket;
+        </note>
+        <note xml:id="i-Nhd84tby2PK9WS3qKhmDTb">
+          andra lagutskottets utlåtande nr 11, i anledning av väckta motioner
+          om framläggande av förslag till en expropriationslagstiftning
+          för komplettering av ofullständiga jordbruk; ävensom
+        </note>
+        <note xml:id="i-Q6ojYbpvpnDycbXJRJU8Mh">
+          första kammarens första tillfälliga utskotts utlåtanden:
+        </note>
+        <note xml:id="i-K3R6fVUaGvJAY9k93gpFqG">
+          nr 3, i anledning av väckt motion angående utredning av frågan
+          om röstoch talvård vid våra skolor;
+        </note>
+        <note xml:id="i-BAH4EwwGRRm5WAFDjBxJsa">
+          nr 4, i anledning av väckt motion om viss ändring av $ 1, mom.
+          3 biografförordningen; samt
+        </note>
+        <note xml:id="i-WLkWHJiHYtZpFUje1KZLh2">
+          nr 5, i anledning av väckt motion angående ändring av gällande
+          regel för anteckning i församlingsbok av persons födelseort.
+        </note>
+        <note xml:id="i-AzwUtjJ6Bh7JemZD39CvmX">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 4.16 e. m.
+        </note>
+        <note xml:id="i-AnyhftUUqgWJwCrJVpnJBP">
+          In fidem Eric Carlén.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1941--fk--16/prot_1941__fk__16-005.jp2/_view"/>
+        <note type="date" xml:id="i-Qa15Qe9k8iwSL3Kq95qNT5">
+          6 Nr 16. Tisdagen den 18 mars 1941.
+        </note>
+        <note type="date" xml:id="i-A88caS25E3Z4wUZXb25oQV">
+          Tisdagen den 18 mars.
+        </note>
+        <note xml:id="i-NsnqYXwnL4T2hNxaGhPJce">
+          Kammaren sammanträdde kl. 4 e. m.
+        </note>
+        <note type="speaker" xml:id="i-YZWK8udhiNRNZRewtoShfQ">
+          Herr statsrådet Eriksson avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-Rgs7ZjYGk6BoucjnNJpoCA">
+          ts proposition nr 170, med förslag till lag angående ändringar
+          i lagen den 4 oktober 1940 (nr 851) med vissa bestämmelser om
+          livförsäkring m. m. vid krig.
+        </note>
+        <note xml:id="i-53gVwYc4sWY4K31rqeahTX">
+          Justerades protokollen för den 12 innevarande månad.
+        </note>
+        <note xml:id="i-R4GojCfohndTj9NAkBF9ZZ">
+          Anmäldes och godkändes jordbruksutskottets förslag till riksdagens
+          skrivelser till Konungen:
+        </note>
+        <note xml:id="i-AxGMn8xm4q9fACTp3zJ7uV">
+          nr 9, i anledning av vissa av Kungl. Maj:t i statsverkspropositionen
+          under nionde huvudtiteln gjorda framställningar jämte i dessa
+          ämnen väckta motioner;
+        </note>
+        <note xml:id="i-5rDWEot1eTTjbaDgDzxFqY">
+          nr 94, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat II till riksstaten för budgetåret 1940/41, i vad
+          propositionen avser jordbruksdepartementets verksamhetsområde;
+        </note>
+        <note xml:id="i-CApfA323RzAk83sviQJVEt">
+          nr 95, i anledning av Kungl. Maj:ts proposition angående överlåtelse
+          av viss fastighet till Vilhelmina kommun i Västerbottens län;
+        </note>
+        <note xml:id="i-Gek2JFcAw2t8KJT3wy9WLG">
+          nr 96, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av mark från vissa kronoegendomar m. m.;
+        </note>
+        <note xml:id="i-YfAajsF5trwbtiM3vdAnV">
+          nr 97, i anledning av Kungl. Maj:ts proposition angående ytterligare
+          statsunderstöd till vissa torrläggningsföretag; samt
+        </note>
+        <note xml:id="i-Y9pTNVRWsq7aypM1J2BpEn">
+          nr 98, i anledning av Kungl. Maj:ts proposition angående ytterligare
+          statsbidrag för undersökning rörande vissa vattenregleringsföretag.
+        </note>
+        <note xml:id="i-6uUrxXwEVcZ5X7njpAknEF">
+          Anmäldes och godkändes statsutskottets förslag till riksdagens
+          skrivelse, nr 89, till Konungen i anledning av Kungl. Maj:ts proposition
+          angående löneställningen för viss till aktiv stat inom försvarsväsendet
+          överförd personal.
+        </note>
+        <note xml:id="i-DuAcmD6fJTTvgRf6qZh7e5">
+          Anmäldes och godkändes bankoutskottets förslag till riksdagens
+          skrivelser till Konungen: :
+        </note>
+        <note xml:id="i-YUoyDMBsTdczVnhPy2cxww">
+          nr 90, i anledning av Kungl. Maj:ts proposition angående översten
+          i Hallands regemente, överstelöjtnanten vid regementet N. G. K.
+          Bildts tjänstepensionsförmåner;
+        </note>
+        <note xml:id="i-CYWX18RTxya5V1c7Sjoyni">
+          nr 91, i anledning av Kungl. Maj:ts proposition angående delaktighet
+          i statens pensionsanstalt för föreståndarinna och lärarinna vid
+          godkänd sjuksköterskeskola;
+        </note>
+        <note xml:id="i-U1pTymLEjpWPshAJZPhPnP">
+          nr 92, i anledning av Kungl. Maj:ts proposition angående pension
+          åt vissa i statens tjänst anställda personer; samt
+        </note>
+        <note xml:id="i-Dqag9oaNBCQiENH5Pjmzwq">
+          nr 93, angående användande av riksbankens vinst för år 1940.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1941--fk--16/prot_1941__fk__16-006.jp2/_view"/>
+        <note type="date" xml:id="i-CwAchR5u3N7GxEqToVHF7D">
+          Tisdagen den 18 mars 1941. Nr 16. 7
+        </note>
+        <note xml:id="i-EsqECuGyB4HNoy9b2iRRk1">
+          Föredrogos och bordlades ånyo statsutskottets utlåtanden nr 6
+          och 41—44, bevillningsutskottets betänkande nr 6, bankoutskottets
+          utlåtanden nr 16—20, första lagutskottets utlåtanden nr 18—21,
+          andra lagutskottets utlåtande nr 11 samt första kammarens första
+          tillfälliga utskotts utlåtanden nr 3—5.
+        </note>
+        <note type="speaker" xml:id="i-CSsoL8Auw12G5fUCLUeU9W">
+          Herr förste vice talmannen erhöll på begäran ordet och anförde:
+        </note>
+        <u who="i-FneeHdWC4kJvq3GyuxpvWq" xml:id="i-d13cedb384565a09-0">
+          <seg xml:id="i-7eDbp1uNL338kbmwNGJJKd">
+            Herr talman! Jag hemställer, att statsutskottets utlåtande nr
+            43 må uppföras främst bland två gånger bordlagda ärenden på morgondagens
+            föredragningslista.
+          </seg>
+        </u>
+        <note xml:id="i-MHGbAPb7E9S5pX3J2g28zH">
+          Vad herr förste vice talmannen sålunda hemställt bifölls.
+        </note>
+        <note xml:id="i-JbiaCF4zfXASE4tvr1jTQZ">
+          KöOmps och bordlades Kungl. Maj:ts denna dag avlämnade proposition
+          nr 170.
+        </note>
+        <note xml:id="i-LphQeMp9McExkNw38VWBRU">
+          Herr Nilsson, Bror, avlämnade en av honom m. fl. väckt motion,
+          nr 193, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av vissa statens järnvägar tillhöriga fastigheter m. m.
+        </note>
+        <note xml:id="i-WmqbJSchV2ur9nSExytcJt">
+          Motionen bordlades.
+        </note>
+        <note xml:id="i-W1WEYw2sMGZw66Y7iZSXa3">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 4.08 e. m.
+        </note>
+        <note xml:id="i-Cbhies5STZ1iLHjW5vc8xD">
+          In fidem G. H. Berggren.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

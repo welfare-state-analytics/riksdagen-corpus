@@ -1,14 +1,15 @@
-SELECT DISTINCT ?wiki_id ?party ?partyLabel ?start ?end ?startPrecision ?endPrecision
+SELECT DISTINCT ?swerik_id ?party ?partyLabel ?start ?end ?startPrecision ?endPrecision
 WHERE
 {    
     ?wiki_id wdt:P31 wd:Q5;
-             p:P102 ?pParty.
+             p:P102 ?pParty;
+             wdt:P12192 ?swerik_id.
     ?pParty ps:P102 ?party.
     OPTIONAL { ?pParty pqv:P580 [wikibase:timePrecision ?startPrecision; wikibase:timeValue ?start ] }
     OPTIONAL { ?pParty pqv:P582 [wikibase:timePrecision ?endPrecision; wikibase:timeValue ?end ] }
 
     {
-    PLACEHOLDER
+        PLACEHOLDER
     }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "sv". }
 }

@@ -155,9 +155,9 @@ def _keep_most_significant(df, cols, id="wiki_id"):
     return df
 
 def clean_person_duplicates(df):
-    dupl = df[df.duplicated("wiki_id", keep=False)].copy()
-    df = df[~df.duplicated("wiki_id", keep=False)]
-    dupl = _keep_most_significant(dupl, ["born", "dead"], id="wiki_id")
+    dupl = df[df.duplicated("swerik_id", keep=False)].copy()
+    df = df[~df.duplicated("swerik_id", keep=False)]
+    dupl = _keep_most_significant(dupl, ["born", "dead"], id="swerik_id")
     cols = list(df.columns)
     df = pd.concat([dupl, df])
     df = df[cols]

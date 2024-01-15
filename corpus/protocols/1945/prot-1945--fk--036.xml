@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1945</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1945</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,997 +25,970 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1945-höst-fk--36</head>
-          <docDate when="1945-11-23">1945-11-23</docDate>
-          <docDate when="1945-11-24">1945-11-24</docDate>
-          <docDate when="1945-11-27">1945-11-27</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1945-höst-fk--36/prot_1945_höst_fk__36-000.jp2/_view"/>
-          <note xml:id="i-QbsHsPpR6eEpK4PT9XxYzJ">
-            RIKSDAGENS PROTOKOLL.
-          </note>
-          <note xml:id="i-8qiCmroqeu5mBij4wrC3h1">
-            1945. Första kammaren. Nr 36.
-          </note>
-          <note type="date" xml:id="i-TZapeiWNJAwdCab5Zgz8TK">
-            Fredagen den 23 november.
-          </note>
-          <note xml:id="i-CDbN217uXF3X2WQgxUbBvc">
-            Kammaren sammanträdde kl. 2 eftermiddagen; och dess förhandlingar
-            leddes av herr förste vice talmannen.
-          </note>
-          <note xml:id="i-8dGzUrsqqS4uZTNf3dpKit">
-            Herr Johansson, Henry, anmälde, att han åter infunnit sig vid
-            riksdagen.
-          </note>
-          <note xml:id="i-TgXsDv2UsiDeUZwrpPWVk7" type="speaker">
-            Hans excellens herr statsministern Hansson, som meddelat att
-            han ämnade vid detta sammanträde besvara herr Holmbäcks interpellation
-            angående vissa baltiska flyktingars förpassning ur riket, erhöll
-            ordet och anförde:
-          </note>
-          <u who="Q53660" xml:id="i-LpvvzVifjQYX6yybZimacs" next="i-7NL4N57Fi5wkLwG2ZzeujL">
-            <seg xml:id="i-DWrgzvQKcLS2vAadu56gNd">
-              Herr talman!
-            </seg>
-          </u>
-          <u xml:id="i-7NL4N57Fi5wkLwG2ZzeujL" prev="i-LpvvzVifjQYX6yybZimacs" who="Q53660" next="i-RTQvPQqHpAk8EnyyHHc3fT">
-            <seg xml:id="i-94W66ucf1bcbWaWZiLbVbd">
-              Herr Holmbäck har frågat, om jag är i tillfälle att lämna kammaren
-              upplysningar »i den fråga om förpassningar av balter, vilken de
-              senaste dagarna berörts offentligt».
-            </seg>
-          </u>
-          <u xml:id="i-RTQvPQqHpAk8EnyyHHc3fT" prev="i-7NL4N57Fi5wkLwG2ZzeujL" who="Q53660" next="i-VjECkoZTHvDjMFir96b1DF">
-            <seg xml:id="i-HHfkrLNa2mXu2qQdvEkCsC">
-              Enligt vad jag fått veta avser interpellanten överlämnande till
-              Sovjetunionen av vissa balter, vilka jämte ett antal andra personer
-              tillhörande den tyska krigsmakten flydde till vårt land vid tiden
-              för den tyska kapitulationen.
-            </seg>
-          </u>
-          <u xml:id="i-VjECkoZTHvDjMFir96b1DF" prev="i-RTQvPQqHpAk8EnyyHHc3fT" who="Q53660" next="i-VvhGB4zZxWfPYrHxTkpwdV">
-            <seg xml:id="i-HzjjsGkngB1LESazbo1B4T">
-              . Till svar på frågan vill jag meddela följande.
-            </seg>
-          </u>
-          <u xml:id="i-VvhGB4zZxWfPYrHxTkpwdV" prev="i-VjECkoZTHvDjMFir96b1DF" who="Q53660" next="i-R3JJBKmNN5kBTdZYzC4oVQ">
-            <seg xml:id="i-9a9Cmk1sK6FLMG6aDysvdx">
-              I början av maj detta år, när det tyska sammanbrottet var omedelbart
-              förestående, liksom under den närmaste tiden efter kapitulationen,
-              kom ett jämförelsevis stort antal militärpersoner, tillhörande
-              tyska armén, flyende till Sverige. De flesta av dessa kommo från
-              den tyska östfronten, ett fåtal från västfronten. Samtliga militära
-              flyktingar internerades i enlighet med vanliga regler genom de
-              svenska miltärmyndigheternas försorg.
-            </seg>
-          </u>
-          <u xml:id="i-R3JJBKmNN5kBTdZYzC4oVQ" prev="i-VvhGB4zZxWfPYrHxTkpwdV" who="Q53660" next="i-LruTKM15N5VzxZFFC6ttwx">
-            <seg xml:id="i-7zwHuyVTEjKWC8TwnTWVMu">
-              I en note av den 2 juni 1945 hemställde Sovjetunionens legation
-              under hänvisning till kapitulationsakten den 8 maj om utlämnande
-              till sovjetregeringen av alla tyska soldater, officerare och annan
-              militärpersonal, som anlänt till svenska hamnar, ävensom av personer,
-              tillhörande dessa kategorier, som varit under tysk kontroll.
-            </seg>
-          </u>
-          <u xml:id="i-LruTKM15N5VzxZFFC6ttwx" prev="i-R3JJBKmNN5kBTdZYzC4oVQ" who="Q53660" next="i-58AbwTuoa5Z2x6FsErvCoo">
-            <seg xml:id="i-QtvoEt6CqrV7k23M7hhVHD">
-              Med sistnämnda uttryck åsyftades tydligen de militära flyktingar,
-              som icke voro av tysk nationalitet. En undersökning visade att
-              bland flyktingarna funnos, förutom tyskar, även österrikare, tjecker,
-              polacker, fransmän och personer från de förutvarande baltiska
-              republikerna, huvudsakligen letter.
-            </seg>
-          </u>
-          <note xml:id="i-ABUuBywtwEMgv67FGfWVqp">
-            Kungl. Maj:t beslöt i konselj den 15 juni — efter hörande av
-            utrikesnämnden — att ett svar skulle avlåtas till Sovjetunionens
-            beskickning av följande lydelse:
-          </note>
-          <u xml:id="i-58AbwTuoa5Z2x6FsErvCoo" prev="i-LruTKM15N5VzxZFFC6ttwx" who="Q53660" next="i-UCbgWmd6CeaGHVF8pUw3wt">
-            <seg xml:id="i-8LKFyKUmHyJKRoS9f7RGtz">
-              »Med verbalnote den 2 juni 1945 har Socialistiska Sovjetrepublikernas
-              Unions legation enligt uppdrag framfört förslag om utlämnande
-              till Sovjetregeringen av alla tyska (och sådana som varit under
-              tysk kontroll) soldater, officerare och annan militärpersonal,
-              som flytt från den sovjet-tyska fronten till Sverige efter undertecknandet
-              i Berlin den 8 maj 1945 av akten om Tysklands militära kapitulation.
-            </seg>
-          </u>
-          <u xml:id="i-UCbgWmd6CeaGHVF8pUw3wt" prev="i-58AbwTuoa5Z2x6FsErvCoo" who="Q53660" next="i-SBicQEoXBtpxJstQQFmr3M">
-            <seg xml:id="i-EWAP2B7PJRZZanCgkzednv">
-              Till svar härå får kungl. utrikesdepartementet meddela, att svenska
-              regeringen är beredd att låta de tyska eller under tysk kontroll
-              stående militärpersoner, som från de angivna områdena flytt till
-              Sverige, lämna vårt land och att försvarsstaben fått i uppdrag
-              att träda i förbindelse med legationen rörande modaliteterna för
-              avresan och överlämnandet till Sovjetunionens militära myndig-
-            </seg>
-          </u>
-          <note xml:id="i-BqrXfBgWDMfNqVfDb7njWH">
-            Första kammarens protokoll 1945. Nr 36. 1
-          </note>
-          <note xml:id="i-Jy6HbNa451aXXcfiKH9FHk">
-            Ang. vissa baltiska flyktingars förpassning ur riket.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1945-höst-fk--36/prot_1945_höst_fk__36-001.jp2/_view"/>
-          <note type="date" xml:id="i-3ijDmodLNNUSMRWr5GW27P">
-            2 Nr 36. Fredagen den 23 november 1945.
-          </note>
-          <u xml:id="i-SBicQEoXBtpxJstQQFmr3M" prev="i-UCbgWmd6CeaGHVF8pUw3wt" who="Q53660" next="i-SQ55cMamykTHEvQNyi1wLe">
-            <seg xml:id="i-FakqkM5QZMvor5vrAVs5pN">
-              Ang. vissa baltiska flyktingars förpassning ur riket. (Forts.)
-              heter. Därvid må framhållas, att bland dessa personer också befinna
-              sig sådana som anlänt till Sverige före undertecknandet av kapitulationsakten.
-            </seg>
-          </u>
-          <u xml:id="i-SQ55cMamykTHEvQNyi1wLe" prev="i-SBicQEoXBtpxJstQQFmr3M" who="Q53660" next="i-LP25X22b6oA7g7JKGaTByq">
-            <seg xml:id="i-AuPLUGSDeiycbexspXmgfc">
-              Detta meddelande innefattar givetvis också — varom i legationens
-              note särskilts frågats — att svenska regeringen icke kommer att
-              bereda fristad i Sverige åt dessa personer.»
-            </seg>
-          </u>
-          <note xml:id="i-6z7eR6ieJbwwLn4e1SxFjA">
-            Denna note avlämnades till Sovjetunionens legation den 16 juni.
-          </note>
-          <u xml:id="i-LP25X22b6oA7g7JKGaTByq" prev="i-SQ55cMamykTHEvQNyi1wLe" who="Q53660" next="i-KRg7WudiR2AfT3CfC4DTFC">
-            <seg xml:id="i-6DrGSJUAPqGLPM2zwyhXxR">
-              Av notens ordalydelse framgår, att endast militär personal skulle
-              återsändas. De, som icke varit i krigstjänst vid den ifrågavarande
-              tidpunkten, ha sålunda undantagits, även om de flytt hit tillsammans
-              med den militära personalen. Vidare har konseljbeslutet ansetts
-              omfatta endast personer som anlänt hit efter maj månads ingång.
-            </seg>
-          </u>
-          <u xml:id="i-KRg7WudiR2AfT3CfC4DTFC" prev="i-LP25X22b6oA7g7JKGaTByq" who="Q53660" next="i-9WTLUzqhGFX9Xjc72r2p8R">
-            <seg xml:id="i-8X4PKHZsGakvgLGHgHWrBi">
-              Hela antalet personer som skola återsändas uppgår till något
-              över 2 700. Bland dem finnas omkring 150 letter, några få estländare
-              och litauer, omkring 150 österrikare, ett 60-tal tjecker etc.
-            </seg>
-          </u>
-          <u xml:id="i-9WTLUzqhGFX9Xjc72r2p8R" prev="i-KRg7WudiR2AfT3CfC4DTFC" who="Q53660" next="i-BGYEGd3xcrRrRD2eVUejfH">
-            <seg xml:id="i-DE5nbqrXmzT6g6KeZxERZ5">
-              Avsikten var ursprungligen att flyktingarna skulle omedelbart
-              skickas tillbaka till den ryska zonen, men olika omständigheter
-              ha medfört att avtransporten. har fördröjts. Den skall nu efter
-              överenskommelse med Sovjetunionen äga rum inom den närmaste tiden.
-            </seg>
-          </u>
-          <u xml:id="i-BGYEGd3xcrRrRD2eVUejfH" prev="i-9WTLUzqhGFX9Xjc72r2p8R" who="Q53660" next="i-SVa8MMayM3pA1JJvziPbAz">
-            <seg xml:id="i-MjUPSuwceYoWCLTrwqTpKB">
-              Det må nämnas, att förhandlingar upptagits med brittiska myndigheter
-              om avtransport till den brittiska zonen av återstoden i Sverige
-              internerad tysk militärpersonal, sammanlagt omkring 250 personer.
-            </seg>
-          </u>
-          <u xml:id="i-SVa8MMayM3pA1JJvziPbAz" prev="i-BGYEGd3xcrRrRD2eVUejfH" who="Q53660" next="i-H1gXTBDVrPjEDrQdQ6pubL">
-            <seg xml:id="i-UX7FJSPhNDj3zV9oke1PeA">
-              Av den nu lämnade redogörelsen framgår, att svenska regeringen
-              redan i början av sommaren utfäste sig att återskicka de personer
-              i tysk krigstjänst, som strömmade hit inför det tyska sammanbrottet
-              eller omedelbart därefter. Att vid detta ställningstagande hänsyn
-              ej togs till vederbörande flyktingars nationalitet var naturligt.
-              Stilleståndsfördraget medförde en förpliktelse för alla tyska
-              styrkor att kvarstanna där de voro och nedlägga vapnen. Ehuru
-              Sverige ej var bundet av detta fördrag, ville svenska regeringen
-              ej ge sin medverkan till att militärpersonal tillhörande den tyska
-              krigsmakten undandrog sig följderna av kapitulationen.
-            </seg>
-          </u>
-          <u xml:id="i-H1gXTBDVrPjEDrQdQ6pubL" prev="i-SVa8MMayM3pA1JJvziPbAz" who="Q53660" next="i-RZhaeFy95nghqFyKq9m2jo">
-            <seg xml:id="i-C8XyXoD1wy9SYf7JBMCafy">
-              Det har i den offentliga debatten yppats farhågor för att just
-              balter i tysk tjänst skulle drabbas av särskilt hård behandling
-              från rysk sida. Man har befarat att ryska vederbörande skulle
-              behandla samtliga balter av denna kategori såsom landsförrädare,
-              därför att de baltiska republikerna anslutits till Sovjetunionen
-              före det tysk-ryska krigets utbrott och sålunda voro sovjetmedborgare
-              redan då. Regeringen kan för sin del icke dela dessa farhågor.
-              Sovjetunionens regering är lika väl som vi själva medveten om
-              att anslutningen av de baltiska republikerna till Sovjetunionen
-              har skett så nyligen att man inte rimligen kan bedöma enskilda
-              balters handlingssätt på samma sätt som om deras länder sedan
-              lång tid tillbaka varit förenade med Sovjetunionen. Härtill kommer
-              att många av balterna sannolikt varit utsatta för tvång eller
-              påtryckning från tysk sida. De säregna förhållanden som varit
-              rådande, särskilt den tyska invasionen så snart efter det länderna
-              anslutits till Sovjetunionen, medföra enligt den svenska regeringens
-              uppfattning ett undantagsläge. Ehuru svenska regeringen som bekant
-              sedan länge erkänt de förra baltiska republikernas nya ställning
-              såsom anslutna till Sovjetunionen, hyser regeringen alltså den
-              meningen — åt vilken den icke underlåtit att giva uttryck till
-              Sovjetunionens regering — att militärpersonal av baltisk härkomst
-              i tysk tjänst icke bör behandlas annorlunda än vanliga krigsfångar.
-            </seg>
-          </u>
-          <u xml:id="i-RZhaeFy95nghqFyKq9m2jo" prev="i-H1gXTBDVrPjEDrQdQ6pubL" who="Q53660">
-            <seg xml:id="i-9JbrihE6FGRyTNmDyqpQgK">
-              Det är vår övertygelse att sovjetregeringen skall beakta dessa
-              våra synpunkter.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-B8nFXFP3RzRBGjG8bWCt7j">
-            Herr Holmbäck:
-          </note>
-          <u who="Q5811172" xml:id="i-c6f63b87e606842a-0" next="i-EFVfUY6eoZJShXKTgc5gRM">
-            <seg xml:id="i-PFN3JKPwXiennXxSFEEseE">
-              Herr talman! Jag får till hans excellens framföra min tacksamhet
-              för svaret på min interpellation. Det är synnerligen tillfredsställande
-              att svaret lämnats så snabbt som fallet varit.
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1945-höst-fk--36/prot_1945_höst_fk__36-002.jp2/_view"/>
-          <note type="date" xml:id="i-VYPYWdhEsD174bxWf3iUHk">
-            Fredagen den 23 november 1945. Nr 36. 3
-          </note>
-          <note xml:id="i-6vB7fLys5atz7xGyCGM9cQ">
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1945-höst-fk--36</head>
+        <docDate when="1945-11-23">1945-11-23</docDate>
+        <docDate when="1945-11-24">1945-11-24</docDate>
+        <docDate when="1945-11-27">1945-11-27</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1945-höst-fk--36/prot_1945_höst_fk__36-000.jp2/_view"/>
+        <note xml:id="i-QbsHsPpR6eEpK4PT9XxYzJ">
+          RIKSDAGENS PROTOKOLL.
+        </note>
+        <note xml:id="i-8qiCmroqeu5mBij4wrC3h1">
+          1945. Första kammaren. Nr 36.
+        </note>
+        <note type="date" xml:id="i-TZapeiWNJAwdCab5Zgz8TK">
+          Fredagen den 23 november.
+        </note>
+        <note xml:id="i-CDbN217uXF3X2WQgxUbBvc">
+          Kammaren sammanträdde kl. 2 eftermiddagen; och dess förhandlingar
+          leddes av herr förste vice talmannen.
+        </note>
+        <note xml:id="i-8dGzUrsqqS4uZTNf3dpKit">
+          Herr Johansson, Henry, anmälde, att han åter infunnit sig vid
+          riksdagen.
+        </note>
+        <note xml:id="i-TgXsDv2UsiDeUZwrpPWVk7" type="speaker">
+          Hans excellens herr statsministern Hansson, som meddelat att
+          han ämnade vid detta sammanträde besvara herr Holmbäcks interpellation
+          angående vissa baltiska flyktingars förpassning ur riket, erhöll
+          ordet och anförde:
+        </note>
+        <u who="i-L7nvZ56RferP78KNpz2Uh1" xml:id="i-LpvvzVifjQYX6yybZimacs" next="i-7NL4N57Fi5wkLwG2ZzeujL">
+          <seg xml:id="i-DWrgzvQKcLS2vAadu56gNd">
+            Herr talman!
+          </seg>
+        </u>
+        <u xml:id="i-7NL4N57Fi5wkLwG2ZzeujL" prev="i-LpvvzVifjQYX6yybZimacs" who="i-L7nvZ56RferP78KNpz2Uh1" next="i-RTQvPQqHpAk8EnyyHHc3fT">
+          <seg xml:id="i-94W66ucf1bcbWaWZiLbVbd">
+            Herr Holmbäck har frågat, om jag är i tillfälle att lämna kammaren
+            upplysningar »i den fråga om förpassningar av balter, vilken de
+            senaste dagarna berörts offentligt».
+          </seg>
+        </u>
+        <u xml:id="i-RTQvPQqHpAk8EnyyHHc3fT" prev="i-7NL4N57Fi5wkLwG2ZzeujL" who="i-L7nvZ56RferP78KNpz2Uh1" next="i-VjECkoZTHvDjMFir96b1DF">
+          <seg xml:id="i-HHfkrLNa2mXu2qQdvEkCsC">
+            Enligt vad jag fått veta avser interpellanten överlämnande till
+            Sovjetunionen av vissa balter, vilka jämte ett antal andra personer
+            tillhörande den tyska krigsmakten flydde till vårt land vid tiden
+            för den tyska kapitulationen.
+          </seg>
+        </u>
+        <u xml:id="i-VjECkoZTHvDjMFir96b1DF" prev="i-RTQvPQqHpAk8EnyyHHc3fT" who="i-L7nvZ56RferP78KNpz2Uh1" next="i-VvhGB4zZxWfPYrHxTkpwdV">
+          <seg xml:id="i-HzjjsGkngB1LESazbo1B4T">
+            . Till svar på frågan vill jag meddela följande.
+          </seg>
+        </u>
+        <u xml:id="i-VvhGB4zZxWfPYrHxTkpwdV" prev="i-VjECkoZTHvDjMFir96b1DF" who="i-L7nvZ56RferP78KNpz2Uh1" next="i-R3JJBKmNN5kBTdZYzC4oVQ">
+          <seg xml:id="i-9a9Cmk1sK6FLMG6aDysvdx">
+            I början av maj detta år, när det tyska sammanbrottet var omedelbart
+            förestående, liksom under den närmaste tiden efter kapitulationen,
+            kom ett jämförelsevis stort antal militärpersoner, tillhörande
+            tyska armén, flyende till Sverige. De flesta av dessa kommo från
+            den tyska östfronten, ett fåtal från västfronten. Samtliga militära
+            flyktingar internerades i enlighet med vanliga regler genom de
+            svenska miltärmyndigheternas försorg.
+          </seg>
+        </u>
+        <u xml:id="i-R3JJBKmNN5kBTdZYzC4oVQ" prev="i-VvhGB4zZxWfPYrHxTkpwdV" who="i-L7nvZ56RferP78KNpz2Uh1" next="i-LruTKM15N5VzxZFFC6ttwx">
+          <seg xml:id="i-7zwHuyVTEjKWC8TwnTWVMu">
+            I en note av den 2 juni 1945 hemställde Sovjetunionens legation
+            under hänvisning till kapitulationsakten den 8 maj om utlämnande
+            till sovjetregeringen av alla tyska soldater, officerare och annan
+            militärpersonal, som anlänt till svenska hamnar, ävensom av personer,
+            tillhörande dessa kategorier, som varit under tysk kontroll.
+          </seg>
+        </u>
+        <u xml:id="i-LruTKM15N5VzxZFFC6ttwx" prev="i-R3JJBKmNN5kBTdZYzC4oVQ" who="i-L7nvZ56RferP78KNpz2Uh1" next="i-58AbwTuoa5Z2x6FsErvCoo">
+          <seg xml:id="i-QtvoEt6CqrV7k23M7hhVHD">
+            Med sistnämnda uttryck åsyftades tydligen de militära flyktingar,
+            som icke voro av tysk nationalitet. En undersökning visade att
+            bland flyktingarna funnos, förutom tyskar, även österrikare, tjecker,
+            polacker, fransmän och personer från de förutvarande baltiska
+            republikerna, huvudsakligen letter.
+          </seg>
+        </u>
+        <note xml:id="i-ABUuBywtwEMgv67FGfWVqp">
+          Kungl. Maj:t beslöt i konselj den 15 juni — efter hörande av
+          utrikesnämnden — att ett svar skulle avlåtas till Sovjetunionens
+          beskickning av följande lydelse:
+        </note>
+        <u xml:id="i-58AbwTuoa5Z2x6FsErvCoo" prev="i-LruTKM15N5VzxZFFC6ttwx" who="i-L7nvZ56RferP78KNpz2Uh1" next="i-UCbgWmd6CeaGHVF8pUw3wt">
+          <seg xml:id="i-8LKFyKUmHyJKRoS9f7RGtz">
+            »Med verbalnote den 2 juni 1945 har Socialistiska Sovjetrepublikernas
+            Unions legation enligt uppdrag framfört förslag om utlämnande
+            till Sovjetregeringen av alla tyska (och sådana som varit under
+            tysk kontroll) soldater, officerare och annan militärpersonal,
+            som flytt från den sovjet-tyska fronten till Sverige efter undertecknandet
+            i Berlin den 8 maj 1945 av akten om Tysklands militära kapitulation.
+          </seg>
+        </u>
+        <u xml:id="i-UCbgWmd6CeaGHVF8pUw3wt" prev="i-58AbwTuoa5Z2x6FsErvCoo" who="i-L7nvZ56RferP78KNpz2Uh1" next="i-SBicQEoXBtpxJstQQFmr3M">
+          <seg xml:id="i-EWAP2B7PJRZZanCgkzednv">
+            Till svar härå får kungl. utrikesdepartementet meddela, att svenska
+            regeringen är beredd att låta de tyska eller under tysk kontroll
+            stående militärpersoner, som från de angivna områdena flytt till
+            Sverige, lämna vårt land och att försvarsstaben fått i uppdrag
+            att träda i förbindelse med legationen rörande modaliteterna för
+            avresan och överlämnandet till Sovjetunionens militära myndig-
+          </seg>
+        </u>
+        <note xml:id="i-BqrXfBgWDMfNqVfDb7njWH">
+          Första kammarens protokoll 1945. Nr 36. 1
+        </note>
+        <note xml:id="i-Jy6HbNa451aXXcfiKH9FHk">
+          Ang. vissa baltiska flyktingars förpassning ur riket.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1945-höst-fk--36/prot_1945_höst_fk__36-001.jp2/_view"/>
+        <note type="date" xml:id="i-3ijDmodLNNUSMRWr5GW27P">
+          2 Nr 36. Fredagen den 23 november 1945.
+        </note>
+        <u xml:id="i-SBicQEoXBtpxJstQQFmr3M" prev="i-UCbgWmd6CeaGHVF8pUw3wt" who="i-L7nvZ56RferP78KNpz2Uh1" next="i-SQ55cMamykTHEvQNyi1wLe">
+          <seg xml:id="i-FakqkM5QZMvor5vrAVs5pN">
             Ang. vissa baltiska flyktingars förpassning ur riket. (Forts.)
-          </note>
-          <u xml:id="i-EFVfUY6eoZJShXKTgc5gRM" prev="i-c6f63b87e606842a-0" who="Q5811172" next="i-c6f63b87e606842a-2">
-            <seg xml:id="i-BZJbZBxTUhpQedh1UWSFj2">
-              De förhållanden, vilka interpellationen och svaret beröra, ha
-              hållits hemliga. När jag fick reda på saken — det skedde i söndags
-              — stod det fullkomligt klart för mig, att regeringen borde anmodas
-              att giva en redogörelse inför riksdagen. Riksdagen i sin helhet
-              bör ha kännedom om så viktiga förhållanden, varom här är fråga.
-              Allmänheten bör få fullständiga upplysningar, så att opinionsbildningen
-              i samhället kan föra fram till riktiga resultat. Båda dessa krav
-              måste ställas i demokratiens namn. I den fråga, i vilken jag interpellerat,
-              hade upplysningar bort lämnas långt tidigare, helst i somras.
-              Det är brist på förtroende till riksdagsmännen och till folket,
-              att vi skola få kännedom om en sak som denna på sätt som här skett,
-              genom frågande tal man och man emellan och genom artiklar i pressen.
-              Det är oriktigt att regeringens förklaring skall komma i efterhand.
-            </seg>
-            <seg xml:id="i-T96JZukms7f7G4obX7yvzW">
-              Vad ärendets folkrättsliga sida beträffar torde det kunna konstateras,
-              att den svenska regeringen den .15 juni 1945 hade sin fulla handlingsfrihet.
-              Ingen konvention band oss att lämna ett jakande svar på den ryska
-              framställningen. 2 kap. 11 artikeln i femte Haagkonventionen av
-              år 1907 angående neutrala makters och personers rättigheter och
-              förpliktelser under ett lantkrig stadgar, att neutral makt, som
-              å sitt område mottager trupper tillhörande de krigförande arméerna,
-              skall internera dem, såvitt möjligt långt från krigsskådeplatsen.
-              Svaret på interpellationen lämnar icke upplysning om huruvida
-              det i fråga om de flyktande militärpersonérna ens var fråga om
-              trupper, d. v. s. ordnade förband med vapen: Man får blott reda
-              på att fråga är om militärpersoner, i vilket uttryck väl icke
-              ligger mer än att männen burit uniform vid ankomsten hit. Oavsett
-              huruvida här är fråga om trupp eller ej, måste det göras gällande,
-              att Haagkonventionen icke ålägger en neutral makt att efter freden
-              utlämna trupperna vare sig till segrarmakten eller till den besegrade.
-            </seg>
-            <seg xml:id="i-RhsgdnXihUQrUFti3Z7V76">
-              Det beslut, som fattats om utlämnande av förevarande militärpersoner,
-              har alltså karaktär av ett medgivande. Då den svenska regeringen
-              gav detta medgivande, hade den i sin hand att giva det ett större
-              eller mindre omfång.
-            </seg>
-            <seg xml:id="i-VM4gLZ4ibBt6eEyAsq2QKR">
-              Det väcker då uppmärksamhet, att svenska regeringen ansett sig
-              böra gå längre än vad Sovjetunionen begärt. Sovjetunionen har
-              begärt ett utlämnande av alla tyska (och sådana som varit under
-              tysk kontroll) soldater, officerare och annan militärpersonal,
-              som flytt från den sovjetrysk-tyska fronten till Sverige efter
-              undertecknandet i Berlin den 8 maj 1945 av akten om Tysklands
-              militära kapitulation, Svenska regeringen har lovat att utlämna
-              alla tyska eller under tysk kontroll stående militärpersoner,
-              som från de angivna områdena flytt till vårt land, och därvid
-              framhållit, att bland dessa personer också befinna sig sådana,
-              som anlänt till Sverige före undertecknandet av kapitulationsurkunden
-              och som alltså icke flytt efter kapitulationen.
-            </seg>
-            <seg xml:id="i-2FApc6rGZ8vpwSTMpRn1xv">
-              Men vad som särskilt väcker uppmärksamhet är att svenska regeringen
-              icke på något sätt förbehållit sig en individuell prövningsrätt.
-              Av statsministerns svar framgår, att regeringen visste, att bland
-              dessa tyska militärpersoner även befunno sig balter.
-            </seg>
-            <seg xml:id="i-Ukcdyj8umithE7QRnzYpvM">
-              Beträffande balterna och kanske även i fråga om personer, tillhörande
-              vissa andra nationaliteter än den tyska, borde det individuellt
-              ha undersökts, om de icke borde ha inrangerats under begreppet
-              politiska flyktingar och åtnjuta den asyl, som Sverige lämnar
-              andra av samma kategori. Med särskild styrka gäller detta betraktelsesätt
-              dem som varit politiskt verksamma för sina länders oberoende.
-              Vissa av balterna ha måhända tvungits medverka i den tyska armén.
-              Jag vågar bestrida riktigheten av statsministerns uttalande. att
-              det var naturligt att vid regeringens ställningstagande hänsyn
-              ej togs till vederbörande flyktingars nationalitet. På grund av
-              balternas särställning och på grund av de skiftande förhållanden,
-              som måste göra sig gällande i fråga om
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1945-höst-fk--36/prot_1945_höst_fk__36-003.jp2/_view"/>
-          <note type="date" xml:id="i-KxonoZ5zDA8szA5ha9aE8J">
-            4 Nr 36. Fredagen den 23 november 19453.
-          </note>
-          <u who="Q5811172" xml:id="i-c6f63b87e606842a-2" prev="i-EFVfUY6eoZJShXKTgc5gRM">
-            <seg xml:id="i-AoJaXbiBbTT2iXXPe2qEa2">
-              Ång. vissa baltiska flyktingars förpassning ur riket. (Forts.)
-              de särskilda individerna, hade det enligt min uppfattning tvärtom
-              varit riktigt att åstadkomma en individuell prövning. i
-            </seg>
-            <seg xml:id="i-EntL8E9PpkbtbTEYEFLZQZ">
-              Av statsministerns svar förstår jag, att det är föga utsikt att
-              få en ändring till stånd på någon särskild punkt i den överenskommelse,
-              som slutits med Ryssland. I den situation som uppkommit kan det
-              annoteras, att svenska regeringen, som säger sig icke dela farhågorna
-              för balternas öde, för ryska regeringen framhållit, att militära
-              personer av baltisk härkomst i tysk tjänst icke böra behandlas
-              annorlunda än som vanliga krigsfångar. Men själva den situation
-              som uppkommit hade icke bort tillåtas att inträda. Svensk myndighet
-              hade efter ingående prövning bort få avgöra, vilka som skulle
-              utlämnas och vilka som skulle få stanna.
-            </seg>
-            <seg xml:id="i-gXU3QdNSK5mnT1LxLpmxe">
-              Jag betraktar det som självklart, att svenska regeringen begagnar
-              varje möjlighet, som ännu kan finnas, att i fråga om balterna
-              få en ändring till stånd i den slutna överenskommelsen i den riktning,
-              som nationens övervägande flertal torde önska.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-MfXPdSmZ3NuRxTQNMWGhwm">
-            Herr Anderson, Axel Ivar:
-          </note>
-          <u who="Q5553542" xml:id="i-c6f63b87e606842a-3" next="i-2zQd3UfMr6pnDp84YwxpBy">
-            <seg xml:id="i-Y2XcYnnK7QHsQi4dvAFdP5">
-              Herr förste vice talman! Statsministern nämnde i sitt interpellationssvar,
-              att regeringens svar på den framställning, som Sovjetunionen i
-              juni månad hade gjort angående utlämnande av f. d. krigsdeltagare,
-              hade underställts utrikesnämnden. Det är riktigt. Utrikesnämnden
-              fick vid sammanträde den 11 juni ett meddelande om Sovjetunionens
-              framställning. Men jag ber att få påpeka, att saken då icke förelåg
-              i den form, vari den nu har framställts här på grundval av det
-              definitiva beslut, som fattades den 15 juni. Därför kom också
-              överläggningen i utrikesnämnden icke att röra sig om den utlämning,
-              som nu är förestående, utan frågan gällde överlämnande av ifrågavarande
-              militärpersonal — huvudsakligen tyskar — till en interallierad
-              militärkommission. Det är klart att detta är något väsentligt
-              annat än det som det nu är fråga om. Jag anser, att det bör framhållas,
-              att diskussionen har rört sig om en sådan eventualitet och att
-              det också var regeringens första tanke, att man skulle försöka
-              ordna utlämnandet på sådant sätt. Den avsikten har tydligen icke
-              kunnat realiseras, och då har regeringen fallit tillbaka på den
-              ståndpunkt, som innefattas i beslutet den 15 juni, som nu sent
-              omsider skall effektueras.
-            </seg>
-            <seg xml:id="i-Wc5eFrCTzZdiz5VsZE4r6s">
-              Om detta beslut och dess konsekvenser i olika hänseenden behöver
-              här inte sägas mycket mera efter det inlägg, som nyss har gjorts
-              av interpellanten. Jag skulle tro, att den syn, som han där har
-              anlagt, delas av oss litet var. Det skulle endast behöva tilläggas,
-              att vi aldrig få ge efter på vår rätt som suverän stat att själva
-              tolka asylrättsprincipen så, som vi finna, att den bör tolkas
-              i överensstämmelse med svenska rättsgrundsatser och humanitära
-              bud. En eftergift för en makthavare, han må bo i söder eller öster
-              eller väster, står icke i överensstämmelse med den svenska rättsuppfattning,
-              som dock i stort sett framgångsrikt har kunnat hävdas under dessa
-              år.
-            </seg>
-            <seg xml:id="i-8pYsayoebMZBFvGoEGkndJ">
-              Vi glädja oss alla åt medvetandet om att många av denna regerings
-              medlemmar såsom medlemmar av samlingsregeringen under de år som
-              gått ha stått fasta mot påtryckningar från annat håll. Jag vill
-              inte påstå, att man här visat en större eftergivenhet, men man
-              har kanske under intryck av de förhållanden, som rådde i början
-              av sommaren, under intryck av det plötsliga slutet på kriget och
-              de förhoppningar, som därav framkallades, låtit sig förledas att
-              bedöma hela utvecklingen alltför optimistiskt för de krigsfångars
-              del, för vilka Sverige hade fått ta ett visst ansvar.
-            </seg>
-            <seg xml:id="i-6HDGF8y5ohcsueW74Ct3WD">
-              Folkrättsligt kan inte den satsen drivas, att Sverige skulle
-              vara skyldigt att utlämna dessa människor, och ännu mindre kan
-              det sägas stå i överensstämmelse med den tolkning av principerna
-              för vår asylrätt, som vi hittills med stolthet ha velat hävda.
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1945-höst-fk--36/prot_1945_höst_fk__36-004.jp2/_view"/>
-          <note type="date" xml:id="i-TLz4bRgxf48vRdh7He2Gnj">
-            Fredagen den 23 november 1945. Nr 36. 5
-          </note>
-          <note xml:id="i-E1ZWvutydrUYjHRuCY6vML">
+            heter. Därvid må framhållas, att bland dessa personer också befinna
+            sig sådana som anlänt till Sverige före undertecknandet av kapitulationsakten.
+          </seg>
+        </u>
+        <u xml:id="i-SQ55cMamykTHEvQNyi1wLe" prev="i-SBicQEoXBtpxJstQQFmr3M" who="i-L7nvZ56RferP78KNpz2Uh1" next="i-LP25X22b6oA7g7JKGaTByq">
+          <seg xml:id="i-AuPLUGSDeiycbexspXmgfc">
+            Detta meddelande innefattar givetvis också — varom i legationens
+            note särskilts frågats — att svenska regeringen icke kommer att
+            bereda fristad i Sverige åt dessa personer.»
+          </seg>
+        </u>
+        <note xml:id="i-6z7eR6ieJbwwLn4e1SxFjA">
+          Denna note avlämnades till Sovjetunionens legation den 16 juni.
+        </note>
+        <u xml:id="i-LP25X22b6oA7g7JKGaTByq" prev="i-SQ55cMamykTHEvQNyi1wLe" who="i-L7nvZ56RferP78KNpz2Uh1" next="i-KRg7WudiR2AfT3CfC4DTFC">
+          <seg xml:id="i-6DrGSJUAPqGLPM2zwyhXxR">
+            Av notens ordalydelse framgår, att endast militär personal skulle
+            återsändas. De, som icke varit i krigstjänst vid den ifrågavarande
+            tidpunkten, ha sålunda undantagits, även om de flytt hit tillsammans
+            med den militära personalen. Vidare har konseljbeslutet ansetts
+            omfatta endast personer som anlänt hit efter maj månads ingång.
+          </seg>
+        </u>
+        <u xml:id="i-KRg7WudiR2AfT3CfC4DTFC" prev="i-LP25X22b6oA7g7JKGaTByq" who="i-L7nvZ56RferP78KNpz2Uh1" next="i-9WTLUzqhGFX9Xjc72r2p8R">
+          <seg xml:id="i-8X4PKHZsGakvgLGHgHWrBi">
+            Hela antalet personer som skola återsändas uppgår till något
+            över 2 700. Bland dem finnas omkring 150 letter, några få estländare
+            och litauer, omkring 150 österrikare, ett 60-tal tjecker etc.
+          </seg>
+        </u>
+        <u xml:id="i-9WTLUzqhGFX9Xjc72r2p8R" prev="i-KRg7WudiR2AfT3CfC4DTFC" who="i-L7nvZ56RferP78KNpz2Uh1" next="i-BGYEGd3xcrRrRD2eVUejfH">
+          <seg xml:id="i-DE5nbqrXmzT6g6KeZxERZ5">
+            Avsikten var ursprungligen att flyktingarna skulle omedelbart
+            skickas tillbaka till den ryska zonen, men olika omständigheter
+            ha medfört att avtransporten. har fördröjts. Den skall nu efter
+            överenskommelse med Sovjetunionen äga rum inom den närmaste tiden.
+          </seg>
+        </u>
+        <u xml:id="i-BGYEGd3xcrRrRD2eVUejfH" prev="i-9WTLUzqhGFX9Xjc72r2p8R" who="i-L7nvZ56RferP78KNpz2Uh1" next="i-SVa8MMayM3pA1JJvziPbAz">
+          <seg xml:id="i-MjUPSuwceYoWCLTrwqTpKB">
+            Det må nämnas, att förhandlingar upptagits med brittiska myndigheter
+            om avtransport till den brittiska zonen av återstoden i Sverige
+            internerad tysk militärpersonal, sammanlagt omkring 250 personer.
+          </seg>
+        </u>
+        <u xml:id="i-SVa8MMayM3pA1JJvziPbAz" prev="i-BGYEGd3xcrRrRD2eVUejfH" who="i-L7nvZ56RferP78KNpz2Uh1" next="i-H1gXTBDVrPjEDrQdQ6pubL">
+          <seg xml:id="i-UX7FJSPhNDj3zV9oke1PeA">
+            Av den nu lämnade redogörelsen framgår, att svenska regeringen
+            redan i början av sommaren utfäste sig att återskicka de personer
+            i tysk krigstjänst, som strömmade hit inför det tyska sammanbrottet
+            eller omedelbart därefter. Att vid detta ställningstagande hänsyn
+            ej togs till vederbörande flyktingars nationalitet var naturligt.
+            Stilleståndsfördraget medförde en förpliktelse för alla tyska
+            styrkor att kvarstanna där de voro och nedlägga vapnen. Ehuru
+            Sverige ej var bundet av detta fördrag, ville svenska regeringen
+            ej ge sin medverkan till att militärpersonal tillhörande den tyska
+            krigsmakten undandrog sig följderna av kapitulationen.
+          </seg>
+        </u>
+        <u xml:id="i-H1gXTBDVrPjEDrQdQ6pubL" prev="i-SVa8MMayM3pA1JJvziPbAz" who="i-L7nvZ56RferP78KNpz2Uh1" next="i-RZhaeFy95nghqFyKq9m2jo">
+          <seg xml:id="i-C8XyXoD1wy9SYf7JBMCafy">
+            Det har i den offentliga debatten yppats farhågor för att just
+            balter i tysk tjänst skulle drabbas av särskilt hård behandling
+            från rysk sida. Man har befarat att ryska vederbörande skulle
+            behandla samtliga balter av denna kategori såsom landsförrädare,
+            därför att de baltiska republikerna anslutits till Sovjetunionen
+            före det tysk-ryska krigets utbrott och sålunda voro sovjetmedborgare
+            redan då. Regeringen kan för sin del icke dela dessa farhågor.
+            Sovjetunionens regering är lika väl som vi själva medveten om
+            att anslutningen av de baltiska republikerna till Sovjetunionen
+            har skett så nyligen att man inte rimligen kan bedöma enskilda
+            balters handlingssätt på samma sätt som om deras länder sedan
+            lång tid tillbaka varit förenade med Sovjetunionen. Härtill kommer
+            att många av balterna sannolikt varit utsatta för tvång eller
+            påtryckning från tysk sida. De säregna förhållanden som varit
+            rådande, särskilt den tyska invasionen så snart efter det länderna
+            anslutits till Sovjetunionen, medföra enligt den svenska regeringens
+            uppfattning ett undantagsläge. Ehuru svenska regeringen som bekant
+            sedan länge erkänt de förra baltiska republikernas nya ställning
+            såsom anslutna till Sovjetunionen, hyser regeringen alltså den
+            meningen — åt vilken den icke underlåtit att giva uttryck till
+            Sovjetunionens regering — att militärpersonal av baltisk härkomst
+            i tysk tjänst icke bör behandlas annorlunda än vanliga krigsfångar.
+          </seg>
+        </u>
+        <u xml:id="i-RZhaeFy95nghqFyKq9m2jo" prev="i-H1gXTBDVrPjEDrQdQ6pubL" who="i-L7nvZ56RferP78KNpz2Uh1">
+          <seg xml:id="i-9JbrihE6FGRyTNmDyqpQgK">
+            Det är vår övertygelse att sovjetregeringen skall beakta dessa
+            våra synpunkter.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-B8nFXFP3RzRBGjG8bWCt7j">
+          Herr Holmbäck:
+        </note>
+        <u who="i-L31knc1H7Q8uzLgTZoFx7A" xml:id="i-c6f63b87e606842a-0" next="i-EFVfUY6eoZJShXKTgc5gRM">
+          <seg xml:id="i-PFN3JKPwXiennXxSFEEseE">
+            Herr talman! Jag får till hans excellens framföra min tacksamhet
+            för svaret på min interpellation. Det är synnerligen tillfredsställande
+            att svaret lämnats så snabbt som fallet varit.
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1945-höst-fk--36/prot_1945_höst_fk__36-002.jp2/_view"/>
+        <note type="date" xml:id="i-VYPYWdhEsD174bxWf3iUHk">
+          Fredagen den 23 november 1945. Nr 36. 3
+        </note>
+        <note xml:id="i-6vB7fLys5atz7xGyCGM9cQ">
+          Ang. vissa baltiska flyktingars förpassning ur riket. (Forts.)
+        </note>
+        <u xml:id="i-EFVfUY6eoZJShXKTgc5gRM" prev="i-c6f63b87e606842a-0" who="i-L31knc1H7Q8uzLgTZoFx7A" next="i-c6f63b87e606842a-2">
+          <seg xml:id="i-BZJbZBxTUhpQedh1UWSFj2">
+            De förhållanden, vilka interpellationen och svaret beröra, ha
+            hållits hemliga. När jag fick reda på saken — det skedde i söndags
+            — stod det fullkomligt klart för mig, att regeringen borde anmodas
+            att giva en redogörelse inför riksdagen. Riksdagen i sin helhet
+            bör ha kännedom om så viktiga förhållanden, varom här är fråga.
+            Allmänheten bör få fullständiga upplysningar, så att opinionsbildningen
+            i samhället kan föra fram till riktiga resultat. Båda dessa krav
+            måste ställas i demokratiens namn. I den fråga, i vilken jag interpellerat,
+            hade upplysningar bort lämnas långt tidigare, helst i somras.
+            Det är brist på förtroende till riksdagsmännen och till folket,
+            att vi skola få kännedom om en sak som denna på sätt som här skett,
+            genom frågande tal man och man emellan och genom artiklar i pressen.
+            Det är oriktigt att regeringens förklaring skall komma i efterhand.
+          </seg>
+          <seg xml:id="i-T96JZukms7f7G4obX7yvzW">
+            Vad ärendets folkrättsliga sida beträffar torde det kunna konstateras,
+            att den svenska regeringen den .15 juni 1945 hade sin fulla handlingsfrihet.
+            Ingen konvention band oss att lämna ett jakande svar på den ryska
+            framställningen. 2 kap. 11 artikeln i femte Haagkonventionen av
+            år 1907 angående neutrala makters och personers rättigheter och
+            förpliktelser under ett lantkrig stadgar, att neutral makt, som
+            å sitt område mottager trupper tillhörande de krigförande arméerna,
+            skall internera dem, såvitt möjligt långt från krigsskådeplatsen.
+            Svaret på interpellationen lämnar icke upplysning om huruvida
+            det i fråga om de flyktande militärpersonérna ens var fråga om
+            trupper, d. v. s. ordnade förband med vapen: Man får blott reda
+            på att fråga är om militärpersoner, i vilket uttryck väl icke
+            ligger mer än att männen burit uniform vid ankomsten hit. Oavsett
+            huruvida här är fråga om trupp eller ej, måste det göras gällande,
+            att Haagkonventionen icke ålägger en neutral makt att efter freden
+            utlämna trupperna vare sig till segrarmakten eller till den besegrade.
+          </seg>
+          <seg xml:id="i-RhsgdnXihUQrUFti3Z7V76">
+            Det beslut, som fattats om utlämnande av förevarande militärpersoner,
+            har alltså karaktär av ett medgivande. Då den svenska regeringen
+            gav detta medgivande, hade den i sin hand att giva det ett större
+            eller mindre omfång.
+          </seg>
+          <seg xml:id="i-VM4gLZ4ibBt6eEyAsq2QKR">
+            Det väcker då uppmärksamhet, att svenska regeringen ansett sig
+            böra gå längre än vad Sovjetunionen begärt. Sovjetunionen har
+            begärt ett utlämnande av alla tyska (och sådana som varit under
+            tysk kontroll) soldater, officerare och annan militärpersonal,
+            som flytt från den sovjetrysk-tyska fronten till Sverige efter
+            undertecknandet i Berlin den 8 maj 1945 av akten om Tysklands
+            militära kapitulation, Svenska regeringen har lovat att utlämna
+            alla tyska eller under tysk kontroll stående militärpersoner,
+            som från de angivna områdena flytt till vårt land, och därvid
+            framhållit, att bland dessa personer också befinna sig sådana,
+            som anlänt till Sverige före undertecknandet av kapitulationsurkunden
+            och som alltså icke flytt efter kapitulationen.
+          </seg>
+          <seg xml:id="i-2FApc6rGZ8vpwSTMpRn1xv">
+            Men vad som särskilt väcker uppmärksamhet är att svenska regeringen
+            icke på något sätt förbehållit sig en individuell prövningsrätt.
+            Av statsministerns svar framgår, att regeringen visste, att bland
+            dessa tyska militärpersoner även befunno sig balter.
+          </seg>
+          <seg xml:id="i-Ukcdyj8umithE7QRnzYpvM">
+            Beträffande balterna och kanske även i fråga om personer, tillhörande
+            vissa andra nationaliteter än den tyska, borde det individuellt
+            ha undersökts, om de icke borde ha inrangerats under begreppet
+            politiska flyktingar och åtnjuta den asyl, som Sverige lämnar
+            andra av samma kategori. Med särskild styrka gäller detta betraktelsesätt
+            dem som varit politiskt verksamma för sina länders oberoende.
+            Vissa av balterna ha måhända tvungits medverka i den tyska armén.
+            Jag vågar bestrida riktigheten av statsministerns uttalande. att
+            det var naturligt att vid regeringens ställningstagande hänsyn
+            ej togs till vederbörande flyktingars nationalitet. På grund av
+            balternas särställning och på grund av de skiftande förhållanden,
+            som måste göra sig gällande i fråga om
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1945-höst-fk--36/prot_1945_höst_fk__36-003.jp2/_view"/>
+        <note type="date" xml:id="i-KxonoZ5zDA8szA5ha9aE8J">
+          4 Nr 36. Fredagen den 23 november 19453.
+        </note>
+        <u who="i-L31knc1H7Q8uzLgTZoFx7A" xml:id="i-c6f63b87e606842a-2" prev="i-EFVfUY6eoZJShXKTgc5gRM">
+          <seg xml:id="i-AoJaXbiBbTT2iXXPe2qEa2">
+            Ång. vissa baltiska flyktingars förpassning ur riket. (Forts.)
+            de särskilda individerna, hade det enligt min uppfattning tvärtom
+            varit riktigt att åstadkomma en individuell prövning. i
+          </seg>
+          <seg xml:id="i-EntL8E9PpkbtbTEYEFLZQZ">
+            Av statsministerns svar förstår jag, att det är föga utsikt att
+            få en ändring till stånd på någon särskild punkt i den överenskommelse,
+            som slutits med Ryssland. I den situation som uppkommit kan det
+            annoteras, att svenska regeringen, som säger sig icke dela farhågorna
+            för balternas öde, för ryska regeringen framhållit, att militära
+            personer av baltisk härkomst i tysk tjänst icke böra behandlas
+            annorlunda än som vanliga krigsfångar. Men själva den situation
+            som uppkommit hade icke bort tillåtas att inträda. Svensk myndighet
+            hade efter ingående prövning bort få avgöra, vilka som skulle
+            utlämnas och vilka som skulle få stanna.
+          </seg>
+          <seg xml:id="i-gXU3QdNSK5mnT1LxLpmxe">
+            Jag betraktar det som självklart, att svenska regeringen begagnar
+            varje möjlighet, som ännu kan finnas, att i fråga om balterna
+            få en ändring till stånd i den slutna överenskommelsen i den riktning,
+            som nationens övervägande flertal torde önska.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-MfXPdSmZ3NuRxTQNMWGhwm">
+          Herr Anderson, Axel Ivar:
+        </note>
+        <u who="i-SfDZtdC5fgukcXJsiu8J9U" xml:id="i-c6f63b87e606842a-3" next="i-2zQd3UfMr6pnDp84YwxpBy">
+          <seg xml:id="i-Y2XcYnnK7QHsQi4dvAFdP5">
+            Herr förste vice talman! Statsministern nämnde i sitt interpellationssvar,
+            att regeringens svar på den framställning, som Sovjetunionen i
+            juni månad hade gjort angående utlämnande av f. d. krigsdeltagare,
+            hade underställts utrikesnämnden. Det är riktigt. Utrikesnämnden
+            fick vid sammanträde den 11 juni ett meddelande om Sovjetunionens
+            framställning. Men jag ber att få påpeka, att saken då icke förelåg
+            i den form, vari den nu har framställts här på grundval av det
+            definitiva beslut, som fattades den 15 juni. Därför kom också
+            överläggningen i utrikesnämnden icke att röra sig om den utlämning,
+            som nu är förestående, utan frågan gällde överlämnande av ifrågavarande
+            militärpersonal — huvudsakligen tyskar — till en interallierad
+            militärkommission. Det är klart att detta är något väsentligt
+            annat än det som det nu är fråga om. Jag anser, att det bör framhållas,
+            att diskussionen har rört sig om en sådan eventualitet och att
+            det också var regeringens första tanke, att man skulle försöka
+            ordna utlämnandet på sådant sätt. Den avsikten har tydligen icke
+            kunnat realiseras, och då har regeringen fallit tillbaka på den
+            ståndpunkt, som innefattas i beslutet den 15 juni, som nu sent
+            omsider skall effektueras.
+          </seg>
+          <seg xml:id="i-Wc5eFrCTzZdiz5VsZE4r6s">
+            Om detta beslut och dess konsekvenser i olika hänseenden behöver
+            här inte sägas mycket mera efter det inlägg, som nyss har gjorts
+            av interpellanten. Jag skulle tro, att den syn, som han där har
+            anlagt, delas av oss litet var. Det skulle endast behöva tilläggas,
+            att vi aldrig få ge efter på vår rätt som suverän stat att själva
+            tolka asylrättsprincipen så, som vi finna, att den bör tolkas
+            i överensstämmelse med svenska rättsgrundsatser och humanitära
+            bud. En eftergift för en makthavare, han må bo i söder eller öster
+            eller väster, står icke i överensstämmelse med den svenska rättsuppfattning,
+            som dock i stort sett framgångsrikt har kunnat hävdas under dessa
+            år.
+          </seg>
+          <seg xml:id="i-8pYsayoebMZBFvGoEGkndJ">
+            Vi glädja oss alla åt medvetandet om att många av denna regerings
+            medlemmar såsom medlemmar av samlingsregeringen under de år som
+            gått ha stått fasta mot påtryckningar från annat håll. Jag vill
+            inte påstå, att man här visat en större eftergivenhet, men man
+            har kanske under intryck av de förhållanden, som rådde i början
+            av sommaren, under intryck av det plötsliga slutet på kriget och
+            de förhoppningar, som därav framkallades, låtit sig förledas att
+            bedöma hela utvecklingen alltför optimistiskt för de krigsfångars
+            del, för vilka Sverige hade fått ta ett visst ansvar.
+          </seg>
+          <seg xml:id="i-6HDGF8y5ohcsueW74Ct3WD">
+            Folkrättsligt kan inte den satsen drivas, att Sverige skulle
+            vara skyldigt att utlämna dessa människor, och ännu mindre kan
+            det sägas stå i överensstämmelse med den tolkning av principerna
+            för vår asylrätt, som vi hittills med stolthet ha velat hävda.
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1945-höst-fk--36/prot_1945_höst_fk__36-004.jp2/_view"/>
+        <note type="date" xml:id="i-TLz4bRgxf48vRdh7He2Gnj">
+          Fredagen den 23 november 1945. Nr 36. 5
+        </note>
+        <note xml:id="i-E1ZWvutydrUYjHRuCY6vML">
+          Ang. vissa baltiska flyktingars förpassning ur riket. (Forts.)
+        </note>
+        <u xml:id="i-2zQd3UfMr6pnDp84YwxpBy" prev="i-c6f63b87e606842a-3" who="i-SfDZtdC5fgukcXJsiu8J9U">
+          <seg xml:id="i-T8xufCFtj3UCpHSsEfY95Y">
+            Jag hör till dem, herr talman, som djupt beklaga vad som här
+            synes vara förestående. Jag vill gärna instämma i den förhoppning,
+            som lyste fram i slutet av statsministerns anförande, då han meddelade,
+            att svenska regeringen har för Sovjetunionens härvarande representant
+            framhållit, att dessa baltiska flyktingar icke få behandlas annorlunda
+            än vanliga krigsfångar. Likaså ville jag gärna dela förhoppningen,
+            att behandlingen av dessa människor skall bli human, att den åtminstone
+            icke skall ta sig det uttryck, som man på många håll här i landet
+            befarar. Men vad veta vi om hur vanliga krigsfångar behandlas
+            och om de öden, som dessa gå till mötes? Vi kunna befara det värsta.
+            Det gäller här människor som inte kunna betraktas som krigsdeltagare
+            i vanlig mening. Såsom interpellanten framhållit är det fråga
+            om människor, som i stor utsträckning ha tvingats mot sin vilja
+            till krigstjänst. Jag säger inte, att det är fallet med alla,
+            men jag tror mig veta, att det gäller om ett betydande antal av
+            dem, kanske de flesta. Och om alla gäller, att de först och sist
+            varit baltiska patrioter. Det som gör denna sak så utomordentligt
+            beklämmande för oss är, att vi ha en känsla av att vi här stå
+            i begrepp att utlämna människor, som ingenting annat velat än
+            att kämpa för sitt eget fäderneslands frihet och oberoende.
+          </seg>
+        </u>
+        <note xml:id="i-515hU6DVXLTkFWZJanS6vL">
+          I detta anförande instämde herr Mannerskantz.
+        </note>
+        <note type="speaker" xml:id="i-GAh43ME5HXSxBjitqzBe8R">
+          Hans excellens herr statsministern Hansson:
+        </note>
+        <u who="i-L7nvZ56RferP78KNpz2Uh1" xml:id="i-c6f63b87e606842a-5">
+          <seg xml:id="i-WpdjvcbvzoMe75CLqtVNRb">
+            Herr talman! Det är ju inte sed, att man här i kammaren diskuterar
+            vad som har förekommit i utrikesnämnden. Jag tror mig dock våga
+            säga, att det referat, som den föregående ärade talaren lämnade,
+            är mycket ensidigt. Regeringen har icke hållit utrikesnämnden
+            i okunnighet om att man måste gå den väg som valdes. Vi diskuterade
+            visserligen även den andra möjligheten, men när inte den stod
+            till buds, var det fullt klart, att den nu valda utvägen måste
+            anlitas. Jag förstår för övrigt inte, vari den stora skillnaden
+            ligger. Jag skulle förmoda, att även om det hade varit möjligt
+            att — såsom regeringen har försökt — transportera dessa tyska
+            krigsfångar över till Tyskland, de också där skulle ha omhändertagits
+            av Sovjetunionen.
+          </seg>
+          <seg xml:id="i-SuyEj6dgM158cmnuziciZh">
+            Beträffande anmärkningarna mot att saken icke tidigare har meddelats
+            riksdagen vill jag säga, att detta inte berott på någon lust hos
+            regeringen att undanhålla upplysningar i ämnet. Vi ansågo, att
+            vi genom att träda i kontakt med utrikesnämnden hade fullgjort
+            vad som i det fallet var nödvändigt.
+          </seg>
+          <seg xml:id="i-AzBYZJioQSo3AmXZdFTvYW">
+            Jag skall inte här diskutera, huruvida detta fall är helt annorlunda
+            än de fall, där frågan om asylrättens giltighet vanligen är föremål
+            för överväganden. Jag skulle dock tro, att så är förhållandet
+            och att det har funnits alldeles särskilda skäl att här förfara
+            på ett annat sätt än man gör, när det gäller civila flyktingar,
+            som ha kommit hit. Jag skulle inte tro, att man gagnar den större
+            frågan genom att här blanda ihop sakerna.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-FUQeVQiERnbxB3VPyAdXyR">
+          Herr Linnér:
+        </note>
+        <u who="i-UTrfAgi22ghfsPezLcB8vV" xml:id="i-c6f63b87e606842a-12" next="i-c6f63b87e606842a-6">
+          <seg xml:id="i-FnpD3Yjoo6Tu1KiyA9HxhF">
+            Herr talman! Den svenska lagstiftningen har hittills låtit sig
+            mycket angeläget vara att skydda s. k. politiska flyktingar. Detta
+            framkommer både i utlämningslagen och i utlänningslagen med alla
+            dess biförfattningar. De äro uttryck för en svensk rättsåskådning
+            som, så vitt jag vet, intill nu har uppehållits.
+          </seg>
+          <seg xml:id="i-R2qEJSiuqD7tJGkVjMYb6i">
+            När herr statsministern gör det klart, att man beträffande vissa
+            av dessa flyktingar kan hysa farhågor för att de skulle kunna
+            komma att behandlas såsom landsförrädare, är det tydligt att man
+            kommer in på frågan om behandlingen av politiska flyktingar. Herr
+            statsministern har tillagt, att regeringen genom en särskild framställning
+            sökt trygga dessa personers behandling i den stat, som kommer
+            att mottaga dem. Någon garanti i detta avseende
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1945-höst-fk--36/prot_1945_höst_fk__36-005.jp2/_view"/>
+        <note type="date" xml:id="i-12vCHXU9di35Hcz23cwuAk">
+          6 Nr 36. Fredagen den 23 november 1945.
+        </note>
+        <u who="i-UTrfAgi22ghfsPezLcB8vV" xml:id="i-c6f63b87e606842a-6" prev="i-c6f63b87e606842a-12">
+          <seg xml:id="i-RuxBryLaSUecxqpdrh2s3g">
             Ang. vissa baltiska flyktingars förpassning ur riket. (Forts.)
-          </note>
-          <u xml:id="i-2zQd3UfMr6pnDp84YwxpBy" prev="i-c6f63b87e606842a-3" who="Q5553542">
-            <seg xml:id="i-T8xufCFtj3UCpHSsEfY95Y">
-              Jag hör till dem, herr talman, som djupt beklaga vad som här
-              synes vara förestående. Jag vill gärna instämma i den förhoppning,
-              som lyste fram i slutet av statsministerns anförande, då han meddelade,
-              att svenska regeringen har för Sovjetunionens härvarande representant
-              framhållit, att dessa baltiska flyktingar icke få behandlas annorlunda
-              än vanliga krigsfångar. Likaså ville jag gärna dela förhoppningen,
-              att behandlingen av dessa människor skall bli human, att den åtminstone
-              icke skall ta sig det uttryck, som man på många håll här i landet
-              befarar. Men vad veta vi om hur vanliga krigsfångar behandlas
-              och om de öden, som dessa gå till mötes? Vi kunna befara det värsta.
-              Det gäller här människor som inte kunna betraktas som krigsdeltagare
-              i vanlig mening. Såsom interpellanten framhållit är det fråga
-              om människor, som i stor utsträckning ha tvingats mot sin vilja
-              till krigstjänst. Jag säger inte, att det är fallet med alla,
-              men jag tror mig veta, att det gäller om ett betydande antal av
-              dem, kanske de flesta. Och om alla gäller, att de först och sist
-              varit baltiska patrioter. Det som gör denna sak så utomordentligt
-              beklämmande för oss är, att vi ha en känsla av att vi här stå
-              i begrepp att utlämna människor, som ingenting annat velat än
-              att kämpa för sitt eget fäderneslands frihet och oberoende.
-            </seg>
-          </u>
-          <note xml:id="i-515hU6DVXLTkFWZJanS6vL">
-            I detta anförande instämde herr Mannerskantz.
-          </note>
-          <note type="speaker" xml:id="i-GAh43ME5HXSxBjitqzBe8R">
-            Hans excellens herr statsministern Hansson:
-          </note>
-          <u who="Q53660" xml:id="i-c6f63b87e606842a-5">
-            <seg xml:id="i-WpdjvcbvzoMe75CLqtVNRb">
-              Herr talman! Det är ju inte sed, att man här i kammaren diskuterar
-              vad som har förekommit i utrikesnämnden. Jag tror mig dock våga
-              säga, att det referat, som den föregående ärade talaren lämnade,
-              är mycket ensidigt. Regeringen har icke hållit utrikesnämnden
-              i okunnighet om att man måste gå den väg som valdes. Vi diskuterade
-              visserligen även den andra möjligheten, men när inte den stod
-              till buds, var det fullt klart, att den nu valda utvägen måste
-              anlitas. Jag förstår för övrigt inte, vari den stora skillnaden
-              ligger. Jag skulle förmoda, att även om det hade varit möjligt
-              att — såsom regeringen har försökt — transportera dessa tyska
-              krigsfångar över till Tyskland, de också där skulle ha omhändertagits
-              av Sovjetunionen.
-            </seg>
-            <seg xml:id="i-SuyEj6dgM158cmnuziciZh">
-              Beträffande anmärkningarna mot att saken icke tidigare har meddelats
-              riksdagen vill jag säga, att detta inte berott på någon lust hos
-              regeringen att undanhålla upplysningar i ämnet. Vi ansågo, att
-              vi genom att träda i kontakt med utrikesnämnden hade fullgjort
-              vad som i det fallet var nödvändigt.
-            </seg>
-            <seg xml:id="i-AzBYZJioQSo3AmXZdFTvYW">
-              Jag skall inte här diskutera, huruvida detta fall är helt annorlunda
-              än de fall, där frågan om asylrättens giltighet vanligen är föremål
-              för överväganden. Jag skulle dock tro, att så är förhållandet
-              och att det har funnits alldeles särskilda skäl att här förfara
-              på ett annat sätt än man gör, när det gäller civila flyktingar,
-              som ha kommit hit. Jag skulle inte tro, att man gagnar den större
-              frågan genom att här blanda ihop sakerna.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-FUQeVQiERnbxB3VPyAdXyR">
-            Herr Linnér:
-          </note>
-          <u who="Q5959461" xml:id="i-c6f63b87e606842a-12" next="i-c6f63b87e606842a-6">
-            <seg xml:id="i-FnpD3Yjoo6Tu1KiyA9HxhF">
-              Herr talman! Den svenska lagstiftningen har hittills låtit sig
-              mycket angeläget vara att skydda s. k. politiska flyktingar. Detta
-              framkommer både i utlämningslagen och i utlänningslagen med alla
-              dess biförfattningar. De äro uttryck för en svensk rättsåskådning
-              som, så vitt jag vet, intill nu har uppehållits.
-            </seg>
-            <seg xml:id="i-R2qEJSiuqD7tJGkVjMYb6i">
-              När herr statsministern gör det klart, att man beträffande vissa
-              av dessa flyktingar kan hysa farhågor för att de skulle kunna
-              komma att behandlas såsom landsförrädare, är det tydligt att man
-              kommer in på frågan om behandlingen av politiska flyktingar. Herr
-              statsministern har tillagt, att regeringen genom en särskild framställning
-              sökt trygga dessa personers behandling i den stat, som kommer
-              att mottaga dem. Någon garanti i detta avseende
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1945-höst-fk--36/prot_1945_höst_fk__36-005.jp2/_view"/>
-          <note type="date" xml:id="i-12vCHXU9di35Hcz23cwuAk">
-            6 Nr 36. Fredagen den 23 november 1945.
-          </note>
-          <u who="Q5959461" xml:id="i-c6f63b87e606842a-6" prev="i-c6f63b87e606842a-12">
-            <seg xml:id="i-RuxBryLaSUecxqpdrh2s3g">
-              Ang. vissa baltiska flyktingars förpassning ur riket. (Forts.)
-              föreligger icke, så vitt vi nu ha inhämtat, och under sådana förhållanden
-              innebär regeringens beslut efter vad jag kan förstå ett klart
-              frånträdande av den princip, som hittills legat till grund för
-              vår lagstiftning och varit ett uttryck för den svenska rättsåskådningen.
-            </seg>
-            <seg xml:id="i-RZW3SfE9g3oCHJYamjwU3f">
-              Det är möjligt, att det nu ej går att ta detta steg tillbaka.
-              Jag beklagar det i mycket hög grad. Jag är glad åt att interpellanten
-              genom sin interpellation har givit den svenska riksdagen ett tillfälle
-              att i auktoritativ form få uttala, att den för sin del vill hålla
-              fast vid den svenska rättsuppfattningen.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-71Kq9NRPFxtM1qYoMWCkDh">
-            Herr Sandler:
-          </note>
-          <u who="Q53637" xml:id="i-c6f63b87e606842a-7">
-            <seg xml:id="i-KB3x4W9LYVy7XTcjb3zMVv">
-              Herr talman! Jag finner det i likhet med statsministern alldeles
-              opåkallat och ur många synpunkter olämpligt att inför kammaren
-              ingå på en redogörelse för vad som kan ha förekommit i utrikesnämnden
-              wid behandlingen av detta ärende. Jag föreställer mig, att kammarens
-              medlemmar lätt inse vart det skulle ta vägen, om vi, så som utrikesnämnden
-              nu är konstruerad, skulle behöva inför kammaren ingå på redogörelser
-              av detta slag; det gäller ju en institution, där ingenting annat
-              protokollföres än ärendets art och vilka som haft ordet. Det gör,
-              att jag helt kommer att avstå från att söka rekonstruera min minnesbild
-              från det ifrågavarande utrikesnämndssammanträdet.
-            </seg>
-            <seg xml:id="i-GPJXdbjj3wtebKZWzQZAcG">
-              Jag finner mig emellertid oförhindrad att uttala några reflexioner
-              på grundval av de omständigheter, som numera äro kända i detta
-              ärende. Det som föreligger är ju dels uppgifter från vederbörande
-              själva om att de varit tvångsenrollerade i den tyska krigsmakten
-              och dels deras egna föreställningar om de vådliga konsekvenserna
-              av ett utlämnande. Om den större eller mindre sannolikheten av
-              att dessa deras egna farhågor kunna visa sig grundade, varken
-              kan eller vill jag göra något uttalande. Och uppgifterna om deras
-              ställning 1 förhållande till den tyska krigsmakten och om deras
-              tidigare förehavanden i Baltikum har jag icke heller någon möjlighet
-              att kontrollera. Det torde ha funnits möjligheter till en objektiv
-              kontroll av vissa framlagda omständigheter 1 samband med den tyska
-              ockupationen av Baltikum, vilken kontroll hade kunnat öka eller
-              minska trovärdigheten i dessa utsagor.
-            </seg>
-            <seg xml:id="i-4ciPF6tqtuo6daTWDKxDbZ">
-              Jag finner det mycket naturligt, att man inom den svenska opinionen
-              har känt sig oroad av att dessa möjligheter till en svensk prövning
-              oåterkalleligen bli stängda genom den åtgärd, som enligt regeringens
-              svar nu förestår. Jag vill erinra om att enskilda flyktingars
-              uppgifter i dessa hänseenden under krigstiden, även om de icke
-              kunnat kontrolleras, i många fall lett till att asylrätt här har
-              beviljats eller till att, då utvisning eller förpassning beslutats
-              av regeringen, ändock verkställigheten av ett sådant fattat beslut
-              har fått anstå eller försetts med vad man kallar hemlandsklausul.
-              I betraktande av dessa omständigheter finner jag det mycket naturligt,
-              att vad som nu förestår har framkallat en ganska utbredd och allvarlig
-              oro.
-            </seg>
-            <seg xml:id="i-7KTKVaA8mqDzMEj6QyZ8jE">
-              Att detta ärende har föredragits i utrikesnämnden och att en
-              kollektiv medansvarighet här kan sägas föreligga, gör icke denna
-              sak annorlunda eller bättre än den i sig själv är. Och även om
-              vad jag säger får betraktas som en kritik mot mig själv för bristande
-              aktsamhet vid ett ärendes handläggning i utrikesnämnden, kan jag
-              icke underlåta att göra den reflexionen, att vi kanske få anledning
-              att ångra, vad som här sker, och att vi själva kunna komma att
-              känna det såsom ett minus i den aktning, vi gärna vilja hysa för
-              vårt eget handlingssätt.
-            </seg>
-          </u>
-          <note type="speaker" xml:id="i-xU9o6DTcBHdc5Vz7J7xiM">
-            Herr Gärde:
-          </note>
-          <u who="Q5779975" xml:id="i-c6f63b87e606842a-8" next="i-c6f63b87e606842a-9">
-            <seg xml:id="i-2LcJAcEwmHSeBa51WTWKMW">
-              Herr talman! Herr statsministern har i sitt anförande byggt försvaret
-              för regeringens beslut väsentligen på att de personer, varom här
-              är fråga, kommit till landet i egenskap av kapitulanter. Herr
-              statsministern har
-            </seg>
-          </u>
-          <pb facs="https://betalab.kb.se/prot-1945-höst-fk--36/prot_1945_höst_fk__36-006.jp2/_view"/>
-          <note type="date" xml:id="i-NxGZSuLjjvwHcch1w55y2Y">
-            Fredagen den 23 november 1945. Nr 36. 7
-          </note>
-          <u who="Q5779975" xml:id="i-c6f63b87e606842a-9" prev="i-c6f63b87e606842a-8">
-            <seg xml:id="i-MPpt8Ck38aMrneXcV1ktFp">
-              Ang. vissa baltiska flyktingars förpassning ur riket. (Forts.)
-              alltså såvitt jag förstår dragit upp en skillnad mellan kapitulanter
-              i egentlig mening, som undandragit sig verkningarna av en ingången
-              kapitulation, och desertörer.
-            </seg>
-            <seg xml:id="i-GF6hPzRwHVnvLpA4iWvCeG">
-              Förhållandet är, att åtskilliga utlänningar under krigets gång
-              och även efter dess avslutande sökt sig till vårt land i egenskap
-              av desertörer, d. v. s. flyktingar, som antingen medan kriget
-              pågick stodo i stridsställning eller som sedan kriget avslutats
-              voro omhändertagna i krigsfångläger av olika slag. När det gällt
-              dessa desertörer har man alltid ingått i prövning av deras politiska
-              asylrätt, och då deras påståenden om sådan funnits sannolika eller
-              grundade, har man låtit dem kvarstanna här i riket, medan man
-              i andra fall, då de funnits grundlösa, gått till förpassning eller
-              utvisning.
-            </seg>
-            <seg xml:id="i-YB2RXwJiGUxXkojKcF1fzN">
-              Jag vill icke gentemot herr statsministern påstå, att icke på
-              denna punkt en viss formell skillnad föreligger mellan kapitulanter
-              och desertörer, men vad jag vill göra gällande är, att i realiteten
-              skillnaden dem emellan är försvinnande liten. Inom båda kategorierna
-              finnas helt säkert personer, som kunna åberopa sig på politiskt
-              flyktingskap, och andra, som icke kunna göra det. Jag talar i
-              detta sammanhang icke om tyskarna, ty det kan ju aldrig berättiga
-              till politiskt flyktingskap, att man varit krigförande i sitt
-              eget lands armé, utan jag talar om de övriga kategorierna. Beträffande
-              dessa senare hade det givetvis varit lyckligt, om de kunnat avskiljas
-              till prövning i den ordning, som gällt för andra utlänningar,
-              vilka sökt en fristad här i landet. Först då hade man kunnat få
-              en uppfattning om vilka personer vi med stöd av asylrättens grundsatser
-              bort låta kvarstanna här och vilka vi icke bort ge en sådan tillåtelse.
-              Man kan inte undgå intrycket, att dessa människor just genom att
-              de förts in under begreppet kapitulanter kommit i en missgynnad
-              ställning i förhållande till sina kamrater, som haft den lyckligare
-              lotten att inrangeras bland desertörerna. Någon saklig skillnad
-              mellan dessa båda grupper anser jag icke föreligga.
-            </seg>
-            <seg xml:id="i-WWj9hRcLC6fPZKnKfR3Qq3">
-              Jag skall bara som ett tankeexperiment förutsätta den eventualiteten,
-              att kriget haft en annan utgång och att det nu hade gällt tyskar,
-              som kämpat mot den rådande regimen i Tyskland och sökt en fristad
-              här i landet, eller medborgare i ett av Tyskland ockuperat och
-              med det införlivat nordiskt land, vilka i egenskap av flyktingar
-              sökt sig hit. Jag tror inte att någon skulle på minsta sätt vara
-              i tvivelsmål om att den politiska asylrätten i sådant fall bort
-              av oss göras gällande helt och fullt, även om detta kanske haft
-              någon utrikespolitisk återverkan.
-            </seg>
-            <seg xml:id="i-7QZxG4kWvUJWxo1aiY7C2L">
-              Jag är inte i stånd att ge regeringen något råd i det tvångsläge,
-              vartill omständigheterna nu lett, men jag vill för min del betona,
-              att den svenska riksdagen har varit angelägen om att värna den
-              politiska asylrätten. Man har Ju genom ingående lagbestämmelser
-              och på annat sätt sökt tillgodose önskemålet om en verklig prövning
-              av sådana frågor. Det kan därför inte annat än väcka anstöt, att
-              dessa för individen så viktiga och livsavgörande angelägenheter
-              gjorts till föremål för en så summarisk prövning, som i detta
-              fall skett.
-            </seg>
-          </u>
-          <note xml:id="i-4AKmgURBTHYskESr9EQtfA">
-            Upplästes följande till kammaren ankomna protokoll:
-          </note>
-          <note xml:id="i-7yFtLNfqp7TAjnKJ3MWCba">
-            Är 1945 den 21 november sammanträdde kamrarnas valmän för att
-            jämlikt $$ 71 och 73 i riksdagsordningen utse dels en fullmäktig
-            i riksbanken för återstående del av valperioden 1945—1948 efter
-            statsrådet K. G. Myrdal, dels en fullmäktig i riksbanken för återstående
-            del av valperioden 1944—1947 efter statsrådet A. Vougt, dels ock
-            en suppleant för riksdagens fullmäktige i nämnda bank; och befunnos
-            efter valens slut hava blivit utsedda till
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1945-höst-fk--36/prot_1945_höst_fk__36-007.jp2/_view"/>
-          <note type="date" xml:id="i-HM7kqso6Rd493T8nNqnnRQ">
-            8 Nr 36. Fredagen den 23 november 1945.
-          </note>
-          <note xml:id="i-M2fBErThE3gnK6zzSUxHWD">
-            Fullmäktig för återstående del av valperioden 1945—1948: herr
-            Andersson, Allan, i Tungelsta, ledamot av riksdagens andra kammare
-            .....sseossersessererrrr re rr ss rr sr re tes med 37 röster;
-            Fullmäktig för återstående del av valperioden 1944-—1947: herr
-            Hall, David Emanuel, ledamot av riksdagens andra kam- MMA ooseeeresesrseseerr
-            rr er rr rr rr rr rr rr FR FR RR RA med 34 röster; Suppleant
-          </note>
-          <note xml:id="i-5Ye4fs4iFR1g31A8tbeEzf">
-            för tiden från valet, till dess nytt val under år 1946 försiggått:
-            herr Andersson, Olof, i Malmö, ledamot av riksdagens andra kam-
-          </note>
-          <note xml:id="i-Ef5SnEH1Ub1wkdLPjzWFEV">
-            MATÉ oosseseerereresserr rr rr rr rr rr rr rr RK Rss med 35 röster.
-            Joh. Friggeråker. Oscar Carlström. Axel Mannerskante. Erik Fast.
-          </note>
-          <note xml:id="i-3vtJRhECVCHyXtNhXd1jNV">
-            På framställning av herr talmannen beslöts att det nu upplästa
-            protokollet skulle läggas till handlingarna ävensom att riksdagens
-            kanslideputerade skulle genom utdrag av protokollet underrättas
-            om dessa val samt anmodas låta uppsätta och till kamrarna ingiva
-            förslag dels till förordnanden för de valda, dels ock till skrivelse
-            till Konungen med anmälan om de förrättade valen.
-          </note>
-          <note xml:id="i-9aBFPqiGhxWLbSCBPbRGyR">
-            Anmäldes och godkändes statsutskottets förslag till riksdagens
-            skrivelser till Konungen:
-          </note>
-          <note xml:id="i-9RYfejJJF5uxzbRcCmXvvS">
-            nr 544, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat I till riksstaten för budgetåret 1945/46, i vad
-            propositionen avser utrikesdepartementets verksamhetsområde;
-          </note>
-          <note xml:id="i-CNshP5J4EnwiNraaHCrKdR">
-            nr 545, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat I till riksstaten för budgetåret 1945/46, i vad
-            propositionen avser försvarsdepartementets verksamhetsområde;
-            samt
-          </note>
-          <note xml:id="i-Rt6L1oiAFTV16XEgqca5tm">
-            nr 546, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat I till riksstaten för budgetåret 1945/46, i vad
-            propositionen avser ecklesiastikdepartementets verksamhetsområde.
-          </note>
-          <note xml:id="i-SikTcG24UVLvu9wu1gFbiC">
-            Anmäldes och godkändes jordbruksutskottets förslag till riksdagens
-            skrivelser till Konungen: — nr 547, i anledning av Kungl. Maj:ts
-            proposition angående utgifter å tillläggsstat I till riksstaten
-            för budgetåret 1945/46, såvitt angår jordbruksärenden;
-          </note>
-          <note xml:id="i-NB1JjrgQsH5cKvS4gs4j6Y">
-            nr 548, i anledning av Kungl. Maj:ts proposition angående ytterligare
-            statsunderstöd till Sörby invallningsföretag år 1937 i Västmanlands
-            län; samt
-          </note>
-          <note xml:id="i-3XFUFsSye8fysbHpsbJ8bS">
-            nr 549, i anledning av Kungl. Maj:ts proposition angående inköp
-            för kronans räkning av viss mark inom Södra Vrams socken, Malmöhus
-            län.
-          </note>
-          <note xml:id="i-QrFkYrJ3QB5GSYA4TgNr2i">
-            Föredrogs och hänvisades till statsutskottet Kungl. Maj:ts proposition
-            nr 383, angående statsbidrag till ryska institutet vid Stockholms
-            högskola.
-          </note>
-          <note xml:id="i-MGaKfLUhSojEgTfgr7Uh2Y">
-            Föredrogs och hänvisades till statsutskottet herr Sjödahls motion,
-            nr 443, i anledning av Kungl. Maj:ts proposition angående särskild
-            utbildning av folkskollärare.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1945-höst-fk--36/prot_1945_höst_fk__36-008.jp2/_view"/>
-          <note xml:id="i-VHdUZiR8brXbJmqfZTrVdy">
-            Lördagen den 24 novembér 1945. Nr 36: 9
-          </note>
-          <note xml:id="i-2sRYSD6NM5YEwi6Ez7k1v3">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 2.41 eftermiddagen.
-          </note>
-          <note xml:id="i-NMnJyF9npWYP8u1mtQ7Q4b">
-            In fidem G. H. Berggren.
-          </note>
-          <note type="date" xml:id="i-EtrDamki6zM3iC47F6NHiA">
-            Lördagen den 24 november.
-          </note>
-          <note xml:id="i-Luh59jjhhKhBjYFsHuu6sE">
-            Kammaren sammanträdde kl. 4 eftermiddagen; och dess förhandlingar
-            leddes av förste vice talmannen.
-          </note>
-          <note type="speaker" xml:id="i-J4WFHQ6zgUF3pvRKB6qbJx">
-            Herr statsrådet Quensel avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-178dyV6XWpreGjnRFu44Dz">
-            ts proposition nr 384, med förslag till lag angående ändrad lydelse
-            av 1 8 lagen den 16 februari 1934 om fullgörande i vissa fall
-            av betalningsskyldighet i förhållande till utlandet m. m.
-          </note>
-          <note xml:id="i-UbxB1DwHczQyC6N7pHvb49">
-            Anmäldes och godkändes andra lagutskottets förslag till riksdagens
-            skrivelse, nr 550, till Konungen i anledning av Kungl. Maj:ts
-            proposition med förslag till lag angående ändrad lydelse av 26
-            $ lagen den 12 maj 1917 (nr 189) om expropriation, m. m.
-          </note>
-          <note xml:id="i-5m2RpiAXMoPjytw6ehBtRe">
-            Anmäldes och godkändes statsutskottets förslag till riksdagens
-            skrivelser till Konungen:
-          </note>
-          <note xml:id="i-Ree3S2sV31tAM7998xVGYP">
-            nr 551, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat I till riksstaten för budgetåret 1945/46, i vad
-            propositionen avser kommunikationsdepartementets verksamhetsområde;
-          </note>
-          <note xml:id="i-XWHxeHo8DvoEzyUZA343fL">
-            nr 552, i anledning av Kungl. Maj:ts proposition angående förbättring
-            av viss ubåtssäkerhetsmateriel;
-          </note>
-          <note xml:id="i-8cqEXYhFmmC1ke81SsQ1Bc">
-            nr 553, i anledning av Kungl. Maj:ts proposition angående ianspråktagande
-            av lägerkassemedel för nybyggnad eller större ändringsarbete;
-          </note>
-          <note xml:id="i-SnUKpTo38tRp8LDkRCwbqR">
-            nr 554, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av kronan tillhörigt markområde i Ljungbyhed;
-          </note>
-          <note xml:id="i-6J6VQ8X1yNdFiqJUuYwkJr">
-            nr 555, 1 anledning av Kungl. Maj:ts proposition angående vissa
-            frågor om befrielse från ersättningsskyldighet;
-          </note>
-          <note xml:id="i-FTVxjb18jW5tZUc4vEupDH">
-            nr 556, i anledning av Kungl. Maj:ts proposition angående vissa
-            statens Järnvägar berörande markfrågor i Västerås;
-          </note>
-          <note xml:id="i-RJHnyFDDvP32eXuuXTfozA">
-            nr 557, i anledning av Kungl. Maj:ts proposition angående fastighetsbyte
-            i Falköping; samt
-          </note>
-          <note xml:id="i-BLwhsFYARsTYJtnacwyJ2L">
-            nr 558, i anledning av Kungl. Maj:ts proposition angående försäljning
-            av vissa under vattenfallsstyrelsens förvaltning stående fastigheter.
-          </note>
-          <note xml:id="i-Lj61t6djQHr7ifsEZzZJsa">
-            Föredrogs och bordlades Kungl. Maj:ts denna dag avlämnade proposition
-          </note>
-          <note xml:id="i-8UNruK3uW8VmhhUf5VoasP">
-            nr 384.
-          </note>
-          <note xml:id="i-NPHtnaYZoDij91L125FRMf">
-            Första kammarens protokoll 1945. Nr 36. 2
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1945-höst-fk--36/prot_1945_höst_fk__36-009.jp2/_view"/>
-          <note xml:id="i-XjkdgTpimbfoeZy8EuWVeq">
-            10 Nr 36. Lördagen. den 24 november 1945.
-          </note>
-          <note xml:id="i-23KJCAEYFHaXxYC9nihZt3">
-            Anmäldes och bordlades
-          </note>
-          <note xml:id="i-EHcqyi7r1PBj4w92yVEn2g">
-            statsutskottets utlåtanden:
-          </note>
-          <note xml:id="i-HLKh48KVuwmbXVzRijH2x5">
-            nar 264, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat I till riksstaten för budgetåret 1945/46, i vad
-            propositionen avser justitiedepartementets verksamhetsområde;
-          </note>
-          <note xml:id="i-NN79YENPJmn453DNBvAswj">
-            nr 267, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat I till riksstaten för budgetåret 1945/46, i vad
-            propositionen avser socialdepartementets verksamhetsområde ;
-          </note>
-          <note xml:id="i-3RfnGvCJopqH6ug4SA9xa1">
-            nr 269, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat I till riksstaten för budgetåret 1945/46, i vad
-            propositionen avser finansdepartementets verksamhetsområde;
-          </note>
-          <note xml:id="i-3rJBDT5eC2Sq1g8aV1aopR">
-            nr 272, i anledning av Kungl. Maj:ts proposition angående utgifter
-            å tillläggsstat I till riksstaten för budgetåret 1945/46, i vad
-            propositionen avser folkhushållningsdepartementets verksamhetsområde
-            jämte i ämnet väckt motion; och
-          </note>
-          <note xml:id="i-B2AEjhndPg7cSziGGG8JjU">
-            nr 281, i anledning av Kungl. Maj:ts proposition angående kreditgivningen
-            till utlandet m. m.;
-          </note>
-          <note xml:id="i-TqQxrKNqAXRXEnbZHezCpm">
-            bevillningsutskottets belänkanden:
-          </note>
-          <note xml:id="i-3cRRb3xKjtYPbwCydQTt9W">
-            nr 61, i anledning av Kungl. Maj:ts proposition med förslag till
-            förordning om ändring i taxeringsförordningen den 28 september
-            1928 (nr 379) jämte i ämnet väckta motioner; och
-          </note>
-          <note xml:id="i-TajMFNx2JT2nuwbwRUaUEn">
-            nr 62, i anledning av Kungl. Maj:ts proposition med förslag till
-            förordning angående ändrad lydelse av 5 $ förordningen den 2 juni
-            1922 (nr 260) om automobilskatt, m. m., jämte i ämnet väckta motioner;
-            samt
-          </note>
-          <note xml:id="i-56TGBaaDKPEDRaMeKiEQn9">
-            andra lagutskottets utlåtanden:
-          </note>
-          <note xml:id="i-NMz6xHuUu8Yk7zTYAsda1v">
-            nr 82, i anledning av Kungl. Maj:ts proposition med förslag till
-            lag angående ändring i lagen den 19 juni 1942 (nr 430) om kontroll
-            av upplåtelse och överlåtelse av bostadsrätt m. m.; och
-          </note>
-          <note xml:id="i-QmijMStgBH7FBsry414Gha">
-            nr 83, i anledning av Kungl. Maj:ts proposition angående förordning
-            om ändrad lydelse av 18 $ 1 mom. motorfordonsförordningen den
-            23 oktober 1936
-          </note>
-          <note xml:id="i-9FqokzgfAAisfMdN5XjyFC">
-            (ar 561).
-          </note>
-          <note xml:id="i-Xcmxg9YsU6pz8ppTe1Sf5B">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 4.05 eftermiddagen.
-          </note>
-          <note xml:id="i-Rufu9gQkthafVbW6rAuhqQ">
-            In fidem G. H. Berggren.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1945-höst-fk--36/prot_1945_höst_fk__36-010.jp2/_view"/>
-          <note type="date" xml:id="i-GvP1aVXB8ZbKyTXS4iNTQw">
-            Tisdagen den 27 november 1945. Nr 36. 11
-          </note>
-          <note type="date" xml:id="i-4AYzEgQ3hk7Jvs2WR4pboY">
-            Tisdagen den 27 november.
-          </note>
-          <note xml:id="i-VQVgKELYzfvg5CXLu9fXFz">
-            Kammaren sammanträdde kl. 4 eftermiddagen.
-          </note>
-          <note xml:id="i-JiwYCobtd1FYxkeqNKoUnN">
-            Justerades protokollen för den 20 och den 21 innevarande månad.
-          </note>
-          <note xml:id="i-ARsM3k36Wvs7Pdxm91Y6tg">
-            Anmäldes och godkändes riksdagens kanslis förslag
-          </note>
-          <note xml:id="i-MjLswriUW5jAnJKUuFNsZK">
-            dels till riksdagens skrivelse, nr 562, till Konungen angående
-            val av fullmäktige och suppleant för riksdagens fullmäktige i
-            riksbanken;
-          </note>
-          <note xml:id="i-F9AxogtSry8rH5yamjXLaJ">
-            dels ock till riksdagens förordnanden:
-          </note>
-          <note xml:id="i-4AFA4ashqhRwxsTrBKS8xg">
-            nr 559, för ledamoten av riksdagens andra kammare herr Allan
-            Andersson i Tungelsta att vara fullmäktig i riksbanken;
-          </note>
-          <note xml:id="i-G5iw4DvUQKb1hQ6G244UsC">
-            nr 560, för ledamoten av riksdagens andra kammare herr David
-            Emanuel Hall att vara fullmäktig i riksbanken; och
-          </note>
-          <note xml:id="i-CCnA18ugHQYPthHffbgWNq">
-            nr 561, för ledamoten av riksdagens andra kammare herr Olof Andersson
-            i Malmö att vara suppleant för riksdagens fullmäktige i riksbanken.
-          </note>
-          <note xml:id="i-3f7pEtWJeQA3zs2dHfNaxV">
-            Anmäldes och godkändes bankoutskottets förslag till riksdagens
-            skrivelser till Konungen:
-          </note>
-          <note xml:id="i-WbQJwiR5HkPELDwS1c74ES">
-            nr 563, i anledning av Kungl. Maj:ts proposition angående årligt
-            understöd åt föreståndaren för svenska studenthemmet i Paris Lucien
-            Maury; och
-          </note>
-          <note xml:id="i-JXZeTmhSi44zqthAoJSiqL">
-            nr 364, i anledning av Kungl. Maj:ts proposition angående livräntor
-            åt Hanna Jansson m. fl.
-          </note>
-          <note xml:id="i-CcWJHy3FihthgBEpKgCTdw">
-            Föredrogs och hänvisades till behandling av lagutskott Kungl.
-            Maj:ts proposition nr 384, med förslag till lag angående ändrad
-            lydelse av 1 8 lagen den 16 februari 1934 om fullgörande i vissa
-            fall av betalningsskyldighet i förhållande till utlandet m. m.
-          </note>
-          <note xml:id="i-GPJfnDkpVv6XKLeetTWfUR">
-            Föredrogos och bordlades ånyo statsutskottets utlåtanden nr 264,
-            267, 269, 272 och 281, bevillningsutskottets betänkanden nr 61
-            och 62 samt andra lagutskottets utlåtanden nr 82 och 83.
-          </note>
-          <note xml:id="i-53CstNPuvqU2vvFsvzExTr">
-            På framställning av herr talmannen beslöts att bevillningsutskottets
-            betänkande nr 62 skulle uppföras främst och statsutskottets utlåtande
-            nr 281 sättas sist bland två gånger bordlagda ärenden på föredragningslistan
-            för morgondagens sammanträde.
-          </note>
-          <note xml:id="i-AaQZrPgB5GBLF546bhQoTb">
-            Avgåvos och bordlades nedannämnda motioner:
-          </note>
-          <note xml:id="i-84vKVct9CVhHZWikNViGmR">
-            nr 444, av herrar Gabrielsson och Bäckström, i anledning av Kungl.
-            Maj:ts proposition angående åtgärder för ökad utbildning av tandläkare
-            m. m.; och
-          </note>
-          <note xml:id="i-LiauP3z2R3SuHt6yT5LfMV">
-            nr 445, av herr Wehtje m. fl., i anledning av Kungl. Maj:ts proposition
-            med förslag till lag om ändrad lydelse av punkt 1 av anvisningarna
-            till 41 8 kommunalskattelagen den 28 september 1928 (nr 370).
-          </note>
-          <note xml:id="i-76u1xb8LnL7rWeHbxJ1Fj1">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 4.06 eftermiddagen.
-          </note>
-          <note xml:id="i-ge52U6GroTqZmChDiiK6d">
-            In fidem G. H. Berggren.
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+            föreligger icke, så vitt vi nu ha inhämtat, och under sådana förhållanden
+            innebär regeringens beslut efter vad jag kan förstå ett klart
+            frånträdande av den princip, som hittills legat till grund för
+            vår lagstiftning och varit ett uttryck för den svenska rättsåskådningen.
+          </seg>
+          <seg xml:id="i-RZW3SfE9g3oCHJYamjwU3f">
+            Det är möjligt, att det nu ej går att ta detta steg tillbaka.
+            Jag beklagar det i mycket hög grad. Jag är glad åt att interpellanten
+            genom sin interpellation har givit den svenska riksdagen ett tillfälle
+            att i auktoritativ form få uttala, att den för sin del vill hålla
+            fast vid den svenska rättsuppfattningen.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-71Kq9NRPFxtM1qYoMWCkDh">
+          Herr Sandler:
+        </note>
+        <u who="i-9iqLBgdAYEoR244dkazyYj" xml:id="i-c6f63b87e606842a-7">
+          <seg xml:id="i-KB3x4W9LYVy7XTcjb3zMVv">
+            Herr talman! Jag finner det i likhet med statsministern alldeles
+            opåkallat och ur många synpunkter olämpligt att inför kammaren
+            ingå på en redogörelse för vad som kan ha förekommit i utrikesnämnden
+            wid behandlingen av detta ärende. Jag föreställer mig, att kammarens
+            medlemmar lätt inse vart det skulle ta vägen, om vi, så som utrikesnämnden
+            nu är konstruerad, skulle behöva inför kammaren ingå på redogörelser
+            av detta slag; det gäller ju en institution, där ingenting annat
+            protokollföres än ärendets art och vilka som haft ordet. Det gör,
+            att jag helt kommer att avstå från att söka rekonstruera min minnesbild
+            från det ifrågavarande utrikesnämndssammanträdet.
+          </seg>
+          <seg xml:id="i-GPJXdbjj3wtebKZWzQZAcG">
+            Jag finner mig emellertid oförhindrad att uttala några reflexioner
+            på grundval av de omständigheter, som numera äro kända i detta
+            ärende. Det som föreligger är ju dels uppgifter från vederbörande
+            själva om att de varit tvångsenrollerade i den tyska krigsmakten
+            och dels deras egna föreställningar om de vådliga konsekvenserna
+            av ett utlämnande. Om den större eller mindre sannolikheten av
+            att dessa deras egna farhågor kunna visa sig grundade, varken
+            kan eller vill jag göra något uttalande. Och uppgifterna om deras
+            ställning 1 förhållande till den tyska krigsmakten och om deras
+            tidigare förehavanden i Baltikum har jag icke heller någon möjlighet
+            att kontrollera. Det torde ha funnits möjligheter till en objektiv
+            kontroll av vissa framlagda omständigheter 1 samband med den tyska
+            ockupationen av Baltikum, vilken kontroll hade kunnat öka eller
+            minska trovärdigheten i dessa utsagor.
+          </seg>
+          <seg xml:id="i-4ciPF6tqtuo6daTWDKxDbZ">
+            Jag finner det mycket naturligt, att man inom den svenska opinionen
+            har känt sig oroad av att dessa möjligheter till en svensk prövning
+            oåterkalleligen bli stängda genom den åtgärd, som enligt regeringens
+            svar nu förestår. Jag vill erinra om att enskilda flyktingars
+            uppgifter i dessa hänseenden under krigstiden, även om de icke
+            kunnat kontrolleras, i många fall lett till att asylrätt här har
+            beviljats eller till att, då utvisning eller förpassning beslutats
+            av regeringen, ändock verkställigheten av ett sådant fattat beslut
+            har fått anstå eller försetts med vad man kallar hemlandsklausul.
+            I betraktande av dessa omständigheter finner jag det mycket naturligt,
+            att vad som nu förestår har framkallat en ganska utbredd och allvarlig
+            oro.
+          </seg>
+          <seg xml:id="i-7KTKVaA8mqDzMEj6QyZ8jE">
+            Att detta ärende har föredragits i utrikesnämnden och att en
+            kollektiv medansvarighet här kan sägas föreligga, gör icke denna
+            sak annorlunda eller bättre än den i sig själv är. Och även om
+            vad jag säger får betraktas som en kritik mot mig själv för bristande
+            aktsamhet vid ett ärendes handläggning i utrikesnämnden, kan jag
+            icke underlåta att göra den reflexionen, att vi kanske få anledning
+            att ångra, vad som här sker, och att vi själva kunna komma att
+            känna det såsom ett minus i den aktning, vi gärna vilja hysa för
+            vårt eget handlingssätt.
+          </seg>
+        </u>
+        <note type="speaker" xml:id="i-xU9o6DTcBHdc5Vz7J7xiM">
+          Herr Gärde:
+        </note>
+        <u who="i-Mp9EZyDQnEWymzonKTkhPb" xml:id="i-c6f63b87e606842a-8" next="i-c6f63b87e606842a-9">
+          <seg xml:id="i-2LcJAcEwmHSeBa51WTWKMW">
+            Herr talman! Herr statsministern har i sitt anförande byggt försvaret
+            för regeringens beslut väsentligen på att de personer, varom här
+            är fråga, kommit till landet i egenskap av kapitulanter. Herr
+            statsministern har
+          </seg>
+        </u>
+        <pb facs="https://betalab.kb.se/prot-1945-höst-fk--36/prot_1945_höst_fk__36-006.jp2/_view"/>
+        <note type="date" xml:id="i-NxGZSuLjjvwHcch1w55y2Y">
+          Fredagen den 23 november 1945. Nr 36. 7
+        </note>
+        <u who="i-Mp9EZyDQnEWymzonKTkhPb" xml:id="i-c6f63b87e606842a-9" prev="i-c6f63b87e606842a-8">
+          <seg xml:id="i-MPpt8Ck38aMrneXcV1ktFp">
+            Ang. vissa baltiska flyktingars förpassning ur riket. (Forts.)
+            alltså såvitt jag förstår dragit upp en skillnad mellan kapitulanter
+            i egentlig mening, som undandragit sig verkningarna av en ingången
+            kapitulation, och desertörer.
+          </seg>
+          <seg xml:id="i-GF6hPzRwHVnvLpA4iWvCeG">
+            Förhållandet är, att åtskilliga utlänningar under krigets gång
+            och även efter dess avslutande sökt sig till vårt land i egenskap
+            av desertörer, d. v. s. flyktingar, som antingen medan kriget
+            pågick stodo i stridsställning eller som sedan kriget avslutats
+            voro omhändertagna i krigsfångläger av olika slag. När det gällt
+            dessa desertörer har man alltid ingått i prövning av deras politiska
+            asylrätt, och då deras påståenden om sådan funnits sannolika eller
+            grundade, har man låtit dem kvarstanna här i riket, medan man
+            i andra fall, då de funnits grundlösa, gått till förpassning eller
+            utvisning.
+          </seg>
+          <seg xml:id="i-YB2RXwJiGUxXkojKcF1fzN">
+            Jag vill icke gentemot herr statsministern påstå, att icke på
+            denna punkt en viss formell skillnad föreligger mellan kapitulanter
+            och desertörer, men vad jag vill göra gällande är, att i realiteten
+            skillnaden dem emellan är försvinnande liten. Inom båda kategorierna
+            finnas helt säkert personer, som kunna åberopa sig på politiskt
+            flyktingskap, och andra, som icke kunna göra det. Jag talar i
+            detta sammanhang icke om tyskarna, ty det kan ju aldrig berättiga
+            till politiskt flyktingskap, att man varit krigförande i sitt
+            eget lands armé, utan jag talar om de övriga kategorierna. Beträffande
+            dessa senare hade det givetvis varit lyckligt, om de kunnat avskiljas
+            till prövning i den ordning, som gällt för andra utlänningar,
+            vilka sökt en fristad här i landet. Först då hade man kunnat få
+            en uppfattning om vilka personer vi med stöd av asylrättens grundsatser
+            bort låta kvarstanna här och vilka vi icke bort ge en sådan tillåtelse.
+            Man kan inte undgå intrycket, att dessa människor just genom att
+            de förts in under begreppet kapitulanter kommit i en missgynnad
+            ställning i förhållande till sina kamrater, som haft den lyckligare
+            lotten att inrangeras bland desertörerna. Någon saklig skillnad
+            mellan dessa båda grupper anser jag icke föreligga.
+          </seg>
+          <seg xml:id="i-WWj9hRcLC6fPZKnKfR3Qq3">
+            Jag skall bara som ett tankeexperiment förutsätta den eventualiteten,
+            att kriget haft en annan utgång och att det nu hade gällt tyskar,
+            som kämpat mot den rådande regimen i Tyskland och sökt en fristad
+            här i landet, eller medborgare i ett av Tyskland ockuperat och
+            med det införlivat nordiskt land, vilka i egenskap av flyktingar
+            sökt sig hit. Jag tror inte att någon skulle på minsta sätt vara
+            i tvivelsmål om att den politiska asylrätten i sådant fall bort
+            av oss göras gällande helt och fullt, även om detta kanske haft
+            någon utrikespolitisk återverkan.
+          </seg>
+          <seg xml:id="i-7QZxG4kWvUJWxo1aiY7C2L">
+            Jag är inte i stånd att ge regeringen något råd i det tvångsläge,
+            vartill omständigheterna nu lett, men jag vill för min del betona,
+            att den svenska riksdagen har varit angelägen om att värna den
+            politiska asylrätten. Man har Ju genom ingående lagbestämmelser
+            och på annat sätt sökt tillgodose önskemålet om en verklig prövning
+            av sådana frågor. Det kan därför inte annat än väcka anstöt, att
+            dessa för individen så viktiga och livsavgörande angelägenheter
+            gjorts till föremål för en så summarisk prövning, som i detta
+            fall skett.
+          </seg>
+        </u>
+        <note xml:id="i-4AKmgURBTHYskESr9EQtfA">
+          Upplästes följande till kammaren ankomna protokoll:
+        </note>
+        <note xml:id="i-7yFtLNfqp7TAjnKJ3MWCba">
+          Är 1945 den 21 november sammanträdde kamrarnas valmän för att
+          jämlikt $$ 71 och 73 i riksdagsordningen utse dels en fullmäktig
+          i riksbanken för återstående del av valperioden 1945—1948 efter
+          statsrådet K. G. Myrdal, dels en fullmäktig i riksbanken för återstående
+          del av valperioden 1944—1947 efter statsrådet A. Vougt, dels ock
+          en suppleant för riksdagens fullmäktige i nämnda bank; och befunnos
+          efter valens slut hava blivit utsedda till
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1945-höst-fk--36/prot_1945_höst_fk__36-007.jp2/_view"/>
+        <note type="date" xml:id="i-HM7kqso6Rd493T8nNqnnRQ">
+          8 Nr 36. Fredagen den 23 november 1945.
+        </note>
+        <note xml:id="i-M2fBErThE3gnK6zzSUxHWD">
+          Fullmäktig för återstående del av valperioden 1945—1948: herr
+          Andersson, Allan, i Tungelsta, ledamot av riksdagens andra kammare
+          .....sseossersessererrrr re rr ss rr sr re tes med 37 röster;
+          Fullmäktig för återstående del av valperioden 1944-—1947: herr
+          Hall, David Emanuel, ledamot av riksdagens andra kam- MMA ooseeeresesrseseerr
+          rr er rr rr rr rr rr rr FR FR RR RA med 34 röster; Suppleant
+        </note>
+        <note xml:id="i-5Ye4fs4iFR1g31A8tbeEzf">
+          för tiden från valet, till dess nytt val under år 1946 försiggått:
+          herr Andersson, Olof, i Malmö, ledamot av riksdagens andra kam-
+        </note>
+        <note xml:id="i-Ef5SnEH1Ub1wkdLPjzWFEV">
+          MATÉ oosseseerereresserr rr rr rr rr rr rr rr RK Rss med 35 röster.
+          Joh. Friggeråker. Oscar Carlström. Axel Mannerskante. Erik Fast.
+        </note>
+        <note xml:id="i-3vtJRhECVCHyXtNhXd1jNV">
+          På framställning av herr talmannen beslöts att det nu upplästa
+          protokollet skulle läggas till handlingarna ävensom att riksdagens
+          kanslideputerade skulle genom utdrag av protokollet underrättas
+          om dessa val samt anmodas låta uppsätta och till kamrarna ingiva
+          förslag dels till förordnanden för de valda, dels ock till skrivelse
+          till Konungen med anmälan om de förrättade valen.
+        </note>
+        <note xml:id="i-9aBFPqiGhxWLbSCBPbRGyR">
+          Anmäldes och godkändes statsutskottets förslag till riksdagens
+          skrivelser till Konungen:
+        </note>
+        <note xml:id="i-9RYfejJJF5uxzbRcCmXvvS">
+          nr 544, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat I till riksstaten för budgetåret 1945/46, i vad
+          propositionen avser utrikesdepartementets verksamhetsområde;
+        </note>
+        <note xml:id="i-CNshP5J4EnwiNraaHCrKdR">
+          nr 545, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat I till riksstaten för budgetåret 1945/46, i vad
+          propositionen avser försvarsdepartementets verksamhetsområde;
+          samt
+        </note>
+        <note xml:id="i-Rt6L1oiAFTV16XEgqca5tm">
+          nr 546, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat I till riksstaten för budgetåret 1945/46, i vad
+          propositionen avser ecklesiastikdepartementets verksamhetsområde.
+        </note>
+        <note xml:id="i-SikTcG24UVLvu9wu1gFbiC">
+          Anmäldes och godkändes jordbruksutskottets förslag till riksdagens
+          skrivelser till Konungen: — nr 547, i anledning av Kungl. Maj:ts
+          proposition angående utgifter å tillläggsstat I till riksstaten
+          för budgetåret 1945/46, såvitt angår jordbruksärenden;
+        </note>
+        <note xml:id="i-NB1JjrgQsH5cKvS4gs4j6Y">
+          nr 548, i anledning av Kungl. Maj:ts proposition angående ytterligare
+          statsunderstöd till Sörby invallningsföretag år 1937 i Västmanlands
+          län; samt
+        </note>
+        <note xml:id="i-3XFUFsSye8fysbHpsbJ8bS">
+          nr 549, i anledning av Kungl. Maj:ts proposition angående inköp
+          för kronans räkning av viss mark inom Södra Vrams socken, Malmöhus
+          län.
+        </note>
+        <note xml:id="i-QrFkYrJ3QB5GSYA4TgNr2i">
+          Föredrogs och hänvisades till statsutskottet Kungl. Maj:ts proposition
+          nr 383, angående statsbidrag till ryska institutet vid Stockholms
+          högskola.
+        </note>
+        <note xml:id="i-MGaKfLUhSojEgTfgr7Uh2Y">
+          Föredrogs och hänvisades till statsutskottet herr Sjödahls motion,
+          nr 443, i anledning av Kungl. Maj:ts proposition angående särskild
+          utbildning av folkskollärare.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1945-höst-fk--36/prot_1945_höst_fk__36-008.jp2/_view"/>
+        <note xml:id="i-VHdUZiR8brXbJmqfZTrVdy">
+          Lördagen den 24 novembér 1945. Nr 36: 9
+        </note>
+        <note xml:id="i-2sRYSD6NM5YEwi6Ez7k1v3">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 2.41 eftermiddagen.
+        </note>
+        <note xml:id="i-NMnJyF9npWYP8u1mtQ7Q4b">
+          In fidem G. H. Berggren.
+        </note>
+        <note type="date" xml:id="i-EtrDamki6zM3iC47F6NHiA">
+          Lördagen den 24 november.
+        </note>
+        <note xml:id="i-Luh59jjhhKhBjYFsHuu6sE">
+          Kammaren sammanträdde kl. 4 eftermiddagen; och dess förhandlingar
+          leddes av förste vice talmannen.
+        </note>
+        <note type="speaker" xml:id="i-J4WFHQ6zgUF3pvRKB6qbJx">
+          Herr statsrådet Quensel avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-178dyV6XWpreGjnRFu44Dz">
+          ts proposition nr 384, med förslag till lag angående ändrad lydelse
+          av 1 8 lagen den 16 februari 1934 om fullgörande i vissa fall
+          av betalningsskyldighet i förhållande till utlandet m. m.
+        </note>
+        <note xml:id="i-UbxB1DwHczQyC6N7pHvb49">
+          Anmäldes och godkändes andra lagutskottets förslag till riksdagens
+          skrivelse, nr 550, till Konungen i anledning av Kungl. Maj:ts
+          proposition med förslag till lag angående ändrad lydelse av 26
+          $ lagen den 12 maj 1917 (nr 189) om expropriation, m. m.
+        </note>
+        <note xml:id="i-5m2RpiAXMoPjytw6ehBtRe">
+          Anmäldes och godkändes statsutskottets förslag till riksdagens
+          skrivelser till Konungen:
+        </note>
+        <note xml:id="i-Ree3S2sV31tAM7998xVGYP">
+          nr 551, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat I till riksstaten för budgetåret 1945/46, i vad
+          propositionen avser kommunikationsdepartementets verksamhetsområde;
+        </note>
+        <note xml:id="i-XWHxeHo8DvoEzyUZA343fL">
+          nr 552, i anledning av Kungl. Maj:ts proposition angående förbättring
+          av viss ubåtssäkerhetsmateriel;
+        </note>
+        <note xml:id="i-8cqEXYhFmmC1ke81SsQ1Bc">
+          nr 553, i anledning av Kungl. Maj:ts proposition angående ianspråktagande
+          av lägerkassemedel för nybyggnad eller större ändringsarbete;
+        </note>
+        <note xml:id="i-SnUKpTo38tRp8LDkRCwbqR">
+          nr 554, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av kronan tillhörigt markområde i Ljungbyhed;
+        </note>
+        <note xml:id="i-6J6VQ8X1yNdFiqJUuYwkJr">
+          nr 555, 1 anledning av Kungl. Maj:ts proposition angående vissa
+          frågor om befrielse från ersättningsskyldighet;
+        </note>
+        <note xml:id="i-FTVxjb18jW5tZUc4vEupDH">
+          nr 556, i anledning av Kungl. Maj:ts proposition angående vissa
+          statens Järnvägar berörande markfrågor i Västerås;
+        </note>
+        <note xml:id="i-RJHnyFDDvP32eXuuXTfozA">
+          nr 557, i anledning av Kungl. Maj:ts proposition angående fastighetsbyte
+          i Falköping; samt
+        </note>
+        <note xml:id="i-BLwhsFYARsTYJtnacwyJ2L">
+          nr 558, i anledning av Kungl. Maj:ts proposition angående försäljning
+          av vissa under vattenfallsstyrelsens förvaltning stående fastigheter.
+        </note>
+        <note xml:id="i-Lj61t6djQHr7ifsEZzZJsa">
+          Föredrogs och bordlades Kungl. Maj:ts denna dag avlämnade proposition
+        </note>
+        <note xml:id="i-8UNruK3uW8VmhhUf5VoasP">
+          nr 384.
+        </note>
+        <note xml:id="i-NPHtnaYZoDij91L125FRMf">
+          Första kammarens protokoll 1945. Nr 36. 2
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1945-höst-fk--36/prot_1945_höst_fk__36-009.jp2/_view"/>
+        <note xml:id="i-XjkdgTpimbfoeZy8EuWVeq">
+          10 Nr 36. Lördagen. den 24 november 1945.
+        </note>
+        <note xml:id="i-23KJCAEYFHaXxYC9nihZt3">
+          Anmäldes och bordlades
+        </note>
+        <note xml:id="i-EHcqyi7r1PBj4w92yVEn2g">
+          statsutskottets utlåtanden:
+        </note>
+        <note xml:id="i-HLKh48KVuwmbXVzRijH2x5">
+          nar 264, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat I till riksstaten för budgetåret 1945/46, i vad
+          propositionen avser justitiedepartementets verksamhetsområde;
+        </note>
+        <note xml:id="i-NN79YENPJmn453DNBvAswj">
+          nr 267, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat I till riksstaten för budgetåret 1945/46, i vad
+          propositionen avser socialdepartementets verksamhetsområde ;
+        </note>
+        <note xml:id="i-3RfnGvCJopqH6ug4SA9xa1">
+          nr 269, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat I till riksstaten för budgetåret 1945/46, i vad
+          propositionen avser finansdepartementets verksamhetsområde;
+        </note>
+        <note xml:id="i-3rJBDT5eC2Sq1g8aV1aopR">
+          nr 272, i anledning av Kungl. Maj:ts proposition angående utgifter
+          å tillläggsstat I till riksstaten för budgetåret 1945/46, i vad
+          propositionen avser folkhushållningsdepartementets verksamhetsområde
+          jämte i ämnet väckt motion; och
+        </note>
+        <note xml:id="i-B2AEjhndPg7cSziGGG8JjU">
+          nr 281, i anledning av Kungl. Maj:ts proposition angående kreditgivningen
+          till utlandet m. m.;
+        </note>
+        <note xml:id="i-TqQxrKNqAXRXEnbZHezCpm">
+          bevillningsutskottets belänkanden:
+        </note>
+        <note xml:id="i-3cRRb3xKjtYPbwCydQTt9W">
+          nr 61, i anledning av Kungl. Maj:ts proposition med förslag till
+          förordning om ändring i taxeringsförordningen den 28 september
+          1928 (nr 379) jämte i ämnet väckta motioner; och
+        </note>
+        <note xml:id="i-TajMFNx2JT2nuwbwRUaUEn">
+          nr 62, i anledning av Kungl. Maj:ts proposition med förslag till
+          förordning angående ändrad lydelse av 5 $ förordningen den 2 juni
+          1922 (nr 260) om automobilskatt, m. m., jämte i ämnet väckta motioner;
+          samt
+        </note>
+        <note xml:id="i-56TGBaaDKPEDRaMeKiEQn9">
+          andra lagutskottets utlåtanden:
+        </note>
+        <note xml:id="i-NMz6xHuUu8Yk7zTYAsda1v">
+          nr 82, i anledning av Kungl. Maj:ts proposition med förslag till
+          lag angående ändring i lagen den 19 juni 1942 (nr 430) om kontroll
+          av upplåtelse och överlåtelse av bostadsrätt m. m.; och
+        </note>
+        <note xml:id="i-QmijMStgBH7FBsry414Gha">
+          nr 83, i anledning av Kungl. Maj:ts proposition angående förordning
+          om ändrad lydelse av 18 $ 1 mom. motorfordonsförordningen den
+          23 oktober 1936
+        </note>
+        <note xml:id="i-9FqokzgfAAisfMdN5XjyFC">
+          (ar 561).
+        </note>
+        <note xml:id="i-Xcmxg9YsU6pz8ppTe1Sf5B">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 4.05 eftermiddagen.
+        </note>
+        <note xml:id="i-Rufu9gQkthafVbW6rAuhqQ">
+          In fidem G. H. Berggren.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1945-höst-fk--36/prot_1945_höst_fk__36-010.jp2/_view"/>
+        <note type="date" xml:id="i-GvP1aVXB8ZbKyTXS4iNTQw">
+          Tisdagen den 27 november 1945. Nr 36. 11
+        </note>
+        <note type="date" xml:id="i-4AYzEgQ3hk7Jvs2WR4pboY">
+          Tisdagen den 27 november.
+        </note>
+        <note xml:id="i-VQVgKELYzfvg5CXLu9fXFz">
+          Kammaren sammanträdde kl. 4 eftermiddagen.
+        </note>
+        <note xml:id="i-JiwYCobtd1FYxkeqNKoUnN">
+          Justerades protokollen för den 20 och den 21 innevarande månad.
+        </note>
+        <note xml:id="i-ARsM3k36Wvs7Pdxm91Y6tg">
+          Anmäldes och godkändes riksdagens kanslis förslag
+        </note>
+        <note xml:id="i-MjLswriUW5jAnJKUuFNsZK">
+          dels till riksdagens skrivelse, nr 562, till Konungen angående
+          val av fullmäktige och suppleant för riksdagens fullmäktige i
+          riksbanken;
+        </note>
+        <note xml:id="i-F9AxogtSry8rH5yamjXLaJ">
+          dels ock till riksdagens förordnanden:
+        </note>
+        <note xml:id="i-4AFA4ashqhRwxsTrBKS8xg">
+          nr 559, för ledamoten av riksdagens andra kammare herr Allan
+          Andersson i Tungelsta att vara fullmäktig i riksbanken;
+        </note>
+        <note xml:id="i-G5iw4DvUQKb1hQ6G244UsC">
+          nr 560, för ledamoten av riksdagens andra kammare herr David
+          Emanuel Hall att vara fullmäktig i riksbanken; och
+        </note>
+        <note xml:id="i-CCnA18ugHQYPthHffbgWNq">
+          nr 561, för ledamoten av riksdagens andra kammare herr Olof Andersson
+          i Malmö att vara suppleant för riksdagens fullmäktige i riksbanken.
+        </note>
+        <note xml:id="i-3f7pEtWJeQA3zs2dHfNaxV">
+          Anmäldes och godkändes bankoutskottets förslag till riksdagens
+          skrivelser till Konungen:
+        </note>
+        <note xml:id="i-WbQJwiR5HkPELDwS1c74ES">
+          nr 563, i anledning av Kungl. Maj:ts proposition angående årligt
+          understöd åt föreståndaren för svenska studenthemmet i Paris Lucien
+          Maury; och
+        </note>
+        <note xml:id="i-JXZeTmhSi44zqthAoJSiqL">
+          nr 364, i anledning av Kungl. Maj:ts proposition angående livräntor
+          åt Hanna Jansson m. fl.
+        </note>
+        <note xml:id="i-CcWJHy3FihthgBEpKgCTdw">
+          Föredrogs och hänvisades till behandling av lagutskott Kungl.
+          Maj:ts proposition nr 384, med förslag till lag angående ändrad
+          lydelse av 1 8 lagen den 16 februari 1934 om fullgörande i vissa
+          fall av betalningsskyldighet i förhållande till utlandet m. m.
+        </note>
+        <note xml:id="i-GPJfnDkpVv6XKLeetTWfUR">
+          Föredrogos och bordlades ånyo statsutskottets utlåtanden nr 264,
+          267, 269, 272 och 281, bevillningsutskottets betänkanden nr 61
+          och 62 samt andra lagutskottets utlåtanden nr 82 och 83.
+        </note>
+        <note xml:id="i-53CstNPuvqU2vvFsvzExTr">
+          På framställning av herr talmannen beslöts att bevillningsutskottets
+          betänkande nr 62 skulle uppföras främst och statsutskottets utlåtande
+          nr 281 sättas sist bland två gånger bordlagda ärenden på föredragningslistan
+          för morgondagens sammanträde.
+        </note>
+        <note xml:id="i-AaQZrPgB5GBLF546bhQoTb">
+          Avgåvos och bordlades nedannämnda motioner:
+        </note>
+        <note xml:id="i-84vKVct9CVhHZWikNViGmR">
+          nr 444, av herrar Gabrielsson och Bäckström, i anledning av Kungl.
+          Maj:ts proposition angående åtgärder för ökad utbildning av tandläkare
+          m. m.; och
+        </note>
+        <note xml:id="i-LiauP3z2R3SuHt6yT5LfMV">
+          nr 445, av herr Wehtje m. fl., i anledning av Kungl. Maj:ts proposition
+          med förslag till lag om ändrad lydelse av punkt 1 av anvisningarna
+          till 41 8 kommunalskattelagen den 28 september 1928 (nr 370).
+        </note>
+        <note xml:id="i-76u1xb8LnL7rWeHbxJ1Fj1">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 4.06 eftermiddagen.
+        </note>
+        <note xml:id="i-ge52U6GroTqZmChDiiK6d">
+          In fidem G. H. Berggren.
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>

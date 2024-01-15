@@ -192,7 +192,7 @@ def main():
                     sub_df = sub_df[sub_df["end"] >= day]
 
                     N_MP = len(sub_df)
-                    MEPs = list(sub_df["wiki_id"])
+                    MEPs = list(sub_df["swerik_id"])
 
                 dates.at[i, 'N_MP'] = N_MP
 

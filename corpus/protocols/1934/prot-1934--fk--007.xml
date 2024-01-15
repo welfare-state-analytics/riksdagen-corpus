@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Riksdagens protocols 1934</title>
+        <title>Protokoll</title>
       </titleStmt>
-      <editionStmt>
-        <edition>0.3.0</edition>
-      </editionStmt>
       <publicationStmt>
         <authority>Westac Project, 2020-2021</authority>
         <availability>
@@ -16,7 +13,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Riksdagens protocols 1934</title>
+          <title>Protokoll</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,382 +25,355 @@
       </editorialDecl>
     </encodingDesc>
   </teiHeader>
-  <TEI>
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>Protokoll</title>
-        </titleStmt>
-        <publicationStmt>
-          <authority>Westac Project, 2020-2021</authority>
-          <availability>
-            <licence target="https://creativecommons.org/licenses/by/4.0/">Licence: Attribution 4.0 International (CC BY 4.0)</licence>
-          </availability>
-        </publicationStmt>
-        <sourceDesc>
-          <bibl>
-            <title>Protokoll</title>
-          </bibl>
-        </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-        <editorialDecl>
-          <correction>
-            <p>Some programmatic corrections have been made to counter errors stemming from the OCR process.</p>
-          </correction>
-        </editorialDecl>
-      </encodingDesc>
-    </teiHeader>
-    <text>
-      <front>
-        <div type="preface">
-          <head>prot-1934--fk--7</head>
-          <docDate when="1934-02-07">1934-02-07</docDate>
-          <docDate when="1934-02-09">1934-02-09</docDate>
-        </div>
-      </front>
-      <body>
-        <div>
-          <pb facs="https://betalab.kb.se/prot-1934--fk--7/prot_1934__fk__7-000.jp2/_view"/>
-          <note xml:id="i-9s1hVTpVDwfxyHBK8J2re6">
-            RIKSDAGENS PROTOKOLL.
-          </note>
-          <note xml:id="i-LUzpvpvubMnZic4W96ErUs">
-            1934. Första kammaren. Nr 7.
-          </note>
-          <note type="date" xml:id="i-BtWrvUKKgL9nUZ82ZD4qq6">
-            Onsdagen den 7 februari.
-          </note>
-          <note xml:id="i-83Cd7Ac8oKMnb3tWAC7GTV">
-            Kammaren sammanträdde kl. 4 e. m.
-          </note>
-          <note type="speaker" xml:id="i-GBpMZr6BwhBWjjKfZ3nJrc">
-            Herr statsrådet Ekman avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-92Bdk6pvj4zRQ88NG37tZD">
-            ts propositioner:
-          </note>
-          <note xml:id="i-BMcsZ5AbeXfuKGohJWw9wD">
-            nr 90, med förslag till vissa tillägg till gällande tulltaxa;
-          </note>
-          <note xml:id="i-AKmtc7iqj4CfhGdiYhRTxC">
-            nr 91, angående pensionsförbättring åt f. d. styresmannen för
-            Karl Gustafs stads gevärsfaktori, översten i västra arméfördelningens
-            reserv P. J. R. Virgin;
-          </note>
-          <note xml:id="i-6aVukmXFLZY2sR5RcdWQjF">
-            nr 92, angående försäljning av vissa kronoegendomar och lägenheter
-            från sådana egendomar;
-          </note>
-          <note xml:id="i-B2sBozhaEFeJ2RY6La5XCi">
-            nr 93, angående ändring i förordningen om jordbrukets kreditkassor,
-            m. m.;
-          </note>
-          <note xml:id="i-LNJgBd1gKXa2rKK4f8ffhY">
-            nr 94, angående nedsättning av arrendet för arrendelotten Brostugan
-            å kronoparken Klövdala i Kalmar län; ö
-          </note>
-          <note xml:id="i-Rnde1Kf5VVXLLc1uq9BgxB">
-            nr 95, angående pension åt vissa i statens tjänst anställda personer;
-          </note>
-          <note xml:id="i-GHg9v6SeFUGCJjzmQEWqkz">
-            nr 96, angående anslag till understöd åt kemiska stationer; samt
-          </note>
-          <note xml:id="i-LrEgGcSiGRsJ6udSxDJqvN">
-            nr 99, med förslag till skeppsklarerarförordning.
-          </note>
-          <note type="speaker" xml:id="i-WYGmCaGnnPrxpjVpU765oD">
-            Herr statsrådet Schlyter avlämnade Kungl. Maj:
-          </note>
-          <note xml:id="i-P6C3WTCpMW4JfoVZe3eptV">
-            ts proposition nr 68, med förslag till lag om ändrad lydelse
-            av 1 kap. 2 $ rättegångsbalken.
-          </note>
-          <note xml:id="i-6dAifY8kc5mSzGJzKVmheV">
-            Justerades protokollen för den 2 och den 3 innevarande månad.
-          </note>
-          <note xml:id="i-4PMDjrqTA7Zu8hikFD4PL7">
-            Anmäldes och godkändes första lagutskottets förslag till riksdagens
-            skrivelser till Konungen:
-          </note>
-          <note xml:id="i-HAdUjy8nSBufsJgoDHshG8">
-            nr 15, i anledning av Kungl. Maj:ts proposition med förslag till
-            lag om fullgörande i vissa fall av betalningsskyldighet i förhållande
-            till utlandet m. m.;
-          </note>
-          <note xml:id="i-KH2t3RywbxU55npxuHJLfN">
-            nr 20, i anledning av Kungl. Maj:ts proposition med förslag till
-            lag om upphävande av 17 kap. 32 8 första punkten rättegångsbalken
-            m. m.; samt
-          </note>
-          <note xml:id="i-WTzJQ8GgpwKBzmyiquid4L">
-            nr 21, i anledning av Kungl. Maj:ts proposition med förslag till
-            lag om ändring i vissa delar av 27 och 30 kap. rättegångsbalken
-            m. m.
-          </note>
-          <note xml:id="i-VXQC9YyELVPtXXwoNVHMsM">
-            Anmäldes och godkändes statsutskottets förslag till riksdagens
-            skrivelser till Konungen:
-          </note>
-          <note xml:id="i-DmFn8CwhGfjFq68V9Yzg4g">
-            nr 16, i anledning av Kungl. Maj:ts proposition angående upplåtande
-            till svenska järnvägsmännens vilohemsförening av en statens järnvägar
-            tillhörig byggnad i Björkliden m. m.; !
-          </note>
-          <note xml:id="i-38xeLaJnPk2k1xzwhQFzQ9">
-            nr 17, i anledning av Kungl. Maj:ts proposition angående befrielse
-            för chauffören A. R. Andersson och stationskarlen J. A. Johansson
-            från skyldighet att till statens järnvägar gälda vissa ersättningsbelopp;
-          </note>
-          <note xml:id="i-D3VPnQ31fcvwGkvsKqLmmT">
-            Första kammarens protokoll 1934. Nr ?. 1
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1934--fk--7/prot_1934__fk__7-001.jp2/_view"/>
-          <note type="date" xml:id="i-T5fbgkoBJnRa9dDYVa5Xmh">
-            2 Nr 7. Onsdagen den 7 februari,
-          </note>
-          <note xml:id="i-8ijaLD2uDHUznoq1493qYF">
-            nr 18, i anledning av Kungl. Maj:ts proposition angående vissa
-            redovisningsåtgärder i anledning av överlåtelse från statens järnvägar
-            till domänverket av nämnda järnvägars slipersfaktori vid Piteå;
-            samt
-          </note>
-          <note xml:id="i-M1T2qdNNmHhMq44ywa8TgH">
-            nr 19, i anledning av Kungl. Maj:ts proposition angående fortsatta
-            åtgärder för främjande av sparsamhet bland skolungdomen.
-          </note>
-          <note xml:id="i-XH6ZvaSTRFeiHu9kgMvTao">
-            Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
-          </note>
-          <note xml:id="i-XCSABZXahqghqB7brszmtg">
-            nr 61, angående omorganisation av latinlyceilinjen vid statens
-            provskola, nya elementarskolan i Stockholm;
-          </note>
-          <note xml:id="i-RAWKTXY84XCqMPD91fSaH4">
-            nr 77, angående förstärkning av sjätte huvudtitelns anslag till
-            kommittéer och utredningar genom sakkunniga;
-          </note>
-          <note xml:id="i-7DjB7Lh93z9Qtp2Sfr3UM9">
-            nr 81, angående försäljning av nya svenska stenkolsaktiebolaget
-            Spetsbergens egendom å Spetsbergen; samt
-          </note>
-          <note xml:id="i-AVpajHPJ49fXwagjGaDr8N">
-            nr 82, angående ersättning till styckjunkaren J. Ohlsson för
-            visst av honom till kronan inbetalt belopp.
-          </note>
-          <note xml:id="i-36QaynSWHYL21c38NnSH6v">
-            Föredrogs och hänvisades till jordbruksutskottet Kungl. Maj:ts
-            proposition nr 83, angående avyttring av statens järnvägar tillhöriga
-            andelar i samfälligheter till Kingstads m. fl. byars skifteslag
-            i Söderala socken.
-          </note>
-          <note xml:id="i-3mZUr6AZdVHWn6vLFEEatS">
-            Föredrogs och hänvisades till statsutskottet Kungl. Maj:ts proposition
-            nr 84, angående rätt för vattenrättsingenjörerna L. E. Wedberg,
-            8. L. C. Aspegrén och K. J. Elfström att för placering i löneklass
-            få tillgodoräkna viss tjänstgöring.
-          </note>
-          <note xml:id="i-3fbtQP2Lfu4UG454KmTNPe">
-            Vid föredragning av Kungl. Maj:ts denna dag avlämnade propositioner
-            nr 68, 90—96 och 99 blevo desamma på begäran bordlagda.
-          </note>
-          <note xml:id="i-RdXHbZq6LLCRGtTEwe38S7">
-            Avgåvos och bordlades nedannämnda motioner:
-          </note>
-          <note xml:id="i-UgFjPEN47ahVF3PdfHBE1B">
-            nr 292, av herr Bergström, 1 anledning av Kungl. Maj:ts proposition
-            med förslag till lag om offentlig arbetsförmedling m. m.; och
-          </note>
-          <note xml:id="i-NQAFjs9Cq42SSqpzTyxZhd">
-            nr 293, av herr Johansson, Johan Bernhard, m. fl., i anledning
-            av Kungl. Maj:ts proposition med förslag till lag om ändring i
-            lagen den 22 juni 1928 (nr 302) om vissa av landsting eller kommun
-            drivna sjukhus.
-          </note>
-          <note xml:id="i-N9GH8s7Ww8aCKpUqZB6PAh">
-            Anmäldes och bordlades
-          </note>
-          <note xml:id="i-PgyUtTySxdSZY5oupsNtid">
-            statsutskottets utlåtanden:
-          </note>
-          <note xml:id="i-5aU3K6HfLxdVfT2zauSx9A">
-            nr 16, i anledning av väckt motion om sänkning av regeringsmedlemmarnas
-            löner;
-          </note>
-          <note xml:id="i-7aiCFY5wnsyPf7txpQ9Mkw">
-            nr 17, i anledning av Kungl. Maj:ts proposition angående räntefri
-            försträckning åt telegraftjänstemännens skatteinbetalningskassa
-            :i Stockholm: samt
-          </note>
-          <note xml:id="i-4jjZGoYHVUvimvyGdrELJ8">
-            nr 18, angående beredande av ytterligare medel till upprensning
-            av norra inloppet till Fårösund m. m. jämte i ämnet väckta motioner;
-          </note>
-          <note xml:id="i-13hHos9Bq165hPQQybKHUV">
-            bankoutskottets utlåtande nr 4, i anledning av Kungl. Maj:ts
-            proposition med förslag till lag angående solidariskt bankbolags
-            ombildning till bankaktiebolag; ävensom
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1934--fk--7/prot_1934__fk__7-002.jp2/_view"/>
-          <note type="date" xml:id="i-HwDRYJMGSq23xjkACRNdbP">
-            Fredagen den 9 februari. Nr 7. 3
-          </note>
-          <note xml:id="i-M5gcrnVmRqWoSti1SsqE6s">
-            första lagutskottets utlåtanden:
-          </note>
-          <note xml:id="i-B8XFXC6uSspN6HXmt5Vieu">
-            nr 6, i anledning av väckt motion angående lagstiftning om inteckning:
-            i hotelloch restauranginventarier; samt
-          </note>
-          <note xml:id="i-BxWd91A271Vy2RLr7Vv5Jv">
-            nr 7, i anledning av väckt motion angående viss skärpning av
-            det ledamot i aktiebolags styrelse åvilande ansvar.
-          </note>
-          <note xml:id="i-HFgLghaXPaLZyUao7zGERF">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 4.10 e. m.
-          </note>
-          <note xml:id="i-NhQXmJzYsofqqf9QkZGCVy">
-            In fidem G. H. Berggren.
-          </note>
-          <note type="date" xml:id="i-Qskx6ejonGAzDacw3Wyg5f">
-            Fredagen den 9 februari.
-          </note>
-          <note xml:id="i-DTeemwXgwRSjnzs9qFg81B">
-            Kammaren sammanträdde kl. 4 e. m.
-          </note>
-          <note xml:id="i-UGkUv7csX8Kq5MY5j6xTKy">
-            Herr statsrådet Vennerström avlämnade Kungl. Maj:ts propositioner:
-          </note>
-          <note xml:id="i-Do3LNxoss4p1JPBRmNqATn">
-            nr 80, angående turistreklamoch upplysningsverksamhet i utlandet;
-          </note>
-          <note xml:id="i-T21e1F9zwTKCBEL1n3bJQD">
-            nr 85, angående läroverksadjunkten E. B. Wendins tjänstårsberäkning;
-          </note>
-          <note xml:id="i-JNfxMwQWLSM394Tr36uSHT">
-            nr 86, angående gäldande i vissa fall ur kyrkofonden av understöd
-            i anledning av olycksfall i arbete å skogar till sådana ecklesiastika
-            boställen, som avses i 1 8 ecklesiastik boställsordning den 30
-            augusti 1932; samt
-          </note>
-          <note xml:id="i-TtUEPaX9WqpSmdgA3BmySh">
-            nr 105, angående anordnande av vissa utbildningskurser för f.
-            d. fast anställt manskap vid försvarsväsendet,
-          </note>
-          <note xml:id="i-XkctNuDcCo2Sa3QCMHuqu">
-            Föredrogs och hänvisades till behandling av lagutskott Kungl.
-            Maj:ts provosition nr 68, med förslag till lag om ändrad lydelse
-            av 1 kap. 2 $ rätte- :gångsbalken. i :
-          </note>
-          <note xml:id="i-9qMXjfY4oc7LGQR9sacVAw">
-            Föredrogs och hänvisades till bevillningsutskottet Kungl: Maj:ts
-            proposition nr 90, med förslag till vissa tillägg till gällande
-            tulltaxa.
-          </note>
-          <note xml:id="i-TnLwxRhXGHjZPp6t5D5gMo">
-            Föredrogs och hänvisades till bankoutskottet Kungl, Maj:ts proposition
-            nr :91, angående pensionsförbättring åt f. d. styresmannen för
-            Karl Gustafs stads gevärsfaktori, översten i västra arméfördelningens
-            reserv P. J. R. Virgin.
-          </note>
-          <note xml:id="i-AjJFvXbGZNiKQrnKqVWCjP">
-            Föredrogs och hänvisades till jordbruksutskottet Kungl. Maj:ts
-            proposition nr 92, angående försäljning av vissa kronoegendomar
-            och lägenheter från sådana egendomar.
-          </note>
-          <note xml:id="i-CLKUftdgW1gCYCreZRU446">
-            Föredrogs och hänvisades till bankoutskottet Kungl. Maj:ts proposition
-            nr 93, angående ändring i förordningen om jordbrukets kreditkassor,
-            m. m.
-          </note>
-          <note xml:id="i-GQRamzR24Xj2xXKrAxVm7W">
-            Föredrogs och hänvisades till jordbruksutskottet Kungl. Maj:ts
-            proposition nar 94, angående nedsättning av arrendet för arrendelotten
-            Brostugan å kronoparken Klövdala i Kalmar län.
-          </note>
-          <pb facs="https://betalab.kb.se/prot-1934--fk--7/prot_1934__fk__7-003.jp2/_view"/>
-          <note type="date" xml:id="i-3J6y56dddiqB7V1w7yTPKa">
-            4 Nr 7. Fredagen den 9 februari.
-          </note>
-          <note xml:id="i-VkHbnq3Z1du641CtGnni7h">
-            Föredrogs och hänvisades till bankoutskottet Kungl. Maj:ts proposition
-            nr 95, angående pension åt vissa i statens tjänst anställda personer.
-          </note>
-          <note xml:id="i-Rv4oC8c5WtcqfQhqK8zvwc">
-            Föredrogs och hänvisades till jordbruksutskottet Kungl. Maj:ts
-            proposition nr 96, angående anslag till understöd åt kemiska stationer.
-          </note>
-          <note xml:id="i-TaygaxaQc7F7HanaPvQZop">
-            Föredrogs och hänvisades till behandling av lagutskott Kungl.
-            Maj:ts proposition nr 99, med förslag till skeppsklarerarförordning.
-          </note>
-          <note xml:id="i-Ex5rfC25k9HSuG6PVbTfvi">
-            Föredrogs och hänvisades till statsutskottet herr Bergströms
-            motion, nr 292, i anledning av Kungl. Maj:ts proposition med förslag
-            till lag om offentlig arbetsförmedling m. m.
-          </note>
-          <note xml:id="i-KUQkNR3b21jCBejwDWsEs5">
-            Föredrogs och hänvisades till behandling av lagutskott den av
-            herr Johansson, Johan Bernhard, m. fl. väckta motionen, nr 293,
-            i anledning av Kungl. Maj:ts proposition med förslag till lag
-            om ändring i lagen den 22 juni 1928 (nr 302) om vissa av landsting
-            eller kommun drivna sjukhus.
-          </note>
-          <note xml:id="i-SQBRAYeY7RLFna6LFrkubz">
-            Föredrogos, men bordlades ånyo på flera ledamöters begäran statsutskottets
-            utlåtanden nr 16—18, bankoutskottets utlåtande nr 4 samt första
-            lagutskottets utlåtanden nr 6 och 7.
-          </note>
-          <note xml:id="i-McL6piF3ShPU9nfiUge2cC">
-            Ledighet från riksdagsgöromålen beviljades herr Nilsson, Johan,
-            i Malmö för tiden från och med den 10 till och med den 19 i denna
-            månad.
-          </note>
-          <note xml:id="i-PPVRCMkaqqsggj6bU9tJj2">
-            Anmäldes och bordlades
-          </note>
-          <note xml:id="i-5Jpo5QHzfQVmuCfJyBvyKN">
-            första lagutskottets utlåtanden:
-          </note>
-          <note xml:id="i-VFx3U6EVNYCfzqdGJsb8W1">
-            nr 8, i anledning av Kungl. Maj:ts proposition med förslag till
-            lag om ändrad lydelse av 5 och 11 $$ lagen den 30 juni 1916 (nr
-            312) angående ansvarighet för skada i följd av automobiltrafik;
-            och
-          </note>
-          <note xml:id="i-n54BA4hxaQYTK4HTsGo3A">
-            nr 9, i anledning av väckt motion angående lagstiftning till
-            radiolyssnares skyddande mot obehöriga störningar; samt
-          </note>
-          <note xml:id="i-KHZWGQbrYDxcC6vFUJaMk8">
-            andra lagutskottets utlåtanden:
-          </note>
-          <note xml:id="i-DUF3Jx2vm4bWnhmJiFkFUm">
-            nr 3, 1 anledning av väckt motion om utredning och förslag angående
-            en författningsenlig reglering av uppsägning av anställning i
-            enskild tjänst; och
-          </note>
-          <note xml:id="i-8vmarMHEjrkTs7kZBsjzyT">
-            nr 4, i anledning av väckt motion angående viss ändring i lagen
-            om arbetar-
-          </note>
-          <note xml:id="i-J4bADCgRNdkmxLoTU7G6C9">
-            skydd.
-          </note>
-          <note xml:id="i-DLpwSJD5h3pf7wVvNTYaJc">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 4.08 e. m.
-          </note>
-          <note xml:id="i-WjqeLRKejpD9JxM8kcMsfs">
-            In fidem G. H. Berggren.
-          </note>
-          <note xml:id="i-Uytb2SCoUU6ddZ1yKsKpwN">
-            Stockholm 1934. Kungl. Boktryckeriet, P. A. Norstedt &amp; Söner.
-            340585
-          </note>
-        </div>
-      </body>
-    </text>
-  </TEI>
-</teiCorpus>
+  <text>
+    <front>
+      <div type="preface">
+        <head>prot-1934--fk--7</head>
+        <docDate when="1934-02-07">1934-02-07</docDate>
+        <docDate when="1934-02-09">1934-02-09</docDate>
+      </div>
+    </front>
+    <body>
+      <div>
+        <pb facs="https://betalab.kb.se/prot-1934--fk--7/prot_1934__fk__7-000.jp2/_view"/>
+        <note xml:id="i-9s1hVTpVDwfxyHBK8J2re6">
+          RIKSDAGENS PROTOKOLL.
+        </note>
+        <note xml:id="i-LUzpvpvubMnZic4W96ErUs">
+          1934. Första kammaren. Nr 7.
+        </note>
+        <note type="date" xml:id="i-BtWrvUKKgL9nUZ82ZD4qq6">
+          Onsdagen den 7 februari.
+        </note>
+        <note xml:id="i-83Cd7Ac8oKMnb3tWAC7GTV">
+          Kammaren sammanträdde kl. 4 e. m.
+        </note>
+        <note type="speaker" xml:id="i-GBpMZr6BwhBWjjKfZ3nJrc">
+          Herr statsrådet Ekman avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-92Bdk6pvj4zRQ88NG37tZD">
+          ts propositioner:
+        </note>
+        <note xml:id="i-BMcsZ5AbeXfuKGohJWw9wD">
+          nr 90, med förslag till vissa tillägg till gällande tulltaxa;
+        </note>
+        <note xml:id="i-AKmtc7iqj4CfhGdiYhRTxC">
+          nr 91, angående pensionsförbättring åt f. d. styresmannen för
+          Karl Gustafs stads gevärsfaktori, översten i västra arméfördelningens
+          reserv P. J. R. Virgin;
+        </note>
+        <note xml:id="i-6aVukmXFLZY2sR5RcdWQjF">
+          nr 92, angående försäljning av vissa kronoegendomar och lägenheter
+          från sådana egendomar;
+        </note>
+        <note xml:id="i-B2sBozhaEFeJ2RY6La5XCi">
+          nr 93, angående ändring i förordningen om jordbrukets kreditkassor,
+          m. m.;
+        </note>
+        <note xml:id="i-LNJgBd1gKXa2rKK4f8ffhY">
+          nr 94, angående nedsättning av arrendet för arrendelotten Brostugan
+          å kronoparken Klövdala i Kalmar län; ö
+        </note>
+        <note xml:id="i-Rnde1Kf5VVXLLc1uq9BgxB">
+          nr 95, angående pension åt vissa i statens tjänst anställda personer;
+        </note>
+        <note xml:id="i-GHg9v6SeFUGCJjzmQEWqkz">
+          nr 96, angående anslag till understöd åt kemiska stationer; samt
+        </note>
+        <note xml:id="i-LrEgGcSiGRsJ6udSxDJqvN">
+          nr 99, med förslag till skeppsklarerarförordning.
+        </note>
+        <note type="speaker" xml:id="i-WYGmCaGnnPrxpjVpU765oD">
+          Herr statsrådet Schlyter avlämnade Kungl. Maj:
+        </note>
+        <note xml:id="i-P6C3WTCpMW4JfoVZe3eptV">
+          ts proposition nr 68, med förslag till lag om ändrad lydelse
+          av 1 kap. 2 $ rättegångsbalken.
+        </note>
+        <note xml:id="i-6dAifY8kc5mSzGJzKVmheV">
+          Justerades protokollen för den 2 och den 3 innevarande månad.
+        </note>
+        <note xml:id="i-4PMDjrqTA7Zu8hikFD4PL7">
+          Anmäldes och godkändes första lagutskottets förslag till riksdagens
+          skrivelser till Konungen:
+        </note>
+        <note xml:id="i-HAdUjy8nSBufsJgoDHshG8">
+          nr 15, i anledning av Kungl. Maj:ts proposition med förslag till
+          lag om fullgörande i vissa fall av betalningsskyldighet i förhållande
+          till utlandet m. m.;
+        </note>
+        <note xml:id="i-KH2t3RywbxU55npxuHJLfN">
+          nr 20, i anledning av Kungl. Maj:ts proposition med förslag till
+          lag om upphävande av 17 kap. 32 8 första punkten rättegångsbalken
+          m. m.; samt
+        </note>
+        <note xml:id="i-WTzJQ8GgpwKBzmyiquid4L">
+          nr 21, i anledning av Kungl. Maj:ts proposition med förslag till
+          lag om ändring i vissa delar av 27 och 30 kap. rättegångsbalken
+          m. m.
+        </note>
+        <note xml:id="i-VXQC9YyELVPtXXwoNVHMsM">
+          Anmäldes och godkändes statsutskottets förslag till riksdagens
+          skrivelser till Konungen:
+        </note>
+        <note xml:id="i-DmFn8CwhGfjFq68V9Yzg4g">
+          nr 16, i anledning av Kungl. Maj:ts proposition angående upplåtande
+          till svenska järnvägsmännens vilohemsförening av en statens järnvägar
+          tillhörig byggnad i Björkliden m. m.; !
+        </note>
+        <note xml:id="i-38xeLaJnPk2k1xzwhQFzQ9">
+          nr 17, i anledning av Kungl. Maj:ts proposition angående befrielse
+          för chauffören A. R. Andersson och stationskarlen J. A. Johansson
+          från skyldighet att till statens järnvägar gälda vissa ersättningsbelopp;
+        </note>
+        <note xml:id="i-D3VPnQ31fcvwGkvsKqLmmT">
+          Första kammarens protokoll 1934. Nr ?. 1
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1934--fk--7/prot_1934__fk__7-001.jp2/_view"/>
+        <note type="date" xml:id="i-T5fbgkoBJnRa9dDYVa5Xmh">
+          2 Nr 7. Onsdagen den 7 februari,
+        </note>
+        <note xml:id="i-8ijaLD2uDHUznoq1493qYF">
+          nr 18, i anledning av Kungl. Maj:ts proposition angående vissa
+          redovisningsåtgärder i anledning av överlåtelse från statens järnvägar
+          till domänverket av nämnda järnvägars slipersfaktori vid Piteå;
+          samt
+        </note>
+        <note xml:id="i-M1T2qdNNmHhMq44ywa8TgH">
+          nr 19, i anledning av Kungl. Maj:ts proposition angående fortsatta
+          åtgärder för främjande av sparsamhet bland skolungdomen.
+        </note>
+        <note xml:id="i-XH6ZvaSTRFeiHu9kgMvTao">
+          Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
+        </note>
+        <note xml:id="i-XCSABZXahqghqB7brszmtg">
+          nr 61, angående omorganisation av latinlyceilinjen vid statens
+          provskola, nya elementarskolan i Stockholm;
+        </note>
+        <note xml:id="i-RAWKTXY84XCqMPD91fSaH4">
+          nr 77, angående förstärkning av sjätte huvudtitelns anslag till
+          kommittéer och utredningar genom sakkunniga;
+        </note>
+        <note xml:id="i-7DjB7Lh93z9Qtp2Sfr3UM9">
+          nr 81, angående försäljning av nya svenska stenkolsaktiebolaget
+          Spetsbergens egendom å Spetsbergen; samt
+        </note>
+        <note xml:id="i-AVpajHPJ49fXwagjGaDr8N">
+          nr 82, angående ersättning till styckjunkaren J. Ohlsson för
+          visst av honom till kronan inbetalt belopp.
+        </note>
+        <note xml:id="i-36QaynSWHYL21c38NnSH6v">
+          Föredrogs och hänvisades till jordbruksutskottet Kungl. Maj:ts
+          proposition nr 83, angående avyttring av statens järnvägar tillhöriga
+          andelar i samfälligheter till Kingstads m. fl. byars skifteslag
+          i Söderala socken.
+        </note>
+        <note xml:id="i-3mZUr6AZdVHWn6vLFEEatS">
+          Föredrogs och hänvisades till statsutskottet Kungl. Maj:ts proposition
+          nr 84, angående rätt för vattenrättsingenjörerna L. E. Wedberg,
+          8. L. C. Aspegrén och K. J. Elfström att för placering i löneklass
+          få tillgodoräkna viss tjänstgöring.
+        </note>
+        <note xml:id="i-3fbtQP2Lfu4UG454KmTNPe">
+          Vid föredragning av Kungl. Maj:ts denna dag avlämnade propositioner
+          nr 68, 90—96 och 99 blevo desamma på begäran bordlagda.
+        </note>
+        <note xml:id="i-RdXHbZq6LLCRGtTEwe38S7">
+          Avgåvos och bordlades nedannämnda motioner:
+        </note>
+        <note xml:id="i-UgFjPEN47ahVF3PdfHBE1B">
+          nr 292, av herr Bergström, 1 anledning av Kungl. Maj:ts proposition
+          med förslag till lag om offentlig arbetsförmedling m. m.; och
+        </note>
+        <note xml:id="i-NQAFjs9Cq42SSqpzTyxZhd">
+          nr 293, av herr Johansson, Johan Bernhard, m. fl., i anledning
+          av Kungl. Maj:ts proposition med förslag till lag om ändring i
+          lagen den 22 juni 1928 (nr 302) om vissa av landsting eller kommun
+          drivna sjukhus.
+        </note>
+        <note xml:id="i-N9GH8s7Ww8aCKpUqZB6PAh">
+          Anmäldes och bordlades
+        </note>
+        <note xml:id="i-PgyUtTySxdSZY5oupsNtid">
+          statsutskottets utlåtanden:
+        </note>
+        <note xml:id="i-5aU3K6HfLxdVfT2zauSx9A">
+          nr 16, i anledning av väckt motion om sänkning av regeringsmedlemmarnas
+          löner;
+        </note>
+        <note xml:id="i-7aiCFY5wnsyPf7txpQ9Mkw">
+          nr 17, i anledning av Kungl. Maj:ts proposition angående räntefri
+          försträckning åt telegraftjänstemännens skatteinbetalningskassa
+          :i Stockholm: samt
+        </note>
+        <note xml:id="i-4jjZGoYHVUvimvyGdrELJ8">
+          nr 18, angående beredande av ytterligare medel till upprensning
+          av norra inloppet till Fårösund m. m. jämte i ämnet väckta motioner;
+        </note>
+        <note xml:id="i-13hHos9Bq165hPQQybKHUV">
+          bankoutskottets utlåtande nr 4, i anledning av Kungl. Maj:ts
+          proposition med förslag till lag angående solidariskt bankbolags
+          ombildning till bankaktiebolag; ävensom
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1934--fk--7/prot_1934__fk__7-002.jp2/_view"/>
+        <note type="date" xml:id="i-HwDRYJMGSq23xjkACRNdbP">
+          Fredagen den 9 februari. Nr 7. 3
+        </note>
+        <note xml:id="i-M5gcrnVmRqWoSti1SsqE6s">
+          första lagutskottets utlåtanden:
+        </note>
+        <note xml:id="i-B8XFXC6uSspN6HXmt5Vieu">
+          nr 6, i anledning av väckt motion angående lagstiftning om inteckning:
+          i hotelloch restauranginventarier; samt
+        </note>
+        <note xml:id="i-BxWd91A271Vy2RLr7Vv5Jv">
+          nr 7, i anledning av väckt motion angående viss skärpning av
+          det ledamot i aktiebolags styrelse åvilande ansvar.
+        </note>
+        <note xml:id="i-HFgLghaXPaLZyUao7zGERF">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 4.10 e. m.
+        </note>
+        <note xml:id="i-NhQXmJzYsofqqf9QkZGCVy">
+          In fidem G. H. Berggren.
+        </note>
+        <note type="date" xml:id="i-Qskx6ejonGAzDacw3Wyg5f">
+          Fredagen den 9 februari.
+        </note>
+        <note xml:id="i-DTeemwXgwRSjnzs9qFg81B">
+          Kammaren sammanträdde kl. 4 e. m.
+        </note>
+        <note xml:id="i-UGkUv7csX8Kq5MY5j6xTKy">
+          Herr statsrådet Vennerström avlämnade Kungl. Maj:ts propositioner:
+        </note>
+        <note xml:id="i-Do3LNxoss4p1JPBRmNqATn">
+          nr 80, angående turistreklamoch upplysningsverksamhet i utlandet;
+        </note>
+        <note xml:id="i-T21e1F9zwTKCBEL1n3bJQD">
+          nr 85, angående läroverksadjunkten E. B. Wendins tjänstårsberäkning;
+        </note>
+        <note xml:id="i-JNfxMwQWLSM394Tr36uSHT">
+          nr 86, angående gäldande i vissa fall ur kyrkofonden av understöd
+          i anledning av olycksfall i arbete å skogar till sådana ecklesiastika
+          boställen, som avses i 1 8 ecklesiastik boställsordning den 30
+          augusti 1932; samt
+        </note>
+        <note xml:id="i-TtUEPaX9WqpSmdgA3BmySh">
+          nr 105, angående anordnande av vissa utbildningskurser för f.
+          d. fast anställt manskap vid försvarsväsendet,
+        </note>
+        <note xml:id="i-XkctNuDcCo2Sa3QCMHuqu">
+          Föredrogs och hänvisades till behandling av lagutskott Kungl.
+          Maj:ts provosition nr 68, med förslag till lag om ändrad lydelse
+          av 1 kap. 2 $ rätte- :gångsbalken. i :
+        </note>
+        <note xml:id="i-9qMXjfY4oc7LGQR9sacVAw">
+          Föredrogs och hänvisades till bevillningsutskottet Kungl: Maj:ts
+          proposition nr 90, med förslag till vissa tillägg till gällande
+          tulltaxa.
+        </note>
+        <note xml:id="i-TnLwxRhXGHjZPp6t5D5gMo">
+          Föredrogs och hänvisades till bankoutskottet Kungl, Maj:ts proposition
+          nr :91, angående pensionsförbättring åt f. d. styresmannen för
+          Karl Gustafs stads gevärsfaktori, översten i västra arméfördelningens
+          reserv P. J. R. Virgin.
+        </note>
+        <note xml:id="i-AjJFvXbGZNiKQrnKqVWCjP">
+          Föredrogs och hänvisades till jordbruksutskottet Kungl. Maj:ts
+          proposition nr 92, angående försäljning av vissa kronoegendomar
+          och lägenheter från sådana egendomar.
+        </note>
+        <note xml:id="i-CLKUftdgW1gCYCreZRU446">
+          Föredrogs och hänvisades till bankoutskottet Kungl. Maj:ts proposition
+          nr 93, angående ändring i förordningen om jordbrukets kreditkassor,
+          m. m.
+        </note>
+        <note xml:id="i-GQRamzR24Xj2xXKrAxVm7W">
+          Föredrogs och hänvisades till jordbruksutskottet Kungl. Maj:ts
+          proposition nar 94, angående nedsättning av arrendet för arrendelotten
+          Brostugan å kronoparken Klövdala i Kalmar län.
+        </note>
+        <pb facs="https://betalab.kb.se/prot-1934--fk--7/prot_1934__fk__7-003.jp2/_view"/>
+        <note type="date" xml:id="i-3J6y56dddiqB7V1w7yTPKa">
+          4 Nr 7. Fredagen den 9 februari.
+        </note>
+        <note xml:id="i-VkHbnq3Z1du641CtGnni7h">
+          Föredrogs och hänvisades till bankoutskottet Kungl. Maj:ts proposition
+          nr 95, angående pension åt vissa i statens tjänst anställda personer.
+        </note>
+        <note xml:id="i-Rv4oC8c5WtcqfQhqK8zvwc">
+          Föredrogs och hänvisades till jordbruksutskottet Kungl. Maj:ts
+          proposition nr 96, angående anslag till understöd åt kemiska stationer.
+        </note>
+        <note xml:id="i-TaygaxaQc7F7HanaPvQZop">
+          Föredrogs och hänvisades till behandling av lagutskott Kungl.
+          Maj:ts proposition nr 99, med förslag till skeppsklarerarförordning.
+        </note>
+        <note xml:id="i-Ex5rfC25k9HSuG6PVbTfvi">
+          Föredrogs och hänvisades till statsutskottet herr Bergströms
+          motion, nr 292, i anledning av Kungl. Maj:ts proposition med förslag
+          till lag om offentlig arbetsförmedling m. m.
+        </note>
+        <note xml:id="i-KUQkNR3b21jCBejwDWsEs5">
+          Föredrogs och hänvisades till behandling av lagutskott den av
+          herr Johansson, Johan Bernhard, m. fl. väckta motionen, nr 293,
+          i anledning av Kungl. Maj:ts proposition med förslag till lag
+          om ändring i lagen den 22 juni 1928 (nr 302) om vissa av landsting
+          eller kommun drivna sjukhus.
+        </note>
+        <note xml:id="i-SQBRAYeY7RLFna6LFrkubz">
+          Föredrogos, men bordlades ånyo på flera ledamöters begäran statsutskottets
+          utlåtanden nr 16—18, bankoutskottets utlåtande nr 4 samt första
+          lagutskottets utlåtanden nr 6 och 7.
+        </note>
+        <note xml:id="i-McL6piF3ShPU9nfiUge2cC">
+          Ledighet från riksdagsgöromålen beviljades herr Nilsson, Johan,
+          i Malmö för tiden från och med den 10 till och med den 19 i denna
+          månad.
+        </note>
+        <note xml:id="i-PPVRCMkaqqsggj6bU9tJj2">
+          Anmäldes och bordlades
+        </note>
+        <note xml:id="i-5Jpo5QHzfQVmuCfJyBvyKN">
+          första lagutskottets utlåtanden:
+        </note>
+        <note xml:id="i-VFx3U6EVNYCfzqdGJsb8W1">
+          nr 8, i anledning av Kungl. Maj:ts proposition med förslag till
+          lag om ändrad lydelse av 5 och 11 $$ lagen den 30 juni 1916 (nr
+          312) angående ansvarighet för skada i följd av automobiltrafik;
+          och
+        </note>
+        <note xml:id="i-n54BA4hxaQYTK4HTsGo3A">
+          nr 9, i anledning av väckt motion angående lagstiftning till
+          radiolyssnares skyddande mot obehöriga störningar; samt
+        </note>
+        <note xml:id="i-KHZWGQbrYDxcC6vFUJaMk8">
+          andra lagutskottets utlåtanden:
+        </note>
+        <note xml:id="i-DUF3Jx2vm4bWnhmJiFkFUm">
+          nr 3, 1 anledning av väckt motion om utredning och förslag angående
+          en författningsenlig reglering av uppsägning av anställning i
+          enskild tjänst; och
+        </note>
+        <note xml:id="i-8vmarMHEjrkTs7kZBsjzyT">
+          nr 4, i anledning av väckt motion angående viss ändring i lagen
+          om arbetar-
+        </note>
+        <note xml:id="i-J4bADCgRNdkmxLoTU7G6C9">
+          skydd.
+        </note>
+        <note xml:id="i-DLpwSJD5h3pf7wVvNTYaJc">
+          Justerades protokollsutdrag för denna dag, varefter kammarens
+          sammanträde avslutades kl. 4.08 e. m.
+        </note>
+        <note xml:id="i-WjqeLRKejpD9JxM8kcMsfs">
+          In fidem G. H. Berggren.
+        </note>
+        <note xml:id="i-Uytb2SCoUU6ddZ1yKsKpwN">
+          Stockholm 1934. Kungl. Boktryckeriet, P. A. Norstedt &amp; Söner.
+          340585
+        </note>
+      </div>
+    </body>
+  </text>
+</TEI>
