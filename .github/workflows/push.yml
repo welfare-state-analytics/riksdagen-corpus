@@ -8,7 +8,6 @@ jobs:
     strategy:
       matrix:
         python-version: [3.8]
-
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python ${{ matrix.python-version }}
@@ -20,20 +19,15 @@ jobs:
         python -m pip install --upgrade pip
         pip install .
         pip install PyPDF2
-        pip install dateparser
-        pip install nltk
-
     - name: Validate XML files against ParlaClarin schema
       run: |
         python -m unittest test.schemas
 
-  unittest:
-
+  alto-comparison:
     runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: [3.8]
-
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python ${{ matrix.python-version }}
@@ -45,28 +39,20 @@ jobs:
         python -m pip install --upgrade pip
         pip install .
         pip install PyPDF2
-        pip install dateparser
         pip install alto-xml
-        pip install nltk
 
-    - name: Test data format and integrity
+    - name: Make sure the records do not differ too much from the OCR result
       env: # authentication
         KBLAB_USERNAME: ${{ secrets.KBLAB_USERNAME }}
         KBLAB_PASSWORD: ${{ secrets.KBLAB_PASSWORD }}
       run: |
-        python -m unittest test.mp
         python -m unittest test.altocheck
-        python -m unittest test.next_prev
-        python -m unittest test.paragraph_has_id
-        python -m unittest test.chairs
 
-  metadata:
-
+  chairs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: [3.8]
-
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python ${{ matrix.python-version }}
@@ -78,19 +64,93 @@ jobs:
         python -m pip install --upgrade pip
         pip install .
         pip install PyPDF2
-        pip install dateparser
-        pip install alto-xml
-        pip install nltk
+    - name: Test chars and chair-mp mapping metadata
+      run: |
+        python -m unittest test.chairs
 
+  mp:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install .
+        pip install PyPDF2
+    - name: Test speaker data integrity
+      run: |
+        python -m unittest test.mp
+
+  next-prev:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install .
+        pip install PyPDF2
+    - name: Check that next/prev tagging is coherent
+      run: |
+        python -m unittest test.next_prev
+
+  paragraph-ids:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install .
+        pip install PyPDF2
+    - name: Check that all elements with text have IDs
+      run: |
+        python -m unittest test.paragraph_has_id
+
+  metadata:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install .
+        pip install PyPDF2
     - name: Test metadata integrity
       run: |
         echo "Test that there are no duplicates in the DB"
         echo "throw ERROR on inconsistencies on our side"
         echo "WARN on upstream errors"
-
         python -m unittest test.db
 
-  
   notebooks:
     runs-on: ubuntu-latest
     strategy:
@@ -106,7 +166,6 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install .
-
     - name: Test notebooks
       run: |
         pip install pytest nbmake
@@ -127,7 +186,6 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install .
-
     - name: Check that README updating script works
       run: |
         PYTHONPATH="$PYTHONPATH:." python scripts/stats-dashboard/generate-markdown.py -v v1.1.1
