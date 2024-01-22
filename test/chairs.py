@@ -2,7 +2,7 @@
 """
 Test chars and chair-mp mapping metadata
 """
-from pyriksdagen.date_handling import yearize_mp_mandates
+from pyriksdagen.date_handling import yearize_mandates
 import pandas as pd
 import unittest
 import warnings
@@ -297,7 +297,7 @@ class Test(unittest.TestCase):
         chair_mp = chair_mp[chair_mp["swerik_id"].notna()]
         chairs = self.get_chairs()
         chair_mp = pd.merge(chair_mp, chairs, on="chair_id", how="left")
-        mep_by_year = yearize_mp_mandates()
+        mep_by_year = yearize_mandates()
         mep_by_year.rename(columns={"start": "meta_start", "end":"meta_end"}, inplace=True)
         mep_by_year = mep_by_year[mep_by_year["meta_start"].notna()]
         chair_mp = pd.merge(chair_mp, mep_by_year, on=["swerik_id", "parliament_year"], how="left")
@@ -387,7 +387,7 @@ class Test(unittest.TestCase):
         chair_mp = chair_mp[chair_mp["swerik_id"].notna()]
         chairs = self.get_chairs()
         chair_mp = pd.merge(chair_mp, chairs, on="chair_id", how="left")
-        mep_by_year = yearize_mp_mandates()
+        mep_by_year = yearize_mandates()
         mep_by_year.rename(columns={"start": "meta_start", "end":"meta_end"}, inplace=True)
         mep_by_year = mep_by_year[mep_by_year["meta_start"].notna()]
         chair_mp = pd.merge(chair_mp, mep_by_year, on=["swerik_id", "parliament_year"], how="left")
