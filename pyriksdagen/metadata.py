@@ -49,16 +49,24 @@ def impute_minister_date(db, gov_db):
 		return minister
 
 	# Impute missing minister dates using government dates
-	db.loc[db['source'] == 'minister'] =\
-	db.loc[db['source'] == 'minister'].apply(partial(_impute_minister_date, gov_db=gov_db), axis=1)
+	if 'source' in db.columns:
+		db.loc[db['source'] == 'minister'] =\
+		db.loc[db['source'] == 'minister'].apply(partial(_impute_minister_date, gov_db=gov_db), axis=1)
+	else:
+		db = db.apply(partial(_impute_minister_date, gov_db=gov_db), axis=1)
 	return db
 
 
 def impute_speaker_date(db):
-	idx = 	(db['source'] == 'speaker') &\
-			(db['end'].isna()) &\
-			(db['role'].str.contains('kammare') == False)
-	db.loc[idx, 'end'] = db.loc[idx, 'start'] + datetime.timedelta(days = 365*4)
+	if "source" in db.columns:
+		idx = 	(db['source'] == 'speaker') &\
+				(db['end'].isna()) &\
+				(db['role'].str.contains('kammare') == False)
+		db.loc[idx, 'end'] = db.loc[idx, 'start'] + datetime.timedelta(days = 365*4)
+	else:
+		idx = 	(db['end'].isna()) &\
+				(db['role'].str.contains('kammare') == False)
+		db.loc[idx, 'end'] = db.loc[idx, 'start'] + datetime.timedelta(days = 365*4)
 	return db
 
 
