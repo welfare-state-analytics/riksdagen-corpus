@@ -13,23 +13,38 @@ import sys
 
 
 
-def _get_parliament_years(start, end, start_year, end_year, start_p, end_p, year_list, riksmote):
+def _get_parliament_years(start, end, start_year, end_year, start_p, end_p, year_list, riksmote, debug):
     """
     get a list of parliament years in 4 or 6 digit format
     """
     parliament_years = []
+    # same start/end year or end year is none
     if start_year == end_year or end_year == None:
-        if start_year in year_list:
-            parliament_years.append(int(start_year))
-        elif str(start_year) == "1999":
+        if str(start_year) == "1999":
+            if start <= "1999-09-15":
+                parliament_years.append(19981999)
+            else:
+                parliament_years.append(19992000)
+            if end:
+                if end_year > "1999":
+                    parliament_years.append(19992000)
+                else:
+                    if end_p == "day":
+                        if end >= "1999-09-15":
+                            parliament_years.append(19992000)
             parliament_years.append(19992000)
         elif str(start_year) == "1975":
             if end_year:
-                if end_p == "day":
-                    if end > "1975-10-15":
-                        parliament_years.append(197576)
-                    else:
-                        parliament_years.append(1975)
+                if end_year > "1975":
+                    parliament_years.append(1975)
+                    parliament_years.append(197576)
+                else:
+                    if end_p == "day":
+                        if end > "1975-10-15":
+                            parliament_years.append(1975)
+                            parliament_years.append(197576)
+                        else:
+                            parliament_years.append(1975)
             else:
                 if start_p == "day":
                     if start >= "1975-10-15":
@@ -38,54 +53,66 @@ def _get_parliament_years(start, end, start_year, end_year, start_p, end_p, year
                         parliament_years.append(1975)
                 else:
                     parliament_years.append(1975)
-        else:
 
-            try:
-                df = riksmote.loc[riksmote["parliament_year"] == int(start_year + f"{int(str(start_year)[2:])+1:02}")]
-                #print(df)
-                assert df.empty == False
-            except:
-                print("start date except")
-                print(start_year + f"{int(str(start_year)[2:])+1:02}" + " not in parliament_years.")
+        # if an year is an acceptable parliament year
+        else:
+            if start_year in year_list:
+                parliament_years.append(int(start_year))
+
+
+            # else
             else:
-                if start_p == "day":
-                    df_starts =  df["start"].unique()
-                    if start >= df_starts[0]:
+                try:
+                    df = riksmote.loc[riksmote["parliament_year"] == int(start_year + f"{int(str(start_year)[2:])+1:02}")]
+                    #print(df)
+                    assert df.empty == False
+                except:
+                    print("start date except")
+                    print(start_year + f"{int(str(start_year)[2:])+1:02}" + " not in parliament_years.")
+                else:
+                    if start_p == "day":
+                        df_starts =  df["start"].unique()
+                        if start >= df_starts[0]:
+                            parliament_years.append(int(start_year + f"{int(str(start_year)[2:])+1:02}"))
+                            return parliament_years
+                    else:
                         parliament_years.append(int(start_year + f"{int(str(start_year)[2:])+1:02}"))
                         return parliament_years
-                else:
-                    parliament_years.append(int(start_year + f"{int(str(start_year)[2:])+1:02}"))
-                    return parliament_years
-            try:
-                x = f"{int(str(start_year)[2:])-1:02}"
-                if x == "-1":
-                    xx = 19992000
-                else:
-                    xx = int(str(start_year)[:2] + x + f"{int(str(start_year)[2:]):02}")
+                try:
+                    x = f"{int(str(start_year)[2:])-1:02}"
+                    if x == "-1":
+                        xx = 19992000
+                    else:
+                        xx = int(str(start_year)[:2] + x + f"{int(str(start_year)[2:]):02}")
 
-                df = riksmote.loc[riksmote["parliament_year"] == xx]
-                assert df.empty == False
-            except:
-                print("end date except")
-                print(int(str(start_year)[:2] + x + f"{int(str(start_year)[2:]):02}"))
-                print(start, end, start_year, end_year)
-            else:
-                if start_p == "day":
-                    df_starts =  df["start"].unique()
-                    if start >= df_starts[0]:
-                        parliament_years.append(xx)
+                    df = riksmote.loc[riksmote["parliament_year"] == xx]
+                    assert df.empty == False
+                except:
+                    print("end date except")
+                    print(int(str(start_year)[:2] + x + f"{int(str(start_year)[2:]):02}"))
+                    print(start, end, start_year, end_year)
                 else:
-                    parliament_years.append(xx)
+                    if start_p == "day":
+                        df_starts =  df["start"].unique()
+                        if start >= df_starts[0]:
+                            parliament_years.append(xx)
+                    else:
+                        parliament_years.append(xx)
     else:
+        # if start year is one year before end year
         if str(int(start_year)+1) == str(end_year):
-            if str(start_year) + str(end_year)[2:] in year_list:
-                parliament_years.append(str(start_year) + str(end_year)[2:])
-            elif str(start_year) == "1999":
+            if str(start_year) == "1999":
                 parliament_years.append(19992000)
             elif str(start_year) == "1975":
                 if end_year:
-                    if end_p == "day":
+                    if str(end_year) > "1975":
+                        if debug:
+                            print("end is > 1975")
+                        parliament_years.append(1975)
+                        parliament_years.append(197576)
+                    elif end_p == "day":
                         if end > "1975-10-15":
+                            parliament_years.append(1975)
                             parliament_years.append(197576)
                         else:
                             parliament_years.append(1975)
@@ -97,98 +124,143 @@ def _get_parliament_years(start, end, start_year, end_year, start_p, end_p, year
                             parliament_years.append(1975)
                     else:
                         parliament_years.append(1975)
+            elif str(start_year) + str(end_year)[2:] in year_list:
+                try:
+                    df = riksmote.loc[riksmote["parliament_year"] == int(str(start_year) + str(end_year)[2:])]
+                    assert df.empty == False
+                except:
+                    print("wan sani de fokopu, yere -- [-1]")
+                    print(int(str(start_year) + str(end_year)[2:]))
+                    print(df)
+                else:
+                    df_ends = df["end"].unique()
+                    df_starts = df["start"].unique()
+                    if start < df_starts[0]:
+                        if str(int(start_year)-1) + str(start_year)[2:] in year_list:
+                            parliament_years.append(int(str(int(start_year)-1) + str(start_year)[2:]))
+                        elif str(start_year) in year_list:
+                            parliament_years.appenr(start_year)
+                        else:
+                            if start_year == "2000":
+                                parliament_years.append(19992000)
+                            else:
+                                parliament_years.append(int(start_year)-1)
+                    if end > df_ends[0]:
+                        if str(int(end_year) + 1) + f"{int(str(end_year)[2:]) + 2:02}" in year_list:
+                            parliament_years.append(int(str(int(end_year) + 1) + f"{int(str(end_year)[2:]) + 2:02}"))
+                        elif end_year == "1999":
+                            parliament_years.append(200001)
+                        elif end_year == "1998":
+                            parliament_years.append(19992000)
+                        else:
+                            print(int(str(int(end_year) + 1) + f"{int(str(end_year)[2:]) + 2:02}"), "isn't in year list, but maybe it should be")
+                parliament_years.append(int(str(start_year) + str(end_year)[2:]))
             else:
                 parliament_years.append(int(start_year))
                 parliament_years.append(int(end_year))
+
+        # if there's range
         else:
             y_range = list(range(int(start_year[:4]), int(end_year[:4])+1))
+            if debug:
+                print(y_range)
             if y_range[0] in year_list and y_range[-1] in year_list:
                 [parliament_years.append(int(_)) for _ in y_range]
             else:
                 for ix, y in enumerate(y_range):
+                    #to_append = []
                     if y > 2023:
                         continue
-                    if str(y) in year_list:
+                    if str(y) in year_list and str(y) != "1975":
                         parliament_years.append(int(y))
                     else:
                         if str(y) == "1999":
-                            to_append = "19992000"
+                            to_append = ["19992000"]
                             y = 19992000
-                        elif str(start_year) == "1975":
-                            if end_year:
-                                if end_p == "day":
-                                    if end > "1975-10-15":
-                                        y, to_append = 197576, 197576
-                                    else:
-                                        y, to_append = 1975, 1975
-                                else:
-                                    if end_year > "1975":
-                                        y, to_append = 197576, 197576
-                                    else:
-                                        y, to_append = 1975, 1975
-                            else:
-                                if start_p == "day":
-                                    if start >= "1975-10-15":
-                                        y, to_append = 197576, 197576
-                                    else:
-                                        y, to_append = 1975, 1975
-                                else:
-                                    y, to_append = 1975, 1975
-                        else:
-                            to_append = int(str(y) + f"{int(str(y)[2:])+1:02}")
-                        if ix == 0:
-                            try:
-                                df = riksmote.loc[riksmote["parliament_year"] == int(to_append)]
-                                assert df.empty == False
-                            except:
-                                print("wan sani de fokopu, yere -- [0]")
-                                print(to_append)
-                                print(df)
-                                continue
-                            else:
-                                if start_p == "day":
-                                    df_ends =  df["end"].unique()
-                                    if start >= df_ends[0]:
-
-                                        parliament_years.append(to_append)
-                                    else:
-                                        x = f"{int(str(start_year)[2:])-1:02}"
-                                        if x == "-1":
-                                            xx = 19992000
+                        elif str(y) == "1975":
+                            if ix == 0:
+                                if end_year and end_year > "1975":
+                                    y, to_append = 197576, [1975, 197576]
+                                elif end_year and str(end_year) == "1975":
+                                    if start_p == "day":
+                                        if start > "1975-10-15":
+                                            y, to_append = 197576, [197576]
                                         else:
-                                            xx = int(str(start_year)[:2] + x + f"{int(str(start_year)[2:]):02}")
-                                        #print(df_ends, x, xx, to_append)
-                                        parliament_years.append(xx)
+                                            y, to_append = 1975, [1975, 197576]
                                 else:
-                                    parliament_years.append(to_append)
-
-                        elif ix == len(y_range)-1:
-                            try:
-                                df = riksmote.loc[riksmote["parliament_year"] == int(to_append)]
-                                assert df.empty == False
-                            except:
-                                print("wan sani de fokopu, yere -- [-1]")
-                                print(to_append)
-                                print(df)
-                                continue
-                            else:
+                                    y, to_append = 1975, [1975]
+                            elif ix == len(y_range)-1:
                                 if end_p == "day":
-                                    df_starts =  df["start"].unique()
-                                    if end <= df_starts[0]:
-                                        parliament_years.append(to_append)
-
+                                    if end >= "1975-10-15":
+                                        y, to_append = 197576, [1975, 197576]
                                     else:
-                                        x = f"{int(str(end_year)[2:])-1:02}"
-                                        if x == "-1":
-                                            xx = 19992000
-                                        else:
-                                            xx = int(str(end_year)[:2] + x + f"{int(str(end_year)[2:]):02}")
-                                        parliament_years.append(xx)
+                                        y, to_append = 1975, [1975]
                                 else:
-                                    parliament_years.append(to_append)
+                                    y, to_append = 1975, [1975]
+                            else:
+                                y, to_append = 197576, [1975, 197576]
                         else:
-                            parliament_years.append(to_append)
-    return parliament_years
+                            to_append = [int(str(y) + f"{int(str(y)[2:])+1:02}")]
+
+                        if debug:
+                            print(ix, y, to_append)
+                        for a in to_append:
+                            if ix == 0:
+                                try:
+                                    df = riksmote.loc[riksmote["parliament_year"] == int(a)]
+                                    assert df.empty == False
+                                except:
+                                    print("wan sani de fokopu, yere -- [0]")
+                                    print(a)
+                                    print(df)
+                                    continue
+                                else:
+                                    if start_p == "day":
+                                        df_ends =  df["end"].unique()
+                                        if debug:
+                                            print(start, df_ends, start >= df_ends[0])
+                                        if start <= df_ends[0]:
+                                            parliament_years.append(a)
+                                        else:
+                                            x = f"{int(str(start_year)[2:])-1:02}"
+                                            if x == "-1":
+                                                xx = 19992000
+                                            else:
+                                                xx = int(str(start_year)[:2] + x + f"{int(str(start_year)[2:]):02}")
+
+                                            parliament_years.append(xx)
+                                    else:
+                                        parliament_years.append(a)
+
+                            elif ix == len(y_range)-1:
+                                try:
+                                    df = riksmote.loc[riksmote["parliament_year"] == int(a)]
+                                    assert df.empty == False
+                                except:
+                                    print("wan sani de fokopu, yere -- [-1]")
+                                    print(a)
+                                    print(df)
+                                    continue
+                                else:
+                                    if end_p == "day":
+                                        df_starts =  df["start"].unique()
+                                        if debug:
+                                            print(end, df_starts, end <= df_starts[0])
+                                        if end <= df_starts[0]:
+                                            parliament_years.append(a)
+
+                                        else:
+                                            x = f"{int(str(end_year)[2:])-1:02}"
+                                            if x == "-1":
+                                                xx = 19992000
+                                            else:
+                                                xx = int(str(end_year)[:2] + x + f"{int(str(end_year)[2:]):02}")
+                                            parliament_years.append(xx)
+                                    else:
+                                        parliament_years.append(a)
+                            else:
+                                parliament_years.append(a)
+    return list(set(parliament_years))
 
 
 
@@ -207,12 +279,12 @@ def yearize_date(date, riksmote):
         sys.exit()
     year = date[:4]
 
-    return _get_parliament_years(date, None, year, None, date_p, None, parliament_years, riksmote)[0]
+    return _get_parliament_years(date, None, year, None, date_p, None, parliament_years, riksmote, None)[0]
 
 
 
 
-def yearize_mandates():
+def yearize_mandates(debug_id=None):
     """
     return a dataframe of mandate periods, lengthened for each parliament year
 
@@ -243,6 +315,10 @@ def yearize_mandates():
         if k == "speaker":
             df = impute_speaker_date(impute_date(df))
         for i, r in tqdm(df.iterrows(), total=len(df)):
+
+            if debug_id and r['swerik_id'] == debug_id:
+                print(r)
+
             start = r["start"]
             end = r["end"]
             start_p = None
@@ -303,14 +379,19 @@ def yearize_mandates():
                         print(r, len(end))
 
             if start_y and 1866 < int(start_y[:4]) < 2025:
-                pys = _get_parliament_years(start, end, start_y, end_y, start_p, end_p, parliament_years, riksmote)
+                if debug_id and debug_id == r["swerik_id"]:
+                    pys = _get_parliament_years(start, end, start_y, end_y, start_p, end_p, parliament_years, riksmote, True)
+                else:
+                    pys = _get_parliament_years(start, end, start_y, end_y, start_p, end_p, parliament_years, riksmote, None)
+                if debug_id and r['swerik_id'] == debug_id:
+                    print(start_y, end_y, pys, start_p, end_p)
                 for ix, py in enumerate(pys):
                     if int(py) < 202324:
                         try:
                             py_start = riksmote.loc[riksmote["parliament_year"] == int(py), "start"].unique()[0]
                         except:
                             print("start")
-                            print(py, pys, start, end, start_y, end_y)
+                            print(py, type(py), pys, start, end, start_y, end_y)
                         try:
                             py_end = riksmote.loc[riksmote["parliament_year"] == int(py), "end"].unique()[-1]
                         except:
@@ -332,27 +413,16 @@ def yearize_mandates():
                             else:
                                 rows.append([r["swerik_id"], py_start, py_end, r["role"], int(py)])
 
-                    #if r['swerik_id'] == "i-4CwyNH4xXJhZj5wdBAzmSY":
-                    #    print(r, rows[-1])
             else:
                 pass
-                #print(r)
-                #print(start, end, start_y, start_p, end_y, end_p)
-                #if start_y:
-                #    print(type(start), type(end), int(start_y[:4]),1866 < int(start_y[:4]) < 2023)
-                #else:
-                #    print(type(start), type(end))
-                #print("\n")
-    #print(slen)
     df = pd.DataFrame(rows, columns=cols)
-    #print(len(df))
     df.sort_values(by="swerik_id", inplace=True)
     return df
 
 
 
 def test_yearize_mandates():
-    m = yearize_mandates()
+    m = yearize_mandates(debug_id="i-XvpBFhfR9SDB1i9KLCmqX2")
     #print(m.head(50))
     #print(m.sample(50).head(50))
     #print(sorted(m["parliament_year"].unique()))
