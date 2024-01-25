@@ -2,6 +2,7 @@
 Test that known MP start/end dates that have been manually verified do not change in the metadata.
 """
 from datetime import datetime
+from .pytestconfig import fetch_config
 import json
 import pandas as pd
 import unittest
@@ -29,20 +30,11 @@ class Test(unittest.TestCase):
         return pd.read_csv("corpus/metadata/member_of_parliament.csv")
 
 
-    def fetch_config(self):
-        try:
-            with open("test/_test_config/test.json", 'r') as j:
-                d = json.load(j)
-            return d['mandates']
-        except:
-            return None
-
-
     def test_manually_checked_mandates(self):
         mep = self.fetch_mep_meta()
         df = self.fetch_known_mandate_dates()
-        config = self.fetch_config()
         now = datetime.now().strftime("%Y%m%d-%H%M")
+        config = fetch_config("mandates")
         counter = 0
         rows = []
         cols = ["swerik_id", "date", "type"]
@@ -53,7 +45,6 @@ class Test(unittest.TestCase):
                 rows.append([r["swerik_id"], r["date"], r["type"]])
                 warnings.warn(f"({r['type']}): {r['date']}, {r['swerik_id']}" , DateErrorWarning)
         if config:
-            print(config)
             if config['write_errors'] and len(rows) > 0:
                 out = pd.DataFrame(rows, columns=cols)
                 out.to_csv(f"{config['write_path']}mandates-test_{now}.csv", index=False)
