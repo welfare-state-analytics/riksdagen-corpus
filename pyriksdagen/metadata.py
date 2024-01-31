@@ -40,6 +40,59 @@ def impute_member_date(db, gov_db, from_gov='Regeringen Löfven I'):
 	return db
 
 
+def impute_member_dates(db):
+	def _impute_start(date, **kwargs):
+		riksmote = kwargs['riksmote']
+		if len(date) == 10:
+			return date
+		elif len(date) == 7:
+			s = sorted(list(riksmote.loc[riksmote['start'].str.startswith(date, na=False), 'start']))
+			if len(s) > 0:
+				return s[0]
+			else:
+				return date + "-01"
+		else:
+			s = sorted(list(riksmote.loc[riksmote['start'].str.startswith(date, na=False), 'start']))
+			if len(s) > 0:
+				return s[0]
+			else:
+				print(f"Problem with start date: {date} not in riksmote")
+				return date + '-01-01'
+
+	def _impute_end(date, **kwargs):
+		riksmote = kwargs['riksmote']
+		if len(date) == 10:
+			return date
+		elif len(date) == 7:
+			s = sorted(list(riksmote.loc[riksmote['end'].str.startswith(date, na=False), 'end']), reverse=True)
+			if len(s) > 0:
+				return s[0]
+			else:
+				last_day = calendar.monthrange(int(date[0]), int(date[1]))[1]
+				return date + f'-{last_day}'
+		else:
+			s = sorted(list(riksmote.loc[riksmote['end'].str.startswith(date, na=False), 'end']), reverse=True)
+			if len(s) > 0:
+				return s[0]
+			else:
+				print(f"Problem with end date: {date} not in riksmote")
+				return date + '-12-31'
+
+	riksmote = pd.read_csv("corpus/metadata/riksdag_start-end.csv")
+	riksmote[['start', 'end']] = riksmote[['start', 'end']].astype(str)
+
+	idx = (db['source'] == 'member_of_parliament') &\
+			(pd.notnull(db['start'])) & (db['start'] != 'nan')
+	db.loc[idx, 'start'] = db.loc[idx, 'start'].apply(_impute_start, riksmote=riksmote)
+
+	idx = (db['source'] == 'member_of_parliament') &\
+			(pd.notnull(db['start'])) &\
+			(pd.notnull(db['end']))  & (db['end'] != 'nan')
+	db.loc[idx, 'end'] = db.loc[idx, 'end'].apply(_impute_end, riksmote=riksmote)
+	return db
+
+
+
 def impute_minister_date(db, gov_db):
 	def _impute_minister_date(minister, gov_db):
 		if pd.isna(minister['start']):
@@ -72,26 +125,32 @@ def impute_speaker_date(db):
 
 def impute_date(db):
 	db[["start", "end"]] = db[["start", "end"]].astype(str)
-	db['start'] = db['start'].apply(increase_date_precision, start=True)
-	db['end'] = db['end'].apply(increase_date_precision, start=False)
-	db[["start", "end"]] = db[["start", "end"]].apply(pd.to_datetime, format='%Y-%m-%d')
-	
-	if 'source' not in db.columns:
-		return db
+	if 'source' in db.columns:
+		sources = set(db['source'])
+		if 'member_of_parliament' in sources:
+			#db = impute_member_date(db, gov_db)
+			db = impute_member_dates(db)
 
-	# Impute current governments end date
-	gov_db = pd.read_csv('corpus/metadata/government.csv')
-	gov_db[["start", "end"]] = gov_db[["start", "end"]].apply(pd.to_datetime, format='%Y-%m-%d')
-	idx = gov_db['start'].idxmax()
-	gov_db.loc[idx, 'end'] = gov_db.loc[idx, 'start'] + datetime.timedelta(days = 365*4)
+		db['start'] = db['start'].apply(increase_date_precision, start=True)
+		db['end'] = db['end'].apply(increase_date_precision, start=False)
+		db[["start", "end"]] = db[["start", "end"]].apply(pd.to_datetime, format='%Y-%m-%d')
+		# Impute current governments end date
+		gov_db = pd.read_csv('corpus/metadata/government.csv')
+		gov_db[["start", "end"]] = gov_db[["start", "end"]].apply(pd.to_datetime, format='%Y-%m-%d')
+		idx = gov_db['start'].idxmax()
+		gov_db.loc[idx, 'end'] = gov_db.loc[idx, 'start'] + datetime.timedelta(days = 365*4)
 
-	sources = set(db['source'])
-	if 'member_of_parliament' in sources:
-		db = impute_member_date(db, gov_db)
-	if 'minister' in sources:
-		db = impute_minister_date(db, gov_db)
-	if 'speaker' in sources:
-		db = impute_speaker_date(db)
+		if 'member_of_parliament' in sources:
+			db = impute_member_date(db, gov_db)
+		if 'minister' in sources:
+			db = impute_minister_date(db, gov_db)
+		if 'speaker' in sources:
+			db = impute_speaker_date(db)
+
+	else:
+		db['start'] = db['start'].apply(increase_date_precision, start=True)
+		db['end'] = db['end'].apply(increase_date_precision, start=False)
+		db[["start", "end"]] = db[["start", "end"]].apply(pd.to_datetime, format='%Y-%m-%d')
 	return db
 
 
