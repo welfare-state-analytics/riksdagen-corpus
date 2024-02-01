@@ -53,7 +53,10 @@ def parse_elem(elem, lines):
     if text is None:
         text = ""
 
-    text = text.strip()[:15]
+    text = text.strip()
+    text = " ".join(text.split())
+
+    text = text[:50]
 
     linenumber = None
     for i, l in enumerate(lines):
@@ -136,16 +139,18 @@ if __name__ == "__main__":
     parser.add_argument('-p', '--pages_per_decade', type=int, default=30, help="How many pages per decade? 30")
     parser.add_argument("-s", "--start", type=int, default=1920, help="Start year")
     parser.add_argument("-e", "--end", type=int, default=2022, help="End year")
+    parser.add_argument("--corpus_path", type=str, default="corpus/protocols", help="Path to the records")
+    parser.add_argument("--output_per_decade", type=bool, default=False, help="Save output to separate files by decade")
     parser.add_argument("--flatten", type=bool, default=False, help="Flatten output to only contain pages instead of elements")
     args = parser.parse_args()
 
     digest = hashlib.md5(args.seed.encode("utf-8")).digest()
     digest = int.from_bytes(digest, "big") % (2**32)
 
-    path = 'corpus/protocols'
-    protocol_df = get_page_counts()
+    protocol_df = get_page_counts(corpus_path=args.corpus_path)
     print(protocol_df)
 
+    dfs = []
     for decade in range(args.start // 10 * 10, args.end, 10):
         print("Decade:", decade)
         sample = sample_page_counts(protocol_df, decade, decade + 9, n=args.pages_per_decade, seed=digest)
@@ -167,9 +172,15 @@ if __name__ == "__main__":
         if args.flatten:
             sample = flatten(sample)
 
-        sample.to_csv(f"input/quality-control/sample_{decade}.csv", index=False)
-
+        dfs.append(sample)
+        if args.output_per_decade:
+            sample.to_csv(f"input/quality-control/sample_{decade}.csv", index=False)
         protocols_unique = list(sample.protocol_id.unique())
         with open(f"input/quality-control/sample_{decade}.txt", "w+") as outf:
             for up in protocols_unique:
-                outf.write(f"corpus/protocols/{up.split('-')[1]}/{up}.xml\n")
+                outf.write(f"{args.corpus_path}/{up.split('-')[1]}/{up}.xml\n")
+
+    df = pd.concat(dfs)
+    print(df)
+    if not args.output_per_decade:
+        df.to_csv(f"sample-p-{args.pages_per_decade}-seed-{args.seed}.csv", index=False, sep="\t")
