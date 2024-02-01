@@ -100,6 +100,7 @@ if __name__ == "__main__":
     argparser.add_argument("--start", type=int, default=1867, help="Start year")
     argparser.add_argument("--end", type=int, default=2029, help="End year")
     argparser.add_argument("--paragraph_type", type=str, default=None, help="Type of paragraphs to sample [None, 'intro']")
+    argparser.add_argument("--outfile", type=str, default="prot-segment-classification.csv", help="Where to save the file")
     args = argparser.parse_args()
 
     path = 'corpus/protocols'
@@ -142,7 +143,7 @@ if __name__ == "__main__":
         cols = ["protocol_id", "elem_id", "speaker_name", "speaker_i_ort", "speaker_party", "speaker_born", "speaker_wiki_id", "comments", "text", "link"]
         df = df[cols]
         
-    df.to_csv(f"input/gold-standard/prot-segment-classification.csv", index=False)
+    df.to_csv(args.outfile, index=False)
 
 
 
