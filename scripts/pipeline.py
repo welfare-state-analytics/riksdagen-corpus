@@ -17,13 +17,19 @@ from pathlib import Path
 import progressbar
 
 def main(args):
-    package_ids = ["prot-198990--7"]
+    package_ids = args.protocol_ids
     archive = LazyArchive()
     for package_id in progressbar.progressbar(list(package_ids)):
         data = infer_metadata(package_id)
         print("metadata", data)
+        data["authority"] = args.authority
         data["session"] = data["sitting"]
         data["protocol_id"] = data["protocol"]
+        data["source_uri"] = f"https://betalab.kb.se/{package_id}/_view"
+
+        data["licence"] = "Licence: Attribution 4.0 International (CC BY 4.0)"
+        data["licence_url"] = "https://creativecommons.org/licenses/by/4.0/"
+
         paragraphs = dl_kb_blocks(package_id, archive)
         print()
         print(paragraphs[0])
@@ -37,6 +43,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--start", type=int, default=1990)
     parser.add_argument("--end", type=int, default=2022)
-    parser.add_argument("--edition", type=str, default="0.4.2")
+    parser.add_argument("--authority", type=str, default="SWERIK Project, 2023-2027")
+    parser.add_argument("--edition", type=str, required=True)
+    parser.add_argument("--protocol_ids", type=str, nargs="+", default=["prot-198990--7"])
     args = parser.parse_args()
     main(args)

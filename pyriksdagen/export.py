@@ -5,8 +5,9 @@ import pandas as pd
 import progressbar, copy
 from lxml import etree
 from pyparlaclarin.create import pc_header, create_parlaclarin
+from pyparlaclarin.refine import format_texts
 
-from .utils import infer_metadata, get_formatted_uuid, XML_NS
+from .utils import infer_metadata, get_formatted_uuid, XML_NS, TEI_NS
 from .download import get_blocks
 from .db import year_iterator
 
@@ -101,10 +102,12 @@ def dict_to_tei(data):
     """
     metadata = copy.deepcopy(data)
 
-    tei = etree.Element("TEI")
+    nsmap = {None: TEI_NS}
+    nsmap = {key: value.replace("{", "").replace("}", "") for key,value in nsmap.items()}
+    tei = etree.Element("TEI", nsmap=nsmap)
     protocol_id = metadata["protocol_id"]
     metadata["document_title"] = (
-        protocol_id.replace("_", " ").split("-")[0].replace("prot", "Protokoll")
+        f"Swedish parliamentary record {metadata['sitting']}, number {metadata['number']}"
     )
     documentHeader = pc_header(metadata)
     tei.append(documentHeader)
@@ -124,9 +127,20 @@ def dict_to_tei(data):
     body = etree.SubElement(text, "body")
     body_div = etree.SubElement(body, "div")
 
+    element_seed = ""
     for paragraph in data["paragraphs"]:
-        note = etree.SubElement(body_div, "note")
-        note.text = paragraph
+        if type(paragraph) == int:
+            element_seed = f"{protocol_id}\n{paragraph}\n"
+            pb = etree.SubElement(body_div, "pb")
+            sitting, number = metadata["sitting"], metadata["number"]
+            paragraph = f"{paragraph:03d}"
+            link = f"https://betalab.kb.se/prot-{sitting}--{number}/prot_{sitting}__{number}-{paragraph}.jp2/_view"
+            pb.attrib["facs"] = link
+        else:
+            note = etree.SubElement(body_div, "note")
+            note.text = paragraph
+            element_seed += paragraph
+            note.attrib[f"{XML_NS}id"] = get_formatted_uuid(element_seed)
 
     return tei
 
@@ -231,23 +245,39 @@ def dict_to_parlaclarin(data):
     default_metadata = dict(
         document_title=f"Riksdagens protocols {session}",
         authority="National Library of Sweden and the WESTAC project",
-        correction="Some data curation was done. It is documented in input/curation/instances",
+        correction="Some programmatic corrections have been made to counter errors stemming from the OCR process.",
         edition="0.4.2",
     )
     for key in default_metadata:
         if key not in data:
             data[key] = default_metadata[key]
 
-    protocol_id = data["protocol_id"]
+    protocol_id = data["protocol_id"].replace("_", "-")
+    number = str(data["number"])
+    protocol_id = protocol_id[:-len(number)]
+
+    number = f"{data['number']:03d}"
+    protocol_id += number
+    print("Formatted protocol ID", protocol_id)
     yearstr = protocol_id[5:]
     yearstr = yearstr.split("-")[0]
     parlaclarin_path = f"corpus/protocols/{yearstr}/{protocol_id}.xml"
 
     tei = dict_to_tei(data)
-    parla_clarin_str = create_parlaclarin(tei, data)
-    f = open(parlaclarin_path, "w")
-    f.write(parla_clarin_str)
-    f.close()
+    with open(parlaclarin_path, "wb") as f:
+        b = etree.tostring(
+            tei, pretty_print=True, encoding="utf-8", xml_declaration=True
+        )
+        f.write(b)
+    parser = etree.XMLParser(remove_blank_text=True)
+    tei = etree.parse(parlaclarin_path, parser).getroot()
+    tei = format_texts(tei, padding=10)
+    with open(parlaclarin_path, "wb") as f:
+        b = etree.tostring(
+            tei, pretty_print=True, encoding="utf-8", xml_declaration=True
+        )
+        f.write(b)
+
 
 def zero_pad_prot_nr(protocol_id):
     constituents = protocol_id.split('-')
