@@ -143,7 +143,7 @@ def count_pages(start, end):
     Generate a dataframe of pages between provided start and end years. Fetches information from KB's API.
     """
     years = range(start, end)
-    archive = login_to_archive()
+    archive = LazyArchive()
     rows = []
 
     for year in progressbar.progressbar(years):
