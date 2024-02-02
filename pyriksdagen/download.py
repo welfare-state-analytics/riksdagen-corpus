@@ -137,50 +137,6 @@ def dl_kb_blocks(package_id, archive):
     return paragraphs
 
 
-def get_blocks(protocol_id, archive, load=True, save=True):
-    """
-    Get content and text blocks from an OCR output XML file. Concatenate words into sentences.
-
-    Args:
-        protocol_id: ID of the protocol
-        archive: KBlab archive
-        load: Load the file from disk if available
-        save: Save the downloaded file to disk
-
-    Returns an lxml elem tree with the structure page > contentBlock > textBlock.
-    """
-    folder = "input/raw/" + protocol_id + "/"
-    fname = "original.xml"
-    root = None
-    overwrite = True
-    if load or save:
-        if not os.path.exists(folder):
-            os.mkdir(folder)
-
-    # Attempt to load from disk
-    if load:
-        fnames = os.listdir(folder)
-        if fname in fnames:
-            s = open(folder + fname).read()
-            overwrite = False
-            root = etree.fromstring(s.encode("utf-8"))
-
-    # Load from server if local copy is not available
-    if root is None:
-        root = dl_kb_blocks(protocol_id, archive)
-
-    # Save in case a new version was loaded from server
-    if save and overwrite:
-        fname = "original.xml"
-        sb = etree.tostring(
-            root, pretty_print=True, encoding="utf-8", xml_declaration=True
-        )
-        f = open(folder + fname, "wb")
-        f.write(sb)
-        f.close()
-
-    return root
-
 
 def count_pages(start, end):
     """
