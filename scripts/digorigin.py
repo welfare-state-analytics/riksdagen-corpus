@@ -39,7 +39,6 @@ def main(args):
             (Path(args.corpus_location) / f"{metadata['sitting']}").mkdir(parents=True, exist_ok=True)
             # Create parlaclarin and write to disk
             dict_to_parlaclarin(data)
-            break
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
