@@ -47,7 +47,7 @@ def dict_to_tei(data):
     body = etree.SubElement(text, "body")
     body_div = etree.SubElement(body, "div")
 
-    element_seed = ""
+    element_seed = f"{protocol_id}\nNA\n"
     for paragraph in data["paragraphs"]:
         if type(paragraph) == int:
             element_seed = f"{protocol_id}\n{paragraph}\n"
