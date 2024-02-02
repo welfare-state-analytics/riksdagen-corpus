@@ -6,6 +6,7 @@ import progressbar
 from lxml import etree
 from .utils import clean_html
 import warnings
+import alto
 
 class LazyArchive:
     """
@@ -106,55 +107,34 @@ def dl_kb_blocks(package_id, archive):
     """
     Download protocol from betalab, convert it to the simple XML 'blocks' schema
     """
+    print("Get package...")
     package = archive.get(package_id)
-    root = etree.Element("protocol", id=package_id)
     in_sync = True
-    for ix, fname in enumerate(fetch_files(package)):
+    paragraphs = []
+    for ix, fname in enumerate(progressbar.progressbar(fetch_files(package))):
         s = package.get_raw(fname).read()
-        tree = etree.fromstring(s)
-        ns_dict = {"space": "http://www.loc.gov/standards/alto/ns-v3#"}
-        content_blocks = tree.findall(
-            ".//{http://www.loc.gov/standards/alto/ns-v3#}ComposedBlock"
-        )
+        altofile = alto.parse(s)
         page_number_str = re.findall("([0-9]{3,3}).xml", fname)[0]
         page_number = int(page_number_str)
+        paragraphs.append(page_number)
         if in_sync and page_number != ix:
             not_in_sync_warning = f"KB page number and page count not in sync ({package_id})"
             warnings.warn(not_in_sync_warning)
             in_sync = False
 
-        for cb_ix, content_block in enumerate(content_blocks):
-            content_block_e = etree.SubElement(
-                root, "contentBlock", page=str(page_number), ix=str(cb_ix)
-            )
-            text_blocks = content_block.findall(
-                ".//{http://www.loc.gov/standards/alto/ns-v3#}TextBlock"
-            )
-            for tb_ix, text_block in enumerate(text_blocks):
-                tblock = []
-                text_lines = text_block.findall(
-                    ".//{http://www.loc.gov/standards/alto/ns-v3#}TextLine"
-                )
-
-                for text_line in text_lines:
-                    # tblock.append("\n")
-                    strings = text_line.findall(
-                        ".//{http://www.loc.gov/standards/alto/ns-v3#}String"
-                    )
-                    for string in strings:
-                        content = string.attrib["CONTENT"]
-                        tblock.append(content)
-
-                tblock = "\n".join(tblock)
+        text_blocks = altofile.extract_text_blocks()
+        for tb_ix, tb in enumerate(text_blocks):
+            lines = tb.extract_string_lines()            
+            paragraph = "\n".join(lines)
                 # Remove line breaks when next line starts with a small letter
-                tblock = re.sub("([a-zß-ÿ,])- ?\n ?([a-zß-ÿ])", "\\1\\2", tblock)
-                tblock = re.sub("([a-zß-ÿ,]) ?\n ?([a-zß-ÿ])", "\\1 \\2", tblock)
-                text_block_e = etree.SubElement(
-                    content_block_e, "textBlock", ix=str(tb_ix)
-                )
-                text_block_e.text = tblock
+            paragraph = re.sub("([a-zß-ÿ,])- ?\n ?([a-zß-ÿ])", "\\1\\2", paragraph)
+            paragraph = re.sub("([a-zß-ÿ,]) ?\n ?([a-zß-ÿ])", "\\1 \\2", paragraph)
+            
+            paragraph = " ".join(paragraph.split())
+            if paragraph != "":
+                paragraphs.append(paragraph)
 
-    return root
+    return paragraphs
 
 
 def get_blocks(protocol_id, archive, load=True, save=True):
