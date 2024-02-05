@@ -103,39 +103,55 @@ def oppna_data_to_dict(input_dict):
                     data["paragraphs"].append(paragraph)
     return data
 
+def _alto_extract_paragraphs(altofile):
+    """
+    Extract text from ALTO XML on paragraph / textBlock level
+    """
+    paragraphs = []
+    text_blocks = altofile.extract_text_blocks()
+    for tb_ix, tb in enumerate(text_blocks):
+        lines = tb.extract_string_lines()            
+        paragraph = "\n".join(lines)
+        
+        # Remove line breaks when next line starts with a small letter
+        paragraph = re.sub("([a-zß-ÿ,])- ?\n ?([a-zß-ÿ])", "\\1\\2", paragraph)
+        paragraph = re.sub("([a-zß-ÿ,]) ?\n ?([a-zß-ÿ])", "\\1 \\2", paragraph)
+        
+        paragraph = " ".join(paragraph.split())
+        if paragraph != "":
+            paragraphs.append(paragraph)
+    return paragraphs
+
+def convert_alto(filenames, files):
+    """
+    Download protocol from betalab, convert it to the simple XML 'blocks' schema
+    """
+    in_sync = True
+    paragraphs = []
+    for ix, pair in progressbar.progressbar(enumerate(zip(filenames, files))):
+        fname, s = pair
+        altofile = alto.parse(s)
+        page_number = int(re.findall("([0-9]{3,3}).xml", fname)[0])
+        paragraphs.append(page_number)
+        if in_sync and page_number != ix:
+            not_in_sync_warning = f"ALTO page number and page count not in sync ({package_id})"
+            warnings.warn(not_in_sync_warning)
+            in_sync = False
+        paragraphs += _alto_extract_paragraphs(altofile)
+    return paragraphs
+
 def dl_kb_blocks(package_id, archive):
     """
     Download protocol from betalab, convert it to the simple XML 'blocks' schema
     """
-    print("Get package...")
+    print(f"Get package {package_id}...")
     package = archive.get(package_id)
-    in_sync = True
-    paragraphs = []
-    for ix, fname in enumerate(progressbar.progressbar(fetch_files(package))):
-        s = package.get_raw(fname).read()
-        altofile = alto.parse(s)
-        page_number_str = re.findall("([0-9]{3,3}).xml", fname)[0]
-        page_number = int(page_number_str)
-        paragraphs.append(page_number)
-        if in_sync and page_number != ix:
-            not_in_sync_warning = f"KB page number and page count not in sync ({package_id})"
-            warnings.warn(not_in_sync_warning)
-            in_sync = False
+    filenames = fetch_files(package)
+    def files():
+        for fname in filenames:
+            yield package.get_raw(fname).read()
 
-        text_blocks = altofile.extract_text_blocks()
-        for tb_ix, tb in enumerate(text_blocks):
-            lines = tb.extract_string_lines()            
-            paragraph = "\n".join(lines)
-                # Remove line breaks when next line starts with a small letter
-            paragraph = re.sub("([a-zß-ÿ,])- ?\n ?([a-zß-ÿ])", "\\1\\2", paragraph)
-            paragraph = re.sub("([a-zß-ÿ,]) ?\n ?([a-zß-ÿ])", "\\1 \\2", paragraph)
-            
-            paragraph = " ".join(paragraph.split())
-            if paragraph != "":
-                paragraphs.append(paragraph)
-
-    return paragraphs
-
+    return convert_alto(filenames, files())
 
 
 def count_pages(start, end):
