@@ -124,7 +124,12 @@ def _alto_extract_paragraphs(altofile):
 
 def convert_alto(filenames, files):
     """
-    Download protocol from betalab, convert it to the simple XML 'blocks' schema
+    Convert a document from ALTO to a list of paragraphs.
+
+    Args:
+        filenames: the names of the ALTO files of one document, as a list of str.
+            The script assumes zero-padded numbering right before the .xml extension.
+        files: ALTO XML files as a list of str in corresponding order to the filenames
     """
     in_sync = True
     paragraphs = []
@@ -134,7 +139,7 @@ def convert_alto(filenames, files):
         page_number = int(re.findall("([0-9]{3,3}).xml", fname)[0])
         paragraphs.append(page_number)
         if in_sync and page_number != ix:
-            not_in_sync_warning = f"ALTO page number and page count not in sync ({package_id})"
+            not_in_sync_warning = f"ALTO page number and page count not in sync ({fname})"
             warnings.warn(not_in_sync_warning)
             in_sync = False
         paragraphs += _alto_extract_paragraphs(altofile)
