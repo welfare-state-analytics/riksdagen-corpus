@@ -249,7 +249,7 @@ class Test(unittest.TestCase):
             ].unique()
             excludes = []
             if y < 1971:
-                if y < 1957:
+                if y <= 1957:
                     excludes = oor_year['1957']
                 elif y < 1959:
                     excludes = oor_year['1959']
@@ -346,7 +346,7 @@ class Test(unittest.TestCase):
                             ch.append(dup)
                             print("\n--->>>>", dup)
                             print(df)
-                            print(r["chamber"], last_end, rstart, type(last_end), type(rstart))
+                        #    print(r["chamber"], last_end, rstart, type(last_end), type(rstart))
                         print("IN TWO CHAMBERS")
                         continue
                     else:
