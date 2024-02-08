@@ -17,7 +17,7 @@ from pathlib import Path
 import progressbar
 
 def fetch_local_package(pgk_path, package):
-    filenames = os.listdir(f"{pgk_path}/{package}")
+    filenames = sorted(os.listdir(f"{pgk_path}/{package}"))
     def files():
         for fname in filenames:
             with open(f"{pgk_path}/{package}/{fname}", 'r') as f:

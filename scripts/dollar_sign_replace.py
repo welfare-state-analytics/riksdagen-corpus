@@ -59,8 +59,11 @@ def join_soft_hyphens(root, soft_hyphen):
     return root
 
 def main(args):
-    protocols = sorted(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end)))    
-    print(protocols)
+    if args.protocol:
+        protocols = [args.protocol]
+    else:
+        protocols = sorted(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end)))
+
     parser = etree.XMLParser(remove_blank_text=True)
     
     exp_dollar_1 = re.compile("^8 [0-9]{1,2}\.")
@@ -86,6 +89,10 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("-s", "--start", type=int, default=1920, help="Start year")
     parser.add_argument("-e", "--end", type=int, default=2022, help="End year")
+    parser.add_argument("-p", "--protocol",
+                        type=str,
+                        default=None,
+                        help="operate on a single protocol")
     parser.add_argument("--parallel", type=int, default=1, help="type=int, default=1: nymber of parallel...doesn't seem to do anything.")
     args = parser.parse_args()
     main(args)

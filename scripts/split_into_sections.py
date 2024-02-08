@@ -43,7 +43,9 @@ def clean_next_prev(div, DEBUG):
 
 
 def create_divs(root, metadata, DEBUG):
+    if DEBUG: print("  -- create-divs()")
     bodies = root.findall(f".//{TEI_NS}body")
+    print(len(bodies))
     assert len(bodies) == 1
     body = bodies[0]
     if DEBUG: print("   --- 1 body")
@@ -121,7 +123,7 @@ def nextprev_clean(root, DEBUG):
 
 
 
-def flow(root, rows, DEBUG):
+def flow(root, rows, metadata, DEBUG):
     if args.nextprev_only:
         if DEBUG: print("Only cleaning next/prev attribs")
         root = nextprev_clean(root, DEBUG)
@@ -157,10 +159,11 @@ def main(args):
             if DEBUG: print("!!! SKIPPING")
             continue
         root = etree.parse(protocol, parser).getroot()
-        
+        if DEBUG: print(root)
         metadata = infer_metadata(protocol)
+        if DEBUG: print(metadata)
         try:
-            root, rows = flow(root, rows, DEBUG)
+            root, rows = flow(root, rows, metadata, DEBUG)
         except Exception:
             skip_counter += 1
             failures.append(protocol)
@@ -186,7 +189,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("-s", "--start", type=int, default=1867, help="Start year")
     parser.add_argument("-e", "--end", type=int, default=2022, help="End year")
-    parser.add_argument("-p", "--protocol", type=str, help="Provide a specific protocol")
+    parser.add_argument("-p", "--protocol", type=str, default=None, help="Provide a specific protocol")
     parser.add_argument("-d", "--debug", action="store_true", help="Print debug statements")
     parser.add_argument("-c", "--nextprev-only", action="store_true", help="Only clean up next-prev attrs.")
     args = parser.parse_args()

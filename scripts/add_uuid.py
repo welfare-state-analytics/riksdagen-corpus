@@ -31,8 +31,8 @@ def add_protocol_id(protocol):
     parser = etree.XMLParser(remove_blank_text=True)
     root = etree.parse(protocol, parser).getroot()
     
-    tei = root.find(f"{tei_ns}TEI")
-    tei.attrib[f"{xml_ns}id"] = protocol.split("/")[-1][:-4]
+    #tei = root.find(f"{tei_ns}TEI")
+    #tei.attrib[f"{xml_ns}id"] = protocol.split("/")[-1][:-4]
 
     num_ids = 0
     for tag, elem in elem_iter(root):
@@ -64,7 +64,10 @@ def add_protocol_id(protocol):
 
 
 def main(args):
-    protocols = sorted(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end)))
+    if args.protocol:
+        protocols = [args.protocol]
+    else:
+        protocols = sorted(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end)))
     num_ids = 0
     ids = []
     with multiprocessing.Pool() as pool:
@@ -79,5 +82,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("-s", "--start", type=int, default=1920, help="Start year")
     parser.add_argument("-e", "--end", type=int, default=2022, help="End year")
+    parser.add_argument("-p", "--protocol",
+                        type=str,
+                        default=None,
+                        help="operate on a single protocol")
     args = parser.parse_args()
     main(args)

@@ -85,8 +85,11 @@ def main(args):
         ft = fasttext.load_model("cc.sv." + str(dim) + ".bin")
         model = keras.models.load_model('input/segment-classifier/')
         classifier = get_neural_classifier(model, ft, dim)
-
-    for protocol_path in progressbar.progressbar(list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end))):
+    if args.protocol:
+        protocols = [args.protocol]
+    else:
+        protocols = list(protocol_iterators("corpus/protocols/", start=args.start, end=args.end))
+    for protocol_path in progressbar.progressbar(protocols):
         print(protocol_path)
         metadata = infer_metadata(protocol_path)
         root = etree.parse(protocol_path, parser).getroot()
@@ -102,6 +105,10 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("-s", "--start", type=int, default=1920, help="Start year")
     parser.add_argument("-e", "--end", type=int, default=2022, help="End year")
+    parser.add_argument("-p", "--protocol",
+                        type=str,
+                        default=None,
+                        help="operate on a single protocol")
     parser.add_argument("--method", type=str, default="w2v", help="default: w2w")
     parser.add_argument("--classfile", type=str, default=None, help="What's this? default=None")
     args = parser.parse_args()
