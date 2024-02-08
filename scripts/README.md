@@ -95,6 +95,8 @@ Most scripts take `--start` YEAR and `--end` YEAR arguments to define a span of 
 
 14. Run `scripts/split_into_sections.py`.
 
+15. Run `scripts/add_uuid_to_divs.py` 
+
 
 ### Quality Control
 
