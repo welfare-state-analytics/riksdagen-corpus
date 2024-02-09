@@ -3,7 +3,7 @@ import re
 from pyparlaclarin.read import element_hash
 import dateparser
 import pandas as pd
-from .utils import elem_iter, infer_metadata, parse_date, XML_NS, get_formatted_uuid
+from .utils import elem_iter, infer_metadata, parse_date, XML_NS, get_formatted_uuid, write_protocol
 from .db import load_expressions, filter_db, load_patterns, load_metadata
 from .segmentation import (
     detect_mp,
@@ -81,13 +81,7 @@ def redetect_protocol(metadata, protocol):
         unknown_variables=["gender", "party", "other"],
     )
 
-    b = etree.tostring(
-        root, pretty_print=True, encoding="utf-8", xml_declaration=True
-    )
-
-    f = open(protocol, "wb")
-    f.write(b)
-    f.close()
+    write_protocol(root, protocol)
     return unk
 
 
