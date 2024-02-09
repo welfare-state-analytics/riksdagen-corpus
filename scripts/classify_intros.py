@@ -57,6 +57,7 @@ def main(args):
         df = pd.DataFrame(
             extract_note_seg(args.protocol),
             columns=['text', 'id', 'file_path'])
+        df = predict_intro(df, cuda=args.cuda)
         print(df)
     else:
         # Create folder iterator for reasonably large batches
