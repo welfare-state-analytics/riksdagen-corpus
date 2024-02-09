@@ -23,7 +23,7 @@ class DateErrorWarning(Warning):
 class Test(unittest.TestCase):
 
     def fetch_known_mandate_dates(self):
-        return pd.read_csv("corpus/quality_assessment/mp_start-end_dates/cleaned-start-end-mandate-dates.csv")
+        return pd.read_csv("corpus/quality_assessment/mp_start-end_dates/mandate-dates.csv")
 
 
     def fetch_mep_meta(self):
