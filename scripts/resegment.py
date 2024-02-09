@@ -51,25 +51,24 @@ def main(args):
 
     parser = etree.XMLParser(remove_blank_text=True)
 
+    paragraphs = []
     for protocol in progressbar.progressbar(protocols):
         root = etree.parse(protocol, parser).getroot()
-        paragraphs = []
-        ids = []
         for tag, elem in elem_iter(root):
             if tag == "u":
                 for seg in elem:
                     paragraphs.append(get_text(seg))
-                    ids.append(seg.attrib[f"{XML_NS}id"])
             elif tag != "pb":
                 paragraphs.append(get_text(elem))
-                ids.append(elem.attrib[f"{XML_NS}id"])
+    print("len", len(paragraphs))
+    print("len", len(list(set(paragraphs))))
 
-        labels = get_labels(paragraphs)
-        b = etree.tostring(
-            root, pretty_print=True, encoding="utf-8", xml_declaration=True
-        )
-        with open(protocol, "wb") as f:
-            f.write(b)
+    labels = get_labels(paragraphs)
+    b = etree.tostring(
+        root, pretty_print=True, encoding="utf-8", xml_declaration=True
+    )
+    with open(protocol, "wb") as f:
+        f.write(b)
 
 
 if __name__ == "__main__":
