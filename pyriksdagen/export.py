@@ -110,7 +110,6 @@ def dict_to_parlaclarin(data):
         document_title=f"Riksdagens protocols {session}",
         authority="National Library of Sweden and the WESTAC project",
         correction="Some programmatic corrections have been made to counter errors stemming from the OCR process.",
-        edition="0.4.2",
     )
     for key in default_metadata:
         if key not in data:
