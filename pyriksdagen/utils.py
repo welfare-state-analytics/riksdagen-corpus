@@ -280,7 +280,7 @@ def write_protocol(prot_elem, prot_path):
     """
     Writes the protocol lxml element (`prot_elem`) to the specified path (`prot_path`).
     """
-    prot_elem = format_texts(prot_elem)
+    prot_elem = format_texts(prot_elem, padding=10)
     b = etree.tostring(
         prot_elem,
         pretty_print=True,

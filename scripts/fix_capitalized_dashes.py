@@ -34,7 +34,7 @@ def main(args):
                     elem.text = re.sub(pattern, r"\1\3", txt)
                 # e.match(string)
 
-            root = format_texts(root)
+            root = format_texts(root, padding=10)
 
             b = etree.tostring(
                 root, pretty_print=True, encoding="utf-8", xml_declaration=True

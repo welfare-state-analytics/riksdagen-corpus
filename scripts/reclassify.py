@@ -95,7 +95,7 @@ def main(args):
         root = etree.parse(protocol_path, parser).getroot()
 
         root = reclassify(root, classifier, exclude=["date", "speaker"])
-        root = format_texts(root)
+        root = format_texts(root, padding=10)
         b = etree.tostring(root, pretty_print=True, encoding="utf-8", xml_declaration=True)
 
         with open(protocol_path, "wb") as f:
