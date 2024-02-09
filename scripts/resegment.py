@@ -33,6 +33,7 @@ def get_labels(texts):
             else:
                 labels.append("intro")
 
+    # TODO: return a dict
     return labels
 
 def get_text(elem):
@@ -60,10 +61,10 @@ def main(args):
                     paragraphs.append(get_text(seg))
             elif tag != "pb":
                 paragraphs.append(get_text(elem))
-    print("len", len(paragraphs))
-    print("len", len(list(set(paragraphs))))
 
     labels = get_labels(paragraphs)
+
+    # TODO: actually change the tags in the ParlaClarin files
     b = etree.tostring(
         root, pretty_print=True, encoding="utf-8", xml_declaration=True
     )
