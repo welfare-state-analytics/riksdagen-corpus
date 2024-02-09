@@ -54,7 +54,6 @@ def main(args):
             paragraphs = convert_alto(filenames, files)
         print()
         print(paragraphs[0])
-        data["edition"] = args.edition
         data["paragraphs"] = paragraphs
 
         # Create parlaclarin and write to disk
@@ -65,7 +64,6 @@ if __name__ == "__main__":
     parser.add_argument("--start", type=int, default=1867)
     parser.add_argument("--end", type=int, default=1990)
     parser.add_argument("--authority", type=str, default="SWERIK Project, 2023-2027")
-    parser.add_argument("--edition", type=str, required=True)
     parser.add_argument("--protocol_ids", type=str, nargs="+", default=None)
     parser.add_argument("--local-alto", type=str, nargs="+", default=None, help="Locally stored alto package (folder=protocol name, contents=pages.")
     parser.add_argument("--alto-path", type=str, help="Path to `--local-alto` directories")

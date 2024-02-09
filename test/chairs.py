@@ -2,7 +2,10 @@
 """
 Test chars and chair-mp mapping metadata
 """
-from pyriksdagen.date_handling import yearize_mp_mandates
+from datetime import datetime
+from pyriksdagen.date_handling import yearize_mandates
+from .pytestconfig import fetch_config
+import json
 import pandas as pd
 import unittest
 import warnings
@@ -296,14 +299,23 @@ class Test(unittest.TestCase):
         chair_mp.rename(columns={"start": "chair_start", "end":"chair_end"}, inplace=True)
         chair_mp = chair_mp[chair_mp["swerik_id"].notna()]
         chairs = self.get_chairs()
+        config = fetch_config("chairs")
         chair_mp = pd.merge(chair_mp, chairs, on="chair_id", how="left")
-        mep_by_year = yearize_mp_mandates()
+        mep_by_year = yearize_mandates()
         mep_by_year.rename(columns={"start": "meta_start", "end":"meta_end"}, inplace=True)
         mep_by_year = mep_by_year[mep_by_year["meta_start"].notna()]
+        if config:
+            if config['write_ch_chmp_merge']:
+                now = datetime.now().strftime("%Y%m%d-%H%M")
+                mep_by_year.to_csv(f"{config['trouble_path']}{now}_chair-chairmp_merge.csv", index=False)
         chair_mp = pd.merge(chair_mp, mep_by_year, on=["swerik_id", "parliament_year"], how="left")
 
-        #outdf = chair_mp.loc[pd.isna(chair_mp["role"])].copy()
-        #outdf.to_csv("_scripts/chairs/trouble-matching-yearize.csv", index=False)
+        if config:
+            if config['write_trouble']:
+                outdf = chair_mp.loc[pd.isna(chair_mp["role"])].copy()
+                if not outdf.empty:
+                    now = datetime.now().strftime("%Y%m%d-%H%M")
+                    outdf.to_csv(f"{config['trouble_path']}{now}_trouble-matching-yearize.csv", index=False)
 
         general_start_end = self.get_riksdag_start_end()
         no_chair_hogs = True
@@ -387,7 +399,7 @@ class Test(unittest.TestCase):
         chair_mp = chair_mp[chair_mp["swerik_id"].notna()]
         chairs = self.get_chairs()
         chair_mp = pd.merge(chair_mp, chairs, on="chair_id", how="left")
-        mep_by_year = yearize_mp_mandates()
+        mep_by_year = yearize_mandates()
         mep_by_year.rename(columns={"start": "meta_start", "end":"meta_end"}, inplace=True)
         mep_by_year = mep_by_year[mep_by_year["meta_start"].notna()]
         chair_mp = pd.merge(chair_mp, mep_by_year, on=["swerik_id", "parliament_year"], how="left")
