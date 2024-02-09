@@ -9,7 +9,7 @@ from pyriksdagen.utils import (
 )
 from tqdm import tqdm
 import argparse, multiprocessing
-
+from pathlib import Path
 
 
 
@@ -28,7 +28,9 @@ def add_div_ids(protocol):
         divs = body.findall(f"{tei_ns}div")
         #print(len(divs), protocol)
         for div in divs:
-            x = div.attrib.get(f"{xml_ns}id", get_formatted_uuid())
+            protocol_id = Path(protocol).stem
+            seed_str = f"{protocol_id}\n{' '.join(div.itertext())}"
+            x = div.attrib.get(f"{xml_ns}id", get_formatted_uuid(seed_str))
             div.attrib[f"{xml_ns}id"] = x
             num_ids += 1
             ids.add(x)
