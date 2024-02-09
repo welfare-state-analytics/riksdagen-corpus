@@ -18,6 +18,9 @@ def plot(df):
     df = df[versions]
     p, a = plt.subplots()
     a.plot(df)
+    lines = a.get_children()
+    for i, l in enumerate(lines, -len(lines)):
+        l.set_zorder(abs(i))
     a.axhline(y=1, color='green', linestyle='--', linewidth=1, label='_nolegend_')
     a.set_title("Ratio: members of parliament to seats")
     a.legend(versions, loc ="upper left")
