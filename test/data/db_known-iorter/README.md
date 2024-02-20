@@ -1,4 +1,4 @@
-# README
+# Known iorter
 
 This folder contains known place specifiers -- so called i-ort -- for each MP. One row per i-ort in the case when an MP's i-ort changed. 
 
@@ -8,7 +8,7 @@ Stjernquist, Nils, Tvåkammartiden: Sveriges riksdag 1867-1970, Sveriges riksdag
 
 The csv-file consists of four columns: 
 
-- wiki_id
+- swerik_id
 - surname
 - first_name
 - iort
