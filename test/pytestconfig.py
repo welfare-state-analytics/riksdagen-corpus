@@ -18,6 +18,8 @@ def fetch_config(test):
     try:
         with open("test/_test_config/test.json", 'r') as j:
             d = json.load(j)
-        return d[test]
+            config = d[test]
+            config['test_out_path'] = d['test_out_path']
+        return config
     except:
         return None
