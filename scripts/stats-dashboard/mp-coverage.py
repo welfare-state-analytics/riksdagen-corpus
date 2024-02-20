@@ -95,7 +95,7 @@ def main():
     baseline_df = pd.read_csv("corpus/quality_assessment/baseline_mp_frequencies_per_year/number_mp_in_parliament.csv")
     baseline_df['year'] = baseline_df['year'].apply(lambda x: str(x)[:4])
     #print(baseline_df)
-    dates = pd.read_csv("corpus/quality_assessment/session-dates/session-dates.csv", sep=";")
+    dates = pd.read_csv("test/data/session-dates/session-dates.csv", sep=";")
     dates = dates[~dates['protocol'].isin(skip)]
     dates = dates[~dates['date'].isin(["2021", "1977"])]
     #print(dates)

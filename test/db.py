@@ -298,7 +298,7 @@ class Test(unittest.TestCase):
 
 
 	def test_session_dates(self):
-		dates_df = pd.read_csv("test/data/db_session-dates/session-dates.csv", sep=';')
+		dates_df = pd.read_csv("test/data/session-dates/session-dates.csv", sep=';')
 		protocols = sorted(list(protocol_iterators("corpus/protocols/", start=1867, end=2022)))
 		config = fetch_config("db")
 
