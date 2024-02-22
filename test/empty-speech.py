@@ -15,6 +15,8 @@ import unittest
 import warnings
 
 
+
+
 class EmptyElement(Warning):
 
     def __init__(self, m):
@@ -24,21 +26,18 @@ class EmptyElement(Warning):
         return self.message
 
 
+
+
 class Test(unittest.TestCase):
-
-    def protocol_iter(self):
-        """
-        Get protocols.
-        """
-        return sorted(list(protocol_iterators("corpus/protocols/", start=1867, end=2022)))
-
 
     def test_no_empty_speech(self):
         """
         Test protocol has no empty `u` or `seg` elements
         """
         rows = []
-        protocols = self.protocol_iter()
+        protocols = sorted(list(protocol_iterators("corpus/protocols/",
+                                                   start=1867,
+                                                   end=2022)))
         for p in tqdm(protocols, total=len(protocols)):
             root, ns = parse_protocol(p, get_ns=True)
             for elem in root.iter(f'{ns["tei_ns"]}u'):
@@ -47,8 +46,6 @@ class Test(unittest.TestCase):
                         u_id = elem.attrib[f'{ns["xml_ns"]}id']
                         rows.append([p, "u", u_id])
                         warnings.warn(f"Empty u-elem: {p}, {u_id}", EmptyElement)
-                    else:
-                        print("oh no, U")
                 else:
                     for seg in elem:
                         if not seg.text or seg.text.strip() == '':
@@ -56,8 +53,6 @@ class Test(unittest.TestCase):
                                 seg_id = seg.attrib[f'{ns["xml_ns"]}id']
                                 rows.append([p, "seg", seg_id])
                                 warnings.warn(f"Empty seg-elem: {p}, {seg_id}", EmptyElement)
-                            else:
-                                print("oh no, SEG")
         if len(rows) > 0:
             config = fetch_config("empty-speech")
             if config and config["write_empty_speeches"]:
@@ -70,6 +65,9 @@ class Test(unittest.TestCase):
                     index=False)
 
         self.assertEqual(len(rows), 0)
+
+
+
 
 if __name__ == '__main__':
     unittest.main()
