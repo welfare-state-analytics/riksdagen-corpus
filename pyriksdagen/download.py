@@ -6,6 +6,7 @@ import progressbar
 from lxml import etree
 from .utils import clean_html
 import warnings
+import alto
 
 class LazyArchive:
     """
@@ -102,104 +103,60 @@ def oppna_data_to_dict(input_dict):
                     data["paragraphs"].append(paragraph)
     return data
 
+def _alto_extract_paragraphs(altofile):
+    """
+    Extract text from ALTO XML on paragraph / textBlock level
+    """
+    paragraphs = []
+    text_blocks = altofile.extract_text_blocks()
+    for tb_ix, tb in enumerate(text_blocks):
+        lines = tb.extract_string_lines()            
+        paragraph = "\n".join(lines)
+        
+        # Remove line breaks when next line starts with a small letter
+        paragraph = re.sub("([a-zß-ÿ,])- ?\n ?([a-zß-ÿ])", "\\1\\2", paragraph)
+        paragraph = re.sub("([a-zß-ÿ,]) ?\n ?([a-zß-ÿ])", "\\1 \\2", paragraph)
+        
+        paragraph = " ".join(paragraph.split())
+        if paragraph != "":
+            paragraphs.append(paragraph)
+    return paragraphs
+
+def convert_alto(filenames, files):
+    """
+    Convert a document from ALTO to a list of paragraphs.
+
+    Args:
+        filenames: the names of the ALTO files of one document, as a list of str.
+            The script assumes zero-padded numbering right before the .xml extension.
+        files: ALTO XML files as a list of str in corresponding order to the filenames
+    """
+    in_sync = True
+    paragraphs = []
+    for ix, pair in progressbar.progressbar(enumerate(zip(filenames, files))):
+        fname, s = pair
+        altofile = alto.parse(s)
+        page_number = int(re.findall("([0-9]{3,3}).xml", fname)[0])
+        paragraphs.append(page_number)
+        if in_sync and page_number != ix:
+            not_in_sync_warning = f"ALTO page number and page count not in sync ({fname})"
+            warnings.warn(not_in_sync_warning)
+            in_sync = False
+        paragraphs += _alto_extract_paragraphs(altofile)
+    return paragraphs
+
 def dl_kb_blocks(package_id, archive):
     """
     Download protocol from betalab, convert it to the simple XML 'blocks' schema
     """
+    print(f"Get package {package_id}...")
     package = archive.get(package_id)
-    root = etree.Element("protocol", id=package_id)
-    in_sync = True
-    for ix, fname in enumerate(fetch_files(package)):
-        s = package.get_raw(fname).read()
-        tree = etree.fromstring(s)
-        ns_dict = {"space": "http://www.loc.gov/standards/alto/ns-v3#"}
-        content_blocks = tree.findall(
-            ".//{http://www.loc.gov/standards/alto/ns-v3#}ComposedBlock"
-        )
-        page_number_str = re.findall("([0-9]{3,3}).xml", fname)[0]
-        page_number = int(page_number_str)
-        if in_sync and page_number != ix:
-            not_in_sync_warning = f"KB page number and page count not in sync ({package_id})"
-            warnings.warn(not_in_sync_warning)
-            in_sync = False
+    filenames = fetch_files(package)
+    def files():
+        for fname in filenames:
+            yield package.get_raw(fname).read()
 
-        for cb_ix, content_block in enumerate(content_blocks):
-            content_block_e = etree.SubElement(
-                root, "contentBlock", page=str(page_number), ix=str(cb_ix)
-            )
-            text_blocks = content_block.findall(
-                ".//{http://www.loc.gov/standards/alto/ns-v3#}TextBlock"
-            )
-            for tb_ix, text_block in enumerate(text_blocks):
-                tblock = []
-                text_lines = text_block.findall(
-                    ".//{http://www.loc.gov/standards/alto/ns-v3#}TextLine"
-                )
-
-                for text_line in text_lines:
-                    # tblock.append("\n")
-                    strings = text_line.findall(
-                        ".//{http://www.loc.gov/standards/alto/ns-v3#}String"
-                    )
-                    for string in strings:
-                        content = string.attrib["CONTENT"]
-                        tblock.append(content)
-
-                tblock = "\n".join(tblock)
-                # Remove line breaks when next line starts with a small letter
-                tblock = re.sub("([a-zß-ÿ,])- ?\n ?([a-zß-ÿ])", "\\1\\2", tblock)
-                tblock = re.sub("([a-zß-ÿ,]) ?\n ?([a-zß-ÿ])", "\\1 \\2", tblock)
-                text_block_e = etree.SubElement(
-                    content_block_e, "textBlock", ix=str(tb_ix)
-                )
-                text_block_e.text = tblock
-
-    return root
-
-
-def get_blocks(protocol_id, archive, load=True, save=True):
-    """
-    Get content and text blocks from an OCR output XML file. Concatenate words into sentences.
-
-    Args:
-        protocol_id: ID of the protocol
-        archive: KBlab archive
-        load: Load the file from disk if available
-        save: Save the downloaded file to disk
-
-    Returns an lxml elem tree with the structure page > contentBlock > textBlock.
-    """
-    folder = "input/raw/" + protocol_id + "/"
-    fname = "original.xml"
-    root = None
-    overwrite = True
-    if load or save:
-        if not os.path.exists(folder):
-            os.mkdir(folder)
-
-    # Attempt to load from disk
-    if load:
-        fnames = os.listdir(folder)
-        if fname in fnames:
-            s = open(folder + fname).read()
-            overwrite = False
-            root = etree.fromstring(s.encode("utf-8"))
-
-    # Load from server if local copy is not available
-    if root is None:
-        root = dl_kb_blocks(protocol_id, archive)
-
-    # Save in case a new version was loaded from server
-    if save and overwrite:
-        fname = "original.xml"
-        sb = etree.tostring(
-            root, pretty_print=True, encoding="utf-8", xml_declaration=True
-        )
-        f = open(folder + fname, "wb")
-        f.write(sb)
-        f.close()
-
-    return root
+    return convert_alto(filenames, files())
 
 
 def count_pages(start, end):
@@ -207,7 +164,7 @@ def count_pages(start, end):
     Generate a dataframe of pages between provided start and end years. Fetches information from KB's API.
     """
     years = range(start, end)
-    archive = login_to_archive()
+    archive = LazyArchive()
     rows = []
 
     for year in progressbar.progressbar(years):

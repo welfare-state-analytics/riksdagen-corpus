@@ -15,6 +15,7 @@ import hashlib, uuid, base58, requests, tqdm
 import zipfile
 
 XML_NS = "{http://www.w3.org/XML/1998/namespace}"
+TEI_NS = "{http://www.tei-c.org/ns/1.0}"
 
 def elem_iter(root, ns="{http://www.tei-c.org/ns/1.0}"):
     """

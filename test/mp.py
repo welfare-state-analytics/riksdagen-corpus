@@ -3,8 +3,6 @@ import unittest
 import pandas as pd
 from lxml import etree
 from pyriksdagen.utils import validate_xml_schema, infer_metadata
-from pyriksdagen.download import get_blocks
-from pyriksdagen.export import create_tei, create_parlaclarin
 from pyriksdagen.db import load_patterns, filter_db, load_ministers, load_metadata
 from pathlib import Path
 import progressbar

@@ -1,58 +1,71 @@
 """
-Download alto XMLs from KB, convert them to parlaclarin. Saves raw data
-on disk if you want to rerun the script. 
+Convert the digital original files (1990->) into parla-clarin
 """
-import pandas as pd
-import progressbar
+import os
 from lxml import etree
+import progressbar
+import pandas as pd
 import argparse
-from pyparlaclarin.refine import (
-    format_texts,
-)
 
-from pyriksdagen.download import LazyArchive
-from pyriksdagen.export import parlaclarin_workflow_individual
-from pyriksdagen.db import load_patterns
-from pyriksdagen.refine import (
-    detect_mps,
-    find_introductions,
-    update_ids,
-    detect_date,
-)
-from pyriksdagen.utils import (
-    protocol_iterators,
-    infer_metadata,
-)
+from pyriksdagen.download import dl_kb_blocks, LazyArchive, count_pages, convert_alto
+from pyriksdagen.export import dict_to_parlaclarin
+from pyriksdagen.utils import infer_metadata
 
+import json
+import pandas as pd
+from pathlib import Path
+import progressbar
+
+def fetch_local_package(pgk_path, package):
+    filenames = sorted(os.listdir(f"{pgk_path}/{package}"))
+    def files():
+        for fname in filenames:
+            with open(f"{pgk_path}/{package}/{fname}", 'r') as f:
+                yield f.read()
+    return filenames, files()
 
 def main(args):
-    file_dbs = []
-    if args.scanned:
-        file_dbs.append(pd.read_csv("input/protocols/scanned.csv"))
-    if args.digital_originals:
-        file_dbs.append(pd.read_csv("input/protocols/digital_originals.csv"))
-    file_db = pd.concat(file_dbs)
-    file_db = file_db[file_db["year"] >= args.start]
-    file_db = file_db[file_db["year"] <= args.end]
+    if args.local_alto is not None:
+        package_ids = args.local_alto
+        archive = None
+    else:
+        if args.protocol_ids is not None:
+            package_ids = args.protocol_ids
+        else:
+            df = count_pages(args.start, args.end)
+            print(df)
+            package_ids = list(df["protocol_id"])
+        archive = LazyArchive()
+    for package_id in progressbar.progressbar(list(package_ids)):
+        data = infer_metadata(package_id)
+        print("metadata", data)
+        data["authority"] = args.authority
+        data["session"] = data["sitting"]
+        data["protocol_id"] = data["protocol"]
+        data["source_uri"] = f"https://betalab.kb.se/{package_id}/_view"
 
-    print(file_db)
+        data["licence"] = "Licence: Attribution 4.0 International (CC BY 4.0)"
+        data["licence_url"] = "https://creativecommons.org/licenses/by/4.0/"
 
-    archive = LazyArchive()
+        if archive:
+            paragraphs = dl_kb_blocks(package_id, archive)
+        else:
+            filenames, files = fetch_local_package(args.alto_path, package_id)
+            paragraphs = convert_alto(filenames, files)
+        print()
+        print(paragraphs[0])
+        data["paragraphs"] = paragraphs
 
-    # Create parla-clarin files
-    parlaclarin_workflow_individual(
-        file_db, archive
-    )
+        # Create parlaclarin and write to disk
+        dict_to_parlaclarin(data)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("-i", "--scanned", action="store_true", help="Set this flag for protocols that were scanned.")
-    parser.add_argument("-d", "--digital_originals", action="store_true", help="Set this flag for born-digital protocols.")
-    parser.add_argument("-s", "--start", type=int, default=1920, help="Start year")
-    parser.add_argument("-e", "--end", type=int, default=2022, help="End year")
+    parser.add_argument("--start", type=int, default=1867)
+    parser.add_argument("--end", type=int, default=1990)
+    parser.add_argument("--authority", type=str, default="SWERIK Project, 2023-2027")
+    parser.add_argument("--protocol_ids", type=str, nargs="+", default=None)
+    parser.add_argument("--local-alto", type=str, nargs="+", default=None, help="Locally stored alto package (folder=protocol name, contents=pages.")
+    parser.add_argument("--alto-path", type=str, help="Path to `--local-alto` directories")
     args = parser.parse_args()
-    if args.scanned == args.digital_originals:
-        print("\nSet either -i or -d, but not both.\n")
-        parser.print_help()
-    else:
-        main(args)
+    main(args)

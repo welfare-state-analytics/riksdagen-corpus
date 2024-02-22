@@ -3,8 +3,10 @@
 Test chars and chair-mp mapping metadata
 """
 from datetime import datetime
+from .pytestconfig import fetch_config
 from pyriksdagen.date_handling import yearize_mandates
 from .pytestconfig import fetch_config
+import json
 import pandas as pd
 import unittest
 import warnings
