@@ -68,7 +68,7 @@ jobs:
       run: |
         python -m unittest test.chairs
 
-  empty-speeches:
+  empty-speech:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -86,7 +86,7 @@ jobs:
         pip install PyPDF2
     - name: Test there are no empty u or seg elements
       run: |
-        python -m unittest test.empty-speeches
+        python -m unittest test.empty-speech
 
   mp:
     runs-on: ubuntu-latest
