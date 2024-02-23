@@ -55,7 +55,7 @@ def join_soft_hyphens(root, soft_hyphen):
                             seg.text = join_soft_hyphens_p(seg.text)
                 elif elem.text is not None:
                     elem.text = join_soft_hyphens_p(elem.text)
-    root = format_texts(root)
+    root = format_texts(root, padding=10)
     return root
 
 def main(args):

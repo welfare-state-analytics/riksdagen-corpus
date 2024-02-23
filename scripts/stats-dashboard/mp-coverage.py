@@ -15,9 +15,9 @@ import pandas as pd
 here = os.path.dirname(__file__)
 
 ledamot_map = {
-    "fk": "förstakammarledamot",
-    "ak": "andrakammarledamot",
-    "ek": "ledamot"
+    "fk": 1,
+    "ak": 2,
+    "ek": 0
 }
 
 skip = [
@@ -90,13 +90,14 @@ def get_baseline(row, baseline_df):
 
 
 
-def main():
+def main(args):
     print("checking MP coverage...")
-    baseline_df = pd.read_csv("corpus/quality_assessment/baseline_mp_frequencies_per_year/number_mp_in_parliament.csv")
+    baseline_df = pd.read_csv(args.mp_baseline)
     baseline_df['year'] = baseline_df['year'].apply(lambda x: str(x)[:4])
     #print(baseline_df)
-    dates = pd.read_csv("corpus/quality_assessment/session-dates/session-dates.csv", sep=";")
+    dates = pd.read_csv(args.session_dates, sep=";")
     dates = dates[~dates['protocol'].isin(skip)]
+    dates = dates[~dates['date'].isin(["2021", "1977"])]
     #print(dates)
     if "N_MP" not in dates.columns:
         dates["N_MP"] = None
@@ -125,49 +126,33 @@ def main():
     dates['chamber'] = dates['protocol'].apply(lambda x: get_ch(x))
     dates['baseline_N'] = dates.apply(get_baseline, args=(baseline_df,), axis=1)
 
-    mp_meta = pd.read_csv("corpus/metadata/member_of_parliament.csv")
+    mp_meta = pd.read_csv("input/matching/member_of_parliament.csv")
+    len(mp_meta)
     mp_meta = mp_meta[mp_meta.start.notnull()]
-
-    def impute_startend(se):
-        start, end = se
-        if isinstance(start, str):
-            # If no exact start date is given, set to the
-            # start of the year
-            if len(start) != 10:
-                start = start[:4] + "-01-01"
-
-        if isinstance(end, str):
-            # If no exact 
-            if len(end) != 10:
-                end = end[:4] + "-12-31"
-        else:
-            # If no end date is given, set to the end of
-            # the year
-            end = start[:4] + "-12-31"
-
-            # Exception for ongoing mandate period
-            current = dt.datetime.now() - dt.timedelta(days=(365*4))
-            if current.strftime("%Y-%m-%d") < start:
-                end = dt.datetime.now().strftime("%Y-%m-%d")
-
-        return (start, end)
-
-    startend = [impute_startend((start, end)) for start, end in tqdm(zip(mp_meta['start'], mp_meta['end']))]
-    mp_meta['start'] = [s for s,e in startend]
-    mp_meta['end'] = [e for s,e in startend]
+    len(mp_meta)
 
     mp_meta['start'] = mp_meta['start'].apply(lambda x: pd.to_datetime(x, format='%Y-%m-%d', errors='ignore'))
+    len(mp_meta)
     mp_meta['end'] = mp_meta['end'].apply(lambda x: pd.to_datetime(x, format='%Y-%m-%d', errors='ignore'))
+    len(mp_meta)
+
+
+    print(mp_meta[['start', 'end']].describe())
 
     baselines = {
-        "ak_baseline": 0,
-        "fk_baseline": 0,
-        "ek_baseline": 0
+        "ak":0,
+        "fk":0,
+        "ek":0
+    }
+    chamber_map = {
+        "ak":2,
+        "fk":1,
+        "ek":0
     }
 
     filtered_DFs = {}
     for k, v in ledamot_map.items():
-        filtered_DFs[k] = mp_meta.loc[mp_meta['role'] == v]
+        filtered_DFs[k] = mp_meta.loc[mp_meta['chamber'] == v]
 
     shouldnt_happen = 0
     
@@ -189,10 +174,10 @@ def main():
 
                     sub_df = filtered_DFs[chamber]
                     sub_df = sub_df[sub_df["start"] <= day]
-                    sub_df = sub_df[sub_df["end"] >= day]
+                    sub_df = sub_df[sub_df["end"] > day]
 
-                    N_MP = len(sub_df)
-                    MEPs = list(sub_df["swerik_id"])
+                    N_MP = len(sub_df["swerik_id"].unique())
+                    MEPs = list(sub_df["swerik_id"].unique())
 
                 dates.at[i, 'N_MP'] = N_MP
 
@@ -226,4 +211,14 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--mp-baseline",
+                type=str,
+                default = "corpus/quality_assessment/baseline_mp_frequencies_per_year/number_mp_in_parliament.csv",
+                help = "Path to file with baseline number of MPs in parliament per year.")
+    parser.add_argument("--session-dates",
+                type = str,
+                default = "test/data/session-dates/session-dates.csv",
+                help = "Path to file with dates of parliamentary meetings.")
+    args = parser.parse_args()
+    main(args)

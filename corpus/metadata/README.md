@@ -72,6 +72,14 @@ Individual level data such as born, gender, etc. for all persons in the metadata
 - *gender*: gender
 - *riksdagen_id*: id for riksdagen open data individual
 
+### references_map.csv
+
+This links SWERIK person_ids to references in the biography books.
+- `swerik_id`: person ID
+- `bibtex_key`: bibtex key from `../references/`
+- `wiki_id`: wiki_id of the book referenced (volume can be identified by the bibtex key)
+- `page`: page where the person identified is referenced
+
 ### speaker.csv
 
 Same as member_of_parliament.csv but for speakers.
