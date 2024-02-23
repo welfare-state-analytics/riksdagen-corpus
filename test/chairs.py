@@ -3,6 +3,7 @@
 Test chars and chair-mp mapping metadata
 """
 from datetime import datetime
+from .pytestconfig import fetch_config
 from pyriksdagen.date_handling import yearize_mandates
 from .pytestconfig import fetch_config
 import json
@@ -249,7 +250,7 @@ class Test(unittest.TestCase):
             ].unique()
             excludes = []
             if y < 1971:
-                if y < 1957:
+                if y <= 1957:
                     excludes = oor_year['1957']
                 elif y < 1959:
                     excludes = oor_year['1959']
@@ -321,6 +322,7 @@ class Test(unittest.TestCase):
         no_chair_hogs = True
         counter = 0
         ddups = []
+        issues = pd.DataFrame(columns=chair_mp.columns)
         for y in chair_mp['parliament_year'].unique():
             year_chair_mp = chair_mp.loc[chair_mp['parliament_year'] == y]
             yse = general_start_end.loc[general_start_end['parliament_year'] == y].copy()
@@ -340,46 +342,44 @@ class Test(unittest.TestCase):
                     df = year_chair_mp.loc[year_chair_mp["swerik_id"] == dup].copy()
                     df.drop_duplicates(subset=["chair_id", "parliament_year", "chair_start", "chair_end", "swerik_id"], inplace=True)
                     if len(df["chair_id"].unique()) == 1:
-                        continue
+                        pass
                     elif len(df["chamber"].unique()) > 1:
                         if dup not in ch:
                             ch.append(dup)
                             print("\n--->>>>", dup)
                             print(df)
-                            print(r["chamber"], last_end, rstart, type(last_end), type(rstart))
                         print("IN TWO CHAMBERS")
-                        continue
+                        issues = pd.concat([issues, df], ignore_index=True)
                     else:
-                        last_end = None
-                        df.sort_values(by=["chair_start", "chair_end"], inplace=True)
-
+                        ranges = []
                         for i, r in df.iterrows():
                             rstart = None
-                            rend = None
-
                             if pd.notnull(r["chair_start"]):
                                 rstart = r["chair_start"]
                             elif pd.notnull(r['meta_start']):
                                 rstart = r['meta_start']
                             else:
                                 rstart = d[r["chamber"]]["earliest"]
-
+                            rend = None
                             if pd.notnull(r["chair_end"]):
                                 rend = r["chair_end"]
-                            if pd.notnull(r["meta_end"]):
+                            elif pd.notnull(r["meta_end"]):
                                 rend = r["meta_end"]
                             else:
                                 rend = d[r["chamber"]]["latest"]
-
-                            if last_end:
-                                if last_end > rstart:
+                            ranges.append((rstart, rend))
+                        ranges = sorted(ranges, key=lambda x: (x[0], x[1]))
+                        for ridx, _range in enumerate(ranges):
+                            if ridx < len(ranges)-1:
+                                delta = (datetime.strptime(_range[1], "%Y-%m-%d") - datetime.strptime(ranges[ridx+1][0], "%Y-%m-%d")).days
+                                if max(0, delta) > 0:
+                                    issues = pd.concat([issues,df], ignore_index=True)
                                     if dup not in ch:
                                         ch.append(dup)
                                         print("\n--->>>>", dup)
+                                        print(ranges)
                                         print(df)
-                                        print(r["chamber"], last_end, rstart, rend, type(last_end), type(rstart))
-
-                            last_end = rend
+                                        print(_range, ranges[ridx+1])
 
                 if len(ch) > 0:
                     print("\n\n")
@@ -387,6 +387,11 @@ class Test(unittest.TestCase):
                     no_chair_hogs = False
                     counter += len(ch)
                     [ddups.append(_) for _ in ch]
+        if config:
+            if config['write_chairhogs']:
+                now = datetime.now().strftime("%Y%m%d-%H%M")
+                issues.drop_duplicates(inplace=True)
+                issues.to_csv(f"{config['trouble_path']}/{now}_ChairHogs.csv")
         print(counter, ddups)
         self.assertTrue(no_chair_hogs)
 
@@ -394,6 +399,7 @@ class Test(unittest.TestCase):
     @unittest.skip
     def test_knaMP(self):
         print("Testing no one sits on the same chair at the same time")
+        config = fetch_config("chairs")
         chair_mp = self.get_chair_mp()
         chair_mp.rename(columns={"start": "chair_start", "end":"chair_end"}, inplace=True)
         chair_mp = chair_mp[chair_mp["swerik_id"].notna()]
@@ -407,6 +413,7 @@ class Test(unittest.TestCase):
         ingen_knahund = True
         counter = 0
         ddups = []
+        issues = pd.DataFrame(columns=chair_mp.columns)
         for y in chair_mp['parliament_year'].unique():
             year_chair_mp = chair_mp.loc[chair_mp['parliament_year'] == y]
             yse = general_start_end.loc[general_start_end['parliament_year'] == y].copy()
@@ -418,6 +425,7 @@ class Test(unittest.TestCase):
                 cdf = yse.loc[yse["chamber"] == c].copy()
                 cdf.reset_index(drop=True, inplace=True)
                 d[c] = {"earliest": cdf.at[0, "start"], "latest": cdf.at[len(cdf.index)-1, "end"]}
+            year_chair_mp.drop_duplicates(inplace=True)
             chairs = year_chair_mp.loc[pd.notnull(year_chair_mp['chair_id']), 'chair_id'].values
             if len(chairs) > len(set(chairs)):
                 dups = self.get_duplicated_items(chairs)
@@ -426,47 +434,51 @@ class Test(unittest.TestCase):
                     df = year_chair_mp.loc[year_chair_mp["chair_id"] == dup].copy()
                     df.drop_duplicates(subset=["chair_id", "parliament_year", "chair_start", "chair_end", "swerik_id"], inplace=True)
                     if len(df["swerik_id"].unique()) == 1:
-                        continue
+                        pass
                     else:
-                        last_end = None
-                        df.sort_values(by=["chair_start", "chair_end"], inplace=True)
-
+                        ranges = []
                         for i, r in df.iterrows():
                             rstart = None
-                            rend = None
-
                             if pd.notnull(r["chair_start"]):
                                 rstart = r["chair_start"]
-                            elif pd.notnull(r['meta_start']):
-                                rstart = r['meta_start']
+                            elif pd.notnull(r["meta_start"]):
+                                rstart = r["meta_start"]
                             else:
                                 rstart = d[r["chamber"]]["earliest"]
-
+                            rend = None
                             if pd.notnull(r["chair_end"]):
                                 rend = r["chair_end"]
-                            if pd.notnull(r["meta_end"]):
+                            elif pd.notnull(r["meta_end"]):
                                 rend = r["meta_end"]
                             else:
                                 rend = d[r["chamber"]]["latest"]
+                            ranges.append((rstart, rend))
 
-                            if last_end:
-                                if last_end > rstart:
+                        ranges = sorted(ranges, key=lambda x: (x[0], x[1]))
+                        for ridx, _range in enumerate(ranges):
+                            if ridx < len(ranges)-1:
+                                delta = (datetime.strptime(_range[1], "%Y-%m-%d") - datetime.strptime(ranges[ridx+1][0], "%Y-%m-%d")).days
+                                if max(0, delta) > 0:
+                                    issues = pd.concat([issues,df], ignore_index=True)
                                     if dup not in kh:
                                         kh.append(dup)
                                         print("\n--->>>>", dup)
                                         print(df)
-                                        print(last_end, rstart, rend, type(last_end), type(rstart))
-
-                            last_end = rend
-
+                                        print(ranges)
+                                        print(_range, ranges[ridx+1])
                 if len(kh) > 0:
                     print("\n\n")
                     warnings.warn(f"{y}: [{', '.join(kh)}]", KnaMP)
                     ingen_knahund = False
                     counter += len(kh)
                     [ddups.append(_) for _ in kh]
-        print(counter, ddups)
+        if config:
+            if config['write_knahund']:
+                now = datetime.now().strftime("%Y%m%d-%H%M")
+                issues.drop_duplicates(inplace=True)
+                issues.to_csv(f"{config['trouble_path']}/{now}_LoveSeats.csv")
 
+        print(counter, ddups)
         self.assertTrue(ingen_knahund)
 
     #
@@ -477,6 +489,7 @@ class Test(unittest.TestCase):
     @unittest.skip
     def test_chair_coverage(self):
         print("Test coverage of chair-MP mapping.")
+        config = fetch_config("chairs")
         chair_mp = self.get_chair_mp()
         no_empty_chairs = True
         empty_chairs = []
@@ -489,21 +502,27 @@ class Test(unittest.TestCase):
             if year_chair_mp["swerik_id"].isnull().any():
                 for i, r in year_chair_mp.iterrows():
                     if pd.isna(r["swerik_id"]):
-                        df = year_chair_mp.loc[(year_chair_mp["chair_id"] == r["chair_id"]) & (pd.notnull(year_chair_mp["swerik_id"]))]
+                        df = year_chair_mp.loc[
+                            (year_chair_mp["chair_id"] == r["chair_id"]) &
+                            (pd.notnull(year_chair_mp["swerik_id"]))]
                         if df.empty:
                             y_counter += 1
                             y_empty_chairs.append(r["chair_id"])
-
             if y_counter > 0:
                 no_empty_chairs = False
                 print("\n\n")
                 warnings.warn(f"{y}: [{', '.join(y_empty_chairs)}]", EmptyChair)
                 counter += y_counter
-                [empty_chairs.append(_) for _ in y_empty_chairs]
+                [empty_chairs.append([str(y), _]) for _ in y_empty_chairs]
                 print("\n" + str(y_counter / len(year_chairs)) + " emptiness in year")
 
-        print(counter, empty_chairs)
+        if config:
+            if config['empty_seats']:
+                now = datetime.now().strftime("%Y%m%d-%H%M")
+                issues = pd.DataFrame(empty_chairs, columns=['year', 'chair_id'])
+                issues.to_csv(f"{config['trouble_path']}/{now}_EmptySeats.csv")
 
+        print(counter, empty_chairs)
         self.assertTrue(no_empty_chairs)
 
 
