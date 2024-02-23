@@ -2,7 +2,7 @@
 [![Validate Parla-Clarin XML](https://github.com/welfare-state-analytics/riksdagen-corpus/actions/workflows/validate.yml/badge.svg)](https://github.com/welfare-state-analytics/riksdagen-corpus/actions/workflows/validate.yml)
 
 
-# Swedish parliamentary proceedings --- 1867--today --- v0.13.1
+# Swedish parliamentary proceedings --- 1867--today --- v0.14.0
 
 _Westac Project_, 2020--2024 |
 _Swerik Project_, 2023--2025
@@ -39,9 +39,9 @@ The data in the corpus is delivered as TEI XML files to follow established pract
 
 Currently, we have an extensive set of Parliamentary Records (Riksdagens Protokoll) from 1867 until now. We are in the process of preparing Motions for inclusion in the corpus and other document types will follow.
 
-|                                      |   v0.13.1  |   v0.13.0  |   v0.12.0  |
+|                                      |   v0.14.0  |   v0.13.1  |   v0.13.0  |
 |--------------------------------------|------------|------------|------------|
-|           Corpus size (GB)           |    5.48    |    5.48    |    5.59    |
+|           Corpus size (GB)           |    5.48    |    5.48    |    5.48    |
 |    Number of parliamentary records   |    17642   |    17642   |    17642   |
 |   Total parliamentary record pages*  |   1045458  |   1045458  |   1045458  |
 |  Total parliamentary record speeches |   1014214  |   1014214  |   1014214  |
@@ -50,7 +50,7 @@ Currently, we have an extensive set of Parliamentary Records (Riksdagens Protoko
 |          Total motion pages          |      0     |      0     |      0     |
 |          Total motion words          |      0     |      0     |      0     |
 |     Number of people with MP role    |    5975    |    5975    |    5975    |
-|  Number of people with minister role |     546    |     546    |     535    |
+|  Number of people with minister role |     546    |     546    |     546    |
 
 \* Digital original parliamentary records for some years in the 1990s are not paginated and thus do not contribute to the page count.See also §_Number of Pages in Parliamentary Records_.
 
@@ -110,4 +110,4 @@ If you find any errors, it is possible to submit corrections to them. This is do
 <img src="scripts/stats-dashboard/figures/logos/vr.png" width="250"/>
 
 ---
-Last update: 2024-01-16, 12:52:56
+Last update: 2024-02-23, 15:37:59
