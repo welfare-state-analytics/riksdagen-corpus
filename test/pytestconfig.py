@@ -20,6 +20,6 @@ def fetch_config(test):
             d = json.load(j)
             config = d[test]
             config['test_out_path'] = d['test_out_path']
-        return d[test]
+        return config
     except:
         return None

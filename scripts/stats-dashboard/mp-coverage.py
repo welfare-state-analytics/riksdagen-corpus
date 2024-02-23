@@ -90,12 +90,12 @@ def get_baseline(row, baseline_df):
 
 
 
-def main():
+def main(args):
     print("checking MP coverage...")
-    baseline_df = pd.read_csv("corpus/quality_assessment/baseline_mp_frequencies_per_year/number_mp_in_parliament.csv")
+    baseline_df = pd.read_csv(args.mp_baseline)
     baseline_df['year'] = baseline_df['year'].apply(lambda x: str(x)[:4])
     #print(baseline_df)
-    dates = pd.read_csv("corpus/quality_assessment/session-dates/session-dates.csv", sep=";")
+    dates = pd.read_csv(args.session_dates, sep=";")
     dates = dates[~dates['protocol'].isin(skip)]
     dates = dates[~dates['date'].isin(["2021", "1977"])]
     #print(dates)
@@ -211,4 +211,14 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--mp-baseline",
+                type=str,
+                default = "corpus/quality_assessment/baseline_mp_frequencies_per_year/number_mp_in_parliament.csv",
+                help = "Path to file with baseline number of MPs in parliament per year.")
+    parser.add_argument("--session-dates",
+                type = str,
+                default = "test/data/session-dates/session-dates.csv",
+                help = "Path to file with dates of parliamentary meetings.")
+    args = parser.parse_args()
+    main(args)
