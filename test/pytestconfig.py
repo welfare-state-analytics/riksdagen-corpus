@@ -9,12 +9,16 @@ Setup:
 
  This is a mini module for repetitive functions related to this strategy for passing params to unittests.
 """
-import json
+import inspect, json, os
 
-
-
+def caller():
+    for frame in inspect.stack()[1:]:
+        if frame.filename[0] != '<':
+            print(os.path.dirname(os.path.relpath(frame.filename)))
+            break
 
 def fetch_config(test):
+    caller()
     try:
         with open("test/_test_config/test.json", 'r') as j:
             d = json.load(j)

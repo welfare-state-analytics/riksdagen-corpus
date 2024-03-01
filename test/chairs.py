@@ -293,7 +293,7 @@ class Test(unittest.TestCase):
     # ---------------------------------------------
     #
     #  check no single person sits in two places at once
-    @unittest.skip
+    #@unittest.skip
     def test_chair_hogs(self):
         print("Testing: no single person sits in two places at once")
         chair_mp = self.get_chair_mp()
@@ -396,7 +396,7 @@ class Test(unittest.TestCase):
         self.assertTrue(no_chair_hogs)
 
     # Check no one is sharing a chare
-    @unittest.skip
+    #@unittest.skip
     def test_knaMP(self):
         print("Testing no one sits on the same chair at the same time")
         config = fetch_config("chairs")
@@ -486,7 +486,7 @@ class Test(unittest.TestCase):
     # ---------------------
     #
     #  test all chairs are filled
-    @unittest.skip
+    #@unittest.skip
     def test_chair_coverage(self):
         print("Test coverage of chair-MP mapping.")
         config = fetch_config("chairs")
