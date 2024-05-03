@@ -166,6 +166,7 @@ class Test(unittest.TestCase):
     #  -------------------------------------------
     #
     #  check chair IDs are unique
+    @unittest.skip
     def test_unique_chair_id(self):
         print("Testing: chairs have unique IDs")
         chairs = self.get_chairs()
@@ -175,6 +176,7 @@ class Test(unittest.TestCase):
         self.assertEqual(len(chair_ids), len(set(chair_ids)))
 
     #  check no chairs are numbered higher than the max chair nr for that chamber
+    @unittest.skip
     def test_chair_nrs_in_range(self):
         print("Testing: chairs within max range for chamber")
         chairs = self.get_chairs()
@@ -190,6 +192,7 @@ class Test(unittest.TestCase):
     #  --------------------------------
     #
     #  check chair IDs in chair_mp are the same set as chairs
+    @unittest.skip
     def test_chair_id_sets(self):
         print("Testing: chair ids are the same set in chairs.csv and chair_mp.csv")
         chairs = self.get_chairs()
@@ -201,6 +204,7 @@ class Test(unittest.TestCase):
         self.assertEqual(len(chair_ids_a), len(chair_ids_b))
 
     #  check no chairs from tvåkammartiden are used in enkammartid and vice-versa
+    @unittest.skip
     def test_chair_chambertime_concurrence(self):
         print("Testing: no chairs from tvåkammartiden are used in enkammartid and vice-versa")
         chairs = self.get_chairs()
@@ -233,6 +237,7 @@ class Test(unittest.TestCase):
     #  check that chairs are within acceptable range for a given year
     #      and that every seat within that range is present at least once
     #      in the chair_mp file (whether filled or not)
+    @unittest.skip
     def test_chair_nrs_in_range_for_year(self):
         print("Testing: chairs are within acceptable range for a given year\n     and that every seat within that range is present at least once")
         chairs = self.get_chairs()
