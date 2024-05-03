@@ -1,7 +1,7 @@
 [![Unit tests](https://github.com/welfare-state-analytics/riksdagen-corpus/actions/workflows/push.yml/badge.svg)](https://github.com/welfare-state-analytics/riksdagen-corpus/actions/workflows/push.yml)
 [![Validate Parla-Clarin XML](https://github.com/welfare-state-analytics/riksdagen-corpus/actions/workflows/validate.yml/badge.svg)](https://github.com/welfare-state-analytics/riksdagen-corpus/actions/workflows/validate.yml)
 
-# DEPRECIATION NOTICE
+# DEPRECATION NOTICE
 
 The Swedish Parliament Corpus has moved over to the [SWERIK Project](https://github.com/swerik-project/the-swedish-parliament-corpus) github page. v.0.14.0 was the last release under this repository. Please visit the new repo for the most up-to-date releases.
 
